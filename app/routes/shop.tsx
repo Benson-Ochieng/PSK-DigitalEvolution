@@ -58,7 +58,6 @@ const FILTERS = [
 function ProductCard({ p, animal }: { p: any; animal: string }) {
   const { addItem } = useCart();
   const [added, setAdded] = useState(false);
-  const save = p.competitor_min ? Math.round(p.competitor_min - p.our_price) : 0;
 
   function handleAdd(e: React.MouseEvent) {
     e.preventDefault();
@@ -74,11 +73,8 @@ function ProductCard({ p, animal }: { p: any; animal: string }) {
     setTimeout(() => setAdded(false), 1500);
   }
 
-  const waMsg = encodeURIComponent(`Hi Pet Food Bag, I'd like to order: ${p.name}`);
-
   return (
     <div className="product-card">
-      <span className="animal-badge">{p.food_type}</span>
       <Link to={`/shop/${p.id}`} className="product-card-link">
         <div className="product-card-img">
           {p.image_url
@@ -91,23 +87,13 @@ function ProductCard({ p, animal }: { p: any; animal: string }) {
           }
         </div>
         <div className="product-card-body">
-          <div className="product-brand">{p.brand}</div>
-          <div className="product-name">{p.name}</div>
-          <div className="product-price-row">
-            <span className="product-price">KES {Number(p.our_price).toLocaleString()}</span>
-            {p.weight_kg && <span className="product-price-unit">{p.weight_kg}kg</span>}
-          </div>
-          {save > 0 && (
-            <span className="save-badge">▼ Save KES {save.toLocaleString()} vs competitors</span>
-          )}
+          <div className="product-name" title={p.name}>{p.name}</div>
+          <div className="product-price">{Number(p.our_price).toLocaleString()}KSh</div>
         </div>
       </Link>
       <button className={`add-to-cart-btn ${added ? "added" : ""}`} onClick={handleAdd}>
-        {added ? "✓ Added!" : "🛒 Add to Cart"}
+        {added ? "✓ Added" : "Add To Cart"}
       </button>
-      <a href={`https://wa.me/254700000000?text=${waMsg}`} className="product-card-footer" target="_blank" rel="noreferrer">
-        📱 Order on WhatsApp
-      </a>
     </div>
   );
 }

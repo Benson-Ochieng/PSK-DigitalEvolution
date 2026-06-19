@@ -13,6 +13,11 @@ import { CartProvider } from "./context/cart";
 import { CartDrawer, CheckoutModal } from "./components/CheckoutModal";
 
 export const links: Route.LinksFunction = () => [
+  {
+    rel: "icon",
+    type: "image/png",
+    href: "/images/cropped-petstore-kenya-favicon-512x512-blue-background-192x192.png",
+  },
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
   { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
   {

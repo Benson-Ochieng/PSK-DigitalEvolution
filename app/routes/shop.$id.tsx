@@ -83,7 +83,6 @@ export default function ProductDetail() {
 
   return (
     <>
-      <div className="flag-strip" />
       <nav className="navbar">
         <div className="navbar-inner">
           <Link to="/" className="navbar-logo">PET FOOD <span>BAG.</span></Link>

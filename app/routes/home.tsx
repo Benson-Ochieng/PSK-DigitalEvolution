@@ -10,7 +10,7 @@ export const links: Route.LinksFunction = () => [];
 
 export function meta(): Route.MetaDescriptors {
   return [
-    { title: "PetStore Kenya — Best Prices on Pet Food & Accessories" },
+    { title: "PetStore Kenya | We Love Them as Much as You Do" },
     { name: "description", content: "Shop premium dog food, cat food, treats, healthcare, and accessories at PetStore Kenya. Fast delivery and secure payments." },
   ];
 }
@@ -43,7 +43,6 @@ export async function loader() {
 function ProductCard({ p }: { p: any }) {
   const { addItem } = useCart();
   const [added, setAdded] = useState(false);
-  const save = p.competitor_min ? Math.round(p.competitor_min - p.our_price) : 0;
 
   function handleAdd(e: React.MouseEvent) {
     e.preventDefault();
@@ -59,16 +58,8 @@ function ProductCard({ p }: { p: any }) {
     setTimeout(() => setAdded(false), 1500);
   }
 
-  // Generate high-fidelity mock stock warnings for specific products to match the screenshot
-  const mockStock = (p.id % 6) + 2;
-  const showStockWarning = (p.id % 4 === 0) || p.name.toLowerCase().includes("lara") || p.name.toLowerCase().includes("simba");
-
   return (
     <div className="product-card">
-      <span className="animal-badge">{p.animal_type}</span>
-      {showStockWarning && (
-        <span className="stock-warning-badge">Only {mockStock} left!</span>
-      )}
       <Link to={`/shop/${p.id}`} className="product-card-link">
         <div className="product-card-img">
           {p.image_url ? (
@@ -78,23 +69,13 @@ function ProductCard({ p }: { p: any }) {
           )}
         </div>
         <div className="product-card-body">
-          <div className="product-brand">{p.brand}</div>
           <div className="product-name" title={p.name}>{p.name}</div>
-          <div className="product-price-row">
-            <span className="product-price">{Number(p.our_price).toLocaleString()} KSh</span>
-            {p.weight_kg && <span className="product-price-unit">({p.weight_kg}kg)</span>}
-          </div>
-          {save > 0 && (
-            <span className="save-badge">▼ Save {save.toLocaleString()} KSh</span>
-          )}
+          <div className="product-price">{Number(p.our_price).toLocaleString()}KSh</div>
         </div>
       </Link>
       <button className={`add-to-cart-btn ${added ? "added" : ""}`} onClick={handleAdd}>
-        {added ? "✓ Added to Cart!" : "Add to Cart"}
+        {added ? "✓ Added" : "Add To Cart"}
       </button>
-      <Link to={`/shop/${p.id}`} className="product-card-footer">
-        View Specifications
-      </Link>
     </div>
   );
 }
@@ -143,7 +124,7 @@ export default function Home() {
       <Navbar />
 
       <div className="page">
-        
+
         {/* 1. SHOP BY PET Section */}
         <section className="section">
           <div className="section-header-bar">
@@ -200,9 +181,9 @@ export default function Home() {
           </div>
           {visibleCount < featured.length && (
             <div style={{ marginTop: "2.5rem", textAlign: "center" }}>
-              <button 
-                onClick={() => setVisibleCount((prev) => prev + 10)} 
-                className="btn-primary"
+              <button
+                onClick={() => setVisibleCount((prev) => prev + 10)}
+                className="btn-blue"
                 style={{ padding: "0.6rem 2.5rem", textTransform: "uppercase", fontSize: "0.8rem" }}
               >
                 Load More
@@ -218,12 +199,12 @@ export default function Home() {
             <Link to="/shop" className="clearance-banner-item">
               <img src="/images/lbanner2.jpg.webp" alt="Pet Obesity banner" />
             </Link>
-            
+
             {/* Center large banner */}
             <Link to="/shop" className="clearance-banner-item">
               <img src="/images/midbanner-copy.jpg.webp" alt="Huge Clearance banner" />
             </Link>
-            
+
             {/* Right stacked banners */}
             <div className="clearance-col-side">
               <Link to="/shop" className="clearance-banner-item" style={{ flex: 1 }}>

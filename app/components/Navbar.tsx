@@ -33,8 +33,7 @@ export default function Navbar() {
         </Link>
       </div>
 
-      {/* Flag Strip */}
-      <div className="flag-strip" />
+
 
       {/* Main Navbar */}
       <nav className="navbar">
