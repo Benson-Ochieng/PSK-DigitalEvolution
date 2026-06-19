@@ -1,0 +1,335 @@
+/* Admin-specific CSS rules. Keeps admin pages cleanly isolated from storefront app.css. */
+:root {
+  --admin-bg: #090909;
+  --admin-card-bg: #121212;
+  --admin-border: #262626;
+  --admin-text: #e5e5e5;
+  --admin-text-muted: #737373;
+  --admin-accent: #C8102E; /* Kenya flag red */
+  --admin-success: #10b981; /* green */
+  --admin-info: #3b82f6; /* blue */
+  --admin-warning: #f59e0b; /* amber */
+  --admin-dark-gray: #1a1a1a;
+}
+
+body.admin-body {
+  background-color: var(--admin-bg);
+  color: var(--admin-text);
+  font-family: var(--font-mono), monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.admin-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar */
+.admin-sidebar {
+  width: 260px;
+  background-color: var(--admin-card-bg);
+  border-right: 2px solid var(--admin-border);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.admin-sidebar-header {
+  padding: 1.5rem;
+  border-bottom: 2px solid var(--admin-border);
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-sidebar-logo {
+  font-size: 1.15rem;
+  fontWeight: 800;
+  color: #fff;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+}
+
+.admin-sidebar-logo span {
+  color: var(--admin-accent);
+}
+
+.admin-sidebar-badge {
+  font-size: 0.6rem;
+  color: var(--admin-text-muted);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 0.2rem;
+}
+
+.admin-sidebar-menu {
+  list-style: none;
+  padding: 1rem 0;
+  margin: 0;
+  flex: 1;
+}
+
+.admin-sidebar-item a {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.85rem 1.5rem;
+  color: var(--admin-text);
+  text-decoration: none;
+  font-size: 0.85rem;
+  border-left: 3px solid transparent;
+  transition: all 0.2s;
+}
+
+.admin-sidebar-item a:hover {
+  background-color: var(--admin-dark-gray);
+  color: #fff;
+}
+
+.admin-sidebar-item.active a {
+  background-color: rgba(200, 16, 46, 0.08);
+  color: #fff;
+  border-left-color: var(--admin-accent);
+  font-weight: 700;
+}
+
+.admin-sidebar-footer {
+  padding: 1rem 1.5rem;
+  border-top: 2px solid var(--admin-border);
+}
+
+.logout-btn {
+  background: none;
+  border: none;
+  color: var(--admin-text-muted);
+  font-family: inherit;
+  font-size: 0.8rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+  width: 100%;
+  text-align: left;
+  transition: color 0.2s;
+}
+
+.logout-btn:hover {
+  color: #fff;
+}
+
+/* Main Content Area */
+.admin-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0; /* Prevents flex items from overflowing */
+}
+
+.admin-header {
+  height: 60px;
+  background-color: var(--admin-card-bg);
+  border-bottom: 2px solid var(--admin-border);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 2rem;
+}
+
+.admin-content {
+  padding: 2rem;
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Dashboard Cards */
+.admin-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.stat-card {
+  background-color: var(--admin-card-bg);
+  border: 2px solid var(--admin-border);
+  padding: 1.5rem;
+  box-shadow: 4px 4px 0px #111;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.stat-card-label {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--admin-text-muted);
+}
+
+.stat-card-value {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.stat-card-delta {
+  font-size: 0.65rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.stat-card-delta.positive {
+  color: var(--admin-success);
+}
+
+.stat-card-delta.negative {
+  color: var(--admin-accent);
+}
+
+/* Data Tables */
+.admin-table-container {
+  background-color: var(--admin-card-bg);
+  border: 2px solid var(--admin-border);
+  box-shadow: 6px 6px 0px #111;
+  overflow-x: auto;
+  margin-bottom: 2rem;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.8rem;
+}
+
+.admin-table th {
+  background-color: #121212;
+  border-bottom: 2px solid var(--admin-border);
+  padding: 0.85rem 1rem;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--admin-text-muted);
+  font-weight: 700;
+}
+
+.admin-table td {
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid var(--admin-border);
+  color: var(--admin-text);
+}
+
+.admin-table tr:hover td {
+  background-color: var(--admin-dark-gray);
+  color: #fff;
+}
+
+/* Badges */
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border: 1px solid currentColor;
+}
+
+.status-pill.pending {
+  color: var(--admin-warning);
+  background-color: rgba(245, 158, 11, 0.05);
+}
+
+.status-pill.confirmed {
+  color: var(--admin-info);
+  background-color: rgba(59, 130, 246, 0.05);
+}
+
+.status-pill.preparing {
+  color: var(--admin-info);
+  background-color: rgba(59, 130, 246, 0.05);
+}
+
+.status-pill.out_for_delivery {
+  color: var(--admin-warning);
+  background-color: rgba(245, 158, 11, 0.05);
+}
+
+.status-pill.delivered {
+  color: var(--admin-success);
+  background-color: rgba(16, 185, 129, 0.05);
+}
+
+.status-pill.cancelled {
+  color: var(--admin-accent);
+  background-color: rgba(200, 16, 46, 0.05);
+}
+
+/* Forms & Buttons */
+.form-group {
+  margin-bottom: 1.25rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--admin-text-muted);
+  margin-bottom: 0.4rem;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  background-color: var(--admin-dark-gray);
+  border: 2px solid var(--admin-border);
+  color: #fff;
+  font-family: inherit;
+  font-size: 0.8rem;
+  outline: none;
+}
+
+.form-control:focus {
+  border-color: var(--admin-accent);
+}
+
+.btn-admin-primary {
+  background-color: var(--admin-accent);
+  color: #fff;
+  border: 2px solid #000;
+  padding: 0.6rem 1.25rem;
+  font-family: inherit;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  box-shadow: 2px 2px 0px #000;
+}
+
+.btn-admin-primary:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0px #000;
+}
+
+.btn-admin-secondary {
+  background-color: transparent;
+  color: var(--admin-text);
+  border: 2px solid var(--admin-border);
+  padding: 0.6rem 1.25rem;
+  font-family: inherit;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+}
+
+.btn-admin-secondary:hover {
+  background-color: var(--admin-dark-gray);
+  color: #fff;
+}

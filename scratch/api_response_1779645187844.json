@@ -1,0 +1,23 @@
+{
+  "url": "https://bam.nr-data.net/1/NRBR-4f8ac4e6e025304d715?a=1118634091&v=1.314.0&to=NlwHZ0cHD0EEVkNYCw8WMlZXIBNTCFBAXhYKbBdaGigEShFfRB4jJG1KHG4VFV0XUH5VOU5iCVJbATwdFlBWQwcJ&rst=5591&ck=0&s=c7b6c8cdb2324183&ref=https://www.carrefour.ke/mafken/en/search&ptid=ecf7aceff1af0bb2&tt=211bb3068b02ebbd&af=err,spa,xhr,stn,ins&ap=15.442771&be=1690&fe=3559&dc=1142&fsh=1&perf=%7B%22timing%22:%7B%22of%22:1779645181734,%22n%22:0,%22f%22:2,%22dn%22:4,%22dne%22:9,%22c%22:9,%22s%22:25,%22ce%22:106,%22rq%22:107,%22rp%22:1691,%22rpe%22:1699,%22di%22:2733,%22ds%22:2831,%22de%22:2832,%22dc%22:5244,%22l%22:5245,%22le%22:5249%7D,%22navigation%22:%7B%7D%7D&fp=2564&fcp=2564",
+  "data": {
+    "stn": 0,
+    "err": 1,
+    "ins": 1,
+    "spa": 1,
+    "sr": 0,
+    "srs": 0,
+    "st": 1,
+    "sts": 0,
+    "log": 0,
+    "logapi": 0,
+    "app": {
+      "agents": [
+        {
+          "entityGuid": "MzM1NTcyMHxCUk9XU0VSfEFQUExJQ0FUSU9OfDExMzQ1NDE1MTE"
+        }
+      ],
+      "nrServerTime": 1779645187612
+    }
+  }
+}
