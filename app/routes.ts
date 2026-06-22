@@ -10,6 +10,7 @@ export default [
   
   // API
   route("api/order", "routes/api.order.ts"),
+  route("api/search", "routes/api.search.ts"),
 
   // Admin login page (no layout wrapper)
   route("admin/login", "routes/admin.login.tsx"),
