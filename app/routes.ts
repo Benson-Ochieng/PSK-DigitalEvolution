@@ -7,6 +7,7 @@ export default [
   route("shop/:id", "routes/shop.$id.tsx"),
   route("flash-sale", "routes/flash-sale.tsx"),
   route("product-tag/new-arrivals", "routes/new-arrivals.tsx"),
+  route("my-account", "routes/my-account.tsx"),
   route("trust", "routes/trust.tsx"),
   route("why-us", "routes/why-us.tsx"),
   route("sustainability", "routes/sustainability.tsx"),

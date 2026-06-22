@@ -262,6 +262,7 @@ const DRAWER_MENU_ITEMS = [
 export default function Navbar() {
   const { count, setIsCartOpen } = useCart();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [searchVal, setSearchVal] = useState("");
   const [searchResults, setSearchResults] = useState<{
     suggestions: string[];
@@ -275,6 +276,13 @@ export default function Navbar() {
   const location = useLocation();
   const navigate = useNavigate();
   const searchRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      const isLogged = document.cookie.split("; ").some(row => row.trim().startsWith("customer_name="));
+      setIsLoggedIn(isLogged);
+    }
+  }, [location.pathname]);
 
   const renderDrawerMenuItem = (item: any, depth = 0) => {
     const isExpandable = !!item.subItems && item.subItems.length > 0;
@@ -695,8 +703,21 @@ export default function Navbar() {
 
           {/* Right Action Icons: My Account & Cart */}
           <div className="navbar-actions">
-            <Link to="/admin/login" className="account-nav-btn" title="My Account">
+            <Link to="/my-account" className="account-nav-btn" title="My Account" style={{ position: "relative", display: "inline-flex", alignItems: "center", justifyContent: "center" }}>
               <i className="fa fa-user" style={{ fontSize: "30px", color: "#ffffff" }}></i>
+              {isLoggedIn && (
+                <span className="green-dot" style={{
+                  position: "absolute",
+                  bottom: "-2px",
+                  right: "-2px",
+                  width: "12px",
+                  height: "12px",
+                  backgroundColor: "#22c55e",
+                  borderRadius: "50%",
+                  border: "2px solid #1053a0",
+                  zIndex: 10
+                }} />
+              )}
             </Link>
 
             <button className="cart-nav-btn" onClick={() => setIsCartOpen(true)} title="Shopping Cart">
