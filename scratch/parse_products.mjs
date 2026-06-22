@@ -112,7 +112,7 @@ cleaned.forEach((p, i) => {
 const sqlLines = [];
 
 sqlLines.push('-- ============================================================');
-sqlLines.push('-- Pet Food Bag - Real Carrefour Kenya Data Seed');
+sqlLines.push('-- PetStore Kenya - Real Carrefour Kenya Data Seed');
 sqlLines.push('-- Auto-generated from scraper output');
 sqlLines.push('-- ============================================================');
 sqlLines.push('TRUNCATE store_prices, products RESTART IDENTITY CASCADE;');
@@ -126,18 +126,18 @@ const productRows = cleaned.map(p => {
 sqlLines.push(productRows.join(',\n') + ';');
 sqlLines.push('');
 
-// Store prices: Carrefour as reference, Pet Food Bag at 80%
+// Store prices: Carrefour as reference, PetStore Kenya at 80%
 sqlLines.push('INSERT INTO store_prices (product_id, store_name, price, product_url, in_stock) VALUES');
 const priceRows = [];
 cleaned.forEach((p, i) => {
   const id = i + 1;
   if (p.carrefour_price) {
     const bbpPrice = Math.round(p.carrefour_price * 0.80);
-    priceRows.push(`  (${id}, 'Pet Food Bag', ${bbpPrice}, 'https://petfoodbag.co.ke/shop/${id}', true)`);
+    priceRows.push(`  (${id}, 'PetStore Kenya', ${bbpPrice}, 'https://petstore.co.ke/shop/${id}', true)`);
     priceRows.push(`  (${id}, 'Carrefour', ${p.carrefour_price}, '${p.carrefour_url}', true)`);
   }
 });
 sqlLines.push(priceRows.join(',\n') + ';');
 
-fs.writeFileSync('petfood_seed.sql', sqlLines.join('\n'));
-console.log('\n💾 SQL seed written to petfood_seed.sql');
+fs.writeFileSync('petstore_seed.sql', sqlLines.join('\n'));
+console.log('\n💾 SQL seed written to petstore_seed.sql');

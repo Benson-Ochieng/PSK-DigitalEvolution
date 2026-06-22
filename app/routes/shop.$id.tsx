@@ -17,7 +17,7 @@ export async function loader({ params }: Route.LoaderArgs) {
           'url', sp.product_url,
           'in_stock', sp.in_stock,
           'last_updated', sp.last_updated
-        ) ORDER BY sp.store_name = 'Pet Food Bag' DESC, sp.price ASC
+        ) ORDER BY sp.store_name = 'PetStore Kenya' DESC, sp.price ASC
       ) AS prices
     FROM products p
     JOIN store_prices sp ON sp.product_id = p.id
@@ -32,7 +32,7 @@ export async function loader({ params }: Route.LoaderArgs) {
 export function meta({ data }: Route.MetaArgs) {
   const p = data?.product;
   return [
-    { title: `${p?.name ?? "Product"} — Pet Food Bag` },
+    { title: `${p?.name ?? "Product"} — PetStore Kenya` },
     { name: "description", content: `Buy ${p?.name} online. Always cheaper than Carrefour & Naivas. Fast Nairobi delivery.` },
   ];
 }
@@ -59,11 +59,11 @@ export default function ProductDetail() {
   const [added, setAdded] = useState(false);
 
   const prices: any[] = p.prices || [];
-  const ourPrice    = prices.find((x: any) => x.store === "Pet Food Bag");
-  const competitors = prices.filter((x: any) => x.store !== "Pet Food Bag");
+  const ourPrice    = prices.find((x: any) => x.store === "PetStore Kenya");
+  const competitors = prices.filter((x: any) => x.store !== "PetStore Kenya");
   const cheapestComp = competitors.reduce((min: any, c: any) => (!min || c.price < min.price ? c : min), null);
   const saving = cheapestComp ? Math.round(cheapestComp.price - (ourPrice?.price ?? 0)) : 0;
-  const waMsg = encodeURIComponent(`Hi Pet Food Bag, I'd like to order: ${p.name} (KES ${ourPrice?.price ?? ""})`);
+  const waMsg = encodeURIComponent(`Hi PetStore Kenya, I'd like to order: ${p.name} (KES ${ourPrice?.price ?? ""})`);
 
   function handleAdd() {
     if (!ourPrice) return;
@@ -85,7 +85,7 @@ export default function ProductDetail() {
     <>
       <nav className="navbar">
         <div className="navbar-inner">
-          <Link to="/" className="navbar-logo">PET FOOD <span>BAG.</span></Link>
+          <Link to="/" className="navbar-logo">PETSTORE <span>KENYA.</span></Link>
           <ul className="navbar-links">
             <li><Link to="/shop" style={{ fontFamily: "var(--font-mono)", fontSize: "0.75rem", fontWeight: 700, color: "var(--ink-light)", textDecoration: "none", letterSpacing: "0.06em" }}>← Back to Shop</Link></li>
           </ul>
@@ -158,7 +158,7 @@ export default function ProductDetail() {
             {ourPrice && (
               <div style={{ borderTop: "2px solid var(--ink)", borderBottom: "2px solid var(--ink)", padding: "1.25rem 0", marginBottom: "1rem" }}>
                 <div style={{ fontFamily: "var(--font-mono)", fontSize: "0.65rem", fontWeight: 700, letterSpacing: "0.12em", textTransform: "uppercase", color: "var(--ink-light)", marginBottom: "0.35rem" }}>
-                  Pet Food Bag Price
+                  PetStore Kenya Price
                 </div>
                 <div style={{ fontFamily: "var(--font-mono)", fontSize: "2.75rem", fontWeight: 700, color: "var(--ke-red)", lineHeight: 1 }}>
                   KES {Number(ourPrice.price).toLocaleString()}

@@ -3,7 +3,7 @@ import type { Route } from "./+types/admin._index";
 import { query } from "../db.server";
 
 export function meta(): Route.MetaDescriptors {
-  return [{ title: "Overview — Pet Food Bag Admin" }];
+  return [{ title: "Overview — PetStore Kenya Admin" }];
 }
 
 export async function loader() {
@@ -27,8 +27,8 @@ export async function loader() {
   const alertsRes = await query(`
     SELECT COUNT(DISTINCT p.id) as count
     FROM products p
-    JOIN store_prices bbp ON bbp.product_id = p.id AND bbp.store_name = 'Pet Food Bag'
-    JOIN store_prices comp ON comp.product_id = p.id AND comp.store_name != 'Pet Food Bag'
+    JOIN store_prices bbp ON bbp.product_id = p.id AND bbp.store_name = 'PetStore Kenya'
+    JOIN store_prices comp ON comp.product_id = p.id AND comp.store_name != 'PetStore Kenya'
     WHERE comp.price < bbp.price
   `);
   const alertCount = Number(alertsRes.rows[0].count);

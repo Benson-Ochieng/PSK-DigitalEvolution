@@ -1,4 +1,4 @@
-# Pet Food Bag — Implementation Plan
+# PetStore Kenya — Implementation Plan
 
 > **Updated:** 2026-05-24  
 > **Status:** 🚀 In Progress — React Router v7 scaffold complete
@@ -7,7 +7,7 @@
 
 ## What We're Building
 
-**Pet Food Bag** is a **direct-to-consumer pet food retail brand** run by Loki (distributor). We sell the same top pet food brands cheaper and faster than Carrefour, Naivas, and Quickmart — using Loki's existing Nairobi logistics infrastructure.
+**PetStore Kenya** is a **direct-to-consumer pet food retail brand** run by Loki (distributor). We sell the same top pet food brands cheaper and faster than Carrefour, Naivas, and Quickmart — using Loki's existing Nairobi logistics infrastructure.
 
 This is **not** a price aggregator. It is a **retail storefront**.
 
@@ -28,7 +28,7 @@ Loki internal:
 
 | Element | Value |
 |---|---|
-| Brand name | **Pet Food Bag** |
+| Brand name | **PetStore Kenya** |
 | Tagline | Kenya's Pet Food, Delivered. |
 | Aesthetic | Neo-brutalist kraft paper — zero border-radius, heavy borders, white space |
 | Background | `#F2EBE0` — warm kraft paper cream |
@@ -36,7 +36,6 @@ Loki internal:
 | Text / borders | `#1A1A1A` — stamp-on-kraft black |
 | CTA / price | `#C8102E` — Kenya flag red |
 | Trust accent | `#006600` — Kenya flag green |
-| Kenyan flag strip | 4px bar: black · red · green (under navbar + footer) |
 | Fonts | **Plus Jakarta Sans** (headings) + **JetBrains Mono** (prices, labels) |
 | Border radius | `0` everywhere — zero radius, sharp corners |
 | Imagery | Rich photography — happy cats & dogs, Nairobi homes, outdoor Kenyan settings |
@@ -50,7 +49,7 @@ Loki internal:
       ↓
 [React Router v7 SSR — port 3001]
       ↓
-[PostgreSQL petfood_aggregator — localhost:5433 (loki-postgres Docker container)]
+[PostgreSQL petstore_aggregator — localhost:5433 (loki-postgres Docker container)]
 
 [Cron / Manual trigger]
       ↓
@@ -67,7 +66,7 @@ Loki internal:
 |---|---|
 | Framework | React Router v7 (framework/SSR mode) |
 | Runtime | Node.js via `@react-router/node` |
-| Database | PostgreSQL `petfood_aggregator` on `localhost:5433` |
+| Database | PostgreSQL `petstore_aggregator` on `localhost:5433` |
 | DB client | `pg` raw SQL + singleton Pool |
 | Styling | Tailwind CSS v4 |
 | Scraper | Playwright (future phase) |
@@ -75,10 +74,10 @@ Loki internal:
 
 ---
 
-## Database — `petfood_aggregator` ✅ Already Created
+## Database — `petstore_aggregator` ✅ Already Created
 
 Lives in the **same Docker container** (`loki-postgres`) as `loki_merchandiser`.  
-Connection: `postgresql://loki_user:loki_password@localhost:5433/petfood_aggregator`
+Connection: `postgresql://loki_user:loki_password@localhost:5433/petstore_aggregator`
 
 ### Schema
 
@@ -99,7 +98,7 @@ products (
 store_prices (
   id SERIAL PRIMARY KEY,
   product_id INT REFERENCES products(id) ON DELETE CASCADE,
-  store_name VARCHAR(50) NOT NULL,  -- 'Pet Food Bag' | 'Carrefour' | 'Naivas' | 'Quickmart'
+  store_name VARCHAR(50) NOT NULL,  -- 'PetStore Kenya' | 'Carrefour' | 'Naivas' | 'Quickmart'
   price DECIMAL(10,2) NOT NULL,
   product_url TEXT NOT NULL,
   in_stock BOOLEAN DEFAULT TRUE,
@@ -107,7 +106,7 @@ store_prices (
 )
 ```
 
-> `store_name = 'Pet Food Bag'` → **our retail price** (the hero number customers see)  
+> `store_name = 'PetStore Kenya'` → **our retail price** (the hero number customers see)  
 > `store_name = 'Carrefour' | 'Naivas' | 'Quickmart'` → competitor reference (used to compute "You save KES X", admin-only detail view)
 
 ---
@@ -115,9 +114,9 @@ store_prices (
 ## File Structure
 
 ```
-local-petfood/
+./
 ├── implementation_plan.md          ← this file
-├── petfood_seed.sql                ← seed data (24 products × 4 stores)
+├── petstore_seed.sql                ← seed data (24 products × 4 stores)
 ├── .env                            ← DATABASE_URL, PORT=3001
 ├── package.json                    ← add: pg, dotenv, lucide-react
 ├── vite.config.ts                  ← add tailwindcss plugin
@@ -140,13 +139,13 @@ local-petfood/
 ## Pages
 
 ### `/` — Homepage
-- **Navbar**: `Pet Food Bag.` logo · Shop · About · Contact · `[ORDER NOW →]`
+- **Navbar**: `PetStore Kenya.` logo · Shop · About · Contact · `[ORDER NOW →]`
 - **Kenyan flag stripe** (4px: black · red · green)
 - **Hero**: Full-width section — "Kenya's Pet Food, Delivered." — bold headline, cat & dog image, `[SHOP NOW]` CTA
 - **Trust bar**: 🇰🇪 Proudly Kenyan · 🐾 All Major Brands · 🚚 Nairobi Delivery · 💰 Beat Supermarket Prices
 - **Category grid**: Dog Food · Cat Food · Treats · Supplements
 - **Featured products** (3 cards, best sellers)
-- **"Why Pet Food Bag?"** — 3-column: 💰 Lowest Price / 🚚 Fast Delivery / 🐾 Quality Brands
+- **"Why PetStore Kenya?"** — 3-column: 💰 Lowest Price / 🚚 Fast Delivery / 🐾 Quality Brands
 - **Footer** + flag stripe
 
 ### `/shop` — Product Catalogue
@@ -177,10 +176,10 @@ local-petfood/
 
 ## Implementation Steps
 
-- [x] PostgreSQL `petfood_aggregator` database created
+- [x] PostgreSQL `petstore_aggregator` database created
 - [x] `products` + `store_prices` tables created with indexes
-- [x] Seed SQL file written (`petfood_seed.sql`)
-- [x] React Router v7 scaffolded in `local-petfood/`
+- [x] Seed SQL file written (`petstore_seed.sql`)
+- [x] React Router v7 scaffolded in `./`
 - [ ] Install additional deps: `pg`, `dotenv`, `lucide-react`
 - [ ] Create `.env` with `DATABASE_URL` + `PORT=3001`
 - [ ] Build `app/db.server.ts` (pg pool + auto-migrations)
@@ -190,7 +189,7 @@ local-petfood/
 - [ ] Build `app/routes/shop.tsx` — catalogue
 - [ ] Build `app/routes/shop.$id.tsx` — product detail
 - [ ] Build `app/routes/admin.prices.tsx` — internal dashboard
-- [ ] Run `petfood_seed.sql` to populate DB
+- [ ] Run `petstore_seed.sql` to populate DB
 - [ ] Run `npm run dev` and verify on port 3001
 - [ ] Generate/embed cat & dog images
 

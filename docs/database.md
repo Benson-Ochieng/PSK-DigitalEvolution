@@ -1,6 +1,6 @@
 # Database Schema Reference
 
-This document maps out the database tables, relations, fields, and indexing strategies utilized in the Pet Food Bag application.
+This document maps out the database tables, relations, fields, and indexing strategies utilized in the PetStore Kenya application.
 
 ## Entity-Relationship Schema
 
@@ -90,10 +90,10 @@ The core catalog table. Contains metadata for each item.
 - `nutrition_protein`/`nutrition_fat`/`nutrition_fibre`/`nutrition_moisture` (NUMERIC(5,1)) - Used to display nutrient sheets.
 
 ### 2. `store_prices`
-Tracks pricing benchmarks for Pet Food Bag and competitors (Carrefour, Naivas, Jumia).
+Tracks pricing benchmarks for PetStore Kenya and competitors (Carrefour, Naivas, Jumia).
 - `id` (SERIAL PRIMARY KEY)
 - `product_id` (INTEGER, REFERENCES `products(id)` ON DELETE CASCADE)
-- `store_name` (TEXT, NOT NULL) - e.g. 'Pet Food Bag', 'Carrefour'
+- `store_name` (TEXT, NOT NULL) - e.g. 'PetStore Kenya', 'Carrefour'
 - `price` (NUMERIC(10,2))
 - `product_url` (TEXT) - Deep link to competitor listing
 - `in_stock` (BOOLEAN)

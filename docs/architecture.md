@@ -1,10 +1,10 @@
 # System Architecture & Design Guidelines
 
-This document details the architectural layout, core patterns, and design guidelines for the **Pet Food Bag** storefront and admin application.
+This document details the architectural layout, core patterns, and design guidelines for the **PetStore Kenya** storefront and admin application.
 
 ## System Overview
 
-Pet Food Bag uses a hybrid client/server React Router v7 structure running on Node.js, backed by a PostgreSQL database container.
+PetStore Kenya uses a hybrid client/server React Router v7 structure running on Node.js, backed by a PostgreSQL database container.
 
 ```mermaid
 graph TD

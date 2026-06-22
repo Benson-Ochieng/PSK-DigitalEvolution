@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 export function meta() {
   return [
-    { title: "Kenyan Sourced, Trusted Quality — Pet Food Bag" },
+    { title: "Kenyan Sourced, Trusted Quality — PetStore Kenya" },
     { name: "description", content: "Learn why buying local Kenyan pet food is fresher, cheaper, and healthier for your pets than imported brands." },
   ];
 }
@@ -80,7 +80,7 @@ export default function TrustBuilder() {
           </h1>
           <p style={{ fontSize: "1.05rem", lineHeight: 1.7, color: "var(--ink-light)", maxWidth: "800px" }}>
             Did you know imported pet food spends up to <strong>6 months</strong> inside hot shipping containers and customs clearance before reaching Kenyan shelves? This heat and time degrades vital proteins, fats, and vitamin content. 
-            By choosing <strong>Pet Food Bag</strong>, you bypass imports, support Kenyan farmers and fishers, and feed your pet food manufactured right here in Kenya that reaches your bowl within days.
+            By choosing <strong>PetStore Kenya</strong>, you bypass imports, support Kenyan farmers and fishers, and feed your pet food manufactured right here in Kenya that reaches your bowl within days.
           </p>
         </div>
 
@@ -163,7 +163,7 @@ export default function TrustBuilder() {
             <Link to="/shop" className="btn-primary" style={{ padding: "0.75rem 2rem", fontSize: "0.95rem" }}>
               🛒 Shop Local Pet Food
             </Link>
-            <a href="https://wa.me/254700000000?text=Hi%20Pet%20Food%20Bag%2C%20I%27d%20like%20to%20order!" className="btn-outline" style={{ padding: "0.75rem 2rem", fontSize: "0.95rem", border: "3px solid var(--ink)", color: "var(--ink)", textDecoration: "none", display: "inline-flex", alignItems: "center", fontWeight: 700 }}>
+            <a href="https://wa.me/254700000000?text=Hi%20PetStore%20Kenya%2C%20I%27d%20like%20to%20order!" className="btn-outline" style={{ padding: "0.75rem 2rem", fontSize: "0.95rem", border: "3px solid var(--ink)", color: "var(--ink)", textDecoration: "none", display: "inline-flex", alignItems: "center", fontWeight: 700 }}>
               📱 Order on WhatsApp
             </a>
           </div>

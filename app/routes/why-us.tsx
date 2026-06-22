@@ -4,8 +4,8 @@ import Footer from "../components/Footer";
 
 export function meta() {
   return [
-    { title: "Why Choose Us — Pet Food Bag" },
-    { name: "description", content: "Discover the Pet Food Bag difference. Learn how we deliver fresher, cheaper, and locally sourced pet food in Nairobi." },
+    { title: "Why Choose Us — PetStore Kenya" },
+    { name: "description", content: "Discover the PetStore Kenya difference. Learn how we deliver fresher, cheaper, and locally sourced pet food in Nairobi." },
   ];
 }
 
@@ -47,7 +47,7 @@ export default function WhyUs() {
     {
       title: "Kenyan First (Economic Impact)",
       icon: "🇰🇪",
-      desc: "When you buy imported brands, your money leaves the country. When you buy from Pet Food Bag, your money stays here, supporting Kenyan contract farmers for poultry, beef pastures in Nakuru, and local lakeside communities harvesting Omena on Lake Victoria.",
+      desc: "When you buy imported brands, your money leaves the country. When you buy from PetStore Kenya, your money stays here, supporting Kenyan contract farmers for poultry, beef pastures in Nakuru, and local lakeside communities harvesting Omena on Lake Victoria.",
       list: [
         "Supports Kenyan agricultural jobs",
         "Supports sustainable local lakeside fisheries",
@@ -72,10 +72,10 @@ export default function WhyUs() {
         {/* Hero */}
         <div style={{ border: "3px solid var(--ink)", padding: "2.5rem", background: "var(--card-bg)", marginBottom: "3rem" }}>
           <h1 style={{ fontSize: "clamp(1.8rem, 4vw, 2.8rem)", fontWeight: 800, letterSpacing: "-0.02em", lineHeight: 1.1, marginBottom: "1rem" }}>
-            The <em style={{ fontStyle: "italic", color: "var(--ke-red)" }}>Pet Food Bag</em> Difference
+            The <em style={{ fontStyle: "italic", color: "var(--ke-red)" }}>PetStore Kenya</em> Difference
           </h1>
           <p style={{ fontSize: "1.05rem", lineHeight: 1.7, color: "var(--ink-light)", maxWidth: "850px" }}>
-            Why pay double for old, imported kibble? We built Pet Food Bag to provide Nairobi pet parents with premium, ultra-fresh pet food, sourced locally and delivered directly to your door at unbeatable prices. Here is how we do it:
+            Why pay double for old, imported kibble? We built PetStore Kenya to provide Nairobi pet parents with premium, ultra-fresh pet food, sourced locally and delivered directly to your door at unbeatable prices. Here is how we do it:
           </p>
         </div>
 

@@ -14,7 +14,7 @@ console.log(`Connecting to local DB: ${dbUrl}`);
 async function run() {
   const pool = new pg.Pool({ connectionString: dbUrl });
   try {
-    const sql = readFileSync('petfood_seed.sql', 'utf8');
+    const sql = readFileSync('petstore_seed.sql', 'utf8');
     await pool.query(sql);
     console.log('✅ Local database seeded successfully.');
     

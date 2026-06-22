@@ -8,6 +8,6 @@ content = content.replace(/\/images\/products\/product_27\.png/g, '/images/produ
 fs.writeFileSync('production.sql', content, 'utf8');
 console.log('Updated production.sql image extension.');
 
-// Copy to petfood_seed.sql
-fs.copyFileSync('production.sql', 'petfood_seed.sql');
-console.log('Synced petfood_seed.sql.');
+// Copy to petstore_seed.sql
+fs.copyFileSync('production.sql', 'petstore_seed.sql');
+console.log('Synced petstore_seed.sql.');

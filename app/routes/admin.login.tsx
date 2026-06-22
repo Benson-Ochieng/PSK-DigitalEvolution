@@ -2,7 +2,7 @@ import { data, redirect, Form, useActionData } from "react-router";
 import type { Route } from "./+types/admin.login";
 
 export function meta(): Route.MetaDescriptors {
-  return [{ title: "Admin Login — Pet Food Bag" }];
+  return [{ title: "Admin Login — PetStore Kenya" }];
 }
 
 export async function loader({ request }: Route.LoaderArgs) {
@@ -71,7 +71,7 @@ export default function AdminLogin() {
         <div style={{ textAlign: "center", marginBottom: "2rem" }}>
           <span style={{ fontSize: "2.5rem" }}>🔒</span>
           <h1 style={{ fontSize: "1.5rem", fontWeight: 700, marginTop: "0.5rem", letterSpacing: "-0.03em" }}>
-            PET FOOD BAG
+            PETSTORE KENYA
           </h1>
           <div style={{ fontSize: "0.65rem", color: "#666", letterSpacing: "0.15em", textTransform: "uppercase", marginTop: "0.25rem" }}>
             Staff Access Portal

@@ -9,7 +9,7 @@ import { DogIcon, CatIcon, BoneIcon, DropletIcon } from "../components/CategoryI
 
 export function meta(): Route.MetaDescriptors {
   return [
-    { title: "Shop Pet Food — Pet Food Bag" },
+    { title: "Shop Pet Food — PetStore Kenya" },
     { name: "description", content: "Browse all pet food products. Dog food, cat food, treats and more — always cheaper than Naivas, Carrefour & Quickmart." },
   ];
 }
@@ -35,8 +35,8 @@ export async function loader({ request }: Route.LoaderArgs) {
       bbp.price AS our_price,
       MIN(comp.price) AS competitor_min
     FROM products p
-    JOIN store_prices bbp  ON bbp.product_id = p.id AND bbp.store_name = 'Pet Food Bag'
-    LEFT JOIN store_prices comp ON comp.product_id = p.id AND comp.store_name != 'Pet Food Bag'
+    JOIN store_prices bbp  ON bbp.product_id = p.id AND bbp.store_name = 'PetStore Kenya'
+    LEFT JOIN store_prices comp ON comp.product_id = p.id AND comp.store_name != 'PetStore Kenya'
     ${where}
     GROUP BY p.id, p.name, p.brand, p.weight_kg, p.animal_type, p.food_type, p.image_url, bbp.price
     ORDER BY (COALESCE(MIN(comp.price), 0) - bbp.price) DESC, p.name

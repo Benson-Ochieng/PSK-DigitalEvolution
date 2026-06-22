@@ -1,6 +1,6 @@
 # Implementation Phases & Status
 
-This document tracks the milestones, completed deliverables, and future items of the Pet Food Bag production transition.
+This document tracks the milestones, completed deliverables, and future items of the PetStore Kenya production transition.
 
 ---
 
@@ -11,14 +11,14 @@ Establish the local developer environment, robust database connections, and migr
 - [x] **Local PostgreSQL container**: Set up PostgreSQL 16 Alpine via `docker-compose.yml` on port `5433` with data volumes.
 - [x] **Environment Configurations**: Created `.env` and `.env.example` templates.
 - [x] **Connection Pool**: Engineered `app/db.server.ts` with connection pooling, health checks, and graceful shutdowns.
-- [x] **Database Migrations**: Decomposed `petfood_seed.sql` into programmatically-run migrations inside `app/db/migrations.ts` and `app/db/migrate.server.ts`.
+- [x] **Database Migrations**: Decomposed `petstore_seed.sql` into programmatically-run migrations inside `app/db/migrations.ts` and `app/db/migrate.server.ts`.
 - [x] **Transactional API**: Refactored the checkout endpoint (`app/routes/api.order.ts`) to wrap order creations in transactions and automatically upsert customer profiles.
 
 ---
 
 ## Phase 2: Admin Dashboard — 🟢 Complete
 
-Constructed a complete secure administration interface for Lokis logistics and inventory control.
+Constructed a complete secure administration interface for Loki's logistics and inventory control.
 
 - [x] **PIN Authentication Check**: Implemented simple PIN-based cookie verification via `app/routes/admin.login.tsx` and the `app/routes/admin.tsx` layout wrapper.
 - [x] **Overview Dashboard**: Displayed total sales, active orders count, product counts, and price inteligence alerts.
@@ -28,12 +28,12 @@ Constructed a complete secure administration interface for Lokis logistics and i
 
 ---
 
-## Phase 3: Project Documentation — 🟡 In Progress
+## Phase 3: Project Documentation — 🟢 Complete
 
 Establish architectural clarity, database schema records, and decision logs.
 
 - [x] **Architecture Guide**: Created `docs/architecture.md`.
 - [x] **Phases & Roadmap**: Created `docs/phases.md`.
-- [ ] **Task Tracker**: Create `docs/tasks.md`.
-- [ ] **Architecture Decision Records (ADRs)**: Create `docs/decisions.md`.
-- [ ] **Database Reference Guide**: Create `docs/database.md`.
+- [x] **Task Tracker**: Created `docs/tasks.md`.
+- [x] **Architecture Decision Records (ADRs)**: Created `docs/decisions.md`.
+- [x] **Database Reference Guide**: Created `docs/database.md`.

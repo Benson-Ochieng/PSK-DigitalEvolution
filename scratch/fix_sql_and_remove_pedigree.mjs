@@ -52,7 +52,7 @@ if (startIndex !== -1 && endIndex !== -1) {
 
 // Now let's remove the prices for product 12 from store_prices.
 // The prices are like:
-//   (12, 'Pet Food Bag', 192,  'https://petfoodbag.co.ke/shop/12', true),
+//   (12, 'PetStore Kenya', 192,  'https://petstore.co.ke/shop/12', true),
 //   (12, 'Carrefour',    240,  'https://www.carrefour.ke/mafken/en/wet-dog-food/pedigree-adult-lam-livr-n-jelly100g/p/45403', true),
 // We can use a regex to match and remove lines starting with (12,
 const lines = content.split('\n');

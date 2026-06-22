@@ -46,7 +46,7 @@ const filteredLines = lines.filter(line => {
 // Step 3: Shift all price lines with product ID > 11 by subtracting 1
 const processedLines = filteredLines.map(line => {
   const trimmed = line.trim();
-  const match = trimmed.match(/^\((\d+),\s*'(Pet Food Bag|Carrefour|Jumia|Naivas)',/);
+  const match = trimmed.match(/^\((\d+),\s*'(PetStore Kenya|Carrefour|Jumia|Naivas)',/);
   if (match) {
     const id = parseInt(match[1], 10);
     if (id > 11) {

@@ -3,7 +3,7 @@ import type { Route } from "./+types/admin.orders";
 import { query } from "../db.server";
 
 export function meta(): Route.MetaDescriptors {
-  return [{ title: "Manage Orders — Pet Food Bag Admin" }];
+  return [{ title: "Manage Orders — PetStore Kenya Admin" }];
 }
 
 export async function loader({ request }: Route.LoaderArgs) {

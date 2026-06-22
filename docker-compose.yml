@@ -1,20 +1,20 @@
 services:
-  petfood-db:
+  petstore-db:
     image: postgres:16-alpine
-    container_name: petfood-db
+    container_name: petstore-db
     environment:
       POSTGRES_USER: loki_user
       POSTGRES_PASSWORD: loki_password
-      POSTGRES_DB: petfood_aggregator
+      POSTGRES_DB: petstore_aggregator
     ports:
       - "5433:5432"
     volumes:
-      - petfood_pgdata:/var/lib/postgresql/data
+      - petstore_pgdata:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U loki_user -d petfood_aggregator"]
+      test: ["CMD-SHELL", "pg_isready -U loki_user -d petstore_aggregator"]
       interval: 5s
       timeout: 5s
       retries: 5
 
 volumes:
-  petfood_pgdata:
+  petstore_pgdata:

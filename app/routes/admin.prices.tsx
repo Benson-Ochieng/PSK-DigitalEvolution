@@ -3,7 +3,7 @@ import type { Route } from "./+types/admin.prices";
 import { query } from "../db.server";
 
 export function meta(): Route.MetaDescriptors {
-  return [{ title: "Price Intelligence — Pet Food Bag Admin" }];
+  return [{ title: "Price Intelligence — PetStore Kenya Admin" }];
 }
 
 export async function loader() {
@@ -34,11 +34,11 @@ export default function AdminPrices() {
       Object.keys(p.store_data).forEach(k => uniqueStores.add(k));
     }
   });
-  uniqueStores.delete("Pet Food Bag");
-  const STORES = ["Pet Food Bag", ...Array.from(uniqueStores).sort()];
+  uniqueStores.delete("PetStore Kenya");
+  const STORES = ["PetStore Kenya", ...Array.from(uniqueStores).sort()];
 
   const alertCount = products.filter((p: any) => {
-    const bbp = p.store_data?.["Pet Food Bag"]?.price;
+    const bbp = p.store_data?.["PetStore Kenya"]?.price;
     return STORES.slice(1).some(s => {
       const comp = p.store_data?.[s]?.price;
       return comp && bbp && Number(comp) < Number(bbp);
@@ -70,7 +70,7 @@ export default function AdminPrices() {
 
       {alertCount > 0 && (
         <div style={{ background: "rgba(200,16,46,0.1)", border: "2px solid var(--admin-accent)", padding: "0.75rem 1rem", marginBottom: "1.5rem", fontSize: "0.75rem", color: "#f87171" }}>
-          ⚠️ {alertCount} product{alertCount !== 1 ? "s have" : " has"} a competitor priced below Pet Food Bag. Consider reducing prices to maintain price leadership.
+          ⚠️ {alertCount} product{alertCount !== 1 ? "s have" : " has"} a competitor priced below PetStore Kenya. Consider reducing prices to maintain price leadership.
         </div>
       )}
 
@@ -82,8 +82,8 @@ export default function AdminPrices() {
               <th>Product</th>
               <th style={{ textAlign: "center" }}>Category</th>
               {STORES.map(s => (
-                <th key={s} style={{ textAlign: "right", color: s === "Pet Food Bag" ? "var(--admin-accent)" : "inherit" }}>
-                  {s === "Pet Food Bag" ? "🏷 Our Price" : s}
+                <th key={s} style={{ textAlign: "right", color: s === "PetStore Kenya" ? "var(--admin-accent)" : "inherit" }}>
+                  {s === "PetStore Kenya" ? "🏷 Our Price" : s}
                 </th>
               ))}
               <th style={{ textAlign: "right" }}>Margin vs Comp</th>
@@ -91,7 +91,7 @@ export default function AdminPrices() {
           </thead>
           <tbody>
             {products.map((p: any) => {
-              const bbp = p.store_data?.["Pet Food Bag"];
+              const bbp = p.store_data?.["PetStore Kenya"];
               const cheapestComp = STORES.slice(1)
                 .map(s => p.store_data?.[s])
                 .filter(Boolean)
@@ -114,9 +114,9 @@ export default function AdminPrices() {
                   {STORES.map(s => {
                     const d = p.store_data?.[s];
                     return (
-                      <td key={s} style={{ textAlign: "right", fontWeight: s === "Pet Food Bag" ? 700 : 400 }}>
+                      <td key={s} style={{ textAlign: "right", fontWeight: s === "PetStore Kenya" ? 700 : 400 }}>
                         {d ? (
-                          <span style={{ color: s === "Pet Food Bag" ? "var(--admin-accent)" : (isAlert && d.price < bbp?.price ? "#f87171" : "inherit") }}>
+                          <span style={{ color: s === "PetStore Kenya" ? "var(--admin-accent)" : (isAlert && d.price < bbp?.price ? "#f87171" : "inherit") }}>
                             KES {Number(d.price).toLocaleString()}
                           </span>
                         ) : (

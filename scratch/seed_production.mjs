@@ -10,7 +10,7 @@ import path from 'path';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const BASE_URL = 'postgres://postgres:n380fia9QZLvzb2twZkUsk4YCbWAYlsva4jf11UvofbCJ6GwyXf5PAV9Md2Dwwjh@46.225.146.51:5432/postgres';
-const DB_NAME  = 'petfoodbag';
+const DB_NAME  = 'petstore_aggregator';
 const PROD_URL = BASE_URL.replace(/\/postgres$/, `/${DB_NAME}`);
 
 async function run() {

@@ -26,7 +26,7 @@ if (process.env.DATABASE_URL) {
         lowerHost === "localhost" ||
         lowerHost === "127.0.0.1" ||
         lowerHost === "host.docker.internal" ||
-        lowerHost === "petfood-db" ||
+        lowerHost === "petstore-db" ||
         lowerHost === "postgres" ||
         lowerHost === "db" ||
         lowerHost === "database" ||
@@ -64,7 +64,7 @@ const poolConfig: pg.PoolConfig = {
 let pool: pg.Pool;
 
 declare global {
-  var __petfood_pool__: pg.Pool | undefined;
+  var __petstore_pool__: pg.Pool | undefined;
 }
 
 // Self-healing startup routine
@@ -121,12 +121,12 @@ if (isProduction) {
   pool = new Pool(poolConfig);
   startDatabase();
 } else {
-  if (!global.__petfood_pool__) {
-    global.__petfood_pool__ = new Pool(poolConfig);
-    pool = global.__petfood_pool__;
+  if (!global.__petstore_pool__) {
+    global.__petstore_pool__ = new Pool(poolConfig);
+    pool = global.__petstore_pool__;
     startDatabase();
   } else {
-    pool = global.__petfood_pool__;
+    pool = global.__petstore_pool__;
   }
 }
 

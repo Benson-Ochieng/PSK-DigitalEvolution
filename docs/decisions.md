@@ -1,6 +1,6 @@
 # Architectural Decision Records (ADRs)
 
-This document lists the significant architectural decisions, reasons, and trade-offs made during the Pet Food Bag backend development.
+This document lists the significant architectural decisions, reasons, and trade-offs made during the PetStore Kenya backend development.
 
 ---
 
@@ -46,7 +46,7 @@ We write migrations inside a TypeScript file (`app/db/migrations.ts`) exporting 
 ## ADR 3: Styling Isolation for Admin Panel via Vanilla CSS
 
 ### Context
-The main Pet Food Bag storefront uses a distinctive "Neo-brutalist kraft paper" design. The admin dashboard has different needs (complex grids, analytical cards, data tables) and benefits from a dark mode layout. Using conflicting tailwind utility classes or overriding theme configurations can bleed styles between the storefront and admin panel.
+The main PetStore Kenya storefront uses a distinctive "Neo-brutalist kraft paper" design. The admin dashboard has different needs (complex grids, analytical cards, data tables) and benefits from a dark mode layout. Using conflicting tailwind utility classes or overriding theme configurations can bleed styles between the storefront and admin panel.
 
 ### Decision
 We isolated the admin dashboard styling inside a standalone CSS stylesheet (`app/admin.css`) imported exclusively at the root layout of the admin panel (`app/routes/admin.tsx`).
@@ -69,7 +69,7 @@ In cloud-managed production environments, PostgreSQL databases usually require S
 
 ### Decision
 We implemented a multi-tiered auto-detection configuration:
-1. If `DATABASE_URL` contains local patterns (`localhost`, `127.0.0.1`, `host.docker.internal`, or our container host `petfood-db`), or if `sslmode=disable` is appended to the connection string, SSL is disabled.
+1. If `DATABASE_URL` contains local patterns (`localhost`, `127.0.0.1`, `host.docker.internal`, or our container host `petstore-db`), or if `sslmode=disable` is appended to the connection string, SSL is disabled.
 2. If `DATABASE_SSL` is set to `false`, or `PGSSLMODE` is set to `disable` in environment variables, SSL is disabled.
 3. Otherwise, for production runs, we default to `{ rejectUnauthorized: false }`.
 

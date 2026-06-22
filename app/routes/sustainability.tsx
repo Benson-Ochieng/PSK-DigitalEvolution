@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 export function meta() {
   return [
-    { title: "Sustainability & Green Logistics — Pet Food Bag" },
+    { title: "Sustainability & Green Logistics — PetStore Kenya" },
     { name: "description", content: "Learn about our e-bike delivery philosophy, green credentials of local sourcing, and our journey to ISO certification." },
   ];
 }
@@ -14,7 +14,7 @@ export default function Sustainability() {
     {
       title: "Zero-Emissions E-Bike Logistics",
       icon: "🚲",
-      desc: "Nairobi's streets are notoriously congested, and delivery vans spew particulate matter and CO2 into our city's air. At Pet Food Bag, our final-mile delivery partner—Loki Logistics—is deploying a custom fleet of electric cargo bikes (e-bikes). These bikes emit exactly zero tailpipe emissions, require minimal charging infrastructure, and move silently through local estates to bring food to your doorstep.",
+      desc: "Nairobi's streets are notoriously congested, and delivery vans spew particulate matter and CO2 into our city's air. At PetStore Kenya, our final-mile delivery partner—Loki Logistics—is deploying a custom fleet of electric cargo bikes (e-bikes). These bikes emit exactly zero tailpipe emissions, require minimal charging infrastructure, and move silently through local estates to bring food to your doorstep.",
       list: [
         "Zero fuel combusted for last-mile delivery",
         "Less wear-and-tear on Nairobi local roads",

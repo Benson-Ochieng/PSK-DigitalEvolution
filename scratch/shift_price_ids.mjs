@@ -5,9 +5,9 @@ let content = fs.readFileSync('production.sql', 'utf8');
 const lines = content.split('\n');
 const processedLines = lines.map(line => {
   const trimmed = line.trim();
-  // Match lines like: (13, 'Pet Food Bag', ...
+  // Match lines like: (13, 'PetStore Kenya', ...
   // or: (13, 'Carrefour', ...
-  const match = trimmed.match(/^\((\d+),\s*'(Pet Food Bag|Carrefour|Jumia|Naivas)',/);
+  const match = trimmed.match(/^\((\d+),\s*'(PetStore Kenya|Carrefour|Jumia|Naivas)',/);
   if (match) {
     const id = parseInt(match[1], 10);
     if (id > 12) {

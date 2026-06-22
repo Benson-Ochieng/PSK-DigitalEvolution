@@ -120,7 +120,7 @@ export function CheckoutModal() {
     if (method === "whatsapp") {
       const lines = items.map(i => `• ${i.name} x${i.quantity} — KES ${(i.price * i.quantity).toLocaleString()}`).join("\n");
       const msg = encodeURIComponent(
-        `Hi Pet Food Bag! I'd like to place an order:\n\n${lines}\n\nSubtotal: KES ${subtotal.toLocaleString()}\nDelivery (${form.deliveryArea}): KES ${deliveryFee.toLocaleString()}\nTOTAL: KES ${total.toLocaleString()}\n\nName: ${form.name}\nPhone: ${phone}\nArea: ${form.deliveryArea}\n${form.notes ? "Notes: " + form.notes : ""}`
+        `Hi PetStore Kenya! I'd like to place an order:\n\n${lines}\n\nSubtotal: KES ${subtotal.toLocaleString()}\nDelivery (${form.deliveryArea}): KES ${deliveryFee.toLocaleString()}\nTOTAL: KES ${total.toLocaleString()}\n\nName: ${form.name}\nPhone: ${phone}\nArea: ${form.deliveryArea}\n${form.notes ? "Notes: " + form.notes : ""}`
       );
       window.open(`https://wa.me/254700000000?text=${msg}`, "_blank");
       setLoading(false);
@@ -159,7 +159,7 @@ export function CheckoutModal() {
         // Paystack popup
         const handler = (window as any).PaystackPop?.setup({
           key: "pk_test_REPLACE_WITH_YOUR_PAYSTACK_PUBLIC_KEY",
-          email: email || `${phone.replace(/\D/g, "")}@petfoodbag.co.ke`,
+          email: email || `${phone.replace(/\D/g, "")}@petstore.co.ke`,
           amount: Math.round(total * 100), // kobo
           currency: "KES",
           ref: `BBP-${data.orderId}-${Date.now()}`,
@@ -199,7 +199,7 @@ export function CheckoutModal() {
               Your Order
             </div>
             <div style={{ fontFamily: "var(--font-mono)", fontWeight: 700, fontSize: "1.1rem", letterSpacing: "-0.02em", color: "#fff" }}>
-              PET FOOD <span style={{ color: "var(--ke-red)" }}>BAG.</span>
+              PETSTORE <span style={{ color: "var(--ke-red)" }}>KENYA.</span>
             </div>
           </div>
 
@@ -594,7 +594,7 @@ export function CartDrawer() {
 
               <button className="checkout-whatsapp-btn" style={{ marginTop: "0.5rem" }} onClick={() => {
                 const lines = items.map(i => `• ${i.name} ×${i.quantity} — KES ${(i.price * i.quantity).toLocaleString()}`).join("\n");
-                const msg = encodeURIComponent(`Hi Pet Food Bag! I'd like to order:\n\n${lines}\n\nSubtotal: KES ${subtotal.toLocaleString()}`);
+                const msg = encodeURIComponent(`Hi PetStore Kenya! I'd like to order:\n\n${lines}\n\nSubtotal: KES ${subtotal.toLocaleString()}`);
                 window.open(`https://wa.me/254700000000?text=${msg}`, "_blank");
               }}>
                 <span>📱</span> Order via WhatsApp

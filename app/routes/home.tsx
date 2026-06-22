@@ -28,8 +28,8 @@ export async function loader() {
       bbp.price AS our_price,
       MIN(comp.price) AS competitor_min
     FROM products p
-    JOIN store_prices bbp ON bbp.product_id = p.id AND bbp.store_name = 'Pet Food Bag'
-    LEFT JOIN store_prices comp ON comp.product_id = p.id AND comp.store_name != 'Pet Food Bag'
+    JOIN store_prices bbp ON bbp.product_id = p.id AND bbp.store_name = 'PetStore Kenya'
+    LEFT JOIN store_prices comp ON comp.product_id = p.id AND comp.store_name != 'PetStore Kenya'
     WHERE bbp.price IS NOT NULL
     GROUP BY p.id, p.name, p.brand, p.weight_kg, p.animal_type, p.food_type, p.image_url, bbp.price
     ORDER BY (COALESCE(MIN(comp.price), 0) - bbp.price) DESC, p.name

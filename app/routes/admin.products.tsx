@@ -4,14 +4,14 @@ import type { Route } from "./+types/admin.products";
 import { query, withTransaction } from "../db.server";
 
 export function meta(): Route.MetaDescriptors {
-  return [{ title: "Manage Products — Pet Food Bag Admin" }];
+  return [{ title: "Manage Products — PetStore Kenya Admin" }];
 }
 
 export async function loader() {
   const { rows } = await query(`
     SELECT p.*, bbp.price AS our_price 
     FROM products p 
-    LEFT JOIN store_prices bbp ON bbp.product_id = p.id AND bbp.store_name = 'Pet Food Bag'
+    LEFT JOIN store_prices bbp ON bbp.product_id = p.id AND bbp.store_name = 'PetStore Kenya'
     ORDER BY p.name
   `);
   return { products: rows };
@@ -69,12 +69,12 @@ export async function action({ request }: Route.ActionArgs) {
         );
         const productId = res.rows[0].id;
 
-        // 2. Set default store price for Pet Food Bag
+        // 2. Set default store price for PetStore Kenya
         if (price !== null) {
           await client.query(
             `INSERT INTO store_prices (product_id, store_name, price, product_url, in_stock)
-             VALUES ($1, 'Pet Food Bag', $2, $3, true)`,
-            [productId, price, `https://petfoodbag.co.ke/shop/${productId}`]
+             VALUES ($1, 'PetStore Kenya', $2, $3, true)`,
+            [productId, price, `https://petstore.co.ke/shop/${productId}`]
           );
         }
       });
@@ -102,21 +102,21 @@ export async function action({ request }: Route.ActionArgs) {
         // 2. Update price in store_prices (Upsert format)
         if (price !== null) {
           const checkPrice = await client.query(
-            `SELECT id FROM store_prices WHERE product_id = $1 AND store_name = 'Pet Food Bag'`,
+            `SELECT id FROM store_prices WHERE product_id = $1 AND store_name = 'PetStore Kenya'`,
             [id]
           );
 
           if (checkPrice.rows.length > 0) {
             await client.query(
               `UPDATE store_prices SET price = $1, last_updated = NOW()
-               WHERE product_id = $2 AND store_name = 'Pet Food Bag'`,
+               WHERE product_id = $2 AND store_name = 'PetStore Kenya'`,
               [price, id]
             );
           } else {
             await client.query(
               `INSERT INTO store_prices (product_id, store_name, price, product_url, in_stock)
-               VALUES ($1, 'Pet Food Bag', $2, $3, true)`,
-              [id, price, `https://petfoodbag.co.ke/shop/${id}`]
+               VALUES ($1, 'PetStore Kenya', $2, $3, true)`,
+              [id, price, `https://petstore.co.ke/shop/${id}`]
             );
           }
         }

@@ -1,11 +1,11 @@
 # Task Tracker & Achievements
 
-This document represents the task list tracker for developers contributing to the Pet Food Bag project.
+This document represents the task list tracker for developers contributing to the PetStore Kenya project.
 
 ## 🚀 Completed Achievements
 
 ### Database & Devops
-- [x] Dockerized the PostgreSQL database (`petfood-db` container) on port `5433` for collision avoidance.
+- [x] Dockerized the PostgreSQL database (`petstore-db` container) on port `5433` for collision avoidance.
 - [x] Implemented pool configurations with connection health check methods and termination signal handlers.
 - [x] Created an in-bundle, file-system independent migration runner to prevent missing schema assets during deployment builds.
 
@@ -24,6 +24,6 @@ This document represents the task list tracker for developers contributing to th
 
 ## 🔮 Future Roadmap (v1.1+)
 
-- [ ] **Scraper Alerts Engine**: Set up cron jobs to trigger automated competitor pricing scans and automatically flag items where Pet Food Bag loses price superiority.
+- [ ] **Scraper Alerts Engine**: Set up cron jobs to trigger automated competitor pricing scans and automatically flag items where PetStore Kenya loses price superiority.
 - [ ] **WhatsApp Integration**: Hook order completion directly into Lokis logistics WhatsApp notification endpoint.
 - [ ] **Role-based Auth**: Move from PIN-based session cookie validation to user-specific login systems if multiple administrative roles are required.
