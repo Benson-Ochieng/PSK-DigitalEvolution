@@ -122,7 +122,7 @@ export function CheckoutModal() {
       const msg = encodeURIComponent(
         `Hi PetStore Kenya! I'd like to place an order:\n\n${lines}\n\nSubtotal: KES ${subtotal.toLocaleString()}\nDelivery (${form.deliveryArea}): KES ${deliveryFee.toLocaleString()}\nTOTAL: KES ${total.toLocaleString()}\n\nName: ${form.name}\nPhone: ${phone}\nArea: ${form.deliveryArea}\n${form.notes ? "Notes: " + form.notes : ""}`
       );
-      window.open(`https://wa.me/254700000000?text=${msg}`, "_blank");
+      window.open(`https://wa.me/254795350292?text=${msg}`, "_blank");
       setLoading(false);
       setStep("success");
       clearCart();
@@ -595,7 +595,7 @@ export function CartDrawer() {
               <button className="checkout-whatsapp-btn" style={{ marginTop: "0.5rem" }} onClick={() => {
                 const lines = items.map(i => `• ${i.name} ×${i.quantity} — KES ${(i.price * i.quantity).toLocaleString()}`).join("\n");
                 const msg = encodeURIComponent(`Hi PetStore Kenya! I'd like to order:\n\n${lines}\n\nSubtotal: KES ${subtotal.toLocaleString()}`);
-                window.open(`https://wa.me/254700000000?text=${msg}`, "_blank");
+                window.open(`https://wa.me/254795350292?text=${msg}`, "_blank");
               }}>
                 <span>📱</span> Order via WhatsApp
               </button>

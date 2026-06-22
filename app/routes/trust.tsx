@@ -163,7 +163,7 @@ export default function TrustBuilder() {
             <Link to="/shop" className="btn-primary" style={{ padding: "0.75rem 2rem", fontSize: "0.95rem" }}>
               🛒 Shop Local Pet Food
             </Link>
-            <a href="https://wa.me/254700000000?text=Hi%20PetStore%20Kenya%2C%20I%27d%20like%20to%20order!" className="btn-outline" style={{ padding: "0.75rem 2rem", fontSize: "0.95rem", border: "3px solid var(--ink)", color: "var(--ink)", textDecoration: "none", display: "inline-flex", alignItems: "center", fontWeight: 700 }}>
+            <a href="https://wa.me/254795350292?text=Hi%20PetStore%20Kenya%2C%20I%27d%20like%20to%20order!" className="btn-outline" style={{ padding: "0.75rem 2rem", fontSize: "0.95rem", border: "3px solid var(--ink)", color: "var(--ink)", textDecoration: "none", display: "inline-flex", alignItems: "center", fontWeight: 700 }}>
               📱 Order on WhatsApp
             </a>
           </div>

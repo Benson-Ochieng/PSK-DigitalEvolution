@@ -66,7 +66,7 @@ const DRAWER_MENU_ITEMS = [
   { name: "New Arrivals", path: "/shop" },
   {
     name: "Cat",
-    path: "/shop?animal=cat",
+    path: "/product-category/cat-food/",
     subItems: [
       {
         name: "Cat Food & Treats",
@@ -76,7 +76,7 @@ const DRAWER_MENU_ITEMS = [
           { name: "Wet Cat Food", path: "/shop?animal=cat&type=food&sub=wet" },
           { name: "Cat Treats & Catnip", path: "/shop?animal=cat&type=treats" },
           { name: "Milk Replacers", path: "/shop?animal=cat&type=food&sub=milk" },
-          { name: "Kitten Food", path: "/shop?animal=cat&food=kitten" }
+          { name: "Kitten Food", path: "/product-category/kitten-food/" }
         ]
       },
       {
@@ -126,7 +126,7 @@ const DRAWER_MENU_ITEMS = [
   },
   {
     name: "Dog",
-    path: "/shop?animal=dog",
+    path: "/product-category/dog-food/",
     subItems: [
       {
         name: "Dog Food & Treats",
@@ -135,7 +135,7 @@ const DRAWER_MENU_ITEMS = [
           { name: "Dry Dog Food", path: "/shop?animal=dog&type=food&sub=dry" },
           { name: "Wet Dog Food", path: "/shop?animal=dog&type=food&sub=wet" },
           { name: "Dog Treats & Bones", path: "/shop?animal=dog&type=treats" },
-          { name: "Puppy Food", path: "/shop?animal=dog&food=puppy" }
+          { name: "Puppy Food", path: "/product-category/puppy-food/" }
         ]
       },
       {
@@ -189,7 +189,7 @@ const DRAWER_MENU_ITEMS = [
   },
   {
     name: "Bird",
-    path: "/shop?animal=bird",
+    path: "/product-category/bird-food/",
     subItems: [
       { name: "Bird Food & Feeds", path: "/shop?animal=bird&type=food" }
     ]
@@ -421,7 +421,7 @@ export default function Navbar() {
               </span>
               <ul className="dropdown-menu pet-dropdown">
                 <li>
-                  <Link to="/shop?animal=cat" className="dropdown-item">
+                  <Link to="/product-category/cat-food/" className="dropdown-item">
                     <span className="dropdown-item-icon">
                       <img src="/images/icons/adultcat-icon-1.png.webp" alt="Cat Icon" className="pet-icon-img" />
                     </span>
@@ -429,7 +429,7 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/shop?animal=cat&food=kitten" className="dropdown-item">
+                  <Link to="/product-category/kitten-food/" className="dropdown-item">
                     <span className="dropdown-item-icon">
                       <img src="/images/icons/kitten-icon.png.webp" alt="Kitten Icon" className="pet-icon-img" />
                     </span>
@@ -437,7 +437,7 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/shop?animal=dog" className="dropdown-item">
+                  <Link to="/product-category/dog-food/" className="dropdown-item">
                     <span className="dropdown-item-icon">
                       <img src="/images/icons/dog-icon.png.webp" alt="Dog Icon" className="pet-icon-img" />
                     </span>
@@ -445,7 +445,7 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/shop?animal=dog&food=puppy" className="dropdown-item">
+                  <Link to="/product-category/puppy-food/" className="dropdown-item">
                     <span className="dropdown-item-icon">
                       <img src="/images/icons/puppy-icon.png.webp" alt="Puppy Icon" className="pet-icon-img" />
                     </span>
@@ -453,7 +453,7 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/shop?animal=bird" className="dropdown-item">
+                  <Link to="/product-category/bird-food/" className="dropdown-item">
                     <span className="dropdown-item-icon">
                       <img src="/images/icons/bird-icon-1.png.webp" alt="Bird Icon" className="pet-icon-img" />
                     </span>
@@ -461,7 +461,7 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/shop?animal=rabbit" className="dropdown-item">
+                  <Link to="/product-category/rabbit-food/" className="dropdown-item">
                     <span className="dropdown-item-icon">
                       <img src="/images/icons/rabbit-icon.png.webp" alt="Rabbit Icon" className="pet-icon-img" />
                     </span>

@@ -93,7 +93,7 @@ export default function ProductDetail() {
             <button className={`add-to-cart-btn ${added ? "added" : ""}`} style={{ width: "auto", borderTop: "2px solid var(--ink)", padding: "0.5rem 1.1rem" }} onClick={handleAdd}>
               {added ? "✓ Added!" : "🛒 Add to Cart"}
             </button>
-            <a href={`https://wa.me/254700000000?text=${waMsg}`} className="btn-primary" target="_blank" rel="noreferrer">
+            <a href={`https://wa.me/254795350292?text=${waMsg}`} className="btn-primary" target="_blank" rel="noreferrer">
               📱 Order Now
             </a>
           </div>
@@ -182,7 +182,7 @@ export default function ProductDetail() {
               </button>
             </div>
             <a
-              href={`https://wa.me/254700000000?text=${waMsg}`}
+              href={`https://wa.me/254795350292?text=${waMsg}`}
               className="checkout-whatsapp-btn"
               target="_blank" rel="noreferrer"
               style={{ display: "flex", textDecoration: "none" }}
@@ -267,7 +267,7 @@ export default function ProductDetail() {
         </div>
 
         <div style={{ marginTop: "3rem", paddingTop: "2rem", borderTop: "2px solid var(--ink)", textAlign: "center" }}>
-          <Link to={`/shop?animal=${p.animal_type}`} className="btn-primary">
+          <Link to={`/product-category/${p.animal_type}-food/`} className="btn-primary">
             See more {p.animal_type} food →
           </Link>
         </div>
