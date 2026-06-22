@@ -73,6 +73,7 @@ export default function Navbar() {
   } | null>(null);
   const [isSearching, setIsSearching] = useState(false);
   const [isSearchFocused, setIsSearchFocused] = useState(false);
+  const [expandedItems, setExpandedItems] = useState<Record<string, boolean>>({});
 
   const location = useLocation();
   const navigate = useNavigate();
@@ -129,7 +130,7 @@ export default function Navbar() {
     const parts = text.split(regex);
     return (
       <span>
-        {parts.map((part, i) => 
+        {parts.map((part, i) =>
           regex.test(part) ? <strong key={i} style={{ color: "var(--primary)", fontWeight: 700 }}>{part}</strong> : part
         )}
       </span>
@@ -141,9 +142,9 @@ export default function Navbar() {
       {/* Top Announcement Banner */}
       <div className="top-promo-banner">
         <Link to="/shop">
-          <img 
-            src="/images/petstore-new-arrival-banner.gif" 
-            alt="Take me to the new page - Click Here" 
+          <img
+            src="/images/petstore-new-arrival-banner.gif"
+            alt="Take me to the new page - Click Here"
             loading="eager"
           />
         </Link>
@@ -152,7 +153,7 @@ export default function Navbar() {
       {/* Main Navbar */}
       <nav className="navbar">
         <div className="navbar-inner">
-          
+
           {/* Far Left: Hamburger Menu and White Logo */}
           <div style={{ display: "flex", alignItems: "center", gap: "0.8rem" }}>
             <button className="navbar-hamburger-btn" onClick={() => setIsMenuOpen(true)} title="Menu" aria-label="Toggle navigation">
@@ -229,9 +230,9 @@ export default function Navbar() {
               <div className="mega-dropdown-menu brand-mega-menu">
                 <div className="brand-grid">
                   {BRANDS_LIST.map((brand) => (
-                    <Link 
-                      key={brand.name} 
-                      to={`/shop?brand=${encodeURIComponent(brand.query)}`} 
+                    <Link
+                      key={brand.name}
+                      to={`/shop?brand=${encodeURIComponent(brand.query)}`}
                       className="brand-card"
                     >
                       <span className={`brand-logo-text ${brand.className}`}>
@@ -257,15 +258,30 @@ export default function Navbar() {
 
           {/* Center: Search Bar with Autocomplete Suggestions Dropdown */}
           <div ref={searchRef} className="nav-search-form" style={{ position: "relative" }}>
-            <form onSubmit={handleSearchSubmit} style={{ display: "flex", width: "100%" }}>
-              <input
-                type="text"
-                placeholder="Search for products, brands or categories..."
-                value={searchVal}
-                onChange={(e) => setSearchVal(e.target.value)}
-                onFocus={() => setIsSearchFocused(true)}
-                className="nav-search-input"
-              />
+            <form onSubmit={handleSearchSubmit} className="nav-search-wrapper">
+              <div className="search-input-container">
+                <input
+                  type="text"
+                  placeholder="Search for products, brands or categories..."
+                  value={searchVal}
+                  onChange={(e) => setSearchVal(e.target.value)}
+                  onFocus={() => setIsSearchFocused(true)}
+                  className="nav-search-input"
+                />
+                {searchVal.trim() !== "" && (
+                  <button
+                    type="button"
+                    className="search-clear-btn"
+                    onClick={() => {
+                      setSearchVal("");
+                      setSearchResults(null);
+                    }}
+                    title="Clear search"
+                  >
+                    ✕
+                  </button>
+                )}
+              </div>
               <button type="submit" className="nav-search-btn" title="Search">
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                   <circle cx="11" cy="11" r="8"></circle>
@@ -280,7 +296,7 @@ export default function Navbar() {
                 {/* Left side: Product Results list */}
                 <div className="search-dropdown-left">
                   <div className="search-section-title">Products</div>
-                  
+
                   {isSearching ? (
                     <div style={{ padding: "1rem", color: "var(--ink-light)", fontSize: "0.85rem" }}>
                       Searching...
@@ -293,7 +309,7 @@ export default function Navbar() {
                         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
                         .join(", ");
                       return (
-                        <Link 
+                        <Link
                           key={p.id}
                           to={`/shop/${p.id}`}
                           className="search-product-item"
@@ -324,9 +340,9 @@ export default function Navbar() {
 
                   {searchResults && searchResults.products.length > 0 && (
                     <div className="search-view-all">
-                      <button 
+                      <button
                         type="button"
-                        className="search-view-all-btn" 
+                        className="search-view-all-btn"
                         onClick={() => {
                           navigate(`/shop?q=${encodeURIComponent(searchVal)}`);
                           setIsSearchFocused(false);
@@ -397,18 +413,11 @@ export default function Navbar() {
           {/* Right Action Icons: My Account & Cart */}
           <div className="navbar-actions">
             <Link to="/admin/login" className="account-nav-btn" title="My Account">
-              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                <circle cx="12" cy="7" r="4"></circle>
-              </svg>
+              <i className="fa fa-user" style={{ fontSize: "30px", color: "#ffffff" }}></i>
             </Link>
 
             <button className="cart-nav-btn" onClick={() => setIsCartOpen(true)} title="Shopping Cart">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                <circle cx="9" cy="21" r="1"></circle>
-                <circle cx="20" cy="21" r="1"></circle>
-                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
-              </svg>
+              <i className="fa fa-shopping-cart" style={{ fontSize: "30px", color: "#ffffff" }}></i>
               {count > 0 && <span className="cart-count-badge" suppressHydrationWarning>{count}</span>}
             </button>
           </div>
@@ -420,63 +429,141 @@ export default function Navbar() {
       {isMenuOpen && (
         <>
           <div className="mobile-menu-overlay" onClick={() => setIsMenuOpen(false)} />
-          <div className="mobile-menu" style={{
-            position: "fixed", top: 0, left: 0, width: "290px", height: "100vh",
-            backgroundColor: "#ffffff", borderRight: "1px solid var(--border-light)",
-            zIndex: 160, display: "flex", flexDirection: "column", padding: "1.5rem",
-            boxShadow: "4px 0 16px rgba(0,0,0,0.1)",
-            animation: "slideInLeftMenu 0.22s cubic-bezier(0.16, 1, 0.3, 1)"
-          }}>
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderBottom: "1px solid var(--border-light)", paddingBottom: "1rem", marginBottom: "1rem" }}>
-              <div className="navbar-logo">
-                <img src="/images/psk_logo.png" alt="PetStore Kenya Logo" style={{ height: "32px", width: "auto" }} />
+          <div className="mobile-menu-drawer">
+            <div className="drawer-header">
+              <div className="drawer-logo">
+                <img src="/images/psk_logo.png" alt="PetStore Kenya Logo" />
               </div>
               <button
                 onClick={() => setIsMenuOpen(false)}
-                style={{ background: "none", border: "1px solid var(--border-light)", width: "30px", height: "30px", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer", fontWeight: "bold" }}
+                className="drawer-close-btn"
+                aria-label="Close menu"
               >
                 ✕
               </button>
             </div>
-            
-            <form onSubmit={handleSearchSubmit} style={{ display: "flex", gap: "0.5rem", marginBottom: "1.5rem" }}>
-              <input
-                type="text"
-                placeholder="Search..."
-                value={searchVal}
-                onChange={(e) => setSearchVal(e.target.value)}
-                style={{ flex: 1, padding: "0.5rem", border: "1px solid var(--border-light)", borderRadius: "4px", outline: "none" }}
-              />
-              <button type="submit" className="btn-primary" style={{ padding: "0.5rem 0.8rem" }}>Go</button>
-            </form>
 
-            <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.8rem" }}>
-              <li>
-                <Link to="/shop" style={{ textDecoration: "none", color: "var(--ink)", fontWeight: 500, display: "block", padding: "0.5rem 0" }} onClick={() => setIsMenuOpen(false)}>
-                  🐾 Shop All
-                </Link>
-              </li>
-              <li>
-                <Link to="/shop?type=offer" style={{ textDecoration: "none", color: "var(--ink)", fontWeight: 500, display: "block", padding: "0.5rem 0" }} onClick={() => setIsMenuOpen(false)}>
-                  🎁 Offers & Sale
-                </Link>
-              </li>
-              <li>
-                <Link to="/admin/login" style={{ textDecoration: "none", color: "var(--ink)", fontWeight: 500, display: "block", padding: "0.5rem 0" }} onClick={() => setIsMenuOpen(false)}>
-                  👤 My Account / Login
-                </Link>
-              </li>
-              <li>
-                <a
-                  href="https://wa.me/254795350292"
-                  target="_blank"
-                  rel="noreferrer"
-                  style={{ textDecoration: "none", background: "#25D366", color: "#ffffff", padding: "0.6rem", borderRadius: "4px", textAlign: "center", display: "block", fontWeight: 600, marginTop: "1rem" }}
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  💬 WhatsApp Support
-                </a>
-              </li>
+            <div className="drawer-search-form">
+              <form onSubmit={handleSearchSubmit} className="drawer-search-wrapper">
+                <input
+                  type="text"
+                  placeholder="Search..."
+                  value={searchVal}
+                  onChange={(e) => setSearchVal(e.target.value)}
+                  className="drawer-search-input"
+                />
+                <button type="submit" className="drawer-search-btn">Go</button>
+              </form>
+            </div>
+
+            <ul className="drawer-menu-list">
+              {[
+                { name: "New Arrivals", path: "/shop" },
+                {
+                  name: "Cat",
+                  path: "/shop?animal=cat",
+                  subItems: [
+                    { name: "Shop All Cat", path: "/shop?animal=cat" },
+                    { name: "Cat Food", path: "/shop?animal=cat&type=food" },
+                    { name: "Kitten Food", path: "/shop?animal=cat&food=kitten" },
+                    { name: "Cat Litter", path: "/shop?animal=cat&type=litter" }
+                  ]
+                },
+                {
+                  name: "Dog",
+                  path: "/shop?animal=dog",
+                  subItems: [
+                    { name: "Shop All Dog", path: "/shop?animal=dog" },
+                    { name: "Dog Food", path: "/shop?animal=dog&type=food" },
+                    { name: "Puppy Food", path: "/shop?animal=dog&food=puppy" },
+                    { name: "Supplements", path: "/shop?animal=dog&type=supplements" }
+                  ]
+                },
+                { name: "Bird", path: "/shop?animal=bird" },
+                { name: "Fish", path: "/shop?animal=fish" },
+                {
+                  name: "Our Brands",
+                  path: "/shop",
+                  subItems: [
+                    { name: "Proline", path: "/shop?brand=Proline" },
+                    { name: "Reflex", path: "/shop?brand=Reflex" },
+                    { name: "Josera", path: "/shop?brand=Josera" },
+                    { name: "Spectrum", path: "/shop?brand=SPECTRUM" }
+                  ]
+                },
+                { name: "Offers", path: "/shop?type=offer" },
+                { name: "Human", path: "/shop?type=human" },
+                { name: "Donate", path: "/shop?type=donate" },
+                { name: "Gift Vouchers", path: "/shop?type=gift" },
+                { name: "Food Comparison", path: "/shop?type=comparison" },
+                {
+                  name: "Pet Avenue",
+                  path: "/shop?type=avenue",
+                  subItems: [
+                    { name: "Avenue Shop", path: "/shop?type=avenue" }
+                  ]
+                },
+                { name: "Blogs", path: "/blogs" },
+                { name: "Brochures", path: "/brochures" },
+                { name: "Reviews", path: "/reviews" },
+                { name: "FAQs", path: "/faqs" },
+                { name: "Shipping Rates", path: "/shipping-rates" },
+                {
+                  name: "Locations",
+                  path: "/locations",
+                  subItems: [
+                    { name: "Our Stores", path: "/locations" }
+                  ]
+                }
+              ].map((item, idx) => {
+                const isExpandable = !!item.subItems;
+                const isExpanded = !!expandedItems[item.name];
+                return (
+                  <li key={idx} style={{ display: "flex", flexDirection: "column" }}>
+                    <div className="drawer-menu-item-row">
+                      <Link
+                        to={item.path}
+                        className="drawer-menu-link"
+                        onClick={() => setIsMenuOpen(false)}
+                      >
+                        {item.name}
+                      </Link>
+                      {isExpandable && (
+                        <button
+                          type="button"
+                          className="drawer-menu-arrow-btn"
+                          onClick={(e) => {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            setExpandedItems(prev => ({
+                              ...prev,
+                              [item.name]: !prev[item.name]
+                            }));
+                          }}
+                          aria-label={`Toggle ${item.name} sub-menu`}
+                        >
+                          <i className={`fa ${isExpanded ? "fa-chevron-down" : "fa-chevron-right"}`}></i>
+                        </button>
+                      )}
+                    </div>
+                    {isExpandable && isExpanded && (
+                      <ul className="drawer-submenu-list">
+                        {item.subItems.map((sub, sIdx) => (
+                          <li key={sIdx}>
+                            <Link
+                              to={sub.path}
+                              className="drawer-submenu-link"
+                              onClick={() => setIsMenuOpen(false)}
+                            >
+                              {sub.name}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </li>
+                );
+              })}
             </ul>
           </div>
         </>

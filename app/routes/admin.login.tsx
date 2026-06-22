@@ -45,42 +45,43 @@ export default function AdminLogin() {
   return (
     <div style={{
       minHeight: "100vh",
-      background: "#0a0a0a",
-      color: "#fff",
+      background: "#f8fafc",
+      color: "var(--ink)",
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
-      fontFamily: "var(--font-mono)",
+      fontFamily: "var(--font-sans)",
       padding: "1rem"
     }}>
       <div style={{
         width: "100%",
         maxWidth: "400px",
-        background: "#121212",
-        border: "3px solid #C8102E", // Kenya flag red accent
+        background: "#ffffff",
+        border: "1px solid var(--border-light)",
+        borderRadius: "8px",
         padding: "2.5rem 2rem",
-        boxShadow: "10px 10px 0px #1A1A1A"
+        boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)"
       }}>
         {/* Flag strip */}
-        <div style={{ display: "flex", height: "6px", margin: "-2.5rem -2rem 2rem", borderBottom: "2px solid #000" }}>
-          <div style={{ flex: 1, background: "#1A1A1A" }} />
+        <div style={{ display: "flex", height: "6px", margin: "-2.5rem -2rem 2rem", borderTopLeftRadius: "8px", borderTopRightRadius: "8px", overflow: "hidden" }}>
+          <div style={{ flex: 1, background: "#000000" }} />
           <div style={{ flex: 1, background: "#C8102E" }} />
           <div style={{ flex: 1, background: "#006600" }} />
         </div>
 
         <div style={{ textAlign: "center", marginBottom: "2rem" }}>
           <span style={{ fontSize: "2.5rem" }}>🔒</span>
-          <h1 style={{ fontSize: "1.5rem", fontWeight: 700, marginTop: "0.5rem", letterSpacing: "-0.03em" }}>
+          <h1 style={{ fontSize: "1.5rem", fontWeight: 700, marginTop: "0.5rem", color: "var(--primary)", letterSpacing: "-0.03em" }}>
             PETSTORE KENYA
           </h1>
-          <div style={{ fontSize: "0.65rem", color: "#666", letterSpacing: "0.15em", textTransform: "uppercase", marginTop: "0.25rem" }}>
+          <div style={{ fontSize: "0.65rem", color: "var(--ink-light)", letterSpacing: "0.15em", textTransform: "uppercase", marginTop: "0.25rem" }}>
             Staff Access Portal
           </div>
         </div>
 
         <Form method="post" style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
           <div>
-            <label htmlFor="pin" style={{ display: "block", fontSize: "0.7rem", color: "#aaa", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: "0.5rem" }}>
+            <label htmlFor="pin" style={{ display: "block", fontSize: "0.7rem", color: "var(--ink-light)", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: "0.5rem" }}>
               Enter Admin PIN
             </label>
             <input
@@ -94,29 +95,30 @@ export default function AdminLogin() {
               style={{
                 width: "100%",
                 padding: "0.85rem",
-                background: "#1a1a1a",
-                border: "2px solid #333",
-                color: "#fff",
+                background: "#ffffff",
+                border: "1px solid var(--border-light)",
+                color: "var(--ink)",
                 fontSize: "1.25rem",
                 textAlign: "center",
                 letterSpacing: "0.5em",
                 fontFamily: "monospace",
                 outline: "none",
-                borderRadius: 0,
+                borderRadius: "6px",
                 transition: "border-color 0.2s"
               }}
-              onFocus={(e) => e.target.style.borderColor = "#C8102E"}
-              onBlur={(e) => e.target.style.borderColor = "#333"}
+              onFocus={(e) => e.target.style.borderColor = "var(--primary)"}
+              onBlur={(e) => e.target.style.borderColor = "var(--border-light)"}
             />
           </div>
 
           {actionData?.error && (
             <div style={{
-              background: "rgba(200, 16, 46, 0.1)",
+              background: "rgba(200, 16, 46, 0.05)",
               border: "1px solid #C8102E",
-              color: "#f87171",
+              color: "#C8102E",
               fontSize: "0.75rem",
               padding: "0.75rem",
+              borderRadius: "6px",
               textAlign: "center"
             }}>
               ⚠️ {actionData.error}
@@ -126,22 +128,17 @@ export default function AdminLogin() {
           <button
             type="submit"
             style={{
-              background: "#C8102E",
-              color: "#fff",
-              border: "2px solid #000",
+              background: "var(--primary)",
+              color: "#ffffff",
+              border: "none",
+              borderRadius: "6px",
               padding: "0.85rem",
               fontWeight: 700,
               fontSize: "0.8rem",
               textTransform: "uppercase",
               letterSpacing: "0.1em",
               cursor: "pointer",
-              transition: "transform 0.1s, box-shadow 0.1s"
-            }}
-            onMouseDown={(e) => {
-              e.currentTarget.style.transform = "translate(2px, 2px)";
-            }}
-            onMouseUp={(e) => {
-              e.currentTarget.style.transform = "none";
+              transition: "background-color 0.2s"
             }}
           >
             Authenticate →
