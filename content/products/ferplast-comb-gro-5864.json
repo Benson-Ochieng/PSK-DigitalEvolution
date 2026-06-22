@@ -1,0 +1,62 @@
+{
+  "id": 49,
+  "name": "Ferplast Comb GO 5864",
+  "slug": "ferplast-comb-gro-5864",
+  "sku": "PSK-49-ferplast",
+  "onSale": false,
+  "price": 2485,
+  "regularPrice": 2485,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Screenshot-2025-08-11-094336.png",
+  "categories": [
+    {
+      "id": 2,
+      "name": "Cat Food",
+      "slug": "cat-food"
+    },
+    {
+      "id": 5,
+      "name": "Dry Food",
+      "slug": "dry-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 32,
+      "name": "Ferplast",
+      "slug": "ferplast"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Premium",
+      "slug": "premium"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 1,
+  "status": "publish",
+  "dateCreated": "2026-06-22T07:52:40.877Z",
+  "dateModified": "2026-06-22T07:52:40.877Z",
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/ferplast-comb-gro-5864/",
+  "shortDescription": "The Ferplast GRO 5864 is a high-quality grooming comb designed for medium and long-haired dogs and cats. Featuring a sturdy plastic handle and rounded teeth, it detangles fur efficiently while being gentle on your pet’s skin.",
+  "description": "The Ferplast GRO 5864 is a high-quality grooming comb designed for medium and long-haired dogs and cats. Featuring a sturdy plastic handle and rounded teeth, it detangles fur efficiently while being gentle on your pet’s skin.",
+  "images": [
+    {
+      "id": 490,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/08/Screenshot-2025-08-11-094336.png",
+      "alt": "Ferplast Comb GO 5864",
+      "name": "Ferplast Comb GO 5864"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 10,
+  "manageStock": true,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/ferplast-comb-gro-5864/?add-to-cart=49"
+}

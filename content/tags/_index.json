@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Premium",
+    "slug": "premium",
+    "desc": "Super premium quality pet food and accessories."
+  },
+  {
+    "id": 2,
+    "name": "Senior",
+    "slug": "senior",
+    "desc": "Specifically formulated for older pets."
+  },
+  {
+    "id": 3,
+    "name": "Adult",
+    "slug": "adult",
+    "desc": "Designed for mature, adult pets."
+  },
+  {
+    "id": 4,
+    "name": "Puppy",
+    "slug": "puppy",
+    "desc": "Nutrient-rich formulas for growing puppies."
+  },
+  {
+    "id": 5,
+    "name": "Kitten",
+    "slug": "kitten",
+    "desc": "Nutrient-rich formulas for young kittens."
+  }
+]

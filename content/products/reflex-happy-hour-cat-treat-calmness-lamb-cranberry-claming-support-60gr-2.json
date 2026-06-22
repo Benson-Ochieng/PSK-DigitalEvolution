@@ -1,0 +1,62 @@
+{
+  "id": 40,
+  "name": "Reflex Happy Hour Cat Treat Calmness Lamb & Cranberry Calming Support 60g",
+  "slug": "reflex-happy-hour-cat-treat-calmness-lamb-cranberry-claming-support-60gr-2",
+  "sku": "PSK-40-reflex",
+  "onSale": false,
+  "price": 195,
+  "regularPrice": 195,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/07/REFLEX-HAPPY-HOUR-CAT-TREAT-CALMNESS-LAMB-CRANBERRY-CLAMING-SUPPORT-60GR-1.png",
+  "categories": [
+    {
+      "id": 2,
+      "name": "Cat Food",
+      "slug": "cat-food"
+    },
+    {
+      "id": 3,
+      "name": "Treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [
+    {
+      "id": 10,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Premium",
+      "slug": "premium"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 1,
+  "status": "publish",
+  "dateCreated": "2026-06-22T07:52:40.877Z",
+  "dateModified": "2026-06-22T07:52:40.877Z",
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/reflex-happy-hour-cat-treat-calmness-lamb-cranberry-claming-support-60gr-2/",
+  "shortDescription": "Happy hour cat treats calmness lamb & cranberry calming support- Perfect for rewarding good behavior or just showing your pet some extra love, Reflex Happy Hours Cat Treats are free from artificial preservatives and fillers. Plus, they’re great for maintaining healthy teet...",
+  "description": "Happy hour cat treats calmness lamb & cranberry calming support- Perfect for rewarding good behavior or just showing your pet some extra love, Reflex Happy Hours Cat Treats are free from artificial preservatives and fillers. Plus, they’re great for maintaining healthy teet...",
+  "images": [
+    {
+      "id": 400,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/07/REFLEX-HAPPY-HOUR-CAT-TREAT-CALMNESS-LAMB-CRANBERRY-CLAMING-SUPPORT-60GR-1.png",
+      "alt": "Reflex Happy Hour Cat Treat Calmness Lamb & Cranberry Calming Support 60g",
+      "name": "Reflex Happy Hour Cat Treat Calmness Lamb & Cranberry Calming Support 60g"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 10,
+  "manageStock": true,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-happy-hour-cat-treat-calmness-lamb-cranberry-claming-support-60gr-2/?add-to-cart=40"
+}

@@ -1,0 +1,62 @@
+{
+  "id": 33,
+  "name": "Whiskas Adult Cat Pouches Poultry/Feasts M/Pak 12x85g",
+  "slug": "whiskas-adult-cat-pouches-fish-m-pak-12x85g",
+  "sku": "PSK-33-whiskas",
+  "onSale": false,
+  "price": 2620,
+  "regularPrice": 2620,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/11/WHISKAS-ACAT-POUCHES-PFEASTS-MPAK-12X85G.png",
+  "categories": [
+    {
+      "id": 2,
+      "name": "Cat Food",
+      "slug": "cat-food"
+    },
+    {
+      "id": 4,
+      "name": "Wet Food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 26,
+      "name": "Whiskas",
+      "slug": "whiskas"
+    }
+  ],
+  "tags": [
+    {
+      "id": 3,
+      "name": "Adult",
+      "slug": "adult"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 1,
+  "status": "publish",
+  "dateCreated": "2026-06-22T07:52:40.876Z",
+  "dateModified": "2026-06-22T07:52:40.876Z",
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/whiskas-adult-cat-pouches-fish-m-pak-12x85g/",
+  "shortDescription": "Give your adult cat the delicious taste they crave and the balanced nutrition they deserve with WHISKAS 1+ Poultry Feasts in Gravy. Expertly crafted with 100% high-quality, sustainably sourced ingredients, this complete wet cat food provides everything your feline needs to sta...",
+  "description": "Give your adult cat the delicious taste they crave and the balanced nutrition they deserve with WHISKAS 1+ Poultry Feasts in Gravy. Expertly crafted with 100% high-quality, sustainably sourced ingredients, this complete wet cat food provides everything your feline needs to sta...",
+  "images": [
+    {
+      "id": 330,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/11/WHISKAS-ACAT-POUCHES-PFEASTS-MPAK-12X85G.png",
+      "alt": "Whiskas Adult Cat Pouches Poultry/Feasts M/Pak 12x85g",
+      "name": "Whiskas Adult Cat Pouches Poultry/Feasts M/Pak 12x85g"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 10,
+  "manageStock": true,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/whiskas-adult-cat-pouches-fish-m-pak-12x85g/?add-to-cart=33"
+}

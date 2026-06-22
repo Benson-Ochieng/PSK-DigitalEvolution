@@ -1,0 +1,62 @@
+{
+  "id": 2,
+  "name": "Veggie Dog Original Adult 10kg",
+  "slug": "veggie-dog-original-adult-10kg",
+  "sku": "PSK-2-josera",
+  "onSale": false,
+  "price": 15900,
+  "regularPrice": 15900,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JVDOA.jpg",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Dog Food",
+      "slug": "dog-food"
+    },
+    {
+      "id": 5,
+      "name": "Dry Food",
+      "slug": "dry-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 11,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "tags": [
+    {
+      "id": 3,
+      "name": "Adult",
+      "slug": "adult"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 1,
+  "status": "publish",
+  "dateCreated": "2026-06-22T07:52:40.871Z",
+  "dateModified": "2026-06-22T07:52:40.871Z",
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/veggie-dog-original-adult-10kg/",
+  "shortDescription": "Gluten-free complete food with red lentils for sensitive adult dogs",
+  "description": "Gluten-free complete food with red lentils for sensitive adult dogs",
+  "images": [
+    {
+      "id": 20,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JVDOA.jpg",
+      "alt": "Veggie Dog Original Adult 10kg",
+      "name": "Veggie Dog Original Adult 10kg"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 10,
+  "manageStock": true,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/veggie-dog-original-adult-10kg/?add-to-cart=2"
+}

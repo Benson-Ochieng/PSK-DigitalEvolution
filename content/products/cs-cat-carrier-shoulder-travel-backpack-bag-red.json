@@ -1,0 +1,62 @@
+{
+  "id": 17,
+  "name": "Cs Cat Carrier Shoulder Travel Backpack Bag Red",
+  "slug": "cs-cat-carrier-shoulder-travel-backpack-bag-red",
+  "sku": "PSK-17-cs",
+  "onSale": false,
+  "price": 3500,
+  "regularPrice": 3500,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/01/CAT-ACRRIER-SHOULDER-TRAVEL-BACKPACK-RED.png",
+  "categories": [
+    {
+      "id": 2,
+      "name": "Cat Food",
+      "slug": "cat-food"
+    },
+    {
+      "id": 3,
+      "name": "Treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [
+    {
+      "id": 18,
+      "name": "CS",
+      "slug": "cs"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Premium",
+      "slug": "premium"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 1,
+  "status": "publish",
+  "dateCreated": "2026-06-22T07:52:40.875Z",
+  "dateModified": "2026-06-22T07:52:40.875Z",
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/cs-cat-carrier-shoulder-travel-backpack-bag-red/",
+  "shortDescription": "Make every outing an adventure with the Cat Carrier Shoulder Travel Backpack. Lightweight, portable, and designed for comfort, it allows your cat to experience the world safely by your side. Its spacious interior, ventilation holes, and secure closures create a perfect balance...",
+  "description": "Make every outing an adventure with the Cat Carrier Shoulder Travel Backpack. Lightweight, portable, and designed for comfort, it allows your cat to experience the world safely by your side. Its spacious interior, ventilation holes, and secure closures create a perfect balance...",
+  "images": [
+    {
+      "id": 170,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/01/CAT-ACRRIER-SHOULDER-TRAVEL-BACKPACK-RED.png",
+      "alt": "Cs Cat Carrier Shoulder Travel Backpack Bag Red",
+      "name": "Cs Cat Carrier Shoulder Travel Backpack Bag Red"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 10,
+  "manageStock": true,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/cs-cat-carrier-shoulder-travel-backpack-bag-red/?add-to-cart=17"
+}

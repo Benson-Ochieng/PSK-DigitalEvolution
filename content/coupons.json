@@ -1,0 +1,16 @@
+[
+  {
+    "code": "VISION8",
+    "discountValue": 8,
+    "discountType": "percentage",
+    "active": true,
+    "createdAt": "2026-05-01"
+  },
+  {
+    "code": "WELCOME500",
+    "discountValue": 500,
+    "discountType": "fixed",
+    "active": true,
+    "createdAt": "2026-05-15"
+  }
+]

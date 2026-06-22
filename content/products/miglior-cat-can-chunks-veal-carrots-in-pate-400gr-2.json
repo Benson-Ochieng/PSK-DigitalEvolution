@@ -1,0 +1,62 @@
+{
+  "id": 30,
+  "name": "Miglior Canned Cat Food - Veal & Carrots, Pate 400g",
+  "slug": "miglior-cat-can-chunks-veal-carrots-in-pate-400gr-2",
+  "sku": "PSK-30-miglior",
+  "onSale": false,
+  "price": 224,
+  "regularPrice": 224,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/01/MIGLIOR-GATTO-CON-VITELLO-E-CAROTE-IN-PATE-400G.jpg",
+  "categories": [
+    {
+      "id": 2,
+      "name": "Cat Food",
+      "slug": "cat-food"
+    },
+    {
+      "id": 4,
+      "name": "Wet Food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 24,
+      "name": "Miglior",
+      "slug": "miglior"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Premium",
+      "slug": "premium"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 1,
+  "status": "publish",
+  "dateCreated": "2026-06-22T07:52:40.876Z",
+  "dateModified": "2026-06-22T07:52:40.876Z",
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/miglior-cat-can-chunks-veal-carrots-in-pate-400gr-2/",
+  "shortDescription": "This formula guarantees key nutrients like Omega-3, vitamins, calcium, and phosphorus supporting strong bones and teeth, healthy skin and a glossy coat. A high-quality meal your cat will love, every day.",
+  "description": "This formula guarantees key nutrients like Omega-3, vitamins, calcium, and phosphorus supporting strong bones and teeth, healthy skin and a glossy coat. A high-quality meal your cat will love, every day.",
+  "images": [
+    {
+      "id": 300,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/01/MIGLIOR-GATTO-CON-VITELLO-E-CAROTE-IN-PATE-400G.jpg",
+      "alt": "Miglior Canned Cat Food - Veal & Carrots, Pate 400g",
+      "name": "Miglior Canned Cat Food - Veal & Carrots, Pate 400g"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 10,
+  "manageStock": true,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/miglior-cat-can-chunks-veal-carrots-in-pate-400gr-2/?add-to-cart=30"
+}

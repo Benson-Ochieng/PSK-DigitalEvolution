@@ -1,0 +1,62 @@
+{
+  "id": 27,
+  "name": "King Canned Dog Food - Lamb Chunks in Gravy 400g",
+  "slug": "king-canned-dog-food-lamb-chunks-in-gravy-400gr",
+  "sku": "PSK-27-king",
+  "onSale": false,
+  "price": 201,
+  "regularPrice": 201,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/11/KING-2.png",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Dog Food",
+      "slug": "dog-food"
+    },
+    {
+      "id": 4,
+      "name": "Wet Food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 23,
+      "name": "King",
+      "slug": "king"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Premium",
+      "slug": "premium"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 1,
+  "status": "publish",
+  "dateCreated": "2026-06-22T07:52:40.876Z",
+  "dateModified": "2026-06-22T07:52:40.876Z",
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/king-canned-dog-food-lamb-chunks-in-gravy-400gr/",
+  "shortDescription": "King Canned Dog Food Lamb Chunks in Gravy 400g is a complementary meal for adult dogs, made with real lamb (4%), cereals, and essential minerals. The savory meaty chunks in gravy provide a protein-rich, moisture-packed formula that supports hydration, healthy muscles, and over...",
+  "description": "King Canned Dog Food Lamb Chunks in Gravy 400g is a complementary meal for adult dogs, made with real lamb (4%), cereals, and essential minerals. The savory meaty chunks in gravy provide a protein-rich, moisture-packed formula that supports hydration, healthy muscles, and over...",
+  "images": [
+    {
+      "id": 270,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/11/KING-2.png",
+      "alt": "King Canned Dog Food - Lamb Chunks in Gravy 400g",
+      "name": "King Canned Dog Food - Lamb Chunks in Gravy 400g"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 10,
+  "manageStock": true,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/king-canned-dog-food-lamb-chunks-in-gravy-400gr/?add-to-cart=27"
+}

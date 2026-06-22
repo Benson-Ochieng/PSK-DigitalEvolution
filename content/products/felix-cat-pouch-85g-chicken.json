@@ -1,0 +1,62 @@
+{
+  "id": 32,
+  "name": "Felix Cat Pouch 85g Chicken",
+  "slug": "felix-cat-pouch-85g-chicken",
+  "sku": "PSK-32-felix",
+  "onSale": false,
+  "price": 194,
+  "regularPrice": 194,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-2.png",
+  "categories": [
+    {
+      "id": 2,
+      "name": "Cat Food",
+      "slug": "cat-food"
+    },
+    {
+      "id": 4,
+      "name": "Wet Food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 25,
+      "name": "Felix",
+      "slug": "felix"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Premium",
+      "slug": "premium"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 1,
+  "status": "publish",
+  "dateCreated": "2026-06-22T07:52:40.876Z",
+  "dateModified": "2026-06-22T07:52:40.876Z",
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/felix-cat-pouch-85g-chicken/",
+  "shortDescription": "Satisfy your cat’s appetite with FELIX Chicken Cat Pouch 85g, featuring soft, meaty chicken pieces immersed in savory jelly. Formulated as a complete meal, it contains the perfect balance of nutrients, vitamins, minerals, and Omega-6 to maintain your cat’s overall health and v...",
+  "description": "Satisfy your cat’s appetite with FELIX Chicken Cat Pouch 85g, featuring soft, meaty chicken pieces immersed in savory jelly. Formulated as a complete meal, it contains the perfect balance of nutrients, vitamins, minerals, and Omega-6 to maintain your cat’s overall health and v...",
+  "images": [
+    {
+      "id": 320,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-2.png",
+      "alt": "Felix Cat Pouch 85g Chicken",
+      "name": "Felix Cat Pouch 85g Chicken"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 10,
+  "manageStock": true,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/felix-cat-pouch-85g-chicken/?add-to-cart=32"
+}

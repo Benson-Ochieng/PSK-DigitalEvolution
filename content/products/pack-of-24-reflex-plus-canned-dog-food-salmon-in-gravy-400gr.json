@@ -1,0 +1,62 @@
+{
+  "id": 25,
+  "name": "Pack Of 24  - Reflex Plus Canned Dog Food Salmon In Gravy 400g",
+  "slug": "pack-of-24-reflex-plus-canned-dog-food-salmon-in-gravy-400gr",
+  "sku": "PSK-25-reflex",
+  "onSale": false,
+  "price": 6588,
+  "regularPrice": 6588,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/11/REFLEX-PLUS-CANNED-DOG-FOOD-SALMON-IN-GRAVY-400GR.png",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Dog Food",
+      "slug": "dog-food"
+    },
+    {
+      "id": 4,
+      "name": "Wet Food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 10,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Premium",
+      "slug": "premium"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 1,
+  "status": "publish",
+  "dateCreated": "2026-06-22T07:52:40.876Z",
+  "dateModified": "2026-06-22T07:52:40.876Z",
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/pack-of-24-reflex-plus-canned-dog-food-salmon-in-gravy-400gr/",
+  "shortDescription": "Reflex Plus Canned Dog Food Salmon in Gravy, Its nutritional value and digestibility are high thanks to its high-quality animal protein and vitamin diversity. Its functional ingredients support many systems, while its high-water content contributes to daily water intake and su...",
+  "description": "Reflex Plus Canned Dog Food Salmon in Gravy, Its nutritional value and digestibility are high thanks to its high-quality animal protein and vitamin diversity. Its functional ingredients support many systems, while its high-water content contributes to daily water intake and su...",
+  "images": [
+    {
+      "id": 250,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/11/REFLEX-PLUS-CANNED-DOG-FOOD-SALMON-IN-GRAVY-400GR.png",
+      "alt": "Pack Of 24  - Reflex Plus Canned Dog Food Salmon In Gravy 400g",
+      "name": "Pack Of 24  - Reflex Plus Canned Dog Food Salmon In Gravy 400g"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 10,
+  "manageStock": true,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/pack-of-24-reflex-plus-canned-dog-food-salmon-in-gravy-400gr/?add-to-cart=25"
+}

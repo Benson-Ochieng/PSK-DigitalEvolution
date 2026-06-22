@@ -1,0 +1,62 @@
+{
+  "id": 24,
+  "name": "Ultimates Dog Can Chicken Mince & Tuna 400g",
+  "slug": "ultimates-dog-can-chicken-mince-tuna-400g-2",
+  "sku": "PSK-24-ultimates",
+  "onSale": false,
+  "price": 284,
+  "regularPrice": 284,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/06/ULTIMATES-DOG-CAN-CHICKEN-MINCE-TUNA-400G.png",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Dog Food",
+      "slug": "dog-food"
+    },
+    {
+      "id": 4,
+      "name": "Wet Food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 22,
+      "name": "Ultimates",
+      "slug": "ultimates"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Premium",
+      "slug": "premium"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 1,
+  "status": "publish",
+  "dateCreated": "2026-06-22T07:52:40.875Z",
+  "dateModified": "2026-06-22T07:52:40.875Z",
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/ultimates-dog-can-chicken-mince-tuna-400g-2/",
+  "shortDescription": "Ultimates Indulge with Chicken Mince & Tuna contains natural meat, grain-free and made with healthy fish oils. Indulge the one you love with the Ultimate dog cuisine.",
+  "description": "Ultimates Indulge with Chicken Mince & Tuna contains natural meat, grain-free and made with healthy fish oils. Indulge the one you love with the Ultimate dog cuisine.",
+  "images": [
+    {
+      "id": 240,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/06/ULTIMATES-DOG-CAN-CHICKEN-MINCE-TUNA-400G.png",
+      "alt": "Ultimates Dog Can Chicken Mince & Tuna 400g",
+      "name": "Ultimates Dog Can Chicken Mince & Tuna 400g"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 10,
+  "manageStock": true,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/ultimates-dog-can-chicken-mince-tuna-400g-2/?add-to-cart=24"
+}

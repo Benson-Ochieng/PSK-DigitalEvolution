@@ -1,0 +1,62 @@
+{
+  "id": 34,
+  "name": "Rogz Dog Yumz-Treat Toy Bone 11.5cm - Blue Medium (YU03-B)",
+  "slug": "rogz-dog-yumz-treat-toy-bone-11-5cm-blue-medium",
+  "sku": "PSK-34-rogz",
+  "onSale": false,
+  "price": 1400,
+  "regularPrice": 1400,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/YU01-B-Yumz-Small-Blue.jpg",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Dog Food",
+      "slug": "dog-food"
+    },
+    {
+      "id": 3,
+      "name": "Treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [
+    {
+      "id": 13,
+      "name": "Rogz",
+      "slug": "rogz"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Premium",
+      "slug": "premium"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 1,
+  "status": "publish",
+  "dateCreated": "2026-06-22T07:52:40.876Z",
+  "dateModified": "2026-06-22T07:52:40.876Z",
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-dog-yumz-treat-toy-bone-11-5cm-blue-medium/",
+  "shortDescription": "Rogz Dog Yumz-Treat Toy bone - Blue Medium",
+  "description": "Rogz Dog Yumz-Treat Toy bone - Blue Medium",
+  "images": [
+    {
+      "id": 340,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/YU01-B-Yumz-Small-Blue.jpg",
+      "alt": "Rogz Dog Yumz-Treat Toy Bone 11.5cm - Blue Medium (YU03-B)",
+      "name": "Rogz Dog Yumz-Treat Toy Bone 11.5cm - Blue Medium (YU03-B)"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 10,
+  "manageStock": true,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-yumz-treat-toy-bone-11-5cm-blue-medium/?add-to-cart=34"
+}

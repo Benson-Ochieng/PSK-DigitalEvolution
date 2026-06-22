@@ -28,4 +28,23 @@ export default [
     route("admin/products", "routes/admin.products.tsx"),
     route("admin/prices", "routes/admin.prices.tsx"),
   ]),
+
+  // Premium WordPress-Style Admin Backend Routes
+  route("/vp-backend", "routes/vp-backend.tsx", [
+    index("routes/vp-backend.dashboard.tsx"),
+    route("products", "routes/vp-backend.products.tsx"),
+    route("users", "routes/vp-backend.users.tsx"),
+    route("orders", "routes/vp-backend.orders.tsx"),
+    route("customers", "routes/vp-backend.customers.tsx"),
+    route("coupons", "routes/vp-backend.coupons.tsx"),
+    route("pages", "routes/vp-backend.pages.tsx"),
+    route("comments", "routes/vp-backend.comments.tsx"),
+    route("history", "routes/vp-backend.history.tsx"),
+    route("posts", "routes/vp-backend.posts.tsx"),
+    route("media", "routes/vp-backend.media.tsx"),
+    route("downloads", "routes/vp-backend.downloads.tsx"),
+    route("analytics", "routes/vp-backend.analytics.tsx"),
+    route("settings", "routes/vp-backend.settings.tsx"),
+  ]),
+  route("/vp-backend/login", "routes/vp-backend.login.tsx"),
 ] satisfies RouteConfig;

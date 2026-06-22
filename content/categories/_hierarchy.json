@@ -1,0 +1,514 @@
+[
+  {
+    "id": 24,
+    "name": "Accessories",
+    "slug": "accessories",
+    "description": "",
+    "parent": 0,
+    "count": 33,
+    "image": null,
+    "link": "https://visionplus.co.ke/products/accessories/",
+    "children": [
+      {
+        "id": 83,
+        "name": "Adaptors &amp; Chargers",
+        "slug": "adaptors-and-chargers",
+        "description": "",
+        "parent": 24,
+        "count": 8,
+        "image": null,
+        "link": "https://visionplus.co.ke/products/adaptors-and-chargers/",
+        "children": []
+      },
+      {
+        "id": 85,
+        "name": "Cables",
+        "slug": "cables",
+        "description": "",
+        "parent": 24,
+        "count": 6,
+        "image": null,
+        "link": "https://visionplus.co.ke/products/cables/",
+        "children": []
+      },
+      {
+        "id": 206,
+        "name": "Power Banks",
+        "slug": "power-banks",
+        "description": "",
+        "parent": 24,
+        "count": 3,
+        "image": null,
+        "link": "https://visionplus.co.ke/products/power-banks/",
+        "children": []
+      },
+      {
+        "id": 72,
+        "name": "Remotes",
+        "slug": "remotes",
+        "description": "",
+        "parent": 24,
+        "count": 10,
+        "image": null,
+        "link": "https://visionplus.co.ke/products/remotes/",
+        "children": []
+      },
+      {
+        "id": 50,
+        "name": "Wall Brackets",
+        "slug": "wall-brackets",
+        "description": "",
+        "parent": 24,
+        "count": 6,
+        "image": null,
+        "link": "https://visionplus.co.ke/products/wall-brackets/",
+        "children": []
+      },
+      {
+        "id": 84,
+        "name": "Wall Mounts",
+        "slug": "wall-mounts",
+        "description": "",
+        "parent": 24,
+        "count": 1,
+        "image": null,
+        "link": "https://visionplus.co.ke/products/wall-mounts/",
+        "children": []
+      },
+      {
+        "id": 205,
+        "name": "Wall Mounts &amp; Remotes",
+        "slug": "wall-mounts-and-remotes",
+        "description": "",
+        "parent": 24,
+        "count": 16,
+        "image": null,
+        "link": "https://visionplus.co.ke/products/wall-mounts-and-remotes/",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Audio",
+    "slug": "audio",
+    "description": "",
+    "parent": 0,
+    "count": 12,
+    "image": null,
+    "link": "https://visionplus.co.ke/products/audio/",
+    "children": []
+  },
+  {
+    "id": 256,
+    "name": "BB2&amp;BBM",
+    "slug": "bb2bbm",
+    "description": "",
+    "parent": 0,
+    "count": 2,
+    "image": null,
+    "link": "https://visionplus.co.ke/products/bb2bbm/",
+    "children": []
+  },
+  {
+    "id": 73,
+    "name": "Bundle",
+    "slug": "bundle",
+    "description": "",
+    "parent": 0,
+    "count": 1,
+    "image": null,
+    "link": "https://visionplus.co.ke/products/bundle/",
+    "children": []
+  },
+  {
+    "id": 259,
+    "name": "Bundles",
+    "slug": "bundles",
+    "description": "",
+    "parent": 0,
+    "count": 1,
+    "image": null,
+    "link": "https://visionplus.co.ke/products/bundles/",
+    "children": []
+  },
+  {
+    "id": 258,
+    "name": "Clearance Sale",
+    "slug": "clearance-sale",
+    "description": "",
+    "parent": 0,
+    "count": 1,
+    "image": null,
+    "link": "https://visionplus.co.ke/products/clearance-sale/",
+    "children": []
+  },
+  {
+    "id": 201,
+    "name": "Combo Deals",
+    "slug": "combo-deals",
+    "description": "",
+    "parent": 0,
+    "count": 1,
+    "image": null,
+    "link": "https://visionplus.co.ke/products/combo-deals/",
+    "children": []
+  },
+  {
+    "id": 227,
+    "name": "Digital IT",
+    "slug": "digital-it",
+    "description": "",
+    "parent": 0,
+    "count": 2,
+    "image": null,
+    "link": "https://visionplus.co.ke/products/digital-it/",
+    "children": [
+      {
+        "id": 228,
+        "name": "Projector",
+        "slug": "projector",
+        "description": "",
+        "parent": 227,
+        "count": 1,
+        "image": null,
+        "link": "https://visionplus.co.ke/products/projector/",
+        "children": []
+      },
+      {
+        "id": 230,
+        "name": "Tablet",
+        "slug": "tablet",
+        "description": "",
+        "parent": 227,
+        "count": 1,
+        "image": null,
+        "link": "https://visionplus.co.ke/products/tablet/",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "name": "Home Appliances",
+    "slug": "home-appliances",
+    "description": "",
+    "parent": 0,
+    "count": 24,
+    "image": null,
+    "link": "https://visionplus.co.ke/products/home-appliances/",
+    "children": [
+      {
+        "id": 217,
+        "name": "Chest Freezers",
+        "slug": "chest-freezers",
+        "description": "",
+        "parent": 214,
+        "count": 3,
+        "image": null,
+        "link": "https://visionplus.co.ke/products/chest-freezers/",
+        "children": []
+      },
+      {
+        "id": 223,
+        "name": "Cookers",
+        "slug": "cookers",
+        "description": "",
+        "parent": 214,
+        "count": 3,
+        "image": null,
+        "link": "https://visionplus.co.ke/products/cookers/",
+        "children": []
+      },
+      {
+        "id": 226,
+        "name": "Microwaves",
+        "slug": "microwaves",
+        "description": "",
+        "parent": 214,
+        "count": 2,
+        "image": null,
+        "link": "https://visionplus.co.ke/products/microwaves/",
+        "children": []
+      },
+      {
+        "id": 219,
+        "name": "Refrigerators",
+        "slug": "refrigerators",
+        "description": "",
+        "parent": 214,
+        "count": 4,
+        "image": null,
+        "link": "https://visionplus.co.ke/products/refrigerators/",
+        "children": []
+      },
+      {
+        "id": 244,
+        "name": "Standing Fans",
+        "slug": "standing-fans",
+        "description": "",
+        "parent": 214,
+        "count": 2,
+        "image": null,
+        "link": "https://visionplus.co.ke/products/standing-fans/",
+        "children": []
+      },
+      {
+        "id": 221,
+        "name": "Washing Machines",
+        "slug": "washing-machines",
+        "description": "",
+        "parent": 214,
+        "count": 6,
+        "image": null,
+        "link": "https://visionplus.co.ke/products/washing-machines/",
+        "children": [
+          {
+            "id": 242,
+            "name": "Front Load",
+            "slug": "front-load",
+            "description": "",
+            "parent": 221,
+            "count": 4,
+            "image": null,
+            "link": "https://visionplus.co.ke/products/front-load/",
+            "children": []
+          },
+          {
+            "id": 240,
+            "name": "Top Load",
+            "slug": "top-load",
+            "description": "",
+            "parent": 221,
+            "count": 2,
+            "image": null,
+            "link": "https://visionplus.co.ke/products/top-load/",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 215,
+        "name": "Water Dispensers",
+        "slug": "water-dispensers",
+        "description": "",
+        "parent": 214,
+        "count": 4,
+        "image": null,
+        "link": "https://visionplus.co.ke/products/water-dispensers/",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "name": "Portable Audio",
+    "slug": "portable-audio",
+    "description": "",
+    "parent": 0,
+    "count": 5,
+    "image": null,
+    "link": "https://visionplus.co.ke/products/portable-audio/",
+    "children": []
+  },
+  {
+    "id": 251,
+    "name": "QLED",
+    "slug": "qled",
+    "description": "",
+    "parent": 0,
+    "count": 2,
+    "image": null,
+    "link": "https://visionplus.co.ke/products/qled/",
+    "children": []
+  },
+  {
+    "id": 70,
+    "name": "Sound Bar",
+    "slug": "sound-bar",
+    "description": "",
+    "parent": 0,
+    "count": 5,
+    "image": "/assets/images/categories/sound-bar.jpg",
+    "link": "https://visionplus.co.ke/products/sound-bar/",
+    "children": []
+  },
+  {
+    "id": 42,
+    "name": "Televisions",
+    "slug": "televisions",
+    "description": "",
+    "parent": 0,
+    "count": 8,
+    "image": "/assets/images/categories/televisions.jpg",
+    "link": "https://visionplus.co.ke/products/televisions/",
+    "children": [
+      {
+        "id": 65,
+        "name": "32&#8243;",
+        "slug": "32",
+        "description": "",
+        "parent": 42,
+        "count": 1,
+        "image": null,
+        "link": "https://visionplus.co.ke/products/32/",
+        "children": []
+      },
+      {
+        "id": 39,
+        "name": "43&#8243;",
+        "slug": "43",
+        "description": "",
+        "parent": 42,
+        "count": 1,
+        "image": null,
+        "link": "https://visionplus.co.ke/products/43/",
+        "children": []
+      },
+      {
+        "id": 67,
+        "name": "50&#8243;",
+        "slug": "50",
+        "description": "",
+        "parent": 42,
+        "count": 3,
+        "image": null,
+        "link": "https://visionplus.co.ke/products/50/",
+        "children": []
+      },
+      {
+        "id": 48,
+        "name": "55&#8243;",
+        "slug": "55",
+        "description": "",
+        "parent": 42,
+        "count": 1,
+        "image": null,
+        "link": "https://visionplus.co.ke/products/55/",
+        "children": []
+      },
+      {
+        "id": 69,
+        "name": "65&#8243;",
+        "slug": "65",
+        "description": "",
+        "parent": 42,
+        "count": 1,
+        "image": null,
+        "link": "https://visionplus.co.ke/products/65/",
+        "children": []
+      },
+      {
+        "id": 75,
+        "name": "75&#8243;",
+        "slug": "75",
+        "description": "",
+        "parent": 42,
+        "count": 1,
+        "image": null,
+        "link": "https://visionplus.co.ke/products/75/",
+        "children": []
+      },
+      {
+        "id": 92,
+        "name": "V+ OS",
+        "slug": "v-os",
+        "description": "",
+        "parent": 42,
+        "count": 5,
+        "image": null,
+        "link": "https://visionplus.co.ke/products/v-os/",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "name": "Tower Speakers",
+    "slug": "tower-speakers",
+    "description": "",
+    "parent": 0,
+    "count": 2,
+    "image": null,
+    "link": "https://visionplus.co.ke/products/tower-speakers/",
+    "children": []
+  },
+  {
+    "id": 55,
+    "name": "Vibe series",
+    "slug": "vibe-series",
+    "description": "",
+    "parent": 0,
+    "count": 1,
+    "image": "/assets/images/categories/vibe-series.jpg",
+    "link": "https://visionplus.co.ke/products/vibe-series/",
+    "children": []
+  },
+  {
+    "id": 203,
+    "name": "Wearables",
+    "slug": "wearables",
+    "description": "",
+    "parent": 0,
+    "count": 9,
+    "image": null,
+    "link": "https://visionplus.co.ke/products/wearables/",
+    "children": [
+      {
+        "id": 241,
+        "name": "Ear Pods",
+        "slug": "ear-pods",
+        "description": "",
+        "parent": 203,
+        "count": 3,
+        "image": null,
+        "link": "https://visionplus.co.ke/products/ear-pods/",
+        "children": []
+      },
+      {
+        "id": 236,
+        "name": "Neckbands",
+        "slug": "neckbands",
+        "description": "",
+        "parent": 203,
+        "count": 3,
+        "image": null,
+        "link": "https://visionplus.co.ke/products/neckbands/",
+        "children": []
+      },
+      {
+        "id": 235,
+        "name": "Smart Watches",
+        "slug": "smart-watches",
+        "description": "",
+        "parent": 203,
+        "count": 2,
+        "image": null,
+        "link": "https://visionplus.co.ke/products/smart-watches/",
+        "children": []
+      },
+      {
+        "id": 238,
+        "name": "Sunnies",
+        "slug": "sunnies",
+        "description": "",
+        "parent": 203,
+        "count": 1,
+        "image": null,
+        "link": "https://visionplus.co.ke/products/sunnies/",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 252,
+    "name": "Whale TV",
+    "slug": "whale-tv",
+    "description": "",
+    "parent": 0,
+    "count": 2,
+    "image": null,
+    "link": "https://visionplus.co.ke/products/whale-tv/",
+    "children": []
+  }
+]

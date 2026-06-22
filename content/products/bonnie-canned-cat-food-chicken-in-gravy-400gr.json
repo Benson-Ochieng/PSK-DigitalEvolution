@@ -1,0 +1,62 @@
+{
+  "id": 28,
+  "name": "Bonnie Canned Cat Food - Chicken in Gravy 400g",
+  "slug": "bonnie-canned-cat-food-chicken-in-gravy-400gr",
+  "sku": "PSK-28-bonnie",
+  "onSale": false,
+  "price": 231,
+  "regularPrice": 231,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2018/02/Bonnie-Adult-Cat-Canned-Chicken-Chunks-in-Gravy-1080x1080-c.png",
+  "categories": [
+    {
+      "id": 2,
+      "name": "Cat Food",
+      "slug": "cat-food"
+    },
+    {
+      "id": 4,
+      "name": "Wet Food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 12,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Premium",
+      "slug": "premium"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 1,
+  "status": "publish",
+  "dateCreated": "2026-06-22T07:52:40.876Z",
+  "dateModified": "2026-06-22T07:52:40.876Z",
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/bonnie-canned-cat-food-chicken-in-gravy-400gr/",
+  "shortDescription": "Nutritious wet food made with tender chicken pieces in sauce. Enriched with essential vitamins, minerals, and taurine to support strong muscles, healthy digestion, and hydration for adult cats.",
+  "description": "Nutritious wet food made with tender chicken pieces in sauce. Enriched with essential vitamins, minerals, and taurine to support strong muscles, healthy digestion, and hydration for adult cats.",
+  "images": [
+    {
+      "id": 280,
+      "src": "https://petstore.co.ke/wp-content/uploads/2018/02/Bonnie-Adult-Cat-Canned-Chicken-Chunks-in-Gravy-1080x1080-c.png",
+      "alt": "Bonnie Canned Cat Food - Chicken in Gravy 400g",
+      "name": "Bonnie Canned Cat Food - Chicken in Gravy 400g"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 10,
+  "manageStock": true,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/bonnie-canned-cat-food-chicken-in-gravy-400gr/?add-to-cart=28"
+}

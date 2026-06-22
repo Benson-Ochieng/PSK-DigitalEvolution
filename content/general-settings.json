@@ -1,0 +1,17 @@
+{
+  "siteTitle": "Vision Plus",
+  "tagline": "Experience Everything",
+  "siteIcon": "/assets/images/pages/vision-plus-logo.png",
+  "wpAddressUrl": "https://visionplus.co.ke",
+  "siteAddressUrl": "/",
+  "adminEmail": "developers@granularit.com",
+  "anyoneCanRegister": false,
+  "defaultRole": "subscriber",
+  "siteLanguage": "en_US",
+  "timezone": "UTC+3",
+  "dateFormat": "F j, Y",
+  "dateFormatCustom": "",
+  "timeFormat": "g:i a",
+  "timeFormatCustom": "",
+  "weekStartsOn": "Monday"
+}

@@ -1,0 +1,62 @@
+{
+  "id": 43,
+  "name": "Inaba Foods Cat Treat Grilled Chicken Fillet Extra Tender In Crab Flavored Broth",
+  "slug": "inaba-grilled-chicken-crab-broth-cat-treat",
+  "sku": "PSK-43-churu",
+  "onSale": false,
+  "price": 350,
+  "regularPrice": 350,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/Grilled-Cat-Chicken-Fillet-Extra-Tender-In-Crab-Flavored-Broth-1.png",
+  "categories": [
+    {
+      "id": 2,
+      "name": "Cat Food",
+      "slug": "cat-food"
+    },
+    {
+      "id": 3,
+      "name": "Treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [
+    {
+      "id": 29,
+      "name": "Churu",
+      "slug": "churu"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Premium",
+      "slug": "premium"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 1,
+  "status": "publish",
+  "dateCreated": "2026-06-22T07:52:40.877Z",
+  "dateModified": "2026-06-22T07:52:40.877Z",
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/inaba-grilled-chicken-crab-broth-cat-treat/",
+  "shortDescription": "Premium Inaba grilled chicken fillet in crab flavored broth for cats. Grain-free, moisture-rich treat with Vitamin E for immunity and hydration support.",
+  "description": "Premium Inaba grilled chicken fillet in crab flavored broth for cats. Grain-free, moisture-rich treat with Vitamin E for immunity and hydration support.",
+  "images": [
+    {
+      "id": 430,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/02/Grilled-Cat-Chicken-Fillet-Extra-Tender-In-Crab-Flavored-Broth-1.png",
+      "alt": "Inaba Foods Cat Treat Grilled Chicken Fillet Extra Tender In Crab Flavored Broth",
+      "name": "Inaba Foods Cat Treat Grilled Chicken Fillet Extra Tender In Crab Flavored Broth"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 10,
+  "manageStock": true,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/inaba-grilled-chicken-crab-broth-cat-treat/?add-to-cart=43"
+}

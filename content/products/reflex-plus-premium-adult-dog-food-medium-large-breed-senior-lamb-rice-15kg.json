@@ -1,0 +1,67 @@
+{
+  "id": 1,
+  "name": "Reflex Plus Premium Adult Dog Food - Medium/Large Breed Senior Lamb & Rice 15kg",
+  "slug": "reflex-plus-premium-adult-dog-food-medium-large-breed-senior-lamb-rice-15kg",
+  "sku": "PSK-1-reflex",
+  "onSale": false,
+  "price": 11500,
+  "regularPrice": 11500,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/10/Reflex-Plus-Medium-Large-Breed-Senior-Dog-Food-Lamb-And-Rice-15kg-min.png",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Dog Food",
+      "slug": "dog-food"
+    },
+    {
+      "id": 5,
+      "name": "Dry Food",
+      "slug": "dry-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 10,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2,
+      "name": "Senior",
+      "slug": "senior"
+    },
+    {
+      "id": 3,
+      "name": "Adult",
+      "slug": "adult"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 1,
+  "status": "publish",
+  "dateCreated": "2026-06-22T07:52:40.869Z",
+  "dateModified": "2026-06-22T07:52:40.869Z",
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/reflex-plus-premium-adult-dog-food-medium-large-breed-senior-lamb-rice-15kg/",
+  "shortDescription": "Reflex Plus Senior Dog Food Lamb and Rice is a complete and balanced formulated super premium dry dog food with lamb and rice for medium-large breeds older than 7 years of age.",
+  "description": "Reflex Plus Senior Dog Food Lamb and Rice is a complete and balanced formulated super premium dry dog food with lamb and rice for medium-large breeds older than 7 years of age.",
+  "images": [
+    {
+      "id": 10,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/10/Reflex-Plus-Medium-Large-Breed-Senior-Dog-Food-Lamb-And-Rice-15kg-min.png",
+      "alt": "Reflex Plus Premium Adult Dog Food - Medium/Large Breed Senior Lamb & Rice 15kg",
+      "name": "Reflex Plus Premium Adult Dog Food - Medium/Large Breed Senior Lamb & Rice 15kg"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 10,
+  "manageStock": true,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-premium-adult-dog-food-medium-large-breed-senior-lamb-rice-15kg/?add-to-cart=1"
+}

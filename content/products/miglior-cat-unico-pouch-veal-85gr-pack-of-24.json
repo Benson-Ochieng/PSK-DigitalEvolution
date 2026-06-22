@@ -1,0 +1,62 @@
+{
+  "id": 31,
+  "name": "Pack Of 24 - Miglior Cat Unico Mousse Pouch - Veal 85g",
+  "slug": "miglior-cat-unico-pouch-veal-85gr-pack-of-24",
+  "sku": "PSK-31-miglior",
+  "onSale": false,
+  "price": 3815,
+  "regularPrice": 3815,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/09/MCW2021-UNICO-POUCH-TURKEY.png",
+  "categories": [
+    {
+      "id": 2,
+      "name": "Cat Food",
+      "slug": "cat-food"
+    },
+    {
+      "id": 4,
+      "name": "Wet Food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 24,
+      "name": "Miglior",
+      "slug": "miglior"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Premium",
+      "slug": "premium"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 1,
+  "status": "publish",
+  "dateCreated": "2026-06-22T07:52:40.876Z",
+  "dateModified": "2026-06-22T07:52:40.876Z",
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/miglior-cat-unico-pouch-veal-85gr-pack-of-24/",
+  "shortDescription": "Formula designed to guarantee the key nutrients required for the well-being of your cat, including vitamins, Omega 3, calcium and phosphorous to support strong bones and teeth, healthy skin and glossy coat, and toned musculature.",
+  "description": "Formula designed to guarantee the key nutrients required for the well-being of your cat, including vitamins, Omega 3, calcium and phosphorous to support strong bones and teeth, healthy skin and glossy coat, and toned musculature.",
+  "images": [
+    {
+      "id": 310,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/09/MCW2021-UNICO-POUCH-TURKEY.png",
+      "alt": "Pack Of 24 - Miglior Cat Unico Mousse Pouch - Veal 85g",
+      "name": "Pack Of 24 - Miglior Cat Unico Mousse Pouch - Veal 85g"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 10,
+  "manageStock": true,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/miglior-cat-unico-pouch-veal-85gr-pack-of-24/?add-to-cart=31"
+}

@@ -1,0 +1,62 @@
+{
+  "id": 19,
+  "name": "Truly Mini Hearts Chicken & Fish For Cat 50g",
+  "slug": "truly-mini-hearts-chicken-fish-for-cat-50g",
+  "sku": "PSK-19-truly",
+  "onSale": false,
+  "price": 260,
+  "regularPrice": 260,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/04/Truly-Mini-Hearts-chicken-Fish-50g.png",
+  "categories": [
+    {
+      "id": 2,
+      "name": "Cat Food",
+      "slug": "cat-food"
+    },
+    {
+      "id": 3,
+      "name": "Treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [
+    {
+      "id": 20,
+      "name": "Truly",
+      "slug": "truly"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Premium",
+      "slug": "premium"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 1,
+  "status": "publish",
+  "dateCreated": "2026-06-22T07:52:40.875Z",
+  "dateModified": "2026-06-22T07:52:40.875Z",
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/truly-mini-hearts-chicken-fish-for-cat-50g/",
+  "shortDescription": "Treat your cat to Truly Mini Hearts Chicken Treats and give them a snack that not only tastes great but also supports their health. Your furry friend will thank you with purrs and cuddles!",
+  "description": "Treat your cat to Truly Mini Hearts Chicken Treats and give them a snack that not only tastes great but also supports their health. Your furry friend will thank you with purrs and cuddles!",
+  "images": [
+    {
+      "id": 190,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/04/Truly-Mini-Hearts-chicken-Fish-50g.png",
+      "alt": "Truly Mini Hearts Chicken & Fish For Cat 50g",
+      "name": "Truly Mini Hearts Chicken & Fish For Cat 50g"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 10,
+  "manageStock": true,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/truly-mini-hearts-chicken-fish-for-cat-50g/?add-to-cart=19"
+}

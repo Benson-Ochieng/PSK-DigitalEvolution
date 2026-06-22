@@ -1,0 +1,62 @@
+{
+  "id": 45,
+  "name": "Gift Voucher 1,000",
+  "slug": "gift-voucher-1000",
+  "sku": "PSK-45-generic",
+  "onSale": false,
+  "price": 1000,
+  "regularPrice": 1000,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/02/Gift-voucher-1k.jpeg",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Dog Food",
+      "slug": "dog-food"
+    },
+    {
+      "id": 5,
+      "name": "Dry Food",
+      "slug": "dry-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 31,
+      "name": "Generic",
+      "slug": "generic"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Premium",
+      "slug": "premium"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 1,
+  "status": "publish",
+  "dateCreated": "2026-06-22T07:52:40.877Z",
+  "dateModified": "2026-06-22T07:52:40.877Z",
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/gift-voucher-1000/",
+  "shortDescription": "Looking for the perfect present for the pet lover in your life or a pet that is not yours? Delight them with a Petstore Kenya Gift Voucher!",
+  "description": "Looking for the perfect present for the pet lover in your life or a pet that is not yours? Delight them with a Petstore Kenya Gift Voucher!",
+  "images": [
+    {
+      "id": 450,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/02/Gift-voucher-1k.jpeg",
+      "alt": "Gift Voucher 1,000",
+      "name": "Gift Voucher 1,000"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 10,
+  "manageStock": true,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/gift-voucher-1000/?add-to-cart=45"
+}

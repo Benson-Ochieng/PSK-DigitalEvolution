@@ -1,0 +1,62 @@
+{
+  "id": 38,
+  "name": "Wanpy Cat Pouch - Chicken & Shrimp 85g",
+  "slug": "wanpy-cat-pouch-chicken-shrimp-85g",
+  "sku": "PSK-38-wanpy",
+  "onSale": false,
+  "price": 144,
+  "regularPrice": 144,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/CHICKEN-SHRIMP.png",
+  "categories": [
+    {
+      "id": 2,
+      "name": "Cat Food",
+      "slug": "cat-food"
+    },
+    {
+      "id": 4,
+      "name": "Wet Food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 21,
+      "name": "Wanpy",
+      "slug": "wanpy"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Premium",
+      "slug": "premium"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 1,
+  "status": "publish",
+  "dateCreated": "2026-06-22T07:52:40.877Z",
+  "dateModified": "2026-06-22T07:52:40.877Z",
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/wanpy-cat-pouch-chicken-shrimp-85g/",
+  "shortDescription": "WANPY Cat Pouch Chicken & Shrimp 85g is a complete, preservative-free wet cat food made with real chicken and shrimp, suitable for kittens and adult cats. &nbsp;",
+  "description": "WANPY Cat Pouch Chicken & Shrimp 85g is a complete, preservative-free wet cat food made with real chicken and shrimp, suitable for kittens and adult cats. &nbsp;",
+  "images": [
+    {
+      "id": 380,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/CHICKEN-SHRIMP.png",
+      "alt": "Wanpy Cat Pouch - Chicken & Shrimp 85g",
+      "name": "Wanpy Cat Pouch - Chicken & Shrimp 85g"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 10,
+  "manageStock": true,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/wanpy-cat-pouch-chicken-shrimp-85g/?add-to-cart=38"
+}

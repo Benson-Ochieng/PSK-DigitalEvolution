@@ -1,0 +1,62 @@
+{
+  "id": 13,
+  "name": "Royal Canin Kitten 2kg",
+  "slug": "royal-canin-kitten-2kg",
+  "sku": "PSK-13-royal-canin",
+  "onSale": false,
+  "price": 6000,
+  "regularPrice": 6000,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Royal-Canin-Kitten-food-01.jpg",
+  "categories": [
+    {
+      "id": 2,
+      "name": "Cat Food",
+      "slug": "cat-food"
+    },
+    {
+      "id": 4,
+      "name": "Wet Food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 16,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "tags": [
+    {
+      "id": 5,
+      "name": "Kitten",
+      "slug": "kitten"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 1,
+  "status": "publish",
+  "dateCreated": "2026-06-22T07:52:40.875Z",
+  "dateModified": "2026-06-22T07:52:40.875Z",
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/royal-canin-kitten-2kg/",
+  "shortDescription": "Balanced and complete feed. For kittens up to 12 months old.",
+  "description": "Balanced and complete feed. For kittens up to 12 months old.",
+  "images": [
+    {
+      "id": 130,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/12/Royal-Canin-Kitten-food-01.jpg",
+      "alt": "Royal Canin Kitten 2kg",
+      "name": "Royal Canin Kitten 2kg"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 10,
+  "manageStock": true,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/royal-canin-kitten-2kg/?add-to-cart=13"
+}

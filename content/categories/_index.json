@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Dog Food",
+    "slug": "dog-food",
+    "description": "Shop high quality Dog Food.",
+    "parent": 0,
+    "count": 23,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/dog-food/"
+  },
+  {
+    "id": 2,
+    "name": "Cat Food",
+    "slug": "cat-food",
+    "description": "Shop high quality Cat Food.",
+    "parent": 0,
+    "count": 26,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/cat-food/"
+  },
+  {
+    "id": 3,
+    "name": "Treats",
+    "slug": "treats",
+    "description": "Shop high quality Treats.",
+    "parent": 0,
+    "count": 15,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/treats/"
+  },
+  {
+    "id": 4,
+    "name": "Wet Food",
+    "slug": "wet-food",
+    "description": "Shop high quality Wet Food.",
+    "parent": 0,
+    "count": 19,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/wet-food/"
+  },
+  {
+    "id": 5,
+    "name": "Dry Food",
+    "slug": "dry-food",
+    "description": "Shop high quality Dry Food.",
+    "parent": 0,
+    "count": 15,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/dry-food/"
+  }
+]

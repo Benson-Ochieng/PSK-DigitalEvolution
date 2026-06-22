@@ -1,0 +1,62 @@
+{
+  "id": 39,
+  "name": "Reflex Dog Snackies Treats Smoked Beef Training Bites 170g",
+  "slug": "premium-beef-dog-treats-grain-free-natural",
+  "sku": "PSK-39-reflex",
+  "onSale": false,
+  "price": 1150,
+  "regularPrice": 1150,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/reflex-dog-snackies-treats-smoked-beef-1.png",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Dog Food",
+      "slug": "dog-food"
+    },
+    {
+      "id": 3,
+      "name": "Treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [
+    {
+      "id": 10,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Premium",
+      "slug": "premium"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 1,
+  "status": "publish",
+  "dateCreated": "2026-06-22T07:52:40.877Z",
+  "dateModified": "2026-06-22T07:52:40.877Z",
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/premium-beef-dog-treats-grain-free-natural/",
+  "shortDescription": "High-protein beef dog treats made with 92% real meat. Grain-free, 100% natural, and perfect for healthy training rewards and everyday snacking.",
+  "description": "High-protein beef dog treats made with 92% real meat. Grain-free, 100% natural, and perfect for healthy training rewards and everyday snacking.",
+  "images": [
+    {
+      "id": 390,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/reflex-dog-snackies-treats-smoked-beef-1.png",
+      "alt": "Reflex Dog Snackies Treats Smoked Beef Training Bites 170g",
+      "name": "Reflex Dog Snackies Treats Smoked Beef Training Bites 170g"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 10,
+  "manageStock": true,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/premium-beef-dog-treats-grain-free-natural/?add-to-cart=39"
+}
