@@ -720,10 +720,32 @@ export default function Navbar() {
               )}
             </Link>
 
-            <button className="cart-nav-btn" onClick={() => setIsCartOpen(true)} title="Shopping Cart">
+            <Link className="cart-nav-btn" to="/cart" title="Shopping Cart" style={{ position: "relative", display: "inline-block", background: "none", border: "none" }}>
               <i className="fa fa-shopping-cart" style={{ fontSize: "30px", color: "#ffffff" }}></i>
-              {count > 0 && <span className="cart-count-badge" suppressHydrationWarning>{count}</span>}
-            </button>
+              {count > 0 && (
+                <span 
+                  style={{
+                    position: "absolute",
+                    top: "-5px",
+                    right: "-10px",
+                    background: "#ffffff",
+                    color: "#1053a0",
+                    fontSize: "14px",
+                    fontWeight: "bold",
+                    borderRadius: "50%",
+                    width: "22px",
+                    height: "22px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    boxShadow: "0 2px 5px rgba(0,0,0,0.15)"
+                  }}
+                  suppressHydrationWarning
+                >
+                  {count}
+                </span>
+              )}
+            </Link>
           </div>
 
         </div>

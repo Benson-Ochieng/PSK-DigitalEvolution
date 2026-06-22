@@ -22,6 +22,7 @@ interface CartContextType {
   setIsCartOpen: (v: boolean) => void;
   isCheckoutOpen: boolean;
   setIsCheckoutOpen: (v: boolean) => void;
+  lastAddedItem: CartItem | null;
 }
 
 const CartContext = createContext<CartContextType | null>(null);
@@ -33,6 +34,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
   const [items, setItems] = useState<CartItem[]>([]);
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
+  const [lastAddedItem, setLastAddedItem] = useState<CartItem | null>(null);
   const [hydrated, setHydrated] = useState(false);
 
   // Load from localStorage after hydration
@@ -53,13 +55,16 @@ export function CartProvider({ children }: { children: ReactNode }) {
   }, [items, hydrated]);
 
   const addItem = useCallback((item: Omit<CartItem, "quantity">) => {
+    let finalQty = 1;
     setItems(prev => {
       const existing = prev.find(i => i.id === item.id);
       if (existing) {
+        finalQty = existing.quantity + 1;
         return prev.map(i => i.id === item.id ? { ...i, quantity: i.quantity + 1 } : i);
       }
       return [...prev, { ...item, quantity: 1 }];
     });
+    setLastAddedItem({ ...item, quantity: finalQty });
     setIsCartOpen(true);
   }, []);
 
@@ -86,6 +91,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
       subtotal, count,
       isCartOpen, setIsCartOpen,
       isCheckoutOpen, setIsCheckoutOpen,
+      lastAddedItem,
     }}>
       {children}
     </CartContext.Provider>
