@@ -159,8 +159,8 @@ export default function CartPage() {
               <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "1.5rem" }}>
                 <div style={{ flex: 1 }} />
                 <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
-                  <button 
-                    onClick={() => setIsCheckoutOpen(true)}
+                  <Link 
+                    to="/checkout"
                     style={{
                       background: "#1a5ca3",
                       color: "#ffffff",
@@ -171,11 +171,13 @@ export default function CartPage() {
                       fontSize: "0.95rem",
                       cursor: "pointer",
                       textTransform: "uppercase",
-                      boxShadow: "0 2px 5px rgba(0,0,0,0.1)"
+                      boxShadow: "0 2px 5px rgba(0,0,0,0.1)",
+                      textDecoration: "none",
+                      display: "inline-block"
                     }}
                   >
                     Proceed to checkout
-                  </button>
+                  </Link>
                 </div>
                 <div style={{ flex: 1, textAlign: "right", fontSize: "1.05rem", fontWeight: "bold", color: "#1a5ca3" }}>
                   SUBTOTAL: <span style={{ color: "#777777", fontWeight: "normal", marginLeft: "1rem" }}>{subtotal.toLocaleString()}KSh</span>
@@ -319,8 +321,8 @@ export default function CartPage() {
               <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginTop: "1rem" }}>
                 <div style={{ flex: 1 }} />
                 <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
-                  <button 
-                    onClick={() => setIsCheckoutOpen(true)}
+                  <Link 
+                    to="/checkout"
                     style={{
                       background: "#1a5ca3",
                       color: "#ffffff",
@@ -331,11 +333,13 @@ export default function CartPage() {
                       fontSize: "0.95rem",
                       cursor: "pointer",
                       textTransform: "uppercase",
-                      boxShadow: "0 2px 5px rgba(0,0,0,0.1)"
+                      boxShadow: "0 2px 5px rgba(0,0,0,0.1)",
+                      textDecoration: "none",
+                      display: "inline-block"
                     }}
                   >
                     Proceed to checkout
-                  </button>
+                  </Link>
                 </div>
                 <div style={{ flex: 1, textAlign: "right", fontSize: "1.05rem", fontWeight: "bold", color: "#1a5ca3" }}>
                   SUBTOTAL: <span style={{ color: "#777777", fontWeight: "normal", marginLeft: "1rem" }}>{subtotal.toLocaleString()}KSh</span>

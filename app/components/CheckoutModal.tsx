@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
+import { Link } from "react-router";
 import { useCart, MIN_ORDER } from "../context/cart";
 
 // ── Delivery zones ──────────────────────────────────────────
@@ -724,11 +725,9 @@ export function CartDrawer() {
           >
             VIEW CART
           </a>
-          <button 
-            onClick={() => {
-              setIsCartOpen(false);
-              setIsCheckoutOpen(true);
-            }}
+          <Link 
+            to="/checkout"
+            onClick={() => setIsCartOpen(false)}
             style={{
               flex: 1,
               background: "#1a5ca3",
@@ -739,11 +738,13 @@ export function CartDrawer() {
               fontWeight: "600",
               fontSize: "0.85rem",
               cursor: "pointer",
-              outline: "none",
+              textAlign: "center",
+              textDecoration: "none",
+              display: "block",
             }}
           >
             CHECKOUT
-          </button>
+          </Link>
           <button 
             onClick={() => setIsCartOpen(false)}
             style={{

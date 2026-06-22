@@ -9,6 +9,7 @@ export default [
   route("product-tag/new-arrivals", "routes/new-arrivals.tsx"),
   route("my-account", "routes/my-account.tsx"),
   route("cart", "routes/cart.tsx"),
+  route("checkout", "routes/checkout.tsx"),
   route("trust", "routes/trust.tsx"),
   route("why-us", "routes/why-us.tsx"),
   route("sustainability", "routes/sustainability.tsx"),
