@@ -62,6 +62,201 @@ const BRANDS_LIST = [
   { name: "Thunder", query: "Thunder", image: "/images/brands/thunder_logo.png.webp" }
 ];
 
+const DRAWER_MENU_ITEMS = [
+  { name: "New Arrivals", path: "/shop" },
+  {
+    name: "Cat",
+    path: "/shop?animal=cat",
+    subItems: [
+      {
+        name: "Cat Food & Treats",
+        path: "/shop?animal=cat&type=food",
+        subItems: [
+          { name: "Dry Cat Food", path: "/shop?animal=cat&type=food&sub=dry" },
+          { name: "Wet Cat Food", path: "/shop?animal=cat&type=food&sub=wet" },
+          { name: "Cat Treats & Catnip", path: "/shop?animal=cat&type=treats" },
+          { name: "Milk Replacers", path: "/shop?animal=cat&type=food&sub=milk" },
+          { name: "Kitten Food", path: "/shop?animal=cat&food=kitten" }
+        ]
+      },
+      {
+        name: "Cat Litter & Litter Boxes",
+        path: "/shop?animal=cat&type=litter",
+        subItems: [
+          { name: "Cat Litter", path: "/shop?animal=cat&type=litter" },
+          { name: "Litter Boxes & Scoops", path: "/shop?animal=cat&type=litter-accessories" }
+        ]
+      },
+      {
+        name: "Flea, Tick & Worm Treatment",
+        path: "/shop?animal=cat&type=treatment",
+        subItems: [
+          { name: "Dewormers", path: "/shop?animal=cat&type=treatment&sub=dewormer" },
+          { name: "Flea & Tick Sprays, Collars", path: "/shop?animal=cat&type=treatment&sub=flea-tick" }
+        ]
+      },
+      {
+        name: "Health & Grooming",
+        path: "/shop?animal=cat&type=grooming",
+        subItems: [
+          { name: "Grooming Tools", path: "/shop?animal=cat&type=grooming&sub=tools" },
+          { name: "Shampoo & Deodorizers", path: "/shop?animal=cat&type=grooming&sub=shampoo" },
+          { name: "Supplements & Vitamins", path: "/shop?animal=cat&type=supplements" }
+        ]
+      },
+      {
+        name: "Cat Accessories & Bowls",
+        path: "/shop?animal=cat&type=accessories",
+        subItems: [
+          { name: "Collars, Leashes & Harnesses", path: "/shop?animal=cat&type=accessories&sub=collars" },
+          { name: "Cat Toys", path: "/shop?animal=cat&type=toys" },
+          { name: "Cat Bowls & Feeders", path: "/shop?animal=cat&type=bowls" },
+          {
+            name: "Cat Beds, Scratchers & Carriers",
+            path: "/shop?animal=cat&type=beds-carriers",
+            subItems: [
+              { name: "Beds", path: "/shop?animal=cat&type=beds-carriers&sub=beds" },
+              { name: "Carriers", path: "/shop?animal=cat&type=beds-carriers&sub=carriers" }
+            ]
+          }
+        ]
+      },
+      { name: "Cat Scratchers & Trees", path: "/shop?animal=cat&type=scratchers" }
+    ]
+  },
+  {
+    name: "Dog",
+    path: "/shop?animal=dog",
+    subItems: [
+      {
+        name: "Dog Food & Treats",
+        path: "/shop?animal=dog&type=food",
+        subItems: [
+          { name: "Dry Dog Food", path: "/shop?animal=dog&type=food&sub=dry" },
+          { name: "Wet Dog Food", path: "/shop?animal=dog&type=food&sub=wet" },
+          { name: "Dog Treats & Bones", path: "/shop?animal=dog&type=treats" },
+          { name: "Puppy Food", path: "/shop?animal=dog&food=puppy" }
+        ]
+      },
+      {
+        name: "Flea, Tick & Worm Treatment",
+        path: "/shop?animal=dog&type=treatment",
+        subItems: [
+          { name: "Dewormers", path: "/shop?animal=dog&type=treatment&sub=dewormer" },
+          { name: "Flea & Tick Spray", path: "/shop?animal=dog&type=treatment&sub=spray" },
+          { name: "Flea & Tick Collars", path: "/shop?animal=dog&type=treatment&sub=collar" },
+          { name: "Flea & Tick Spot On", path: "/shop?animal=dog&type=treatment&sub=spoton" }
+        ]
+      },
+      {
+        name: "Health & Grooming",
+        path: "/shop?animal=dog&type=grooming",
+        subItems: [
+          { name: "Grooming Tools", path: "/shop?animal=dog&type=grooming&sub=tools" },
+          { name: "Shampoos & Conditioners", path: "/shop?animal=dog&type=grooming&sub=shampoo" },
+          { name: "Supplements & Vitamins", path: "/shop?animal=dog&type=supplements" }
+        ]
+      },
+      {
+        name: "Dog Accessories & Collars",
+        path: "/shop?animal=dog&type=accessories",
+        subItems: [
+          { name: "Collars, Leashes & Harnesses", path: "/shop?animal=dog&type=accessories&sub=collars" },
+          { name: "Dog Toys", path: "/shop?animal=dog&type=toys" },
+          { name: "Dog Bowls & Feeders", path: "/shop?animal=dog&type=bowls" },
+          { name: "Dog Cages, Carriers & Crates", path: "/shop?animal=dog&type=cages" }
+        ]
+      },
+      { name: "Dog Beds", path: "/shop?animal=dog&type=beds" },
+      {
+        name: "Dog Training Accessories",
+        path: "/shop?animal=dog&type=training",
+        subItems: [
+          { name: "Pee Pads & Diapers", path: "/shop?animal=dog&type=training&sub=pads" },
+          { name: "Training Leashes & Collars", path: "/shop?animal=dog&type=training&sub=leashes" },
+          { name: "Training Treats", path: "/shop?animal=dog&type=training&sub=treats" }
+        ]
+      },
+      { name: "Dog Feeders & Bowls", path: "/shop?animal=dog&type=bowls" },
+      {
+        name: "Dental Care",
+        path: "/shop?animal=dog&type=dental",
+        subItems: [
+          { name: "Dental Gels, Sprays & Toothpastes", path: "/shop?animal=dog&type=dental&sub=toothpaste" }
+        ]
+      }
+    ]
+  },
+  {
+    name: "Bird",
+    path: "/shop?animal=bird",
+    subItems: [
+      { name: "Bird Food & Feeds", path: "/shop?animal=bird&type=food" }
+    ]
+  },
+  {
+    name: "Fish",
+    path: "/shop?animal=fish",
+    subItems: [
+      { name: "Fish Food & Feeds", path: "/shop?animal=fish&type=food" }
+    ]
+  },
+  {
+    name: "Our Brands",
+    path: "/shop",
+    subItems: [
+      { name: "Royal Canin", path: "/shop?brand=Royal+Canin" },
+      { name: "Reflex", path: "/shop?brand=Reflex" },
+      { name: "Josera", path: "/shop?brand=Josera" },
+      { name: "Spectrum", path: "/shop?brand=SPECTRUM" },
+      { name: "Trendline", path: "/shop?brand=TRENDLINE" },
+      { name: "Bonnie", path: "/shop?brand=Bonnie" },
+      { name: "King", path: "/shop?brand=KING" },
+      { name: "Unique", path: "/shop?brand=UNIQUE" },
+      { name: "Morando", path: "/shop?brand=MORANDO" },
+      { name: "Montego", path: "/shop?brand=Montego" },
+      { name: "Thunder", path: "/shop?brand=Thunder" }
+    ]
+  },
+  {
+    name: "Offers",
+    path: "/shop?type=offer",
+    subItems: [
+      { name: "Buy 1 Get 1 Free", path: "/shop?type=offer&sub=bogo" },
+      { name: "Clearance Sale", path: "/shop?type=offer&sub=clearance" },
+      { name: "Discounted Items", path: "/shop?type=offer&sub=discount" }
+    ]
+  },
+  { name: "Human", path: "/shop?type=human" },
+  { name: "Donate", path: "/shop?type=donate" },
+  { name: "Gift Vouchers", path: "/shop?type=gift" },
+  { name: "Food Comparison", path: "/shop?type=comparison" },
+  {
+    name: "Pet Avenue",
+    path: "/shop?type=avenue",
+    subItems: [
+      { name: "Avenue Group", path: "/shop?type=avenue&sub=group" },
+      { name: "Avenue Shops", path: "/shop?type=avenue&sub=shops" },
+      { name: "Avenue Cart", path: "/shop?type=avenue&sub=cart" },
+      { name: "Avenue Checkout", path: "/shop?type=avenue&sub=checkout" }
+    ]
+  },
+  { name: "Blogs", path: "/blogs" },
+  { name: "Brochures", path: "/brochures" },
+  { name: "Reviews", path: "/reviews" },
+  { name: "FAQs", path: "/faqs" },
+  { name: "Shipping Rates", path: "/shipping-rates" },
+  {
+    name: "Locations",
+    path: "/locations",
+    subItems: [
+      { name: "Store Locations", path: "/locations" }
+    ]
+  },
+  { name: "My Account", path: "/admin/login" },
+  { name: "Checkout", path: "/shop?type=checkout" }
+];
+
 export default function Navbar() {
   const { count, setIsCartOpen } = useCart();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -78,6 +273,59 @@ export default function Navbar() {
   const location = useLocation();
   const navigate = useNavigate();
   const searchRef = useRef<HTMLDivElement>(null);
+
+  const renderDrawerMenuItem = (item: any, depth = 0) => {
+    const isExpandable = !!item.subItems && item.subItems.length > 0;
+    const isExpanded = !!expandedItems[item.name];
+
+    return (
+      <li key={item.name} style={{ display: "flex", flexDirection: "column" }}>
+        <div 
+          className="drawer-menu-item-row" 
+          style={{ 
+            borderBottom: depth === 0 ? "1px solid #e2e8f0" : "none",
+            background: depth > 0 ? "#ffffff" : "#f8fafc" 
+          }}
+        >
+          <Link
+            to={item.path}
+            className="drawer-menu-link"
+            style={{ 
+              fontWeight: depth === 0 ? "700" : "500", 
+              fontSize: depth === 0 ? "0.95rem" : "0.85rem",
+              color: depth === 0 ? "#1e293b" : "#475569",
+              paddingLeft: `${1.25 + depth * 0.75}rem`
+            }}
+            onClick={() => setIsMenuOpen(false)}
+          >
+            {item.name}
+          </Link>
+          {isExpandable && (
+            <button
+              type="button"
+              className="drawer-menu-arrow-btn"
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                setExpandedItems(prev => ({
+                  ...prev,
+                  [item.name]: !prev[item.name]
+                }));
+              }}
+              aria-label={`Toggle ${item.name} sub-menu`}
+            >
+              <i className={`fa fa-chevron-${isExpanded ? "down" : "right"}`}></i>
+            </button>
+          )}
+        </div>
+        {isExpandable && isExpanded && (
+          <ul className="drawer-menu-list">
+            {item.subItems.map((subItem: any) => renderDrawerMenuItem(subItem, depth + 1))}
+          </ul>
+        )}
+      </li>
+    );
+  };
 
   // Debounced search for suggestion overlay
   useEffect(() => {
@@ -449,127 +697,8 @@ export default function Navbar() {
               </button>
             </div>
 
-            <div className="drawer-search-form">
-              <form onSubmit={handleSearchSubmit} className="drawer-search-wrapper">
-                <input
-                  type="text"
-                  placeholder="Search..."
-                  value={searchVal}
-                  onChange={(e) => setSearchVal(e.target.value)}
-                  className="drawer-search-input"
-                />
-                <button type="submit" className="drawer-search-btn">Go</button>
-              </form>
-            </div>
-
             <ul className="drawer-menu-list">
-              {[
-                { name: "New Arrivals", path: "/shop" },
-                {
-                  name: "Cat",
-                  path: "/shop?animal=cat",
-                  subItems: [
-                    { name: "Shop All Cat", path: "/shop?animal=cat" },
-                    { name: "Cat Food", path: "/shop?animal=cat&type=food" },
-                    { name: "Kitten Food", path: "/shop?animal=cat&food=kitten" },
-                    { name: "Cat Litter", path: "/shop?animal=cat&type=litter" }
-                  ]
-                },
-                {
-                  name: "Dog",
-                  path: "/shop?animal=dog",
-                  subItems: [
-                    { name: "Shop All Dog", path: "/shop?animal=dog" },
-                    { name: "Dog Food", path: "/shop?animal=dog&type=food" },
-                    { name: "Puppy Food", path: "/shop?animal=dog&food=puppy" },
-                    { name: "Supplements", path: "/shop?animal=dog&type=supplements" }
-                  ]
-                },
-                { name: "Bird", path: "/shop?animal=bird" },
-                { name: "Fish", path: "/shop?animal=fish" },
-                {
-                  name: "Our Brands",
-                  path: "/shop",
-                  subItems: [
-                    { name: "Proline", path: "/shop?brand=Proline" },
-                    { name: "Reflex", path: "/shop?brand=Reflex" },
-                    { name: "Josera", path: "/shop?brand=Josera" },
-                    { name: "Spectrum", path: "/shop?brand=SPECTRUM" }
-                  ]
-                },
-                { name: "Offers", path: "/shop?type=offer" },
-                { name: "Human", path: "/shop?type=human" },
-                { name: "Donate", path: "/shop?type=donate" },
-                { name: "Gift Vouchers", path: "/shop?type=gift" },
-                { name: "Food Comparison", path: "/shop?type=comparison" },
-                {
-                  name: "Pet Avenue",
-                  path: "/shop?type=avenue",
-                  subItems: [
-                    { name: "Avenue Shop", path: "/shop?type=avenue" }
-                  ]
-                },
-                { name: "Blogs", path: "/blogs" },
-                { name: "Brochures", path: "/brochures" },
-                { name: "Reviews", path: "/reviews" },
-                { name: "FAQs", path: "/faqs" },
-                { name: "Shipping Rates", path: "/shipping-rates" },
-                {
-                  name: "Locations",
-                  path: "/locations",
-                  subItems: [
-                    { name: "Our Stores", path: "/locations" }
-                  ]
-                }
-              ].map((item, idx) => {
-                const isExpandable = !!item.subItems;
-                const isExpanded = !!expandedItems[item.name];
-                return (
-                  <li key={idx} style={{ display: "flex", flexDirection: "column" }}>
-                    <div className="drawer-menu-item-row">
-                      <Link
-                        to={item.path}
-                        className="drawer-menu-link"
-                        onClick={() => setIsMenuOpen(false)}
-                      >
-                        {item.name}
-                      </Link>
-                      {isExpandable && (
-                        <button
-                          type="button"
-                          className="drawer-menu-arrow-btn"
-                          onClick={(e) => {
-                            e.preventDefault();
-                            e.stopPropagation();
-                            setExpandedItems(prev => ({
-                              ...prev,
-                              [item.name]: !prev[item.name]
-                            }));
-                          }}
-                          aria-label={`Toggle ${item.name} sub-menu`}
-                        >
-                          <i className={`fa ${isExpanded ? "fa-chevron-down" : "fa-chevron-right"}`}></i>
-                        </button>
-                      )}
-                    </div>
-                    {isExpandable && isExpanded && (
-                      <ul className="drawer-submenu-list">
-                        {item.subItems.map((sub, sIdx) => (
-                          <li key={sIdx}>
-                            <Link
-                              to={sub.path}
-                              className="drawer-submenu-link"
-                              onClick={() => setIsMenuOpen(false)}
-                            >
-                              {sub.name}
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    )}
-                  </li>
-                );
-              })}
+              {DRAWER_MENU_ITEMS.map((item) => renderDrawerMenuItem(item))}
             </ul>
           </div>
         </>
