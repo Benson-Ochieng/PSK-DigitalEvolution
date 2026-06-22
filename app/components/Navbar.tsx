@@ -63,7 +63,7 @@ const BRANDS_LIST = [
 ];
 
 const DRAWER_MENU_ITEMS = [
-  { name: "New Arrivals", path: "/shop" },
+  { name: "New Arrivals", path: "/product-tag/new-arrivals" },
   {
     name: "Cat",
     path: "/product-category/cat-food/",
@@ -533,7 +533,7 @@ export default function Navbar() {
               </ul>
             </li>
             <li>
-              <Link to="/shop" className="nav-link">
+              <Link to="/product-tag/new-arrivals" className="nav-link">
                 New Arrivals
               </Link>
             </li>
