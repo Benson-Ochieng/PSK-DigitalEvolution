@@ -222,9 +222,11 @@ const DRAWER_MENU_ITEMS = [
     name: "Offers",
     path: "/shop?type=offer",
     subItems: [
-      { name: "Buy 1 Get 1 Free", path: "/shop?type=offer&sub=bogo" },
-      { name: "Clearance Sale", path: "/shop?type=offer&sub=clearance" },
-      { name: "Discounted Items", path: "/shop?type=offer&sub=discount" }
+      { name: "Flash Sale", path: "/flash-sale" },
+      { name: "On Sale Now", path: "/shop?type=on-sale" },
+      { name: "Bundles", path: "/shop?type=bundles" },
+      { name: "Clearance", path: "/shop?type=clearance" },
+      { name: "Bulk Items", path: "/shop?type=bulk" }
     ]
   },
   { name: "Human", path: "/shop?type=human" },
@@ -498,10 +500,37 @@ export default function Navbar() {
               </div>
             </li>
 
-            <li>
-              <Link to="/shop?type=offer" className="nav-link">
-                Offers
-              </Link>
+            <li className="nav-item-dropdown">
+              <span className="nav-link dropdown-toggle">
+                Offers <i className="fa fa-chevron-down toggle-arrow"></i>
+              </span>
+              <ul className="dropdown-menu offers-dropdown" style={{ minWidth: "180px" }}>
+                <li style={{ borderBottom: "1px solid #eaeaea" }}>
+                  <Link to="/flash-sale" className="dropdown-item" style={{ padding: "0.75rem 1rem", fontSize: "0.85rem", fontWeight: 500 }}>
+                    Flash Sale
+                  </Link>
+                </li>
+                <li style={{ borderBottom: "1px solid #eaeaea" }}>
+                  <Link to="/shop?type=on-sale" className="dropdown-item" style={{ padding: "0.75rem 1rem", fontSize: "0.85rem", fontWeight: 500 }}>
+                    On Sale Now
+                  </Link>
+                </li>
+                <li style={{ borderBottom: "1px solid #eaeaea" }}>
+                  <Link to="/shop?type=bundles" className="dropdown-item" style={{ padding: "0.75rem 1rem", fontSize: "0.85rem", fontWeight: 500 }}>
+                    Bundles
+                  </Link>
+                </li>
+                <li style={{ borderBottom: "1px solid #eaeaea" }}>
+                  <Link to="/shop?type=clearance" className="dropdown-item" style={{ padding: "0.75rem 1rem", fontSize: "0.85rem", fontWeight: 500 }}>
+                    Clearance
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/shop?type=bulk" className="dropdown-item" style={{ padding: "0.75rem 1rem", fontSize: "0.85rem", fontWeight: 500 }}>
+                    Bulk Items
+                  </Link>
+                </li>
+              </ul>
             </li>
             <li>
               <Link to="/shop" className="nav-link">

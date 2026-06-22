@@ -364,8 +364,8 @@ body {
   transform: rotate(180deg);
 }
 
-/* Shop By Pet Dropdown */
-.pet-dropdown {
+/* Shop By Pet & Offers Dropdowns */
+.pet-dropdown, .offers-dropdown {
   position: absolute;
   top: 100%;
   left: 0;
@@ -382,7 +382,8 @@ body {
   z-index: 200;
 }
 
-.nav-item-dropdown:hover .pet-dropdown {
+.nav-item-dropdown:hover .pet-dropdown,
+.nav-item-dropdown:hover .offers-dropdown {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
