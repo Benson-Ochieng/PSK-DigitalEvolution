@@ -881,8 +881,8 @@ body {
 
 /* ── Footer ── */
 .footer {
-  background: var(--bg-dark);
-  color: rgba(255, 255, 255, 0.75);
+  background: #f3f3f3;
+  color: #555555;
   padding: 3rem 0 0;
 }
 
@@ -897,17 +897,17 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 2rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid #e0e0e0;
 }
 
-.footer-col h4 {
+.footer-col h3 {
   font-family: var(--font-sans);
-  font-size: 0.85rem;
+  font-size: 20px;
   font-weight: 700;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: #ffffff;
-  margin-bottom: 1rem;
+  color: #1e5da7;
+  margin-bottom: 1.5rem;
   position: relative;
 }
 
@@ -915,20 +915,55 @@ body {
   list-style: none;
 }
 
-.footer-col li {
-  margin-bottom: 0.6rem;
+.footer-col:not(.footer-col-need-help) li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-col:not(.footer-col-need-help) li::before {
+  content: "\f1b0";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  font-family: "FontAwesome";
+  color: #1e5da7;
+  font-size: 16px;
+}
+
+.footer-col-need-help li {
+  position: relative;
+  padding-left: 0;
+  margin-bottom: 0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-inline-icon {
+  color: #1e5da7;
+  font-size: 22px;
+  margin-right: 12px;
+  width: 22px;
+  text-align: center;
+  display: inline-block;
 }
 
 .footer-col a {
-  color: rgba(255, 255, 255, 0.7);
+  color: #555555;
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: 13px;
+  line-height: 40px;
+  display: inline-block;
   transition: var(--transition);
 }
 
 .footer-col a:hover {
-  color: #ffffff;
-  padding-left: 3px;
+  color: #1e5da7;
 }
 
 .footer-col p {
@@ -944,47 +979,39 @@ body {
   margin-top: 0.75rem;
 }
 
-.footer-social-link {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.08);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #ffffff;
-  transition: var(--transition);
-}
-
-.footer-social-link:hover {
-  background: var(--primary);
-  transform: translateY(-2px);
-}
-
-/* Support Help Box in footer */
-.footer-help-box {
+.footer-col .footer-social-link {
+  width: 40px;
+  height: 40px;
+  border-radius: 0;
   background: #ffffff;
-  color: var(--ink);
-  padding: 0.65rem 1rem;
-  border-radius: 4px;
-  font-size: 0.8rem;
-  font-weight: 500;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  box-shadow: var(--shadow-sm);
-  margin-top: 0.75rem;
-  cursor: pointer;
-  border: 1px solid var(--border-light);
+  border: 1px solid #e0e0e0;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #1e5da7 !important;
+  line-height: 1 !important;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.footer-col .footer-social-link svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.footer-col .footer-social-link:hover {
+  transform: translateY(-4px);
+  background: #ffffff;
+  color: #1e5da7 !important;
+  border-color: #1e5da7;
 }
 
 .footer-bottom-bar {
-  background: #06192a;
+  background: #1e5da7;
   padding: 1.25rem 0;
   text-align: center;
-  font-size: 0.75rem;
-  color: rgba(255, 255, 255, 0.5);
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  font-size: 14px;
+  color: #ffffff;
 }
 
 .footer-bottom-bar p {
@@ -994,7 +1021,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
 }
 
 /* ── Floaters (WhatsApp & Cart Summary) ── */
