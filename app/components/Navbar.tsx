@@ -48,18 +48,18 @@ function RabbitSvg() {
 }
 
 const BRANDS_LIST = [
-  { name: "Proline", query: "Proline", className: "brand-proline" },
-  { name: "Reflex", query: "Reflex", className: "brand-reflex" },
-  { name: "SPECTRUM", query: "SPECTRUM", className: "brand-spectrum" },
-  { name: "TRENDLINE", query: "TRENDLINE", className: "brand-trendline" },
-  { name: "Josera", query: "Josera", className: "brand-josera" },
-  { name: "Bonnie", query: "Bonnie", className: "brand-bonnie" },
-  { name: "KING", query: "KING", className: "brand-king" },
-  { name: "UNIQUE", query: "UNIQUE", className: "brand-unique" },
-  { name: "MORANDO", query: "MORANDO", className: "brand-morando" },
-  { name: "ROYAL CANIN", query: "Royal Canin", className: "brand-royal-canin" },
-  { name: "Montego", query: "Montego", className: "brand-montego" },
-  { name: "Thunder", query: "Thunder", className: "brand-thunder" }
+  { name: "Proline", query: "Proline", image: "/images/brands/Proline_Logo-300x105.png.webp" },
+  { name: "Reflex", query: "Reflex", image: "/images/brands/Reflex_logo_plain-300x180.png.webp" },
+  { name: "SPECTRUM", query: "SPECTRUM", image: "/images/brands/Spectrum_Logo.png.webp" },
+  { name: "TRENDLINE", query: "TRENDLINE", image: "/images/brands/Trendline-logo-300x75.jpg.webp" },
+  { name: "Josera", query: "Josera", image: "/images/brands/Josera_logo1.png.webp" },
+  { name: "Bonnie", query: "Bonnie", image: "/images/brands/Bonnie_Logo-300x102.png.webp" },
+  { name: "KING", query: "KING", image: "/images/brands/King-Logo-1080x1080.png.webp" },
+  { name: "UNIQUE", query: "UNIQUE", image: "/images/brands/Unique-Logo.png.webp" },
+  { name: "MORANDO", query: "MORANDO", image: "/images/brands/logo-morando.png.webp" },
+  { name: "ROYAL CANIN", query: "Royal Canin", image: "/images/brands/Royal-Canin-Logo.svg_.png.webp" },
+  { name: "Montego", query: "Montego", image: "/images/brands/Montego_White_Logo.png.webp" },
+  { name: "Thunder", query: "Thunder", image: "/images/brands/thunder_logo.png.webp" }
 ];
 
 export default function Navbar() {
@@ -175,7 +175,7 @@ export default function Navbar() {
                 <li>
                   <Link to="/shop?animal=cat" className="dropdown-item">
                     <span className="dropdown-item-icon">
-                      <CatSvg />
+                      <img src="/images/icons/adultcat-icon-1.png.webp" alt="Cat Icon" className="pet-icon-img" />
                     </span>
                     <span>Cat</span>
                   </Link>
@@ -183,7 +183,7 @@ export default function Navbar() {
                 <li>
                   <Link to="/shop?animal=cat&food=kitten" className="dropdown-item">
                     <span className="dropdown-item-icon">
-                      <CatSvg />
+                      <img src="/images/icons/kitten-icon.png.webp" alt="Kitten Icon" className="pet-icon-img" />
                     </span>
                     <span>Kitten</span>
                   </Link>
@@ -191,7 +191,7 @@ export default function Navbar() {
                 <li>
                   <Link to="/shop?animal=dog" className="dropdown-item">
                     <span className="dropdown-item-icon">
-                      <DogSvg />
+                      <img src="/images/icons/dog-icon.png.webp" alt="Dog Icon" className="pet-icon-img" />
                     </span>
                     <span>Dog</span>
                   </Link>
@@ -199,7 +199,7 @@ export default function Navbar() {
                 <li>
                   <Link to="/shop?animal=dog&food=puppy" className="dropdown-item">
                     <span className="dropdown-item-icon">
-                      <DogSvg />
+                      <img src="/images/icons/puppy-icon.png.webp" alt="Puppy Icon" className="pet-icon-img" />
                     </span>
                     <span>Puppy</span>
                   </Link>
@@ -207,7 +207,7 @@ export default function Navbar() {
                 <li>
                   <Link to="/shop?animal=bird" className="dropdown-item">
                     <span className="dropdown-item-icon">
-                      <BirdSvg />
+                      <img src="/images/icons/bird-icon-1.png.webp" alt="Bird Icon" className="pet-icon-img" />
                     </span>
                     <span>Bird</span>
                   </Link>
@@ -215,7 +215,7 @@ export default function Navbar() {
                 <li>
                   <Link to="/shop?animal=rabbit" className="dropdown-item">
                     <span className="dropdown-item-icon">
-                      <RabbitSvg />
+                      <img src="/images/icons/rabbit-icon.png.webp" alt="Rabbit Icon" className="pet-icon-img" />
                     </span>
                     <span>Rabbit</span>
                   </Link>
@@ -229,17 +229,23 @@ export default function Navbar() {
               </span>
               <div className="mega-dropdown-menu brand-mega-menu">
                 <div className="brand-grid">
-                  {BRANDS_LIST.map((brand) => (
-                    <Link
-                      key={brand.name}
-                      to={`/shop?brand=${encodeURIComponent(brand.query)}`}
-                      className="brand-card"
-                    >
-                      <span className={`brand-logo-text ${brand.className}`}>
-                        {brand.name}
-                      </span>
-                    </Link>
-                  ))}
+                  {BRANDS_LIST.map((brand) => {
+                    const isScaledLogo = brand.name === "Montego" || brand.name === "Thunder";
+                    return (
+                      <Link
+                        key={brand.name}
+                        to={`/shop?brand=${encodeURIComponent(brand.query)}`}
+                        className="brand-card"
+                      >
+                        <img
+                          src={brand.image}
+                          alt={`${brand.name} Logo`}
+                          className="brand-card-img"
+                          style={isScaledLogo ? { transform: "scale(1.5)" } : undefined}
+                        />
+                      </Link>
+                    );
+                  })}
                 </div>
               </div>
             </li>

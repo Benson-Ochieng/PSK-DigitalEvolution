@@ -423,6 +423,23 @@ body {
   color: #ffffff;
 }
 
+.pet-dropdown .dropdown-item-icon {
+  background: none !important;
+  border-radius: 0;
+  width: 32px;
+  height: 32px;
+}
+
+.pet-dropdown .dropdown-item:hover .dropdown-item-icon {
+  background: none !important;
+}
+
+.pet-icon-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 /* Shop By Brand Mega Dropdown */
 .mega-dropdown-container {
   position: static;
@@ -462,123 +479,24 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 70px;
+  height: 120px; /* Increased height to make layout feel less squeezed */
   border: 1px solid var(--border-light);
   border-radius: var(--radius-md);
   text-decoration: none;
   background: #ffffff;
   transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
-  padding: 0.5rem;
+  padding: 0.75rem;
 }
 
 .brand-card:hover {
   transform: translateY(-4px);
-  border-color: var(--primary);
   box-shadow: var(--shadow-md);
 }
 
-.brand-logo-text {
-  text-align: center;
-  font-size: 0.95rem;
-  width: 100%;
-  user-select: none;
-}
-
-/* Brand Typography Mock Logos */
-.brand-proline {
-  font-family: var(--font-sans);
-  font-weight: 800;
-  color: #111111;
-  letter-spacing: -0.5px;
-}
-
-.brand-reflex {
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-weight: 700;
-  color: #e11d48;
-}
-
-.brand-spectrum {
-  font-family: var(--font-sans);
-  font-weight: 900;
-  color: #1d4ed8;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-.brand-trendline {
-  font-family: var(--font-mono);
-  font-weight: 700;
-  color: #374151;
-  border: 1.5px solid #374151;
-  padding: 2px 6px;
-  display: inline-block;
-  text-transform: uppercase;
-}
-
-.brand-josera {
-  background-color: #fef08a;
-  color: #b91c1c;
-  font-weight: 800;
-  font-style: italic;
-  padding: 4px 10px;
-  border-radius: 4px;
-}
-
-.brand-bonnie {
-  font-family: var(--font-sans);
-  font-weight: 800;
-  color: #ea580c;
-  text-transform: uppercase;
-}
-
-.brand-king {
-  font-family: var(--font-serif);
-  font-weight: 700;
-  color: #1e3a8a;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-.brand-unique {
-  font-family: var(--font-sans);
-  font-weight: 800;
-  color: #dc2626;
-  text-transform: uppercase;
-}
-
-.brand-morando {
-  background-color: #b91c1c;
-  color: #ffffff;
-  font-weight: 700;
-  padding: 4px 12px;
-  border-radius: 2px;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  display: inline-block;
-}
-
-.brand-royal-canin {
-  font-family: var(--font-sans);
-  font-weight: 700;
-  color: #b91c1c;
-  border-bottom: 2px solid #b91c1c;
-  text-transform: uppercase;
-}
-
-.brand-montego {
-  font-family: var(--font-sans);
-  font-weight: 800;
-  color: #0284c7;
-}
-
-.brand-thunder {
-  font-family: var(--font-sans);
-  font-weight: 700;
-  color: #1f2937;
-  text-shadow: 1px 1px 0px #ccc;
-  text-transform: uppercase;
+.brand-card-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
 
 /* ── Autocomplete Search Dropdown Styling ── */
