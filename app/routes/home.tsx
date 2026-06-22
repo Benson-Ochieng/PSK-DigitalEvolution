@@ -196,7 +196,7 @@ export default function Home() {
         <div className="clearance-banners-container">
           <div className="clearance-grid">
             {/* Left side banner */}
-            <Link to="/shop" className="clearance-banner-item">
+            <Link to="/shop" className="clearance-banner-item side-banner align-center">
               <img src="/images/lbanner2.jpg.webp" alt="Pet Obesity banner" />
             </Link>
 
@@ -207,10 +207,10 @@ export default function Home() {
 
             {/* Right stacked banners */}
             <div className="clearance-col-side">
-              <Link to="/shop" className="clearance-banner-item" style={{ flex: 1 }}>
+              <Link to="/shop" className="clearance-banner-item side-banner">
                 <img src="/images/rbanner1.jpg.webp" alt="What is Aflatoxin" />
               </Link>
-              <Link to="/shop" className="clearance-banner-item" style={{ flex: 1 }}>
+              <Link to="/shop" className="clearance-banner-item side-banner">
                 <img src="/images/rbanner2.jpg.webp" alt="How does your cat food compare" />
               </Link>
             </div>
@@ -221,15 +221,12 @@ export default function Home() {
         <div className="trust-badges-container">
           <div className="trust-badge-item">
             <img src="/images/ssl_secure.png.webp" alt="SSL Secure Badge" />
-            <span className="trust-badge-text">SSL Secure</span>
           </div>
           <div className="trust-badge-item">
             <img src="/images/100_guaranteed.png.webp" alt="100% Guarantee Badge" />
-            <span className="trust-badge-text">100% Guaranteed</span>
           </div>
           <div className="trust-badge-item">
             <img src="/images/fast_delivery.png.webp" alt="Fast Delivery Badge" />
-            <span className="trust-badge-text">Fast Delivery</span>
           </div>
         </div>
 
