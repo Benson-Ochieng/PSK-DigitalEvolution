@@ -134,7 +134,7 @@ export default function Shop() {
     <>
       <Navbar />
       <div className="page" style={{ paddingTop: "2.5rem" }}>
-        <div style={{ marginBottom: "2rem", borderBottom: "2px solid var(--primary)", paddingBottom: "1.5rem" }}>
+        <div className="shop-header-bar">
           <div className="section-title">Browse</div>
           <h1 className="section-heading" style={{ marginBottom: "1rem" }}>
             {animal === "dog" ? "Dog Food" : animal === "cat" ? "Cat Food" : type === "treat" ? "Treats" : type === "wet" ? "Wet Food" : "All Pet Food"}
