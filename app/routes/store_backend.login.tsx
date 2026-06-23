@@ -1,9 +1,11 @@
 import { useState } from "react";
 import { Form, redirect, useActionData, useNavigation } from "react-router";
 import { db } from "~/lib/db.server";
-import { createUserSession, getAdminUser } from "~/lib/sessions.server";
+import { createUserSession, getAdminUser, checkAdminBranch } from "~/lib/sessions.server";
 
 export async function loader({ request }: { request: Request }) {
+  checkAdminBranch();
+  
   const user = await getAdminUser(request);
   if (user) {
     return redirect("/store_backend");

@@ -1,6 +1,7 @@
 import { createCookieSessionStorage, redirect } from "react-router";
 import { db } from "./db.server";
 import type { User } from "./db.server";
+import { execSync } from "child_process";
 
 const sessionSecret = process.env.SESSION_SECRET || "vision_plus_super_secret_key_2026";
 
@@ -75,4 +76,25 @@ export async function logout(request: Request) {
       "Set-Cookie": await sessionStorage.destroySession(session),
     },
   });
+}
+
+/**
+ * Ensures the dashboard can only be accessed/developed on the "admin-dashboard" branch during local development.
+ */
+export function checkAdminBranch() {
+  if (process.env.NODE_ENV === "development") {
+    try {
+      const currentBranch = execSync("git rev-parse --abbrev-ref HEAD", { encoding: "utf8" }).trim();
+      if (currentBranch !== "admin-dashboard") {
+        throw new Error(`Development of the dashboard is restricted to the "admin-dashboard" branch. Current branch is "${currentBranch}".`);
+      }
+    } catch (e: any) {
+      if (e.message && e.message.includes("restricted")) {
+        throw new Response(e.message, { 
+          status: 403, 
+          statusText: "Forbidden Branch"
+        });
+      }
+    }
+  }
 }
