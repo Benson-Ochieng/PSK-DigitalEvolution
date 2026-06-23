@@ -1,0 +1,88 @@
+{
+  "id": 28276,
+  "name": "Miglior Canned Cat Food -Game Chunks, 405g",
+  "slug": "migliorgatto-chunks-with-game-405gr",
+  "sku": "MCW003",
+  "onSale": false,
+  "price": 2.57,
+  "regularPrice": 2.57,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW003.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2163,
+      "name": "Miglior",
+      "slug": "miglior"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/migliorgatto-chunks-with-game-405gr/",
+  "shortDescription": "Miglior Game Chunks offers a nutrient-rich recipe featuring real game meat, taurine, and vegetables, providing cats with complete, flavorful nutrition they’ll love.",
+  "description": "The formula is carefully designed to guarantee the essential nutrients your cat needs, including vitamins, Omega-3, calcium, and phosphorus supporting strong bones and teeth, a healthy skin, and a glossy coat. Treat your feline friend to a wholesome, high-protein meal that’s as close to natural as it gets. This nutritious recipe blends: Premium Tripe &amp; Lamb : Rich in essential amino acids, vitamins, and natural digestive enzymes to support healthy digestion and lean muscle development. Real Carrots : Packed with fiber, antioxidants, and beta-carotene for boosted immunity and vibrant coat health. Light Gravy Base : Moist, flavorful, and perfect for encouraging even the fussiest cats to dig in. Why Your Cat Will Love It: All-Natural Ingredients – No artificial colors, flavors, or fillers Soft, Meaty Texture – Chunks in gravy for irresistible taste Digestive Health Boost – Whole tripe naturally supports gut health Shiny Coat &amp; Immunity – Nutrient-rich carrots promote wellness Complete &amp; Balanced – Ideal for daily feeding COMPOSITION: Meat and animal derivatives 30% (game 5%), cereals, minerals. ANALYTICAL CONSTITUENTS: Moisture 77%, Crude protein 8.5%, Crude fat 4.8%, Crude fibres 0.5%, Crude ash 3%. Nutritional additives / kg: Vitamin E 10 mg, Copper (Copper (II) sulphate pentahydrate) 2 mg. HOW TO USE: Serve as is at room temperature for the best aroma and taste. For picky eaters, mix with dry kibble to enhance flavor and palatability. Adjust portion sizes based on your cat’s weight, age, and activity level. Refrigerate unused portion and use within 48 hours. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight. Once opened, store in refrigerator for 2-3 days. Serve it on its own or mixed with kibble — either way, it’s a delicious and nutritious mealtime upgrade your cat will love!",
+  "images": [
+    {
+      "id": 28239,
+      "alt": "Migliorgatto CHUNKS WITH GAME 405Gr",
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW003.jpg",
+      "name": "MCW003"
+    }
+  ],
+  "tags": [
+    {
+      "id": 622,
+      "name": "canned food",
+      "slug": "canned-food"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2451,
+      "name": "Miglior",
+      "slug": "miglior"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=3&#038;add-to-cart=28276",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.261Z",
+  "dateModified": "2026-06-23T09:15:51.261Z"
+}

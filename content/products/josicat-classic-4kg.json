@@ -1,0 +1,83 @@
+{
+  "id": 23766,
+  "name": "JosiCat Classic 4kg",
+  "slug": "josicat-classic-4kg",
+  "sku": "JCJC001",
+  "onSale": false,
+  "price": 35.68,
+  "regularPrice": 35.68,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/Josera-Classic-4KG.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josicat-classic-4kg/",
+  "shortDescription": "Josera Classic is an exquisite menu with tasty salmon. Complete feed for adult cats. Well-balanced cat food with all the necessary nutrients and proven JOSERA quality. Suitable for both indoor and outdoor cats. No added artificial colours, flavours or preservatives. No added soy, sugar or milk products.",
+  "description": "JOSERA Adult Cat Food is &nbsp;a premium complete feed, carefully crafted with high-quality salmon meal (4%) for a rich taste and lean protein. This well-balanced recipe is suitable for both indoor and outdoor adult cats, providing all the essential nutrients they need for vitality, immunity, and a silky coat. Composition: meat and animal by-products, cereals, oils and fats, vegetable by-products; fish and fish by-products (salmon meal 4.0 %); minerals. Product Details: Exquisite menu with tasty salmon Complete feed for adult cats Well-balanced cat food with all the necessary nutrients and proven JOSERA quality Suitable for both indoor and outdoor cats No added artificial colors, flavors or preservatives No added soy, sugar or milk products Fortified With Essential Nutrients Packed with vitamins, minerals, and trace elements to maintain: . Strong bones and teeth . Robust immunity . Digestive comfort and nutrient absorption Key Benefits Exquisite Salmon Menu – irresistible taste with natural fish protein to support lean muscles. Perfect for Indoor &amp; Outdoor Cats – balanced energy levels for both active and indoor lifestyles. Rich in Omega-3 &amp; -6 – promotes healthy skin and a glossy, soft coat. Proven JOSERA Quality – developed with veterinary nutrition expertise and strict quality standards. No Unnecessary Additives – free from artificial colors, flavors, preservatives, soy, sugar, and milk products.",
+  "images": [
+    {
+      "id": 89083,
+      "alt": "JosiCat Classic 4kg",
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/Josera-Classic-4KG.png",
+      "name": "Josera Classic 4KG"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=2&#038;add-to-cart=23766",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.205Z",
+  "dateModified": "2026-06-23T09:15:51.205Z"
+}

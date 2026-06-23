@@ -1,0 +1,19 @@
+{
+  "id": 4,
+  "title": "My Account",
+  "slug": "my-account",
+  "status": "publish",
+  "parent": 0,
+  "link": "https://petstore.co.ke/my-account/",
+  "date": "2026-06-23T12:00:00",
+  "modified": "2026-06-23T12:00:00",
+  "content": "<p>Access your customer dashboard, register an account, or log in to manage your active orders, billing addresses, and account details.</p>",
+  "excerpt": "Manage your customer account and view active orders.",
+  "featuredImage": null,
+  "seo": {
+    "title": "My Account - PetStore Kenya",
+    "description": "Log in or register to manage your orders and shipping addresses.",
+    "canonical": "https://petstore.co.ke/my-account/",
+    "ogImage": null
+  }
+}

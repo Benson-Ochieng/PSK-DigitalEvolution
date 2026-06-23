@@ -1,0 +1,18 @@
+[
+  {
+    "code": "WELCOME500",
+    "discountValue": 500,
+    "discountType": "fixed",
+    "active": true,
+    "createdAt": "2026-06-23",
+    "description": "Welcome discount for new customers"
+  },
+  {
+    "code": "PET8",
+    "discountValue": 8,
+    "discountType": "percentage",
+    "active": true,
+    "createdAt": "2026-06-23",
+    "description": "8% off on all pet items"
+  }
+]

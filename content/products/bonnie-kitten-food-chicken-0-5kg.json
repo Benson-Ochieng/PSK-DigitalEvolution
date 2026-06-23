@@ -1,0 +1,88 @@
+{
+  "id": 3571,
+  "name": "Bonnie Kitten Food – Chicken 0.5kg",
+  "slug": "bonnie-kitten-food-chicken-0-5kg",
+  "sku": "BCD007",
+  "onSale": false,
+  "price": 7.2,
+  "regularPrice": 7.2,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/09/Bonnie-Kitten-Chicken-500g-min.png",
+  "categories": [
+    {
+      "id": 177,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2329,
+      "name": "Kitten Food",
+      "slug": "kitten-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/bonnie-kitten-food-chicken-0-5kg/",
+  "shortDescription": "Nurture your kitten’s growth with Bonnie Chicken Kitten Food a wholesome, all-natural dry meal enriched with quality chicken protein and essential nutrients to promote strength, vitality, and overall well-being.",
+  "description": "Bonnie Chicken Kitten food , fully balanced, chicken protein-containing all-natural kitten food carefully formulated by a cat nutritionists to meet the nutritional requirements of all kitten breeds. Chicken meal has been used as animal protein source. The balance of omega 3 &amp; 6 is provided by using flaxseed . Yucca plant provides ammonia and odour control, increase absorption of nutrients, strengthens the immune system and optimizes animal growth and performance. A good intestinal health and performance is provided by CitriStim which is a source of pathogen-binding manna oligsacharride , immune provide beta-glucans and immune-supportive yeast. Healthy skin and shiny coat are supported by using brewer&#8217;s yeast . Muscles, organs and nerve cells are supported, and the immune system strengthened by using whey powder . Rich vitamin contents. NUTRIENT COMPONENTS Protein &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;36% Fat&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;.19% Crude Ash&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;8% Crude Cellulose (Fiber)&#8230;&#8230; 3.5% INGREDIENTS: Chicken Proteins (dehydrated), Wheat, Corn, Animal Fat, Dried Beet Pulp, Corn Gluten, Liver Flavour, Salt, Linseed, Brewer&#8217;s Yeast, Taurine, Yucca Schidigera, Mannan-Oligosaccharides, Beta Glucan, Preservatives &#8211; Antioxidants. MINERALS: Calcium, Phosphorus, Sodium, Ionide, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 &#8211; B2 &#8211; B3 (niacin) &#8211; B6 &#8211; B12 &#8211; B7 (biotin) &#8211; B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
+  "images": [
+    {
+      "id": 3410,
+      "alt": "Bonnie Kitten Chicken 500g min",
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/09/Bonnie-Kitten-Chicken-500g-min.png",
+      "name": "Bonnie Kitten Chicken 500g min"
+    }
+  ],
+  "tags": [
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 637,
+      "name": "kibble",
+      "slug": "kibble"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2428,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=1&#038;add-to-cart=3571",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.079Z",
+  "dateModified": "2026-06-23T09:15:51.079Z"
+}

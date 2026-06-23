@@ -1,0 +1,88 @@
+{
+  "id": 69408,
+  "name": "Montego Bags O' Wags Fruities Banana & Yoghurt – 120g",
+  "slug": "montego-bags-o-wags-fruities-banana-yoghurt-120g",
+  "sku": "MBWFBAY120",
+  "onSale": false,
+  "price": 4.8,
+  "regularPrice": 4.8,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/Untitled-design-12.png",
+  "categories": [
+    {
+      "id": 2380,
+      "name": "Bags-o-wags",
+      "slug": "bags-o-wags"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 2298,
+      "name": "Montego",
+      "slug": "montego"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/montego-bags-o-wags-fruities-banana-yoghurt-120g/",
+  "shortDescription": "Soft, chewy, and irresistibly tasty, these treats combine real banana and creamy yoghurt for a wag-worthy snack. Low in fat and sugar, they’re perfect for rewarding, training, or everyday enjoyment. Packed with wholesome ingredients, they’re as nutritious because every tail deserves a treat!",
+  "description": "Bags o’ Wags &#8211; Fruities Banana &amp; Yoghurt Flavour Treat your dog to a wag-worthy snack that’s as nutritious as it is delicious ! Bags o’ Wags Fruities combine the natural sweetness of banana with the creamy goodness of yoghurt, creating a soft, chewy treat dogs can’t resist. Perfect for rewarding, training, or simply showing your furry friend some love. Why dogs love it: Irresistible taste: Meat-based palatability enhancers, banana and yoghurt flavours make every bite a delight. Soft &amp; chewy: Gentle on teeth, perfect for dogs of all sizes. Low-fat, low sugar: A healthier treat option for everyday enjoyment. Nutritional highlights: Made with wholesome ingredients like corn starch, lactose-reduced milk powder, poultry fat, fish oil, and wheat gluten, these treats not only taste amazing but also provide essential nutrients to support your dog’s energy, skin, and coat. Preserved with potassium sorbate for freshness, they’re safe and reliable for regular use. Fun fact for pet parents: Bananas are naturally rich in vitamins and fiber, while yoghurt can support digestive health. Combining these with high-quality fats and proteins ensures your dog gets a treat that’s both fun and functional . Bags o’ Wags Fruities &#8211; a tasty, healthy, and tail-wagging way to show your dog some love!",
+  "images": [
+    {
+      "id": 69412,
+      "alt": "Montego Bags O’ Wags Fruities Banana & Yoghurt – 120g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/02/Untitled-design-12.png",
+      "name": "Untitled design (12)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2425,
+      "name": "Bags-o-wags",
+      "slug": "bags-o-wags"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=69408",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.903Z",
+  "dateModified": "2026-06-23T09:15:51.903Z"
+}

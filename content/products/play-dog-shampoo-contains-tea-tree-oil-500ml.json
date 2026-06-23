@@ -1,0 +1,93 @@
+{
+  "id": 52289,
+  "name": "Play Dog Shampoo Contains Tea Tree Oil – 500ml",
+  "slug": "play-dog-shampoo-contains-tea-tree-oil-500ml",
+  "sku": "PG0266",
+  "onSale": false,
+  "price": 6.25,
+  "regularPrice": 6.25,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/12/PG0266-PLAY-PET-SHAMPOO-500ML.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2360,
+      "name": "Dog Grooming & Cleaning",
+      "slug": "dog-grooming-cleaning-supplies"
+    },
+    {
+      "id": 2265,
+      "name": "Pride & Groom",
+      "slug": "pride-groom"
+    },
+    {
+      "id": 2390,
+      "name": "Shampoo",
+      "slug": "dog-shampoo"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/play-dog-shampoo-contains-tea-tree-oil-500ml/",
+  "shortDescription": "Enriched with the natural properties of tea tree oil and Citronella oil, this shampoo helps to soothe irritated skin, reduce itching, and repel pests, leaving your dog feeling comfortable and refreshed.",
+  "description": "Play Dog Pet Shampoo with Tea Tree Oil is a specially formulated shampoo designed to keep your furry friend’s coat clean, healthy, and fresh. Enriched with the natural properties of tea tree oil and Citronella oil, this shampoo helps to soothe irritated skin, reduce itching, and repel pests, leaving your dog feeling comfortable and refreshed. Key Features: Natural Ingredients: Contains tea tree oil, known for its antibacterial and antifungal properties. Gentle on Skin: Ideal for dogs with sensitive skin. Deep Cleansing: Effectively removes dirt, grime, and odors. Easy to Use: Creates a rich lather for thorough cleaning. Directions for Use: Wet your dog’s coat thoroughly with warm water. Apply a generous amount of shampoo and gently massage it into the coat, avoiding contact with the eyes. Rinse thoroughly and repeat if necessary. Dry your pet with a towel or a blow dryer on a low setting. Suitable For: All dog breeds and coat types. Caution: For external use only. Avoid contact with eyes. Keep out of reach of children. Let me know if you&#8217;d like to customize this further!",
+  "images": [
+    {
+      "id": 52291,
+      "alt": "Play Dog Shampoo Contains Tea Tree Oil – 500ml",
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/12/PG0266-PLAY-PET-SHAMPOO-500ML.png",
+      "name": "PG0266- PLAY PET SHAMPOO 500ML"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2098,
+      "name": "Grooming &amp; Tools",
+      "slug": "grooming-tools"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 2025,
+      "name": "shampoo",
+      "slug": "shampoo"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2460,
+      "name": "Pride &amp; Groom",
+      "slug": "pride-groom"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=5&#038;add-to-cart=52289",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.575Z",
+  "dateModified": "2026-06-23T09:15:51.575Z"
+}

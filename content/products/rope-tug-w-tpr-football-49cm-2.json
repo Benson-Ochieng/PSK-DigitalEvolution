@@ -1,0 +1,87 @@
+{
+  "id": 42747,
+  "name": "Rope Tug With TPR Football 49cm",
+  "slug": "rope-tug-w-tpr-football-49cm-2",
+  "sku": "PA3330",
+  "onSale": false,
+  "price": 8.2,
+  "regularPrice": 8.2,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/ROPE-TUG-W-TPR-FOOTBALL-49CM.webp",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2357,
+      "name": "Dog Fetch Toys",
+      "slug": "dog-fetch-toys"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2359,
+      "name": "Rope & Tug Toys",
+      "slug": "dog-rope-tug-toys"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rope-tug-w-tpr-football-49cm-2/",
+  "shortDescription": "Your dog will love the time he spends with this rope toy, it is strong and sturdy, features and attached with a ball and it is perfect for tugging, fetching and chewing. &nbsp;",
+  "description": "This rope tug toy has long rope with a large knot and a ball at the end. The toy ideal for fetch and tug games with your dog. Features Designed for Play Great for chewing, tossing or tugging. A dental hygiene tool. Rope Tug with tennis ball Cotton rope &nbsp;",
+  "images": [
+    {
+      "id": 42748,
+      "alt": "Rope Tug With TPR Football 49cm",
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/12/ROPE-TUG-W-TPR-FOOTBALL-49CM.webp",
+      "name": "ROPE &#8211; TUG W TPR FOOTBALL 49CM"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": 2,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=42747",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.346Z",
+  "dateModified": "2026-06-23T09:15:51.346Z"
+}

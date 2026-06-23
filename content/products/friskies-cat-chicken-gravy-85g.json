@@ -1,0 +1,83 @@
+{
+  "id": 55910,
+  "name": "Friskies Cat Chicken Gravy 85g",
+  "slug": "friskies-cat-chicken-gravy-85g",
+  "sku": "FCW003",
+  "onSale": false,
+  "price": 1.76,
+  "regularPrice": 1.76,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/06/7613036976671_1.png",
+  "categories": [
+    {
+      "id": 2413,
+      "name": "Friskies",
+      "slug": "friskies"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/friskies-cat-chicken-gravy-85g/",
+  "shortDescription": "FRISKIES Cat Beef, Chicken &amp; Vegetables 1.7KG delivers a complete and balanced dry meal made with real beef, chicken, and garden vegetables . Formulated to support strong muscles, a healthy immune system, and lasting energy , it provides the perfect mix of flavor and nutrition to keep adult cats happy and active.",
+  "description": "Purina Friskies Chicken in Gravy Wet Cat Food are complete pet food for adult cats and also suitable for neutered cats. Delight your cat&#8217;s senses with bite-sized, moist chunks made with real chicken served in a flavorful gravy. Perfect for a complete and balanced nutrition for adult cats. This single-serve pouch contains all the nutrition your cat needs. It&#8217;s a tasty and balanced meal of chicken chunks in gravy and is suitable for neutered cats as well. INFORMATION Ingredients Meat And Animal Derivatives (Of Which Chicken 4%)●&nbsp;Cereals●&nbsp;Minerals●&nbsp;Various Sugars. Storage Condition Store in a cool and dry place. Brand Message Friskies is a brand of wet and dry cat food and treats. It is owned by Nestlé Purina Petcare company, a subsidiary of Nestlé global. When Friskies cat food was introduced in the 1950s, it was the first dry pet food product specifically for cats. The brand was acquired by Nestlé in 1985.",
+  "images": [
+    {
+      "id": 56394,
+      "alt": "Friskies Cat Chicken Gravy 85g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/06/7613036976671_1.png",
+      "name": "7613036976671_1"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2439,
+      "name": "Friskies",
+      "slug": "friskies"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=55910",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.636Z",
+  "dateModified": "2026-06-23T09:15:51.636Z"
+}

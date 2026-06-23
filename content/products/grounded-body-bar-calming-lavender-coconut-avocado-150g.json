@@ -1,0 +1,63 @@
+{
+  "id": 49070,
+  "name": "Grounded Body Bar Calming Lavender Coconut Avocado 150g",
+  "slug": "grounded-body-bar-calming-lavender-coconut-avocado-150g",
+  "sku": "BBA015LAV",
+  "onSale": false,
+  "price": 4.2,
+  "regularPrice": 4.2,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/07/Body-Bar-Calming-2-LAVENDER-e1722431414891.jpg",
+  "categories": [
+    {
+      "id": 2033,
+      "name": "Grounded",
+      "slug": "grounded"
+    },
+    {
+      "id": 2243,
+      "name": "Humans",
+      "slug": "human"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/grounded-body-bar-calming-lavender-coconut-avocado-150g/",
+  "shortDescription": "Enriched with calming and nourishing goodness. This luxurious bar gently cleanses and hydrates your skin, leaving it feeling soft, supple, and irresistibly touchable. Leaves your skin and hair feeling deeply nourished and moisturized.",
+  "description": "100% natural bathing bars for body and hair. Choose our original calming lavender, or our new activated charcoal mint, and uplifting aloe eucalyptus. Dry brush your body before a relaxing shower with which is a great exfoliator. The firm but gentle sisal bristles reveal healthier, smoother, and more radiant skin, after a session of dry brushing. Calming – with avocado fruit, coconut milk and lavender essential oil Grounded only uses ingredients safe for humans and the environment. We do not use nasty chemicals commonly found in conventional cleaning products: Carcinogens Hormone Disruptors Synthetic Fragrances Artificial Dyes Palm Oil Parabens Phthalates Sulfates Ingredients: Saponified Coconut, Canola, Macadamia &amp; Castor Oils, Raw Avocado Pulp, Coconut Milk, Lavender Essential Oil, Baobab Oil.",
+  "images": [
+    {
+      "id": 49072,
+      "alt": "Grounded Body Bar Calming Lavender Coconut Avocado 150g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/07/Body-Bar-Calming-2-LAVENDER-e1722431414891.jpg",
+      "name": "Body-Bar-Calming-2-LAVENDER"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2245,
+      "name": "Human",
+      "slug": "human"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2441,
+      "name": "Grounded",
+      "slug": "grounded"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 5,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=5&#038;add-to-cart=49070",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.468Z",
+  "dateModified": "2026-06-23T09:15:51.468Z"
+}

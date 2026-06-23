@@ -1,0 +1,20 @@
+[
+  {
+    "id": "tag-reviews",
+    "name": "Reviews",
+    "slug": "reviews",
+    "description": "In-depth evaluations and expert write-ups on our electronics."
+  },
+  {
+    "id": "tag-buying-guides",
+    "name": "Buying Guides",
+    "slug": "buying-guides",
+    "description": "Helpful purchase recommendations and comparisons for Kenyan buyers."
+  },
+  {
+    "id": "tag-new-arrivals",
+    "name": "New Arrivals",
+    "slug": "new-arrivals",
+    "description": "The latest models, revisions, and promotions added to the site."
+  }
+]

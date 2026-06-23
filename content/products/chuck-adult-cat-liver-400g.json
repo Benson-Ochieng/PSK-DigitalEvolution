@@ -1,0 +1,88 @@
+{
+  "id": 56864,
+  "name": "Chuck Adult Cat Liver 400g",
+  "slug": "chuck-adult-cat-liver-400g",
+  "sku": "CACL400",
+  "onSale": false,
+  "price": 2.57,
+  "regularPrice": 2.57,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-40-1.png",
+  "categories": [
+    {
+      "id": 2422,
+      "name": "Chuck",
+      "slug": "chuck"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/chuck-adult-cat-liver-400g/",
+  "shortDescription": "Advanced cat food formula enriched with Omega 3, vitamins, calcium and phosphorus to promote bone strength, skin health, glossy coat and muscle tone.",
+  "description": "Product Description and Benefits This wet cat food contains approximately 40% liver along with other meat and animal derivatives, fish oil, vegetable oils, vitamins, and minerals. It provides essential nutrients like iron, taurine, and omega-6 fatty acids that contribute to a healthy immune system, strong muscles, and overall well-being for adult cats. The recipe is protein-rich, flavorful, and nutritionally balanced to keep your feline healthy and energized. Ingredients and Nutrition Meat &amp; Animal Derivatives (including 40% liver) Fish Oil Vegetable Oils Vitamins and Minerals The inclusion of taurine, an essential amino acid for cats, supports heart and eye health, while omega-6 fatty acids help maintain healthy skin and a shiny coat.",
+  "images": [
+    {
+      "id": 58238,
+      "alt": "Chuck Adult Cat Liver 400g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-40-1.png",
+      "name": "Untitled design (40)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2432,
+      "name": "Chuck",
+      "slug": "chuck"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=56864",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.704Z",
+  "dateModified": "2026-06-23T09:15:51.704Z"
+}

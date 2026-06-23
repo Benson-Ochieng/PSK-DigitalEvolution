@@ -1,0 +1,88 @@
+{
+  "id": 21556,
+  "name": "Reflex Kitten Food – Chicken and Rice 2kg",
+  "slug": "reflex-kitten-food-chicken-rice-2kg",
+  "sku": "RCD010",
+  "onSale": false,
+  "price": 30.5,
+  "regularPrice": 30.5,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/06/Reflex-Kitten-Food-with-Chicken-Rice-2kg-01.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2329,
+      "name": "Kitten Food",
+      "slug": "kitten-food"
+    },
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/reflex-kitten-food-chicken-rice-2kg/",
+  "shortDescription": "Nurture your kitten’s growth with Reflex Chicken Kitten Food — a specially formulated diet rich in essential vitamins, minerals, and protein for optimal health and vitality. Same great quality but now in our new and improved packaging with zip seal technology.",
+  "description": "Reflex Kitten Chicken , specially formulated complete and balanced premium kitten food including chicken protein to meet the nutritional requirements of kittens for optimum growth. Omega 3 &amp; 6 naturally sourced from flaxseed . Yucca plant provides ammonia and Oduor control while increasing the absorption of nutrients. It also strengthens the immune system, so animals grow and performance better. Good intestinal health and performance are achieved with pathogen-binding mannan oligosaccharide , immunogenic beta-glucans , and CitriStim , an immune-boosting yeast source. Brewer&#8217;s yeast is used for healthy skin and shiny coat. Whey is used to strengthen the immune system, muscles, organs and nerve cells Enriched with vitamins and minerals . &nbsp; Ingredients: Processed Animal Protein, Wheat, Corn, Animal Fat, Corn. Gluten, Rice, Liver Aroma, Salt, Flaxseed, Dried Brewer&#8217;s Yeast, Taurine, MOS (Mannan Oligo Saccharides), Beta-Glucan, Yucca, Quillaja. Minerals: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. Vitamins: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 &#8211; B2 &#8211; B3 (Niacin) &#8211; B6 &#8211; B12 &#8211; B7 (Biotin) &#8211; B9 (Folic Acid), Vit. K, Choline, Calcium Pantothene. NUTRIENT COMPONENTS Raw Protein &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;.. 37% Crude Fat &#8230;&#8230;&#8230;.. 20% Crude Ash. &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;.. 2% Crude Cellulose (Fiber) &#8230;&#8230;. 3.5% FEEDING INGREDIENTS Vitamin A (E672) &#8230;&#8230;.. 18,000 IU / kg Vitamin D3 (E671) &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;.. 1,650 IU / kg Vitamin E (3a700) ) &#8230;220 mg / kg Vitamin C (Stay C) &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;.. 220 mg / kg Taurine 1,650 mg / kg Feed Suggestions The amount of food to be given per day may vary depending on the outdoor temperature, the living conditions (inside / outside the home), the character and activity of your cat. It is important to weigh the amount of food so that your cat can be an ideal weight. When adjusting the amount of food, it will be helpful to evaluate your cat&#8217;s appetite, appearance and odour. Additional Tips Transition from one food to another must be made progressively by feeding small amounts of both foods for one week after mixing. Always keep clean and fresh water near the food bowl. Change it at least once a day. Store the product in a dry and cool place and be sure to close the packaging thoroughly after each use.",
+  "images": [
+    {
+      "id": 21674,
+      "alt": "Reflex Kitten Food – Chicken and Rice 2kg",
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/06/Reflex-Kitten-Food-with-Chicken-Rice-2kg-01.jpg",
+      "name": "Reflex Kitten Food with Chicken &#038; Rice 2kg"
+    }
+  ],
+  "tags": [
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 637,
+      "name": "kibble",
+      "slug": "kibble"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2462,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=2&#038;add-to-cart=21556",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.186Z",
+  "dateModified": "2026-06-23T09:15:51.186Z"
+}

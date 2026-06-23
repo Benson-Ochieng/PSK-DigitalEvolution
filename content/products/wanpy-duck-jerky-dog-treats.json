@@ -1,0 +1,83 @@
+{
+  "id": 69457,
+  "name": "Wanpy Dog Treats – Duck Jerky 100g",
+  "slug": "wanpy-duck-jerky-dog-treats",
+  "sku": "WDW009",
+  "onSale": true,
+  "price": 3.16,
+  "regularPrice": 3.95,
+  "salePrice": 3.16,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/WANPY-DOG-DUCK-JERKY-100GR.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 2379,
+      "name": "Wanpy",
+      "slug": "wanpy"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/wanpy-duck-jerky-dog-treats/",
+  "shortDescription": "Wanpy Duck Jerky Dog Treats are made from 100% real duck meat. High-protein, low-fat chewy snacks that support dental health, training, and overall vitality. &nbsp;",
+  "description": "Wanpy Duck Jerky Dog Treats are made from 100% real duck meat , offering a natural, high-protein, and low-fat snack your dog will love. These chewy treats are designed to satisfy your dog’s natural urge to chew while supporting dental health, training success, and overall well-being. With real duck as the number one ingredient , Wanpy Duck Jerky delivers a rich, meaty aroma and irresistible flavor, making it ideal for rewards, training sessions, or snacking between meals. Key Features &amp; Benefits 100% Real Duck Meat – Natural, high-quality protein source High Protein, Low Fat – Supports lean muscle and healthy weight Chewy Texture – Encourages gnawing and helps maintain dental health Supports Teeth &amp; Gums – Chewing helps reduce plaque buildup Great for Training – Delicious meaty smell improves focus and motivation Mental Stimulation – Encourages chewing and engagement Complementary Dog Food – Suitable as a treat between meals Ingredients Duck, vegetable protein, glycerin, salt. Health Benefits Helps maintain strong muscles and healthy bones Supports digestion and nutrient absorption Promotes dental hygiene through natural chewing Keeps dogs mentally engaged and satisfied Feeding Recommendations Serve Wanpy Duck Jerky as a complementary snack between meals. Break into smaller pieces if needed. Always provide fresh, clean drinking water. Storage Instructions Store in a cool, dry place. Reseal after opening to preserve freshness. &nbsp; &nbsp;",
+  "images": [
+    {
+      "id": 69458,
+      "alt": "Wanpy Dog Treats – Duck Jerky 100g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/02/WANPY-DOG-DUCK-JERKY-100GR.png",
+      "name": "WANPY DOG DUCK JERKY 100GR"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 939,
+      "name": "On Sale Now",
+      "slug": "sale"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2479,
+      "name": "Wanpy",
+      "slug": "wanpy"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=69457",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.921Z",
+  "dateModified": "2026-06-23T09:15:51.921Z"
+}

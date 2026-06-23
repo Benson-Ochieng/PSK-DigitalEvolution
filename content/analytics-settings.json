@@ -1,0 +1,12 @@
+{
+  "excludedStatuses": [
+    "cancelled",
+    "failed"
+  ],
+  "actionableStatuses": [
+    "on-hold",
+    "processing"
+  ],
+  "defaultDateRange": "june-2026",
+  "updatesType": "immediate"
+}

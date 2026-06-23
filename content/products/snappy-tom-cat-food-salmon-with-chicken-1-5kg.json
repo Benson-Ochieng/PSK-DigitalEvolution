@@ -1,0 +1,78 @@
+{
+  "id": 56824,
+  "name": "Snappy Tom Cat Food Salmon With Chicken 1.5kg",
+  "slug": "snappy-tom-cat-food-salmon-with-chicken-1-5kg",
+  "sku": "STCTSWC",
+  "onSale": false,
+  "price": 17.5,
+  "regularPrice": 17.5,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-57.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 2388,
+      "name": "Snappy Tom",
+      "slug": "snappy-tom"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/snappy-tom-cat-food-salmon-with-chicken-1-5kg/",
+  "shortDescription": "Salmon with chicken dry cat food is made from real fish for real cats.",
+  "description": "It is a complete &amp; balanced meal with all the real nutrition they need to get through their day and have real fu High in protein with omega 3 &amp; 6 oils for heart health &amp; shiny coat CONVENIENCE FOR OWNERS AND CATS: Whiskas is convenient to keep &amp; store once opened, due to its longer shelf life. Your cat will also find convenience in eating measured smaller volumes which is helpful for those that prefer to graze throughout the day. &nbsp;",
+  "images": [
+    {
+      "id": 56825,
+      "alt": "Snappy Tom Cat Food Salmon With Chicken 1.5kg",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-57.png",
+      "name": "Untitled design (57)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2466,
+      "name": "Snappy Tom",
+      "slug": "snappy-tom"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=56824",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.700Z",
+  "dateModified": "2026-06-23T09:15:51.700Z"
+}

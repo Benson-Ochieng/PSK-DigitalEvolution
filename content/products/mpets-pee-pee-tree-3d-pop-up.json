@@ -1,0 +1,77 @@
+{
+  "id": 27475,
+  "name": "Mpets Pee Pee Tree 3D Pop-Up",
+  "slug": "mpets-pee-pee-tree-3d-pop-up",
+  "sku": "MPPPT1",
+  "onSale": true,
+  "price": 9.6,
+  "regularPrice": 16,
+  "salePrice": 9.6,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/MPPPT1.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2360,
+      "name": "Dog Grooming & Cleaning",
+      "slug": "dog-grooming-cleaning-supplies"
+    },
+    {
+      "id": 2393,
+      "name": "Dog Hygiene & Potty Solutions",
+      "slug": "dog-hygiene-potty-solutions"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/mpets-pee-pee-tree-3d-pop-up/",
+  "shortDescription": "Whether you’re training a new puppy or looking for an easy way to manage your dog’s bathroom needs, the Mpets Pee Pee Tree 3D Pop-Up offers a practical and stylish solution. Keep your home clean and your pet happy with this functional and fun product! 12,6 x 24,5 cm – 15 pcs",
+  "description": "Transform your pet’s bathroom experience with the MPETS Pee Pee Tree 3D Pop-Up! Designed with both functionality and style in mind, this innovative solution brings convenience to your furry friend&#8217;s potty routine. Key Features: Unique 3D Design: The Pee Pee Tree features a lifelike, three-dimensional appearance that mimics natural grass and trees, making it a visually appealing addition to your home. Pop-Up Convenience: Effortlessly set up and collapse the Pee Pee Tree with its pop-up design. It’s perfect for both indoor and outdoor use, and incredibly easy to store when not in use. High-Quality Materials: Crafted from durable, weather-resistant materials, the Pee Pee Tree is designed to withstand frequent use and various weather conditions. Hygienic &amp; Easy to Clean: The surface of the Pee Pee Tree is designed to resist odors and stains. Simply rinse with water and let air dry for a fresh, clean look. Perfect for Training: Ideal for puppies or dogs that need additional potty-training support, the Pee Pee Tree helps reinforce good habits and provides a designated spot for bathroom breaks. Whether you’re training a new puppy or looking for an easy way to manage your dog&#8217;s bathroom needs, the Mpets Pee Pee Tree 3D Pop-Up offers a practical and stylish solution. Keep your home clean and your pet happy with this functional and fun product!",
+  "images": [
+    {
+      "id": 27438,
+      "alt": "Mpets Pee Pee Tree 3D Pop-Up",
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPPPT1.jpg",
+      "name": "MPPPT1"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": 1,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=3&#038;add-to-cart=27475",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.243Z",
+  "dateModified": "2026-06-23T09:15:51.243Z"
+}

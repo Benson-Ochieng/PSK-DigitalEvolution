@@ -1,0 +1,67 @@
+{
+  "id": 17858,
+  "name": "Rogz Dog Utility Control Harness Large – Black",
+  "slug": "rogz-dog-utility-control-harness-large-black",
+  "sku": "SJC06-A",
+  "onSale": false,
+  "price": 38,
+  "regularPrice": 38,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/SJC06-A_Control-Harness.jpg",
+  "categories": [
+    {
+      "id": 2351,
+      "name": "Collars, Leashes & Harnesses",
+      "slug": "dog-collars-leashes-and-harnesses"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2352,
+      "name": "Dog Harnesses",
+      "slug": "dog-harnesses"
+    },
+    {
+      "id": 2064,
+      "name": "Rogz",
+      "slug": "rogz"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-control-harness-large-black/",
+  "shortDescription": "Rogz Dog Utility Control Harness Large &#8211; Black",
+  "description": "Rogz Control Harness ensures comfort for your dog while providing you with additional control. With a padded chest plate for extra comfort and support, the pressure is transferred from your dog&#8217;s neck to its chest. Dual Lead/Leash attachment points: Classic Lead/Leash attachment &#8211; Top of dog&#8217;s back for everyday use. Multi Lead/Leash attachment Front chest pad for control and steering. TO FIT: There are multiple adjustment points to ensure you get the best fit for comfort and function. Once adjusted to size, there should be a two-finger gap between the harness and your dog&#8217;s body. Size: Large 20mm (Neck Size: 35 &#8211; 45cm)",
+  "images": [
+    {
+      "id": 17834,
+      "alt": "Rogz Dog Utility Control Harness Large – Black",
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/SJC06-A_Control-Harness.jpg",
+      "name": "SJC06 &#8211; A_Control Harness"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2318,
+      "name": "Harnesses",
+      "slug": "harness"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": 2,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=2&#038;add-to-cart=17858",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.138Z",
+  "dateModified": "2026-06-23T09:15:51.138Z"
+}

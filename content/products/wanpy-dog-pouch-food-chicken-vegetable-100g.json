@@ -1,0 +1,88 @@
+{
+  "id": 90065,
+  "name": "Wanpy Dog Pouch Food – Chicken & Vegetable 100G",
+  "slug": "wanpy-dog-pouch-food-chicken-vegetable-100g",
+  "sku": "WDW023",
+  "onSale": true,
+  "price": 1.38,
+  "regularPrice": 1.73,
+  "salePrice": 1.38,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/Wanpy-chicken-and-vegetables-.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 2379,
+      "name": "Wanpy",
+      "slug": "wanpy"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/wanpy-dog-pouch-food-chicken-vegetable-100g/",
+  "shortDescription": "WANPY Chicken &amp; Vegetable Dog Wet Food is a tasty and highly digestible meal specially made to provide dogs with balanced nutrition and irresistible flavour. Prepared with real chicken, vegetables, and essential vitamins, this premium wet dog food supports healthy digestion, energy, immunity, and overall wellbeing.",
+  "description": "Perfect as a complete meal, topper, or special treat, WANPY® Chicken &amp; Vegetable delivers nutritious goodness without disrupting your dog’s regular diet. Why Choose WANPY® Chicken &amp; Vegetable Dog Food? Made with Real Chicken &amp; Vegetables This delicious recipe combines quality chicken with nutritious vegetables including carrot and potato to create a flavour dogs love while supporting balanced daily nutrition. Highly Digestible Formula WANPY Chicken &amp; Vegetable is made with easy-to-digest ingredients that help support digestive comfort and efficient nutrient absorption. Enriched with Essential Vitamins Added vitamins help support your dog’s: Immune system Energy levels Skin and coat health Overall vitality Healthy &amp; Natural Recipe This wet dog food is made without added preservatives, artificial colourants, or flavourings, making it a healthier feeding option for everyday enjoyment. Perfect as a Meal or Treat Serve it as: A complete meal A tasty meal topper A nutritious snack or reward Key Benefits of WANPY® Chicken &amp; Vegetable Dog Food Made with real chicken and vegetables Highly digestible wet dog food Supports healthy digestion Rich in vitamins and minerals Helps support immunity and vitality No added preservatives No artificial colourants or flavourings Delicious flavour dogs enjoy Suitable for daily feeding or treats Main Ingredients WANPY Chicken &amp; Vegetable Dog Wet Food contains: Chicken Carrot Potato Starch Carrageenan Oligosaccharides Green tea extract Vitamins A, B2, B3, B5, D3, and E Feeding &amp; Storage Instructions Feeding Guide Feed according to your dog’s size, age, and activity level. Can be served alone or mixed with dry food for added flavour and nutrition. Storage Store in a cool, dry place. Refrigerate unused portions after opening and serve fresh. &nbsp;",
+  "images": [
+    {
+      "id": 90067,
+      "alt": "Pack Of 12 – Wanpy Dog Pouch Food – Chicken & Vegetable 100G",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Wanpy-chicken-and-vegetables-.png",
+      "name": "Wanpy chicken and vegetables"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 939,
+      "name": "On Sale Now",
+      "slug": "sale"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2479,
+      "name": "Wanpy",
+      "slug": "wanpy"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=90065",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:52.017Z",
+  "dateModified": "2026-06-23T09:15:52.017Z"
+}

@@ -1,0 +1,83 @@
+{
+  "id": 59528,
+  "name": "CS Oral Spray for Cats & Dogs – 60ml",
+  "slug": "cs-oral-spray-for-cats-dogs-60ml",
+  "sku": "CSOSFCD",
+  "onSale": false,
+  "price": 2.6,
+  "regularPrice": 2.6,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/09/Oral-spray.png",
+  "categories": [
+    {
+      "id": 2279,
+      "name": "CS",
+      "slug": "cs"
+    },
+    {
+      "id": 2399,
+      "name": "Dental Care",
+      "slug": "dental-care"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2360,
+      "name": "Dog Grooming & Cleaning",
+      "slug": "dog-grooming-cleaning-supplies"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/cs-oral-spray-for-cats-dogs-60ml/",
+  "shortDescription": "Naturally freshen your pet’s breath and support healthy teeth with our gentle, plant-based oral spray, safe for both cats and dogs.",
+  "description": "Keep your pet’s breath fresh and mouth healthy with our all-natural Oral Spray for cats and dogs. Formulated with gentle, plant-based ingredients, this spray helps reduce bad breath, supports oral hygiene, and promotes overall dental health without any harsh chemicals. Easy to use and safe for daily use, simply spray directly into your pet’s mouth to help combat plaque and bacteria naturally. Perfect for pets of all ages, it’s a quick and stress-free way to maintain a clean and healthy smile! Freshens breath naturally Supports healthy gums and teeth Made with gentle, natural ingredients Suitable for cats and dogs of all sizes",
+  "images": [
+    {
+      "id": 59529,
+      "alt": "CS Oral Spray for Cats & Dogs – 60ml",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/09/Oral-spray.png",
+      "name": "Oral spray"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2098,
+      "name": "Grooming &amp; Tools",
+      "slug": "grooming-tools"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2434,
+      "name": "CS",
+      "slug": "cs"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=59528",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.752Z",
+  "dateModified": "2026-06-23T09:15:51.752Z"
+}

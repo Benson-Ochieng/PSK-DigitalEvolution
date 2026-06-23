@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Color",
+    "slug": "pa_color",
+    "type": "select",
+    "terms": "Black, Silver, White, Grey"
+  },
+  {
+    "name": "Screen Size",
+    "slug": "pa_screen-size",
+    "type": "select",
+    "terms": "32\", 43\", 50\", 55\", 65\", 75\", 85\""
+  },
+  {
+    "name": "Resolution",
+    "slug": "pa_resolution",
+    "type": "select",
+    "terms": "HD Ready, Full HD, 4K UHD, 8K UHD"
+  },
+  {
+    "name": "Warranty",
+    "slug": "pa_warranty",
+    "type": "select",
+    "terms": "1 Year, 2 Years, 5 Years"
+  }
+]

@@ -1,0 +1,88 @@
+{
+  "id": 46144,
+  "name": "Josera Urinary Cat Food 2kg",
+  "slug": "josera-urinary-cat-food-2kg",
+  "sku": "JHLUC2",
+  "onSale": false,
+  "price": 48.52,
+  "regularPrice": 48.52,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/white-josera-help-urinary-2kg_1.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josera-urinary-cat-food-2kg/",
+  "shortDescription": "If your cat has problems with cleanliness or urination, this may have painful causes: Often, it suffers from urinary stones, specifically struvite. The right feed helps improve well-being. Our Josera Help Urinary is tailored exactly to this.",
+  "description": "If your cat has problems with cleanliness or urination, this can have painful causes for it: Often it suffers from urinary stones, in this case struvite’s. Here, the right feed can help to improve well-being. Our Josera Help Urinary is tailored exactly to this. The complete medicated feed promotes an acidic urinary pH to reduce the likelihood of struvite stones forming. The recipe also has a reduced magnesium content and a balanced protein and phosphorus content. These are the basis for the formation of struvite stones. The Phytogen Complex gives each crunchy kibble cranberry and nettle, which are traditionally used for urinary tract infections. With its selected ingredients, Josera Help Urinary can thus help to dissolve struvite stones and their urinary gravel and reduce their reformation. Magnesium-reduced recipe for cats Promotes an acidic urine pH to reduce the risk of struvite stone formation. Balanced protein and phosphorus ratio to counteract the formation of struvite stones. Phytogen complex: Cranberry and nettle are traditionally used as a supplement for urinary tract diseases. Increased sodium content to promote water absorption and thus flushing of the urinary tract. Dietary feed for adult cats for the dissolution of struvite stones and/or for prophylaxis against the recurrence of struvite stones Composition: Dried greaves protein; rice; maize; dried beet pulp (natural source of dietary fibre); poultry fat; dried potato; hydrolyzed animal protein; potato protein; minerals; poultry liver hydrolysate; oregano; ginger; rosemary; nettle; milk thistle; cranberry. Dietary feed for adult cats for the dissolution of struvite stones and/or for prophylaxis against the recurrence of struvite stones. Feeding Recommendation: Feeding recommendation per day. Weight inactive / older normally active / active 2-3 kg 30-40 g 40-55 g 3-4 kg 40-50 g 55-65 g 4-5 kg 50-60 g 65-75 g 5-7 kg 60-75 g 75-95 g 7-10 kg 75-95 g 95-125 g For optimal effect, only feed this diet to your cat. Additional feedings must be discussed with the attending veterinarian in advance. Ensure that your pet always has access to fresh drinking water",
+  "images": [
+    {
+      "id": 46145,
+      "alt": "Josera Urinary Cat Food 2kg",
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/04/white-josera-help-urinary-2kg_1.png",
+      "name": "white-josera-help-urinary-2kg_1"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 2319,
+      "name": "Veterinary Range",
+      "slug": "veterinary-range"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=46144",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.383Z",
+  "dateModified": "2026-06-23T09:15:51.383Z"
+}

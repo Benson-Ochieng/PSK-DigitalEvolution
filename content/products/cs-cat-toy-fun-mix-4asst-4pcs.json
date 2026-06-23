@@ -1,0 +1,93 @@
+{
+  "id": 52882,
+  "name": "Cs Cat Toy Fun Mix",
+  "slug": "cs-cat-toy-fun-mix-4asst-4pcs",
+  "sku": "CTS001",
+  "onSale": false,
+  "price": 3.44,
+  "regularPrice": 3.44,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/01/cat-toy-set.png",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2342,
+      "name": "Cat Toys",
+      "slug": "cat-toys"
+    },
+    {
+      "id": 2279,
+      "name": "CS",
+      "slug": "cs"
+    },
+    {
+      "id": 2139,
+      "name": "toys",
+      "slug": "toys"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/cs-cat-toy-fun-mix-4asst-4pcs/",
+  "shortDescription": "The Cat Toy Fun Mix includes four assorted, interactive toys crafted to engage your cat’s curiosity and natural hunting instincts. Each toy offers a unique play experience that encourages exercise, mental stimulation, and healthy activity for cats of all ages.",
+  "description": "Keep your feline friend entertained and active with the Cat Toy Fun Mix! This set includes four assorted, engaging toys designed to stimulate your cat&#8217;s natural hunting instincts while providing hours of fun and exercise. From bouncy balls to interactive wands, each toy is thoughtfully crafted to keep your cat mentally and physically engaged. Key Features : Variety of Toys : Includes four different toys to keep your cat entertained, from jingly balls to feather wands—perfect for different play styles. Engaging &amp; Stimulating : Designed to appeal to your cat’s natural hunting and pouncing instincts, encouraging active play and exercise. Durable &amp; Safe : Made with non-toxic, pet-safe materials that can withstand rough play and are safe for your cat to bat, chase, and chew. Interactive Fun : Perfect for solo play or interactive playtime with you, providing opportunities for bonding and exercise. Ideal for Cats of All Ages : Whether your cat is a playful kitten or a curious adult, these toys offer entertainment for every stage of life. Includes : 1 Jingle Ball 1 Feather Wand 1 Bouncy Rubber Toy 1 Crinkle Plush Toy Add the Cat Toy Fun Mix to your pet’s playtime routine and watch your cat pounce, bat, and chase with delight. The perfect way to keep your kitty entertained, active, and happy!",
+  "images": [
+    {
+      "id": 52883,
+      "alt": "Cs Cat Toy Fun Mix",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/01/cat-toy-set.png",
+      "name": "cat toy set"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2434,
+      "name": "CS",
+      "slug": "cs"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 3,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=5&#038;add-to-cart=52882",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.585Z",
+  "dateModified": "2026-06-23T09:15:51.585Z"
+}

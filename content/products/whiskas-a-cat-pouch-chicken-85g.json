@@ -1,0 +1,88 @@
+{
+  "id": 61900,
+  "name": "Whiskas Adult Cat Pouch Chicken 85g",
+  "slug": "whiskas-a-cat-pouch-chicken-85g",
+  "sku": "WCW006",
+  "onSale": false,
+  "price": 2.3,
+  "regularPrice": 2.3,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/11/WHISKAS-ACAT-POUCH-CHICKEN-85G-1.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    },
+    {
+      "id": 2382,
+      "name": "Whiskas",
+      "slug": "whiskas"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/whiskas-a-cat-pouch-chicken-85g/",
+  "shortDescription": "Nourish your cat with WHISKAS 1+ Chicken Adult Cat Food in Jelly, made with high-quality chicken and balanced nutrients to support muscle strength, immunity, and a glossy coat every meal packed with delicious goodness.",
+  "description": "Treat your cat to the irresistible taste and balanced nutrition of WHISKAS 1+ Chicken Adult Cat Food in Jelly . Expertly prepared to lock in the natural flavour and goodness of high-quality ingredients, this delicious meal provides everything your adult cat needs to stay healthy, active, and satisfied every day. Each pouch is made with tender chicken pieces in a smooth jelly that cats love, delivering complete and balanced nutrition that supports strong muscles, natural defences, and a shiny coat. With sustainably sourced ingredients and a commitment to environmentally friendly production, WHISKAS ensures every meal is as good for your cat as it is for the planet. Key Benefits Complete &amp; Balanced Nutrition: Made with 100% high-quality ingredients to meet all your cat’s daily needs. Supports Strong Muscles: High-quality animal protein helps maintain strength and vitality. Promotes Natural Defences: Enriched with Vitamin C to support immune health. Healthy Skin &amp; Coat: Contains zinc to keep your cat’s skin soft and fur glossy. Sustainably Sourced: We’re dedicated to reducing our environmental impact 85% of our European factories use renewable electricity, with a goal of reaching 100% by 2025. Ingredients Meat and Animal Derivatives (35%, including 4% Chicken in the Chunk), Cereals, Minerals, Derivatives of Vegetable Origin, Various Sugars. *Chunk typically 40% of product. Nutritional Information Analytical Constituents (%): Protein 7.8 | Fat 4.0 | Inorganic Matter 1.6 | Crude Fibre 0.25 | Moisture 84.5 Additives per kg: Nutritional Additives: Vitamin C (702 mg), Vitamin D₃ (200 IU), Taurine (620 mg), Copper (1.2 mg), Iodine (0.22 mg), Iron (11.2 mg), Manganese (2.2 mg), Zinc (16.2 mg) Technological Additives: Cassia gum (2148 mg) Sensory Additives: Flavourings Feeding Guidelines Adjust feeding portions according to your cat’s age, weight, and activity level. Serve at room temperature and always provide fresh drinking water. Diet Transition Transition gradually over 7 days: Days 1–2: 25% new food / 75% old food Days 3–4: 50% new / 50% old Days 5–6: 75% new / 25% old Day 7+: 100% new food Keep mealtimes consistent and monitor your cat’s appetite and digestion. Consult your vet if you notice any changes. Storage Instructions Store unopened pouches in a cool, dry place. Once opened, refrigerate unused portions and serve within 24 hours. Why Choose WHISKAS 1+ Chicken in Jelly Made with tender chicken for irresistible flavour Balanced nutrition for adult cats aged 1 year and above Enriched with vitamins and minerals for total wellbeing Supports immunity, skin health, and muscle strength Environmentally responsible production &nbsp; &nbsp; &nbsp;",
+  "images": [
+    {
+      "id": 61903,
+      "alt": "Whiskas Adult Cat Pouch Chicken 85g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/11/WHISKAS-ACAT-POUCH-CHICKEN-85G-1.png",
+      "name": "WHISKAS ACAT POUCH CHICKEN 85G (1)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2480,
+      "name": "Whiskas",
+      "slug": "whiskas"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=61900",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.784Z",
+  "dateModified": "2026-06-23T09:15:51.784Z"
+}

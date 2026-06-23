@@ -1,0 +1,63 @@
+{
+  "id": 49027,
+  "name": "Grounded Pure Soap Kenyan Castile Soap Unscented 5l",
+  "slug": "grounded-pure-soap-kenyan-castile-soap-unscented-5l",
+  "sku": "PSP5U",
+  "onSale": false,
+  "price": 47.25,
+  "regularPrice": 47.25,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/07/GROUNDED-PURE-SOAP-UNSCENTED-5L-e1722341405443.jpg",
+  "categories": [
+    {
+      "id": 2033,
+      "name": "Grounded",
+      "slug": "grounded"
+    },
+    {
+      "id": 2243,
+      "name": "Humans",
+      "slug": "human"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/grounded-pure-soap-kenyan-castile-soap-unscented-5l/",
+  "shortDescription": "This multi-purpose liquid soap is all-natural, and all-purpose for every cleaning need. No imported oils in our recipe! Just pure-Kenyan grown ingredients. Our All-Kenyan Castile soap is concentrated to last – a little product goes a long way!",
+  "description": "All-purpose Kenyan Castile Soap. Castile soap is a vegan, vegetable oil-based soap. This neutral, all-purpose soap is so natural you can use it on anything! This multi-purpose liquid soap is all-natural, and all-purpose for every cleaning need. No imported oils in our recipe! Just pure-Kenyan grown ingredients. Our All-Kenyan Castile soap is concentrated to last – a little product goes a long way! Pure Soap siblings are now available in more fun formulations specifically for: Use 30ml for mopping and a few drops for surfaces. Ingredients: Saponified coconut, sunflower, canola oils; Citric Acid, Essential Oils",
+  "images": [
+    {
+      "id": 49028,
+      "alt": "Grounded Pure Soap Kenyan Castile Soap Unscented 5l",
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/07/GROUNDED-PURE-SOAP-UNSCENTED-5L-e1722341405443.jpg",
+      "name": "GROUNDED PURE SOAP UNSCENTED 5L"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2245,
+      "name": "Human",
+      "slug": "human"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2441,
+      "name": "Grounded",
+      "slug": "grounded"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 1,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=5&#038;add-to-cart=49027",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.460Z",
+  "dateModified": "2026-06-23T09:15:51.460Z"
+}

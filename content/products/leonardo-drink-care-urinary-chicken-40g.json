@@ -1,0 +1,83 @@
+{
+  "id": 90070,
+  "name": "Leonardo Drink & Care – Urinary Chicken 40g",
+  "slug": "leonardo-drink-care-urinary-chicken-40g",
+  "sku": "LCUC001",
+  "onSale": false,
+  "price": 1.8,
+  "regularPrice": 1.8,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/Leornado-40g.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2407,
+      "name": "Leonardo",
+      "slug": "leonardo"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/leonardo-drink-care-urinary-chicken-40g/",
+  "shortDescription": "Support your cat’s hydration and urinary tract health with LEONARDO Drink &amp; Care Urinary Chicken Cat Food a delicious complementary liquid food specially formulated for cats that do not drink enough water. With an irresistible chicken flavour, this nutritious drink encourages increased fluid intake while helping maintain a healthy urinary system.",
+  "description": "Enriched with DL-methionine, LEONARDO Drink &amp; Care helps optimize urinary pH levels, reducing the tendency for urinary tract disorders and supporting overall feline wellbeing. The carefully balanced recipe contains high-quality chicken broth and chicken meat, making it both tasty and beneficial for cats of all life stages. Ideal for supplementing dry food, this hydrating cat drink promotes healthy water absorption and helps keep cats active, refreshed, and a properly hydrated every day. Key Benefits Supports urinary tract health Encourages healthy water intake Delicious chicken flavour cats love Enriched with methionine to balance urinary pH Perfect supplement to dry cat food Convenient fresh portion sachets Made in Germany under strict quality standards Free from artificial colours, flavours, preservatives, and soy Feeding Recommendation Suitable for adult cats from 1 year of age. Serve 1–2 sachets daily alongside complete dry or wet food. Always provide fresh drinking water. Shake well before use. Composition Chicken broth (84%) Chicken meat (15%) Minerals (1%) Analytical Constituents Protein: 5.7% Fat Content: 0.5% Crude Ash: 0.3% Crude Fibre: 0.1% Moisture: 92% Nutritional Additives per kg Taurine: 1,000 mg DL-Methionine: 6,250 mg LEONARDO Drink &amp; Care Urinary Chicken is the perfect hydration solution for cats prone to low water intake, helping support urinary health sip by sip.",
+  "images": [
+    {
+      "id": 90071,
+      "alt": "Leonardo Drink & Care - Urinary Chicken 40g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Leornado-40g.png",
+      "name": "Leornado 40g"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2448,
+      "name": "Leonardo",
+      "slug": "leonardo"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=90070",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:52.018Z",
+  "dateModified": "2026-06-23T09:15:52.018Z"
+}

@@ -1,0 +1,93 @@
+{
+  "id": 63380,
+  "name": "Bonnie Canned Cat Food Lamb In Gravy 400g",
+  "slug": "bonnie-canned-cat-food-lamb-in-gravy-400gr",
+  "sku": "BCW012",
+  "onSale": true,
+  "price": 2.31,
+  "regularPrice": 2.89,
+  "salePrice": 2.31,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/12/proline-400g-lamb-in-gravy.png",
+  "categories": [
+    {
+      "id": 177,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/bonnie-canned-cat-food-lamb-in-gravy-400gr/",
+  "shortDescription": "BONNIE Canned Cat Food Lamb in Gravy offers high-quality lamb protein, essential nutrients, and hydrating gravy to support muscle strength, digestion, and overall health in adult cats. A delicious, balanced wet food for daily nourishment.",
+  "description": "Give your cat the nourishment they crave with BONNIE Canned Cat Food Lamb in Gravy a wholesome, protein-rich wet meal crafted specifically for adult cats. Each can is filled with tender lamb chunks soaked in a smooth, flavorful gravy that keeps even the pickiest eaters excited for mealtime. Formulated as a complete and balanced diet , this recipe delivers the ideal blend of high-quality lamb protein, essential vitamins, minerals, and taurine to support everyday vitality. The moisture-rich texture helps keep your cat hydrated, promoting better digestion, kidney function, and overall well-being. With its soft texture and aromatic gravy, Bonnie Lamb in Gravy offers superior palatability while providing the nutrients your feline companion needs for lean muscle maintenance , a healthy skin &amp; glossy coat , and optimal immune and heart function . It’s the perfect daily meal for adult cats who deserve both delicious flavor and reliable nutrition. Key Benefits High-quality lamb protein supports muscle strength and sustained energy. Hydration-boosting moisture content promotes urinary tract and kidney health. Enriched with essential vitamins &amp; minerals for immunity and overall vitality. Fortified with taurine , vital for healthy vision and heart function. Soft, gravy-rich texture enhances palatability for adult cats. Feeding Guide For a 4 kg adult cat: 1 full 400g can per meal , served 2–3 times daily depending on activity and breed. Serve at room temperature for enhanced aroma and digestibility. Always provide fresh, clean water.",
+  "images": [
+    {
+      "id": 63388,
+      "alt": "Bonnie Canned Cat Food Lamb In Gravy 400g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/12/proline-400g-lamb-in-gravy.png",
+      "name": "proline 400g lamb in gravy"
+    }
+  ],
+  "tags": [
+    {
+      "id": 622,
+      "name": "canned food",
+      "slug": "canned-food"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 939,
+      "name": "On Sale Now",
+      "slug": "sale"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2428,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=63380",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.793Z",
+  "dateModified": "2026-06-23T09:15:51.793Z"
+}

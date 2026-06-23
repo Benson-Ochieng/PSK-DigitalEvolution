@@ -1,0 +1,88 @@
+{
+  "id": 68626,
+  "name": "J4D No Rinse Waterless Shampoo – 300ml",
+  "slug": "j4d-no-rinse-waterless-dog-shampoo-300ml",
+  "sku": "GJ4D001",
+  "onSale": false,
+  "price": 6.45,
+  "regularPrice": 6.45,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/No-rinse-waterless-shampoo-300ml.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2360,
+      "name": "Dog Grooming & Cleaning",
+      "slug": "dog-grooming-cleaning-supplies"
+    },
+    {
+      "id": 2420,
+      "name": "J4D",
+      "slug": "j4d"
+    },
+    {
+      "id": 2390,
+      "name": "Shampoo",
+      "slug": "dog-shampoo"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/j4d-no-rinse-waterless-dog-shampoo-300ml/",
+  "shortDescription": "J4D No Rinse Waterless Dog Shampoo 300ml cleans and refreshes your dog’s coat without water. Gentle, easy to use, and perfect for quick grooming anytime.",
+  "description": "J4D No Rinse Waterless Dog Shampoo 300ml is the fast, stress-free way to keep your dog clean and fresh no water required. Specially formulated for dogs, this gentle waterless shampoo removes dirt, odors, and surface debris while leaving your dog’s coat soft, shiny, and pleasantly scented. Perfect for busy pet parents, travel, rainy days, or in-between full baths, J4D Waterless Dog Shampoo refreshes your dog instantly without mess or fuss. Its non-sticky formula is safe for frequent use and suitable for all breeds and coat types, making grooming quick, easy, and comfortable for both you and your dog. Simply apply, massage, brush and you’re done. Key Features 300ml waterless shampoo formulated specifically for dogs Cleans coat and skin without the need for water Helps eliminate dirt, odors, and debris Gentle and safe for all breeds and coat types Benefits for Pet Owners Instantly refreshes your dog’s coat between baths Saves time and makes grooming stress-free Leaves fur soft, clean, shiny, and manageable Pleasant, pet-friendly fragrance Product Advantages Trusted J4D quality and pet care expertise Convenient 300ml size for home, travel, or outdoor use Safe for frequent use Easy application with no rinsing required How to Use Apply or spray directly onto your dog’s dry coat Gently massage through the fur Brush if needed No rinsing required Ideal for quick clean-ups, travel, post-walk refreshes, and everyday grooming. Benefits for Retailers High-demand grooming essential Encourages repeat purchases Compact size ideal for shelves and online sales Complements grooming tools, brushes, and shampoos",
+  "images": [
+    {
+      "id": 68628,
+      "alt": "J4D No Rinse Waterless Shampoo – 300ml",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/No-rinse-waterless-shampoo-300ml.png",
+      "name": "No rinse waterless shampoo 300ml"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 2025,
+      "name": "shampoo",
+      "slug": "shampoo"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2443,
+      "name": "J4D",
+      "slug": "j4d"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=68626",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.856Z",
+  "dateModified": "2026-06-23T09:15:51.856Z"
+}

@@ -1,0 +1,83 @@
+{
+  "id": 53696,
+  "name": "Josera Hepatic (Liver) Dog Food 10kg",
+  "slug": "josera-hepatic-liver-dog-food-10kg",
+  "sku": "JDDL",
+  "onSale": false,
+  "price": 168.41,
+  "regularPrice": 168.41,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/02/Josera-hepatic-Liver10l.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josera-hepatic-liver-dog-food-10kg/",
+  "shortDescription": "Hepatic is a scientifically formulated diet for the nutritional management of liver disease in dogs. Recommended in cases of: Liver disease, Chronic hepatitis, Portosystemic shunt, Hepatic encephalopathy, liver failure, copper metabolism disorders. Not recommended in case of: Pregnancy, lactation and growth, pancreatitis, acute hepatitis without hepatic encephalopathy or or history of pancreatitis and hyperlipidemia.",
+  "description": "If your beloved pet suddenly loses their appetite, seems apathetic and experiences weight loss, this may in some cases be due to chronic liver failure: our Josera Help Liver dry food has been developed for this scenario! This dietary complete feed is custom designed with a special recipe to provide optimal nutrition for dogs with liver disease. Josera Help Liver contains valuable milk thistle. This is traditionally used to support liver function and can help prevent excessive strain on the liver. Vitamin C and other valuable antioxidants can protect against free radicals. L-carnitine helps the fat metabolism. The reduced protein and copper content in turn is important to take the strain off organs that are vital for metabolic processes. If a dog has been diagnosed with chronic liver failure, there are a couple of dietary adjustments that can help improve your pet&#8217;s health: the key thing is to reduce the supply of protein and copper and avoid offering snacks containing lots of connective tissue. The best approach is to offer lots of smaller meals with the dietetic feed spread throughout the day. Together we can combat ill health to ensure an enjoyable life for your dog. Composition: A complete dietetic feed for adult dogs to support liver function in case of chronic liver failure and/or to reduce copper accumulation in the liver.&nbsp; maize, dried poultry protein, rice, poultry fat, dried beet pulp (natural source of dietary fiber), hydrolyzed poultry protein, hydrolyzed yeast, salmon oil, minerals, ground chicory root (natural source of inulin), oregano, ginger, rosemary, nettle, milk thistle, cranberry Weight inactive / older normal levels of activity active 5 kg 65 g 80 g 95 g 10 kg 115 g 140 g 160 g 20 kg 195 g 230 g 265 g 30 kg 265 g 310 g 360 g 40 kg 325 g 390 g 450 g 60 kg 440 g 525 g 610 g 80 kg 550 g 650 g 755 g Recommended feeding amount: see table. Please note that the quantities stated are a guide only and must be adapted to your animal’s nutritional status and its activity. Water should be available at all times. Store in a cool, dark and dry place. Seal pack well after use. In case of chronic liver insufficiency: Moderate level of protein, selected and highly digestible. Recommended length of time: Initially up to 4 months. It is recommended that a veterinarian’s opinion be sought before use. Protein sources: Maize, poultry, rice. For the reduction of copper in the liver: Recommended length of time: Initially up to 6 months. It is recommended that advice from a veterinarian be sought before use and before extending the period of use. Analytical constituents protein 18,0 % fat content 16,0 % crude fibre 2,6 % crude ash 4,1 % calcium 0,80 % magnesium 0,10 % potassium 0,40 % phosphorus 0,50 % sodium 0,20 %",
+  "images": [
+    {
+      "id": 53698,
+      "alt": "Josera Hepatic (Liver) Dog Food 10kg",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/02/Josera-hepatic-Liver10l.png",
+      "name": "Josera hepatic- Liver)10l"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 1034,
+      "name": "large breed",
+      "slug": "large-breed"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=53696",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.612Z",
+  "dateModified": "2026-06-23T09:15:51.612Z"
+}

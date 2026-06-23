@@ -1,0 +1,354 @@
+[
+  {
+    "id": "evt-8f3aqiz4g",
+    "timestamp": "2026-06-23T09:08:18.305Z",
+    "user": "Ben",
+    "action": "Settings Updated",
+    "details": "Updated site configuration settings in the General control panel",
+    "icon": "⚙️"
+  },
+  {
+    "id": "evt-ra1oa79q5",
+    "timestamp": "2026-06-18T09:26:25.492Z",
+    "user": "System Admin",
+    "action": "Product Updated",
+    "details": "Updated details for product \"Headphones\" (SKU: N/A)",
+    "icon": "📦"
+  },
+  {
+    "id": "evt-uazs02a1t",
+    "timestamp": "2026-06-18T09:23:39.663Z",
+    "user": "System Admin",
+    "action": "User Logged In",
+    "details": "Successfully signed into the administration panel",
+    "icon": "🔑"
+  },
+  {
+    "id": "evt-i1v5wv74w",
+    "timestamp": "2026-06-17T09:41:26.657Z",
+    "user": "Ben",
+    "action": "Product Updated",
+    "details": "Updated details for product \"Optical Cable\" (SKU: OPTC)",
+    "icon": "📦"
+  },
+  {
+    "id": "evt-e1np7k9xz",
+    "timestamp": "2026-06-17T09:41:05.696Z",
+    "user": "Ben",
+    "action": "Product Updated",
+    "details": "Updated details for product \"Optical Cable\" (SKU: OPTC)",
+    "icon": "📦"
+  },
+  {
+    "id": "evt-rdn7dtfki",
+    "timestamp": "2026-06-17T08:55:36.640Z",
+    "user": "Ben",
+    "action": "Product Updated",
+    "details": "Updated details for product \"32\" FHD Frameless Whale TV Smart TV\" (SKU: VP8832SW)",
+    "icon": "📦"
+  },
+  {
+    "id": "evt-8a8uajvsv",
+    "timestamp": "2026-06-16T08:00:19.011Z",
+    "user": "Ben",
+    "action": "Product Restored",
+    "details": "Restored product \"Headphones\" from Trash",
+    "icon": "♻️"
+  },
+  {
+    "id": "evt-hwq0ei4rr",
+    "timestamp": "2026-06-16T08:00:06.289Z",
+    "user": "Ben",
+    "action": "Product Trashed",
+    "details": "Moved product \"Headphones\" to Trash",
+    "icon": "🗑️"
+  },
+  {
+    "id": "evt-678010yib",
+    "timestamp": "2026-06-16T07:59:52.262Z",
+    "user": "Ben",
+    "action": "Product Restored",
+    "details": "Restored product \"Headphones\" from Trash",
+    "icon": "♻️"
+  },
+  {
+    "id": "evt-lwkafljw9",
+    "timestamp": "2026-06-16T07:36:16.102Z",
+    "user": "Ben",
+    "action": "Product Trashed",
+    "details": "Moved product \"Headphones\" to Trash",
+    "icon": "🗑️"
+  },
+  {
+    "id": "evt-lr6jlehh4",
+    "timestamp": "2026-06-15T08:05:25.147Z",
+    "user": "Ben",
+    "action": "Product Updated",
+    "details": "Updated details for product \"Headphones\" (SKU: N/A)",
+    "icon": "📦"
+  },
+  {
+    "id": "evt-08g00bwh2",
+    "timestamp": "2026-06-15T08:04:01.358Z",
+    "user": "Ben",
+    "action": "Product Updated",
+    "details": "Updated details for product \"Headphones\" (SKU: N/A)",
+    "icon": "📦"
+  },
+  {
+    "id": "evt-7hpdac9sr",
+    "timestamp": "2026-06-12T10:10:31.413Z",
+    "user": "Ben",
+    "action": "Product Updated",
+    "details": "Updated details for product \"Vision Plus Fit Plus\" (SKU: VPSWS1)",
+    "icon": "📦"
+  },
+  {
+    "id": "evt-73ef5ihah",
+    "timestamp": "2026-06-12T10:10:11.139Z",
+    "user": "Ben",
+    "action": "Product Updated",
+    "details": "Updated details for product \"Vision Plus Fit Plus\" (SKU: VPSWS1)",
+    "icon": "📦"
+  },
+  {
+    "id": "evt-vedoh8cj2",
+    "timestamp": "2026-06-12T10:08:54.651Z",
+    "user": "Ben",
+    "action": "Product Updated",
+    "details": "Updated details for product \"Vision Plus Fit Plus\" (SKU: VPSWS1)",
+    "icon": "📦"
+  },
+  {
+    "id": "evt-oa3onzf6v",
+    "timestamp": "2026-06-12T10:02:12.453Z",
+    "user": "Ben",
+    "action": "Product Updated",
+    "details": "Updated details for product \"Vision Plus Fit Plus\" (SKU: VPSWS1)",
+    "icon": "📦"
+  },
+  {
+    "id": "evt-vyfxnp56j",
+    "timestamp": "2026-06-12T09:59:27.805Z",
+    "user": "Ben",
+    "action": "Product Updated",
+    "details": "Updated details for product \"Vision Plus Fit Plus\" (SKU: VPSWS1)",
+    "icon": "📦"
+  },
+  {
+    "id": "evt-7u1v7lbgp",
+    "timestamp": "2026-06-12T09:24:06.653Z",
+    "user": "Ben",
+    "action": "Product Updated",
+    "details": "Updated details for product \"Vision Plus Fit Plus\" (SKU: VPSWS1)",
+    "icon": "📦"
+  },
+  {
+    "id": "evt-wu5kmgjoi",
+    "timestamp": "2026-06-12T09:14:53.500Z",
+    "user": "Ben",
+    "action": "Trash Emptied",
+    "details": "Permanently deleted 2 products from Trash",
+    "icon": "🗑️"
+  },
+  {
+    "id": "evt-svc6kpj18",
+    "timestamp": "2026-06-12T09:14:38.911Z",
+    "user": "Ben",
+    "action": "Bulk Products Trashed",
+    "details": "Moved 2 products to Trash",
+    "icon": "🗑️"
+  },
+  {
+    "id": "evt-qgxvkp63q",
+    "timestamp": "2026-06-12T09:07:37.607Z",
+    "user": "Ben",
+    "action": "Product Deleted",
+    "details": "Trashed product \"Deep Bass Soundbar #8BobTreasureHunt\"",
+    "icon": "🗑️"
+  },
+  {
+    "id": "evt-c4or1huwa",
+    "timestamp": "2026-06-12T09:02:03.638Z",
+    "user": "Ben",
+    "action": "Analytics Settings Updated",
+    "details": "Updated the commerce reporting and analytics configuration settings",
+    "icon": "📈"
+  },
+  {
+    "id": "evt-h0kx10est",
+    "timestamp": "2026-06-12T09:01:58.986Z",
+    "user": "Ben",
+    "action": "Analytics Settings Updated",
+    "details": "Updated the commerce reporting and analytics configuration settings",
+    "icon": "📈"
+  },
+  {
+    "id": "evt-6mn46h3ho",
+    "timestamp": "2026-06-12T08:58:15.209Z",
+    "user": "Ben",
+    "action": "Analytics Settings Updated",
+    "details": "Updated the commerce reporting and analytics configuration settings",
+    "icon": "📈"
+  },
+  {
+    "id": "evt-0xj7je7mr",
+    "timestamp": "2026-06-11T12:32:57.939Z",
+    "user": "Ben",
+    "action": "Settings Updated",
+    "details": "Updated site configuration settings in the General control panel",
+    "icon": "⚙️"
+  },
+  {
+    "id": "evt-ospi6dtm7",
+    "timestamp": "2026-06-10T13:23:08.737Z",
+    "user": "Ben",
+    "action": "User Logged In",
+    "details": "Successfully signed into the administration panel",
+    "icon": "🔑"
+  },
+  {
+    "id": "evt-w7gdw13j4",
+    "timestamp": "2026-06-10T13:21:19.910Z",
+    "user": "Ben",
+    "action": "User Logged In",
+    "details": "Successfully signed into the administration panel",
+    "icon": "🔑"
+  },
+  {
+    "id": "evt-j43q2oyq2",
+    "timestamp": "2026-06-10T13:00:35.900Z",
+    "user": "Ben",
+    "action": "User Logged In",
+    "details": "Successfully signed into the administration panel",
+    "icon": "🔑"
+  },
+  {
+    "id": "evt-odxxnhfj8",
+    "timestamp": "2026-06-10T12:53:43.069Z",
+    "user": "System Admin",
+    "action": "User Logged In",
+    "details": "Successfully signed into the administration panel",
+    "icon": "🔑"
+  },
+  {
+    "id": "evt-pkqfy30mh",
+    "timestamp": "2026-06-05T07:17:30.244Z",
+    "user": "System Admin",
+    "action": "User Logged In",
+    "details": "Successfully signed into the administration panel",
+    "icon": "🔑"
+  },
+  {
+    "id": "evt-nmou37h5w",
+    "timestamp": "2026-06-04T11:39:40.816Z",
+    "user": "System Admin",
+    "action": "Brand Deleted",
+    "details": "Deleted brand \"Apex Piping\"",
+    "icon": "🗑️"
+  },
+  {
+    "id": "evt-fbp71efp6",
+    "timestamp": "2026-06-04T11:39:37.564Z",
+    "user": "System Admin",
+    "action": "Brand Deleted",
+    "details": "Deleted brand \"Samsung\"",
+    "icon": "🗑️"
+  },
+  {
+    "id": "evt-nflizupgi",
+    "timestamp": "2026-06-04T11:39:19.672Z",
+    "user": "System Admin",
+    "action": "Brand Deleted",
+    "details": "Deleted brand \"LG\"",
+    "icon": "🗑️"
+  },
+  {
+    "id": "evt-qogighmgg",
+    "timestamp": "2026-06-04T10:23:05.687Z",
+    "user": "System Admin",
+    "action": "User Logged In",
+    "details": "Successfully signed into the administration panel",
+    "icon": "🔑"
+  },
+  {
+    "id": "evt-wledh7dx2",
+    "timestamp": "2026-06-04T08:45:34.913Z",
+    "user": "System Admin",
+    "action": "Category Deleted",
+    "details": "Deleted blog post category \"Test\"",
+    "icon": "🗑️"
+  },
+  {
+    "id": "evt-w25hzhlx9",
+    "timestamp": "2026-06-04T08:45:08.830Z",
+    "user": "System Admin",
+    "action": "Category Added",
+    "details": "Created blog post category \"Test\"",
+    "icon": "📁"
+  },
+  {
+    "id": "evt-gq8ei0ujx",
+    "timestamp": "2026-06-04T08:33:44.340Z",
+    "user": "System Admin",
+    "action": "Post Updated",
+    "details": "Updated blog post details for \"Why the 220L Double Door Refrigerator Is One of the Best Buys in Kenya Right Now\"",
+    "icon": "📝"
+  },
+  {
+    "id": "evt-smrjx06lq",
+    "timestamp": "2026-06-04T08:22:01.572Z",
+    "user": "System Admin",
+    "action": "Post Updated",
+    "details": "Updated blog post details for \"Why the 220L Double Door Refrigerator Is One of the Best Buys in Kenya Right Now!!!\"",
+    "icon": "📝"
+  },
+  {
+    "id": "evt-98lhk46on",
+    "timestamp": "2026-06-04T08:21:45.058Z",
+    "user": "System Admin",
+    "action": "Post Updated",
+    "details": "Updated blog post details for \"Why We Switched to Whale OS — And Why It Is the Smartest TV You Can Buy in Kenya\"",
+    "icon": "📝"
+  },
+  {
+    "id": "evt-b6sohcd3g",
+    "timestamp": "2026-06-04T08:20:42.362Z",
+    "user": "System Admin",
+    "action": "Post Updated",
+    "details": "Updated blog post details for \"Why We Switched to Whale OS — And Why It Is the Smartest TV You Can Buy in Kenya🖤\"",
+    "icon": "📝"
+  },
+  {
+    "id": "evt-seed1",
+    "timestamp": "2026-06-04T06:04:37.671Z",
+    "user": "System Admin",
+    "action": "User Logged In",
+    "details": "Successfully signed into the administration panel",
+    "icon": "🔑"
+  },
+  {
+    "id": "evt-seed2",
+    "timestamp": "2026-06-04T03:04:37.671Z",
+    "user": "Shop Manager",
+    "action": "Product Quick-Edited",
+    "details": "Quick edited product \"Cool-Pods\" (Price: KSh 525, Stock: instock)",
+    "icon": "📦"
+  },
+  {
+    "id": "evt-seed3",
+    "timestamp": "2026-06-03T08:04:37.671Z",
+    "user": "System Admin",
+    "action": "Page Created",
+    "details": "Created new page \"Terms and Conditions\"",
+    "icon": "📄"
+  },
+  {
+    "id": "evt-seed4",
+    "timestamp": "2026-06-02T08:04:37.671Z",
+    "user": "System Admin",
+    "action": "Product Created",
+    "details": "Created new product \"55\\\" 4K Frameless QLED Vidaa TV\" (SKU: VP55Q)",
+    "icon": "📦"
+  }
+]

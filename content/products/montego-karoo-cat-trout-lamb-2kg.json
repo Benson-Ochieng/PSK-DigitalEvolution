@@ -1,0 +1,78 @@
+{
+  "id": 56649,
+  "name": "Montego Karoo Adult Cat Dry Food-Trout & Lamb 2kg",
+  "slug": "montego-karoo-cat-trout-lamb-2kg",
+  "sku": "MKCATTL02",
+  "onSale": false,
+  "price": 39.5,
+  "regularPrice": 39.5,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-60-1.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 2298,
+      "name": "Montego",
+      "slug": "montego"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/montego-karoo-cat-trout-lamb-2kg/",
+  "shortDescription": "Montego Karoo Cat Trout &amp; Lamb 2kg is a super-premium, hypoallergenic, gluten-free dry cat food formulated for adult cats of all breeds, providing optimal nutrition through high-quality proteins and essential nutrients.",
+  "description": "Product Overview Montego Karoo Adult Cat Food (Trout &amp; Lamb) is a nutritionally complete, limited-ingredient formula crafted for adult cats at the peak of their physical development. Featuring high-quality trout and lamb proteins, this diet provides optimal nourishment for energy, muscle maintenance, and overall vitality. The 2kg pack offers a hypoallergenic, gluten-free recipe ideal for cats with food sensitivities or digestive issues. Key Features and Benefits Duo Protein – Trout &amp; Lamb Provides a full spectrum of amino acids to support lean muscle, joint strength, and sustained energy. Hypoallergenic &amp; Gluten-Free Specially formulated without common allergens to reduce digestive upsets and skin irritations. Low-Carbohydrate, Single Grain Energy High-quality rice delivers steady energy while minimizing carbohydrate intake. Strong Natural Defenses Freeze-dried melon juice and nutritional yeast supply antioxidants that help strengthen immunity and protect cells from free radical damage. Balanced Digestive Health Citrus fibre and beet pulp support a healthy gut microbiome and promote smooth digestion. Skin &amp; Coat Vitality Omega-3 and Omega-6 fatty acids from fish oil and animal fats maintain a glossy coat and help reduce stool odour. Hairball Control Dietary cellulose and fish oil promote healthy intestinal transit and limit hairball formation. Urinary Tract Support Balanced minerals and moisture encourage optimal hydration and urinary pH, helping prevent crystal formation. 100% Natural Nutrition Free from corn, soy, gluten, and artificial colours or flavours—pure, wholesome, and safe for sensitive cats. Nutritional Focus Montego Karoo Adult Cat Food delivers scientifically balanced nutrition with premium proteins, essential fatty acids, vitamins, and minerals to support long-term health and vitality. Its limited-ingredient recipe makes it ideal for cats with food sensitivities or those transitioning to a more natural diet. &nbsp;",
+  "images": [
+    {
+      "id": 60611,
+      "alt": "Montego Karoo Adult Cat Dry Food-Trout & Lamb 2kg",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-60-1.png",
+      "name": "Untitled design (60)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2453,
+      "name": "Montego",
+      "slug": "montego"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=56649",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.672Z",
+  "dateModified": "2026-06-23T09:15:51.672Z"
+}

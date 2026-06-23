@@ -1,0 +1,63 @@
+{
+  "id": 63461,
+  "name": "Grounded Hand Soap Geranium & Lavender 5L",
+  "slug": "grounded-hand-soap-geranium-lavender-5l",
+  "sku": "HSP5GL",
+  "onSale": false,
+  "price": 60.34,
+  "regularPrice": 60.34,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/12/Eucalyptus-1.png",
+  "categories": [
+    {
+      "id": 2033,
+      "name": "Grounded",
+      "slug": "grounded"
+    },
+    {
+      "id": 2243,
+      "name": "Humans",
+      "slug": "human"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/grounded-hand-soap-geranium-lavender-5l/",
+  "shortDescription": "Grounded Geranium &amp; Lavender Foaming Hand Soap 5L offers a gentle Castile formula with natural essential oils, providing up to 500 washes per refill. Moisturizing, eco-friendly, and perfect for homes, offices, and shared spaces.",
+  "description": "Experience the perfect balance of gentle cleansing, natural nourishment, and calming aromatherapy with the Grounded Geranium &amp; Lavender Foaming Hand Soap . Crafted from authentic Kenyan Castile soap and enriched with pure essential oils, this eco-friendly formula delivers a luxurious, velvety foam that cleans effectively without stripping your skin. Infused with a soothing bouquet of Geranium and Lavender , this floral blend promotes relaxation while offering mild natural antimicrobial benefits—making every wash both refreshing and comforting. Its plant-powered formulation features a blend of nourishing oils, including coconut, canola, sunflower, and baobab , to help maintain soft, moisturized hands even with frequent use. Designed for sustainability and long-term value, the 5L refill is fully compatible with Grounded’s foaming dispensers and yields up to 500 hand washes , lasting up to four times longer than traditional gel soaps. Packaged in recycled plastic and free from synthetic fragrances, SLS, and harsh detergents, it provides an environmentally conscious choice for homes, offices, and shared spaces. Key Features Calming Floral Scent: A naturally soothing blend of Geranium and Lavender essential oils. Pure Castile Formula: Made from high-quality Kenyan Castile soap with no synthetic fragrances or harsh chemicals. Deeply Moisturizing: Infused with coconut, canola, sunflower, and baobab oil to nourish and protect skin. Exceptional Longevity: 5L refill offers up to 500 foaming hand washes , lasting 4x longer than regular liquid soaps. Eco-Friendly Design: Biodegradable formula in recycled-plastic packaging; safe for the whole family. Gentle Yet Effective: Produces a rich, soft foam that cleans thoroughly without drying out your skin. Choose Grounded’s Geranium &amp; Lavender Hand Soap for a luxurious, sustainable, and skin-loving handwashing experience—every pump delivers calm, cleanliness, and care. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
+  "images": [
+    {
+      "id": 63464,
+      "alt": "Grounded Hand Soap Geranium & Lavender 5L",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/12/Eucalyptus-1.png",
+      "name": "Eucalyptus (1)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2245,
+      "name": "Human",
+      "slug": "human"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2441,
+      "name": "Grounded",
+      "slug": "grounded"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 1,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=63461",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.802Z",
+  "dateModified": "2026-06-23T09:15:51.802Z"
+}

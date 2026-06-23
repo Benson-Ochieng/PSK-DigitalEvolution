@@ -1,0 +1,68 @@
+{
+  "id": 56033,
+  "name": "Paw Performance Polo-Medium Men Blue",
+  "slug": "paw-performance-polo-medium-men-blue",
+  "sku": "PPPPMMB",
+  "onSale": false,
+  "price": 25,
+  "regularPrice": 25,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/06/FRONT-POLO-SHIRT-FIXED.png",
+  "categories": [
+    {
+      "id": 2243,
+      "name": "Humans",
+      "slug": "human"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/paw-performance-polo-medium-men-blue/",
+  "shortDescription": "Show off your love for cats and dogs in this classic men’s medium-fit polo, crafted in a cool blue shade. Made from a breathable cotton-poly blend, it features an embroidered paw print design that blends cat and dog paw motifs — subtle, stylish, and meaningful.",
+  "description": "Men’s Paw Print Polo Shirt – Medium / Blue Show off your love for cats and dogs in this classic men’s medium-fit polo, crafted in a cool blue shade. Made from a breathable cotton-poly blend, it features an embroidered paw print design that blends cat and dog paw motifs — subtle, stylish, and meaningful. Size: Medium (Men’s Fit) Color: Blue Material: Soft cotton-poly blend Design: Embroidered dual paw print detail Fit: Classic men’s polo with two-button placket and structured collar Care: Machine washable Perfect for casual days, pet walks, or relaxed weekends — a must-have for proud pet dads",
+  "images": [
+    {
+      "id": 56029,
+      "alt": "Paw Performance Polo-Small Women Blue",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/06/FRONT-POLO-SHIRT-FIXED.png",
+      "name": "FRONT POLO SHIRT FIXED"
+    },
+    {
+      "id": 56031,
+      "alt": "Paw Performance Polo-Small Women Blue",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/06/BACK-POLO-SHIRT-FIXED-1.png",
+      "name": "BACK POLO SHIRT FIXED"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2245,
+      "name": "Human",
+      "slug": "human"
+    },
+    {
+      "id": 2309,
+      "name": "Polo",
+      "slug": "polo"
+    },
+    {
+      "id": 2310,
+      "name": "T-shirt",
+      "slug": "t-shirt"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=56033",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.640Z",
+  "dateModified": "2026-06-23T09:15:51.640Z"
+}

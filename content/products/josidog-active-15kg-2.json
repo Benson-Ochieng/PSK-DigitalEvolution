@@ -1,0 +1,83 @@
+{
+  "id": 23726,
+  "name": "JosiDog Active 15kg",
+  "slug": "josidog-active-15kg-2",
+  "sku": "JDJA",
+  "onSale": false,
+  "price": 106,
+  "regularPrice": 106,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/Josidog-Active-15kg.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josidog-active-15kg-2/",
+  "shortDescription": "The nutrient-rich, gluten-free formula of JosiDog Active ensures very active dogs get all the energy they need. With extra power, this high-energy food is suitable for sporting and very active dogs. Complete feed for adult dogs.",
+  "description": "Composition: Active &#8211; Complete feed for adult dogs, Composition: dried poultry protein; whole-grain corn; rice; poultry fat; beet fibre; hydrolysed poultry protein; minerals; ground chicory root (natural source of inulin); dried meat from the New Zealand green-lipped mussel (Perna canaliculus). Product Details: The nutrient-rich, gluten-free formula of JosiDog Active ensures very active dogs get all the energy they need. With extra power, this high-energy food is suitable for sporting and very active dogs. Complete feed for adult dogs",
+  "images": [
+    {
+      "id": 35517,
+      "alt": "JosiDog Active 15kg",
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/Josidog-Active-15kg.png",
+      "name": "Josidog Active 15kg"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 637,
+      "name": "kibble",
+      "slug": "kibble"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=2&#038;add-to-cart=23726",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.195Z",
+  "dateModified": "2026-06-23T09:15:51.195Z"
+}

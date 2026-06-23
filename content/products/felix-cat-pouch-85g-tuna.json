@@ -1,0 +1,88 @@
+{
+  "id": 57774,
+  "name": "Felix Cat Pouch 85g Tuna",
+  "slug": "felix-cat-pouch-85g-tuna",
+  "sku": "FCW005",
+  "onSale": false,
+  "price": 1.94,
+  "regularPrice": 1.94,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-7.png",
+  "categories": [
+    {
+      "id": 2412,
+      "name": "Felix",
+      "slug": "felix"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/felix-cat-pouch-85g-tuna/",
+  "shortDescription": "FELIX Cat Pouch 85g – Tuna . Packed with tender tuna pieces in a rich, mouth-watering jelly , this wet food provides complete and balanced nutrition for adult cats. Enriched with essential vitamins, minerals, and Omega 6 fatty acids , it supports a shiny coat, strong muscles, and everyday vitality. FELIX makes mealtime both wholesome and irresistibly tasty for your cat.",
+  "description": "Perfect as an everyday meal or as a complementary snack, Felix as Good As It Looks turns mealtimes into a delightful feast your cat will eagerly look forward to. Why Your Cat Will Love It: • Made with tender pieces of tuna in a rich, tasty jelly. • 100% complete and balanced for daily feeding. • Packed with essential vitamins and minerals to support overall health. • Omega-6 fatty acids for a shiny, healthy coat. Irresistible aroma and texture &#8211; even picky eaters will enjoy",
+  "images": [
+    {
+      "id": 57775,
+      "alt": "Felix Cat Pouch 85g Tuna",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-7.png",
+      "name": "Untitled design (7)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2437,
+      "name": "Felix",
+      "slug": "felix"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=57774",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.716Z",
+  "dateModified": "2026-06-23T09:15:51.716Z"
+}

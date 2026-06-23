@@ -1,0 +1,83 @@
+{
+  "id": 46090,
+  "name": "Josidog Beef In Sauce Dog Wet Food 415g",
+  "slug": "josera-beef-in-sauce-dog-wet-food-415kg",
+  "sku": "JBDSP159",
+  "onSale": false,
+  "price": 3.06,
+  "regularPrice": 3.06,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/Josera-Beef-in-Sauce.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    },
+    {
+      "id": 2349,
+      "name": "Wet Dog Food",
+      "slug": "wet-dog-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josera-beef-in-sauce-dog-wet-food-415kg/",
+  "shortDescription": "Josera Pate Beef is a new flavor in our Josera wet food range. And it really has what it takes – beef, that is. And in true pate style, the recipe contains vitamin E, vitamin D3 and an additional special promise: our wet food for dogs contains exclusively healthy ingredients and no junk like sugar, soya or similar.",
+  "description": "Josera Pate Beef is a new flavors in our Josera wet food range. And it really has what it takes – beef, that is. And in true pate style, the recipe contains vitamin E, vitamin D3 and an additional special promise: our wet food for dogs contains exclusively healthy ingredients and no junk like sugar, soya or similar. Paté with beef for adult dogs With vitamin E for improved cell protection With vitamin D3 to support strong bone structure Fuss-free: no added sugar, soya, dairy products, colourings, flavourings or preservatives. Complete food for adult dogs: &nbsp; Composition: Beef and animal derivatives; cereals; minerals; derivatives of vegetable origin. Feeding Guide: Weight 5kg 10kg 20kg 35kg Feed amount/24 hrs 320 – 380g 540 – 600g 800 – 1000g 1400g – 1550g Please note that the quantities stated are guidelines and should be adapted. depending on your pet’s feeding requirements and activity levels. Please make sure your pet has fresh water at all times. After opening, keep refrigerated at 2 to 6 °C and offer the food at room temperature within 24 hours.",
+  "images": [
+    {
+      "id": 46091,
+      "alt": "Josidog Beef In Sauce Dog Wet Food 415g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/04/Josera-Beef-in-Sauce.png",
+      "name": "Josera Beef in Sauce"
+    }
+  ],
+  "tags": [
+    {
+      "id": 622,
+      "name": "canned food",
+      "slug": "canned-food"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=46090",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.376Z",
+  "dateModified": "2026-06-23T09:15:51.376Z"
+}

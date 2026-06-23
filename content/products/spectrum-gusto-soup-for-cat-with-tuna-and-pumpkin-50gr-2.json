@@ -1,0 +1,93 @@
+{
+  "id": 47687,
+  "name": "Spectrum Gusto Soup For Cat With Tuna And Pumpkin 50g",
+  "slug": "spectrum-gusto-soup-for-cat-with-tuna-and-pumpkin-50gr-2",
+  "sku": "SCW007",
+  "onSale": true,
+  "price": 1.76,
+  "regularPrice": 1.95,
+  "salePrice": 1.76,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-TUNA-AND-PUMPKIN-50GR-1.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2330,
+      "name": "Cat Treats",
+      "slug": "cat-treats"
+    },
+    {
+      "id": 2403,
+      "name": "Kitten Treats",
+      "slug": "kitten-treats"
+    },
+    {
+      "id": 180,
+      "name": "Spectrum",
+      "slug": "spectrum"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/spectrum-gusto-soup-for-cat-with-tuna-and-pumpkin-50gr-2/",
+  "shortDescription": "Treat your feline friend to a delightful snack experience with SPECTRUM GUSTO Soup for Cats! Appropriate for any Cat/Kitten as a healthy treat but not a substitute for a complete balanced food. Make sufficient drinking water available.",
+  "description": "The soup can be given as a complementary food or as a daily reward. You can give small amounts at a time using a spoon. Treat your feline friend to a delightful snack experience with SPECTRUM GUSTO Soup for Cats! This premium wet food combines tender tuna and nutritious pumpkin, creating a savory and satisfying meal that your cat will love. Contents: Water, Tuna fillet 25.40%, Pumpkin 4.7%, Fish broth, Natural thickener (Tapioca starch (E1442), Guar gum (E412)). Nutrient Components: Crude Protein 9%, Crude Fat 0.2%, Crude Ash 1%, Crude Fiber 0.1%, Moisture 90%. Key Features: High-Quality Ingredients: Made with real tuna, rich in essential proteins and omega fatty acids, ensuring your cat gets the nutrition they need. Nutritious Pumpkin: Packed with vitamins and fiber, pumpkin supports healthy digestion and adds a delicious, creamy texture. Irresistible Flavor: A gourmet soup that entices even the pickiest eaters, making mealtime a joyful experience. Convenient Portion Size: Perfectly portioned at 50g, ideal for a single serving or as a tasty topper for dry food. Give your cat the flavor and nutrition they deserve with SPECTRUM GUSTO Soup for Cats – a delicious way to keep them happy and healthy! Always have fresh drinking water available for your cat. See imprint on package. &nbsp;",
+  "images": [
+    {
+      "id": 50542,
+      "alt": "Spectrum Gusto Soup For Cat With Tuna And Pumpkin 50g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-TUNA-AND-PUMPKIN-50GR-1.png",
+      "name": "SPECTRUM GUSTO SOUP FOR CAT WITH TUNA AND PUMPKIN 50GR"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 939,
+      "name": "On Sale Now",
+      "slug": "sale"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2468,
+      "name": "Spectrum",
+      "slug": "spectrum"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=47687",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.416Z",
+  "dateModified": "2026-06-23T09:15:51.416Z"
+}

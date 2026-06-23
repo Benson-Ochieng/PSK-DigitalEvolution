@@ -1,0 +1,68 @@
+{
+  "id": 56034,
+  "name": "Paw Performance Polo-Medium Women Blue",
+  "slug": "paw-performance-polo-medium-women-blue",
+  "sku": "PPPPMWB",
+  "onSale": false,
+  "price": 25,
+  "regularPrice": 25,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/06/FRONT-POLO-SHIRT-FIXED.png",
+  "categories": [
+    {
+      "id": 2243,
+      "name": "Humans",
+      "slug": "human"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/paw-performance-polo-medium-women-blue/",
+  "shortDescription": "Add a touch of charm to your everyday style with this women’s medium-fit polo in a fresh blue shade. Crafted from a soft, breathable cotton-poly blend, it features a delicate embroidered paw print design that celebrates both cat and dog love — subtle, stylish, and full of heart.",
+  "description": "Add a touch of charm to your everyday style with this women’s medium-fit polo in a fresh blue shade. Crafted from a soft, breathable cotton-poly blend, it features a delicate embroidered paw print design that celebrates both cat and dog love — subtle, stylish, and full of heart. Size: Medium (Women’s Fit) Color: Blue Material: Lightweight cotton-poly blend Design: Embroidered dual paw print (cat &amp; dog paws) Fit: Flattering women’s cut with capped sleeves and shaped silhouette Care: Machine washable Perfect for pet lovers who want to stay comfy, confident, and connected to what they love most.",
+  "images": [
+    {
+      "id": 56029,
+      "alt": "Paw Performance Polo-Small Women Blue",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/06/FRONT-POLO-SHIRT-FIXED.png",
+      "name": "FRONT POLO SHIRT FIXED"
+    },
+    {
+      "id": 56031,
+      "alt": "Paw Performance Polo-Small Women Blue",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/06/BACK-POLO-SHIRT-FIXED-1.png",
+      "name": "BACK POLO SHIRT FIXED"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2245,
+      "name": "Human",
+      "slug": "human"
+    },
+    {
+      "id": 2309,
+      "name": "Polo",
+      "slug": "polo"
+    },
+    {
+      "id": 2310,
+      "name": "T-shirt",
+      "slug": "t-shirt"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": 2,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=56034",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.641Z",
+  "dateModified": "2026-06-23T09:15:51.641Z"
+}

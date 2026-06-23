@@ -1,0 +1,83 @@
+{
+  "id": 48738,
+  "name": "Josera Denties With Turkey & Apple 180g",
+  "slug": "josera-denties-with-turkey-apple",
+  "sku": "JDT001",
+  "onSale": false,
+  "price": 7.3,
+  "regularPrice": 7.3,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/07/Josera_Denties_TurkeyApple_180g.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josera-denties-with-turkey-apple/",
+  "shortDescription": "The Josera Denties with Turkey &amp; Apple also contain cellulose, which help to improve the teeth-cleaning effect. They are grain-free for good digestibility, as well as containing beneficial minerals. The clever chew sticks are made in Germany – ensuring reliable quality!",
+  "description": "Apples not only taste good, but also contain many beneficial nutrients. The Josera Denties with Turkey &amp; Apple contain a portion of fine apple puree, which perfectly complements the delicious taste of turkey. These sticks don’t just offer a fruity note, they also help your dog with its daily oral hygiene! The sticks have a star-shaped structure, which can help to reduce plaque and massage gums as your dog chews. Josera Denties with Turkey &amp; Apple at a glance: Tasty chew snack for adult dogs Fruity: with delicious apple puree Mouth-friendly star shape: can help clean teeth and massage the gums With cellulose: structure can support dental hygiene Hearty taste: with delicious turkey With dried tapioca: a source of carbohydrates with a high level of acceptance Source of valuable minerals Well-tolerated: grain-free Quality product from Germany Ingredients: Vegetable by-products (dried potato, dried tapioca, cellulose), dried turkey protein (14%), apple puree (4%), hydrolysed poultry protein, minerals. Analytical constituents protein 12.0 % fat 2.0 % fibre 4.0 % ash 6.5 % moisture 24.0 % Feeding recommendation: Josera Denties with Turkey &amp; Apple is a supplementary food for adult dogs. Dog’s weight Serving in sticks per day 10kg 0.5 25kg 1.5 35kg 2 Feed as a supplement to a complete diet. Ensure treats are included in your dog’s daily nutritional intake. Fresh drinking water should always be made available. &nbsp;",
+  "images": [
+    {
+      "id": 48739,
+      "alt": "Josera Denties With Turkey & Apple 180g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/07/Josera_Denties_TurkeyApple_180g.png",
+      "name": "Josera_Denties_TurkeyApple_180g"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2320,
+      "name": "grain-free",
+      "slug": "grain-free"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=5&#038;add-to-cart=48738",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.441Z",
+  "dateModified": "2026-06-23T09:15:51.441Z"
+}

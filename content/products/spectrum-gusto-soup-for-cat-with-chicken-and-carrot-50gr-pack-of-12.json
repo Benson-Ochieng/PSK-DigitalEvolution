@@ -1,0 +1,93 @@
+{
+  "id": 53438,
+  "name": "Pack Of 12 – Spectrum Gusto Soup For Cat With Chicken And Carrot 50g",
+  "slug": "spectrum-gusto-soup-for-cat-with-chicken-and-carrot-50gr-pack-of-12",
+  "sku": "SCW004$12",
+  "onSale": true,
+  "price": 21.06,
+  "regularPrice": 23.4,
+  "salePrice": 21.06,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-CHICKEN-AND-CARROT-50GR.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2330,
+      "name": "Cat Treats",
+      "slug": "cat-treats"
+    },
+    {
+      "id": 2403,
+      "name": "Kitten Treats",
+      "slug": "kitten-treats"
+    },
+    {
+      "id": 180,
+      "name": "Spectrum",
+      "slug": "spectrum"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/spectrum-gusto-soup-for-cat-with-chicken-and-carrot-50gr-pack-of-12/",
+  "shortDescription": "Appropriate for any Cat/Kitten as a healthy treat but not a substitute for a complete balanced food. Make sufficient drinking water available.",
+  "description": "Spoil your cat with Spectrum Gusto Soup with Chicken and Carrot – a gourmet 50g cat treat packed with tender chicken, sweet carrot, and flavorful fish broth. Designed for all life stages, this snack can be served as a treat, reward, or topping to enhance regular meals. Its high moisture content ensures your cat stays hydrated while enjoying every bite. Key Features: Gourmet blend of real chicken and carrot. Moist and flavorful fish broth. High moisture content supports hydration. Convenient single-serve pouch (50g). Great for training, rewarding, or meal enhancement. Benefits: Supports healthy hydration. Encourages picky eaters to enjoy their meals. Easy and mess-free to serve. Low-fat, nutritious, and delicious.",
+  "images": [
+    {
+      "id": 47686,
+      "alt": "Spectrum Gusto Soup For Cat With Chicken And Carrot 50g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-CHICKEN-AND-CARROT-50GR.png",
+      "name": "SPECTRUM GUSTO SOUP FOR CAT WITH CHICKEN AND CARROT 50GR"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2055,
+      "name": "Bulk Cat Food &amp; Bulk Dog Food",
+      "slug": "bulk"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2468,
+      "name": "Spectrum",
+      "slug": "spectrum"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=53438",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.602Z",
+  "dateModified": "2026-06-23T09:15:51.602Z"
+}

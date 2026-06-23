@@ -1,0 +1,73 @@
+{
+  "id": 89836,
+  "name": "JosiCat Cat Dry Food – Chicken 650g",
+  "slug": "josicat-cat-dry-food-chicken-650g",
+  "sku": "JCJC01",
+  "onSale": false,
+  "price": 8.5,
+  "regularPrice": 8.5,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/JOSICAT-CHICKEN-650G.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josicat-cat-dry-food-chicken-650g/",
+  "shortDescription": "Give your cat a delicious and balanced daily meal with JosiCat Crunchy Chicken Dry Cat Food a tasty crunchy recipe made with tender chicken for adult cats. Carefully formulated with essential nutrients, this complete dry cat food helps support your cat’s everyday health, vitality, and wellbeing.",
+  "description": "Made with quality poultry protein and balanced ingredients, JosiCat Crunchy Chicken delivers the delicious flavour cats love while providing important nutrients to support strong muscles, healthy bones, and overall condition. Key Benefits Complete dry food for adult cats Made with tasty chicken for irresistible flavour Balanced recipe with essential nutrients Supports healthy muscles and overall wellbeing Crunchy kibble texture cats enjoy Suitable for everyday feeding Ingredients Cereals, meat and animal derivatives (including dried poultry protein 25%, of which chicken 40%), vegetable derivatives, oils and fats, fish and fish derivatives, and minerals. Analytical Constituents Protein: 28.0% Fat Content: 9.0% Crude Fibre: 2.7% Crude Ash: 7.4% Calcium: 1.45% Phosphorus: 1.15% Feeding Guide Recommended daily feeding amounts: 2–3kg cat: 35–60g daily 3–4kg cat: 45–70g daily 4–5kg cat: 55–85g daily 5–7kg cat: 65–105g daily Adjust feeding amounts according to your cat’s activity level and any additional snacks provided. Always ensure fresh drinking water is available. Storage Instructions Store in a cool, dry place away from direct sunlight. Keep your cat happy and satisfied with JosiCat Crunchy Chicken Dry Cat Food the crunchy, nutritious everyday meal cats love. &nbsp;",
+  "images": [
+    {
+      "id": 89839,
+      "alt": "JosiCat Cat Dry Food – Chicken 650g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/JOSICAT-CHICKEN-650G.png",
+      "name": "JOSICAT CHICKEN 650G"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 1,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=89836",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.974Z",
+  "dateModified": "2026-06-23T09:15:51.974Z"
+}

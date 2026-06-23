@@ -1,0 +1,19 @@
+{
+  "id": 6,
+  "title": "Checkout",
+  "slug": "checkout",
+  "status": "publish",
+  "parent": 0,
+  "link": "https://petstore.co.ke/checkout/",
+  "date": "2026-06-23T12:00:00",
+  "modified": "2026-06-23T12:00:00",
+  "content": "<p>Complete your purchase by inputting billing details, choosing your delivery location inside Nairobi or other counties, and completing M-Pesa or Cash on Delivery options.</p>",
+  "excerpt": "Secure checkout page for processing your order.",
+  "featuredImage": null,
+  "seo": {
+    "title": "Checkout - PetStore Kenya",
+    "description": "Enter your delivery and payment details to complete your order.",
+    "canonical": "https://petstore.co.ke/checkout/",
+    "ogImage": null
+  }
+}

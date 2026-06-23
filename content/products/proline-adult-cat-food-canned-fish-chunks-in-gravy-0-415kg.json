@@ -1,0 +1,93 @@
+{
+  "id": 3990,
+  "name": "Proline Adult Cat Food Canned – Salmon Chunks in Gravy 0.4kg",
+  "slug": "proline-adult-cat-food-canned-fish-chunks-in-gravy-0-415kg",
+  "sku": "PCW003",
+  "onSale": true,
+  "price": 2.52,
+  "regularPrice": 3.15,
+  "salePrice": 2.52,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/11/Untitled-design-87.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 796,
+      "name": "Proline",
+      "slug": "proline"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/proline-adult-cat-food-canned-fish-chunks-in-gravy-0-415kg/",
+  "shortDescription": "Fully balanced all-natural wet cat food with salmon protein. Carefully formulated by cat nutritionists to meet the nutritional requirements of all adult cats.",
+  "description": "Real salmon chunks bathed in savory gravy deliver irresistible taste and appeal—even to fussy eaters. The moisture-rich formula (82% water content) not only hydrates but also delights their palate. NUTRIENT COMPONENTS Protein (min.) : 6.5% – ideal for adult maintenance Fat (min.) : 3.5% – for healthy energy levels Crude Ash : 2% – essential minerals Crude Fiber : 0.3% – gentle on digestion Moisture : 82% – supports hydration INGREDIENTS: Meat and animal derivatives, cereals, salmon and fish by-products (4% fish) minerals, vegetable by-products, sugar. MINERALS: Biotin, Taurine, Zinc, Manganese, Copper. VITAMINS: Vit. D3, Vit. E. Why Choose Proline Salmon Chunks? Holistic Health Combo : Both savory taste and nuanced nutrition in one can. Taurine-Rich : Supports heart health and strong vision. Premium Ingredients : Real protein, wholesome additives, no artificial fillers. Hydrating Formula : Helps maintain urinary tract health and fresh breath &nbsp;Feeding Guidelines (per adult cat, 4–5 kg): 1 can daily (adjust according to activity level) Tip : Mix with dry food or offer in multiple meals to encourage slower eating",
+  "images": [
+    {
+      "id": 56936,
+      "alt": "Proline Adult Cat Food Canned – Salmon Chunks in Gravy 0.4kg",
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/11/Untitled-design-87.png",
+      "name": "Untitled design (87)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 622,
+      "name": "canned food",
+      "slug": "canned-food"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 939,
+      "name": "On Sale Now",
+      "slug": "sale"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2461,
+      "name": "Proline",
+      "slug": "proline"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=1&#038;add-to-cart=3990",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.088Z",
+  "dateModified": "2026-06-23T09:15:51.088Z"
+}

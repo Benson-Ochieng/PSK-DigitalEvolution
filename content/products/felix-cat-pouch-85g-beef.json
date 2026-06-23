@@ -1,0 +1,83 @@
+{
+  "id": 57776,
+  "name": "Felix Cat Pouch 85g Beef",
+  "slug": "felix-cat-pouch-85g-beef",
+  "sku": "FCW006",
+  "onSale": false,
+  "price": 1.94,
+  "regularPrice": 1.94,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-8.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2412,
+      "name": "Felix",
+      "slug": "felix"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/felix-cat-pouch-85g-beef/",
+  "shortDescription": "FELIX Cat Pouch 85g with Beef &nbsp;a nutritionally balanced wet food made with tender meaty chunks in a rich, savory jelly . Specially formulated for adult cats, this meal provides essential vitamins, minerals, and Omega 6 fatty acids to support overall health, shiny fur, and vitality.",
+  "description": "Meat and animal derivatives, fish and fish derivatives (tuna 4%), minerals, various sugars. Nutrition &amp; Analytical Constituents • Moisture: 82.0% • Protein: 11.5% • Fat content: 2.5% • Crude ash: 2.5% • Crude fibre: 0.05% • Linoleic acid (Omega-6): 0.4% • ME value: 67 kcal/100g Nutritional Additives (per kg) • Vitamin A: 585 IU • Vitamin D3: 90 IU • Vitamin E: 13 IU • Iron (Fe): 20 mg • Iodine (I): 0.26 mg • Copper (Cu): 2.3 mg • Manganese (Mn): 4.0 mg • Zinc (Zn): 33 mg Feeding Guide For an average adult cat (4 kg), feed 3–4 pouches per day in at least 2 separate meals. Adjust feeding amounts to maintain a healthy body weight. Serve at room temperature with fresh, clean drinking water available at all times.",
+  "images": [
+    {
+      "id": 57778,
+      "alt": "Felix Cat Pouch 85g Beef",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-8.png",
+      "name": "Untitled design (8)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2437,
+      "name": "Felix",
+      "slug": "felix"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=57776",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.718Z",
+  "dateModified": "2026-06-23T09:15:51.718Z"
+}

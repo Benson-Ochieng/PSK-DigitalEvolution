@@ -1,0 +1,72 @@
+{
+  "id": 36969,
+  "name": "Pet Brush Double Sided",
+  "slug": "pet-brush-double-sided",
+  "sku": "PG0009",
+  "onSale": false,
+  "price": 6.5,
+  "regularPrice": 6.5,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/05/PG0009.png",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2361,
+      "name": "Brushes, Combs & Fur Removal Tools",
+      "slug": "brushes-combs-fur-removal-tools"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2360,
+      "name": "Dog Grooming & Cleaning",
+      "slug": "dog-grooming-cleaning-supplies"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/pet-brush-double-sided/",
+  "shortDescription": "Double Sided Pet Comb",
+  "description": "Non-slip and ergonomic designed handle is easy and comfortable to grip Suitable for long and short-haired dogs or cats Can be used to groom and massage pets for healthy hair, increasing blood circulation effectively and leaving your pets’ hair soft and shiny.",
+  "images": [
+    {
+      "id": 44536,
+      "alt": "Pet Brush Double Sided",
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/05/PG0009.png",
+      "name": "PG0009"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2098,
+      "name": "Grooming &amp; Tools",
+      "slug": "grooming-tools"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=3&#038;add-to-cart=36969",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.294Z",
+  "dateModified": "2026-06-23T09:15:51.294Z"
+}

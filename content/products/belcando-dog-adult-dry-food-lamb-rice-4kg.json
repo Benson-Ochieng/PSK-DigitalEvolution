@@ -1,0 +1,83 @@
+{
+  "id": 89958,
+  "name": "Belcando Dog Adult Dry Food – Lamb & Rice 4kg",
+  "slug": "belcando-dog-adult-dry-food-lamb-rice-4kg",
+  "sku": "LBDD002",
+  "onSale": false,
+  "price": 47,
+  "regularPrice": 47,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/Belcando-Adult-Dog-Lamb-Rice-4kg.png",
+  "categories": [
+    {
+      "id": 2408,
+      "name": "Belcando",
+      "slug": "belcando"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/belcando-dog-adult-dry-food-lamb-rice-4kg/",
+  "shortDescription": "BELCANDO Adult Lamb &amp; Rice is a high-quality dry dog food specially developed for adult dogs with normal activity levels and sensitive digestion. Made with fresh lamb and highly digestible rice, this balanced recipe delivers excellent taste while supporting digestive health, vitality, and overall wellbeing.",
+  "description": "The carefully selected ingredients provide optimal nutrition without common allergens such as wheat, soya, maize, and milk products, making it ideal for dogs with food sensitivities. Key Benefits Fresh lamb for exceptional flavour and easy digestion Rice-based recipe with highly digestible carbohydrates Probiotics help support healthy digestion and improve stool quality Chia seeds rich in omega-3 fatty acids for healthy skin and coat 75% animal protein ratio to support lean muscles and energy Supports healthy gut flora and overall wellbeing No wheat, soya, maize, or milk products Can be served dry or mixed with warm water for a delicious sauce effect Why Dogs Love It BELCANDO’s unique sauce effect creates an irresistible mealtime experience. Simply mix 3 parts dry food with 1 part warm water (40–50°C) to create a tasty coating around every kibble perfect for picky eaters. Main Ingredients Rice (40%) Fresh lamb meat, liver &amp; lung (30%) Poultry protein Lamb protein Chia seed (1.5%) Linseed Brewers’ yeast Herbs including chamomile, fennel &amp; nettle leaves Analytical Constituents Protein: 23% Fat Content: 12.5% Crude Ash: 7% Crude Fibre: 3.2% Calcium: 1.6% Phosphorus: 1% Moisture: 10% Suitable For Adult dogs with normal activity levels, especially dogs with sensitive stomachs or food sensitivities. Feeding Guide Adjust feeding amounts according to your dog’s weight, activity level, and body condition. Always ensure fresh drinking water is available. &nbsp;",
+  "images": [
+    {
+      "id": 89959,
+      "alt": "Belcando Dog Adult Dry Food – Lamb & Rice 4kg",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Belcando-Adult-Dog-Lamb-Rice-4kg.png",
+      "name": "Belcando Adult Dog Lamb &#038; Rice 4kg"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2426,
+      "name": "Belcando",
+      "slug": "belcando"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 4,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=89958",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.992Z",
+  "dateModified": "2026-06-23T09:15:51.992Z"
+}

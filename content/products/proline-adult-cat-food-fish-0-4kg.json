@@ -1,0 +1,93 @@
+{
+  "id": 37972,
+  "name": "Proline Adult Cat Food Fish 0.4kg",
+  "slug": "proline-adult-cat-food-fish-0-4kg",
+  "sku": "PCD014",
+  "onSale": false,
+  "price": 6.75,
+  "regularPrice": 6.75,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/06/Proline-Adult-Cat-Food-Fish-0.4kg.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 2167,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 796,
+      "name": "Proline",
+      "slug": "proline"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/proline-adult-cat-food-fish-0-4kg/",
+  "shortDescription": "Fully balanced all-natural cat food with fish protein. Carefully formulated by cat nutritionists to meet the nutritional requirements of all adult cats.",
+  "description": "Fully balanced all-natural cat food with fish protein. Carefully formulated by cat nutritionists to meet the nutritional requirements of all adult cats. It is our job to meet the needs of your lovely friends in the best way possible. We ensure that they live a comfortable life with rich foods full of vitamins and minerals that support their health and behavior. Healthy Skin and Shiny Coat Support for Intestinal Health Strong Immune System Healthy Skeleton and Teeth Complete and Balanced Organic Minerals CONTENTS: Processed animal protein, Wheat, Corn, Animal fat, Fish oil, Corn gluten, Processed Fish Protein (4%), Dried sugar beet, Fish flavor, Rice, Flaxseed, Dry brewer&#8217;s yeast, Salt, Taurine (3A370), Preservatives &#8211; antioxidants (E320 &amp; E321). MINERALS: Iron(3B103), Iodine (3B202), Copper(3B405), Manganese (3B502), Zinc(3B603), Selenium(3B802) VITAMINS: Vitamin A (3A672A), Vitamin D3 (3A671), Vitamin E (3A700), Vitamin C (3A300), Vitamin B1 (3A821), B2 (3A825i), B3 (Niacin-3A315), B6 ​​(3A831), B12 (3A).), B7 (Biotin-3A880), B9 (Folic Acid-3A316), Vitamin K3 (3A710), Choline (3A890), Calcium Pantothenate (3A841) NUTRIENT COMPONENTS NUTRITIONAL SUPPLEMENTS Crude Protein 31% Vitamin A (3A672A) 15000 IU/kg Raw oil 20% Vitamin D3(3A671) 1000 IU/kg Ash 8% Vitamin E (3A700) 150mg/kg Crude Cellulose (Fiber) 3% Vitamin C (3A300) 120mg/kg taurine 1000mg/kg",
+  "images": [
+    {
+      "id": 37973,
+      "alt": "Proline Adult Cat Food Fish 0.4kg",
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/06/Proline-Adult-Cat-Food-Fish-0.4kg.png",
+      "name": "Proline Adult Cat Food Fish 0.4kg"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 637,
+      "name": "kibble",
+      "slug": "kibble"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2461,
+      "name": "Proline",
+      "slug": "proline"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=3&#038;add-to-cart=37972",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.308Z",
+  "dateModified": "2026-06-23T09:15:51.308Z"
+}

@@ -1,0 +1,67 @@
+{
+  "id": 56454,
+  "name": "Breeders Choice Dogs Wild Venison Vege 400g",
+  "slug": "breeders-choice-dogs-wild-venison-vege-400g",
+  "sku": "BDWVV01",
+  "onSale": false,
+  "price": 2.85,
+  "regularPrice": 2.85,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Breeders-Choice-Venison.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2349,
+      "name": "Wet Dog Food",
+      "slug": "wet-dog-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/breeders-choice-dogs-wild-venison-vege-400g/",
+  "shortDescription": "Breeders Choice Wild Venison and Vegetables in Gravy Dog Food is a complete and balanced food for dogs.",
+  "description": "The amounts given are recommendations only, individual dog&#8217;s requirements will vary dependent upon breed, age and activity levels. Feed to maintain a lean active condition. Remember to introduce a new food gradually over 4 days or so, increasing the proportion of a new food daily. Always provide a supply of fresh, clean water for your dog. Feeding Guide Dog size &nbsp; &nbsp;Weight of Dog Daily feed 400g cans Small 5-12kg 1-2 Medium 12-25 2-3 1/2 Large 25-45kg 3 1/2 &#8211; 51/2 Giant 45 -70kg 51/2 &#8211; 7 3/4 Analytical Constituents Content Moisture 81% Crude Protein 6% Crude Fat 3% Crude Ash 2% Crude Fibre 0.5% Nutritional adjectives (per kg): Vitamin A 11100IU, Vitamin D3 150 IU, Vitamin E 10 mg, Manganese (manganese oxide)2 mg, Copper (copper II sulphate pentahydrate)1.4mg. (UI = International unit) Storage&nbsp; Please store in a cool dry place away from direct sunlight. Once opened, cover and store in the refrigerator and use within 24hours. Serve at room temperature. For best before &amp; batch code &#8211; see print on base of can.",
+  "images": [
+    {
+      "id": 56784,
+      "alt": "Breeders Choice Dogs Wild Venison Vege 400g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Breeders-Choice-Venison.png",
+      "name": "Breeders Choice Venison"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=56454",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.655Z",
+  "dateModified": "2026-06-23T09:15:51.655Z"
+}

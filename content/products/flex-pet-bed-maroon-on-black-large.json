@@ -1,0 +1,83 @@
+{
+  "id": 49216,
+  "name": "Flex Pet Bed Maroon On Black – Large",
+  "slug": "flex-pet-bed-maroon-on-black-large",
+  "sku": "FPBMBL",
+  "onSale": false,
+  "price": 62,
+  "regularPrice": 62,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/08/FLEX-PET-BED-MAROON.png",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2367,
+      "name": "Dog Beds & Furniture",
+      "slug": "dog-beds-furniture"
+    },
+    {
+      "id": 2264,
+      "name": "SF",
+      "slug": "flex-pet-bed"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/flex-pet-bed-maroon-on-black-large/",
+  "shortDescription": "The FLEX Pet Bed Maroon on Black – Large is tailored for pets that value both space and softness. Its well-padded interior offers a gentle, supportive feel that helps your pet rest comfortably through the day and night. The bold maroon top paired with a matte black base gives it a stylish, contemporary finish that suits any room. Built with durable, pet-friendly fabric , it stands up to everyday use while remaining easy to clean and maintain. Perfect for medium to large pets, this bed delivers comfort, quality, and modern appeal in one thoughtful design.",
+  "description": "Flex Pet Bed is a modern bed made to offer optimal comfort and convenience. It typically features a combination of materials and design elements aimed at enhancing your pet&#8217;s resting experience. The bed is designed to be soft yet supportive, providing a perfect balance between comfort and durability. Its lightweight construction makes it easy to move and reposition, while its washable feature ensures easy maintenance. Benefits &amp; Features 1. Softness : Comfort : Flex Pet Bed&#8217;s soft surface provides a plush and inviting place for pets to relax. This comfort is especially beneficial for pets with joint issues or those who enjoy a cushioned resting spot. Stress Relief : A soft bed may help alleviate stress and anxiety, giving pets a cozy retreat where they feel secure and comfortable. 2. Washability : Hygiene : Being washable, the bed is easier to clean, to maintain a fresh and sanitary environment for your pet. This is particularly useful for managing fur, dirt, and occasional accidents. Convenience : Machine-washable materials save time and effort compared to handwashing or spot-cleaning. This feature ensures that maintaining the bed’s cleanliness is hassle-free. 3. Lightweight : Portability : The lightweight design allows you to easily move the bed around your home, making it simple to reposition it according to your pet’s needs or your own convenience. Travel-Friendly : For pet owners who travel or frequently move their pets, a lightweight bed is easy to transport, providing a familiar and comfortable spot for pets even away from home. 4. Firm Feel : Durability : A firm structure ensures that the bed retains its shape over time, preventing sagging and providing consistent support. 5. Comfort : Temperature Regulation : Flex Pet Bed are designed with materials that help regulate temperature, keeping pets warm in cooler weather and cool during warmer months. Fit : Flex Pet Bed design often includes features like raised edges or contoured shapes, allowing pets to nestle in comfortably and feel secure. Overall, Flex Pet Bed with these features offers a combination of softness, ease of maintenance, lightweight portability, firm support, and comfort, making it an excellent choice for providing your dog or cat with a cozy and practical resting place.",
+  "images": [
+    {
+      "id": 50106,
+      "alt": "Flex Pet Bed Maroon On Black – X Large",
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/08/FLEX-PET-BED-MAROON.png",
+      "name": "FLEX PET BED- MAROON"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2082,
+      "name": "Beds",
+      "slug": "beds"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2463,
+      "name": "SF",
+      "slug": "sf"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=5&#038;add-to-cart=49216",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.501Z",
+  "dateModified": "2026-06-23T09:15:51.501Z"
+}

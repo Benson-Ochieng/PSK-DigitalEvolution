@@ -1,0 +1,72 @@
+{
+  "id": 57803,
+  "name": "Snappy Tom Cat with Lamb 85g",
+  "slug": "snappy-tom-cat-with-lamb-85g",
+  "sku": "STCW006",
+  "onSale": false,
+  "price": 1.69,
+  "regularPrice": 1.69,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-18.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/snappy-tom-cat-with-lamb-85g/",
+  "shortDescription": "Snappy Tom CAT With Chicken 85g is a nutritionally balanced wet cat food made from chicken and vegetables, designed to maintain your cat’s health while providing energy for alertness and agility throughout the day",
+  "description": "Key Features Premium Main Ingredient – Grass-fed lamb provides a natural, high-quality protein source to support muscle maintenance and development. Nutrient-Rich – Lamb naturally contains vitamins and minerals that promote overall feline health and vitality. No By-Products – Made with natural fish and meat sources, complemented with omega oils for balanced nutrition. AAFCO Compliant – Meets the nutritional standards set by AAFCO to ensure your cat’s diet is complete and balanced. Nutritional Benefits Promotes strong muscles and healthy body condition through high-quality protein. Omega oils support healthy skin and a glossy coat. Naturally balanced nutrition for everyday vitality. Feeding Guidelines Adjust feeding amounts based on your cat’s weight and activity level. Divide daily portions into two or more meals. Cat Weight Daily Feeding Amount 0.5 – 1.0 kg 110g – 190g 1.0 – 3.0 kg 190g – 440g 3.0 – 4.0 kg 440g – 540g 4.0 kg + 540g +",
+  "images": [
+    {
+      "id": 57804,
+      "alt": "Snappy Tom Cat with Lamb 85g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-18.png",
+      "name": "Untitled design (18)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=57803",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.732Z",
+  "dateModified": "2026-06-23T09:15:51.732Z"
+}

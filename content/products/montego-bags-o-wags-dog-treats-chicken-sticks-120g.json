@@ -1,0 +1,83 @@
+{
+  "id": 60240,
+  "name": "Montego Bags O' Wags Dog Treats – Chicken Sticks 120g",
+  "slug": "montego-bags-o-wags-dog-treats-chicken-sticks-120g",
+  "sku": "MBWCS120",
+  "onSale": false,
+  "price": 4.8,
+  "regularPrice": 4.8,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/09/Montego-Bags-O-Wags-Dog-Treats-–-Chicken-Sticks-120g.png",
+  "categories": [
+    {
+      "id": 2380,
+      "name": "Bags-o-wags",
+      "slug": "bags-o-wags"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 2298,
+      "name": "Montego",
+      "slug": "montego"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/montego-bags-o-wags-dog-treats-chicken-sticks-120g/",
+  "shortDescription": "Delight your dog with the savory taste of&nbsp; Bags O’ Wags Chewies Chicken Sticks Dog Treats . These flavorful chicken sticks are perfect for rewarding your furry friend during training, as a snack between meals, or simply as a way to show your love. Not suitable for puppies.&nbsp;",
+  "description": "Montego BAGS O’ WAGS Chicken Bars are deliciously chewy treats made with high-quality ingredients, perfect for adult dogs who deserve something extra special. Whether used as a daily reward, training treat, or a between-meal snack, these bars are sure to satisfy. Formulated for maximum taste and nutrition , Chicken Bars help support your dog’s energy and vitality. Ideal for reinforcing good behaviour, boosting training sessions, or simply sharing a joyful moment. Key Benefits Highly palatable: Dogs love the rich beef aroma and chewy texture. Nutritious: Provides quality protein and energy for active pets. Training aid: Perfect for positive reinforcement and good behaviour. Daily snack: A tasty, wholesome treat without overfeeding. Ingredients Corn starch, chicken meal, water, glycerine, propylene glycol, sugars, wheat gluten, spray-‎dried animal plasma, poultry fat, sodium phosphates, fish oil.‎ ADDITIVES (/kg): &nbsp;SENSORY: Palatability meat-based enhancers with chicken aroma, caramel colourant; PRESERVATIVES: &nbsp;Potassium sorbate. Free from: artificial sugars, soy, eggs, dairy, and meat-based fillers. Nutritional Information Nutrient Amount Crude Protein 20% Total Fat 5% Crude Fibre 1% Moisture 18.5% Calcium 1% Phosphorus 0.8% Sugars 3% Metabolizable Energy 330 kcal/100 g These treats are intended as a snack and not a complete diet. Always provide fresh water.",
+  "images": [
+    {
+      "id": 60981,
+      "alt": "Montego Bags O’ Wags Dog Treats – Chicken Sticks 120g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/09/Montego-Bags-O-Wags-Dog-Treats-–-Chicken-Sticks-120g.png",
+      "name": "Montego Bags O’ Wags Dog Treats – Chicken Sticks 120g"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2425,
+      "name": "Bags-o-wags",
+      "slug": "bags-o-wags"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=60240",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.758Z",
+  "dateModified": "2026-06-23T09:15:51.758Z"
+}

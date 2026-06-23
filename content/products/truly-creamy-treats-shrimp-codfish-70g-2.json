@@ -1,0 +1,72 @@
+{
+  "id": 54706,
+  "name": "Truly Creamy Treats Shrimp & Codfish 70g",
+  "slug": "truly-creamy-treats-shrimp-codfish-70g-2",
+  "sku": "TCTSC70G",
+  "onSale": false,
+  "price": 4.1,
+  "regularPrice": 4.1,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/04/Truly-Creamy-Treats-Shrimp-Codfish-70g.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2330,
+      "name": "Cat Treats",
+      "slug": "cat-treats"
+    },
+    {
+      "id": 2403,
+      "name": "Kitten Treats",
+      "slug": "kitten-treats"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/truly-creamy-treats-shrimp-codfish-70g-2/",
+  "shortDescription": "Treat your cat to Truly Creamy Treats Shimp &amp; Codfish and give them a snack that not only tastes great but also supports their health. Your furry friend will thank you with purrs and cuddles!",
+  "description": "A deliciously smooth and creamy treat your cat will love! Made with real shrimp and codfish, this 70g pouch is perfect as a topper, snack, or bonding reward. High in protein and irresistibly tasty — because your feline deserves the best.",
+  "images": [
+    {
+      "id": 54707,
+      "alt": "Truly Creamy Treats Shrimp & Codfish 70g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/04/Truly-Creamy-Treats-Shrimp-Codfish-70g.png",
+      "name": "Truly Creamy Treats Shrimp &amp; Codfish 70g"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=54706",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.623Z",
+  "dateModified": "2026-06-23T09:15:51.623Z"
+}

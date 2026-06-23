@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "Home",
+    "slug": "home",
+    "link": "https://petstore.co.ke/",
+    "parent": 0
+  },
+  {
+    "id": 2,
+    "title": "Shop",
+    "slug": "shop",
+    "link": "https://petstore.co.ke/shop/",
+    "parent": 0
+  },
+  {
+    "id": 3,
+    "title": "Flash Sale",
+    "slug": "flash-sale",
+    "link": "https://petstore.co.ke/flash-sale/",
+    "parent": 0
+  },
+  {
+    "id": 4,
+    "title": "My Account",
+    "slug": "my-account",
+    "link": "https://petstore.co.ke/my-account/",
+    "parent": 0
+  },
+  {
+    "id": 5,
+    "title": "Cart",
+    "slug": "cart",
+    "link": "https://petstore.co.ke/cart/",
+    "parent": 0
+  },
+  {
+    "id": 6,
+    "title": "Checkout",
+    "slug": "checkout",
+    "link": "https://petstore.co.ke/checkout/",
+    "parent": 0
+  },
+  {
+    "id": 7,
+    "title": "Trust & Safety",
+    "slug": "trust",
+    "link": "https://petstore.co.ke/trust/",
+    "parent": 0
+  },
+  {
+    "id": 8,
+    "title": "Why Choose Us",
+    "slug": "why-us",
+    "link": "https://petstore.co.ke/why-us/",
+    "parent": 0
+  },
+  {
+    "id": 9,
+    "title": "Sustainability",
+    "slug": "sustainability",
+    "link": "https://petstore.co.ke/sustainability/",
+    "parent": 0
+  }
+]

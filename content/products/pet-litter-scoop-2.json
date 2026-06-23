@@ -1,0 +1,92 @@
+{
+  "id": 44531,
+  "name": "Pet Litter Scoop Blue",
+  "slug": "pet-litter-scoop-2",
+  "sku": "PG067",
+  "onSale": false,
+  "price": 3.2,
+  "regularPrice": 3.2,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/02/pet-litter-scoop.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2343,
+      "name": "Cat Grooming",
+      "slug": "cat-grooming"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2360,
+      "name": "Dog Grooming & Cleaning",
+      "slug": "dog-grooming-cleaning-supplies"
+    },
+    {
+      "id": 2393,
+      "name": "Dog Hygiene & Potty Solutions",
+      "slug": "dog-hygiene-potty-solutions"
+    },
+    {
+      "id": 2096,
+      "name": "Generic",
+      "slug": "generic"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/pet-litter-scoop-2/",
+  "shortDescription": "Cat Litter Scooper Blue (Large)",
+  "description": "This cat litter scooper is portable, light weight and durable. Flat, thin, &amp; sharp leading edge sits flush against your cat litter box floor to scoop underneath cat litter, rather than into clumped litter. Faster sifting. High walls on this litter scoop prevent scatter. Comfortable, ergonomic &amp; longer type handle",
+  "images": [
+    {
+      "id": 44530,
+      "alt": "Pet Litter Scoop Blue",
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/02/pet-litter-scoop.png",
+      "name": "pet litter scoop"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2098,
+      "name": "Grooming &amp; Tools",
+      "slug": "grooming-tools"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=44531",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.367Z",
+  "dateModified": "2026-06-23T09:15:51.367Z"
+}

@@ -1,0 +1,83 @@
+{
+  "id": 89805,
+  "name": "Pedigree Dog Treats Biscuits – Biscrok Multi Mix 500g",
+  "slug": "pedigree-dog-treats-biscuits-biscrok-multi-mix-500g",
+  "sku": "PDT002",
+  "onSale": false,
+  "price": 9.45,
+  "regularPrice": 9.45,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/Pedigree-Biscrok-Biscuits-Multi-Mix-Dog-Treats-500g.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 2400,
+      "name": "Pedigree",
+      "slug": "pedigree"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/pedigree-dog-treats-biscuits-biscrok-multi-mix-500g/",
+  "shortDescription": "Reward your dog with the delicious crunch of Pedigree Biscrok Dog Treat Biscuits — tasty bone-shaped biscuits specially made for dogs of all breeds and sizes. Perfect for training, rewarding good behavior, or simply treating your furry friend between meals, these crunchy dog biscuits come in three irresistible flavors: chicken, beef, and lamb.",
+  "description": "Made with carefully selected ingredients, Pedigree Biscrok biscuits are enriched with omega-3 fatty acids to help support healthy skin and a shiny coat. They also contain essential vitamins and minerals that help support your dog’s immune system and overall wellbeing. Key Benefits Crunchy bone-shaped dog biscuits for everyday rewards Includes 3 delicious flavors: chicken, beef, and lamb Ideal for training, treating, or snacking between meals Enriched with omega-3 for healthy skin and a shiny coat Contains essential vitamins and minerals for immune support Suitable for dogs of all breeds and sizes No artificial colours or artificial flavours Why Choose Pedigree Biscrok? Pedigree Biscrok treats combine great taste with nutritional benefits, making them a guilt-free way to reward your dog daily. The crunchy texture also helps encourage chewing while keeping snack time exciting with multiple flavors in every pack. Feeding Guide Feed as a treat or reward as part of a balanced diet. Always ensure fresh, clean drinking water is available. Storage Instructions Store in a cool, dry place and reseal after opening to maintain freshness. Treat your dog to the crunchy goodness of Pedigree Biscrok Dog Treat Biscuits and make every reward moment extra special. &nbsp;",
+  "images": [
+    {
+      "id": 89807,
+      "alt": "Pedigree Dog Treats Biscuits – Biscrok Multi Mix 500g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Pedigree-Biscrok-Biscuits-Multi-Mix-Dog-Treats-500g.png",
+      "name": "Pedigree Biscrok Biscuits Multi Mix Dog Treats 500g"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2456,
+      "name": "Pedigree",
+      "slug": "pedigree"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=89805",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.972Z",
+  "dateModified": "2026-06-23T09:15:51.972Z"
+}

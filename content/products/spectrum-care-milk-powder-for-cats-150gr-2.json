@@ -1,0 +1,88 @@
+{
+  "id": 51483,
+  "name": "Spectrum Care Milk Powder For Cats (Kitten Milk) 150g",
+  "slug": "spectrum-care-milk-powder-for-cats-150gr-2",
+  "sku": "SCS001",
+  "onSale": false,
+  "price": 15,
+  "regularPrice": 15,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/11/SPECTRUM-CARE-MILK-POWDER-FOR-CATS-150GR.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2337,
+      "name": "Cat Healthcare Supplies",
+      "slug": "cat-healthcare"
+    },
+    {
+      "id": 2145,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 180,
+      "name": "Spectrum",
+      "slug": "spectrum"
+    },
+    {
+      "id": 2402,
+      "name": "Supplements",
+      "slug": "cat-supplements"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/spectrum-care-milk-powder-for-cats-150gr-2/",
+  "shortDescription": "Recommended for kittens from 1 to 90 days old. Vitamin, mineral and protein amounts in it are suitable to be used as complementary feed during pregnancy and lactation period. It could also be used instead of breast milk for the protein, vitamin, mineral and fat needs of early kittens.",
+  "description": "It is produced for kittens separated from their mother at an early age. It is powdered milk feed that helps meet the needs of orphans. Recommended for kittens from 1 to 90 days old. Vitamin, mineral and protein amounts in it are suitable to be used as complementary feed during pregnancy and lactation period. It can also be used instead of breast milk for the protein, vitamin, mineral and fat needs of early kittens. Inactive Ingredient Milk Powder, Whey Protein, Starch, Fructo Oligo Saccharide, Rice Flour. Nutrient components Protein 10.60% Fat Content 4.90% Crude Fiber 3% Crude Ash 4.30% Moisture 9.90% Nutritional Recommendations and warnings 100 ml. add 2 full of medical spoon Milk Powder for Cats to (half a glass of water) warm water and consume after it is fully mixed. You can use it by preparing a new mixture every 4 hours. Each prepared mixture should be consumed within 45 minutes.",
+  "images": [
+    {
+      "id": 51485,
+      "alt": "Spectrum Care Milk Powder For Cats (Kitten Milk) 150g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/11/SPECTRUM-CARE-MILK-POWDER-FOR-CATS-150GR.png",
+      "name": "SPECTRUM CARE MILK POWDER FOR CATS 150GR"
+    }
+  ],
+  "tags": [
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 2271,
+      "name": "milk powder",
+      "slug": "milk-powder"
+    },
+    {
+      "id": 2085,
+      "name": "Supplements",
+      "slug": "supplements"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2468,
+      "name": "Spectrum",
+      "slug": "spectrum"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=5&#038;add-to-cart=51483",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.544Z",
+  "dateModified": "2026-06-23T09:15:51.544Z"
+}

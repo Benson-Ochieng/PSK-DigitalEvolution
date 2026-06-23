@@ -1,0 +1,67 @@
+{
+  "id": 54692,
+  "name": "Truly Tuna Stick For Cat 50G",
+  "slug": "truly-tuna-stick-for-cat-50g-2",
+  "sku": "TTSC50G",
+  "onSale": false,
+  "price": 2.6,
+  "regularPrice": 2.6,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/04/Truly-Tuna-Stick-For-Cats-50g.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2330,
+      "name": "Cat Treats",
+      "slug": "cat-treats"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/truly-tuna-stick-for-cat-50g-2/",
+  "shortDescription": "Treat your cat to Truly Tuna Stick Treats and give them a delightful snack they will crave. With these tasty sticks, your furry companion will be purring with joy!",
+  "description": "Pamper your cat with Truly Tuna Stick Treats! These savory sticks are packed with the delicious flavor of tuna that your feline friend will adore. Perfectly sized for snacking, these 50g treats are a great way to reward your cat or simply show them some love during the day. Key Features: Irresistible Tuna Flavor: Made with real tuna, these treats are sure to satisfy your cat’s taste buds. Convenient Size: Comes in a 50g package, making it easy to store and serve. Perfect for Snacking: Ideal for rewarding good behavior or as a tasty snack between meals. Suitable for All Cats: Great for cats of all ages, ensuring they all enjoy the tasty goodness. Treat your cat to Truly Tuna Stick Treats and give them a delightful snack they will crave. With these tasty sticks, your furry companion will be purring with joy!",
+  "images": [
+    {
+      "id": 54722,
+      "alt": "Truly Tuna Stick For Cat 50G",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/04/Truly-Tuna-Stick-For-Cats-50g.png",
+      "name": "Truly Tuna Stick For Cats 50g"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=54692",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.620Z",
+  "dateModified": "2026-06-23T09:15:51.620Z"
+}

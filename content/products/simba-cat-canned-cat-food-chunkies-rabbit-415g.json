@@ -1,0 +1,83 @@
+{
+  "id": 90294,
+  "name": "Simba Cat Canned Cat Food Chunkies – Rabbit 415g",
+  "slug": "simba-cat-canned-cat-food-chunkies-rabbit-415g",
+  "sku": "LSWC012",
+  "onSale": false,
+  "price": 2.51,
+  "regularPrice": 2.51,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Canned-Cat-Chunkies-With-Rabbit-415G.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2411,
+      "name": "Simba",
+      "slug": "simba"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/simba-cat-canned-cat-food-chunkies-rabbit-415g/",
+  "shortDescription": "Treat your cat to a delicious and nutritious meal with Simba Cat Chunkies in Gravy Rabbit. This complete wet cat food for adult cats is made with quality ingredients, including rabbit, a natural source of protein and minerals that help support overall health and vitality.",
+  "description": "Featuring tender chunks in a rich, savoury gravy, this appetising recipe is oven-baked to enhance its natural flavour and aroma, helping to stimulate your cat’s appetite. The balanced formula provides essential nutrients for everyday wellbeing while delivering a taste cats love. Made without added colours or preservatives, Simba Cat Chunkies in Gravy Rabbit is an ideal choice for daily feeding and supports a healthy, active lifestyle. Key Benefits Complete and balanced wet food for adult cats Made with rabbit, a source of protein and minerals Tender chunks in savoury gravy for enhanced palatability Supports muscle maintenance and daily vitality Oven-baked to enhance natural flavour No added colours or preservatives Suitable for everyday feeding Delicious taste cats love Feeding Guide Serve according to your cat’s age, weight, and activity level. Always provide fresh, clean drinking water. Storage Store in a cool, dry place. Once opened, refrigerate and consume within 2 days. Size: 415g &nbsp;",
+  "images": [
+    {
+      "id": 90296,
+      "alt": "Simba Cat Canned Cat Food Chunkies – Rabbit 415g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Canned-Cat-Chunkies-With-Rabbit-415G.png",
+      "name": "Simba Canned Cat Chunkies With Rabbit 415G"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2464,
+      "name": "Simba",
+      "slug": "simba"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=90294",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:52.046Z",
+  "dateModified": "2026-06-23T09:15:52.046Z"
+}

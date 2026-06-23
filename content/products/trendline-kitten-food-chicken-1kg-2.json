@@ -1,0 +1,83 @@
+{
+  "id": 54629,
+  "name": "Trendline Kitten Food Chicken 1kg",
+  "slug": "trendline-kitten-food-chicken-1kg-2",
+  "sku": "TCD004",
+  "onSale": false,
+  "price": 9.75,
+  "regularPrice": 9.75,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/04/Trendline-Kitten-Food-Chicken-1kg.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2329,
+      "name": "Kitten Food",
+      "slug": "kitten-food"
+    },
+    {
+      "id": 1125,
+      "name": "Trendline",
+      "slug": "trendline"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/trendline-kitten-food-chicken-1kg-2/",
+  "shortDescription": "Fully balanced all-natural kitten food with chicken protein, brewer’s yeast for immune support, Omega-3 and -6 from flaxseed and taurine. Carefully formulated by cat nutritionists to meet the nutritional requirements of all kittens.",
+  "description": "Trendline Kitten Food -Chicken , fully balanced all-natural cat food with chicken protein, brewer&#8217;s yeast for immune support, Omega-3 and -6 from flaxseed and taurine. Carefully formulated by cat nutritionists to meet the nutritional requirements of all adult cats. NUTRIENT COMPONENTS Protein&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;.27% Fat &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;10% Crude Ash &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230; 8% Crude Cellulose (Fiber)&#8230;&#8230;. 3% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Corn Gluten, Dried Sugar Beet, Liver Aroma, Salt, Flaxseed, Dried Brewer&#8217;s Yeast, Taurine. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 &#8211; B2 &#8211; B3 (niacin) &#8211; B6 &#8211; B12 &#8211; B7 (biotin) &#8211; B9 (folic acid), Vit. K, Choline, Calcium Pantotetan. Why Choose Trendline Kitten Chicken? 27% Chicken Protein – fuels muscle growth and playful energy. 10% Healthy Fats – support brain development and a silky coat. Brewer’s Yeast – enhances immunity and supports digestion. Omega-3 &amp; -6 Fatty Acids – for skin health and reduced shedding. Taurine Added – critical for healthy heart and eyesight development. Feeding Guide Provide the recommended daily portion based on your kitten’s age and weight. Always ensure fresh water is available.",
+  "images": [
+    {
+      "id": 54630,
+      "alt": "Trendline Kitten Food Chicken 1kg",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/04/Trendline-Kitten-Food-Chicken-1kg.png",
+      "name": "Trendline Kitten Food Chicken 1kg"
+    }
+  ],
+  "tags": [
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 637,
+      "name": "kibble",
+      "slug": "kibble"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2471,
+      "name": "Trendline",
+      "slug": "trendline"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=54629",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.618Z",
+  "dateModified": "2026-06-23T09:15:51.618Z"
+}

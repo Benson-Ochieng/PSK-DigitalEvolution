@@ -1,0 +1,83 @@
+{
+  "id": 254,
+  "name": "Bonnie Adult Dog Food – Beef 15kg",
+  "slug": "bonnie-adult-dog-food-beef-15kg",
+  "sku": "BDD001",
+  "onSale": false,
+  "price": 65.7,
+  "regularPrice": 65.7,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2017/07/Bonnie-Adult-Dog-Beef-min.png",
+  "categories": [
+    {
+      "id": 177,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/bonnie-adult-dog-food-beef-15kg/",
+  "shortDescription": "Bonnie Beef Adult Dog food , full-balanced, beef protein-containing all-natural dog food carefully formulated by a dog nutritionist to meet the nutritional requirements of all adult breeds. Beef meal has been used as animal protein source. The balance of omega 3 &amp; 6 is provided by using flaxseed . Yucca plant provides ammonia and Oduor control, increase absorption of nutrients, strengthens the immune system and optimizes animal growth and performance. A good intestinal health and performance is provided by CitriStim which is a source of pathogen-binding manna oligosaccharide , immune provide beta-glucans and immune-supportive yeast. Healthy skin and shiny coat are supported by using brewer&#8217;s yeast . Muscles, organs and nerve cells are supported, and the immune system strengthened by using whey powder . Rich vitamin contents. NUTRIENT COMPONENTS Protein &#8230;&#8230;&#8230;&#8230;&#8230;&#8230; 18% Fat &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;..7% Crude Ash&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;.8% Crude Cellulose (Fiber)&#8230; 4% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Wheat Middlings, Corn Gluten, Dried Sugar Beet, Liver Aroma, Salt, Flaxseed, Dried Brewer&#8217;s Yeast. MINERALS: Calcium, Phosphorus, Sodium, Ionide, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 &#8211; B2 &#8211; B3 (niacin) &#8211; B6 &#8211; B12 &#8211; B7 (biotin) &#8211; B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
+  "description": "Bonnie Beef Adult Dog food , full-balanced, beef protein-containing all-natural dog food carefully formulated by a dog nutritionist to meet the nutritional requirements of all adult breeds. Beef meal has been used as animal protein source. The balance of omega 3 &amp; 6 is provided by using flaxseed . Yucca plant provides ammonia and Oduor control, increase absorption of nutrients, strengthens the immune system and optimizes animal growth and performance. A good intestinal health and performance is provided by CitriStim which is a source of pathogen-binding manna oligosaccharide , immune provide beta-glucans and immune-supportive yeast. Healthy skin and shiny coat are supported by using brewer&#8217;s yeast . Muscles, organs and nerve cells are supported, and the immune system strengthened by using whey powder . Rich vitamin contents. NUTRIENT COMPONENTS Protein &#8230;&#8230;&#8230;&#8230;&#8230;&#8230; 18% Fat &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;..7% Crude Ash&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;.8% Crude Cellulose (Fiber)&#8230; 4% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Wheat Middlings, Corn Gluten, Dried Sugar Beet, Liver Aroma, Salt, Flaxseed, Dried Brewer&#8217;s Yeast. MINERALS: Calcium, Phosphorus, Sodium, Ionide, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 &#8211; B2 &#8211; B3 (niacin) &#8211; B6 &#8211; B12 &#8211; B7 (biotin) &#8211; B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
+  "images": [
+    {
+      "id": 663,
+      "alt": "Bonnie Adult Dog Beef min",
+      "src": "https://petstore.co.ke/wp-content/uploads/2017/07/Bonnie-Adult-Dog-Beef-min.png",
+      "name": "Bonnie Adult Dog Beef min"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 637,
+      "name": "kibble",
+      "slug": "kibble"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2428,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=1&#038;add-to-cart=254",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.031Z",
+  "dateModified": "2026-06-23T09:15:51.032Z"
+}

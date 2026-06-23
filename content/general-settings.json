@@ -1,0 +1,17 @@
+{
+  "siteTitle": "PetStore Kenya",
+  "tagline": "We Love Them as Much as You Do!",
+  "siteIcon": "/images/psk_logo.png",
+  "wpAddressUrl": "https://petstore.co.ke",
+  "siteAddressUrl": "/",
+  "adminEmail": "admin@petstore.co.ke",
+  "anyoneCanRegister": false,
+  "defaultRole": "subscriber",
+  "siteLanguage": "en_US",
+  "timezone": "UTC+3",
+  "dateFormat": "F j, Y",
+  "dateFormatCustom": "",
+  "timeFormat": "g:i a",
+  "timeFormatCustom": "",
+  "weekStartsOn": "Monday"
+}

@@ -1,0 +1,78 @@
+{
+  "id": 23729,
+  "name": "JosiDog Adult Sensitive 15kg",
+  "slug": "josidog-adult-sensitive-18kg",
+  "sku": "JDJS",
+  "onSale": false,
+  "price": 109.79,
+  "regularPrice": 109.79,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JosiDog-Adult-Sensitive-15kg-1.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josidog-adult-sensitive-18kg/",
+  "shortDescription": "This appetising dog food is easily digestible for Sensitive &amp; Delicate Digestive tracts of Dogs. A good source of nutrients thanks to its balanced, Gluten-Free recipe for extra special care to help dogs with Sensitive Stomachs. With Taurine that supports heart function, a high level of valuable antioxidants that help the cells to fight off free radicals, Prebiotics and Inulin for healthy gut flora.",
+  "description": "Composition: Dried poultry protein; rice; whole grain corn; poultry fat; beet fibre; hydrolysed poultry protein; minerals; ground chicory root (natural source of inulin); dried meat from the New Zealand green-lipped mussel (Perna canaliculus) Product Details: This appetising dog food is easily digestible for Sensitive &amp; Delicate Digestive tracts of Dogs. A good source of nutrients thanks to its balanced, Gluten-Free recipe for extra special care to help dogs with Sensitive Stomachs. With Taurine that supports heart function, a high level of valuable antioxidants that help the cells to fight off free radicals, Prebiotics and Inulin for healthy gut flora.",
+  "images": [
+    {
+      "id": 89073,
+      "alt": "JosiDog Adult Sensitive 15kg",
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JosiDog-Adult-Sensitive-15kg-1.png",
+      "name": "JosiDog Adult Sensitive 15kg"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=2&#038;add-to-cart=23729",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.198Z",
+  "dateModified": "2026-06-23T09:15:51.198Z"
+}

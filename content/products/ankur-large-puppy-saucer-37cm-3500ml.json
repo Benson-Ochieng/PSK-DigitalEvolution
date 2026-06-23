@@ -1,0 +1,72 @@
+{
+  "id": 29379,
+  "name": "Ankur Large (Puppy) Saucer 37cm (3500ml)",
+  "slug": "ankur-large-puppy-saucer-37cm-3500ml",
+  "sku": "AEPSC-02",
+  "onSale": true,
+  "price": 26.55,
+  "regularPrice": 29.5,
+  "salePrice": 26.55,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-Large-Puppy-Saucer.png",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2041,
+      "name": "Ankur",
+      "slug": "ankur"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2366,
+      "name": "Dog Bowls & Feeders",
+      "slug": "dog-bowls-feeders"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/ankur-large-puppy-saucer-37cm-3500ml/",
+  "shortDescription": "The Ankur Large Saucer Bowl is the perfect feeding solution for your growing pet. With a spacious 37 cm diameter and a generous 3500 ml capacity, this bowl is designed to accommodate even the thirstiest of dogs",
+  "description": "The Ankur Large Puppy Saucer Bowl is the perfect feeding solution for your growing pup. With a spacious 37 cm diameter and a generous 3500 ml capacity, this bowl is designed to accommodate even the thirstiest of puppies. Key Features: Generous Size: Ideal for larger breeds or multiple pets, ensuring ample space for food or water. Durable Material: Made from high-quality, pet-safe materials for long-lasting use. Easy to Clean: Smooth surface makes it simple to rinse and maintain hygiene. Stylish Design: Sleek and modern look that complements any home decor. Keep your furry friend happy and well-fed with the Ankur Large Puppy Saucer Bowl!",
+  "images": [
+    {
+      "id": 29381,
+      "alt": "Ankur Large (Puppy) Saucer 37cm (3500ml)",
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-Large-Puppy-Saucer.png",
+      "name": "Ankur Large Puppy Saucer"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2072,
+      "name": "Bowls",
+      "slug": "bowls"
+    },
+    {
+      "id": 939,
+      "name": "On Sale Now",
+      "slug": "sale"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=3&#038;add-to-cart=29379",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.270Z",
+  "dateModified": "2026-06-23T09:15:51.270Z"
+}

@@ -1,0 +1,93 @@
+{
+  "id": 90123,
+  "name": "Pack Of 12 – Spectrum Gusto Lick Snack For Dog With Beef And Sweet Potato 4x15g",
+  "slug": "pack-of-12-spectrum-gusto-lick-snack-for-dog-with-beef-and-sweet-potato-4x15g",
+  "sku": "SDW002$12",
+  "onSale": true,
+  "price": 59.4,
+  "regularPrice": 66,
+  "salePrice": 59.4,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/SPECTRUM-BEEF-SNACK-.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 2404,
+      "name": "Puppy Treats",
+      "slug": "puppy-treats"
+    },
+    {
+      "id": 180,
+      "name": "Spectrum",
+      "slug": "spectrum"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/pack-of-12-spectrum-gusto-lick-snack-for-dog-with-beef-and-sweet-potato-4x15g/",
+  "shortDescription": "Spectrum Gusto Lick Snack Beef &amp; Sweet Potato is a creamy lickable dog treat made with real chicken, beef, and sweet potato, offering a low-fat, high-moisture reward for daily treating and bonding.",
+  "description": "Spectrum Gusto Lick Snack Beef &amp; Sweet Potato is a smooth, creamy lickable dog treat made with real chicken, flavorful beef, and nutritious sweet potato, designed to deliver a tasty reward in a light, easy-to-serve format. Its soft texture makes spoon-feeding simple and enjoyable, helping create positive bonding moments during daily routines. With 32% chicken and 4% beef , this lick snack provides high-quality animal protein to support muscle maintenance, while sweet potato (4%) adds natural carbohydrates and gentle fiber. The high moisture content helps support daily hydration, and the low-fat formulation makes it suitable for frequent treating when fed responsibly. Sunflower oil enhances palatability, while a carefully selected flavor enhancer made from chicken liver and heart digest boosts aroma and acceptance. Spectrum Gusto Lick Snack Beef &amp; Sweet Potato is ideal as a dessert, reward, or enrichment treat alongside a complete and balanced diet. Ingredients Water Chicken (32%) Tapioca starch Beef (4%) Sweet potato (4%) Sunflower oil Flavour enhancer (chicken liver &amp; heart digest, pea protein, salt) Nutritional Composition Crude Protein: 10% Crude Fat: 1.5% Crude Ash: 0.5% Crude Fibre: 0.1% Moisture: 80% Feeding Recommendations &amp; Warnings Treat calories should not exceed 10% of a dog’s total daily caloric intake Serve as a reward, dessert, or everyday treat Always provide fresh drinking water Not suitable for human consumption &nbsp; &nbsp; &nbsp;",
+  "images": [
+    {
+      "id": 69331,
+      "alt": "Spectrum Gusto Lick Snack For Dog With Beef And Sweet Potato 4x15g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/SPECTRUM-BEEF-SNACK-.png",
+      "name": "SPECTRUM BEEF SNACK"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2055,
+      "name": "Bulk Cat Food &amp; Bulk Dog Food",
+      "slug": "bulk"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2468,
+      "name": "Spectrum",
+      "slug": "spectrum"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=90123",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:52.034Z",
+  "dateModified": "2026-06-23T09:15:52.034Z"
+}

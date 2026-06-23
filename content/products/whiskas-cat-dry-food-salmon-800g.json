@@ -1,0 +1,78 @@
+{
+  "id": 89795,
+  "name": "Whiskas Cat Dry Food – Salmon 800g",
+  "slug": "whiskas-cat-dry-food-salmon-800g",
+  "sku": "WCD003",
+  "onSale": false,
+  "price": 13.5,
+  "regularPrice": 13.5,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Food-Salmon-800g-1.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 2382,
+      "name": "Whiskas",
+      "slug": "whiskas"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/whiskas-cat-dry-food-salmon-800g/",
+  "shortDescription": "Give your cat complete and balanced daily nutrition with Whiskas 1+ Salmon Adult Dry Cat Food 800g. Specially formulated for adult cats aged 1 year and above, this delicious salmon recipe is made with high-quality ingredients to support overall health, vitality, and wellbeing.",
+  "description": "Packed with essential vitamins and minerals, Whiskas Adult Salmon Dry Cat Food helps support healthy digestion, strong eyesight, a shiny coat, and urinary tract health. The crunchy kibble texture also helps encourage chewing while delivering the tasty salmon flavor cats love. Key Benefits Complete and balanced nutrition for adult cats aged 1+ years Made with delicious salmon for a tasty, protein-rich meal Supports urinary tract health with balanced minerals Enriched with Vitamin A for healthy vision and eye support Contains Zinc to promote healthy skin and a shiny coat Made using high-quality ingredients from trusted suppliers Sustainably sourced fish for responsible pet nutrition Why Choose Whiskas Salmon Adult Cat Food? Whiskas understands what cats naturally need to stay active and healthy. This adult dry cat food is carefully crafted to provide the right balance of nutrients, helping your cat maintain energy, strong immunity, and everyday wellbeing. Suitable For Adult cats aged 1 year and above All cat breeds Feeding Guide Serve according to your cat’s weight, age, and activity level. Ensure fresh, clean drinking water is always available. Storage Instructions Store in a cool, dry place away from direct sunlight. Reseal after opening to maintain freshness. Buy Whiskas 1+ Salmon Adult Dry Cat Food 800g online today and give your cat a nutritious, tasty meal made to keep them healthy, happy, and satisfied every day.",
+  "images": [
+    {
+      "id": 89796,
+      "alt": "Whiskas Cat Dry Food – Salmon 800g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Food-Salmon-800g-1.png",
+      "name": "Whiskas Cat Food Salmon 800g (1)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2480,
+      "name": "Whiskas",
+      "slug": "whiskas"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=89795",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.970Z",
+  "dateModified": "2026-06-23T09:15:51.970Z"
+}

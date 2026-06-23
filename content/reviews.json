@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "author": "John Doe",
+    "rating": 5,
+    "date": "2026-06-02",
+    "content": "Amazing display and very rich colors. Highly recommend!",
+    "product": "Vision Plus 55\" UHD Smart TV",
+    "approved": true
+  },
+  {
+    "id": 2,
+    "author": "Jane Smith",
+    "rating": 4,
+    "date": "2026-06-01",
+    "content": "Sound quality is very clear, but the remote could be more ergonomic.",
+    "product": "Vision Plus Soundbar",
+    "approved": true
+  },
+  {
+    "id": 3,
+    "author": "David Kipkorir",
+    "rating": 5,
+    "date": "2026-05-30",
+    "content": "Very comfortable, great bass response and long battery life.",
+    "product": "Cool Pods",
+    "approved": true
+  },
+  {
+    "id": 4,
+    "author": "Mary Wanjiku",
+    "rating": 5,
+    "date": "2026-05-28",
+    "content": "Perfect size for my bedroom. Picture is crystal clear.",
+    "product": "Vision Plus 32\" Digital TV",
+    "approved": true
+  },
+  {
+    "id": 5,
+    "author": "Peter Onyango",
+    "rating": 5,
+    "date": "2026-05-25",
+    "content": "Cooking is so fast now. Extremely solid cooker build.",
+    "product": "3 Gas + 1 Electric Cooker",
+    "approved": false
+  }
+]

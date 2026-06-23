@@ -1,0 +1,63 @@
+{
+  "id": 45750,
+  "name": "Grounded Toilet Cleaner 750ml",
+  "slug": "grounded-toilets-750ml",
+  "sku": "TOI-0.75-",
+  "onSale": false,
+  "price": 9.5,
+  "regularPrice": 9.5,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/Toilets-750ml-1.jpg",
+  "categories": [
+    {
+      "id": 2033,
+      "name": "Grounded",
+      "slug": "grounded"
+    },
+    {
+      "id": 2243,
+      "name": "Humans",
+      "slug": "human"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/grounded-toilets-750ml/",
+  "shortDescription": "Our concentrated gel will freshen any toilet. We recommend scrubbing and letting it sit while cleaning the rest of the bathroom, then flushing and finishing with Instant Disinfectant for any remaining nasties.",
+  "description": "Our concentrated gel will freshen any toilet. We recommend scrubbing and letting it sit while cleaning the rest of the bathroom, then flushing and finishing with Instant Disinfectant for any remaining nasties. For deep cleaning, use Scouring Powder for targeting hard water stains. Squeeze gently to make a ring around the bowl, near the rim. Scrub, let sit, scrub again, flush. Ingredients: Saponified Coconut, Canola, Sunflower Oils; Citric Acid, Borax, Sodium Bicarbonate, Tea Tree &amp; Eucalyptus Essential Oils.",
+  "images": [
+    {
+      "id": 45752,
+      "alt": "Grounded Toilet Cleaner 750ml",
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/04/Toilets-750ml-1.jpg",
+      "name": "Toilets-750ml-1"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2245,
+      "name": "Human",
+      "slug": "human"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2441,
+      "name": "Grounded",
+      "slug": "grounded"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=45750",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.373Z",
+  "dateModified": "2026-06-23T09:15:51.373Z"
+}

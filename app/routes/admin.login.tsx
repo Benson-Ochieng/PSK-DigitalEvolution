@@ -1,11 +1,14 @@
 import { data, redirect, Form, useActionData } from "react-router";
 import type { Route } from "./+types/admin.login";
+import { checkAdminBranch } from "../lib/sessions.server";
 
 export function meta(): Route.MetaDescriptors {
   return [{ title: "Admin Login — PetStore Kenya" }];
 }
 
 export async function loader({ request }: Route.LoaderArgs) {
+  checkAdminBranch();
+  
   // If already logged in, redirect to dashboard
   const cookieHeader = request.headers.get("Cookie") || "";
   const pinCookie = cookieHeader.split("; ").find(row => row.startsWith("admin_pin="));

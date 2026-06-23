@@ -1,0 +1,63 @@
+{
+  "id": 49065,
+  "name": "Grounded Body Bar Uplifting Eucalyptus & Aloe 150g",
+  "slug": "grounded-body-bar-uplifting-eucalyptus-aloe-150g",
+  "sku": "BBA015EUC",
+  "onSale": false,
+  "price": 4.2,
+  "regularPrice": 4.2,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/07/Body-Bar-Uplifting-EUCALYPTUS.jpg",
+  "categories": [
+    {
+      "id": 2033,
+      "name": "Grounded",
+      "slug": "grounded"
+    },
+    {
+      "id": 2243,
+      "name": "Humans",
+      "slug": "human"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/grounded-body-bar-uplifting-eucalyptus-aloe-150g/",
+  "shortDescription": "Boost your senses and embrace a nurturing experience with this body bar. Leaves your skin feeling hydrated and refreshed. Whether used for a luxurious body cleanse or as a hair-loving care, indulge in its versatile goodness.",
+  "description": "100% natural bathing bars for body and hair. Choose our original calming lavender, or our new activated charcoal mint, and uplifting aloe eucalyptus. Dry brush your body before a relaxing shower with which is a great exfoliator. The firm but gentle sisal bristles reveal healthier, smoother, and more radiant skin, after a session of dry brushing. Uplifting – with moringa, aloe, and eucalyptus essential oil &nbsp;",
+  "images": [
+    {
+      "id": 49067,
+      "alt": "Grounded Body Bar Uplifting Eucalyptus & Aloe 150g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/07/Body-Bar-Uplifting-EUCALYPTUS.jpg",
+      "name": "Body-Bar-Uplifting- EUCALYPTUS"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2245,
+      "name": "Human",
+      "slug": "human"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2441,
+      "name": "Grounded",
+      "slug": "grounded"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 4,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=5&#038;add-to-cart=49065",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.464Z",
+  "dateModified": "2026-06-23T09:15:51.464Z"
+}

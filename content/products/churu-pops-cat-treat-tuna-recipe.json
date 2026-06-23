@@ -1,0 +1,78 @@
+{
+  "id": 66427,
+  "name": "Churu Pops Cat Treat – Tuna Recipe",
+  "slug": "churu-pops-cat-treat-tuna-recipe",
+  "sku": "BCCT034",
+  "onSale": false,
+  "price": 3.5,
+  "regularPrice": 3.5,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/TUNA-POPUPs-1.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2330,
+      "name": "Cat Treats",
+      "slug": "cat-treats"
+    },
+    {
+      "id": 2386,
+      "name": "Churu",
+      "slug": "churu"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/churu-pops-cat-treat-tuna-recipe/",
+  "shortDescription": "Churu Pops Tuna Recipe Cat Treats – hydrating, low-calorie jelly treats with 91% moisture. Grain-free, preservative-free, and enriched with Vitamin E for a healthy, tasty snack.",
+  "description": "Give your cat a delicious, hydrating snack with Churu Pops Tuna Recipe . These soft jelly treats are crafted with 91% moisture , helping your cat stay healthy and hydrated while enjoying a savory, creamy flavor. Perfect for cats of all ages, from kittens to seniors, these low-calorie treats are a tasty way to reward your cat. Each tube contains only 6.5 calories and is made with wholesome ingredients including real tuna and natural flavors. Enriched with Vitamin E for immune support and green tea extract as a natural antioxidant, Churu Pops are a nutritious treat you can feel good about giving. The squeezable jelly format allows for interactive feeding straight from the tube , making snack time fun and engaging. These treats are grain-free, preservative-free, and contain no artificial colors . Key Features Hydrating jelly treats with 91% moisture Low-calorie – 6.5 kcal per tube Grain-free, preservative-free, and no artificial colors Soft, squeezable texture for feeding by hand Enriched with Vitamin E and green tea extract for health benefits Suitable for cats of all life stages Feeding Instructions Feed as a treat only. Not intended as a complete meal. Always provide clean, fresh water and consult your veterinarian regularly. Storage Instructions Refrigerate after opening and serve as soon as possible. Ingredients Water, Tuna, Natural Flavors, Agar-agar, Guar Gum, Natural Tuna Flavor, Xanthan Gum, Vitamin E Supplement, Green Tea Extract Guaranteed Analysis Crude Protein (min): 7.00% Crude Fat (min): 0.20% Crude Fiber (max): 0.30% Moisture (max): 91.00% Vitamin E (min): 310 IU/kg Calorie Content 430 kcal/kg | 6.5 kcal per tube (ME) Net Weight 2.16 oz (0.54 oz × 4 tubes) &nbsp;",
+  "images": [
+    {
+      "id": 66428,
+      "alt": "Churu Pops Cat Treat - Tuna Recipe",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/TUNA-POPUPs-1.png",
+      "name": "TUNA POPUPs (1)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2433,
+      "name": "Churu",
+      "slug": "churu"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=66427",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.821Z",
+  "dateModified": "2026-06-23T09:15:51.821Z"
+}

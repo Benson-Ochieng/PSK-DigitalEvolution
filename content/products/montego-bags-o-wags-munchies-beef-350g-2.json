@@ -1,0 +1,83 @@
+{
+  "id": 56603,
+  "name": "Montego Bags O' Wags Dog Treats – Munchies Beef 350g",
+  "slug": "montego-bags-o-wags-munchies-beef-350g-2",
+  "sku": "MBWMBF350",
+  "onSale": false,
+  "price": 7.25,
+  "regularPrice": 7.25,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Montego-Bags-O-Wags-Munchies-Beef-350g.png",
+  "categories": [
+    {
+      "id": 2380,
+      "name": "Bags-o-wags",
+      "slug": "bags-o-wags"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 2298,
+      "name": "Montego",
+      "slug": "montego"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/montego-bags-o-wags-munchies-beef-350g-2/",
+  "shortDescription": "Montego Bags O’ Wags Munchies Roast Beef are paw-shaped, crunchy biscuits crafted to reward good behaviour , serve as a training incentive , or provide a tasty between-meal snack . These treats complement both dry and wet dog food diets , offering a fun and nutritious addition to your dog’s daily routine. Not suitable for puppies.",
+  "description": "Treat your dog to the mouth-watering taste of Bags O’ Wags Munchies , deliciously paw-shaped biscuits packed with beefy goodness! These handcrafted treats are made in small batches using only the finest ingredients to ensure top quality, great taste, and a satisfying crunch. Perfect as a training reward or a special snack just because, Munchies are both nutritious and fun , the kind of treat dogs can’t wait to wag their tails for! Key Features: Roast Beef Flavour: Rich, savoury taste dogs love Paw-Shaped Biscuits: Fun to chew and easy to serve Handcrafted in Small Batches: Made with care and quality ingredients Ideal Training Treat: Nutritious and rewarding Suitable for all adult dogs Ingredients: Wheat and whole wheat flour, chicken meal, palm oil, milk powder (lactose reduced), brewer’s yeast, calcium carbonate, sugars and salt. ADDITIVES: &nbsp;SENSORY: Palatability meat-based enhancers, white colour and beef flavour; PRESERVATIVES: &nbsp;Potassium sorbate and sodium metabisulphite. Nutritional Information Nutrient Amount Crude Protein 18% Total Fat 12% Crude Fibre 2% Moisture 10% Omega-6 fatty acids 0.3% &nbsp;Metabolisable energy &nbsp;420 kcal/100g Make every treat time special with Bags O’ Wags Munchies &#8211; fun, flavour, and goodness in every bite!",
+  "images": [
+    {
+      "id": 61022,
+      "alt": "Montego Bags O’ Wags Dog Treats – Munchies Beef 350g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Montego-Bags-O-Wags-Munchies-Beef-350g.png",
+      "name": "Montego Bags O&#8217; Wags Munchies Beef &#8211; 350g"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2425,
+      "name": "Bags-o-wags",
+      "slug": "bags-o-wags"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 1,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=56603",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.663Z",
+  "dateModified": "2026-06-23T09:15:51.663Z"
+}

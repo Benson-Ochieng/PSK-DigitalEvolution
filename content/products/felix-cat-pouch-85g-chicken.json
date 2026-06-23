@@ -1,0 +1,83 @@
+{
+  "id": 57560,
+  "name": "Felix Cat Pouch 85g Chicken",
+  "slug": "felix-cat-pouch-85g-chicken",
+  "sku": "FCW004",
+  "onSale": false,
+  "price": 1.94,
+  "regularPrice": 1.94,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-2.png",
+  "categories": [
+    {
+      "id": 2412,
+      "name": "Felix",
+      "slug": "felix"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/felix-cat-pouch-85g-chicken/",
+  "shortDescription": "Satisfy your cat’s appetite with FELIX Chicken Cat Pouch 85g , featuring soft, meaty chicken pieces immersed in savory jelly . Formulated as a complete meal , it contains the perfect balance of nutrients, vitamins, minerals, and Omega-6 to maintain your cat’s overall health and vitality. Easy to serve and loved by cats, FELIX Chicken Pouch combines wholesome nutrition with irresistible flavor for happy, energetic cats every day.",
+  "description": "Felix with Chicken is the ultimate choice for discerning cats who demand both flavor and nutrition in their meals. Ingredients: Chicken and animal derivatives, vegetable protein extracts, minerals, various sugars. Analytical Constituents: Moisture: 82.0% Protein: 11.5% Fat content: 2.5% Crude ash: 2.5% Crude fibres: 0.05% Linoleic acid (Omega-6): 0.4% Metabolizable Energy: 67 kcal/100g Key Benefits: Made with juicy chicken pieces in tasty jelly Packed with essential vitamins, minerals, and Omega-6 for overall health and vitality 100% complete and balanced nutrition for adult cats Supports sterilized cats’ dietary needs Variety-packed range keeps mealtimes exciting Feeding Guide: For an average 4kg adult cat, feed 3–4 pouches per day split into 2 or more meals. Adjust as needed to maintain ideal weight. Serve at room temperature. Always provide fresh water.",
+  "images": [
+    {
+      "id": 57563,
+      "alt": "Felix Cat Pouch 85g Chicken",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-2.png",
+      "name": "Untitled design (2)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2437,
+      "name": "Felix",
+      "slug": "felix"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=57560",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.709Z",
+  "dateModified": "2026-06-23T09:15:51.709Z"
+}

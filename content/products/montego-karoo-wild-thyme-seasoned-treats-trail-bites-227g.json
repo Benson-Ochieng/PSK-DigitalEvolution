@@ -1,0 +1,88 @@
+{
+  "id": 69398,
+  "name": "Montego Karoo Wild Rosemary Seasoned Treats Trail Bites – 227g",
+  "slug": "montego-karoo-wild-thyme-seasoned-treats-trail-bites-227g",
+  "sku": "MKWRSTB227",
+  "onSale": false,
+  "price": 11.6,
+  "regularPrice": 11.6,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/Untitled-design-8.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 2389,
+      "name": "Karoo Wild",
+      "slug": "karoo-wild"
+    },
+    {
+      "id": 2298,
+      "name": "Montego",
+      "slug": "montego"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/montego-karoo-wild-thyme-seasoned-treats-trail-bites-227g/",
+  "shortDescription": "Training Bits are small, bite-sized treats specially crafted for training sessions or small-breed dogs. Made with carefully selected Mediterranean herbs, these treats are both flavourful and functional. Rosemary, known for its warm, aromatic fragrance, helps protect cells by neutralising free radicals.",
+  "description": "Trail Bites are the larger, square treats for bigger spoils or medium-breed dogs. In addition to its culinary appeal, oregano is abundant in antioxidants and adds a delightful earthy flavour to our treats. A Mediterranean herb with a warm spicy fragrance, rosemary is rich in antioxidants and can prevent cell damage by neutralising free radicals. Known for its delicate, dry scent, thyme contains phytonutrients, minerals and vitamins that promote overall health. Ingredients African Antelope Meat, Peas, Vegetable Glycerine, Tapioca Starch, Whole Egg Powder, Dried Sweet Potato, Animal Plasma, Inulin, Cellulose, Animal Fats, Salt, Natural Smokey Flavour, Dried Rosemary, Citric Acid, Fish Oil, Potassium Sorbate. Feeding Guide Feed only as a treat. Not a complete and balanced diet. Suitable for all dog breeds. Not suitable for puppies younger than six months. Ensure fresh water is available for your dog at all times. Guaranteed Analysis Crude Protein Min 20% Moisture Max 30% Total Fat Min 5% Crude Fibre Max 4% Omega-6 Fatty Acids Min 1% Omega-3 Fatty Acids Min 0.25% Metabolisable Energy 290 kcal/100 g &nbsp; &nbsp;",
+  "images": [
+    {
+      "id": 69400,
+      "alt": "Montego Karoo Wild Rosemary Seasoned Treats Trail Bites – 227g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/02/Untitled-design-8.png",
+      "name": "Untitled design (8)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2445,
+      "name": "Karoo Wild",
+      "slug": "karoo-wild"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=69398",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.897Z",
+  "dateModified": "2026-06-23T09:15:51.897Z"
+}

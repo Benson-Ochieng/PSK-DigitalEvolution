@@ -1,0 +1,83 @@
+{
+  "id": 89971,
+  "name": "Bewi Dog Basic Croc – 25KG",
+  "slug": "bewi-dog-basic-croc-25kg",
+  "sku": "LBDD009",
+  "onSale": false,
+  "price": 144.9,
+  "regularPrice": 144.9,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/bewi-basic-12.5kg.png",
+  "categories": [
+    {
+      "id": 2406,
+      "name": "Bewi",
+      "slug": "bewi"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/bewi-dog-basic-croc-25kg/",
+  "shortDescription": "Give your dog balanced daily nutrition with BEWI DOG Basic Adult Dog Food a premium complete meal specially formulated for adult dogs with normal activity levels. Made with high-quality poultry protein and a carefully balanced protein-to-fat ratio, this wholesome recipe supports strong muscles, healthy digestion, shiny coats, and overall wellbeing.",
+  "description": "The new wheat-free formula is enriched with brewers’ yeast and lecithin to naturally promote healthy skin and a glossy coat, while mannan oligosaccharides (MOS) help support digestive health and strengthen the immune system. Thanks to its high poultry content, BEWI DOG® Basic is highly digestible and suitable for everyday feeding. Key Benefits Made for adult dogs with normal activity levels 70% animal protein ratio to total protein Supports healthy skin and shiny fur with brewers’ yeast and lecithin MOS from brewers’ yeast promotes healthy digestion and immunity Highly digestible recipe with quality poultry protein Balanced nutrition with 23.5% protein and 11% fat Wheat-free and soy-free recipe No artificial colours, flavours, or preservatives Preserved with natural antioxidants Quality Ingredients Crafted with carefully selected ingredients including maize, poultry protein (18%), barley, poultry fat, fish meal, dried beet pulp, brewers’ yeast, and hydrolysed poultry liver to provide complete and delicious nutrition your dog will love. Feeding Guide Daily feeding amounts vary depending on your dog’s adult weight: 3kg – 65g 5kg – 95g 10kg – 160g 15kg – 210g 20kg – 260g 25kg – 310g 35kg – 400g 50kg – 520g 65kg – 640g 80kg – 740g Always ensure fresh drinking water is available. Why Choose BEWI DOG® Basic? BEWI DOG Basic offers dependable, everyday nutrition for adult dogs, combining digestibility, coat support, and immune health in one affordable premium formula. Perfect for pet owners looking for a nutritious wheat-free dog food that supports long-term health and vitality. &nbsp;",
+  "images": [
+    {
+      "id": 89980,
+      "alt": "Bewi Dog Basic Croc – 12.5KG",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/bewi-basic-12.5kg.png",
+      "name": "bewi basic 12.5kg"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2427,
+      "name": "Bewi",
+      "slug": "bewi"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 1,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=89971",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.998Z",
+  "dateModified": "2026-06-23T09:15:51.998Z"
+}

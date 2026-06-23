@@ -1,0 +1,83 @@
+{
+  "id": 90285,
+  "name": "Simba Cat Canned Cat Food Chunkies in Gravy – Tuna 415g",
+  "slug": "simba-cat-canned-cat-food-chunkies-in-gravy-tuna-415g",
+  "sku": "LSWC010",
+  "onSale": false,
+  "price": 2.51,
+  "regularPrice": 2.51,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/ffish-.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2411,
+      "name": "Simba",
+      "slug": "simba"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/simba-cat-canned-cat-food-chunkies-in-gravy-tuna-415g/",
+  "shortDescription": "Treat your cat to a delicious seafood-inspired meal with Simba Cat Chunks in Gravy Tuna. This complete wet cat food for adult cats is made with quality ingredients, including tuna, a natural source of protein and minerals that help support your cat’s daily health and vitality.",
+  "description": "Featuring tender chunks in a rich, savoury gravy, this appetising recipe is oven-baked to enhance its natural flavour and encourage a healthy appetite. The balanced formulation is enriched with Vitamins A, D3, and E to help support overall wellbeing, healthy vision, and immune function. Free from added colours and preservatives, Simba Cat Chunks in Gravy Tuna provides wholesome daily nutrition and great taste in every serving. Key Benefits Complete and balanced wet food for adult cats Made with tuna, a source of protein and minerals Tender chunks in savoury gravy for added palatability Supports muscle maintenance and daily vitality Enriched with Vitamins A, D3, and E Oven-baked to enhance natural flavour No added colours or preservatives Suitable for everyday feeding Ingredients Meat and animal derivatives, fish and fish derivatives (tuna 6%), cereals, eggs and egg derivatives, minerals. Feeding Guide Serve according to your cat’s age, weight, and activity level. Always ensure fresh, clean drinking water is available. Storage Store in a cool, dry place. Once opened, refrigerate and consume within 48 hours. Size: 415g &nbsp;",
+  "images": [
+    {
+      "id": 90371,
+      "alt": "Simba Cat Canned Cat Food Chunkies in Gravy – Tuna 415g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/ffish-.png",
+      "name": "ffish"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2464,
+      "name": "Simba",
+      "slug": "simba"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 3,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=90285",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:52.043Z",
+  "dateModified": "2026-06-23T09:15:52.043Z"
+}

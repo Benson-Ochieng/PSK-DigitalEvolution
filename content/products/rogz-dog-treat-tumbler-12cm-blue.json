@@ -1,0 +1,82 @@
+{
+  "id": 24591,
+  "name": "Rogz Dog-Treat Tumbler 12cm – Blue (TUM03-B)",
+  "slug": "rogz-dog-treat-tumbler-12cm-blue",
+  "sku": "TUM03-B",
+  "onSale": false,
+  "price": 29,
+  "regularPrice": 29,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/TUM03-B-Tumbler-Blue.jpg",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2064,
+      "name": "Rogz",
+      "slug": "rogz"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-dog-treat-tumbler-12cm-blue/",
+  "shortDescription": "Rogz-Treat Tumbler 12cm &#8211; Blue",
+  "description": "Stimulate your dog with this durable Rogz treat tumbler that slowly dispenses your dog&#8217;s favourite treats while they play with the ball. The ball features 3 settings which allow you to adjust the rate of release to control both feeding and learning as they mature. Simply twist the ball to open, fill with treats and adjust the internal feeder according to your dog&#8217;s needs. The ball is made from durable ABS plastic that is safe to chew. There is a counterweight inside the ball that makes the movement of the ball unpredictable and more fun to play with.",
+  "images": [
+    {
+      "id": 24620,
+      "alt": "Rogz Dog-Treat Tumbler 12cm – Blue (TUM03-B)",
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/TUM03-B-Tumbler-Blue.jpg",
+      "name": "TUM03-B-Tumbler-Blue.jpg"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": 4,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=2&#038;add-to-cart=24591",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.218Z",
+  "dateModified": "2026-06-23T09:15:51.218Z"
+}

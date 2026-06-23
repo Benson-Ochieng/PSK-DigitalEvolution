@@ -1,0 +1,82 @@
+{
+  "id": 17574,
+  "name": "Rogz Dog Utility Control Collar Web X-Large – Black",
+  "slug": "rogz-dog-utility-control-collar-web-x-large-black",
+  "sku": "HCW05-A",
+  "onSale": true,
+  "price": 19.8,
+  "regularPrice": 22,
+  "salePrice": 19.8,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/HCW05-A_Control-Collar-Web.jpg",
+  "categories": [
+    {
+      "id": 2351,
+      "name": "Collars, Leashes & Harnesses",
+      "slug": "dog-collars-leashes-and-harnesses"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2354,
+      "name": "Dog Collars",
+      "slug": "dog-collars"
+    },
+    {
+      "id": 2064,
+      "name": "Rogz",
+      "slug": "rogz"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-control-collar-web-x-large-black/",
+  "shortDescription": "Rogz Utility control collar Web &#8211; X-Large Black",
+  "description": "Rogz Control Collar Web is a safe, non-slip collar recommended for behaviour correction and training. Through gently-applied pressure, when attached to a Lead/Leash, the two D-rings are drawn together, tightening slightly to prevent your dog from reversing out of the collar. TO FIT: To avoid injury, fit the collar with a two-finger gap between the metal rings in the tightened position. The collar should then fit snuggly over your dog?s head. Size: X-Large 25mm (Neck Size: 45 &#8211; 60cm)",
+  "images": [
+    {
+      "id": 17529,
+      "alt": "Rogz Dog Utility Control Collar Web X-Large – Black",
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/HCW05-A_Control-Collar-Web.jpg",
+      "name": "HCW05 &#8211; A_Control Collar Web"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2065,
+      "name": "Collars",
+      "slug": "collar"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 939,
+      "name": "On Sale Now",
+      "slug": "sale"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": 3,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=1&#038;add-to-cart=17574",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.128Z",
+  "dateModified": "2026-06-23T09:15:51.128Z"
+}

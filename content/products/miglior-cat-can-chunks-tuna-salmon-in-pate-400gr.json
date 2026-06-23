@@ -1,0 +1,88 @@
+{
+  "id": 34609,
+  "name": "Miglior  Canned Cat Food – Tuna & Salmon, Pate 400g",
+  "slug": "miglior-cat-can-chunks-tuna-salmon-in-pate-400gr",
+  "sku": "MCW018",
+  "onSale": false,
+  "price": 2.8,
+  "regularPrice": 2.8,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/01/MIGLIOR-GATTO-CON-TONNO-E-SALMONE-IN-PATE-400G.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2163,
+      "name": "Miglior",
+      "slug": "miglior"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/miglior-cat-can-chunks-tuna-salmon-in-pate-400gr/",
+  "shortDescription": "Formula designed to guarantee the key nutrients required for the well-being of your cat. Vitamin E with antioxidant action and a recipe rich in meat to help keep muscle mass toned.",
+  "description": "Meat and animal derivatives 50%, fish and fish derivatives (Tuna 5%, Salmon5%), cereals, Minerals. ANALYTICAL CONSTITUENTS: Moisture 77%, Crude protein 10%, Crude fat 6%, Crude fibers 0.5%, Crude ash 3%. Nutritional additives / kg: Vitamin E 10 mg, Copper (Copper (II) sulphate pentahydrate) 2 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight. Once opened, store in refrigerator for 2-3 days.",
+  "images": [
+    {
+      "id": 34611,
+      "alt": "Miglior Canned Cat Food – Tuna & Salmon, Pate 400g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/01/MIGLIOR-GATTO-CON-TONNO-E-SALMONE-IN-PATE-400G.jpg",
+      "name": "MIGLIOR GATTO CON TONNO E SALMONE IN PATE 400G"
+    }
+  ],
+  "tags": [
+    {
+      "id": 622,
+      "name": "canned food",
+      "slug": "canned-food"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2451,
+      "name": "Miglior",
+      "slug": "miglior"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=3&#038;add-to-cart=34609",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.274Z",
+  "dateModified": "2026-06-23T09:15:51.274Z"
+}

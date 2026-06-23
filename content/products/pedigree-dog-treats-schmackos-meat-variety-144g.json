@@ -1,0 +1,83 @@
+{
+  "id": 89884,
+  "name": "Pedigree Dog Treats – Schmackos Meat Variety 144g",
+  "slug": "pedigree-dog-treats-schmackos-meat-variety-144g",
+  "sku": "PDT004",
+  "onSale": false,
+  "price": 4.95,
+  "regularPrice": 4.95,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/Pedigree-Schmackos-Dog-Treats-Meat-Variety-144g.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 2400,
+      "name": "Pedigree",
+      "slug": "pedigree"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/pedigree-dog-treats-schmackos-meat-variety-144g/",
+  "shortDescription": "Reward your dog with the irresistible taste of Pedigree Schmackos Tender Strips Dog Snack. These soft and succulent strips are packed with delicious flavour that dogs love, making them perfect for daily rewarding and positive reinforcement.",
+  "description": "Formulated with carefully selected ingredients and developed with nutritionists and veterinarians from the WALTHAM Petcare Science Institute, this complementary dog snack provides targeted nutritional support alongside great taste. Enriched with Omega 6 to help maintain overall fitness, Vitamin E to support natural defences, and minerals including calcium to help keep bones strong, it is designed to support your dog’s everyday wellbeing. The soft texture makes these strips easy to chew and ideal for dogs of all sizes, while the tasty recipe ensures high palatability for even picky eaters. A great way to strengthen the bond with your dog while supporting a healthy, active lifestyle. Key Benefits Soft and delicious tender strip texture Enriched with Omega 6 for overall fitness Contains Vitamin E to support natural defences Calcium helps support strong bones Developed with WALTHAM Petcare Science Institute experts Highly palatable and easy to chew Ideal for daily rewarding and training Ingredients Meat and animal derivatives (40% total), derivatives of vegetable origin, cereals, minerals, various sugars, oils and fats. Storage Instructions Store in a cool and dry place. Once opened, use within 14 days. &nbsp;",
+  "images": [
+    {
+      "id": 89885,
+      "alt": "Pedigree Dog Treats – Schmackos Meat Variety 144g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Pedigree-Schmackos-Dog-Treats-Meat-Variety-144g.png",
+      "name": "Pedigree Schmackos Dog Treats Meat Variety 144g"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2456,
+      "name": "Pedigree",
+      "slug": "pedigree"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=89884",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.989Z",
+  "dateModified": "2026-06-23T09:15:51.989Z"
+}

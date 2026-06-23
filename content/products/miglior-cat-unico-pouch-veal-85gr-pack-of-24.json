@@ -1,0 +1,88 @@
+{
+  "id": 50400,
+  "name": "Pack Of 24 – Miglior Cat Unico Mousse Pouch – Veal 85g",
+  "slug": "miglior-cat-unico-pouch-veal-85gr-pack-of-24",
+  "sku": "MCW021$24",
+  "onSale": true,
+  "price": 38.15,
+  "regularPrice": 44.88,
+  "salePrice": 38.15,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/09/MCW2021-UNICO-POUCH-TURKEY.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2163,
+      "name": "Miglior",
+      "slug": "miglior"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/miglior-cat-unico-pouch-veal-85gr-pack-of-24/",
+  "shortDescription": "Formula designed to guarantee the key nutrients required for the well-being of your cat, including vitamins, Omega 3, calcium and phosphorous to support strong bones and teeth, healthy skin and glossy coat, and toned musculature.",
+  "description": "COMPLETE PET FOOD FOR ADULT CATS Migliorgatto UNICO is a complete and balanced super premium food, ideal for the daily diet of all cats. UNICO: single protein, unique quality, great taste. COMPOSITION: Veal 50% (lungs, livers), minerals. ANALYTICAL CONSTITUENTS: Moisture 80%, Crude protein 10.5%, Crude fat 4%, Crude fibres 0.3%, Crude ash 1.5%. Without colorants and preservatives. Nutritional additives / kg: Vitamin D3 177.5 IU, Vitamin E 17.7 mg, Vitamin B1 1.8 mg, Vitamin B6 0.8 mg, Zinc (Zinc sulphate monohydrate) 1.3 mg, Manganese (Manganous sulphate monohydrate) 0.8 mg, Iodine (Potassium iodide) 0.2 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place. DAILY RECOMMENDED AMOUNT Ideal weight (kg) 3 4 5 Daily amount (g) 215 255 340 NB: Split the recommended daily amount into at least two meals. &nbsp;",
+  "images": [
+    {
+      "id": 50325,
+      "alt": "Pack Of 24 – Miglior Cat Unico Mousse Pouch – Veal 85g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/09/MCW2021-UNICO-POUCH-TURKEY.png",
+      "name": "MCW2021-UNICO POUCH TURKEY"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2055,
+      "name": "Bulk Cat Food &amp; Bulk Dog Food",
+      "slug": "bulk"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2451,
+      "name": "Miglior",
+      "slug": "miglior"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=5&#038;add-to-cart=50400",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.538Z",
+  "dateModified": "2026-06-23T09:15:51.538Z"
+}

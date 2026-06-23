@@ -1,0 +1,77 @@
+{
+  "id": 17547,
+  "name": "Rogz Dog Utility Side Release Collar X-Small – Blue",
+  "slug": "rogz-dog-utility-side-release-collar-x-small-blue",
+  "sku": "HB13-B",
+  "onSale": false,
+  "price": 9.5,
+  "regularPrice": 9.5,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/HB13-B-Firefly-Blue.jpg",
+  "categories": [
+    {
+      "id": 2351,
+      "name": "Collars, Leashes & Harnesses",
+      "slug": "dog-collars-leashes-and-harnesses"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2354,
+      "name": "Dog Collars",
+      "slug": "dog-collars"
+    },
+    {
+      "id": 2064,
+      "name": "Rogz",
+      "slug": "rogz"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-side-release-collar-x-small-blue/",
+  "shortDescription": "A sturdy Rogz Utility Reflective Dog Collar featuring woven reflective stitching and a secure RogLoc buckle for safer, more visible nighttime walks. Rogz Utility Side Release collar &#8211; X-Small Blue",
+  "description": "Rogz Utility Side Release Reflective Dog Collar has a reflective yarn woven into the webbing for night time visibility so that everyone is aware that you &amp; your dog are on an outing. Key Features: Reflective Stitching: Reflective yarn is woven into the webbing for nighttime visibility RogLoc: The Fort Knox of release buckles Low Load Technology: LLT technology reduces the load on the Titanium Plastic buckle through a cleverly positioned load ring Contoured Plastic Component: ROGZ rounded contoured plastic components ensure that every ROGZ collar fits snugly Die-Cast Ring: Custom designed die cast ring (no welding). Electroplated chrome for a tarnish free finish",
+  "images": [
+    {
+      "id": 17515,
+      "alt": "Rogz Dog Utility Side Release Collar X-Small – Blue",
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/HB13-B-Firefly-Blue.jpg",
+      "name": "HB13-B Firefly Blue"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2065,
+      "name": "Collars",
+      "slug": "collar"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": 3,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=1&#038;add-to-cart=17547",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.126Z",
+  "dateModified": "2026-06-23T09:15:51.126Z"
+}

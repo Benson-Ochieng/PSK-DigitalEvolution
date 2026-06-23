@@ -1,0 +1,78 @@
+{
+  "id": 90006,
+  "name": "Bewi Cat Adult Dry Food – Crocinis 3 Mix 1Kg",
+  "slug": "bewi-cat-adult-dry-food-crocinis-3-mix-1kg",
+  "sku": "LBDC002",
+  "onSale": false,
+  "price": 10.5,
+  "regularPrice": 10.5,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/Bewi-Cat-Crocinis-3-Mix-1Kg.png",
+  "categories": [
+    {
+      "id": 2406,
+      "name": "Bewi",
+      "slug": "bewi"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/bewi-cat-adult-dry-food-crocinis-3-mix-1kg/",
+  "shortDescription": "Bewi Crocinis 3 Mix Adult Cat Food is a complete and balanced dry cat food specially formulated for adult cats of all breeds. Featuring a tasty combination of poultry, beef, and fish croquettes, this delicious triple-flavour recipe keeps mealtimes exciting while providing the essential nutrients your cat needs for a healthy and active lifestyle.",
+  "description": "Made in Germany under strict quality standards, Bewi Crocinis delivers premium everyday nutrition with carefully selected ingredients that support your cat’s muscles, heart health, skin, coat, and overall wellbeing. Key Benefits Delicious mix of poultry, beef, and fish croquettes Complete daily nutrition for adult cats of all breeds Rich in high-quality protein to support strong muscles Contains taurine to support heart and eye health Omega fatty acids promote healthy skin and a shiny coat Helps maintain energy, vitality, and overall wellbeing Highly palatable recipe ideal for picky eaters Suitable for both indoor and outdoor cats Why Cats Love It The unique 3 mix croquette blend adds flavour variety to every meal, helping prevent feeding boredom while naturally providing nutrients from multiple protein sources. Perfect for cats that enjoy variety in texture and taste. Premium Quality Nutrition Bewi is trusted worldwide for producing high-quality pet food with a strong commitment to nutrition and animal welfare. Manufactured in Germany, Bewi Crocinis is carefully developed to meet the nutritional needs of adult cats while supporting long-term health and vitality. Ideal for Multi-Cat Households Bewi Crocinis 3 Mix Adult Cat Food is perfect for homes with multiple cats. The mixed flavours help satisfy different preferences, making mealtime enjoyable for every feline in the family. Feeding Guide Recommended Daily Feeding Amount Cats up to 3kg: 45g – 55g Cats 4–5kg: 60g – 75g Cats over 5kg: 80g – 90g Adjust feeding amounts according to your cat’s age, activity level, and body condition. Always provide fresh drinking water. Suitable For Adult cats of all breeds looking for a tasty, balanced, and nutritious everyday diet. &nbsp;",
+  "images": [
+    {
+      "id": 90009,
+      "alt": "Bewi Cat Adult Dry Food – Crocinis 3 Mix 1Kg",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Bewi-Cat-Crocinis-3-Mix-1Kg.png",
+      "name": "Bewi Cat Crocinis 3 Mix 1Kg"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2427,
+      "name": "Bewi",
+      "slug": "bewi"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 3,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=90006",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:52.001Z",
+  "dateModified": "2026-06-23T09:15:52.001Z"
+}

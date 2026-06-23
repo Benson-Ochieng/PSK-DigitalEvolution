@@ -1,0 +1,52 @@
+{
+  "id": 44227,
+  "name": "Gift Voucher 2,000",
+  "slug": "gift-voucher-2000",
+  "sku": "Gift2000",
+  "onSale": false,
+  "price": 20,
+  "regularPrice": 20,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/02/Gift-Voucher-2k.jpeg",
+  "categories": [
+    {
+      "id": 2239,
+      "name": "Gift Cards",
+      "slug": "gift-cards"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/gift-voucher-2000/",
+  "shortDescription": "Looking for the perfect present for the pet lover in your life? Delight them with a Petstore Kenya Gift Voucher! Our vouchers offer a paw-some opportunity to pamper their beloved pets with a wide range of high-quality products available on our website.",
+  "description": "With our gift vouchers, your friends or family members can choose from a wide range of pet essentials, including nutritious food, cozy beds, fun toys, stylish accessories, grooming supplies, and much more. Whether they have a playful pup, a curious cat, or any other furry companion, our extensive selection ensures there&#8217;s something for every pet’s preference and need. Not sure what to get for their furry friend? Let them decide! Our vouchers provide the flexibility for recipients to explore and select the perfect items that suit their pet&#8217;s personality and lifestyle. How to Purchase: Visit Petstore Kenya&#8217;s website. Select the desired value for your gift voucher. Add a personalized message, recipient’s name and email address. Complete your purchase securely online. Petstore team will share an email to the recipient with a coupon code that they will use to shop on our website. Give the gift of tail wags, purrs, and endless joy with a Petstore Kenya Gift Voucher today!",
+  "images": [
+    {
+      "id": 44228,
+      "alt": "Gift Voucher 2,000",
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/02/Gift-Voucher-2k.jpeg",
+      "name": "Gift Voucher-2k"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2238,
+      "name": "Gift Cards",
+      "slug": "gift-cards"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=44227",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.360Z",
+  "dateModified": "2026-06-23T09:15:51.360Z"
+}

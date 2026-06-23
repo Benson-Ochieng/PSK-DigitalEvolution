@@ -1,0 +1,77 @@
+{
+  "id": 17433,
+  "name": "Rogz Dog ginz-Treat Ball 7.8cm – Red Large",
+  "slug": "rogz-dog-grinz-treat-ball-7-8cm-red-large",
+  "sku": "GR04-C",
+  "onSale": false,
+  "price": 16.35,
+  "regularPrice": 16.35,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/GR04-C-Red-Grinz.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2064,
+      "name": "Rogz",
+      "slug": "rogz"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-7-8cm-red-large/",
+  "shortDescription": "Rogz Grinz ball &#8211; Red Large",
+  "description": "Rogz Grinz Ball is a fillable toy ball for dogs. You can fill this ball with any snack of your choosing. When your dog plays with the ball treats will fall out of the toy. This way you can stimulate your dog to stay active. This ball has an image of teeth, which looks very funny when your dog has the ball in its mouth. The Rogz Grinz Ball is available in several sizes and colours. Size: Large 7.8mm",
+  "images": [
+    {
+      "id": 17348,
+      "alt": "Rogz Dog ginz-Treat Ball 7.8cm – Red Large",
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/GR04-C-Red-Grinz.jpg",
+      "name": "GR04-C Red Grinz"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2227,
+      "name": "Rogz",
+      "slug": "rogz"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=1&#038;add-to-cart=17433",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.120Z",
+  "dateModified": "2026-06-23T09:15:51.120Z"
+}

@@ -1,0 +1,77 @@
+{
+  "id": 42021,
+  "name": "Rogz Dog Grinz Treat Ball 4.9cm Orange Small (g01-D)",
+  "slug": "rogz-dog-grinz-treat-ball-7-8cm-orange-small",
+  "sku": "GR01-D",
+  "onSale": false,
+  "price": 9.5,
+  "regularPrice": 9.5,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/11/GR02-D-Grinz-Orange-420x420-1.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2064,
+      "name": "Rogz",
+      "slug": "rogz"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-7-8cm-orange-small/",
+  "shortDescription": "Keep your adult dog engaged and entertained with the Rogz Dog Grinz Treat Ball GR01-D. Small, durable, interactive, and treat-dispensing for mental stimulation and fun play.",
+  "description": "Make playtime fun, engaging, and mentally stimulating with the Rogz Dog Grinz Treat Ball GR01-D. Designed for adult dogs, this small, orange treat ball combines interactive play with treat-dispensing functionality, keeping pets entertained while encouraging healthy, slow feeding habits. Part of the Rogz Dog Grinz series, the GR01-D is crafted from durable, pet-safe materials that withstand chewing and rough play. Its compact size and lightweight design make it easy to handle, store, and bring along for play sessions at home or outdoors. Key Features Small Size (4.9 cm): Perfectly suited for adult dogs, easy to handle and carry. Interactive Treat Dispensing: Gradually releases treats as your dog plays, promoting active engagement and mental stimulation. Durable &amp; Safe: Constructed from non-toxic, chew-resistant materials to ensure long-lasting play. Portable &amp; Lightweight: Ideal for indoor and outdoor use, travel, or enrichment sessions. Encourages Healthy Feeding: Slow treat release helps prevent overeating and keeps pets engaged. Benefits for Your Dog Provides physical exercise and mental stimulation through interactive play. Reduces boredom and helps prevent destructive behavior. Supports problem-solving skills and healthy chewing habits. Creates a rewarding and engaging experience with treat-based motivation. Usage Tips Introduce treats gradually to teach your dog how to use the toy. Supervise play during initial sessions to ensure safety. Clean regularly to maintain hygiene and remove leftover treats.",
+  "images": [
+    {
+      "id": 41636,
+      "alt": "Rogz Dog Grinz Treat Ball 4.9cm Orange Small (g01-D)",
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/11/GR02-D-Grinz-Orange-420x420-1.jpg",
+      "name": "GR02-D-Grinz-Orange-420&#215;420"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2227,
+      "name": "Rogz",
+      "slug": "rogz"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": 2,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=42021",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.340Z",
+  "dateModified": "2026-06-23T09:15:51.340Z"
+}

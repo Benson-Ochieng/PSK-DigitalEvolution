@@ -1,0 +1,58 @@
+{
+  "id": 56415,
+  "name": "Paw Performance Polo-Small Women Blue",
+  "slug": "paw-performance-polo-small-women-blue-3",
+  "sku": "PPPPSWB",
+  "onSale": false,
+  "price": 25,
+  "regularPrice": 25,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/06/FRONT-POLO-SHIRT-FIXED.png",
+  "categories": [
+    {
+      "id": 2243,
+      "name": "Humans",
+      "slug": "human"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/paw-performance-polo-small-women-blue-3/",
+  "shortDescription": "Keep it cool and meaningful with this wo’s small-fit polo in a classic blue hue. Designed for comfort and style, it features a soft cotton-poly blend and a subtle embroidered paw print that combines cat and dog paws — perfect for the modern pet-loving woman.",
+  "description": "Keep it cool and meaningful with this women’s small-fit polo in a classic blue hue. Designed for comfort and style, it features a soft cotton-poly blend and a subtle embroidered paw print that combines cat and dog paws — perfect for the modern pet-loving Woman. Size: Small (Men’s Fit) Color: Blue Material: Soft, breathable cotton-poly blend Design: Embroidered paw print symbolizing both cats and dogs Fit: Tailored small women’s fit with a structured collar and two-button placket Care: Machine washable for easy wear and care Ideal for everyday wear, casual outings, or walking your four-legged best friend — this shirt is made for proud pet moms.",
+  "images": [
+    {
+      "id": 56029,
+      "alt": "Paw Performance Polo-Small Women Blue",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/06/FRONT-POLO-SHIRT-FIXED.png",
+      "name": "FRONT POLO SHIRT FIXED"
+    },
+    {
+      "id": 56031,
+      "alt": "Paw Performance Polo-Small Women Blue",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/06/BACK-POLO-SHIRT-FIXED-1.png",
+      "name": "BACK POLO SHIRT FIXED"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2245,
+      "name": "Human",
+      "slug": "human"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": 3,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=56415",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.645Z",
+  "dateModified": "2026-06-23T09:15:51.645Z"
+}

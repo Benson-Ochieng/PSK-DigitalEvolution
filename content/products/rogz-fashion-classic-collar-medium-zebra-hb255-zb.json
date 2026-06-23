@@ -1,0 +1,82 @@
+{
+  "id": 47715,
+  "name": "Rogz Fashion Classic Collar Medium Zebra (Hb255-Zb)",
+  "slug": "rogz-fashion-classic-collar-medium-zebra-hb255-zb",
+  "sku": "HB255-ZB",
+  "onSale": false,
+  "price": 10,
+  "regularPrice": 10,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/HB255-ZB_Fashion-Classic-Collar_M_Zebra-420x420-1.jpg",
+  "categories": [
+    {
+      "id": 2351,
+      "name": "Collars, Leashes & Harnesses",
+      "slug": "dog-collars-leashes-and-harnesses"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2354,
+      "name": "Dog Collars",
+      "slug": "dog-collars"
+    },
+    {
+      "id": 2064,
+      "name": "Rogz",
+      "slug": "rogz"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-fashion-classic-collar-medium-zebra-hb255-zb/",
+  "shortDescription": "Custom-designed wild safari prints stitched onto soft plush webbing, Rogz Small Dogs Fashion Classic Collars feature a D ring for ID-Tag attachment for identification and reflective yarn for extra visibility.",
+  "description": "Custom-designed wild safari prints stitched onto soft plush webbing, Rogz Small Dogs Fashion Classic Collars feature a D ring for ID-Tag attachment for identification and reflective yarn for extra visibility.",
+  "images": [
+    {
+      "id": 47716,
+      "alt": "Rogz Fashion Classic Collar Medium Zebra (Hb255-Zb)",
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/06/HB255-ZB_Fashion-Classic-Collar_M_Zebra-420x420-1.jpg",
+      "name": "HB255-ZB_Fashion-Classic-Collar_M_Zebra-420&#215;420"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2065,
+      "name": "Collars",
+      "slug": "collar"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=47715",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.418Z",
+  "dateModified": "2026-06-23T09:15:51.418Z"
+}

@@ -1,0 +1,83 @@
+{
+  "id": 89861,
+  "name": "JosiCat Cat Wet Food – Beef Alutray 100g",
+  "slug": "josicat-cat-wet-food-beef-alutray-100g",
+  "sku": "JCW003",
+  "onSale": false,
+  "price": 1.98,
+  "regularPrice": 1.98,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/JOSICAT-BEEF-ALUTRAY-100GR.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josicat-cat-wet-food-beef-alutray-100g/",
+  "shortDescription": "Give your cat a flavour-packed mealtime with JosiCat JosiCat Pâté with Beef 100g&nbsp; a smooth, juicy wet cat food specially crafted for adult cats. Made with delicious beef and a rich pâté texture, this complete meal delivers balanced nutrition while helping support daily hydration.",
+  "description": "Formulated with essential vitamins and carefully selected nutrients, JosiCat Pâté with Beef supports overall wellbeing, strong bones, healthy digestion, and a shiny coat. Added vitamin E helps protect cells from oxidative stress, while vitamin D3 contributes to healthy bone development. Prebiotic inulin promotes healthy gut flora, and biotin, zinc, and copper help maintain healthy skin and a glossy coat. The practical 100g serving size makes feeding easy and convenient, whether served as a full meal or alongside dry food. With no unnecessary extras, this tasty wet food offers wholesome daily nutrition cats will love. Key Benefits Complete wet food for adult cats Delicious beef flavour in a smooth pâté texture Helps support healthy digestion with prebiotic inulin Enriched with vitamins E and D3 for overall health support Supports healthy skin and a shiny coat with biotin, zinc, and copper Convenient 100g single-serve pouch for freshness and portion control Provides additional moisture to support daily hydration Composition Meat and animal derivatives (beef 4.0%), minerals, derivatives of vegetable origin (inulin 0.40%). Analytical Constituents Protein: 11.0% Fat Content: 4.5% Crude Fibre: 0.3% Crude Ash: 2.0%",
+  "images": [
+    {
+      "id": 89862,
+      "alt": "JosiCat Cat Wet Food – Beef Alutray 100g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/JOSICAT-BEEF-ALUTRAY-100GR.png",
+      "name": "JOSICAT BEEF ALUTRAY 100GR"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=89861",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.977Z",
+  "dateModified": "2026-06-23T09:15:51.977Z"
+}

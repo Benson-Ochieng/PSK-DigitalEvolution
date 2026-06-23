@@ -1,0 +1,83 @@
+{
+  "id": 90369,
+  "name": "JosiDog Dog Wet Food – Lamb & Veggies in Sauce 100g",
+  "slug": "josidog-dog-wet-food-lamb-veggies-in-sauce-100g",
+  "sku": "JDW002",
+  "onSale": true,
+  "price": 1.7,
+  "regularPrice": 2.13,
+  "salePrice": 1.7,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/lamb-veggies-.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    },
+    {
+      "id": 2349,
+      "name": "Wet Dog Food",
+      "slug": "wet-dog-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josidog-dog-wet-food-lamb-veggies-in-sauce-100g/",
+  "shortDescription": "JosiDog Dog Wet Food – Lamb &amp; Vegetables in Sauce 100g is a complete and balanced wet food specially formulated for adult small breed dogs. Prepared with tender lamb, tasty vegetables, and a savoury sauce, this premium recipe delivers both excellent palatability and essential daily nutrition to support overall health and vitality.",
+  "description": "With 84% meat and animal derivatives in the chunks (including lamb and liver), this recipe provides high-quality protein to help maintain lean muscle mass and support an active lifestyle. The addition of vegetables such as peas and carrots provides natural nutrients that complement the meat-based formula, contributing to a balanced and wholesome diet. Enriched with prebiotic inulin, this recipe supports healthy digestion by promoting beneficial intestinal flora and improving nutrient absorption. Carefully selected vitamins and minerals, including Vitamin D3, Vitamin E, zinc, manganese, copper, and iodine, help support strong bones, healthy cell function, and overall wellbeing. This formula is free from artificial additives such as soy, colourants, flavourings, and preservatives, ensuring clean and natural nutrition in every meal. Packed in a convenient 100g freshness pouch, it is easy to serve, supports portion control, and keeps food fresh and appetising. Key Benefits Complete wet food for adult small breed dogs Made with lamb, vegetables, and liver in a tasty sauce 84% meat and animal derivatives in the chunks Includes peas and carrots for balanced vegetable nutrition High-quality protein supports muscle maintenance Prebiotic inulin supports healthy digestion and gut flora Enriched with essential vitamins and minerals Vitamin E supports cell protection Vitamin D3 supports strong bones and teeth No artificial colours, flavourings, or preservatives Convenient 100g freshness pouch for easy feeding Analytical Constituents Crude Protein: 8.0% Crude Fat: 5.0% Crude Fibre: 0.4% Crude Ash: 2.0% Moisture: 80% Energy Content 916 kcal/kg (3.8 MJ/kg) Feeding Guide Feed according to your dog’s weight, age, and activity level: 5kg dog: 345–400g 10kg dog: 585–675g 20kg dog: 980–1,125g 35kg dog: 1,495–1,730g Always provide fresh drinking water. Adjust portions if treats or snacks are included in the diet. Storage Instructions Store in a cool, dry place. Once opened, refrigerate at 2–6°C and consume within 24 hours. Serve at room temperature for best taste and aroma. &nbsp;",
+  "images": [
+    {
+      "id": 90377,
+      "alt": "JosiDog Dog Wet Food – Lamb & Veggies in Sauce 100g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/lamb-veggies-.png",
+      "name": "lamb veggies"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 939,
+      "name": "On Sale Now",
+      "slug": "sale"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=10&#038;add-to-cart=90369",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:52.060Z",
+  "dateModified": "2026-06-23T09:15:52.060Z"
+}
