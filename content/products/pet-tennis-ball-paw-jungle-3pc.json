@@ -1,0 +1,92 @@
+{
+  "id": 44524,
+  "name": "Pet Tennis Ball Paw/Jungle 3pc",
+  "slug": "pet-tennis-ball-paw-jungle-3pc",
+  "sku": "PA0125",
+  "onSale": false,
+  "price": 4.5,
+  "regularPrice": 4.5,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/02/PA0125.png",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2342,
+      "name": "Cat Toys",
+      "slug": "cat-toys"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/pet-tennis-ball-paw-jungle-3pc/",
+  "shortDescription": "Tennis Ball Paw Print 3pc Colour will be randomly selected.",
+  "description": "Play for the active dog, Squeak Tennis Ball 3 Pack that your dog will enjoy! This is a supervised pet play toy designed for your pet to enjoy. Remove packaging before giving to your pet. Supervise your pet while playing.",
+  "images": [
+    {
+      "id": 44526,
+      "alt": "Pet Tennis Ball Paw/Jungle 3pc",
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/02/PA0125.png",
+      "name": "PA0125"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=44524",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.366Z",
+  "dateModified": "2026-06-23T09:15:51.366Z"
+}

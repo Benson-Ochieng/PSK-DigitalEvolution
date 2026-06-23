@@ -1,0 +1,83 @@
+{
+  "id": 90270,
+  "name": "Simba Cat Canned Cat Food Mousse – Tuna & Ocean Fish 85g",
+  "slug": "simba-cat-canned-cat-food-mousse-tuna-ocean-fish-85g",
+  "sku": "LSWC005",
+  "onSale": false,
+  "price": 1.79,
+  "regularPrice": 1.79,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Mousse-With-TunaOceanfish-Canned-Cat-Food-85GG-1.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2411,
+      "name": "Simba",
+      "slug": "simba"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/simba-cat-canned-cat-food-mousse-tuna-ocean-fish-85g/",
+  "shortDescription": "Treat your cat to the delicious taste of the sea with Simba Cat Mousse Tuna &amp; Ocean Fish. This complete and balanced wet cat food is carefully prepared with quality tuna and ocean fish, providing high-quality protein and essential minerals to support your cat’s daily health and vitality.",
+  "description": "Its soft, delicate mousse texture is steamed to enhance the natural flavour of the ingredients, making it highly palatable even for picky eaters. The smooth consistency is also easy to chew and digest, making it suitable for adult cats of all breeds. Enriched with Vitamins D3 and E, this nutritious recipe helps support strong bones, a healthy immune system, and overall wellbeing. Made without added artificial colours or preservatives, Simba Cat Mousse offers wholesome nutrition and irresistible taste in every serving. Key Benefits Complete and balanced wet food for adult cats Made with tuna and ocean fish for a delicious seafood flavour Rich in high-quality protein to support muscle maintenance Soft mousse texture for easy chewing and digestion Enriched with Vitamins D3 and E for overall health Steamed to preserve natural taste and nutritional value No added artificial colours or preservatives Suitable for picky eaters and everyday feeding Analytical Constituents Crude Protein: 10.2% Crude Fat: 3.5% Crude Fibre: 0.5% Crude Ash: 2.4% Moisture: 78% Size: 85g &nbsp;",
+  "images": [
+    {
+      "id": 90271,
+      "alt": "Simba Cat Canned Cat Food Mousse – Tuna & Ocean Fish 85g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Mousse-With-TunaOceanfish-Canned-Cat-Food-85GG-1.png",
+      "name": "Simba Cat Mousse With Tuna&#038;Oceanfish Canned Cat Food 85GG (1)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2464,
+      "name": "Simba",
+      "slug": "simba"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=90270",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:52.039Z",
+  "dateModified": "2026-06-23T09:15:52.039Z"
+}

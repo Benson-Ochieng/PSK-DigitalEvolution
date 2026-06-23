@@ -1,0 +1,83 @@
+{
+  "id": 90019,
+  "name": "Leonardo Cat Adult Dry Food – Fish 1.8Kg",
+  "slug": "leonardo-cat-adult-dry-food-fish-1-8kg",
+  "sku": "LLDC003",
+  "onSale": false,
+  "price": 33.3,
+  "regularPrice": 33.3,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/Leonardo-Adult-Cat-Fish-1.8Kg.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 2407,
+      "name": "Leonardo",
+      "slug": "leonardo"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/leonardo-cat-adult-dry-food-fish-1-8kg/",
+  "shortDescription": "Leonardo Adult Fish Dry Cat Food is a premium German-made recipe specially developed to provide balanced daily nutrition for adult cats. Made with high-quality fish protein and carefully selected natural ingredients, this delicious formula supports healthy digestion, strong immunity, healthy skin, and a shiny coat.",
+  "description": "Rich in essential omega-3 and omega-6 fatty acids, LEONARDO Adult Fish is ideal for cats that thrive on fish-based nutrition or have sensitivities to heavier meat proteins. Key Benefits Made with high-quality fish protein for excellent digestibility Rich in omega-3 and omega-6 fatty acids for healthy skin and coat Supports strong muscles and overall vitality Prebiotics help maintain healthy digestion and gut flora Taurine supports heart health and vision Natural antioxidants help strengthen the immune system Helps reduce hairball formation Free from artificial colours, flavours, and preservatives Why Fish Protein? Fish is a highly digestible source of protein packed with essential amino acids that help maintain lean muscles and support healthy metabolism. It is also naturally rich in healthy fats that promote cardiovascular health, joint support, and coat condition. This makes LEONARDO Adult Fish especially suitable for cats with sensitive digestion or those that prefer lighter protein sources. Skin &amp; Coat Support The omega-rich fish formula helps nourish the skin while promoting a soft, glossy coat. Regular feeding may help reduce excessive shedding, dry skin, and irritation. Digestive Health Support Leonardo Adult Fish contains natural prebiotics including MOS and FOS to support beneficial intestinal flora and improve nutrient absorption. Added fibre also helps support smooth digestion and reduce hairball formation. Natural Immune Support Enriched with taurine, vitamins, minerals, grape seed extract, and marine algae, this balanced recipe helps support: Healthy immune function Heart and vision health Healthy digestion Overall vitality and wellbeing Premium German Quality Manufactured in Germany under strict quality standards, LEONARDO Adult Fish Dry Cat Food is made using carefully selected ingredients with no artificial additives or unnecessary fillers. Suitable For Adult cats of all breeds requiring a balanced fish-based diet with added support for digestion, coat health, and overall wellness. Always provide fresh drinking water alongside feeding. &nbsp;",
+  "images": [
+    {
+      "id": 90029,
+      "alt": "Leonardo Cat Adult Dry Food – Fish 1.8Kg",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Leonardo-Adult-Cat-Fish-1.8Kg.png",
+      "name": "Leonardo Adult Cat Fish 1.8Kg"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2448,
+      "name": "Leonardo",
+      "slug": "leonardo"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 4,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=90019",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:52.004Z",
+  "dateModified": "2026-06-23T09:15:52.004Z"
+}

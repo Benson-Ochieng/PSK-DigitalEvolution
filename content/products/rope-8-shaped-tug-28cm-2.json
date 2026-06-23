@@ -1,0 +1,87 @@
+{
+  "id": 42745,
+  "name": "Rope 8-Shaped Tug 28cm",
+  "slug": "rope-8-shaped-tug-28cm-2",
+  "sku": "PA3982",
+  "onSale": false,
+  "price": 8,
+  "regularPrice": 8,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/Rope-8-shaped-tug-28cm.webp",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2357,
+      "name": "Dog Fetch Toys",
+      "slug": "dog-fetch-toys"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2359,
+      "name": "Rope & Tug Toys",
+      "slug": "dog-rope-tug-toys"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rope-8-shaped-tug-28cm-2/",
+  "shortDescription": "Dog toy 8 shaped rope and tennis ball, interactive for fetch for small dogs and puppies chew toy.",
+  "description": "Dog toy 8 shaped rope and tennis ball, interactive for fetch for small dogs and puppies chew toy. Your dog will love the time he spends with this toy, this fun, figure 8 knotted rope toy is strong and sturdy, features and attached tennis ball in the middle and it is perfect for tugging, fetching and chewing. &nbsp;",
+  "images": [
+    {
+      "id": 42746,
+      "alt": "Rope 8-Shaped Tug 28cm",
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/12/Rope-8-shaped-tug-28cm.webp",
+      "name": "Rope 8-shaped tug 28cm"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": 2,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=42745",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.346Z",
+  "dateModified": "2026-06-23T09:15:51.346Z"
+}

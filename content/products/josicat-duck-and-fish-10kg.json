@@ -1,0 +1,83 @@
+{
+  "id": 23768,
+  "name": "JosiCat Duck and Fish 10kg",
+  "slug": "josicat-duck-and-fish-10kg",
+  "sku": "JCJDF001",
+  "onSale": false,
+  "price": 100.5,
+  "regularPrice": 100.5,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JCJDF001.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josicat-duck-and-fish-10kg/",
+  "shortDescription": "Tasty kibble refined with duck and fish Complete feed for adult cats. Exquisite meal with the mouth-watering taste of duck and fish. Suitable for both indoor and outdoor cats.",
+  "description": "Duck &amp; Fish , a complete and balanced recipe designed to delight even the pickiest felines. With tender duck meat (4%) and savory fish (4%), this kibble offers a unique flavor profile while meeting all the nutritional needs of adult cats. Perfect for indoor and outdoor cats, this formula is enriched with vital nutrients to promote overall health, strong immunity, and a shiny coat. Complete Nutrition Benefits: . Supports healthy skin and a shiny coat . Strengthens the immune system . Promotes healthy digestion and vitality . Provides energy for playtime and exploration",
+  "images": [
+    {
+      "id": 23792,
+      "alt": "JosiCat Duck and Fish 10kg",
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JCJDF001.jpg",
+      "name": "JCJDF001.jpg"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 4,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=2&#038;add-to-cart=23768",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.207Z",
+  "dateModified": "2026-06-23T09:15:51.207Z"
+}

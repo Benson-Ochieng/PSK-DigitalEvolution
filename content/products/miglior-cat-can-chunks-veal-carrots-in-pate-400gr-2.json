@@ -1,62 +1,93 @@
 {
-  "id": 30,
-  "name": "Miglior Canned Cat Food - Veal & Carrots, Pate 400g",
+  "id": 34607,
+  "name": "Miglior Canned Cat Food – Veal & Carrots, Pate 400g",
   "slug": "miglior-cat-can-chunks-veal-carrots-in-pate-400gr-2",
-  "sku": "PSK-30-miglior",
-  "onSale": false,
-  "price": 224,
-  "regularPrice": 224,
-  "salePrice": null,
+  "sku": "MCW017",
+  "onSale": true,
+  "price": 2.24,
+  "regularPrice": 2.8,
+  "salePrice": 2.24,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/01/MIGLIOR-GATTO-CON-VITELLO-E-CAROTE-IN-PATE-400G.jpg",
   "categories": [
     {
-      "id": 2,
-      "name": "Cat Food",
-      "slug": "cat-food"
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
     },
     {
-      "id": 4,
-      "name": "Wet Food",
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2163,
+      "name": "Miglior",
+      "slug": "miglior"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/miglior-cat-can-chunks-veal-carrots-in-pate-400gr-2/",
+  "shortDescription": "This formula guarantees key nutrients like Omega-3, vitamins, calcium, and phosphorus supporting strong bones and teeth, healthy skin and a glossy coat. A high-quality meal your cat will love, every day.",
+  "description": "A premium wet food made with real veal chunks in a rich, savory gravy, crafted to support digestion, immunity, and overall feline wellness. High in quality animal protein and enriched with essential vitamins and minerals, it delivers both taste and nutrition in every bite. No artificial additives. Offers a complete and balanced meal for everyday feeding. The formula is carefully designed to deliver the essential nutrients your cat needs, including vitamins, Omega-3, calcium, and phosphorus supporting strong bones and teeth, a healthy skin and a glossy coat. Premium veal Chunks: Naturally high in protein to support lean muscle development, energy, and healthy body weight. Flavorful Gravy Base: Rich, moist texture enhances palatability—perfect for even picky eaters. Fortified for Wellness: Enriched with essential vitamins, taurine, and Omega-3 to support immunity, heart health, and a shiny coat. Why Your Cat Will Love It: All-Natural Ingredients – No artificial colors, flavors, or fillers Tender, Meaty Texture – Chicken chunks in gravy cats crave Supports Immune Health – With added antioxidants and essential nutrients Skin &amp; Coat Support – Omega-3 and vitamins for a glossy coat Complete &amp; Balanced – Ideal for everyday feeding COMPOSITION: Meat and animal derivatives 50%, veal 5%, dehydrated carrots 4%, cereals, minerals. ANALYTICAL CONSTITUENTS: Moisture 77%, Crude protein 10%, Crude fat 6%, Crude fibers 0.5%, Crude ash 3%. Nutritional additives / kg: Vitamin E 10 mg, Copper (Copper (II) sulphate pentahydrate) 2 mg.. HOW TO USE: Serve at room temperature for the best taste and aroma Can be fed alone or mixed with dry kibble for variety Adjust portion size based on your cat’s weight and activity level Refrigerate unused portion and use within 48 hours STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight. Once opened, store in refrigerator for 2-3 days.",
+  "images": [
+    {
+      "id": 34608,
+      "alt": "Miglior Canned Cat Food – Veal & Carrots, Pate 400g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/01/MIGLIOR-GATTO-CON-VITELLO-E-CAROTE-IN-PATE-400G.jpg",
+      "name": "MIGLIOR GATTO CON VITELLO E CAROTE IN PATE 400G"
+    }
+  ],
+  "tags": [
+    {
+      "id": 622,
+      "name": "canned food",
+      "slug": "canned-food"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 939,
+      "name": "On Sale Now",
+      "slug": "sale"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
       "slug": "wet-food"
     }
   ],
   "brands": [
     {
-      "id": 24,
+      "id": 2451,
       "name": "Miglior",
       "slug": "miglior"
     }
   ],
-  "tags": [
-    {
-      "id": 1,
-      "name": "Premium",
-      "slug": "premium"
-    }
-  ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 1,
-  "status": "publish",
-  "dateCreated": "2026-06-22T07:52:40.876Z",
-  "dateModified": "2026-06-22T07:52:40.876Z",
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/miglior-cat-can-chunks-veal-carrots-in-pate-400gr-2/",
-  "shortDescription": "This formula guarantees key nutrients like Omega-3, vitamins, calcium, and phosphorus supporting strong bones and teeth, healthy skin and a glossy coat. A high-quality meal your cat will love, every day.",
-  "description": "This formula guarantees key nutrients like Omega-3, vitamins, calcium, and phosphorus supporting strong bones and teeth, healthy skin and a glossy coat. A high-quality meal your cat will love, every day.",
-  "images": [
-    {
-      "id": 300,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/01/MIGLIOR-GATTO-CON-VITELLO-E-CAROTE-IN-PATE-400G.jpg",
-      "alt": "Miglior Canned Cat Food - Veal & Carrots, Pate 400g",
-      "name": "Miglior Canned Cat Food - Veal & Carrots, Pate 400g"
-    }
-  ],
   "stockStatus": "instock",
-  "lowStockRemaining": 10,
-  "manageStock": true,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/miglior-cat-can-chunks-veal-carrots-in-pate-400gr-2/?add-to-cart=30"
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=3&#038;add-to-cart=34607",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.273Z",
+  "dateModified": "2026-06-23T09:15:51.273Z"
 }

@@ -1,0 +1,118 @@
+{
+  "id": 39629,
+  "name": "Kitten Bundle Super Saver",
+  "slug": "kitten-bundle-super-saver",
+  "sku": "KBUNS02",
+  "onSale": true,
+  "price": 42.2,
+  "regularPrice": 46.89,
+  "salePrice": 42.2,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/09/Kitten-bundle.png",
+  "categories": [
+    {
+      "id": 2027,
+      "name": "Bundles",
+      "slug": "bundles"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2330,
+      "name": "Cat Treats",
+      "slug": "cat-treats"
+    },
+    {
+      "id": 2331,
+      "name": "Litter and Litter Box & Accessories",
+      "slug": "cat-litter-and-accessories"
+    },
+    {
+      "id": 796,
+      "name": "Proline",
+      "slug": "proline"
+    },
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    },
+    {
+      "id": 927,
+      "name": "Sale",
+      "slug": "sale"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/kitten-bundle-super-saver/",
+  "shortDescription": "Everything your kitten needs in one convenient bundle! This Kitten Bundle includes a selection of essential items to keep your kitten happy and healthy.",
+  "description": "Everything your kitten needs in one convenient bundle! This Kitten Bundle includes a selection of essential items to keep your kitten happy and healthy. Inside the bundle: 1 Reflex Premium Kitten Food Chicken 2kg 1 Reflex Pocket Treats Sensitive 60g 1 Miglior Cat Unico Mousse Pouch 85g 1 Proline Cat Litter &#8211; Odourless 5l",
+  "images": [
+    {
+      "id": 56471,
+      "alt": "Kitten Bundle Super Saver",
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/09/Kitten-bundle.png",
+      "name": "Kitten bundle"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2122,
+      "name": "Bundle",
+      "slug": "bundle"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 819,
+      "name": "cat litter",
+      "slug": "cat-litter"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2461,
+      "name": "Proline",
+      "slug": "proline"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 5,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=3&#038;add-to-cart=39629",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.322Z",
+  "dateModified": "2026-06-23T09:15:51.322Z"
+}

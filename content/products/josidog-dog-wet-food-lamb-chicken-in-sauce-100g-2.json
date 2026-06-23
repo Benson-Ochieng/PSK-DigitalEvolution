@@ -1,0 +1,88 @@
+{
+  "id": 90367,
+  "name": "JosiDog Dog Wet Food – Lamb & Chicken in Sauce 100g",
+  "slug": "josidog-dog-wet-food-lamb-chicken-in-sauce-100g-2",
+  "sku": "JDW001",
+  "onSale": true,
+  "price": 1.7,
+  "regularPrice": 2.13,
+  "salePrice": 1.7,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/chicken-and-lamb-.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    },
+    {
+      "id": 2349,
+      "name": "Wet Dog Food",
+      "slug": "wet-dog-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josidog-dog-wet-food-lamb-chicken-in-sauce-100g-2/",
+  "shortDescription": "JosiDog Dog Wet Food – Lamb &amp; Chicken in Sauce 100g is a complete and balanced meal specially formulated for adult small breed dogs. Made with tender lamb and chicken pieces in a rich, savoury sauce, this delicious wet food provides the essential nutrients your dog needs while delivering exceptional taste in every bite.",
+  "description": "Crafted to support everyday health and wellbeing, this nutritious recipe contains high-quality protein to help maintain lean muscles and support an active lifestyle. Enriched with prebiotic inulin, it helps promote healthy digestion and supports beneficial intestinal flora. Added Vitamin E contributes to natural cell protection, while Vitamin D3 helps maintain strong bones and teeth for long-term health. Conveniently packed in a practical 100g freshness pouch, this wet food is easy to serve, helps with portion control, and keeps every meal fresh and appetising. Its carefully balanced formulation makes it an ideal choice for daily feeding of small breed adult dogs. Key Benefits Complete wet food for adult small breed dogs Made with lamb and chicken in a delicious sauce High-quality protein supports muscle maintenance Prebiotic inulin promotes healthy digestion Vitamin E helps protect cells from oxidative stress Vitamin D3 supports strong bones and teeth Highly palatable recipe for fussy eaters Convenient 100g freshness pouch Suitable for everyday feeding Easy to portion and serve Analytical Constituents Crude Protein: 8.0% Crude Fat: 5.0% Crude Fibre: 0.4% Crude Ash: 2.0% Energy Content Metabolisable Energy: 916 kcal/kg Metabolisable Energy: 3.8 MJ/kg Feeding Guide Daily feeding recommendations: 5kg body weight: 345–400g 10kg body weight: 585–675g 20kg body weight: 980–1,125g 35kg body weight: 1,495–1,730g The recommended amounts are guidelines only and should be adjusted according to your dog&#8217;s age, activity level, and body condition. If treats or snacks are fed, reduce the daily food allowance accordingly. Storage Instructions Always provide fresh drinking water. Once opened, store refrigerated at 2–6°C and consume within 24 hours. Serve at room temperature for maximum enjoyment. &nbsp;",
+  "images": [
+    {
+      "id": 90374,
+      "alt": "JosiDog Dog Wet Food – Lamb & Chicken in Sauce 100g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/chicken-and-lamb-.png",
+      "name": "chicken and lamb"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 939,
+      "name": "On Sale Now",
+      "slug": "sale"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=10&#038;add-to-cart=90367",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:52.059Z",
+  "dateModified": "2026-06-23T09:15:52.059Z"
+}

@@ -1,62 +1,93 @@
 {
-  "id": 20,
-  "name": "Pack Of 12 - Wanpy Cat Meat Broth - Tuna & Salmon 50g",
+  "id": 89334,
+  "name": "Pack Of 12 – Wanpy Cat Meat Broth – Tuna & Salmon 50g",
   "slug": "pack-of-12-pay-for-10-get-2-free-wanpy-cat-meat-broth-tuna-salmon-50gr",
-  "sku": "PSK-20-wanpy",
-  "onSale": false,
-  "price": 1557,
-  "regularPrice": 1557,
-  "salePrice": null,
+  "sku": "WCW016$12",
+  "onSale": true,
+  "price": 15.57,
+  "regularPrice": 20.76,
+  "salePrice": 15.57,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/03/WANPY-CAT-MEAT-BROTH-TUNA-SALMON-50GR-1.png",
   "categories": [
     {
-      "id": 2,
-      "name": "Cat Food",
-      "slug": "cat-food"
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
     },
     {
-      "id": 4,
-      "name": "Wet Food",
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2330,
+      "name": "Cat Treats",
+      "slug": "cat-treats"
+    },
+    {
+      "id": 2379,
+      "name": "Wanpy",
+      "slug": "wanpy"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/pack-of-12-pay-for-10-get-2-free-wanpy-cat-meat-broth-tuna-salmon-50gr/",
+  "shortDescription": "Wanpy Cat Meat Broth Tuna &amp; Salmon 50g is a grain-free hydrating cat food made with real fish. Rich in Omega-3 and taurine, perfect as a topper or tasty snack for cats. &nbsp;",
+  "description": "Give your cat a delicious and nourishing hydration boost with Wanpy Cat Meat Broth Salmon &amp; Tuna 50g , a premium complementary snack made with real fish. This savory broth combines the rich flavors of salmon and tuna to create an irresistible treat that supports both hydration and daily nutrition. Specially formulated for cats of all life stages, this high-moisture broth contains 92% moisture , making it an excellent way to increase your cat’s daily fluid intake. Proper hydration is essential for maintaining healthy urinary function, digestion, and overall feline wellbeing. Made with natural ingredients and enriched with taurine, salmon oil, and Vitamin E , Wanpy Meat Broth helps support healthy skin, a shiny coat, and optimal heart and eye health. The gentle grain-free formula is ideal for cats with sensitive digestion while remaining highly palatable for even the most selective eaters. Serve it on its own as a tasty snack, pour it over dry food to enhance flavor and moisture, or use it to encourage cats with low appetite to eat. Each convenient 50g pouch delivers freshness, flavor, and nutrition in a perfectly portioned serving. Key Benefits . Real Salmon &amp; Tuna – High-quality fish provides natural flavor and light protein support. . Supports Hydration – 92% moisture content helps increase daily water intake. . Skin &amp; Coat Health – Enriched with salmon oil and Vitamin E for a healthy shiny coat. . Taurine Enriched – Supports heart health and vision in cats. . Grain-Free Formula – Suitable for cats with grain sensitivities. . No Artificial Additives – Free from artificial flavors, colors, and preservatives. . Versatile Feeding – Perfect as a snack, meal topper, or appetite booster. Ingredients Tuna broth, salmon, tuna, salmon oil, egg white, seaweed, guar gum, tapioca starch, calcium carbonate, taurine, salt, glycine, vitamin E. Guaranteed Analysis Nutrient Amount Crude Protein 6.5% Crude Fat 0.1% Crude Fiber 1.5% Crude Ash 1.5% Moisture 92.0% Feeding Guide Serve as a complementary treat alongside a complete and balanced cat diet. Cat Weight Recommended Daily Feeding Less than 2 kg 1 pouch 2 – 4 kg 1–2 pouches Over 4 kg 2–3 pouches Always ensure fresh drinking water is available. Storage Instructions Store in a cool, dry place. Refrigerate after opening and use within 24 hours. Serve at room temperature for best taste. &nbsp;",
+  "images": [
+    {
+      "id": 72291,
+      "alt": "Pack Of 12 – Wanpy Cat Meat Broth – Tuna & Salmon 50g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/03/WANPY-CAT-MEAT-BROTH-TUNA-SALMON-50GR-1.png",
+      "name": "WANPY CAT MEAT BROTH TUNA &#038; SALMON 50GR (1)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 939,
+      "name": "On Sale Now",
+      "slug": "sale"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
       "slug": "wet-food"
     }
   ],
   "brands": [
     {
-      "id": 21,
+      "id": 2479,
       "name": "Wanpy",
       "slug": "wanpy"
     }
   ],
-  "tags": [
-    {
-      "id": 1,
-      "name": "Premium",
-      "slug": "premium"
-    }
-  ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 1,
-  "status": "publish",
-  "dateCreated": "2026-06-22T07:52:40.875Z",
-  "dateModified": "2026-06-22T07:52:40.875Z",
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pack-of-12-pay-for-10-get-2-free-wanpy-cat-meat-broth-tuna-salmon-50gr/",
-  "shortDescription": "Wanpy Cat Meat Broth Tuna & Salmon 50g is a grain-free hydrating cat food made with real fish. Rich in Omega-3 and taurine, perfect as a topper or tasty snack for cats. &nbsp;",
-  "description": "Wanpy Cat Meat Broth Tuna & Salmon 50g is a grain-free hydrating cat food made with real fish. Rich in Omega-3 and taurine, perfect as a topper or tasty snack for cats. &nbsp;",
-  "images": [
-    {
-      "id": 200,
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/03/WANPY-CAT-MEAT-BROTH-TUNA-SALMON-50GR-1.png",
-      "alt": "Pack Of 12 - Wanpy Cat Meat Broth - Tuna & Salmon 50g",
-      "name": "Pack Of 12 - Wanpy Cat Meat Broth - Tuna & Salmon 50g"
-    }
-  ],
   "stockStatus": "instock",
-  "lowStockRemaining": 10,
-  "manageStock": true,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/pack-of-12-pay-for-10-get-2-free-wanpy-cat-meat-broth-tuna-salmon-50gr/?add-to-cart=20"
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=89334",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.959Z",
+  "dateModified": "2026-06-23T09:15:51.959Z"
 }

@@ -1,0 +1,78 @@
+{
+  "id": 46152,
+  "name": "JoseragI Dog Food 10kg",
+  "slug": "josera-gi-dog-food-10kg",
+  "sku": "JHLGID10",
+  "onSale": false,
+  "price": 156.95,
+  "regularPrice": 156.95,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/transparent-4032254768159_hund_josera_help_gastrointestinal_10kg_seitlich_2.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josera-gi-dog-food-10kg/",
+  "shortDescription": "If a dog’s stomach grumbles, the four-legged friend shows no appetite or gets diarrhoea, this is usually due to gastrointestinal problems. The right feed could help in this situation: such as our Josera Help Gastrointestinal Dry food.",
+  "description": "If a dog’s stomach grumbles, the four-legged friend shows no appetite or gets diarrhoea, this is usually due to gastrointestinal problems. The right feed can help in this situation: such as our Josera Help Gastrointestinal Dry food. The easily digestible, gluten-free recipe of this complete dietary feed supports the desired intestinal bacteria thanks to digestion-regulating fibres. The phytogenic complex contains oregano, which has been used in medicine since ancient times. The herb is used in traditional veterinary medicine for digestive problems. With the help of the crunchy kibbles from Josera Help Gastrointestinal, animals with stomach problems can be supported. The dry feed therefore provides a easily digestible diet. The dog will finally tolerate its feed again, have good and regular bowel movements and a healthy appetite. Can help with acute and chronic gastrointestinal problems. With easily digestible, gluten-free recipe and selected ingredients to relieve the digestive tract. Digestion regulating fibres support the desired intestinal bacteria and can improve faecal consistency. Phytogenic complex: oregano is valued for its digestive properties. Composition: Rice; dried poultry protein; poultry fat; potato protein; dried salmon protein; hydrolyzed poultry protein; dried beet pulp (natural source of dietary fibre); cellulose; carob bean; minerals; yeast; oregano; psyllium husks; ground chicory root (natural source of inulin); rosemary; ginger; nettle; milk thistle; cranberry; dried protein from the New Zealand green-lipped mussel (Perna canaliculus). Easily digestible complete dietary feed for adult dogs with gastrointestinal problems FEEDING RECOMMENDATION: Feeding recommendation per day. Weight inactive / older normally active active 5 kg 65 g 80 g 90 g 10 kg 110 g 130 g 155 g 20 kg 185 g 220 g 255 g 30 kg 250 g 300 g 350 g 40 kg 315 g 375 g 430 g 60 kg 430 g 510 g 590 g 80 kg 530 g 630 g 730 g For optimal effect, only feed the diet feed. Additional feedings must be discussed with the attending veterinarian in advance. Ensure that your pet always has access to fresh drinking water.",
+  "images": [
+    {
+      "id": 46154,
+      "alt": "JoseragI Dog Food 10kg",
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/04/transparent-4032254768159_hund_josera_help_gastrointestinal_10kg_seitlich_2.png",
+      "name": "transparent-4032254768159_hund_josera_help_gastrointestinal_10kg_seitlich_2"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 5,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=46152",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.386Z",
+  "dateModified": "2026-06-23T09:15:51.386Z"
+}

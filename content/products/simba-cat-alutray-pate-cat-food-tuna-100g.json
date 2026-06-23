@@ -1,0 +1,83 @@
+{
+  "id": 90283,
+  "name": "Simba Cat Alutray Paté Cat Food – Tuna 100g",
+  "slug": "simba-cat-alutray-pate-cat-food-tuna-100g",
+  "sku": "LSWC008",
+  "onSale": false,
+  "price": 1.72,
+  "regularPrice": 1.72,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/Straighten-Image-for-SEO.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2411,
+      "name": "Simba",
+      "slug": "simba"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/simba-cat-alutray-pate-cat-food-tuna-100g/",
+  "shortDescription": "Delight your cat with the rich taste of Simba Cat Paté Tuna, a complete and balanced wet cat food specially formulated for adult cats. Made with quality tuna, a natural source of protein and minerals, this delicious recipe is steam-cooked to enhance its flavour and encourage a healthy appetite.",
+  "description": "The smooth paté texture makes mealtime enjoyable and easy to eat, while providing the essential nutrients your cat needs for everyday health and vitality. Enriched with Vitamins A, D3, and E, Simba Cat Paté supports healthy vision, strong bones, immune function, and overall wellbeing. Free from added artificial colours and preservatives, this nutritious wet food offers a tasty and wholesome meal your cat will love. Key Benefits Complete and balanced wet food for adult cats Made with quality tuna for a delicious seafood flavour Rich in protein to support muscle maintenance Smooth paté texture for easy chewing and digestion Enriched with Vitamins A, D3, and E Supports overall health and daily vitality Steam-cooked to enhance natural taste No added artificial colours or preservatives Nutritional Additives (per kg) Vitamin A (Retinyl Acetate): 1200 IU Vitamin D3: 160 IU Vitamin E (all-rac-alpha-tocopheryl acetate): 5 mg Feeding Instructions Serve at room temperature. Always provide fresh, clean drinking water. Refrigerate any unused portion after opening and consume within 2 days. Storage Store in a cool, dry place. Size: 100g &nbsp;",
+  "images": [
+    {
+      "id": 90288,
+      "alt": "Simba Cat Alutray Paté Cat Food – Tuna 100g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/Straighten-Image-for-SEO.png",
+      "name": "Straighten Image for SEO"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2464,
+      "name": "Simba",
+      "slug": "simba"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=90283",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:52.042Z",
+  "dateModified": "2026-06-23T09:15:52.042Z"
+}

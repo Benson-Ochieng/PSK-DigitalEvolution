@@ -1,0 +1,72 @@
+{
+  "id": 66534,
+  "name": "Churu Dog Treats – Chicken with Vegetable Recipe 4 Tubes",
+  "slug": "inaba-churu-dog-treats-chicken-with-vegetables",
+  "sku": "BCDT013",
+  "onSale": false,
+  "price": 3.5,
+  "regularPrice": 3.5,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/churu-dog-chicken-vegetables-la.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 2404,
+      "name": "Puppy Treats",
+      "slug": "puppy-treats"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/inaba-churu-dog-treats-chicken-with-vegetables/",
+  "shortDescription": "INABA Churu Chicken Recipe with Vegetables Dog Treats are low-calorie, grain-free, lickable purée snacks with 91% moisture perfect for hydration, training, and pill giving.",
+  "description": "Delight your dog with the rich taste and creamy texture of INABA Churu Chicken Recipe with Vegetables Lickable Dog Treats . Made with high-quality, farm-raised chicken and wholesome vegetables, these smooth purée treats are designed to provide a healthy, interactive, and hydrating snack for dogs of all life stages. Each convenient tube contains 91% moisture , helping support daily hydration especially beneficial during walks, playtime, or warm weather. With only around 6 calories per tube , Churu is a guilt-free treat that supports healthy weight management while still delivering irresistible flavor. INABA Churu Dog Treats are grain-free and free from preservatives, artificial colors, and carrageenan , ensuring a clean, wholesome reward you can trust. Their versatile format allows them to be hand-fed for bonding moments, served in a bowl, used as a food topper, or cleverly used to administer medication with ease. Whether used for training, rewarding good behavior, or simply sharing a moment of joy, INABA Churu Chicken with Vegetables offers a nutritious and delicious experience your dog will love. Key Benefits Made with farm-raised chicken and vegetables 91% moisture to support hydration Low-calorie treat (approx. 6 kcal per tube) Grain-free and additive-free (no preservatives, artificial colors, or carrageenan) Ideal for pill administration, training, or food topping Suitable for dogs of all life stages Feeding &amp; Usage Feed directly from the tube for interactive bonding Pour into a bowl or use as a topper for dry or wet food Use to conceal medication Always provide fresh drinking water Product Details Texture: Smooth, creamy purée Weight: 0.014 kg (14 g per tube) Life Stage: All life stages &nbsp; &nbsp; &nbsp;",
+  "images": [
+    {
+      "id": 66537,
+      "alt": "Churu Dog Treats – Chicken with Vegetable Recipe 4 Tubes",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/churu-dog-chicken-vegetables-la.png",
+      "name": "churu dog chicken vegetables la"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=66534",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.833Z",
+  "dateModified": "2026-06-23T09:15:51.833Z"
+}

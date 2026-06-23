@@ -1,0 +1,72 @@
+{
+  "id": 55900,
+  "name": "Snappy Tom Tuna Shrimp And Jelly 85g",
+  "slug": "snappy-tom-tuna-shrimp-and-jelly-85g",
+  "sku": "STCW004",
+  "onSale": false,
+  "price": 1.69,
+  "regularPrice": 1.69,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/06/SNAPPY-TOM-TUNASHRIMP-IN-JELLY.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/snappy-tom-tuna-shrimp-and-jelly-85g/",
+  "shortDescription": "The amount fed should be adjusted accordingly to your cat activity level. Feed your cat by divided all daily meals into 2 or more servings and ensure fresh clean water is available at all times.",
+  "description": "The amount fed can be adjusted accordingly to your cat activity level. Feed your cat by divided all daily meals into 2 or more servings and ensure fresh clean water is available at all times. Feeding Guide Cat’s Weight Feeding Amount (g/day) 0.5kg – 1.0kg 100g – 170g 1.0kg – 3.0kg 170g – 390g 3.0kg – 4.0kg 390g – 480g &gt; 4.0kg &gt;480g Ingredient List Tuna Gelling Agents Shrimp Vitamins &amp; Minerals Taurine Permitted Food Colours Guaranteed Analysis Crude Protein (Min) 8% Crude Fat (Min) 1.5% Crude Fibre (Max) 1% Moisture (Max) 87",
+  "images": [
+    {
+      "id": 55901,
+      "alt": "Snappy Tom Tuna Shrimp And Jelly 85g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/06/SNAPPY-TOM-TUNASHRIMP-IN-JELLY.png",
+      "name": "SNAPPY TOM TUNA&amp;SHRIMP IN JELLY"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=55900",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.634Z",
+  "dateModified": "2026-06-23T09:15:51.634Z"
+}

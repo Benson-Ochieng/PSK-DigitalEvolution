@@ -50,10 +50,10 @@ export async function getAdminUser(request: Request): Promise<User | null> {
 export async function requireAdminUser(request: Request): Promise<User> {
   const user = await getAdminUser(request);
   if (!user) {
-    throw redirect("/vp-backend/login");
+    throw redirect("/store_backend/login");
   }
   if (user.status === "suspended") {
-    throw redirect("/vp-backend/login?error=suspended");
+    throw redirect("/store_backend/login?error=suspended");
   }
   return user;
 }
@@ -70,7 +70,7 @@ export async function createUserSession(userId: string, redirectTo: string) {
 
 export async function logout(request: Request) {
   const session = await getSession(request);
-  return redirect("/vp-backend/login", {
+  return redirect("/store_backend/login", {
     headers: {
       "Set-Cookie": await sessionStorage.destroySession(session),
     },

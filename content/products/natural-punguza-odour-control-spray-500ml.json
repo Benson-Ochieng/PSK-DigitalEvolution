@@ -1,0 +1,87 @@
+{
+  "id": 38816,
+  "name": "Natural Punguza Odour Control Spray 500Ml",
+  "slug": "natural-punguza-odour-control-spray-500ml",
+  "sku": "NPOCS1",
+  "onSale": false,
+  "price": 6.5,
+  "regularPrice": 6.5,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/08/Untitled-design-1.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2343,
+      "name": "Cat Grooming",
+      "slug": "cat-grooming"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2360,
+      "name": "Dog Grooming & Cleaning",
+      "slug": "dog-grooming-cleaning-supplies"
+    },
+    {
+      "id": 2393,
+      "name": "Dog Hygiene & Potty Solutions",
+      "slug": "dog-hygiene-potty-solutions"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/natural-punguza-odour-control-spray-500ml/",
+  "shortDescription": "Natural Punguza odour control spray: No toxicity, No Chemical, No Bacteria, No enzymes, No Masking agents, Biodegradable, naturally derived, environmentally preferred spray.",
+  "description": "Natural Punguza odour control spray: No toxicity, No Chemical, No Bacteria, No Enzymes, No Masking agents, Biodegradable, naturally derived, environmentally preferred spray. Eliminates foul smell from: 1. Washrooms, toilets, dustbins, carpet, fabric, nappies, litter boxes, pets. 2. Rubbish collection bins, rubbish chutes, transfer stations, tipping floors, rubbish lorries, dumpsites. 3. Food waste, compost, animals, animal waste 4. Portable toilets, compost, animals, animal waste 5. Portable toilets, bathroom drains, Kitchen drains, grease traps. 6. Grey water, stagnant water, sewage, sludge. 7. Any other organic material with foul smell. Usage instructions: 1. Shake well and spray generously. 2. Spray daily or as required. Ingredients: Purified water, natural plat extracts, lavender Caution: 1. Do not ingest. 2. Eye Contact: Flush immediately with water for 5 minutes 3. Ingestion: No adverse effects anticipated",
+  "images": [
+    {
+      "id": 38818,
+      "alt": "Natural Punguza Odour Control Spray 500Ml",
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/08/Untitled-design-1.png",
+      "name": "Untitled design (1)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2098,
+      "name": "Grooming &amp; Tools",
+      "slug": "grooming-tools"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": 3,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=3&#038;add-to-cart=38816",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.314Z",
+  "dateModified": "2026-06-23T09:15:51.314Z"
+}

@@ -1,0 +1,78 @@
+{
+  "id": 24557,
+  "name": "Rogz-Dog Slurp Bowl 1050ml – Pink Non-Skid Rubber Base (BOWL23-K)",
+  "slug": "rogz-dog-slurp-bowl-1050ml-pink-non-skid-rubber-base",
+  "sku": "BOWL23-K",
+  "onSale": false,
+  "price": 24,
+  "regularPrice": 24,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/BOWL23-K-Slurp-Pink.jpg",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2366,
+      "name": "Dog Bowls & Feeders",
+      "slug": "dog-bowls-feeders"
+    },
+    {
+      "id": 2064,
+      "name": "Rogz",
+      "slug": "rogz"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-dog-slurp-bowl-1050ml-pink-non-skid-rubber-base/",
+  "shortDescription": "Rogz Stainless Steel Feeding bowl with Non skid base",
+  "description": "A bowl made solely of Stainless Steel with a non-slip silicone base. Hygenic: easy to clean, 100% non-harmful or toxic to pet&#8217;s body. Durable: UV resitant and corrosion resistant. Non-Skid Base made from non-toxic silicone to prevent slippage. Size: 1050ml",
+  "images": [
+    {
+      "id": 24582,
+      "alt": "Rogz-Dog Slurp Bowl 1050ml – Pink Non-Skid Rubber Base (BOWL23-K)",
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/BOWL23-K-Slurp-Pink.jpg",
+      "name": "BOWL23-K-Slurp-Pink.jpg"
+    },
+    {
+      "id": 24583,
+      "alt": "Rogz-Dog Slurp Bowl 1050ml – Pink Non-Skid Rubber Base (BOWL23-K)",
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/BOWL23-K-Slurp-Pink-Reverse.jpg",
+      "name": "BOWL23-K-Slurp-Pink-Reverse.jpg"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2072,
+      "name": "Bowls",
+      "slug": "bowls"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": 2,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=2&#038;add-to-cart=24557",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.217Z",
+  "dateModified": "2026-06-23T09:15:51.217Z"
+}

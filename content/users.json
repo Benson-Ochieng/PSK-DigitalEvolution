@@ -2,7 +2,7 @@
   {
     "id": "u-admin",
     "name": "System Admin",
-    "email": "admin@petstore.co.ke",
+    "email": "admin@visionplus.co.ke",
     "username": "admin",
     "role": "administrator",
     "ordersCount": 0,
@@ -13,7 +13,7 @@
   {
     "id": "u-manager",
     "name": "Shop Manager",
-    "email": "manager@petstore.co.ke",
+    "email": "manager@visionplus.co.ke",
     "username": "manager",
     "role": "shop_manager",
     "ordersCount": 0,

@@ -1,0 +1,63 @@
+{
+  "id": 63430,
+  "name": "Grounded Hand Soap 5L",
+  "slug": "grounded-hand-soap-5l",
+  "sku": "HSP5",
+  "onSale": false,
+  "price": 56.03,
+  "regularPrice": 56.03,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/12/GROUNDED-1.png",
+  "categories": [
+    {
+      "id": 2033,
+      "name": "Grounded",
+      "slug": "grounded"
+    },
+    {
+      "id": 2243,
+      "name": "Humans",
+      "slug": "human"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/grounded-hand-soap-5l/",
+  "shortDescription": "Grounded 5L Castile Hand Soap Refills: natural, non-toxic, long-lasting and eco-friendly. Gentle on skin, perfect for homes, offices and high-use spaces.",
+  "description": "Keep every handwash clean, safe, and sustainable with Grounded’s 5-liter Castile Hand Soap Refill. Made from natural plant oils—including coconut, canola and sunflower—this concentrated formula delivers a luxurious foam that lifts away dirt while protecting your skin’s natural moisture. Perfect for homes, offices, schools, restaurants and high-traffic spaces, each 5L refill is designed to last significantly longer than standard gel soaps, offering hundreds of washes per container. Choose from pure unscented or essential-oil-infused options for a naturally refreshing cleanse. Crafted without sulfates, parabens, synthetic fragrances or harsh chemicals, this non-toxic soap is safe for families and gentle enough for daily use. Its biodegradable ingredients and refillable packaging help reduce plastic waste, making it a smart, planet-friendly choice. Why You’ll Love It Long-lasting value — Concentrated formula provides many more washes than typical liquid soaps. Gentle + effective — Cleans thoroughly while keeping hands soft. Eco-friendly — Refillable, biodegradable and packaged with recycled materials. Non-toxic — Free from SLS, parabens, and synthetic fragrances. Perfect for high-use environments — Ideal for multiple dispensers or large households. A cleaner home. A lighter footprint. A better way to wash. &nbsp; &nbsp; &nbsp;",
+  "images": [
+    {
+      "id": 63433,
+      "alt": "Grounded Hand Soap 5L",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/12/GROUNDED-1.png",
+      "name": "GROUNDED (1)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2245,
+      "name": "Human",
+      "slug": "human"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2441,
+      "name": "Grounded",
+      "slug": "grounded"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 1,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=63430",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.801Z",
+  "dateModified": "2026-06-23T09:15:51.801Z"
+}

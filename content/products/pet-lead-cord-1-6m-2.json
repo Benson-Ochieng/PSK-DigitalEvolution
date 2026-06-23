@@ -1,0 +1,82 @@
+{
+  "id": 43330,
+  "name": "Pet Leash Cord 1.6m",
+  "slug": "pet-lead-cord-1-6m-2",
+  "sku": "PG0005",
+  "onSale": false,
+  "price": 9.5,
+  "regularPrice": 9.5,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/01/PET-LEAD-CORD-1.6.webp",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2351,
+      "name": "Collars, Leashes & Harnesses",
+      "slug": "dog-collars-leashes-and-harnesses"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2353,
+      "name": "Dog Leashes",
+      "slug": "dog-leashes"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/pet-lead-cord-1-6m-2/",
+  "shortDescription": "Elevating your range of dog accessories and pet accessories, this lead could be used to control dogs when around other dogs or hazardous areas as the road. The colour/style received with online purchases is chosen randomly.",
+  "description": "Play for the active dog lead is available in 3 assorted colors: Black, Red and Grey and Blue. Ideal for keeping dogs safe and under control during dog walking and training activities, the lead is a durable polyester design which can be used with dog harnesses and dog collars. Length; 1.6m 3 Assorted colors; Black, Blue, Grey and Red Material: Polyester Elevating your range of dog accessories and pet accessories, this lead can be used to control dogs when around other dogs or hazardous areas as the road.",
+  "images": [
+    {
+      "id": 43331,
+      "alt": "Pet Leash Cord 1.6m",
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/01/PET-LEAD-CORD-1.6.webp",
+      "name": "PET LEAD CORD 1.6"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1919,
+      "name": "Leashes",
+      "slug": "leash"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=43330",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.359Z",
+  "dateModified": "2026-06-23T09:15:51.359Z"
+}

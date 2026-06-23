@@ -1,0 +1,88 @@
+{
+  "id": 16980,
+  "name": "Pack Of 20: Proline Adult Dog Food Canned  Lamb Chunks in Gravy 415g",
+  "slug": "proline-adult-dog-food-canned-lamb-chunks-in-gravy-0-415kg-pack-of-20",
+  "sku": "PDW003$20",
+  "onSale": true,
+  "price": 52.02,
+  "regularPrice": 57.8,
+  "salePrice": 52.02,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/04/Proline-lamb.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 796,
+      "name": "Proline",
+      "slug": "proline"
+    },
+    {
+      "id": 2349,
+      "name": "Wet Dog Food",
+      "slug": "wet-dog-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/proline-adult-dog-food-canned-lamb-chunks-in-gravy-0-415kg-pack-of-20/",
+  "shortDescription": "Fully balanced all-natural wet dog food with lamb protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult dogs.",
+  "description": "Proline Adult Dog Food Canned &#8211; Lamb Chunks in Gravy (Pack of 20) , fully balanced all-natural dog food with lamb protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult dogs. NUTRIENT COMPONENTS Protein &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230; 6.5% Fat &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;. 3.5% Crude Ash&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;2% Crude Cellulose (Fiber) &#8230;&#8230;&#8230;&#8230;&#8230; 0.3% Moisture &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;..82% INGREDIENTS: Meat and animal derivatives (4% lamb), cereals, minerals, vegetable by-products, sugar. MINERALS: Zinc, Manganese, Copper. VITAMINS: Vit. D3, Vit. E.",
+  "images": [
+    {
+      "id": 27553,
+      "alt": "Pack Of 20: Proline Adult Dog Food Canned Lamb Chunks in Gravy 415g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/04/Proline-lamb.png",
+      "name": "Proline lamb"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2055,
+      "name": "Bulk Cat Food &amp; Bulk Dog Food",
+      "slug": "bulk"
+    },
+    {
+      "id": 622,
+      "name": "canned food",
+      "slug": "canned-food"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2461,
+      "name": "Proline",
+      "slug": "proline"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=1&#038;add-to-cart=16980",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.099Z",
+  "dateModified": "2026-06-23T09:15:51.099Z"
+}

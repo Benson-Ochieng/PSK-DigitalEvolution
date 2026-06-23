@@ -1,0 +1,77 @@
+{
+  "id": 42852,
+  "name": "Cat Collar With Bells 36cm",
+  "slug": "cat-collar-w-bells-36cm",
+  "sku": "PG0086",
+  "onSale": false,
+  "price": 7.8,
+  "regularPrice": 7.8,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/01/CAT-COLLAR-WITH-BELLS-36CM.webp",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2335,
+      "name": "Cat Collars",
+      "slug": "cat-collars"
+    },
+    {
+      "id": 2334,
+      "name": "Cat Collars, Leashes, Harnesses",
+      "slug": "cat-collars-leashes-harnesses"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/cat-collar-w-bells-36cm/",
+  "shortDescription": "Cat collar with bells &#8211; 36cm 1 piece assorted, colour randomly selected unless specifically requested.",
+  "description": "Cat collar with bells &#8211; 36cm 1 piece assorted, colour randomly selected unless specifically requested.",
+  "images": [
+    {
+      "id": 42853,
+      "alt": "Cat Collar With Bells 36cm",
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/01/CAT-COLLAR-WITH-BELLS-36CM.webp",
+      "name": "CAT COLLAR WITH BELLS 36CM"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2065,
+      "name": "Collars",
+      "slug": "collar"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": 4,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=42852",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.350Z",
+  "dateModified": "2026-06-23T09:15:51.350Z"
+}

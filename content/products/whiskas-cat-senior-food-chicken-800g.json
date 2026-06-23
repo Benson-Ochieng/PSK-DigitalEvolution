@@ -1,0 +1,78 @@
+{
+  "id": 89718,
+  "name": "Whiskas Cat Senior Food – Chicken 800g",
+  "slug": "whiskas-cat-senior-food-chicken-800g",
+  "sku": "WCD005",
+  "onSale": false,
+  "price": 13.5,
+  "regularPrice": 13.5,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Food-Chicken-800g-1.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 2382,
+      "name": "Whiskas",
+      "slug": "whiskas"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/whiskas-cat-senior-food-chicken-800g/",
+  "shortDescription": "Give your senior cat the tailored nutrition they deserve with this complete and balanced 7+ Senior Dry Cat Food recipe, specially formulated to support healthy aging, vitality, and everyday wellbeing. Made with high-quality chicken and carefully selected ingredients, this delicious recipe provides essential nutrients to help older cats stay active, healthy, and satisfied at every mealtime.",
+  "description": "Designed specifically for cats aged 7 years and above, the formula contains scientifically balanced minerals to help support urinary tract health, while Vitamin E and Taurine contribute to strong natural defences and overall wellbeing. Natural fibre sources also help support healthy digestion and aid in maintaining optimal nutrient absorption. The crunchy kibble texture helps support dental health by encouraging chewing, making it an ideal daily diet for aging cats with changing nutritional needs. Crafted with a balanced blend of proteins, vitamins, minerals, and wholesome ingredients, this senior cat food delivers complete nutrition in every bowl. Key Benefits Specially formulated for senior cats aged 7+ Complete and balanced daily nutrition Supports urinary tract health with balanced mineralsUsing this formart Vitamin E and Taurine help support natural defences Natural source of fibre for healthy digestion Helps support dental health with crunchy kibble texture Made with quality chicken for great taste and protein support Designed to meet the changing nutritional needs of aging cats Feeding Transition Guide To help avoid digestive upset, transition your cat gradually over 7–8 days: Days 1–3: 25% new food / 75% old food Days 4–5: 50% new food / 50% old food Days 6–7: 75% new food / 25% old food Day 8 onwards: 100% new food Always monitor your cat’s appetite, behaviour, and digestion during the transition period, and ensure fresh drinking water is available at all times &nbsp;",
+  "images": [
+    {
+      "id": 89726,
+      "alt": "Whiskas Cat Senior Food – Chicken 800g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Food-Chicken-800g-1.png",
+      "name": "Whiskas Cat Food Chicken 800g (1)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2480,
+      "name": "Whiskas",
+      "slug": "whiskas"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=89718",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.968Z",
+  "dateModified": "2026-06-23T09:15:51.968Z"
+}

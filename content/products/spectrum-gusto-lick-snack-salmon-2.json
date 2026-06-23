@@ -1,0 +1,88 @@
+{
+  "id": 68718,
+  "name": "Spectrum Gusto Lick Snack For Cat With Salmon 4x15g",
+  "slug": "spectrum-gusto-lick-snack-salmon-2",
+  "sku": "SCW002",
+  "onSale": false,
+  "price": 5.5,
+  "regularPrice": 5.5,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/spectrum-gusto-lick-snack-Salmon.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2330,
+      "name": "Cat Treats",
+      "slug": "cat-treats"
+    },
+    {
+      "id": 2403,
+      "name": "Kitten Treats",
+      "slug": "kitten-treats"
+    },
+    {
+      "id": 180,
+      "name": "Spectrum",
+      "slug": "spectrum"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/spectrum-gusto-lick-snack-salmon-2/",
+  "shortDescription": "Spectrum Gusto Lick Snack Salmon – creamy, lickable cat treat with real salmon loin. Low fat, high moisture, perfect for dessert or everyday feeding.",
+  "description": "Spoil your cat with Spectrum Gusto Lick Snack Salmon , a creamy, lickable treat made with 29.4% real salmon loin for an irresistible taste. This smooth, soft snack is perfect as a dessert, reward, or everyday indulgence , encouraging bonding and playful interaction between you and your cat. The treat is high in moisture (87%) to help support hydration and low in fat (1%) , making it a healthy option for cats of all ages. Modified tapioca starch (E1442) and guar gum (E412) ensure a creamy, easy-to-serve texture , while the carefully selected ingredients provide a natural, wholesome flavor cats love. Serve in small portions on a spoon to make feeding fun and interactive. Always provide fresh drinking water alongside the treat. Key Benefits Made with real salmon loin (29.4%) for natural taste Creamy, lickable texture for easy feeding High moisture content (87%) supports hydration Serve in small portions with a spoon for bonding and play Low fat (1%) and no artificial colors or flavors Nutritional Information Ingredients Water Salmon whole loin 29.4% Modified tapioca starch (E1442) Guar gum (E412) Soybean oil Analytical Constituents Crude Protein: 6% Fat content: 1% Crude Ash: 1% Crude Cellulose (Fiber): 0.1% Moisture: 87% &nbsp; Feeding &amp; Storage Advice Serve as a dessert or everyday treat Offer in small portions on a spoon Provide fresh drinking water at all times See packaging imprint for full instructions &nbsp; &nbsp; &nbsp; &nbsp;",
+  "images": [
+    {
+      "id": 68719,
+      "alt": "Spectrum Gusto Lick Snack For Cat With Salmon 4x15g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/spectrum-gusto-lick-snack-Salmon.png",
+      "name": "spectrum gusto lick snack Salmon"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2468,
+      "name": "Spectrum",
+      "slug": "spectrum"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=68718",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.871Z",
+  "dateModified": "2026-06-23T09:15:51.871Z"
+}

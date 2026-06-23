@@ -1,0 +1,88 @@
+{
+  "id": 73522,
+  "name": "Wanpy Dog Treats – Sweet Potato Dumbbells 100g",
+  "slug": "wanpy-dog-treats-sweet-potato-dumbbells-100gr",
+  "sku": "WDW012",
+  "onSale": true,
+  "price": 3.16,
+  "regularPrice": 3.95,
+  "salePrice": 3.16,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/03/wANPY-ROASTED-SWEET-POTATO-3.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 2379,
+      "name": "Wanpy",
+      "slug": "wanpy"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/wanpy-dog-treats-sweet-potato-dumbbells-100gr/",
+  "shortDescription": "WANPY Sweet Potato Dumbbells Dog Treats are premium, oven-roasted snacks made with high-quality, human-grade ingredients to deliver a healthy, delicious reward for dogs of all breeds and sizes. Designed to combine taste, nutrition, and safety, these treats are ideal for training, rewarding, or everyday snacking. &nbsp;",
+  "description": "Crafted with a flavorful sweet potato base, WANPY Sweet Potato Dumbbells offer a naturally sweet taste that dogs love while providing essential nutrients. The oven-roasting process helps retain natural flavors and beneficial nutrients, ensuring a wholesome and satisfying treat experience. Key Features Made with high-quality, human-grade ingredients Oven-roasted for enhanced flavor and nutrition Rich in dietary fiber to support healthy digestion Highly palatable , suitable for picky eaters Non-toxic and safe for dogs of all sizes and breeds Ideal for training, rewards, and daily treats Nutritional Benefits Sweet potato is a natural source of fiber, vitamins, and essential minerals that support digestive health, energy levels, and overall well-being. These treats provide a healthier alternative to conventional dog snacks while maintaining excellent taste and texture. Why Choose WANPY Dog Treats? WANPY is known for producing high-quality pet treats that meet strict safety and quality standards. These sweet potato dumbbells are carefully formulated to ensure consistency, safety, and enjoyment in every bite, making them a trusted choice for pet owners, veterinarians, and pet retailers. Feeding Guidelines Feed as a treat or reward. Ensure your dog has access to fresh drinking water at all times. Not intended to replace a complete and balanced diet.",
+  "images": [
+    {
+      "id": 73529,
+      "alt": "Pack Of 12 – Wanpy Dog Treats – Sweet Potato Dumbbells 100g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/03/wANPY-ROASTED-SWEET-POTATO-3.png",
+      "name": "wANPY ROASTED SWEET POTATO (3)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 939,
+      "name": "On Sale Now",
+      "slug": "sale"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2479,
+      "name": "Wanpy",
+      "slug": "wanpy"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=73522",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.954Z",
+  "dateModified": "2026-06-23T09:15:51.954Z"
+}

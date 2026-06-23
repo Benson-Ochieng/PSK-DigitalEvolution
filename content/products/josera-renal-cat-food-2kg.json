@@ -1,0 +1,88 @@
+{
+  "id": 46146,
+  "name": "Josera Renal cat Food 2kg",
+  "slug": "josera-renal-cat-food-2kg",
+  "sku": "JHLRC2",
+  "onSale": false,
+  "price": 48.2,
+  "regularPrice": 48.2,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/white-_josera-help-renal-2kg_1-1.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josera-renal-cat-food-2kg/",
+  "shortDescription": "Does your cat suffer from kidney disease? In such cases, the right feed could provide relief: Feed such as our Josera Help Renal, which has been specially tailored to cats with kidney problems.",
+  "description": "Does your cat suffer from kidney disease? In such cases, the right feed can provide relief: Feed such as our Josera Help Renal, which has been specially tailored to cats with kidney problems. Because many cats with kidney disease often eat poorly – the high acceptance of the medicated dry feed helps here. Josera Help Renal promotes nutrient supply day after day – with all the important vitamins, minerals and trace elements that the cat needs. The protein- and phosphorus-reduced recipe also helps to relieve the kidneys in particular. To compensate, each kibble of the complete dietary feed is rich in B vitamins, which would otherwise be increasingly lost through the kidneys in such a condition. The nettle contained in the phytogenic complex is traditionally used for flushing therapy of the draining urinary tract and is also valued for its anti-inflammatory properties. The sick kidney is relieved and thus the well-being of the cat is increased. Unfortunately, the process of the disease can usually only be slowed down. Metabolising organs, especially the kidneys, are relieved by the low-protein and low-phosphorus recipe. Rich in B vitamins, which are increasingly lost with kidney disease. Phytogen complex: nettle promotes excretion via the urinary tract. Thanks to high acceptance and energy density, slimming is counteracted, and the supply of nutrients is ensured. Salmon oil provides omega-3 fatty acids, which are anti-inflammatory and play an important role in the immune system. Composition: Dried greaves protein; poultry fat; rice; maize; dried beet pulp (natural source of dietary fibre); dried potato; potato protein; hydrolysed animal protein; minerals; poultry liver hydrolysate; salmon oil; oregano; ginger; rosemary; nettle; milk thistle; cranberry. Dietary complete feed with gluten free recipe for adult cats with chronic renal insufficiency (CRI). FEEDING RECOMMENDATION: Feeding recommendation per day. Weight inactive / older normally active / active 2-3 kg 30-40 g 40-50 g 3-4 kg 40-45 g 50-60 g 4-5 kg 45-55 g 60-70 g 5-7 kg 55-70 g 70-90 g 7-10 kg 70-85 g 90-115 g For optimal effect, only feed this diet to your Cat. Additional feedings must be discussed with the attending veterinarian in advance. Ensure that your pet always has access to fresh drinking water.",
+  "images": [
+    {
+      "id": 46147,
+      "alt": "Josera Renal cat Food 2kg",
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/04/white-_josera-help-renal-2kg_1-1.png",
+      "name": "white-_josera-help-renal-2kg_1-1"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 2319,
+      "name": "Veterinary Range",
+      "slug": "veterinary-range"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=46146",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.384Z",
+  "dateModified": "2026-06-23T09:15:51.384Z"
+}

@@ -1,0 +1,83 @@
+{
+  "id": 56580,
+  "name": "Montego Bags O' Wags Dog Treats – Dental Sticks 500g",
+  "slug": "montego-bags-o-wags-dental-sticks-500g",
+  "sku": "MBWDS500",
+  "onSale": false,
+  "price": 14.15,
+  "regularPrice": 14.15,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Montego-Bags-O-Wags-Dental-Sticks-500g-1.png",
+  "categories": [
+    {
+      "id": 2380,
+      "name": "Bags-o-wags",
+      "slug": "bags-o-wags"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 2298,
+      "name": "Montego",
+      "slug": "montego"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/montego-bags-o-wags-dental-sticks-500g/",
+  "shortDescription": "Montego Bags O’ Wags Dental Sticks 120g are highly nutritious, butternut-flavoured dog treats designed to promote dental health while providing a tasty and rewarding chew for adult dogs. Not suitable for puppies.",
+  "description": "Give your dog a wagtastically delicious and nutritious treat that supports oral health! Montego BAGS O’ WAGS Dental Sticks are firm, chewtastically satisfying snacks specially crafted for adult dogs, especially larger breeds. Featuring a naturally sweet butternut flavour that dogs love, these treats help reduce plaque and tartar build-up, promote gum health, and freshen breath. Perfect as a daily reward, training incentive, or between-meal snack, they complement any Montego dry or wet food diet. Key Features: Flavour: Butternut is naturally sweet and highly appealing Size &amp; Weight: 500g value packs for larger dogs Dental Benefits: Helps clean teeth, reduce tartar, and support healthy gums Versatile Use: Ideal for training, rewarding good behaviour, or daily snacks Complements Montego Diets: Perfect alongside Montego dry or wet food meals Ingredients &amp; Nutritional Info: Corn starch, chicken meal, water, glycerine, milk powder (lactose reduced), wheat gluten, propylene glycol, sugars, poultry fat, dehydrated butternut and carrots, sodium hexametaphosphate, fish oil. Additives (/kg): Sensory: Meat-based enhancers with chicken aroma, orange colourant; Preservatives: Potassium sorbate. Nutrient Amount Crude Protein 12.5% Total Fat 5.5% Crude Fibre 0.5% Moisture 18.5% Omega-6 fatty acids 1.5% Omega-3 fatty acids 0.3% Sugars 2.5% Metabolizable Energy 342kcal/100 g Treat your dog to a healthy chew that’s full of yummy goodness and supports their smile every day! &nbsp;",
+  "images": [
+    {
+      "id": 60993,
+      "alt": "Montego Bags O’ Wags Dog Treats – Dental Sticks 500g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Montego-Bags-O-Wags-Dental-Sticks-500g-1.png",
+      "name": "_Montego Bags O&#8217; Wags Dental Sticks &#8211; 500g (1)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2425,
+      "name": "Bags-o-wags",
+      "slug": "bags-o-wags"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=56580",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.658Z",
+  "dateModified": "2026-06-23T09:15:51.658Z"
+}

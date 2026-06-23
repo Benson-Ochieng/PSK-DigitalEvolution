@@ -1,0 +1,98 @@
+{
+  "id": 42760,
+  "name": "Generic Cat Litter Box With Scoop",
+  "slug": "generic-cat-litter-tray-w-scoop-51x41cm",
+  "sku": "PG0805",
+  "onSale": false,
+  "price": 36.83,
+  "regularPrice": 36.83,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/GENERIC-CAT-LITTER-BOX-WITH-SCOOP-PG0805.png",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2279,
+      "name": "CS",
+      "slug": "cs"
+    },
+    {
+      "id": 2096,
+      "name": "Generic",
+      "slug": "generic"
+    },
+    {
+      "id": 2331,
+      "name": "Litter and Litter Box & Accessories",
+      "slug": "cat-litter-and-accessories"
+    },
+    {
+      "id": 2333,
+      "name": "Litter Boxes",
+      "slug": "cat-litter-boxes"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/generic-cat-litter-tray-w-scoop-51x41cm/",
+  "shortDescription": "This Cat Litter Box combines beauty and functionality, with a free litter scoop. Measurements: 51 x 41cm This item is available in two different colors, and we cannot guarantee which color you will receive when purchasing online.",
+  "description": "This Cat Litter Box combines beauty and functionality. It is open with curved edges to prevent cat litter falling over and a removable top making it an easy-to-clean litter box. Reasons why your cat needs a litter box Hygiene: The Clean Cat advantage, Understanding Your Cat&#8217;s Cleanliness Needs. By keeping the litter box clean, you provide a comfortable and inviting space for your cat to do their business. Ensuring Territorial Comfort: Respecting Your Cat&#8217;s Personal Space. Monitoring Health: Keeping Tabs on Your Cat&#8217;s Well-being. Promoting Behavioral Harmony: Preventing Unpleasant Surprises. Simplifying Life: Enhancing Convenience for You Both. Healthy cats will generally visit the litter box between three and five times each day , and this includes going both number one and number two. If your cat is relieving itself more than five times each day, this doesn&#8217;t necessarily point to a health issue. If you have more than one cat, we recommend having at least one litter box per cat. This ensures that each cat has access to their own litter box and can avoid territorial disputes.",
+  "images": [
+    {
+      "id": 50292,
+      "alt": "Generic Cat Litter Box With Scoop",
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/12/GENERIC-CAT-LITTER-BOX-WITH-SCOOP-PG0805.png",
+      "name": "GENERIC CAT LITTER BOX WITH SCOOP (PG0805)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 819,
+      "name": "cat litter",
+      "slug": "cat-litter"
+    },
+    {
+      "id": 2119,
+      "name": "cat litter box",
+      "slug": "cat-litter-box"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2434,
+      "name": "CS",
+      "slug": "cs"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=42760",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.349Z",
+  "dateModified": "2026-06-23T09:15:51.349Z"
+}

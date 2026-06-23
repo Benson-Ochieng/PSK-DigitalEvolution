@@ -1,0 +1,88 @@
+{
+  "id": 68644,
+  "name": "J4D 2n1 Sensitive Dog Shampoo 500ml",
+  "slug": "j4d-2-in-1-sensitive-dog-shampoo-500ml",
+  "sku": "GJ4D005",
+  "onSale": false,
+  "price": 6.95,
+  "regularPrice": 6.95,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/2-IN-1-DOG-SHAMPOO-1-1.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2360,
+      "name": "Dog Grooming & Cleaning",
+      "slug": "dog-grooming-cleaning-supplies"
+    },
+    {
+      "id": 2420,
+      "name": "J4D",
+      "slug": "j4d"
+    },
+    {
+      "id": 2390,
+      "name": "Shampoo",
+      "slug": "dog-shampoo"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/j4d-2-in-1-sensitive-dog-shampoo-500ml/",
+  "shortDescription": "J4D 2 In 1 Sensitive Dog Shampoo 500ml gently cleanses and conditions sensitive skin, leaving dogs’ coats soft, shiny, and tangle-free. Safe for all breeds.",
+  "description": "J4D 2 In 1 Sensitive Dog Shampoo 500ml is specially formulated to gently cleanse and condition dogs with delicate or sensitive skin. This mild 2-in-1 shampoo removes dirt and impurities while softening and detangling fur, leaving your dog’s coat healthy, shiny, and easy to manage. Safe for all breeds including puppies and dogs prone to skin irritation—this shampoo nourishes the skin, reduces tangles, and enhances natural coat shine. Ideal for regular use, it keeps sensitive dogs comfortable while simplifying grooming routines. Key Features 500ml 2-in-1 shampoo with built-in conditioner Gentle formula for delicate and sensitive skin Softens and detangles fur, reducing knots Suitable for all breeds, including puppies and sensitive dogs Benefits for Pet Owners Cleans and nourishes without irritation Leaves fur soft, smooth, and shiny Helps maintain healthy, comfortable skin Ideal for frequent use on sensitive dogs Product Advantages Saves time with combined shampoo and conditioner Minimizes risk of allergic reactions or skin dryness Enhances coat softness and natural shine How to Use Wet your dog’s coat thoroughly Apply shampoo and gently lather into fur and skin Rinse thoroughly and repeat if needed Towel dry or blow dry for best results Benefits for Retailers Popular among owners of sensitive dogs; encourages repeat purchases Fits well in pet grooming, hygiene, and sensitive-care categories Impulse-friendly SKU for pet shops, veterinary clinics, and supermarkets &nbsp; &nbsp; &nbsp; &nbsp;",
+  "images": [
+    {
+      "id": 68652,
+      "alt": "J4D 2n1 Sensitive Dog Shampoo 500ml",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/2-IN-1-DOG-SHAMPOO-1-1.png",
+      "name": "2 IN 1 DOG SHAMPOO (1)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 2025,
+      "name": "shampoo",
+      "slug": "shampoo"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2443,
+      "name": "J4D",
+      "slug": "j4d"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=68644",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.860Z",
+  "dateModified": "2026-06-23T09:15:51.860Z"
+}

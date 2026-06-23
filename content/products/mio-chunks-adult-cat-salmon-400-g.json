@@ -1,0 +1,88 @@
+{
+  "id": 56856,
+  "name": "Mio Chunks Adult Cat Salmon 400g",
+  "slug": "mio-chunks-adult-cat-salmon-400-g",
+  "sku": "MCACS",
+  "onSale": false,
+  "price": 2.57,
+  "regularPrice": 2.57,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-37-1.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2385,
+      "name": "Mio",
+      "slug": "mio"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/mio-chunks-adult-cat-salmon-400-g/",
+  "shortDescription": "Salmon chunks in gravy for adult cats is freshly prepared and cooked for great taste and natural nutrition. With minerals and vitamins A, vitamin D3 and vitamin E",
+  "description": "Fresh meat and meat products, Fish &amp; fish products (min. salmon 4%) plant products(vegetables), minerals, vitamins. Analytical Constituents: Crude Protein 7.5% Crude Fat 4% Ash 3% Crude Fiber 0.4% Moisture 82%",
+  "images": [
+    {
+      "id": 58230,
+      "alt": "Mio Chunks Adult Cat Salmon 400g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-37-1.png",
+      "name": "Untitled design (37)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 622,
+      "name": "canned food",
+      "slug": "canned-food"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2452,
+      "name": "Mio",
+      "slug": "mio"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 2,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=56856",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.701Z",
+  "dateModified": "2026-06-23T09:15:51.701Z"
+}

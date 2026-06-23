@@ -1,0 +1,82 @@
+{
+  "id": 46794,
+  "name": "Vinyl Squeaky Natural Bone Small",
+  "slug": "vinyl-squeaky-natural-bone-small-2",
+  "sku": "PA3297",
+  "onSale": false,
+  "price": 3.8,
+  "regularPrice": 3.8,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/05/VINYL-SQUEAKY-NATURAL-BONE-SMALL-e1715090150311.png",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2358,
+      "name": "Chew Toys",
+      "slug": "dog-chew-toys"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/vinyl-squeaky-natural-bone-small-2/",
+  "shortDescription": "The Pet Dog Toy is made of non-toxic vinyl rubber material, bone shaped, it is great for your pet dog to play or chew.",
+  "description": "The Pet Dog Toy is made of non-toxic vinyl rubber material, bone shaped, it is great for your pet dog to play or chew.",
+  "images": [
+    {
+      "id": 46795,
+      "alt": "Vinyl Squeaky Natural Bone Small",
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/05/VINYL-SQUEAKY-NATURAL-BONE-SMALL-e1715090150311.png",
+      "name": "VINYL &#8211; SQUEAKY NATURAL BONE &#8211; SMALL"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=46794",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.409Z",
+  "dateModified": "2026-06-23T09:15:51.409Z"
+}

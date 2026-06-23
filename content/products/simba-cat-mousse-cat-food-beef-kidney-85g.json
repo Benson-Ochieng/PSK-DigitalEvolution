@@ -1,0 +1,83 @@
+{
+  "id": 90254,
+  "name": "Simba Cat Mousse Cat Food – Beef & Kidney 85g",
+  "slug": "simba-cat-mousse-cat-food-beef-kidney-85g",
+  "sku": "LSWC001",
+  "onSale": false,
+  "price": 1.79,
+  "regularPrice": 1.79,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Mousse-Beef-and-kidney-85g.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2411,
+      "name": "Simba",
+      "slug": "simba"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/simba-cat-mousse-cat-food-beef-kidney-85g/",
+  "shortDescription": "Treat your cat to the rich taste of Simba Mousse with Beef &amp; Kidney Cat Food 85g , a delicious complete wet food specially formulated to support your cat&#8217;s daily nutritional needs. Made with quality beef and kidney, this soft and delicate mousse provides a highly palatable source of protein and essential minerals while delivering a texture cats love.",
+  "description": "Carefully steamed to enhance the natural flavour of the ingredients, this premium cat food helps stimulate appetite and provides balanced nutrition for adult cats. Enriched with Vitamins D3 and E, it supports overall health, vitality, and wellbeing. Key Benefits: Complete and balanced wet food for adult cats Made with quality beef and kidney for irresistible taste Soft mousse texture for easy eating and digestion Rich in protein to help maintain healthy muscles Fortified with Vitamins D3 and E for daily nutritional support No added dyes or preservatives High moisture content to support daily hydration Ingredients: Meat and animal derivatives (Beef 6.5%, Kidney 4.5%), Minerals. Analytical Constituents: Crude Protein 9.5%, Crude Fat 6.0%, Crude Fibre 0.5%, Crude Ash 2.4%, Moisture 78%. Feeding Guide: For an average adult cat weighing 4kg, feed approximately 180g daily, divided into two meals. Adjust feeding amounts according to your cat&#8217;s age, activity level, and living conditions. Pack Size: 85g Give your cat a tasty and nutritious meal every day with Simba Mousse with Beef &amp; Kidney Cat Food – a delicious wet food designed to satisfy even the most discerning feline appetites.",
+  "images": [
+    {
+      "id": 90259,
+      "alt": "Simba Cat Mousse Cat Food – Beef & Kidney 85g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Mousse-Beef-and-kidney-85g.png",
+      "name": "Simba Cat Mousse Beef and kidney 85g"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2464,
+      "name": "Simba",
+      "slug": "simba"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=90254",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:52.036Z",
+  "dateModified": "2026-06-23T09:15:52.036Z"
+}

@@ -1,0 +1,83 @@
+{
+  "id": 51461,
+  "name": "Josera Balance 12.5kg",
+  "slug": "josera-balance-12-5kg",
+  "sku": "JDB001",
+  "onSale": false,
+  "price": 128.5,
+  "regularPrice": 128.5,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/11/Josera-Balance-12.5kg-New-Packaging-1.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josera-balance-12-5kg/",
+  "shortDescription": "Fat- and protein-reduced, moderate level of minerals For our seniors: A special food designed to boost vitality, even in old age. The reduced protein and fat content helps to ease strain on the metabolism. The balanced and extremely well-tolerated formula containing valuable antioxidants helps to counteract cell-aging. It is therefore highly suitable for older dogs.",
+  "description": "Composition: poultry, whole grain corn; rice; beet fiber; hydrolyzed poultry protein; poultry fat; minerals; chicory root (ground, natural source of inulin); dried meat from the New Zealand green-lipped mussel (Perna canaliculus). Product Details: Fat- and protein-reduced, moderate level of minerals for our seniors: A special food designed to boost vitality, even in old age. The reduced protein and fat content helps to ease strain on the metabolism. The balanced and extremely well-tolerated formula containing valuable antioxidants helps to counteract cell-aging. It is therefore highly suitable for older dogs. For older and less active dogs with a lower energy requirement Low-fat recipe to prevent obesity The low-fat content and L-carnitine encourage an optimal ratio of fatty tissue and muscle mass Together with taurine, L-carnitine also supports cardiovascular functions",
+  "images": [
+    {
+      "id": 89052,
+      "alt": "Josera Balance 12.5kg",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/11/Josera-Balance-12.5kg-New-Packaging-1.png",
+      "name": "Josera Balance 12.5kg New Packaging (1)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 2063,
+      "name": "senior dog",
+      "slug": "senior-dog"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=5&#038;add-to-cart=51461",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.544Z",
+  "dateModified": "2026-06-23T09:15:51.544Z"
+}

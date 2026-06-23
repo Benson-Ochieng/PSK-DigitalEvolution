@@ -1,0 +1,78 @@
+{
+  "id": 24546,
+  "name": "Puppy Bundle Super Saver",
+  "slug": "puppy-bundle-super-saver",
+  "sku": "PBUNS01",
+  "onSale": true,
+  "price": 40.04,
+  "regularPrice": 44.49,
+  "salePrice": 40.04,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/Puppy-bundle.png",
+  "categories": [
+    {
+      "id": 2027,
+      "name": "Bundles",
+      "slug": "bundles"
+    },
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    },
+    {
+      "id": 2064,
+      "name": "Rogz",
+      "slug": "rogz"
+    },
+    {
+      "id": 927,
+      "name": "Sale",
+      "slug": "sale"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/puppy-bundle-super-saver/",
+  "shortDescription": "Everything your puppy needs in one convenient bundle! This Puppy Bundle includes a selection of essential items to keep your puppy happy and healthy. &nbsp;",
+  "description": "Everything your puppy needs in one convenient bundle! This Puppy Bundle includes a selection of essential items to keep your puppy happy and healthy. Inside the bundle: Reflex Premium Puppy Food Lamb and Rice 3kg Reflex Happy Hour Treats Calmness 60g Miglior Dog Unico Pouch- Veal 100gr Grounded Pet Shampoo- Unscented 300ml &nbsp;",
+  "images": [
+    {
+      "id": 56474,
+      "alt": "Puppy Bundle Super Saver",
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/Puppy-bundle.png",
+      "name": "Puppy bundle"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2122,
+      "name": "Bundle",
+      "slug": "bundle"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2462,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 5,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=2&#038;add-to-cart=24546",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.210Z",
+  "dateModified": "2026-06-23T09:15:51.210Z"
+}

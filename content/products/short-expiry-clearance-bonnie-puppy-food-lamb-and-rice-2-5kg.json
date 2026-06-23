@@ -1,0 +1,93 @@
+{
+  "id": 39120,
+  "name": "SHORT EXPIRY- CLEARANCE: Bonnie Puppy Food – Lamb and Rice 2.5kg",
+  "slug": "short-expiry-clearance-bonnie-puppy-food-lamb-and-rice-2-5kg",
+  "sku": "BDD005@SE",
+  "onSale": true,
+  "price": 8.93,
+  "regularPrice": 17.85,
+  "salePrice": 8.93,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2018/07/Bonnie-Puppy-Dog-Lamb-Rice-1080x1080-min.png",
+  "categories": [
+    {
+      "id": 177,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2350,
+      "name": "Puppy Food",
+      "slug": "puppy-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/short-expiry-clearance-bonnie-puppy-food-lamb-and-rice-2-5kg/",
+  "shortDescription": "All-natural dry puppy food made with lamb and rice, carefully formulated to meet the nutritional needs of growing puppies from every breed.",
+  "description": "Bonnie Lamb &amp; Rice Puppy food , full-balanced, lamb protein-containing all-natural dog food carefully formulated by dog nutritionists to meet the nutritional requirements of all puppy breeds. Lamb meal has been used as animal protein source. The balance of omega 3 &amp; 6 is provided by using flaxseed. Yucca plant provides ammonia and Oduor control, increase absorption of nutrients, strengthens the immune system and optimizes animal growth and performance. A good intestinal health and performance is provided by CitriStim which is a source of pathogen-binding manna oligosaccharide, immune provide beta-glucans and immune-supportive yeast. Healthy skin and shiny coat are supported by using brewer&#8217;s yeast. Muscles, organs and nerve cells are supported, and the immune system strengthened by using whey powder. Rich vitamin contents. NUTRIENT COMPONENTS Protein &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;27% Fat &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;. 16% Crude Ash&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;8% Crude Cellulose (Fiber)&#8230;.3.5% INGREDIENTS: Lamb Proteins (dehydrated), Animal Proteins (dehydrated), Wheat, Corn, Animal Fat, Corn Gluten, Rice, Dried Beet Pulp, Liver Flavour, Salt, Linseed, Brewer&#8217;s Yeast, Yucca Schidigera, Mannan-Oligosaccharides, Beta Glucan, Preservatives &#8211; Antioxidants. MINERALS: Calcium, Phosphorus, Sodium, Ionide, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 &#8211; B2 &#8211; B3 (niacin) &#8211; B6 &#8211; B12 &#8211; B7 (biotin) &#8211; B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
+  "images": [
+    {
+      "id": 1312,
+      "alt": "Bonnie Puppy Dog Lamb Rice 1080x1080 min",
+      "src": "https://petstore.co.ke/wp-content/uploads/2018/07/Bonnie-Puppy-Dog-Lamb-Rice-1080x1080-min.png",
+      "name": "Bonnie Puppy Dog Lamb Rice 1080&#215;1080 min"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1303,
+      "name": "Clearance",
+      "slug": "clearance"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 637,
+      "name": "kibble",
+      "slug": "kibble"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 2106,
+      "name": "Puppy food",
+      "slug": "puppy-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2428,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=3&#038;add-to-cart=39120",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.316Z",
+  "dateModified": "2026-06-23T09:15:51.316Z"
+}

@@ -1,0 +1,83 @@
+{
+  "id": 68642,
+  "name": "J4D 2n1 Conditioning Dog Shampoo – 500ml",
+  "slug": "j4d-2-in-1-conditioning-dog-shampoo-500ml",
+  "sku": "GJ4D004",
+  "onSale": false,
+  "price": 6.95,
+  "regularPrice": 6.95,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/2-IN-1-DOG-SHAMPOO.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2360,
+      "name": "Dog Grooming & Cleaning",
+      "slug": "dog-grooming-cleaning-supplies"
+    },
+    {
+      "id": 2420,
+      "name": "J4D",
+      "slug": "j4d"
+    },
+    {
+      "id": 2390,
+      "name": "Shampoo",
+      "slug": "dog-shampoo"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/j4d-2-in-1-conditioning-dog-shampoo-500ml/",
+  "shortDescription": "J4D 2 In 1 Conditioning Dog Shampoo 500ml cleans and conditions in one step, leaving dogs’ coats soft, shiny, and healthy. Suitable for all breeds.",
+  "description": "J4D 2 In 1 Conditioning Dog Shampoo 500ml is a gentle yet effective grooming solution that cleanses and conditions your dog’s coat in one easy step. Formulated to remove dirt, excess oils, and odours, this 2-in-1 shampoo leaves your dog’s fur clean, soft, shiny, and easy to manage. Designed for regular use, the conditioning formula helps reduce tangles, improve coat manageability, and maintain healthy skin. Suitable for all dog breeds and coat types—including dogs with sensitive skin—this shampoo makes bath time quicker, easier, and more enjoyable for both pets and owners. Key Features 500ml 2-in-1 dog shampoo with built-in conditioner Gently cleanses dirt, oils, and odours Conditions the coat for softness and shine Safe for all breeds and coat types Benefits for Pet Owners Leaves fur clean, fresh, and well-conditioned Reduces tangles and improves coat manageability Supports healthy skin and a naturally shiny coat Gentle formula suitable for frequent bathing Product Advantages Saves time with a combined shampoo and conditioner Enhances natural coat colour and shine Ideal for dogs requiring regular grooming or with sensitive skin How to Use Wet your dog’s coat thoroughly Apply shampoo and massage gently into a rich lather Rinse thoroughly and repeat if necessary Towel dry or blow dry for best results Benefits for Retailers High-demand grooming essential with repeat-purchase potential Fits perfectly in pet hygiene and grooming categories Suitable for pet shops, veterinary clinics, and supermarkets &nbsp; &nbsp; &nbsp; &nbsp;",
+  "images": [
+    {
+      "id": 68643,
+      "alt": "J4D 2n1 Conditioning Dog Shampoo – 500ml",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/2-IN-1-DOG-SHAMPOO.png",
+      "name": "2 IN 1 DOG SHAMPOO"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 2025,
+      "name": "shampoo",
+      "slug": "shampoo"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2443,
+      "name": "J4D",
+      "slug": "j4d"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 5,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=68642",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.859Z",
+  "dateModified": "2026-06-23T09:15:51.859Z"
+}

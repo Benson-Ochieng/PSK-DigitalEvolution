@@ -1,0 +1,102 @@
+{
+  "id": 20015,
+  "name": "Dog Poop Bag Holder – Bone Shape Orange",
+  "slug": "dog-poop-bag-holder-bone-shape-orange",
+  "sku": "DPBHBOR",
+  "onSale": false,
+  "price": 3.42,
+  "regularPrice": 3.42,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Poop-Bag-Holder-Bone-Shape-Orange-DPBHBOR.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2343,
+      "name": "Cat Grooming",
+      "slug": "cat-grooming"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2360,
+      "name": "Dog Grooming & Cleaning",
+      "slug": "dog-grooming-cleaning-supplies"
+    },
+    {
+      "id": 2096,
+      "name": "Generic",
+      "slug": "generic"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/dog-poop-bag-holder-bone-shape-orange/",
+  "shortDescription": null,
+  "description": "Dog Poop Bag Holder with Leash Clip. Comes with disposable waste bags, each bag is perforate for easy seperation",
+  "images": [
+    {
+      "id": 19964,
+      "alt": "Dog Poop Bag Holder – Bone Shape Orange",
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Poop-Bag-Holder-Bone-Shape-Orange-DPBHBOR.jpg",
+      "name": "Dog Poop Bag Holder &#8211; Bone Shape Orange DPBHBOR"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2098,
+      "name": "Grooming &amp; Tools",
+      "slug": "grooming-tools"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": 1,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=2&#038;add-to-cart=20015",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.177Z",
+  "dateModified": "2026-06-23T09:15:51.177Z"
+}

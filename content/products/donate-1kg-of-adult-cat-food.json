@@ -1,0 +1,77 @@
+{
+  "id": 38506,
+  "name": "Donate 1kg of Cat Food",
+  "slug": "donate-1kg-of-adult-cat-food",
+  "sku": "DC001",
+  "onSale": false,
+  "price": 4.2,
+  "regularPrice": 4.2,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/07/Donate-Cat-food.jpeg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 1790,
+      "name": "Donate",
+      "slug": "donate"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/donate-1kg-of-adult-cat-food/",
+  "shortDescription": "Donate 1kg of cat food, and we’ll ensure its delivered directly to your selected recipient. Please choose your recipient during checkout.",
+  "description": "You are purchasing a 1kg of subsidized adult cat food designated for any of the below rescue centres. The product supplied may be in a damaged bag or close to expiry. IMPORTANT! Specifics in the Notes field who the designated recipient is. You will get a notification once your donation ships for verification from the center. In the event we have more food available, Petstore Kenya will add in more items for the same price. OUR PARTNER ANIMAL SHELTERS AND ADVOCATES: The KSPCA (Kenya Society for the Protection and Care of Animals) &#8211; a welfare charity that protects animals from neglect and abuse. We currently support their branches in Nairobi , Naivasha and Mombasa . Africats Watamu &#8211; a non-profit organization that feeds, shelters and advocates for street cats and dogs in Watamu. Footsteps Rescue Centre (Diani) &#8211; a sanctuary for street animals in Diani NFS- Nairobi Feline Sanctuary, utawala KYSA (Kibera Youths for Stray Animals) PAW (Pwani Animal Welfare)",
+  "images": [
+    {
+      "id": 38649,
+      "alt": "Donate 1kg of Cat Food",
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/07/Donate-Cat-food.jpeg",
+      "name": "Donate Cat food"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 1791,
+      "name": "Donate",
+      "slug": "donate"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=3&#038;add-to-cart=38506",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.310Z",
+  "dateModified": "2026-06-23T09:15:51.310Z"
+}

@@ -1,0 +1,88 @@
+{
+  "id": 90350,
+  "name": "JosiDog Dog Wet Food – Beef & Lamb in Sauce 100g",
+  "slug": "josidog-dog-wet-food-beef-lamb-in-sauce-100g",
+  "sku": "JDW004",
+  "onSale": true,
+  "price": 1.7,
+  "regularPrice": 2.13,
+  "salePrice": 1.7,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/JosiDog-Beef-Lamb-in-Sauce-pouch-100g.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    },
+    {
+      "id": 2349,
+      "name": "Wet Dog Food",
+      "slug": "wet-dog-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josidog-dog-wet-food-beef-lamb-in-sauce-100g/",
+  "shortDescription": "JosiDog Dog Wet Food – Beef &amp; Lamb in Sauce 100g is a complete and balanced meal specially formulated for adult small breed dogs. Made with tender chunks of beef and lamb in a delicious savoury sauce, this nutritious wet food provides the essential nutrients your dog needs while delivering exceptional taste in every bite.",
+  "description": "Prepared with 84% meat and animal-derived ingredients in the meaty pieces, including beef, lamb, and liver, this recipe provides high-quality protein to help maintain healthy muscles and support everyday vitality. The addition of prebiotic inulin helps promote healthy digestion and supports beneficial intestinal flora, while Vitamin E contributes to natural cell protection and Vitamin D3 helps maintain strong bones and teeth. Conveniently packed in a 100g freshness pouch, this wet food is easy to serve, helps with portion control, and keeps every meal fresh and flavourful. Free from artificial colours, flavourings, preservatives, soy, and dairy products, it offers wholesome nutrition you can feel good about feeding every day. Key Benefits Complete wet food for adult small breed dogs Made with beef and lamb in a tasty sauce Contains 84% meat and animal-derived ingredients in the pieces Rich in high-quality protein to support muscle maintenance Prebiotic inulin supports healthy digestion and gut flora Vitamin E helps protect cells from oxidative stress Vitamin D3 supports strong bones and teeth Free from artificial colours, flavourings, and preservatives Soy-free and dairy-free recipe Convenient 100g freshness pouch for easy feeding and portion control Ingredients Meat and animal by-products (84.0% in the pieces, including 20.0% liver, 9.5% beef, and 9.5% lamb), cereals, oils and fats, vegetable protein extracts, vegetable by-products (including inulin), minerals. Analytical Constituents Crude Protein: 8.0% Crude Fat: 5.0% Crude Fibre: 0.4% Crude Ash: 2.0% Moisture: 80.0% Nutritional Additives (per kg) Vitamin D3: 160 IU Vitamin E Inulin Feeding Guide Feed according to your dog’s size, age, and activity level. If feeding treats or additional foods, adjust the daily ration accordingly. Always ensure fresh drinking water is available. Storage Instructions Store unopened pouches in a cool, dry place. Once opened, refrigerate at 2–6°C and consume within 24 hours. Serve at room temperature for optimal taste and enjoyment. &nbsp;",
+  "images": [
+    {
+      "id": 90351,
+      "alt": "JosiDog Dog Wet Food – Beef & Lamb in Sauce 100g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/JosiDog-Beef-Lamb-in-Sauce-pouch-100g.png",
+      "name": "JosiDog Beef &#038; Lamb in Sauce pouch 100g"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 939,
+      "name": "On Sale Now",
+      "slug": "sale"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=10&#038;add-to-cart=90350",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:52.054Z",
+  "dateModified": "2026-06-23T09:15:52.054Z"
+}

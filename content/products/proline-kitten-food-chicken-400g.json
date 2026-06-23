@@ -1,0 +1,88 @@
+{
+  "id": 2563,
+  "name": "Proline Kitten Food – Chicken 400g",
+  "slug": "proline-kitten-food-chicken-400g",
+  "sku": "PCD007",
+  "onSale": false,
+  "price": 7,
+  "regularPrice": 7,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/07/Proline-Kitten-Food-Chicken-400g.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2329,
+      "name": "Kitten Food",
+      "slug": "kitten-food"
+    },
+    {
+      "id": 796,
+      "name": "Proline",
+      "slug": "proline"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/proline-kitten-food-chicken-400g/",
+  "shortDescription": "Fully balanced all-natural kitten food with chicken protein. Carefully formulated by a cat nutritionist to meet the nutritional requirements of all growing kittens.",
+  "description": "Proline Kitten Food &#8211; Chicken , fully balanced all-natural kitten food with chicken protein. Carefully formulated by a cat nutritionist to meet the nutritional requirements of growing kittens. NUTRIENT COMPONENTS Protein&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;36% Fat &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;..20% Crude Ash &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;.. 8% Crude Cellulose (Fiber) &#8230;&#8230;&#8230;&#8230;.3% &nbsp;Essential Vitamins &amp; Minerals Minerals: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. Vitamins: A, D, E, C, K, and B-complex (B1, B2, B3 [niacin], B6, B7 [biotin], B9 [folic acid], B12), Choline, Calcium Pantothenate. These nutrients ensure: . Strong bone growth and teeth development . Healthy immune system . Vital organ and nerve function &nbsp;Feeding Guide For kittens aged 1–12 months: Age Daily Amount 1–3 months 30–50g 4–6 months 50–70g 7–12 months 70–90g Adjust according to your kitten’s size and activity level. Always provide fresh, clean water. &nbsp;Why Cat Parents Love It: . Specially formulated for tiny teeth and delicate tummies. . Includes taurine for healthy eyes and heart. . Promotes playful energy and a silky-soft coat.",
+  "images": [
+    {
+      "id": 37970,
+      "alt": "Proline Kitten Food – Chicken 400g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/07/Proline-Kitten-Food-Chicken-400g.png",
+      "name": "Proline Kitten Food &#8211; Chicken 400g"
+    }
+  ],
+  "tags": [
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 637,
+      "name": "kibble",
+      "slug": "kibble"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2461,
+      "name": "Proline",
+      "slug": "proline"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=1&#038;add-to-cart=2563",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.077Z",
+  "dateModified": "2026-06-23T09:15:51.077Z"
+}

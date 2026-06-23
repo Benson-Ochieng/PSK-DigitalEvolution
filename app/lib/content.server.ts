@@ -37,7 +37,7 @@ function getPathSlug(value: string): string {
   if (!value) return "";
   const decodedValue = safeDecodeURIComponent(value).trim();
   try {
-    const pathname = new URL(decodedValue, "https://visionplus.local").pathname;
+    const pathname = new URL(decodedValue, "https://petstore.local").pathname;
     return pathname.replace(/^\/+|\/+$/g, "").split("/").filter(Boolean).pop() || "";
   } catch {
     return decodedValue.replace(/^\/+|\/+$/g, "").split("/").filter(Boolean).pop() || "";
@@ -145,7 +145,7 @@ export function getAllBrands(showAll = false): { name: string; slug: string; cou
     brands = readJson<any[]>(filePath) || [];
   } else {
     brands = [
-      { name: "Vision Plus", slug: "vision-plus", desc: "Primary brand specializing in smart TVs, audio systems, and smart kitchen appliances." },
+      { name: "PetStore Kenya", slug: "petstore-kenya", desc: "Kenya's leading online pet store for premium foods, accessories, toys, and pet care products." },
       { name: "Apex Piping", slug: "apex-piping", desc: "Premium partner brand for piping systems and building materials." },
       { name: "Samsung", slug: "samsung", desc: "Global technology brand for mobile devices and smart monitors." },
       { name: "LG", slug: "lg", desc: "Guest electronics brand for select appliances." },
@@ -273,11 +273,11 @@ export function getTopLevelCategories(): Category[] {
 
 export function getSiteMeta(): SiteMeta {
   return readJson<SiteMeta>(path.join(CONTENT_DIR, "site-meta.json")) || {
-    name: "Vision Plus",
-    description: "Experience Everything",
-    url: "https://visionplus.co.ke",
-    logo: "/assets/images/pages/vision-plus-logo.png",
-    logoLocal: "/assets/images/pages/vision-plus-logo.png",
+    name: "PetStore Kenya",
+    description: "Kenya's leading online pet store",
+    url: "https://petstore.co.ke",
+    logo: "/images/psk_logo.png",
+    logoLocal: "/images/psk_logo.png",
   };
 }
 
@@ -733,9 +733,9 @@ export function getAllManualCategories(): ManualCategory[] {
   const filePath = path.join(CONTENT_DIR, "manual-categories.json");
   if (!fs.existsSync(filePath)) {
     const defaultCats: ManualCategory[] = [
-      { id: "cat_1", name: "Vision Plus Tvs", slug: "televisions" },
-      { id: "cat_2", name: "Sound Bar", slug: "sound-bar" },
-      { id: "cat_3", name: "Vibe Series", slug: "vibe-series" }
+      { id: "cat_1", name: "Pet Food", slug: "pet-food" },
+      { id: "cat_2", name: "Accessories", slug: "accessories" },
+      { id: "cat_3", name: "Toys", slug: "toys" }
     ];
     saveAllManualCategories(defaultCats);
     return defaultCats;
@@ -886,12 +886,12 @@ export interface GeneralSettings {
 export function getGeneralSettings(): GeneralSettings {
   const settingsPath = path.join(CONTENT_DIR, "general-settings.json");
   const defaultSettings: GeneralSettings = {
-    siteTitle: "Vision Plus",
-    tagline: "Experience Everything",
-    siteIcon: "/assets/images/pages/vision-plus-logo.png",
-    wpAddressUrl: "https://visionplus.co.ke",
+    siteTitle: "PetStore Kenya",
+    tagline: "Your Online Pet Store",
+    siteIcon: "/images/psk_logo.png",
+    wpAddressUrl: "https://petstore.co.ke",
     siteAddressUrl: "/",
-    adminEmail: "developers@granularit.com",
+    adminEmail: "admin@petstore.co.ke",
     anyoneCanRegister: false,
     defaultRole: "subscriber",
     siteLanguage: "en_US",

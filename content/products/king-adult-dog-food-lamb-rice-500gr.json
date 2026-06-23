@@ -1,0 +1,73 @@
+{
+  "id": 33126,
+  "name": "King Adult Dog Food Lamb & Rice 500g",
+  "slug": "king-adult-dog-food-lamb-rice-500gr",
+  "sku": "KDD008",
+  "onSale": false,
+  "price": 5.05,
+  "regularPrice": 5.05,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/03/King-plus-dog-lambrice-500gr.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 178,
+      "name": "King",
+      "slug": "king"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/king-adult-dog-food-lamb-rice-500gr/",
+  "shortDescription": "Fully balanced all-natural dog food with lamb protein and brewer&#8217;s yeast for immune support. Carefully formulated by a dog nutritionist to meet the nutritional requirements of all adult large breed dogs.",
+  "description": "King Plus Adult Dog Food Lamb &amp; Rice, fully balanced all-natural dog food with lamb protein and brewer&#8217;s yeast for immune support. Carefully formulated by a dog nutritionist to meet the nutritional requirements of all adult large-breed dogs. NUTRIENT COMPONENTS Protein &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;. 21% Fat&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230; 9% Crude Cellulose (Fiber)&#8230;&#8230;4% Crude Ash &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;.10% INGREDIENTS: Wheat, Corn, Processed Animal Protein, Animal Fat, Corn Gluten, Liver Aroma, Rice, Salt, Dried Brewer&#8217;s Yeast. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 , B2 , B3 (niacin) ,B6 , B12 , B7 (biotin) , B9 (folic acid), Vit. K, Choline, Calcium Pantotetan. daily feeding guide king plus adult dog food",
+  "images": [
+    {
+      "id": 37410,
+      "alt": "King Adult Dog Food Lamb & Rice 500g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/03/King-plus-dog-lambrice-500gr.png",
+      "name": "King plus dog lamb&amp;rice 500gr"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2446,
+      "name": "King",
+      "slug": "king"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=3&#038;add-to-cart=33126",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.272Z",
+  "dateModified": "2026-06-23T09:15:51.272Z"
+}

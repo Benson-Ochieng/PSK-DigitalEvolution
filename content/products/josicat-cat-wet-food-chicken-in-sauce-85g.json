@@ -1,0 +1,88 @@
+{
+  "id": 90376,
+  "name": "JosiCat Cat Wet Food – Chicken in Sauce 85g",
+  "slug": "josicat-cat-wet-food-chicken-in-sauce-85g",
+  "sku": "JCW005",
+  "onSale": true,
+  "price": 1.67,
+  "regularPrice": 2.09,
+  "salePrice": 1.67,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/herbs-.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josicat-cat-wet-food-chicken-in-sauce-85g/",
+  "shortDescription": "JosiCat Cat Wet Food – Chicken in Sauce 85g is a complete and balanced meal for adult cats, featuring tender chicken chunks in a rich, savoury sauce. Designed for everyday feeding, this tasty wet food delivers excellent palatability while providing essential nutrients to support your cat’s overall health and wellbeing.",
+  "description": "With 88% meat and animal derivatives in the chunks (including 40.6% chicken), this recipe offers a high-quality source of protein to help maintain lean muscle mass and support your cat’s natural vitality. The addition of herbs enhances flavour, making it especially appealing even for picky eaters. Enriched with prebiotic inulin, this grain-free and sugar-free formula supports healthy digestion by promoting beneficial gut flora. Carefully balanced minerals and nutrients help maintain overall body function, while the simple, natural composition ensures clean and wholesome nutrition. Packed in a convenient 85g freshness pouch, this meal is easy to serve, supports portion control, and helps keep food fresh and appetising. It is ideal for daily feeding of adult cats. Key Benefits Complete wet food for adult cats Made with chicken in a delicious sauce 88% meat and animal derivatives in the chunks High-quality protein supports muscle maintenance Grain-free and sugar-free recipe Prebiotic inulin supports healthy digestion Enriched with herbs for natural flavour No artificial colours or preservatives Convenient 85g freshness pouch Suitable for daily feeding Analytical Constituents Crude Protein: 10.0% Crude Fat: 3.5% Crude Fibre: 0.4% Crude Ash: 2.5% Moisture: (as per wet food standard, approx. 80%) Feeding Guide Daily recommended amounts: 2–3kg cat: 150–260g 3–4kg cat: 195–315g 4–5kg cat: 235–365g 5–7kg cat: 275–460g Adjust feeding based on age, activity level, and body condition. Always provide fresh drinking water. Reduce portions if treats are given. Storage Instructions After opening, refrigerate at 2–6°C and use within 24 hours. Serve at room temperature for best taste and aroma. &nbsp;",
+  "images": [
+    {
+      "id": 90378,
+      "alt": "JosiCat Cat Wet Food – Chicken in Sauce 85g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/herbs-.png",
+      "name": "herbs"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 939,
+      "name": "On Sale Now",
+      "slug": "sale"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=10&#038;add-to-cart=90376",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:52.061Z",
+  "dateModified": "2026-06-23T09:15:52.061Z"
+}

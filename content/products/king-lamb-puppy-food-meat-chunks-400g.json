@@ -1,0 +1,98 @@
+{
+  "id": 70013,
+  "name": "King Canned Puppy Food – Lamb Chunks in Gravy 400g",
+  "slug": "king-lamb-puppy-food-meat-chunks-400g",
+  "sku": "KDW003",
+  "onSale": false,
+  "price": 2.52,
+  "regularPrice": 2.52,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/KING-CANNED-PUPPY-FOOD-LAMB-CHUNKS-IN-GRAVY-1.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 178,
+      "name": "King",
+      "slug": "king"
+    },
+    {
+      "id": 2377,
+      "name": "Puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 2350,
+      "name": "Puppy Food",
+      "slug": "puppy-food"
+    },
+    {
+      "id": 2349,
+      "name": "Wet Dog Food",
+      "slug": "wet-dog-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/king-lamb-puppy-food-meat-chunks-400g/",
+  "shortDescription": "Premium lamb puppy food with tender meat chunks in sauce. Supports muscle growth, immunity, and healthy digestion. Ideal for sensitive puppies.",
+  "description": "King Sauce Lamb Flavored Puppy Food with Meat Chunks 400g is a premium wet puppy food specially formulated to support the healthy growth and development of young dogs. Made with real lamb and tender meat chunks in a rich, savory sauce, this nutritious recipe delivers both exceptional taste and balanced nutrition for growing puppies. During the early stages of life, puppies require high-quality protein, essential vitamins, and balanced minerals to build strong muscles, develop a healthy immune system, and maintain steady energy levels. King Lamb Puppy Food is carefully crafted to meet these developmental needs with a formula tailored specifically for puppies. The easily digestible lamb protein makes it ideal for puppies with sensitive stomachs, while the soft meat chunks ensure easy chewing. The flavorful sauce enhances palatability, making it perfect for picky eaters and smooth food transitions from mother’s milk or starter diets. Key Benefits Real Lamb Protein – Supports healthy muscle development Tender Meat Chunks – Easy to chew and digest Rich Savory Sauce – Encourages appetite and high acceptance Balanced Vitamins &amp; Minerals – Strengthens the immune system Gentle on Sensitive Stomachs – Suitable for delicate digestion Flexible Feeding – Can be served alone or mixed with dry puppy food Whether served as a complete meal or combined with dry kibble, King Sauce Lamb Puppy Food ensures your puppy enjoys a healthy, energetic, and happy start in life. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
+  "images": [
+    {
+      "id": 70015,
+      "alt": "King Canned Puppy Food – Lamb Chunks in Gravy 400g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/02/KING-CANNED-PUPPY-FOOD-LAMB-CHUNKS-IN-GRAVY-1.png",
+      "name": "KING CANNED PUPPY FOOD LAMB CHUNKS IN GRAVY (1)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 622,
+      "name": "canned food",
+      "slug": "canned-food"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2446,
+      "name": "King",
+      "slug": "king"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=70013",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.941Z",
+  "dateModified": "2026-06-23T09:15:51.941Z"
+}

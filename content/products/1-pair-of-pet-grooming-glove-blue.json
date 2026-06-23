@@ -1,0 +1,102 @@
+{
+  "id": 42857,
+  "name": "Pet Grooming Glove Blue",
+  "slug": "1-pair-of-pet-grooming-glove-blue",
+  "sku": "PG0789",
+  "onSale": false,
+  "price": 6.1,
+  "regularPrice": 6.1,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/01/Pet-grooming-glove.png",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2397,
+      "name": "Brushes & Fur Removal Tools",
+      "slug": "brushes-fur-removal-tools"
+    },
+    {
+      "id": 2361,
+      "name": "Brushes, Combs & Fur Removal Tools",
+      "slug": "brushes-combs-fur-removal-tools"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2343,
+      "name": "Cat Grooming",
+      "slug": "cat-grooming"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2360,
+      "name": "Dog Grooming & Cleaning",
+      "slug": "dog-grooming-cleaning-supplies"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/1-pair-of-pet-grooming-glove-blue/",
+  "shortDescription": "Pet Grooming Glove. Ideal for removing hair, makes it easier to peel and disguard hair. Quick, Gentle and Effective. Right hand grooming gloves.",
+  "description": "Make grooming time enjoyable and hassle-free for both you and your furry friend with our Pet Grooming Glove in Blue . Designed with comfort and functionality in mind, this versatile grooming tool features soft, flexible silicone tips that effectively capture loose fur, dirt, and dander without irritating your pet&#8217;s skin. Key Features: Gentle &amp; Effective : The silicone bristles massage your pet’s coat, helping to remove loose hair and tangles while stimulating healthy skin and promoting blood circulation. Ergonomic Design : The glove fits comfortably on your hand, allowing for easy control and a natural, soothing grooming experience. Its breathable, adjustable strap ensures a snug, secure fit for any hand size. Perfect for All Pets : Whether you have a dog, cat, or other furry companion, this glove is designed to work on all coat types—from short-haired to long-haired pets. Easy to Clean : Simply rinse the glove under water to remove collected hair and debris. The flexible silicone material makes it easy to wipe clean. Durable &amp; Long-Lasting : Made from high-quality materials, the grooming glove is built to last and withstand regular use, ensuring a great value for your pet care routine. Why Choose Our Pet Grooming Glove? This glove is more than just a grooming tool—it’s a bonding experience for you and your pet. The massaging effect feels like a relaxing spa treatment, making your pet look and feel their best, while also reducing shedding and preventing matting. Plus, with its eye-catching blue color, it&#8217;s as stylish as it is functional. Upgrade your grooming routine with the Pet Grooming Glove in Blue today and give your pet the care they deserve!",
+  "images": [
+    {
+      "id": 42860,
+      "alt": "Pet Grooming Glove Blue",
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/01/Pet-grooming-glove.png",
+      "name": "Pet grooming glove"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2098,
+      "name": "Grooming &amp; Tools",
+      "slug": "grooming-tools"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=42857",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.351Z",
+  "dateModified": "2026-06-23T09:15:51.351Z"
+}

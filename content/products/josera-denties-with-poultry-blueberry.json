@@ -1,0 +1,83 @@
+{
+  "id": 48740,
+  "name": "Josera Denties With Poultry & Blueberry 180g",
+  "slug": "josera-denties-with-poultry-blueberry",
+  "sku": "JDT002",
+  "onSale": false,
+  "price": 7.3,
+  "regularPrice": 7.3,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/07/Josera_Denties_PoultryBlueberry_180g.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josera-denties-with-poultry-blueberry/",
+  "shortDescription": "Josera Denties with Poultry &amp; Blueberry are not only great for supporting your dog’s oral hygiene, but also offer an irresistibly poultry flavour. The recipe is completed with a delicious blueberry puree, offering these chew sticks a fruity note. The tasty chew sticks are completely grain-free, for high digestibility and acceptance.",
+  "description": "Your dog is naturally inclined to love chewing! This can be used to help support your dog’s daily oral care, encouraging cleanliness and hygiene. These Josera Denties with Poultry &amp; Blueberry have a clever star-shaped structure that can help to reduce the amount of plaque and tartar as your dog chews. They also contain cellulose, which can further enhance this effect. Ingredients: Vegetable by-products (dried potato, dried tapioca, cellulose), dried poultry protein (14%), blueberry puree (4%), hydrolyzed poultry protein, minerals. Analytical constituents: protein 12.0 % fat 2.0 % fibre 4.0 % ash 6.5 % moisture 24.0 % Feeding recommendation: Josera Denties with Poultry &amp; Carrot is a supplementary food for adult dogs. Dog’s weight Serving in sticks per day 10kg 0.5 25kg 1.5 35kg 2 Feed in addition to a complete diet. Be sure to factor treats into your dog’s daily nutritional intake. Ensure fresh drinking water is always available. Josera Denties with Poultry &amp; Blueberry at a glance: Fruity chew snack for adult dogs Delicious: with blueberry puree and delicious poultry Palate-friendly star shape: can support tooth cleaning and massage the gums With cellulose: texture can help with oral hygiene With dried tapioca: well-tolerated source of carbohydrates Provides valuable minerals Well digestible: grain-free Quality from Germany",
+  "images": [
+    {
+      "id": 48741,
+      "alt": "Josera Denties With Poultry & Blueberry 180g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/07/Josera_Denties_PoultryBlueberry_180g.png",
+      "name": "Josera_Denties_PoultryBlueberry_180g"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2320,
+      "name": "grain-free",
+      "slug": "grain-free"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=5&#038;add-to-cart=48740",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.442Z",
+  "dateModified": "2026-06-23T09:15:51.442Z"
+}

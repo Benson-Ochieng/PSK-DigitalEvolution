@@ -1,0 +1,88 @@
+{
+  "id": 56862,
+  "name": "Chuck Adult Cat Chicken 400g",
+  "slug": "mio-chunks-adult-cat-liver-400-g",
+  "sku": "CACC400",
+  "onSale": false,
+  "price": 2.57,
+  "regularPrice": 2.57,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-58-1.png",
+  "categories": [
+    {
+      "id": 2422,
+      "name": "Chuck",
+      "slug": "chuck"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/mio-chunks-adult-cat-liver-400-g/",
+  "shortDescription": "Complete fresh food for adult cats of all breeds with delicious chicken. Chicken supports the health of the cat through the numerous nutrients it contains.",
+  "description": "Composition: Meat and animal derivatives 72%, chicken 4%, cereals, minerals, vegetable protein extracts, various sugars. Analytical constituents: Moisture 82%, Protein 7.0%, Total fat 4.5%, Total ash 2.5%, Total fibrous substances 0.3%, additives /1kg. Nutritional additives: Taurine 540 mg; zinc (zinc oxide) 29.25 mg, manganese (manganese (II) oxide) 2.81 mg, iodine (coated granular calcium iodite, anhydrous) 0.67 mg, iron (iron(II) sulphate monohydrate) 22.5 mg, vitamin A (retinyl acetate) 13,500 IU, vitamin D3 (cholecalciferol) 337.5 IU, vitamin E (all-rac-alpha-tocopheryl acetate) 67.5 mg, vitamin B6 (pyridoxine hydrochloride) 1.80 mg. Metabolized energy of 100 g of pet food: 332.0 kJ (80.0 kcal).",
+  "images": [
+    {
+      "id": 58321,
+      "alt": "Chuck Adult Cat Chicken 400g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-58-1.png",
+      "name": "Untitled design (58)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2432,
+      "name": "Chuck",
+      "slug": "chuck"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 1,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=56862",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.703Z",
+  "dateModified": "2026-06-23T09:15:51.703Z"
+}

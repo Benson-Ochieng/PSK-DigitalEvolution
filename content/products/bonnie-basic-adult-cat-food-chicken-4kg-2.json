@@ -1,0 +1,83 @@
+{
+  "id": 41460,
+  "name": "Bonnie basic adult cat food chicken 4kg",
+  "slug": "bonnie-basic-adult-cat-food-chicken-4kg-2",
+  "sku": "BCD009",
+  "onSale": false,
+  "price": 37.5,
+  "regularPrice": 37.5,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/11/Bonnie-basic-4kg.png",
+  "categories": [
+    {
+      "id": 177,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/bonnie-basic-adult-cat-food-chicken-4kg-2/",
+  "shortDescription": "Nourish your cat with Bonnie Adult Cat Food , a premium formula made from natural ingredients and tailored for adults over one year old. Designed to support vitality, coat health, and immune strength, it ensures complete, balanced nutrition every day.",
+  "description": "Bonnie adult cat food is formulated to fully meet&nbsp;the daily nutritional needs of adult cats aged 1 year and above and is produced using natural products. CONTENTS: Processed animal protein, Wheat, Corn, Animal fat, Corn gluten, Processed beef protein, Sugar beet, Liver flavor, Salt, Flaxseed, Brewer&#8217;s yeast, Taurine (3A370), Yucca, MOS (Mannan Oligosaccharide), Beta glucan, Preservatives &#8211; antioxidants (E320 &amp; E321) MINERALS: Iron (3B103) Iodine (3B202) Copper (3B405) Zinc (3B603) Manganese (3B502) Selenium (3B802) VITAMINS: Vitamin A (3A672A) 15000 IU/kgVitamin D3 (3A671) 1000 IU/kgVitamin E (3A700) 150 mg/kgVitamin C (3A300) 120 mg/kgTaurine 1000 mg/kgVitamin B1 (3A821) Vitamin B2 B3 (Niacin-3A315) B7 (Biotin-3A880) B9 (Folic Acid-3A316) Vitamin B12 Vitamin K3 (3A710) Choline (3A890) Calcium pantothenate NUTRITIONAL VALUES NUTRITIONAL SUPPLEMENTS Crude Protein 26% Vitamin A (3A672A) 15000 IU/kg Raw Fat 9% Vitamin D3 (3A671) &nbsp;1000 IU/kg Ash 8% Vitamin E (3A700) 150mg/kg Crude Cellulose (Fiber) 3% Vitamin C (3A300) 120mg/kg Taurine (3A370) 1000mg/kg DAILY FEEDING TABLE 1 &#8211; 2 kg 30 &#8211; 45g 3 &#8211; 4 kg 60 &#8211; 80g 5 &#8211; 6 kg 100 &#8211; 120g 7 &#8211; 8 kg 140 &#8211; 160g FEEDING RECOMMENDATIONS and WARNINGS • See the table for the recommended daily feeding amount (gram/day) based on your cat&#8217;s weight (kg). • The amount of food to be given daily may vary depending on the outdoor temperature, your cat&#8217;s living conditions (inside/outside the home), character and activity. • It is important to weigh the amount of food to ensure that your cat is at its ideal weight. • Evaluating your cat&#8217;s appetite, appearance and feces will help in adjusting the amount of food to be given correctly. • The transition from one food to another should be done gradually by mixing small amounts of both foods and giving them for a week. • You can see the recommended consumption date, batch code and factory approval number on the package. • Keep the package closed in a dry and cool environment. • Always keep clean drinking water in your cat&#8217;s water bowl along with dry food.",
+  "images": [
+    {
+      "id": 41462,
+      "alt": "Bonnie basic adult cat food chicken 4kg",
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/11/Bonnie-basic-4kg.png",
+      "name": "Bonnie basic 4kg"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 637,
+      "name": "kibble",
+      "slug": "kibble"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2428,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=3&#038;add-to-cart=41460",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.333Z",
+  "dateModified": "2026-06-23T09:15:51.333Z"
+}

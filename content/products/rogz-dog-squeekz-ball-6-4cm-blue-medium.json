@@ -1,0 +1,87 @@
+{
+  "id": 42007,
+  "name": "Rogz Dog Squeekz Ball 6.4cm Blue Medium (Sq02-B)",
+  "slug": "rogz-dog-squeekz-ball-6-4cm-blue-medium",
+  "sku": "SQ02-B",
+  "onSale": false,
+  "price": 7.5,
+  "regularPrice": 7.5,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/SQ02-B-Squeekz-Blue-420x420-1.jpg",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2357,
+      "name": "Dog Fetch Toys",
+      "slug": "dog-fetch-toys"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2064,
+      "name": "Rogz",
+      "slug": "rogz"
+    },
+    {
+      "id": 2139,
+      "name": "toys",
+      "slug": "toys"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-dog-squeekz-ball-6-4cm-blue-medium/",
+  "shortDescription": "Rogz Squeekz Fetch Ball is a bounce and fetch toy that floats on water. A squeaker inside will entice to keep your dog excited and active while playing.",
+  "description": "Rogz Squeekz Ball is a fetch ball with a squeaker that bounces on land and floats on water! Features: Squeak &#8211; Designed to provide endless excitement for your dog. Float &#8211; Made from TPR which floats visibly on the water for easy fetching. Bounce and Fetch &#8211; Soft enough not to hurt your dog&#8217;s teeth, but firm enough to bounce! Bite-o-Meter &#8211; 2 Soft CE Approved, Non-Toxic, TPR",
+  "images": [
+    {
+      "id": 42008,
+      "alt": "Rogz Dog Squeekz Ball 6.4cm Blue Medium (Sq02-B)",
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/12/SQ02-B-Squeekz-Blue-420x420-1.jpg",
+      "name": "SQ02-B-Squeekz-Blue-420&#215;420"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2227,
+      "name": "Rogz",
+      "slug": "rogz"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=42007",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.338Z",
+  "dateModified": "2026-06-23T09:15:51.338Z"
+}

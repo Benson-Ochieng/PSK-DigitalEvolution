@@ -184,9 +184,20 @@ export async function syncLocalToSupabase() {
       try {
         const posts = JSON.parse(fs.readFileSync(postsFile, "utf-8"));
         if (Array.isArray(posts) && posts.length > 0) {
-          const { error } = await supabase.from("posts").upsert(posts);
+          const cleanedPosts = posts.map((p: any) => ({
+            id: p.id,
+            title: p.title,
+            slug: p.slug,
+            date: p.date,
+            content: p.content,
+            excerpt: p.excerpt,
+            thumbnail: p.image || p.thumbnail || null,
+            status: p.status || "publish",
+            author: p.author || "System Admin"
+          }));
+          const { error } = await supabase.from("posts").upsert(cleanedPosts);
           if (error) console.error("Error syncing posts to Supabase:", error);
-          else console.log(`Synced ${posts.length} posts to Supabase.`);
+          else console.log(`Synced ${cleanedPosts.length} posts to Supabase.`);
         }
       } catch (e) {
         console.error("Failed to parse/sync posts file:", e);
@@ -318,8 +329,21 @@ export async function pullFromSupabase() {
       } else if (posts && posts.length > 0) {
         const postsDir = path.join(CONTENT_DIR, "posts");
         fs.mkdirSync(postsDir, { recursive: true });
-        fs.writeFileSync(path.join(postsDir, "_index.json"), JSON.stringify(posts, null, 2), "utf-8");
-        console.log(`Pulled ${posts.length} posts from Supabase.`);
+        const mappedPosts = posts.map((p: any) => ({
+          id: p.id,
+          title: p.title,
+          slug: p.slug,
+          date: p.date,
+          content: p.content,
+          excerpt: p.excerpt,
+          image: p.image || p.thumbnail || null,
+          link: p.link || "",
+          tag: p.tag || "Pet Care",
+          status: p.status || "publish",
+          author: p.author || "System Admin"
+        }));
+        fs.writeFileSync(path.join(postsDir, "_index.json"), JSON.stringify(mappedPosts, null, 2), "utf-8");
+        console.log(`Pulled ${mappedPosts.length} posts from Supabase and generated files.`);
       }
     } catch (e) {
       console.error("Failed to pull posts from Supabase:", e);

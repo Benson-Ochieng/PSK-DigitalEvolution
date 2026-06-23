@@ -1,0 +1,83 @@
+{
+  "id": 68714,
+  "name": "Reflex Dog Snackies Treats Duck Breast With Broccoli 170g",
+  "slug": "snackies-prime-duck-breast-stripes-grain-free",
+  "sku": "RDT037",
+  "onSale": false,
+  "price": 11.5,
+  "regularPrice": 11.5,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/duck-dog-training-treats-1.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/snackies-prime-duck-breast-stripes-grain-free/",
+  "shortDescription": "High-protein beef dog treats made with 92% real meat. Grain-free, 100% natural, and perfect for healthy training rewards and everyday snacking.",
+  "description": "Snackies Prime Duck Breast Stripes are premium-quality dog treats made with 94% real duck breast , offering exceptional taste and outstanding nutritional value. These fine strips are gently air-dried to preserve their natural flavor and nutrients, resulting in a highly palatable and easily digestible snack. With a high protein content (60%) and low-fat level , these treats are ideal for maintaining lean muscle and supporting overall health. The grain-free, 100% natural formula makes them suitable for dogs with sensitivities, while the absence of added sugar and artificial additives ensures clean, honest nutrition. Packed in a reclosable pouch to maintain freshness, Snackies Prime Duck Breast Stripes are perfect as an occasional reward, training treat, or healthy snack between meals. Key Benefits 94% duck breast for premium animal protein Very high protein (60%) to support muscle health Grain-free recipe for easy digestion Low fat content , no added sugar 100% natural – no artificial colours, flavours, or preservatives Gently air-dried to lock in taste and nutrients Reclosable pouch keeps snacks fresh Nutritional Information Composition 94% Duck breast Natural vegetable glycerin Minerals Analytical Constituents Crude Protein: 60% Crude Fat: 5% Crude Ash: 3% Crude Fibre: 1.7% Moisture: 16% Feeding &amp; Storage Advice Feed as a complementary treat between meals Always provide fresh drinking water After opening, store in a cool and dry place Not intended as a complete diet &nbsp; &nbsp; &nbsp; &nbsp;",
+  "images": [
+    {
+      "id": 68716,
+      "alt": "Reflex Dog Snackies Treats Duck Breast With Broccoli 170g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/duck-dog-training-treats-1.png",
+      "name": "duck dog training treats (1)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2462,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=68714",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.870Z",
+  "dateModified": "2026-06-23T09:15:51.870Z"
+}

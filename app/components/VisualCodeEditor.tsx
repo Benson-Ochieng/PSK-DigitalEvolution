@@ -1230,7 +1230,7 @@ export default function VisualCodeEditor({
               <label>Image URL</label>
               <input 
                 type="text" 
-                placeholder="https://visionplus.co.ke/wp-content/uploads/..." 
+                placeholder="https://petstore.co.ke/wp-content/uploads/..." 
                 value={mediaUrl} 
                 onChange={(e) => setMediaUrl(e.target.value)} 
                 required 
@@ -1241,7 +1241,7 @@ export default function VisualCodeEditor({
               <label>Alt Text (Alternative text for SEO)</label>
               <input 
                 type="text" 
-                placeholder="e.g. Vision Plus 32 inch frameless TV" 
+                placeholder="e.g. Bonnie Adult Dog Food - Beef 15kg" 
                 value={mediaAlt} 
                 onChange={(e) => setMediaAlt(e.target.value)} 
               />

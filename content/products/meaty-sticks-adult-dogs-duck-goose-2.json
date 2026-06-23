@@ -1,0 +1,83 @@
+{
+  "id": 68704,
+  "name": "Reflex Dog Stick Treats With Beef 33g",
+  "slug": "meaty-sticks-adult-dogs-duck-goose-2",
+  "sku": "RDT034",
+  "onSale": false,
+  "price": 2.3,
+  "regularPrice": 2.3,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/Meaty-sticks-beef-.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/meaty-sticks-adult-dogs-duck-goose-2/",
+  "shortDescription": "Grain-free Meaty Sticks for adult dogs with duck &amp; goose. 95% meat content, soft and tasty reward sticks ideal for training and everyday treats.",
+  "description": "Reward your dog with a rich, meaty treat made for everyday enjoyment. Meaty Sticks for Adult Dogs with Beef are crafted with an impressive 95% meat and animal derivatives , delivering exceptional taste and quality nutrition in every bite. This grain-free recipe includes beef (4%) for a bold, savory flavor dogs love. With a balanced protein and fat profile, these soft reward sticks help support muscle maintenance and daily energy needs. Their easy-to-chew texture makes them ideal for training, rewarding good behavior, or treating between meals. Meaty Sticks are designed to complement a balanced adult dog diet while turning every reward moment into something special. Key Benefits 95% high-quality meat content With beef for a rich, meaty taste Grain-free and easy to digest Supports muscle maintenance and vitality Soft, easy-to-portion reward sticks Ideal for training and everyday treats Feed as a treat. Always ensure fresh drinking water is available. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
+  "images": [
+    {
+      "id": 68705,
+      "alt": "Reflex Dog Stick Treats With Beef 33g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/Meaty-sticks-beef-.png",
+      "name": "Meaty sticks beef"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2462,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=68704",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.865Z",
+  "dateModified": "2026-06-23T09:15:51.865Z"
+}

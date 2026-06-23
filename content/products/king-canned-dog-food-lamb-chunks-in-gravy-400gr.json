@@ -1,62 +1,93 @@
 {
-  "id": 27,
-  "name": "King Canned Dog Food - Lamb Chunks in Gravy 400g",
+  "id": 62311,
+  "name": "King Canned Dog Food – Lamb Chunks in Gravy 400g",
   "slug": "king-canned-dog-food-lamb-chunks-in-gravy-400gr",
-  "sku": "PSK-27-king",
-  "onSale": false,
-  "price": 201,
-  "regularPrice": 201,
-  "salePrice": null,
+  "sku": "KDW002",
+  "onSale": true,
+  "price": 2.01,
+  "regularPrice": 2.52,
+  "salePrice": 2.01,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/11/KING-2.png",
   "categories": [
     {
-      "id": 1,
-      "name": "Dog Food",
-      "slug": "dog-food"
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
     },
     {
-      "id": 4,
-      "name": "Wet Food",
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 178,
+      "name": "King",
+      "slug": "king"
+    },
+    {
+      "id": 2349,
+      "name": "Wet Dog Food",
+      "slug": "wet-dog-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/king-canned-dog-food-lamb-chunks-in-gravy-400gr/",
+  "shortDescription": "King Canned Dog Food Lamb Chunks in Gravy 400g is a complementary meal for adult dogs, made with real lamb ( 4% ), cereals, and essential minerals . The savory meaty chunks in gravy provide a protein-rich, moisture-packed formula that supports hydration, healthy muscles , and overall wellbeing . Easy to serve and highly palatable , it’s perfect as a tasty addition to your dog’s daily diet.",
+  "description": "Provide your adult dog with a delicious and nutritious meal with King Canned Dog Food Lamb Chunks in Gravy 400g . Made with real lamb (4% in the chunks), high-quality cereals, and essential minerals, this complementary pet food delivers a tasty and wholesome addition to your dog’s diet. Key Benefits: Meaty chunks in savory gravy that dogs love Balanced nutrition with protein, fat, and essential minerals Moisture-rich formula (83%) to support hydration Easy to serve and digest Analytical Constituents: Crude Protein: 7% Crude Fat: 5% Crude Fibre: 0.5% Crude Ash: 2.5% Moisture: 83% Feeding Directions: Serve at room temperature. Always provide clean, fresh drinking water. Once opened, cover, refrigerate, and use within 2 days. Not suitable for human consumption. Storage &amp; Expiry: Check the bottom of the can for the best before date and batch number. &nbsp;",
+  "images": [
+    {
+      "id": 62312,
+      "alt": "Pack Of 24 – King Canned Dog Food – Lamb Chunks in Gravy 400g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/11/KING-2.png",
+      "name": "KING (2)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 622,
+      "name": "canned food",
+      "slug": "canned-food"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 939,
+      "name": "On Sale Now",
+      "slug": "sale"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
       "slug": "wet-food"
     }
   ],
   "brands": [
     {
-      "id": 23,
+      "id": 2446,
       "name": "King",
       "slug": "king"
     }
   ],
-  "tags": [
-    {
-      "id": 1,
-      "name": "Premium",
-      "slug": "premium"
-    }
-  ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 1,
-  "status": "publish",
-  "dateCreated": "2026-06-22T07:52:40.876Z",
-  "dateModified": "2026-06-22T07:52:40.876Z",
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/king-canned-dog-food-lamb-chunks-in-gravy-400gr/",
-  "shortDescription": "King Canned Dog Food Lamb Chunks in Gravy 400g is a complementary meal for adult dogs, made with real lamb (4%), cereals, and essential minerals. The savory meaty chunks in gravy provide a protein-rich, moisture-packed formula that supports hydration, healthy muscles, and over...",
-  "description": "King Canned Dog Food Lamb Chunks in Gravy 400g is a complementary meal for adult dogs, made with real lamb (4%), cereals, and essential minerals. The savory meaty chunks in gravy provide a protein-rich, moisture-packed formula that supports hydration, healthy muscles, and over...",
-  "images": [
-    {
-      "id": 270,
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/11/KING-2.png",
-      "alt": "King Canned Dog Food - Lamb Chunks in Gravy 400g",
-      "name": "King Canned Dog Food - Lamb Chunks in Gravy 400g"
-    }
-  ],
   "stockStatus": "instock",
-  "lowStockRemaining": 10,
-  "manageStock": true,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/king-canned-dog-food-lamb-chunks-in-gravy-400gr/?add-to-cart=27"
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=62311",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.789Z",
+  "dateModified": "2026-06-23T09:15:51.789Z"
 }

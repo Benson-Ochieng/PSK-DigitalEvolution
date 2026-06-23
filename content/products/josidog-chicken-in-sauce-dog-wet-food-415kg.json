@@ -1,0 +1,83 @@
+{
+  "id": 46092,
+  "name": "Josidog Chicken In Sauce Dog Wet Food 415g",
+  "slug": "josidog-chicken-in-sauce-dog-wet-food-415kg",
+  "sku": "JCDSP165",
+  "onSale": false,
+  "price": 3.06,
+  "regularPrice": 3.06,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/JOSIDOG-Chicken-in-Sauce-Dog-Wet-food-415g.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    },
+    {
+      "id": 2349,
+      "name": "Wet Dog Food",
+      "slug": "wet-dog-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josidog-chicken-in-sauce-dog-wet-food-415kg/",
+  "shortDescription": "JosiDog Chicken in Sauce is a tasty dish for every day feeding: fine pieces in sauce with chicken ensure a flavorsome experience. Vitamins E and D3 also support the improvement of cell protection and strong bone growth in adult dogs. And it of course goes without saying that there are no artificial additives, as is the Josera way!",
+  "description": "JosiDog Chicken in Sauce is a tasty dish for every day feeding: fine pieces in sauce with chicken ensure a flavoursome experience. Vitamins E and D3 also support the improvement of cell protection and strong bone growth in adult dogs. And it of course goes without saying that there are no artificial additives, as is the Josera way! Fine wet food in sauce with chicken, for adult dogs With Vitamin E to improve cell protection With Vitamin D3 to support stable bone development Fuss-free: no added preservatives, colourings or flavourings. Complete food for adult dogs. weight 5kg 10kg 20kg 30kg feed quantities/24h 350 – 400g 600 -660g 850 – 1100g 1200g – 1500g Please note that the quantities stated are guidelines and should be adapted depending on your pet’s feeding requirements and activity levels. Please make sure your pet always has fresh water. After opening, keep refrigerated at 2 to 6 °C and offer the food at room temperature within 24 hours. Composition: Chicken and animal derivatives, cereals; fish and fish derivatives; minerals; caramel syrup. Analytical constituents: Analytical constituents protein 7.1 % fat content 4.0 % crude fibre 0.5 % crude ash 2.6 %",
+  "images": [
+    {
+      "id": 51679,
+      "alt": "Josidog Chicken In Sauce Dog Wet Food 415g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/04/JOSIDOG-Chicken-in-Sauce-Dog-Wet-food-415g.png",
+      "name": "JOSIDOG Chicken in Sauce Dog Wet food 415g"
+    }
+  ],
+  "tags": [
+    {
+      "id": 622,
+      "name": "canned food",
+      "slug": "canned-food"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=46092",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.377Z",
+  "dateModified": "2026-06-23T09:15:51.377Z"
+}

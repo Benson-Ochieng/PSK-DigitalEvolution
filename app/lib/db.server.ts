@@ -72,7 +72,7 @@ const initialUsers: User[] = [
   {
     id: "u-admin",
     name: "System Admin",
-    email: "admin@visionplus.co.ke",
+    email: "admin@petstore.co.ke",
     username: "admin",
     role: "administrator",
     ordersCount: 0,
@@ -83,7 +83,7 @@ const initialUsers: User[] = [
   {
     id: "u-manager",
     name: "Shop Manager",
-    email: "manager@visionplus.co.ke",
+    email: "manager@petstore.co.ke",
     username: "manager",
     role: "shop_manager",
     ordersCount: 0,
@@ -117,7 +117,7 @@ const initialUsers: User[] = [
 
 const initialCoupons: Coupon[] = [
   {
-    code: "VISION8",
+    code: "PET8",
     discountValue: 8,
     discountType: "percentage",
     active: true,
@@ -135,39 +135,39 @@ const initialCoupons: Coupon[] = [
 // Seed some initial orders for dashboard rendering
 const getInitialOrders = (): Order[] => [
   {
-    id: "VP-8001",
+    id: "PSK-8001",
     date: new Date(Date.now() - 3600000 * 2).toISOString(),
     paymentMethod: "MPESA Express",
     items: [
-      { id: 36509, name: "Vision Plus Cool Pods-Black", price: 525, quantity: 2, image: "/assets/images/products/Cool-Pods.jpg" }
+      { id: 36509, name: "Bonnie Adult Dog Food - Beef 15kg", price: 4500, quantity: 2, image: "/images/psk_logo.png" }
     ],
-    total: 1050,
+    total: 9000,
     shipping: 0,
     currency: "KES",
     billing: { name: "John Doe", email: "john.doe@gmail.com", phone: "254712345678" },
     status: "PROCESSING"
   },
   {
-    id: "VP-8002",
+    id: "PSK-8002",
     date: new Date(Date.now() - 3600000 * 24).toISOString(),
     paymentMethod: "M-Pesa on Delivery",
     items: [
-      { id: 36600, name: "Vision Plus Wireless Power Bank 20000mAh", price: 3495, quantity: 1, image: "/assets/images/products/VPPB20W.png" }
+      { id: 36600, name: "Reflex Plus Cat Food - Salmon 1.5kg", price: 1200, quantity: 1, image: "/images/psk_logo.png" }
     ],
-    total: 3995, // includes 500 shipping
+    total: 1700, // includes 500 shipping
     shipping: 500,
     currency: "KES",
     billing: { name: "Jane Smith", email: "jane.smith@gmail.com", phone: "254787654321" },
     status: "COMPLETED"
   },
   {
-    id: "VP-8003",
+    id: "PSK-8003",
     date: new Date(Date.now() - 3600000 * 48).toISOString(),
     paymentMethod: "MPESA Express",
     items: [
-      { id: 45177, name: "55\" 4K Frameless QLED Vidaa TV", price: 38995, quantity: 1, image: "/assets/images/products/VP8855-50QV-NEW-Side.jpg" }
+      { id: 45177, name: "Trixie Cat Scratching Post", price: 3200, quantity: 1, image: "/images/psk_logo.png" }
     ],
-    total: 38995,
+    total: 3200,
     shipping: 0,
     currency: "KES",
     billing: { name: "Alice Kamau", email: "alice.k@outlook.com", phone: "254700111222" },
@@ -584,7 +584,14 @@ export const db = {
             return null;
           }
           const { data, error } = await query.maybeSingle();
-          if (!error && data) return data;
+          if (!error && data) {
+            return {
+              ...data,
+              image: data.image || data.thumbnail || null,
+              link: data.link || "",
+              tag: data.tag || "Pet Care"
+            };
+          }
         } catch (err) {
           console.error("Failed to query posts from Supabase:", err);
         }
@@ -594,8 +601,17 @@ export const db = {
         if (fs.existsSync(POSTS_FILE)) {
           const posts = JSON.parse(fs.readFileSync(POSTS_FILE, "utf-8"));
           if (Array.isArray(posts)) {
-            if (where.id) return posts.find(p => p.id === where.id) || null;
-            if (where.slug) return posts.find(p => p.slug === where.slug) || null;
+            let found = null;
+            if (where.id) found = posts.find(p => p.id === where.id);
+            else if (where.slug) found = posts.find(p => p.slug === where.slug);
+            if (found) {
+              return {
+                ...found,
+                image: found.image || found.thumbnail || null,
+                link: found.link || "",
+                tag: found.tag || "Pet Care"
+              };
+            }
           }
         }
       } catch {}
@@ -608,7 +624,12 @@ export const db = {
         try {
           const { data, error } = await supabase.from("posts").select().order("date", { ascending: false });
           if (!error && data) {
-            posts = data;
+            posts = data.map((p: any) => ({
+              ...p,
+              image: p.image || p.thumbnail || null,
+              link: p.link || "",
+              tag: p.tag || "Pet Care"
+            }));
           }
         } catch (err) {
           console.error("Failed to query posts from Supabase:", err);
@@ -620,7 +641,12 @@ export const db = {
           if (fs.existsSync(POSTS_FILE)) {
             const localPosts = JSON.parse(fs.readFileSync(POSTS_FILE, "utf-8"));
             if (Array.isArray(localPosts)) {
-              posts = localPosts;
+              posts = localPosts.map((p: any) => ({
+                ...p,
+                image: p.image || p.thumbnail || null,
+                link: p.link || "",
+                tag: p.tag || "Pet Care"
+              }));
             }
           }
         } catch {}
@@ -642,7 +668,18 @@ export const db = {
 
       if (supabase) {
         try {
-          await supabase.from("posts").insert(post);
+          const dbPost = {
+            id: post.id,
+            title: post.title,
+            slug: post.slug,
+            date: post.date,
+            content: post.content,
+            excerpt: post.excerpt,
+            thumbnail: post.image || post.thumbnail || null,
+            status: post.status || "publish",
+            author: post.author || "System Admin"
+          };
+          await supabase.from("posts").insert(dbPost);
         } catch (err) {
           console.error("Failed to insert post in Supabase:", err);
         }
@@ -665,8 +702,22 @@ export const db = {
 
       if (supabase) {
         try {
-          const { data: updated, error } = await supabase.from("posts").update(data).eq("id", where.id).select().single();
-          if (!error && updated) updatedPost = updated;
+          const dbData = { ...data };
+          if ('image' in dbData) {
+            dbData.thumbnail = dbData.image;
+            delete dbData.image;
+          }
+          delete dbData.link;
+          delete dbData.tag;
+          const { data: updated, error } = await supabase.from("posts").update(dbData).eq("id", where.id).select().single();
+          if (!error && updated) {
+            updatedPost = {
+              ...updated,
+              image: updated.image || updated.thumbnail || null,
+              link: updated.link || "",
+              tag: updated.tag || "Pet Care"
+            };
+          }
         } catch (err) {
           console.error("Failed to update post in Supabase:", err);
         }
@@ -680,7 +731,14 @@ export const db = {
             if (idx !== -1) {
               posts[idx] = { ...posts[idx], ...data };
               fs.writeFileSync(POSTS_FILE, JSON.stringify(posts, null, 2), "utf-8");
-              if (!updatedPost) updatedPost = posts[idx];
+              if (!updatedPost) {
+                updatedPost = {
+                  ...posts[idx],
+                  image: posts[idx].image || posts[idx].thumbnail || null,
+                  link: posts[idx].link || "",
+                  tag: posts[idx].tag || "Pet Care"
+                };
+              }
             }
           }
         }

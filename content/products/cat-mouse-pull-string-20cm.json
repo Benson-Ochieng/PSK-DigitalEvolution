@@ -1,0 +1,77 @@
+{
+  "id": 46773,
+  "name": "Cat Mouse Pull String 20cm (Pa1529)",
+  "slug": "cat-mouse-pull-string-20cm",
+  "sku": "PA1529",
+  "onSale": false,
+  "price": 7.5,
+  "regularPrice": 7.5,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/05/CAT-MOUSE-PULL-STRING-ASST-e1715075558630.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2342,
+      "name": "Cat Toys",
+      "slug": "cat-toys"
+    },
+    {
+      "id": 2139,
+      "name": "toys",
+      "slug": "toys"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/cat-mouse-pull-string-20cm/",
+  "shortDescription": "Keep your cat active with the Cat Mouse Pull String 20cm an interactive toy that mimics real prey movement to spark natural hunting instincts and promote healthy, energetic play.",
+  "description": "Keep your cat entertained for hours with this pull string mouse. Vibrating cat toy Faux fur This vibrating cat toy encourages play between you and your cat. Spend time teasing your cat, satisfying its need to exercise hunting instincts while building a special bond. Simply pull the cord to activate and stimulate your cat&#8217;s desire to capture and torment. The patterns of behaviors are similar and the things that entice cats to hunt also get them excited about toys.",
+  "images": [
+    {
+      "id": 46774,
+      "alt": "Cat Mouse Pull String 20cm (Pa1529)",
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/05/CAT-MOUSE-PULL-STRING-ASST-e1715075558630.png",
+      "name": "CAT MOUSE PULL STRING ASST"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=46773",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.402Z",
+  "dateModified": "2026-06-23T09:15:51.402Z"
+}

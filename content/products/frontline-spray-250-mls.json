@@ -1,0 +1,93 @@
+{
+  "id": 24607,
+  "name": "Frontline Spray 250Ml- For Cats and Dogs",
+  "slug": "frontline-spray-250-mls",
+  "sku": "FS250",
+  "onSale": false,
+  "price": 42.5,
+  "regularPrice": 42.5,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/frontline-spray-1.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2337,
+      "name": "Cat Healthcare Supplies",
+      "slug": "cat-healthcare"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2362,
+      "name": "Dog Healthcare Supplies",
+      "slug": "dog-healthcare-supplies"
+    },
+    {
+      "id": 2338,
+      "name": "Flea & Tick",
+      "slug": "cat-flea-tick"
+    },
+    {
+      "id": 2124,
+      "name": "Frontline",
+      "slug": "frontline"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/frontline-spray-250-mls/",
+  "shortDescription": "Frontline Spray, Contains Fipronil long-acting insecticide/ acaricide that is highly effective against ticks and fleas in dogs and cats.",
+  "description": "FRONTLINE SPRAY protects cats and dogs against fleas and ticks, including paralysis ticks. It can be used on puppies and kittens from 2 days of age. To protect against adult fleas, apply every 12 weeks for dogs and every 8 weeks for cats. To protect against paralysis ticks, apply every 3 weeks for dogs and cats and for protection against brown dog ticks, apply monthly. Can be used in puppies and kittens from 2 days of age. Controls flea allergy dermatitis when used monthly.",
+  "images": [
+    {
+      "id": 88810,
+      "alt": "Frontline Spray 250Ml- For Cats and Dogs",
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/frontline-spray-1.png",
+      "name": "frontline spray (1)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1149,
+      "name": "flea &amp; tick",
+      "slug": "flea-tick"
+    },
+    {
+      "id": 2288,
+      "name": "Medicine",
+      "slug": "medicine"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2440,
+      "name": "Frontline",
+      "slug": "frontline"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=2&#038;add-to-cart=24607",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.227Z",
+  "dateModified": "2026-06-23T09:15:51.227Z"
+}

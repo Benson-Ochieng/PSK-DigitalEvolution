@@ -1,0 +1,67 @@
+{
+  "id": 89734,
+  "name": "Whiskas Kitten Food – Chicken 800g",
+  "slug": "whiskas-kitten-food-chicken-800g-2",
+  "sku": "WCD004",
+  "onSale": false,
+  "price": 13.5,
+  "regularPrice": 13.5,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/whiskas-kitten-.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2329,
+      "name": "Kitten Food",
+      "slug": "kitten-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/whiskas-kitten-food-chicken-800g-2/",
+  "shortDescription": "Support your kitten’s healthy growth and playful energy with Whiskas Kitten Food Chicken 800g a complete and balanced dry cat food specially formulated for kittens aged 2 to 12 months. Made with tasty chicken and enriched with essential vitamins, minerals, and high-quality protein, this nutritious recipe helps provide everything growing kittens need for a healthy start in life.",
+  "description": "Formulated to support strong muscles, healthy bones, brain development, and natural immunity, the crunchy kibble texture also helps promote good dental health while encouraging easy chewing for smaller mouths. Enriched with Taurine, Vitamin E, and balanced minerals, this delicious kitten food supports healthy vision, heart function, and overall wellbeing. The carefully crafted blend of protein, fats, and essential nutrients helps fuel healthy development while keeping your kitten active, happy, and satisfied at every mealtime. Key Benefits Complete and balanced nutrition for kittens Made with delicious chicken for great taste High protein content to support healthy growth and muscle development Enriched with Taurine for healthy heart and vision support Contains Vitamin E to help support natural defences Calcium and phosphorus help support healthy bones and teeth Crunchy kibble texture helps support dental health Suitable for kittens aged 2–12 months Feeding Guide Daily feeding recommendations: Up to 3 months: 45–55g daily 4–5 months: 65–75g daily 6–12 months: 70–80g daily For mixed feeding: 15g of dry food can be replaced with one 85g pouch of Whiskas wet food. Always provide fresh, clean drinking water and introduce new food gradually when changing diets. Storage Instructions Store in a cool, dry place and keep the pack tightly closed after opening to maintain freshness. &nbsp;",
+  "images": [
+    {
+      "id": 89912,
+      "alt": "Whiskas Kitten Food – Chicken 800g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/whiskas-kitten-.png",
+      "name": "whiskas kitten"
+    }
+  ],
+  "tags": [
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=89734",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.969Z",
+  "dateModified": "2026-06-23T09:15:51.969Z"
+}

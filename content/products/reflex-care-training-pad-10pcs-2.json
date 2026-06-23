@@ -1,0 +1,73 @@
+{
+  "id": 69425,
+  "name": "Reflex Care Training Pad 10pcs",
+  "slug": "reflex-care-training-pad-10pcs-2",
+  "sku": "RCTP10",
+  "onSale": false,
+  "price": 9,
+  "regularPrice": 9,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-CARE-TRAINING-PAD-10PCS.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2360,
+      "name": "Dog Grooming & Cleaning",
+      "slug": "dog-grooming-cleaning-supplies"
+    },
+    {
+      "id": 2393,
+      "name": "Dog Hygiene & Potty Solutions",
+      "slug": "dog-hygiene-potty-solutions"
+    },
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/reflex-care-training-pad-10pcs-2/",
+  "shortDescription": "Puppy training pads are designed for easy indoor potty training. Super-absorbent, leak-proof, quick-dry, and ideal for apartments, puppies, and senior dogs.",
+  "description": "With its ultra absorbent power and leak-proof design, it is perfect for toilet training. Thanks to the adhesive strips fixed to the floor, it does not slip. Its technology traps odors. Puppy training pads are ideal for pet owners who have limited or no access to outdoor spaces, such as those living in apartments or high-rise buildings. They provide a convenient, hygienic solution for potty training puppies and are also useful for dogs that cannot go outside due to health or mobility issues. These pads make house training easier while keeping your home clean and odor-free. Key Benefits Super-Absorbent Core – Locks in moisture quickly to keep surfaces dry Leak-Proof Design – Plastic lining prevents leaks and protects floors Quick-Dry Surface with Attractant – Encourages puppies to use the pad Comfortable for Dogs – Soft surface suitable for regular use Easy Clean-Up – Disposable and mess-free Indoor-Friendly Solution – Ideal for puppies, senior dogs, or dogs with health limitations Ideal For Puppies in training Apartment and high-rise living Dogs recovering from illness or surgery Bad weather or limited outdoor access",
+  "images": [
+    {
+      "id": 69426,
+      "alt": "Reflex Care Training Pad 10pcs",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-CARE-TRAINING-PAD-10PCS.png",
+      "name": "REFLEX CARE TRAINING PAD 10PCS"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2098,
+      "name": "Grooming &amp; Tools",
+      "slug": "grooming-tools"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2462,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=69425",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.911Z",
+  "dateModified": "2026-06-23T09:15:51.911Z"
+}

@@ -1,0 +1,83 @@
+{
+  "id": 57099,
+  "name": "Soup Time Cat Creamy Treats Tuna & Cod Fish 70g",
+  "slug": "soup-time-cat-creamy-treats-tuna-c70g",
+  "sku": "STCCTTF",
+  "onSale": false,
+  "price": 2.97,
+  "regularPrice": 2.97,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-2025-07-23T090451.852.png",
+  "categories": [
+    {
+      "id": 2421,
+      "name": "Soup Time",
+      "slug": "soup-time"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2330,
+      "name": "Cat Treats",
+      "slug": "cat-treats"
+    },
+    {
+      "id": 2403,
+      "name": "Kitten Treats",
+      "slug": "kitten-treats"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/soup-time-cat-creamy-treats-tuna-c70g/",
+  "shortDescription": "Soup Time Creamy is a nutritious and hydrating lickable treat your cat will love. Serve it in a dish or let your furry friend enjoy it straight from the tube as a special reward. Made with premium natural ingredients, it’s packed with essential nutrients to support your cat’s health and add variety to their diet. Perfect on its own or as a tasty topper for dry food.",
+  "description": "Soup Time Creamy is a nutritious and hydrating lickable treat your cat will love. Serve it in a dish or let your furry friend enjoy it straight from the tube as a special reward. Made with premium natural ingredients, it’s packed with essential nutrients to support your cat’s health and add variety to their diet. Perfect on its own or as a tasty topper for dry food. Key Benefits: &nbsp;Premium quality &nbsp;Lockable treat for easy absorption &nbsp;Hydrating and nutritious &nbsp;No artificial colorants or preservatives",
+  "images": [
+    {
+      "id": 57101,
+      "alt": "Soup Time Cat Creamy Treats Tuna & Cod Fish 70g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-2025-07-23T090451.852.png",
+      "name": "Untitled design &#8211; 2025-07-23T090451.852"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2467,
+      "name": "Soup Time",
+      "slug": "soup-time"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=57099",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.708Z",
+  "dateModified": "2026-06-23T09:15:51.708Z"
+}

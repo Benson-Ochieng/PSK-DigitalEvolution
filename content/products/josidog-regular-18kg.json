@@ -1,0 +1,83 @@
+{
+  "id": 23725,
+  "name": "JosiDog Regular 15kg",
+  "slug": "josidog-regular-18kg",
+  "sku": "JDJR",
+  "onSale": false,
+  "price": 100.5,
+  "regularPrice": 100.5,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/Untitled-design-4.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josidog-regular-18kg/",
+  "shortDescription": "The finely tuned, gluten-free formula of JosiDog Regular is suitable for dogs with slightly elevated energy requirements. Complete feed for adult dogs.",
+  "description": "Composition: Regular &#8211; Complete feed for adult dogs. Composition: whole grain corn; dried poultry protein; poultry fat; beet fibre; meat-and-bone meal; hydrolysed animal protein; minerals; ground chicory root (natural source of inulin); dried meat from the New Zealand green-lipped mussel (Perna canaliculus). Product Details: The finely tuned, gluten-free formula of JosiDog Regular is suitable for dogs with slightly elevated energy requirements. Complete feed for adult dogs. Complete &amp; Balanced Nutrition Formulated to: . Maintain optimal energy levels . Support joint health and mobility . Promote strong immunity and vitality . Be gentle on sensitive digestive systems Nutrient Value Protein ~24% Fat ~12% Crude Fiber ~2.5% Crude Ash ~7% Moisture ~10 Why Choose JosiDog Regular? Supports Energy Needs – ideal for adult dogs with moderate activity levels or slightly elevated energy requirements. Gluten-Free Formula – gentle on digestion and suitable for sensitive stomachs. Strong Joints &amp; Mobility – enriched with New Zealand green-lipped mussel (Perna canaliculus) for joint support. Digestive Health – contains chicory root as a natural source of inulin to promote healthy gut flora. Healthy Bones &amp; Teeth – balanced minerals contribute to robust bone and dental health.",
+  "images": [
+    {
+      "id": 34546,
+      "alt": "JosiDog Regular 15kg",
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/Untitled-design-4.png",
+      "name": "Untitled design (4)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 637,
+      "name": "kibble",
+      "slug": "kibble"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 5,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=2&#038;add-to-cart=23725",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.194Z",
+  "dateModified": "2026-06-23T09:15:51.194Z"
+}

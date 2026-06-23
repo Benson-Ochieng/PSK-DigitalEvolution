@@ -1,0 +1,88 @@
+{
+  "id": 37259,
+  "name": "Pack Of 12 – Miglior Cat Food Game Alutray – 100g",
+  "slug": "migliorgatto-adult-cat-food-alutray-pate-with-game-100gr",
+  "sku": "MCW011$12",
+  "onSale": true,
+  "price": 19.89,
+  "regularPrice": 23.4,
+  "salePrice": 19.89,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW011.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2163,
+      "name": "Miglior",
+      "slug": "miglior"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/migliorgatto-adult-cat-food-alutray-pate-with-game-100gr/",
+  "shortDescription": "Formula designed to guarantee the key nutrients required for the well-being of your cat. Vitamin E with antioxidant action and a recipe rich in meat to help keep muscle mass toned.",
+  "description": "COMPOSITION : Meat and animal derivatives 50% (game 5%), minerals. ANALYTICAL CONSTITUENTS: Moisture 80%, Crude protein 11%, Crude fibres 0.5%, Crude fat 4%, Crude ash 1.8%. Nutritional additives / kg: Vitamin E 23.7 mg, Zinc (Zinc sulphate monohydrate) 2.1 mg, Copper (Copper sulphate pentahydrate) 2.0 mg, Manganese (Manganous sulphate monohydrate) 2.1 mg, Iodine (Potassium iodide) 0.4 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place.",
+  "images": [
+    {
+      "id": 28225,
+      "alt": "Migliorgatto Alutray PATE WITH GAME 100Gr",
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW011.jpg",
+      "name": "MCW011"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2055,
+      "name": "Bulk Cat Food &amp; Bulk Dog Food",
+      "slug": "bulk"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2451,
+      "name": "Miglior",
+      "slug": "miglior"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=3&#038;add-to-cart=37259",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.297Z",
+  "dateModified": "2026-06-23T09:15:51.297Z"
+}

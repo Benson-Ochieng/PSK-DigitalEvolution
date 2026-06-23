@@ -1,0 +1,78 @@
+{
+  "id": 58258,
+  "name": "Ferplast Club Collar C15/44 Pink",
+  "slug": "58258",
+  "sku": "FCCPink",
+  "onSale": false,
+  "price": 13.35,
+  "regularPrice": 13.35,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-47.png",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2351,
+      "name": "Collars, Leashes & Harnesses",
+      "slug": "dog-collars-leashes-and-harnesses"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2354,
+      "name": "Dog Collars",
+      "slug": "dog-collars"
+    },
+    {
+      "id": 2414,
+      "name": "Ferplast",
+      "slug": "ferplast"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/58258/",
+  "shortDescription": "The FERPLAST CLUB COLLAR C15/44 in pink is a practical, stylish, and durable nylon collar designed for everyday use. Perfect for small to medium-sized dogs, it combines comfort, adjustability, and strength to make daily walks safer and more enjoyable.",
+  "description": "Whether you’re heading out for a casual stroll, training sessions, or everyday wear, the FERPLAST CLUB COLLAR C15/44 offers a secure, comfortable, and stylish solution. With its vibrant pink color, it adds a touch of personality while keeping your dog safe and comfortable. Benefits: • Comfortable for your dog thanks to the lightweight yet robust design. • Durable construction ensures long-lasting performance. • Easy to maintain and clean, even after outdoor adventures. • Adjustable fit accommodates slight size changes, ensuring consistent comfort.",
+  "images": [
+    {
+      "id": 58259,
+      "alt": "Ferplast Club Collar C15/44 Pink",
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-47.png",
+      "name": "Untitled design (47)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2098,
+      "name": "Grooming &amp; Tools",
+      "slug": "grooming-tools"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2438,
+      "name": "Ferplast",
+      "slug": "ferplast"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 2,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=58258",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.739Z",
+  "dateModified": "2026-06-23T09:15:51.739Z"
+}

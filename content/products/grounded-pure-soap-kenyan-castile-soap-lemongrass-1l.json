@@ -1,0 +1,63 @@
+{
+  "id": 49022,
+  "name": "Grounded Pure Soap Kenyan Castile Soap Lemongrass 1l",
+  "slug": "grounded-pure-soap-kenyan-castile-soap-lemongrass-1l",
+  "sku": "PSP1LG",
+  "onSale": false,
+  "price": 11,
+  "regularPrice": 11,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/07/Pure-Soap-Lemongrass.jpg",
+  "categories": [
+    {
+      "id": 2033,
+      "name": "Grounded",
+      "slug": "grounded"
+    },
+    {
+      "id": 2243,
+      "name": "Humans",
+      "slug": "human"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/grounded-pure-soap-kenyan-castile-soap-lemongrass-1l/",
+  "shortDescription": "All-natural, Kenyan-made multi-purpose Castile soap crafted from locally grown oils. A concentrated, eco-friendly cleaner perfect for every home and pet-safe cleaning need.",
+  "description": "All-purpose Kenyan Castile Soap. Castile soap is a vegan, vegetable oil-based soap. This neutral, all-purpose soap is so natural you can use it on anything! This multi-purpose liquid soap is all-natural, and all-purpose for every cleaning need. No imported oils in our recipe! Just pure-Kenyan grown ingredients. Our All-Kenyan Castile soap is concentrated to last – a little product goes a long way! Pure Soap siblings are now available in more fun formulations specifically for: Use 30ml for mopping and a few drops for surfaces. Ingredients: Saponified coconut, sunflower, canola oils; Citric Acid, Essential Oils",
+  "images": [
+    {
+      "id": 49023,
+      "alt": "Grounded Pure Soap Kenyan Castile Soap Unscented 1l",
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/07/Pure-Soap-Lemongrass.jpg",
+      "name": "Pure-Soap-Lemongrass"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2245,
+      "name": "Human",
+      "slug": "human"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2441,
+      "name": "Grounded",
+      "slug": "grounded"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 3,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=5&#038;add-to-cart=49022",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.458Z",
+  "dateModified": "2026-06-23T09:15:51.458Z"
+}

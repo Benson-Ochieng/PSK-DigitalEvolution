@@ -1,5 +1,13 @@
 [
   {
+    "id": "evt-8f3aqiz4g",
+    "timestamp": "2026-06-23T09:08:18.305Z",
+    "user": "Ben",
+    "action": "Settings Updated",
+    "details": "Updated site configuration settings in the General control panel",
+    "icon": "⚙️"
+  },
+  {
     "id": "evt-ra1oa79q5",
     "timestamp": "2026-06-18T09:26:25.492Z",
     "user": "System Admin",

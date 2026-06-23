@@ -1,0 +1,83 @@
+{
+  "id": 89827,
+  "name": "Pedigree Dog Treats – Schmackos Poultry 144g",
+  "slug": "pedigree-dog-treats-schmackos-poultry-144g",
+  "sku": "PDT005",
+  "onSale": false,
+  "price": 4.95,
+  "regularPrice": 4.95,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/Pedigree-Schmackos-Dog-Treats-With-Poultry-144g.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 2400,
+      "name": "Pedigree",
+      "slug": "pedigree"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/pedigree-dog-treats-schmackos-poultry-144g/",
+  "shortDescription": "Treat your dog to the soft, meaty goodness of Pedigree Schmackos Multi Flavour Dog Snacks delicious tender strips made with irresistible chicken, turkey, and duck flavours. These low-calorie dog snacks are perfect for training, rewarding good behaviour, or everyday feeding without the guilt.",
+  "description": "Made with high-quality ingredients, Pedigree Schmackos are enriched with Omega 6 to help support healthy skin and overall fitness, while Vitamin E helps support your dog’s natural defences. Their soft texture makes them easy to chew and enjoyable for adult dogs of all breeds. Key Benefits Soft and tasty dog snack strips in chicken, turkey, and duck flavours Less than 30 kcal per piece for guilt-free rewarding Enriched with Omega 6 to help support healthy skin and fitness Contains Vitamin E to support natural defences Made with high-quality ingredients No artificial colours or flavours Ideal for training, rewarding, or snacking between meals Suitable For Adult dogs over 12 months old Suitable for all dog breeds Feeding Guide Small dogs (5–9kg): Up to 1 stick daily Medium dogs (10–24kg): Up to 2 sticks daily Large dogs (25kg+): Up to 4 sticks daily Adjust your dog’s main meals accordingly and always provide fresh, clean drinking water. Ingredients Meat and animal derivatives, cereals, vegetable derivatives, oils and fats, minerals, and natural flavourings. Storage Instructions Store in a cool, dry place away from direct sunlight. Keep packaging away from babies, children, and pets to avoid suffocation hazards. Reward your furry friend with Pedigree Schmackos Multi Flavour Dog Snacks — the soft and tasty snack dogs love every day &nbsp;",
+  "images": [
+    {
+      "id": 89831,
+      "alt": "Pedigree Dog Treats – Schmackos Poultry 144g",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Pedigree-Schmackos-Dog-Treats-With-Poultry-144g.png",
+      "name": "Pedigree Schmackos Dog Treats With Poultry 144g"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2456,
+      "name": "Pedigree",
+      "slug": "pedigree"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=89827",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.973Z",
+  "dateModified": "2026-06-23T09:15:51.973Z"
+}

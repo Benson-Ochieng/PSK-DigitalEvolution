@@ -1,0 +1,77 @@
+{
+  "id": 42025,
+  "name": "Rogz Dog Grinz Treat Ball 7.8cm Lime Medium (g04-L)",
+  "slug": "rogz-dog-grinz-treat-ball-7-8cm-lime-medium-2",
+  "sku": "GR04-L",
+  "onSale": false,
+  "price": 16.35,
+  "regularPrice": 16.35,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/GR02-S-Grinz-lime.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2064,
+      "name": "Rogz",
+      "slug": "rogz"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-7-8cm-lime-medium-2/",
+  "shortDescription": "Keep your dog active, entertained, and mentally stimulated with the Rogz Dog Grinz Treat Ball . This medium-sized, lime-colored ball is perfect for adult dogs, combining fun play with treat rewards to encourage exercise and problem-solving. Rogz Grinz ball &#8211; Lime Large",
+  "description": "The Rogz Grinz Treat Ball is more than a toy—it’s a playful, interactive experience. As your dog pushes, rolls, or chases the ball, treats are gradually dispensed from the center cavity. Its unique “grinning teeth” design adds charm and fun to every play session, while the durable, pet-safe construction ensures long-lasting use. Size: Medium (7.8 cm), ideal for adult dogs Color: Lime SKU: GR04-L Key Features Interactive Treat Dispensing: Encourages active play and rewards your dog with treats. Durable &amp; Pet-Safe Materials: Made from tough, non-toxic materials suitable for chewing. Medium Size (7.8 cm): Perfect for adult dogs and medium breeds. Bright Lime Color: Easy to spot indoors or outdoors. Mental &amp; Physical Stimulation: Promotes problem-solving, exercise, and boredom reduction. Easy to Clean: Rinse regularly to maintain hygiene and prevent bacterial buildup. Benefits for Your Dog Keeps dogs engaged and mentally stimulated Supports physical activity and exercise Helps reduce destructive behaviors caused by boredom Offers fun, rewarding playtime that pets love Usage Tips Supervision Recommended: Always supervise dogs during play, especially strong chewers, to prevent hazards. Treat Compatibility: Use standard treats that fit comfortably inside the ball. Cleaning: Wash the treat ball regularly with warm water to maintain hygiene.",
+  "images": [
+    {
+      "id": 42024,
+      "alt": "Rogz Dog Grinz Treat Ball 7.8cm Lime Medium (g04-L)",
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/12/GR02-S-Grinz-lime.jpg",
+      "name": "GR02-S-Grinz-lime"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2227,
+      "name": "Rogz",
+      "slug": "rogz"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": 5,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=42025",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.341Z",
+  "dateModified": "2026-06-23T09:15:51.341Z"
+}

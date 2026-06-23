@@ -1,0 +1,88 @@
+{
+  "id": 28274,
+  "name": "Miglior Canned Cat Food – Chicken & Turkey Chunks, 405g",
+  "slug": "migliorgatto-chunks-with-chicken-and-turkey-405gr",
+  "sku": "MCW001",
+  "onSale": false,
+  "price": 2.68,
+  "regularPrice": 2.68,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW001.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2163,
+      "name": "Miglior",
+      "slug": "miglior"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/migliorgatto-chunks-with-chicken-and-turkey-405gr/",
+  "shortDescription": "A premium wet food made with real chicken chunks in a rich, savory gravy, crafted to support digestion, immunity, and overall feline wellness. High in quality animal protein and enriched with essential vitamins and minerals, it delivers both taste and nutrition in every bite. No artificial additives. Offers a complete and balanced meal for everyday feeding.",
+  "description": "A premium wet food made with real chicken chunks in a rich, savory gravy, crafted to support digestion, immunity, and overall feline wellness. High in quality animal protein and enriched with essential vitamins and minerals, it delivers both taste and nutrition in every bite. No artificial additives. Offers a complete and balanced meal for everyday feeding. The formula is carefully designed to deliver the essential nutrients your cat needs, including vitamins, Omega-3, calcium, and phosphorus supporting strong bones and teeth, a healthy skin and a glossy coat. Premium Chicken Chunks: Naturally high in protein to support lean muscle development, energy, and healthy body weight. Flavorful Gravy Base: Rich, moist texture enhances palatability—perfect for even picky eaters. Fortified for Wellness: Enriched with essential vitamins, taurine, and Omega-3 to support immunity, heart health, and a shiny coat. Why Your Cat Will Love It: All-Natural Ingredients – No artificial colors, flavors, or fillers Tender, Meaty Texture – Chicken chunks in gravy cats crave Supports Immune Health – With added antioxidants and essential nutrients Skin &amp; Coat Support – Omega-3 and vitamins for a glossy coat Complete &amp; Balanced – Ideal for everyday feeding COMPOSITION: Meat and animal derivatives 30% (chicken 5%, turkey 5%), cereals, minerals. ANALYTICAL CONSTITUENTS: Moisture 77%, Crude protein 8.5%, Crude fat 4.8%, Crude fibres 0.5%, Crude ash 3%. Nutritional additives / kg: Vitamin E 10 mg, Copper (Copper (II) sulphate pentahydrate) 2 mg. HOW TO USE: Serve at room temperature for the best taste and aroma Can be fed alone or mixed with dry kibble for variety Adjust portion size based on your cat’s weight and activity level Refrigerate unused portion and use within 48 hours STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight. Once opened, store in refrigerator for 2-3 days.",
+  "images": [
+    {
+      "id": 28237,
+      "alt": "Migliorgatto CHUNKS WITH CHICKEN AND TURKEY 405Gr",
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW001.jpg",
+      "name": "MCW001"
+    }
+  ],
+  "tags": [
+    {
+      "id": 622,
+      "name": "canned food",
+      "slug": "canned-food"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2451,
+      "name": "Miglior",
+      "slug": "miglior"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=3&#038;add-to-cart=28274",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.259Z",
+  "dateModified": "2026-06-23T09:15:51.259Z"
+}

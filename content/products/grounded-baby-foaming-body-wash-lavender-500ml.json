@@ -1,0 +1,63 @@
+{
+  "id": 49008,
+  "name": "Grounded Baby Foaming Body Wash Lavender 500ml",
+  "slug": "grounded-baby-foaming-body-wash-lavender-500ml",
+  "sku": "BBFW05L",
+  "onSale": false,
+  "price": 11.5,
+  "regularPrice": 11.5,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/07/Baby-Foaming-Body-Wash-500ml-Lavender.jpg",
+  "categories": [
+    {
+      "id": 2033,
+      "name": "Grounded",
+      "slug": "grounded"
+    },
+    {
+      "id": 2243,
+      "name": "Humans",
+      "slug": "human"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/grounded-baby-foaming-body-wash-lavender-500ml/",
+  "shortDescription": "Our best-selling baby body wash cleans your kids without stripping them of protective layers. In a unique refillable foaming dispenser. Pump onto hands and lather your little ones or add a few pumps directly to the bathtub.",
+  "description": "Make bath time relaxing and fun with our refillable Baby Foaming Body Wash, powered by Castile Soap. Uses less harsh soap, and no sulfates – just Pure Soap in a refillable foaming dispenser. Pump some soap into the washing basin, or directly onto hands and onto skin. Overusing soap can remove the protective skin layer on our kids, which can make skin conditions like eczema worse. Our best-selling baby body wash cleans your kids without stripping them of protective layers. In a unique refillable foaming dispenser. Pump onto hands and lather your little ones or add a few pumps directly to the bathtub. Baby Foaming Body Wash (Lavender) No synthetic fragrances – only lavender essential oil for a calm bath time 100% natural Castile soap free from any irritants for baby’s skin Save money by refilling your foaming dispenser Ingredients: Saponified Coconut, Canola, Sunflower Oils; Citric Acid, Lavender Essential Oil. &nbsp;",
+  "images": [
+    {
+      "id": 49009,
+      "alt": "Grounded Baby Foaming Body Wash Lavender 500ml",
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/07/Baby-Foaming-Body-Wash-500ml-Lavender.jpg",
+      "name": "Baby-Foaming-Body-Wash-500ml-Lavender"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2245,
+      "name": "Human",
+      "slug": "human"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2441,
+      "name": "Grounded",
+      "slug": "grounded"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": 4,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=5&#038;add-to-cart=49008",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:51.453Z",
+  "dateModified": "2026-06-23T09:15:51.453Z"
+}

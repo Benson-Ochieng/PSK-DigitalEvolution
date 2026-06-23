@@ -1,0 +1,83 @@
+{
+  "id": 90704,
+  "name": "Bewi Dog Dry Food – Mini Sensitive 12.5kg",
+  "slug": "bewi-dog-dry-food-mini-sensitive-12-5kg",
+  "sku": "LBDD011",
+  "onSale": false,
+  "price": 84,
+  "regularPrice": 84,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/Bewi-Dog-Mini-Sensitive-12.5kg-1.png",
+  "categories": [
+    {
+      "id": 2406,
+      "name": "Bewi",
+      "slug": "bewi"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/bewi-dog-dry-food-mini-sensitive-12-5kg/",
+  "shortDescription": "BEWI DOG Mini Sensitive is a complete premium dry dog food specially developed for small breed adult dogs with sensitive digestion and food intolerances. Carefully crafted with highly digestible lamb and millet, this balanced recipe provides gentle nutrition while supporting overall health, vitality, and wellbeing.",
+  "description": "Small breed dogs often have unique nutritional requirements, and BEWI DOG Mini Sensitive is designed to meet those needs with high-quality ingredients and a carefully balanced nutrient profile. With an impressive 75% animal protein of total protein content , this formula helps maintain lean muscle mass, supports healthy energy levels, and promotes optimal body condition. The inclusion of mannan oligosaccharides (MOS) derived from brewer’s yeast helps support healthy digestion and strengthen the body&#8217;s natural immune defences. Added lecithin and brewer’s yeast contribute to healthy skin and a glossy coat, helping your dog look and feel its best every day. Key Benefits . Specially formulated for small breed adult dogs . Ideal for dogs with sensitive stomachs and food sensitivities . Made with highly digestible lamb and millet . 75% animal protein of total protein content . Supports healthy digestion and nutrient absorption . MOS from brewer’s yeast promotes gut health and immunity . Helps maintain healthy skin and a shiny coat . Supports strong muscles and sustained energy levels .Complete and balanced daily nutrition Premium Ingredients Carefully selected ingredients including high-quality lamb, digestible millet, brewer’s yeast, lecithin, essential vitamins, minerals, and natural nutrients work together to provide optimal nutrition for sensitive small breed dogs. Supports Digestive Health Sensitive dogs require gentle, easily digestible nutrition. The combination of lamb, millet, and MOS helps maintain a balanced digestive system, improve nutrient utilisation, and support healthy stool quality. Healthy Skin &amp; Shiny Coat Enriched with brewer’s yeast and lecithin, this recipe provides valuable nutrients that help nourish the skin and support a soft, healthy, and glossy coat. Why Choose BEWI DOG Mini Sensitive? BEWI DOG Mini Sensitive offers premium-quality nutrition tailored to the needs of small breed dogs with sensitive digestion. Its highly digestible ingredients, immune-supporting nutrients, and skin-and-coat benefits make it an excellent everyday diet for maintaining your dog&#8217;s health, comfort, and vitality. Give your small companion the gentle nutrition they deserve with BEWI DOG Mini Sensitive. &nbsp;",
+  "images": [
+    {
+      "id": 90712,
+      "alt": "Bewi Dog Dry Food – Mini Sensitive 12.5kg",
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/Bewi-Dog-Mini-Sensitive-12.5kg-1.png",
+      "name": "Bewi Dog Mini-Sensitive 12.5kg (1)"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2427,
+      "name": "Bewi",
+      "slug": "bewi"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=10&#038;add-to-cart=90704",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-23T09:15:52.066Z",
+  "dateModified": "2026-06-23T09:15:52.066Z"
+}
