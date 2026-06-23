@@ -1,0 +1,19 @@
+{
+  "id": 1,
+  "title": "Home",
+  "slug": "home",
+  "status": "publish",
+  "parent": 0,
+  "link": "https://petstore.co.ke/",
+  "date": "2026-06-23T12:00:00",
+  "modified": "2026-06-23T12:00:00",
+  "content": "<p>Welcome to PetStore Kenya. Browse pet foods by pet category, popular brand catalogs, new arrivals, or contact us directly on WhatsApp to get fast Nairobi deliveries.</p>",
+  "excerpt": "Welcome to PetStore Kenya. Kenya's Pet Food, Delivered.",
+  "featuredImage": "/images/midbanner-copy.jpg.webp",
+  "seo": {
+    "title": "PetStore Kenya | We Love Them as Much as You Do",
+    "description": "Shop premium dog food, cat food, treats, healthcare, and accessories at PetStore Kenya. Fast delivery and secure payments.",
+    "canonical": "https://petstore.co.ke/",
+    "ogImage": null
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 3,
+  "title": "Flash Sale",
+  "slug": "flash-sale",
+  "status": "publish",
+  "parent": 0,
+  "link": "https://petstore.co.ke/flash-sale/",
+  "date": "2026-06-23T12:00:00",
+  "modified": "2026-06-23T12:00:00",
+  "content": "<p>Grab our time-limited flash sales on select high quality local dog and cat foods, treats, and litters before they run out of stock.</p>",
+  "excerpt": "Time-limited clearance sales on premium pet foods.",
+  "featuredImage": null,
+  "seo": {
+    "title": "Flash Sale - PetStore Kenya",
+    "description": "Limited time discounts on selected pet items at PetStore Kenya.",
+    "canonical": "https://petstore.co.ke/flash-sale/",
+    "ogImage": null
+  }
+}

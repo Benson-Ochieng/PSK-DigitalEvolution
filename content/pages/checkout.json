@@ -1,19 +1,19 @@
 {
-  "id": 10,
+  "id": 6,
   "title": "Checkout",
   "slug": "checkout",
   "status": "publish",
   "parent": 0,
-  "link": "https://visionplus.co.ke/checkout/",
-  "date": "2022-09-20T08:26:31",
-  "modified": "2022-09-20T08:26:31",
-  "content": "<div class=\"woocommerce\"></div>\n",
-  "excerpt": "",
+  "link": "https://petstore.co.ke/checkout/",
+  "date": "2026-06-23T12:00:00",
+  "modified": "2026-06-23T12:00:00",
+  "content": "<p>Complete your purchase by inputting billing details, choosing your delivery location inside Nairobi or other counties, and completing M-Pesa or Cash on Delivery options.</p>",
+  "excerpt": "Secure checkout page for processing your order.",
   "featuredImage": null,
   "seo": {
-    "title": "Checkout - Vision Plus",
-    "description": "",
-    "canonical": "https://visionplus.co.ke/checkout/",
+    "title": "Checkout - PetStore Kenya",
+    "description": "Enter your delivery and payment details to complete your order.",
+    "canonical": "https://petstore.co.ke/checkout/",
     "ogImage": null
   }
 }

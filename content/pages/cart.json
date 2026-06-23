@@ -1,19 +1,19 @@
 {
-  "id": 9,
+  "id": 5,
   "title": "Cart",
   "slug": "cart",
   "status": "publish",
   "parent": 0,
-  "link": "https://visionplus.co.ke/cart/",
-  "date": "2022-09-20T08:26:31",
-  "modified": "2022-09-20T08:26:31",
-  "content": "\n",
-  "excerpt": "",
+  "link": "https://petstore.co.ke/cart/",
+  "date": "2026-06-23T12:00:00",
+  "modified": "2026-06-23T12:00:00",
+  "content": "<p>Review your selected pet food items, adjust quantities, input discount coupons, and calculate total checkout cost estimates.</p>",
+  "excerpt": "Review the items inside your shopping cart.",
   "featuredImage": null,
   "seo": {
-    "title": "Cart - Vision Plus",
-    "description": "",
-    "canonical": "https://visionplus.co.ke/cart/",
+    "title": "Shopping Cart - PetStore Kenya",
+    "description": "View and review the items currently in your shopping cart.",
+    "canonical": "https://petstore.co.ke/cart/",
     "ogImage": null
   }
 }

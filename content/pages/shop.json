@@ -1,19 +1,19 @@
 {
-  "id": 5,
+  "id": 2,
   "title": "Shop",
   "slug": "shop",
   "status": "publish",
   "parent": 0,
-  "link": "https://visionplus.co.ke/shop/",
-  "date": "2017-10-12T06:04:13",
-  "modified": "2023-05-30T09:35:34",
-  "content": "",
-  "excerpt": "",
+  "link": "https://petstore.co.ke/shop/",
+  "date": "2026-06-23T12:00:00",
+  "modified": "2026-06-23T12:00:00",
+  "content": "<p>Browse and filter all our available premium dog food, cat food, bird food, rabbit food, treats, and healthcare items.</p>",
+  "excerpt": "Shop all premium pet products at PetStore Kenya.",
   "featuredImage": null,
   "seo": {
-    "title": "Vision plus Shop | Most Affordable Tv Brand in Kenya",
-    "description": "Visit our Vision plus shop and experience everything! You can count on us to deliver your products for FREE countrywide & enjoy 2 Years Warranty.",
-    "canonical": "https://visionplus.co.ke/shop/",
+    "title": "Shop - PetStore Kenya",
+    "description": "Browse our catalog of high quality dog food, cat food, and accessories.",
+    "canonical": "https://petstore.co.ke/shop/",
     "ogImage": null
   }
 }
