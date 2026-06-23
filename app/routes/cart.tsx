@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { query } from "../db.server";
 import { useCart } from "../context/cart";
+import PageHeader from "../components/PageHeader";
 
 export function meta() {
   return [
@@ -59,43 +60,7 @@ export default function CartPage() {
         <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 1.5rem" }}>
           
           {/* Header Banner */}
-          <div style={{
-            backgroundImage: "url('/images/my-account-bg.png')",
-            backgroundSize: "100% 100%",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-            height: "65px",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            gap: "1.2rem",
-            marginBottom: "1.5rem",
-            borderBottom: "3px solid #f7c276"
-          }}>
-            <i className="fa fa-paw" style={{
-              transform: "rotate(45deg)",
-              fontSize: "18px",
-              color: "#f7c276",
-              display: "inline-block"
-            }} />
-            <h1 style={{
-              fontFamily: '"Patrick Hand", cursive',
-              fontSize: "1.8rem",
-              fontWeight: "bold",
-              color: "#1053a0",
-              margin: 0,
-              letterSpacing: "0.05em",
-              textTransform: "uppercase"
-            }}>
-              CART
-            </h1>
-            <i className="fa fa-paw" style={{
-              transform: "rotate(-45deg)",
-              fontSize: "18px",
-              color: "#f7c276",
-              display: "inline-block"
-            }} />
-          </div>
+          <PageHeader title="Cart" />
 
           <div style={{ marginBottom: "1.5rem" }}>
             <span style={{ fontSize: "0.85rem", color: "#3b82f6", cursor: "pointer" }}>Edit This</span>

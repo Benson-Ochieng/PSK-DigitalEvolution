@@ -1,0 +1,19 @@
+{
+  "id": 16,
+  "title": "Blog",
+  "slug": "blog",
+  "status": "publish",
+  "parent": 0,
+  "link": "https://petstore.co.ke/blog/",
+  "date": "2026-06-23T14:13:00",
+  "modified": "2026-06-23T14:13:00",
+  "content": "<h2>Education / Blog</h2><p>Read our essential dog and cat care guides and tips from PetStore Kenya.</p>",
+  "excerpt": "Read our essential dog and cat care guides and tips from PetStore Kenya.",
+  "featuredImage": null,
+  "seo": {
+    "title": "Education & Blog — PetStore Kenya",
+    "description": "Read our essential dog and cat care guides and tips from PetStore Kenya.",
+    "canonical": "https://petstore.co.ke/blog/",
+    "ogImage": null
+  }
+}

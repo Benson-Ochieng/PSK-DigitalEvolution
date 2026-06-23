@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import PageHeader from "../components/PageHeader";
 
 export function meta() {
   return [
@@ -12,123 +13,104 @@ export function meta() {
 export default function WhyUs() {
   const points = [
     {
-      title: "Always Cheaper (No Middle-Men)",
-      icon: "💰",
-      desc: "Traditional pet food imports pass through multiple hands—importers, national distributors, wholesalers, and retail chains—each adding their markup. We work directly with Kenyan manufacturers like Sigma Foods (Bravo) and Farmers Choice, bypassing all middlemen to offer prices that are up to 25% cheaper than Carrefour, Naivas, and Quickmart.",
-      list: [
-        "No international shipping freight costs added",
-        "Zero import tariffs or customs slotting fees",
-        "Direct manufacturer partnerships",
-        "We pass all savings directly to pet parents"
-      ]
+      title: "Trusted by Premium Pet Owners",
+      desc: "Years of proven service and a loyal customer base make us the go-to destination for discerning pet owners seeking quality, care, and expert advice."
     },
     {
-      title: "Ultra-Fresh Local Sourcing",
-      icon: "🌱",
-      desc: "Imported kibble is shipped from European or Asian factories and spends 3 to 6 months in hot cargo containers, customs warehouses, and transit lines. Under equatorial heat, this causes oxidation of essential fats (causing nutrient rancidity) and vitamin breakdown. Our local formulations are processed in Kenya and reach your pet's bowl within days of manufacture.",
-      list: [
-        "Bioavailable proteins and fats that aren't oxidized",
-        "Highest nutrient retention and vitamin potency",
-        "Traceable local supply chain",
-        "Fresher taste that dogs and cats love"
-      ]
+      title: "Trusted Expertise",
+      desc: "Our team of pet care specialists offer personalized recommendations tailored to each pet's needs. We guide you to make the best choices for your pet."
     },
     {
-      title: "Powered by Loki Logistics",
-      icon: "🚚",
-      desc: "Getting premium pet food shouldn't be an chore. Our delivery engine, powered by Loki Logistics, offers seamless delivery across Nairobi and beyond. Place your order before 1:00 PM and get same-day delivery, or next-day delivery for all other orders.",
-      list: [
-        "Same-day delivery in Nairobi (under 4 hours)",
-        "Free delivery for orders above KES 5,000",
-        "Real-time WhatsApp courier tracking",
-        "Carefully handled cargo to prevent packaging damage"
-      ]
+      title: "Committed to the Pet Ecosystem",
+      desc: "Our mission is to enhance the lives of pets, support ethical sourcing, and strengthen the broader pet community."
     },
     {
-      title: "Kenyan First (Economic Impact)",
-      icon: "🇰🇪",
-      desc: "When you buy imported brands, your money leaves the country. When you buy from PetStore Kenya, your money stays here, supporting Kenyan contract farmers for poultry, beef pastures in Nakuru, and local lakeside communities harvesting Omena on Lake Victoria.",
-      list: [
-        "Supports Kenyan agricultural jobs",
-        "Supports sustainable local lakeside fisheries",
-        "Guarantees fair price matching for local producers",
-        "Builds self-reliance in East African pet nutrition"
-      ]
+      title: "Convenient Multi-Channel Shopping",
+      desc: "Shop online or in-store, with flexible options and free home delivery (minimum cart size applies) for a seamless experience."
+    },
+    {
+      title: "Supporting Pets & Communities",
+      desc: "Every purchase supports shelters, rescues, feeding programs, and community uplift initiative across Kenya."
+    },
+    {
+      title: "Premium Quality Guaranteed",
+      desc: "Over 95% of our products come from ISO-certified manufacturers, ensuring top-tier standards in pet nutrition, care, and safety."
     }
   ];
 
   return (
     <>
       <Navbar />
-      <div className="page" style={{ paddingTop: "2.5rem", paddingBottom: "4rem" }}>
+      <div 
+        className="page-container" 
+        style={{ 
+          maxWidth: "1200px", 
+          margin: "0 auto", 
+          padding: "3rem var(--page-pad) 5rem",
+          fontFamily: "var(--font-sans)",
+          backgroundColor: "#ffffff"
+        }}
+      >
         
-        {/* Breadcrumb */}
-        <div style={{ fontFamily: "var(--font-mono)", fontSize: "0.7rem", color: "var(--ink-light)", marginBottom: "2rem", letterSpacing: "0.06em" }}>
-          <Link to="/" style={{ color: "inherit", textDecoration: "none" }}>HOME</Link>
-          {" / "}
-          <span style={{ color: "var(--ink)" }}>WHY CHOOSE US</span>
-        </div>
+        {/* Title Banner */}
+        <PageHeader title="Why Choose Us" />
 
-        {/* Hero */}
-        <div style={{ border: "3px solid var(--ink)", padding: "2.5rem", background: "var(--card-bg)", marginBottom: "3rem" }}>
-          <h1 style={{ fontSize: "clamp(1.8rem, 4vw, 2.8rem)", fontWeight: 800, letterSpacing: "-0.02em", lineHeight: 1.1, marginBottom: "1rem" }}>
-            The <em style={{ fontStyle: "italic", color: "var(--ke-red)" }}>PetStore Kenya</em> Difference
-          </h1>
-          <p style={{ fontSize: "1.05rem", lineHeight: 1.7, color: "var(--ink-light)", maxWidth: "850px" }}>
-            Why pay double for old, imported kibble? We built PetStore Kenya to provide Nairobi pet parents with premium, ultra-fresh pet food, sourced locally and delivered directly to your door at unbeatable prices. Here is how we do it:
-          </p>
-        </div>
-
-        {/* Points grid */}
-        <div style={{ display: "flex", flexDirection: "column", gap: "2.5rem" }}>
+        {/* Cards Grid */}
+        <div 
+          style={{ 
+            display: "grid", 
+            gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", 
+            gap: "2rem",
+            marginBottom: "4rem"
+          }}
+        >
           {points.map((p, idx) => (
-            <div key={p.title} style={{ border: "3px solid var(--ink)", background: "var(--card-bg)", display: "grid", gridTemplateColumns: "1fr" }}>
-              {/* Header */}
-              <div style={{ background: "var(--tan-light)", color: "var(--ink)", borderBottom: "3px solid var(--ink)", padding: "0.85rem 1.5rem", display: "flex", alignItems: "center", gap: "0.6rem" }}>
-                <span style={{ fontSize: "1.5rem" }}>{p.icon}</span>
-                <h3 style={{ fontSize: "1.15rem", fontWeight: 800, letterSpacing: "-0.01em" }}>{p.title}</h3>
-              </div>
-
-              {/* Body */}
-              <div style={{ padding: "2rem", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "2rem" }}>
-                <div>
-                  <p style={{ fontSize: "0.875rem", lineHeight: 1.7, color: "var(--ink-light)" }}>{p.desc}</p>
-                </div>
-                <div style={{ borderLeft: "3px solid var(--ink)", paddingLeft: "1.5rem" }}>
-                  <h4 style={{ fontFamily: "var(--font-mono)", fontSize: "0.7rem", fontWeight: 700, color: "var(--ke-red)", textTransform: "uppercase", letterSpacing: "0.06em", marginBottom: "0.6rem" }}>Key Features</h4>
-                  <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.5rem", fontSize: "0.85rem" }}>
-                    {p.list.map(item => (
-                      <li key={item} style={{ display: "flex", alignItems: "flex-start", gap: "0.4rem" }}>
-                        <span style={{ color: "var(--ke-green)", fontWeight: "bold" }}>✓</span>
-                        <span>{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
+            <div 
+              key={idx} 
+              style={{ 
+                backgroundColor: "#ffffff",
+                border: "1px solid rgba(0, 0, 0, 0.08)",
+                borderRadius: "16px",
+                padding: "3rem 2rem",
+                boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.03), 0 8px 10px -6px rgba(0, 0, 0, 0.03)",
+                transition: "transform 0.2s ease, box-shadow 0.2s ease",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "flex-start"
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "translateY(-4px)";
+                e.currentTarget.style.boxShadow = "0 20px 25px -5px rgba(0, 0, 0, 0.06), 0 10px 10px -5px rgba(0, 0, 0, 0.04)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "none";
+                e.currentTarget.style.boxShadow = "0 10px 25px -5px rgba(0, 0, 0, 0.03), 0 8px 10px -6px rgba(0, 0, 0, 0.03)";
+              }}
+            >
+              <h2 
+                style={{ 
+                  fontSize: "1.45rem", 
+                  fontWeight: 700, 
+                  color: "#1E5DA7", 
+                  lineHeight: 1.25, 
+                  marginBottom: "1.25rem",
+                  fontFamily: "var(--font-sans)"
+                }}
+              >
+                {p.title}
+              </h2>
+              <p 
+                style={{ 
+                  fontSize: "0.95rem", 
+                  color: "#4A5568", 
+                  lineHeight: 1.6,
+                  margin: 0
+                }}
+              >
+                {p.desc}
+              </p>
             </div>
           ))}
-        </div>
-
-        {/* Local Sourcing Promise CTA */}
-        <div style={{ marginTop: "4rem", border: "3px solid var(--ink)", padding: "3rem 1.5rem", background: "var(--card-bg)", textAlign: "center" }}>
-          <span style={{ display: "inline-flex", flexDirection: "column", width: 22, height: 15, border: "1.5px solid var(--ink)", flexShrink: 0, marginBottom: "1rem" }}>
-            <span style={{ height: "33.3%", background: "var(--ke-black)" }} />
-            <span style={{ height: "33.3%", background: "var(--ke-red)" }} />
-            <span style={{ height: "33.3%", background: "var(--ke-green)" }} />
-          </span>
-          <h2 style={{ fontSize: "1.8rem", fontWeight: 800, marginBottom: "1rem" }}>Read about our Sourcing & Trust</h2>
-          <p style={{ color: "var(--ink-light)", marginBottom: "2rem", maxWidth: "600px", margin: "0 auto 2rem" }}>
-            Learn more about our local contract farmers, processing standardizations, and lake fisheries in Kisumu.
-          </p>
-          <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
-            <Link to="/trust" className="btn-primary" style={{ padding: "0.75rem 2rem", fontSize: "0.95rem", background: "var(--ke-green)", borderColor: "var(--ke-green)" }}>
-              🤝 Meet Our Manufacturers
-            </Link>
-            <Link to="/shop" className="btn-outline" style={{ padding: "0.75rem 2rem", fontSize: "0.95rem", border: "3px solid var(--ink)", color: "var(--ink)", textDecoration: "none", display: "inline-flex", alignItems: "center", fontWeight: 700 }}>
-              🛒 Shop All Products
-            </Link>
-          </div>
         </div>
 
       </div>

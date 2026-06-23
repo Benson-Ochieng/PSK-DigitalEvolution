@@ -13,6 +13,14 @@ export default [
   route("trust", "routes/trust.tsx"),
   route("why-us", "routes/why-us.tsx"),
   route("sustainability", "routes/sustainability.tsx"),
+  route("about-us", "routes/about-us.tsx"),
+  route("quality-management", "routes/quality-management.tsx"),
+  route("terms-and-conditions", "routes/terms-and-conditions.tsx"),
+  route("privacy-policy", "routes/privacy-policy.tsx"),
+  route("food-comparison", "routes/food-comparison.tsx"),
+  route("brochures", "routes/brochures.tsx"),
+  route("retail-locations-nairobi-nanyuki-naivasha-nakuru-mombasa", "routes/retail-locations.tsx"),
+  route("blog", "routes/blog.tsx"),
   
   // API
   route("api/order", "routes/api.order.ts"),
@@ -27,5 +35,6 @@ export default [
     route("admin/orders", "routes/admin.orders.tsx"),
     route("admin/products", "routes/admin.products.tsx"),
     route("admin/prices", "routes/admin.prices.tsx"),
+    route("admin/blogs", "routes/admin.blogs.tsx"),
   ]),
 ] satisfies RouteConfig;
