@@ -1757,6 +1757,219 @@
     "dateModified": "2026-06-23T09:15:51.058Z"
   },
   {
+    "id": 23669,
+    "name": "Royal Canin Hypoallergenic 7kg",
+    "slug": "hypoallergenic-7kg",
+    "sku": "ROC-VHND-031",
+    "regularPrice": 208,
+    "salePrice": null,
+    "price": 208,
+    "onSale": false,
+    "inStock": true,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-VHND-031.jpg",
+    "categories": [
+      {
+        "id": 2345,
+        "name": "Dog",
+        "slug": "dog-supplies-store"
+      },
+      {
+        "id": 2346,
+        "name": "Dog Food & Treats",
+        "slug": "dog-food-treats"
+      },
+      {
+        "id": 2348,
+        "name": "Dry Dog Food",
+        "slug": "dry-dog-food"
+      },
+      {
+        "id": 2104,
+        "name": "Royal Canin",
+        "slug": "royal-canin"
+      }
+    ],
+    "brands": [
+      {
+        "id": 2423,
+        "name": "Royal Canin",
+        "slug": "royal-canin"
+      }
+    ],
+    "tags": [
+      {
+        "id": 2213,
+        "name": "dog",
+        "slug": "dog"
+      },
+      {
+        "id": 636,
+        "name": "dry food",
+        "slug": "dry-food"
+      },
+      {
+        "id": 1034,
+        "name": "large breed",
+        "slug": "large-breed"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-23T09:15:51.190Z",
+    "dateModified": "2026-06-23T09:15:51.190Z"
+  },
+  {
+    "id": 24044,
+    "name": "Royal Canin Kitten 2kg",
+    "slug": "royal-canin-kitten-2kg",
+    "sku": "ROC-FHND-011",
+    "regularPrice": 60,
+    "salePrice": null,
+    "price": 60,
+    "onSale": false,
+    "inStock": true,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Royal-Canin-Kitten-food-01.jpg",
+    "categories": [
+      {
+        "id": 2325,
+        "name": "Cat",
+        "slug": "cat-supplies-store"
+      },
+      {
+        "id": 2326,
+        "name": "Cat Food & Treats",
+        "slug": "cat-food-and-treats"
+      },
+      {
+        "id": 2328,
+        "name": "Dry Cat Food",
+        "slug": "dry-cat-food"
+      },
+      {
+        "id": 2329,
+        "name": "Kitten Food",
+        "slug": "kitten-food"
+      },
+      {
+        "id": 2104,
+        "name": "Royal Canin",
+        "slug": "royal-canin"
+      }
+    ],
+    "brands": [
+      {
+        "id": 2423,
+        "name": "Royal Canin",
+        "slug": "royal-canin"
+      }
+    ],
+    "tags": [
+      {
+        "id": 820,
+        "name": "cat",
+        "slug": "cat"
+      },
+      {
+        "id": 33,
+        "name": "Cat Food",
+        "slug": "catfood"
+      },
+      {
+        "id": 636,
+        "name": "dry food",
+        "slug": "dry-food"
+      },
+      {
+        "id": 34,
+        "name": "kitten",
+        "slug": "kitten"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-23T09:15:51.208Z",
+    "dateModified": "2026-06-23T09:15:51.208Z"
+  },
+  {
+    "id": 24768,
+    "name": "PetD Deworm 6 Tablets Dog and Cat",
+    "slug": "petd-deworm-tablets-dog-and-cat",
+    "sku": "PetD Deworm1",
+    "regularPrice": 5,
+    "salePrice": null,
+    "price": 5,
+    "onSale": false,
+    "inStock": true,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/petd-dewomers-.png",
+    "categories": [
+      {
+        "id": 2325,
+        "name": "Cat",
+        "slug": "cat-supplies-store"
+      },
+      {
+        "id": 2339,
+        "name": "Cat Dewormers",
+        "slug": "cat-dewormers"
+      },
+      {
+        "id": 2337,
+        "name": "Cat Healthcare Supplies",
+        "slug": "cat-healthcare"
+      },
+      {
+        "id": 2345,
+        "name": "Dog",
+        "slug": "dog-supplies-store"
+      },
+      {
+        "id": 2364,
+        "name": "Dog Dewormers",
+        "slug": "dog-dewormers"
+      },
+      {
+        "id": 2362,
+        "name": "Dog Healthcare Supplies",
+        "slug": "dog-healthcare-supplies"
+      },
+      {
+        "id": 2126,
+        "name": "PetD",
+        "slug": "petd"
+      }
+    ],
+    "brands": [
+      {
+        "id": 2458,
+        "name": "PetD",
+        "slug": "petd"
+      }
+    ],
+    "tags": [
+      {
+        "id": 820,
+        "name": "cat",
+        "slug": "cat"
+      },
+      {
+        "id": 2021,
+        "name": "Dewormers",
+        "slug": "deworm"
+      },
+      {
+        "id": 2213,
+        "name": "dog",
+        "slug": "dog"
+      },
+      {
+        "id": 2288,
+        "name": "Medicine",
+        "slug": "medicine"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-23T09:15:51.235Z",
+    "dateModified": "2026-06-23T09:15:51.235Z"
+  },
+  {
     "id": 889,
     "name": "Bonnie Adult Dog Food – Lamb and Rice 2.5kg",
     "slug": "bonnie-adult-dog-food-lamb-and-rice-2-5kg",
@@ -1811,6 +2024,254 @@
     "status": "publish",
     "dateCreated": "2026-06-23T09:15:51.059Z",
     "dateModified": "2026-06-23T09:15:51.059Z"
+  },
+  {
+    "id": 48742,
+    "name": "Josera Denties With Duck & Carrot 180g",
+    "slug": "josera-denties-with-duck-carrot-180g",
+    "sku": "JDT003",
+    "regularPrice": 7.3,
+    "salePrice": null,
+    "price": 7.3,
+    "onSale": false,
+    "inStock": true,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/07/Josera_Denties_DuckCarrot_180g.png",
+    "categories": [
+      {
+        "id": 2345,
+        "name": "Dog",
+        "slug": "dog-supplies-store"
+      },
+      {
+        "id": 2346,
+        "name": "Dog Food & Treats",
+        "slug": "dog-food-treats"
+      },
+      {
+        "id": 2347,
+        "name": "Dog Treats",
+        "slug": "dog-treats"
+      },
+      {
+        "id": 2112,
+        "name": "Josera",
+        "slug": "josera"
+      }
+    ],
+    "brands": [
+      {
+        "id": 2444,
+        "name": "Josera",
+        "slug": "josera"
+      }
+    ],
+    "tags": [
+      {
+        "id": 2213,
+        "name": "dog",
+        "slug": "dog"
+      },
+      {
+        "id": 2320,
+        "name": "grain-free",
+        "slug": "grain-free"
+      },
+      {
+        "id": 1156,
+        "name": "treats",
+        "slug": "treats"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-23T09:15:51.442Z",
+    "dateModified": "2026-06-23T09:15:51.443Z"
+  },
+  {
+    "id": 49409,
+    "name": "Royal Blue Kids Hoodies with Embroidery Paw – (2-4 Years)",
+    "slug": "royal-blue-kids-hoodies-with-embroidery-paw-2-4-years",
+    "sku": "RBHEPSC",
+    "regularPrice": 35,
+    "salePrice": null,
+    "price": 35,
+    "onSale": false,
+    "inStock": true,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/08/Hoodie-front.jpeg",
+    "categories": [
+      {
+        "id": 2243,
+        "name": "Humans",
+        "slug": "human"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "id": 2238,
+        "name": "Gift Cards",
+        "slug": "gift-cards"
+      },
+      {
+        "id": 2266,
+        "name": "Hoodies",
+        "slug": "hoodies"
+      },
+      {
+        "id": 2245,
+        "name": "Human",
+        "slug": "human"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-23T09:15:51.523Z",
+    "dateModified": "2026-06-23T09:15:51.523Z"
+  },
+  {
+    "id": 56386,
+    "name": "SHORT EXPIRY-CLEARANCE: King Adult Dog Food Beef 500g",
+    "slug": "short-expiry-clearance-king-adult-dog-food-beef-500gr",
+    "sku": "KDD005@SE",
+    "regularPrice": 4.65,
+    "salePrice": 3.25,
+    "price": 3.25,
+    "onSale": true,
+    "inStock": true,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/03/King-Adult-dog-beef-500gr.png",
+    "categories": [
+      {
+        "id": 2167,
+        "name": "dry food",
+        "slug": "dry-food"
+      },
+      {
+        "id": 178,
+        "name": "King",
+        "slug": "king"
+      }
+    ],
+    "brands": [
+      {
+        "id": 2446,
+        "name": "King",
+        "slug": "king"
+      }
+    ],
+    "tags": [
+      {
+        "id": 1303,
+        "name": "Clearance",
+        "slug": "clearance"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-23T09:15:51.644Z",
+    "dateModified": "2026-06-23T09:15:51.644Z"
+  },
+  {
+    "id": 56692,
+    "name": "Montego Monty & Me Adult Cat Dry Food – 2kg",
+    "slug": "montego-monty-me-adult-cat-2-kg",
+    "sku": "MMCAT02",
+    "regularPrice": 21.5,
+    "salePrice": null,
+    "price": 21.5,
+    "onSale": false,
+    "inStock": true,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-34.png",
+    "categories": [
+      {
+        "id": 2325,
+        "name": "Cat",
+        "slug": "cat-supplies-store"
+      },
+      {
+        "id": 2326,
+        "name": "Cat Food & Treats",
+        "slug": "cat-food-and-treats"
+      },
+      {
+        "id": 2328,
+        "name": "Dry Cat Food",
+        "slug": "dry-cat-food"
+      },
+      {
+        "id": 2298,
+        "name": "Montego",
+        "slug": "montego"
+      }
+    ],
+    "brands": [
+      {
+        "id": 2453,
+        "name": "Montego",
+        "slug": "montego"
+      }
+    ],
+    "tags": [
+      {
+        "id": 820,
+        "name": "cat",
+        "slug": "cat"
+      },
+      {
+        "id": 636,
+        "name": "dry food",
+        "slug": "dry-food"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-23T09:15:51.681Z",
+    "dateModified": "2026-06-23T09:15:51.681Z"
+  },
+  {
+    "id": 57803,
+    "name": "Snappy Tom Cat with Lamb 85g",
+    "slug": "snappy-tom-cat-with-lamb-85g",
+    "sku": "STCW006",
+    "regularPrice": 1.69,
+    "salePrice": null,
+    "price": 1.69,
+    "onSale": false,
+    "inStock": true,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-18.png",
+    "categories": [
+      {
+        "id": 2325,
+        "name": "Cat",
+        "slug": "cat-supplies-store"
+      },
+      {
+        "id": 2326,
+        "name": "Cat Food & Treats",
+        "slug": "cat-food-and-treats"
+      },
+      {
+        "id": 2327,
+        "name": "Wet Cat Food",
+        "slug": "wet-cat-food"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "id": 820,
+        "name": "cat",
+        "slug": "cat"
+      },
+      {
+        "id": 33,
+        "name": "Cat Food",
+        "slug": "catfood"
+      },
+      {
+        "id": 621,
+        "name": "wet food",
+        "slug": "wet-food"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-23T09:15:51.732Z",
+    "dateModified": "2026-06-23T09:15:51.732Z"
   },
   {
     "id": 893,
@@ -1872,6 +2333,56 @@
     "status": "publish",
     "dateCreated": "2026-06-23T09:15:51.060Z",
     "dateModified": "2026-06-23T09:15:51.060Z"
+  },
+  {
+    "id": 90033,
+    "name": "Donate 5kg of Cat Litter",
+    "slug": "donate-5kg-of-cat-litter",
+    "sku": "DC001-1",
+    "regularPrice": 6,
+    "salePrice": null,
+    "price": 6,
+    "onSale": false,
+    "inStock": true,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/07/Donate-Cat-food.jpeg",
+    "categories": [
+      {
+        "id": 2325,
+        "name": "Cat",
+        "slug": "cat-supplies-store"
+      },
+      {
+        "id": 2326,
+        "name": "Cat Food & Treats",
+        "slug": "cat-food-and-treats"
+      },
+      {
+        "id": 1790,
+        "name": "Donate",
+        "slug": "donate"
+      },
+      {
+        "id": 2328,
+        "name": "Dry Cat Food",
+        "slug": "dry-cat-food"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "id": 820,
+        "name": "cat",
+        "slug": "cat"
+      },
+      {
+        "id": 1791,
+        "name": "Donate",
+        "slug": "donate"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-23T09:15:52.008Z",
+    "dateModified": "2026-06-23T09:15:52.008Z"
   },
   {
     "id": 905,
@@ -9586,67 +10097,6 @@
     "dateModified": "2026-06-23T09:15:51.189Z"
   },
   {
-    "id": 23669,
-    "name": "Royal Canin Hypoallergenic 7kg",
-    "slug": "hypoallergenic-7kg",
-    "sku": "ROC-VHND-031",
-    "regularPrice": 208,
-    "salePrice": null,
-    "price": 208,
-    "onSale": false,
-    "inStock": true,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-VHND-031.jpg",
-    "categories": [
-      {
-        "id": 2345,
-        "name": "Dog",
-        "slug": "dog-supplies-store"
-      },
-      {
-        "id": 2346,
-        "name": "Dog Food & Treats",
-        "slug": "dog-food-treats"
-      },
-      {
-        "id": 2348,
-        "name": "Dry Dog Food",
-        "slug": "dry-dog-food"
-      },
-      {
-        "id": 2104,
-        "name": "Royal Canin",
-        "slug": "royal-canin"
-      }
-    ],
-    "brands": [
-      {
-        "id": 2423,
-        "name": "Royal Canin",
-        "slug": "royal-canin"
-      }
-    ],
-    "tags": [
-      {
-        "id": 2213,
-        "name": "dog",
-        "slug": "dog"
-      },
-      {
-        "id": 636,
-        "name": "dry food",
-        "slug": "dry-food"
-      },
-      {
-        "id": 1034,
-        "name": "large breed",
-        "slug": "large-breed"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-23T09:15:51.190Z",
-    "dateModified": "2026-06-23T09:15:51.190Z"
-  },
-  {
     "id": 23709,
     "name": "Veggie Dog Original Adult 10kg",
     "slug": "veggie-dog-original-adult-10kg",
@@ -10830,77 +11280,6 @@
         "id": 2114,
         "name": "Bird",
         "slug": "bird"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-23T09:15:51.208Z",
-    "dateModified": "2026-06-23T09:15:51.208Z"
-  },
-  {
-    "id": 24044,
-    "name": "Royal Canin Kitten 2kg",
-    "slug": "royal-canin-kitten-2kg",
-    "sku": "ROC-FHND-011",
-    "regularPrice": 60,
-    "salePrice": null,
-    "price": 60,
-    "onSale": false,
-    "inStock": true,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Royal-Canin-Kitten-food-01.jpg",
-    "categories": [
-      {
-        "id": 2325,
-        "name": "Cat",
-        "slug": "cat-supplies-store"
-      },
-      {
-        "id": 2326,
-        "name": "Cat Food & Treats",
-        "slug": "cat-food-and-treats"
-      },
-      {
-        "id": 2328,
-        "name": "Dry Cat Food",
-        "slug": "dry-cat-food"
-      },
-      {
-        "id": 2329,
-        "name": "Kitten Food",
-        "slug": "kitten-food"
-      },
-      {
-        "id": 2104,
-        "name": "Royal Canin",
-        "slug": "royal-canin"
-      }
-    ],
-    "brands": [
-      {
-        "id": 2423,
-        "name": "Royal Canin",
-        "slug": "royal-canin"
-      }
-    ],
-    "tags": [
-      {
-        "id": 820,
-        "name": "cat",
-        "slug": "cat"
-      },
-      {
-        "id": 33,
-        "name": "Cat Food",
-        "slug": "catfood"
-      },
-      {
-        "id": 636,
-        "name": "dry food",
-        "slug": "dry-food"
-      },
-      {
-        "id": 34,
-        "name": "kitten",
-        "slug": "kitten"
       }
     ],
     "status": "publish",
@@ -12314,87 +12693,6 @@
     "status": "publish",
     "dateCreated": "2026-06-23T09:15:51.234Z",
     "dateModified": "2026-06-23T09:15:51.234Z"
-  },
-  {
-    "id": 24768,
-    "name": "PetD Deworm 6 Tablets Dog and Cat",
-    "slug": "petd-deworm-tablets-dog-and-cat",
-    "sku": "PetD Deworm1",
-    "regularPrice": 5,
-    "salePrice": null,
-    "price": 5,
-    "onSale": false,
-    "inStock": true,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/petd-dewomers-.png",
-    "categories": [
-      {
-        "id": 2325,
-        "name": "Cat",
-        "slug": "cat-supplies-store"
-      },
-      {
-        "id": 2339,
-        "name": "Cat Dewormers",
-        "slug": "cat-dewormers"
-      },
-      {
-        "id": 2337,
-        "name": "Cat Healthcare Supplies",
-        "slug": "cat-healthcare"
-      },
-      {
-        "id": 2345,
-        "name": "Dog",
-        "slug": "dog-supplies-store"
-      },
-      {
-        "id": 2364,
-        "name": "Dog Dewormers",
-        "slug": "dog-dewormers"
-      },
-      {
-        "id": 2362,
-        "name": "Dog Healthcare Supplies",
-        "slug": "dog-healthcare-supplies"
-      },
-      {
-        "id": 2126,
-        "name": "PetD",
-        "slug": "petd"
-      }
-    ],
-    "brands": [
-      {
-        "id": 2458,
-        "name": "PetD",
-        "slug": "petd"
-      }
-    ],
-    "tags": [
-      {
-        "id": 820,
-        "name": "cat",
-        "slug": "cat"
-      },
-      {
-        "id": 2021,
-        "name": "Dewormers",
-        "slug": "deworm"
-      },
-      {
-        "id": 2213,
-        "name": "dog",
-        "slug": "dog"
-      },
-      {
-        "id": 2288,
-        "name": "Medicine",
-        "slug": "medicine"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-23T09:15:51.235Z",
-    "dateModified": "2026-06-23T09:15:51.235Z"
   },
   {
     "id": 24804,
@@ -25441,67 +25739,6 @@
     "dateModified": "2026-06-23T09:15:51.442Z"
   },
   {
-    "id": 48742,
-    "name": "Josera Denties With Duck & Carrot 180g",
-    "slug": "josera-denties-with-duck-carrot-180g",
-    "sku": "JDT003",
-    "regularPrice": 7.3,
-    "salePrice": null,
-    "price": 7.3,
-    "onSale": false,
-    "inStock": true,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/07/Josera_Denties_DuckCarrot_180g.png",
-    "categories": [
-      {
-        "id": 2345,
-        "name": "Dog",
-        "slug": "dog-supplies-store"
-      },
-      {
-        "id": 2346,
-        "name": "Dog Food & Treats",
-        "slug": "dog-food-treats"
-      },
-      {
-        "id": 2347,
-        "name": "Dog Treats",
-        "slug": "dog-treats"
-      },
-      {
-        "id": 2112,
-        "name": "Josera",
-        "slug": "josera"
-      }
-    ],
-    "brands": [
-      {
-        "id": 2444,
-        "name": "Josera",
-        "slug": "josera"
-      }
-    ],
-    "tags": [
-      {
-        "id": 2213,
-        "name": "dog",
-        "slug": "dog"
-      },
-      {
-        "id": 2320,
-        "name": "grain-free",
-        "slug": "grain-free"
-      },
-      {
-        "id": 1156,
-        "name": "treats",
-        "slug": "treats"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-23T09:15:51.442Z",
-    "dateModified": "2026-06-23T09:15:51.443Z"
-  },
-  {
     "id": 48750,
     "name": "Grounded Pet Shampoo Unscented – 1l",
     "slug": "grounded-pet-shampoo-unscented-1l",
@@ -28186,46 +28423,6 @@
     "status": "publish",
     "dateCreated": "2026-06-23T09:15:51.522Z",
     "dateModified": "2026-06-23T09:15:51.522Z"
-  },
-  {
-    "id": 49409,
-    "name": "Royal Blue Kids Hoodies with Embroidery Paw – (2-4 Years)",
-    "slug": "royal-blue-kids-hoodies-with-embroidery-paw-2-4-years",
-    "sku": "RBHEPSC",
-    "regularPrice": 35,
-    "salePrice": null,
-    "price": 35,
-    "onSale": false,
-    "inStock": true,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/08/Hoodie-front.jpeg",
-    "categories": [
-      {
-        "id": 2243,
-        "name": "Humans",
-        "slug": "human"
-      }
-    ],
-    "brands": [],
-    "tags": [
-      {
-        "id": 2238,
-        "name": "Gift Cards",
-        "slug": "gift-cards"
-      },
-      {
-        "id": 2266,
-        "name": "Hoodies",
-        "slug": "hoodies"
-      },
-      {
-        "id": 2245,
-        "name": "Human",
-        "slug": "human"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-23T09:15:51.523Z",
-    "dateModified": "2026-06-23T09:15:51.523Z"
   },
   {
     "id": 49430,
@@ -34651,47 +34848,6 @@
     "dateModified": "2026-06-23T09:15:51.643Z"
   },
   {
-    "id": 56386,
-    "name": "SHORT EXPIRY-CLEARANCE: King Adult Dog Food Beef 500g",
-    "slug": "short-expiry-clearance-king-adult-dog-food-beef-500gr",
-    "sku": "KDD005@SE",
-    "regularPrice": 4.65,
-    "salePrice": 3.25,
-    "price": 3.25,
-    "onSale": true,
-    "inStock": true,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/03/King-Adult-dog-beef-500gr.png",
-    "categories": [
-      {
-        "id": 2167,
-        "name": "dry food",
-        "slug": "dry-food"
-      },
-      {
-        "id": 178,
-        "name": "King",
-        "slug": "king"
-      }
-    ],
-    "brands": [
-      {
-        "id": 2446,
-        "name": "King",
-        "slug": "king"
-      }
-    ],
-    "tags": [
-      {
-        "id": 1303,
-        "name": "Clearance",
-        "slug": "clearance"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-23T09:15:51.644Z",
-    "dateModified": "2026-06-23T09:15:51.644Z"
-  },
-  {
     "id": 56411,
     "name": "Luxury Pet Bed Large 32x24x9- Brown Cushion",
     "slug": "luxury-pet-bed-large-32x24x9-brown-cushion",
@@ -36763,62 +36919,6 @@
     "status": "publish",
     "dateCreated": "2026-06-23T09:15:51.680Z",
     "dateModified": "2026-06-23T09:15:51.680Z"
-  },
-  {
-    "id": 56692,
-    "name": "Montego Monty & Me Adult Cat Dry Food – 2kg",
-    "slug": "montego-monty-me-adult-cat-2-kg",
-    "sku": "MMCAT02",
-    "regularPrice": 21.5,
-    "salePrice": null,
-    "price": 21.5,
-    "onSale": false,
-    "inStock": true,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-34.png",
-    "categories": [
-      {
-        "id": 2325,
-        "name": "Cat",
-        "slug": "cat-supplies-store"
-      },
-      {
-        "id": 2326,
-        "name": "Cat Food & Treats",
-        "slug": "cat-food-and-treats"
-      },
-      {
-        "id": 2328,
-        "name": "Dry Cat Food",
-        "slug": "dry-cat-food"
-      },
-      {
-        "id": 2298,
-        "name": "Montego",
-        "slug": "montego"
-      }
-    ],
-    "brands": [
-      {
-        "id": 2453,
-        "name": "Montego",
-        "slug": "montego"
-      }
-    ],
-    "tags": [
-      {
-        "id": 820,
-        "name": "cat",
-        "slug": "cat"
-      },
-      {
-        "id": 636,
-        "name": "dry food",
-        "slug": "dry-food"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-23T09:15:51.681Z",
-    "dateModified": "2026-06-23T09:15:51.681Z"
   },
   {
     "id": 56699,
@@ -39642,56 +39742,6 @@
     "status": "publish",
     "dateCreated": "2026-06-23T09:15:51.730Z",
     "dateModified": "2026-06-23T09:15:51.730Z"
-  },
-  {
-    "id": 57803,
-    "name": "Snappy Tom Cat with Lamb 85g",
-    "slug": "snappy-tom-cat-with-lamb-85g",
-    "sku": "STCW006",
-    "regularPrice": 1.69,
-    "salePrice": null,
-    "price": 1.69,
-    "onSale": false,
-    "inStock": true,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-18.png",
-    "categories": [
-      {
-        "id": 2325,
-        "name": "Cat",
-        "slug": "cat-supplies-store"
-      },
-      {
-        "id": 2326,
-        "name": "Cat Food & Treats",
-        "slug": "cat-food-and-treats"
-      },
-      {
-        "id": 2327,
-        "name": "Wet Cat Food",
-        "slug": "wet-cat-food"
-      }
-    ],
-    "brands": [],
-    "tags": [
-      {
-        "id": 820,
-        "name": "cat",
-        "slug": "cat"
-      },
-      {
-        "id": 33,
-        "name": "Cat Food",
-        "slug": "catfood"
-      },
-      {
-        "id": 621,
-        "name": "wet food",
-        "slug": "wet-food"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-23T09:15:51.732Z",
-    "dateModified": "2026-06-23T09:15:51.732Z"
   },
   {
     "id": 58199,
@@ -53478,56 +53528,6 @@
     "dateModified": "2026-06-23T09:15:52.007Z"
   },
   {
-    "id": 90033,
-    "name": "Donate 5kg of Cat Litter",
-    "slug": "donate-5kg-of-cat-litter",
-    "sku": "DC001-1",
-    "regularPrice": 6,
-    "salePrice": null,
-    "price": 6,
-    "onSale": false,
-    "inStock": true,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/07/Donate-Cat-food.jpeg",
-    "categories": [
-      {
-        "id": 2325,
-        "name": "Cat",
-        "slug": "cat-supplies-store"
-      },
-      {
-        "id": 2326,
-        "name": "Cat Food & Treats",
-        "slug": "cat-food-and-treats"
-      },
-      {
-        "id": 1790,
-        "name": "Donate",
-        "slug": "donate"
-      },
-      {
-        "id": 2328,
-        "name": "Dry Cat Food",
-        "slug": "dry-cat-food"
-      }
-    ],
-    "brands": [],
-    "tags": [
-      {
-        "id": 820,
-        "name": "cat",
-        "slug": "cat"
-      },
-      {
-        "id": 1791,
-        "name": "Donate",
-        "slug": "donate"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-23T09:15:52.008Z",
-    "dateModified": "2026-06-23T09:15:52.008Z"
-  },
-  {
     "id": 90041,
     "name": "Rio Budgie Daily – Feed 1KG",
     "slug": "rio-budgie-daily-feed-1kg",
@@ -55186,128 +55186,6 @@
     "dateModified": "2026-06-23T09:15:52.039Z"
   },
   {
-    "id": 90272,
-    "name": "Simba Cat Alutray Paté Cat Food – Beef 100g",
-    "slug": "simba-cat-alutray-pate-cat-food-beef-100g",
-    "sku": "LSWC006",
-    "regularPrice": 1.72,
-    "salePrice": null,
-    "price": 1.72,
-    "onSale": false,
-    "inStock": true,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Beef-Alutray-100G-1.png",
-    "categories": [
-      {
-        "id": 2325,
-        "name": "Cat",
-        "slug": "cat-supplies-store"
-      },
-      {
-        "id": 2326,
-        "name": "Cat Food & Treats",
-        "slug": "cat-food-and-treats"
-      },
-      {
-        "id": 2411,
-        "name": "Simba",
-        "slug": "simba"
-      },
-      {
-        "id": 2327,
-        "name": "Wet Cat Food",
-        "slug": "wet-cat-food"
-      }
-    ],
-    "brands": [
-      {
-        "id": 2464,
-        "name": "Simba",
-        "slug": "simba"
-      }
-    ],
-    "tags": [
-      {
-        "id": 820,
-        "name": "cat",
-        "slug": "cat"
-      },
-      {
-        "id": 2275,
-        "name": "New Arrivals",
-        "slug": "new-arrivals"
-      },
-      {
-        "id": 621,
-        "name": "wet food",
-        "slug": "wet-food"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-23T09:15:52.040Z",
-    "dateModified": "2026-06-23T09:15:52.040Z"
-  },
-  {
-    "id": 90274,
-    "name": "Simba Cat Alutray Paté Cat Food – Chicken 100g",
-    "slug": "simba-cat-alutray-pate-cat-food-chicken-100g-2",
-    "sku": "LSWC007",
-    "regularPrice": 1.72,
-    "salePrice": null,
-    "price": 1.72,
-    "onSale": false,
-    "inStock": true,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Alutray-Pate-Cat-Food-–-Chicken-100g.png",
-    "categories": [
-      {
-        "id": 2325,
-        "name": "Cat",
-        "slug": "cat-supplies-store"
-      },
-      {
-        "id": 2326,
-        "name": "Cat Food & Treats",
-        "slug": "cat-food-and-treats"
-      },
-      {
-        "id": 2411,
-        "name": "Simba",
-        "slug": "simba"
-      },
-      {
-        "id": 2327,
-        "name": "Wet Cat Food",
-        "slug": "wet-cat-food"
-      }
-    ],
-    "brands": [
-      {
-        "id": 2464,
-        "name": "Simba",
-        "slug": "simba"
-      }
-    ],
-    "tags": [
-      {
-        "id": 820,
-        "name": "cat",
-        "slug": "cat"
-      },
-      {
-        "id": 2275,
-        "name": "New Arrivals",
-        "slug": "new-arrivals"
-      },
-      {
-        "id": 621,
-        "name": "wet food",
-        "slug": "wet-food"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-23T09:15:52.041Z",
-    "dateModified": "2026-06-23T09:15:52.041Z"
-  },
-  {
     "id": 90283,
     "name": "Simba Cat Alutray Paté Cat Food – Tuna 100g",
     "slug": "simba-cat-alutray-pate-cat-food-tuna-100g",
@@ -55984,6 +55862,168 @@
     "dateModified": "2026-06-23T09:15:52.064Z"
   },
   {
+    "id": 90770,
+    "name": "Rio Bird Food – Sunflower Seeds 1kg",
+    "slug": "rio-bird-food-sunflower-seeds-1kg",
+    "sku": "RSS",
+    "regularPrice": 21,
+    "salePrice": null,
+    "price": 21,
+    "onSale": false,
+    "inStock": true,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/Rio-Feed-.png",
+    "categories": [
+      {
+        "id": 2369,
+        "name": "Bird",
+        "slug": "bird-supplies-store"
+      },
+      {
+        "id": 2370,
+        "name": "Bird Food & Treats",
+        "slug": "bird-food-treats"
+      },
+      {
+        "id": 2409,
+        "name": "Rio",
+        "slug": "rio"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "id": 2114,
+        "name": "Bird",
+        "slug": "bird"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-23T09:15:52.067Z",
+    "dateModified": "2026-06-23T09:15:52.067Z"
+  },
+  {
+    "id": 90272,
+    "name": "Simba Cat Alutray Paté Cat Food – Beef 100g",
+    "slug": "simba-cat-alutray-pate-cat-food-beef-100g",
+    "sku": "LSWC006",
+    "regularPrice": 1.72,
+    "salePrice": null,
+    "price": 1.72,
+    "onSale": false,
+    "inStock": true,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Beef-Alutray-100G-1.png",
+    "categories": [
+      {
+        "id": 2325,
+        "name": "Cat",
+        "slug": "cat-supplies-store"
+      },
+      {
+        "id": 2326,
+        "name": "Cat Food & Treats",
+        "slug": "cat-food-and-treats"
+      },
+      {
+        "id": 2411,
+        "name": "Simba",
+        "slug": "simba"
+      },
+      {
+        "id": 2327,
+        "name": "Wet Cat Food",
+        "slug": "wet-cat-food"
+      }
+    ],
+    "brands": [
+      {
+        "id": 2464,
+        "name": "Simba",
+        "slug": "simba"
+      }
+    ],
+    "tags": [
+      {
+        "id": 820,
+        "name": "cat",
+        "slug": "cat"
+      },
+      {
+        "id": 2275,
+        "name": "New Arrivals",
+        "slug": "new-arrivals"
+      },
+      {
+        "id": 621,
+        "name": "wet food",
+        "slug": "wet-food"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-23T09:15:52.040Z",
+    "dateModified": "2026-06-23T09:15:52.040Z"
+  },
+  {
+    "id": 90274,
+    "name": "Simba Cat Alutray Paté Cat Food – Chicken 100g",
+    "slug": "simba-cat-alutray-pate-cat-food-chicken-100g-2",
+    "sku": "LSWC007",
+    "regularPrice": 1.72,
+    "salePrice": null,
+    "price": 1.72,
+    "onSale": false,
+    "inStock": true,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Alutray-Pate-Cat-Food-–-Chicken-100g.png",
+    "categories": [
+      {
+        "id": 2325,
+        "name": "Cat",
+        "slug": "cat-supplies-store"
+      },
+      {
+        "id": 2326,
+        "name": "Cat Food & Treats",
+        "slug": "cat-food-and-treats"
+      },
+      {
+        "id": 2411,
+        "name": "Simba",
+        "slug": "simba"
+      },
+      {
+        "id": 2327,
+        "name": "Wet Cat Food",
+        "slug": "wet-cat-food"
+      }
+    ],
+    "brands": [
+      {
+        "id": 2464,
+        "name": "Simba",
+        "slug": "simba"
+      }
+    ],
+    "tags": [
+      {
+        "id": 820,
+        "name": "cat",
+        "slug": "cat"
+      },
+      {
+        "id": 2275,
+        "name": "New Arrivals",
+        "slug": "new-arrivals"
+      },
+      {
+        "id": 621,
+        "name": "wet food",
+        "slug": "wet-food"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-23T09:15:52.041Z",
+    "dateModified": "2026-06-23T09:15:52.041Z"
+  },
+  {
     "id": 90694,
     "name": "Belcando Dog Dry Food – Lamb & Rice 1kg",
     "slug": "belcando-dog-dry-food-lamb-rice-1kg",
@@ -56099,45 +56139,5 @@
     "status": "publish",
     "dateCreated": "2026-06-23T09:15:52.066Z",
     "dateModified": "2026-06-23T09:15:52.066Z"
-  },
-  {
-    "id": 90770,
-    "name": "Rio Bird Food – Sunflower Seeds 1kg",
-    "slug": "rio-bird-food-sunflower-seeds-1kg",
-    "sku": "RSS",
-    "regularPrice": 21,
-    "salePrice": null,
-    "price": 21,
-    "onSale": false,
-    "inStock": true,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/Rio-Feed-.png",
-    "categories": [
-      {
-        "id": 2369,
-        "name": "Bird",
-        "slug": "bird-supplies-store"
-      },
-      {
-        "id": 2370,
-        "name": "Bird Food & Treats",
-        "slug": "bird-food-treats"
-      },
-      {
-        "id": 2409,
-        "name": "Rio",
-        "slug": "rio"
-      }
-    ],
-    "brands": [],
-    "tags": [
-      {
-        "id": 2114,
-        "name": "Bird",
-        "slug": "bird"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-23T09:15:52.067Z",
-    "dateModified": "2026-06-23T09:15:52.067Z"
   }
 ]
