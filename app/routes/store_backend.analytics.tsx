@@ -330,10 +330,10 @@ export default function VpBackendAnalytics() {
   // Mocked analytics data consistent with WooCommerce screenshots
   // Dynamic analytics data derived from products, categories and database orders
   const ordersData = [
-    { date: "June 4, 2026", orderId: "OR10768", status: "Confirmed", customer: "Howard Isumba", customerType: "New", product: "Optical Cable - 1M", itemsSold: 1, coupon: "-", netSales: 500, attribution: "Direct" },
-    { date: "June 3, 2026", orderId: "OR10767", status: "Processing", customer: "John Doe", customerType: "Returning", product: "Sound Pro 450 2.1CH WIRELESS SOUNDBAR", itemsSold: 2, coupon: "VISION8", netSales: 32990, attribution: "Referral" },
-    { date: "June 3, 2026", orderId: "OR10766", status: "Completed", customer: "Jane Smith", customerType: "Returning", product: "55\" 4K Frameless QLED Vidaa TV", itemsSold: 1, coupon: "WELCOME500", netSales: 38995, attribution: "Search" },
-    { date: "June 2, 2026", orderId: "OR10765", status: "Completed", customer: "Alice Kamau", customerType: "New", product: "43\" FHD Frameless Whale TV Smart TV", itemsSold: 2, coupon: "-", netSales: 41990, attribution: "Direct" }
+    { date: "June 4, 2026", orderId: "OR10768", status: "Confirmed", customer: "Howard Isumba", customerType: "New", product: "Reflex Plus Cat Food - Salmon 1.5kg", itemsSold: 1, coupon: "-", netSales: 1200, attribution: "Direct" },
+    { date: "June 3, 2026", orderId: "OR10767", status: "Processing", customer: "John Doe", customerType: "Returning", product: "Bonnie Adult Dog Food – Beef 15kg", itemsSold: 2, coupon: "PET8", netSales: 9000, attribution: "Referral" },
+    { date: "June 3, 2026", orderId: "OR10766", status: "Completed", customer: "Jane Smith", customerType: "Returning", product: "Spectrum Ultra Premium Kitten Food – Starter32 0.4kg", itemsSold: 1, coupon: "WELCOME500", netSales: 3200, attribution: "Search" },
+    { date: "June 2, 2026", orderId: "OR10765", status: "Completed", customer: "Alice Kamau", customerType: "New", product: "Reflex Premium Puppy Food – Beef & Rice 15kg", itemsSold: 2, coupon: "-", netSales: 8000, attribution: "Direct" }
   ];
 
   const mergedOrdersData = [
@@ -565,15 +565,15 @@ export default function VpBackendAnalytics() {
 
   if (revenueData.length === 0) {
     revenueData.push(
-      { date: "June 4, 2026", orders: 1, grossSales: 500, returns: 0, coupons: 0, netSales: 500, taxes: 0, shipping: 400, totalSales: 900 },
-      { date: "June 3, 2026", orders: 2, grossSales: 71985, returns: 0, coupons: 2500, netSales: 69485, taxes: 0, shipping: 500, totalSales: 72485 },
-      { date: "June 2, 2026", orders: 1, grossSales: 41990, returns: 0, coupons: 0, netSales: 41990, taxes: 0, shipping: 500, totalSales: 42490 },
+      { date: "June 4, 2026", orders: 1, grossSales: 1200, returns: 0, coupons: 0, netSales: 1200, taxes: 0, shipping: 400, totalSales: 1600 },
+      { date: "June 3, 2026", orders: 2, grossSales: 12200, returns: 0, coupons: 2500, netSales: 9700, taxes: 0, shipping: 500, totalSales: 10200 },
+      { date: "June 2, 2026", orders: 1, grossSales: 8000, returns: 0, coupons: 0, netSales: 8000, taxes: 0, shipping: 500, totalSales: 8500 },
       { date: "June 1, 2026", orders: 0, grossSales: 0, returns: 0, coupons: 0, netSales: 0, taxes: 0, shipping: 0, totalSales: 0 }
     );
   }
 
   const variationsData = [
-    { title: "Optical Cable - 1M", sku: "OPTC", itemsSold: 1, netSales: 500, ordersCount: 1, status: "Out of stock", stock: 0 }
+    { title: "Reflex Plus Cat Food - Salmon 1.5kg", sku: "RPCS15", itemsSold: 1, netSales: 1200, ordersCount: 1, status: "In stock", stock: 15 }
   ];
 
   // Dynamic coupons calculated from database and mock order history
@@ -586,7 +586,7 @@ export default function VpBackendAnalytics() {
 
     let totalDiscountAmount = 0;
     matchingOrdersData.forEach((o: any) => {
-      if (coupon.code === "VISION8") {
+      if (coupon.code === "PET8") {
         totalDiscountAmount += 2500;
       } else if (coupon.code === "WELCOME500") {
         totalDiscountAmount += 500;

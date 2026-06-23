@@ -3,7 +3,9 @@ import { Form, Link, Outlet, redirect, useLoaderData, useLocation } from "react-
 import type { User } from "~/lib/db.server";
 
 export async function loader({ request }: { request: Request }) {
-  const { requireAdminUser } = await import("~/lib/sessions.server");
+  const { requireAdminUser, checkAdminBranch } = await import("~/lib/sessions.server");
+  checkAdminBranch();
+  
   const user = await requireAdminUser(request);
   const { getAllReviews } = await import("~/lib/content.server");
   const { db } = await import("~/lib/db.server");

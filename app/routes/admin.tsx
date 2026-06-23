@@ -1,8 +1,11 @@
 import { data, redirect, Outlet, NavLink, Form, useLoaderData } from "react-router";
 import type { Route } from "./+types/admin";
+import { checkAdminBranch } from "../lib/sessions.server";
 import "../admin.css";
 
 export async function loader({ request }: Route.LoaderArgs) {
+  checkAdminBranch();
+  
   const cookieHeader = request.headers.get("Cookie") || "";
   const pinCookie = cookieHeader.split("; ").find(row => row.startsWith("admin_pin="));
   const pin = pinCookie ? decodeURIComponent(pinCookie.split("=")[1]) : "";
