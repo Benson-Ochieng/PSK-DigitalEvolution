@@ -220,7 +220,7 @@ function deserializeCouponFromSupabase(dbCoupon: any) {
   const { code, discountValue, discountType, active, createdAt } = dbCoupon;
   let actualDiscountType = discountType;
   let extraData: any = {};
-  
+
   if (discountType && discountType.includes("__")) {
     const parts = discountType.split("__");
     actualDiscountType = parts[0];
@@ -230,7 +230,7 @@ function deserializeCouponFromSupabase(dbCoupon: any) {
       console.error("Failed to parse extraData for coupon:", code, e);
     }
   }
-  
+
   return {
     code,
     discountValue,
@@ -239,6 +239,85 @@ function deserializeCouponFromSupabase(dbCoupon: any) {
     createdAt,
     ...extraData
   };
+}
+
+let petStoreProductNames: Set<string> | null = null;
+
+export function isPetStoreOrder(order: Order): boolean {
+  if (!order) return false;
+
+  // Filter out trash status
+  const statusLower = String(order.status || '').toLowerCase();
+  if (statusLower === "trash") {
+    return false;
+  }
+
+  // Filter out customer names that look like tests
+  const customerName = String(order.billing?.name || '').toLowerCase();
+  if (customerName.includes("test") || customerName.includes("tester")) {
+    return false;
+  }
+
+  if (!Array.isArray(order.items) || order.items.length === 0) return false;
+
+  // Check items for test products or non-standard prices
+  const hasTestItems = order.items.some((item: any) => {
+    if (!item) return true;
+    const nameLower = String(item.name || '').toLowerCase();
+    const skuLower = String(item.sku || '').toLowerCase();
+
+    if (nameLower.includes("test product") || nameLower.includes("dummy product") || nameLower.includes("a washing machine")) {
+      return true;
+    }
+    if (skuLower.includes("test") || skuLower.includes("dummy")) {
+      return true;
+    }
+    if (item.price !== undefined && Number(item.price) <= 10) {
+      return true;
+    }
+    return false;
+  });
+
+  if (hasTestItems) {
+    return false;
+  }
+
+  if (!petStoreProductNames) {
+    petStoreProductNames = new Set<string>();
+    try {
+      const productsIndexFile = path.join(process.cwd(), "content", "products", "_index.json");
+      if (fs.existsSync(productsIndexFile)) {
+        const products = JSON.parse(fs.readFileSync(productsIndexFile, "utf-8"));
+        if (Array.isArray(products)) {
+          products.forEach((p: any) => {
+            if (p.name) petStoreProductNames!.add(p.name.toLowerCase().trim());
+          });
+        }
+      }
+    } catch (e) {
+      console.error("Failed to load products index for order filtering:", e);
+    }
+  }
+
+  const petKeywords = [
+    "dog", "cat", "pet", "puppy", "kitten", "food", "kibble", "trixie", "bonnie",
+    "reflex", "scratching", "litter", "collar", "leash", "bird", "fish", "hamster"
+  ];
+
+
+
+  return order.items.some((item: any) => {
+    if (!item || !item.name) return false;
+    const nameLower = item.name.toLowerCase();
+
+    if (petStoreProductNames!.has(nameLower.trim())) {
+      return true;
+    }
+
+    const matchesPet = petKeywords.some(kw => nameLower.includes(kw));
+
+    return matchesPet
+  });
 }
 
 export const db = {
@@ -252,49 +331,62 @@ export const db = {
         const { error } = await supabase.from("orders").insert(order);
         if (error) throw error;
       }
-      
+
       const ordersList = readData<Order[]>(ORDERS_FILE, getInitialOrders());
       ordersList.push(order);
       writeData(ORDERS_FILE, ordersList);
       return order;
     },
-    
+
     async findUnique({ where }: { where: { id: string } }): Promise<Order | null> {
+      let order: Order | null = null;
       if (supabase) {
         const { data, error } = await supabase.from("orders").select().eq("id", where.id).maybeSingle();
         if (error) throw error;
-        return data as Order | null;
+        order = data as Order | null;
+      } else {
+        const ordersList = readData<Order[]>(ORDERS_FILE, getInitialOrders());
+        order = ordersList.find(o => o.id === where.id) || null;
       }
-      const ordersList = readData<Order[]>(ORDERS_FILE, getInitialOrders());
-      return ordersList.find(o => o.id === where.id) || null;
+
+      if (order && isPetStoreOrder(order)) {
+        return order;
+      }
+      return null;
     },
-    
+
     async findFirst({ where }: { where: (order: Order) => boolean }): Promise<Order | null> {
+      let ordersList: Order[] = [];
       if (supabase) {
         const { data, error } = await supabase.from("orders").select();
         if (error) throw error;
-        return (data as Order[]).find(where) || null;
+        ordersList = data as Order[];
+      } else {
+        ordersList = readData<Order[]>(ORDERS_FILE, getInitialOrders());
       }
-      const ordersList = readData<Order[]>(ORDERS_FILE, getInitialOrders());
-      return ordersList.find(where) || null;
+
+      const filtered = ordersList.filter(isPetStoreOrder);
+      return filtered.find(where) || null;
     },
 
     async findMany(options?: { where?: (order: Order) => boolean }): Promise<Order[]> {
+      let ordersList: Order[] = [];
       if (supabase) {
         const { data, error } = await supabase.from("orders").select().order("date", { ascending: false });
         if (error) throw error;
-        if (options?.where) {
-          return (data as Order[]).filter(options.where);
-        }
-        return data as Order[];
+        ordersList = data as Order[];
+      } else {
+        ordersList = readData<Order[]>(ORDERS_FILE, getInitialOrders());
       }
-      const ordersList = readData<Order[]>(ORDERS_FILE, getInitialOrders());
+
+      ordersList = ordersList.filter(isPetStoreOrder);
+
       if (options?.where) {
         return ordersList.filter(options.where);
       }
       return ordersList;
     },
-    
+
     async update({ where, data }: { where: { id: string }, data: Partial<Order> }): Promise<Order> {
       if (supabase) {
         const { data: updated, error } = await supabase.from("orders").update(data).eq("id", where.id).select().single();
@@ -312,7 +404,7 @@ export const db = {
       const ordersList = readData<Order[]>(ORDERS_FILE, getInitialOrders());
       const idx = ordersList.findIndex(o => o.id === where.id);
       if (idx === -1) throw new Error("Order not found");
-      
+
       const updated = { ...ordersList[idx], ...data };
       ordersList[idx] = updated;
       writeData(ORDERS_FILE, ordersList);
@@ -472,14 +564,14 @@ export const db = {
           if (!error && data) {
             const supabaseCoupons = data.map((c: any) => deserializeCouponFromSupabase(c)).filter(Boolean) as Coupon[];
             const mergedMap = new Map<string, Coupon>();
-            
+
             localCoupons.forEach(c => mergedMap.set(c.code.toUpperCase(), c));
             supabaseCoupons.forEach(c => mergedMap.set(c.code.toUpperCase(), c));
-            
+
             couponsList = Array.from(mergedMap.values());
 
             // Background self-healing sync: upload missing local coupons to Supabase
-            const missingInSupabase = localCoupons.filter(lc => 
+            const missingInSupabase = localCoupons.filter(lc =>
               !supabaseCoupons.some(sc => sc.code.toUpperCase() === lc.code.toUpperCase())
             );
             if (missingInSupabase.length > 0) {
@@ -614,7 +706,7 @@ export const db = {
             }
           }
         }
-      } catch {}
+      } catch { }
       return null;
     },
 
@@ -649,7 +741,7 @@ export const db = {
               }));
             }
           }
-        } catch {}
+        } catch { }
       }
 
       // Sort chronological descending (newest first)
@@ -768,7 +860,7 @@ export const db = {
             return filtered.length !== posts.length;
           }
         }
-      } catch {}
+      } catch { }
       return false;
     }
   }
