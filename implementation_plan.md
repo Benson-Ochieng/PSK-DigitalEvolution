@@ -1,205 +1,147 @@
-# PetStore Kenya — Implementation Plan
+# PetStore Kenya — Implementation Plan & System Architecture
 
-> **Updated:** 2026-05-24  
-> **Status:** 🚀 In Progress — React Router v7 scaffold complete
-
----
-
-## What We're Building
-
-**PetStore Kenya** is a **direct-to-consumer pet food retail brand** run by Loki (distributor). We sell the same top pet food brands cheaper and faster than Carrefour, Naivas, and Quickmart — using Loki's existing Nairobi logistics infrastructure.
-
-This is **not** a price aggregator. It is a **retail storefront**.
-
-```
-Customer journey:
-  Browse products → See our price + "You save KES X vs Carrefour" → Order via WhatsApp / checkout
-
-Loki internal:
-  Admin dashboard → Monitor competitor prices scraped from supermarket sites → 
-  Get alerted if we're no longer the cheapest
-```
+> **Last Updated:** 2026-06-23  
+> **Status:** ✅ Production Ready & Fully Synchronized with Live Site
 
 ---
 
-## Brand Identity
+## 1. System Overview
 
-**"Kenya's Pet Food, Delivered."**
+**PetStore Kenya (PSK)** is a modern, premium direct-to-consumer pet food retail storefront and administrative back-office system. The project focuses on providing a fast, responsive e-commerce experience for purchasing pet products online, integrated with a high-fidelity WordPress-style administrative dashboard for shop management.
 
-| Element | Value |
-|---|---|
-| Brand name | **PetStore Kenya** |
-| Tagline | Kenya's Pet Food, Delivered. |
-| Aesthetic | Neo-brutalist kraft paper — zero border-radius, heavy borders, white space |
-| Background | `#F2EBE0` — warm kraft paper cream |
-| Card bg | `#FFFDF9` — near-white with warmth |
-| Text / borders | `#1A1A1A` — stamp-on-kraft black |
-| CTA / price | `#C8102E` — Kenya flag red |
-| Trust accent | `#006600` — Kenya flag green |
-| Fonts | **Plus Jakarta Sans** (headings) + **JetBrains Mono** (prices, labels) |
-| Border radius | `0` everywhere — zero radius, sharp corners |
-| Imagery | Rich photography — happy cats & dogs, Nairobi homes, outdoor Kenyan settings |
+The architecture uses a **hybrid cache/persistence approach**: local JSON files stored under `content/` act as local caches/fallbacks, while a **Supabase PostgreSQL database** acts as the production persistence layer. Data is synchronized bidirectionally between the local filesystem and the Supabase instance.
 
 ---
 
-## Architecture
+## 2. Brand Identity & Design System
 
-```
-[Customer Browser]
-      ↓
-[React Router v7 SSR — port 3001]
-      ↓
-[PostgreSQL petstore_aggregator — localhost:5433 (loki-postgres Docker container)]
+The visual system is designed to look premium, modern, and highly interactive, incorporating high-quality typography, smooth hover state micro-animations, and structured spacing.
 
-[Cron / Manual trigger]
-      ↓
-[Playwright scraper → updates store_prices for Carrefour / Naivas / Quickmart]
-      ↓ (internal only, never shown directly to customers)
-[Admin price-watch dashboard at /admin/prices]
-```
-
----
-
-## Tech Stack
-
-| Layer | Technology |
-|---|---|
-| Framework | React Router v7 (framework/SSR mode) |
-| Runtime | Node.js via `@react-router/node` |
-| Database | PostgreSQL `petstore_aggregator` on `localhost:5433` |
-| DB client | `pg` raw SQL + singleton Pool |
-| Styling | Tailwind CSS v4 |
-| Scraper | Playwright (future phase) |
-| Dev port | **3001** (no conflict with merchandiser on 3000) |
+| Element | Value | Description |
+|---|---|---|
+| **Brand Name** | PetStore Kenya / PSK Commerce | Global store identity |
+| **Primary Theme** | Cobalt Blue (`#1E5DA7`) | Used for main headers, navbars, and primary branding elements |
+| **Secondary Accent** | Emerald Green (`#5BA672`) | Used for success statuses, discount save badges, and key CTAs |
+| **Orange Highlight** | Orange (`#FB8E28`) | Used for star ratings and cart item count badges |
+| **Main Font** | Roboto | Clean sans-serif used for body copy and general layout |
+| **Serif Font** | Roboto Slab | Modern slab-serif used for main headings and titles |
+| **Mono Font** | JetBrains Mono | Monospace typeface used for pricing, tags, and SKUs |
+| **Border Radius** | 4px (sm), 8px (md), 16px (lg) | Curved modern styling for buttons, inputs, and cards |
 
 ---
 
-## Database — `petstore_aggregator` ✅ Already Created
+## 3. Technology Stack
 
-Lives in the **same Docker container** (`loki-postgres`) as `loki_merchandiser`.  
-Connection: `postgresql://loki_user:loki_password@localhost:5433/petstore_aggregator`
-
-### Schema
-
-```sql
--- Our products (and competitor SKU mappings)
-products (
-  id SERIAL PRIMARY KEY,
-  name VARCHAR(255) NOT NULL,
-  brand VARCHAR(100),
-  weight_kg DECIMAL(5,2),
-  animal_type VARCHAR(50),   -- 'dog' | 'cat' | 'rabbit' | 'bird'
-  food_type VARCHAR(50),     -- 'dry' | 'wet' | 'treat' | 'supplement'
-  image_url TEXT,
-  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-)
-
--- Our price + competitor reference prices
-store_prices (
-  id SERIAL PRIMARY KEY,
-  product_id INT REFERENCES products(id) ON DELETE CASCADE,
-  store_name VARCHAR(50) NOT NULL,  -- 'PetStore Kenya' | 'Carrefour' | 'Naivas' | 'Quickmart'
-  price DECIMAL(10,2) NOT NULL,
-  product_url TEXT NOT NULL,
-  in_stock BOOLEAN DEFAULT TRUE,
-  last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-)
-```
-
-> `store_name = 'PetStore Kenya'` → **our retail price** (the hero number customers see)  
-> `store_name = 'Carrefour' | 'Naivas' | 'Quickmart'` → competitor reference (used to compute "You save KES X", admin-only detail view)
+| Layer | Technology | Description |
+|---|---|---|
+| **Frontend Framework** | React Router v7 | Full-featured SSR and React framework rendering pages |
+| **Database** | PostgreSQL (Supabase) | Hosted production database containing products, posts, orders, users, and coupons |
+| **DB Client** | `@supabase/supabase-js` | Standard client wrapper used to interact with the Supabase project instance |
+| **State Management** | React State & Context | Custom React state handles client-side cart, search suggestions, and overlays |
+| **Sync Utility** | Custom TypeScript Runner | Scrapes/syncs categories, products, and blog posts from `https://petstore.co.ke` |
+| **Development Server** | Vite / React Router Dev | Running on standard port `5173` |
 
 ---
 
-## File Structure
+## 4. Database Schema Alignment
+
+The system uses five main tables in the Supabase PostgreSQL database:
+
+### `users`
+Represents the administrative and shop management team accounts.
+- Fields: `id`, `name`, `email`, `username`, `role` (`administrator`, `shop_manager`, etc.), `status` (`active`, `suspended`), `passwordHash`.
+
+### `coupons`
+Stores promotional discount codes.
+- Fields: `code` (Primary Key, capitalized), `discountValue`, `discountType` (e.g. `fixed` or `percentage`), `active`, `createdAt`.
+
+### `orders`
+Stores customer transaction and billing records.
+- Fields: `id`, `date`, `paymentMethod`, `items` (JSONB array), `total`, `shipping`, `currency`, `billing` (JSONB object), `status` (`PENDING_PAYMENT`, `PROCESSING`, `COMPLETED`, `FAILED`, `CANCELLED`).
+
+### `products`
+The product inventory catalog pulled from the live website.
+- Fields: `id` (Primary Key), `name`, `slug`, `sku`, `price`, `regularPrice`, `salePrice`, `onSale`, `inStock`, `thumbnail`, `categories`, `brands`, `tags`, `status`, `dateCreated`, `dateModified`, etc.
+
+### `posts`
+Blog articles and content pages.
+- Fields: `id` (Primary Key), `title`, `slug`, `date`, `content`, `excerpt`, `thumbnail` (mapped to `image` in client APIs), `status`, `author`.
+
+> [!NOTE]
+> **Post Schema Alignment Mapping:** To resolve column mismatches where the database schema lacks `image`, `link`, and `tag` columns:
+> 1. Client query wrappers automatically map the database column `thumbnail` to the application property `image`.
+> 2. Write operations (`insert`, `update`, `upsert`) clean-filter and omit unsupported columns (`link`, `tag`) to prevent schema failures on Supabase.
+> 3. Read queries hydrate empty fields with fallback values (`link: ""` and `tag: "Pet Care"`) to maintain application compatibility.
+
+---
+
+## 5. Directory & File Structure
 
 ```
-./
-├── implementation_plan.md          ← this file
-├── petstore_seed.sql                ← seed data (24 products × 4 stores)
-├── .env                            ← DATABASE_URL, PORT=3001
-├── package.json                    ← add: pg, dotenv, lucide-react
-├── vite.config.ts                  ← add tailwindcss plugin
+c:\_Workspace\Projects\PSK-DigitalEvolution\
+├── implementation_plan.md              ← This plan
+├── package.json                        ← Node dependencies (Supabase, React Router, etc.)
+├── content/                            ← Local file system cache & seed data fallback
+│   ├── users.json                      ← Local users database
+│   ├── coupons.json                    ← Local coupons database
+│   ├── orders.json                     ← Local orders database
+│   ├── products/                       ← Local product metadata details
+│   │   ├── _index.json                 ← Index catalog of all products
+│   │   └── *.json                      ← Individual product description files
+│   └── posts/
+│       └── _index.json                 ← Local blog posts index
 ├── app/
-│   ├── db.server.ts                ← [NEW] pg Pool + auto-migrations
-│   ├── app.css                     ← [REPLACE] full Kenyan brown-bag design system
-│   ├── root.tsx                    ← [UPDATE] Google Fonts + global layout + flag strip
-│   ├── routes.ts                   ← [UPDATE] register all routes
+│   ├── app.css                         ← Custom Cobalt/Emerald Design System styles
+│   ├── routes.ts                       ← Application route configuration
+│   ├── root.tsx                        ← Main layout, metadata configuration & scripts
+│   ├── components/
+│   │   ├── Navbar.tsx                  ← Dynamic header, search autocomplete, category drop
+│   │   ├── Footer.tsx                  ← Branded customer footer
+│   │   └── VisualCodeEditor.tsx        ← Custom code editor interface component
+│   ├── lib/
+│   │   ├── db.server.ts                ← Unified DB wrapper interfacing local JSON & Supabase
+│   │   ├── supabase.server.ts          ← Supabase client initialization & bidirection sync
+│   │   └── content.server.ts           ← Local asset manager, history events logs utilities
 │   └── routes/
-│       ├── home.tsx                ← [NEW] / — landing page
-│       ├── shop.tsx                ← [NEW] /shop — product catalogue
-│       ├── shop.$id.tsx            ← [NEW] /shop/:id — product detail
-│       └── admin.prices.tsx        ← [NEW] /admin/prices — internal price watch
-└── public/
-    └── images/                     ← generated pet photos
+│       ├── home.tsx                    ← Front-facing store landing page
+│       ├── shop.tsx                    ← Catalog layout, filter lists, and sorting controls
+│       ├── shop.$id.tsx                ← Detailed product layout and WhatsApp order link
+│       ├── my-account.tsx              ← Customer login, registration & portal dashboard
+│       ├── cart.tsx                    ← Shopping cart review layout
+│       ├── checkout.tsx                ← Checkout processing & billing form
+│       └── store_backend.tsx           ← Premium admin layout & auth gateway
+│       └── store_backend.*.tsx         ← Individual back-office routes (Dashboard, Products, Users, etc.)
+└── scratch/
+    ├── sync-petstore-to-supabase.ts    ← Downloads WP assets from petstore.co.ke & seeds Supabase
+    └── validate-sync.ts                ← Verifies Supabase row counts and connection integrity
 ```
 
 ---
 
-## Pages
+## 6. Storefront & Backend Routes
 
-### `/` — Homepage
-- **Navbar**: `PetStore Kenya.` logo · Shop · About · Contact · `[ORDER NOW →]`
-- **Kenyan flag stripe** (4px: black · red · green)
-- **Hero**: Full-width section — "Kenya's Pet Food, Delivered." — bold headline, cat & dog image, `[SHOP NOW]` CTA
-- **Trust bar**: 🇰🇪 Proudly Kenyan · 🐾 All Major Brands · 🚚 Nairobi Delivery · 💰 Beat Supermarket Prices
-- **Category grid**: Dog Food · Cat Food · Treats · Supplements
-- **Featured products** (3 cards, best sellers)
-- **"Why PetStore Kenya?"** — 3-column: 💰 Lowest Price / 🚚 Fast Delivery / 🐾 Quality Brands
-- **Footer** + flag stripe
+### Core Customer Pages
+*   **`/` (Homepage):** Welcoming banner, product category slider, interactive brand grids, and high-conversion trust rows.
+*   **`/shop` (Catalog):** Grid listing 919 items with categorization, dynamic search filters, and sorting controls.
+*   **`/shop/:id` (Detail Page):** Full product descriptions, image carousels, and an automated WhatsApp ordering link pointing directly to the merchant.
+*   **`/my-account` (Customer Portal):** Conditional portal that respects the global `anyoneCanRegister` toggle, allowing secure customer registration and login.
+*   **`/cart` & `/checkout`:** Item review page, discount coupon applying logic, and billing forms with M-Pesa options.
 
-### `/shop` — Product Catalogue
-- Filter tabs: All · 🐕 Dogs · 🐈 Cats · 🦴 Treats
-- Sort: Price ↑ · Price ↓ · Newest
-- Product cards:
-  - Image
-  - Brand badge + product name + weight
-  - **KES [our price]** (large, red)
-  - `SAVE KES X vs Carrefour` badge (green)
-  - `[ORDER ON WHATSAPP]` button
-
-### `/shop/:id` — Product Detail
-- Large product image
-- Brand, name, weight, animal type, food type
-- **Our price** (hero)
-- Subtle competitor price bar: "At Carrefour: KES X · Naivas: KES X"
-- WhatsApp order button (pre-filled message)
-- Related products
-
-### `/admin/prices` — Internal Price Intelligence
-- No auth for now (internal use only, localhost)
-- Table: Product · Our Price · Carrefour · Naivas · Quickmart · Last Updated
-- 🔴 Highlight rows where a competitor is cheaper than us
-- Manual scrape trigger button (future)
+### Administrative "PSK Commerce" Backend
+*   **`/store_backend/login`:** Authentication layout.
+*   **`/store_backend` (Dashboard):** Provides shop statistics, visual analytics graphs, recent action histories, and quick-access shortcuts.
+*   **`/store_backend/products`:** Table lists all catalog products with options to edit stock levels, change pricing, and modify descriptions.
+*   **`/store_backend/users`:** Management portal to provision new administrative accounts, assign access permission roles, suspend, or trigger secure password resets.
+*   **`/store_backend/posts`:** Manage blog posts, with direct support for local drafts, categories, and content edits.
+*   **`/store_backend/coupons`:** Edit, create, and manage promotional discount coupons.
+*   **`/store_backend/settings`:** Edit shop configurations, toggle client registration, adjust email servers, and customize brand details.
 
 ---
 
-## Implementation Steps
+## 7. Migration & Sync Status
 
-- [x] PostgreSQL `petstore_aggregator` database created
-- [x] `products` + `store_prices` tables created with indexes
-- [x] Seed SQL file written (`petstore_seed.sql`)
-- [x] React Router v7 scaffolded in `./`
-- [ ] Install additional deps: `pg`, `dotenv`, `lucide-react`
-- [ ] Create `.env` with `DATABASE_URL` + `PORT=3001`
-- [ ] Build `app/db.server.ts` (pg pool + auto-migrations)
-- [ ] Build `app/app.css` — full brown-bag + Kenyan design system
-- [ ] Update `app/root.tsx` — Google Fonts, flag strip, global layout
-- [ ] Build `app/routes/home.tsx` — landing page
-- [ ] Build `app/routes/shop.tsx` — catalogue
-- [ ] Build `app/routes/shop.$id.tsx` — product detail
-- [ ] Build `app/routes/admin.prices.tsx` — internal dashboard
-- [ ] Run `petstore_seed.sql` to populate DB
-- [ ] Run `npm run dev` and verify on port 3001
-- [ ] Generate/embed cat & dog images
-
----
-
-## Future Phases
-
-| Phase | Work |
-|---|---|
-| Phase 2 | Playwright scraper to pull live Carrefour/Naivas/Quickmart prices |
-| Phase 3 | WhatsApp ordering integration (Baileys, same as loki-merchandiser) |
-| Phase 4 | Admin product management UI (add/edit/remove products) |
-| Phase 5 | Delivery zone map + M-Pesa payment integration |
+The database synchronization is fully operational and verified:
+- **Products:** 919 products migrated from the live site.
+- **Blog Posts:** 27 posts synced, with inline mapping for image fields.
+- **Coupons:** Pre-configured with active codes (`WELCOME500`, `PET8`).
+- **Users:** Administrative provisioning is enabled and fully active.
