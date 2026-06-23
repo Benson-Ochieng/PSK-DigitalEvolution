@@ -39,8 +39,7 @@ export default function Blog() {
           maxWidth: "1200px", 
           margin: "0 auto", 
           padding: "3rem var(--page-pad) 5rem",
-          fontFamily: "var(--font-sans)",
-          backgroundColor: "#f7fafc"
+          fontFamily: "var(--font-sans)"
         }}
       >
         
@@ -54,7 +53,7 @@ export default function Blog() {
             margin: "2rem auto 0", 
             display: "flex",
             flexDirection: "column",
-            gap: "2rem"
+            gap: "2.5rem"
           }}
         >
           {posts.length === 0 ? (
@@ -64,7 +63,6 @@ export default function Blog() {
           ) : (
             posts.map((post: any) => {
               const isExpanded = !!expandedPosts[post.id];
-              const isDog = post.title.toLowerCase().includes("dog") || post.slug.includes("dog");
               
               return (
                 <div 
@@ -72,35 +70,42 @@ export default function Blog() {
                   style={{
                     backgroundColor: "#ffffff",
                     border: "1px solid #e2e8f0",
-                    borderRadius: "6px",
-                    overflow: "hidden",
-                    boxShadow: "0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03)"
+                    borderRadius: "4px",
+                    overflow: "hidden"
                   }}
                 >
-                  {/* Card Header (Title Bar) */}
+                  {/* Card Header (Title Bar with Accent Bottom Border) */}
                   <div 
                     style={{
-                      borderBottom: "1px solid #edf2f7",
-                      padding: "0.75rem 1.25rem",
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "0.5rem"
+                      borderBottom: "1px solid #e2e8f0",
+                      padding: "0.75rem 1.25rem 0",
+                      display: "flex"
                     }}
                   >
-                    <span style={{ color: "#3182ce", fontSize: "1.1rem" }}>
-                      {isDog ? "🐕" : "🐈"}
-                    </span>
-                    <h2 
-                      style={{ 
-                        fontSize: "1.1rem", 
-                        fontWeight: 700, 
-                        color: "#2b6cb0",
-                        margin: 0,
-                        lineHeight: "1.4"
+                    <div
+                      style={{
+                        borderBottom: "2.5px solid #1e5da7",
+                        marginBottom: "-1.75px",
+                        paddingBottom: "0.6rem",
+                        display: "inline-flex",
+                        alignItems: "center",
+                        gap: "0.6rem"
                       }}
                     >
-                      {post.title}
-                    </h2>
+                      <i className="fa fa-paw" style={{ color: "#1e5da7", fontSize: "0.95rem" }}></i>
+                      <h2 
+                        style={{ 
+                          fontSize: "1.05rem", 
+                          fontWeight: 700, 
+                          color: "#1e5da7",
+                          margin: 0,
+                          lineHeight: "1.4"
+                        }}
+                      >
+                        {post.title}
+                      </h2>
+                      <i className="fa fa-paw" style={{ color: "#1e5da7", fontSize: "0.95rem" }}></i>
+                    </div>
                   </div>
 
                   {/* Card Body */}
@@ -117,52 +122,39 @@ export default function Blog() {
                       style={{
                         display: "flex",
                         flexDirection: "row",
-                        gap: "1.25rem",
+                        gap: "1.5rem",
                         flexWrap: "wrap"
                       }}
                     >
-                      {/* Image Thumbnail */}
+                      {/* Image Thumbnail - Increased Size */}
                       <div 
                         style={{
-                          width: "120px",
-                          height: "120px",
-                          minWidth: "120px",
-                          borderRadius: "6px",
+                          width: "280px",
+                          height: "190px",
+                          minWidth: "280px",
+                          borderRadius: "4px",
                           overflow: "hidden",
-                          border: "1px solid #edf2f7",
+                          border: "1px solid #e2e8f0",
                           display: "flex",
                           alignItems: "center",
                           justifyContent: "center",
-                          backgroundColor: "#f7fafc"
+                          backgroundColor: "#f7fafc",
+                          padding: "2px"
                         }}
                       >
                         <img 
-                          src={post.image_url || (isDog ? "/images/puppy-150x150.webp" : "/images/kitten-150x150.webp")} 
+                          src={post.image_url} 
                           alt={post.title}
                           style={{
                             width: "100%",
                             height: "100%",
                             objectFit: "cover"
                           }}
-                          onError={(e) => {
-                            e.currentTarget.src = isDog ? "/images/puppy-150x150.webp" : "/images/kitten-150x150.webp";
-                          }}
                         />
                       </div>
 
                       {/* Text Column */}
-                      <div style={{ flex: 1, minWidth: "250px" }}>
-                        {/* Publish date */}
-                        {post.published_at && (
-                          <div style={{ fontSize: "0.8rem", color: "#718096", marginBottom: "0.5rem", fontWeight: 600 }}>
-                            {new Date(post.published_at).toLocaleDateString("en-US", {
-                              month: "long",
-                              day: "numeric",
-                              year: "numeric"
-                            })}
-                          </div>
-                        )}
-
+                      <div style={{ flex: 1, minWidth: "280px" }}>
                         <p 
                           style={{ 
                             fontSize: "0.95rem", 
@@ -170,9 +162,10 @@ export default function Blog() {
                             lineHeight: "1.6",
                             margin: 0
                           }}
-                        >
-                          {isExpanded ? post.content : post.excerpt || post.content.substring(0, 160) + "..."}
-                        </p>
+                          dangerouslySetInnerHTML={{ 
+                            __html: isExpanded ? post.content : (post.excerpt || post.content) 
+                          }}
+                        />
                       </div>
                     </div>
 
@@ -181,7 +174,7 @@ export default function Blog() {
                       <button
                         onClick={() => toggleExpand(post.id)}
                         style={{
-                          backgroundColor: "#FFB000",
+                          backgroundColor: "#ff9f00",
                           color: "#ffffff",
                           border: "none",
                           borderRadius: "4px",
@@ -191,8 +184,8 @@ export default function Blog() {
                           cursor: "pointer",
                           transition: "background-color 0.2s"
                         }}
-                        onMouseOver={(e) => e.currentTarget.style.backgroundColor = "#e09b00"}
-                        onMouseOut={(e) => e.currentTarget.style.backgroundColor = "#FFB000"}
+                        onMouseOver={(e) => e.currentTarget.style.backgroundColor = "#e08b00"}
+                        onMouseOut={(e) => e.currentTarget.style.backgroundColor = "#ff9f00"}
                       >
                         {isExpanded ? "SHOW LESS" : "READ MORE"}
                       </button>
