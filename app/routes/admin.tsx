@@ -63,6 +63,11 @@ export default function AdminLayout() {
                 🏷 Price Intel
               </NavLink>
             </li>
+            <li className="admin-sidebar-item">
+              <NavLink to="/admin/blogs" className={({ isActive }) => isActive ? "active" : ""}>
+                📝 Blog Posts
+              </NavLink>
+            </li>
           </ul>
         </nav>
 

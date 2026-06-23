@@ -41,10 +41,10 @@ export default function Footer() {
             <div className="footer-col">
               <h3>Learn</h3>
               <ul>
-                <li><Link to="/shop">Food Comparison Charts</Link></li>
-                <li><Link to="/shop">Brochures</Link></li>
-                <li><Link to="/shop">Retail Locations</Link></li>
-                <li><Link to="/shop">Blog</Link></li>
+                <li><Link to="/food-comparison">Food Comparison Charts</Link></li>
+                <li><Link to="/brochures">Brochures</Link></li>
+                <li><Link to="/retail-locations-nairobi-nanyuki-naivasha-nakuru-mombasa/">Retail Locations</Link></li>
+                <li><Link to="/blog">Blog</Link></li>
               </ul>
             </div>
 
@@ -53,10 +53,10 @@ export default function Footer() {
               <h3>Information</h3>
               <ul>
                 <li><Link to="/why-us">Why Choose Us</Link></li>
-                <li><Link to="/shop">About Us</Link></li>
-                <li><Link to="/shop">Quality Management</Link></li>
-                <li><Link to="/shop">Terms & Conditions</Link></li>
-                <li><Link to="/shop">Privacy Policy</Link></li>
+                <li><Link to="/about-us">About Us</Link></li>
+                <li><Link to="/quality-management">Quality Management</Link></li>
+                <li><Link to="/terms-and-conditions">Terms & Conditions</Link></li>
+                <li><Link to="/privacy-policy">Privacy Policy</Link></li>
               </ul>
             </div>
 

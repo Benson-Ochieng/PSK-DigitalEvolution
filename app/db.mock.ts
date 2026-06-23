@@ -1881,6 +1881,120 @@ export const mockStorePrices: StorePrice[] = [
   }
 ];
 
+export interface BlogPost {
+  id: number;
+  title: string;
+  slug: string;
+  content: string;
+  excerpt: string;
+  image_url: string;
+  published_at: string;
+  created_at: string;
+}
+
+export const mockBlogPosts: BlogPost[] = [
+  {
+    id: 1,
+    title: 'The Essential Dog Care Guide',
+    slug: 'essential-dog-care-guide',
+    content: 'Whether you\'re a first time dog parent or looking to brush up on the basics, this easy and practical guide has everything you need to give your pup the best start. Inside, you\'ll find essential supplies, a safety checklist, nutrition and feeding tips, foods to avoid, grooming, and training pointers.',
+    excerpt: 'Whether you\'re a first time dog parent or looking to brush up on the basics, this easy and practical guide has everything you need to give your pup the best start.',
+    image_url: '/images/blogs/puppy-guide.webp',
+    published_at: '2022-12-01T00:00:00Z',
+    created_at: '2022-12-01T00:00:00Z'
+  },
+  {
+    id: 2,
+    title: 'The Essential Cat Care Guide',
+    slug: 'essential-cat-care-guide',
+    content: 'Whether you\'re a new cat parent or looking to refresh your knowledge, this quick and practical guide has everything you need to give your feline the best start. Inside, you\'ll find essential supplies, a safety checklist, nutrition and feeding tips, foods to avoid, litter training, and enrichment ideas.',
+    excerpt: 'Whether you\'re a new cat parent or looking to refresh your knowledge, this quick and practical guide has everything you need to give your feline the best start.',
+    image_url: '/images/blogs/Cat.jpg.webp',
+    published_at: '2022-11-30T00:00:00Z',
+    created_at: '2022-11-30T00:00:00Z'
+  },
+  {
+    id: 3,
+    title: 'Mixed Feeding for Dogs & Cats: How to Combine Wet and Dry Food the Right Way',
+    slug: 'mixed-feeding-dogs-cats',
+    content: 'If you\'ve ever stood in the pet food aisle or browsed through website products, you\'ve probably asked yourself: \'Should I feed my pet dry food, wet food, or both?\' But what if you don\'t have to choose? What if you could give your pet the best of both worlds? Mixed feeding, which combines wet and dry food, offers excellent hydration and chewing benefits.',
+    excerpt: 'If you\'ve ever stood in the pet food aisle or browsed through website products, you\'ve probably asked yourself: \'Should I feed my pet dry food, wet food, or both?\'',
+    image_url: '/images/blogs/happy-dog-and-cat.jpg.webp',
+    published_at: '2022-11-29T00:00:00Z',
+    created_at: '2022-11-29T00:00:00Z'
+  },
+  {
+    id: 4,
+    title: 'Wet vs. Dry Pet Food: Which is the Best Food for Your Dog & Cat?',
+    slug: 'wet-vs-dry-pet-food',
+    content: 'As a loving pet parent, you want nothing but the best for your furry family member. Their health and happiness often begin right in their food bowl because the food they eat provides all the essential building blocks, energy, and nutrients that they need to thrive. Just like humans, a balanced diet is key to a long, happy life.',
+    excerpt: 'As a loving pet parent, you want nothing but the best for your furry family member. Their health and happiness often begin right in their food bowl.',
+    image_url: '/images/blogs/istockphoto-2227067994-612x612-1.jpg.webp',
+    published_at: '2022-11-29T00:00:00Z',
+    created_at: '2022-11-29T00:00:00Z'
+  },
+  {
+    id: 5,
+    title: 'Puppy Guide',
+    slug: 'puppy-guide',
+    content: 'PSK - New Puppy Quick Start Guide Here\'s a guide to help you through the initial stages with your puppy! This would be an amazing journey. A checklist will help you out in taking care of your little bundle of furry joy. We offer some considerations you should have in mind. It covers everything from toys to vaccinations.',
+    excerpt: 'PSK - New Puppy Quick Start Guide Here\'s a guide to help you through the initial stages with your puppy! This would be an amazing journey.',
+    image_url: '/images/blogs/puppy-guide (1).webp',
+    published_at: '2022-11-28T00:00:00Z',
+    created_at: '2022-11-28T00:00:00Z'
+  },
+  {
+    id: 6,
+    title: 'Kitten Guide',
+    slug: 'kitten-guide',
+    content: 'PSK - New Kitten Quick Start Guide Here\'s a guide to help you through the initial stages with your kitten - being a first time parent can be scary, but this guide will walk you through some of the considerations you should have when starting the journey. It covers setting up their environment, diets, litter choice, and play.',
+    excerpt: 'PSK - New Kitten Quick Start Guide Here\'s a guide to help you through the initial stages with your kitten - being a first time parent can be scary.',
+    image_url: '/images/blogs/kitten-guide.webp',
+    published_at: '2022-11-28T00:00:00Z',
+    created_at: '2022-11-28T00:00:00Z'
+  },
+  {
+    id: 7,
+    title: 'How to Evaluate Which Food is Best for Your Dog: A Comprehensive Guide',
+    slug: 'how-to-evaluate-dog-food',
+    content: '<strong>November 28th 2022:</strong> When it comes to feeding your dog, you want to make sure you are giving them the best possible food for their individual needs. But, with all the different options, how can you know which one is right for your pup? This comprehensive guide will go over everything you need to look for, from ingredient lists to calorie density.',
+    excerpt: '<strong>November 28th 2022:</strong> When it comes to feeding your dog, you want to make sure you are giving them the best possible food for their individual needs.',
+    image_url: '/images/blogs/which_food_is_best_for_your_dog_2.webp',
+    published_at: '2022-11-28T00:00:00Z',
+    created_at: '2022-11-28T00:00:00Z'
+  },
+  {
+    id: 8,
+    title: '\"Keep Their Food Fresh\": Easy Tips on Storing Dog and Cat Food',
+    slug: 'keep-food-fresh-storing-tips',
+    content: '<strong>November 22nd 2022:</strong> Have you ever had your furry friend experience an unexplained bout of loose stool or vomiting? If you have, you may want to check your pet food storage methods. Poor pet food storage can be the cause of these issues, as bacteria or spoilage can occur if hygiene isn\'t observed in keeping the kibbles dry and cool.',
+    excerpt: '<strong>November 22nd 2022:</strong> Have you ever had your furry friend experience an unexplained bout of loose stool or vomiting? If you have, you may want to check your storage methods.',
+    image_url: '/images/blogs/tips_on_storing_dog_and_cat_food_2.webp',
+    published_at: '2022-11-22T00:00:00Z',
+    created_at: '2022-11-22T00:00:00Z'
+  },
+  {
+    id: 9,
+    title: 'Why is my Cat not eating? Hunger Strike or Anorexia in cats',
+    slug: 'why-cat-not-eating-hunger-strike',
+    content: '<strong>November 15th 2022:</strong> Did you know that cats also suffer from anorexia? Yes, our feline friends are known to be fussy eaters but, unfortunately, that\'s not always the case. If your cat used to love their food but is now on a food strike or anorexia, it could be a sign that something is wrong. We explore medical, environmental, and behavioral reasons.',
+    excerpt: '<strong>November 15th 2022:</strong> Did you know that cats also suffer from anorexia? Yes, our feline friends are known to be fussy eaters but, unfortunately, that\'s not always the case.',
+    image_url: '/images/blogs/why_is_my_cat_not_eating_2.webp',
+    published_at: '2022-11-15T00:00:00Z',
+    created_at: '2022-11-15T00:00:00Z'
+  },
+  {
+    id: 10,
+    title: 'Do You Know Why Your Cat Sleeps So Much? 4 Reasons Your Cat May Be Sleeping All Day',
+    slug: 'why-cat-sleeps-so-much',
+    content: '<strong>November 6th 2022:</strong> Did you know that cats can sleep an average of 15 hours daily? Some stretch that up to 20 hours, especially for older cats and kittens. We watch many cute and funny videos on our phones of how much cats love sleeping all day, every day, literally anywhere and everywhere. Behind this habit are evolutionary sleep patterns.',
+    excerpt: '<strong>November 6th 2022:</strong> Did you know that cats can sleep an average of 15 hours daily? Some stretch that up to 20 hours, especially for older cats and kittens.',
+    image_url: '/images/blogs/do_you_know_why_your_cat_sleeps_so_much_2.webp',
+    published_at: '2022-11-06T00:00:00Z',
+    created_at: '2022-11-06T00:00:00Z'
+  }
+];
+
 export const mockCustomers: Customer[] = [];
 
 export const mockOrders: Order[] = [
@@ -1937,6 +2051,56 @@ export const mockOrderItems: OrderItem[] = [
 
 export async function executeMockQuery(text: string, params: any[] = []): Promise<{ rows: any[], rowCount: number }> {
   const queryText = text.replace(/\s+/g, ' ').trim();
+
+  // Blog posts queries
+  if (queryText.includes("FROM blog_posts") && queryText.includes("ORDER BY published_at DESC")) {
+    const list = [...mockBlogPosts].sort((a, b) => new Date(b.published_at).getTime() - new Date(a.published_at).getTime());
+    return { rows: list, rowCount: list.length };
+  }
+
+  if (queryText.includes("INSERT INTO blog_posts") && queryText.includes("RETURNING id")) {
+    const newId = mockBlogPosts.length > 0 ? Math.max(...mockBlogPosts.map(p => p.id)) + 1 : 1;
+    mockBlogPosts.push({
+      id: newId,
+      title: params[0],
+      slug: params[1],
+      content: params[2],
+      excerpt: params[3],
+      image_url: params[4],
+      published_at: params[5] || new Date().toISOString(),
+      created_at: new Date().toISOString()
+    });
+    return { rows: [{ id: newId }], rowCount: 1 };
+  }
+
+  if (queryText.includes("UPDATE blog_posts SET title = $1")) {
+    const title = params[0];
+    const slug = params[1];
+    const content = params[2];
+    const excerpt = params[3];
+    const image_url = params[4];
+    const published_at = params[5];
+    const id = Number(params[6]);
+    const bp = mockBlogPosts.find(x => x.id === id);
+    if (bp) {
+      bp.title = title;
+      bp.slug = slug;
+      bp.content = content;
+      bp.excerpt = excerpt;
+      bp.image_url = image_url;
+      if (published_at) bp.published_at = published_at;
+    }
+    return { rows: [], rowCount: 1 };
+  }
+
+  if (queryText.includes("DELETE FROM blog_posts WHERE id = $1")) {
+    const id = Number(params[0]);
+    const idx = mockBlogPosts.findIndex(x => x.id === id);
+    if (idx !== -1) {
+      mockBlogPosts.splice(idx, 1);
+    }
+    return { rows: [], rowCount: 1 };
+  }
 
   // 1. Stats query on homepage
   if (queryText.includes("COUNT(*) FROM products") && queryText.includes("MAX(last_updated)")) {

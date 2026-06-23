@@ -1,0 +1,19 @@
+{
+  "id": 13,
+  "title": "Food Comparison",
+  "slug": "food-comparison",
+  "status": "publish",
+  "parent": 0,
+  "link": "https://petstore.co.ke/food-comparison/",
+  "date": "2026-06-23T13:45:00",
+  "modified": "2026-06-23T13:45:00",
+  "content": "<h2>Food Comparison</h2><p>How does your cat food compare? Review our comparison chart and grading criteria.</p>",
+  "excerpt": "Review our cat food comparison chart and grading criteria.",
+  "featuredImage": "/images/rbanner2.jpg.webp",
+  "seo": {
+    "title": "Cat Food Comparison — PetStore Kenya",
+    "description": "How does your cat food compare? Review our comparison chart and grading criteria.",
+    "canonical": "https://petstore.co.ke/food-comparison/",
+    "ogImage": "/images/rbanner2.jpg.webp"
+  }
+}
