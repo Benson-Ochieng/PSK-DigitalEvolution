@@ -1,6 +1,35 @@
 import { type RouteConfig, index, route, layout } from "@react-router/dev/routes";
+import fs from "fs";
+import path from "path";
 
-export default [
+// Safely load environment variables from .env file at configuration/build time
+try {
+  const envPath = path.resolve(process.cwd(), ".env");
+  if (fs.existsSync(envPath)) {
+    const envContent = fs.readFileSync(envPath, "utf-8");
+    for (const line of envContent.split(/\r?\n/)) {
+      const trimmed = line.trim();
+      if (trimmed && !trimmed.startsWith("#")) {
+        const firstEqual = trimmed.indexOf("=");
+        if (firstEqual !== -1) {
+          const key = trimmed.substring(0, firstEqual).trim();
+          let val = trimmed.substring(firstEqual + 1).trim();
+          if ((val.startsWith('"') && val.endsWith('"')) || (val.startsWith("'") && val.endsWith("'"))) {
+            val = val.substring(1, val.length - 1);
+          }
+          process.env[key] = val;
+        }
+      }
+    }
+  }
+} catch (e) {
+  // Silent fallback
+}
+
+const enableDashboard = process.env.ENABLE_DASHBOARD === "true";
+console.log("[DEBUG Routes] enableDashboard evaluated as:", enableDashboard, "| process.env.ENABLE_DASHBOARD:", process.env.ENABLE_DASHBOARD);
+
+const routes = [
   index("routes/home.tsx"),
   route("shop", "routes/shop.tsx"),
   route("product-category/:slug", "routes/product-category.$slug.tsx"),
@@ -26,35 +55,41 @@ export default [
   // API
   route("api/order", "routes/api.order.ts"),
   route("api/search", "routes/api.search.ts"),
+];
 
-  // Admin login page (no layout wrapper)
-  route("admin/login", "routes/admin.login.tsx"),
+if (enableDashboard) {
+  routes.push(
+    // Admin login page (no layout wrapper)
+    route("admin/login", "routes/admin.login.tsx"),
 
-  // Admin routes (with layout wrapper for auth & sidebar)
-  layout("routes/admin.tsx", [
-    route("admin", "routes/admin._index.tsx"),
-    route("admin/orders", "routes/admin.orders.tsx"),
-    route("admin/products", "routes/admin.products.tsx"),
-    route("admin/prices", "routes/admin.prices.tsx"),
-    route("admin/blogs", "routes/admin.blogs.tsx"),
-  ]),
+    // Admin routes (with layout wrapper for auth & sidebar)
+    layout("routes/admin.tsx", [
+      route("admin", "routes/admin._index.tsx"),
+      route("admin/orders", "routes/admin.orders.tsx"),
+      route("admin/products", "routes/admin.products.tsx"),
+      route("admin/prices", "routes/admin.prices.tsx"),
+      route("admin/blogs", "routes/admin.blogs.tsx"),
+    ]),
 
-  // Premium WordPress-Style Admin Backend Routes
-  route("/store_backend", "routes/store_backend.tsx", [
-    index("routes/store_backend.dashboard.tsx"),
-    route("products", "routes/store_backend.products.tsx"),
-    route("users", "routes/store_backend.users.tsx"),
-    route("orders", "routes/store_backend.orders.tsx"),
-    route("customers", "routes/store_backend.customers.tsx"),
-    route("coupons", "routes/store_backend.coupons.tsx"),
-    route("pages", "routes/store_backend.pages.tsx"),
-    route("comments", "routes/store_backend.comments.tsx"),
-    route("history", "routes/store_backend.history.tsx"),
-    route("posts", "routes/store_backend.posts.tsx"),
-    route("media", "routes/store_backend.media.tsx"),
-    route("downloads", "routes/store_backend.downloads.tsx"),
-    route("analytics", "routes/store_backend.analytics.tsx"),
-    route("settings", "routes/store_backend.settings.tsx"),
-  ]),
-  route("/store_backend/login", "routes/store_backend.login.tsx"),
-] satisfies RouteConfig;
+    // Premium WordPress-Style Admin Backend Routes
+    route("/store_backend", "routes/store_backend.tsx", [
+      index("routes/store_backend.dashboard.tsx"),
+      route("products", "routes/store_backend.products.tsx"),
+      route("users", "routes/store_backend.users.tsx"),
+      route("orders", "routes/store_backend.orders.tsx"),
+      route("customers", "routes/store_backend.customers.tsx"),
+      route("coupons", "routes/store_backend.coupons.tsx"),
+      route("pages", "routes/store_backend.pages.tsx"),
+      route("comments", "routes/store_backend.comments.tsx"),
+      route("history", "routes/store_backend.history.tsx"),
+      route("posts", "routes/store_backend.posts.tsx"),
+      route("media", "routes/store_backend.media.tsx"),
+      route("downloads", "routes/store_backend.downloads.tsx"),
+      route("analytics", "routes/store_backend.analytics.tsx"),
+      route("settings", "routes/store_backend.settings.tsx"),
+    ]),
+    route("/store_backend/login", "routes/store_backend.login.tsx")
+  );
+}
+
+export default routes satisfies RouteConfig;

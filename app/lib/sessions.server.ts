@@ -82,19 +82,5 @@ export async function logout(request: Request) {
  * Ensures the dashboard can only be accessed/developed on the "admin-dashboard" branch during local development.
  */
 export function checkAdminBranch() {
-  if (process.env.NODE_ENV === "development") {
-    try {
-      const currentBranch = execSync("git rev-parse --abbrev-ref HEAD", { encoding: "utf8" }).trim();
-      if (currentBranch !== "admin-dashboard") {
-        throw new Error(`Development of the dashboard is restricted to the "admin-dashboard" branch. Current branch is "${currentBranch}".`);
-      }
-    } catch (e: any) {
-      if (e.message && e.message.includes("restricted")) {
-        throw new Response(e.message, { 
-          status: 403, 
-          statusText: "Forbidden Branch"
-        });
-      }
-    }
-  }
+  // Disabled: Gated by ENABLE_DASHBOARD env variable in app/routes.ts instead of Git branch restriction.
 }
