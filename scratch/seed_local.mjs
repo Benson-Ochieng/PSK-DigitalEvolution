@@ -12,7 +12,7 @@ if (!dbUrl) {
 console.log(`Connecting to local DB: ${dbUrl}`);
 
 async function run() {
-  const pool = new pg.Pool({ connectionString: dbUrl });
+  const pool = new pg.Pool({ connectionString: dbUrl, ssl: { rejectUnauthorized: false } });
   try {
     const sql = readFileSync('petstore_seed.sql', 'utf8');
     await pool.query(sql);

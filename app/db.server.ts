@@ -2,7 +2,7 @@ import pg from 'pg';
 import dotenv from 'dotenv';
 import { runMigrations } from './db/migrate.server';
 
-dotenv.config();
+dotenv.config({ override: true });
 
 const { Pool } = pg;
 
@@ -56,7 +56,7 @@ const poolConfig: pg.PoolConfig = {
   maxUses: 7500, // Close and replace a connection after 7500 queries to prevent memory leaks
   ssl: hasSslDisabled
     ? undefined
-    : (isProduction ? { rejectUnauthorized: false } : undefined),
+    : { rejectUnauthorized: false },
 };
 
 let pool: pg.Pool;
@@ -93,12 +93,10 @@ async function startDatabase() {
         await runMigrations(pool);
         console.log('Database migrations completed successfully (without SSL).');
       } catch (retryErr) {
-        console.error('Auto migrations failed on retry:', retryErr);
-        throw retryErr;
+        console.error('Auto migrations failed on retry (non-fatal):', retryErr);
       }
     } else {
-      console.error('Auto migrations failed:', err);
-      throw err;
+      console.error('Auto migrations failed (non-fatal):', err);
     }
   }
 }

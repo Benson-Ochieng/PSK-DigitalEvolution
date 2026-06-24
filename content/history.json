@@ -1,5 +1,13 @@
 [
   {
+    "id": "evt-oa1w4v8uw",
+    "timestamp": "2026-06-24T13:42:31.769Z",
+    "user": "System Admin",
+    "action": "User Logged In",
+    "details": "Successfully signed into the administration panel",
+    "icon": "🔑"
+  },
+  {
     "id": "evt-1wpfumoiu",
     "timestamp": "2026-06-24T10:37:35.698Z",
     "user": "Ben",
