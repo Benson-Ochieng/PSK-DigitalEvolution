@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Form, useActionData, useLoaderData, useNavigation } from "react-router";
+import { Form, useActionData, useLoaderData, useNavigation, useRevalidator } from "react-router";
 import fs from "fs";
 import path from "path";
 import { logHistoryEvent } from "~/lib/content.server";
@@ -61,7 +61,8 @@ export async function loader({ request }: { request: Request }) {
     dateFormatCustom: "",
     timeFormat: "g:i a",
     timeFormatCustom: "",
-    weekStartsOn: "Monday"
+    weekStartsOn: "Monday",
+    lastSyncTime: ""
   };
 
   if (fs.existsSync(settingsPath)) {
@@ -73,7 +74,10 @@ export async function loader({ request }: { request: Request }) {
     }
   }
 
-  return { settings, currentUser };
+  const { getSyncStatus } = await import("~/lib/woocommerce.server");
+  const syncStatus = getSyncStatus();
+
+  return { settings, currentUser, syncStatus };
 }
 
 export async function action({ request }: { request: Request }) {
@@ -160,14 +164,44 @@ export async function action({ request }: { request: Request }) {
     return { success: true };
   }
 
+  if (intent === "sync_woocommerce") {
+    try {
+      const { startBackgroundSync } = await import("~/lib/woocommerce.server");
+      const status = startBackgroundSync();
+      
+      logHistoryEvent(
+        currentUser.name,
+        "WooCommerce Sync Initiated",
+        `Synchronization from WooCommerce storefront was started in the background.`,
+        "🔄"
+      );
+
+      return { syncStarted: true, syncStatus: status };
+    } catch (error: any) {
+      console.error("WooCommerce sync error:", error);
+      return { syncSuccess: false, error: error.message || "Failed to start background sync." };
+    }
+  }
+
   return null;
 }
 
 export default function VpBackendSettings() {
-  const { settings } = useLoaderData() as any;
-  const actionData = useActionData() as { success?: boolean; error?: string } | undefined;
+  const { settings, syncStatus } = useLoaderData() as any;
+  const actionData = useActionData() as any;
   const navigation = useNavigation();
+  const revalidator = useRevalidator();
   const isSaving = navigation.state === "submitting";
+
+  // Poll for background sync status if it's currently running
+  useEffect(() => {
+    if (syncStatus?.status === "running") {
+      const interval = setInterval(() => {
+        revalidator.revalidate();
+      }, 3000);
+      return () => clearInterval(interval);
+    }
+  }, [syncStatus?.status, revalidator]);
 
   // State hooks
   const [showNotice, setShowNotice] = useState(true);
@@ -1020,6 +1054,104 @@ export default function VpBackendSettings() {
           </div>
         </div>
       </Form>
+
+      {/* WooCommerce Sync Panel */}
+      <div className="settings-card" style={{ marginTop: "30px" }}>
+        <h3 style={{ fontSize: "16px", fontWeight: "600", color: "#fff", marginBottom: "15px", display: "flex", alignItems: "center", gap: "8px" }}>
+          <span>🔄</span> WooCommerce Integration Sync
+        </h3>
+        <p style={{ fontSize: "13px", color: "rgba(255, 255, 255, 0.7)", lineHeight: "1.6", marginBottom: "20px" }}>
+          Synchronize live products, customers, and orders database from the Petstore Kenya WooCommerce storefront website. This will update the local cache and PostgreSQL databases, reconcile existing listings, and keep storefront inventories up to date.
+        </p>
+
+        {syncStatus?.status === "running" && (
+          <div className="info-toast" style={{ 
+            background: "rgba(0, 204, 255, 0.1)", 
+            border: "1px solid rgba(0, 204, 255, 0.3)", 
+            color: "#00ccff", 
+            borderRadius: "6px", 
+            padding: "12px 18px", 
+            marginBottom: "20px", 
+            fontSize: "13.5px"
+          }}>
+            <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+              <span className="spinner-mini" style={{
+                display: "inline-block",
+                width: "14px",
+                height: "14px",
+                border: "2px solid rgba(0, 204, 255, 0.3)",
+                borderTopColor: "#00ccff",
+                borderRadius: "50%",
+                animation: "spin 1s linear infinite"
+              }}></span>
+              <strong>Syncing with WooCommerce Store...</strong>
+            </div>
+            <div style={{ fontSize: "12.5px", marginTop: "6px", color: "rgba(255,255,255,0.85)", fontFamily: "monospace" }}>
+              Status: {syncStatus.progress}
+            </div>
+            <style dangerouslySetInnerHTML={{__html: `
+              @keyframes spin {
+                to { transform: rotate(360deg); }
+              }
+            `}} />
+          </div>
+        )}
+
+        {syncStatus?.status === "completed" && (
+          <div className="success-toast" style={{ marginBottom: "20px", display: "block" }}>
+            <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+              <span>✓</span> <strong>WooCommerce database synced successfully!</strong>
+            </div>
+            <div style={{ fontSize: "12.5px", marginTop: "8px", paddingLeft: "18px", color: "rgba(255,255,255,0.85)" }}>
+              • Synced Products: {syncStatus.stats?.productsSynced || 0}<br />
+              • Synced Categories: {syncStatus.stats?.categoriesSynced || 0}<br />
+              • Synced Customers: {syncStatus.stats?.customersSynced || 0}<br />
+              • Synced Orders: {syncStatus.stats?.ordersSynced || 0}
+            </div>
+          </div>
+        )}
+
+        {syncStatus?.status === "failed" && (
+          <div className="error-toast" style={{ 
+            background: "rgba(255, 77, 98, 0.1)", 
+            border: "1px solid rgba(255, 77, 98, 0.3)", 
+            color: "#ff4d62", 
+            borderRadius: "6px", 
+            padding: "12px 18px", 
+            marginBottom: "20px", 
+            fontSize: "13.5px" 
+          }}>
+            <span>❌</span> <strong>Synchronization failed:</strong> {syncStatus.error || "Unknown error occurred during fetch."}
+          </div>
+        )}
+
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: "15px" }}>
+          <div>
+            <div style={{ fontSize: "12px", color: "rgba(255, 255, 255, 0.4)" }}>Last Synchronization:</div>
+            <div style={{ fontSize: "13.5px", color: "#fff", fontWeight: "500", marginTop: "2px" }}>
+              {settings.lastSyncTime ? new Date(settings.lastSyncTime).toLocaleString("en-US", {
+                dateStyle: "medium",
+                timeStyle: "short"
+              }) : "Never"}
+            </div>
+          </div>
+          <Form method="post">
+            <input type="hidden" name="intent" value="sync_woocommerce" />
+            <button 
+              type="submit" 
+              className="btn-blue" 
+              disabled={syncStatus?.status === "running"}
+              style={{ 
+                background: syncStatus?.status === "running" ? "#4b5563" : "#ff4d62", 
+                boxShadow: syncStatus?.status === "running" ? "none" : "0 4px 15px rgba(255, 77, 98, 0.2)",
+                cursor: syncStatus?.status === "running" ? "not-allowed" : "pointer"
+              }}
+            >
+              {syncStatus?.status === "running" ? "Sync in Progress..." : "Sync Store Data Now"}
+            </button>
+          </Form>
+        </div>
+      </div>
     </div>
   );
 }

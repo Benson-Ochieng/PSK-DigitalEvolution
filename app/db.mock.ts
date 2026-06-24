@@ -1,4 +1,26 @@
 // Automatically generated in-memory mock database
+import fs from "fs";
+import path from "path";
+
+const BACKUP_DIR = path.join(process.cwd(), "content");
+const PRODUCTS_BACKUP = path.join(BACKUP_DIR, "db_products.json");
+const PRICES_BACKUP = path.join(BACKUP_DIR, "db_store_prices.json");
+const CUSTOMERS_BACKUP = path.join(BACKUP_DIR, "db_customers.json");
+const ORDERS_BACKUP = path.join(BACKUP_DIR, "db_orders.json");
+const ORDER_ITEMS_BACKUP = path.join(BACKUP_DIR, "db_order_items.json");
+const BLOG_POSTS_BACKUP = path.join(BACKUP_DIR, "db_blog_posts.json");
+
+function saveBackup(file: string, data: any) {
+  try {
+    if (!fs.existsSync(BACKUP_DIR)) {
+      fs.mkdirSync(BACKUP_DIR, { recursive: true });
+    }
+    fs.writeFileSync(file, JSON.stringify(data, null, 2), "utf-8");
+  } catch (e) {
+    console.error("Error saving mock backup file:", file, e);
+  }
+}
+
 export interface Product {
   id: number;
   name: string;
@@ -2070,6 +2092,7 @@ export async function executeMockQuery(text: string, params: any[] = []): Promis
       published_at: params[5] || new Date().toISOString(),
       created_at: new Date().toISOString()
     });
+    saveBackup(BLOG_POSTS_BACKUP, mockBlogPosts);
     return { rows: [{ id: newId }], rowCount: 1 };
   }
 
@@ -2090,6 +2113,7 @@ export async function executeMockQuery(text: string, params: any[] = []): Promis
       bp.image_url = image_url;
       if (published_at) bp.published_at = published_at;
     }
+    saveBackup(BLOG_POSTS_BACKUP, mockBlogPosts);
     return { rows: [], rowCount: 1 };
   }
 
@@ -2099,6 +2123,7 @@ export async function executeMockQuery(text: string, params: any[] = []): Promis
     if (idx !== -1) {
       mockBlogPosts.splice(idx, 1);
     }
+    saveBackup(BLOG_POSTS_BACKUP, mockBlogPosts);
     return { rows: [], rowCount: 1 };
   }
 
@@ -2353,6 +2378,7 @@ export async function executeMockQuery(text: string, params: any[] = []): Promis
         created_at: new Date().toISOString()
       });
     }
+    saveBackup(CUSTOMERS_BACKUP, mockCustomers);
     return { rows: [], rowCount: 1 };
   }
 
@@ -2374,6 +2400,7 @@ export async function executeMockQuery(text: string, params: any[] = []): Promis
       created_at: new Date().toISOString()
     };
     mockOrders.push(newOrder);
+    saveBackup(ORDERS_BACKUP, mockOrders);
     return { rows: [{ id: newId }], rowCount: 1 };
   }
 
@@ -2389,6 +2416,7 @@ export async function executeMockQuery(text: string, params: any[] = []): Promis
       unit_price: params[4],
       total_price: params[5]
     });
+    saveBackup(ORDER_ITEMS_BACKUP, mockOrderItems);
     return { rows: [], rowCount: 1 };
   }
 
@@ -2400,6 +2428,7 @@ export async function executeMockQuery(text: string, params: any[] = []): Promis
     if (order) {
       order.status = status;
     }
+    saveBackup(ORDERS_BACKUP, mockOrders);
     return { rows: [], rowCount: 1 };
   }
 
@@ -2425,6 +2454,7 @@ export async function executeMockQuery(text: string, params: any[] = []): Promis
       nutrition_moisture: params[14],
       created_at: new Date().toISOString()
     });
+    saveBackup(PRODUCTS_BACKUP, mockProducts);
     return { rows: [{ id: newId }], rowCount: 1 };
   }
 
@@ -2440,6 +2470,7 @@ export async function executeMockQuery(text: string, params: any[] = []): Promis
       in_stock: true,
       last_updated: new Date().toISOString()
     });
+    saveBackup(PRICES_BACKUP, mockStorePrices);
     return { rows: [], rowCount: 1 };
   }
 
@@ -2452,6 +2483,7 @@ export async function executeMockQuery(text: string, params: any[] = []): Promis
       sp.price = price;
       sp.last_updated = new Date().toISOString();
     }
+    saveBackup(PRICES_BACKUP, mockStorePrices);
     return { rows: [], rowCount: 1 };
   }
 
@@ -2483,6 +2515,7 @@ export async function executeMockQuery(text: string, params: any[] = []): Promis
       p.nutrition_fibre = params[13];
       p.nutrition_moisture = params[14];
     }
+    saveBackup(PRODUCTS_BACKUP, mockProducts);
     return { rows: [], rowCount: 1 };
   }
 
@@ -2499,10 +2532,54 @@ export async function executeMockQuery(text: string, params: any[] = []): Promis
         mockStorePrices.splice(i, 1);
       }
     }
+    saveBackup(PRODUCTS_BACKUP, mockProducts);
+    saveBackup(PRICES_BACKUP, mockStorePrices);
     return { rows: [], rowCount: 1 };
   }
 
   // 10. Fallback for unhandled/general queries (just print warning and return empty)
   console.warn("⚠️ Unhandled mock query:", text, "with params:", params);
   return { rows: [], rowCount: 0 };
+}
+
+// RESTORE MOCK DATABASES ON MODULE LOAD
+function loadBackup<T>(file: string): T[] | null {
+  try {
+    if (fs.existsSync(file)) {
+      return JSON.parse(fs.readFileSync(file, 'utf-8'));
+    }
+  } catch (e) {
+    console.error("Error loading mock backup file:", file, e);
+  }
+  return null;
+}
+
+const backedProducts = loadBackup<Product>(PRODUCTS_BACKUP);
+if (backedProducts) {
+  mockProducts.splice(0, mockProducts.length, ...backedProducts);
+}
+
+const backedPrices = loadBackup<StorePrice>(PRICES_BACKUP);
+if (backedPrices) {
+  mockStorePrices.splice(0, mockStorePrices.length, ...backedPrices);
+}
+
+const backedCustomers = loadBackup<Customer>(CUSTOMERS_BACKUP);
+if (backedCustomers) {
+  mockCustomers.splice(0, mockCustomers.length, ...backedCustomers);
+}
+
+const backedOrders = loadBackup<Order>(ORDERS_BACKUP);
+if (backedOrders) {
+  mockOrders.splice(0, mockOrders.length, ...backedOrders);
+}
+
+const backedOrderItems = loadBackup<OrderItem>(ORDER_ITEMS_BACKUP);
+if (backedOrderItems) {
+  mockOrderItems.splice(0, mockOrderItems.length, ...backedOrderItems);
+}
+
+const backedBlogPosts = loadBackup<any>(BLOG_POSTS_BACKUP);
+if (backedBlogPosts) {
+  mockBlogPosts.splice(0, mockBlogPosts.length, ...backedBlogPosts);
 }
