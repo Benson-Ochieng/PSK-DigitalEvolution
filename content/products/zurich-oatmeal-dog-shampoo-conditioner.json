@@ -1,0 +1,92 @@
+{
+  "id": 1827,
+  "name": "Zurich Flea & Tick - Oatmeal Dog Shampoo & Conditioner",
+  "slug": "zurich-oatmeal-dog-shampoo-conditioner",
+  "sku": "DOSCFT400",
+  "onSale": false,
+  "price": 1160,
+  "regularPrice": 1160,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/04/PetStore-Kenya-Zurich-Pet-Shampoo-Conditioner-Oatmeal-1080x1080-min.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2362,
+      "name": "Dog Healthcare Supplies",
+      "slug": "dog-healthcare-supplies"
+    },
+    {
+      "id": 2363,
+      "name": "Flea & Tick Control",
+      "slug": "dog-flea-tick"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1149,
+      "name": "flea & tick",
+      "slug": "flea-tick"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 675,
+      "name": "sensitive skin",
+      "slug": "sensitive-skin"
+    },
+    {
+      "id": 2025,
+      "name": "shampoo",
+      "slug": "shampoo"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=1827",
+  "shortDescription": "Zurich Flea & Tick Oatmeal Dog Shampoo & Conditioner, pH balanced formulation for all skin types. Enriched with oatmeal to naturally soothe and moisturise dry, irritated skin.",
+  "description": "Zurich Flea & Tick Oatmeal Dog Shampoo & Conditioner, pH balanced formulation for all skin types. Enriched with oatmeal to naturally soothe and moisturise dry, irritated skin. Gentle enough for the most delicate breeds. Use regularly to enhance your dog's coat and discourage fleas and ticks.",
+  "images": [
+    {
+      "id": 1855,
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/04/PetStore-Kenya-Zurich-Pet-Shampoo-Conditioner-Oatmeal-1080x1080-min.png",
+      "alt": "PetStore Kenya Zurich Pet Shampoo Conditioner Oatmeal 1080x1080 min",
+      "name": "PetStore Kenya Zurich Pet Shampoo Conditioner Oatmeal 1080&#215;1080 min"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": 10,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/zurich-oatmeal-dog-shampoo-conditioner/?add-to-cart=1827",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2019-03-25T14:31:14",
+  "dateModified": "2026-05-06T17:06:16",
+  "brand": null,
+  "weight_kg": 0.5,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/04/PetStore-Kenya-Zurich-Pet-Shampoo-Conditioner-Oatmeal-1080x1080-min.png"
+}

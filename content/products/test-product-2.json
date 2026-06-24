@@ -1,0 +1,55 @@
+{
+  "id": 89151,
+  "name": "Test product",
+  "slug": "test-product-2",
+  "sku": "PSK-89151",
+  "onSale": false,
+  "price": 1,
+  "regularPrice": 1,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "/images/psk_logo.png",
+  "categories": [
+    {
+      "id": 1790,
+      "name": "Donate",
+      "slug": "donate"
+    },
+    {
+      "id": 2371,
+      "name": "Rabbit",
+      "slug": "rabbit-supplies-store"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1791,
+      "name": "Donate",
+      "slug": "donate"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=89151",
+  "shortDescription": "",
+  "description": "",
+  "images": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/test-product-2/?add-to-cart=89151",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-04-27T10:46:03",
+  "dateModified": "2026-05-13T15:14:42",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "rabbit",
+  "food_type": "dry",
+  "image_url": "/images/psk_logo.png"
+}

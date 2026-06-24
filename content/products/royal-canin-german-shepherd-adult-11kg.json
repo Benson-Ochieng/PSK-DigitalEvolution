@@ -1,0 +1,88 @@
+{
+  "id": 29515,
+  "name": "Royal Canin German Shepherd Adult 11kg",
+  "slug": "royal-canin-german-shepherd-adult-11kg",
+  "sku": "ROC-GESH-001",
+  "onSale": false,
+  "price": 21000,
+  "regularPrice": 21000,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/07/Royal-Canin-German-Shepherd-Adult.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2104,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2423,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 2110,
+      "name": "Medium breeds",
+      "slug": "medium-breeds"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/royal-canin-german-shepherd-adult-11kg/",
+  "shortDescription": "Complete feed for dogs – Specially for adult and mature German Shepherds – Over 15 months old",
+  "description": "Suitable for German Shepherds aged 15 months old and over, ROYAL CANIN? German Shepherd Adult is specially formulated with all the nutritional needs of your adult dog in mind. ROYAL CANIN? German Shepherd Adult contributes to supporting optimal digestive health. This is thanks to the inclusion of highly digestible L.I.P. proteins and a selection of specific fibres that limit intestinal fermentation and simultaneously help to maintain a good balance of intestinal flora. ROYAL CANIN? German Shepherd Adult helps to support the skin's barrier role with a specific complex. It also contains the omega-3 fatty acids EPA & DHA. These nutrients help to nourish and support your dog's healthy skin and coat.The German Shepherd is known for its lively temperament and high level of activity participation. This means a diet containing nutrients that support joint health can help maintain this breed's high activity levels.This is the reason that ROYAL CANIN? German Shepherd Adult is enriched with specific nutrients to help support healthy bones and joints. What's more, this formula also contributes to the maintenance of a healthy weight.",
+  "images": [
+    {
+      "id": 29517,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/07/Royal-Canin-German-Shepherd-Adult.png",
+      "alt": "Royal Caningerman Shepherd Adult 11kg",
+      "name": "Royal Canin German Shepherd Adult"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/royal-canin-german-shepherd-adult-11kg/?add-to-cart=29515",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-07-01T12:57:04",
+  "dateModified": "2026-06-17T05:02:57",
+  "brand": "Royal Canin",
+  "weight_kg": 11,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/07/Royal-Canin-German-Shepherd-Adult.png"
+}

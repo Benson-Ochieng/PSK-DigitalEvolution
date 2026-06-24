@@ -1,0 +1,93 @@
+{
+  "id": 23666,
+  "name": "Royal Canin Renal Cat 4kg",
+  "slug": "renal-cat-4kg",
+  "sku": "ROC-VHNC-021",
+  "onSale": false,
+  "price": 10300,
+  "regularPrice": 10300,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-VHNC-021.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 2104,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2423,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 2319,
+      "name": "Veterinary Range",
+      "slug": "veterinary-range"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=23666",
+  "shortDescription": "ROYAL CANIN? Renal dry is a complete dietetic feed for cats formulated to support renal function in the case of chronic renal insufficiency, through its restricted levels of phosphorus and high-quality proteins. Complete dietetic feed for adult cats.",
+  "description": "ROYAL CANIN? Renal dry is a complete dietetic feed for cats formulated to support renal function in the case of chronic renal insufficiency, through its restricted levels of phosphorus and high-quality proteins. Renal dry is also formulated to reduce oxalate stone formation through its low level of calcium and Vitamin D, and its urine alkalising properties. Recommendations: It is recommended that a veterinarian?s opinion be sought before use or before extending the period of use. Initially feed Renal dry for up to 6 months in cases of chronic renal insufficiency and reduction of oxalate stone formation. Recommended for cases of: Azotemic Chronic Kidney Disease (IRIS stage 2 to stage 4), Management of calcium oxalate urolith recurrence in cats with impaired renal function, Prevention of recurrence of urolithiasis requiring urine alkalinisation: urate & cystine uroliths. Not recommended in case of: Growth, gestation and lactation. This diet is complete and balanced and can be fed long-term. A full health check should be performed by a veterinarian every 6 months. Analytical constituants: Protein 23.0% (min.), Fat 17.0% (min.), Calcium 0.60% (min.), Phosphorus 0.30% (min.), Ash 5.90% (max.), Crude Fiber 4.60% (max.), Moisture 5.50% (max.), EPA/DHA: 0.42%, Carbohydrates (NFE): 44%, Dietary fibre: 10.70%, Omega 3: 0.95%, Omega 6: 3.35%, Sodium: 0.40g, Potassium: 0.90%, Magnesium: 0.07%. Metabolisable energy: 392.10 kcal/100g. Composition: Maize flour, rice, animal fats, wheat gluten**, maize, soya protein isolate*, vegetable fibres, maize gluten, minerals, hydrolysed animal proteins, chicory pulp, fish oil, soya oil, mono - and diglycerides of palmitic and stearic acids esterified with citric acid, psyllium husks and seeds, fructo-oligosaccharides, marigold extract (source of lutein). Protein sources: wheat gluten*, soya protein isolate*, maize gluten, hydrolysed poultry protein. * L.I.P.: protein selected for its very high digestibility.",
+  "images": [
+    {
+      "id": 23688,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-VHNC-021.jpg",
+      "alt": "Royal Canin Renal Cat 4kg",
+      "name": "ROC-VHNC-021.jpg"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/renal-cat-4kg/?add-to-cart=23666",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2021-10-08T11:34:44",
+  "dateModified": "2026-06-17T04:23:42",
+  "brand": "Royal Canin",
+  "weight_kg": 4,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-VHNC-021.jpg"
+}

@@ -1,0 +1,62 @@
+{
+  "id": 68464,
+  "name": "Catnip Ball geen",
+  "slug": "catnip-ball-toy-for-cats",
+  "sku": "CNB001",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/catnip.png",
+  "categories": [
+    {
+      "id": 2342,
+      "name": "Cat Toys",
+      "slug": "cat-toys"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2374,
+      "name": "Interactive cat toys",
+      "slug": "interactive-cat-toys"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=68464",
+  "shortDescription": "Catnip Ball Toy for cats made with natural catnip or silvervine. Stimulates play, reduces boredom, supports dental health, and provides safe mental and physical enrichment.",
+  "description": "The Catnip Ball Toy is a fun, stimulating enrichment toy designed to awaken your cat’s natural instincts and keep them happily engaged. Infused with premium catnip or silvervine, this small but powerful toy stimulates your cat’s senses, encouraging playful behaviors such as rolling, rubbing, batting, chasing, and chewing. The irresistible scent activates your cat’s olfactory system, helping to promote both physical activity and mental stimulation. Ideal for indoor or outdoor use, catnip balls help reduce boredom, relieve stress, and support a healthier, more active lifestyle—especially for indoor cats. Many catnip balls are made from non-toxic, edible, or 100% natural ingredients , making them safe even if your cat chews or licks the toy. Some designs also support dental health by gently cleaning teeth and massaging gums during play. Key Benefits Stimulates Play & Exercise: Encourages chasing, pouncing, and batting for daily physical activity Mental Enrichment: Helps reduce boredom, stress, and anxiety Supports Dental Health: Chewing action may help clean teeth and massage gums Safe & Natural: Made from non-toxic materials and natural catnip or silvervine Versatile Use: Suitable for independent play indoors or outdoors Types Available Traditional Catnip Balls: Lightweight balls filled entirely with catnip Silvervine or Mixed Balls: Enhanced stimulation for cats less responsive to catnip Interactive or Wall-Mounted Balls: Adds variety and engagement to playtime Jumbo Catnip Balls: Larger sizes that combine play with edible enjoyment Usage Tips Introduce one catnip ball at a time and supervise initial play sessions. Rotate toys regularly to maintain interest, as prolonged exposure may reduce the catnip’s effect. Perfect for cats of all ages, the Catnip Ball Toy is an easy and effective way to enrich your cat’s daily routine while keeping playtime exciting and rewarding 🐾 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
+  "images": [
+    {
+      "id": 68465,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/catnip.png",
+      "alt": "Catnip Ball geen",
+      "name": "catnip"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": false,
+  "addToCartUrl": "https://petstore.co.ke/product/catnip-ball-toy-for-cats/?add-to-cart=68464",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-01-23T09:04:28",
+  "dateModified": "2026-05-06T17:12:27",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/catnip.png"
+}

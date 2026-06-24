@@ -1,0 +1,99 @@
+{
+  "id": 14029,
+  "name": "PetStore Kenya 6ft Double Handle Dog Leash - Brown Leather Accent",
+  "slug": "petstore-kenya-6ft-double-handle-dog-leash-brown-leather-accent",
+  "sku": "ACLEAD01",
+  "onSale": false,
+  "price": 2600,
+  "regularPrice": 2600,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/06/PSK-Dog-Leashes-1080x1080-1-c.png",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2351,
+      "name": "Collars, Leashes & Harnesses",
+      "slug": "dog-collars-leashes-and-harnesses"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2353,
+      "name": "Dog Leashes",
+      "slug": "dog-leashes"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1919,
+      "name": "Leashes",
+      "slug": "leash"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=14029",
+  "shortDescription": "Thoughtfully designed with safety in mind. TWO handles, one at the end of the leash at 6ft and another 1ft from the heavy-duty brass clip. Keep your beloved 4-legged companion safe at all times.",
+  "description": "Brown leather accent, durable nylon leash with heavy-duty brass clip. Thoughtfully designed with safety in mind. TWO handles, one at the end of the leash at 6ft (182cm) and another 1ft (30cm) from the heavy-duty brass clip. Keep your beloved 4-legged companion safe at all times. Great control. Use the long leash for casual walks, extended sniffing and loose leash walking. Use the shorter leash for busy walkways, bike paths and crowded areas that require that you have instant, up-close control of your dog. Control dominance and aggression. For all dog sizes.",
+  "images": [
+    {
+      "id": 13881,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/06/PSK-Dog-Leashes-1080x1080-1-c.png",
+      "alt": "PetStore Kenya 6ft Double Handle Dog Leash - Brown Leather Accent",
+      "name": "PSK Dog Leashes 1080&#215;1080 1 (c)"
+    },
+    {
+      "id": 13882,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/06/PSK-Dog-Leashes-1080x1080-2-c.png",
+      "alt": "PetStore Kenya 6ft Double Handle Dog Leash - Brown Leather Accent",
+      "name": "PSK Dog Leashes 1080&#215;1080 2 (c)"
+    },
+    {
+      "id": 13883,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/06/PSK-Dog-Leashes-1080x1080-3-c.png",
+      "alt": "PetStore Kenya 6ft Double Handle Dog Leash - Brown Leather Accent",
+      "name": "PSK Dog Leashes 1080&#215;1080 3 (c)"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/petstore-kenya-6ft-double-handle-dog-leash-brown-leather-accent/?add-to-cart=14029",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2020-07-01T10:57:33",
+  "dateModified": "2026-05-06T17:06:36",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/06/PSK-Dog-Leashes-1080x1080-1-c.png"
+}

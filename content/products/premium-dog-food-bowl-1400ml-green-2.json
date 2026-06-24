@@ -1,0 +1,87 @@
+{
+  "id": 40897,
+  "name": "Premium Dog Food Bowl 1400mlgeen",
+  "slug": "premium-dog-food-bowl-1400ml-green-2",
+  "sku": "DFB1400G@F",
+  "onSale": true,
+  "price": 256,
+  "regularPrice": 850,
+  "salePrice": 256,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/DFB1400G.jpg",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2366,
+      "name": "Dog Bowls & Feeders",
+      "slug": "dog-bowls-feeders"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2072,
+      "name": "Bowls",
+      "slug": "bowls"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=40897",
+  "shortDescription": "Premium Curved Dog Food Bowl 1400ml – Green",
+  "description": "Premium Curved Dog Food Bowl 1400ml - Green",
+  "images": [
+    {
+      "id": 18009,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/DFB1400G.jpg",
+      "alt": "Premium Dog Food Bowl 1400mlgeen",
+      "name": "DFB1400G"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/premium-dog-food-bowl-1400ml-green-2/?add-to-cart=40897",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-11-09T07:51:24",
+  "dateModified": "2026-05-06T17:09:02",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/DFB1400G.jpg"
+}

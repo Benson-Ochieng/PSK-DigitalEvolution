@@ -1,0 +1,72 @@
+{
+  "id": 38185,
+  "name": "Generic Feeding Bowl And Bottle Set",
+  "slug": "generic-feeding-bowl-and-bottle-set-2",
+  "sku": "PZFBBS01",
+  "onSale": false,
+  "price": 900,
+  "regularPrice": 900,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/07/Generic-feeding-bowl-and-bottle-set.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2344,
+      "name": "Cat Bowls & Feeders",
+      "slug": "cat-bowls-and-feeders"
+    },
+    {
+      "id": 2096,
+      "name": "Generic",
+      "slug": "generic"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2072,
+      "name": "Bowls",
+      "slug": "bowls"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=38185",
+  "shortDescription": "Dual Use Pet Bowl for Eating and Drinking Available in pink, Blue and Grey",
+  "description": "Dual Use Pet Bowl for Eating and Drinking Made of 100% food grade material, non-toxic, high temperature resistant, no odor, strong plasticity, fold-able, clean and sanitary, no harm to your pets, safe to use! Two cat food dishes can be fed with two different food at one time dry food or wet food or a little water. Meet the dual needs of feeding pets simultaneously. It can stably control the water level and realize the automatic water supply. The water bottle capacity is 500ml and enough to drink 2-3 days for your pet. Perfect for pet parents with busy lifestyles. This feeder is not only fashion and beautiful, but perfectly matches any decoration style. This is a great choice for pet feeding.",
+  "images": [
+    {
+      "id": 38186,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/07/Generic-feeding-bowl-and-bottle-set.jpg",
+      "alt": "Generic Feeding Bowl And Bottle Set",
+      "name": "Generic feeding bowl and bottle set"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/generic-feeding-bowl-and-bottle-set-2/?add-to-cart=38185",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-07-05T16:57:46",
+  "dateModified": "2026-05-06T17:08:45",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/07/Generic-feeding-bowl-and-bottle-set.jpg"
+}

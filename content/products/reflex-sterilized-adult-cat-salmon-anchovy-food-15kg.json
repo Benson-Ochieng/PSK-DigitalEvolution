@@ -1,0 +1,93 @@
+{
+  "id": 41085,
+  "name": "Reflex Sterilized Adult Cat Salmon & Anchovy Food 15kg",
+  "slug": "reflex-sterilized-adult-cat-salmon-anchovy-food-15kg",
+  "sku": "RCD018",
+  "onSale": false,
+  "price": 13000,
+  "regularPrice": 13000,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/11/Untitled-design.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2343,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 637,
+      "name": "kibble",
+      "slug": "kibble"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=41085",
+  "shortDescription": "Reflex Adult cat food with salmon and anchovy is a complete and balanced premium cat food containing salmon protein, carefully formulated by a cat nutrionists to meet the daily nutritional needs of all adult cats.",
+  "description": "Reflex Adult cat food with salmon and anchovy is a complete and balanced premium cat food containing salmon protein, carefully formulated by a cat nutrionists to meet the daily nutritional needs of all adult cats. Ingredients: Dried animal protein, Cereals, Chicken fat, Dried Salmon Protein (20%), Dried Anchovy Protein (20%), Corn gluten, Dried sugar beet, Wheat bran, Fish flavour, Salmon oil, Anchovy oil, Vitamins and minerals, Flaxseed, Brewer's yeast, Salt, MOS (Mannan Oligosaccharide), Yucca schidigera, Taurine (3A370), Preservatives - antioxidants (E320 & E321). Minerals: Iron 200 mg/kg Iodine 1.5 mg/kg Copper 13 mg/kg Manganese 50 mg/kg Zinc 140 mg/kg Selenium 0.3 mg/kg Vitamins: Vitamin A 18000 IU/kg Vitamin D3 1500 IU/kg Vitamin E 200 mg/kg Vitamin C 400 mg/kg Vitamin K3 200 mg/kg Choline 3500 mg/kg Taurine 1500 mg/kg B3 (Niacin) Vitamin B2 Vitamin B1 B7 (Biotin) B9 (Folic Acid) Vitamin B12 Nutrient Components Crude Protein 32% Raw oil 15% Ash 8% Crude Cellulose (Fibre) 3% &nbsp; Nutritious Supplements Vitamin A (3A672A) 18,000 IU/kg Vitamin D3 (3A671) 1,500 IU/kg Vitamin E (3A700) 200mg/kg Vitamin C (3A300) 200mg/kg Taurine (3A370) 1500mg/kg Vitamin K3 (3A710) 200mg/kg Choline(3A890) 3,500 mg/kg",
+  "images": [
+    {
+      "id": 41078,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/11/Untitled-design.png",
+      "alt": "Reflex Sterilized Adult Cat Salmon & Anchovy Food 15kg",
+      "name": "Untitled design"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-sterilized-adult-cat-salmon-anchovy-food-15kg/?add-to-cart=41085",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-11-14T16:27:57",
+  "dateModified": "2026-05-06T17:09:06",
+  "brand": "Reflex",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/11/Untitled-design.png"
+}

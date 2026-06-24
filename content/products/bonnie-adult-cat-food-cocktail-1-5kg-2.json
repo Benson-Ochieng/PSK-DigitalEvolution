@@ -1,0 +1,63 @@
+{
+  "id": 50762,
+  "name": "Bonnie Adult Cat Food - Cocktail 1.5kg",
+  "slug": "bonnie-adult-cat-food-cocktail-1-5kg-2",
+  "sku": "BCD004@F",
+  "onSale": true,
+  "price": 1288,
+  "regularPrice": 1840,
+  "salePrice": 1288,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2017/07/Bonnie-Adult-Cat-Cocktail-min.png",
+  "categories": [
+    {
+      "id": 177,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2428,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2223,
+      "name": "flash",
+      "slug": "flash"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=50762",
+  "shortDescription": "Full-balanced, chicken protein-containing cat food carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult breeds.",
+  "description": "Bonnie Cocktail Adult Cat food , full-balanced, chicken protein-containing cat food carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult breeds. Chicken meal has been used as animal protein source. The balance of omega 3 & 6 is provided by using flaxseed . Yucca plant provides ammonia and odour control, increase absorption of nutrients, strengthens the immune system and optimises animal growth and performance. A good intestinal health and performance is provided by CitriStim which is a source of pathogen-binding manna oligsacharrides , beta-glucans and immune-supportive yeast. Healthy skin and shiny coat is supported by using brewer?s yeast . Muscles, organs and nerve cells are supported and the immune system strengthened by using whey powder . Rich vitamin contents. NUTRIENT COMPONENTS Protein ................. 32% Fat ..................... 12% Crude Cellulose (Fiber) . 3% INGREDIENTS: Processed Animal Protein (Chicken), Wheat, Corn, Animal Fat, Wheat Middlings, Corn Gluten, Dried Sugar Beet, Chicken Liver Aroma, Salt, Flaxseed, Dried Brewer's Yeast, Taurine. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
+  "images": [
+    {
+      "id": 656,
+      "src": "https://petstore.co.ke/wp-content/uploads/2017/07/Bonnie-Adult-Cat-Cocktail-min.png",
+      "alt": "Bonnie Adult Cat Cocktail min",
+      "name": "Bonnie Adult Cat Cocktail min"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": false,
+  "addToCartUrl": "https://petstore.co.ke/product/bonnie-adult-cat-food-cocktail-1-5kg-2/?add-to-cart=50762",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2024-10-13T11:34:34",
+  "dateModified": "2026-06-17T04:32:52",
+  "brand": "Bonnie",
+  "weight_kg": 1.5,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2017/07/Bonnie-Adult-Cat-Cocktail-min.png"
+}

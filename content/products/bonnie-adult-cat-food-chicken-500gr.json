@@ -1,0 +1,57 @@
+{
+  "id": 52773,
+  "name": "Bonnie Adult Cat Food Chicken 500g",
+  "slug": "bonnie-adult-cat-food-chicken-500gr",
+  "sku": "BCD001@F",
+  "onSale": true,
+  "price": 407,
+  "regularPrice": 690,
+  "salePrice": 407,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/09/Bonnie-Adult-Cat-Chicken-500g-min.png",
+  "categories": [
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2223,
+      "name": "flash",
+      "slug": "flash"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=52773",
+  "shortDescription": "",
+  "description": "",
+  "images": [
+    {
+      "id": 3403,
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/09/Bonnie-Adult-Cat-Chicken-500g-min.png",
+      "alt": "Bonnie Adult Cat Chicken 500g min",
+      "name": "Bonnie Adult Cat Chicken 500g min"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": false,
+  "addToCartUrl": "https://petstore.co.ke/product/bonnie-adult-cat-food-chicken-500gr/?add-to-cart=52773",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2025-01-16T17:04:44",
+  "dateModified": "2026-05-06T17:10:54",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/09/Bonnie-Adult-Cat-Chicken-500g-min.png"
+}

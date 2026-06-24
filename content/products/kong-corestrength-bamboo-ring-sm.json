@@ -1,0 +1,93 @@
+{
+  "id": 25004,
+  "name": "KONG CoreStrength Bamboo Ring (Sm)",
+  "slug": "kong-corestrength-bamboo-ring-sm",
+  "sku": "BMB31",
+  "onSale": false,
+  "price": 1280,
+  "regularPrice": 1280,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/BMB11.jpg",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2031,
+      "name": "Kong",
+      "slug": "kong-accessories"
+    },
+    {
+      "id": 2064,
+      "name": "Rogz",
+      "slug": "rogz"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=25004",
+  "shortDescription": "KONG CoreStrength Bamboo?s durable, bamboo-infused material entices chewing while providing long-lasting fun. Raised nubs and textures reward appropriate behaviour while having the benefit of cleaning teeth.",
+  "description": "KONGCoreStrength Bamboo?s durable, bamboo-infused material entices chewing while providing long-lasting fun. Raised nubs and textures reward appropriate behaviour while having the benefit of cleaning teeth. Ideal for dogs that can?t spend enough time chewing, the unique design fulfills desires while looking great in the household. Durable bamboo material satisfies instinctual chewing needs Natural aroma entices and rewards engagement Raised nubs and ridges help clean teeth and gums",
+  "images": [
+    {
+      "id": 25002,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/BMB11.jpg",
+      "alt": "KONG CoreStrength Bamboo Ring (Sm)",
+      "name": "BMB11"
+    },
+    {
+      "id": 25003,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/BMB31_.jpg",
+      "alt": "KONG CoreStrength Bamboo Ring (Sm)",
+      "name": "BMB31_"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/kong-corestrength-bamboo-ring-sm/?add-to-cart=25004",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-01-27T16:57:38",
+  "dateModified": "2026-05-06T17:07:57",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/BMB11.jpg"
+}

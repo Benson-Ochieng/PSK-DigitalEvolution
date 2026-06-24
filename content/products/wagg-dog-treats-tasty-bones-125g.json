@@ -1,0 +1,82 @@
+{
+  "id": 56844,
+  "name": "Wagg Dog Treats Tasty Bones 125g",
+  "slug": "wagg-dog-treats-tasty-bones-125g",
+  "sku": "WDTTBASTY",
+  "onSale": false,
+  "price": 495,
+  "regularPrice": 495,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-66.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 2350,
+      "name": "Puppy Food",
+      "slug": "puppy-food"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2106,
+      "name": "Puppy food",
+      "slug": "puppy-food"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/wagg-dog-treats-tasty-bones-125g/",
+  "shortDescription": "Wagg Tasty Bones Oven baked meaty bone shaped treats with chicken and liver for a seriously tasty treat.",
+  "description": "Enriched with Vitamins & Minerals With Chicken & Liver Chicken Liver Gravy for Extra Tastiness For Great Oven Baked Natural Taste No Added Sugar",
+  "images": [
+    {
+      "id": 56845,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-66.png",
+      "alt": "Wagg Dog Training Treats 125g",
+      "name": "Untitled design (66)"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": 5,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/wagg-dog-treats-tasty-bones-125g/?add-to-cart=56844",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2025-07-14T14:07:07",
+  "dateModified": "2026-06-17T04:18:47",
+  "brand": null,
+  "weight_kg": 0.125,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-66.png"
+}

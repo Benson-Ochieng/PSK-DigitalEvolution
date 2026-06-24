@@ -1,0 +1,82 @@
+{
+  "id": 41634,
+  "name": "Rogz Dog Grinz-Treat Ball 7.8cm - Orange Large (g04-D)",
+  "slug": "rogz-dog-grinz-treat-ball-7-8cm-orange-large",
+  "sku": "GR04-D",
+  "onSale": false,
+  "price": 1635,
+  "regularPrice": 1635,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/11/GR02-D-Grinz-Orange-420x420-1.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2064,
+      "name": "Rogz",
+      "slug": "rogz"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2227,
+      "name": "Rogz",
+      "slug": "rogz"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-7-8cm-orange-large/",
+  "shortDescription": "Rogz Grinz ball – Pink Large",
+  "description": "Rogz Grinz Ball is a fillable toy ball for dogs. You can fill this ball with any snack of your choosing. When your dog plays with the ball treats will fall out of the toy. This way you can stimulate your dog to stay active. This ball has an image of teeth, which looks very funny when your dog has the ball in its mouth. The Rogz Grinz Ball is available in several sizes and colours. Size: Large 7.8mm",
+  "images": [
+    {
+      "id": 41636,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/11/GR02-D-Grinz-Orange-420x420-1.jpg",
+      "alt": "Rogz Dog Grinz Treat Ball 4.9cm Orange Small (g01-D)",
+      "name": "GR02-D-Grinz-Orange-420&#215;420"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-7-8cm-orange-large/?add-to-cart=41634",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-11-29T10:44:59",
+  "dateModified": "2026-06-04T13:05:16",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/11/GR02-D-Grinz-Orange-420x420-1.jpg"
+}

@@ -1,0 +1,87 @@
+{
+  "id": 27485,
+  "name": "Mpets Squeaky Ball Toy Blue - 6.3 Cm",
+  "slug": "mpets-squeaky-ball-toy-blue-o-6-3-cm",
+  "sku": "MPSB-B",
+  "onSale": false,
+  "price": 700,
+  "regularPrice": 700,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/MPSB-B.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2135,
+      "name": "MPETS",
+      "slug": "mpets"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1034,
+      "name": "large breed",
+      "slug": "large-breed"
+    },
+    {
+      "id": 2109,
+      "name": "Small breeds",
+      "slug": "small-breeds"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27485",
+  "shortDescription": "Mpets Squeaky Ball Blue – ? 6.3 Cm",
+  "description": "Mpets Squeaky Ball (Blue - ? 6.3 cm)",
+  "images": [
+    {
+      "id": 27413,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPSB-B.jpg",
+      "alt": "Mpets Squeaky Ball Toy Blue - 6.3 Cm",
+      "name": "MPSB-B"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/mpets-squeaky-ball-toy-blue-o-6-3-cm/?add-to-cart=27485",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-04-20T16:20:27",
+  "dateModified": "2026-05-06T17:08:09",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPSB-B.jpg"
+}

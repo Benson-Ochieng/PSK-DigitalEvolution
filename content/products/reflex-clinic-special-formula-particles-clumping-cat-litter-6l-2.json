@@ -1,0 +1,87 @@
+{
+  "id": 35910,
+  "name": "Reflex Clinic - Special Formula Particles Clumping Cat Litter 6l",
+  "slug": "reflex-clinic-special-formula-particles-clumping-cat-litter-6l-2",
+  "sku": "RCL004",
+  "onSale": false,
+  "price": 1940,
+  "regularPrice": 1940,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/03/REFLEX-CLINIC-SPECIAL-FORMULA-PARTICLES-CLUMPING-CAT-LITTER-6L.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    },
+    {
+      "id": 2331,
+      "name": "Litter and Litter Box & Accessories",
+      "slug": "cat-litter-and-accessories"
+    },
+    {
+      "id": 2333,
+      "name": "Litter Boxes",
+      "slug": "cat-litter-boxes"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 819,
+      "name": "cat litter",
+      "slug": "cat-litter"
+    },
+    {
+      "id": 2119,
+      "name": "cat litter box",
+      "slug": "cat-litter-box"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=35910",
+  "shortDescription": "Thanks to the “specially formulated particles” added to the product, Reflex Clinic Cat Litter helps to prevent biological organism-based diseases that may occur with the urine and feces of cats that are fed and sheltered in home and indoor environments.",
+  "description": "Biological organisms, when in contact with cat urine or feces, can invite many diseases for both our cats and us animal lovers. Thanks to the \"specially formulated particles\" added to the product, Reflex Clinic Cat Litter helps to prevent biological organism-based diseases that may occur with the urine and feces of cats that are fed and sheltered in home and indoor environments.",
+  "images": [
+    {
+      "id": 50283,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/03/REFLEX-CLINIC-SPECIAL-FORMULA-PARTICLES-CLUMPING-CAT-LITTER-6L.png",
+      "alt": "Reflex Clinic - Special Formula Particles Clumping Cat Litter 6l",
+      "name": "REFLEX CLINIC- SPECIAL FORMULA PARTICLES CLUMPING CAT LITTER 6L"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-clinic-special-formula-particles-clumping-cat-litter-6l-2/?add-to-cart=35910",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-03-23T12:50:11",
+  "dateModified": "2026-05-06T17:08:34",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/03/REFLEX-CLINIC-SPECIAL-FORMULA-PARTICLES-CLUMPING-CAT-LITTER-6L.png"
+}

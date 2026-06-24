@@ -1,0 +1,57 @@
+{
+  "id": 52803,
+  "name": "Reflex Pocket Treats Sensitive 60g",
+  "slug": "reflex-pocket-treats-sensitive-60gr",
+  "sku": "RCT020@F",
+  "onSale": true,
+  "price": 228,
+  "regularPrice": 350,
+  "salePrice": 228,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CAT-POCKET-TREAT-SENSITIVE-60GR.png",
+  "categories": [
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2223,
+      "name": "flash",
+      "slug": "flash"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=52803",
+  "shortDescription": "",
+  "description": "",
+  "images": [
+    {
+      "id": 51540,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CAT-POCKET-TREAT-SENSITIVE-60GR.png",
+      "alt": "Reflex Cat Pocket Treat Sensitive 60g",
+      "name": "REFLEX CAT POCKET TREAT SENSITIVE 60GR"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": false,
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-pocket-treats-sensitive-60gr/?add-to-cart=52803",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2025-01-16T17:05:08",
+  "dateModified": "2026-05-06T17:11:01",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CAT-POCKET-TREAT-SENSITIVE-60GR.png"
+}

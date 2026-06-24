@@ -1,0 +1,77 @@
+{
+  "id": 27030,
+  "name": "Cats best Original 10L",
+  "slug": "cats-best-original-10l",
+  "sku": "CBCL001",
+  "onSale": false,
+  "price": 1250,
+  "regularPrice": 1250,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/CBCL001.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    },
+    {
+      "id": 2331,
+      "name": "Litter and Litter Box & Accessories",
+      "slug": "cat-litter-and-accessories"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 819,
+      "name": "cat litter",
+      "slug": "cat-litter"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27030",
+  "shortDescription": "Cat's best is a clumping encapsulting cat litter that stops odours, naturally and actively. As a clumping cat litter, Cat?s Best Original uses the natural power of active wood fibres, which effectively absorb liquids and odours – up to seven times their own volume, and trap them deep inside.",
+  "description": "Cat?s Best Original uses the power of technologically refined active wood fibres as a clumping litter. These are manufactured using the new ICS Wood Fibre Technology** process. Liquids and odours are absorbed particularly effectively and encapsulated deep inside ? up to 7 times their own weight. Therefore Cat?s Best Original can remain in the litter box for up to 5 weeks before a complete change is necessary.",
+  "images": [
+    {
+      "id": 27009,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/CBCL001.jpg",
+      "alt": "Cats best Original 10L",
+      "name": "CBCL001"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/cats-best-original-10l/?add-to-cart=27030",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-04-20T16:20:53",
+  "dateModified": "2026-05-06T17:08:03",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/CBCL001.jpg"
+}

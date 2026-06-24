@@ -1,0 +1,62 @@
+{
+  "id": 38267,
+  "name": "Double Row Rake Lg",
+  "slug": "double-row-rake-lg",
+  "sku": "PZDRRL1",
+  "onSale": false,
+  "price": 1400,
+  "regularPrice": 1400,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/09/DOUBLE-ROW-RAKE.png",
+  "categories": [
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2098,
+      "name": "Grooming & Tools",
+      "slug": "grooming-tools"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=38267",
+  "shortDescription": "Double Row Undercoat Pet Rake Grooming Brush for Dogs and Cats",
+  "description": "Double Row Undercoat Pet Rake Grooming Brush for Dogs and Cats",
+  "images": [
+    {
+      "id": 39645,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/09/DOUBLE-ROW-RAKE.png",
+      "alt": "Double Row Rake Lg",
+      "name": "DOUBLE ROW RAKE"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/double-row-rake-lg/?add-to-cart=38267",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-09-13T12:50:21",
+  "dateModified": "2026-05-06T17:08:46",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/09/DOUBLE-ROW-RAKE.png"
+}

@@ -70,58 +70,58 @@ const DRAWER_MENU_ITEMS = [
     subItems: [
       {
         name: "Cat Food & Treats",
-        path: "/shop?animal=cat&type=food",
+        path: "/product-category/cat-food-and-treats/",
         subItems: [
-          { name: "Dry Cat Food", path: "/shop?animal=cat&type=food&sub=dry" },
-          { name: "Wet Cat Food", path: "/shop?animal=cat&type=food&sub=wet" },
-          { name: "Cat Treats & Catnip", path: "/shop?animal=cat&type=treats" },
-          { name: "Milk Replacers", path: "/shop?animal=cat&type=food&sub=milk" },
+          { name: "Dry Cat Food", path: "/product-category/dry-cat-food/" },
+          { name: "Wet Cat Food", path: "/product-category/wet-cat-food/" },
+          { name: "Cat Treats & Catnip", path: "/product-category/cat-treats/" },
+          { name: "Milk Replacers", path: "/product-category/cat-milk-replacers/" },
           { name: "Kitten Food", path: "/product-category/kitten-food/" }
         ]
       },
       {
         name: "Cat Litter & Litter Boxes",
-        path: "/shop?animal=cat&type=litter",
+        path: "/product-category/cat-litter-and-accessories/",
         subItems: [
-          { name: "Cat Litter", path: "/shop?animal=cat&type=litter" },
-          { name: "Litter Boxes & Scoops", path: "/shop?animal=cat&type=litter-accessories" }
+          { name: "Cat Litter", path: "/product-category/cat-litter/" },
+          { name: "Litter Boxes & Scoops", path: "/product-category/cat-litter-boxes/" }
         ]
       },
       {
         name: "Flea, Tick & Worm Treatment",
-        path: "/shop?animal=cat&type=treatment",
+        path: "/product-category/cat-flea-tick/",
         subItems: [
-          { name: "Dewormers", path: "/shop?animal=cat&type=treatment&sub=dewormer" },
-          { name: "Flea & Tick Sprays, Collars", path: "/shop?animal=cat&type=treatment&sub=flea-tick" }
+          { name: "Dewormers", path: "/product-category/cat-dewormers/" },
+          { name: "Flea & Tick Sprays, Collars", path: "/product-category/cat-flea-tick/" }
         ]
       },
       {
         name: "Health & Grooming",
-        path: "/shop?animal=cat&type=grooming",
+        path: "/product-category/cat-grooming/",
         subItems: [
-          { name: "Grooming Tools", path: "/shop?animal=cat&type=grooming&sub=tools" },
-          { name: "Shampoo & Deodorizers", path: "/shop?animal=cat&type=grooming&sub=shampoo" },
-          { name: "Supplements & Vitamins", path: "/shop?animal=cat&type=supplements" }
+          { name: "Grooming Tools", path: "/product-category/cat-grooming/" },
+          { name: "Shampoo & Deodorizers", path: "/product-category/cat-grooming/" },
+          { name: "Supplements & Vitamins", path: "/product-category/cat-healthcare/" }
         ]
       },
       {
         name: "Cat Accessories & Bowls",
-        path: "/shop?animal=cat&type=accessories",
+        path: "/product-category/cat-collars-leashes-harnesses/",
         subItems: [
-          { name: "Collars, Leashes & Harnesses", path: "/shop?animal=cat&type=accessories&sub=collars" },
-          { name: "Cat Toys", path: "/shop?animal=cat&type=toys" },
-          { name: "Cat Bowls & Feeders", path: "/shop?animal=cat&type=bowls" },
+          { name: "Collars, Leashes & Harnesses", path: "/product-category/cat-collars-leashes-harnesses/" },
+          { name: "Cat Toys", path: "/product-category/cat-toys/" },
+          { name: "Cat Bowls & Feeders", path: "/product-category/cat-bowls-and-feeders/" },
           {
             name: "Cat Beds, Scratchers & Carriers",
-            path: "/shop?animal=cat&type=beds-carriers",
+            path: "/product-category/cat-beds-houses/",
             subItems: [
-              { name: "Beds", path: "/shop?animal=cat&type=beds-carriers&sub=beds" },
-              { name: "Carriers", path: "/shop?animal=cat&type=beds-carriers&sub=carriers" }
+              { name: "Beds", path: "/product-category/cat-beds-houses/" },
+              { name: "Carriers", path: "/product-category/cat-carriers-travels/" }
             ]
           }
         ]
       },
-      { name: "Cat Scratchers & Trees", path: "/shop?animal=cat&type=scratchers" }
+      { name: "Cat Scratchers & Trees", path: "/product-category/cat-beds-houses/" }
     ]
   },
   {
@@ -130,59 +130,59 @@ const DRAWER_MENU_ITEMS = [
     subItems: [
       {
         name: "Dog Food & Treats",
-        path: "/shop?animal=dog&type=food",
+        path: "/product-category/dog-food-treats/",
         subItems: [
-          { name: "Dry Dog Food", path: "/shop?animal=dog&type=food&sub=dry" },
-          { name: "Wet Dog Food", path: "/shop?animal=dog&type=food&sub=wet" },
-          { name: "Dog Treats & Bones", path: "/shop?animal=dog&type=treats" },
+          { name: "Dry Dog Food", path: "/product-category/dry-dog-food/" },
+          { name: "Wet Dog Food", path: "/product-category/wet-dog-food/" },
+          { name: "Dog Treats & Bones", path: "/product-category/dog-treats/" },
           { name: "Puppy Food", path: "/product-category/puppy-food/" }
         ]
       },
       {
         name: "Flea, Tick & Worm Treatment",
-        path: "/shop?animal=dog&type=treatment",
+        path: "/product-category/dog-flea-tick/",
         subItems: [
-          { name: "Dewormers", path: "/shop?animal=dog&type=treatment&sub=dewormer" },
-          { name: "Flea & Tick Spray", path: "/shop?animal=dog&type=treatment&sub=spray" },
-          { name: "Flea & Tick Collars", path: "/shop?animal=dog&type=treatment&sub=collar" },
-          { name: "Flea & Tick Spot On", path: "/shop?animal=dog&type=treatment&sub=spoton" }
+          { name: "Dewormers", path: "/product-category/dog-dewormers/" },
+          { name: "Flea & Tick Spray", path: "/product-category/dog-flea-tick/" },
+          { name: "Flea & Tick Collars", path: "/product-category/dog-flea-tick/" },
+          { name: "Flea & Tick Spot On", path: "/product-category/dog-flea-tick/" }
         ]
       },
       {
         name: "Health & Grooming",
-        path: "/shop?animal=dog&type=grooming",
+        path: "/product-category/dog-grooming-cleaning-supplies/",
         subItems: [
-          { name: "Grooming Tools", path: "/shop?animal=dog&type=grooming&sub=tools" },
-          { name: "Shampoos & Conditioners", path: "/shop?animal=dog&type=grooming&sub=shampoo" },
-          { name: "Supplements & Vitamins", path: "/shop?animal=dog&type=supplements" }
+          { name: "Grooming Tools", path: "/product-category/dog-grooming-cleaning-supplies/" },
+          { name: "Shampoos & Conditioners", path: "/product-category/dog-grooming-cleaning-supplies/" },
+          { name: "Supplements & Vitamins", path: "/product-category/dog-healthcare-supplies/" }
         ]
       },
       {
         name: "Dog Accessories & Collars",
-        path: "/shop?animal=dog&type=accessories",
+        path: "/product-category/dog-collars-leashes-and-harnesses/",
         subItems: [
-          { name: "Collars, Leashes & Harnesses", path: "/shop?animal=dog&type=accessories&sub=collars" },
-          { name: "Dog Toys", path: "/shop?animal=dog&type=toys" },
-          { name: "Dog Bowls & Feeders", path: "/shop?animal=dog&type=bowls" },
-          { name: "Dog Cages, Carriers & Crates", path: "/shop?animal=dog&type=cages" }
+          { name: "Collars, Leashes & Harnesses", path: "/product-category/dog-collars-leashes-and-harnesses/" },
+          { name: "Dog Toys", path: "/product-category/dog-toys/" },
+          { name: "Dog Bowls & Feeders", path: "/product-category/dog-bowls-feeders/" },
+          { name: "Dog Cages, Carriers & Crates", path: "/product-category/dog-carriers-travel-accessories/" }
         ]
       },
-      { name: "Dog Beds", path: "/shop?animal=dog&type=beds" },
+      { name: "Dog Beds", path: "/product-category/dog-beds-furniture/" },
       {
         name: "Dog Training Accessories",
-        path: "/shop?animal=dog&type=training",
+        path: "/product-category/dog-training-accessories/",
         subItems: [
-          { name: "Pee Pads & Diapers", path: "/shop?animal=dog&type=training&sub=pads" },
-          { name: "Training Leashes & Collars", path: "/shop?animal=dog&type=training&sub=leashes" },
-          { name: "Training Treats", path: "/shop?animal=dog&type=training&sub=treats" }
+          { name: "Pee Pads & Diapers", path: "/product-category/dog-hygiene-potty-solutions/" },
+          { name: "Training Leashes & Collars", path: "/product-category/dog-training-accessories/" },
+          { name: "Training Treats", path: "/product-category/dog-treats/" }
         ]
       },
-      { name: "Dog Feeders & Bowls", path: "/shop?animal=dog&type=bowls" },
+      { name: "Dog Feeders & Bowls", path: "/product-category/dog-bowls-feeders/" },
       {
         name: "Dental Care",
-        path: "/shop?animal=dog&type=dental",
+        path: "/product-category/dental-care/",
         subItems: [
-          { name: "Dental Gels, Sprays & Toothpastes", path: "/shop?animal=dog&type=dental&sub=toothpaste" }
+          { name: "Dental Gels, Sprays & Toothpastes", path: "/product-category/dental-care/" }
         ]
       }
     ]

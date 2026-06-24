@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { query, withTransaction } from "~/db.server";
+import { mockProducts, mockStorePrices, mockCustomers, mockOrders, mockOrderItems } from "~/db.mock";
 
 // WooCommerce configuration
 const CONSUMER_KEY = process.env.WOOCOMMERCE_KEY || "ck_48cbc0db974eb4ef3fac3b8c8065e538508ebf83";
@@ -225,30 +226,26 @@ export async function syncWooCommerceData(): Promise<{ success: boolean; stats: 
   };
 
   try {
-    // 1. Fetch live data
+    // 1. Fetch live products and categories first
     console.log("Fetching products...");
+    if (status.status === "running") {
+      status.progress = "Fetching products from live WooCommerce store...";
+    }
     const rawProducts = await fetchAll<any>("products");
     console.log(`Fetched ${rawProducts.length} products.`);
     stats.productsSynced = rawProducts.length;
 
     console.log("Fetching categories...");
+    if (status.status === "running") {
+      status.progress = "Fetching categories from live WooCommerce store...";
+    }
     const rawCategories = await fetchAll<any>("products/categories");
     console.log(`Fetched ${rawCategories.length} categories.`);
     stats.categoriesSynced = rawCategories.length;
 
-    console.log("Fetching customers...");
-    const rawCustomers = await fetchAll<any>("customers");
-    console.log(`Fetched ${rawCustomers.length} customers.`);
-    stats.customersSynced = rawCustomers.length;
-
-    console.log("Fetching orders...");
-    const rawOrders = await fetchAll<any>("orders");
-    console.log(`Fetched ${rawOrders.length} orders.`);
-    stats.ordersSynced = rawOrders.length;
-
-    // 2. Perform transformations
+    // 2. Perform transformations for products and categories immediately
     if (status.status === "running") {
-      status.progress = "Transforming and preparing data...";
+      status.progress = "Mapping and caching products and categories...";
     }
 
     // Map Categories
@@ -363,7 +360,10 @@ export async function syncWooCommerceData(): Promise<{ success: boolean; stats: 
         dateCreated: p.date_created,
         dateModified: p.date_modified,
         brand: brandName || null,
-        weight_kg: weightVal
+        weight_kg: weightVal,
+        animal_type: animalType,
+        food_type: foodType,
+        image_url: images[0]?.src || "/images/psk_logo.png"
       };
 
       productsDetailList.push(product);
@@ -411,6 +411,122 @@ export async function syncWooCommerceData(): Promise<{ success: boolean; stats: 
           last_updated: new Date().toISOString()
         });
       });
+    }
+
+    console.log("Writing categories to local files...");
+    fs.writeFileSync(path.join(CATEGORIES_DIR, "_index.json"), JSON.stringify(categories, null, 2));
+    for (const cat of categories) {
+      fs.writeFileSync(path.join(CATEGORIES_DIR, `${cat.slug}.json`), JSON.stringify(cat, null, 2));
+    }
+
+    console.log("Writing products to local files...");
+    if (fs.existsSync(PRODUCTS_DIR)) {
+      const files = fs.readdirSync(PRODUCTS_DIR);
+      for (const file of files) {
+        if (file.endsWith(".json")) {
+          try {
+            fs.unlinkSync(path.join(PRODUCTS_DIR, file));
+          } catch (e) {}
+        }
+      }
+    }
+    fs.writeFileSync(path.join(PRODUCTS_DIR, "_index.json"), JSON.stringify(productsSummaryList, null, 2));
+    for (const prod of productsDetailList) {
+      fs.writeFileSync(path.join(PRODUCTS_DIR, `${prod.slug}.json`), JSON.stringify(prod, null, 2));
+    }
+
+    const brandsList = Array.from(brandsSet).map((b, idx) => ({
+      id: idx + 10,
+      name: b,
+      slug: slugify(b),
+      desc: `Premium pet care products from ${b}.`
+    }));
+    fs.writeFileSync(path.join(BRANDS_DIR, "_index.json"), JSON.stringify(brandsList, null, 2));
+
+    // Update in-memory database and local backup files
+    console.log("Updating products & prices in-memory mock database arrays...");
+    fs.writeFileSync(MOCK_PRODUCTS_FILE, JSON.stringify(productsDetailList, null, 2));
+    mockProducts.splice(0, mockProducts.length, ...productsDetailList);
+
+    const pricesDBShape = storePricesList.map((sp, idx) => ({
+      id: idx + 1,
+      product_id: sp.product_id,
+      store_name: sp.store_name,
+      price: sp.price,
+      product_url: sp.product_url,
+      in_stock: sp.in_stock,
+      last_updated: sp.last_updated
+    }));
+    fs.writeFileSync(MOCK_PRICES_FILE, JSON.stringify(pricesDBShape, null, 2));
+    mockStorePrices.splice(0, mockStorePrices.length, ...pricesDBShape);
+
+    // Sync products and prices to PostgreSQL database if connection active
+    try {
+      await withTransaction(async (client) => {
+        console.log("Upserting products into PostgreSQL...");
+        for (const p of productsDetailList) {
+          await client.query(`
+            INSERT INTO products (
+              id, name, brand, weight_kg, animal_type, food_type, image_url, description
+            ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
+            ON CONFLICT (id) DO UPDATE SET
+              name = EXCLUDED.name,
+              brand = EXCLUDED.brand,
+              weight_kg = EXCLUDED.weight_kg,
+              animal_type = EXCLUDED.animal_type,
+              food_type = EXCLUDED.food_type,
+              image_url = EXCLUDED.image_url,
+              description = EXCLUDED.description
+          `, [
+            p.id, p.name, p.brand, p.weight_kg,
+            p.animal_type, p.food_type,
+            p.image_url, p.description
+          ]);
+        }
+
+        console.log("Upserting store prices into PostgreSQL...");
+        const productIds = productsDetailList.map(p => p.id);
+        if (productIds.length > 0) {
+          await client.query(`
+            DELETE FROM store_prices WHERE product_id = ANY($1)
+          `, [productIds]);
+        }
+
+        for (const sp of storePricesList) {
+          await client.query(`
+            INSERT INTO store_prices (
+              product_id, store_name, price, product_url, in_stock, last_updated
+            ) VALUES ($1, $2, $3, $4, $5, $6)
+          `, [
+            sp.product_id, sp.store_name, sp.price,
+            sp.product_url, sp.in_stock, sp.last_updated
+          ]);
+        }
+      });
+    } catch (pgError) {
+      console.warn("Postgres transaction sync for products/prices bypassed or failed:", pgError);
+    }
+
+    // 3. Fetch live customers and orders in the background
+    if (status.status === "running") {
+      status.progress = "Fetching customers from live WooCommerce store...";
+    }
+    console.log("Fetching customers...");
+    const rawCustomers = await fetchAll<any>("customers");
+    console.log(`Fetched ${rawCustomers.length} customers.`);
+    stats.customersSynced = rawCustomers.length;
+
+    if (status.status === "running") {
+      status.progress = "Fetching orders from live WooCommerce store...";
+    }
+    console.log("Fetching orders...");
+    const rawOrders = await fetchAll<any>("orders");
+    console.log(`Fetched ${rawOrders.length} orders.`);
+    stats.ordersSynced = rawOrders.length;
+
+    // 4. Perform transformations for customers and orders
+    if (status.status === "running") {
+      status.progress = "Mapping and caching customers and orders...";
     }
 
     // Map Customers
@@ -494,64 +610,15 @@ export async function syncWooCommerceData(): Promise<{ success: boolean; stats: 
       });
     }
 
-    // 3. PERSISTENCE LAYER: Fallback Local JSON Files
-    if (status.status === "running") {
-      status.progress = "Saving categories and products to local cache files...";
-    }
-
-    console.log("Writing categories to local files...");
-    fs.writeFileSync(path.join(CATEGORIES_DIR, "_index.json"), JSON.stringify(categories, null, 2));
-    for (const cat of categories) {
-      fs.writeFileSync(path.join(CATEGORIES_DIR, `${cat.slug}.json`), JSON.stringify(cat, null, 2));
-    }
-
-    console.log("Writing products to local files...");
-    if (fs.existsSync(PRODUCTS_DIR)) {
-      const files = fs.readdirSync(PRODUCTS_DIR);
-      for (const file of files) {
-        if (file.endsWith(".json")) {
-          try {
-            fs.unlinkSync(path.join(PRODUCTS_DIR, file));
-          } catch (e) {}
-        }
-      }
-    }
-    fs.writeFileSync(path.join(PRODUCTS_DIR, "_index.json"), JSON.stringify(productsSummaryList, null, 2));
-    for (const prod of productsDetailList) {
-      fs.writeFileSync(path.join(PRODUCTS_DIR, `${prod.slug}.json`), JSON.stringify(prod, null, 2));
-    }
-
-    const brandsList = Array.from(brandsSet).map((b, idx) => ({
-      id: idx + 10,
-      name: b,
-      slug: slugify(b),
-      desc: `Premium pet care products from ${b}.`
-    }));
-    fs.writeFileSync(path.join(BRANDS_DIR, "_index.json"), JSON.stringify(brandsList, null, 2));
-
     fs.writeFileSync(USERS_FILE, JSON.stringify(usersList, null, 2));
     fs.writeFileSync(ORDERS_FILE, JSON.stringify(jsonOrdersList, null, 2));
 
-    // 4. PERSISTENCE LAYER: In-Memory / File-backed Mock DB persistence
-    if (status.status === "running") {
-      status.progress = "Updating mock database persistence backup files...";
-    }
-    
-    console.log("Updating mock database backup files...");
-    fs.writeFileSync(MOCK_PRODUCTS_FILE, JSON.stringify(productsDetailList, null, 2));
-    
-    const pricesDBShape = storePricesList.map((sp, idx) => ({
-      id: idx + 1,
-      product_id: sp.product_id,
-      store_name: sp.store_name,
-      price: sp.price,
-      product_url: sp.product_url,
-      in_stock: sp.in_stock,
-      last_updated: sp.last_updated
-    }));
-    fs.writeFileSync(MOCK_PRICES_FILE, JSON.stringify(pricesDBShape, null, 2));
+    console.log("Updating customers and orders mock database backups...");
     fs.writeFileSync(MOCK_CUSTOMERS_FILE, JSON.stringify(customersList, null, 2));
     fs.writeFileSync(MOCK_ORDERS_FILE, JSON.stringify(ordersList, null, 2));
+    
+    mockCustomers.splice(0, mockCustomers.length, ...customersList);
+    mockOrders.splice(0, mockOrders.length, ...ordersList);
 
     const orderItemsDBShape = orderItemsList.map((oi, idx) => ({
       id: idx + 1,
@@ -563,56 +630,12 @@ export async function syncWooCommerceData(): Promise<{ success: boolean; stats: 
       total_price: oi.total_price
     }));
     fs.writeFileSync(MOCK_ORDER_ITEMS_FILE, JSON.stringify(orderItemsDBShape, null, 2));
+    mockOrderItems.splice(0, mockOrderItems.length, ...orderItemsDBShape);
 
-    // 5. PERSISTENCE LAYER: PostgreSQL DB Sync (If connection active)
-    if (status.status === "running") {
-      status.progress = "Synchronizing PostgreSQL database tables...";
-    }
-
-    console.log("Synchronizing PostgreSQL database tables...");
+    // Sync customers and orders to PostgreSQL database if active
     try {
       await withTransaction(async (client) => {
-        console.log("Upserting products into Postgres...");
-        for (const p of productsDetailList) {
-          await client.query(`
-            INSERT INTO products (
-              id, name, brand, weight_kg, animal_type, food_type, image_url, description
-            ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
-            ON CONFLICT (id) DO UPDATE SET
-              name = EXCLUDED.name,
-              brand = EXCLUDED.brand,
-              weight_kg = EXCLUDED.weight_kg,
-              animal_type = EXCLUDED.animal_type,
-              food_type = EXCLUDED.food_type,
-              image_url = EXCLUDED.image_url,
-              description = EXCLUDED.description
-          `, [
-            p.id, p.name, p.brand, p.weight_kg,
-            classifyAnimalType([], [], p.name), classifyFoodType([], [], p.name),
-            p.thumbnail, p.description
-          ]);
-        }
-
-        console.log("Upserting store prices into Postgres...");
-        const productIds = productsDetailList.map(p => p.id);
-        if (productIds.length > 0) {
-          await client.query(`
-            DELETE FROM store_prices WHERE product_id = ANY($1)
-          `, [productIds]);
-        }
-
-        for (const sp of storePricesList) {
-          await client.query(`
-            INSERT INTO store_prices (
-              product_id, store_name, price, product_url, in_stock, last_updated
-            ) VALUES ($1, $2, $3, $4, $5, $6)
-          `, [
-            sp.product_id, sp.store_name, sp.price,
-            sp.product_url, sp.in_stock, sp.last_updated
-          ]);
-        }
-
-        console.log("Upserting customers into Postgres...");
+        console.log("Upserting customers into PostgreSQL...");
         for (const c of customersList) {
           if (c.email) {
             await client.query(`
@@ -640,7 +663,7 @@ export async function syncWooCommerceData(): Promise<{ success: boolean; stats: 
           }
         }
 
-        console.log("Upserting orders into Postgres...");
+        console.log("Upserting orders into PostgreSQL...");
         for (const o of ordersList) {
           await client.query(`
             INSERT INTO orders (
@@ -664,7 +687,7 @@ export async function syncWooCommerceData(): Promise<{ success: boolean; stats: 
           ]);
         }
 
-        console.log("Updating order items in Postgres...");
+        console.log("Updating order items in PostgreSQL...");
         const orderIds = ordersList.map(o => o.id);
         if (orderIds.length > 0) {
           await client.query(`
@@ -686,9 +709,8 @@ export async function syncWooCommerceData(): Promise<{ success: boolean; stats: 
           ]);
         }
       });
-      console.log("✅ Successfully synchronized PostgreSQL database tables.");
-    } catch (dbErr) {
-      console.warn("⚠️ PostgreSQL database update skipped or failed (will use fallback local files/mock):", dbErr);
+    } catch (pgError) {
+      console.warn("Postgres transaction sync for customers/orders bypassed or failed:", pgError);
     }
 
     console.log("🎉 WooCommerce synchronization completed successfully!");

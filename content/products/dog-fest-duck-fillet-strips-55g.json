@@ -1,0 +1,62 @@
+{
+  "id": 27242,
+  "name": "Dog Fest Duck Fillet Strips 55G",
+  "slug": "dog-fest-duck-fillet-strips-55g",
+  "sku": "DF031",
+  "onSale": false,
+  "price": 260,
+  "regularPrice": 260,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/DF031.jpg",
+  "categories": [
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2109,
+      "name": "Small breeds",
+      "slug": "small-breeds"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27242",
+  "shortDescription": "Dog Fest Duck Fillet Strips for small breeds 55G",
+  "description": "Farm fresh duck meat is slow-cooked in an oven to become your dog's favorite treat. These strips are cut to be just perfect for smaller breeds. Be prepared if your dog begs for more. Composition: duck, vegetable by-products, minerals. Analytical constituents, %: crude protein 41, crude fat 3.5, crude fiber 0.2, crude ash 4, moisture 18.",
+  "images": [
+    {
+      "id": 27253,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/DF031.jpg",
+      "alt": "Dog Fest Duck Fillet Strips 55G",
+      "name": "DF031"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/dog-fest-duck-fillet-strips-55g/?add-to-cart=27242",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-04-20T16:20:47",
+  "dateModified": "2026-05-06T17:08:04",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/DF031.jpg"
+}

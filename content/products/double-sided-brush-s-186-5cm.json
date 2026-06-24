@@ -1,0 +1,77 @@
+{
+  "id": 36967,
+  "name": "Double Sided Brush S 18*6.5cm",
+  "slug": "double-sided-brush-s-186-5cm",
+  "sku": "PZB01",
+  "onSale": false,
+  "price": 603,
+  "regularPrice": 603,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/05/double-sided-brush.jpg",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2361,
+      "name": "Brushes, Combs & Fur Removal Tools",
+      "slug": "brushes-combs-fur-removal-tools"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2360,
+      "name": "Dog Grooming & Cleaning",
+      "slug": "dog-grooming-cleaning-supplies"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2098,
+      "name": "Grooming & Tools",
+      "slug": "grooming-tools"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=36967",
+  "shortDescription": "Double Sided Pet Comb",
+  "description": "Non-slip and ergonomic designed handle is easy and comfortable to grip Suitable for long and short-haired dogs or cats Can be used to groom and massage pets for healthy hair, increasing blood circulation effectively and leaving your pets’ hair soft and shiny.",
+  "images": [
+    {
+      "id": 36968,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/05/double-sided-brush.jpg",
+      "alt": "Double Sided Brush S 18*6.5cm",
+      "name": "double sided brush"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/double-sided-brush-s-186-5cm/?add-to-cart=36967",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-05-11T15:56:51",
+  "dateModified": "2026-05-06T17:08:37",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/05/double-sided-brush.jpg"
+}

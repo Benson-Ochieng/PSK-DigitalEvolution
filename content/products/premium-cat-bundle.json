@@ -1,0 +1,90 @@
+{
+  "id": 33789,
+  "name": "Premium Cat Bundle",
+  "slug": "premium-cat-bundle",
+  "sku": "CPBUNDLE3",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "/images/psk_logo.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 2331,
+      "name": "Litter and Litter Box & Accessories",
+      "slug": "cat-litter-and-accessories"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2122,
+      "name": "Bundle",
+      "slug": "bundle"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 819,
+      "name": "cat litter",
+      "slug": "cat-litter"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=33789",
+  "shortDescription": "1 Pc Spectrum Low Grain Adult Cat Food Chicken, Turkey and Cranberry 500Gr 1 Pc Spectrum Low Grain Adul Cat Food Salmon, Anchovy and Cranberry 500Gr 1 Pc Reflex Cat litter – Clinic Fresh 6L 4 Pcs Migliorgatto Cat Pouch Beef and Carrots 100Gr",
+  "description": "1 Pc Spectrum Low Grain Adult Cat Food Chicken, Turkey and Cranberry 500Gr 1 Pc Spectrum Low Grain Adul Cat Food Salmon, Anchovy and Cranberry 500Gr 1 Pc Reflex Cat litter - Clinic Fresh 6L 4 Pcs Migliorgatto Cat Pouch Beef and Carrots 100Gr",
+  "images": [],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/premium-cat-bundle/?add-to-cart=33789",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-12-22T09:51:59",
+  "dateModified": "2026-05-06T17:08:27",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "/images/psk_logo.png"
+}

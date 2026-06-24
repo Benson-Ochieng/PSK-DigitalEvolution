@@ -1,0 +1,93 @@
+{
+  "id": 24553,
+  "name": "Rogz Cat Anchovy Bowl 200ml - Pink Non-Skid Rubber Base (CBOWL21-K)",
+  "slug": "rogz-cat-anchovy-bowl-200ml-pink-non-skid-rubber-base",
+  "sku": "CBOWL21-K",
+  "onSale": false,
+  "price": 1500,
+  "regularPrice": 1500,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/CBOWL21-K-Anchovy-Pink.jpg",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2344,
+      "name": "Cat Bowls & Feeders",
+      "slug": "cat-bowls-and-feeders"
+    },
+    {
+      "id": 2064,
+      "name": "Rogz",
+      "slug": "rogz"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2072,
+      "name": "Bowls",
+      "slug": "bowls"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=24553",
+  "shortDescription": "Rogz Cat Feeding bowl with Whiskers friendly design",
+  "description": "A whisker friendly bowl made solely of hygienic Stainless Steel, with a non-slip silicone base, guaranteed to make them purr. Size: 200ml",
+  "images": [
+    {
+      "id": 24574,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/CBOWL21-K-Anchovy-Pink.jpg",
+      "alt": "Rogz Cat Anchovy Bowl 200ml - Pink Non-Skid Rubber Base (CBOWL21-K)",
+      "name": "CBOWL21-K-Anchovy-Pink.jpg"
+    },
+    {
+      "id": 24575,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/CBOWL21-K-Anchovy-Pink-Reverse.jpg",
+      "alt": "Rogz Cat Anchovy Bowl 200ml - Pink Non-Skid Rubber Base (CBOWL21-K)",
+      "name": "CBOWL21-K-Anchovy-Pink-Reverse.jpg"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-cat-anchovy-bowl-200ml-pink-non-skid-rubber-base/?add-to-cart=24553",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-01-15T21:40:30",
+  "dateModified": "2026-05-06T17:07:50",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/CBOWL21-K-Anchovy-Pink.jpg"
+}

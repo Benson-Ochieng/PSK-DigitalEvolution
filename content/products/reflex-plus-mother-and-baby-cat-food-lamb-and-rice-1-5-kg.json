@@ -1,0 +1,63 @@
+{
+  "id": 40858,
+  "name": "Reflex Plus Mother And Baby Cat Food - Lamb And Rice 1.5kg",
+  "slug": "reflex-plus-mother-and-baby-cat-food-lamb-and-rice-1-5-kg",
+  "sku": "RPCD006@F",
+  "onSale": true,
+  "price": 2365,
+  "regularPrice": 2750,
+  "salePrice": 2365,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Reflex-Plus-Mother-and-Baby-Lamb-and-Rice-01.jpg",
+  "categories": [
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2923,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2223,
+      "name": "flash",
+      "slug": "flash"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=40858",
+  "shortDescription": "Generate an SEO-friendly product description for a super-premium dry cat food with lamb and rice designed for mother and baby cats. Emphasize high-quality protein, vitamins, minerals, and DHA for strong development and overall health.",
+  "description": "A super premium dry cat food with lamb and rice, fully and balanced formulated for mother & baby cats. Ingredients: Dehydrated Lamb Protein, Hydrolyzed Lamb Protein, Rice, Corn, Chicken Fat, Brewer's Yeast, Hydrolyzed Fiber, Hydrolyzed Chicken Liver, Xylo Oligosaccharide, Yucca Schidigera, L-Carnitine, Vitamin and Mineral Blend, Natural Antioxidants. Minerals: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Iron, Selenium. Vitamins: Vit. A, Vit. D3, Vit. E, Vit. C, Vit. B1 - B2 - B3 (Niacin) - B6 - B12 - B7 (Biotin) - B9 (Folik Asit), Vit. K, Kolin, Calcium Pantothenate. Nutrient Components Crude Protein 32% Crude Fat 22% Crude Ash 7% Crude Cellulose 2% Nutritional Supplements Vitamine A (3A672A) 18,000 IU/kg Vitamine D3 (3A671) 1,500 IU/kg Vitamine E (3A700) 200 mg/kg Vitamine C (3A300) 200 mg/kg Taurin 1,500 mg/kg",
+  "images": [
+    {
+      "id": 23952,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/12/Reflex-Plus-Mother-and-Baby-Lamb-and-Rice-01.jpg",
+      "alt": "SHORT EXPIRY-CLEARANCE: Reflex Plus Mother And Baby Cat Food Lamb And Rice 1.5kg",
+      "name": "Reflex Plus Mother and Baby Lamb and Rice-01"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": false,
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-mother-and-baby-cat-food-lamb-and-rice-1-5-kg/?add-to-cart=40858",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-11-08T10:13:50",
+  "dateModified": "2026-05-08T10:05:03",
+  "brand": "Reflex",
+  "weight_kg": 1.5,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/12/Reflex-Plus-Mother-and-Baby-Lamb-and-Rice-01.jpg"
+}

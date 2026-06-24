@@ -1,0 +1,97 @@
+{
+  "id": 16523,
+  "name": "KONG Extreme Large",
+  "slug": "kong-extreme-large",
+  "sku": "K1",
+  "onSale": false,
+  "price": 1900,
+  "regularPrice": 1900,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/12/Kong-extreme-large.png",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2357,
+      "name": "Dog Fetch Toys",
+      "slug": "dog-fetch-toys"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2031,
+      "name": "Kong",
+      "slug": "kong-accessories"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=16523",
+  "shortDescription": "KONG Toy Extreme Large",
+  "description": "The KONGExtreme dog toy represents the most durable strength of KONGrubber. Designed for the toughest of chewers, the KONGExtreme offers enrichment and helps satisfy dogs? instinctual needs. The KONGunique, ultra-durable, natural rubber formula is designed for determined chewers, while the erratic bounce fulfils a dog?s need to play. Want to extend playtime? Be sure to stuff with tempting bits of kibble and entice with a dash of peanut butter. Add to the fun by adding KONGSnacks and top with KONGEasy Treat. Stuff and Freeze for a longer-lasting challenge. Mentally stimulating toy; offering enrichment by helping satisfy dogs? instinctual needs KONGblack rubber formula is specifically designed for power chewers Unpredictable bounce for games of fetch Great for stuffing with KONGEasy Treat; Snacks or Ziggies Recommended worldwide by Veterinarians; Trainers; and dog enthusiasts Natural rubber Made in the USA. Globally Sourced Materials.",
+  "images": [
+    {
+      "id": 16676,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/12/Kong-extreme-large.png",
+      "alt": "KONG Toy Extreme Large",
+      "name": "Kong extreme large"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/kong-extreme-large/?add-to-cart=16523",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2020-12-06T13:54:37",
+  "dateModified": "2026-05-06T17:06:40",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/12/Kong-extreme-large.png"
+}

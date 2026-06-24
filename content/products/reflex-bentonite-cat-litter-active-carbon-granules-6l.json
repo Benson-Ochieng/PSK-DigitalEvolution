@@ -1,0 +1,93 @@
+{
+  "id": 40850,
+  "name": "Reflex Bentonite Cat Litter - Active Carbonganules 6L",
+  "slug": "reflex-bentonite-cat-litter-active-carbon-granules-6l",
+  "sku": "RCL002@F",
+  "onSale": true,
+  "price": 0,
+  "regularPrice": 1939,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Reflex-Active-Carbons-01.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    },
+    {
+      "id": 2331,
+      "name": "Litter and Litter Box & Accessories",
+      "slug": "cat-litter-and-accessories"
+    },
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2025,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 819,
+      "name": "cat litter",
+      "slug": "cat-litter"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=40850",
+  "shortDescription": "Reflex Clumping Cat Litter with Active Carbon Granules blocks ammonia in cat urine and feces and reduces bad odours in the environment with the help of “natural activated carbon” particles added to the product formulation.",
+  "description": "Reflex Clumping Cat Litter with Active Carbon Granules blocks ammonia in cat urine and feces and reduces bad odours in the environment with the help of \"natural activated carbon\" particles added to the product formulation. Through high liquid absorption capability and compact granule size, it forms ideal lumps, thus allowing your cat?s litter to be cleaned easily and the remaining litter to stay clean and be used for a long time.",
+  "images": [
+    {
+      "id": 23956,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/12/Reflex-Active-Carbons-01.jpg",
+      "alt": "Reflex Bentonite Cat Litter - Active Carbonganules 6L",
+      "name": "Reflex Active Carbons-01"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-bentonite-cat-litter-active-carbon-granules-6l/?add-to-cart=40850",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-11-08T09:57:07",
+  "dateModified": "2026-05-06T17:09:00",
+  "brand": "Reflex",
+  "weight_kg": 6,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/12/Reflex-Active-Carbons-01.jpg"
+}

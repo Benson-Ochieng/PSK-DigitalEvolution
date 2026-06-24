@@ -1,0 +1,83 @@
+{
+  "id": 24788,
+  "name": "Reflex Plus Canned Kitten Food Chicken In Loaf Pate 400g",
+  "slug": "reflex-plus-canned-kitten-food-chicken-in-loaf-pate-400gr",
+  "sku": "RPCW026",
+  "onSale": false,
+  "price": 370,
+  "regularPrice": 370,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/Reflex-Plus-Canned-Kitten-food-Chicken.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2329,
+      "name": "Kitten Food",
+      "slug": "kitten-food"
+    },
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2222,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=24788",
+  "shortDescription": "Reflex Plus Kitten Food is formulated to provide full nutrition to kittens",
+  "description": "Reflex Plus Kitten Food is formulated to provide full nutrition to kittens. It is enriched with minerals and vitamins for an all round nutrition for kittens NUTRIENT COMPOSITION ?NUTRITIVE ADDITIONS Crude Protein 8,5% ?Vitamin A ?? ?1650 IE/kg Crude Oils & Fats ? 7,0% ?Vitamin D3 ?210 IE/kg Crude Cellulose ??0,5% ?Iron ?9,6 mg/kg Moisture ??80% ?Copper ? 1,4 mg/kg Crude Ash 2,0% Lodine ??0,24 mg/kg ?Manganese ??1,8 mg/kg ?Zinc 9,5 mg/kg ?Selenium ??0,025 mg/kg",
+  "images": [
+    {
+      "id": 29734,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/Reflex-Plus-Canned-Kitten-food-Chicken.png",
+      "alt": "Reflex Plus Canned Kitten Food Chicken In Loaf Pate 400g",
+      "name": "Reflex Plus Canned Kitten food Chicken"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-canned-kitten-food-chicken-in-loaf-pate-400gr/?add-to-cart=24788",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-01-20T11:32:05",
+  "dateModified": "2026-05-06T17:07:55",
+  "brand": "Reflex",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/Reflex-Plus-Canned-Kitten-food-Chicken.png"
+}

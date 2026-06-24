@@ -1,0 +1,63 @@
+{
+  "id": 62587,
+  "name": "Bonnie Adult Cat Food - Salmon 0.5kg",
+  "slug": "bonnie-adult-cat-food-salmon-0-5kg-2",
+  "sku": "BCD005@F",
+  "onSale": true,
+  "price": 483,
+  "regularPrice": 690,
+  "salePrice": 483,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/09/Bonnie-Adult-Cat-Salmon-500g-min.png",
+  "categories": [
+    {
+      "id": 177,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2428,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2223,
+      "name": "flash",
+      "slug": "flash"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=62587",
+  "shortDescription": "Full-balanced, salmon protein-containing cat food carefully formulated by a cat nutritionist to meet the nutritional requirements of all adult breeds.",
+  "description": "Bonnie Salmon Adult Cat food, full-balanced, salmon protein-containing cat food carefully formulated by a cat nutritionists to meet the nutritional requirements of all adult breeds. Fish meal has been used as animal protein source. The balance of omega 3 & 6 is provided by using flaxseed . Yucca plant provides ammonia and Oduor control, increase absorption of nutrients, strengthens the immune system and optimizes animal growth and performance. A good intestinal health and performance is provided by CitriStim which is a source of pathogen-binding manna oligsacharrides , beta-glucans and immune-supportive yeast. Healthy skin and shiny coat are supported by using brewer's yeast . Muscles, organs and nerve cells are supported, and the immune system strengthened by using whey powder . Rich vitamin contents. Rich fiber contents. NUTRIENT COMPONENTS Protein....................................32% Fat..............................................12% Crude Cellulose (Fiber) ....................... 3% INGREDIENTS: Processed Animal Protein (Fish), Wheat, Corn, Animal Fat, Fish Meal, Corn Gluten, Fish Fat, Dried Sugar Beet, Fish Aroma, Salt, Flaxseed, Dried Brewer's Yeast, Taurine. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
+  "images": [
+    {
+      "id": 3409,
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/09/Bonnie-Adult-Cat-Salmon-500g-min.png",
+      "alt": "Bonnie Adult Cat Salmon 500g min",
+      "name": "Bonnie Adult Cat Salmon 500g min"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": false,
+  "addToCartUrl": "https://petstore.co.ke/product/bonnie-adult-cat-food-salmon-0-5kg-2/?add-to-cart=62587",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2025-11-21T09:51:48",
+  "dateModified": "2026-06-17T04:32:52",
+  "brand": "Bonnie",
+  "weight_kg": 0.5,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/09/Bonnie-Adult-Cat-Salmon-500g-min.png"
+}

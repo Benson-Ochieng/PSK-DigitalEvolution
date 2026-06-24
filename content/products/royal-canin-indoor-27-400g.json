@@ -1,0 +1,68 @@
+{
+  "id": 26980,
+  "name": "Royal Canin Indoor 27 400g",
+  "slug": "royal-canin-indoor-27-400g",
+  "sku": "ROC-FHND-013",
+  "onSale": false,
+  "price": 1390,
+  "regularPrice": 1390,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/ROC-FHND-013-01.jpg",
+  "categories": [
+    {
+      "id": 2104,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2423,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=26980",
+  "shortDescription": "ROYAL CANIN? Indoor 27 contains a highly digestible protein (L.I.P.) that's specifically selected for its very high digestibility. This protein also helps to reduce the quantity of your cat's stool, as well as reducing the smelly stool odour that occurs when cats have a lower intestinal transit due to a lack of exercise.",
+  "description": "ROYAL CANIN? Indoor 27 contains a highly digestible protein (L.I.P.) that's specifically selected for its very high digestibility. This protein also helps to reduce the quantity of your cat's stool, as well as reducing the smelly stool odour that occurs when cats have a lower intestinal transit due to a lack of exercise. This food has a moderate fat content to ensure that your cat's calorie intake is aligned with its level of activity - the calorie content also contributes to the maintenance of a healthy weight. It's common for indoor cats to spend long periods of time grooming themselves. Thanks to the inclusion of specific dietary fibres, such as psyllium, this food also helps to stimulate the clearance of ingested hair - resulting in a significantly reduced number of hairballs. Balanced and complete feed for cats - Specially for adult cats (from 1 to 7 years old) living indoors. Composition: Dehydrated poultry protein, rice, vegetable protein isolate*,wheat, maize, animal fats, wheat flour, hydrolysed animal proteins, vegetable fibres, minerals, yeasts and parts thereof ,maize gluten, beet pulp, soya oil, fish oil, psyllium husks and seeds, hydrolysed yeast (source of manno-oligosaccharides),marigold extract (source of lutein).*L.I.P. : Protein selected for its very high digestibility. Additives: Nutritional additives: Vitamin A: 13000 IU, Vitamin D3: 700 IU, E1 (Iron): 39 mg, E2 (Iodine): 3.9 mg, E4 (Copper ): 12 mg, E5 (Manganese): 51 mg, E6 (Zinc ): 153 mg, E8 (Selenium): 0.09 mg - Technological additives: Clinoptilolite of sedimentary origin: 10 g - Preservatives - Antioxidants. Analytical constituents: Protein: 27%, Fat content: 13%, Crude fibres: 3.8%, Crude ash: 7.6%, NFE: 43.1%.",
+  "images": [
+    {
+      "id": 26981,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/ROC-FHND-013-01.jpg",
+      "alt": "Royal Canin Indoor 27 400g",
+      "name": "ROC-FHND-013-01"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/royal-canin-indoor-27-400g/?add-to-cart=26980",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-04-08T16:34:55",
+  "dateModified": "2026-06-17T04:23:42",
+  "brand": "Royal Canin",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/ROC-FHND-013-01.jpg"
+}

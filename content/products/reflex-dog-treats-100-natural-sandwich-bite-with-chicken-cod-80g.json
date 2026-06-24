@@ -1,0 +1,88 @@
+{
+  "id": 12712,
+  "name": "Reflex Dog Treats - 100% Natural Sandwich Bite with Chicken & Cod 80g",
+  "slug": "reflex-dog-treats-100-natural-sandwich-bite-with-chicken-cod-80g",
+  "sku": "RDTCCSB80",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Dog-Treats-Sandwich-Bite-with-Chicken-Cod-80g-min.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2157,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=12712",
+  "shortDescription": "Reflex Dog Treats – 100% Natural Sandwich Bite with Chicken & Cod, from real chicken & cod meat. A great source of lean protein. No artificial colours, flavours or preservatives added.",
+  "description": "Reflex Dog Treats - 100% Natural Sandwich Bite with Chicken & Cod , from real chicken & cod meat. Reflex natural super-premium dog treats can easily be digested due to its high meat content. It will not cause weight gain as it has low calorie. The fatty acids in it support skin and coat health. It is also very effective for training with its high palatability INGREDIENTS: Chicken, Cod Fish, Vegetable Glycerin, Soy Protein, Starch, Salt. NUTRIENT COMPONENTS Crude Protein (%) - 30 Crude Fat (%) - 1 Crude Fiber (%) - 4 Moisture Content (%) - 20 FEEDING RECOMMENDATIONS: Recommended for all dogs. Feed as a snack or treat between meals. This product does not replace full-dog food daily. Once open, keep the package tightly closed. Store in a cool, dry place.",
+  "images": [
+    {
+      "id": 12713,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Dog-Treats-Sandwich-Bite-with-Chicken-Cod-80g-min.png",
+      "alt": "Reflex Dog Treats - 100% Natural Sandwich Bite with Chicken & Cod 80g",
+      "name": "Reflex Dog Treats Sandwich Bite with Chicken &#038; Cod 80g-min"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": 10,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-dog-treats-100-natural-sandwich-bite-with-chicken-cod-80g/?add-to-cart=12712",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2020-04-09T12:35:57",
+  "dateModified": "2026-05-06T17:06:34",
+  "brand": "Reflex",
+  "weight_kg": 0.08,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Dog-Treats-Sandwich-Bite-with-Chicken-Cod-80g-min.png"
+}

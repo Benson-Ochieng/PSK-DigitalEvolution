@@ -1,0 +1,70 @@
+{
+  "id": 33781,
+  "name": "Reflex Treat Bundle - Lamb",
+  "slug": "reflex-treat-bundle-lamb",
+  "sku": "DTBUNDLE1",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "/images/psk_logo.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2122,
+      "name": "Bundle",
+      "slug": "bundle"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=33781",
+  "shortDescription": "1PC Reflex Dog Treat Duck Jerky 80 Gr 1PC Reflex Dog Treat Chicken Jerky 80 Gr 1PC Reflex Dog Treat Duck Sausage 80 Gr 1PC Reflex Dog Treat Chicken Wrapped Sticks 80 Gr 1PC Reflex Dog Treat Duck Wrapped Sticks 80 Gr 1PC Reflex Dog Treat Lamb Cubes 80 Gr 1PC Reflex Dog Treat Lamb Slices 80 Gr 1PC Reflex Dog Treat Chicken Drumstick 80 Gr",
+  "description": "1PC Reflex Dog Treat Duck Jerky 80 Gr 1PC Reflex Dog Treat Chicken Jerky 80 Gr 1PC Reflex Dog Treat Duck Sausage 80 Gr 1PC Reflex Dog Treat Chicken Wrapped Sticks 80 Gr 1PC Reflex Dog Treat Duck Wrapped Sticks 80 Gr 1PC Reflex Dog Treat Lamb Cubes 80 Gr 1PC Reflex Dog Treat Lamb Slices 80 Gr 1PC Reflex Dog Treat Chicken Drumstick 80 Gr",
+  "images": [],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-treat-bundle-lamb/?add-to-cart=33781",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-12-22T09:17:19",
+  "dateModified": "2026-05-06T17:08:27",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "/images/psk_logo.png"
+}

@@ -1,0 +1,88 @@
+{
+  "id": 12677,
+  "name": "Reflex Cat Treats - Meaty Bite Snack, Duck & Cheese 40g",
+  "slug": "reflex-cat-treats-meaty-bite-snack-duck-cheese-40g",
+  "sku": "RCMSTDC202",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Cat-Treats-Meaty-Bite-Snacks-Duck-Cheese-40g-min.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2330,
+      "name": "Cat Treats",
+      "slug": "cat-treats"
+    },
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2600,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=12677",
+  "shortDescription": "Reflex Cat Treats – Dental Care Pocket Treats, Duck. Perfectly sized cat biscuits for training and for rewarding good behaviour. Made with the highest quality ingredients and bursting with flavour.",
+  "description": "Reflex Cat Treats - Meaty Bite Snack, Duck & Cheese. Perfectly sized cat biscuits for training and for rewarding good behaviour. Made with the highest quality ingredients and bursting with flavour. INGREDIENTS: Meat and animal derivatives 71,9% (4,1% duck), vegetables, vegetable protein extracts, milk and milk derivatives (1,5% cheese powder), yeast, minerals, derivatives of vegetable origin. NUTRIENT COMPONENTS Crude Protein (%) - 24 Crude Fat (%) - 12 Crude Ash (%) - 6.5 Crude Fiber (%) - 1.5 Moisture (%) - 38 Taurin - 445 mg FEEDING RECOMMENDATIONS: As a snack in addition to meals. Please serve maximal 5 pieces. Please serve at room temperature. Please store in a cool & dry place. Ensure that drinking water is always available for your cat.",
+  "images": [
+    {
+      "id": 12679,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Cat-Treats-Meaty-Bite-Snacks-Duck-Cheese-40g-min.png",
+      "alt": "Reflex Cat Treats Meaty Bite Snacks Duck Cheese 40g min",
+      "name": "Reflex Cat Treats Meaty Bite Snacks Duck Cheese 40g min"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": 10,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-cat-treats-meaty-bite-snack-duck-cheese-40g/?add-to-cart=12677",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "hidden",
+  "dateCreated": "2020-04-08T16:17:00",
+  "dateModified": "2026-05-06T17:06:32",
+  "brand": "Reflex",
+  "weight_kg": 0.04,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Cat-Treats-Meaty-Bite-Snacks-Duck-Cheese-40g-min.png"
+}

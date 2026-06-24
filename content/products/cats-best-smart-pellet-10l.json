@@ -1,0 +1,77 @@
+{
+  "id": 27032,
+  "name": "Cats best Smart pellet 10L",
+  "slug": "cats-best-smart-pellet-10l",
+  "sku": "CBCL002",
+  "onSale": false,
+  "price": 1250,
+  "regularPrice": 1250,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/CBCL002.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    },
+    {
+      "id": 2331,
+      "name": "Litter and Litter Box & Accessories",
+      "slug": "cat-litter-and-accessories"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 819,
+      "name": "cat litter",
+      "slug": "cat-litter"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27032",
+  "shortDescription": "Cats best Smart pellet is a soft clumping and Non-sticking cat litter. It doesn?t stick to paws and stays in the tray Cat?s Best Smart Pellets is the first cat litter in the form of clumping mini-pellets. The pellets? special form stops them from sticking to a cat?s fur and paws, significantly reducing the problem of litter being accidentally carried out of the tray.",
+  "description": "Cat?s Best Smart Pellets also use the natural power of refined active wood fibres, which effectively absorb liquids and odours - up to seven times their own volume - and trap them deep inside. This neutralises odours so effectively that the cat litter can remain in the litter tray for up to seven weeks. Cat?s Best Smart Pellets function best when you regularly dispose of the solid excretions and clumps that form after the cat has used the litter tray ? using an original Cat?s Best cat litter shovel, which contains just the right hole spacing for the pellet size. This saves time and costs and ensures the type of hygiene and comfort that cats prefer. Like all Cat?s Best products, Cat?s Best Smart Pellets are made exclusively from renewable raw materials, which means they are both sustainable and biodegradable",
+  "images": [
+    {
+      "id": 27010,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/CBCL002.jpg",
+      "alt": "Cats best Smart pellet 10L",
+      "name": "CBCL002"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/cats-best-smart-pellet-10l/?add-to-cart=27032",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-04-20T16:20:52",
+  "dateModified": "2026-05-06T17:08:03",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/CBCL002.jpg"
+}

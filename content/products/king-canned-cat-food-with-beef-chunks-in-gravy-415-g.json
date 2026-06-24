@@ -1,0 +1,103 @@
+{
+  "id": 34915,
+  "name": "King Canned Cat Food With Beef Chunks InGravy - 0.415kg",
+  "slug": "king-canned-cat-food-with-beef-chunks-in-gravy-415-g",
+  "sku": "KCW001",
+  "onSale": false,
+  "price": 252,
+  "regularPrice": 252,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/02/Untitled-design-2025-07-19T095612.952.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 178,
+      "name": "King",
+      "slug": "king"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2446,
+      "name": "King",
+      "slug": "king"
+    }
+  ],
+  "tags": [
+    {
+      "id": 622,
+      "name": "canned food",
+      "slug": "canned-food"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=34915",
+  "shortDescription": "King Canned Cat Food (Beef) is a Fully balanced Cat Food, carefully formulated by pet nutritionists to meet the nutritional requirements of all adult cats.",
+  "description": "King Canned Cat Food (Beef) is a Fully balanced Cat Food, carefully formulated by pet nutritionists to meet the nutritional requirements of all adult cats. NUTRIENT COMPONENTS Protein........................6.5% Fat........................... 3.5% Crude Ash...................... 2% Crude Cellulose (Fiber)........ 0.3% Moisture........................ 82% INGREDIENTS: Meat and animal derivatives (4% beef), cereals, minerals, vegetable by-products, sugar. MINERALS: Zinc, Manganese, Copper. VITAMINS: Vit. D3, Vit. E. Feeding Recommendation: The Individual necessity can vary depending on activity, breed and age of your pet. Fresh drinking water should always be available. Serve at room temperature. Store in dry and cool place, keep in refrigerator after opening for max 2-3days.",
+  "images": [
+    {
+      "id": 57031,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/02/Untitled-design-2025-07-19T095612.952.png",
+      "alt": "King Canned Cat Food With Beef Chunks InGravy - 0.415kg",
+      "name": "Untitled design &#8211; 2025-07-19T095612.952"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/king-canned-cat-food-with-beef-chunks-in-gravy-415-g/?add-to-cart=34915",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-02-07T10:44:03",
+  "dateModified": "2026-06-17T04:33:56",
+  "brand": "King",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/02/Untitled-design-2025-07-19T095612.952.png"
+}

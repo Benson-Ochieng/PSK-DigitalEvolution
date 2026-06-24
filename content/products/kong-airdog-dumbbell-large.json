@@ -1,0 +1,112 @@
+{
+  "id": 16430,
+  "name": "KONG AirDog Dumbbell Large",
+  "slug": "kong-airdog-dumbbell-large",
+  "sku": "ASDB1",
+  "onSale": false,
+  "price": 1850,
+  "regularPrice": 1850,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/11/ASDB1.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2342,
+      "name": "Cat Toys",
+      "slug": "cat-toys"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2357,
+      "name": "Dog Fetch Toys",
+      "slug": "dog-fetch-toys"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2031,
+      "name": "Kong",
+      "slug": "kong-accessories"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=16430",
+  "shortDescription": "KONG AirDog Squeaker Dumbell Fetch Toy – Large",
+  "description": "KONGAirDog? Squeaker Dumbbell combines two classic dog toys -the tennis ball and the squeaker - to create the perfect fetch toy. The non-abrasive, high-quality material will not wear down dogs? teeth. Find your dog?s favourite AirDog? shape and let the games begin. Fetch toy for healthy; active play Non-abrasive KONGTennis material; softer on teeth Squeaker entices play",
+  "images": [
+    {
+      "id": 24962,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/11/ASDB1.jpg",
+      "alt": "KONG AirDog Dumbbell Large",
+      "name": "ASDB1"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/kong-airdog-dumbbell-large/?add-to-cart=16430",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2020-11-27T10:39:39",
+  "dateModified": "2026-05-06T17:06:40",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/11/ASDB1.jpg"
+}

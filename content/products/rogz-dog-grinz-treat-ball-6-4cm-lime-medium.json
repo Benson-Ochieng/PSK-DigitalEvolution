@@ -1,0 +1,82 @@
+{
+  "id": 42023,
+  "name": "Rogz Dog Grinz Treat Ball 6.4cm Lime Medium (g02-L)",
+  "slug": "rogz-dog-grinz-treat-ball-6-4cm-lime-medium",
+  "sku": "GR02-L",
+  "onSale": false,
+  "price": 1635,
+  "regularPrice": 1635,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/GR02-S-Grinz-lime.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2064,
+      "name": "Rogz",
+      "slug": "rogz"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2227,
+      "name": "Rogz",
+      "slug": "rogz"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-6-4cm-lime-medium/",
+  "shortDescription": "Turn treat time into an exciting challenge with the Rogz Dog Grinz Treat Ball (Medium, 6.4 cm) . Designed for adult dogs, this interactive toy combines fun, mental stimulation, and slow treat dispensing to keep your pet engaged for hours. As dogs play, treats gradually fall out, promoting slower consumption, encouraging activity, and helping reduce boredom. &nbsp;",
+  "description": "Constructed from tough, non-toxic materials, the GR02-L is durable enough to withstand daily use and chewing, making it a reliable addition to your dog’s toy collection. Its hollow ball design also stimulates problem-solving skills and encourages healthy chewing, which may benefit dental hygiene by engaging the teeth and gums. Features & Benefits Size: Medium (6.4 cm), ideal for adult dogs. Durable Construction: Non-toxic and chew-resistant for safe, long-lasting play. Treat Dispensing: Encourages dogs to interact with the toy and slowly earn treats. Mental & Physical Enrichment: Supports problem-solving and keeps dogs occupied. Easy Maintenance: Open and rinse the ball to clean after use. Usage Tips Gradually introduce treats to help your dog learn to use the toy effectively. Supervise during initial play sessions to ensure safe use. Clean regularly to maintain hygiene and remove leftover kibble or debris.",
+  "images": [
+    {
+      "id": 42024,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/12/GR02-S-Grinz-lime.jpg",
+      "alt": "Rogz Dog Grinz Treat Ball 7.8cm Lime Medium (g04-L)",
+      "name": "GR02-S-Grinz-lime"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-6-4cm-lime-medium/?add-to-cart=42023",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-12-05T16:51:09",
+  "dateModified": "2026-06-04T13:00:31",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/GR02-S-Grinz-lime.jpg"
+}

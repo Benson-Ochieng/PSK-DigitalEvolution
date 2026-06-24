@@ -1,0 +1,57 @@
+{
+  "id": 40835,
+  "name": "Miglior Dog Food Unico Pouch - Turkey 100g",
+  "slug": "migliorcane-unico-adult-mini-delicate-turkey-pate-100gr",
+  "sku": "MDW008@F",
+  "onSale": true,
+  "price": 163,
+  "regularPrice": 204,
+  "salePrice": 163,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW008.jpg",
+  "categories": [
+    {
+      "id": 2163,
+      "name": "Miglior",
+      "slug": "miglior"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2223,
+      "name": "flash",
+      "slug": "flash"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=40835",
+  "shortDescription": "(4 pieces minimum order) Migliorcane UNICO is a complete and balanced superpremium food, ideal for the daily diet of small dogs. UNICO: single protein, unique quality, great taste.",
+  "description": "COMPOSITION: Turkey 65% (meat, livers), minerals. ANALYTICAL CONSTITUENTS: Moisture 78%, Crude protein 10%, Crude fat 7%, Crude fibres 0,3%, Crude ash 1,5%. Without colorants and preservatives. Nutritional additives / kg: Vitamin E 7,5 mg, Vitamin B1 4,2 mg, Vitamin B6 1,0 mg, Biotin (Vitamin H) 43,7 ?g, Zinc (Zinc sulphate monohydrate) 5,0 mg, Copper (Copper(II) sulphate pentahydrate) 0,2 mg, Manganese (Manganous sulphate monohydrate) 1,7 mg, Iodine (Potassium iodide) 0,7 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place.",
+  "images": [
+    {
+      "id": 28200,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW008.jpg",
+      "alt": "Migliorcane Unico ADULT MINI DELICATE TURKEY PATÉ 100Gr",
+      "name": "MDW008"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": false,
+  "addToCartUrl": "https://petstore.co.ke/product/migliorcane-unico-adult-mini-delicate-turkey-pate-100gr/?add-to-cart=40835",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-11-08T09:38:17",
+  "dateModified": "2026-05-06T17:08:59",
+  "brand": null,
+  "weight_kg": 0.1,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW008.jpg"
+}

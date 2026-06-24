@@ -1,0 +1,97 @@
+{
+  "id": 48248,
+  "name": "Smart Choice Rubber & Rope Tug Dog Toy (Sc972)",
+  "slug": "smart-choice-rubber-rope-tug-dog-toy-sc972",
+  "sku": "SC972@F",
+  "onSale": true,
+  "price": 900,
+  "regularPrice": 1500,
+  "salePrice": 900,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/05/SC972.jpg",
+  "categories": [
+    {
+      "id": 2358,
+      "name": "Chew Toys",
+      "slug": "dog-chew-toys"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2357,
+      "name": "Dog Fetch Toys",
+      "slug": "dog-fetch-toys"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2359,
+      "name": "Rope & Tug Toys",
+      "slug": "dog-rope-tug-toys"
+    },
+    {
+      "id": 2139,
+      "name": "toys",
+      "slug": "toys"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=48248",
+  "shortDescription": "Sometimes a dog just needs to play and what better way than with a tough tug toy. This durable toy is great for indoor games of tug and pull, keeping your pet amused for hours. The knotted rope and strong rubber help to keep your dog's teeth and gums healthy whilst satisfying their natural instinct to chew.",
+  "description": "Designed to keep your dog happy and healthy through fun games of throw and fetch. The strong rubber structure is a great chewy toy, strengthening the jaw and satisfying your pet's natural instinct to chew. This lightweight and robust toy is a gentle on your dog's mouth, helping to keep gums and teeth healthy. Whilst chewing the nubs and ridges massage your dog's gums, reducing the build-up of plaque and tarter. Available in Blue, Green and Pink. We cannot guarantee which colour you will receive when you purchase online Length: 60cm",
+  "images": [
+    {
+      "id": 47377,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/05/SC972.jpg",
+      "alt": "Smart Choice Rubber & Rope Tug Dog Toy (Sc972)",
+      "name": "SC972"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/smart-choice-rubber-rope-tug-dog-toy-sc972/?add-to-cart=48248",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2024-07-03T08:49:12",
+  "dateModified": "2026-05-06T17:10:18",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/05/SC972.jpg"
+}

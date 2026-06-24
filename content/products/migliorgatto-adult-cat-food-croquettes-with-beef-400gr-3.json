@@ -1,0 +1,67 @@
+{
+  "id": 44153,
+  "name": "SHORT EXPIRY-CLEARANCE: Migliorgatto Adult Cat Food Croquettes With Beef 400g",
+  "slug": "migliorgatto-adult-cat-food-croquettes-with-beef-400gr-3",
+  "sku": "MCD004@SE",
+  "onSale": true,
+  "price": 275,
+  "regularPrice": 550,
+  "salePrice": 275,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MCD004.jpg",
+  "categories": [
+    {
+      "id": 2163,
+      "name": "Miglior",
+      "slug": "miglior"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 1303,
+      "name": "Clearance",
+      "slug": "clearance"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=44153",
+  "shortDescription": "Formula designed to guarantee the key nutrients required for the well-being of your cat, including vitamins, Omega 3, calcium and phosphorous to support strong bones and teeth, healthy skin and glossy coat, and toned musculature.",
+  "description": "COMPOSITION: Cereals, meat and animal derivatives 42% (beef 4%), oil and fats, derivatives of vegetable origin, minerals, yeasts. ANALYTICAL CONSTITUENTS: Crude protein 30.00%, Crude fibres 2.00%, Crude fat 11.00%, Crude ash 9.00%, Calcium 2.3%, Phosphorus 1.5%, Sodium 0.65%, Omega 3 fatty acids0.29%, Omega 6 fatty acids 1.6%. Nutritional additives / kg: Vitamin A 13400 IU, Vitamin D3 930 IU, Vitamin E 85 mg, Iron (Iron (II) carbonate (siderite)) 37.2 mg, Zinc (Zinc oxide) 74.4 mg,Copper (Copper (II) sulphate pentahydrate) 6.1 mg, Manganese (Manganese (II) oxide) 3.7 mg, Iodine (Potassium iodide) 1.9 mg, Selenium (Sodiumselenite) 0.1 mg. Antioxidants. HOW TO USE: The product is ready to use. The daily amount recommended may vary due to age or particular needs of every cat. We suggest to switch gradually to thenew food. Leave always available to your cat a bowl of pure water. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight",
+  "images": [
+    {
+      "id": 28234,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MCD004.jpg",
+      "alt": "Migliorgatto croquettes WITH Beef 400Gr",
+      "name": "MCD004"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/migliorgatto-adult-cat-food-croquettes-with-beef-400gr-3/?add-to-cart=44153",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2024-02-07T09:38:47",
+  "dateModified": "2026-05-06T17:09:30",
+  "brand": null,
+  "weight_kg": 0.405,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MCD004.jpg"
+}

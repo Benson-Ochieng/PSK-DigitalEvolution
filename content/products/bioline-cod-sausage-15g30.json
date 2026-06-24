@@ -1,0 +1,72 @@
+{
+  "id": 33115,
+  "name": "Bioline Cod Sausage 15G x30pcs",
+  "slug": "bioline-cod-sausage-15g30",
+  "sku": "BLCS15",
+  "onSale": false,
+  "price": 650,
+  "regularPrice": 650,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/11/BLCS15-Bioline-Cod-Sausage-15g-30pcs.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=33115",
+  "shortDescription": "The product contains natural ingredients, unsaturated fatty acids and trace elements with low fat and low calories and can be used as a training dog treat.",
+  "description": "BIOLINE COD SAUSAGE: The product contains natural ingredients, unsaturated fatty acids and trace elements with low fat and low calories and can be used as a training dog treat. Ingredients: Cod, Corn Starch, Vegetable Protein, Vitamins, etc Suitable for All Dogs",
+  "images": [
+    {
+      "id": 33093,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/11/BLCS15-Bioline-Cod-Sausage-15g-30pcs.jpg",
+      "alt": "Bioline Cod Sausage 15G x30pcs",
+      "name": "BLCS15- Bioline Cod Sausage 15g (30pcs)"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/bioline-cod-sausage-15g30/?add-to-cart=33115",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-12-04T10:07:18",
+  "dateModified": "2026-05-06T17:08:25",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/11/BLCS15-Bioline-Cod-Sausage-15g-30pcs.jpg"
+}

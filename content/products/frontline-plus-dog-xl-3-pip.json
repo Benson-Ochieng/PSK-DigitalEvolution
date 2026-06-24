@@ -1,0 +1,83 @@
+{
+  "id": 24617,
+  "name": "Frontline Plus Dog Spot-On (Fipronil) for X-Large Dogs 40–60 kg – 3 Pipettes",
+  "slug": "frontline-plus-dog-xl-3-pip",
+  "sku": "FPDXL3",
+  "onSale": false,
+  "price": 6560,
+  "regularPrice": 6560,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/FPDXL3.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2362,
+      "name": "Dog Healthcare Supplies",
+      "slug": "dog-healthcare-supplies"
+    },
+    {
+      "id": 2363,
+      "name": "Flea & Tick Control",
+      "slug": "dog-flea-tick"
+    },
+    {
+      "id": 2124,
+      "name": "Frontline",
+      "slug": "frontline"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2440,
+      "name": "Frontline",
+      "slug": "frontline"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1149,
+      "name": "flea & tick",
+      "slug": "flea-tick"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/frontline-plus-dog-xl-3-pip/",
+  "shortDescription": "Contains Fipronil, Frontline provides fast and effective protection against fleas and ticks. It kills adult fleas and ticks for up to 30 days while helping to break the flea life cycle by targeting flea eggs and larvae. Easy to apply and long-lasting, Frontline helps keep your pet protected and comfortable month after month.",
+  "description": "Protect your pets with FRONTLINE Plus Flea & Tick Treatment - a trusted, fast-acting solution designed to keep dogs and cats protected from fleas, ticks, and other common parasites. Suitable for pets 8 weeks and older, this easy-to-apply topical treatment delivers long-lasting, waterproof protection for up to 30 days with just one application. Formulated to kill adult fleas, flea eggs, flea larvae, ticks, chewing lice, and mites, FRONTLINE Plus helps break the flea life cycle and prevent reinfestation. The treatment is stored in your pet’s natural skin oils, continuously protecting them even after bathing or exposure to water. Key Benefits Fast-acting and long-lasting flea & tick protection Kills fleas, flea eggs, larvae, ticks, chewing lice, and mites Waterproof formula effective 24 hours after application Easy monthly topical application Suitable for dogs and cats aged 8 weeks and older Helps prevent reinfestation by breaking the flea life cycle For optimal protection, apply once every month as directed.",
+  "images": [
+    {
+      "id": 24637,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/FPDXL3.jpg",
+      "alt": "Frontline Plus Dog Spot-On (Fipronil) for X-Large Dogs 40–60 kg – 3 Pipettes",
+      "name": "FPDXL3.jpg"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/frontline-plus-dog-xl-3-pip/?add-to-cart=24617",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-01-15T21:40:51",
+  "dateModified": "2026-06-17T04:28:47",
+  "brand": "Frontline",
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/FPDXL3.jpg"
+}

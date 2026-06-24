@@ -1,0 +1,83 @@
+{
+  "id": 56703,
+  "name": "Montego Monty & Me Adult Cat - 20kg",
+  "slug": "montego-monty-me-adult-cat-20-kg",
+  "sku": "MCAT20",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-38.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 2298,
+      "name": "Montego",
+      "slug": "montego"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2453,
+      "name": "Montego",
+      "slug": "montego"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=56703",
+  "shortDescription": "Monty & Me is a delicious, well-balanced food that’s got everything your little one needs to stay healthy and happy!",
+  "description": "YUMMINESS & STRENGTH Optimum protein and fat levels make Monty & Me taste great and help keep your little one strong, healthy and in tip-top condition. HAPPY, HEALTHY EYES & HEART High-quality animal proteins with added essential dietary Taurine, support healthy heart function and strong vision SAFE, SOUND IMMUNE SYSTEM Natural antioxidants, Vitamin E and C, are essential for muscle and circulatory system health and helps prevent cell damage. GET UP & GO-GO-GO Essential nutrients, vitamins, minerals and Taurine provide your kitty with all the energy needed for playfulness, happiness and health.",
+  "images": [
+    {
+      "id": 56705,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-38.png",
+      "alt": "Montego Monty & Me Adult Cat - 20kg",
+      "name": "Untitled design (38)"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": false,
+  "addToCartUrl": "https://petstore.co.ke/product/montego-monty-me-adult-cat-20-kg/?add-to-cart=56703",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2025-07-11T08:39:00",
+  "dateModified": "2026-06-17T04:34:29",
+  "brand": "Montego",
+  "weight_kg": 20,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-38.png"
+}

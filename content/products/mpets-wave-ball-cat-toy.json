@@ -1,0 +1,82 @@
+{
+  "id": 27317,
+  "name": "Mpets Wave Ball Cat Toy",
+  "slug": "mpets-wave-ball-cat-toy",
+  "sku": "MPCTWB",
+  "onSale": false,
+  "price": 800,
+  "regularPrice": 800,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/MPCTWB.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2342,
+      "name": "Cat Toys",
+      "slug": "cat-toys"
+    },
+    {
+      "id": 2135,
+      "name": "MPETS",
+      "slug": "mpets"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27317",
+  "shortDescription": "Mpets Cat Toy Wave Ball",
+  "description": "Mpets Cat Toy Wave Ball (12x12x12 cm)",
+  "images": [
+    {
+      "id": 27313,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPCTWB.jpg",
+      "alt": "Mpets Wave Ball Cat Toy",
+      "name": "MPCTWB"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/mpets-wave-ball-cat-toy/?add-to-cart=27317",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-04-20T16:20:41",
+  "dateModified": "2026-05-06T17:08:05",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPCTWB.jpg"
+}

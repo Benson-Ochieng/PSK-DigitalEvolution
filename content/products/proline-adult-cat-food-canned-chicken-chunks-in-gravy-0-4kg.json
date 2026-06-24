@@ -1,0 +1,63 @@
+{
+  "id": 50781,
+  "name": "Proline Adult Cat Food Canned - Chicken Chunks inGravy 0.4kg",
+  "slug": "proline-adult-cat-food-canned-chicken-chunks-in-gravy-0-4kg",
+  "sku": "PCW002@F",
+  "onSale": true,
+  "price": 162,
+  "regularPrice": 249,
+  "salePrice": 162,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/11/PROLINE-CANNED-CAT-FOOD-CHICKEN-400GR.png",
+  "categories": [
+    {
+      "id": 796,
+      "name": "Proline",
+      "slug": "proline"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2241,
+      "name": "Proline",
+      "slug": "proline"
+    }
+  ],
+  "tags": [
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=50781",
+  "shortDescription": "(4 pieces minimum order) Fully balanced all-natural wet cat food with chicken protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult cats.",
+  "description": "Proline Adult Cat Food Canned - Chicken Chunks in Gravy , fully balanced all-natural cat food with chicken protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult cats. NUTRIENT COMPONENTS Protein ......................................................... 6.5% Fat..................................................................3.5% Crude Ash ........................................................ 2% Crude Cellulose (Fiber)....................................0.3% Moisture..............................................................82% INGREDIENTS: Meat and animal derivatives (4% chicken), cereals, minerals, vegetable by-products, sugar. MINERALS: Biotin, Taurine, Zinc, Manganese, Copper. VITAMINS: Vit. D3, Vit. E.",
+  "images": [
+    {
+      "id": 50367,
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/11/PROLINE-CANNED-CAT-FOOD-CHICKEN-400GR.png",
+      "alt": "Proline Adult Cat Food Canned - Chicken Chunks inGravy 0.4kg",
+      "name": "PROLINE CANNED CAT FOOD CHICKEN 400GR"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/proline-adult-cat-food-canned-chicken-chunks-in-gravy-0-4kg/?add-to-cart=50781",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2024-10-13T13:07:57",
+  "dateModified": "2026-05-06T17:10:36",
+  "brand": "Proline",
+  "weight_kg": 0.415,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/11/PROLINE-CANNED-CAT-FOOD-CHICKEN-400GR.png"
+}

@@ -1,0 +1,87 @@
+{
+  "id": 33121,
+  "name": "Cat Litter Scooper Pink Small",
+  "slug": "cat-litter-scooper-pink-small",
+  "sku": "CLSPS",
+  "onSale": false,
+  "price": 232,
+  "regularPrice": 232,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/11/CLSPS-Cat-Litter-Scooper-Pink-Small.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2343,
+      "name": "Cat Grooming",
+      "slug": "cat-grooming"
+    },
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    },
+    {
+      "id": 2331,
+      "name": "Litter and Litter Box & Accessories",
+      "slug": "cat-litter-and-accessories"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 819,
+      "name": "cat litter",
+      "slug": "cat-litter"
+    },
+    {
+      "id": 2098,
+      "name": "Grooming & Tools",
+      "slug": "grooming-tools"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=33121",
+  "shortDescription": "Lightweight Cat Litter Scoop",
+  "description": "This cat litter scooper is portable, lightweight, and durable. ? Flat, thin, & sharp leading edge sits flush against your cat litter box floor to scoop underneath cat litter, rather than into clumped litter. ? Faster sifting. ? High walls on this litter scoop prevent scatter. ? Comfortable, ergonomic & longer type handle.",
+  "images": [
+    {
+      "id": 33098,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/11/CLSPS-Cat-Litter-Scooper-Pink-Small.jpg",
+      "alt": "Cat Litter Scooper Pink Small",
+      "name": "CLSPS &#8211; Cat Litter Scooper Pink Small"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/cat-litter-scooper-pink-small/?add-to-cart=33121",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-12-04T11:01:08",
+  "dateModified": "2026-06-24T13:11:58",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/11/CLSPS-Cat-Litter-Scooper-Pink-Small.jpg"
+}

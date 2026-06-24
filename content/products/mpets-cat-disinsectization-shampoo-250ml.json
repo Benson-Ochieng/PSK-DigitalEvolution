@@ -1,0 +1,87 @@
+{
+  "id": 27307,
+  "name": "Mpets Cat Disinsectization Shampoo 250Ml",
+  "slug": "mpets-cat-disinsectization-shampoo-250ml",
+  "sku": "MPCDS1",
+  "onSale": false,
+  "price": 650,
+  "regularPrice": 650,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/MPCDS1.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2337,
+      "name": "Cat Healthcare Supplies",
+      "slug": "cat-healthcare"
+    },
+    {
+      "id": 2338,
+      "name": "Flea & Tick",
+      "slug": "cat-flea-tick"
+    },
+    {
+      "id": 2135,
+      "name": "MPETS",
+      "slug": "mpets"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 1149,
+      "name": "flea & tick",
+      "slug": "flea-tick"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 2025,
+      "name": "shampoo",
+      "slug": "shampoo"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27307",
+  "shortDescription": "Mpets Cat Disinsectization Shampoo – Professional Care",
+  "description": "Description: This shampoo, prevents and treats skin lesions such as itching, rash and hair loss, caused by mites, fleas, lice and other ectoparasites. Composition: Margosa extract, jojoba oil, lavender oil, citronella oil and colourants",
+  "images": [
+    {
+      "id": 27308,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPCDS1.jpg",
+      "alt": "Mpets Cat Disinsectization Shampoo 250Ml",
+      "name": "MPCDS1"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/mpets-cat-disinsectization-shampoo-250ml/?add-to-cart=27307",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-04-20T16:20:41",
+  "dateModified": "2026-05-06T17:08:05",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPCDS1.jpg"
+}

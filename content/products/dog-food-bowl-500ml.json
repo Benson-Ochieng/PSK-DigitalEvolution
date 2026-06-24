@@ -1,0 +1,87 @@
+{
+  "id": 18063,
+  "name": "Dog Food Bowl 500ml",
+  "slug": "dog-food-bowl-500ml",
+  "sku": "DFBEM500R",
+  "onSale": false,
+  "price": 200,
+  "regularPrice": 200,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/DFBEL1500R.jpg",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2366,
+      "name": "Dog Bowls & Feeders",
+      "slug": "dog-bowls-feeders"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2072,
+      "name": "Bowls",
+      "slug": "bowls"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=18063",
+  "shortDescription": "Small Plastic Dog feeding bowl 500ml – Red",
+  "description": "Small Plastic Dog feeding bowl 500ml - Red",
+  "images": [
+    {
+      "id": 18015,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/DFBEL1500R.jpg",
+      "alt": "Large-Dog Food Bowl 1500ml Red",
+      "name": "DFBEL1500R"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/dog-food-bowl-500ml/?add-to-cart=18063",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2021-01-13T22:44:09",
+  "dateModified": "2026-05-06T17:07:08",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/DFBEL1500R.jpg"
+}

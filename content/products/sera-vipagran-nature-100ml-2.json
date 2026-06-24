@@ -1,0 +1,67 @@
+{
+  "id": 54714,
+  "name": "Sera Vipagan Nature 100ml",
+  "slug": "sera-vipagran-nature-100ml-2",
+  "sku": "SVN100ML",
+  "onSale": false,
+  "price": 720,
+  "regularPrice": 720,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/04/Sera-Vipagran-Nature-100ml.png",
+  "categories": [
+    {
+      "id": 2285,
+      "name": "Fish",
+      "slug": "fish"
+    },
+    {
+      "id": 2410,
+      "name": "Fish Food & Treats",
+      "slug": "fish-food-treats"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 2317,
+      "name": "fish",
+      "slug": "fish"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/sera-vipagran-nature-100ml-2/",
+  "shortDescription": "Sera Vipagran Nature is the staple food consisting of gently manufactured soft granules without dyes and preservatives for all fish eating in the middle water layers.",
+  "description": "It contains insect meal as a high quality protein source which is also resource saving. The balanced composition with natural ingredients and prebiotics allows for a nutrition particularly close to nature that supports healthy growth and strong development. The slowly sinking granules with excellent digestibility keep their shape particularly well and do not pollute the water. Due to the soft, smooth structure of the particles the tasty, balanced food is suited also for fish with a small mouth and a narrow throat. Natural ornamental fish diet This product belongs to the “sera Nature” product range, which does not require any dyes nor preservatives. A varied diet with ingredients close to nature is the best protection against deficiencies, and supports the health and liveliness of the fish. The Nature food types therefore contain natural ingredients such as Spirulina, Krill or sustainable insect meal from soldier fly larvae (Hermetia). The signets on the front side of the package highlight these ingredients and their amounts in the food.",
+  "images": [
+    {
+      "id": 54715,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/04/Sera-Vipagran-Nature-100ml.png",
+      "alt": "Sera Vipagan Nature 100ml",
+      "name": "Sera Vipagran Nature 100ml"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/sera-vipagran-nature-100ml-2/?add-to-cart=54714",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2025-04-16T11:13:08",
+  "dateModified": "2026-06-17T04:18:45",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/04/Sera-Vipagran-Nature-100ml.png"
+}

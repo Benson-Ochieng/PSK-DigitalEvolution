@@ -1,0 +1,83 @@
+{
+  "id": 37055,
+  "name": "3 Reflex Adult Cat Food (Fish) + Premium Dual Cat Bowl",
+  "slug": "3-reflex-adult-cat-food-fish-premium-dual-cat-bowl",
+  "sku": "PSK-37055",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/06/Petstore-kenya-nairobi-reflex-cat-fish-premium-bowl-promotion-min.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2344,
+      "name": "Cat Bowls & Feeders",
+      "slug": "cat-bowls-and-feeders"
+    },
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2170,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2072,
+      "name": "Bowls",
+      "slug": "bowls"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=37055",
+  "shortDescription": "BUY 3 Reflex Adult Cat Food – Fish (1.5kg) GET FREE Premium Dual Cat Bowl.",
+  "description": "BUY 3 Reflex Adult Cat Food - Fish (1.5kg) GET FREE Premium Dual Cat Bowl.",
+  "images": [
+    {
+      "id": 2321,
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/06/Petstore-kenya-nairobi-reflex-cat-fish-premium-bowl-promotion-min.png",
+      "alt": "Petstore kenya nairobi reflex cat fish premium bowl promotion min",
+      "name": "Petstore kenya nairobi reflex cat fish premium bowl promotion min"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/3-reflex-adult-cat-food-fish-premium-dual-cat-bowl/?add-to-cart=37055",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-05-15T11:14:42",
+  "dateModified": "2026-05-06T17:08:38",
+  "brand": "Reflex",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/06/Petstore-kenya-nairobi-reflex-cat-fish-premium-bowl-promotion-min.png"
+}

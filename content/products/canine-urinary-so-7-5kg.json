@@ -1,0 +1,93 @@
+{
+  "id": 23671,
+  "name": "Royal Canine Urinary SO 7.5kg",
+  "slug": "canine-urinary-so-7-5kg",
+  "sku": "ROC-VHND-121",
+  "onSale": false,
+  "price": 12500,
+  "regularPrice": 12500,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-VHND-121.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2104,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2423,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 1034,
+      "name": "large breed",
+      "slug": "large-breed"
+    },
+    {
+      "id": 2319,
+      "name": "Veterinary Range",
+      "slug": "veterinary-range"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=23671",
+  "shortDescription": "Urinary S/O is for the nutritional management of dogs with struvite or oxalate crystals and lower urinary tract disease",
+  "description": "Urinary S/O is for the nutritional management of dogs with struvite or oxalate crystals and lower urinary tract disease. Recommended for cases of (indications): Struvite uroliths: dissolution and management of recurrence, Calcium oxalate uroliths: management of recurrence, Bacterial cystitis: management of secondary struvitecrystalluria (in association with adequate antibiotic therapy.) Not recommended in case of (contraindications): Chronic Kidney Disease (CKD), Heart disease (when sodium restriction is sought), Concurrent use of urine-acidifying drugs, Growth, gestation, lactation, Pancreatitis or a history of pancreatitis, Hyperlipidaemia. This diet is complete and balanced and can be fed long-term. A full health check should be performed by a veterinarian every 6 months. It is recommended that a veterinarian?s opinion be sought before use. Feed Urinary S/O for 5 to 12 weeks for the dissolution of struvite stones and up to 6 months for the reduction of struvite stone recurrence. In older dogs, renal function should be checked before recommendation. Water should be available at all times. Composition: maize flour, rice, animal fats, dehydrated poultry protein, maize gluten, minerals, hydrolysed animal proteins, vegetable fibres, soya oil, fish oil, fructo-oligo-saccharides, mono - and diglycerides of palmitic and stearic acids esterified with citric acid, marigold extract (source of lutein). Protein sources: dehydrated poultry protein, maize gluten, hydrolysed animal proteins. Nutritional additives: Vitamin A: 15500 IU, Vitamin D3: 1000 IU, E1 (Iron): 44 mg, E2 (Iodine): 4.4 mg, E4 (Copper): 13 mg, E5 (Manganese): 57 mg, E6 (Zinc): 147 mg, E8 (Selenium): 0.06 mg, Urine acidifying substances: calcium sulphate (0.88%).Preservatives - Antioxidants. Analytical constituents: Protein: 18.0% - Fat content: 17.0% - Crude ash: 6.4% - Crude fibres: 2.2% - Calcium: 0.5% - Phosphorous: 0.5% - Sodium: 1.1% - Chloride: 2.14% - Potassium: 0.8%- Magnesium: 0.04% - Sulphur: 0.5% - Urine acidifying substances: calcium sulfate (0.88%) DL - methionine (0.6%)- EPA and DHA: 0.21%. Metabolisable energy: 388 kcal/100g.",
+  "images": [
+    {
+      "id": 23693,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-VHND-121.jpg",
+      "alt": "Royal Canine Urinary SO 7.5kg",
+      "name": "ROC-VHND-121.jpg"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/canine-urinary-so-7-5kg/?add-to-cart=23671",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2021-10-08T11:34:45",
+  "dateModified": "2026-06-17T04:23:42",
+  "brand": "Royal Canin",
+  "weight_kg": 7.5,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-VHND-121.jpg"
+}

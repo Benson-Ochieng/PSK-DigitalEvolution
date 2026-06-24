@@ -1,0 +1,87 @@
+{
+  "id": 27396,
+  "name": "Mpets Hairball Prevention Shampoo For Cats 250Ml",
+  "slug": "mpets-hairball-prevention-shampoo-for-cats-250ml",
+  "sku": "MPHPSC",
+  "onSale": false,
+  "price": 650,
+  "regularPrice": 650,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/MPHPSC.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2337,
+      "name": "Cat Healthcare Supplies",
+      "slug": "cat-healthcare"
+    },
+    {
+      "id": 2338,
+      "name": "Flea & Tick",
+      "slug": "cat-flea-tick"
+    },
+    {
+      "id": 2135,
+      "name": "MPETS",
+      "slug": "mpets"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 1149,
+      "name": "flea & tick",
+      "slug": "flea-tick"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 2025,
+      "name": "shampoo",
+      "slug": "shampoo"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27396",
+  "shortDescription": "Mpets Hairball Prevention – Cat Shampoo",
+  "description": "Mpets Hairball Prevention Shampoo For Cats",
+  "images": [
+    {
+      "id": 27365,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPHPSC.jpg",
+      "alt": "Mpets Hairball Prevention Shampoo For Cats 250Ml",
+      "name": "MPHPSC"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/mpets-hairball-prevention-shampoo-for-cats-250ml/?add-to-cart=27396",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-04-20T16:20:36",
+  "dateModified": "2026-05-06T17:08:07",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPHPSC.jpg"
+}

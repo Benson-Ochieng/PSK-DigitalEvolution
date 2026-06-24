@@ -1,0 +1,63 @@
+{
+  "id": 62606,
+  "name": "King Canned Dog Food - Beef Chunks in Gravy 400g",
+  "slug": "king-canned-dog-food-beef-chunks-in-gravy-400gr-2",
+  "sku": "KDW001@F",
+  "onSale": true,
+  "price": 164,
+  "regularPrice": 252,
+  "salePrice": 164,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/06/KING-3.png",
+  "categories": [
+    {
+      "id": 178,
+      "name": "King",
+      "slug": "king"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2446,
+      "name": "King",
+      "slug": "king"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2223,
+      "name": "flash",
+      "slug": "flash"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=62606",
+  "shortDescription": "Give your adult dog a nutritious, all-natural meal with King Adult Dog Food Canned – Beef . Carefully formulated by dog nutritionists, this fully balanced canned food is made with real beef (4%) and enriched with essential vitamins and minerals to support overall health.",
+  "description": "Provide your adult dog with a fully balanced, all-natural meal with King Adult Dog Food Canned -Beef . Carefully formulated by dog nutritionists, this savory canned food is rich in high-quality beef protein and essential nutrients to support your dog’s overall health and wellbeing. Key Benefits: High-quality protein: Supports muscle maintenance and energy for active adult dogs Balanced nutrition: Meets the complete nutritional requirements for adult dogs Hydration support: Moisture-rich formula (82%) helps keep dogs hydrated Vitamins & minerals: Includes Vitamin D3, Vitamin E, Zinc, Manganese, and Copper for strong bones, healthy skin, and immune support Easy to serve: Soft, palatable texture dogs enjoy Nutrient Components: Protein: 6.5% Fat: 3.5% Crude Ash: 2% Crude Fiber: 0.3% Moisture: 82% Ingredients: Meat and animal derivatives (4% beef), cereals, minerals, vegetable by-products, sugar Feeding Directions: Serve at room temperature. Always provide clean, fresh drinking water. Once opened, cover and refrigerate; use within 2 days. Not suitable for human consumption. Storage & Expiry: Check the bottom of the can for best before date and batch number. &nbsp;",
+  "images": [
+    {
+      "id": 62315,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/06/KING-3.png",
+      "alt": "King Canned Dog Food – Beef Chunks in Gravy 400g",
+      "name": "KING (3)"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": false,
+  "addToCartUrl": "https://petstore.co.ke/product/king-canned-dog-food-beef-chunks-in-gravy-400gr-2/?add-to-cart=62606",
+  "status": "draft",
+  "featured": true,
+  "catalogVisibility": "visible",
+  "dateCreated": "2025-11-21T10:45:23",
+  "dateModified": "2026-06-17T04:33:58",
+  "brand": "King",
+  "weight_kg": 0.415,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/06/KING-3.png"
+}

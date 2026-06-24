@@ -1,0 +1,98 @@
+{
+  "id": 14858,
+  "name": "SHORT EXPIRY - CLEARANCE: Reflex Cat Treats - 100% Natural Mini Salmon & Cod Flakes 50g",
+  "slug": "short-expiry-clearance-reflex-cat-treats-100-natural-mini-salmon-cod-flakes-50g",
+  "sku": "RCT010@SE",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/02/Reflex-Adult-Cat-Treats-Salmon-Cod-Flakes-50-g-min.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2330,
+      "name": "Cat Treats",
+      "slug": "cat-treats"
+    },
+    {
+      "id": 1304,
+      "name": "Clearance",
+      "slug": "clearance"
+    },
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2719,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 2108,
+      "name": "Mini breeds",
+      "slug": "mini-breeds"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=14858",
+  "shortDescription": "Reflex Cat Treats. 100% Natural Mini Salmon and Cod Flakes are super-premium cat treats that are easily digested due to its high meat content. Includes fatty acids that support healthy skin and coat health.",
+  "description": "Reflex Adult Cat Treats - 100% Natural Mini Salmon & Cod Flakes are super-premium cat treats that can easily be digested due to its high meat content. It will not cause weight gain as it was low calorie. The fatty acids in it support skin and coat health. INGREDIENTS: s almon (50%), cod fish (30%), starch, plant protein, glycerin, sorbitol, salt, potassium sorbate. NUTRIENT COMPONENTS Crude Protein (%) - 32 Crude Fat (%) - 5 Crude Ash (%) - 5 Crude Fiber (%) - 1 Moisture (%) - 20 FEEDING RECOMMENDATIONS: Recommended for all adult cats as a snack in addition to meals. This product does not replace your cat's daily food requirement. Store in a cool, dry place.",
+  "images": [
+    {
+      "id": 11981,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/02/Reflex-Adult-Cat-Treats-Salmon-Cod-Flakes-50-g-min.png",
+      "alt": "Reflex Adult Cat Treats Salmon Cod Flakes 50 g min",
+      "name": "Reflex Adult Cat Treats Salmon Cod Flakes 50 g min"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": 10,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-reflex-cat-treats-100-natural-mini-salmon-cod-flakes-50g/?add-to-cart=14858",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2020-08-20T15:56:50",
+  "dateModified": "2026-05-06T17:06:37",
+  "brand": "Reflex",
+  "weight_kg": 0.05,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/02/Reflex-Adult-Cat-Treats-Salmon-Cod-Flakes-50-g-min.png"
+}

@@ -1,0 +1,93 @@
+{
+  "id": 37121,
+  "name": "SHORT EXPIRY-CLEARANCE: Proline Adult Dog Food - Chicken 3kg",
+  "slug": "short-expiry-clearance-proline-adult-dog-food-chicken-3kg",
+  "sku": "PDD001@SE",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/07/Pet-Store-Kenya-Nairobi-Proline-Dog-Food-Chicken-3kg-min.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 796,
+      "name": "Proline",
+      "slug": "proline"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2059,
+      "name": "Proline",
+      "slug": "proline"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1303,
+      "name": "Clearance",
+      "slug": "clearance"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 637,
+      "name": "kibble",
+      "slug": "kibble"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=37121",
+  "shortDescription": "Fully balanced all-natural dog food with chicken protein plus brewer's yeast and whey protein for immune support and omega -3 and -6 from flaxseed. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult dogs.",
+  "description": "Proline Adult Dog Food - Chicken , fully balanced all-natural dog food with chicken protein plus brewer's yeast and whey protein for immune support and omega -3 and -6 from flaxseed. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult dogs. NUTRIENT COMPONENTS Protein ............... 23% Fat .............................12% Crude Cellulose (Fiber) ...............4% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Wheat Middlings, Corn Gluten, Dried Sugar Beet, Chicken Liver Aroma, Rice, Salt, Whey Powder, Flaxseed, Dried Brewer's Yeast. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
+  "images": [
+    {
+      "id": 2543,
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/07/Pet-Store-Kenya-Nairobi-Proline-Dog-Food-Chicken-3kg-min.png",
+      "alt": "Pet Store Kenya Nairobi Proline Dog Food Chicken 3kg min",
+      "name": "Pet Store Kenya Nairobi Proline Dog Food Chicken 3kg min"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-proline-adult-dog-food-chicken-3kg/?add-to-cart=37121",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-05-18T10:03:48",
+  "dateModified": "2026-05-06T17:08:40",
+  "brand": "Proline",
+  "weight_kg": 3,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/07/Pet-Store-Kenya-Nairobi-Proline-Dog-Food-Chicken-3kg-min.png"
+}

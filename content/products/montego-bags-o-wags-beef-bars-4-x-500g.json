@@ -1,0 +1,108 @@
+{
+  "id": 56551,
+  "name": "Montego Bags O' Wags Beef Bars - 500g",
+  "slug": "montego-bags-o-wags-beef-bars-4-x-500g",
+  "sku": "BWBB500@F",
+  "onSale": false,
+  "price": 1415,
+  "regularPrice": 1415,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-3.png",
+  "categories": [
+    {
+      "id": 2380,
+      "name": "Bags-o-wags",
+      "slug": "bags-o-wags"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 2298,
+      "name": "Montego",
+      "slug": "montego"
+    },
+    {
+      "id": 2349,
+      "name": "Wet Dog Food",
+      "slug": "wet-dog-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2425,
+      "name": "Bags-o-wags",
+      "slug": "bags-o-wags"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2108,
+      "name": "Mini breeds",
+      "slug": "mini-breeds"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    },
+    {
+      "id": 2109,
+      "name": "Small breeds",
+      "slug": "small-breeds"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=56551",
+  "shortDescription": "The Montego Bags O’ Wags range of treats makes for an excellent reward for good behaviour. It is a tempting incentive when training or a between-meal snack that hits the spot.",
+  "description": "Ideal for daily use, Bags O’ Wags treats make the perfect complement to every Montego Pet Nutrition dry or wet food diet. Bags O’ Wags treats are made to the same high standards as all Montego Pet Nutrition products, using only the finest ingredients, prepared to perfection in our world-class facility. Chewies Beef Bars Dog Treats are Highly nutritious, wagtastically delicious, treats that dogs love to munch on and they're full of yummy goodness.",
+  "images": [
+    {
+      "id": 56552,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-3.png",
+      "alt": "Montego Bags O' Wags Beef Bars - 500g",
+      "name": "Untitled design (3)"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/montego-bags-o-wags-beef-bars-4-x-500g/?add-to-cart=56551",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2025-07-08T16:26:50",
+  "dateModified": "2026-06-17T04:32:41",
+  "brand": "Bags-o-wags",
+  "weight_kg": 0.1,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-3.png"
+}

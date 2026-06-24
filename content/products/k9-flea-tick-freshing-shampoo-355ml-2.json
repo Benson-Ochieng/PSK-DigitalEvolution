@@ -1,0 +1,57 @@
+{
+  "id": 37992,
+  "name": "K9 Flea & Tick Freshing Shampoo 355ml",
+  "slug": "k9-flea-tick-freshing-shampoo-355ml-2",
+  "sku": "K9FTS355",
+  "onSale": false,
+  "price": 600,
+  "regularPrice": 600,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/07/K9-Fresh-clean-355ml-1.png",
+  "categories": [
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2098,
+      "name": "Grooming & Tools",
+      "slug": "grooming-tools"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=37992",
+  "shortDescription": "K9 Fresh & Clean – Flea & Tick Freshing Shampoo",
+  "description": "K9 Fresh & Clean – Flea & Tick Freshing Shampoo solve the problem of pet contaminated with urine stains, grease, and difficult to remove stains and troubled by lice flea and bring the hair back to health. Benefits Antibacterial deodorant Superior ability to get rid of stains. Repels Fleas & Ticks on Dogs Ingredients Polyquaternium – 10, Tea Saponin, Pyrethrins, Piperonyl Butoxide",
+  "images": [
+    {
+      "id": 38115,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/07/K9-Fresh-clean-355ml-1.png",
+      "alt": "K9 Flea & Tick Freshing Shampoo 355ml",
+      "name": "K9 Fresh clean 355ml"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/k9-flea-tick-freshing-shampoo-355ml-2/?add-to-cart=37992",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-07-03T15:18:51",
+  "dateModified": "2026-05-06T17:08:44",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/07/K9-Fresh-clean-355ml-1.png"
+}

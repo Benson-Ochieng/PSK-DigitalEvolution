@@ -1,0 +1,78 @@
+{
+  "id": 49704,
+  "name": "DEFECT/DAMAGED - CLEARANCE: Spectrum Lowgain Cat Food Sterilised Salmon & Anchovy Formula 12kg",
+  "slug": "spectrum-low-grain-cat-food-sterlised-salmon-anchovy-formula-12kg",
+  "sku": "SLGCD007@D",
+  "onSale": true,
+  "price": 10640,
+  "regularPrice": 15200,
+  "salePrice": 10640,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/11/spectrum-salmon-anchovy-cat-12kg.png",
+  "categories": [
+    {
+      "id": 180,
+      "name": "Spectrum",
+      "slug": "spectrum"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2468,
+      "name": "Spectrum",
+      "slug": "spectrum"
+    }
+  ],
+  "tags": [
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 1303,
+      "name": "Clearance",
+      "slug": "clearance"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 637,
+      "name": "kibble",
+      "slug": "kibble"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=49704",
+  "shortDescription": "Spectrum low grain cat food Salmon, Anchovy & cranberries is formulated to meet all the nutritional requirements of your neutered adult cat.",
+  "description": "Spectrum low grain cat food Salmon, Anchovy & cranberries is formulated to meet all the nutritional requirements of your neutered adult cat. Protecting Organ Health 11 different herbal extracts with antioxidant properties show natural antioxidant properties in protecting your cat's organ health against different stress factors and supporting the immune system. &nbsp; Physicium Fiber Thanks to the psyllium fiber it contains, it helps to eliminate swallowed hairballs with feces. Protection of the Urinary System Cranberry content prevents your cat from developing urinary tract infections and protects the health of the urinary system. Maintaining the Ideal Appearance L Carnitine's balancing effect on the energy metabolism, which becomes sensitive after neutering, prevents your cat from gaining excessive weight and being susceptible to metabolic diseases. Protecting Intestinal Health The fructo oligosaccharides it contains also support your cat's digestive system functions and protect intestinal health. Ingredients: Processed animal protein (min. 26% salmon and anchovy protein), grains (rice, corn, oats), anchovy oil, chicken fat, whey powder, sugar cane fiber, hydrolyzed chicken protein, krill, psyllium fiber, carob flour, pea starch, brewer's yeast, salt, blueberries, chia seeds, flaxseed, cranberries, L-carnitine, yucca schidigera, fructooligosaccharide (FOS), dried eggs, turmeric, artichokes, olives, red onions, blackberries, tomatoes, watermelon, pomegranates , thyme, rosemary, ginger extracts. MINERALS/kg: Iron (E1) 200 mg, Iodine (E2) 1.5 mg, Copper (E4) 18 mg, Manganese (E5) 70 mg, Zinc (E6) 180 mg, Selenium (E8) 0.3 mg. Nutrient Components NUTRITIONAL VALUES NUTRITIONAL SUPPLEMENTS/kg Crude Protein 34% Vitamin A (E672) 18000 IU Raw oil 14% Vitamin D3(E671) 1500 IU Ash 8% Vitamin E (3A700) 200mg Crude Cellulose (Fibre) 7% Vitamin C (Stay C) 200mg taurine 1500 mg Daily Recommended Amount of Food Cat's Weight 2kg 3kg 4kg 5kg 6 kg 7kg 8kg 9 kg 10kg Cat's Appearance Weak 30 - 35 40 - 45 50 - 60 60 - 70 70 - 80 80 - 90 - - - Normal 25 - 30 35 - 40 45 - 55 55 - 60 65 - 75 75 - 85 85 - 90 90 - 100 95 - 105 Fat - - - 50 - 60 60 - 70 70 - 75 75 - 85 80 - 90 90 - 100 Nutritional Recommendations and Warnings See the table for recommended daily feeding amounts (grams/day) according to your cat's age (months). • The amount of food to be given daily may vary depending on the outdoor temperature, your cat's living conditions (inside/outside the home), temperament and activity. • It is important to weigh the amount of food to ensure that your cat is at its ideal weight. • Evaluating your cat's appetite, appearance and feces will help in adjusting the correct amount of food to be given. • The transition from one food to another should be done gradually by mixing small amounts of both foods and giving them for a week. • Always keep clean and fresh water next to the food bowl. Change the water at least once a day, even if it looks clean. • Store the product in a dry and cool place and ensure that the packaging is tightly closed after each use. •You can see the recommended consumption date, batch code and factory approval number on the package",
+  "images": [
+    {
+      "id": 41072,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/11/spectrum-salmon-anchovy-cat-12kg.png",
+      "alt": "Spectrum Lowgain Cat Food Sterilised Salmon & Anchovy Formula 12kg",
+      "name": "spectrum salmon anchovy cat 12kg"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/spectrum-low-grain-cat-food-sterlised-salmon-anchovy-formula-12kg/?add-to-cart=49704",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2024-08-27T16:31:35",
+  "dateModified": "2026-06-17T04:35:33",
+  "brand": "Spectrum",
+  "weight_kg": 12,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/11/spectrum-salmon-anchovy-cat-12kg.png"
+}

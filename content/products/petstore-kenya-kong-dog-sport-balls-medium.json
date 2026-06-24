@@ -1,0 +1,112 @@
+{
+  "id": 16353,
+  "name": "Kong Dog Sport Balls - Medium",
+  "slug": "petstore-kenya-kong-dog-sport-balls-medium",
+  "sku": "ABS2",
+  "onSale": false,
+  "price": 800,
+  "regularPrice": 800,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/11/ABS2-3.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2342,
+      "name": "Cat Toys",
+      "slug": "cat-toys"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2357,
+      "name": "Dog Fetch Toys",
+      "slug": "dog-fetch-toys"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2031,
+      "name": "Kong",
+      "slug": "kong-accessories"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=16353",
+  "shortDescription": "KONG Medium Dog Sport Balls – Set of 2",
+  "description": "KONGSport Balls are better than a tennis ball. Made with extra-thick rubber walls, these toys are tough enough for serious games of fetch. Give them a throw and watch your dog go crazy for these rugged, bouncy balls. Tougher and safer than a tennis ball Extra bouncy for hardy games of fetch No squeaker",
+  "images": [
+    {
+      "id": 16354,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/11/ABS2-3.jpg",
+      "alt": "Kong Dog Sport Ball Medium",
+      "name": "Kong Dog Sport Ball Medium"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/petstore-kenya-kong-dog-sport-balls-medium/?add-to-cart=16353",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2020-11-25T19:48:27",
+  "dateModified": "2026-05-06T17:06:39",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/11/ABS2-3.jpg"
+}

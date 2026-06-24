@@ -1,0 +1,122 @@
+{
+  "id": 18813,
+  "name": "Donate to Nairobi Feline Sanctuary",
+  "slug": "donate-to-nairobi-feline-sanctuary",
+  "sku": "DONATE-NBO@FELINE",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/02/Donate-v5-NAIROBI-FELINE-SANCTUARY-min.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 1790,
+      "name": "Donate",
+      "slug": "donate"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2329,
+      "name": "Kitten Food",
+      "slug": "kitten-food"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1791,
+      "name": "Donate",
+      "slug": "donate"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 637,
+      "name": "kibble",
+      "slug": "kibble"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "variable",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=18813",
+  "shortDescription": "Donate ONE 15kg bag of food. For every bag you donate, WE WILL MATCH YOUR DONATION . We'll deliver your donation directly to your chosen recipient on your behalf.",
+  "description": "For every bag you donate, WE WILL MATCH YOUR DONATION. Nairobi Feline Sanctuary - an organisation that provides a forever home for rescued cats and an education centre for animal welfare and activism.",
+  "images": [
+    {
+      "id": 18744,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/02/Donate-v5-NAIROBI-FELINE-SANCTUARY-min.png",
+      "alt": "Donate to Nairobi Feline Sanctuary",
+      "name": "Donate v5 NAIROBI FELINE SANCTUARY-min"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": false,
+  "addToCartUrl": "https://petstore.co.ke/product/donate-to-nairobi-feline-sanctuary/?add-to-cart=18813",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2021-02-24T14:18:26",
+  "dateModified": "2026-05-06T17:07:15",
+  "brand": null,
+  "weight_kg": 15,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/02/Donate-v5-NAIROBI-FELINE-SANCTUARY-min.png"
+}

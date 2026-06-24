@@ -1,0 +1,68 @@
+{
+  "id": 62654,
+  "name": "Montego Sauce Plus Skin & Coat - 500 ml",
+  "slug": "montego-sauce-plus-skin-coat-500-ml-2",
+  "sku": "MSASC500@F",
+  "onSale": true,
+  "price": 847,
+  "regularPrice": 1100,
+  "salePrice": 847,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/sauce-1.png",
+  "categories": [
+    {
+      "id": 2165,
+      "name": "Dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2298,
+      "name": "Montego",
+      "slug": "montego"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2453,
+      "name": "Montego",
+      "slug": "montego"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2223,
+      "name": "flash",
+      "slug": "flash"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=62654",
+  "shortDescription": "Turn ordinary meals into a treat with Montego Sauce Plus Skin & Coat ! This delicious, nutrient-rich sauce enhances your dog’s daily dry food while promoting a healthy, shiny coat and soothing dry, flaky skin . Packed with essential vitamins, minerals, and fatty acids , it’s the perfect way to boost both your dog’s nutrition and enjoyment at mealtime.",
+  "description": "Make your dog’s daily meals both more delicious and more nutritious with Sauce for Dogs Plus - Skin & Coat Support . This functional food topper is packed with flavour and enriched with omega-3 fatty acids from fish oil to help support a healthy skin barrier and a shiny, soft coat. Made with real chicken stock, seasonal fruits and vegetables, and a blend of natural ingredients, it’s the perfect way to break the dry food routine and show your dog some extra love. Whether you pour it over or mix it in, your dog will look forward to every meal, and you’ll love the added health benefits. Key Features: Skin & Coat Support: Enriched with omega-3s from fish oil Delicious Chicken Flavour: Enhances the taste of any dry food Versatile Serving: Serve on top or mixed into food Up to 30 Servings per 500ml Bottle: Approx. 1 tbsp per ½ cup of dry food Made for Healthy Adult Dogs Ingredients: Water, chicken stock, corn starch, seasonal fruits & vegetables, sugars, acidity regulator, yeast extract, salt, stabiliser gums, spices, omega-3 powder (fish oil source), antioxidants (Tocopherols) ADDITIVES: SENSORY: Caramel and flavouring PRESERVATIVES: Vinegar and potassium sorbate Nutritional Information Nutrient Amount Crude Protein 2% Total Fat 2.75% Crude Fibre 0.35% Moisture 87.5% Omega-6 fatty acids 0.3% Omega-3 fatty acids 0.05% DHA 0.025% EPA 10mg/kg Preserved naturally with vinegar and potassium sorbate. Contains no artificial colours. Not suitable for: Puppies, kittens, cats, pregnant or lactating dogs, overweight or obese dogs, or dogs with specific medical conditions. Consult your vet before use if uncertain.",
+  "images": [
+    {
+      "id": 61020,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/sauce-1.png",
+      "alt": "Montego Sauce Plus Skin & Coat – 500 ml",
+      "name": "sauce (1)"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": false,
+  "addToCartUrl": "https://petstore.co.ke/product/montego-sauce-plus-skin-coat-500-ml-2/?add-to-cart=62654",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2025-11-21T13:49:50",
+  "dateModified": "2026-06-17T04:34:29",
+  "brand": "Montego",
+  "weight_kg": 0.1,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/sauce-1.png"
+}

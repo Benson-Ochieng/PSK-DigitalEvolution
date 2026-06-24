@@ -1,0 +1,93 @@
+{
+  "id": 3984,
+  "name": "Proline Kitten Food Pouch - Chicken Chunks in Jelly 100g",
+  "slug": "proline-kitten-food-pouch-chicken-chunks-in-jelly-0-1kg",
+  "sku": "PCW011",
+  "onSale": false,
+  "price": 130,
+  "regularPrice": 130,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/11/Proline-Kitten-Pouch-Chicken-Chunks-in-Jelly-100g-1080x1080-min.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2329,
+      "name": "Kitten Food",
+      "slug": "kitten-food"
+    },
+    {
+      "id": 796,
+      "name": "Proline",
+      "slug": "proline"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2343,
+      "name": "Proline",
+      "slug": "proline"
+    }
+  ],
+  "tags": [
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=3984",
+  "shortDescription": "(4 pieces minimum order) Fully balanced all natural wet kitten food with chicken protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all kittens.",
+  "description": "Proline Kitten Food Pouch - Chicken Chunks in Jelly , fully balanced all-natural kitten food with chicken protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all kittens. NUTRIENT COMPONENTS Protein * ???...???.? 8.5% Fat ????????.?...? 5% Crude Ash ???????? 2.5% Crude Cellulose (Fiber) ?. 0.3% Moisture ........?. 82% INGREDIENTS: Meat and animal derivatives (5% chicken), minerals, inulin (0.1%). MINERALS: Biotin, Taurine, Zinc, Manganese, Copper. VITAMINS: Vit. D3, Vit. E. DAILY FEEDING RECOMMENDATION: 3 months of age: 1-2 pouches, 4-5 months: 2-3 pouches, 6-12 months: 3-3.5 pouches. Daily requirements depends on other factors, such as age, breed and activity. Serve room temperature.",
+  "images": [
+    {
+      "id": 3923,
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/11/Proline-Kitten-Pouch-Chicken-Chunks-in-Jelly-100g-1080x1080-min.png",
+      "alt": "Proline Kitten Pouch Chicken Chunks in Jelly 100g 1080x1080 min",
+      "name": "Proline Kitten Pouch Chicken Chunks in Jelly 100g 1080&#215;1080 min"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/proline-kitten-food-pouch-chicken-chunks-in-jelly-0-1kg/?add-to-cart=3984",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2019-11-12T09:52:05",
+  "dateModified": "2026-05-06T17:06:23",
+  "brand": "Proline",
+  "weight_kg": 0.1,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/11/Proline-Kitten-Pouch-Chicken-Chunks-in-Jelly-100g-1080x1080-min.png"
+}

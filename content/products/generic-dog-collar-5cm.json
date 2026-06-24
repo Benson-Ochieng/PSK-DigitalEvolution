@@ -1,0 +1,87 @@
+{
+  "id": 43477,
+  "name": "Generic Dog Collar - 5cm",
+  "slug": "generic-dog-collar-5cm",
+  "sku": "PZDC05",
+  "onSale": false,
+  "price": 963,
+  "regularPrice": 963,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/01/dogcollars-removebg-preview.png",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2351,
+      "name": "Collars, Leashes & Harnesses",
+      "slug": "dog-collars-leashes-and-harnesses"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2354,
+      "name": "Dog Collars",
+      "slug": "dog-collars"
+    },
+    {
+      "id": 2096,
+      "name": "Generic",
+      "slug": "generic"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2065,
+      "name": "Collars",
+      "slug": "collar"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=43477",
+  "shortDescription": "Dog Collar- Available in Black",
+  "description": "",
+  "images": [
+    {
+      "id": 43481,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/01/dogcollars-removebg-preview.png",
+      "alt": "Generic Dog Collar - 5cm",
+      "name": "dogcollars-removebg-preview"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/generic-dog-collar-5cm/?add-to-cart=43477",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2024-01-25T11:57:44",
+  "dateModified": "2026-05-06T17:09:23",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/01/dogcollars-removebg-preview.png"
+}

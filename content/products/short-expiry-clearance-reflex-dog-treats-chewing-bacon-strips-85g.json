@@ -1,0 +1,93 @@
+{
+  "id": 26484,
+  "name": "SHORT EXPIRY - CLEARANCE: Reflex Dog Treats - Chewing Bacon Strips 85g",
+  "slug": "short-expiry-clearance-reflex-dog-treats-chewing-bacon-strips-85g",
+  "sku": "RDT021@SE",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Dog-Treats-Chewing-Bacon-Strips-85g-min.png",
+  "categories": [
+    {
+      "id": 1304,
+      "name": "Clearance",
+      "slug": "clearance"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2190,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=26484",
+  "shortDescription": "Reflex Dog Treats – Chewing Bacon Strips , Reward good behaviour with these fun and delicious treats made with the highest quality ingredients and bursting with flavour.",
+  "description": "Reflex Dog Treats - Chewing Bacon Strips , Reward good behaviour with these fun and delicious treats made with the highest quality ingredients and bursting with flavour. INGREDIENTS: Cereals, meat and animal derivatives, vegetable protein extracts, vegetable derivatives (0,4% inulin), various sugars, oils and fats, minerals (1% dicalciumphosphate), milk and milk derivatives. NUTRIENT COMPONENTS Crude Protein (%) - 18 Crude Fat (%) - 5 Crude Ash (%) - 4.5 Crude Fiber (%) - 2 Moisture Content (%) - 22 Vitamin D3 - 200 IU Vitamin E - 15 mg FEEDING RECOMMENDATIONS: Recommended as an additional snack, ensure that fresh drinking water is always available. Please watch your dog while chewing. Store cool, dry and keep away from strong odours.",
+  "images": [
+    {
+      "id": 12695,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Dog-Treats-Chewing-Bacon-Strips-85g-min.png",
+      "alt": "SHORT EXPIRY - CLEARANCE: Reflex Dog Treats - Chewing Bacon Strips 85g",
+      "name": "Reflex Dog Treats Chewing Bacon Strips 85g-min"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": 10,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-reflex-dog-treats-chewing-bacon-strips-85g/?add-to-cart=26484",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-03-23T09:56:41",
+  "dateModified": "2026-05-06T17:08:01",
+  "brand": "Reflex",
+  "weight_kg": 0.85,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Dog-Treats-Chewing-Bacon-Strips-85g-min.png"
+}

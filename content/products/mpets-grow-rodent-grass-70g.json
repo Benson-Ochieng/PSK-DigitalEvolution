@@ -1,0 +1,57 @@
+{
+  "id": 27395,
+  "name": "Mpetsgow Rodentgass   70G",
+  "slug": "mpets-grow-rodent-grass-70g",
+  "sku": "MPGRG",
+  "onSale": false,
+  "price": 550,
+  "regularPrice": 550,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/MPGRG.jpg",
+  "categories": [
+    {
+      "id": 2135,
+      "name": "MPETS",
+      "slug": "mpets"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2116,
+      "name": "rodent",
+      "slug": "rodent"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27395",
+  "shortDescription": "Mpets Grow Rodent Grass 70G",
+  "description": "Mpets Grow Rodent Grass 70G",
+  "images": [
+    {
+      "id": 27364,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPGRG.jpg",
+      "alt": "Mpetsgow Rodentgass   70G",
+      "name": "MPGRG"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/mpets-grow-rodent-grass-70g/?add-to-cart=27395",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "hidden",
+  "dateCreated": "2022-04-20T16:20:36",
+  "dateModified": "2026-05-06T17:08:07",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPGRG.jpg"
+}

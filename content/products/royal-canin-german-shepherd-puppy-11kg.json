@@ -1,0 +1,93 @@
+{
+  "id": 29518,
+  "name": "Royal Canin German Shepherd Puppy 12kg",
+  "slug": "royal-canin-german-shepherd-puppy-11kg",
+  "sku": "ROC-GESH-031",
+  "onSale": false,
+  "price": 19000,
+  "regularPrice": 19000,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/07/Royal-Canin-German-Shepherd-Puppy.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2350,
+      "name": "Puppy Food",
+      "slug": "puppy-food"
+    },
+    {
+      "id": 2104,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2423,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "tags": [
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 2110,
+      "name": "Medium breeds",
+      "slug": "medium-breeds"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 2106,
+      "name": "Puppy food",
+      "slug": "puppy-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/royal-canin-german-shepherd-puppy-11kg/",
+  "shortDescription": "Complete feed for dogs – Specially for German?Shepherd?puppies – Up to 15 months old.",
+  "description": "Immune system support: Growth is an essential stage in your dog's life: it is the time of big changes, discoveries and new encounters. During this key period, the puppy's immune system develops gradually. German Shepherd Puppy helps support your puppy's natural defenses thanks particularly to a complex of antioxidants including vitamin E. Digestive Performance: An exclusive combination of nutrients which helps support digestive health (L.I.P. proteins) and promote a balance in the intestinal flora (FOS, MOS), thus contributing to good stool quality. Takes into account the German Shepherd puppy's digestive sensitivity. Bone & joint health: German Shepherd Puppy contributes to supporting the German Shepherd puppy's bones and joints thanks to an adapted calcium and phosphorus content. The exclusive formula also helps maintain ideal weight. Exclusive kibble: The kibble's shape, size, texture and formula are adapted to the German Shepherd puppy.",
+  "images": [
+    {
+      "id": 29520,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/07/Royal-Canin-German-Shepherd-Puppy.png",
+      "alt": "Royal Caningerman Shepherd Puppy 12kg",
+      "name": "Royal Canin German Shepherd Puppy"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/royal-canin-german-shepherd-puppy-11kg/?add-to-cart=29518",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-07-01T13:02:38",
+  "dateModified": "2026-06-17T05:03:01",
+  "brand": "Royal Canin",
+  "weight_kg": 12,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/07/Royal-Canin-German-Shepherd-Puppy.png"
+}

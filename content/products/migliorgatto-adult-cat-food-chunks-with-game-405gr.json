@@ -1,0 +1,92 @@
+{
+  "id": 44317,
+  "name": "DEFECT/DAMAGED PACKAGE-CLEARANCE: Miglior Canned Cat Food -Game Chunks, 405g",
+  "slug": "migliorgatto-adult-cat-food-chunks-with-game-405gr",
+  "sku": "MCW003@D",
+  "onSale": true,
+  "price": 128,
+  "regularPrice": 257,
+  "salePrice": 128,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW003.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2163,
+      "name": "Miglior",
+      "slug": "miglior"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 622,
+      "name": "canned food",
+      "slug": "canned-food"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 1303,
+      "name": "Clearance",
+      "slug": "clearance"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=44317",
+  "shortDescription": "(4 pieces minimum order) Support strong muscles, healthy digestion, and a shiny coat with Miglior Cat Food Game Chunks, blending premium game meat, tripe, and vegetables in a flavorful gravy.",
+  "description": "COMPOSITION: Meat and animal derivatives 30% (game 5%), cereals, minerals. ANALYTICAL CONSTITUENTS: Moisture 77%, Crude protein 8.5%, Crude fat 4.8%, Crude fibres 0.5%, Crude ash 3%. Nutritional additives / kg: Vitamin E 10 mg, Copper (Copper(II) sulphate pentahydrate) 2 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight. Once opened, store in refrigerator for 2-3 days",
+  "images": [
+    {
+      "id": 28239,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW003.jpg",
+      "alt": "Migliorgatto CHUNKS WITH GAME 405Gr",
+      "name": "MCW003"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/migliorgatto-adult-cat-food-chunks-with-game-405gr/?add-to-cart=44317",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2024-02-12T13:17:14",
+  "dateModified": "2026-05-06T17:09:31",
+  "brand": null,
+  "weight_kg": 0.405,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW003.jpg"
+}

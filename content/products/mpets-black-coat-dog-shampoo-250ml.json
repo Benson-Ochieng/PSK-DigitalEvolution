@@ -1,0 +1,92 @@
+{
+  "id": 27305,
+  "name": "Mpets Black Coat Dog Shampoo 250Ml",
+  "slug": "mpets-black-coat-dog-shampoo-250ml",
+  "sku": "MPBCDS",
+  "onSale": false,
+  "price": 696,
+  "regularPrice": 696,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/MPBCDS.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2362,
+      "name": "Dog Healthcare Supplies",
+      "slug": "dog-healthcare-supplies"
+    },
+    {
+      "id": 2363,
+      "name": "Flea & Tick Control",
+      "slug": "dog-flea-tick"
+    },
+    {
+      "id": 2135,
+      "name": "MPETS",
+      "slug": "mpets"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1149,
+      "name": "flea & tick",
+      "slug": "flea-tick"
+    },
+    {
+      "id": 1034,
+      "name": "large breed",
+      "slug": "large-breed"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 2109,
+      "name": "Small breeds",
+      "slug": "small-breeds"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27305",
+  "shortDescription": "Mpets Black Coat Dog Shampoo",
+  "description": "This shampoo strengthens the natural color of a dog?s black or dark-colored coat. In addition, it also replenishes lipids. capacity: 250 ml Feature: Paraben-Free; The Very Best Ingredients In a Shampoo For Dogs BATH OF LIFE: The Black Coat Shampoo will provide a deep cleansing while enhancing the shine on your dog?s dark coat. Plant-derived cleansers make up the base of our all-natural ingredients, which are sustainably sourced MAKE YOUR PET?S COAT EXTRA SOFT: Hydrating natural oils can go deep under the fur for skin hydration that will make your pet moisturized from the inside out.",
+  "images": [
+    {
+      "id": 27279,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPBCDS.jpg",
+      "alt": "Mpets Black Coat Dog Shampoo 250Ml",
+      "name": "MPBCDS"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/mpets-black-coat-dog-shampoo-250ml/?add-to-cart=27305",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-04-20T16:20:42",
+  "dateModified": "2026-05-06T17:08:05",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPBCDS.jpg"
+}

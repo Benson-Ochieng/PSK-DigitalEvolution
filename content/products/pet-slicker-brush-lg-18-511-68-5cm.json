@@ -1,0 +1,82 @@
+{
+  "id": 45050,
+  "name": "Pet Slicker Brush Large 18.5x11.6x8.5cm",
+  "slug": "pet-slicker-brush-lg-18-511-68-5cm",
+  "sku": "PZSB03",
+  "onSale": false,
+  "price": 1200,
+  "regularPrice": 1200,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/03/slickerbrush.jpg",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2361,
+      "name": "Brushes, Combs & Fur Removal Tools",
+      "slug": "brushes-combs-fur-removal-tools"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2360,
+      "name": "Dog Grooming & Cleaning",
+      "slug": "dog-grooming-cleaning-supplies"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2098,
+      "name": "Grooming & Tools",
+      "slug": "grooming-tools"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=45050",
+  "shortDescription": "Multi-purpose brush ideal for removing moulted hair and tangles.",
+  "description": "Slicker Brush for Shedding Hair Material: plastic with extra soft pins The finely-curved, flexible pins help to untangle knots and remove hair Suitable for pets with a short or long coat The rubber handle ensures a better grip",
+  "images": [
+    {
+      "id": 45051,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/03/slickerbrush.jpg",
+      "alt": "Pet Slicker Brush Large 18.5x11.6x8.5cm",
+      "name": "slickerbrush"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/pet-slicker-brush-lg-18-511-68-5cm/?add-to-cart=45050",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2024-03-08T10:15:10",
+  "dateModified": "2026-05-06T17:09:40",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/03/slickerbrush.jpg"
+}

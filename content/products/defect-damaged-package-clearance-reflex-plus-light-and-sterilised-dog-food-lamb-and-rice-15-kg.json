@@ -1,0 +1,93 @@
+{
+  "id": 39117,
+  "name": "DEFECT/DAMAGED PACKAGE-CLEARANCE: Reflex Plus Light And Sterilised Dog Food - Lamb And Rice 15kg",
+  "slug": "defect-damaged-package-clearance-reflex-plus-light-and-sterilised-dog-food-lamb-and-rice-15-kg",
+  "sku": "RPDD008@D",
+  "onSale": true,
+  "price": 7840,
+  "regularPrice": 11200,
+  "salePrice": 7840,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Reflex-plus-light-and-sterilsed-01.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2462,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1303,
+      "name": "Clearance",
+      "slug": "clearance"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 2319,
+      "name": "Veterinary Range",
+      "slug": "veterinary-range"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/defect-damaged-package-clearance-reflex-plus-light-and-sterilised-dog-food-lamb-and-rice-15-kg/",
+  "shortDescription": "A super premium dry dog food with lamb & rice, fully and balanced formulated for medium & large breed sterilized or overweight dogs.",
+  "description": "A super premium dry dog food with lamb & rice, fully and balanced formulated for medium & large breed sterilized or overweight dogs. Components: Processed Lamb Protein, Processed Animal Protein, Corn, Chicken Fat, Rice, Sugar Beet, Liver Flavor, Whey Powder, Vitamins and Minerals, Xylo-Oligosaccharide, Brewer's Yeast, Flaxseed, Salt, Yucca Schidigera, Glucosamine, Chondroitin Sulphate, Preservatives - Antioxidants. Minerals: ?Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Iron, Selenium. Vitamins: ?Vit. A, Vit. D3, Vit. E, Vit. C, Vit. B1 - B2 - B3 (Niacin) - B6 - B12 - B7 (Biotin) - B9 (Folic Acid), Vit. K, Choline, Calcium Pantothenate. Nutrient Components Crude Protein 25% Crude Fat 13% Crude Ash 7% Crude Cellulose 2,5% Nutritional Supplements Vitamine A (3A672A) 18,000 IU/kg Vitamine D3 (3A671) 1,500 IU/kg Vitamine E (3A700) 150 mg/kg Vitamine C (3A300) 200 mg/kg",
+  "images": [
+    {
+      "id": 23948,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/12/Reflex-plus-light-and-sterilsed-01.jpg",
+      "alt": "DEFECT/DAMAGED PACKAGE-CLEARANCE: Reflex Plus Light And Sterilised Dog Food - Lamb And Rice 15kg",
+      "name": "Reflex plus light and sterilsed"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/defect-damaged-package-clearance-reflex-plus-light-and-sterilised-dog-food-lamb-and-rice-15-kg/?add-to-cart=39117",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-08-21T12:00:09",
+  "dateModified": "2026-06-17T04:28:50",
+  "brand": "Reflex",
+  "weight_kg": 15,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/12/Reflex-plus-light-and-sterilsed-01.jpg"
+}

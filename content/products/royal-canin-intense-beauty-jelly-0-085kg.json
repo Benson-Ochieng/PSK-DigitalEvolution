@@ -1,0 +1,93 @@
+{
+  "id": 26976,
+  "name": "Royal Canin Intense Beauty Jelly 85g",
+  "slug": "royal-canin-intense-beauty-jelly-0-085kg",
+  "sku": "ROC-FHNW-021",
+  "onSale": false,
+  "price": 225,
+  "regularPrice": 225,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/Royal-Canin-wet-food-03.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 2104,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2423,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=26976",
+  "shortDescription": "ROYAL CANIN? Intense Beauty in Jelly contains a complex of antioxidants and fatty acids (omega-3 & omega-6) specially formulated to help support and maintain the beauty and health of your cat's coat, as well as its skin.",
+  "description": "Your cat's coat is a thing of beauty, which is why consuming an ideal level of nutrients is essential, otherwise the general health and appearance of its coat can be less than optimal. ROYAL CANIN? Intense Beauty in Jelly contains a complex of antioxidants and fatty acids (omega-3 & omega-6) specially formulated to help support and maintain the beauty and health of your cat's coat, as well as its skin. ROYAL CANIN? Intense Beauty in Jelly also helps your cat maintain an ideal weight - with a fat content of just 3.7% to prevent excess weight gain, and an optimal level of protein to contribute to healthy muscular growth and development. A healthy urinary system is also supported by ROYAL CANIN? Intense Beauty in Jelly, it helps maintain your cat's bladder function. To cater to each cat's individual preferences, ROYAL CANIN? Intense Beauty is also available as dry food, with crunchy and tasty kibble. If you're considering mixed feeding, simply follow our feeding guidelines to ensure your cat gets an accurate amount of both wet and dry food for optimal benefit. ROYAL CANIN? Intense Beauty in Jelly contains a complex of antioxidants and fatty acids (omega-3 & omega-6) specially formulated to help support and maintain the beauty and health of your cat's coat, as well as its skin. Complete feed for adult cats (thin slices in jelly) Composition: meat and animal derivatives, fish and fish derivatives, cereals, vegetable protein extracts, oils and fats, derivatives of vegetable origin, minerals, various sugars. Additives (per kg): Nutritional additives: Vitamin D3: 100 IU, E1 (Iron): 7 mg, E2 (Iodine): 0.23 mg, E4 (Copper): 1.8 mg, E5 (Manganese): 2.1 mg, E6 (Zinc): 21 mg. Analytical constituents: Protein: 10.5% - Fat content: 4% - Crude ash: 1.5% - Crude fibres: 1% - Moisture: 81% - Omega 3 fatty acids: 0.16% - Omega 6 fatty acids: 0.94%.",
+  "images": [
+    {
+      "id": 28432,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/Royal-Canin-wet-food-03.jpg",
+      "alt": "Royal Canin Intense Beauty Jelly 85g",
+      "name": "Royal Canin wet food-03"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/royal-canin-intense-beauty-jelly-0-085kg/?add-to-cart=26976",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-04-08T16:22:42",
+  "dateModified": "2026-06-17T04:23:42",
+  "brand": "Royal Canin",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/Royal-Canin-wet-food-03.jpg"
+}

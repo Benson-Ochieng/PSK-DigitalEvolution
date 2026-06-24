@@ -1,0 +1,102 @@
+{
+  "id": 26500,
+  "name": "Heavy Duty Plastic Cat Litter Box - Black",
+  "slug": "heavy-duty-plastic-cat-litter-box-green-copy",
+  "sku": "Polystack 120-A",
+  "onSale": false,
+  "price": 1117,
+  "regularPrice": 1117,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/03/HDCLB-B-01-1.jpg",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    },
+    {
+      "id": 2096,
+      "name": "Generic",
+      "slug": "generic"
+    },
+    {
+      "id": 2331,
+      "name": "Litter and Litter Box & Accessories",
+      "slug": "cat-litter-and-accessories"
+    },
+    {
+      "id": 2333,
+      "name": "Litter Boxes",
+      "slug": "cat-litter-boxes"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 819,
+      "name": "cat litter",
+      "slug": "cat-litter"
+    },
+    {
+      "id": 2119,
+      "name": "cat litter box",
+      "slug": "cat-litter-box"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=26500",
+  "shortDescription": "Heavy Duty Plastic Cat Litter Box Colour: Black Dimensions: L 57.5CM, W 39CM, H 12.5CM",
+  "description": "Heavy Duty Plastic Cat Litter Box - easy to clean? and perfect height for cats to do their business. Colour: Black Dimensions: L 57.5CM, W 39CM, H 12.5CM",
+  "images": [
+    {
+      "id": 26686,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/03/HDCLB-B-01-1.jpg",
+      "alt": "Heavy Duty Plastic Cat Litter Box - Black",
+      "name": "HDCLB-B-01"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/heavy-duty-plastic-cat-litter-box-green-copy/?add-to-cart=26500",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-03-23T15:15:05",
+  "dateModified": "2026-05-06T17:08:01",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/03/HDCLB-B-01-1.jpg"
+}

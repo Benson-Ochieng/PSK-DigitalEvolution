@@ -1,0 +1,88 @@
+{
+  "id": 29521,
+  "name": "Royal Canin Feline Sterilised 37 2kg",
+  "slug": "royal-canin-sterilised-37-2kg",
+  "sku": "ROC-FHND-021",
+  "onSale": false,
+  "price": 4650,
+  "regularPrice": 4650,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/07/Royal-Canin-Sterilised-37.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 2104,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2423,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/royal-canin-sterilised-37-2kg/",
+  "shortDescription": "ROYAL CANIN Sterilised 37 is balanced and complete feed for cats – Specially for neutered cats (from 1 to 7 years old).",
+  "description": "After your cat has been neutered, a change of diet may be required to ensure that the nutrients it consumes supports its somewhat altered energy needs. ROYAL CANIN Sterilised 37 contains a moderate level of fat when served in adequate daily rations - this helps your cat to maintain an ideal body weight after it's been sterilised. What's more, ROYAL CANIN Sterilised 37 food also contains a carefully considered balance of minerals that help to support and maintain a healthy urinary system for your cat, while the increased protein content in this food helps to maintain your cat's healthy muscle mass. To cater to each cat's individual preferences, ROYAL CANIN Sterilised 37 is also available as wet food in either delicious gravy or succulent jelly. If you're considering mixed feeding, simply follow our feeding guidelines to ensure your cat gets an accurate amount of both wet and dry food for optimal benefit.",
+  "images": [
+    {
+      "id": 29523,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/07/Royal-Canin-Sterilised-37.png",
+      "alt": "Royal Canin Feline Sterilised 37 2kg",
+      "name": "Royal Canin Sterilised 37"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/royal-canin-sterilised-37-2kg/?add-to-cart=29521",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-07-01T13:19:51",
+  "dateModified": "2026-06-17T04:23:43",
+  "brand": "Royal Canin",
+  "weight_kg": 2,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/07/Royal-Canin-Sterilised-37.png"
+}

@@ -1,0 +1,112 @@
+{
+  "id": 43492,
+  "name": "Kong Jumbler Ball Md/lg- Purple",
+  "slug": "kong-jumbler-ball-md-lg-3",
+  "sku": "TMB2P",
+  "onSale": false,
+  "price": 2100,
+  "regularPrice": 2100,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/01/Kong-Jumbler-Package-Purple.jpg",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2342,
+      "name": "Cat Toys",
+      "slug": "cat-toys"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2357,
+      "name": "Dog Fetch Toys",
+      "slug": "dog-fetch-toys"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2031,
+      "name": "Kong",
+      "slug": "kong-accessories"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=43492",
+  "shortDescription": "KONG Jumbler",
+  "description": "The KONGJumbler is a two-in-one ball toy for twice the interactive fun. The interior tennis ball and loud squeak entice play, while the handles make pickup and shaking easy. The Jumbler stands up to tough play, making it ideal for games of fetch. Available in two shapes and sizes, the KONGJumbler will ensure an exciting, active play session for you and your dog. Squeaker and tumbling interior ball entice play Ideal for interactive fun Handles make pick up and shaking easy",
+  "images": [
+    {
+      "id": 43493,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/01/Kong-Jumbler-Package-Purple.jpg",
+      "alt": "Kong Jumbler Ball Md/lg- Purple",
+      "name": "Kong-Jumbler-Package-Purple"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/kong-jumbler-ball-md-lg-3/?add-to-cart=43492",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2024-01-25T15:20:10",
+  "dateModified": "2026-05-06T17:09:24",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/01/Kong-Jumbler-Package-Purple.jpg"
+}

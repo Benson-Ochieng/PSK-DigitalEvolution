@@ -1,0 +1,82 @@
+{
+  "id": 42851,
+  "name": "Camouflage Reflective Collar 2.5cm",
+  "slug": "camouflage-reflective-collar-2-5cm",
+  "sku": "PA4003",
+  "onSale": false,
+  "price": 665,
+  "regularPrice": 665,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/01/CAMOUFLAGE-REFLECTIVE-COLLAR-1.0CM.webp",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2351,
+      "name": "Collars, Leashes & Harnesses",
+      "slug": "dog-collars-leashes-and-harnesses"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2354,
+      "name": "Dog Collars",
+      "slug": "dog-collars"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2065,
+      "name": "Collars",
+      "slug": "collar"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/camouflage-reflective-collar-2-5cm/",
+  "shortDescription": "Suitable for large dogs.",
+  "description": "Strong and durable easy to put on and take off with Lightweight and easy to clean. Easy to put on and take off with Lightweight with a steady impact-resistant ABS material. One Button Brake Pause Lock Quick roll-on and roll-off with your thumb to adjust the distance between you and your dogs at any time. Reflective Stitching throughout the whole rope can be visible at night provides the secure environment for you and your lovely dog.",
+  "images": [
+    {
+      "id": 42839,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/01/CAMOUFLAGE-REFLECTIVE-COLLAR-1.0CM.webp",
+      "alt": "Camouflage Reflective Collar 2.5cm",
+      "name": "CAMOUFLAGE REFLECTIVE COLLAR 1.0CM"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/camouflage-reflective-collar-2-5cm/?add-to-cart=42851",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2024-01-03T09:02:09",
+  "dateModified": "2026-06-17T04:18:41",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/01/CAMOUFLAGE-REFLECTIVE-COLLAR-1.0CM.webp"
+}

@@ -28,38 +28,59 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   const sort   = url.searchParams.get("sort") || "availability";
 
   let search = urlSearch;
+  let categorySlug = "";
 
   if (slug) {
     const normSlug = slug.toLowerCase().replace(/\/$/, "");
-    if (normSlug === "cat-food" || normSlug === "cat") {
+    if (normSlug === "cat-food" || normSlug === "cat" || normSlug === "cat-supplies-store" || normSlug === "cat-food-and-treats") {
       animal = "cat";
-    } else if (normSlug === "kitten-food" || normSlug === "kitten") {
+    } else if (normSlug === "kitten-food" || normSlug === "kitten" || normSlug === "kitten-treats") {
       animal = "cat";
       search = "kitten";
-    } else if (normSlug === "dog-food" || normSlug === "dog") {
+    } else if (normSlug === "dog-food" || normSlug === "dog" || normSlug === "dog-supplies-store" || normSlug === "dog-food-treats") {
       animal = "dog";
     } else if (normSlug === "puppy-food" || normSlug === "puppy") {
       animal = "dog";
       search = "puppy";
-    } else if (normSlug === "bird-food" || normSlug === "bird") {
+    } else if (normSlug === "bird-food" || normSlug === "bird" || normSlug === "bird-supplies-store" || normSlug === "bird-food-treats") {
       animal = "bird";
     } else if (normSlug === "rabbit-food" || normSlug === "rabbit") {
       animal = "rabbit";
+    } else {
+      // It's a specific subcategory
+      categorySlug = normSlug;
+      if (normSlug.includes("cat") || normSlug.includes("kitten") || normSlug === "litter-and-accessories" || normSlug === "cat-litter-and-accessories") {
+        animal = "cat";
+      } else if (normSlug.includes("dog") || normSlug.includes("puppy")) {
+        animal = "dog";
+      }
     }
   }
 
   let pageTitle = "All Pet Food";
   if (slug) {
     const normSlug = slug.toLowerCase().replace(/\/$/, "");
-    if (normSlug === "cat-food" || normSlug === "cat") pageTitle = "Cat Food";
-    else if (normSlug === "kitten-food" || normSlug === "kitten") pageTitle = "Kitten Food";
-    else if (normSlug === "dog-food" || normSlug === "dog") pageTitle = "Dog Food";
-    else if (normSlug === "puppy-food" || normSlug === "puppy") pageTitle = "Puppy Food";
-    else if (normSlug === "bird-food" || normSlug === "bird") pageTitle = "Bird Food";
-    else if (normSlug === "rabbit-food" || normSlug === "rabbit") pageTitle = "Rabbit Food";
+    const matchedCat = CAT_CATEGORIES.find(c => c.slug === normSlug) || DOG_CATEGORIES.find(c => c.slug === normSlug);
+    if (matchedCat) {
+      pageTitle = matchedCat.label;
+    } else if (normSlug === "cat-food" || normSlug === "cat" || normSlug === "cat-supplies-store" || normSlug === "cat-food-and-treats") {
+      pageTitle = "Cat";
+    } else if (normSlug === "dog-food" || normSlug === "dog" || normSlug === "dog-supplies-store" || normSlug === "dog-food-treats") {
+      pageTitle = "Dog";
+    } else if (normSlug === "kitten-food" || normSlug === "kitten") {
+      pageTitle = "Kitten";
+    } else if (normSlug === "puppy-food" || normSlug === "puppy") {
+      pageTitle = "Puppy";
+    } else if (normSlug === "bird-food" || normSlug === "bird" || normSlug === "bird-supplies-store") {
+      pageTitle = "Bird";
+    } else if (normSlug === "rabbit-food" || normSlug === "rabbit") {
+      pageTitle = "Rabbit";
+    } else {
+      pageTitle = normSlug.split("-").map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+    }
   } else {
-    if (animal === "dog") pageTitle = "Dog Food";
-    else if (animal === "cat") pageTitle = "Cat Food";
+    if (animal === "dog") pageTitle = "Dog";
+    else if (animal === "cat") pageTitle = "Cat";
     else if (type === "treat") pageTitle = "Treats";
     else if (type === "wet") pageTitle = "Wet Food";
   }
@@ -90,6 +111,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     JOIN store_prices bbp  ON bbp.product_id = p.id AND bbp.store_name = 'PetStore Kenya'
     LEFT JOIN store_prices comp ON comp.product_id = p.id AND comp.store_name != 'PetStore Kenya'
     ${where}
+    -- category_slug: ${categorySlug}
     GROUP BY p.id, p.name, p.brand, p.weight_kg, p.animal_type, p.food_type, p.image_url, bbp.price
     ORDER BY ${orderBy}
   `, sqlParams);
@@ -112,6 +134,29 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   };
 }
 
+export const CAT_CATEGORIES = [
+  { label: "Cat Beds & Houses", slug: "cat-beds-houses" },
+  { label: "Cat Bowls & Feeders", slug: "cat-bowls-and-feeders" },
+  { label: "Cat Carries, Bags & Travel", slug: "cat-carriers-travels" },
+  { label: "Cat Collars, Leashes, Harnesses", slug: "cat-collars-leashes-harnesses" },
+  { label: "Cat Food & Treats", slug: "cat-food-and-treats" },
+  { label: "Cat Grooming", slug: "cat-grooming" },
+  { label: "Cat Healthcare Supplies", slug: "cat-healthcare" },
+  { label: "Cat Toys", slug: "cat-toys" },
+  { label: "Litter and Litter Box & Accessories", slug: "cat-litter-and-accessories" }
+];
+
+export const DOG_CATEGORIES = [
+  { label: "Dog Beds & Furniture", slug: "dog-beds-furniture" },
+  { label: "Dog Bowls & Feeders", slug: "dog-bowls-feeders" },
+  { label: "Dog Collars, Leashes & Harnesses", slug: "dog-collars-leashes-and-harnesses" },
+  { label: "Dog Food & Treats", slug: "dog-food-treats" },
+  { label: "Dog Grooming & Cleaning", slug: "dog-grooming-cleaning-supplies" },
+  { label: "Dog Healthcare Supplies", slug: "dog-healthcare-supplies" },
+  { label: "Dog Hygiene & Potty Solutions", slug: "dog-hygiene-potty-solutions" },
+  { label: "Dog Toys", slug: "dog-toys" }
+];
+
 const FILTERS = [
   { label: "All",       iconType: "all",    animal: "",    type: "" },
   { label: "Dogs",      iconType: "dog",    animal: "dog", type: "" },
@@ -127,26 +172,31 @@ function getBreadcrumbs(slug: string, animal: string, brand?: string) {
 
   if (slug) {
     const normSlug = slug.toLowerCase().replace(/\/$/, "");
-    if (normSlug.includes("cat") || normSlug.includes("kitten")) {
+    const catSub = CAT_CATEGORIES.find(c => c.slug === normSlug);
+    const dogSub = DOG_CATEGORIES.find(c => c.slug === normSlug);
+
+    if (catSub) {
       crumbs.push({ label: "Cat", path: "/product-category/cat-food/" });
-      crumbs.push({ label: "Cat Food & Treats", path: "/product-category/cat-food/" });
-      if (normSlug === "kitten-food" || normSlug === "kitten") {
-        crumbs.push({ label: "Kitten Food", path: "/product-category/kitten-food/" });
-      }
-    } else if (normSlug.includes("dog") || normSlug.includes("puppy")) {
+      crumbs.push({ label: catSub.label, path: `/product-category/${catSub.slug}/` });
+    } else if (dogSub) {
       crumbs.push({ label: "Dog", path: "/product-category/dog-food/" });
-      crumbs.push({ label: "Dog Food & Treats", path: "/product-category/dog-food/" });
-      if (normSlug === "puppy-food" || normSlug === "puppy") {
-        crumbs.push({ label: "Puppy Food", path: "/product-category/puppy-food/" });
-      }
-    } else if (normSlug.includes("bird")) {
+      crumbs.push({ label: dogSub.label, path: `/product-category/${dogSub.slug}/` });
+    } else if (normSlug === "cat-food" || normSlug === "cat" || normSlug === "cat-supplies-store" || normSlug === "cat-food-and-treats") {
+      crumbs.push({ label: "Cat", path: "/product-category/cat-food/" });
+    } else if (normSlug === "dog-food" || normSlug === "dog" || normSlug === "dog-supplies-store" || normSlug === "dog-food-treats") {
+      crumbs.push({ label: "Dog", path: "/product-category/dog-food/" });
+    } else if (normSlug === "kitten-food" || normSlug === "kitten") {
+      crumbs.push({ label: "Cat", path: "/product-category/cat-food/" });
+      crumbs.push({ label: "Kitten Food", path: "/product-category/kitten-food/" });
+    } else if (normSlug === "puppy-food" || normSlug === "puppy") {
+      crumbs.push({ label: "Dog", path: "/product-category/dog-food/" });
+      crumbs.push({ label: "Puppy Food", path: "/product-category/puppy-food/" });
+    } else if (normSlug === "bird-food" || normSlug === "bird" || normSlug === "bird-supplies-store" || normSlug === "bird-food-treats") {
       crumbs.push({ label: "Bird", path: "/product-category/bird-food/" });
-      crumbs.push({ label: "Bird Food & Feeds", path: "/product-category/bird-food/" });
-    } else if (normSlug.includes("rabbit")) {
+    } else if (normSlug === "rabbit-food" || normSlug === "rabbit") {
       crumbs.push({ label: "Rabbit", path: "/product-category/rabbit-food/" });
-      crumbs.push({ label: "Rabbit Food", path: "/product-category/rabbit-food/" });
     } else {
-      crumbs.push({ label: slug, path: `/product-category/${slug}/` });
+      crumbs.push({ label: slug.split("-").map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" "), path: `/product-category/${slug}/` });
     }
   } else if (animal) {
     const label = animal.charAt(0).toUpperCase() + animal.slice(1);
@@ -326,28 +376,79 @@ export default function Shop() {
           
           {/* Sidebar */}
           <aside className="shop-sidebar">
-            <h3 className="sidebar-title">FILTER BY BRAND</h3>
-            <ul className="sidebar-brands-list">
-              <li>
-                <Link to={buildCategoryHref("")} className={!brand ? "active-brand" : ""}>
-                  All Brands
-                </Link>
-              </li>
-              {SIDEBAR_BRANDS.map(b => (
-                <li key={b}>
-                  <Link to={buildCategoryHref(b)} className={brand.toLowerCase() === b.toLowerCase() ? "active-brand" : ""}>
-                    {b}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+            {animal === "cat" && (
+              <>
+                <h3 className="sidebar-title">CATEGORIES</h3>
+                <ul className="sidebar-brands-list" style={{ marginBottom: "2.5rem" }}>
+                  {CAT_CATEGORIES.map(c => {
+                    const normSlug = slug.toLowerCase().replace(/\/$/, "");
+                    const isActive = normSlug === c.slug;
+                    return (
+                      <li key={c.slug}>
+                        <Link 
+                          to={`/product-category/${c.slug}/`} 
+                          className={isActive ? "active-brand" : ""}
+                        >
+                          {c.label}
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </>
+            )}
+
+            {animal === "dog" && (
+              <>
+                <h3 className="sidebar-title">CATEGORIES</h3>
+                <ul className="sidebar-brands-list" style={{ marginBottom: "2.5rem" }}>
+                  {DOG_CATEGORIES.map(c => {
+                    const normSlug = slug.toLowerCase().replace(/\/$/, "");
+                    const isActive = normSlug === c.slug;
+                    return (
+                      <li key={c.slug}>
+                        <Link 
+                          to={`/product-category/${c.slug}/`} 
+                          className={isActive ? "active-brand" : ""}
+                        >
+                          {c.label}
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </>
+            )}
+
+            {!animal && (
+              <>
+                <h3 className="sidebar-title">FILTER BY BRAND</h3>
+                <ul className="sidebar-brands-list">
+                  <li>
+                    <Link to={buildCategoryHref("")} className={!brand ? "active-brand" : ""}>
+                      All Brands
+                    </Link>
+                  </li>
+                  {SIDEBAR_BRANDS.map(b => (
+                    <li key={b}>
+                      <Link to={buildCategoryHref(b)} className={brand.toLowerCase() === b.toLowerCase() ? "active-brand" : ""}>
+                        {b}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
           </aside>
 
           {/* Main Content Area */}
           <main className="shop-main">
             
+            {/* Page Title */}
+            <h1 className="shop-page-title">{pageTitle}</h1>
+
             {/* Breadcrumbs */}
-            <div className="breadcrumb-container">
+            <div className="breadcrumb-container" style={{ marginTop: "0.5rem", marginBottom: "1rem" }}>
               {breadcrumbs.map((crumb, idx) => (
                 <span key={idx}>
                   {idx > 0 && <span className="breadcrumb-separator">/</span>}
@@ -359,9 +460,6 @@ export default function Shop() {
                 </span>
               ))}
             </div>
-
-            {/* Page Title */}
-            <h1 className="shop-page-title">{pageTitle}</h1>
 
             {/* Shop Toolbar */}
             <div className="shop-toolbar">

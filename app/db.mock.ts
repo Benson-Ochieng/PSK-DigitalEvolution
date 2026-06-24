@@ -2169,6 +2169,12 @@ export async function executeMockQuery(text: string, params: any[] = []): Promis
     let animalFilter = '';
     let typeFilter = '';
     let searchFilter = '';
+    let categorySlug = '';
+
+    const catMatch = queryText.match(/-- category_slug:\s*([^\s]+)/);
+    if (catMatch) {
+      categorySlug = catMatch[1].trim();
+    }
 
     if (params && params.length > 0) {
       for (const p of params) {
@@ -2189,6 +2195,20 @@ export async function executeMockQuery(text: string, params: any[] = []): Promis
         if (animalFilter && p.animal_type !== animalFilter) return false;
         if (typeFilter && p.food_type !== typeFilter) return false;
         if (searchFilter && !p.name.toLowerCase().includes(searchFilter)) return false;
+        
+        if (categorySlug) {
+          const hasCat = p.categories?.some((c: any) => 
+            c.slug === categorySlug || 
+            c.slug.replace(/-food$/, '') === categorySlug ||
+            categorySlug.replace(/-food$/, '') === c.slug ||
+            c.slug.replace(/-and-feeders$/, '-feeders') === categorySlug ||
+            categorySlug.replace(/-and-feeders$/, '-feeders') === c.slug ||
+            c.slug.replace(/-and-accessories$/, '-accessories') === categorySlug ||
+            categorySlug.replace(/-and-accessories$/, '-accessories') === c.slug
+          );
+          if (!hasCat) return false;
+        }
+        
         return true;
       })
       .map(p => {
@@ -2204,7 +2224,10 @@ export async function executeMockQuery(text: string, params: any[] = []): Promis
           food_type: p.food_type,
           image_url: p.image_url,
           our_price: bbp ? bbp.price : null,
-          competitor_min
+          competitor_min,
+          categories: p.categories,
+          tags: p.tags,
+          slug: p.slug
         };
       })
       .filter(item => item.our_price !== null)
@@ -2432,30 +2455,76 @@ export async function executeMockQuery(text: string, params: any[] = []): Promis
     return { rows: [], rowCount: 1 };
   }
 
-  // Insert product
-  if (queryText.includes("INSERT INTO products") && queryText.includes("RETURNING id")) {
-    const newId = mockProducts.length > 0 ? Math.max(...mockProducts.map(p => p.id)) + 1 : 1;
-    mockProducts.push({
-      id: newId,
-      name: params[0],
-      brand: params[1],
-      weight_kg: params[2],
-      animal_type: params[3],
-      food_type: params[4],
-      image_url: params[5],
-      description: params[6],
-      key_ingredients: params[7],
-      feeding_guide: params[8],
-      replaces_brand: params[9],
-      replaces_reason: params[10],
-      nutrition_protein: params[11],
-      nutrition_fat: params[12],
-      nutrition_fibre: params[13],
-      nutrition_moisture: params[14],
-      created_at: new Date().toISOString()
-    });
-    saveBackup(PRODUCTS_BACKUP, mockProducts);
-    return { rows: [{ id: newId }], rowCount: 1 };
+  // Insert or Upsert product
+  if (queryText.includes("INSERT INTO products")) {
+    if (params.length === 8) {
+      // WooCommerce sync: (id, name, brand, weight_kg, animal_type, food_type, image_url, description)
+      const pid = Number(params[0]);
+      const name = params[1];
+      const brand = params[2];
+      const weight_kg = params[3] !== null && params[3] !== undefined ? Number(params[3]) : null;
+      const animal_type = params[4];
+      const food_type = params[5];
+      const image_url = params[6];
+      const description = params[7];
+
+      let p = mockProducts.find(x => x.id === pid);
+      if (p) {
+        p.name = name;
+        p.brand = brand;
+        p.weight_kg = weight_kg;
+        p.animal_type = animal_type;
+        p.food_type = food_type;
+        p.image_url = image_url;
+        p.description = description;
+      } else {
+        mockProducts.push({
+          id: pid,
+          name,
+          brand,
+          weight_kg,
+          animal_type,
+          food_type,
+          image_url,
+          description,
+          nutrition_protein: null,
+          nutrition_fat: null,
+          nutrition_fibre: null,
+          nutrition_moisture: null,
+          key_ingredients: null,
+          feeding_guide: null,
+          replaces_brand: null,
+          replaces_reason: null,
+          created_at: new Date().toISOString()
+        });
+      }
+      saveBackup(PRODUCTS_BACKUP, mockProducts);
+      return { rows: [{ id: pid }], rowCount: 1 };
+    } else {
+      // Admin dashboard insert (15 params, with RETURNING id)
+      const newId = mockProducts.length > 0 ? Math.max(...mockProducts.map(p => p.id)) + 1 : 1;
+      mockProducts.push({
+        id: newId,
+        name: params[0],
+        brand: params[1],
+        weight_kg: params[2],
+        animal_type: params[3],
+        food_type: params[4],
+        image_url: params[5],
+        description: params[6],
+        key_ingredients: params[7],
+        feeding_guide: params[8],
+        replaces_brand: params[9],
+        replaces_reason: params[10],
+        nutrition_protein: params[11],
+        nutrition_fat: params[12],
+        nutrition_fibre: params[13],
+        nutrition_moisture: params[14],
+        created_at: new Date().toISOString()
+      });
+      saveBackup(PRODUCTS_BACKUP, mockProducts);
+      return { rows: [{ id: newId }], rowCount: 1 };
+    }
   }
 
   // Insert store_prices
@@ -2492,6 +2561,13 @@ export async function executeMockQuery(text: string, params: any[] = []): Promis
     const pid = Number(params[0]);
     const sp = mockStorePrices.find(x => x.product_id === pid && x.store_name === 'PetStore Kenya');
     return { rows: sp ? [{ id: sp.id }] : [], rowCount: sp ? 1 : 0 };
+  }
+
+  // Check products
+  if (queryText.includes("SELECT id FROM products WHERE id = $1")) {
+    const pid = Number(params[0]);
+    const p = mockProducts.find(x => x.id === pid);
+    return { rows: p ? [{ id: p.id }] : [], rowCount: p ? 1 : 0 };
   }
 
   // Update product

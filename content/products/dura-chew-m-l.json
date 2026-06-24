@@ -1,0 +1,82 @@
+{
+  "id": 43075,
+  "name": "Dura Chew M/L",
+  "slug": "dura-chew-m-l",
+  "sku": "PA3915",
+  "onSale": false,
+  "price": 1700,
+  "regularPrice": 1700,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/01/Dura-chew-PA3915-1.webp",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2358,
+      "name": "Chew Toys",
+      "slug": "dog-chew-toys"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2139,
+      "name": "toys",
+      "slug": "toys"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/dura-chew-m-l/",
+  "shortDescription": "It provides long-lasting enjoyment, satisfies the natural urge to chew, and encourages positive chewing habits.",
+  "description": "Give your dog something good to chew on, tough and durable. Dura Chew Chicken Bone Dog Chew Toy satisfies powerful chewers. It provides long-lasting enjoyment, satisfies the natural urge to chew, and encourages positive chewing habits. Different dogs have different chewing styles and strengths, even within the same breed, so be sure to choose the correct chew toy size and strength for your dog.",
+  "images": [
+    {
+      "id": 43076,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/01/Dura-chew-PA3915-1.webp",
+      "alt": "Dura Chew M/L",
+      "name": "Dura chew PA3915"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/dura-chew-m-l/?add-to-cart=43075",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2024-01-10T09:27:14",
+  "dateModified": "2026-06-17T04:18:42",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/01/Dura-chew-PA3915-1.webp"
+}

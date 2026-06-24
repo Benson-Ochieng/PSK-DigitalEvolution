@@ -1,0 +1,57 @@
+{
+  "id": 42142,
+  "name": "Bioline dental water for dogs & cats- 300ML",
+  "slug": "bioline-dental-water-for-dogs-cats-300ml",
+  "sku": "BDCDW300ML",
+  "onSale": false,
+  "price": 1200,
+  "regularPrice": 1200,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/DENTAL-WATER-FOR-CATS-DOGS.jpg",
+  "categories": [
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1824,
+      "name": "dental care",
+      "slug": "dental-care"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=42142",
+  "shortDescription": "Bioline dental water for pets is a dental care product specifically formulated for pets.",
+  "description": "Bioline dental water for pets is a dental care product specifically formulated for pets. It improves hygiene in the pet’s mouth. It freshens the pet’s breath. Bioline dental water for pets is made of high-quality food-grade ingredients. It is safe to use on dogs and cats frequently. It prevents the formation of tartars and plaques in the dog’s mouth. Directions for use : Add this dental water to your animals normal drinking water. Mixing ration 1:50. The dental water completely dissolves in the drinking water. Ingredients : Deionised water, sodium benzoate, polysorbate 20, glycerin, proteases, sodium chloride, hydroxyethyl-cellulose, zinc gluconate, glucose oxidase, lysozyme, parfum",
+  "images": [
+    {
+      "id": 42143,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/12/DENTAL-WATER-FOR-CATS-DOGS.jpg",
+      "alt": "Bioline dental water for dogs & cats- 300ML",
+      "name": "DENTAL-WATER-FOR-CATS-DOGS"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/bioline-dental-water-for-dogs-cats-300ml/?add-to-cart=42142",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-12-08T13:13:04",
+  "dateModified": "2026-05-06T17:09:15",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/DENTAL-WATER-FOR-CATS-DOGS.jpg"
+}

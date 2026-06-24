@@ -1,0 +1,68 @@
+{
+  "id": 8480,
+  "name": "MEGA Saver January Dog Bundle: ONE 15kg Reflex Bag of Choice + 4 Assorted Treats",
+  "slug": "mega-saver-january-dog-bundle",
+  "sku": "MSDBJAN20",
+  "onSale": true,
+  "price": 4699,
+  "regularPrice": 6890,
+  "salePrice": 4699,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/01/PetStore-Kenya-January-Medium-Large-Breed-Dog-Bundle-07012020-min.png",
+  "categories": [
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    },
+    {
+      "id": 927,
+      "name": "Sale",
+      "slug": "sale"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2109,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=8480",
+  "shortDescription": "[Save 2,191/- on 6,890/- Value] 1 x 15kg REFLEX Adult Dog Food (Choose from 3 flavours) + 4 FREE REFLEX Dog Treats (2 x Joint Care Pocket Treats 95g, 1 x Animal Mix Biscuits 350g, 1 x 100% Natural Beef Slices 80g) + FREE Delivery.",
+  "description": "",
+  "images": [
+    {
+      "id": 8434,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/01/PetStore-Kenya-January-Medium-Large-Breed-Dog-Bundle-07012020-min.png",
+      "alt": "PetStore Kenya January Medium Large Breed Dog Bundle 07012020 min",
+      "name": "PetStore Kenya January Medium Large Breed Dog Bundle 07012020 min"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/mega-saver-january-dog-bundle/?add-to-cart=8480",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "catalog",
+  "dateCreated": "2020-01-07T17:55:16",
+  "dateModified": "2026-05-06T17:06:25",
+  "brand": "Reflex",
+  "weight_kg": 15.6,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/01/PetStore-Kenya-January-Medium-Large-Breed-Dog-Bundle-07012020-min.png"
+}

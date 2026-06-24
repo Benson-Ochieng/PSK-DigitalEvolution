@@ -1,0 +1,98 @@
+{
+  "id": 42591,
+  "name": "SHORT EXPIRY-CLEARANCE: Unique Veterinary Prescription Diet Adult Cat Renal Egg & Chicken & Salmon 2kg",
+  "slug": "short-expiry-clearance-unique-veterinary-prescription-diet-adult-cat-renal-egg-chicken-salmon-2kg",
+  "sku": "UCD008@SE",
+  "onSale": true,
+  "price": 3395,
+  "regularPrice": 4850,
+  "salePrice": 3395,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/03/UCD008.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 2127,
+      "name": "Unique",
+      "slug": "unique"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2474,
+      "name": "Unique",
+      "slug": "unique"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 1303,
+      "name": "Clearance",
+      "slug": "clearance"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 2319,
+      "name": "Veterinary Range",
+      "slug": "veterinary-range"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=42591",
+  "shortDescription": "It is used in acute and chronic renal failure. It is effective in solving the problem of blood pressure. It helps in the treatment of congestive heart failure. Due to its special content and raw materials, it protects the health of kidney cells. It has delicious content that stimulates the consumption of food, especially for cats with chronic kidney disease and reduced appetite.",
+  "description": "How it works: Urinary tract health with optimal urinary PH, Low phosphorus and sodium content, High arginine level (tissue regeneration and healing), Marigold extract (anti-inflammatory and antiseptic), Chitosan content (kidney health and appetite stimulation) , Quality animal protein content. Ingredients Egg, Brown Rice, Peas, Chicken Protein, Salmon Protein, Chicken Oil, Sugar Beet Pulp, Fish Oil, Hydrolyzed Chicken Liver, Egg Shells, Vitamin and Mineral Premix, Natural Flavors, Brewer's Yeast, Probiotic, Dried Algae, Psyllium Shells, Potassium Citrate, Chitosan, MOS, ?-Glucan, Tocopherol, Marigold Extract, Yucca, Wild Sea buckthorn. Raw Material Components Raw Protein 26.20% Raw oil 16.77% Raw Cellulose (Fiber) 2.40% Ash 7.40% Moisture 4.15% Calcium 0.78% Phosphorus 0.42% Sodium 0.28% Magnesium 0.065% Potassium 0.50% Arginine 0.95% Taurine 0.21% Nutritional Supplements Vitamin A (3a672a) 25,000 IU/kg Vitamin D 3 (E671) 850 IU/kg Vitamin E (3a700) 1.000 mg/kg Vitamin C (3a312) 400mg/kg Choline Chloride (3a890) 2.300 mg/kg Biotin (3a880) 3mg/kg Vitamin B 1 (3a821) 10mg/kg Vitamin B2 30mg/kg Niacinamide (3a315) 100mg/kg Calcium-D-Panthothenate (3a841) 60mg/kg Vitamin B 6 (3a831) 35mg/kg Folic Acid (3a316) 15mg/kg Vitamin B 12 0.18 mg/kg Zinc Chelate of Amino Acids Hydrate (3b606) 120mg/kg Ferrous Chelate of Amino Acids Hydrate (E1) 60mg/kg Manganese Chelate of Amino Acids Hydrate (E5) 60mg/kg Potassium Iodide (3b201) 4mg/kg Cupric Chelate of Amino Acids Hydrate (E4) 3,5 mg/kg Organic Form of Selenium (3b8.10) 0.2mg/kg Taurine (3a370) 2.300 mg/kg L-Carnitine (3a910) 230mg/kg L-Methionine (3c305) 4,000 mg/kg Arginine (3c3.6.1) 3.200mg/kg Probiotic (B. Amyloliquefaciens) 7 x 10 14 /kg",
+  "images": [
+    {
+      "id": 25872,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/03/UCD008.jpg",
+      "alt": "SHORT EXPIRY-CLEARANCE: Unique Veterinary Prescription Diet Adult Cat Renal Egg & Chicken & Salmon 2kg",
+      "name": "UCD008"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-unique-veterinary-prescription-diet-adult-cat-renal-egg-chicken-salmon-2kg/?add-to-cart=42591",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-12-21T15:17:02",
+  "dateModified": "2026-06-17T04:35:57",
+  "brand": "Unique",
+  "weight_kg": 2,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/03/UCD008.jpg"
+}

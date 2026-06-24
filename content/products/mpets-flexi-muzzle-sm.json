@@ -1,0 +1,87 @@
+{
+  "id": 27358,
+  "name": "Mpets Flexi Muzzle (Sm)",
+  "slug": "mpets-flexi-muzzle-sm",
+  "sku": "MPFM02",
+  "onSale": false,
+  "price": 1200,
+  "regularPrice": 1200,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/MPFM02.jpg",
+  "categories": [
+    {
+      "id": 2351,
+      "name": "Collars, Leashes & Harnesses",
+      "slug": "dog-collars-leashes-and-harnesses"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2355,
+      "name": "Dog Muzzles",
+      "slug": "dog-muzzles"
+    },
+    {
+      "id": 2135,
+      "name": "MPETS",
+      "slug": "mpets"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1034,
+      "name": "large breed",
+      "slug": "large-breed"
+    },
+    {
+      "id": 2109,
+      "name": "Small breeds",
+      "slug": "small-breeds"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27358",
+  "shortDescription": "Mpets Flexi Dog Muzzle",
+  "description": "Flexi Muzzle 1,5x20 cm/22 cm - S",
+  "images": [
+    {
+      "id": 27354,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPFM02.jpg",
+      "alt": "Mpets Flexi Muzzle (Sm)",
+      "name": "MPFM02"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/mpets-flexi-muzzle-sm/?add-to-cart=27358",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-04-20T16:20:38",
+  "dateModified": "2026-05-06T17:08:07",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPFM02.jpg"
+}

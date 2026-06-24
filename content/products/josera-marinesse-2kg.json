@@ -1,0 +1,88 @@
+{
+  "id": 23736,
+  "name": "Josera Marinesse 2kg",
+  "slug": "josera-marinesse-2kg",
+  "sku": "JCM",
+  "onSale": false,
+  "price": 2362,
+  "regularPrice": 2362,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JCM.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josera-marinesse-2kg/",
+  "shortDescription": "JOSERA Marinesse with plenty of delicious salmon is optimal food for cats with a taste for fish. The food is also ideal for cats suffering from feed intolerances.",
+  "description": "Composition: salmon, dried; rice; potato (dried), poultry fat; sugar beet pulp; potato protein; fish protein, hydrolysed; minerals. Product Details: JOSERA Marinesse with plenty of delicious salmon is optimal food for cats with a taste for fish. The food is also ideal for cats suffering from feed intolerances. The exceptional ingredients include only protein derived from well tolerated salmon, rice, and potatoes. This makes it the ideal food for cats with sensitive digestive systems. ? Contains salmon, rice and potatoes, ingredients which cats both accept and digest very well ? Contains plenty of salmon for demanding feline gourmets ? Valuable fatty acids from salmon keep your cat?s coat and skin healthy ? Hypoallergenic and easy to digest ? Complete feed for adult cats Full diet",
+  "images": [
+    {
+      "id": 23782,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JCM.jpg",
+      "alt": "Josera Marinesse 2kg",
+      "name": "JCM.jpg"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/josera-marinesse-2kg/?add-to-cart=23736",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2021-10-29T07:55:21",
+  "dateModified": "2026-06-17T04:28:42",
+  "brand": "Josera",
+  "weight_kg": 2,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JCM.jpg"
+}

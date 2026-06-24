@@ -1,0 +1,98 @@
+{
+  "id": 46539,
+  "name": "Josera Fiesta Plus Dog Food 15kg",
+  "slug": "josera-fiesta-plus-dog-food15kg",
+  "sku": "JFDF",
+  "onSale": false,
+  "price": 13700,
+  "regularPrice": 13700,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/05/joserafiestaplus.png",
+  "categories": [
+    {
+      "id": 2165,
+      "name": "Dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2167,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 637,
+      "name": "kibble",
+      "slug": "kibble"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=46539",
+  "shortDescription": "A well-balanced food with a balanced calcium phosphorus ratio, vitamin C, as well as manganese and copper, which are easy to absorb, support a strong bone structure and healthy joints.",
+  "description": "More variety with two-coloured Josera Fiesta-Plus kibble, plus a nutritional bonus. Vitamin-rich, red vitality booster chips, also contain taurine and L-carnitine, give your dog an extra dose of vigour. A well-balanced food with a balanced calcium phosphorus ratio, vitamin C, as well as manganese and copper, which are easy to absorb, support a strong bone structure and healthy joints. Additional amounts of important antioxidants such as vitamins E & C can protect cells against free radicals. L-carnitine and taurine in turn also support the dog’s heart function. Colourful kibble mix Vital booster chips for additional vigour: vitamins E & C protect cells against free radicals, taurine plus L-carnitine support the cardiac function. With tasty poultry and salmon With delicious powder sauce for added flavour Valuable fatty acids promote a healthy skin and shiny coat. A Complete food for adult dogs. Composition brown kibble (dried poultry protein; whole grain corn; rice; poultry fat; beet fibre; dried salmon protein 4.0 %; potato starch; hydrolysed poultry protein; hydrolysed vegetable protein; minerals; hydrolysed poultry liver; yeast; haemoglobin powder; ground chicory root (natural source of inulin); dried protein from the New Zealand green-lipped mussel (Perna canaliculus)); vitality booster chips 12.0 % (whole grain corn; poultry fat; maize protein; red beet powder; hydrolysed animal protein) FEEDING RECOMMENDATION weight inactive/older normal activity active 5 kg 45 g 60 g 75 g 10 kg 80 g 110 g 135 g 20 kg 135 g 180 g 230 g 30 kg 180 g 250 g 315 g 40 kg 225 g 310 g 390 g 60 kg 305 g 420 g 530 g 80 kg 380 g 520 g 655 g The recommended feed quantity is per animal per day based on target adult weight. Please note that the quantities stated are a guide only and must be adapted to your animal´s nutritional status and its activity. Please make sure your animal always has fresh water.",
+  "images": [
+    {
+      "id": 36950,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/05/joserafiestaplus.png",
+      "alt": "Josera Fiesta Plus Dog Food 15kg",
+      "name": "joserafiestaplus"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/josera-fiesta-plus-dog-food15kg/?add-to-cart=46539",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2024-04-29T15:02:00",
+  "dateModified": "2026-06-17T04:33:52",
+  "brand": "Josera",
+  "weight_kg": 15,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/05/joserafiestaplus.png"
+}

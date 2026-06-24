@@ -1,0 +1,72 @@
+{
+  "id": 36722,
+  "name": "Bioline Insect Repellent Shampoo For Cats 200ml",
+  "slug": "bioline-insect-repellent-shampoo-for-cats-200ml",
+  "sku": "BLIRSC200",
+  "onSale": false,
+  "price": 560,
+  "regularPrice": 560,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/05/BIOLINE-INSSECT-REPELLENT-SHAMPOO.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2343,
+      "name": "Cat Grooming",
+      "slug": "cat-grooming"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2098,
+      "name": "Grooming & Tools",
+      "slug": "grooming-tools"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=36722",
+  "shortDescription": "Bioline Insect Repellent Cat Shampoo",
+  "description": "Protects against damage caused by biting insects, using a mild formula of Margosa extract, which deprives fleas and ticks of their ability to feed, thus removing them while cleaning. Effectively alleviate the irritation to your cat, making their coat healthy and shiny. KEY BENEFITS: Contains mild formula of Margosa extract, which deprives fleas and ticks of their ability to feed Removes fleas and ticks while cleaning Effectively alleviate irritation USAGE GUIDE: Wet cat thoroughly with normal or warm water. Use appropriate quantity of shampoo, rub into coat until a luxurious lather is built up. Rinse thoroughly till the lather is washed completely. Dry the coat with towel.",
+  "images": [
+    {
+      "id": 36723,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/05/BIOLINE-INSSECT-REPELLENT-SHAMPOO.png",
+      "alt": "Bioline Insect Repellent Shampoo For Cats 200ml",
+      "name": "BIOLINE INSSECT REPELLENT SHAMPOO"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/bioline-insect-repellent-shampoo-for-cats-200ml/?add-to-cart=36722",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-05-02T13:06:44",
+  "dateModified": "2026-05-06T17:08:37",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/05/BIOLINE-INSSECT-REPELLENT-SHAMPOO.png"
+}

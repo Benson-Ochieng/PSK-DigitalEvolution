@@ -1,0 +1,62 @@
+{
+  "id": 58390,
+  "name": "Ferplast Pet Feeding Bwl Orion KC52",
+  "slug": "ferplast-pet-feeding-bwl-orion-kc52",
+  "sku": "FPFBKC52",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-45-1.png",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2098,
+      "name": "Grooming & Tools",
+      "slug": "grooming-tools"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=58390",
+  "shortDescription": "The FERPLAST Orion KC52 is a reliable stainless steel feeding bowl, thoughtfully designed for both cats and dogs. Known for its durability and ease of maintenance, it offers a simple yet highly practical solution for everyday feeding—whether dry food, wet food, or water.",
+  "description": "Key Features Premium Stainless Steel: Crafted from high-quality, rust-resistant stainless steel for superior hygiene and long-term use. User-Friendly Design: Features a wide outer rim that enhances grip and handling—perfect for easy refilling or lifting without mess. Versatile Use: Functions perfectly on its own or can be combined with Ferplast’s Duo Feed plastic bowl holders for added stability and aesthetic flexibility. Size Variety: The Orion range, including the KC52, spans capacities from 0.25 liters to 4.5 liters , making it suitable for pets of all breeds and sizes. Timeless Aesthetic: With its polished, traditional stainless steel finish, the bowl complements any pet feeding area—from modern kitchens to outdoor feeding spaces. Everyday Reliability The Orion KC52 bowl is ideal for pet owners who prioritize cleanliness, safety, and long-term value . Its durable steel construction makes it resistant to odors, stains, and bacteria buildup, while the simple design supports effortless maintenance. Ideal for: Feeding dry or wet food Cats and dogs of all sizes Indoor or outdoor use Use with or without bowl holders Why Choose Orion KC52? A trusted classic in pet care, the Orion KC52 offers the perfect balance of traditional style and modern functionality— hygienic, affordable, and built to last",
+  "images": [
+    {
+      "id": 58391,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-45-1.png",
+      "alt": "Ferplast Pet Feeding Bwl Orion KC52",
+      "name": "Untitled design (45)"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": false,
+  "addToCartUrl": "https://petstore.co.ke/product/ferplast-pet-feeding-bwl-orion-kc52/?add-to-cart=58390",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2025-08-14T10:40:15",
+  "dateModified": "2026-06-24T13:11:59",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-45-1.png"
+}

@@ -1,0 +1,83 @@
+{
+  "id": 39721,
+  "name": "SHORT EXPIRY-CLEARANCE: Bonnie Rabbit And Rodent Food 750g",
+  "slug": "short-expiry-clearance-bonnie-rabbit-and-rodent-food-750-g",
+  "sku": "BRF001@SE",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Bonnie-Rodent-and-Rabbit-Food-750g.png",
+  "categories": [
+    {
+      "id": 177,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    },
+    {
+      "id": 2371,
+      "name": "Rabbit",
+      "slug": "rabbit-supplies-store"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2428,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1303,
+      "name": "Clearance",
+      "slug": "clearance"
+    },
+    {
+      "id": 1359,
+      "name": "rabbit",
+      "slug": "rabbit"
+    },
+    {
+      "id": 2117,
+      "name": "rabbit food",
+      "slug": "rabbit-food"
+    },
+    {
+      "id": 2116,
+      "name": "rodent",
+      "slug": "rodent"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=39721",
+  "shortDescription": "Bonnie Rabbit and Rodent Food",
+  "description": "INGREDIENTS: Clover Pellet, Wheat, Barley, Oat, Corn, Sunflower Seed, Pea, Carob. FEEDING RECOMMENDATION: Per each pet, for Rabbits 40-50 gr (4-5 tablespoon), for Guinea Pig 35 -40 gr (3-4 tablespoon), for Hamster 10-15 gr (1-1,5 tablespoon) daily. Feed rabbits and rodents regularly. Remember to ensure that they have free access to the feed and fresh drinking water.",
+  "images": [
+    {
+      "id": 28990,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/12/Bonnie-Rodent-and-Rabbit-Food-750g.png",
+      "alt": "Bonnie Rabbit and Rodent Food 750g",
+      "name": "Bonnie Rodent and Rabbit Food 750g"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-bonnie-rabbit-and-rodent-food-750-g/?add-to-cart=39721",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-09-20T14:53:13",
+  "dateModified": "2026-06-17T04:32:50",
+  "brand": "Bonnie",
+  "weight_kg": 0.75,
+  "animal_type": "rabbit",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/12/Bonnie-Rodent-and-Rabbit-Food-750g.png"
+}

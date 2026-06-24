@@ -1,0 +1,87 @@
+{
+  "id": 42166,
+  "name": "SHORT EXPIRY-CLEARANCE: Migliorcane Junior Dog Food croquettes with Chicken 1.5kg",
+  "slug": "migliorcane-junior-dog-food-croquettes-with-chicken-1-5kg-3",
+  "sku": "MDD001@SE",
+  "onSale": true,
+  "price": 945,
+  "regularPrice": 1890,
+  "salePrice": 945,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MDD001.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2163,
+      "name": "Miglior",
+      "slug": "miglior"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1303,
+      "name": "Clearance",
+      "slug": "clearance"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=42166",
+  "shortDescription": "Formula designed to guarantee the key nutrients required for the well-being of your dog, including vitamins, Omega 3, calcium and phosphorous to support strong bones and teeth, healthy skin and glossy coat, and toned musculature.",
+  "description": "COMPOSITION: Cereals, meat and animal derivatives 31.5 (chicken 4%), oils and fats, derivatives of vegetable origin, minerals, yeasts (yeast products sources of nucleotides 0.12%). ANALYTICAL CONSTITUENTS: Crude protein 25.00%, Crude fibres 2.00%, Crude Fat 12.00%, Crude ash 6.00%, Calcium 1.8%, Phosphorus 1.1%, Omega 3 fatty acids 0.25%, Omega 6 fatty acids 1.4%. Nutritional additives /kg: Vitamin A 19000 UI, Vitamin D3 1320 UI, Vitamin E 100 mg, Vitamin B1 16.2 mg, Vitamin B2 5.5 mg, Vitamin B6 5.7 mg, Vitamin B12 0.03 mg, Niacin 54.5 mg, Biotin 0.2 mg, Calcium D-pantothenate 68.2 mg, Folic acid 1.6 mg, Zinc (Zinc oxide) 140 mg, Iron (Iron (II) carbonate (siderite)) 100 mg, Copper (Copper II sulphate pentahydrate) 12 mg, Manganese (Manganese (II) oxide) 8.0 mg, Iodine (Potassium iodide) 3 mg, Selenium (Sodium selenite) 0.2 mg. Antioxidants. HOW TO USE: The product is ready to use. The daily amount recommended may vary due to age or particular needs of every dog. We suggest to switch gradually to the new food. Leave always available to your dog a bowl of pure water. It is recommended to divide the daily dosage into 3 - 4 meals up to six months; subsequently it is recommended to divide it into 2 meals a day. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight",
+  "images": [
+    {
+      "id": 28201,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MDD001.jpg",
+      "alt": "Migliorcane Junior croquettes with Chicken",
+      "name": "MDD001"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/migliorcane-junior-dog-food-croquettes-with-chicken-1-5kg-3/?add-to-cart=42166",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-12-09T11:24:56",
+  "dateModified": "2026-05-06T17:09:15",
+  "brand": null,
+  "weight_kg": 1.5,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MDD001.jpg"
+}

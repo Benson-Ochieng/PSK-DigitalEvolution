@@ -1,0 +1,77 @@
+{
+  "id": 19806,
+  "name": "Bio Petactive D-Kaltabs (Calcium Tablets for Dogs and Cats) 126g",
+  "slug": "bio-petactive-d-kaltabs-calcium-tablets-for-dogs-and-cats-126gr",
+  "sku": "BPDK126",
+  "onSale": false,
+  "price": 1400,
+  "regularPrice": 1400,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/BPDK126.jpg",
+  "categories": [
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 2085,
+      "name": "Supplements",
+      "slug": "supplements"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=19806",
+  "shortDescription": "Bio Petactive D-Kaltabs (Calcium Tablets for Dogs and Cats) 126gr",
+  "description": "Bio PetActive D-Kaltabs, Calcium for Cats and Dogs is a supplementary feed that provides the calcium our pet friends need at every stage of life.",
+  "images": [
+    {
+      "id": 19773,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/BPDK126.jpg",
+      "alt": "Bio Petactive D-Kaltabs (Calcium Tablets for Dogs and Cats) 126g",
+      "name": "BPDK126"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/bio-petactive-d-kaltabs-calcium-tablets-for-dogs-and-cats-126gr/?add-to-cart=19806",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2021-04-08T13:21:08",
+  "dateModified": "2026-05-06T17:07:15",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/BPDK126.jpg"
+}

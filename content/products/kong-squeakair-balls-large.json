@@ -1,0 +1,123 @@
+{
+  "id": 16444,
+  "name": "KONG SqueakAir Balls Large",
+  "slug": "kong-squeakair-balls-large",
+  "sku": "AST1",
+  "onSale": false,
+  "price": 1000,
+  "regularPrice": 1000,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/11/Untitled-design-13.png",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2342,
+      "name": "Cat Toys",
+      "slug": "cat-toys"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2357,
+      "name": "Dog Fetch Toys",
+      "slug": "dog-fetch-toys"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2031,
+      "name": "Kong",
+      "slug": "kong-accessories"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=16444",
+  "shortDescription": "KONG Squeaking Tennis Balls – Large Set of 2",
+  "description": "The KONGSqueakAir? Ball combines two classic dog toys - the tennis ball and the squeaker toy - to create the perfect fetch toy. Our durable, high-quality Squeak air? Tennis Ball will not wear down your dog?s teeth. It?s made with special non-abrasive felt. Fetch toy for healthy; active play Non-abrasive KONGTennis material; softer on teeth Squeaker entices play",
+  "images": [
+    {
+      "id": 34592,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/11/Untitled-design-13.png",
+      "alt": "KONG SqueakAir Balls Large",
+      "name": "Untitled design (13)"
+    },
+    {
+      "id": 34593,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/11/KONG-SQUEAKAIR-BALL-MD.jpg",
+      "alt": "KONG SqueakAir Balls Large",
+      "name": "KONG SQUEAKAIR BALL MD"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/kong-squeakair-balls-large/?add-to-cart=16444",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2020-11-27T10:42:02",
+  "dateModified": "2026-05-06T17:06:40",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/11/Untitled-design-13.png"
+}

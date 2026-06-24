@@ -1,0 +1,72 @@
+{
+  "id": 27028,
+  "name": "Cat Fest Pillows With Salmon Creme (30G)",
+  "slug": "cat-fest-pillows-with-salmon-creme-30g",
+  "sku": "CF002",
+  "onSale": false,
+  "price": 130,
+  "regularPrice": 130,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/CF002.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2330,
+      "name": "Cat Treats",
+      "slug": "cat-treats"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27028",
+  "shortDescription": "Cat Fest Pillows With Salmon Creme (30G)",
+  "description": "An excellent combination of crispy crust and the most delicate natural puree from wild salmon make this treat a cat?s favorite treat, and the porous structure helps the pet to brush its teeth. Ingredients: cereals, vegetable protein, ocean salmon, egg yolk, fish meal, ocean shrimp, Omega 3/6 fatty acids, fruits and vegetables (pomegranate seeds, forest cranberries). Analytical components: crude protein 25%, fats 15%, crude fiber 2.5%, crude ash 4%, moisture 10%; energy value ? 360 kcal.",
+  "images": [
+    {
+      "id": 27013,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/CF002.jpg",
+      "alt": "Cat Fest Pillows With Salmon Creme (30G)",
+      "name": "CF002"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/cat-fest-pillows-with-salmon-creme-30g/?add-to-cart=27028",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-04-20T16:20:53",
+  "dateModified": "2026-05-06T17:08:03",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/CF002.jpg"
+}

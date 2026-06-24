@@ -1,0 +1,63 @@
+{
+  "id": 62659,
+  "name": "Montego Monty & Me Adult Cat - 20kg",
+  "slug": "montego-monty-me-adult-cat-20-kg-3",
+  "sku": "MMCAT20@F",
+  "onSale": true,
+  "price": 11888,
+  "regularPrice": 15850,
+  "salePrice": 11888,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-36.png",
+  "categories": [
+    {
+      "id": 2298,
+      "name": "Montego",
+      "slug": "montego"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2453,
+      "name": "Montego",
+      "slug": "montego"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2223,
+      "name": "flash",
+      "slug": "flash"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=62659",
+  "shortDescription": "Montego Monty & Me Adult Cat is a well balanced, nutritious dry cat food designed to support overall health, energy, and vitality in adult cats of all breeds.",
+  "description": "Monty & Me is specially formulated to give your cat the perfect balance of taste, nutrition, and energy for a long, happy, and healthy life. Benefits at a Glance Delicious & Strength-Building: Optimum protein and fat levels keep your kitty strong, healthy, and full of vitality. Bright Eyes & a Strong Heart: High-quality animal proteins with added Taurine support sharp vision and healthy heart function. Strong Immunity: Natural antioxidants, plus Vitamins E & C, help protect cells, support circulation, and boost the immune system. Playful Energy: A perfect blend of essential nutrients, vitamins, minerals, and Taurine fuels your cat’s energy for play, growth, and happiness. Key Ingredients Corn*, poultry meal, wheat bran, rice, corn gluten, animal fat, fish meal, brewer’s yeast, beet pulp, fish oil, minerals, vitamins, Taurine, L-Lysine, and DL-Methionine. *May contain GMO’s. Nutritional Additives (per kg) Vitamins: A (10,000 IU), D3 (775 IU), E (75 IU), C (50 mg) Minerals: Potassium chloride, zinc sulphate, iron sulphate, copper sulphate, manganese sulphate, potassium iodide Other Additives: Approved antioxidants & palatability enhancers for great taste Typical Analysis Crude Protein: 28% Moisture: 10% Total Fat: 12% Crude Fibre: 3% Crude Ash: 6.5% Calcium: 1.2% | Phosphorus: 0.8% Linoleic Acid: 2.5% Lysine: 1% | Methionine: 0.5% Taurine: 0.125% Metabolizable Energy : Optimized for active cats Monty & Me provides complete and balanced nutrition helping your cat stay healthy, happy, and playful every single day.",
+  "images": [
+    {
+      "id": 56702,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-36.png",
+      "alt": "Montego Monty & Me Adult Cat – 20kg",
+      "name": "Untitled design (36)"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": false,
+  "addToCartUrl": "https://petstore.co.ke/product/montego-monty-me-adult-cat-20-kg-3/?add-to-cart=62659",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2025-11-21T13:57:23",
+  "dateModified": "2026-06-17T04:34:29",
+  "brand": "Montego",
+  "weight_kg": 10,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-36.png"
+}

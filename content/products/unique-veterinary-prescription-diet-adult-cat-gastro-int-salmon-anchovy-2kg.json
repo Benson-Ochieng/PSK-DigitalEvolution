@@ -1,0 +1,93 @@
+{
+  "id": 25987,
+  "name": "Unique Veterinary Prescription Diet Adult Cat Gastro Intestinal Salmon & Anchovy 2kg",
+  "slug": "unique-veterinary-prescription-diet-adult-cat-gastro-int-salmon-anchovy-2kg",
+  "sku": "UCD006",
+  "onSale": false,
+  "price": 3315,
+  "regularPrice": 3315,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/03/UCD006.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 2127,
+      "name": "Unique",
+      "slug": "unique"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2475,
+      "name": "Unique",
+      "slug": "unique-2"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 2319,
+      "name": "Veterinary Range",
+      "slug": "veterinary-range"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/unique-veterinary-prescription-diet-adult-cat-gastro-int-salmon-anchovy-2kg/",
+  "shortDescription": "It is used in the process of relieving acute and chronic intestinal syndrome and absorption problems and curing diarrhea. It helps in the treatment of stomach problems. It ensures the skin health is restored. Thanks to its beneficial content for the digestive system microbiota, it helps your cat with acute or chronic digestive system problems to regain health. Thanks to its rich and delicious content and nutritional supplements, it meets all the needs of your cat.",
+  "description": "How it works: Rich in prebiotics and probiotics (heat resistant probiotic stain; Bacillus Amyloliquefaciens) Quality and hydrolyzed protein sources, Dried Algae (Omega-3 and Vitamin Source) Marigold Extract (Anti-inflammatory and Antiseptic) Sea Buckthorn (Omega-7 source and Anti-inflammatory) Helpful content for digestive system microbiota Ingredients: Anchovy Protein, Pea, Hydrolyzed Salmon Protein, Brown Rice, Chicken Oil, Sugar Beet Pulp, Dried Egg, Fish Oil, Natural Flavors, Powdered Cellulose, Vitamin and Mineral Premix, Brewer's Yeast, Probiotic, Psyllium Shells, Dried Algae, MOS, ? -Glucan, Tocopherol, Marigold Extract, Yucca, Wild Seabuckthorn. Raw Material Components Raw Protein 34.74% Raw oil 13.85% Raw Cellulose (Fiber) 3.40% Ash 7.46% Moisture 4.40% Omega-3 1.08% Omega 6 2.75% Calcium 0.98% Phosphorus 0.72% Sodium 0.42% Magnesium 0.076% Potassium 0.80% Nutritional Supplements Vitamin A (3a672a) 25,000 IU/kg Vitamin D 3 (E671) 850 IU/kg Vitamin E (3a700) 1.000 mg/kg Vitamin C (3a312) 300mg/kg Choline Chloride (3a890) 2.300 mg/kg Biotin (3a880) 3mg/kg Vitamin B 1 (3a821) 10mg/kg Vitamin B2 50mg/kg Niacinamide (3a315) 80mg/kg Calcium-D-Panthothenate (3a841) 50mg/kg Vitamin B 6 (3a831) 35mg/kg Folic Acid (3a316) 15mg/kg Vitamin B 12 0.18 mg/kg Zinc Chelate of Amino Acids Hydrate (3b606) 120mg/kg Ferrous Chelate of Amino Acids Hydrate (E1) 60mg/kg Manganese Chelate of Amino Acids Hydrate (E5) 60mg/kg Potassium Iodide (3b201) 4mg/kg Cupric Chelate of Amino Acids Hydrate (E4) 3,5 mg/kg Organic Form of Selenium (3b8.10) 0.2mg/kg Taurine (3a370) 2.300 mg/kg L-Carnitine (3a910) 240mg/kg L-Methionine (3c305) 4,000 mg/kg Probiotic (B. Amyloliquefaciens) 7 x 10 14 /kg",
+  "images": [
+    {
+      "id": 25848,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/03/UCD006.jpg",
+      "alt": "Unique Veterinary Prescription Diet Adult Cat Gastro Intestinal Salmon & Anchovy 2kg",
+      "name": "UCD006"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/unique-veterinary-prescription-diet-adult-cat-gastro-int-salmon-anchovy-2kg/?add-to-cart=25987",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-04-20T16:38:21",
+  "dateModified": "2026-06-17T04:28:47",
+  "brand": "Unique",
+  "weight_kg": 2,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/03/UCD006.jpg"
+}
