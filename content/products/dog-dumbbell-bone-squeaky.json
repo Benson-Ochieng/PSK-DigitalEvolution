@@ -4,8 +4,8 @@
   "slug": "dog-dumbbell-bone-squeaky",
   "sku": "PA0129",
   "onSale": false,
-  "price": 6.5,
-  "regularPrice": 6.5,
+  "price": 650,
+  "regularPrice": 650,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -27,21 +27,7 @@
       "slug": "dog-toys"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/dog-dumbbell-bone-squeaky/",
-  "shortDescription": "Available in 4 colours, each sold separately. We cannot guarantee which colour you will receive when you purchase online.",
-  "description": "Dumbbell squeaky toy is a great choice for your pet dog. Made from non-toxic vinyl rubber material, it causes no harm to your pet. Encourages exercise/play and it will keep your dog entertained. Assorted colours &#8211; yellow, purple, blue, &amp; red Squeaks! Great for playing catch.",
-  "images": [
-    {
-      "id": 42697,
-      "alt": "Dog Dumbbell Bone Squeaky",
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/12/dog-dumbbell-bone-squeaky-webimage2-pa0129.webp",
-      "name": "dog-dumbbell-bone-squeaky-webimage2-pa0129"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 1205,
@@ -64,14 +50,33 @@
       "slug": "toys"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/dog-dumbbell-bone-squeaky/",
+  "shortDescription": "Available in 4 colours, each sold separately. We cannot guarantee which colour you will receive when you purchase online.",
+  "description": "Dumbbell squeaky toy is a great choice for your pet dog. Made from non-toxic vinyl rubber material, it causes no harm to your pet. Encourages exercise/play and it will keep your dog entertained. Assorted colours - yellow, purple, blue, & red Squeaks! Great for playing catch.",
+  "images": [
+    {
+      "id": 42697,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/12/dog-dumbbell-bone-squeaky-webimage2-pa0129.webp",
+      "alt": "Dog Dumbbell Bone Squeaky",
+      "name": "dog-dumbbell-bone-squeaky-webimage2-pa0129"
+    }
+  ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=42695",
+  "addToCartUrl": "https://petstore.co.ke/product/dog-dumbbell-bone-squeaky/?add-to-cart=42695",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.345Z",
-  "dateModified": "2026-06-23T09:15:51.345Z"
+  "dateCreated": "2023-12-27T13:23:39",
+  "dateModified": "2026-06-17T04:14:35",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/dog-dumbbell-bone-squeaky-webimage2-pa0129.webp"
 }

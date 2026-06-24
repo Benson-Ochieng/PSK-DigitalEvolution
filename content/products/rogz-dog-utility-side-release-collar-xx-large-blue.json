@@ -1,12 +1,12 @@
 {
   "id": 17569,
-  "name": "Rogz Dog Utility Side Release Collar XX-Large – Blue",
+  "name": "Rogz Dog Utility Side Release Collar XX-Large - Blue",
   "slug": "rogz-dog-utility-side-release-collar-xx-large-blue",
   "sku": "HB19-B",
   "onSale": true,
-  "price": 20.56,
-  "regularPrice": 25.7,
-  "salePrice": 20.56,
+  "price": 2056,
+  "regularPrice": 2570,
+  "salePrice": 2056,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/HB19-B-Landing-Strip-Blue.jpg",
@@ -32,21 +32,7 @@
       "slug": "rogz"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-side-release-collar-xx-large-blue/",
-  "shortDescription": "Enhance every walk with the Rogz Utility Side Release Reflective Dog Collar—built with reflective stitching for superior night visibility and a robust RogLoc buckle that keeps your dog securely by your side. Rogz Utility Side Release collar &#8211; XX-Large Blue",
-  "description": "Rogz Utility Side Release Reflective Dog Collar has a reflective yarn woven into the webbing for night time visibility so that everyone is aware that you &amp; your dog are on an outing. Key Features: Reflective Stitching: Reflective yarn is woven into the webbing for nighttime visibility RogLoc: The Fort Knox of release buckles Low Load Technology: LLT technology reduces the load on the Titanium Plastic buckle through a cleverly positioned load ring Contoured Plastic Component: ROGZ rounded contoured plastic components ensure that every ROGZ collar fits snugly Die-Cast Ring: Custom designed die cast ring (no welding). Electroplated chrome for a tarnish free finish Size: XX-Large 40mm (Neck Size: 60 &#8211; 70cm)",
-  "images": [
-    {
-      "id": 17525,
-      "alt": "Rogz Dog Utility Side Release Collar XX-Large – Blue",
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/HB19-B-Landing-Strip-Blue.jpg",
-      "name": "HB19-B Landing Strip Blue"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 1205,
@@ -64,14 +50,33 @@
       "slug": "dog"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-side-release-collar-xx-large-blue/",
+  "shortDescription": "Enhance every walk with the Rogz Utility Side Release Reflective Dog Collar—built with reflective stitching for superior night visibility and a robust RogLoc buckle that keeps your dog securely by your side. Rogz Utility Side Release collar – XX-Large Blue",
+  "description": "Rogz Utility Side Release Reflective Dog Collar has a reflective yarn woven into the webbing for night time visibility so that everyone is aware that you & your dog are on an outing. Key Features: Reflective Stitching: Reflective yarn is woven into the webbing for nighttime visibility RogLoc: The Fort Knox of release buckles Low Load Technology: LLT technology reduces the load on the Titanium Plastic buckle through a cleverly positioned load ring Contoured Plastic Component: ROGZ rounded contoured plastic components ensure that every ROGZ collar fits snugly Die-Cast Ring: Custom designed die cast ring (no welding). Electroplated chrome for a tarnish free finish Size: XX-Large 40mm (Neck Size: 60 - 70cm)",
+  "images": [
+    {
+      "id": 17525,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/HB19-B-Landing-Strip-Blue.jpg",
+      "alt": "Rogz Dog Utility Side Release Collar XX-Large – Blue",
+      "name": "HB19-B Landing Strip Blue"
+    }
+  ],
   "stockStatus": "instock",
-  "lowStockRemaining": 1,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=1&#038;add-to-cart=17569",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-side-release-collar-xx-large-blue/?add-to-cart=17569",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.127Z",
-  "dateModified": "2026-06-23T09:15:51.127Z"
+  "dateCreated": "2021-01-10T19:10:59",
+  "dateModified": "2026-06-17T04:13:38",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/HB19-B-Landing-Strip-Blue.jpg"
 }

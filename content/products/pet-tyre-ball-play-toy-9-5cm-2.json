@@ -4,8 +4,8 @@
   "slug": "pet-tyre-ball-play-toy-9-5cm-2",
   "sku": "PA3552",
   "onSale": false,
-  "price": 7.6,
-  "regularPrice": 7.6,
+  "price": 760,
+  "regularPrice": 760,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -42,21 +42,7 @@
       "slug": "dog-toys"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pet-tyre-ball-play-toy-9-5cm-2/",
-  "shortDescription": "Durable rubber fetch and chew toy",
-  "description": "Durable fetch and chew toy for medium dogs. Made from high quality rubber",
-  "images": [
-    {
-      "id": 46791,
-      "alt": "Pet Tyre Ball Play Toy 9.5cm (Pa3552)",
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/05/PET-TYRE-BALL-PLAY-TOY-9.5CM-e1715089293327.png",
-      "name": "PET TYRE BALL PLAY TOY 9.5CM"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 1205,
@@ -79,14 +65,33 @@
       "slug": "toys"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/pet-tyre-ball-play-toy-9-5cm-2/",
+  "shortDescription": "Durable rubber fetch and chew toy",
+  "description": "Durable fetch and chew toy for medium dogs. Made from high quality rubber",
+  "images": [
+    {
+      "id": 46791,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/05/PET-TYRE-BALL-PLAY-TOY-9.5CM-e1715089293327.png",
+      "alt": "Pet Tyre Ball Play Toy 9.5cm (Pa3552)",
+      "name": "PET TYRE BALL PLAY TOY 9.5CM"
+    }
+  ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=46790",
+  "addToCartUrl": "https://petstore.co.ke/product/pet-tyre-ball-play-toy-9-5cm-2/?add-to-cart=46790",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.407Z",
-  "dateModified": "2026-06-23T09:15:51.407Z"
+  "dateCreated": "2024-05-29T11:36:34",
+  "dateModified": "2026-06-17T04:14:38",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/05/PET-TYRE-BALL-PLAY-TOY-9.5CM-e1715089293327.png"
 }

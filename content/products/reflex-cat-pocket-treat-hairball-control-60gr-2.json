@@ -4,8 +4,8 @@
   "slug": "reflex-cat-pocket-treat-hairball-control-60gr-2",
   "sku": "RCT019",
   "onSale": false,
-  "price": 3.5,
-  "regularPrice": 3.5,
+  "price": 350,
+  "regularPrice": 350,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "reflex"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/reflex-cat-pocket-treat-hairball-control-60gr-2/",
-  "shortDescription": "Reflex Cat Pocket Treats – Delicious, Healthy Snacks for Your Feline Friend Treat your cat to the irresistible taste of Reflex Cat Pocket Treats, a tasty and nutritious reward for your furry companion. Made with high-quality ingredients and crafted for cats of all ages, these treats offer a burst of flavor with every bite.",
-  "description": "It helps prevent hairball formation with its rich fiber and malt content. Thanks to its taurine content, it supports the immune system, heart health, and visual functions. Composition: Derivatives of vegetable origin (including 4% vegetable fibre), meat and animal derivatives (including 14% chicken), cereals (including 0.5% malt), oils and fats, vegetable protein extracts, minerals. Nutrient Components Crude Protein 29% Fat Content 20% Crude Fibre 3,6 % Crude Ash 6% &nbsp; Nutritional Supplements Vitamins: Vitamin A 6000 IU, Vitamin D3 400 IU, Vitamin E 100 mg, Taurine 1000 mg.",
-  "images": [
+  "brands": [
     {
-      "id": 51542,
-      "alt": "Reflex Cat Pocket Treat Hairball Control 60g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CAT-POCKET-TREAT-HAIRBALL-CONTROL-60GR.png",
-      "name": "REFLEX CAT POCKET TREAT HAIRBALL CONTROL 60GR"
+      "id": 2462,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "tags": [
@@ -59,20 +51,33 @@
       "slug": "treats"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/reflex-cat-pocket-treat-hairball-control-60gr-2/",
+  "shortDescription": "Reflex Cat Pocket Treats – Delicious, Healthy Snacks for Your Feline Friend Treat your cat to the irresistible taste of Reflex Cat Pocket Treats, a tasty and nutritious reward for your furry companion. Made with high-quality ingredients and crafted for cats of all ages, these treats offer a burst of flavor with every bite.",
+  "description": "It helps prevent hairball formation with its rich fiber and malt content. Thanks to its taurine content, it supports the immune system, heart health, and visual functions. Composition: Derivatives of vegetable origin (including 4% vegetable fibre), meat and animal derivatives (including 14% chicken), cereals (including 0.5% malt), oils and fats, vegetable protein extracts, minerals. Nutrient Components Crude Protein 29% Fat Content 20% Crude Fibre 3,6 % Crude Ash 6% &nbsp; Nutritional Supplements Vitamins: Vitamin A 6000 IU, Vitamin D3 400 IU, Vitamin E 100 mg, Taurine 1000 mg.",
+  "images": [
     {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
+      "id": 51542,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CAT-POCKET-TREAT-HAIRBALL-CONTROL-60GR.png",
+      "alt": "Reflex Cat Pocket Treat Hairball Control 60g",
+      "name": "REFLEX CAT POCKET TREAT HAIRBALL CONTROL 60GR"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=5&#038;add-to-cart=51541",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-cat-pocket-treat-hairball-control-60gr-2/?add-to-cart=51541",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.566Z",
-  "dateModified": "2026-06-23T09:15:51.566Z"
+  "dateCreated": "2024-11-13T14:49:36",
+  "dateModified": "2026-06-24T16:12:24",
+  "brand": "Reflex",
+  "weight_kg": 0.06,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CAT-POCKET-TREAT-HAIRBALL-CONTROL-60GR.png"
 }

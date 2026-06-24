@@ -4,18 +4,13 @@
   "slug": "felix-cat-pouch-85g-salmon",
   "sku": "FCW002",
   "onSale": false,
-  "price": 1.94,
-  "regularPrice": 1.94,
+  "price": 194,
+  "regularPrice": 194,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/06/FELIX-AS-GOOD-AS-IT-LOOKS-TROUT.png",
   "categories": [
-    {
-      "id": 2412,
-      "name": "Felix",
-      "slug": "felix"
-    },
     {
       "id": 2325,
       "name": "Cat",
@@ -27,24 +22,21 @@
       "slug": "cat-food-and-treats"
     },
     {
+      "id": 2412,
+      "name": "Felix",
+      "slug": "felix"
+    },
+    {
       "id": 2327,
       "name": "Wet Cat Food",
       "slug": "wet-cat-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/felix-cat-pouch-85g-salmon/",
-  "shortDescription": "Satisfy your cat’s seafood cravings with FELIX Cat Pouch 85g – Trout in Jelly . Made with premium trout protein , it delivers a rich source of energy along with vital nutrients, Omega-6 fatty acids, and antioxidants to maintain muscle strength, brain health, and coat shine. This wet cat food offers the ideal balance of flavor and nourishment , helping your cat stay healthy, active, and content with every bite.",
-  "description": "FELIX As Good As It Looks is a range of irresistible meals that look, smell and taste so delicious they’re just like food you might have cooked yourself. Each recipe has tender pieces in succulent jelly for a tasty meal your cat can really get his teeth into! They’re also a source of essential Omega 6 fatty acids with the right combination of balanced minerals and vitamins to help keep your cat full of vitality and ready for mischief! They’re packed with healthy goodness and satisfy 100% of your cat’s daily needs when served according to the feeding guidelines. Mouth-watering tastes and textures, it really does taste as good as it looks! Packed with essential vitamins and minerals. A great way to keep your cat nourished through complete and balanced nutrition. Delicious flavours including trout and green beans Ingredients Trout and green beans Vegetable protein extracts Minerals Various sugars Nutrition &amp; Analytical Constituents Moisture: 82.0% Protein: 11.5% Fat content: 2.5% Crude ash: 2.5% Crude fibres: 0.05% Linoleic acid (omega 6 FA): 0.4% ME value: 67kcal/100g Nutritional additives IU/kg: Vitamin A: 585; Vitamin D3: 90; Vitamin E: 13. mg/kg: Fe (E1): 20; I (E2): 0.26; Cu (E4): 2.3; Mn (E5): 4.0; Zn (E6): 33 Feeding Guide: For an average adult cat (4kg), feed 4 pouches per day served in 2 meals at room temperature. The adult maintenance averages are based on moderately active cats at normal environmental temperatures. Individual needs vary and feeding should be adjusted as required to maintain your cat at a lean, healthy body weight. Fresh, clean drinking water should always be available.",
-  "images": [
+  "brands": [
     {
-      "id": 55903,
-      "alt": "Felix Cat Pouch Trout 85g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/06/FELIX-AS-GOOD-AS-IT-LOOKS-TROUT.png",
-      "name": "FELIX AS GOOD AS IT LOOKS TROUT"
+      "id": 2437,
+      "name": "Felix",
+      "slug": "felix"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/felix-cat-pouch-85g-salmon/",
+  "shortDescription": "Satisfy your cat’s seafood cravings with FELIX Cat Pouch 85g – Trout in Jelly . Made with premium trout protein , it delivers a rich source of energy along with vital nutrients, Omega-6 fatty acids, and antioxidants to maintain muscle strength, brain health, and coat shine. This wet cat food offers the ideal balance of flavor and nourishment , helping your cat stay healthy, active, and content with every bite.",
+  "description": "FELIX As Good As It Looks is a range of irresistible meals that look, smell and taste so delicious they’re just like food you might have cooked yourself. Each recipe has tender pieces in succulent jelly for a tasty meal your cat can really get his teeth into! They’re also a source of essential Omega 6 fatty acids with the right combination of balanced minerals and vitamins to help keep your cat full of vitality and ready for mischief! They’re packed with healthy goodness and satisfy 100% of your cat’s daily needs when served according to the feeding guidelines. Mouth-watering tastes and textures, it really does taste as good as it looks! Packed with essential vitamins and minerals. A great way to keep your cat nourished through complete and balanced nutrition. Delicious flavours including trout and green beans Ingredients Trout and green beans Vegetable protein extracts Minerals Various sugars Nutrition & Analytical Constituents Moisture: 82.0% Protein: 11.5% Fat content: 2.5% Crude ash: 2.5% Crude fibres: 0.05% Linoleic acid (omega 6 FA): 0.4% ME value: 67kcal/100g Nutritional additives IU/kg: Vitamin A: 585; Vitamin D3: 90; Vitamin E: 13. mg/kg: Fe (E1): 20; I (E2): 0.26; Cu (E4): 2.3; Mn (E5): 4.0; Zn (E6): 33 Feeding Guide: For an average adult cat (4kg), feed 4 pouches per day served in 2 meals at room temperature. The adult maintenance averages are based on moderately active cats at normal environmental temperatures. Individual needs vary and feeding should be adjusted as required to maintain your cat at a lean, healthy body weight. Fresh, clean drinking water should always be available.",
+  "images": [
     {
-      "id": 2437,
-      "name": "Felix",
-      "slug": "felix"
+      "id": 55903,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/06/FELIX-AS-GOOD-AS-IT-LOOKS-TROUT.png",
+      "alt": "Felix Cat Pouch Trout 85g",
+      "name": "FELIX AS GOOD AS IT LOOKS TROUT"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=55902",
+  "addToCartUrl": "https://petstore.co.ke/product/felix-cat-pouch-85g-salmon/?add-to-cart=55902",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.635Z",
-  "dateModified": "2026-06-23T09:15:51.635Z"
+  "dateCreated": "2025-06-17T13:11:00",
+  "dateModified": "2026-06-24T10:11:59",
+  "brand": "Felix",
+  "weight_kg": 0.085,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/06/FELIX-AS-GOOD-AS-IT-LOOKS-TROUT.png"
 }

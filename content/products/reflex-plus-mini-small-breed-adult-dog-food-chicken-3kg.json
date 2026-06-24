@@ -4,8 +4,8 @@
   "slug": "reflex-plus-mini-small-breed-adult-dog-food-chicken-3kg",
   "sku": "RPDD007",
   "onSale": false,
-  "price": 34.5,
-  "regularPrice": 34.5,
+  "price": 3450,
+  "regularPrice": 3450,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "reflex"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/reflex-plus-mini-small-breed-adult-dog-food-chicken-3kg/",
-  "shortDescription": "Reflex Plus Mini Small Breed Adult Dog Food- Chicken 3kg is a super-premium dry dog ​​food with chicken, fully and balancedly formulated for mini and small breeds from 10 months to 8 years old.",
-  "description": "It is a super-premium dry dog ​​food with chicken, fully and balancedly formulated for mini and small breeds from 10 months to 8 years old. Xylo-oligosaccharides (XOS) are super prebiotics obtained by hydrolysis of corn cobs. XOS helps to reduce problems such as unwanted fat and glycemia in cats with approximately zero calorie value. XOS enters the large intestine unmodified and is primarily used by the digestive bacteria Bifidobacteria and Lactobacilli. This reduces negative fermentations that cause energy loss, such as bloating and other digestive ailments. Possible Health Benefits: It strengthens the immune system. It increases the digestion and metabolism of nutrients by improving the intestinal flora. It has natural antioxidant effect. Ingredients: Processed Chicken Protein, Wheat, Corn, Chicken Fat, Rice, Sugar Beet, Liver Aroma, Whey Powder, Vitamins and Minerals, Xylo-Oligosaccharides, Brewer&#8217;s Yeast, L-Carnitine, Flaxseed, Salt, Yucca Schidigera, Preservatives &#8211; Antioxidants. Minerals: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Iron, Selenium. Vitamins: Vitamin A, Vitamin D, Vitamin E, Vitamin C, Vitamin B1 &#8211; B2 &#8211; B3 (Niacin) &#8211; B6 &#8211; B12 &#8211; B7 (Biotin) &#8211; B9 (Folic Acid), Vitamin K, Choline, Calcium Pantothenate. 80% of the protein amount it contains is obtained from animal ingredients. Nutrient Components Crude Protein 25% Raw oil 13% Ash 7% Crude Cellulose (Fibre) 2.5% &nbsp; Nutritious Supplements Vitamin A (E672) 18,000 IU/kg Vitamin D3 (E671) 1,500 IU/kg Vitamin E (3a700) 200mg/kg Vitamin C (Stay C) 200mg/kg taurine 1,500 mg/kg &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 36750,
-      "alt": "Reflex Plus Mini Small Breed Adult Dog Food Chicken 3kg",
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/RPDD-mini-small-breed-e1718776761947.png",
-      "name": "RPDD mini &amp; small breed"
+      "id": 2462,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "tags": [
@@ -69,20 +61,33 @@
       "slug": "small-breeds"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/reflex-plus-mini-small-breed-adult-dog-food-chicken-3kg/",
+  "shortDescription": "Reflex Plus Mini Small Breed Adult Dog Food- Chicken 3kg is a super-premium dry dog ​​food with chicken, fully and balancedly formulated for mini and small breeds from 10 months to 8 years old.",
+  "description": "It is a super-premium dry dog ​​food with chicken, fully and balancedly formulated for mini and small breeds from 10 months to 8 years old. Xylo-oligosaccharides (XOS) are super prebiotics obtained by hydrolysis of corn cobs. XOS helps to reduce problems such as unwanted fat and glycemia in cats with approximately zero calorie value. XOS enters the large intestine unmodified and is primarily used by the digestive bacteria Bifidobacteria and Lactobacilli. This reduces negative fermentations that cause energy loss, such as bloating and other digestive ailments. Possible Health Benefits: It strengthens the immune system. It increases the digestion and metabolism of nutrients by improving the intestinal flora. It has natural antioxidant effect. Ingredients: Processed Chicken Protein, Wheat, Corn, Chicken Fat, Rice, Sugar Beet, Liver Aroma, Whey Powder, Vitamins and Minerals, Xylo-Oligosaccharides, Brewer's Yeast, L-Carnitine, Flaxseed, Salt, Yucca Schidigera, Preservatives - Antioxidants. Minerals: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Iron, Selenium. Vitamins: Vitamin A, Vitamin D, Vitamin E, Vitamin C, Vitamin B1 - B2 - B3 (Niacin) - B6 - B12 - B7 (Biotin) - B9 (Folic Acid), Vitamin K, Choline, Calcium Pantothenate. 80% of the protein amount it contains is obtained from animal ingredients. Nutrient Components Crude Protein 25% Raw oil 13% Ash 7% Crude Cellulose (Fibre) 2.5% &nbsp; Nutritious Supplements Vitamin A (E672) 18,000 IU/kg Vitamin D3 (E671) 1,500 IU/kg Vitamin E (3a700) 200mg/kg Vitamin C (Stay C) 200mg/kg taurine 1,500 mg/kg &nbsp;",
+  "images": [
     {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
+      "id": 36750,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/RPDD-mini-small-breed-e1718776761947.png",
+      "alt": "Reflex Plus Mini Small Breed Adult Dog Food Chicken 3kg",
+      "name": "RPDD mini &amp; small breed"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=3&#038;add-to-cart=24804",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-mini-small-breed-adult-dog-food-chicken-3kg/?add-to-cart=24804",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.236Z",
-  "dateModified": "2026-06-23T09:15:51.236Z"
+  "dateCreated": "2022-01-20T15:17:05",
+  "dateModified": "2026-06-24T09:12:03",
+  "brand": "Reflex",
+  "weight_kg": 3,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/RPDD-mini-small-breed-e1718776761947.png"
 }

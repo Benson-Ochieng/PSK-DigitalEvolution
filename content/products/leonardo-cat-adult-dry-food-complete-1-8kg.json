@@ -1,11 +1,11 @@
 {
   "id": 90017,
-  "name": "Leonardo Cat Adult Dry Food – Complete 1.8Kg",
+  "name": "Leonardo Cat Adult Dry Food - Complete 1.8Kg",
   "slug": "leonardo-cat-adult-dry-food-complete-1-8kg",
   "sku": "LLDC001",
   "onSale": false,
-  "price": 33.3,
-  "regularPrice": 33.3,
+  "price": 3330,
+  "regularPrice": 3330,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "leonardo"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/leonardo-cat-adult-dry-food-complete-1-8kg/",
-  "shortDescription": "Give your cat complete, balanced nutrition with Leonardo Adult Complete Cat Food a premium dry cat food specially crafted to support the health, vitality, and wellbeing of adult cats. Made in Germany using carefully selected natural ingredients and high-quality poultry protein, this wholesome formula delivers everything your cat needs for a healthy and active life.",
-  "description": "Designed for both indoor and outdoor cats, LEONARDO® Adult Complete provides highly digestible nutrition that supports lean muscle maintenance, strong immunity, healthy digestion, and a shiny coat all without artificial colours, flavours, or preservatives. High-Quality Poultry Protein for Lean Muscle Support This protein-rich recipe is made with premium poultry protein that supplies essential amino acids to help maintain strong muscles and healthy body condition. The highly digestible formula ensures your cat receives maximum nutritional benefit while supporting healthy energy levels throughout the day. Supports Immunity, Heart Health &amp; Vitality Enriched with taurine, vitamins, and antioxidants, Leonardo Adult Complete Cat Food helps support: Strong immune function Healthy heart performance Good vision and eye health Daily energy and vitality Natural ingredients like brewer’s yeast and chia seeds provide important B-vitamins and omega fatty acids that contribute to overall wellness and stress resistance. Gentle Digestion &amp; Hairball Control The carefully selected blend of rice, maize, dietary fibre, and natural prebiotics helps promote healthy digestion and balanced gut flora. Added mannan-oligosaccharides (MOS) and beta-glucans support digestive comfort while helping reduce common digestive sensitivities. The fibre-rich formula also assists with natural hairball control, making it ideal for adult cats prone to hairball formation. Healthy Skin &amp; Shiny Coat Omega-3 and omega-6 fatty acids from linseed and cold-pressed grape seed oil nourish your cat’s skin and coat from within. Regular feeding helps promote: Soft, glossy fur Reduced shedding Healthy skin condition Pure, Natural Quality You Can Trust Leonardo Adult Complete Cat Food is produced under strict German quality standards using premium traceable ingredients. The recipe contains: No artificial colours No artificial flavours No artificial preservatives Only natural, carefully selected ingredients designed to support long-term feline health. Why Choose LEONARDO® Adult Complete Cat Food? Premium poultry protein for healthy muscles Taurine for heart and eye health Prebiotics for healthy digestion Omega fatty acids for healthy skin and coat Hairball support formula No artificial additives Suitable for all adult cats Made in Germany with high-quality ingredients Keep your cat healthy, active, and full of life with Leonardo Adult Complete Cat Food premium daily nutrition made for happy, thriving cats. &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 90021,
-      "alt": "Leonardo Cat Adult Dry Food – Complete 1.8Kg",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Leonardo-Adult-Cat-Complete-1.8Kg.png",
-      "name": "Leonardo Adult Cat Complete 1.8Kg"
+      "id": 2448,
+      "name": "Leonardo",
+      "slug": "leonardo"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "new-arrivals"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/leonardo-cat-adult-dry-food-complete-1-8kg/",
+  "shortDescription": "Give your cat complete, balanced nutrition with Leonardo Adult Complete Cat Food a premium dry cat food specially crafted to support the health, vitality, and wellbeing of adult cats. Made in Germany using carefully selected natural ingredients and high-quality poultry protein, this wholesome formula delivers everything your cat needs for a healthy and active life.",
+  "description": "Designed for both indoor and outdoor cats, LEONARDO® Adult Complete provides highly digestible nutrition that supports lean muscle maintenance, strong immunity, healthy digestion, and a shiny coat all without artificial colours, flavours, or preservatives. High-Quality Poultry Protein for Lean Muscle Support This protein-rich recipe is made with premium poultry protein that supplies essential amino acids to help maintain strong muscles and healthy body condition. The highly digestible formula ensures your cat receives maximum nutritional benefit while supporting healthy energy levels throughout the day. Supports Immunity, Heart Health & Vitality Enriched with taurine, vitamins, and antioxidants, Leonardo Adult Complete Cat Food helps support: Strong immune function Healthy heart performance Good vision and eye health Daily energy and vitality Natural ingredients like brewer’s yeast and chia seeds provide important B-vitamins and omega fatty acids that contribute to overall wellness and stress resistance. Gentle Digestion & Hairball Control The carefully selected blend of rice, maize, dietary fibre, and natural prebiotics helps promote healthy digestion and balanced gut flora. Added mannan-oligosaccharides (MOS) and beta-glucans support digestive comfort while helping reduce common digestive sensitivities. The fibre-rich formula also assists with natural hairball control, making it ideal for adult cats prone to hairball formation. Healthy Skin & Shiny Coat Omega-3 and omega-6 fatty acids from linseed and cold-pressed grape seed oil nourish your cat’s skin and coat from within. Regular feeding helps promote: Soft, glossy fur Reduced shedding Healthy skin condition Pure, Natural Quality You Can Trust Leonardo Adult Complete Cat Food is produced under strict German quality standards using premium traceable ingredients. The recipe contains: No artificial colours No artificial flavours No artificial preservatives Only natural, carefully selected ingredients designed to support long-term feline health. Why Choose LEONARDO® Adult Complete Cat Food? Premium poultry protein for healthy muscles Taurine for heart and eye health Prebiotics for healthy digestion Omega fatty acids for healthy skin and coat Hairball support formula No artificial additives Suitable for all adult cats Made in Germany with high-quality ingredients Keep your cat healthy, active, and full of life with Leonardo Adult Complete Cat Food premium daily nutrition made for happy, thriving cats. &nbsp;",
+  "images": [
     {
-      "id": 2448,
-      "name": "Leonardo",
-      "slug": "leonardo"
+      "id": 90021,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Leonardo-Adult-Cat-Complete-1.8Kg.png",
+      "alt": "Leonardo Cat Adult Dry Food – Complete 1.8Kg",
+      "name": "Leonardo Adult Cat Complete 1.8Kg"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 4,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=90017",
+  "addToCartUrl": "https://petstore.co.ke/product/leonardo-cat-adult-dry-food-complete-1-8kg/?add-to-cart=90017",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:52.002Z",
-  "dateModified": "2026-06-23T09:15:52.002Z"
+  "dateCreated": "2026-05-28T11:01:14",
+  "dateModified": "2026-06-17T05:01:35",
+  "brand": "Leonardo",
+  "weight_kg": 1.8,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/Leonardo-Adult-Cat-Complete-1.8Kg.png"
 }

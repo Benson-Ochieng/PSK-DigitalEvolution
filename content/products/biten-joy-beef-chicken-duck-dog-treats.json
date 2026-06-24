@@ -3,10 +3,10 @@
   "name": "Bite'n Joy Dog Treats Beef Chicken & Duck",
   "slug": "biten-joy-beef-chicken-duck-dog-treats",
   "sku": "RDT038",
-  "onSale": false,
-  "price": 24.5,
-  "regularPrice": 24.5,
-  "salePrice": null,
+  "onSale": true,
+  "price": 1960,
+  "regularPrice": 2450,
+  "salePrice": 1960,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/Biten-Joy-Beef-Chicken.png",
@@ -32,19 +32,11 @@
       "slug": "reflex"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/biten-joy-beef-chicken-duck-dog-treats/",
-  "shortDescription": "High-protein Bite’n Joy Beef, Chicken &amp; Duck Dog Treats support immunity, muscle growth, and training motivation with a tasty, easy-to-digest formula dogs love.",
-  "description": "Reward your dog with the rich, meaty goodness of Bite’n Joy Beef, Chicken &amp; Duck Dog Treats. Made with high meat content, these soft and tasty treats are easy to digest and perfectly suited to your dog’s natural cravings. Packed with essential amino acids, they help support immunity, muscle development, and overall health while providing the motivation needed for effective training sessions. Whether used as a reward, snack, or training aid, Bite’n Joy treats deliver nutrition and irresistible flavor in every bite. Key Benefits . High meat content for superior taste and easy digestion . Supports muscle growth and overall health . Essential amino acids for strong immunity . Perfect motivation reward during training . Suitable for dogs of all breeds Feeding &amp; Storage Guidelines Provide fresh drinking water at all times. Not suitable for human consumption. Do not feed the oxygen absorber found inside the package. Store in a cool, dry place. Consume within a reasonable time after opening. &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 69837,
-      "alt": "Bite’n Joy Dog Treats Beef Chicken & Duck",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/02/Biten-Joy-Beef-Chicken.png",
-      "name": "Bite&#8217;n Joy Beef, Chicken"
+      "id": 2462,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "tags": [
@@ -59,25 +51,43 @@
       "slug": "new-arrivals"
     },
     {
+      "id": 939,
+      "name": "On Sale Now",
+      "slug": "sale"
+    },
+    {
       "id": 1156,
       "name": "treats",
       "slug": "treats"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/biten-joy-beef-chicken-duck-dog-treats/",
+  "shortDescription": "High-protein Bite’n Joy Beef, Chicken & Duck Dog Treats support immunity, muscle growth, and training motivation with a tasty, easy-to-digest formula dogs love.",
+  "description": "Reward your dog with the rich, meaty goodness of Bite’n Joy Beef, Chicken & Duck Dog Treats. Made with high meat content, these soft and tasty treats are easy to digest and perfectly suited to your dog’s natural cravings. Packed with essential amino acids, they help support immunity, muscle development, and overall health while providing the motivation needed for effective training sessions. Whether used as a reward, snack, or training aid, Bite’n Joy treats deliver nutrition and irresistible flavor in every bite. Key Benefits . High meat content for superior taste and easy digestion . Supports muscle growth and overall health . Essential amino acids for strong immunity . Perfect motivation reward during training . Suitable for dogs of all breeds Feeding & Storage Guidelines Provide fresh drinking water at all times. Not suitable for human consumption. Do not feed the oxygen absorber found inside the package. Store in a cool, dry place. Consume within a reasonable time after opening. &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
+      "id": 69837,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/02/Biten-Joy-Beef-Chicken.png",
+      "alt": "Bite’n Joy Dog Treats Beef Chicken & Duck",
+      "name": "Bite&#8217;n Joy Beef, Chicken"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 1,
+  "lowStockRemaining": 5,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=69836",
+  "addToCartUrl": "https://petstore.co.ke/product/biten-joy-beef-chicken-duck-dog-treats/?add-to-cart=69836",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.930Z",
-  "dateModified": "2026-06-23T09:15:51.930Z"
+  "dateCreated": "2026-02-18T10:40:54",
+  "dateModified": "2026-06-23T15:12:17",
+  "brand": "Reflex",
+  "weight_kg": 0.15,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/Biten-Joy-Beef-Chicken.png"
 }

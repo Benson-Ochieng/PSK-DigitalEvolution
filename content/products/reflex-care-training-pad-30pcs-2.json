@@ -4,8 +4,8 @@
   "slug": "reflex-care-training-pad-30pcs-2",
   "sku": "RCTP30",
   "onSale": false,
-  "price": 25,
-  "regularPrice": 25,
+  "price": 2500,
+  "regularPrice": 2500,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,6 +32,25 @@
       "slug": "reflex"
     }
   ],
+  "brands": [
+    {
+      "id": 2462,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2098,
+      "name": "Grooming & Tools",
+      "slug": "grooming-tools"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    }
+  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
@@ -42,37 +61,23 @@
   "images": [
     {
       "id": 51512,
-      "alt": "Reflex Care Training Pad 30pcs",
       "src": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CARE-TRAINING-PAD-30PCS.png",
+      "alt": "Reflex Care Training Pad 30pcs",
       "name": "REFLEX CARE TRAINING PAD 30PCS"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2098,
-      "name": "Grooming &amp; Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
-  "brands": [
-    {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=5&#038;add-to-cart=51511",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-care-training-pad-30pcs-2/?add-to-cart=51511",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.552Z",
-  "dateModified": "2026-06-23T09:15:51.552Z"
+  "dateCreated": "2024-11-13T10:59:12",
+  "dateModified": "2026-06-23T13:12:35",
+  "brand": "Reflex",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CARE-TRAINING-PAD-30PCS.png"
 }

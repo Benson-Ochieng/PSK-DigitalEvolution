@@ -4,8 +4,8 @@
   "slug": "pet-litter-scoop-2",
   "sku": "PG067",
   "onSale": false,
-  "price": 3.2,
-  "regularPrice": 3.2,
+  "price": 320,
+  "regularPrice": 320,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -42,21 +42,7 @@
       "slug": "generic"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pet-litter-scoop-2/",
-  "shortDescription": "Cat Litter Scooper Blue (Large)",
-  "description": "This cat litter scooper is portable, light weight and durable. Flat, thin, &amp; sharp leading edge sits flush against your cat litter box floor to scoop underneath cat litter, rather than into clumped litter. Faster sifting. High walls on this litter scoop prevent scatter. Comfortable, ergonomic &amp; longer type handle",
-  "images": [
-    {
-      "id": 44530,
-      "alt": "Pet Litter Scoop Blue",
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/02/pet-litter-scoop.png",
-      "name": "pet litter scoop"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 820,
@@ -65,7 +51,7 @@
     },
     {
       "id": 2098,
-      "name": "Grooming &amp; Tools",
+      "name": "Grooming & Tools",
       "slug": "grooming-tools"
     },
     {
@@ -79,14 +65,33 @@
       "slug": "pet-care"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/pet-litter-scoop-2/",
+  "shortDescription": "Cat Litter Scooper Blue (Large)",
+  "description": "This cat litter scooper is portable, light weight and durable. Flat, thin, & sharp leading edge sits flush against your cat litter box floor to scoop underneath cat litter, rather than into clumped litter. Faster sifting. High walls on this litter scoop prevent scatter. Comfortable, ergonomic & longer type handle",
+  "images": [
+    {
+      "id": 44530,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/02/pet-litter-scoop.png",
+      "alt": "Pet Litter Scoop Blue",
+      "name": "pet litter scoop"
+    }
+  ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=44531",
+  "addToCartUrl": "https://petstore.co.ke/product/pet-litter-scoop-2/?add-to-cart=44531",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.367Z",
-  "dateModified": "2026-06-23T09:15:51.367Z"
+  "dateCreated": "2024-02-19T11:24:28",
+  "dateModified": "2026-06-18T12:12:03",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/02/pet-litter-scoop.png"
 }

@@ -1,11 +1,11 @@
 {
   "id": 89894,
-  "name": "Whiskas Cat Dental Treats – Dentabites Chicken 40g",
+  "name": "Whiskas Cat Dental Treats - Dentabites Chicken 40g",
   "slug": "whiskas-cat-dental-treats-dentabites-chicken-40g",
   "sku": "WCT003",
   "onSale": false,
-  "price": 3.99,
-  "regularPrice": 3.99,
+  "price": 399,
+  "regularPrice": 399,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "whiskas"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/whiskas-cat-dental-treats-dentabites-chicken-40g/",
-  "shortDescription": "Support your cat’s oral health with the tasty and functional Whiskas Dental Chicken Cat Treats 60g. These delicious dual-textured bites combine a crunchy outer layer with a soft, creamy centre, making them highly enjoyable for cats while helping to support daily dental care.",
-  "description": "Scientifically formulated and accepted by the Veterinary Oral Health Council, these dental snacks are proven to help reduce tartar build-up when fed daily. Specially developed with nutritionists and veterinarians from the WALTHAM Centre for Pet Nutrition, they provide both taste and functional benefits in every bite. Made with chicken flavour and no artificial flavours, these low-calorie snacks (less than 2 kcal per piece) are designed to support a balanced diet while still giving your cat a rewarding experience. They are ideal for daily oral care support and bonding moments with your feline companion. Key Benefits Helps reduce tartar build-up Dual texture: crunchy outside, soft creamy centre VOHC accepted for dental support Made with chicken flavour cats love No artificial flavours Low calorie (under 2 kcal per piece) Developed with WALTHAM Petcare experts Supports daily oral care routine Ingredients Cereals, meat and animal derivatives (including chicken 18%), vegetable protein extracts, derivatives of vegetable origin, oils and fats, minerals, yeasts. Analytical Constituents Protein: 24.0% Fat: 11.0% Crude Fibre: 9.0% Inorganic Matter: 8.8% Omega-3 fatty acids: 1857 mg/kg Energy: 325 kcal/100g Nutritional Additives per kg Vitamin B3: 50.8 mg Vitamin B5: 45.9 mg Vitamin B9: 1.3 mg Copper: 2.3 mg Iodine: 0.57 mg Feeding Guide Feed daily as part of a balanced diet. Always provide fresh drinking water. Gradually introduce any new food over a 7-day transition period for best digestive comfort. &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 89895,
-      "alt": "Whiskas Cat Dental Treats – Dentabites Chicken 40g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Treat-Dentabites-Chicken-40g.png",
-      "name": "Whiskas Cat Treat Dentabites Chicken 40g"
+      "id": 2480,
+      "name": "Whiskas",
+      "slug": "whiskas"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "treats"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/whiskas-cat-dental-treats-dentabites-chicken-40g/",
+  "shortDescription": "Support your cat’s oral health with the tasty and functional Whiskas Dental Chicken Cat Treats 60g. These delicious dual-textured bites combine a crunchy outer layer with a soft, creamy centre, making them highly enjoyable for cats while helping to support daily dental care.",
+  "description": "Scientifically formulated and accepted by the Veterinary Oral Health Council, these dental snacks are proven to help reduce tartar build-up when fed daily. Specially developed with nutritionists and veterinarians from the WALTHAM Centre for Pet Nutrition, they provide both taste and functional benefits in every bite. Made with chicken flavour and no artificial flavours, these low-calorie snacks (less than 2 kcal per piece) are designed to support a balanced diet while still giving your cat a rewarding experience. They are ideal for daily oral care support and bonding moments with your feline companion. Key Benefits Helps reduce tartar build-up Dual texture: crunchy outside, soft creamy centre VOHC accepted for dental support Made with chicken flavour cats love No artificial flavours Low calorie (under 2 kcal per piece) Developed with WALTHAM Petcare experts Supports daily oral care routine Ingredients Cereals, meat and animal derivatives (including chicken 18%), vegetable protein extracts, derivatives of vegetable origin, oils and fats, minerals, yeasts. Analytical Constituents Protein: 24.0% Fat: 11.0% Crude Fibre: 9.0% Inorganic Matter: 8.8% Omega-3 fatty acids: 1857 mg/kg Energy: 325 kcal/100g Nutritional Additives per kg Vitamin B3: 50.8 mg Vitamin B5: 45.9 mg Vitamin B9: 1.3 mg Copper: 2.3 mg Iodine: 0.57 mg Feeding Guide Feed daily as part of a balanced diet. Always provide fresh drinking water. Gradually introduce any new food over a 7-day transition period for best digestive comfort. &nbsp;",
+  "images": [
     {
-      "id": 2480,
-      "name": "Whiskas",
-      "slug": "whiskas"
+      "id": 89895,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Treat-Dentabites-Chicken-40g.png",
+      "alt": "Whiskas Cat Dental Treats – Dentabites Chicken 40g",
+      "name": "Whiskas Cat Treat Dentabites Chicken 40g"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=89894",
+  "addToCartUrl": "https://petstore.co.ke/product/whiskas-cat-dental-treats-dentabites-chicken-40g/?add-to-cart=89894",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.992Z",
-  "dateModified": "2026-06-23T09:15:51.992Z"
+  "dateCreated": "2026-05-21T15:30:09",
+  "dateModified": "2026-06-17T05:01:34",
+  "brand": "Whiskas",
+  "weight_kg": 0.04,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Treat-Dentabites-Chicken-40g.png"
 }

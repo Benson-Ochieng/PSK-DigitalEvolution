@@ -1,12 +1,12 @@
 {
   "id": 50399,
-  "name": "Pack Of 24 – Miglior Cat Unico Mousse Pouch – Lamb 85g",
+  "name": "Pack Of 24 - Miglior Cat Unico Mousse Pouch - Lamb 85g",
   "slug": "miglior-cat-unico-pouch-lamb-85gr-pack-of-24",
   "sku": "MCW020$24",
   "onSale": true,
-  "price": 38.15,
-  "regularPrice": 44.88,
-  "salePrice": 38.15,
+  "price": 3815,
+  "regularPrice": 4488,
+  "salePrice": 3815,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/09/MCW020-UNICO-POUCH-LAMB-85GR.png",
@@ -32,25 +32,17 @@
       "slug": "wet-cat-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/miglior-cat-unico-pouch-lamb-85gr-pack-of-24/",
-  "shortDescription": "Formula designed to guarantee the key nutrients required for the well-being of your cat, including vitamins, Omega 3, calcium and phosphorous to support strong bones and teeth, healthy skin and glossy coat, and toned musculature.",
-  "description": "COMPLETE PET FOOD FOR ADULT CATS Migliorgatto UNICO is a complete and balanced super premium food, ideal for the daily diet of all cats. UNICO: single protein, unique quality, great taste. COMPOSITION: Lamb 65% (lungs, livers), minerals. ANALYTICAL CONSTITUENTS: Moisture 80%, Crude protein 10%, Crude fat 4%, Crude fibres 0.3%, Crude ash 1.5%. Without colorants and preservatives. Nutritional additives / kg: Vitamin D3 177.5 IU, Vitamin E 17.7 mg, Vitamin B1 1.8 mg, Vitamin B6 0.8 mg, Zinc (Zinc sulphate monohydrate) 1.3 mg, Manganese (Manganous sulphate monohydrate) 0.8 mg, Iodine (Potassium iodide) 0.2 mg. STORAGE INSTRUCTION: Store the product in a cool and dry place. DAILY RECOMMENDED AMOUNT Ideal weight (kg) 3 4 5 Daily amount (g) 215 255 340 &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 50319,
-      "alt": "Pack Of 24 – Miglior Cat Unico Mousse Pouch – Lamb 85g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/09/MCW020-UNICO-POUCH-LAMB-85GR.png",
-      "name": "MCW020-UNICO POUCH LAMB 85GR"
+      "id": 2451,
+      "name": "Miglior",
+      "slug": "miglior"
     }
   ],
   "tags": [
     {
       "id": 2055,
-      "name": "Bulk Cat Food &amp; Bulk Dog Food",
+      "name": "Bulk Cat Food & Bulk Dog Food",
       "slug": "bulk"
     },
     {
@@ -69,20 +61,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/miglior-cat-unico-pouch-lamb-85gr-pack-of-24/",
+  "shortDescription": "Formula designed to guarantee the key nutrients required for the well-being of your cat, including vitamins, Omega 3, calcium and phosphorous to support strong bones and teeth, healthy skin and glossy coat, and toned musculature.",
+  "description": "COMPLETE PET FOOD FOR ADULT CATS Migliorgatto UNICO is a complete and balanced super premium food, ideal for the daily diet of all cats. UNICO: single protein, unique quality, great taste. COMPOSITION: Lamb 65% (lungs, livers), minerals. ANALYTICAL CONSTITUENTS: Moisture 80%, Crude protein 10%, Crude fat 4%, Crude fibres 0.3%, Crude ash 1.5%. Without colorants and preservatives. Nutritional additives / kg: Vitamin D3 177.5 IU, Vitamin E 17.7 mg, Vitamin B1 1.8 mg, Vitamin B6 0.8 mg, Zinc (Zinc sulphate monohydrate) 1.3 mg, Manganese (Manganous sulphate monohydrate) 0.8 mg, Iodine (Potassium iodide) 0.2 mg. STORAGE INSTRUCTION: Store the product in a cool and dry place. DAILY RECOMMENDED AMOUNT Ideal weight (kg) 3 4 5 Daily amount (g) 215 255 340 &nbsp;",
+  "images": [
     {
-      "id": 2451,
-      "name": "Miglior",
-      "slug": "miglior"
+      "id": 50319,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/09/MCW020-UNICO-POUCH-LAMB-85GR.png",
+      "alt": "Pack Of 24 – Miglior Cat Unico Mousse Pouch – Lamb 85g",
+      "name": "MCW020-UNICO POUCH LAMB 85GR"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=5&#038;add-to-cart=50399",
+  "addToCartUrl": "https://petstore.co.ke/product/miglior-cat-unico-pouch-lamb-85gr-pack-of-24/?add-to-cart=50399",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.536Z",
-  "dateModified": "2026-06-23T09:15:51.536Z"
+  "dateCreated": "2024-09-25T12:17:05",
+  "dateModified": "2026-06-23T17:12:07",
+  "brand": "Miglior",
+  "weight_kg": 0.1,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/09/MCW020-UNICO-POUCH-LAMB-85GR.png"
 }

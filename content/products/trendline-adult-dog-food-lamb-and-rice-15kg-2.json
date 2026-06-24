@@ -1,11 +1,11 @@
 {
   "id": 1696,
-  "name": "Trendline Adult Dog Food – Lamb and Rice 15kg",
+  "name": "Trendline Adult Dog Food - Lamb and Rice 15kg",
   "slug": "trendline-adult-dog-food-lamb-and-rice-15kg-2",
   "sku": "TDD004",
   "onSale": false,
-  "price": 61,
-  "regularPrice": 61,
+  "price": 6100,
+  "regularPrice": 6100,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "trendline"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/trendline-adult-dog-food-lamb-and-rice-15kg-2/",
-  "shortDescription": "Fully balanced all-natural dog food with lamb protein, brewer’s yeast for immune support and Omega-3 and -6 from flaxseed. Carefully formulated by a dog nutritionist to meet the nutritional requirements of all adult dogs.",
-  "description": "Trendline Adult Dog Food -Lamb &amp; Rice , fully balanced all-natural dog food with lamb protein, brewer&#8217;s yeast for immune support and Omega-3 and -6 from flaxseed. Carefully formulated by a dog nutritionist to meet the nutritional requirements of all adult dogs. NUTRIENT COMPONENTS Protein&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;..20% Fat &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;.. 9% Crude Cellulose (Fiber)&#8230;&#8230;&#8230;..4% Crude Ash &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;..8% INGREDIENTS: Processed Animal Protein, Corn, Animal Fat, Wheat Middlings, Corn Gluten, Dried Sugar Beet, Liver Aroma, Salt, Flaxseed, Dried Brewer&#8217;s Yeast. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 &#8211; B2 &#8211; B3 (niacin) &#8211; B6 &#8211; B12 &#8211; B7 (biotin) &#8211; B9 (folic acid), Vit. K, Choline, Calcium Pantotetan. Why Choose Trendline Lamb &amp; Rice? 20% Lamb Protein – supports lean muscle and promotes sustained energy. 9% Healthy Fats – nourishes the skin and gives coats a glossy, soft finish. Brewer’s Yeast – strengthens immunity and supports gut health. Omega-3 &amp; -6 Fatty Acids – maintain joint health and reduce shedding. Rice for Easy Digestion – gentle on sensitive stomachs, making it ideal for all adult dogs.",
-  "images": [
+  "brands": [
     {
-      "id": 89566,
-      "alt": "Trendline Adult Dog Food – Lamb and Rice 15kg",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Trendline-ADULT-Dog-food-15kg-Lamb-rice-.png",
-      "name": "Trendline ADULT Dog food 15kg Lamb&#038; rice"
+      "id": 2471,
+      "name": "Trendline",
+      "slug": "trendline"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "kibble"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/trendline-adult-dog-food-lamb-and-rice-15kg-2/",
+  "shortDescription": "Fully balanced all-natural dog food with lamb protein, brewer’s yeast for immune support and Omega-3 and -6 from flaxseed. Carefully formulated by a dog nutritionist to meet the nutritional requirements of all adult dogs.",
+  "description": "Trendline Adult Dog Food -Lamb & Rice , fully balanced all-natural dog food with lamb protein, brewer's yeast for immune support and Omega-3 and -6 from flaxseed. Carefully formulated by a dog nutritionist to meet the nutritional requirements of all adult dogs. NUTRIENT COMPONENTS Protein...................................20% Fat ......................................... 9% Crude Cellulose (Fiber)...........4% Crude Ash .............................8% INGREDIENTS: Processed Animal Protein, Corn, Animal Fat, Wheat Middlings, Corn Gluten, Dried Sugar Beet, Liver Aroma, Salt, Flaxseed, Dried Brewer's Yeast. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan. Why Choose Trendline Lamb & Rice? 20% Lamb Protein – supports lean muscle and promotes sustained energy. 9% Healthy Fats – nourishes the skin and gives coats a glossy, soft finish. Brewer’s Yeast – strengthens immunity and supports gut health. Omega-3 & -6 Fatty Acids – maintain joint health and reduce shedding. Rice for Easy Digestion – gentle on sensitive stomachs, making it ideal for all adult dogs.",
+  "images": [
     {
-      "id": 2471,
-      "name": "Trendline",
-      "slug": "trendline"
+      "id": 89566,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Trendline-ADULT-Dog-food-15kg-Lamb-rice-.png",
+      "alt": "Trendline Adult Dog Food – Lamb and Rice 15kg",
+      "name": "Trendline ADULT Dog food 15kg Lamb&#038; rice"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=1&#038;add-to-cart=1696",
+  "addToCartUrl": "https://petstore.co.ke/product/trendline-adult-dog-food-lamb-and-rice-15kg-2/?add-to-cart=1696",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.070Z",
-  "dateModified": "2026-06-23T09:15:51.070Z"
+  "dateCreated": "2019-02-18T17:26:16",
+  "dateModified": "2026-06-23T15:12:22",
+  "brand": "Trendline",
+  "weight_kg": 15,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Trendline-ADULT-Dog-food-15kg-Lamb-rice-.png"
 }

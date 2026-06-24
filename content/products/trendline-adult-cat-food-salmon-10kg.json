@@ -1,11 +1,11 @@
 {
   "id": 54527,
-  "name": "Trendline Adult Cat Food – Salmon 10KG",
+  "name": "Trendline Adult Cat Food - Salmon 10KG",
   "slug": "trendline-adult-cat-food-salmon-10kg",
   "sku": "TCD007",
   "onSale": false,
-  "price": 78,
-  "regularPrice": 78,
+  "price": 7800,
+  "regularPrice": 7800,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "trendline"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/trendline-adult-cat-food-salmon-10kg/",
-  "shortDescription": "Fully balanced all-natural cat food with salmon protein, brewer’s yeast for immune support, Omega-3 and -6 from flaxseed and taurine. Carefully formulated by cat nutritionists to meet the nutritional requirements of all adult cats.",
-  "description": "Trendline Adult Cat Food -Salmon , expertly formulated by leading pet nutritionists, this all-natural recipe delivers the power of high-quality fish protein to keep muscles strong and energy levels high. Enriched with brewer’s yeast for immune support, Omega-3 &amp; -6 from flaxseed for soft, shiny fur, and taurine for heart and eye health—it’s the perfect balance for your cat’s wellness. NUTRIENT COMPONENTS Protein &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;.. 27% Fat &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;.10% Crude Ash &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;8% Crude Cellulose (Fiber) &#8230;&#8230;&#8230;&#8230;.3% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Corn Gluten, Dried Sugar Beet, Liver Aroma, Salt, Flaxseed, Dried Brewers Yeast, Taurine. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 &#8211; B2 &#8211; B3 (niacin) &#8211; B6 &#8211; B12 &#8211; B7 (biotin) &#8211; B9 (folic acid), Vit. K, Choline, Calcium Pantotetan. Why Choose Trendline Salmon? 27% Protein from Fish – builds lean muscle and supports active lifestyles. 10% Healthy Fats – nourish your cat’s skin and coat for a silky shine. Brewer’s Yeast – supports natural immunity and digestive health. Omega-3 &amp; -6 Fatty Acids – reduce shedding and enhance skin condition. Taurine Enriched – essential for heart function and sharp vision.",
-  "images": [
+  "brands": [
     {
-      "id": 54528,
-      "alt": "Trendline Adult Cat Food – Salmon 10KG",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/04/TCD007.png",
-      "name": "TCD007"
+      "id": 2471,
+      "name": "Trendline",
+      "slug": "trendline"
     }
   ],
   "tags": [
@@ -69,20 +61,33 @@
       "slug": "kibble"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/trendline-adult-cat-food-salmon-10kg/",
+  "shortDescription": "Fully balanced all-natural cat food with salmon protein, brewer’s yeast for immune support, Omega-3 and -6 from flaxseed and taurine. Carefully formulated by cat nutritionists to meet the nutritional requirements of all adult cats.",
+  "description": "Trendline Adult Cat Food -Salmon , expertly formulated by leading pet nutritionists, this all-natural recipe delivers the power of high-quality fish protein to keep muscles strong and energy levels high. Enriched with brewer’s yeast for immune support, Omega-3 & -6 from flaxseed for soft, shiny fur, and taurine for heart and eye health—it’s the perfect balance for your cat’s wellness. NUTRIENT COMPONENTS Protein ................................... 27% Fat ...........................................10% Crude Ash .................................8% Crude Cellulose (Fiber) .............3% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Corn Gluten, Dried Sugar Beet, Liver Aroma, Salt, Flaxseed, Dried Brewers Yeast, Taurine. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan. Why Choose Trendline Salmon? 27% Protein from Fish – builds lean muscle and supports active lifestyles. 10% Healthy Fats – nourish your cat’s skin and coat for a silky shine. Brewer’s Yeast – supports natural immunity and digestive health. Omega-3 & -6 Fatty Acids – reduce shedding and enhance skin condition. Taurine Enriched – essential for heart function and sharp vision.",
+  "images": [
     {
-      "id": 2471,
-      "name": "Trendline",
-      "slug": "trendline"
+      "id": 54528,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/04/TCD007.png",
+      "alt": "Trendline Adult Cat Food – Salmon 10KG",
+      "name": "TCD007"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=54527",
+  "addToCartUrl": "https://petstore.co.ke/product/trendline-adult-cat-food-salmon-10kg/?add-to-cart=54527",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.615Z",
-  "dateModified": "2026-06-23T09:15:51.615Z"
+  "dateCreated": "2025-04-08T09:52:37",
+  "dateModified": "2026-06-23T13:12:49",
+  "brand": "Trendline",
+  "weight_kg": 1,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/04/TCD007.png"
 }

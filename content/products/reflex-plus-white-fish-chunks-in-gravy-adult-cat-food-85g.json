@@ -4,8 +4,8 @@
   "slug": "reflex-plus-white-fish-chunks-in-gravy-adult-cat-food-85g",
   "sku": "RPCW034",
   "onSale": false,
-  "price": 1.9,
-  "regularPrice": 1.9,
+  "price": 190,
+  "regularPrice": 190,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "wet-cat-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/reflex-plus-white-fish-chunks-in-gravy-adult-cat-food-85g/",
-  "shortDescription": "Reflex Plus Chunks in Gravy with Chicken 85g nutritious wet cat food with real chicken, taurine, and vitamins. Supports hydration, digestion &amp; overall health.",
-  "description": "Give your adult cat the nutrition it deserves with Reflex Plus Chunks in Gravy with Chicken Adult Cat Food (85g). This high-quality wet cat food is crafted with real chicken and premium animal proteins, ensuring excellent digestibility and optimal nutrient absorption. Enriched with essential vitamins, minerals, and taurine, it supports your cat’s heart, vision, immune system, and overall well-being. Its delicious gravy not only entices picky eaters but also contributes to daily hydration, promoting kidney and urinary tract health. Reflex Plus combines taste and nutrition in a convenient single-serve pouch, making mealtime both healthy and enjoyable for your feline friend. Key Benefits : High-Quality Protein: 5% real chicken for strong muscles and energy. Essential Nutrients: Taurine, Vitamin E, Vitamin D3, Zinc, Iron, and Biotin support vital body functions. Digestive Health: Carefully balanced fibers and high digestibility for optimal gut health. Hydration Support: 83% moisture content helps maintain kidney and urinary tract health. Convenient Feeding: Single-serve 85g pouch keeps food fresh and easy to serve. Composition: Meat and animal derivatives (chicken 5%), vegetable derivatives, minerals, and sugars. Nutritional Analysis : Crude Protein: 8% Crude Fat: 4.5% Crude Fibre: 0.3% Crude Ash: 2% Moisture: 83% Additives per kg: Taurine 1000 mg, Vitamin E 100 mg, Zinc 10 mg, Manganese 2 mg, Iodine 0.7 mg, Copper 2 mg, Iron 2 mg, Biotin 100 μg, Vitamin D3 300 U",
-  "images": [
+  "brands": [
     {
-      "id": 66488,
-      "alt": "Reflex Plus Cat Food Pouch Chicken Chunks In Gravy 85g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/reflex-chicken.png",
-      "name": "reflex chicken"
+      "id": 2462,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "tags": [
@@ -69,20 +61,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/reflex-plus-white-fish-chunks-in-gravy-adult-cat-food-85g/",
+  "shortDescription": "Reflex Plus Chunks in Gravy with Chicken 85g nutritious wet cat food with real chicken, taurine, and vitamins. Supports hydration, digestion & overall health.",
+  "description": "Give your adult cat the nutrition it deserves with Reflex Plus Chunks in Gravy with Chicken Adult Cat Food (85g). This high-quality wet cat food is crafted with real chicken and premium animal proteins, ensuring excellent digestibility and optimal nutrient absorption. Enriched with essential vitamins, minerals, and taurine, it supports your cat’s heart, vision, immune system, and overall well-being. Its delicious gravy not only entices picky eaters but also contributes to daily hydration, promoting kidney and urinary tract health. Reflex Plus combines taste and nutrition in a convenient single-serve pouch, making mealtime both healthy and enjoyable for your feline friend. Key Benefits : High-Quality Protein: 5% real chicken for strong muscles and energy. Essential Nutrients: Taurine, Vitamin E, Vitamin D3, Zinc, Iron, and Biotin support vital body functions. Digestive Health: Carefully balanced fibers and high digestibility for optimal gut health. Hydration Support: 83% moisture content helps maintain kidney and urinary tract health. Convenient Feeding: Single-serve 85g pouch keeps food fresh and easy to serve. Composition: Meat and animal derivatives (chicken 5%), vegetable derivatives, minerals, and sugars. Nutritional Analysis : Crude Protein: 8% Crude Fat: 4.5% Crude Fibre: 0.3% Crude Ash: 2% Moisture: 83% Additives per kg: Taurine 1000 mg, Vitamin E 100 mg, Zinc 10 mg, Manganese 2 mg, Iodine 0.7 mg, Copper 2 mg, Iron 2 mg, Biotin 100 μg, Vitamin D3 300 U",
+  "images": [
     {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
+      "id": 66488,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/reflex-chicken.png",
+      "alt": "Reflex Plus Cat Food Pouch Chicken Chunks In Gravy 85g",
+      "name": "reflex chicken"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=66487",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-white-fish-chunks-in-gravy-adult-cat-food-85g/?add-to-cart=66487",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.829Z",
-  "dateModified": "2026-06-23T09:15:51.829Z"
+  "dateCreated": "2026-01-12T15:30:17",
+  "dateModified": "2026-06-24T10:12:12",
+  "brand": "Reflex",
+  "weight_kg": 0.085,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/reflex-chicken.png"
 }

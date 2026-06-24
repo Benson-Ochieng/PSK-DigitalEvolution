@@ -4,8 +4,8 @@
   "slug": "josera-dog-festival-12-5kg",
   "sku": "JDF004",
   "onSale": false,
-  "price": 129.99,
-  "regularPrice": 129.99,
+  "price": 12999,
+  "regularPrice": 12999,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "josera"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/josera-dog-festival-12-5kg/",
-  "shortDescription": "Josera Festival with a delicious sauce for picky dogs. A unique menu for our discerning connoisseurs: This food should be fed dry or moist. Just add water to the gravy powder to transform this crunchy kibble into a special taste sensation! This variety is sure to win over even the fussiest pet.",
-  "description": "Composition: poultry; whole-grain corn; rice; poultry fat; beet fibre; dried salmon 6.0 %; potato starch; hydrolysed poultry protein; hydrolysed vegetable protein; minerals; dried poultry liver; yeast; haemoglobin powder; ground chicory root (natural source of inulin); dried meat from the New Zealand green-lipped mussel (Perna canaliculus). Product Details: A unique menu for our discerning connoisseurs: This food can be fed dry or moist. Just add water to the gravy powder to transform this crunchy kibble into a special taste sensation! This variety is sure to win over even the fussiest pet. Salmon adds a tasty finishing touch to the exclusive recipe. With tasty gravy powder for added flavor Valuable fatty acids promote a healthy appearance and a shiny coat. Supplies active and sporting dogs with plenty of energy. Supports bone formation and joints.",
-  "images": [
+  "brands": [
     {
-      "id": 89078,
-      "alt": "Josera Dog Festival 12.5kg",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/11/Josera-Dog-Festival-12.5kg-.png",
-      "name": "Josera Dog Festival 12.5kg"
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "kibble"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josera-dog-festival-12-5kg/",
+  "shortDescription": "Josera Festival with a delicious sauce for picky dogs. A unique menu for our discerning connoisseurs: This food should be fed dry or moist. Just add water to the gravy powder to transform this crunchy kibble into a special taste sensation! This variety is sure to win over even the fussiest pet.",
+  "description": "Composition: poultry; whole-grain corn; rice; poultry fat; beet fibre; dried salmon 6.0 %; potato starch; hydrolysed poultry protein; hydrolysed vegetable protein; minerals; dried poultry liver; yeast; haemoglobin powder; ground chicory root (natural source of inulin); dried meat from the New Zealand green-lipped mussel (Perna canaliculus). Product Details: A unique menu for our discerning connoisseurs: This food can be fed dry or moist. Just add water to the gravy powder to transform this crunchy kibble into a special taste sensation! This variety is sure to win over even the fussiest pet. Salmon adds a tasty finishing touch to the exclusive recipe. With tasty gravy powder for added flavor Valuable fatty acids promote a healthy appearance and a shiny coat. Supplies active and sporting dogs with plenty of energy. Supports bone formation and joints.",
+  "images": [
     {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
+      "id": 89078,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/11/Josera-Dog-Festival-12.5kg-.png",
+      "alt": "Josera Dog Festival 12.5kg",
+      "name": "Josera Dog Festival 12.5kg"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 4,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=5&#038;add-to-cart=48844",
+  "addToCartUrl": "https://petstore.co.ke/product/josera-dog-festival-12-5kg/?add-to-cart=48844",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.445Z",
-  "dateModified": "2026-06-23T09:15:51.445Z"
+  "dateCreated": "2024-07-22T08:57:50",
+  "dateModified": "2026-06-24T11:12:02",
+  "brand": "Josera",
+  "weight_kg": 12.5,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/11/Josera-Dog-Festival-12.5kg-.png"
 }

@@ -4,8 +4,8 @@
   "slug": "inaba-grilled-chicken-crab-broth-cat-treat",
   "sku": "BGCT001",
   "onSale": false,
-  "price": 3.5,
-  "regularPrice": 3.5,
+  "price": 350,
+  "regularPrice": 350,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -42,19 +42,11 @@
       "slug": "kitten-treats"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/inaba-grilled-chicken-crab-broth-cat-treat/",
-  "shortDescription": "Premium Inaba grilled chicken fillet in crab flavored broth for cats. Grain-free, moisture-rich treat with Vitamin E for immunity and hydration support.",
-  "description": "Gyour cat to the irresistible taste of Inaba Grilled Chicken Fillet in Crab Flavored Broth — a premium, hand-cut chicken treat crafted from wholesome, high-quality ingredients. Made with farm-raised chicken and packed in a savory crab-flavored broth, each tender fillet delivers delicious flavor while helping keep your feline hydrated. This lightly grilled, flaky chicken treat is vacuum-sealed in UV-blocking packaging to preserve freshness and nutrients. Free from grains, preservatives, and artificial colors, it’s enriched with Vitamin E to support immunity and Green Tea Extract for antioxidant protection. Perfect for bonding moments, you can hand-feed these tender fillets, serve them as a topper, or offer them as a special reward. Suitable for cats of all life stages, this treat adds variety and excitement to your cat’s daily routine. Key Benefits . Made with farm-raised chicken &amp; natural crab-flavored broth . Helps support hydration with moisture-rich broth . Grain-free &amp; free from artificial colors and preservatives . Enriched with Vitamin E &amp; Green Tea Extract antioxidants . Hand-feed, topper, or treat for interactive bonding . Vacuum-sealed freshness with UV-blocking packaging . Suitable for kittens, adults &amp; senior cats Ingredients Chicken, Natural Crab Flavored Broth, Tapioca, Collagen, Guar Gum, Vitamin E Supplement, Green Tea Extract. Guaranteed Analysis Crude Protein (min): 18.0% Crude Fat (min): 0.8% Crude Fiber (max): 0.5% Moisture (max): 75.0% Vitamin E (min): 18 IU/kg Calories: 1118 kcal/kg, 28 kcal per piece Net Weight: 0.9 oz (per fillet) Feeding Guide Feed as a treat only, not as a complete meal. Provide fresh drinking water daily. Storage Refrigerate after opening and serve promptly for freshness. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 69940,
-      "alt": "Inaba Foods Cat Treat Grilled Chicken Fillet Extra Tender In Crab Flavored Broth",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/02/Grilled-Cat-Chicken-Fillet-Extra-Tender-In-Crab-Flavored-Broth-1.png",
-      "name": "Grilled Cat Chicken Fillet Extra Tender In Crab Flavored Broth (1)"
+      "id": 2433,
+      "name": "Churu",
+      "slug": "churu"
     }
   ],
   "tags": [
@@ -74,20 +66,33 @@
       "slug": "treats"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/inaba-grilled-chicken-crab-broth-cat-treat/",
+  "shortDescription": "Premium Inaba grilled chicken fillet in crab flavored broth for cats. Grain-free, moisture-rich treat with Vitamin E for immunity and hydration support.",
+  "description": "Gyour cat to the irresistible taste of Inaba Grilled Chicken Fillet in Crab Flavored Broth — a premium, hand-cut chicken treat crafted from wholesome, high-quality ingredients. Made with farm-raised chicken and packed in a savory crab-flavored broth, each tender fillet delivers delicious flavor while helping keep your feline hydrated. This lightly grilled, flaky chicken treat is vacuum-sealed in UV-blocking packaging to preserve freshness and nutrients. Free from grains, preservatives, and artificial colors, it’s enriched with Vitamin E to support immunity and Green Tea Extract for antioxidant protection. Perfect for bonding moments, you can hand-feed these tender fillets, serve them as a topper, or offer them as a special reward. Suitable for cats of all life stages, this treat adds variety and excitement to your cat’s daily routine. Key Benefits . Made with farm-raised chicken & natural crab-flavored broth . Helps support hydration with moisture-rich broth . Grain-free & free from artificial colors and preservatives . Enriched with Vitamin E & Green Tea Extract antioxidants . Hand-feed, topper, or treat for interactive bonding . Vacuum-sealed freshness with UV-blocking packaging . Suitable for kittens, adults & senior cats Ingredients Chicken, Natural Crab Flavored Broth, Tapioca, Collagen, Guar Gum, Vitamin E Supplement, Green Tea Extract. Guaranteed Analysis Crude Protein (min): 18.0% Crude Fat (min): 0.8% Crude Fiber (max): 0.5% Moisture (max): 75.0% Vitamin E (min): 18 IU/kg Calories: 1118 kcal/kg, 28 kcal per piece Net Weight: 0.9 oz (per fillet) Feeding Guide Feed as a treat only, not as a complete meal. Provide fresh drinking water daily. Storage Refrigerate after opening and serve promptly for freshness. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2433,
-      "name": "Churu",
-      "slug": "churu"
+      "id": 69940,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/02/Grilled-Cat-Chicken-Fillet-Extra-Tender-In-Crab-Flavored-Broth-1.png",
+      "alt": "Inaba Foods Cat Treat Grilled Chicken Fillet Extra Tender In Crab Flavored Broth",
+      "name": "Grilled Cat Chicken Fillet Extra Tender In Crab Flavored Broth (1)"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=69938",
+  "addToCartUrl": "https://petstore.co.ke/product/inaba-grilled-chicken-crab-broth-cat-treat/?add-to-cart=69938",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.932Z",
-  "dateModified": "2026-06-23T09:15:51.932Z"
+  "dateCreated": "2026-02-23T09:35:35",
+  "dateModified": "2026-06-17T04:30:36",
+  "brand": "Churu",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/Grilled-Cat-Chicken-Fillet-Extra-Tender-In-Crab-Flavored-Broth-1.png"
 }

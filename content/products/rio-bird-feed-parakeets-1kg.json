@@ -1,11 +1,11 @@
 {
   "id": 90059,
-  "name": "Rio Bird Feed – Parakeets 1KG",
+  "name": "Rio Bird Feed - Parakeets 1KG",
   "slug": "rio-bird-feed-parakeets-1kg",
   "sku": "RFFP01",
   "onSale": false,
-  "price": 17.5,
-  "regularPrice": 17.5,
+  "price": 1750,
+  "regularPrice": 1750,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -27,21 +27,7 @@
       "slug": "rio"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rio-bird-feed-parakeets-1kg/",
-  "shortDescription": "RIO Feed for Parakeets is a premium balanced bird seed mix specially formulated to meet the daily nutritional needs of parakeets. Made with carefully selected millets, seeds, grains, and essential vitamins, this high-quality bird food supports healthy feathers, strong immunity, proper digestion, and active energy levels.",
-  "description": "Designed for everyday feeding, Rio Feed for Parakeets provides complete and balanced nutrition that helps keep your birds healthy, vibrant, and full of life. Why Choose Rio Feed for Parakeets? Complete Balanced Nutrition RIO Feed for Parakeets is specially developed to provide the ideal balance of nutrients required for healthy daily feeding. The carefully selected blend of seeds and grains supports overall wellbeing and vitality. Supports Healthy Feathers &amp; Plumage Rich in essential nutrients, oils, and vitamins, this premium bird feed helps promote: Bright, vibrant feathers Healthy plumage Skin and feather condition Boosts Energy &amp; Vitality Parakeets are naturally active birds that require energy-rich nutrition. The nutritious blend of millets, oats, and seeds helps maintain healthy activity levels and supports everyday energy needs. Encourages Healthy Digestion Natural fibre and carefully selected ingredients help support healthy digestion and proper nutrient absorption. Supports Natural Feeding Behaviour The varied seed mix encourages natural feeding instincts while providing a tasty and enjoyable feeding experience for your birds. Key Benefits of Rio Feed for Parakeets Premium daily food for parakeets Balanced blend of seeds, grains, and nutrients Supports healthy feathers and plumage Helps strengthen immunity Promotes healthy digestion Encourages natural feeding behaviour Supports healthy energy and activity levels Made with quality natural ingredients Suitable for daily feeding Main Ingredients RIO Feed for Parakeets contains carefully selected ingredients including: Yellow millet Red millet White millet Canary seed Oats Flax seeds Niger seeds Hemp seeds Dried fruits and vegetables Calcium-enriched ingredients Nutritional Support This premium parakeet food contains important nutrients including: Vitamins Vitamin A Vitamin D3 Vitamin E Trace Elements Iron Zinc Manganese Iodine Nutritional Benefits Protein for muscle and feather development Healthy fats for energy and skin health Fibre for digestive support Essential minerals for overall wellbeing Feeding Guide Provide fresh feed daily Ensure clean drinking water is always available Adjust feeding quantity depending on your bird’s size and activity level Supplement occasionally with fresh fruits and vegetables Ideal Daily Nutrition for Parakeets RIO Feed for Parakeets delivers premium-quality daily nutrition designed to support healthy feathers, strong immunity, proper digestion, and active lifestyles. Keep your birds healthy, energetic, and happy with Rio Feed for Parakeets complete balanced nutrition for vibrant parakeets every day. &nbsp; &nbsp;",
-  "images": [
-    {
-      "id": 90063,
-      "alt": "Rio Bird Feed – Parakeets 1KG",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/parakeets.png",
-      "name": "parakeets"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 2114,
@@ -54,14 +40,33 @@
       "slug": "new-arrivals"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rio-bird-feed-parakeets-1kg/",
+  "shortDescription": "RIO Feed for Parakeets is a premium balanced bird seed mix specially formulated to meet the daily nutritional needs of parakeets. Made with carefully selected millets, seeds, grains, and essential vitamins, this high-quality bird food supports healthy feathers, strong immunity, proper digestion, and active energy levels.",
+  "description": "Designed for everyday feeding, Rio Feed for Parakeets provides complete and balanced nutrition that helps keep your birds healthy, vibrant, and full of life. Why Choose Rio Feed for Parakeets? Complete Balanced Nutrition RIO Feed for Parakeets is specially developed to provide the ideal balance of nutrients required for healthy daily feeding. The carefully selected blend of seeds and grains supports overall wellbeing and vitality. Supports Healthy Feathers & Plumage Rich in essential nutrients, oils, and vitamins, this premium bird feed helps promote: Bright, vibrant feathers Healthy plumage Skin and feather condition Boosts Energy & Vitality Parakeets are naturally active birds that require energy-rich nutrition. The nutritious blend of millets, oats, and seeds helps maintain healthy activity levels and supports everyday energy needs. Encourages Healthy Digestion Natural fibre and carefully selected ingredients help support healthy digestion and proper nutrient absorption. Supports Natural Feeding Behaviour The varied seed mix encourages natural feeding instincts while providing a tasty and enjoyable feeding experience for your birds. Key Benefits of Rio Feed for Parakeets Premium daily food for parakeets Balanced blend of seeds, grains, and nutrients Supports healthy feathers and plumage Helps strengthen immunity Promotes healthy digestion Encourages natural feeding behaviour Supports healthy energy and activity levels Made with quality natural ingredients Suitable for daily feeding Main Ingredients RIO Feed for Parakeets contains carefully selected ingredients including: Yellow millet Red millet White millet Canary seed Oats Flax seeds Niger seeds Hemp seeds Dried fruits and vegetables Calcium-enriched ingredients Nutritional Support This premium parakeet food contains important nutrients including: Vitamins Vitamin A Vitamin D3 Vitamin E Trace Elements Iron Zinc Manganese Iodine Nutritional Benefits Protein for muscle and feather development Healthy fats for energy and skin health Fibre for digestive support Essential minerals for overall wellbeing Feeding Guide Provide fresh feed daily Ensure clean drinking water is always available Adjust feeding quantity depending on your bird’s size and activity level Supplement occasionally with fresh fruits and vegetables Ideal Daily Nutrition for Parakeets RIO Feed for Parakeets delivers premium-quality daily nutrition designed to support healthy feathers, strong immunity, proper digestion, and active lifestyles. Keep your birds healthy, energetic, and happy with Rio Feed for Parakeets complete balanced nutrition for vibrant parakeets every day. &nbsp; &nbsp;",
+  "images": [
+    {
+      "id": 90063,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/parakeets.png",
+      "alt": "Rio Bird Feed – Parakeets 1KG",
+      "name": "parakeets"
+    }
+  ],
   "stockStatus": "instock",
-  "lowStockRemaining": 5,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=90059",
+  "addToCartUrl": "https://petstore.co.ke/product/rio-bird-feed-parakeets-1kg/?add-to-cart=90059",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:52.016Z",
-  "dateModified": "2026-06-23T09:15:52.016Z"
+  "dateCreated": "2026-05-28T10:30:58",
+  "dateModified": "2026-06-17T05:01:35",
+  "brand": null,
+  "weight_kg": 1,
+  "animal_type": "bird",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/parakeets.png"
 }

@@ -4,8 +4,8 @@
   "slug": "paw-performance-polo-large-women-blue",
   "sku": "PPPPLWB",
   "onSale": false,
-  "price": 25,
-  "regularPrice": 25,
+  "price": 2500,
+  "regularPrice": 2500,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -17,27 +17,7 @@
       "slug": "human"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/paw-performance-polo-large-women-blue/",
-  "shortDescription": "Chic, comfortable, and full of heart — our Women’s Paw Print Polo Shirt is designed for cat and dog lovers who want to show their pet pride in effortless style. With a feminine fit and a sweet embroidered paw detail, this polo is perfect for everyday wear with a meaningful touch.",
-  "description": "Paw Print Polo Shirt – For Women Who Wear Their Love for Pets Proudly Chic, comfortable, and full of heart — our Women’s Paw Print Polo Shirt is designed for cat and dog lovers who want to show their pet pride in effortless style. With a feminine fit and a sweet embroidered paw detail, this polo is perfect for everyday wear with a meaningful touch. Product Highlights: Material: Soft and breathable cotton-poly blend for lasting comfort and a flattering drape Design: Delicate embroidered paw print combining both cat and dog motifs — a subtle yet heartfelt tribute to your furry friends Fit: Tailored women’s fit with a shaped silhouette, capped sleeves, and a neat two-button placket for a polished, feminine look Versatility: Ideal for casual outings, pet events, or relaxed weekends — stylish and easy to pair with jeans or leggings Care Instructions: Machine washable for easy care and long-lasting quality Whether you&#8217;re out with your pup, lounging with your cat, or gifting a fellow pet lover, this polo shirt is your go-to for combining comfort, charm, and your love for animals. Make your everyday look purr-fect — order your Women’s Paw Print Polo Shirt today!",
-  "images": [
-    {
-      "id": 56029,
-      "alt": "Paw Performance Polo-Small Women Blue",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/06/FRONT-POLO-SHIRT-FIXED.png",
-      "name": "FRONT POLO SHIRT FIXED"
-    },
-    {
-      "id": 56031,
-      "alt": "Paw Performance Polo-Small Women Blue",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/06/BACK-POLO-SHIRT-FIXED-1.png",
-      "name": "BACK POLO SHIRT FIXED"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 2245,
@@ -55,14 +35,39 @@
       "slug": "t-shirt"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/paw-performance-polo-large-women-blue/",
+  "shortDescription": "Chic, comfortable, and full of heart — our Women’s Paw Print Polo Shirt is designed for cat and dog lovers who want to show their pet pride in effortless style. With a feminine fit and a sweet embroidered paw detail, this polo is perfect for everyday wear with a meaningful touch.",
+  "description": "Paw Print Polo Shirt – For Women Who Wear Their Love for Pets Proudly Chic, comfortable, and full of heart — our Women’s Paw Print Polo Shirt is designed for cat and dog lovers who want to show their pet pride in effortless style. With a feminine fit and a sweet embroidered paw detail, this polo is perfect for everyday wear with a meaningful touch. Product Highlights: Material: Soft and breathable cotton-poly blend for lasting comfort and a flattering drape Design: Delicate embroidered paw print combining both cat and dog motifs — a subtle yet heartfelt tribute to your furry friends Fit: Tailored women’s fit with a shaped silhouette, capped sleeves, and a neat two-button placket for a polished, feminine look Versatility: Ideal for casual outings, pet events, or relaxed weekends — stylish and easy to pair with jeans or leggings Care Instructions: Machine washable for easy care and long-lasting quality Whether you're out with your pup, lounging with your cat, or gifting a fellow pet lover, this polo shirt is your go-to for combining comfort, charm, and your love for animals. Make your everyday look purr-fect — order your Women’s Paw Print Polo Shirt today!",
+  "images": [
+    {
+      "id": 56029,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/06/FRONT-POLO-SHIRT-FIXED.png",
+      "alt": "Paw Performance Polo-Small Women Blue",
+      "name": "FRONT POLO SHIRT FIXED"
+    },
+    {
+      "id": 56031,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/06/BACK-POLO-SHIRT-FIXED-1.png",
+      "alt": "Paw Performance Polo-Small Women Blue",
+      "name": "BACK POLO SHIRT FIXED"
+    }
+  ],
   "stockStatus": "instock",
-  "lowStockRemaining": 3,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=56032",
+  "addToCartUrl": "https://petstore.co.ke/product/paw-performance-polo-large-women-blue/?add-to-cart=56032",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.639Z",
-  "dateModified": "2026-06-23T09:15:51.639Z"
+  "dateCreated": "2025-06-23T15:59:09",
+  "dateModified": "2026-06-17T04:15:07",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/06/FRONT-POLO-SHIRT-FIXED.png"
 }

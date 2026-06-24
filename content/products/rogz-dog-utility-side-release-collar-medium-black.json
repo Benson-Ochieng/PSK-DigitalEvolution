@@ -1,11 +1,11 @@
 {
   "id": 17508,
-  "name": "Rogz Dog Utility Side Release Collar Medium – Black",
+  "name": "Rogz Dog Utility Side Release Collar Medium - Black",
   "slug": "rogz-dog-utility-side-release-collar-medium-black",
   "sku": "HB11-A",
   "onSale": false,
-  "price": 11.5,
-  "regularPrice": 11.5,
+  "price": 1150,
+  "regularPrice": 1150,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,21 +32,7 @@
       "slug": "rogz"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-side-release-collar-medium-black/",
-  "shortDescription": "Rogz Utility Side Release collar &#8211; Medium Black",
-  "description": "Rogz Utility Side Release Reflective Dog Collar has a reflective yarn woven into the webbing for night time visibility so that everyone is aware that you &amp; your dog are on an outing. Key Features: Reflective Stitching: Reflective yarn is woven into the webbing for nighttime visibility RogLoc: The Fort Knox of release buckles Low Load Technology: LLT technology reduces the load on the Titanium Plastic buckle through a cleverly positioned load ring Contoured Plastic Component: ROGZ rounded contoured plastic components ensure that every ROGZ collar fits snugly Die-Cast Ring: Custom designed die cast ring (no welding). Electroplated chrome for a tarnish free finish Size: Medium 16mm (Neck Size: 35 &#8211; 45cm)",
-  "images": [
-    {
-      "id": 17471,
-      "alt": "Rogz Dog Utility Side Release Collar Medium – Black",
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/HB11-A-Snake-Black.jpg",
-      "name": "HB11-A Snake Black"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 1205,
@@ -64,14 +50,33 @@
       "slug": "dog"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-side-release-collar-medium-black/",
+  "shortDescription": "Rogz Utility Side Release collar – Medium Black",
+  "description": "Rogz Utility Side Release Reflective Dog Collar has a reflective yarn woven into the webbing for night time visibility so that everyone is aware that you & your dog are on an outing. Key Features: Reflective Stitching: Reflective yarn is woven into the webbing for nighttime visibility RogLoc: The Fort Knox of release buckles Low Load Technology: LLT technology reduces the load on the Titanium Plastic buckle through a cleverly positioned load ring Contoured Plastic Component: ROGZ rounded contoured plastic components ensure that every ROGZ collar fits snugly Die-Cast Ring: Custom designed die cast ring (no welding). Electroplated chrome for a tarnish free finish Size: Medium 16mm (Neck Size: 35 - 45cm)",
+  "images": [
+    {
+      "id": 17471,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/HB11-A-Snake-Black.jpg",
+      "alt": "Rogz Dog Utility Side Release Collar Medium – Black",
+      "name": "HB11-A Snake Black"
+    }
+  ],
   "stockStatus": "instock",
-  "lowStockRemaining": 1,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=1&#038;add-to-cart=17508",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-side-release-collar-medium-black/?add-to-cart=17508",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.124Z",
-  "dateModified": "2026-06-23T09:15:51.124Z"
+  "dateCreated": "2021-01-09T18:37:27",
+  "dateModified": "2026-06-17T04:13:38",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/HB11-A-Snake-Black.jpg"
 }

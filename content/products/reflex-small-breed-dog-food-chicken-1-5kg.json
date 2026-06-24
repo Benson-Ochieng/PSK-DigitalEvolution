@@ -12,14 +12,14 @@
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/11/RDD014-reflex-1.5-kg.jpg",
   "categories": [
     {
-      "id": 2165,
-      "name": "Dog",
-      "slug": "dog"
-    },
-    {
       "id": 2345,
       "name": "Dog",
       "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2165,
+      "name": "Dog",
+      "slug": "dog"
     },
     {
       "id": 2166,

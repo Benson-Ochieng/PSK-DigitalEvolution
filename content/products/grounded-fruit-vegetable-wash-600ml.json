@@ -4,8 +4,8 @@
   "slug": "grounded-fruit-vegetable-wash-600ml",
   "sku": "FV-0.6-U",
   "onSale": false,
-  "price": 6.3,
-  "regularPrice": 6.3,
+  "price": 630,
+  "regularPrice": 630,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -22,6 +22,20 @@
       "slug": "human"
     }
   ],
+  "brands": [
+    {
+      "id": 2441,
+      "name": "Grounded",
+      "slug": "grounded"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2245,
+      "name": "Human",
+      "slug": "human"
+    }
+  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
@@ -32,32 +46,23 @@
   "images": [
     {
       "id": 45754,
-      "alt": "Grounded Fruit & Vegetable Wash 600ml",
       "src": "https://petstore.co.ke/wp-content/uploads/2024/04/Fruit-and-veg-wash-1.jpg",
+      "alt": "Grounded Fruit & Vegetable Wash 600ml",
       "name": "Fruit-and-veg-wash-1"
     }
   ],
-  "tags": [
-    {
-      "id": 2245,
-      "name": "Human",
-      "slug": "human"
-    }
-  ],
-  "brands": [
-    {
-      "id": 2441,
-      "name": "Grounded",
-      "slug": "grounded"
-    }
-  ],
   "stockStatus": "instock",
-  "lowStockRemaining": 3,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=45753",
+  "addToCartUrl": "https://petstore.co.ke/product/grounded-fruit-vegetable-wash-600ml/?add-to-cart=45753",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.374Z",
-  "dateModified": "2026-06-23T09:15:51.374Z"
+  "dateCreated": "2024-04-02T13:02:10",
+  "dateModified": "2026-06-17T04:29:47",
+  "brand": "Grounded",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/Fruit-and-veg-wash-1.jpg"
 }

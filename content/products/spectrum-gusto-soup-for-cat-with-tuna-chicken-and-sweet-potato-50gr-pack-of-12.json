@@ -1,12 +1,12 @@
 {
   "id": 53436,
-  "name": "Pack Of 12 – Spectrum Gusto Soup For Cat With Tuna Chicken And Sweet Potato 50g",
+  "name": "Pack Of 12 - Spectrum Gusto Soup For Cat With Tuna Chicken And Sweet Potato 50g",
   "slug": "spectrum-gusto-soup-for-cat-with-tuna-chicken-and-sweet-potato-50gr-pack-of-12",
   "sku": "SCW008$12",
   "onSale": true,
-  "price": 21.06,
-  "regularPrice": 23.4,
-  "salePrice": 21.06,
+  "price": 2106,
+  "regularPrice": 2340,
+  "salePrice": 2106,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-TUNA-CHICKEN-AND-SWEAT-POTATO-50GR-1.png",
@@ -37,25 +37,17 @@
       "slug": "spectrum"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/spectrum-gusto-soup-for-cat-with-tuna-chicken-and-sweet-potato-50gr-pack-of-12/",
-  "shortDescription": "Treat your feline friend to a delightful snack experience with SPECTRUM GUSTO Soup! Appropriate for any Cat/Kitten as a healthy treat but not a substitute for a complete balanced food. Make sufficient drinking water available.",
-  "description": "SPECTRUM GUSTO Soup for Cats with Tuna, Chicken, and Sweet Potato: The Soup can be given as a complementary food or just as everyday reward/treat. You can use a spoon on which you are offering the soup in several portions. Treat your feline friend to a delightful snack experience with SPECTRUM GUSTO Soup! This delicious blend features tender tuna and chicken, perfectly complemented by nutritious sweet potato. Packed in a convenient 50g pouch, it’s ideal for a quick snack or a meal topper. Contents: Water, Tuna fillet 15.40%, Chicken 10%, Sweet potato 4.7%, Fish broth, Natural thickener (Tapioca starch (E1442), Guar gum (E412)). Nutrient Components: Crude Protein 8%, Crude Fat 0.3%, Crude Ash 1%, Crude Fiber 0.1%, Moisture 90%. Key Features: Savory Ingredients: Made with real tuna and chicken for a taste your cat will love. Nutritious Addition: Sweet potato adds essential vitamins and fiber, supporting digestive health. Moist &amp; Tasty: The rich, flavorful broth keeps your cat hydrated and satisfied. Easy to Serve: Simply pour and serve; perfect for picky eaters! Give your cat a taste sensation that’s both delicious and nutritious with SPECTRUM GUSTO Soup! Your furry companion deserves the best. Always have fresh drinking water available for your cat. See imprint on package.",
-  "images": [
+  "brands": [
     {
-      "id": 50540,
-      "alt": "Spectrum Gusto Soup For Cat With Tuna Chicken And Sweet Potato 50g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-TUNA-CHICKEN-AND-SWEAT-POTATO-50GR-1.png",
-      "name": "SPECTRUM GUSTO SOUP FOR CAT WITH TUNA, CHICKEN AND SWEAT POTATO 50GR"
+      "id": 2468,
+      "name": "Spectrum",
+      "slug": "spectrum"
     }
   ],
   "tags": [
     {
       "id": 2055,
-      "name": "Bulk Cat Food &amp; Bulk Dog Food",
+      "name": "Bulk Cat Food & Bulk Dog Food",
       "slug": "bulk"
     },
     {
@@ -74,20 +66,33 @@
       "slug": "treats"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/spectrum-gusto-soup-for-cat-with-tuna-chicken-and-sweet-potato-50gr-pack-of-12/",
+  "shortDescription": "Treat your feline friend to a delightful snack experience with SPECTRUM GUSTO Soup! Appropriate for any Cat/Kitten as a healthy treat but not a substitute for a complete balanced food. Make sufficient drinking water available.",
+  "description": "SPECTRUM GUSTO Soup for Cats with Tuna, Chicken, and Sweet Potato: The Soup can be given as a complementary food or just as everyday reward/treat. You can use a spoon on which you are offering the soup in several portions. Treat your feline friend to a delightful snack experience with SPECTRUM GUSTO Soup! This delicious blend features tender tuna and chicken, perfectly complemented by nutritious sweet potato. Packed in a convenient 50g pouch, it’s ideal for a quick snack or a meal topper. Contents: Water, Tuna fillet 15.40%, Chicken 10%, Sweet potato 4.7%, Fish broth, Natural thickener (Tapioca starch (E1442), Guar gum (E412)). Nutrient Components: Crude Protein 8%, Crude Fat 0.3%, Crude Ash 1%, Crude Fiber 0.1%, Moisture 90%. Key Features: Savory Ingredients: Made with real tuna and chicken for a taste your cat will love. Nutritious Addition: Sweet potato adds essential vitamins and fiber, supporting digestive health. Moist & Tasty: The rich, flavorful broth keeps your cat hydrated and satisfied. Easy to Serve: Simply pour and serve; perfect for picky eaters! Give your cat a taste sensation that’s both delicious and nutritious with SPECTRUM GUSTO Soup! Your furry companion deserves the best. Always have fresh drinking water available for your cat. See imprint on package.",
+  "images": [
     {
-      "id": 2468,
-      "name": "Spectrum",
-      "slug": "spectrum"
+      "id": 50540,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-TUNA-CHICKEN-AND-SWEAT-POTATO-50GR-1.png",
+      "alt": "Spectrum Gusto Soup For Cat With Tuna Chicken And Sweet Potato 50g",
+      "name": "SPECTRUM GUSTO SOUP FOR CAT WITH TUNA, CHICKEN AND SWEAT POTATO 50GR"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=53436",
+  "addToCartUrl": "https://petstore.co.ke/product/spectrum-gusto-soup-for-cat-with-tuna-chicken-and-sweet-potato-50gr-pack-of-12/?add-to-cart=53436",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.600Z",
-  "dateModified": "2026-06-23T09:15:51.600Z"
+  "dateCreated": "2025-02-11T15:42:31",
+  "dateModified": "2026-06-24T13:12:14",
+  "brand": "Spectrum",
+  "weight_kg": 0.6,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-TUNA-CHICKEN-AND-SWEAT-POTATO-50GR-1.png"
 }

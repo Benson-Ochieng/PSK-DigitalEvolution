@@ -12,11 +12,6 @@
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/IMG-20250722-WA0005.jpg",
   "categories": [
     {
-      "id": 2421,
-      "name": "Soup Time",
-      "slug": "soup-time"
-    },
-    {
       "id": 2325,
       "name": "Cat",
       "slug": "cat-supplies-store"
@@ -35,6 +30,11 @@
       "id": 2403,
       "name": "Kitten Treats",
       "slug": "kitten-treats"
+    },
+    {
+      "id": 2421,
+      "name": "Soup Time",
+      "slug": "soup-time"
     }
   ],
   "brands": [

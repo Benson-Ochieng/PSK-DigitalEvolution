@@ -1,5 +1,13 @@
 [
   {
+    "id": "evt-2omd8t74c",
+    "timestamp": "2026-06-24T13:45:54.582Z",
+    "user": "System Admin",
+    "action": "WooCommerce Sync Initiated",
+    "details": "Synchronization from WooCommerce storefront was started in the background.",
+    "icon": "🔄"
+  },
+  {
     "id": "evt-oa1w4v8uw",
     "timestamp": "2026-06-24T13:42:31.769Z",
     "user": "System Admin",

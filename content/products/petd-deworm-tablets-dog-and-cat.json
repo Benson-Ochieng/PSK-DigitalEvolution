@@ -4,8 +4,8 @@
   "slug": "petd-deworm-tablets-dog-and-cat",
   "sku": "PetD Deworm1",
   "onSale": false,
-  "price": 5,
-  "regularPrice": 5,
+  "price": 500,
+  "regularPrice": 500,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -47,19 +47,11 @@
       "slug": "petd"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/petd-deworm-tablets-dog-and-cat/",
-  "shortDescription": "Pet D worm tablets dewormer for dogs and cats is highly effective in the removal of roundworms and hookworms.",
-  "description": "Keep your pets healthy, active, and protected with PetD Worm Tablets &#8211; a convenient, broad-spectrum deworming solution designed for both cats and dogs. Why deworming matters Internal parasites like roundworms, hookworms, and tapeworms can affect your pet’s digestion, energy levels, and overall wellbeing often without obvious signs. Routine deworming is essential to prevent infestations, support nutrient absorption, and maintain a strong, healthy pet. Powerful, targeted protection PetD combines three proven active ingredients; mebendazole, piperazine citrate, and praziquantel to effectively eliminate and control: Roundworms Hookworms Tapeworms This triple-action formula works quickly to clear existing worms and help restore your pet’s health. Administer the tablet directly by placing it at the back of your pet’s mouth Or crush and mix with a small amount of food, milk, or soup Dosing guidance For best results, repeat the dose 3–4 weeks after the first treatment to fully break the parasite lifecycle and prevent reinfestation. Important notes Suitable for both cats and dogs Not recommended for unweaned puppies and kittens, as they are unlikely to carry tapeworm infections at that stage Support your pet’s health, simply and effectively With PetD Worm Tablets, you’re not just treating parasites you’re investing in your pet’s long-term health, comfort, and vitality. &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 88812,
-      "alt": "PetD Deworm 6 Tablets Dog and Cat",
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/petd-dewomers-.png",
-      "name": "petd dewomers"
+      "id": 2458,
+      "name": "PetD",
+      "slug": "petd"
     }
   ],
   "tags": [
@@ -84,20 +76,33 @@
       "slug": "medicine"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/petd-deworm-tablets-dog-and-cat/",
+  "shortDescription": "Pet D worm tablets dewormer for dogs and cats is highly effective in the removal of roundworms and hookworms.",
+  "description": "Keep your pets healthy, active, and protected with PetD Worm Tablets - a convenient, broad-spectrum deworming solution designed for both cats and dogs. Why deworming matters Internal parasites like roundworms, hookworms, and tapeworms can affect your pet’s digestion, energy levels, and overall wellbeing often without obvious signs. Routine deworming is essential to prevent infestations, support nutrient absorption, and maintain a strong, healthy pet. Powerful, targeted protection PetD combines three proven active ingredients; mebendazole, piperazine citrate, and praziquantel to effectively eliminate and control: Roundworms Hookworms Tapeworms This triple-action formula works quickly to clear existing worms and help restore your pet’s health. Administer the tablet directly by placing it at the back of your pet’s mouth Or crush and mix with a small amount of food, milk, or soup Dosing guidance For best results, repeat the dose 3–4 weeks after the first treatment to fully break the parasite lifecycle and prevent reinfestation. Important notes Suitable for both cats and dogs Not recommended for unweaned puppies and kittens, as they are unlikely to carry tapeworm infections at that stage Support your pet’s health, simply and effectively With PetD Worm Tablets, you’re not just treating parasites you’re investing in your pet’s long-term health, comfort, and vitality. &nbsp;",
+  "images": [
     {
-      "id": 2458,
-      "name": "PetD",
-      "slug": "petd"
+      "id": 88812,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/petd-dewomers-.png",
+      "alt": "PetD Deworm 6 Tablets Dog and Cat",
+      "name": "petd dewomers"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=3&#038;add-to-cart=24768",
+  "addToCartUrl": "https://petstore.co.ke/product/petd-deworm-tablets-dog-and-cat/?add-to-cart=24768",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.235Z",
-  "dateModified": "2026-06-23T09:15:51.235Z"
+  "dateCreated": "2022-01-19T17:12:48",
+  "dateModified": "2026-06-22T14:12:05",
+  "brand": "PetD",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/petd-dewomers-.png"
 }

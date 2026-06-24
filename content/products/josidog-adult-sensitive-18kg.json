@@ -4,8 +4,8 @@
   "slug": "josidog-adult-sensitive-18kg",
   "sku": "JDJS",
   "onSale": false,
-  "price": 109.79,
-  "regularPrice": 109.79,
+  "price": 10979,
+  "regularPrice": 10979,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "josera"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/josidog-adult-sensitive-18kg/",
-  "shortDescription": "This appetising dog food is easily digestible for Sensitive &amp; Delicate Digestive tracts of Dogs. A good source of nutrients thanks to its balanced, Gluten-Free recipe for extra special care to help dogs with Sensitive Stomachs. With Taurine that supports heart function, a high level of valuable antioxidants that help the cells to fight off free radicals, Prebiotics and Inulin for healthy gut flora.",
-  "description": "Composition: Dried poultry protein; rice; whole grain corn; poultry fat; beet fibre; hydrolysed poultry protein; minerals; ground chicory root (natural source of inulin); dried meat from the New Zealand green-lipped mussel (Perna canaliculus) Product Details: This appetising dog food is easily digestible for Sensitive &amp; Delicate Digestive tracts of Dogs. A good source of nutrients thanks to its balanced, Gluten-Free recipe for extra special care to help dogs with Sensitive Stomachs. With Taurine that supports heart function, a high level of valuable antioxidants that help the cells to fight off free radicals, Prebiotics and Inulin for healthy gut flora.",
-  "images": [
+  "brands": [
     {
-      "id": 89073,
-      "alt": "JosiDog Adult Sensitive 15kg",
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JosiDog-Adult-Sensitive-15kg-1.png",
-      "name": "JosiDog Adult Sensitive 15kg"
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "tags": [
@@ -59,20 +51,33 @@
       "slug": "dry-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josidog-adult-sensitive-18kg/",
+  "shortDescription": "This appetising dog food is easily digestible for Sensitive & Delicate Digestive tracts of Dogs. A good source of nutrients thanks to its balanced, Gluten-Free recipe for extra special care to help dogs with Sensitive Stomachs. With Taurine that supports heart function, a high level of valuable antioxidants that help the cells to fight off free radicals, Prebiotics and Inulin for healthy gut flora.",
+  "description": "Composition: Dried poultry protein; rice; whole grain corn; poultry fat; beet fibre; hydrolysed poultry protein; minerals; ground chicory root (natural source of inulin); dried meat from the New Zealand green-lipped mussel (Perna canaliculus) Product Details: This appetising dog food is easily digestible for Sensitive & Delicate Digestive tracts of Dogs. A good source of nutrients thanks to its balanced, Gluten-Free recipe for extra special care to help dogs with Sensitive Stomachs. With Taurine that supports heart function, a high level of valuable antioxidants that help the cells to fight off free radicals, Prebiotics and Inulin for healthy gut flora.",
+  "images": [
     {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
+      "id": 89073,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JosiDog-Adult-Sensitive-15kg-1.png",
+      "alt": "JosiDog Adult Sensitive 15kg",
+      "name": "JosiDog Adult Sensitive 15kg"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=2&#038;add-to-cart=23729",
+  "addToCartUrl": "https://petstore.co.ke/product/josidog-adult-sensitive-18kg/?add-to-cart=23729",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.198Z",
-  "dateModified": "2026-06-23T09:15:51.198Z"
+  "dateCreated": "2021-10-29T07:55:19",
+  "dateModified": "2026-06-24T11:12:03",
+  "brand": "Josera",
+  "weight_kg": 15,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JosiDog-Adult-Sensitive-15kg-1.png"
 }

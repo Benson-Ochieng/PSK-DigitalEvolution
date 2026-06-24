@@ -1,12 +1,12 @@
 {
   "id": 69465,
-  "name": "Wanpy Dog Treats – Lamb Jerky Slices 100g",
+  "name": "Wanpy Dog Treats - Lamb Jerky Slices 100g",
   "slug": "wanpy-soft-oven-roasted-lamb-jerky-slices",
   "sku": "WDW011",
   "onSale": true,
-  "price": 3.16,
-  "regularPrice": 3.95,
-  "salePrice": 3.16,
+  "price": 316,
+  "regularPrice": 395,
+  "salePrice": 316,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/WANPY-DOG-LAMB-JERKY-SLICES-100GR-1.png",
@@ -32,19 +32,11 @@
       "slug": "wanpy"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/wanpy-soft-oven-roasted-lamb-jerky-slices/",
-  "shortDescription": "Wanpy Soft Oven Roasted Lamb Jerky Slices are 100% natural, high-protein, low-fat dog treats made with real lamb. Perfect for training rewards and healthy snacking. &nbsp;",
-  "description": "Wanpy Soft Oven Roasted Lamb Jerky Slices Dog Treats are premium, all-natural dog treats made with real lamb as the first ingredient . These soft, chewy jerky slices are high in protein and low in fat, making them an ideal reward during training sessions or a healthy snack between meals. Carefully oven-roasted to lock in flavor and nutrients, these lamb jerky treats deliver irresistible taste while supporting strong bones, healthy digestion, and overall vitality. The resealable packaging ensures long-lasting freshness and convenience. Key Features &amp; Benefits Real Lamb as First Ingredient – High-quality animal protein for superior nutrition 100% Natural Formula – Healthy and safe training reward High Protein, Low Fat – Supports lean muscle and healthy weight Soft &amp; Chewy Texture – Easy to chew and highly palatable Supports Strong Bones – Nutrient-rich recipe promotes bone health Aids Healthy Digestion – Gentle on the stomach Perfect Training Treat – Ideal for rewards and positive reinforcement Resealable Pack – Keeps treats fresh for longer Health Benefits Helps maintain muscle strength and energy Supports digestive health Promotes strong bones and overall wellness Encourages positive training behavior Feeding Recommendations Feed as a complementary treat between meals . Do not substitute for a complete meal. Always ensure your dog has access to fresh, clean drinking water. Storage Instructions Store in a cool, dry place. Reseal the bag after opening to preserve freshness. &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 69467,
-      "alt": "Wanpy Dog Treats – Lamb Jerky Slices 100g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/02/WANPY-DOG-LAMB-JERKY-SLICES-100GR-1.png",
-      "name": "WANPY DOG LAMB JERKY SLICES 100GR (1)"
+      "id": 2479,
+      "name": "Wanpy",
+      "slug": "wanpy"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "sale"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/wanpy-soft-oven-roasted-lamb-jerky-slices/",
+  "shortDescription": "Wanpy Soft Oven Roasted Lamb Jerky Slices are 100% natural, high-protein, low-fat dog treats made with real lamb. Perfect for training rewards and healthy snacking. &nbsp;",
+  "description": "Wanpy Soft Oven Roasted Lamb Jerky Slices Dog Treats are premium, all-natural dog treats made with real lamb as the first ingredient . These soft, chewy jerky slices are high in protein and low in fat, making them an ideal reward during training sessions or a healthy snack between meals. Carefully oven-roasted to lock in flavor and nutrients, these lamb jerky treats deliver irresistible taste while supporting strong bones, healthy digestion, and overall vitality. The resealable packaging ensures long-lasting freshness and convenience. Key Features & Benefits Real Lamb as First Ingredient – High-quality animal protein for superior nutrition 100% Natural Formula – Healthy and safe training reward High Protein, Low Fat – Supports lean muscle and healthy weight Soft & Chewy Texture – Easy to chew and highly palatable Supports Strong Bones – Nutrient-rich recipe promotes bone health Aids Healthy Digestion – Gentle on the stomach Perfect Training Treat – Ideal for rewards and positive reinforcement Resealable Pack – Keeps treats fresh for longer Health Benefits Helps maintain muscle strength and energy Supports digestive health Promotes strong bones and overall wellness Encourages positive training behavior Feeding Recommendations Feed as a complementary treat between meals . Do not substitute for a complete meal. Always ensure your dog has access to fresh, clean drinking water. Storage Instructions Store in a cool, dry place. Reseal the bag after opening to preserve freshness. &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2479,
-      "name": "Wanpy",
-      "slug": "wanpy"
+      "id": 69467,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/02/WANPY-DOG-LAMB-JERKY-SLICES-100GR-1.png",
+      "alt": "Wanpy Dog Treats – Lamb Jerky Slices 100g",
+      "name": "WANPY DOG LAMB JERKY SLICES 100GR (1)"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=69465",
+  "addToCartUrl": "https://petstore.co.ke/product/wanpy-soft-oven-roasted-lamb-jerky-slices/?add-to-cart=69465",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.923Z",
-  "dateModified": "2026-06-23T09:15:51.923Z"
+  "dateCreated": "2026-02-03T12:00:50",
+  "dateModified": "2026-06-24T10:12:16",
+  "brand": "Wanpy",
+  "weight_kg": 0.405,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/WANPY-DOG-LAMB-JERKY-SLICES-100GR-1.png"
 }

@@ -1,11 +1,11 @@
 {
   "id": 56721,
-  "name": "Montego Packs O' Purrs Cat Treats – with Lamb 70g",
+  "name": "Montego Packs O' Purrs Cat Treats - with Lamb 70g",
   "slug": "montego-packs-o-purrs-cat-treats-with-lamb-70g",
   "sku": "MPPL70",
   "onSale": false,
-  "price": 4.95,
-  "regularPrice": 4.95,
+  "price": 495,
+  "regularPrice": 495,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "montego"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/montego-packs-o-purrs-cat-treats-with-lamb-70g/",
-  "shortDescription": "Specially crafted to support your cat’s overall wellbeing, these treats provide a great source of protein, essential fatty acids (Omega-3 &amp; 6) , and taurine to promote heart health, a shiny coat, and playful energy. Not suitable for kittens.&nbsp;",
-  "description": "Treat your feline friend to a galactic burst of flavor with Packs O’ Purrs Cosmic Kitty Chewy Treats &#8211; irresistibly tasty, soft, and packed with out-of-this-world goodness! Made with premium ingredients like lamb meal, hydrolyzed lamb liver, and fish oil , these chewy bites are as nutritious as they are delicious. Specially crafted to support your cat’s overall wellbeing, these treats provide a great source of protein, essential fatty acids (Omega-3 &amp; 6) , and taurine to promote heart health, a shiny coat, and playful energy. With no mess and no fuss, these chewy treats are perfect for everyday rewards or special bonding moments. Key Benefits: Delicious lamb flavor cats can’t resist Supports skin, coat, and heart health Soft and chewy texture &#8211; perfect for all cats Made with high-quality, nutrient-rich ingredients Enriched with taurine and essential fatty acids Typical Analysis: Crude Protein 18% | Moisture 16.5% | Total Fat 5.7% | Crude Fibre 1.7% | Crude Ash 4.2% | Calcium 0.7% | Phosphorus 0.6% | Sodium 0.3% | Omega-3 0.25% | Omega-6 1% | Taurine 0.125% | Metabolisable Energy 339 kcal/100g Storage &amp; Usage Feeding Instructions: Give as a treat or reward in between meals. Suitable for cats of all breeds and life stages &#8211; adjust quantity according to your cat’s size, age, and activity level. Always ensure fresh drinking water is available. Storage: Store in a cool, dry place , away from direct sunlight. Reseal the pack tightly after each use to maintain freshness and flavor. Once opened, consume within 30 days for the best quality. Make treat time out of this world with Packs O’ Purrs Cosmic Kitty Chewy Treats &#8211; the perfect blend of taste, texture, and nutrition your cat will adore. Packed with wholesome ingredients and essential nutrients, every bite supports a happy, healthy, and purr-worthy life.",
-  "images": [
+  "brands": [
     {
-      "id": 56722,
-      "alt": "Montego Packs O’ Purrs Cat Treats – with Lamb 70g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-45.png",
-      "name": "Untitled design (45)"
+      "id": 2453,
+      "name": "Montego",
+      "slug": "montego"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "treats"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/montego-packs-o-purrs-cat-treats-with-lamb-70g/",
+  "shortDescription": "Specially crafted to support your cat’s overall wellbeing, these treats provide a great source of protein, essential fatty acids (Omega-3 & 6) , and taurine to promote heart health, a shiny coat, and playful energy. Not suitable for kittens.&nbsp;",
+  "description": "Treat your feline friend to a galactic burst of flavor with Packs O’ Purrs Cosmic Kitty Chewy Treats - irresistibly tasty, soft, and packed with out-of-this-world goodness! Made with premium ingredients like lamb meal, hydrolyzed lamb liver, and fish oil , these chewy bites are as nutritious as they are delicious. Specially crafted to support your cat’s overall wellbeing, these treats provide a great source of protein, essential fatty acids (Omega-3 & 6) , and taurine to promote heart health, a shiny coat, and playful energy. With no mess and no fuss, these chewy treats are perfect for everyday rewards or special bonding moments. Key Benefits: Delicious lamb flavor cats can’t resist Supports skin, coat, and heart health Soft and chewy texture - perfect for all cats Made with high-quality, nutrient-rich ingredients Enriched with taurine and essential fatty acids Typical Analysis: Crude Protein 18% | Moisture 16.5% | Total Fat 5.7% | Crude Fibre 1.7% | Crude Ash 4.2% | Calcium 0.7% | Phosphorus 0.6% | Sodium 0.3% | Omega-3 0.25% | Omega-6 1% | Taurine 0.125% | Metabolisable Energy 339 kcal/100g Storage & Usage Feeding Instructions: Give as a treat or reward in between meals. Suitable for cats of all breeds and life stages - adjust quantity according to your cat’s size, age, and activity level. Always ensure fresh drinking water is available. Storage: Store in a cool, dry place , away from direct sunlight. Reseal the pack tightly after each use to maintain freshness and flavor. Once opened, consume within 30 days for the best quality. Make treat time out of this world with Packs O’ Purrs Cosmic Kitty Chewy Treats - the perfect blend of taste, texture, and nutrition your cat will adore. Packed with wholesome ingredients and essential nutrients, every bite supports a happy, healthy, and purr-worthy life.",
+  "images": [
     {
-      "id": 2453,
-      "name": "Montego",
-      "slug": "montego"
+      "id": 56722,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-45.png",
+      "alt": "Montego Packs O’ Purrs Cat Treats – with Lamb 70g",
+      "name": "Untitled design (45)"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=56721",
+  "addToCartUrl": "https://petstore.co.ke/product/montego-packs-o-purrs-cat-treats-with-lamb-70g/?add-to-cart=56721",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.690Z",
-  "dateModified": "2026-06-23T09:15:51.690Z"
+  "dateCreated": "2025-07-11T10:16:43",
+  "dateModified": "2026-06-17T04:30:19",
+  "brand": "Montego",
+  "weight_kg": 0.07,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-45.png"
 }

@@ -4,18 +4,13 @@
   "slug": "friskies-cat-junior-chicken-85g",
   "sku": "FCW010",
   "onSale": false,
-  "price": 1.76,
-  "regularPrice": 1.76,
+  "price": 176,
+  "regularPrice": 176,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-13.png",
   "categories": [
-    {
-      "id": 2413,
-      "name": "Friskies",
-      "slug": "friskies"
-    },
     {
       "id": 2325,
       "name": "Cat",
@@ -27,24 +22,21 @@
       "slug": "cat-food-and-treats"
     },
     {
+      "id": 2413,
+      "name": "Friskies",
+      "slug": "friskies"
+    },
+    {
       "id": 2327,
       "name": "Wet Cat Food",
       "slug": "wet-cat-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/friskies-cat-junior-chicken-85g/",
-  "shortDescription": "FRISKIES Junior Chicken 85G provides wholesome nutrition for kittens and expectant or nursing cats. Each pouch features juicy chicken pieces in a savory gravy , offering complete and balanced nourishment that supports strong bones, muscle growth, and a healthy immune system , ensuring your young cat thrives from the start.",
-  "description": "Nutritional Composition • Meat and animal derivatives (chicken 4%) • Moisture: 82.5% • Protein: 7.5% • Fat: 3.0% • Crude ash: 2.5% • Crude fibre: 0.1% • Enriched with vitamins A, D3, E and essential minerals (iron, copper, manganese, zinc) Key Benefits • Specially formulated for kittens under 1 year old. • Tender chicken chunks in rich gravy for taste and texture kittens love. • Complete and balanced to support healthy growth. • Packed with essential vitamins and minerals for strong immunity. • Easy to eat and digest for developing tummies. Feeding Guidelines • 6–12 weeks: 1.5–4.5 pouches/day • 12–26 weeks: 3–6 pouches/day • 26–52 weeks: 3–6 pouches/day (adjust as needed) Feed in 2–3 meals daily at room temperature and always provide fresh drinking water.",
-  "images": [
+  "brands": [
     {
-      "id": 57796,
-      "alt": "Friskies Cat Junior Chicken 85g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-13.png",
-      "name": "Untitled design (13)"
+      "id": 2439,
+      "name": "Friskies",
+      "slug": "friskies"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/friskies-cat-junior-chicken-85g/",
+  "shortDescription": "FRISKIES Junior Chicken 85G provides wholesome nutrition for kittens and expectant or nursing cats. Each pouch features juicy chicken pieces in a savory gravy , offering complete and balanced nourishment that supports strong bones, muscle growth, and a healthy immune system , ensuring your young cat thrives from the start.",
+  "description": "Nutritional Composition • Meat and animal derivatives (chicken 4%) • Moisture: 82.5% • Protein: 7.5% • Fat: 3.0% • Crude ash: 2.5% • Crude fibre: 0.1% • Enriched with vitamins A, D3, E and essential minerals (iron, copper, manganese, zinc) Key Benefits • Specially formulated for kittens under 1 year old. • Tender chicken chunks in rich gravy for taste and texture kittens love. • Complete and balanced to support healthy growth. • Packed with essential vitamins and minerals for strong immunity. • Easy to eat and digest for developing tummies. Feeding Guidelines • 6–12 weeks: 1.5–4.5 pouches/day • 12–26 weeks: 3–6 pouches/day • 26–52 weeks: 3–6 pouches/day (adjust as needed) Feed in 2–3 meals daily at room temperature and always provide fresh drinking water.",
+  "images": [
     {
-      "id": 2439,
-      "name": "Friskies",
-      "slug": "friskies"
+      "id": 57796,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-13.png",
+      "alt": "Friskies Cat Junior Chicken 85g",
+      "name": "Untitled design (13)"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=57792",
+  "addToCartUrl": "https://petstore.co.ke/product/friskies-cat-junior-chicken-85g/?add-to-cart=57792",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.726Z",
-  "dateModified": "2026-06-23T09:15:51.726Z"
+  "dateCreated": "2025-08-08T13:16:43",
+  "dateModified": "2026-06-24T10:12:00",
+  "brand": "Friskies",
+  "weight_kg": 0.085,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-13.png"
 }

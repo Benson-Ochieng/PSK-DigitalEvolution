@@ -1,11 +1,11 @@
 {
   "id": 69431,
-  "name": "Montego Bags O' Wags Fruities Orange & Yoghurt – 120g",
+  "name": "Montego Bags O' Wags Fruities Orange & Yoghurt - 120g",
   "slug": "montego-bags-o-wags-fruities-orange-yoghurt-120g",
   "sku": "MBWFOY120",
   "onSale": false,
-  "price": 4.8,
-  "regularPrice": 4.8,
+  "price": 480,
+  "regularPrice": 480,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -37,19 +37,11 @@
       "slug": "montego"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/montego-bags-o-wags-fruities-orange-yoghurt-120g/",
-  "shortDescription": "Treat your dog to soft, chewy goodness with real orange and creamy yoghurt flavour. Low in fat and enriched with wholesome ingredients, these tasty treats are perfect for rewarding, training, or simply showing your furry friend some love. Dogs adore the juicy fruity taste, while you’ll love that they’re made with quality ingredients and natural flavours.",
-  "description": "Bags o’ Wags Fruities &#8211; Orange &amp; Yoghurt Flavour Give your dog a treat they’ll wag for! Bags o’ Wags Fruities combine the juicy sweetness of real orange with creamy yoghurt, creating a soft, chewy snack that dogs love. Perfect for rewarding, training, or everyday indulgence, these treats are low in fat and low in sugar, so you can spoil your furry friend guilt-free. Why pet parents love it: Delicious &amp; irresistible: Orange and yoghurt flavours with meat-based palatability enhancers make every bite a tail-wagger. Soft &amp; chewy: Gentle on teeth, perfect for dogs of all sizes. Wholesome ingredients: Corn starch, lactose-reduced milk powder, poultry fat, fish oil, and wheat gluten provide taste plus nutritional support. Safe &amp; fresh: Preserved with potassium sorbate for freshness and lightly coloured for visual appeal. Ingredients : Corn starch, water, glycerine, milk powder (lactose reduced), wheat gluten, sugar, poultry fat, Sodium hexametaphosphate, spray-dried animal plasma, fish oil. ADDITIVES (/kg): SENSORY: Palatability meat-based enhancers, orange flavour, yoghurt flavour, colourants. PRESERVATIVES: Potassium sorbate. A fun fact: Apples are rich in vitamins and fibre, while yoghurt supports digestion &#8211; so every treat is both tasty and functional! Bags o’ Wags Fruities &#8211; Blueberry &amp; Yoghurt: a delicious way to reward your dog, keep them happy, and support their health.",
-  "images": [
+  "brands": [
     {
-      "id": 69432,
-      "alt": "Montego Bags O’ Wags Fruities Orange & Yoghurt – 120g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/02/Untitled-design-18.png",
-      "name": "Untitled design (18)"
+      "id": 2425,
+      "name": "Bags-o-wags",
+      "slug": "bags-o-wags"
     }
   ],
   "tags": [
@@ -69,20 +61,33 @@
       "slug": "treats"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/montego-bags-o-wags-fruities-orange-yoghurt-120g/",
+  "shortDescription": "Treat your dog to soft, chewy goodness with real orange and creamy yoghurt flavour. Low in fat and enriched with wholesome ingredients, these tasty treats are perfect for rewarding, training, or simply showing your furry friend some love. Dogs adore the juicy fruity taste, while you’ll love that they’re made with quality ingredients and natural flavours.",
+  "description": "Bags o’ Wags Fruities - Orange & Yoghurt Flavour Give your dog a treat they’ll wag for! Bags o’ Wags Fruities combine the juicy sweetness of real orange with creamy yoghurt, creating a soft, chewy snack that dogs love. Perfect for rewarding, training, or everyday indulgence, these treats are low in fat and low in sugar, so you can spoil your furry friend guilt-free. Why pet parents love it: Delicious & irresistible: Orange and yoghurt flavours with meat-based palatability enhancers make every bite a tail-wagger. Soft & chewy: Gentle on teeth, perfect for dogs of all sizes. Wholesome ingredients: Corn starch, lactose-reduced milk powder, poultry fat, fish oil, and wheat gluten provide taste plus nutritional support. Safe & fresh: Preserved with potassium sorbate for freshness and lightly coloured for visual appeal. Ingredients : Corn starch, water, glycerine, milk powder (lactose reduced), wheat gluten, sugar, poultry fat, Sodium hexametaphosphate, spray-dried animal plasma, fish oil. ADDITIVES (/kg): SENSORY: Palatability meat-based enhancers, orange flavour, yoghurt flavour, colourants. PRESERVATIVES: Potassium sorbate. A fun fact: Apples are rich in vitamins and fibre, while yoghurt supports digestion - so every treat is both tasty and functional! Bags o’ Wags Fruities - Blueberry & Yoghurt: a delicious way to reward your dog, keep them happy, and support their health.",
+  "images": [
     {
-      "id": 2425,
-      "name": "Bags-o-wags",
-      "slug": "bags-o-wags"
+      "id": 69432,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/02/Untitled-design-18.png",
+      "alt": "Montego Bags O’ Wags Fruities Orange & Yoghurt – 120g",
+      "name": "Untitled design (18)"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=69431",
+  "addToCartUrl": "https://petstore.co.ke/product/montego-bags-o-wags-fruities-orange-yoghurt-120g/?add-to-cart=69431",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.918Z",
-  "dateModified": "2026-06-23T09:15:51.918Z"
+  "dateCreated": "2026-02-02T15:31:50",
+  "dateModified": "2026-06-17T05:01:33",
+  "brand": "Bags-o-wags",
+  "weight_kg": 0.12,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/Untitled-design-18.png"
 }

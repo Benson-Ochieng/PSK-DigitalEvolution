@@ -4,8 +4,8 @@
   "slug": "mio-chunks-adult-cat-salmon-400-g",
   "sku": "MCACS",
   "onSale": false,
-  "price": 2.57,
-  "regularPrice": 2.57,
+  "price": 257,
+  "regularPrice": 257,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "wet-cat-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/mio-chunks-adult-cat-salmon-400-g/",
-  "shortDescription": "Salmon chunks in gravy for adult cats is freshly prepared and cooked for great taste and natural nutrition. With minerals and vitamins A, vitamin D3 and vitamin E",
-  "description": "Fresh meat and meat products, Fish &amp; fish products (min. salmon 4%) plant products(vegetables), minerals, vitamins. Analytical Constituents: Crude Protein 7.5% Crude Fat 4% Ash 3% Crude Fiber 0.4% Moisture 82%",
-  "images": [
+  "brands": [
     {
-      "id": 58230,
-      "alt": "Mio Chunks Adult Cat Salmon 400g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-37-1.png",
-      "name": "Untitled design (37)"
+      "id": 2452,
+      "name": "Mio",
+      "slug": "mio"
     }
   ],
   "tags": [
@@ -69,20 +61,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/mio-chunks-adult-cat-salmon-400-g/",
+  "shortDescription": "Salmon chunks in gravy for adult cats is freshly prepared and cooked for great taste and natural nutrition. With minerals and vitamins A, vitamin D3 and vitamin E",
+  "description": "Fresh meat and meat products, Fish & fish products (min. salmon 4%) plant products(vegetables), minerals, vitamins. Analytical Constituents: Crude Protein 7.5% Crude Fat 4% Ash 3% Crude Fiber 0.4% Moisture 82%",
+  "images": [
     {
-      "id": 2452,
-      "name": "Mio",
-      "slug": "mio"
+      "id": 58230,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-37-1.png",
+      "alt": "Mio Chunks Adult Cat Salmon 400g",
+      "name": "Untitled design (37)"
     }
   ],
-  "stockStatus": "instock",
-  "lowStockRemaining": 2,
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=56856",
+  "addToCartUrl": "https://petstore.co.ke/product/mio-chunks-adult-cat-salmon-400-g/?add-to-cart=56856",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.701Z",
-  "dateModified": "2026-06-23T09:15:51.701Z"
+  "dateCreated": "2025-07-14T14:42:29",
+  "dateModified": "2026-06-24T11:12:06",
+  "brand": "Mio",
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-37-1.png"
 }

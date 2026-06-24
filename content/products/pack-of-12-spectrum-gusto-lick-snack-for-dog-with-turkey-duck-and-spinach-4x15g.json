@@ -1,12 +1,12 @@
 {
   "id": 90121,
-  "name": "Pack Of 12 – Spectrum Gusto Lick Snack For Dog With Turkey Duck And Spinach 4x15g",
+  "name": "Pack Of 12 - Spectrum Gusto Lick Snack For Dog With Turkey Duck And Spinach 4x15g",
   "slug": "pack-of-12-spectrum-gusto-lick-snack-for-dog-with-turkey-duck-and-spinach-4x15g",
   "sku": "SDW003$12",
   "onSale": true,
-  "price": 59.4,
-  "regularPrice": 66,
-  "salePrice": 59.4,
+  "price": 5940,
+  "regularPrice": 6600,
+  "salePrice": 5940,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/spectrum-spinach-turkey-and-duck-.png",
@@ -37,25 +37,17 @@
       "slug": "spectrum"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pack-of-12-spectrum-gusto-lick-snack-for-dog-with-turkey-duck-and-spinach-4x15g/",
-  "shortDescription": "Spectrum Gusto Lick Snack Turkey &amp; Duck &amp; Spinach is a creamy lickable dog treat made with real poultry and spinach, offering a low-fat, high-moisture reward ideal for daily treating and bonding.",
-  "description": "Spectrum Gusto Lick Snack Turkey &amp; Duck &amp; Spinach is a smooth, creamy lickable dog treat made with a flavorful blend of poultry and vegetables, designed to deliver a delicious reward in a light, easy-to-serve format. Its soft texture makes it ideal for spoon-feeding in small portions, helping create positive bonding moments during daily routines. Prepared with real turkey (4%) and duck (4%) , this lick snack provides quality animal protein, while spinach (4%) adds natural plant-based nutrients. The high moisture content supports hydration, and the low-fat formulation makes it suitable for regular treating when fed responsibly. Sunflower oil enhances palatability, while a carefully selected flavor enhancer made from chicken liver and heart digest boosts aroma and acceptance. Spectrum Gusto Lick Snack Turkey &amp; Duck &amp; Spinach is perfect as a dessert, reward, or enrichment treat alongside a complete and balanced diet. Ingredients Water Chicken Tapioca starch Turkey (4%) Duck (4%) Spinach (4%) Sunflower oil Flavour enhancer (chicken liver &amp; heart digest, pea protein, salt) Nutritional Composition Crude Protein: — % Crude Fat: 1.5% Crude Ash: 0.5% Crude Fibre: 0.1% Feeding Recommendations &amp; Warnings Treat calories should not exceed 10% of a dog’s total daily caloric intake Serve as a reward, dessert, or everyday treat Always provide fresh drinking water Not suitable for human consumption &nbsp; &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 69329,
-      "alt": "Spectrum Gusto Lick Snack For Dog With Turkey Duck And Spinach 4x15g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/spectrum-spinach-turkey-and-duck-.png",
-      "name": "spectrum spinach turkey and duck"
+      "id": 2468,
+      "name": "Spectrum",
+      "slug": "spectrum"
     }
   ],
   "tags": [
     {
       "id": 2055,
-      "name": "Bulk Cat Food &amp; Bulk Dog Food",
+      "name": "Bulk Cat Food & Bulk Dog Food",
       "slug": "bulk"
     },
     {
@@ -74,20 +66,33 @@
       "slug": "treats"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/pack-of-12-spectrum-gusto-lick-snack-for-dog-with-turkey-duck-and-spinach-4x15g/",
+  "shortDescription": "Spectrum Gusto Lick Snack Turkey & Duck & Spinach is a creamy lickable dog treat made with real poultry and spinach, offering a low-fat, high-moisture reward ideal for daily treating and bonding.",
+  "description": "Spectrum Gusto Lick Snack Turkey & Duck & Spinach is a smooth, creamy lickable dog treat made with a flavorful blend of poultry and vegetables, designed to deliver a delicious reward in a light, easy-to-serve format. Its soft texture makes it ideal for spoon-feeding in small portions, helping create positive bonding moments during daily routines. Prepared with real turkey (4%) and duck (4%) , this lick snack provides quality animal protein, while spinach (4%) adds natural plant-based nutrients. The high moisture content supports hydration, and the low-fat formulation makes it suitable for regular treating when fed responsibly. Sunflower oil enhances palatability, while a carefully selected flavor enhancer made from chicken liver and heart digest boosts aroma and acceptance. Spectrum Gusto Lick Snack Turkey & Duck & Spinach is perfect as a dessert, reward, or enrichment treat alongside a complete and balanced diet. Ingredients Water Chicken Tapioca starch Turkey (4%) Duck (4%) Spinach (4%) Sunflower oil Flavour enhancer (chicken liver & heart digest, pea protein, salt) Nutritional Composition Crude Protein: — % Crude Fat: 1.5% Crude Ash: 0.5% Crude Fibre: 0.1% Feeding Recommendations & Warnings Treat calories should not exceed 10% of a dog’s total daily caloric intake Serve as a reward, dessert, or everyday treat Always provide fresh drinking water Not suitable for human consumption &nbsp; &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2468,
-      "name": "Spectrum",
-      "slug": "spectrum"
+      "id": 69329,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/spectrum-spinach-turkey-and-duck-.png",
+      "alt": "Spectrum Gusto Lick Snack For Dog With Turkey Duck And Spinach 4x15g",
+      "name": "spectrum spinach turkey and duck"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": null,
+  "lowStockRemaining": 5,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=90121",
+  "addToCartUrl": "https://petstore.co.ke/product/pack-of-12-spectrum-gusto-lick-snack-for-dog-with-turkey-duck-and-spinach-4x15g/?add-to-cart=90121",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:52.031Z",
-  "dateModified": "2026-06-23T09:15:52.031Z"
+  "dateCreated": "2026-05-28T12:10:55",
+  "dateModified": "2026-06-17T04:30:44",
+  "brand": "Spectrum",
+  "weight_kg": 0.15,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/spectrum-spinach-turkey-and-duck-.png"
 }

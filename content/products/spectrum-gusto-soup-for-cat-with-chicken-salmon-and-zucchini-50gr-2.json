@@ -4,9 +4,9 @@
   "slug": "spectrum-gusto-soup-for-cat-with-chicken-salmon-and-zucchini-50gr-2",
   "sku": "SCW005",
   "onSale": true,
-  "price": 1.76,
-  "regularPrice": 1.95,
-  "salePrice": 1.76,
+  "price": 176,
+  "regularPrice": 195,
+  "salePrice": 176,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-CHICKEN-SALMON-AND-ZUCCHINI-50GR.png",
@@ -37,19 +37,11 @@
       "slug": "spectrum"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/spectrum-gusto-soup-for-cat-with-chicken-salmon-and-zucchini-50gr-2/",
-  "shortDescription": "Spectrum Gusto Soup with Chicken, Salmon &amp; Zucchini – hydrating, low-fat 50g cat treat with tender protein and veggies, perfect as a snack or meal topper. Make sufficient drinking water available.",
-  "description": "Spoil your cat with the delicious Spectrum Gusto Soup featuring tender chicken, salmon, and zucchini in a savory fish broth. This 50g complementary cat food pouch provides hydration and light nutrition with 8% protein and minimal fat, making it ideal for cats that need a supplementary treat or a hydrating snack. The high-moisture content (90%) supports fluid intake, while the natural ingredients ensure a palatable experience for cats and kittens of all ages. Key Features: Tender chicken (15.4%) and salmon (10%) for protein and omega-3 fatty acids. Zucchini (4.7%) provides vitamins, minerals, and fiber. Hydrating fish broth enhances palatability. Light and low-fat formulation (0.6% fat). Convenient 50g pouch for easy serving. Feeding Guidelines: Serve small portions with a spoon. Suitable as a daily treat or meal topper. Fresh water must always be available. &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 47676,
-      "alt": "Spectrum Gusto Soup For Cat With Chicken Salmon And Zucchini 50g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-CHICKEN-SALMON-AND-ZUCCHINI-50GR.png",
-      "name": "SPECTRUM GUSTO SOUP FOR CAT WITH CHICKEN, SALMON AND ZUCCHINI 50GR"
+      "id": 2468,
+      "name": "Spectrum",
+      "slug": "spectrum"
     }
   ],
   "tags": [
@@ -74,20 +66,33 @@
       "slug": "treats"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/spectrum-gusto-soup-for-cat-with-chicken-salmon-and-zucchini-50gr-2/",
+  "shortDescription": "Spectrum Gusto Soup with Chicken, Salmon & Zucchini – hydrating, low-fat 50g cat treat with tender protein and veggies, perfect as a snack or meal topper. Make sufficient drinking water available.",
+  "description": "Spoil your cat with the delicious Spectrum Gusto Soup featuring tender chicken, salmon, and zucchini in a savory fish broth. This 50g complementary cat food pouch provides hydration and light nutrition with 8% protein and minimal fat, making it ideal for cats that need a supplementary treat or a hydrating snack. The high-moisture content (90%) supports fluid intake, while the natural ingredients ensure a palatable experience for cats and kittens of all ages. Key Features: Tender chicken (15.4%) and salmon (10%) for protein and omega-3 fatty acids. Zucchini (4.7%) provides vitamins, minerals, and fiber. Hydrating fish broth enhances palatability. Light and low-fat formulation (0.6% fat). Convenient 50g pouch for easy serving. Feeding Guidelines: Serve small portions with a spoon. Suitable as a daily treat or meal topper. Fresh water must always be available. &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2468,
-      "name": "Spectrum",
-      "slug": "spectrum"
+      "id": 47676,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-CHICKEN-SALMON-AND-ZUCCHINI-50GR.png",
+      "alt": "Spectrum Gusto Soup For Cat With Chicken Salmon And Zucchini 50g",
+      "name": "SPECTRUM GUSTO SOUP FOR CAT WITH CHICKEN, SALMON AND ZUCCHINI 50GR"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=47503",
+  "addToCartUrl": "https://petstore.co.ke/product/spectrum-gusto-soup-for-cat-with-chicken-salmon-and-zucchini-50gr-2/?add-to-cart=47503",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.411Z",
-  "dateModified": "2026-06-23T09:15:51.411Z"
+  "dateCreated": "2024-06-03T16:23:16",
+  "dateModified": "2026-06-24T13:12:13",
+  "brand": "Spectrum",
+  "weight_kg": 0.05,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-CHICKEN-SALMON-AND-ZUCCHINI-50GR.png"
 }

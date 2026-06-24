@@ -4,8 +4,8 @@
   "slug": "catonite-cat-litter-odourless-10l-2",
   "sku": "CCL001",
   "onSale": false,
-  "price": 18,
-  "regularPrice": 18,
+  "price": 1800,
+  "regularPrice": 1800,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -15,6 +15,11 @@
       "id": 2325,
       "name": "Cat",
       "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
     },
     {
       "id": 2281,
@@ -27,19 +32,11 @@
       "slug": "cat-litter-and-accessories"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/catonite-cat-litter-odourless-10l-2/",
-  "shortDescription": "Catonite Cat litter &#8211; clumps quickly with its structure that traps odor and liquid. It does not contain ingredients that will harm nature. It is environmentally friendly. It is obtained from completely sustainable, 100% natural. It does not contain chemicals that could harm both your and your cat&#8217;s health.",
-  "description": "Catonite Cat litter &#8211; clumps quickly with its structure that traps odor and liquid. It does not contain ingredients that will harm nature. It is environmentally friendly. It is obtained from completely sustainable, 100% natural. It does not contain chemicals that could harm both your and your cat&#8217;s health. It clumps quickly with its structure that traps odor and liquid. It does not contain ingredients that will harm nature. It is environmentally friendly. Key Feature: Low Dusting High quality bentonite, which instantly clumps with dusting reduced to a minimum level through special processes, does not stick to your cat&#8217;s paws and thus does not disperse outside the litter box. Absorbency Feature Thanks to the extra durable lumps formed thanks to its high liquid absorption ability, your cat&#8217;s litter is easily cleaned and the remaining litter remains cleaner and can be used for a long time. Anti-Odor EffectAnti-Odor Effect a&gt; It has high liquid absorption ability thanks to the natural minerals it contains. It quickly absorbs and traps the liquid, thus preventing the formation of odor and bacteria. Granule Size mm 0.5 &#8211; 2.35 Liquid Absorption percentage? % 320 &#8211; 250 Clumping Weight g/20ml 62 (± 8) Clumping Resistance cm 85 (± 15) Mass Density g/l 820 &#8211; 880 Colour HLab 92 &#8211; 84 PH 9.2 – 10.5 Moisture % 8 (± 2) pollination % (&lt;100µ) ~99.5 Percentage of Colored Granules % 1.5 (± 0.5) Perfume g/Ton 450 (± 75) Activated Carbon % 1 (± 0.1)",
-  "images": [
+  "brands": [
     {
-      "id": 53657,
-      "alt": "Catonite Cat Litter Odourless 10l",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/02/Catonite-Cat-Litter-Odourless-10L.png",
-      "name": "Catonite Cat Litter Odourless 10L"
+      "id": 2430,
+      "name": "Catonite",
+      "slug": "catonite"
     }
   ],
   "tags": [
@@ -74,20 +71,33 @@
       "slug": "unscented"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/catonite-cat-litter-odourless-10l-2/",
+  "shortDescription": "Catonite Cat litter – clumps quickly with its structure that traps odor and liquid. It does not contain ingredients that will harm nature. It is environmentally friendly. It is obtained from completely sustainable, 100% natural. It does not contain chemicals that could harm both your and your cat's health.",
+  "description": "Catonite Cat litter - clumps quickly with its structure that traps odor and liquid. It does not contain ingredients that will harm nature. It is environmentally friendly. It is obtained from completely sustainable, 100% natural. It does not contain chemicals that could harm both your and your cat's health. It clumps quickly with its structure that traps odor and liquid. It does not contain ingredients that will harm nature. It is environmentally friendly. Key Feature: Low Dusting High quality bentonite, which instantly clumps with dusting reduced to a minimum level through special processes, does not stick to your cat's paws and thus does not disperse outside the litter box. Absorbency Feature Thanks to the extra durable lumps formed thanks to its high liquid absorption ability, your cat's litter is easily cleaned and the remaining litter remains cleaner and can be used for a long time. Anti-Odor EffectAnti-Odor Effect a> It has high liquid absorption ability thanks to the natural minerals it contains. It quickly absorbs and traps the liquid, thus preventing the formation of odor and bacteria. Granule Size mm 0.5 - 2.35 Liquid Absorption percentage? % 320 - 250 Clumping Weight g/20ml 62 (± 8) Clumping Resistance cm 85 (± 15) Mass Density g/l 820 - 880 Colour HLab 92 - 84 PH 9.2 – 10.5 Moisture % 8 (± 2) pollination % (",
+  "images": [
     {
-      "id": 2430,
-      "name": "Catonite",
-      "slug": "catonite"
+      "id": 53657,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/02/Catonite-Cat-Litter-Odourless-10L.png",
+      "alt": "Catonite Cat Litter Odourless 10l",
+      "name": "Catonite Cat Litter Odourless 10L"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=53656",
+  "addToCartUrl": "https://petstore.co.ke/product/catonite-cat-litter-odourless-10l-2/?add-to-cart=53656",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.610Z",
-  "dateModified": "2026-06-23T09:15:51.610Z"
+  "dateCreated": "2025-02-24T10:59:28",
+  "dateModified": "2026-06-24T13:11:58",
+  "brand": "Catonite",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/02/Catonite-Cat-Litter-Odourless-10L.png"
 }

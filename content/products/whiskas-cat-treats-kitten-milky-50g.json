@@ -1,11 +1,11 @@
 {
   "id": 89801,
-  "name": "Whiskas Cat Treats – Kitten Milky 50g",
+  "name": "Whiskas Cat Treats - Kitten Milky 50g",
   "slug": "whiskas-cat-treats-kitten-milky-50g",
   "sku": "WCT004",
   "onSale": false,
-  "price": 3.99,
-  "regularPrice": 3.99,
+  "price": 399,
+  "regularPrice": 399,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -27,21 +27,7 @@
       "slug": "kitten-treats"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/whiskas-cat-treats-kitten-milky-50g/",
-  "shortDescription": "Support your kitten’s healthy growth with delicious Whiskas Milk Kitten Treats specially made for kittens aged 2 to 12 months. These irresistible dual-texture treats feature a crunchy outer shell with a soft, creamy milk center that kittens love.",
-  "description": "Enriched with calcium and milk goodness, Whiskas Milk Kitten Treats help support healthy bone and teeth development during your kitten’s important growing stages. With less than 2kcal per treat, they are perfect for rewarding, training, bonding, or simply treating your little feline friend between meals. Key Benefits Specially formulated for kittens aged 2–12 months Made with milk and added calcium to support strong bones and teeth Crunchy outside with a soft milk-filled center Less than 2kcal per treat Perfect as a reward, training snack, or bonding treat Resealable pack helps maintain freshness and flavor Why Choose Whiskas Milk Kitten Treats? Growing kittens need extra nutritional support during their early development stages. These tasty kitten treats not only satisfy cravings but also help support healthy growth while encouraging playful interaction and bonding moments with your pet. Feeding Guide Feed as a treat or reward alongside a complete and balanced kitten diet. Always adjust main meals accordingly and provide fresh drinking water. Storage Instructions Store in a cool, dry place. Reseal after opening to maintain freshness. Treat your kitten to the creamy crunch of Whiskas Milk Kitten Treats and help support healthy growth with every bite.",
-  "images": [
-    {
-      "id": 89804,
-      "alt": "Whiskas Cat Treats – Kitten Milky 50g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Treat-Kitten-Milky-50g.png",
-      "name": "Whiskas Cat Treat Kitten Milky 50g"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 34,
@@ -59,14 +45,33 @@
       "slug": "treats"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/whiskas-cat-treats-kitten-milky-50g/",
+  "shortDescription": "Support your kitten’s healthy growth with delicious Whiskas Milk Kitten Treats specially made for kittens aged 2 to 12 months. These irresistible dual-texture treats feature a crunchy outer shell with a soft, creamy milk center that kittens love.",
+  "description": "Enriched with calcium and milk goodness, Whiskas Milk Kitten Treats help support healthy bone and teeth development during your kitten’s important growing stages. With less than 2kcal per treat, they are perfect for rewarding, training, bonding, or simply treating your little feline friend between meals. Key Benefits Specially formulated for kittens aged 2–12 months Made with milk and added calcium to support strong bones and teeth Crunchy outside with a soft milk-filled center Less than 2kcal per treat Perfect as a reward, training snack, or bonding treat Resealable pack helps maintain freshness and flavor Why Choose Whiskas Milk Kitten Treats? Growing kittens need extra nutritional support during their early development stages. These tasty kitten treats not only satisfy cravings but also help support healthy growth while encouraging playful interaction and bonding moments with your pet. Feeding Guide Feed as a treat or reward alongside a complete and balanced kitten diet. Always adjust main meals accordingly and provide fresh drinking water. Storage Instructions Store in a cool, dry place. Reseal after opening to maintain freshness. Treat your kitten to the creamy crunch of Whiskas Milk Kitten Treats and help support healthy growth with every bite.",
+  "images": [
+    {
+      "id": 89804,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Treat-Kitten-Milky-50g.png",
+      "alt": "Whiskas Cat Treats – Kitten Milky 50g",
+      "name": "Whiskas Cat Treat Kitten Milky 50g"
+    }
+  ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=89801",
+  "addToCartUrl": "https://petstore.co.ke/product/whiskas-cat-treats-kitten-milky-50g/?add-to-cart=89801",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.971Z",
-  "dateModified": "2026-06-23T09:15:51.971Z"
+  "dateCreated": "2026-05-21T16:18:50",
+  "dateModified": "2026-06-17T05:01:33",
+  "brand": null,
+  "weight_kg": 0.05,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Treat-Kitten-Milky-50g.png"
 }

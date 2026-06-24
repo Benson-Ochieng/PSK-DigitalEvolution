@@ -4,8 +4,8 @@
   "slug": "simba-cat-canned-cat-food-mousse-salmon-shrimps-85g-2",
   "sku": "LSWC004",
   "onSale": false,
-  "price": 1.79,
-  "regularPrice": 1.79,
+  "price": 179,
+  "regularPrice": 179,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "wet-cat-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/simba-cat-canned-cat-food-mousse-salmon-shrimps-85g-2/",
-  "shortDescription": "Give your cat a delicious gourmet meal with Simba Cat Mousse Salmon &amp; Shrimps. Made in Italy with quality salmon and shrimps, this complete wet cat food provides high-quality protein, essential vitamins, minerals, and taurine to support your cat&#8217;s overall health and wellbeing.",
-  "description": "The smooth mousse texture is easy to eat and digest, making it ideal for adult cats, senior cats, and picky eaters. Rich in omega-3 fatty acids from salmon, it helps maintain healthy skin, a shiny coat, and supports cognitive function. Enriched with taurine, it also promotes healthy vision and heart function. Carefully prepared without artificial colours or preservatives, Simba Cat Mousse delivers balanced nutrition and irresistible flavour in every serving. Key Benefits Complete and balanced wet food for adult cats Made with salmon and shrimps for premium taste Rich in high-quality protein for muscle maintenance Contains taurine for heart and eye health Omega-3 fatty acids support healthy skin and coat Soft mousse texture for easy chewing and digestion No artificial colours or preservatives Made in Italy with carefully selected ingredients Size: 85g &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 90335,
-      "alt": "Simba Cat Canned Cat Food Mousse – Salmon & Shrimps 85g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Canned-Cat-Food-Mousse-–-Salmon-Shrimps-85g-1.png",
-      "name": "Simba Cat Canned Cat Food Mousse – Salmon &#038; Shrimps 85g (1)"
+      "id": 2464,
+      "name": "Simba",
+      "slug": "simba"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/simba-cat-canned-cat-food-mousse-salmon-shrimps-85g-2/",
+  "shortDescription": "Give your cat a delicious gourmet meal with Simba Cat Mousse Salmon & Shrimps. Made in Italy with quality salmon and shrimps, this complete wet cat food provides high-quality protein, essential vitamins, minerals, and taurine to support your cat's overall health and wellbeing.",
+  "description": "The smooth mousse texture is easy to eat and digest, making it ideal for adult cats, senior cats, and picky eaters. Rich in omega-3 fatty acids from salmon, it helps maintain healthy skin, a shiny coat, and supports cognitive function. Enriched with taurine, it also promotes healthy vision and heart function. Carefully prepared without artificial colours or preservatives, Simba Cat Mousse delivers balanced nutrition and irresistible flavour in every serving. Key Benefits Complete and balanced wet food for adult cats Made with salmon and shrimps for premium taste Rich in high-quality protein for muscle maintenance Contains taurine for heart and eye health Omega-3 fatty acids support healthy skin and coat Soft mousse texture for easy chewing and digestion No artificial colours or preservatives Made in Italy with carefully selected ingredients Size: 85g &nbsp;",
+  "images": [
     {
-      "id": 2464,
-      "name": "Simba",
-      "slug": "simba"
+      "id": 90335,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Canned-Cat-Food-Mousse-–-Salmon-Shrimps-85g-1.png",
+      "alt": "Simba Cat Canned Cat Food Mousse – Salmon & Shrimps 85g",
+      "name": "Simba Cat Canned Cat Food Mousse – Salmon &#038; Shrimps 85g (1)"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=90267",
+  "addToCartUrl": "https://petstore.co.ke/product/simba-cat-canned-cat-food-mousse-salmon-shrimps-85g-2/?add-to-cart=90267",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:52.038Z",
-  "dateModified": "2026-06-23T09:15:52.038Z"
+  "dateCreated": "2026-06-08T12:34:16",
+  "dateModified": "2026-06-17T05:01:39",
+  "brand": "Simba",
+  "weight_kg": 0.085,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Canned-Cat-Food-Mousse-–-Salmon-Shrimps-85g-1.png"
 }

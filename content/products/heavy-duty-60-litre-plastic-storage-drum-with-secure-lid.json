@@ -4,8 +4,8 @@
   "slug": "heavy-duty-60-litre-plastic-storage-drum-with-secure-lid",
   "sku": "BIN60",
   "onSale": false,
-  "price": 9.7,
-  "regularPrice": 9.7,
+  "price": 970,
+  "regularPrice": 970,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,6 +32,14 @@
       "slug": "dog-bowls-feeders"
     }
   ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    }
+  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
@@ -42,26 +50,23 @@
   "images": [
     {
       "id": 50051,
-      "alt": "Heavy Duty Plastic Storage Drum with secure Lid-60 Litre",
       "src": "https://petstore.co.ke/wp-content/uploads/2021/01/BIN60-1-e1725625032425.png",
+      "alt": "Heavy Duty Plastic Storage Drum with secure Lid-60 Litre",
       "name": "BIN60"
     }
   ],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    }
-  ],
-  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=2&#038;add-to-cart=18073",
+  "addToCartUrl": "https://petstore.co.ke/product/heavy-duty-60-litre-plastic-storage-drum-with-secure-lid/?add-to-cart=18073",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.164Z",
-  "dateModified": "2026-06-23T09:15:51.164Z"
+  "dateCreated": "2021-01-13T23:03:40",
+  "dateModified": "2026-06-17T04:14:09",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/BIN60-1-e1725625032425.png"
 }

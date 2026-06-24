@@ -4,8 +4,8 @@
   "slug": "astonish-pet-stain-remover-trigger-750ml-2",
   "sku": "APSRT001",
   "onSale": false,
-  "price": 6.3,
-  "regularPrice": 6.3,
+  "price": 630,
+  "regularPrice": 630,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,25 +32,17 @@
       "slug": "dog-hygiene-potty-solutions"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/astonish-pet-stain-remover-trigger-750ml-2/",
-  "shortDescription": "Astonish Pet Stain Remover Trigger 750ml removes pet urine, vomit, faeces, and household stains. Pet-safe, odour-neutralising, fabric-friendly, and easy to use.",
-  "description": "Astonish Pet Stain Remover Trigger 750ml is a powerful yet pet-safe cleaning solution specially formulated to tackle tough pet-related stains and odours. Designed for use on carpets, upholstery, rugs, and fabric surfaces, it effectively removes urine, vomit, faeces, muddy paw marks, and everyday household spills—leaving your home fresh and clean. Its advanced odour-neutralising formula works at the source to eliminate unpleasant smells rather than simply masking them. Gentle on fabrics yet tough on stains, this cleaner is ideal for busy pet households that need reliable, everyday stain control. Key Features &amp; Benefits Effective Pet Stain Removal Targets and removes urine, vomit, faeces, and other stubborn pet messes from carpets, upholstery, and fabrics. Odour Neutralising Formula Neutralises pet-related odours at their source, helping keep your home smelling fresh and clean. Pet-Safe &amp; Fabric-Friendly Safe for use around pets when used as directed and gentle enough for most fabric types, including delicate materials. Versatile Household Cleaner Suitable not only for pet accidents but also for food spills, dirt, and general household stains. Easy-to-Use Trigger Spray 750ml trigger bottle allows precise application to targeted areas for quick and effective cleaning. Eco-Conscious Choice Made with natural ingredients, biodegradable, vegan, and cruelty-free. Suitable Surfaces Carpets Upholstery Rugs Fabric furniture Soft furnishings Always test on a small, inconspicuous area before full application, especially on coloured or delicate fabrics. Usage Instructions Spray directly onto the stained area using the trigger bottle. Allow the solution to sit briefly for deeper penetration on stubborn or dried stains. Blot or clean with a cloth as needed. Suitable for both fresh accidents and as a pre-treatment before deeper cleaning. Product Details Volume: 750ml Format: Trigger spray Application: Targeted spot cleaning Safety Information Keep out of reach of children. Avoid contact with eyes. Always read the label before use. Test on an inconspicuous area prior to use on delicate or coloured fabrics. Ideal For Pet owners looking for a reliable, pet-safe stain and odour remover to keep carpets, furniture, and fabrics clean and fresh in homes with dogs and cats. &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 69590,
-      "alt": "Astonish Pet Stain Remover Trigger 750ml",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/02/Astonish-Pet-Stain-remover-Trigger-750ml.png",
-      "name": "Astonish Pet Stain remover Trigger 750ml"
+      "id": 2424,
+      "name": "Astonish",
+      "slug": "astonish"
     }
   ],
   "tags": [
     {
       "id": 2098,
-      "name": "Grooming &amp; Tools",
+      "name": "Grooming & Tools",
       "slug": "grooming-tools"
     },
     {
@@ -64,20 +56,33 @@
       "slug": "pet-care"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/astonish-pet-stain-remover-trigger-750ml-2/",
+  "shortDescription": "Astonish Pet Stain Remover Trigger 750ml removes pet urine, vomit, faeces, and household stains. Pet-safe, odour-neutralising, fabric-friendly, and easy to use.",
+  "description": "Astonish Pet Stain Remover Trigger 750ml is a powerful yet pet-safe cleaning solution specially formulated to tackle tough pet-related stains and odours. Designed for use on carpets, upholstery, rugs, and fabric surfaces, it effectively removes urine, vomit, faeces, muddy paw marks, and everyday household spills—leaving your home fresh and clean. Its advanced odour-neutralising formula works at the source to eliminate unpleasant smells rather than simply masking them. Gentle on fabrics yet tough on stains, this cleaner is ideal for busy pet households that need reliable, everyday stain control. Key Features & Benefits Effective Pet Stain Removal Targets and removes urine, vomit, faeces, and other stubborn pet messes from carpets, upholstery, and fabrics. Odour Neutralising Formula Neutralises pet-related odours at their source, helping keep your home smelling fresh and clean. Pet-Safe & Fabric-Friendly Safe for use around pets when used as directed and gentle enough for most fabric types, including delicate materials. Versatile Household Cleaner Suitable not only for pet accidents but also for food spills, dirt, and general household stains. Easy-to-Use Trigger Spray 750ml trigger bottle allows precise application to targeted areas for quick and effective cleaning. Eco-Conscious Choice Made with natural ingredients, biodegradable, vegan, and cruelty-free. Suitable Surfaces Carpets Upholstery Rugs Fabric furniture Soft furnishings Always test on a small, inconspicuous area before full application, especially on coloured or delicate fabrics. Usage Instructions Spray directly onto the stained area using the trigger bottle. Allow the solution to sit briefly for deeper penetration on stubborn or dried stains. Blot or clean with a cloth as needed. Suitable for both fresh accidents and as a pre-treatment before deeper cleaning. Product Details Volume: 750ml Format: Trigger spray Application: Targeted spot cleaning Safety Information Keep out of reach of children. Avoid contact with eyes. Always read the label before use. Test on an inconspicuous area prior to use on delicate or coloured fabrics. Ideal For Pet owners looking for a reliable, pet-safe stain and odour remover to keep carpets, furniture, and fabrics clean and fresh in homes with dogs and cats. &nbsp;",
+  "images": [
     {
-      "id": 2424,
-      "name": "Astonish",
-      "slug": "astonish"
+      "id": 69590,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/02/Astonish-Pet-Stain-remover-Trigger-750ml.png",
+      "alt": "Astonish Pet Stain Remover Trigger 750ml",
+      "name": "Astonish Pet Stain remover Trigger 750ml"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=69589",
+  "addToCartUrl": "https://petstore.co.ke/product/astonish-pet-stain-remover-trigger-750ml-2/?add-to-cart=69589",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.928Z",
-  "dateModified": "2026-06-23T09:15:51.928Z"
+  "dateCreated": "2026-02-09T10:16:34",
+  "dateModified": "2026-06-17T04:30:36",
+  "brand": "Astonish",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/Astonish-Pet-Stain-remover-Trigger-750ml.png"
 }

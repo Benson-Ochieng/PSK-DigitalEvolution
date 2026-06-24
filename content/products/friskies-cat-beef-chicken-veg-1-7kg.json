@@ -12,11 +12,6 @@
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-56.png",
   "categories": [
     {
-      "id": 2413,
-      "name": "Friskies",
-      "slug": "friskies"
-    },
-    {
       "id": 2325,
       "name": "Cat",
       "slug": "cat-supplies-store"
@@ -30,6 +25,11 @@
       "id": 2328,
       "name": "Dry Cat Food",
       "slug": "dry-cat-food"
+    },
+    {
+      "id": 2413,
+      "name": "Friskies",
+      "slug": "friskies"
     }
   ],
   "brands": [

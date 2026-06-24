@@ -1,11 +1,11 @@
 {
   "id": 48753,
-  "name": "Grounded Pet Shampoo Lemongrass – 1l",
+  "name": "Grounded Pet Shampoo Lemongrass - 1l",
   "slug": "grounded-pet-shampoo-lemongrass-1l",
   "sku": "GPSL1",
   "onSale": false,
-  "price": 19.5,
-  "regularPrice": 19.5,
+  "price": 1950,
+  "regularPrice": 1950,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -37,29 +37,21 @@
       "slug": "grounded"
     },
     {
-      "id": 2390,
-      "name": "Shampoo",
-      "slug": "dog-shampoo"
-    },
-    {
       "id": 2398,
       "name": "Shampoo",
       "slug": "cat-shampoo"
+    },
+    {
+      "id": 2390,
+      "name": "Shampoo",
+      "slug": "dog-shampoo"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/grounded-pet-shampoo-lemongrass-1l/",
-  "shortDescription": "Grounded Pet Shampoo is an all-natural, non-toxic shampoo for Dogs and Cats Gentle and effective for all breeds.",
-  "description": "All-Natural, Non-Toxic Care for Your Furry Friends Pamper your pets with Grounded Pet Shampoo, a luxurious, all-natural shampoo crafted specifically for dogs and cats. Made from a vegan castille soap base, this gentle formula creates a rich lather that soothes and moisturizes your pet&#8217;s fur and skin, leaving them clean, fresh, and happy. Key Ingredients: Concentrated Liquid Soap : Derived from saponified coconut, sunflower, and canola oils for a gentle yet effective cleanse. Glycerin : Helps to lock in moisture, ensuring your pet’s coat remains soft and shiny. Lemongrass Essential Oil : Infuses a refreshing scent while providing natural antibacterial properties. Instructions for Use: Wet your pet&#8217;s coat thoroughly. Dilute the shampoo with water in a pitcher, then pour it over your pet and lather up. Alternatively, you can squeeze a small amount directly onto their coat and work into a lather. Rinse thoroughly to reveal a clean, healthy coat. Proudly MADE IN KENYA by Grounded, our pet shampoo is a responsible choice for environmentally conscious pet owners. Treat your beloved pets to the natural care they deserve with Grounded Pet Shampoo!",
-  "images": [
+  "brands": [
     {
-      "id": 50430,
-      "alt": "Grounded Pet Shampoo Lemongrass – 1l",
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/07/GROUNDED-PET-SHAMPOO-LEMONGRASS-1L.png",
-      "name": "GROUNDED PET SHAMPOO LEMONGRASS- 1L"
+      "id": 2441,
+      "name": "Grounded",
+      "slug": "grounded"
     }
   ],
   "tags": [
@@ -89,20 +81,33 @@
       "slug": "shampoo"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/grounded-pet-shampoo-lemongrass-1l/",
+  "shortDescription": "Grounded Pet Shampoo is an all-natural, non-toxic shampoo for Dogs and Cats Gentle and effective for all breeds.",
+  "description": "All-Natural, Non-Toxic Care for Your Furry Friends Pamper your pets with Grounded Pet Shampoo, a luxurious, all-natural shampoo crafted specifically for dogs and cats. Made from a vegan castille soap base, this gentle formula creates a rich lather that soothes and moisturizes your pet's fur and skin, leaving them clean, fresh, and happy. Key Ingredients: Concentrated Liquid Soap : Derived from saponified coconut, sunflower, and canola oils for a gentle yet effective cleanse. Glycerin : Helps to lock in moisture, ensuring your pet’s coat remains soft and shiny. Lemongrass Essential Oil : Infuses a refreshing scent while providing natural antibacterial properties. Instructions for Use: Wet your pet's coat thoroughly. Dilute the shampoo with water in a pitcher, then pour it over your pet and lather up. Alternatively, you can squeeze a small amount directly onto their coat and work into a lather. Rinse thoroughly to reveal a clean, healthy coat. Proudly MADE IN KENYA by Grounded, our pet shampoo is a responsible choice for environmentally conscious pet owners. Treat your beloved pets to the natural care they deserve with Grounded Pet Shampoo!",
+  "images": [
     {
-      "id": 2441,
-      "name": "Grounded",
-      "slug": "grounded"
+      "id": 50430,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/07/GROUNDED-PET-SHAMPOO-LEMONGRASS-1L.png",
+      "alt": "Grounded Pet Shampoo Lemongrass – 1l",
+      "name": "GROUNDED PET SHAMPOO LEMONGRASS- 1L"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": null,
+  "lowStockRemaining": 5,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=5&#038;add-to-cart=48753",
+  "addToCartUrl": "https://petstore.co.ke/product/grounded-pet-shampoo-lemongrass-1l/?add-to-cart=48753",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.445Z",
-  "dateModified": "2026-06-23T09:15:51.445Z"
+  "dateCreated": "2024-07-15T17:02:25",
+  "dateModified": "2026-06-17T04:29:49",
+  "brand": "Grounded",
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/07/GROUNDED-PET-SHAMPOO-LEMONGRASS-1L.png"
 }

@@ -4,8 +4,8 @@
   "slug": "donate-5kg-of-cat-litter",
   "sku": "DC001-1",
   "onSale": false,
-  "price": 6,
-  "regularPrice": 6,
+  "price": 600,
+  "regularPrice": 600,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,21 +32,7 @@
       "slug": "dry-cat-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/donate-5kg-of-cat-litter/",
-  "shortDescription": "Donate 5kg of cat litter, and we’ll ensure its delivered directly to your selected recipient. Please choose your recipient during checkout.",
-  "description": "You are purchasing a 5kg of subsidized cat litter designated for any of the below rescue centres. The product supplied may be in a damaged bag or close to expiry. IMPORTANT! Specifics in the Notes field who the designated recipient is. You will get a notification once your donation ships for verification from the center. In the event we have more food available, Petstore Kenya will add in more items for the same price. OUR PARTNER ANIMAL SHELTERS AND ADVOCATES: The KSPCA (Kenya Society for the Protection and Care of Animals) &#8211; a welfare charity that protects animals from neglect and abuse. We currently support their branches in Nairobi , Naivasha and Mombasa . Africats Watamu &#8211; a non-profit organization that feeds, shelters and advocates for street cats and dogs in Watamu. Footsteps Rescue Centre (Diani) &#8211; a sanctuary for street animals in Diani NFS- Nairobi Feline Sanctuary, utawala KYSA (Kibera Youths for Stray Animals) PAW (Pwani Animal Welfare)",
-  "images": [
-    {
-      "id": 38649,
-      "alt": "Donate 1kg of Cat Food",
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/07/Donate-Cat-food.jpeg",
-      "name": "Donate Cat food"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 820,
@@ -59,14 +45,33 @@
       "slug": "donate"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/donate-5kg-of-cat-litter/",
+  "shortDescription": "Donate 5kg of cat litter, and we’ll ensure its delivered directly to your selected recipient. Please choose your recipient during checkout.",
+  "description": "You are purchasing a 5kg of subsidized cat litter designated for any of the below rescue centres. The product supplied may be in a damaged bag or close to expiry. IMPORTANT! Specifics in the Notes field who the designated recipient is. You will get a notification once your donation ships for verification from the center. In the event we have more food available, Petstore Kenya will add in more items for the same price. OUR PARTNER ANIMAL SHELTERS AND ADVOCATES: The KSPCA (Kenya Society for the Protection and Care of Animals) - a welfare charity that protects animals from neglect and abuse. We currently support their branches in Nairobi , Naivasha and Mombasa . Africats Watamu - a non-profit organization that feeds, shelters and advocates for street cats and dogs in Watamu. Footsteps Rescue Centre (Diani) - a sanctuary for street animals in Diani NFS- Nairobi Feline Sanctuary, utawala KYSA (Kibera Youths for Stray Animals) PAW (Pwani Animal Welfare)",
+  "images": [
+    {
+      "id": 38649,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/07/Donate-Cat-food.jpeg",
+      "alt": "Donate 1kg of Cat Food",
+      "name": "Donate Cat food"
+    }
+  ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=90033",
+  "addToCartUrl": "https://petstore.co.ke/product/donate-5kg-of-cat-litter/?add-to-cart=90033",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:52.008Z",
-  "dateModified": "2026-06-23T09:15:52.008Z"
+  "dateCreated": "2026-05-26T11:09:57",
+  "dateModified": "2026-06-17T10:43:26",
+  "brand": null,
+  "weight_kg": 15,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/07/Donate-Cat-food.jpeg"
 }

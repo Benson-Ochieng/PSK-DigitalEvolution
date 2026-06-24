@@ -4,8 +4,8 @@
   "slug": "spectrum-low-grain-lamb-blueberry-for-mini-and-small-breed-adult-dogs-2-5kg",
   "sku": "SLGDD003",
   "onSale": false,
-  "price": 39.9,
-  "regularPrice": 39.9,
+  "price": 3990,
+  "regularPrice": 3990,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "spectrum"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/spectrum-low-grain-lamb-blueberry-for-mini-and-small-breed-adult-dogs-2-5kg/",
-  "shortDescription": "SPECTRUM LOW GRAIN LAMB AND BLUEBERRY is a Complete and balanced food for Mini and Small Breed Adult Dogs.",
-  "description": "SPECTRUM LOW GRAIN COMPLETE AND BALANCED FOOD WITH LAMB &amp; BLUEBERRY FORMULA FOR MINI AND SMALL BREED ADULT DOGS INGREDIENTS: Dehydrated animal protein (lamb protein min. 26% ), cereals (rice, corn, oat), chicken fat, whey powder, sugar cane fiber, hydrolyzed lamb protein, carob meal, pea starch, brewery&#8217;s yeast, salt, blueberry, chia seed, L-carnitine, xylooligosaccharides (XOS), yucca schidigera, dried egg powder, turmeric, artichoke, olive, red onion, blackberry, tomato, watermelon, pomegranate, thym, rosemary, ginger extracts. MINERALS/kg: Iron(E1) 150 mg, Iodin(E2) 1,5 mg, Copper(E4) 15 mg, Mangenese(E5) 70 mg, Zinc(E6) 180 mg, Selenium(E8) 0,3 mg. ANALYTICAL CONSTITUENTS NUTRITIVE ADDITIONS Crude Protein 30% Vitamin A (E672) 18000 IU Crude Fat 18% Vitamin D3(E671) 1500 IU Crude Ash 9% Vitamin E (3A700) 150 mg Crude Cellulose (Fiber) 5,5% Vitamin C (Stay C) 200 mg Daily Recommended Amount (g) : Adult Dog Weight 2 kg 3 kg 4 kg 5 kg 6 kg 7 kg 8 kg 9 kg 10 kg Dog&#8217;s Profile Thin 50 &#8211; 60 80 &#8211; 90 100 &#8211; 110 115 &#8211; 125 130 &#8211; 145 145 &#8211; 165 160 &#8211; 175 175 &#8211; 200 190 &#8211; 210 Normal 50 &#8211; 55 70 &#8211; 80 85 &#8211; 95 100 &#8211; 110 110 &#8211; 125 125 &#8211; 140 140 &#8211; 155 155 &#8211; 170 170 &#8211; 185 Overweight 45 &#8211; 50 60 &#8211; 70 75 &#8211; 85 85 &#8211; 95 100 &#8211; 110 110 &#8211; 120 120 &#8211; 135 135 &#8211; 150 145 &#8211; 160",
-  "images": [
+  "brands": [
     {
-      "id": 17386,
-      "alt": "Spectrum Low gain Lamb & Blueberry for Mini and Small Breed Adult Dogs 2.5kg",
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/SLGSMLB2.5.png",
-      "name": "SLGSMLB2.5"
+      "id": 2468,
+      "name": "Spectrum",
+      "slug": "spectrum"
     }
   ],
   "tags": [
@@ -69,20 +61,33 @@
       "slug": "small-breeds"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/spectrum-low-grain-lamb-blueberry-for-mini-and-small-breed-adult-dogs-2-5kg/",
+  "shortDescription": "SPECTRUM LOW GRAIN LAMB AND BLUEBERRY is a Complete and balanced food for Mini and Small Breed Adult Dogs.",
+  "description": "SPECTRUM LOW GRAIN COMPLETE AND BALANCED FOOD WITH LAMB & BLUEBERRY FORMULA FOR MINI AND SMALL BREED ADULT DOGS INGREDIENTS: Dehydrated animal protein (lamb protein min. 26% ), cereals (rice, corn, oat), chicken fat, whey powder, sugar cane fiber, hydrolyzed lamb protein, carob meal, pea starch, brewery's yeast, salt, blueberry, chia seed, L-carnitine, xylooligosaccharides (XOS), yucca schidigera, dried egg powder, turmeric, artichoke, olive, red onion, blackberry, tomato, watermelon, pomegranate, thym, rosemary, ginger extracts. MINERALS/kg: Iron(E1) 150 mg, Iodin(E2) 1,5 mg, Copper(E4) 15 mg, Mangenese(E5) 70 mg, Zinc(E6) 180 mg, Selenium(E8) 0,3 mg. ANALYTICAL CONSTITUENTS NUTRITIVE ADDITIONS Crude Protein 30% Vitamin A (E672) 18000 IU Crude Fat 18% Vitamin D3(E671) 1500 IU Crude Ash 9% Vitamin E (3A700) 150 mg Crude Cellulose (Fiber) 5,5% Vitamin C (Stay C) 200 mg Daily Recommended Amount (g) : Adult Dog Weight 2 kg 3 kg 4 kg 5 kg 6 kg 7 kg 8 kg 9 kg 10 kg Dog's Profile Thin 50 - 60 80 - 90 100 - 110 115 - 125 130 - 145 145 - 165 160 - 175 175 - 200 190 - 210 Normal 50 - 55 70 - 80 85 - 95 100 - 110 110 - 125 125 - 140 140 - 155 155 - 170 170 - 185 Overweight 45 - 50 60 - 70 75 - 85 85 - 95 100 - 110 110 - 120 120 - 135 135 - 150 145 - 160",
+  "images": [
     {
-      "id": 2468,
-      "name": "Spectrum",
-      "slug": "spectrum"
+      "id": 17386,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/SLGSMLB2.5.png",
+      "alt": "Spectrum Low gain Lamb & Blueberry for Mini and Small Breed Adult Dogs 2.5kg",
+      "name": "SLGSMLB2.5"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=1&#038;add-to-cart=17423",
+  "addToCartUrl": "https://petstore.co.ke/product/spectrum-low-grain-lamb-blueberry-for-mini-and-small-breed-adult-dogs-2-5kg/?add-to-cart=17423",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.112Z",
-  "dateModified": "2026-06-23T09:15:51.112Z"
+  "dateCreated": "2021-01-08T23:25:21",
+  "dateModified": "2026-06-24T10:12:13",
+  "brand": "Spectrum",
+  "weight_kg": 2.5,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/SLGSMLB2.5.png"
 }

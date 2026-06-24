@@ -4,8 +4,8 @@
   "slug": "rogz-dog-utility-split-lead-large-large-red-hls06-c-2",
   "sku": "HLS06-C",
   "onSale": false,
-  "price": 15,
-  "regularPrice": 15,
+  "price": 1500,
+  "regularPrice": 1500,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,21 +32,7 @@
       "slug": "rogz"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-split-lead-large-large-red-hls06-c-2/",
-  "shortDescription": "Take control of every walk with the Rogz Utility Split Lead the perfect solution for walking two dogs with just one leash. Designed for strength, comfort, and convenience, this Large Red Split Lead is ideal for medium to large breeds.",
-  "description": "Rogz Utility Double Split Leads are recommended for walking two dogs. A simple solution that connects your lead to both dogs, simply attach each trigger hook to your dog’s harnesses then attach the O-ring to your lead. Strong components and webbing with highly reflective stitching provide enhanced visibility and safety for everyday use. Key Features: Dual-Walking Made Easy: Attach the trigger hooks to each dog’s harness or collar and connect your leash to the O-ring for a hassle-free walk. Tangle-Free Design: Keeps your dog&#8217;s side by side without twisting or crossing leads. Strong &amp; Durable: Made from tough nylon webbing to handle energetic dogs. Reflective Stitching: For added visibility and safety during early morning or evening walks. Adjustable Length: Customizable for your dogs’ comfort and walking style. Pair with your favorite Rogz Utility Leash for the ultimate walking setup. Also available in other sizes and colors. Add to cart now and enjoy stress-free walks with both your pups!",
-  "images": [
-    {
-      "id": 47762,
-      "alt": "Rogz Dog Utility Split Lead Large Red (Hls06-C)",
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/06/Rogz-Dog-Utility-Split-Lead-Large-LARGE-RED-HLS06-C.jpg",
-      "name": "Rogz Dog Utility Split Lead Large &#8211; LARGE RED (HLS06-C)"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 1205,
@@ -69,14 +55,33 @@
       "slug": "puppy"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-split-lead-large-large-red-hls06-c-2/",
+  "shortDescription": "Take control of every walk with the Rogz Utility Split Lead the perfect solution for walking two dogs with just one leash. Designed for strength, comfort, and convenience, this Large Red Split Lead is ideal for medium to large breeds.",
+  "description": "Rogz Utility Double Split Leads are recommended for walking two dogs. A simple solution that connects your lead to both dogs, simply attach each trigger hook to your dog’s harnesses then attach the O-ring to your lead. Strong components and webbing with highly reflective stitching provide enhanced visibility and safety for everyday use. Key Features: Dual-Walking Made Easy: Attach the trigger hooks to each dog’s harness or collar and connect your leash to the O-ring for a hassle-free walk. Tangle-Free Design: Keeps your dog's side by side without twisting or crossing leads. Strong & Durable: Made from tough nylon webbing to handle energetic dogs. Reflective Stitching: For added visibility and safety during early morning or evening walks. Adjustable Length: Customizable for your dogs’ comfort and walking style. Pair with your favorite Rogz Utility Leash for the ultimate walking setup. Also available in other sizes and colors. Add to cart now and enjoy stress-free walks with both your pups!",
+  "images": [
+    {
+      "id": 47762,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/06/Rogz-Dog-Utility-Split-Lead-Large-LARGE-RED-HLS06-C.jpg",
+      "alt": "Rogz Dog Utility Split Lead Large Red (Hls06-C)",
+      "name": "Rogz Dog Utility Split Lead Large &#8211; LARGE RED (HLS06-C)"
+    }
+  ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=47739",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-split-lead-large-large-red-hls06-c-2/?add-to-cart=47739",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.424Z",
-  "dateModified": "2026-06-23T09:15:51.424Z"
+  "dateCreated": "2024-06-11T12:17:03",
+  "dateModified": "2026-06-17T04:14:43",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/Rogz-Dog-Utility-Split-Lead-Large-LARGE-RED-HLS06-C.jpg"
 }

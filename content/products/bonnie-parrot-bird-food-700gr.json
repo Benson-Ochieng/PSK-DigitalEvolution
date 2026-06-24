@@ -4,8 +4,8 @@
   "slug": "bonnie-parrot-bird-food-700gr",
   "sku": "BBF004",
   "onSale": false,
-  "price": 9.7,
-  "regularPrice": 9.7,
+  "price": 970,
+  "regularPrice": 970,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -27,6 +27,20 @@
       "slug": "bonnie"
     }
   ],
+  "brands": [
+    {
+      "id": 2428,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2114,
+      "name": "Bird",
+      "slug": "bird"
+    }
+  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
@@ -37,32 +51,23 @@
   "images": [
     {
       "id": 23874,
-      "alt": "Bonnie Parrot Bird Food 700g",
       "src": "https://petstore.co.ke/wp-content/uploads/2021/12/Bonnie-Parrot-Food-01.jpg",
+      "alt": "Bonnie Parrot Bird Food 700g",
       "name": "Bonnie Parrot Food"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2114,
-      "name": "Bird",
-      "slug": "bird"
-    }
-  ],
-  "brands": [
-    {
-      "id": 2428,
-      "name": "Bonnie",
-      "slug": "bonnie"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=2&#038;add-to-cart=23873",
+  "addToCartUrl": "https://petstore.co.ke/product/bonnie-parrot-bird-food-700gr/?add-to-cart=23873",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.208Z",
-  "dateModified": "2026-06-23T09:15:51.208Z"
+  "dateCreated": "2021-12-21T16:54:14",
+  "dateModified": "2026-06-24T15:12:04",
+  "brand": "Bonnie",
+  "weight_kg": 0.7,
+  "animal_type": "bird",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/12/Bonnie-Parrot-Food-01.jpg"
 }

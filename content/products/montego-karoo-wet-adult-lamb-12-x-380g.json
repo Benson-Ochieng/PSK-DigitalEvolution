@@ -1,12 +1,12 @@
 {
   "id": 56682,
-  "name": "Montego Karoo Wet Adult Lamb – 380g",
+  "name": "Montego Karoo Wet Adult Lamb - 380g",
   "slug": "montego-karoo-wet-adult-lamb-12-x-380g",
   "sku": "MKWL380",
   "onSale": true,
-  "price": 8.55,
-  "regularPrice": 9.5,
-  "salePrice": 8.55,
+  "price": 855,
+  "regularPrice": 950,
+  "salePrice": 855,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-30.png",
@@ -32,19 +32,11 @@
       "slug": "wet-dog-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/montego-karoo-wet-adult-lamb-12-x-380g/",
-  "shortDescription": "Montego Karoo Lamb wet food for adult dogs come in a 380g tub. It is made with the finest ingredients to use as a complete diet or to add to kibble as a topper. The food is perfect for even the fussiest taste buds as it has been slow cooked to excellence for your furry friend.",
-  "description": "Montego Karoo Lamb wet food is made with the finest ingredients that have been slow-cooked. This succulent food is made with Lamb, rice and vitamin-rich Country Vegetables and comes in a 380g tub for adult dogs, suitable for all breeds. The food is a complete, nutritional diet which means it can be fed as a meal, or you could add it to your current dry food pellets if that is preferred. Ingredients Water, lamb (including liver),, rice (including rice flour), whole egg powder, palm oil, beet pulp, sodium tripolyphosphate, calcium carbonate, guar gum, salt, xanthan gum, potassium chloride, essential minerals &amp; vitamins. Nutritional: Vitamin A 1 500 IU, Vitamin D3 75 IU, Vitamin E 6 IU, potassium chloride 1 g, zinc sulphate 7.5 mg, ferrous sulphate 7.5 mg, copper sulphate 0.5 mg, manganese sulphate 0.3 mg, potassium iodide 0.1 mg and sodium selenite 0.01 mg; Preservatives: Approved antioxidants; Sensory: Gravy sauce, palatability meat-based enhancers and dextrose Daily Feeding Guidelines Cat’s Weight Wet Food Only (Tubs/Day) Dry Food Only (g/Day) Mixed Feeding (Dry + Wet) 2 – 3 kg 1 – 1 ½ Tubs 125 – 187.5 g 17 – 25 g kibble + ½ – ¾ Tub 4 – 5 kg 2 – 2 ½ Tubs 250 – 312.5 g 27 – 35 g kibble + 1 – 1 ¼ Tubs 6 – 8 kg 3 – 4 Tubs 375 – 500 g 40 – 50 g kibble + 1 ½ – 2 Tubs",
-  "images": [
+  "brands": [
     {
-      "id": 56683,
-      "alt": "Montego Karoo Wet Adult Lamb – 380g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-30.png",
-      "name": "Untitled design (30)"
+      "id": 2453,
+      "name": "Montego",
+      "slug": "montego"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/montego-karoo-wet-adult-lamb-12-x-380g/",
+  "shortDescription": "Montego Karoo Lamb wet food for adult dogs come in a 380g tub. It is made with the finest ingredients to use as a complete diet or to add to kibble as a topper. The food is perfect for even the fussiest taste buds as it has been slow cooked to excellence for your furry friend.",
+  "description": "Montego Karoo Lamb wet food is made with the finest ingredients that have been slow-cooked. This succulent food is made with Lamb, rice and vitamin-rich Country Vegetables and comes in a 380g tub for adult dogs, suitable for all breeds. The food is a complete, nutritional diet which means it can be fed as a meal, or you could add it to your current dry food pellets if that is preferred. Ingredients Water, lamb (including liver),, rice (including rice flour), whole egg powder, palm oil, beet pulp, sodium tripolyphosphate, calcium carbonate, guar gum, salt, xanthan gum, potassium chloride, essential minerals & vitamins. Nutritional: Vitamin A 1 500 IU, Vitamin D3 75 IU, Vitamin E 6 IU, potassium chloride 1 g, zinc sulphate 7.5 mg, ferrous sulphate 7.5 mg, copper sulphate 0.5 mg, manganese sulphate 0.3 mg, potassium iodide 0.1 mg and sodium selenite 0.01 mg; Preservatives: Approved antioxidants; Sensory: Gravy sauce, palatability meat-based enhancers and dextrose Daily Feeding Guidelines Cat’s Weight Wet Food Only (Tubs/Day) Dry Food Only (g/Day) Mixed Feeding (Dry + Wet) 2 – 3 kg 1 – 1 ½ Tubs 125 – 187.5 g 17 – 25 g kibble + ½ – ¾ Tub 4 – 5 kg 2 – 2 ½ Tubs 250 – 312.5 g 27 – 35 g kibble + 1 – 1 ¼ Tubs 6 – 8 kg 3 – 4 Tubs 375 – 500 g 40 – 50 g kibble + 1 ½ – 2 Tubs",
+  "images": [
     {
-      "id": 2453,
-      "name": "Montego",
-      "slug": "montego"
+      "id": 56683,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-30.png",
+      "alt": "Montego Karoo Wet Adult Lamb – 380g",
+      "name": "Untitled design (30)"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=56682",
+  "addToCartUrl": "https://petstore.co.ke/product/montego-karoo-wet-adult-lamb-12-x-380g/?add-to-cart=56682",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.676Z",
-  "dateModified": "2026-06-23T09:15:51.676Z"
+  "dateCreated": "2025-07-10T15:20:24",
+  "dateModified": "2026-06-24T11:12:06",
+  "brand": "Montego",
+  "weight_kg": 0.1,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-30.png"
 }

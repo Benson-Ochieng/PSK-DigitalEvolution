@@ -1,11 +1,11 @@
 {
   "id": 24380,
-  "name": "Rogz RFO Flying Floating Frisbee – Red Small (RF00-C)",
+  "name": "Rogz RFO Flying Floating Frisbee - Red Small (RF00-C)",
   "slug": "rogz-rfo-flying-floating-frisbee-red-small",
   "sku": "RF00-C",
   "onSale": false,
-  "price": 15,
-  "regularPrice": 15,
+  "price": 1500,
+  "regularPrice": 1500,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -37,21 +37,7 @@
       "slug": "rogz"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-rfo-flying-floating-frisbee-red-small/",
-  "shortDescription": "The safe softness of the RFO plus its floatability gives an easy pickup for your furry friend. No more bleeding gums!",
-  "description": "About this item Safe Soft Technology is Soft on Dog&#8217;z Gums Fly-Rite Technology Throw and Fetch Float Revolutionary Space Holes for steady flight Soft Catch for comfortable mouth catching without knocking out your canine&#8217;s canines RFOs float which is perfect for the game of aqua-fetch It&#8217;s easy to pick up so even your older dogs can enjoy the fun",
-  "images": [
-    {
-      "id": 24343,
-      "alt": "Rogz RFO Flying Floating Frisbee – Red Small (RF00-C)",
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/RF01-C.jpg",
-      "name": "RF01-C"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 2213,
@@ -74,14 +60,33 @@
       "slug": "small-breeds"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-rfo-flying-floating-frisbee-red-small/",
+  "shortDescription": "The safe softness of the RFO plus its floatability gives an easy pickup for your furry friend. No more bleeding gums!",
+  "description": "About this item Safe Soft Technology is Soft on Dog'z Gums Fly-Rite Technology Throw and Fetch Float Revolutionary Space Holes for steady flight Soft Catch for comfortable mouth catching without knocking out your canine's canines RFOs float which is perfect for the game of aqua-fetch It's easy to pick up so even your older dogs can enjoy the fun",
+  "images": [
+    {
+      "id": 24343,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/RF01-C.jpg",
+      "alt": "Rogz RFO Flying Floating Frisbee – Red Small (RF00-C)",
+      "name": "RF01-C"
+    }
+  ],
   "stockStatus": "instock",
-  "lowStockRemaining": 3,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=2&#038;add-to-cart=24380",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-rfo-flying-floating-frisbee-red-small/?add-to-cart=24380",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.209Z",
-  "dateModified": "2026-06-23T09:15:51.209Z"
+  "dateCreated": "2022-10-24T12:34:26",
+  "dateModified": "2026-06-17T04:14:11",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/RF01-C.jpg"
 }

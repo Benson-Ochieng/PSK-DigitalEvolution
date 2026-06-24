@@ -4,8 +4,8 @@
   "slug": "cat-collar-w-bells-36cm",
   "sku": "PG0086",
   "onSale": false,
-  "price": 7.8,
-  "regularPrice": 7.8,
+  "price": 780,
+  "regularPrice": 780,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,21 +32,7 @@
       "slug": "cat-collars-leashes-harnesses"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/cat-collar-w-bells-36cm/",
-  "shortDescription": "Cat collar with bells &#8211; 36cm 1 piece assorted, colour randomly selected unless specifically requested.",
-  "description": "Cat collar with bells &#8211; 36cm 1 piece assorted, colour randomly selected unless specifically requested.",
-  "images": [
-    {
-      "id": 42853,
-      "alt": "Cat Collar With Bells 36cm",
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/01/CAT-COLLAR-WITH-BELLS-36CM.webp",
-      "name": "CAT COLLAR WITH BELLS 36CM"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 1205,
@@ -64,14 +50,33 @@
       "slug": "collar"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/cat-collar-w-bells-36cm/",
+  "shortDescription": "Cat collar with bells – 36cm 1 piece assorted, colour randomly selected unless specifically requested.",
+  "description": "Cat collar with bells - 36cm 1 piece assorted, colour randomly selected unless specifically requested.",
+  "images": [
+    {
+      "id": 42853,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/01/CAT-COLLAR-WITH-BELLS-36CM.webp",
+      "alt": "Cat Collar With Bells 36cm",
+      "name": "CAT COLLAR WITH BELLS 36CM"
+    }
+  ],
   "stockStatus": "instock",
-  "lowStockRemaining": 4,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=42852",
+  "addToCartUrl": "https://petstore.co.ke/product/cat-collar-w-bells-36cm/?add-to-cart=42852",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.350Z",
-  "dateModified": "2026-06-23T09:15:51.350Z"
+  "dateCreated": "2024-01-03T09:13:11",
+  "dateModified": "2026-06-17T04:14:35",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/01/CAT-COLLAR-WITH-BELLS-36CM.webp"
 }

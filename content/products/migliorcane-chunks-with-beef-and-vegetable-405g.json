@@ -1,12 +1,12 @@
 {
   "id": 28174,
-  "name": "Miglior Canned Dog Food – Beef & Vegetables Chunks, 405g",
+  "name": "Miglior Canned Dog Food - Beef & Vegetables Chunks, 405g",
   "slug": "migliorcane-chunks-with-beef-and-vegetable-405g",
   "sku": "MDW004",
   "onSale": true,
-  "price": 2.15,
-  "regularPrice": 2.69,
-  "salePrice": 2.15,
+  "price": 215,
+  "regularPrice": 269,
+  "salePrice": 215,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW004.jpg",
@@ -32,19 +32,11 @@
       "slug": "wet-dog-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/migliorcane-chunks-with-beef-and-vegetable-405g/",
-  "shortDescription": "Formula designed to guarantee the key nutrients required for the well-being of your dog. Vitamin E with antioxidant action and a recipe rich in meat to help keep muscle mass toned.",
-  "description": "COMPOSITION: Meat and animal derivatives 30% (beef 5%), cereals, vegetables 4%, minerals. ANALYTICAL CONSTITUENTS: Moisture 75%, Crude protein 8,0%, Crude fat 4,5%, Crude fibres 0,5%, Crude ash 3%. Nutritional additives/kg: Vitamin E 10 mg, Copper (Copper (II) sulphate pentahydrate) 2 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight. Once opened, store in refrigerator for 2-3 days",
-  "images": [
+  "brands": [
     {
-      "id": 28163,
-      "alt": "Migliorcane chunks with Beef and Vegetable",
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW004.jpg",
-      "name": "MDW004"
+      "id": 2451,
+      "name": "Miglior",
+      "slug": "miglior"
     }
   ],
   "tags": [
@@ -69,20 +61,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/migliorcane-chunks-with-beef-and-vegetable-405g/",
+  "shortDescription": "Formula designed to guarantee the key nutrients required for the well-being of your dog. Vitamin E with antioxidant action and a recipe rich in meat to help keep muscle mass toned.",
+  "description": "COMPOSITION: Meat and animal derivatives 30% (beef 5%), cereals, vegetables 4%, minerals. ANALYTICAL CONSTITUENTS: Moisture 75%, Crude protein 8,0%, Crude fat 4,5%, Crude fibres 0,5%, Crude ash 3%. Nutritional additives/kg: Vitamin E 10 mg, Copper (Copper (II) sulphate pentahydrate) 2 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight. Once opened, store in refrigerator for 2-3 days",
+  "images": [
     {
-      "id": 2451,
-      "name": "Miglior",
-      "slug": "miglior"
+      "id": 28163,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW004.jpg",
+      "alt": "Migliorcane chunks with Beef and Vegetable",
+      "name": "MDW004"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=3&#038;add-to-cart=28174",
+  "addToCartUrl": "https://petstore.co.ke/product/migliorcane-chunks-with-beef-and-vegetable-405g/?add-to-cart=28174",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.249Z",
-  "dateModified": "2026-06-23T09:15:51.249Z"
+  "dateCreated": "2022-07-14T11:04:33",
+  "dateModified": "2026-06-24T13:12:06",
+  "brand": "Miglior",
+  "weight_kg": 0.405,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW004.jpg"
 }

@@ -4,8 +4,8 @@
   "slug": "grounded-foaming-body-wash-balance-peppermint-lavender-500ml-2",
   "sku": "BW05BAL",
   "onSale": false,
-  "price": 12.5,
-  "regularPrice": 12.5,
+  "price": 1250,
+  "regularPrice": 1250,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -22,19 +22,11 @@
       "slug": "human"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/grounded-foaming-body-wash-balance-peppermint-lavender-500ml-2/",
-  "shortDescription": "Castile-soap bodywash in a refillable foaming dispenser. Boosted with natural essential oils for fragrance and to fight germs.",
-  "description": "Foaming body washes to suit your mood. Balance : Foaming Castile soap body wash, boosted with peppermint and lavender essential oils. Refresh: Foaming Castile soap body wash, boosted with lemongrass, eucalyptus, and tea tree essential oils. Our new line of foaming body washes, with a special refillable foaming dispenser. No artificial fragrances, no nasties. Refresh This Foaming Body Wash ensures a soothing yet effective cleansing experience, leaving your skin feeling refreshed and rejuvenated without stripping it of its natural moisture. Balance This Foaming Body Wash gives your body an invigorating bathing experience. Formulated to gently clean your skin without stripping it of its natural moisture maintaining the skin’s delicate balance. Grounded only uses ingredients safe for humans and the environment. We do not use nasty chemicals commonly found in conventional cleaning products: Carcinogens Hormone Disruptors Synthetic Fragrances Artificial Dyes Palm Oil Parabens Phthalates Sulfates Ingredients: Balance: Saponified Coconut, Canola, Sunflower Oils, Citric Acid, Lavender &amp; Peppermint Essential Oils.",
-  "images": [
+  "brands": [
     {
-      "id": 49018,
-      "alt": "Grounded Foaming Body Wash Balance Peppermint & Lavender 500ml",
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/07/Foaming-Body-Wash-Balance-500ml-scaled-1.jpg",
-      "name": "Foaming-Body-Wash-Balance-500ml-scaled"
+      "id": 2441,
+      "name": "Grounded",
+      "slug": "grounded"
     }
   ],
   "tags": [
@@ -44,20 +36,33 @@
       "slug": "human"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/grounded-foaming-body-wash-balance-peppermint-lavender-500ml-2/",
+  "shortDescription": "Castile-soap bodywash in a refillable foaming dispenser. Boosted with natural essential oils for fragrance and to fight germs.",
+  "description": "Foaming body washes to suit your mood. Balance : Foaming Castile soap body wash, boosted with peppermint and lavender essential oils. Refresh: Foaming Castile soap body wash, boosted with lemongrass, eucalyptus, and tea tree essential oils. Our new line of foaming body washes, with a special refillable foaming dispenser. No artificial fragrances, no nasties. Refresh This Foaming Body Wash ensures a soothing yet effective cleansing experience, leaving your skin feeling refreshed and rejuvenated without stripping it of its natural moisture. Balance This Foaming Body Wash gives your body an invigorating bathing experience. Formulated to gently clean your skin without stripping it of its natural moisture maintaining the skin’s delicate balance. Grounded only uses ingredients safe for humans and the environment. We do not use nasty chemicals commonly found in conventional cleaning products: Carcinogens Hormone Disruptors Synthetic Fragrances Artificial Dyes Palm Oil Parabens Phthalates Sulfates Ingredients: Balance: Saponified Coconut, Canola, Sunflower Oils, Citric Acid, Lavender & Peppermint Essential Oils.",
+  "images": [
     {
-      "id": 2441,
-      "name": "Grounded",
-      "slug": "grounded"
+      "id": 49018,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/07/Foaming-Body-Wash-Balance-500ml-scaled-1.jpg",
+      "alt": "Grounded Foaming Body Wash Balance Peppermint & Lavender 500ml",
+      "name": "Foaming-Body-Wash-Balance-500ml-scaled"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 4,
+  "lowStockRemaining": 5,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=5&#038;add-to-cart=49017",
+  "addToCartUrl": "https://petstore.co.ke/product/grounded-foaming-body-wash-balance-peppermint-lavender-500ml-2/?add-to-cart=49017",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.456Z",
-  "dateModified": "2026-06-23T09:15:51.456Z"
+  "dateCreated": "2024-07-30T12:20:33",
+  "dateModified": "2026-06-17T04:29:50",
+  "brand": "Grounded",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/07/Foaming-Body-Wash-Balance-500ml-scaled-1.jpg"
 }

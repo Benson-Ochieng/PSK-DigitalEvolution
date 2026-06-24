@@ -1,11 +1,11 @@
 {
   "id": 59523,
-  "name": "Pet Toilet Training Spray (Pet Inducer) – 60ml",
+  "name": "Pet Toilet Training Spray (Pet Inducer) - 60ml",
   "slug": "pet-toilet-training-spray-pet-inducer-60ml",
   "sku": "CSPDI",
   "onSale": false,
-  "price": 4.2,
-  "regularPrice": 4.2,
+  "price": 420,
+  "regularPrice": 420,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "dog-hygiene-potty-solutions"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pet-toilet-training-spray-pet-inducer-60ml/",
-  "shortDescription": "Quickly train your puppy or dog to use a designated toilet area with Pet Toilet Training Spray safe, effective, and perfect for stress-free housebreaking.",
-  "description": "Help your pet develop healthy habits from the start with Pet &nbsp;Toilet Training Spray. A gentle yet effective solution designed to guide puppies and dogs to the right place for peeing or pooping. Formulated with a blend of safe ingredients including urea, two amid compounds, water, and pet-friendly fragrance, this spray mimics natural cues to attract your pet to a specific toilet area. Whether you&#8217;re training a new puppy or reinforcing habits with older dogs, is the perfect aid to make house training easier for both you and your furry friend. Encourages pets to relieve themselves in a designated spot Ideal for indoor pads, outdoor spaces, and artificial turf Supports faster, stress-free toilet training Safe and non-toxic formula (but keep out of reach of children) How to Use: Spray a small amount of pet inducer on the area where you&#8217;d like your pet to relieve themselves. Allow your pet to sniff the area. Once your pet uses the designated spot, reward them with praise or a treat to reinforce the behavior. Repeat regularly until your pet consistently uses the spot.",
-  "images": [
+  "brands": [
     {
-      "id": 59526,
-      "alt": "Pet Toilet Training Spray (Pet Inducer) – 60ml",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/09/Pet-Inducer.png",
-      "name": "Pet Inducer"
+      "id": 2434,
+      "name": "CS",
+      "slug": "cs"
     }
   ],
   "tags": [
@@ -55,7 +47,7 @@
     },
     {
       "id": 2098,
-      "name": "Grooming &amp; Tools",
+      "name": "Grooming & Tools",
       "slug": "grooming-tools"
     },
     {
@@ -64,20 +56,33 @@
       "slug": "puppy"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/pet-toilet-training-spray-pet-inducer-60ml/",
+  "shortDescription": "Quickly train your puppy or dog to use a designated toilet area with Pet Toilet Training Spray safe, effective, and perfect for stress-free housebreaking.",
+  "description": "Help your pet develop healthy habits from the start with Pet &nbsp;Toilet Training Spray. A gentle yet effective solution designed to guide puppies and dogs to the right place for peeing or pooping. Formulated with a blend of safe ingredients including urea, two amid compounds, water, and pet-friendly fragrance, this spray mimics natural cues to attract your pet to a specific toilet area. Whether you're training a new puppy or reinforcing habits with older dogs, is the perfect aid to make house training easier for both you and your furry friend. Encourages pets to relieve themselves in a designated spot Ideal for indoor pads, outdoor spaces, and artificial turf Supports faster, stress-free toilet training Safe and non-toxic formula (but keep out of reach of children) How to Use: Spray a small amount of pet inducer on the area where you'd like your pet to relieve themselves. Allow your pet to sniff the area. Once your pet uses the designated spot, reward them with praise or a treat to reinforce the behavior. Repeat regularly until your pet consistently uses the spot.",
+  "images": [
     {
-      "id": 2434,
-      "name": "CS",
-      "slug": "cs"
+      "id": 59526,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/09/Pet-Inducer.png",
+      "alt": "Pet Toilet Training Spray (Pet Inducer) – 60ml",
+      "name": "Pet Inducer"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=59523",
+  "addToCartUrl": "https://petstore.co.ke/product/pet-toilet-training-spray-pet-inducer-60ml/?add-to-cart=59523",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.751Z",
-  "dateModified": "2026-06-23T09:15:51.751Z"
+  "dateCreated": "2025-09-11T11:41:44",
+  "dateModified": "2026-06-17T04:30:25",
+  "brand": "CS",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/09/Pet-Inducer.png"
 }

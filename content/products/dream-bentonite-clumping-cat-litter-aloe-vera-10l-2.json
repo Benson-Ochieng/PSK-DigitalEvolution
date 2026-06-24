@@ -4,8 +4,8 @@
   "slug": "dream-bentonite-clumping-cat-litter-aloe-vera-10l-2",
   "sku": "DCL002",
   "onSale": false,
-  "price": 22,
-  "regularPrice": 22,
+  "price": 2200,
+  "regularPrice": 2200,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -15,6 +15,11 @@
       "id": 2325,
       "name": "Cat",
       "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
     },
     {
       "id": 2280,
@@ -27,19 +32,11 @@
       "slug": "cat-litter-and-accessories"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/dream-bentonite-clumping-cat-litter-aloe-vera-10l-2/",
-  "shortDescription": "Dreamcat CARBON is made of 100% natural raw materials and completely without chemical additives. High-quality bentonite, which instantly forms clumps and dusting is reduced to a minimum due to special processing, does not stick to the cat&#8217;s paws and, therefore, does not scatter around the tray.",
-  "description": "DreamCat is a clumping cat litter. As a purely natural product, the litter is made from the finest clay (bentonite). It is therefore completely safe for cats. Through a special manufacturing process, the natural activated carbon is not simply added to the bentonite litter, as with many other types of litter, but directly associated with the bentonite. This blocks the ammonia smell of cat urine and faeces to the maximum. The activated carbon also helps to reduce unpleasant odors in the environment. Due to the specially matched scattering size, the lump formation is perfect. Dreamcat CARBON is made of 100% natural raw materials and completely without chemical additives. Due to the clumping property, the entire litter does not have to be replaced every time. It is enough to remove the lumps with a shovel every day. DreamCat is therefore much more economical and easier to use than ordinary cat litter. 8.5 kg of DreamCat corresponds to approx. 25 kg of conventional cat litter. Key Features: &#8211; Pure natural product &#8211; Neutralizes the urine odour and spreads a pleasant smell of baby powder &#8211; Extremely absorbent and very economical in use &#8211; Clump-forming and low-dust &#8211; Easy to use and clean &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 53653,
-      "alt": "Dream Bentonite Clumping Cat Litter Aloe Vera 10l",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/02/DREAM-BENTONITE-CLUMPING-CAT-LITTER-ALOE-VERA-10L.png",
-      "name": "DREAM BENTONITE CLUMPING CAT LITTER ALOE VERA 10L"
+      "id": 2436,
+      "name": "Dream",
+      "slug": "dream"
     }
   ],
   "tags": [
@@ -74,20 +71,33 @@
       "slug": "scented"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/dream-bentonite-clumping-cat-litter-aloe-vera-10l-2/",
+  "shortDescription": "Dreamcat CARBON is made of 100% natural raw materials and completely without chemical additives. High-quality bentonite, which instantly forms clumps and dusting is reduced to a minimum due to special processing, does not stick to the cat's paws and, therefore, does not scatter around the tray.",
+  "description": "DreamCat is a clumping cat litter. As a purely natural product, the litter is made from the finest clay (bentonite). It is therefore completely safe for cats. Through a special manufacturing process, the natural activated carbon is not simply added to the bentonite litter, as with many other types of litter, but directly associated with the bentonite. This blocks the ammonia smell of cat urine and faeces to the maximum. The activated carbon also helps to reduce unpleasant odors in the environment. Due to the specially matched scattering size, the lump formation is perfect. Dreamcat CARBON is made of 100% natural raw materials and completely without chemical additives. Due to the clumping property, the entire litter does not have to be replaced every time. It is enough to remove the lumps with a shovel every day. DreamCat is therefore much more economical and easier to use than ordinary cat litter. 8.5 kg of DreamCat corresponds to approx. 25 kg of conventional cat litter. Key Features: - Pure natural product - Neutralizes the urine odour and spreads a pleasant smell of baby powder - Extremely absorbent and very economical in use - Clump-forming and low-dust - Easy to use and clean &nbsp;",
+  "images": [
     {
-      "id": 2436,
-      "name": "Dream",
-      "slug": "dream"
+      "id": 53653,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/02/DREAM-BENTONITE-CLUMPING-CAT-LITTER-ALOE-VERA-10L.png",
+      "alt": "Dream Bentonite Clumping Cat Litter Aloe Vera 10l",
+      "name": "DREAM BENTONITE CLUMPING CAT LITTER ALOE VERA 10L"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=53652",
+  "addToCartUrl": "https://petstore.co.ke/product/dream-bentonite-clumping-cat-litter-aloe-vera-10l-2/?add-to-cart=53652",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.608Z",
-  "dateModified": "2026-06-23T09:15:51.609Z"
+  "dateCreated": "2025-02-24T09:32:49",
+  "dateModified": "2026-06-24T10:11:58",
+  "brand": "Dream",
+  "weight_kg": 9.8,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/02/DREAM-BENTONITE-CLUMPING-CAT-LITTER-ALOE-VERA-10L.png"
 }

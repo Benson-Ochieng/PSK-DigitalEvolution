@@ -1,11 +1,11 @@
 {
   "id": 17932,
-  "name": "Rogz Dog Utility Stop Pull Harness Medium – Red",
+  "name": "Rogz Dog Utility Stop Pull Harness Medium - Red",
   "slug": "rogz-dog-utility-stop-pull-harness-medium-red",
   "sku": "SPSJ11-C",
   "onSale": false,
-  "price": 32.4,
-  "regularPrice": 32.4,
+  "price": 3240,
+  "regularPrice": 3240,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,21 +32,7 @@
       "slug": "rogz"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-stop-pull-harness-medium-red/",
-  "shortDescription": "Rogz Dog Utility Stop Pull Harness Medium &#8211; Red",
-  "description": "Rogz Stop-Pull Harness is the Pawfect choice for strong and erratic pullers. Gentle pressure is applied via the soft, puff rope under your dog?s front legs during the Stop-Pull action. This aids in behaviour correction and halting your dog. A padded chest plate offers additional comfort and support while double reflective stitching provides night-time visibility. Stop-Pull: With Classic Lead/Leash for behaviour correction. Double Stop-Pull: With Multi Lead/Leash for control and steering. To Fit: Multiple adjustment points ensure the best fit for comfort and function. Slide stopper up against B-Ring. Once adjusted to size, there should be a two-finger gap between the harness and your dog?s body. To determine the correct size for your dog measure their girth, which is the circumference of your dog&#8217;s chest just behind the shoulder and elbow. Size: Large 16mm. (Girth measurement of 32-52cm)",
-  "images": [
-    {
-      "id": 17905,
-      "alt": "Rogz Dog Utility Stop Pull Harness Medium – Red",
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/SPSJ11-C_Stop-Pull-Harness.jpg",
-      "name": "SPSJ11 &#8211; C_Stop-Pull Harness"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 2318,
@@ -54,14 +40,33 @@
       "slug": "harness"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-stop-pull-harness-medium-red/",
+  "shortDescription": "Rogz Dog Utility Stop Pull Harness Medium – Red",
+  "description": "Rogz Stop-Pull Harness is the Pawfect choice for strong and erratic pullers. Gentle pressure is applied via the soft, puff rope under your dog?s front legs during the Stop-Pull action. This aids in behaviour correction and halting your dog. A padded chest plate offers additional comfort and support while double reflective stitching provides night-time visibility. Stop-Pull: With Classic Lead/Leash for behaviour correction. Double Stop-Pull: With Multi Lead/Leash for control and steering. To Fit: Multiple adjustment points ensure the best fit for comfort and function. Slide stopper up against B-Ring. Once adjusted to size, there should be a two-finger gap between the harness and your dog?s body. To determine the correct size for your dog measure their girth, which is the circumference of your dog's chest just behind the shoulder and elbow. Size: Large 16mm. (Girth measurement of 32-52cm)",
+  "images": [
+    {
+      "id": 17905,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/SPSJ11-C_Stop-Pull-Harness.jpg",
+      "alt": "Rogz Dog Utility Stop Pull Harness Medium – Red",
+      "name": "SPSJ11 &#8211; C_Stop-Pull Harness"
+    }
+  ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=2&#038;add-to-cart=17932",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-stop-pull-harness-medium-red/?add-to-cart=17932",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.152Z",
-  "dateModified": "2026-06-23T09:15:51.152Z"
+  "dateCreated": "2021-01-13T16:03:16",
+  "dateModified": "2026-06-17T04:14:08",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/SPSJ11-C_Stop-Pull-Harness.jpg"
 }

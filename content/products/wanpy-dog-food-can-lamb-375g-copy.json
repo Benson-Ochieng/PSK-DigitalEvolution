@@ -1,12 +1,12 @@
 {
   "id": 68489,
-  "name": "Wanpy Canned Dog Food – Lamb 375g",
+  "name": "Wanpy Canned Dog Food - Lamb 375g",
   "slug": "wanpy-dog-food-can-lamb-375g-copy",
   "sku": "WDW004",
   "onSale": true,
-  "price": 2,
-  "regularPrice": 2.5,
-  "salePrice": 2,
+  "price": 200,
+  "regularPrice": 250,
+  "salePrice": 200,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/WAMPY-LIVER-1.png",
@@ -32,19 +32,11 @@
       "slug": "wet-dog-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/wanpy-dog-food-can-lamb-375g-copy/",
-  "shortDescription": "WANPY Lamb Chunks Canned Dog Food 375g is a preservative-free wet dog food made with high-quality lamb, providing balanced nutrition for dogs of all breeds and ages.",
-  "description": "WANPY Lamb Chunks Canned Dog Food 375g is a premium wet dog food made with high-quality lamb to provide complete and balanced nutrition for dogs of all breeds and life stages. Carefully prepared to retain natural flavor and nutrients, this recipe delivers juicy, tender chunks that are highly palatable and easy to digest. The food is produced using advanced high-temperature sterilization technology, which safely seals in nutrition and freshness without the use of artificial preservatives. Rich in quality protein, vitamins, and essential minerals, WANPY Lamb Chunks supports muscle maintenance, sustained energy levels, immune health, and overall well-being. Its moist texture helps promote better hydration, making it an excellent option for dogs that prefer wet food or may not drink enough water. WANPY Lamb Chunks can be served as a complete meal or mixed with dry kibble to enhance taste and moisture, making it suitable for puppies, adult dogs, and senior pets alike. Product Overview Brand: WANPY Product Type: Wet Dog Food / Canned Food Flavor: Lamb Weight: 375g per can Suitable For: Dogs of all breeds and ages Texture &amp; Taste: Juicy, flavorful lamb chunks Preservation Method: High-temperature sterilization, no added preservatives Key Benefits High-quality lamb protein helps maintain strong muscles and healthy energy levels Balanced vitamins and minerals support immunity and overall health Wet, juicy texture improves palatability and encourages hydration Gentle on digestion and easy to chew Preservative-free for safe, everyday feeding Feeding &amp; Storage Guidelines Feed according to your dog’s size, age, and activity level Can be served as a complete meal or mixed with dry kibble Always provide fresh drinking water Store unopened cans in a cool, dry place Once opened, refrigerate unused portions and use within a few days",
-  "images": [
+  "brands": [
     {
-      "id": 68490,
-      "alt": "Wanpy Canned Dog Food – Lamb 375g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/WAMPY-LIVER-1.png",
-      "name": "WAMPY LIVER (1)"
+      "id": 2479,
+      "name": "Wanpy",
+      "slug": "wanpy"
     }
   ],
   "tags": [
@@ -74,20 +66,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/wanpy-dog-food-can-lamb-375g-copy/",
+  "shortDescription": "WANPY Lamb Chunks Canned Dog Food 375g is a preservative-free wet dog food made with high-quality lamb, providing balanced nutrition for dogs of all breeds and ages.",
+  "description": "WANPY Lamb Chunks Canned Dog Food 375g is a premium wet dog food made with high-quality lamb to provide complete and balanced nutrition for dogs of all breeds and life stages. Carefully prepared to retain natural flavor and nutrients, this recipe delivers juicy, tender chunks that are highly palatable and easy to digest. The food is produced using advanced high-temperature sterilization technology, which safely seals in nutrition and freshness without the use of artificial preservatives. Rich in quality protein, vitamins, and essential minerals, WANPY Lamb Chunks supports muscle maintenance, sustained energy levels, immune health, and overall well-being. Its moist texture helps promote better hydration, making it an excellent option for dogs that prefer wet food or may not drink enough water. WANPY Lamb Chunks can be served as a complete meal or mixed with dry kibble to enhance taste and moisture, making it suitable for puppies, adult dogs, and senior pets alike. Product Overview Brand: WANPY Product Type: Wet Dog Food / Canned Food Flavor: Lamb Weight: 375g per can Suitable For: Dogs of all breeds and ages Texture & Taste: Juicy, flavorful lamb chunks Preservation Method: High-temperature sterilization, no added preservatives Key Benefits High-quality lamb protein helps maintain strong muscles and healthy energy levels Balanced vitamins and minerals support immunity and overall health Wet, juicy texture improves palatability and encourages hydration Gentle on digestion and easy to chew Preservative-free for safe, everyday feeding Feeding & Storage Guidelines Feed according to your dog’s size, age, and activity level Can be served as a complete meal or mixed with dry kibble Always provide fresh drinking water Store unopened cans in a cool, dry place Once opened, refrigerate unused portions and use within a few days",
+  "images": [
     {
-      "id": 2479,
-      "name": "Wanpy",
-      "slug": "wanpy"
+      "id": 68490,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/WAMPY-LIVER-1.png",
+      "alt": "Wanpy Canned Dog Food – Lamb 375g",
+      "name": "WAMPY LIVER (1)"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=68489",
+  "addToCartUrl": "https://petstore.co.ke/product/wanpy-dog-food-can-lamb-375g-copy/?add-to-cart=68489",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.847Z",
-  "dateModified": "2026-06-23T09:15:51.847Z"
+  "dateCreated": "2026-01-23T16:08:50",
+  "dateModified": "2026-06-24T11:12:14",
+  "brand": "Wanpy",
+  "weight_kg": 0.405,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/WAMPY-LIVER-1.png"
 }

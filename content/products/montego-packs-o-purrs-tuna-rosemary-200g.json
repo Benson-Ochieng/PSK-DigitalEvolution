@@ -1,11 +1,11 @@
 {
   "id": 56714,
-  "name": "Montego Packs O' Purrs Tuna & Rosemary – 200g",
+  "name": "Montego Packs O' Purrs Tuna & Rosemary - 200g",
   "slug": "montego-packs-o-purrs-tuna-rosemary-200g",
   "sku": "MPPTR200",
   "onSale": false,
-  "price": 12.5,
-  "regularPrice": 12.5,
+  "price": 1250,
+  "regularPrice": 1250,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "montego"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/montego-packs-o-purrs-tuna-rosemary-200g/",
-  "shortDescription": "Specially crafted to support your cat’s overall wellbeing, these treats provide a great source of protein, essential fatty acids (Omega-3 &amp; 6), and taurine , promoting heart health, a shiny coat, and playful energy. Not suitable for kittens.",
-  "description": "Treat your feline friend to a savory and aromatic snack with Montego Packs O’ Purrs Tuna &amp; Rosemary &#8211; irresistibly tasty, soft, and packed with wholesome goodness! Made with premium ingredients like real tuna, fish oil, and dried rosemary , these chewy treats are as nutritious as they are delicious. Specially crafted to support your cat’s overall wellbeing, these treats provide a great source of protein, essential fatty acids (Omega-3 &amp; 6), and taurine , promoting heart health, a shiny coat, and playful energy. Perfect for everyday rewards or special bonding moments, these soft treats are mess-free and easy to serve. Key Benefits Irresistible tuna flavor with a hint of rosemary cats love Supports heart health, vision, and a shiny coat Soft, chewy texture perfect for all cats Made with high-quality, nutrient-rich ingredients Enriched with taurine and essential fatty acids Typical Analysis (per 100g) Crude Protein 20% | Moisture 16.5% | Total Fat 5% | Crude Fibre 2% | Crude Ash 5% | Calcium 0.6% | Phosphorus 0.5% | Sodium 0.9% | Omega-3 0.65% | Taurine 0.125% | Metabolizable Energy 351 kcal Storage &amp; Usage Feeding Instructions: Serve as a treat or reward in between meals. Suitable for cats of all breeds and life stages &#8211; adjust quantity according to size, age, and activity level. Always provide fresh drinking water. Storage: Store in a cool, dry place, away from direct sunlight. Reseal the pouch tightly after each use to maintain freshness. Once opened, consume within 30 days for the best quality. Make treat time a delight with Montego Packs O’ Purrs Tuna &amp; Rosemary &#8211; the perfect combination of taste, texture, and nutrition your cat will adore. Packed with real tuna, aromatic rosemary, and essential nutrients, every bite supports a happy, healthy, and purr-worthy life. &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 56715,
-      "alt": "Montego Packs O’ Purrs Tuna & Rosemary – 200g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-43.png",
-      "name": "Untitled design (43)"
+      "id": 2453,
+      "name": "Montego",
+      "slug": "montego"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "treats"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/montego-packs-o-purrs-tuna-rosemary-200g/",
+  "shortDescription": "Specially crafted to support your cat’s overall wellbeing, these treats provide a great source of protein, essential fatty acids (Omega-3 & 6), and taurine , promoting heart health, a shiny coat, and playful energy. Not suitable for kittens.",
+  "description": "Treat your feline friend to a savory and aromatic snack with Montego Packs O’ Purrs Tuna & Rosemary - irresistibly tasty, soft, and packed with wholesome goodness! Made with premium ingredients like real tuna, fish oil, and dried rosemary , these chewy treats are as nutritious as they are delicious. Specially crafted to support your cat’s overall wellbeing, these treats provide a great source of protein, essential fatty acids (Omega-3 & 6), and taurine , promoting heart health, a shiny coat, and playful energy. Perfect for everyday rewards or special bonding moments, these soft treats are mess-free and easy to serve. Key Benefits Irresistible tuna flavor with a hint of rosemary cats love Supports heart health, vision, and a shiny coat Soft, chewy texture perfect for all cats Made with high-quality, nutrient-rich ingredients Enriched with taurine and essential fatty acids Typical Analysis (per 100g) Crude Protein 20% | Moisture 16.5% | Total Fat 5% | Crude Fibre 2% | Crude Ash 5% | Calcium 0.6% | Phosphorus 0.5% | Sodium 0.9% | Omega-3 0.65% | Taurine 0.125% | Metabolizable Energy 351 kcal Storage & Usage Feeding Instructions: Serve as a treat or reward in between meals. Suitable for cats of all breeds and life stages - adjust quantity according to size, age, and activity level. Always provide fresh drinking water. Storage: Store in a cool, dry place, away from direct sunlight. Reseal the pouch tightly after each use to maintain freshness. Once opened, consume within 30 days for the best quality. Make treat time a delight with Montego Packs O’ Purrs Tuna & Rosemary - the perfect combination of taste, texture, and nutrition your cat will adore. Packed with real tuna, aromatic rosemary, and essential nutrients, every bite supports a happy, healthy, and purr-worthy life. &nbsp;",
+  "images": [
     {
-      "id": 2453,
-      "name": "Montego",
-      "slug": "montego"
+      "id": 56715,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-43.png",
+      "alt": "Montego Packs O’ Purrs Tuna & Rosemary – 200g",
+      "name": "Untitled design (43)"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=56714",
+  "addToCartUrl": "https://petstore.co.ke/product/montego-packs-o-purrs-tuna-rosemary-200g/?add-to-cart=56714",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.687Z",
-  "dateModified": "2026-06-23T09:15:51.687Z"
+  "dateCreated": "2025-07-11T09:50:24",
+  "dateModified": "2026-06-24T13:12:06",
+  "brand": "Montego",
+  "weight_kg": 0.02,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-43.png"
 }

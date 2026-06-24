@@ -1,12 +1,12 @@
 {
   "id": 68796,
-  "name": "Pack Of 12 – Spectrum Gusto Lick Snack For Cat With Chicken 4x15g",
+  "name": "Pack Of 12 - Spectrum Gusto Lick Snack For Cat With Chicken 4x15g",
   "slug": "pack-of-12-spectrum-gusto-lick-snack-for-cat-with-chicken-4x15g",
   "sku": "SCW001$12",
   "onSale": true,
-  "price": 59.4,
-  "regularPrice": 66,
-  "salePrice": 59.4,
+  "price": 5940,
+  "regularPrice": 6600,
+  "salePrice": 5940,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/SPECTRUM-CHICKEN-.png",
@@ -37,25 +37,17 @@
       "slug": "spectrum"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pack-of-12-spectrum-gusto-lick-snack-for-cat-with-chicken-4x15g/",
-  "shortDescription": "Spectrum Gusto Lick Snack Chicken is a smooth, creamy lickable pet treat made with real chicken breast, high in moisture to support hydration and perfect for daily rewarding, bonding, or dessert-style feeding.",
-  "description": "Spectrum Gusto Lick Snack Chicken is a smooth, creamy lickable treat made with real chicken breast, designed to provide a delicious and rewarding experience for pets as part of their daily routine. With its soft texture and high moisture content, this snack is easy to serve, easy to consume, and highly palatable. Formulated with 29.40% chicken breast , this lick snack delivers quality protein while remaining light and gentle. It can be offered as a dessert, a daily treat, or a bonding snack fed directly from a spoon in small portions. Its high moisture level also supports daily hydration, making it an excellent complement to your pet’s regular diet. The recipe is carefully balanced and thickened using modified tapioca starch and guar gum to ensure a smooth, stable consistency, while soybean oil contributes to palatability. Clean, simple ingredients and controlled nutritional values make this treat suitable for regular use when fed responsibly. Ingredients Water Chicken breast (29.40%) Modified tapioca starch (E1442) Guar gum (E412) Soybean oil Nutritional Composition Crude Protein: 7% Fat Content: 1% Crude Ash: 1% Crude Cellulose (Fiber): 0.1% Moisture: 87% Feeding Recommendations &amp; Usage Serve as a dessert, reward, or everyday treat Offer in small portions using a spoon Always ensure fresh drinking water is available Intended as a complementary snack , not a complete meal Refer to product imprint for additional guidance. Key Benefits Made with real chicken breast for taste and protein Smooth, creamy texture for easy licking and feeding High moisture content supports hydration Ideal for bonding, rewarding, or daily treating Light, low-fat formulation suitable for frequent use &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 68888,
-      "alt": "Pack Of 12 – Spectrum Gusto Lick Snack For Cat With Chicken 4x15g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/SPECTRUM-CHICKEN-.png",
-      "name": "SPECTRUM CHICKEN"
+      "id": 2468,
+      "name": "Spectrum",
+      "slug": "spectrum"
     }
   ],
   "tags": [
     {
       "id": 2055,
-      "name": "Bulk Cat Food &amp; Bulk Dog Food",
+      "name": "Bulk Cat Food & Bulk Dog Food",
       "slug": "bulk"
     },
     {
@@ -79,20 +71,33 @@
       "slug": "treats"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/pack-of-12-spectrum-gusto-lick-snack-for-cat-with-chicken-4x15g/",
+  "shortDescription": "Spectrum Gusto Lick Snack Chicken is a smooth, creamy lickable pet treat made with real chicken breast, high in moisture to support hydration and perfect for daily rewarding, bonding, or dessert-style feeding.",
+  "description": "Spectrum Gusto Lick Snack Chicken is a smooth, creamy lickable treat made with real chicken breast, designed to provide a delicious and rewarding experience for pets as part of their daily routine. With its soft texture and high moisture content, this snack is easy to serve, easy to consume, and highly palatable. Formulated with 29.40% chicken breast , this lick snack delivers quality protein while remaining light and gentle. It can be offered as a dessert, a daily treat, or a bonding snack fed directly from a spoon in small portions. Its high moisture level also supports daily hydration, making it an excellent complement to your pet’s regular diet. The recipe is carefully balanced and thickened using modified tapioca starch and guar gum to ensure a smooth, stable consistency, while soybean oil contributes to palatability. Clean, simple ingredients and controlled nutritional values make this treat suitable for regular use when fed responsibly. Ingredients Water Chicken breast (29.40%) Modified tapioca starch (E1442) Guar gum (E412) Soybean oil Nutritional Composition Crude Protein: 7% Fat Content: 1% Crude Ash: 1% Crude Cellulose (Fiber): 0.1% Moisture: 87% Feeding Recommendations & Usage Serve as a dessert, reward, or everyday treat Offer in small portions using a spoon Always ensure fresh drinking water is available Intended as a complementary snack , not a complete meal Refer to product imprint for additional guidance. Key Benefits Made with real chicken breast for taste and protein Smooth, creamy texture for easy licking and feeding High moisture content supports hydration Ideal for bonding, rewarding, or daily treating Light, low-fat formulation suitable for frequent use &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2468,
-      "name": "Spectrum",
-      "slug": "spectrum"
+      "id": 68888,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/SPECTRUM-CHICKEN-.png",
+      "alt": "Pack Of 12 – Spectrum Gusto Lick Snack For Cat With Chicken 4x15g",
+      "name": "SPECTRUM CHICKEN"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": null,
+  "lowStockRemaining": 5,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=68796",
+  "addToCartUrl": "https://petstore.co.ke/product/pack-of-12-spectrum-gusto-lick-snack-for-cat-with-chicken-4x15g/?add-to-cart=68796",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.872Z",
-  "dateModified": "2026-06-23T09:15:51.872Z"
+  "dateCreated": "2026-01-30T19:31:14",
+  "dateModified": "2026-06-18T11:12:00",
+  "brand": "Spectrum",
+  "weight_kg": 0.15,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/SPECTRUM-CHICKEN-.png"
 }

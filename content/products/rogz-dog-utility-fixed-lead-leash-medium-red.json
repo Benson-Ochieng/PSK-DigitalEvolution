@@ -1,11 +1,11 @@
 {
   "id": 17711,
-  "name": "Rogz Dog Utility Fixed Leash Medium – Red",
+  "name": "Rogz Dog Utility Fixed Leash Medium - Red",
   "slug": "rogz-dog-utility-fixed-lead-leash-medium-red",
   "sku": "HL11-C",
   "onSale": false,
-  "price": 12.5,
-  "regularPrice": 12.5,
+  "price": 1250,
+  "regularPrice": 1250,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,21 +32,7 @@
       "slug": "rogz"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-fixed-lead-leash-medium-red/",
-  "shortDescription": "Rogz Utility Fixed Lead/Leash &#8211; Medium Red",
-  "description": "Rogz Utility Fixed Reflective Dog Lead/Leash has a reflective yarn woven into the webbing for night time visibility so that everyone is aware that you &amp; your dog are on an outing. Key Features: Reflective Stitching: Reflective yarn is woven into the webbing for night time visibility. RogLoc: RogLoc is the Fort Knox of release buckle Low Load Technology: LLT technology reduces the load on the Titanium Plastic buckle through a cleverly positioned load ring Contoured Plastic Component: ROGZ rounded contoured plastic components ensure that every ROGZ collar fits snugly Die-cast ring: Custom designed die cast ring (no welding). Electroplated chrome for a tarnish free finish Size: Length 1.4m, Width 1.6cm",
-  "images": [
-    {
-      "id": 17688,
-      "alt": "Rogz Dog Utility Fixed Leash Medium – Red",
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/HL11-C-Snake-Red.jpg",
-      "name": "HL11-C Snake Red"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 1205,
@@ -64,14 +50,33 @@
       "slug": "leash"
     }
   ],
-  "brands": [],
-  "stockStatus": "instock",
-  "lowStockRemaining": 2,
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-fixed-lead-leash-medium-red/",
+  "shortDescription": "Rogz Utility Fixed Lead/Leash – Medium Red",
+  "description": "Rogz Utility Fixed Reflective Dog Lead/Leash has a reflective yarn woven into the webbing for night time visibility so that everyone is aware that you & your dog are on an outing. Key Features: Reflective Stitching: Reflective yarn is woven into the webbing for night time visibility. RogLoc: RogLoc is the Fort Knox of release buckle Low Load Technology: LLT technology reduces the load on the Titanium Plastic buckle through a cleverly positioned load ring Contoured Plastic Component: ROGZ rounded contoured plastic components ensure that every ROGZ collar fits snugly Die-cast ring: Custom designed die cast ring (no welding). Electroplated chrome for a tarnish free finish Size: Length 1.4m, Width 1.6cm",
+  "images": [
+    {
+      "id": 17688,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/HL11-C-Snake-Red.jpg",
+      "alt": "Rogz Dog Utility Fixed Leash Medium – Red",
+      "name": "HL11-C Snake Red"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=2&#038;add-to-cart=17711",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-fixed-lead-leash-medium-red/?add-to-cart=17711",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.133Z",
-  "dateModified": "2026-06-23T09:15:51.133Z"
+  "dateCreated": "2021-01-12T10:05:36",
+  "dateModified": "2026-06-24T09:11:58",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/HL11-C-Snake-Red.jpg"
 }

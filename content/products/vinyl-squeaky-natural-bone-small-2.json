@@ -4,8 +4,8 @@
   "slug": "vinyl-squeaky-natural-bone-small-2",
   "sku": "PA3297",
   "onSale": false,
-  "price": 3.8,
-  "regularPrice": 3.8,
+  "price": 380,
+  "regularPrice": 380,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,21 +32,7 @@
       "slug": "dog-toys"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/vinyl-squeaky-natural-bone-small-2/",
-  "shortDescription": "The Pet Dog Toy is made of non-toxic vinyl rubber material, bone shaped, it is great for your pet dog to play or chew.",
-  "description": "The Pet Dog Toy is made of non-toxic vinyl rubber material, bone shaped, it is great for your pet dog to play or chew.",
-  "images": [
-    {
-      "id": 46795,
-      "alt": "Vinyl Squeaky Natural Bone Small",
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/05/VINYL-SQUEAKY-NATURAL-BONE-SMALL-e1715090150311.png",
-      "name": "VINYL &#8211; SQUEAKY NATURAL BONE &#8211; SMALL"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 1205,
@@ -69,14 +55,33 @@
       "slug": "toys"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/vinyl-squeaky-natural-bone-small-2/",
+  "shortDescription": "The Pet Dog Toy is made of non-toxic vinyl rubber material, bone shaped, it is great for your pet dog to play or chew.",
+  "description": "The Pet Dog Toy is made of non-toxic vinyl rubber material, bone shaped, it is great for your pet dog to play or chew.",
+  "images": [
+    {
+      "id": 46795,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/05/VINYL-SQUEAKY-NATURAL-BONE-SMALL-e1715090150311.png",
+      "alt": "Vinyl Squeaky Natural Bone Small",
+      "name": "VINYL &#8211; SQUEAKY NATURAL BONE &#8211; SMALL"
+    }
+  ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=46794",
+  "addToCartUrl": "https://petstore.co.ke/product/vinyl-squeaky-natural-bone-small-2/?add-to-cart=46794",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.409Z",
-  "dateModified": "2026-06-23T09:15:51.409Z"
+  "dateCreated": "2024-05-07T16:53:36",
+  "dateModified": "2026-06-23T12:24:38",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/05/VINYL-SQUEAKY-NATURAL-BONE-SMALL-e1715090150311.png"
 }

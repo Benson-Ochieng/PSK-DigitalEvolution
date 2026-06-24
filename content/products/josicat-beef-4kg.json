@@ -4,8 +4,8 @@
   "slug": "josicat-beef-4kg",
   "sku": "JCJB002",
   "onSale": false,
-  "price": 35.57,
-  "regularPrice": 35.57,
+  "price": 3557,
+  "regularPrice": 3557,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "josera"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/josicat-beef-4kg/",
-  "shortDescription": "Tasty kibble refined with hearty beef. Complete feed for adult cats. Flavourful kibble with an appetizing beef taste. Suitable for both indoor and outdoor cats. No added artificial colours, flavours or preservatives. No added soy, sugar or milk products.",
-  "description": "Composition: Meat and animal by-products (beef 4 %), cereals; oils and fats; vegetable by-products; minerals. Product Details: Tasty kibble refined with hearty beef. Complete feed for adult cats. . Flavorful kibble with an appetizing beef taste. . Suitable for both indoor and outdoor cats. . No added artificial colors, flavors or preservatives. . No added soy, sugar or milk products. Why You’ll Love It Rich Beef Flavor – flavorful kibble that even picky cats can’t resist. Perfect for Indoor &amp; Outdoor Cats – balanced energy to suit different lifestyles. Supports Strong Muscles &amp; Immunity – packed with essential proteins, vitamins, and minerals. Healthy Skin &amp; Glossy Coat – thanks to natural oils and fats. Clean Nutrition – no artificial colors, flavors, preservatives, soy, sugar, or milk products.",
-  "images": [
+  "brands": [
     {
-      "id": 89076,
-      "alt": "JosiCat Beef 4kg",
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/Josicat-Beef-4kg.png",
-      "name": "Josicat Beef 4kg"
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "dry-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josicat-beef-4kg/",
+  "shortDescription": "Tasty kibble refined with hearty beef. Complete feed for adult cats. Flavourful kibble with an appetizing beef taste. Suitable for both indoor and outdoor cats. No added artificial colours, flavours or preservatives. No added soy, sugar or milk products.",
+  "description": "Composition: Meat and animal by-products (beef 4 %), cereals; oils and fats; vegetable by-products; minerals. Product Details: Tasty kibble refined with hearty beef. Complete feed for adult cats. . Flavorful kibble with an appetizing beef taste. . Suitable for both indoor and outdoor cats. . No added artificial colors, flavors or preservatives. . No added soy, sugar or milk products. Why You’ll Love It Rich Beef Flavor – flavorful kibble that even picky cats can’t resist. Perfect for Indoor & Outdoor Cats – balanced energy to suit different lifestyles. Supports Strong Muscles & Immunity – packed with essential proteins, vitamins, and minerals. Healthy Skin & Glossy Coat – thanks to natural oils and fats. Clean Nutrition – no artificial colors, flavors, preservatives, soy, sugar, or milk products.",
+  "images": [
     {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
+      "id": 89076,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/Josicat-Beef-4kg.png",
+      "alt": "JosiCat Beef 4kg",
+      "name": "Josicat Beef 4kg"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=2&#038;add-to-cart=23763",
+  "addToCartUrl": "https://petstore.co.ke/product/josicat-beef-4kg/?add-to-cart=23763",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.204Z",
-  "dateModified": "2026-06-23T09:15:51.204Z"
+  "dateCreated": "2021-10-29T07:55:43",
+  "dateModified": "2026-06-24T11:12:00",
+  "brand": "Josera",
+  "weight_kg": 4,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/Josicat-Beef-4kg.png"
 }

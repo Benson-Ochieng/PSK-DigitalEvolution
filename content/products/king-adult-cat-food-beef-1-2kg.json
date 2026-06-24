@@ -4,8 +4,8 @@
   "slug": "king-adult-cat-food-beef-1-2kg",
   "sku": "KCD001",
   "onSale": false,
-  "price": 11.5,
-  "regularPrice": 11.5,
+  "price": 1150,
+  "regularPrice": 1150,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "king"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/king-adult-cat-food-beef-1-2kg/",
-  "shortDescription": "King Adult Cat Food Beef 1.2kg offers high-quality beef protein, essential vitamins, minerals, and taurine to support muscle strength, energy, immunity, and overall health in adult cats. A complete, balanced dry food for daily nutrition.",
-  "description": "Give your cat a wholesome, flavour-packed meal with King Adult Cat Food Beef 1.2kg , a nutritionally balanced dry food designed to meet the daily needs of adult cats. Made with beef-derived proteins and a carefully selected blend of vitamins and minerals, this formula supports strong muscles, sustained energy, and full-body wellness. Each crunchy kibble delivers approximately 28% high-quality animal protein , helping maintain lean muscle and overall strength. The inclusion of essential fatty acids promotes a glossy coat and healthy skin, while added taurine supports heart health and sharp vision — two vital elements in adult feline nutrition. King Adult Beef also contains digestible fiber to support a healthy digestive system, along with calcium, phosphorus, zinc, and iron to promote strong bones, robust immunity, and balanced body function. Its savory beef flavour makes it enjoyable even for picky eaters, ensuring your cat receives complete nourishment every day. Key Benefits Beef-based protein supports lean muscle and daily energy needs. 28% high-quality protein formula enhances strength and body maintenance. Enriched with taurine for heart health and sharp vision. Essential vitamins A, D3, E, C, &amp; B-complex boost immunity and vitality. Healthy fats help maintain a soft, shiny coat. Digestive-supporting fiber promotes gut health and smooth digestion. Suitable for all adult cat breeds as a complete daily diet. Feeding Guidelines Daily feeding amounts may vary depending on activity and weight: 1–2 kg: 30–45g/day 3–4 kg: 60–80g/day 5–6 kg: 100–120g/day 7–8 kg: 140–160g/day Ensure your cat always has access to fresh, clean water. Storage Instructions Store in a cool, dry place . Keep sealed when not in use to maintain freshness. Avoid exposure to direct sunlight. Shelf life: 18 months from production . &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 63402,
-      "alt": "King Adult Cat Food Beef 1.2kg",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/12/King-3.png",
-      "name": "King 3"
+      "id": 2446,
+      "name": "King",
+      "slug": "king"
     }
   ],
   "tags": [
@@ -69,20 +61,33 @@
       "slug": "new-arrivals"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/king-adult-cat-food-beef-1-2kg/",
+  "shortDescription": "King Adult Cat Food Beef 1.2kg offers high-quality beef protein, essential vitamins, minerals, and taurine to support muscle strength, energy, immunity, and overall health in adult cats. A complete, balanced dry food for daily nutrition.",
+  "description": "Give your cat a wholesome, flavour-packed meal with King Adult Cat Food Beef 1.2kg , a nutritionally balanced dry food designed to meet the daily needs of adult cats. Made with beef-derived proteins and a carefully selected blend of vitamins and minerals, this formula supports strong muscles, sustained energy, and full-body wellness. Each crunchy kibble delivers approximately 28% high-quality animal protein , helping maintain lean muscle and overall strength. The inclusion of essential fatty acids promotes a glossy coat and healthy skin, while added taurine supports heart health and sharp vision — two vital elements in adult feline nutrition. King Adult Beef also contains digestible fiber to support a healthy digestive system, along with calcium, phosphorus, zinc, and iron to promote strong bones, robust immunity, and balanced body function. Its savory beef flavour makes it enjoyable even for picky eaters, ensuring your cat receives complete nourishment every day. Key Benefits Beef-based protein supports lean muscle and daily energy needs. 28% high-quality protein formula enhances strength and body maintenance. Enriched with taurine for heart health and sharp vision. Essential vitamins A, D3, E, C, & B-complex boost immunity and vitality. Healthy fats help maintain a soft, shiny coat. Digestive-supporting fiber promotes gut health and smooth digestion. Suitable for all adult cat breeds as a complete daily diet. Feeding Guidelines Daily feeding amounts may vary depending on activity and weight: 1–2 kg: 30–45g/day 3–4 kg: 60–80g/day 5–6 kg: 100–120g/day 7–8 kg: 140–160g/day Ensure your cat always has access to fresh, clean water. Storage Instructions Store in a cool, dry place . Keep sealed when not in use to maintain freshness. Avoid exposure to direct sunlight. Shelf life: 18 months from production . &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2446,
-      "name": "King",
-      "slug": "king"
+      "id": 63402,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/12/King-3.png",
+      "alt": "King Adult Cat Food Beef 1.2kg",
+      "name": "King 3"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=63397",
+  "addToCartUrl": "https://petstore.co.ke/product/king-adult-cat-food-beef-1-2kg/?add-to-cart=63397",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.798Z",
-  "dateModified": "2026-06-23T09:15:51.798Z"
+  "dateCreated": "2025-12-04T12:29:05",
+  "dateModified": "2026-06-17T05:01:32",
+  "brand": "King",
+  "weight_kg": 1.2,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/12/King-3.png"
 }

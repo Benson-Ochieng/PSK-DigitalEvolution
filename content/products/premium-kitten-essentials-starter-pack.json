@@ -4,9 +4,9 @@
   "slug": "premium-kitten-essentials-starter-pack",
   "sku": "KBUNS01",
   "onSale": true,
-  "price": 70.84,
-  "regularPrice": 78.71,
-  "salePrice": 70.84,
+  "price": 7084,
+  "regularPrice": 7871,
+  "salePrice": 7084,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Essential-Kitten-Starter-Pack.png",
@@ -32,19 +32,11 @@
       "slug": "sale"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/premium-kitten-essentials-starter-pack/",
-  "shortDescription": "Give your new kitten the perfect welcome with our Kitten Starter Bundle! This all-in-one set includes everything your little furry friend needs to feel comfortable and happy in their new home.",
-  "description": "Give your new kitten the perfect welcome with our Kitten Starter Bundle! This all-in-one set includes everything your little furry friend needs to feel comfortable and happy in their new home. Inside the bundle, you’ll find: 1 Reflex Premium Kitten Food Chicken 2kg 2 Reflex Pocket Treats Shiny Coat 60g 2 Miglior Cat Unico Mousse Pouch 85g (Turkey) 1 Poline Cat Litter &#8211; Odourless 5l Cat Litter Box + Scoop Generic Glow Cat Collar (Pink or Purple) 1 Cat Toy Fun Mix Perfect for new kitten owners, this bundle makes the first days with your kitten easy and stress-free. Everything is carefully chosen to help your kitten grow strong and happy!",
-  "images": [
+  "brands": [
     {
-      "id": 56479,
-      "alt": "Premium Kitten Essentials Starter Pack",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Essential-Kitten-Starter-Pack.png",
-      "name": "Essential Kitten Starter Pack"
+      "id": 2461,
+      "name": "Proline",
+      "slug": "proline"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "kitten"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/premium-kitten-essentials-starter-pack/",
+  "shortDescription": "Give your new kitten the perfect welcome with our Kitten Starter Bundle! This all-in-one set includes everything your little furry friend needs to feel comfortable and happy in their new home.",
+  "description": "Give your new kitten the perfect welcome with our Kitten Starter Bundle! This all-in-one set includes everything your little furry friend needs to feel comfortable and happy in their new home. Inside the bundle, you’ll find: 1 Reflex Premium Kitten Food Chicken 2kg 2 Reflex Pocket Treats Shiny Coat 60g 2 Miglior Cat Unico Mousse Pouch 85g (Turkey) 1 Poline Cat Litter - Odourless 5l Cat Litter Box + Scoop Generic Glow Cat Collar (Pink or Purple) 1 Cat Toy Fun Mix Perfect for new kitten owners, this bundle makes the first days with your kitten easy and stress-free. Everything is carefully chosen to help your kitten grow strong and happy!",
+  "images": [
     {
-      "id": 2461,
-      "name": "Proline",
-      "slug": "proline"
+      "id": 56479,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Essential-Kitten-Starter-Pack.png",
+      "alt": "Premium Kitten Essentials Starter Pack",
+      "name": "Essential Kitten Starter Pack"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=56478",
+  "addToCartUrl": "https://petstore.co.ke/product/premium-kitten-essentials-starter-pack/?add-to-cart=56478",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.656Z",
-  "dateModified": "2026-06-23T09:15:51.656Z"
+  "dateCreated": "2025-07-05T16:05:39",
+  "dateModified": "2026-06-17T04:30:16",
+  "brand": "Proline",
+  "weight_kg": 7,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Essential-Kitten-Starter-Pack.png"
 }

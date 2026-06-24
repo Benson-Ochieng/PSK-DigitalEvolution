@@ -1,11 +1,11 @@
 {
   "id": 17364,
-  "name": "Rogz Dog Fred-Treat Ball 6.4cm – Blue Medium",
+  "name": "Rogz Dog Fred-Treat Ball 6.4cm - Blue Medium",
   "slug": "rogz-dog-fred-treat-ball-6-4cm-blue-medium",
   "sku": "FR02-B",
   "onSale": false,
-  "price": 9.5,
-  "regularPrice": 9.5,
+  "price": 950,
+  "regularPrice": 950,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,21 +32,7 @@
       "slug": "rogz"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-dog-fred-treat-ball-6-4cm-blue-medium/",
-  "shortDescription": "Rogz Fred-Treat Ball &#8211; Blue Medium",
-  "description": "Rogz Fred Treat Ball is the absolute fun treat ball packed with loads of character! It comes highly recommended by professionals. It is specially designed with one large and one small opening to accommodate different size treats. The surface is manufactured with a texture that gently massages your dog?s gums and cleans teeth all while having fun. Treat your dog after playing fetch to ensure mind and muscle stimulation and extended hours of fun! Gum massaging Stuff treats of choice into opening Bounce and fetch Size: Medium 6.4cm",
-  "images": [
-    {
-      "id": 17338,
-      "alt": "Rogz Dog Fred-Treat Ball 6.4cm – Blue Medium",
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/FR02-B-Fred-Blue.jpg",
-      "name": "FR02-B Fred Blue"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 1205,
@@ -64,14 +50,33 @@
       "slug": "toys"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-dog-fred-treat-ball-6-4cm-blue-medium/",
+  "shortDescription": "Rogz Fred-Treat Ball – Blue Medium",
+  "description": "Rogz Fred Treat Ball is the absolute fun treat ball packed with loads of character! It comes highly recommended by professionals. It is specially designed with one large and one small opening to accommodate different size treats. The surface is manufactured with a texture that gently massages your dog?s gums and cleans teeth all while having fun. Treat your dog after playing fetch to ensure mind and muscle stimulation and extended hours of fun! Gum massaging Stuff treats of choice into opening Bounce and fetch Size: Medium 6.4cm",
+  "images": [
+    {
+      "id": 17338,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/FR02-B-Fred-Blue.jpg",
+      "alt": "Rogz Dog Fred-Treat Ball 6.4cm – Blue Medium",
+      "name": "FR02-B Fred Blue"
+    }
+  ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=1&#038;add-to-cart=17364",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-fred-treat-ball-6-4cm-blue-medium/?add-to-cart=17364",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.104Z",
-  "dateModified": "2026-06-23T09:15:51.104Z"
+  "dateCreated": "2021-01-08T16:36:03",
+  "dateModified": "2026-06-17T04:13:37",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/FR02-B-Fred-Blue.jpg"
 }

@@ -4,8 +4,8 @@
   "slug": "rogz-airtech-sport-harness-xlarge-nightsky-black-sjst87xl-a-2",
   "sku": "SJST87XL-A",
   "onSale": false,
-  "price": 51,
-  "regularPrice": 51,
+  "price": 5100,
+  "regularPrice": 5100,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,6 +32,14 @@
       "slug": "rogz"
     }
   ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2318,
+      "name": "Harnesses",
+      "slug": "harness"
+    }
+  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
@@ -42,26 +50,23 @@
   "images": [
     {
       "id": 47738,
-      "alt": "Rogz Airtech Sport Harness XLarge Nightsky Black (Sjst87Xl-A)",
       "src": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-AIRTECH-SPORT-HARNESS-XLARGE-NIGHTSKY-BLACK-SJST87XL-A.jpg",
+      "alt": "Rogz Airtech Sport Harness XLarge Nightsky Black (Sjst87Xl-A)",
       "name": "ROGZ AIRTECH SPORT HARNESS XLARGE &#8211; NIGHTSKY BLACK (SJST87XL-A)"
     }
   ],
-  "tags": [
-    {
-      "id": 2318,
-      "name": "Harnesses",
-      "slug": "harness"
-    }
-  ],
-  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=47737",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-airtech-sport-harness-xlarge-nightsky-black-sjst87xl-a-2/?add-to-cart=47737",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.424Z",
-  "dateModified": "2026-06-23T09:15:51.424Z"
+  "dateCreated": "2024-06-11T11:54:27",
+  "dateModified": "2026-06-17T04:14:43",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-AIRTECH-SPORT-HARNESS-XLARGE-NIGHTSKY-BLACK-SJST87XL-A.jpg"
 }

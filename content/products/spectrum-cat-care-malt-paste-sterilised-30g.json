@@ -4,8 +4,8 @@
   "slug": "spectrum-cat-care-malt-paste-sterilised-30g",
   "sku": "SCS003",
   "onSale": false,
-  "price": 3.5,
-  "regularPrice": 3.5,
+  "price": 350,
+  "regularPrice": 350,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,6 +32,20 @@
       "slug": "cat-supplements"
     }
   ],
+  "brands": [
+    {
+      "id": 2468,
+      "name": "Spectrum",
+      "slug": "spectrum"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2085,
+      "name": "Supplements",
+      "slug": "supplements"
+    }
+  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
@@ -42,32 +56,23 @@
   "images": [
     {
       "id": 51493,
-      "alt": "Spectrum Cat Care Malt Paste Sterilised 30g",
       "src": "https://petstore.co.ke/wp-content/uploads/2024/11/SPECTRUM-CAT-CARE-MALT-PASTE-STERLISED-30G.png",
+      "alt": "Spectrum Cat Care Malt Paste Sterilised 30g",
       "name": "SPECTRUM CAT CARE MALT PASTE STERLISED 30G"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2085,
-      "name": "Supplements",
-      "slug": "supplements"
-    }
-  ],
-  "brands": [
-    {
-      "id": 2468,
-      "name": "Spectrum",
-      "slug": "spectrum"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=5&#038;add-to-cart=51492",
+  "addToCartUrl": "https://petstore.co.ke/product/spectrum-cat-care-malt-paste-sterilised-30g/?add-to-cart=51492",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.548Z",
-  "dateModified": "2026-06-23T09:15:51.548Z"
+  "dateCreated": "2024-11-20T16:07:38",
+  "dateModified": "2026-06-23T13:12:36",
+  "brand": "Spectrum",
+  "weight_kg": 0.03,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/11/SPECTRUM-CAT-CARE-MALT-PASTE-STERLISED-30G.png"
 }

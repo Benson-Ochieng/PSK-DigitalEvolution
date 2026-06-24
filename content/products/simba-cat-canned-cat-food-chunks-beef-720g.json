@@ -4,8 +4,8 @@
   "slug": "simba-cat-canned-cat-food-chunks-beef-720g",
   "sku": "LSWC015",
   "onSale": false,
-  "price": 3.15,
-  "regularPrice": 3.15,
+  "price": 315,
+  "regularPrice": 315,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "wet-cat-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/simba-cat-canned-cat-food-chunks-beef-720g/",
-  "shortDescription": "Give your cat a delicious and nutritious meal with Simba Cat Chunks Beef. This complete wet cat food for adult cats is made with quality beef, providing essential protein and nutrients to help support your cat’s daily health and wellbeing.",
-  "description": "Featuring tender, savoury chunks, this appetising recipe is carefully prepared to enhance its natural flavour and encourage a healthy appetite. The moisture-rich formula helps support hydration, while the balanced nutritional profile contributes to overall vitality and an active lifestyle. Enriched with essential vitamins including Vitamins A, D3, and E, Simba Cat Chunks Beef supports healthy vision, strong bones, and immune system function. Free from artificial additives, it is a wholesome choice for everyday feeding. Key Benefits Complete and balanced wet food for adult cats Made with quality beef for a rich, meaty flavour Source of protein to support muscle maintenance Moisture-rich formula supports hydration Enriched with Vitamins A, D3, and E Supports overall health and daily vitality No artificial additives Tender chunks for an enjoyable eating experience Feeding Guide For an average adult cat weighing approximately 4kg, feed around 200g daily, divided into two meals. Adjust feeding amounts according to your cat’s age, weight, and activity level. Storage Store in a cool, dry place. Once opened, refrigerate and consume within 48 hours. Always provide fresh, clean drinking water. Size: 720g &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 90370,
-      "alt": "Simba Cat Canned Cat Food Chunks – Beef 720g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/beffy-720.png",
-      "name": "beffy 720"
+      "id": 2464,
+      "name": "Simba",
+      "slug": "simba"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/simba-cat-canned-cat-food-chunks-beef-720g/",
+  "shortDescription": "Give your cat a delicious and nutritious meal with Simba Cat Chunks Beef. This complete wet cat food for adult cats is made with quality beef, providing essential protein and nutrients to help support your cat’s daily health and wellbeing.",
+  "description": "Featuring tender, savoury chunks, this appetising recipe is carefully prepared to enhance its natural flavour and encourage a healthy appetite. The moisture-rich formula helps support hydration, while the balanced nutritional profile contributes to overall vitality and an active lifestyle. Enriched with essential vitamins including Vitamins A, D3, and E, Simba Cat Chunks Beef supports healthy vision, strong bones, and immune system function. Free from artificial additives, it is a wholesome choice for everyday feeding. Key Benefits Complete and balanced wet food for adult cats Made with quality beef for a rich, meaty flavour Source of protein to support muscle maintenance Moisture-rich formula supports hydration Enriched with Vitamins A, D3, and E Supports overall health and daily vitality No artificial additives Tender chunks for an enjoyable eating experience Feeding Guide For an average adult cat weighing approximately 4kg, feed around 200g daily, divided into two meals. Adjust feeding amounts according to your cat’s age, weight, and activity level. Storage Store in a cool, dry place. Once opened, refrigerate and consume within 48 hours. Always provide fresh, clean drinking water. Size: 720g &nbsp;",
+  "images": [
     {
-      "id": 2464,
-      "name": "Simba",
-      "slug": "simba"
+      "id": 90370,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/beffy-720.png",
+      "alt": "Simba Cat Canned Cat Food Chunks – Beef 720g",
+      "name": "beffy 720"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=90286",
+  "addToCartUrl": "https://petstore.co.ke/product/simba-cat-canned-cat-food-chunks-beef-720g/?add-to-cart=90286",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:52.044Z",
-  "dateModified": "2026-06-23T09:15:52.044Z"
+  "dateCreated": "2026-06-08T12:06:32",
+  "dateModified": "2026-06-17T05:01:39",
+  "brand": "Simba",
+  "weight_kg": 0.72,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/beffy-720.png"
 }

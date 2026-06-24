@@ -1,11 +1,11 @@
 {
   "id": 90018,
-  "name": "Leonardo Cat Adult Dry Food – Duck 1.8Kg",
+  "name": "Leonardo Cat Adult Dry Food - Duck 1.8Kg",
   "slug": "leonardo-cat-adult-dry-food-duck-1-8kg",
   "sku": "LLDC002",
   "onSale": false,
-  "price": 33.3,
-  "regularPrice": 33.3,
+  "price": 3330,
+  "regularPrice": 3330,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "leonardo"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/leonardo-cat-adult-dry-food-duck-1-8kg/",
-  "shortDescription": "Leonardo Adult Duck Dry Cat Food is a delicious and nutritionally balanced recipe specially crafted for adult cats that love rich poultry flavours. Made with fresh poultry and high-quality duck protein, this premium cat food delivers excellent taste while supporting healthy skin, a shiny coat, digestion, and overall wellbeing.",
-  "description": "Enhanced with nutrient-rich chia seeds and Antarctic krill, the recipe provides valuable omega-3 fatty acids and lecithin to help maintain healthy skin and a glossy coat. Key Benefits Made with fresh poultry and tasty duck protein Rich in omega-3 fatty acids for healthy skin and coat Chia seeds and krill support overall vitality Gentle Hairball Transit helps reduce hairball build-up PH-Control supports healthy urinary pH levels STAY-CLEAN™ helps reduce plaque formation Highly digestible recipe with balanced nutrition Ideal for adult cats of all breeds Vital Components GENTLE HAIRBALL TRANSIT – Helps facilitate the natural expulsion of hairballs PH-CONTROL – Optimises urinary pH levels STAY-CLEAN™ – Supports dental hygiene by helping reduce plaque build-up Main Ingredients Fresh poultry meat (30%) Duck protein (18%) Rice Poultry protein (10%) Poultry fat Marine zooplankton (Krill) (2.5%) Fish meal from sea fish (2.5%) Chia seed (1.3%) Brewers’ yeast Chicory inulin Analytical Constituents Protein: 32% Fat Content: 20% Crude Ash: 7.9% Crude Fibre: 2.3% Moisture: 10% Calcium: 1.2% Phosphorus: 0.8% Sodium: 0.4% Suitable For Adult cats of all breeds looking for a tasty poultry-based diet with added support for skin, coat, urinary health, and hairball control. Always provide fresh drinking water alongside feeding. &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 90022,
-      "alt": "Leonardo Cat Adult Dry Food – Duck 1.8Kg",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Leonardo-Adult-Cat-Duck-1.8Kg.png",
-      "name": "Leonardo Adult Cat Duck 1.8Kg"
+      "id": 2448,
+      "name": "Leonardo",
+      "slug": "leonardo"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "new-arrivals"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/leonardo-cat-adult-dry-food-duck-1-8kg/",
+  "shortDescription": "Leonardo Adult Duck Dry Cat Food is a delicious and nutritionally balanced recipe specially crafted for adult cats that love rich poultry flavours. Made with fresh poultry and high-quality duck protein, this premium cat food delivers excellent taste while supporting healthy skin, a shiny coat, digestion, and overall wellbeing.",
+  "description": "Enhanced with nutrient-rich chia seeds and Antarctic krill, the recipe provides valuable omega-3 fatty acids and lecithin to help maintain healthy skin and a glossy coat. Key Benefits Made with fresh poultry and tasty duck protein Rich in omega-3 fatty acids for healthy skin and coat Chia seeds and krill support overall vitality Gentle Hairball Transit helps reduce hairball build-up PH-Control supports healthy urinary pH levels STAY-CLEAN™ helps reduce plaque formation Highly digestible recipe with balanced nutrition Ideal for adult cats of all breeds Vital Components GENTLE HAIRBALL TRANSIT – Helps facilitate the natural expulsion of hairballs PH-CONTROL – Optimises urinary pH levels STAY-CLEAN™ – Supports dental hygiene by helping reduce plaque build-up Main Ingredients Fresh poultry meat (30%) Duck protein (18%) Rice Poultry protein (10%) Poultry fat Marine zooplankton (Krill) (2.5%) Fish meal from sea fish (2.5%) Chia seed (1.3%) Brewers’ yeast Chicory inulin Analytical Constituents Protein: 32% Fat Content: 20% Crude Ash: 7.9% Crude Fibre: 2.3% Moisture: 10% Calcium: 1.2% Phosphorus: 0.8% Sodium: 0.4% Suitable For Adult cats of all breeds looking for a tasty poultry-based diet with added support for skin, coat, urinary health, and hairball control. Always provide fresh drinking water alongside feeding. &nbsp;",
+  "images": [
     {
-      "id": 2448,
-      "name": "Leonardo",
-      "slug": "leonardo"
+      "id": 90022,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Leonardo-Adult-Cat-Duck-1.8Kg.png",
+      "alt": "Leonardo Cat Adult Dry Food – Duck 1.8Kg",
+      "name": "Leonardo Adult Cat Duck 1.8Kg"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 4,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=90018",
+  "addToCartUrl": "https://petstore.co.ke/product/leonardo-cat-adult-dry-food-duck-1-8kg/?add-to-cart=90018",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:52.003Z",
-  "dateModified": "2026-06-23T09:15:52.003Z"
+  "dateCreated": "2026-05-28T11:00:03",
+  "dateModified": "2026-06-17T05:01:35",
+  "brand": "Leonardo",
+  "weight_kg": 1.8,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/Leonardo-Adult-Cat-Duck-1.8Kg.png"
 }

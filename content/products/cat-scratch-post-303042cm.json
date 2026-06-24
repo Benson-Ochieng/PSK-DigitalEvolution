@@ -4,8 +4,8 @@
   "slug": "cat-scratch-post-303042cm",
   "sku": "PA4724",
   "onSale": false,
-  "price": 38.5,
-  "regularPrice": 38.5,
+  "price": 3850,
+  "regularPrice": 3850,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -27,21 +27,7 @@
       "slug": "toys"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/cat-scratch-post-303042cm/",
-  "shortDescription": "Purrrrr-fect for your kitty, Cat Scratching Post will sure become your cat&#8217;s favorite toy. This scratching post is 43cm in length and comes with a heavy-duty carpeted base.",
-  "description": "Purrrrr-fect for your kitty, Cat Scratching Post will sure become your cat&#8217;s favorite toy. This scratching post is 43cm in length and comes with a heavy-duty carpeted base. Product Features Easy to assemble. Helps satisfy the urge to claw. Heavy duty carpet base 43cm by 30cm",
-  "images": [
-    {
-      "id": 52422,
-      "alt": "Cat Scratch Post 30cm By 30cm By 42cm",
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/12/CAT-SCRATCH-POST-43X30cm.png",
-      "name": "CAT SCRATCH POST 43X30cm"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 1205,
@@ -69,14 +55,33 @@
       "slug": "toys"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/cat-scratch-post-303042cm/",
+  "shortDescription": "Purrrrr-fect for your kitty, Cat Scratching Post will sure become your cat's favorite toy. This scratching post is 43cm in length and comes with a heavy-duty carpeted base.",
+  "description": "Purrrrr-fect for your kitty, Cat Scratching Post will sure become your cat's favorite toy. This scratching post is 43cm in length and comes with a heavy-duty carpeted base. Product Features Easy to assemble. Helps satisfy the urge to claw. Heavy duty carpet base 43cm by 30cm",
+  "images": [
+    {
+      "id": 52422,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/12/CAT-SCRATCH-POST-43X30cm.png",
+      "alt": "Cat Scratch Post 30cm By 30cm By 42cm",
+      "name": "CAT SCRATCH POST 43X30cm"
+    }
+  ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=5&#038;add-to-cart=52406",
+  "addToCartUrl": "https://petstore.co.ke/product/cat-scratch-post-303042cm/?add-to-cart=52406",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.576Z",
-  "dateModified": "2026-06-23T09:15:51.576Z"
+  "dateCreated": "2024-12-27T20:27:48",
+  "dateModified": "2026-06-17T04:15:04",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/12/CAT-SCRATCH-POST-43X30cm.png"
 }

@@ -4,8 +4,8 @@
   "slug": "reflex-plus-medium-large-breed-adult-dog-food-salmon-3kg-2",
   "sku": "RPDD010",
   "onSale": false,
-  "price": 34.5,
-  "regularPrice": 34.5,
+  "price": 3450,
+  "regularPrice": 3450,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "reflex"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/reflex-plus-medium-large-breed-adult-dog-food-salmon-3kg-2/",
-  "shortDescription": "Reflex Plus Adult Dog Food with Salmon for Medium &amp; Large breeds is a fully and balanced formulated super premium dry dog food with salmon, suitable for medium &amp;large dog breeds between 18 &#8211; 24 months &#8211; 7 years old.",
-  "description": "REFLEX PLUS MEDIUM-LARGE BREED ADULT DOG FOOD is a fully and balanced formulated super premium dry dog food with salmon, suitable for medium &amp;large dog breeds between 18 &#8211; 24 months &#8211; 7 years old. Xylo-oligosaccharides (XOS) are super prebiotics obtained by hydrolysis of corn cobs.XOS helps to reduce problems such as unwanted fat and glycemia in cats with approximately zero calorie value. XOS enters the large intestine unmodified and is primarily used by the digestive bacteria Bifidobacteria and Lactobacilli. This reduces negative fermentations that cause energy loss, such as bloating and other digestive ailments. Possible Health Benefits: • It strengthens the immune system. • It increases the digestion and metabolism of nutrients by improving the intestinal flora. • It has natural antioxidant effect. Ingredients: Processed Salmon Protein, Processed Animal Protein, Wheat, Rice, Corn, Chicken Fat, Sugar Beet, Fish Flavor, Whey Powder, Vitamins and Minerals, Salmon Oil, Xylo-Oligosaccharide, Brewer&#8217;s Yeast, Salt, Yucca Schidigera, Preservatives &#8211; Antioxidants. Minerals: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Iron, Selenium. Vitamins: Vitamin A, Vitamin D, Vitamin E, Vitamin C, Vitamin B1 &#8211; B2 &#8211; B3 (Niacin) &#8211; B6 &#8211; B12 &#8211; B7 (Biotin) &#8211; B9 (Folic Acid), Vitamin K, Choline, Calcium Pantothenate. &nbsp; 81% of the protein contains is obtained from animal ingredients. &nbsp; Nutrient Components Crude Protein 25% Crude Fat 14% Crude Ash 8% Crude Cellulose (Fibre) 2,5% Nutritional Supplements Vitamin A (E672) 18,000 IU/kg Vitamin D3 (E671) 1,500 IU/kg Vitamin E (3a700) 150 mg/kg &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 27543,
-      "alt": "Reflex Plus Medium Large Breed Adult Dog Food Salmon 3kg",
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/RPDD010-01.jpg",
-      "name": "RPDD010-01"
+      "id": 2462,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "tags": [
@@ -69,20 +61,33 @@
       "slug": "medium-breeds"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/reflex-plus-medium-large-breed-adult-dog-food-salmon-3kg-2/",
+  "shortDescription": "Reflex Plus Adult Dog Food with Salmon for Medium & Large breeds is a fully and balanced formulated super premium dry dog food with salmon, suitable for medium &large dog breeds between 18 – 24 months – 7 years old.",
+  "description": "REFLEX PLUS MEDIUM-LARGE BREED ADULT DOG FOOD is a fully and balanced formulated super premium dry dog food with salmon, suitable for medium &large dog breeds between 18 - 24 months - 7 years old. Xylo-oligosaccharides (XOS) are super prebiotics obtained by hydrolysis of corn cobs.XOS helps to reduce problems such as unwanted fat and glycemia in cats with approximately zero calorie value. XOS enters the large intestine unmodified and is primarily used by the digestive bacteria Bifidobacteria and Lactobacilli. This reduces negative fermentations that cause energy loss, such as bloating and other digestive ailments. Possible Health Benefits: • It strengthens the immune system. • It increases the digestion and metabolism of nutrients by improving the intestinal flora. • It has natural antioxidant effect. Ingredients: Processed Salmon Protein, Processed Animal Protein, Wheat, Rice, Corn, Chicken Fat, Sugar Beet, Fish Flavor, Whey Powder, Vitamins and Minerals, Salmon Oil, Xylo-Oligosaccharide, Brewer's Yeast, Salt, Yucca Schidigera, Preservatives - Antioxidants. Minerals: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Iron, Selenium. Vitamins: Vitamin A, Vitamin D, Vitamin E, Vitamin C, Vitamin B1 - B2 - B3 (Niacin) - B6 - B12 - B7 (Biotin) - B9 (Folic Acid), Vitamin K, Choline, Calcium Pantothenate. &nbsp; 81% of the protein contains is obtained from animal ingredients. &nbsp; Nutrient Components Crude Protein 25% Crude Fat 14% Crude Ash 8% Crude Cellulose (Fibre) 2,5% Nutritional Supplements Vitamin A (E672) 18,000 IU/kg Vitamin D3 (E671) 1,500 IU/kg Vitamin E (3a700) 150 mg/kg &nbsp;",
+  "images": [
     {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
+      "id": 27543,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/RPDD010-01.jpg",
+      "alt": "Reflex Plus Medium Large Breed Adult Dog Food Salmon 3kg",
+      "name": "RPDD010-01"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=3&#038;add-to-cart=27542",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-medium-large-breed-adult-dog-food-salmon-3kg-2/?add-to-cart=27542",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.244Z",
-  "dateModified": "2026-06-23T09:15:51.244Z"
+  "dateCreated": "2022-04-19T10:56:24",
+  "dateModified": "2026-06-17T04:29:35",
+  "brand": "Reflex",
+  "weight_kg": 3,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/RPDD010-01.jpg"
 }

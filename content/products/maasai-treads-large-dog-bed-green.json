@@ -1,11 +1,11 @@
 {
   "id": 19722,
-  "name": "Maasai Treads Large Dog Bed – Green",
+  "name": "Maasai Treads Large Dog Bed - Green",
   "slug": "maasai-treads-large-dog-bed-green",
   "sku": "MTLDB-G",
   "onSale": false,
-  "price": 61,
-  "regularPrice": 61,
+  "price": 6100,
+  "regularPrice": 6100,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -27,19 +27,11 @@
       "slug": "maasai-treads"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/maasai-treads-large-dog-bed-green/",
-  "shortDescription": "Maasai Treads Small Dog Bed features a sturdy, removable cushion with a Maasai Shuka design, ensuring both style and durability. Not only does this bed provide a cozy spot for your furry friend, but it also supports local artisans and promotes environmental sustainability. Diameter: 75cm",
-  "description": "Elevate your pet&#8217;s comfort with the Maasai Treads Dog Bed, a blend of sustainable materials and traditional craftsmanship. Each bed is crafted from repurposed car tires, giving it a unique, eco-friendly edge. The bed features a sturdy, removable cushion with a Maasai Shuka design, ensuring both style and durability. Not only does this bed provide a cozy spot for your furry friend, but it also supports local artisans and promotes environmental sustainability. Features: Washable Maasai Print Cover: The vibrant Maasai print cover is not only eye-catching but also washable for easy maintenance. Removable Cushion: The bed includes a sturdy, removable cushion lined with a matching Maasai Shuka design, providing extra comfort and convenience. Zippered Cover: The cover features a zipper for easy removal and cleaning, ensuring your pet always has a fresh and hygienic place to rest. Eco-Friendly Materials: Crafted from old car tires, this bed is an environmentally responsible choice that reduces waste. Soft Sponge Lining: Lined with soft sponge, the bed offers a plush, comfortable surface for your pet to relax on. Benefits: Sustainable and Local: By choosing this bed, you support local craftsmanship and contribute to environmental preservation through the reuse of car tires. Easy Maintenance: The washable cover and removable cushion ensure effortless cleaning, so your pet always has a clean place to rest. Durable and Long-Lasting: The combination of repurposed tires and a sturdy cushion guarantees durability and resilience, even with regular use. Comfort and Style: Offers both a comfortable sleeping surface and a stylish, culturally rich design that complements any home decor. Buy Local, Build Local, and Help Save the Environment.",
-  "images": [
+  "brands": [
     {
-      "id": 19705,
-      "alt": "Maasai Treads Large Dog Bed - Green",
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/MTLDB-G.jpg",
-      "name": "MTLDB-G"
+      "id": 2450,
+      "name": "Maasai Treads",
+      "slug": "maasai-treads"
     }
   ],
   "tags": [
@@ -69,20 +61,33 @@
       "slug": "puppy"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/maasai-treads-large-dog-bed-green/",
+  "shortDescription": "Maasai Treads Small Dog Bed features a sturdy, removable cushion with a Maasai Shuka design, ensuring both style and durability. Not only does this bed provide a cozy spot for your furry friend, but it also supports local artisans and promotes environmental sustainability. Diameter: 75cm",
+  "description": "Elevate your pet's comfort with the Maasai Treads Dog Bed, a blend of sustainable materials and traditional craftsmanship. Each bed is crafted from repurposed car tires, giving it a unique, eco-friendly edge. The bed features a sturdy, removable cushion with a Maasai Shuka design, ensuring both style and durability. Not only does this bed provide a cozy spot for your furry friend, but it also supports local artisans and promotes environmental sustainability. Features: Washable Maasai Print Cover: The vibrant Maasai print cover is not only eye-catching but also washable for easy maintenance. Removable Cushion: The bed includes a sturdy, removable cushion lined with a matching Maasai Shuka design, providing extra comfort and convenience. Zippered Cover: The cover features a zipper for easy removal and cleaning, ensuring your pet always has a fresh and hygienic place to rest. Eco-Friendly Materials: Crafted from old car tires, this bed is an environmentally responsible choice that reduces waste. Soft Sponge Lining: Lined with soft sponge, the bed offers a plush, comfortable surface for your pet to relax on. Benefits: Sustainable and Local: By choosing this bed, you support local craftsmanship and contribute to environmental preservation through the reuse of car tires. Easy Maintenance: The washable cover and removable cushion ensure effortless cleaning, so your pet always has a clean place to rest. Durable and Long-Lasting: The combination of repurposed tires and a sturdy cushion guarantees durability and resilience, even with regular use. Comfort and Style: Offers both a comfortable sleeping surface and a stylish, culturally rich design that complements any home decor. Buy Local, Build Local, and Help Save the Environment.",
+  "images": [
     {
-      "id": 2450,
-      "name": "Maasai Treads",
-      "slug": "maasai-treads"
+      "id": 19705,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/MTLDB-G.jpg",
+      "alt": "Maasai Treads Large Dog Bed - Green",
+      "name": "MTLDB-G"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 4,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=2&#038;add-to-cart=19722",
+  "addToCartUrl": "https://petstore.co.ke/product/maasai-treads-large-dog-bed-green/?add-to-cart=19722",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.168Z",
-  "dateModified": "2026-06-23T09:15:51.168Z"
+  "dateCreated": "2021-04-06T21:27:13",
+  "dateModified": "2026-06-23T13:12:31",
+  "brand": "Maasai Treads",
+  "weight_kg": 8,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/MTLDB-G.jpg"
 }

@@ -1,12 +1,12 @@
 {
   "id": 873,
-  "name": "Bonnie Canned Cat Food – Chicken in Gravy 400g",
+  "name": "Bonnie Canned Cat Food - Chicken in Gravy 400g",
   "slug": "bonnie-canned-cat-food-chicken-in-gravy-400gr",
   "sku": "BCW003",
   "onSale": true,
-  "price": 2.31,
-  "regularPrice": 2.89,
-  "salePrice": 2.31,
+  "price": 231,
+  "regularPrice": 289,
+  "salePrice": 231,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2018/02/Bonnie-Adult-Cat-Canned-Chicken-Chunks-in-Gravy-1080x1080-c.png",
@@ -32,19 +32,11 @@
       "slug": "wet-cat-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/bonnie-canned-cat-food-chicken-in-gravy-400gr/",
-  "shortDescription": "Nutritious wet food made with tender chicken pieces in sauce. Enriched with essential vitamins, minerals, and taurine to support strong muscles, healthy digestion, and hydration for adult cats.",
-  "description": "Bonnie Chicken Adult Cat Canned Food offers a delicious and balanced meal for adult cats. Made with tender meat pieces in a tasty sauce, it provides essential nutrients to support overall health and vitality. The recipe contains quality chicken protein, vitamins, and minerals to help maintain strong muscles, a shiny coat, and optimal well-being. Its high moisture content also supports hydration and kidney health. Key Benefits: Made with high-quality chicken protein (4%) for strength and energy. Rich in moisture (82%) to support hydration and urinary health. Contains essential vitamins and minerals for a healthy coat and immune system. Fortified with taurine to support heart and vision health. Soft texture and savory sauce make it highly palatable for adult cats. Ingredients: Meat and Animal Derivatives (4% Chicken), Grains, Minerals, Plant By-products, Sugar. Nutritional Values: Component Value Crude Protein 6.5% Crude Fats and Oils 3.5% Crude Fibre 0.3% Raw Ash 2% Moisture 82% Nutritional Additives (per kg): Vitamin D3: 150 IU Vitamin E: 10 IU Copper: 1.4 mg Manganese: 2 mg Zinc: 10 mg Taurine: 220 mg Feeding Recommendations and Warnings Refer to the feeding table for guidance. Individual requirements may vary depending on your cat’s age, breed, and activity level . Ensure fresh drinking water is available at all times. Serve the food at room temperature for optimal taste and digestibility.",
-  "images": [
+  "brands": [
     {
-      "id": 874,
-      "alt": "Bonnie Adult Cat Canned Chicken Chunks in Gravy 1080x1080 c",
-      "src": "https://petstore.co.ke/wp-content/uploads/2018/02/Bonnie-Adult-Cat-Canned-Chicken-Chunks-in-Gravy-1080x1080-c.png",
-      "name": "Bonnie Adult Cat Canned Chicken Chunks in Gravy 1080&#215;1080 c"
+      "id": 2428,
+      "name": "Bonnie",
+      "slug": "bonnie"
     }
   ],
   "tags": [
@@ -79,20 +71,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/bonnie-canned-cat-food-chicken-in-gravy-400gr/",
+  "shortDescription": "Nutritious wet food made with tender chicken pieces in sauce. Enriched with essential vitamins, minerals, and taurine to support strong muscles, healthy digestion, and hydration for adult cats.",
+  "description": "Bonnie Chicken Adult Cat Canned Food offers a delicious and balanced meal for adult cats. Made with tender meat pieces in a tasty sauce, it provides essential nutrients to support overall health and vitality. The recipe contains quality chicken protein, vitamins, and minerals to help maintain strong muscles, a shiny coat, and optimal well-being. Its high moisture content also supports hydration and kidney health. Key Benefits: Made with high-quality chicken protein (4%) for strength and energy. Rich in moisture (82%) to support hydration and urinary health. Contains essential vitamins and minerals for a healthy coat and immune system. Fortified with taurine to support heart and vision health. Soft texture and savory sauce make it highly palatable for adult cats. Ingredients: Meat and Animal Derivatives (4% Chicken), Grains, Minerals, Plant By-products, Sugar. Nutritional Values: Component Value Crude Protein 6.5% Crude Fats and Oils 3.5% Crude Fibre 0.3% Raw Ash 2% Moisture 82% Nutritional Additives (per kg): Vitamin D3: 150 IU Vitamin E: 10 IU Copper: 1.4 mg Manganese: 2 mg Zinc: 10 mg Taurine: 220 mg Feeding Recommendations and Warnings Refer to the feeding table for guidance. Individual requirements may vary depending on your cat’s age, breed, and activity level . Ensure fresh drinking water is available at all times. Serve the food at room temperature for optimal taste and digestibility.",
+  "images": [
     {
-      "id": 2428,
-      "name": "Bonnie",
-      "slug": "bonnie"
+      "id": 874,
+      "src": "https://petstore.co.ke/wp-content/uploads/2018/02/Bonnie-Adult-Cat-Canned-Chicken-Chunks-in-Gravy-1080x1080-c.png",
+      "alt": "Bonnie Adult Cat Canned Chicken Chunks in Gravy 1080x1080 c",
+      "name": "Bonnie Adult Cat Canned Chicken Chunks in Gravy 1080&#215;1080 c"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=1&#038;add-to-cart=873",
+  "addToCartUrl": "https://petstore.co.ke/product/bonnie-canned-cat-food-chicken-in-gravy-400gr/?add-to-cart=873",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.058Z",
-  "dateModified": "2026-06-23T09:15:51.058Z"
+  "dateCreated": "2018-02-16T23:54:08",
+  "dateModified": "2026-06-24T16:12:06",
+  "brand": "Bonnie",
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2018/02/Bonnie-Adult-Cat-Canned-Chicken-Chunks-in-Gravy-1080x1080-c.png"
 }

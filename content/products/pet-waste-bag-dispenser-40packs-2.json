@@ -4,8 +4,8 @@
   "slug": "pet-waste-bag-dispenser-40packs-2",
   "sku": "PA0127",
   "onSale": false,
-  "price": 4.5,
-  "regularPrice": 4.5,
+  "price": 450,
+  "regularPrice": 450,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -42,21 +42,7 @@
       "slug": "generic"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pet-waste-bag-dispenser-40packs-2/",
-  "shortDescription": "Dog Poop Bag Holder with Leash Clip . Comes with 40 disposable waste bags, each bag is perforate for easy separation. Make your pet care routine more efficient and enjoyable with the PET Waste Bag + Dispenser 40 Packs.",
-  "description": "PET Waste Bag + Dispenser &#8211; 40 Packs Keep your surroundings clean and your pet happy with our PET Waste Bag + Dispenser Combo! Designed for convenience and reliability, this all-in-one solution makes dog walks and clean-ups a breeze. Features: 40 High-Quality Waste Bags: Each pack contains 40 durable, leak-proof waste bags that are designed to handle even the largest messes. Made from eco-friendly materials, these bags are strong, tear-resistant, and perfect for responsible pet owners. Easy-to-Use Dispenser: The included dispenser is compact and easily attaches to your leash or belt for quick access. It features a simple, one-handed operation for fast bag retrieval, ensuring you&#8217;re always prepared. Convenient Design: Fitting comfortably in your hand or pocket. It includes a built-in clip for hassle-free attachment to your leash or bag. Make your pet care routine more efficient and enjoyable with the PET Waste Bag + Dispenser 40 Packs. Whether you’re heading out for a walk or managing your pet’s waste at home, this practical combo ensures you&#8217;re always prepared for a clean and pleasant experience.",
-  "images": [
-    {
-      "id": 42866,
-      "alt": "Pet Waste Bag + Dispenser 40packs",
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/01/Pet-waste-Bag-and-dispenser-40pack.png",
-      "name": "Pet waste Bag and dispenser 40pack"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 1148,
@@ -64,14 +50,33 @@
       "slug": "pet-care"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/pet-waste-bag-dispenser-40packs-2/",
+  "shortDescription": "Dog Poop Bag Holder with Leash Clip . Comes with 40 disposable waste bags, each bag is perforate for easy separation. Make your pet care routine more efficient and enjoyable with the PET Waste Bag + Dispenser 40 Packs.",
+  "description": "PET Waste Bag + Dispenser - 40 Packs Keep your surroundings clean and your pet happy with our PET Waste Bag + Dispenser Combo! Designed for convenience and reliability, this all-in-one solution makes dog walks and clean-ups a breeze. Features: 40 High-Quality Waste Bags: Each pack contains 40 durable, leak-proof waste bags that are designed to handle even the largest messes. Made from eco-friendly materials, these bags are strong, tear-resistant, and perfect for responsible pet owners. Easy-to-Use Dispenser: The included dispenser is compact and easily attaches to your leash or belt for quick access. It features a simple, one-handed operation for fast bag retrieval, ensuring you're always prepared. Convenient Design: Fitting comfortably in your hand or pocket. It includes a built-in clip for hassle-free attachment to your leash or bag. Make your pet care routine more efficient and enjoyable with the PET Waste Bag + Dispenser 40 Packs. Whether you’re heading out for a walk or managing your pet’s waste at home, this practical combo ensures you're always prepared for a clean and pleasant experience.",
+  "images": [
+    {
+      "id": 42866,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/01/Pet-waste-Bag-and-dispenser-40pack.png",
+      "alt": "Pet Waste Bag + Dispenser 40packs",
+      "name": "Pet waste Bag and dispenser 40pack"
+    }
+  ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=42865",
+  "addToCartUrl": "https://petstore.co.ke/product/pet-waste-bag-dispenser-40packs-2/?add-to-cart=42865",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.352Z",
-  "dateModified": "2026-06-23T09:15:51.352Z"
+  "dateCreated": "2024-01-03T11:09:24",
+  "dateModified": "2026-06-18T10:11:59",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/01/Pet-waste-Bag-and-dispenser-40pack.png"
 }

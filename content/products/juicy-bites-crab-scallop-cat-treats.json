@@ -4,18 +4,13 @@
   "slug": "juicy-bites-crab-scallop-cat-treats",
   "sku": "BJCT001",
   "onSale": false,
-  "price": 4.3,
-  "regularPrice": 4.3,
+  "price": 430,
+  "regularPrice": 430,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/Juicy-Bites-Cat-Scallop-Crab-Flavor.png",
   "categories": [
-    {
-      "id": 2415,
-      "name": "Inaba",
-      "slug": "inaba"
-    },
     {
       "id": 2325,
       "name": "Cat",
@@ -35,21 +30,18 @@
       "id": 2386,
       "name": "Churu",
       "slug": "churu"
+    },
+    {
+      "id": 2415,
+      "name": "Inaba",
+      "slug": "inaba"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/juicy-bites-crab-scallop-cat-treats/",
-  "shortDescription": "Inaba Juicy Bites cat treats in Crab &amp; Scallop Flavors. Moist, low-calorie, grain-free, enriched with Vitamin E &amp; antioxidants. Perfect for hand-feeding or training. &nbsp;",
-  "description": "Spoil your cat with Inaba Foods Juicy Bites in Crab &amp; Scallop Flavors , tender, bite-sized snacks made with high-quality, wholesome ingredients. Each moist treat contains 71% moisture and only 15 calories per piece almost 50% fewer calories than traditional dry treats making them a healthy indulgence for your kitty. Free from grains, preservatives, artificial colors, and carrageenan, these flavorful bites are enriched with Vitamin E for immunity and Green Tea Extract for antioxidant support. Vacuum-sealed in small 0.4oz packs, they lock in juiciness and flavor, perfect for handfeeding, clicker training, or hiding medications. Available in fun shapes and flavor duos, these treats are suitable for cats of all life stages, from kittens to seniors, and bring variety and excitement to your cat’s daily routine. Key Benefits . Moist, bite-sized treats with 71% moisture . Only 15 calories per bite, healthier than traditional treats . Grain-free, preservative-free, and no artificial colors . Enriched with Vitamin E &amp; Green Tea Extract antioxidants . Perfect for handfeeding, training, or hiding pills . Fun-shaped, individually packed servings to lock in flavor . Suitable for kittens, adults, and senior cats Ingredients Chicken, Tuna, Natural Scallop Flavor, Tapioca, Natural Crab Flavor, Vitamin E Supplement, Green Tea Extract, Paprika Oleoresin Guaranteed Analysis Crude Protein (min): 24% Crude Fat (min): 2.5% Crude Fiber (max): 0.5% Moisture (max): 71% Vitamin E (min): 200 IU/kg Calories: 1300 kcal/kg | 15 kcal per piece Net Weight: 1.2oz (0.4oz x 3 packs) Feeding Instructions Feed as a treat only. Not intended as a complete meal. Provide fresh water daily. Storage Instructions Refrigerate after opening and serve promptly for maximum freshness. &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 69958,
-      "alt": "Inaba Foods Cat Treat Juicy Bites In Crab & Scallop Flavors",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/02/Juicy-Bites-Cat-Scallop-Crab-Flavor.png",
-      "name": "Juicy Bites Cat Scallop &#038; Crab Flavor"
+      "id": 2433,
+      "name": "Churu",
+      "slug": "churu"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "treats"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/juicy-bites-crab-scallop-cat-treats/",
+  "shortDescription": "Inaba Juicy Bites cat treats in Crab & Scallop Flavors. Moist, low-calorie, grain-free, enriched with Vitamin E & antioxidants. Perfect for hand-feeding or training. &nbsp;",
+  "description": "Spoil your cat with Inaba Foods Juicy Bites in Crab & Scallop Flavors , tender, bite-sized snacks made with high-quality, wholesome ingredients. Each moist treat contains 71% moisture and only 15 calories per piece almost 50% fewer calories than traditional dry treats making them a healthy indulgence for your kitty. Free from grains, preservatives, artificial colors, and carrageenan, these flavorful bites are enriched with Vitamin E for immunity and Green Tea Extract for antioxidant support. Vacuum-sealed in small 0.4oz packs, they lock in juiciness and flavor, perfect for handfeeding, clicker training, or hiding medications. Available in fun shapes and flavor duos, these treats are suitable for cats of all life stages, from kittens to seniors, and bring variety and excitement to your cat’s daily routine. Key Benefits . Moist, bite-sized treats with 71% moisture . Only 15 calories per bite, healthier than traditional treats . Grain-free, preservative-free, and no artificial colors . Enriched with Vitamin E & Green Tea Extract antioxidants . Perfect for handfeeding, training, or hiding pills . Fun-shaped, individually packed servings to lock in flavor . Suitable for kittens, adults, and senior cats Ingredients Chicken, Tuna, Natural Scallop Flavor, Tapioca, Natural Crab Flavor, Vitamin E Supplement, Green Tea Extract, Paprika Oleoresin Guaranteed Analysis Crude Protein (min): 24% Crude Fat (min): 2.5% Crude Fiber (max): 0.5% Moisture (max): 71% Vitamin E (min): 200 IU/kg Calories: 1300 kcal/kg | 15 kcal per piece Net Weight: 1.2oz (0.4oz x 3 packs) Feeding Instructions Feed as a treat only. Not intended as a complete meal. Provide fresh water daily. Storage Instructions Refrigerate after opening and serve promptly for maximum freshness. &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2433,
-      "name": "Churu",
-      "slug": "churu"
+      "id": 69958,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/02/Juicy-Bites-Cat-Scallop-Crab-Flavor.png",
+      "alt": "Inaba Foods Cat Treat Juicy Bites In Crab & Scallop Flavors",
+      "name": "Juicy Bites Cat Scallop &#038; Crab Flavor"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=69957",
+  "addToCartUrl": "https://petstore.co.ke/product/juicy-bites-crab-scallop-cat-treats/?add-to-cart=69957",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.938Z",
-  "dateModified": "2026-06-23T09:15:51.938Z"
+  "dateCreated": "2026-02-23T11:19:49",
+  "dateModified": "2026-06-17T04:30:36",
+  "brand": "Churu",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/Juicy-Bites-Cat-Scallop-Crab-Flavor.png"
 }

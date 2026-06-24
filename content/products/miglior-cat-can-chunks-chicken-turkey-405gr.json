@@ -1,12 +1,12 @@
 {
   "id": 55366,
-  "name": "Miglior Canned Cat Food - Chicken & Turkey Chunks, 405g",
+  "name": "Pack Of 24 - Miglior Canned Cat Food - Chicken & Turkey Chunks, 405g",
   "slug": "miglior-cat-can-chunks-chicken-turkey-405gr",
-  "sku": "MCW001@OFFER",
+  "sku": "MCW001$24",
   "onSale": true,
-  "price": 134,
-  "regularPrice": 268,
-  "salePrice": 134,
+  "price": 5146,
+  "regularPrice": 6432,
+  "salePrice": 5146,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW001.jpg",
@@ -35,6 +35,11 @@
   "brands": [],
   "tags": [
     {
+      "id": 2055,
+      "name": "Bulk Cat Food & Bulk Dog Food",
+      "slug": "bulk"
+    },
+    {
       "id": 622,
       "name": "canned food",
       "slug": "canned-food"
@@ -50,11 +55,6 @@
       "slug": "catfood"
     },
     {
-      "id": 939,
-      "name": "On Sale Now",
-      "slug": "sale"
-    },
-    {
       "id": 621,
       "name": "wet food",
       "slug": "wet-food"
@@ -64,7 +64,7 @@
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=55366",
+  "permalink": "https://petstore.co.ke/product/miglior-cat-can-chunks-chicken-turkey-405gr/",
   "shortDescription": "Miglior Chicken & Turkey Chunks delivers essential vitamins, Omega-3, calcium, and phosphorus to help your cat maintain strong bones, healthy skin, and a sleek, glossy coat.",
   "description": "COMPOSITION: Meat and animal derivatives 30% (chicken 5%, turkey 5%), cereals, minerals. ANALYTICAL CONSTITUENTS: Moisture 77%, Crude protein 8.5%, Crude fat 4.8%, Crude fibres 0.5%, Crude ash 3%. Nutritional additives / kg: Vitamin E 10 mg, Copper (Copper(II) sulphate pentahydrate) 2 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight. Once opened, store in refrigerator for 2-3 days.",
   "images": [
@@ -79,11 +79,11 @@
   "lowStockRemaining": null,
   "isPurchasable": true,
   "addToCartUrl": "https://petstore.co.ke/product/miglior-cat-can-chunks-chicken-turkey-405gr/?add-to-cart=55366",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
   "dateCreated": "2025-05-26T12:22:37",
-  "dateModified": "2026-05-06T17:11:18",
+  "dateModified": "2026-06-24T16:21:11",
   "brand": null,
   "weight_kg": 0.405,
   "animal_type": "cat",

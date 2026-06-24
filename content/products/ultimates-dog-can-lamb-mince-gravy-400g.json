@@ -12,11 +12,6 @@
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/06/Ultimates-dog-can-lamb-mince-in-gravy.png",
   "categories": [
     {
-      "id": 2416,
-      "name": "Ultimates",
-      "slug": "ultimates"
-    },
-    {
       "id": 2345,
       "name": "Dog",
       "slug": "dog-supplies-store"
@@ -25,6 +20,11 @@
       "id": 2346,
       "name": "Dog Food & Treats",
       "slug": "dog-food-treats"
+    },
+    {
+      "id": 2416,
+      "name": "Ultimates",
+      "slug": "ultimates"
     },
     {
       "id": 2349,

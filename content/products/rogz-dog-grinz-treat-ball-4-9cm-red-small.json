@@ -1,11 +1,11 @@
 {
   "id": 17368,
-  "name": "Rogz Dog ginz-Treat Ball 4.9cm – Red Small",
+  "name": "Rogz Dog ginz-Treat Ball 4.9cm - Red Small",
   "slug": "rogz-dog-grinz-treat-ball-4-9cm-red-small",
   "sku": "GR01-C",
   "onSale": false,
-  "price": 9.5,
-  "regularPrice": 9.5,
+  "price": 950,
+  "regularPrice": 950,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -27,21 +27,7 @@
       "slug": "rogz"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-4-9cm-red-small/",
-  "shortDescription": "Rogz Grinz ball &#8211; Red Small",
-  "description": "Rogz Grinz Ball is a fillable toy ball for dogs. You can fill this ball with any treat of your choosing. When your dog plays with the ball treats will fall out of the toy. This way you can stimulate your dog to stay active. This ball has an image of teeth, which looks very funny when your dog has the ball in its mouth. The Rogz Grinz Ball is available in several sizes and colours. Size: Small 4.9mm",
-  "images": [
-    {
-      "id": 17342,
-      "alt": "Rogz Dog ginz-Treat Ball 4.9cm – Red Small",
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/GR01-C-Red-Grinz.jpg",
-      "name": "GR01-C Red Grinz"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 1205,
@@ -59,14 +45,33 @@
       "slug": "toys"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-4-9cm-red-small/",
+  "shortDescription": "Rogz Grinz ball – Red Small",
+  "description": "Rogz Grinz Ball is a fillable toy ball for dogs. You can fill this ball with any treat of your choosing. When your dog plays with the ball treats will fall out of the toy. This way you can stimulate your dog to stay active. This ball has an image of teeth, which looks very funny when your dog has the ball in its mouth. The Rogz Grinz Ball is available in several sizes and colours. Size: Small 4.9mm",
+  "images": [
+    {
+      "id": 17342,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/GR01-C-Red-Grinz.jpg",
+      "alt": "Rogz Dog ginz-Treat Ball 4.9cm – Red Small",
+      "name": "GR01-C Red Grinz"
+    }
+  ],
   "stockStatus": "instock",
-  "lowStockRemaining": 4,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=1&#038;add-to-cart=17368",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-4-9cm-red-small/?add-to-cart=17368",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.107Z",
-  "dateModified": "2026-06-23T09:15:51.107Z"
+  "dateCreated": "2021-01-08T19:38:01",
+  "dateModified": "2026-06-20T11:12:01",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/GR01-C-Red-Grinz.jpg"
 }
