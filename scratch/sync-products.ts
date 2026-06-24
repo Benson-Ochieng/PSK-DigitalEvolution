@@ -1,6 +1,15 @@
 import fs from "fs";
 import path from "path";
-import { mockProducts, mockStorePrices } from "../app/db.mock";
+import pg from "pg";
+import dotenv from "dotenv";
+
+dotenv.config();
+
+const dbUrl = process.env.DATABASE_URL;
+if (!dbUrl) {
+  console.error("DATABASE_URL is not set in .env");
+  process.exit(1);
+}
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
 const PRODUCTS_DIR = path.join(CONTENT_DIR, "products");
@@ -55,7 +64,7 @@ function decodeHtml(str: string | null): string {
 }
 
 async function main() {
-  console.log("Starting product seeding sync...");
+  console.log("Starting product seeding sync from database...");
 
   // 1. Ensure directories exist
   for (const dir of [PRODUCTS_DIR, CATEGORIES_DIR, BRANDS_DIR, TAGS_DIR]) {
@@ -67,11 +76,29 @@ async function main() {
   // 2. Clear old products files
   const existingFiles = fs.readdirSync(PRODUCTS_DIR);
   for (const file of existingFiles) {
-    fs.unlinkSync(path.join(PRODUCTS_DIR, file));
+    if (file.endsWith(".json")) {
+      fs.unlinkSync(path.join(PRODUCTS_DIR, file));
+    }
   }
   console.log(`Cleared ${existingFiles.length} legacy product files.`);
 
-  // 3. Define basic Categories
+  // 3. Connect to database and fetch products + store prices
+  console.log(`Connecting to database at ${dbUrl}`);
+  const pool = new pg.Pool({ connectionString: dbUrl });
+  let products: any[] = [];
+  let storePrices: any[] = [];
+  try {
+    const pRes = await pool.query("SELECT * FROM products");
+    products = pRes.rows;
+    console.log(`Fetched ${products.length} products from PostgreSQL.`);
+    const spRes = await pool.query("SELECT * FROM store_prices");
+    storePrices = spRes.rows;
+    console.log(`Fetched ${storePrices.length} store prices from PostgreSQL.`);
+  } finally {
+    await pool.end();
+  }
+
+  // 4. Define basic Categories
   const categoryMap = new Map<string, { id: number; name: string; slug: string }>();
   const defaultCategories = [
     { id: 1, name: "Dog Food", slug: "dog-food" },
@@ -82,8 +109,8 @@ async function main() {
   ];
   defaultCategories.forEach(cat => categoryMap.set(cat.slug, cat));
 
-  // 4. Extract Brands dynamically
-  const brandNames = Array.from(new Set(mockProducts.map(p => p.brand).filter(Boolean))) as string[];
+  // 5. Extract Brands dynamically
+  const brandNames = Array.from(new Set(products.map(p => p.brand).filter(Boolean))) as string[];
   const brands = brandNames.map((name, idx) => ({
     id: idx + 10,
     name,
@@ -97,7 +124,7 @@ async function main() {
   fs.writeFileSync(path.join(BRANDS_DIR, "_index.json"), JSON.stringify(brands, null, 2), "utf-8");
   console.log(`Synced ${brands.length} brands to ${BRANDS_DIR}`);
 
-  // 5. Define Tags
+  // 6. Define Tags
   const defaultTags = [
     { id: 1, name: "Premium", slug: "premium", desc: "Super premium quality pet food and accessories." },
     { id: 2, name: "Senior", slug: "senior", desc: "Specifically formulated for older pets." },
@@ -107,12 +134,12 @@ async function main() {
   ];
   fs.writeFileSync(path.join(TAGS_DIR, "_index.json"), JSON.stringify(defaultTags, null, 2), "utf-8");
 
-  // 6. Process Products
+  // 7. Process Products
   const productsSummaryList: any[] = [];
 
-  for (const p of mockProducts) {
+  for (const p of products) {
     // Find prices
-    const productPrices = mockStorePrices.filter(sp => sp.product_id === p.id);
+    const productPrices = storePrices.filter(sp => sp.product_id === p.id);
     const pskPriceObj = productPrices.find(sp => sp.store_name === "PetStore Kenya");
     const ourPrice = pskPriceObj ? Number(pskPriceObj.price) : 0;
     const pskUrl = pskPriceObj ? pskPriceObj.product_url : null;
@@ -155,6 +182,8 @@ async function main() {
     const inStock = pskPriceObj ? pskPriceObj.in_stock : true;
     const sku = `PSK-${p.id}-${p.brand ? slugify(p.brand) : "gen"}`;
 
+    const dateStr = p.created_at instanceof Date ? p.created_at.toISOString() : (p.created_at || new Date().toISOString());
+
     const productSummary = {
       id: p.id,
       name: decodedName,
@@ -174,8 +203,8 @@ async function main() {
       averageRating: 5,
       reviewCount: 1,
       status: "publish",
-      dateCreated: p.created_at || new Date().toISOString(),
-      dateModified: p.created_at || new Date().toISOString()
+      dateCreated: dateStr,
+      dateModified: dateStr
     };
 
     productsSummaryList.push(productSummary);
@@ -217,7 +246,7 @@ async function main() {
   );
   console.log(`Synced ${productsSummaryList.length} products to ${PRODUCTS_DIR}`);
 
-  // 7. Write categories index
+  // 8. Write categories index
   const categoriesList = defaultCategories.map(cat => {
     // Count products in this category
     const count = productsSummaryList.filter(p => p.categories.some((c: any) => c.slug === cat.slug)).length;
@@ -239,7 +268,7 @@ async function main() {
   );
   console.log(`Synced ${categoriesList.length} categories to ${CATEGORIES_DIR}`);
 
-  // 8. Update Site Meta to PetStore Kenya
+  // 9. Update Site Meta to PetStore Kenya
   const siteMeta = {
     name: "PetStore Kenya",
     description: "Kenya's Premier Pet Food & Accessories Store",

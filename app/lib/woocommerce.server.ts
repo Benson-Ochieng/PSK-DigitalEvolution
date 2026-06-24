@@ -1,8 +1,6 @@
 import fs from "fs";
 import path from "path";
 import { query, withTransaction } from "~/db.server";
-import { mockProducts, mockStorePrices, mockCustomers, mockOrders, mockOrderItems } from "~/db.mock";
-
 // WooCommerce configuration
 const CONSUMER_KEY = process.env.WOOCOMMERCE_KEY || "ck_48cbc0db974eb4ef3fac3b8c8065e538508ebf83";
 const CONSUMER_SECRET = process.env.WOOCOMMERCE_SECRET || "cs_b49d274a57e1fdd0bc6a3342cb15d3e5f09f9813";
@@ -18,13 +16,6 @@ const BRANDS_DIR = path.join(CONTENT_DIR, "brands");
 const TAGS_DIR = path.join(CONTENT_DIR, "tags");
 const USERS_FILE = path.join(CONTENT_DIR, "users.json");
 const ORDERS_FILE = path.join(CONTENT_DIR, "orders.json");
-
-// Mock DB Local Persistence Files (to prevent in-memory resets)
-const MOCK_PRODUCTS_FILE = path.join(CONTENT_DIR, "db_products.json");
-const MOCK_PRICES_FILE = path.join(CONTENT_DIR, "db_store_prices.json");
-const MOCK_CUSTOMERS_FILE = path.join(CONTENT_DIR, "db_customers.json");
-const MOCK_ORDERS_FILE = path.join(CONTENT_DIR, "db_orders.json");
-const MOCK_ORDER_ITEMS_FILE = path.join(CONTENT_DIR, "db_order_items.json");
 
 // Sync Status definition
 export interface SyncStatus {
@@ -443,22 +434,7 @@ export async function syncWooCommerceData(): Promise<{ success: boolean; stats: 
     }));
     fs.writeFileSync(path.join(BRANDS_DIR, "_index.json"), JSON.stringify(brandsList, null, 2));
 
-    // Update in-memory database and local backup files
-    console.log("Updating products & prices in-memory mock database arrays...");
-    fs.writeFileSync(MOCK_PRODUCTS_FILE, JSON.stringify(productsDetailList, null, 2));
-    mockProducts.splice(0, mockProducts.length, ...productsDetailList);
 
-    const pricesDBShape = storePricesList.map((sp, idx) => ({
-      id: idx + 1,
-      product_id: sp.product_id,
-      store_name: sp.store_name,
-      price: sp.price,
-      product_url: sp.product_url,
-      in_stock: sp.in_stock,
-      last_updated: sp.last_updated
-    }));
-    fs.writeFileSync(MOCK_PRICES_FILE, JSON.stringify(pricesDBShape, null, 2));
-    mockStorePrices.splice(0, mockStorePrices.length, ...pricesDBShape);
 
     // Sync products and prices to PostgreSQL database if connection active
     try {
@@ -613,24 +589,7 @@ export async function syncWooCommerceData(): Promise<{ success: boolean; stats: 
     fs.writeFileSync(USERS_FILE, JSON.stringify(usersList, null, 2));
     fs.writeFileSync(ORDERS_FILE, JSON.stringify(jsonOrdersList, null, 2));
 
-    console.log("Updating customers and orders mock database backups...");
-    fs.writeFileSync(MOCK_CUSTOMERS_FILE, JSON.stringify(customersList, null, 2));
-    fs.writeFileSync(MOCK_ORDERS_FILE, JSON.stringify(ordersList, null, 2));
-    
-    mockCustomers.splice(0, mockCustomers.length, ...customersList);
-    mockOrders.splice(0, mockOrders.length, ...ordersList);
 
-    const orderItemsDBShape = orderItemsList.map((oi, idx) => ({
-      id: idx + 1,
-      order_id: oi.order_id,
-      product_id: oi.product_id,
-      product_name: oi.product_name,
-      qty: oi.qty,
-      unit_price: oi.unit_price,
-      total_price: oi.total_price
-    }));
-    fs.writeFileSync(MOCK_ORDER_ITEMS_FILE, JSON.stringify(orderItemsDBShape, null, 2));
-    mockOrderItems.splice(0, mockOrderItems.length, ...orderItemsDBShape);
 
     // Sync customers and orders to PostgreSQL database if active
     try {

@@ -126,14 +126,7 @@ async function main() {
   // Update petstore_seed.sql
   updateSqlSeed(scrapedProducts);
   
-  // Re-run mock database generation script
-  console.log('Rebuilding app/db.mock.ts...');
-  try {
-    execSync('node scratch/generate_mock_db.js', { stdio: 'inherit' });
-    console.log('Seed migration and mock database synchronization complete!');
-  } catch (err) {
-    console.error('Failed to run mock db generator:', err);
-  }
+  console.log('Seed migration data updated!');
 }
 
 async function scrapeProductPage(url) {

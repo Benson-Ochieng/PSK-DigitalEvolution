@@ -76,7 +76,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     } else if (normSlug === "rabbit-food" || normSlug === "rabbit") {
       pageTitle = "Rabbit";
     } else {
-      pageTitle = normSlug.split("-").map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+      pageTitle = normSlug.split("-").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
     }
   } else {
     if (animal === "dog") pageTitle = "Dog";
