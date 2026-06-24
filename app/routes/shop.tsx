@@ -24,7 +24,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   let type   = url.searchParams.get("type")   || "";
   const urlSearch = url.searchParams.get("q") || "";
   let brand  = url.searchParams.get("brand")   || "";
-  const limit  = Number(url.searchParams.get("limit")) || 0;
+  const limit  = Number(url.searchParams.get("limit")) || 24;
   const sort   = url.searchParams.get("sort") || "availability";
 
   let search = urlSearch;
@@ -92,6 +92,10 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   if (type)   { sqlParams.push(type);   conditions.push(`p.food_type = $${sqlParams.length}`); }
   if (search) { sqlParams.push(`%${search.toLowerCase()}%`); conditions.push(`LOWER(p.name) LIKE $${sqlParams.length}`); }
   if (brand)  { sqlParams.push(brand);  conditions.push(`LOWER(p.brand) = LOWER($${sqlParams.length})`); }
+  if (categorySlug) {
+    sqlParams.push(JSON.stringify([{ slug: categorySlug }]));
+    conditions.push(`p.categories @> $${sqlParams.length}::jsonb`);
+  }
 
   const where = conditions.length ? `WHERE ${conditions.join(" AND ")}` : "";
 
@@ -118,11 +122,17 @@ export async function loader({ request, params }: Route.LoaderArgs) {
 
   const allProducts = res.rows;
   const totalResults = allProducts.length;
-  const productsToShow = limit > 0 ? allProducts.slice(0, limit) : allProducts;
+  const page = Number(url.searchParams.get("page")) || 1;
+  const totalPages = Math.ceil(totalResults / limit);
+  const currentPage = Math.max(1, Math.min(page, totalPages || 1));
+  const startIndex = (currentPage - 1) * limit;
+  const productsToShow = allProducts.slice(startIndex, startIndex + limit);
 
   return { 
     products: productsToShow, 
     totalResults, 
+    totalPages,
+    currentPage,
     animal, 
     type, 
     urlSearch, 
@@ -299,6 +309,8 @@ export default function Shop() {
   const { 
     products, 
     totalResults, 
+    totalPages,
+    currentPage,
     animal, 
     type, 
     urlSearch, 
@@ -310,6 +322,23 @@ export default function Shop() {
   } = useLoaderData<typeof loader>();
   const navigate = useNavigate();
   const [searchVal, setSearchVal] = useState(urlSearch);
+
+  function buildPageHref(pageNumber: number) {
+    const p = new URLSearchParams();
+    if (brand) p.set("brand", brand);
+    if (limit) p.set("limit", String(limit));
+    if (sort) p.set("sort", sort);
+    if (urlSearch) p.set("q", urlSearch);
+    if (pageNumber > 1) p.set("page", String(pageNumber));
+
+    const queryStr = p.toString() ? "?" + p.toString() : "";
+    if (slug) {
+      return `/product-category/${slug}/${queryStr}`;
+    }
+    if (animal) p.set("animal", animal);
+    if (type) p.set("type", type);
+    return `/shop${p.toString() ? "?" + p.toString() : ""}`;
+  }
 
   function buildCategoryHref(newBrand: string, newLimit?: number, newSort?: string) {
     const p = new URLSearchParams();
@@ -470,14 +499,13 @@ export default function Shop() {
                 <div className="paging-control">
                   <span>Products per page:</span>
                   <select 
-                    value={limit || ""} 
+                    value={limit || 24} 
                     onChange={e => {
-                      const val = Number(e.target.value) || 0;
+                      const val = Number(e.target.value) || 24;
                       navigate(buildCategoryHref(brand, val, sort));
                     }}
                     className="paging-select"
                   >
-                    <option value="">-- Select --</option>
                     <option value="12">12</option>
                     <option value="24">24</option>
                     <option value="48">48</option>
@@ -507,9 +535,49 @@ export default function Shop() {
                 </p>
               </div>
             ) : (
-              <div className="product-grid">
-                {products.map((p: any) => <ProductCard key={p.id} p={p} animal={animal} />)}
-              </div>
+              <>
+                <div className="product-grid">
+                  {products.map((p: any) => <ProductCard key={p.id} p={p} animal={animal} />)}
+                </div>
+
+                {/* Pagination Controls */}
+                {totalPages > 1 && (
+                  <div className="pagination-container">
+                    {currentPage > 1 && (
+                      <Link to={buildPageHref(currentPage - 1)} className="pagination-btn">
+                        ←
+                      </Link>
+                    )}
+
+                    {getVisiblePages(currentPage, totalPages).map((p, idx) => {
+                      if (p === "...") {
+                        return (
+                          <span key={`dots-${idx}`} style={{ padding: "0.5rem 0.75rem", color: "#94a3b8" }}>
+                            ...
+                          </span>
+                        );
+                      }
+                      
+                      const isCurrent = p === currentPage;
+                      return (
+                        <Link
+                          key={`page-${p}`}
+                          to={buildPageHref(Number(p))}
+                          className={`pagination-btn ${isCurrent ? "active" : ""}`}
+                        >
+                          {p}
+                        </Link>
+                      );
+                    })}
+
+                    {currentPage < totalPages && (
+                      <Link to={buildPageHref(currentPage + 1)} className="pagination-btn">
+                        →
+                      </Link>
+                    )}
+                  </div>
+                )}
+              </>
             )}
 
           </main>
@@ -518,5 +586,29 @@ export default function Shop() {
       <Footer />
     </>
   );
+}
+
+function getVisiblePages(current: number, total: number) {
+  const pages: (number | string)[] = [];
+  if (total <= 7) {
+    for (let i = 1; i <= total; i++) pages.push(i);
+  } else {
+    if (current <= 4) {
+      for (let i = 1; i <= 5; i++) pages.push(i);
+      pages.push("...");
+      pages.push(total);
+    } else if (current >= total - 3) {
+      pages.push(1);
+      pages.push("...");
+      for (let i = total - 4; i <= total; i++) pages.push(i);
+    } else {
+      pages.push(1);
+      pages.push("...");
+      for (let i = current - 1; i <= current + 1; i++) pages.push(i);
+      pages.push("...");
+      pages.push(total);
+    }
+  }
+  return pages;
 }
 

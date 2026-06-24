@@ -26,7 +26,8 @@ export const migrations: Migration[] = [
         nutrition_fat       NUMERIC(5,1),
         nutrition_fibre     NUMERIC(5,1),
         nutrition_moisture  NUMERIC(5,1),
-        created_at          TIMESTAMPTZ DEFAULT NOW()
+        created_at          TIMESTAMPTZ DEFAULT NOW(),
+        categories          JSONB
       );
 
       CREATE TABLE IF NOT EXISTS store_prices (
