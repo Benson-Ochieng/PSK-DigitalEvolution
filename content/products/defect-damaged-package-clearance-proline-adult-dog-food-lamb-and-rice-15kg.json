@@ -1,0 +1,93 @@
+{
+  "id": 40085,
+  "name": "DEFECT/DAMAGED PACKAGE CLEARANCE: Proline Adult Dog Food - Lamb and Rice 15kg",
+  "slug": "defect-damaged-package-clearance-proline-adult-dog-food-lamb-and-rice-15kg",
+  "sku": "PDD002@D",
+  "onSale": true,
+  "price": 5775,
+  "regularPrice": 8250,
+  "salePrice": 5775,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/07/Proline-Adult-Dog-Food-15Kg-Lamb-Rice.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 796,
+      "name": "Proline",
+      "slug": "proline"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2476,
+      "name": "Proline",
+      "slug": "proline"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1303,
+      "name": "Clearance",
+      "slug": "clearance"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 637,
+      "name": "kibble",
+      "slug": "kibble"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=40085",
+  "shortDescription": "Fully balanced all natural dog food with lamb protein plus brewer's yeast and whey protein for immune support and omega -3 and -6 from flaxseed. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult dogs.",
+  "description": "Proline Adult Dog Food -Lamb & Rice , fully balanced all natural dog food with lamb protein plus brewer's yeast and whey protein for immune support and omega -3 and -6 from flaxseed. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult?dogs. NUTRIENT COMPONENTS Protein...................21% Fat ........................ 11% Crude Cellulose (Fiber)................ 4% INGREDIENTS: ?Processed Animal Protein, Wheat, Corn, Animal Fat, Meat Flour, Corn Gluten, Liver Aroma, Dried Lamb Meat, Rice, Salt, Whey Powder, Flaxseed, Dried Brewer's Yeast. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
+  "images": [
+    {
+      "id": 36323,
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/07/Proline-Adult-Dog-Food-15Kg-Lamb-Rice.png",
+      "alt": "Proline Adult Dog Food - Lamb and Rice 15kg",
+      "name": "Proline Adult Dog Food 15Kg Lamb &amp; Rice"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/defect-damaged-package-clearance-proline-adult-dog-food-lamb-and-rice-15kg/?add-to-cart=40085",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-10-07T12:43:16",
+  "dateModified": "2026-05-06T17:08:56",
+  "brand": "Proline",
+  "weight_kg": 15,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/07/Proline-Adult-Dog-Food-15Kg-Lamb-Rice.png"
+}

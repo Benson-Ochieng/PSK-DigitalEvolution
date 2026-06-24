@@ -1,11 +1,11 @@
 {
   "id": 24605,
-  "name": "Rogz Dog Utility Split Leash Medium – Blue (HLS11-B)",
+  "name": "Rogz Dog Utility Split Leash Medium - Blue (HLS11-B)",
   "slug": "rogz-dog-utility-split-lead-medium-blue",
   "sku": "HLS11-B",
   "onSale": false,
-  "price": 12.5,
-  "regularPrice": 12.5,
+  "price": 1250,
+  "regularPrice": 1250,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -37,21 +37,7 @@
       "slug": "rogz"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-split-lead-medium-blue/",
-  "shortDescription": "Take control of every walk with the Rogz Utility Split Lead the perfect solution for walking two dogs with just one leash. Designed for strength, comfort, and convenience, this Medium Blue Split Lead is ideal for medium to large breeds.",
-  "description": "Rogz Utility Double Split Leads are recommended for walking two dogs. A simple solution that connects your lead to both dogs, simply attach each trigger hook to your dog’s harnesses then attach the O-ring to your lead. Strong components and webbing with highly reflective stitching provide enhanced visibility and safety for everyday use. Key Features: Dual-Walking Made Easy: Attach the trigger hooks to each dog’s harness or collar and connect your leash to the O-ring for a hassle-free walk. Tangle-Free Design: Keeps your dog&#8217;s side by side without twisting or crossing leads. Strong &amp; Durable: Made from tough nylon webbing to handle energetic dogs. Reflective Stitching: For added visibility and safety during early morning or evening walks. Adjustable Length: Customizable for your dogs’ comfort and walking style. Pair with your favorite Rogz Utility Leash for the ultimate walking setup. Also available in other sizes and colors. Add to cart now and enjoy stress-free walks with both your pups!",
-  "images": [
-    {
-      "id": 24625,
-      "alt": "Rogz Dog Utility Split Leash Medium – Blue (HLS11-B)",
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/HLS06-B-Double-Split-Lead.jpg",
-      "name": "HLS06-B-Double-Split-Lead.jpg"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 1205,
@@ -74,14 +60,33 @@
       "slug": "puppy"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-split-lead-medium-blue/",
+  "shortDescription": "Take control of every walk with the Rogz Utility Split Lead the perfect solution for walking two dogs with just one leash. Designed for strength, comfort, and convenience, this Medium Blue Split Lead is ideal for medium to large breeds.",
+  "description": "Rogz Utility Double Split Leads are recommended for walking two dogs. A simple solution that connects your lead to both dogs, simply attach each trigger hook to your dog’s harnesses then attach the O-ring to your lead. Strong components and webbing with highly reflective stitching provide enhanced visibility and safety for everyday use. Key Features: Dual-Walking Made Easy: Attach the trigger hooks to each dog’s harness or collar and connect your leash to the O-ring for a hassle-free walk. Tangle-Free Design: Keeps your dog's side by side without twisting or crossing leads. Strong & Durable: Made from tough nylon webbing to handle energetic dogs. Reflective Stitching: For added visibility and safety during early morning or evening walks. Adjustable Length: Customizable for your dogs’ comfort and walking style. Pair with your favorite Rogz Utility Leash for the ultimate walking setup. Also available in other sizes and colors. Add to cart now and enjoy stress-free walks with both your pups!",
+  "images": [
+    {
+      "id": 24625,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/HLS06-B-Double-Split-Lead.jpg",
+      "alt": "Rogz Dog Utility Split Leash Medium – Blue (HLS11-B)",
+      "name": "HLS06-B-Double-Split-Lead.jpg"
+    }
+  ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=2&#038;add-to-cart=24605",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-split-lead-medium-blue/?add-to-cart=24605",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.226Z",
-  "dateModified": "2026-06-23T09:15:51.226Z"
+  "dateCreated": "2022-01-15T21:40:49",
+  "dateModified": "2026-06-17T04:14:12",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/HLS06-B-Double-Split-Lead.jpg"
 }

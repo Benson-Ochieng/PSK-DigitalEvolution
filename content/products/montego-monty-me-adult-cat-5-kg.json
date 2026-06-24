@@ -1,11 +1,11 @@
 {
   "id": 56699,
-  "name": "Montego Monty & Me Adult Cat Dry Food – 5kg",
+  "name": "Montego Monty & Me Adult Cat Dry Food - 5kg",
   "slug": "montego-monty-me-adult-cat-5-kg",
   "sku": "MMCAT05",
   "onSale": false,
-  "price": 49.95,
-  "regularPrice": 49.95,
+  "price": 4995,
+  "regularPrice": 4995,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "montego"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/montego-monty-me-adult-cat-5-kg/",
-  "shortDescription": "Montego Monty &amp; Me Adult Cat Food is a nutritionally balanced dry cat food formulated to support the overall health and vitality of adult cats. It provides high-quality protein, essential vitamins, minerals, and taurine to promote strong vision, a healthy heart, and sustained energy.",
-  "description": "Product Overview Montego Monty &amp; Me Adult Cat Food is a nutritionally balanced dry cat food formulated to support the overall health and vitality of adult cats. It provides high-quality protein, essential vitamins, minerals, and taurine to promote strong vision, a healthy heart, and sustained energy. Nutritional Profile &amp; Benefits Protein &amp; Fat (28% Protein, 12% Fat): Supports lean muscle maintenance and provides the energy needed for daily activity. Vitamins &amp; Minerals: Fortified with Vitamins C and E, minerals, and antioxidants to boost immunity and promote healthy skin and coat. Taurine: An essential amino acid that supports heart health, strong vision, and overall feline well-being. Omega-6 Oils &amp; Amino Acids: Enhance skin, coat, and digestive health for optimal nutrition. Natural Prebiotic Fibre: Aids in maintaining a healthy digestive system. No Artificial Additives: Free from soya, artificial flavours, and colours—suitable for most adult cat breeds. Metabolisable Energy: 382 kcal per 100g, providing sufficient energy for active cats. Key Ingredients Corn*, poultry meal, wheat bran, rice, corn gluten, animal fat, fish meal, brewer’s yeast, beet pulp, fish oil, acidifiers, salt, minerals, vitamins, taurine, L-Lysine, and DL-Methionine. May contain GMOs. Contains approved antioxidants and natural meat-based flavour enhancers for improved palatability. Product Features Suitable for all adult cat breeds Supports playful, energetic, and healthy lifestyles Helps maintain optimal growth, strength, and vitality",
-  "images": [
+  "brands": [
     {
-      "id": 56700,
-      "alt": "Montego Monty & Me Adult Cat Dry Food – 5kg",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-35.png",
-      "name": "Untitled design (35)"
+      "id": 2453,
+      "name": "Montego",
+      "slug": "montego"
     }
   ],
   "tags": [
@@ -59,20 +51,33 @@
       "slug": "dry-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/montego-monty-me-adult-cat-5-kg/",
+  "shortDescription": "Montego Monty & Me Adult Cat Food is a nutritionally balanced dry cat food formulated to support the overall health and vitality of adult cats. It provides high-quality protein, essential vitamins, minerals, and taurine to promote strong vision, a healthy heart, and sustained energy.",
+  "description": "Product Overview Montego Monty & Me Adult Cat Food is a nutritionally balanced dry cat food formulated to support the overall health and vitality of adult cats. It provides high-quality protein, essential vitamins, minerals, and taurine to promote strong vision, a healthy heart, and sustained energy. Nutritional Profile & Benefits Protein & Fat (28% Protein, 12% Fat): Supports lean muscle maintenance and provides the energy needed for daily activity. Vitamins & Minerals: Fortified with Vitamins C and E, minerals, and antioxidants to boost immunity and promote healthy skin and coat. Taurine: An essential amino acid that supports heart health, strong vision, and overall feline well-being. Omega-6 Oils & Amino Acids: Enhance skin, coat, and digestive health for optimal nutrition. Natural Prebiotic Fibre: Aids in maintaining a healthy digestive system. No Artificial Additives: Free from soya, artificial flavours, and colours—suitable for most adult cat breeds. Metabolisable Energy: 382 kcal per 100g, providing sufficient energy for active cats. Key Ingredients Corn*, poultry meal, wheat bran, rice, corn gluten, animal fat, fish meal, brewer’s yeast, beet pulp, fish oil, acidifiers, salt, minerals, vitamins, taurine, L-Lysine, and DL-Methionine. May contain GMOs. Contains approved antioxidants and natural meat-based flavour enhancers for improved palatability. Product Features Suitable for all adult cat breeds Supports playful, energetic, and healthy lifestyles Helps maintain optimal growth, strength, and vitality",
+  "images": [
     {
-      "id": 2453,
-      "name": "Montego",
-      "slug": "montego"
+      "id": 56700,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-35.png",
+      "alt": "Montego Monty & Me Adult Cat Dry Food – 5kg",
+      "name": "Untitled design (35)"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=56699",
+  "addToCartUrl": "https://petstore.co.ke/product/montego-monty-me-adult-cat-5-kg/?add-to-cart=56699",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.682Z",
-  "dateModified": "2026-06-23T09:15:51.682Z"
+  "dateCreated": "2025-07-11T08:20:20",
+  "dateModified": "2026-06-20T12:12:00",
+  "brand": "Montego",
+  "weight_kg": 5,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-35.png"
 }

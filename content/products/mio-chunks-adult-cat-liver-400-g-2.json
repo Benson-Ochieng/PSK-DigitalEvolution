@@ -1,0 +1,93 @@
+{
+  "id": 56868,
+  "name": "Mio Chunks Adult Cat Liver 400g",
+  "slug": "mio-chunks-adult-cat-liver-400-g-2",
+  "sku": "MCACL",
+  "onSale": false,
+  "price": 257,
+  "regularPrice": 257,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-38-2.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2385,
+      "name": "Mio",
+      "slug": "mio"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2452,
+      "name": "Mio",
+      "slug": "mio"
+    }
+  ],
+  "tags": [
+    {
+      "id": 622,
+      "name": "canned food",
+      "slug": "canned-food"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/mio-chunks-adult-cat-liver-400-g-2/",
+  "shortDescription": "Mio Chunks Adult Cat Liver 400 g is a nutritious wet food designed for adult cats, featuring tasty liver chunks in savory gravy that supports a healthy immune system and muscle maintenance .",
+  "description": "Product Description and Benefits This cat food contains a high proportion of liver as a primary ingredient, providing rich, protein-packed nutrition essential for adult cats. It is formulated to support your cat’s overall vitality, including: Strong immune system support through high-quality protein and essential nutrients. Muscle health maintenance with balanced vitamins and minerals. Rich in taurine and iron , nutrients crucial for feline heart and eye health. The soft chunks in gravy make it a flavorful and easy-to-eat meal for your cat. Ingredients & Nutritional Composition Common ingredients seen in similar liver cat foods include: Meat and animal derivatives with a significant liver content (e.g., 40%). Fish oil and vegetable oils contributing beneficial fatty acids like Omega-6. Added vitamins and minerals to ensure a complete and balanced diet. Feeding Instructions & Storage Feed approximately one 400 g can per adult cat daily, ideally split into two separate meals. Always provide fresh water alongside meals. Store unopened cans in a cool, dry place. Refrigerate any opened portion and consume within 2 days to maintain freshness. Avoid feeding if the can is dented or swollen and check the expiration date on the lid.",
+  "images": [
+    {
+      "id": 58233,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-38-2.png",
+      "alt": "Mio Chunks Adult Cat Liver 400g",
+      "name": "Untitled design (38)"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/mio-chunks-adult-cat-liver-400-g-2/?add-to-cart=56868",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2025-07-14T15:34:38",
+  "dateModified": "2026-06-17T04:29:03",
+  "brand": "Mio",
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-38-2.png"
+}

@@ -1,0 +1,88 @@
+{
+  "id": 12673,
+  "name": "Reflex Cat Treats - Skin & Coat Pocket Treats, Salmon 60g",
+  "slug": "reflex-cat-treats-skin-coat-pocket-treats-salmon-60g",
+  "sku": "RCPTSCCS60",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Cat-Treats-Skin-Coat-Pocket-Treats-Salmon-60g-min.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2330,
+      "name": "Cat Treats",
+      "slug": "cat-treats"
+    },
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2898,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=12673",
+  "shortDescription": "Reflex Cat Treats – Skin & Coat Pocket Treats, Salmon. Perfectly sized cat biscuits for training and for rewarding good behaviour. Made with the highest quality ingredients and bursting with flavour.",
+  "description": "Reflex Cat Treats - Skin & Coat Pocket Treats, Salmon. Perfectly sized cat biscuits for training and for rewarding good behaviour. Made with the highest quality ingredients and bursting with flavour. INGREDIENTS: Meat and animal derivatives, cereals (8.75% malt extract), oils and fats, derivatives of vegetable origin, milk and milk derivatives (4% cheese), minerals. NUTRIENT COMPONENTS Crude Protein (%) - 26 Crude Fat (%) - 23 Crude Ash (%) - 7 Crude Fiber (%) - 1 Vitamin A - 1,400 IU Vitamin D3 - 2,100 IU Vitamin E - 79 mg FEEDING RECOMMENDATIONS: Feed as a snack or a treat between the meals. For an adult cat (ca. 4 kg) 6 to 10 pieces per day. This indications are guidelines. Always supply a sufficient amount of fresh drinking water. Once opened keep the package tightly closed. Store in a cool and dry place.",
+  "images": [
+    {
+      "id": 12672,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Cat-Treats-Skin-Coat-Pocket-Treats-Salmon-60g-min.png",
+      "alt": "Reflex Cat Treats Skin Coat Pocket Treats Salmon 60g min",
+      "name": "Reflex Cat Treats Skin Coat Pocket Treats Salmon 60g min"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": 10,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-cat-treats-skin-coat-pocket-treats-salmon-60g/?add-to-cart=12673",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "hidden",
+  "dateCreated": "2020-04-08T15:19:52",
+  "dateModified": "2026-05-06T17:06:32",
+  "brand": "Reflex",
+  "weight_kg": 0.06,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Cat-Treats-Skin-Coat-Pocket-Treats-Salmon-60g-min.png"
+}

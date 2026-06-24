@@ -1,0 +1,67 @@
+{
+  "id": 52785,
+  "name": "Proline Bentonite Clumping Cat Litter Lavender 10l",
+  "slug": "proline-bentonite-clumping-cat-litter-lavender-10l-3",
+  "sku": "PCL006@F",
+  "onSale": true,
+  "price": 1457,
+  "regularPrice": 2082,
+  "salePrice": 1457,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/PCL006-01.jpg",
+  "categories": [
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 831,
+      "name": "bentonite",
+      "slug": "bentonite"
+    },
+    {
+      "id": 823,
+      "name": "clumping",
+      "slug": "clumping"
+    },
+    {
+      "id": 2315,
+      "name": "scented",
+      "slug": "scented"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=52785",
+  "shortDescription": "",
+  "description": "",
+  "images": [
+    {
+      "id": 27584,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/PCL006-01.jpg",
+      "alt": "Proline Bentonite Clumping Cat Litter – Lavender 10l",
+      "name": "PCL006-01"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/proline-bentonite-clumping-cat-litter-lavender-10l-3/?add-to-cart=52785",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2025-01-16T17:04:52",
+  "dateModified": "2026-05-06T17:10:54",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/PCL006-01.jpg"
+}

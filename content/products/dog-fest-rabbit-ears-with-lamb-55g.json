@@ -1,0 +1,82 @@
+{
+  "id": 27107,
+  "name": "Dog Fest Rabbit Ears With Lamb 55G",
+  "slug": "dog-fest-rabbit-ears-with-lamb-55g",
+  "sku": "DF010",
+  "onSale": false,
+  "price": 260,
+  "regularPrice": 260,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/DF010.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1034,
+      "name": "large breed",
+      "slug": "large-breed"
+    },
+    {
+      "id": 2109,
+      "name": "Small breeds",
+      "slug": "small-breeds"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27107",
+  "shortDescription": "Dog Fest Rabbit Ears With Lamb for small breeds 90G",
+  "description": "Let your dog get busy with this mouth-watering treat. Made of chewy rabbit ears and filled with real chicken meat. This treat could become your dog's favorite. Composition: lamb, rabbit ear, vegetable by-products, minerals. Analytical constituents, %: crude protein 38, crude fat 5, crude fiber 0.2, crude ash 5, moisture 18.",
+  "images": [
+    {
+      "id": 27079,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/DF010.jpg",
+      "alt": "Dog Fest Rabbit Ears With Lamb 55G",
+      "name": "DF010"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/dog-fest-rabbit-ears-with-lamb-55g/?add-to-cart=27107",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-04-20T16:20:50",
+  "dateModified": "2026-05-06T17:08:04",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/DF010.jpg"
+}

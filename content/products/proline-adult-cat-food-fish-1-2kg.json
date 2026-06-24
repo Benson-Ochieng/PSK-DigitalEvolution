@@ -4,8 +4,8 @@
   "slug": "proline-adult-cat-food-fish-1-2kg",
   "sku": "PCD016",
   "onSale": false,
-  "price": 19.65,
-  "regularPrice": 19.65,
+  "price": 1965,
+  "regularPrice": 1965,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "proline"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/proline-adult-cat-food-fish-1-2kg/",
-  "shortDescription": "Fully balanced all-natural cat food with fish protein. Carefully formulated by a cat nutritionist to meet the nutritional requirements of all adult cats.",
-  "description": "Proline Adult Cat Food &#8211; Fish , fully balanced all-natural cat food with fish protein. Carefully formulated by a cat nutritionist to meet the nutritional requirements of all adult cats. NUTRIENT COMPONENTS Protein &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;. 31% Fat &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;..12% Crude Ash &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;8% Crude Cellulose (Fiber)&#8230;&#8230;&#8230;. 3% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Wheat Middling&#8217;s, Corn Gluten, Dried Sugar Beet, Chicken Liver Aroma, Salt, Flaxseed, Dried Brewer&#8217;s Yeast, Taurine. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 &#8211; B2 &#8211; B3 (niacin) &#8211; B6 &#8211; B12 &#8211; B7 (biotin) &#8211; B9 (folic acid), Vit. K, Choline, Calcium Pantotetan. These nutrients support: . Healthy immune system . Strong bones and teeth . Optimal metabolism and organ function &nbsp;Why Pet Parents Love Proline Fish: . Supports overall wellness for adult cats. . Made with high-quality fish protein for cats who love seafood flavors. . Includes taurine for healthy eyes and a strong heart.",
-  "images": [
+  "brands": [
     {
-      "id": 56940,
-      "alt": "Proline Adult Cat Food Fish 1.2kg",
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/04/Untitled-design-90.png",
-      "name": "Untitled design (90)"
+      "id": 2461,
+      "name": "Proline",
+      "slug": "proline"
     }
   ],
   "tags": [
@@ -69,20 +61,33 @@
       "slug": "kibble"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/proline-adult-cat-food-fish-1-2kg/",
+  "shortDescription": "Fully balanced all-natural cat food with fish protein. Carefully formulated by a cat nutritionist to meet the nutritional requirements of all adult cats.",
+  "description": "Proline Adult Cat Food - Fish , fully balanced all-natural cat food with fish protein. Carefully formulated by a cat nutritionist to meet the nutritional requirements of all adult cats. NUTRIENT COMPONENTS Protein ............................... 31% Fat ......................................12% Crude Ash ..............................8% Crude Cellulose (Fiber).......... 3% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Wheat Middling's, Corn Gluten, Dried Sugar Beet, Chicken Liver Aroma, Salt, Flaxseed, Dried Brewer's Yeast, Taurine. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan. These nutrients support: . Healthy immune system . Strong bones and teeth . Optimal metabolism and organ function &nbsp;Why Pet Parents Love Proline Fish: . Supports overall wellness for adult cats. . Made with high-quality fish protein for cats who love seafood flavors. . Includes taurine for healthy eyes and a strong heart.",
+  "images": [
     {
-      "id": 2461,
-      "name": "Proline",
-      "slug": "proline"
+      "id": 56940,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/04/Untitled-design-90.png",
+      "alt": "Proline Adult Cat Food Fish 1.2kg",
+      "name": "Untitled design (90)"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=45931",
+  "addToCartUrl": "https://petstore.co.ke/product/proline-adult-cat-food-fish-1-2kg/?add-to-cart=45931",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.375Z",
-  "dateModified": "2026-06-23T09:15:51.375Z"
+  "dateCreated": "2024-04-08T16:01:29",
+  "dateModified": "2026-06-24T12:12:05",
+  "brand": "Proline",
+  "weight_kg": 1.5,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/04/Untitled-design-90.png"
 }

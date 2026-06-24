@@ -1,0 +1,67 @@
+{
+  "id": 27265,
+  "name": "Dog Fest Meat Medallions With Ostrich (90G)",
+  "slug": "dog-fest-meat-medallions-with-ostrich-90g",
+  "sku": "DF027",
+  "onSale": false,
+  "price": 290,
+  "regularPrice": 290,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/DF027.jpg",
+  "categories": [
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1034,
+      "name": "large breed",
+      "slug": "large-breed"
+    },
+    {
+      "id": 2109,
+      "name": "Small breeds",
+      "slug": "small-breeds"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27265",
+  "shortDescription": "Dog Fest Meat Medallions With Ostrich for Adult Dogs (90G)",
+  "description": "Let your dogs try something new and exotic, they will love this fantastic taste. Tender yet chewy, these medallions with ostrich meat will be highly appreciated. Composition: duck, ostrich, vegetable by-products, minerals Analytical constituents, %: crude protein 28, crude fat 11, crude fiber 1, crude ash 5, moisture 2",
+  "images": [
+    {
+      "id": 27249,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/DF027.jpg",
+      "alt": "Dog Fest Meat Medallions With Ostrich (90G)",
+      "name": "DF027"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/dog-fest-meat-medallions-with-ostrich-90g/?add-to-cart=27265",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-04-20T16:20:47",
+  "dateModified": "2026-05-06T17:08:04",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/DF027.jpg"
+}

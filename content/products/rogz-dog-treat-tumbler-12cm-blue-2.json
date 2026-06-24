@@ -1,0 +1,62 @@
+{
+  "id": 44996,
+  "name": "Rogz Dog Treat Tumbler 12cm - Blue",
+  "slug": "rogz-dog-treat-tumbler-12cm-blue-2",
+  "sku": "TUM03-B@F",
+  "onSale": true,
+  "price": 2030,
+  "regularPrice": 2900,
+  "salePrice": 2030,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/TUM03-B-Tumbler-Blue.jpg",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2064,
+      "name": "Rogz",
+      "slug": "rogz"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2223,
+      "name": "flash",
+      "slug": "flash"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=44996",
+  "shortDescription": "Rogz Treat Tumbler 12cm – Blue",
+  "description": "Stimulate your dog with this durable Rogz treat tumbler that slowly dispenses your dog's favourite treats while they play with the ball. The ball features 3 settings which allow you to adjust the rate of release to control both feeding and learning as they mature. Simply twist the ball to open, fill with treats and adjust the internal feeder according to your dog's needs. The ball is made from durable ABS plastic that is safe to chew. There is a counterweight inside the ball that makes the movement of the ball unpredictable and more fun to play with.",
+  "images": [
+    {
+      "id": 24620,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/TUM03-B-Tumbler-Blue.jpg",
+      "alt": "Rogz Dog-Treat Tumbler 12cm – Blue (TUM03-B)",
+      "name": "TUM03-B-Tumbler-Blue.jpg"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": false,
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-treat-tumbler-12cm-blue-2/?add-to-cart=44996",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2024-03-06T16:36:43",
+  "dateModified": "2026-05-06T17:09:38",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/TUM03-B-Tumbler-Blue.jpg"
+}

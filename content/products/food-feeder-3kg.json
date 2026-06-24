@@ -1,0 +1,87 @@
+{
+  "id": 38181,
+  "name": "Generic Food Feeder 3kg",
+  "slug": "food-feeder-3kg",
+  "sku": "PZFF3",
+  "onSale": false,
+  "price": 2100,
+  "regularPrice": 2100,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/07/pet-feeder-3kg.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2344,
+      "name": "Cat Bowls & Feeders",
+      "slug": "cat-bowls-and-feeders"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 2096,
+      "name": "Generic",
+      "slug": "generic"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2072,
+      "name": "Bowls",
+      "slug": "bowls"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=38181",
+  "shortDescription": "Automatic Pet Food Feeder Available in Pink, Blue and grey.",
+  "description": "Automatic Pet Food Feeder Large opening at the top, easy to add food: No need to remove the feeder, directly add on the top, easy to use. Rest assured material: PET, PP plastic, safe to use. Gravity replenishment method: using gravity replenishment, automatic replenishment all day long, no longer have to worry about pets without food.",
+  "images": [
+    {
+      "id": 38182,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/07/pet-feeder-3kg.jpg",
+      "alt": "Generic Food Feeder 3kg",
+      "name": "pet feeder 3kg"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/food-feeder-3kg/?add-to-cart=38181",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-07-05T16:22:48",
+  "dateModified": "2026-05-06T17:08:44",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/07/pet-feeder-3kg.jpg"
+}

@@ -1,0 +1,98 @@
+{
+  "id": 53018,
+  "name": "Short Expiry - Clearance: Thunder Adult Dog Food Lamb And Rice 15kg",
+  "slug": "short-expiry-clearance-thunder-adult-dog-food-lamb-and-rice-15kg",
+  "sku": "TDD001@SE",
+  "onSale": true,
+  "price": 3600,
+  "regularPrice": 4500,
+  "salePrice": 3600,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/Thunder-Adult-Dog-Lamb-Rice-15KG.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2167,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 2250,
+      "name": "Thunder",
+      "slug": "thunder"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2469,
+      "name": "Thunder",
+      "slug": "thunder"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1303,
+      "name": "Clearance",
+      "slug": "clearance"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 637,
+      "name": "kibble",
+      "slug": "kibble"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=53018",
+  "shortDescription": "(Exp 10/02/2026) Thunder Premium dog food Lamb and Rice",
+  "description": "INGREDIENTS: Wheat, Corn, Processed Animal Protein, Wheat Middlings, Bonkalit, Processed Lamb Protein, Rice, Animal Fat, Liver Aroma, Flaxseed, Rice, Salt, Dried Brewer’s Yeast. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 – B2 – B3 (Niacin) – B6 – B12 – B7 (Biotin) – B9 (Folic Acid), Vit. K, Choline, Calcium Pantotetan. NUTRIENT COMPOSITION Crude Protein 18% Crude Fat 7% Crude Cellulose (Fiber) 4% Crude Ash 8% &nbsp; DAILY FEEDING GUIDE: DOG WEIGHT GR / DAY 1 – 5 kg 45 – 140 5 – 10 kg 160 – 235 10 – 20 kg 235 – 390 20 – 30 kg 390 – 530 30 – 40 kg 530 – 660 40 – 50 kg 660 – 780 50 – 60 kg 780 – 890",
+  "images": [
+    {
+      "id": 46141,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/04/Thunder-Adult-Dog-Lamb-Rice-15KG.jpg",
+      "alt": "Short Expiry - Clearance: Thunder Adult Dog Food Lamb And Rice 15kg",
+      "name": "Thunder Adult Dog Lamb &amp; Rice 15KG"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-thunder-adult-dog-food-lamb-and-rice-15kg/?add-to-cart=53018",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2025-01-20T15:48:41",
+  "dateModified": "2026-06-17T04:35:35",
+  "brand": "Thunder",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/Thunder-Adult-Dog-Lamb-Rice-15KG.jpg"
+}

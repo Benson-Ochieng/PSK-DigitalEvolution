@@ -1,0 +1,85 @@
+{
+  "id": 33793,
+  "name": "Migliorcane Dog Bundle",
+  "slug": "migliorcane-dog-bundle",
+  "sku": "DMBUNDLE1",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "/images/psk_logo.png",
+  "categories": [
+    {
+      "id": 2027,
+      "name": "Bundles",
+      "slug": "bundles"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 2349,
+      "name": "Wet Dog Food",
+      "slug": "wet-dog-food"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2122,
+      "name": "Bundle",
+      "slug": "bundle"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=33793",
+  "shortDescription": "1Pc Migliorcane Adult Dog Food Active 4Kg 2Pcs Reflex Dog Treats Duck Sausages 80Gr 2Pcs Reflex Dog Treats Chicken Drumsticks 80Gr 4Pcs Migliorcane Canned Dog Food Game 405Gr",
+  "description": "1Pc Migliorcane Adult Dog Food Active 4Kg 2Pcs Reflex Dog Treats Duck Sausages 80Gr 2Pcs Reflex Dog Treats Chicken Drumsticks 80Gr 4Pcs Migliorcane Canned Dog Food Game 405Gr",
+  "images": [],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/migliorcane-dog-bundle/?add-to-cart=33793",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-12-22T10:10:14",
+  "dateModified": "2026-05-06T17:08:27",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "/images/psk_logo.png"
+}

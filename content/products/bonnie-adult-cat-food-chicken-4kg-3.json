@@ -1,0 +1,67 @@
+{
+  "id": 40806,
+  "name": "Bonnie Adult Cat Food Chicken 4kg",
+  "slug": "bonnie-adult-cat-food-chicken-4kg-3",
+  "sku": "BCD010@F",
+  "onSale": true,
+  "price": 3412,
+  "regularPrice": 4450,
+  "salePrice": 3412,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/01/Untitled-design-9.png",
+  "categories": [
+    {
+      "id": 2167,
+      "name": "dry food",
+      "slug": "dry-food"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 637,
+      "name": "kibble",
+      "slug": "kibble"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=40806",
+  "shortDescription": "Bonnie Chicken Adult Cat food is a full-balanced, chicken protein-containing cat food carefully formulated by cat/dog nutritionists to meet the nutritional requirements of all adult breeds.",
+  "description": "Bonnie Chicken Adult Cat food is a full-balanced, chicken protein-containing cat food carefully formulated by cat/dog nutritionists to meet the nutritional requirements of all adult breeds. Chicken meal has been used as an animal protein source. The balance of omega 3 & 6 is provided by using flaxseed. Yucca plant provides ammonia and odour control, increases absorption of nutrients, strengthens the immune system, and optimizes animal growth and performance. A good intestinal health and performance are provided by CitriStim which is a source of pathogen-binding manna oligsacharrides, beta-glucans, and immune-supportive yeast. Healthy skin and shiny coat is supported by using brewer's yeast. Muscles, organs, and nerve cells are supported, and the immune system is strengthened by using whey powder. Rich vitamin contents. NUTRIENT COMPONENTS Protein .................... 33% Fat ........................ 13% Crude Cellulose (Fiber) .... 3% INGREDIENTS: Processed Animal Protein (Chicken), Wheat, Corn, Animal Fat, Wheat Middlings, Corn Gluten, Dried Sugar Beet, Chicken Liver Aroma, Salt, Flaxseed, Dried Brewer's Yeast, Taurine. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 , B2 , B3 (niacin) , B6 , B12 , B7 (biotin) , B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
+  "images": [
+    {
+      "id": 39814,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/01/Untitled-design-9.png",
+      "alt": "Bonnie Adult Cat Food Chicken 4kg",
+      "name": "Untitled design (9)"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/bonnie-adult-cat-food-chicken-4kg-3/?add-to-cart=40806",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-11-07T18:22:50",
+  "dateModified": "2026-05-06T17:08:57",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/01/Untitled-design-9.png"
+}

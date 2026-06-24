@@ -1,0 +1,67 @@
+{
+  "id": 37108,
+  "name": "Dog Fest Duck Fillet On Chewy Stick 90g",
+  "slug": "dog-fest-duck-fillet-on-chewy-stick-90g",
+  "sku": "DF015",
+  "onSale": false,
+  "price": 290,
+  "regularPrice": 290,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/DF015.jpg",
+  "categories": [
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1034,
+      "name": "large breed",
+      "slug": "large-breed"
+    },
+    {
+      "id": 2109,
+      "name": "Small breeds",
+      "slug": "small-breeds"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=37108",
+  "shortDescription": "Dog Fest Duck Strips On Chewy Stick for Adult Dogs 90G",
+  "description": "Carefully picked, freshly cooked duck fillets cover a long lasting rawhide stick. This combination is exactly what each dog needs to have a great time and enjoy the rich flavor of real meat. Composition: duck, rawhide, vegetable by-products, minerals. Analytical constituents, %: crude protein 54, crude fat 3, crude fiber 0.2, crude ash 4, moisture 18.",
+  "images": [
+    {
+      "id": 27228,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/DF015.jpg",
+      "alt": "Dog Fest Duck Fillet On Chewy Stick 90g",
+      "name": "DF015"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/dog-fest-duck-fillet-on-chewy-stick-90g/?add-to-cart=37108",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-05-17T14:56:08",
+  "dateModified": "2026-05-06T17:08:38",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/DF015.jpg"
+}

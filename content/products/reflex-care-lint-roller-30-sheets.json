@@ -4,8 +4,8 @@
   "slug": "reflex-care-lint-roller-30-sheets",
   "sku": "RCLR30",
   "onSale": false,
-  "price": 3,
-  "regularPrice": 3,
+  "price": 300,
+  "regularPrice": 300,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -47,6 +47,20 @@
       "slug": "reflex"
     }
   ],
+  "brands": [
+    {
+      "id": 2462,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2098,
+      "name": "Grooming & Tools",
+      "slug": "grooming-tools"
+    }
+  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
@@ -57,32 +71,23 @@
   "images": [
     {
       "id": 69433,
-      "alt": "Reflex Care Lint Roller 30 Sheets",
       "src": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-CARE-TRAINING-PAD-10PCS-1.png",
+      "alt": "Reflex Care Lint Roller 30 Sheets",
       "name": "REFLEX CARE TRAINING PAD 10PCS (1)"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2098,
-      "name": "Grooming &amp; Tools",
-      "slug": "grooming-tools"
-    }
-  ],
-  "brands": [
-    {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=69427",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-care-lint-roller-30-sheets/?add-to-cart=69427",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.912Z",
-  "dateModified": "2026-06-23T09:15:51.912Z"
+  "dateCreated": "2026-02-02T15:08:55",
+  "dateModified": "2026-06-17T04:30:35",
+  "brand": "Reflex",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-CARE-TRAINING-PAD-10PCS-1.png"
 }

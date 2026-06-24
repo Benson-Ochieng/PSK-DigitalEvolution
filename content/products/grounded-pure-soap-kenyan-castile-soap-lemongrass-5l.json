@@ -4,8 +4,8 @@
   "slug": "grounded-pure-soap-kenyan-castile-soap-lemongrass-5l",
   "sku": "PSP5LG",
   "onSale": false,
-  "price": 47.25,
-  "regularPrice": 47.25,
+  "price": 4725,
+  "regularPrice": 4725,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -22,6 +22,20 @@
       "slug": "human"
     }
   ],
+  "brands": [
+    {
+      "id": 2441,
+      "name": "Grounded",
+      "slug": "grounded"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2245,
+      "name": "Human",
+      "slug": "human"
+    }
+  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
@@ -32,32 +46,23 @@
   "images": [
     {
       "id": 49060,
-      "alt": "Grounded Pure Soap Kenyan Castile Soap Lemongrass 5l",
       "src": "https://petstore.co.ke/wp-content/uploads/2024/07/Pure-Soap-Lemongrass-5L.jpg",
+      "alt": "Grounded Pure Soap Kenyan Castile Soap Lemongrass 5l",
       "name": "Pure-Soap-Lemongrass-5L"
     }
   ],
-  "tags": [
-    {
-      "id": 2245,
-      "name": "Human",
-      "slug": "human"
-    }
-  ],
-  "brands": [
-    {
-      "id": 2441,
-      "name": "Grounded",
-      "slug": "grounded"
-    }
-  ],
   "stockStatus": "instock",
-  "lowStockRemaining": 2,
+  "lowStockRemaining": 5,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=5&#038;add-to-cart=49059",
+  "addToCartUrl": "https://petstore.co.ke/product/grounded-pure-soap-kenyan-castile-soap-lemongrass-5l/?add-to-cart=49059",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.461Z",
-  "dateModified": "2026-06-23T09:15:51.461Z"
+  "dateCreated": "2024-07-31T15:20:20",
+  "dateModified": "2026-06-17T04:29:54",
+  "brand": "Grounded",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/07/Pure-Soap-Lemongrass-5L.jpg"
 }

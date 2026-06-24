@@ -4,8 +4,8 @@
   "slug": "reflex-plus-cat-food-pouch-chicken-chunks-in-gravy-85g-copy",
   "sku": "PCW013",
   "onSale": false,
-  "price": 1.3,
-  "regularPrice": 1.3,
+  "price": 130,
+  "regularPrice": 130,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "wet-cat-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/reflex-plus-cat-food-pouch-chicken-chunks-in-gravy-85g-copy/",
-  "shortDescription": "Proline Pouch Chicken in Pâté 85g is a complete wet food for kittens, made with real chicken, taurine, and essential vitamins to support healthy growth, digestion, and immunity.",
-  "description": "Reflex Plus White Fish Chunks in Gravy is a complete and balanced wet food formulated for adult cats. Made with quality animal protein and enriched with essential vitamins and minerals, it offers high nutritional value and excellent digestibility. Its functional ingredients support multiple body systems, while the high moisture content helps increase daily water intake and supports kidney health. Composition Meat and animal derivatives, fish and fish derivatives (white fish 5%), derivatives of vegetable origin, minerals, various sugars. Analytical Constituents Crude Protein: 8% Fat Content: 4.5% Crude Fibre: 0.3% Crude Ash: 2% Moisture: 83% Nutritional Additives (per kg) Proline Pouch Chicken in Pâté is a fully balanced, all-natural wet food specially formulated for kittens. Made with real chicken, it provides high-quality protein, essential vitamins, minerals, and taurine to support healthy growth, strong immunity, and overall well-being during the early stages of life. Its smooth pâté texture is gentle on young digestive systems and easy to eat. Product Overview Proline Pouch Cat Food Chicken comes in a convenient 85g single-serve pouch, ensuring freshness and easy portion control. The formula is designed to meet the complete nutritional needs of kittens, delivering essential proteins, fats, fiber, vitamins, and minerals required for healthy development. Key Ingredients &amp; Nutritional Benefits High-Quality Protein: Derived from real chicken to support muscle development and energy needs Taurine: Essential for healthy vision, heart function, digestion, and normal growth Vitamins &amp; Minerals: Includes vitamins A, D, E, B-complex, calcium, phosphorus, and zinc to support immunity, bone development, and vitality Digestive Support: Gentle formulation suitable for kittens with sensitive digestion Skin &amp; Coat Health: Enriched with essential nutrients to promote healthy skin and a shiny coat Feeding Guidelines Feeding amounts depend on the kitten’s age, size, and activity level. One 85g pouch may be served per meal and can be divided into two or more servings throughout the day. Always ensure clean, fresh drinking water is available. Practical Advantages Convenient 85g single-serve pouch Complete and balanced nutrition for kittens All-natural formulation with no artificial fillers Easy-to-serve pâté texture Proline Pouch Chicken in Pâté 85g is ideal for kitten owners seeking a nutritious, tasty, and easy-to-serve meal that supports healthy growth and development. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 66490,
-      "alt": "Proline Cat Food Pouch Chicken In Pate 85g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/proline-chicken-REAL.png",
-      "name": "proline chicken REAL"
+      "id": 2461,
+      "name": "Proline",
+      "slug": "proline"
     }
   ],
   "tags": [
@@ -69,20 +61,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/reflex-plus-cat-food-pouch-chicken-chunks-in-gravy-85g-copy/",
+  "shortDescription": "Proline Pouch Chicken in Pâté 85g is a complete wet food for kittens, made with real chicken, taurine, and essential vitamins to support healthy growth, digestion, and immunity.",
+  "description": "Reflex Plus White Fish Chunks in Gravy is a complete and balanced wet food formulated for adult cats. Made with quality animal protein and enriched with essential vitamins and minerals, it offers high nutritional value and excellent digestibility. Its functional ingredients support multiple body systems, while the high moisture content helps increase daily water intake and supports kidney health. Composition Meat and animal derivatives, fish and fish derivatives (white fish 5%), derivatives of vegetable origin, minerals, various sugars. Analytical Constituents Crude Protein: 8% Fat Content: 4.5% Crude Fibre: 0.3% Crude Ash: 2% Moisture: 83% Nutritional Additives (per kg) Proline Pouch Chicken in Pâté is a fully balanced, all-natural wet food specially formulated for kittens. Made with real chicken, it provides high-quality protein, essential vitamins, minerals, and taurine to support healthy growth, strong immunity, and overall well-being during the early stages of life. Its smooth pâté texture is gentle on young digestive systems and easy to eat. Product Overview Proline Pouch Cat Food Chicken comes in a convenient 85g single-serve pouch, ensuring freshness and easy portion control. The formula is designed to meet the complete nutritional needs of kittens, delivering essential proteins, fats, fiber, vitamins, and minerals required for healthy development. Key Ingredients & Nutritional Benefits High-Quality Protein: Derived from real chicken to support muscle development and energy needs Taurine: Essential for healthy vision, heart function, digestion, and normal growth Vitamins & Minerals: Includes vitamins A, D, E, B-complex, calcium, phosphorus, and zinc to support immunity, bone development, and vitality Digestive Support: Gentle formulation suitable for kittens with sensitive digestion Skin & Coat Health: Enriched with essential nutrients to promote healthy skin and a shiny coat Feeding Guidelines Feeding amounts depend on the kitten’s age, size, and activity level. One 85g pouch may be served per meal and can be divided into two or more servings throughout the day. Always ensure clean, fresh drinking water is available. Practical Advantages Convenient 85g single-serve pouch Complete and balanced nutrition for kittens All-natural formulation with no artificial fillers Easy-to-serve pâté texture Proline Pouch Chicken in Pâté 85g is ideal for kitten owners seeking a nutritious, tasty, and easy-to-serve meal that supports healthy growth and development. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2461,
-      "name": "Proline",
-      "slug": "proline"
+      "id": 66490,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/proline-chicken-REAL.png",
+      "alt": "Proline Cat Food Pouch Chicken In Pate 85g",
+      "name": "proline chicken REAL"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=66489",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-cat-food-pouch-chicken-chunks-in-gravy-85g-copy/?add-to-cart=66489",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.831Z",
-  "dateModified": "2026-06-23T09:15:51.831Z"
+  "dateCreated": "2026-01-12T16:25:30",
+  "dateModified": "2026-06-23T09:12:12",
+  "brand": "Proline",
+  "weight_kg": 0.085,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/proline-chicken-REAL.png"
 }

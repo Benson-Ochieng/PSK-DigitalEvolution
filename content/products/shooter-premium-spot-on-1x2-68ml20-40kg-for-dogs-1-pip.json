@@ -1,0 +1,82 @@
+{
+  "id": 24645,
+  "name": "Shooter Premium Spot On 1x2.68ml (20-40kg) For Dogs (1 Pip)",
+  "slug": "shooter-premium-spot-on-1x2-68ml20-40kg-for-dogs-1-pip",
+  "sku": "SPD3-1",
+  "onSale": false,
+  "price": 3750,
+  "regularPrice": 3750,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/SPD3-1.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2362,
+      "name": "Dog Healthcare Supplies",
+      "slug": "dog-healthcare-supplies"
+    },
+    {
+      "id": 2363,
+      "name": "Flea & Tick Control",
+      "slug": "dog-flea-tick"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1149,
+      "name": "flea & tick",
+      "slug": "flea-tick"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=24645",
+  "shortDescription": "Pet ecto-paracsiticide against fleas, lice and ticks; plus decreases fleas in environment. Contains Fipronil 10gm, Imidacloprid 10gm, Fenoxycarb 0.6gm per 100ml) – For Dogs",
+  "description": "Shooter Premium Spot-on for Dogs is used against fleas and lice. With environmental effect, it decreases the fleas in the pet?s environment. Route of administration: Topic use, spot on. Apply separating the hair, on the dorsal midline, behind the base of the neck (withers) in such way that the product goes into direct contact with the skin. In larger dogs, apply more than one spot along the dorsal midline, in order to maximize coverage and diffusion of the active principles. The product action protects against fleas for 30 days and against ticks for 60 days. These periods may vary according to the degree of infestation, propitious environmental circumstances, bath frequency, etc. Consult the veterinary for a correct use of the product. Precautions: Do not administer to puppies younger than 2 months old. It is not recommended to bathe the animal 48 hours before or after application. If product enters into contact with eyes or mouth membranes of the animals, rinse with water abundantly. Do not apply on areas where the skin has lesions or irritation.",
+  "images": [
+    {
+      "id": 24653,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/SPD3-1.jpg",
+      "alt": "Shooter Premium Spot On 1x2.68ml (20-40kg) For Dogs (1 Pip)",
+      "name": "SPD3-1.jpg"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/shooter-premium-spot-on-1x2-68ml20-40kg-for-dogs-1-pip/?add-to-cart=24645",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-01-15T21:41:10",
+  "dateModified": "2026-05-06T17:07:53",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/SPD3-1.jpg"
+}

@@ -4,9 +4,9 @@
   "slug": "reflex-plus-canned-dog-food-lamb-sweat-potato-in-gravy-400gr-2",
   "sku": "RPDW012",
   "onSale": true,
-  "price": 2.44,
-  "regularPrice": 3.05,
-  "salePrice": 2.44,
+  "price": 244,
+  "regularPrice": 305,
+  "salePrice": 244,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/11/REFLEX-PLUS-CANNED-DOG-FOOD-LAMB-SWEAT-POTATO-IN-GRAVY-400GR.png",
@@ -32,19 +32,11 @@
       "slug": "wet-dog-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/reflex-plus-canned-dog-food-lamb-sweat-potato-in-gravy-400gr-2/",
-  "shortDescription": "Nourish your dog with Reflex Plus Adult Dog Food Lamb &amp; Sweet Potato in Gravy a balanced meal rich in tender lamb, sweet potato, and nutrients that promote vitality, easy digestion, and optimal hydration.",
-  "description": "Give your adult dog a nutritious and flavorful meal with Reflex Plus Adult Dog Food Lamb &amp; Sweet Potato in Gravy . Made with high-quality Tuna (4%) and carefully selected ingredients, this delicious wet food offers superior nutritional value and digestibility to keep your dog healthy and satisfied. Rich in animal protein and essential vitamins , it supports muscle strength, immune health, and overall vitality. The high moisture content in the gravy helps promote hydration and supports kidney function , while functional ingredients contribute to a shiny coat and optimal digestion. Key Benefits: High-quality lamb protein for strong muscles and easy digestion Enriched with vitamins and minerals for complete nutrition Supports hydration and kidney health with high water content Promotes healthy skin and a glossy coat Suitable for all adult dog breeds Ingredients: Meat and animal derivatives, Fish and fish derivatives (4% White fish), Dried sweet potato (1% dried sweet potato is equivalent to 4% sweet potato), Cereals, Minerals, Derivatives of plant origin. Nutritional Components Crude protein 8% Fat content 5% Crude fiber 0.5% Raw ash 2.5% Moisture Content 80% Nutritional Additives Nutritional supplements: Vitamin A 2250 IU, Vitamin D3 328 IU, Vitamin E 26 mg. Trace Elements: 3b605 (Zinc 24mg/kg), 3b103 (Iron 12.5mg/kg), 3b405 (Copper 2.5mg/kg), 3b503 (Manganese 2mg/kg), 3b202 (Iodine 0.45mg/kg), 3b801 (Selenium 0.04mg/kg). Nutritional Recommendations Serve at room temperature. • Clean, fresh drinking water should always be available. • If this food is new to your dog, introduce it gradually over a few days. • The exact amount of food for your dog may vary depending on many factors such as age, breed, weight, sex, and activity level. • Not suitable for human use. &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 61828,
-      "alt": "Pack Of 24 – Reflex Plus Canned Dog Food Lamb & Sweat Potato In Gravy 400g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/11/REFLEX-PLUS-CANNED-DOG-FOOD-LAMB-SWEAT-POTATO-IN-GRAVY-400GR.png",
-      "name": "REFLEX PLUS CANNED DOG FOOD LAMB &amp; SWEAT POTATO IN GRAVY 400GR"
+      "id": 2462,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "tags": [
@@ -69,20 +61,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/reflex-plus-canned-dog-food-lamb-sweat-potato-in-gravy-400gr-2/",
+  "shortDescription": "Nourish your dog with Reflex Plus Adult Dog Food Lamb & Sweet Potato in Gravy a balanced meal rich in tender lamb, sweet potato, and nutrients that promote vitality, easy digestion, and optimal hydration.",
+  "description": "Give your adult dog a nutritious and flavorful meal with Reflex Plus Adult Dog Food Lamb & Sweet Potato in Gravy . Made with high-quality Tuna (4%) and carefully selected ingredients, this delicious wet food offers superior nutritional value and digestibility to keep your dog healthy and satisfied. Rich in animal protein and essential vitamins , it supports muscle strength, immune health, and overall vitality. The high moisture content in the gravy helps promote hydration and supports kidney function , while functional ingredients contribute to a shiny coat and optimal digestion. Key Benefits: High-quality lamb protein for strong muscles and easy digestion Enriched with vitamins and minerals for complete nutrition Supports hydration and kidney health with high water content Promotes healthy skin and a glossy coat Suitable for all adult dog breeds Ingredients: Meat and animal derivatives, Fish and fish derivatives (4% White fish), Dried sweet potato (1% dried sweet potato is equivalent to 4% sweet potato), Cereals, Minerals, Derivatives of plant origin. Nutritional Components Crude protein 8% Fat content 5% Crude fiber 0.5% Raw ash 2.5% Moisture Content 80% Nutritional Additives Nutritional supplements: Vitamin A 2250 IU, Vitamin D3 328 IU, Vitamin E 26 mg. Trace Elements: 3b605 (Zinc 24mg/kg), 3b103 (Iron 12.5mg/kg), 3b405 (Copper 2.5mg/kg), 3b503 (Manganese 2mg/kg), 3b202 (Iodine 0.45mg/kg), 3b801 (Selenium 0.04mg/kg). Nutritional Recommendations Serve at room temperature. • Clean, fresh drinking water should always be available. • If this food is new to your dog, introduce it gradually over a few days. • The exact amount of food for your dog may vary depending on many factors such as age, breed, weight, sex, and activity level. • Not suitable for human use. &nbsp;",
+  "images": [
     {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
+      "id": 61828,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/11/REFLEX-PLUS-CANNED-DOG-FOOD-LAMB-SWEAT-POTATO-IN-GRAVY-400GR.png",
+      "alt": "Pack Of 24 – Reflex Plus Canned Dog Food Lamb & Sweat Potato In Gravy 400g",
+      "name": "REFLEX PLUS CANNED DOG FOOD LAMB &amp; SWEAT POTATO IN GRAVY 400GR"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=61827",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-canned-dog-food-lamb-sweat-potato-in-gravy-400gr-2/?add-to-cart=61827",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.776Z",
-  "dateModified": "2026-06-23T09:15:51.776Z"
+  "dateCreated": "2025-11-03T10:59:02",
+  "dateModified": "2026-06-17T20:35:13",
+  "brand": "Reflex",
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/11/REFLEX-PLUS-CANNED-DOG-FOOD-LAMB-SWEAT-POTATO-IN-GRAVY-400GR.png"
 }

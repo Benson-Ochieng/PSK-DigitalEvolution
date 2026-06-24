@@ -4,8 +4,8 @@
   "slug": "ultimates-dog-can-chicken-mince-sardine-400g-2",
   "sku": "UDW004",
   "onSale": false,
-  "price": 2.84,
-  "regularPrice": 2.84,
+  "price": 284,
+  "regularPrice": 284,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "wet-dog-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/ultimates-dog-can-chicken-mince-sardine-400g-2/",
-  "shortDescription": "Ultimates Indulge With Chicken Mince &amp; Sardine contains natural meat, grain-free and made with healthy fish oils. Indulge the one you love with the Ultimate dog cuisine.",
-  "description": "Ultimates Indulge With Chicken Mince &amp; Sardine contains natural meat, grain-free and made with healthy fish oils. Indulge the one you love with the Ultimate dog cuisine. Ultimates is specially formulated to help dogs thrive. Grain-free, made with natural real meat &amp; fish and contains quality animal proteins. Ultimates will keep your four-legged friend happy and healthy. No artificial flavours or preservatives. Ingredients Meats (including chicken and/or beef and/or fish), Thickeners, Vitamins and Minerals, Colour, Gelling Agent.",
-  "images": [
+  "brands": [
     {
-      "id": 55914,
-      "alt": "Ultimates Dog Can Chicken Mince & Sardine 400g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/06/ultimates-dog-can-chicken-mince-sardine-400g.png",
-      "name": "ultimates dog can chicken mince &amp; sardine 400g"
+      "id": 2473,
+      "name": "Ultimates",
+      "slug": "ultimates"
     }
   ],
   "tags": [
@@ -59,20 +51,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/ultimates-dog-can-chicken-mince-sardine-400g-2/",
+  "shortDescription": "Ultimates Indulge With Chicken Mince & Sardine contains natural meat, grain-free and made with healthy fish oils. Indulge the one you love with the Ultimate dog cuisine.",
+  "description": "Ultimates Indulge With Chicken Mince & Sardine contains natural meat, grain-free and made with healthy fish oils. Indulge the one you love with the Ultimate dog cuisine. Ultimates is specially formulated to help dogs thrive. Grain-free, made with natural real meat & fish and contains quality animal proteins. Ultimates will keep your four-legged friend happy and healthy. No artificial flavours or preservatives. Ingredients Meats (including chicken and/or beef and/or fish), Thickeners, Vitamins and Minerals, Colour, Gelling Agent.",
+  "images": [
     {
-      "id": 2473,
-      "name": "Ultimates",
-      "slug": "ultimates"
+      "id": 55914,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/06/ultimates-dog-can-chicken-mince-sardine-400g.png",
+      "alt": "Ultimates Dog Can Chicken Mince & Sardine 400g",
+      "name": "ultimates dog can chicken mince &amp; sardine 400g"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=55911",
+  "addToCartUrl": "https://petstore.co.ke/product/ultimates-dog-can-chicken-mince-sardine-400g-2/?add-to-cart=55911",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.637Z",
-  "dateModified": "2026-06-23T09:15:51.637Z"
+  "dateCreated": "2025-06-17T15:06:32",
+  "dateModified": "2026-06-17T04:30:15",
+  "brand": "Ultimates",
+  "weight_kg": 0.1,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/06/ultimates-dog-can-chicken-mince-sardine-400g.png"
 }

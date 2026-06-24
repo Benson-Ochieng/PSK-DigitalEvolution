@@ -1,0 +1,93 @@
+{
+  "id": 24558,
+  "name": "Rogz Dog Slurp Bowl 1050ml - Lime Non-Skid Rubber Base (BOWL23-L)",
+  "slug": "rogz-dog-slurp-bowl-1050ml-lime-non-skid-rubber-base",
+  "sku": "BOWL23-L",
+  "onSale": false,
+  "price": 2400,
+  "regularPrice": 2400,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/BOWL23-L-Slurp-Lime.jpg",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2366,
+      "name": "Dog Bowls & Feeders",
+      "slug": "dog-bowls-feeders"
+    },
+    {
+      "id": 2064,
+      "name": "Rogz",
+      "slug": "rogz"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2072,
+      "name": "Bowls",
+      "slug": "bowls"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=24558",
+  "shortDescription": "Rogz Stainless Steel Dog Feeding bowl with Non skid base",
+  "description": "A bowl made solely of Stainless Steel with a non-slip silicone base. Hygenic: easy to clean, 100% non-harmful or toxic to pet's body. Durable: UV resitant and corrosion resistant. Non-Skid Base made from non-toxic silicone to prevent slippage. Size: 1050ml",
+  "images": [
+    {
+      "id": 24584,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/BOWL23-L-Slurp-Lime.jpg",
+      "alt": "Rogz Dog Slurp Bowl 1050ml - Lime Non-Skid Rubber Base (BOWL23-L)",
+      "name": "BOWL23-L-Slurp-Lime.jpg"
+    },
+    {
+      "id": 24585,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/BOWL23-L-Slurp-Lime-Reverse.jpg",
+      "alt": "Rogz Dog Slurp Bowl 1050ml - Lime Non-Skid Rubber Base (BOWL23-L)",
+      "name": "BOWL23-L-Slurp-Lime-Reverse.jpg"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-slurp-bowl-1050ml-lime-non-skid-rubber-base/?add-to-cart=24558",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-01-15T21:40:30",
+  "dateModified": "2026-05-06T17:07:51",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/BOWL23-L-Slurp-Lime.jpg"
+}

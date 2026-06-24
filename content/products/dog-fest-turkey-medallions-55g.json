@@ -1,0 +1,77 @@
+{
+  "id": 27273,
+  "name": "Dog Fest Turkey Medallions (55G)",
+  "slug": "dog-fest-turkey-medallions-55g",
+  "sku": "DF024",
+  "onSale": false,
+  "price": 260,
+  "regularPrice": 260,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/DF024.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2109,
+      "name": "Small breeds",
+      "slug": "small-breeds"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27273",
+  "shortDescription": "Dog Fest Turkey Medallions for Small Breeds (55G)",
+  "description": "Delicious, tender turkey medallion is a perfect reward. Known for being very gentle on a dog's stomach, this is a type of treat you should always have with you when you are out with your furry friend. Composition: turkey, vegetable by-products, minerals. Analytical constituents, %: crude protein 32, crude fat 8.5, crude fiber 0.2, crude ash 4, moisture 21.",
+  "images": [
+    {
+      "id": 27246,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/DF024.jpg",
+      "alt": "Dog Fest Turkey Medallions (55G)",
+      "name": "DF024"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/dog-fest-turkey-medallions-55g/?add-to-cart=27273",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-04-20T16:20:45",
+  "dateModified": "2026-05-06T17:08:05",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/DF024.jpg"
+}

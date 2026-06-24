@@ -4,8 +4,8 @@
   "slug": "josera-culinesse-2kg",
   "sku": "JCC001",
   "onSale": false,
-  "price": 36.8,
-  "regularPrice": 36.8,
+  "price": 3680,
+  "regularPrice": 3680,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "josera"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/josera-culinesse-2kg/",
-  "shortDescription": "JOSERA Culinesse with refined salmon is just the thing for discerning cats. The balanced formula makes JOSERA Culinesse easy to digest and particularly tasty.",
-  "description": "Composition: poultry protein (dried); rice; maize; greaves; poultry fat; sugar beet pulp; salmon meal %6; poultry protein (hydrolysed), maize protein; poultry liver (dried), minerals. Product Details: JOSERA Culinesse with refined salmon is just the thing for discerning cats. The balanced formula makes JOSERA Culinesse easy to digest and particularly tasty. With delicious salmon for your gourmet cat the&nbsp;moderate fat content makes JOSERA Culinesse ideal for indoor and outdoor cats Valuable fatty acids, vitamins and trace elements for healthy skin and a shiny coat Encourages a pH-value of 6.0-6.5 to reduce the risk of urinary stone formation. &nbsp;Key Benefits With Refined Salmon (6%) – provides high-quality protein and irresistible flavor for even the pickiest eaters. Supports a Glossy Coat &amp; Healthy Skin – rich in valuable fatty acids, vitamins, and trace elements. Ideal for Indoor &amp; Outdoor Cats – moderate fat content to maintain a healthy weight and energy level. Urinary Health Support – encourages a urine pH of 6.0–6.5, reducing the risk of urinary stone formation. Highly Digestible – gentle on the stomach thanks to premium, carefully balanced ingredients.",
-  "images": [
+  "brands": [
     {
-      "id": 23780,
-      "alt": "Josera Culinesse 2kg",
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JCC001.jpg",
-      "name": "JCC001.jpg"
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "dry-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josera-culinesse-2kg/",
+  "shortDescription": "JOSERA Culinesse with refined salmon is just the thing for discerning cats. The balanced formula makes JOSERA Culinesse easy to digest and particularly tasty.",
+  "description": "Composition: poultry protein (dried); rice; maize; greaves; poultry fat; sugar beet pulp; salmon meal %6; poultry protein (hydrolysed), maize protein; poultry liver (dried), minerals. Product Details: JOSERA Culinesse with refined salmon is just the thing for discerning cats. The balanced formula makes JOSERA Culinesse easy to digest and particularly tasty. With delicious salmon for your gourmet cat the&nbsp;moderate fat content makes JOSERA Culinesse ideal for indoor and outdoor cats Valuable fatty acids, vitamins and trace elements for healthy skin and a shiny coat Encourages a pH-value of 6.0-6.5 to reduce the risk of urinary stone formation. &nbsp;Key Benefits With Refined Salmon (6%) – provides high-quality protein and irresistible flavor for even the pickiest eaters. Supports a Glossy Coat & Healthy Skin – rich in valuable fatty acids, vitamins, and trace elements. Ideal for Indoor & Outdoor Cats – moderate fat content to maintain a healthy weight and energy level. Urinary Health Support – encourages a urine pH of 6.0–6.5, reducing the risk of urinary stone formation. Highly Digestible – gentle on the stomach thanks to premium, carefully balanced ingredients.",
+  "images": [
     {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
+      "id": 23780,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JCC001.jpg",
+      "alt": "Josera Culinesse 2kg",
+      "name": "JCC001.jpg"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 2,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=2&#038;add-to-cart=23734",
+  "addToCartUrl": "https://petstore.co.ke/product/josera-culinesse-2kg/?add-to-cart=23734",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.201Z",
-  "dateModified": "2026-06-23T09:15:51.201Z"
+  "dateCreated": "2021-10-29T07:55:20",
+  "dateModified": "2026-06-22T11:12:05",
+  "brand": "Josera",
+  "weight_kg": 2,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JCC001.jpg"
 }

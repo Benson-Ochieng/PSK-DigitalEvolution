@@ -1,0 +1,63 @@
+{
+  "id": 54100,
+  "name": "Active Nature 12.5kg",
+  "slug": "active-nature-12-5kg",
+  "sku": "JDAN1@F",
+  "onSale": true,
+  "price": 11520,
+  "regularPrice": 14500,
+  "salePrice": 11520,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JDAN.jpg",
+  "categories": [
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2223,
+      "name": "flash",
+      "slug": "flash"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=54100",
+  "shortDescription": "For active dogs. A high-quality food with a finely tailored recipe consisting of the best natural ingredients, supplying our freedom-loving powerhouses with all the energy they need. With an extra portion of tasty poultry and premium lamb.",
+  "description": "Composition: Complete feed for adult dogs. Composition: 28,0% dried poultry protein; rice; poultry fat; potato starch; 9,0% dried lamb protein; beet fibre; pea flour; hydrolysed poultry protein; apple fibre; minerals; yeast; herbs, fruits; ground chicory root (natural source of inulin); carob meal; dried meat from the New Zealand green-lipped mussel (Perna canaliculus) Product Details: For active dogs. A high-quality food with a finely tailored recipe consisting of the best natural ingredients, supplying our freedom-loving powerhouses with all the energy they need. With an extra portion of tasty poultry and premium lamb. ? Valuable fatty acids for healthy skin and a shiny coat ? Vitamin E & C as well as L-carnitine to support active dogs ? With herbs and fruit (carob, chicory root, raspberries, peppermint, parsley, camomile, rose hip, liquorice, chokeberry, fenugreek seeds, blueberries, marigold and fennel)",
+  "images": [
+    {
+      "id": 23753,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JDAN.jpg",
+      "alt": "Active Nature 12.5kg",
+      "name": "JDAN.jpg"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": false,
+  "addToCartUrl": "https://petstore.co.ke/product/active-nature-12-5kg/?add-to-cart=54100",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2025-03-21T16:17:06",
+  "dateModified": "2026-06-17T04:33:52",
+  "brand": "Josera",
+  "weight_kg": 12.5,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JDAN.jpg"
+}

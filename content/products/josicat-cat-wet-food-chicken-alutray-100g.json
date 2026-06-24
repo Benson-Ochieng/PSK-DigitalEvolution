@@ -1,11 +1,11 @@
 {
   "id": 89859,
-  "name": "JosiCat Cat Wet Food – Chicken Alutray 100g",
+  "name": "JosiCat Cat Wet Food - Chicken Alutray 100g",
   "slug": "josicat-cat-wet-food-chicken-alutray-100g",
   "sku": "JCW004",
   "onSale": false,
-  "price": 1.98,
-  "regularPrice": 1.98,
+  "price": 198,
+  "regularPrice": 198,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "wet-cat-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/josicat-cat-wet-food-chicken-alutray-100g/",
-  "shortDescription": "Serve your cat a delicious and nourishing meal with JosiCat Chicken Pâté Wet Cat Food 100g a smooth and juicy pâté made with tasty chicken for adult cats. Carefully prepared with quality ingredients, this complete wet cat food delivers balanced nutrition while providing the rich flavor and soft texture cats love.",
-  "description": "Enriched with Vitamin E and Vitamin D3, JosiCat Chicken Pâté helps support healthy cell protection and strong bones. Its moist texture also helps provide additional hydration compared to dry food, supporting your cat’s daily wellbeing. Key Benefits Complete wet food for adult cats Smooth chicken pâté with irresistible flavour Supports healthy bones with Vitamin D3 Contains Vitamin E for cell protection support Helps provide additional moisture and hydration Soft texture for easy eating Made with carefully selected ingredients Supports healthy digestion and gut flora Analytical Constituents Protein: 11.0% Fat Content: 4.5% Crude Fibre: 0.3% Crude Ash: 2.0% Feeding Guide Recommended daily feeding amounts: 3kg cat: approximately 230g daily 4kg cat: approximately 280g daily 5kg cat: approximately 330g daily 6kg cat: approximately 370g daily Adjust feeding amounts according to your cat’s activity level and any additional food provided. Always ensure fresh drinking water is available. Storage Instructions After opening, refrigerate between 2°C and 6°C and serve at room temperature within 24 hours. Keep your cat happy and satisfied with JosiCat Chicken Pâté Wet Cat Food 100g — the smooth and tasty everyday meal for adult cats. &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 89860,
-      "alt": "JosiCat Cat Wet Food – Chicken Alutray 100g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/JOSICAT-CHICKEN-ALUTRAY-100G-1.png",
-      "name": "JOSICAT CHICKEN ALUTRAY 100G (1)"
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josicat-cat-wet-food-chicken-alutray-100g/",
+  "shortDescription": "Serve your cat a delicious and nourishing meal with JosiCat Chicken Pâté Wet Cat Food 100g a smooth and juicy pâté made with tasty chicken for adult cats. Carefully prepared with quality ingredients, this complete wet cat food delivers balanced nutrition while providing the rich flavor and soft texture cats love.",
+  "description": "Enriched with Vitamin E and Vitamin D3, JosiCat Chicken Pâté helps support healthy cell protection and strong bones. Its moist texture also helps provide additional hydration compared to dry food, supporting your cat’s daily wellbeing. Key Benefits Complete wet food for adult cats Smooth chicken pâté with irresistible flavour Supports healthy bones with Vitamin D3 Contains Vitamin E for cell protection support Helps provide additional moisture and hydration Soft texture for easy eating Made with carefully selected ingredients Supports healthy digestion and gut flora Analytical Constituents Protein: 11.0% Fat Content: 4.5% Crude Fibre: 0.3% Crude Ash: 2.0% Feeding Guide Recommended daily feeding amounts: 3kg cat: approximately 230g daily 4kg cat: approximately 280g daily 5kg cat: approximately 330g daily 6kg cat: approximately 370g daily Adjust feeding amounts according to your cat’s activity level and any additional food provided. Always ensure fresh drinking water is available. Storage Instructions After opening, refrigerate between 2°C and 6°C and serve at room temperature within 24 hours. Keep your cat happy and satisfied with JosiCat Chicken Pâté Wet Cat Food 100g — the smooth and tasty everyday meal for adult cats. &nbsp;",
+  "images": [
     {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
+      "id": 89860,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/JOSICAT-CHICKEN-ALUTRAY-100G-1.png",
+      "alt": "JosiCat Cat Wet Food – Chicken Alutray 100g",
+      "name": "JOSICAT CHICKEN ALUTRAY 100G (1)"
     }
   ],
-  "stockStatus": "instock",
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=89859",
+  "addToCartUrl": "https://petstore.co.ke/product/josicat-cat-wet-food-chicken-alutray-100g/?add-to-cart=89859",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.976Z",
-  "dateModified": "2026-06-23T09:15:51.976Z"
+  "dateCreated": "2026-05-21T15:44:33",
+  "dateModified": "2026-06-24T10:12:03",
+  "brand": "Josera",
+  "weight_kg": 0.1,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/JOSICAT-CHICKEN-ALUTRAY-100G-1.png"
 }

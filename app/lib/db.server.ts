@@ -328,7 +328,7 @@ export const db = {
         status: data.status || 'PENDING_PAYMENT'
       };
       if (supabase) {
-        const { error } = await supabase.from("orders").insert(order);
+        const { error } = await supabase.from("dashboard_orders").insert(order);
         if (error) throw error;
       }
 
@@ -341,7 +341,7 @@ export const db = {
     async findUnique({ where }: { where: { id: string } }): Promise<Order | null> {
       let order: Order | null = null;
       if (supabase) {
-        const { data, error } = await supabase.from("orders").select().eq("id", where.id).maybeSingle();
+        const { data, error } = await supabase.from("dashboard_orders").select().eq("id", where.id).maybeSingle();
         if (error) throw error;
         order = data as Order | null;
       } else {
@@ -358,7 +358,7 @@ export const db = {
     async findFirst({ where }: { where: (order: Order) => boolean }): Promise<Order | null> {
       let ordersList: Order[] = [];
       if (supabase) {
-        const { data, error } = await supabase.from("orders").select();
+        const { data, error } = await supabase.from("dashboard_orders").select();
         if (error) throw error;
         ordersList = data as Order[];
       } else {
@@ -372,7 +372,7 @@ export const db = {
     async findMany(options?: { where?: (order: Order) => boolean }): Promise<Order[]> {
       let ordersList: Order[] = [];
       if (supabase) {
-        const { data, error } = await supabase.from("orders").select().order("date", { ascending: false });
+        const { data, error } = await supabase.from("dashboard_orders").select().order("date", { ascending: false });
         if (error) throw error;
         ordersList = data as Order[];
       } else {
@@ -389,7 +389,7 @@ export const db = {
 
     async update({ where, data }: { where: { id: string }, data: Partial<Order> }): Promise<Order> {
       if (supabase) {
-        const { data: updated, error } = await supabase.from("orders").update(data).eq("id", where.id).select().single();
+        const { data: updated, error } = await supabase.from("dashboard_orders").update(data).eq("id", where.id).select().single();
         if (error) throw error;
         // Also update local JSON file
         const ordersList = readData<Order[]>(ORDERS_FILE, getInitialOrders());
@@ -413,7 +413,7 @@ export const db = {
 
     async delete({ where }: { where: { id: string } }): Promise<boolean> {
       if (supabase) {
-        const { error } = await supabase.from("orders").delete().eq("id", where.id);
+        const { error } = await supabase.from("dashboard_orders").delete().eq("id", where.id);
         if (error) throw error;
         // Also update local JSON
         const ordersList = readData<Order[]>(ORDERS_FILE, getInitialOrders());

@@ -4,8 +4,8 @@
   "slug": "paw-performance-polo-small-women-blue-3",
   "sku": "PPPPSWB",
   "onSale": false,
-  "price": 25,
-  "regularPrice": 25,
+  "price": 2500,
+  "regularPrice": 2500,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -14,6 +14,14 @@
     {
       "id": 2243,
       "name": "Humans",
+      "slug": "human"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2245,
+      "name": "Human",
       "slug": "human"
     }
   ],
@@ -27,32 +35,29 @@
   "images": [
     {
       "id": 56029,
-      "alt": "Paw Performance Polo-Small Women Blue",
       "src": "https://petstore.co.ke/wp-content/uploads/2025/06/FRONT-POLO-SHIRT-FIXED.png",
+      "alt": "Paw Performance Polo-Small Women Blue",
       "name": "FRONT POLO SHIRT FIXED"
     },
     {
       "id": 56031,
-      "alt": "Paw Performance Polo-Small Women Blue",
       "src": "https://petstore.co.ke/wp-content/uploads/2025/06/BACK-POLO-SHIRT-FIXED-1.png",
+      "alt": "Paw Performance Polo-Small Women Blue",
       "name": "BACK POLO SHIRT FIXED"
     }
   ],
-  "tags": [
-    {
-      "id": 2245,
-      "name": "Human",
-      "slug": "human"
-    }
-  ],
-  "brands": [],
   "stockStatus": "instock",
-  "lowStockRemaining": 3,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=56415",
+  "addToCartUrl": "https://petstore.co.ke/product/paw-performance-polo-small-women-blue-3/?add-to-cart=56415",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.645Z",
-  "dateModified": "2026-06-23T09:15:51.645Z"
+  "dateCreated": "2025-07-04T15:19:38",
+  "dateModified": "2026-06-17T04:15:07",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/06/FRONT-POLO-SHIRT-FIXED.png"
 }

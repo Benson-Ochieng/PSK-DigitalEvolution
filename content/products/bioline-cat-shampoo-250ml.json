@@ -1,0 +1,72 @@
+{
+  "id": 37828,
+  "name": "Bioline Cat Shampoo 250ml",
+  "slug": "bioline-cat-shampoo-250ml",
+  "sku": "BCS250",
+  "onSale": false,
+  "price": 500,
+  "regularPrice": 500,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/06/Bioline-cat-shampoo.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2343,
+      "name": "Cat Grooming",
+      "slug": "cat-grooming"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2098,
+      "name": "Grooming & Tools",
+      "slug": "grooming-tools"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=37828",
+  "shortDescription": "Bioline cat Shampoo 250ML is Made specifically with tools and materials that are safe and comfortable for pets. Bioline Products are made with supervision and recommendations from Professional Veterinarians.",
+  "description": "Bioline cat Shampoo 250ML is Made specifically with tools and materials that are safe and comfortable for pets. Bioline Products are made with supervision and recommendations from Professional Veterinarians. This shampoo uses herbal extract ingredients that contain vitamins and other nutrients that are very good for the development of skin and fur in kittens. Instructions for use: - Use the shampoo sparingly as necessary for the size of the cats. - Apply shampoo to the wet coat, spread evenly and rinse with lukewarm water. repeat if necessary. - After washing the coat, it is important to rub the animal dry and keep it well protected from draught.",
+  "images": [
+    {
+      "id": 39904,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/06/Bioline-cat-shampoo.jpg",
+      "alt": "Bioline Cat Shampoo 250ml",
+      "name": "Bioline cat shampoo"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/bioline-cat-shampoo-250ml/?add-to-cart=37828",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-06-17T12:32:44",
+  "dateModified": "2026-05-06T17:08:43",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/06/Bioline-cat-shampoo.jpg"
+}

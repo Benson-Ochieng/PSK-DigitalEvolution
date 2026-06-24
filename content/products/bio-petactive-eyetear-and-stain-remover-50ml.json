@@ -1,0 +1,72 @@
+{
+  "id": 19808,
+  "name": "Bio Petactive Eye(Tear and Stain Remover) 50ml",
+  "slug": "bio-petactive-eyetear-and-stain-remover-50ml",
+  "sku": "BPETSR50",
+  "onSale": false,
+  "price": 431,
+  "regularPrice": 431,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/BPETSR50.jpg",
+  "categories": [
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 2085,
+      "name": "Supplements",
+      "slug": "supplements"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=19808",
+  "shortDescription": "Bio Petactive Eye(Tear and Stain Remover) 50ml",
+  "description": "Bio-Eyes Tear Stain Remover is a remedy made to remove stains that form due to tear flows around your cat's and your dog's eyes. Usage: Using special drops of the product, place a small amount of Bio PetActive Bio-Eyes Tear Remover on a cotton swab or gauze and gently wipe stained, dirty areas around the eyes. A separate cotton should be used for cleaning around each eye area. Make sure the product does not contact with the eye during cleaning. After application, dry the applied area with a clean gauze or cotton. Application should be done 3 times a day for 1 week. Afterward, it should be used regularly once or twice a week to prevent stain formation. The application should be terminated if deemed irritation. Consult a veterinary in case of serious situations.",
+  "images": [
+    {
+      "id": 19774,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/BPETSR50.jpg",
+      "alt": "Bio Petactive Eye(Tear and Stain Remover) 50ml",
+      "name": "BPETSR50"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/bio-petactive-eyetear-and-stain-remover-50ml/?add-to-cart=19808",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2021-04-08T14:21:07",
+  "dateModified": "2026-05-06T17:07:15",
+  "brand": null,
+  "weight_kg": 0.1,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/BPETSR50.jpg"
+}

@@ -1,0 +1,68 @@
+{
+  "id": 43678,
+  "name": "Reflex Plus Maxi Breed Dog Food Lamb & Rice 18kg",
+  "slug": "reflex-plus-maxi-breed-dog-food-lamb-rice-18kg-3",
+  "sku": "RPDD011@F",
+  "onSale": true,
+  "price": 12060,
+  "regularPrice": 13400,
+  "salePrice": 12060,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/11/RPDD011-Reflex-Plus-Maxi-Breed-18Kg.jpg",
+  "categories": [
+    {
+      "id": 2167,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2276,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=43678",
+  "shortDescription": "Reflex Plus Maxi Breed Adult Dog Food Lamb & Rice offers tailored nutrition for large dogs, ensuring strong muscles, joint flexibility, and long-lasting energy through a balanced blend of lamb protein and wholesome grains.",
+  "description": "Processed Lamb Protein, Processed Animal Protein, Corn, Chicken Fat, Rice, Sugar Beet, Liver Flavor, Whey Powder, Vitamins and Minerals, Xylo-Oligosaccharides, Brewer's Yeast, Flaxseed, Salt, Yucca Schidigera, Preservatives - Antioxidants. Raw Protein............................... 25% Fat Content ................................14% Ash ................................................8% Raw Cellulose ............................2.5% Vitamin A (3A672A) 18,000 IU/kg Vitamin D3 (3A671) 1,500 IU/kg Vitamin E (3A700) 150mg/kg Vitamin C (3A300) 200mg/kg",
+  "images": [
+    {
+      "id": 33157,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/11/RPDD011-Reflex-Plus-Maxi-Breed-18Kg.jpg",
+      "alt": "DEFECT/DAMAGED PACKAGE - CLEARANCE: Reflex Plus Maxi Breed Dog Food Lamb & Rice 18Kg",
+      "name": "RPDD011 &#8211; Reflex Plus Maxi Breed 18Kg"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-maxi-breed-dog-food-lamb-rice-18kg-3/?add-to-cart=43678",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2024-01-30T11:55:03",
+  "dateModified": "2026-05-06T17:09:28",
+  "brand": "Reflex",
+  "weight_kg": 18,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/11/RPDD011-Reflex-Plus-Maxi-Breed-18Kg.jpg"
+}

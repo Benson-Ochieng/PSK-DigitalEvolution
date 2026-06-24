@@ -1,0 +1,71 @@
+{
+  "id": 50818,
+  "name": "Kong Jumbler Ball Md/Lg Orange",
+  "slug": "kong-jumbler-ball-md-lg-orange",
+  "sku": "TMB2O@F",
+  "onSale": true,
+  "price": 1575,
+  "regularPrice": 2100,
+  "salePrice": 1575,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/01/KONGJumblerBall4-Orange.webp",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2357,
+      "name": "Dog Fetch Toys",
+      "slug": "dog-fetch-toys"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2031,
+      "name": "Kong",
+      "slug": "kong-accessories"
+    }
+  ],
+  "brands": [],
+  "tags": [],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=50818",
+  "shortDescription": "KONG Jumbler",
+  "description": "The KONGJumbler is a two-in-one ball toy for twice the interactive fun. The interior tennis ball and loud squeak entice play, while the handles make pickup and shaking easy. The Jumbler stands up to tough play, making it ideal for games of fetch. Available in two shapes and sizes, the KONGJumbler will ensure an exciting, active play session for you and your dog. Squeaker and tumbling interior ball entice play Ideal for interactive fun Handles make pick up and shaking easy",
+  "images": [
+    {
+      "id": 43491,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/01/KONGJumblerBall4-Orange.webp",
+      "alt": "Kong Jumbler Ball Md/lg- Orange",
+      "name": "KONGJumblerBall4- Orange"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/kong-jumbler-ball-md-lg-orange/?add-to-cart=50818",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2024-10-14T08:46:50",
+  "dateModified": "2026-05-06T17:10:39",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/01/KONGJumblerBall4-Orange.webp"
+}

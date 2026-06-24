@@ -1,0 +1,88 @@
+{
+  "id": 23712,
+  "name": "Josera Festival 15kg",
+  "slug": "josera-festival-15kg",
+  "sku": "JDF001",
+  "onSale": false,
+  "price": 13900,
+  "regularPrice": 13900,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JDF001.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 637,
+      "name": "kibble",
+      "slug": "kibble"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=23712",
+  "shortDescription": "Josera Festival with a delicious sauce for picky dogs. A unique menu for our discerning connoisseurs: This food can be fed dry or moist. Just add water to the gravy powder to transform this crunchy kibble into a special taste sensation! This variety is sure to win over even the fussiest pet.",
+  "description": "Composition: poultry; whole-grain corn; rice; poultry fat; beet fibre; dried salmon 6.0 %; potato starch; hydrolysed poultry protein; hydrolysed vegetable protein; minerals; dried poultry liver; yeast; haemoglobin powder; ground chicory root (natural source of inulin); dried meat from the New Zealand green-lipped mussel (Perna canaliculus). Product Details: A unique menu for our discerning connoisseurs: This food can be fed dry or moist. Just add water to the gravy powder to transform this crunchy kibble into a special taste sensation! This variety is sure to win over even the fussiest pet. Salmon adds a tasty finishing touch to the exclusive recipe. With tasty gravy powder for added flavor Valuable fatty acids promote a healthy appearance and a shiny coat. Supplies active and sporting dogs with plenty of energy. Supports bone formation and joints.",
+  "images": [
+    {
+      "id": 23742,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JDF001.jpg",
+      "alt": "Josera Festival 15kg",
+      "name": "JDF001.jpg"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/josera-festival-15kg/?add-to-cart=23712",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2021-10-29T07:55:17",
+  "dateModified": "2026-06-17T04:33:51",
+  "brand": "Josera",
+  "weight_kg": 15,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JDF001.jpg"
+}

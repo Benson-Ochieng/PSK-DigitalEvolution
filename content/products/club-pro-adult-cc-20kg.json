@@ -1,0 +1,88 @@
+{
+  "id": 23662,
+  "name": "Royal Canin Club Pro Adult CC 20kg",
+  "slug": "club-pro-adult-cc-20kg",
+  "sku": "ROC-CLUB-001",
+  "onSale": false,
+  "price": 13500,
+  "regularPrice": 13500,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-CLUB-001.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2104,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2423,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 1034,
+      "name": "large breed",
+      "slug": "large-breed"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=23662",
+  "shortDescription": "Royal Canin? Club Pro Adult CC is a hearty food for adult dogs with normal activity levels with proteins, antioxidants, minerals and vitamins. It?s ideal for every breed and size of dog.",
+  "description": "Royal Canin? Club Pro Adult CC Dry Dog Food is a balanced complete diet of coated, expanded kibble for the adult dog with no high performance demands. 100% complete and balanced nutrition The carefully formulated recipe guarantees high acceptance and digestibility. Helps provide the optimal energy content Supports ideal weight maintenance Excellent food for maintenance of adult dogs Helps maintain health and beauty of skin and coat Has a protein/fat ratio of 25/14 No added colors or flavors IngredientsGrains, meat & meat by-products, oils and fats, vegetable by-products, plant protein extracts, minerals, yeast. Nutritional dietary additives: Vitamin A - 6000 IU/kg; Vitamin D3 - 500 IU/kg; E1 [iron] - 24 mg/kg; E2 [iodine] - 1.9 mg/kg; E4 [copper] - 8 mg; E5 [manganese] - 31 mg/kg; E6 [zinc] - 105 mg/kg; preservatives; antioxidants.",
+  "images": [
+    {
+      "id": 23684,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-CLUB-001.jpg",
+      "alt": "Royal Canin Club Pro Adult CC 20kg",
+      "name": "ROC-CLUB-001.jpg"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/club-pro-adult-cc-20kg/?add-to-cart=23662",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2021-10-08T11:34:44",
+  "dateModified": "2026-06-17T04:23:42",
+  "brand": "Royal Canin",
+  "weight_kg": 20,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-CLUB-001.jpg"
+}

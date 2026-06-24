@@ -4,8 +4,8 @@
   "slug": "simba-cat-alutray-pate-cat-food-beef-100g",
   "sku": "LSWC006",
   "onSale": false,
-  "price": 1.72,
-  "regularPrice": 1.72,
+  "price": 172,
+  "regularPrice": 172,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "wet-cat-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/simba-cat-alutray-pate-cat-food-beef-100g/",
-  "shortDescription": "Give your cat a delicious and nutritious meal with Simba Cat Paté Beef. This complete wet cat food is carefully prepared with quality beef, providing a rich source of protein and essential minerals to support your cat’s daily health and wellbeing.",
-  "description": "Steam-cooked to enhance its natural flavour and aroma, this smooth and tasty paté is highly palatable, making it ideal for adult cats, including fussy eaters. Its soft texture is easy to eat and digest, ensuring a satisfying meal at every serving. Formulated with Vitamins A, D3, and E, Simba Cat Paté helps support healthy vision, strong bones, immune function, and overall vitality. Made without added colours or preservatives, it delivers balanced nutrition and great taste in every bite. Key Benefits Complete and balanced wet food for adult cats Made with quality beef for a delicious flavour Rich in protein to support muscle maintenance Smooth paté texture for easy chewing and digestion Enriched with Vitamins A, D3, and E Supports overall health and daily vitality No added colours or preservatives Suitable for everyday feeding Analytical Constituents Crude Protein: 8% Crude Fat: 7.5% Crude Fibre: 0.4% Crude Ash: 2.1% Moisture: 82% Feeding Guide For an average adult cat (4kg), feed approximately 200g daily, divided into two meals. Serve at room temperature and ensure fresh, clean water is always available. Storage Store in a cool, dry place. Once opened, refrigerate and consume within 2 days. &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 90273,
-      "alt": "Simba Cat Alutray Paté Cat Food – Beef 100g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Beef-Alutray-100G-1.png",
-      "name": "Simba Cat Beef Alutray 100G (1)"
+      "id": 2464,
+      "name": "Simba",
+      "slug": "simba"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/simba-cat-alutray-pate-cat-food-beef-100g/",
+  "shortDescription": "Give your cat a delicious and nutritious meal with Simba Cat Paté Beef. This complete wet cat food is carefully prepared with quality beef, providing a rich source of protein and essential minerals to support your cat’s daily health and wellbeing.",
+  "description": "Steam-cooked to enhance its natural flavour and aroma, this smooth and tasty paté is highly palatable, making it ideal for adult cats, including fussy eaters. Its soft texture is easy to eat and digest, ensuring a satisfying meal at every serving. Formulated with Vitamins A, D3, and E, Simba Cat Paté helps support healthy vision, strong bones, immune function, and overall vitality. Made without added colours or preservatives, it delivers balanced nutrition and great taste in every bite. Key Benefits Complete and balanced wet food for adult cats Made with quality beef for a delicious flavour Rich in protein to support muscle maintenance Smooth paté texture for easy chewing and digestion Enriched with Vitamins A, D3, and E Supports overall health and daily vitality No added colours or preservatives Suitable for everyday feeding Analytical Constituents Crude Protein: 8% Crude Fat: 7.5% Crude Fibre: 0.4% Crude Ash: 2.1% Moisture: 82% Feeding Guide For an average adult cat (4kg), feed approximately 200g daily, divided into two meals. Serve at room temperature and ensure fresh, clean water is always available. Storage Store in a cool, dry place. Once opened, refrigerate and consume within 2 days. &nbsp;",
+  "images": [
     {
-      "id": 2464,
-      "name": "Simba",
-      "slug": "simba"
+      "id": 90273,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Beef-Alutray-100G-1.png",
+      "alt": "Simba Cat Alutray Paté Cat Food – Beef 100g",
+      "name": "Simba Cat Beef Alutray 100G (1)"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=90272",
+  "addToCartUrl": "https://petstore.co.ke/product/simba-cat-alutray-pate-cat-food-beef-100g/?add-to-cart=90272",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:52.040Z",
-  "dateModified": "2026-06-23T09:15:52.040Z"
+  "dateCreated": "2026-06-08T15:12:38",
+  "dateModified": "2026-06-23T11:39:34",
+  "brand": "Simba",
+  "weight_kg": 0.1,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Beef-Alutray-100G-1.png"
 }

@@ -1,0 +1,92 @@
+{
+  "id": 47369,
+  "name": "Smart Choice Strong Rubber Toy (Sc155)",
+  "slug": "smart-choice-strong-rubber-toy-sc155",
+  "sku": "SC155",
+  "onSale": false,
+  "price": 1295,
+  "regularPrice": 1295,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/05/smart-choice-strong-rubber-tyre-dog-toy-assorted-colours-e1717070016473.jpg",
+  "categories": [
+    {
+      "id": 2358,
+      "name": "Chew Toys",
+      "slug": "dog-chew-toys"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2357,
+      "name": "Dog Fetch Toys",
+      "slug": "dog-fetch-toys"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2139,
+      "name": "toys",
+      "slug": "toys"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=47369",
+  "shortDescription": "Designed to keep your dog happy and healthy through fun games of throw and fetch. Available in Blue, Purple and Yellow. We cannot guarantee which colour you will receive when you purchase online",
+  "description": "Designed to keep your dog happy and healthy through fun games of throw and fetch. The strong rubber structure is a great chewy toy, strengthening the jaw and satisfying your pet's natural instinct to chew. This lightweight and robust toy is a gentle on your dog's mouth, helping to keep gums and teeth healthy. Whilst chewing the nubs and ridges massage your dog's gums, reducing the build-up of plaque and tarter. Available in Blue, Purple and Yellow. We cannot guarantee which colour you will receive when you purchase online",
+  "images": [
+    {
+      "id": 47370,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/05/smart-choice-strong-rubber-tyre-dog-toy-assorted-colours-e1717070016473.jpg",
+      "alt": "Smart Choice Strong Rubber Toy (Sc155)",
+      "name": "smart-choice-strong-rubber-tyre-dog-toy-assorted-colours"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/smart-choice-strong-rubber-toy-sc155/?add-to-cart=47369",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2024-05-30T14:55:38",
+  "dateModified": "2026-05-06T17:09:56",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/05/smart-choice-strong-rubber-tyre-dog-toy-assorted-colours-e1717070016473.jpg"
+}

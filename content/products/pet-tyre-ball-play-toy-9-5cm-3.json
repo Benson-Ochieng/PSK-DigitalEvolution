@@ -1,0 +1,51 @@
+{
+  "id": 52780,
+  "name": "Pet Tyre Ball Play Toy 9.5cm",
+  "slug": "pet-tyre-ball-play-toy-9-5cm-3",
+  "sku": "PA3552@F",
+  "onSale": true,
+  "price": 684,
+  "regularPrice": 760,
+  "salePrice": 684,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/05/PET-TYRE-BALL-PLAY-TOY-9.5CM-e1715089293327.png",
+  "categories": [
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    }
+  ],
+  "brands": [],
+  "tags": [],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=52780",
+  "shortDescription": "",
+  "description": "",
+  "images": [
+    {
+      "id": 46791,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/05/PET-TYRE-BALL-PLAY-TOY-9.5CM-e1715089293327.png",
+      "alt": "Pet Tyre Ball Play Toy 9.5cm (Pa3552)",
+      "name": "PET TYRE BALL PLAY TOY 9.5CM"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/pet-tyre-ball-play-toy-9-5cm-3/?add-to-cart=52780",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2025-01-16T17:04:49",
+  "dateModified": "2026-05-06T17:10:54",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/05/PET-TYRE-BALL-PLAY-TOY-9.5CM-e1715089293327.png"
+}

@@ -4,8 +4,8 @@
   "slug": "simba-cat-canned-mousse-cat-food-chicken-liver-85g",
   "sku": "LSWC003",
   "onSale": false,
-  "price": 1.79,
-  "regularPrice": 1.79,
+  "price": 179,
+  "regularPrice": 179,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "wet-cat-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/simba-cat-canned-mousse-cat-food-chicken-liver-85g/",
-  "shortDescription": "Treat your cat to a delicious and nutritious meal with Simba Cat Mousse with Chicken Liver. This complete and balanced wet cat food is made with quality ingredients, including real chicken liver and heart, providing high-quality protein to support strong muscles, energy, and overall wellbeing.",
-  "description": "Its soft, smooth mousse texture is specially designed to be easy to eat, making it ideal for adult cats, senior cats, and cats with sensitive teeth or chewing difficulties. The rich flavour of chicken liver helps stimulate appetite, making it an excellent choice for picky eaters. Enriched with essential vitamins and minerals, including Vitamins D3 and E, Simba Cat Mousse supports healthy bones, immunity, and daily vitality. Carefully prepared to preserve natural taste and nutritional value, this tasty recipe delivers complete nutrition in every serving. Key Benefits: Complete and balanced nutrition for adult cats Made with real chicken liver and heart Rich in high-quality protein for muscle maintenance Soft mousse texture for easy chewing and digestion Supports overall health with essential vitamins and minerals Highly palatable recipe ideal for picky eaters Free from artificial colours and preservatives Convenient 85g single-serve can Give your feline companion a delicious meal packed with the nutrients they need every day with Simba Cat Mousse with Chicken Liver. &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 90336,
-      "alt": "Simba Cat Canned Mousse Cat Food – Chicken Liver 85g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Mousse-With-Chicken-Liver-Canned-Cat-Food-85G-4.png",
-      "name": "Simba Cat Mousse With Chicken Liver Canned Cat Food 85G (4)"
+      "id": 2464,
+      "name": "Simba",
+      "slug": "simba"
     }
   ],
   "tags": [
@@ -59,20 +51,33 @@
       "slug": "new-arrivals"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/simba-cat-canned-mousse-cat-food-chicken-liver-85g/",
+  "shortDescription": "Treat your cat to a delicious and nutritious meal with Simba Cat Mousse with Chicken Liver. This complete and balanced wet cat food is made with quality ingredients, including real chicken liver and heart, providing high-quality protein to support strong muscles, energy, and overall wellbeing.",
+  "description": "Its soft, smooth mousse texture is specially designed to be easy to eat, making it ideal for adult cats, senior cats, and cats with sensitive teeth or chewing difficulties. The rich flavour of chicken liver helps stimulate appetite, making it an excellent choice for picky eaters. Enriched with essential vitamins and minerals, including Vitamins D3 and E, Simba Cat Mousse supports healthy bones, immunity, and daily vitality. Carefully prepared to preserve natural taste and nutritional value, this tasty recipe delivers complete nutrition in every serving. Key Benefits: Complete and balanced nutrition for adult cats Made with real chicken liver and heart Rich in high-quality protein for muscle maintenance Soft mousse texture for easy chewing and digestion Supports overall health with essential vitamins and minerals Highly palatable recipe ideal for picky eaters Free from artificial colours and preservatives Convenient 85g single-serve can Give your feline companion a delicious meal packed with the nutrients they need every day with Simba Cat Mousse with Chicken Liver. &nbsp;",
+  "images": [
     {
-      "id": 2464,
-      "name": "Simba",
-      "slug": "simba"
+      "id": 90336,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Mousse-With-Chicken-Liver-Canned-Cat-Food-85G-4.png",
+      "alt": "Simba Cat Canned Mousse Cat Food – Chicken Liver 85g",
+      "name": "Simba Cat Mousse With Chicken Liver Canned Cat Food 85G (4)"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=90263",
+  "addToCartUrl": "https://petstore.co.ke/product/simba-cat-canned-mousse-cat-food-chicken-liver-85g/?add-to-cart=90263",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:52.037Z",
-  "dateModified": "2026-06-23T09:15:52.037Z"
+  "dateCreated": "2026-06-08T12:32:18",
+  "dateModified": "2026-06-23T11:39:34",
+  "brand": "Simba",
+  "weight_kg": 0.085,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Mousse-With-Chicken-Liver-Canned-Cat-Food-85G-4.png"
 }

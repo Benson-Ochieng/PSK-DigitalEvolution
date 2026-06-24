@@ -1,0 +1,93 @@
+{
+  "id": 24552,
+  "name": "Rogz Cat Anchovy Bowl 200ml - Blue Non-Skid Rubber Base (CBOWL21-B)",
+  "slug": "rogz-cat-anchovy-bowl-200ml-blue-non-skid-rubber-base",
+  "sku": "CBOWL21-B",
+  "onSale": false,
+  "price": 1500,
+  "regularPrice": 1500,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/CBOWL21-B-Anchovy-Blue.jpg",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2344,
+      "name": "Cat Bowls & Feeders",
+      "slug": "cat-bowls-and-feeders"
+    },
+    {
+      "id": 2064,
+      "name": "Rogz",
+      "slug": "rogz"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2072,
+      "name": "Bowls",
+      "slug": "bowls"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=24552",
+  "shortDescription": "Rogz Cat Feeding bowl with Whiskers friendly design",
+  "description": "A whisker friendly bowl made solely of hygienic Stainless Steel, with a non-slip silicone base, guaranteed to make them purr. Size: 200ml",
+  "images": [
+    {
+      "id": 24572,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/CBOWL21-B-Anchovy-Blue.jpg",
+      "alt": "Rogz Cat Anchovy Bowl 200ml - Blue Non-Skid Rubber Base (CBOWL21-B)",
+      "name": "CBOWL21-B-Anchovy-Blue.jpg"
+    },
+    {
+      "id": 24573,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/CBOWL21-B-Anchovy-Blue-Reverse.jpg",
+      "alt": "Rogz Cat Anchovy Bowl 200ml - Blue Non-Skid Rubber Base (CBOWL21-B)",
+      "name": "CBOWL21-B-Anchovy-Blue-Reverse.jpg"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-cat-anchovy-bowl-200ml-blue-non-skid-rubber-base/?add-to-cart=24552",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-01-15T21:40:29",
+  "dateModified": "2026-05-06T17:07:50",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/CBOWL21-B-Anchovy-Blue.jpg"
+}

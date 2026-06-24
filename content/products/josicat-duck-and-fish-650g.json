@@ -1,0 +1,83 @@
+{
+  "id": 23769,
+  "name": "JosiCat Duck and Fish 650g",
+  "slug": "josicat-duck-and-fish-650g",
+  "sku": "JCJDF002",
+  "onSale": false,
+  "price": 880,
+  "regularPrice": 880,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JCJDF002.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josicat-duck-and-fish-650g/",
+  "shortDescription": "Tasty kibble refined with duck and fish Complete feed for adult cats. Exquisite meal with the mouth-watering taste of duck and fish. Suitable for both indoor and outdoor cats.",
+  "description": "Composition: meat and animal by-products (duck meat 4 %), cereals, vegetable by-products, fish and fish by- products (4 %), oils and fats, minerals. Product Details: Tasty kibble refined with duck and fish Complete feed for adult cats. Exquisite meal with the mouth-watering taste of duck and fish. Suitable for both indoor and outdoor cats. No added artificial colors, flavors or preservatives. No added soy, sugar or milk products. Typical Nutritional Analysis (per 100g) Nutrient Value Protein ~30% Fat ~12% Crude Ash ~7% Crude Fiber ~2.5% Moisture ~10% &nbsp; Complete & Balanced Nutrition This formula is enriched with essential vitamins and minerals to support: . Healthy digestion . Strong bones and teeth . Robust immunity . Glossy fur and supple skin",
+  "images": [
+    {
+      "id": 23793,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JCJDF002.jpg",
+      "alt": "JosiCat Duck and Fish 650g",
+      "name": "JCJDF002.jpg"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/josicat-duck-and-fish-650g/?add-to-cart=23769",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2021-10-29T07:55:44",
+  "dateModified": "2026-06-17T04:28:42",
+  "brand": "Josera",
+  "weight_kg": 0.65,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JCJDF002.jpg"
+}

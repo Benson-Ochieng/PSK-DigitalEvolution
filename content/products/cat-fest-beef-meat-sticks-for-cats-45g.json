@@ -1,0 +1,72 @@
+{
+  "id": 36479,
+  "name": "Cat Fest Beef Meat Sticks for cats 45g",
+  "slug": "cat-fest-beef-meat-sticks-for-cats-45g",
+  "sku": "CF009",
+  "onSale": false,
+  "price": 190,
+  "regularPrice": 190,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/04/catbeefmeatsticks.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2330,
+      "name": "Cat Treats",
+      "slug": "cat-treats"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=36479",
+  "shortDescription": "Classic rich taste, high nutritional properties of real farm beef – better for your meow friend.",
+  "description": "Classic rich taste, high nutritional properties of real farm beef – better for your meow friend. Ingredients: beef meat, plant products, minerals. Analytical Components: crude protein 26%, fats 9%, crude fiber 0.1%, moisture 25%; energy value – 193 kcal. Usage: Serve as a treat during the day. Adjust the amount according to your pet’s needs and condition. Do not overdo it.",
+  "images": [
+    {
+      "id": 36480,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/04/catbeefmeatsticks.jpg",
+      "alt": "Cat Fest Beef Meat Sticks for cats 45g",
+      "name": "catbeefmeatsticks"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/cat-fest-beef-meat-sticks-for-cats-45g/?add-to-cart=36479",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-04-20T10:41:01",
+  "dateModified": "2026-06-24T16:12:08",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/04/catbeefmeatsticks.jpg"
+}

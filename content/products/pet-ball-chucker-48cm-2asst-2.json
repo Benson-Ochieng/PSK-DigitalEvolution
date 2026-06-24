@@ -1,0 +1,87 @@
+{
+  "id": 42619,
+  "name": "Pet Ball Chucker 48cm 2Asst",
+  "slug": "pet-ball-chucker-48cm-2asst-2",
+  "sku": "PA0448",
+  "onSale": false,
+  "price": 950,
+  "regularPrice": 950,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/Pet-Ball-chucker-PA0448.webp",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2357,
+      "name": "Dog Fetch Toys",
+      "slug": "dog-fetch-toys"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/pet-ball-chucker-48cm-2asst-2/",
+  "shortDescription": "The classic game of fetch by enhancing your throwing speed and distance with less effort. Dogs are challenged to run farther and faster for exercise in a fraction of the time.",
+  "description": "The classic game of fetch by enhancing your throwing speed and distance with less effort. Dogs are challenged to run farther and faster for exercise in a fraction of the time. Measuring just over two feet in length, the CHUCKER ball launcher is portable enough to place in the backseat or the trunk. With fetching fun on-the-go, dogs can enjoy the chucker ball thrower on sandy shores or grassy fields. Designed to extend the reach of your arm, the plastic launcher allows for more comfortable pick-up by reducing the need to bend over. The Sport Launcher includes one chucker tennis Ball, a brightly colored rubber ball that bounces high and allows high visibility for pets and pet parents. The ball thrower for dogs is also compatible with standard tennis balls. The Chucker and Tennis Ball can be used as dog pool toys for long-distance games of fetch and are designed for outdoor use.",
+  "images": [
+    {
+      "id": 42620,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/12/Pet-Ball-chucker-PA0448.webp",
+      "alt": "Pet Ball Chucker 48cm 2Asst",
+      "name": "Pet Ball chucker PA0448"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/pet-ball-chucker-48cm-2asst-2/?add-to-cart=42619",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-12-22T16:30:28",
+  "dateModified": "2026-06-17T04:18:40",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/Pet-Ball-chucker-PA0448.webp"
+}

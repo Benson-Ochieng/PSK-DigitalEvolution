@@ -1,0 +1,68 @@
+{
+  "id": 57162,
+  "name": "King Adult Dog Food Beef 500g",
+  "slug": "king-adult-dog-food-beef-500gr-3",
+  "sku": "KDD005@OFFER",
+  "onSale": true,
+  "price": 223,
+  "regularPrice": 465,
+  "salePrice": 223,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/03/King-Adult-dog-beef-500gr.png",
+  "categories": [
+    {
+      "id": 2167,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 178,
+      "name": "King",
+      "slug": "king"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2446,
+      "name": "King",
+      "slug": "king"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1303,
+      "name": "Clearance",
+      "slug": "clearance"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=57162",
+  "shortDescription": "Fully balanced all-natural dog food with beef protein and brewer's yeast for immune support. Carefully formulated by a dog nutritionist to meet the nutritional requirements of all adult large breed dogs.",
+  "description": "King Plus Beef Adult Dog is a fully balanced all-natural dog food with beef protein and brewer's yeast for immune support. Carefully formulated by a dog nutritionist to meet the nutritional requirements of all adult large-breed dogs. NUTRIENT COMPONENTS Protein ...........18% Fat ............. 7% Crude Cellulose (Fiber) ........... 4% Crude Ash .................................10% INGREDIENTS: Wheat, Corn, Processed Animal Protein, Wheat Middling, Boncalit, Animal Fat, Dried Sugar Beet, Liver Flavor, Flaxseed, Salt, Dried Brewer's Yeast. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 , B2 ,B3 (niacin) B6, B12, B7 (biotin) B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
+  "images": [
+    {
+      "id": 37412,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/03/King-Adult-dog-beef-500gr.png",
+      "alt": "SHORT EXPIRY-CLEARANCE: King Adult Dog Food Beef 500g",
+      "name": "King Adult dog beef 500gr"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/king-adult-dog-food-beef-500gr-3/?add-to-cart=57162",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2025-07-25T16:27:08",
+  "dateModified": "2026-06-17T04:33:57",
+  "brand": "King",
+  "weight_kg": 0.5,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/03/King-Adult-dog-beef-500gr.png"
+}

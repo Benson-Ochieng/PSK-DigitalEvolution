@@ -1,11 +1,11 @@
 {
   "id": 1402,
-  "name": "King Plus Adult Cat Food – Fish 1.5kg",
+  "name": "King Plus Adult Cat Food - Fish 1.5kg",
   "slug": "king-plus-adult-cat-food-fish-1-5kg-2",
   "sku": "KCD002",
   "onSale": false,
-  "price": 13.45,
-  "regularPrice": 13.45,
+  "price": 1345,
+  "regularPrice": 1345,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "king"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/king-plus-adult-cat-food-fish-1-5kg-2/",
-  "shortDescription": "Fully balanced all-natural cat food with fish protein. Carefully formulated by a cat nutritionist to meet the nutritional requirements of all adult cats.",
-  "description": "King Plus Adult Cat Food &#8211; Fish , fully balanced all-natural cat food with fish protein. Carefully formulated by a cat nutritionist to meet the nutritional requirements of all adult cats. NUTRIENT COMPONENTS Protein &#8230;&#8230;&#8230;&#8230; 28% Fat &#8230;&#8230;&#8230;&#8230;&#8230;. 10% Crude Ash &#8230;&#8230;&#8230;&#8230;.. 8% Crude Cellulose (Fiber) &#8230;&#8230;&#8230;&#8230; 2.5% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Fish Meal, Fish Oil, Corn Gluten, Liver Aroma, Fish Aroma, Rice, Salt, Flaxseed, Dried Brewers Yeast, Taurine. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 &#8211; B2 &#8211; B3 (niacin) &#8211; B6 &#8211; B12 &#8211; B7 (biotin) &#8211; B9 (folic acid), Vit. K, Choline, Calcium Pantotetan. Key Benefits High-Quality Fish Protein : Supports lean muscle maintenance and satisfies your cat’s natural carnivorous needs. Omega-3 &amp; Omega-6 Fatty Acids : From fish oil and flaxseed, these promote healthy skin and a shiny coat. Taurine Enriched : Essential for heart health and optimal vision in cats. Digestive Health Support : Contains dietary fiber and brewer’s yeast to promote gut health and nutrient absorption. Balanced Minerals &amp; Vitamins : Supports strong bones, immunity, and overall vitality.",
-  "images": [
+  "brands": [
     {
-      "id": 77121,
-      "alt": "King Plus Adult Cat Food – Fish 1.5kg",
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/07/King-fish-1.5kg-new-packaging.png",
-      "name": "King fish 1.5kg new packaging"
+      "id": 2446,
+      "name": "King",
+      "slug": "king"
     }
   ],
   "tags": [
@@ -69,20 +61,33 @@
       "slug": "kibble"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/king-plus-adult-cat-food-fish-1-5kg-2/",
+  "shortDescription": "Fully balanced all-natural cat food with fish protein. Carefully formulated by a cat nutritionist to meet the nutritional requirements of all adult cats.",
+  "description": "King Plus Adult Cat Food - Fish , fully balanced all-natural cat food with fish protein. Carefully formulated by a cat nutritionist to meet the nutritional requirements of all adult cats. NUTRIENT COMPONENTS Protein ............ 28% Fat ................ 10% Crude Ash .............. 8% Crude Cellulose (Fiber) ............ 2.5% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Fish Meal, Fish Oil, Corn Gluten, Liver Aroma, Fish Aroma, Rice, Salt, Flaxseed, Dried Brewers Yeast, Taurine. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan. Key Benefits High-Quality Fish Protein : Supports lean muscle maintenance and satisfies your cat’s natural carnivorous needs. Omega-3 & Omega-6 Fatty Acids : From fish oil and flaxseed, these promote healthy skin and a shiny coat. Taurine Enriched : Essential for heart health and optimal vision in cats. Digestive Health Support : Contains dietary fiber and brewer’s yeast to promote gut health and nutrient absorption. Balanced Minerals & Vitamins : Supports strong bones, immunity, and overall vitality.",
+  "images": [
     {
-      "id": 2446,
-      "name": "King",
-      "slug": "king"
+      "id": 77121,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/07/King-fish-1.5kg-new-packaging.png",
+      "alt": "King Plus Adult Cat Food – Fish 1.5kg",
+      "name": "King fish 1.5kg new packaging"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=1&#038;add-to-cart=1402",
+  "addToCartUrl": "https://petstore.co.ke/product/king-plus-adult-cat-food-fish-1-5kg-2/?add-to-cart=1402",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.066Z",
-  "dateModified": "2026-06-23T09:15:51.066Z"
+  "dateCreated": "2018-11-08T16:08:29",
+  "dateModified": "2026-06-24T16:12:09",
+  "brand": "King",
+  "weight_kg": 1.5,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/07/King-fish-1.5kg-new-packaging.png"
 }

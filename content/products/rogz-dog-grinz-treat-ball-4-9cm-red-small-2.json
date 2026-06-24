@@ -1,0 +1,82 @@
+{
+  "id": 40901,
+  "name": "Rogz Dog Grinz Treat Ball 4.9cm - Red Small",
+  "slug": "rogz-dog-grinz-treat-ball-4-9cm-red-small-2",
+  "sku": "GR01-C@F",
+  "onSale": true,
+  "price": 491,
+  "regularPrice": 1150,
+  "salePrice": 491,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/GR01-C-Red-Grinz.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2357,
+      "name": "Dog Fetch Toys",
+      "slug": "dog-fetch-toys"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2064,
+      "name": "Rogz",
+      "slug": "rogz"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=40901",
+  "shortDescription": "Rogz Dog Grinz Treat Ball (Red, 4.9cm) – safe, durable, and interactive toy for small dogs. Treat-dispensing, floats on water, and ideal for active play.",
+  "description": "The Rogz Dog Grinz Treat Ball is a playful and durable toy designed for small dogs and puppies. This compact, 4.9cm ball offers mental stimulation, physical exercise, and safe chewing. Its clever toothy grin design adds a touch of humor while your dog enjoys hours of fun, both on land and in water. Key Features Perfect for Small Breeds: 4.9cm diameter ideal for puppies and small dogs. Safe & Durable Material: Made from soft yet resilient SEBS thermoplastic rubber, gentle on teeth but strong enough for energetic play. Treat-Dispensing Fun: Fill the internal cavity with your dog’s favorite treats; they are gradually released as your dog plays, keeping them engaged. Floats on Water: Lightweight and buoyant, perfect for water games or beach outings. Playful Design: Tooth-patterned ball creates a fun “smiling dog” effect during play. Easy Care: Simple to stuff with treats and clean for regular use. Benefits Promotes Healthy Chewing: Supports gum health and strengthens the jaw. Encourages Activity: Keeps dogs entertained, helping prevent boredom and destructive behavior. Versatile Play Options: Suitable for fetch, chew, or water games, ensuring year-round enjoyment.",
+  "images": [
+    {
+      "id": 17342,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/GR01-C-Red-Grinz.jpg",
+      "alt": "Rogz Dog ginz-Treat Ball 4.9cm – Red Small",
+      "name": "GR01-C Red Grinz"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-4-9cm-red-small-2/?add-to-cart=40901",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-11-09T07:58:12",
+  "dateModified": "2026-06-04T13:05:30",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/GR01-C-Red-Grinz.jpg"
+}

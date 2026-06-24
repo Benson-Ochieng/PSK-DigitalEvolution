@@ -1,0 +1,77 @@
+{
+  "id": 56475,
+  "name": "Cs Iata Travel Crate",
+  "slug": "cs-lata-cate-crate",
+  "sku": "ICC01",
+  "onSale": false,
+  "price": 3600,
+  "regularPrice": 3600,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/CAT-CARRIER.png",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2340,
+      "name": "Cat Carries, Bags & Travel",
+      "slug": "cat-carriers-travels"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/cs-lata-cate-crate/",
+  "shortDescription": "Pet parents, get ready to travel in style with the Petmate Vari Dog & Cat Kennel. This versatile kennel comes in several sizes, so you should find the paw-fect fit for your furry friend. The top and bottom shells securely lock together for safety and portability. &nbsp;",
+  "description": "Details The kennel is made with heavy-duty, eco-friendly plastic for durability. A wire door and ventilation holes add to your pal’s comfort. The thoughtful internal moat helps keep your pal dry. This kennel is easy to assemble with no tools required. Item Number 73676 Weight 16 pounds Dimensions 32 x 22.5 x 24 inches Life stage All Life stages, Adult Breed Size Medium Breeds, Large Breeds Features Airline-approved Material Plastic, Steel, Metal Assembly Required Yes Tools Included No Tools Required Recommended Pet Weight Up to 50 pounds What's Included 1- Top Section, 1- Bottom Section, 1- Steel Door, 1 Package of Wing Nuts and Bolts Disclaimers Airline approved; restrictions apply. Please contact your airline prior to booking a flight to ensure this pet carrier meets their specific requirements.",
+  "images": [
+    {
+      "id": 56476,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/CAT-CARRIER.png",
+      "alt": "Cs Iata Travel Crate",
+      "name": "CAT CARRIER"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/cs-lata-cate-crate/?add-to-cart=56475",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2025-07-05T15:32:56",
+  "dateModified": "2026-06-17T04:18:45",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/CAT-CARRIER.png"
+}

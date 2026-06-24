@@ -1,0 +1,83 @@
+{
+  "id": 23714,
+  "name": "Josera Family Plus 15kg",
+  "slug": "josera-family-plus-15kg",
+  "sku": "JDFP",
+  "onSale": false,
+  "price": 13270,
+  "regularPrice": 13270,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JDFP.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=23714",
+  "shortDescription": "Tasty food for our mothers-to-be and puppies: This special formula not only covers a bitch's special requirements, from the last trimester of gestation until the end of the nursing period; it also supplies puppies, whether still in the womb or being nursed, with all the necessary nutrients. Later, the nutritious kibble can be softened in JOSERA puppy milk or water to help the puppies transition to solid food.",
+  "description": "Composition: poultry; rice; whole grain corn; poultry fat; salmon 6,0 %; beet fibre; hydrolysed poultry protein; plant fibre; minerals; chicory root (ground, natural source of inulin). For pregnant bitches: Product Details: Tasty food for our mothers-to-be and puppies: This special formula not only covers a bitch? s special requirements, from the last trimester of gestation until the end of the nursing period; it also supplies puppies, whether still in the womb or being nursed, with all the necessary nutrients. Later, the nutritious kibble can be softened in JOSERA puppy milk or water to help the puppies transition to solid food. ? Contains plenty of energy and protein for pregnant and nursing bitches ? With taurine for fertility and valuable antioxidants to support the highly metabolic reproductive organs ? Supports puppies? brain development thanks to high-quality fatty acids from salmon ? Soakable kibble to wean puppies onto dry food",
+  "images": [
+    {
+      "id": 23744,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JDFP.jpg",
+      "alt": "Josera Dog Family Plus 12.5kg",
+      "name": "JDFP.jpg"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/josera-family-plus-15kg/?add-to-cart=23714",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2021-10-29T07:55:17",
+  "dateModified": "2026-06-17T04:33:51",
+  "brand": "Josera",
+  "weight_kg": 15,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JDFP.jpg"
+}

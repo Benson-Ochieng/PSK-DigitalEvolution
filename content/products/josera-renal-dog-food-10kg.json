@@ -4,8 +4,8 @@
   "slug": "josera-renal-dog-food-10kg",
   "sku": "JHLRD10",
   "onSale": false,
-  "price": 148.7,
-  "regularPrice": 148.7,
+  "price": 14870,
+  "regularPrice": 14870,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "josera"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/josera-renal-dog-food-10kg/",
-  "shortDescription": "The gluten-free complete dietary feed helps to relieve the kidneys thanks to its protein and phosphorus reduction.",
-  "description": "Has your beloved dog been diagnosed with chronic renal insufficiency (CRI)? You can support him with a special feed: Our Josera Help Renal is tailored exactly to this case. The gluten-free complete dietary feed helps to relieve the kidneys thanks to its protein and phosphorus reduction. B vitamins, which are increasingly lost due to the disease, are also supplied by the crunchy kibbles. This is a delicious way to fill the increased nutritional needs. The nettle contained in the phytogenic complex is traditionally used for flushing therapy of the draining urinary tract and is valued for its anti-inflammatory properties. In this way, Josera Help Renal can help to slow down the process of kidney disease, increase the dog’s well-being and maintain the quality of life. The diseased kidney is relieved with this dietary therapy. Metabolising organs, especially the kidneys, are relieved by the low-protein and low-phosphorus recipe Rich in B vitamins, which can be increasingly lost with kidney disease Phytogen complex: Nettle promotes excretion via the urinary tract Salmon oil provides omega-3 fatty acids, which are anti-inflammatory and play an important role in the immune system Composition: Rice; maize; poultry fat; dried poultry protein; dried beet pulp (natural source of dietary fibre); hydrolysed poultry protein; minerals; hydrolysed vegetable protein; salmon oil; yeast; ground chicory root (natural source of inulin); oregano; ginger; rosemary; nettle; milk thistle; cranberry. Dietary complete feed with gluten free recipe for adult dogs with chronic renal insufficiency (CRI). FEEDING RECOMMENDATION: Feeding recommendation per day. Weight inactive/older normally active active 5 kg 70 g 80 g 90 g 10 kg 110 g 135 g 155 g 20 kg 190 g 225 g 260 g 30 kg 255 g 305 g 350 g 40 kg 320 g 380 g 440 g 60 kg 430 g 510 g 590 g 80 kg 535 g 635 g 735 g For optimal effect, only feed the diet feed. Additional feedings must be discussed with the attending veterinarian in advance. Ensure that your pet always has access to fresh drinking water.",
-  "images": [
+  "brands": [
     {
-      "id": 46151,
-      "alt": "Josera Renal Dog Food 10kg",
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/04/transparent-hund_josera_help_renal_10kg_seitlich_2.png",
-      "name": "transparent-hund_josera_help_renal_10kg_seitlich_2"
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "veterinary-range"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josera-renal-dog-food-10kg/",
+  "shortDescription": "The gluten-free complete dietary feed helps to relieve the kidneys thanks to its protein and phosphorus reduction.",
+  "description": "Has your beloved dog been diagnosed with chronic renal insufficiency (CRI)? You can support him with a special feed: Our Josera Help Renal is tailored exactly to this case. The gluten-free complete dietary feed helps to relieve the kidneys thanks to its protein and phosphorus reduction. B vitamins, which are increasingly lost due to the disease, are also supplied by the crunchy kibbles. This is a delicious way to fill the increased nutritional needs. The nettle contained in the phytogenic complex is traditionally used for flushing therapy of the draining urinary tract and is valued for its anti-inflammatory properties. In this way, Josera Help Renal can help to slow down the process of kidney disease, increase the dog’s well-being and maintain the quality of life. The diseased kidney is relieved with this dietary therapy. Metabolising organs, especially the kidneys, are relieved by the low-protein and low-phosphorus recipe Rich in B vitamins, which can be increasingly lost with kidney disease Phytogen complex: Nettle promotes excretion via the urinary tract Salmon oil provides omega-3 fatty acids, which are anti-inflammatory and play an important role in the immune system Composition: Rice; maize; poultry fat; dried poultry protein; dried beet pulp (natural source of dietary fibre); hydrolysed poultry protein; minerals; hydrolysed vegetable protein; salmon oil; yeast; ground chicory root (natural source of inulin); oregano; ginger; rosemary; nettle; milk thistle; cranberry. Dietary complete feed with gluten free recipe for adult dogs with chronic renal insufficiency (CRI). FEEDING RECOMMENDATION: Feeding recommendation per day. Weight inactive/older normally active active 5 kg 70 g 80 g 90 g 10 kg 110 g 135 g 155 g 20 kg 190 g 225 g 260 g 30 kg 255 g 305 g 350 g 40 kg 320 g 380 g 440 g 60 kg 430 g 510 g 590 g 80 kg 535 g 635 g 735 g For optimal effect, only feed the diet feed. Additional feedings must be discussed with the attending veterinarian in advance. Ensure that your pet always has access to fresh drinking water.",
+  "images": [
     {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
+      "id": 46151,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/04/transparent-hund_josera_help_renal_10kg_seitlich_2.png",
+      "alt": "Josera Renal Dog Food 10kg",
+      "name": "transparent-hund_josera_help_renal_10kg_seitlich_2"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 5,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=46150",
+  "addToCartUrl": "https://petstore.co.ke/product/josera-renal-dog-food-10kg/?add-to-cart=46150",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.385Z",
-  "dateModified": "2026-06-23T09:15:51.385Z"
+  "dateCreated": "2024-04-16T16:18:36",
+  "dateModified": "2026-06-17T04:29:48",
+  "brand": "Josera",
+  "weight_kg": 2,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/transparent-hund_josera_help_renal_10kg_seitlich_2.png"
 }

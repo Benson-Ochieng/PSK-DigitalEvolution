@@ -1,11 +1,11 @@
 {
   "id": 89836,
-  "name": "JosiCat Cat Dry Food – Chicken 650g",
+  "name": "JosiCat Cat Dry Food - Chicken 650g",
   "slug": "josicat-cat-dry-food-chicken-650g",
   "sku": "JCJC01",
   "onSale": false,
-  "price": 8.5,
-  "regularPrice": 8.5,
+  "price": 850,
+  "regularPrice": 850,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,6 +32,20 @@
       "slug": "josera"
     }
   ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    }
+  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
@@ -42,32 +56,23 @@
   "images": [
     {
       "id": 89839,
-      "alt": "JosiCat Cat Dry Food – Chicken 650g",
       "src": "https://petstore.co.ke/wp-content/uploads/2026/05/JOSICAT-CHICKEN-650G.png",
+      "alt": "JosiCat Cat Dry Food – Chicken 650g",
       "name": "JOSICAT CHICKEN 650G"
     }
   ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    }
-  ],
-  "brands": [
-    {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
   "stockStatus": "instock",
-  "lowStockRemaining": 1,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=89836",
+  "addToCartUrl": "https://petstore.co.ke/product/josicat-cat-dry-food-chicken-650g/?add-to-cart=89836",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.974Z",
-  "dateModified": "2026-06-23T09:15:51.974Z"
+  "dateCreated": "2026-05-21T16:23:33",
+  "dateModified": "2026-06-17T05:01:33",
+  "brand": "Josera",
+  "weight_kg": 0.65,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/JOSICAT-CHICKEN-650G.png"
 }

@@ -4,8 +4,8 @@
   "slug": "paw-performance-polo-small-men-blue",
   "sku": "PPPPSMB",
   "onSale": false,
-  "price": 25,
-  "regularPrice": 25,
+  "price": 2500,
+  "regularPrice": 2500,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -17,27 +17,7 @@
       "slug": "human"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/paw-performance-polo-small-men-blue/",
-  "shortDescription": "Keep it cool and meaningful with this men’s small-fit polo in a classic blue hue. Designed for comfort and style, it features a soft cotton-poly blend and a subtle embroidered paw print that combines cat and dog paws — perfect for the modern pet-loving man.",
-  "description": "Keep it cool and meaningful with this men’s small-fit polo in a classic blue hue. Designed for comfort and style, it features a soft cotton-poly blend and a subtle embroidered paw print that combines cat and dog paws — perfect for the modern pet-loving man. Size: Small (Men’s Fit) Color: Blue Material: Soft, breathable cotton-poly blend Design: Embroidered paw print symbolizing both cats and dogs Fit: Tailored small men’s fit with a structured collar and two-button placket Care: Machine washable for easy wear and care Ideal for everyday wear, casual outings, or walking your four-legged best friend — this shirt is made for proud pet dads.",
-  "images": [
-    {
-      "id": 56029,
-      "alt": "Paw Performance Polo-Small Women Blue",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/06/FRONT-POLO-SHIRT-FIXED.png",
-      "name": "FRONT POLO SHIRT FIXED"
-    },
-    {
-      "id": 56031,
-      "alt": "Paw Performance Polo-Small Women Blue",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/06/BACK-POLO-SHIRT-FIXED-1.png",
-      "name": "BACK POLO SHIRT FIXED"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 2245,
@@ -55,14 +35,39 @@
       "slug": "t-shirt"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/paw-performance-polo-small-men-blue/",
+  "shortDescription": "Keep it cool and meaningful with this men’s small-fit polo in a classic blue hue. Designed for comfort and style, it features a soft cotton-poly blend and a subtle embroidered paw print that combines cat and dog paws — perfect for the modern pet-loving man.",
+  "description": "Keep it cool and meaningful with this men’s small-fit polo in a classic blue hue. Designed for comfort and style, it features a soft cotton-poly blend and a subtle embroidered paw print that combines cat and dog paws — perfect for the modern pet-loving man. Size: Small (Men’s Fit) Color: Blue Material: Soft, breathable cotton-poly blend Design: Embroidered paw print symbolizing both cats and dogs Fit: Tailored small men’s fit with a structured collar and two-button placket Care: Machine washable for easy wear and care Ideal for everyday wear, casual outings, or walking your four-legged best friend — this shirt is made for proud pet dads.",
+  "images": [
+    {
+      "id": 56029,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/06/FRONT-POLO-SHIRT-FIXED.png",
+      "alt": "Paw Performance Polo-Small Women Blue",
+      "name": "FRONT POLO SHIRT FIXED"
+    },
+    {
+      "id": 56031,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/06/BACK-POLO-SHIRT-FIXED-1.png",
+      "alt": "Paw Performance Polo-Small Women Blue",
+      "name": "BACK POLO SHIRT FIXED"
+    }
+  ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=56035",
+  "addToCartUrl": "https://petstore.co.ke/product/paw-performance-polo-small-men-blue/?add-to-cart=56035",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.641Z",
-  "dateModified": "2026-06-23T09:15:51.641Z"
+  "dateCreated": "2025-06-23T16:10:18",
+  "dateModified": "2026-06-17T04:15:07",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/06/FRONT-POLO-SHIRT-FIXED.png"
 }

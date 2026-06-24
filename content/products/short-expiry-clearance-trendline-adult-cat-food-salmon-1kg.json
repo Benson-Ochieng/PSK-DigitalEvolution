@@ -1,0 +1,98 @@
+{
+  "id": 70067,
+  "name": "SHORT EXPIRY-CLEARANCE: Trendline Adult Cat Food - Salmon 1kg",
+  "slug": "short-expiry-clearance-trendline-adult-cat-food-salmon-1kg",
+  "sku": "TCD003@SE",
+  "onSale": true,
+  "price": 725,
+  "regularPrice": 1035,
+  "salePrice": 725,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/02/Untitled-design.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 1125,
+      "name": "Trendline",
+      "slug": "trendline"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2471,
+      "name": "Trendline",
+      "slug": "trendline"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 1303,
+      "name": "Clearance",
+      "slug": "clearance"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 637,
+      "name": "kibble",
+      "slug": "kibble"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/short-expiry-clearance-trendline-adult-cat-food-salmon-1kg/",
+  "shortDescription": "Fully balanced all-natural cat food with salmon protein, brewer's yeast for immune support, Omega-3 and -6 from flaxseed and taurine. Carefully formulated by a cat nutritionist to meet the nutritional requirements of all adult cats.",
+  "description": "Trendline Adult Cat Food -Salmon , fully balanced all-natural cat food with fish protein, brewer's yeast for immune support, Omega-3 and -6 from flaxseed and taurine. Carefully formulated by a cat nutritionist to meet the nutritional requirements of all adult cats. NUTRIENT COMPONENTS Protein ................................... 27% Fat ...........................................10% Crude Ash .................................8% Crude Cellulose (Fiber) .............3% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Corn Gluten, Dried Sugar Beet, Liver Aroma, Salt, Flaxseed, Dried Brewers Yeast, Taurine. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan. Key Benefits 27% Fish Protein – supports strong muscles and daily vitality. 10% Healthy Fats – promotes healthy skin and a silky, soft coat. Brewer’s Yeast & Taurine – strengthens immunity, supports vision, and promotes heart health. Omega-3 & -6 Fatty Acids – reduce inflammation and shedding while enhancing skin health. Irresistible Salmon Flavor – even the pickiest eaters will crave it. Feeding Guide For an adult cat (~4kg): feed 50–80g daily , adjusting based on activity level and age. Fresh water should always be available.",
+  "images": [
+    {
+      "id": 57194,
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/02/Untitled-design.png",
+      "alt": "Trendline Adult Cat Food – Salmon 1kg",
+      "name": "Untitled design"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-trendline-adult-cat-food-salmon-1kg/?add-to-cart=70067",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-02-27T15:25:35",
+  "dateModified": "2026-06-17T04:29:04",
+  "brand": "Trendline",
+  "weight_kg": 1,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/02/Untitled-design.png"
+}

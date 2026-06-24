@@ -4,8 +4,8 @@
   "slug": "pet-brush-double-sided",
   "sku": "PG0009",
   "onSale": false,
-  "price": 6.5,
-  "regularPrice": 6.5,
+  "price": 650,
+  "regularPrice": 650,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,6 +32,19 @@
       "slug": "dog-grooming-cleaning-supplies"
     }
   ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2098,
+      "name": "Grooming & Tools",
+      "slug": "grooming-tools"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    }
+  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
@@ -42,31 +55,23 @@
   "images": [
     {
       "id": 44536,
-      "alt": "Pet Brush Double Sided",
       "src": "https://petstore.co.ke/wp-content/uploads/2023/05/PG0009.png",
+      "alt": "Pet Brush Double Sided",
       "name": "PG0009"
     }
   ],
-  "tags": [
-    {
-      "id": 2098,
-      "name": "Grooming &amp; Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
-  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=3&#038;add-to-cart=36969",
+  "addToCartUrl": "https://petstore.co.ke/product/pet-brush-double-sided/?add-to-cart=36969",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.294Z",
-  "dateModified": "2026-06-23T09:15:51.294Z"
+  "dateCreated": "2023-05-11T16:05:27",
+  "dateModified": "2026-06-22T13:12:07",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/05/PG0009.png"
 }

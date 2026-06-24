@@ -4,8 +4,8 @@
   "slug": "luxury-pet-bed-xlarge-40x28x10-maroon-cushion",
   "sku": "LPBXLM",
   "onSale": false,
-  "price": 105.4,
-  "regularPrice": 105.4,
+  "price": 10540,
+  "regularPrice": 10540,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "flex-pet-bed"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/luxury-pet-bed-xlarge-40x28x10-maroon-cushion/",
-  "shortDescription": "The Luxury Pet Bed delivers premium coziness with its ergonomic padding and elegant finish, creating the perfect rest spot for dogs and cats. Measurements: 40x28x10",
-  "description": "Elevate your pet&#8217;s rest time with the Luxury Pet Bed . More than just a place to nap, this exquisite bed offers a perfect blend of ergonomic support, plush comfort, and sophisticated design, ensuring your four-legged family member enjoys the ultimate relaxation experience. Why Your Pet Will Love It: Cloud-Like Comfort: Featuring a sumptuously soft, high-resilience filling, this bed gently cradles your pet, providing orthopedic support for aching joints and promoting deep, restorative sleep. Secure &amp; Cozy Design: The bolstered sides create a sense of security, allowing your pet to curl up, burrow, and feel safe and protected, just like in a natural den. Premium, Pet-Safe Materials: Crafted from durable, non-toxic fabrics that are gentle on paws and skin, ensuring a healthy and comfortable environment for your furry friend. Why You&#8217;ll Love It: Effortless Portability: Thoughtfully designed with sturdy handles attached to the sides, moving or repositioning the bed is now incredibly easy, whether for cleaning or finding that perfect sunny spot. Easy to Clean &amp; Maintain: Life with pets can be messy! Our luxury bed features a removable inner cushion with a convenient zipper, allowing for quick and thorough machine washing of the cover, keeping their favorite spot fresh and hygienic. Built to Last: Constructed with high-quality, materials and expert stitching, ensuring durability and longevity, even with daily use. Promotes Pet Wellness: A comfortable, supportive bed can improve your pet&#8217;s sleep quality, reduce anxiety, and contribute to their overall health and happiness. Subtle Earth Tones: Designed in natural hues to effortlessly complement your home decor. Supportive Lifted Edges: The raised sides offer superior head and neck support, promoting deeper relaxation for your pet. Size Guide: Available in multiple sizes to perfectly fit your furry friend: Small: 19x14x8 – Ideal for Chihuahuas, cats, etc. Medium: 26x19x8 – Ideal for Beagles, French Bulldogs, etc. Large: 32x24x9 – Ideal for Labradors, Golden Retrievers, etc. XL: 40X28X10 &#8211; Ideal for Rottweiler, Boerboel, Saint Benard, etc Invest in their comfort. Invest in their happiness. Order the Luxury Pet Bed today and watch them drift off into blissful slumber! &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 56427,
-      "alt": "Luxury Pet Bed Small 19X14X8- Maroon Cushion",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Luzury-Pet-Bed-Maroon-Cushion.png",
-      "name": "Luzury Pet Bed Maroon Cushion"
+      "id": 2463,
+      "name": "SF",
+      "slug": "sf"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "dog"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/luxury-pet-bed-xlarge-40x28x10-maroon-cushion/",
+  "shortDescription": "The Luxury Pet Bed delivers premium coziness with its ergonomic padding and elegant finish, creating the perfect rest spot for dogs and cats. Measurements: 40x28x10",
+  "description": "Elevate your pet's rest time with the Luxury Pet Bed . More than just a place to nap, this exquisite bed offers a perfect blend of ergonomic support, plush comfort, and sophisticated design, ensuring your four-legged family member enjoys the ultimate relaxation experience. Why Your Pet Will Love It: Cloud-Like Comfort: Featuring a sumptuously soft, high-resilience filling, this bed gently cradles your pet, providing orthopedic support for aching joints and promoting deep, restorative sleep. Secure & Cozy Design: The bolstered sides create a sense of security, allowing your pet to curl up, burrow, and feel safe and protected, just like in a natural den. Premium, Pet-Safe Materials: Crafted from durable, non-toxic fabrics that are gentle on paws and skin, ensuring a healthy and comfortable environment for your furry friend. Why You'll Love It: Effortless Portability: Thoughtfully designed with sturdy handles attached to the sides, moving or repositioning the bed is now incredibly easy, whether for cleaning or finding that perfect sunny spot. Easy to Clean & Maintain: Life with pets can be messy! Our luxury bed features a removable inner cushion with a convenient zipper, allowing for quick and thorough machine washing of the cover, keeping their favorite spot fresh and hygienic. Built to Last: Constructed with high-quality, materials and expert stitching, ensuring durability and longevity, even with daily use. Promotes Pet Wellness: A comfortable, supportive bed can improve your pet's sleep quality, reduce anxiety, and contribute to their overall health and happiness. Subtle Earth Tones: Designed in natural hues to effortlessly complement your home decor. Supportive Lifted Edges: The raised sides offer superior head and neck support, promoting deeper relaxation for your pet. Size Guide: Available in multiple sizes to perfectly fit your furry friend: Small: 19x14x8 – Ideal for Chihuahuas, cats, etc. Medium: 26x19x8 – Ideal for Beagles, French Bulldogs, etc. Large: 32x24x9 – Ideal for Labradors, Golden Retrievers, etc. XL: 40X28X10 - Ideal for Rottweiler, Boerboel, Saint Benard, etc Invest in their comfort. Invest in their happiness. Order the Luxury Pet Bed today and watch them drift off into blissful slumber! &nbsp;",
+  "images": [
     {
-      "id": 2463,
-      "name": "SF",
-      "slug": "sf"
+      "id": 56427,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Luzury-Pet-Bed-Maroon-Cushion.png",
+      "alt": "Luxury Pet Bed Small 19X14X8- Maroon Cushion",
+      "name": "Luzury Pet Bed Maroon Cushion"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=56426",
+  "addToCartUrl": "https://petstore.co.ke/product/luxury-pet-bed-xlarge-40x28x10-maroon-cushion/?add-to-cart=56426",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.651Z",
-  "dateModified": "2026-06-23T09:15:51.651Z"
+  "dateCreated": "2025-07-04T15:37:46",
+  "dateModified": "2026-06-17T04:30:16",
+  "brand": "SF",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Luzury-Pet-Bed-Maroon-Cushion.png"
 }

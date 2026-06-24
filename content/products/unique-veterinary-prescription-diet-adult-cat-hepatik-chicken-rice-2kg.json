@@ -1,0 +1,93 @@
+{
+  "id": 25992,
+  "name": "Unique Veterinary Prescription Diet Adult Cat Hepatic Chicken & Rice 2kg",
+  "slug": "unique-veterinary-prescription-diet-adult-cat-hepatik-chicken-rice-2kg",
+  "sku": "UCD011",
+  "onSale": false,
+  "price": 3393,
+  "regularPrice": 3393,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/03/UCD011.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 2127,
+      "name": "Unique",
+      "slug": "unique"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2474,
+      "name": "Unique",
+      "slug": "unique"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 2319,
+      "name": "Veterinary Range",
+      "slug": "veterinary-range"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=25992",
+  "shortDescription": "It helps the treatment applied by the physician in the elimination of acute and chronic liver problems. It ensures the health of the liver cells of animals that experience rapid and extreme weight loss and/or are fed with high protein foods. Due to its high quality and specially selected protein sources, it prevents a load on the liver by providing limited ammonia formation. Thanks to its limited sodium, phosphorus and copper content, it also protects the kidneys besides the liver.",
+  "description": "How it works: Limited sodium, phosphorus and copper content, Limited protein and rich energy level, Thistle seed (liver regenerative and protective), Rich fiber content (healthy digestion), L-Carnitine (effective use of energy), Probiotic and prebiotic Rich content, Low ammonia formation with quality and balanced protein source. Ingredients Chicken Protein, Brown Rice, Eggs, Peas, Fish Protein, Chicken Oil, Hydrolyzed Chicken Protein, Sugar Beet Pulp, Fish Oil, Hydrolyzed Chicken Liver, Vitamin and Mineral Premix, Natural Flavors, Brewer's Yeast, Probiotic, Dried Algae, Psyllium Shells, Marigold Extract, MOS, ?-Glucan, Tocopherol, Yucca, Thistle, Wild Sea buckthorn. Raw Material Components Raw Protein 27.64% Raw oil 18.41% Raw Cellulose (Fiber) 3.78% Ash 6.30% Moisture 6.85% Calcium 0.73% Phosphorus 0.49% Sodium 0.26% Magnesium 0.06% Omega 3 0.80% Omega 6 2.66% Total Copper 5.62ppm Nutritional Supplements Vitamin A (3a672a) 25,000 IU/kg Vitamin D 3 (E671) 850 IU/kg Vitamin E (3a700) 1.000 mg/kg Vitamin C (3a312) 400mg/kg Choline Chloride (3a890) 2.300 mg/kg Biotin (3a880) 3mg/kg Vitamin B 1 (3a821) 10mg/kg Vitamin B2 30mg/kg Niacinamide (3a315) 100mg/kg Calcium-D-Panthothenate (3a841) 60mg/kg Vitamin B 6 (3a831) 35mg/kg Folic Acid (3a316) 15mg/kg Vitamin B 12 0.18 mg/kg Zinc Chelate of Amino Acids Hydrate (3b606) 140mg/kg Ferrous Chelate of Amino Acids Hydrate (E1) 60mg/kg Manganese Chelate of Amino Acids Hydrate (E5) 60mg/kg Potassium Iodide (3b201) 4mg/kg Organic Form of Selenium (3b8.10) 0.2mg/kg Taurine (3a370) 2.300 mg/kg L-Carnitine (3a910) 500mg/kg Arginine (3c3.6.1) 3.200mg/kg Probiotic (B. Amyloliquefaciens) 7 x 10 14 /kg",
+  "images": [
+    {
+      "id": 25875,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/03/UCD011.jpg",
+      "alt": "Unique Veterinary Prescription Diet Adult Cat Hepatic Chicken & Rice 2kg",
+      "name": "UCD011"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/unique-veterinary-prescription-diet-adult-cat-hepatik-chicken-rice-2kg/?add-to-cart=25992",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-03-07T08:25:22",
+  "dateModified": "2026-06-17T04:35:58",
+  "brand": "Unique",
+  "weight_kg": 2,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/03/UCD011.jpg"
+}

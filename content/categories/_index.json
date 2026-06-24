@@ -5,7 +5,7 @@
     "slug": "accessories",
     "description": "",
     "parent": 0,
-    "count": 188,
+    "count": 183,
     "image": null,
     "link": "https://petstore.co.ke/product-category/accessories/"
   },
@@ -45,7 +45,7 @@
     "slug": "bags-o-wags",
     "description": "",
     "parent": 0,
-    "count": 22,
+    "count": 32,
     "image": null,
     "link": "https://petstore.co.ke/product-category/bags-o-wags/"
   },
@@ -155,7 +155,7 @@
     "slug": "cat-supplies-store",
     "description": "",
     "parent": 0,
-    "count": 419,
+    "count": 407,
     "image": null,
     "link": "https://petstore.co.ke/product-category/cat-supplies-store/"
   },
@@ -175,7 +175,7 @@
     "slug": "cat-bowls-and-feeders",
     "description": "",
     "parent": 2325,
-    "count": 3,
+    "count": 2,
     "image": null,
     "link": "https://petstore.co.ke/product-category/cat-bowls-and-feeders/"
   },
@@ -225,7 +225,7 @@
     "slug": "cat-food-and-treats",
     "description": "",
     "parent": 2325,
-    "count": 328,
+    "count": 317,
     "image": null,
     "link": "https://petstore.co.ke/product-category/cat-food-and-treats/"
   },
@@ -238,6 +238,16 @@
     "count": 16,
     "image": null,
     "link": "https://petstore.co.ke/product-category/cat-grooming/"
+  },
+  {
+    "id": 2336,
+    "name": "Cat Harnesses",
+    "slug": "cat-harnesses",
+    "description": "",
+    "parent": 2334,
+    "count": 0,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/cat-harnesses/"
   },
   {
     "id": 2337,
@@ -315,7 +325,7 @@
     "slug": "chuck",
     "description": "",
     "parent": 0,
-    "count": 3,
+    "count": 0,
     "image": null,
     "link": "https://petstore.co.ke/product-category/chuck/"
   },
@@ -345,7 +355,7 @@
     "slug": "dog-collars-leashes-and-harnesses",
     "description": "",
     "parent": 2345,
-    "count": 75,
+    "count": 71,
     "image": null,
     "link": "https://petstore.co.ke/product-category/dog-collars-leashes-and-harnesses/"
   },
@@ -395,7 +405,7 @@
     "slug": "dog-supplies-store",
     "description": "",
     "parent": 0,
-    "count": 482,
+    "count": 487,
     "image": null,
     "link": "https://petstore.co.ke/product-category/dog-supplies-store/"
   },
@@ -465,7 +475,7 @@
     "slug": "dog-food-treats",
     "description": "",
     "parent": 2345,
-    "count": 257,
+    "count": 266,
     "image": null,
     "link": "https://petstore.co.ke/product-category/dog-food-treats/"
   },
@@ -485,7 +495,7 @@
     "slug": "dog-harnesses",
     "description": "",
     "parent": 2351,
-    "count": 41,
+    "count": 38,
     "image": null,
     "link": "https://petstore.co.ke/product-category/dog-harnesses/"
   },
@@ -515,7 +525,7 @@
     "slug": "dog-leashes",
     "description": "",
     "parent": 2351,
-    "count": 20,
+    "count": 19,
     "image": null,
     "link": "https://petstore.co.ke/product-category/dog-leashes/"
   },
@@ -525,7 +535,7 @@
     "slug": "dog-muzzles",
     "description": "",
     "parent": 2351,
-    "count": 3,
+    "count": 0,
     "image": null,
     "link": "https://petstore.co.ke/product-category/dog-muzzles/"
   },
@@ -545,7 +555,7 @@
     "slug": "dog-treats",
     "description": "",
     "parent": 2346,
-    "count": 97,
+    "count": 104,
     "image": null,
     "link": "https://petstore.co.ke/product-category/dog-treats/"
   },
@@ -575,7 +585,7 @@
     "slug": "dry-cat-food",
     "description": "",
     "parent": 2326,
-    "count": 94,
+    "count": 92,
     "image": null,
     "link": "https://petstore.co.ke/product-category/dry-cat-food/"
   },
@@ -585,7 +595,7 @@
     "slug": "dry-dog-food",
     "description": "",
     "parent": 2346,
-    "count": 91,
+    "count": 92,
     "image": null,
     "link": "https://petstore.co.ke/product-category/dry-dog-food/"
   },
@@ -595,7 +605,7 @@
     "slug": "dry-food",
     "description": "",
     "parent": 0,
-    "count": 5,
+    "count": 6,
     "image": null,
     "link": "https://petstore.co.ke/product-category/dry-food/"
   },
@@ -625,7 +635,7 @@
     "slug": "fish",
     "description": "",
     "parent": 0,
-    "count": 3,
+    "count": 0,
     "image": null,
     "link": "https://petstore.co.ke/product-category/fish/"
   },
@@ -635,7 +645,7 @@
     "slug": "fish-food-treats",
     "description": "",
     "parent": 2285,
-    "count": 3,
+    "count": 0,
     "image": null,
     "link": "https://petstore.co.ke/product-category/fish-food-treats/"
   },
@@ -755,7 +765,7 @@
     "slug": "josera",
     "description": "",
     "parent": 0,
-    "count": 50,
+    "count": 51,
     "image": null,
     "link": "https://petstore.co.ke/product-category/josera/"
   },
@@ -805,7 +815,7 @@
     "slug": "kitten-food",
     "description": "",
     "parent": 2326,
-    "count": 16,
+    "count": 15,
     "image": null,
     "link": "https://petstore.co.ke/product-category/kitten-food/"
   },
@@ -825,7 +835,7 @@
     "slug": "kong-accessories",
     "description": "",
     "parent": 1204,
-    "count": 3,
+    "count": 0,
     "image": null,
     "link": "https://petstore.co.ke/product-category/kong-accessories/"
   },
@@ -870,6 +880,16 @@
     "link": "https://petstore.co.ke/product-category/cat-litter-boxes/"
   },
   {
+    "id": 2262,
+    "name": "Loop",
+    "slug": "loop",
+    "description": "",
+    "parent": 0,
+    "count": 0,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/loop/"
+  },
+  {
     "id": 2261,
     "name": "Maasai Shukas",
     "slug": "maasai-shukas",
@@ -895,7 +915,7 @@
     "slug": "miglior",
     "description": "",
     "parent": 0,
-    "count": 55,
+    "count": 52,
     "image": null,
     "link": "https://petstore.co.ke/product-category/miglior/"
   },
@@ -905,7 +925,7 @@
     "slug": "mio",
     "description": "",
     "parent": 0,
-    "count": 3,
+    "count": 0,
     "image": null,
     "link": "https://petstore.co.ke/product-category/mio/"
   },
@@ -915,7 +935,7 @@
     "slug": "montego",
     "description": "",
     "parent": 0,
-    "count": 49,
+    "count": 59,
     "image": null,
     "link": "https://petstore.co.ke/product-category/montego/"
   },
@@ -925,7 +945,7 @@
     "slug": "mpets",
     "description": "",
     "parent": 0,
-    "count": 4,
+    "count": 0,
     "image": null,
     "link": "https://petstore.co.ke/product-category/mpets/"
   },
@@ -998,5 +1018,395 @@
     "count": 4,
     "image": null,
     "link": "https://petstore.co.ke/product-category/pride-groom/"
+  },
+  {
+    "id": 796,
+    "name": "Proline",
+    "slug": "proline",
+    "description": "",
+    "parent": 0,
+    "count": 37,
+    "image": "https://petstore.co.ke/wp-content/uploads/2018/03/Proline-logo-1080x1080-c.png",
+    "link": "https://petstore.co.ke/product-category/proline/"
+  },
+  {
+    "id": 2377,
+    "name": "Puppy",
+    "slug": "puppy",
+    "description": "",
+    "parent": 0,
+    "count": 2,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/puppy/"
+  },
+  {
+    "id": 2350,
+    "name": "Puppy Food",
+    "slug": "puppy-food",
+    "description": "",
+    "parent": 2346,
+    "count": 21,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/puppy-food/"
+  },
+  {
+    "id": 2404,
+    "name": "Puppy Treats",
+    "slug": "puppy-treats",
+    "description": "",
+    "parent": 2346,
+    "count": 13,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/puppy-treats/"
+  },
+  {
+    "id": 2371,
+    "name": "Rabbit",
+    "slug": "rabbit-supplies-store",
+    "description": "",
+    "parent": 0,
+    "count": 0,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/rabbit-supplies-store/"
+  },
+  {
+    "id": 179,
+    "name": "Reflex",
+    "slug": "reflex",
+    "description": "",
+    "parent": 0,
+    "count": 110,
+    "image": "https://petstore.co.ke/wp-content/uploads/2017/07/Reflex-Logo-1080x1080-min.png",
+    "link": "https://petstore.co.ke/product-category/reflex/"
+  },
+  {
+    "id": 2409,
+    "name": "Rio",
+    "slug": "rio",
+    "description": "",
+    "parent": 0,
+    "count": 3,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/rio/"
+  },
+  {
+    "id": 2064,
+    "name": "Rogz",
+    "slug": "rogz",
+    "description": "",
+    "parent": 1204,
+    "count": 113,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/rogz/"
+  },
+  {
+    "id": 2359,
+    "name": "Rope & Tug Toys",
+    "slug": "dog-rope-tug-toys",
+    "description": "",
+    "parent": 2356,
+    "count": 8,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/dog-rope-tug-toys/"
+  },
+  {
+    "id": 2104,
+    "name": "Royal Canin",
+    "slug": "royal-canin",
+    "description": "",
+    "parent": 0,
+    "count": 3,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/royal-canin/"
+  },
+  {
+    "id": 927,
+    "name": "Sale",
+    "slug": "sale",
+    "description": "",
+    "parent": 0,
+    "count": 5,
+    "image": "https://petstore.co.ke/wp-content/uploads/2019/02/SALE-WEBSITE-min.png",
+    "link": "https://petstore.co.ke/product-category/sale/"
+  },
+  {
+    "id": 2264,
+    "name": "SF",
+    "slug": "flex-pet-bed",
+    "description": "",
+    "parent": 0,
+    "count": 22,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/flex-pet-bed/"
+  },
+  {
+    "id": 2390,
+    "name": "Shampoo",
+    "slug": "dog-shampoo",
+    "description": "",
+    "parent": 2360,
+    "count": 18,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/dog-shampoo/"
+  },
+  {
+    "id": 2398,
+    "name": "Shampoo",
+    "slug": "cat-shampoo",
+    "description": "",
+    "parent": 2343,
+    "count": 4,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/cat-shampoo/"
+  },
+  {
+    "id": 2411,
+    "name": "Simba",
+    "slug": "simba",
+    "description": "",
+    "parent": 0,
+    "count": 15,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/simba/"
+  },
+  {
+    "id": 2299,
+    "name": "Simparica",
+    "slug": "simparica",
+    "description": "",
+    "parent": 0,
+    "count": 4,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/simparica/"
+  },
+  {
+    "id": 2388,
+    "name": "Snappy Tom",
+    "slug": "snappy-tom",
+    "description": "",
+    "parent": 0,
+    "count": 1,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/snappy-tom/"
+  },
+  {
+    "id": 2421,
+    "name": "Soup Time",
+    "slug": "soup-time",
+    "description": "",
+    "parent": 0,
+    "count": 4,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/soup-time/"
+  },
+  {
+    "id": 180,
+    "name": "Spectrum",
+    "slug": "spectrum",
+    "description": "",
+    "parent": 0,
+    "count": 55,
+    "image": "https://petstore.co.ke/wp-content/uploads/2017/07/Spectrum-Logo-1050x1050-min.png",
+    "link": "https://petstore.co.ke/product-category/spectrum/"
+  },
+  {
+    "id": 2402,
+    "name": "Supplements",
+    "slug": "cat-supplements",
+    "description": "",
+    "parent": 2337,
+    "count": 6,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/cat-supplements/"
+  },
+  {
+    "id": 2391,
+    "name": "Supplements",
+    "slug": "dog-supplements",
+    "description": "",
+    "parent": 2362,
+    "count": 5,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/dog-supplements/"
+  },
+  {
+    "id": 2250,
+    "name": "Thunder",
+    "slug": "thunder",
+    "description": "",
+    "parent": 0,
+    "count": 2,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/thunder/"
+  },
+  {
+    "id": 1987,
+    "name": "Tickless",
+    "slug": "tickless",
+    "description": "",
+    "parent": 0,
+    "count": 0,
+    "image": "https://petstore.co.ke/wp-content/uploads/2020/08/Website-Tickless-Logo-Category-min.png",
+    "link": "https://petstore.co.ke/product-category/tickless/"
+  },
+  {
+    "id": 2387,
+    "name": "Tofu",
+    "slug": "tofu",
+    "description": "",
+    "parent": 0,
+    "count": 3,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/tofu/"
+  },
+  {
+    "id": 2139,
+    "name": "toys",
+    "slug": "toys",
+    "description": "",
+    "parent": 0,
+    "count": 7,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/toys/"
+  },
+  {
+    "id": 1125,
+    "name": "Trendline",
+    "slug": "trendline",
+    "description": "",
+    "parent": 0,
+    "count": 13,
+    "image": "https://petstore.co.ke/wp-content/uploads/2019/02/Trendline-Website-min.png",
+    "link": "https://petstore.co.ke/product-category/trendline/"
+  },
+  {
+    "id": 2383,
+    "name": "Truly",
+    "slug": "truly",
+    "description": "",
+    "parent": 0,
+    "count": 3,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/truly/"
+  },
+  {
+    "id": 2416,
+    "name": "Ultimates",
+    "slug": "ultimates",
+    "description": "",
+    "parent": 0,
+    "count": 3,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/ultimates/"
+  },
+  {
+    "id": 2127,
+    "name": "Unique",
+    "slug": "unique",
+    "description": "",
+    "parent": 0,
+    "count": 7,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/unique/"
+  },
+  {
+    "id": 2419,
+    "name": "Veggie Dog",
+    "slug": "veggie-dog",
+    "description": "",
+    "parent": 0,
+    "count": 1,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/veggie-dog/"
+  },
+  {
+    "id": 2214,
+    "name": "Veko",
+    "slug": "veko",
+    "description": "",
+    "parent": 0,
+    "count": 0,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/veko/"
+  },
+  {
+    "id": 2014,
+    "name": "Vermic Total",
+    "slug": "vermic-total",
+    "description": "",
+    "parent": 0,
+    "count": 0,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/vermic-total/"
+  },
+  {
+    "id": 2026,
+    "name": "Vitabiotics",
+    "slug": "vitabiotics",
+    "description": "",
+    "parent": 0,
+    "count": 0,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/vitabiotics/"
+  },
+  {
+    "id": 2175,
+    "name": "VitaHealth",
+    "slug": "vitahealth",
+    "description": "",
+    "parent": 0,
+    "count": 1,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/vitahealth/"
+  },
+  {
+    "id": 2379,
+    "name": "Wanpy",
+    "slug": "wanpy",
+    "description": "",
+    "parent": 0,
+    "count": 35,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/wanpy/"
+  },
+  {
+    "id": 2327,
+    "name": "Wet Cat Food",
+    "slug": "wet-cat-food",
+    "description": "",
+    "parent": 2326,
+    "count": 121,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/wet-cat-food/"
+  },
+  {
+    "id": 2349,
+    "name": "Wet Dog Food",
+    "slug": "wet-dog-food",
+    "description": "",
+    "parent": 2346,
+    "count": 51,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/wet-dog-food/"
+  },
+  {
+    "id": 2382,
+    "name": "Whiskas",
+    "slug": "whiskas",
+    "description": "",
+    "parent": 0,
+    "count": 8,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/whiskas/"
+  },
+  {
+    "id": 2300,
+    "name": "Zerokrim CH",
+    "slug": "zerokrim-ch",
+    "description": "",
+    "parent": 0,
+    "count": 3,
+    "image": null,
+    "link": "https://petstore.co.ke/product-category/zerokrim-ch/"
   }
 ]

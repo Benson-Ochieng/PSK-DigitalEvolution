@@ -1,0 +1,122 @@
+{
+  "id": 16404,
+  "name": "KONG Classic Dog Toy -  Small",
+  "slug": "kong-classic-dog-toy-small",
+  "sku": "T3",
+  "onSale": false,
+  "price": 1150,
+  "regularPrice": 1150,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/12/T2.jpg",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2342,
+      "name": "Cat Toys",
+      "slug": "cat-toys"
+    },
+    {
+      "id": 2358,
+      "name": "Chew Toys",
+      "slug": "dog-chew-toys"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2357,
+      "name": "Dog Fetch Toys",
+      "slug": "dog-fetch-toys"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2031,
+      "name": "Kong",
+      "slug": "kong-accessories"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=16404",
+  "shortDescription": "Classic KONG Toy – Small",
+  "description": "The KONGClassic is the gold standard of dog toys and has become the staple for dogs around the world for over forty years. Offering enrichment by helping satisfy dogs? instinctual needs, the KONGClassic?s unique natural red rubber formula is ultra-durable with an erratic bounce that is ideal for dogs that like to chew while also fulfilling a dog?s need to play. Want to extend playtime? Be sure to stuff with tempting bits of kibble and entice with a dash of peanut butter. Add to the fun by adding KONGSnacks and topping with KONGEasy Treat. Mentally stimulating toy; offering enrichment by helping satisfy dogs? instinctual needs. KONGclassic red rubber formula for average chewers. Unpredictable bounce for games of fetch. Great for stuffing with KONGEasy Treat; Snacks or Ziggies. Recommended by veterinarians and trainers worldwide. Natural rubber. Made in the USA. Globally Sourced Materials.",
+  "images": [
+    {
+      "id": 24980,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/12/T2.jpg",
+      "alt": "KONG Classic Dog Toy -  Small",
+      "name": "T2"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/kong-classic-dog-toy-small/?add-to-cart=16404",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2020-11-26T15:46:25",
+  "dateModified": "2026-05-06T17:06:39",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/12/T2.jpg"
+}

@@ -1,11 +1,11 @@
 {
   "id": 37567,
-  "name": "Rogz Dog Yumz Treat Toy Bone 15cm – Large Pink (Yu05-K)",
+  "name": "Rogz Dog Yumz Treat Toy Bone 15cm - Large Pink (Yu05-K)",
   "slug": "rogz-dog-yumz-treat-toy-bone-15cm-large-pink-yu05-k",
   "sku": "YU05-K",
   "onSale": false,
-  "price": 23,
-  "regularPrice": 23,
+  "price": 2300,
+  "regularPrice": 2300,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -42,21 +42,7 @@
       "slug": "rogz"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-dog-yumz-treat-toy-bone-15cm-large-pink-yu05-k/",
-  "shortDescription": "Rogz Dog Yumz-Treat Toy bone – Red Large",
-  "description": "Yumz massages and gives treats! This new treat dispensing chew toy has GMT Gum Massaging Technology. Made from TPR, the inside treat cavity has 3 fins to hold treats longer. It bounces and fetches as well!",
-  "images": [
-    {
-      "id": 47777,
-      "alt": "Rogz Dog Yumz Treat Toy Bone 15cm – Large Pink (Yu05-K)",
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/06/YU03-K-Yumz-Pink-420x420-1.jpg",
-      "name": "YU03-K-Yumz-Pink-420&#215;420"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 1205,
@@ -74,14 +60,33 @@
       "slug": "toys"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-dog-yumz-treat-toy-bone-15cm-large-pink-yu05-k/",
+  "shortDescription": "Rogz Dog Yumz-Treat Toy bone – Red Large",
+  "description": "Yumz massages and gives treats! This new treat dispensing chew toy has GMT Gum Massaging Technology. Made from TPR, the inside treat cavity has 3 fins to hold treats longer. It bounces and fetches as well!",
+  "images": [
+    {
+      "id": 47777,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/06/YU03-K-Yumz-Pink-420x420-1.jpg",
+      "alt": "Rogz Dog Yumz Treat Toy Bone 15cm – Large Pink (Yu05-K)",
+      "name": "YU03-K-Yumz-Pink-420&#215;420"
+    }
+  ],
   "stockStatus": "instock",
-  "lowStockRemaining": 1,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=3&#038;add-to-cart=37567",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-yumz-treat-toy-bone-15cm-large-pink-yu05-k/?add-to-cart=37567",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.301Z",
-  "dateModified": "2026-06-23T09:15:51.301Z"
+  "dateCreated": "2024-06-12T11:51:21",
+  "dateModified": "2026-06-17T04:14:18",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/YU03-K-Yumz-Pink-420x420-1.jpg"
 }

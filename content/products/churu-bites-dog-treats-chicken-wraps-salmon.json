@@ -4,8 +4,8 @@
   "slug": "churu-bites-dog-treats-chicken-wraps-salmon",
   "sku": "BCDT032",
   "onSale": false,
-  "price": 7.8,
-  "regularPrice": 7.8,
+  "price": 780,
+  "regularPrice": 780,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -27,21 +27,7 @@
       "slug": "dog-treats"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/churu-bites-dog-treats-chicken-wraps-salmon/",
-  "shortDescription": "Soft-baked dog treats with chicken wrap and creamy salmon Churu filling. Grain-free, low-calorie, and enriched with vitamins perfect for training, rewarding, or pampering dogs.",
-  "description": "Churu Bites Dog Treats – Chicken Wraps with Salmon are soft-baked, grain-free dog treats designed to delight dogs of all sizes and ages. Each bite features a soft baked chicken exterior wrapped around a creamy salmon Churu filling , offering two textures in one treat for a satisfying and tasty experience. Crafted with premium, human-grade ingredients , including farm-raised chicken, wild-caught tuna, and Pacific salmon, Churu Bites are naturally flavorful, highly palatable, and free from grains, preservatives, artificial colors, carrageenan, and by-products. With over 70% moisture and approximately 16 kcal per bite , these treats are low-calorie and hydrating perfect for rewarding, training, or simply showing your dog some extra love. Enriched with Vitamin E for immune support and Green Tea Extract as a natural antioxidant, Churu Bites do more than taste great—they also support your dog’s overall wellbeing. Individually wrapped for freshness and portion control, these treats are convenient for on-the-go snacking or hiding medication for finicky dogs. Whether for training, rewarding, or pampering , Churu Bites Chicken Wraps with Salmon provide a wholesome, nutritious, and indulgent snack your dog will adore. Key Benefits Dual texture: soft baked chicken outside, creamy salmon Churu filling inside Grain-free and free from artificial additives Low-calorie and high moisture for healthy snacking Enriched with Vitamin E and Green Tea Extract Made with human-grade, premium ingredients (chicken, tuna, salmon) Perfect for picky eaters, training, medication, or older/small dogs Nutritional Highlights (per bite) Crude Protein: 22% min Crude Fat: 3% min Crude Fiber: 0.5% max Moisture: 72% max Vitamin E: 80 IU/kg min Feeding Instructions Serve as a treat only, not a substitute for meals Provide fresh water with each treat Refrigerate after opening to maintain freshness Ideal for training rewards or hiding pills &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
-  "images": [
-    {
-      "id": 68421,
-      "alt": "Churu Bites Dog Treats Chicken Recipe Wraps Salmon Recipe",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/Dog-Churu-Rolls-Chicken-Wraps-Salmon-Recipe-1.png",
-      "name": "Dog Churu Rolls Chicken Wraps Salmon Recipe (1)"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 2213,
@@ -54,14 +40,33 @@
       "slug": "treats"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/churu-bites-dog-treats-chicken-wraps-salmon/",
+  "shortDescription": "Soft-baked dog treats with chicken wrap and creamy salmon Churu filling. Grain-free, low-calorie, and enriched with vitamins perfect for training, rewarding, or pampering dogs.",
+  "description": "Churu Bites Dog Treats – Chicken Wraps with Salmon are soft-baked, grain-free dog treats designed to delight dogs of all sizes and ages. Each bite features a soft baked chicken exterior wrapped around a creamy salmon Churu filling , offering two textures in one treat for a satisfying and tasty experience. Crafted with premium, human-grade ingredients , including farm-raised chicken, wild-caught tuna, and Pacific salmon, Churu Bites are naturally flavorful, highly palatable, and free from grains, preservatives, artificial colors, carrageenan, and by-products. With over 70% moisture and approximately 16 kcal per bite , these treats are low-calorie and hydrating perfect for rewarding, training, or simply showing your dog some extra love. Enriched with Vitamin E for immune support and Green Tea Extract as a natural antioxidant, Churu Bites do more than taste great—they also support your dog’s overall wellbeing. Individually wrapped for freshness and portion control, these treats are convenient for on-the-go snacking or hiding medication for finicky dogs. Whether for training, rewarding, or pampering , Churu Bites Chicken Wraps with Salmon provide a wholesome, nutritious, and indulgent snack your dog will adore. Key Benefits Dual texture: soft baked chicken outside, creamy salmon Churu filling inside Grain-free and free from artificial additives Low-calorie and high moisture for healthy snacking Enriched with Vitamin E and Green Tea Extract Made with human-grade, premium ingredients (chicken, tuna, salmon) Perfect for picky eaters, training, medication, or older/small dogs Nutritional Highlights (per bite) Crude Protein: 22% min Crude Fat: 3% min Crude Fiber: 0.5% max Moisture: 72% max Vitamin E: 80 IU/kg min Feeding Instructions Serve as a treat only, not a substitute for meals Provide fresh water with each treat Refrigerate after opening to maintain freshness Ideal for training rewards or hiding pills &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
+  "images": [
+    {
+      "id": 68421,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/Dog-Churu-Rolls-Chicken-Wraps-Salmon-Recipe-1.png",
+      "alt": "Churu Bites Dog Treats Chicken Recipe Wraps Salmon Recipe",
+      "name": "Dog Churu Rolls Chicken Wraps Salmon Recipe (1)"
+    }
+  ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=68420",
+  "addToCartUrl": "https://petstore.co.ke/product/churu-bites-dog-treats-chicken-wraps-salmon/?add-to-cart=68420",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.842Z",
-  "dateModified": "2026-06-23T09:15:51.842Z"
+  "dateCreated": "2026-01-21T14:20:36",
+  "dateModified": "2026-06-17T04:15:36",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/Dog-Churu-Rolls-Chicken-Wraps-Salmon-Recipe-1.png"
 }

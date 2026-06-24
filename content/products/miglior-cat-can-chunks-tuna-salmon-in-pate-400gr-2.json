@@ -1,0 +1,92 @@
+{
+  "id": 44828,
+  "name": "DEFECT/DAMAGED PACKAGE-CLEARANCE: Miglior Canned Cat - Tuna & Salmon, Pate 400g",
+  "slug": "miglior-cat-can-chunks-tuna-salmon-in-pate-400gr-2",
+  "sku": "MCW018@D",
+  "onSale": true,
+  "price": 196,
+  "regularPrice": 280,
+  "salePrice": 196,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/01/MIGLIOR-GATTO-CON-TONNO-E-SALMONE-IN-PATE-400G.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2163,
+      "name": "Miglior",
+      "slug": "miglior"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 622,
+      "name": "canned food",
+      "slug": "canned-food"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 1303,
+      "name": "Clearance",
+      "slug": "clearance"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=44828",
+  "shortDescription": "(4 pieces minimum order) Formula designed to guarantee the key nutrients required for the well-being of your cat. Vitamin E with antioxidant action and a recipe rich in meat to help keep muscle mass toned.",
+  "description": "Meat and animal derivatives 50%, fish and fish derivatives (Tuna 5%, Salmon5%), cereals, Minerals. ANALYTICAL CONSTITUENTS: Moisture 77%, Crude protein 10%, Crude fat 6%, Crude fibers 0.5%, Crude ash 3%. Nutritional additives / kg: Vitamin E 10 mg, Copper (Copper (II) sulphate pentahydrate) 2 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight. Once opened, store in refrigerator for 2-3 days.",
+  "images": [
+    {
+      "id": 34611,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/01/MIGLIOR-GATTO-CON-TONNO-E-SALMONE-IN-PATE-400G.jpg",
+      "alt": "Miglior Canned Cat Food – Tuna & Salmon, Pate 400g",
+      "name": "MIGLIOR GATTO CON TONNO E SALMONE IN PATE 400G"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/miglior-cat-can-chunks-tuna-salmon-in-pate-400gr-2/?add-to-cart=44828",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2024-02-29T12:52:15",
+  "dateModified": "2026-05-06T17:09:37",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/01/MIGLIOR-GATTO-CON-TONNO-E-SALMONE-IN-PATE-400G.jpg"
+}

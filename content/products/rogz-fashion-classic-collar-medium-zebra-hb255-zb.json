@@ -4,8 +4,8 @@
   "slug": "rogz-fashion-classic-collar-medium-zebra-hb255-zb",
   "sku": "HB255-ZB",
   "onSale": false,
-  "price": 10,
-  "regularPrice": 10,
+  "price": 1000,
+  "regularPrice": 1000,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,21 +32,7 @@
       "slug": "rogz"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-fashion-classic-collar-medium-zebra-hb255-zb/",
-  "shortDescription": "Custom-designed wild safari prints stitched onto soft plush webbing, Rogz Small Dogs Fashion Classic Collars feature a D ring for ID-Tag attachment for identification and reflective yarn for extra visibility.",
-  "description": "Custom-designed wild safari prints stitched onto soft plush webbing, Rogz Small Dogs Fashion Classic Collars feature a D ring for ID-Tag attachment for identification and reflective yarn for extra visibility.",
-  "images": [
-    {
-      "id": 47716,
-      "alt": "Rogz Fashion Classic Collar Medium Zebra (Hb255-Zb)",
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/06/HB255-ZB_Fashion-Classic-Collar_M_Zebra-420x420-1.jpg",
-      "name": "HB255-ZB_Fashion-Classic-Collar_M_Zebra-420&#215;420"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 1205,
@@ -69,14 +55,33 @@
       "slug": "puppy"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-fashion-classic-collar-medium-zebra-hb255-zb/",
+  "shortDescription": "Custom-designed wild safari prints stitched onto soft plush webbing, Rogz Small Dogs Fashion Classic Collars feature a D ring for ID-Tag attachment for identification and reflective yarn for extra visibility.",
+  "description": "Custom-designed wild safari prints stitched onto soft plush webbing, Rogz Small Dogs Fashion Classic Collars feature a D ring for ID-Tag attachment for identification and reflective yarn for extra visibility.",
+  "images": [
+    {
+      "id": 47716,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/06/HB255-ZB_Fashion-Classic-Collar_M_Zebra-420x420-1.jpg",
+      "alt": "Rogz Fashion Classic Collar Medium Zebra (Hb255-Zb)",
+      "name": "HB255-ZB_Fashion-Classic-Collar_M_Zebra-420&#215;420"
+    }
+  ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=47715",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-fashion-classic-collar-medium-zebra-hb255-zb/?add-to-cart=47715",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.418Z",
-  "dateModified": "2026-06-23T09:15:51.418Z"
+  "dateCreated": "2024-06-11T10:43:35",
+  "dateModified": "2026-06-17T04:14:39",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/HB255-ZB_Fashion-Classic-Collar_M_Zebra-420x420-1.jpg"
 }

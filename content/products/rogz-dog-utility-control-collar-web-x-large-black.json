@@ -1,12 +1,12 @@
 {
   "id": 17574,
-  "name": "Rogz Dog Utility Control Collar Web X-Large – Black",
+  "name": "Rogz Dog Utility Control Collar Web X-Large - Black",
   "slug": "rogz-dog-utility-control-collar-web-x-large-black",
   "sku": "HCW05-A",
   "onSale": true,
-  "price": 19.8,
-  "regularPrice": 22,
-  "salePrice": 19.8,
+  "price": 1980,
+  "regularPrice": 2200,
+  "salePrice": 1980,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/HCW05-A_Control-Collar-Web.jpg",
@@ -32,21 +32,7 @@
       "slug": "rogz"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-control-collar-web-x-large-black/",
-  "shortDescription": "Rogz Utility control collar Web &#8211; X-Large Black",
-  "description": "Rogz Control Collar Web is a safe, non-slip collar recommended for behaviour correction and training. Through gently-applied pressure, when attached to a Lead/Leash, the two D-rings are drawn together, tightening slightly to prevent your dog from reversing out of the collar. TO FIT: To avoid injury, fit the collar with a two-finger gap between the metal rings in the tightened position. The collar should then fit snuggly over your dog?s head. Size: X-Large 25mm (Neck Size: 45 &#8211; 60cm)",
-  "images": [
-    {
-      "id": 17529,
-      "alt": "Rogz Dog Utility Control Collar Web X-Large – Black",
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/HCW05-A_Control-Collar-Web.jpg",
-      "name": "HCW05 &#8211; A_Control Collar Web"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 1205,
@@ -69,14 +55,33 @@
       "slug": "sale"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-control-collar-web-x-large-black/",
+  "shortDescription": "Rogz Utility control collar Web – X-Large Black",
+  "description": "Rogz Control Collar Web is a safe, non-slip collar recommended for behaviour correction and training. Through gently-applied pressure, when attached to a Lead/Leash, the two D-rings are drawn together, tightening slightly to prevent your dog from reversing out of the collar. TO FIT: To avoid injury, fit the collar with a two-finger gap between the metal rings in the tightened position. The collar should then fit snuggly over your dog?s head. Size: X-Large 25mm (Neck Size: 45 - 60cm)",
+  "images": [
+    {
+      "id": 17529,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/HCW05-A_Control-Collar-Web.jpg",
+      "alt": "Rogz Dog Utility Control Collar Web X-Large – Black",
+      "name": "HCW05 &#8211; A_Control Collar Web"
+    }
+  ],
   "stockStatus": "instock",
-  "lowStockRemaining": 3,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=1&#038;add-to-cart=17574",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-control-collar-web-x-large-black/?add-to-cart=17574",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.128Z",
-  "dateModified": "2026-06-23T09:15:51.128Z"
+  "dateCreated": "2021-01-10T19:36:17",
+  "dateModified": "2026-06-17T04:13:38",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/HCW05-A_Control-Collar-Web.jpg"
 }

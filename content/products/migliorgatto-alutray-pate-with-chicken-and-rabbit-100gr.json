@@ -4,8 +4,8 @@
   "slug": "migliorgatto-alutray-pate-with-chicken-and-rabbit-100gr",
   "sku": "MCW013",
   "onSale": false,
-  "price": 1.95,
-  "regularPrice": 1.95,
+  "price": 195,
+  "regularPrice": 195,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "wet-cat-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/migliorgatto-alutray-pate-with-chicken-and-rabbit-100gr/",
-  "shortDescription": "Formula designed to guarantee the key nutrients required for the well-being of your dog. Vitamin E with antioxidant action and a recipe rich in meat to help keep muscle mass toned.",
-  "description": "COMPOSITION: Meat and animal derivatives 50% (chicken 5%, rabbit 5%), minerals. ANALYTICAL CONSTITUENTS: Moisture 81%, Crude protein 9,8%, Crude fat 6%, Crude fibres 0,5%, Crude ash 1,8%. Nutritional additives/kg: Vitamin E 7,5 mg, Zinc (Zinc sulphate monohydrate) 5,0 mg, Copper (Copper (II) sulphate pentahydrate) 0,2 mg, Manganese (Manganous sulphate monohydrate) 1,7 mg, Iodine (Potassium iodide) 0,7 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place.",
-  "images": [
+  "brands": [
     {
-      "id": 28227,
-      "alt": "Migliorgatto Alutray PATE WITH Chicken and Rabbit 100Gr",
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW013.jpg",
-      "name": "MCW013"
+      "id": 2451,
+      "name": "Miglior",
+      "slug": "miglior"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/migliorgatto-alutray-pate-with-chicken-and-rabbit-100gr/",
+  "shortDescription": "Formula designed to guarantee the key nutrients required for the well-being of your dog. Vitamin E with antioxidant action and a recipe rich in meat to help keep muscle mass toned.",
+  "description": "COMPOSITION: Meat and animal derivatives 50% (chicken 5%, rabbit 5%), minerals. ANALYTICAL CONSTITUENTS: Moisture 81%, Crude protein 9,8%, Crude fat 6%, Crude fibres 0,5%, Crude ash 1,8%. Nutritional additives/kg: Vitamin E 7,5 mg, Zinc (Zinc sulphate monohydrate) 5,0 mg, Copper (Copper (II) sulphate pentahydrate) 0,2 mg, Manganese (Manganous sulphate monohydrate) 1,7 mg, Iodine (Potassium iodide) 0,7 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place.",
+  "images": [
     {
-      "id": 2451,
-      "name": "Miglior",
-      "slug": "miglior"
+      "id": 28227,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW013.jpg",
+      "alt": "Migliorgatto Alutray PATE WITH Chicken and Rabbit 100Gr",
+      "name": "MCW013"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=3&#038;add-to-cart=28224",
+  "addToCartUrl": "https://petstore.co.ke/product/migliorgatto-alutray-pate-with-chicken-and-rabbit-100gr/?add-to-cart=28224",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.254Z",
-  "dateModified": "2026-06-23T09:15:51.254Z"
+  "dateCreated": "2022-07-15T11:21:17",
+  "dateModified": "2026-06-24T16:12:16",
+  "brand": "Miglior",
+  "weight_kg": 0.1,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW013.jpg"
 }

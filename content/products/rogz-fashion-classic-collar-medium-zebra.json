@@ -1,0 +1,51 @@
+{
+  "id": 52825,
+  "name": "Rogz Fashion Classic Collar Medium Zebra",
+  "slug": "rogz-fashion-classic-collar-medium-zebra",
+  "sku": "HB255-ZB@F",
+  "onSale": true,
+  "price": 800,
+  "regularPrice": 1000,
+  "salePrice": 800,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/HB255-ZB_Fashion-Classic-Collar_M_Zebra-420x420-1.jpg",
+  "categories": [
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    }
+  ],
+  "brands": [],
+  "tags": [],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=52825",
+  "shortDescription": "",
+  "description": "",
+  "images": [
+    {
+      "id": 47716,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/06/HB255-ZB_Fashion-Classic-Collar_M_Zebra-420x420-1.jpg",
+      "alt": "Rogz Fashion Classic Collar Medium Zebra (Hb255-Zb)",
+      "name": "HB255-ZB_Fashion-Classic-Collar_M_Zebra-420&#215;420"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-fashion-classic-collar-medium-zebra/?add-to-cart=52825",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2025-01-16T17:05:20",
+  "dateModified": "2026-05-06T17:11:02",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/HB255-ZB_Fashion-Classic-Collar_M_Zebra-420x420-1.jpg"
+}

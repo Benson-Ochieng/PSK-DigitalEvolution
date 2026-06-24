@@ -1,0 +1,77 @@
+{
+  "id": 27361,
+  "name": "Mpets Food Dispenser 1500Ml",
+  "slug": "mpets-food-dispenser-1500ml",
+  "sku": "MPFD",
+  "onSale": false,
+  "price": 1100,
+  "regularPrice": 1100,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/MPFD.jpg",
+  "categories": [
+    {
+      "id": 2135,
+      "name": "MPETS",
+      "slug": "mpets"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27361",
+  "shortDescription": "Mpets Food Dispenser",
+  "description": "Mpets Food Pet Dispenser",
+  "images": [
+    {
+      "id": 27362,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPFD.jpg",
+      "alt": "Mpets Food Dispenser 1500Ml",
+      "name": "MPFD"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/mpets-food-dispenser-1500ml/?add-to-cart=27361",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-04-20T16:20:37",
+  "dateModified": "2026-05-06T17:08:07",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPFD.jpg"
+}

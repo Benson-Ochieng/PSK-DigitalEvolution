@@ -4,8 +4,8 @@
   "slug": "royal-canin-fhn-hairball-care-cat-pouch-with-gravy-0-085kg",
   "sku": "ROC-FHNW-063",
   "onSale": false,
-  "price": 3.3,
-  "regularPrice": 3.3,
+  "price": 330,
+  "regularPrice": 330,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -37,19 +37,11 @@
       "slug": "wet-cat-food"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/royal-canin-fhn-hairball-care-cat-pouch-with-gravy-0-085kg/",
-  "shortDescription": "ROYAL CANIN? Hairball Care in Gravy is formulated to help your cat eliminate ingested hair by stimulating the intestinal transit passage &#8211; removing any excess hair that would usually remain in the stomach.",
-  "description": "ROYAL CANIN? Hairball Care in Gravy is formulated to help your cat eliminate ingested hair by stimulating the intestinal transit passage &#8211; removing any excess hair that would usually remain in the stomach. ROYAL CANIN? Hairball Care in Gravy also helps to maintain your cat&#8217;s ideal weight &#8211; with a low-fat content of just 2.7%. Essential fatty acids are included as well, to help provide valuable energy. High digestibility is supported through the inclusion of dietary fibre in ROYAL CANIN? Hairball Care in Gravy, this contributes to a balanced gut flora and healthy intestinal tract activity. To cater to each cat&#8217;s preferences, ROYAL CANIN? Hairball Care is also available as dry food, with crunchy and tasty kibble. If you&#8217;re considering mixed feeding, simply follow our feeding guidelines to ensure your cat gets an accurate amount of both wet and dry food for optimal benefit. Complete feed for adult cats (thin slices in gravy) COMPOSITION : Meat and animal derivatives, cereals, derivatives of vegetable origin, vegetable protein extracts, minerals, oils and fats, various sugars, yeasts. ADDITIVES (per kg): Vitamin D3: 150 IU, E1 (Iron): 2 mg, E2 (Iodine): 0.3 mg, E4 (Copper): 2.3 mg, E5 (Manganese): 0.6 mg, E6 (Zinc): 6 mg &#8211; Technological additives: Clinoptilolite of sedimentary origin2g ANALYTICAL CONSTITUANTS: Protein: 7.0% &#8211; Fat content: 2.7% &#8211; Crude ash: 1.6% &#8211; Crude fibres: 1.0% &#8211; Moisture: 82.0%.",
-  "images": [
+  "brands": [
     {
-      "id": 28434,
-      "alt": "Royal Canin FHN Hairball Care Cat Pouch WithGravy 85g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/Royal-Canin-wet-food-04.jpg",
-      "name": "Royal Canin wet food-04"
+      "id": 2423,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
     }
   ],
   "tags": [
@@ -69,20 +61,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/royal-canin-fhn-hairball-care-cat-pouch-with-gravy-0-085kg/",
+  "shortDescription": "ROYAL CANIN? Hairball Care in Gravy is formulated to help your cat eliminate ingested hair by stimulating the intestinal transit passage – removing any excess hair that would usually remain in the stomach.",
+  "description": "ROYAL CANIN? Hairball Care in Gravy is formulated to help your cat eliminate ingested hair by stimulating the intestinal transit passage - removing any excess hair that would usually remain in the stomach. ROYAL CANIN? Hairball Care in Gravy also helps to maintain your cat's ideal weight - with a low-fat content of just 2.7%. Essential fatty acids are included as well, to help provide valuable energy. High digestibility is supported through the inclusion of dietary fibre in ROYAL CANIN? Hairball Care in Gravy, this contributes to a balanced gut flora and healthy intestinal tract activity. To cater to each cat's preferences, ROYAL CANIN? Hairball Care is also available as dry food, with crunchy and tasty kibble. If you're considering mixed feeding, simply follow our feeding guidelines to ensure your cat gets an accurate amount of both wet and dry food for optimal benefit. Complete feed for adult cats (thin slices in gravy) COMPOSITION : Meat and animal derivatives, cereals, derivatives of vegetable origin, vegetable protein extracts, minerals, oils and fats, various sugars, yeasts. ADDITIVES (per kg): Vitamin D3: 150 IU, E1 (Iron): 2 mg, E2 (Iodine): 0.3 mg, E4 (Copper): 2.3 mg, E5 (Manganese): 0.6 mg, E6 (Zinc): 6 mg - Technological additives: Clinoptilolite of sedimentary origin2g ANALYTICAL CONSTITUANTS: Protein: 7.0% - Fat content: 2.7% - Crude ash: 1.6% - Crude fibres: 1.0% - Moisture: 82.0%.",
+  "images": [
     {
-      "id": 2423,
-      "name": "Royal Canin",
-      "slug": "royal-canin"
+      "id": 28434,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/Royal-Canin-wet-food-04.jpg",
+      "alt": "Royal Canin FHN Hairball Care Cat Pouch WithGravy 85g",
+      "name": "Royal Canin wet food-04"
     }
   ],
-  "stockStatus": "outofstock",
-  "lowStockRemaining": 2,
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/royal-canin-fhn-hairball-care-cat-pouch-with-gravy-0-085kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/royal-canin-fhn-hairball-care-cat-pouch-with-gravy-0-085kg/?add-to-cart=26970",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.240Z",
-  "dateModified": "2026-06-23T09:15:51.240Z"
+  "dateCreated": "2022-04-08T16:05:20",
+  "dateModified": "2026-06-17T05:01:27",
+  "brand": "Royal Canin",
+  "weight_kg": 0.085,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/Royal-Canin-wet-food-04.jpg"
 }

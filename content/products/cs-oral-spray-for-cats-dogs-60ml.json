@@ -1,11 +1,11 @@
 {
   "id": 59528,
-  "name": "CS Oral Spray for Cats & Dogs – 60ml",
+  "name": "CS Oral Spray for Cats & Dogs - 60ml",
   "slug": "cs-oral-spray-for-cats-dogs-60ml",
   "sku": "CSOSFCD",
   "onSale": false,
-  "price": 2.6,
-  "regularPrice": 2.6,
+  "price": 260,
+  "regularPrice": 260,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "dog-grooming-cleaning-supplies"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/cs-oral-spray-for-cats-dogs-60ml/",
-  "shortDescription": "Naturally freshen your pet’s breath and support healthy teeth with our gentle, plant-based oral spray, safe for both cats and dogs.",
-  "description": "Keep your pet’s breath fresh and mouth healthy with our all-natural Oral Spray for cats and dogs. Formulated with gentle, plant-based ingredients, this spray helps reduce bad breath, supports oral hygiene, and promotes overall dental health without any harsh chemicals. Easy to use and safe for daily use, simply spray directly into your pet’s mouth to help combat plaque and bacteria naturally. Perfect for pets of all ages, it’s a quick and stress-free way to maintain a clean and healthy smile! Freshens breath naturally Supports healthy gums and teeth Made with gentle, natural ingredients Suitable for cats and dogs of all sizes",
-  "images": [
+  "brands": [
     {
-      "id": 59529,
-      "alt": "CS Oral Spray for Cats & Dogs – 60ml",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/09/Oral-spray.png",
-      "name": "Oral spray"
+      "id": 2434,
+      "name": "CS",
+      "slug": "cs"
     }
   ],
   "tags": [
@@ -55,7 +47,7 @@
     },
     {
       "id": 2098,
-      "name": "Grooming &amp; Tools",
+      "name": "Grooming & Tools",
       "slug": "grooming-tools"
     },
     {
@@ -64,20 +56,33 @@
       "slug": "puppy"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/cs-oral-spray-for-cats-dogs-60ml/",
+  "shortDescription": "Naturally freshen your pet’s breath and support healthy teeth with our gentle, plant-based oral spray, safe for both cats and dogs.",
+  "description": "Keep your pet’s breath fresh and mouth healthy with our all-natural Oral Spray for cats and dogs. Formulated with gentle, plant-based ingredients, this spray helps reduce bad breath, supports oral hygiene, and promotes overall dental health without any harsh chemicals. Easy to use and safe for daily use, simply spray directly into your pet’s mouth to help combat plaque and bacteria naturally. Perfect for pets of all ages, it’s a quick and stress-free way to maintain a clean and healthy smile! Freshens breath naturally Supports healthy gums and teeth Made with gentle, natural ingredients Suitable for cats and dogs of all sizes",
+  "images": [
     {
-      "id": 2434,
-      "name": "CS",
-      "slug": "cs"
+      "id": 59529,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/09/Oral-spray.png",
+      "alt": "CS Oral Spray for Cats & Dogs – 60ml",
+      "name": "Oral spray"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=59528",
+  "addToCartUrl": "https://petstore.co.ke/product/cs-oral-spray-for-cats-dogs-60ml/?add-to-cart=59528",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.752Z",
-  "dateModified": "2026-06-23T09:15:51.752Z"
+  "dateCreated": "2025-09-11T12:37:21",
+  "dateModified": "2026-06-23T10:12:05",
+  "brand": "CS",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/09/Oral-spray.png"
 }

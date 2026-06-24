@@ -4,8 +4,8 @@
   "slug": "churu-cats-treats-fun-bites-chicken-recipe",
   "sku": "BCCT027",
   "onSale": false,
-  "price": 5.3,
-  "regularPrice": 5.3,
+  "price": 530,
+  "regularPrice": 530,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "churu"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/churu-cats-treats-fun-bites-chicken-recipe/",
-  "shortDescription": "Churu Fun Bites Chicken Recipe are soft, dual-texture cat treats with a creamy Churu center. Grain-free, low-calorie, and made with real chicken and tuna for irresistible flavor and hydration.",
-  "description": "Treat your cat to a playful burst of flavor and texture with Churu Fun Bites Chicken Recipe . These irresistible, pillow-shaped treats are made with high-quality farm-raised chicken and natural wild-caught tuna , crafted to satisfy even the most finicky felines. Each soft baked outer layer is wrapped around a creamy Churu® filling , delivering twice the texture cats love soft on the outside, creamy on the inside. Free from grains, preservatives, carrageenan, and artificial colors, these treats are as wholesome as they are delicious. Perfectly portioned for freshness, every bag includes three individual packs , making snack time convenient while helping prevent overindulgence. With 69% moisture for added hydration and only 17 kcal per pack , Churu Fun Bites are a guilt-free way to reward your cat. Vitamin E supports immune health, while green tea extract provides antioxidant benefits making these treats both tasty and nutritious. Whether fed by hand, used as a special reward, or cleverly hiding a pill, Churu Fun Bites are sure to become your cat’s favorite snack. Key Benefits Made with real chicken and tuna you can trust Dual-texture treat: soft baked outside, creamy Churu center Grain-free with no preservatives or artificial colors High moisture content to support hydration Low-calorie treat with added Vitamin E and antioxidants Convenient, freshness-sealed packs Feeding Instructions Feed as a treat only. Not intended as a complete meal. Always provide clean, fresh water and consult your veterinarian regularly for your pet’s health. Storage Instructions Refrigerate after opening and serve as soon as possible. Guaranteed Analysis Crude Protein (min): 24.00% Crude Fat (min): 3.00% Crude Fiber (max): 0.50% Moisture (max): 69.00% Vitamin E (min): 92 IU/kg Taurine (min): 0.026% Calorie Content 1400 kcal/kg | 17 kcal per pack (ME) &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 66420,
-      "alt": "Churu Cat Treats Fun Bites Chicken Recipe Wraps 3packs 60g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/CHURU-CHICKEN-FUN-BITES-.png",
-      "name": "CHURU CHICKEN FUN BITES"
+      "id": 2433,
+      "name": "Churu",
+      "slug": "churu"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "treats"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/churu-cats-treats-fun-bites-chicken-recipe/",
+  "shortDescription": "Churu Fun Bites Chicken Recipe are soft, dual-texture cat treats with a creamy Churu center. Grain-free, low-calorie, and made with real chicken and tuna for irresistible flavor and hydration.",
+  "description": "Treat your cat to a playful burst of flavor and texture with Churu Fun Bites Chicken Recipe . These irresistible, pillow-shaped treats are made with high-quality farm-raised chicken and natural wild-caught tuna , crafted to satisfy even the most finicky felines. Each soft baked outer layer is wrapped around a creamy Churu® filling , delivering twice the texture cats love soft on the outside, creamy on the inside. Free from grains, preservatives, carrageenan, and artificial colors, these treats are as wholesome as they are delicious. Perfectly portioned for freshness, every bag includes three individual packs , making snack time convenient while helping prevent overindulgence. With 69% moisture for added hydration and only 17 kcal per pack , Churu Fun Bites are a guilt-free way to reward your cat. Vitamin E supports immune health, while green tea extract provides antioxidant benefits making these treats both tasty and nutritious. Whether fed by hand, used as a special reward, or cleverly hiding a pill, Churu Fun Bites are sure to become your cat’s favorite snack. Key Benefits Made with real chicken and tuna you can trust Dual-texture treat: soft baked outside, creamy Churu center Grain-free with no preservatives or artificial colors High moisture content to support hydration Low-calorie treat with added Vitamin E and antioxidants Convenient, freshness-sealed packs Feeding Instructions Feed as a treat only. Not intended as a complete meal. Always provide clean, fresh water and consult your veterinarian regularly for your pet’s health. Storage Instructions Refrigerate after opening and serve as soon as possible. Guaranteed Analysis Crude Protein (min): 24.00% Crude Fat (min): 3.00% Crude Fiber (max): 0.50% Moisture (max): 69.00% Vitamin E (min): 92 IU/kg Taurine (min): 0.026% Calorie Content 1400 kcal/kg | 17 kcal per pack (ME) &nbsp;",
+  "images": [
     {
-      "id": 2433,
-      "name": "Churu",
-      "slug": "churu"
+      "id": 66420,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/CHURU-CHICKEN-FUN-BITES-.png",
+      "alt": "Churu Cat Treats Fun Bites Chicken Recipe Wraps 3packs 60g",
+      "name": "CHURU CHICKEN FUN BITES"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=66401",
+  "addToCartUrl": "https://petstore.co.ke/product/churu-cats-treats-fun-bites-chicken-recipe/?add-to-cart=66401",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.818Z",
-  "dateModified": "2026-06-23T09:15:51.818Z"
+  "dateCreated": "2026-01-08T14:08:48",
+  "dateModified": "2026-06-17T05:01:32",
+  "brand": "Churu",
+  "weight_kg": 0.06,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/CHURU-CHICKEN-FUN-BITES-.png"
 }

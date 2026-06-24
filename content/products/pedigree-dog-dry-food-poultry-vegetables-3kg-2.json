@@ -4,8 +4,8 @@
   "slug": "pedigree-dog-dry-food-poultry-vegetables-3kg-2",
   "sku": "PDDF001",
   "onSale": false,
-  "price": 33.75,
-  "regularPrice": 33.75,
+  "price": 3375,
+  "regularPrice": 3375,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "pedigree"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pedigree-dog-dry-food-poultry-vegetables-3kg-2/",
-  "shortDescription": "Give your small dog complete daily nutrition with Pedigree Complete Dry Dog Food Poultry 3kg. Specially formulated for small breed dogs, this wholesome dry dog food combines delicious poultry flavour with balanced nutrition to support overall health, vitality, and wellbeing.",
-  "description": "Made with natural ingredients, vitamins, minerals, prebiotics, and superfoods, Pedigree Complete provides everything your dog needs to stay active and healthy every day. The crunchy kibble texture is specially designed to help clean teeth and support oral hygiene, while highly digestible ingredients and added fibre help promote healthy digestion. Enriched with Vitamin E to help support natural defences and antioxidants, this nutritious recipe also contains selected B vitamins and zinc to help maintain healthy skin and a shiny coat. With no added artificial colours or flavours, Pedigree Complete offers tasty, balanced nutrition you can trust for your furry companion. Key Benefits Complete and balanced dry food for small breed dogs Delicious poultry flavour dogs love Special kibble texture helps support dental health Contains prebiotics and fibre for healthy digestion Enriched with Vitamin E to support natural defences Added B vitamins and zinc for healthy skin and coat Made with natural ingredients and superfoods No added artificial colours or flavours Ingredients Cereals, meat and animal derivatives (including poultry 4%), oils and fats, derivatives of vegetable origin (including dried beet pulp 3%), minerals (including sodium tripolyphosphate 0.4%), vegetables (including dried peas and carrots mix 0.7%), yeast (including brewer’s yeast 0.4%). Analytical Constituents Protein: 20% Fat Content: 9% Crude Fibre: 2.3% Inorganic Matter: 7% Nutritional Additives per kg Vitamin B₂: 15.1 mg Vitamin D₃: 1406 IU Vitamin E: 100 mg Biotin: 0.21 mg Copper: 6.6 mg Iodine: 1.7 mg Manganese: 20.3 mg Selenium: 0.33 mg Zinc: 57.4 mg Feeding Guide Dog Weight Daily Feeding Amount 1 kg 25 – 30 g 3 kg 60 – 65 g 5 kg 90 – 100 g 7 kg 115 – 125 g 10 kg 150 – 165 g Fresh drinking water should always be available. Store in a cool, dry place and introduce food gradually when changing diets. &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 89866,
-      "alt": "Pedigree Dog Dry Food – Poultry & Vegetables 3kg",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Pedigree-Dog-Dry-Food-–-Poultry-Vegetables-3kg.png",
-      "name": "Pedigree Dog Dry Food – Poultry &#038; Vegetables 3kg"
+      "id": 2456,
+      "name": "Pedigree",
+      "slug": "pedigree"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "new-arrivals"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/pedigree-dog-dry-food-poultry-vegetables-3kg-2/",
+  "shortDescription": "Give your small dog complete daily nutrition with Pedigree Complete Dry Dog Food Poultry 3kg. Specially formulated for small breed dogs, this wholesome dry dog food combines delicious poultry flavour with balanced nutrition to support overall health, vitality, and wellbeing.",
+  "description": "Made with natural ingredients, vitamins, minerals, prebiotics, and superfoods, Pedigree Complete provides everything your dog needs to stay active and healthy every day. The crunchy kibble texture is specially designed to help clean teeth and support oral hygiene, while highly digestible ingredients and added fibre help promote healthy digestion. Enriched with Vitamin E to help support natural defences and antioxidants, this nutritious recipe also contains selected B vitamins and zinc to help maintain healthy skin and a shiny coat. With no added artificial colours or flavours, Pedigree Complete offers tasty, balanced nutrition you can trust for your furry companion. Key Benefits Complete and balanced dry food for small breed dogs Delicious poultry flavour dogs love Special kibble texture helps support dental health Contains prebiotics and fibre for healthy digestion Enriched with Vitamin E to support natural defences Added B vitamins and zinc for healthy skin and coat Made with natural ingredients and superfoods No added artificial colours or flavours Ingredients Cereals, meat and animal derivatives (including poultry 4%), oils and fats, derivatives of vegetable origin (including dried beet pulp 3%), minerals (including sodium tripolyphosphate 0.4%), vegetables (including dried peas and carrots mix 0.7%), yeast (including brewer’s yeast 0.4%). Analytical Constituents Protein: 20% Fat Content: 9% Crude Fibre: 2.3% Inorganic Matter: 7% Nutritional Additives per kg Vitamin B₂: 15.1 mg Vitamin D₃: 1406 IU Vitamin E: 100 mg Biotin: 0.21 mg Copper: 6.6 mg Iodine: 1.7 mg Manganese: 20.3 mg Selenium: 0.33 mg Zinc: 57.4 mg Feeding Guide Dog Weight Daily Feeding Amount 1 kg 25 – 30 g 3 kg 60 – 65 g 5 kg 90 – 100 g 7 kg 115 – 125 g 10 kg 150 – 165 g Fresh drinking water should always be available. Store in a cool, dry place and introduce food gradually when changing diets. &nbsp;",
+  "images": [
     {
-      "id": 2456,
-      "name": "Pedigree",
-      "slug": "pedigree"
+      "id": 89866,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Pedigree-Dog-Dry-Food-–-Poultry-Vegetables-3kg.png",
+      "alt": "Pedigree Dog Dry Food – Poultry & Vegetables 3kg",
+      "name": "Pedigree Dog Dry Food – Poultry &#038; Vegetables 3kg"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 2,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=89865",
+  "addToCartUrl": "https://petstore.co.ke/product/pedigree-dog-dry-food-poultry-vegetables-3kg-2/?add-to-cart=89865",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.979Z",
-  "dateModified": "2026-06-23T09:15:51.979Z"
+  "dateCreated": "2026-05-21T09:19:56",
+  "dateModified": "2026-06-17T05:01:34",
+  "brand": "Pedigree",
+  "weight_kg": 3,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/Pedigree-Dog-Dry-Food-–-Poultry-Vegetables-3kg.png"
 }

@@ -4,9 +4,9 @@
   "slug": "proline-canned-cat-food-ocean-fish-in-pate-400gr",
   "sku": "PCW012",
   "onSale": true,
-  "price": 2.52,
-  "regularPrice": 3.15,
-  "salePrice": 2.52,
+  "price": 252,
+  "regularPrice": 315,
+  "salePrice": 252,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/12/FISH-PROLINE-1.png",
@@ -32,19 +32,11 @@
       "slug": "wet-cat-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/proline-canned-cat-food-ocean-fish-in-pate-400gr/",
-  "shortDescription": "Proline Canned Cat Food Ocean Fish in Pate 400g offers high-quality fish protein, taurine, vitamins, and minerals to support healthy skin, vision, immunity, and hydration. A complete, delicious wet food for adult cats.",
-  "description": "Treat your adult cat to a nourishing and flavourful meal with Proline Canned Cat Food Ocean Fish in Pate 400g —a complete and balanced wet food crafted to support everyday health and vitality. This ocean-fish recipe delivers high-quality protein that helps maintain lean muscle, while essential fatty acids promote a shiny coat and healthy skin. The smooth pate texture makes it easy to chew and digest, making it perfect even for picky eaters or cats with sensitive mouths. With its naturally hydrating formula, this wet food helps support kidney function and overall hydration—an important benefit for cats who may not drink enough water. Enriched with taurine, vitamins A, D3, E, C, and B-complex , Proline Ocean Fish supports sharp vision, strong immunity, and sustained energy levels. Added minerals such as calcium, phosphorus, zinc, iron, and selenium further contribute to your cat’s overall health, helping maintain strong bones, efficient metabolism, and day-to-day vitality. Whether served alone or mixed with dry kibble, this ocean-fish pate provides complete daily nutrition in a flavour cats love. Key Benefits High-quality fish protein supports lean muscle and overall strength. Essential fatty acids help maintain a shiny, healthy coat and soft skin. Taurine &amp; Vitamin A promote sharp vision and heart health. Immune-boosting vitamins &amp; minerals support daily wellness and vitality. Smooth pate texture is easy to digest and highly palatable. Moisture-rich formulation supports hydration and urinary health. Ingredients &amp; Nutritional Information Typical components include: processed animal protein, wheat, corn, animal fat, flaxseed, brewer’s yeast, taurine, and ocean fish flavour. Approximate nutritional profile: Crude Protein: 31% Fat: 20% Crude Fiber: 3% Ash: 8% Taurine: 1000 mg/kg Fortified with essential vitamins and minerals including iron, copper, iodine, manganese, zinc, and selenium. Feeding Guidelines Suitable as a complete meal for adult cats. Feed approximately 1 can per 1.7–1.8 kg of body weight daily. Adjust portions based on age, activity level, and special needs (e.g., pregnancy or lactation). Fresh drinking water should be available at all times. Storage Instructions Store unopened cans in a cool, dry place . Once opened, refrigerate and use within 1–2 days . Serve at room temperature for best flavour and texture. &nbsp; &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 63409,
-      "alt": "Proline Canned Cat Food Ocean Fish In Pate 400g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/12/FISH-PROLINE-1.png",
-      "name": "FISH PROLINE (1)"
+      "id": 2461,
+      "name": "Proline",
+      "slug": "proline"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/proline-canned-cat-food-ocean-fish-in-pate-400gr/",
+  "shortDescription": "Proline Canned Cat Food Ocean Fish in Pate 400g offers high-quality fish protein, taurine, vitamins, and minerals to support healthy skin, vision, immunity, and hydration. A complete, delicious wet food for adult cats.",
+  "description": "Treat your adult cat to a nourishing and flavourful meal with Proline Canned Cat Food Ocean Fish in Pate 400g —a complete and balanced wet food crafted to support everyday health and vitality. This ocean-fish recipe delivers high-quality protein that helps maintain lean muscle, while essential fatty acids promote a shiny coat and healthy skin. The smooth pate texture makes it easy to chew and digest, making it perfect even for picky eaters or cats with sensitive mouths. With its naturally hydrating formula, this wet food helps support kidney function and overall hydration—an important benefit for cats who may not drink enough water. Enriched with taurine, vitamins A, D3, E, C, and B-complex , Proline Ocean Fish supports sharp vision, strong immunity, and sustained energy levels. Added minerals such as calcium, phosphorus, zinc, iron, and selenium further contribute to your cat’s overall health, helping maintain strong bones, efficient metabolism, and day-to-day vitality. Whether served alone or mixed with dry kibble, this ocean-fish pate provides complete daily nutrition in a flavour cats love. Key Benefits High-quality fish protein supports lean muscle and overall strength. Essential fatty acids help maintain a shiny, healthy coat and soft skin. Taurine & Vitamin A promote sharp vision and heart health. Immune-boosting vitamins & minerals support daily wellness and vitality. Smooth pate texture is easy to digest and highly palatable. Moisture-rich formulation supports hydration and urinary health. Ingredients & Nutritional Information Typical components include: processed animal protein, wheat, corn, animal fat, flaxseed, brewer’s yeast, taurine, and ocean fish flavour. Approximate nutritional profile: Crude Protein: 31% Fat: 20% Crude Fiber: 3% Ash: 8% Taurine: 1000 mg/kg Fortified with essential vitamins and minerals including iron, copper, iodine, manganese, zinc, and selenium. Feeding Guidelines Suitable as a complete meal for adult cats. Feed approximately 1 can per 1.7–1.8 kg of body weight daily. Adjust portions based on age, activity level, and special needs (e.g., pregnancy or lactation). Fresh drinking water should be available at all times. Storage Instructions Store unopened cans in a cool, dry place . Once opened, refrigerate and use within 1–2 days . Serve at room temperature for best flavour and texture. &nbsp; &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2461,
-      "name": "Proline",
-      "slug": "proline"
+      "id": 63409,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/12/FISH-PROLINE-1.png",
+      "alt": "Proline Canned Cat Food Ocean Fish In Pate 400g",
+      "name": "FISH PROLINE (1)"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=63404",
+  "addToCartUrl": "https://petstore.co.ke/product/proline-canned-cat-food-ocean-fish-in-pate-400gr/?add-to-cart=63404",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.799Z",
-  "dateModified": "2026-06-23T09:15:51.799Z"
+  "dateCreated": "2025-12-04T12:54:58",
+  "dateModified": "2026-06-24T16:12:22",
+  "brand": "Proline",
+  "weight_kg": 0.415,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/12/FISH-PROLINE-1.png"
 }

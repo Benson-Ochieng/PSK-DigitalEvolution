@@ -1,5 +1,4 @@
 import { query } from "../db.server";
-import { mockProducts, mockStorePrices } from "../db.mock";
 
 export async function loader({ request }: { request: Request }) {
   const url = new URL(request.url);
@@ -22,28 +21,8 @@ export async function loader({ request }: { request: Request }) {
     `, [`%${trimmed}%`]);
     dbProducts = res.rows;
   } catch (err) {
-    // In-memory matching from mockProducts if Postgres connection fails
-    dbProducts = mockProducts
-      .filter(p => 
-        (p.name?.toLowerCase().includes(trimmed)) ||
-        (p.brand?.toLowerCase().includes(trimmed)) ||
-        (p.animal_type?.toLowerCase().includes(trimmed)) ||
-        (p.food_type?.toLowerCase().includes(trimmed))
-      )
-      .map(p => {
-        const priceObj = mockStorePrices.find(sp => sp.product_id === p.id && sp.store_name === 'PetStore Kenya');
-        return {
-          id: p.id,
-          name: p.name,
-          brand: p.brand,
-          weight_kg: p.weight_kg,
-          animal_type: p.animal_type,
-          food_type: p.food_type,
-          image_url: p.image_url,
-          description: p.description,
-          our_price: priceObj ? priceObj.price : null
-        };
-      });
+    console.error("Search query error:", err);
+    dbProducts = [];
   }
 
   const results = dbProducts.map(p => ({

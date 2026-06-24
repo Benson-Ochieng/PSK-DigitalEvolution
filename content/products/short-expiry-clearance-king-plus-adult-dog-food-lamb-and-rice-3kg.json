@@ -1,0 +1,98 @@
+{
+  "id": 28560,
+  "name": "Short Expiry - Clearance: King Plus Adult Dog Food Lamb And Rice 3kg",
+  "slug": "short-expiry-clearance-king-plus-adult-dog-food-lamb-and-rice-3kg",
+  "sku": "KDD004@SE",
+  "onSale": true,
+  "price": 960,
+  "regularPrice": 1920,
+  "salePrice": 960,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/09/King-Plus-Dog-Food-Lamb-and-rice-3kg-min.png",
+  "categories": [
+    {
+      "id": 1304,
+      "name": "Clearance",
+      "slug": "clearance"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 178,
+      "name": "King",
+      "slug": "king"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2446,
+      "name": "King",
+      "slug": "king"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1303,
+      "name": "Clearance",
+      "slug": "clearance"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 637,
+      "name": "kibble",
+      "slug": "kibble"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/short-expiry-clearance-king-plus-adult-dog-food-lamb-and-rice-3kg/",
+  "shortDescription": "Fully balanced all-natural dog food with lamb protein and brewer's yeast for immune support. Carefully formulated by dog nutritionists to meet the nutritional requirements of all adult large breed dogs.",
+  "description": "King Plus Adult Dog Food -Lamb & Rice , fully balanced all-natural dog food with lamb protein and brewer's yeast for immune support. Carefully formulated by dog nutritionists to meet the nutritional requirements of all adult large breed dogs. NUTRIENT COMPONENTS Protein ................. 21% Fat ..................... 9% Crude Cellulose (Fiber) ................ 4% INGREDIENTS: Wheat, Corn, Processed Animal Protein, Animal Fat, Corn Gluten, Liver Aroma, Rice, Salt, Dried Brewer's Yeast. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
+  "images": [
+    {
+      "id": 15359,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/09/King-Plus-Dog-Food-Lamb-and-rice-3kg-min.png",
+      "alt": "King Plus Adult Dog Food – Lamb and Rice 3kg",
+      "name": "King Plus Dog Food Lamb and rice 3kg-min"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-king-plus-adult-dog-food-lamb-and-rice-3kg/?add-to-cart=28560",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-05-25T13:19:41",
+  "dateModified": "2026-06-17T04:28:48",
+  "brand": "King",
+  "weight_kg": 3,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/09/King-Plus-Dog-Food-Lamb-and-rice-3kg-min.png"
+}

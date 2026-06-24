@@ -1,0 +1,77 @@
+{
+  "id": 55895,
+  "name": "Snappy Tom Tuna Jelly 85g",
+  "slug": "snappy-tom-tuna-jelly-85g",
+  "sku": "STCW002",
+  "onSale": false,
+  "price": 169,
+  "regularPrice": 169,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/06/SNAPPY-TOM-WITH-TUNA-IN-JELLY.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/snappy-tom-tuna-jelly-85g/",
+  "shortDescription": "The amount fed should be adjusted accordingly to your cat activity level. Feed your cat by divided all daily meals into 2 or more servings and ensure fresh clean water is available at all times.",
+  "description": "The amount fed can be adjusted accordingly to your cat activity level. Feed your cat by divided all daily meals into 2 or more servings and ensure fresh clean water is available at all times. Feeding Guide Cat’s Weight Feeding Amount (g/day) 0.5kg – 1.0kg 100g – 170g 1.0kg – 3.0kg 170g – 400g 3.0kg – 4.0kg 400g – 490g > 4.0kg >490g Ingredient List Tuna Gelling Agents Vitamins & Minerals Taurine Permitted Food Colours Guaranteed Analysis Crude Protein (Min) 8% Crude Fat (Min) 1.5% Crude Fibre (Max) 1% Moisture (Max) 87%",
+  "images": [
+    {
+      "id": 55897,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/06/SNAPPY-TOM-WITH-TUNA-IN-JELLY.png",
+      "alt": "Snappy Tom Tuna Jelly 85g",
+      "name": "SNAPPY TOM WITH TUNA IN JELLY"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/snappy-tom-tuna-jelly-85g/?add-to-cart=55895",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2025-06-17T12:10:06",
+  "dateModified": "2026-06-17T04:18:45",
+  "brand": null,
+  "weight_kg": 0.1,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/06/SNAPPY-TOM-WITH-TUNA-IN-JELLY.png"
+}

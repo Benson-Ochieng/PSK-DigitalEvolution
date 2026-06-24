@@ -4,8 +4,8 @@
   "slug": "meaty-sticks-adult-cats-turkey-lamb",
   "sku": "RCT026",
   "onSale": false,
-  "price": 1.95,
-  "regularPrice": 1.95,
+  "price": 195,
+  "regularPrice": 195,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "reflex"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/meaty-sticks-adult-cats-turkey-lamb/",
-  "shortDescription": "Grain-free Meaty Sticks for adult cats with turkey &amp; lamb. 95% meat content, high protein, soft and delicious reward sticks for everyday treating.",
-  "description": "Delight your cat with a wholesome, protein-rich reward made to satisfy natural carnivorous instincts. Meaty Sticks for Adult Cats with Turkey &amp; Lamb are crafted with an exceptional 95% meat and animal derivatives , delivering outstanding taste and nutrition in every bite. This grain-free recipe combines tender turkey (26%) and flavorful lamb (14%) , creating an irresistible snack that’s both delicious and easy to digest. With a high 41% crude protein content , these sticks help support strong muscles and overall vitality, while the soft texture makes them easy to chew and portion. Perfect as an occasional treat or reward, Meaty Sticks are a nutritious way to spoil your cat while responsibly complementing their daily diet. Key Benefits 95% high-quality meat content With turkey &amp; lamb for rich, natural flavor Grain-free formula for sensitive digestion High protein to support muscle maintenance Soft, easy-to-feed reward sticks Ideal as a treat or snack between meals Feed as a treat. Always adjust your cat’s total diet accordingly. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 68700,
-      "alt": "Reflex Cat Meaty Stick Treat With Turkey And Lamb 15g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/reflex-Meaty-sticks-turkey-and-lamb-.png",
-      "name": "reflex Meaty sticks turkey and lamb"
+      "id": 2462,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "treats"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/meaty-sticks-adult-cats-turkey-lamb/",
+  "shortDescription": "Grain-free Meaty Sticks for adult cats with turkey & lamb. 95% meat content, high protein, soft and delicious reward sticks for everyday treating.",
+  "description": "Delight your cat with a wholesome, protein-rich reward made to satisfy natural carnivorous instincts. Meaty Sticks for Adult Cats with Turkey & Lamb are crafted with an exceptional 95% meat and animal derivatives , delivering outstanding taste and nutrition in every bite. This grain-free recipe combines tender turkey (26%) and flavorful lamb (14%) , creating an irresistible snack that’s both delicious and easy to digest. With a high 41% crude protein content , these sticks help support strong muscles and overall vitality, while the soft texture makes them easy to chew and portion. Perfect as an occasional treat or reward, Meaty Sticks are a nutritious way to spoil your cat while responsibly complementing their daily diet. Key Benefits 95% high-quality meat content With turkey & lamb for rich, natural flavor Grain-free formula for sensitive digestion High protein to support muscle maintenance Soft, easy-to-feed reward sticks Ideal as a treat or snack between meals Feed as a treat. Always adjust your cat’s total diet accordingly. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
+      "id": 68700,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/reflex-Meaty-sticks-turkey-and-lamb-.png",
+      "alt": "Reflex Cat Meaty Stick Treat With Turkey And Lamb 15g",
+      "name": "reflex Meaty sticks turkey and lamb"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": null,
+  "lowStockRemaining": 5,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=68697",
+  "addToCartUrl": "https://petstore.co.ke/product/meaty-sticks-adult-cats-turkey-lamb/?add-to-cart=68697",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.862Z",
-  "dateModified": "2026-06-23T09:15:51.862Z"
+  "dateCreated": "2026-01-30T11:58:11",
+  "dateModified": "2026-06-22T12:12:13",
+  "brand": "Reflex",
+  "weight_kg": 0.15,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/reflex-Meaty-sticks-turkey-and-lamb-.png"
 }

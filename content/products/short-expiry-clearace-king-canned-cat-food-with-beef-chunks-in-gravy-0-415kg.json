@@ -1,0 +1,108 @@
+{
+  "id": 48492,
+  "name": "SHORT EXPIRY-CLEARACE: King Canned Cat Food With Beef Chunks InGravy 0.415kg",
+  "slug": "short-expiry-clearace-king-canned-cat-food-with-beef-chunks-in-gravy-0-415kg",
+  "sku": "KCW001@SE",
+  "onSale": true,
+  "price": 126,
+  "regularPrice": 252,
+  "salePrice": 126,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/02/King-canned-cat-beef.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 178,
+      "name": "King",
+      "slug": "king"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2446,
+      "name": "King",
+      "slug": "king"
+    }
+  ],
+  "tags": [
+    {
+      "id": 622,
+      "name": "canned food",
+      "slug": "canned-food"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 1303,
+      "name": "Clearance",
+      "slug": "clearance"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=48492",
+  "shortDescription": "King Canned Cat Food (Beef) is a Fully balanced Cat Food, carefully formulated by pet nutritionists to meet the nutritional requirements of all adult cats.",
+  "description": "King Canned Cat Food (Beef) is a Fully balanced Cat Food, carefully formulated by pet nutritionists to meet the nutritional requirements of all adult cats. NUTRIENT COMPONENTS Protein........................6.5% Fat........................... 3.5% Crude Ash...................... 2% Crude Cellulose (Fiber)........ 0.3% Moisture........................ 82% INGREDIENTS: Meat and animal derivatives (4% beef), cereals, minerals, vegetable by-products, sugar. MINERALS: Zinc, Manganese, Copper. VITAMINS: Vit. D3, Vit. E. Feeding Recommendation: The Individual necessity can vary depending on activity, breed and age of your pet. Fresh drinking water should always be available. Serve at room temperature. Store in dry and cool place, keep in refrigerator after opening for max 2-3days.",
+  "images": [
+    {
+      "id": 34919,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/02/King-canned-cat-beef.png",
+      "alt": "SHORT EXPIRY-CLEARACE: King Canned Cat Food With Beef Chunks InGravy 0.415kg",
+      "name": "King canned cat beef"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearace-king-canned-cat-food-with-beef-chunks-in-gravy-0-415kg/?add-to-cart=48492",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2024-07-05T15:28:29",
+  "dateModified": "2026-06-17T04:33:57",
+  "brand": "King",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/02/King-canned-cat-beef.png"
+}

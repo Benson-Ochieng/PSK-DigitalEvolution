@@ -1,0 +1,83 @@
+{
+  "id": 23771,
+  "name": "Insect Dog Sensitive Adult 10kg",
+  "slug": "insect-dog-sensitive-adult-10kg",
+  "sku": "JIDSA",
+  "onSale": false,
+  "price": 6656,
+  "regularPrice": 6656,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JIDSA.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=23771",
+  "shortDescription": "Easy to digest, gluten-free complete food with rice for adult dogs with allergies with sustainable insect protein as a unique source of animal protein, vitamins E & C, inulin and yeast effectively support your dog's skin, coat, gut flora and immune system.",
+  "description": "Composition: rice %8 .52; insects %15,0; partially hydrolysed yeast; sunflower oil; beet fibre; potato protein; mineral substances; psyllium; ground chicory root (natural source of inulin). Product Information: Thanks to its finely selected raw ingredients like rice and insects, as well as its gentle processing, our InsectDog Sensitive is perfect for sensitive dogs. The unique combination of vital nutrients like vitamin E, vitamin C, inulin and yeast provide optimal support for skin, coat, intestinal flora and the immune system. InsectDog Sensitive is not only suitable for sensitive pooches, but also for all four-legged pioneers: insects are THE sustainable protein source of the future! Complete diet feed for adult dogs %100 insect protein as the sole source of animal protein.",
+  "images": [
+    {
+      "id": 23795,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JIDSA.jpg",
+      "alt": "Insect Dog Sensitive Adult 10kg",
+      "name": "JIDSA.jpg"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/insect-dog-sensitive-adult-10kg/?add-to-cart=23771",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2021-10-29T07:55:44",
+  "dateModified": "2026-06-17T04:33:51",
+  "brand": "Josera",
+  "weight_kg": 10,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JIDSA.jpg"
+}

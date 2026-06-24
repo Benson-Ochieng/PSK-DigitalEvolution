@@ -28,7 +28,7 @@ try {
 }
 
 const supabaseUrl = process.env.SUPABASE_URL;
-const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_ANON_KEY;
+const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_SECRET_KEY || process.env.SUPABASE_ANON_KEY || process.env.SUPABASE_PUBLISHABLE_KEY;
 
 export const supabase = supabaseUrl && supabaseKey ? createClient(supabaseUrl, supabaseKey) : null;
 
@@ -107,7 +107,7 @@ export async function syncLocalToSupabase() {
     if (fs.existsSync(ordersFile)) {
       const orders = JSON.parse(fs.readFileSync(ordersFile, "utf-8"));
       if (Array.isArray(orders) && orders.length > 0) {
-        const { error } = await supabase.from("orders").upsert(orders);
+        const { error } = await supabase.from("dashboard_orders").upsert(orders);
         if (error) console.error("Error syncing orders to Supabase:", error);
         else console.log(`Synced ${orders.length} orders to Supabase.`);
       }
@@ -244,9 +244,10 @@ export async function pullFromSupabase() {
     }
 
     // 3. Pull Orders
-    const { data: orders, error: ordersErr } = await supabase.from("orders").select();
+    const { data: orders, error: ordersErr } = await supabase.from("dashboard_orders").select();
     if (ordersErr) {
       console.error("Error pulling orders from Supabase:", ordersErr);
+      // Suppress/bypass fatal errors during boot sync if table has not populated yet
     } else if (orders && orders.length > 0) {
       fs.writeFileSync(path.join(CONTENT_DIR, "orders.json"), JSON.stringify(orders, null, 2), "utf-8");
       console.log(`Pulled ${orders.length} orders from Supabase.`);

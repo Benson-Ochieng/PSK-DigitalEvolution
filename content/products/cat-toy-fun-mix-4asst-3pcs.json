@@ -4,8 +4,8 @@
   "slug": "cat-toy-fun-mix-4asst-3pcs",
   "sku": "PA0141",
   "onSale": false,
-  "price": 4.5,
-  "regularPrice": 4.5,
+  "price": 450,
+  "regularPrice": 450,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -27,21 +27,7 @@
       "slug": "toys"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/cat-toy-fun-mix-4asst-3pcs/",
-  "shortDescription": "This cat ball is made of colorful hard plastic, with an enticing bell inside. It&#8217;s a fun toy for batting around, chasing, and hunting and it will encourage and stimulate your cat&#8217;s natural playful instinct.",
-  "description": "The patterns of behaviors are similar and the things that entice cats to hunt also get them excited about toys. Keep your cat entertained for hours with this cat toys. Balls with bells Barrels with bells Available in various styles/colours, each sold separately. We cannot guarantee which style/colour you will receive when you purchase online This cat ball is made of colorful hard plastic, with an enticing bell inside. It&#8217;s a fun toy for batting around, chasing, and hunting and it will encourage and stimulate your cat&#8217;s natural playful instinct.",
-  "images": [
-    {
-      "id": 46776,
-      "alt": "Cat Toy Fun Mix 4Asst 3pcs (Pa0141)",
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/05/CAT-TOY-FUN-MIX-4ASST-3PK-e1715076300315.png",
-      "name": "CAT TOY FUN MIX 4ASST 3PK"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 1205,
@@ -64,14 +50,33 @@
       "slug": "toys"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/cat-toy-fun-mix-4asst-3pcs/",
+  "shortDescription": "This cat ball is made of colorful hard plastic, with an enticing bell inside. It's a fun toy for batting around, chasing, and hunting and it will encourage and stimulate your cat's natural playful instinct.",
+  "description": "The patterns of behaviors are similar and the things that entice cats to hunt also get them excited about toys. Keep your cat entertained for hours with this cat toys. Balls with bells Barrels with bells Available in various styles/colours, each sold separately. We cannot guarantee which style/colour you will receive when you purchase online This cat ball is made of colorful hard plastic, with an enticing bell inside. It's a fun toy for batting around, chasing, and hunting and it will encourage and stimulate your cat's natural playful instinct.",
+  "images": [
+    {
+      "id": 46776,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/05/CAT-TOY-FUN-MIX-4ASST-3PK-e1715076300315.png",
+      "alt": "Cat Toy Fun Mix 4Asst 3pcs (Pa0141)",
+      "name": "CAT TOY FUN MIX 4ASST 3PK"
+    }
+  ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=46775",
+  "addToCartUrl": "https://petstore.co.ke/product/cat-toy-fun-mix-4asst-3pcs/?add-to-cart=46775",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.403Z",
-  "dateModified": "2026-06-23T09:15:51.403Z"
+  "dateCreated": "2024-05-07T12:58:27",
+  "dateModified": "2026-06-24T10:12:05",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/05/CAT-TOY-FUN-MIX-4ASST-3PK-e1715076300315.png"
 }

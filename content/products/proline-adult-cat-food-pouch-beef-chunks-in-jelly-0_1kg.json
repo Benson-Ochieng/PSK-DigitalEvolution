@@ -1,11 +1,11 @@
 {
   "id": 3287,
-  "name": "Proline Adult Cat Food Pouch – Beef Chunks in Jelly 85g",
+  "name": "Proline Adult Cat Food Pouch - Beef Chunks in Jelly 85g",
   "slug": "proline-adult-cat-food-pouch-beef-chunks-in-jelly-0_1kg",
   "sku": "PCW006",
   "onSale": false,
-  "price": 1.3,
-  "regularPrice": 1.3,
+  "price": 130,
+  "regularPrice": 130,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "wet-cat-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/proline-adult-cat-food-pouch-beef-chunks-in-jelly-0_1kg/",
-  "shortDescription": "Proline Adult Cat Food Pouch Beef in Jelly 85g is a complete and balanced wet food for adult cats. Made with quality beef to support muscle health, energy, and overall feline vitality.",
-  "description": "Give your cat a delicious and nutritionally balanced meal with Proline Adult Cat Food Pouch Beef Chunks in Jelly 85g , a premium wet food specially formulated to support the daily dietary needs of adult cats of all breeds. Made with high-quality beef as the primary ingredient, this flavorful recipe provides essential protein to help maintain strong muscles, sustained energy levels, and overall feline vitality. The tender beef chunks in savory jelly enhance taste and texture, making the meal highly palatable even for picky eaters. With a carefully balanced blend of vitamins and minerals, Proline helps support healthy skin, a shiny coat, and optimal overall wellbeing. Conveniently packed in an 85g single-serve pouch , this wet cat food ensures freshness with every meal while making feeding easy and mess-free. It can be served as a complete meal or combined with dry cat food for added flavor and moisture. Key Benefits . High-Quality Beef Protein – Supports muscle maintenance and healthy body condition. . Balanced Nutrition – Enriched with essential vitamins and minerals for overall health. . Highly Palatable – Tender beef chunks in jelly appeal even to picky cats. . Supports Skin &amp; Coat Health – Nutrient blend helps maintain a healthy coat. . Convenient Single-Serve Pouch – 85g portion ensures freshness and easy feeding. . Complete Adult Cat Nutrition – Suitable for adult cats of all breeds. Feeding Guide Serve according to your cat’s weight and activity level. Always ensure fresh drinking water is available. Storage Instructions Store in a cool, dry place. Refrigerate unused portion after opening and consume within 24 hours. Serve at room temperature for best taste. &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 66531,
-      "alt": "Proline Adult Cat Food Pouch – Beef Chunks in Jelly 85g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/proline-with-BEEF.png",
-      "name": "proline with BEEF"
+      "id": 2461,
+      "name": "Proline",
+      "slug": "proline"
     }
   ],
   "tags": [
@@ -69,20 +61,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/proline-adult-cat-food-pouch-beef-chunks-in-jelly-0_1kg/",
+  "shortDescription": "Proline Adult Cat Food Pouch Beef in Jelly 85g is a complete and balanced wet food for adult cats. Made with quality beef to support muscle health, energy, and overall feline vitality.",
+  "description": "Give your cat a delicious and nutritionally balanced meal with Proline Adult Cat Food Pouch Beef Chunks in Jelly 85g , a premium wet food specially formulated to support the daily dietary needs of adult cats of all breeds. Made with high-quality beef as the primary ingredient, this flavorful recipe provides essential protein to help maintain strong muscles, sustained energy levels, and overall feline vitality. The tender beef chunks in savory jelly enhance taste and texture, making the meal highly palatable even for picky eaters. With a carefully balanced blend of vitamins and minerals, Proline helps support healthy skin, a shiny coat, and optimal overall wellbeing. Conveniently packed in an 85g single-serve pouch , this wet cat food ensures freshness with every meal while making feeding easy and mess-free. It can be served as a complete meal or combined with dry cat food for added flavor and moisture. Key Benefits . High-Quality Beef Protein – Supports muscle maintenance and healthy body condition. . Balanced Nutrition – Enriched with essential vitamins and minerals for overall health. . Highly Palatable – Tender beef chunks in jelly appeal even to picky cats. . Supports Skin & Coat Health – Nutrient blend helps maintain a healthy coat. . Convenient Single-Serve Pouch – 85g portion ensures freshness and easy feeding. . Complete Adult Cat Nutrition – Suitable for adult cats of all breeds. Feeding Guide Serve according to your cat’s weight and activity level. Always ensure fresh drinking water is available. Storage Instructions Store in a cool, dry place. Refrigerate unused portion after opening and consume within 24 hours. Serve at room temperature for best taste. &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2461,
-      "name": "Proline",
-      "slug": "proline"
+      "id": 66531,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/proline-with-BEEF.png",
+      "alt": "Proline Adult Cat Food Pouch – Beef Chunks in Jelly 85g",
+      "name": "proline with BEEF"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=1&#038;add-to-cart=3287",
+  "addToCartUrl": "https://petstore.co.ke/product/proline-adult-cat-food-pouch-beef-chunks-in-jelly-0_1kg/?add-to-cart=3287",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.078Z",
-  "dateModified": "2026-06-23T09:15:51.078Z"
+  "dateCreated": "2019-09-02T18:35:16",
+  "dateModified": "2026-06-23T09:12:12",
+  "brand": "Proline",
+  "weight_kg": 0.1,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/proline-with-BEEF.png"
 }

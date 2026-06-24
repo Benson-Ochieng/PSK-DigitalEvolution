@@ -4,8 +4,8 @@
   "slug": "lara-cat-dry-food-fish-950g",
   "sku": "LLDC008",
   "onSale": false,
-  "price": 14.99,
-  "regularPrice": 14.99,
+  "price": 1499,
+  "regularPrice": 1499,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "lara"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/lara-cat-dry-food-fish-950g/",
-  "shortDescription": "Lara Cat Dry Food – Fish 950g is a complete and balanced meal specially formulated for adult cats aged 1 year and above. Made in Belgium to high European quality standards, this delicious fish-flavoured recipe provides all the essential nutrients your cat needs to maintain a healthy, active, and happy life.",
-  "description": "Featuring crispy, tasty kibbles that even picky eaters will love, this premium dry cat food is rich in high-quality protein to help maintain strong muscles and support overall body condition. Optimum fat levels provide the energy adult cats need for daily activities, while essential fatty acids, including Omega 3 and Omega 6, help promote healthy skin and a soft, shiny coat. Enriched with vitamins and minerals, Lara Cat Dry Food supports normal body functions, strengthens bones and teeth, and contributes to a strong immune system. Added probiotics and prebiotics help support digestive health and immunity, while taurine plays a vital role in maintaining healthy vision, heart function, and cognitive health. Key Benefits Complete and balanced dry food for adult cats Delicious fish flavour for excellent palatability Rich in protein to help maintain lean muscle mass Omega 3 and Omega 6 support healthy skin and a shiny coat Contains probiotics and prebiotics for digestive health Taurine supports healthy vision and heart function Enriched with essential vitamins and minerals Supports a healthy immune system Helps maintain strong bones and teeth Made in Belgium to premium European quality standards Suitable For Adult cats aged 1 year and above Key Nutritional Benefits High-quality protein for muscle maintenance Balanced fat content for daily energy needs Essential fatty acids for skin and coat health Vitamins and minerals for overall wellbeing Taurine for eye, heart, and brain support Probiotics and prebiotics for digestive and immune health Feeding Recommendation Feed according to your cat’s weight, age, and activity level. Always provide fresh, clean drinking water and adjust portions as needed to maintain an ideal body condition. Storage Instructions Store in a cool, dry place away from direct sunlight. Reseal the pack after opening to maintain freshness and flavour. &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 90357,
-      "alt": "Lara Cat Dry Food – Fish 950g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/Lara-Adult-Fish-Cat-Food-950g.png",
-      "name": "Lara Adult Fish Cat Food 950g"
+      "id": 2447,
+      "name": "Lara",
+      "slug": "lara"
     }
   ],
   "tags": [
@@ -59,20 +51,33 @@
       "slug": "new-arrivals"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/lara-cat-dry-food-fish-950g/",
+  "shortDescription": "Lara Cat Dry Food – Fish 950g is a complete and balanced meal specially formulated for adult cats aged 1 year and above. Made in Belgium to high European quality standards, this delicious fish-flavoured recipe provides all the essential nutrients your cat needs to maintain a healthy, active, and happy life.",
+  "description": "Featuring crispy, tasty kibbles that even picky eaters will love, this premium dry cat food is rich in high-quality protein to help maintain strong muscles and support overall body condition. Optimum fat levels provide the energy adult cats need for daily activities, while essential fatty acids, including Omega 3 and Omega 6, help promote healthy skin and a soft, shiny coat. Enriched with vitamins and minerals, Lara Cat Dry Food supports normal body functions, strengthens bones and teeth, and contributes to a strong immune system. Added probiotics and prebiotics help support digestive health and immunity, while taurine plays a vital role in maintaining healthy vision, heart function, and cognitive health. Key Benefits Complete and balanced dry food for adult cats Delicious fish flavour for excellent palatability Rich in protein to help maintain lean muscle mass Omega 3 and Omega 6 support healthy skin and a shiny coat Contains probiotics and prebiotics for digestive health Taurine supports healthy vision and heart function Enriched with essential vitamins and minerals Supports a healthy immune system Helps maintain strong bones and teeth Made in Belgium to premium European quality standards Suitable For Adult cats aged 1 year and above Key Nutritional Benefits High-quality protein for muscle maintenance Balanced fat content for daily energy needs Essential fatty acids for skin and coat health Vitamins and minerals for overall wellbeing Taurine for eye, heart, and brain support Probiotics and prebiotics for digestive and immune health Feeding Recommendation Feed according to your cat’s weight, age, and activity level. Always provide fresh, clean drinking water and adjust portions as needed to maintain an ideal body condition. Storage Instructions Store in a cool, dry place away from direct sunlight. Reseal the pack after opening to maintain freshness and flavour. &nbsp;",
+  "images": [
     {
-      "id": 2447,
-      "name": "Lara",
-      "slug": "lara"
+      "id": 90357,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/Lara-Adult-Fish-Cat-Food-950g.png",
+      "alt": "Lara Cat Dry Food – Fish 950g",
+      "name": "Lara Adult Fish Cat Food 950g"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 3,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=10&#038;add-to-cart=90355",
+  "addToCartUrl": "https://petstore.co.ke/product/lara-cat-dry-food-fish-950g/?add-to-cart=90355",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:52.056Z",
-  "dateModified": "2026-06-23T09:15:52.056Z"
+  "dateCreated": "2026-06-08T12:15:40",
+  "dateModified": "2026-06-17T05:01:40",
+  "brand": "Lara",
+  "weight_kg": 0.95,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/Lara-Adult-Fish-Cat-Food-950g.png"
 }

@@ -1,0 +1,78 @@
+{
+  "id": 32683,
+  "name": "SHORT EXPIRY - CLEARANCE: Reflex Plus Adult Dog Food Canned Beef Chunks in Gravy 400g",
+  "slug": "reflex-plus-adult-dog-food-canned-beef-chunks-in-gravy-0-4kg-2",
+  "sku": "RPDW001@SE",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/12/RPCDB-01.jpg",
+  "categories": [
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2319,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 622,
+      "name": "canned food",
+      "slug": "canned-food"
+    },
+    {
+      "id": 1303,
+      "name": "Clearance",
+      "slug": "clearance"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=32683",
+  "shortDescription": "(4 pieces minimum order) Fully-balanced, ?duck protein-containing all natural canned dog food carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult breeds.",
+  "description": "Reflex Plus Duck Adult Dog Canned Food , fully-balanced, duck protein-containing cat food carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult breeds. NUTRIENT COMPONENTS Crude Protein (%) -7.0 Crude Oils & Fats (%) - 4.0 Crude Fiber (%) -0.5 Moisture (%) -80 Crude Ash (%) - 2.5 Vitamin A (Min) -1600 IE/kg Vitamin D3 (Min) -240 IE/kg Iron -10 mg/kg Copper -1.9 mg/kg Iodine -0.4 mg/kg Manganese -1.6 mg/kg Zinc - 21.0 mg/kg Selenium -0.024 mg/kg INGREDIENTS: Meat and Animal Derivatives (Beef 4% min.), Cereals, Minerals, Colourants. MINERALS: Iron, Copper, Iodine, Manganese, Zinc, Selenium VITAMINS: Vit.A,Vit. D FEEDING RECOMMENDATION: See table below. Individual necessity depends on factors like age, breed and activity. Serve at room temperature. DOG SIZE (Cans per meal) Toy ( Small (5 -10 kg): 1 - 2 cans Medium (10 - 20 kg): 2 - 3 cans Large (20 - 35 kg): 3 - 5 cans",
+  "images": [
+    {
+      "id": 27545,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/12/RPCDB-01.jpg",
+      "alt": "SHORT EXPIRY - CLEARANCE: Reflex Plus Adult Dog Food Canned Beef Chunks in Gravy 400g",
+      "name": "RPCDB-01"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-adult-dog-food-canned-beef-chunks-in-gravy-0-4kg-2/?add-to-cart=32683",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-11-15T16:00:53",
+  "dateModified": "2026-05-06T17:08:24",
+  "brand": "Reflex",
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/12/RPCDB-01.jpg"
+}

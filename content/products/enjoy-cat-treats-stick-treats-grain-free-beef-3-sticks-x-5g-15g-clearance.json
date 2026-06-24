@@ -1,0 +1,82 @@
+{
+  "id": 11966,
+  "name": "SHORT EXPIRY - CLEARANCE: Enjoy Cat Treats - Stick Treats, gain Free Beef (3 Sticks x 5g) 15g",
+  "slug": "enjoy-cat-treats-stick-treats-grain-free-beef-3-sticks-x-5g-15g-clearance",
+  "sku": "ECT001@SE",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/11/Enjoy-Cat-Stick-Treat-Beef-15g-min.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2330,
+      "name": "Cat Treats",
+      "slug": "cat-treats"
+    },
+    {
+      "id": 1304,
+      "name": "Clearance",
+      "slug": "clearance"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=11966",
+  "shortDescription": "Enjoy Cat Stick Treats with Beef are? grain-free and made from delicious real meat . Pack of 3 sticks. High-protein and low-fat. Reward good behaviour with these fun and delicious treats made with the highest quality ingredients and bursting with flavour.",
+  "description": "Enjoy Cat Stick Treats with Beef are? grain-free and made from delicious real meat. These high-protein, low-fat stick treats promote healthy chewing. Reward good behaviour with these fun and delicious treats made with the highest quality ingredients and bursting with flavour. Pack of 3 sticks. INGREDIENTS: Meat and animal derivatives (6% beef meat), minerals. NUTRIENT COMPONENTS Crude Protein (%) - 33.5 Oil Content (%) - 20 Crude Ash (%) - 10 Crude Fiber (%) - 2 Moisture Content (%) 28 FEEDING RECOMMENDATIONS: Treats may be given as an additional snack. For an average cat (4kg) we recommend approximately 1 stick per day. This product does not replace cat's daily food requirement.",
+  "images": [
+    {
+      "id": 4008,
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/11/Enjoy-Cat-Stick-Treat-Beef-15g-min.png",
+      "alt": "Enjoy Cat Stick Treat Beef 15g min",
+      "name": "Enjoy Cat Stick Treat Beef 15g min"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": 10,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/enjoy-cat-treats-stick-treats-grain-free-beef-3-sticks-x-5g-15g-clearance/?add-to-cart=11966",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2020-02-27T15:45:45",
+  "dateModified": "2026-05-06T17:06:27",
+  "brand": null,
+  "weight_kg": 0.015,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/11/Enjoy-Cat-Stick-Treat-Beef-15g-min.png"
+}

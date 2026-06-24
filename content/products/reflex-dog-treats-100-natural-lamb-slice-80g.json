@@ -1,0 +1,93 @@
+{
+  "id": 3494,
+  "name": "Short Expiry Clearance ? Reflex Dog Treats - 100% Natural Lamb Slice 80g",
+  "slug": "reflex-dog-treats-100-natural-lamb-slice-80g",
+  "sku": "RDT014",
+  "onSale": true,
+  "price": 93,
+  "regularPrice": 467,
+  "salePrice": 93,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/09/Reflex-lamb-slice-80g.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2672,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1303,
+      "name": "Clearance",
+      "slug": "clearance"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=3494",
+  "shortDescription": "Reflex Dog Treats 100% Natural Lamb Slice are super-premium dog treats that are easily digested due to its high meat content. Includes fatty acids that support healthy skin and coat health. Very effective to training due to its high palatability.",
+  "description": "Reflex Dog Treats 100% Natural Lamb Slice are super-premium dog treats that are easily digested due to its high meat content. Includes fatty acids that support healthy skin and coat health. Very effective to training due to its high palatability. INGREDIENTS: Lamb, Vegetable Glycerin, Soy Protein, Starch, Salt. NUTRIENT COMPONENTS Crude Protein (%) - 40 Crude Fat (%) - 1 Crude Fiber (%) - 4 Moisture Content (%) 18 FEEDING RECOMMENDATIONS: Treats may be given as an additional snack. This product does not replace your dog's daily food.",
+  "images": [
+    {
+      "id": 42544,
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/09/Reflex-lamb-slice-80g.png",
+      "alt": "Short Expiry Clearance ? Reflex Dog Treats - 100% Natural Lamb Slice 80g",
+      "name": "Reflex lamb slice 80g"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": 10,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-dog-treats-100-natural-lamb-slice-80g/?add-to-cart=3494",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2019-09-26T19:26:01",
+  "dateModified": "2026-05-06T17:06:20",
+  "brand": "Reflex",
+  "weight_kg": 0.08,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/09/Reflex-lamb-slice-80g.png"
+}

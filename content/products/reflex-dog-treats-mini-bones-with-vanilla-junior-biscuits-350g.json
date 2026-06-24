@@ -1,0 +1,98 @@
+{
+  "id": 8763,
+  "name": "Reflex Dog Treats - Mini Bones with Vanilla Junior Biscuits 350g",
+  "slug": "reflex-dog-treats-mini-bones-with-vanilla-junior-biscuits-350g",
+  "sku": "RDT017",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2018/11/Reflex-junior-dog-treat-biscuit-vanilla-1080x1080-min.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2333,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2108,
+      "name": "Mini breeds",
+      "slug": "mini-breeds"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 2109,
+      "name": "Small breeds",
+      "slug": "small-breeds"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=8763",
+  "shortDescription": "Reflex Dog Treats – Mini Lasagna Sandwich with Cheese Biscuits are the perfect size dog biscuits for training and for rewarding good behaviour. Made with the highest quality ingredients and bursting with flavour.",
+  "description": "Reflex Dog Treats - Mini Bones with Vanilla Junior Biscuits are the perfect size dog biscuits for training and for rewarding good behaviour. Made with the highest quality ingredients and bursting with flavour. INGREDIENTS: Cereals, Glucose (18.8%), Vegetable Oils & Fats, Minerals, Meat & Animal By-Products. NUTRIENT COMPONENTS Crude Protein (%) - 7.7 Oil Content (%) - 7.8 Crude Ash (%) - 1.4 Crude Fiber (%) - 2.8 Sodium (%) - 0.3 FEEDING RECOMMENDATIONS: Treats may be given as an additional snack. This product does not replace full-dog food daily. Recommended quantity: max. 10 pieces per day. Individual daily requirement depends on other factors, e.g. age, breed and activity. Keep in a dry, cool place.",
+  "images": [
+    {
+      "id": 8754,
+      "src": "https://petstore.co.ke/wp-content/uploads/2018/11/Reflex-junior-dog-treat-biscuit-vanilla-1080x1080-min.png",
+      "alt": "Reflex junior dog treat biscuit vanilla 1080x1080 min",
+      "name": "Reflex junior dog treat biscuit vanilla 1080&#215;1080 min"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": 10,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-dog-treats-mini-bones-with-vanilla-junior-biscuits-350g/?add-to-cart=8763",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2020-01-11T16:51:03",
+  "dateModified": "2026-05-06T17:06:27",
+  "brand": "Reflex",
+  "weight_kg": 0.35,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2018/11/Reflex-junior-dog-treat-biscuit-vanilla-1080x1080-min.png"
+}

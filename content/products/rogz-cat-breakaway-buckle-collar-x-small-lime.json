@@ -1,11 +1,11 @@
 {
   "id": 24551,
-  "name": "Rogz Cat Breakaway Buckle Collar X-Small – Lime (CB240-L)",
+  "name": "Rogz Cat Breakaway Buckle Collar X-Small - Lime (CB240-L)",
   "slug": "rogz-cat-breakaway-buckle-collar-x-small-lime",
   "sku": "CB240-L",
   "onSale": false,
-  "price": 9.5,
-  "regularPrice": 9.5,
+  "price": 950,
+  "regularPrice": 950,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -37,21 +37,7 @@
       "slug": "rogz"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-cat-breakaway-buckle-collar-x-small-lime/",
-  "shortDescription": "Featuring the Safe lock Breakaway Clip , the collar is engineered to break free under excessive strain, helping prevent accidents. The adjustable breakaway load lets you customize the release pressure based on your kitten’s size and activity level. Adjustable | Reflective | Safe Breakaway Buckle",
-  "description": "Keep your curious cat safe and stylish with the Rogz Reflecto Cat Collar , specially designed for smaller cats and kittens. Fully adjustable for neck sizes from 16.5–23 cm , this extra-small collar is crafted with your pet’s safety and comfort in mind. Featuring the Safe lock Breakaway Clip , the collar is engineered to break free under excessive strain, helping prevent accidents. The adjustable breakaway load lets you customize the release pressure based on your kitten’s size and activity level. Made from snag-proof webbing , the collar boasts a soft yet durable texture, with a reflective polyurethane overlay for added visibility at night. The screen-printed reflective design ensures your kitten stays seen and safe even in low light. With no open ends or sharp edges , it’s gentle on sensitive kitten skin. A color-coded bell adds a cute touch and helps you keep track of your pet’s whereabouts but can be easily removed if your kitty prefers stealth mode. Key Features: Size: 8mm width, fits necks 16.5–23cm Safe lock Breakaway Buckle for enhanced safety Reflective design for night-time visibility Snag-proof, soft webbing for ultimate comfort Removable bell for quiet time Suitable for most kitten and small cat breeds Keep your kitten safe, visible, and comfortable with the Rogz Reflecto Cat Collar because even the smallest adventurers deserve the best. &nbsp;",
-  "images": [
-    {
-      "id": 24571,
-      "alt": "Rogz Cat Breakaway Buckle Collar X-Small – Lime (CB240-L)",
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/CB240-L-ReflectoCat-Lime-1.jpg",
-      "name": "CB240-L-ReflectoCat-Lime-1.jpg"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 1205,
@@ -74,14 +60,33 @@
       "slug": "kitten"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-cat-breakaway-buckle-collar-x-small-lime/",
+  "shortDescription": "Featuring the Safe lock Breakaway Clip , the collar is engineered to break free under excessive strain, helping prevent accidents. The adjustable breakaway load lets you customize the release pressure based on your kitten’s size and activity level. Adjustable | Reflective | Safe Breakaway Buckle",
+  "description": "Keep your curious cat safe and stylish with the Rogz Reflecto Cat Collar , specially designed for smaller cats and kittens. Fully adjustable for neck sizes from 16.5–23 cm , this extra-small collar is crafted with your pet’s safety and comfort in mind. Featuring the Safe lock Breakaway Clip , the collar is engineered to break free under excessive strain, helping prevent accidents. The adjustable breakaway load lets you customize the release pressure based on your kitten’s size and activity level. Made from snag-proof webbing , the collar boasts a soft yet durable texture, with a reflective polyurethane overlay for added visibility at night. The screen-printed reflective design ensures your kitten stays seen and safe even in low light. With no open ends or sharp edges , it’s gentle on sensitive kitten skin. A color-coded bell adds a cute touch and helps you keep track of your pet’s whereabouts but can be easily removed if your kitty prefers stealth mode. Key Features: Size: 8mm width, fits necks 16.5–23cm Safe lock Breakaway Buckle for enhanced safety Reflective design for night-time visibility Snag-proof, soft webbing for ultimate comfort Removable bell for quiet time Suitable for most kitten and small cat breeds Keep your kitten safe, visible, and comfortable with the Rogz Reflecto Cat Collar because even the smallest adventurers deserve the best. &nbsp;",
+  "images": [
+    {
+      "id": 24571,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/CB240-L-ReflectoCat-Lime-1.jpg",
+      "alt": "Rogz Cat Breakaway Buckle Collar X-Small – Lime (CB240-L)",
+      "name": "CB240-L-ReflectoCat-Lime-1.jpg"
+    }
+  ],
   "stockStatus": "instock",
-  "lowStockRemaining": 4,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=2&#038;add-to-cart=24551",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-cat-breakaway-buckle-collar-x-small-lime/?add-to-cart=24551",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.212Z",
-  "dateModified": "2026-06-23T09:15:51.212Z"
+  "dateCreated": "2022-01-15T21:40:29",
+  "dateModified": "2026-06-17T04:14:11",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/CB240-L-ReflectoCat-Lime-1.jpg"
 }

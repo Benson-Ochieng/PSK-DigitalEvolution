@@ -1,0 +1,77 @@
+{
+  "id": 44586,
+  "name": "Charly Pet Wipes 100pcs",
+  "slug": "pet-wipes-charly-100-pcs",
+  "sku": "CHY.RPU80PA",
+  "onSale": false,
+  "price": 1500,
+  "regularPrice": 1500,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/02/Charly-pet-wipes-100pcs.png",
+  "categories": [
+    {
+      "id": 2096,
+      "name": "Generic",
+      "slug": "generic"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=44586",
+  "shortDescription": "Gentle, hypoallergenic, and eco- friendly. Crafted with a soothing, alcohol-free formula, these wipes not only safeguard and nurture fur but also serve as a perfect solution for cleaning eyes and ears. 100pcs 17x30cm",
+  "description": "Charly Pet wet wipes are ideal for daily cleaning and polishing of the fur of dogs, cats and pets. The particle wet wipes are usually at home, in the car, for open air walking's and when it rains, to deodorize and refresh your pets. Thanks to the gentle, alcohol-free formulation, they protect and nourish the fur and at the same time they are ideal also for cleaning of eyes and ears. USE: Take off one wipe and gently clean the area that you desire. You don't need to rinse with water, nor dry. Carefully re-seal the pack after use, so that the wipes do not get dry. INGREDIENTS: Aqua, Cetearylisonanoate, Ceteareth-20, ceearyl alcohol, Glyceryl, stearate, Glycerin, Coco- Glucoside,Magnesium Nitrate,Alpha-isomethyl, Ionone, Methylchloroisothiazolinone, Hydroxycitronella, Coumarin",
+  "images": [
+    {
+      "id": 44603,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/02/Charly-pet-wipes-100pcs.png",
+      "alt": "Charly Pet Wipes 100pcs",
+      "name": "Charly pet wipes 100pcs"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/pet-wipes-charly-100-pcs/?add-to-cart=44586",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2024-02-21T10:13:30",
+  "dateModified": "2026-05-07T11:12:32",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/02/Charly-pet-wipes-100pcs.png"
+}

@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt-2omd8t74c",
+    "timestamp": "2026-06-24T13:45:54.582Z",
+    "user": "System Admin",
+    "action": "WooCommerce Sync Initiated",
+    "details": "Synchronization from WooCommerce storefront was started in the background.",
+    "icon": "🔄"
+  },
+  {
+    "id": "evt-oa1w4v8uw",
+    "timestamp": "2026-06-24T13:42:31.769Z",
+    "user": "System Admin",
+    "action": "User Logged In",
+    "details": "Successfully signed into the administration panel",
+    "icon": "🔑"
+  },
+  {
+    "id": "evt-1wpfumoiu",
+    "timestamp": "2026-06-24T10:37:35.698Z",
+    "user": "Ben",
+    "action": "WooCommerce Sync Initiated",
+    "details": "Synchronization from WooCommerce storefront was started in the background.",
+    "icon": "🔄"
+  },
+  {
+    "id": "evt-3x0i6c1t8",
+    "timestamp": "2026-06-24T10:04:13.998Z",
+    "user": "Ben",
+    "action": "WooCommerce Sync Initiated",
+    "details": "Synchronization from WooCommerce storefront was started in the background.",
+    "icon": "🔄"
+  },
+  {
     "id": "evt-8f3aqiz4g",
     "timestamp": "2026-06-23T09:08:18.305Z",
     "user": "Ben",

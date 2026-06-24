@@ -4,8 +4,8 @@
   "slug": "astonish-morning-dew-disinfectant-spray-550ml",
   "sku": "AMDD003",
   "onSale": false,
-  "price": 3.75,
-  "regularPrice": 3.75,
+  "price": 375,
+  "regularPrice": 375,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,25 +32,17 @@
       "slug": "dog-grooming-cleaning-supplies"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/astonish-morning-dew-disinfectant-spray-550ml/",
-  "shortDescription": "Astonish Morning Dew Disinfectant Spray 550ml kills 99.9% of bacteria and viruses. Pet-friendly, ready-to-use, with a fresh floral scent for clean homes.",
-  "description": "Astonish Morning Dew Disinfectant Spray 550ml is a powerful, ready-to-use disinfectant designed to keep your home and pet spaces hygienically clean and beautifully fresh. Specially formulated to be safe for areas used by pets when applied as directed, it’s the perfect everyday cleaning solution for pet-loving households. This multi-purpose spray eliminates 99.9% of bacteria and enveloped viruses , including coronavirus, helping protect your family and pets from harmful germs. Its refreshing Morning Dew fragrance , with soft floral notes of geranium and orange blossom, effectively neutralizes pet and household odors without being overpowering. Key Features &amp; Benefits Kills 99.9% of Bacteria &amp; Viruses Effectively disinfects hard, non-porous surfaces for a safer, cleaner environment. Pet-Friendly Formula Developed as a Pet Fresh disinfectant, making it suitable for areas where pets eat, play, and rest (when used as directed). Fresh Floral Scent Morning Dew fragrance leaves spaces smelling clean and uplifting while reducing pet odors. Multi-Surface Use Ideal for kitchens, bathrooms, floors, litter areas, kennels, crates, and general living spaces. Ready to Use No dilution needed—simply spray and wipe for quick, convenient cleaning. Eco-Conscious Choice Cruelty-free, vegan, and made with gentle yet effective ingredients. Usage Instructions Spray directly onto hard, non-porous surfaces and wipe clean. Always follow label instructions and safety guidelines. Keep out of reach of children. Perfect For Pet owners looking for a safe, effective, and fresh-smelling disinfectant that keeps both homes and pet areas clean every day. &nbsp; &nbsp; &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 69585,
-      "alt": "Astonish Morning Dew Disinfectant Spray 550ml",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/02/Astonish-Morning-Dew-Ready-to-use-Disinfectant-Spray-550ml.png",
-      "name": "Astonish Morning Dew Ready to use Disinfectant Spray 550ml"
+      "id": 2424,
+      "name": "Astonish",
+      "slug": "astonish"
     }
   ],
   "tags": [
     {
       "id": 2098,
-      "name": "Grooming &amp; Tools",
+      "name": "Grooming & Tools",
       "slug": "grooming-tools"
     },
     {
@@ -64,20 +56,33 @@
       "slug": "pet-care"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/astonish-morning-dew-disinfectant-spray-550ml/",
+  "shortDescription": "Astonish Morning Dew Disinfectant Spray 550ml kills 99.9% of bacteria and viruses. Pet-friendly, ready-to-use, with a fresh floral scent for clean homes.",
+  "description": "Astonish Morning Dew Disinfectant Spray 550ml is a powerful, ready-to-use disinfectant designed to keep your home and pet spaces hygienically clean and beautifully fresh. Specially formulated to be safe for areas used by pets when applied as directed, it’s the perfect everyday cleaning solution for pet-loving households. This multi-purpose spray eliminates 99.9% of bacteria and enveloped viruses , including coronavirus, helping protect your family and pets from harmful germs. Its refreshing Morning Dew fragrance , with soft floral notes of geranium and orange blossom, effectively neutralizes pet and household odors without being overpowering. Key Features & Benefits Kills 99.9% of Bacteria & Viruses Effectively disinfects hard, non-porous surfaces for a safer, cleaner environment. Pet-Friendly Formula Developed as a Pet Fresh disinfectant, making it suitable for areas where pets eat, play, and rest (when used as directed). Fresh Floral Scent Morning Dew fragrance leaves spaces smelling clean and uplifting while reducing pet odors. Multi-Surface Use Ideal for kitchens, bathrooms, floors, litter areas, kennels, crates, and general living spaces. Ready to Use No dilution needed—simply spray and wipe for quick, convenient cleaning. Eco-Conscious Choice Cruelty-free, vegan, and made with gentle yet effective ingredients. Usage Instructions Spray directly onto hard, non-porous surfaces and wipe clean. Always follow label instructions and safety guidelines. Keep out of reach of children. Perfect For Pet owners looking for a safe, effective, and fresh-smelling disinfectant that keeps both homes and pet areas clean every day. &nbsp; &nbsp; &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2424,
-      "name": "Astonish",
-      "slug": "astonish"
+      "id": 69585,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/02/Astonish-Morning-Dew-Ready-to-use-Disinfectant-Spray-550ml.png",
+      "alt": "Astonish Morning Dew Disinfectant Spray 550ml",
+      "name": "Astonish Morning Dew Ready to use Disinfectant Spray 550ml"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=69549",
+  "addToCartUrl": "https://petstore.co.ke/product/astonish-morning-dew-disinfectant-spray-550ml/?add-to-cart=69549",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.926Z",
-  "dateModified": "2026-06-23T09:15:51.926Z"
+  "dateCreated": "2026-02-06T12:40:36",
+  "dateModified": "2026-06-17T04:30:36",
+  "brand": "Astonish",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/Astonish-Morning-Dew-Ready-to-use-Disinfectant-Spray-550ml.png"
 }

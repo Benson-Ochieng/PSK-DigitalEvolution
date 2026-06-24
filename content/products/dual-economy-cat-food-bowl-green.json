@@ -1,0 +1,87 @@
+{
+  "id": 18054,
+  "name": "Dual Economy cat food bowl - geen",
+  "slug": "dual-economy-cat-food-bowl-green",
+  "sku": "CFBD1G",
+  "onSale": false,
+  "price": 464,
+  "regularPrice": 464,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/CFBD1G.jpg",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2344,
+      "name": "Cat Bowls & Feeders",
+      "slug": "cat-bowls-and-feeders"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2072,
+      "name": "Bowls",
+      "slug": "bowls"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=18054",
+  "shortDescription": "Economy Dual cat food / water bowl – translucent Green",
+  "description": "Economy Dual cat food / water bowl - translucent Green",
+  "images": [
+    {
+      "id": 18001,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/CFBD1G.jpg",
+      "alt": "Dual Economy cat food bowl - geen",
+      "name": "CFBD1G"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/dual-economy-cat-food-bowl-green/?add-to-cart=18054",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2021-01-13T22:24:14",
+  "dateModified": "2026-05-06T17:07:08",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/CFBD1G.jpg"
+}

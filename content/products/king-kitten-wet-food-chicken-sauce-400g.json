@@ -4,8 +4,8 @@
   "slug": "king-kitten-wet-food-chicken-sauce-400g",
   "sku": "KCW004",
   "onSale": false,
-  "price": 2.52,
-  "regularPrice": 2.52,
+  "price": 252,
+  "regularPrice": 252,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -27,19 +27,11 @@
       "slug": "kitten-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/king-kitten-wet-food-chicken-sauce-400g/",
-  "shortDescription": "Nutritious kitten wet food with real chicken and meat pieces in sauce. Supports growth, immunity, hydration, and easy digestion. 400g complete meal.",
-  "description": "KING CANNED KITTEN FOOD CHICKEN CHUNKS IN GRAVY is a complete and balanced wet food specially formulated to support the healthy growth and development of kittens during their most critical early months. Proper nutrition in the first stages of life plays a vital role in building strong muscles, a healthy skeletal structure, balanced digestion, and a resilient immune system. This specially crafted kitten formula delivers high-quality chicken protein , essential vitamins, and balanced minerals to ensure optimal development. Made with real chicken (4%) and tender meat pieces in a rich, flavorful sauce, this wet food offers high palatability and easy digestibility. Chicken is widely preferred in kitten nutrition due to its high biological value, low allergen potential, and excellent digestibility , making it ideal for young and sensitive digestive systems. Key Benefits Supports Healthy Growth – High-quality animal protein promotes muscle development Immune System Support – Enriched with Vitamins A, D3 &amp; E Strong Bones &amp; Teeth – Balanced calcium and phosphorus Soft, Saucy Texture – Easy to chew for kittens with developing teeth Hydration Support – 80% moisture content aids kidney and urinary health High Taste Appeal – Real chicken pieces in sauce for better acceptance The soft texture makes it particularly suitable for newly weaned kittens or those transitioning to dry food. It can be served as a complete meal or mixed with dry kitten kibble to enhance flavor and encourage eating. Its moisture-rich formula helps support daily fluid intake, which is essential for kittens, as cats naturally tend to drink less water. The sauce consistency keeps the food appetizing while maintaining optimal hydration balance. Produced under hygienic conditions according to King brand quality standards, this kitten wet food is designed with the sensitive metabolism of growing kittens in mind. Ingredients Meat and animal derivatives (Chicken 4%) Meat pieces in sauce Grains Plant-derived derivatives Minerals Vitamins Analytical Components Crude Protein: 8% Crude Fat: 6% Crude Fiber: 0.5% Crude Ash: 2.5% Moisture: 80% Nutritional Additives Vitamin A Vitamin D3 Vitamin E Calcium Phosphorus Zinc Iron Feeding Recommendation Adjust the daily portion according to your kitten’s age, weight, and growth stage . Serve at room temperature. Can be given alone as a complete meal or mixed with dry kitten food. Storage Instructions Store unopened cans in a cool, dry place. After opening, refrigerate and consume within 48 hours. Do not freeze. Always provide fresh drinking water. &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 70017,
-      "alt": "King Canned Kitten Food Chicken Chunks In Gravy 400g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/02/KING-CANNED-KITTEN-FOOD-CHICKEN-CHUNKS-IN-GRAVY-.png",
-      "name": "KING CANNED KITTEN FOOD CHICKEN CHUNKS IN GRAVY"
+      "id": 2446,
+      "name": "King",
+      "slug": "king"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/king-kitten-wet-food-chicken-sauce-400g/",
+  "shortDescription": "Nutritious kitten wet food with real chicken and meat pieces in sauce. Supports growth, immunity, hydration, and easy digestion. 400g complete meal.",
+  "description": "KING CANNED KITTEN FOOD CHICKEN CHUNKS IN GRAVY is a complete and balanced wet food specially formulated to support the healthy growth and development of kittens during their most critical early months. Proper nutrition in the first stages of life plays a vital role in building strong muscles, a healthy skeletal structure, balanced digestion, and a resilient immune system. This specially crafted kitten formula delivers high-quality chicken protein , essential vitamins, and balanced minerals to ensure optimal development. Made with real chicken (4%) and tender meat pieces in a rich, flavorful sauce, this wet food offers high palatability and easy digestibility. Chicken is widely preferred in kitten nutrition due to its high biological value, low allergen potential, and excellent digestibility , making it ideal for young and sensitive digestive systems. Key Benefits Supports Healthy Growth – High-quality animal protein promotes muscle development Immune System Support – Enriched with Vitamins A, D3 & E Strong Bones & Teeth – Balanced calcium and phosphorus Soft, Saucy Texture – Easy to chew for kittens with developing teeth Hydration Support – 80% moisture content aids kidney and urinary health High Taste Appeal – Real chicken pieces in sauce for better acceptance The soft texture makes it particularly suitable for newly weaned kittens or those transitioning to dry food. It can be served as a complete meal or mixed with dry kitten kibble to enhance flavor and encourage eating. Its moisture-rich formula helps support daily fluid intake, which is essential for kittens, as cats naturally tend to drink less water. The sauce consistency keeps the food appetizing while maintaining optimal hydration balance. Produced under hygienic conditions according to King brand quality standards, this kitten wet food is designed with the sensitive metabolism of growing kittens in mind. Ingredients Meat and animal derivatives (Chicken 4%) Meat pieces in sauce Grains Plant-derived derivatives Minerals Vitamins Analytical Components Crude Protein: 8% Crude Fat: 6% Crude Fiber: 0.5% Crude Ash: 2.5% Moisture: 80% Nutritional Additives Vitamin A Vitamin D3 Vitamin E Calcium Phosphorus Zinc Iron Feeding Recommendation Adjust the daily portion according to your kitten’s age, weight, and growth stage . Serve at room temperature. Can be given alone as a complete meal or mixed with dry kitten food. Storage Instructions Store unopened cans in a cool, dry place. After opening, refrigerate and consume within 48 hours. Do not freeze. Always provide fresh drinking water. &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2446,
-      "name": "King",
-      "slug": "king"
+      "id": 70017,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/02/KING-CANNED-KITTEN-FOOD-CHICKEN-CHUNKS-IN-GRAVY-.png",
+      "alt": "King Canned Kitten Food Chicken Chunks In Gravy 400g",
+      "name": "KING CANNED KITTEN FOOD CHICKEN CHUNKS IN GRAVY"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=70016",
+  "addToCartUrl": "https://petstore.co.ke/product/king-kitten-wet-food-chicken-sauce-400g/?add-to-cart=70016",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.942Z",
-  "dateModified": "2026-06-23T09:15:51.942Z"
+  "dateCreated": "2026-02-26T10:22:46",
+  "dateModified": "2026-06-23T09:10:16",
+  "brand": "King",
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/KING-CANNED-KITTEN-FOOD-CHICKEN-CHUNKS-IN-GRAVY-.png"
 }

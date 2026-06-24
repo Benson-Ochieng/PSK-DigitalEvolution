@@ -1,11 +1,11 @@
 {
   "id": 89841,
-  "name": "Pedigree Medium Puppy Dry Food – Poultry & Vegetables 12kg",
+  "name": "Pedigree Medium Puppy Dry Food - Poultry & Vegetables 12kg",
   "slug": "pedigree-medium-puppy-dry-food-poultry-vegetables-12kg-2",
   "sku": "PDDF002",
   "onSale": false,
-  "price": 108,
-  "regularPrice": 108,
+  "price": 10800,
+  "regularPrice": 10800,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "puppy-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pedigree-medium-puppy-dry-food-poultry-vegetables-12kg-2/",
-  "shortDescription": "Give your puppy the healthy start they deserve with Pedigree Puppy Chicken &amp; Rice Dry Dog Food 12kg a complete and balanced dry food specially formulated to support growing puppies during their important developmental stages.",
-  "description": "Made with delicious chicken as a quality source of protein, this puppy food helps support healthy muscle growth and active play. The addition of rice provides easy-to-digest carbohydrates for steady energy and gentle digestion, making it suitable for growing puppies with developing stomachs. Enriched with essential vitamins, minerals, and DHA, Pedigree Puppy Chicken &amp; Rice helps support healthy brain development, strong bones and teeth, and overall wellbeing. The crunchy kibble texture also helps encourage chewing and supports dental health. Key Benefits Complete and balanced nutrition for growing puppies Made with tasty chicken for high-quality protein support Contains rice for gentle digestion and steady energy Enriched with DHA to support brain and cognitive development Supports healthy bones and strong teeth with essential minerals Crunchy kibble helps support oral health No artificial colours or flavours Suitable For Puppies of all breeds Growing dogs during developmental stages Why Choose Pedigree Puppy Chicken &amp; Rice? Growing puppies need the right balance of nutrients to support healthy development. Pedigree Puppy Chicken &amp; Rice is carefully crafted to provide essential nutrition that supports growth, energy, digestion, and overall health in one delicious meal. Storage Instructions Store in a cool, dry place away from direct sunlight. Reseal or keep in an airtight container to maintain freshness. Support your puppy’s healthy growth with Pedigree Puppy Chicken &amp; Rice Dry Dog Food 12kg the nutritious everyday meal for happy, active puppies.",
-  "images": [
+  "brands": [
     {
-      "id": 89843,
-      "alt": "Pedigree Medium Puppy Dry Food – Poultry & Vegetables 12kg",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Pedigree-Medium-Puppy-Dry-Food-Poultry-Vegetables-12kg.png",
-      "name": "Pedigree Medium Puppy Dry Food &#8211; Poultry &#038; Vegetables 12kg"
+      "id": 2456,
+      "name": "Pedigree",
+      "slug": "pedigree"
     }
   ],
   "tags": [
@@ -59,20 +51,33 @@
       "slug": "puppy"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/pedigree-medium-puppy-dry-food-poultry-vegetables-12kg-2/",
+  "shortDescription": "Give your puppy the healthy start they deserve with Pedigree Puppy Chicken & Rice Dry Dog Food 12kg a complete and balanced dry food specially formulated to support growing puppies during their important developmental stages.",
+  "description": "&nbsp; Made with delicious chicken as a quality source of protein, this puppy food helps support healthy muscle growth and active play. The addition of rice provides easy-to-digest carbohydrates for steady energy and gentle digestion, making it suitable for growing puppies with developing stomachs. Enriched with essential vitamins, minerals, and DHA, Pedigree Puppy Chicken & Rice helps support healthy brain development, strong bones and teeth, and overall wellbeing. The crunchy kibble texture also helps encourage chewing and supports dental health. Key Benefits Complete and balanced nutrition for growing puppies Made with tasty chicken for high-quality protein support Contains rice for gentle digestion and steady energy Enriched with DHA to support brain and cognitive development Supports healthy bones and strong teeth with essential minerals Crunchy kibble helps support oral health No artificial colours or flavours Suitable For Puppies of all breeds Growing dogs during developmental stages Why Choose Pedigree Puppy Chicken & Rice? Growing puppies need the right balance of nutrients to support healthy development. Pedigree Puppy Chicken & Rice is carefully crafted to provide essential nutrition that supports growth, energy, digestion, and overall health in one delicious meal. Storage Instructions Store in a cool, dry place away from direct sunlight. Reseal or keep in an airtight container to maintain freshness. Support your puppy’s healthy growth with Pedigree Puppy Chicken & Rice Dry Dog Food 12kg the nutritious everyday meal for happy, active puppies.",
+  "images": [
     {
-      "id": 2456,
-      "name": "Pedigree",
-      "slug": "pedigree"
+      "id": 89843,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Pedigree-Medium-Puppy-Dry-Food-Poultry-Vegetables-12kg.png",
+      "alt": "Pedigree Medium Puppy Dry Food – Poultry & Vegetables 12kg",
+      "name": "Pedigree Medium Puppy Dry Food &#8211; Poultry &#038; Vegetables 12kg"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 3,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=89841",
+  "addToCartUrl": "https://petstore.co.ke/product/pedigree-medium-puppy-dry-food-poultry-vegetables-12kg-2/?add-to-cart=89841",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.975Z",
-  "dateModified": "2026-06-23T09:15:51.975Z"
+  "dateCreated": "2026-05-21T16:16:33",
+  "dateModified": "2026-06-17T05:01:33",
+  "brand": "Pedigree",
+  "weight_kg": 12,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/Pedigree-Medium-Puppy-Dry-Food-Poultry-Vegetables-12kg.png"
 }

@@ -4,8 +4,8 @@
   "slug": "meaty-sticks-adult-cats-game-goose",
   "sku": "RCT025",
   "onSale": false,
-  "price": 1.95,
-  "regularPrice": 1.95,
+  "price": 195,
+  "regularPrice": 195,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "reflex"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/meaty-sticks-adult-cats-game-goose/",
-  "shortDescription": "Grain-free Meaty Sticks for adult cats with game &amp; goose. 95% meat content, high protein, added taurine and vitamins for a healthy, delicious reward.",
-  "description": "Treat your cat to a rich, meaty reward with Meaty Sticks for Adult Cats with Game &amp; Goose . Made with an impressive 95% meat and animal derivatives , these grain-free sticks deliver irresistible flavor while supporting your cat’s daily nutritional needs. Featuring a delicious blend of game and goose (30% combined) , these soft, easy-to-break sticks are perfect as a reward, training treat, or bonding snack. The high protein content helps support strong muscles, while added taurine promotes heart and eye health. Essential vitamins A, D3, and E help maintain overall vitality and a healthy immune system. With no grains and a high moisture content for palatability, Meaty Sticks are a wholesome, tasty indulgence your adult cat will love every bite packed with quality nutrition. Key Benefits 95% high-quality meat content With game &amp; goose for a rich, natural taste Grain-free recipe for easy digestion High protein to support muscle maintenance Added taurine for heart and vision health Soft texture – easy to chew and portion Ideal as a treat or reward Feed as a treat. Always ensure fresh drinking water is available. &nbsp; &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 68698,
-      "alt": "Reflex Cat Meaty Stick Treat Withgame Andgoose 15g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/reflex-Meaty-sticks-game-goose-.png",
-      "name": "reflex Meaty sticks game goose"
+      "id": 2462,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "treats"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/meaty-sticks-adult-cats-game-goose/",
+  "shortDescription": "Grain-free Meaty Sticks for adult cats with game & goose. 95% meat content, high protein, added taurine and vitamins for a healthy, delicious reward.",
+  "description": "Treat your cat to a rich, meaty reward with Meaty Sticks for Adult Cats with Game & Goose . Made with an impressive 95% meat and animal derivatives , these grain-free sticks deliver irresistible flavor while supporting your cat’s daily nutritional needs. Featuring a delicious blend of game and goose (30% combined) , these soft, easy-to-break sticks are perfect as a reward, training treat, or bonding snack. The high protein content helps support strong muscles, while added taurine promotes heart and eye health. Essential vitamins A, D3, and E help maintain overall vitality and a healthy immune system. With no grains and a high moisture content for palatability, Meaty Sticks are a wholesome, tasty indulgence your adult cat will love every bite packed with quality nutrition. Key Benefits 95% high-quality meat content With game & goose for a rich, natural taste Grain-free recipe for easy digestion High protein to support muscle maintenance Added taurine for heart and vision health Soft texture – easy to chew and portion Ideal as a treat or reward Feed as a treat. Always ensure fresh drinking water is available. &nbsp; &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
+      "id": 68698,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/reflex-Meaty-sticks-game-goose-.png",
+      "alt": "Reflex Cat Meaty Stick Treat Withgame Andgoose 15g",
+      "name": "reflex Meaty sticks game goose"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": null,
+  "lowStockRemaining": 5,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=68696",
+  "addToCartUrl": "https://petstore.co.ke/product/meaty-sticks-adult-cats-game-goose/?add-to-cart=68696",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.862Z",
-  "dateModified": "2026-06-23T09:15:51.862Z"
+  "dateCreated": "2026-01-30T11:55:41",
+  "dateModified": "2026-06-20T10:25:25",
+  "brand": "Reflex",
+  "weight_kg": 0.15,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/reflex-Meaty-sticks-game-goose-.png"
 }

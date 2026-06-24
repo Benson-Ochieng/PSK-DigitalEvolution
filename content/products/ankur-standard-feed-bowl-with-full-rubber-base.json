@@ -1,0 +1,92 @@
+{
+  "id": 16704,
+  "name": "ANKUR Standard Feed Bowl with Full Rubber Base 1600ml",
+  "slug": "ankur-standard-feed-bowl-with-full-rubber-base",
+  "sku": "ASB1600",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/12/Ankur-Standard-Feed-Bowl-and-rubber-base-e1610899250133.png",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2041,
+      "name": "Ankur",
+      "slug": "ankur"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2366,
+      "name": "Dog Bowls & Feeders",
+      "slug": "dog-bowls-feeders"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2072,
+      "name": "Bowls",
+      "slug": "bowls"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=16704",
+  "shortDescription": "Ankur Standard Bowl",
+  "description": "ANKUR STANDARD Dog stainless steel bowl with a rubber base effectively reduces noise and skidding while your pets eat. It protects all floors from scratches",
+  "images": [
+    {
+      "id": 16692,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/12/Ankur-Standard-Feed-Bowl-and-rubber-base-e1610899250133.png",
+      "alt": "Ankur Standard Bowl",
+      "name": "Ankur Standard Feed Bowl and rubber base"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": false,
+  "addToCartUrl": "https://petstore.co.ke/product/ankur-standard-feed-bowl-with-full-rubber-base/?add-to-cart=16704",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2020-12-08T10:16:40",
+  "dateModified": "2026-05-06T17:06:42",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/12/Ankur-Standard-Feed-Bowl-and-rubber-base-e1610899250133.png"
+}

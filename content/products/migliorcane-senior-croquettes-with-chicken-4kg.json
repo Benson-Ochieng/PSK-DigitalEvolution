@@ -1,0 +1,87 @@
+{
+  "id": 28214,
+  "name": "Migliorcane Senior Dog Food Croquettes With Chicken 4kg",
+  "slug": "migliorcane-senior-croquettes-with-chicken-4kg",
+  "sku": "MDD003",
+  "onSale": true,
+  "price": 2720,
+  "regularPrice": 3400,
+  "salePrice": 2720,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MDD003.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2163,
+      "name": "Miglior",
+      "slug": "miglior"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 939,
+      "name": "On Sale Now",
+      "slug": "sale"
+    },
+    {
+      "id": 2063,
+      "name": "senior dog",
+      "slug": "senior-dog"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=28214",
+  "shortDescription": "Formula designed to guarantee the key nutrients required for the well-being of your dog, including vitamins, Omega 3, calcium and phosphorous to support strong bones and teeth, healthy skin and glossy coat, and toned musculature.",
+  "description": "COMPOSITION: Cereals, meat and animal derivatives 25% (chicken 4%) , derivatives of vegetable origin (FOS 0.2%), oil and fats, minerals, yeasts (yeast products sources of MOS 0.1%), glucosamine 0.06%, chondroitin sulphate 0.04%. ANALYTICAL CONSTITUENTS: Crude protein 21.00%, Crude fibres 2.50%, Crude Fat 10.00%, Crude ash 7.00%, Calcium 1.3%, Phosphorus 0.8%, Omega 3 Fatty acids 0.41%, Omega 6 Fatty acids 1.4%. Nutritional additives /kg: Vitamin A 19000 UI, Vitamin D3 1320 UI, Vitamin E 100 mg, Vitamin B1 16.2 mg, Vitamin B2 5.5 mg, Vitamin B6 5.7 mg, vitamin B12 0.03 mg, Niacin 54.5 mg, Biotin 0.2 mg, Calcium D-pantothenate 68.2 mg, Folic acid 1.6 mg, Zinc (Zinc oxide) 140 mg, Iron (Iron (II) carbonate (siderite)) 100 mg, Copper (Copper II sulphate pentahydrate) 12 mg, Manganese (Manganese (II) oxide) 8.0 mg, Iodine (Potassium iodide) 3 mg, Selenium (Sodium selenite) 0.2 mg. Antioxidants. HOW TO USE: The product is ready to use. The daily amount recommended may vary due to age or particular needs of every dog. We suggest to switch gradually to the new food. Leave always available to your dog a bowl of pure water. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight.",
+  "images": [
+    {
+      "id": 28203,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MDD003.jpg",
+      "alt": "Migliorcane Senior croquettes with Chicken 4kg",
+      "name": "MDD003"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/migliorcane-senior-croquettes-with-chicken-4kg/?add-to-cart=28214",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-07-15T11:15:15",
+  "dateModified": "2026-05-06T17:08:12",
+  "brand": null,
+  "weight_kg": 4,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MDD003.jpg"
+}

@@ -4,8 +4,8 @@
   "slug": "churu-tuna-with-salmon-lickable-cat-treat",
   "sku": "BCCT018",
   "onSale": false,
-  "price": 3.5,
-  "regularPrice": 3.5,
+  "price": 350,
+  "regularPrice": 350,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -37,19 +37,11 @@
       "slug": "kitten-treats"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/churu-tuna-with-salmon-lickable-cat-treat/",
-  "shortDescription": "Creamy Churu Tuna with Salmon lickable cat treats made with real fish, 91% moisture, only 6 calories per tube, grain-free, and enriched with taurine for healthy, happy cats.",
-  "description": "Churu Tuna with Chicken Recipe 4 Tubes is a deliciously creamy lickable cat treat that combines the rich, savory flavors of tuna and chicken. Designed to delight even the most discerning feline palate, it’s perfect for rewarding good behavior, easing grooming time, or simply sharing a loving moment with your cat. This recipe contains tuna and chicken and is therefore not suitable for cats with allergies to these ingredients. A Delicious Blend of Tuna &amp; Chicken Each single-serve tube features a smooth purée made from succulent tuna and tender chicken, creating an irresistible flavor combination cats can’t resist. The soft texture makes it easy to lick, encouraging bonding through hand-feeding or stress-free treat time. Enriched with Essential Nutrients More than just tasty, Churu Tuna with Chicken is enriched with taurine, vitamins, and minerals that support: Healthy vision and heart function Strong muscles and bones Overall immune health It’s a treat you can feel good about giving. Convenient &amp; Mess-Free The single-serve tubes eliminate the need for measuring or portioning. Easy to open and serve, they’re ideal for on-the-go treats, medication mixing, or quick rewards—without spills or cleanup. A Versatile Treat for Every Occasion Whether used as: A reward for good behavior A distraction during grooming or vet visits A bonding treat fed by hand Churu Tuna with Chicken Recipe fits seamlessly into your cat’s routine. Feeding Guidelines Feed as a treat or snack only , not a meal replacement Always supervise your cat while feeding Ensure fresh water is available at all times Store in a cool, dry place Frequently Asked Questions Q: How many calories are in each tube? A: Each tube contains approximately 12 calories . Q: Can kittens eat this treat? A: Yes, kittens over 8 weeks old can enjoy it as an occasional treat. Q: Is this suitable for cats with food allergies? A: No. This product contains tuna and chicken and is not suitable for cats allergic to these proteins. &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 66362,
-      "alt": "Churu Cat Treats Tuna With Salmon Recipe 4 Tubes",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/Tuna-with-salmonrecipe-.png",
-      "name": "Tuna with salmonrecipe"
+      "id": 2433,
+      "name": "Churu",
+      "slug": "churu"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "treats"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/churu-tuna-with-salmon-lickable-cat-treat/",
+  "shortDescription": "Creamy Churu Tuna with Salmon lickable cat treats made with real fish, 91% moisture, only 6 calories per tube, grain-free, and enriched with taurine for healthy, happy cats.",
+  "description": "Churu Tuna with Chicken Recipe 4 Tubes is a deliciously creamy lickable cat treat that combines the rich, savory flavors of tuna and chicken. Designed to delight even the most discerning feline palate, it’s perfect for rewarding good behavior, easing grooming time, or simply sharing a loving moment with your cat. This recipe contains tuna and chicken and is therefore not suitable for cats with allergies to these ingredients. A Delicious Blend of Tuna & Chicken Each single-serve tube features a smooth purée made from succulent tuna and tender chicken, creating an irresistible flavor combination cats can’t resist. The soft texture makes it easy to lick, encouraging bonding through hand-feeding or stress-free treat time. Enriched with Essential Nutrients More than just tasty, Churu Tuna with Chicken is enriched with taurine, vitamins, and minerals that support: Healthy vision and heart function Strong muscles and bones Overall immune health It’s a treat you can feel good about giving. Convenient & Mess-Free The single-serve tubes eliminate the need for measuring or portioning. Easy to open and serve, they’re ideal for on-the-go treats, medication mixing, or quick rewards—without spills or cleanup. A Versatile Treat for Every Occasion Whether used as: A reward for good behavior A distraction during grooming or vet visits A bonding treat fed by hand Churu Tuna with Chicken Recipe fits seamlessly into your cat’s routine. Feeding Guidelines Feed as a treat or snack only , not a meal replacement Always supervise your cat while feeding Ensure fresh water is available at all times Store in a cool, dry place Frequently Asked Questions Q: How many calories are in each tube? A: Each tube contains approximately 12 calories . Q: Can kittens eat this treat? A: Yes, kittens over 8 weeks old can enjoy it as an occasional treat. Q: Is this suitable for cats with food allergies? A: No. This product contains tuna and chicken and is not suitable for cats allergic to these proteins. &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2433,
-      "name": "Churu",
-      "slug": "churu"
+      "id": 66362,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/Tuna-with-salmonrecipe-.png",
+      "alt": "Churu Cat Treats Tuna With Salmon Recipe 4 Tubes",
+      "name": "Tuna with salmonrecipe"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=66361",
+  "addToCartUrl": "https://petstore.co.ke/product/churu-tuna-with-salmon-lickable-cat-treat/?add-to-cart=66361",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.814Z",
-  "dateModified": "2026-06-23T09:15:51.814Z"
+  "dateCreated": "2026-01-07T10:53:29",
+  "dateModified": "2026-06-20T10:25:25",
+  "brand": "Churu",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/Tuna-with-salmonrecipe-.png"
 }

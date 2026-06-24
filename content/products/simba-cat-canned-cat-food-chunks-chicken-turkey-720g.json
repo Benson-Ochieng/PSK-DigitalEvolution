@@ -4,8 +4,8 @@
   "slug": "simba-cat-canned-cat-food-chunks-chicken-turkey-720g",
   "sku": "LSWC014",
   "onSale": false,
-  "price": 4.51,
-  "regularPrice": 4.51,
+  "price": 451,
+  "regularPrice": 451,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "wet-cat-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/simba-cat-canned-cat-food-chunks-chicken-turkey-720g/",
-  "shortDescription": "Give your cat a hearty and nutritious meal with Simba Cat Chunks Chicken &amp; Turkey. This complete wet cat food for adult cats combines the delicious flavours of chicken and turkey in tender chunks that provide a satisfying texture and irresistible taste.",
-  "description": "Carefully formulated to support your cat’s daily nutritional needs, this balanced recipe provides essential nutrients that help maintain overall health, vitality, and wellbeing. The rich protein content from quality animal ingredients supports strong muscles and an active lifestyle, while the appetising flavour encourages a healthy appetite. Ready to serve and easy to enjoy, Simba Cat Chunks Chicken &amp; Turkey is an excellent choice for everyday feeding. Key Benefits Complete and balanced wet food for adult cats Made with tasty chicken and turkey flavours Rich in protein to support muscle maintenance Tender chunks for an enjoyable eating experience Supports overall health and daily vitality Suitable for everyday feeding Highly palatable recipe for adult cats Ready-to-serve meal Feeding Instructions Serve according to your cat’s age, weight, and activity level. Always provide fresh, clean drinking water. Storage Store in a cool, dry place. Once opened, refrigerate and consume within 48 hours. Size: 720g &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 90300,
-      "alt": "Simba Cat Canned Cat Food Chunks – Chicken & Turkey 720g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Chunk-Chicken-With-Turkey-720G.png",
-      "name": "Simba Cat Chunk Chicken With Turkey 720G"
+      "id": 2464,
+      "name": "Simba",
+      "slug": "simba"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/simba-cat-canned-cat-food-chunks-chicken-turkey-720g/",
+  "shortDescription": "Give your cat a hearty and nutritious meal with Simba Cat Chunks Chicken & Turkey. This complete wet cat food for adult cats combines the delicious flavours of chicken and turkey in tender chunks that provide a satisfying texture and irresistible taste.",
+  "description": "Carefully formulated to support your cat’s daily nutritional needs, this balanced recipe provides essential nutrients that help maintain overall health, vitality, and wellbeing. The rich protein content from quality animal ingredients supports strong muscles and an active lifestyle, while the appetising flavour encourages a healthy appetite. Ready to serve and easy to enjoy, Simba Cat Chunks Chicken & Turkey is an excellent choice for everyday feeding. Key Benefits Complete and balanced wet food for adult cats Made with tasty chicken and turkey flavours Rich in protein to support muscle maintenance Tender chunks for an enjoyable eating experience Supports overall health and daily vitality Suitable for everyday feeding Highly palatable recipe for adult cats Ready-to-serve meal Feeding Instructions Serve according to your cat’s age, weight, and activity level. Always provide fresh, clean drinking water. Storage Store in a cool, dry place. Once opened, refrigerate and consume within 48 hours. Size: 720g &nbsp;",
+  "images": [
     {
-      "id": 2464,
-      "name": "Simba",
-      "slug": "simba"
+      "id": 90300,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Chunk-Chicken-With-Turkey-720G.png",
+      "alt": "Simba Cat Canned Cat Food Chunks – Chicken & Turkey 720g",
+      "name": "Simba Cat Chunk Chicken With Turkey 720G"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=10&#038;add-to-cart=90299",
+  "addToCartUrl": "https://petstore.co.ke/product/simba-cat-canned-cat-food-chunks-chicken-turkey-720g/?add-to-cart=90299",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:52.049Z",
-  "dateModified": "2026-06-23T09:15:52.049Z"
+  "dateCreated": "2026-06-08T12:35:40",
+  "dateModified": "2026-06-19T13:12:04",
+  "brand": "Simba",
+  "weight_kg": 0.72,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Chunk-Chicken-With-Turkey-720G.png"
 }

@@ -1,0 +1,72 @@
+{
+  "id": 40918,
+  "name": "Dog Toothbrush Stick Paw - Large Turquoise",
+  "slug": "dog-toothbrush-stick-paw-large-turquoise-2",
+  "sku": "DTBSPLTQ@F",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Toothbrush-Stick-Paw-Large-Turquoise-DTBSPLTQ.jpg",
+  "categories": [
+    {
+      "id": 2361,
+      "name": "Brushes, Combs & Fur Removal Tools",
+      "slug": "brushes-combs-fur-removal-tools"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2360,
+      "name": "Dog Grooming & Cleaning",
+      "slug": "dog-grooming-cleaning-supplies"
+    },
+    {
+      "id": 2096,
+      "name": "Generic",
+      "slug": "generic"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1824,
+      "name": "dental care",
+      "slug": "dental-care"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=40918",
+  "shortDescription": "Dog Toothbrush Stick Chew Toy. The paw base makes it easier for the dog to hold and promotes the dog's tooth cleaning and chewing pleasure. It has",
+  "description": "Dog Toothbrush Stick Chew Toy. The paw base makes it easier for the dog to hold and promotes the dog's tooth cleaning and chewing pleasure. It has bristles on all sides. It can clean teeth in all directions. It is easy to clean and use.",
+  "images": [
+    {
+      "id": 19970,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Toothbrush-Stick-Paw-Large-Turquoise-DTBSPLTQ.jpg",
+      "alt": "Dog Toothbrush Stick Paw - Large Turquoise",
+      "name": "Dog Toothbrush Stick Paw &#8211; Large Turquoise DTBSPLTQ"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/dog-toothbrush-stick-paw-large-turquoise-2/?add-to-cart=40918",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-11-09T08:35:30",
+  "dateModified": "2026-05-06T17:09:04",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Toothbrush-Stick-Paw-Large-Turquoise-DTBSPLTQ.jpg"
+}

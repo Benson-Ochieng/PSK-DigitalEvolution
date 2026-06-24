@@ -1,11 +1,11 @@
 {
   "id": 56692,
-  "name": "Montego Monty & Me Adult Cat Dry Food – 2kg",
+  "name": "Montego Monty & Me Adult Cat Dry Food - 2kg",
   "slug": "montego-monty-me-adult-cat-2-kg",
   "sku": "MMCAT02",
   "onSale": false,
-  "price": 21.5,
-  "regularPrice": 21.5,
+  "price": 2150,
+  "regularPrice": 2150,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "montego"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/montego-monty-me-adult-cat-2-kg/",
-  "shortDescription": "Montego Monty &amp; Me Adult Cat Food (2 kg) is a high-quality, nutritious dry cat food designed to support overall health, energy, and well-being for adult cats of all breeds",
-  "description": "Benefits and Features: Yumminess and strength: optimum protein and fat levels make Monty &amp; Me taste great and help keep your little one strong, healthy and in tip-top condition. Happy, healthy eyes and heart: high-quality animal proteins with added essential dietary Taurine, support healthy heart function and strong vision. Safe, sound immune system: natural antioxidants, Vitamin E and C, are essential for muscle and circulatory system health and helps prevent cell damage. Get up and go essential nutrients, vitamins, minerals and Taurine provide your kitty with all the energy needed for playfulness, happiness and health. More Info Feeding Guide: Optimal feeding amounts vary with age, size, activity levels, breed and environment. The feeding guide below is a recommendation only, please adjust as needed. Weight of Adult Cat Grams per Day 2 &#8211; 3 kg 35 &#8211; 50 g 3 &#8211; 4 kg 50 &#8211; 60 g 4 &#8211; 8 kg 60 &#8211; 80 g These amounts reflect total daily requirements. Divide by the number of times you feed your cat per day to calculate individual meal portions. Ingredients Ingredients: Corn*, poultry meal, wheat bran, rice, corn gluten, animal fat, fish meal, brewer’s yeast, beet pulp, fish oil, acidifiers, salt, minerals, vitamins, taurine, L-Lysine and DL-Methionine Additives (/kg): Nutritional: Vitamin A 10 000 IU, Vitamin D3 775 IU, Vitamin E 75 IU, Vitamin C 50 mg/kg, potassium chloride 4 g, zinc sulphate 75 mg, iron sulphate 80 mg, copper sulphate 5 mg, manganese sulphate 5 mg and potassium iodide 1.3 mg; Preservatives: Approved antioxidants. Sensory: Palatability meat-based enhancers. Guaranteed Analysis: Crude protein: 28% | Moisture: 10% | Total fat: 12% | Crude fibre: 3% | Crude ash: 6.5% | Calcium: 1.2% | Phosphorus: 0.8% | Linoleic acid: 2.5% | Lysine: 1% | Methionine: 0.5% | Taurine: 0.125% | Metabolizable energy: 382 kcal/100g",
-  "images": [
+  "brands": [
     {
-      "id": 56693,
-      "alt": "Montego Monty & Me Adult Cat Dry Food – 2kg",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-34.png",
-      "name": "Untitled design (34)"
+      "id": 2453,
+      "name": "Montego",
+      "slug": "montego"
     }
   ],
   "tags": [
@@ -59,20 +51,33 @@
       "slug": "dry-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/montego-monty-me-adult-cat-2-kg/",
+  "shortDescription": "Montego Monty & Me Adult Cat Food (2 kg) is a high-quality, nutritious dry cat food designed to support overall health, energy, and well-being for adult cats of all breeds",
+  "description": "Benefits and Features: Yumminess and strength: optimum protein and fat levels make Monty & Me taste great and help keep your little one strong, healthy and in tip-top condition. Happy, healthy eyes and heart: high-quality animal proteins with added essential dietary Taurine, support healthy heart function and strong vision. Safe, sound immune system: natural antioxidants, Vitamin E and C, are essential for muscle and circulatory system health and helps prevent cell damage. Get up and go essential nutrients, vitamins, minerals and Taurine provide your kitty with all the energy needed for playfulness, happiness and health. More Info Feeding Guide: Optimal feeding amounts vary with age, size, activity levels, breed and environment. The feeding guide below is a recommendation only, please adjust as needed. Weight of Adult Cat Grams per Day 2 - 3 kg 35 - 50 g 3 - 4 kg 50 - 60 g 4 - 8 kg 60 - 80 g These amounts reflect total daily requirements. Divide by the number of times you feed your cat per day to calculate individual meal portions. Ingredients Ingredients: Corn*, poultry meal, wheat bran, rice, corn gluten, animal fat, fish meal, brewer’s yeast, beet pulp, fish oil, acidifiers, salt, minerals, vitamins, taurine, L-Lysine and DL-Methionine Additives (/kg): Nutritional: Vitamin A 10 000 IU, Vitamin D3 775 IU, Vitamin E 75 IU, Vitamin C 50 mg/kg, potassium chloride 4 g, zinc sulphate 75 mg, iron sulphate 80 mg, copper sulphate 5 mg, manganese sulphate 5 mg and potassium iodide 1.3 mg; Preservatives: Approved antioxidants. Sensory: Palatability meat-based enhancers. Guaranteed Analysis: Crude protein: 28% | Moisture: 10% | Total fat: 12% | Crude fibre: 3% | Crude ash: 6.5% | Calcium: 1.2% | Phosphorus: 0.8% | Linoleic acid: 2.5% | Lysine: 1% | Methionine: 0.5% | Taurine: 0.125% | Metabolizable energy: 382 kcal/100g",
+  "images": [
     {
-      "id": 2453,
-      "name": "Montego",
-      "slug": "montego"
+      "id": 56693,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-34.png",
+      "alt": "Montego Monty & Me Adult Cat Dry Food – 2kg",
+      "name": "Untitled design (34)"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 2,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=56692",
+  "addToCartUrl": "https://petstore.co.ke/product/montego-monty-me-adult-cat-2-kg/?add-to-cart=56692",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.681Z",
-  "dateModified": "2026-06-23T09:15:51.681Z"
+  "dateCreated": "2025-07-10T16:35:27",
+  "dateModified": "2026-06-17T04:30:18",
+  "brand": "Montego",
+  "weight_kg": 2,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-34.png"
 }

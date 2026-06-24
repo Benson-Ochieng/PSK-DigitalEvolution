@@ -1,0 +1,67 @@
+{
+  "id": 38187,
+  "name": "Pet Blanket 140?100cm",
+  "slug": "pet-blanket-140100cm",
+  "sku": "PZPB140",
+  "onSale": false,
+  "price": 1000,
+  "regularPrice": 1000,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/07/pet-blanket.jpg",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2096,
+      "name": "Generic",
+      "slug": "generic"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=38187",
+  "shortDescription": "Pet Blanket 60x70cm, 70x100cm, 100x140cm Available in Black, Brown, Blue, Red and Yellow",
+  "description": "Pet Blanket 60x70cm, 70x100cm, 100x140cm -Made of the soft and comfortable material, it is skin-friendly and safe for your pets. -With the exquisite craft, it is durable and easy to maintain. -Designed with the beautiful and funny claw printed patterns, and the colours are not easy to fade. To keep the pet warm and make them have a high-quality sleep.",
+  "images": [
+    {
+      "id": 38188,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/07/pet-blanket.jpg",
+      "alt": "Pet Blanket 140?100cm",
+      "name": "pet blanket"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/pet-blanket-140100cm/?add-to-cart=38187",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-07-05T17:08:40",
+  "dateModified": "2026-05-06T17:08:45",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/07/pet-blanket.jpg"
+}

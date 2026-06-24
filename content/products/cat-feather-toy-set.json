@@ -1,0 +1,97 @@
+{
+  "id": 24382,
+  "name": "Cat Feather Toy Set",
+  "slug": "cat-feather-toy-set",
+  "sku": "CFTS",
+  "onSale": false,
+  "price": 3422,
+  "regularPrice": 3422,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/CFTS.jpg",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2342,
+      "name": "Cat Toys",
+      "slug": "cat-toys"
+    },
+    {
+      "id": 2358,
+      "name": "Chew Toys",
+      "slug": "dog-chew-toys"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2096,
+      "name": "Generic",
+      "slug": "generic"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=24382",
+  "shortDescription": "Cat Feather Toy Set is exciting entertainment for cats crazy about chaser games.",
+  "description": "About this item: EXCITING ENTERTAINMENT FOR CATS: Cats are crazy about chaser games! Combine string and feather into a great cat toy, this cat feather toy is an irresistible lure for cats! Swing this feathers \" lure\" will get your cats excited and bring out the \" hunt instinct\", making them running and jumping like a wild animal, driving your cats crazy with joy! Even adult cat play like a kitten again! CLASSIC PRACTICAL INTERACTIVE CAT TOY: This interactive cat toy wand will help your Indoor cats to flip, jump, pounce, chase. Great way to get your cats energy out and do more exercise, making your cat be released and happy! Suitable for kittens and cats of all ages and sizes! A great toy to spend some quality time with your feline friend! Enjoy the happiness time with our toy! This is a CLASSIC cat toys for indoor cats, give your fur baby a try! TELESCOPIC FISHING POLE DESIGN: This cat toys wand extends from 15? in to 38.9?. It's very light, flexible, durable and easy to store. The fully extend cat wand is long enough(38.9 in) plus the string (23.6in) which can cover a large space for playing, it can really get your cats exercise. And it's very light so that cat-teasing is no longer a tough job for you. You can even sit on the couch watching TV while teasing cats with this cat kitten toys. HIGH QUALITY AND SAFETY: The feathers made from Safe, natural material. The telescopic cat wand made of the new material with higher elasticity and hardness. Our clasp is easy to open and close for changing feathers. This cat toys can be used for longer periods of time. It?s good cat gifts! Your fur baby is happy, we are happy. CONSIDERATIONS: The foam handle of the wand is originally designed for pet owner using it more comfortable, it has the advantages of being lightweight, comfortable to hold, and won't blister your hands. As this is an interactive cat toy, we kindly suggest supervise your cat all the time when playing this toy, in case they bite the string and handle. Keep it in a safe place pets can?t reach. Never leave your cat alone with this toy, because cats like to chew things like string and soft things.",
+  "images": [
+    {
+      "id": 24350,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/CFTS.jpg",
+      "alt": "Cat Feather Toy Set",
+      "name": "CFTS"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/cat-feather-toy-set/?add-to-cart=24382",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-01-11T05:07:12",
+  "dateModified": "2026-05-06T17:07:49",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/CFTS.jpg"
+}

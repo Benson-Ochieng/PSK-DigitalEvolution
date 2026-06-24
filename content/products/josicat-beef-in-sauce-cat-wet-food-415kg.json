@@ -4,8 +4,8 @@
   "slug": "josicat-beef-in-sauce-cat-wet-food-415kg",
   "sku": "JBCSP164",
   "onSale": false,
-  "price": 2.99,
-  "regularPrice": 2.99,
+  "price": 299,
+  "regularPrice": 299,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -37,19 +37,11 @@
       "slug": "wet-cat-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/josicat-beef-in-sauce-cat-wet-food-415kg/",
-  "shortDescription": "JOSICAT Beef in Sauce, your cat will be longing for every meal: and it’s all because of these fine pieces in a tasty sauce with beef! Thanks to the Vitamin E, cell protection is improved, while Vitamin D3 supports the development of strong bones in adult cats. So our delicious recipe also does your cat some good!",
-  "description": "JOSICAT Beef in Sauce, your cat will be longing for every meal: and it’s all because of these fine pieces in a tasty sauce with beef! Thanks to the Vitamin E, cell protection is improved, while Vitamin D3 supports the development of strong bones in adult cats. So our delicious recipe also does your cat some good! Fine wet food in sauce with beef, for adult cats With Vitamin E to improve cell protection With Vitamin D3 to support stable bone development Fuss-free: no added preservatives, colourings or flavourings. Complete food for adult cats Analytical constituents protein 7.1 % fat content 4.1 % crude fibre 0.5 % crude ash 2.5 % Feeding Guide: weight 2 -3kg 3 – 4kg 4 – 5kg 5 – 7kg feed quantities/24h 170 – 220g 220 -270g 270 – 320g 320g – 400g Please note that the quantities stated are a guide only and must be adapted to your animal’s nutritional status and its activity. Please make sure your animal has fresh water at all times. After opening, keep refrigerated between 2 to 6 °C, and use at room temperature within 24 hours. Composition: Beef and animal derivatives; cereals; fish; minerals; caramel syrup.",
-  "images": [
+  "brands": [
     {
-      "id": 90156,
-      "alt": "Josicat Beef In Sauce Cat Wet Food 415g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/04/Jisicat-in-sause.png",
-      "name": "Jisicat in sause"
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "tags": [
@@ -74,20 +66,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josicat-beef-in-sauce-cat-wet-food-415kg/",
+  "shortDescription": "JOSICAT Beef in Sauce, your cat will be longing for every meal: and it’s all because of these fine pieces in a tasty sauce with beef! Thanks to the Vitamin E, cell protection is improved, while Vitamin D3 supports the development of strong bones in adult cats. So our delicious recipe also does your cat some good!",
+  "description": "JOSICAT Beef in Sauce, your cat will be longing for every meal: and it’s all because of these fine pieces in a tasty sauce with beef! Thanks to the Vitamin E, cell protection is improved, while Vitamin D3 supports the development of strong bones in adult cats. So our delicious recipe also does your cat some good! Fine wet food in sauce with beef, for adult cats With Vitamin E to improve cell protection With Vitamin D3 to support stable bone development Fuss-free: no added preservatives, colourings or flavourings. Complete food for adult cats Analytical constituents protein 7.1 % fat content 4.1 % crude fibre 0.5 % crude ash 2.5 % Feeding Guide: weight 2 -3kg 3 – 4kg 4 – 5kg 5 – 7kg feed quantities/24h 170 – 220g 220 -270g 270 – 320g 320g – 400g Please note that the quantities stated are a guide only and must be adapted to your animal’s nutritional status and its activity. Please make sure your animal has fresh water at all times. After opening, keep refrigerated between 2 to 6 °C, and use at room temperature within 24 hours. Composition: Beef and animal derivatives; cereals; fish; minerals; caramel syrup.",
+  "images": [
     {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
+      "id": 90156,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/04/Jisicat-in-sause.png",
+      "alt": "Josicat Beef In Sauce Cat Wet Food 415g",
+      "name": "Jisicat in sause"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=46102",
+  "addToCartUrl": "https://petstore.co.ke/product/josicat-beef-in-sauce-cat-wet-food-415kg/?add-to-cart=46102",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.379Z",
-  "dateModified": "2026-06-23T09:15:51.379Z"
+  "dateCreated": "2024-04-15T12:31:37",
+  "dateModified": "2026-06-17T05:01:28",
+  "brand": "Josera",
+  "weight_kg": 0.415,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/Jisicat-in-sause.png"
 }

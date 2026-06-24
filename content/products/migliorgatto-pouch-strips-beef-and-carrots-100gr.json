@@ -4,8 +4,8 @@
   "slug": "migliorgatto-pouch-strips-beef-and-carrots-100gr",
   "sku": "MCW014",
   "onSale": false,
-  "price": 1.77,
-  "regularPrice": 1.77,
+  "price": 177,
+  "regularPrice": 177,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "wet-cat-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/migliorgatto-pouch-strips-beef-and-carrots-100gr/",
-  "shortDescription": "Formula designed to guarantee the key nutrients required for the well-being of your cat, including vitamins, Omega 3, calcium and phosphorous to support strong bones and teeth, healthy skin and glossy coat, and toned musculature.",
-  "description": "COMPOSITION: Cereals, meat and animal derivatives 42% (beef 4%), oil and fats, derivatives of vegetable origin, minerals, yeasts. ANALYTICAL CONSTITUENTS: Crude protein 30.00%, Crude fibres 2.00%, Crude fat 11.00%, Crude ash 9.00%, Calcium 2.3%, Phosphorus 1.5%, Sodium 0.65%, Omega 3 fatty acids 0.29%, Omega 6 fatty acids 1.6%. Nutritional additives / kg: Vitamin A 13400 IU, Vitamin D3 930 IU, Vitamin E 85 mg, Iron (Iron (II) carbonate (siderite)) 37.2 mg, Zinc (Zinc oxide) 74.4 mg, Copper (Copper (II) sulphate pentahydrate) 6.1 mg, Manganese (Manganese (II) oxide) 3.7 mg, Iodine (Potassium iodide) 1.9 mg, Selenium (Sodium selenite) 0.1 mg. Antioxidants. HOW TO USE: The product is ready to use. The daily amount recommended may vary due to age or particular needs of every cat. We suggest to switch gradually to the new food. Leave always available to your cat a bowl of pure water. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight",
-  "images": [
+  "brands": [
     {
-      "id": 50428,
-      "alt": "Pack Of 24 – Miglior Cat Food Pouch – Beef & Carrots 100g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/04/Migliorgatto-Adult-Cat-Food-Pouch-strips-Beef-and-Carrots-100Gr.png",
-      "name": "Migliorgatto Adult Cat Food Pouch strips Beef and Carrots 100Gr"
+      "id": 2451,
+      "name": "Miglior",
+      "slug": "miglior"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/migliorgatto-pouch-strips-beef-and-carrots-100gr/",
+  "shortDescription": "Formula designed to guarantee the key nutrients required for the well-being of your cat, including vitamins, Omega 3, calcium and phosphorous to support strong bones and teeth, healthy skin and glossy coat, and toned musculature.",
+  "description": "COMPOSITION: Cereals, meat and animal derivatives 42% (beef 4%), oil and fats, derivatives of vegetable origin, minerals, yeasts. ANALYTICAL CONSTITUENTS: Crude protein 30.00%, Crude fibres 2.00%, Crude fat 11.00%, Crude ash 9.00%, Calcium 2.3%, Phosphorus 1.5%, Sodium 0.65%, Omega 3 fatty acids 0.29%, Omega 6 fatty acids 1.6%. Nutritional additives / kg: Vitamin A 13400 IU, Vitamin D3 930 IU, Vitamin E 85 mg, Iron (Iron (II) carbonate (siderite)) 37.2 mg, Zinc (Zinc oxide) 74.4 mg, Copper (Copper (II) sulphate pentahydrate) 6.1 mg, Manganese (Manganese (II) oxide) 3.7 mg, Iodine (Potassium iodide) 1.9 mg, Selenium (Sodium selenite) 0.1 mg. Antioxidants. HOW TO USE: The product is ready to use. The daily amount recommended may vary due to age or particular needs of every cat. We suggest to switch gradually to the new food. Leave always available to your cat a bowl of pure water. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight",
+  "images": [
     {
-      "id": 2451,
-      "name": "Miglior",
-      "slug": "miglior"
+      "id": 50428,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/04/Migliorgatto-Adult-Cat-Food-Pouch-strips-Beef-and-Carrots-100Gr.png",
+      "alt": "Pack Of 24 – Miglior Cat Food Pouch – Beef & Carrots 100g",
+      "name": "Migliorgatto Adult Cat Food Pouch strips Beef and Carrots 100Gr"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=3&#038;add-to-cart=28286",
+  "addToCartUrl": "https://petstore.co.ke/product/migliorgatto-pouch-strips-beef-and-carrots-100gr/?add-to-cart=28286",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.265Z",
-  "dateModified": "2026-06-23T09:15:51.265Z"
+  "dateCreated": "2022-07-15T11:21:14",
+  "dateModified": "2026-06-24T14:12:07",
+  "brand": "Miglior",
+  "weight_kg": 0.1,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/04/Migliorgatto-Adult-Cat-Food-Pouch-strips-Beef-and-Carrots-100Gr.png"
 }

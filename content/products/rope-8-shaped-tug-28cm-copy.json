@@ -1,0 +1,71 @@
+{
+  "id": 43667,
+  "name": "Rope 8-Shaped Tug 28cm",
+  "slug": "rope-8-shaped-tug-28cm-copy",
+  "sku": "PA3982@F",
+  "onSale": true,
+  "price": 720,
+  "regularPrice": 800,
+  "salePrice": 720,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/Rope-8-shaped-tug-28cm.webp",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2357,
+      "name": "Dog Fetch Toys",
+      "slug": "dog-fetch-toys"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2359,
+      "name": "Rope & Tug Toys",
+      "slug": "dog-rope-tug-toys"
+    }
+  ],
+  "brands": [],
+  "tags": [],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=43667",
+  "shortDescription": "Dog toy 8 shaped rope and tennis ball, interactive for fetch for small dogs and puppies chew toy.",
+  "description": "Dog toy 8 shaped rope and tennis ball, interactive for fetch for small dogs and puppies chew toy. Your dog will love the time he spends with this toy, this fun, figure 8 knotted rope toy is strong and sturdy, features and attached tennis ball in the middle and it is perfect for tugging, fetching and chewing. &nbsp;",
+  "images": [
+    {
+      "id": 42746,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/12/Rope-8-shaped-tug-28cm.webp",
+      "alt": "Rope 8-Shaped Tug 28cm",
+      "name": "Rope 8-shaped tug 28cm"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/rope-8-shaped-tug-28cm-copy/?add-to-cart=43667",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2024-01-30T11:37:17",
+  "dateModified": "2026-05-06T17:09:27",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/Rope-8-shaped-tug-28cm.webp"
+}

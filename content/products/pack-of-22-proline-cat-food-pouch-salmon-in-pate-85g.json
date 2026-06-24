@@ -4,9 +4,9 @@
   "slug": "pack-of-22-proline-cat-food-pouch-salmon-in-pate-85g",
   "sku": "PCW014$22",
   "onSale": true,
-  "price": 25.74,
-  "regularPrice": 28.6,
-  "salePrice": 25.74,
+  "price": 2574,
+  "regularPrice": 2860,
+  "salePrice": 2574,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/proline-with-salmon-.png",
@@ -32,25 +32,17 @@
       "slug": "wet-cat-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pack-of-22-proline-cat-food-pouch-salmon-in-pate-85g/",
-  "shortDescription": "Proline Pouch Cat Food Salmon in Pate 85g a complete, balanced wet cat food rich in Omega-3 &amp; 6 to support healthy skin, coat, and hydration.",
-  "description": "Proline Pouch Cat Food Salmon in Pate 85g is a nutritious, fully balanced wet cat food made with high-quality salmon to support your cat’s overall health, hydration, and skin condition. Crafted in a smooth, soft pate texture, it is highly palatable and ideal for adult cats, including picky eaters. This all-natural wet food provides essential vitamins, minerals, and moisture to help maintain a healthy immune system, proper organ function, and daily hydration. Rich in Omega-3 and Omega-6 fatty acids, Proline Salmon in Pate helps promote healthy skin, a shiny coat, and reduced dryness or irritation. Its high moisture content also supports kidney and urinary tract health, making it an excellent choice for cats that need additional hydration. Conveniently packed in an 85g single-serve pouch, Proline Salmon in Pate ensures freshness at every meal while making portion control easy for cat owners. Key Benefits High-quality salmon protein supports muscle maintenance and daily energy Omega-3 &amp; Omega-6 fatty acids promote healthy skin and a glossy coat Soft pate texture ideal for adult cats and fussy eaters High moisture content supports hydration, kidney, and urinary health Complete and balanced nutrition with essential vitamins and minerals Feeding Guidelines Serve one 85g pouch per meal or adjust according to your cat’s age, weight, and activity level Serve at room temperature Refrigerate unused portions and use within a short time Suitable For Adult cats Cats requiring soft, wet food Cats needing skin, coat, or hydration support &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 66529,
-      "alt": "Proline Cat Food Pouch Salmon In Pate 85g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/proline-with-salmon-.png",
-      "name": "proline with salmon"
+      "id": 2461,
+      "name": "Proline",
+      "slug": "proline"
     }
   ],
   "tags": [
     {
       "id": 2055,
-      "name": "Bulk Cat Food &amp; Bulk Dog Food",
+      "name": "Bulk Cat Food & Bulk Dog Food",
       "slug": "bulk"
     },
     {
@@ -74,20 +66,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/pack-of-22-proline-cat-food-pouch-salmon-in-pate-85g/",
+  "shortDescription": "Proline Pouch Cat Food Salmon in Pate 85g a complete, balanced wet cat food rich in Omega-3 & 6 to support healthy skin, coat, and hydration.",
+  "description": "Proline Pouch Cat Food Salmon in Pate 85g is a nutritious, fully balanced wet cat food made with high-quality salmon to support your cat’s overall health, hydration, and skin condition. Crafted in a smooth, soft pate texture, it is highly palatable and ideal for adult cats, including picky eaters. This all-natural wet food provides essential vitamins, minerals, and moisture to help maintain a healthy immune system, proper organ function, and daily hydration. Rich in Omega-3 and Omega-6 fatty acids, Proline Salmon in Pate helps promote healthy skin, a shiny coat, and reduced dryness or irritation. Its high moisture content also supports kidney and urinary tract health, making it an excellent choice for cats that need additional hydration. Conveniently packed in an 85g single-serve pouch, Proline Salmon in Pate ensures freshness at every meal while making portion control easy for cat owners. Key Benefits High-quality salmon protein supports muscle maintenance and daily energy Omega-3 & Omega-6 fatty acids promote healthy skin and a glossy coat Soft pate texture ideal for adult cats and fussy eaters High moisture content supports hydration, kidney, and urinary health Complete and balanced nutrition with essential vitamins and minerals Feeding Guidelines Serve one 85g pouch per meal or adjust according to your cat’s age, weight, and activity level Serve at room temperature Refrigerate unused portions and use within a short time Suitable For Adult cats Cats requiring soft, wet food Cats needing skin, coat, or hydration support &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2461,
-      "name": "Proline",
-      "slug": "proline"
+      "id": 66529,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/proline-with-salmon-.png",
+      "alt": "Proline Cat Food Pouch Salmon In Pate 85g",
+      "name": "proline with salmon"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=90044",
+  "addToCartUrl": "https://petstore.co.ke/product/pack-of-22-proline-cat-food-pouch-salmon-in-pate-85g/?add-to-cart=90044",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:52.010Z",
-  "dateModified": "2026-06-23T09:15:52.010Z"
+  "dateCreated": "2026-05-26T12:03:34",
+  "dateModified": "2026-06-23T09:12:13",
+  "brand": "Proline",
+  "weight_kg": 0.085,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/proline-with-salmon-.png"
 }

@@ -4,18 +4,13 @@
   "slug": "juicy-bites-shrimp-seafood-mix-cat-treats",
   "sku": "BJCT002",
   "onSale": false,
-  "price": 4.3,
-  "regularPrice": 4.3,
+  "price": 430,
+  "regularPrice": 430,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/Juicy-Bites-Shrimp-Seafood-Mix-Flavor.png",
   "categories": [
-    {
-      "id": 2415,
-      "name": "Inaba",
-      "slug": "inaba"
-    },
     {
       "id": 2325,
       "name": "Cat",
@@ -37,24 +32,21 @@
       "slug": "churu"
     },
     {
+      "id": 2415,
+      "name": "Inaba",
+      "slug": "inaba"
+    },
+    {
       "id": 2145,
       "name": "kitten",
       "slug": "kitten"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/juicy-bites-shrimp-seafood-mix-cat-treats/",
-  "shortDescription": "Inaba Juicy Bites cat treats in Shrimp &amp; Seafood Mix Flavor. Moist, bite-sized, grain-free treats enriched with Vitamin E &amp; antioxidants. Perfect for handfeeding, play, or training. &nbsp;",
-  "description": "Treat your cat to the delicious, moist goodness of Inaba Foods Juicy Bites in Shrimp &amp; Seafood Mix Flavor , soft, bite-sized treats made with natural tuna and farm-raised chicken. Enhanced with shrimp, scallop, and crab flavors, these tasty morsels are free from grains, preservatives, and artificial colors, making them suitable for cats of all life stages. Each mini pouch is portion-controlled to maintain freshness and lock in moisture (70–71%), ensuring easy chewing and hydration. Perfect for handfeeding, interactive play, clicker training, or hiding medications, these treats combine flavor, convenience, and nutrition in every bite. Enriched with Vitamin E for immune support and Green Tea Extract for antioxidant benefits, Juicy Bites Shrimp &amp; Seafood Mix Flavor provides a healthy, enjoyable treat that keeps your cat engaged and happy. Key Benefits . Moist, bite-sized treats with 70–71% moisture for hydration . Only ~15 kcal per piece, perfect for portion control . Grain-free, preservative-free, and no artificial colors . Enriched with Vitamin E &amp; Green Tea Extract for immune support and antioxidants . Ideal for handfeeding, interactive play, clicker training, or hiding medications . Convenient mini pouches for freshness and controlled portions . Suitable for kittens, adults, and senior cats Ingredients Chicken, Tuna, Tapioca, Natural Shrimp, Tuna, Scallop, and Crab Flavors, Green Tea Extract, Vitamin E Supplement, Paprika Oleoresin Guaranteed Analysis Crude Protein (min): 24% Crude Fat (min): 2.5% Crude Fiber (max): 0.5% Ash (max): 1.5% Taurine (min): 0.02% Vitamin E (min): 200 IU/kg Calories: ~15 kcal per piece Net Weight: 1.2oz (0.4oz x 3 pouches) Feeding Instructions Feed as a complementary treat only, not as a full meal. Provide clean, fresh water daily. Storage Instructions Store in a cool, dry place at room temperature. Refrigerate after opening if possible and serve promptly to maintain freshness. &nbsp; &nbsp; &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 69960,
-      "alt": "Inaba Foods Cat Treat Juicy Bites In Shrimp & Seafood Mix Flavor",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/02/Juicy-Bites-Shrimp-Seafood-Mix-Flavor.png",
-      "name": "Juicy Bites Shrimp &#038; Seafood Mix Flavor"
+      "id": 2433,
+      "name": "Churu",
+      "slug": "churu"
     }
   ],
   "tags": [
@@ -69,20 +61,33 @@
       "slug": "treats"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/juicy-bites-shrimp-seafood-mix-cat-treats/",
+  "shortDescription": "Inaba Juicy Bites cat treats in Shrimp & Seafood Mix Flavor. Moist, bite-sized, grain-free treats enriched with Vitamin E & antioxidants. Perfect for handfeeding, play, or training. &nbsp;",
+  "description": "Treat your cat to the delicious, moist goodness of Inaba Foods Juicy Bites in Shrimp & Seafood Mix Flavor , soft, bite-sized treats made with natural tuna and farm-raised chicken. Enhanced with shrimp, scallop, and crab flavors, these tasty morsels are free from grains, preservatives, and artificial colors, making them suitable for cats of all life stages. Each mini pouch is portion-controlled to maintain freshness and lock in moisture (70–71%), ensuring easy chewing and hydration. Perfect for handfeeding, interactive play, clicker training, or hiding medications, these treats combine flavor, convenience, and nutrition in every bite. Enriched with Vitamin E for immune support and Green Tea Extract for antioxidant benefits, Juicy Bites Shrimp & Seafood Mix Flavor provides a healthy, enjoyable treat that keeps your cat engaged and happy. Key Benefits . Moist, bite-sized treats with 70–71% moisture for hydration . Only ~15 kcal per piece, perfect for portion control . Grain-free, preservative-free, and no artificial colors . Enriched with Vitamin E & Green Tea Extract for immune support and antioxidants . Ideal for handfeeding, interactive play, clicker training, or hiding medications . Convenient mini pouches for freshness and controlled portions . Suitable for kittens, adults, and senior cats Ingredients Chicken, Tuna, Tapioca, Natural Shrimp, Tuna, Scallop, and Crab Flavors, Green Tea Extract, Vitamin E Supplement, Paprika Oleoresin Guaranteed Analysis Crude Protein (min): 24% Crude Fat (min): 2.5% Crude Fiber (max): 0.5% Ash (max): 1.5% Taurine (min): 0.02% Vitamin E (min): 200 IU/kg Calories: ~15 kcal per piece Net Weight: 1.2oz (0.4oz x 3 pouches) Feeding Instructions Feed as a complementary treat only, not as a full meal. Provide clean, fresh water daily. Storage Instructions Store in a cool, dry place at room temperature. Refrigerate after opening if possible and serve promptly to maintain freshness. &nbsp; &nbsp; &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2433,
-      "name": "Churu",
-      "slug": "churu"
+      "id": 69960,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/02/Juicy-Bites-Shrimp-Seafood-Mix-Flavor.png",
+      "alt": "Inaba Foods Cat Treat Juicy Bites In Shrimp & Seafood Mix Flavor",
+      "name": "Juicy Bites Shrimp &#038; Seafood Mix Flavor"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=69959",
+  "addToCartUrl": "https://petstore.co.ke/product/juicy-bites-shrimp-seafood-mix-cat-treats/?add-to-cart=69959",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.939Z",
-  "dateModified": "2026-06-23T09:15:51.939Z"
+  "dateCreated": "2026-02-23T11:31:51",
+  "dateModified": "2026-06-17T04:30:36",
+  "brand": "Churu",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/Juicy-Bites-Shrimp-Seafood-Mix-Flavor.png"
 }

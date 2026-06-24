@@ -4,8 +4,8 @@
   "slug": "rogz-alpinist-classic-harness-medium-chocolate-patterned-sj23-j-2",
   "sku": "SJ23-J",
   "onSale": false,
-  "price": 16.5,
-  "regularPrice": 16.5,
+  "price": 1650,
+  "regularPrice": 1650,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,6 +32,14 @@
       "slug": "rogz"
     }
   ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2318,
+      "name": "Harnesses",
+      "slug": "harness"
+    }
+  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
@@ -42,26 +50,23 @@
   "images": [
     {
       "id": 47718,
-      "alt": "Rogz Alpinist Classic Harness Medium Chocolate Patterned (Sj23-J)",
       "src": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-ALPINIST-CLASSIC-HARNESS-MEDIUM-CHOCOLATE-PATTERNED-SJ23-J.jpg",
+      "alt": "Rogz Alpinist Classic Harness Medium Chocolate Patterned (Sj23-J)",
       "name": "ROGZ ALPINIST CLASSIC HARNESS -MEDIUM CHOCOLATE PATTERNED (SJ23-J)"
     }
   ],
-  "tags": [
-    {
-      "id": 2318,
-      "name": "Harnesses",
-      "slug": "harness"
-    }
-  ],
-  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=47717",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-alpinist-classic-harness-medium-chocolate-patterned-sj23-j-2/?add-to-cart=47717",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.419Z",
-  "dateModified": "2026-06-23T09:15:51.419Z"
+  "dateCreated": "2024-06-11T10:53:02",
+  "dateModified": "2026-06-17T04:14:39",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-ALPINIST-CLASSIC-HARNESS-MEDIUM-CHOCOLATE-PATTERNED-SJ23-J.jpg"
 }

@@ -1,0 +1,63 @@
+{
+  "id": 50766,
+  "name": "Bonnie Adult Cat Food Canned - Fish Chunks inGravy 0.4Kg",
+  "slug": "bonnie-adult-cat-food-canned-fish-chunks-in-gravy-0-4kg",
+  "sku": "BCW004@F",
+  "onSale": true,
+  "price": 202,
+  "regularPrice": 259,
+  "salePrice": 202,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2018/02/Untitled-design-24.png",
+  "categories": [
+    {
+      "id": 177,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2428,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2223,
+      "name": "flash",
+      "slug": "flash"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=50766",
+  "shortDescription": "(4 pieces minimum order) Full-balanced, fish protein-containing canned (wet) cat food carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult breeds.",
+  "description": "Bonnie Fish Adult Cat Canned Food , fully balanced, fish protein-containing cat food carefully formulated by cat nutritionists to meet the nutritional requirements of all adult breeds. NUTRIENT COMPONENTS Crude Protein (%) - 6.5 Crude Oils & Fats (%) - 3.5 Crude Fiber (%) -0.3 Moisture (%) -80 Crude Ash (%) - 2 Vitamin A (Min) -1650 IE/kg Vitamin D3 (Min) - 210 IE/kg Iron - 9.6 mg/kg Copper -1.4 mg/kg Iodine -0.24 mg/kg Manganese -1.8 mg/kg Zinc - 9.5 mg/kg Selenium -0.025 mg/kg INGREDIENTS: Meat and Animal Derivatives, Fish and Fish Derivatives (Fish 4%), Cereals, Minerals, Vegetal Protein Extracts, Cassia Gum (2200 mg/kg), Preservatives and Colourants. MINERALS: Iron, Copper, Iodine, Manganese, Zinc, Selenium VITAMINS: Vit A,Vit D3",
+  "images": [
+    {
+      "id": 34839,
+      "src": "https://petstore.co.ke/wp-content/uploads/2018/02/Untitled-design-24.png",
+      "alt": "Bonnie Canned Cat Food – Fish 400g",
+      "name": "Untitled design (24)"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": false,
+  "addToCartUrl": "https://petstore.co.ke/product/bonnie-adult-cat-food-canned-fish-chunks-in-gravy-0-4kg/?add-to-cart=50766",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2024-10-13T11:54:07",
+  "dateModified": "2026-06-17T04:32:52",
+  "brand": "Bonnie",
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2018/02/Untitled-design-24.png"
+}

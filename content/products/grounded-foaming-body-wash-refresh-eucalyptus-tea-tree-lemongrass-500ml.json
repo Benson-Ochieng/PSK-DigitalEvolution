@@ -4,8 +4,8 @@
   "slug": "grounded-foaming-body-wash-refresh-eucalyptus-tea-tree-lemongrass-500ml",
   "sku": "BW05REF",
   "onSale": false,
-  "price": 12.5,
-  "regularPrice": 12.5,
+  "price": 1250,
+  "regularPrice": 1250,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -22,19 +22,11 @@
       "slug": "human"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/grounded-foaming-body-wash-refresh-eucalyptus-tea-tree-lemongrass-500ml/",
-  "shortDescription": "Castile-soap handwash in a refillable foaming dispenser. Boosted with natural essential oils for fragrance and to fight germs.",
-  "description": "Castile-soap handwash in a refillable foaming dispenser. Boosted with natural essential oils for fragrance and to fight germs. Comes with a refillable foaming pump . Buy one for each sink and top up on our 1L and 5L refills. Each 500ml pump lasts 500 hand washes. That’s 4x traditional gel hand soaps! According to one customer, “the Hand Soap Tea Tree + Clove is my go-to for shaving my head! The foaming soap lathers so nicely, and the baobab oil leaves my head smooth and moisturized&#8221;. Ingredients: Foaming Hand Soap Lemongrass + Eucalyptus: Saponified Coconut, Canola, Sunflower Oils; Citric Acid, Baobab Oil, Eucalyptus &amp; Lemongrass Essential Oils. &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 49013,
-      "alt": "Grounded Foaming Hand Soap Refresh Eucalyptus Tea Tree Lemongrass 500ml",
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/07/Hand-Soap-Lemongrass-Eucalyptus-500ml-scaled-1.jpg",
-      "name": "Hand-Soap-Lemongrass-Eucalyptus-500ml-scaled"
+      "id": 2441,
+      "name": "Grounded",
+      "slug": "grounded"
     }
   ],
   "tags": [
@@ -44,20 +36,33 @@
       "slug": "human"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/grounded-foaming-body-wash-refresh-eucalyptus-tea-tree-lemongrass-500ml/",
+  "shortDescription": "Castile-soap handwash in a refillable foaming dispenser. Boosted with natural essential oils for fragrance and to fight germs.",
+  "description": "Castile-soap handwash in a refillable foaming dispenser. Boosted with natural essential oils for fragrance and to fight germs. Comes with a refillable foaming pump . Buy one for each sink and top up on our 1L and 5L refills. Each 500ml pump lasts 500 hand washes. That’s 4x traditional gel hand soaps! According to one customer, “the Hand Soap Tea Tree + Clove is my go-to for shaving my head! The foaming soap lathers so nicely, and the baobab oil leaves my head smooth and moisturized\". Ingredients: Foaming Hand Soap Lemongrass + Eucalyptus: Saponified Coconut, Canola, Sunflower Oils; Citric Acid, Baobab Oil, Eucalyptus & Lemongrass Essential Oils. &nbsp;",
+  "images": [
     {
-      "id": 2441,
-      "name": "Grounded",
-      "slug": "grounded"
+      "id": 49013,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/07/Hand-Soap-Lemongrass-Eucalyptus-500ml-scaled-1.jpg",
+      "alt": "Grounded Foaming Hand Soap Refresh Eucalyptus Tea Tree Lemongrass 500ml",
+      "name": "Hand-Soap-Lemongrass-Eucalyptus-500ml-scaled"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": null,
+  "lowStockRemaining": 5,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=5&#038;add-to-cart=49012",
+  "addToCartUrl": "https://petstore.co.ke/product/grounded-foaming-body-wash-refresh-eucalyptus-tea-tree-lemongrass-500ml/?add-to-cart=49012",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.455Z",
-  "dateModified": "2026-06-23T09:15:51.455Z"
+  "dateCreated": "2024-07-30T12:06:38",
+  "dateModified": "2026-06-17T04:29:50",
+  "brand": "Grounded",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/07/Hand-Soap-Lemongrass-Eucalyptus-500ml-scaled-1.jpg"
 }

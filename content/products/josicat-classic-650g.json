@@ -4,8 +4,8 @@
   "slug": "josicat-classic-650g",
   "sku": "JCJC002",
   "onSale": false,
-  "price": 9.6,
-  "regularPrice": 9.6,
+  "price": 960,
+  "regularPrice": 960,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "josera"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/josicat-classic-650g/",
-  "shortDescription": "Josera Classic is an exquisite menu with tasty salmon. Complete feed for adult cats. Well-balanced cat food with all the necessary nutrients and proven JOSERA quality. Suitable for both indoor and outdoor cats. No added artificial colours, flavours or preservatives. No added soy, sugar or milk products.",
-  "description": "Composition: meat and animal by-products, cereals, oils and fats, vegetable by-products; fish and fish by-products (salmon meal 4.0 %); minerals. Product Details: Exquisite menu with tasty salmon Complete feed for adult cats Well-balanced cat food with all the necessary nutrients and proven JOSERA quality Suitable for both indoor and outdoor cats No added artificial colors, flavors or preservatives No added soy, sugar or milk products Why Pet Parents Love It With Salmon (4%) – a natural source of high-quality protein and omega fatty acids for a shiny coat and healthy skin. Perfect for Indoor &amp; Outdoor Cats – balanced energy levels for different lifestyles. Supports Strong Muscles &amp; Immunity – enriched with essential vitamins and minerals. Gentle on Digestion – made with easily digestible ingredients for happy tummies. No Unwanted Additives – free from artificial colors, flavors, preservatives, soy, sugar, or milk products.",
-  "images": [
+  "brands": [
     {
-      "id": 23791,
-      "alt": "JosiCat Classic 650g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JCJC002.jpg",
-      "name": "JCJC002.jpg"
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "tags": [
@@ -59,20 +51,33 @@
       "slug": "catfood"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josicat-classic-650g/",
+  "shortDescription": "Josera Classic is an exquisite menu with tasty salmon. Complete feed for adult cats. Well-balanced cat food with all the necessary nutrients and proven JOSERA quality. Suitable for both indoor and outdoor cats. No added artificial colours, flavours or preservatives. No added soy, sugar or milk products.",
+  "description": "Composition: meat and animal by-products, cereals, oils and fats, vegetable by-products; fish and fish by-products (salmon meal 4.0 %); minerals. Product Details: Exquisite menu with tasty salmon Complete feed for adult cats Well-balanced cat food with all the necessary nutrients and proven JOSERA quality Suitable for both indoor and outdoor cats No added artificial colors, flavors or preservatives No added soy, sugar or milk products Why Pet Parents Love It With Salmon (4%) – a natural source of high-quality protein and omega fatty acids for a shiny coat and healthy skin. Perfect for Indoor & Outdoor Cats – balanced energy levels for different lifestyles. Supports Strong Muscles & Immunity – enriched with essential vitamins and minerals. Gentle on Digestion – made with easily digestible ingredients for happy tummies. No Unwanted Additives – free from artificial colors, flavors, preservatives, soy, sugar, or milk products.",
+  "images": [
     {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
+      "id": 23791,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JCJC002.jpg",
+      "alt": "JosiCat Classic 650g",
+      "name": "JCJC002.jpg"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=2&#038;add-to-cart=23767",
+  "addToCartUrl": "https://petstore.co.ke/product/josicat-classic-650g/?add-to-cart=23767",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.206Z",
-  "dateModified": "2026-06-23T09:15:51.206Z"
+  "dateCreated": "2021-10-29T07:55:43",
+  "dateModified": "2026-06-17T04:29:34",
+  "brand": "Josera",
+  "weight_kg": 0.65,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JCJC002.jpg"
 }

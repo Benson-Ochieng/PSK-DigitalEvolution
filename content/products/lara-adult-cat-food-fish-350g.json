@@ -1,0 +1,78 @@
+{
+  "id": 56820,
+  "name": "Lara Adult Cat Food Fish 350g",
+  "slug": "lara-adult-cat-food-fish-350g",
+  "sku": "LACFF350",
+  "onSale": false,
+  "price": 495,
+  "regularPrice": 495,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-53.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 2401,
+      "name": "Lara",
+      "slug": "lara"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2447,
+      "name": "Lara",
+      "slug": "lara"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/lara-adult-cat-food-fish-350g/",
+  "shortDescription": "Spoil your cat with the crispy chunks from Lara Adult Beef flavour, a real taste sensation for your cat. The chunks with beef flavor and chicken contain all the necessary minerals and vitamins that your active cat may use. Lara Adult Beef flavor is a complete food for adult cats from 1 year old.",
+  "description": "Key Benefits: A complete food – delicious chunks with salmon Perfect meal to keep your kitty healthy and fit Contains all the vital minerals and vitamins Rich in animal protein from salmon and chicken Supports your cat’s active lifestyle Made in Belgium Recommended For: Adult cats from 1 year old. &nbsp;",
+  "images": [
+    {
+      "id": 56817,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-53.png",
+      "alt": "Lara Adult Cat Food Beef 2kg",
+      "name": "Untitled design (53)"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/lara-adult-cat-food-fish-350g/?add-to-cart=56820",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2025-07-14T11:48:31",
+  "dateModified": "2026-06-17T04:29:02",
+  "brand": "Lara",
+  "weight_kg": 0.35,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-53.png"
+}

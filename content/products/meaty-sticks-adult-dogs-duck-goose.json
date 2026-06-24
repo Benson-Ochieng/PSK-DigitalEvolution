@@ -1,12 +1,12 @@
 {
   "id": 68708,
-  "name": "Reflex Dog Stick Treats With Duck Andgoose 33g",
+  "name": "Reflex Dog Stick Treats With Duck & Goose 33g",
   "slug": "meaty-sticks-adult-dogs-duck-goose",
   "sku": "RDT035",
-  "onSale": false,
-  "price": 2.3,
-  "regularPrice": 2.3,
-  "salePrice": null,
+  "onSale": true,
+  "price": 184,
+  "regularPrice": 230,
+  "salePrice": 184,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/duck-and-goose-dog-.png",
@@ -32,19 +32,11 @@
       "slug": "reflex"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/meaty-sticks-adult-dogs-duck-goose/",
-  "shortDescription": "Grain-free Meaty Sticks for adult dogs with duck &amp; goose. 95% meat content, soft and tasty reward sticks ideal for training and everyday treats.",
-  "description": "Give your dog a deliciously rich reward with Meaty Sticks for Adult Dogs with Duck &amp; Goose . Made with an impressive 95% meat and animal derivatives , these grain-free reward sticks deliver exceptional taste and quality nutrition in every bite. Featuring a flavorful blend of duck and goose (4% each) , this recipe offers a unique, savory taste that dogs love. With a balanced protein and fat profile, Meaty Sticks help support muscle maintenance and everyday energy needs. Their soft texture makes them easy to chew and portion, making them perfect for training, rewarding good behavior, or treating between meals. Designed to complement a balanced adult dog diet, Meaty Sticks turn every reward moment into a wholesome, enjoyable experience. Key Benefits 95% high-quality meat content With duck &amp; goose for a rich, savory flavor Grain-free and easy to digest Supports muscle maintenance and daily vitality Soft, easy-to-feed reward sticks Ideal for training and occasional treating Feed as a treat. Always ensure fresh drinking water is available. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 68709,
-      "alt": "Reflex Dog Stick Treats With Duck Andgoose 33g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/duck-and-goose-dog-.png",
-      "name": "duck and goose dog"
+      "id": 2462,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "tags": [
@@ -59,25 +51,43 @@
       "slug": "new-arrivals"
     },
     {
+      "id": 939,
+      "name": "On Sale Now",
+      "slug": "sale"
+    },
+    {
       "id": 1156,
       "name": "treats",
       "slug": "treats"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/meaty-sticks-adult-dogs-duck-goose/",
+  "shortDescription": "Grain-free Meaty Sticks for adult dogs with duck & goose. 95% meat content, soft and tasty reward sticks ideal for training and everyday treats.",
+  "description": "Give your dog a deliciously rich reward with Meaty Sticks for Adult Dogs with Duck & Goose . Made with an impressive 95% meat and animal derivatives , these grain-free reward sticks deliver exceptional taste and quality nutrition in every bite. Featuring a flavorful blend of duck and goose (4% each) , this recipe offers a unique, savory taste that dogs love. With a balanced protein and fat profile, Meaty Sticks help support muscle maintenance and everyday energy needs. Their soft texture makes them easy to chew and portion, making them perfect for training, rewarding good behavior, or treating between meals. Designed to complement a balanced adult dog diet, Meaty Sticks turn every reward moment into a wholesome, enjoyable experience. Key Benefits 95% high-quality meat content With duck & goose for a rich, savory flavor Grain-free and easy to digest Supports muscle maintenance and daily vitality Soft, easy-to-feed reward sticks Ideal for training and occasional treating Feed as a treat. Always ensure fresh drinking water is available. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
+      "id": 68709,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/duck-and-goose-dog-.png",
+      "alt": "Reflex Dog Stick Treats With Duck Andgoose 33g",
+      "name": "duck and goose dog"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": null,
+  "lowStockRemaining": 5,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=68708",
+  "addToCartUrl": "https://petstore.co.ke/product/meaty-sticks-adult-dogs-duck-goose/?add-to-cart=68708",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.866Z",
-  "dateModified": "2026-06-23T09:15:51.866Z"
+  "dateCreated": "2026-01-30T12:51:51",
+  "dateModified": "2026-06-23T14:22:31",
+  "brand": "Reflex",
+  "weight_kg": 0.15,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/duck-and-goose-dog-.png"
 }

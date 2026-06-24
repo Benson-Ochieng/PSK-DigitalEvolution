@@ -4,8 +4,8 @@
   "slug": "vinyl-squeaky-drumstick",
   "sku": "PA3295",
   "onSale": false,
-  "price": 7.2,
-  "regularPrice": 7.2,
+  "price": 720,
+  "regularPrice": 720,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,21 +32,7 @@
       "slug": "dog-toys"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/vinyl-squeaky-drumstick/",
-  "shortDescription": "The Pet Dog Toy is made of non-toxic vinyl rubber material, chicken drumsticks shaped, it is great for your pet dog to play or chew. It gives out sound when your pet chew and squeeze it.",
-  "description": "The Pet Dog Toy is made of non-toxic vinyl rubber material, chicken drumsticks shaped, it is great for your pet dog to play or chew. It can give out sound when your pet chew and squeeze it.",
-  "images": [
-    {
-      "id": 42755,
-      "alt": "Vinyl Squeaky Drumstick",
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/12/VINYL-SQUEAKY-DRUSTICK.webp",
-      "name": "VINYL SQUEAKY DRUSTICK"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 1205,
@@ -69,14 +55,33 @@
       "slug": "toys"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/vinyl-squeaky-drumstick/",
+  "shortDescription": "The Pet Dog Toy is made of non-toxic vinyl rubber material, chicken drumsticks shaped, it is great for your pet dog to play or chew. It gives out sound when your pet chew and squeeze it.",
+  "description": "The Pet Dog Toy is made of non-toxic vinyl rubber material, chicken drumsticks shaped, it is great for your pet dog to play or chew. It can give out sound when your pet chew and squeeze it.",
+  "images": [
+    {
+      "id": 42755,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/12/VINYL-SQUEAKY-DRUSTICK.webp",
+      "alt": "Vinyl Squeaky Drumstick",
+      "name": "VINYL SQUEAKY DRUSTICK"
+    }
+  ],
   "stockStatus": "instock",
-  "lowStockRemaining": 1,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=42754",
+  "addToCartUrl": "https://petstore.co.ke/product/vinyl-squeaky-drumstick/?add-to-cart=42754",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.348Z",
-  "dateModified": "2026-06-23T09:15:51.348Z"
+  "dateCreated": "2023-12-29T10:32:08",
+  "dateModified": "2026-06-17T04:14:35",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/VINYL-SQUEAKY-DRUSTICK.webp"
 }

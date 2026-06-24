@@ -1,0 +1,67 @@
+{
+  "id": 58270,
+  "name": "Ferplast Dog Leash CLBg15/120 5955",
+  "slug": "ferplast-dog-leash-clb-g15-120-5955",
+  "sku": "FDLCG15",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-50.png",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2098,
+      "name": "Grooming & Tools",
+      "slug": "grooming-tools"
+    },
+    {
+      "id": 1919,
+      "name": "Leashes",
+      "slug": "leash"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=58270",
+  "shortDescription": "The Ferplast CLUB Reflex G15/120 is a reliable and safety-focused leash designed for dog owners who value both durability and visibility. Crafted from robust, high-quality nylon, this leash withstands daily wear while remaining lightweight and comfortable to hold.",
+  "description": "Its standout feature is the full-length reflective strip, which ensures you and your dog remain visible during low-light walks whether it’s an early morning stroll, a cloudy afternoon, or an evening adventure. The reflective material catches and bounces light back toward drivers, cyclists, and pedestrians, adding an essential layer of safety without compromising style. Key Benefits: • Durable nylon construction for long-lasting use • Full-length reflective strip for increased nighttime visibility • Multiple color options to match collars and harnesses • Lightweight design for comfortable handling during long walks",
+  "images": [
+    {
+      "id": 58273,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-50.png",
+      "alt": "Ferplast Dog Leash CLBg15/120 5955",
+      "name": "Untitled design (50)"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": false,
+  "addToCartUrl": "https://petstore.co.ke/product/ferplast-dog-leash-clb-g15-120-5955/?add-to-cart=58270",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2025-08-11T11:48:32",
+  "dateModified": "2026-05-06T17:11:57",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-50.png"
+}

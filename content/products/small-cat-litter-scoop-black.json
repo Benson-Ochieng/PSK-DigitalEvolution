@@ -1,0 +1,87 @@
+{
+  "id": 18046,
+  "name": "Small Cat Litter Scoop Black",
+  "slug": "small-cat-litter-scoop-black",
+  "sku": "CLSS01",
+  "onSale": false,
+  "price": 232,
+  "regularPrice": 232,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/CLSS01.jpg",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2343,
+      "name": "Cat Grooming",
+      "slug": "cat-grooming"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2098,
+      "name": "Grooming & Tools",
+      "slug": "grooming-tools"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=18046",
+  "shortDescription": "Small Plastic cat litter scooper",
+  "description": "Small Plastic cat litter scooper",
+  "images": [
+    {
+      "id": 18003,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/CLSS01.jpg",
+      "alt": "Small Cat Litter Scoop Black",
+      "name": "CLSS01"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/small-cat-litter-scoop-black/?add-to-cart=18046",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2021-01-13T22:10:24",
+  "dateModified": "2026-05-06T17:07:07",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/CLSS01.jpg"
+}

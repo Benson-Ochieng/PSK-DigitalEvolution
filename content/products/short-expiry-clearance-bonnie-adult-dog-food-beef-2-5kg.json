@@ -1,0 +1,93 @@
+{
+  "id": 29614,
+  "name": "SHORT EXPIRY- CLEARANCE: Bonnie Adult Dog Food - Beef 2.5kg",
+  "slug": "short-expiry-clearance-bonnie-adult-dog-food-beef-2-5kg",
+  "sku": "BDD002@SE",
+  "onSale": true,
+  "price": 1186,
+  "regularPrice": 1695,
+  "salePrice": 1186,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2017/09/petstore-kenya-bonnie-beef-2.5kg-min.png",
+  "categories": [
+    {
+      "id": 177,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2428,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1303,
+      "name": "Clearance",
+      "slug": "clearance"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 637,
+      "name": "kibble",
+      "slug": "kibble"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/short-expiry-clearance-bonnie-adult-dog-food-beef-2-5kg/",
+  "shortDescription": "Bonnie Beef Adult Dog Food provides complete daily nutrition with quality beef protein to support strength, energy, and overall health in adult dogs of all breeds.",
+  "description": "Bonnie Beef Adult Dog food , full-balanced, beef protein-containing all-natural dog food carefully formulated by dog nutritionists to meet the nutritional requirements of all adult breeds. Beef meal has been used as animal protein source. The balance of omega 3 & 6 is provided by using flaxseed. Yucca plant provides ammonia and odour control, increase absorption of nutrients, strengthens the immune system and optimises animal growth and performance. A good intestinal health and performance is provided by CitriStim which is a source of pathogen-binding manna oligsacharride, immune provide beta-glucans and immune-supportive yeast. Healthy skin and shiny coat are supported by using brewer's yeast. Muscles, organs and nerve cells are supported, and the immune system strengthened by using whey powder. NUTRIENT COMPONENTS Protein ................................... 18% Fat .......................................7% Crude Ash............................8% Crude Cellulose (Fiber).............. 4% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Wheat Middlings, Corn Gluten, Dried Sugar Beet, Liver Aroma, Salt, Flaxseed, Dried Brewer's Yeast. MINERALS: Calcium, Phosphorus, Sodium, Ionide, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
+  "images": [
+    {
+      "id": 15701,
+      "src": "https://petstore.co.ke/wp-content/uploads/2017/09/petstore-kenya-bonnie-beef-2.5kg-min.png",
+      "alt": "Bonnie Adult Dog Food – Beef 2.5kg",
+      "name": "petstore kenya bonnie beef 2.5kg-min"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-bonnie-adult-dog-food-beef-2-5kg/?add-to-cart=29614",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-07-06T16:58:34",
+  "dateModified": "2026-06-17T04:28:48",
+  "brand": "Bonnie",
+  "weight_kg": 2.5,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2017/09/petstore-kenya-bonnie-beef-2.5kg-min.png"
+}

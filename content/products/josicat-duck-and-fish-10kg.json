@@ -4,8 +4,8 @@
   "slug": "josicat-duck-and-fish-10kg",
   "sku": "JCJDF001",
   "onSale": false,
-  "price": 100.5,
-  "regularPrice": 100.5,
+  "price": 10050,
+  "regularPrice": 10050,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "josera"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/josicat-duck-and-fish-10kg/",
-  "shortDescription": "Tasty kibble refined with duck and fish Complete feed for adult cats. Exquisite meal with the mouth-watering taste of duck and fish. Suitable for both indoor and outdoor cats.",
-  "description": "Duck &amp; Fish , a complete and balanced recipe designed to delight even the pickiest felines. With tender duck meat (4%) and savory fish (4%), this kibble offers a unique flavor profile while meeting all the nutritional needs of adult cats. Perfect for indoor and outdoor cats, this formula is enriched with vital nutrients to promote overall health, strong immunity, and a shiny coat. Complete Nutrition Benefits: . Supports healthy skin and a shiny coat . Strengthens the immune system . Promotes healthy digestion and vitality . Provides energy for playtime and exploration",
-  "images": [
+  "brands": [
     {
-      "id": 23792,
-      "alt": "JosiCat Duck and Fish 10kg",
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JCJDF001.jpg",
-      "name": "JCJDF001.jpg"
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "dry-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josicat-duck-and-fish-10kg/",
+  "shortDescription": "Tasty kibble refined with duck and fish Complete feed for adult cats. Exquisite meal with the mouth-watering taste of duck and fish. Suitable for both indoor and outdoor cats.",
+  "description": "Duck & Fish , a complete and balanced recipe designed to delight even the pickiest felines. With tender duck meat (4%) and savory fish (4%), this kibble offers a unique flavor profile while meeting all the nutritional needs of adult cats. Perfect for indoor and outdoor cats, this formula is enriched with vital nutrients to promote overall health, strong immunity, and a shiny coat. Complete Nutrition Benefits: . Supports healthy skin and a shiny coat . Strengthens the immune system . Promotes healthy digestion and vitality . Provides energy for playtime and exploration",
+  "images": [
     {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
+      "id": 23792,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JCJDF001.jpg",
+      "alt": "JosiCat Duck and Fish 10kg",
+      "name": "JCJDF001.jpg"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 4,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=2&#038;add-to-cart=23768",
+  "addToCartUrl": "https://petstore.co.ke/product/josicat-duck-and-fish-10kg/?add-to-cart=23768",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.207Z",
-  "dateModified": "2026-06-23T09:15:51.207Z"
+  "dateCreated": "2021-10-29T07:55:43",
+  "dateModified": "2026-06-23T13:12:18",
+  "brand": "Josera",
+  "weight_kg": 10,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JCJDF001.jpg"
 }

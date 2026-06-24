@@ -1,0 +1,62 @@
+{
+  "id": 37943,
+  "name": "Bioline Catnip 30g",
+  "slug": "bioline-catnip-30g-2",
+  "sku": "BLC30",
+  "onSale": false,
+  "price": 650,
+  "regularPrice": 650,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/06/Bioline-catnip-30g.png",
+  "categories": [
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=37943",
+  "shortDescription": "Bioline Catnip invorating 30g is 100% natural product and completely harmless.",
+  "description": "The aromatic and long-lasting scent of catnip (nepeta cataria) stimulates playful behaviour in many cats. You can use it on toys or scratching posts to make these interesting for your pets. The handy shaker allows you to dispense the ground plant parts easily and economically. Catnip is a natural product and is completely harmless. There is no cause for concern should your cat eat it. ingredient: Catnip storage: store in cool/dry area Shelf life: 2 years",
+  "images": [
+    {
+      "id": 37952,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/06/Bioline-catnip-30g.png",
+      "alt": "Bioline Catnip 30g",
+      "name": "Bioline catnip 30g"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/bioline-catnip-30g-2/?add-to-cart=37943",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-06-23T16:51:56",
+  "dateModified": "2026-05-06T17:08:44",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/06/Bioline-catnip-30g.png"
+}

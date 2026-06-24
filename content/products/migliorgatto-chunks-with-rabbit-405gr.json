@@ -1,11 +1,11 @@
 {
   "id": 28278,
-  "name": "Miglior Canned Cat Food – Rabbit Chunks, 405g",
+  "name": "Miglior Canned Cat Food - Rabbit Chunks, 405g",
   "slug": "migliorgatto-chunks-with-rabbit-405gr",
   "sku": "MCW006",
   "onSale": false,
-  "price": 2.69,
-  "regularPrice": 2.69,
+  "price": 269,
+  "regularPrice": 269,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "wet-cat-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/migliorgatto-chunks-with-rabbit-405gr/",
-  "shortDescription": "This formula guarantees key nutrients like Omega-3, vitamins, calcium, and phosphorus—supporting strong bones and teeth, healthy skin and a glossy coat. A high-quality meal your cat will love, every day.",
-  "description": "Introduce your cat to a lean, flavorful protein source with this wholesome meal made from real rabbit chunks in a savory gravy. This carefully balanced recipe offers a nutritious and delicious mealtime experience that supports your cat’s overall health and daily vitality. Real Rabbit Chunks: A lean, easily digestible protein that helps maintain lean muscle mass while being gentle on sensitive stomachs. Rich Gravy Base : Moist and aromatic, designed to boost appetite and provide hydration—especially ideal for picky or senior cats. Complete Nutritional Support: Fortified with essential vitamins, taurine, and minerals to support digestion, immune function, and overall wellness. Why Your Cat Will Love It: All-Natural Ingredients – No artificial colors, flavors, or preservatives Tender, Meaty Texture – Rabbit chunks in flavorful gravy Great for Sensitive Cats – Gentle on digestion and rich in amino acids Supports Coat &amp; Skin Health – With Omega-3 and essential nutrients Complete &amp; Balanced – Ideal for everyday nutrition COMPOSITION: Meat and animal derivatives 30% (rabbit 5%), cereals, minerals. ANALYTICAL CONSTITUENTS: Moisture 77%, Crude protein 8.5%, Crude fat 4.8%, Crude fibres 0.5%, Crude ash 3%. Nutritional additives / kg: Vitamin E 10 mg, Copper (Copper(II) sulphate pentahydrate) 2 mg. HOW TO USE: Serve at room temperature for best aroma and taste Feed on its own or mix with dry food to add variety Adjust portions based on your cat’s weight, age, and activity level Refrigerate unused portion and consume within 48 hours STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight. Once opened, store in refrigerator for 2-3 days. &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 28242,
-      "alt": "Migliorgatto CHUNKS WITH Rabbit 405Gr",
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW006.jpg",
-      "name": "MCW006"
+      "id": 2451,
+      "name": "Miglior",
+      "slug": "miglior"
     }
   ],
   "tags": [
@@ -69,20 +61,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/migliorgatto-chunks-with-rabbit-405gr/",
+  "shortDescription": "This formula guarantees key nutrients like Omega-3, vitamins, calcium, and phosphorus—supporting strong bones and teeth, healthy skin and a glossy coat. A high-quality meal your cat will love, every day.",
+  "description": "Introduce your cat to a lean, flavorful protein source with this wholesome meal made from real rabbit chunks in a savory gravy. This carefully balanced recipe offers a nutritious and delicious mealtime experience that supports your cat’s overall health and daily vitality. Real Rabbit Chunks: A lean, easily digestible protein that helps maintain lean muscle mass while being gentle on sensitive stomachs. Rich Gravy Base : Moist and aromatic, designed to boost appetite and provide hydration—especially ideal for picky or senior cats. Complete Nutritional Support: Fortified with essential vitamins, taurine, and minerals to support digestion, immune function, and overall wellness. Why Your Cat Will Love It: All-Natural Ingredients – No artificial colors, flavors, or preservatives Tender, Meaty Texture – Rabbit chunks in flavorful gravy Great for Sensitive Cats – Gentle on digestion and rich in amino acids Supports Coat & Skin Health – With Omega-3 and essential nutrients Complete & Balanced – Ideal for everyday nutrition COMPOSITION: Meat and animal derivatives 30% (rabbit 5%), cereals, minerals. ANALYTICAL CONSTITUENTS: Moisture 77%, Crude protein 8.5%, Crude fat 4.8%, Crude fibres 0.5%, Crude ash 3%. Nutritional additives / kg: Vitamin E 10 mg, Copper (Copper(II) sulphate pentahydrate) 2 mg. HOW TO USE: Serve at room temperature for best aroma and taste Feed on its own or mix with dry food to add variety Adjust portions based on your cat’s weight, age, and activity level Refrigerate unused portion and consume within 48 hours STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight. Once opened, store in refrigerator for 2-3 days. &nbsp;",
+  "images": [
     {
-      "id": 2451,
-      "name": "Miglior",
-      "slug": "miglior"
+      "id": 28242,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW006.jpg",
+      "alt": "Migliorgatto CHUNKS WITH Rabbit 405Gr",
+      "name": "MCW006"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=3&#038;add-to-cart=28278",
+  "addToCartUrl": "https://petstore.co.ke/product/migliorgatto-chunks-with-rabbit-405gr/?add-to-cart=28278",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.263Z",
-  "dateModified": "2026-06-23T09:15:51.263Z"
+  "dateCreated": "2022-07-15T11:21:15",
+  "dateModified": "2026-06-24T14:12:07",
+  "brand": "Miglior",
+  "weight_kg": 0.405,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW006.jpg"
 }

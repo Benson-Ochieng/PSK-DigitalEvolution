@@ -4,8 +4,8 @@
   "slug": "pet-tennis-ball-paw-jungle-3pc",
   "sku": "PA0125",
   "onSale": false,
-  "price": 4.5,
-  "regularPrice": 4.5,
+  "price": 450,
+  "regularPrice": 450,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -37,21 +37,7 @@
       "slug": "dog-toys"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pet-tennis-ball-paw-jungle-3pc/",
-  "shortDescription": "Tennis Ball Paw Print 3pc Colour will be randomly selected.",
-  "description": "Play for the active dog, Squeak Tennis Ball 3 Pack that your dog will enjoy! This is a supervised pet play toy designed for your pet to enjoy. Remove packaging before giving to your pet. Supervise your pet while playing.",
-  "images": [
-    {
-      "id": 44526,
-      "alt": "Pet Tennis Ball Paw/Jungle 3pc",
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/02/PA0125.png",
-      "name": "PA0125"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 1205,
@@ -79,14 +65,33 @@
       "slug": "toys"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/pet-tennis-ball-paw-jungle-3pc/",
+  "shortDescription": "Tennis Ball Paw Print 3pc Colour will be randomly selected.",
+  "description": "Play for the active dog, Squeak Tennis Ball 3 Pack that your dog will enjoy! This is a supervised pet play toy designed for your pet to enjoy. Remove packaging before giving to your pet. Supervise your pet while playing.",
+  "images": [
+    {
+      "id": 44526,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/02/PA0125.png",
+      "alt": "Pet Tennis Ball Paw/Jungle 3pc",
+      "name": "PA0125"
+    }
+  ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=44524",
+  "addToCartUrl": "https://petstore.co.ke/product/pet-tennis-ball-paw-jungle-3pc/?add-to-cart=44524",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.366Z",
-  "dateModified": "2026-06-23T09:15:51.366Z"
+  "dateCreated": "2024-02-19T10:46:58",
+  "dateModified": "2026-06-17T04:14:36",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/02/PA0125.png"
 }

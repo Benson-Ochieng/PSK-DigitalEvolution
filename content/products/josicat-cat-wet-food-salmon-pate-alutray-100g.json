@@ -4,8 +4,8 @@
   "slug": "josicat-cat-wet-food-salmon-pate-alutray-100g",
   "sku": "JCW001",
   "onSale": false,
-  "price": 1.98,
-  "regularPrice": 1.98,
+  "price": 198,
+  "regularPrice": 198,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "wet-cat-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/josicat-cat-wet-food-salmon-pate-alutray-100g/",
-  "shortDescription": "Delight your cat with the rich taste of JosiCat Pâté with ASC Salmon 100g, a delicious wet cat food specially formulated for adult cats. Made with tasty ASC-certified salmon and a smooth pâté texture, this complete meal delivers balanced daily nutrition while helping support healthy hydration through its increased moisture content.",
-  "description": "Crafted with high-quality ingredients and no unnecessary extras, JosiCat Salmon Pâté is enriched with essential vitamins and nutrients to support your cat’s overall wellbeing. Vitamin E helps protect cells from oxidative stress, while vitamin D3 contributes to healthy bones and vitality. Added biotin, zinc, and copper help maintain healthy skin and promote a shiny, glossy coat. The recipe also includes prebiotic inulin, which can help support healthy digestion and balanced gut flora. Packed in a convenient 100g alutray, this wet food is ideal for fresh and easy feeding every day. Key Benefits Complete wet food for adult cats Delicious ASC salmon flavour in a smooth pâté texture Supports healthy hydration with high moisture content Enriched with vitamins E and D3 for overall wellbeing Helps maintain healthy skin and a glossy coat Contains prebiotic inulin for digestive support Convenient 100g alutray portion for freshness and easy feeding Composition Meat and animal derivatives, fish and fish derivatives (ASC salmon 4.0%), minerals, derivatives of vegetable origin (inulin 0.40%). Analytical Constituents Protein: 11.0% Fat Content: 4.5% Crude Fibre: 0.3% Crude Ash: 2.0% Feeding Guide Cat Weight Daily Feeding Amount 3 kg Approx. 230 g 4 kg Approx. 280 g 5 kg Approx. 330 g 6 kg Approx. 370 g Feed amounts may vary depending on your cat’s activity level and additional food intake. Always provide fresh drinking water. After opening, refrigerate at 2–6°C and serve at room temperature within 24 hours. &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 89875,
-      "alt": "JosiCat Cat Wet Food – Salmon Pâté Alutray 100g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/JOSICAT-SALMON-ALUTRAY-100G.png",
-      "name": "JOSICAT SALMON ALUTRAY 100G"
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josicat-cat-wet-food-salmon-pate-alutray-100g/",
+  "shortDescription": "Delight your cat with the rich taste of JosiCat Pâté with ASC Salmon 100g, a delicious wet cat food specially formulated for adult cats. Made with tasty ASC-certified salmon and a smooth pâté texture, this complete meal delivers balanced daily nutrition while helping support healthy hydration through its increased moisture content.",
+  "description": "Crafted with high-quality ingredients and no unnecessary extras, JosiCat Salmon Pâté is enriched with essential vitamins and nutrients to support your cat’s overall wellbeing. Vitamin E helps protect cells from oxidative stress, while vitamin D3 contributes to healthy bones and vitality. Added biotin, zinc, and copper help maintain healthy skin and promote a shiny, glossy coat. The recipe also includes prebiotic inulin, which can help support healthy digestion and balanced gut flora. Packed in a convenient 100g alutray, this wet food is ideal for fresh and easy feeding every day. Key Benefits Complete wet food for adult cats Delicious ASC salmon flavour in a smooth pâté texture Supports healthy hydration with high moisture content Enriched with vitamins E and D3 for overall wellbeing Helps maintain healthy skin and a glossy coat Contains prebiotic inulin for digestive support Convenient 100g alutray portion for freshness and easy feeding Composition Meat and animal derivatives, fish and fish derivatives (ASC salmon 4.0%), minerals, derivatives of vegetable origin (inulin 0.40%). Analytical Constituents Protein: 11.0% Fat Content: 4.5% Crude Fibre: 0.3% Crude Ash: 2.0% Feeding Guide Cat Weight Daily Feeding Amount 3 kg Approx. 230 g 4 kg Approx. 280 g 5 kg Approx. 330 g 6 kg Approx. 370 g Feed amounts may vary depending on your cat’s activity level and additional food intake. Always provide fresh drinking water. After opening, refrigerate at 2–6°C and serve at room temperature within 24 hours. &nbsp;",
+  "images": [
     {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
+      "id": 89875,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/JOSICAT-SALMON-ALUTRAY-100G.png",
+      "alt": "JosiCat Cat Wet Food – Salmon Pâté Alutray 100g",
+      "name": "JOSICAT SALMON ALUTRAY 100G"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=9&#038;add-to-cart=89874",
+  "addToCartUrl": "https://petstore.co.ke/product/josicat-cat-wet-food-salmon-pate-alutray-100g/?add-to-cart=89874",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.986Z",
-  "dateModified": "2026-06-23T09:15:51.986Z"
+  "dateCreated": "2026-05-21T16:09:13",
+  "dateModified": "2026-06-17T05:01:34",
+  "brand": "Josera",
+  "weight_kg": 0.1,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/JOSICAT-SALMON-ALUTRAY-100G.png"
 }

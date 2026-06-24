@@ -1,0 +1,88 @@
+{
+  "id": 25980,
+  "name": "Unique Veterinary Prescription Diet Adult Dog Renal Chicken & Pea & Egg 3kg",
+  "slug": "unique-veterinary-prescription-diet-adult-dog-renal-chicken-pea-egg-3kg",
+  "sku": "UDD003",
+  "onSale": false,
+  "price": 5421,
+  "regularPrice": 5421,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/03/UDD003.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2127,
+      "name": "Unique",
+      "slug": "unique"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2475,
+      "name": "Unique",
+      "slug": "unique-2"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 2319,
+      "name": "Veterinary Range",
+      "slug": "veterinary-range"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/unique-veterinary-prescription-diet-adult-dog-renal-chicken-pea-egg-3kg/",
+  "shortDescription": "Formulated for dogs with acute and chronic renal failure. It supports the treatment of renal problems by promoting kidney cells health and protecting kidney function. It's made with special ingredients that stimulate appetite in dogs with chronic kidney disease that have reduced appetite.",
+  "description": "How it works: Limited sodium and phosphorus level, Tissue regeneration and healing with high arginine and taurine content, Urinary tract health with optimal urinary PH, Chitosan (kidney health and appetite stimulation), Dried algae (Omega-3 and vitamin source) ), Appetite stimulation with quality and high protein content. Ingredients: Peas, Corn, Dried Egg, White Rice, Brown Rice, Sugar Beet Pulp, Chicken Oil, Chicken Protein, Salmon Oil, Hydrolyzed Chicken Liver, Natural Flavors, Vitamin and Mineral Premix, Chitosan, Probiotic, Dried Algae, Psyllium Shells, MOS, ?-Glucan, Tocopherol, Yucca, Wild Sea buckthorn. Raw Material Components Raw Protein 15.33% Raw oil 17.30% Raw Cellulose (Fiber) 3.21% Ash 4.65% Moisture 6.77% Total Omega-3 Fatty Acids 0.70% Omega 6 2.40% Calcium 0.64% Phosphorus 0.28% Sodium 0.23% Magnesium 0.06% Potassium 0.50% Arginine 0.40% Taurine 0.30% Nutritional Supplements Vitamin A (3a672a) 20,000 IU/kg Vitamin D 3 (E671) 1,000 IU/kg Vitamin E (3a700) 1.000 mg/kg Vitamin C (3a312) 500mg/kg Choline Chloride (3a890) 2.300 mg/kg Biotin (3a880) 2.4 mg/kg Vitamin B 1 (3a821) 11mg/kg Vitamin B2 10mg/kg Niacinamide (3a315) 55mg/kg Calcium-D-Panthothenate (3a841) 25mg/kg Vitamin B 6 (3a831) 7.0 mg/kg Folic Acid (3a316) 5.0 mg/kg Vitamin B 12 0.17 mg/kg Zinc Chelate of Amino Acids Hydrate (3b606) 140mg/kg Ferrous Chelate of Amino Acids Hydrate (E1) 45mg/kg Manganese Chelate of Amino Acids Hydrate (E5) 60mg/kg Potassium Iodide (3b201) 3,5 mg/kg Cupric Chelate of Amino Acids Hydrate (E4) 5.0 mg/kg Organic Form of Selenium (3b8.10) 3.0 mg/kg Taurine (3a370) 2.300 mg/kg L-Carnitine (3a910) 400mg/kg Probiotic (B. Amyloliquefaciens) 7 x 10 14 /kg &nbsp;",
+  "images": [
+    {
+      "id": 25878,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/03/UDD003.jpg",
+      "alt": "Unique Veterinary Prescription Diet Adult Dog Renal Chicken & Pea & Egg 3kg",
+      "name": "UDD003"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/unique-veterinary-prescription-diet-adult-dog-renal-chicken-pea-egg-3kg/?add-to-cart=25980",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-03-07T07:46:27",
+  "dateModified": "2026-06-17T04:28:47",
+  "brand": "Unique",
+  "weight_kg": 3,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/03/UDD003.jpg"
+}

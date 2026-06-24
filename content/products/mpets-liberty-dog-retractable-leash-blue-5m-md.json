@@ -1,0 +1,97 @@
+{
+  "id": 27400,
+  "name": "Mpets Liberty Dog Retractable Leash Blue 5M (Md)",
+  "slug": "mpets-liberty-dog-retractable-leash-blue-5m-md",
+  "sku": "MPDRL-B5",
+  "onSale": false,
+  "price": 3306,
+  "regularPrice": 3306,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/MPLDRL-G5.jpg",
+  "categories": [
+    {
+      "id": 2351,
+      "name": "Collars, Leashes & Harnesses",
+      "slug": "dog-collars-leashes-and-harnesses"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2353,
+      "name": "Dog Leashes",
+      "slug": "dog-leashes"
+    },
+    {
+      "id": 2135,
+      "name": "MPETS",
+      "slug": "mpets"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1034,
+      "name": "large breed",
+      "slug": "large-breed"
+    },
+    {
+      "id": 1919,
+      "name": "Leashes",
+      "slug": "leash"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 2109,
+      "name": "Small breeds",
+      "slug": "small-breeds"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27400",
+  "shortDescription": "Liberty Dog Retractable Leash Blue 5M (Md)",
+  "description": "Description 17.5 x 10.2 x 3.9 cm Leash Length up to 5M Auto leash, Strong Traction Tape Non tangle movement Soft Grip Handle One touch lock & release Dog Weight",
+  "images": [
+    {
+      "id": 27371,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPLDRL-G5.jpg",
+      "alt": "Mpets Liberty Dog Retractable Leash Blue 5M (Md)",
+      "name": "MPLDRL-G5"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/mpets-liberty-dog-retractable-leash-blue-5m-md/?add-to-cart=27400",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-04-20T16:20:35",
+  "dateModified": "2026-05-06T17:08:07",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPLDRL-G5.jpg"
+}

@@ -1,0 +1,77 @@
+{
+  "id": 27296,
+  "name": "Mpets Baby Powder Shampoo 250Ml",
+  "slug": "mpets-baby-powder-shampoo-250ml",
+  "sku": "MPBPS1",
+  "onSale": false,
+  "price": 650,
+  "regularPrice": 650,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/MPBPS1.jpg",
+  "categories": [
+    {
+      "id": 2135,
+      "name": "MPETS",
+      "slug": "mpets"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1034,
+      "name": "large breed",
+      "slug": "large-breed"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 2025,
+      "name": "shampoo",
+      "slug": "shampoo"
+    },
+    {
+      "id": 2109,
+      "name": "Small breeds",
+      "slug": "small-breeds"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27296",
+  "shortDescription": "Mpets Baby Powder Shampoo",
+  "description": "Baby Powder Shampoo is with pleasant and fresh fragrance, specially added VE to moisturize skin.",
+  "images": [
+    {
+      "id": 27283,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPBPS1.jpg",
+      "alt": "Mpets Baby Powder Shampoo 250Ml",
+      "name": "MPBPS1"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/mpets-baby-powder-shampoo-250ml/?add-to-cart=27296",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-04-20T16:20:44",
+  "dateModified": "2026-05-06T17:08:05",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPBPS1.jpg"
+}

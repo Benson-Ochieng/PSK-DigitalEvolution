@@ -4,8 +4,8 @@
   "slug": "trendline-puppy-food-lamb-and-rice-15kg",
   "sku": "TDD007",
   "onSale": false,
-  "price": 62.5,
-  "regularPrice": 62.5,
+  "price": 6250,
+  "regularPrice": 6250,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "trendline"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/trendline-puppy-food-lamb-and-rice-15kg/",
-  "shortDescription": "Fully balanced all-natural puppy food with lamb protein, brewer’s yeast for immune support and Omega-3 and -6 from flaxseed. Carefully formulated by dog nutritionists to meet the nutritional requirements of all puppies.",
-  "description": "Trendline Puppy Food &#8211; Lamb &amp; Rice , fully balanced all-natural puppy food with lamb protein, brewer&#8217;s yeast for immune support and Omega-3 and -6 from flaxseed. Carefully formulated by dog nutritionists to meet the nutritional requirements of all puppies. NUTRIENT COMPONENTS Protein &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;..24% Fat &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;.9% Crude Ash &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230; 8% Crude Cellulose (Fiber) &#8230;&#8230;&#8230;&#8230;&#8230; 4% INGREDIENTS: Processed Animal Protein, Corn, Animal Fat, Wheat Middlings, Corn Gluten, Dried Sugar Beet, Liver Aroma, Salt, Flaxseed, Dried Brewer&#8217;s Yeast. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 &#8211; B2 &#8211; B3 (niacin) &#8211; B6 &#8211; B12 &#8211; B7 (biotin) &#8211; B9 (folic acid), Vit. K, Choline, Calcium Pantotetan. Key Benefits for Your Puppy 18% Lamb Protein – supports muscle growth and provides sustained energy for active pups. 9% Healthy Fats – promotes brain development, healthy skin, and a glossy coat. Brewer’s Yeast – boosts immunity and aids in healthy digestion. Omega-3 &amp; -6 Fatty Acids – support cognitive function and joint health. Rice for Gentle Digestion – ideal for young tummies adjusting to solid food. Why Puppy Parents Love It: . Gentle on sensitive stomachs. . Promotes strong immunity and healthy growth. . Delicious lamb flavor puppies can’t resist.",
-  "images": [
+  "brands": [
     {
-      "id": 59711,
-      "alt": "Trendline Puppy Food Lamb And Rice 15kg",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/09/Trendline-Puppy-Lamb-Rice-15kg.png",
-      "name": "Trendline Puppy Lamb &amp; Rice 15kg"
+      "id": 2471,
+      "name": "Trendline",
+      "slug": "trendline"
     }
   ],
   "tags": [
@@ -69,20 +61,33 @@
       "slug": "puppy-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/trendline-puppy-food-lamb-and-rice-15kg/",
+  "shortDescription": "Fully balanced all-natural puppy food with lamb protein, brewer’s yeast for immune support and Omega-3 and -6 from flaxseed. Carefully formulated by dog nutritionists to meet the nutritional requirements of all puppies.",
+  "description": "Trendline Puppy Food - Lamb & Rice , fully balanced all-natural puppy food with lamb protein, brewer's yeast for immune support and Omega-3 and -6 from flaxseed. Carefully formulated by dog nutritionists to meet the nutritional requirements of all puppies. NUTRIENT COMPONENTS Protein .........................................24% Fat .................................................9% Crude Ash .................................... 8% Crude Cellulose (Fiber) ............... 4% INGREDIENTS: Processed Animal Protein, Corn, Animal Fat, Wheat Middlings, Corn Gluten, Dried Sugar Beet, Liver Aroma, Salt, Flaxseed, Dried Brewer's Yeast. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan. Key Benefits for Your Puppy 18% Lamb Protein – supports muscle growth and provides sustained energy for active pups. 9% Healthy Fats – promotes brain development, healthy skin, and a glossy coat. Brewer’s Yeast – boosts immunity and aids in healthy digestion. Omega-3 & -6 Fatty Acids – support cognitive function and joint health. Rice for Gentle Digestion – ideal for young tummies adjusting to solid food. Why Puppy Parents Love It: . Gentle on sensitive stomachs. . Promotes strong immunity and healthy growth. . Delicious lamb flavor puppies can’t resist.",
+  "images": [
     {
-      "id": 2471,
-      "name": "Trendline",
-      "slug": "trendline"
+      "id": 59711,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/09/Trendline-Puppy-Lamb-Rice-15kg.png",
+      "alt": "Trendline Puppy Food Lamb And Rice 15kg",
+      "name": "Trendline Puppy Lamb &amp; Rice 15kg"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 5,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=59710",
+  "addToCartUrl": "https://petstore.co.ke/product/trendline-puppy-food-lamb-and-rice-15kg/?add-to-cart=59710",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.754Z",
-  "dateModified": "2026-06-23T09:15:51.754Z"
+  "dateCreated": "2025-09-17T15:38:50",
+  "dateModified": "2026-06-20T10:12:07",
+  "brand": "Trendline",
+  "weight_kg": 1,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/09/Trendline-Puppy-Lamb-Rice-15kg.png"
 }

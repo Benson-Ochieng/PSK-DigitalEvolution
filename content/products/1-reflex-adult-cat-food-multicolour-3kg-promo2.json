@@ -1,0 +1,103 @@
+{
+  "id": 3628,
+  "name": "1 Reflex Adult Cat Food (Multicolour, 3kg) + 1 Economy Bowl",
+  "slug": "1-reflex-adult-cat-food-multicolour-3kg-promo2",
+  "sku": "PSK-3628",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/10/Reflex-Adult-Cat-Multicolour-3kg-1-Economy-Bowl-min.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2344,
+      "name": "Cat Bowls & Feeders",
+      "slug": "cat-bowls-and-feeders"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2985,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2072,
+      "name": "Bowls",
+      "slug": "bowls"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 637,
+      "name": "kibble",
+      "slug": "kibble"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=3628",
+  "shortDescription": "BUY 1 Reflex Adult Cat Food – Multicolour Chicken (3 kg) GET 1 FREE Economy Bowl. Offer available while supplies last. Expires 28 Oct 2019.",
+  "description": "",
+  "images": [
+    {
+      "id": 3630,
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/10/Reflex-Adult-Cat-Multicolour-3kg-1-Economy-Bowl-min.png",
+      "alt": "Reflex Adult Cat Multicolour 3kg 1 Economy Bowl min",
+      "name": "Reflex Adult Cat Multicolour 3kg 1 Economy Bowl min"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/1-reflex-adult-cat-food-multicolour-3kg-promo2/?add-to-cart=3628",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2019-10-13T14:39:57",
+  "dateModified": "2026-05-06T17:06:21",
+  "brand": "Reflex",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/10/Reflex-Adult-Cat-Multicolour-3kg-1-Economy-Bowl-min.png"
+}

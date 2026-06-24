@@ -4,8 +4,8 @@
   "slug": "high-protein-salmon-cat-treat",
   "sku": "RCT024",
   "onSale": false,
-  "price": 1.95,
-  "regularPrice": 1.95,
+  "price": 195,
+  "regularPrice": 195,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "reflex"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/high-protein-salmon-cat-treat/",
-  "shortDescription": "High-protein cat treat made with real meat and salmon. Enriched with taurine and essential vitamins to support energy, heart health, and vitality.",
-  "description": "Treat your cat to a protein-rich, irresistible reward made with real meat and salmon. This premium cat treat is crafted with 80% meat and animal derivatives and 15% salmon , delivering exceptional taste while supporting muscle strength, skin health, and overall vitality. With an impressive 41% crude protein and 23% fat content , it provides an energy-dense boost that’s perfect for active cats or as a special reward between meals. Added taurine supports heart health and vision, while essential vitamins A, D3, and E help maintain strong immunity and overall wellbeing. Its soft, moist texture makes it highly palatable and easy to enjoy, even for picky eaters. Ideal for bonding moments, training, or simply spoiling your feline companion. Key Benefits High-protein formula for strong muscles and energy Made with real meat and salmon for superior taste Enriched with taurine for heart and eye health Added vitamins for immune and overall support Perfect as a treat alongside a balanced diet Feed as a treat and always ensure fresh drinking water is available. &nbsp; &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 68603,
-      "alt": "Reflex Cat Meaty Stick Treat Salmon 15g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/Reflex-Meaty-sticks-.png",
-      "name": "Reflex Meaty sticks"
+      "id": 2462,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "treats"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/high-protein-salmon-cat-treat/",
+  "shortDescription": "High-protein cat treat made with real meat and salmon. Enriched with taurine and essential vitamins to support energy, heart health, and vitality.",
+  "description": "Treat your cat to a protein-rich, irresistible reward made with real meat and salmon. This premium cat treat is crafted with 80% meat and animal derivatives and 15% salmon , delivering exceptional taste while supporting muscle strength, skin health, and overall vitality. With an impressive 41% crude protein and 23% fat content , it provides an energy-dense boost that’s perfect for active cats or as a special reward between meals. Added taurine supports heart health and vision, while essential vitamins A, D3, and E help maintain strong immunity and overall wellbeing. Its soft, moist texture makes it highly palatable and easy to enjoy, even for picky eaters. Ideal for bonding moments, training, or simply spoiling your feline companion. Key Benefits High-protein formula for strong muscles and energy Made with real meat and salmon for superior taste Enriched with taurine for heart and eye health Added vitamins for immune and overall support Perfect as a treat alongside a balanced diet Feed as a treat and always ensure fresh drinking water is available. &nbsp; &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
+      "id": 68603,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/Reflex-Meaty-sticks-.png",
+      "alt": "Reflex Cat Meaty Stick Treat Salmon 15g",
+      "name": "Reflex Meaty sticks"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": null,
+  "lowStockRemaining": 5,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=68602",
+  "addToCartUrl": "https://petstore.co.ke/product/high-protein-salmon-cat-treat/?add-to-cart=68602",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.855Z",
-  "dateModified": "2026-06-23T09:15:51.855Z"
+  "dateCreated": "2026-01-27T15:29:46",
+  "dateModified": "2026-06-24T10:57:13",
+  "brand": "Reflex",
+  "weight_kg": 0.15,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/Reflex-Meaty-sticks-.png"
 }

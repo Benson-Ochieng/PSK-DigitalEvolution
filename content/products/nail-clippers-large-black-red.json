@@ -1,0 +1,132 @@
+{
+  "id": 20322,
+  "name": "Pet Nail Clippers - Large - Black and Red",
+  "slug": "nail-clippers-large-black-red",
+  "sku": "PZNCF03",
+  "onSale": false,
+  "price": 1000,
+  "regularPrice": 1000,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/PZNCF01.png",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2343,
+      "name": "Cat Grooming",
+      "slug": "cat-grooming"
+    },
+    {
+      "id": 2337,
+      "name": "Cat Healthcare Supplies",
+      "slug": "cat-healthcare"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2360,
+      "name": "Dog Grooming & Cleaning",
+      "slug": "dog-grooming-cleaning-supplies"
+    },
+    {
+      "id": 2362,
+      "name": "Dog Healthcare Supplies",
+      "slug": "dog-healthcare-supplies"
+    },
+    {
+      "id": 2338,
+      "name": "Flea & Tick",
+      "slug": "cat-flea-tick"
+    },
+    {
+      "id": 2363,
+      "name": "Flea & Tick Control",
+      "slug": "dog-flea-tick"
+    },
+    {
+      "id": 2096,
+      "name": "Generic",
+      "slug": "generic"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1149,
+      "name": "flea & tick",
+      "slug": "flea-tick"
+    },
+    {
+      "id": 2098,
+      "name": "Grooming & Tools",
+      "slug": "grooming-tools"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=20322",
+  "shortDescription": "Large size pet nail clippers with file. Colour: black and red",
+  "description": "Large size pet nail clippers with file. Colour: black and red. 16cm Length, 120g weight",
+  "images": [
+    {
+      "id": 20316,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/PZNCF01.png",
+      "alt": "Nail Clippers with file - Large - Black and Red",
+      "name": "Nail Clippers with file &#8211; Large &#8211; Black and Red"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/nail-clippers-large-black-red/?add-to-cart=20322",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2021-04-26T22:05:29",
+  "dateModified": "2026-05-06T17:07:21",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/PZNCF01.png"
+}

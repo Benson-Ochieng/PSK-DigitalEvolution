@@ -1,0 +1,82 @@
+{
+  "id": 43320,
+  "name": "SHORT EXPIRY-CLEARANCE: Migliorcane Specialmenu Adult Dog Food Croquettes With Chicken And Vegetables 4kg",
+  "slug": "migliorcane-specialmenu-adult-dog-food-croquettes-with-chicken-and-vegetables-4kg-2",
+  "sku": "MDD006@SE",
+  "onSale": true,
+  "price": 1050,
+  "regularPrice": 2625,
+  "salePrice": 1050,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MDD006.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2163,
+      "name": "Miglior",
+      "slug": "miglior"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1303,
+      "name": "Clearance",
+      "slug": "clearance"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=43320",
+  "shortDescription": "Formula designed to guarantee the key nutrients required for the well-being of your dog, including vitamins, Omega 3, calcium and phosphorous to support strong bones and teeth, healthy skin and glossy coat, and toned musculature.",
+  "description": "COMPOSITION: Cereals, meat and animal derivatives 21% (chicken 4%), derivatives of vegetable origin, oil and fats, vegetables 1%, minerals, yeasts. ANALYTICAL CONSTITUENTS: Crude protein 19.00%, Crude fibres 3.50%, Crude Fat 8.00%, Crude ash 8.00%, Calcium 2.5%, Phosphorus 1.8%, Sodium 0.3%, Omega 3 fatty acids 0.3%, Omega 6 fatty acids 1.5%. Nutritional additives /kg: Vitamin A 11090 IU, Vitamin D3 770 IU, Vitamin E 70 mg, Iron (Iron (II) carbonate - siderite) 35.8 mg, Zinc (Zinc oxide) 71 mg, Copper (Copper (II) sulphate pentahydrate) 5.9 mg, Manganese (Manganese (II) oxide) 3.5 mg, Iodine (Potassium iodide) 1.7 mg, Selenium (Sodium selenite) 0.1 mg. Colourants. Antioxidants. HOW TO USE: The product is ready to use. The daily amount recommended may vary due to age or particular needs of every dog. We suggest to switch gradually to the new food. Leave always available to your dog a bowl of pure water. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight.",
+  "images": [
+    {
+      "id": 28204,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MDD006.jpg",
+      "alt": "Migliorcane SPECIALMENU CROQUETTES WITH CHICKEN AND VEGETABLES 4kg",
+      "name": "MDD006"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/migliorcane-specialmenu-adult-dog-food-croquettes-with-chicken-and-vegetables-4kg-2/?add-to-cart=43320",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2024-01-19T13:17:15",
+  "dateModified": "2026-05-06T17:09:22",
+  "brand": null,
+  "weight_kg": 4,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MDD006.jpg"
+}

@@ -4,9 +4,9 @@
   "slug": "migliorcane-unico-adult-mini-delicate-lamb-pate-100g",
   "sku": "MDW005",
   "onSale": true,
-  "price": 1.63,
-  "regularPrice": 2.04,
-  "salePrice": 1.63,
+  "price": 163,
+  "regularPrice": 204,
+  "salePrice": 163,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW005.jpg",
@@ -32,19 +32,11 @@
       "slug": "wet-dog-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/migliorcane-unico-adult-mini-delicate-lamb-pate-100g/",
-  "shortDescription": "Migliorcane UNICO is a complete and balanced super premium food, ideal for the daily diet of small dogs. UNICO: single protein , unique quality , great taste .",
-  "description": "Treat your small dog to the exceptional taste and quality of Migliorcane Unico! This super premium, complete, and balanced food is specially crafted for small dogs, ensuring they receive the nutrition they need for a healthy, active life. Key Features: Single Protein Source: Made with high-quality lamb, providing a delicious and easily digestible protein that supports your dog’s health and vitality. Great Taste: Crafted to delight even the pickiest eaters, this mousse is rich in flavor, making mealtime a pleasure. Perfect for Small Dogs: The smooth texture and tailored formulation cater specifically to the dietary requirements of adult mini breeds. COMPOSITION: Lamb 65% (lungs, liver), minerals. ANALYTICAL CONSTITUENTS: Moisture 80%, Crude protein 10%, Crude fat 4%, Crude fibres 0,3%, Crude ash 1,5%. Without colorants and preservatives. Nutritional additives / kg: Vitamin E 7,5 mg, Vitamin B1 4,2 mg, Vitamin B6 1,0 mg, Biotin (Vitamin H) 43,7g, Zinc (Zinc sulphate monohydrate) 5,0 mg, Copper (Copper (II) sulphate pentahydrate) 0,2 mg, Manganese (Manganous sulphate monohydrate) 1,7 mg, Iodine (Potassium iodide) 0,7 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place. Give your furry friend a meal that’s not just nourishing but also bursting with flavor. With Migliorcane Unico, you can be confident that you’re providing the best for your beloved pet! &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 28197,
-      "alt": "Migliorcane Unico ADULT MINI DELICATE LAMB PATE 100G",
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW005.jpg",
-      "name": "MDW005"
+      "id": 2451,
+      "name": "Miglior",
+      "slug": "miglior"
     }
   ],
   "tags": [
@@ -74,20 +66,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/migliorcane-unico-adult-mini-delicate-lamb-pate-100g/",
+  "shortDescription": "Migliorcane UNICO is a complete and balanced super premium food, ideal for the daily diet of small dogs. UNICO: single protein , unique quality , great taste .",
+  "description": "Treat your small dog to the exceptional taste and quality of Migliorcane Unico! This super premium, complete, and balanced food is specially crafted for small dogs, ensuring they receive the nutrition they need for a healthy, active life. Key Features: Single Protein Source: Made with high-quality lamb, providing a delicious and easily digestible protein that supports your dog’s health and vitality. Great Taste: Crafted to delight even the pickiest eaters, this mousse is rich in flavor, making mealtime a pleasure. Perfect for Small Dogs: The smooth texture and tailored formulation cater specifically to the dietary requirements of adult mini breeds. COMPOSITION: Lamb 65% (lungs, liver), minerals. ANALYTICAL CONSTITUENTS: Moisture 80%, Crude protein 10%, Crude fat 4%, Crude fibres 0,3%, Crude ash 1,5%. Without colorants and preservatives. Nutritional additives / kg: Vitamin E 7,5 mg, Vitamin B1 4,2 mg, Vitamin B6 1,0 mg, Biotin (Vitamin H) 43,7g, Zinc (Zinc sulphate monohydrate) 5,0 mg, Copper (Copper (II) sulphate pentahydrate) 0,2 mg, Manganese (Manganous sulphate monohydrate) 1,7 mg, Iodine (Potassium iodide) 0,7 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place. Give your furry friend a meal that’s not just nourishing but also bursting with flavor. With Migliorcane Unico, you can be confident that you’re providing the best for your beloved pet! &nbsp;",
+  "images": [
     {
-      "id": 2451,
-      "name": "Miglior",
-      "slug": "miglior"
+      "id": 28197,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW005.jpg",
+      "alt": "Migliorcane Unico ADULT MINI DELICATE LAMB PATE 100G",
+      "name": "MDW005"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=3&#038;add-to-cart=28220",
+  "addToCartUrl": "https://petstore.co.ke/product/migliorcane-unico-adult-mini-delicate-lamb-pate-100g/?add-to-cart=28220",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.252Z",
-  "dateModified": "2026-06-23T09:15:51.252Z"
+  "dateCreated": "2022-07-14T11:04:01",
+  "dateModified": "2026-06-24T13:12:06",
+  "brand": "Miglior",
+  "weight_kg": 0.1,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW005.jpg"
 }

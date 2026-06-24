@@ -1,0 +1,93 @@
+{
+  "id": 2561,
+  "name": "Proline Adult Cat Food - Chicken 1.5kg",
+  "slug": "proline-adult-cat-food-chicken-1-5kg",
+  "sku": "PCD002",
+  "onSale": false,
+  "price": 2050,
+  "regularPrice": 2050,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/07/Pet-Store-Kenya-Nairobi-Proline-Cat-Food-Chicken-1.5kg-min.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 796,
+      "name": "Proline",
+      "slug": "proline"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2214,
+      "name": "Proline",
+      "slug": "proline"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 637,
+      "name": "kibble",
+      "slug": "kibble"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=2561",
+  "shortDescription": "Fully balanced all natural cat food with chicken protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult cats.",
+  "description": "Proline Adult Cat Food - Chicken , fully balanced all natural cat food with chicken protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult cats. NUTRIENT COMPONENTS Protein * ???...???.? 30% Fat ????????.?...? 12% Crude Ash ????????.?...? 8% Crude Cellulose (Fiber) ??.. 3% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Wheat Middlings, Corn Gluten, Dried Sugar Beet, Chicken Liver Aroma, Salt, Flaxseed, Dried Brewer?s Yeast, Taurine. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
+  "images": [
+    {
+      "id": 2548,
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/07/Pet-Store-Kenya-Nairobi-Proline-Cat-Food-Chicken-1.5kg-min.png",
+      "alt": "Pet Store Kenya Nairobi Proline Cat Food Chicken 1.5kg min",
+      "name": "Pet Store Kenya Nairobi Proline Cat Food Chicken 1.5kg min"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/proline-adult-cat-food-chicken-1-5kg/?add-to-cart=2561",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2019-07-07T16:34:55",
+  "dateModified": "2026-05-06T17:06:17",
+  "brand": "Proline",
+  "weight_kg": 1.5,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/07/Pet-Store-Kenya-Nairobi-Proline-Cat-Food-Chicken-1.5kg-min.png"
+}

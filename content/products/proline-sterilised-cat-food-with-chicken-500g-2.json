@@ -1,0 +1,63 @@
+{
+  "id": 40840,
+  "name": "Proline Sterilised Cat Food With Chicken 500g",
+  "slug": "proline-sterilised-cat-food-with-chicken-500g-2",
+  "sku": "PCD009@F",
+  "onSale": false,
+  "price": 830,
+  "regularPrice": 830,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-cat-food-Sterlised-500gr.png",
+  "categories": [
+    {
+      "id": 796,
+      "name": "Proline",
+      "slug": "proline"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2658,
+      "name": "Proline",
+      "slug": "proline"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=40840",
+  "shortDescription": "Proline Neutered Cat Food with Chicken 400 G With Chicken",
+  "description": "Proline Neutered Cat Food with Chicken 400 G With Chicken Processed Chicken Protein, Wheat, Corn, Animal Fat, Dried Sugar Beet, Liver Flavor, Corn Gluten, Salt, Flaxseed, Brewer's Yeast, Taurine, Yucca, Mannan Oligosaccharides, Beta Glucan, Preservatives - Antioxidants. Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Iron, Selenium. Vitamin A, Vitamin D, Vitamin, Vitamin C, Vitamin B1 - B2 - B3 (Niacin) - B6 - B12 - B7 (Biotin) - B9 (Folic Acid), Vitamin K, Choline, Calcium Pantothenate. NUTRITIONAL VALUES NUTRITIONAL ADDITIONS Raw Protein 31% Vitamin A 15000 IU/kg Raw oil 11th% Vitamin D3 1000 IU/kg Ash 8% Vitamin E 150mg/kg Raw Cellulose ( Fiber ) 5% Vitamin C 120mg/kg Taurine 1000mg/kg DAILY FEED TABLE 1 - 2 kg 30 - 45 g 3 - 4 kg 60 - 80 g 5 - 6 kg 100 - 120 g 7 - 8 kg 140 - 160 g",
+  "images": [
+    {
+      "id": 35531,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-cat-food-Sterlised-500gr.png",
+      "alt": "Proline Sterilised Cat Food With Chicken 500g",
+      "name": "Proline cat food Sterlised 500gr"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/proline-sterilised-cat-food-with-chicken-500g-2/?add-to-cart=40840",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-11-08T09:44:33",
+  "dateModified": "2026-05-06T17:08:59",
+  "brand": "Proline",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-cat-food-Sterlised-500gr.png"
+}

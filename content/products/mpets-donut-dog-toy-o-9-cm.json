@@ -1,0 +1,82 @@
+{
+  "id": 27319,
+  "name": "Mpets Donut Dog Toy- 9 Cm",
+  "slug": "mpets-donut-dog-toy-o-9-cm",
+  "sku": "MPD",
+  "onSale": false,
+  "price": 700,
+  "regularPrice": 700,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/MPD.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2135,
+      "name": "MPETS",
+      "slug": "mpets"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27319",
+  "shortDescription": "Mpets Donut Dog Toy",
+  "description": "Mpets Donut Dog Toy- ? 9 Cm",
+  "images": [
+    {
+      "id": 27324,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPD.jpg",
+      "alt": "Mpets Donut Dog Toy- 9 Cm",
+      "name": "MPD"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/mpets-donut-dog-toy-o-9-cm/?add-to-cart=27319",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-04-20T16:20:40",
+  "dateModified": "2026-05-06T17:08:05",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPD.jpg"
+}

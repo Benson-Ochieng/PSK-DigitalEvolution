@@ -1,0 +1,88 @@
+{
+  "id": 90697,
+  "name": "Belcando Puppy Dog Dry Food – Puppy Gravy 4kg",
+  "slug": "belcando-puppy-dog-dry-food-puppy-gravy-4kg",
+  "sku": "LBDD007",
+  "onSale": false,
+  "price": 1470,
+  "regularPrice": 1470,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/belcando-puupy-in-gravy.png",
+  "categories": [
+    {
+      "id": 2408,
+      "name": "Belcando",
+      "slug": "belcando"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2350,
+      "name": "Puppy Food",
+      "slug": "puppy-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2426,
+      "name": "Belcando",
+      "slug": "belcando"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 2275,
+      "name": "New Arrivals",
+      "slug": "new-arrivals"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/belcando-puppy-dog-dry-food-puppy-gravy-4kg/",
+  "shortDescription": "Give your puppy the best start in life with BELCANDO Puppy Gravy , a premium complete dry dog food specially formulated to support healthy growth, strong bones, and optimal development during the crucial puppy stage. Made with high-quality poultry, rice, fish, and egg, this highly digestible recipe provides balanced nutrition tailored to the needs of growing puppies.",
+  "description": "What makes BELCANDO Puppy Gravy unique is its innovative gravy effect. Simply mix the kibble with warm water to create a delicious sauce that enhances flavour, encourages healthy eating habits, and makes the transition from mother's milk to solid food easier. Even as your puppy grows, the tasty gravy remains an irresistible mealtime treat. With 80% animal protein of total protein content , sourced from poultry, fish, and gelatin, this nutrient-rich formula helps support strong muscles, healthy development, and sustained energy for active puppies. Key Benefits . Complete and balanced nutrition for growing puppies . Made with fresh poultry, rice, fish, and egg for superior digestibility . Creates a delicious gravy when mixed with warm water . Supports an easy transition to solid food during weaning . Rich in high-quality animal protein for healthy muscle development . Provides essential minerals for strong bones and teeth . Supports digestive health and nutrient absorption . Promotes a strong immune system and overall vitality Advanced Nutritional Support PROVITAL® Supports and strengthens the immune system with natural yeast beta-glucans that help enhance your puppy's natural defences. PROAGIL® Contains gelatin hydrolysate to support healthy cartilage formation, joint development, and long-term mobility. PROBIOTICS Help stabilise digestion, improve stool quality, support gut health, and reduce unpleasant stool odours. Premium Ingredients Fresh poultry meat (30%), rice (23%), low-ash poultry protein, maize, sea fish meal, poultry fat, vegetable oils, egg, gelatin hydrolysate, brewer's yeast, poultry liver, linseed, salmon oil, chia seeds, and essential vitamins and minerals. Why Choose BELCANDO Puppy Gravy? BELCANDO Puppy Gravy combines premium ingredients, advanced nutritional technology, and exceptional taste to support your puppy's healthy growth from the very beginning. Its highly digestible recipe, immune-supporting nutrients, probiotics, and unique gravy feature make it an ideal choice for puppies transitioning to solid food and developing into healthy adult dogs. &nbsp;",
+  "images": [
+    {
+      "id": 90703,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/belcando-puupy-in-gravy.png",
+      "alt": "Belcando Puppy Dog Dry Food – Puppy Gravy 4kg",
+      "name": "belcando puupy in gravy"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/belcando-puppy-dog-dry-food-puppy-gravy-4kg/?add-to-cart=90697",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-16T16:45:28",
+  "dateModified": "2026-06-17T05:01:27",
+  "brand": "Belcando",
+  "weight_kg": 4,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/belcando-puupy-in-gravy.png"
+}

@@ -4,8 +4,8 @@
   "slug": "erplast-pa-6568-natural-rubber-dental-bone-for-dogs",
   "sku": "FDT6568",
   "onSale": false,
-  "price": 18.85,
-  "regularPrice": 18.85,
+  "price": 1885,
+  "regularPrice": 1885,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -37,19 +37,11 @@
       "slug": "ferplast"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/erplast-pa-6568-natural-rubber-dental-bone-for-dogs/",
-  "shortDescription": "The Guillotine Nail Clippers for Dogs &amp; Cats is easy to use and makes trimming your pet’s nails simple. Precision cutting blades trim the nail in one smooth action.",
-  "description": "The Ferplast PA 6568 Natural Rubber Dental Bone is a durable and engaging chew toy designed to support your dog’s oral health while keeping them happily entertained. Made from high-quality natural rubber , this dental bone gently massages gums during chewing, helping to reduce plaque and tartar buildup for healthier teeth and fresher breath. Its irregular, textured shape encourages active chewing and playful interaction, making it ideal for relieving boredom, reducing stress, and discouraging destructive behavior. Built to withstand regular chewing, the Ferplast PA 6568 is suitable for both puppies and adult dogs , especially small to medium-sized breeds. Available in assorted vibrant colors , this dental bone combines functionality, durability, and fun making it an essential chew toy for everyday play and dental care. Key Features Natural Rubber Material – Safe, non-toxic, and gentle on teeth and gums Dental Care Design – Helps massage gums and reduce plaque and tartar buildup Irregular Shape – Stimulates chewing and promotes interactive play Durable Construction – Designed for long-lasting chew sessions Ideal Size – Suitable for small to medium-sized dogs Multiple Color Options – Visually appealing for pets and owners Benefits for Your Dog Improves Oral Health by supporting clean teeth and healthy gums Provides Mental Stimulation through engaging chew activity Reduces Boredom &amp; Stress , helping prevent destructive chewing Encourages Active Play for overall physical and mental well-being &nbsp; &nbsp; &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 69519,
-      "alt": "Ferplast Dental Toy Pa6568",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/02/Ferplast-Dental-Toy-Pa-6568.png",
-      "name": "Ferplast Dental Toy Pa 6568"
+      "id": 2438,
+      "name": "Ferplast",
+      "slug": "ferplast"
     }
   ],
   "tags": [
@@ -59,20 +51,33 @@
       "slug": "pet-care"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/erplast-pa-6568-natural-rubber-dental-bone-for-dogs/",
+  "shortDescription": "The Guillotine Nail Clippers for Dogs & Cats is easy to use and makes trimming your pet’s nails simple. Precision cutting blades trim the nail in one smooth action.",
+  "description": "The Ferplast PA 6568 Natural Rubber Dental Bone is a durable and engaging chew toy designed to support your dog’s oral health while keeping them happily entertained. Made from high-quality natural rubber , this dental bone gently massages gums during chewing, helping to reduce plaque and tartar buildup for healthier teeth and fresher breath. Its irregular, textured shape encourages active chewing and playful interaction, making it ideal for relieving boredom, reducing stress, and discouraging destructive behavior. Built to withstand regular chewing, the Ferplast PA 6568 is suitable for both puppies and adult dogs , especially small to medium-sized breeds. Available in assorted vibrant colors , this dental bone combines functionality, durability, and fun making it an essential chew toy for everyday play and dental care. Key Features Natural Rubber Material – Safe, non-toxic, and gentle on teeth and gums Dental Care Design – Helps massage gums and reduce plaque and tartar buildup Irregular Shape – Stimulates chewing and promotes interactive play Durable Construction – Designed for long-lasting chew sessions Ideal Size – Suitable for small to medium-sized dogs Multiple Color Options – Visually appealing for pets and owners Benefits for Your Dog Improves Oral Health by supporting clean teeth and healthy gums Provides Mental Stimulation through engaging chew activity Reduces Boredom & Stress , helping prevent destructive chewing Encourages Active Play for overall physical and mental well-being &nbsp; &nbsp; &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2438,
-      "name": "Ferplast",
-      "slug": "ferplast"
+      "id": 69519,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/02/Ferplast-Dental-Toy-Pa-6568.png",
+      "alt": "Ferplast Dental Toy Pa6568",
+      "name": "Ferplast Dental Toy Pa 6568"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 1,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=69517",
+  "addToCartUrl": "https://petstore.co.ke/product/erplast-pa-6568-natural-rubber-dental-bone-for-dogs/?add-to-cart=69517",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.925Z",
-  "dateModified": "2026-06-23T09:15:51.925Z"
+  "dateCreated": "2026-02-05T11:20:20",
+  "dateModified": "2026-06-17T04:30:36",
+  "brand": "Ferplast",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/Ferplast-Dental-Toy-Pa-6568.png"
 }

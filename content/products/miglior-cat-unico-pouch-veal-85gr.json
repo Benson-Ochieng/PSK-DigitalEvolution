@@ -1,11 +1,11 @@
 {
   "id": 50324,
-  "name": "Miglior Cat Unico Mousse Pouch – Veal 85g",
+  "name": "Miglior Cat Unico Mousse Pouch - Veal 85g",
   "slug": "miglior-cat-unico-pouch-veal-85gr",
   "sku": "MCW021",
   "onSale": false,
-  "price": 1.87,
-  "regularPrice": 1.87,
+  "price": 187,
+  "regularPrice": 187,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "wet-cat-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/miglior-cat-unico-pouch-veal-85gr/",
-  "shortDescription": "Formula designed to guarantee the key nutrients required for the well-being of your cat, including vitamins, Omega 3, calcium and phosphorous to support strong bones and teeth, healthy skin and glossy coat, and toned musculature. UNICO: single protein, unique quality, great taste.",
-  "description": "Treat your cat to the exceptional taste and quality of Migliorgatto Unico! This super premium, complete, and balanced food is specially crafted for all cats, ensuring they receive the nutrition they need for a healthy, active life. Key Features: Single Protein Source: Made with high-quality turkey, ideal for cats with sensitivities or those requiring a specific protein in their diet. Rich in Flavor: The delicious mousse texture is perfect for picky eaters, making mealtime a delightful experience. Complete Nutrition: Formulated to meet the daily dietary needs of cats, providing all essential nutrients for optimal health. Easy to Digest: Gentle on the stomach, making it suitable for cats with sensitive digestion. Convenient Packaging: The 85g pack is perfect for a single meal or as a tasty addition to dry food UNICO: single protein, unique quality, great taste. COMPOSITION: Veal 50% (lungs, livers), minerals. ANALYTICAL CONSTITUENTS: Moisture 80%, Crude protein 10.5%, Crude fat 4%, Crude fibres 0.3%, Crude ash 1.5%. Without colorants and preservatives. Nutritional additives / kg: Vitamin D3 177.5 IU, Vitamin E 17.7 mg, Vitamin B1 1.8 mg, Vitamin B6 0.8 mg, Zinc (Zinc sulphate monohydrate) 1.3 mg, Manganese (Manganous sulphate monohydrate) 0.8 mg, Iodine (Potassium iodide) 0.2 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place. DAILY RECOMMENDED AMOUNT Ideal weight (kg) 3 4 5 Daily amount (g) 215 255 340 NB: Split the recommended daily amount into at least two meals. &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 50325,
-      "alt": "Pack Of 24 – Miglior Cat Unico Mousse Pouch – Veal 85g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/09/MCW2021-UNICO-POUCH-TURKEY.png",
-      "name": "MCW2021-UNICO POUCH TURKEY"
+      "id": 2451,
+      "name": "Miglior",
+      "slug": "miglior"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/miglior-cat-unico-pouch-veal-85gr/",
+  "shortDescription": "Formula designed to guarantee the key nutrients required for the well-being of your cat, including vitamins, Omega 3, calcium and phosphorous to support strong bones and teeth, healthy skin and glossy coat, and toned musculature. UNICO: single protein, unique quality, great taste.",
+  "description": "Treat your cat to the exceptional taste and quality of Migliorgatto Unico! This super premium, complete, and balanced food is specially crafted for all cats, ensuring they receive the nutrition they need for a healthy, active life. Key Features: Single Protein Source: Made with high-quality turkey, ideal for cats with sensitivities or those requiring a specific protein in their diet. Rich in Flavor: The delicious mousse texture is perfect for picky eaters, making mealtime a delightful experience. Complete Nutrition: Formulated to meet the daily dietary needs of cats, providing all essential nutrients for optimal health. Easy to Digest: Gentle on the stomach, making it suitable for cats with sensitive digestion. Convenient Packaging: The 85g pack is perfect for a single meal or as a tasty addition to dry food UNICO: single protein, unique quality, great taste. COMPOSITION: Veal 50% (lungs, livers), minerals. ANALYTICAL CONSTITUENTS: Moisture 80%, Crude protein 10.5%, Crude fat 4%, Crude fibres 0.3%, Crude ash 1.5%. Without colorants and preservatives. Nutritional additives / kg: Vitamin D3 177.5 IU, Vitamin E 17.7 mg, Vitamin B1 1.8 mg, Vitamin B6 0.8 mg, Zinc (Zinc sulphate monohydrate) 1.3 mg, Manganese (Manganous sulphate monohydrate) 0.8 mg, Iodine (Potassium iodide) 0.2 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place. DAILY RECOMMENDED AMOUNT Ideal weight (kg) 3 4 5 Daily amount (g) 215 255 340 NB: Split the recommended daily amount into at least two meals. &nbsp;",
+  "images": [
     {
-      "id": 2451,
-      "name": "Miglior",
-      "slug": "miglior"
+      "id": 50325,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/09/MCW2021-UNICO-POUCH-TURKEY.png",
+      "alt": "Pack Of 24 – Miglior Cat Unico Mousse Pouch – Veal 85g",
+      "name": "MCW2021-UNICO POUCH TURKEY"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=5&#038;add-to-cart=50324",
+  "addToCartUrl": "https://petstore.co.ke/product/miglior-cat-unico-pouch-veal-85gr/?add-to-cart=50324",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.529Z",
-  "dateModified": "2026-06-23T09:15:51.529Z"
+  "dateCreated": "2024-09-20T10:47:05",
+  "dateModified": "2026-06-24T14:12:08",
+  "brand": "Miglior",
+  "weight_kg": 0.1,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/09/MCW2021-UNICO-POUCH-TURKEY.png"
 }

@@ -1,0 +1,87 @@
+{
+  "id": 24379,
+  "name": "Puppy Training Pad-Small 100pc/Bag",
+  "slug": "puppy-training-pad-small-100pc-bag",
+  "sku": "PTMS",
+  "onSale": false,
+  "price": 3480,
+  "regularPrice": 3480,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/PTMS.jpg",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2096,
+      "name": "Generic",
+      "slug": "generic"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1034,
+      "name": "large breed",
+      "slug": "large-breed"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 2109,
+      "name": "Small breeds",
+      "slug": "small-breeds"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=24379",
+  "shortDescription": "Puppy Training Pad Small (45cm*33cm) – 100 pc per Bag",
+  "description": "Puppy training pad training is great for puppy-owners without easy access to outdoors for their pets and those living in tall buildings. Make clean-up easy and are convenient for potty training. ? Super-absorbent core. ? Leak-proof with plastic lining to prevent damage to floors ? Quick-dry surface with built-in attractant ? They?re comfortable for dogs ? They make clean-up easy ? They?re good options for dogs who can?t go outside for health reasons",
+  "images": [
+    {
+      "id": 24341,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/PTMS.jpg",
+      "alt": "Puppy Training Pad-Small 100pc/Bag",
+      "name": "PTMS"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/puppy-training-pad-small-100pc-bag/?add-to-cart=24379",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-01-10T20:42:02",
+  "dateModified": "2026-05-06T17:07:49",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/PTMS.jpg"
+}

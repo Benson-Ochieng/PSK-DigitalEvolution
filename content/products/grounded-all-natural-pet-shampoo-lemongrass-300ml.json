@@ -1,0 +1,63 @@
+{
+  "id": 48181,
+  "name": "Grounded all natural Pet Shampoo -  Lemongass - 300ml",
+  "slug": "grounded-all-natural-pet-shampoo-lemongrass-300ml",
+  "sku": "GPSL0.3@F",
+  "onSale": true,
+  "price": 760,
+  "regularPrice": 950,
+  "salePrice": 760,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/11/Grounded-Shampoo_Lemon-Grass.png",
+  "categories": [
+    {
+      "id": 2033,
+      "name": "Grounded",
+      "slug": "grounded"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2441,
+      "name": "Grounded",
+      "slug": "grounded"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2223,
+      "name": "flash",
+      "slug": "flash"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=48181",
+  "shortDescription": "Grounded Pet Shampoo is an all-natural, non-toxic shampoo for Dogs and Cats Gentle and effective for all breeds.",
+  "description": "Grounded Pet Shampoo is an all-natural, non-toxic shampoo for Dogs and Cats It is made from a vegan, castille soap base and has a rich lather that will naturally soothe and moisturise your pets fur and skin. Ingredients : Concentrated Liquid Soap (Saponified Coconut, Sunflower, Canola Oils, Citric Acid), Water, Glycerin, Lemongrass Essential Oil. Instructions : Wet pet. Dilute into a pitcher with water, pour on pet & lather. Or squeeze sparingly onto coat and lather. Rinse well. Proudly MADE IN KENYA by Grounded",
+  "images": [
+    {
+      "id": 29200,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/11/Grounded-Shampoo_Lemon-Grass.png",
+      "alt": "Grounded all natural Pet Shampoo -  Lemongass - 300ml",
+      "name": "Grounded Shampoo_Lemon Grass"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": 10,
+  "isPurchasable": false,
+  "addToCartUrl": "https://petstore.co.ke/product/grounded-all-natural-pet-shampoo-lemongrass-300ml/?add-to-cart=48181",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2024-07-01T16:40:00",
+  "dateModified": "2026-06-17T04:33:12",
+  "brand": "Grounded",
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/11/Grounded-Shampoo_Lemon-Grass.png"
+}

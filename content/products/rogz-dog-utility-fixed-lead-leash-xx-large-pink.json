@@ -1,0 +1,82 @@
+{
+  "id": 17782,
+  "name": "Rogz Dog Utility Fixed Lead/Leash XX-Large - Pink",
+  "slug": "rogz-dog-utility-fixed-lead-leash-xx-large-pink",
+  "sku": "HL19-K",
+  "onSale": false,
+  "price": 1600,
+  "regularPrice": 1600,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/HL19-K-Landingstrip-Pink.jpg",
+  "categories": [
+    {
+      "id": 2351,
+      "name": "Collars, Leashes & Harnesses",
+      "slug": "dog-collars-leashes-and-harnesses"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2353,
+      "name": "Dog Leashes",
+      "slug": "dog-leashes"
+    },
+    {
+      "id": 2064,
+      "name": "Rogz",
+      "slug": "rogz"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1919,
+      "name": "Leashes",
+      "slug": "leash"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=17782",
+  "shortDescription": "Rogz Utility Fixed Lead/Leash – XX-Large Pink",
+  "description": "Rogz Utility Fixed Reflective Dog Lead/Leash has a reflective yarn woven into the webbing for night time visibility so that everyone is aware that you & your dog are on an outing. Key Features: Reflective Stitching: Reflective yarn is woven into the webbing for night time visibility. RogLoc: RogLoc is the Fort Knox of release buckle Low Load Technology: LLT technology reduces the load on the Titanium Plastic buckle through a cleverly positioned load ring Contoured Plastic Component: ROGZ rounded contoured plastic components ensure that every ROGZ collar fits snugly Die-cast ring: Custom designed die cast ring (no welding). Electroplated chrome for a tarnish free finish Size: Length 0.5m, Width 4.0cm",
+  "images": [
+    {
+      "id": 17754,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/HL19-K-Landingstrip-Pink.jpg",
+      "alt": "Rogz Dog Utility Fixed Lead/Leash XX-Large - Pink",
+      "name": "HL19-K Landingstrip Pink"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-fixed-lead-leash-xx-large-pink/?add-to-cart=17782",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2021-01-12T13:03:07",
+  "dateModified": "2026-05-06T17:07:02",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/HL19-K-Landingstrip-Pink.jpg"
+}

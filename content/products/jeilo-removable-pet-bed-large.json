@@ -1,0 +1,114 @@
+{
+  "id": 20321,
+  "name": "Jeilo removable pet bed - large",
+  "slug": "jeilo-removable-pet-bed-large",
+  "sku": "JPBRL",
+  "onSale": false,
+  "price": 7598,
+  "regularPrice": 7598,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/JBPR1.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2341,
+      "name": "Cat Beds & Houses",
+      "slug": "cat-beds-houses"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2367,
+      "name": "Dog Beds & Furniture",
+      "slug": "dog-beds-furniture"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2082,
+      "name": "Beds",
+      "slug": "beds"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 2109,
+      "name": "Small breeds",
+      "slug": "small-breeds"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=20321",
+  "shortDescription": "Jeilo removable pet bed – large",
+  "description": "The Jeilo large removable cushion pet bed is a versatile and stylish outdoor spec bed for your medium and large pets. The cushion is covered with Ankara material and filled with soft fiber. The cushion detaches completely from the waterproof base for easier cleaning. The Dimensions for the small bed are: 35\"W x 45\"L x 5\"H",
+  "images": [
+    {
+      "id": 20311,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/JBPR1.png",
+      "alt": "Jeilo removable pet bed small1",
+      "name": "Jeilo removable pet bed  small1"
+    },
+    {
+      "id": 20314,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/JBPR3.png",
+      "alt": "Jeilo removable pet bed 2",
+      "name": "Jeilo removable pet bed 2"
+    },
+    {
+      "id": 20312,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/JBPR2.png",
+      "alt": "jeilo removable pet bed 2",
+      "name": "jeilo removable pet bed 2"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/jeilo-removable-pet-bed-large/?add-to-cart=20321",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2021-04-26T21:59:31",
+  "dateModified": "2026-05-06T17:07:21",
+  "brand": null,
+  "weight_kg": 3,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/JBPR1.png"
+}

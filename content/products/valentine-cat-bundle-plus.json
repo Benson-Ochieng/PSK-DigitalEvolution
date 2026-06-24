@@ -1,0 +1,62 @@
+{
+  "id": 34894,
+  "name": "Valentine Cat Bundle Plus",
+  "slug": "valentine-cat-bundle-plus",
+  "sku": "VDBUNDLE4",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/02/cat-bundle-plus.png",
+  "categories": [
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2122,
+      "name": "Bundle",
+      "slug": "bundle"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=34894",
+  "shortDescription": "1Pc Proline Cat Litter 5L 2Pcs M-Pets Cat Toy 1Pc Grooming Glove 1Pc Scooper",
+  "description": "\"My Purrfect Valentine!\"",
+  "images": [
+    {
+      "id": 34900,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/02/cat-bundle-plus.png",
+      "alt": "Valentine Cat Bundle Plus",
+      "name": "cat bundle plus"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/valentine-cat-bundle-plus/?add-to-cart=34894",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-02-05T11:58:02",
+  "dateModified": "2026-05-06T17:08:30",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/02/cat-bundle-plus.png"
+}

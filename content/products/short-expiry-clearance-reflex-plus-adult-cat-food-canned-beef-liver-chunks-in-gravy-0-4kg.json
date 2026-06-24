@@ -1,0 +1,108 @@
+{
+  "id": 39116,
+  "name": "SHORT EXPIRY-CLEARANCE: Reflex Plus Adult Cat Food Canned - Beef & Liver Chunks inGravy 0.4kg",
+  "slug": "short-expiry-clearance-reflex-plus-adult-cat-food-canned-beef-liver-chunks-in-gravy-0-4kg",
+  "sku": "RPCW002@SE",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/10/Reflex-Plus-cat-canned-beef-liver-min.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2556,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 622,
+      "name": "canned food",
+      "slug": "canned-food"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 1303,
+      "name": "Clearance",
+      "slug": "clearance"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=39116",
+  "shortDescription": "(4 pieces minimum order) Fully-balanced, beef & liver protein-containing canned (wet) cat food carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult breeds.",
+  "description": "Reflex Plus Beef & Liver Adult Cat Canned Food , fully-balanced, beef & liver protein-containing cat food carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult breeds. NUTRIENT COMPONENTS Crude Protein (%) - 7.0 Crude Oils & Fats (%) - 4.0 Crude Fiber (%) -0.5 Moisture (%) -81 Crude Ash (%) - 2.5 Vitamin A (Min) -1400 IE/kg Vitamin D3 (Min) -180 IE/kg Iron -8 mg/kg Copper -1.2 mg/kg Iodine -0.21 mg/kg Manganese -1.6 mg/kg Zinc -8.0 mg/kg Selenium -0.02 mg/kg INGREDIENTS: Meat & Animal Derivatives (beef 4% min, liver 4% min), Cereals, Fish & Fish Derivatives, Minerals, Preservatives, Colourants. FEEDING RECOMMENDATION: An adult cat (approx. 4kg) requires up to 3 meals per day, where 1 can serves 2 meals. Individual requirements depend on factors like age, breed and activity. Serve at room temperature. Store in a cool, dry place. Not fit for human consumption.",
+  "images": [
+    {
+      "id": 3747,
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/10/Reflex-Plus-cat-canned-beef-liver-min.png",
+      "alt": "Reflex Plus cat canned beef liver min",
+      "name": "Reflex Plus cat canned beef liver min"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-reflex-plus-adult-cat-food-canned-beef-liver-chunks-in-gravy-0-4kg/?add-to-cart=39116",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-08-21T11:40:04",
+  "dateModified": "2026-05-06T17:08:48",
+  "brand": "Reflex",
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/10/Reflex-Plus-cat-canned-beef-liver-min.png"
+}

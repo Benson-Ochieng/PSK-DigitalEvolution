@@ -4,8 +4,8 @@
   "slug": "proline-canned-dog-food-lamb-pumpkin-in-pate-400gr",
   "sku": "PDW005",
   "onSale": false,
-  "price": 2.89,
-  "regularPrice": 2.89,
+  "price": 289,
+  "regularPrice": 289,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "wet-dog-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/proline-canned-dog-food-lamb-pumpkin-in-pate-400gr/",
-  "shortDescription": "Proline Canned Dog Food Lamb 400g offers high-quality lamb protein, essential vitamins, minerals, and moisture-rich nutrition to support muscle strength, hydration, digestion, and overall health in adult dogs.",
-  "description": "Give your adult dog a wholesome and nutritious meal with Proline Canned Dog Food Lamb 400g , a complete and balanced wet food designed to support strength, vitality, and everyday wellness. Made with high-quality lamb protein and enriched with essential vitamins and minerals, this formula delivers the nutrients dogs need to stay active and healthy. Each can features soft, tender meat chunks or smooth pate, offering excellent digestibility and a taste dog naturally love. The protein-rich recipe helps maintain lean muscle mass, while the high moisture content supports hydration, kidney function, and digestive comfort—making it an ideal daily meal for adult dogs of any breed. Proline Lamb is fortified with key nutrients such as Vitamins A, D3, and E, along with essential minerals including iron, zinc, copper, iodine, and selenium. These ingredients play a vital role in promoting immune strength, maintaining a shiny coat, supporting skin health, and enhancing overall vitality. Whether served alone or mixed with kibble, Proline Lamb provides complete nutrition in a flavour-rich, easy-to-serve format. Key Benefits High-quality lamb protein supports lean muscle development and energy levels. Balanced vitamins and minerals promote strong immunity and overall health. Soft, digestible texture suitable for adult dogs of all breeds. Moisture-rich formula helps maintain hydration and supports urinary and kidney health. Essential fatty acids contribute to a healthy skin and glossy coat. Formulated as a complete and fully balanced meal for adult dogs. Typical Ingredients Meat and animal derivatives ( including at least 4% lamb ) Cereals and plant-based derivatives Vitamins and minerals: Iron, Zinc, Copper, Manganese, Iodine, Selenium, Vitamins A, D3 &amp; E Feeding Recommendations Serve at room temperature for optimal taste and aroma. Provide fresh drinking water at all times. Adjust feeding amounts according to age, weight, and activity level. Small dogs may consume ½–1 can daily ; medium and large dogs may require 1–2 cans or more . Introduce gradually when switching from a different food. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 63414,
-      "alt": "Proline Canned Dog Food Lamb Pumpkin In Pate 400g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/12/PROLINE.png",
-      "name": "_PROLINE"
+      "id": 2461,
+      "name": "Proline",
+      "slug": "proline"
     }
   ],
   "tags": [
@@ -69,20 +61,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/proline-canned-dog-food-lamb-pumpkin-in-pate-400gr/",
+  "shortDescription": "Proline Canned Dog Food Lamb 400g offers high-quality lamb protein, essential vitamins, minerals, and moisture-rich nutrition to support muscle strength, hydration, digestion, and overall health in adult dogs.",
+  "description": "Give your adult dog a wholesome and nutritious meal with Proline Canned Dog Food Lamb 400g , a complete and balanced wet food designed to support strength, vitality, and everyday wellness. Made with high-quality lamb protein and enriched with essential vitamins and minerals, this formula delivers the nutrients dogs need to stay active and healthy. Each can features soft, tender meat chunks or smooth pate, offering excellent digestibility and a taste dog naturally love. The protein-rich recipe helps maintain lean muscle mass, while the high moisture content supports hydration, kidney function, and digestive comfort—making it an ideal daily meal for adult dogs of any breed. Proline Lamb is fortified with key nutrients such as Vitamins A, D3, and E, along with essential minerals including iron, zinc, copper, iodine, and selenium. These ingredients play a vital role in promoting immune strength, maintaining a shiny coat, supporting skin health, and enhancing overall vitality. Whether served alone or mixed with kibble, Proline Lamb provides complete nutrition in a flavour-rich, easy-to-serve format. Key Benefits High-quality lamb protein supports lean muscle development and energy levels. Balanced vitamins and minerals promote strong immunity and overall health. Soft, digestible texture suitable for adult dogs of all breeds. Moisture-rich formula helps maintain hydration and supports urinary and kidney health. Essential fatty acids contribute to a healthy skin and glossy coat. Formulated as a complete and fully balanced meal for adult dogs. Typical Ingredients Meat and animal derivatives ( including at least 4% lamb ) Cereals and plant-based derivatives Vitamins and minerals: Iron, Zinc, Copper, Manganese, Iodine, Selenium, Vitamins A, D3 & E Feeding Recommendations Serve at room temperature for optimal taste and aroma. Provide fresh drinking water at all times. Adjust feeding amounts according to age, weight, and activity level. Small dogs may consume ½–1 can daily ; medium and large dogs may require 1–2 cans or more . Introduce gradually when switching from a different food. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2461,
-      "name": "Proline",
-      "slug": "proline"
+      "id": 63414,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/12/PROLINE.png",
+      "alt": "Proline Canned Dog Food Lamb Pumpkin In Pate 400g",
+      "name": "_PROLINE"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=63410",
+  "addToCartUrl": "https://petstore.co.ke/product/proline-canned-dog-food-lamb-pumpkin-in-pate-400gr/?add-to-cart=63410",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.800Z",
-  "dateModified": "2026-06-23T09:15:51.800Z"
+  "dateCreated": "2025-12-04T14:24:10",
+  "dateModified": "2026-06-23T14:12:15",
+  "brand": "Proline",
+  "weight_kg": 0.415,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/12/PROLINE.png"
 }

@@ -1,11 +1,11 @@
 {
   "id": 66379,
-  "name": "Bravecto Plus For Cats 250mg (2.8 – 6.25kg)",
+  "name": "Bravecto Plus For Cats 250mg (2.8 - 6.25kg)",
   "slug": "bravecto-plus-spot-on-for-cats-2-8-6-25kg",
   "sku": "713313",
   "onSale": false,
-  "price": 59.85,
-  "regularPrice": 59.85,
+  "price": 5985,
+  "regularPrice": 5985,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -37,19 +37,11 @@
       "slug": "cat-flea-tick"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/bravecto-plus-spot-on-for-cats-2-8-6-25kg/",
-  "shortDescription": "Bravecto Plus Spot-On for cats 2.8–6.25kg provides up to 3 months flea protection, 10 weeks tick control, 2 months heartworm prevention, worms and ear mites in one easy dose",
-  "description": "Keeping up with monthly parasite treatments can be difficult, which is why Bravecto Plus is designed to last twice as long . With a single easy spot-on application, Bravecto Plus provides extended, broad-spectrum protection for cats, reducing the stress of frequent dosing while ensuring reliable parasite control. Bravecto Plus Spot-On Tick, Flea and Worm Treatment protect cats against fleas, paralysis ticks, and heartworm while also treating intestinal worms and ear mites —all in one convenient dose. It is specifically formulated for cats weighing between 2.8 kg and 6.25 kg . Always weigh your cat before purchasing to ensure the correct product selection. Long-Lasting, All-in-One Protection Bravecto Plus begins working quickly and continues to protect: Against fleas for up to 3 months (12 weeks) Against paralysis ticks for up to 10 weeks Against heartworm disease for up to 2 months In addition to external parasite control, it effectively protect intestinal roundworms and hookworms , as well as ear mites , helping maintain your cat’s overall health and comfort. Easy &amp; Stress-Free Application Forget the struggle of tablets and missed doses. The Twist’n’Use™ spot-on tube makes application simple and mess-free: No pills to swallow Ideal for cats that resist oral medications Applied directly to the skin for reliable absorption This makes Bravecto Plus especially suitable for cats that are difficult to medicate or skilled at avoiding tablets. Active Ingredients Each 1 ml of Bravecto Plus contains: Fluralaner – 280 mg Moxidectin – 14 mg These powerful active ingredients work together to provide extended protection against a wide range of parasites. Key Features &amp; Benefits Long-lasting protection reduces the need for monthly treatments Kills fleas fast and protects for up to 12 weeks Protects against paralysis ticks for up to 10 weeks Helps prevent heartworm disease for 2 months Treats intestinal worms and ear mites Easy-to-use Twist’n’Use™ spot-on tube Ideal for cats 2.8–6.25 kg Important Notes For topical use only Always weigh your cat before selecting this product Use only on cats within the specified weight range Follow label instructions carefully for best results &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 66376,
-      "alt": "Bravecto Plus For Cats 250mg (2.8 – 6.25kg)",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/bravecto-plus-2.8-6.25kg-.png",
-      "name": "bravecto plus 2.8 &#8211; 6.25kg"
+      "id": 2429,
+      "name": "Bravecto",
+      "slug": "bravecto"
     }
   ],
   "tags": [
@@ -60,7 +52,7 @@
     },
     {
       "id": 1149,
-      "name": "flea &amp; tick",
+      "name": "flea & tick",
       "slug": "flea-tick"
     },
     {
@@ -79,20 +71,33 @@
       "slug": "pet-care"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/bravecto-plus-spot-on-for-cats-2-8-6-25kg/",
+  "shortDescription": "Bravecto Plus Spot-On for cats 2.8–6.25kg provides up to 3 months flea protection, 10 weeks tick control, 2 months heartworm prevention, worms and ear mites in one easy dose",
+  "description": "Keeping up with monthly parasite treatments can be difficult, which is why Bravecto Plus is designed to last twice as long . With a single easy spot-on application, Bravecto Plus provides extended, broad-spectrum protection for cats, reducing the stress of frequent dosing while ensuring reliable parasite control. Bravecto Plus Spot-On Tick, Flea and Worm Treatment protect cats against fleas, paralysis ticks, and heartworm while also treating intestinal worms and ear mites —all in one convenient dose. It is specifically formulated for cats weighing between 2.8 kg and 6.25 kg . Always weigh your cat before purchasing to ensure the correct product selection. Long-Lasting, All-in-One Protection Bravecto Plus begins working quickly and continues to protect: Against fleas for up to 3 months (12 weeks) Against paralysis ticks for up to 10 weeks Against heartworm disease for up to 2 months In addition to external parasite control, it effectively protect intestinal roundworms and hookworms , as well as ear mites , helping maintain your cat’s overall health and comfort. Easy & Stress-Free Application Forget the struggle of tablets and missed doses. The Twist’n’Use™ spot-on tube makes application simple and mess-free: No pills to swallow Ideal for cats that resist oral medications Applied directly to the skin for reliable absorption This makes Bravecto Plus especially suitable for cats that are difficult to medicate or skilled at avoiding tablets. Active Ingredients Each 1 ml of Bravecto Plus contains: Fluralaner – 280 mg Moxidectin – 14 mg These powerful active ingredients work together to provide extended protection against a wide range of parasites. Key Features & Benefits Long-lasting protection reduces the need for monthly treatments Kills fleas fast and protects for up to 12 weeks Protects against paralysis ticks for up to 10 weeks Helps prevent heartworm disease for 2 months Treats intestinal worms and ear mites Easy-to-use Twist’n’Use™ spot-on tube Ideal for cats 2.8–6.25 kg Important Notes For topical use only Always weigh your cat before selecting this product Use only on cats within the specified weight range Follow label instructions carefully for best results &nbsp;",
+  "images": [
     {
-      "id": 2429,
-      "name": "Bravecto",
-      "slug": "bravecto"
+      "id": 66376,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/bravecto-plus-2.8-6.25kg-.png",
+      "alt": "Bravecto Plus For Cats 250mg (2.8 – 6.25kg)",
+      "name": "bravecto plus 2.8 &#8211; 6.25kg"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": null,
+  "lowStockRemaining": 10,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=66379",
+  "addToCartUrl": "https://petstore.co.ke/product/bravecto-plus-spot-on-for-cats-2-8-6-25kg/?add-to-cart=66379",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.817Z",
-  "dateModified": "2026-06-23T09:15:51.817Z"
+  "dateCreated": "2026-01-07T16:21:35",
+  "dateModified": "2026-06-22T12:12:00",
+  "brand": "Bravecto",
+  "weight_kg": 0.1,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/bravecto-plus-2.8-6.25kg-.png"
 }

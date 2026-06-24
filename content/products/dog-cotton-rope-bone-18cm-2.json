@@ -4,8 +4,8 @@
   "slug": "dog-cotton-rope-bone-18cm-2",
   "sku": "PA0140",
   "onSale": false,
-  "price": 4.5,
-  "regularPrice": 4.5,
+  "price": 450,
+  "regularPrice": 450,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -37,21 +37,7 @@
       "slug": "dog-rope-tug-toys"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/dog-cotton-rope-bone-18cm-2/",
-  "shortDescription": "Keep your dog active, entertained, and healthy with the Dog Cotton Rope Bone 18CM — a durable, handmade chew toy crafted for medium and large breeds. Designed to withstand strong chewing, this rope bone promotes dental health , relieves boredom, and strengthens the bond between you and your pet through interactive play.",
-  "description": "Keep your dog active, entertained, and healthy with the Dog Cotton Rope Bone 18CM — a durable, handmade chew toy crafted for medium and large breeds. Designed to withstand strong chewing, this rope bone promotes dental health , relieves boredom, and strengthens the bond between you and your pet through interactive play. Product Features Premium Quality Material: Made from tightly woven cotton and polyester threads , this rope toy is built to last even against aggressive chewers, ensuring safe and long-term use. Ideal Size: Measuring 18cm in length , it’s perfect for medium and large dogs , while smaller breeds and puppies can also enjoy supervised play. Durable Bone-Shaped Design: The braided rope bone features thick knots that satisfy natural chewing instincts, clean teeth , and massage gums , helping to reduce plaque and tartar build-up . Vibrant Colors: Comes in bright, multi-colored patterns that grab your dog’s attention, encouraging playful engagement both indoors and outdoors. Key Benefits Supports Dental Hygiene: The natural friction of chewing helps clean teeth and strengthen gums , contributing to fresh breath and better oral health. Encourages Mental Stimulation: Keeps your dog entertained for hours , reducing boredom, anxiety, and destructive chewing behaviors . Perfect for Playtime: Great for fetch, tug-of-war, or solo chewing , making it a versatile toy for any environment. Enhances Bonding: Promotes interactive play that builds trust and connection between pets and their owners. Safety Tips Always supervise your dog during playtime, especially if they’re an aggressive chewer. Replace the toy if it becomes excessively worn or frayed to ensure continued safety Dog Cotton Rope Bone 18CM is more than just a chew toy — it’s a fun, health-boosting companion designed to keep your dog’s teeth strong, their mind engaged, and their tail wagging &nbsp;",
-  "images": [
-    {
-      "id": 42694,
-      "alt": "Dog Cotton Rope Bone 18cm",
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/12/DOG-COTTON-ROPE-BONE-18CM.png",
-      "name": "DOG COTTON ROPE BONE 18CM"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 1205,
@@ -74,14 +60,33 @@
       "slug": "toys"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/dog-cotton-rope-bone-18cm-2/",
+  "shortDescription": "Keep your dog active, entertained, and healthy with the Dog Cotton Rope Bone 18CM — a durable, handmade chew toy crafted for medium and large breeds. Designed to withstand strong chewing, this rope bone promotes dental health , relieves boredom, and strengthens the bond between you and your pet through interactive play.",
+  "description": "Keep your dog active, entertained, and healthy with the Dog Cotton Rope Bone 18CM — a durable, handmade chew toy crafted for medium and large breeds. Designed to withstand strong chewing, this rope bone promotes dental health , relieves boredom, and strengthens the bond between you and your pet through interactive play. Product Features Premium Quality Material: Made from tightly woven cotton and polyester threads , this rope toy is built to last even against aggressive chewers, ensuring safe and long-term use. Ideal Size: Measuring 18cm in length , it’s perfect for medium and large dogs , while smaller breeds and puppies can also enjoy supervised play. Durable Bone-Shaped Design: The braided rope bone features thick knots that satisfy natural chewing instincts, clean teeth , and massage gums , helping to reduce plaque and tartar build-up . Vibrant Colors: Comes in bright, multi-colored patterns that grab your dog’s attention, encouraging playful engagement both indoors and outdoors. Key Benefits Supports Dental Hygiene: The natural friction of chewing helps clean teeth and strengthen gums , contributing to fresh breath and better oral health. Encourages Mental Stimulation: Keeps your dog entertained for hours , reducing boredom, anxiety, and destructive chewing behaviors . Perfect for Playtime: Great for fetch, tug-of-war, or solo chewing , making it a versatile toy for any environment. Enhances Bonding: Promotes interactive play that builds trust and connection between pets and their owners. Safety Tips Always supervise your dog during playtime, especially if they’re an aggressive chewer. Replace the toy if it becomes excessively worn or frayed to ensure continued safety Dog Cotton Rope Bone 18CM is more than just a chew toy — it’s a fun, health-boosting companion designed to keep your dog’s teeth strong, their mind engaged, and their tail wagging &nbsp;",
+  "images": [
+    {
+      "id": 42694,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/12/DOG-COTTON-ROPE-BONE-18CM.png",
+      "alt": "Dog Cotton Rope Bone 18cm",
+      "name": "DOG COTTON ROPE BONE 18CM"
+    }
+  ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=42693",
+  "addToCartUrl": "https://petstore.co.ke/product/dog-cotton-rope-bone-18cm-2/?add-to-cart=42693",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.344Z",
-  "dateModified": "2026-06-23T09:15:51.344Z"
+  "dateCreated": "2023-12-27T13:04:16",
+  "dateModified": "2026-06-17T04:14:35",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/DOG-COTTON-ROPE-BONE-18CM.png"
 }

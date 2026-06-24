@@ -1,0 +1,87 @@
+{
+  "id": 45013,
+  "name": "Ankur Regular Non Skid Bowl With Color And Print 235ml",
+  "slug": "ankur-regular-non-skid-bowl-with-color-and-print-235ml-2",
+  "sku": "AEDBNTRCP-01@F",
+  "onSale": false,
+  "price": 500,
+  "regularPrice": 500,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-Regular-Non-skid-bowl.png",
+  "categories": [
+    {
+      "id": 2041,
+      "name": "Ankur",
+      "slug": "ankur"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2344,
+      "name": "Cat Bowls & Feeders",
+      "slug": "cat-bowls-and-feeders"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2366,
+      "name": "Dog Bowls & Feeders",
+      "slug": "dog-bowls-feeders"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2072,
+      "name": "Bowls",
+      "slug": "bowls"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=45013",
+  "shortDescription": "ANKUR REGULAR NON SKID BOWL WITH COLOR AND PRINT 235ml",
+  "description": "ANKUR REGULAR NON SKID BOWL WITH COLOR AND PRINT 235ml",
+  "images": [
+    {
+      "id": 29372,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-Regular-Non-skid-bowl.png",
+      "alt": "Ankur Regular Non Skid Bowl With Color And Print 2600ml",
+      "name": "Ankur Regular Non skid bowl"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/ankur-regular-non-skid-bowl-with-color-and-print-235ml-2/?add-to-cart=45013",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2024-03-06T17:26:32",
+  "dateModified": "2026-05-06T17:09:39",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-Regular-Non-skid-bowl.png"
+}

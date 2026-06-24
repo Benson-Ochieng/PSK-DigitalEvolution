@@ -1,9 +1,8 @@
 import pg from 'pg';
 import dotenv from 'dotenv';
 import { runMigrations } from './db/migrate.server';
-import { executeMockQuery } from './db.mock';
 
-dotenv.config();
+dotenv.config({ override: true });
 
 const { Pool } = pg;
 
@@ -12,7 +11,6 @@ if (!process.env.DATABASE_URL) {
 }
 
 const isProduction = process.env.NODE_ENV === 'production';
-let useMockDb = false;
 
 let hasSslDisabled = false;
 if (process.env.DATABASE_URL) {
@@ -54,11 +52,11 @@ const poolConfig: pg.PoolConfig = {
   connectionString: process.env.DATABASE_URL,
   max: isProduction ? 20 : 5, // Limit connections in dev
   idleTimeoutMillis: 30000,   // Close idle clients after 30 seconds
-  connectionTimeoutMillis: 2000, // Timeout faster in dev to fallback to mock db quickly (2s instead of 5s)
+  connectionTimeoutMillis: 5000, // standard connection timeout
   maxUses: 7500, // Close and replace a connection after 7500 queries to prevent memory leaks
   ssl: hasSslDisabled
     ? undefined
-    : (isProduction ? { rejectUnauthorized: false } : undefined),
+    : { rejectUnauthorized: false },
 };
 
 let pool: pg.Pool;
@@ -67,7 +65,7 @@ declare global {
   var __petstore_pool__: pg.Pool | undefined;
 }
 
-// Self-healing startup routine
+// Startup migrations check
 async function startDatabase() {
   console.log('Starting database migrations check...');
   try {
@@ -87,9 +85,7 @@ async function startDatabase() {
       pool = new Pool(poolConfig);
 
       pool.on('error', (err: Error) => {
-        if (!useMockDb) {
-          console.error('Unexpected error on idle PostgreSQL client:', err);
-        }
+        console.error('Unexpected error on idle PostgreSQL client:', err);
       });
 
       console.log('Retrying migrations check without SSL...');
@@ -97,24 +93,12 @@ async function startDatabase() {
         await runMigrations(pool);
         console.log('Database migrations completed successfully (without SSL).');
       } catch (retryErr) {
-        console.error('Auto migrations failed on retry:', retryErr);
-        enableMockFallback(retryErr);
+        console.error('Auto migrations failed on retry (non-fatal):', retryErr);
       }
     } else {
-      console.error('Auto migrations failed:', err);
-      enableMockFallback(err);
+      console.error('Auto migrations failed (non-fatal):', err);
     }
   }
-}
-
-function enableMockFallback(error: any) {
-  useMockDb = true;
-  console.warn(
-    `\n\x1b[33m⚠️  [DATABASE CONNECTION WARNING] ⚠️\x1b[0m\n` +
-    `\x1b[33mCould not connect to PostgreSQL database at ${process.env.DATABASE_URL}.\x1b[0m\n` +
-    `\x1b[32mSuccessfully fell back to local offline mock database (app/db.mock.ts).\x1b[0m\n` +
-    `\x1b[32mAll storefront pages, checkout, and admin features will be fully functional.\x1b[0m\n`
-  );
 }
 
 if (isProduction) {
@@ -132,18 +116,12 @@ if (isProduction) {
 
 // Global pool error handler to prevent crashing the app on broken connections
 pool.on('error', (err: Error) => {
-  if (!useMockDb) {
-    console.error('Unexpected error on idle PostgreSQL client:', err);
-  }
+  console.error('Unexpected error on idle PostgreSQL client:', err);
 });
 
 export default pool;
 
 export async function query<T extends pg.QueryResultRow = any>(text: string, params?: any[]) {
-  if (useMockDb) {
-    return await executeMockQuery(text, params);
-  }
-
   const start = Date.now();
   try {
     const res = await pool.query<T>(text, params);
@@ -153,13 +131,6 @@ export async function query<T extends pg.QueryResultRow = any>(text: string, par
     }
     return res;
   } catch (error: any) {
-    // If we hit a connection issue mid-runtime, fall back to mock db immediately
-    const isConnErr = error.code === 'ECONNREFUSED' || error.message?.includes('connect') || error.message?.includes('timeout') || error.message?.includes('terminated');
-    if (isConnErr) {
-      enableMockFallback(error);
-      return await executeMockQuery(text, params);
-    }
-
     console.error('Database query error:', { text, error });
     throw error;
   }
@@ -167,25 +138,11 @@ export async function query<T extends pg.QueryResultRow = any>(text: string, par
 
 // Transaction helper for executing multiple queries in a single transaction
 export async function withTransaction<T>(callback: (client: pg.PoolClient) => Promise<T>): Promise<T> {
-  if (useMockDb) {
-    const mockClient = {
-      query: (t: string, p?: any[]) => executeMockQuery(t, p)
-    };
-    return await callback(mockClient as any);
-  }
-
   let client: pg.PoolClient;
   try {
     client = await pool.connect();
   } catch (error: any) {
-    const isConnErr = error.code === 'ECONNREFUSED' || error.message?.includes('connect') || error.message?.includes('timeout');
-    if (isConnErr) {
-      enableMockFallback(error);
-      const mockClient = {
-        query: (t: string, p?: any[]) => executeMockQuery(t, p)
-      };
-      return await callback(mockClient as any);
-    }
+    console.error('Database connection error in transaction:', error);
     throw error;
   }
 
@@ -205,10 +162,6 @@ export async function withTransaction<T>(callback: (client: pg.PoolClient) => Pr
 
 // Health check to verify DB is reachable
 export async function checkDbHealth(): Promise<{ healthy: boolean; latencyMs?: number; error?: string }> {
-  if (useMockDb) {
-    return { healthy: true, latencyMs: 0, error: 'Offline development mode (In-Memory Mock Database)' };
-  }
-
   const start = Date.now();
   try {
     await pool.query('SELECT 1');

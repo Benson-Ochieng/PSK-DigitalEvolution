@@ -1,0 +1,57 @@
+{
+  "id": 52783,
+  "name": "Proline Adult Cat Food Fish 1.2kg",
+  "slug": "proline-adult-cat-food-fish-1-2kg-2",
+  "sku": "PCD016@F",
+  "onSale": true,
+  "price": 1297,
+  "regularPrice": 1965,
+  "salePrice": 1297,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/Proline-Fish-1.2kg-e1712581807156.png",
+  "categories": [
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2223,
+      "name": "flash",
+      "slug": "flash"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=52783",
+  "shortDescription": "",
+  "description": "",
+  "images": [
+    {
+      "id": 45933,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/04/Proline-Fish-1.2kg-e1712581807156.png",
+      "alt": "Proline Adult Cat Food Fish 1.2kg",
+      "name": "Proline Fish 1.2kg"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": false,
+  "addToCartUrl": "https://petstore.co.ke/product/proline-adult-cat-food-fish-1-2kg-2/?add-to-cart=52783",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2025-01-16T17:04:50",
+  "dateModified": "2026-05-06T17:10:54",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/Proline-Fish-1.2kg-e1712581807156.png"
+}

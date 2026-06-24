@@ -1,0 +1,97 @@
+{
+  "id": 39896,
+  "name": "Magic Perfume For Pets - Orange Scent 118ml",
+  "slug": "magic-perfume-for-pets-orange-scent",
+  "sku": "MPFPO118ML",
+  "onSale": false,
+  "price": 812,
+  "regularPrice": 812,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/09/PERFUME-FOR-PETS-ORANGE.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2343,
+      "name": "Cat Grooming",
+      "slug": "cat-grooming"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2360,
+      "name": "Dog Grooming & Cleaning",
+      "slug": "dog-grooming-cleaning-supplies"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2098,
+      "name": "Grooming & Tools",
+      "slug": "grooming-tools"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/magic-perfume-for-pets-orange-scent/",
+  "shortDescription": "This product selects orange blossom essence, which is fresh elegant, brings an extraordinary sense of smell to pets and adds FORESTALL Soybean extracts to eliminate odour effectively. It's a good choice for home care.",
+  "description": "MAGIC PERFUME-ORANGE SCENT: This product selects orange blossom essence, which is fresh elegant, brings an extraordinary sense of smell to pets and adds FORESTALL Soybean extracts to eliminate odour effectively. It is a good choice for home care. Instructions for Use: Shake well before use. Do not spray to pet mouth, nose, eyes, ears.",
+  "images": [
+    {
+      "id": 39898,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/09/PERFUME-FOR-PETS-ORANGE.jpg",
+      "alt": "Magic Perfume For Pets - Orange Scent 118ml",
+      "name": "PERFUME-FOR-PETS-ORANGE"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/magic-perfume-for-pets-orange-scent/?add-to-cart=39896",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-09-28T12:50:08",
+  "dateModified": "2026-06-17T04:18:40",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/09/PERFUME-FOR-PETS-ORANGE.jpg"
+}

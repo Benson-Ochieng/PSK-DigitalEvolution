@@ -4,8 +4,8 @@
   "slug": "reflex-care-training-pad-10pcs-2",
   "sku": "RCTP10",
   "onSale": false,
-  "price": 9,
-  "regularPrice": 9,
+  "price": 900,
+  "regularPrice": 900,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,6 +32,20 @@
       "slug": "reflex"
     }
   ],
+  "brands": [
+    {
+      "id": 2462,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2098,
+      "name": "Grooming & Tools",
+      "slug": "grooming-tools"
+    }
+  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
@@ -42,32 +56,23 @@
   "images": [
     {
       "id": 69426,
-      "alt": "Reflex Care Training Pad 10pcs",
       "src": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-CARE-TRAINING-PAD-10PCS.png",
+      "alt": "Reflex Care Training Pad 10pcs",
       "name": "REFLEX CARE TRAINING PAD 10PCS"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2098,
-      "name": "Grooming &amp; Tools",
-      "slug": "grooming-tools"
-    }
-  ],
-  "brands": [
-    {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=69425",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-care-training-pad-10pcs-2/?add-to-cart=69425",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.911Z",
-  "dateModified": "2026-06-23T09:15:51.911Z"
+  "dateCreated": "2026-02-02T14:33:57",
+  "dateModified": "2026-06-17T04:30:35",
+  "brand": "Reflex",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-CARE-TRAINING-PAD-10PCS.png"
 }

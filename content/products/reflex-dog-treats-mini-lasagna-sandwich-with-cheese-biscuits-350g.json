@@ -1,0 +1,93 @@
+{
+  "id": 3720,
+  "name": "Reflex Dog Treats - Mini Lasagna Sandwich with Cheese Biscuits 350g",
+  "slug": "reflex-dog-treats-mini-lasagna-sandwich-with-cheese-biscuits-350g",
+  "sku": "RDT010",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/10/PetStore-Kenya-Reflex-Dog-Treats-Mini-Sandwiches-min.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2079,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2108,
+      "name": "Mini breeds",
+      "slug": "mini-breeds"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=3720",
+  "shortDescription": "Reflex Dog Treats – Mini Lasagna Sandwich with Cheese Biscuits are the perfect size dog biscuits for training and for rewarding good behaviour. Made with the highest quality ingredients and bursting with flavour.",
+  "description": "Reflex Dog Treats - Mini Lasagna Sandwich with Cheese Biscuits are the perfect size dog biscuits for training and for rewarding good behaviour. Made with the highest quality ingredients and bursting with flavour. INGREDIENTS: Cereals, Meat & Animal By-Products, Vegetable Oils & Fats, Glucose (5.4%), Milk & Milk By-Products, Minerals, Vegetables. NUTRIENT COMPONENTS Crude Protein (%) - 10.4 Oil Content (%) - 7.2 Crude Ash (%) - 3.1 Crude Fiber (%) - 3.3 Sodium (%) - 0.7 FEEDING RECOMMENDATIONS: Treats may be given as an additional snack. This product does not replace full-dog food daily. Recommended quantity: max. 10 pieces per day. Individual daily requirement depends on other factors, e.g. age, breed and activity. Keep in a dry, cool place.",
+  "images": [
+    {
+      "id": 3708,
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/10/PetStore-Kenya-Reflex-Dog-Treats-Mini-Sandwiches-min.png",
+      "alt": "PetStore Kenya Reflex Dog Treats Mini Sandwiches min",
+      "name": "PetStore Kenya Reflex Dog Treats Mini Sandwiches min"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": 10,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-dog-treats-mini-lasagna-sandwich-with-cheese-biscuits-350g/?add-to-cart=3720",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2019-10-23T20:07:56",
+  "dateModified": "2026-05-06T17:06:21",
+  "brand": "Reflex",
+  "weight_kg": 0.35,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/10/PetStore-Kenya-Reflex-Dog-Treats-Mini-Sandwiches-min.png"
+}

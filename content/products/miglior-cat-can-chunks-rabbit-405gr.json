@@ -1,0 +1,92 @@
+{
+  "id": 55363,
+  "name": "Miglior Canned Cat Food - Rabbit Chunks, 405g",
+  "slug": "miglior-cat-can-chunks-rabbit-405gr",
+  "sku": "MCW006@OFFER",
+  "onSale": true,
+  "price": 134,
+  "regularPrice": 269,
+  "salePrice": 134,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW006.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2163,
+      "name": "Miglior",
+      "slug": "miglior"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 622,
+      "name": "canned food",
+      "slug": "canned-food"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 939,
+      "name": "On Sale Now",
+      "slug": "sale"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=55363",
+  "shortDescription": "Miglior Rabbit Chunks delivers everyday nourishment with real meat, vital minerals, and Omega-3 to support bone strength, skin health, and a glossy feline coat.",
+  "description": "COMPOSITION: Meat and animal derivatives 30% (rabbit 5%), cereals, minerals. ANALYTICAL CONSTITUENTS: Moisture 77%, Crude protein 8.5%, Crude fat 4.8%, Crude fibres 0.5%, Crude ash 3%. Nutritional additives / kg: Vitamin E 10 mg, Copper (Copper(II) sulphate pentahydrate) 2 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight. Once opened, store in refrigerator for 2-3 days.",
+  "images": [
+    {
+      "id": 28242,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW006.jpg",
+      "alt": "Migliorgatto CHUNKS WITH Rabbit 405Gr",
+      "name": "MCW006"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/miglior-cat-can-chunks-rabbit-405gr/?add-to-cart=55363",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2025-05-26T12:14:50",
+  "dateModified": "2026-05-06T17:11:18",
+  "brand": null,
+  "weight_kg": 0.405,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW006.jpg"
+}

@@ -1,0 +1,87 @@
+{
+  "id": 24537,
+  "name": "Retractable Leash Blue Large",
+  "slug": "retractable-leash-blue-large",
+  "sku": "RLBEL",
+  "onSale": false,
+  "price": 2400,
+  "regularPrice": 2400,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/RLBEL.jpg",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2351,
+      "name": "Collars, Leashes & Harnesses",
+      "slug": "dog-collars-leashes-and-harnesses"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2353,
+      "name": "Dog Leashes",
+      "slug": "dog-leashes"
+    },
+    {
+      "id": 2096,
+      "name": "Generic",
+      "slug": "generic"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 1919,
+      "name": "Leashes",
+      "slug": "leash"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/retractable-leash-blue-large/",
+  "shortDescription": "Rectractable Leash Blue – Large – 5 Metres",
+  "description": "About this item ? Retractable Dog Leash is strong and durable. No noise design made for daily use. ? For any types of dog with up to 110lbs in weight, This Retractable Leash works for powerful large dogs, as well as medium sized and smaller dogs, giving them maximum freedom while under your control. ? Safe And Reliable Brake System. When the brake button is pushed, the retractable leashes instantly stops and is securely held at exactly that length a perfect spring for smoothly retracting dog leash while you will not hurt yourself. ? Anti-slip Handle is easy and safe to grip, provides enjoyable walking experience with your pets and you don't worry about the dog leash will hurt your hand when the dog run about madly.",
+  "images": [
+    {
+      "id": 24344,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/RLBEL.jpg",
+      "alt": "Retractable Leash Blue Large",
+      "name": "RLBEL"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/retractable-leash-blue-large/?add-to-cart=24537",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-01-15T21:20:00",
+  "dateModified": "2026-06-17T04:18:36",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/RLBEL.jpg"
+}

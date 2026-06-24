@@ -1,12 +1,12 @@
 {
   "id": 39111,
-  "name": "SHORT EXPIRY-CLEARANCE: Reflex Plus Premium Adult Dog Food – Medium/Large Breed Senior Lamb & Rice 3kg",
+  "name": "SHORT EXPIRY-CLEARANCE: Reflex Plus Premium Adult Dog Food - Medium/Large Breed Senior Lamb & Rice 3kg",
   "slug": "short-expiry-clearance-reflex-plus-premium-adult-dog-food-medium-large-breed-senior-lamb-rice-3kg-copy",
   "sku": "RPDD004@SE",
   "onSale": true,
-  "price": 17.25,
-  "regularPrice": 34.5,
-  "salePrice": 17.25,
+  "price": 1725,
+  "regularPrice": 3450,
+  "salePrice": 1725,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/RPLBSDLR03.png",
@@ -32,19 +32,11 @@
       "slug": "reflex"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/short-expiry-clearance-reflex-plus-premium-adult-dog-food-medium-large-breed-senior-lamb-rice-3kg-copy/",
-  "shortDescription": "Give your senior dog complete nutrition with Reflex Plus Lamb &amp; Rice – 25% protein, prebiotics, glucosamine, and flaxseed for healthy digestion, joints, and immune support.",
-  "description": "Complete and balanced formulated super premium dry dog food with lamb &amp; rice for medium-large breeds older than 7 years of age. INGREDIENTS: Lamb Proteins (dehydrated), Animal Proteins (dehydrated), Corn, Chicken Fat, Rice, Beet Pulp, Liver Flavour, Whey Powder, Vitamins and Minerals, Xylo-Oligosaccharides, Brewer&#8217;s Yeast, Linseed, Salt, Yucca Schidigera, Glucosamine, Chondroitin Sulphate, Preservatives &#8211; Antioxidants. MINERALS: Calcium, Phosphor, Sodium, lodine , Zinc, Copper, Iron, Selenium. VITAMINS : Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 &#8211; B2 &#8211; B3 (Niacin) &#8211; B6 &#8211; B12 &#8211; B7 (Biotin) &#8211; B9 (Folic Acid), vT. k, Choline, Calcium Pantothenate. NUTRIENT COMPOSITION NUTRITIVE ADDITIONS Crude Protein 25% Vitamin A (E672) 18000 IU/kg Crude Fat 13% Vitamin D3(E671) 1500 IU/kg Crude Ash 7% Vitamin E (3A700) 150 mg/kg Crude Cellulose ) 2,5% Vitamin C (Stay C) 200 mg/kg RECOMMENDED FEEDING GUIDE: DOG&#8217; WEIGHT : 12 kg 15 kg 20 kg 25 kg 30 kg 35 kg 40 kg 45 kg DOG SILHOUETTE A &#8211; Thin 225 &#8211; 249 g 266 &#8211; 294 g 330 &#8211; 365 g 390 &#8211; 431 g 447 &#8211; 494 g 502 &#8211; 555 g 555 -614 g 606 &#8211; 670 g B -? Normal 196 &#8211; 217 g 232 &#8211; 256 g 288 &#8211; 318 g 340 &#8211; 376 g 390 &#8211; 431 g 438 &#8211; 484 g 484 &#8211; 535 g 528 &#8211; 584 g C &#8211; Overweight 170 &#8211; 188 g 202 &#8211; 223 g 250 &#8211; 276 g 296 &#8211; 327 g 339 &#8211; 375 g 380 &#8211; 421 g 421 &#8211; 465 g 459 &#8211; 508 g IMPORTANT AND TO KNOW: Recommended daily feeding amount (grams per day) according to the dog&#8217;s bodyweight (kg) and silhouette (A-Thin, B-Normal or C-Overweight), see chart. Daily ration can vary linked to ambient temperature, dog&#8217;s lifestyle (indoor-outdoor), temperament and activity. In order to ensure ideal body weight of your dog, weigh out the quantity of food. To provide the correct portions, assess your dog&#8217;s appetite, visual appearance and stools. Switch over from one food to another should be done gradually by mixing small amounts of both foods during a period of one week. Ensure that your dog has permanent access to fresh water. Even if the water seems clear, change it at least daily. Keep the product in a dry and cool place and be sure the food bag is properly closed after each feeding. Batch number, factory registration number and best before date, see packaging.",
-  "images": [
+  "brands": [
     {
-      "id": 17375,
-      "alt": "Reflex Plus Premium Adult Dog Food – Medium/Large Breed Senior Lamb & Rice 3kg",
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/RPLBSDLR03.png",
-      "name": "RPLBSDLR03"
+      "id": 2462,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "tags": [
@@ -69,20 +61,33 @@
       "slug": "senior-dog"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/short-expiry-clearance-reflex-plus-premium-adult-dog-food-medium-large-breed-senior-lamb-rice-3kg-copy/",
+  "shortDescription": "Give your senior dog complete nutrition with Reflex Plus Lamb & Rice – 25% protein, prebiotics, glucosamine, and flaxseed for healthy digestion, joints, and immune support.",
+  "description": "Complete and balanced formulated super premium dry dog food with lamb & rice for medium-large breeds older than 7 years of age. INGREDIENTS: Lamb Proteins (dehydrated), Animal Proteins (dehydrated), Corn, Chicken Fat, Rice, Beet Pulp, Liver Flavour, Whey Powder, Vitamins and Minerals, Xylo-Oligosaccharides, Brewer's Yeast, Linseed, Salt, Yucca Schidigera, Glucosamine, Chondroitin Sulphate, Preservatives - Antioxidants. MINERALS: Calcium, Phosphor, Sodium, lodine , Zinc, Copper, Iron, Selenium. VITAMINS : Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (Niacin) - B6 - B12 - B7 (Biotin) - B9 (Folic Acid), vT. k, Choline, Calcium Pantothenate. NUTRIENT COMPOSITION NUTRITIVE ADDITIONS Crude Protein 25% Vitamin A (E672) 18000 IU/kg Crude Fat 13% Vitamin D3(E671) 1500 IU/kg Crude Ash 7% Vitamin E (3A700) 150 mg/kg Crude Cellulose ) 2,5% Vitamin C (Stay C) 200 mg/kg RECOMMENDED FEEDING GUIDE: DOG' WEIGHT : 12 kg 15 kg 20 kg 25 kg 30 kg 35 kg 40 kg 45 kg DOG SILHOUETTE A - Thin 225 - 249 g 266 - 294 g 330 - 365 g 390 - 431 g 447 - 494 g 502 - 555 g 555 -614 g 606 - 670 g B -? Normal 196 - 217 g 232 - 256 g 288 - 318 g 340 - 376 g 390 - 431 g 438 - 484 g 484 - 535 g 528 - 584 g C - Overweight 170 - 188 g 202 - 223 g 250 - 276 g 296 - 327 g 339 - 375 g 380 - 421 g 421 - 465 g 459 - 508 g IMPORTANT AND TO KNOW: Recommended daily feeding amount (grams per day) according to the dog's bodyweight (kg) and silhouette (A-Thin, B-Normal or C-Overweight), see chart. Daily ration can vary linked to ambient temperature, dog's lifestyle (indoor-outdoor), temperament and activity. In order to ensure ideal body weight of your dog, weigh out the quantity of food. To provide the correct portions, assess your dog's appetite, visual appearance and stools. Switch over from one food to another should be done gradually by mixing small amounts of both foods during a period of one week. Ensure that your dog has permanent access to fresh water. Even if the water seems clear, change it at least daily. Keep the product in a dry and cool place and be sure the food bag is properly closed after each feeding. Batch number, factory registration number and best before date, see packaging.",
+  "images": [
     {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
+      "id": 17375,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/RPLBSDLR03.png",
+      "alt": "Reflex Plus Premium Adult Dog Food – Medium/Large Breed Senior Lamb & Rice 3kg",
+      "name": "RPLBSDLR03"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=3&#038;add-to-cart=39111",
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-reflex-plus-premium-adult-dog-food-medium-large-breed-senior-lamb-rice-3kg-copy/?add-to-cart=39111",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.315Z",
-  "dateModified": "2026-06-23T09:15:51.315Z"
+  "dateCreated": "2023-08-21T10:56:25",
+  "dateModified": "2026-06-24T08:08:07",
+  "brand": "Reflex",
+  "weight_kg": 15,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/RPLBSDLR03.png"
 }

@@ -1,0 +1,98 @@
+{
+  "id": 35831,
+  "name": "SHORT EXPIRY - CLEARANCE: Proline Adult Dog Food Canned Beef Chunks inGravy 415g",
+  "slug": "short-expiry-clearance-proline-adult-dog-food-canned-beef-chunks-in-gravy-0-415kg-2",
+  "sku": "PDW001@SE",
+  "onSale": true,
+  "price": 129,
+  "regularPrice": 257,
+  "salePrice": 129,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/04/Proline-Adult-Dog-Food-Canned-Beef-Chunks-in-Gravy-415g-min.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 796,
+      "name": "Proline",
+      "slug": "proline"
+    },
+    {
+      "id": 2349,
+      "name": "Wet Dog Food",
+      "slug": "wet-dog-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2581,
+      "name": "Proline",
+      "slug": "proline"
+    }
+  ],
+  "tags": [
+    {
+      "id": 622,
+      "name": "canned food",
+      "slug": "canned-food"
+    },
+    {
+      "id": 1303,
+      "name": "Clearance",
+      "slug": "clearance"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=35831",
+  "shortDescription": "(4 pieces minimum order) Fully balanced all-natural wet dog food with beef protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult dogs.",
+  "description": "Proline Adult Dog Food Canned - Beef Chunks in Gravy , fully balanced all-natural dog food with beef protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult dogs. NUTRIENT COMPONENTS Protein...................................... 6.5% Fat ............................................ 3.5% Crude Ash .....................................2% Crude Cellulose (Fiber).................. 0.3% Moisture............................................82% INGREDIENTS: Meat and animal derivatives (4% beef), cereals, minerals, vegetable by-products, sugar. MINERALS: Zinc, Manganese, Copper. VITAMINS: Vit. D3, Vit. E.",
+  "images": [
+    {
+      "id": 12874,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/04/Proline-Adult-Dog-Food-Canned-Beef-Chunks-in-Gravy-415g-min.png",
+      "alt": "SHORT EXPIRY - CLEARANCE: Proline Adult Dog Food Canned Beef Chunks inGravy 415g",
+      "name": "Proline Adult Dog Food Canned Beef Chunks in Gravy 415g-min"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-proline-adult-dog-food-canned-beef-chunks-in-gravy-0-415kg-2/?add-to-cart=35831",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-03-20T08:26:29",
+  "dateModified": "2026-05-07T12:17:33",
+  "brand": "Proline",
+  "weight_kg": 0.415,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/04/Proline-Adult-Dog-Food-Canned-Beef-Chunks-in-Gravy-415g-min.png"
+}

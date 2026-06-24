@@ -1,11 +1,11 @@
 {
   "id": 18974,
-  "name": "Proline Bentonite Clumping Cat Litter – Lavender 5L",
+  "name": "Proline Bentonite Clumping Cat Litter - Lavender 5L",
   "slug": "proline-bentonite-clumping-cat-litter-lavender-5l",
   "sku": "PCL004",
   "onSale": false,
-  "price": 11.02,
-  "regularPrice": 11.02,
+  "price": 1102,
+  "regularPrice": 1102,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -15,6 +15,11 @@
       "id": 2325,
       "name": "Cat",
       "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
     },
     {
       "id": 2331,
@@ -27,19 +32,11 @@
       "slug": "proline"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/proline-bentonite-clumping-cat-litter-lavender-5l/",
-  "shortDescription": "Keep your cat’s litter box spotless with Proline Bentonite Clumping Cat Litter – Lavender. Made from 100% natural bentonite clay, it delivers fast clumping, excellent odor control, and a refreshing lavender fragrance for a clean, calming environment every day.",
-  "description": "Proline Bentonite Clumping Lavender Cat Litter , 100% natural bentonite cat litter instantly clumps. Excellent pelletising, instantly lumps Neutralises odour with a gentle Lavender scent Non-toxic and 100% natural Thin grain shape Prevents bacterial growth Upon first use, we recommend adding new cat litter to the surface of the old cat litter for a few days.",
-  "images": [
+  "brands": [
     {
-      "id": 18975,
-      "alt": "Proline Cat Litter - Lavender 5L",
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/03/Proline-Cat-litter-Lavender-5L-min.png",
-      "name": "Proline Cat Litter &#8211; Lavender 5L"
+      "id": 2461,
+      "name": "Proline",
+      "slug": "proline"
     }
   ],
   "tags": [
@@ -74,20 +71,33 @@
       "slug": "scented"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/proline-bentonite-clumping-cat-litter-lavender-5l/",
+  "shortDescription": "Keep your cat’s litter box spotless with Proline Bentonite Clumping Cat Litter – Lavender. Made from 100% natural bentonite clay, it delivers fast clumping, excellent odor control, and a refreshing lavender fragrance for a clean, calming environment every day.",
+  "description": "Proline Bentonite Clumping Lavender Cat Litter , 100% natural bentonite cat litter instantly clumps. Excellent pelletising, instantly lumps Neutralises odour with a gentle Lavender scent Non-toxic and 100% natural Thin grain shape Prevents bacterial growth Upon first use, we recommend adding new cat litter to the surface of the old cat litter for a few days.",
+  "images": [
     {
-      "id": 2461,
-      "name": "Proline",
-      "slug": "proline"
+      "id": 18975,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/03/Proline-Cat-litter-Lavender-5L-min.png",
+      "alt": "Proline Cat Litter - Lavender 5L",
+      "name": "Proline Cat Litter &#8211; Lavender 5L"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=2&#038;add-to-cart=18974",
+  "addToCartUrl": "https://petstore.co.ke/product/proline-bentonite-clumping-cat-litter-lavender-5l/?add-to-cart=18974",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.165Z",
-  "dateModified": "2026-06-23T09:15:51.165Z"
+  "dateCreated": "2021-03-04T16:48:11",
+  "dateModified": "2026-06-24T16:12:20",
+  "brand": "Proline",
+  "weight_kg": 5,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/03/Proline-Cat-litter-Lavender-5L-min.png"
 }

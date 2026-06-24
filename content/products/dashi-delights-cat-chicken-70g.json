@@ -1,11 +1,11 @@
 {
   "id": 66443,
-  "name": "Dashi Delights Cat Treats – Chicken Variety 70g",
+  "name": "Dashi Delights Cat Treats - Chicken Variety 70g",
   "slug": "dashi-delights-cat-chicken-70g",
   "sku": "BDCT001",
   "onSale": false,
-  "price": 2.97,
-  "regularPrice": 2.97,
+  "price": 297,
+  "regularPrice": 297,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -37,19 +37,11 @@
       "slug": "kitten"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/dashi-delights-cat-chicken-70g/",
-  "shortDescription": "Dashi Delights Cat Chicken 70g is a premium wet treat and meal topper made with farm-raised chicken and umami-rich Dashi broth. Hydrating, grain-free, and ideal for all life stages.",
-  "description": "Delight your cat with Dashi Delights Cat Chicken 70g , a premium wet treat and meal topper crafted with farm-raised chicken and traditional Japanese Dashi broth . Combining soft, moist chicken shreds with umami-rich bonito (dried wild-caught tuna) broth, this single-serve treat enhances flavor, hydration, and nutrition in every bite. Perfect as a meal topper or intermittent treat , Dashi Delights is suitable for cats of all breeds and life stages from playful kittens to senior cats. Each pack is grain-free, preservative-free, carrageenan-free, and free from artificial colors , ensuring a wholesome snack you can trust. Variety Pack Includes (12 Cups): 4 × Chicken Recipe 4 × Chicken with Cheese Recipe 4 × Chicken with Salmon Recipe Key Ingredients &amp; Nutritional Benefits: Farm-raised chicken: Rich protein for flavor and nutrition Dashi broth (Bonito &amp; Tuna): Provides savory umami flavor and hydration to support urinary health Vitamin E: Supports the immune system Green Tea Extract: Natural antioxidant High-moisture content: Promotes hydration and encourages mealtime excitement Suitable for easy pill administration Hydrating, flavorful, and versatile, these toppers turn every mealtime into a fun, interactive, and healthy experience for your cat. Feeding Instructions Serve as a treat or meal topper alongside your cat’s regular food. Provide clean, fresh water daily. Refrigerate after opening and use promptly, ideally within 48 hours. Monitor your cat during feeding. Additional Notes Suitable for all life stages Encourages interaction and variety in feeding routines Crafted with care using premium ingredients and traditional Japanese Dashi expertise &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 76858,
-      "alt": "Dashi Delights Cat Treats – Chicken Variety 70g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/Untitled-design-23.png",
-      "name": "Untitled design (23)"
+      "id": 2435,
+      "name": "Dashi",
+      "slug": "dashi"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "treats"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/dashi-delights-cat-chicken-70g/",
+  "shortDescription": "Dashi Delights Cat Chicken 70g is a premium wet treat and meal topper made with farm-raised chicken and umami-rich Dashi broth. Hydrating, grain-free, and ideal for all life stages.",
+  "description": "Delight your cat with Dashi Delights Cat Chicken 70g , a premium wet treat and meal topper crafted with farm-raised chicken and traditional Japanese Dashi broth . Combining soft, moist chicken shreds with umami-rich bonito (dried wild-caught tuna) broth, this single-serve treat enhances flavor, hydration, and nutrition in every bite. Perfect as a meal topper or intermittent treat , Dashi Delights is suitable for cats of all breeds and life stages from playful kittens to senior cats. Each pack is grain-free, preservative-free, carrageenan-free, and free from artificial colors , ensuring a wholesome snack you can trust. Variety Pack Includes (12 Cups): 4 × Chicken Recipe 4 × Chicken with Cheese Recipe 4 × Chicken with Salmon Recipe Key Ingredients & Nutritional Benefits: Farm-raised chicken: Rich protein for flavor and nutrition Dashi broth (Bonito & Tuna): Provides savory umami flavor and hydration to support urinary health Vitamin E: Supports the immune system Green Tea Extract: Natural antioxidant High-moisture content: Promotes hydration and encourages mealtime excitement Suitable for easy pill administration Hydrating, flavorful, and versatile, these toppers turn every mealtime into a fun, interactive, and healthy experience for your cat. Feeding Instructions Serve as a treat or meal topper alongside your cat’s regular food. Provide clean, fresh water daily. Refrigerate after opening and use promptly, ideally within 48 hours. Monitor your cat during feeding. Additional Notes Suitable for all life stages Encourages interaction and variety in feeding routines Crafted with care using premium ingredients and traditional Japanese Dashi expertise &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2435,
-      "name": "Dashi",
-      "slug": "dashi"
+      "id": 76858,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/Untitled-design-23.png",
+      "alt": "Dashi Delights Cat Treats – Chicken Variety 70g",
+      "name": "Untitled design (23)"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=66443",
+  "addToCartUrl": "https://petstore.co.ke/product/dashi-delights-cat-chicken-70g/?add-to-cart=66443",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.827Z",
-  "dateModified": "2026-06-23T09:15:51.827Z"
+  "dateCreated": "2026-01-09T16:19:54",
+  "dateModified": "2026-06-23T11:39:34",
+  "brand": "Dashi",
+  "weight_kg": 0.07,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/Untitled-design-23.png"
 }

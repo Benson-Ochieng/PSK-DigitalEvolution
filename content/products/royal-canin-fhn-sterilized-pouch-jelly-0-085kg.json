@@ -4,8 +4,8 @@
   "slug": "royal-canin-fhn-sterilized-pouch-jelly-0-085kg",
   "sku": "ROC-FHNW-064",
   "onSale": false,
-  "price": 3.3,
-  "regularPrice": 3.3,
+  "price": 330,
+  "regularPrice": 330,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -37,19 +37,11 @@
       "slug": "wet-cat-food"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/royal-canin-fhn-sterilized-pouch-jelly-0-085kg/",
-  "shortDescription": "ROYAL CANIN? Sterilised in Jelly is formulated to match the optimal nutritional profile instinctively preferred by adult cats. ROYAL CANIN? Sterilised in Jelly helps to support and maintain a healthy weight; particularly when served in accurate daily rations.",
-  "description": "When cats are sterilised, their nutritional requirements change compared to cats that haven&#8217;t been spayed or neutered. As a result of sterilisation, your cat will have lower energy needs and could be less active. With a controlled energy content and a moderate level of fat, ROYAL CANIN? Sterilised in Jelly helps to support and maintain a healthy weight; particularly when served in accurate daily rations. ROYAL CANIN? Sterilised in Jelly is formulated to match the optimal nutritional profile instinctively preferred by adult cats. This ensures that your cat will readily consume the nutrients that it needs to maintain good overall health. ROYAL CANIN? Sterilised in Jelly also contains a carefully considered balance of minerals that helps to support the health of your cat&#8217;s urinary system. To cater to each cat&#8217;s individual preferences, ROYAL CANIN? Sterilised is also available in a delicious gravy, in a soft and tasty loaf, or as dry food in a tasty and crunchy kibble. If you&#8217;re considering mixed feeding, simply follow our feeding guidelines to ensure your cat gets an accurate amount of both wet and dry food for optimal benefit. Complete feed for cats &#8211; Specially for neutered adult cats (thin slices in jelly). Composition : meat and animal derivatives, cereals, derivatives of vegetable origin, vegetable protein extracts, minerals, various sugars. Additives (per kg): Vitamin D3: 100 IU, E1 (Iron): 2.9 mg, E2 (Iodine): 0.28 mg, E4 (Copper): 2.2 mg, E5 (Manganese): 0.8 mg, E6 (Zinc): 8 mg &#8211; Technological additives: Clinoptilolite of sedimentary origin: 0.2 g. Analytical constituents: Protein: 9.0% &#8211; Fat content: 2.6% &#8211; Crude ash: 1.4% &#8211; Crude fibres: 1.6% &#8211; Moisture: 81.0%.",
-  "images": [
+  "brands": [
     {
-      "id": 28433,
-      "alt": "Royal Canin FHN Sterilised Pouch Jelly 85g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/Royal-Canin-wet-food-02.jpg",
-      "name": "Royal Canin wet food-02"
+      "id": 2423,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
     }
   ],
   "tags": [
@@ -69,20 +61,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/royal-canin-fhn-sterilized-pouch-jelly-0-085kg/",
+  "shortDescription": "ROYAL CANIN? Sterilised in Jelly is formulated to match the optimal nutritional profile instinctively preferred by adult cats. ROYAL CANIN? Sterilised in Jelly helps to support and maintain a healthy weight; particularly when served in accurate daily rations.",
+  "description": "When cats are sterilised, their nutritional requirements change compared to cats that haven't been spayed or neutered. As a result of sterilisation, your cat will have lower energy needs and could be less active. With a controlled energy content and a moderate level of fat, ROYAL CANIN? Sterilised in Jelly helps to support and maintain a healthy weight; particularly when served in accurate daily rations. ROYAL CANIN? Sterilised in Jelly is formulated to match the optimal nutritional profile instinctively preferred by adult cats. This ensures that your cat will readily consume the nutrients that it needs to maintain good overall health. ROYAL CANIN? Sterilised in Jelly also contains a carefully considered balance of minerals that helps to support the health of your cat's urinary system. To cater to each cat's individual preferences, ROYAL CANIN? Sterilised is also available in a delicious gravy, in a soft and tasty loaf, or as dry food in a tasty and crunchy kibble. If you're considering mixed feeding, simply follow our feeding guidelines to ensure your cat gets an accurate amount of both wet and dry food for optimal benefit. Complete feed for cats - Specially for neutered adult cats (thin slices in jelly). Composition : meat and animal derivatives, cereals, derivatives of vegetable origin, vegetable protein extracts, minerals, various sugars. Additives (per kg): Vitamin D3: 100 IU, E1 (Iron): 2.9 mg, E2 (Iodine): 0.28 mg, E4 (Copper): 2.2 mg, E5 (Manganese): 0.8 mg, E6 (Zinc): 8 mg - Technological additives: Clinoptilolite of sedimentary origin: 0.2 g. Analytical constituents: Protein: 9.0% - Fat content: 2.6% - Crude ash: 1.4% - Crude fibres: 1.6% - Moisture: 81.0%.",
+  "images": [
     {
-      "id": 2423,
-      "name": "Royal Canin",
-      "slug": "royal-canin"
+      "id": 28433,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/Royal-Canin-wet-food-02.jpg",
+      "alt": "Royal Canin FHN Sterilised Pouch Jelly 85g",
+      "name": "Royal Canin wet food-02"
     }
   ],
-  "stockStatus": "outofstock",
-  "lowStockRemaining": 2,
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/royal-canin-fhn-sterilized-pouch-jelly-0-085kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/royal-canin-fhn-sterilized-pouch-jelly-0-085kg/?add-to-cart=26972",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.241Z",
-  "dateModified": "2026-06-23T09:15:51.241Z"
+  "dateCreated": "2022-04-08T16:11:44",
+  "dateModified": "2026-06-17T05:01:27",
+  "brand": "Royal Canin",
+  "weight_kg": 0.085,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/Royal-Canin-wet-food-02.jpg"
 }

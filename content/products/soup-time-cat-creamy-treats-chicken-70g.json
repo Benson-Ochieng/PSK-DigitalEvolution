@@ -1,0 +1,88 @@
+{
+  "id": 57079,
+  "name": "Soup Time Cat Creamy Treats Chicken 70g",
+  "slug": "soup-time-cat-creamy-treats-chicken-70g",
+  "sku": "STCCTC70",
+  "onSale": false,
+  "price": 297,
+  "regularPrice": 297,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/IMG-20250722-WA0005.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2330,
+      "name": "Cat Treats",
+      "slug": "cat-treats"
+    },
+    {
+      "id": 2403,
+      "name": "Kitten Treats",
+      "slug": "kitten-treats"
+    },
+    {
+      "id": 2421,
+      "name": "Soup Time",
+      "slug": "soup-time"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2467,
+      "name": "Soup Time",
+      "slug": "soup-time"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/soup-time-cat-creamy-treats-chicken-70g/",
+  "shortDescription": "A delicious, hydrating lickable treat your cat will adore!",
+  "description": "Soup Time Creamy is a healthy and hydrating lickable treat, serve on a dish or feed your cat directly from the tube as a special reward. Soup Time Creamy treats are natural, tasty and full of essential nutrients. Add some tasty variation to your cat's diet with Soup Time Creamy treats - delicious or as a dry food topping. Why You’ll Love It: Made with real chicken – rich in flavor and protein. Healthy & Hydrating – supports your cat’s daily fluid intake. Versatile Feeding – serve on a dish, feed directly from the tube, or use as a topper for dry food. Natural & Nutritious – free from artificial colors or preservatives. The Perfect Reward – ideal for bonding moments or as a special treat. &nbsp;",
+  "images": [
+    {
+      "id": 57080,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/IMG-20250722-WA0005.jpg",
+      "alt": "Soup Time Cat Creamy Treats Chicken 70g",
+      "name": "IMG-20250722-WA0005"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/soup-time-cat-creamy-treats-chicken-70g/?add-to-cart=57079",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2025-07-22T15:44:34",
+  "dateModified": "2026-06-17T05:01:27",
+  "brand": "Soup Time",
+  "weight_kg": 0.07,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/IMG-20250722-WA0005.jpg"
+}

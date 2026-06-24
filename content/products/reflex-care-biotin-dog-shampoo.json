@@ -1,11 +1,11 @@
 {
   "id": 66628,
-  "name": "Reflex Care Dog Shampoo Biotin – 300ml",
+  "name": "Reflex Care Dog Shampoo Biotin - 300ml",
   "slug": "reflex-care-biotin-dog-shampoo",
   "sku": "RCS003",
   "onSale": false,
-  "price": 15.08,
-  "regularPrice": 15.08,
+  "price": 1508,
+  "regularPrice": 1508,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "dog-shampoo"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/reflex-care-biotin-dog-shampoo/",
-  "shortDescription": "Fragrance-free biotin dog shampoo that strengthens brittle fur, prevents dry skin and hair loss, and supports healthy coat regeneration. Gentle and pH-balanced.",
-  "description": "Reflex Care Biotin Dog Shampoo is a top-quality regenerating shampoo specially formulated without colorants or perfume , making it ideal for dogs with sensitive skin and delicate coats. Enriched with Biotin (Vitamin B7) a key member of the B-vitamin complex this advanced formula helps strengthen fine and brittle fur , improve keratin structure, and regenerate hair roots from the base. Regular use helps prevent dry skin , enhances skin brightness, and provides an antiseborrheic action that supports the control of seborrheic dermatitis, a common cause of excessive shedding and hair loss. Thanks to its neutral pH and very mild surfactants , the shampoo cleanses gently without stripping natural oils, making it perfectly suited for frequent use . Colourless and completely odorless , this shampoo is recommended for all dog breeds and coat types , especially dogs prone to irritation, hair thinning, or coat weakness. As part of the trusted Reflex Care Dog Shampoo range , it delivers visible improvements in coat strength, health, and vitality with consistent use. Key Benefits Strengthens weak, fine, and brittle coats Biotin (Vitamin B7) supports healthy hair growth and keratin structure Helps prevent dry skin and hair loss Antiseborrheic action supports skin balance Free from colorants and fragrance Neutral pH and very mild surfactants Suitable for frequent use and all dog breeds How to Use Moisten the coat thoroughly with warm water. Apply the shampoo to the neck, back, legs, and paws. Massage gently into a rich, creamy lather and leave on for a few moments. Rinse thoroughly and allow the dog to shake. Towel dry and finish by blow-drying while brushing the coat. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 66629,
-      "alt": "Reflex Care Dog Shampoo Biotin – 300ml",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/Reflex-care-dog-shampoo-B-iotin.png",
-      "name": "Reflex care dog shampoo B iotin"
+      "id": 2462,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "tags": [
@@ -55,7 +47,7 @@
     },
     {
       "id": 2098,
-      "name": "Grooming &amp; Tools",
+      "name": "Grooming & Tools",
       "slug": "grooming-tools"
     },
     {
@@ -74,20 +66,33 @@
       "slug": "shampoo"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/reflex-care-biotin-dog-shampoo/",
+  "shortDescription": "Fragrance-free biotin dog shampoo that strengthens brittle fur, prevents dry skin and hair loss, and supports healthy coat regeneration. Gentle and pH-balanced.",
+  "description": "Reflex Care Biotin Dog Shampoo is a top-quality regenerating shampoo specially formulated without colorants or perfume , making it ideal for dogs with sensitive skin and delicate coats. Enriched with Biotin (Vitamin B7) a key member of the B-vitamin complex this advanced formula helps strengthen fine and brittle fur , improve keratin structure, and regenerate hair roots from the base. Regular use helps prevent dry skin , enhances skin brightness, and provides an antiseborrheic action that supports the control of seborrheic dermatitis, a common cause of excessive shedding and hair loss. Thanks to its neutral pH and very mild surfactants , the shampoo cleanses gently without stripping natural oils, making it perfectly suited for frequent use . Colourless and completely odorless , this shampoo is recommended for all dog breeds and coat types , especially dogs prone to irritation, hair thinning, or coat weakness. As part of the trusted Reflex Care Dog Shampoo range , it delivers visible improvements in coat strength, health, and vitality with consistent use. Key Benefits Strengthens weak, fine, and brittle coats Biotin (Vitamin B7) supports healthy hair growth and keratin structure Helps prevent dry skin and hair loss Antiseborrheic action supports skin balance Free from colorants and fragrance Neutral pH and very mild surfactants Suitable for frequent use and all dog breeds How to Use Moisten the coat thoroughly with warm water. Apply the shampoo to the neck, back, legs, and paws. Massage gently into a rich, creamy lather and leave on for a few moments. Rinse thoroughly and allow the dog to shake. Towel dry and finish by blow-drying while brushing the coat. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
+      "id": 66629,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/Reflex-care-dog-shampoo-B-iotin.png",
+      "alt": "Reflex Care Dog Shampoo Biotin – 300ml",
+      "name": "Reflex care dog shampoo B iotin"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 3,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=66628",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-care-biotin-dog-shampoo/?add-to-cart=66628",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.835Z",
-  "dateModified": "2026-06-23T09:15:51.835Z"
+  "dateCreated": "2026-01-17T10:42:08",
+  "dateModified": "2026-06-17T04:30:29",
+  "brand": "Reflex",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/Reflex-care-dog-shampoo-B-iotin.png"
 }

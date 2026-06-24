@@ -1,11 +1,11 @@
 {
   "id": 66435,
-  "name": "Churu Dog Treat – Chicken with Tuna Recipe 4 Tubes",
+  "name": "Churu Dog Treat - Chicken with Tuna Recipe 4 Tubes",
   "slug": "churu-chicken-tuna-lickable-dog-treats",
   "sku": "BCDT012",
   "onSale": false,
-  "price": 3.5,
-  "regularPrice": 3.5,
+  "price": 350,
+  "regularPrice": 350,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,21 +32,7 @@
       "slug": "puppy-treats"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/churu-chicken-tuna-lickable-dog-treats/",
-  "shortDescription": "Treat your furry companion to something special with Churu Chicken Recipe with Salmon Treat for Dogs. These delicious treats are made with real chicken and salmon and come in convenient 4-tube packs. Satisfy your dog&#8217;s cravings and provide them with essential nutrients in every bite.",
-  "description": "Treat your dog to the irresistible taste of Churu Chicken with Tuna Recipe Lickable Dog Treats . Made with 100% pure, natural farm-raised chicken and dolphin-friendly wild-caught tuna , these creamy purées are a delicious and nutritious reward your dog will love. Designed with your dog’s health in mind, Churu Purées are high in moisture to support daily hydration and low in calories , making them a guilt-free snack. Their smooth, lickable texture makes them perfect for hand-feeding, training rewards, or even disguising pills for stress-free medication time. These versatile treats can be fed straight from the tube, served in a bowl, or used as a flavorful topper on wet or dry food to enhance taste and moisture. Free from grains, preservatives, and artificial colors, Churu treats are suitable for dogs of all breeds and life stages. Each pack contains 4 individual tubes , ideal for easy portion control and on-the-go feeding. Feeding Recommendations: Tear open a tube and gently squeeze to feed directly by hand. Alternatively, pour into a bowl or use as a tasty topper on wet or dry food. Feed as a treat only. Not intended as a complete meal. Always provide fresh drinking water. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
-  "images": [
-    {
-      "id": 66436,
-      "alt": "Churu Dog Treat – Chicken with Tuna Recipe 4 Tubes",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/CHICKEN-WITH-TUNA-RECIPE-.png",
-      "name": "CHICKEN WITH TUNA RECIPE"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 1156,
@@ -54,14 +40,33 @@
       "slug": "treats"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/churu-chicken-tuna-lickable-dog-treats/",
+  "shortDescription": "Treat your furry companion to something special with Churu Chicken Recipe with Salmon Treat for Dogs. These delicious treats are made with real chicken and salmon and come in convenient 4-tube packs. Satisfy your dog's cravings and provide them with essential nutrients in every bite.",
+  "description": "Treat your dog to the irresistible taste of Churu Chicken with Tuna Recipe Lickable Dog Treats . Made with 100% pure, natural farm-raised chicken and dolphin-friendly wild-caught tuna , these creamy purées are a delicious and nutritious reward your dog will love. Designed with your dog’s health in mind, Churu Purées are high in moisture to support daily hydration and low in calories , making them a guilt-free snack. Their smooth, lickable texture makes them perfect for hand-feeding, training rewards, or even disguising pills for stress-free medication time. These versatile treats can be fed straight from the tube, served in a bowl, or used as a flavorful topper on wet or dry food to enhance taste and moisture. Free from grains, preservatives, and artificial colors, Churu treats are suitable for dogs of all breeds and life stages. Each pack contains 4 individual tubes , ideal for easy portion control and on-the-go feeding. Feeding Recommendations: Tear open a tube and gently squeeze to feed directly by hand. Alternatively, pour into a bowl or use as a tasty topper on wet or dry food. Feed as a treat only. Not intended as a complete meal. Always provide fresh drinking water. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
+  "images": [
+    {
+      "id": 66436,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/CHICKEN-WITH-TUNA-RECIPE-.png",
+      "alt": "Churu Dog Treat – Chicken with Tuna Recipe 4 Tubes",
+      "name": "CHICKEN WITH TUNA RECIPE"
+    }
+  ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=66435",
+  "addToCartUrl": "https://petstore.co.ke/product/churu-chicken-tuna-lickable-dog-treats/?add-to-cart=66435",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.824Z",
-  "dateModified": "2026-06-23T09:15:51.824Z"
+  "dateCreated": "2026-01-09T15:16:09",
+  "dateModified": "2026-06-22T13:14:48",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/CHICKEN-WITH-TUNA-RECIPE-.png"
 }

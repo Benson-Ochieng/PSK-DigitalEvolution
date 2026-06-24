@@ -4,8 +4,8 @@
   "slug": "lara-cat-dry-food-lamb-950g",
   "sku": "LLDC007",
   "onSale": false,
-  "price": 14.99,
-  "regularPrice": 14.99,
+  "price": 1499,
+  "regularPrice": 1499,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "lara"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/lara-cat-dry-food-lamb-950g/",
-  "shortDescription": "Lara Cat Dry Food – Lamb 950g is a complete and balanced dry food specially formulated for adult cats. Made with delicious lamb and high-quality animal proteins, this nutritious recipe delivers the essential nutrients your cat needs to stay healthy, active, and satisfied every day.",
-  "description": "Crafted with natural ingredients and irresistible flavours, Lara Lamb provides a tasty meal that supports your cat&#8217;s overall wellbeing. Rich in animal protein, the recipe closely matches your cat&#8217;s natural nutritional requirements, helping to maintain strong muscles and a healthy body condition. The carefully balanced blend of protein, fats, vitamins, and minerals ensures complete daily nutrition for adult cats. Enriched with spirulina and essential nutrients, this premium dry food helps support vitality, while natural fibres contribute to healthy digestion. Every crunchy kibble is designed to provide excellent taste and balanced nutrition, making mealtime a celebration for even the fussiest cats. Key Benefits Complete and balanced dry food for adult cats Made with delicious lamb for excellent palatability Rich in animal protein to support lean muscle maintenance Provides balanced nutrition for everyday health Contains essential vitamins and minerals Supports healthy digestion with natural fibres Enriched with spirulina for added nutritional support Made with natural ingredients Suitable for daily feeding Helps maintain overall vitality and wellbeing Ingredients Cereals, meat and animal by-products (32%, including 24% chicken and 4% lamb), vegetable protein extracts, oils and fats, vegetable by-products (cellulose 2%), minerals, vegetables, yeasts, algae (spirulina 0.1%). Feeding Guide Cat 3kg: 55g daily Cat 4kg: 70g daily Cat 5kg: 80g daily Cat 6kg: 90g daily Always provide fresh, clean drinking water and adjust feeding amounts according to your cat’s activity level and body condition. Storage Instructions Store in a cool, dry place and reseal after opening to maintain freshness and flavour.",
-  "images": [
+  "brands": [
     {
-      "id": 90363,
-      "alt": "Lara Cat Dry Food – Lamb 950g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/Lara-Adult-Lamb-Cat-Food-950g.png",
-      "name": "Lara Adult Lamb Cat Food 950g"
+      "id": 2447,
+      "name": "Lara",
+      "slug": "lara"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "new-arrivals"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/lara-cat-dry-food-lamb-950g/",
+  "shortDescription": "Lara Cat Dry Food – Lamb 950g is a complete and balanced dry food specially formulated for adult cats. Made with delicious lamb and high-quality animal proteins, this nutritious recipe delivers the essential nutrients your cat needs to stay healthy, active, and satisfied every day.",
+  "description": "Crafted with natural ingredients and irresistible flavours, Lara Lamb provides a tasty meal that supports your cat's overall wellbeing. Rich in animal protein, the recipe closely matches your cat's natural nutritional requirements, helping to maintain strong muscles and a healthy body condition. The carefully balanced blend of protein, fats, vitamins, and minerals ensures complete daily nutrition for adult cats. Enriched with spirulina and essential nutrients, this premium dry food helps support vitality, while natural fibres contribute to healthy digestion. Every crunchy kibble is designed to provide excellent taste and balanced nutrition, making mealtime a celebration for even the fussiest cats. Key Benefits Complete and balanced dry food for adult cats Made with delicious lamb for excellent palatability Rich in animal protein to support lean muscle maintenance Provides balanced nutrition for everyday health Contains essential vitamins and minerals Supports healthy digestion with natural fibres Enriched with spirulina for added nutritional support Made with natural ingredients Suitable for daily feeding Helps maintain overall vitality and wellbeing Ingredients Cereals, meat and animal by-products (32%, including 24% chicken and 4% lamb), vegetable protein extracts, oils and fats, vegetable by-products (cellulose 2%), minerals, vegetables, yeasts, algae (spirulina 0.1%). Feeding Guide Cat 3kg: 55g daily Cat 4kg: 70g daily Cat 5kg: 80g daily Cat 6kg: 90g daily Always provide fresh, clean drinking water and adjust feeding amounts according to your cat’s activity level and body condition. Storage Instructions Store in a cool, dry place and reseal after opening to maintain freshness and flavour.",
+  "images": [
     {
-      "id": 2447,
-      "name": "Lara",
-      "slug": "lara"
+      "id": 90363,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/Lara-Adult-Lamb-Cat-Food-950g.png",
+      "alt": "Lara Cat Dry Food – Lamb 950g",
+      "name": "Lara Adult Lamb Cat Food 950g"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 3,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=10&#038;add-to-cart=90358",
+  "addToCartUrl": "https://petstore.co.ke/product/lara-cat-dry-food-lamb-950g/?add-to-cart=90358",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:52.057Z",
-  "dateModified": "2026-06-23T09:15:52.057Z"
+  "dateCreated": "2026-06-08T12:09:48",
+  "dateModified": "2026-06-17T05:01:40",
+  "brand": "Lara",
+  "weight_kg": 0.95,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/Lara-Adult-Lamb-Cat-Food-950g.png"
 }

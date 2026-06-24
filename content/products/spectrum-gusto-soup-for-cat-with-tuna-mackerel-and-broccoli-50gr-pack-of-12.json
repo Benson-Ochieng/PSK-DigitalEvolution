@@ -1,12 +1,12 @@
 {
   "id": 53435,
-  "name": "Pack Of 12 – Spectrum Gusto Soup For Cat With Tuna Mackerel And Broccoli 50g",
+  "name": "Pack Of 12 - Spectrum Gusto Soup For Cat With Tuna Mackerel And Broccoli 50g",
   "slug": "spectrum-gusto-soup-for-cat-with-tuna-mackerel-and-broccoli-50gr-pack-of-12",
   "sku": "SCW006$12",
   "onSale": true,
-  "price": 21.06,
-  "regularPrice": 23.4,
-  "salePrice": 21.06,
+  "price": 2106,
+  "regularPrice": 2340,
+  "salePrice": 2106,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-TUNA-MACKEREL-AND-BROCCOLI-50GR.png",
@@ -37,25 +37,17 @@
       "slug": "spectrum"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/spectrum-gusto-soup-for-cat-with-tuna-mackerel-and-broccoli-50gr-pack-of-12/",
-  "shortDescription": "Appropriate for any Cat/Kitten as a healthy treat but not a substitute for a complete balanced food. Make sufficient drinking water available.",
-  "description": "Treat your cat to the nutritious Spectrum Gusto Cat Soup with Tuna, Mackerel, and Broccoli. This high-moisture 50g pouch combines 15.4% tuna fillet, 10% mackerel, and 4.7% broccoli in a flavorful fish broth. Rich in protein and omega-3 fatty acids, it supports a healthy skin and coat while providing hydration for cats and kittens. Perfect as a daily snack, reward, or meal topper, it enhances mealtime enjoyment without replacing a balanced diet. Key Features: Real tuna and mackerel for lean protein and omega-3s. Broccoli adds minerals, fiber, and digestive support. Hydrating broth encourages fluid intake. Convenient 50g pouch for portion control. Suitable for cats and kittens. Feeding Guidelines: Serve in small portions with a spoon. Complementary treat; not a complete meal. Always provide fresh water. &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 47681,
-      "alt": "Spectrum Gusto Soup For Cat With Tuna Mackerel And Broccoli 50g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-TUNA-MACKEREL-AND-BROCCOLI-50GR.png",
-      "name": "SPECTRUM GUSTO SOUP FOR CAT WITH TUNA MACKEREL AND BROCCOLI 50GR"
+      "id": 2468,
+      "name": "Spectrum",
+      "slug": "spectrum"
     }
   ],
   "tags": [
     {
       "id": 2055,
-      "name": "Bulk Cat Food &amp; Bulk Dog Food",
+      "name": "Bulk Cat Food & Bulk Dog Food",
       "slug": "bulk"
     },
     {
@@ -74,20 +66,33 @@
       "slug": "treats"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/spectrum-gusto-soup-for-cat-with-tuna-mackerel-and-broccoli-50gr-pack-of-12/",
+  "shortDescription": "Appropriate for any Cat/Kitten as a healthy treat but not a substitute for a complete balanced food. Make sufficient drinking water available.",
+  "description": "Treat your cat to the nutritious Spectrum Gusto Cat Soup with Tuna, Mackerel, and Broccoli. This high-moisture 50g pouch combines 15.4% tuna fillet, 10% mackerel, and 4.7% broccoli in a flavorful fish broth. Rich in protein and omega-3 fatty acids, it supports a healthy skin and coat while providing hydration for cats and kittens. Perfect as a daily snack, reward, or meal topper, it enhances mealtime enjoyment without replacing a balanced diet. Key Features: Real tuna and mackerel for lean protein and omega-3s. Broccoli adds minerals, fiber, and digestive support. Hydrating broth encourages fluid intake. Convenient 50g pouch for portion control. Suitable for cats and kittens. Feeding Guidelines: Serve in small portions with a spoon. Complementary treat; not a complete meal. Always provide fresh water. &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2468,
-      "name": "Spectrum",
-      "slug": "spectrum"
+      "id": 47681,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-TUNA-MACKEREL-AND-BROCCOLI-50GR.png",
+      "alt": "Spectrum Gusto Soup For Cat With Tuna Mackerel And Broccoli 50g",
+      "name": "SPECTRUM GUSTO SOUP FOR CAT WITH TUNA MACKEREL AND BROCCOLI 50GR"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=53435",
+  "addToCartUrl": "https://petstore.co.ke/product/spectrum-gusto-soup-for-cat-with-tuna-mackerel-and-broccoli-50gr-pack-of-12/?add-to-cart=53435",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.599Z",
-  "dateModified": "2026-06-23T09:15:51.599Z"
+  "dateCreated": "2025-02-11T15:37:27",
+  "dateModified": "2026-06-24T13:12:13",
+  "brand": "Spectrum",
+  "weight_kg": 0.6,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-TUNA-MACKEREL-AND-BROCCOLI-50GR.png"
 }

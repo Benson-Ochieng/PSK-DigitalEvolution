@@ -1,0 +1,97 @@
+{
+  "id": 20006,
+  "name": "Cat Scratcher Pad - Semi Circle Design",
+  "slug": "cat-scratcher-pad-semi-circle-design",
+  "sku": "CSPSC640",
+  "onSale": false,
+  "price": 1566,
+  "regularPrice": 1566,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/Cat-Scratcher-CSPSC640.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2343,
+      "name": "Cat Grooming",
+      "slug": "cat-grooming"
+    },
+    {
+      "id": 2342,
+      "name": "Cat Toys",
+      "slug": "cat-toys"
+    },
+    {
+      "id": 2096,
+      "name": "Generic",
+      "slug": "generic"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2098,
+      "name": "Grooming & Tools",
+      "slug": "grooming-tools"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=20006",
+  "shortDescription": "Cat Scratcher Pad – Semi Circle Design",
+  "description": "Cat Scratcher Cardboard Scratch Pad. Semi Circle design with Catnip. Ideal for indoor cats. The easiest way to protect your furniture and provide your cat with a place to scratch away. Size 30cm x 26cm x 13cm",
+  "images": [
+    {
+      "id": 19955,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/Cat-Scratcher-CSPSC640.jpg",
+      "alt": "Cat Scratcher Pad - Semi Circle Design",
+      "name": "Cat Scratcher CSPSC640"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/cat-scratcher-pad-semi-circle-design/?add-to-cart=20006",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2021-04-14T21:07:45",
+  "dateModified": "2026-05-06T17:07:18",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/Cat-Scratcher-CSPSC640.jpg"
+}

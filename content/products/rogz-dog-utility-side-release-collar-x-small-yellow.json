@@ -1,12 +1,12 @@
 {
   "id": 17549,
-  "name": "Rogz Dog Utility Side Release Collar X-Small – yellow",
+  "name": "Rogz Dog Utility Side Release Collar X-Small - yellow",
   "slug": "rogz-dog-utility-side-release-collar-x-small-yellow",
   "sku": "HB13-H",
   "onSale": true,
-  "price": 7.6,
-  "regularPrice": 9.5,
-  "salePrice": 7.6,
+  "price": 760,
+  "regularPrice": 950,
+  "salePrice": 760,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/HB13-H-Firefly-DayGlo.jpg",
@@ -32,21 +32,7 @@
       "slug": "rogz"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-side-release-collar-x-small-yellow/",
-  "shortDescription": "A durable Rogz Utility Reflective Dog Collar featuring woven reflective stitching and a secure RogLoc buckle for safer, more visible nighttime walks. Rogz Utility Side Release collar &#8211; X-Small Yellow",
-  "description": "Rogz Utility Side Release Reflective Dog Collar has a reflective yarn woven into the webbing for night time visibility so that everyone is aware that you &amp; your dog are on an outing. Key Features: Reflective Stitching: Reflective yarn is woven into the webbing for nighttime visibility RogLoc: The Fort Knox of release buckles Low Load Technology: LLT technology reduces the load on the Titanium Plastic buckle through a cleverly positioned load ring Contoured Plastic Component: ROGZ rounded contoured plastic components ensure that every ROGZ collar fits snugly Die-Cast Ring: Custom designed die cast ring (no welding). Electroplated chrome for a tarnish free finish Size: Small 11mm (Neck Size: 25 &#8211; 35cm)",
-  "images": [
-    {
-      "id": 17517,
-      "alt": "Rogz Dog Utility Side Release Collar X-Small – yellow",
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/HB13-H-Firefly-DayGlo.jpg",
-      "name": "HB13-H Firefly DayGlo"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 1205,
@@ -64,14 +50,33 @@
       "slug": "dog"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-side-release-collar-x-small-yellow/",
+  "shortDescription": "A durable Rogz Utility Reflective Dog Collar featuring woven reflective stitching and a secure RogLoc buckle for safer, more visible nighttime walks. Rogz Utility Side Release collar – X-Small Yellow",
+  "description": "Rogz Utility Side Release Reflective Dog Collar has a reflective yarn woven into the webbing for night time visibility so that everyone is aware that you & your dog are on an outing. Key Features: Reflective Stitching: Reflective yarn is woven into the webbing for nighttime visibility RogLoc: The Fort Knox of release buckles Low Load Technology: LLT technology reduces the load on the Titanium Plastic buckle through a cleverly positioned load ring Contoured Plastic Component: ROGZ rounded contoured plastic components ensure that every ROGZ collar fits snugly Die-Cast Ring: Custom designed die cast ring (no welding). Electroplated chrome for a tarnish free finish Size: Small 11mm (Neck Size: 25 - 35cm)",
+  "images": [
+    {
+      "id": 17517,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/HB13-H-Firefly-DayGlo.jpg",
+      "alt": "Rogz Dog Utility Side Release Collar X-Small – yellow",
+      "name": "HB13-H Firefly DayGlo"
+    }
+  ],
   "stockStatus": "instock",
-  "lowStockRemaining": 3,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=1&#038;add-to-cart=17549",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-side-release-collar-x-small-yellow/?add-to-cart=17549",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.127Z",
-  "dateModified": "2026-06-23T09:15:51.127Z"
+  "dateCreated": "2021-01-09T21:09:43",
+  "dateModified": "2026-06-17T04:13:38",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/HB13-H-Firefly-DayGlo.jpg"
 }

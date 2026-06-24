@@ -1,0 +1,63 @@
+{
+  "id": 62601,
+  "name": "JosiCat Beef 4kg",
+  "slug": "josicat-beef-4kg-2",
+  "sku": "JCJB002@F",
+  "onSale": true,
+  "price": 3023,
+  "regularPrice": 3557,
+  "salePrice": 3023,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/Josicat-Beef-4kg.png",
+  "categories": [
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2223,
+      "name": "flash",
+      "slug": "flash"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=62601",
+  "shortDescription": "Tasty kibble refined with hearty beef. Complete feed for adult cats. Flavourful kibble with an appetizing beef taste. Suitable for both indoor and outdoor cats. No added artificial colours, flavours or preservatives. No added soy, sugar or milk products.",
+  "description": "Composition: Meat and animal by-products (beef 4 %), cereals; oils and fats; vegetable by-products; minerals. Product Details: Tasty kibble refined with hearty beef. Complete feed for adult cats. . Flavorful kibble with an appetizing beef taste. . Suitable for both indoor and outdoor cats. . No added artificial colors, flavors or preservatives. . No added soy, sugar or milk products. Why You’ll Love It Rich Beef Flavor – flavorful kibble that even picky cats can’t resist. Perfect for Indoor & Outdoor Cats – balanced energy to suit different lifestyles. Supports Strong Muscles & Immunity – packed with essential proteins, vitamins, and minerals. Healthy Skin & Glossy Coat – thanks to natural oils and fats. Clean Nutrition – no artificial colors, flavors, preservatives, soy, sugar, or milk products. &nbsp; &nbsp;",
+  "images": [
+    {
+      "id": 89076,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/Josicat-Beef-4kg.png",
+      "alt": "JosiCat Beef 4kg",
+      "name": "Josicat Beef 4kg"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": false,
+  "addToCartUrl": "https://petstore.co.ke/product/josicat-beef-4kg-2/?add-to-cart=62601",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2025-11-21T10:35:25",
+  "dateModified": "2026-06-17T04:33:52",
+  "brand": "Josera",
+  "weight_kg": 4,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/Josicat-Beef-4kg.png"
+}

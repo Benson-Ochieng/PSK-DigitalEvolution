@@ -1,11 +1,11 @@
 {
   "id": 12877,
-  "name": "Proline Canned Dog Food – Lamb in Gravy 415g",
+  "name": "Proline Canned Dog Food - Lamb in Gravy 415g",
   "slug": "proline-canned-dog-food-lamb-in-gravy-415gr",
   "sku": "PDW003",
   "onSale": false,
-  "price": 2.89,
-  "regularPrice": 2.89,
+  "price": 289,
+  "regularPrice": 289,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "wet-dog-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/proline-canned-dog-food-lamb-in-gravy-415gr/",
-  "shortDescription": "Proline Adult Dog Food with Lamb Chunks in Gravy is a fully balanced, all-natural wet food formulated to meet the nutritional needs of all adult dogs.",
-  "description": "Proline Adult Dog Food with Lamb Chunks in Gravy is a fully balanced, all-natural wet food formulated to meet the nutritional needs of all adult dogs. Made with high-quality lamb protein, this delicious recipe ensures excellent digestibility and supports your dog’s overall health and vitality. Carefully crafted by expert pet nutritionists, it provides the ideal balance of protein, fat, vitamins, and minerals to maintain strong muscles, a shiny coat, and a healthy immune system. Its high moisture content also helps support hydration and kidney function. Key Benefits: High-quality lamb protein for lean muscle development and energy. Balanced blend of vitamins and minerals to support overall health and immunity. Soft chunks in rich gravy enhance palatability for even the pickiest eaters. High moisture content (82%) helps maintain hydration and kidney health. Formulated by professional pet nutritionists for complete and balanced nutrition. INGREDIENTS: Meat and animal derivatives (Lamb 4%), Cereals, Minerals, Derivatives of plant origin, MINERALS: Iron (3B103) 12.5mg/kg, Iodine (3B202) 0.45mg/kg, Copper (3B405) 2.5mg/kg, Zinc (3B603) 24mg/kg, Manganese (3B502) 2mg/kg, Selenium (3B802) 0.04mg/kg, VITAMINS: Vit. D3, Vit. E. Vitamin A (3A672A) 2250IU/kg, Vitamin D3 (3A671) 328IU/kg, Vitamin E (3A700) 26mg/kg, NUTRIENT COMPONENTS NUTRITIONAL VALUES NUTRITIONAL ADDITIVES Crude Protein 8% Vitamin A 2250IU/kg Crude Oil 5% Vitamin D3 328IU/kg Raw Ash 2.5% Vitamin E 26mg/kg Crude Cellulose (Fiber) 0.5% Moisture 82% Feeding Recommendation: Serve at room temperature. Always provide clean, fresh water for your dog. When introducing Proline to your pet’s diet, do so gradually over a few days. Feed according to your dog’s size, age, activity level, and weight.",
-  "images": [
+  "brands": [
     {
-      "id": 61864,
-      "alt": "Proline Canned Dog Food – Lamb in Gravy 415g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/04/Proline-Lamb-Adult-Canned-Dog-Food.png",
-      "name": "Proline Lamb Adult Canned Dog Food"
+      "id": 2461,
+      "name": "Proline",
+      "slug": "proline"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/proline-canned-dog-food-lamb-in-gravy-415gr/",
+  "shortDescription": "Proline Adult Dog Food with Lamb Chunks in Gravy is a fully balanced, all-natural wet food formulated to meet the nutritional needs of all adult dogs.",
+  "description": "Proline Adult Dog Food with Lamb Chunks in Gravy is a fully balanced, all-natural wet food formulated to meet the nutritional needs of all adult dogs. Made with high-quality lamb protein, this delicious recipe ensures excellent digestibility and supports your dog’s overall health and vitality. Carefully crafted by expert pet nutritionists, it provides the ideal balance of protein, fat, vitamins, and minerals to maintain strong muscles, a shiny coat, and a healthy immune system. Its high moisture content also helps support hydration and kidney function. Key Benefits: High-quality lamb protein for lean muscle development and energy. Balanced blend of vitamins and minerals to support overall health and immunity. Soft chunks in rich gravy enhance palatability for even the pickiest eaters. High moisture content (82%) helps maintain hydration and kidney health. Formulated by professional pet nutritionists for complete and balanced nutrition. INGREDIENTS: Meat and animal derivatives (Lamb 4%), Cereals, Minerals, Derivatives of plant origin, MINERALS: Iron (3B103) 12.5mg/kg, Iodine (3B202) 0.45mg/kg, Copper (3B405) 2.5mg/kg, Zinc (3B603) 24mg/kg, Manganese (3B502) 2mg/kg, Selenium (3B802) 0.04mg/kg, VITAMINS: Vit. D3, Vit. E. Vitamin A (3A672A) 2250IU/kg, Vitamin D3 (3A671) 328IU/kg, Vitamin E (3A700) 26mg/kg, NUTRIENT COMPONENTS NUTRITIONAL VALUES NUTRITIONAL ADDITIVES Crude Protein 8% Vitamin A 2250IU/kg Crude Oil 5% Vitamin D3 328IU/kg Raw Ash 2.5% Vitamin E 26mg/kg Crude Cellulose (Fiber) 0.5% Moisture 82% Feeding Recommendation: Serve at room temperature. Always provide clean, fresh water for your dog. When introducing Proline to your pet’s diet, do so gradually over a few days. Feed according to your dog’s size, age, activity level, and weight.",
+  "images": [
     {
-      "id": 2461,
-      "name": "Proline",
-      "slug": "proline"
+      "id": 61864,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/04/Proline-Lamb-Adult-Canned-Dog-Food.png",
+      "alt": "Proline Canned Dog Food – Lamb in Gravy 415g",
+      "name": "Proline Lamb Adult Canned Dog Food"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=1&#038;add-to-cart=12877",
+  "addToCartUrl": "https://petstore.co.ke/product/proline-canned-dog-food-lamb-in-gravy-415gr/?add-to-cart=12877",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.091Z",
-  "dateModified": "2026-06-23T09:15:51.091Z"
+  "dateCreated": "2020-04-26T01:02:35",
+  "dateModified": "2026-06-23T11:12:08",
+  "brand": "Proline",
+  "weight_kg": 0.415,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/04/Proline-Lamb-Adult-Canned-Dog-Food.png"
 }

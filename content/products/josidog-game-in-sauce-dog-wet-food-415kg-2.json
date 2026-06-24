@@ -4,8 +4,8 @@
   "slug": "josidog-game-in-sauce-dog-wet-food-415kg-2",
   "sku": "JGDSP162",
   "onSale": false,
-  "price": 3.06,
-  "regularPrice": 3.06,
+  "price": 306,
+  "regularPrice": 306,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "wet-dog-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/josidog-game-in-sauce-dog-wet-food-415kg-2/",
-  "shortDescription": "JosiDog Game in Sauce, providing breed-appropriate daily nutrition of your adult four-legged friend is child’s play. The fine pieces in sauce with game only contain healthy ingredients, with no added fuss such as artificial additives. What’s more, it also contains vitamins to improve cell protection and support strong bone growth.",
-  "description": "JosiDog Game in Sauce, providing breed-appropriate daily nutrition of your adult four-legged friend is child’s play. The fine pieces in sauce with game only contain healthy ingredients, with no added fuss such as artificial additives. What’s more, it also contains vitamins to improve cell protection and support strong bone growth. Fine wet food in sauce with game, for adult dogs With Vitamin E to improve cell protection With Vitamin D3 to support stable bone development Fuss-free: no added preservatives, colourings or flavourings. Complete food for adult dogs. Game Meat and animal derivatives; cereals; fish and fish derivatives; minerals; caramel syrup. Feeding Guide: weight 5kg 10kg 20kg 30kg feed quantities/24h 350 – 400g 600 -660g 850 – 1.100g 1.200g – 1.500g Please note that the quantities stated are a guide only and must be adapted to your animal’s nutritional status and its activity. Please make sure your animal always has fresh water. After opening, keep refrigerated between 2 to 6 °C, and use at room temperature within 24 hours. Analytical constituents: Analytical constituents protein 7.0 % fat content 4.0 % crude fibre 0.5 % crude ash 2.5 %",
-  "images": [
+  "brands": [
     {
-      "id": 51678,
-      "alt": "Josidoggame In Sauce Dog Wet Food 415g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/04/JOSIDOG-Game-in-Sauce-Dog-Wet-food-415g.png",
-      "name": "JOSIDOG Game in Sauce Dog Wet food 415g"
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "tags": [
@@ -64,20 +56,33 @@
       "slug": "wet-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josidog-game-in-sauce-dog-wet-food-415kg-2/",
+  "shortDescription": "JosiDog Game in Sauce, providing breed-appropriate daily nutrition of your adult four-legged friend is child’s play. The fine pieces in sauce with game only contain healthy ingredients, with no added fuss such as artificial additives. What’s more, it also contains vitamins to improve cell protection and support strong bone growth.",
+  "description": "JosiDog Game in Sauce, providing breed-appropriate daily nutrition of your adult four-legged friend is child’s play. The fine pieces in sauce with game only contain healthy ingredients, with no added fuss such as artificial additives. What’s more, it also contains vitamins to improve cell protection and support strong bone growth. Fine wet food in sauce with game, for adult dogs With Vitamin E to improve cell protection With Vitamin D3 to support stable bone development Fuss-free: no added preservatives, colourings or flavourings. Complete food for adult dogs. Game Meat and animal derivatives; cereals; fish and fish derivatives; minerals; caramel syrup. Feeding Guide: weight 5kg 10kg 20kg 30kg feed quantities/24h 350 – 400g 600 -660g 850 – 1.100g 1.200g – 1.500g Please note that the quantities stated are a guide only and must be adapted to your animal’s nutritional status and its activity. Please make sure your animal always has fresh water. After opening, keep refrigerated between 2 to 6 °C, and use at room temperature within 24 hours. Analytical constituents: Analytical constituents protein 7.0 % fat content 4.0 % crude fibre 0.5 % crude ash 2.5 %",
+  "images": [
     {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
+      "id": 51678,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/04/JOSIDOG-Game-in-Sauce-Dog-Wet-food-415g.png",
+      "alt": "Josidoggame In Sauce Dog Wet Food 415g",
+      "name": "JOSIDOG Game in Sauce Dog Wet food 415g"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": null,
+  "lowStockRemaining": 4,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=46106",
+  "addToCartUrl": "https://petstore.co.ke/product/josidog-game-in-sauce-dog-wet-food-415kg-2/?add-to-cart=46106",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.379Z",
-  "dateModified": "2026-06-23T09:15:51.379Z"
+  "dateCreated": "2024-04-15T14:27:44",
+  "dateModified": "2026-06-24T11:12:04",
+  "brand": "Josera",
+  "weight_kg": 0.415,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/JOSIDOG-Game-in-Sauce-Dog-Wet-food-415g.png"
 }

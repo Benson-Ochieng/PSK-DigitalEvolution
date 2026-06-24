@@ -1,0 +1,98 @@
+{
+  "id": 26773,
+  "name": "SHORT EXPIRY - CLEARANCE: Reflex Dog Chewing Dental Stick 180g",
+  "slug": "short-expiry-clearance-reflex-dog-chewiing-dental-stick-180gr",
+  "sku": "RDT019@SE",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/RDT019.png",
+  "categories": [
+    {
+      "id": 1304,
+      "name": "Clearance",
+      "slug": "clearance"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2774,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1303,
+      "name": "Clearance",
+      "slug": "clearance"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=26773",
+  "shortDescription": "Reflex Dog Chewing Dental Stick 180GR",
+  "description": "?Depending on the size of your dog, 1 or 2 sticks a day can be given as a snack or a treat between meals. ?These are suggestions only. ?There should always be fresh drinking water near the food bowl. ?After opening the package, close it tightly. ?Observe your dog as it consumes the ?treat. ?Store in a dry and cool place. Vegetable derivatives, cereals, meat and animal derivatives (chicken 7%), vegetable protein extracts, minerals. Nutrient Components Crude Protein 18% Crude Fat 3% Crude Cellulose (Fibre) 2% Crude Ash 7% Moisture 19% Nutritional Supplements Vitamin A 5000 IE Vitamin D3 500 IU Vitamin E 40 mg Copper (Copper (II) Sulphate Pentahydrate) 12 mg",
+  "images": [
+    {
+      "id": 24800,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/RDT019.png",
+      "alt": "SHORT EXPIRY - CLEARANCE: Reflex Dog Chewing Dental Stick 180g",
+      "name": "RDT019"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-reflex-dog-chewiing-dental-stick-180gr/?add-to-cart=26773",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-04-02T12:13:13",
+  "dateModified": "2026-05-06T17:08:02",
+  "brand": "Reflex",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/RDT019.png"
+}

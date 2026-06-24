@@ -4,8 +4,8 @@
   "slug": "thunder-adult-dog-food-lamb-and-rice-15kg",
   "sku": "TDD001",
   "onSale": false,
-  "price": 45,
-  "regularPrice": 45,
+  "price": 4500,
+  "regularPrice": 4500,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -37,19 +37,11 @@
       "slug": "thunder"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/thunder-adult-dog-food-lamb-and-rice-15kg/",
-  "shortDescription": "Safe, effective, and economical nutrition made with high-quality animal protein and wholesome ingredients. Free from potato starch, vegetable, and soy proteins to support better digestion and overall health. Manufactured in an ISO-certified facility for consistent quality and label accuracy.",
-  "description": "Nourish your dog with Thunder’s Lamb &amp; Rice formula, crafted to provide balanced nutrition and delicious taste. Made with high-quality ingredients like wheat, corn, and wholesome lamb protein, this formula supports your dog’s energy and vitality. Enriched with natural animal fats and liver aroma for irresistible flavor, plus flaxseed for a healthy coat. No Potato Starch: potato starch is a problematic ingredient, dogs don&#8217;t have amylase in their saliva and incomplete starch metabolism leads to inflammation, spiked insulin, high blood sugar, obesity and hormone disruption. No Vegetable or soy protein: dogs are preferential carnivores and do much better with ANIMAL PROTEIN. Vegetable and Soy proteins are often added to dog food to artificially inflate the protein percentage on the label, but dogs cannot break it down in large poop volume. Manufactured in an ISO certified factory: this ensures what is on the label is in the bag and consistency from bag to bag. INGREDIENTS: Wheat, Corn, Processed Animal Protein, Wheat Middlings, Bonkalit, Processed Lamb Protein, Rice, Animal Fat, Liver Aroma, Flaxseed, Rice, Salt, Dried Brewer’s Yeast. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 – B2 – B3 (Niacin) – B6 – B12 – B7 (Biotin) – B9 (Folic Acid), Vit. K, Choline, Calcium Pantotetan. NUTRIENT COMPOSITION Crude Protein 18% Crude Fat 7% Crude Cellulose (Fiber) 4% Crude Ash 8% &nbsp; DAILY FEEDING GUIDE: DOG WEIGHT GR / DAY 1 – 5 kg 45 – 140 5 – 10 kg 160 – 235 10 – 20 kg 235 – 390 20 – 30 kg 390 – 530 30 – 40 kg 530 – 660 40 – 50 kg 660 – 780 50 – 60 kg 780 – 890",
-  "images": [
+  "brands": [
     {
-      "id": 88872,
-      "alt": "Thunder Adult Dog Food Lamb And Rice 15kg",
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/04/Your-paragraph-text.png",
-      "name": "Your paragraph text"
+      "id": 2469,
+      "name": "Thunder",
+      "slug": "thunder"
     }
   ],
   "tags": [
@@ -69,20 +61,33 @@
       "slug": "kibble"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/thunder-adult-dog-food-lamb-and-rice-15kg/",
+  "shortDescription": "Safe, effective, and economical nutrition made with high-quality animal protein and wholesome ingredients. Free from potato starch, vegetable, and soy proteins to support better digestion and overall health. Manufactured in an ISO-certified facility for consistent quality and label accuracy.",
+  "description": "Nourish your dog with Thunder’s Lamb & Rice formula, crafted to provide balanced nutrition and delicious taste. Made with high-quality ingredients like wheat, corn, and wholesome lamb protein, this formula supports your dog’s energy and vitality. Enriched with natural animal fats and liver aroma for irresistible flavor, plus flaxseed for a healthy coat. No Potato Starch: potato starch is a problematic ingredient, dogs don't have amylase in their saliva and incomplete starch metabolism leads to inflammation, spiked insulin, high blood sugar, obesity and hormone disruption. No Vegetable or soy protein: dogs are preferential carnivores and do much better with ANIMAL PROTEIN. Vegetable and Soy proteins are often added to dog food to artificially inflate the protein percentage on the label, but dogs cannot break it down in large poop volume. Manufactured in an ISO certified factory: this ensures what is on the label is in the bag and consistency from bag to bag. INGREDIENTS: Wheat, Corn, Processed Animal Protein, Wheat Middlings, Bonkalit, Processed Lamb Protein, Rice, Animal Fat, Liver Aroma, Flaxseed, Rice, Salt, Dried Brewer’s Yeast. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 – B2 – B3 (Niacin) – B6 – B12 – B7 (Biotin) – B9 (Folic Acid), Vit. K, Choline, Calcium Pantotetan. NUTRIENT COMPOSITION Crude Protein 18% Crude Fat 7% Crude Cellulose (Fiber) 4% Crude Ash 8% &nbsp; DAILY FEEDING GUIDE: DOG WEIGHT GR / DAY 1 – 5 kg 45 – 140 5 – 10 kg 160 – 235 10 – 20 kg 235 – 390 20 – 30 kg 390 – 530 30 – 40 kg 530 – 660 40 – 50 kg 660 – 780 50 – 60 kg 780 – 890",
+  "images": [
     {
-      "id": 2469,
-      "name": "Thunder",
-      "slug": "thunder"
+      "id": 88872,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/04/Your-paragraph-text.png",
+      "alt": "Thunder Adult Dog Food Lamb And Rice 15kg",
+      "name": "Your paragraph text"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=46140",
+  "addToCartUrl": "https://petstore.co.ke/product/thunder-adult-dog-food-lamb-and-rice-15kg/?add-to-cart=46140",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.382Z",
-  "dateModified": "2026-06-23T09:15:51.382Z"
+  "dateCreated": "2024-04-16T14:48:46",
+  "dateModified": "2026-06-24T16:12:30",
+  "brand": "Thunder",
+  "weight_kg": 15,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/Your-paragraph-text.png"
 }

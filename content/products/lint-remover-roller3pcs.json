@@ -1,0 +1,107 @@
+{
+  "id": 24536,
+  "name": "Lint Remover Roller(3Pcs)",
+  "slug": "lint-remover-roller3pcs",
+  "sku": "LRRB03",
+  "onSale": false,
+  "price": 1000,
+  "regularPrice": 1000,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/LRRB03.jpg",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2343,
+      "name": "Cat Grooming",
+      "slug": "cat-grooming"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2360,
+      "name": "Dog Grooming & Cleaning",
+      "slug": "dog-grooming-cleaning-supplies"
+    },
+    {
+      "id": 2096,
+      "name": "Generic",
+      "slug": "generic"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2098,
+      "name": "Grooming & Tools",
+      "slug": "grooming-tools"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=24536",
+  "shortDescription": "Lint Remover Roller 3pcs – Removes pet fur, hair and lint from clothes and furniture",
+  "description": "Removes pet fur, hair and lint from clothes and furniture. Directions: Peel off the cover Rub against the area with lint/dirt/hair on your garment. If you need to use a new layer, peel off the top used adhesive from the perforated area and you get a new layer. With up to 25 layers of adhesive per refill",
+  "images": [
+    {
+      "id": 24338,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/LRRB03.jpg",
+      "alt": "Bioline Lint Remover Roller",
+      "name": "LRRB03"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/lint-remover-roller3pcs/?add-to-cart=24536",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-01-15T21:17:52",
+  "dateModified": "2026-05-06T17:07:49",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/LRRB03.jpg"
+}

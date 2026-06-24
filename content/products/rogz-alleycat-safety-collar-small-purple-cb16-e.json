@@ -4,8 +4,8 @@
   "slug": "rogz-alleycat-safety-collar-small-purple-cb16-e",
   "sku": "CB16-E",
   "onSale": false,
-  "price": 9.5,
-  "regularPrice": 9.5,
+  "price": 950,
+  "regularPrice": 950,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,21 +32,7 @@
       "slug": "rogz"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-alleycat-safety-collar-small-purple-cb16-e/",
-  "shortDescription": "Crafted from high-quality, snag-proof webbing , this collar is built to withstand daily wear while remaining soft and comfortable. A highly reflective finish enhances visibility during night-time adventures, helping to keep your cat safe after dark. Reflective | Snag-Proof | Breakaway Safety Buckle",
-  "description": "The&nbsp; Rogz AlleyCat Safety Collar &nbsp;is the ideal choice for everyday wear and identification, offering both safety and durability for your feline friend. Crafted from&nbsp; high-quality, snag-proof webbing , this collar is built to withstand daily wear while remaining soft and comfortable. A&nbsp; highly reflective finish &nbsp;enhances visibility during night-time adventures, helping to keep your cat safe after dark. Featuring the&nbsp; Rogz Safe lock breakaway buckle &nbsp;with&nbsp; three adjustable load settings , the collar is designed to release under enough strain allowing your cat to safely escape if the collar becomes caught. With an 11mm width &nbsp;and&nbsp; adjustable neck size from 20 to 30cm , it’s perfect for kittens and small adult cats. &nbsp;Key Features: Reflective webbing &nbsp;for increased night-time visibility Snag-proof and durable &nbsp;for everyday use Breakaway buckle &nbsp;with 3 safety release settings Adjustable fit : 20–30cm neck size | Width : 11mm Ideal for&nbsp; kittens and small cat breeds Keep your cat safe and seen after dark with&nbsp; Rogz AlleyCat Safety Collar &nbsp;designed for both function and flair.",
-  "images": [
-    {
-      "id": 47745,
-      "alt": "Rogz Alleycat Safety Collar Small Purple (Cb16-E)",
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-ALLEYCAT-SAFETY-COLLAR-XSMALL-BLACK.jpg",
-      "name": "ROGZ ALLEYCAT SAFETY COLLAR &#8211; XSMALL BLACK"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 1205,
@@ -69,14 +55,33 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-alleycat-safety-collar-small-purple-cb16-e/",
+  "shortDescription": "Crafted from high-quality, snag-proof webbing , this collar is built to withstand daily wear while remaining soft and comfortable. A highly reflective finish enhances visibility during night-time adventures, helping to keep your cat safe after dark. Reflective | Snag-Proof | Breakaway Safety Buckle",
+  "description": "The&nbsp; Rogz AlleyCat Safety Collar &nbsp;is the ideal choice for everyday wear and identification, offering both safety and durability for your feline friend. Crafted from&nbsp; high-quality, snag-proof webbing , this collar is built to withstand daily wear while remaining soft and comfortable. A&nbsp; highly reflective finish &nbsp;enhances visibility during night-time adventures, helping to keep your cat safe after dark. Featuring the&nbsp; Rogz Safe lock breakaway buckle &nbsp;with&nbsp; three adjustable load settings , the collar is designed to release under enough strain allowing your cat to safely escape if the collar becomes caught. With an 11mm width &nbsp;and&nbsp; adjustable neck size from 20 to 30cm , it’s perfect for kittens and small adult cats. &nbsp;Key Features: Reflective webbing &nbsp;for increased night-time visibility Snag-proof and durable &nbsp;for everyday use Breakaway buckle &nbsp;with 3 safety release settings Adjustable fit : 20–30cm neck size | Width : 11mm Ideal for&nbsp; kittens and small cat breeds Keep your cat safe and seen after dark with&nbsp; Rogz AlleyCat Safety Collar &nbsp;designed for both function and flair.",
+  "images": [
+    {
+      "id": 47745,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-ALLEYCAT-SAFETY-COLLAR-XSMALL-BLACK.jpg",
+      "alt": "Rogz Alleycat Safety Collar Small Purple (Cb16-E)",
+      "name": "ROGZ ALLEYCAT SAFETY COLLAR &#8211; XSMALL BLACK"
+    }
+  ],
   "stockStatus": "instock",
-  "lowStockRemaining": 2,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=5&#038;add-to-cart=47758",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-alleycat-safety-collar-small-purple-cb16-e/?add-to-cart=47758",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.427Z",
-  "dateModified": "2026-06-23T09:15:51.427Z"
+  "dateCreated": "2024-06-12T09:49:26",
+  "dateModified": "2026-06-17T04:14:43",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-ALLEYCAT-SAFETY-COLLAR-XSMALL-BLACK.jpg"
 }

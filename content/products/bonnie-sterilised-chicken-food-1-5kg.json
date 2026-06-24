@@ -4,8 +4,8 @@
   "slug": "bonnie-sterilised-chicken-food-1-5kg",
   "sku": "BCD014",
   "onSale": false,
-  "price": 18.4,
-  "regularPrice": 18.4,
+  "price": 1840,
+  "regularPrice": 1840,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "dry-cat-food"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/bonnie-sterilised-chicken-food-1-5kg/",
-  "shortDescription": "Formulated by feline nutrition experts, Bonnie Sterilised Chicken Cat Food provides complete and balanced nutrition with high-quality chicken protein. Its tailored formula supports urinary tract health and helps maintain ideal weight in neutered cats over one year of age.",
-  "description": "Bonnie Sterilised Chicken cat food, supports urinary system health with its special formula that is fully and balanced, chicken protein-containing all nutritional needs of a neutered cats aged 1year and above. NUTRITIONAL VALUES NUTRITIONAL SUPPLEMENTS Crude Protein 27% Vitamin A (3A672A) 15000 IU/kg Raw oil 10% Vitamin D3 (3A671) 1000 IU/kg Ash 8% Vitamin E (3A700) 150mg/kg Crude Cellulose (Fiber) 5% Vitamin C (3A300) 120mg/kg Taurine (3A370) 1000mg/k &nbsp; INGREDIENTS: Processed chicken protein, Wheat, Corn, Rice, Animal fat, Corn gluten, Dried sugar beet, Liver flavor, Salt, Flaxseed, Brewer&#8217;s yeast, Taurine (3A370), MOS (Mannan Oligosaccharide), Beta glucan, Preservatives &#8211; antioxidants (E320) &amp;E321) MINERALS: Iron (3B103) Iodine (3B202) Copper (3B405) Zinc (3B603) Manganese (3B502) Selenium (3B802) VITAMINS: Vitamin A, Vitamin D, Vitamin, Vitamin C, Vitamin B1 &#8211; B2 &#8211; B3 (Niacin) &#8211; B6 &#8211; B12 &#8211; B7 (Biotin) &#8211; B9 (Folic Acid), Vitamin K, Choline, Calcium Pantothenate. &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 57013,
-      "alt": "Bonnie Sterilised Adult Cat Food Chicken 1.5kg",
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/11/Untitled-design-2025-07-18T115806.183.png",
-      "name": "Untitled design &#8211; 2025-07-18T115806.183"
+      "id": 2428,
+      "name": "Bonnie",
+      "slug": "bonnie"
     }
   ],
   "tags": [
@@ -69,20 +61,33 @@
       "slug": "kibble"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/bonnie-sterilised-chicken-food-1-5kg/",
+  "shortDescription": "Formulated by feline nutrition experts, Bonnie Sterilised Chicken Cat Food provides complete and balanced nutrition with high-quality chicken protein. Its tailored formula supports urinary tract health and helps maintain ideal weight in neutered cats over one year of age.",
+  "description": "Bonnie Sterilised Chicken cat food, supports urinary system health with its special formula that is fully and balanced, chicken protein-containing all nutritional needs of a neutered cats aged 1year and above. NUTRITIONAL VALUES NUTRITIONAL SUPPLEMENTS Crude Protein 27% Vitamin A (3A672A) 15000 IU/kg Raw oil 10% Vitamin D3 (3A671) 1000 IU/kg Ash 8% Vitamin E (3A700) 150mg/kg Crude Cellulose (Fiber) 5% Vitamin C (3A300) 120mg/kg Taurine (3A370) 1000mg/k &nbsp; INGREDIENTS: Processed chicken protein, Wheat, Corn, Rice, Animal fat, Corn gluten, Dried sugar beet, Liver flavor, Salt, Flaxseed, Brewer's yeast, Taurine (3A370), MOS (Mannan Oligosaccharide), Beta glucan, Preservatives - antioxidants (E320) &E321) MINERALS: Iron (3B103) Iodine (3B202) Copper (3B405) Zinc (3B603) Manganese (3B502) Selenium (3B802) VITAMINS: Vitamin A, Vitamin D, Vitamin, Vitamin C, Vitamin B1 - B2 - B3 (Niacin) - B6 - B12 - B7 (Biotin) - B9 (Folic Acid), Vitamin K, Choline, Calcium Pantothenate. &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2428,
-      "name": "Bonnie",
-      "slug": "bonnie"
+      "id": 57013,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/11/Untitled-design-2025-07-18T115806.183.png",
+      "alt": "Bonnie Sterilised Adult Cat Food Chicken 1.5kg",
+      "name": "Untitled design &#8211; 2025-07-18T115806.183"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=3&#038;add-to-cart=40682",
+  "addToCartUrl": "https://petstore.co.ke/product/bonnie-sterilised-chicken-food-1-5kg/?add-to-cart=40682",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.325Z",
-  "dateModified": "2026-06-23T09:15:51.325Z"
+  "dateCreated": "2023-11-03T08:20:18",
+  "dateModified": "2026-06-24T16:12:05",
+  "brand": "Bonnie",
+  "weight_kg": 0.5,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/11/Untitled-design-2025-07-18T115806.183.png"
 }

@@ -1,0 +1,112 @@
+{
+  "id": 20018,
+  "name": "Dog Poop Bag Holder - Bone Shape Light Blue",
+  "slug": "dog-poop-bag-holder-bone-shape-light-blue",
+  "sku": "DPBHBLB",
+  "onSale": false,
+  "price": 342,
+  "regularPrice": 342,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Poop-Bag-Holder-Bone-Shape-Light-Blue-DPBHBLB.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2343,
+      "name": "Cat Grooming",
+      "slug": "cat-grooming"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2360,
+      "name": "Dog Grooming & Cleaning",
+      "slug": "dog-grooming-cleaning-supplies"
+    },
+    {
+      "id": 2096,
+      "name": "Generic",
+      "slug": "generic"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2098,
+      "name": "Grooming & Tools",
+      "slug": "grooming-tools"
+    },
+    {
+      "id": 34,
+      "name": "kitten",
+      "slug": "kitten"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 2319,
+      "name": "Veterinary Range",
+      "slug": "veterinary-range"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=20018",
+  "shortDescription": "Dog Poop Bag Holder with Leash Clip. Comes with disposable waste bags, each bag is perforate for easy separation",
+  "description": "Dog Poop Bag Holder with Leash Clip. Comes with disposable waste bags, each bag is perforate for easy separation",
+  "images": [
+    {
+      "id": 19962,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Poop-Bag-Holder-Bone-Shape-Light-Blue-DPBHBLB.jpg",
+      "alt": "Dog Poop Bag Holder - Bone Shape Light Blue",
+      "name": "Dog Poop Bag Holder &#8211; Bone Shape Light Blue DPBHBLB"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/dog-poop-bag-holder-bone-shape-light-blue/?add-to-cart=20018",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2021-04-14T22:04:53",
+  "dateModified": "2026-05-06T17:07:19",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Poop-Bag-Holder-Bone-Shape-Light-Blue-DPBHBLB.jpg"
+}

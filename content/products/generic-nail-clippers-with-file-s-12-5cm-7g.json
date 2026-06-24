@@ -1,0 +1,77 @@
+{
+  "id": 37404,
+  "name": "Generic Nail Clippers With File-Large",
+  "slug": "generic-nail-clippers-with-file-s-12-5cm-7g",
+  "sku": "PZNC02",
+  "onSale": false,
+  "price": 1000,
+  "regularPrice": 1000,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/NAIL-CLIPPER-WITH-FILE_blue.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2343,
+      "name": "Cat Grooming",
+      "slug": "cat-grooming"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2098,
+      "name": "Grooming & Tools",
+      "slug": "grooming-tools"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=37404",
+  "shortDescription": "It’s especially designed for shearing nails, toenails, claws or paws for your lovely and beautiful dog, cat and other pets",
+  "description": "Generic Nail clipper with file. Colour Blue and White. usage method: Grasp Pet’s Foot steady. Put the tip of pet nails into the knife and trim them slowly, several times. Avoid cutting blood lines into pet nails and causing bleeding. Avoid one-off large-area manicure of pet nails. When using nail clippers, please use safety shield to gradually trim, so as not to hurt toes by too much trimming. If the pet’s nails are too long, first trim a small part of the nail tips, every other week until the nails reach the appropriate length, leaving enough time for the pet to adapt. After trimming the nails, use the matching file to rub the nails until they are smooth. Note: please don’t cut nail of large range once. It is better to cut about 1/3 length of the nail once. And then use the nail file to polish it.",
+  "images": [
+    {
+      "id": 45120,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/NAIL-CLIPPER-WITH-FILE_blue.jpg",
+      "alt": "Cs Pet Nail Clipper Set Large Pink",
+      "name": "NAIL-CLIPPER-WITH-FILE_blue"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/generic-nail-clippers-with-file-s-12-5cm-7g/?add-to-cart=37404",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-05-31T10:04:53",
+  "dateModified": "2026-05-06T17:08:41",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/NAIL-CLIPPER-WITH-FILE_blue.jpg"
+}

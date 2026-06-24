@@ -4,8 +4,8 @@
   "slug": "king-adult-cat-food-fish-500gr",
   "sku": "KCD004",
   "onSale": false,
-  "price": 5.75,
-  "regularPrice": 5.75,
+  "price": 575,
+  "regularPrice": 575,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "king"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/king-adult-cat-food-fish-500gr/",
-  "shortDescription": "Fully balanced all-natural cat food with fish protein. Carefully formulated by a cat nutritionist to meet the nutritional requirements of all adult cats.",
-  "description": "King Plus Adult Cat Food Fish, fully balanced all-natural cat food with fish protein. Carefully formulated by a cat nutritionist to meet the nutritional requirements of all adult cats. NUTRIENT COMPONENTS Protein &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;. 28% Fat &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;.. 10% Crude Ash&#8230;&#8230;&#8230;&#8230;&#8230;&#8230; 8% Crude Cellulose (Fiber) .. 2.5% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Fish Meal, Fish Oil, Corn Gluten, Liver Aroma, Fish Aroma, Rice, Salt, Flaxseed, Dried Brewer&#8217;s Yeast, Taurine. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 , B2 , B3 (niacin), B6 , B12 , B7 (biotin) , B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
-  "images": [
+  "brands": [
     {
-      "id": 77711,
-      "alt": "King Adult Cat Food Fish 500g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/09/King-Fish-500g-2.png",
-      "name": "King Fish 500g (2)"
+      "id": 2446,
+      "name": "King",
+      "slug": "king"
     }
   ],
   "tags": [
@@ -54,20 +46,33 @@
       "slug": "cat"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/king-adult-cat-food-fish-500gr/",
+  "shortDescription": "Fully balanced all-natural cat food with fish protein. Carefully formulated by a cat nutritionist to meet the nutritional requirements of all adult cats.",
+  "description": "King Plus Adult Cat Food Fish, fully balanced all-natural cat food with fish protein. Carefully formulated by a cat nutritionist to meet the nutritional requirements of all adult cats. NUTRIENT COMPONENTS Protein ................... 28% Fat ....................... 10% Crude Ash.................. 8% Crude Cellulose (Fiber) .. 2.5% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Fish Meal, Fish Oil, Corn Gluten, Liver Aroma, Fish Aroma, Rice, Salt, Flaxseed, Dried Brewer's Yeast, Taurine. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 , B2 , B3 (niacin), B6 , B12 , B7 (biotin) , B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
+  "images": [
     {
-      "id": 2446,
-      "name": "King",
-      "slug": "king"
+      "id": 77711,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/09/King-Fish-500g-2.png",
+      "alt": "King Adult Cat Food Fish 500g",
+      "name": "King Fish 500g (2)"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=3&#038;add-to-cart=33127",
+  "addToCartUrl": "https://petstore.co.ke/product/king-adult-cat-food-fish-500gr/?add-to-cart=33127",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.273Z",
-  "dateModified": "2026-06-23T09:15:51.273Z"
+  "dateCreated": "2023-03-03T12:06:39",
+  "dateModified": "2026-06-24T14:12:04",
+  "brand": "King",
+  "weight_kg": 0.5,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/09/King-Fish-500g-2.png"
 }

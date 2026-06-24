@@ -4,8 +4,8 @@
   "slug": "spectrum-gusto-lick-snack-tuna",
   "sku": "SCW003",
   "onSale": false,
-  "price": 5.5,
-  "regularPrice": 5.5,
+  "price": 550,
+  "regularPrice": 550,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -37,19 +37,11 @@
       "slug": "spectrum"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/spectrum-gusto-lick-snack-tuna/",
-  "shortDescription": "Spectrum Gusto Lick Snack Tuna is a creamy lickable pet treat made with real tuna, high in moisture for hydration and perfect for daily treating, bonding, or dessert feeding.",
-  "description": "Spectrum Gusto Lick Snack Tuna is a smooth, creamy lickable treat made with real tuna light meat, crafted to deliver irresistible taste in a light, hydrating format. With its soft texture and high moisture content, this snack is easy to serve, easy to consume, and highly palatable for pets of all ages. Formulated with 29.40% tuna light meat , it provides quality protein while remaining gentle and low in fat. The creamy consistency makes it perfect for spoon-feeding in small portions, encouraging bonding moments and stress-free treating. Its high moisture level also helps support daily hydration, making it a great complement to your pet’s regular diet. The recipe is carefully balanced using modified tapioca starch and guar gum to maintain a smooth, stable texture, while soybean oil enhances palatability. With clean ingredients and controlled nutritional values, Spectrum Gusto Lick Snack Tuna is suitable for frequent use when fed responsibly. Ingredients Water Tuna light meat (29.40%) Modified tapioca starch (E1442) Guar gum (E412) Soybean oil Nutritional Composition Crude Protein: 8% Fat Content: 1% Crude Ash: 1% Crude Cellulose (Fiber): 0.1% Moisture: 87% Feeding Recommendations &amp; Warnings Serve as a dessert or everyday treat Offer in small portions using a spoon Always ensure fresh drinking water is available Intended as a complementary snack, not a complete meal Refer to product imprint for additional guidance &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 69325,
-      "alt": "Spectrum Gusto Lick Snack For Cat With Tuna 4x15g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/spectrum-lick-snack-tuna-.png",
-      "name": "spectrum lick snack tuna"
+      "id": 2468,
+      "name": "Spectrum",
+      "slug": "spectrum"
     }
   ],
   "tags": [
@@ -69,20 +61,33 @@
       "slug": "treats"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/spectrum-gusto-lick-snack-tuna/",
+  "shortDescription": "Spectrum Gusto Lick Snack Tuna is a creamy lickable pet treat made with real tuna, high in moisture for hydration and perfect for daily treating, bonding, or dessert feeding.",
+  "description": "Spectrum Gusto Lick Snack Tuna is a smooth, creamy lickable treat made with real tuna light meat, crafted to deliver irresistible taste in a light, hydrating format. With its soft texture and high moisture content, this snack is easy to serve, easy to consume, and highly palatable for pets of all ages. Formulated with 29.40% tuna light meat , it provides quality protein while remaining gentle and low in fat. The creamy consistency makes it perfect for spoon-feeding in small portions, encouraging bonding moments and stress-free treating. Its high moisture level also helps support daily hydration, making it a great complement to your pet’s regular diet. The recipe is carefully balanced using modified tapioca starch and guar gum to maintain a smooth, stable texture, while soybean oil enhances palatability. With clean ingredients and controlled nutritional values, Spectrum Gusto Lick Snack Tuna is suitable for frequent use when fed responsibly. Ingredients Water Tuna light meat (29.40%) Modified tapioca starch (E1442) Guar gum (E412) Soybean oil Nutritional Composition Crude Protein: 8% Fat Content: 1% Crude Ash: 1% Crude Cellulose (Fiber): 0.1% Moisture: 87% Feeding Recommendations & Warnings Serve as a dessert or everyday treat Offer in small portions using a spoon Always ensure fresh drinking water is available Intended as a complementary snack, not a complete meal Refer to product imprint for additional guidance &nbsp;",
+  "images": [
     {
-      "id": 2468,
-      "name": "Spectrum",
-      "slug": "spectrum"
+      "id": 69325,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/spectrum-lick-snack-tuna-.png",
+      "alt": "Spectrum Gusto Lick Snack For Cat With Tuna 4x15g",
+      "name": "spectrum lick snack tuna"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": null,
+  "lowStockRemaining": 5,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=69324",
+  "addToCartUrl": "https://petstore.co.ke/product/spectrum-gusto-lick-snack-tuna/?add-to-cart=69324",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.873Z",
-  "dateModified": "2026-06-23T09:15:51.873Z"
+  "dateCreated": "2026-01-31T11:18:25",
+  "dateModified": "2026-06-17T04:30:34",
+  "brand": "Spectrum",
+  "weight_kg": 0.15,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/spectrum-lick-snack-tuna-.png"
 }

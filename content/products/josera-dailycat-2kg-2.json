@@ -1,0 +1,63 @@
+{
+  "id": 62592,
+  "name": "Josera Dailycat 2kg",
+  "slug": "josera-dailycat-2kg-2",
+  "sku": "JCD@F",
+  "onSale": true,
+  "price": 3275,
+  "regularPrice": 3853,
+  "salePrice": 3275,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JCD.jpg",
+  "categories": [
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2223,
+      "name": "flash",
+      "slug": "flash"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=62592",
+  "shortDescription": "This Josera DailyCat is a delicious, nutritious dry food offering your cat a healthy, balanced diet. It is made with extra poultry and has a high content of animal protein. Josera DailyCat is a grain-free dry food that is ideal for cats with allergies or intolerances.",
+  "description": "Composition: Dried poultry protein (%39), sweet potato, pea meal, poultry fat, beet fiber, hydrolyzed poultry protein, dried poultry liver, herbs, fruits, minerals. Additives per kg: Nutritional additives: Vitamin A (24,000 IU), vitamin D1800) 3 IU0, vitamin E (220mg), vitamin B15) 1mg), vitamin B20) 2mg), vitamin B6 20)mg), vitamin B100) 12mcg), niacin (90mg), pantothenic acid (50mg), folic acid (5mg), biotin (1000mcg), taurine (1500mg), iron (250mg), zinc (150mg), manganese (18mg), copper (18mg), iodine (1.9mg), selenium (0.25mg) Product Details: This Josera DailyCat is a delicious, nutritious dry food offering your cat a healthy, balanced diet. It is made with extra poultry and has a high content of animal protein. Josera DailyCat is a grain-free dry food that is ideal for cats with allergies or intolerances. Josera DailyCat is made in Germany to the highest quality standards, ensuring only premium ingredients are used. It contains selected herbs, fruits and special fibres. It can also help to combat the build-up of hairballs, supporting the movement of swallowed hairs through the digestive tract. Josera DailyCat at a glance: Balanced dry food for adult cats: With plenty of extra poultry: very delicious and with a high content of animal protein (%82 of the total protein content). Anti-hairball recipe contains special fibres that prevent the build-up of hairballs and help to move swallowed hairs through the digestive system. No grains: suitable for cats with allergies or intolerances. Easy to digest high-quality ingredients and a gentle preparation process to make this food highly digestible. With vitamins, minerals and trace elements: can support healthy skin and glossy coat. Fruits and herbs: nutrient-rich ingredients that ensure great flavour.",
+  "images": [
+    {
+      "id": 23784,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JCD.jpg",
+      "alt": "Josera Dailycat 2kg",
+      "name": "JCD.jpg"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": false,
+  "addToCartUrl": "https://petstore.co.ke/product/josera-dailycat-2kg-2/?add-to-cart=62592",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2025-11-21T10:19:44",
+  "dateModified": "2026-06-17T04:33:52",
+  "brand": "Josera",
+  "weight_kg": 2,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JCD.jpg"
+}

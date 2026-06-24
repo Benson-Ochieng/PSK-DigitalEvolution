@@ -1,0 +1,62 @@
+{
+  "id": 38265,
+  "name": "Dematting Professional Petgooming Comb",
+  "slug": "demantting-professional-pet-grooming-comb",
+  "sku": "PA4432",
+  "onSale": false,
+  "price": 1700,
+  "regularPrice": 1700,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/07/dematting-comb.jpg",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2098,
+      "name": "Grooming & Tools",
+      "slug": "grooming-tools"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=38265",
+  "shortDescription": "Dematting Comb Pet Grooming Rake Tool Available in Blue, pink, Red, Yellow and Blue",
+  "description": "Dematting Comb Pet Grooming Rake Tool Instructions: 1. Examine the pet coat and look for tangles. 2. Gently break out the matt and brush it out with tool. Always comb in the directions of hair growth. 3. Start with the tooth-thin side for stubborn tangles and matts. 4. Finish with the tooth-tight side for thinning and deshedding to reach the best grooming result. 5. Perfectly suits for dogs, cats, rabbits, horses and all hairy pets. Warning 1. Please keep the grooming tool away from fire and high temperature. 2. pleases keep the grooming tool out of your pet's or child's reach. 3. Please keep the grooming tool clean after use. Always keep it dry after washing. 4. Please be careful when using the grooming tool and avoid improper use which could cause injuries to your pet.",
+  "images": [
+    {
+      "id": 38266,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/07/dematting-comb.jpg",
+      "alt": "Dematting Professional Petgooming Comb",
+      "name": "dematting comb"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/demantting-professional-pet-grooming-comb/?add-to-cart=38265",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-07-08T12:23:49",
+  "dateModified": "2026-05-06T17:08:46",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/07/dematting-comb.jpg"
+}

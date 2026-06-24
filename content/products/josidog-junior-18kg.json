@@ -1,0 +1,83 @@
+{
+  "id": 23724,
+  "name": "JosiDog Junior 15kg",
+  "slug": "josidog-junior-18kg",
+  "sku": "JDJJ",
+  "onSale": false,
+  "price": 10552,
+  "regularPrice": 10552,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/Untitled-design-3.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/josidog-junior-18kg/",
+  "shortDescription": "Complete feed for growing dogs. A specifically adapted calcium/phosphorus ratio makes JosiDog Junior suitable for all young dogs from the age of eight weeks onwards up to adulthood.",
+  "description": "JosiDog Junior , a complete feed carefully formulated to meet the unique nutritional needs of young dogs from 8 weeks to adulthood. With an optimal calcium-to-phosphorus ratio, it supports strong bones and healthy teeth during critical growth stages. The gluten-free recipe with moderate energy content helps ensure steady, healthy growth—ideal for puppies of all breeds Composition: Junior - Complete feed for growing dogs. Composition: whole grain corn; dried poultry protein; rice; poultry fat; beet fibre; hydrolysed poultry protein; minerals; ground chicory root (natural source of inulin); dried meat from the New Zealand green-lipped mussel (Perna canaliculus). Product Details: Complete feed for growing dogs. A specifically adapted calcium/phosphorus ratio makes JosiDog Junior suitable for all young dogs from the age of eight weeks onwards up to adulthood. The gluten-free formula with adjusted energy content supports moderate growth rates and strong bones needed for puppies. Fortified With Essential Nutrients This carefully balanced formula provides all the vital vitamins, minerals, and trace elements your puppy needs for: . Strong bones and teeth . A healthy immune system . Lean muscle development . Glossy coat and healthy skin Key Benefits Supports Healthy Bone Development – with an adapted calcium/phosphorus balance. Moderate Energy Content – encourages steady growth and helps avoid joint stress. Gluten-Free Recipe – gentle on sensitive stomachs and ideal for growing pups. Green-Lipped Mussel Extract – a natural source of joint-supporting nutrients like glucosamine. Chicory Root (Inulin) – promotes a healthy gut flora for better digestion and immunity. High-Quality Proteins – dried poultry protein and hydrolyzed poultry protein support muscle growth. &nbsp;",
+  "images": [
+    {
+      "id": 34544,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/Untitled-design-3.png",
+      "alt": "JosiDog Junior 15kg",
+      "name": "Untitled design (3)"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/josidog-junior-18kg/?add-to-cart=23724",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2021-10-29T07:55:19",
+  "dateModified": "2026-06-24T11:12:02",
+  "brand": "Josera",
+  "weight_kg": 15,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/Untitled-design-3.png"
+}

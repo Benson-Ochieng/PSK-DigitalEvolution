@@ -1,11 +1,11 @@
 {
   "id": 17993,
-  "name": "Rogz Dog Utility Step In Harness Small – Pink",
+  "name": "Rogz Dog Utility Step In Harness Small - Pink",
   "slug": "rogz-dog-utility-step-in-harness-small-pink",
   "sku": "SSJ14-K",
   "onSale": false,
-  "price": 19,
-  "regularPrice": 19,
+  "price": 1900,
+  "regularPrice": 1900,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,21 +32,7 @@
       "slug": "rogz"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-step-in-harness-small-pink/",
-  "shortDescription": "Rogz Dog Utility Step In Harness Small &#8211; Pink",
-  "description": "Rogz Utility Step-In Reflective Dog Harness has a reflective yarn woven into the webbing for night time visibility so that everyone is aware that you &amp; your dog are on an outing. Key Features: Reflective Stitching: Reflective yarn is woven into the webbing for nighttime visibility RogLoc: The Fort Knox of release buckles Low Load Technology: LLT technology reduces the load on the Titanium Plastic buckle through a cleverly positioned load ring Contoured Plastic Component: ROGZ rounded contoured plastic components ensure that every ROGZ collar fits snugly Die-Cast Ring: Custom designed die cast ring (no welding). Electroplated chrome for a tarnish free finish Size: Medium 16mm. (Girth measurement of 42-61cm)",
-  "images": [
-    {
-      "id": 17954,
-      "alt": "Rogz Dog Utility Step In Harness Small – Pink",
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/SSJ14-K-Nitelife-Pink.jpg",
-      "name": "SSJ14-K Nitelife Pink"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 2318,
@@ -54,14 +40,33 @@
       "slug": "harness"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-step-in-harness-small-pink/",
+  "shortDescription": "Rogz Dog Utility Step In Harness Small – Pink",
+  "description": "Rogz Utility Step-In Reflective Dog Harness has a reflective yarn woven into the webbing for night time visibility so that everyone is aware that you & your dog are on an outing. Key Features: Reflective Stitching: Reflective yarn is woven into the webbing for nighttime visibility RogLoc: The Fort Knox of release buckles Low Load Technology: LLT technology reduces the load on the Titanium Plastic buckle through a cleverly positioned load ring Contoured Plastic Component: ROGZ rounded contoured plastic components ensure that every ROGZ collar fits snugly Die-Cast Ring: Custom designed die cast ring (no welding). Electroplated chrome for a tarnish free finish Size: Medium 16mm. (Girth measurement of 42-61cm)",
+  "images": [
+    {
+      "id": 17954,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/SSJ14-K-Nitelife-Pink.jpg",
+      "alt": "Rogz Dog Utility Step In Harness Small – Pink",
+      "name": "SSJ14-K Nitelife Pink"
+    }
+  ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=2&#038;add-to-cart=17993",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-step-in-harness-small-pink/?add-to-cart=17993",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.163Z",
-  "dateModified": "2026-06-23T09:15:51.163Z"
+  "dateCreated": "2021-01-13T19:30:31",
+  "dateModified": "2026-06-19T10:12:20",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/SSJ14-K-Nitelife-Pink.jpg"
 }

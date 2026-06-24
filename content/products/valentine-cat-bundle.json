@@ -1,0 +1,55 @@
+{
+  "id": 34891,
+  "name": "Valentine Cat Bundle",
+  "slug": "valentine-cat-bundle",
+  "sku": "VDBUNDLE3",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "/images/psk_logo.png",
+  "categories": [
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2122,
+      "name": "Bundle",
+      "slug": "bundle"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=34891",
+  "shortDescription": "1Pc Proline Cat Litter 5L 1Pc M-Pets Cat Toy 1Pc Grooming Glove 1Pc Scooper",
+  "description": "\"My Purrfect Valentine!\"",
+  "images": [],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/valentine-cat-bundle/?add-to-cart=34891",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-02-05T11:34:09",
+  "dateModified": "2026-05-06T17:08:30",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "/images/psk_logo.png"
+}

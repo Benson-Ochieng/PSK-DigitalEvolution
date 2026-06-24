@@ -4,8 +4,8 @@
   "slug": "rogz-dog-utility-step-in-harness-x-large-black-ssj05-a",
   "sku": "SSJ05-A",
   "onSale": false,
-  "price": 31.5,
-  "regularPrice": 31.5,
+  "price": 3150,
+  "regularPrice": 3150,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,21 +32,7 @@
       "slug": "rogz"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-step-in-harness-x-large-black-ssj05-a/",
-  "shortDescription": "Rogz Dog Utility Step In Harness X-Large &#8211; Blue",
-  "description": "Rogz Utility Step-In Reflective Dog Harness has a reflective yarn woven into the webbing for night time visibility so that everyone is aware that you &amp; your dog are on an outing. Key Features: Reflective Stitching: Reflective yarn is woven into the webbing for nighttime visibility RogLoc: The Fort Knox of release buckles Low Load Technology: LLT technology reduces the load on the Titanium Plastic buckle through a cleverly positioned load ring Contoured Plastic Component: ROGZ rounded contoured plastic components ensure that every ROGZ collar fits snugly Die-Cast Ring: Custom designed die cast ring (no welding). Electroplated chrome for a tarnish free finish Size: XLarge 25mm. (Girth measurement of 60-100cm)",
-  "images": [
-    {
-      "id": 46569,
-      "alt": "Rogz Dog Utility Step In Harness X-Large Black (Ssj05-A)",
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/04/SSJ11-A_Utility-Step-In-Harness_M_Black-420x420-1.jpg",
-      "name": "SSJ11-A_Utility-Step-In-Harness_M_Black-420&#215;420"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 2318,
@@ -54,14 +40,33 @@
       "slug": "harness"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-step-in-harness-x-large-black-ssj05-a/",
+  "shortDescription": "Rogz Dog Utility Step In Harness X-Large – Blue",
+  "description": "Rogz Utility Step-In Reflective Dog Harness has a reflective yarn woven into the webbing for night time visibility so that everyone is aware that you & your dog are on an outing. Key Features: Reflective Stitching: Reflective yarn is woven into the webbing for nighttime visibility RogLoc: The Fort Knox of release buckles Low Load Technology: LLT technology reduces the load on the Titanium Plastic buckle through a cleverly positioned load ring Contoured Plastic Component: ROGZ rounded contoured plastic components ensure that every ROGZ collar fits snugly Die-Cast Ring: Custom designed die cast ring (no welding). Electroplated chrome for a tarnish free finish Size: XLarge 25mm. (Girth measurement of 60-100cm)",
+  "images": [
+    {
+      "id": 46569,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/04/SSJ11-A_Utility-Step-In-Harness_M_Black-420x420-1.jpg",
+      "alt": "Rogz Dog Utility Step In Harness X-Large Black (Ssj05-A)",
+      "name": "SSJ11-A_Utility-Step-In-Harness_M_Black-420&#215;420"
+    }
+  ],
   "stockStatus": "instock",
-  "lowStockRemaining": 2,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=46568",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-step-in-harness-x-large-black-ssj05-a/?add-to-cart=46568",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.401Z",
-  "dateModified": "2026-06-23T09:15:51.401Z"
+  "dateCreated": "2024-04-30T11:09:39",
+  "dateModified": "2026-06-17T04:14:38",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/SSJ11-A_Utility-Step-In-Harness_M_Black-420x420-1.jpg"
 }

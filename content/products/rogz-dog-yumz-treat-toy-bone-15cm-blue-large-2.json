@@ -1,0 +1,97 @@
+{
+  "id": 24598,
+  "name": "Rogz Dog Yumz-Treat Toy Bone 15cm - Blue Large (YU05-B)",
+  "slug": "rogz-dog-yumz-treat-toy-bone-15cm-blue-large-2",
+  "sku": "YU05-B",
+  "onSale": false,
+  "price": 2300,
+  "regularPrice": 2300,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/YU01-B-Yumz-Small-Blue.jpg",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2358,
+      "name": "Chew Toys",
+      "slug": "dog-chew-toys"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2357,
+      "name": "Dog Fetch Toys",
+      "slug": "dog-fetch-toys"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2064,
+      "name": "Rogz",
+      "slug": "rogz"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/rogz-dog-yumz-treat-toy-bone-15cm-blue-large-2/",
+  "shortDescription": "Rogz Dog Yumz-Treat Toy bone – Blue Large",
+  "description": "Yumz massages and gives treats! This new treat dispensing chew toy has GMT ? Gum Massaging Technology. Made from TPR, the inside treat cavity has 3 fins to hold treats longer. It bounces and fetches as well!",
+  "images": [
+    {
+      "id": 24621,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/YU01-B-Yumz-Small-Blue.jpg",
+      "alt": "Rogz Dog Yumz-Treat Toy Bone 15cm - Blue Large (YU05-B)",
+      "name": "YU01-B-Yumz-Small-Blue.jpg"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-yumz-treat-toy-bone-15cm-blue-large-2/?add-to-cart=24598",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-01-15T21:40:48",
+  "dateModified": "2026-06-17T04:18:36",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/YU01-B-Yumz-Small-Blue.jpg"
+}

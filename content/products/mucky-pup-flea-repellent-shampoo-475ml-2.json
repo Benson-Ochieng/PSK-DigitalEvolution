@@ -1,11 +1,11 @@
 {
   "id": 49249,
-  "name": "Mucky Pup Flea Repellent Shampoo – 475ml",
+  "name": "Mucky Pup Flea Repellent Shampoo - 475ml",
   "slug": "mucky-pup-flea-repellent-shampoo-475ml-2",
   "sku": "MPDS",
   "onSale": false,
-  "price": 6.95,
-  "regularPrice": 6.95,
+  "price": 695,
+  "regularPrice": 695,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "dog-shampoo"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/mucky-pup-flea-repellent-shampoo-475ml-2/",
-  "shortDescription": "Mucky pup flea repellant dog shampoo naturally repels fleas. Removes dirt and helps to reduce tangles leaving your dog with a healthy shiny coat.",
-  "description": "Mucky pup flea repellant dog shampoo delivers superb grooming for your precious pooch. Its flea repelling formula is gentle on the skin leaving a healthy, glossy coat. Fantastic cleaning gentle on skin Great coat results. This fabulous body and coat wash utilizes our special formula creating a luxurious lather which rinses easily away giving fantastic results. Directions: Lather into wet coat and rinse well with warm water. Ingredients: Aqua, Sodium Laureth Sulfate, Cocamide, MEA, Glycol Distearate, Ethyl , parfum, carboxymethyl, Hydroxyprophyl Guar, Citic Acid, Disodium EDTA, DMDH Hydantoin.",
-  "images": [
+  "brands": [
     {
-      "id": 49251,
-      "alt": "Mucky Pup Flea Repellent Shampoo – 475ml",
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/08/MUCKY-PUP-FLEA-REPELLENT-SHAMPOO-475ML-e1723021395619.jpg",
-      "name": "MUCKY PUP FLEA REPELLENT SHAMPOO-475ML"
+      "id": 2460,
+      "name": "Pride & Groom",
+      "slug": "pride-groom"
     }
   ],
   "tags": [
@@ -79,20 +71,33 @@
       "slug": "small-breeds"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/mucky-pup-flea-repellent-shampoo-475ml-2/",
+  "shortDescription": "Mucky pup flea repellant dog shampoo naturally repels fleas. Removes dirt and helps to reduce tangles leaving your dog with a healthy shiny coat.",
+  "description": "Mucky pup flea repellant dog shampoo delivers superb grooming for your precious pooch. Its flea repelling formula is gentle on the skin leaving a healthy, glossy coat. Fantastic cleaning gentle on skin Great coat results. This fabulous body and coat wash utilizes our special formula creating a luxurious lather which rinses easily away giving fantastic results. Directions: Lather into wet coat and rinse well with warm water. Ingredients: Aqua, Sodium Laureth Sulfate, Cocamide, MEA, Glycol Distearate, Ethyl , parfum, carboxymethyl, Hydroxyprophyl Guar, Citic Acid, Disodium EDTA, DMDH Hydantoin.",
+  "images": [
     {
-      "id": 2460,
-      "name": "Pride &amp; Groom",
-      "slug": "pride-groom"
+      "id": 49251,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/08/MUCKY-PUP-FLEA-REPELLENT-SHAMPOO-475ML-e1723021395619.jpg",
+      "alt": "Mucky Pup Flea Repellent Shampoo – 475ml",
+      "name": "MUCKY PUP FLEA REPELLENT SHAMPOO-475ML"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=5&#038;add-to-cart=49249",
+  "addToCartUrl": "https://petstore.co.ke/product/mucky-pup-flea-repellent-shampoo-475ml-2/?add-to-cart=49249",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.516Z",
-  "dateModified": "2026-06-23T09:15:51.516Z"
+  "dateCreated": "2024-08-07T11:58:19",
+  "dateModified": "2026-06-24T09:11:58",
+  "brand": "Pride & Groom",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/08/MUCKY-PUP-FLEA-REPELLENT-SHAMPOO-475ML-e1723021395619.jpg"
 }

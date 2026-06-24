@@ -1,0 +1,83 @@
+{
+  "id": 29461,
+  "name": "Royal Caningiant Adult 4kg",
+  "slug": "royal-canin-giant-adult-4-kg",
+  "sku": "ROC-SHGT-003",
+  "onSale": false,
+  "price": 5290,
+  "regularPrice": 5290,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Royal-Canin-Giant-Adult-01.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2104,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2423,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=29461",
+  "shortDescription": "Giant Adult is suitable for adult dogs that weight 45kg and over and is specially formulated with the nutritional needs of giant dogs. Complete feed for dogs – For adult giant breed dogs (> 45 kg) – Over 18/24 months old.",
+  "description": "Giant breeds of dogs can weigh anything up to 100kg, so it?s important that their diet gives them the nutrition they need to support their size and joints, as well as their general health. That?s why ROYAL CANIN? Giant Adult is suitable for adult dogs that weight 45kg and over and is specially formulated with the nutritional needs of giant dogs like yours in mind. ROYAL CANIN? Giant Adult food is formulated with an exclusive and balanced complex of antioxidants (such as vitamins A, E, and C) which help to neutralise the effects that free radicals that can have on your dog?s cells. Amino acids such as taurine and L-Carnitine are also included in ROYAL CANIN? Giant Adult food, they help to support your dog?s circulatory function and cardiac health. Composition : dehydrated poultry protein, maize, maize flour, animal fats, wheat, rice, hydrolysed animal proteins, maize gluten, beet pulp, vegetable protein isolate*, fish oil, minerals, vegetable fibres, soya oil, yeasts and parts thereof, borage oil, hydrolysed crustaceans (source of glucosamine), marigold extract (source of lutein), hydrolysed cartilage (source of chondroitin). Additives (per kg): Nutritional additives: Vitamin A: 21500 IU, Vitamin D3: 1000 IU, E1 (Iron): 42 mg, E2 (Iodine): 4.2 mg, E4 (Copper): 13 mg, E5 (Manganese): 55 mg, E6 (Zinc): 133 mg, E8 (Selenium): 0.09 mg - Taurine: 2.0 g - Preservatives - Antioxidants. Analytical constituents: Protein: 28.0% - Fat content 20.0% - Crude ash: 5.3% - Crude fibres: 1.8%. Feeding instructions: see table. Batch number, factory registration number and best before date: see information on packaging. To be stored in a cool, dry place. For RSA: Guaranteed analysis g/kg: Crude protein (min) 260 - Moisture (max) 95 - Crude fat (min) 180 - Crude fibre (max) 28 - Crude ash (max) 58.?*L.I.P.: protein selected for its very high digestibility.",
+  "images": [
+    {
+      "id": 28437,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/12/Royal-Canin-Giant-Adult-01.jpg",
+      "alt": "Royal Caningiant Adult 15kg",
+      "name": "Royal Canin Giant Adult-01"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/royal-canin-giant-adult-4-kg/?add-to-cart=29461",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-06-30T12:33:59",
+  "dateModified": "2026-06-17T04:23:43",
+  "brand": "Royal Canin",
+  "weight_kg": 15,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/12/Royal-Canin-Giant-Adult-01.jpg"
+}

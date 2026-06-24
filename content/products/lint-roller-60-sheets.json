@@ -4,8 +4,8 @@
   "slug": "lint-roller-60-sheets",
   "sku": "LRG60S",
   "onSale": false,
-  "price": 6.5,
-  "regularPrice": 6.5,
+  "price": 650,
+  "regularPrice": 650,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -52,21 +52,7 @@
       "slug": "generic"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/lint-roller-60-sheets/",
-  "shortDescription": "Lint Remover Roller. Removes pet fur, hair and lint from clothes and furniture. Each sheet is designed to lift even the most stubborn particles, providing efficient and reliable cleaning with every roll.",
-  "description": "Keep your clothes, furniture, and car interiors looking fresh and tidy with our Lint Roller featuring 60 strong, sticky sheets. Perfect for removing lint, pet hair, dust, and debris, this convenient and easy-to-use tool ensures a clean and polished look in seconds. Each sheet is designed to lift even the most stubborn particles, providing efficient and reliable cleaning with every roll. Key Features: 60 Sheets: Long-lasting with 60 premium adhesive sheets for multiple uses. Strong Adhesive: Designed to effectively remove lint, pet hair, dust, and crumbs from various surfaces. Easy to Use: Simply peel off a sheet, roll over the surface, and dispose of it when it’s full. Ergonomic Handle: Comfortable, lightweight design for easy handling and maximum control. Versatile: Ideal for clothes, furniture, car interiors, and more. Directions: How to Use Peel Off the Cover : Remove the protective cover from the lint roller to expose the adhesive sheets. Rub Against the Area : Gently roll the adhesive side against the area with lint, dirt, or hair on your garment or surface. Replace with a New Layer : Once the sheet is full, peel off the used adhesive from the perforated area to reveal a fresh, sticky layer. Repeat as Needed : Each refill has up to 25 layers of adhesive, so you can keep cleaning for multiple uses. Perfect for homes with pets or anyone on the go, this Lint Roller is a must-have for quick, mess-free touch-ups.",
-  "images": [
-    {
-      "id": 24338,
-      "alt": "Bioline Lint Remover Roller",
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/LRRB03.jpg",
-      "name": "LRRB03"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 820,
@@ -80,7 +66,7 @@
     },
     {
       "id": 2098,
-      "name": "Grooming &amp; Tools",
+      "name": "Grooming & Tools",
       "slug": "grooming-tools"
     },
     {
@@ -99,14 +85,33 @@
       "slug": "puppy"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/lint-roller-60-sheets/",
+  "shortDescription": "Lint Remover Roller. Removes pet fur, hair and lint from clothes and furniture. Each sheet is designed to lift even the most stubborn particles, providing efficient and reliable cleaning with every roll.",
+  "description": "Keep your clothes, furniture, and car interiors looking fresh and tidy with our Lint Roller featuring 60 strong, sticky sheets. Perfect for removing lint, pet hair, dust, and debris, this convenient and easy-to-use tool ensures a clean and polished look in seconds. Each sheet is designed to lift even the most stubborn particles, providing efficient and reliable cleaning with every roll. Key Features: 60 Sheets: Long-lasting with 60 premium adhesive sheets for multiple uses. Strong Adhesive: Designed to effectively remove lint, pet hair, dust, and crumbs from various surfaces. Easy to Use: Simply peel off a sheet, roll over the surface, and dispose of it when it’s full. Ergonomic Handle: Comfortable, lightweight design for easy handling and maximum control. Versatile: Ideal for clothes, furniture, car interiors, and more. Directions: How to Use Peel Off the Cover : Remove the protective cover from the lint roller to expose the adhesive sheets. Rub Against the Area : Gently roll the adhesive side against the area with lint, dirt, or hair on your garment or surface. Replace with a New Layer : Once the sheet is full, peel off the used adhesive from the perforated area to reveal a fresh, sticky layer. Repeat as Needed : Each refill has up to 25 layers of adhesive, so you can keep cleaning for multiple uses. Perfect for homes with pets or anyone on the go, this Lint Roller is a must-have for quick, mess-free touch-ups.",
+  "images": [
+    {
+      "id": 24338,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/LRRB03.jpg",
+      "alt": "Bioline Lint Remover Roller",
+      "name": "LRRB03"
+    }
+  ],
   "stockStatus": "instock",
-  "lowStockRemaining": 3,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=6&#038;add-to-cart=54526",
+  "addToCartUrl": "https://petstore.co.ke/product/lint-roller-60-sheets/?add-to-cart=54526",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.613Z",
-  "dateModified": "2026-06-23T09:15:51.613Z"
+  "dateCreated": "2025-04-08T09:07:09",
+  "dateModified": "2026-06-17T04:15:06",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/LRRB03.jpg"
 }

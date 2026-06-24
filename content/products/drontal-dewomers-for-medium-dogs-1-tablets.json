@@ -4,8 +4,8 @@
   "slug": "drontal-dewomers-for-medium-dogs-1-tablets",
   "sku": "DDMD02",
   "onSale": false,
-  "price": 6.5,
-  "regularPrice": 6.5,
+  "price": 650,
+  "regularPrice": 650,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -27,21 +27,7 @@
       "slug": "dog-healthcare-supplies"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/drontal-dewomers-for-medium-dogs-1-tablets/",
-  "shortDescription": "Drontal Flavoured Chewable for Medium Dogs (1 pcs) provide broad-spectrum deworming against roundworms, hookworms, tapeworms, whipworms, and Giardiasis. Safe for puppies and pregnant dogs; easy one-tablet-per-10kg dosing.",
-  "description": "Keep your dog healthy, protected, and free from harmful intestinal parasites with Drontal Flavoured Deworming Tablets for Medium Dogs . Formulated with a powerful combination of Praziquantel, Febantel, and Pyrantel embonate , Drontal provides broad-spectrum protection against the most common and damaging worms found in dogs. This trusted veterinary remedy targets both adult and immature stages of Ascarids (roundworms), Hookworms, Tapeworms, and adult Whipworms , ensuring a thorough and reliable deworming process. Drontal is also an effective treatment for Giardiasis , a common protozoal infection, when administered for two consecutive days. Designed for easy dosing, each Chewable treats 10 kg of body weight and can be given directly or mixed with food—no fasting required. With a tasty flavour dogs love and a proven safety profile, Drontal is suitable for all dogs , including puppies and pregnant bitches , making it a convenient and dependable choice for routine parasite control. Key Benefits Broad-spectrum protection against roundworms, hookworms, tapeworms, and whipworms. Effective against Giardiasis when used for 2 consecutive days. Easy administration: one tablet per 10 kg body weight; can be given with or without food. Dog-friendly flavoured tablet for stress-free dosing. Safe for all dogs , including puppies and pregnant females. Veterinarian-trusted formula containing: Praziquantel – 50 mg Febantel – 150 mg Pyrantel embonate – 144 mg Ensure your dog remains healthy and parasite-free with the reliable protection of Drontal Flavoured Tablets for Medium Dogs . &nbsp; &nbsp; &nbsp;",
-  "images": [
-    {
-      "id": 88807,
-      "alt": "Drontal Dewormers For Medium Dogs 1 Chewable",
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/12/drontal-1-tablet-1.png",
-      "name": "drontal 1 tablet (1)"
-    }
-  ],
+  "brands": [],
   "tags": [
     {
       "id": 2021,
@@ -64,14 +50,33 @@
       "slug": "pet-care"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/drontal-dewomers-for-medium-dogs-1-tablets/",
+  "shortDescription": "Drontal Flavoured Chewable for Medium Dogs (1 pcs) provide broad-spectrum deworming against roundworms, hookworms, tapeworms, whipworms, and Giardiasis. Safe for puppies and pregnant dogs; easy one-tablet-per-10kg dosing.",
+  "description": "Keep your dog healthy, protected, and free from harmful intestinal parasites with Drontal Flavoured Deworming Tablets for Medium Dogs . Formulated with a powerful combination of Praziquantel, Febantel, and Pyrantel embonate , Drontal provides broad-spectrum protection against the most common and damaging worms found in dogs. This trusted veterinary remedy targets both adult and immature stages of Ascarids (roundworms), Hookworms, Tapeworms, and adult Whipworms , ensuring a thorough and reliable deworming process. Drontal is also an effective treatment for Giardiasis , a common protozoal infection, when administered for two consecutive days. Designed for easy dosing, each Chewable treats 10 kg of body weight and can be given directly or mixed with food—no fasting required. With a tasty flavour dogs love and a proven safety profile, Drontal is suitable for all dogs , including puppies and pregnant bitches , making it a convenient and dependable choice for routine parasite control. Key Benefits Broad-spectrum protection against roundworms, hookworms, tapeworms, and whipworms. Effective against Giardiasis when used for 2 consecutive days. Easy administration: one tablet per 10 kg body weight; can be given with or without food. Dog-friendly flavoured tablet for stress-free dosing. Safe for all dogs , including puppies and pregnant females. Veterinarian-trusted formula containing: Praziquantel – 50 mg Febantel – 150 mg Pyrantel embonate – 144 mg Ensure your dog remains healthy and parasite-free with the reliable protection of Drontal Flavoured Tablets for Medium Dogs . &nbsp; &nbsp; &nbsp;",
+  "images": [
+    {
+      "id": 88807,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/12/drontal-1-tablet-1.png",
+      "alt": "Drontal Dewormers For Medium Dogs 1 Chewable",
+      "name": "drontal 1 tablet (1)"
+    }
+  ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=65865",
+  "addToCartUrl": "https://petstore.co.ke/product/drontal-dewomers-for-medium-dogs-1-tablets/?add-to-cart=65865",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.803Z",
-  "dateModified": "2026-06-23T09:15:51.803Z"
+  "dateCreated": "2025-12-19T11:18:27",
+  "dateModified": "2026-06-17T04:15:19",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/12/drontal-1-tablet-1.png"
 }

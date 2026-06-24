@@ -1,0 +1,87 @@
+{
+  "id": 18052,
+  "name": "Dog Scooper- geen",
+  "slug": "dog-scooper-green",
+  "sku": "DSS1G",
+  "onSale": false,
+  "price": 232,
+  "regularPrice": 232,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/DSS1G.jpg",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2360,
+      "name": "Dog Grooming & Cleaning",
+      "slug": "dog-grooming-cleaning-supplies"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 1205,
+      "name": "accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2098,
+      "name": "Grooming & Tools",
+      "slug": "grooming-tools"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    },
+    {
+      "id": 36,
+      "name": "puppy",
+      "slug": "puppy"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=18052",
+  "shortDescription": "Premium Large Dog pooper scoop – Green",
+  "description": "Premium Large Dog pooper scoop - Green",
+  "images": [
+    {
+      "id": 17994,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/DSS1G.jpg",
+      "alt": "Dog Scooper- geen",
+      "name": "DSS1G"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/dog-scooper-green/?add-to-cart=18052",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2021-01-13T22:19:52",
+  "dateModified": "2026-05-06T17:07:07",
+  "brand": null,
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/DSS1G.jpg"
+}

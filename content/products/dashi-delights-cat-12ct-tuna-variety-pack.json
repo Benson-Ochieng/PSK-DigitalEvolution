@@ -4,8 +4,8 @@
   "slug": "dashi-delights-cat-12ct-tuna-variety-pack",
   "sku": "BDCT003",
   "onSale": false,
-  "price": 2.97,
-  "regularPrice": 2.97,
+  "price": 297,
+  "regularPrice": 297,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -37,19 +37,11 @@
       "slug": "kitten"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/dashi-delights-cat-12ct-tuna-variety-pack/",
-  "shortDescription": "Dashi Delights Chicken Recipe is a hydrating, grain-free cat food topper made with farm-raised chicken and bonito broth. Rich umami flavor with Vitamin E and antioxidants",
-  "description": "Treat your cat to a flavorful experience with Dashi Delights Cat Tuna Variety Pack . Made with wholesome, high-quality ingredients , including farm-raised chicken and natural wild-caught tuna , these single-serve toppers bring umami-rich flavor to every meal. Each topper is crafted from a delicate bonito broth with shredded premium proteins, providing a hydrating, grain-free, preservative-free , and carrageenan-free treat your cat will adore. Enriched with Vitamin E for immune support and Green Tea Extract as a natural antioxidant, these toppers are perfect for cats of all life stages from kittens to seniors. Variety Pack Includes: Chicken with Tuna Recipe Chicken with Tuna &amp; Salmon Recipe Chicken with Tuna &amp; Scallop Recipe Hydrate your cat, enhance their meals, and provide a delicious boost of flavor with every serving. Feeding Instructions Feed as a treat or meal complement. Not intended as a complete meal. Provide fresh water daily and consult your veterinarian regularly. Storage Instructions Refrigerate after opening and serve promptly. Ingredients Chicken with Tuna: Chicken, Tuna, Tapioca Starch, Natural Flavors, Guar Gum, Scallop Extract, Bonito Flakes, Vitamin E Supplement, Green Tea Extract Chicken with Tuna &amp; Salmon: Chicken, Tuna, Salmon, Tapioca Starch, Natural Flavors, Guar Gum, Scallop Extract, Bonito Flakes, Vitamin E Supplement, Green Tea Extract Chicken with Tuna &amp; Scallop: Chicken, Tuna, Scallop, Tapioca Starch, Natural Flavors, Guar Gum, Scallop Extract, Bonito Flakes, Vitamin E Supplement, Green Tea Extract Calorie Content &amp; Analysis Crude Protein (min): 11.00% Crude Fat (min): 0.50% Crude Fiber (max): 0.10% Moisture (max): 88.00% Vitamin E (min): 50 IU/kg 500 kcal/kg, 35 kcal per cup (ME) &nbsp; &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 76856,
-      "alt": "Dashi Delights Cat Treats – Tuna Variety 70g",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/Dashi-Tuna.png",
-      "name": "Dashi Tuna"
+      "id": 2435,
+      "name": "Dashi",
+      "slug": "dashi"
     }
   ],
   "tags": [
@@ -69,20 +61,33 @@
       "slug": "treats"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/dashi-delights-cat-12ct-tuna-variety-pack/",
+  "shortDescription": "Dashi Delights Chicken Recipe is a hydrating, grain-free cat food topper made with farm-raised chicken and bonito broth. Rich umami flavor with Vitamin E and antioxidants",
+  "description": "Treat your cat to a flavorful experience with Dashi Delights Cat Tuna Variety Pack . Made with wholesome, high-quality ingredients , including farm-raised chicken and natural wild-caught tuna , these single-serve toppers bring umami-rich flavor to every meal. Each topper is crafted from a delicate bonito broth with shredded premium proteins, providing a hydrating, grain-free, preservative-free , and carrageenan-free treat your cat will adore. Enriched with Vitamin E for immune support and Green Tea Extract as a natural antioxidant, these toppers are perfect for cats of all life stages from kittens to seniors. Variety Pack Includes: Chicken with Tuna Recipe Chicken with Tuna & Salmon Recipe Chicken with Tuna & Scallop Recipe Hydrate your cat, enhance their meals, and provide a delicious boost of flavor with every serving. Feeding Instructions Feed as a treat or meal complement. Not intended as a complete meal. Provide fresh water daily and consult your veterinarian regularly. Storage Instructions Refrigerate after opening and serve promptly. Ingredients Chicken with Tuna: Chicken, Tuna, Tapioca Starch, Natural Flavors, Guar Gum, Scallop Extract, Bonito Flakes, Vitamin E Supplement, Green Tea Extract Chicken with Tuna & Salmon: Chicken, Tuna, Salmon, Tapioca Starch, Natural Flavors, Guar Gum, Scallop Extract, Bonito Flakes, Vitamin E Supplement, Green Tea Extract Chicken with Tuna & Scallop: Chicken, Tuna, Scallop, Tapioca Starch, Natural Flavors, Guar Gum, Scallop Extract, Bonito Flakes, Vitamin E Supplement, Green Tea Extract Calorie Content & Analysis Crude Protein (min): 11.00% Crude Fat (min): 0.50% Crude Fiber (max): 0.10% Moisture (max): 88.00% Vitamin E (min): 50 IU/kg 500 kcal/kg, 35 kcal per cup (ME) &nbsp; &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2435,
-      "name": "Dashi",
-      "slug": "dashi"
+      "id": 76856,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/Dashi-Tuna.png",
+      "alt": "Dashi Delights Cat Treats – Tuna Variety 70g",
+      "name": "Dashi Tuna"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=8&#038;add-to-cart=66437",
+  "addToCartUrl": "https://petstore.co.ke/product/dashi-delights-cat-12ct-tuna-variety-pack/?add-to-cart=66437",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.825Z",
-  "dateModified": "2026-06-23T09:15:51.825Z"
+  "dateCreated": "2026-01-09T15:35:02",
+  "dateModified": "2026-06-23T11:39:34",
+  "brand": "Dashi",
+  "weight_kg": 0.07,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/Dashi-Tuna.png"
 }

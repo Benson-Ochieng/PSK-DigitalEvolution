@@ -1,0 +1,98 @@
+{
+  "id": 23664,
+  "name": "Royal Canin Maxi Starter Mother & Baby 4kg",
+  "slug": "maxi-starter-mb-4kg",
+  "sku": "ROC-SHMX-043",
+  "onSale": false,
+  "price": 6350,
+  "regularPrice": 6350,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-SHMX-043.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2350,
+      "name": "Puppy Food",
+      "slug": "puppy-food"
+    },
+    {
+      "id": 2104,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2423,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 1034,
+      "name": "large breed",
+      "slug": "large-breed"
+    },
+    {
+      "id": 2106,
+      "name": "Puppy food",
+      "slug": "puppy-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=23664",
+  "shortDescription": "Royal Canin? Maxi Starter Mother and Baby is a complete dog feed for the large breed bitch (from 26 to 44 kg) and her puppies: bitch at the end of gestation and during lactation – Weaning puppies up to 2 months old.",
+  "description": "It?s very important that your large breed dog and her puppies receive the right level of nutritional support to maintain continued good health for the mother, and the best start possible for her puppies. ROYAL CANIN? Maxi Starter Mother & Babydog is suitable for your dog throughout the gestation and lactation periods, as well as for large breed puppies that will have an adult weight between 26kg and 44kg. As the puppies transition from mother?s milk onto solid food, ROYAL CANIN? Maxi Starter Mother & Babydog provides a suitable intermediary formulation of nutrients to facilitate this first period of growth and change. When mixed with water, the kibble is easy to rehydrate to a porridge-like consistency which is very palatable for your dog, as well as the puppies. ROYAL CANIN? Maxi Starter Mother & Babydog is suitable for your dog throughout the gestation and lactation periods, as well as large puppies that will have an adult weight between 26kg-44kg. COMPOSITION: rice, dehydrated poultry protein, animal fats, vegetable protein isolate*, hydrolysed animal proteins, maize, beet pulp, minerals, soya oil, vegetable fibres, fish oil, fatty acid salt, fructo-oligo-saccharides, psyllium husks and seeds, hydrolysed yeast (source of manno-oligo-saccharides and beta-glucans), marigold extract (source of lutein). ADDITIVES (per kg): Nutritional additives: Vitamin A: 13900 IU, Vitamin D3: 1200 IU, Beta-carotene: 40 mg, E1 (Iron): 48 mg, E2 (Iodine): 3.7 mg, E4 (Copper): 8 mg, E5 (Manganese): 63 mg, E6 (Zinc): 206 mg, E8 (Selenium): 0.08 mg - Preservatives - Antioxidants. ANALYTICAL CONSTITUENTS: Protein: 30% - Fat content: 22% - Crude ash: 6.9% - Crude fibres: 1.8%.*L.I.P.: protein selected for its very high assimilation.",
+  "images": [
+    {
+      "id": 23686,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-SHMX-043.jpg",
+      "alt": "Royal Canin Maxi Starter Mother & Baby 4kg",
+      "name": "ROC-SHMX-043.jpg"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/maxi-starter-mb-4kg/?add-to-cart=23664",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2021-10-08T11:34:44",
+  "dateModified": "2026-06-17T04:23:42",
+  "brand": "Royal Canin",
+  "weight_kg": 4,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-SHMX-043.jpg"
+}

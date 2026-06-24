@@ -1,0 +1,88 @@
+{
+  "id": 25979,
+  "name": "Unique Veterinary Prescription Diet Adult Dog Hepatic Vegetable & Turkey 3kg",
+  "slug": "unique-veterinary-prescription-diet-adult-dog-hepatik-vegetable-turkey-3kg",
+  "sku": "UDD001",
+  "onSale": false,
+  "price": 5421,
+  "regularPrice": 5421,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/03/UDD001.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2127,
+      "name": "Unique",
+      "slug": "unique"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2474,
+      "name": "Unique",
+      "slug": "unique"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 2319,
+      "name": "Veterinary Range",
+      "slug": "veterinary-range"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=25979",
+  "shortDescription": "Formulated to support dogs liver health and for nutritional management of liver disease. It supports the treatment of acute and chronic liver issues by protecting vital liver functions. It is specially formulated from protein sources that promote liver health and limit extreme weight loss for dogs with chronic liver disease.",
+  "description": "How it works: ? Protection of kidneys as well as liver thanks to its limited sodium, phosphorus, and copper content, ? Low ammonia formation with high quality, specially selected and balanced protein sources, ? Thistle seed (liver cell regenerative and protective), ? L-Carnitine (effective use of energy), ? Content rich in probiotics and prebiotics. ? Rich fibre content (healthy digestion) Ingredients: Peas, Sweet Potatoes, Eggs, Apple Pulp, Brown Rice, Hydrolyzed Turkey Protein, Chicken Oil, Fish Protein, Fish Oil, Hydrolyzed Chicken Liver, Oatmeal, Vitamin and Mineral Premix, Natural Flavors, Probiotic, Dried Algae, MOS, ?- Glucan, Tocopherol, Yucca, Thistle, Wild Sea buckthorn. Raw Material Components Raw Protein 18.15% Raw oil 14.85% Raw Cellulose (Fiber) 3.65% Ash 5.37% Moisture 6.75% Omega 3 0.58% Omega 6 2.22% Calcium 0.69% Phosphorus 0.55% Sodium 0.26% Magnesium 0.01% Total Copper 3.6ppm Nutritional Supplements Vitamin A (3a672a) 26,000 IU/kg Vitamin D 3 (E671) 1.800 IU/kg Vitamin E (3a700) 1.000 mg/kg Vitamin C (3a312) 600mg/kg Choline Chloride (3a890) 750mg/kg Biotin (3a880) 3,5 mg/kg Vitamin B 1 (3a821) 2.5 mg/kg Vitamin B2 9.5 mg/kg Niacinamide (3a315) 32mg/kg Calcium-D-Panthothenate (3a841) 25mg/kg Vitamin B 6 (3a831) 2.5 mg/kg Folic Acid (3a316) 1.3 mg/kg Vitamin B 12 0.12 mg/kg Zinc Chelate of Amino Acids Hydrate (3b606) 150mg/kg Ferrous Chelate of Amino Acids Hydrate (E1) 90mg/kg Manganese Chelate of Amino Acids Hydrate (E5) 45mg/kg Potassium Iodide (3b201) 0.85 mg/kg Cupric Chelate of Amino Acids Hydrate (E4) 20mg/kg Organic Form of Selenium (3b8.10) 0.2mg/kg L-Carnitine (3a910) 350mg/kg Probiotic (B. Amyloliquefaciens) 7 x 10 14 /kg",
+  "images": [
+    {
+      "id": 25876,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/03/UDD001.jpg",
+      "alt": "Unique Veterinary Prescription Diet Adult Dog Hepatic Vegetable & Turkey 3kg",
+      "name": "UDD001"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/unique-veterinary-prescription-diet-adult-dog-hepatik-vegetable-turkey-3kg/?add-to-cart=25979",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-03-07T07:44:50",
+  "dateModified": "2026-06-24T16:12:31",
+  "brand": "Unique",
+  "weight_kg": 3,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/03/UDD001.jpg"
+}

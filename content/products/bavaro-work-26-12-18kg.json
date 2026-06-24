@@ -1,0 +1,83 @@
+{
+  "id": 23731,
+  "name": "Bavaro-Work 26/12 18kg",
+  "slug": "bavaro-work-26-12-18kg",
+  "sku": "JDBW",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JDBW.jpg",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2444,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=23731",
+  "shortDescription": "The energy and protein content of BAVARO Work is tailored to working dogs facing constant demands. For Performance & activity. Complete feed for adult dogs.",
+  "description": "Composition: meat and animal by-products, cereals, vegetable by-products; oils and fats; minerals. Protein 26% Fat content 12%, Crude fibre 2.3%, Crude ash 8.0%, Calcium 1.9%, Phosphorus 1.4%, Metabolisable energy* MJ/kg15.25 Metabolisable energy* kcal/kg3646 Product Details: The energy and protein content of BAVARO Work is tailored to working dogs facing constant demands. For Performance & activity. Complete feed for adult dogs.",
+  "images": [
+    {
+      "id": 23777,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JDBW.jpg",
+      "alt": "Bavaro-Work 26/12 18kg",
+      "name": "JDBW.jpg"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/bavaro-work-26-12-18kg/?add-to-cart=23731",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2021-10-29T07:55:20",
+  "dateModified": "2026-06-17T04:33:51",
+  "brand": "Josera",
+  "weight_kg": 18,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JDBW.jpg"
+}

@@ -1,0 +1,77 @@
+{
+  "id": 54712,
+  "name": "Truly Lamb Mini Stick For Dog Training 90g",
+  "slug": "truly-lamb-mini-stick-for-dog-training-90g",
+  "sku": "TLSDT90G",
+  "onSale": false,
+  "price": 460,
+  "regularPrice": 460,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/04/Truly-Lamb-Mini-Sticks.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 2108,
+      "name": "Mini breeds",
+      "slug": "mini-breeds"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/truly-lamb-mini-stick-for-dog-training-90g/",
+  "shortDescription": "Make training time tastier with Truly Lamb Mini Sticks ! These bite-sized, high-protein treats are made with real lamb and are perfect for rewarding your dog during training sessions. With a delicious flavor your dog will love, they’re great for motivating and keeping your pup focused. Plus, they’re small enough for multiple rewards in one session!",
+  "description": "Make training time tastier with Truly Lamb Mini Sticks ! These bite-sized, high-protein treats are made with real lamb and are perfect for rewarding your dog during training sessions. With a delicious flavor your dog will love, they’re great for motivating and keeping your pup focused. Plus, they’re small enough for multiple rewards in one session!",
+  "images": [
+    {
+      "id": 54713,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/04/Truly-Lamb-Mini-Sticks.png",
+      "alt": "Truly Lamb Mini Stick For Dog Training 90g",
+      "name": "Truly Lamb Mini Sticks"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/truly-lamb-mini-stick-for-dog-training-90g/?add-to-cart=54712",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2025-04-16T10:57:03",
+  "dateModified": "2026-06-17T05:01:26",
+  "brand": null,
+  "weight_kg": 0.09,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/04/Truly-Lamb-Mini-Sticks.png"
+}

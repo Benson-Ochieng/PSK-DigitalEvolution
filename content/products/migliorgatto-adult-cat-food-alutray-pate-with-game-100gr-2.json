@@ -1,0 +1,51 @@
+{
+  "id": 40822,
+  "name": "Miglior Cat Food Game Alutray - 100g",
+  "slug": "migliorgatto-adult-cat-food-alutray-pate-with-game-100gr-2",
+  "sku": "MCW011@F",
+  "onSale": true,
+  "price": 127,
+  "regularPrice": 195,
+  "salePrice": 127,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW011.jpg",
+  "categories": [
+    {
+      "id": 2163,
+      "name": "Miglior",
+      "slug": "miglior"
+    }
+  ],
+  "brands": [],
+  "tags": [],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=40822",
+  "shortDescription": "(4 pieces minimum order) Formula designed to guarantee the key nutrients required for the well-being of your cat. Vitamin E with antioxidant action and a recipe rich in meat to help keep muscle mass toned.",
+  "description": "COMPOSITION : Meat and animal derivatives 50% (game 5%), minerals. ANALYTICAL CONSTITUENTS: Moisture 80%, Crude protein 11%, Crude fibres 0.5%, Crude fat 4%, Crude ash 1.8%. Nutritional additives / kg: Vitamin E 23.7 mg, Zinc (Zinc sulphate monohydrate) 2.1 mg, Copper (Copper sulphate pentahydrate) 2.0 mg, Manganese (Manganous sulphate monohydrate) 2.1 mg, Iodine (Potassium iodide) 0.4 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place.",
+  "images": [
+    {
+      "id": 28225,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW011.jpg",
+      "alt": "Migliorgatto Alutray PATE WITH GAME 100Gr",
+      "name": "MCW011"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/migliorgatto-adult-cat-food-alutray-pate-with-game-100gr-2/?add-to-cart=40822",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2023-11-08T09:15:55",
+  "dateModified": "2026-06-11T09:42:06",
+  "brand": null,
+  "weight_kg": 0.1,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW011.jpg"
+}

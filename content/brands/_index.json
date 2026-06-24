@@ -1,81 +1,81 @@
 [
   {
     "id": 10,
-    "name": "Reflex",
-    "slug": "reflex",
-    "desc": "Premium pet care products from Reflex."
-  },
-  {
-    "id": 11,
-    "name": "Josera",
-    "slug": "josera",
-    "desc": "Premium pet care products from Josera."
-  },
-  {
-    "id": 12,
-    "name": "Bonnie",
-    "slug": "bonnie",
-    "desc": "Premium pet care products from Bonnie."
-  },
-  {
-    "id": 13,
-    "name": "Rogz",
-    "slug": "rogz",
-    "desc": "Premium pet care products from Rogz."
-  },
-  {
-    "id": 14,
-    "name": "PetD",
-    "slug": "petd",
-    "desc": "Premium pet care products from PetD."
-  },
-  {
-    "id": 15,
     "name": "Spectrum",
     "slug": "spectrum",
     "desc": "Premium pet care products from Spectrum."
   },
   {
-    "id": 16,
-    "name": "Royal Canin",
-    "slug": "royal-canin",
-    "desc": "Premium pet care products from Royal Canin."
+    "id": 11,
+    "name": "Bonnie",
+    "slug": "bonnie",
+    "desc": "Premium pet care products from Bonnie."
   },
   {
-    "id": 17,
+    "id": 12,
+    "name": "Reflex",
+    "slug": "reflex",
+    "desc": "Premium pet care products from Reflex."
+  },
+  {
+    "id": 13,
     "name": "Proline",
     "slug": "proline",
     "desc": "Premium pet care products from Proline."
   },
   {
+    "id": 14,
+    "name": "Bravecto",
+    "slug": "bravecto",
+    "desc": "Premium pet care products from Bravecto."
+  },
+  {
+    "id": 15,
+    "name": "Vitabiotics",
+    "slug": "vitabiotics",
+    "desc": "Premium pet care products from Vitabiotics."
+  },
+  {
+    "id": 16,
+    "name": "Grounded",
+    "slug": "grounded",
+    "desc": "Premium pet care products from Grounded."
+  },
+  {
+    "id": 17,
+    "name": "Royal Canin",
+    "slug": "royal-canin",
+    "desc": "Premium pet care products from Royal Canin."
+  },
+  {
     "id": 18,
-    "name": "CS",
-    "slug": "cs",
-    "desc": "Premium pet care products from CS."
+    "name": "Josera",
+    "slug": "josera",
+    "desc": "Premium pet care products from Josera."
   },
   {
     "id": 19,
-    "name": "Lara",
-    "slug": "lara",
-    "desc": "Premium pet care products from Lara."
+    "name": "CatPlus",
+    "slug": "catplus",
+    "desc": "Premium pet care products from CatPlus."
   },
   {
     "id": 20,
-    "name": "Truly",
-    "slug": "truly",
-    "desc": "Premium pet care products from Truly."
+    "name": "Frontline",
+    "slug": "frontline",
+    "desc": "Premium pet care products from Frontline."
   },
   {
     "id": 21,
-    "name": "Wanpy",
-    "slug": "wanpy",
-    "desc": "Premium pet care products from Wanpy."
+    "name": "NexGard",
+    "slug": "nexgard",
+    "desc": "Premium pet care products from NexGard."
   },
   {
     "id": 22,
-    "name": "Ultimates",
-    "slug": "ultimates",
-    "desc": "Premium pet care products from Ultimates."
+    "name": "Unique",
+    "slug": "unique",
+    "desc": "Premium pet care products from Unique."
   },
   {
     "id": 23,
@@ -85,56 +85,260 @@
   },
   {
     "id": 24,
+    "name": "Maasai Treads",
+    "slug": "maasai-treads",
+    "desc": "Premium pet care products from Maasai Treads."
+  },
+  {
+    "id": 25,
+    "name": "VitaHealth",
+    "slug": "vitahealth",
+    "desc": "Premium pet care products from VitaHealth."
+  },
+  {
+    "id": 26,
+    "name": "Trendline",
+    "slug": "trendline",
+    "desc": "Premium pet care products from Trendline."
+  },
+  {
+    "id": 27,
+    "name": "Thunder",
+    "slug": "thunder",
+    "desc": "Premium pet care products from Thunder."
+  },
+  {
+    "id": 28,
+    "name": "Maasai Shukas",
+    "slug": "maasai-shukas",
+    "desc": "Premium pet care products from Maasai Shukas."
+  },
+  {
+    "id": 29,
+    "name": "SF",
+    "slug": "sf",
+    "desc": "Premium pet care products from SF."
+  },
+  {
+    "id": 30,
+    "name": "CS",
+    "slug": "cs",
+    "desc": "Premium pet care products from CS."
+  },
+  {
+    "id": 31,
+    "name": "Dream",
+    "slug": "dream",
+    "desc": "Premium pet care products from Dream."
+  },
+  {
+    "id": 32,
+    "name": "Catonite",
+    "slug": "catonite",
+    "desc": "Premium pet care products from Catonite."
+  },
+  {
+    "id": 33,
+    "name": "PetD",
+    "slug": "petd",
+    "desc": "Premium pet care products from PetD."
+  },
+  {
+    "id": 34,
+    "name": "Bags-o-wags",
+    "slug": "bags-o-wags",
+    "desc": "Premium pet care products from Bags-o-wags."
+  },
+  {
+    "id": 35,
+    "name": "Montego",
+    "slug": "montego",
+    "desc": "Premium pet care products from Montego."
+  },
+  {
+    "id": 36,
+    "name": "Pestigon",
+    "slug": "pestigon",
+    "desc": "Premium pet care products from Pestigon."
+  },
+  {
+    "id": 37,
+    "name": "Simparica",
+    "slug": "simparica",
+    "desc": "Premium pet care products from Simparica."
+  },
+  {
+    "id": 38,
+    "name": "MPETS",
+    "slug": "mpets",
+    "desc": "Premium pet care products from MPETS."
+  },
+  {
+    "id": 39,
     "name": "Miglior",
     "slug": "miglior",
     "desc": "Premium pet care products from Miglior."
   },
   {
-    "id": 25,
-    "name": "Felix",
-    "slug": "felix",
-    "desc": "Premium pet care products from Felix."
+    "id": 40,
+    "name": "Truly",
+    "slug": "truly",
+    "desc": "Premium pet care products from Truly."
   },
   {
-    "id": 26,
+    "id": 41,
+    "name": "Ultimates",
+    "slug": "ultimates",
+    "desc": "Premium pet care products from Ultimates."
+  },
+  {
+    "id": 42,
+    "name": "Lara",
+    "slug": "lara",
+    "desc": "Premium pet care products from Lara."
+  },
+  {
+    "id": 43,
+    "name": "Friskies",
+    "slug": "friskies",
+    "desc": "Premium pet care products from Friskies."
+  },
+  {
+    "id": 44,
+    "name": "Mio",
+    "slug": "mio",
+    "desc": "Premium pet care products from Mio."
+  },
+  {
+    "id": 45,
+    "name": "Chuck",
+    "slug": "chuck",
+    "desc": "Premium pet care products from Chuck."
+  },
+  {
+    "id": 46,
+    "name": "Soup Time",
+    "slug": "soup-time",
+    "desc": "Premium pet care products from Soup Time."
+  },
+  {
+    "id": 47,
+    "name": "Ferplast",
+    "slug": "ferplast",
+    "desc": "Premium pet care products from Ferplast."
+  },
+  {
+    "id": 48,
     "name": "Whiskas",
     "slug": "whiskas",
     "desc": "Premium pet care products from Whiskas."
   },
   {
-    "id": 27,
-    "name": "Simba",
-    "slug": "simba",
-    "desc": "Premium pet care products from Simba."
-  },
-  {
-    "id": 28,
-    "name": "Bravecto",
-    "slug": "bravecto",
-    "desc": "Premium pet care products from Bravecto."
-  },
-  {
-    "id": 29,
+    "id": 49,
     "name": "Churu",
     "slug": "churu",
     "desc": "Premium pet care products from Churu."
   },
   {
-    "id": 30,
-    "name": "Grounded",
-    "slug": "grounded",
-    "desc": "Premium pet care products from Grounded."
+    "id": 50,
+    "name": "Wanpy",
+    "slug": "wanpy",
+    "desc": "Premium pet care products from Wanpy."
   },
   {
-    "id": 31,
-    "name": "Generic",
-    "slug": "generic",
-    "desc": "Premium pet care products from Generic."
+    "id": 51,
+    "name": "Belcando",
+    "slug": "belcando",
+    "desc": "Premium pet care products from Belcando."
   },
   {
-    "id": 32,
-    "name": "Ferplast",
-    "slug": "ferplast",
-    "desc": "Premium pet care products from Ferplast."
+    "id": 52,
+    "name": "Bewi",
+    "slug": "bewi",
+    "desc": "Premium pet care products from Bewi."
+  },
+  {
+    "id": 53,
+    "name": "Popvet",
+    "slug": "popvet",
+    "desc": "Premium pet care products from Popvet."
+  },
+  {
+    "id": 54,
+    "name": "Pride & Groom",
+    "slug": "pride-groom",
+    "desc": "Premium pet care products from Pride & Groom."
+  },
+  {
+    "id": 55,
+    "name": "Felix",
+    "slug": "felix",
+    "desc": "Premium pet care products from Felix."
+  },
+  {
+    "id": 56,
+    "name": "Zerokrim CH",
+    "slug": "zerokrim-ch",
+    "desc": "Premium pet care products from Zerokrim CH."
+  },
+  {
+    "id": 57,
+    "name": "Snappy Tom",
+    "slug": "snappy-tom",
+    "desc": "Premium pet care products from Snappy Tom."
+  },
+  {
+    "id": 58,
+    "name": "Dashi",
+    "slug": "dashi",
+    "desc": "Premium pet care products from Dashi."
+  },
+  {
+    "id": 59,
+    "name": "J4D",
+    "slug": "j4d",
+    "desc": "Premium pet care products from J4D."
+  },
+  {
+    "id": 60,
+    "name": "Karoo Wild",
+    "slug": "karoo-wild",
+    "desc": "Premium pet care products from Karoo Wild."
+  },
+  {
+    "id": 61,
+    "name": "Astonish",
+    "slug": "astonish",
+    "desc": "Premium pet care products from Astonish."
+  },
+  {
+    "id": 62,
+    "name": "Inaba",
+    "slug": "inaba",
+    "desc": "Premium pet care products from Inaba."
+  },
+  {
+    "id": 63,
+    "name": "Tofu",
+    "slug": "tofu",
+    "desc": "Premium pet care products from Tofu."
+  },
+  {
+    "id": 64,
+    "name": "Pedigree",
+    "slug": "pedigree",
+    "desc": "Premium pet care products from Pedigree."
+  },
+  {
+    "id": 65,
+    "name": "Leonardo",
+    "slug": "leonardo",
+    "desc": "Premium pet care products from Leonardo."
+  },
+  {
+    "id": 66,
+    "name": "Simba",
+    "slug": "simba",
+    "desc": "Premium pet care products from Simba."
   }
 ]

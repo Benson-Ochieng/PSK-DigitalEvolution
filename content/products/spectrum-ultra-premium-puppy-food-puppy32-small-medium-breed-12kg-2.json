@@ -1,12 +1,12 @@
 {
   "id": 42134,
-  "name": "SHORT EXPIRY – CLEARANCE: Spectrum Ultra Premium Puppy Food – Puppy 32 Small / Medium Breed 12kg",
+  "name": "SHORT EXPIRY - CLEARANCE: Spectrum Ultra Premium Puppy Food - Puppy 32 Small / Medium Breed 12kg",
   "slug": "spectrum-ultra-premium-puppy-food-puppy32-small-medium-breed-12kg-2",
   "sku": "SDD010@SE",
   "onSale": true,
-  "price": 104.65,
-  "regularPrice": 149.5,
-  "salePrice": 104.65,
+  "price": 10465,
+  "regularPrice": 14950,
+  "salePrice": 10465,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2017/07/Untitled-design-1-1-e1712567716528.png",
@@ -32,19 +32,11 @@
       "slug": "spectrum"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/spectrum-ultra-premium-puppy-food-puppy32-small-medium-breed-12kg-2/",
-  "shortDescription": "SPECTRUM Puppy Food 32 provides comprehensive daily nutrition for small and medium breed puppies during their most important growth phase. Its advanced formula supports muscle strength, joint health, and immune protection , ensuring your puppy develops into a healthy, active adult. Perfectly balanced for dogs with an adult weight below 25kg, this ultra-premium diet fuels energy and well-being.",
-  "description": "SPECTRUM Puppy32 is a complete and balanced ultra premium puppy food formulated to meet the dietary needs of small / mini and medium breed puppies from 2 to 14 months (expected adult weight less than 25 kg). IDEAL MUSCLE DEVELOPMENT: The SQX concept in SPECTRUM Puppy32 is boosted by L-carnitine to ensure the lean body mass and ideal silhouette of your future adult dog. IMMUNITY SUPPORT: The inclusion of astaxanthin, a bioactive natural carotenoid, enhances local and general immunity. Astaxanthin has an antioxidant potential 500 times stronger than vitamin E and limits the impact of oxidative stress on the immune system. Astaxanthin in SPECTRUM Puppy32 modulates the immune response and contributes to counter the loss of maternal immunity in the growing puppy. MEMORY DEVELOPMENT: DHA in SPECTRUM Puppy32 is linked to a better ability to learn and memorize. DHA in dried Antarctic qrill has mainly a phospholipid structure. To be digested, phospholipids are dependent upon bile. Directly absorbed by the intestinal epithelia and distributed via blood plasma, qrill Omega 3 phospholipids offer a higher bioavailability than classical Omega 3 triglycerides. The brain absorbs 2.2 times more Omega 3 phospholipids than classical DHA triglycerides. DIGESTIVE SECURITY: XOS (Xylo-oligosaccharides) super prebiotics in SPECTRUM Puppy32 neutralise potential pathogenic bacteria and boost the local defenses or immunity by increasing the local production of antibodies. The intestinal tract is the first entry for pathogens. A boosted local immunity allows, especially in young animals, to avoid any damage to the intestinal wall. XOS stimulate the selective growth and activity of beneficial bacteria in the large intestine. Xylo-oligosaccharides in SPECTRUM Puppy32 limit energy wasting fermentation, which is often the source of digestive discomfort and flatulence. SYNOX 3D: a blend of natural, standardised GMO free &#8211; titrated plant extracts (Rosemary, grape seed, curcuma, citrus and cloves) clinical proven in cats to counter free radicals induced by oxidative cell damage . Free radicals are essential for life. However,?ageing is linked to an increased production of free radicals and a decreased ability to counter their negative effects on health and wellbeing. SYNOX 3D limits the production of malondialdehyde, one of the main toxic metabolites of oxidative stress, protecting cell membrane, mitochondria and genetic material of each individual cell. The unique composition of SYNOX 3D is the result of a screening process on 134 plant extracts, combined with trials in laboratory conditions and a successful clinical trial run in pets. Potential health benefits include increased resistance against oxidative stress, improved life-span and immune stimulation. Qrill: Antarctic qrill is a breakthrough ingredient providing a bioavailable matrix of proteins, omega-3 phospholipids and astaxanthin. Qrill or Euphausia superba phospholipids have been clinically proven to promote brain development, skin health, active joints and body composition. Xylo-oligsaccharides (XOS): super probiotics obtained by hydrolysis of corn cobs. XOS in the diet resists salivary, gastric and pancreatic enzymes. XOS limits energy wasting fermentation which is often the source of digestive discomfort and flatulence. The selective proliferation of Bifidobacteria and Lactobacilli, stimulates the synthesis of Short Chain Fatty Acids (SCFA) in the colon. The acidifying effect of SCFA counters potential pathogenic bacteria, promotes toxin neutralisation and keeps minerals in ionic configuration increasing bioavailability. SCFA serve as an available energy source to promote the regeneration of epithelial cell, increase the villus height, which induce larger area of epithelial villus cell could facilitate absorption of nutrients. Ingredients: Dehydrated chicken protein, brown rice, chicken oil, maize, dehydrated lamb meat protein, dried antarctic qrill (euphauisa superba) (4%), wheat, hydrolysed chicken liver, whey powder, carob flour, brewer&#8217;s yeast, L-carnitine, xylo-oligosaccharide (400 ppm), rosmarinus sp. &#8211; curcuma sp. &#8211; vitis sp.- citrus sp. &#8211; eugenia sp. (300 ppm). Additives: Vitamin A (E-672): 18000 IU/kg, Vitamin D3 (E-671): 1500 IU/kg, Vitamin E (3A700): 150 mg/kg, Vitamin C (E301): 200 mg/kg, Iron (E1): 150 mg/kg, Iodine (E2): 1.5 mg/kg, Copper (E4): 15 mg/kg, Manganese (E5): 70 mg/kg, Zinc (E6): 180 mg/kg, Selenium (E8): 0.3 mg/kg, Preservatives &#8211; Antioxidants. NUTRIENT COMPONENTS Protein&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;32% Fat &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;.. 16% Cellulose (Fiber)&#8230;..3.5%",
-  "images": [
+  "brands": [
     {
-      "id": 34106,
-      "alt": "Spectrum Ultra Premium Puppy Food – Puppy 32 Small / Medium Breed 12kg",
-      "src": "https://petstore.co.ke/wp-content/uploads/2017/07/Untitled-design-1-1-e1712567716528.png",
-      "name": "Untitled design (1) (1)"
+      "id": 2468,
+      "name": "Spectrum",
+      "slug": "spectrum"
     }
   ],
   "tags": [
@@ -84,20 +76,33 @@
       "slug": "small-breeds"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/spectrum-ultra-premium-puppy-food-puppy32-small-medium-breed-12kg-2/",
+  "shortDescription": "SPECTRUM Puppy Food 32 provides comprehensive daily nutrition for small and medium breed puppies during their most important growth phase. Its advanced formula supports muscle strength, joint health, and immune protection , ensuring your puppy develops into a healthy, active adult. Perfectly balanced for dogs with an adult weight below 25kg, this ultra-premium diet fuels energy and well-being.",
+  "description": "SPECTRUM Puppy32 is a complete and balanced ultra premium puppy food formulated to meet the dietary needs of small / mini and medium breed puppies from 2 to 14 months (expected adult weight less than 25 kg). IDEAL MUSCLE DEVELOPMENT: The SQX concept in SPECTRUM Puppy32 is boosted by L-carnitine to ensure the lean body mass and ideal silhouette of your future adult dog. IMMUNITY SUPPORT: The inclusion of astaxanthin, a bioactive natural carotenoid, enhances local and general immunity. Astaxanthin has an antioxidant potential 500 times stronger than vitamin E and limits the impact of oxidative stress on the immune system. Astaxanthin in SPECTRUM Puppy32 modulates the immune response and contributes to counter the loss of maternal immunity in the growing puppy. MEMORY DEVELOPMENT: DHA in SPECTRUM Puppy32 is linked to a better ability to learn and memorize. DHA in dried Antarctic qrill has mainly a phospholipid structure. To be digested, phospholipids are dependent upon bile. Directly absorbed by the intestinal epithelia and distributed via blood plasma, qrill Omega 3 phospholipids offer a higher bioavailability than classical Omega 3 triglycerides. The brain absorbs 2.2 times more Omega 3 phospholipids than classical DHA triglycerides. DIGESTIVE SECURITY: XOS (Xylo-oligosaccharides) super prebiotics in SPECTRUM Puppy32 neutralise potential pathogenic bacteria and boost the local defenses or immunity by increasing the local production of antibodies. The intestinal tract is the first entry for pathogens. A boosted local immunity allows, especially in young animals, to avoid any damage to the intestinal wall. XOS stimulate the selective growth and activity of beneficial bacteria in the large intestine. Xylo-oligosaccharides in SPECTRUM Puppy32 limit energy wasting fermentation, which is often the source of digestive discomfort and flatulence. SYNOX 3D: a blend of natural, standardised GMO free - titrated plant extracts (Rosemary, grape seed, curcuma, citrus and cloves) clinical proven in cats to counter free radicals induced by oxidative cell damage . Free radicals are essential for life. However,?ageing is linked to an increased production of free radicals and a decreased ability to counter their negative effects on health and wellbeing. SYNOX 3D limits the production of malondialdehyde, one of the main toxic metabolites of oxidative stress, protecting cell membrane, mitochondria and genetic material of each individual cell. The unique composition of SYNOX 3D is the result of a screening process on 134 plant extracts, combined with trials in laboratory conditions and a successful clinical trial run in pets. Potential health benefits include increased resistance against oxidative stress, improved life-span and immune stimulation. Qrill: Antarctic qrill is a breakthrough ingredient providing a bioavailable matrix of proteins, omega-3 phospholipids and astaxanthin. Qrill or Euphausia superba phospholipids have been clinically proven to promote brain development, skin health, active joints and body composition. Xylo-oligsaccharides (XOS): super probiotics obtained by hydrolysis of corn cobs. XOS in the diet resists salivary, gastric and pancreatic enzymes. XOS limits energy wasting fermentation which is often the source of digestive discomfort and flatulence. The selective proliferation of Bifidobacteria and Lactobacilli, stimulates the synthesis of Short Chain Fatty Acids (SCFA) in the colon. The acidifying effect of SCFA counters potential pathogenic bacteria, promotes toxin neutralisation and keeps minerals in ionic configuration increasing bioavailability. SCFA serve as an available energy source to promote the regeneration of epithelial cell, increase the villus height, which induce larger area of epithelial villus cell could facilitate absorption of nutrients. Ingredients: Dehydrated chicken protein, brown rice, chicken oil, maize, dehydrated lamb meat protein, dried antarctic qrill (euphauisa superba) (4%), wheat, hydrolysed chicken liver, whey powder, carob flour, brewer's yeast, L-carnitine, xylo-oligosaccharide (400 ppm), rosmarinus sp. - curcuma sp. - vitis sp.- citrus sp. - eugenia sp. (300 ppm). Additives: Vitamin A (E-672): 18000 IU/kg, Vitamin D3 (E-671): 1500 IU/kg, Vitamin E (3A700): 150 mg/kg, Vitamin C (E301): 200 mg/kg, Iron (E1): 150 mg/kg, Iodine (E2): 1.5 mg/kg, Copper (E4): 15 mg/kg, Manganese (E5): 70 mg/kg, Zinc (E6): 180 mg/kg, Selenium (E8): 0.3 mg/kg, Preservatives - Antioxidants. NUTRIENT COMPONENTS Protein.....................32% Fat .......................... 16% Cellulose (Fiber).....3.5%",
+  "images": [
     {
-      "id": 2468,
-      "name": "Spectrum",
-      "slug": "spectrum"
+      "id": 34106,
+      "src": "https://petstore.co.ke/wp-content/uploads/2017/07/Untitled-design-1-1-e1712567716528.png",
+      "alt": "Spectrum Ultra Premium Puppy Food – Puppy 32 Small / Medium Breed 12kg",
+      "name": "Untitled design (1) (1)"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=42134",
+  "addToCartUrl": "https://petstore.co.ke/product/spectrum-ultra-premium-puppy-food-puppy32-small-medium-breed-12kg-2/?add-to-cart=42134",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.342Z",
-  "dateModified": "2026-06-23T09:15:51.342Z"
+  "dateCreated": "2023-12-08T12:08:03",
+  "dateModified": "2026-06-23T12:24:37",
+  "brand": "Spectrum",
+  "weight_kg": 12,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2017/07/Untitled-design-1-1-e1712567716528.png"
 }

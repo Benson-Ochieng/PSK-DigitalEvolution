@@ -1,0 +1,78 @@
+{
+  "id": 27334,
+  "name": "Mpets Double Ended Dog Toothbrush",
+  "slug": "mpets-double-ended-dog-toothbrush",
+  "sku": "MPDETB",
+  "onSale": false,
+  "price": 500,
+  "regularPrice": 500,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/MPDETB.jpg",
+  "categories": [
+    {
+      "id": 2399,
+      "name": "Dental Care",
+      "slug": "dental-care"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2360,
+      "name": "Dog Grooming & Cleaning",
+      "slug": "dog-grooming-cleaning-supplies"
+    },
+    {
+      "id": 2135,
+      "name": "MPETS",
+      "slug": "mpets"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2454,
+      "name": "MPETS",
+      "slug": "mpets"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1824,
+      "name": "dental care",
+      "slug": "dental-care"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/mpets-double-ended-dog-toothbrush/",
+  "shortDescription": "Mpets Double Ended Dog Toothbrush",
+  "description": "Mpets Double Ended Dog Toothbrush 2x22cm",
+  "images": [
+    {
+      "id": 27326,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPDETB.jpg",
+      "alt": "Mpets Double Ended Dog Toothbrush",
+      "name": "MPDETB"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/mpets-double-ended-dog-toothbrush/?add-to-cart=27334",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-04-20T16:20:40",
+  "dateModified": "2026-06-17T04:28:47",
+  "brand": "MPETS",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPDETB.jpg"
+}

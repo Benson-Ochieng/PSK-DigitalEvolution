@@ -4,8 +4,8 @@
   "slug": "grounded-all-natural-non-toxic-cleaner-500ml",
   "sku": "SEV-0.5-",
   "onSale": false,
-  "price": 5.75,
-  "regularPrice": 5.75,
+  "price": 575,
+  "regularPrice": 575,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -22,19 +22,11 @@
       "slug": "human"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/grounded-all-natural-non-toxic-cleaner-500ml/",
-  "shortDescription": "Everyday surface spray. Deodorizes &amp; degreases. Powered by citrus concentrate, this everyday cleanser is great for kitchens and bathrooms. It contains limonene, a chemical from citrus peels that’s a powerful degreaser/solvent.",
-  "description": "Our soap-based spray is ready to tackle serious messes. Powered by Castile soap and boosted with germ fighting essential oils for fresh countertops. It is a deep cleaning spray that kills germs, cleans stains and neutralizes the toughest of odors. Use it for cleaning of carpets, kennels, utensils and surfaces. Formerly Spray-Deep, now Surface Cleaner Extra Strength. Instructions: Shake gently. Spray onto surface &amp; wipe with damp cloth. A little goes a long way! Ingredients: Saponified Coconut, Canola, Sunflower Oils; Citric Acid, Sodium Bicarbonate, Lemongrass, Eucalyptus &amp; Tea Tree Essential Oils Proudly MADE IN KENYA by Grounded",
-  "images": [
+  "brands": [
     {
-      "id": 34525,
-      "alt": "Grounded Surface Cleaner- Everyday 500ml",
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/11/GROUNDED-SPRAY-DEEP.jpg",
-      "name": "GROUNDED SPRAY DEEP"
+      "id": 2441,
+      "name": "Grounded",
+      "slug": "grounded"
     }
   ],
   "tags": [
@@ -44,20 +36,33 @@
       "slug": "human"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/grounded-all-natural-non-toxic-cleaner-500ml/",
+  "shortDescription": "Everyday surface spray. Deodorizes & degreases. Powered by citrus concentrate, this everyday cleanser is great for kitchens and bathrooms. It contains limonene, a chemical from citrus peels that’s a powerful degreaser/solvent.",
+  "description": "Our soap-based spray is ready to tackle serious messes. Powered by Castile soap and boosted with germ fighting essential oils for fresh countertops. It is a deep cleaning spray that kills germs, cleans stains and neutralizes the toughest of odors. Use it for cleaning of carpets, kennels, utensils and surfaces. Formerly Spray-Deep, now Surface Cleaner Extra Strength. Instructions: Shake gently. Spray onto surface & wipe with damp cloth. A little goes a long way! Ingredients: Saponified Coconut, Canola, Sunflower Oils; Citric Acid, Sodium Bicarbonate, Lemongrass, Eucalyptus & Tea Tree Essential Oils Proudly MADE IN KENYA by Grounded",
+  "images": [
     {
-      "id": 2441,
-      "name": "Grounded",
-      "slug": "grounded"
+      "id": 34525,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/11/GROUNDED-SPRAY-DEEP.jpg",
+      "alt": "Grounded Surface Cleaner- Everyday 500ml",
+      "name": "GROUNDED SPRAY DEEP"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 2,
+  "lowStockRemaining": 10,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=1&#038;add-to-cart=16368",
+  "addToCartUrl": "https://petstore.co.ke/product/grounded-all-natural-non-toxic-cleaner-500ml/?add-to-cart=16368",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.096Z",
-  "dateModified": "2026-06-23T09:15:51.096Z"
+  "dateCreated": "2020-11-26T00:12:58",
+  "dateModified": "2026-06-17T04:29:28",
+  "brand": "Grounded",
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/11/GROUNDED-SPRAY-DEEP.jpg"
 }

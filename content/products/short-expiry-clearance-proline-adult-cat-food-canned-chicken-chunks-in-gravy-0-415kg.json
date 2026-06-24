@@ -1,0 +1,108 @@
+{
+  "id": 18385,
+  "name": "SHORT EXPIRY - CLEARANCE Proline Adult Cat Food Canned - Chicken Chunks in Gravy 0.415kg",
+  "slug": "short-expiry-clearance-proline-adult-cat-food-canned-chicken-chunks-in-gravy-0-415kg",
+  "sku": "PCCFCG0.415@SE",
+  "onSale": false,
+  "price": 0,
+  "regularPrice": 0,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/11/Proline-Adult-Cat-Can-Chicken-Chunks-in-Jelly-400g-1080x1080-min.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 1304,
+      "name": "Clearance",
+      "slug": "clearance"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 796,
+      "name": "Proline",
+      "slug": "proline"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2298,
+      "name": "Proline",
+      "slug": "proline"
+    }
+  ],
+  "tags": [
+    {
+      "id": 622,
+      "name": "canned food",
+      "slug": "canned-food"
+    },
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 621,
+      "name": "wet food",
+      "slug": "wet-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=18385",
+  "shortDescription": "Fully balanced all-natural wet cat food with chicken protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult cats.",
+  "description": "Proline Adult Cat Food Canned - Chicken Chunks in Gravy , fully balanced all-natural cat food with chicken protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult cats. NUTRIENT COMPONENTS Protein * ???...???.? 6.5% Fat ????????.?...? 3.5% Crude Ash ???????? 2% Crude Cellulose (Fiber) ?. 0.3% Moisture ........?. 82% INGREDIENTS: Meat and animal derivatives (4% chicken), cereals, minerals, vegetable by-products, sugar. MINERALS: Biotin, Taurine, Zinc, Manganese, Copper. VITAMINS: Vit. D3, Vit. E.",
+  "images": [
+    {
+      "id": 3918,
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/11/Proline-Adult-Cat-Can-Chicken-Chunks-in-Jelly-400g-1080x1080-min.png",
+      "alt": "Proline Adult Cat Can Chicken Chunks in Jelly 400g 1080x1080 min",
+      "name": "Proline Adult Cat Can Chicken Chunks in Jelly 400g 1080&#215;1080 min"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-proline-adult-cat-food-canned-chicken-chunks-in-gravy-0-415kg/?add-to-cart=18385",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2021-02-01T15:25:16",
+  "dateModified": "2026-05-06T17:07:09",
+  "brand": "Proline",
+  "weight_kg": 0.415,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/11/Proline-Adult-Cat-Can-Chicken-Chunks-in-Jelly-400g-1080x1080-min.png"
+}

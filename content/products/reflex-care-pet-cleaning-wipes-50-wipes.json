@@ -1,0 +1,78 @@
+{
+  "id": 51515,
+  "name": "Reflex Care Pet Cleaning Wipes 50 wipes",
+  "slug": "reflex-care-pet-cleaning-wipes-50-wipes",
+  "sku": "RCPC002",
+  "onSale": false,
+  "price": 710,
+  "regularPrice": 710,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CARE-PET-CLEANING-TOWEL-50-TOWELS.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2360,
+      "name": "Dog Grooming & Cleaning",
+      "slug": "dog-grooming-cleaning-supplies"
+    },
+    {
+      "id": 2393,
+      "name": "Dog Hygiene & Potty Solutions",
+      "slug": "dog-hygiene-potty-solutions"
+    },
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2462,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2098,
+      "name": "Grooming & Tools",
+      "slug": "grooming-tools"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/reflex-care-pet-cleaning-wipes-50-wipes/",
+  "shortDescription": "Reflex Pet Wipes are an easy, effective solution for keeping your pet clean and fresh between baths. These gentle wipes are designed to quickly remove dirt, odors, and debris from your pet’s coat, paws, and skin. Ideal for pets of all sizes and types, including dogs and cats, these wipes help maintain your pet’s hygiene and promote a healthy, shiny coat. 50pcs 9cmx7.5cm",
+  "description": "Reflex Pet Wipes are free from harsh chemicals, making them safe for sensitive skin. They are enriched with soothing aloe vera and vitamin E to nourish and moisturize the skin while cleaning, ensuring your pet stays comfortable and happy. Whether you’re cleaning your pet’s paws after a walk, wiping away dander, or freshening up your pet in between grooming sessions, these wipes offer a quick and convenient solution for pet parents. With its neutral pH value, it is gentle on skin and fur. It prevents bad odors with baby powder. It does not contain alcohol, parabens, SLES, or SLS. Content Information Ingredients : Aqua, Phenoxyethanol, Monopropylene Glycol, Polyquaternium-7, Cetearyl Isononanoate, Ceteareth-20, Cetearyl Alcohol, Glyceryl Stearate, Glycerin, Ceteareth-12, Cetyl Palmitate, Benzalkonium Chloride, Ethylhexylglycerin, Parfum. Key Features: Gentle & Safe: Non-toxic, alcohol-free, and suitable for sensitive skin. Multipurpose Use: Ideal for wiping paws, coats, ears, and faces. Convenient & Easy to Use: Quick cleaning on-the-go or at home, no need for water. Fresh Scent: Leaves your pet smelling fresh without overpowering fragrances. .",
+  "images": [
+    {
+      "id": 51518,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CARE-PET-CLEANING-TOWEL-50-TOWELS.png",
+      "alt": "Reflex Care Pet Cleaning Wipes 50 wipes",
+      "name": "REFLEX CARE PET CLEANING TOWEL (50 TOWELS)"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-care-pet-cleaning-wipes-50-wipes/?add-to-cart=51515",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2024-11-13T11:22:12",
+  "dateModified": "2026-06-17T04:28:56",
+  "brand": "Reflex",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CARE-PET-CLEANING-TOWEL-50-TOWELS.png"
+}

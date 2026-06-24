@@ -1,0 +1,87 @@
+{
+  "id": 27004,
+  "name": "Mpets Sway Cat Toy Tasty Treat Dispenser",
+  "slug": "mpets-sway-cat-toy-tasty-treat-dispenser",
+  "sku": "MPSCTTD",
+  "onSale": false,
+  "price": 450,
+  "regularPrice": 450,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/MPSCTTD.jpg",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2342,
+      "name": "Cat Toys",
+      "slug": "cat-toys"
+    },
+    {
+      "id": 2330,
+      "name": "Cat Treats",
+      "slug": "cat-treats"
+    },
+    {
+      "id": 2135,
+      "name": "MPETS",
+      "slug": "mpets"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 2032,
+      "name": "Toys",
+      "slug": "toys"
+    },
+    {
+      "id": 1156,
+      "name": "treats",
+      "slug": "treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27004",
+  "shortDescription": "Mpets Sway Cat Toy Tasty Treat Dispenser",
+  "description": "Mpets Sway Cat Toy Tasty Treat Dispenser 13,5 x 9,5 x 16,8 cm",
+  "images": [
+    {
+      "id": 27005,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPSCTTD.jpg",
+      "alt": "Mpets Sway Cat Toy Tasty Treat Dispenser",
+      "name": "MPSCTTD"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/mpets-sway-cat-toy-tasty-treat-dispenser/?add-to-cart=27004",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2022-04-20T16:20:54",
+  "dateModified": "2026-05-06T17:08:03",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPSCTTD.jpg"
+}

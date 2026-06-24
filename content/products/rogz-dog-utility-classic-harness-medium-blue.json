@@ -4,8 +4,8 @@
   "slug": "rogz-dog-utility-classic-harness-medium-blue",
   "sku": "SJ11-B",
   "onSale": false,
-  "price": 28,
-  "regularPrice": 28,
+  "price": 2800,
+  "regularPrice": 2800,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,6 +32,14 @@
       "slug": "rogz"
     }
   ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2318,
+      "name": "Harnesses",
+      "slug": "harness"
+    }
+  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
@@ -42,26 +50,23 @@
   "images": [
     {
       "id": 46445,
-      "alt": "Rogz Dog Utility Classic Harness Large Blue (Sj06-B)",
       "src": "https://petstore.co.ke/wp-content/uploads/2024/04/SJ11-B_Utility-Classic-Harness_M_Blue-420x420-1.jpg",
+      "alt": "Rogz Dog Utility Classic Harness Large Blue (Sj06-B)",
       "name": "SJ11-B_Utility-Classic-Harness_M_Blue-420&#215;420"
     }
   ],
-  "tags": [
-    {
-      "id": 2318,
-      "name": "Harnesses",
-      "slug": "harness"
-    }
-  ],
-  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=4&#038;add-to-cart=46444",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-classic-harness-medium-blue/?add-to-cart=46444",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.395Z",
-  "dateModified": "2026-06-23T09:15:51.395Z"
+  "dateCreated": "2024-04-26T15:52:23",
+  "dateModified": "2026-06-17T04:14:37",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/SJ11-B_Utility-Classic-Harness_M_Blue-420x420-1.jpg"
 }

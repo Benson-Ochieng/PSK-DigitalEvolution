@@ -1,0 +1,73 @@
+{
+  "id": 45023,
+  "name": "Frontline Plus Dog Small 1 pip",
+  "slug": "frontline-plus-dog-s-1-pip",
+  "sku": "FPDS@F",
+  "onSale": false,
+  "price": 1250,
+  "regularPrice": 1250,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/FPDS1.jpg",
+  "categories": [
+    {
+      "id": 2124,
+      "name": "Frontline",
+      "slug": "frontline"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2440,
+      "name": "Frontline",
+      "slug": "frontline"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1149,
+      "name": "flea & tick",
+      "slug": "flea-tick"
+    },
+    {
+      "id": 2288,
+      "name": "Medicine",
+      "slug": "medicine"
+    },
+    {
+      "id": 1148,
+      "name": "pet care",
+      "slug": "pet-care"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=45023",
+  "shortDescription": "Contains?Fipronil, which Kills adult fleas and ticks for 30 days and decimates flea eggs and larvae.",
+  "description": "FRONTLINE Plus Flea and Tick Treatment for Dogs and Cats is a fast-acting, long-lasting and waterproof flea and tick protection proven to kill fleas, flea eggs, lice and ticks. Designed for dogs and cats eight weeks of age and older. Stored in the oil glands of your pet's skin, one easy topical application works for 30 days. - Provides fast-acting, long-lasting flea and tick protection for pets 8 weeks or older - Kills adult fleas, ticks, chewing lice, mites, and flea eggs and larvae - Waterproof 24 hours after application - Easy to apply for once a month for lasting protection - For best results, apply every month.",
+  "images": [
+    {
+      "id": 24632,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/FPDS1.jpg",
+      "alt": "Frontline Plus Dog Spot-On (Fipronil) for Small Dogs Up to 10 kg – 1 Pipette",
+      "name": "FPDS1.jpg"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/frontline-plus-dog-s-1-pip/?add-to-cart=45023",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2024-03-07T09:34:46",
+  "dateModified": "2026-06-17T04:33:09",
+  "brand": "Frontline",
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/FPDS1.jpg"
+}

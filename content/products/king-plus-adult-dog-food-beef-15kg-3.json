@@ -1,11 +1,11 @@
 {
   "id": 649,
-  "name": "King Plus Adult Dog Food – Beef 15kg",
+  "name": "King Plus Adult Dog Food - Beef 15kg",
   "slug": "king-plus-adult-dog-food-beef-15kg-3",
   "sku": "KDD001",
   "onSale": false,
-  "price": 56.65,
-  "regularPrice": 56.65,
+  "price": 5665,
+  "regularPrice": 5665,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "king"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/king-plus-adult-dog-food-beef-15kg-3/",
-  "shortDescription": "Nutritious, all-natural dog food enriched with premium beef protein and brewer’s yeast to support immunity. Expertly formulated to fulfill the dietary needs of all adult large breed dogs.",
-  "description": "King Plus Beef Adult Dog Food is a fully balanced, all-natural formula expertly crafted to meet the nutritional needs of adult large breed dogs. Formulated by a dedicated dog nutritionist, this premium dog food provides high-quality beef protein combined with essential nutrients to support overall health and wellbeing. Key Benefits: Rich in Beef Protein (18%) for muscle maintenance and energy Contains Brewer’s Yeast to boost immune system health and promote a shiny coat Balanced Fat Content (7%) for sustained energy and healthy skin High Fiber (4%) to support digestive health Premium Ingredients: Wheat, corn, processed animal protein, wheat middlings, boncalit (a mineral supplement), animal fat, dried sugar beet, natural liver flavor, flaxseed, salt, and dried brewer’s yeast. Essential Minerals &amp; Vitamins: Includes calcium, phosphorus, sodium, iodine, zinc, copper, potassium chloride, iron, selenium, and a comprehensive vitamin complex (A, D, E, C, B1, B2, B3, B6, B7, B9, B12, K), along with choline and calcium pantothenate, ensuring complete and balanced nutrition for your dog’s health. King Plus Beef Adult Dog Food supports strong immunity, healthy digestion, and vibrant energy levels, making it an excellent choice for large breed adult dogs.",
-  "images": [
+  "brands": [
     {
-      "id": 15335,
-      "alt": "King Plus Adult Dog Food – Beef 15kg",
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/09/King-Plus-Dog-Food-15kg-min.png",
-      "name": "King Plus Dog Food 15kg -min"
+      "id": 2446,
+      "name": "King",
+      "slug": "king"
     }
   ],
   "tags": [
@@ -59,20 +51,33 @@
       "slug": "dry-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/king-plus-adult-dog-food-beef-15kg-3/",
+  "shortDescription": "Nutritious, all-natural dog food enriched with premium beef protein and brewer’s yeast to support immunity. Expertly formulated to fulfill the dietary needs of all adult large breed dogs.",
+  "description": "King Plus Beef Adult Dog Food is a fully balanced, all-natural formula expertly crafted to meet the nutritional needs of adult large breed dogs. Formulated by a dedicated dog nutritionist, this premium dog food provides high-quality beef protein combined with essential nutrients to support overall health and wellbeing. Key Benefits: Rich in Beef Protein (18%) for muscle maintenance and energy Contains Brewer’s Yeast to boost immune system health and promote a shiny coat Balanced Fat Content (7%) for sustained energy and healthy skin High Fiber (4%) to support digestive health Premium Ingredients: Wheat, corn, processed animal protein, wheat middlings, boncalit (a mineral supplement), animal fat, dried sugar beet, natural liver flavor, flaxseed, salt, and dried brewer’s yeast. Essential Minerals & Vitamins: Includes calcium, phosphorus, sodium, iodine, zinc, copper, potassium chloride, iron, selenium, and a comprehensive vitamin complex (A, D, E, C, B1, B2, B3, B6, B7, B9, B12, K), along with choline and calcium pantothenate, ensuring complete and balanced nutrition for your dog’s health. King Plus Beef Adult Dog Food supports strong immunity, healthy digestion, and vibrant energy levels, making it an excellent choice for large breed adult dogs.",
+  "images": [
     {
-      "id": 2446,
-      "name": "King",
-      "slug": "king"
+      "id": 15335,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/09/King-Plus-Dog-Food-15kg-min.png",
+      "alt": "King Plus Adult Dog Food – Beef 15kg",
+      "name": "King Plus Dog Food 15kg -min"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=1&#038;add-to-cart=649",
+  "addToCartUrl": "https://petstore.co.ke/product/king-plus-adult-dog-food-beef-15kg-3/?add-to-cart=649",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.045Z",
-  "dateModified": "2026-06-23T09:15:51.045Z"
+  "dateCreated": "2017-09-19T18:24:57",
+  "dateModified": "2026-06-24T16:12:10",
+  "brand": "King",
+  "weight_kg": 15,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/09/King-Plus-Dog-Food-15kg-min.png"
 }

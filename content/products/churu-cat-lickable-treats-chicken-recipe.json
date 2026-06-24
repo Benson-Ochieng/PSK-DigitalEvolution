@@ -4,8 +4,8 @@
   "slug": "churu-cat-lickable-treats-chicken-recipe",
   "sku": "BCCT004",
   "onSale": false,
-  "price": 3.5,
-  "regularPrice": 3.5,
+  "price": 350,
+  "regularPrice": 350,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -32,19 +32,11 @@
       "slug": "churu"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/churu-cat-lickable-treats-chicken-recipe/",
-  "shortDescription": "Churu Cat Lickable Treats Chicken Variety creamy, grain-free puree made with real chicken. Boosts hydration, packed with protein and Vitamin E. Perfect as a snack, topper, or interactive treat for cats.",
-  "description": "“ Churu churu ” means slurp slurp and that’s exactly what your cat will do with these creamy, lickable chicken treats. Made with real farm-raised chicken , each tube delivers protein-packed flavor cats can’t resist. Perfect as a snack, meal topper, or interactive treat straight from the tube, Churu also boosts hydration and supports overall feline health. Key Benefits: Grain-Free &amp; Delicious: Creamy puree treats made with real chicken—no grains, no artificial ingredients Interactive Feeding: Lick straight from the tube, lap from a bowl, or mix into kibble or wet food Supports Hydration: 91% moisture helps keep cats hydrated and supports urinary health Nutritious Boost: Vitamin E supports immunity, and added Taurine supports heart and vision health Fun &amp; Flexible: Serve as a treat, snack, or meal topper while strengthening your bond Available Pack Sizes: 1 pack of 4 tubes 6 packs of 4 tubes (24 tubes) Guaranteed Analysis Crude Protein (min): 7.0% Crude Fat (min): 0.20% Crude Fiber (max): 0.10% Moisture (max): 91.0% Vitamin E (min): 310 IU/kg Calorie Content: 430 kcal/kg | 6.0 kcal per tube Feeding Instructions Feed as a treat only. Not intended as a complete meal. Always provide fresh water and consult your veterinarian regularly. Storage Instructions Refrigerate after opening and serve as soon as possible. &nbsp; &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 66325,
-      "alt": "Churu Cat Treats Chicken Recipe 4 Tubes",
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/CHURU-CHICKEN-RECIPE-4CT.png",
-      "name": "CHURU CHICKEN RECIPE 4CT"
+      "id": 2433,
+      "name": "Churu",
+      "slug": "churu"
     }
   ],
   "tags": [
@@ -59,20 +51,33 @@
       "slug": "treats"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/churu-cat-lickable-treats-chicken-recipe/",
+  "shortDescription": "Churu Cat Lickable Treats Chicken Variety creamy, grain-free puree made with real chicken. Boosts hydration, packed with protein and Vitamin E. Perfect as a snack, topper, or interactive treat for cats.",
+  "description": "“ Churu churu ” means slurp slurp and that’s exactly what your cat will do with these creamy, lickable chicken treats. Made with real farm-raised chicken , each tube delivers protein-packed flavor cats can’t resist. Perfect as a snack, meal topper, or interactive treat straight from the tube, Churu also boosts hydration and supports overall feline health. Key Benefits: Grain-Free & Delicious: Creamy puree treats made with real chicken—no grains, no artificial ingredients Interactive Feeding: Lick straight from the tube, lap from a bowl, or mix into kibble or wet food Supports Hydration: 91% moisture helps keep cats hydrated and supports urinary health Nutritious Boost: Vitamin E supports immunity, and added Taurine supports heart and vision health Fun & Flexible: Serve as a treat, snack, or meal topper while strengthening your bond Available Pack Sizes: 1 pack of 4 tubes 6 packs of 4 tubes (24 tubes) Guaranteed Analysis Crude Protein (min): 7.0% Crude Fat (min): 0.20% Crude Fiber (max): 0.10% Moisture (max): 91.0% Vitamin E (min): 310 IU/kg Calorie Content: 430 kcal/kg | 6.0 kcal per tube Feeding Instructions Feed as a treat only. Not intended as a complete meal. Always provide fresh water and consult your veterinarian regularly. Storage Instructions Refrigerate after opening and serve as soon as possible. &nbsp; &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2433,
-      "name": "Churu",
-      "slug": "churu"
+      "id": 66325,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/CHURU-CHICKEN-RECIPE-4CT.png",
+      "alt": "Churu Cat Treats Chicken Recipe 4 Tubes",
+      "name": "CHURU CHICKEN RECIPE 4CT"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "/wp-json/wc/store/products?per_page=100&#038;page=7&#038;add-to-cart=66324",
+  "addToCartUrl": "https://petstore.co.ke/product/churu-cat-lickable-treats-chicken-recipe/?add-to-cart=66324",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-23T09:15:51.805Z",
-  "dateModified": "2026-06-23T09:15:51.805Z"
+  "dateCreated": "2026-01-06T14:57:21",
+  "dateModified": "2026-06-22T13:11:59",
+  "brand": "Churu",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/CHURU-CHICKEN-RECIPE-4CT.png"
 }

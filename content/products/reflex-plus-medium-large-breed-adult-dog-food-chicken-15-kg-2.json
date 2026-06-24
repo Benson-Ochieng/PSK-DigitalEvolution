@@ -1,0 +1,63 @@
+{
+  "id": 43683,
+  "name": "Reflex Plus Medium Large Breed Adult Dog Food Chicken 15kg",
+  "slug": "reflex-plus-medium-large-breed-adult-dog-food-chicken-15-kg-2",
+  "sku": "RPDD009@F",
+  "onSale": true,
+  "price": 8064,
+  "regularPrice": 11200,
+  "salePrice": 8064,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Reflex-Adult-Medium-Large-Breed-Chicken-fb-01.jpg",
+  "categories": [
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2232,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2223,
+      "name": "flash",
+      "slug": "flash"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=43683",
+  "shortDescription": "Super premium dog food with chicken for adult dogs of medium & large breeds.",
+  "description": "Super premium dog food with chicken for adult dogs of medium & large breeds. Content: Processed Chicken Protein, Wheat, Corn, Chicken Fat, Rice, Sugar Beet, Liver Flavor, Whey Powder, Vitamins and Minerals, Xylo-Oligosaccharides, Brewer's Yeast, L-Carnitine, Flaxseed, Salt, Yucca Schidigera, Preservatives - Antioxidants. Minerals: ?Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Iron, Selenium. Vitamins: ?Vit. A, Vit. D3, Vit. E, Vit. C, Vit. B1 - B2 - B3 (Niacin) - B6 - B12 - B7 (Biotin) - B9 (Folic Acid), Vit. K, Choline, Calcium Pantothenate. Nutrient Components Crude Protein 32% Crude Fat 22% Crude Ash 7% Crude Cellulose 2,5% Nutritional Supplements Vitamine A (3A672A) 18,000 IU/kg Vitamine D3 (3A671) 1,500 IU/kg Vitamine E (3A700) 150 mg/kg Vitamine C (3A300) 200 mg/kg",
+  "images": [
+    {
+      "id": 23950,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/12/Reflex-Adult-Medium-Large-Breed-Chicken-fb-01.jpg",
+      "alt": "Reflex Plus Medium Large Breed Adult Dog Food - Chicken 15kg",
+      "name": "Reflex Adult Medium Large Breed Chicken fb-01"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": false,
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-medium-large-breed-adult-dog-food-chicken-15-kg-2/?add-to-cart=43683",
+  "status": "draft",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2024-01-30T12:11:44",
+  "dateModified": "2026-05-06T17:09:29",
+  "brand": "Reflex",
+  "weight_kg": 15,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/12/Reflex-Adult-Medium-Large-Breed-Chicken-fb-01.jpg"
+}
