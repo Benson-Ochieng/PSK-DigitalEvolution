@@ -17,14 +17,14 @@ export async function loader() {
   // Fetch a few items for "YOU MAY BE INTERESTED IN..." section
   const recommendedRes = await query(`
     SELECT
-      p.id, p.name, p.brand, p.weight_kg, p.animal_type, p.food_type, p.image_url,
+      p.id, p.name, p.brand, p.weight_kg, p.animal_type, p.food_type, p.image_url, p.slug,
       bbp.price AS our_price,
       MIN(comp.price) AS competitor_min
     FROM products p
     JOIN store_prices bbp ON bbp.product_id = p.id AND bbp.store_name = 'PetStore Kenya'
     LEFT JOIN store_prices comp ON comp.product_id = p.id AND comp.store_name != 'PetStore Kenya'
     WHERE bbp.price IS NOT NULL
-    GROUP BY p.id, p.name, p.brand, p.weight_kg, p.animal_type, p.food_type, p.image_url, bbp.price
+    GROUP BY p.id, p.name, p.brand, p.weight_kg, p.animal_type, p.food_type, p.image_url, p.slug, bbp.price
     ORDER BY p.id DESC
     LIMIT 4
   `);
@@ -45,6 +45,7 @@ export default function CartPage() {
       price: Number(p.our_price),
       image_url: p.image_url,
       weight_kg: p.weight_kg,
+      slug: p.slug,
     });
     setAddedIds(prev => ({ ...prev, [p.id]: true }));
     setTimeout(() => {
@@ -214,7 +215,7 @@ export default function CartPage() {
                           <span style={{ fontSize: "1.2rem" }}>🐾</span>
                         )}
                       </div>
-                      <Link to={`/shop/${item.id}`} style={{
+                      <Link to={item.slug ? `/product/${item.slug}/` : `/shop/${item.id}`} style={{
                         textDecoration: "none",
                         color: "#1a5ca3",
                         fontWeight: 500,
@@ -378,7 +379,7 @@ export default function CartPage() {
                     )}
 
                     {/* Image */}
-                    <Link to={`/shop/${p.id}`} style={{ textDecoration: "none" }}>
+                     <Link to={p.slug ? `/product/${p.slug}/` : `/shop/${p.id}`} style={{ textDecoration: "none" }}>
                       <div style={{
                         height: "150px",
                         display: "flex",
