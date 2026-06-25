@@ -10,7 +10,7 @@ export async function loader({ request }: { request: Request }) {
   const { getAllReviews } = await import("~/lib/content.server");
   const { db } = await import("~/lib/db.server");
   const reviewsCount = getAllReviews().length;
-  const ordersCount = (await db.order.findMany()).length;
+  const ordersCount = await db.order.count();
   return { user, reviewsCount, ordersCount };
 }
 

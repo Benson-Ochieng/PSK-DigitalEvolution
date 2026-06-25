@@ -54,10 +54,24 @@ function normalizeProductSlugCandidate(value: string): string {
     .replace(/^-+|-+$/g, "");
 }
 
+interface CacheEntry<T> {
+  mtime: number;
+  data: T;
+}
+const jsonCache = new Map<string, CacheEntry<any>>();
+
 function readJson<T>(filePath: string): T | null {
   try {
+    const stat = fs.statSync(filePath);
+    const mtime = stat.mtimeMs;
+    const cached = jsonCache.get(filePath);
+    if (cached && cached.mtime === mtime) {
+      return cached.data as T;
+    }
     const raw = fs.readFileSync(filePath, "utf-8");
-    return JSON.parse(raw) as T;
+    const data = JSON.parse(raw) as T;
+    jsonCache.set(filePath, { mtime, data });
+    return data;
   } catch {
     return null;
   }

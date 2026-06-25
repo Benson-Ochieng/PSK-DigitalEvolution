@@ -82,28 +82,59 @@ export async function syncMediaAssets() {
 
   scanDirectory(ASSETS_DIR);
 
-  // 1. Insert/update files on disk into DB
-  for (const file of filesOnDisk) {
-    await query(`
-      INSERT INTO media_assets (name, url, size, mime_type, folder, full_path)
-      VALUES ($1, $2, $3, $4, $5, $6)
-      ON CONFLICT (full_path) DO UPDATE SET
-        name = EXCLUDED.name,
-        url = EXCLUDED.url,
-        size = EXCLUDED.size,
-        mime_type = EXCLUDED.mime_type,
-        folder = EXCLUDED.folder
-    `, [file.name, file.url, file.size, file.mime_type, file.folder, file.full_path]);
+  // 1. Fetch all paths and sizes from DB to check for orphaned records and filter unchanged files
+  const { rows: dbAssets } = await query(`SELECT full_path, size FROM media_assets`);
+  const dbAssetMap = new Map<string, number>(dbAssets.map(r => [r.full_path, Number(r.size)]));
+
+  const newOrChangedFiles = filesOnDisk.filter(file => {
+    const dbSize = dbAssetMap.get(file.full_path);
+    return dbSize === undefined || dbSize !== file.size;
+  });
+
+  // 2. Only insert/update files on disk that have actually changed or are new
+  if (newOrChangedFiles.length > 0) {
+    const chunkSize = 500;
+    for (let i = 0; i < newOrChangedFiles.length; i += chunkSize) {
+      const chunk = newOrChangedFiles.slice(i, i + chunkSize);
+      const chunkPlaceholders: string[] = [];
+      const chunkParams: any[] = [];
+      
+      chunk.forEach((file, index) => {
+        const baseIndex = index * 6;
+        chunkPlaceholders.push(`($${baseIndex + 1}, $${baseIndex + 2}, $${baseIndex + 3}, $${baseIndex + 4}, $${baseIndex + 5}, $${baseIndex + 6})`);
+        chunkParams.push(file.name, file.url, file.size, file.mime_type, file.folder, file.full_path);
+      });
+
+      await query(`
+        INSERT INTO media_assets (name, url, size, mime_type, folder, full_path)
+        VALUES ${chunkPlaceholders.join(", ")}
+        ON CONFLICT (full_path) DO UPDATE SET
+          name = EXCLUDED.name,
+          url = EXCLUDED.url,
+          size = EXCLUDED.size,
+          mime_type = EXCLUDED.mime_type,
+          folder = EXCLUDED.folder
+      `, chunkParams);
+    }
+    console.log(`Synced ${newOrChangedFiles.length} new/changed media assets to database.`);
   }
 
-  // 2. Fetch all paths from DB to check for orphaned records
-  const { rows: dbAssets } = await query(`SELECT full_path FROM media_assets`);
+  // 3. Check for orphaned records (files in DB that are no longer on disk)
   const diskPaths = new Set(filesOnDisk.map(f => f.full_path));
+  const orphanedPaths: string[] = [];
 
   for (const dbAsset of dbAssets) {
     if (!diskPaths.has(dbAsset.full_path)) {
-      await query(`DELETE FROM media_assets WHERE full_path = $1`, [dbAsset.full_path]);
+      orphanedPaths.push(dbAsset.full_path);
     }
+  }
+
+  if (orphanedPaths.length > 0) {
+    await query(`
+      DELETE FROM media_assets 
+      WHERE full_path = ANY($1)
+    `, [orphanedPaths]);
+    console.log(`Deleted ${orphanedPaths.length} orphaned media assets from database.`);
   }
 
   // 3. Align products.media_asset_id with media_assets.id based on URL matches
