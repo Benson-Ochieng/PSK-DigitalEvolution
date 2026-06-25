@@ -602,7 +602,7 @@ export default function Navbar() {
                       return (
                         <Link
                           key={p.id}
-                          to={`/shop/${p.id}`}
+                          to={p.slug ? `/product/${p.slug}/` : `/shop/${p.id}`}
                           className="search-product-item"
                           onClick={() => {
                             setIsSearchFocused(false);

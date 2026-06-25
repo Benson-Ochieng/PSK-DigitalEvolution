@@ -33,7 +33,7 @@ const routes = [
   index("routes/home.tsx"),
   route("shop", "routes/shop.tsx"),
   route("product-category/:slug", "routes/product-category.$slug.tsx"),
-  route("shop/:id", "routes/shop.$id.tsx"),
+  route("product/:slug", "routes/product.$slug.tsx"),
   route("flash-sale", "routes/flash-sale.tsx"),
   route("product-tag/new-arrivals", "routes/new-arrivals.tsx"),
   route("my-account", "routes/my-account.tsx"),

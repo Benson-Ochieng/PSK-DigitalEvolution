@@ -15,14 +15,14 @@ export function meta() {
 export async function loader() {
   const res = await query(`
     SELECT
-      p.id, p.name, p.brand, p.weight_kg, p.animal_type, p.food_type, p.image_url,
+      p.id, p.name, p.brand, p.weight_kg, p.animal_type, p.food_type, p.image_url, p.slug,
       bbp.price AS our_price,
       MIN(comp.price) AS competitor_min
     FROM products p
     JOIN store_prices bbp  ON bbp.product_id = p.id AND bbp.store_name = 'PetStore Kenya'
     LEFT JOIN store_prices comp ON comp.product_id = p.id AND comp.store_name != 'PetStore Kenya'
     WHERE p.food_type = 'flash-sale'
-    GROUP BY p.id, p.name, p.brand, p.weight_kg, p.animal_type, p.food_type, p.image_url, bbp.price
+    GROUP BY p.id, p.name, p.brand, p.weight_kg, p.animal_type, p.food_type, p.image_url, p.slug, bbp.price
     ORDER BY p.name ASC
   `);
   return { products: res.rows };
@@ -41,6 +41,7 @@ function ProductCard({ p }: { p: any }) {
       price: Number(p.our_price),
       image_url: p.image_url,
       weight_kg: p.weight_kg,
+      slug: p.slug,
     });
     setAdded(true);
     setTimeout(() => setAdded(false), 1500);
@@ -73,7 +74,7 @@ function ProductCard({ p }: { p: any }) {
         </span>
       )}
 
-      <Link to={`/shop/${p.id}`} className="product-card-link">
+      <Link to={`/product/${p.slug}/`} className="product-card-link">
         <div className="product-card-img">
           {p.image_url ? (
             <img src={p.image_url} alt={p.name} loading="lazy" />

@@ -13,7 +13,7 @@ export async function loader({ request }: { request: Request }) {
   try {
     const res = await query(`
       SELECT 
-        p.id, p.name, p.brand, p.weight_kg, p.animal_type, p.food_type, p.image_url, p.description,
+        p.id, p.name, p.brand, p.weight_kg, p.animal_type, p.food_type, p.image_url, p.description, p.slug,
         bbp.price AS our_price
       FROM products p
       JOIN store_prices bbp ON bbp.product_id = p.id AND bbp.store_name = 'PetStore Kenya'
@@ -34,6 +34,7 @@ export async function loader({ request }: { request: Request }) {
     food_type: p.food_type || "",
     image_url: p.image_url || "",
     description: p.description || "",
+    slug: p.slug || "",
     price: Number(p.our_price || 0)
   }));
 

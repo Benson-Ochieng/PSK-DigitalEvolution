@@ -8,6 +8,7 @@ export interface CartItem {
   image_url: string | null;
   quantity: number;
   weight_kg: number | null;
+  slug?: string;
 }
 
 interface CartContextType {
