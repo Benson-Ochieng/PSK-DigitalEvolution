@@ -63,7 +63,7 @@ export default function ProductDetail() {
   const [activeTab, setActiveTab] = useState("description");
 
   const prices: any[] = p.prices || [];
-  const ourPrice    = prices.find((x: any) => x.store === "PetStore Kenya");
+  const ourPrice = prices.find((x: any) => x.store === "PetStore Kenya");
   const competitors = prices.filter((x: any) => x.store !== "PetStore Kenya");
   const cheapestComp = competitors.reduce((min: any, c: any) => (!min || c.price < min.price ? c : min), null);
   const saving = cheapestComp ? Math.round(cheapestComp.price - (ourPrice?.price ?? 0)) : 0;
@@ -198,7 +198,7 @@ export default function ProductDetail() {
                   borderRadius: "4px",
                   overflow: "hidden"
                 }}>
-                  <button 
+                  <button
                     onClick={() => setQty(q => Math.max(1, q - 1))}
                     style={{
                       background: "#f8fafc",
@@ -213,7 +213,7 @@ export default function ProductDetail() {
                   >
                     -
                   </button>
-                  <input 
+                  <input
                     type="number"
                     value={qty}
                     onChange={e => setQty(Math.max(1, Number(e.target.value) || 1))}
@@ -228,7 +228,7 @@ export default function ProductDetail() {
                       color: "#1e293b"
                     }}
                   />
-                  <button 
+                  <button
                     onClick={() => setQty(q => q + 1)}
                     style={{
                       background: "#f8fafc",
@@ -245,7 +245,7 @@ export default function ProductDetail() {
                   </button>
                 </div>
 
-                <button 
+                <button
                   onClick={handleAdd}
                   style={{
                     background: "#1e5da7",
@@ -436,10 +436,10 @@ export default function ProductDetail() {
                   <p style={{ fontWeight: 700, textTransform: "uppercase", fontSize: "0.85rem", letterSpacing: "0.05em", color: "#1e293b", marginBottom: "1rem" }}>
                     Guaranteed Analysis
                   </p>
-                  {p.nutrition_protein  && <NutritionBar label="Crude Protein"  value={Number(p.nutrition_protein)}  max={50}  color="#1e5da7"   />}
-                  {p.nutrition_fat      && <NutritionBar label="Crude Fat"       value={Number(p.nutrition_fat)}      max={25}  color="#10b981" />}
-                  {p.nutrition_fibre    && <NutritionBar label="Crude Fibre"     value={Number(p.nutrition_fibre)}    max={10}  color="#f59e0b"         />}
-                  {p.nutrition_moisture && <NutritionBar label="Moisture Max"    value={Number(p.nutrition_moisture)} max={100} color="#3b82f6"         />}
+                  {p.nutrition_protein && <NutritionBar label="Crude Protein" value={Number(p.nutrition_protein)} max={50} color="#1e5da7" />}
+                  {p.nutrition_fat && <NutritionBar label="Crude Fat" value={Number(p.nutrition_fat)} max={25} color="#10b981" />}
+                  {p.nutrition_fibre && <NutritionBar label="Crude Fibre" value={Number(p.nutrition_fibre)} max={10} color="#f59e0b" />}
+                  {p.nutrition_moisture && <NutritionBar label="Moisture Max" value={Number(p.nutrition_moisture)} max={100} color="#3b82f6" />}
                 </div>
               )}
 
@@ -552,15 +552,6 @@ export default function ProductDetail() {
             See more {backCategoryName} →
           </Link>
         </div>
-      </div>
-
-      {/* Decorative Puppies & Kittens Banner */}
-      <div style={{ width: "100%", overflow: "hidden", display: "flex", justifyContent: "center", borderTop: "1px solid #e2e8f0" }}>
-        <img 
-          src="/images/iStock_puppies_and_kittens_footer_aug_2023.jpg" 
-          alt="Puppies and Kittens peeking over wall" 
-          style={{ width: "100%", maxHeight: "280px", objectFit: "cover" }} 
-        />
       </div>
 
       <Footer />
