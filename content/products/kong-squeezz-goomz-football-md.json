@@ -2,14 +2,12 @@
   "id": 24992,
   "name": "KONG Squeezzgoomz Football Md",
   "slug": "kong-squeezz-goomz-football-md",
-  "sku": "PSG21",
   "onSale": false,
-  "price": 1100,
-  "regularPrice": 1100,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/PSG11.jpg",
   "categories": [
     {
       "id": 1204,
@@ -37,56 +35,18 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=24992",
-  "shortDescription": "KONG Goomz football?s enticing raised nubs massage teeth and gums while rewarding appropriate chewing behaviour.",
   "description": "KONGGoomz football?s enticing raised nubs massage teeth and gums while rewarding appropriate chewing behavior. Mixed textures and a durable material encourage on-going fun while satisfying natural instincts. The squeaker continues to extend playtime for indoor and outdoor sessions of interactive engagement. Enticing nubs massage teeth and gums Mixed textures satisfy chewing instincts Durable material for long-lasting fun",
-  "images": [
-    {
-      "id": 24993,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/PSG11.jpg",
-      "alt": "KONG Squeezzgoomz Football Md",
-      "name": "PSG11"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/kong-squeezz-goomz-football-md/?add-to-cart=24992",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2022-01-27T16:27:51",
-  "dateModified": "2026-05-06T17:07:56",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/PSG11.jpg"
+  "catalogVisibility": "visible"
 }

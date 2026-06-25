@@ -2,14 +2,12 @@
   "id": 3704,
   "name": "Reflex Dog Treats - Animal Mix Biscuits 350g",
   "slug": "reflex-dog-treats-animal-mix-biscuits-350g",
-  "sku": "RDT011",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/10/PetStore-Kenya-Reflex-Dog-Treats-Mini-Animal-min.png",
   "categories": [
     {
       "id": 2345,
@@ -32,57 +30,18 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
-    {
-      "id": 2907,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=3704",
-  "shortDescription": "Reflex Dog Treats – Animal Mix Biscuits are the perfect size dog biscuits for training and for rewarding good behaviour. Made with the highest quality ingredients and bursting with flavour.",
   "description": "Reflex Dog Treats - Animal Mix Biscuits are the perfect size dog biscuits for training and for rewarding good behaviour. Made with the highest quality ingredients and bursting with flavour. INGREDIENTS: Cereals, Glucose (18.8%), Vegetable Oils & Fats, Minerals. NUTRIENT COMPONENTS Crude Protein (%) - 7.1 Oil Content (%) - 7.9 Crude Ash (%) - 1.3 Crude Fiber (%) - 2.8 Sodium (%) - 0.3 FEEDING RECOMMENDATIONS: Treats may be given as an additional snack. This product does not replace full-dog food daily. Recommended quantity: max. 10 pieces per day. Individual daily requirement depends on other factors, e.g. age, breed and activity. Keep in a dry, cool place.",
-  "images": [
-    {
-      "id": 3706,
-      "src": "https://petstore.co.ke/wp-content/uploads/2019/10/PetStore-Kenya-Reflex-Dog-Treats-Mini-Animal-min.png",
-      "alt": "PetStore Kenya Reflex Dog Treats Mini Animal min",
-      "name": "PetStore Kenya Reflex Dog Treats Mini Animal min"
-    }
-  ],
-  "stockStatus": "outofstock",
-  "lowStockRemaining": 10,
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-dog-treats-animal-mix-biscuits-350g/?add-to-cart=3704",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2019-10-23T19:46:45",
-  "dateModified": "2026-05-06T17:06:21",
-  "brand": "Reflex",
-  "weight_kg": 0.35,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/10/PetStore-Kenya-Reflex-Dog-Treats-Mini-Animal-min.png"
+  "catalogVisibility": "visible"
 }

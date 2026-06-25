@@ -2,14 +2,12 @@
   "id": 40756,
   "name": "Short Expiry-Clearance: Proline Adult Cat Food Canned - Beef Chunks In Gravy 415g",
   "slug": "proline-adult-cat-food-canned-beef-chunks-in-gravy-0-415kg-2",
-  "sku": "PCW001@SE",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/11/Proline-Adult-Cat-Can-Beef-Chunks-in-Jelly-400g-1080x1080-min.png",
   "categories": [
     {
       "id": 2325,
@@ -37,72 +35,18 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2775,
-      "name": "Proline",
-      "slug": "proline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 622,
-      "name": "canned food",
-      "slug": "canned-food"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=40756",
-  "shortDescription": "(4 pieces minimum order) Fully balanced all-natural wet cat food with beef protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult cats.",
   "description": "Proline Adult Cat Food Canned - Beef Chunks in Gravy , fully balanced all-natural cat food with beef protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult cats. NUTRIENT COMPONENTS Protein .................................6.5% Fat ..........................................3.5% Crude Ash.................................. 2% Crude Cellulose (Fiber) ............. 0.3% Moisture .........................................82% INGREDIENTS: Meat and animal derivatives (4% beef), cereals, minerals, vegetable by-products, sugar. MINERALS: Biotin, Taurine, Zinc, Manganese, Copper. VITAMINS: Vit. D3, Vit. E.",
-  "images": [
-    {
-      "id": 3917,
-      "src": "https://petstore.co.ke/wp-content/uploads/2019/11/Proline-Adult-Cat-Can-Beef-Chunks-in-Jelly-400g-1080x1080-min.png",
-      "alt": "Proline Adult Cat Can Beef Chunks in Jelly 400g 1080x1080 min",
-      "name": "Proline Adult Cat Can Beef Chunks in Jelly 400g 1080&#215;1080 min"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/proline-adult-cat-food-canned-beef-chunks-in-gravy-0-415kg-2/?add-to-cart=40756",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-11-06T12:56:07",
-  "dateModified": "2026-05-06T17:08:57",
-  "brand": "Proline",
-  "weight_kg": 0.415,
-  "animal_type": "cat",
-  "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/11/Proline-Adult-Cat-Can-Beef-Chunks-in-Jelly-400g-1080x1080-min.png"
+  "catalogVisibility": "visible"
 }

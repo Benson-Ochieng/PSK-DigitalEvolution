@@ -2,14 +2,12 @@
   "id": 16561,
   "name": "KONG Wobbler Small",
   "slug": "kong-wobbler-small",
-  "sku": "PW2",
   "onSale": false,
-  "price": 2123,
-  "regularPrice": 2123,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/12/Untitled-design-7.png",
   "categories": [
     {
       "id": 2345,
@@ -27,61 +25,18 @@
       "slug": "kong-accessories"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=16561",
-  "shortDescription": "KONG Toy Wobbler Small",
   "description": "The KONGWobbler? is an action-packed toy that is a mentally stimulating food dispenser. The KONGshaped toy sits upright until nudged by the dog?s paw or nose, dispensing tasty rewards as it wobbles, spins and rolls. The unpredictable movement stimulates natural instincts keeping even the most seasoned users challenged. The KONGWobbler? can also be used as an alternative to a dog bowl to help extend mealtime while providing exercise for your dog. Trying to get your dog to lose a few unwanted pounds? The KONGWobbler? is a great way to keep dogs moving while making them work for their food. Unscrews for easy filling and cleaning. Use the large Wobbler? for medium to large-sized dogs. An action-packed food-dispensing toy that provides mental stimulation Entertaining wobble sparks dogs curiosity engaging over time Allows dogs to work for their food; engaging in natural instincts Dishwasher safe; unscrews easily for filling Made in the USA",
-  "images": [
-    {
-      "id": 34585,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/12/Untitled-design-7.png",
-      "alt": "KONG Wobbler Small",
-      "name": "Untitled design (7)"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/kong-wobbler-small/?add-to-cart=16561",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2020-12-06T13:30:28",
-  "dateModified": "2026-05-06T17:06:42",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/12/Untitled-design-7.png"
+  "catalogVisibility": "visible"
 }

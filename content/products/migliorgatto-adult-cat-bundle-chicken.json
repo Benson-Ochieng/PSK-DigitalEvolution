@@ -2,14 +2,12 @@
   "id": 37064,
   "name": "Migliorgatto Adult Cat Bundle-Chicken",
   "slug": "migliorgatto-adult-cat-bundle-chicken",
-  "sku": "PSK-37064",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/05/Migliorgatto-Cat-Bundle-Chicken.png",
   "categories": [
     {
       "id": 2027,
@@ -17,46 +15,18 @@
       "slug": "bundles"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2122,
-      "name": "Bundle",
-      "slug": "bundle"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=37064",
-  "shortDescription": "This Bundle contains: 1pc Migliorgatto Adult cat Food Croquettes Chicken 400gr 4pc Migliorgatto Adult cat Food chunks with Chicken and Turkey 405gr",
   "description": "This Bundle contains: 1pc Migliorgatto Adult cat Food Croquettes Chicken 400gr 4pc Migliorgatto Adult cat Food chunks with Chicken and Turkey 405gr",
-  "images": [
-    {
-      "id": 37065,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/05/Migliorgatto-Cat-Bundle-Chicken.png",
-      "alt": "Migliorgatto Adult Cat Bundle-Chicken",
-      "name": "Migliorgatto Cat Bundle- Chicken"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/migliorgatto-adult-cat-bundle-chicken/?add-to-cart=37064",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-05-15T12:27:26",
-  "dateModified": "2026-05-06T17:08:38",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/05/Migliorgatto-Cat-Bundle-Chicken.png"
+  "catalogVisibility": "visible"
 }

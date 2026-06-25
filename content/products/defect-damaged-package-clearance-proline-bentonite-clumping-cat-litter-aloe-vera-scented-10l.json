@@ -2,14 +2,12 @@
   "id": 39451,
   "name": "DEFECT/DAMAGED PACKAGE CLEARANCE: Proline Bentonite Clumping Cat Litter Aloe Vera Scented 10l",
   "slug": "defect-damaged-package-clearance-proline-bentonite-clumping-cat-litter-aloe-vera-scented-10l",
-  "sku": "PCL008@D",
-  "onSale": true,
-  "price": 1457,
-  "regularPrice": 2082,
-  "salePrice": 1457,
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/01/Untitled-design-6.png",
   "categories": [
     {
       "id": 2332,
@@ -17,66 +15,18 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 831,
-      "name": "bentonite",
-      "slug": "bentonite"
-    },
-    {
-      "id": 819,
-      "name": "cat litter",
-      "slug": "cat-litter"
-    },
-    {
-      "id": 2119,
-      "name": "cat litter box",
-      "slug": "cat-litter-box"
-    },
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 823,
-      "name": "clumping",
-      "slug": "clumping"
-    },
-    {
-      "id": 2315,
-      "name": "scented",
-      "slug": "scented"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=39451",
-  "shortDescription": "Experience cleaner, fresher litter box care with Proline Aloe Vera Bentonite Clumping Cat Litter (10L) . Made from premium natural bentonite , this high-performance litter instantly forms solid clumps on contact with moisture , making scooping easy while reducing waste. Its advanced odor-locking technology eliminates unwanted smells, while the gentle aloe vera fragrance keeps your home inviting and fresh.",
   "description": "Proline Bentonite Clumping Aloe vera Scented Cat Litter , 100% natural bentonite cat litter instantly clumps. Excellent pelletising, instantly lumps Neutralises odour with fresh Aloe Vera scent Non-toxic and 100% natural Thin grain shape Prevents bacterial growth Upon first use, we recommend adding new cat litter to the surface of the old cat litter for a few days.",
-  "images": [
-    {
-      "id": 34584,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/01/Untitled-design-6.png",
-      "alt": "DEFECT/DAMAGED PACKAGE CLEARANCE: Proline Bentonite Clumping Cat Litter Aloe Vera Scented 10l",
-      "name": "Untitled design (6)"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/defect-damaged-package-clearance-proline-bentonite-clumping-cat-litter-aloe-vera-scented-10l/?add-to-cart=39451",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-09-08T10:48:14",
-  "dateModified": "2026-05-06T17:08:51",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/01/Untitled-design-6.png"
+  "catalogVisibility": "visible"
 }

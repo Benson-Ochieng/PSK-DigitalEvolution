@@ -2,14 +2,12 @@
   "id": 29506,
   "name": "Royal Canin Mini Ageing 8+ 4kg",
   "slug": "royal-canin-mini-ageing-8-4kg",
-  "sku": "ROC-SHMN-032",
   "onSale": false,
-  "price": 5680,
-  "regularPrice": 5680,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/07/Royal-Canin-Mini-Ageing-8.png",
   "categories": [
     {
       "id": 2345,
@@ -32,67 +30,18 @@
       "slug": "royal-canin"
     }
   ],
-  "brands": [
-    {
-      "id": 2423,
-      "name": "Royal Canin",
-      "slug": "royal-canin"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 2108,
-      "name": "Mini breeds",
-      "slug": "mini-breeds"
-    },
-    {
-      "id": 2063,
-      "name": "senior dog",
-      "slug": "senior-dog"
-    },
-    {
-      "id": 2109,
-      "name": "Small breeds",
-      "slug": "small-breeds"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=29506",
-  "shortDescription": "Royal Canin Mini Adult is tailor made to suit the unique nutritional needs of your small breed senior dog. Complete feed for dogs – For senior small breed dogs (up to 10 kg) – Over 8 years old.",
   "description": "Suitable for small breed dogs over 8 years old that weigh up to 10kg, ROYAL CANIN? Mini Ageing 8+ is specially formulated with all the nutritional needs of your small dog in mind. Developed to specifically support healthy ageing in small breed dogs, this formula contains highly beneficial Omega-3 fatty acids such as EPA and DHA, as well as an exclusive complex of antioxidants that help to neutralise the effects of free radicals. ROYAL CANIN? Mini Ageing 12+ is also developed with an adapted phosphorus content, this helps to support and maintain healthy kidney function in your dog as it ages. This formula also help to support and maintain the good condition of your dog?s skin and coat. To cater to each dog?s individual preferences, ROYAL CANIN? Mini Ageing 12+ is also available as wet food in delicious gravy. If you?re considering mixed feeding, simply follow our feeding guidelines to ensure your dog gets an accurate amount of both wet and dry food for optimal benefit.",
-  "images": [
-    {
-      "id": 29507,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/07/Royal-Canin-Mini-Ageing-8.png",
-      "alt": "Royal Canin Mini Ageing 8+ 4kg",
-      "name": "Royal Canin Mini Ageing 8"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/royal-canin-mini-ageing-8-4kg/?add-to-cart=29506",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2022-07-01T11:51:23",
-  "dateModified": "2026-06-24T16:12:27",
-  "brand": "Royal Canin",
-  "weight_kg": 4,
-  "animal_type": "dog",
-  "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/07/Royal-Canin-Mini-Ageing-8.png"
+  "catalogVisibility": "visible"
 }

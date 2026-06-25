@@ -2,14 +2,12 @@
   "id": 38180,
   "name": "Closed Cat Litter Box",
   "slug": "closed-cat-litter-box-2",
-  "sku": "PZCLB02",
   "onSale": false,
-  "price": 3800,
-  "regularPrice": 3800,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/07/Closed-Cat-litter-Box.png",
   "categories": [
     {
       "id": 1204,
@@ -42,62 +40,18 @@
       "slug": "cat-litter-boxes"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 819,
-      "name": "cat litter",
-      "slug": "cat-litter"
-    },
-    {
-      "id": 2119,
-      "name": "cat litter box",
-      "slug": "cat-litter-box"
-    },
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=38180",
-  "shortDescription": "This Cat Litter Box combines beauty and functionality. Available in Pink, Blue and Grey",
   "description": "This Cat Litter Box combines beauty and functionality with; Spacious hood provides privacy for kitty. Hinged door to help contains odor and “doorstep” grate helps remove excess litter from kitty’s paws. Includes matching litter scoop for easy cleaning. size: 56x38x62cm",
-  "images": [
-    {
-      "id": 38302,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/07/Closed-Cat-litter-Box.png",
-      "alt": "Closed Cat Litter Box",
-      "name": "Closed Cat litter Box"
-    },
-    {
-      "id": 38303,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/07/Closed-acat-litter-Box.png",
-      "alt": "Closed Cat Litter Box",
-      "name": "Closed acat litter Box"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/closed-cat-litter-box-2/?add-to-cart=38180",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-07-10T09:10:15",
-  "dateModified": "2026-05-06T17:08:44",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/07/Closed-Cat-litter-Box.png"
+  "catalogVisibility": "visible"
 }

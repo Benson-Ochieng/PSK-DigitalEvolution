@@ -2,14 +2,12 @@
   "id": 40867,
   "name": "Ankur Heavy Dish Bowl With Inside Color And Print - 24cm (2850ml)",
   "slug": "ankur-heavy-dish-bowl-with-inside-color-and-print-24cm-2850ml-2",
-  "sku": "AEPBHDICP-05@F",
-  "onSale": true,
-  "price": 1600,
-  "regularPrice": 2000,
-  "salePrice": 1600,
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-bowl-dish.png",
   "categories": [
     {
       "id": 2041,
@@ -17,41 +15,18 @@
       "slug": "ankur"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2072,
-      "name": "Bowls",
-      "slug": "bowls"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=40867",
-  "shortDescription": "ANKUR HEAVY DISH BOWL WITH INSIDE COLOR AND PRINT – 24cm (2850ml)",
   "description": "ANKUR HEAVY DISH BOWL WITH INSIDE COLOR AND PRINT - 24cm (2850ml)",
-  "images": [
-    {
-      "id": 29363,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-bowl-dish.png",
-      "alt": "Ankur Heavy Dish Bowl With Inside Color And Print 20cm (1900ml)",
-      "name": "Ankur bowl dish"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/ankur-heavy-dish-bowl-with-inside-color-and-print-24cm-2850ml-2/?add-to-cart=40867",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-11-08T11:07:55",
-  "dateModified": "2026-05-06T17:09:01",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-bowl-dish.png"
+  "catalogVisibility": "visible"
 }

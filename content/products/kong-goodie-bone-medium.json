@@ -2,14 +2,12 @@
   "id": 16415,
   "name": "KONG goodie Bone Md",
   "slug": "kong-goodie-bone-medium",
-  "sku": "10011",
   "onSale": false,
-  "price": 1750,
-  "regularPrice": 1750,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/11/KONG®-Goodie-Bone-Md.jpg",
   "categories": [
     {
       "id": 2325,
@@ -37,71 +35,18 @@
       "slug": "kong-accessories"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=16415",
-  "shortDescription": "KONG Goodie Bone Chew Toy – Medium",
   "description": "The KONGGoodie Bone toy engages dogs that delight in chew sessions. Made from the KONGClassic unique natural red rubber formula, this bone features the patented Goodie Grippers that turn this entertaining toy into a fun treat-dispensing challenge that can be stuffed with your dog's favourite kibble. Want to extend the chew session? Stuff with KONGSnacks and entice with a bit of KONGEasy Treat.",
-  "images": [
-    {
-      "id": 24958,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/11/KONG®-Goodie-Bone-Md.jpg",
-      "alt": "KONG goodie Bone Md",
-      "name": "KONG®-Goodie-Bone-Md"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/kong-goodie-bone-medium/?add-to-cart=16415",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2020-11-27T10:37:45",
-  "dateModified": "2026-05-06T17:06:39",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/11/KONG®-Goodie-Bone-Md.jpg"
+  "catalogVisibility": "visible"
 }

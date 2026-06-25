@@ -2,14 +2,12 @@
   "id": 23659,
   "name": "Royal Canin Rottweiler Adult 12kg",
   "slug": "rottweiler-adult-12kg",
-  "sku": "ROC-ROTT-001",
   "onSale": false,
-  "price": 20000,
-  "regularPrice": 20000,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-ROTT-001.jpg",
   "categories": [
     {
       "id": 2345,
@@ -32,57 +30,18 @@
       "slug": "royal-canin"
     }
   ],
-  "brands": [
-    {
-      "id": 2423,
-      "name": "Royal Canin",
-      "slug": "royal-canin"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 1034,
-      "name": "large breed",
-      "slug": "large-breed"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=23659",
-  "shortDescription": "ROYAL CANIN? Rottweiler breed-specific nutrition has been formulated and designed to meet this breed?s unique needs. Complete feed for dogs – Specially for adult and mature Rottweilers – Over 18 months old",
   "description": "Suitable for Rottweilers aged 18 months old and over, ROYAL CANIN? Rottweiler Adult is specially formulated with all the nutritional needs of your adult dog in mind. ROYAL CANIN? Rottweiler Adult contains specific nutrients ? such as taurine, EPA, and DHA ? that help to support healthy cardiac function. ROYAL CANIN? Rottweiler Adult also contributes to the maintenance of optimal muscle mass and an ideal bodyweight, thanks to an adapted protein content and the inclusion of L-Carnitine. This diet ? rationed appropriately to regulate proper food intake ? should be fed in conjunction with an effective exercise routine. Whether working or just on a walk with its owner, the Rottweiler is always active and enthusiastic, which means it requires nutrients that support the health of its joints and bones. This is the reason ROYAL CANIN? Rottweiler Adult has been enriched with EPA and DHA ? these omega-3 fatty acids help to support your dog's healthy bones and joints. What's more, the exclusive kibble in ROYAL CANIN? Rottweiler Adult is specially designed to make it easier for your dog to pick up, it also encourages it to chew more thoroughly to help increase the feeling of fullness and maintain an ideal weight",
-  "images": [
-    {
-      "id": 23681,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-ROTT-001.jpg",
-      "alt": "Royal Canin Rottweiler Adult 12kg",
-      "name": "ROC-ROTT-001.jpg"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rottweiler-adult-12kg/?add-to-cart=23659",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2021-10-08T11:34:43",
-  "dateModified": "2026-06-17T04:23:42",
-  "brand": "Royal Canin",
-  "weight_kg": 12,
-  "animal_type": "dog",
-  "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-ROTT-001.jpg"
+  "catalogVisibility": "visible"
 }

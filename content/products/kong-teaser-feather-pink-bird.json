@@ -2,14 +2,12 @@
   "id": 16515,
   "name": "KONG Teaser Feather Pink Bird",
   "slug": "kong-teaser-feather-pink-bird",
-  "sku": "CAT41PB",
   "onSale": false,
-  "price": 850,
-  "regularPrice": 850,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/12/CAT41_3_1000x1000.jpg",
   "categories": [
     {
       "id": 1204,
@@ -32,61 +30,18 @@
       "slug": "kong-accessories"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=16515",
-  "shortDescription": "KONG Teaser Teaser Assorted",
   "description": "The KONG Feather Teaser is designed for interactive play, and each toy contains KONG Premium North American Catnip for added stimulation. Bright feathers and a crinkle sound tempt cats to capture this toy. Covered by KONG Satisfaction Guarantee. See KONG Satisfaction Guarantee document below for full details.",
-  "images": [
-    {
-      "id": 25810,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/12/CAT41_3_1000x1000.jpg",
-      "alt": "KONG Teaser Feather Pink Bird",
-      "name": "CAT41_3_1000x1000"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/kong-teaser-feather-pink-bird/?add-to-cart=16515",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2020-12-06T13:36:41",
-  "dateModified": "2026-05-06T17:06:40",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "cat",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/12/CAT41_3_1000x1000.jpg"
+  "catalogVisibility": "visible"
 }

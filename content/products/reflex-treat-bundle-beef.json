@@ -2,14 +2,12 @@
   "id": 33799,
   "name": "Reflex Dog Treat Bundle- 8pcs",
   "slug": "reflex-treat-bundle-beef",
-  "sku": "DTBUNDLE2",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "/images/psk_logo.png",
   "categories": [
     {
       "id": 2027,
@@ -17,39 +15,18 @@
       "slug": "bundles"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2122,
-      "name": "Bundle",
-      "slug": "bundle"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=33799",
-  "shortDescription": "1Pc Reflex Dog Treat Duck Jerky 80Gr 1Pc Reflex Dog Treat Chicken Jerky 80Gr 1Pc Reflex Dog Treat Duck Sausage 80Gr 1Pc Reflex Dog Treat Chicken Wrapped Sticks 80Gr 1Pc Reflex Dog Treat Duck Wrapped Sticks 80Gr 1Pc Reflex Dog Treat Beef Cubes 80Gr 1Pc Reflex Dog Treat Beef Slices 80Gr 1Pc Reflex Dog Treat Chicken Drumstick 80Gr",
   "description": "1Pc Reflex Dog Treat Duck Jerky 80Gr 1Pc Reflex Dog Treat Chicken Jerky 80Gr 1Pc Reflex Dog Treat Duck Sausage 80Gr 1Pc Reflex Dog Treat Chicken Wrapped Sticks 80Gr 1Pc Reflex Dog Treat Duck Wrapped Sticks 80Gr 1Pc Reflex Dog Treat Beef Cubes 80Gr 1Pc Reflex Dog Treat Beef Slices 80Gr 1Pc Reflex Dog Treat Chicken Drumstick 80Gr",
   "images": [],
-  "stockStatus": "outofstock",
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-treat-bundle-beef/?add-to-cart=33799",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2022-12-22T10:34:07",
-  "dateModified": "2026-05-06T17:08:27",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "/images/psk_logo.png"
+  "catalogVisibility": "visible"
 }

@@ -2,14 +2,12 @@
   "id": 17779,
   "name": "Rogz Dog Utility Fixed Lead/Leash XX-Large - Red",
   "slug": "rogz-dog-utility-fixed-lead-leash-xx-large-red",
-  "sku": "HL19-C",
   "onSale": false,
-  "price": 1600,
-  "regularPrice": 1600,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/HL19-C-Landingstrip-Red.jpg",
   "categories": [
     {
       "id": 2351,
@@ -32,51 +30,18 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1919,
-      "name": "Leashes",
-      "slug": "leash"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=17779",
-  "shortDescription": "Enhance every walk with the Rogz Utility Fixed Reflective Dog Lead, engineered with reflective stitching for night visibility and built with durable, contoured components for secure, comfortable handling. A premium, long-lasting leash designed for safer outings and reliable control. Rogz Utility Fixed Lead/Leash – XX-Large Red",
   "description": "Rogz Utility Fixed Reflective Dog Lead/Leash has a reflective yarn woven into the webbing for night time visibility so that everyone is aware that you & your dog are on an outing. Key Features: Reflective Stitching: Reflective yarn is woven into the webbing for night time visibility. RogLoc: RogLoc is the Fort Knox of release buckle Low Load Technology: LLT technology reduces the load on the Titanium Plastic buckle through a cleverly positioned load ring Contoured Plastic Component: ROGZ rounded contoured plastic components ensure that every ROGZ collar fits snugly Die-cast ring: Custom designed die cast ring (no welding). Electroplated chrome for a tarnish free finish Size: Length 0.5m, Width 4.0cm",
-  "images": [
-    {
-      "id": 17752,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/HL19-C-Landingstrip-Red.jpg",
-      "alt": "Rogz Dog Utility Fixed Lead/Leash XX-Large - Red",
-      "name": "HL19-C Landingstrip Red"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-fixed-lead-leash-xx-large-red/?add-to-cart=17779",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2021-01-12T12:56:12",
-  "dateModified": "2026-05-06T17:07:02",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/HL19-C-Landingstrip-Red.jpg"
+  "catalogVisibility": "visible"
 }

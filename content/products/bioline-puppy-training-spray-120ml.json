@@ -2,14 +2,12 @@
   "id": 36719,
   "name": "Bioline Puppy Training Spray 120ml",
   "slug": "bioline-puppy-training-spray-120ml",
-  "sku": "BLPT120",
   "onSale": false,
-  "price": 800,
-  "regularPrice": 800,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/05/BIOLINE-PUPPY-TRAINNER.png",
   "categories": [
     {
       "id": 2332,
@@ -17,51 +15,18 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=36719",
-  "shortDescription": "Bioline Puppy Training Spray for puppies, it is a scientifically formulated attract. Using this product will help train a puppy to urinate in the appropriate area.",
   "description": "Bioline Puppy Training Spray for puppies, it is a scientifically formulated attract. Using this product will help train a puppy to urinate in the appropriate area. The unique pheromone scent will attract and encourage dogs to urinate wherever the product is sprayed. It is made for both indoor and outdoor use. Special smell helps train dogs to defecate at fixed spots Ingredients: Essential oils, Deionised Water Warning: For dogs only. Keep out of reach of children. Store out of pet’s reach when not in use. Avoid direct contact with eyes and inner ears.",
-  "images": [
-    {
-      "id": 36721,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/05/BIOLINE-PUPPY-TRAINNER.png",
-      "alt": "Bioline Puppy Training Spray 120ml",
-      "name": "BIOLINE PUPPY TRAINNER"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/bioline-puppy-training-spray-120ml/?add-to-cart=36719",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-05-02T12:53:33",
-  "dateModified": "2026-05-06T17:08:37",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/05/BIOLINE-PUPPY-TRAINNER.png"
+  "catalogVisibility": "visible"
 }

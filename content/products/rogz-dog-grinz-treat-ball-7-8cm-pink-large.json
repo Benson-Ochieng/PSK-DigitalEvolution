@@ -2,14 +2,12 @@
   "id": 40899,
   "name": "Rogz Dog Grinz Treat Ball 7.8cm - Pink Large",
   "slug": "rogz-dog-grinz-treat-ball-7-8cm-pink-large",
-  "sku": "GR04-K@F",
-  "onSale": true,
-  "price": 818,
-  "regularPrice": 1635,
-  "salePrice": 818,
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/GR04-K-Grinz-Pink.jpg",
   "categories": [
     {
       "id": 2345,
@@ -32,41 +30,18 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=40899",
-  "shortDescription": "Rogz Dog Grinz Treat Ball – Pink, 7.8 cm. A durable, chew-safe, floating toy that entertains dogs while dispensing treats and promoting mental stimulation.",
   "description": "Keep your dog entertained, active, and mentally stimulated with the Rogz Dog Grinz Treat Ball . This innovative toy combines the functions of a chew toy, fetch ball, and treat dispenser in one durable, interactive design. Its bright pink SEBS rubber construction is firm enough to bounce effectively during indoor or outdoor play, yet soft enough to be gentle on your dog’s teeth. Ideal for medium to large dogs, this 7.8 cm treat ball can be filled with your dog’s favorite treats, providing a fun challenge that encourages problem-solving and prolonged engagement. The floating design also makes it suitable for water play, adding an extra layer of fun to exercise sessions. Key Benefits: Promotes mental stimulation through interactive treat dispensing Safe, non-toxic SEBS rubber construction gentle on teeth Bouncy and fetch-friendly for indoor and outdoor play Floats on water for swimming or pool games Medium Bite-O-Meter rating suitable for moderate chewers",
-  "images": [
-    {
-      "id": 17325,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/GR04-K-Grinz-Pink.jpg",
-      "alt": "Rogz Dog ginz-Treat Ball 7.8cm – Pink Large",
-      "name": "GR04-K Grinz Pink"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-7-8cm-pink-large/?add-to-cart=40899",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-11-09T07:54:44",
-  "dateModified": "2026-06-04T13:05:43",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/GR04-K-Grinz-Pink.jpg"
+  "catalogVisibility": "visible"
 }

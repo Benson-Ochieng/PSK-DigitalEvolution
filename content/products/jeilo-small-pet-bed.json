@@ -2,14 +2,12 @@
   "id": 20307,
   "name": "Jeilo Fixed Pet bed - small",
   "slug": "jeilo-small-pet-bed",
-  "sku": "JPBFS",
   "onSale": false,
-  "price": 3500,
-  "regularPrice": 3500,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/JBPF.png",
   "categories": [
     {
       "id": 2325,
@@ -32,71 +30,18 @@
       "slug": "dog-beds-furniture"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2082,
-      "name": "Beds",
-      "slug": "beds"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2109,
-      "name": "Small breeds",
-      "slug": "small-breeds"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=20307",
-  "shortDescription": "Jeilo fixed pet bed – small",
   "description": "The Jeilo fixed small pet bed is the perfect bed for your mini and small pet. Covered with Ankara material and filled with soft fiber. It soft and cozy providing quality rest and comfort. The Dimensions for the small bed are: 23\"W x 24\"L x 5\"H",
-  "images": [
-    {
-      "id": 20309,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/JBPF.png",
-      "alt": "Jeilo fixed Pet bed",
-      "name": "Jeilo fixed Pet bed"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/jeilo-small-pet-bed/?add-to-cart=20307",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2021-04-26T21:28:51",
-  "dateModified": "2026-05-06T17:07:21",
-  "brand": null,
-  "weight_kg": 3,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/JBPF.png"
+  "catalogVisibility": "visible"
 }

@@ -2,14 +2,12 @@
   "id": 8604,
   "name": "SHORT EXPIRY - CLEARANCE: Reflex Dog Treats - Joint Care Pocket Treats, Chicken 95g",
   "slug": "reflex-dog-treats-joint-care-pocket-treats-chicken-95g-clearance",
-  "sku": "RDPTJCC95@SE",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/10/PetStore-Kenya-Reflex-Dog-Treats-Joint-Care-Chicken-min.png",
   "categories": [
     {
       "id": 1304,
@@ -37,57 +35,18 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
-    {
-      "id": 2611,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1385,
-      "name": "joint care",
-      "slug": "joint-care"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=8604",
-  "shortDescription": "Reflex Dog Treats – Joint Care Pocket Treats, Chicken. Expires 15/02/2020. With chondroitin and MSM (methylsulfonylmethane) to help increase joint mobility and reduce joint pain associated with osteoarthritis.",
   "description": "Reflex Dog Treats - Joint Care Pocket Treats, Chicken. Perfectly sized dog biscuits for training and for rewarding good behaviour. With chondroitin and MSM (methylsulfonylmethane) to help increase joint mobility and reduce joint pain associated with osteoarthritis. Made with the highest quality ingredients and bursting with flavour. INGREDIENTS:? Cereals, oils and fats, derivatives of vegetable origin, meat and animal derivatives (7% chicken), minerals, glucosamine (0,115%), milk and milk derivatives, chondroitin sulfate (0,043%), methylsulfonylmethane (MSM). NUTRIENT COMPONENTS Crude Protein (%) - 12 Crude Fat (%) - 723 Crude Ash (%) - 4 Crude Fiber (%) - 1 Vitamin A - 2,000 IU Vitamin D3 - 300 IU Vitamin E - 113 mg FEEDING RECOMMENDATIONS: Treats may be given as an additional snack. This product does not replace full-dog food daily. Keep in a dry, cool place. Once open, close tightly and use within one month.",
-  "images": [
-    {
-      "id": 3705,
-      "src": "https://petstore.co.ke/wp-content/uploads/2019/10/PetStore-Kenya-Reflex-Dog-Treats-Joint-Care-Chicken-min.png",
-      "alt": "PetStore Kenya Reflex Dog Treats Joint Care Chicken min",
-      "name": "PetStore Kenya Reflex Dog Treats Joint Care Chicken min"
-    }
-  ],
-  "stockStatus": "outofstock",
-  "lowStockRemaining": 10,
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-dog-treats-joint-care-pocket-treats-chicken-95g-clearance/?add-to-cart=8604",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2020-01-09T11:36:50",
-  "dateModified": "2026-05-06T17:06:25",
-  "brand": "Reflex",
-  "weight_kg": 0.095,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/10/PetStore-Kenya-Reflex-Dog-Treats-Joint-Care-Chicken-min.png"
+  "catalogVisibility": "visible"
 }

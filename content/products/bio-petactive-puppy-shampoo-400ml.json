@@ -2,14 +2,12 @@
   "id": 24777,
   "name": "Bio Petactive Puppy Shampoo 400ml",
   "slug": "bio-petactive-puppy-shampoo-400ml",
-  "sku": "BPPS400",
   "onSale": false,
-  "price": 900,
-  "regularPrice": 900,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/BioPetactive-Puppy.jpg",
   "categories": [
     {
       "id": 2332,
@@ -17,46 +15,18 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 2025,
-      "name": "shampoo",
-      "slug": "shampoo"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=24777",
-  "shortDescription": "Bio PetActive Puppy Shampoo with its chamomile extract and cleansing substances in shampoo formula, it nourishes the skin and fur, giving them extra strength and shine.",
   "description": "Bio PetActive Puppy Shampoo with its chamomile extract and cleansing substances in shampoo formula, it nourishes the skin and fur, giving them extra strength and shine.",
-  "images": [
-    {
-      "id": 24778,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/BioPetactive-Puppy.jpg",
-      "alt": "Bio Petactive Puppy Shampoo 400ml",
-      "name": "BioPetactive Puppy"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/bio-petactive-puppy-shampoo-400ml/?add-to-cart=24777",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2022-01-20T09:10:04",
-  "dateModified": "2026-05-06T17:07:54",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/BioPetactive-Puppy.jpg"
+  "catalogVisibility": "visible"
 }

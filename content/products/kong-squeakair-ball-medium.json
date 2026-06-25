@@ -2,14 +2,12 @@
   "id": 16463,
   "name": "KONG SqueakAir Ball Md",
   "slug": "kong-squeakair-ball-medium",
-  "sku": "AST2B",
   "onSale": false,
-  "price": 250,
-  "regularPrice": 250,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/12/KONG-SQUEAKAIR-BALL-MD.jpg",
   "categories": [
     {
       "id": 2345,
@@ -32,61 +30,18 @@
       "slug": "kong-accessories"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=16463",
-  "shortDescription": "KONG Squeak Air Ball – Medium",
   "description": "The KONGSqueakAir? Ball combines two classic dog toys - the tennis ball and the squeaker toy - to create the perfect fetch toy. Our durable, high-quality Squeak air? Tennis Ball will not wear down your dog?s teeth. It?s made with special non-abrasive felt. Fetch toy for healthy; active play Non-abrasive KONGTennis material; softer on teeth Squeaker entices play",
-  "images": [
-    {
-      "id": 34595,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/12/KONG-SQUEAKAIR-BALL-MD.jpg",
-      "alt": "KONG SqueakAir Ball Md",
-      "name": "KONG SQUEAKAIR BALL MD"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/kong-squeakair-ball-medium/?add-to-cart=16463",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2020-12-06T13:40:21",
-  "dateModified": "2026-05-06T17:06:40",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/12/KONG-SQUEAKAIR-BALL-MD.jpg"
+  "catalogVisibility": "visible"
 }

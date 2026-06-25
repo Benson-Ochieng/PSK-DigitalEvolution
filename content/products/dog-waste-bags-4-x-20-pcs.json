@@ -2,14 +2,12 @@
   "id": 33152,
   "name": "Dog Waste Bags - 4 X 20 Pcs",
   "slug": "dog-waste-bags-4-x-20-pcs",
-  "sku": "MPDWB02",
   "onSale": false,
-  "price": 388,
-  "regularPrice": 388,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/11/MPDWB02-M-PETS_Waste-Bags-4rolls-20pcs.jpg",
   "categories": [
     {
       "id": 2332,
@@ -17,35 +15,18 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=33152",
-  "shortDescription": "Lemon Scented, Black Unscented, Mixed Colours Unscented",
   "description": "Lemon Scented, Black Unscented, Mixed Colours Unscented",
-  "images": [
-    {
-      "id": 33131,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/11/MPDWB02-M-PETS_Waste-Bags-4rolls-20pcs.jpg",
-      "alt": "Dog Waste Bags - 4 X 20 Pcs",
-      "name": "MPDWB02 M-PETS_Waste Bags 4rolls 20pcs"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/dog-waste-bags-4-x-20-pcs/?add-to-cart=33152",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-06-14T12:32:34",
-  "dateModified": "2026-05-06T17:08:26",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/11/MPDWB02-M-PETS_Waste-Bags-4rolls-20pcs.jpg"
+  "catalogVisibility": "visible"
 }

@@ -2,14 +2,12 @@
   "id": 24563,
   "name": "Rogz Cat H-Harness & Lead Set X-Small - Blue",
   "slug": "rogz-cat-h-harness-lead-set-x-small-blue",
-  "sku": "CLJ208-B",
   "onSale": false,
-  "price": 2500,
-  "regularPrice": 2500,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/CLJ208-B-Nightcat-Blue.jpg",
   "categories": [
     {
       "id": 1204,
@@ -22,41 +20,18 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2318,
-      "name": "Harnesses",
-      "slug": "harness"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=24563",
-  "shortDescription": "Rogz Reflective Cat Harness",
   "description": "Rogz Catz 8mm NightCat Reflective Cat Lead and H-Harness Combination, Blue Floral Design Harness and Lead Combination, Scratchproof Webbing, Fully Adjustable Harness.",
-  "images": [
-    {
-      "id": 24588,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/CLJ208-B-Nightcat-Blue.jpg",
-      "alt": "Rogz Cat H-Harness & Lead Set X-Small - Blue",
-      "name": "CLJ208-B-Nightcat-Blue.jpg"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-cat-h-harness-lead-set-x-small-blue/?add-to-cart=24563",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2022-01-15T21:40:31",
-  "dateModified": "2026-05-06T17:07:51",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "cat",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/CLJ208-B-Nightcat-Blue.jpg"
+  "catalogVisibility": "visible"
 }

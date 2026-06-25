@@ -2,14 +2,12 @@
   "id": 54094,
   "name": "Proline Sterilised Adult Cat Food Chicken 0.4kg",
   "slug": "proline-sterilised-adult-cat-food-chicken-0-4kg-2-2",
-  "sku": "PCD017@F",
-  "onSale": true,
-  "price": 473,
-  "regularPrice": 675,
-  "salePrice": 473,
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/09/PROLINE-STERILISED-ADULT-CAT-FOOD-CHICKEN-0.4KG.png",
   "categories": [
     {
       "id": 796,
@@ -17,47 +15,18 @@
       "slug": "proline"
     }
   ],
-  "brands": [
-    {
-      "id": 2069,
-      "name": "Proline",
-      "slug": "proline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=54094",
-  "shortDescription": "Fully balanced all-natural cat food with chicken protein. Carefully formulated by cat nutritionists to meet the nutritional requirements of all neutered adult cats. &nbsp;",
   "description": "Fully balanced all-natural cat food with chicken protein. Carefully formulated by cat nutritionists to meet the nutritional requirements of all neutered adult cats. It is our job to meet the needs of your lovely friends in the best way possible. We ensure that they live a comfortable life with rich foods full of vitamins and minerals that support their health and behavior. Healthy Skin and Shiny Coat Support for Intestinal Health Strong Immune System Healthy Skeleton and Teeth Complete and Balanced Organic Minerals &nbsp; CONTENTS: Processed Chicken Protein (35%), Wheat, Corn, Rice, Animal Fat, Corn Gluten, Dried Sugar Beet, Liver Flavor, Salt, Flaxseed, Brewer's Yeast, Taurine (3A370), Preservatives and Antioxidants (E320 & E321). MINERALS: Iron(3B103), Iodine(3B202), Copper(3B405), Manganese(3B502), Zinc(3B603), Selenium(3B802) VITAMINS: Vitamin A (3A672A), Vitamin D3 (3A671), Vitamin E (3A700), Vitamin C (3A300), Vitamin B1 (3A821), B2 (3A825i), B3 (Niacin-3A315), B6 ​​(3A831), B12 (3A). ), B7 (Biotin-3A880), B9 (Folic Acid-3A316), Vitamin K3 (3A710), Choline (3A890), Calcium Pantothenate (3A841) NUTRITIONAL VALUES NUTRITIONAL ADDITIVES Crude Protein 31% Vitamin A 15000 IU/kg Crude Oil 11% Vitamin D3 1000 IU/kg Raw Ash 8% Vitamin E 150 mg/kg Crude Cellulose (Fiber) 5% Vitamin C 120 mg/kg Taurine 1000 mg/kg DAILY FEEDING TABLE 1 - 2 kg 30 - 45g 3 - 4 kg 60 - 80g 5 - 6 kg 100 - 120g 7 - 8 kg 140 - 160g FEEDING RECOMMENDATIONS AND WARNINGS ● See the table for the recommended daily feeding amount (grams/day) according to your cat's weight (kg). ● The daily amount of food to be given may vary depending on the outside temperature, your cat's living conditions (indoors/outdoors), character and activity. ● In order for your cat to be at its ideal weight, it is important to weigh the amount of food and give it. ● In order to correctly adjust the amount of food to be given, it will be helpful to evaluate your cat's appetite, appearance and stool. ● The transition from one food to another should be done gradually by mixing small amounts of both foods and giving them for a week. ● The storage life is 18 months from the production date. ● The production date is written on the packaging. ● Keep the package closed in a dry and cool environment. ● Always keep clean drinking water in your cat's water bowl next to dry food. ● It should not be used as human food.",
-  "images": [
-    {
-      "id": 50445,
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/09/PROLINE-STERILISED-ADULT-CAT-FOOD-CHICKEN-0.4KG.png",
-      "alt": "Proline Sterilised Adult Cat Food Chicken 0.4kg",
-      "name": "PROLINE STERILISED ADULT CAT FOOD CHICKEN 0.4KG"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/proline-sterilised-adult-cat-food-chicken-0-4kg-2-2/?add-to-cart=54094",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2025-03-21T16:07:43",
-  "dateModified": "2026-05-06T17:11:13",
-  "brand": "Proline",
-  "weight_kg": 0.4,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/09/PROLINE-STERILISED-ADULT-CAT-FOOD-CHICKEN-0.4KG.png"
+  "catalogVisibility": "visible"
 }

@@ -2,14 +2,12 @@
   "id": 24210,
   "name": "Cat Litter Box - Pink",
   "slug": "cat-litter-box-pink",
-  "sku": "CLBPK",
   "onSale": false,
-  "price": 2320,
-  "regularPrice": 2320,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/CLBPK.jpg",
   "categories": [
     {
       "id": 1204,
@@ -42,66 +40,18 @@
       "slug": "cat-litter-boxes"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 819,
-      "name": "cat litter",
-      "slug": "cat-litter"
-    },
-    {
-      "id": 2119,
-      "name": "cat litter box",
-      "slug": "cat-litter-box"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=24210",
-  "shortDescription": "This Cat Litter Box combines beauty and functionality.",
   "description": "This Cat Litter Box combines beauty and functionality. It is open with raised sides to prevent cat litter falling over making it an easy-to-clean litter box.",
-  "images": [
-    {
-      "id": 24211,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/CLBPK.jpg",
-      "alt": "Cat Litter Box - Pink",
-      "name": "CLBPK"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/cat-litter-box-pink/?add-to-cart=24210",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2022-01-04T15:57:39",
-  "dateModified": "2026-05-06T17:07:49",
-  "brand": null,
-  "weight_kg": 1,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/CLBPK.jpg"
+  "catalogVisibility": "visible"
 }

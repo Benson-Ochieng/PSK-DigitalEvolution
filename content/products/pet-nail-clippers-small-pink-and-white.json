@@ -2,14 +2,12 @@
   "id": 20323,
   "name": "GENERIC Pet Nail Clippers With File- Small",
   "slug": "pet-nail-clippers-small-pink-and-white",
-  "sku": "PZNC01",
   "onSale": false,
-  "price": 800,
-  "regularPrice": 800,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/NAIL-CLIPPER-WITH-FILE_blue.jpg",
   "categories": [
     {
       "id": 1204,
@@ -62,71 +60,18 @@
       "slug": "generic"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1149,
-      "name": "flea & tick",
-      "slug": "flea-tick"
-    },
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=20323",
-  "shortDescription": "Small size pet nail clippers with file. Colour: Blue and white.",
   "description": "Small size pet nail clippers with file. Colour: Blue and white. usage method: Grasp Pet's Foot steady. Put the tip of pet nails into the knife and trim them slowly, several times. Avoid cutting blood lines into pet nails and causing bleeding. Avoid one-off large-area manicure of pet nails. When using nail clippers, please use safety shield to gradually trim, so as not to hurt toes by too much trimming. If the pet's nails are too long, first trim a small part of the nail tips, every other week until the nails reach the appropriate length, leaving enough time for the pet to adapt. After trimming the nails, use the matching file to rub the nails until they are smooth.",
-  "images": [
-    {
-      "id": 45120,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/NAIL-CLIPPER-WITH-FILE_blue.jpg",
-      "alt": "Cs Pet Nail Clipper Set Large Pink",
-      "name": "NAIL-CLIPPER-WITH-FILE_blue"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/pet-nail-clippers-small-pink-and-white/?add-to-cart=20323",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2021-04-26T22:13:09",
-  "dateModified": "2026-05-06T17:07:21",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/NAIL-CLIPPER-WITH-FILE_blue.jpg"
+  "catalogVisibility": "visible"
 }

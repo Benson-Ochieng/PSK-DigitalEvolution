@@ -2,14 +2,12 @@
   "id": 24272,
   "name": "CatPlus Bentonite Cat Litter - 10 L (Unscented)",
   "slug": "catplus-bentonite-cat-litter-10-l-unscented",
-  "sku": "CPCL001",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/CatPlus-Cat-Litter-01.jpg",
   "categories": [
     {
       "id": 2325,
@@ -32,57 +30,18 @@
       "slug": "cat-litter-and-accessories"
     }
   ],
-  "brands": [
-    {
-      "id": 2431,
-      "name": "CatPlus",
-      "slug": "catplus"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 819,
-      "name": "cat litter",
-      "slug": "cat-litter"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=24272",
-  "shortDescription": "CatPlus Bentonite Natural Cat Litter traps bad odours with its clumping structure and provides good hygiene for your cat.",
   "description": "The clumping structure of CatPlus Natural Bentonite cat litter facilitates the collection of liquid and solid wastes that have accumulated in the toilet bowl.? Thanks to the high absorbency of the sand, the urine does not reach the floor where your pawed friend urinates and it greatly reduces the formation of bad odor.? Thus, in addition to a hygienic appearance, it also prevents bad odors that may occur.? CatPlus Bentonit Natural cat litter is produced from granulated bentonite clay, which allows your friend's litter to clump together when it gets wet and clumps in the toilet box.? In this way, you can easily collect the clumped sand without completely changing the sand in the toilet bowl.? In this way, while providing hygiene for your friend, you will save money since you will not change sand as often compared to other sands.? CatPlus Natural Bentonite cat litter provides an economical and easy-to-use experience thanks to its clumping structure.? The structures of the minerals in the 100% natural CatPlus Natural Bentonite cat litter, which does not contain any substances that may be harmful to your paw friend in its production, have the feature of absorbing the liquid to a great extent and high clumping.? CatPlus Natural Bentonite cat litter absorbs the urine quickly and traps it inside, thus preventing harmful bacteria from forming in the area where your pawed friend meets his toilet needs.? In this way, it provides a hygienic environment for both you and your paw friend.? The structures of the minerals in the 100% natural CatPlus Natural Bentonite cat litter, which does not contain any substances that may be harmful to your paw friend in its production, have the feature of absorbing the liquid to a great extent and high clumping.? CatPlus Natural Bentonite cat litter absorbs the urine quickly and traps it inside, thus preventing harmful bacteria from forming in the area where your pawed friend meets his toilet needs.? In this way, it provides a hygienic environment for both you and your paw friend.? The structures of the minerals in the 100% natural CatPlus Natural Bentonite cat litter, which does not contain any substances that may be harmful to your paw friend in its production, have the feature of absorbing the liquid to a great extent and high clumping.? CatPlus Natural Bentonite cat litter absorbs the urine quickly and traps it inside, thus preventing harmful bacteria from forming in the area where your pawed friend meets his toilet needs.? In this way, it provides a hygienic environment for both you and your paw friend.",
-  "images": [
-    {
-      "id": 24273,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/CatPlus-Cat-Litter-01.jpg",
-      "alt": "CatPlus Bentonite Cat Litter - 10 L (Unscented)",
-      "name": "CatPlus Cat Litter-01"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/catplus-bentonite-cat-litter-10-l-unscented/?add-to-cart=24272",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2022-01-07T10:27:00",
-  "dateModified": "2026-06-17T04:32:57",
-  "brand": "CatPlus",
-  "weight_kg": 10,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/CatPlus-Cat-Litter-01.jpg"
+  "catalogVisibility": "visible"
 }

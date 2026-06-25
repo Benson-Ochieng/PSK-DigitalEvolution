@@ -2,14 +2,12 @@
   "id": 37819,
   "name": "Bioline Catnip Dental Sticks (5pcs)",
   "slug": "bioline-catnip-dental-sticks-5pcs",
-  "sku": "BLCDS5",
   "onSale": false,
-  "price": 450,
-  "regularPrice": 450,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/06/Bioline-Catnip-Dental-Sticks.png",
   "categories": [
     {
       "id": 2325,
@@ -27,46 +25,18 @@
       "slug": "cat-treats"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=37819",
-  "shortDescription": "Bioline catnip dental sticks, pick the best part of the main vine of the catnip, remove the plaque and tartar on cat’s tooth, fresh the dental and help the cats excrete the hairball, and other poisonous substances.",
   "description": "Bioline catnip dental sticks , pick the best part of the main vine of the catnip, remove the plaque and tartar on cat’s tooth, fresh the dental and help the cats excrete the hairball, and other poisonous substances. Natural catnip is one of the favorite plants for cats, cats can smell the unique fragrance, relax itself, relieve stress, presented as excitement, rolling on the ground and other acts. It is beneficial to the health of cats’ hearts and lungs. Most of the cats will be excited when they smell or lick the catnip dental sticks, make soft sound, or show similar status of estrus and act in pettish, closer to their owners. Usage: Adult cat 2 – 3 times per week, one piece for one time.",
-  "images": [
-    {
-      "id": 37820,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/06/Bioline-Catnip-Dental-Sticks.png",
-      "alt": "Bioline Catnip Dental Sticks (5pcs)",
-      "name": "Bioline Catnip Dental Sticks"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/bioline-catnip-dental-sticks-5pcs/?add-to-cart=37819",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-06-17T12:03:18",
-  "dateModified": "2026-05-06T17:08:43",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/06/Bioline-Catnip-Dental-Sticks.png"
+  "catalogVisibility": "visible"
 }

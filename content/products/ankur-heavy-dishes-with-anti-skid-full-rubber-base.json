@@ -2,14 +2,12 @@
   "id": 16707,
   "name": "ANKUR Heavy Dishes with Anti Skid Full Rubber Base 480ML",
   "slug": "ankur-heavy-dishes-with-anti-skid-full-rubber-base",
-  "sku": "HD480",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/12/Ankur-Heavy-Dish-with-Rubber-Base-e1610899293791.png",
   "categories": [
     {
       "id": 1204,
@@ -22,56 +20,18 @@
       "slug": "ankur"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=16707",
-  "shortDescription": "Ankur Rubber Base Bowl",
   "description": "ANKUR Heavy Dish stainless bowls are made with a heavier gauge of steel and come with a rubber base that effectively reduces noise and skidding while your pets eat. It also protectsall floors from scratches.",
-  "images": [
-    {
-      "id": 16690,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/12/Ankur-Heavy-Dish-with-Rubber-Base-e1610899293791.png",
-      "alt": "Ankur Rubber Base Bowl",
-      "name": "Ankur Heavy Dish with Rubber Base"
-    }
-  ],
-  "stockStatus": "outofstock",
-  "lowStockRemaining": 2,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/ankur-heavy-dishes-with-anti-skid-full-rubber-base/?add-to-cart=16707",
-  "status": "draft",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2020-12-08T10:16:40",
-  "dateModified": "2026-05-06T17:06:42",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/12/Ankur-Heavy-Dish-with-Rubber-Base-e1610899293791.png"
+  "catalogVisibility": "visible"
 }

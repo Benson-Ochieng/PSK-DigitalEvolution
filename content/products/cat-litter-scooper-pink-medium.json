@@ -2,14 +2,12 @@
   "id": 33120,
   "name": "Cat Litter Scooper Pink Medium",
   "slug": "cat-litter-scooper-pink-medium",
-  "sku": "CLSPM",
   "onSale": false,
-  "price": 232,
-  "regularPrice": 232,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/11/CLSPM-Cat-Litter-Scooper-Pink-Medium.jpg",
   "categories": [
     {
       "id": 2325,
@@ -32,56 +30,18 @@
       "slug": "cat-litter-and-accessories"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 819,
-      "name": "cat litter",
-      "slug": "cat-litter"
-    },
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=33120",
-  "shortDescription": "Lightweight Cat Litter Scoop",
   "description": "This cat litter scooper is portable, lightweight, and durable. ? Flat, thin, & sharp leading edge sits flush against your cat litter box floor to scoop underneath cat litter, rather than into clumped litter. ? Faster sifting. ? High walls on this litter scoop prevent scatter. ? Comfortable, ergonomic & longer type handle.",
-  "images": [
-    {
-      "id": 33097,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/11/CLSPM-Cat-Litter-Scooper-Pink-Medium.jpg",
-      "alt": "Cat Litter Scooper Pink Medium",
-      "name": "CLSPM &#8211; Cat Litter Scooper Pink Medium"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/cat-litter-scooper-pink-medium/?add-to-cart=33120",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2022-12-04T11:00:40",
-  "dateModified": "2026-05-06T17:08:25",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/11/CLSPM-Cat-Litter-Scooper-Pink-Medium.jpg"
+  "catalogVisibility": "visible"
 }

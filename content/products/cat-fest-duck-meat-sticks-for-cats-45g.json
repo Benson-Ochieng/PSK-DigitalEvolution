@@ -2,14 +2,12 @@
   "id": 36484,
   "name": "Cat Fest Duck Meat Sticks For Cats 45g",
   "slug": "cat-fest-duck-meat-sticks-for-cats-45g",
-  "sku": "CF007",
   "onSale": false,
-  "price": 190,
-  "regularPrice": 190,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/04/cat-duck-meat-sticks.jpg",
   "categories": [
     {
       "id": 2325,
@@ -27,46 +25,18 @@
       "slug": "cat-treats"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=36484",
-  "shortDescription": "Our duck sausages are loved by all cats, Pamper yours too!",
   "description": "Description Our duck sausages are loved by all cats. Pamper yours too. Ingredients: duck meat, plant products, minerals. Analytical Components: crude protein 28%, fats 4.5%, crude fiber 0.1%, moisture 25%; energy value – 152.5 kcal. Usage: Serve as a treat during the day. Adjust the amount according to your pet’s needs and condition. Do not overdo it.",
-  "images": [
-    {
-      "id": 36485,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/04/cat-duck-meat-sticks.jpg",
-      "alt": "Cat Fest Duck Meat Sticks For Cats 45g",
-      "name": "cat duck meat sticks"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/cat-fest-duck-meat-sticks-for-cats-45g/?add-to-cart=36484",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-04-20T11:02:06",
-  "dateModified": "2026-05-06T17:08:35",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/04/cat-duck-meat-sticks.jpg"
+  "catalogVisibility": "visible"
 }

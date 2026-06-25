@@ -2,14 +2,12 @@
   "id": 18055,
   "name": "Generic Premium Dog Food Bowl 1400ml-Purple",
   "slug": "premium-dog-food-bowl-1400ml-purple",
-  "sku": "DFB1400PU",
   "onSale": false,
-  "price": 850,
-  "regularPrice": 850,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/DFB1400P.jpg",
   "categories": [
     {
       "id": 1204,
@@ -32,61 +30,18 @@
       "slug": "generic"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2072,
-      "name": "Bowls",
-      "slug": "bowls"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=18055",
-  "shortDescription": "Upgrade your pet’s dining experience with the Premium Curved Dog Plastic Food Bowl, designed for both style and practicality. With a generous 1400ml capacity, this bowl is perfect for satisfying even the hungriest of dogs or for multiple pet households.",
   "description": "Upgrade your pet’s dining experience with the Premium Curved Dog Plastic Food Bowl, designed for both style and practicality. With a generous 1400ml capacity, this bowl is perfect for satisfying even the hungriest of dogs or for multiple pet households. Key Features: Spacious Capacity: The 1400ml size ensures ample room for food or water, making it ideal for larger breeds or multiple servings throughout the day. Curved Design: The elegant, curved shape not only adds a touch of sophistication to your pet’s feeding area but also helps reduce spills and messes. Durable Plastic Construction: Made from high-quality, durable plastic, this bowl is built to withstand daily use and is resistant to cracks and breakage. Variety of Colors: Available in a range of vibrant colors, you can choose the perfect shade to match your home decor or your pet’s personality. Easy to Clean: The smooth plastic surface is easy to clean by hand or in the dishwasher, ensuring convenience for busy pet owners. Non-Slip Base: Designed with a non-slip base to prevent sliding and tipping, keeping your pet’s mealtime mess-free and enjoyable.",
-  "images": [
-    {
-      "id": 18010,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/DFB1400P.jpg",
-      "alt": "Generic Premium Dog Food Bowl 1400ml-Purple",
-      "name": "DFB1400P"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/premium-dog-food-bowl-1400ml-purple/?add-to-cart=18055",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2021-01-13T22:28:08",
-  "dateModified": "2026-05-06T17:07:08",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/DFB1400P.jpg"
+  "catalogVisibility": "visible"
 }

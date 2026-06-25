@@ -2,14 +2,12 @@
   "id": 37825,
   "name": "Bioline Chew Stop 120ml",
   "slug": "bioline-chew-stop-120ml",
-  "sku": "BLCS120",
   "onSale": false,
-  "price": 850,
-  "regularPrice": 850,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/06/Bioline-chew-stop.png",
   "categories": [
     {
       "id": 2332,
@@ -17,46 +15,18 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=37825",
-  "shortDescription": "Bioline Chew Stop Spray is used to protect your furnishing from dogs who like chewing. It has an unpleasant taste that will stop your dog from chewing on furnishing and upholstery.",
   "description": "Bioline Chew Stop Spray is used to protect your furnishing from dogs who like chewing. It has an unpleasant taste that will stop your dog from chewing on furnishing and upholstery. Benefits: Natural extracts and protects your furnishings from dogs who like chewing. Ingredients: Margosa Extract Oil and Purified Water",
-  "images": [
-    {
-      "id": 37827,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/06/Bioline-chew-stop.png",
-      "alt": "Bioline Chew Stop 120ml",
-      "name": "Bioline chew stop"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/bioline-chew-stop-120ml/?add-to-cart=37825",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-06-17T12:19:52",
-  "dateModified": "2026-05-06T17:08:43",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/06/Bioline-chew-stop.png"
+  "catalogVisibility": "visible"
 }

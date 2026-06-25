@@ -2,14 +2,12 @@
   "id": 8636,
   "name": "SHORT EXPIRY - CLEARANCE: Bonnie Adult Cat Food Pouch - Beef Chunks in Gravy 100g",
   "slug": "bonnie-adult-cat-food-pouch-beef-chunks-in-gravy-0-1kg-clearance",
-  "sku": "BPCBJ100@S",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/09/Bonnie-Adult-Cat-pouch-beef-100g-min.png",
   "categories": [
     {
       "id": 177,
@@ -47,62 +45,18 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2428,
-      "name": "Bonnie",
-      "slug": "bonnie"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=8636",
-  "shortDescription": ". (4 pieces minimum order) Full-balanced, beef protein-containing canned (wet) cat food carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult breeds.",
   "description": "Bonnie Adult Cat Food Pouch - Beef Chunks in Gravy ,?fully-balanced, beef protein-containing cat food?carefully formulated by?cat / dog?nutritionists?to meet the nutritional requirements of all adult breeds. NUTRIENT COMPONENTS Crude Protein (%) - 8.5 Crude Oils & Fats (%) - 4,5 Crude Fiber (%) -?0.3 Moisture (%) -?83 Crude Ash (%) - 2.5 Vitamin A (Min) - 15 mg/kg Vitamin D3 (Min) - 250 IU/kg Copper -?1 mg/kg Manganese -?1 mg/kg Zinc - 15 mg/kg Biotin - 20 ?g/kg Taurine - 445 mg/kg INGREDIENTS: ?Meat & Animal Derivatives (Beef 5% min.), minerals, inulin (0.1%).",
-  "images": [
-    {
-      "id": 3405,
-      "src": "https://petstore.co.ke/wp-content/uploads/2019/09/Bonnie-Adult-Cat-pouch-beef-100g-min.png",
-      "alt": "Bonnie Adult Cat pouch beef 100g min",
-      "name": "Bonnie Adult Cat pouch beef 100g min"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/bonnie-adult-cat-food-pouch-beef-chunks-in-gravy-0-1kg-clearance/?add-to-cart=8636",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "hidden",
-  "dateCreated": "2020-01-09T12:13:50",
-  "dateModified": "2026-06-17T04:32:50",
-  "brand": "Bonnie",
-  "weight_kg": 0.1,
-  "animal_type": "cat",
-  "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/09/Bonnie-Adult-Cat-pouch-beef-100g-min.png"
+  "catalogVisibility": "visible"
 }

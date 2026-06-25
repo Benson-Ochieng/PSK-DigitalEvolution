@@ -2,14 +2,12 @@
   "id": 16521,
   "name": "KONG Kickeroo Pattern #1",
   "slug": "kong-kickeroo-pattern",
-  "sku": "CR1",
   "onSale": false,
-  "price": 850,
-  "regularPrice": 850,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/12/KONG-KICKEROO-PARTTERN.jpg",
   "categories": [
     {
       "id": 2345,
@@ -27,61 +25,18 @@
       "slug": "kong-accessories"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=16521",
-  "shortDescription": "KONG Kickeroo Toy for Cats",
   "description": "KONGKickeroo?s? long length encourages your cat to kick with hind paws, promoting tons of healthy, full-body activity. Fluffy tail sparks hunting instincts and Kickeroo?s soft material is lovely for snuggling. The crinkling sound keeps kitties interested while the KONGPremium North American Catnip boosts the fun.",
-  "images": [
-    {
-      "id": 34547,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/12/KONG-KICKEROO-PARTTERN.jpg",
-      "alt": "KONG Kickeroo Pattern #1",
-      "name": "KONG KICKEROO PARTTERN"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/kong-kickeroo-pattern/?add-to-cart=16521",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2020-12-06T13:40:19",
-  "dateModified": "2026-05-06T17:06:40",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/12/KONG-KICKEROO-PARTTERN.jpg"
+  "catalogVisibility": "visible"
 }

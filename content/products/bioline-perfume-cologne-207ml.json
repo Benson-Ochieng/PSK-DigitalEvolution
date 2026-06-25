@@ -2,14 +2,12 @@
   "id": 38316,
   "name": "Bioline Perfume - Cologne 207ml",
   "slug": "bioline-perfume-cologne-207ml",
-  "sku": "BLPC207",
   "onSale": false,
-  "price": 800,
-  "regularPrice": 800,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/07/bioline-cologne.jpg",
   "categories": [
     {
       "id": 2325,
@@ -32,56 +30,18 @@
       "slug": "dog-grooming-cleaning-supplies"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=38316",
-  "shortDescription": "Pet Perfume Refreshing Spray for Cats & Dogs",
   "description": "Bioline perfume-cologne Deodorant freshing spray, Aiming at the bad smells caused by the pet body and environment, adopt German technology, specifically add microbial deodorant, eliminate the bad smells in three seconds leave a pleasant smell. I ngredients: Water, solubilizer, soybean unsaturated fatty acid, Frangrance, mixture of 5-chloro-2-methyl-isothiazol-3(2H)-one and 2-methylisothiazol-3(2H)-one with magnesium chloride and magnesium nitrate, CI 18050, CI 18820 Usage: Spray directly at pet body and surrounding environment. Avoid spraying directly at face, ears and genital organ. Warning: Avoid spraying in the eyes, mouth, ears, nose and genital organs for external use only, Keep out of the reach of children. Storage: Avoid direct sunlight.",
-  "images": [
-    {
-      "id": 38317,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/07/bioline-cologne.jpg",
-      "alt": "Bioline Perfume - Cologne 207ml",
-      "name": "bioline cologne"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/bioline-perfume-cologne-207ml/?add-to-cart=38316",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-07-10T11:15:40",
-  "dateModified": "2026-05-06T17:08:46",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/07/bioline-cologne.jpg"
+  "catalogVisibility": "visible"
 }

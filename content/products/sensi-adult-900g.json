@@ -2,14 +2,12 @@
   "id": 23774,
   "name": "Josera Sensi Adult 900g",
   "slug": "sensi-adult-900g",
-  "sku": "JDSA003",
   "onSale": false,
-  "price": 965,
-  "regularPrice": 965,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JDSA003.jpg",
   "categories": [
     {
       "id": 2112,
@@ -17,47 +15,18 @@
       "slug": "josera"
     }
   ],
-  "brands": [
-    {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=23774",
-  "shortDescription": "Highly digestible food for active dogs. High-quality food for our sensitive athletes. This digestion-regulating yet meaty recipe ensures sufficient energy for increased activity and sport. The highly digestible ingredients also reduce the amount of feces.",
   "description": "Composition: poultry (poultry 11.0 %, duck 10.0 %), rice; poultry fat; potato protein; salmon 4.0 %; hydrolysed poultry protein; beet fibre; plant fibre; carob meal; minerals; yeast; ground chicory root (natural source of inulin); psyllium husks; dried meat from the New Zealand green-lipped mussel (Perna canaliculus). Product Details: Highly digestible food for active dogs. High-quality food for our sensitive athletes. This digestion-regulating yet meaty recipe ensures sufficient energy for increased activity and sport. The highly digestible ingredients also reduce the amount of feces. ? Digestion-regulating fibre complex for active and/or sensitive dogs ? Valuable antioxidants support active metabolic tissue and promote vitality ? With L-carnitine and taurine to support cardiovascular functions ? A great follow-on food from JOSERA SensiJunior thanks to its tailored recipe",
-  "images": [
-    {
-      "id": 23798,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JDSA003.jpg",
-      "alt": "Josera Sensi Adult 900g",
-      "name": "JDSA003.jpg"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/sensi-adult-900g/?add-to-cart=23774",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2021-10-29T07:55:44",
-  "dateModified": "2026-06-17T04:33:51",
-  "brand": "Josera",
-  "weight_kg": 0.9,
-  "animal_type": "dog",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JDSA003.jpg"
+  "catalogVisibility": "visible"
 }

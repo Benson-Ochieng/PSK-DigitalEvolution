@@ -2,14 +2,12 @@
   "id": 23661,
   "name": "Royal Canin Labrador Adult 12kg",
   "slug": "labrador-adult-12kg",
-  "sku": "ROC-LABR-001",
   "onSale": false,
-  "price": 21000,
-  "regularPrice": 21000,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-LABR-001.jpg",
   "categories": [
     {
       "id": 2345,
@@ -32,57 +30,18 @@
       "slug": "royal-canin"
     }
   ],
-  "brands": [
-    {
-      "id": 2423,
-      "name": "Royal Canin",
-      "slug": "royal-canin"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 1034,
-      "name": "large breed",
-      "slug": "large-breed"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=23661",
-  "shortDescription": "ROYAL CANIN??s Labrador food has been formulated and designed to meet this breed?s unique needs. Complete feed for dogs – Specially for adult and mature Labrador Retrievers – Over 15 months old",
   "description": "Suitable for Labrador Retrievers aged 15 months old and over, ROYAL CANIN? Labrador Retriever Adult is specially formulated with all the nutritional needs of your adult dog in mind. ROYAL CANIN? Labrador Retriever Adult contains an adapted calorie content ? including an increased protein level and a reduced fat intake to help your dog maintain a healthy weight. The structure of a Labrador Retriever's water-resistant coat insulates it from the cold. Therefore, the condition of a Labrador Retriever's coat is essential.ROYAL CANIN? Labrador Retriever Adult helps to support the skin's ?barrier? role with an exclusive complex. With borage oil and other essential fatty acids among the nutrients included, this formula helps to maintain the health of your dog's skin and coat.A determined athlete, the Labrador Retriever gives all it's got when it comes to exercise. Its solid body and strong bones means that your dog needs nutrients that help to maintain its healthy joints.Through the inclusion of specific nutrients, including omega-3 fatty acids EPA & DHA, ROYAL CANIN? Labrador Retriever Adult helps support to healthy bones and joints. What's more, the kibble's texture and formula are tailor-made exclusively for the Labrador Retriever's jaw. The specially adapted shape of the kibble also helps reduce the rate of food intake to help your dog maintain a healthy bodyweight. omposition: dehydrated poultry protein, rice, wheat, maize, maize gluten, vegetable protein isolate*, animal fats, hydrolysed animal proteins, vegetable fibres, beet pulp, yeasts and parts thereof, fish oil, soya oil, minerals, psyllium husks and seeds, fructo-oligo-saccharides, hydrolysed crustaceans (source of glucosamine), borage oil (0.1%), marigold extract (source of lutein), hydrolysed cartilage (source of chondroitin). Additives (per kg): Nutritional additives: Vitamin A: 27000 IU, Vitamin D3: 800 IU, E1 (Iron): 68 mg, E2 (Iodine): 3.9 mg, E4 (Copper): 4 mg, E5 (Manganese): 41 mg, E6 (Zinc): 135 mg, E8 (Selenium): 0.21 mg - Technological additives: Clinoptilolite of sedimentary origin: 10 g - Sensory additives:tea extract (source of polyphenols): 150 mg - Preservatives - Antioxidants. Analytical constituants: Protein: 30.0% - Fat content: 13.0% - Crude ash: 6.5% - Crude fibres: 3.5% - Per kg: EPA/DHA: 4 g.* L.I.P: Protein selected for its very high digestibility.",
-  "images": [
-    {
-      "id": 23683,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-LABR-001.jpg",
-      "alt": "Royal Canin Labrador Adult 12kg",
-      "name": "ROC-LABR-001.jpg"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/labrador-adult-12kg/?add-to-cart=23661",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2021-10-08T11:34:43",
-  "dateModified": "2026-06-17T04:23:42",
-  "brand": "Royal Canin",
-  "weight_kg": 12,
-  "animal_type": "dog",
-  "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-LABR-001.jpg"
+  "catalogVisibility": "visible"
 }

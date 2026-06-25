@@ -2,14 +2,12 @@
   "id": 38121,
   "name": "K9 Deodorant Ultra-Cleaning Shampoo 710ml",
   "slug": "k9-deodorant-ultra-cleaning-shampoo-710ml",
-  "sku": "K9DUCS710",
   "onSale": false,
-  "price": 1300,
-  "regularPrice": 1300,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/07/DEODRANT-ULTRA-CLEANING_710ML.jpg",
   "categories": [
     {
       "id": 2332,
@@ -17,51 +15,18 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 2025,
-      "name": "shampoo",
-      "slug": "shampoo"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=38121",
-  "shortDescription": "K9 Fresh & Clean – Deodorant Ultra-Cleaning Shampoo",
   "description": "K9 Fresh & Clean – Deodorant Ultra-Cleaning Shampoo solve golden hair dogs pet contaminated with urine stains, grease and other difficult to remove stains and hair to restore a smooth natural state. Benefits Antibacterial deodorant Superior ability to get rid of stains. Mild & Slight Irritating Easy Rinse Ingredients Polyquaternium – 10, Tea Saponin, Trehalose, coconut oil derivatives",
-  "images": [
-    {
-      "id": 38122,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/07/DEODRANT-ULTRA-CLEANING_710ML.jpg",
-      "alt": "K9 Deodorant Ultra-Cleaning Shampoo 710ml",
-      "name": "DEODRANT-ULTRA-CLEANING_710ML"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/k9-deodorant-ultra-cleaning-shampoo-710ml/?add-to-cart=38121",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-07-03T16:03:44",
-  "dateModified": "2026-05-06T17:08:44",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/07/DEODRANT-ULTRA-CLEANING_710ML.jpg"
+  "catalogVisibility": "visible"
 }

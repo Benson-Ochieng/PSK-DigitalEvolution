@@ -2,14 +2,12 @@
   "id": 1826,
   "name": "Zurich Flea & Tick - Lavender Dog Shampoo & Conditioner",
   "slug": "zurich-lavender-dog-shampoo-conditioner",
-  "sku": "DLSCFT400",
   "onSale": false,
-  "price": 1160,
-  "regularPrice": 1160,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/04/PetStore-Kenya-Zurich-Pet-Shampoo-Conditioner-Lavendar-1080x1080-min.png",
   "categories": [
     {
       "id": 2345,
@@ -27,61 +25,18 @@
       "slug": "dog-flea-tick"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1149,
-      "name": "flea & tick",
-      "slug": "flea-tick"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2025,
-      "name": "shampoo",
-      "slug": "shampoo"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=1826",
-  "shortDescription": "Zurich Flea & Tick Lavender Dog Shampoo & Conditioner, pH balanced formulation for all skin types. Enriched with lavender to naturally repel insects and relax your dog.",
   "description": "Zurich Flea & Tick Lavender Dog Shampoo & Conditioner, pH balanced formulation for all skin types. Enirched with lavender to naturally repel insects and relax your pet. Gentle enough for the most delicate breeds. Use regularly to enhance your dog's coat and discourage fleas and ticks.",
-  "images": [
-    {
-      "id": 1856,
-      "src": "https://petstore.co.ke/wp-content/uploads/2019/04/PetStore-Kenya-Zurich-Pet-Shampoo-Conditioner-Lavendar-1080x1080-min.png",
-      "alt": "PetStore Kenya Zurich Pet Shampoo Conditioner Lavendar 1080x1080 min",
-      "name": "PetStore Kenya Zurich Pet Shampoo Conditioner Lavendar 1080&#215;1080 min"
-    }
-  ],
-  "stockStatus": "outofstock",
-  "lowStockRemaining": 10,
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/zurich-lavender-dog-shampoo-conditioner/?add-to-cart=1826",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2019-03-25T14:23:48",
-  "dateModified": "2026-05-06T17:06:16",
-  "brand": null,
-  "weight_kg": 0.5,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/04/PetStore-Kenya-Zurich-Pet-Shampoo-Conditioner-Lavendar-1080x1080-min.png"
+  "catalogVisibility": "visible"
 }

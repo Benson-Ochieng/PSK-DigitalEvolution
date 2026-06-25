@@ -2,14 +2,12 @@
   "id": 27025,
   "name": "Cat Fest Pillows With Chicken Creme (30G)",
   "slug": "cat-fest-pillows-with-chicken-creme-30g",
-  "sku": "CF003",
   "onSale": false,
-  "price": 130,
-  "regularPrice": 130,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/CF003.jpg",
   "categories": [
     {
       "id": 2325,
@@ -27,46 +25,18 @@
       "slug": "cat-treats"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=27025",
-  "shortDescription": "Cat Fest Pillows With Chicken Creme (30G)",
   "description": "Classic rich taste, high nutritional properties of real farm chicken meat ? what could be better for your beloved cat. Ingredients: chicken meat, plant products, minerals. Analytical components: crude protein 20%, fats 15%, crude fiber 2.5%, moisture 10%; energy value ? 193 kcal.",
-  "images": [
-    {
-      "id": 27014,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/CF003.jpg",
-      "alt": "Cat Fest Pillows With Chicken Creme (30G)",
-      "name": "CF003"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/cat-fest-pillows-with-chicken-creme-30g/?add-to-cart=27025",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2022-04-20T16:20:54",
-  "dateModified": "2026-05-06T17:08:03",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/CF003.jpg"
+  "catalogVisibility": "visible"
 }

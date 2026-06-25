@@ -2,14 +2,12 @@
   "id": 24783,
   "name": "Proline Canned Puppy Food Beef 415g",
   "slug": "proline-canned-puppy-food-beef-415gr",
-  "sku": "PDW004",
   "onSale": false,
-  "price": 175,
-  "regularPrice": 175,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/Proline-Adult-Dog-Food-Canned-Beef-Chunks-in-Gravy-415g.png",
   "categories": [
     {
       "id": 2345,
@@ -32,57 +30,18 @@
       "slug": "puppy-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2315,
-      "name": "Proline",
-      "slug": "proline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 622,
-      "name": "canned food",
-      "slug": "canned-food"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=24783",
-  "shortDescription": "(4 pieces minimum order) Fully balanced, all natural puppy food with Beef protein.",
   "description": "NUTRIENT COMPONENTS Protein * ???????.? 6.5% Fat ????????.??? 3.5% Crude Ash ???????? 2% Crude Cellulose (Fiber) ?. 0.3% Moisture ??..?. 82% INGREDIENTS: ?Meat and animal derivatives (4% beef), cereals, minerals, vegetable by-products, sugar. MINERALS: ?Zinc, Manganese, Copper. VITAMINS: ?Vit. D3, Vit. E.",
-  "images": [
-    {
-      "id": 24785,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/Proline-Adult-Dog-Food-Canned-Beef-Chunks-in-Gravy-415g.png",
-      "alt": "Proline Canned Puppy Food Beef 415g",
-      "name": "Proline Adult Dog Food Canned Beef Chunks in Gravy 415g"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/proline-canned-puppy-food-beef-415gr/?add-to-cart=24783",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2022-01-20T09:57:55",
-  "dateModified": "2026-05-06T17:07:55",
-  "brand": "Proline",
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/Proline-Adult-Dog-Food-Canned-Beef-Chunks-in-Gravy-415g.png"
+  "catalogVisibility": "visible"
 }

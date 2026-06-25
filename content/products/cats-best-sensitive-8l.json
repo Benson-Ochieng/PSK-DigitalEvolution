@@ -2,14 +2,12 @@
   "id": 27031,
   "name": "Cats best Sensitive 8L",
   "slug": "cats-best-sensitive-8l",
-  "sku": "CBCL003",
   "onSale": false,
-  "price": 1100,
-  "regularPrice": 1100,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/CBCL003.jpg",
   "categories": [
     {
       "id": 2325,
@@ -27,51 +25,18 @@
       "slug": "cat-litter-and-accessories"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 819,
-      "name": "cat litter",
-      "slug": "cat-litter"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=27031",
-  "shortDescription": "Cat?s Best Sensitive is a clumping cat litter that has been specially developed for sensitive cats and is also particularly gentle on delicate paws thanks to its fine granulation; this granulation also ensures firm and compact clumps that are easy to dispose of and ensure economical consumption.",
   "description": "With an active ingredient from nature added via the green beads, this litter provides natural antibacterial hygiene in the litter tray without any chemicals. Cat?s Best Sensitive has therefore been specially developed for sensitive cats and is also particularly gentle on delicate paws thanks to its fine granulation; this granulation also ensures firm and compact clumps that are easy to dispose of and ensure economical consumption. Cat?s Best Sensitive uses the power of refined active wood fibres that effectively absorb liquids and odours and encapsulate them deep inside ? up to 7 times their own weight.",
-  "images": [
-    {
-      "id": 27011,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/CBCL003.jpg",
-      "alt": "Cats best Sensitive 8L",
-      "name": "CBCL003"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/cats-best-sensitive-8l/?add-to-cart=27031",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2022-04-20T16:20:52",
-  "dateModified": "2026-05-06T17:08:03",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/CBCL003.jpg"
+  "catalogVisibility": "visible"
 }

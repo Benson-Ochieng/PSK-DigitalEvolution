@@ -2,14 +2,12 @@
   "id": 40845,
   "name": "Proline Adult Dog Food - Chicken 2.2kg",
   "slug": "proline-adult-dog-food-chicken-2-2kg-3",
-  "sku": "PDD011@F",
-  "onSale": true,
-  "price": 1425,
-  "regularPrice": 1850,
-  "salePrice": 1425,
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-Adult-Dog-Food-Chicken-2.2Kg.png",
   "categories": [
     {
       "id": 796,
@@ -17,47 +15,18 @@
       "slug": "proline"
     }
   ],
-  "brands": [
-    {
-      "id": 2483,
-      "name": "Proline",
-      "slug": "proline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=40845",
-  "shortDescription": "Fully balanced all natural dog food with chicken protein plus brewer's yeast and whey protein for immune support and omega -3 and -6 from flaxseed. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult dogs.",
   "description": "Proline Adult Dog Food - Chicken , fully balanced all natural dog food with chicken protein plus brewer's yeast and whey protein for immune support and omega -3 and -6 from flaxseed. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult dogs. NUTRIENT COMPONENTS Protein...........................23% Fat ........................... 12% Crude Cellulose (Fiber).................. 4% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Wheat Middlings, Corn Gluten, Dried Sugar Beet, Chicken Liver Aroma, Rice, Salt, Whey Powder, Flaxseed, Dried Brewer's Yeast. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
-  "images": [
-    {
-      "id": 35538,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-Adult-Dog-Food-Chicken-2.2Kg.png",
-      "alt": "SHORT EXPIRY - CLEARANCE: Proline Adult Dog Food - Chicken 2.2kg",
-      "name": "Proline Adult Dog Food Chicken 2.2Kg"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/proline-adult-dog-food-chicken-2-2kg-3/?add-to-cart=40845",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-11-08T09:51:58",
-  "dateModified": "2026-05-06T17:09:00",
-  "brand": "Proline",
-  "weight_kg": 3,
-  "animal_type": "dog",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-Adult-Dog-Food-Chicken-2.2Kg.png"
+  "catalogVisibility": "visible"
 }

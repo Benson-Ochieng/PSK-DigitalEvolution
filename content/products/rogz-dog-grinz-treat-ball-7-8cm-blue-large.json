@@ -2,14 +2,12 @@
   "id": 40896,
   "name": "Rogz Dog Grinz Treat Ball 7.8cm - Blue Large",
   "slug": "rogz-dog-grinz-treat-ball-7-8cm-blue-large",
-  "sku": "GR04-B@F",
-  "onSale": true,
-  "price": 981,
-  "regularPrice": 1635,
-  "salePrice": 981,
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/GR04-B-Grinz-Blue.jpg",
   "categories": [
     {
       "id": 2345,
@@ -32,41 +30,18 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=40896",
-  "shortDescription": "Engage your large dog with the Rogz Grinz Treat Ball 7.8 cm – Blue. Durable, floating, and treat-dispensing for hours of interactive play and mental enrichment",
   "description": "Make playtime fun and engaging with the Rogz Grinz Treat Ball (Large, 7.8 cm, Blue) , an interactive toy designed for large dog breeds. This multifunctional ball serves as a chew toy, fetch ball, and treat dispenser, keeping dogs active, happy, and mentally stimulated. Crafted from high-quality SEBS rubber, the ball is gentle on teeth while maintaining enough firmness to bounce for exciting indoor and outdoor fetch games. Its floating capability allows for safe water play, while the treat-dispensing feature encourages problem-solving and self-entertainment. The playful “grin” teeth design adds a charming visual touch during use, making it enjoyable for both dogs and owners. Benefits Promotes physical activity and exercise. Provides mental stimulation through treat-dispensing play. Safe chewing experience with durable, non-toxic SEBS material. Suitable for water play and outdoor fetch. Engages dogs for hours, reducing boredom and destructive behavior. Specifications Brand: Rogz Color: Blue Size: Large, 7.8 cm diameter Weight: 4.8 ounces (136 g) Material: SEBS rubber Bite Rating: Medium (3/5), ideal for medium to large breeds &nbsp; &nbsp; &nbsp; &nbsp;",
-  "images": [
-    {
-      "id": 17347,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/GR04-B-Grinz-Blue.jpg",
-      "alt": "Rogz Dog ginz-Treat Ball 7.8cm – Blue Large",
-      "name": "GR04-B Grinz Blue"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-7-8cm-blue-large/?add-to-cart=40896",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-11-09T07:49:29",
-  "dateModified": "2026-06-04T13:06:10",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/GR04-B-Grinz-Blue.jpg"
+  "catalogVisibility": "visible"
 }

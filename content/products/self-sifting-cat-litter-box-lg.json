@@ -2,14 +2,12 @@
   "id": 38300,
   "name": "Self Sifting Cat Litter Box (Lg)",
   "slug": "self-sifting-cat-litter-box-lg",
-  "sku": "PZSCLBL1",
   "onSale": false,
-  "price": 4000,
-  "regularPrice": 4000,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/07/selfsiftingcatlitter.jpg",
   "categories": [
     {
       "id": 2332,
@@ -17,51 +15,18 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 819,
-      "name": "cat litter",
-      "slug": "cat-litter"
-    },
-    {
-      "id": 2119,
-      "name": "cat litter box",
-      "slug": "cat-litter-box"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=38300",
-  "shortDescription": "Tray Self Sifting Cat Litter Box",
   "description": "Tray Self Sifting Cat Litter Box Products features: With safe and environmentally friendly PP material Big capacity, not easy to spill out Easy to clean and very durable",
-  "images": [
-    {
-      "id": 38271,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/07/selfsiftingcatlitter.jpg",
-      "alt": "Self Sifting Cat Litter Box (Lg)",
-      "name": "selfsiftingcatlitter"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/self-sifting-cat-litter-box-lg/?add-to-cart=38300",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-07-10T08:52:50",
-  "dateModified": "2026-05-06T17:08:46",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/07/selfsiftingcatlitter.jpg"
+  "catalogVisibility": "visible"
 }

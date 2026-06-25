@@ -2,14 +2,12 @@
   "id": 40402,
   "name": "DEFECT/DAMAGED PACKAGE-CLEARANCE: Proline Bentonite Clumping Cat Litter - Vanilla Scented 10L",
   "slug": "defect-damaged-package-clearance-proline-bentonite-clumping-cat-litter-vanilla-scented-10l",
-  "sku": "PCL014@D",
-  "onSale": true,
-  "price": 1457,
-  "regularPrice": 2082,
-  "salePrice": 1457,
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/10/Proline-cat-litter-Vanilla-10l.png",
   "categories": [
     {
       "id": 2325,
@@ -32,72 +30,18 @@
       "slug": "proline"
     }
   ],
-  "brands": [
-    {
-      "id": 2431,
-      "name": "Proline",
-      "slug": "proline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 831,
-      "name": "bentonite",
-      "slug": "bentonite"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 819,
-      "name": "cat litter",
-      "slug": "cat-litter"
-    },
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 823,
-      "name": "clumping",
-      "slug": "clumping"
-    },
-    {
-      "id": 2315,
-      "name": "scented",
-      "slug": "scented"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=40402",
-  "shortDescription": "Proline cat litter is a premium brand with great value for money. 100% natural bentonite clumping cat litter for happy and clean cats. Instantly lumps , thereby preventing bacteria and Oduor from taking over your cat's litter box.",
   "description": "Proline Bentonite Clumping Vanilla Scented Cat Litter , 100% natural bentonite cat litter instantly clumps. Excellent pelletising, instantly lumps Neutralises odour with fresh vanilla scent. Non-toxic and 100% natural Thin grain shape Prevents bacterial growth. Upon first use, we recommend adding new cat litter to the surface of the old cat litter for a few days.",
-  "images": [
-    {
-      "id": 40389,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/10/Proline-cat-litter-Vanilla-10l.png",
-      "alt": "DEFECT/DAMAGED PACKAGE-CLEARANCE: Proline Bentonite Clumping Cat Litter - Vanilla Scented 10L",
-      "name": "Proline cat litter Vanilla 10l"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/defect-damaged-package-clearance-proline-bentonite-clumping-cat-litter-vanilla-scented-10l/?add-to-cart=40402",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-10-24T11:32:39",
-  "dateModified": "2026-05-06T17:08:56",
-  "brand": "Proline",
-  "weight_kg": 9,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/10/Proline-cat-litter-Vanilla-10l.png"
+  "catalogVisibility": "visible"
 }

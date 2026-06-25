@@ -2,14 +2,12 @@
   "id": 16398,
   "name": "KONG Puppy Toy -  Medium",
   "slug": "kong-puppy-toy-medium",
-  "sku": "KP2",
   "onSale": false,
-  "price": 1400,
-  "regularPrice": 1400,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/11/KP4_Puppy.jpg",
   "categories": [
     {
       "id": 1204,
@@ -62,71 +60,18 @@
       "slug": "puppy-food"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=16398",
-  "shortDescription": "Original KONG toy for puppy -Medium",
   "description": "The Puppy KONG dog toy is customized for a growing puppy's baby teeth, the unique, natural rubber formula is the most gentle within the KONG rubber toy line. Designed to meet the needs of a puppy's 28-baby teeth, it helps teach appropriate chewing behavior while offering enrichment and satisfying a younger pup?s instinctual needs while the erratic bounce makes it ideal for those pups that just want to play. A stuffed Puppy KONG occupies busy little ones while allowing pet parents the freedom to attend to their unique needs. Want to make crate training easier or extend playtime Be sure to stuff with puppy kibble and a dash of peanut butter. Add to the fun by including KONG Puppy Snacks and top with KONG Puppy Easy Treat. Teaches appropriate chewing behavior while offering mental enrichment. Soft puppy KONG rubber formula is customized for puppy teeth and gums. Unpredictable bounce for games of fetch Great for stuffing with KONG Puppy Easy Treat; Snacks or Ziggies Recommended by veterinarians and trainers worldwide. Natural rubber Made in the USA. Globally Sourced Materials",
-  "images": [
-    {
-      "id": 24971,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/11/KP4_Puppy.jpg",
-      "alt": "KONG Puppy Toy -  Medium",
-      "name": "KP4"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/kong-puppy-toy-medium/?add-to-cart=16398",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2020-11-26T15:28:15",
-  "dateModified": "2026-05-06T17:06:39",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/11/KP4_Puppy.jpg"
+  "catalogVisibility": "visible"
 }

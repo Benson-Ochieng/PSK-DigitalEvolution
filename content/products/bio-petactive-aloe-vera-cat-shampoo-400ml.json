@@ -2,14 +2,12 @@
   "id": 19813,
   "name": "Bio Petactive Aloe Vera Cat Shampoo 400ml",
   "slug": "bio-petactive-aloe-vera-cat-shampoo-400ml",
-  "sku": "BPAVCS400",
-  "onSale": true,
-  "price": 450,
-  "regularPrice": 900,
-  "salePrice": 450,
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/BPAVCS400.jpg",
   "categories": [
     {
       "id": 2325,
@@ -27,66 +25,18 @@
       "slug": "cat-flea-tick"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 1149,
-      "name": "flea & tick",
-      "slug": "flea-tick"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 675,
-      "name": "sensitive skin",
-      "slug": "sensitive-skin"
-    },
-    {
-      "id": 2025,
-      "name": "shampoo",
-      "slug": "shampoo"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=19813",
-  "shortDescription": "Bio Petactive Aloe Vera Cat Shampoo 400ml",
   "description": "Shampoo with Aloe Vera Extract for Cats. It is a cleansing and moisturizing care shampoo for your cat with carefully selected surfactants and Aloe Vera. Aloe Vera protects and moisturizes the skin. Helps to remove redness and shedding problems on dry skin. And it reduces the mobility of free radicals on the skin, strengthens skin cells and skin texture. Usage: Soak the body of your cat in warm water prior to application. Dilute the amount of product 1:5 with water then rub to spread the foam throughout the body of your cat. Start shampooing and washing on the back. To get the best results, wait for 3 to 5 minutes until the shampoo thoroughly soaks into the cat?s fur. Then rinse and dry with a towel and groom its fur.",
-  "images": [
-    {
-      "id": 19780,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/BPAVCS400.jpg",
-      "alt": "Bio Petactive Aloe Vera Cat Shampoo 400ml",
-      "name": "BPAVCS400"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/bio-petactive-aloe-vera-cat-shampoo-400ml/?add-to-cart=19813",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2021-04-08T14:49:33",
-  "dateModified": "2026-05-06T17:07:15",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "cat",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/BPAVCS400.jpg"
+  "catalogVisibility": "visible"
 }

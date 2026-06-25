@@ -2,14 +2,12 @@
   "id": 36964,
   "name": "Pet Bath Brush",
   "slug": "pet-bath-brush",
-  "sku": "PZBB01",
   "onSale": false,
-  "price": 350,
-  "regularPrice": 350,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/05/bathbrush.jpg",
   "categories": [
     {
       "id": 1204,
@@ -32,46 +30,18 @@
       "slug": "dog-grooming-cleaning-supplies"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=36964",
-  "shortDescription": "Pet Bath Brush with Adjustable Ring Handle for Dogs and Cats",
   "description": "High Quality Material: Made from high-quality soft TRP rubber material and craftsmanship, the dog bath brush scrubber is safe, comfortable, durable and will not harm the pets’ skin. Adjustable Handle: The dog bath brush handle comes with perfect adjustable ring grip handle to fit different sizes of hands comfortably, firmly fixed between the palms. Three-In-One: Pet grooming brush can be used not only to bathe pets, but also to massage pets, hair removal, newly upgraded three-in-one pet grooming brush for any long hair and short hair or thick hair pets. Easy to Use, Clean & Portable: The adjustable handle and lightweight brush makes using easier and more convenient, and it also easy to carry when travel. The professional bathing supplies will help your pet enjoy bath-time and fall in love with bath. Just wash it with water and dry naturally after use.",
-  "images": [
-    {
-      "id": 36965,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/05/bathbrush.jpg",
-      "alt": "Pet Bath Brush",
-      "name": "bathbrush"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/pet-bath-brush/?add-to-cart=36964",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-05-11T15:46:09",
-  "dateModified": "2026-05-06T17:08:37",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/05/bathbrush.jpg"
+  "catalogVisibility": "visible"
 }

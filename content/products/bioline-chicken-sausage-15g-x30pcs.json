@@ -2,14 +2,12 @@
   "id": 39893,
   "name": "Bioline Chicken Sausage 15g X 30pcs",
   "slug": "bioline-chicken-sausage-15g-x30pcs",
-  "sku": "BLCCS15",
   "onSale": false,
-  "price": 650,
-  "regularPrice": 650,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/09/Bioline-chickensausage.jpg",
   "categories": [
     {
       "id": 2345,
@@ -27,46 +25,18 @@
       "slug": "dog-treats"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=39893",
-  "shortDescription": "The product contains natural ingredients that enhance palatability, with low fat and low calories and can be used as a training dog treat.",
   "description": "BIOLINE CHICKEN SAUSAGE : The product contains natural ingredients that enhance palatability, with low fat and low calories and can be used as a training dog treat. Ingredients: Chicken, com starch, vegetable protein, vitamins, etc Suitable for all dog ages",
-  "images": [
-    {
-      "id": 39894,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/09/Bioline-chickensausage.jpg",
-      "alt": "Bioline Chicken Sausage 15g X 30pcs",
-      "name": "Bioline chickensausage"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/bioline-chicken-sausage-15g-x30pcs/?add-to-cart=39893",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-09-28T12:33:16",
-  "dateModified": "2026-05-06T17:08:52",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/09/Bioline-chickensausage.jpg"
+  "catalogVisibility": "visible"
 }

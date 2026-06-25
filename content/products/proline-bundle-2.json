@@ -2,14 +2,12 @@
   "id": 33784,
   "name": "Proline Bundle - 7Pc",
   "slug": "proline-bundle-2",
-  "sku": "CPBUNDLE2",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "/images/psk_logo.png",
   "categories": [
     {
       "id": 2325,
@@ -42,49 +40,18 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2122,
-      "name": "Bundle",
-      "slug": "bundle"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 819,
-      "name": "cat litter",
-      "slug": "cat-litter"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=33784",
-  "shortDescription": "1PC Proline Cat Litter Lavender 5L 2PC Proline Adult Cat Food Chicken 500Gr 4PC Proline Canned Cat Food Liver 415Gr",
   "description": "1PC Proline Cat Litter Lavender 5L 2PC Proline Adult Cat Food Chicken 500Gr 4PC Proline Canned Cat Food Liver 415Gr",
   "images": [],
-  "stockStatus": "outofstock",
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/proline-bundle-2/?add-to-cart=33784",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2022-12-22T09:25:35",
-  "dateModified": "2026-05-06T17:08:27",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "wet",
-  "image_url": "/images/psk_logo.png"
+  "catalogVisibility": "visible"
 }
