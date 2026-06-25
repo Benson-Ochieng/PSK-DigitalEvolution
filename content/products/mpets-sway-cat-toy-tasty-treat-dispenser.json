@@ -1,0 +1,52 @@
+{
+  "id": 27004,
+  "name": "Mpets Sway Cat Toy Tasty Treat Dispenser",
+  "slug": "mpets-sway-cat-toy-tasty-treat-dispenser",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2342,
+      "name": "Cat Toys",
+      "slug": "cat-toys"
+    },
+    {
+      "id": 2330,
+      "name": "Cat Treats",
+      "slug": "cat-treats"
+    },
+    {
+      "id": 2135,
+      "name": "MPETS",
+      "slug": "mpets"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Mpets Sway Cat Toy Tasty Treat Dispenser 13,5 x 9,5 x 16,8 cm",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

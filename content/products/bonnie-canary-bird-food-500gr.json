@@ -1,0 +1,42 @@
+{
+  "id": 36453,
+  "name": "SHORT EXPIRY-CLEARANCE: BONNIE CANARY BIRD FOOD - 500g",
+  "slug": "bonnie-canary-bird-food-500gr",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2369,
+      "name": "Bird",
+      "slug": "bird-supplies-store"
+    },
+    {
+      "id": 2370,
+      "name": "Bird Food & Treats",
+      "slug": "bird-food-treats"
+    },
+    {
+      "id": 177,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Bonnie Canary food is a mixture of specially selected grains and seeds loved by canaries. The wide variety of ingredients ensures that they get all the required nutrients. INGREDIENTS: Canary Seed, Canola, Oat, Hemp Seed, Niger Seed, Linseed. FEEDING RECOMMENDATION: Per each bird about 10 gr (1 table spoon) daily. Canaries eat during most of the time they are awake and should therefore have free access to the fresh feed in a clean bowl. Empty seed coats should be cleaned from the feeding bowl everyday. Remember to ensure that birds have free access to the feed and fresh drinking water.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

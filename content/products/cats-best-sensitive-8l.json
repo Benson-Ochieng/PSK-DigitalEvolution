@@ -1,0 +1,42 @@
+{
+  "id": 27031,
+  "name": "Cats best Sensitive 8L",
+  "slug": "cats-best-sensitive-8l",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    },
+    {
+      "id": 2331,
+      "name": "Litter and Litter Box & Accessories",
+      "slug": "cat-litter-and-accessories"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "With an active ingredient from nature added via the green beads, this litter provides natural antibacterial hygiene in the litter tray without any chemicals. Cat?s Best Sensitive has therefore been specially developed for sensitive cats and is also particularly gentle on delicate paws thanks to its fine granulation; this granulation also ensures firm and compact clumps that are easy to dispose of and ensure economical consumption. Cat?s Best Sensitive uses the power of refined active wood fibres that effectively absorb liquids and odours and encapsulate them deep inside ? up to 7 times their own weight.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

@@ -1,0 +1,47 @@
+{
+  "id": 36959,
+  "name": "Pet Flea Comb",
+  "slug": "pet-flea-comb",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2343,
+      "name": "Cat Grooming",
+      "slug": "cat-grooming"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2360,
+      "name": "Dog Grooming & Cleaning",
+      "slug": "dog-grooming-cleaning-supplies"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Description Advanced material, arc handle, reasonable design and comfortable handle. Strengthened needle design can remove fleas, and it is durable in the same type of resistance. There is a hook in the root of the combs. It is lightweight and easy to carry. It will remove fleas from your pets, especially the long-haired sausage dogs.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

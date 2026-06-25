@@ -1,0 +1,47 @@
+{
+  "id": 23727,
+  "name": "JosiDog Mini 18kg",
+  "slug": "josidog-mini-18kg",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Composition: whole grain corn; dried poultry protein; rice; beet fibre; dried duck protein; poultry fat; hydrolysed poultry protein; maize protein; minerals; yeast; ground chicory root (natural source of inulin); dried meat from the New Zealand green-lipped mussel (Perna canaliculus). Product Details: Suitable kibble size for small dog breeds. The extra-small kibble of JosiDog Mini offers maximum enjoyment for dogs of small breeds. The gluten-free formula is packed with the best nutrients that support healthy skin and a shiny coat. Complete feed for adult dogs.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

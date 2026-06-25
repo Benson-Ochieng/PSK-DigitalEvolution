@@ -1,0 +1,42 @@
+{
+  "id": 1823,
+  "name": "Zurich Flea & Tick - Aloe Vera Dog Shampoo & Conditioner",
+  "slug": "zurich-aloe-vera-dog-shampoo-conditioner",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2362,
+      "name": "Dog Healthcare Supplies",
+      "slug": "dog-healthcare-supplies"
+    },
+    {
+      "id": 2363,
+      "name": "Flea & Tick Control",
+      "slug": "dog-flea-tick"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Zurich Flea & Tick Aloe Vera Dog Shampoo & Conditioner enriched with aloe vera to naturally soothe dry and itchy skin and smooth dry and brittle coats. pH balanced formulation for all skin types. Gentle enough for the most delicate breeds. Use regularly to enhance your dog's coat and discourage fleas and ticks.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

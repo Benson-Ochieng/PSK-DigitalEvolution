@@ -1,0 +1,47 @@
+{
+  "id": 20320,
+  "name": "Jeilo removable pet bed - small",
+  "slug": "jeilo-removable-pet-bed-small",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2341,
+      "name": "Cat Beds & Houses",
+      "slug": "cat-beds-houses"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2367,
+      "name": "Dog Beds & Furniture",
+      "slug": "dog-beds-furniture"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "The Jeilo small removable cushion pet bed is a versatile and stylish outdoor spec bed for your mini and small pet. The cushion is covered with Ankara material and filled with soft fiber. The cushion detaches completely from the waterproof base for easier cleaning. The Dimensions for the small bed are: 23\"W x 24\"L x 5\"H",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

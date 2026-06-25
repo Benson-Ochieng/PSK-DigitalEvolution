@@ -1,0 +1,47 @@
+{
+  "id": 23771,
+  "name": "Insect Dog Sensitive Adult 10kg",
+  "slug": "insect-dog-sensitive-adult-10kg",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Composition: rice %8 .52; insects %15,0; partially hydrolysed yeast; sunflower oil; beet fibre; potato protein; mineral substances; psyllium; ground chicory root (natural source of inulin). Product Information: Thanks to its finely selected raw ingredients like rice and insects, as well as its gentle processing, our InsectDog Sensitive is perfect for sensitive dogs. The unique combination of vital nutrients like vitamin E, vitamin C, inulin and yeast provide optimal support for skin, coat, intestinal flora and the immune system. InsectDog Sensitive is not only suitable for sensitive pooches, but also for all four-legged pioneers: insects are THE sustainable protein source of the future! Complete diet feed for adult dogs %100 insect protein as the sole source of animal protein.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

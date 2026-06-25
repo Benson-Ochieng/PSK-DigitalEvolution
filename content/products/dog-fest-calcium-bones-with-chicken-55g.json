@@ -1,0 +1,32 @@
+{
+  "id": 27099,
+  "name": "Dog Fest Calcium Bones With Chicken 55G",
+  "slug": "dog-fest-calcium-bones-with-chicken-55g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "We specifically made smaller bones for smaller dogs. Enriched with calcium, covered with chicken fillet strips, this great tasting treat supports healthy teeth and bones. Composition: chicken, calcium bone, vegetable by-products, minerals. Analytical constituents, %: crude protein 24, crude fat 2.5, crude fiber 0.2, crude ash 4, moisture 18.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

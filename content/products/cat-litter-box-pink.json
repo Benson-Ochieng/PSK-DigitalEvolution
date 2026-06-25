@@ -1,0 +1,57 @@
+{
+  "id": 24210,
+  "name": "Cat Litter Box - Pink",
+  "slug": "cat-litter-box-pink",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    },
+    {
+      "id": 2096,
+      "name": "Generic",
+      "slug": "generic"
+    },
+    {
+      "id": 2331,
+      "name": "Litter and Litter Box & Accessories",
+      "slug": "cat-litter-and-accessories"
+    },
+    {
+      "id": 2333,
+      "name": "Litter Boxes",
+      "slug": "cat-litter-boxes"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "This Cat Litter Box combines beauty and functionality. It is open with raised sides to prevent cat litter falling over making it an easy-to-clean litter box.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

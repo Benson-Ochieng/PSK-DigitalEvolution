@@ -1,0 +1,37 @@
+{
+  "id": 39721,
+  "name": "SHORT EXPIRY-CLEARANCE: Bonnie Rabbit And Rodent Food 750g",
+  "slug": "short-expiry-clearance-bonnie-rabbit-and-rodent-food-750-g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 177,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    },
+    {
+      "id": 2371,
+      "name": "Rabbit",
+      "slug": "rabbit-supplies-store"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "INGREDIENTS: Clover Pellet, Wheat, Barley, Oat, Corn, Sunflower Seed, Pea, Carob. FEEDING RECOMMENDATION: Per each pet, for Rabbits 40-50 gr (4-5 tablespoon), for Guinea Pig 35 -40 gr (3-4 tablespoon), for Hamster 10-15 gr (1-1,5 tablespoon) daily. Feed rabbits and rodents regularly. Remember to ensure that they have free access to the feed and fresh drinking water.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

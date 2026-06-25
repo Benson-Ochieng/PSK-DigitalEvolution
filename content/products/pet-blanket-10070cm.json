@@ -1,0 +1,37 @@
+{
+  "id": 38259,
+  "name": "Pet Blanket 100*70cm",
+  "slug": "pet-blanket-10070cm",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2096,
+      "name": "Generic",
+      "slug": "generic"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Pet Blanket 100*70cm -Made of the soft and comfortable material, it is skin-friendly and safe for your pets. -With the exquisite craft, it is durable and easy to maintain. -Designed with the beautiful and funny claw printed patterns, and the colours are not easy to fade. To keep the pet warm and make them have a high-quality sleep.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

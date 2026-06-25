@@ -1,0 +1,32 @@
+{
+  "id": 27101,
+  "name": "Dog Fest Chicken Fillet Strips 55G",
+  "slug": "dog-fest-chicken-fillet-strips-55g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "This delicacy is quite simple. Pure chicken fillet strips are slowly cooked in oven to become the greatest treat ever made. Easy to break into smaller pieces to use for training as a reward. Composition: chicken, vegetable by-products, minerals. Analytical constituents, %: crude protein 50, crude fat 2, crude fiber 0.2, crude ash 4, moisture 18.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

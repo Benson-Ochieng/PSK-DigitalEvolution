@@ -1,0 +1,47 @@
+{
+  "id": 16704,
+  "name": "ANKUR Standard Feed Bowl with Full Rubber Base 1600ml",
+  "slug": "ankur-standard-feed-bowl-with-full-rubber-base",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2041,
+      "name": "Ankur",
+      "slug": "ankur"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2366,
+      "name": "Dog Bowls & Feeders",
+      "slug": "dog-bowls-feeders"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "ANKUR STANDARD Dog stainless steel bowl with a rubber base effectively reduces noise and skidding while your pets eat. It protects all floors from scratches",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

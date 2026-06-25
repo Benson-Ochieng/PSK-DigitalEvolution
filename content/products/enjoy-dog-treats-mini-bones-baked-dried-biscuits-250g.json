@@ -1,0 +1,42 @@
+{
+  "id": 11302,
+  "name": "Enjoy Dog Treats - Mini Bones Baked & Dried Biscuits 250g",
+  "slug": "enjoy-dog-treats-mini-bones-baked-dried-biscuits-250g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Enjoy Dog Treats - Mini Bones Baked & Dried Biscuits , reward good behaviour with these fun and delicious treats made with the highest quality ingredients and bursting with flavour. INGREDIENTS: cereals, meat & animal by-products, glucose (6.2%), vegetable oils & fats, minerals. NUTRIENT COMPONENTS Crude Protein (%) - 10.2 Oil Content (%) - 5.5 Crude Ash (%) - 3.6 Crude Fiber (%) - 2.6 Sodium (%) - 0.5 FEEDING RECOMMENDATIONS: Feed maximum of 10 pieces per day. Recommended for all dogs. Feed as a snack or treat between meals. This product does not replace full-dog food daily. Once open, keep package tightly closed. Store in a cool, dry place.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

@@ -1,0 +1,47 @@
+{
+  "id": 27318,
+  "name": "Mpets Click Training Tool",
+  "slug": "mpets-click-training-tool",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2357,
+      "name": "Dog Fetch Toys",
+      "slug": "dog-fetch-toys"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2135,
+      "name": "MPETS",
+      "slug": "mpets"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Description 6 x 4 x 1.7 cm Dog Training Clicker with Wrist Strap Durable Light weight Easy to use M-PETS Dog Training CLICKER is a brilliant tool for training your dog using positive reinforcement. > Ergonomic and lightweight design for a comfortable fit in your hand. Comes with an elastic wrist band so you can leave it on your wrist or clip it to your leash or pants. > Button for easy clicking and loud sound to get your dog's attention and become a familiar indicator of a job well done. > Perfect for basic obedience, such as sit, fetch, lie down, stand, roll over, look for the target, etc., and correct wrong behaviours. For effective pet training, ALWAYS reward with a treat after clicking. > The training CLICKER is not only for dogs, it can be used for your cat, bird, chicken,..., and even horse",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

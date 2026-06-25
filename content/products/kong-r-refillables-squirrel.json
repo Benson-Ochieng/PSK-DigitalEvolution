@@ -1,0 +1,57 @@
+{
+  "id": 16547,
+  "name": "KONG Refillables Squirrel",
+  "slug": "kong-r-refillables-squirrel",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2342,
+      "name": "Cat Toys",
+      "slug": "cat-toys"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2031,
+      "name": "Kong",
+      "slug": "kong-accessories"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "These soft and snuggly plush catnip toys have a reclosable pouch to hold fresh catnip securely in place. The toys include a generous amount of KONGs premium North American catnip in a reclosable vial. When the catnip scent starts to fade, simply add more fresh catnip for another round of fun! Catnip can be stored in the freezer to help keep it fresh. The toy is machine washable with the catnip removed. Refillable catnip toy Includes vial of KONGs premium North American catnip Irresistible scent; texture and shape",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

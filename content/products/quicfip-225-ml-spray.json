@@ -1,0 +1,47 @@
+{
+  "id": 39065,
+  "name": "Veko-QuicFip Plus 225 ML Spray",
+  "slug": "quicfip-225-ml-spray",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2362,
+      "name": "Dog Healthcare Supplies",
+      "slug": "dog-healthcare-supplies"
+    },
+    {
+      "id": 2363,
+      "name": "Flea & Tick Control",
+      "slug": "dog-flea-tick"
+    },
+    {
+      "id": 2214,
+      "name": "Veko",
+      "slug": "veko"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "QuicFIP Plus is a once-a-month topical solution designed to prevent fleas and ticks in dogs, Compared to Frontline, Nexgard and Bravecto. This potent formula eliminates 100% of adult fleas on your pet within 12 hours and completely eradicates all ticks and chewing lice within 48 hours. QuicFIP Plus includes an insect growth regulator called S-Methoprene, which effectively eliminates fleas and ticks at every life stage, including their eggs and larvae. It provides comprehensive protection against various tick species, including the brown dog tick, American dog tick, lone star tick, and deer tick.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

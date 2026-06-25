@@ -1,0 +1,42 @@
+{
+  "id": 27105,
+  "name": "Dog Fest Meat Sticks  - Lamb 45G",
+  "slug": "dog-fest-meat-sticks-lamb-45g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "These tender and meaty treats can be torn into smaller bits as a reward for training. Something you should always have with you wherever you go with your dog. Composition: lamb, vegetable by-products, minerals. Analytical constituents, %: crude protein 23, crude fat 4.5, crude fiber 0.2, crude ash 4, moisture 23.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

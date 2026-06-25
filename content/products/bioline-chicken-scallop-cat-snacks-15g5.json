@@ -1,0 +1,42 @@
+{
+  "id": 37810,
+  "name": "Bioline Chicken & Scallop Cat Snacks 15g * 5",
+  "slug": "bioline-chicken-scallop-cat-snacks-15g5",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2330,
+      "name": "Cat Treats",
+      "slug": "cat-treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Bioline chicken and scallop pet snacks is a selection of high-quality Chicken and delicious Scallops, cooked at high temperatures, ground in the form of pulp, good taste, and can be easily digested and absorbed. Main Ingredients: Water, Scallops, Frozen Chicken Breast, Corn Starch. Additives: Xanthan Gum, Taurine, Vitamin A, Vitamin D, Vitamin E Application: For Cats upto 3 months old Storage Conditions: Please Keep in a cool and dry place below 25C, avoid direct sunlight Instructions for Use: Can be added to food or given orally to Cats",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

@@ -1,0 +1,32 @@
+{
+  "id": 27230,
+  "name": "Dog Fest Duck Fillets 90G",
+  "slug": "dog-fest-duck-fillets-90g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "This simple, yet amazing treat is our best seller. Dogs truly appreciate the rich flavor of real duck meat. Could be used as a training reward or a quick snack. Composition: duck, vegetable by-products, minerals. Analytical constituents, %: crude protein 41, crude fat 3.5, crude fiber 0.2, crude ash 4, moisture 23.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

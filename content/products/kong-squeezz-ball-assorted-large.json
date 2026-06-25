@@ -1,0 +1,47 @@
+{
+  "id": 16557,
+  "name": "KONG Squeezz Ball Assorted Large",
+  "slug": "kong-squeezz-ball-assorted-large",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2031,
+      "name": "Kong",
+      "slug": "kong-accessories"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "KONGDental Squeezz toys satisfy dog's instinctual need to chew as the textured nubs reward appropriate behaviour while cleaning teeth. Stuffing with treats and its flexible material adds to the engagement while extending playtime. The way the toy flexes as dogs chew allows for a deeper clean. Chewing on the KONG Dental Squeeze is a fun way to help prevent clinical teeth and gum conditions. Unique texture rewards appropriate chewing Flexible material for added engagement. Stuff with treats or kibble to extend playtime. Stuff grooves to entice chewing.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

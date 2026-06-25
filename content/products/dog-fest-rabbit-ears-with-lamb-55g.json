@@ -1,0 +1,42 @@
+{
+  "id": 27107,
+  "name": "Dog Fest Rabbit Ears With Lamb 55G",
+  "slug": "dog-fest-rabbit-ears-with-lamb-55g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Let your dog get busy with this mouth-watering treat. Made of chewy rabbit ears and filled with real chicken meat. This treat could become your dog's favorite. Composition: lamb, rabbit ear, vegetable by-products, minerals. Analytical constituents, %: crude protein 38, crude fat 5, crude fiber 0.2, crude ash 5, moisture 18.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

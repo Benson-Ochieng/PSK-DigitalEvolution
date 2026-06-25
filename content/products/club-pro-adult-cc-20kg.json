@@ -1,0 +1,47 @@
+{
+  "id": 23662,
+  "name": "Royal Canin Club Pro Adult CC 20kg",
+  "slug": "club-pro-adult-cc-20kg",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2104,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Royal Canin? Club Pro Adult CC Dry Dog Food is a balanced complete diet of coated, expanded kibble for the adult dog with no high performance demands. 100% complete and balanced nutrition The carefully formulated recipe guarantees high acceptance and digestibility. Helps provide the optimal energy content Supports ideal weight maintenance Excellent food for maintenance of adult dogs Helps maintain health and beauty of skin and coat Has a protein/fat ratio of 25/14 No added colors or flavors IngredientsGrains, meat & meat by-products, oils and fats, vegetable by-products, plant protein extracts, minerals, yeast. Nutritional dietary additives: Vitamin A - 6000 IU/kg; Vitamin D3 - 500 IU/kg; E1 [iron] - 24 mg/kg; E2 [iodine] - 1.9 mg/kg; E4 [copper] - 8 mg; E5 [manganese] - 31 mg/kg; E6 [zinc] - 105 mg/kg; preservatives; antioxidants.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

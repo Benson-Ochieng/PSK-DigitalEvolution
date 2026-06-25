@@ -1,0 +1,32 @@
+{
+  "id": 27233,
+  "name": "Dog Fest Duck Meat Bones 55G",
+  "slug": "dog-fest-duck-meat-bones-55g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Real bones for real dogs. Chewy munchy sticks with duck meat on both sides. Let your dog enjoy the great taste of oven-backed duck while \"brushing\" its teeth at the same time. Composition: duck, rawhide, vegetable by-products, minerals. Analytical constituents, %: crude protein 33, crude fat 3.5, crude fiber 0.2, crude ash 4.5, moisture 18.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

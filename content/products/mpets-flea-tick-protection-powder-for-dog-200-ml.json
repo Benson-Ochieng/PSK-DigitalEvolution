@@ -1,0 +1,47 @@
+{
+  "id": 27339,
+  "name": "Mpets Flea &  Tick Protection Powder For Dog 200 Ml",
+  "slug": "mpets-flea-tick-protection-powder-for-dog-200-ml",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2362,
+      "name": "Dog Healthcare Supplies",
+      "slug": "dog-healthcare-supplies"
+    },
+    {
+      "id": 2363,
+      "name": "Flea & Tick Control",
+      "slug": "dog-flea-tick"
+    },
+    {
+      "id": 2135,
+      "name": "MPETS",
+      "slug": "mpets"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Description: The flea & tick protection powder is designed for conditions where watershampoo is not recommended for pets. Composition: D-Panthenol, Pyrethrin, Piperonylbutox, Beta-Cyclodextrin, Alcohol, Talc, Triclosan",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

@@ -1,0 +1,42 @@
+{
+  "id": 27221,
+  "name": "Dog Fest Chicken Strips On Chewy Stick 90G",
+  "slug": "dog-fest-chicken-strips-on-chewy-stick-90g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Simple and Classic. A long-lasting chewy rawhide stick is covered with strips of chicken breast fillet. Cooked in the oven to become one of the most favorite dog treats. Composition: chicken, rawhide, vegetable by-products, minerals. Analytical constituents, %: crude protein 65, crude fat 3.5, crude fiber 0.2, crude ash 3.5, moisture 18.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

@@ -1,0 +1,47 @@
+{
+  "id": 23773,
+  "name": "Josera Festival 900g",
+  "slug": "josera-festival-900g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Composition: poultry; whole-grain corn; rice; poultry fat; beet fibre; dried salmon 6.0 %; potato starch; hydrolysed poultry protein; hydrolysed vegetable protein; minerals; dried poultry liver; yeast; haemoglobin powder; ground chicory root (natural source of inulin); dried meat from the New Zealand green-lipped mussel (Perna canaliculus). Product Details: A unique menu for our discerning connoisseurs: This food can be fed dry or moist. Just add water to the gravy powder to transform this crunchy kibble into a special taste sensation! This variety is sure to win over even the fussiest pet. Salmon adds a tasty finishing touch to the exclusive recipe. ? With tasty gravy powder for added flavour ? Valuable fatty acids promote a healthy appearance and a shiny coat ? Supplies active and sporting dogs with plenty of energy ? Supports bone formation and joints",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

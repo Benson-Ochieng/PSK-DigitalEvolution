@@ -1,0 +1,42 @@
+{
+  "id": 27025,
+  "name": "Cat Fest Pillows With Chicken Creme (30G)",
+  "slug": "cat-fest-pillows-with-chicken-creme-30g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2330,
+      "name": "Cat Treats",
+      "slug": "cat-treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Classic rich taste, high nutritional properties of real farm chicken meat ? what could be better for your beloved cat. Ingredients: chicken meat, plant products, minerals. Analytical components: crude protein 20%, fats 15%, crude fiber 2.5%, moisture 10%; energy value ? 193 kcal.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

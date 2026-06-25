@@ -1,0 +1,32 @@
+{
+  "id": 27154,
+  "name": "Dog Fest Chicken Fillet Bars 90G",
+  "slug": "dog-fest-chicken-fillet-bars-90g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "These chicken bars are made of pure chicken fillet parts. Chewy, easy to break into smaller pieces, they always come in handy. No dog can resist. Composition: chicken, vegetable by-products, minerals. Analytical constituents, %: crude protein 50, crude fat 4, crude fiber 0.3, crude ash 4, moisture 16.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

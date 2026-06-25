@@ -1,0 +1,32 @@
+{
+  "id": 15453,
+  "name": "Enjoy Dog Treat Variety Pack",
+  "slug": "enjoy-dog-treat-variety-pack",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2027,
+      "name": "Bundles",
+      "slug": "bundles"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "An assortment of ENJOY Dog Treats (4) - reward good behaviour with high quality, Non-GMO dog treats! Pack includes one of each: Duck Jerky, Lamb Slices, Dental Chew Sticks with Chicken and Chew Strips with Beef.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

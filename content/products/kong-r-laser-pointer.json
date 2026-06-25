@@ -1,0 +1,57 @@
+{
+  "id": 16519,
+  "name": "KONG Laser Pointer",
+  "slug": "kong-r-laser-pointer",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2342,
+      "name": "Cat Toys",
+      "slug": "cat-toys"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2031,
+      "name": "Kong",
+      "slug": "kong-accessories"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Create the ultimate prey and let your cat unleash her inner huntress with the KONGLaser cat toy. This easy-to-use laser helps facilitate interactive play sessions and provides endless fun for both you and your cat. Simply point the laser at the floor or wall and watch as your cat attempts to capture its elusive prey. This game of cat-and-laser satisfies the curiosity and playfulness of your kitty, and even encourages exercise.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

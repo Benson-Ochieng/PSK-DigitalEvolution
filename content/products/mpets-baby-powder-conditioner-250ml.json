@@ -1,0 +1,32 @@
+{
+  "id": 27295,
+  "name": "Mpets Baby Powder Conditioner 250Ml",
+  "slug": "mpets-baby-powder-conditioner-250ml",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2135,
+      "name": "MPETS",
+      "slug": "mpets"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Baby powder conditioner with pleasant and fresh smell, especially adding glycerin to moisturize the pet hair and skin",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

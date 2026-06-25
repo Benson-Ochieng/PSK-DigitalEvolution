@@ -1,0 +1,37 @@
+{
+  "id": 8460,
+  "name": "SUPER Saver January Dog Bundle: ONE 3kg Reflex Bag of Choice + 3 Assorted Treats",
+  "slug": "super-saver-january-dog-bundle",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    },
+    {
+      "id": 927,
+      "name": "Sale",
+      "slug": "sale"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

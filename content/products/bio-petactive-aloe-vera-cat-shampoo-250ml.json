@@ -1,0 +1,42 @@
+{
+  "id": 19812,
+  "name": "Bio Petactive Aloe Vera cat shampoo 250ml",
+  "slug": "bio-petactive-aloe-vera-cat-shampoo-250ml",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2337,
+      "name": "Cat Healthcare Supplies",
+      "slug": "cat-healthcare"
+    },
+    {
+      "id": 2338,
+      "name": "Flea & Tick",
+      "slug": "cat-flea-tick"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Shampoo with Aloe Vera Extract for Cats. It is a cleansing and moisturizing care shampoo for your cat with carefully selected surfactants and Aloe Vera. Aloe Vera protects and moisturizes the skin. Helps to remove redness and shedding problems on dry skin. And it reduces the mobility of free radicals on the skin, strengthens skin cells and skin texture. Usage: Soak the body of your cat in warm water prior to application. Dilute the amount of product 1:5 with water then rub to spread the foam throughout the body of your cat. Start shampooing and washing on the back. To get the best results, wait for 3 to 5 minutes until the shampoo thoroughly soaks into the cat?s fur. Then rinse and dry with a towel and groom its fur.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

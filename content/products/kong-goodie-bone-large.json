@@ -1,0 +1,57 @@
+{
+  "id": 16418,
+  "name": "KONGgoodie Bone Lg",
+  "slug": "kong-goodie-bone-large",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2342,
+      "name": "Cat Toys",
+      "slug": "cat-toys"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2031,
+      "name": "Kong",
+      "slug": "kong-accessories"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "The KONGGoodie Bone™ toy engages dogs that delight in chew sessions. Made from the KONGClassic unique natural red rubber formula, this bone features the patented Goodie Grippers ™ that turn this entertaining toy into a fun treat-dispensing challenge that can be stuffed with your dog’s favourite kibble. Want to extend the chew session? Stuff with KONGSnacks™ and entice with a bit of KONGEasy Treat™. Durable natural KONGRubber; bone shaped for chewing satisfaction. Patented Goodie Gripper™ holes are ideal for stuffing challenges. Two Goodie Grippers™ extend the mind-occupying challenge. Made in the USA. Globally Sourced Materials.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

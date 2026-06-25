@@ -1,0 +1,32 @@
+{
+  "id": 27294,
+  "name": "Mpets Aloe Vera Dog Shampoo 5L",
+  "slug": "mpets-aloe-vera-dog-shampoo-5l",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2135,
+      "name": "MPETS",
+      "slug": "mpets"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Aloe vera shampoo retains moisture in the skin, it has a mildly antibacterial and anti-inflammatory effect. This shampoo is particularly suitable for dogs with sensitive skin.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

@@ -1,0 +1,52 @@
+{
+  "id": 33793,
+  "name": "Migliorcane Dog Bundle",
+  "slug": "migliorcane-dog-bundle",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2027,
+      "name": "Bundles",
+      "slug": "bundles"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 2349,
+      "name": "Wet Dog Food",
+      "slug": "wet-dog-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "1Pc Migliorcane Adult Dog Food Active 4Kg 2Pcs Reflex Dog Treats Duck Sausages 80Gr 2Pcs Reflex Dog Treats Chicken Drumsticks 80Gr 4Pcs Migliorcane Canned Dog Food Game 405Gr",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

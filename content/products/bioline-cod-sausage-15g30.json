@@ -1,0 +1,42 @@
+{
+  "id": 33115,
+  "name": "Bioline Cod Sausage 15G x30pcs",
+  "slug": "bioline-cod-sausage-15g30",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "BIOLINE COD SAUSAGE: The product contains natural ingredients, unsaturated fatty acids and trace elements with low fat and low calories and can be used as a training dog treat. Ingredients: Cod, Corn Starch, Vegetable Protein, Vitamins, etc Suitable for All Dogs",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

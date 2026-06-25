@@ -1,0 +1,42 @@
+{
+  "id": 33772,
+  "name": "Proline Bundle - 2Pc",
+  "slug": "proline-bundle-2pc",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    },
+    {
+      "id": 2331,
+      "name": "Litter and Litter Box & Accessories",
+      "slug": "cat-litter-and-accessories"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "1PC Proline Cat Litter Lavender 5L 1PC Proline Adult Cat Food Chicken 500Gr",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

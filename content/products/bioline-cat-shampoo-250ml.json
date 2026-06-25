@@ -1,0 +1,37 @@
+{
+  "id": 37828,
+  "name": "Bioline Cat Shampoo 250ml",
+  "slug": "bioline-cat-shampoo-250ml",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2343,
+      "name": "Cat Grooming",
+      "slug": "cat-grooming"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Bioline cat Shampoo 250ML is Made specifically with tools and materials that are safe and comfortable for pets. Bioline Products are made with supervision and recommendations from Professional Veterinarians. This shampoo uses herbal extract ingredients that contain vitamins and other nutrients that are very good for the development of skin and fur in kittens. Instructions for use: - Use the shampoo sparingly as necessary for the size of the cats. - Apply shampoo to the wet coat, spread evenly and rinse with lukewarm water. repeat if necessary. - After washing the coat, it is important to rub the animal dry and keep it well protected from draught.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

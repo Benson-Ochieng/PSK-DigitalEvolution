@@ -1,0 +1,42 @@
+{
+  "id": 39891,
+  "name": "Bioline Beef Sausage 15g X 30pcs",
+  "slug": "bioline-beef-sausage-15g-x30pcs",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "BIOLINE BEEF SAUSAGE: The product contains unsaturated fatty acids and trace elements, rich in high-quality protein, very tasty and can be used as a reward in training. Ingredients: Beef (60%), Water, Corn Starch, Soya Protein, Sucrose Additive Composition: Caragel, Sodium Chloride Suitable for All Dogs",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

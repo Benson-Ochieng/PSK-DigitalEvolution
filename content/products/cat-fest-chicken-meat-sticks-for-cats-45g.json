@@ -1,0 +1,42 @@
+{
+  "id": 36487,
+  "name": "Cat Fest Chicken Meat Sticks For Cats 45g",
+  "slug": "cat-fest-chicken-meat-sticks-for-cats-45g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2330,
+      "name": "Cat Treats",
+      "slug": "cat-treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Description The most delicate chicken is carefully ground to become your cat’s favorite treat. Ingredients: chicken meat, plant products, minerals. Analytical components: crude protein 31%, fats 4.5%, crude fiber 0.1% moisture 25%; energy value – 164.5 kcal. Usage: Serve as a treat during the day. Adjust the amount according to your pet’s needs and condition. Do not overdo it.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

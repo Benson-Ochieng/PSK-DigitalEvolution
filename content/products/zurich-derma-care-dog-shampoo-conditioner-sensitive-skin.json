@@ -1,0 +1,42 @@
+{
+  "id": 1821,
+  "name": "Zurich Flea & Tick - Derma Care Dog Shampoo & Conditioner for Sensitive Skin",
+  "slug": "zurich-derma-care-dog-shampoo-conditioner-sensitive-skin",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2362,
+      "name": "Dog Healthcare Supplies",
+      "slug": "dog-healthcare-supplies"
+    },
+    {
+      "id": 2363,
+      "name": "Flea & Tick Control",
+      "slug": "dog-flea-tick"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Zurich Flea & Tick Derma Care Dog Shampoo & Conditioner helps to restore moisture to dry and itchy skin and smooth dry and brittle coats. Gentle enough for the most delicate breeds. Use regularly to enhance your dog's coat and discourage fleas and ticks.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

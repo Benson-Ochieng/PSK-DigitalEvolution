@@ -1,0 +1,42 @@
+{
+  "id": 36489,
+  "name": "Bioline Catnip Biscuit - Cod 80g",
+  "slug": "bioline-catnip-biscuit-cod-80g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2330,
+      "name": "Cat Treats",
+      "slug": "cat-treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Description Bioline Natural Catnip Biscuits contain natural catnip leaves, have excellent palatability. It can help the cat to increase exercises to control weight and improve health. Natural catnip leaves contain natural chlorophyll, it helps provide vitamins to cats. INGREDIENTS: Wheat Flour, Palm Oil, Catnip Leaves, Malt Sugar, Cod, Shrimp, Sodium, Bicarbonate. Feeding recommendations for Adult Cat: 8-10 pcs/day. Not recommended for kittens under 2 months old.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

@@ -1,0 +1,57 @@
+{
+  "id": 16408,
+  "name": "Kong Cat Zoomgoom",
+  "slug": "kong-cat-zoomgroom-2",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2342,
+      "name": "Cat Toys",
+      "slug": "cat-toys"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2031,
+      "name": "Kong",
+      "slug": "kong-accessories"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "The KONGZoomGroom? for Cats massages and grooms at the same time. The soft, rubber fingers are a magnet for loose hairs. Helps condition skin and reduce hairball formation. The gentle massage action calms cats, especially in potentially traumatic situations such as veterinarian visits. Easy grip brush is flexible and gentle. Groom; bathe and massage your cat. Helps prevent hairball formation. Durable material for extended use. Ergonomic grip for easy use.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

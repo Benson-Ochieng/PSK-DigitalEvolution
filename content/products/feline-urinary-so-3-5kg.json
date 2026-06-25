@@ -1,0 +1,47 @@
+{
+  "id": 23665,
+  "name": "Royal Canin Feline Urinary SO 3.5kg",
+  "slug": "feline-urinary-so-3-5kg",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 2104,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "ROYAL CANIN? Urinary S/O is for the nutritional management of cats with struvite or oxalate crystals and lower urinary tract disease. Recommended for (indications): Struvite uroliths: dissolution and management of recurrence, Calcium oxalate uroliths: management of recurrence. Not recommended for (contraindications): Chronic Kidney Disease (CKD), Heart disease (when sodium restriction is sought), Concurrent use of urine-acidifying drugs, Growth, gestation, lactation, Hypertension. In older cats and dogs, it is recommended renal function be checked before Urinary S/O is prescribed. This diet is complete and balanced and can be fed long-term. A full health check should be performed by a veterinarian every 6 months. Composition: Rice, wheat gluten*, dehydrated poultry protein, maize flour, animal fats, hydrolysed animal proteins, minerals, vegetable fibres, maize gluten, fish oil, soya oil, fructo-oligosaccharides, marigold extract (source of lutein), wheat flour. *L.I.P.: protein selected for its very high digestibility. Additives (per kg): Nutritional additives: Vitamin A: 21000 IU, Vitamin D3: 800 IU, E1 (Iron): 34mg, E2 (Iodine): 3.4mg, E4 (Copper): 10mg, E5 (Manganese): 44mg, E6 (Zinc): 150mg, E8 (Selenium): 0.05mg. Preservatives ? Antioxidants. Analytical constituants: Proteins: 34.5%, Fat content: 15%, Crude fibre: 2.9%, Calcium: 0.9%, Omega 6: 3.18%, Omega 3: 0.82%, EPA + DHA: 0.36%, Dietary fibre: 6.9%, Carbohydrates (Starch): 33.2%. Metabolisable energy: 387kcal/100g.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

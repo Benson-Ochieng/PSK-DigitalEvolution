@@ -1,0 +1,42 @@
+{
+  "id": 27030,
+  "name": "Cats best Original 10L",
+  "slug": "cats-best-original-10l",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    },
+    {
+      "id": 2331,
+      "name": "Litter and Litter Box & Accessories",
+      "slug": "cat-litter-and-accessories"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Cat?s Best Original uses the power of technologically refined active wood fibres as a clumping litter. These are manufactured using the new ICS Wood Fibre Technology** process. Liquids and odours are absorbed particularly effectively and encapsulated deep inside ? up to 7 times their own weight. Therefore Cat?s Best Original can remain in the litter box for up to 5 weeks before a complete change is necessary.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

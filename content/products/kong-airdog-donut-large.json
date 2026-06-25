@@ -1,0 +1,47 @@
+{
+  "id": 16377,
+  "name": "Kong AirDog Donut - Large",
+  "slug": "kong-airdog-donut-large",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2357,
+      "name": "Dog Fetch Toys",
+      "slug": "dog-fetch-toys"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2031,
+      "name": "Kong",
+      "slug": "kong-accessories"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "KONG AirDog Squeaker Donut combines two classic dog toys -the tennis ball and the squeaker - to create the perfect fetch toy. The non-abrasive, high-quality material will not wear down dogs teeth. Find your dog's favorite AirDog shape and let the games begin. Fetch toy for healthy, active play Non-abrasive KONG Tennis material, softer on teeth Squeaker entices play",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

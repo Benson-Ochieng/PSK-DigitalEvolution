@@ -1,0 +1,47 @@
+{
+  "id": 23659,
+  "name": "Royal Canin Rottweiler Adult 12kg",
+  "slug": "rottweiler-adult-12kg",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2104,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Suitable for Rottweilers aged 18 months old and over, ROYAL CANIN? Rottweiler Adult is specially formulated with all the nutritional needs of your adult dog in mind. ROYAL CANIN? Rottweiler Adult contains specific nutrients ? such as taurine, EPA, and DHA ? that help to support healthy cardiac function. ROYAL CANIN? Rottweiler Adult also contributes to the maintenance of optimal muscle mass and an ideal bodyweight, thanks to an adapted protein content and the inclusion of L-Carnitine. This diet ? rationed appropriately to regulate proper food intake ? should be fed in conjunction with an effective exercise routine. Whether working or just on a walk with its owner, the Rottweiler is always active and enthusiastic, which means it requires nutrients that support the health of its joints and bones. This is the reason ROYAL CANIN? Rottweiler Adult has been enriched with EPA and DHA ? these omega-3 fatty acids help to support your dog's healthy bones and joints. What's more, the exclusive kibble in ROYAL CANIN? Rottweiler Adult is specially designed to make it easier for your dog to pick up, it also encourages it to chew more thoroughly to help increase the feeling of fullness and maintain an ideal weight",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

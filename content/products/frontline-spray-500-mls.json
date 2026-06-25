@@ -1,0 +1,32 @@
+{
+  "id": 24608,
+  "name": "Frontline Spray 500 mls",
+  "slug": "frontline-spray-500-mls",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2124,
+      "name": "Frontline",
+      "slug": "frontline"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "FRONTLINE SPRAY protects cats and dogs against fleas and ticks, including paralysis ticks. It can be used on puppies and kittens from 2 days of age. To protect against adult fleas, apply every 12 weeks for dogs and every 8 weeks for cats. To protect against paralysis ticks, apply every 3 weeks for dogs and cats and for protection against brown dog ticks, apply monthly. Can be used in puppies and kittens from 2 days of age. Controls flea allergy dermatitis when used monthly.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

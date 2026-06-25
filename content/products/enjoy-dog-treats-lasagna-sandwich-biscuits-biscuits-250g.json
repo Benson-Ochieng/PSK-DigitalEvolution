@@ -1,0 +1,42 @@
+{
+  "id": 12000,
+  "name": "Enjoy Dog Treats - Lasagna Sandwich Biscuits 250g",
+  "slug": "enjoy-dog-treats-lasagna-sandwich-biscuits-biscuits-250g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Enjoy Dog Treats - Lasagna Sandwich Baked & Dried Biscuits , reward good behaviour with these fun and delicious treats made with the highest quality ingredients and bursting with flavour. INGREDIENTS: cereals, meat & animal by-products, vegetable oils & fats, glucose 5.4%, milk and milk-by-products, minerals, vegetables. NUTRIENT COMPONENTS Crude Protein (%) - 10.4 Oil Content (%) - 7.2 Crude Ash (%) - 3.1 Crude Fiber (%) - 3.3 Sodium (%) - 0.7 FEEDING RECOMMENDATIONS: Feed a maximum of 10 pieces per day. Recommended for all dogs. Feed as a snack or treat between meals. This product does not replace full-dog food daily. Once open, keep the package tightly closed. Store in a cool, dry place.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

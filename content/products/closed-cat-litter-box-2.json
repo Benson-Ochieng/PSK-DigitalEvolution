@@ -1,0 +1,57 @@
+{
+  "id": 38180,
+  "name": "Closed Cat Litter Box",
+  "slug": "closed-cat-litter-box-2",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2343,
+      "name": "Cat Grooming",
+      "slug": "cat-grooming"
+    },
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    },
+    {
+      "id": 2331,
+      "name": "Litter and Litter Box & Accessories",
+      "slug": "cat-litter-and-accessories"
+    },
+    {
+      "id": 2333,
+      "name": "Litter Boxes",
+      "slug": "cat-litter-boxes"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "This Cat Litter Box combines beauty and functionality with; Spacious hood provides privacy for kitty. Hinged door to help contains odor and “doorstep” grate helps remove excess litter from kitty’s paws. Includes matching litter scoop for easy cleaning. size: 56x38x62cm",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

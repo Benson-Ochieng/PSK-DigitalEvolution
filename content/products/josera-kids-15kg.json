@@ -1,0 +1,47 @@
+{
+  "id": 23719,
+  "name": "Josera Kids 15kg",
+  "slug": "josera-kids-15kg",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Composition: poultry (dried); whole grain corn; rice; beet fibre; poultry fat; hydrolysed poultry protein; minerals; yeast; chicory root (ground, natural source of inulin); dried meat from the New Zealand green-lipped mussel (Perna canaliculus). Product Details: Rearing of middle and large-sized breeds. For our young heroes who want to reach for the stars: A special growth formula for medium and large breeds. This low-energy recipe with a tailored protein and fat content supports a moderate growth rate, powerful bone development and healthy joints. . From 8 weeks on . Suitable for heavily built dogs . Supports cardiovascular functions and skeletal development . Can be fed all the way through to adulthood Key Benefits Supports Healthy Bone Development – optimized calcium & phosphorus balance plus essential nutrients for strong bones and joints. For Heavily-Built Breeds – low energy content to prevent rapid growth and stress on developing skeletons. With New Zealand Green-Lipped Mussel – a natural source of joint-supporting nutrients like glucosamine and chondroitin. Promotes Heart & Cardiovascular Health – fortified with taurine and L-carnitine. Digestive Health – chicory root (a natural source of inulin) helps support gut flora for better digestion. All-in-One Formula – suitable for continuous feeding from puppyhood to adulthood. &nbsp;",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

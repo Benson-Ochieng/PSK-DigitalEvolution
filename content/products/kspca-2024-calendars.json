@@ -1,0 +1,32 @@
+{
+  "id": 41511,
+  "name": "KSPCA 2024 Calendars",
+  "slug": "kspca-2024-calendars",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "The KSPCA 2024 Calendars are on sale at 1000kshs only. If you purchase a wall calendar from us, we will send an equivalent amount of food for animals at the KSPCA shelter. Simply acquire your wall calendar, and the money will be utilized to feed animals at KSPCA.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

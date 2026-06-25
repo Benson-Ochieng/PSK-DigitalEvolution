@@ -1,0 +1,32 @@
+{
+  "id": 23775,
+  "name": "Josera Salmon and Potato 900g",
+  "slug": "josera-salmon-and-potato-900g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Composition: salmon 19,0 %; dried potato 51.0 %; poultry fat; beet fibre; potato protein; carob meal; hydrolysed fish protein; minerals; chicory root, ground (natural source of inulin); herbs; fruits. Product Details: A grain-free pleasure for our chowhounds: Salmon and potato, with herbs and fruits. Due to the low protein and energy content and the moderate mineral content, it is also highly suitable for older dogs. ? With 19% dried salmon as the only source of animal protein (corresponds to about 65 g of fresh meat per 100 g of dry food) ? With herbs and fruit (carob, chicory root, raspberries, peppermint, parsley, camomile, rose hip, liquorice, chokeberry, fenugreek seeds, blueberries, marigold and fennel) ? Also suitable for older dogs",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

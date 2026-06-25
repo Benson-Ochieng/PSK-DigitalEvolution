@@ -1,0 +1,42 @@
+{
+  "id": 27106,
+  "name": "Dog Fest Rabbit Ears With Chicken 90G",
+  "slug": "dog-fest-rabbit-ears-with-chicken-90g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "A combination of chewy rabbit ears and tender chicken meat creates a unique puppy treat. It lets your dog enjoy a great taste of farm fresh chicken as well as have a great time chewing on tender, yet chewy ears. Composition: chicken, rabbit ear, vegetable by-products, minerals. Analytical constituents, %: crude protein 35, crude fat 3, crude fiber 0.2, crude ash 4.5, moisture 18.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

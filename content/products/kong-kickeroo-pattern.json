@@ -1,0 +1,42 @@
+{
+  "id": 16521,
+  "name": "KONG Kickeroo Pattern #1",
+  "slug": "kong-kickeroo-pattern",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2031,
+      "name": "Kong",
+      "slug": "kong-accessories"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "KONGKickeroo?s? long length encourages your cat to kick with hind paws, promoting tons of healthy, full-body activity. Fluffy tail sparks hunting instincts and Kickeroo?s soft material is lovely for snuggling. The crinkling sound keeps kitties interested while the KONGPremium North American Catnip boosts the fun.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

@@ -1,0 +1,42 @@
+{
+  "id": 27267,
+  "name": "Dog Fest Meat Slices With Venison (90G)",
+  "slug": "dog-fest-meat-slices-with-venison-90g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Nature calling! The mix of venison and duck will let your dog experience what wildlife tastes like. Mouth-watering treats are just perfect for training or as a treat on the go. Composition: duck, venison, vegetable by-products, minerals. Analytical constituents, %: crude protein 28, crude fat 12, crude fiber 1, crude ash 5, moisture 21",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

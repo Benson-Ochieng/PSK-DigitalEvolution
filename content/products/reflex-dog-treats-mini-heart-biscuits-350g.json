@@ -1,0 +1,47 @@
+{
+  "id": 3719,
+  "name": "Reflex Dog Treats - Mini Heart Biscuits 350g",
+  "slug": "reflex-dog-treats-mini-heart-biscuits-350g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Reflex Dog Treats - Mini Heart Biscuits are the perfect size dog biscuits for training and for rewarding good behaviour. Made with the highest quality ingredients and bursting with flavour. INGREDIENTS: Cereals, Glucose (7.5%), Vegetable Oils & Fats, Meat & Animal By-Products, Minerals. NUTRIENT COMPONENTS Crude Protein (%) - 8.6 Oil Content (%) - 5.3 Crude Ash (%) - 3.1 Crude Fiber (%) - 2.7 Sodium (%) - 0.5 FEEDING RECOMMENDATIONS: Treats may be given as an additional snack. This product does not replace full-dog food daily. Recommended quantity: max. 10 pieces per day. Individual daily requirement depends on other factors, e.g. age, breed and activity. Keep in a dry, cool place.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

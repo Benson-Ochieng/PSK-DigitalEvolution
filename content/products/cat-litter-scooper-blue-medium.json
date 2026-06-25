@@ -1,0 +1,32 @@
+{
+  "id": 33118,
+  "name": "Cat Litter Scooper Blue Medium",
+  "slug": "cat-litter-scooper-blue-medium",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "This cat litter scooper is portable, lightweight, and durable. ? Flat, thin, & sharp leading edge sits flush against your cat litter box floor to scoop underneath cat litter, rather than into clumped litter. ? Faster sifting. ? High walls on this litter scoop prevent scatter. ? Comfortable, ergonomic & longer type handle.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

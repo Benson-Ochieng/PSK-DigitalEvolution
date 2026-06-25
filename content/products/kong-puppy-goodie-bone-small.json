@@ -1,0 +1,52 @@
+{
+  "id": 16538,
+  "name": "KONG Puppygoodie Bone Small",
+  "slug": "kong-puppy-goodie-bone-small",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2031,
+      "name": "Kong",
+      "slug": "kong-accessories"
+    },
+    {
+      "id": 2350,
+      "name": "Puppy Food",
+      "slug": "puppy-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "The KONGPuppy Goodie Bone engages puppies that are learning appropriate chewing behaviour. Made from the KONGClassic unique puppy rubber, this bone fulfils instinctual needs to chew while easing aching teeth and gums. KONGGoodie Grippers turn this entertaining toy into a fun treat-dispensing challenge. Want to extend chew sessions? Stuff with KONGPuppy Snacks and KONGPuppy Easy Treat. Covered by KONGSatisfaction Guarantee. See KONGSatisfaction Guarantee document below for full details.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

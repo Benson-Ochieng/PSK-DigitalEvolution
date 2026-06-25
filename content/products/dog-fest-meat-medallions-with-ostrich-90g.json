@@ -1,0 +1,32 @@
+{
+  "id": 27265,
+  "name": "Dog Fest Meat Medallions With Ostrich (90G)",
+  "slug": "dog-fest-meat-medallions-with-ostrich-90g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Let your dogs try something new and exotic, they will love this fantastic taste. Tender yet chewy, these medallions with ostrich meat will be highly appreciated. Composition: duck, ostrich, vegetable by-products, minerals Analytical constituents, %: crude protein 28, crude fat 11, crude fiber 1, crude ash 5, moisture 2",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

@@ -1,0 +1,32 @@
+{
+  "id": 27266,
+  "name": "Dog Fest Meat Slices Withgoose (55G)",
+  "slug": "dog-fest-meat-slices-with-goose-55g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Time to add a little wildness to your dog?s life. Tender goose meat strips are perfect for training as can be easily broken into smaller bits. Ingredients: duck 50%, goose 30%, vegetable by-products, minerals. Guaranteed analysis: crude protein 28%, crude fat 11%, crude fiber 1%, crude ash 5%, moisture 21%",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

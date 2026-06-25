@@ -1,0 +1,57 @@
+{
+  "id": 17935,
+  "name": "Rogz Dog Squeekz Ball 6.4cm - Red Medium",
+  "slug": "rogz-dog-squeekz-ball-6-4cm-red-medium",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2357,
+      "name": "Dog Fetch Toys",
+      "slug": "dog-fetch-toys"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2064,
+      "name": "Rogz",
+      "slug": "rogz"
+    },
+    {
+      "id": 2139,
+      "name": "toys",
+      "slug": "toys"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Rogz Squeekz Ball is a fetch ball with a squeaker that bounces on land and floats on water! Features: Squeak - Designed to provide endless excitement for your dog. Float - Made from TPR which floats visibly on the water for easy fetching. Bounce and Fetch - Soft enough not to hurt your dog?s teeth, but firm enough to bounce! Bite-o-Meter - 2 ? Soft CE Approved, Non Toxic, TPR",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

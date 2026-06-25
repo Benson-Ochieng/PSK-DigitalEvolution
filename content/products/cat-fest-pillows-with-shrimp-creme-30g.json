@@ -1,0 +1,42 @@
+{
+  "id": 27029,
+  "name": "Cat Fest Pillows With Shrimp Creme (30G)",
+  "slug": "cat-fest-pillows-with-shrimp-creme-30g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2330,
+      "name": "Cat Treats",
+      "slug": "cat-treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "A gorgeous combination of crispy crust and the most delicate natural ocean shrimp puree make this treat a cat?s favorite treat, and the porous structure helps the pet to brush its teeth. Ingredients: cereals, vegetable protein, ocean shrimp, egg yolk, fish meal, Omega 3/6 fatty acids, fruits and vegetables (pomegranate seeds, forest cranberries). Analytical components: crude protein 20%, fats 15%, crude fiber 2.5%, crude ash 4%, moisture ? 10; energy value ? 360 kcal",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

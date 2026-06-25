@@ -1,0 +1,47 @@
+{
+  "id": 23730,
+  "name": "Bavaro-Task 23/9 18kg",
+  "slug": "bavaro-task-23-9-18kg",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Composition: meat and animal by-products, cereals; vegetable by-products; oils and fats; minerals. Protein 23% Fat content 9% Crude fibre 2.7% Crude ash 7.3% Calcium 1.4% Phosphorus 0.7% Metabolisable energy* MJ/kg14.75 Metabolisable energy* kcal/kg3524 Product Details: For working dogs that have light jobs to accomplish, BAVARO Task is the right choice.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

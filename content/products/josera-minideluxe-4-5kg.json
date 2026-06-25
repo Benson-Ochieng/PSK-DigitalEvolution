@@ -1,0 +1,32 @@
+{
+  "id": 23716,
+  "name": "Josera MiniDeluxe 900g",
+  "slug": "josera-minideluxe-4-5kg",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Composition: lamb protein 25.0 %; dried potato; sweet potato; poultry fat; potato protein; beet fibre; carob meal; partially hydrolysed yeast; minerals (sodium tri-polyphosphate %0.35); hydrolysed animal protein; apple fibre; herbs, fruits; ground chicory root (natural source of inulin). Product Details: With no grains but full of vegetables, herbs and fruits along with a large portion of lamb, this dogfood offers our little scoundrels a meal with no regrets, full of taste yet easy to digest. Lamb instead of poultry Reduces the risk of tartar formation Ideal as grainfree nutrition for small dogs With herbs and fruits: (carob, chicory root, raspberries, peppermint, parsley, chamomile, rose hips, liquorice root, aronia, fenugreek seeds, blueberries, marigold, fennel) With delicious sweet potatoes",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

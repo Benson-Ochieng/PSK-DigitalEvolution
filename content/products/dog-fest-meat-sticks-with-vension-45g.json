@@ -1,0 +1,42 @@
+{
+  "id": 27271,
+  "name": "Dog Fest Meat Sticks With Vension (45G)",
+  "slug": "dog-fest-meat-sticks-with-vension-45g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Meat sticks with wild taste. Training will be even more exciting now. These exotic meats have a great smell and taste. Dogs would do anything for it. Composition: duck, venison, vegetable by-products, minerals. Analytical constituents, %: crude protein 28, crude fat 10, crude fiber 1, crude ash 5, moisture 21.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

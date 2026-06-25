@@ -1,0 +1,42 @@
+{
+  "id": 27274,
+  "name": "Dog Fest Turkey Slices (90G)",
+  "slug": "dog-fest-turkey-slices-90g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "All natural treats & chews We range our treats based on the size and age of the dog. This helps to find a treat, which is just perfect just for your pet. You will still have to spend some time choosing a favorite flavor. Turkey Slices Reward him as a hero with something tasty! Turkey will alsobe your best choice if your dog has a sensitive stomach. Ingredients: turkey, vegetable by-products, minerals. Guaranteed analysis: crude protein 32%, crude fat 8.5%, crude fiber 0.2%, crude ash 4%, moisture 21%.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

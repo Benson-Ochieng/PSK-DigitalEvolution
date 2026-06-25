@@ -1,0 +1,52 @@
+{
+  "id": 16517,
+  "name": "KONG Naturals Catnip Spray 1 OZ",
+  "slug": "kong-naturals-catnip-spray-1oz",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2342,
+      "name": "Cat Toys",
+      "slug": "cat-toys"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2031,
+      "name": "Kong",
+      "slug": "kong-accessories"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "KONGNaturals catnip spray is made with concentrated catnip oil for maximum fun. Our oil is steam-distilled from the finest North American catnip, producing the most potent catnip oil available. For irresistible fun, spray on toys, teasers, scratchers, or cat condos. Your cat will love you for it. KONGNaturals are ecologically responsible for cat products. All ingredients and oils come from natural, renewable resources. These products are designed to appeal to the natural instincts of the indoor cat, providing fun with a purpose. Covered by KONGSatisfaction Guarantee. See KONGSatisfaction Guarantee document below for full details.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

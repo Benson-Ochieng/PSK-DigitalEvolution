@@ -1,0 +1,32 @@
+{
+  "id": 27484,
+  "name": "Mpets Shampoo & Conditioner For Cats And Dogs 5L",
+  "slug": "mpets-shampoo-conditioner-for-cats-and-dogs-5l",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2135,
+      "name": "MPETS",
+      "slug": "mpets"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Description: Shampoo & Conditioner 2 in 1 The nurturing conditioner in this shampoo makes combing easier. It also combines moisturizing D-panthenol with jojoba oil for more shine and volume.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

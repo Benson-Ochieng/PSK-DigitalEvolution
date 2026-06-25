@@ -1,0 +1,47 @@
+{
+  "id": 16515,
+  "name": "KONG Teaser Feather Pink Bird",
+  "slug": "kong-teaser-feather-pink-bird",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2342,
+      "name": "Cat Toys",
+      "slug": "cat-toys"
+    },
+    {
+      "id": 2031,
+      "name": "Kong",
+      "slug": "kong-accessories"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "The KONG Feather Teaser is designed for interactive play, and each toy contains KONG Premium North American Catnip for added stimulation. Bright feathers and a crinkle sound tempt cats to capture this toy. Covered by KONG Satisfaction Guarantee. See KONG Satisfaction Guarantee document below for full details.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

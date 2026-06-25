@@ -1,0 +1,37 @@
+{
+  "id": 15417,
+  "name": "Reflex Cat Meaty Treat Variety Pack",
+  "slug": "reflex-cat-meaty-treat-variety-pack",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2027,
+      "name": "Bundles",
+      "slug": "bundles"
+    },
+    {
+      "id": 179,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "An assortment of REFLEX Cat Meaty Treats (5) - 100% natural, no artificial flavours, easily digestible due to high protein content and with fatty acids to support healthy skin and coat. Variety pack includes one each of these flavours: Chcken, Chicken & Cod, Salmon & Cod, Tuna and Tuna & Broccoli.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

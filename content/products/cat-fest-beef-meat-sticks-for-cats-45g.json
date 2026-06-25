@@ -1,0 +1,42 @@
+{
+  "id": 36479,
+  "name": "Cat Fest Beef Meat Sticks for cats 45g",
+  "slug": "cat-fest-beef-meat-sticks-for-cats-45g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2330,
+      "name": "Cat Treats",
+      "slug": "cat-treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Classic rich taste, high nutritional properties of real farm beef – better for your meow friend. Ingredients: beef meat, plant products, minerals. Analytical Components: crude protein 26%, fats 9%, crude fiber 0.1%, moisture 25%; energy value – 193 kcal. Usage: Serve as a treat during the day. Adjust the amount according to your pet’s needs and condition. Do not overdo it.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

@@ -1,0 +1,42 @@
+{
+  "id": 27078,
+  "name": "Dog Fest Beef Slices 55G",
+  "slug": "dog-fest-beef-slices-55g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "High in protein, tender beef slices are a perfect reward for dog training. You can decide yourself how big is the piece your pooch should get. Just don't get them spoiled. Composition: beef, vegetable by-products, minerals. Analytical constituents, %: crude protein 28, crude fat 5, crude fiber 0.2, crude ash 4.5, moisture 23.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

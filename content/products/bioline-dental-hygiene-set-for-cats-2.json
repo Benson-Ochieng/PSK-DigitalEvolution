@@ -1,0 +1,42 @@
+{
+  "id": 33116,
+  "name": "Bioline Dental Hygiene set for cats",
+  "slug": "bioline-dental-hygiene-set-for-cats-2",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2343,
+      "name": "Cat Grooming",
+      "slug": "cat-grooming"
+    },
+    {
+      "id": 2145,
+      "name": "kitten",
+      "slug": "kitten"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Cheese Flavor Toothpaste Helps prevent tartar formation Improves dental hygiene. 2 Toothbrushes with 3 different heads Large front toothbrush Small molar brushes",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

@@ -1,0 +1,42 @@
+{
+  "id": 33781,
+  "name": "Reflex Treat Bundle - Lamb",
+  "slug": "reflex-treat-bundle-lamb",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "1PC Reflex Dog Treat Duck Jerky 80 Gr 1PC Reflex Dog Treat Chicken Jerky 80 Gr 1PC Reflex Dog Treat Duck Sausage 80 Gr 1PC Reflex Dog Treat Chicken Wrapped Sticks 80 Gr 1PC Reflex Dog Treat Duck Wrapped Sticks 80 Gr 1PC Reflex Dog Treat Lamb Cubes 80 Gr 1PC Reflex Dog Treat Lamb Slices 80 Gr 1PC Reflex Dog Treat Chicken Drumstick 80 Gr",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

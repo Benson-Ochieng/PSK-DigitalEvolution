@@ -1,0 +1,52 @@
+{
+  "id": 16421,
+  "name": "KONG AirDog Fetch Stick W/Rope Lg",
+  "slug": "kong-airdog-fetch-stick-w-rope-lg",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2357,
+      "name": "Dog Fetch Toys",
+      "slug": "dog-fetch-toys"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2031,
+      "name": "Kong",
+      "slug": "kong-accessories"
+    },
+    {
+      "id": 2359,
+      "name": "Rope & Tug Toys",
+      "slug": "dog-rope-tug-toys"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "The KONGAir Fetch Stick with Rope is an interesting new take on a classic dog play toy - the humble tennis ball! Made from a nonabrasive tennis ball material which is gentle on teeth and gums, its shape is great for chewing and catching. The high-quality throw rope is designed to be durable and makes the KONGAir Fetch Stick a joy to throw. In addition, it floats high in the water so you can take your games of fetch out onto the water!",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

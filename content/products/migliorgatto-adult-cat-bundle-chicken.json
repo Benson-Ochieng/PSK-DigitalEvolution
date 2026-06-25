@@ -1,0 +1,32 @@
+{
+  "id": 37064,
+  "name": "Migliorgatto Adult Cat Bundle-Chicken",
+  "slug": "migliorgatto-adult-cat-bundle-chicken",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2027,
+      "name": "Bundles",
+      "slug": "bundles"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "This Bundle contains: 1pc Migliorgatto Adult cat Food Croquettes Chicken 400gr 4pc Migliorgatto Adult cat Food chunks with Chicken and Turkey 405gr",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

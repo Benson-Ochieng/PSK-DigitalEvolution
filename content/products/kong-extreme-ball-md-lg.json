@@ -1,0 +1,47 @@
+{
+  "id": 16568,
+  "name": "KONG Extreme Ball Md/Lg- Black",
+  "slug": "kong-extreme-ball-md-lg",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2357,
+      "name": "Dog Fetch Toys",
+      "slug": "dog-fetch-toys"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2031,
+      "name": "Kong",
+      "slug": "kong-accessories"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "The KONGExtreme Ball wins the fetching game for your dog! Durable, bouncy, natural KONGExtreme rubber gives it a bounce for fun games of fetch, delivering tons of healthy and interactive play. KONGExtreme Black Rubber ball for durable fetching fun Puncture resistant for continued safe play Made in the USA. Globally Sourced Materials",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

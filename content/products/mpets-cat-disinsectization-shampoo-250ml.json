@@ -1,0 +1,47 @@
+{
+  "id": 27307,
+  "name": "Mpets Cat Disinsectization Shampoo 250Ml",
+  "slug": "mpets-cat-disinsectization-shampoo-250ml",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2337,
+      "name": "Cat Healthcare Supplies",
+      "slug": "cat-healthcare"
+    },
+    {
+      "id": 2338,
+      "name": "Flea & Tick",
+      "slug": "cat-flea-tick"
+    },
+    {
+      "id": 2135,
+      "name": "MPETS",
+      "slug": "mpets"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Description: This shampoo, prevents and treats skin lesions such as itching, rash and hair loss, caused by mites, fleas, lice and other ectoparasites. Composition: Margosa extract, jojoba oil, lavender oil, citronella oil and colourants",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

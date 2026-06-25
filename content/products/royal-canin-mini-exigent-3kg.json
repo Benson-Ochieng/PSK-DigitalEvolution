@@ -1,0 +1,47 @@
+{
+  "id": 29509,
+  "name": "Royal Canin Mini Exigent 3kg",
+  "slug": "royal-canin-mini-exigent-3kg",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2104,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "At mealtimes, your dog considers the aroma, bite size, and texture of his food. To get your dog eating wholesome food ? and not just the treats he craves when he refuses his meal ? you need a healthy and nutritionally complete food that?s irresistible to even the fussiest of eaters. Suitable for dogs with a fussy appetite that weigh up to 10kg, ROYAL CANIN? Exigent Mini is full of all the nutrition your dog needs for a healthy life. The pillow-shaped kibble in ROYAL CANIN? Exigent Mini has an exciting crunch texture and is filled with a p?t? of flavoursome nutrients. Their crunchy exterior has a tasty, fatty coating, while the p?t? filling is both rich and delicious. All Royal Canin food is nutritionally complete and contains 100% of the high-quality proteins, fats, fibres, vitamins, and minerals that your dog needs for lifelong wellbeing. Our Exigent nutritional program has two components available: crunchy kibble and a delicious p?t? in a pouch, both are nutritionally complete and perfectly complement each other. Why not try the p?t? as a delicious topping to the kibble? Don?t just take our word for it, ROYAL CANIN? Exigent Mini?s results are a proven success. Scientifically tested at the Royal Canin kennels, up to 99% of dogs preferred this food.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

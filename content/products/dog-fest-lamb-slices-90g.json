@@ -1,0 +1,32 @@
+{
+  "id": 27104,
+  "name": "Dog Fest Lamb Slices 90G",
+  "slug": "dog-fest-lamb-slices-90g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Tender slices made of farm lamb could be fed as an entire piece, or split into smaller ones to make the best training reward ever. With this treat your dog will enjoy training just as much as playing. Composition: lamb, vegetable by-products, minerals. Analytical constituents, %: crude protein 28, crude fat 4, crude fiber 0.2, crude ash 4, moisture 23.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

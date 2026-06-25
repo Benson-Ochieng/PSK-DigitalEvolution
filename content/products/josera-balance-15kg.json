@@ -1,0 +1,47 @@
+{
+  "id": 23717,
+  "name": "Josera Balance 15kg",
+  "slug": "josera-balance-15kg",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2112,
+      "name": "Josera",
+      "slug": "josera"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Composition: poultry, whole grain corn; rice; beet fibre; hydrolysed poultry protein; poultry fat; minerals; chicory root (ground, natural source of inulin); dried meat from the New Zealand green-lipped mussel (Perna canaliculus). Product Details: Fat- and protein-reduced, moderate level of minerals For our seniors: A special food designed to boost vitality, even in old age. The reduced protein and fat content helps to ease strain on the metabolism. The balanced and extremely well-tolerated formula containing valuable antioxidants helps to counteract cell-aging. It is therefore highly suitable for older dogs. ? For older and less active dogs with a lower energy requirement ? Low-fat recipe to prevent obesity ? The low fat content and L-carnitine encourage an optimal ratio of fatty tissue and muscle mass ? Together with taurine, L-carnitine also supports cardiovascular functions",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

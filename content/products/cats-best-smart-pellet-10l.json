@@ -1,0 +1,42 @@
+{
+  "id": 27032,
+  "name": "Cats best Smart pellet 10L",
+  "slug": "cats-best-smart-pellet-10l",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    },
+    {
+      "id": 2331,
+      "name": "Litter and Litter Box & Accessories",
+      "slug": "cat-litter-and-accessories"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Cat?s Best Smart Pellets also use the natural power of refined active wood fibres, which effectively absorb liquids and odours - up to seven times their own volume - and trap them deep inside. This neutralises odours so effectively that the cat litter can remain in the litter tray for up to seven weeks. Cat?s Best Smart Pellets function best when you regularly dispose of the solid excretions and clumps that form after the cat has used the litter tray ? using an original Cat?s Best cat litter shovel, which contains just the right hole spacing for the pellet size. This saves time and costs and ensures the type of hygiene and comfort that cats prefer. Like all Cat?s Best products, Cat?s Best Smart Pellets are made exclusively from renewable raw materials, which means they are both sustainable and biodegradable",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

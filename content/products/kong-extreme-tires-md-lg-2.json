@@ -1,0 +1,52 @@
+{
+  "id": 16540,
+  "name": "KONG Extreme Tires Md/Lg",
+  "slug": "kong-extreme-tires-md-lg-2",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2357,
+      "name": "Dog Fetch Toys",
+      "slug": "dog-fetch-toys"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2031,
+      "name": "Kong",
+      "slug": "kong-accessories"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "KONGTires is a durable tire chew designed to provide the ultimate chewing experience. The uniquely shaped sidewalls and thick outer tread create a super durable, elastic barrier. The sidewalls are designed to double up and rebound when compressed to provide an active chewing experience, and the Tires are perfect for bouncy games of fetch. Covered by KONGSatisfaction Guarantee. See KONGSatisfaction Guarantee document below for full details.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

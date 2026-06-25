@@ -1,0 +1,62 @@
+{
+  "id": 16536,
+  "name": "KONG Puppy Small",
+  "slug": "kong-puppy-small",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2357,
+      "name": "Dog Fetch Toys",
+      "slug": "dog-fetch-toys"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2031,
+      "name": "Kong",
+      "slug": "kong-accessories"
+    },
+    {
+      "id": 2350,
+      "name": "Puppy Food",
+      "slug": "puppy-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "The Puppy KONG dog toy is customized for a growing puppy's baby teeth, the unique, natural rubber formula is the most gentle within the KONG rubber toy line. Designed to meet the needs of a puppy's 28-baby teeth, it helps teach appropriate chewing behaviour while offering enrichment and satisfying a younger pup's instinctual needs while the erratic bounce makes it ideal for those pups that just want to play. A stuffed Puppy KONG occupies busy little ones while allowing pet parents the freedom to attend to their unique needs. Want to make crate training easier or extend playtime Be sure to stuff with puppy kibble and a dash of peanut butter. Add to the fun by including KONG Puppy Snacks and top with KONG Puppy Easy Treat. Teaches appropriate chewing behaviour while offering mental enrichment Soft puppy KONGrubber formula is customized for puppy teeth and gums Unpredictable bounce for games of fetch Great for stuffing with KONGPuppy Easy Treat; Snacks or Ziggies Recommended by veterinarians and trainers worldwide Natural rubber Made in the USA. Globally Sourced Materials",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

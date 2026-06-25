@@ -1,0 +1,32 @@
+{
+  "id": 37108,
+  "name": "Dog Fest Duck Fillet On Chewy Stick 90g",
+  "slug": "dog-fest-duck-fillet-on-chewy-stick-90g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2332,
+      "name": "Cat Litter",
+      "slug": "cat-litter"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Carefully picked, freshly cooked duck fillets cover a long lasting rawhide stick. This combination is exactly what each dog needs to have a great time and enjoy the rich flavor of real meat. Composition: duck, rawhide, vegetable by-products, minerals. Analytical constituents, %: crude protein 54, crude fat 3, crude fiber 0.2, crude ash 4, moisture 18.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

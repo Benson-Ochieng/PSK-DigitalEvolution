@@ -1,0 +1,62 @@
+{
+  "id": 16575,
+  "name": "KONG Wubba Large - Blue",
+  "slug": "kong-wubba-large",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2342,
+      "name": "Cat Toys",
+      "slug": "cat-toys"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2357,
+      "name": "Dog Fetch Toys",
+      "slug": "dog-fetch-toys"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2031,
+      "name": "Kong",
+      "slug": "kong-accessories"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "The KONG Wubba is a fun, interactive tug and toss toy that is great for interactive or solo play. It's long floppy tails are ideal for shaking and tugging instincts as well as games of fetch. A durable reinforced nylon exterior combines with unique ball shapes for play sessions that last longer. Dogs love to squeak the Wubba and add to the fun by shaking the flapping tails back and forth making every game different from the next. Reinforced fabric and stitching for long-lasting fun. Long floppy tails ideal for shaking and tugging instincts. Great for solo or interactive playtime Squeaks for added engagement.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

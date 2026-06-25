@@ -1,0 +1,47 @@
+{
+  "id": 33791,
+  "name": "Limited Edition Dog Bundle",
+  "slug": "limited-edition-dog-bundle",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 2349,
+      "name": "Wet Dog Food",
+      "slug": "wet-dog-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "1 Pc Reflex Plus Medium Large Breed Adult Dog Food Salmon 3Kg 2 Pcs Reflex Dog Treats Chicken Wrapped Sticks 80Gr 2 Pcs Reflex Dog Treats Duck Wrapped Sticks 80Gr 4 Pcs Migliorcane Canned Dog Food Game 405Gr",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

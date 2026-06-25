@@ -1,0 +1,42 @@
+{
+  "id": 11925,
+  "name": "Enjoy Dog Treats - 100% Natural Lamb Slice 80g",
+  "slug": "enjoy-dog-treats-100-natural-lamb-slice-80g",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Enjoy Dog Treats 100% Natural Lamb Slice are super-premium dog treats that are easily digested due to its high meat content. No artificial colours, flavours, or preservatives. Includes fatty acids that support healthy skin and coat health. Very effective for training due to its high palatability. INGREDIENTS: Lamb, Vegetable Glycerin, Soy Protein, Starch, Salt. NUTRIENT COMPONENTS Crude Protein (%) - 40 Crude Fat (%) - 1 Crude Fiber (%) - 4 Moisture Content (%) 18 FEEDING RECOMMENDATIONS: Treats may be given as an additional snack. This product does not replace your dog's daily food.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

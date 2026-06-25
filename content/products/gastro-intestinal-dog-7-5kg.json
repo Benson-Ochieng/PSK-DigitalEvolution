@@ -1,0 +1,47 @@
+{
+  "id": 23667,
+  "name": "Royal Canin Gastrointestinal Dog 7.5kg",
+  "slug": "gastro-intestinal-dog-7-5kg",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2104,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "ROYAL CANIN? Gastrointestinal is a precisely formulated diet for dogs with acute and/or chronic gastrointestinal conditions. Recommended for cases of: Acute and chronic diarrhoea, Gastritis, Inflammatory Bowel Disease (IBD), Colitis, Exocrine Pancreatic Insufficiency (EPI), Small intestinal bacterial overgrowth (SIBO), Maldigestion/ Malabsorption, Dysrexia, re-feeding after surgery. Not recommended in case of: Lymphangiectasia, exudative enteropathy. In these cases, the recommended product is Gastrointestinal Low Fat. This diet is complete and balanced and can be fed long-term. A full health check should be performed by a veterinarian every 6 months. Composition: Rice*, dehydrated poultry protein*, maize*, animal fats*, hydrolysed animal proteins*, egg powder*, yeasts products, beet pulp, soya oil*, fish oil*, vegetable fibres, minerals, psyllium husks and seeds (source of mucilaginous substances), fructo-oligosaccharides (0.5%), hydrolysed yeast (source of manno-oligo-saccharides) (0.2%), marigold extract (source of lutein). *highly digestible ingredients. Additives (per kg): Nutritional additives: Vitamin A: 16500 IU, Vitamin D3: 1000 IU, Iron (3b103): 41 mg, Iodine (3b201, 3b202): 4.1 mg, Copper (3b405, 3b406): 12 mg, Manganese (3b502, 3b504): 53 mg, Zinc (3b603, 3b605, 3b606): 129 mg, Selenium (3b801, 3b811, 3b812): 0.07 mg - Technological additives: Clinoptilolite of sedimentary origin: 5 g - Preservatives - Antioxidants. Metabolisable energy: 412.0 kcal / 100g. Analytical constituants: Protein: 25.0% - Fat content: 20.0% - Crude ash: 6.6% - Crude fibres: 1.9% - EPA/DHA: 0.31% - Omega-3 fatty acids: 0.85% - Omega-6 fatty acids: 4.28% - Sodium - 0.43% - Potassium: 0.65%.",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

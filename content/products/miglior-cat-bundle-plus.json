@@ -1,0 +1,52 @@
+{
+  "id": 37133,
+  "name": "Migliorgatto Bundle Plus",
+  "slug": "miglior-cat-bundle-plus",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2027,
+      "name": "Bundles",
+      "slug": "bundles"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2347,
+      "name": "Dog Treats",
+      "slug": "dog-treats"
+    },
+    {
+      "id": 2327,
+      "name": "Wet Cat Food",
+      "slug": "wet-cat-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "1PC MIGLIOR CAT CROQUETTES BEEF AND LIVER 2KG 4PC MIGLIOR CAT ALUTRAY SALMON 100GR 4PC MIGLIOR CAT CAN CHUNKS TUNA AND SALMON 40GR 1PC ANKUR REGULAR NON SKID BOWL WITH COLOR AND PRINTING 235ML",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

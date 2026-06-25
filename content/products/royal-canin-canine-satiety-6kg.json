@@ -1,0 +1,47 @@
+{
+  "id": 29512,
+  "name": "Royal Canin Canine Satiety 6kg",
+  "slug": "royal-canin-canine-satiety-6kg",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 2104,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Powdered cellulose, chicken by-product meal, corn, wheat gluten, wheat, corn gluten meal, natural flavours, dried plain beet pulp, chicken fat, fish oil, pea fiber, potassium chloride, calcium carbonate, vegetable oil, psyllium seed husk, fructooligosaccharides, sodium tripolyphosphate, choline chloride, vitamins [DL-alpha tocopherol acetate (source of vitamin E), L-ascorbyl-2-polyphosphate (source of vitamin C), niacin supplement, biotin, riboflavin supplement, D-calcium pantothenate, thiamine mononitrate (vitamin B1), pyridoxine hydrochloride (vitamin B6), vitamin A acetate, vitamin B12 supplement, folic acid, vitamin D3 supplement], glucosamine hydrochloride, taurine, DL-methionine, L-lysine, salt, marigold extract ( Tagetes erecta ?L.), magnesium oxide, trace minerals [zinc proteinate, zinc oxide, manganese proteinate, ferrous sulfate, manganous oxide, copper sulfate, calcium iodate, sodium selenite, copper proteinate], L-carnitine, chondroitin sulfate, rosemary extract, preserved with mixed tocopherols and citric acid. Calorie Content This diet contains 2887 kilocalories of metabolizable energy (ME) per kilogram or 214 kilocalories ME per cup on an as fed basis (calculated).",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

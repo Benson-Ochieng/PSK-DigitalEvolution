@@ -1,0 +1,47 @@
+{
+  "id": 16551,
+  "name": "KONGgyro Large",
+  "slug": "kong-gyro-large",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2356,
+      "name": "Dog Toys",
+      "slug": "dog-toys"
+    },
+    {
+      "id": 2031,
+      "name": "Kong",
+      "slug": "kong-accessories"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "The KONGGyro is sure to entertain with irresistible roll and flip action keeping dogs enticed and intrigued. With the center spinning orb and static outer ring, this dynamic toy encourages dogs to push, paw and roll the GYRO, delightfully dispensing tasty treat rewards along the way. Ideal for independent play, stuff with snacks or kibble for added fun and extended playtime. Available in large and small sizes. Entertaining roll and flip action Dispenses food and treats Ideal for independent play Mentally stimulating treat dispenser",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}

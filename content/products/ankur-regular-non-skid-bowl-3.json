@@ -1,0 +1,47 @@
+{
+  "id": 16689,
+  "name": "ANKUR Regular Non-Skid Bowl 1420ml",
+  "slug": "ankur-regular-non-skid-bowl-3",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "categories": [
+    {
+      "id": 1204,
+      "name": "Accessories",
+      "slug": "accessories"
+    },
+    {
+      "id": 2041,
+      "name": "Ankur",
+      "slug": "ankur"
+    },
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2366,
+      "name": "Dog Bowls & Feeders",
+      "slug": "dog-bowls-feeders"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "ANKUR REGULAR non-skid bowl is made of high quality stainless steel offering durable performance.. It offers a healthier alternative to plastic and will quickly become your pet's favorite dish. diameter : 300mm Height: 100mm",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
+}
