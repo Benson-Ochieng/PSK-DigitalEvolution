@@ -320,6 +320,47 @@ export function isPetStoreOrder(order: Order): boolean {
   });
 }
 
+export function ensureOrderFormat(o: any, dbItems: any[] = []): Order {
+  if (!o) return o;
+  
+  // If it's already in the storefront Order format
+  if (Array.isArray(o.items) && o.total !== undefined && o.billing?.name !== undefined) {
+    return o;
+  }
+  
+  // Otherwise, it's a raw DB row, map it:
+  const orderItems = dbItems
+    .filter((item: any) => Number(item.order_id) === Number(o.id))
+    .map((item: any) => ({
+      id: Number(item.product_id),
+      name: item.product_name,
+      price: Number(item.unit_price || 0),
+      quantity: Number(item.qty || 0),
+      image: "/images/psk_logo.png"
+    }));
+
+  let status = (o.status || "PENDING").toUpperCase();
+  if (status === "PENDING") {
+    status = "PENDING_PAYMENT";
+  }
+
+  return {
+    id: String(o.id),
+    date: o.created_at || new Date().toISOString(),
+    paymentMethod: o.payment_method || "MPESA Express",
+    items: orderItems,
+    total: Number(o.total_kes || 0),
+    shipping: Number(o.delivery_fee_kes || 0),
+    currency: "KES",
+    billing: {
+      name: o.customer_name || "",
+      email: o.customer_email || "",
+      phone: o.customer_phone || ""
+    },
+    status: status
+  };
+}
+
 export const db = {
   order: {
     async create(data: Omit<Order, 'status'> & { status?: OrderStatus }): Promise<Order> {
@@ -328,8 +369,34 @@ export const db = {
         status: data.status || 'PENDING_PAYMENT'
       };
       if (supabase) {
-        const { error } = await supabase.from("orders").insert(order);
-        if (error) throw error;
+        try {
+          const dbOrder = {
+            customer_name: order.billing.name,
+            customer_phone: order.billing.phone,
+            customer_email: order.billing.email,
+            total_kes: order.total,
+            delivery_fee_kes: order.shipping,
+            payment_method: order.paymentMethod,
+            status: order.status.toLowerCase(),
+            created_at: order.date || new Date().toISOString()
+          };
+          const { data: inserted, error } = await supabase.from("orders").insert(dbOrder).select().single();
+          if (error) throw error;
+          
+          if (inserted && order.items && order.items.length > 0) {
+            const dbItems = order.items.map(item => ({
+              order_id: inserted.id,
+              product_id: item.id,
+              product_name: item.name,
+              qty: item.quantity,
+              unit_price: item.price,
+              total_price: item.price * item.quantity
+            }));
+            await supabase.from("order_items").insert(dbItems);
+          }
+        } catch (err) {
+          console.error("Failed to insert order in Supabase:", err);
+        }
       }
 
       const ordersList = readData<Order[]>(ORDERS_FILE, getInitialOrders());
@@ -341,10 +408,26 @@ export const db = {
     async findUnique({ where }: { where: { id: string } }): Promise<Order | null> {
       let order: Order | null = null;
       if (supabase) {
-        const { data, error } = await supabase.from("orders").select().eq("id", where.id).maybeSingle();
-        if (error) throw error;
-        order = data as Order | null;
-      } else {
+        try {
+          const numericId = parseInt(where.id, 10);
+          let query = supabase.from("orders").select();
+          if (!isNaN(numericId)) {
+            query = query.eq("id", numericId);
+          } else {
+            query = query.eq("id", where.id);
+          }
+          const { data, error } = await query.maybeSingle();
+          if (error) throw error;
+          if (data) {
+            const { data: orderItems } = await supabase.from("order_items").select().eq("order_id", data.id);
+            order = ensureOrderFormat(data, orderItems || []);
+          }
+        } catch (err) {
+          console.error("Supabase order findUnique failed:", err);
+        }
+      }
+      
+      if (!order) {
         const ordersList = readData<Order[]>(ORDERS_FILE, getInitialOrders());
         order = ordersList.find(o => o.id === where.id) || null;
       }
@@ -358,10 +441,17 @@ export const db = {
     async findFirst({ where }: { where: (order: Order) => boolean }): Promise<Order | null> {
       let ordersList: Order[] = [];
       if (supabase) {
-        const { data, error } = await supabase.from("orders").select();
-        if (error) throw error;
-        ordersList = data as Order[];
-      } else {
+        try {
+          const { data, error } = await supabase.from("orders").select().order("created_at", { ascending: false });
+          if (error) throw error;
+          const { data: orderItems } = await supabase.from("order_items").select();
+          ordersList = (data || []).map(o => ensureOrderFormat(o, orderItems || []));
+        } catch (err) {
+          console.error("Supabase order findFirst failed:", err);
+        }
+      }
+      
+      if (ordersList.length === 0) {
         ordersList = readData<Order[]>(ORDERS_FILE, getInitialOrders());
       }
 
@@ -372,10 +462,17 @@ export const db = {
     async findMany(options?: { where?: (order: Order) => boolean }): Promise<Order[]> {
       let ordersList: Order[] = [];
       if (supabase) {
-        const { data, error } = await supabase.from("orders").select().order("date", { ascending: false });
-        if (error) throw error;
-        ordersList = data as Order[];
-      } else {
+        try {
+          const { data, error } = await supabase.from("orders").select().order("created_at", { ascending: false });
+          if (error) throw error;
+          const { data: orderItems } = await supabase.from("order_items").select();
+          ordersList = (data || []).map(o => ensureOrderFormat(o, orderItems || []));
+        } catch (err) {
+          console.error("Supabase order findMany failed:", err);
+        }
+      }
+      
+      if (ordersList.length === 0) {
         ordersList = readData<Order[]>(ORDERS_FILE, getInitialOrders());
       }
 
@@ -389,16 +486,40 @@ export const db = {
 
     async update({ where, data }: { where: { id: string }, data: Partial<Order> }): Promise<Order> {
       if (supabase) {
-        const { data: updated, error } = await supabase.from("orders").update(data).eq("id", where.id).select().single();
-        if (error) throw error;
-        // Also update local JSON file
-        const ordersList = readData<Order[]>(ORDERS_FILE, getInitialOrders());
-        const idx = ordersList.findIndex(o => o.id === where.id);
-        if (idx !== -1) {
-          ordersList[idx] = updated as Order;
-          writeData(ORDERS_FILE, ordersList);
+        try {
+          const dbData: any = {};
+          if (data.status) dbData.status = data.status.toLowerCase();
+          if (data.paymentMethod) dbData.payment_method = data.paymentMethod;
+          if (data.total !== undefined) dbData.total_kes = data.total;
+          if (data.shipping !== undefined) dbData.delivery_fee_kes = data.shipping;
+          if (data.billing) {
+            if (data.billing.name) dbData.customer_name = data.billing.name;
+            if (data.billing.phone) dbData.customer_phone = data.billing.phone;
+            if (data.billing.email) dbData.customer_email = data.billing.email;
+          }
+
+          const numericId = parseInt(where.id, 10);
+          const { data: updated, error } = await supabase.from("orders")
+            .update(dbData)
+            .eq("id", isNaN(numericId) ? where.id : numericId)
+            .select()
+            .single();
+          if (error) throw error;
+
+          const { data: orderItems } = await supabase.from("order_items").select().eq("order_id", updated.id);
+          const mappedUpdated = ensureOrderFormat(updated, orderItems || []);
+
+          // Also update local JSON file
+          const ordersList = readData<Order[]>(ORDERS_FILE, getInitialOrders());
+          const idx = ordersList.findIndex(o => o.id === where.id);
+          if (idx !== -1) {
+            ordersList[idx] = mappedUpdated;
+            writeData(ORDERS_FILE, ordersList);
+          }
+          return mappedUpdated;
+        } catch (err) {
+          console.error("Supabase order update failed:", err);
         }
-        return updated as Order;
       }
 
       const ordersList = readData<Order[]>(ORDERS_FILE, getInitialOrders());
@@ -413,13 +534,19 @@ export const db = {
 
     async delete({ where }: { where: { id: string } }): Promise<boolean> {
       if (supabase) {
-        const { error } = await supabase.from("orders").delete().eq("id", where.id);
-        if (error) throw error;
-        // Also update local JSON
-        const ordersList = readData<Order[]>(ORDERS_FILE, getInitialOrders());
-        const filtered = ordersList.filter(o => o.id !== where.id);
-        writeData(ORDERS_FILE, filtered);
-        return true;
+        try {
+          const numericId = parseInt(where.id, 10);
+          const { error } = await supabase.from("orders").delete().eq("id", isNaN(numericId) ? where.id : numericId);
+          if (error) throw error;
+          
+          // Also update local JSON
+          const ordersList = readData<Order[]>(ORDERS_FILE, getInitialOrders());
+          const filtered = ordersList.filter(o => o.id !== where.id);
+          writeData(ORDERS_FILE, filtered);
+          return true;
+        } catch (err) {
+          console.error("Supabase order delete failed:", err);
+        }
       }
 
       const ordersList = readData<Order[]>(ORDERS_FILE, getInitialOrders());

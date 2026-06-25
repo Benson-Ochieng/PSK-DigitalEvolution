@@ -2339,6 +2339,62 @@ export async function executeMockQuery(text: string, params: any[] = []): Promis
   }
 
   // 10. Fallback for unhandled/general queries (just print warning and return empty)
+  if (queryText.includes("FROM media_assets")) {
+    if (queryText.includes("DELETE")) {
+      const fp = params[0];
+      const idx = mockMediaAssets.findIndex(x => x.full_path === fp || x.url === fp);
+      if (idx !== -1) {
+        mockMediaAssets.splice(idx, 1);
+      }
+      return { rows: [], rowCount: 1 };
+    }
+    return { rows: mockMediaAssets, rowCount: mockMediaAssets.length };
+  }
+
+  if (queryText.includes("INSERT INTO media_assets")) {
+    const [name, url, size, mimeType, folder, fullPath] = params;
+    const existing = mockMediaAssets.find(x => x.full_path === fullPath);
+    if (existing) {
+      existing.name = name;
+      existing.url = url;
+      existing.size = Number(size);
+      existing.mime_type = mimeType;
+      existing.folder = folder;
+      return { rows: [existing], rowCount: 1 };
+    } else {
+      const newAsset = {
+        id: Math.floor(10000 + Math.random() * 90000).toString(),
+        name,
+        url,
+        size: Number(size),
+        mime_type: mimeType,
+        folder,
+        full_path: fullPath,
+        created_at: new Date().toISOString()
+      };
+      mockMediaAssets.push(newAsset);
+      return { rows: [newAsset], rowCount: 1 };
+    }
+  }
+
+  if (queryText.includes("UPDATE products") && queryText.includes("media_asset_id")) {
+    return { rows: [], rowCount: 1 };
+  }
+
   console.warn("⚠️ Unhandled mock query:", text, "with params:", params);
   return { rows: [], rowCount: 0 };
 }
+
+export interface MediaAsset {
+  id: string;
+  name: string;
+  url: string;
+  size: number;
+  mime_type: string;
+  folder: string;
+  full_path: string;
+  created_at: string;
+}
+
+export const mockMediaAssets: MediaAsset[] = [];
+
