@@ -481,10 +481,6 @@ export default function MyAccount() {
 
           <PageHeader title="My Account" />
 
-          <div style={{ marginBottom: "1.5rem" }}>
-            <span style={{ fontSize: "0.85rem", color: "#3b82f6", cursor: "pointer" }}>Edit This</span>
-          </div>
-
           {/* Account Dashboard Layout Grid */}
           <div style={{ display: "grid", gridTemplateColumns: "300px 1fr", gap: "2.5rem", alignItems: "start" }}>
 
