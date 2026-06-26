@@ -34,7 +34,7 @@ export async function loader({ request }: { request: Request }) {
         timestamp: new Date(Date.now() - 3600000 * 5).toISOString(),
         user: "Shop Manager",
         action: "Product Quick-Edited",
-        details: 'Quick edited product "Cool-Pods" (Price: KSh 525, Stock: instock)',
+        details: 'Quick edited product "Bonnie Adult Dog Food Beef 15kg" (Price: KSh 3,500, Stock: instock)',
         icon: "📦"
       },
       {
@@ -50,7 +50,7 @@ export async function loader({ request }: { request: Request }) {
         timestamp: new Date(Date.now() - 3600000 * 48).toISOString(),
         user: "System Admin",
         action: "Product Created",
-        details: 'Created new product "55\\" 4K Frameless QLED Vidaa TV" (SKU: VP55Q)',
+        details: 'Created new product "Airtight Pet Food Storage Container" (SKU: APFSC-01)',
         icon: "📦"
       }
     ];
