@@ -3,8 +3,8 @@
   "name": "Reflex Plus Premium Adult Cat Food - Choosy Salmon 1.5kg",
   "slug": "reflex-plus-premium-adult-cat-food-choosy-salmon-1-5kg",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 1950,
+  "regularPrice": 1950,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Reflex Plus Adult Cat Choosy Salmon is a premium cat food for all adult breeds who are particularly fussy / sensitive. Highly palatable with salmon protein and salmon oil. Formulated by cat / dog nutritionists to meet your cat's daily nutritional needs. Nature miraculously provided omega 3 & 6 balance using flaxseed . Yucca plant provides ammonia odour control, increases the absorption of nutrients. The immune system is strengthened, animals grow and performance improves. Good intestinal health and performance are achieved with pathogen-binding mannan oligosaccharide , immunogenic beta-glucans , and CitriStim , an immune-boosting yeast source. Brewer's yeast is used for healthy skin and shiny coat. Enriched with vitamins and minerals . &nbsp; Ingredients: Salmon Protein (Dehydrated Min. %27 ), Chicken Protein (Dehydrated), Rice, Corn, Chicken Fat, Beet Pulp, Fish Flavour, Liver Flavour, Salmon Oil, Xylo-Oligosaccharides, Brewer's Yeast, Salt, Yucca Schidigera, Preservatives, Antioxidants. Minerals: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Iron, Selenium. Vitamins: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (Niacin) - B6 - B12 - B7 (Biotin) - B9 (Folic Acid), Vit. K, Choline, Calcium Pantothene. NUTRIENT COMPONENTS Raw Protein ....................... 36% Crude Fat ........... 16% Crude Ash. ............................. 8% Crude Cellulose (Fiber) ?....... 2.5% FEEDING INGREDIENTS Vitamin A (E672) ........ 18,000 IU / kg Vitamin D3 (E671) ................................ 1,500 IU / kg Vitamin E (3a700) .........200 mg / kg Vitamin C (Stay C) ................................ 200 mg / kg Taurine .................1,500 mg / kg &nbsp; Feeding Suggestions The amount of food to be given per day may vary depending on the outdoor temperature, the living conditions (inside / outside the home), the character and activity of your cat. It is important to weigh the amount of food so that your cat can be an ideal weight. When adjusting the amount of food, it will be helpful to evaluate your cat's appetite, appearance and odour. Additional Tips Transition from one food to another must be made progressively by feeding small amounts of both foods for one week after mixing. Click here for instructions. Always keep clean and fresh water near the food bowl. Change it at least once a day. Store the product in a dry and cool place, and be sure to close the packaging thoroughly after each use.",
-  "images": [],
+  "images": [
+    {
+      "id": 3728,
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/10/PetStore-Kenya-Reflex-Plus-Cat-Choosy-min.png",
+      "alt": "Reflex Plus Premium Adult Cat Food - Choosy Salmon 1.5kg",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/product/reflex-plus-premium-adult-cat-food-choosy-salmon-1-5kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-premium-adult-cat-food-choosy-salmon-1-5kg/?add-to-cart=3728",
+  "shortDescription": "Reflex Plus Adult Cat Choosy Salmon is a premium cat food for all adult breeds who are particularly fussy / sensitive. Highly palatable with salmon pr",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/10/PetStore-Kenya-Reflex-Plus-Cat-Choosy-min.png",
+  "sku": "PSK-3728",
+  "brand": "Reflex",
+  "weight_kg": 1.5,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/10/PetStore-Kenya-Reflex-Plus-Cat-Choosy-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

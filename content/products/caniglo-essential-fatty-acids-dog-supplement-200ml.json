@@ -3,8 +3,8 @@
   "name": "Caniglo Essential Fatty Acids Supplement for Dogs - 200mL",
   "slug": "caniglo-essential-fatty-acids-dog-supplement-200ml",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 2400,
+  "regularPrice": 2400,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,17 +16,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "CANIGLO is rich in the Essential Fatty Acids Omega 3 and 6 sourced from marine oils. These cannot be made by the body and must be provided through diet. An adequate intake of Essential Fatty Acids supports a healthy, soft shiny coat and good skin condition. Your dog will feel good inside and look fantastic outside! ADMINISTRATION: Mix Caniglo well into your dog's food. Feed each dog individually. Small Dogs ( up to 10kgs ): 4 mL Medium Dogs ( 10-25kgs ): 6 mL Large Dogs ( 25-40kgs ):8 mL Very Large Dogs ( over 40kgs): 12 mL",
-  "images": [],
+  "images": [
+    {
+      "id": 15210,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/09/TRM-Caniglo-Essential-Fatty-Acids-Supplement-200ml-min.png",
+      "alt": "Caniglo Essential Fatty Acids Supplement for Dogs - 200mL",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=15210",
+  "addToCartUrl": "https://petstore.co.ke/product/caniglo-essential-fatty-acids-dog-supplement-200ml/?add-to-cart=15210",
+  "shortDescription": "CANIGLO is rich in the Essential Fatty Acids Omega 3 and 6 sourced from marine oils. These cannot be made by the body and must be provided through die",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/09/TRM-Caniglo-Essential-Fatty-Acids-Supplement-200ml-min.png",
+  "sku": "PSK-15210",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.3,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/09/TRM-Caniglo-Essential-Fatty-Acids-Supplement-200ml-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -3,8 +3,8 @@
   "name": "Mpets Dry Dog Shampoo 200 Ml",
   "slug": "mpets-dry-dog-shampoo-200-ml",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 800,
+  "regularPrice": 800,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,17 +16,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Description: The dry shampoo deodorises and mildly cleans the coat without bathing. Composition: Talcum, D-Panthenol, Beta-Cyclodextrin, Ethanol, Triclosan, Frangrances.",
-  "images": [],
+  "images": [
+    {
+      "id": 27335,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPDDS.jpg",
+      "alt": "Mpets Dry Dog Shampoo 200 Ml",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27335",
+  "addToCartUrl": "https://petstore.co.ke/product/mpets-dry-dog-shampoo-200-ml/?add-to-cart=27335",
+  "shortDescription": "Description: The dry shampoo deodorises and mildly cleans the coat without bathing. Composition: Talcum, D-Panthenol, Beta-Cyclodextrin, Ethanol, Tric",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/MPDDS.jpg",
+  "sku": "PSK-27335",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPDDS.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

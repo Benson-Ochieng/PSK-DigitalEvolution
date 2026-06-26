@@ -3,8 +3,8 @@
   "name": "Bio Petactive Natural Honey Cat Shampoo 250ml",
   "slug": "bio-petactive-natural-honey-cat-shampoo-250ml",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 650,
+  "regularPrice": 650,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -26,17 +26,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Bio PetActive ? Natural Honey Shampoo is a shampoo with Natural Honey Extract for Cats. It?s a care shampoo for densley furred cats, to make it easier for wet and dry brushing. Its honey essence imparts extra shine and softness by nourishing the skin and fur. Its pH balanced formulation and effective moisturizing property keeps the skin moist and prevents dryness. Usage Soak the body of your cat in warm water prior to application. Dilute the amount of product 1:5 with water then rub to spread the foam throughout the body of your cat. Start shampooing and washing on the back. To get the best results, wait for 3 to 5 minutes until the shampoo thoroughly soaks into the cat?s fur. Then rinse and dry with a towel and groom its fur.",
-  "images": [],
+  "images": [
+    {
+      "id": 19817,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/BPNHCS250.jpg",
+      "alt": "Bio Petactive Natural Honey Cat Shampoo 250ml",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=19817",
+  "addToCartUrl": "https://petstore.co.ke/product/bio-petactive-natural-honey-cat-shampoo-250ml/?add-to-cart=19817",
+  "shortDescription": "Bio PetActive ? Natural Honey Shampoo is a shampoo with Natural Honey Extract for Cats. It?s a care shampoo for densley furred cats, to make it easier",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/BPNHCS250.jpg",
+  "sku": "PSK-19817",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.25,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/BPNHCS250.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

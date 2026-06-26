@@ -3,8 +3,8 @@
   "name": "SHORT EXPIRY - CLEARANCE: Reflex Dog Treats - Duck Jerky 80g",
   "slug": "short-expiry-reflex-dog-treats-duck-jerky-80g",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 0,
+  "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -36,17 +36,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Reflex Dog Treats - Duck Jerky , from real duck meat. A great source of lean protein. No artificial colours, flavours or preservatives added. Reward good behaviour with these fun and delicious treats made with the highest quality ingredients and bursting with flavour. INGREDIENTS: Duck, Vegetable Glycerin, Soy Protein, Starch, Salt. NUTRIENT COMPONENTS Crude Protein (%) - 50 Oil Content (%) - 1 Crude Fiber (%) - 4 Moisture Content (%) - 18 FEEDING RECOMMENDATIONS: Recommended for all dogs. Feed as a snack or treat between meals. This product does not replace full-dog food daily. Once open, keep the package tightly closed. Store in a cool, dry place.",
-  "images": [],
+  "images": [
+    {
+      "id": 23969,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Dog-Treats-Duck-Jerky-80g-min.png",
+      "alt": "SHORT EXPIRY - CLEARANCE: Reflex Dog Treats - Duck Jerky 80g",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=23969",
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-reflex-dog-treats-duck-jerky-80g/?add-to-cart=23969",
+  "shortDescription": "Reflex Dog Treats - Duck Jerky , from real duck meat. A great source of lean protein. No artificial colours, flavours or preservatives added. Reward g",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Dog-Treats-Duck-Jerky-80g-min.png",
+  "sku": "PSK-23969",
+  "brand": "Reflex",
+  "weight_kg": 0.08,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Dog-Treats-Duck-Jerky-80g-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

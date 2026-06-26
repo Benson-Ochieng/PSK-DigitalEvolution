@@ -19,6 +19,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   const url = new URL(request.url);
   const routeParams = params as any;
   const slug = routeParams.slug || "";
+  const hideFilter = url.searchParams.get("hideFilter") === "true";
 
   let animal = url.searchParams.get("animal") || "";
   let type   = url.searchParams.get("type")   || "";
@@ -140,7 +141,8 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     slug, 
     brand, 
     limit, 
-    sort 
+    sort,
+    hideFilter
   };
 }
 
@@ -319,7 +321,8 @@ export default function Shop() {
     slug, 
     brand, 
     limit, 
-    sort 
+    sort,
+    hideFilter
   } = useLoaderData<typeof loader>();
   const navigate = useNavigate();
   const [searchVal, setSearchVal] = useState(urlSearch);
@@ -330,6 +333,7 @@ export default function Shop() {
     if (limit) p.set("limit", String(limit));
     if (sort) p.set("sort", sort);
     if (urlSearch) p.set("q", urlSearch);
+    if (hideFilter) p.set("hideFilter", "true");
     if (pageNumber > 1) p.set("page", String(pageNumber));
 
     const queryStr = p.toString() ? "?" + p.toString() : "";
@@ -351,6 +355,7 @@ export default function Shop() {
     if (activeLimit) p.set("limit", String(activeLimit));
     if (activeSort) p.set("sort", activeSort);
     if (urlSearch) p.set("q", urlSearch);
+    if (hideFilter) p.set("hideFilter", "true");
 
     const queryStr = p.toString() ? "?" + p.toString() : "";
     if (slug) {
@@ -368,6 +373,7 @@ export default function Shop() {
     if (limit) p.set("limit", String(limit));
     if (sort) p.set("sort", sort);
     if (searchVal.trim()) p.set("q", searchVal.trim());
+    if (hideFilter) p.set("hideFilter", "true");
     
     if (slug) {
       navigate(`/product-category/${slug}/${p.toString() ? "?" + p.toString() : ""}`);
@@ -384,6 +390,7 @@ export default function Shop() {
     if (brand) p.set("brand", brand);
     if (limit) p.set("limit", String(limit));
     if (sort) p.set("sort", sort);
+    if (hideFilter) p.set("hideFilter", "true");
     if (slug) {
       navigate(`/product-category/${slug}/${p.toString() ? "?" + p.toString() : ""}`);
     } else {
@@ -399,77 +406,93 @@ export default function Shop() {
   return (
     <>
       <Navbar />
+      {hideFilter && (
+        <style dangerouslySetInnerHTML={{ __html: `
+          @media (min-width: 1025px) {
+            .shop-layout .product-grid {
+              grid-template-columns: repeat(5, 1fr) !important;
+            }
+          }
+          @media (max-width: 1024px) and (min-width: 769px) {
+            .shop-layout .product-grid {
+              grid-template-columns: repeat(4, 1fr) !important;
+            }
+          }
+        `}} />
+      )}
       <div className="page" style={{ paddingTop: "2.5rem" }}>
         
         {/* Main Grid Layout with sidebar */}
         <div className="shop-layout">
           
           {/* Sidebar */}
-          <aside className="shop-sidebar">
-            {animal === "cat" && (
-              <>
-                <h3 className="sidebar-title">CATEGORIES</h3>
-                <ul className="sidebar-brands-list" style={{ marginBottom: "2.5rem" }}>
-                  {CAT_CATEGORIES.map(c => {
-                    const normSlug = slug.toLowerCase().replace(/\/$/, "");
-                    const isActive = normSlug === c.slug;
-                    return (
-                      <li key={c.slug}>
-                        <Link 
-                          to={`/product-category/${c.slug}/`} 
-                          className={isActive ? "active-brand" : ""}
-                        >
-                          {c.label}
-                        </Link>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </>
-            )}
+          {!hideFilter && (
+            <aside className="shop-sidebar">
+              {animal === "cat" && (
+                <>
+                  <h3 className="sidebar-title">CATEGORIES</h3>
+                  <ul className="sidebar-brands-list" style={{ marginBottom: "2.5rem" }}>
+                    {CAT_CATEGORIES.map(c => {
+                      const normSlug = slug.toLowerCase().replace(/\/$/, "");
+                      const isActive = normSlug === c.slug;
+                      return (
+                        <li key={c.slug}>
+                          <Link 
+                            to={`/product-category/${c.slug}/`} 
+                            className={isActive ? "active-brand" : ""}
+                          >
+                            {c.label}
+                          </Link>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </>
+              )}
 
-            {animal === "dog" && (
-              <>
-                <h3 className="sidebar-title">CATEGORIES</h3>
-                <ul className="sidebar-brands-list" style={{ marginBottom: "2.5rem" }}>
-                  {DOG_CATEGORIES.map(c => {
-                    const normSlug = slug.toLowerCase().replace(/\/$/, "");
-                    const isActive = normSlug === c.slug;
-                    return (
-                      <li key={c.slug}>
-                        <Link 
-                          to={`/product-category/${c.slug}/`} 
-                          className={isActive ? "active-brand" : ""}
-                        >
-                          {c.label}
-                        </Link>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </>
-            )}
+              {animal === "dog" && (
+                <>
+                  <h3 className="sidebar-title">CATEGORIES</h3>
+                  <ul className="sidebar-brands-list" style={{ marginBottom: "2.5rem" }}>
+                    {DOG_CATEGORIES.map(c => {
+                      const normSlug = slug.toLowerCase().replace(/\/$/, "");
+                      const isActive = normSlug === c.slug;
+                      return (
+                        <li key={c.slug}>
+                          <Link 
+                            to={`/product-category/${c.slug}/`} 
+                            className={isActive ? "active-brand" : ""}
+                          >
+                            {c.label}
+                          </Link>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </>
+              )}
 
-            {!animal && (
-              <>
-                <h3 className="sidebar-title">FILTER BY BRAND</h3>
-                <ul className="sidebar-brands-list">
-                  <li>
-                    <Link to={buildCategoryHref("")} className={!brand ? "active-brand" : ""}>
-                      All Brands
-                    </Link>
-                  </li>
-                  {SIDEBAR_BRANDS.map(b => (
-                    <li key={b}>
-                      <Link to={buildCategoryHref(b)} className={brand.toLowerCase() === b.toLowerCase() ? "active-brand" : ""}>
-                        {b}
+              {!animal && (
+                <>
+                  <h3 className="sidebar-title">FILTER BY BRAND</h3>
+                  <ul className="sidebar-brands-list">
+                    <li>
+                      <Link to={buildCategoryHref("")} className={!brand ? "active-brand" : ""}>
+                        All Brands
                       </Link>
                     </li>
-                  ))}
-                </ul>
-              </>
-            )}
-          </aside>
+                    {SIDEBAR_BRANDS.map(b => (
+                      <li key={b}>
+                        <Link to={buildCategoryHref(b)} className={brand.toLowerCase() === b.toLowerCase() ? "active-brand" : ""}>
+                          {b}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+            </aside>
+          )}
 
           {/* Main Content Area */}
           <main className="shop-main">

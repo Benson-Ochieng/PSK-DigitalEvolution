@@ -3,8 +3,8 @@
   "name": "KONG CoreStrength Bamboo Ring (Sm)",
   "slug": "kong-corestrength-bamboo-ring-sm",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 1280,
+  "regularPrice": 1280,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -36,17 +36,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "KONGCoreStrength Bamboo?s durable, bamboo-infused material entices chewing while providing long-lasting fun. Raised nubs and textures reward appropriate behaviour while having the benefit of cleaning teeth. Ideal for dogs that can?t spend enough time chewing, the unique design fulfills desires while looking great in the household. Durable bamboo material satisfies instinctual chewing needs Natural aroma entices and rewards engagement Raised nubs and ridges help clean teeth and gums",
-  "images": [],
+  "images": [
+    {
+      "id": 25004,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/BMB11.jpg",
+      "alt": "KONG CoreStrength Bamboo Ring (Sm)",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=25004",
+  "addToCartUrl": "https://petstore.co.ke/product/kong-corestrength-bamboo-ring-sm/?add-to-cart=25004",
+  "shortDescription": "KONGCoreStrength Bamboo?s durable, bamboo-infused material entices chewing while providing long-lasting fun. Raised nubs and textures reward appropria",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/BMB11.jpg",
+  "sku": "PSK-25004",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/BMB11.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

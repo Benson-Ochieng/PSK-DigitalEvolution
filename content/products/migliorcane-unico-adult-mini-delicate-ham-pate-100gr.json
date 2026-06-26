@@ -3,8 +3,8 @@
   "name": "Miglior Dog Food Unico Pouch Ham 100g",
   "slug": "migliorcane-unico-adult-mini-delicate-ham-pate-100gr",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 0,
+  "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -36,17 +36,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "COMPOSITION: Pork 60% (of which 100% ham), minerals. ANALYTICAL CONSTITUENTS: Moisture 80%, Crude protein 10%, Crude fat 4%, Crude fibres 0,3%, Crude ash 1,5%. Without colorants and preservatives. Nutritional additives / kg: Vitamin E 7,5 mg, Vitamin B1 4,2 mg, Vitamin B6 1,0 mg, Biotin (Vitamin H) 43,7 ?g, Zinc (Zinc sulphate monohydrate) 5,0 mg, Copper (Copper(II) sulphate pentahydrate) 0,2 mg, Manganese (Manganous sulphate monohydrate) 1,7 mg, Iodine (Potassium iodide) 0,7 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place.",
-  "images": [],
+  "images": [
+    {
+      "id": 28219,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW006.jpg",
+      "alt": "Miglior Dog Food Unico Pouch Ham 100g",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=28219",
+  "addToCartUrl": "https://petstore.co.ke/product/migliorcane-unico-adult-mini-delicate-ham-pate-100gr/?add-to-cart=28219",
+  "shortDescription": "COMPOSITION: Pork 60% (of which 100% ham), minerals. ANALYTICAL CONSTITUENTS: Moisture 80%, Crude protein 10%, Crude fat 4%, Crude fibres 0,3%, Crude ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW006.jpg",
+  "sku": "PSK-28219",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.1,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW006.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

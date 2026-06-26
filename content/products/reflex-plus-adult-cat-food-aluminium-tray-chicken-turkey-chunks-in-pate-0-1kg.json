@@ -3,8 +3,8 @@
   "name": "Reflex Plus Adult Cat Food Aluminium Tray - Chicken & Turkey Chunks in Pate 100g",
   "slug": "reflex-plus-adult-cat-food-aluminium-tray-chicken-turkey-chunks-in-pate-0-1kg",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 187,
+  "regularPrice": 187,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -41,17 +41,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Reflex Plus Chicken & Turkey Chunks in P?t? Adult Cat Food in Aluminium Tray ,?fully-balanced, chicken & turkey protein-containing cat food?carefully formulated by?cat / dog?nutritionists?to meet the nutritional requirements of all adult breeds. NUTRIENT COMPONENTS Crude Protein (%) - 8.0 Crude Oils & Fats (%) - 5.0 Crude Fiber (%) -?0.3 Moisture (%) -?82 Crude Ash (%) - 2.0 Vitamin D3 - 250 IE/kg Vitamin E - 15 mg/kg Copper -?1.0 mg/kg Biotin - 20 ?g/kg Manganese -?1 mg/kg Zinc - 15 mg/kg Taurine - 445 mg/kg INGREDIENTS: ?Meat & Animal Derivatives (chicken 5% min., turkey 5% min.), Minerals, Inulin (0.1%). FEEDING RECOMMENDATION: One alu-tray per meal. An adult cat (approx. 4kg) requires up to 3 meals per day. Individual requirements depend on factors like age, breed and activity. Serve at room temperature. Store in a cool, dry place. Not fit for human consumption.",
-  "images": [],
+  "images": [
+    {
+      "id": 3318,
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/09/Reflex-adult-cat-aluminium-tray-chicken-turkey-chunks-in-pate-100g-min.png",
+      "alt": "Reflex Plus Adult Cat Food Aluminium Tray - Chicken & Turkey Chunks in Pate 100g",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=3318",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-adult-cat-food-aluminium-tray-chicken-turkey-chunks-in-pate-0-1kg/?add-to-cart=3318",
+  "shortDescription": "Reflex Plus Chicken & Turkey Chunks in P?t? Adult Cat Food in Aluminium Tray ,?fully-balanced, chicken & turkey protein-containing cat food?carefully ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/09/Reflex-adult-cat-aluminium-tray-chicken-turkey-chunks-in-pate-100g-min.png",
+  "sku": "PSK-3318",
+  "brand": "Reflex",
+  "weight_kg": 0.1,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/09/Reflex-adult-cat-aluminium-tray-chicken-turkey-chunks-in-pate-100g-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

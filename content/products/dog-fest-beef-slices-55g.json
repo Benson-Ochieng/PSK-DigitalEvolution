@@ -3,8 +3,8 @@
   "name": "Dog Fest Beef Slices 55G",
   "slug": "dog-fest-beef-slices-55g",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 260,
+  "regularPrice": 260,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -26,17 +26,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "High in protein, tender beef slices are a perfect reward for dog training. You can decide yourself how big is the piece your pooch should get. Just don't get them spoiled. Composition: beef, vegetable by-products, minerals. Analytical constituents, %: crude protein 28, crude fat 5, crude fiber 0.2, crude ash 4.5, moisture 23.",
-  "images": [],
+  "images": [
+    {
+      "id": 27078,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/DF006.jpg",
+      "alt": "Dog Fest Beef Slices 55G",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27078",
+  "addToCartUrl": "https://petstore.co.ke/product/dog-fest-beef-slices-55g/?add-to-cart=27078",
+  "shortDescription": "High in protein, tender beef slices are a perfect reward for dog training. You can decide yourself how big is the piece your pooch should get. Just do",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/DF006.jpg",
+  "sku": "PSK-27078",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/DF006.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

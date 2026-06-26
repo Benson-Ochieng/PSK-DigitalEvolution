@@ -3,8 +3,8 @@
   "name": "Bioline Tuna & Fish Oil Cat Snacks 15g * 5",
   "slug": "bioline-tuna-fish-oil-cat-snacks-15g5",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 450,
+  "regularPrice": 450,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -26,17 +26,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Bioline Tuna & Fish Oil Pet Snacks is a selection of high-quality Tuna and Fish Oil, cooked at high temperatures, ground in the form of pulp, good taste, and can be easily digested and absorbed. Main Ingredients: Water, Fish (Tuna), Salmon Oil, Frozen Chicken Breast, Corn Starch. Additives: Xanthan Gum, Taurine, Vitamin A, Vitamin D, Vitamin E Application: For Cats upto 3 months old Storage Conditions: Please Keep in a cool and dry place below 25C, avoid direct sunlight Instructions for Use: Can be added to food or given orally to Cats",
-  "images": [],
+  "images": [
+    {
+      "id": 37817,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/06/Bioline-TUNA-FISH-OIL-PET-SNACKS.png",
+      "alt": "Bioline Tuna & Fish Oil Cat Snacks 15g * 5",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=37817",
+  "addToCartUrl": "https://petstore.co.ke/product/bioline-tuna-fish-oil-cat-snacks-15g5/?add-to-cart=37817",
+  "shortDescription": "Bioline Tuna & Fish Oil Pet Snacks is a selection of high-quality Tuna and Fish Oil, cooked at high temperatures, ground in the form of pulp, good tas",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/06/Bioline-TUNA-FISH-OIL-PET-SNACKS.png",
+  "sku": "PSK-37817",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/06/Bioline-TUNA-FISH-OIL-PET-SNACKS.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -3,8 +3,8 @@
   "name": "Bioline Perfume - Cologne 207ml",
   "slug": "bioline-perfume-cologne-207ml",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 800,
+  "regularPrice": 800,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Bioline perfume-cologne Deodorant freshing spray, Aiming at the bad smells caused by the pet body and environment, adopt German technology, specifically add microbial deodorant, eliminate the bad smells in three seconds leave a pleasant smell. I ngredients: Water, solubilizer, soybean unsaturated fatty acid, Frangrance, mixture of 5-chloro-2-methyl-isothiazol-3(2H)-one and 2-methylisothiazol-3(2H)-one with magnesium chloride and magnesium nitrate, CI 18050, CI 18820 Usage: Spray directly at pet body and surrounding environment. Avoid spraying directly at face, ears and genital organ. Warning: Avoid spraying in the eyes, mouth, ears, nose and genital organs for external use only, Keep out of the reach of children. Storage: Avoid direct sunlight.",
-  "images": [],
+  "images": [
+    {
+      "id": 38316,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/07/bioline-cologne.jpg",
+      "alt": "Bioline Perfume - Cologne 207ml",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=38316",
+  "addToCartUrl": "https://petstore.co.ke/product/bioline-perfume-cologne-207ml/?add-to-cart=38316",
+  "shortDescription": "Bioline perfume-cologne Deodorant freshing spray, Aiming at the bad smells caused by the pet body and environment, adopt German technology, specifical",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/07/bioline-cologne.jpg",
+  "sku": "PSK-38316",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/07/bioline-cologne.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

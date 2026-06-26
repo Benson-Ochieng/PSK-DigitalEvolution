@@ -3,8 +3,8 @@
   "name": "SHORT EXPIRY - CLEARANCE: Bonnie Adult Cat Food Pouch - Duck and Turkey Chunks in Gravy 100g",
   "slug": "bonnie-adult-cat-food-pouch-duck-and-turkey-chunks-in-gravy-0-1kg-clearance",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 0,
+  "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -46,17 +46,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Bonnie Adult Cat Food Pouch - Duck and Turkey Chunks in Gravy , fully-balanced, duck and turkey protein-containing cat food carefully formulated by cat / dog?nutritionists?to meet the nutritional requirements of all adult breeds. NUTRIENT COMPONENTS Crude Protein (%) - 8.5 Crude Oils & Fats (%) - 4,5 Crude Fiber (%) -?0.3 Moisture (%) -?83 Crude Ash (%) - 2.5 Vitamin E (Min) - 15 mg/kg Vitamin D3 (Min) - 250 IU/kg Copper -?1 mg/kg Manganese -?1 mg/kg Zinc - 15 mg/kg Biotin - 20 ?g/kg Taurine - 445 mg/kg INGREDIENTS: Meat & Animal Derivatives (duck 5%, turkey 5%), minerals, inulin (0.1%).",
-  "images": [],
+  "images": [
+    {
+      "id": 8622,
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/10/Bonnie-Adult-Cat-pouch-duck-turkey-100g-min.png",
+      "alt": "SHORT EXPIRY - CLEARANCE: Bonnie Adult Cat Food Pouch - Duck and Turkey Chunks in Gravy 100g",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=8622",
+  "addToCartUrl": "https://petstore.co.ke/product/bonnie-adult-cat-food-pouch-duck-and-turkey-chunks-in-gravy-0-1kg-clearance/?add-to-cart=8622",
+  "shortDescription": "Bonnie Adult Cat Food Pouch - Duck and Turkey Chunks in Gravy , fully-balanced, duck and turkey protein-containing cat food carefully formulated by ca",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/10/Bonnie-Adult-Cat-pouch-duck-turkey-100g-min.png",
+  "sku": "PSK-8622",
+  "brand": "Bonnie",
+  "weight_kg": 0.1,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/10/Bonnie-Adult-Cat-pouch-duck-turkey-100g-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

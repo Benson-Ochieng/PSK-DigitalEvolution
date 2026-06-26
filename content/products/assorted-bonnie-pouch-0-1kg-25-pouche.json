@@ -3,8 +3,8 @@
   "name": "Assorted Bonnie Pouches 0.1kg - 25 Pouches",
   "slug": "assorted-bonnie-pouch-0-1kg-25-pouche",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 0,
+  "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -46,17 +46,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "SET OF 25 Bonnie Pouches (5 flavours, 5 pieces of each flavour). Fully-balanced, wet cat food carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult breeds. NUTRIENT COMPONENTS Crude Protein (%) - 8.5 Crude Oils & Fats (%) - 4,5 Crude Fiber (%) -?0.3 Moisture (%) -?83 Crude Ash (%) - 2.5 Vitamin E (Min) - 15 mg/kg Vitamin D3 (Min) - 250 IU/kg Copper -?1 mg/kg Manganese -?1 mg/kg Zinc - 15 mg/kg Biotin - 20 ?g/kg Taurine - 445 mg/kg INGREDIENTS: Meat & Animal Derivatives (5%), minerals, inulin (0.1%).",
-  "images": [],
+  "images": [
+    {
+      "id": 8429,
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/12/Bonnie-Adult-Cat-pouch-5-flavours-100g-min.png",
+      "alt": "Assorted Bonnie Pouches 0.1kg - 25 Pouches",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=8429",
+  "addToCartUrl": "https://petstore.co.ke/product/assorted-bonnie-pouch-0-1kg-25-pouche/?add-to-cart=8429",
+  "shortDescription": "SET OF 25 Bonnie Pouches (5 flavours, 5 pieces of each flavour). Fully-balanced, wet cat food carefully formulated by cat / dog nutritionists to meet ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/12/Bonnie-Adult-Cat-pouch-5-flavours-100g-min.png",
+  "sku": "PSK-8429",
+  "brand": "Bonnie",
+  "weight_kg": 2.5,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/12/Bonnie-Adult-Cat-pouch-5-flavours-100g-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

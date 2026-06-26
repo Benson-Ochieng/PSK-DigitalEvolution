@@ -3,8 +3,8 @@
   "name": "SHORT EXPIRY - CLEARANCE: Reflex Dog Treats - Stick Treats, gain Free Duck (3 Sticks x 11g) 33g",
   "slug": "short-expiry-clearance-reflex-dog-treats-stick-treats-grain-free-duck-3-sticks-x-11g-33g",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 0,
+  "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -36,17 +36,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Reflex Dog Stick Treats with Duck are? grain-free and made from delicious real meat. These high-protein, low-fat stick treats promote healthy chewing. Reward good behaviour with these fun and delicious treats made with the highest quality ingredients and bursting with flavour. Pack of 3 sticks. INGREDIENTS: Meat and animal derivatives (6% duck), minerals. NUTRIENT COMPONENTS Crude Protein (%) - 33.5 Oil Content (%) - 20 Crude Ash (%) - 10 Crude Fiber (%) - 2 Moisture Content (%) 28 FEEDING RECOMMENDATIONS: Treats may be given as an additional snack. This product does not replace full-dog food daily. Dog Size Nutrition Recommendation Small up to 1 stick Medium Up to 2 sticks Large up to 3 sticks",
-  "images": [],
+  "images": [
+    {
+      "id": 18514,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/03/Reflex-Adult-Dog-Treat-Grain-Free-Duck-33g-min.png",
+      "alt": "SHORT EXPIRY - CLEARANCE: Reflex Dog Treats - Stick Treats, gain Free Duck (3 Sticks x 11g) 33g",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=18514",
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-reflex-dog-treats-stick-treats-grain-free-duck-3-sticks-x-11g-33g/?add-to-cart=18514",
+  "shortDescription": "Reflex Dog Stick Treats with Duck are? grain-free and made from delicious real meat. These high-protein, low-fat stick treats promote healthy chewing.",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/03/Reflex-Adult-Dog-Treat-Grain-Free-Duck-33g-min.png",
+  "sku": "PSK-18514",
+  "brand": "Reflex",
+  "weight_kg": 0.03,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/03/Reflex-Adult-Dog-Treat-Grain-Free-Duck-33g-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

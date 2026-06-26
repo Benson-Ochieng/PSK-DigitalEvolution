@@ -3,8 +3,8 @@
   "name": "Miglior Cat Food Pouch - Beef & Carrots 100g",
   "slug": "migliorgatto-adult-cat-food-pouch-strips-beef-and-carrots-100gr",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 124,
+  "regularPrice": 124,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,17 +16,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "COMPOSITION: Cereals, meat and animal derivatives 42% (beef 4%), oil and fats, derivatives of vegetable origin, minerals, yeasts. ANALYTICAL CONSTITUENTS: Crude protein 30.00%, Crude fibres 2.00%, Crude fat 11.00%, Crude ash 9.00%, Calcium 2.3%, Phosphorus 1.5%, Sodium 0.65%, Omega 3 fatty acids 0.29%, Omega 6 fatty acids 1.6%. Nutritional additives / kg: Vitamin A 13400 IU, Vitamin D3 930 IU, Vitamin E 85 mg, Iron (Iron (II) carbonate (siderite)) 37.2 mg, Zinc (Zinc oxide) 74.4 mg, Copper (Copper (II) sulphate pentahydrate) 6.1 mg, Manganese (Manganese (II) oxide) 3.7 mg, Iodine (Potassium iodide) 1.9 mg, Selenium (Sodium selenite) 0.1 mg. Antioxidants. HOW TO USE: The product is ready to use. The daily amount recommended may vary due to age or particular needs of every cat. We suggest to switch gradually to the new food. Leave always available to your cat a bowl of pure water. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight",
-  "images": [],
+  "images": [
+    {
+      "id": 40825,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW014.jpg",
+      "alt": "Miglior Cat Food Pouch - Beef & Carrots 100g",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=40825",
+  "addToCartUrl": "https://petstore.co.ke/product/migliorgatto-adult-cat-food-pouch-strips-beef-and-carrots-100gr/?add-to-cart=40825",
+  "shortDescription": "COMPOSITION: Cereals, meat and animal derivatives 42% (beef 4%), oil and fats, derivatives of vegetable origin, minerals, yeasts. ANALYTICAL CONSTITUE",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW014.jpg",
+  "sku": "PSK-40825",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.1,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW014.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

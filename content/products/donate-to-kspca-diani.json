@@ -3,8 +3,8 @@
   "name": "Donate to KSPCA Diani",
   "slug": "donate-to-kspca-diani",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 0,
+  "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -51,17 +51,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "For every bag you donate, WE WILL MATCH YOUR DONATION. The KSPCA (Kenya Society for the Protection and Care of Animals) - a welfare charity that protects animals from neglect and abuse.",
-  "images": [],
+  "images": [
+    {
+      "id": 18778,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/02/Donate-v5-KSPCA-DIANI-min.png",
+      "alt": "Donate to KSPCA Diani",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=18778",
+  "addToCartUrl": "https://petstore.co.ke/product/donate-to-kspca-diani/?add-to-cart=18778",
+  "shortDescription": "For every bag you donate, WE WILL MATCH YOUR DONATION. The KSPCA (Kenya Society for the Protection and Care of Animals) - a welfare charity that prote",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/02/Donate-v5-KSPCA-DIANI-min.png",
+  "sku": "PSK-18778",
+  "brand": "PetStore Kenya",
+  "weight_kg": 15,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/02/Donate-v5-KSPCA-DIANI-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

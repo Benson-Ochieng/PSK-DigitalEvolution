@@ -3,8 +3,8 @@
   "name": "Reflex Cat Treats - 100% Natural Tuna & Broccoli Fillet 50g",
   "slug": "reflex-cat-treats-100-natural-tuna-broccoli-fillet-50g",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 0,
+  "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -46,17 +46,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Reflex Cat Treats - 100% Natural Tuna & Broccoli Fillets are super-premium cat treats that are easily digested due to its high meat content. Includes fatty acids that support healthy skin and coat health. Will not cause weight gain due to its low-calorie content. INGREDIENTS: tuna (82%), potato starch, sorbitol, glycerin, broccoli, plant protein, animal protein, salt. NUTRIENT COMPONENTS Crude Protein (%) - 35 Oil Content (%) - 3.5 Crude Ash (%) - 4 Crude Fiber (%) - 0.5 Moisture (%) - 26 FEEDING RECOMMENDATIONS: Recommended for all adult cats as a snack in addition to meals. This product does not replace your cat's daily food requirement. Store in a cool, dry place.",
-  "images": [],
+  "images": [
+    {
+      "id": 11317,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/02/Reflex-Adult-Cat-Treats-Tuna-Broccoli-Fillets-50g-min.png",
+      "alt": "Reflex Cat Treats - 100% Natural Tuna & Broccoli Fillet 50g",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=11317",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-cat-treats-100-natural-tuna-broccoli-fillet-50g/?add-to-cart=11317",
+  "shortDescription": "Reflex Cat Treats - 100% Natural Tuna & Broccoli Fillets are super-premium cat treats that are easily digested due to its high meat content. Includes ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/02/Reflex-Adult-Cat-Treats-Tuna-Broccoli-Fillets-50g-min.png",
+  "sku": "PSK-11317",
+  "brand": "Reflex",
+  "weight_kg": 0.05,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/02/Reflex-Adult-Cat-Treats-Tuna-Broccoli-Fillets-50g-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

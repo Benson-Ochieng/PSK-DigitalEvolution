@@ -3,8 +3,8 @@
   "name": "Veko-Radicate Spot On Cats and Kittens 0.75ml- 6 Months supply",
   "slug": "radicate-spot-on-cats-and-kittens-0-75ml",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 7125,
+  "regularPrice": 7125,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Radicate Spot On is a specialized topical treatment designed exclusively for cats, serving as a parasiticide for the elimination of ecto-parasites. This innovative solution not only helps in preventing and managing tick and flea infestations but also addresses issues related to biting lice, mange, and even the risk of Heartworm disease. Compared to Frontline. Selamectin, the active ingredient in Radicate Spot On, belongs to the broad-spectrum avermectin endectocide class. It is a safe option for cats as young as six weeks old, including those afflicted with heartworm, as well as cats capable of reproduction. When administered topically to the skin at the recommended monthly dosage, it ensures a minimum delivery of 6mg per kilogram of body weight. 0.75 ml x 6 Pipettes in one Box. (6 Month Supply for Cats)",
-  "images": [],
+  "images": [
+    {
+      "id": 39053,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/08/Veko-radicate-6pip-e1718194100673.jpg",
+      "alt": "Veko-Radicate Spot On Cats and Kittens 0.75ml- 6 Months supply",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=39053",
+  "addToCartUrl": "https://petstore.co.ke/product/radicate-spot-on-cats-and-kittens-0-75ml/?add-to-cart=39053",
+  "shortDescription": "Radicate Spot On is a specialized topical treatment designed exclusively for cats, serving as a parasiticide for the elimination of ecto-parasites. Th",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/08/Veko-radicate-6pip-e1718194100673.jpg",
+  "sku": "PSK-39053",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/08/Veko-radicate-6pip-e1718194100673.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

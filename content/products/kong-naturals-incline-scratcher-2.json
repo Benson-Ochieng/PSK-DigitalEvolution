@@ -3,8 +3,8 @@
   "name": "Kong Naturals Incline Scratcher",
   "slug": "kong-naturals-incline-scratcher-2",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 1650,
+  "regularPrice": 1650,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -46,17 +46,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "KONGNaturals Cat Scratchers satisfy your cat?s natural scratching instincts by encouraging appropriate scratching behaviour. Environmentally friendly cat scratchers are made with renewable resources and are recyclable. Scratchpads are reversible for extended use. Incline satisfies natural scratching instincts. Reversible scratchers for long-lasting fun. Encourages appropriate scratching behaviour. Infused with KONGPremium North American Catnip to encourage play. Made from ecologically friendly material.",
-  "images": [],
+  "images": [
+    {
+      "id": 16407,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/11/kong-incline-cat-scratcher-45.jpg",
+      "alt": "Kong Naturals Incline Scratcher",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=16407",
+  "addToCartUrl": "https://petstore.co.ke/product/kong-naturals-incline-scratcher-2/?add-to-cart=16407",
+  "shortDescription": "KONGNaturals Cat Scratchers satisfy your cat?s natural scratching instincts by encouraging appropriate scratching behaviour. Environmentally friendly ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/11/kong-incline-cat-scratcher-45.jpg",
+  "sku": "PSK-16407",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/11/kong-incline-cat-scratcher-45.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

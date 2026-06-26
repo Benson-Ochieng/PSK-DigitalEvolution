@@ -3,8 +3,8 @@
   "name": "Dog Fest Meat Sticks - Duck 45G",
   "slug": "dog-fest-meat-sticks-duck-45g",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 190,
+  "regularPrice": 190,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -26,17 +26,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Tender, with rich natural flavor, these meat sticks are simply perfect dog treats. You can always decide yourself how big piece your dog deserves. Composition: duck, vegetable by-products, minerals. Analytical constituents, %: crude protein 23, crude fat 3.5, crude fiber 0.2, crude ash 4, moisture 23.",
-  "images": [],
+  "images": [
+    {
+      "id": 27268,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/DF021.jpg",
+      "alt": "Dog Fest Meat Sticks - Duck 45G",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27268",
+  "addToCartUrl": "https://petstore.co.ke/product/dog-fest-meat-sticks-duck-45g/?add-to-cart=27268",
+  "shortDescription": "Tender, with rich natural flavor, these meat sticks are simply perfect dog treats. You can always decide yourself how big piece your dog deserves. Com",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/DF021.jpg",
+  "sku": "PSK-27268",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/DF021.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -3,8 +3,8 @@
   "name": "Rogz Dog Grinz Treat Ball 4.9cm - Pink Small",
   "slug": "rogz-dog-grinz-treat-ball-4-9cm-pink-small-2",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 542,
+  "regularPrice": 542,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "The Rogz Dog Grinz Treat Ball is a fun, durable, and interactive dog toy designed specifically for small dogs and puppies . Made from high-quality, non-toxic SEBS/TPR material, this 4.9cm treat ball delivers safe play, mental stimulation, and endless entertainment. Its iconic grinning teeth design makes playtime hilarious while offering a practical way to reward and engage your pet. Key Features Perfect Size for Small Dogs Compact 4.9cm diameter, lightweight (20–36g), and easy to carry for small breeds and puppies. Durable, Non-Toxic Material Made from tough SEBS/Thermoplastic Rubber—safe on teeth and gums while withstanding active chewing. Treat-Dispensing Design Fill the internal cavity with your dog’s favorite treats; treats release gradually during play, promoting mental engagement. Interactive Play & Training Offers gentle bounce, ideal for fetch, training, and stimulating indoor/outdoor activities. Floats on Water Buoyant design is perfect for water-loving pets, swimming, and beach play. Easy to Clean Dishwasher-safe and freezer-safe for added versatility and hygiene. Safe & Certified CE-approved, non-toxic materials for worry-free playtime. Why Pet Owners Love It The Rogz Grinz Treat Ball supports healthy chewing habits , prevents boredom, and adds fun to training routines. Whether used indoors, outdoors, or in water, it keeps dogs mentally stimulated and physically active. &nbsp;",
-  "images": [],
+  "images": [
+    {
+      "id": 40895,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/GR01-K-Grinz-Pink.jpg",
+      "alt": "Rogz Dog Grinz Treat Ball 4.9cm - Pink Small",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=40895",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-4-9cm-pink-small-2/?add-to-cart=40895",
+  "shortDescription": "The Rogz Dog Grinz Treat Ball is a fun, durable, and interactive dog toy designed specifically for small dogs and puppies . Made from high-quality, no",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/GR01-K-Grinz-Pink.jpg",
+  "sku": "PSK-40895",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/GR01-K-Grinz-Pink.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

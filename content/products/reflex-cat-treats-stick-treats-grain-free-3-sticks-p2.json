@@ -3,8 +3,8 @@
   "name": "Reflex Cat Treats - Stick Treats, gain Free (3 Sticks)",
   "slug": "reflex-cat-treats-stick-treats-grain-free-3-sticks-p2",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 0,
+  "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Reflex Cat Stick Treats are grain-free and made from delicious real meat. These high-protein, low-fat stick treats promote healthy chewing. Reward good behaviour with these fun and delicious treats made with the highest quality ingredients and bursting with flavour. Pack of 3 sticks. INGREDIENTS: Meat and animal derivatives, minerals. NUTRIENT COMPONENTS Crude Protein (%) - 33.5 Oil Content (%) - 20 Crude Ash (%) - 10 Crude Fiber (%) - 2 Moisture Content (%) 28 FEEDING RECOMMENDATIONS: Treats may be given as an additional snack. For an average cat (4kg) we recommend approximately 1 stick per day. This product does not replace cat's daily food requirement.",
-  "images": [],
+  "images": [
+    {
+      "id": 3625,
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/10/Reflex-Adult-Cat-Stick-Treats-Grain-Free-Salmon-15g-1080x0180-min.png",
+      "alt": "Reflex Cat Treats - Stick Treats, gain Free (3 Sticks)",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=3625",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-cat-treats-stick-treats-grain-free-3-sticks-p2/?add-to-cart=3625",
+  "shortDescription": "Reflex Cat Stick Treats are grain-free and made from delicious real meat. These high-protein, low-fat stick treats promote healthy chewing. Reward goo",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/10/Reflex-Adult-Cat-Stick-Treats-Grain-Free-Salmon-15g-1080x0180-min.png",
+  "sku": "PSK-3625",
+  "brand": "Reflex",
+  "weight_kg": 0.02,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/10/Reflex-Adult-Cat-Stick-Treats-Grain-Free-Salmon-15g-1080x0180-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

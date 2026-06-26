@@ -3,8 +3,8 @@
   "name": "Frontline Spray 500 mls",
   "slug": "frontline-spray-500-mls",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 6750,
+  "regularPrice": 6750,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,17 +16,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "FRONTLINE SPRAY protects cats and dogs against fleas and ticks, including paralysis ticks. It can be used on puppies and kittens from 2 days of age. To protect against adult fleas, apply every 12 weeks for dogs and every 8 weeks for cats. To protect against paralysis ticks, apply every 3 weeks for dogs and cats and for protection against brown dog ticks, apply monthly. Can be used in puppies and kittens from 2 days of age. Controls flea allergy dermatitis when used monthly.",
-  "images": [],
+  "images": [
+    {
+      "id": 24608,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/FS500.jpg",
+      "alt": "Frontline Spray 500 mls",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Frontline",
+      "slug": "frontline"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=24608",
+  "addToCartUrl": "https://petstore.co.ke/product/frontline-spray-500-mls/?add-to-cart=24608",
+  "shortDescription": "FRONTLINE SPRAY protects cats and dogs against fleas and ticks, including paralysis ticks. It can be used on puppies and kittens from 2 days of age. T",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/FS500.jpg",
+  "sku": "PSK-24608",
+  "brand": "Frontline",
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/FS500.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

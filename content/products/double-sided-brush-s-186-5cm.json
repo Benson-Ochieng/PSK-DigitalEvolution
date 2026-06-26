@@ -3,8 +3,8 @@
   "name": "Double Sided Brush S 18*6.5cm",
   "slug": "double-sided-brush-s-186-5cm",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 603,
+  "regularPrice": 603,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Non-slip and ergonomic designed handle is easy and comfortable to grip Suitable for long and short-haired dogs or cats Can be used to groom and massage pets for healthy hair, increasing blood circulation effectively and leaving your pets’ hair soft and shiny.",
-  "images": [],
+  "images": [
+    {
+      "id": 36967,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/05/double-sided-brush.jpg",
+      "alt": "Double Sided Brush S 18*6.5cm",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=36967",
+  "addToCartUrl": "https://petstore.co.ke/product/double-sided-brush-s-186-5cm/?add-to-cart=36967",
+  "shortDescription": "Non-slip and ergonomic designed handle is easy and comfortable to grip Suitable for long and short-haired dogs or cats Can be used to groom and massag",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/05/double-sided-brush.jpg",
+  "sku": "PSK-36967",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/05/double-sided-brush.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

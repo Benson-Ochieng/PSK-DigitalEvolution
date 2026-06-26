@@ -3,8 +3,8 @@
   "name": "SHORT EXPIRY-CLEARANCE: Reflex Plus Medium/Large Breed JUNIOR Dog Food - Lamb and Rice 3kg",
   "slug": "short-expiry-clearance-reflex-plus-medium-large-breed-junior-dog-food-lamb-and-rice-3kg",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 1725,
+  "regularPrice": 1725,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Reflex Plus Junior Dog Food Lamb and Rice is a complete and balanced super premium dry dog food with lamb and rice for medium-large breeds from 1year to 4years of age. Xylo-oligosaccharides (XOS) are super prebiotics obtained by hydrolyzing corn cobs. With approximately zero calorie value, XOS helps reduce problems such as unwanted fatness and glycemia in cats. XOS enters the large intestine unmodified and is used primarily by the digestive bacteria Bifidobacteria and Lactobacilli. This reduces negative fermentations that cause energy loss, such as bloating and other digestive disorders. Possible Health Benefits: • Strengthens the immune system. • It improves the digestion and metabolism of nutrients by improving the intestinal flora. • Natural antioxidant is effective. Ingredients: Processed lamb protein, Processed animal protein, Corn, Chicken fat, Rice, Sugar beet, Liver flavor, Whey powder, Vitamins and minerals, Xylo-Oligosaccharides, Brewer’s yeast, L-carnitine, Flaxseed, Salt, Yucca schidigera , Glucosamine, Chondroitin sulphate, Preservatives – antioxidants (E320 & E321) Minerals: Iron (3B103), Iodine (3B202), Copper (3B405), Zinc (3B603), Manganese (3B502), Selenium (3B802) Vitamins: Vitamin A (3A672A) 18,000IU/kg, Vitamin D3 (3A671) 1,500IU/kg, Vitamin E (3A700) 150mg/kg, Vitamin C (3A300) 200mg/kg, Vitamin B1 (3A821), Vitamin B2 (3A825i)), Vitamin B3 (Niacin-3A315), Vitamin B6 (3A831), Vitamin B7 (Biotin-3A880), Vitamin B9 (Folic Acid-3A316), Vitamin B12 (3A), Vitamin K3 (3A710), Choline (3A890), Calcium pantothenate (3A841) 86% of the protein it contains is obtained from animal ingredients. Nutrient Components and Nutritious Supplements Crude Protein 28% Raw oil 16% Ash 8% Crude Cellulose (Fibre) 2.5% &nbsp; Vitamin A (3A672A) 18,000 IU/kg Vitamin D3 (3A671) 1,500 IU/kg Vitamin E (3A700) 150mg/kg Vitamin C (3A300) 200mg/kg IMPORTANT: Recommended daily feeding amount (gram per day) according to the puppies’ adult weight (kg) and age (months), see chart. Daily ration can vary linked to ambient temperature, puppy’s lifestyle (indoor-outdoor), temperament and activity. In order to ensure ideal body weight of your puppy, weigh out the quantity of food. To provide the correct portions, assess your puppy’s appetite, visual appearance and stools. Switch over from one food to another should be done gradually by mixing small amounts of both foods during a period of one week. Ensure that your puppy has permanent access to fresh water. Even if the water seems clear, change it at least daily. Keep the product in a dry and cool place and be sure the food bag is properly closed after each feeding. Batch number, factory registration number and best before date, see packaging. &nbsp;",
-  "images": [],
+  "images": [
+    {
+      "id": 36415,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/RPLBJDLR03.png",
+      "alt": "SHORT EXPIRY-CLEARANCE: Reflex Plus Medium/Large Breed JUNIOR Dog Food - Lamb and Rice 3kg",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=36415",
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-reflex-plus-medium-large-breed-junior-dog-food-lamb-and-rice-3kg/?add-to-cart=36415",
+  "shortDescription": "Reflex Plus Junior Dog Food Lamb and Rice is a complete and balanced super premium dry dog food with lamb and rice for medium-large breeds from 1year ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/RPLBJDLR03.png",
+  "sku": "PSK-36415",
+  "brand": "Reflex",
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/RPLBJDLR03.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

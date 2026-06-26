@@ -3,8 +3,8 @@
   "name": "SHORT EXPIRY-CLEARANCE: Reflex Plus Premium Mini and Small Breed- Junior Dog Food Chicken 3kg",
   "slug": "short-expiry-clearance-reflex-plus-premium-mini-and-small-breed-junior-dog-food-chicken-3kg",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 1725,
+  "regularPrice": 1725,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "It is a super-premium dry dog ​​food with chicken, fully and balancedly formulated, suitable for mini and small breeds aged 2 - 10 months. &nbsp; Xylo-oligosaccharides (XOS) are super prebiotics obtained by hydrolyzing corn cobs. With approximately zero calorie value, XOS helps reduce problems such as unwanted fatness and glycemia in cats. XOS enters the large intestine unmodified and is used primarily by the digestive bacteria Bifidobacteria and Lactobacilli. This reduces negative fermentations that cause energy loss, such as bloating and other digestive disorders. Possible Health Benefits: • Strengthens the immune system. • It improves the digestion and metabolism of nutrients by improving the intestinal flora. • Natural antioxidant is effective. Contents: Processed Chicken Protein, Corn, Wheat, Chicken Fat, Rice, Sugar Beet, Liver Flavor, Whey Powder , Vitamins and Minerals, Xylo-Oligosaccharides, Brewer's Yeast, L-Carnitine, Flaxseed, Salt, Yucca Schidigera, Preservatives - Antioxidants. Minerals: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Iron, Selenium. Vitamins: Vitamin A, Vitamin D, Vitamin E, Vitamin C, Vitamin B1 - B2 - B3 (Niacin) - B6 - B12 - B7 (Biotin) - B9 (Folic Acid), Vitamin K, Choline, Calcium Pantothenate. 88% of the protein amount it contains is obtained from animal ingredients. Nutrient Components Crude Protein 30% Raw oil 18% Ash 7% Crude Cellulose (Fibre) 2.5% &nbsp; Nutritious Supplements Vitamin A (E672) 18,000 IU/kg Vitamin D3 (E671) 1,500 IU/kg Vitamin E (3a700) 150mg/kg IMPORTANT AND TO KNOW: Recommended daily feeding amount (gram per day) according to the puppies' adult weight (kg) and age (months), see chart. Daily ration can vary linked to ambient temperature, puppy's lifestyle (indoor-outdoor), temperament and activity. In order to ensure ideal body weight of your puppy, weigh out the quantity of food. To provide the correct portions, assess your puppy's appetite, visual appearance and stools. Switch over from one food to another should be done gradually by mixing small amounts of both foods during a period of one week. Ensure that your puppy has permanent access to fresh water. Even if the water seems clear, change it at least daily. Keep the product in a dry and cool place and be sure the food bag is properly closed after each feeding. Batch number, factory registration number and best before date, see packaging.",
-  "images": [],
+  "images": [
+    {
+      "id": 39112,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/10/Reflex-Plus-Mini-Small-Breed-Junior-Dog-Food-Chicken-3kg-min.png",
+      "alt": "SHORT EXPIRY-CLEARANCE: Reflex Plus Premium Mini and Small Breed- Junior Dog Food Chicken 3kg",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=39112",
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-reflex-plus-premium-mini-and-small-breed-junior-dog-food-chicken-3kg/?add-to-cart=39112",
+  "shortDescription": "It is a super-premium dry dog ​​food with chicken, fully and balancedly formulated, suitable for mini and small breeds aged 2 - 10 months. &nbsp; Xylo",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/10/Reflex-Plus-Mini-Small-Breed-Junior-Dog-Food-Chicken-3kg-min.png",
+  "sku": "PSK-39112",
+  "brand": "Reflex",
+  "weight_kg": 3,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/10/Reflex-Plus-Mini-Small-Breed-Junior-Dog-Food-Chicken-3kg-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -3,8 +3,8 @@
   "name": "Kong AirDog Donut - Large",
   "slug": "kong-airdog-donut-large",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 1850,
+  "regularPrice": 1850,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "KONG AirDog Squeaker Donut combines two classic dog toys -the tennis ball and the squeaker - to create the perfect fetch toy. The non-abrasive, high-quality material will not wear down dogs teeth. Find your dog's favorite AirDog shape and let the games begin. Fetch toy for healthy, active play Non-abrasive KONG Tennis material, softer on teeth Squeaker entices play",
-  "images": [],
+  "images": [
+    {
+      "id": 16377,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/11/ASD1-3.jpg",
+      "alt": "Kong AirDog Donut - Large",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=16377",
+  "addToCartUrl": "https://petstore.co.ke/product/kong-airdog-donut-large/?add-to-cart=16377",
+  "shortDescription": "KONG AirDog Squeaker Donut combines two classic dog toys -the tennis ball and the squeaker - to create the perfect fetch toy. The non-abrasive, high-q",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/11/ASD1-3.jpg",
+  "sku": "PSK-16377",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/11/ASD1-3.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

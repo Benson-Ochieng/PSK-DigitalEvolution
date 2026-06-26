@@ -3,8 +3,8 @@
   "name": "Bonnie Adult Cat Food Canned - Beef and Turkey Chunks in Loaf Pate 0.4kg",
   "slug": "bonnie-adult-cat-food-canned-beef-turkey-chunks-in-loaf-pate-0-4kg",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 285,
+  "regularPrice": 285,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -36,17 +36,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Bonnie Beef and Turkey Adult Cat Canned Food , fully-balanced, beef and turkey protein-containing cat food carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult breeds. NUTRIENT COMPONENTS Crude Protein (%) - 9.0 Crude Oils & Fats (%) - 5.0 Crude Fiber (%) - 0.2 Moisture (%) -?80 Crude Ash (%) - 2.5 Vitamin A (Min) - 1650 IE/kg Vitamin D3 (Min) - 210 IE/kg Iron - 9.6 mg/kg Copper - 1.4 mg/kg Iodine - 0.24 mg/kg Manganese - 1.8 mg/kg Zinc - 9.5 mg/kg Selenium - 0.025 mg/kg INGREDIENTS: Meat & Animal Derivatives (Beef 4% min., Turkey 4% min.), Fish and Fish Derivatives, Cereals, Vegetal Protein Extracts, Minerals, Cassia Gum (2200 mg/kg), colourants, perservatives. MINERALS: ?Iron, Copper, Iodine, Manganese, Zinc, Selenium VITAMINS: ??Vit.?A,?Vit. D3",
-  "images": [],
+  "images": [
+    {
+      "id": 3687,
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/10/Bonnie-Adult-Cat-Canned-Beef-Turkey-Chunks-in-Loaf-Pate-1080x1080-min.png",
+      "alt": "Bonnie Adult Cat Food Canned - Beef and Turkey Chunks in Loaf Pate 0.4kg",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=3687",
+  "addToCartUrl": "https://petstore.co.ke/product/bonnie-adult-cat-food-canned-beef-turkey-chunks-in-loaf-pate-0-4kg/?add-to-cart=3687",
+  "shortDescription": "Bonnie Beef and Turkey Adult Cat Canned Food , fully-balanced, beef and turkey protein-containing cat food carefully formulated by cat / dog nutrition",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/10/Bonnie-Adult-Cat-Canned-Beef-Turkey-Chunks-in-Loaf-Pate-1080x1080-min.png",
+  "sku": "PSK-3687",
+  "brand": "Bonnie",
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/10/Bonnie-Adult-Cat-Canned-Beef-Turkey-Chunks-in-Loaf-Pate-1080x1080-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

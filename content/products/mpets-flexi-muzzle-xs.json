@@ -3,8 +3,8 @@
   "name": "Mpets Flexi Muzzle (Xs)",
   "slug": "mpets-flexi-muzzle-xs",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 1100,
+  "regularPrice": 1100,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Flexi Muzzle 1,5x18 cm/20 cm - XS",
-  "images": [],
+  "images": [
+    {
+      "id": 27360,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPFM01.jpg",
+      "alt": "Mpets Flexi Muzzle (Xs)",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27360",
+  "addToCartUrl": "https://petstore.co.ke/product/mpets-flexi-muzzle-xs/?add-to-cart=27360",
+  "shortDescription": "Flexi Muzzle 1,5x18 cm/20 cm - XS",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/MPFM01.jpg",
+  "sku": "PSK-27360",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPFM01.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

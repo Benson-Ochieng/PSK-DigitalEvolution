@@ -3,8 +3,8 @@
   "name": "Generic Tooth Paste And Brush Set",
   "slug": "generic-tooth-paste-and-brush-set",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 690,
+  "regularPrice": 690,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "EASY TO USE — For first time brushers, put a small amount of toothpaste on your finger and invite the dog to lick it off. Slowly progress to rubbing your finger along the gum line and teeth. For best results, brush 2-3 times per week MADE WITH NATURAL INGREDIENTS — Natural ingredients ensure optimal dental health for your dog with a tasty beef flavor he or she will love PROMOTES HEALTHY GUMS — Dog dental kit is gentle yet effective in reducing tartar buildup, eliminating dog’s bad breath, and whitening and brightening your dog’s teeth 2 DUAL END GENTLE SILICON TOOTHBRUSHES FOR SMALL AND LARGE TEETH – are you looking for a more universal toothbrush so you can clean your dog’s or cat’s teeth regardless their breed or size? The dental cleaning kit for dogs is designed just for that. It comes with dual-ended bristles (small and large) so you can easily remove food debris from all tooth surfaces. Simply choose a bristle size that best conforms to your pet’s mouth. LONG CURVED HANDLE FOR EASIER REACH OF ALL MOUTH PARTS – are you looking for a dog toothbrush that can easily reach all areas in your pet’s mouth? It may be just what you need. This dog toothbrush comes with a long-curved handle to make it super easy to clean your dog’s teeth. The 0.75” finger opening is perfect for people with smaller fingers but is designed to expand and accommodate any size. Make it easier cleaning your dog’s teeth with the dog toothbrush.",
-  "images": [],
+  "images": [
+    {
+      "id": 36962,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/05/Generic-tothpaste.jpg",
+      "alt": "Generic Tooth Paste And Brush Set",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=36962",
+  "addToCartUrl": "https://petstore.co.ke/product/generic-tooth-paste-and-brush-set/?add-to-cart=36962",
+  "shortDescription": "EASY TO USE — For first time brushers, put a small amount of toothpaste on your finger and invite the dog to lick it off. Slowly progress to rubbing y",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/05/Generic-tothpaste.jpg",
+  "sku": "PSK-36962",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/05/Generic-tothpaste.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

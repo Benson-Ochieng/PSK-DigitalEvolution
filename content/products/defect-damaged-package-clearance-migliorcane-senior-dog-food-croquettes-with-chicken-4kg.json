@@ -3,8 +3,8 @@
   "name": "DEFECT/DAMAGED PACKAGE CLEARANCE: Migliorcane Senior Dog Food Croquettes With Chicken 4kg",
   "slug": "defect-damaged-package-clearance-migliorcane-senior-dog-food-croquettes-with-chicken-4kg",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 2380,
+  "regularPrice": 2380,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "COMPOSITION: Cereals, meat and animal derivatives 25% (chicken 4%) , derivatives of vegetable origin (FOS 0.2%), oil and fats, minerals, yeasts (yeast products sources of MOS 0.1%), glucosamine 0.06%, chondroitin sulphate 0.04%. ANALYTICAL CONSTITUENTS: Crude protein 21.00%, Crude fibres 2.50%, Crude Fat 10.00%, Crude ash 7.00%, Calcium 1.3%, Phosphorus 0.8%, Omega 3 Fatty acids 0.41%, Omega 6 Fatty acids 1.4%. Nutritional additives /kg: Vitamin A 19000 UI, Vitamin D3 1320 UI, Vitamin E 100 mg, Vitamin B1 16.2 mg, Vitamin B2 5.5 mg, Vitamin B6 5.7 mg, vitamin B12 0.03 mg, Niacin 54.5 mg, Biotin 0.2 mg, Calcium D-pantothenate 68.2 mg, Folic acid 1.6 mg, Zinc (Zinc oxide) 140 mg, Iron (Iron (II) carbonate (siderite)) 100 mg, Copper (Copper II sulphate pentahydrate) 12 mg, Manganese (Manganese (II) oxide) 8.0 mg, Iodine (Potassium iodide) 3 mg, Selenium (Sodium selenite) 0.2 mg. Antioxidants. HOW TO USE: The product is ready to use. The daily amount recommended may vary due to age or particular needs of every dog. We suggest to switch gradually to the new food. Leave always available to your dog a bowl of pure water. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight.",
-  "images": [],
+  "images": [
+    {
+      "id": 39127,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MDD003.jpg",
+      "alt": "DEFECT/DAMAGED PACKAGE CLEARANCE: Migliorcane Senior Dog Food Croquettes With Chicken 4kg",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=39127",
+  "addToCartUrl": "https://petstore.co.ke/product/defect-damaged-package-clearance-migliorcane-senior-dog-food-croquettes-with-chicken-4kg/?add-to-cart=39127",
+  "shortDescription": "COMPOSITION: Cereals, meat and animal derivatives 25% (chicken 4%) , derivatives of vegetable origin (FOS 0.2%), oil and fats, minerals, yeasts (yeast",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MDD003.jpg",
+  "sku": "PSK-39127",
+  "brand": "PetStore Kenya",
+  "weight_kg": 4,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MDD003.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

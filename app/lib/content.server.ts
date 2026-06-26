@@ -313,6 +313,11 @@ export function getAllReviews(): any[] {
   });
 }
 
+export function saveAllReviews(reviews: any[]): void {
+  const filePath = path.join(CONTENT_DIR, "reviews.json");
+  fs.writeFileSync(filePath, JSON.stringify(reviews, null, 2), "utf-8");
+}
+
 export function parseShortcodes(content: string): string {
   if (!content) return "";
 
@@ -355,8 +360,8 @@ export function getAllPages(): any[] {
 export function getPage(slug: string): any | null {
   const data = readJson<any>(path.join(CONTENT_DIR, "pages", `${slug}.json`));
   if (!data) return null;
-  return { 
-    ...data, 
+  return {
+    ...data,
     title: decode(data.title),
     content: data.content ? parseShortcodes(data.content) : ""
   };
@@ -388,11 +393,11 @@ export function logHistoryEvent(user: string, action: string, details: string, i
       icon,
     };
     events.unshift(newEvent);
-    
+
     if (!fs.existsSync(CONTENT_DIR)) {
       fs.mkdirSync(CONTENT_DIR, { recursive: true });
     }
-    
+
     fs.writeFileSync(
       path.join(CONTENT_DIR, "history.json"),
       JSON.stringify(events, null, 2),
@@ -485,18 +490,18 @@ export function saveBlogArticles(articles: BlogPost[]): void {
 export function getBlogCategories(): BlogCategory[] {
   const data = readJson<BlogCategory[]>(path.join(CONTENT_DIR, "posts", "categories.json"));
   const categories = data || [];
-  
+
   // Calculate counts dynamically from the blog posts
   const posts = getBlogArticles();
   const catCountMap = new Map<string, number>();
   for (const p of posts) {
     catCountMap.set(p.tag, (catCountMap.get(p.tag) || 0) + 1);
   }
-  
+
   for (const c of categories) {
     c.count = catCountMap.get(c.name) || 0;
   }
-  
+
   return categories;
 }
 
@@ -544,9 +549,9 @@ export function decrementProductStock(productIdentifier: string | number, qtyToD
 
     const indexProducts = readJson<ProductSummary[]>(indexFilePath) || [];
 
-    const pIdx = indexProducts.findIndex((p: any) => 
-      String(p.id) === String(productIdentifier) || 
-      String(p.slug) === String(productIdentifier) || 
+    const pIdx = indexProducts.findIndex((p: any) =>
+      String(p.id) === String(productIdentifier) ||
+      String(p.slug) === String(productIdentifier) ||
       (p.sku && String(p.sku).toLowerCase() === String(productIdentifier).toLowerCase())
     );
     if (pIdx === -1) return false;
@@ -563,7 +568,7 @@ export function decrementProductStock(productIdentifier: string | number, qtyToD
     // Determine if stock management is enabled.
     // If detail exists, its manageStock/lowStockRemaining is the source of truth.
     // Otherwise, fallback to product summary values.
-    const isStockManaged = detail 
+    const isStockManaged = detail
       ? (detail.manageStock !== false && detail.lowStockRemaining !== null && detail.lowStockRemaining !== undefined)
       : (productSummary.manageStock !== false && productSummary.lowStockRemaining !== null && productSummary.lowStockRemaining !== undefined);
 
@@ -571,7 +576,7 @@ export function decrementProductStock(productIdentifier: string | number, qtyToD
       return false;
     }
 
-    const currentQty = detail 
+    const currentQty = detail
       ? (typeof detail.lowStockRemaining === "number" ? detail.lowStockRemaining : 0)
       : (typeof productSummary.lowStockRemaining === "number" ? productSummary.lowStockRemaining : 0);
 
@@ -584,16 +589,16 @@ export function decrementProductStock(productIdentifier: string | number, qtyToD
       detail.lowStockRemaining = newQty;
       detail.inStock = newInStock;
       detail.stockStatus = newStockStatus;
-      
+
       try {
         fs.writeFileSync(detailFilePath, JSON.stringify(detail, null, 2), "utf-8");
-        
+
         try {
           const { upsertProductToSupabase } = require("./supabase.server");
-          upsertProductToSupabase(detail).catch((err: any) => 
+          upsertProductToSupabase(detail).catch((err: any) =>
             console.error("Error syncing stock decrement to Supabase:", err)
           );
-        } catch (e) {}
+        } catch (e) { }
       } catch (e) {
         console.error(`Error writing detail file for ${slug}:`, e);
       }
@@ -620,7 +625,7 @@ export async function updateOrderSafely(
   updateFields: { status?: any; paymentGatewayData?: Record<string, any> }
 ) {
   const { db } = await import("./db.server");
-  
+
   const existing = await db.order.findUnique({ where: { id: orderId } });
   if (!existing) throw new Error("Order not found");
 
@@ -659,7 +664,7 @@ export async function decrementOrderStockIfNeeded(order: any): Promise<boolean> 
   if (processingOrdersInMemory.has(order.id)) return false;
 
   processingOrdersInMemory.add(order.id);
-  
+
   try {
     const { db } = await import("./db.server");
     const latestOrder = await db.order.findUnique({ where: { id: order.id } });
@@ -676,7 +681,7 @@ export async function decrementOrderStockIfNeeded(order: any): Promise<boolean> 
         pgData = {};
       }
     }
-    
+
     if (pgData.stockDecremented === true || pgData.stockDecremented === "true") {
       decrementedOrdersInMemory.add(order.id);
       processingOrdersInMemory.delete(order.id);
@@ -773,7 +778,7 @@ export function performSiteSearch(q: string) {
   const products = getAllProducts(false); // exclude trash
   for (const product of products) {
     let match = false;
-    
+
     // Search name, sku, slug
     if (
       isSearchMatch(product.name, query) ||
@@ -826,7 +831,7 @@ export function performSiteSearch(q: string) {
   const posts = getBlogArticles();
   for (const post of posts) {
     if (post.status !== "publish") continue;
-    
+
     let match = false;
     if (
       isSearchMatch(post.title, query) ||
@@ -854,7 +859,7 @@ export function performSiteSearch(q: string) {
   for (const page of pages) {
     const fullPage = getPage(page.slug);
     const content = fullPage ? fullPage.content : "";
-    
+
     let match = false;
     if (
       isSearchMatch(page.title, query) ||

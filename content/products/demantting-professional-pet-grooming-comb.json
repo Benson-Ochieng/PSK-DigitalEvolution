@@ -3,8 +3,8 @@
   "name": "Dematting Professional Petgooming Comb",
   "slug": "demantting-professional-pet-grooming-comb",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 1700,
+  "regularPrice": 1700,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,17 +16,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Dematting Comb Pet Grooming Rake Tool Instructions: 1. Examine the pet coat and look for tangles. 2. Gently break out the matt and brush it out with tool. Always comb in the directions of hair growth. 3. Start with the tooth-thin side for stubborn tangles and matts. 4. Finish with the tooth-tight side for thinning and deshedding to reach the best grooming result. 5. Perfectly suits for dogs, cats, rabbits, horses and all hairy pets. Warning 1. Please keep the grooming tool away from fire and high temperature. 2. pleases keep the grooming tool out of your pet's or child's reach. 3. Please keep the grooming tool clean after use. Always keep it dry after washing. 4. Please be careful when using the grooming tool and avoid improper use which could cause injuries to your pet.",
-  "images": [],
+  "images": [
+    {
+      "id": 38265,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/07/dematting-comb.jpg",
+      "alt": "Dematting Professional Petgooming Comb",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=38265",
+  "addToCartUrl": "https://petstore.co.ke/product/demantting-professional-pet-grooming-comb/?add-to-cart=38265",
+  "shortDescription": "Dematting Comb Pet Grooming Rake Tool Instructions: 1. Examine the pet coat and look for tangles. 2. Gently break out the matt and brush it out with t",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/07/dematting-comb.jpg",
+  "sku": "PSK-38265",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/07/dematting-comb.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

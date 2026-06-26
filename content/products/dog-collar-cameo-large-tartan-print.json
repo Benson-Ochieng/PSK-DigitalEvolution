@@ -3,8 +3,8 @@
   "name": "Dog Collar Cameo Large Tartan Print",
   "slug": "dog-collar-cameo-large-tartan-print",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 232,
+  "regularPrice": 232,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Medium / Large Dog Tartan Print Collar",
-  "images": [],
+  "images": [
+    {
+      "id": 18065,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/DCCL1TARTAN.jpg",
+      "alt": "Dog Collar Cameo Large Tartan Print",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=18065",
+  "addToCartUrl": "https://petstore.co.ke/product/dog-collar-cameo-large-tartan-print/?add-to-cart=18065",
+  "shortDescription": "Medium / Large Dog Tartan Print Collar",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/DCCL1TARTAN.jpg",
+  "sku": "PSK-18065",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/DCCL1TARTAN.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

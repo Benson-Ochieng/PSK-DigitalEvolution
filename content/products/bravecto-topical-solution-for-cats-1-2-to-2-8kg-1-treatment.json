@@ -3,8 +3,8 @@
   "name": "Bravecto Topical Solution for Cats - 1.2 to 2.8kg, 1 Treatment",
   "slug": "bravecto-topical-solution-for-cats-1-2-to-2-8kg-1-treatment",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 3565,
+  "regularPrice": 3565,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,17 +16,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Bravecto ? [Fluralaner] for Cats is a topical solution given to your cat every 3 months (12 weeks) to terminate adult fleas, help treat and prevent flea, tick and ear mite infestations. This topical medication is designed with an easy Twist'N'Use? applicator that makes administering easy for you and your cat. Possible Side Effects: Incidences of vomiting, itching, diarrhoea, hair loss, decreased appetite, lethargy and scabs / ulcerated lesions have been reported. Precautions: For topical use only. Avoid oral ingestion. Bravecto has not been shown to be effective for 12-weeks duration in kittens less than 6 months of age or less than 1.2kg. The safety of BRAVECTO has not been established in breeding, pregnant and lactating cats. Neurologic adverse reactions have been reported in cats receiving isoxazoline class drugs, even in cats without a history of neurologic disorders. Use with caution in cats with a history of neurologic disorders. Active Ingredient: 112.5 mg Fluralaner. Fluralaner works on the nervous system of fleas and ticks, causing hyperexcitation and death. Recommended Dosage: Bravecto should be administered topically as a single dose every 12 weeks according to the Dosage Schedule below to provide a minimum dose of 18.2 mg/lb (40 mg/kg) body weight. Storage: Do not store above 25?C. Store in original package in order to protect from moisture. Open the pouch only immediately prior to use. How to Administer Bravecto Topical Solution: Step 1: Immediately before use, open the pouch and remove the tube. Hold the tube at the crimped end with the cap in an upright position (tip up). The cap should be rotated clockwise or counterclockwise one full turn. The cap is designed to stay on the tube for dosing and should not be removed. The tube is open and ready for application when a breaking of the seal is felt. Step 2: The animal should be standing or lying with its back horizontal during application. Part the fur at the administration site. Place the tube tip vertically against the skin between the shoulder blades of the animal. Step 3: Squeeze the tube and gently apply the product in one or more spots starting between the shoulder blades and continuing along the animal?s back. Avoid applying an excessive amount of solution in any one spot which may cause some solution to run or drip off the animal. Bathing or water immersion after administration will not reduce the effectiveness of this product against fleas and Ixodes ricinus ticks.",
-  "images": [],
+  "images": [
+    {
+      "id": 4120,
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/11/bravecto-small-cat-1.2-2.8kg-Green-min.png",
+      "alt": "Bravecto Topical Solution for Cats - 1.2 to 2.8kg, 1 Treatment",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Bravecto",
+      "slug": "bravecto"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=4120",
+  "addToCartUrl": "https://petstore.co.ke/product/bravecto-topical-solution-for-cats-1-2-to-2-8kg-1-treatment/?add-to-cart=4120",
+  "shortDescription": "Bravecto ? [Fluralaner] for Cats is a topical solution given to your cat every 3 months (12 weeks) to terminate adult fleas, help treat and prevent fl",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/11/bravecto-small-cat-1.2-2.8kg-Green-min.png",
+  "sku": "PSK-4120",
+  "brand": "Bravecto",
+  "weight_kg": 0.1,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/11/bravecto-small-cat-1.2-2.8kg-Green-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -3,8 +3,8 @@
   "name": "Proline Adult Cat Food Canned - Salmon & Trout Chunks in Gravy415g",
   "slug": "proline-adult-cat-food-canned-salmon-trout-chunks-in-gravy-0-415kg",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 249,
+  "regularPrice": 249,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -36,17 +36,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Proline Adult Cat Food Canned - Salmon & Trout Chunks in Gravy , . This all-natural wet food features tender chunks of salmon and trout, rich in high-quality fish proteins and omega fatty acids, gently cooked in a delicious gravy your cat won’t resist. Developed by leading feline nutritionists, it provides a complete and balanced diet tailored to support the health and vitality of adult cats. NUTRIENT COMPONENTS Protein ....................... 7.5% Fat .......................... 4.5% Crude Ash.......................... 2% Crude Cellulose (Fiber) .........0.3% Moisture .......................... 82% INGREDIENTS: Meat and animal by-products, cereals, fish and fish by-products (4% salmon, 4% trout), minerals, vegetable by-products, sugar. MINERALS: Taurine, Zinc, Manganese, Copper. VITAMINS: Vit. D3, Vit. E. These essential nutrients support: . Strong immunity and resistance to infections. . Healthy bones and teeth. . Optimal organ function and energy metabolism. Why Choose Salmon & Trout? Rich in Fish Protein (7.5%) – supports lean muscles and daily energy needs. Hydration Support (82% Moisture) – helps maintain urinary tract health and proper hydration. Omega-3 & Omega-6 Fatty Acids – promotes a healthy skin barrier and silky-soft coat. Taurine Fortified – essential for heart health, strong eyesight, and brain function. Irresistible Taste – perfect even for finicky eaters who prefer fish flavors. Feeding Guide For an average adult cat (4kg): serve approximately 2-3 cans daily , divided into multiple meals. Adjust based on activity level, age, and health needs. Always provide fresh drinking water.",
-  "images": [],
+  "images": [
+    {
+      "id": 12117,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/03/Untitled-design-85.png",
+      "alt": "Proline Adult Cat Food Canned - Salmon & Trout Chunks in Gravy415g",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Proline",
+      "slug": "proline"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/product/proline-adult-cat-food-canned-salmon-trout-chunks-in-gravy-0-415kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/proline-adult-cat-food-canned-salmon-trout-chunks-in-gravy-0-415kg/?add-to-cart=12117",
+  "shortDescription": "Proline Adult Cat Food Canned - Salmon & Trout Chunks in Gravy , . This all-natural wet food features tender chunks of salmon and trout, rich in high-",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/03/Untitled-design-85.png",
+  "sku": "PSK-12117",
+  "brand": "Proline",
+  "weight_kg": 0.42,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/03/Untitled-design-85.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

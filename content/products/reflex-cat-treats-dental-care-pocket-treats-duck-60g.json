@@ -3,8 +3,8 @@
   "name": "Reflex Cat Treats - Dental Care Pocket Treats, Duck 60g",
   "slug": "reflex-cat-treats-dental-care-pocket-treats-duck-60g",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 0,
+  "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,17 +16,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Reflex Cat Treats - Dental Care Pocket Treats, Duck. Perfectly sized cat biscuits for training and for rewarding good behaviour. Made with the highest quality ingredients and bursting with flavour. INGREDIENTS: Meat and animal derivatives (4% duck), cereals, oils and fats, derivatives of vegetable origin, milk and milk derivatives, minerals. NUTRIENT COMPONENTS Crude Protein (%) - 21 Crude Fat (%) - 30 Crude Ash (%) - 6 Crude Fiber (%) - 1 Vitamin A - 1,400 IU Vitamin D3 - 210 IU Vitamin E - 79 mg FEEDING RECOMMENDATIONS: Feed as a snack or a treat between the meals. For an adult cat (ca. 4 kg) 6 to 10 pieces per day. This indications are guidelines. Always supply a sufficient amount of fresh drinking water. Once opened keep the package tightly closed. Store in a cool and dry place.",
-  "images": [],
+  "images": [
+    {
+      "id": 12674,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Cat-Treats-Dental-Care-Pocket-Treats-Duck-60g-min.png",
+      "alt": "Reflex Cat Treats - Dental Care Pocket Treats, Duck 60g",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=12674",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-cat-treats-dental-care-pocket-treats-duck-60g/?add-to-cart=12674",
+  "shortDescription": "Reflex Cat Treats - Dental Care Pocket Treats, Duck. Perfectly sized cat biscuits for training and for rewarding good behaviour. Made with the highest",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Cat-Treats-Dental-Care-Pocket-Treats-Duck-60g-min.png",
+  "sku": "PSK-12674",
+  "brand": "Reflex",
+  "weight_kg": 0.06,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Cat-Treats-Dental-Care-Pocket-Treats-Duck-60g-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

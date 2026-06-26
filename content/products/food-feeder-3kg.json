@@ -3,8 +3,8 @@
   "name": "Generic Food Feeder 3kg",
   "slug": "food-feeder-3kg",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 2100,
+  "regularPrice": 2100,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -36,17 +36,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Automatic Pet Food Feeder Large opening at the top, easy to add food: No need to remove the feeder, directly add on the top, easy to use. Rest assured material: PET, PP plastic, safe to use. Gravity replenishment method: using gravity replenishment, automatic replenishment all day long, no longer have to worry about pets without food.",
-  "images": [],
+  "images": [
+    {
+      "id": 38181,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/07/pet-feeder-3kg.jpg",
+      "alt": "Generic Food Feeder 3kg",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=38181",
+  "addToCartUrl": "https://petstore.co.ke/product/food-feeder-3kg/?add-to-cart=38181",
+  "shortDescription": "Automatic Pet Food Feeder Large opening at the top, easy to add food: No need to remove the feeder, directly add on the top, easy to use. Rest assured",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/07/pet-feeder-3kg.jpg",
+  "sku": "PSK-38181",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/07/pet-feeder-3kg.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

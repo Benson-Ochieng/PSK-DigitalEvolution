@@ -3,8 +3,8 @@
   "name": "Dog Fest Meat Medallions With Ostrich (90G)",
   "slug": "dog-fest-meat-medallions-with-ostrich-90g",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 290,
+  "regularPrice": 290,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,17 +16,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Let your dogs try something new and exotic, they will love this fantastic taste. Tender yet chewy, these medallions with ostrich meat will be highly appreciated. Composition: duck, ostrich, vegetable by-products, minerals Analytical constituents, %: crude protein 28, crude fat 11, crude fiber 1, crude ash 5, moisture 2",
-  "images": [],
+  "images": [
+    {
+      "id": 27265,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/DF027.jpg",
+      "alt": "Dog Fest Meat Medallions With Ostrich (90G)",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27265",
+  "addToCartUrl": "https://petstore.co.ke/product/dog-fest-meat-medallions-with-ostrich-90g/?add-to-cart=27265",
+  "shortDescription": "Let your dogs try something new and exotic, they will love this fantastic taste. Tender yet chewy, these medallions with ostrich meat will be highly a",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/DF027.jpg",
+  "sku": "PSK-27265",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/DF027.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

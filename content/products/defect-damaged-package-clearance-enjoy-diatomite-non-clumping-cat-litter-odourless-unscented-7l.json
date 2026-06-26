@@ -3,8 +3,8 @@
   "name": "DEFECT/DAMAGED PACKAGE CLEARANCE: Enjoy Diatomite Non-Clumping Cat Litter - Odourless (Unscented) 7L",
   "slug": "defect-damaged-package-clearance-enjoy-diatomite-non-clumping-cat-litter-odourless-unscented-7l",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 0,
+  "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -36,17 +36,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Enjoy Diatomite Non-Clumping Odourless (Unscented) Cat Litter , 100% natural and environmentally friendly diatomite (diatomaceous earth) cat litter. Diatomite is a natural sedimentary mineral with absorbs, locks and completely seals liquids and odours. It's made from crushed fossil of marine life called diatoms. Absorbs 1.5 times its weight in moisture 50% more absorbent than traditional bentonite clay litter. Hygienic and healthy due to its mineral structure Made of high-quality diatomite Instructions for Use: Fill cat litter box with diatomite 7 - 10 cm in depth If bad odour reaches an uncomfortable level, empty the cat litter box entirely and clean cat litter box before refilling it with new cat litter.",
-  "images": [],
+  "images": [
+    {
+      "id": 37130,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/06/Enjoy-Diatomite-Cat-Litter-7L-1080x1080-min.png",
+      "alt": "DEFECT/DAMAGED PACKAGE CLEARANCE: Enjoy Diatomite Non-Clumping Cat Litter - Odourless (Unscented) 7L",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=37130",
+  "addToCartUrl": "https://petstore.co.ke/product/defect-damaged-package-clearance-enjoy-diatomite-non-clumping-cat-litter-odourless-unscented-7l/?add-to-cart=37130",
+  "shortDescription": "Enjoy Diatomite Non-Clumping Odourless (Unscented) Cat Litter , 100% natural and environmentally friendly diatomite (diatomaceous earth) cat litter. D",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/06/Enjoy-Diatomite-Cat-Litter-7L-1080x1080-min.png",
+  "sku": "PSK-37130",
+  "brand": "PetStore Kenya",
+  "weight_kg": 6,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/06/Enjoy-Diatomite-Cat-Litter-7L-1080x1080-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

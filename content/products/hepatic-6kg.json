@@ -3,8 +3,8 @@
   "name": "Royal Canin Hepatic 6kg",
   "slug": "hepatic-6kg",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 11200,
+  "regularPrice": 11200,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "ROYAL CANIN? Hepatic is a scientifically formulated diet for the nutritional management of liver disease in dogs. Recommended in cases of: Liver disease, Chronic hepatitis, Portosystemic shunt, Hepatic encephalopathy, liver failure, copper metabolism disorders. Not recommended in case of: Pregnancy, lactation and growth, pancreatitis, acute hepatitis without hepatic encephalopathyor or history of pancreatitis and hyperlipidaemia. This diet is complete and balanced and can be fed long-term. A full health check should be performed by a veterinarian every 6 months Composition: Rice, maize, soya protein isolate, animal fats, beet pulp, hydrolysed poultry liver, minerals, soya oil, vegetable fibres, fish oil, fructo-oligosaccharides, marigold extract (source of lutein). Source of proteins: soya protein isolate, hydrolysed poultry liver. Additives (per kg): Nutritional additives: Vitamin A: 18500 IU, Vitamin D3: 1200 IU, Iron: 122 mg, Iodine: 5.9 mg, Manganese: 56 mg, Zinc: 153 mg, Selenium: 0.4 mg - Preservatives - Antioxidants. Analytical constituants: Protein: 16.0% - Fat content: 16.0% - Crude ash: 4.7% - Crude fibres: 1.9% - Essential fatty acids: 3.86% - EPA/DHA: 0.2% - Sodium: 0.2% - Total Copper: 3 mg/kg. Metabolisable energy: 390.9 kcal/ 100g.",
-  "images": [],
+  "images": [
+    {
+      "id": 23668,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-VHND-021.jpg",
+      "alt": "Royal Canin Hepatic 6kg",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=23668",
+  "addToCartUrl": "https://petstore.co.ke/product/hepatic-6kg/?add-to-cart=23668",
+  "shortDescription": "ROYAL CANIN? Hepatic is a scientifically formulated diet for the nutritional management of liver disease in dogs. Recommended in cases of: Liver disea",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-VHND-021.jpg",
+  "sku": "PSK-23668",
+  "brand": "Royal Canin",
+  "weight_kg": 6,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-VHND-021.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -3,8 +3,8 @@
   "name": "Reflex Bentonite Cat Litter - Active Carbon ganules 6L",
   "slug": "reflex-bentonite-cat-litter-active-carbon-granules-6l-2",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 1940,
+  "regularPrice": 1940,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Reflex Clumping Cat Litter with Active Carbon Granules blocks ammonia in cat urine and feces and reduces bad odours in the environment with the help of \"natural activated carbon\" particles added to the product formulation. Through high liquid absorption capability and compact granule size, it forms ideal lumps, thus allowing your cat?s litter to be cleaned easily and the remaining litter to stay clean and be used for a long time.",
-  "images": [],
+  "images": [
+    {
+      "id": 23880,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/12/Reflex-Active-Carbons-01.jpg",
+      "alt": "Reflex Bentonite Cat Litter - Active Carbon ganules 6L",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=23880",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-bentonite-cat-litter-active-carbon-granules-6l-2/?add-to-cart=23880",
+  "shortDescription": "Reflex Clumping Cat Litter with Active Carbon Granules blocks ammonia in cat urine and feces and reduces bad odours in the environment with the help o",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Reflex-Active-Carbons-01.jpg",
+  "sku": "PSK-23880",
+  "brand": "Reflex",
+  "weight_kg": 6,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/12/Reflex-Active-Carbons-01.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

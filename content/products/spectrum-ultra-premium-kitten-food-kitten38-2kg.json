@@ -3,8 +3,8 @@
   "name": "Spectrum Ultra Premium Kitten Food - Kitten38 2kg",
   "slug": "spectrum-ultra-premium-kitten-food-kitten38-2kg",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 2426,
+  "regularPrice": 2426,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,17 +16,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Spectrum Kitten38 , is a specially formulated complete and balanced ultra-premium food to meet the nutritional requirements of kittens from 2 to 12 months. STRESS CONTROL: Kitten38 is powered by the inclusion of titrated plant extracts to counter increased post-weaning oxidative stress. IMMUNE CONTROL: Kitten38 contains astaxanthin from antarctic qrill oil to boost immune function and optimize natural defenses. DIGESTIVE SECURITY: Kitten38 contains Fructo-oligosaccharrides to stabilize the intestinal flora, promoting digestive security. HEALTHY GROWTH: Kitten38 kibble have a multilayer coating of liquid and solids to avoid overeating and reducing the risk of obesity into adulthood. &nbsp; SYNOX 3D: a blend of natural, standardised GMO free - titrated plant extracts (Rosemary, grape seed, curcuma, citrus and cloves) clinically proven in cats to counter free radicals induced by oxidative cell damage . Free radicals are essential for life. However, ageing is linked to an increased production of free radicals and a decreased ability to counter their negative effects on health and wellbeing. SYNOX 3D limits the production of malondialdehyde, one of the main toxic metabolites of oxidative stress, protecting cell membrane, mitochondria and genetic material of each individual cell. The unique composition of SYNOX 3D is the result of a screening process on 134 plant extracts, combined with trials in laboratory conditions and a successful clinical trial run in pets. Potential health benefits include increased resistance against oxidative stress, improved life-span and immune stimulation. Qrill: Antarctic qrill is a breakthrough ingredient providing a bioavailable matrix of proteins, omega-3 phospholipids and astaxanthin. Qrill or Euphausia superba phospholipids have been clinically proven to promote brain development, skin health, active joints and body composition. Fructo-oligosaccharides (FOS): stimulate growth and metabolism of beneficial bacteria for the intestine of cats. Ingredients: Dehydrated chicken protein, dehydrated fish protien, chicken fat, rice, maize, whey powder, hydrolysed bagasse fibre, dried antarctic krill(euphausia superba), hydrolysed chicken liver, brewer's yeast, whole egg powder, yucca schidigera, L-carnitine, fructo-oligosaccharides (300ppm), rosmarinus sp. - curcuma sp. - vitis sp. - citrus sp.- eugenia sp. (300ppm). Additives: Vitamin A (E-672): 18000 IU/kg, Vitamin D3 (E-671): 1500 IU/kg, Vitamin E (3A700): 200 mg/kg, Vitamin C (E301): 200 mg/kg, Taurin: 1500 mg, Iron (E1): 320 mg/kg, Iodine (E2): 1.5 mg/kg, Copper (E4): 45 mg/kg, Manganese (E5): 20 mg/kg, Zinc (E6): 180 mg/kg, Selenium (E8): 0.9 mg/kg, Preservatives - Antioxidants. NUTRIENT COMPONENTS Protein ....................................32% Fat .................................................22% Cellulose (Fiber) ..................... 2%",
-  "images": [],
+  "images": [
+    {
+      "id": 40859,
+      "src": "https://petstore.co.ke/wp-content/uploads/2017/11/Untitled-design-20-e1712569060670.png",
+      "alt": "Spectrum Ultra Premium Kitten Food - Kitten38 2kg",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Spectrum",
+      "slug": "spectrum"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=40859",
+  "addToCartUrl": "https://petstore.co.ke/product/spectrum-ultra-premium-kitten-food-kitten38-2kg/?add-to-cart=40859",
+  "shortDescription": "Spectrum Kitten38 , is a specially formulated complete and balanced ultra-premium food to meet the nutritional requirements of kittens from 2 to 12 mo",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2017/11/Untitled-design-20-e1712569060670.png",
+  "sku": "PSK-40859",
+  "brand": "Spectrum",
+  "weight_kg": 2,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2017/11/Untitled-design-20-e1712569060670.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

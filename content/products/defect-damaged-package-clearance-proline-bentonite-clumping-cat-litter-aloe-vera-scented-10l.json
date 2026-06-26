@@ -3,8 +3,8 @@
   "name": "DEFECT/DAMAGED PACKAGE CLEARANCE: Proline Bentonite Clumping Cat Litter Aloe Vera Scented 10l",
   "slug": "defect-damaged-package-clearance-proline-bentonite-clumping-cat-litter-aloe-vera-scented-10l",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 1457,
+  "regularPrice": 1457,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,17 +16,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Proline Bentonite Clumping Aloe vera Scented Cat Litter , 100% natural bentonite cat litter instantly clumps. Excellent pelletising, instantly lumps Neutralises odour with fresh Aloe Vera scent Non-toxic and 100% natural Thin grain shape Prevents bacterial growth Upon first use, we recommend adding new cat litter to the surface of the old cat litter for a few days.",
-  "images": [],
+  "images": [
+    {
+      "id": 39451,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/01/Untitled-design-6.png",
+      "alt": "DEFECT/DAMAGED PACKAGE CLEARANCE: Proline Bentonite Clumping Cat Litter Aloe Vera Scented 10l",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=39451",
+  "addToCartUrl": "https://petstore.co.ke/product/defect-damaged-package-clearance-proline-bentonite-clumping-cat-litter-aloe-vera-scented-10l/?add-to-cart=39451",
+  "shortDescription": "Proline Bentonite Clumping Aloe vera Scented Cat Litter , 100% natural bentonite cat litter instantly clumps. Excellent pelletising, instantly lumps N",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/01/Untitled-design-6.png",
+  "sku": "PSK-39451",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/01/Untitled-design-6.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

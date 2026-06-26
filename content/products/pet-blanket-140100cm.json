@@ -3,8 +3,8 @@
   "name": "Pet Blanket 140?100cm",
   "slug": "pet-blanket-140100cm",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 1000,
+  "regularPrice": 1000,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -21,17 +21,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Pet Blanket 60x70cm, 70x100cm, 100x140cm -Made of the soft and comfortable material, it is skin-friendly and safe for your pets. -With the exquisite craft, it is durable and easy to maintain. -Designed with the beautiful and funny claw printed patterns, and the colours are not easy to fade. To keep the pet warm and make them have a high-quality sleep.",
-  "images": [],
+  "images": [
+    {
+      "id": 38187,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/07/pet-blanket.jpg",
+      "alt": "Pet Blanket 140?100cm",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=38187",
+  "addToCartUrl": "https://petstore.co.ke/product/pet-blanket-140100cm/?add-to-cart=38187",
+  "shortDescription": "Pet Blanket 60x70cm, 70x100cm, 100x140cm -Made of the soft and comfortable material, it is skin-friendly and safe for your pets. -With the exquisite c",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/07/pet-blanket.jpg",
+  "sku": "PSK-38187",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/07/pet-blanket.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

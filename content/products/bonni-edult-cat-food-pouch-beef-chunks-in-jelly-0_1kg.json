@@ -3,8 +3,8 @@
   "name": "Bonnie Adult Cat Food Pouch - Beef Chunks in Gravy 85g",
   "slug": "bonni-edult-cat-food-pouch-beef-chunks-in-jelly-0_1kg",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 146,
+  "regularPrice": 146,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -36,17 +36,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Bonnie Adult Cat Food Pouch - Beef Chunks in Jelly , fully-balanced, beef protein-containing cat food carefully formulated by cat nutritionists to meet the nutritional requirements of all adult breeds. NUTRIENT COMPONENTS Crude Protein (%) - 8.5 Crude Oils & Fats (%) - 4,5 Crude Fiber (%) - 0.3 Moisture (%) - 83 Crude Ash (%) - 2.5 Vitamin A (Min) - 15 mg/kg Vitamin D3 (Min) - 250 IU/kg Copper - 1 mg/kg Manganese - 1 mg/kg Zinc - 15 mg/kg Biotin - 20g/kg Taurine - 445 mg/kg INGREDIENTS: Meat & Animal Derivatives (Beef 5% min.), minerals, inulin (0.1%).",
-  "images": [],
+  "images": [
+    {
+      "id": 3406,
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/09/Untitled-design-23.png",
+      "alt": "Bonnie Adult Cat Food Pouch - Beef Chunks in Gravy 85g",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=3406",
+  "addToCartUrl": "https://petstore.co.ke/product/bonni-edult-cat-food-pouch-beef-chunks-in-jelly-0_1kg/?add-to-cart=3406",
+  "shortDescription": "Bonnie Adult Cat Food Pouch - Beef Chunks in Jelly , fully-balanced, beef protein-containing cat food carefully formulated by cat nutritionists to mee",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/09/Untitled-design-23.png",
+  "sku": "PSK-3406",
+  "brand": "Bonnie",
+  "weight_kg": 0.1,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/09/Untitled-design-23.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

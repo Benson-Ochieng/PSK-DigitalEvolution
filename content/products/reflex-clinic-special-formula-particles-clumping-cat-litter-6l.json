@@ -3,8 +3,8 @@
   "name": "Reflex Clinic - Special Formula Particles Clumping Cat Litter 6L",
   "slug": "reflex-clinic-special-formula-particles-clumping-cat-litter-6l",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 752,
+  "regularPrice": 752,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Biological organisms, when in contact with cat urine or feces, can invite many diseases for both our cats and us animal lovers. Thanks to the \"specially formulated particles\" added to the product, Reflex Clinic Cat Litter helps to prevent biological organism-based diseases that may occur with the urine and feces of cats that are fed and sheltered in home and indoor environments.",
-  "images": [],
+  "images": [
+    {
+      "id": 40852,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/03/clinic-6L.png",
+      "alt": "Reflex Clinic - Special Formula Particles Clumping Cat Litter 6L",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=40852",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-clinic-special-formula-particles-clumping-cat-litter-6l/?add-to-cart=40852",
+  "shortDescription": "Biological organisms, when in contact with cat urine or feces, can invite many diseases for both our cats and us animal lovers. Thanks to the \"special",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/03/clinic-6L.png",
+  "sku": "PSK-40852",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/03/clinic-6L.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

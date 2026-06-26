@@ -3,8 +3,8 @@
   "name": "Royal Canin Canine Satiety 6kg",
   "slug": "royal-canin-canine-satiety-6kg",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 12000,
+  "regularPrice": 12000,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Powdered cellulose, chicken by-product meal, corn, wheat gluten, wheat, corn gluten meal, natural flavours, dried plain beet pulp, chicken fat, fish oil, pea fiber, potassium chloride, calcium carbonate, vegetable oil, psyllium seed husk, fructooligosaccharides, sodium tripolyphosphate, choline chloride, vitamins [DL-alpha tocopherol acetate (source of vitamin E), L-ascorbyl-2-polyphosphate (source of vitamin C), niacin supplement, biotin, riboflavin supplement, D-calcium pantothenate, thiamine mononitrate (vitamin B1), pyridoxine hydrochloride (vitamin B6), vitamin A acetate, vitamin B12 supplement, folic acid, vitamin D3 supplement], glucosamine hydrochloride, taurine, DL-methionine, L-lysine, salt, marigold extract ( Tagetes erecta ?L.), magnesium oxide, trace minerals [zinc proteinate, zinc oxide, manganese proteinate, ferrous sulfate, manganous oxide, copper sulfate, calcium iodate, sodium selenite, copper proteinate], L-carnitine, chondroitin sulfate, rosemary extract, preserved with mixed tocopherols and citric acid. Calorie Content This diet contains 2887 kilocalories of metabolizable energy (ME) per kilogram or 214 kilocalories ME per cup on an as fed basis (calculated).",
-  "images": [],
+  "images": [
+    {
+      "id": 29512,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/07/Royal-Canin-Satiety.png",
+      "alt": "Royal Canin Canine Satiety 6kg",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=29512",
+  "addToCartUrl": "https://petstore.co.ke/product/royal-canin-canine-satiety-6kg/?add-to-cart=29512",
+  "shortDescription": "Powdered cellulose, chicken by-product meal, corn, wheat gluten, wheat, corn gluten meal, natural flavours, dried plain beet pulp, chicken fat, fish o",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/07/Royal-Canin-Satiety.png",
+  "sku": "PSK-29512",
+  "brand": "Royal Canin",
+  "weight_kg": 6,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/07/Royal-Canin-Satiety.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

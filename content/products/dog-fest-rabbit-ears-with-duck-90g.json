@@ -3,8 +3,8 @@
   "name": "Dog Fest Rabbit Ears With Duck 90G",
   "slug": "dog-fest-rabbit-ears-with-duck-90g",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 250,
+  "regularPrice": 250,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -26,17 +26,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Tender duck meat wrapped in crispy rabbit ears. This treat will let the dog enjoy both: a long chew and the mouth-watering taste of duck. Composition: duck, rabbit ear, vegetable by-products, minerals. Analytical constituents, %: crude protein 34, crude fat 3, crude fiber 0.2, crude ash 4.5, moisture 18.",
-  "images": [],
+  "images": [
+    {
+      "id": 27239,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/DF013.jpg",
+      "alt": "Dog Fest Rabbit Ears With Duck 90G",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27239",
+  "addToCartUrl": "https://petstore.co.ke/product/dog-fest-rabbit-ears-with-duck-90g/?add-to-cart=27239",
+  "shortDescription": "Tender duck meat wrapped in crispy rabbit ears. This treat will let the dog enjoy both: a long chew and the mouth-watering taste of duck. Composition:",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/DF013.jpg",
+  "sku": "PSK-27239",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/DF013.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

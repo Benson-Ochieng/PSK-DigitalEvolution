@@ -3,8 +3,8 @@
   "name": "Kong Dog Sport Ball",
   "slug": "petstore-kenya-kong-dog-toy",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 1050,
+  "regularPrice": 1050,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -41,17 +41,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "KONGSport Balls are better than a tennis ball. Made with extra-thick rubber walls, these toys are tough enough for serious games of fetch. Give them a throw and watch your dog go crazy for these rugged, bouncy balls. Tougher and safer than a tennis ball Extra bouncy for hardy games of fetch No squeaker",
-  "images": [],
+  "images": [
+    {
+      "id": 16342,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/11/Kong-Dog-Sport-Ball-Large-min.png",
+      "alt": "Kong Dog Sport Ball",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=16342",
+  "addToCartUrl": "https://petstore.co.ke/product/petstore-kenya-kong-dog-toy/?add-to-cart=16342",
+  "shortDescription": "KONGSport Balls are better than a tennis ball. Made with extra-thick rubber walls, these toys are tough enough for serious games of fetch. Give them a",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/11/Kong-Dog-Sport-Ball-Large-min.png",
+  "sku": "PSK-16342",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/11/Kong-Dog-Sport-Ball-Large-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

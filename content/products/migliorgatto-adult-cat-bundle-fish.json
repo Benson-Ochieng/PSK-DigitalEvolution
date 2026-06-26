@@ -3,8 +3,8 @@
   "name": "Migliorgatto Adult Cat Bundle-Fish",
   "slug": "migliorgatto-adult-cat-bundle-fish",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 0,
+  "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,17 +16,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "This Bundle Contains: 1pc Migliorgatto Adult cat Food Croquettes With Fish 400gr 4pcs Migliorgatto Adult cat Food Chuncks with Fish 405gr",
-  "images": [],
+  "images": [
+    {
+      "id": 37056,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/05/migliorgatto-cat-bundle-fish.png",
+      "alt": "Migliorgatto Adult Cat Bundle-Fish",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=37056",
+  "addToCartUrl": "https://petstore.co.ke/product/migliorgatto-adult-cat-bundle-fish/?add-to-cart=37056",
+  "shortDescription": "This Bundle Contains: 1pc Migliorgatto Adult cat Food Croquettes With Fish 400gr 4pcs Migliorgatto Adult cat Food Chuncks with Fish 405gr",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/05/migliorgatto-cat-bundle-fish.png",
+  "sku": "PSK-37056",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/05/migliorgatto-cat-bundle-fish.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

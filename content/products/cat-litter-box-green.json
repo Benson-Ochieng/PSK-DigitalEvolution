@@ -3,8 +3,8 @@
   "name": "Cat Litter Box - geen",
   "slug": "cat-litter-box-green",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 2320,
+  "regularPrice": 2320,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -41,17 +41,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "This Cat Litter Box combines beauty and functionality. It is open with raised sides to prevent cat litter falling over making it an easy-to-clean litter box.",
-  "images": [],
+  "images": [
+    {
+      "id": 24208,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/CLBGN.jpg",
+      "alt": "Cat Litter Box - geen",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=24208",
+  "addToCartUrl": "https://petstore.co.ke/product/cat-litter-box-green/?add-to-cart=24208",
+  "shortDescription": "This Cat Litter Box combines beauty and functionality. It is open with raised sides to prevent cat litter falling over making it an easy-to-clean litt",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/CLBGN.jpg",
+  "sku": "PSK-24208",
+  "brand": "PetStore Kenya",
+  "weight_kg": 1,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/CLBGN.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

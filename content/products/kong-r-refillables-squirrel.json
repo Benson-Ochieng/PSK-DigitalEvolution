@@ -3,8 +3,8 @@
   "name": "KONG Refillables Squirrel",
   "slug": "kong-r-refillables-squirrel",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 800,
+  "regularPrice": 800,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -41,17 +41,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "These soft and snuggly plush catnip toys have a reclosable pouch to hold fresh catnip securely in place. The toys include a generous amount of KONGs premium North American catnip in a reclosable vial. When the catnip scent starts to fade, simply add more fresh catnip for another round of fun! Catnip can be stored in the freezer to help keep it fresh. The toy is machine washable with the catnip removed. Refillable catnip toy Includes vial of KONGs premium North American catnip Irresistible scent; texture and shape",
-  "images": [],
+  "images": [
+    {
+      "id": 16547,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/12/KONG®-Refillables-Squirrel.jpg",
+      "alt": "KONG Refillables Squirrel",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=16547",
+  "addToCartUrl": "https://petstore.co.ke/product/kong-r-refillables-squirrel/?add-to-cart=16547",
+  "shortDescription": "These soft and snuggly plush catnip toys have a reclosable pouch to hold fresh catnip securely in place. The toys include a generous amount of KONGs p",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/12/KONG®-Refillables-Squirrel.jpg",
+  "sku": "PSK-16547",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/12/KONG®-Refillables-Squirrel.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

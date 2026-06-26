@@ -3,8 +3,8 @@
   "name": "Reflex Kitten Treats - Meaty Sticks, gain Free Turkey (3 Sticks x 3g) 9g",
   "slug": "reflex-kiten-treats-meaty-sticks-grain-free-turkey-3-sticks-x-3g-9g",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 135,
+  "regularPrice": 135,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,17 +16,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Reflex Kitten Treats - Meaty Sticks with Turkey are? grain-free and made from delicious real meat. These high-protein, low-fat stick treats promote healthy chewing. Reward good behaviour with these fun and delicious treats made with the highest quality ingredients and bursting with flavour. Pack of 3 sticks. INGREDIENTS: Meat and animal derivatives (93%, 30% from turkey), minerals. NUTRIENT COMPONENTS Crude Protein (%) - 36 Oil Content (%) - 23 Crude Ash (%) - 8.5 Crude Fiber (%) - 1.5 Moisture Content (%) 27 Vitamin D - 500 IU Vitamin E - 5 mg Taurine - 1000 mg FEEDING RECOMMENDATIONS: Appropriate for kitten 4 months and older. Feed ? - 1 stick per day (depending on size and activity). Always adjust your kitten's diet accordingly. This product does not replace kitten's daily food requirement. Use within one day of opening.",
-  "images": [],
+  "images": [
+    {
+      "id": 11313,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/02/Reflex-Kitten-Meaty-Stick-Strips-9g-min-1.png",
+      "alt": "Reflex Kitten Treats - Meaty Sticks, gain Free Turkey (3 Sticks x 3g) 9g",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=11313",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-kiten-treats-meaty-sticks-grain-free-turkey-3-sticks-x-3g-9g/?add-to-cart=11313",
+  "shortDescription": "Reflex Kitten Treats - Meaty Sticks with Turkey are? grain-free and made from delicious real meat. These high-protein, low-fat stick treats promote he",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/02/Reflex-Kitten-Meaty-Stick-Strips-9g-min-1.png",
+  "sku": "PSK-11313",
+  "brand": "Reflex",
+  "weight_kg": 0.01,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/02/Reflex-Kitten-Meaty-Stick-Strips-9g-min-1.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

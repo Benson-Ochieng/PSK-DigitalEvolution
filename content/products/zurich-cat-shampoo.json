@@ -3,8 +3,8 @@
   "name": "Zurich Flea & Tick - Cat Shampoo",
   "slug": "zurich-cat-shampoo",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 1160,
+  "regularPrice": 1160,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -26,17 +26,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Zurich Flea & Tick Cat Shampoo , pH balanced deep cleaning formulation for all skin and coat types (normal, dry, damaged, itchy, sensitive or irritated). Use regularly to enhance your cat's coat and discourage fleas and ticks. An excellent all-purpose cleansing and deodourising shampoo that is gentle enough to soothe and heal sensitive skin.",
-  "images": [],
+  "images": [
+    {
+      "id": 1819,
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/04/PetStore-Kenya-Zurich-Cat-Shampoo-1080x1080-min.png",
+      "alt": "Zurich Flea & Tick - Cat Shampoo",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=1819",
+  "addToCartUrl": "https://petstore.co.ke/product/zurich-cat-shampoo/?add-to-cart=1819",
+  "shortDescription": "Zurich Flea & Tick Cat Shampoo , pH balanced deep cleaning formulation for all skin and coat types (normal, dry, damaged, itchy, sensitive or irritate",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/04/PetStore-Kenya-Zurich-Cat-Shampoo-1080x1080-min.png",
+  "sku": "PSK-1819",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.5,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/04/PetStore-Kenya-Zurich-Cat-Shampoo-1080x1080-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

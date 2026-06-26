@@ -3,8 +3,8 @@
   "name": "Shooter Premium Spot On 1x0.67ml (Up To 10kg) For Dogs (1 Pip)",
   "slug": "shooter-premium-spot-on-1x0-67mlupto-10kg-for-dogs-1-pip",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 950,
+  "regularPrice": 950,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -26,17 +26,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Shooter Premium Spot-on for Dogs is used against fleas and lice. With environmental effect, it decreases the fleas in the pet?s environment. Route of administration: Topic use, spot on. Apply separating the hair, on the dorsal midline, behind the base of the neck (withers) in such way that the product goes into direct contact with the skin. In larger dogs, apply more than one spot along the dorsal midline, in order to maximize coverage and diffusion of the active principles. The product action protects against fleas for 30 days and against ticks for 60 days. These periods may vary according to the degree of infestation, propitious environmental circumstances, bath frequency, etc. Consult the veterinary for a correct use of the product. Precautions: Do not administer to puppies younger than 2 months old. It is not recommended to bathe the animal 48 hours before or after application. If product enters into contact with eyes or mouth membranes of the animals, rinse with water abundantly. Do not apply on areas where the skin has lesions or irritation.",
-  "images": [],
+  "images": [
+    {
+      "id": 24643,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/SPD1-1.jpg",
+      "alt": "Shooter Premium Spot On 1x0.67ml (Up To 10kg) For Dogs (1 Pip)",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=24643",
+  "addToCartUrl": "https://petstore.co.ke/product/shooter-premium-spot-on-1x0-67mlupto-10kg-for-dogs-1-pip/?add-to-cart=24643",
+  "shortDescription": "Shooter Premium Spot-on for Dogs is used against fleas and lice. With environmental effect, it decreases the fleas in the pet?s environment. Route of ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/SPD1-1.jpg",
+  "sku": "PSK-24643",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/SPD1-1.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

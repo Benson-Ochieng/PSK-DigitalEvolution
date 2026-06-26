@@ -3,8 +3,8 @@
   "name": "Generic Nail Clippers With File-Large",
   "slug": "generic-nail-clippers-with-file-s-12-5cm-7g",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 1000,
+  "regularPrice": 1000,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -21,17 +21,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Generic Nail clipper with file. Colour Blue and White. usage method: Grasp Pet’s Foot steady. Put the tip of pet nails into the knife and trim them slowly, several times. Avoid cutting blood lines into pet nails and causing bleeding. Avoid one-off large-area manicure of pet nails. When using nail clippers, please use safety shield to gradually trim, so as not to hurt toes by too much trimming. If the pet’s nails are too long, first trim a small part of the nail tips, every other week until the nails reach the appropriate length, leaving enough time for the pet to adapt. After trimming the nails, use the matching file to rub the nails until they are smooth. Note: please don’t cut nail of large range once. It is better to cut about 1/3 length of the nail once. And then use the nail file to polish it.",
-  "images": [],
+  "images": [
+    {
+      "id": 37404,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/NAIL-CLIPPER-WITH-FILE_blue.jpg",
+      "alt": "Generic Nail Clippers With File-Large",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=37404",
+  "addToCartUrl": "https://petstore.co.ke/product/generic-nail-clippers-with-file-s-12-5cm-7g/?add-to-cart=37404",
+  "shortDescription": "Generic Nail clipper with file. Colour Blue and White. usage method: Grasp Pet’s Foot steady. Put the tip of pet nails into the knife and trim them sl",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/NAIL-CLIPPER-WITH-FILE_blue.jpg",
+  "sku": "PSK-37404",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/NAIL-CLIPPER-WITH-FILE_blue.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

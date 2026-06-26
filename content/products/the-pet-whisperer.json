@@ -3,8 +3,8 @@
   "name": "The Pet Whisperer",
   "slug": "the-pet-whisperer",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 0,
+  "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -15,18 +15,51 @@
       "slug": "cat-litter"
     }
   ],
-  "inStock": false,
-  "averageRating": 0,
+  "inStock": true,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "",
-  "images": [],
+  "images": [
+    {
+      "id": 19593,
+      "src": "/images/psk_logo.png",
+      "alt": "The Pet Whisperer",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=19593",
+  "addToCartUrl": "https://petstore.co.ke/product/the-pet-whisperer/?add-to-cart=19593",
+  "shortDescription": "",
+  "thumbnail": "/images/psk_logo.png",
+  "sku": "PSK-19593",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "/images/psk_logo.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

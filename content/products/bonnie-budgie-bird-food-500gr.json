@@ -3,8 +3,8 @@
   "name": "Bonnie Budgie Bird Food 500g",
   "slug": "bonnie-budgie-bird-food-500gr",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 780,
+  "regularPrice": 780,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -26,17 +26,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Bonnie Budgie food is a mixture of specially selected grains and seeds loved by budgerigars. The wide variety of ingredients ensures that birds get all the required nutrients. Give your feathered friend the nutrition they deserve with Bonnie Budgie Bird Food! Specially formulated for budgerigars, this premium mix is packed with high-quality seeds and essential nutrients to promote vibrant health and happiness. INGREDIENTS: Yellow Millet, White Millet, Red Millet, Niger Seed, Canary Seed. Key Features: Balanced Nutrition : Crafted with a variety of seeds to provide a complete diet rich in proteins, vitamins, and minerals. Natural Ingredients : Made from carefully selected, natural ingredients without artificial additives, ensuring your budgie gets only the best. Freshness Guaranteed : Packed in a resealable bag to maintain freshness and flavor, keeping your bird excited for mealtime. Palatable & Wholesome : Delicious and appealing to even the pickiest eaters, encouraging healthy eating habits. Whether your budgie is a playful companion or a prized show bird, Bonnie Budgie Bird Food is the perfect choice for their daily diet. Treat your pet to the nourishment they need for a long, healthy life! Specifications: Weight : 500 grams Suitable for : Budgerigars and other small parrots FEEDING RECOMMENDATION: Per each bird about 10 gr (1 tablespoon) daily. Budgerigars eat during most of the time they are awake and should therefore have free access to the fresh feed in a clean bowl. Empty seed coats should be cleaned from the feeding bowl every day. Remember to ensure that birds have free access to the feed and fresh drinking water. Nourish your budgie’s spirit and health with Bonnie Budgie Bird Food today!",
-  "images": [],
+  "images": [
+    {
+      "id": 23863,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/12/Bonnie-Budgie-Food-500g-01.jpg",
+      "alt": "Bonnie Budgie Bird Food 500g",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=23863",
+  "addToCartUrl": "https://petstore.co.ke/product/bonnie-budgie-bird-food-500gr/?add-to-cart=23863",
+  "shortDescription": "Bonnie Budgie food is a mixture of specially selected grains and seeds loved by budgerigars. The wide variety of ingredients ensures that birds get al",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Bonnie-Budgie-Food-500g-01.jpg",
+  "sku": "PSK-23863",
+  "brand": "Bonnie",
+  "weight_kg": 0.5,
+  "animal_type": "bird",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/12/Bonnie-Budgie-Food-500g-01.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -3,8 +3,8 @@
   "name": "Bioline Cat Flea & Tick Spray 175ml",
   "slug": "bioline-cat-flea-tick-spray-175ml",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 800,
+  "regularPrice": 800,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,17 +16,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Flea & Tick Spray protecting cats health Adopts natural neem tree oil and active ingredients. Bioline flea and tick spray for cats effectively control the fleas and ticks on your pet?s coat using natural neem tree oil. It leaves your pet?s coat shiny and glossy. This spray has no toxic effects and hence prevents your pet?s coat from any damage. Its ease of application gives user comfort. Bioline flea and tick spray is safe to use in pets with no toxic effects when used in a recommended way. Bioline spray is not absorbed by the skin and stays on for longer duration to provide effective protection.",
-  "images": [],
+  "images": [
+    {
+      "id": 33092,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/11/BLCFT175-Bioline-Flea-Tick-Spray-175ml.jpg",
+      "alt": "Bioline Cat Flea & Tick Spray 175ml",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=33092",
+  "addToCartUrl": "https://petstore.co.ke/product/bioline-cat-flea-tick-spray-175ml/?add-to-cart=33092",
+  "shortDescription": "Flea & Tick Spray protecting cats health Adopts natural neem tree oil and active ingredients. Bioline flea and tick spray for cats effectively control",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/11/BLCFT175-Bioline-Flea-Tick-Spray-175ml.jpg",
+  "sku": "PSK-33092",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/11/BLCFT175-Bioline-Flea-Tick-Spray-175ml.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

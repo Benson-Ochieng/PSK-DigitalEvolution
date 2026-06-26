@@ -3,8 +3,8 @@
   "name": "Rogz Dog Utility Side Release Collar Medium - yellow",
   "slug": "rogz-dog-utility-side-release-collar-medium-yellow",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 1150,
+  "regularPrice": 1150,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Rogz Utility Side Release Reflective Dog Collar has a reflective yarn woven into the webbing for night time visibility so that everyone is aware that you & your dog are on an outing. Key Features: Reflective Stitching: Reflective yarn is woven into the webbing for nighttime visibility RogLoc: The Fort Knox of release buckles Low Load Technology: LLT technology reduces the load on the Titanium Plastic buckle through a cleverly positioned load ring Contoured Plastic Component: ROGZ rounded contoured plastic components ensure that every ROGZ collar fits snugly Die-Cast Ring: Custom designed die cast ring (no welding). Electroplated chrome for a tarnish free finish Size: Medium 16mm (Neck Size: 35 - 45cm)",
-  "images": [],
+  "images": [
+    {
+      "id": 17511,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/HB11-H-Snake-DayGlo.jpg",
+      "alt": "Rogz Dog Utility Side Release Collar Medium - yellow",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=17511",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-side-release-collar-medium-yellow/?add-to-cart=17511",
+  "shortDescription": "Rogz Utility Side Release Reflective Dog Collar has a reflective yarn woven into the webbing for night time visibility so that everyone is aware that ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/HB11-H-Snake-DayGlo.jpg",
+  "sku": "PSK-17511",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/HB11-H-Snake-DayGlo.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -3,8 +3,8 @@
   "name": "Mpets Hairball Prevention Shampoo For Cats 250Ml",
   "slug": "mpets-hairball-prevention-shampoo-for-cats-250ml",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 650,
+  "regularPrice": 650,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Mpets Hairball Prevention Shampoo For Cats",
-  "images": [],
+  "images": [
+    {
+      "id": 27396,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPHPSC.jpg",
+      "alt": "Mpets Hairball Prevention Shampoo For Cats 250Ml",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27396",
+  "addToCartUrl": "https://petstore.co.ke/product/mpets-hairball-prevention-shampoo-for-cats-250ml/?add-to-cart=27396",
+  "shortDescription": "Mpets Hairball Prevention Shampoo For Cats",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/MPHPSC.jpg",
+  "sku": "PSK-27396",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPHPSC.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -3,8 +3,8 @@
   "name": "Mpets Fish Cat Toy (8 X 4 X 7 cm)",
   "slug": "mpets-fish-cat-toy-8-x-4-x-7-cm",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 450,
+  "regularPrice": 450,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -26,17 +26,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Description M-PETS FISH - Fluorescent fabric Colors: yellow, green, blue & pink",
-  "images": [],
+  "images": [
+    {
+      "id": 27337,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPF.jpg",
+      "alt": "Mpets Fish Cat Toy (8 X 4 X 7 cm)",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27337",
+  "addToCartUrl": "https://petstore.co.ke/product/mpets-fish-cat-toy-8-x-4-x-7-cm/?add-to-cart=27337",
+  "shortDescription": "Description M-PETS FISH - Fluorescent fabric Colors: yellow, green, blue & pink",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/MPF.jpg",
+  "sku": "PSK-27337",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPF.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

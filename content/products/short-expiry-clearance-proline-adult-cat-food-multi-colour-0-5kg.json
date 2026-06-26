@@ -3,8 +3,8 @@
   "name": "SHORT EXPIRY-CLEARANCE: Proline Adult Cat Food Multi Colour 0.5kg",
   "slug": "short-expiry-clearance-proline-adult-cat-food-multi-colour-0-5kg",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 367,
+  "regularPrice": 367,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Fully balanced all natural cat food with chicken protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult cats.",
-  "images": [],
+  "images": [
+    {
+      "id": 37120,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/PACFMC0.5.jpg",
+      "alt": "SHORT EXPIRY-CLEARANCE: Proline Adult Cat Food Multi Colour 0.5kg",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Proline",
+      "slug": "proline"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=37120",
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-proline-adult-cat-food-multi-colour-0-5kg/?add-to-cart=37120",
+  "shortDescription": "Fully balanced all natural cat food with chicken protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/PACFMC0.5.jpg",
+  "sku": "PSK-37120",
+  "brand": "Proline",
+  "weight_kg": 0.5,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/PACFMC0.5.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

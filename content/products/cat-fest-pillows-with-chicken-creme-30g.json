@@ -3,8 +3,8 @@
   "name": "Cat Fest Pillows With Chicken Creme (30G)",
   "slug": "cat-fest-pillows-with-chicken-creme-30g",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 130,
+  "regularPrice": 130,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -26,17 +26,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Classic rich taste, high nutritional properties of real farm chicken meat ? what could be better for your beloved cat. Ingredients: chicken meat, plant products, minerals. Analytical components: crude protein 20%, fats 15%, crude fiber 2.5%, moisture 10%; energy value ? 193 kcal.",
-  "images": [],
+  "images": [
+    {
+      "id": 27025,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/CF003.jpg",
+      "alt": "Cat Fest Pillows With Chicken Creme (30G)",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27025",
+  "addToCartUrl": "https://petstore.co.ke/product/cat-fest-pillows-with-chicken-creme-30g/?add-to-cart=27025",
+  "shortDescription": "Classic rich taste, high nutritional properties of real farm chicken meat ? what could be better for your beloved cat. Ingredients: chicken meat, plan",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/CF003.jpg",
+  "sku": "PSK-27025",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/CF003.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

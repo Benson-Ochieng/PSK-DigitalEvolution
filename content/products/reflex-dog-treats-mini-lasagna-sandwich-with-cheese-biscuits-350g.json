@@ -3,8 +3,8 @@
   "name": "Reflex Dog Treats - Mini Lasagna Sandwich with Cheese Biscuits 350g",
   "slug": "reflex-dog-treats-mini-lasagna-sandwich-with-cheese-biscuits-350g",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 0,
+  "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Reflex Dog Treats - Mini Lasagna Sandwich with Cheese Biscuits are the perfect size dog biscuits for training and for rewarding good behaviour. Made with the highest quality ingredients and bursting with flavour. INGREDIENTS: Cereals, Meat & Animal By-Products, Vegetable Oils & Fats, Glucose (5.4%), Milk & Milk By-Products, Minerals, Vegetables. NUTRIENT COMPONENTS Crude Protein (%) - 10.4 Oil Content (%) - 7.2 Crude Ash (%) - 3.1 Crude Fiber (%) - 3.3 Sodium (%) - 0.7 FEEDING RECOMMENDATIONS: Treats may be given as an additional snack. This product does not replace full-dog food daily. Recommended quantity: max. 10 pieces per day. Individual daily requirement depends on other factors, e.g. age, breed and activity. Keep in a dry, cool place.",
-  "images": [],
+  "images": [
+    {
+      "id": 3720,
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/10/PetStore-Kenya-Reflex-Dog-Treats-Mini-Sandwiches-min.png",
+      "alt": "Reflex Dog Treats - Mini Lasagna Sandwich with Cheese Biscuits 350g",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=3720",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-dog-treats-mini-lasagna-sandwich-with-cheese-biscuits-350g/?add-to-cart=3720",
+  "shortDescription": "Reflex Dog Treats - Mini Lasagna Sandwich with Cheese Biscuits are the perfect size dog biscuits for training and for rewarding good behaviour. Made w",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/10/PetStore-Kenya-Reflex-Dog-Treats-Mini-Sandwiches-min.png",
+  "sku": "PSK-3720",
+  "brand": "Reflex",
+  "weight_kg": 0.35,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/10/PetStore-Kenya-Reflex-Dog-Treats-Mini-Sandwiches-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

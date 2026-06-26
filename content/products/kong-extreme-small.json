@@ -3,8 +3,8 @@
   "name": "KONG Extreme Small",
   "slug": "kong-extreme-small",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 1300,
+  "regularPrice": 1300,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -36,17 +36,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "The KONGExtreme dog toy represents the most durable strength of KONGrubber. Designed for the toughest of chewers, the KONGExtreme offers enrichment and helps satisfy dogs? instinctual needs. The KONGunique, ultra-durable, natural rubber formula is designed for determined chewers, while the erratic bounce fulfills a dog?s need to play. Want to extend playtime? Be sure to stuff with tempting bits of kibble and entice with a dash of peanut butter. Add to the fun by adding KONGSnacks and top with KONGEasy Treat. Stuff and Freeze for a longer-lasting challenge. Mentally stimulating toy; offering enrichment by helping satisfy dogs? instinctual needs KONGblack rubber formula is specifically designed for power chewers Unpredictable bounce for games of fetch Great for stuffing with KONGEasy Treat; Snacks or Ziggies Recommended worldwide by Veterinarians; Trainers; and dog enthusiasts Natural rubber Made in the USA. Globally Sourced Materials.",
-  "images": [],
+  "images": [
+    {
+      "id": 16527,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/12/Untitled-design-9.png",
+      "alt": "KONG Extreme Small",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=16527",
+  "addToCartUrl": "https://petstore.co.ke/product/kong-extreme-small/?add-to-cart=16527",
+  "shortDescription": "The KONGExtreme dog toy represents the most durable strength of KONGrubber. Designed for the toughest of chewers, the KONGExtreme offers enrichment an",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/12/Untitled-design-9.png",
+  "sku": "PSK-16527",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/12/Untitled-design-9.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

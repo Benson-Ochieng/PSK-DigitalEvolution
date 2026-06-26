@@ -3,8 +3,8 @@
   "name": "Enjoy Dog Treats - Mini Bones Baked & Dried Biscuits 250g",
   "slug": "enjoy-dog-treats-mini-bones-baked-dried-biscuits-250g",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 395,
+  "regularPrice": 395,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -26,17 +26,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Enjoy Dog Treats - Mini Bones Baked & Dried Biscuits , reward good behaviour with these fun and delicious treats made with the highest quality ingredients and bursting with flavour. INGREDIENTS: cereals, meat & animal by-products, glucose (6.2%), vegetable oils & fats, minerals. NUTRIENT COMPONENTS Crude Protein (%) - 10.2 Oil Content (%) - 5.5 Crude Ash (%) - 3.6 Crude Fiber (%) - 2.6 Sodium (%) - 0.5 FEEDING RECOMMENDATIONS: Feed maximum of 10 pieces per day. Recommended for all dogs. Feed as a snack or treat between meals. This product does not replace full-dog food daily. Once open, keep package tightly closed. Store in a cool, dry place.",
-  "images": [],
+  "images": [
+    {
+      "id": 11302,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/02/Enjoy-Dog-Treats-Mini-Bones-Biscuits-250g-min.png",
+      "alt": "Enjoy Dog Treats - Mini Bones Baked & Dried Biscuits 250g",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=11302",
+  "addToCartUrl": "https://petstore.co.ke/product/enjoy-dog-treats-mini-bones-baked-dried-biscuits-250g/?add-to-cart=11302",
+  "shortDescription": "Enjoy Dog Treats - Mini Bones Baked & Dried Biscuits , reward good behaviour with these fun and delicious treats made with the highest quality ingredi",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/02/Enjoy-Dog-Treats-Mini-Bones-Biscuits-250g-min.png",
+  "sku": "PSK-11302",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.25,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/02/Enjoy-Dog-Treats-Mini-Bones-Biscuits-250g-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

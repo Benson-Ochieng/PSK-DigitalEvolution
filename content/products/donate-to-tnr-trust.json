@@ -3,8 +3,8 @@
   "name": "Donate to TNR Trust",
   "slug": "donate-to-tnr-trust",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 0,
+  "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -51,17 +51,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "For every bag you donate, WE WILL MATCH YOUR DONATION. TNR Trust - their aim is to enhance community health by managing a healthy pet population by means of neutering and rabies campaigns.",
-  "images": [],
+  "images": [
+    {
+      "id": 18788,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/02/Donate-v5-TNR-TRUST-min.png",
+      "alt": "Donate to TNR Trust",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=18788",
+  "addToCartUrl": "https://petstore.co.ke/product/donate-to-tnr-trust/?add-to-cart=18788",
+  "shortDescription": "For every bag you donate, WE WILL MATCH YOUR DONATION. TNR Trust - their aim is to enhance community health by managing a healthy pet population by me",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/02/Donate-v5-TNR-TRUST-min.png",
+  "sku": "PSK-18788",
+  "brand": "PetStore Kenya",
+  "weight_kg": 15,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/02/Donate-v5-TNR-TRUST-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

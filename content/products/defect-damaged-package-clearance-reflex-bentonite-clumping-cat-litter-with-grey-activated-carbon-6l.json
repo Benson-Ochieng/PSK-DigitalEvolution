@@ -3,8 +3,8 @@
   "name": "DEFECT / DAMAGED PACKAGE - CLEARANCE: Reflex Bentonite Clumping Cat Litter Withgey Activated Carbon 6L",
   "slug": "defect-damaged-package-clearance-reflex-bentonite-clumping-cat-litter-with-grey-activated-carbon-6l",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 1358,
+  "regularPrice": 1358,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -41,17 +41,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "100% natural bentonite cat litter highly capable of liquid absorption, ideally clumping, perfume-free for cats sensitive to odours. Through compact granule size, it does not stick to your cat?s paws and thus does not spread over the litter box. 100% natural bentonite cat litter highly capable of liquid absorption, ideally clumping, perfume-free for cats sensitive to odours. Through compact granule size, it does not stick to your cat?s paws and thus does not spread over the litter box. High quality bentonite, which is instantly clumped with dusting, which is reduced to a minimum by undergoing special processes, does not stick to your cat's paws and thus does not disperse out of the litter box.",
-  "images": [],
+  "images": [
+    {
+      "id": 31343,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/08/Reflex-Plus-Cat-Litter.png",
+      "alt": "DEFECT / DAMAGED PACKAGE - CLEARANCE: Reflex Bentonite Clumping Cat Litter Withgey Activated Carbon 6L",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=31343",
+  "addToCartUrl": "https://petstore.co.ke/product/defect-damaged-package-clearance-reflex-bentonite-clumping-cat-litter-with-grey-activated-carbon-6l/?add-to-cart=31343",
+  "shortDescription": "100% natural bentonite cat litter highly capable of liquid absorption, ideally clumping, perfume-free for cats sensitive to odours. Through compact gr",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/08/Reflex-Plus-Cat-Litter.png",
+  "sku": "PSK-31343",
+  "brand": "Reflex",
+  "weight_kg": 6,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/08/Reflex-Plus-Cat-Litter.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

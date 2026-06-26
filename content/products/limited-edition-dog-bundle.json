@@ -3,8 +3,8 @@
   "name": "Limited Edition Dog Bundle",
   "slug": "limited-edition-dog-bundle",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 0,
+  "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "1 Pc Reflex Plus Medium Large Breed Adult Dog Food Salmon 3Kg 2 Pcs Reflex Dog Treats Chicken Wrapped Sticks 80Gr 2 Pcs Reflex Dog Treats Duck Wrapped Sticks 80Gr 4 Pcs Migliorcane Canned Dog Food Game 405Gr",
-  "images": [],
+  "images": [
+    {
+      "id": 33791,
+      "src": "/images/psk_logo.png",
+      "alt": "Limited Edition Dog Bundle",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=33791",
+  "addToCartUrl": "https://petstore.co.ke/product/limited-edition-dog-bundle/?add-to-cart=33791",
+  "shortDescription": "1 Pc Reflex Plus Medium Large Breed Adult Dog Food Salmon 3Kg 2 Pcs Reflex Dog Treats Chicken Wrapped Sticks 80Gr 2 Pcs Reflex Dog Treats Duck Wrapped",
+  "thumbnail": "/images/psk_logo.png",
+  "sku": "PSK-33791",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "/images/psk_logo.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

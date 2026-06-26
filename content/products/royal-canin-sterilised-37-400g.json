@@ -3,8 +3,8 @@
   "name": "Royal Canin Sterilised 37 400g",
   "slug": "royal-canin-sterilised-37-400g",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 1160,
+  "regularPrice": 1160,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,17 +16,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "After your cat has been neutered, a change of diet may be required to ensure that the nutrients it consumes supports its somewhat altered energy needs. ROYAL CANIN? Sterilised 37 contains a moderate level of fat when served in adequate daily rations - this helps your cat to maintain an ideal bodyweight after it's been sterilised. What's more, ROYAL CANIN? Sterilised 37 food also contains a carefully considered balance of minerals that help to support and maintain a healthy urinary system for your cat, while the increased protein content in this food helps to maintain your cat's healthy muscle mass. To cater to each cat's individual preferences, ROYAL CANIN? Sterilised 37 is also available as wet food in either delicious gravy or succulent jelly. If you're considering mixed feeding, simply follow our feeding guidelines to ensure your cat gets an accurate amount of both wet and dry food for optimal benefit.",
-  "images": [],
+  "images": [
+    {
+      "id": 29524,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/07/Royal-Canin-Sterilised-37.png",
+      "alt": "Royal Canin Sterilised 37 400g",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=29524",
+  "addToCartUrl": "https://petstore.co.ke/product/royal-canin-sterilised-37-400g/?add-to-cart=29524",
+  "shortDescription": "After your cat has been neutered, a change of diet may be required to ensure that the nutrients it consumes supports its somewhat altered energy needs",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/07/Royal-Canin-Sterilised-37.png",
+  "sku": "PSK-29524",
+  "brand": "Royal Canin",
+  "weight_kg": 2,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/07/Royal-Canin-Sterilised-37.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -3,8 +3,8 @@
   "name": "Retractable Leash Pink Small",
   "slug": "retractable-leash-pink-small",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 1800,
+  "regularPrice": 1800,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -21,17 +21,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "About this item ? Retractable Dog Leash is strong and durable. No noise design made for daily use. ? For any types of dog with up to 110lbs in weight, This Retractable Leash works for powerful large dogs, as well as medium sized and smaller dogs, giving them maximum freedom while under your control. ? Safe And Reliable Brake System. When the brake button is pushed, the retractable leashes instantly stops and is securely held at exactly that length a perfect spring for smoothly retracting dog leash while you will not hurt yourself. ? Anti-slip Handle is easy and safe to grip, provides enjoyable walking experience with your pets and you don't worry about the dog leash will hurt your hand when the dog run about madly.",
-  "images": [],
+  "images": [
+    {
+      "id": 24539,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/RLPKS.jpg",
+      "alt": "Retractable Leash Pink Small",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=24539",
+  "addToCartUrl": "https://petstore.co.ke/product/retractable-leash-pink-small/?add-to-cart=24539",
+  "shortDescription": "About this item ? Retractable Dog Leash is strong and durable. No noise design made for daily use. ? For any types of dog with up to 110lbs in weight,",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/RLPKS.jpg",
+  "sku": "PSK-24539",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/RLPKS.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

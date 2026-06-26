@@ -3,8 +3,8 @@
   "name": "Mpets Liberty Dog Retractable Leashgeen 8M (Lg)",
   "slug": "mpets-liberty-dog-retractable-leash-green-8m-lg",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 3500,
+  "regularPrice": 3500,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Description 20.8 x 11.6 x 4.4 cm Leash Length up to 8M Auto leash, Strong Traction Tape Non tangle movement Soft Grip Handle One touch lock & release Dog Weight",
-  "images": [],
+  "images": [
+    {
+      "id": 27402,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPLDRL-G8.jpg",
+      "alt": "Mpets Liberty Dog Retractable Leashgeen 8M (Lg)",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27402",
+  "addToCartUrl": "https://petstore.co.ke/product/mpets-liberty-dog-retractable-leash-green-8m-lg/?add-to-cart=27402",
+  "shortDescription": "Description 20.8 x 11.6 x 4.4 cm Leash Length up to 8M Auto leash, Strong Traction Tape Non tangle movement Soft Grip Handle One touch lock & release ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/MPLDRL-G8.jpg",
+  "sku": "PSK-27402",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPLDRL-G8.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

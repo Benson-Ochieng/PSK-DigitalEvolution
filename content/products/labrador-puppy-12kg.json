@@ -3,8 +3,8 @@
   "name": "Royal Canin Labrador Puppy 12kg",
   "slug": "labrador-puppy-12kg",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 22500,
+  "regularPrice": 22500,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Suitable for puppies up to 15 months old, ROYAL CANIN? Labrador Retriever Puppy is specially formulated with all the nutritional needs of your young Labrador Retriever in mind. Because your puppy?s immune system develops gradually, ROYAL CANIN? Labrador Retriever Puppy contains an exclusive complex of antioxidants ? including vitamin E ? to help support its natural defences during this key period of growth. Thanks to a specially adapted content of energy, protein, calcium and phosphorus, ROYAL CANIN? Labrador Retriever Puppy contributes to the healthy development of your growing puppy?s bone structure. It also helps to facilitate harmonious weight gain, to help your puppy maintain an ideal weight as it grows. ROYAL CANIN? Labrador Retriever Puppy contains a combination of nutrients with high quality protein (L.I.P.*) and prebiotics (FOS) to support digestive health and balance of intestinal flora. What?s more, they also help to contribute to good stool quality. The kibble in ROYAL CANIN? Labrador Retriever Puppy is tailor-made and specially adapted for the Labrador puppy. The shape and size of the kibble makes it easy for your puppy to pick up and chew, whilst the texture enhances its overall palatability. Composition: dehydrated poultry protein, maize, vegetable protein isolate*, rice, maize flour, animal fats, maize gluten, hydrolysed animal proteins, wheat flour, beet pulp, fish oil, minerals, vegetable fibres, soya oil, fructo-oligo-saccharides (0.34%), psyllium husks and seeds, hydrolysed yeast (source of manno-oligo-saccharides), hydrolysed crustaceans (source of glucosamine), borage oil, yeast extracts (source of betaglucans), marigold extract (source of lutein), hydrolysed cartilage (source of chondroitin). Additives (per kg): Nutritional additives: Vitamin A: 26500 IU, Vitamin D3: 800 IU, Vitamin E: 490 mg - E1 (Iron): 56 mg, E2 (Iodine): 3.6 mg, E4 (Copper): 6 mg, E5 (Manganese): 41 mg, E6 (Zinc): 119 mg, E8 (Selenium): 0.17 mg - Technological additives: Clinoptilolite of sedimentary origin: 10 g - Sensory additives: Yucca extract: 125 mg - Preservatives - Antioxidants. Analytical constituents: Protein: 33.0% - Fat content: 14.0% - Crude ash: 6.9% - Crude fibres: 1.7% - Calcium: 1.25% - Phosphorus: 1%. Feeding instructions: see table. Batch number, factory registration number and best before date: see information on packaging. To be stored in a cool, dry place. For RSA: Guaranteed analysis g/kg: Crude protein (min) 310 - Moisture (max) 110 - Crude fat (min) 120 - Crude fibre (max) 27 - Crude ash (max) 76. Metabolizable energy: 3778 kcal/kg.*L.I.P.: protein selected for its very high digestibility.",
-  "images": [],
+  "images": [
+    {
+      "id": 23660,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-LABR-021.jpg",
+      "alt": "Royal Canin Labrador Puppy 12kg",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=23660",
+  "addToCartUrl": "https://petstore.co.ke/product/labrador-puppy-12kg/?add-to-cart=23660",
+  "shortDescription": "Suitable for puppies up to 15 months old, ROYAL CANIN? Labrador Retriever Puppy is specially formulated with all the nutritional needs of your young L",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-LABR-021.jpg",
+  "sku": "PSK-23660",
+  "brand": "Royal Canin",
+  "weight_kg": 12,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-LABR-021.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -3,8 +3,8 @@
   "name": "Cat Litter Scooper - Christmas Bundle",
   "slug": "cat-litter-scooper-christmas-bundle",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 0,
+  "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -21,17 +21,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Promotional offer only. Not for sale individually. See our SALE page .",
-  "images": [],
+  "images": [
+    {
+      "id": 4695,
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/12/PetStore-Kenya-Cat-Litter-Scooper-min.png",
+      "alt": "Cat Litter Scooper - Christmas Bundle",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=4695",
+  "addToCartUrl": "https://petstore.co.ke/product/cat-litter-scooper-christmas-bundle/?add-to-cart=4695",
+  "shortDescription": "Promotional offer only. Not for sale individually. See our SALE page .",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/12/PetStore-Kenya-Cat-Litter-Scooper-min.png",
+  "sku": "PSK-4695",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/12/PetStore-Kenya-Cat-Litter-Scooper-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -3,8 +3,8 @@
   "name": "Bio Petactive Aloe Vera Dog Shampoo 400ml",
   "slug": "bio-petactive-aloe-vera-dog-shampoo-400ml",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 900,
+  "regularPrice": 900,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -26,17 +26,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Bio PetActive ? Aloe Vera is a shampoo with Aloe Vera Extract for dogs. It is a cleansing, moisturizing care shampoo for your dog with carefully selected surfactants and Aloe Vera. It is suitable for long and short fur dogs. With its Aloe Vera extract and other ingredients, it nourishes the skin and fur of sensitive skinned dogs, giving them extra strength and shine. Its pH balanced formulation and effective moisturizing property keeps the skin moist and prevents dryness",
-  "images": [],
+  "images": [
+    {
+      "id": 19818,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/BPAVDS400.jpg",
+      "alt": "Bio Petactive Aloe Vera Dog Shampoo 400ml",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=19818",
+  "addToCartUrl": "https://petstore.co.ke/product/bio-petactive-aloe-vera-dog-shampoo-400ml/?add-to-cart=19818",
+  "shortDescription": "Bio PetActive ? Aloe Vera is a shampoo with Aloe Vera Extract for dogs. It is a cleansing, moisturizing care shampoo for your dog with carefully selec",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/BPAVDS400.jpg",
+  "sku": "PSK-19818",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/BPAVDS400.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -3,8 +3,8 @@
   "name": "Royal Canin Medium Adult 4kg",
   "slug": "medium-adult-4kg",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 4650,
+  "regularPrice": 4650,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "At 12 months, your Medium sized dog has now become an adult in terms of its physical growth. Good nutrition during this life stage is still as essential as it was when your dog was growing. Ensuring that your dog?s diet provides the right nutrients in the right levels is key to supporting and maintaining good health. ROYAL CANIN? Medium Adult is specially formulated with the nutritional needs of your medium-sized adult dog in mind and is suitable for dogs aged 1-7 years that weigh between 11kg-25kg. ROYAL CANIN? Medium Adult contains an exclusive antioxidant complex, as well as nutrients like manno-oligo-saccharides, to help support your dog?s natural defences, allowing it to maintain a healthy lifestyle. Thanks to an exclusive formula which includes very high quality protein, ROYAL CANIN? Medium Adult also helps to support optimal digestibility, this allows your dog to effectively absorb nutrients. What?s more, the balanced supply of dietary fibre further supports healthy digestibility for your dog. ROYAL CANIN? Medium Adult is also enriched with omega-3 fatty acids, like EPA and DHA, to help maintain your dog?s healthy skin and coat condition. Composition: dehydrated poultry protein, maize flour, maize, wheat flour, animal fats, dehydrated pork protein, wheat, hydrolysed animal proteins, beet pulp, fish oil, minerals, soya oil, yeasts and parts thereof, hydrolysed yeast (source of manno-oligosaccharides (0.05%)). Additives (per kg): Nutritional additives: Vitamin A: 12500 IU, Vitamin D3: 800 IU, E1 (Iron): 43 mg, E2 (Iodine): 4.3 mg, E4 (Copper): 13 mg, E5 (Manganese): 55 mg, E6 (Zinc): 133 mg, E8 (Selenium): 0.11 mg - Preservatives - Antioxidants. Analytical constituents: Protein: 25.0% - Fat content: 14.0% - Crude ash: 6.1% - Crude fibres: 1.3% - Per kg: Omega 3 fatty acids: 6.0 g including EPA/DHA: 3.1 g. Feeding instructions: see table. Batch number, factory registration number and best before date: see information on packaging. To be stored in a cool, dry place. For RSA: Guaranteed analysis g/kg: Crude protein (min) 230 - Moisture (max) 110 - Crude fat (min) 120 - Crude fibre (max) 23 - Crude ash (max) 67. Metabolizable energy: 3843 kcal/kg",
-  "images": [],
+  "images": [
+    {
+      "id": 23655,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-SHMD-003.jpg",
+      "alt": "Royal Canin Medium Adult 4kg",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=23655",
+  "addToCartUrl": "https://petstore.co.ke/product/medium-adult-4kg/?add-to-cart=23655",
+  "shortDescription": "At 12 months, your Medium sized dog has now become an adult in terms of its physical growth. Good nutrition during this life stage is still as essenti",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-SHMD-003.jpg",
+  "sku": "PSK-23655",
+  "brand": "Royal Canin",
+  "weight_kg": 4,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-SHMD-003.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

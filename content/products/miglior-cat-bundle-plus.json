@@ -3,8 +3,8 @@
   "name": "Migliorgatto Bundle Plus",
   "slug": "miglior-cat-bundle-plus",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 0,
+  "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -36,17 +36,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "1PC MIGLIOR CAT CROQUETTES BEEF AND LIVER 2KG 4PC MIGLIOR CAT ALUTRAY SALMON 100GR 4PC MIGLIOR CAT CAN CHUNKS TUNA AND SALMON 40GR 1PC ANKUR REGULAR NON SKID BOWL WITH COLOR AND PRINTING 235ML",
-  "images": [],
+  "images": [
+    {
+      "id": 37133,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/05/Miglior-cat-Plus-Bundle.png",
+      "alt": "Migliorgatto Bundle Plus",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=37133",
+  "addToCartUrl": "https://petstore.co.ke/product/miglior-cat-bundle-plus/?add-to-cart=37133",
+  "shortDescription": "1PC MIGLIOR CAT CROQUETTES BEEF AND LIVER 2KG 4PC MIGLIOR CAT ALUTRAY SALMON 100GR 4PC MIGLIOR CAT CAN CHUNKS TUNA AND SALMON 40GR 1PC ANKUR REGULAR N",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/05/Miglior-cat-Plus-Bundle.png",
+  "sku": "PSK-37133",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/05/Miglior-cat-Plus-Bundle.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

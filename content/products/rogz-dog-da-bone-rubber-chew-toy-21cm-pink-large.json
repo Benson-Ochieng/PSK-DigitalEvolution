@@ -3,8 +3,8 @@
   "name": "Rogz Dog Da Bone Rubber Chew Toy 21cm - Pink Large",
   "slug": "rogz-dog-da-bone-rubber-chew-toy-21cm-pink-large",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 2175,
+  "regularPrice": 2175,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Rogz Da Bone Treat Dog Toy is designed for your dogs teeth and to build up strength in their jaw, with a hole running through it from end-to-end to fill with your dogs preferred treats. All dogs love to chew so make sure it's Da Bone, not your slippers! Size: L - 210 mm",
-  "images": [],
+  "images": [
+    {
+      "id": 17363,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/DB05-K-Da-Bone-Pink-1.jpg",
+      "alt": "Rogz Dog Da Bone Rubber Chew Toy 21cm - Pink Large",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=17363",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-da-bone-rubber-chew-toy-21cm-pink-large/?add-to-cart=17363",
+  "shortDescription": "Rogz Da Bone Treat Dog Toy is designed for your dogs teeth and to build up strength in their jaw, with a hole running through it from end-to-end to fi",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/DB05-K-Da-Bone-Pink-1.jpg",
+  "sku": "PSK-17363",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/DB05-K-Da-Bone-Pink-1.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

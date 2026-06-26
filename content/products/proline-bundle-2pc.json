@@ -3,8 +3,8 @@
   "name": "Proline Bundle - 2Pc",
   "slug": "proline-bundle-2pc",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 0,
+  "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -26,17 +26,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "1PC Proline Cat Litter Lavender 5L 1PC Proline Adult Cat Food Chicken 500Gr",
-  "images": [],
+  "images": [
+    {
+      "id": 33772,
+      "src": "/images/psk_logo.png",
+      "alt": "Proline Bundle - 2Pc",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=33772",
+  "addToCartUrl": "https://petstore.co.ke/product/proline-bundle-2pc/?add-to-cart=33772",
+  "shortDescription": "1PC Proline Cat Litter Lavender 5L 1PC Proline Adult Cat Food Chicken 500Gr",
+  "thumbnail": "/images/psk_logo.png",
+  "sku": "PSK-33772",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "/images/psk_logo.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -3,8 +3,8 @@
   "name": "Pet Bath Brush",
   "slug": "pet-bath-brush",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 350,
+  "regularPrice": 350,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "High Quality Material: Made from high-quality soft TRP rubber material and craftsmanship, the dog bath brush scrubber is safe, comfortable, durable and will not harm the pets’ skin. Adjustable Handle: The dog bath brush handle comes with perfect adjustable ring grip handle to fit different sizes of hands comfortably, firmly fixed between the palms. Three-In-One: Pet grooming brush can be used not only to bathe pets, but also to massage pets, hair removal, newly upgraded three-in-one pet grooming brush for any long hair and short hair or thick hair pets. Easy to Use, Clean & Portable: The adjustable handle and lightweight brush makes using easier and more convenient, and it also easy to carry when travel. The professional bathing supplies will help your pet enjoy bath-time and fall in love with bath. Just wash it with water and dry naturally after use.",
-  "images": [],
+  "images": [
+    {
+      "id": 36964,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/05/bathbrush.jpg",
+      "alt": "Pet Bath Brush",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=36964",
+  "addToCartUrl": "https://petstore.co.ke/product/pet-bath-brush/?add-to-cart=36964",
+  "shortDescription": "High Quality Material: Made from high-quality soft TRP rubber material and craftsmanship, the dog bath brush scrubber is safe, comfortable, durable an",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/05/bathbrush.jpg",
+  "sku": "PSK-36964",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/05/bathbrush.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

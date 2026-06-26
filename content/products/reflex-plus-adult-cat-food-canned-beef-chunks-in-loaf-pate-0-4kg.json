@@ -3,8 +3,8 @@
   "name": "Reflex Plus Adult Cat Food Canned - Beef Chunks in Loaf Pate 400g",
   "slug": "reflex-plus-adult-cat-food-canned-beef-chunks-in-loaf-pate-0-4kg",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 305,
+  "regularPrice": 305,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -36,17 +36,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Reflex Plus Beef Chunks in Loaf Pate Adult Cat Canned Food , fully-balanced, beef protein-containing cat food carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult breeds. NUTRIENT COMPONENTS Crude Protein (%) - 9.0 Crude Oils & Fats (%) - 5.0 Crude Cellulose (Fiber) (%) - 0.2 Moisture (%) - 80 Crude Ash (%) - 2.5 Vitamin D3 - 240 IE/kg Vitamin A - 1650 IE/kg Iron - 0.6 mg/kg Copper - 1.4 mg/kg Iodine - 24 ?g/kg Manganese - 1.8 mg/kg Zinc - 9.5 mg/kg Selenium - 0.025 mg/kg INGREDIENTS: Meat and animal derivatives (4% beef), cereals, fish and fish derivatives, vegetal protein extracts, minerals, cassia gum (1200 mg/kg), perservers and colourants. FEEDING RECOMMENDATION: One can per two meals. An adult cat (approx. 4kg) requires up to 3 meals per day. Individual requirements depend on factors like age, breed and activity. Serve at room temperature. Store in a cool, dry place. Not fit for human consumption.",
-  "images": [],
+  "images": [
+    {
+      "id": 36404,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Plus-Adult-Cat-Food-Beef-in-Loaf-Pate-400g-min-1.png",
+      "alt": "Reflex Plus Adult Cat Food Canned - Beef Chunks in Loaf Pate 400g",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=36404",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-adult-cat-food-canned-beef-chunks-in-loaf-pate-0-4kg/?add-to-cart=36404",
+  "shortDescription": "Reflex Plus Beef Chunks in Loaf Pate Adult Cat Canned Food , fully-balanced, beef protein-containing cat food carefully formulated by cat / dog nutrit",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Plus-Adult-Cat-Food-Beef-in-Loaf-Pate-400g-min-1.png",
+  "sku": "PSK-36404",
+  "brand": "Reflex",
+  "weight_kg": 0.4,
+  "animal_type": "cat",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Plus-Adult-Cat-Food-Beef-in-Loaf-Pate-400g-min-1.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

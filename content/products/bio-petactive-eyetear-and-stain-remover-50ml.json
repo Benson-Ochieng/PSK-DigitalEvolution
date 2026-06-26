@@ -3,8 +3,8 @@
   "name": "Bio Petactive Eye(Tear and Stain Remover) 50ml",
   "slug": "bio-petactive-eyetear-and-stain-remover-50ml",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 431,
+  "regularPrice": 431,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,17 +16,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Bio-Eyes Tear Stain Remover is a remedy made to remove stains that form due to tear flows around your cat's and your dog's eyes. Usage: Using special drops of the product, place a small amount of Bio PetActive Bio-Eyes Tear Remover on a cotton swab or gauze and gently wipe stained, dirty areas around the eyes. A separate cotton should be used for cleaning around each eye area. Make sure the product does not contact with the eye during cleaning. After application, dry the applied area with a clean gauze or cotton. Application should be done 3 times a day for 1 week. Afterward, it should be used regularly once or twice a week to prevent stain formation. The application should be terminated if deemed irritation. Consult a veterinary in case of serious situations.",
-  "images": [],
+  "images": [
+    {
+      "id": 19808,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/BPETSR50.jpg",
+      "alt": "Bio Petactive Eye(Tear and Stain Remover) 50ml",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=19808",
+  "addToCartUrl": "https://petstore.co.ke/product/bio-petactive-eyetear-and-stain-remover-50ml/?add-to-cart=19808",
+  "shortDescription": "Bio-Eyes Tear Stain Remover is a remedy made to remove stains that form due to tear flows around your cat's and your dog's eyes. Usage: Using special ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/BPETSR50.jpg",
+  "sku": "PSK-19808",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.1,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/BPETSR50.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

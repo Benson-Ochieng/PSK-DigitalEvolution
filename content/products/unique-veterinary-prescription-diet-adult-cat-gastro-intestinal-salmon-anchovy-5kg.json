@@ -3,8 +3,8 @@
   "name": "Unique Veterinary Prescription Diet Adult Cat Gastro Intestinal Salmon & Anchovy 5kg",
   "slug": "unique-veterinary-prescription-diet-adult-cat-gastro-intestinal-salmon-anchovy-5kg",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 7995,
+  "regularPrice": 7995,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "How it works: ? Rich in prebiotics and probiotics (heat resistant probiotic stain; Bacillus Amyloliquefaciens) ? Quality and hydrolyzed protein sources, ? Dried Algae (Omega-3 and Vitamin Source) ? Marigold Extract (Anti-inflammatory and Antiseptic) ? Sea Buckthorn (Omega-7 source and Anti-inflammatory) ? Helpful content for digestive system microbiota Ingredients: Anchovy Protein, Pea, Hydrolyzed Salmon Protein, Brown Rice, Chicken Oil, Sugar Beet Pulp, Dried Egg, Fish Oil, Natural Flavors, Powdered Cellulose, Vitamin and Mineral Premix, Brewer's Yeast, Probiotic, Psyllium Shells, Dried Algae, MOS, ? -Glucan, Tocopherol, Marigold Extract, Yucca, Wild Seabuckthorn. Raw Material Components Raw Protein 34.74% Raw oil 13.85% Raw Cellulose (Fiber) 3.40% Ash 7.46% Moisture 4.40% Omega-3 1.08% Omega 6 2.75% Calcium 0.98% Phosphorus 0.72% Sodium 0.42% Magnesium 0.076% Potassium 0.80% Nutritional Supplements Vitamin A (3a672a) 25,000 IU/kg Vitamin D 3 (E671) 850 IU/kg Vitamin E (3a700) 1.000 mg/kg Vitamin C (3a312) 300mg/kg Choline Chloride (3a890) 2.300 mg/kg Biotin (3a880) 3mg/kg Vitamin B 1 (3a821) 10mg/kg Vitamin B2 50mg/kg Niacinamide (3a315) 80mg/kg Calcium-D-Panthothenate (3a841) 50mg/kg Vitamin B 6 (3a831) 35mg/kg Folic Acid (3a316) 15mg/kg Vitamin B 12 0.18 mg/kg Zinc Chelate of Amino Acids Hydrate (3b606) 120mg/kg Ferrous Chelate of Amino Acids Hydrate (E1) 60mg/kg Manganese Chelate of Amino Acids Hydrate (E5) 60mg/kg Potassium Iodide (3b201) 4mg/kg Cupric Chelate of Amino Acids Hydrate (E4) 3,5 mg/kg Organic Form of Selenium (3b8.10) 0.2mg/kg Taurine (3a370) 2.300 mg/kg L-Carnitine (3a910) 240mg/kg L-Methionine (3c305) 4,000 mg/kg Probiotic (B. Amyloliquefaciens) 7 x 10 14 /kg",
-  "images": [],
+  "images": [
+    {
+      "id": 25842,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/03/UCD001.jpg",
+      "alt": "Unique Veterinary Prescription Diet Adult Cat Gastro Intestinal Salmon & Anchovy 5kg",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Unique",
+      "slug": "unique"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=25842",
+  "addToCartUrl": "https://petstore.co.ke/product/unique-veterinary-prescription-diet-adult-cat-gastro-intestinal-salmon-anchovy-5kg/?add-to-cart=25842",
+  "shortDescription": "How it works: ? Rich in prebiotics and probiotics (heat resistant probiotic stain; Bacillus Amyloliquefaciens) ? Quality and hydrolyzed protein source",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/03/UCD001.jpg",
+  "sku": "PSK-25842",
+  "brand": "Unique",
+  "weight_kg": 5,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/03/UCD001.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

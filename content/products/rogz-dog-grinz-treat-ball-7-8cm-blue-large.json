@@ -3,8 +3,8 @@
   "name": "Rogz Dog Grinz Treat Ball 7.8cm - Blue Large",
   "slug": "rogz-dog-grinz-treat-ball-7-8cm-blue-large",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 981,
+  "regularPrice": 981,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Make playtime fun and engaging with the Rogz Grinz Treat Ball (Large, 7.8 cm, Blue) , an interactive toy designed for large dog breeds. This multifunctional ball serves as a chew toy, fetch ball, and treat dispenser, keeping dogs active, happy, and mentally stimulated. Crafted from high-quality SEBS rubber, the ball is gentle on teeth while maintaining enough firmness to bounce for exciting indoor and outdoor fetch games. Its floating capability allows for safe water play, while the treat-dispensing feature encourages problem-solving and self-entertainment. The playful “grin” teeth design adds a charming visual touch during use, making it enjoyable for both dogs and owners. Benefits Promotes physical activity and exercise. Provides mental stimulation through treat-dispensing play. Safe chewing experience with durable, non-toxic SEBS material. Suitable for water play and outdoor fetch. Engages dogs for hours, reducing boredom and destructive behavior. Specifications Brand: Rogz Color: Blue Size: Large, 7.8 cm diameter Weight: 4.8 ounces (136 g) Material: SEBS rubber Bite Rating: Medium (3/5), ideal for medium to large breeds &nbsp; &nbsp; &nbsp; &nbsp;",
-  "images": [],
+  "images": [
+    {
+      "id": 40896,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/GR04-B-Grinz-Blue.jpg",
+      "alt": "Rogz Dog Grinz Treat Ball 7.8cm - Blue Large",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=40896",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-7-8cm-blue-large/?add-to-cart=40896",
+  "shortDescription": "Make playtime fun and engaging with the Rogz Grinz Treat Ball (Large, 7.8 cm, Blue) , an interactive toy designed for large dog breeds. This multifunc",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/GR04-B-Grinz-Blue.jpg",
+  "sku": "PSK-40896",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/GR04-B-Grinz-Blue.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

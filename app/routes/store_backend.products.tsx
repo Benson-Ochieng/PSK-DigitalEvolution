@@ -3445,7 +3445,7 @@ export default function VpBackendProducts() {
               <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px" }}>
                 <div className="form-group-admin">
                   <label>SKU (Stock Keeping Unit)</label>
-                  <input type="text" name="sku" placeholder="e.g. VP55UHD" />
+                  <input type="text" name="sku" placeholder="e.g. PSK123" />
                 </div>
                 <div className="form-group-admin">
                   <label>Category</label>
@@ -3461,11 +3461,11 @@ export default function VpBackendProducts() {
               <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px" }}>
                 <div className="form-group-admin">
                   <label>Regular Price (KSh) <span style={{ color: "#ff4d62" }}>*</span></label>
-                  <input type="number" name="regularPrice" required min={0} placeholder="e.g. 54999" />
+                  <input type="number" name="regularPrice" required min={0} placeholder="e.g. 10000" />
                 </div>
                 <div className="form-group-admin">
                   <label>Sale Price (KSh)</label>
-                  <input type="number" name="salePrice" min={0} placeholder="e.g. 49999 (optional)" />
+                  <input type="number" name="salePrice" min={0} placeholder="e.g. 9000 (optional)" />
                 </div>
               </div>
 
@@ -3623,12 +3623,12 @@ export default function VpBackendProducts() {
                 <input type="hidden" name="intent" value="add_category" />
                 <div className="form-group-admin">
                   <label>Name</label>
-                  <input type="text" name="name" value={newCatName} onChange={(e) => setNewCatName(e.target.value)} required placeholder="e.g. Smart Audio" />
+                  <input type="text" name="name" value={newCatName} onChange={(e) => setNewCatName(e.target.value)} required placeholder="e.g. Cat Treats" />
                   <span style={{ fontSize: "11px", color: "rgba(255,255,255,0.3)" }}>How it appears on your site.</span>
                 </div>
                 <div className="form-group-admin">
                   <label>Slug</label>
-                  <input type="text" name="slug" value={newCatSlug} onChange={(e) => setNewCatSlug(e.target.value)} placeholder="e.g. smart-audio (optional)" />
+                  <input type="text" name="slug" value={newCatSlug} onChange={(e) => setNewCatSlug(e.target.value)} placeholder="e.g. cat-treats (optional)" />
                 </div>
                 <div className="form-group-admin">
                   <label>Description</label>
@@ -3690,12 +3690,12 @@ export default function VpBackendProducts() {
                               <button type="submit" style={{ background: "none", border: "none", color: "#ff4d62", cursor: "pointer", padding: 0, fontSize: "inherit", fontFamily: "inherit" }} onClick={(e) => { if (!confirm(`Are you sure you want to delete the category "${cat.name}"?`)) e.preventDefault(); }}>Delete</button>
                             </Form>
                             <span className="row-actions-separator">|</span>
-                            <a href={`/category/${cat.slug}`} target="_blank" rel="noreferrer" style={{ color: "#00ccff", textDecoration: "none" }}>View</a>
+                            <a href={`/product-category/${cat.slug}`} target="_blank" rel="noreferrer" style={{ color: "#00ccff", textDecoration: "none" }}>View</a>
                           </div>
                         </td>
                         <td style={{ fontFamily: "monospace", fontSize: "12px" }}>{cat.slug}</td>
                         <td style={{ color: "rgba(255,255,255,0.6)", fontSize: "13px" }}>{cat.description || "—"}</td>
-                        <td style={{ textAlign: "right", fontWeight: "600", color: "#00ccff" }}>{cat.count}</td>
+                        <td style={{ textAlign: "right", fontWeight: "600" }}><Link to={`/product-category/${cat.slug}?hideFilter=true`} target="_blank" style={{ color: "#00ccff", textDecoration: "underline", cursor: "pointer" }}>{cat.count}</Link></td>
                       </tr>
                     ))}
                   </tbody>
@@ -3727,11 +3727,11 @@ export default function VpBackendProducts() {
                 <input type="hidden" name="intent" value="add_tag" />
                 <div className="form-group-admin">
                   <label>Name</label>
-                  <input type="text" name="name" value={newTagName} onChange={(e) => setNewTagName(e.target.value)} required placeholder="e.g. LED Screen" />
+                  <input type="text" name="name" value={newTagName} onChange={(e) => setNewTagName(e.target.value)} required placeholder="e.g. Senior" />
                 </div>
                 <div className="form-group-admin">
                   <label>Slug</label>
-                  <input type="text" name="slug" value={newTagSlug} onChange={(e) => setNewTagSlug(e.target.value)} placeholder="e.g. led-screen (optional)" />
+                  <input type="text" name="slug" value={newTagSlug} onChange={(e) => setNewTagSlug(e.target.value)} placeholder="e.g. senior (optional)" />
                 </div>
                 <div className="form-group-admin">
                   <label>Description</label>

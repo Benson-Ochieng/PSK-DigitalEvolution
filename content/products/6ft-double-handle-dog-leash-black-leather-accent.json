@@ -3,8 +3,8 @@
   "name": "PetStore Kenya 6ft Double Handle Dog Leash - Black Leather Accent",
   "slug": "6ft-double-handle-dog-leash-black-leather-accent",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 2600,
+  "regularPrice": 2600,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Black leather accent, durable nylon leash with heavy-duty brass clip. Thoughtfully designed with safety in mind. TWO handles, one at the end of the leash at 6ft (182cm) and another 1ft (30cm) from the heavy-duty brass clip. Keep your beloved 4-legged companion safe at all times. Great control. Use the long leash for casual walks, extended sniffing and loose leash walking. Use the shorter leash for busy walkways, bike paths and crowded areas that require that you have instant, up-close control of your dog. Control dominance and aggression. For all dog sizes.",
-  "images": [],
+  "images": [
+    {
+      "id": 13880,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/06/PSK-Dog-Leashes-1080x1080-1-c.png",
+      "alt": "PetStore Kenya 6ft Double Handle Dog Leash - Black Leather Accent",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=13880",
+  "addToCartUrl": "https://petstore.co.ke/product/6ft-double-handle-dog-leash-black-leather-accent/?add-to-cart=13880",
+  "shortDescription": "Black leather accent, durable nylon leash with heavy-duty brass clip. Thoughtfully designed with safety in mind. TWO handles, one at the end of the le",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/06/PSK-Dog-Leashes-1080x1080-1-c.png",
+  "sku": "PSK-13880",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/06/PSK-Dog-Leashes-1080x1080-1-c.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

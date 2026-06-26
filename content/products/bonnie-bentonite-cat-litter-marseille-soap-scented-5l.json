@@ -3,8 +3,8 @@
   "name": "Bonnie Bentonite Cat Litter - Marseille Soap Scented 5L",
   "slug": "bonnie-bentonite-cat-litter-marseille-soap-scented-5l",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 1102,
+  "regularPrice": 1102,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Bonnie Bentonite Clumping Cat Litter with Marseille Soap Scent will keep your cat?s litter box smelling fresh all day. MINIMUM DUST ?? Bonnie Cat Litter is processed specially during production to be able to minimize the dust formation in the area where it is used. ABSORBENT FEATURE ?? Bonnie Cat Litter absorbs the liquid quickly and forms clumps with perfect clumping feature. It prevents all kind of bacterial contamination that can be harmful for you or your cat. ODOR BLOCKING ? Bonnie Cat Litter blocks bad odour to release to the environment and it prevents you or your cat from being uncomfortable.",
-  "images": [],
+  "images": [
+    {
+      "id": 23855,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/12/Bonnie-Cat-Litter-Merseille-01.jpg",
+      "alt": "Bonnie Bentonite Cat Litter - Marseille Soap Scented 5L",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Bonnie",
+      "slug": "bonnie"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=23855",
+  "addToCartUrl": "https://petstore.co.ke/product/bonnie-bentonite-cat-litter-marseille-soap-scented-5l/?add-to-cart=23855",
+  "shortDescription": "Bonnie Bentonite Clumping Cat Litter with Marseille Soap Scent will keep your cat?s litter box smelling fresh all day. MINIMUM DUST ?? Bonnie Cat Litt",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Bonnie-Cat-Litter-Merseille-01.jpg",
+  "sku": "PSK-23855",
+  "brand": "Bonnie",
+  "weight_kg": 5,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/12/Bonnie-Cat-Litter-Merseille-01.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

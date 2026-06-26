@@ -3,8 +3,8 @@
   "name": "Bioline Catnip Dental Sticks (5pcs)",
   "slug": "bioline-catnip-dental-sticks-5pcs",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 450,
+  "regularPrice": 450,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -26,17 +26,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Bioline catnip dental sticks , pick the best part of the main vine of the catnip, remove the plaque and tartar on cat’s tooth, fresh the dental and help the cats excrete the hairball, and other poisonous substances. Natural catnip is one of the favorite plants for cats, cats can smell the unique fragrance, relax itself, relieve stress, presented as excitement, rolling on the ground and other acts. It is beneficial to the health of cats’ hearts and lungs. Most of the cats will be excited when they smell or lick the catnip dental sticks, make soft sound, or show similar status of estrus and act in pettish, closer to their owners. Usage: Adult cat 2 – 3 times per week, one piece for one time.",
-  "images": [],
+  "images": [
+    {
+      "id": 37819,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/06/Bioline-Catnip-Dental-Sticks.png",
+      "alt": "Bioline Catnip Dental Sticks (5pcs)",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=37819",
+  "addToCartUrl": "https://petstore.co.ke/product/bioline-catnip-dental-sticks-5pcs/?add-to-cart=37819",
+  "shortDescription": "Bioline catnip dental sticks , pick the best part of the main vine of the catnip, remove the plaque and tartar on cat’s tooth, fresh the dental and he",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/06/Bioline-Catnip-Dental-Sticks.png",
+  "sku": "PSK-37819",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/06/Bioline-Catnip-Dental-Sticks.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

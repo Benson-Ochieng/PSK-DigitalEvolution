@@ -3,8 +3,8 @@
   "name": "Proline Sterilised Cat Food with Chicken 500G",
   "slug": "proline-sterilised-cat-food-with-chicken-500g",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 581,
+  "regularPrice": 581,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,17 +16,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Proline Neutered Cat Food with Chicken 400 G With Chicken Processed Chicken Protein, Wheat, Corn, Animal Fat, Dried Sugar Beet, Liver Flavor, Corn Gluten, Salt, Flaxseed, Brewer's Yeast, Taurine, Yucca, Mannan Oligosaccharides, Beta Glucan, Preservatives - Antioxidants. Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Iron, Selenium. Vitamin A, Vitamin D, Vitamin, Vitamin C, Vitamin B1 - B2 - B3 (Niacin) - B6 - B12 - B7 (Biotin) - B9 (Folic Acid), Vitamin K, Choline, Calcium Pantothenate. NUTRITIONAL VALUES NUTRITIONAL ADDITIONS Raw Protein 31% Vitamin A 15000 IU/kg Raw oil 11th% Vitamin D3 1000 IU/kg Ash 8% Vitamin E 150mg/kg Raw Cellulose ( Fiber ) 5% Vitamin C 120mg/kg Taurine 1000mg/kg DAILY FEED TABLE 1 - 2 kg 30 - 45 g 3 - 4 kg 60 - 80 g 5 - 6 kg 100 - 120 g 7 - 8 kg 140 - 160 g",
-  "images": [],
+  "images": [
+    {
+      "id": 35474,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-cat-food-Sterlised-500gr.png",
+      "alt": "Proline Sterilised Cat Food with Chicken 500G",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Proline",
+      "slug": "proline"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=35474",
+  "addToCartUrl": "https://petstore.co.ke/product/proline-sterilised-cat-food-with-chicken-500g/?add-to-cart=35474",
+  "shortDescription": "Proline Neutered Cat Food with Chicken 400 G With Chicken Processed Chicken Protein, Wheat, Corn, Animal Fat, Dried Sugar Beet, Liver Flavor, Corn Glu",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-cat-food-Sterlised-500gr.png",
+  "sku": "PSK-35474",
+  "brand": "Proline",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-cat-food-Sterlised-500gr.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

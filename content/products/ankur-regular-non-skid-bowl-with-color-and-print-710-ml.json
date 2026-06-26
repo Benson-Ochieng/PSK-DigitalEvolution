@@ -3,8 +3,8 @@
   "name": "Ankur Regular Non Skid Bowl With Color And Print 710ml",
   "slug": "ankur-regular-non-skid-bowl-with-color-and-print-710-ml",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 900,
+  "regularPrice": 900,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -36,17 +36,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Enhance your pet’s mealtime with the ANKUR Regular Non-Skid Bowl. Practical, stylish, and durable, it’s the perfect addition to your pet’s dining routine. Key Features: Non-Skid Base: The bowl’s non-skid bottom keeps it firmly in place, preventing spills and skids, even during your pet’s most enthusiastic mealtimes. Charming Colors and Prints: Available in a vibrant color (Yellow) and playful prints, this bowl adds a touch of personality to your pet’s feeding area while matching your home decor. Durable and Pet-Friendly: Crafted from high-quality, food-safe materials, this bowl is built to withstand daily use and is gentle on your pet’s health. Easy to Clean: The smooth, easy-to-clean surface ensures hassle-free maintenance, whether you rinse it by hand or pop it in the dishwasher. Generous Capacity: With 710ml of space, this bowl is ideal for larger breeds or multiple pets, making it versatile for both food and water.",
-  "images": [],
+  "images": [
+    {
+      "id": 29374,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-Regular-Non-skid-bowl.png",
+      "alt": "Ankur Regular Non Skid Bowl With Color And Print 710ml",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=29374",
+  "addToCartUrl": "https://petstore.co.ke/product/ankur-regular-non-skid-bowl-with-color-and-print-710-ml/?add-to-cart=29374",
+  "shortDescription": "Enhance your pet’s mealtime with the ANKUR Regular Non-Skid Bowl. Practical, stylish, and durable, it’s the perfect addition to your pet’s dining rout",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-Regular-Non-skid-bowl.png",
+  "sku": "PSK-29374",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-Regular-Non-skid-bowl.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

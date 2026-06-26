@@ -3,8 +3,8 @@
   "name": "Dog Fest Turkey Meat Bones (55G)",
   "slug": "dog-fest-turkey-meat-bones-55g",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 275,
+  "regularPrice": 275,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -26,17 +26,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Our famous chewy bone for small breeds is made with delicious turkey meat. Turkey would be an excellent choice for those with sensitive stomach or allergies. Composition: turkey, rawhide, vegetable by-products, minerals. Analytical constituents, %: crude protein 35, crude fat 6.5, crude fiber 0.2, crude ash 3, moisture 18.",
-  "images": [],
+  "images": [
+    {
+      "id": 27272,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/DF023.jpg",
+      "alt": "Dog Fest Turkey Meat Bones (55G)",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27272",
+  "addToCartUrl": "https://petstore.co.ke/product/dog-fest-turkey-meat-bones-55g/?add-to-cart=27272",
+  "shortDescription": "Our famous chewy bone for small breeds is made with delicious turkey meat. Turkey would be an excellent choice for those with sensitive stomach or all",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/DF023.jpg",
+  "sku": "PSK-27272",
+  "brand": "PetStore Kenya",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/DF023.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

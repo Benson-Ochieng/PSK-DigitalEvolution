@@ -3,8 +3,8 @@
   "name": "Short Expiry-Clearance: Proline Adult Cat Food Fish 0.5kg",
   "slug": "proline-adult-cat-food-fish-0-5kg-3",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 367,
+  "regularPrice": 367,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,17 +31,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Fully balanced all natural cat food with fish protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult cats.",
-  "images": [],
+  "images": [
+    {
+      "id": 40836,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/PACFF0.5.jpg",
+      "alt": "Short Expiry-Clearance: Proline Adult Cat Food Fish 0.5kg",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Proline",
+      "slug": "proline"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=40836",
+  "addToCartUrl": "https://petstore.co.ke/product/proline-adult-cat-food-fish-0-5kg-3/?add-to-cart=40836",
+  "shortDescription": "Fully balanced all natural cat food with fish protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adu",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/PACFF0.5.jpg",
+  "sku": "PSK-40836",
+  "brand": "Proline",
+  "weight_kg": 0.5,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/PACFF0.5.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

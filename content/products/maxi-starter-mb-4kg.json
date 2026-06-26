@@ -3,8 +3,8 @@
   "name": "Royal Canin Maxi Starter Mother & Baby 4kg",
   "slug": "maxi-starter-mb-4kg",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 6350,
+  "regularPrice": 6350,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -36,17 +36,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "It?s very important that your large breed dog and her puppies receive the right level of nutritional support to maintain continued good health for the mother, and the best start possible for her puppies. ROYAL CANIN? Maxi Starter Mother & Babydog is suitable for your dog throughout the gestation and lactation periods, as well as for large breed puppies that will have an adult weight between 26kg and 44kg. As the puppies transition from mother?s milk onto solid food, ROYAL CANIN? Maxi Starter Mother & Babydog provides a suitable intermediary formulation of nutrients to facilitate this first period of growth and change. When mixed with water, the kibble is easy to rehydrate to a porridge-like consistency which is very palatable for your dog, as well as the puppies. ROYAL CANIN? Maxi Starter Mother & Babydog is suitable for your dog throughout the gestation and lactation periods, as well as large puppies that will have an adult weight between 26kg-44kg. COMPOSITION: rice, dehydrated poultry protein, animal fats, vegetable protein isolate*, hydrolysed animal proteins, maize, beet pulp, minerals, soya oil, vegetable fibres, fish oil, fatty acid salt, fructo-oligo-saccharides, psyllium husks and seeds, hydrolysed yeast (source of manno-oligo-saccharides and beta-glucans), marigold extract (source of lutein). ADDITIVES (per kg): Nutritional additives: Vitamin A: 13900 IU, Vitamin D3: 1200 IU, Beta-carotene: 40 mg, E1 (Iron): 48 mg, E2 (Iodine): 3.7 mg, E4 (Copper): 8 mg, E5 (Manganese): 63 mg, E6 (Zinc): 206 mg, E8 (Selenium): 0.08 mg - Preservatives - Antioxidants. ANALYTICAL CONSTITUENTS: Protein: 30% - Fat content: 22% - Crude ash: 6.9% - Crude fibres: 1.8%.*L.I.P.: protein selected for its very high assimilation.",
-  "images": [],
+  "images": [
+    {
+      "id": 23664,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-SHMX-043.jpg",
+      "alt": "Royal Canin Maxi Starter Mother & Baby 4kg",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=23664",
+  "addToCartUrl": "https://petstore.co.ke/product/maxi-starter-mb-4kg/?add-to-cart=23664",
+  "shortDescription": "It?s very important that your large breed dog and her puppies receive the right level of nutritional support to maintain continued good health for the",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-SHMX-043.jpg",
+  "sku": "PSK-23664",
+  "brand": "Royal Canin",
+  "weight_kg": 4,
+  "animal_type": "dog",
+  "food_type": "wet",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-SHMX-043.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

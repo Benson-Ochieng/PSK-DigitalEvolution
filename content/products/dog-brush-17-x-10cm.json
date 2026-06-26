@@ -3,8 +3,8 @@
   "name": "Dog Brush 17 x 10cm",
   "slug": "dog-brush-17-x-10cm",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 232,
+  "regularPrice": 232,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -41,17 +41,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "Double sided dog grooming brush - perfect for detangling and tick removal",
-  "images": [],
+  "images": [
+    {
+      "id": 18062,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/DBLA.jpg",
+      "alt": "Dog Brush 17 x 10cm",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=18062",
+  "addToCartUrl": "https://petstore.co.ke/product/dog-brush-17-x-10cm/?add-to-cart=18062",
+  "shortDescription": "Double sided dog grooming brush - perfect for detangling and tick removal",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/DBLA.jpg",
+  "sku": "PSK-18062",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.4,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/DBLA.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

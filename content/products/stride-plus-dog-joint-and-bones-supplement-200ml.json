@@ -3,8 +3,8 @@
   "name": "Stride Plus Dog Joint and Bones Supplement - 200mL",
   "slug": "stride-plus-dog-joint-and-bones-supplement-200ml",
   "onSale": false,
-  "price": null,
-  "regularPrice": null,
+  "price": 0,
+  "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,17 +16,50 @@
     }
   ],
   "inStock": false,
-  "averageRating": 0,
+  "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
   "description": "STRIDE PLUS Canine Joint and Bones Supplement - It's disheartening to watch your dog suffer from joint pain. Joint problems in dogs reduce life quality -- exhibiting decreased activity levels, stiffness and inability to enjoy walks or play. Predisposing factors include old age, injury, intensive training, obesity and hereditary conditions. Naturally support cartilage regeneration in your dog's damaged joints with daily nutritional support through Stride Plus supplement. Stride Plus? is a complementary food supplement to support healthy cartilage and joints in dogs. It combines the highest quality Glucosamine HCL, Chondroitin Sulphate, Hyaluronic Acid and MSM in a convenient and palatable liquid, which is easily dispensed on your dog's food. Stride Plus contains only ingredients from Vegan origin; this ensures uniformity of product and avoids any possibility of cross-contamination from ingredients of animal origin. ADMINISTRATION: Mix Stride Plus? well into your dog's food. Feed each dog individually. Feeding Instructions first 14 days: Small dogs (up to 10kg):?4 mL Medium dogs (10-25kgs):?8 mL Large dogs (25-40kgs):12 mL Very large dogs (over 40kgs):?16 mL Feeding Instructions Long Term: Small dogs (up to 10kg): 2 mL Medium dogs (10-25kgs): 4 mL Large dogs (25-40kgs): 6mL Very large dogs (over 40kgs): 8 mL The dosing pump attached to this container dispenses 2 mL. Alternatively, for large dog doses a graduated measuring cup is enclosed.",
-  "images": [],
+  "images": [
+    {
+      "id": 15209,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/09/1-01.jpg",
+      "alt": "Stride Plus Dog Joint and Bones Supplement - 200mL",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [],
-  "brands": [],
-  "stockStatus": "instock",
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
+  "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible"
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=15209",
+  "addToCartUrl": "https://petstore.co.ke/product/stride-plus-dog-joint-and-bones-supplement-200ml/?add-to-cart=15209",
+  "shortDescription": "STRIDE PLUS Canine Joint and Bones Supplement - It's disheartening to watch your dog suffer from joint pain. Joint problems in dogs reduce life qualit",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/09/1-01.jpg",
+  "sku": "PSK-15209",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.3,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/09/1-01.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }
