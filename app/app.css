@@ -1529,6 +1529,74 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap: 0.75rem;
   }
+
+  /* Mobile Navbar Spacing and Layout Override */
+  .navbar {
+    padding: 0.25rem 0 !important;
+  }
+
+  .navbar-inner {
+    padding: 0 1rem !important;
+    gap: 0.75rem !important;
+    min-height: 48px !important;
+  }
+
+  .navbar-hamburger-btn {
+    font-size: 1.25rem !important;
+    padding: 0.25rem !important;
+  }
+
+  .navbar-logo-white img {
+    height: 30px !important;
+  }
+
+  .nav-search-form {
+    max-width: none !important;
+  }
+
+  .nav-search-wrapper {
+    height: 36px !important;
+    border-radius: 8px !important;
+  }
+
+  .nav-search-btn {
+    width: 42px !important;
+  }
+
+  .nav-search-btn svg {
+    width: 15px !important;
+    height: 15px !important;
+  }
+
+  .navbar-actions {
+    gap: 0.85rem !important;
+  }
+
+  .account-nav-btn,
+  .cart-nav-btn {
+    padding: 0.25rem !important;
+  }
+
+  .account-nav-btn i,
+  .cart-nav-btn i {
+    font-size: 24px !important;
+  }
+
+  .cart-nav-btn span {
+    top: -4px !important;
+    right: -8px !important;
+    width: 18px !important;
+    height: 18px !important;
+    font-size: 11px !important;
+  }
+
+  .green-dot {
+    bottom: -3px !important;
+    right: -3px !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-width: 1.5px !important;
+  }
 }
 
 /* ── Cart Drawer Styles ── */
