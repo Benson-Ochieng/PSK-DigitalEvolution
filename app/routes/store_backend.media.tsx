@@ -17,70 +17,16 @@ export async function loader({ request }: { request: Request }) {
   const { requireAdminUser } = await import("~/lib/sessions.server");
   await requireAdminUser(request);
 
+  const { syncMediaAssets, getMediaAssets } = await import("~/lib/media.server");
+  
+  // 1. Sync disk files with the database
+  await syncMediaAssets();
+
+  // 2. Fetch the synchronized assets from the database
+  const mediaItems = await getMediaAssets();
+
+  // 3. Folder structure scanner
   const ASSETS_DIR = path.join(process.cwd(), "public", "assets");
-  if (!fs.existsSync(ASSETS_DIR)) {
-    fs.mkdirSync(ASSETS_DIR, { recursive: true });
-  }
-
-  // 1. Recursive file scanner
-  const mediaItems: MediaItem[] = [];
-  const allowedExtensions = [".png", ".jpg", ".jpeg", ".webp", ".svg", ".gif", ".mp4", ".webm", ".mov", ".ogg", ".pdf", ".mp3", ".wav"];
-
-  function scanDirectory(currentDir: string) {
-    if (!fs.existsSync(currentDir)) return;
-    const files = fs.readdirSync(currentDir);
-
-    for (const file of files) {
-      const filePath = path.join(currentDir, file);
-      const stat = fs.statSync(filePath);
-
-      if (stat.isDirectory()) {
-        scanDirectory(filePath);
-      } else {
-        const ext = path.extname(file).toLowerCase();
-        if (allowedExtensions.includes(ext)) {
-          // Calculate public URL
-          const publicIndex = filePath.indexOf(path.join("public"));
-          let url = "";
-          if (publicIndex !== -1) {
-            url = filePath.substring(publicIndex + "public".length).replace(/\\/g, "/");
-          } else {
-            url = "/assets/" + path.relative(ASSETS_DIR, filePath).replace(/\\/g, "/");
-          }
-
-          // Calculate folder path relative to assets
-          const assetsIndex = filePath.indexOf(path.join("public", "assets"));
-          let folder = "root";
-          if (assetsIndex !== -1) {
-            const relativeToAssets = filePath.substring(assetsIndex + path.join("public", "assets").length);
-            const dirName = path.dirname(relativeToAssets).replace(/\\/g, "/");
-            folder = dirName === "/" || dirName === "." ? "root" : dirName.replace(/^\//, "");
-          }
-
-          let mimeType = "application/octet-stream";
-          if ([".png", ".jpg", ".jpeg", ".webp", ".gif"].includes(ext)) mimeType = `image/${ext.replace(".", "")}`;
-          else if (ext === ".svg") mimeType = "image/svg+xml";
-          else if ([".mp4", ".webm", ".mov", ".ogg"].includes(ext)) mimeType = `video/${ext.replace(".", "")}`;
-          else if (ext === ".pdf") mimeType = "application/pdf";
-          else if ([".mp3", ".wav"].includes(ext)) mimeType = `audio/${ext.replace(".", "")}`;
-
-          mediaItems.push({
-            name: file,
-            url,
-            size: stat.size,
-            date: stat.mtime.toISOString(),
-            mimeType,
-            folder,
-            fullPath: filePath,
-          });
-        }
-      }
-    }
-  }
-
-  scanDirectory(ASSETS_DIR);
-
-  // 2. Folder structure scanner
   const folders: string[] = ["root"];
   function scanFolders(currentDir: string) {
     if (!fs.existsSync(currentDir)) return;
@@ -132,6 +78,10 @@ export async function action({ request }: { request: Request }) {
         fs.writeFileSync(path.join(uploadDir, filename), buffer);
       }
     }
+    
+    const { syncMediaAssets } = await import("~/lib/media.server");
+    await syncMediaAssets();
+
     return redirect("/store_backend/media");
   }
 
@@ -148,6 +98,10 @@ export async function action({ request }: { request: Request }) {
 
     if (fs.existsSync(resolvedPath)) {
       fs.unlinkSync(resolvedPath);
+      
+      const { syncMediaAssets } = await import("~/lib/media.server");
+      await syncMediaAssets();
+
       return { success: true };
     }
     return { error: "File not found" };
@@ -165,6 +119,10 @@ export async function action({ request }: { request: Request }) {
           fs.unlinkSync(resolvedPath);
         }
       }
+      
+      const { syncMediaAssets } = await import("~/lib/media.server");
+      await syncMediaAssets();
+
       return { success: true };
     } catch (err) {
       console.error("Bulk delete failed:", err);

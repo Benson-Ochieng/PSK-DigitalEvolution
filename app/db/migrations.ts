@@ -170,5 +170,30 @@ export const migrations: Migration[] = [
 
       SELECT setval(pg_get_serial_sequence('blog_posts', 'id'), COALESCE(max(id), 1)) FROM blog_posts;
     `
+  },
+  {
+    id: 3,
+    name: 'create_media_assets',
+    up: `
+      CREATE TABLE IF NOT EXISTS media_assets (
+        id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+        name TEXT NOT NULL,
+        url TEXT NOT NULL UNIQUE,
+        size INTEGER NOT NULL,
+        mime_type TEXT NOT NULL,
+        folder TEXT NOT NULL DEFAULT 'root',
+        full_path TEXT NOT NULL UNIQUE,
+        created_at TIMESTAMPTZ DEFAULT NOW()
+      );
+    `
+  },
+  {
+    id: 4,
+    name: 'add_media_asset_id_to_products',
+    up: `
+      ALTER TABLE products ADD COLUMN IF NOT EXISTS media_asset_id UUID REFERENCES media_assets(id);
+    `
   }
 ];
+
+

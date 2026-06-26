@@ -62,10 +62,30 @@ export async function action({ request }: Route.ActionArgs) {
 
     // Lookup customer or create
     const res = await query("SELECT * FROM customers WHERE email = $1", [email]);
-    let name = "Ben Ochieng";
+    let name = "";
     if (res.rows.length > 0) {
-      name = res.rows[0].name || name;
+      name = res.rows[0].name;
+      // If the customer name was defaulted to "Ben Ochieng", but they exist in users table, update it
+      if (name === "Ben Ochieng") {
+        const userRes = await query("SELECT * FROM users WHERE email = $1", [email]);
+        if (userRes.rows.length > 0 && userRes.rows[0].name) {
+          name = userRes.rows[0].name;
+          await query("UPDATE customers SET name = $1 WHERE email = $2", [name, email]);
+        }
+      }
     } else {
+      // Check if it's an admin/staff in users table
+      const userRes = await query("SELECT * FROM users WHERE email = $1", [email]);
+      if (userRes.rows.length > 0 && userRes.rows[0].name) {
+        name = userRes.rows[0].name;
+      } else {
+        // Derive name from email prefix
+        const prefix = email.split("@")[0];
+        name = prefix
+          .split(/[\._\-+]/)
+          .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+          .join(" ");
+      }
       await query("INSERT INTO customers (name, email) VALUES ($1, $2)", [name, email]);
     }
 
@@ -461,10 +481,6 @@ export default function MyAccount() {
 
           <PageHeader title="My Account" />
 
-          <div style={{ marginBottom: "1.5rem" }}>
-            <span style={{ fontSize: "0.85rem", color: "#3b82f6", cursor: "pointer" }}>Edit This</span>
-          </div>
-
           {/* Account Dashboard Layout Grid */}
           <div style={{ display: "grid", gridTemplateColumns: "300px 1fr", gap: "2.5rem", alignItems: "start" }}>
 
@@ -493,10 +509,10 @@ export default function MyAccount() {
                 onClick={() => setActiveTab("loyalty")}
                 style={{
                   textAlign: "left",
-                  background: activeTab === "loyalty" ? "#585447" : "#6a6659",
+                  background: activeTab === "loyalty" ? "#1a5ca3" : "#1053a0",
                   color: "#ffffff",
                   border: "none",
-                  borderBottom: "1px solid #524f44",
+                  borderBottom: "1px solid #0f4a8f",
                   padding: "0.85rem 1.25rem",
                   fontSize: "0.85rem",
                   fontWeight: 700,

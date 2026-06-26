@@ -400,11 +400,14 @@ export default function Navbar() {
       {/* Top Announcement Banner */}
       <div className="top-promo-banner">
         <Link to="/shop">
-          <img
-            src="/images/petstore-new-arrival-banner.gif"
-            alt="Take me to the new page - Click Here"
-            loading="eager"
-          />
+          <picture>
+            <source media="(max-width: 768px)" srcSet="/images/petstore-whatsapp-banner-mobile.gif" />
+            <img
+              src="/images/petstore-new-arrival-banner.gif"
+              alt="Take me to the new page - Click Here"
+              loading="eager"
+            />
+          </picture>
         </Link>
       </div>
 

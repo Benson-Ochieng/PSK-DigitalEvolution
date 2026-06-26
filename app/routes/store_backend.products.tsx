@@ -73,7 +73,11 @@ export async function loader({ request }: { request: Request }) {
     }
   }
 
-  return { allProducts, allCategories, allReviews, editingProductDetails, allBrands, allTags, allAttributes, origin: url.origin };
+  const { getMediaAssets, syncMediaAssets } = await import("~/lib/media.server");
+  await syncMediaAssets().catch(() => {});
+  const mediaAssets = await getMediaAssets();
+
+  return { allProducts, allCategories, allReviews, editingProductDetails, allBrands, allTags, allAttributes, mediaAssets, origin: url.origin };
 }
 
 export async function action({ request }: { request: Request }) {
@@ -440,6 +444,9 @@ export async function action({ request }: { request: Request }) {
     const { logHistoryEvent } = await import("~/lib/content.server");
     logHistoryEvent(user.name, "Product Quick-Edited", `Quick edited product "${slug}" (Price: KSh ${regularPrice}, Stock: ${inStock ? "instock" : "outofstock"})`, "📦");
 
+    const { syncMediaAssets } = await import("~/lib/media.server");
+    await syncMediaAssets().catch(err => console.error("Media sync error in quick edit:", err));
+
     return { success: true };
   }
 
@@ -678,6 +685,9 @@ export async function action({ request }: { request: Request }) {
 
     const { logHistoryEvent } = await import("~/lib/content.server");
     logHistoryEvent(user.name, "Product Updated", `Updated details for product "${name}" (SKU: ${sku || "N/A"})`, "📦");
+
+    const { syncMediaAssets } = await import("~/lib/media.server");
+    await syncMediaAssets().catch(err => console.error("Media sync error in save product details:", err));
 
     return redirect(`/store_backend/products?view=edit&id=${productId}&updated=true`);
   }
@@ -1218,7 +1228,7 @@ export async function action({ request }: { request: Request }) {
 import VisualCodeEditor from "~/components/VisualCodeEditor";
 
 export default function VpBackendProducts() {
-  const { allProducts, allCategories, allReviews, editingProductDetails, allBrands, allTags, allAttributes, origin } = useLoaderData() as any;
+  const { allProducts, allCategories, allReviews, editingProductDetails, allBrands, allTags, allAttributes, mediaAssets, origin } = useLoaderData() as any;
   const formatDate = (isoString: string) => {
     if (!isoString) return "";
     const d = new Date(isoString);
@@ -1250,6 +1260,12 @@ export default function VpBackendProducts() {
   // Modal edit states
   const [editingProduct, setEditingProduct] = useState<any | null>(null);
   const [editingTaxonomy, setEditingTaxonomy] = useState<{ type: "brand" | "category" | "tag" | "attribute"; item: any } | null>(null);
+
+  // Media Picker state
+  const [isMediaPickerOpen, setIsMediaPickerOpen] = useState(false);
+  const [mediaPickerTarget, setMediaPickerTarget] = useState<"thumbnail" | "quick-edit" | null>(null);
+  const [mediaSearchQuery, setMediaSearchQuery] = useState("");
+  const [selectedMediaFolder, setSelectedMediaFolder] = useState("all");
 
   // Bulk actions states
   const [selectedProductIds, setSelectedProductIds] = useState<number[]>([]);
@@ -2752,7 +2768,7 @@ export default function VpBackendProducts() {
             <input type="hidden" name="intent" value="save_product_details" />
             <input type="hidden" name="id" value={editingProductDetails.id} />
             <input type="hidden" name="originalSlug" value={editingProductDetails.slug} />
-            <input type="hidden" name="currentThumbnail" value={editingProductDetails.thumbnail} />
+            <input type="hidden" name="currentThumbnail" value={thumbnailPreviewUrl} />
 
             <div className="deep-edit-layout">
               {/* Left Column */}
@@ -3203,27 +3219,67 @@ export default function VpBackendProducts() {
                 <div className="edit-card">
                   <div className="edit-card-header">Product image</div>
                   <div className="edit-card-body" style={{ textAlign: "center" }}>
-                    <div style={{ border: "1px solid rgba(255,255,255,0.08)", borderRadius: "6px", padding: "10px", background: "rgba(0,0,0,0.2)", marginBottom: "12px" }}>
+                    <div 
+                      onClick={() => {
+                        setMediaPickerTarget("thumbnail");
+                        setIsMediaPickerOpen(true);
+                      }}
+                      style={{ border: "1px solid rgba(255,255,255,0.08)", borderRadius: "6px", padding: "10px", background: "rgba(0,0,0,0.2)", marginBottom: "12px", cursor: "pointer", position: "relative" }}
+                    >
                       <img
                         src={thumbnailPreviewUrl || "/assets/images/products/Cool-Pods.jpg"}
                         alt={nameVal}
                         style={{ maxWidth: "100%", maxHeight: "150px", objectFit: "contain", borderRadius: "4px" }}
                       />
+                      <div 
+                        style={{
+                          position: "absolute",
+                          inset: 0,
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          background: "rgba(0,0,0,0.5)",
+                          opacity: 0,
+                          transition: "opacity 0.2s",
+                          borderRadius: "6px"
+                        }}
+                        onMouseEnter={(e) => { e.currentTarget.style.opacity = "1"; }}
+                        onMouseLeave={(e) => { e.currentTarget.style.opacity = "0"; }}
+                      >
+                        <span style={{ fontSize: "11px", color: "#fff", background: "#0070f3", padding: "4px 8px", borderRadius: "4px", fontWeight: "500" }}>
+                          Choose from Media Library
+                        </span>
+                      </div>
                     </div>
-                    <input 
-                      type="file" 
-                      name="thumbnail" 
-                      accept="image/*" 
-                      style={{ fontSize: "11px", width: "100%" }} 
-                      onChange={(e) => {
-                        const file = e.target.files?.[0];
-                        if (file) {
-                          const localUrl = URL.createObjectURL(file);
-                          setThumbnailPreviewUrl(localUrl);
-                        }
+
+                    <button
+                      type="button"
+                      className="btn-action-secondary"
+                      style={{ width: "100%", marginBottom: "12px", fontSize: "12px" }}
+                      onClick={() => {
+                        setMediaPickerTarget("thumbnail");
+                        setIsMediaPickerOpen(true);
                       }}
-                    />
-                    <p style={{ fontSize: "10px", color: "rgba(255,255,255,0.4)", marginTop: "6px" }}>Click image to select or upload a new one.</p>
+                    >
+                      Browse Media Library
+                    </button>
+
+                    <div style={{ borderTop: "1px solid rgba(255,255,255,0.05)", paddingTop: "12px", marginTop: "12px" }}>
+                      <label className="admin-label" style={{ display: "block", textAlign: "left", fontSize: "11px", marginBottom: "6px" }}>Or Upload New Image</label>
+                      <input 
+                        type="file" 
+                        name="thumbnail" 
+                        accept="image/*" 
+                        style={{ fontSize: "11px", width: "100%" }} 
+                        onChange={(e) => {
+                          const file = e.target.files?.[0];
+                          if (file) {
+                            const localUrl = URL.createObjectURL(file);
+                            setThumbnailPreviewUrl(localUrl);
+                          }
+                        }}
+                      />
+                    </div>
                   </div>
                 </div>
 
@@ -4017,20 +4073,43 @@ export default function VpBackendProducts() {
               </div>
 
               <div style={{ marginBottom: "24px" }}>
-                <label className="admin-label" htmlFor="thumbnail">
-                  Replace Primary Thumbnail Image
-                </label>
-                <input
-                  className="admin-input"
-                  style={{ padding: "8px" }}
-                  type="file"
-                  id="thumbnail"
-                  name="thumbnail"
-                  accept="image/*"
-                />
-                <p style={{ fontSize: "11px", color: "rgba(255,255,255,0.4)", marginTop: "6px" }}>
-                  Selected image will be securely uploaded and overwrite the primary file.
-                </p>
+                <label className="admin-label">Product Image</label>
+                <div style={{ display: "flex", gap: "16px", alignItems: "flex-start", background: "rgba(0,0,0,0.2)", padding: "12px", borderRadius: "8px", border: "1px solid rgba(255,255,255,0.05)" }}>
+                  <img
+                    src={editingProduct.thumbnail || "/assets/images/products/Cool-Pods.jpg"}
+                    alt={editingProduct.name}
+                    style={{ width: "80px", height: "80px", objectFit: "contain", borderRadius: "4px", background: "rgba(0,0,0,0.3)", border: "1px solid rgba(255,255,255,0.08)" }}
+                  />
+                  <div style={{ flex: 1 }}>
+                    <button
+                      type="button"
+                      className="btn-action-secondary"
+                      style={{ fontSize: "11px", padding: "6px 12px", marginBottom: "8px", width: "100%" }}
+                      onClick={() => {
+                        setMediaPickerTarget("quick-edit");
+                        setIsMediaPickerOpen(true);
+                      }}
+                    >
+                      Browse Media Library
+                    </button>
+                    
+                    <label className="admin-label" style={{ fontSize: "10px", marginBottom: "4px", display: "block" }}>Or Upload New Image:</label>
+                    <input
+                      style={{ padding: "4px", fontSize: "11px", width: "100%" }}
+                      type="file"
+                      id="thumbnail"
+                      name="thumbnail"
+                      accept="image/*"
+                      onChange={(e) => {
+                        const file = e.target.files?.[0];
+                        if (file) {
+                          const localUrl = URL.createObjectURL(file);
+                          setEditingProduct({ ...editingProduct, thumbnail: localUrl });
+                        }
+                      }}
+                    />
+                  </div>
+                </div>
               </div>
 
               <div
@@ -4277,6 +4356,145 @@ export default function VpBackendProducts() {
                 </button>
               </div>
             </Form>
+          </div>
+        </div>
+      )}
+
+      {/* MEDIA PICKER MODAL */}
+      {isMediaPickerOpen && (
+        <div className="modal-overlay" style={{ zIndex: 1100 }} onClick={() => setIsMediaPickerOpen(false)}>
+          <div className="modal-content" style={{ width: "90%", maxWidth: "900px", display: "flex", flexDirection: "column", height: "80vh", background: "#111", border: "1px solid rgba(255,255,255,0.08)", borderRadius: "12px", overflow: "hidden" }} onClick={(e) => e.stopPropagation()}>
+            <div className="modal-header" style={{ padding: "16px 20px", display: "flex", justifyContent: "space-between", alignItems: "center", borderBottom: "1px solid rgba(255,255,255,0.05)" }}>
+              <h3 style={{ fontSize: "16px", fontWeight: "600", color: "#fff" }}>
+                Select Image from Media Library
+              </h3>
+              <button
+                type="button"
+                className="modal-close-btn"
+                onClick={() => setIsMediaPickerOpen(false)}
+                style={{ background: "none", border: "none", color: "rgba(255,255,255,0.6)", fontSize: "20px", cursor: "pointer" }}
+              >
+                &times;
+              </button>
+            </div>
+
+            {/* Toolbar: Search & Folder Filter */}
+            <div style={{ display: "flex", gap: "12px", padding: "12px 20px", background: "rgba(0,0,0,0.2)", borderBottom: "1px solid rgba(255,255,255,0.05)" }}>
+              <input
+                type="text"
+                placeholder="Search media files..."
+                value={mediaSearchQuery}
+                onChange={(e) => setMediaSearchQuery(e.target.value)}
+                style={{
+                  flex: 1,
+                  background: "rgba(255,255,255,0.05)",
+                  border: "1px solid rgba(255,255,255,0.08)",
+                  borderRadius: "6px",
+                  padding: "8px 12px",
+                  color: "#fff",
+                  fontSize: "13px"
+                }}
+              />
+              <select
+                value={selectedMediaFolder}
+                onChange={(e) => setSelectedMediaFolder(e.target.value)}
+                style={{
+                  background: "rgba(255,255,255,0.05)",
+                  border: "1px solid rgba(255,255,255,0.08)",
+                  borderRadius: "6px",
+                  padding: "8px 12px",
+                  color: "#fff",
+                  fontSize: "13px"
+                }}
+              >
+                <option value="all">All Folders</option>
+                {Array.from(new Set((mediaAssets || []).map((m: any) => m.folder))).map((folder: any) => (
+                  <option key={folder} value={folder}>{folder === "root" ? "Root" : folder}</option>
+                ))}
+              </select>
+            </div>
+
+            {/* Grid display */}
+            <div style={{ flex: 1, overflowY: "auto", padding: "20px" }}>
+              {(() => {
+                const filteredMedia = (mediaAssets || []).filter((m: any) => {
+                  const matchesSearch = m.name.toLowerCase().includes(mediaSearchQuery.toLowerCase());
+                  const matchesFolder = selectedMediaFolder === "all" || m.folder === selectedMediaFolder;
+                  const isImage = (m.mimeType || "").startsWith("image/");
+                  return matchesSearch && matchesFolder && isImage;
+                });
+
+                if (filteredMedia.length === 0) {
+                  return (
+                    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", height: "100%", color: "rgba(255,255,255,0.4)" }}>
+                      <p>No images found in your Media Library.</p>
+                      <p style={{ fontSize: "12px", marginTop: "4px" }}>Upload them under the Media tab first.</p>
+                    </div>
+                  );
+                }
+
+                return (
+                  <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(120px, 1fr))", gap: "16px" }}>
+                    {filteredMedia.map((media: any) => (
+                      <div
+                        key={media.id || media.url}
+                        onClick={() => {
+                          if (mediaPickerTarget === "thumbnail") {
+                            setThumbnailPreviewUrl(media.url);
+                          } else if (mediaPickerTarget === "quick-edit" && editingProduct) {
+                            setEditingProduct({ ...editingProduct, thumbnail: media.url });
+                          }
+                          setIsMediaPickerOpen(false);
+                        }}
+                        style={{
+                          border: "2px solid rgba(255,255,255,0.08)",
+                          borderRadius: "8px",
+                          overflow: "hidden",
+                          aspectRatio: "1/1",
+                          cursor: "pointer",
+                          position: "relative",
+                          background: "#000",
+                          transition: "border-color 0.2s"
+                        }}
+                        onMouseEnter={(e) => { e.currentTarget.style.borderColor = "#0070f3"; }}
+                        onMouseLeave={(e) => { e.currentTarget.style.borderColor = "rgba(255,255,255,0.08)"; }}
+                      >
+                        <img
+                          src={media.url}
+                          alt={media.name}
+                          style={{ width: "100%", height: "100%", objectFit: "contain" }}
+                        />
+                        <div style={{
+                          position: "absolute",
+                          bottom: 0,
+                          left: 0,
+                          right: 0,
+                          background: "rgba(0,0,0,0.75)",
+                          color: "#fff",
+                          fontSize: "10px",
+                          padding: "4px 8px",
+                          whiteSpace: "nowrap",
+                          overflow: "hidden",
+                          textOverflow: "ellipsis"
+                        }}>
+                          {media.name}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                );
+              })()}
+            </div>
+
+            <div style={{ padding: "16px 20px", display: "flex", justifyContent: "flex-end", borderTop: "1px solid rgba(255,255,255,0.05)", background: "rgba(0,0,0,0.15)" }}>
+              <button
+                type="button"
+                className="btn-action-secondary"
+                onClick={() => setIsMediaPickerOpen(false)}
+              >
+                Cancel
+              </button>
+            </div>
           </div>
         </div>
       )}

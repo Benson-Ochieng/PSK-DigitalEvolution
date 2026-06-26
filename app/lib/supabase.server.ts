@@ -249,8 +249,11 @@ export async function pullFromSupabase() {
       console.error("Error pulling orders from Supabase:", ordersErr);
       // Suppress/bypass fatal errors during boot sync if table has not populated yet
     } else if (orders && orders.length > 0) {
-      fs.writeFileSync(path.join(CONTENT_DIR, "orders.json"), JSON.stringify(orders, null, 2), "utf-8");
-      console.log(`Pulled ${orders.length} orders from Supabase.`);
+      const { data: orderItems } = await supabase.from("order_items").select();
+      const { ensureOrderFormat } = await import("./db.server");
+      const cleanOrders = orders.map((o: any) => ensureOrderFormat(o, orderItems || []));
+      fs.writeFileSync(path.join(CONTENT_DIR, "orders.json"), JSON.stringify(cleanOrders, null, 2), "utf-8");
+      console.log(`Pulled ${cleanOrders.length} orders from Supabase.`);
     }
 
     // 4. Pull Products
