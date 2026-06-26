@@ -2,14 +2,12 @@
   "id": 19759,
   "name": "Rogz Dog Bubble Bowl 400ml - Pink Love Print",
   "slug": "rogz-dog-bubble-bowl-400ml-pink-love-print",
-  "sku": "BOWL103-CK",
   "onSale": false,
-  "price": 3150,
-  "regularPrice": 3150,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/BOWL103-CK.jpg",
   "categories": [
     {
       "id": 2345,
@@ -27,51 +25,18 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2072,
-      "name": "Bowls",
-      "slug": "bowls"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=19759",
-  "shortDescription": "Rogz Bubble Bowl",
   "description": "Rogz Bubble Bowl is a classic two-in-one design. A removable stainless steel inner bowl makes it easy to provide both food and water at the same time. 1. Top ? non-toxic stainless steel bowl 2. Bottom ? striking design melamine bowl Made with a non-skid silicone base, this bowl is easy to clean and durable. UV and corrosion resistant make it a 100% non-harmful option for your pet. Available in various colours and 3 sizes Size and volume: Small ? 160ml",
-  "images": [
-    {
-      "id": 19733,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/BOWL103-CK.jpg",
-      "alt": "Rogz Dog Bubble Bowl 400ml - Pink Love Print",
-      "name": "BOWL103-CK"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-bubble-bowl-400ml-pink-love-print/?add-to-cart=19759",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2021-04-07T18:12:09",
-  "dateModified": "2026-05-06T17:07:15",
-  "brand": null,
-  "weight_kg": 0.6,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/BOWL103-CK.jpg"
+  "catalogVisibility": "visible"
 }

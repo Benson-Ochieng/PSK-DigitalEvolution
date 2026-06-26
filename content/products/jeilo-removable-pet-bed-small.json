@@ -2,14 +2,12 @@
   "id": 20320,
   "name": "Jeilo removable pet bed - small",
   "slug": "jeilo-removable-pet-bed-small",
-  "sku": "JPBRS",
   "onSale": false,
-  "price": 3500,
-  "regularPrice": 3500,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/JBPR1.png",
   "categories": [
     {
       "id": 2325,
@@ -32,83 +30,18 @@
       "slug": "dog-beds-furniture"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2082,
-      "name": "Beds",
-      "slug": "beds"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2109,
-      "name": "Small breeds",
-      "slug": "small-breeds"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=20320",
-  "shortDescription": "Jeilo removable pet bed – small",
   "description": "The Jeilo small removable cushion pet bed is a versatile and stylish outdoor spec bed for your mini and small pet. The cushion is covered with Ankara material and filled with soft fiber. The cushion detaches completely from the waterproof base for easier cleaning. The Dimensions for the small bed are: 23\"W x 24\"L x 5\"H",
-  "images": [
-    {
-      "id": 20311,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/JBPR1.png",
-      "alt": "Jeilo removable pet bed small1",
-      "name": "Jeilo removable pet bed  small1"
-    },
-    {
-      "id": 20314,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/JBPR3.png",
-      "alt": "Jeilo removable pet bed 2",
-      "name": "Jeilo removable pet bed 2"
-    },
-    {
-      "id": 20312,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/JBPR2.png",
-      "alt": "jeilo removable pet bed 2",
-      "name": "jeilo removable pet bed 2"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/jeilo-removable-pet-bed-small/?add-to-cart=20320",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2021-04-26T21:54:19",
-  "dateModified": "2026-05-06T17:07:21",
-  "brand": null,
-  "weight_kg": 3,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/JBPR1.png"
+  "catalogVisibility": "visible"
 }

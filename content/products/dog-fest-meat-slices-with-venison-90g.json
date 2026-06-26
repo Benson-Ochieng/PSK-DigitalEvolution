@@ -2,14 +2,12 @@
   "id": 27267,
   "name": "Dog Fest Meat Slices With Venison (90G)",
   "slug": "dog-fest-meat-slices-with-venison-90g",
-  "sku": "DF028",
   "onSale": false,
-  "price": 290,
-  "regularPrice": 290,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/DF028.jpg",
   "categories": [
     {
       "id": 2345,
@@ -27,56 +25,18 @@
       "slug": "dog-treats"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1034,
-      "name": "large breed",
-      "slug": "large-breed"
-    },
-    {
-      "id": 2109,
-      "name": "Small breeds",
-      "slug": "small-breeds"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=27267",
-  "shortDescription": "Dog Fest Meat Slices With Venison for Adult Dogs (90G)",
   "description": "Nature calling! The mix of venison and duck will let your dog experience what wildlife tastes like. Mouth-watering treats are just perfect for training or as a treat on the go. Composition: duck, venison, vegetable by-products, minerals. Analytical constituents, %: crude protein 28, crude fat 12, crude fiber 1, crude ash 5, moisture 21",
-  "images": [
-    {
-      "id": 27250,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/DF028.jpg",
-      "alt": "Dog Fest Meat Slices With Venison (90G)",
-      "name": "DF028"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/dog-fest-meat-slices-with-venison-90g/?add-to-cart=27267",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2022-04-20T16:20:47",
-  "dateModified": "2026-05-06T17:08:05",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/DF028.jpg"
+  "catalogVisibility": "visible"
 }

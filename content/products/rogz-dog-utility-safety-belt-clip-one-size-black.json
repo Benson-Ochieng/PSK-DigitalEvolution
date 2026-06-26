@@ -2,14 +2,12 @@
   "id": 24548,
   "name": "Rogz Dog Utility Safety Belt Clip (One Size) - Black (SBC19-A)",
   "slug": "rogz-dog-utility-safety-belt-clip-one-size-black",
-  "sku": "SBC19-A",
   "onSale": false,
-  "price": 885,
-  "regularPrice": 885,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/SBC19-A-Car-Safe-Seat-Belt-Clip.jpg",
   "categories": [
     {
       "id": 1204,
@@ -37,56 +35,18 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1919,
-      "name": "Leashes",
-      "slug": "leash"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=24548",
-  "shortDescription": "Rogz Safety belt Clip (black) – For use with Rogs Harnesses",
   "description": "ROGZ Safety Belt Clip for those of you who take your driving and safety seriously. Just slip the seatbelt through the loop of the Safety Belt Clip, clip it onto your dog's ROGZ Harness (not collar), and enjoy stress free driving!",
-  "images": [
-    {
-      "id": 24568,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/SBC19-A-Car-Safe-Seat-Belt-Clip.jpg",
-      "alt": "Rogz Dog Utility Safety Belt Clip (One Size) - Black (SBC19-A)",
-      "name": "SBC19-A-Car-Safe-Seat-Belt-Clip.jpg"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-safety-belt-clip-one-size-black/?add-to-cart=24548",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2022-01-15T21:40:29",
-  "dateModified": "2026-05-06T17:07:49",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/SBC19-A-Car-Safe-Seat-Belt-Clip.jpg"
+  "catalogVisibility": "visible"
 }

@@ -2,14 +2,12 @@
   "id": 12700,
   "name": "Reflex Dog Treats - Mega Chew Filled Roll Snacks with Chicken (3 filled rolls) 300g",
   "slug": "reflex-dog-treats-mega-chew-filled-roll-snacks-with-chicken-3-filled-rolls-300g",
-  "sku": "RDMCFRSP300",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Dog-Treats-Mega-Chew-Filled-Roll-Snacks-with-Chicken-300g-min.png",
   "categories": [
     {
       "id": 2345,
@@ -32,57 +30,18 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
-    {
-      "id": 2015,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=12700",
-  "shortDescription": "Reflex Dog Treats – Mega Chew Filled Roll Snacks with Chicken , Reward good behaviour with these fun and delicious treats made with the highest quality ingredients and bursting with flavour.",
   "description": "Reflex Dog Treats - Mega Chew Filled Roll Snacks with Chicken (3 filled rolls) , Reward good behaviour with these fun and delicious treats made with the highest quality ingredients and bursting with flavour. INGREDIENTS: Cereals, meat and animal derivatives, vegetable protein extracts, vegetable derivatives (0,4% inulin), various sugars, oils and fats, minerals (1% dicalciumphosphate), milk and milk derivatives. NUTRIENT COMPONENTS Crude Protein (%) - 18 Crude Fat (%) - 5 Crude Ash (%) - 4.5 Crude Fiber (%) - 2 Moisture Content (%) - 22 Vitamin D3 - 200 IU Vitamin E - 15 mg FEEDING RECOMMENDATIONS: Recommended as an additional snack, ensure that fresh drinking water is always available. Please watch your dog while chewing. Store cool, dry and keep away from strong odours.",
-  "images": [
-    {
-      "id": 12702,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Dog-Treats-Mega-Chew-Filled-Roll-Snacks-with-Chicken-300g-min.png",
-      "alt": "Reflex Dog Treats - Mega Chew Filled Roll Snacks with Chicken (3 filled rolls) 300g",
-      "name": "Reflex Dog Treats Mega Chew Filled Roll Snacks with Chicken 300g-min"
-    }
-  ],
-  "stockStatus": "outofstock",
-  "lowStockRemaining": 10,
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-dog-treats-mega-chew-filled-roll-snacks-with-chicken-3-filled-rolls-300g/?add-to-cart=12700",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2020-04-09T11:39:12",
-  "dateModified": "2026-05-06T17:06:34",
-  "brand": "Reflex",
-  "weight_kg": 0.3,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Dog-Treats-Mega-Chew-Filled-Roll-Snacks-with-Chicken-300g-min.png"
+  "catalogVisibility": "visible"
 }

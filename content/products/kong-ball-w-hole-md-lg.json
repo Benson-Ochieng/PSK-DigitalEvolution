@@ -2,14 +2,12 @@
   "id": 16529,
   "name": "KONG Ball W/Hole Md/Lg - Red",
   "slug": "kong-ball-w-hole-md-lg",
-  "sku": "KB1",
   "onSale": false,
-  "price": 1900,
-  "regularPrice": 1900,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/12/Kong-Ball-MD-LG.png",
   "categories": [
     {
       "id": 2345,
@@ -37,56 +35,18 @@
       "slug": "toys"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=16529",
-  "shortDescription": "KONG Ball with hole Med/Large",
   "description": "The KONGBall wins the fetching game for your dog! Durable, bouncy, natural KONGClassic rubber gives it a bounce for fun games of fetch, delivering tons of healthy and interactive play. KONGScrunch Knots are realistic pet toys that keep dogs coming back for more. Plush material scrunches around the internal coiled rope, while stretchy sides create natural movement to entice play. The internal knots satisfy natural instincts and these toys contain no stuffing for less mess. Squeaks for added enjoyment! Covered by KONGSatisfaction Guarantee. See KONGSatisfaction Guarantee document below for full details.",
-  "images": [
-    {
-      "id": 16677,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/12/Kong-Ball-MD-LG.png",
-      "alt": "KONG Ball with hole Med/Large",
-      "name": "Kong Ball MD &#8211; LG"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/kong-ball-w-hole-md-lg/?add-to-cart=16529",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2020-12-06T13:54:37",
-  "dateModified": "2026-05-06T17:06:41",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/12/Kong-Ball-MD-LG.png"
+  "catalogVisibility": "visible"
 }

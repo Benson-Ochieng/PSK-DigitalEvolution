@@ -2,14 +2,12 @@
   "id": 19818,
   "name": "Bio Petactive Aloe Vera Dog Shampoo 400ml",
   "slug": "bio-petactive-aloe-vera-dog-shampoo-400ml",
-  "sku": "BPAVDS400",
   "onSale": false,
-  "price": 900,
-  "regularPrice": 900,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/BPAVDS400.jpg",
   "categories": [
     {
       "id": 2345,
@@ -27,66 +25,18 @@
       "slug": "dog-flea-tick"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1149,
-      "name": "flea & tick",
-      "slug": "flea-tick"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 675,
-      "name": "sensitive skin",
-      "slug": "sensitive-skin"
-    },
-    {
-      "id": 2025,
-      "name": "shampoo",
-      "slug": "shampoo"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=19818",
-  "shortDescription": "Bio Petactive Aloe Vera Dog Shampoo 400ml",
   "description": "Bio PetActive ? Aloe Vera is a shampoo with Aloe Vera Extract for dogs. It is a cleansing, moisturizing care shampoo for your dog with carefully selected surfactants and Aloe Vera. It is suitable for long and short fur dogs. With its Aloe Vera extract and other ingredients, it nourishes the skin and fur of sensitive skinned dogs, giving them extra strength and shine. Its pH balanced formulation and effective moisturizing property keeps the skin moist and prevents dryness",
-  "images": [
-    {
-      "id": 19781,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/BPAVDS400.jpg",
-      "alt": "Bio Petactive Aloe Vera Dog Shampoo 400ml",
-      "name": "BPAVDS400"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/bio-petactive-aloe-vera-dog-shampoo-400ml/?add-to-cart=19818",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2021-04-08T15:00:30",
-  "dateModified": "2026-05-06T17:07:15",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/BPAVDS400.jpg"
+  "catalogVisibility": "visible"
 }

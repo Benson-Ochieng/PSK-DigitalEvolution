@@ -2,14 +2,12 @@
   "id": 14851,
   "name": "SHORT EXPIRY - CLEARANCE: Reflex Dog Treats - Stick Treats, gain Free Salmon (3 Sticks x 11g) 33g",
   "slug": "short-expiry-clearance-reflex-dog-treats-stick-treats-grain-free-salmon-3-sticks-x-11g-33g",
-  "sku": "RDT005@SE",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/03/Reflex-Adult-Dog-Treat-Grain-Free-Salmon-33g-min-1.png",
   "categories": [
     {
       "id": 1304,
@@ -37,57 +35,18 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
-    {
-      "id": 2575,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=14851",
-  "shortDescription": "Reflex Dog Stick Treats with Salmon are grain-free and made from delicious real salmon . Pack of 3 sticks. High-protein and low-fat. Reward good behaviour with these fun and delicious treats made with the highest quality ingredients and bursting with flavour.",
   "description": "Reflex Dog Stick Treats with Salmon are? grain-free and made from delicious real salmon. These high-protein, low-fat stick treats promote healthy chewing. Reward good behaviour with these fun and delicious treats made with the highest quality ingredients and bursting with flavour. Pack of 3 sticks. INGREDIENTS: Meat and animal derivatives, fish and fish derivatives (6% salmon), minerals. NUTRIENT COMPONENTS Crude Protein (%) - 33.5 Oil Content (%) - 20 Crude Ash (%) - 10 Crude Fiber (%) - 2 Moisture Content (%) 28 FEEDING RECOMMENDATIONS: Treats may be given as an additional snack. This product does not replace full-dog food daily. Dog Size Nutrition Recommendation Small up to 1 stick Medium Up to 2 sticks Large up to 3 sticks",
-  "images": [
-    {
-      "id": 12099,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/03/Reflex-Adult-Dog-Treat-Grain-Free-Salmon-33g-min-1.png",
-      "alt": "Reflex Adult Dog Treat Grain Free Salmon 33g min 1",
-      "name": "Reflex Adult Dog Treat Grain Free Salmon 33g min 1"
-    }
-  ],
-  "stockStatus": "outofstock",
-  "lowStockRemaining": 10,
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-reflex-dog-treats-stick-treats-grain-free-salmon-3-sticks-x-11g-33g/?add-to-cart=14851",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2020-08-20T15:22:04",
-  "dateModified": "2026-05-06T17:06:36",
-  "brand": "Reflex",
-  "weight_kg": 0.033,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/03/Reflex-Adult-Dog-Treat-Grain-Free-Salmon-33g-min-1.png"
+  "catalogVisibility": "visible"
 }

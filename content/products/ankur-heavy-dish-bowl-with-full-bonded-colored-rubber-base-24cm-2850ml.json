@@ -2,14 +2,12 @@
   "id": 29417,
   "name": "Ankur Heavy Dish Bowl With Full Bonded Colored Rubber Base 24cm (2850ml)",
   "slug": "ankur-heavy-dish-bowl-with-full-bonded-colored-rubber-base-24cm-2850ml",
-  "sku": "AEHDASFRBC-05",
   "onSale": false,
-  "price": 1450,
-  "regularPrice": 1450,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-Heavy-Bondend-Bowl.png",
   "categories": [
     {
       "id": 2041,
@@ -37,51 +35,18 @@
       "slug": "dog-bowls-feeders"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2072,
-      "name": "Bowls",
-      "slug": "bowls"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=29417",
-  "shortDescription": "ANKUR HEAVY DISH BOWL WITH FULL BONDED COLORED RUBBER BASE",
   "description": "ANKUR HEAVY DISH WITH FULL BONDED COLORED RUBBER BASE",
-  "images": [
-    {
-      "id": 29412,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-Heavy-Bondend-Bowl.png",
-      "alt": "Ankur Heavy Dish Bowl With Full Bonded Colored Rubber Base 27cm (3900ml)",
-      "name": "Ankur Heavy Bondend Bowl"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/ankur-heavy-dish-bowl-with-full-bonded-colored-rubber-base-24cm-2850ml/?add-to-cart=29417",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2022-06-29T11:22:02",
-  "dateModified": "2026-05-06T17:08:18",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-Heavy-Bondend-Bowl.png"
+  "catalogVisibility": "visible"
 }

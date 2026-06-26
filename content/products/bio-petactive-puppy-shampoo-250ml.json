@@ -2,14 +2,12 @@
   "id": 24050,
   "name": "Bio PetActive Puppy Shampoo - 250Ml",
   "slug": "bio-petactive-puppy-shampoo-250ml",
-  "sku": "BPPS250",
   "onSale": false,
-  "price": 650,
-  "regularPrice": 650,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Bio-Petactive-Puppy-250ml-01.jpg",
   "categories": [
     {
       "id": 2332,
@@ -17,51 +15,18 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2025,
-      "name": "shampoo",
-      "slug": "shampoo"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=24050",
-  "shortDescription": "Bio PetActive Puppy Shampoo with its chamomile extract and cleansing substances in shampoo formula, it nourishes the skin and fur, giving them extra strength and shine.",
   "description": "Bio PetActive Puppy Shampoo with its chamomile extract and cleansing substances in shampoo formula, it nourishes the skin and fur, giving them extra strength and shine.",
-  "images": [
-    {
-      "id": 24051,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/12/Bio-Petactive-Puppy-250ml-01.jpg",
-      "alt": "Bio PetActive Puppy Shampoo - 250Ml",
-      "name": "Bio Petactive Puppy 250ml-01"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/bio-petactive-puppy-shampoo-250ml/?add-to-cart=24050",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2021-12-28T12:24:51",
-  "dateModified": "2026-05-06T17:07:47",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/12/Bio-Petactive-Puppy-250ml-01.jpg"
+  "catalogVisibility": "visible"
 }

@@ -2,14 +2,12 @@
   "id": 27078,
   "name": "Dog Fest Beef Slices 55G",
   "slug": "dog-fest-beef-slices-55g",
-  "sku": "DF006",
   "onSale": false,
-  "price": 260,
-  "regularPrice": 260,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/DF006.jpg",
   "categories": [
     {
       "id": 2345,
@@ -27,51 +25,18 @@
       "slug": "dog-treats"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2109,
-      "name": "Small breeds",
-      "slug": "small-breeds"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=27078",
-  "shortDescription": "Dog Fest Beef Slices for Small breeds 55G",
   "description": "High in protein, tender beef slices are a perfect reward for dog training. You can decide yourself how big is the piece your pooch should get. Just don't get them spoiled. Composition: beef, vegetable by-products, minerals. Analytical constituents, %: crude protein 28, crude fat 5, crude fiber 0.2, crude ash 4.5, moisture 23.",
-  "images": [
-    {
-      "id": 27085,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/DF006.jpg",
-      "alt": "Dog Fest Beef Slices 55G",
-      "name": "DF006"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/dog-fest-beef-slices-55g/?add-to-cart=27078",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2022-04-20T16:20:52",
-  "dateModified": "2026-05-06T17:08:03",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/DF006.jpg"
+  "catalogVisibility": "visible"
 }

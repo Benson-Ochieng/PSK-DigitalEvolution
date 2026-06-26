@@ -2,14 +2,12 @@
   "id": 12683,
   "name": "Reflex Dog Treats - Chew Strips with Beef 200g (20 strips)",
   "slug": "reflex-dog-treats-chew-strips-with-beef-200g-20-strips",
-  "sku": "RDT020",
-  "onSale": true,
-  "price": 205,
-  "regularPrice": 415,
-  "salePrice": 205,
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Dog-Treats-Chewing-Strips-with-Beef-200g-min.png",
   "categories": [
     {
       "id": 2345,
@@ -32,57 +30,18 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
-    {
-      "id": 2249,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=12683",
-  "shortDescription": "Reflex Dog Treats – Chew Strips with Beef , Reward good behaviour with these fun and delicious treats made with the highest quality ingredients and bursting with flavour. Pack of 20 chew strips.",
   "description": "Reflex Dog Treats - Chew Strips with Beef , Reward good behaviour with these fun and delicious treats made with the highest quality ingredients and bursting with flavour. Pack of 20 chew strips. INGREDIENTS: Meat and animal derivatives (20% beef meat), cereals, derivatives of vegetable origin (0,4% Inulin), oils and fats, minerals. NUTRIENT COMPONENTS Crude Protein (%) - 30 Oil Content (%) - 8 Crude Ash (%) - 8 Crude Fiber (%) - 2 Moisture Content (%) - 22.5 Vitamin A - 5,000 IE Vitamin D3 - 500 IU Vitamin E - 30 mg Zinc (as Zinc sulphate, Monohydrate) - 50 mg Copper (Copper II Sulphate, Pentahydrate) - 12 mg FEEDING RECOMMENDATIONS: Feed as a snack or treat between meals. This product does not replace full-dog food daily. Once open, keep package tightly closed. Store in a cool, dry place.",
-  "images": [
-    {
-      "id": 12685,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Dog-Treats-Chewing-Strips-with-Beef-200g-min.png",
-      "alt": "Reflex Dog Treats - Chew Strips with Beef 200g (20 strips)",
-      "name": "Reflex Dog Treats Chewing Strips with Beef 200g-min"
-    }
-  ],
-  "stockStatus": "outofstock",
-  "lowStockRemaining": 10,
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-dog-treats-chew-strips-with-beef-200g-20-strips/?add-to-cart=12683",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2020-04-08T16:48:26",
-  "dateModified": "2026-05-06T17:06:32",
-  "brand": "Reflex",
-  "weight_kg": 0.2,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Dog-Treats-Chewing-Strips-with-Beef-200g-min.png"
+  "catalogVisibility": "visible"
 }

@@ -2,14 +2,12 @@
   "id": 17987,
   "name": "Rogz Dog Utility Step In Harness Medium -Yellow",
   "slug": "rogz-dog-utility-step-in-harness-medium-yellow",
-  "sku": "SSJ11-H",
   "onSale": false,
-  "price": 2200,
-  "regularPrice": 2200,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/SSJ11-H-Snake-DayGlo.jpg",
   "categories": [
     {
       "id": 2351,
@@ -32,41 +30,18 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2318,
-      "name": "Harnesses",
-      "slug": "harness"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=17987",
-  "shortDescription": "Rogz Dog Utility Step In Harness Medium -Yellow",
   "description": "Rogz Utility Step-In Reflective Dog Harness has a reflective yarn woven into the webbing for night time visibility so that everyone is aware that you & your dog are on an outing. Key Features: Reflective Stitching: Reflective yarn is woven into the webbing for nighttime visibility RogLoc: The Fort Knox of release buckles Low Load Technology: LLT technology reduces the load on the Titanium Plastic buckle through a cleverly positioned load ring Contoured Plastic Component: ROGZ rounded contoured plastic components ensure that every ROGZ collar fits snugly Die-Cast Ring: Custom designed die cast ring (no welding). Electroplated chrome for a tarnish free finish Size: Large 16mm. (Girth measurement of 32-52cm)",
-  "images": [
-    {
-      "id": 17948,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/SSJ11-H-Snake-DayGlo.jpg",
-      "alt": "Rogz Dog Utility Step In Harness Medium -Yellow",
-      "name": "SSJ11-H Snake DayGlo"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-step-in-harness-medium-yellow/?add-to-cart=17987",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2021-01-13T19:18:04",
-  "dateModified": "2026-05-06T17:07:07",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/SSJ11-H-Snake-DayGlo.jpg"
+  "catalogVisibility": "visible"
 }

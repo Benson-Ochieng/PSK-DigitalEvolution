@@ -2,14 +2,12 @@
   "id": 17512,
   "name": "Rogz Dog Utility Side Release Collar Medium - Pink",
   "slug": "rogz-dog-utility-side-release-collar-medium-pink",
-  "sku": "HB11-K",
   "onSale": false,
-  "price": 1150,
-  "regularPrice": 1150,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/HB11-K-Snake-Pink.jpg",
   "categories": [
     {
       "id": 2351,
@@ -32,51 +30,18 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2065,
-      "name": "Collars",
-      "slug": "collar"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=17512",
-  "shortDescription": "Rogz Utility Side Release collar – Medium Pink",
   "description": "Rogz Utility Side Release Reflective Dog Collar has a reflective yarn woven into the webbing for night time visibility so that everyone is aware that you & your dog are on an outing. Key Features: Reflective Stitching: Reflective yarn is woven into the webbing for nighttime visibility RogLoc: The Fort Knox of release buckles Low Load Technology: LLT technology reduces the load on the Titanium Plastic buckle through a cleverly positioned load ring Contoured Plastic Component: ROGZ rounded contoured plastic components ensure that every ROGZ collar fits snugly Die-Cast Ring: Custom designed die cast ring (no welding). Electroplated chrome for a tarnish free finish Size: Medium 16mm (Neck Size: 35 - 45cm)",
-  "images": [
-    {
-      "id": 17475,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/HB11-K-Snake-Pink.jpg",
-      "alt": "Rogz Dog Utility Side Release Collar Medium - Pink",
-      "name": "HB11-K Snake Pink"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-side-release-collar-medium-pink/?add-to-cart=17512",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2021-01-09T18:59:09",
-  "dateModified": "2026-05-06T17:06:59",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/HB11-K-Snake-Pink.jpg"
+  "catalogVisibility": "visible"
 }

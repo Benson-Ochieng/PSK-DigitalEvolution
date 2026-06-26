@@ -2,14 +2,12 @@
   "id": 37938,
   "name": "Biolinegoat Milk For Dog & Cat 200g",
   "slug": "bioline-goat-milk-for-dog-cat-200g",
-  "sku": "BLGM200",
   "onSale": false,
-  "price": 1800,
-  "regularPrice": 1800,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/06/Goat-milk-200g.png",
   "categories": [
     {
       "id": 2332,
@@ -17,51 +15,18 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=37938",
-  "shortDescription": "Bioline Goat Milk powder is a dairy substitute for nursing cats and dogs. Goat’s milk is hypoallergenic, rapidly increasing probiotics and boosting immunity, aids digestion and absorption, and maintains intestinal health.",
   "description": "Bioline Goat Milk powder with probiotic plus special love and care for pets Nutritionally rich pasture milk, an ideal newborn puppy and kitten formular, can also replace breastfeeding with good nutritional value and easy absorption, according to the digestive characteristics of dogs and cats, lactase is added to breakdown lactose so as to reduce the gastrointestinal discomfort caused by lactose intolerance. Probiotics and prebiotics , double the care of pet intestines and stomachs, also promoting intestinal digestion and absorption. Rich in proteins, vitamins, calcium, phosphorous and other trace elements which supplement pets' daily nutrition. Ingredients: Whole goat milk powder, whole milk powder, skim milk powder, concentrated whey protein (5%), dextrin, yolk powder Additive: IMO, taurine,-galactosidase, bifidobacterium lactis, bacillus subtilis, vitamin A, Vitamin D3, Vitamin E, Vitamin B, Vitamin B2, Vitamin B12, nicotinamide, D- Calcium pantothenate, Calcium hydrophosphate, disodium hydrogen phosphate, light calcium carbonate, magnesium sulfate, ferrous sulfate, Zinc sulfate, Potassium iodate, sodium Selenite Suitable for: Kittens: Goat milk can replace breast milk and a balanced nutrition that promotes healthy growth. Maternal pets during pregnancy and lactation: A supplement nutrition, promotes the healthy growth of the embryo and increased lactation yield. Anorexia/recovery from illness/old age, frail pets: Increase appetite and strength. Usage: Dissolve 10g milk powder into 60ml warm water at 50 degrees celsius, to be cool to about 37 degrees celsius then direct feeding.",
-  "images": [
-    {
-      "id": 37939,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/06/Goat-milk-200g.png",
-      "alt": "Biolinegoat Milk For Dog & Cat 200g",
-      "name": "Goat milk 200g"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/bioline-goat-milk-for-dog-cat-200g/?add-to-cart=37938",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-06-23T11:59:42",
-  "dateModified": "2026-05-06T17:08:44",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/06/Goat-milk-200g.png"
+  "catalogVisibility": "visible"
 }

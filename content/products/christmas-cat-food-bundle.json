@@ -2,14 +2,12 @@
   "id": 4732,
   "name": "Mega Christmas Cat Bundle",
   "slug": "christmas-cat-food-bundle",
-  "sku": "PSK-4732",
-  "onSale": true,
-  "price": 1499,
-  "regularPrice": 3160,
-  "salePrice": 1499,
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/12/PetStore-Kenya-Cat-Christmas-Bundle-041219-min.png",
   "categories": [
     {
       "id": 927,
@@ -17,35 +15,18 @@
       "slug": "sale"
     }
   ],
-  "brands": [],
-  "tags": [],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=4732",
-  "shortDescription": "[Save 57% on 3,460/- Value] 1 Proline Bentonite Cat Litter, Unscented 10L + Proline Multicolour Chicken Adult Cat Food 1.5kg + Bonnie Pouch Variety Pack of 5 + 1 FREE Cat Litter Scooper + FREE Delivery.",
   "description": "",
-  "images": [
-    {
-      "id": 4666,
-      "src": "https://petstore.co.ke/wp-content/uploads/2019/12/PetStore-Kenya-Cat-Christmas-Bundle-041219-min.png",
-      "alt": "PetStore Kenya Cat Christmas Bundle 041219 min",
-      "name": "PetStore Kenya Cat Christmas Bundle 041219 min"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/christmas-cat-food-bundle/?add-to-cart=4732",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "hidden",
-  "dateCreated": "2019-12-05T18:40:43",
-  "dateModified": "2026-05-06T17:06:25",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/12/PetStore-Kenya-Cat-Christmas-Bundle-041219-min.png"
+  "catalogVisibility": "visible"
 }

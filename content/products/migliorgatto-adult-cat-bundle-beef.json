@@ -2,14 +2,12 @@
   "id": 37052,
   "name": "Migliorgatto Adult Cat Bundle-Beef",
   "slug": "migliorgatto-adult-cat-bundle-beef",
-  "sku": "PSK-37052",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/05/Migliorgatto-cat-Bundle.png",
   "categories": [
     {
       "id": 2027,
@@ -22,46 +20,18 @@
       "slug": "miglior"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2122,
-      "name": "Bundle",
-      "slug": "bundle"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=37052",
-  "shortDescription": "This Bundle contains: 1pc Migliorgatto Adult cat Food Croquettes with beef 400gr 4pcs Migliorgatto Adult cat Food Alutray Pate with beef & Heart 100gr",
   "description": "This Bundle contains: 1pc Migliorgatto Adult cat Food Croquettes with beef 400gr 4pcs Migliorgatto Adult cat Food Alutray Pate with beef & Heart 100gr",
-  "images": [
-    {
-      "id": 37053,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/05/Migliorgatto-cat-Bundle.png",
-      "alt": "Migliorgatto Adult Cat Bundle-Beef",
-      "name": "Migliorgatto cat Bundle"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/migliorgatto-adult-cat-bundle-beef/?add-to-cart=37052",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-05-15T11:12:36",
-  "dateModified": "2026-05-06T17:08:38",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/05/Migliorgatto-cat-Bundle.png"
+  "catalogVisibility": "visible"
 }

@@ -2,14 +2,12 @@
   "id": 29375,
   "name": "Ankur Regular Non Skid Bowl With Color And Print 950ml",
   "slug": "ankur-regular-non-skid-bowl-with-color-and-print-950ml-2",
-  "sku": "AEDBNTRCP-04",
   "onSale": false,
-  "price": 1000,
-  "regularPrice": 1000,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-Regular-Non-skid-bowl.png",
   "categories": [
     {
       "id": 2041,
@@ -37,51 +35,18 @@
       "slug": "dog-bowls-feeders"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2072,
-      "name": "Bowls",
-      "slug": "bowls"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=29375",
-  "shortDescription": "Upgrade your pet’s dining experience with the ANKUR Regular Non-Skid Bowl, specifically designed to meet the needs of your furry friend. With a spacious 950ml capacity, this bowl is perfect for both food and water, ensuring your pet stays well-fed and hydrated.",
   "description": "Enhance your pet’s mealtime with the ANKUR Regular Non-Skid Bowl. Practical, stylish, and durable, it’s the perfect addition to your pet’s dining routine. Key Features: Non-Skid Base: The bowl’s non-skid bottom keeps it firmly in place, preventing spills and skids, even during your pet’s most enthusiastic mealtimes. Charming Colors and Prints: Available in a vibrant color (Yellow) and playful prints, this bowl adds a touch of personality to your pet’s feeding area while matching your home decor. Durable and Pet-Friendly: Crafted from high-quality, food-safe materials, this bowl is built to withstand daily use and is gentle on your pet’s health. Easy to Clean: The smooth, easy-to-clean surface ensures hassle-free maintenance, whether you rinse it by hand or pop it in the dishwasher. Generous Capacity: With 950ml of space, this bowl is ideal for larger breeds or multiple pets, making it versatile for both food and water. &nbsp; &nbsp; &nbsp; &nbsp;",
-  "images": [
-    {
-      "id": 29372,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-Regular-Non-skid-bowl.png",
-      "alt": "Ankur Regular Non Skid Bowl With Color And Print 2600ml",
-      "name": "Ankur Regular Non skid bowl"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/ankur-regular-non-skid-bowl-with-color-and-print-950ml-2/?add-to-cart=29375",
-  "status": "draft",
-  "featured": true,
-  "catalogVisibility": "visible",
-  "dateCreated": "2022-06-28T16:52:46",
-  "dateModified": "2026-05-06T17:08:18",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-Regular-Non-skid-bowl.png"
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible"
 }

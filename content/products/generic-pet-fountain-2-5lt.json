@@ -2,14 +2,12 @@
   "id": 38183,
   "name": "Generic Pet Fountain 2.5l",
   "slug": "generic-pet-fountain-2-5lt",
-  "sku": "PZPD25",
   "onSale": false,
-  "price": 2000,
-  "regularPrice": 2000,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/07/petFountain.jpg",
   "categories": [
     {
       "id": 2096,
@@ -17,41 +15,18 @@
       "slug": "generic"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=38183",
-  "shortDescription": "Generic pet fountain, Keep fresh water flowing and pets comfortably hydrated with Gravity Pet Water Feeder. Available in Pink, Blue and Grey.",
   "description": "Generic pet fountain, Keep fresh water flowing and pets comfortably hydrated with Gravity Pet Water Feeder. Ideal for cats or dogs in single- or multiple-pet homes, the pet water feeder uses gravity to ensure a consistent supply of fresh drinking water. As water levels in the bowl dip, the water feeder water-storage bottle automatically releases more water down into the bowl. How to use To use, simply fill the extra-wide-mouth bottle with fresh water, screw the base onto the lid, and flip the entire unit to allow water to begin draining down into the attached water bowl. An innovative connector prevents water from leaking until the bottle is securely attached to the base. Durable Design Ensuring reliable, everyday performance, the gravity pet feeder features a PP top lid and base and a transparent PET food-storage hopper, which makes it easy to check food levels at a glance. The gravity pet water feeder features a PP base with a transparent PET water bottle on top, which makes it easy to keep an eye on water levels. Easy to Clean To clean, wash the pet water feeder routinely by hand with warm soapy water, thoroughly rinse, and wipe down with a clean drying cloth or allow to fully air dry. The removable parts and wide-mouth design allow for easy access to effectively clean all the different components, inside and out.",
-  "images": [
-    {
-      "id": 38184,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/07/petFountain.jpg",
-      "alt": "Generic Pet Fountain 2.5l",
-      "name": "petFountain"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/generic-pet-fountain-2-5lt/?add-to-cart=38183",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-07-05T16:49:39",
-  "dateModified": "2026-05-06T17:08:45",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/07/petFountain.jpg"
+  "catalogVisibility": "visible"
 }

@@ -2,14 +2,12 @@
   "id": 37689,
   "name": "Proline Adult Cat Food Fish 0.5kg",
   "slug": "proline-adult-cat-food-fish-0-5kg",
-  "sku": "PCD003",
   "onSale": false,
-  "price": 735,
-  "regularPrice": 735,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/PACFF0.5.jpg",
   "categories": [
     {
       "id": 2325,
@@ -32,62 +30,18 @@
       "slug": "proline"
     }
   ],
-  "brands": [
-    {
-      "id": 2526,
-      "name": "Proline",
-      "slug": "proline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 637,
-      "name": "kibble",
-      "slug": "kibble"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=37689",
-  "shortDescription": "Proline Adult Cat Food Fish 0.5kg",
   "description": "Fully balanced all natural cat food with fish protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult cats.",
-  "images": [
-    {
-      "id": 19827,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/PACFF0.5.jpg",
-      "alt": "Proline Adult Cat Food Fish 0.5kg",
-      "name": "PACFF0.5"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/proline-adult-cat-food-fish-0-5kg/?add-to-cart=37689",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-06-12T15:12:26",
-  "dateModified": "2026-05-06T17:08:41",
-  "brand": "Proline",
-  "weight_kg": 0.5,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/PACFF0.5.jpg"
+  "catalogVisibility": "visible"
 }

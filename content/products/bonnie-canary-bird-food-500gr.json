@@ -2,14 +2,12 @@
   "id": 36453,
   "name": "SHORT EXPIRY-CLEARANCE: BONNIE CANARY BIRD FOOD - 500g",
   "slug": "bonnie-canary-bird-food-500gr",
-  "sku": "BBF002@SE",
-  "onSale": true,
-  "price": 390,
-  "regularPrice": 780,
-  "salePrice": 390,
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Bonnie-Canary-Food-500g-01.jpg",
   "categories": [
     {
       "id": 2369,
@@ -27,52 +25,18 @@
       "slug": "bonnie"
     }
   ],
-  "brands": [
-    {
-      "id": 2428,
-      "name": "Bonnie",
-      "slug": "bonnie"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2114,
-      "name": "Bird",
-      "slug": "bird"
-    },
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=36453",
-  "shortDescription": "Bonnie Canary food is a mixture of specially selected grains and seeds loved by canaries. The wide variety of ingredients ensures that they get all the required nutrients.",
   "description": "Bonnie Canary food is a mixture of specially selected grains and seeds loved by canaries. The wide variety of ingredients ensures that they get all the required nutrients. INGREDIENTS: Canary Seed, Canola, Oat, Hemp Seed, Niger Seed, Linseed. FEEDING RECOMMENDATION: Per each bird about 10 gr (1 table spoon) daily. Canaries eat during most of the time they are awake and should therefore have free access to the fresh feed in a clean bowl. Empty seed coats should be cleaned from the feeding bowl everyday. Remember to ensure that birds have free access to the feed and fresh drinking water.",
-  "images": [
-    {
-      "id": 23866,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/12/Bonnie-Canary-Food-500g-01.jpg",
-      "alt": "Bonnie Canary Bird Food 500g",
-      "name": "Bonnie Canary Food 500g-01"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/bonnie-canary-bird-food-500gr/?add-to-cart=36453",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-04-19T12:10:25",
-  "dateModified": "2026-06-17T04:32:50",
-  "brand": "Bonnie",
-  "weight_kg": 0.5,
-  "animal_type": "bird",
-  "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/12/Bonnie-Canary-Food-500g-01.jpg"
+  "catalogVisibility": "visible"
 }

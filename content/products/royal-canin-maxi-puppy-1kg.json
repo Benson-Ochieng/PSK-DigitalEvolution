@@ -2,14 +2,12 @@
   "id": 29459,
   "name": "Royal Canin Maxi Puppy 1kg",
   "slug": "royal-canin-maxi-puppy-1kg",
-  "sku": "ROC-SHMX-025",
   "onSale": false,
-  "price": 1550,
-  "regularPrice": 1550,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-SHMX-021.jpg",
   "categories": [
     {
       "id": 2345,
@@ -32,62 +30,18 @@
       "slug": "royal-canin"
     }
   ],
-  "brands": [
-    {
-      "id": 2423,
-      "name": "Royal Canin",
-      "slug": "royal-canin"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 1034,
-      "name": "large breed",
-      "slug": "large-breed"
-    },
-    {
-      "id": 2106,
-      "name": "Puppy food",
-      "slug": "puppy-food"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=29459",
-  "shortDescription": "Maxi Adult is tailor made to suit the unique nutritional needs of your large breed adult dogs. Complete feed for dogs – For large breed puppies (adult weight from 26 to 44 kg) – Up to 15 months old",
   "description": "ROYAL CANIN? Maxi Puppy is specially formulated with the nutritional needs of your large puppy in mind. This food is suitable for large puppies from 2 to 15 months old that will have an adult weight of approximately 26kg-44kg. ROYAL CANIN? Maxi Puppy food contains a patented complex of antioxidants - including the highly beneficial vitamin E - to support your puppy's natural defences while its immune system is immature and still developing. The combination of nutrients that contain high quality protein (such as L.I.P., known for its very high digestibility) as well as prebiotics like FOS help to support your puppy's digestive health Large puppies have a long growth period, that's why they need a diet that accounts for the implications of this period. Fortunately, ROYAL CANIN? Maxi Puppy contains a moderate energy level to meet your puppy's energy needs. A variation of ROYAL CANIN? Maxi Puppy dry food is also available depending on your puppy's lifestyle. If your large puppy is quite active then it will have higher energy needs, if this is the case then why not try ROYAL CANIN? Maxi Puppy Active. Composition: dehydrated poultry protein, rice, maize flour, vegetable protein isolate*, animal fats, maize, wheat flour, hydrolysed animal proteins, beet pulp, maize gluten, minerals, vegetable fibres, soya oil, fish oil, fructo-oligo-saccharides (0.34%), psyllium husks and seeds, hydrolysed yeast (source of manno-oligo-saccharides), yeasts extracts (source of betaglucans), marigold extract (source of lutein), hydrolysed crustaceans (source of glucosamine), hydrolysed cartilage (source of chondroitin). Additives (per kg): Nutritional additives: Vitamin A: 15500 IU, Vitamin D3: 1000 IU, Vitamin E: 480 mg, E1 (Iron): 42 mg, E2 (Iodine): 4.2 mg, E4 (Copper): 13 mg, E5 (Manganese): 55 mg, E6 (Zinc): 132 mg, E8 (Selenium): 0.07 mg - Technological additives: Clinoptilolite of sedimentary origin: 10 g - Sensory additives: Yucca extract: 125 mg - Preservatives - Antioxidants. Analytical constituants: Protein: 30.0% - Fat content: 16.0% - Crude ash: 7.7% - Crude fibres: 2.4%. For RSA: Guaranteed analysis g/kg: Crude protein (min) 280 - Moisture (max) 110 - Crude fat (min) 140 - Crude fibre (max) 34 - Crude ash (max) 85. *L.I.P.: protein selected for its very high digestibility.",
-  "images": [
-    {
-      "id": 23672,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-SHMX-021.jpg",
-      "alt": "Royal Canin Maxi Puppy 1kg",
-      "name": "ROC-SHMX-021.jpg"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/royal-canin-maxi-puppy-1kg/?add-to-cart=29459",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2022-06-30T12:30:24",
-  "dateModified": "2026-06-17T04:23:43",
-  "brand": "Royal Canin",
-  "weight_kg": 15,
-  "animal_type": "dog",
-  "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-SHMX-021.jpg"
+  "catalogVisibility": "visible"
 }

@@ -2,14 +2,12 @@
   "id": 4665,
   "name": "Dog Brush - Christmas Bundle",
   "slug": "dog-brush-promotional-offer",
-  "sku": "DB001",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/12/PetStore-Kenya-Dog-Brush-min.png",
   "categories": [
     {
       "id": 1204,
@@ -37,46 +35,18 @@
       "slug": "sale"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=4665",
-  "shortDescription": "Promotional offer only. Not for sale individually. See our SALE page .",
   "description": "Dual sided dog brush. Promotional offer only. Not for sale individually. See our SALE page .",
-  "images": [
-    {
-      "id": 4668,
-      "src": "https://petstore.co.ke/wp-content/uploads/2019/12/PetStore-Kenya-Dog-Brush-min.png",
-      "alt": "PetStore Kenya Dog Brush min",
-      "name": "PetStore Kenya Dog Brush min"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/dog-brush-promotional-offer/?add-to-cart=4665",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "hidden",
-  "dateCreated": "2019-12-04T19:25:54",
-  "dateModified": "2026-05-06T17:06:25",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/12/PetStore-Kenya-Dog-Brush-min.png"
+  "catalogVisibility": "visible"
 }

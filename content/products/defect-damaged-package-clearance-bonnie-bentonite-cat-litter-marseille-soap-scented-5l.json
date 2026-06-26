@@ -2,14 +2,12 @@
   "id": 31340,
   "name": "DEFECT / DAMAGED PACKAGE - CLEARANCE: Bonnie Bentonite Cat Litter - Marseille Soap Scented 5L",
   "slug": "defect-damaged-package-clearance-bonnie-bentonite-cat-litter-marseille-soap-scented-5l",
-  "sku": "BCL001@D",
-  "onSale": true,
-  "price": 771,
-  "regularPrice": 1102,
-  "salePrice": 771,
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Bonnie-Cat-Litter-Merseille-01.jpg",
   "categories": [
     {
       "id": 177,
@@ -42,77 +40,18 @@
       "slug": "sale"
     }
   ],
-  "brands": [
-    {
-      "id": 2428,
-      "name": "Bonnie",
-      "slug": "bonnie"
-    }
-  ],
-  "tags": [
-    {
-      "id": 831,
-      "name": "bentonite",
-      "slug": "bentonite"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 819,
-      "name": "cat litter",
-      "slug": "cat-litter"
-    },
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 823,
-      "name": "clumping",
-      "slug": "clumping"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 2315,
-      "name": "scented",
-      "slug": "scented"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=31340",
-  "shortDescription": "Bonnie Bentonite Clumping Cat Litter with Marseille Soap Scent will keep your cat's litter box smelling fresh.",
   "description": "Bonnie Bentonite Clumping Cat Litter with Marseille Soap Scent will keep your cat's litter box smelling fresh all day. MINIMUM DUST Bonnie Cat Litter is processed specially during production to be able to minimize the dust formation in the area where it is used. ABSORBENT FEATURE: Bonnie Cat Litter absorbs the liquid quickly and forms clumps with perfect clumping feature. It prevents all kind of bacterial contamination that can be harmful for you or your cat. ODOR BLOCKING Bonnie Cat Litter blocks bad odour to release to the environment and it prevents you or your cat from being uncomfortable.",
-  "images": [
-    {
-      "id": 23856,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/12/Bonnie-Cat-Litter-Merseille-01.jpg",
-      "alt": "DEFECT / DAMAGED PACKAGE - CLEARANCE: Bonnie Bentonite Cat Litter - Marseille Soap Scented 5L",
-      "name": "Bonnie Cat Litter Marseille 5L"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/defect-damaged-package-clearance-bonnie-bentonite-cat-litter-marseille-soap-scented-5l/?add-to-cart=31340",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2022-09-15T12:36:11",
-  "dateModified": "2026-06-17T04:32:50",
-  "brand": "Bonnie",
-  "weight_kg": 5,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/12/Bonnie-Cat-Litter-Merseille-01.jpg"
+  "catalogVisibility": "visible"
 }

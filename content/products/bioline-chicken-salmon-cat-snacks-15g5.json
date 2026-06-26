@@ -2,14 +2,12 @@
   "id": 37808,
   "name": "Bioline Chicken & Salmon Cat Snacks 15g * 5",
   "slug": "bioline-chicken-salmon-cat-snacks-15g5",
-  "sku": "BLCSPS15",
   "onSale": false,
-  "price": 450,
-  "regularPrice": 450,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/06/Bioline-chicken-Salmon-pet-snacks.png",
   "categories": [
     {
       "id": 2325,
@@ -27,46 +25,18 @@
       "slug": "cat-treats"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=37808",
-  "shortDescription": "Bioline chicken and salmon cat snacks is a selection of high-quality chicken and delicious salmon, cooked at high temperatures, ground in the form of pulp, good taste, and can be easily digested and absorbed.",
   "description": "Bioline chicken and salmon pet snacks is a selection of high-quality chicken and delicious salmon, cooked at high temperatures, ground in the form of pulp, good taste, and can be easily digested and absorbed. Main Ingredients : Water, Fish (Salmon), Frozen Chicken Breast 28%, Corn Starch. Additives : Xanthan Gum, Taurine, Vitamin A, Vitamin D, Vitamin E Application : For Cats up-to 3 months old Storage Conditions : Please Keep in a cool and dry place below 25C, avoid direct sunlight. Instructions for Use : Can be added to food or given orally to Cats.",
-  "images": [
-    {
-      "id": 37809,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/06/Bioline-chicken-Salmon-pet-snacks.png",
-      "alt": "Bioline Chicken & Salmon Cat Snacks 15g * 5",
-      "name": "Bioline chicken &amp; Salmon pet snacks"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/bioline-chicken-salmon-cat-snacks-15g5/?add-to-cart=37808",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-06-17T10:39:50",
-  "dateModified": "2026-05-06T17:08:42",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/06/Bioline-chicken-Salmon-pet-snacks.png"
+  "catalogVisibility": "visible"
 }

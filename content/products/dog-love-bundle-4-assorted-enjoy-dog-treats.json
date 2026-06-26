@@ -2,14 +2,12 @@
   "id": 11343,
   "name": "Dog Love Bundle: 4 Assorted ENJOY Dog Treats",
   "slug": "dog-love-bundle-4-assorted-enjoy-dog-treats",
-  "sku": "DLBFEB20",
-  "onSale": true,
-  "price": 1499,
-  "regularPrice": 2380,
-  "salePrice": 1499,
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/02/PetStore-Kenya-Valentine-Bundle-Dog-min.png",
   "categories": [
     {
       "id": 927,
@@ -17,35 +15,18 @@
       "slug": "sale"
     }
   ],
-  "brands": [],
-  "tags": [],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=11343",
-  "shortDescription": "",
   "description": "",
-  "images": [
-    {
-      "id": 11332,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/02/PetStore-Kenya-Valentine-Bundle-Dog-min.png",
-      "alt": "PetStore Kenya Valentine Bundle Dog min",
-      "name": "PetStore Kenya Valentine Bundle Dog min"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/dog-love-bundle-4-assorted-enjoy-dog-treats/?add-to-cart=11343",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "catalog",
-  "dateCreated": "2020-02-08T20:19:05",
-  "dateModified": "2026-05-06T17:06:27",
-  "brand": null,
-  "weight_kg": 0.7,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/02/PetStore-Kenya-Valentine-Bundle-Dog-min.png"
+  "catalogVisibility": "visible"
 }

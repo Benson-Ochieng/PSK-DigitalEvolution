@@ -2,14 +2,12 @@
   "id": 40846,
   "name": "Proline Puppy Food - Lamb & Rice 2.2kg",
   "slug": "proline-puppy-food-lamb-rice-2-2kg",
-  "sku": "PDD012@F",
-  "onSale": true,
-  "price": 1189,
-  "regularPrice": 1950,
-  "salePrice": 1189,
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-puppy-food-lamb-and-rice-2.2kg.png",
   "categories": [
     {
       "id": 2345,
@@ -32,47 +30,18 @@
       "slug": "puppy-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2417,
-      "name": "Proline",
-      "slug": "proline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=40846",
-  "shortDescription": "Fully balanced all-natural puppy food with Lamb protein plus brewer's yeast and whey protein for immune support and omega -3 and -6 from flaxseed. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of growing puppies.",
   "description": "Proline Puppy Food - Lamb , fully balanced all-natural puppy food with Lamb protein plus brewer's yeast and whey protein for immune support and omega -3 and -6 from flaxseed. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of growing puppies. NUTRIENT COMPONENTS Protein......................28% Fat .................................. 16% Crude Cellulose (Fiber) ........................4% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Wheat Middlings, Corn Gluten, Dried Sugar Beeet, Chicken Liver Aroma, Rice, Salt, Whey Powder, Flaxseed, Dried Brewer's Yeast. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
-  "images": [
-    {
-      "id": 35544,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-puppy-food-lamb-and-rice-2.2kg.png",
-      "alt": "Proline Puppy Food – Lamb & Rice 2.2kg",
-      "name": "Proline puppy food lamb and rice 2.2kg"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/proline-puppy-food-lamb-rice-2-2kg/?add-to-cart=40846",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-11-08T09:53:01",
-  "dateModified": "2026-05-06T17:09:00",
-  "brand": "Proline",
-  "weight_kg": 3,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-puppy-food-lamb-and-rice-2.2kg.png"
+  "catalogVisibility": "visible"
 }

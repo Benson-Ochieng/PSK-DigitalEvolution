@@ -2,14 +2,12 @@
   "id": 25982,
   "name": "Unique Veterinary Prescription Diet Adult Dog Allergy Control Salmon 3kg",
   "slug": "unique-veterinary-prescription-diet-adult-dog-allergy-control-salmon-3kg",
-  "sku": "UDD007",
   "onSale": false,
-  "price": 5070,
-  "regularPrice": 5070,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/03/UDD007.jpg",
   "categories": [
     {
       "id": 2345,
@@ -32,57 +30,18 @@
       "slug": "unique"
     }
   ],
-  "brands": [
-    {
-      "id": 2474,
-      "name": "Unique",
-      "slug": "unique"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 2319,
-      "name": "Veterinary Range",
-      "slug": "veterinary-range"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=25982",
-  "shortDescription": "Formulated for dogs prone to allergies. It helps relieve skin and digestive symptoms caused by food allergies. It is made with one protein source and special ingredients that contain prebiotics and probiotics which help nourish the dog?s skin and coat.",
   "description": "How it works: Single type (salmon) protein source, Content rich in hydrolyzed proteins, High digestibility, Coconut oil (skin and feather health), Healthy digestive system and strong immunity with its rich probiotic and prebiotic content, Borage oil (immune) supports the system and joints), Wild Sea buckthorn (Omega-7 source and anti-inflammatory). Hydrolyzed Protein Dalton weight is less than 1000 Dalton. Ingredients Salmon Protein, Pea, Brown Rice, Hydrolyzed Salmon Protein, Salmon Oil, Sugar Beet Pulp, Corn Gluten Meal, Powdered Cellulose, Coconut Oil, Vitamin and Mineral Premix, Natural Flavors, Probiotic, Dried Algae, MOS, ?-Glucan, Tocopherol , Borage Oil, Wild Seabuckthorn. Raw Material Components Raw Protein 24.52% Raw oil 14.51 percent Raw Cellulose (Fiber) 3.60% Ash 6.10% Moisture 4.76% Omega 3 1.22% Omega 6 2.46% Calcium 1.08% Phosphorus 0.68% Sodium 0.35% Magnesium 0.066% Nutritional Supplements Vitamin A (3a672a) 26,000 IU/kg Vitamin D 3 (E671) 1.800 IU/kg Vitamin E (3a700) 1.000 mg/kg Vitamin C (3a312) 600mg/kg Choline Chloride (3a890) 750mg/kg Biotin (3a880) 3,5 mg/kg Vitamin B 1 (3a821) 2.5 mg/kg Vitamin B2 9.5 mg/kg Niacinamide (3a315) 32mg/kg Calcium-D-Panthothenate (3a841) 25mg/kg Vitamin B 6 (3a831) 2.5 mg/kg Folic Acid (3a316) 1.3 mg/kg Vitamin B 12 0.12 mg/kg Zinc Chelate of Amino Acids Hydrate (3b606) 150mg/kg Ferrous Chelate of Amino Acids Hydrate (E1) 90mg/kg Manganese Chelate of Amino Acids Hydrate (E5) 45mg/kg Potassium Iodide (3b201) 0.85 mg/kg Cupric Chelate of Amino Acids Hydrate (E4) 20mg/kg Organic Form of Selenium (3b8.10) 0.2mg/kg L-Carnitine (3a910) 350mg/kg Probiotic (B. Amyloliquefaciens) 7 x 10 14 /kg &nbsp;",
-  "images": [
-    {
-      "id": 25882,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/03/UDD007.jpg",
-      "alt": "Unique Veterinary Prescription Diet Adult Dog Allergy Control Salmon 3kg",
-      "name": "UDD007"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/unique-veterinary-prescription-diet-adult-dog-allergy-control-salmon-3kg/?add-to-cart=25982",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2022-03-07T07:51:19",
-  "dateModified": "2026-06-17T04:35:56",
-  "brand": "Unique",
-  "weight_kg": 3,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/03/UDD007.jpg"
+  "catalogVisibility": "visible"
 }

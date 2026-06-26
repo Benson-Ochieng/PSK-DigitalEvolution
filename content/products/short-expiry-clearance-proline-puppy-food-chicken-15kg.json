@@ -2,14 +2,12 @@
   "id": 39004,
   "name": "SHORT EXPIRY-CLEARANCE: Proline Puppy Food - Chicken 15kg",
   "slug": "short-expiry-clearance-proline-puppy-food-chicken-15kg",
-  "sku": "PDD005@SE",
-  "onSale": true,
-  "price": 4650,
-  "regularPrice": 9300,
-  "salePrice": 4650,
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/07/Pet-Store-Kenya-Nairobi-Proline-Puppy-Food-Chicken-15kg-min.png",
   "categories": [
     {
       "id": 2345,
@@ -32,62 +30,18 @@
       "slug": "puppy-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2686,
-      "name": "Proline",
-      "slug": "proline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2106,
-      "name": "Puppy food",
-      "slug": "puppy-food"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=39004",
-  "shortDescription": "Fully balanced all-natural puppy food with chicken protein plus brewer's yeast and whey protein for immune support and omega -3 and -6 from flaxseed. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of growing puppies.",
   "description": "Proline Puppy Food - Chicken , fully balanced all-natural puppy food with chicken protein plus brewer's yeast and whey protein for immune support and omega -3 and -6 from flaxseed. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of growing puppies. NUTRIENT COMPONENTS Protein ....................28% Fat .................... 16% Crude Cellulose (Fiber)......... 4% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Wheat Middlings, Corn Gluten, Dried Sugar Beet, Chicken Liver Aroma, Rice, Salt, Whey Powder, Flaxseed, Dried Brewer's Yeast. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
-  "images": [
-    {
-      "id": 2547,
-      "src": "https://petstore.co.ke/wp-content/uploads/2019/07/Pet-Store-Kenya-Nairobi-Proline-Puppy-Food-Chicken-15kg-min.png",
-      "alt": "Pet Store Kenya Nairobi Proline Puppy Food Chicken 15kg min",
-      "name": "Pet Store Kenya Nairobi Proline Puppy Food Chicken 15kg min"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-proline-puppy-food-chicken-15kg/?add-to-cart=39004",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-08-15T16:08:33",
-  "dateModified": "2026-05-06T17:08:48",
-  "brand": "Proline",
-  "weight_kg": 15,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/07/Pet-Store-Kenya-Nairobi-Proline-Puppy-Food-Chicken-15kg-min.png"
+  "catalogVisibility": "visible"
 }

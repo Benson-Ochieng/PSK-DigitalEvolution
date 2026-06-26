@@ -2,14 +2,12 @@
   "id": 35433,
   "name": "Proline Adult Cat Food Canned - Liver Chunks inGravy 415g- Pack of 20",
   "slug": "proline-adult-cat-food-canned-liver-chunks-in-gravy-415g-pack-of-20",
-  "sku": "PCW004$20",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/11/Proline-Adult-Cat-Can-Liver-Chunks-in-Jelly-400g-1080x1080-min.png",
   "categories": [
     {
       "id": 2325,
@@ -32,67 +30,18 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2087,
-      "name": "Proline",
-      "slug": "proline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2055,
-      "name": "Bulk Cat Food & Bulk Dog Food",
-      "slug": "bulk"
-    },
-    {
-      "id": 622,
-      "name": "canned food",
-      "slug": "canned-food"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=35433",
-  "shortDescription": "Fully balanced all-natural wet cat food with liver protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult cats.",
   "description": "Proline Adult Cat Food Canned - Fish Chunks in Jelly , fully balanced all-natural cat food with fish protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult cats. NUTRIENT COMPONENTS Protein ................. 7.5% Fat ......................... 3.5% Crude Ash.......................... 2% Crude Cellulose (Fiber) .........0.3% Moisture .......................... 82% INGREDIENTS: Meat and animal derivatives (4% liver), cereals, minerals, vegetable by-products, sugar. MINERALS: Biotin, Taurine, Zinc, Manganese, Copper. VITAMINS: Vit. D3, Vit. E.",
-  "images": [
-    {
-      "id": 3920,
-      "src": "https://petstore.co.ke/wp-content/uploads/2019/11/Proline-Adult-Cat-Can-Liver-Chunks-in-Jelly-400g-1080x1080-min.png",
-      "alt": "Proline Adult Cat Can Liver Chunks in Jelly 400g 1080x1080 min",
-      "name": "Proline Adult Cat Can Liver Chunks in Jelly 400g 1080&#215;1080 min"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/proline-adult-cat-food-canned-liver-chunks-in-gravy-415g-pack-of-20/?add-to-cart=35433",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-03-03T13:16:28",
-  "dateModified": "2026-05-06T17:08:30",
-  "brand": "Proline",
-  "weight_kg": 0.415,
-  "animal_type": "cat",
-  "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/11/Proline-Adult-Cat-Can-Liver-Chunks-in-Jelly-400g-1080x1080-min.png"
+  "catalogVisibility": "visible"
 }

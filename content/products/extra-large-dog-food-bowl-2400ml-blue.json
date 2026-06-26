@@ -2,14 +2,12 @@
   "id": 18069,
   "name": "Extra Large Dog Food Bowl 2400ml Blue",
   "slug": "extra-large-dog-food-bowl-2400ml-blue",
-  "sku": "DFBEXL2400BL",
   "onSale": false,
-  "price": 1276,
-  "regularPrice": 1276,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/DFBEXL2400B-1.jpg",
   "categories": [
     {
       "id": 1204,
@@ -27,61 +25,18 @@
       "slug": "dog-bowls-feeders"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2072,
-      "name": "Bowls",
-      "slug": "bowls"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=18069",
-  "shortDescription": "Extra Large Plastic heavy duty feeding bowl 2400ml – Blue",
   "description": "Extra Large Plastic heavy duty feeding bowl 2400ml - Blue",
-  "images": [
-    {
-      "id": 17999,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/DFBEXL2400B-1.jpg",
-      "alt": "Extra Large Dog Food Bowl 2400ml Blue",
-      "name": "DFBEXL2400B-1"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/extra-large-dog-food-bowl-2400ml-blue/?add-to-cart=18069",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2021-01-13T22:56:58",
-  "dateModified": "2026-05-06T17:07:09",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/DFBEXL2400B-1.jpg"
+  "catalogVisibility": "visible"
 }

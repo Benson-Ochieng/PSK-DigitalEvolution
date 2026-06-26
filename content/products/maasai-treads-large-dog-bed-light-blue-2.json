@@ -2,14 +2,12 @@
   "id": 43649,
   "name": "Maasai Treads Large Dog Bed - Light Blue",
   "slug": "maasai-treads-large-dog-bed-light-blue-2",
-  "sku": "MTLDB-LB@F",
-  "onSale": true,
-  "price": 5795,
-  "regularPrice": 6100,
-  "salePrice": 5795,
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/MTLDB-LB.jpg",
   "categories": [
     {
       "id": 2078,
@@ -17,47 +15,18 @@
       "slug": "maasai-treads"
     }
   ],
-  "brands": [
-    {
-      "id": 2450,
-      "name": "Maasai Treads",
-      "slug": "maasai-treads"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=43649",
-  "shortDescription": "Maasai Treads Large Dog Bed-Light Blue Diameter: 75cm",
   "description": "Maasai Treads Large Dog Bed-Light Blue Buy local, Build Local AND help save the environment. These skillfully crafted dog beds are made from old car tyres and lined with a soft Maasai shuka / sponge linging. The bed is infilled with a sturdy, removable cushion with a matching Masaai Shuka design",
-  "images": [
-    {
-      "id": 19706,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/MTLDB-LB.jpg",
-      "alt": "Maasai Treads Large Dog Bed – Light Blue",
-      "name": "MTLDB-LB"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/maasai-treads-large-dog-bed-light-blue-2/?add-to-cart=43649",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2024-01-30T11:04:45",
-  "dateModified": "2026-06-17T04:34:03",
-  "brand": "Maasai Treads",
-  "weight_kg": 8,
-  "animal_type": "dog",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/MTLDB-LB.jpg"
+  "catalogVisibility": "visible"
 }

@@ -2,14 +2,12 @@
   "id": 17631,
   "name": "Rogz Dog Utility Control Collar Web Medium - Black",
   "slug": "rogz-dog-utility-control-collar-web-medium-black",
-  "sku": "HCW11-A",
   "onSale": false,
-  "price": 1450,
-  "regularPrice": 1450,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/HCW11-A_Control-Collar-Web.jpg",
   "categories": [
     {
       "id": 2351,
@@ -32,51 +30,18 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2065,
-      "name": "Collars",
-      "slug": "collar"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=17631",
-  "shortDescription": "Rogz Utility control collar Web – Medium Black",
   "description": "Rogz Control Collar Web is a safe, non-slip collar recommended for behaviour correction and training. Through gently-applied pressure, when attached to a Lead/Leash, the two D-rings are drawn together, tightening slightly to prevent your dog from reversing out of the collar. TO FIT: To avoid injury, fit the collar with a two-finger gap between the metal rings in the tightened position. The collar should then fit snuggly over your dog?s head. Size: Medium 16mm (Neck Size: 35 - 45cm)",
-  "images": [
-    {
-      "id": 17586,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/HCW11-A_Control-Collar-Web.jpg",
-      "alt": "Rogz Dog Utility Control Collar Web Medium - Black",
-      "name": "HCW11 &#8211; A_Control Collar Web"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-control-collar-web-medium-black/?add-to-cart=17631",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2021-01-10T21:42:02",
-  "dateModified": "2026-05-06T17:07:00",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/HCW11-A_Control-Collar-Web.jpg"
+  "catalogVisibility": "visible"
 }

@@ -2,14 +2,12 @@
   "id": 16568,
   "name": "KONG Extreme Ball Md/Lg- Black",
   "slug": "kong-extreme-ball-md-lg",
-  "sku": "UB1",
   "onSale": false,
-  "price": 1600,
-  "regularPrice": 1600,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/12/UB2_Extreme_Ball.jpg",
   "categories": [
     {
       "id": 2345,
@@ -32,61 +30,18 @@
       "slug": "kong-accessories"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=16568",
-  "shortDescription": "KONG Extreme Ball – Med/Large",
   "description": "The KONGExtreme Ball wins the fetching game for your dog! Durable, bouncy, natural KONGExtreme rubber gives it a bounce for fun games of fetch, delivering tons of healthy and interactive play. KONGExtreme Black Rubber ball for durable fetching fun Puncture resistant for continued safe play Made in the USA. Globally Sourced Materials",
-  "images": [
-    {
-      "id": 24985,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/12/UB2_Extreme_Ball.jpg",
-      "alt": "KONG Extreme Ball Md/Lg- Black",
-      "name": "UB2_Extreme_Ball"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/kong-extreme-ball-md-lg/?add-to-cart=16568",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2020-12-06T10:43:53",
-  "dateModified": "2026-05-06T17:06:42",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/12/UB2_Extreme_Ball.jpg"
+  "catalogVisibility": "visible"
 }

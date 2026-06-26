@@ -2,14 +2,12 @@
   "id": 30704,
   "name": "SHORT EXPIRY  CLEARANCE: Reflex Plus Adult Cat Food Canned - Chicken Chunks inGravy 400g",
   "slug": "short-expiry-clearance-reflex-plus-adult-cat-food-canned-chicken-chunks-in-gravy-0-4kg",
-  "sku": "RPCW003@SE",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2018/02/Reflex-adult-cat-canned-chicken-chunks-in-gravy-1080x1080-c.png",
   "categories": [
     {
       "id": 2325,
@@ -37,67 +35,18 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2394,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 622,
-      "name": "canned food",
-      "slug": "canned-food"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=30704",
-  "shortDescription": "(4 pieces minimum order) Reflex Plus Chicken Adult Cat Food provides complete and balanced nutrition with tender chicken protein, supporting muscle strength, digestion, and overall wellness in adult cats.",
   "description": "Reflex Plus Chicken Adult Cat Canned Food ,?fully-balanced, chicken protein-containing cat food?carefully formulated by?cat / dog?nutritionists?to meet the nutritional requirements of all adult breeds. NUTRIENT COMPONENTS Crude Protein (%) - 6.5 Crude Oils & Fats (%) - 3.5 Crude Fiber (%) -?0.5 Moisture (%) -?82 Crude Ash (%) - 2.5 Vitamin A (Min) -?1400 IE/kg Vitamin D3 (Min) -?180 IE/kg Iron -?8 mg/kg Copper -?1.2 mg/kg Iodine -?0.21 mg/kg Manganese -?1.6 mg/kg Zinc -?8.0 mg/kg Selenium -?0.02 mg/kg INGREDIENTS: ?Meat & Animal Derivatives (Chicken 4% min.), Cereals, Fish and Fish Derivatives, Minerals, Veg. Protein Extracts, Preservers and Colourants. FEEDING RECOMMENDATION: An adult cat (approx. 4kg) requires up to 3 meals per day, where 1 can serves 2 meals. Individual requirements depend on factors like age, breed and activity. Serve at room temperature. Store in a cool, dry place. Not fit for human consumption. &nbsp;",
-  "images": [
-    {
-      "id": 907,
-      "src": "https://petstore.co.ke/wp-content/uploads/2018/02/Reflex-adult-cat-canned-chicken-chunks-in-gravy-1080x1080-c.png",
-      "alt": "Reflex adult cat canned chicken chunks in gravy 1080x1080 c",
-      "name": "Reflex adult cat canned chicken chunks in gravy 1080&#215;1080 c"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-reflex-plus-adult-cat-food-canned-chicken-chunks-in-gravy-0-4kg/?add-to-cart=30704",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2022-08-17T16:24:36",
-  "dateModified": "2026-05-06T17:08:23",
-  "brand": "Reflex",
-  "weight_kg": 0.4,
-  "animal_type": "cat",
-  "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2018/02/Reflex-adult-cat-canned-chicken-chunks-in-gravy-1080x1080-c.png"
+  "catalogVisibility": "visible"
 }

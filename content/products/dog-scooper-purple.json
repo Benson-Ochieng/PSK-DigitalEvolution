@@ -2,14 +2,12 @@
   "id": 18047,
   "name": "Dog Scooper- Purple",
   "slug": "dog-scooper-purple",
-  "sku": "DSS1PU",
   "onSale": false,
-  "price": 232,
-  "regularPrice": 232,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/DSS1PU.jpg",
   "categories": [
     {
       "id": 1204,
@@ -27,61 +25,18 @@
       "slug": "dog-grooming-cleaning-supplies"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=18047",
-  "shortDescription": "Premium Large Dog pooper scoop – Purple",
   "description": "Premium Large Dog pooper scoop - Purple",
-  "images": [
-    {
-      "id": 17997,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/DSS1PU.jpg",
-      "alt": "Dog Scooper- Purple",
-      "name": "DSS1PU"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/dog-scooper-purple/?add-to-cart=18047",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2021-01-13T22:13:00",
-  "dateModified": "2026-05-06T17:07:07",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/DSS1PU.jpg"
+  "catalogVisibility": "visible"
 }

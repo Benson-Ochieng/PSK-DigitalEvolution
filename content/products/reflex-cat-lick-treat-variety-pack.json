@@ -2,14 +2,12 @@
   "id": 15422,
   "name": "Reflex Cat Lick Treat Variety Pack",
   "slug": "reflex-cat-lick-treat-variety-pack",
-  "sku": "BundleCat2",
   "onSale": false,
-  "price": 790,
-  "regularPrice": 790,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/09/2-Reflex-Cat-Treats-Lick-Snack-Milk-Cream-XpatLink-191.jpg",
   "categories": [
     {
       "id": 2332,
@@ -17,46 +15,18 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2122,
-      "name": "Bundle",
-      "slug": "bundle"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=15422",
-  "shortDescription": "An assortment of REFLEX Cat Lick Treats (2) – satisfying liquid snacks. No artificial colours or preservatives and gluten-free.",
   "description": "An assortment of REFLEX Cat Lick Treats (2) - satisfying liquid snacks. No artificial colours or preservatives and gluten-free. Variety pack includes one each of these flavours: Lick Snack - two flavours in one pack: 3 x Poultry, Liver & Biotin, 3 x Salmon; and Milk Cream.",
-  "images": [
-    {
-      "id": 15419,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/09/2-Reflex-Cat-Treats-Lick-Snack-Milk-Cream-XpatLink-191.jpg",
-      "alt": "Reflex Cat Lick Treat Variety Pack",
-      "name": "Reflex Cat Treats Lick Snack Milk Cream"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-cat-lick-treat-variety-pack/?add-to-cart=15422",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2020-09-21T17:04:04",
-  "dateModified": "2026-05-06T17:06:38",
-  "brand": null,
-  "weight_kg": 0.17,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/09/2-Reflex-Cat-Treats-Lick-Snack-Milk-Cream-XpatLink-191.jpg"
+  "catalogVisibility": "visible"
 }

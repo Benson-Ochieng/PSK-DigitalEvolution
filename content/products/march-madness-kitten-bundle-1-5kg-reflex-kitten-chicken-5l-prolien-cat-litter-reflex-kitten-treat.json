@@ -2,14 +2,12 @@
   "id": 11329,
   "name": "March Madness Kitten Bundle: ONE 1.5kg Reflex Kitten Chicken + ONE Reflex Kitten Treat + ONE 5L Proline Cat Litter",
   "slug": "march-madness-kitten-bundle-1-5kg-reflex-kitten-chicken-5l-prolien-cat-litter-reflex-kitten-treat",
-  "sku": "KLBFEB20",
-  "onSale": true,
-  "price": 1299,
-  "regularPrice": 2305,
-  "salePrice": 1299,
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/02/PetStore-Kenya-Valentine-Bundle-Kitten-min.png",
   "categories": [
     {
       "id": 927,
@@ -17,41 +15,18 @@
       "slug": "sale"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=11329",
-  "shortDescription": "",
   "description": "",
-  "images": [
-    {
-      "id": 11333,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/02/PetStore-Kenya-Valentine-Bundle-Kitten-min.png",
-      "alt": "PetStore Kenya Valentine Bundle Kitten min",
-      "name": "PetStore Kenya Valentine Bundle Kitten min"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/march-madness-kitten-bundle-1-5kg-reflex-kitten-chicken-5l-prolien-cat-litter-reflex-kitten-treat/?add-to-cart=11329",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "catalog",
-  "dateCreated": "2020-02-08T19:43:24",
-  "dateModified": "2026-05-06T17:06:27",
-  "brand": null,
-  "weight_kg": 5.5,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/02/PetStore-Kenya-Valentine-Bundle-Kitten-min.png"
+  "catalogVisibility": "visible"
 }

@@ -2,14 +2,12 @@
   "id": 16519,
   "name": "KONG Laser Pointer",
   "slug": "kong-r-laser-pointer",
-  "sku": "CL4",
   "onSale": false,
-  "price": 650,
-  "regularPrice": 650,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/12/CL4.jpg",
   "categories": [
     {
       "id": 1204,
@@ -42,71 +40,18 @@
       "slug": "kong-accessories"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=16519",
-  "shortDescription": "KONG Laser Pointer for cats",
   "description": "Create the ultimate prey and let your cat unleash her inner huntress with the KONGLaser cat toy. This easy-to-use laser helps facilitate interactive play sessions and provides endless fun for both you and your cat. Simply point the laser at the floor or wall and watch as your cat attempts to capture its elusive prey. This game of cat-and-laser satisfies the curiosity and playfulness of your kitty, and even encourages exercise.",
-  "images": [
-    {
-      "id": 24969,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/12/CL4.jpg",
-      "alt": "KONG Laser Pointer",
-      "name": "CL4"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/kong-r-laser-pointer/?add-to-cart=16519",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2020-12-01T15:23:57",
-  "dateModified": "2026-05-06T17:06:40",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "cat",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/12/CL4.jpg"
+  "catalogVisibility": "visible"
 }

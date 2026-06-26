@@ -2,14 +2,12 @@
   "id": 24062,
   "name": "Shooter Premium Spot On for Cats (up to 10kg) - (1 Pip)",
   "slug": "shooter-premium-spot-on-for-cats-up-to-10kg-1-pip",
-  "sku": "SPC-1",
   "onSale": false,
-  "price": 2850,
-  "regularPrice": 2850,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/SPC-1.jpg",
   "categories": [
     {
       "id": 2325,
@@ -32,56 +30,18 @@
       "slug": "kitten-food"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=24062",
-  "shortDescription": "Shooter Premium Spot-on for Cats is used against fleas and lice.",
   "description": "Shooter Premium Spot-on for Cats is used against fleas and lice. With environmental effect, it decreases the fleas in the pet?s environment.?Pet ecto-paracsiticide against fleas, lice and ticks; plus decreases fleas in environment. Contains Fipronil 10gm, Imidacloprid 10gm, Fenoxycarb 0.6gm per 100ml) - For Cats Route of administration: Topic use, spot on. Apply separating the hair, on the dorsal midline, behind the base of the neck in such way that the product goes into direct contact with the skin. The product action protects against fleas for 30 days. This period may vary according to the degree of infestation, propitious environmental circumstances, bath frequency, etc. Consult the veterinary for a correct use of the product. Precautions: Do not administer to kitten younger than 2 months old. It is not recommended to bathe the animal 48 hours before or after application. If product enters into contact with eyes or mouth membranes of the animals, rinse abundantly with water. Do not apply on areas where the skin has lesions or irritation.",
-  "images": [
-    {
-      "id": 24063,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/12/SPC-1.jpg",
-      "alt": "Shooter Premium Spot On for Cats (up to 10kg) - (1 Pip)",
-      "name": "SPC-1"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/shooter-premium-spot-on-for-cats-up-to-10kg-1-pip/?add-to-cart=24062",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2021-12-28T15:13:57",
-  "dateModified": "2026-05-06T17:07:47",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/12/SPC-1.jpg"
+  "catalogVisibility": "visible"
 }

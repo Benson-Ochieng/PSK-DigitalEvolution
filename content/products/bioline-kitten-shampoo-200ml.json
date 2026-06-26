@@ -2,14 +2,12 @@
   "id": 36970,
   "name": "Bioline Kitten Shampoo 200ml",
   "slug": "bioline-kitten-shampoo-200ml",
-  "sku": "BLKS200",
   "onSale": false,
-  "price": 500,
-  "regularPrice": 500,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/05/Bioline-kiteenshampoo.jpg",
   "categories": [
     {
       "id": 2332,
@@ -17,46 +15,18 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=36970",
-  "shortDescription": "Bioline Kitten Shampoo has a deep nourishing formula which adds nutrients for easily damaged or sensitive fur. Bioline Kitten Shampoo will make your kittens fur shiny and healthy.",
   "description": "This shampoo has a deep nourishing formula which adds nutrients for easily damaged or sensitive fur. Bioline Kitten Shampoo will make your kittens fur shiny and healthy. Usage: Wet cat thoroughly with normal or warm water. Use appropriate quantity of shampoo, rub into coat until a luxurious lather is built up. Rinse thoroughly till the lather is washed completely. Dry the coat with towel/electric dryer. Note: This product is not edible. Keep out of reach of Children. Sealed after use. Store it in a cool and dry place. Usage: Wet cat thoroughly with normal or warm water. Use appropriate quantity of shampoo, rub into coat until a luxurious lather is built up. Rinse thoroughly till the lather is washed completely. Dry the coat with towel/electric dryer. Note: This product is not edible. Keep out of reach of Children. Sealed after use. Store it in a cool and dry place.",
-  "images": [
-    {
-      "id": 36971,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/05/Bioline-kiteenshampoo.jpg",
-      "alt": "Bioline Kitten Shampoo 200ml",
-      "name": "Bioline kiteenshampoo"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/bioline-kitten-shampoo-200ml/?add-to-cart=36970",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-05-11T16:14:54",
-  "dateModified": "2026-05-06T17:08:37",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/05/Bioline-kiteenshampoo.jpg"
+  "catalogVisibility": "visible"
 }

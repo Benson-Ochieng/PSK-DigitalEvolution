@@ -2,14 +2,12 @@
   "id": 27944,
   "name": "Proline Adult Cat Bundle - Chicken",
   "slug": "proline-adult-cat-bundle-chicken",
-  "sku": "PSK-27944",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/CAT-BUNDLE-Proline-Chicken-dry-and-wet-food-can.jpg",
   "categories": [
     {
       "id": 2027,
@@ -22,46 +20,18 @@
       "slug": "sale"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2122,
-      "name": "Bundle",
-      "slug": "bundle"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=27944",
-  "shortDescription": "This bundle contains: Proline Adult Cat Chicken 0.5kg Two Proline Canned Adult Cat Food Liver 415g",
   "description": "This bundle contains: Proline Adult Cat Chicken 0.5kg Two Proline Canned Adult Cat Food Liver 450g",
-  "images": [
-    {
-      "id": 28580,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/05/CAT-BUNDLE-Proline-Chicken-dry-and-wet-food-can.jpg",
-      "alt": "Proline Adult Cat Bundle - Chicken",
-      "name": "CAT BUNDLE Proline Chicken dry and wet food can"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/proline-adult-cat-bundle-chicken/?add-to-cart=27944",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2022-05-07T08:53:52",
-  "dateModified": "2026-05-06T17:08:10",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/CAT-BUNDLE-Proline-Chicken-dry-and-wet-food-can.jpg"
+  "catalogVisibility": "visible"
 }

@@ -2,14 +2,12 @@
   "id": 18788,
   "name": "Donate to TNR Trust",
   "slug": "donate-to-tnr-trust",
-  "sku": "DONATE-TNRTRUST",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/02/Donate-v5-TNR-TRUST-min.png",
   "categories": [
     {
       "id": 2325,
@@ -52,71 +50,18 @@
       "slug": "kitten-food"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1791,
-      "name": "Donate",
-      "slug": "donate"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 637,
-      "name": "kibble",
-      "slug": "kibble"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
-  "type": "variable",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=18788",
-  "shortDescription": "Donate ONE 15kg bag of food. For every bag you donate, WE WILL MATCH YOUR DONATION . We'll deliver your donation directly to your chosen recipient on your behalf.",
+  "type": "simple",
   "description": "For every bag you donate, WE WILL MATCH YOUR DONATION. TNR Trust - their aim is to enhance community health by managing a healthy pet population by means of neutering and rabies campaigns.",
-  "images": [
-    {
-      "id": 18745,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/02/Donate-v5-TNR-TRUST-min.png",
-      "alt": "Donate to TNR Trust",
-      "name": "Donate v5 TNR TRUST-min"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/donate-to-tnr-trust/?add-to-cart=18788",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2021-02-24T13:52:25",
-  "dateModified": "2026-05-06T17:07:12",
-  "brand": null,
-  "weight_kg": 15,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/02/Donate-v5-TNR-TRUST-min.png"
+  "catalogVisibility": "visible"
 }

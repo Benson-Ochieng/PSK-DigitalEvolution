@@ -2,14 +2,12 @@
   "id": 29999,
   "name": "Reflex Dog Treats - Duck Sausage 80g",
   "slug": "reflex-dog-treats-duck-sausage-80g-2",
-  "sku": "RDT026",
-  "onSale": true,
-  "price": 87,
-  "regularPrice": 436,
-  "salePrice": 87,
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/07/Reflex-duck-sausage-80g-1.png",
   "categories": [
     {
       "id": 2345,
@@ -32,62 +30,18 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
-    {
-      "id": 2663,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=29999",
-  "shortDescription": "Reflex Dog Treats – Duck Sausage. A great source of lean protein. No artificial colors, flavors or preservatives added.",
   "description": "Reflex natural super premium dog treats can easily be digested due to its high meat content. It will not cause weight gain as it has low calorie. The fatty acids in it support skin and coat health. It is also very effective for training with its high palatability. Ingredients: Duck Breast, Cowhide, Vegetable Glycerine, Sorbitol. Nutrient Components Crude Protein 60% Crude Fat 2% Crude Cellulose 0,2% Crude Ash 4% Moisture 18% FEEDING RECOMMENDATIONS: Recommended for all dogs. Feed as a snack or treat between meals. This product does not replace full-dog food daily. Once open, keep the package tightly closed. Store in a cool, dry place.",
-  "images": [
-    {
-      "id": 42225,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/07/Reflex-duck-sausage-80g-1.png",
-      "alt": "Reflex Dog Treats - Duck Sausage 80g",
-      "name": "Reflex duck sausage-80g"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-dog-treats-duck-sausage-80g-2/?add-to-cart=29999",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2022-07-21T09:29:46",
-  "dateModified": "2026-05-06T17:08:21",
-  "brand": "Reflex",
-  "weight_kg": 0.08,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/07/Reflex-duck-sausage-80g-1.png"
+  "catalogVisibility": "visible"
 }

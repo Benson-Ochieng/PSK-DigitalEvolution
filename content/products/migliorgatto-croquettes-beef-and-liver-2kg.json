@@ -2,14 +2,12 @@
   "id": 28281,
   "name": "Migliorgatto Adult Cat Food Croquettes Beef And Liver 2kg",
   "slug": "migliorgatto-croquettes-beef-and-liver-2kg",
-  "sku": "MCD001",
   "onSale": false,
-  "price": 2350,
-  "regularPrice": 2350,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MCD001.jpg",
   "categories": [
     {
       "id": 2325,
@@ -32,51 +30,18 @@
       "slug": "miglior"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=28281",
-  "shortDescription": "Formula designed to guarantee the key nutrients required for the well-being of your cat, including vitamins, Omega 3, calcium and phosphorous to support strong bones and teeth, healthy skin and glossy coat, and toned musculature.",
   "description": "COMPOSITION: Cereals, meat and animal derivatives 30% (beef 4%), derivatives of vegetable origin, oil and fats, minerals, yeasts. ANALYTICAL CONSTITUENTS: Crude protein 23.00%, Crude fibres 2.00%, Crude Fat 12.00%, Crude ash 7.80%, Calcium 2.2%, Phosphorus 1.5%, Omega 3 fatty acids 0.27%, Omega 6 fatty acids 1.4%. Nutritional additives /kg: Vitamin A 19000 UI, Vitamin D3 1320 UI, Vitamin E 100 mg, Vitamin B1 16.2 mg, Vitamin B2 5.5 mg, Vitamin B6 5.7 mg, vitaminB12 0.03 mg/Kg, Niacin 54.5 mg, Biotin 0.2 mg, Calcium D-pantothenate 68.2 mg, Folic acid 1.6 mg, Zinc (Zinc oxide) 140 mg, Iron (Iron (II) carbonate (siderite)) 100 mg, Copper (Copper II sulphate pentahydrate) 12 mg, Manganese (Manganese (II) oxide) 8.0 mg, Iodine (Potassium iodide) 3 mg, Selenium (Sodium selenite) 0.2 mg. Antioxidants. HOW TO USE: The product is ready to use. The daily amount recommended may vary due to age or particular needs of every dog. We suggest to switch gradually to the new food. Leave always available to your dog a bowl of pure water. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight",
-  "images": [
-    {
-      "id": 28231,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MCD001.jpg",
-      "alt": "Migliorgatto croquettes Beef and Liver 2Kg",
-      "name": "MCD001"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/migliorgatto-croquettes-beef-and-liver-2kg/?add-to-cart=28281",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2022-07-15T11:20:00",
-  "dateModified": "2026-05-06T17:08:15",
-  "brand": null,
-  "weight_kg": 2,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MCD001.jpg"
+  "catalogVisibility": "visible"
 }

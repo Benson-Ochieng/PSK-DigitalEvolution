@@ -2,14 +2,12 @@
   "id": 38470,
   "name": "SHORT EXPIRY-CLEARANCE: Bonnie Adult Dog Food - Lamb and Rice 2.5kg",
   "slug": "bonnie-adult-dog-food-lamb-and-rice-2-5kg-2",
-  "sku": "BDD004@SE",
-  "onSale": true,
-  "price": 1017,
-  "regularPrice": 1695,
-  "salePrice": 1017,
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2018/02/petstore-kenya-bonnie-lamb-rice-2.5kg-min.png",
   "categories": [
     {
       "id": 177,
@@ -32,57 +30,18 @@
       "slug": "dry-dog-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2428,
-      "name": "Bonnie",
-      "slug": "bonnie"
-    }
-  ],
-  "tags": [
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=38470",
-  "shortDescription": "Specially formulated for adult dogs, this lamb and rice recipe offers gentle, balanced nourishment in every bowl. The natural ingredients support smooth digestion, lean muscle tone, and overall vitality — making it ideal for sensitive stomachs and all dog breeds.",
   "description": "Bonnie Lamb & Rice Adult Dog food , full-balanced, lamb protein-containing all natural dog food carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult breeds. Lamb meal has been used as animal protein source. The balance of omega 3 & 6 is provided by using flaxseed . Yucca plant provides ammonia and odour control, increase absorption of nutrients, strengthens the immune system and optimises animal growth and performance. A good intestinal health and performance is provided by CitriStim which is a source of pathogen-binding manna oligsacharride , immune provide beta-glucans and immune-supportive yeast. Healthy skin and shiny coat is supported by using brewer's yeast . Muscles, organs and nerve cells are supported and the immune system strengthened by using whey powder . Rich vitamin contents. NUTRIENT COMPONENTS Protein .................. 21% Fat ...................... 11% Crude Cellulose (Fiber).... 4% INGREDIENTS: Lamb Proteins (dehydrated), Animal proteins (dehydrated), Wheat, Corn, Animal Fat, Corn Gluten, Rice, Dried Beet Pulp, Liver Flavour, Salt, Flaxseed, Dried Brewer's Yeast, Yucca Schidigera, Mannan-Oligosaccharides, Beta Glucan. MINERALS: Calcium, Phosphorus, Sodium, Ionide, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
-  "images": [
-    {
-      "id": 15702,
-      "src": "https://petstore.co.ke/wp-content/uploads/2018/02/petstore-kenya-bonnie-lamb-rice-2.5kg-min.png",
-      "alt": "Bonnie Adult Dog Food – Lamb and Rice 2.5kg",
-      "name": "petstore kenya bonnie lamb rice 2.5kg-min"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/bonnie-adult-dog-food-lamb-and-rice-2-5kg-2/?add-to-cart=38470",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-07-18T14:48:37",
-  "dateModified": "2026-06-17T04:32:50",
-  "brand": "Bonnie",
-  "weight_kg": 2.5,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2018/02/petstore-kenya-bonnie-lamb-rice-2.5kg-min.png"
+  "catalogVisibility": "visible"
 }

@@ -2,14 +2,12 @@
   "id": 17697,
   "name": "Rogz Dog Utility Fixed Lead/Leash X-Large - Red",
   "slug": "rogz-dog-utility-fixed-lead-leash-x-large-red",
-  "sku": "HL05-C",
   "onSale": false,
-  "price": 1550,
-  "regularPrice": 1550,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/HL05-C-Lumberjack-Red.jpg",
   "categories": [
     {
       "id": 2351,
@@ -32,51 +30,18 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1919,
-      "name": "Leashes",
-      "slug": "leash"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=17697",
-  "shortDescription": "Rogz Utility Fixed Lead/Leash -X-Large Red",
   "description": "Rogz Utility Fixed Reflective Dog Lead/Leash has a reflective yarn woven into the webbing for night time visibility so that everyone is aware that you & your dog are on an outing. Key Features: Reflective Stitching: Reflective yarn is woven into the webbing for night time visibility. RogLoc: RogLoc is the Fort Knox of release buckle Low Load Technology: LLT technology reduces the load on the Titanium Plastic buckle through a cleverly positioned load ring Contoured Plastic Component: ROGZ rounded contoured plastic components ensure that every ROGZ collar fits snugly Die-cast ring: Custom designed die cast ring (no welding). Electroplated chrome for a tarnish free finish Size: Length 1.2m, Width 2.5cm",
-  "images": [
-    {
-      "id": 17678,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/HL05-C-Lumberjack-Red.jpg",
-      "alt": "Rogz Dog Utility Fixed Lead/Leash X-Large - Red",
-      "name": "HL05-C Lumberjack Red"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-fixed-lead-leash-x-large-red/?add-to-cart=17697",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2021-01-11T20:05:50",
-  "dateModified": "2026-05-06T17:07:02",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/HL05-C-Lumberjack-Red.jpg"
+  "catalogVisibility": "visible"
 }

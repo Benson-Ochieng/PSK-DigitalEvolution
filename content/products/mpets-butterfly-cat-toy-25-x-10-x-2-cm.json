@@ -2,14 +2,12 @@
   "id": 27306,
   "name": "Mpets Butterfly Cat Toy - (25 X 10 X 2 cm)",
   "slug": "mpets-butterfly-cat-toy-25-x-10-x-2-cm",
-  "sku": "MPB",
   "onSale": false,
-  "price": 800,
-  "regularPrice": 800,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/MPB.jpg",
   "categories": [
     {
       "id": 2325,
@@ -27,56 +25,18 @@
       "slug": "mpets"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=27306",
-  "shortDescription": "Mpets Butterfly Cat Toy",
   "description": "M-PETS BUTTERFLY - Fluorescent fabric Colors: yellow, green, blue & pink",
-  "images": [
-    {
-      "id": 27277,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPB.jpg",
-      "alt": "Mpets Butterfly Cat Toy - (25 X 10 X 2 cm)",
-      "name": "MPB"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/mpets-butterfly-cat-toy-25-x-10-x-2-cm/?add-to-cart=27306",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2022-04-20T16:20:41",
-  "dateModified": "2026-05-06T17:08:05",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPB.jpg"
+  "catalogVisibility": "visible"
 }

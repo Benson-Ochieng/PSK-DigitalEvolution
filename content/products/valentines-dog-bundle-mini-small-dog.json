@@ -2,14 +2,12 @@
   "id": 34843,
   "name": "Valentine Dog Bundle - Mini & Small Dog",
   "slug": "valentines-dog-bundle-mini-small-dog",
-  "sku": "VDBUNDLE1",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/02/WhatsApp-Image-2023-02-02-at-11.37.41.jpeg",
   "categories": [
     {
       "id": 2332,
@@ -17,51 +15,18 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2122,
-      "name": "Bundle",
-      "slug": "bundle"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2108,
-      "name": "Mini breeds",
-      "slug": "mini-breeds"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=34843",
-  "shortDescription": "1PC Chicken Jerky 80Gr 1PC Duck Sausage 80GR 1PC Ankur Bowl 11cm / 300ml 1PC Rogz Treat Toy Small 1PC Poop Bag",
   "description": "\"I woof You today and every day.\"",
-  "images": [
-    {
-      "id": 34827,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/02/WhatsApp-Image-2023-02-02-at-11.37.41.jpeg",
-      "alt": "Valentine Dog Bundle - Mini & Small Dog",
-      "name": "WhatsApp Image 2023-02-02 at 11.37.41"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/valentines-dog-bundle-mini-small-dog/?add-to-cart=34843",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-02-02T16:12:29",
-  "dateModified": "2026-05-06T17:08:30",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/02/WhatsApp-Image-2023-02-02-at-11.37.41.jpeg"
+  "catalogVisibility": "visible"
 }

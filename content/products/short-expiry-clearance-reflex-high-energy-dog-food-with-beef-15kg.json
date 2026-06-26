@@ -2,14 +2,12 @@
   "id": 37125,
   "name": "SHORT EXPIRY-CLEARANCE: REFLEX HIGH ENERGY DOG FOOD WITH BEEF 15KG",
   "slug": "short-expiry-clearance-reflex-high-energy-dog-food-with-beef-15kg",
-  "sku": "RDD016",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/05/Reflex-High-energy-15kg.png",
   "categories": [
     {
       "id": 1304,
@@ -37,62 +35,18 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
-    {
-      "id": 2089,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 637,
-      "name": "kibble",
-      "slug": "kibble"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=37125",
-  "shortDescription": "A premium, all-natural dog food with full and balanced beef protein formulated by cat / dog nutritionists to meet the daily nutritional needs of adult and intense / high energy dogs .",
   "description": "Reflex Adult Dog High Energy is a premium, all natural dog food with full and balanced beef protein formulated by cat / dog nutritionists to meet the daily nutritional needs of adult and intense / high energy dogs . Nature miraculously provided omega 3 & 6 balance using flaxseed . Yucca plant provides ammonia and odour control, increases the absorption of nutrients. The immune system is strengthened, animals grow and performance improves. Good intestinal health and performance are achieved with pathogen-binding mannan oligosaccharide , immunogenic beta-glucans , and CitriStim , an immune-boosting yeast source. Brewer's yeast is used for healthy skin and shiny coat. Whey is used to strengthen the immune system. Muscles, organs and nerve cells are supported. Enriched with vitamins and minerals . &nbsp; &nbsp; Ingredients: Processed Animal Protein, Rice, Corn, Animal Oil, Wheat Clove, Corn Gluten, Dried Sugar Beet, Liver Flavour, Salt, Flax Seed, Dry Beer May. Minerals: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. Vitamins: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (Niacin) - B6 - B12 - B7 (Biotin) - B9 (Folic Acid), Vit. K, Choline, Calcium Pantothene. NUTRIENT COMPONENTS Raw Protein * ........... 32% Crude Fat ....................... 14% Crude Ash ........................ 8% Crude Cellulose (Fiber) ..... 3% FEEDING INGREDIENTS Vitamin A (E672) ...... 18,000 IU / kg Vitamin D3 (E671) .............................. 1,500 IU / kg Vitamin E (3a700) ) ................. 150 mg / kg Vitamin C (Stay C) .............. 200 mg / kg Feed Suggestions The amount of food to be given per day may vary depending on the outdoor temperature, the living conditions of your dog (inside / outside the house), its character and activity. It is important to weigh the amount of food so that your dog can be an ideal weight. It will be helpful to evaluate your dog's appetite, appearance and digestion when properly adjusting the amount of food to be given. Additional Tips Transition from one food to another must be made progressively by feeding small amounts of both foods for one week after mixing. Always keep clean and fresh water near the food bowl. Change it at least once a day. Store the product in a dry and cool place, and be sure to close the packaging thoroughly after each use.",
-  "images": [
-    {
-      "id": 37127,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/05/Reflex-High-energy-15kg.png",
-      "alt": "SHORT EXPIRY-CLEARANCE: REFLEX HIGH ENERGY DOG FOOD WITH BEEF 15KG",
-      "name": "Reflex High energy 15kg"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-reflex-high-energy-dog-food-with-beef-15kg/?add-to-cart=37125",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-05-18T11:00:20",
-  "dateModified": "2026-05-06T17:08:40",
-  "brand": "Reflex",
-  "weight_kg": 3,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/05/Reflex-High-energy-15kg.png"
+  "catalogVisibility": "visible"
 }

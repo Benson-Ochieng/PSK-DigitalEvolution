@@ -2,14 +2,12 @@
   "id": 15210,
   "name": "Caniglo Essential Fatty Acids Supplement for Dogs - 200mL",
   "slug": "caniglo-essential-fatty-acids-dog-supplement-200ml",
-  "sku": "Caniglo-01",
   "onSale": false,
-  "price": 2400,
-  "regularPrice": 2400,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/09/TRM-Caniglo-Essential-Fatty-Acids-Supplement-200ml-min.png",
   "categories": [
     {
       "id": 2332,
@@ -17,51 +15,18 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 2085,
-      "name": "Supplements",
-      "slug": "supplements"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=15210",
-  "shortDescription": "Support your dog's healthy and shiny coat with CANIGLO , a dog food supplement rich in Essential Fatty Acids Omega 3 and 6 sourced from refined marine oils.",
   "description": "CANIGLO is rich in the Essential Fatty Acids Omega 3 and 6 sourced from marine oils. These cannot be made by the body and must be provided through diet. An adequate intake of Essential Fatty Acids supports a healthy, soft shiny coat and good skin condition. Your dog will feel good inside and look fantastic outside! ADMINISTRATION: Mix Caniglo well into your dog's food. Feed each dog individually. Small Dogs ( up to 10kgs ): 4 mL Medium Dogs ( 10-25kgs ): 6 mL Large Dogs ( 25-40kgs ):8 mL Very Large Dogs ( over 40kgs): 12 mL",
-  "images": [
-    {
-      "id": 15211,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/09/TRM-Caniglo-Essential-Fatty-Acids-Supplement-200ml-min.png",
-      "alt": "Caniglo Essential Fatty Acids Supplement for Dogs - 200mL",
-      "name": "TRM Caniglo Essential Fatty Acids Supplement &#8211; 200ml-min"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/caniglo-essential-fatty-acids-dog-supplement-200ml/?add-to-cart=15210",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2020-09-09T11:52:17",
-  "dateModified": "2026-05-06T17:06:38",
-  "brand": null,
-  "weight_kg": 0.3,
-  "animal_type": "cat",
-  "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/09/TRM-Caniglo-Essential-Fatty-Acids-Supplement-200ml-min.png"
+  "catalogVisibility": "visible"
 }

@@ -2,14 +2,12 @@
   "id": 17565,
   "name": "Rogz Dog Utility Side Release Collar Small - Red",
   "slug": "rogz-dog-utility-side-release-collar-small-red",
-  "sku": "HB14-C",
   "onSale": false,
-  "price": 950,
-  "regularPrice": 950,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/HB14-C-Nitelife-Red.jpg",
   "categories": [
     {
       "id": 2351,
@@ -32,51 +30,18 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2065,
-      "name": "Collars",
-      "slug": "collar"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=17565",
-  "shortDescription": "Rogz Utility Side Release collar – Small Red",
   "description": "Rogz Utility Side Release Reflective Dog Collar has a reflective yarn woven into the webbing for night time visibility so that everyone is aware that you & your dog are on an outing. Key Features: Reflective Stitching: Reflective yarn is woven into the webbing for nighttime visibility RogLoc: The Fort Knox of release buckles Low Load Technology: LLT technology reduces the load on the Titanium Plastic buckle through a cleverly positioned load ring Contoured Plastic Component: ROGZ rounded contoured plastic components ensure that every ROGZ collar fits snugly Die-Cast Ring: Custom designed die cast ring (no welding). Electroplated chrome for a tarnish free finish Size: Small 11mm (Neck Size: 25 - 35cm)",
-  "images": [
-    {
-      "id": 17521,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/HB14-C-Nitelife-Red.jpg",
-      "alt": "Rogz Dog Utility Side Release Collar Small - Red",
-      "name": "HB14-C Nitelife Red"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-side-release-collar-small-red/?add-to-cart=17565",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2021-01-10T18:41:40",
-  "dateModified": "2026-05-06T17:07:00",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/HB14-C-Nitelife-Red.jpg"
+  "catalogVisibility": "visible"
 }

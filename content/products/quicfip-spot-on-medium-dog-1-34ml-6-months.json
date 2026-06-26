@@ -2,14 +2,12 @@
   "id": 39528,
   "name": "Veko-Quicfip Plus spot on medium dog 1.34ml- 6 months supply",
   "slug": "quicfip-spot-on-medium-dog-1-34ml-6-months",
-  "sku": "QuickFip03",
   "onSale": false,
-  "price": 6300,
-  "regularPrice": 6300,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/09/Quicfip-spot-on-medium-dog-e1723457553888.png",
   "categories": [
     {
       "id": 2214,
@@ -17,51 +15,18 @@
       "slug": "veko"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1149,
-      "name": "flea & tick",
-      "slug": "flea-tick"
-    },
-    {
-      "id": 2288,
-      "name": "Medicine",
-      "slug": "medicine"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=39528",
-  "shortDescription": "QuicFIP Plus is a monthly topical solution designed to safeguard dogs against fleas and ticks. This product swiftly eliminates 100% of adult fleas on your pet within 12 hours, and it also effectively eradicates all ticks and chewing lice within 48 hours.",
   "description": "QuicFIP Plus is a monthly topical solution designed to safeguard dogs against fleas and ticks. This product swiftly eliminates 100% of adult fleas on your pet within 12 hours, and it also effectively eradicates all ticks and chewing lice within 48 hours. An integral component of QuicFIP Plus is S-Methoprene, an insect growth regulator that eliminates fleas and ticks at every stage of their life cycle, including eggs and larvae. This treatment is highly effective against various tick species, such as the brown dog tick, American dog tick, lone star tick, and deer tick. &nbsp; QuicFIP Plus Spot On offers a rapid, efficient, and user-friendly method for managing and preventing fleas, ticks, and chewing lice. It not only exterminates all phases of fleas, encompassing eggs, larvae, pupae, and adult forms for a minimum of one month but also aids in controlling Flea Allergy Dermatitis in dogs. Additionally, it serves as a preventative measure against re-infestations. Furthermore, QuicFIP Plus is exceptionally convenient to apply and remains effective even for pets that enjoy swimming since it is waterproof. Compared to Frontline, Nexgard and Bravecto. Active Ingredient Fipronil 0.25% w/v (S) – Methoprene 0.22% w/v For Dogs of 10-20 kg (22.04lb- 44.09 lb): use 1.34ml Pipet {Medium Dogs} (Comes in Box 6 Tubes of 1.34ml which is Six- month supply).",
-  "images": [
-    {
-      "id": 39529,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/09/Quicfip-spot-on-medium-dog-e1723457553888.png",
-      "alt": "Veko-Quicfip Plus spot on medium dog 1.34ml- 6 months supply",
-      "name": "Quicfip spot on- medium dog"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/quicfip-spot-on-medium-dog-1-34ml-6-months/?add-to-cart=39528",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-09-11T15:24:19",
-  "dateModified": "2026-05-06T17:08:51",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/09/Quicfip-spot-on-medium-dog-e1723457553888.png"
+  "catalogVisibility": "visible"
 }

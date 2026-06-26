@@ -2,14 +2,12 @@
   "id": 16575,
   "name": "KONG Wubba Large - Blue",
   "slug": "kong-wubba-large",
-  "sku": "WB1B",
   "onSale": false,
-  "price": 1700,
-  "regularPrice": 1700,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/12/WUBBA-BLUE-e1714029484927.png",
   "categories": [
     {
       "id": 1204,
@@ -47,71 +45,18 @@
       "slug": "kong-accessories"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=16575",
-  "shortDescription": "The KONG Wubba is a fun, interactive tug and toss toy that is great for interactive or solo play.",
   "description": "The KONG Wubba is a fun, interactive tug and toss toy that is great for interactive or solo play. It's long floppy tails are ideal for shaking and tugging instincts as well as games of fetch. A durable reinforced nylon exterior combines with unique ball shapes for play sessions that last longer. Dogs love to squeak the Wubba and add to the fun by shaking the flapping tails back and forth making every game different from the next. Reinforced fabric and stitching for long-lasting fun. Long floppy tails ideal for shaking and tugging instincts. Great for solo or interactive playtime Squeaks for added engagement.",
-  "images": [
-    {
-      "id": 46391,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/12/WUBBA-BLUE-e1714029484927.png",
-      "alt": "KONG Wubba Large - Blue",
-      "name": "WUBBA BLUE"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/kong-wubba-large/?add-to-cart=16575",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2020-12-06T13:36:41",
-  "dateModified": "2026-05-06T17:06:42",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "cat",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/12/WUBBA-BLUE-e1714029484927.png"
+  "catalogVisibility": "visible"
 }

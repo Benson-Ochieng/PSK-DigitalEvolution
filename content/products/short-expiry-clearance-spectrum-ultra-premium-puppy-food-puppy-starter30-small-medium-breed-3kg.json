@@ -2,14 +2,12 @@
   "id": 25938,
   "name": "SHORT EXPIRY - CLEARANCE: Spectrum Ultra Premium Puppy Food - Puppy Starter 30 Small / Medium Breed 3kg",
   "slug": "short-expiry-clearance-spectrum-ultra-premium-puppy-food-puppy-starter30-small-medium-breed-3kg",
-  "sku": "SDD009@S",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2017/07/Spectrum-Puppy-Starter30.png",
   "categories": [
     {
       "id": 1304,
@@ -37,72 +35,18 @@
       "slug": "spectrum"
     }
   ],
-  "brands": [
-    {
-      "id": 2468,
-      "name": "Spectrum",
-      "slug": "spectrum"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 637,
-      "name": "kibble",
-      "slug": "kibble"
-    },
-    {
-      "id": 2110,
-      "name": "Medium breeds",
-      "slug": "medium-breeds"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2109,
-      "name": "Small breeds",
-      "slug": "small-breeds"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=25938",
-  "shortDescription": "? Specially formulated complete and balanced ultra premium food to meet nutritional requirements of small / mini and medium breed puppies ?(expected adult weight less than 25 kg) from 3 to 10 weeks of age.?Veterinarian recommended.",
   "description": "SPECTRUM Puppy Starter30 ,?specially formulated complete and balanced ultra premium puppy food to meet nutritional requirements of small / mini and medium breed puppies ?(expected adult weight less than 25 kg) from 3 to 10 weeks of age.?Veterinarian recommended. OPTIMUM PUPPY GROWTH: SPECTRUM Puppy Starter30 with its highly digestible protein sources and unique palatability helps your puppy to adapt its food easily and ensure optimum growth. OPTIMUM POSTPARTUM NUTRITION OF MOTHER DOG: SPECTRUM Puppy Starter30 formula is designed to meet increased nutritional requirements of your mother dog due to lactation in postpartum period. HIGH DIGESTIBILITY: SPECTRUM Puppy Starter30 contains highly digestible feedstuffs which are digested well by your puppy and its mother and optimise the immune system with the SQF concept. OPTIMUM KIBBLE FEATURES: SPECTRUM Puppy Starter30 with its proper size (1 cm) ensures adaptation of your puppy to dry food for optimum water / milk absorption. SYNOX 3D: a blend of natural, standardised GMO free - titrated plant extracts (Rosemary, grape seed, curcuma, citrus and cloves) clinical proven in cats to counter free radicals induced by oxidative cell damage . Free radicals are essential for life. However,?ageing is linked to an increased production of free radicals and a decreased ability to counter their negative effects on health and wellbeing. SYNOX 3D limits the production of malondialdehyde, one of the main toxic metabolites of oxidative stress, protecting cell membrane, mitochondria and genetic material of each individual cell. The unique composition of SYNOX 3D is the result of a screening process on 134 plant extracts, combined with trials in laboratory conditions and a successful clinical trial run in pets. Potential health benefits include increased resistance against oxidative stress, improved life-span and immune stimulation. Qrill: Antarctic qrill is a breakthrough ingredient providing a bioavailable matrix of proteins, omega-3 phospholipids and astaxanthin. Qrill or Euphausia superba phospholipids have been clinically proven to promote brain development, skin health, active joints and body composition. Xylo-oligsaccharides (XOS): super probiotics obtained by hydrolysis of corn cobs. XOS in the diet resists salivary, gastric and pancreatic enzymes. XOS limits energy wasting fermentation which is often the source of digestive discomfort and flatulence. The selective proliferation of Bifidobacteria and Lactobacilli, stimulates the synthesis of Short Chain Fatty Acids (SCFA) in the colon. The acidifying effect of SCFA counters potential pathogenic bacteria, promotes toxin neutralisation and keeps minerals in ionic configuration increasing bioavailability. SCFA serve as an available energy source to promote the regeneration of epithelial cells, increase the villus height, which induces a?larger area of epithelial villus cells that could facilitate absorption of nutrients. Ingredients: Dehydrated chicken protein, rice, maize, chicken oil, whey powder, hydrolyzed chicken liver, dried lamb protein, hydrolysed bagasse fibre, dried antarctic krill (euphausia superba), brewer's yeast, corn gluten, whole egg powder, yucca schidigera, xylo-oligosaccharides (400 ppm), L-carnitine, rosmarinus sp. - curcuma sp. - vitis sp.- citrus sp. - eugenia sp (300 ppm). Additives: Vitamin A (E-672): 18000 IU/kg, Vitamin D3 (E-671): 1500 IU/kg, Vitamin E (3A700): 200 mg/kg, Vitamin C (E301): 200 mg/kg, Iron (E1): 320 mg/kg, Iodine (E2): 1.5 mg/kg, Copper (E4): 45 mg/kg, Manganese (E5): 20 mg/kg, Zinc (E6): 180 mg/kg, Selenium (E8): 0.9 mg/kg, Preservatives - Antioxidants. NUTRIENT COMPONENTS Protein * ????.? 30% Fat ??????...? 18% Cellulose (Fiber) ??.. 2.5%",
-  "images": [
-    {
-      "id": 305,
-      "src": "https://petstore.co.ke/wp-content/uploads/2017/07/Spectrum-Puppy-Starter30.png",
-      "alt": "Spectrum Puppy Starter30",
-      "name": "Spectrum Puppy Starter30"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-spectrum-ultra-premium-puppy-food-puppy-starter30-small-medium-breed-3kg/?add-to-cart=25938",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2022-03-05T11:53:53",
-  "dateModified": "2026-06-17T04:35:31",
-  "brand": "Spectrum",
-  "weight_kg": 3,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2017/07/Spectrum-Puppy-Starter30.png"
+  "catalogVisibility": "visible"
 }

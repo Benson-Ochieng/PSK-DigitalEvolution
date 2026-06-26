@@ -2,14 +2,12 @@
   "id": 16421,
   "name": "KONG AirDog Fetch Stick W/Rope Lg",
   "slug": "kong-airdog-fetch-stick-w-rope-lg",
-  "sku": "AKFS1",
   "onSale": false,
-  "price": 1850,
-  "regularPrice": 1850,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/11/Kong-Air-01.jpg",
   "categories": [
     {
       "id": 2345,
@@ -37,46 +35,18 @@
       "slug": "dog-rope-tug-toys"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=16421",
-  "shortDescription": "KONG AirDog Fetch Stick with Rope – great for chewing and catching",
   "description": "The KONGAir Fetch Stick with Rope is an interesting new take on a classic dog play toy - the humble tennis ball! Made from a nonabrasive tennis ball material which is gentle on teeth and gums, its shape is great for chewing and catching. The high-quality throw rope is designed to be durable and makes the KONGAir Fetch Stick a joy to throw. In addition, it floats high in the water so you can take your games of fetch out onto the water!",
-  "images": [
-    {
-      "id": 24959,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/11/Kong-Air-01.jpg",
-      "alt": "KONG AirDog Fetch Stick W/Rope Lg",
-      "name": "Kong Air-01"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/kong-airdog-fetch-stick-w-rope-lg/?add-to-cart=16421",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2020-11-27T10:38:58",
-  "dateModified": "2026-05-06T17:06:40",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/11/Kong-Air-01.jpg"
+  "catalogVisibility": "visible"
 }

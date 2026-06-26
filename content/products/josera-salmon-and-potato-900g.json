@@ -2,14 +2,12 @@
   "id": 23775,
   "name": "Josera Salmon and Potato 900g",
   "slug": "josera-salmon-and-potato-900g",
-  "sku": "JDSP003",
   "onSale": false,
-  "price": 1551,
-  "regularPrice": 1551,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JDSP003.jpg",
   "categories": [
     {
       "id": 2112,
@@ -17,52 +15,18 @@
       "slug": "josera"
     }
   ],
-  "brands": [
-    {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2063,
-      "name": "senior dog",
-      "slug": "senior-dog"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=23775",
-  "shortDescription": "A grain-free pleasure for our chowhounds: Salmon and potato, with herbs and fruits. Due to the low protein and energy content and the moderate mineral content, it is also highly suitable for older dogs. A great product for dogs with allergies to Grains or to other sources of meat besides Salmon. Greatly helps dogs with skin allergies.",
   "description": "Composition: salmon 19,0 %; dried potato 51.0 %; poultry fat; beet fibre; potato protein; carob meal; hydrolysed fish protein; minerals; chicory root, ground (natural source of inulin); herbs; fruits. Product Details: A grain-free pleasure for our chowhounds: Salmon and potato, with herbs and fruits. Due to the low protein and energy content and the moderate mineral content, it is also highly suitable for older dogs. ? With 19% dried salmon as the only source of animal protein (corresponds to about 65 g of fresh meat per 100 g of dry food) ? With herbs and fruit (carob, chicory root, raspberries, peppermint, parsley, camomile, rose hip, liquorice, chokeberry, fenugreek seeds, blueberries, marigold and fennel) ? Also suitable for older dogs",
-  "images": [
-    {
-      "id": 23799,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JDSP003.jpg",
-      "alt": "Josera Salmon and Potato 900g",
-      "name": "JDSP003.jpg"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/josera-salmon-and-potato-900g/?add-to-cart=23775",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2021-10-29T07:55:44",
-  "dateModified": "2026-06-17T04:33:51",
-  "brand": "Josera",
-  "weight_kg": 0.9,
-  "animal_type": "dog",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JDSP003.jpg"
+  "catalogVisibility": "visible"
 }

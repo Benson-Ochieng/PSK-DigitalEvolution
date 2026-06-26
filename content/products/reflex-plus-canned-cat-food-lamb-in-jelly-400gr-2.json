@@ -2,14 +2,12 @@
   "id": 39455,
   "name": "SHORT EXPIRY-CLEARANCE: Reflex Plus Canned Cat Food Lamb in Jelly 400g",
   "slug": "reflex-plus-canned-cat-food-lamb-in-jelly-400gr-2",
-  "sku": "RPCW005@SE",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/RPCCFLLJ0.4.jpg",
   "categories": [
     {
       "id": 2325,
@@ -32,67 +30,18 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2157,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 622,
-      "name": "canned food",
-      "slug": "canned-food"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=39455",
-  "shortDescription": "(4 pieces minimum order) Reflex Plus Canned Cat Food Lamb in Jelly 400gr",
   "description": "Fully balanced, lamb protein containing canned (wet) cat food carefully formulated by cat nutritionists to meet the nutritional requirements of all adult breeds.",
-  "images": [
-    {
-      "id": 19832,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/RPCCFLLJ0.4.jpg",
-      "alt": "SHORT EXPIRY-CLEARANCE: Reflex Plus Canned Cat Food Lamb in Jelly 400g",
-      "name": "RPCCFLLJ0.4"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-canned-cat-food-lamb-in-jelly-400gr-2/?add-to-cart=39455",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-09-08T12:54:33",
-  "dateModified": "2026-05-06T17:08:51",
-  "brand": "Reflex",
-  "weight_kg": 0.4,
-  "animal_type": "cat",
-  "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/RPCCFLLJ0.4.jpg"
+  "catalogVisibility": "visible"
 }
