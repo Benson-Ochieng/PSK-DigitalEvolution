@@ -62,10 +62,30 @@ export async function action({ request }: Route.ActionArgs) {
 
     // Lookup customer or create
     const res = await query("SELECT * FROM customers WHERE email = $1", [email]);
-    let name = "Ben Ochieng";
+    let name = "";
     if (res.rows.length > 0) {
-      name = res.rows[0].name || name;
+      name = res.rows[0].name;
+      // If the customer name was defaulted to "Ben Ochieng", but they exist in users table, update it
+      if (name === "Ben Ochieng") {
+        const userRes = await query("SELECT * FROM users WHERE email = $1", [email]);
+        if (userRes.rows.length > 0 && userRes.rows[0].name) {
+          name = userRes.rows[0].name;
+          await query("UPDATE customers SET name = $1 WHERE email = $2", [name, email]);
+        }
+      }
     } else {
+      // Check if it's an admin/staff in users table
+      const userRes = await query("SELECT * FROM users WHERE email = $1", [email]);
+      if (userRes.rows.length > 0 && userRes.rows[0].name) {
+        name = userRes.rows[0].name;
+      } else {
+        // Derive name from email prefix
+        const prefix = email.split("@")[0];
+        name = prefix
+          .split(/[\._\-+]/)
+          .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+          .join(" ");
+      }
       await query("INSERT INTO customers (name, email) VALUES ($1, $2)", [name, email]);
     }
 
