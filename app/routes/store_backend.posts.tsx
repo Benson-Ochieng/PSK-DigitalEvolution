@@ -75,7 +75,7 @@ export async function action({ request }: { request: Request }) {
     const title = formData.get("title")?.toString() || "";
     const image = formData.get("image")?.toString() || "";
     const link = formData.get("link")?.toString() || "";
-    const tag = formData.get("tag")?.toString() || "Audio";
+    const tag = formData.get("tag")?.toString() || "Pet Care";
     const status = formData.get("status")?.toString() || "publish";
     const date = formData.get("date")?.toString() || new Date().toISOString();
     const content = formData.get("content")?.toString() || "";
@@ -107,7 +107,7 @@ export async function action({ request }: { request: Request }) {
   if (intent === "quick_edit") {
     const id = formData.get("id")?.toString() || "";
     const status = formData.get("status")?.toString() || "publish";
-    const tag = formData.get("tag")?.toString() || "Audio";
+    const tag = formData.get("tag")?.toString() || "Pet Care";
     const link = formData.get("link")?.toString() || "";
     const date = formData.get("date")?.toString() || "";
     const slug = formData.get("slug")?.toString() || "";
@@ -1359,11 +1359,11 @@ export default function VpBackendPosts() {
             }}>
               <div className="form-row" style={{ marginBottom: "12px" }}>
                 <label>Name</label>
-                <input type="text" name="name" required placeholder="e.g. Accessories" className="form-input" />
+                <input type="text" name="name" required placeholder="e.g. Pet Care" className="form-input" />
               </div>
               <div className="form-row" style={{ marginBottom: "12px" }}>
                 <label>Slug</label>
-                <input type="text" name="slug" placeholder="e.g. accessories" className="form-input" />
+                <input type="text" name="slug" placeholder="e.g. pet-care" className="form-input" />
               </div>
               <div className="form-row" style={{ marginBottom: "16px" }}>
                 <label>Description</label>

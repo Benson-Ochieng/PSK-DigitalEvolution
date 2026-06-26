@@ -33,7 +33,6 @@ export default function VpBackendLayout() {
   const [productsHovered, setProductsHovered] = useState(false);
   const [pagesHovered, setPagesHovered] = useState(false);
   const [usersHovered, setUsersHovered] = useState(false);
-  const [downloadsHovered, setDownloadsHovered] = useState(false);
   const [historyHovered, setHistoryHovered] = useState(false);
   const [postsHovered, setPostsHovered] = useState(false);
   const [mediaHovered, setMediaHovered] = useState(false);
@@ -96,7 +95,6 @@ export default function VpBackendLayout() {
     { label: "Analytics", path: "/store_backend/analytics", icon: "📈" },
     { label: "Pages", path: "/store_backend/pages", icon: "📄" },
     { label: "Comments", path: "/store_backend/comments", icon: "💬" },
-    { label: "Manuals & Drivers", path: "/store_backend/downloads", icon: "📥" },
     { label: "User Directory", path: "/store_backend/users", icon: "👥" },
     { label: "Live Orders", path: "/store_backend/orders", icon: "🛒" },
     { label: "Coupon Console", path: "/store_backend/coupons", icon: "🎫" },
@@ -1410,45 +1408,7 @@ export default function VpBackendLayout() {
               <span className="nav-label">Comments</span>
             </Link>
 
-            {/* Collapsible Manuals & Drivers Menu */}
-            <div
-              onMouseEnter={() => handleHoverStart("downloads", setDownloadsHovered)}
-              onMouseLeave={() => handleHoverEnd("downloads", setDownloadsHovered)}
-            >
-              <Link
-                to="/store_backend/downloads"
-                className={`nav-item menu-parent ${location.pathname.startsWith("/store_backend/downloads") ? "active" : ""}`}
-                style={{ textDecoration: "none" }}
-              >
-                <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-                  <span style={{ fontSize: "16px" }}>📥</span>
-                  <span className="nav-label">Manuals & Drivers</span>
-                </div>
-                <span className={`chevron-icon ${downloadsHovered || location.pathname.startsWith("/store_backend/downloads") ? "rotated" : ""}`}>▶</span>
-              </Link>
 
-              <div
-                className="submenu-container"
-                style={{
-                  maxHeight: (downloadsHovered || location.pathname.startsWith("/store_backend/downloads")) ? "120px" : "0px",
-                  opacity: (downloadsHovered || location.pathname.startsWith("/store_backend/downloads")) ? 1 : 0,
-                  marginTop: (downloadsHovered || location.pathname.startsWith("/store_backend/downloads")) ? "4px" : "0px",
-                }}
-              >
-                <Link
-                  to="/store_backend/downloads"
-                  className={`submenu-item ${(location.pathname === "/store_backend/downloads" && (!location.search || !location.search.includes("view=categories"))) ? "active" : ""}`}
-                >
-                  All Manuals
-                </Link>
-                <Link
-                  to="/store_backend/downloads?view=categories"
-                  className={`submenu-item ${location.search.includes("view=categories") ? "active" : ""}`}
-                >
-                  Categories
-                </Link>
-              </div>
-            </div>
 
             {/* Collapsible Users Menu */}
             <div
