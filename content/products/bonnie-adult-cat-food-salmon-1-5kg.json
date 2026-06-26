@@ -2,14 +2,12 @@
   "id": 3576,
   "name": "Bonnie Adult Cat Food - Salmon 1.5kg",
   "slug": "bonnie-adult-cat-food-salmon-1-5kg",
-  "sku": "BCD006",
   "onSale": false,
   "price": 1840,
   "regularPrice": 1840,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2017/07/Bonnie-Adult-Cat-Seafood-Salmon-min.png",
   "categories": [
     {
       "id": 177,
@@ -32,62 +30,51 @@
       "slug": "dry-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2428,
-      "name": "Bonnie",
-      "slug": "bonnie"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 637,
-      "name": "kibble",
-      "slug": "kibble"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/bonnie-adult-cat-food-salmon-1-5kg/",
-  "shortDescription": "Give your cat a taste of the ocean with Bonnie Salmon Adult Cat Food a carefully balanced recipe rich in premium salmon protein. Expertly crafted by cat nutritionists, it supports strong muscles, a glossy coat, and overall vitality for adult cats of all breeds.",
   "description": "Bonnie Salmon Adult Cat food, full-balanced, salmon protein-containing cat food carefully formulated by a cat nutritionist to meet the nutritional requirements of all adult breeds. Fish meal has been used as animal protein source. The balance of omega 3 & 6 is provided by using flaxseed . Yucca plant provides ammonia and odour control, increase absorption of nutrients, strengthens the immune system and optimises animal growth and performance. A good intestinal health and performance is provided by CitriStim which is a source of pathogen-binding manna oligsacharrides , beta-glucans and immune-supportive yeast. Healthy skin and shiny coat is supported by using brewers yeast . Muscles, organs and nerve cells are supported and the immune system strengthened by using whey powder . Rich vitamin contents. Rich fibre contents. NUTRIENT COMPONENTS Protein ......................32% Fat......................... 12% Crude Cellulose (Fiber) .....3% INGREDIENTS: Processed Animal Protein (Fish), Wheat, Corn, Animal Fat, Fish Meal, Corn Gluten, Fish Fat, Dried Sugar Beet, Fish Aroma, Salt, Flaxseed, Dried Brewers Yeast, Taurine. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
   "images": [
     {
-      "id": 657,
+      "id": 3576,
       "src": "https://petstore.co.ke/wp-content/uploads/2017/07/Bonnie-Adult-Cat-Seafood-Salmon-min.png",
-      "alt": "Bonnie Adult Cat Seafood Salmon min",
-      "name": "Bonnie Adult Cat Seafood Salmon min"
+      "alt": "Bonnie Adult Cat Food - Salmon 1.5kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Bonnie",
+      "slug": "bonnie"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/bonnie-adult-cat-food-salmon-1-5kg/?add-to-cart=3576",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2019-10-03T13:05:26",
-  "dateModified": "2026-06-24T16:12:04",
+  "permalink": "https://petstore.co.ke/product/bonnie-adult-cat-food-salmon-1-5kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/bonnie-adult-cat-food-salmon-1-5kg/?add-to-cart=3576",
+  "shortDescription": "Bonnie Salmon Adult Cat food, full-balanced, salmon protein-containing cat food carefully formulated by a cat nutritionist to meet the nutritional req",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2017/07/Bonnie-Adult-Cat-Seafood-Salmon-min.png",
+  "sku": "PSK-3576",
   "brand": "Bonnie",
   "weight_kg": 1.5,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2017/07/Bonnie-Adult-Cat-Seafood-Salmon-min.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2017/07/Bonnie-Adult-Cat-Seafood-Salmon-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 58274,
   "name": "Ferplast Cotton Tug Eight SH PA6530",
   "slug": "ferplast-cotton-tug-eight-sh-pa6530",
-  "sku": "FCT6530",
   "onSale": false,
   "price": 0,
   "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-52.png",
   "categories": [
     {
       "id": 1204,
@@ -17,46 +15,51 @@
       "slug": "accessories"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=58274",
-  "shortDescription": "The FERPLAST Cotton Tug Eight SH PA6530 is a durable and fun dog toy designed for active play sessions. Made from twisted cotton, it’s gentle on your dog’s teeth and gums while still strong enough to handle enthusiastic chewing and tugging.",
   "description": "Shaped like a figure eight, it offers an ergonomic and playful design that’s easy for dogs to grip and carry. At the center, a sturdy plastic joint adds extra durability and makes the toy comfortable for both pets and owners to hold during games. Its multicolored twisted cord provides a bright, eye-catching look that keeps dogs engaged and excited. This natural fabric toy is a great alternative to rubber or latex, giving your dog a safe and satisfying playtime experience. Key Features: • Made of twisted cotton – gentle on teeth yet strong for long-lasting play • Figure-eight design – fun and ergonomic for gripping and carrying • Central plastic joint – enhances durability and handling comfort • Vibrant multicolored cord – visually stimulating for dogs • Great for tug-of-war, chewing, and interactive play • Helps keep dogs active and mentally stimulated",
   "images": [
     {
-      "id": 58276,
+      "id": 58274,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-52.png",
       "alt": "Ferplast Cotton Tug Eight SH PA6530",
-      "name": "Untitled design (52)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/ferplast-cotton-tug-eight-sh-pa6530/?add-to-cart=58274",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-08-11T12:03:03",
-  "dateModified": "2026-05-06T17:11:57",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=58274",
+  "addToCartUrl": "https://petstore.co.ke/product/ferplast-cotton-tug-eight-sh-pa6530/?add-to-cart=58274",
+  "shortDescription": "Shaped like a figure eight, it offers an ergonomic and playful design that’s easy for dogs to grip and carry. At the center, a sturdy plastic joint ad",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-52.png",
+  "sku": "PSK-58274",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-52.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-52.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 46777,
   "name": "Cat Mini Tennis Balls 4pc (Pa2173)",
   "slug": "cat-mini-tennis-balls-4pc",
-  "sku": "PA2173",
   "onSale": false,
   "price": 450,
   "regularPrice": 450,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/05/PET-MINI-TENNIS-BALLS-4PC-e1715077573615.png",
   "categories": [
     {
       "id": 2325,
@@ -27,61 +25,51 @@
       "slug": "toys"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 2108,
-      "name": "Mini breeds",
-      "slug": "mini-breeds"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/cat-mini-tennis-balls-4pc/",
-  "shortDescription": "The CAT MINI TENNIS BALLS 4PC (PA2173) set features four durable, lightweight balls specially designed for feline play. Perfect for chasing, batting, and pouncing, these mini tennis balls stimulate your cat’s natural hunting instincts while providing hours of active entertainment and exercise.",
   "description": "The CAT MINI TENNIS BALLS 4PC (PA2173 ) set is designed to keep your cat active and entertained. These interactive toys encourage natural chasing, batting, and hunting behaviors, providing endless fun and mental stimulation. Benefits for Your Cat Promotes physical activity and helps prevent boredom, supporting overall health and fitness. Stimulates natural hunting instincts, especially beneficial for indoor cats. Encourages interactive play, strengthening the bond between you and &nbsp;",
   "images": [
     {
-      "id": 46778,
+      "id": 46777,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/05/PET-MINI-TENNIS-BALLS-4PC-e1715077573615.png",
       "alt": "Cat Mini Tennis Balls 4pc (Pa2173)",
-      "name": "PET MINI TENNIS BALLS 4PC"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/cat-mini-tennis-balls-4pc/?add-to-cart=46777",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-05-07T13:21:24",
-  "dateModified": "2026-06-24T15:12:09",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/cat-mini-tennis-balls-4pc/",
+  "addToCartUrl": "https://petstore.co.ke/product/cat-mini-tennis-balls-4pc/?add-to-cart=46777",
+  "shortDescription": "The CAT MINI TENNIS BALLS 4PC (PA2173 ) set is designed to keep your cat active and entertained. These interactive toys encourage natural chasing, bat",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/05/PET-MINI-TENNIS-BALLS-4PC-e1715077573615.png",
+  "sku": "PSK-46777",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/05/PET-MINI-TENNIS-BALLS-4PC-e1715077573615.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/05/PET-MINI-TENNIS-BALLS-4PC-e1715077573615.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

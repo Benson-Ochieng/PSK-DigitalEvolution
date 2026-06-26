@@ -2,14 +2,12 @@
   "id": 48247,
   "name": "Smart Choice Strong Rubber Toy (Sc163)",
   "slug": "smart-choice-strong-rubber-toy-sc163",
-  "sku": "SC163@F",
-  "onSale": true,
+  "onSale": false,
   "price": 956,
-  "regularPrice": 1195,
-  "salePrice": 956,
+  "regularPrice": 956,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/05/RUBBER-TOY-SC163.png",
   "categories": [
     {
       "id": 2358,
@@ -32,56 +30,51 @@
       "slug": "toys"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=48247",
-  "shortDescription": "Designed to entertain your dog through fun games, helping to keep them happy and healthy. Squeaks Flashes Dental The smart choice for your Pet.",
   "description": "Designed to entertain your dog through fun games, helping to keep them happy and healthy. A great chew toy, helping to strengthen the jaw Promoting healthy teeth and gums, reducing the build-up of plaque and tartar Internal squeaker and LED flasher Approximate measurements 8cm diameter Material Rubber Three assorted colours; blue/orange, blue/green and pink/purple (We cannot guarantee which style/colour you will receive when you purchase online) Approximate retail pack dimensions 12cm x 8cm x 13cm",
   "images": [
     {
-      "id": 47367,
+      "id": 48247,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/05/RUBBER-TOY-SC163.png",
       "alt": "Smart Choice Strong Rubber Toy (Sc163)",
-      "name": "RUBBER TOY- SC163"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/smart-choice-strong-rubber-toy-sc163/?add-to-cart=48247",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-07-03T08:47:36",
-  "dateModified": "2026-05-06T17:10:18",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=48247",
+  "addToCartUrl": "https://petstore.co.ke/product/smart-choice-strong-rubber-toy-sc163/?add-to-cart=48247",
+  "shortDescription": "Designed to entertain your dog through fun games, helping to keep them happy and healthy. A great chew toy, helping to strengthen the jaw Promoting he",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/05/RUBBER-TOY-SC163.png",
+  "sku": "PSK-48247",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/05/RUBBER-TOY-SC163.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/05/RUBBER-TOY-SC163.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

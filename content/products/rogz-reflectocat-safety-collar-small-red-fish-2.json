@@ -2,14 +2,12 @@
   "id": 52832,
   "name": "Rogz Reflectocat Safety Collar Small Red Fish",
   "slug": "rogz-reflectocat-safety-collar-small-red-fish-2",
-  "sku": "CB40-C@F",
-  "onSale": true,
+  "onSale": false,
   "price": 665,
-  "regularPrice": 950,
-  "salePrice": 665,
+  "regularPrice": 665,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-REFLECTOCAT-SAFETY-COLLAR-SMALL-RED-FISH.jpg",
   "categories": [
     {
       "id": 2332,
@@ -17,35 +15,51 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=52832",
-  "shortDescription": "",
   "description": "",
   "images": [
     {
-      "id": 47767,
+      "id": 52832,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-REFLECTOCAT-SAFETY-COLLAR-SMALL-RED-FISH.jpg",
-      "alt": "Rogz Reflectocat Safety Collar Small Red (Cb40-C)",
-      "name": "ROGZ REFLECTOCAT SAFETY COLLAR SMALL &#8211; RED FISH"
+      "alt": "Rogz Reflectocat Safety Collar Small Red Fish",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-reflectocat-safety-collar-small-red-fish-2/?add-to-cart=52832",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-01-16T17:05:26",
-  "dateModified": "2026-05-06T17:11:02",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=52832",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-reflectocat-safety-collar-small-red-fish-2/?add-to-cart=52832",
+  "shortDescription": "",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-REFLECTOCAT-SAFETY-COLLAR-SMALL-RED-FISH.jpg",
+  "sku": "PSK-52832",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-REFLECTOCAT-SAFETY-COLLAR-SMALL-RED-FISH.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-REFLECTOCAT-SAFETY-COLLAR-SMALL-RED-FISH.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

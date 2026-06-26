@@ -2,14 +2,12 @@
   "id": 90253,
   "name": "Simba Cat Canned Cat Food – Chicken & Turkey 85g",
   "slug": "simba-cat-canned-cat-food-chicken-turkey-85g",
-  "sku": "LSWC002",
   "onSale": false,
   "price": 179,
   "regularPrice": 179,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Mousse-chicken-turkey-cat-1.png",
   "categories": [
     {
       "id": 2325,
@@ -32,57 +30,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2464,
-      "name": "Simba",
-      "slug": "simba"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/simba-cat-canned-cat-food-chicken-turkey-85g/",
-  "shortDescription": "Give your cat a delicious and nutritious meal with Simba Cat Mousse Wet Cat Food Chicken & Turkey 85g . This complete wet cat food features a soft and delicate mousse texture made with quality chicken and turkey, providing a highly palatable source of protein and essential minerals to support your cat's overall health and wellbeing.",
   "description": "Carefully steamed to preserve the natural flavour of the ingredients, this tasty recipe helps stimulate your cat's appetite while delivering balanced daily nutrition. Enriched with Vitamins D3 and E, it supports healthy development, vitality, and immune function. Key Benefits Complete and balanced wet food for adult cats Made with quality chicken (20%) and turkey (10%) Soft mousse texture for easy eating and enjoyment Rich in protein to support healthy muscles Enriched with Vitamins D3 and E No added dyes or preservatives High moisture content to help support hydration Ingredients Meat and animal derivatives (Chicken 20%, Turkey 10%), Minerals. Analytical Constituents Crude Protein: 9.5% Crude Fat: 6.0% Crude Fibre: 0.5% Crude Ash: 2.4% Moisture: 78% Nutritional Additives per kg Vitamin D3: 250 IU Vitamin E (all rac-alpha-tocopheryl-acetate): 5 mg Feeding Guide Feed approximately 180g daily for an average adult cat weighing 4kg, divided into two meals. Adjust feeding amounts according to your cat's age, activity level, and lifestyle. Serve at room temperature. Fresh drinking water should always be available. Pack Size: 85g Treat your feline companion to the irresistible taste of chicken and turkey with Simba Cat Mousse Wet Cat Food – a complete, nutritious meal designed to keep cats happy, healthy, and satisfied every day.",
   "images": [
     {
-      "id": 90261,
+      "id": 90253,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Mousse-chicken-turkey-cat-1.png",
       "alt": "Simba Cat Canned Cat Food – Chicken & Turkey 85g",
-      "name": "Simba Cat Mousse chicken &#038; turkey cat (1)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Simba",
+      "slug": "simba"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/simba-cat-canned-cat-food-chicken-turkey-85g/?add-to-cart=90253",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-08T15:20:17",
-  "dateModified": "2026-06-17T05:01:39",
+  "permalink": "https://petstore.co.ke/product/simba-cat-canned-cat-food-chicken-turkey-85g/",
+  "addToCartUrl": "https://petstore.co.ke/product/simba-cat-canned-cat-food-chicken-turkey-85g/?add-to-cart=90253",
+  "shortDescription": "Carefully steamed to preserve the natural flavour of the ingredients, this tasty recipe helps stimulate your cat's appetite while delivering balanced ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Mousse-chicken-turkey-cat-1.png",
+  "sku": "PSK-90253",
   "brand": "Simba",
-  "weight_kg": 0.085,
+  "weight_kg": 0.09,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Mousse-chicken-turkey-cat-1.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Mousse-chicken-turkey-cat-1.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

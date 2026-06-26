@@ -2,14 +2,12 @@
   "id": 56846,
   "name": "Wagg Dog Training Treats 125g",
   "slug": "wagg-dog-training-treats-125g",
-  "sku": "WDTTREATT",
   "onSale": false,
   "price": 495,
   "regularPrice": 495,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-66.png",
   "categories": [
     {
       "id": 2345,
@@ -32,51 +30,51 @@
       "slug": "puppy-food"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2106,
-      "name": "Puppy food",
-      "slug": "puppy-food"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/wagg-dog-training-treats-125g/",
-  "shortDescription": "Wagg Dog Training Treats 125g are meaty, bone-shaped dog treats enriched with vitamins, minerals, and yoghurt to support healthy teeth and bones, ideal for training dogs aged 8 weeks and over.",
   "description": "Product Features These treats are complementary pet food suitable for all dogs from 8 weeks old. They are mini, bone-shaped treats designed specifically for training and rewarding good behavior. Enriched with added yoghurt and calcium to promote healthy teeth and bones in dogs. Oven baked to lock in natural flavor and nutrition for a tasty, crunchy texture. No added sugar or artificial colors and flavors, making them a healthy snack option. Available in variants like Chicken & Cheese or Chicken, Beef & Lamb , depending on the supplier. The treats generally weigh 125 grams per pack. Ingredients and Nutritional Info Common ingredients include wheat, beef meal, chicken meal, yoghurt, chicken fat, gelatine, and whey powder. The treats are enriched with essential vitamins and minerals such as Vitamin A, Vitamin D3, Vitamin E, Zinc, Manganese, Copper, Iodine, and Selenium to support overall dog health. Protein content is around 24%, fat around 9%, and moisture approximately 20%. Usage and Storage Use these treats during training sessions as positive reinforcement or give as occasional rewards throughout the day. They are not intended to replace main dog meals . Always ensure fresh drinking water is available for your dog when feeding treats. Store the treats in a cool, dry place to maintain freshness. These treats are suitable for dogs of any age from 8 weeks and older",
   "images": [
     {
-      "id": 56845,
+      "id": 56846,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-66.png",
       "alt": "Wagg Dog Training Treats 125g",
-      "name": "Untitled design (66)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
-  "lowStockRemaining": 5,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/wagg-dog-training-treats-125g/?add-to-cart=56846",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-07-14T14:19:41",
-  "dateModified": "2026-06-17T04:18:47",
-  "brand": null,
-  "weight_kg": 0.125,
+  "permalink": "https://petstore.co.ke/product/wagg-dog-training-treats-125g/",
+  "addToCartUrl": "https://petstore.co.ke/product/wagg-dog-training-treats-125g/?add-to-cart=56846",
+  "shortDescription": "Product Features These treats are complementary pet food suitable for all dogs from 8 weeks old. They are mini, bone-shaped treats designed specifical",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-66.png",
+  "sku": "PSK-56846",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.13,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-66.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-66.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

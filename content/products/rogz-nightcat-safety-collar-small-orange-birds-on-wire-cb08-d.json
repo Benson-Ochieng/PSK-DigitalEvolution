@@ -2,14 +2,12 @@
   "id": 48196,
   "name": "Rogz Nightcat Safety Collar Small Orange Birds On Wire (Cb08-D)",
   "slug": "rogz-nightcat-safety-collar-small-orange-birds-on-wire-cb08-d",
-  "sku": "CB08-D@F",
-  "onSale": true,
+  "onSale": false,
   "price": 663,
-  "regularPrice": 1100,
-  "salePrice": 663,
+  "regularPrice": 663,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/CB08-D-NightCat-Orange-420x420-1.jpg",
   "categories": [
     {
       "id": 1204,
@@ -37,61 +35,51 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2065,
-      "name": "Collars",
-      "slug": "collar"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 2227,
-      "name": "Rogz",
-      "slug": "rogz"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=48196",
-  "shortDescription": "The Rogz Night Cat Safety Collar is made from snag-free 100% polyester webbing with a reflective printed design stitched on for night time visibility making it stylish and durable. It also features a breakaway safety buckle that is designed to break open if your cat’s collar gets snagged offering safety during their adventures.",
   "description": "The Rogz Night Cat Safety Collar is made from snag-free 100% polyester webbing with a reflective printed design stitched on for nighttime visibility making it stylish and durable. It also features a breakaway safety buckle that is designed to break open if your cat’s collar gets snagged offering safety during their adventures. &nbsp;",
   "images": [
     {
-      "id": 42011,
+      "id": 48196,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/12/CB08-D-NightCat-Orange-420x420-1.jpg",
       "alt": "Rogz Nightcat Safety Collar Small Orange Birds On Wire (Cb08-D)",
-      "name": "CB08-D-NightCat-Orange-420&#215;420"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-nightcat-safety-collar-small-orange-birds-on-wire-cb08-d/?add-to-cart=48196",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-07-02T10:07:46",
-  "dateModified": "2026-05-06T17:10:17",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=48196",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-nightcat-safety-collar-small-orange-birds-on-wire-cb08-d/?add-to-cart=48196",
+  "shortDescription": "The Rogz Night Cat Safety Collar is made from snag-free 100% polyester webbing with a reflective printed design stitched on for nighttime visibility m",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/CB08-D-NightCat-Orange-420x420-1.jpg",
+  "sku": "PSK-48196",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "cat",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/CB08-D-NightCat-Orange-420x420-1.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/CB08-D-NightCat-Orange-420x420-1.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

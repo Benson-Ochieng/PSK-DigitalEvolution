@@ -2,14 +2,12 @@
   "id": 50768,
   "name": "Bonnie Adult Dog Food - Lamb and Rice 2.5kg",
   "slug": "bonnie-adult-dog-food-lamb-and-rice-2-5kg-3",
-  "sku": "BDD004@F",
-  "onSale": true,
+  "onSale": false,
   "price": 1152,
-  "regularPrice": 1695,
-  "salePrice": 1152,
+  "regularPrice": 1152,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2018/02/petstore-kenya-bonnie-lamb-rice-2.5kg-min.png",
   "categories": [
     {
       "id": 177,
@@ -17,47 +15,51 @@
       "slug": "bonnie"
     }
   ],
-  "brands": [
-    {
-      "id": 2428,
-      "name": "Bonnie",
-      "slug": "bonnie"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=50768",
-  "shortDescription": "Developed by expert canine nutritionists, Bonnie Lamb & Rice Adult Dog Food delivers a complete and balanced diet with high-quality lamb protein and wholesome rice. It promotes strong muscles, a shiny coat, and steady energy for adult dogs of all sizes.",
   "description": "Bonnie Lamb & Rice Adult Dog food , full-balanced, lamb protein-containing all-natural dog food carefully formulated by a dog nutritionist to meet the nutritional requirements of all adult breeds. Lamb meal has been used as animal protein source. The balance of omega 3 & 6 is provided by using flaxseed . Yucca plant Provides ammonia and odour control, increase absorption of nutrients, strengthens the immune system and optimises animal growth and performance. A good intestinal health and performance is provided by CitriStim which is a source of pathogen-binding manna oligsacharride , immune provide beta-glucans and immune-supportive yeast. Healthy skin and shiny coat are supported by using brewer's yeast . Muscles, organs and nerve cells are supported, and the immune system strengthened by using whey powder . Rich vitamin Contents . NUTRIENT COMPONENTS Protein .................. 18% Fat ...................... 7% Crude Ash...............8% Crude Cellulose (Fiber).... 4% INGREDIENTS: Lamb Proteins (dehydrated), Animal proteins (dehydrated), Wheat, Corn, Animal Fat, Corn Gluten, Rice, Dried Beet Pulp, Liver Flavour, Salt, Flaxseed, Dried Brewer's Yeast, Yucca Schidigera, Mannan-Oligosaccharides, Beta Glucan. MINERALS: Calcium, Phosphorus, Sodium, Ionide, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
   "images": [
     {
-      "id": 15702,
+      "id": 50768,
       "src": "https://petstore.co.ke/wp-content/uploads/2018/02/petstore-kenya-bonnie-lamb-rice-2.5kg-min.png",
-      "alt": "Bonnie Adult Dog Food – Lamb and Rice 2.5kg",
-      "name": "petstore kenya bonnie lamb rice 2.5kg-min"
+      "alt": "Bonnie Adult Dog Food - Lamb and Rice 2.5kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Bonnie",
+      "slug": "bonnie"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/bonnie-adult-dog-food-lamb-and-rice-2-5kg-3/?add-to-cart=50768",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-10-13T12:08:57",
-  "dateModified": "2026-06-17T04:32:52",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=50768",
+  "addToCartUrl": "https://petstore.co.ke/product/bonnie-adult-dog-food-lamb-and-rice-2-5kg-3/?add-to-cart=50768",
+  "shortDescription": "Bonnie Lamb & Rice Adult Dog food , full-balanced, lamb protein-containing all-natural dog food carefully formulated by a dog nutritionist to meet the",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2018/02/petstore-kenya-bonnie-lamb-rice-2.5kg-min.png",
+  "sku": "PSK-50768",
   "brand": "Bonnie",
   "weight_kg": 2.5,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2018/02/petstore-kenya-bonnie-lamb-rice-2.5kg-min.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2018/02/petstore-kenya-bonnie-lamb-rice-2.5kg-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

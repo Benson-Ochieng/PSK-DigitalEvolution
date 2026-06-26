@@ -2,14 +2,12 @@
   "id": 20012,
   "name": "Dog Poop Bag Holder - Bone Shape geen",
   "slug": "dog-poop-bag-holder-bone-shape-green",
-  "sku": "DPBHBGR",
   "onSale": false,
   "price": 342,
   "regularPrice": 342,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Poop-Bag-Holder-Bone-Shape-Green-DPBHBGR.jpg",
   "categories": [
     {
       "id": 2325,
@@ -37,71 +35,51 @@
       "slug": "generic"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=20012",
-  "shortDescription": "Dog Poop Bag Holder with Leash Clip. Comes with disposable waste bags, each bag is perforate for easy seperation",
   "description": "Dog Poop Bag Holder with Leash Clip. Comes with disposable waste bags, each bag is perforate for easy seperation",
   "images": [
     {
-      "id": 19960,
+      "id": 20012,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Poop-Bag-Holder-Bone-Shape-Green-DPBHBGR.jpg",
       "alt": "Dog Poop Bag Holder - Bone Shape geen",
-      "name": "Dog Poop Bag Holder &#8211; Bone Shape Green DPBHBGR"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/dog-poop-bag-holder-bone-shape-green/?add-to-cart=20012",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2021-04-14T21:29:12",
-  "dateModified": "2026-06-04T14:12:14",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=20012",
+  "addToCartUrl": "https://petstore.co.ke/product/dog-poop-bag-holder-bone-shape-green/?add-to-cart=20012",
+  "shortDescription": "Dog Poop Bag Holder with Leash Clip. Comes with disposable waste bags, each bag is perforate for easy seperation",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Poop-Bag-Holder-Bone-Shape-Green-DPBHBGR.jpg",
+  "sku": "PSK-20012",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Poop-Bag-Holder-Bone-Shape-Green-DPBHBGR.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Poop-Bag-Holder-Bone-Shape-Green-DPBHBGR.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

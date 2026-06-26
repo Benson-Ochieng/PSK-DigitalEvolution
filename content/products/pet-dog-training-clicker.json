@@ -2,14 +2,12 @@
   "id": 44540,
   "name": "Pet Dog Training Clicker",
   "slug": "pet-dog-training-clicker",
-  "sku": "PH2553",
   "onSale": false,
   "price": 800,
   "regularPrice": 800,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/02/ph2553.png",
   "categories": [
     {
       "id": 1204,
@@ -37,46 +35,51 @@
       "slug": "generic"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pet-dog-training-clicker/",
-  "shortDescription": "The training CLICKER is not only for dogs, but it also used for cats, birds, chicken, and even horses. Dimensions: 6 x 4 x 1.7 cm Feature: Dog Training Clicker with Wrist Strap",
   "description": "Durable, Easy to use and light weight Dog Training CLICKER is a brilliant tool for training your dog using positive reinforcement. Ergonomic and lightweight design for a comfortable fit in your hand. Comes with an elastic wrist band so you leave it on your wrist or clip it to your leash or pants. Button for easy clicking and loud sound to get your dog's attention and become a familiar indicator of a job well done. Perfect for basic obedience, such as sit, fetch, lie down, stand, roll over, look for the target, etc., and correct wrong behaviors. For effective pet training, ALWAYS reward with a treat after clicking. The training CLICKER is not only for dogs, but it can also be used for your cat, bird, chicken, and even horse. &nbsp;",
   "images": [
     {
-      "id": 44541,
+      "id": 44540,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/02/ph2553.png",
       "alt": "Pet Dog Training Clicker",
-      "name": "ph2553"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/pet-dog-training-clicker/?add-to-cart=44540",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-02-19T13:08:04",
-  "dateModified": "2026-06-17T04:18:42",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/pet-dog-training-clicker/",
+  "addToCartUrl": "https://petstore.co.ke/product/pet-dog-training-clicker/?add-to-cart=44540",
+  "shortDescription": "Durable, Easy to use and light weight Dog Training CLICKER is a brilliant tool for training your dog using positive reinforcement. Ergonomic and light",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/02/ph2553.png",
+  "sku": "PSK-44540",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/02/ph2553.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/02/ph2553.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

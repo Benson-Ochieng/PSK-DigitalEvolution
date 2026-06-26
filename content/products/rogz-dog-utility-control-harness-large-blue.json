@@ -2,14 +2,12 @@
   "id": 17860,
   "name": "Rogz Dog Utility Control Harness Large - Blue",
   "slug": "rogz-dog-utility-control-harness-large-blue",
-  "sku": "SJC06-B",
   "onSale": false,
   "price": 3800,
   "regularPrice": 3800,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/SJC06-B_Control-Harness.jpg",
   "categories": [
     {
       "id": 2351,
@@ -32,41 +30,51 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2318,
-      "name": "Harnesses",
-      "slug": "harness"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-control-harness-large-blue/",
-  "shortDescription": "Rogz Dog Utility Control Harness Large – Blue",
   "description": "Rogz Control Harness ensures comfort for your dog while providing you with additional control. With a padded chest plate for extra comfort and support, the pressure is transferred from your dog?s neck to its chest. Dual Lead/Leash attachment points: 1. Classic Lead/Leash attachment - Top of dog?s back for everyday use. 2. Multi Lead/Leash attachment ? Front chest pad for control and steering. TO FIT: There are multiple adjustment points to ensure you get the best fit for comfort and function. Once adjusted to size, there should be a two-finger gap between the harness and your dog?s body. Size: Large 20mm (Neck Size: 35 - 45cm)",
   "images": [
     {
-      "id": 17835,
+      "id": 17860,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/01/SJC06-B_Control-Harness.jpg",
-      "alt": "Rogz Dog Utility Control Harness Large – Blue",
-      "name": "SJC06 &#8211; B_Control Harness"
+      "alt": "Rogz Dog Utility Control Harness Large - Blue",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-control-harness-large-blue/?add-to-cart=17860",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2021-01-13T12:55:22",
-  "dateModified": "2026-06-24T09:12:03",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-control-harness-large-blue/",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-control-harness-large-blue/?add-to-cart=17860",
+  "shortDescription": "Rogz Control Harness ensures comfort for your dog while providing you with additional control. With a padded chest plate for extra comfort and support",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/SJC06-B_Control-Harness.jpg",
+  "sku": "PSK-17860",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/SJC06-B_Control-Harness.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/SJC06-B_Control-Harness.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 90770,
   "name": "Rio Bird Food – Sunflower Seeds 1kg",
   "slug": "rio-bird-food-sunflower-seeds-1kg",
-  "sku": "RSS",
   "onSale": false,
   "price": 2100,
   "regularPrice": 2100,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/Rio-Feed-.png",
   "categories": [
     {
       "id": 2369,
@@ -27,41 +25,51 @@
       "slug": "rio"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2114,
-      "name": "Bird",
-      "slug": "bird"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rio-bird-food-sunflower-seeds-1kg/",
-  "shortDescription": "Give your birds a wholesome and nutritious snack with RIO Sunflower Seeds 1kg . These premium-quality sunflower seeds are naturally rich in protein, healthy fats, and essential nutrients that help support energy levels, feather condition, and overall wellbeing. Perfect for both pet birds and wild birds, they provide a delicious treat that birds love while contributing to a balanced diet.",
   "description": "Whether offered as a daily reward, mixed with regular bird food, or placed in outdoor feeders, RIO Sunflower Seeds attract a variety of bird species and provide a natural source of nourishment throughout the year. Key Benefits: 100% natural sunflower seeds with no artificial additives or preservatives Rich in protein and healthy fats to support vitality and feather health Ideal for parrots, parakeets, cockatiels, and other pet bird species Perfect for outdoor feeders to attract wild birds Can be fed as a treat or mixed with regular bird food Convenient 1kg pack for long-lasting freshness and value Feeding Guide: Serve directly as a treat or mix with your bird's regular feed. Ensure fresh drinking water is available at all times. &nbsp;",
   "images": [
     {
-      "id": 90771,
+      "id": 90770,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/06/Rio-Feed-.png",
       "alt": "Rio Bird Food – Sunflower Seeds 1kg",
-      "name": "Rio Feed"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rio-bird-food-sunflower-seeds-1kg/?add-to-cart=90770",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-18T10:03:05",
-  "dateModified": "2026-06-18T10:12:01",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/rio-bird-food-sunflower-seeds-1kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/rio-bird-food-sunflower-seeds-1kg/?add-to-cart=90770",
+  "shortDescription": "Whether offered as a daily reward, mixed with regular bird food, or placed in outdoor feeders, RIO Sunflower Seeds attract a variety of bird species a",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/Rio-Feed-.png",
+  "sku": "PSK-90770",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "bird",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/Rio-Feed-.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/Rio-Feed-.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

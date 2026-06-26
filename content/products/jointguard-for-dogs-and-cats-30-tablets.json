@@ -2,14 +2,12 @@
   "id": 44463,
   "name": "JointGuard for Dogs and Cats - 30 tablets",
   "slug": "jointguard-for-dogs-and-cats-30-tablets",
-  "sku": "JOINTGUARD-01",
   "onSale": false,
   "price": 1200,
   "regularPrice": 1200,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/11/Petstore-Kenya-JointGuard-Raypharm-.png",
   "categories": [
     {
       "id": 2325,
@@ -42,56 +40,51 @@
       "slug": "cat-supplements"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2024,
-      "name": "joint and bone",
-      "slug": "joint-and-bone"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 2085,
-      "name": "Supplements",
-      "slug": "supplements"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/jointguard-for-dogs-and-cats-30-tablets/",
-  "shortDescription": "JointGuard boosts your four-legged companion's immune system, supports proper bones and joints with the addition of zinc, calcium and vitamin E. JointGuard for cats and dogs has been formulated to give great testing, chewable tablets in cheese and bacon flavour. You could also crumble in their food. For dogs & cats JointCare and mobility Glucosamine Hydrochloride 500mg, Chondroitin 400g and methyl Sulfonyl methane 200mg.",
   "description": "JointGuard - JointGuard for Dogs and Cats provides a complete spectrum of nutrients for joint health to keep your dogs and cats active. Glucosamine, Chondroitin and MSM provide an excellent combination to maintain joint health in dogs and cats supporting mobility in the joints and keeping the surrounding tissue and cartilage healthy. JointGuard: also supports your dog's and cat's immune system and bones with added zinc, vitamin E and calcium. JointGuard: Has been formulated as a great tasting, chewable tablet in bacon and cheese flavour. It can also be crumbled into the dog's food. Directions: Administer as a chewable tablet or crumble onto food Cats and dogs up to 10 lbs...1 tab daily Dogs between 11-39 lbs.......2 tabs daily Dogs between 40-79lbs..... 3 tabs daily Dogs above 80lbs................ 4 tabs daily Each chewable tablet contains: Glucosamine Hcl........................500mg Chondroitin suplhate sodium....400mg Methyl sulphonyl Methane........200mg Calcium carbonate......................60mg Zinc..............................................7mg Vitamin E.....................................60IU &nbsp;",
   "images": [
     {
-      "id": 16066,
+      "id": 44463,
       "src": "https://petstore.co.ke/wp-content/uploads/2020/11/Petstore-Kenya-JointGuard-Raypharm-.png",
-      "alt": "Petstore Kenya Joint Guard",
-      "name": "Petstore Kenya JointGuard Raypharm"
+      "alt": "JointGuard for Dogs and Cats - 30 tablets",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/jointguard-for-dogs-and-cats-30-tablets/?add-to-cart=44463",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-02-16T10:46:45",
-  "dateModified": "2026-06-23T12:37:17",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/jointguard-for-dogs-and-cats-30-tablets/",
+  "addToCartUrl": "https://petstore.co.ke/product/jointguard-for-dogs-and-cats-30-tablets/?add-to-cart=44463",
+  "shortDescription": "JointGuard - JointGuard for Dogs and Cats provides a complete spectrum of nutrients for joint health to keep your dogs and cats active. Glucosamine, C",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/11/Petstore-Kenya-JointGuard-Raypharm-.png",
+  "sku": "PSK-44463",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.3,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/11/Petstore-Kenya-JointGuard-Raypharm-.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/11/Petstore-Kenya-JointGuard-Raypharm-.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

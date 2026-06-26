@@ -2,14 +2,12 @@
   "id": 17349,
   "name": "Rogz Cat Fishcake Bowl 200ml - Anchovy Candy Strips Print",
   "slug": "rogz-cat-fishcake-bowl-200ml-anchovy-candy-strips-print",
-  "sku": "CBOWL31-H",
   "onSale": false,
   "price": 1850,
   "regularPrice": 1850,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/CBOWL31-H-Anchovy-Candy-Stripes-1.jpg",
   "categories": [
     {
       "id": 2325,
@@ -27,51 +25,51 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2072,
-      "name": "Bowls",
-      "slug": "bowls"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-cat-fishcake-bowl-200ml-anchovy-candy-strips-print/",
-  "shortDescription": "The Rogz Fishcake Bowl in Anchovy Pink Paw Print blends sleek design with whisker-conscious ergonomics – perfect for cats with sensitive snouts and owners who value both function and form. Capacity: 200ml Material: Premium Melamine",
   "description": "Elevate your cat’s mealtime with the stylish and functional Rogz Fishcake Bowl in Anchovy Pink Paw print. Thoughtfully designed for comfort and convenience, this bowl brings together aesthetics and practicality for discerning cat owners. Crafted from durable, hygienic melamine and finished with a non-slip base, this bowl stays in place and stands up to daily use. The playful Anchovy Pink Paw Print adds a stylish touch to any feeding area. The ridged interior not only keeps food centered but also helps slow down fast eaters, promoting healthier digestion and reducing the risk of bloating or vomiting. 🐾 Key Features: Whisker‑Friendly Design: A shallow, wide footprint with low edges ensures no harassment of your cat’s sensitive whiskers or short snout. Anti-Slip Ridges: The inner ridged surface keeps food in place, so your cat won’t bat kibble out and can enjoy a more pleasant meal. Premium Melamine Build: Crafted from strong, UV- and corrosion-resistant melamine that’s hygienic, long-lasting, and non‑toxic. Non-Skid Silicone Base: A natural, non-toxic silicone base prevents sliding and spillage, keeping mealtime tidy and stress-free. Easy to Clean: Dishwasher-safe on the top rack for simple, hygienic maintenance. Specifications: Capacity: 200 ml - ideal for meals or hydration. Material: Durable melamine with stainless steel accents and a silicone base. Design Option: Anchovy Pink Paw Print - stylish and playful decor for any cat lover’s home. Why It Stands Out: Cat Comfort First: No whisker fatigue - meals become more enjoyable. Mess-Resistant: Anti-slip ridges and base reduce fuss and floor cleanup. Built to Last: Robust materials withstand daily use with ease. Safe & Hygienic: Non-toxic and dishwasher-friendly for effortless upkeep. Perfect for cats and the humans who love them.",
   "images": [
     {
-      "id": 17453,
+      "id": 17349,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/01/CBOWL31-H-Anchovy-Candy-Stripes-1.jpg",
-      "alt": "Rogz Cat Fishcake Bowl 200ml – Anchovy Candy Strips Print",
-      "name": "CBOWL31-H Anchovy Candy Stripes"
+      "alt": "Rogz Cat Fishcake Bowl 200ml - Anchovy Candy Strips Print",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-cat-fishcake-bowl-200ml-anchovy-candy-strips-print/?add-to-cart=17349",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2021-01-08T15:50:47",
-  "dateModified": "2026-06-23T13:12:04",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/rogz-cat-fishcake-bowl-200ml-anchovy-candy-strips-print/",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-cat-fishcake-bowl-200ml-anchovy-candy-strips-print/?add-to-cart=17349",
+  "shortDescription": "Elevate your cat’s mealtime with the stylish and functional Rogz Fishcake Bowl in Anchovy Pink Paw print. Thoughtfully designed for comfort and conven",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/CBOWL31-H-Anchovy-Candy-Stripes-1.jpg",
+  "sku": "PSK-17349",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/CBOWL31-H-Anchovy-Candy-Stripes-1.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/CBOWL31-H-Anchovy-Candy-Stripes-1.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

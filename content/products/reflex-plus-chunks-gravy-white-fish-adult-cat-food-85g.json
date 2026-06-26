@@ -2,14 +2,12 @@
   "id": 69366,
   "name": "Pack Of 12: Reflex Plus Cat Food Pouch White Fish Chunks In Gravy 85g",
   "slug": "reflex-plus-chunks-gravy-white-fish-adult-cat-food-85g",
-  "sku": "RPCW033@12",
-  "onSale": true,
+  "onSale": false,
   "price": 2052,
-  "regularPrice": 2280,
-  "salePrice": 2052,
+  "regularPrice": 2052,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-PLUS-CAT-FOOD-POUCH-WHITE-FISH-CHUNKS-IN-GRAVY-85GR-1.png",
   "categories": [
     {
       "id": 2325,
@@ -32,67 +30,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2055,
-      "name": "Bulk Cat Food & Bulk Dog Food",
-      "slug": "bulk"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/reflex-plus-chunks-gravy-white-fish-adult-cat-food-85g/",
-  "shortDescription": "Reflex Plus Chunks in Gravy with White Fish is a nutritious wet cat food for adult cats. Supports hydration, kidney health, and easy digestion.",
   "description": "Reflex Plus Chunks in Gravy with White Fish for Adult Cats is a nutritious and highly digestible wet cat food formulated to support your cat’s overall health and wellbeing. Made with quality animal protein and real white fish, this delicious gravy-based meal delivers excellent taste while providing essential nutrients for adult cats. Enriched with functional components, vitamins, and trace minerals, it helps support multiple body systems, including heart, vision, and immune health. Its high moisture content contributes to daily water intake, supporting healthy hydration and kidney function. The soft chunks in rich gravy are easy to digest and highly palatable, making it ideal for everyday feeding. Key Benefits Made with real white fish (5%) High-quality animal protein for optimal nutrition Supports hydration and kidney health Easily digestible and gentle on the stomach Enriched with taurine, vitamins, and essential minerals Highly palatable chunks in gravy Suitable for adult cats Ingredients Meat and animal derivatives, fish and fish derivatives (white fish 5%), derivatives of vegetable origin, minerals, various sugars. Analytical Constituents Crude Protein: 8% Crude Fat: 4.5% Crude Fibre: 0.3% Crude Ash: 2% Moisture: 83% Nutritional Supplements Taurine: 1000 mg Vitamin E (all-rac-alpha-tocopheryl acetate): 100 mg Zinc (zinc oxide): 10 mg Manganese (manganous sulphate monohydrate): 2 mg Iodine (calcium iodate anhydrous): 0.7 mg Copper (copper (II) sulphate pentahydrate): 2 mg Iron (iron (II) sulphate monohydrate): 2 mg Biotin Feeding Guidelines Serve at room temperature Always provide clean, fresh drinking water Introduce new food gradually over approximately 5 days Store unopened packs in a cool, dry place Once opened, cover, refrigerate, and use within 2 days Not suitable for human consumption &nbsp; &nbsp;",
   "images": [
     {
-      "id": 69368,
+      "id": 69366,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-PLUS-CAT-FOOD-POUCH-WHITE-FISH-CHUNKS-IN-GRAVY-85GR-1.png",
       "alt": "Pack Of 12: Reflex Plus Cat Food Pouch White Fish Chunks In Gravy 85g",
-      "name": "REFLEX PLUS CAT FOOD POUCH WHITE FISH CHUNKS IN GRAVY 85GR (1)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-chunks-gravy-white-fish-adult-cat-food-85g/?add-to-cart=69366",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-02-02T09:37:59",
-  "dateModified": "2026-06-17T04:30:34",
+  "permalink": "https://petstore.co.ke/product/reflex-plus-chunks-gravy-white-fish-adult-cat-food-85g/",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-chunks-gravy-white-fish-adult-cat-food-85g/?add-to-cart=69366",
+  "shortDescription": "Reflex Plus Chunks in Gravy with White Fish for Adult Cats is a nutritious and highly digestible wet cat food formulated to support your cat’s overall",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-PLUS-CAT-FOOD-POUCH-WHITE-FISH-CHUNKS-IN-GRAVY-85GR-1.png",
+  "sku": "PSK-69366",
   "brand": "Reflex",
   "weight_kg": 0.15,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-PLUS-CAT-FOOD-POUCH-WHITE-FISH-CHUNKS-IN-GRAVY-85GR-1.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-PLUS-CAT-FOOD-POUCH-WHITE-FISH-CHUNKS-IN-GRAVY-85GR-1.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

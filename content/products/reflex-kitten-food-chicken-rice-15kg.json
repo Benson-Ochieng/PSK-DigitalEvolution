@@ -2,14 +2,12 @@
   "id": 52799,
   "name": "Reflex Kitten Food Chicken & Rice 15kg",
   "slug": "reflex-kitten-food-chicken-rice-15kg",
-  "sku": "RCD008@F",
-  "onSale": true,
+  "onSale": false,
   "price": 11025,
-  "regularPrice": 14700,
-  "salePrice": 11025,
+  "regularPrice": 11025,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/Untitled-design-16.png",
   "categories": [
     {
       "id": 2332,
@@ -17,41 +15,51 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=52799",
-  "shortDescription": "Reflex Kitten Chicken provides complete and balanced nutrition with premium chicken protein, essential vitamins, and minerals to support growth, strong bones, and immune health in kittens.",
   "description": "Reflex Kitten Food Chicken & Rice 15kg is a premium, complete, and balanced diet specially formulated to support the optimum growth, immune health, and overall well-being of growing kittens. Made with high-quality chicken protein , it provides the essential nutrients required during the most crucial stages of development. Ideal for households with multiple kittens or those seeking economical long-term feeding , this 15kg bulk pack ensures consistent nutrition and great value for money. Key Nutritional Benefits Protein and Growth Support Chicken serves as the primary protein source , supplying essential amino acids that promote muscle development, bone strength, and overall growth . This ensures your kitten builds lean, healthy body mass as it matures. Healthy Fats Containing 20% crude fat , the formula provides ample energy for active kittens while promoting soft skin and a glossy coat . Omega 3 & 6 Fatty Acids Naturally derived from flaxseed , these essential fatty acids contribute to cognitive development , immune system support , and a healthy, shiny coat . Immune System Support Enhanced with whey protein, beta-glucans, and CitriStim , the formula helps boost immunity and strengthens your kitten’s natural defences against common illnesses and infections. Digestive Health Fortified with mannan oligosaccharides (MOS) and yucca extract , Reflex Kitten Chicken & Rice promotes healthy intestinal function , reduces ammonia odour , and improves nutrient absorption , keeping your kitten’s digestion smooth and efficient. Vitamins and Minerals Enriched with essential vitamins ( A, D, E, B-complex, K, and C ) and key minerals ( calcium, phosphorus, zinc, iron, selenium ), this diet supports bone development , metabolic health , and overall organ function for complete body support. Ingredients Processed animal protein, wheat, corn, corn gluten, rice, animal fat, liver flavour, flaxseed, brewer’s yeast, taurine, MOS (mannan oligosaccharides), beta-glucan, yucca, quillaja, and enriched vitamins and minerals. These carefully selected ingredients work together to deliver a nutrient-dense, easily digestible meal that kittens love while supporting growth and vitality. Feeding Recommendations The daily feeding amount will vary based on your kitten’s age, activity level, and environment (indoor or outdoor). Owners should: Adjust portions according to appetite, body condition, and stool quality . Ensure fresh water is available at all times. Store in a cool, dry place to maintain freshness. Following these guidelines helps maintain optimal health and weight throughout your kitten’s growth stages. Why Choose Reflex Kitten Chicken & Rice 15kg . Complete and balanced premium nutrition . Supports strong immunity and digestive wellness . Promotes shiny coat and healthy skin . Enriched with essential vitamins and minerals . Great value 15kg bulk pack for multi-kitten homes &nbsp;",
   "images": [
     {
-      "id": 34177,
+      "id": 52799,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/04/Untitled-design-16.png",
       "alt": "Reflex Kitten Food Chicken & Rice 15kg",
-      "name": "Untitled design (16)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-kitten-food-chicken-rice-15kg/?add-to-cart=52799",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-01-16T17:05:00",
-  "dateModified": "2026-05-06T17:11:00",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=52799",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-kitten-food-chicken-rice-15kg/?add-to-cart=52799",
+  "shortDescription": "Reflex Kitten Food Chicken & Rice 15kg is a premium, complete, and balanced diet specially formulated to support the optimum growth, immune health, an",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/Untitled-design-16.png",
+  "sku": "PSK-52799",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/Untitled-design-16.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/Untitled-design-16.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

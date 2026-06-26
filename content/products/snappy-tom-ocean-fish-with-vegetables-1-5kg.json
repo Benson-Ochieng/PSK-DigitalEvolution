@@ -2,14 +2,12 @@
   "id": 56805,
   "name": "Snappy Tom Ocean Fish With Vegetables 1.5kg",
   "slug": "snappy-tom-ocean-fish-with-vegetables-1-5kg",
-  "sku": "STOFV",
   "onSale": false,
   "price": 1750,
   "regularPrice": 1750,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-50.png",
   "categories": [
     {
       "id": 2325,
@@ -27,46 +25,51 @@
       "slug": "dry-cat-food"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/snappy-tom-ocean-fish-with-vegetables-1-5kg/",
-  "shortDescription": "Ocean fish with vegetables dry cat food is made from real fish for real cats.",
   "description": ". It is a complete & balanced meal with all the real nutrition they need to get through their day and have real fun . High in protein with omega 3 & 6 oils for heart health & shiny coat . Taurine for healthy vision",
   "images": [
     {
-      "id": 56807,
+      "id": 56805,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-50.png",
       "alt": "Snappy Tom Ocean Fish With Vegetables 1.5kg",
-      "name": "Untitled design (50)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/snappy-tom-ocean-fish-with-vegetables-1-5kg/?add-to-cart=56805",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-07-14T11:01:49",
-  "dateModified": "2026-06-17T04:15:14",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/snappy-tom-ocean-fish-with-vegetables-1-5kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/snappy-tom-ocean-fish-with-vegetables-1-5kg/?add-to-cart=56805",
+  "shortDescription": ". It is a complete & balanced meal with all the real nutrition they need to get through their day and have real fun . High in protein with omega 3 & 6",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-50.png",
+  "sku": "PSK-56805",
+  "brand": "PetStore Kenya",
   "weight_kg": 1.5,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-50.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-50.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

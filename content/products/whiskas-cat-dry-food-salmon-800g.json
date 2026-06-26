@@ -2,14 +2,12 @@
   "id": 89795,
   "name": "Whiskas Cat Dry Food - Salmon 800g",
   "slug": "whiskas-cat-dry-food-salmon-800g",
-  "sku": "WCD003",
   "onSale": false,
   "price": 1350,
   "regularPrice": 1350,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Food-Salmon-800g-1.png",
   "categories": [
     {
       "id": 2325,
@@ -32,52 +30,51 @@
       "slug": "whiskas"
     }
   ],
-  "brands": [
-    {
-      "id": 2480,
-      "name": "Whiskas",
-      "slug": "whiskas"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/whiskas-cat-dry-food-salmon-800g/",
-  "shortDescription": "Give your cat complete and balanced daily nutrition with Whiskas 1+ Salmon Adult Dry Cat Food 800g. Specially formulated for adult cats aged 1 year and above, this delicious salmon recipe is made with high-quality ingredients to support overall health, vitality, and wellbeing.",
   "description": "Packed with essential vitamins and minerals, Whiskas Adult Salmon Dry Cat Food helps support healthy digestion, strong eyesight, a shiny coat, and urinary tract health. The crunchy kibble texture also helps encourage chewing while delivering the tasty salmon flavor cats love. Key Benefits Complete and balanced nutrition for adult cats aged 1+ years Made with delicious salmon for a tasty, protein-rich meal Supports urinary tract health with balanced minerals Enriched with Vitamin A for healthy vision and eye support Contains Zinc to promote healthy skin and a shiny coat Made using high-quality ingredients from trusted suppliers Sustainably sourced fish for responsible pet nutrition Why Choose Whiskas Salmon Adult Cat Food? Whiskas understands what cats naturally need to stay active and healthy. This adult dry cat food is carefully crafted to provide the right balance of nutrients, helping your cat maintain energy, strong immunity, and everyday wellbeing. Suitable For Adult cats aged 1 year and above All cat breeds Feeding Guide Serve according to your cat’s weight, age, and activity level. Ensure fresh, clean drinking water is always available. Storage Instructions Store in a cool, dry place away from direct sunlight. Reseal after opening to maintain freshness. Buy Whiskas 1+ Salmon Adult Dry Cat Food 800g online today and give your cat a nutritious, tasty meal made to keep them healthy, happy, and satisfied every day.",
   "images": [
     {
-      "id": 89796,
+      "id": 89795,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Food-Salmon-800g-1.png",
-      "alt": "Whiskas Cat Dry Food – Salmon 800g",
-      "name": "Whiskas Cat Food Salmon 800g (1)"
+      "alt": "Whiskas Cat Dry Food - Salmon 800g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Whiskas",
+      "slug": "whiskas"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/whiskas-cat-dry-food-salmon-800g/?add-to-cart=89795",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-05-21T16:28:42",
-  "dateModified": "2026-06-17T05:01:33",
+  "permalink": "https://petstore.co.ke/product/whiskas-cat-dry-food-salmon-800g/",
+  "addToCartUrl": "https://petstore.co.ke/product/whiskas-cat-dry-food-salmon-800g/?add-to-cart=89795",
+  "shortDescription": "Packed with essential vitamins and minerals, Whiskas Adult Salmon Dry Cat Food helps support healthy digestion, strong eyesight, a shiny coat, and uri",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Food-Salmon-800g-1.png",
+  "sku": "PSK-89795",
   "brand": "Whiskas",
   "weight_kg": 0.8,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Food-Salmon-800g-1.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Food-Salmon-800g-1.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

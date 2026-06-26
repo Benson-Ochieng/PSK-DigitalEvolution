@@ -2,14 +2,12 @@
   "id": 56710,
   "name": "Montego Packs O' Purrs Cat Treat - Chicken & Catnip 70g",
   "slug": "montego-packs-o-purrs-cat-treat-chicken-catnip-70g",
-  "sku": "MPPCC70",
   "onSale": false,
   "price": 495,
   "regularPrice": 495,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-40.png",
   "categories": [
     {
       "id": 2325,
@@ -32,52 +30,51 @@
       "slug": "montego"
     }
   ],
-  "brands": [
-    {
-      "id": 2453,
-      "name": "Montego",
-      "slug": "montego"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/montego-packs-o-purrs-cat-treat-chicken-catnip-70g/",
-  "shortDescription": "Specially crafted to support your cat’s overall wellbeing, these treats provide a great source of protein, taurine, and omega-6 fatty acids to promote muscle strength, heart health, and a shiny, healthy coat. Infused with natural catnip, each bite adds a playful twist your cat won’t be able to resist. Not suitable for kittens.",
   "description": "Treat your feline friend to a savory, meaty snack that’s out of this world with Montego Packs O’ Purrs Cosmic Kitty Chewy Treats - irresistibly tasty, soft, and packed with wholesome goodness! Made with premium ingredients like poultry meal, hydrolyzed chicken liver, and natural catnip, these chewy bites are as nutritious as they are delicious. Specially crafted to support your cat’s overall wellbeing, these treats provide a great source of protein, taurine, and omega-6 fatty acids to promote muscle strength, heart health, and a shiny, healthy coat. Infused with natural catnip, each bite adds a playful twist your cat won’t be able to resist. Perfect for everyday rewards or special bonding moments, these soft treats are mess-free, easy to serve, and loved by cats of all ages and breeds. Key Benefits Delicious chicken flavor with natural catnip cats love Supports heart health, vision, and muscle strength Soft, chewy texture perfect for cats of all breeds and ages Enriched with taurine and omega-6 fatty acids for overall wellbeing Enhanced with meat-based palatability boosters to tempt even picky eaters Typical Analysis (per 100g) Crude Protein 21% | Moisture 16.5% | Total Fat 4.4% | Crude Fibre 1.5% | Crude Ash 4% | Calcium 0.5% | Phosphorus 0.6% | Sodium 0.4% | Omega-6 1.2% | Taurine 0.125% | Metabolizable Energy 334 kcal Storage & Usage Feeding Instructions: Serve as a treat or reward between meals. Suitable for cats of all breeds and life stages – adjust quantity according to size, age, and activity level. Always provide fresh drinking water. Storage: Store in a cool, dry place away from direct sunlight. Reseal the pouch tightly after each use to maintain freshness. Once opened, consume within 30 days for the best quality. Make treat time a delight with Montego Packs O’ Purrs Cosmic Kitty Chewy Treats – Chicken & Catnip . Packed with real meaty flavor, natural catnip, and essential nutrients, every bite fuels your cat’s happiness and health. Give your furry friend a treat that’s truly cosmic —because they deserve nothing less than stellar!",
   "images": [
     {
-      "id": 56711,
+      "id": 56710,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-40.png",
       "alt": "Montego Packs O' Purrs Cat Treat - Chicken & Catnip 70g",
-      "name": "Untitled design (40)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Montego",
+      "slug": "montego"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/montego-packs-o-purrs-cat-treat-chicken-catnip-70g/?add-to-cart=56710",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-07-11T09:14:57",
-  "dateModified": "2026-06-22T16:12:17",
+  "permalink": "https://petstore.co.ke/product/montego-packs-o-purrs-cat-treat-chicken-catnip-70g/",
+  "addToCartUrl": "https://petstore.co.ke/product/montego-packs-o-purrs-cat-treat-chicken-catnip-70g/?add-to-cart=56710",
+  "shortDescription": "Treat your feline friend to a savory, meaty snack that’s out of this world with Montego Packs O’ Purrs Cosmic Kitty Chewy Treats - irresistibly tasty,",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-40.png",
+  "sku": "PSK-56710",
   "brand": "Montego",
   "weight_kg": 0.07,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-40.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-40.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

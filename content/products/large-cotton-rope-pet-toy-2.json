@@ -2,14 +2,12 @@
   "id": 42861,
   "name": "Large Cotton Rope Pet Toy",
   "slug": "large-cotton-rope-pet-toy-2",
-  "sku": "PA0452",
   "onSale": false,
   "price": 700,
   "regularPrice": 700,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/01/lARGE-COTTON-ROPE-PET-TOY.webp",
   "categories": [
     {
       "id": 1204,
@@ -37,56 +35,51 @@
       "slug": "dog-rope-tug-toys"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/large-cotton-rope-pet-toy-2/",
-  "shortDescription": "These toys could be used for both indoor or outdoor playing or training. Satisfying dogs instinctual needs and strengthening the bond between dog and owner. Suitable for medium & large dog breeds. Assorted designs each sold separately. The colour/style received with online purchases is chosen randomly. &nbsp;",
   "description": "DOG COTTON ROPE BONE is handmade by twining high quality cotton & polyester threads and have thick and tight knots which makes it long lasting, even for aggressive chewers. These dog toys will entertain your dog for hours. It also helps to clean up dirt hidden in dog’s teeth due to the friction when your dog is chewing the toy. It also promotes the healthy growth of teeth and gums. These toys can be used for both indoor or outdoor playing or training. Satisfying dogs instinctual needs and strengthening the bond between dog and owner Suitable for medium & large dog breeds.",
   "images": [
     {
-      "id": 42862,
+      "id": 42861,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/01/lARGE-COTTON-ROPE-PET-TOY.webp",
       "alt": "Large Cotton Rope Pet Toy",
-      "name": "lARGE COTTON ROPE PET TOY"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/large-cotton-rope-pet-toy-2/?add-to-cart=42861",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-01-03T10:48:39",
-  "dateModified": "2026-06-17T04:14:35",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/large-cotton-rope-pet-toy-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/large-cotton-rope-pet-toy-2/?add-to-cart=42861",
+  "shortDescription": "DOG COTTON ROPE BONE is handmade by twining high quality cotton & polyester threads and have thick and tight knots which makes it long lasting, even f",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/01/lARGE-COTTON-ROPE-PET-TOY.webp",
+  "sku": "PSK-42861",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/01/lARGE-COTTON-ROPE-PET-TOY.webp"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/01/lARGE-COTTON-ROPE-PET-TOY.webp",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

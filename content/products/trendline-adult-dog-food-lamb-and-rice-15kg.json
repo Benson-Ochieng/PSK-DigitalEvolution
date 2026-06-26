@@ -2,14 +2,12 @@
   "id": 48143,
   "name": "Trendline Adult Dog Food - Lamb and Rice 15kg",
   "slug": "trendline-adult-dog-food-lamb-and-rice-15kg",
-  "sku": "TDD004@F",
-  "onSale": true,
+  "onSale": false,
   "price": 4880,
-  "regularPrice": 6100,
-  "salePrice": 4880,
+  "regularPrice": 4880,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Trendline-ADULT-Dog-food-15kg-Lamb-rice-.png",
   "categories": [
     {
       "id": 1125,
@@ -17,47 +15,51 @@
       "slug": "trendline"
     }
   ],
-  "brands": [
-    {
-      "id": 2471,
-      "name": "Trendline",
-      "slug": "trendline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=48143",
-  "shortDescription": "Fully balanced all-natural dog food with lamb protein, brewer's yeast for immune support and Omega-3 and -6 from flaxseed. Carefully formulated by a dog nutritionist to meet the nutritional requirements of all adult dogs.",
   "description": "Trendline Adult Dog Food -Lamb & Rice , fully balanced all-natural dog food with lamb protein, brewer's yeast for immune support and Omega-3 and -6 from flaxseed. Carefully formulated by a dog nutritionist to meet the nutritional requirements of all adult dogs. NUTRIENT COMPONENTS Protein...................................20% Fat ......................................... 9% Crude Cellulose (Fiber)...........4% Crude Ash .............................8% INGREDIENTS: Processed Animal Protein, Corn, Animal Fat, Wheat Middlings, Corn Gluten, Dried Sugar Beet, Liver Aroma, Salt, Flaxseed, Dried Brewer's Yeast. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
   "images": [
     {
-      "id": 89566,
+      "id": 48143,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Trendline-ADULT-Dog-food-15kg-Lamb-rice-.png",
-      "alt": "Trendline Adult Dog Food – Lamb and Rice 15kg",
-      "name": "Trendline ADULT Dog food 15kg Lamb&#038; rice"
+      "alt": "Trendline Adult Dog Food - Lamb and Rice 15kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Trendline",
+      "slug": "trendline"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/trendline-adult-dog-food-lamb-and-rice-15kg/?add-to-cart=48143",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-07-01T11:40:21",
-  "dateModified": "2026-06-17T04:35:38",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=48143",
+  "addToCartUrl": "https://petstore.co.ke/product/trendline-adult-dog-food-lamb-and-rice-15kg/?add-to-cart=48143",
+  "shortDescription": "Trendline Adult Dog Food -Lamb & Rice , fully balanced all-natural dog food with lamb protein, brewer's yeast for immune support and Omega-3 and -6 fr",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Trendline-ADULT-Dog-food-15kg-Lamb-rice-.png",
+  "sku": "PSK-48143",
   "brand": "Trendline",
   "weight_kg": 15,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Trendline-ADULT-Dog-food-15kg-Lamb-rice-.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Trendline-ADULT-Dog-food-15kg-Lamb-rice-.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

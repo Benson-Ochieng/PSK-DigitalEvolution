@@ -2,14 +2,12 @@
   "id": 48154,
   "name": "Spectrum Gusto Soup For Cat With Chicken And Carrot 50g",
   "slug": "spectrum-gusto-soup-for-cat-with-chicken-and-carrot-50gr-3",
-  "sku": "SCW004@F",
-  "onSale": true,
+  "onSale": false,
   "price": 127,
-  "regularPrice": 195,
-  "salePrice": 127,
+  "regularPrice": 127,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-CHICKEN-AND-CARROT-50GR.png",
   "categories": [
     {
       "id": 180,
@@ -17,47 +15,51 @@
       "slug": "spectrum"
     }
   ],
-  "brands": [
-    {
-      "id": 2468,
-      "name": "Spectrum",
-      "slug": "spectrum"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=48154",
-  "shortDescription": "Appropriate for any Cat/Kitten as a healthy treat but not a substitute for a complete balanced food. Make sufficient drinking water available.",
   "description": "Spectrum Gusto Soup with Chicken and Carrot is a delicious 50g cat treat designed to keep cats healthy, hydrated, and satisfied. Made with real chicken breast and carrot in a savory fish broth, it provides essential nutrients and moisture. Ideal as a snack, daily reward, or meal topper, it’s perfect for cats and kittens of all ages. Key Features: Real chicken (25.4%) and carrot (4.7%) for natural flavor. High moisture content (90%) to support hydration. Savory fish broth encourages even picky cats to enjoy. Convenient 50g pouch for easy portioning. Suitable for cats and kittens of all ages. Ingredients: Water, Chicken Breast (25.4%), Carrot (4.7%), Fish Broth, Tapioca Starch (E1442), Guar Gum (E412) Nutritional Info (per pouch): Protein: 8%, Fat: 0.2%, Ash: 1%, Fiber: 0.1%, Moisture: 90% Feeding Guidelines: Serve with a spoon in small portions. Use as a treat, snack, or meal topper. Always provide fresh drinking water.",
   "images": [
     {
-      "id": 47686,
+      "id": 48154,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-CHICKEN-AND-CARROT-50GR.png",
       "alt": "Spectrum Gusto Soup For Cat With Chicken And Carrot 50g",
-      "name": "SPECTRUM GUSTO SOUP FOR CAT WITH CHICKEN AND CARROT 50GR"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Spectrum",
+      "slug": "spectrum"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/spectrum-gusto-soup-for-cat-with-chicken-and-carrot-50gr-3/?add-to-cart=48154",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-07-01T12:50:10",
-  "dateModified": "2026-06-17T04:35:32",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=48154",
+  "addToCartUrl": "https://petstore.co.ke/product/spectrum-gusto-soup-for-cat-with-chicken-and-carrot-50gr-3/?add-to-cart=48154",
+  "shortDescription": "Spectrum Gusto Soup with Chicken and Carrot is a delicious 50g cat treat designed to keep cats healthy, hydrated, and satisfied. Made with real chicke",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-CHICKEN-AND-CARROT-50GR.png",
+  "sku": "PSK-48154",
   "brand": "Spectrum",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-CHICKEN-AND-CARROT-50GR.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-CHICKEN-AND-CARROT-50GR.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

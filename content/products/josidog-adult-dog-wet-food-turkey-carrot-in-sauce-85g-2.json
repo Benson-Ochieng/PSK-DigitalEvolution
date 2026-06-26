@@ -2,14 +2,12 @@
   "id": 90340,
   "name": "JosiDog Adult Dog Wet Food – Turkey & Carrot in Sauce 85g",
   "slug": "josidog-adult-dog-wet-food-turkey-carrot-in-sauce-85g-2",
-  "sku": "JDW003",
-  "onSale": true,
+  "onSale": false,
   "price": 170,
-  "regularPrice": 213,
-  "salePrice": 170,
+  "regularPrice": 170,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/JosiDog-Adult-Dog-Wet-Food-–-Turkey-Carrot-in-Sauce-85g.png",
   "categories": [
     {
       "id": 2345,
@@ -32,62 +30,51 @@
       "slug": "wet-dog-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 939,
-      "name": "On Sale Now",
-      "slug": "sale"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/josidog-adult-dog-wet-food-turkey-carrot-in-sauce-85g-2/",
-  "shortDescription": "Give your small breed dog a delicious and balanced meal with JosiDog Turkey & Carrot in Sauce. Specially developed by nutrition experts, this premium wet dog food combines tender turkey pieces with vitamin-rich carrots in a tasty gravy that dogs love. The recipe contains 84% meat and animal by-products, providing high-quality protein to support daily vitality and overall wellbeing.",
   "description": "Enriched with prebiotic inulin to promote healthy digestion, vitamin E to support natural cell protection, and vitamin D3 for strong bones and teeth, this complete adult dog food delivers essential nutrition in every bite. The convenient freshness pouch makes serving easy while helping maintain freshness and flavour. Made in Germany with over 80 years of pet nutrition expertise, JosiDog Turkey & Carrot in Sauce is free from added soy, dairy products, artificial colourings, flavourings, and preservatives, making it a wholesome choice for your dog's daily diet. Key Benefits: Complete wet food for adult small breed dogs Made with turkey and vitamin-rich carrots in savoury gravy 84% meat and animal by-products for quality protein Contains prebiotic inulin to support healthy digestion Vitamin E helps protect cells from oxidative stress Vitamin D3 supports strong bones and teeth No added soy, dairy products, artificial colours, flavours, or preservatives Convenient freshness pouch for easy portioning Premium German quality pet nutrition Suitable for: Adult small breed dogs. &nbsp;",
   "images": [
     {
-      "id": 90343,
+      "id": 90340,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/06/JosiDog-Adult-Dog-Wet-Food-–-Turkey-Carrot-in-Sauce-85g.png",
       "alt": "JosiDog Adult Dog Wet Food – Turkey & Carrot in Sauce 85g",
-      "name": "JosiDog Adult Dog Wet Food – Turkey &#038; Carrot in Sauce 85g"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/josidog-adult-dog-wet-food-turkey-carrot-in-sauce-85g-2/?add-to-cart=90340",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-04T12:43:35",
-  "dateModified": "2026-06-17T05:01:39",
+  "permalink": "https://petstore.co.ke/product/josidog-adult-dog-wet-food-turkey-carrot-in-sauce-85g-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/josidog-adult-dog-wet-food-turkey-carrot-in-sauce-85g-2/?add-to-cart=90340",
+  "shortDescription": "Enriched with prebiotic inulin to promote healthy digestion, vitamin E to support natural cell protection, and vitamin D3 for strong bones and teeth, ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/JosiDog-Adult-Dog-Wet-Food-–-Turkey-Carrot-in-Sauce-85g.png",
+  "sku": "PSK-90340",
   "brand": "Josera",
-  "weight_kg": 0.085,
+  "weight_kg": 0.09,
   "animal_type": "dog",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/JosiDog-Adult-Dog-Wet-Food-–-Turkey-Carrot-in-Sauce-85g.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/JosiDog-Adult-Dog-Wet-Food-–-Turkey-Carrot-in-Sauce-85g.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

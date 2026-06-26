@@ -2,14 +2,12 @@
   "id": 55893,
   "name": "Snappy Tom Beef And Veg 85g",
   "slug": "snappy-tom-beef-and-veg-85g",
-  "sku": "STCW001",
   "onSale": false,
   "price": 169,
   "regularPrice": 169,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/06/SNAPPY-TOM-BEEF-AND-VEG.png",
   "categories": [
     {
       "id": 2325,
@@ -27,51 +25,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/snappy-tom-beef-and-veg-85g/",
-  "shortDescription": "Made with GRASS-FED beef and vegetables and the combination helps to improve your cat’s appetite. The high-protein fish will keep her in ideal body condition and stay healthy.",
   "description": "Made with GRASS-FED beef and vegetables and the combination helps to improve your cat’s appetite. The high-protein fish will keep her in ideal body condition and stay healthy. The amount fed can be adjusted accordingly to your cat activity level. Feed your cat by divided all daily meals into 2 or more servings and ensure fresh clean water is available at all times. Feeding Guide Cat’s Weight Feeding Amount (g/day) 0.5kg – 1.0kg 50g – 90g 1.0kg – 3.0kg 90g – 200g 3.0kg – 4.0kg 200g – 250g > 4.0kg >250g Ingredient List Chicken Beef and/or Fish Vegetables Vitamins & Minerals Gelling Agent Thickener Permitted Food Colours Taurine Ingredient List Crude Protein (Min) 8% Crude Fat (Min) 5% Crude Fibre (Max) 1% Moisture (Max) 85%",
   "images": [
     {
-      "id": 55894,
+      "id": 55893,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/06/SNAPPY-TOM-BEEF-AND-VEG.png",
       "alt": "Snappy Tom Beef And Veg 85g",
-      "name": "SNAPPY TOM BEEF AND VEG"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/snappy-tom-beef-and-veg-85g/?add-to-cart=55893",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-06-17T11:58:42",
-  "dateModified": "2026-06-17T04:15:06",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/snappy-tom-beef-and-veg-85g/",
+  "addToCartUrl": "https://petstore.co.ke/product/snappy-tom-beef-and-veg-85g/?add-to-cart=55893",
+  "shortDescription": "Made with GRASS-FED beef and vegetables and the combination helps to improve your cat’s appetite. The high-protein fish will keep her in ideal body co",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/06/SNAPPY-TOM-BEEF-AND-VEG.png",
+  "sku": "PSK-55893",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.1,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/06/SNAPPY-TOM-BEEF-AND-VEG.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/06/SNAPPY-TOM-BEEF-AND-VEG.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

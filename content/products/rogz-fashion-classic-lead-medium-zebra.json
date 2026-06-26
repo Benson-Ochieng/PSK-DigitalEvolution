@@ -2,14 +2,12 @@
   "id": 52826,
   "name": "Rogz Fashion Classic Lead Medium Zebra",
   "slug": "rogz-fashion-classic-lead-medium-zebra",
-  "sku": "HL255-ZB@F",
-  "onSale": true,
+  "onSale": false,
   "price": 840,
-  "regularPrice": 1400,
-  "salePrice": 840,
+  "regularPrice": 840,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/HL255-ZB_Fashion-Classic-Lead_M_Zebra-420x420-1.jpg",
   "categories": [
     {
       "id": 2332,
@@ -17,35 +15,51 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=52826",
-  "shortDescription": "",
   "description": "",
   "images": [
     {
-      "id": 47714,
+      "id": 52826,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/06/HL255-ZB_Fashion-Classic-Lead_M_Zebra-420x420-1.jpg",
-      "alt": "Rogz Fashion Classic Leash Medium Zebra (Hl255-Zb)",
-      "name": "HL255-ZB_Fashion-Classic-Lead_M_Zebra-420&#215;420"
+      "alt": "Rogz Fashion Classic Lead Medium Zebra",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-fashion-classic-lead-medium-zebra/?add-to-cart=52826",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-01-16T17:05:21",
-  "dateModified": "2026-05-06T17:11:02",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=52826",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-fashion-classic-lead-medium-zebra/?add-to-cart=52826",
+  "shortDescription": "",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/HL255-ZB_Fashion-Classic-Lead_M_Zebra-420x420-1.jpg",
+  "sku": "PSK-52826",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/HL255-ZB_Fashion-Classic-Lead_M_Zebra-420x420-1.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/HL255-ZB_Fashion-Classic-Lead_M_Zebra-420x420-1.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

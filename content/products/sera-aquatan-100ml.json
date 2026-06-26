@@ -2,14 +2,12 @@
   "id": 54720,
   "name": "Sera Aquatan 100ml",
   "slug": "sera-aquatan-100ml",
-  "sku": "SA100ML",
   "onSale": false,
   "price": 800,
   "regularPrice": 800,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/04/Sera-Aquatan.png",
   "categories": [
     {
       "id": 2285,
@@ -17,46 +15,51 @@
       "slug": "fish"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 2317,
-      "name": "fish",
-      "slug": "fish"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=54720",
-  "shortDescription": "Toxic substances such as chlorine and heavy metals may get into the aquarium water with every water change. Even our well monitored drinking water often contains such substances in concentrations critical for fish and other aquarium inhabitants.",
   "description": "Water conditioner for fish friendly water rich in mineral substances immediately removes chlorine and chloramines binds heavy metals with mineral substances Toxic substances such as chlorine and heavy metals may get into the aquarium water with every water change. Even our well monitored drinking water often contains such substances in concentrations critical for fish and other aquarium inhabitants. sera aquatan immediately conditions tap water into fish friendly, healthy aquarium water. It removes harmful substances such as chlorine and chloramines, binds heavy metals (e.g. copper, zinc or lead) and protects against ammonia. At the same time, it adds important mineral substances in a bioavailable form to the aquarium water, which is to the benefit of fish, plants, invertebrates and useful micro organisms. Calcium for a strong, well proportioned skeleton and flawless scales Magnesium for strong growth and muscles Manganese for healthy growth and improved fertility Iodine for a balanced development and better disease resistance aquatan thus ensures optimal living conditions for all aquarium inhabitants. sera aquatan ensures fish friendly water by removing toxic ammonia and chlorine, among others. These pollutants are harmful, and possibly fatal, for both fish and shrimps even in low concentrations. The diagram summarizes from when fish and/or shrimps are in danger. aquatan is able to remove or bind these pollutants entirely within shortest time (10 minutes at the maximum), and thus protects the aquarium inhabitants against dangerous intoxications. sufficient for size sufficient for 50 ml 200 Liter / 53 US gal. 100 ml 400 Liter / 106 US gal. 250 ml 1.000 Liter / 264 US gal. 500 ml 2.000 Liter / 530 US gal. 2.500 ml 10.000 Liter / 2,640 US gal. 5.000 ml 20.000 Liter / 5,300 US gal. &nbsp; Product name Content Comment Item no. sera aquatan 50 ml / 1.7 fl.oz. sufficient for: 53 US gal. (200 liters) 03030 sera aquatan 100 ml / 3.38 fl.oz. sufficient for: 106 US gal. (400 liters) 03040 sera aquatan 100 ml / 3.38 fl.oz. sufficient for: 106 US gal. (400 liters) 03040 sera aquatan 250 ml / 8.45 fl.oz. sufficient for: 264 US gal. (1,000 liters) 03050 sera aquatan 500 ml / 16.9 fl.oz. sufficient for: 530 US gal. (2,000 liters) 03060",
   "images": [
     {
-      "id": 54721,
+      "id": 54720,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/04/Sera-Aquatan.png",
       "alt": "Sera Aquatan 100ml",
-      "name": "Sera Aquatan"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/sera-aquatan-100ml/?add-to-cart=54720",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-04-16T11:26:15",
-  "dateModified": "2026-05-06T17:11:17",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=54720",
+  "addToCartUrl": "https://petstore.co.ke/product/sera-aquatan-100ml/?add-to-cart=54720",
+  "shortDescription": "Water conditioner for fish friendly water rich in mineral substances immediately removes chlorine and chloramines binds heavy metals with mineral subs",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/04/Sera-Aquatan.png",
+  "sku": "PSK-54720",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/04/Sera-Aquatan.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/04/Sera-Aquatan.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

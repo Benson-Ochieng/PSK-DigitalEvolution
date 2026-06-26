@@ -2,14 +2,12 @@
   "id": 90041,
   "name": "Rio Budgie Daily - Feed 1KG",
   "slug": "rio-budgie-daily-feed-1kg",
-  "sku": "RFFB",
   "onSale": false,
   "price": 1950,
   "regularPrice": 1950,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/Rio-Feed-for-Budgies-1Kg.png",
   "categories": [
     {
       "id": 2369,
@@ -27,46 +25,51 @@
       "slug": "rio"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2114,
-      "name": "Bird",
-      "slug": "bird"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rio-budgie-daily-feed-1kg/",
-  "shortDescription": "Give your budgies the best daily nutrition with RIO Daily Feed &nbsp;a carefully balanced, high-quality seed mix designed to support optimal health, vibrant plumage, and natural energy.",
   "description": "Crafted from the finest natural ingredients, RIO Daily Feed replicates the diverse diet budgies enjoy in the wild. This premium blend combines 12 carefully selected seeds and grains, delivering complete and balanced nutrition for budgerigars of all ages. Why Choose RIO Daily Feed for Budgies? Rich & Diverse Composition : Contains 12 premium ingredients including yellow millet, red millet, canary seed, black millet, linseed, Niger seed, and more for a varied and appetizing diet. Balanced Nutrition : 12.2% protein and 6% healthy fats to meet the daily nutritional needs of active budgies. Enhanced Vitality : 4% black millet for extra energy and 2% Niger seeds – an excellent source of proteins and fats. Skin & Feather Health : Linseeds rich in Omega-3 & Omega-6 fatty acids promote healthy skin and bright, shiny feathers. Immune Support : Contains algae to help strengthen the immune system. Strong Bones & Beak : Fortified with highly absorbable calcium granules for robust skeletal health. 100% Natural : Made with premium ingredients from trusted suppliers, with no artificial colors or preservatives. Analytical Constituents Protein: 12.2% Fat: 6% Fibre: 10.2% Ash: 3.2% Ingredients Yellow millet, red millet, canary seed, peeled oat, black millet, linseed, oat, Niger seed, healthy seeds, algae, calcium. Feeding Instructions Daily portion: 7–12 grams per budgie. Always provide fresh feed and clean water. During moulting, increase nutritional support with RIO Moulting Period formula. Complement with RIO mineral grit/sand for complete digestive and mineral balance. Store in a cool, dry place. Perfect for daily feeding of budgies, parakeets, and small parrots. Give your birds the natural goodness they deserve with RIO Daily Feed trusted by breeders worldwide. &nbsp;",
   "images": [
     {
-      "id": 90055,
+      "id": 90041,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Rio-Feed-for-Budgies-1Kg.png",
-      "alt": "Rio Budgie Daily – Feed 1KG",
-      "name": "Rio Feed for Budgies 1Kg"
+      "alt": "Rio Budgie Daily - Feed 1KG",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rio-budgie-daily-feed-1kg/?add-to-cart=90041",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-05-28T10:34:43",
-  "dateModified": "2026-06-17T12:12:13",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/rio-budgie-daily-feed-1kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/rio-budgie-daily-feed-1kg/?add-to-cart=90041",
+  "shortDescription": "Crafted from the finest natural ingredients, RIO Daily Feed replicates the diverse diet budgies enjoy in the wild. This premium blend combines 12 care",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/Rio-Feed-for-Budgies-1Kg.png",
+  "sku": "PSK-90041",
+  "brand": "PetStore Kenya",
   "weight_kg": 1,
   "animal_type": "bird",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/Rio-Feed-for-Budgies-1Kg.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/Rio-Feed-for-Budgies-1Kg.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

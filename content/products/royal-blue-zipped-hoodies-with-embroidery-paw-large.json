@@ -2,14 +2,12 @@
   "id": 49426,
   "name": "Royal Blue Zipped Hoodies with Embroidery Paw - Large",
   "slug": "royal-blue-zipped-hoodies-with-embroidery-paw-large",
-  "sku": "RBZHEPL",
   "onSale": false,
   "price": 3750,
   "regularPrice": 3750,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/08/Zipped-Hoodied.jpeg",
   "categories": [
     {
       "id": 2243,
@@ -17,57 +15,51 @@
       "slug": "human"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2238,
-      "name": "Gift Cards",
-      "slug": "gift-cards"
-    },
-    {
-      "id": 2266,
-      "name": "Hoodies",
-      "slug": "hoodies"
-    },
-    {
-      "id": 2245,
-      "name": "Human",
-      "slug": "human"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/royal-blue-zipped-hoodies-with-embroidery-paw-large/",
-  "shortDescription": "Wrap yourself in comfort and show off your love for furry friends with our delightful Paw Print zipped Hoodie. Designed with both cat and dog lovers in mind, this hoodie features an adorable paw print design, symbolizing the joy and companionship that pets bring into our lives.",
   "description": "A Cozy Embrace for Cat & Dog Lovers. Wrap yourself in comfort and show off your love for furry friends with our delightful Paw Print Hoodie. Designed with both cat and dog lovers in mind, this hoodie features an adorable paw print design, symbolizing the joy and companionship that pets bring into our lives. Product Highlights: Material: Crafted from a plush cotton-poly blend for ultimate softness and durability Design: Eye-catching paw print graphic that features a heartwarming blend of cat and dog paw prints Fit: Relaxed and cozy with a classic Zipped hoodie silhouette, complete with a spacious kangaroo pocket and adjustable drawstring hood Care Instructions: Machine washable for easy maintenance and long-lasting wear Whether you’re snuggling up on the couch or taking a stroll with your furry companions, this hoodie will keep you warm and stylish. It’s also a perfect gift for any pet parent who cherishes the unconditional love of their cats and dogs. Embrace the warmth of your favorite pets with every wear. Order your Paw Print Hoodie today and let your love for animal’s shine!",
   "images": [
     {
-      "id": 49428,
+      "id": 49426,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/08/Zipped-Hoodied.jpeg",
-      "alt": "Royal Blue Zipped Hoodies with Embroidery Paw – XX Large",
-      "name": "Zipped Hoodied"
-    },
+      "alt": "Royal Blue Zipped Hoodies with Embroidery Paw - Large",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
     {
-      "id": 49357,
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/08/Hoodie-back-1.jpeg",
-      "alt": "Royal Blue Zipped Hoodies with Embroidery Paw – XX Large",
-      "name": "Hoodie back"
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/royal-blue-zipped-hoodies-with-embroidery-paw-large/?add-to-cart=49426",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-08-16T10:00:31",
-  "dateModified": "2026-05-06T17:10:29",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/royal-blue-zipped-hoodies-with-embroidery-paw-large/",
+  "addToCartUrl": "https://petstore.co.ke/product/royal-blue-zipped-hoodies-with-embroidery-paw-large/?add-to-cart=49426",
+  "shortDescription": "A Cozy Embrace for Cat & Dog Lovers. Wrap yourself in comfort and show off your love for furry friends with our delightful Paw Print Hoodie. Designed ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/08/Zipped-Hoodied.jpeg",
+  "sku": "PSK-49426",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/08/Zipped-Hoodied.jpeg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/08/Zipped-Hoodied.jpeg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

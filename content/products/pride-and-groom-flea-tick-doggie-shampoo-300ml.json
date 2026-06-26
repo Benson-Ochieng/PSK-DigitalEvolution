@@ -2,14 +2,12 @@
   "id": 52781,
   "name": "Pride Andgoom Flea & Tick Doggie Shampoo 300ml",
   "slug": "pride-and-groom-flea-tick-doggie-shampoo-300ml",
-  "sku": "PGDS@F",
-  "onSale": true,
+  "onSale": false,
   "price": 535.5,
-  "regularPrice": 595,
-  "salePrice": 535.5,
+  "regularPrice": 535.5,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/08/PRIDE-amp-GROOM-FLEA-AND-TICK-DOGGIE-SHAMPOO-300ML.jpg",
   "categories": [
     {
       "id": 2332,
@@ -17,35 +15,51 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=52781",
-  "shortDescription": "",
   "description": "",
   "images": [
     {
-      "id": 49243,
+      "id": 52781,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/08/PRIDE-amp-GROOM-FLEA-AND-TICK-DOGGIE-SHAMPOO-300ML.jpg",
-      "alt": "Pride & Groom Flea & Tick Doggie Shampoo – 300ml",
-      "name": "PRIDE &amp; GROOM FLEA AND TICK DOGGIE SHAMPOO- 300ML"
+      "alt": "Pride Andgoom Flea & Tick Doggie Shampoo 300ml",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/pride-and-groom-flea-tick-doggie-shampoo-300ml/?add-to-cart=52781",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-01-16T17:04:49",
-  "dateModified": "2026-05-06T17:10:54",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=52781",
+  "addToCartUrl": "https://petstore.co.ke/product/pride-and-groom-flea-tick-doggie-shampoo-300ml/?add-to-cart=52781",
+  "shortDescription": "",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/08/PRIDE-amp-GROOM-FLEA-AND-TICK-DOGGIE-SHAMPOO-300ML.jpg",
+  "sku": "PSK-52781",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/08/PRIDE-amp-GROOM-FLEA-AND-TICK-DOGGIE-SHAMPOO-300ML.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/08/PRIDE-amp-GROOM-FLEA-AND-TICK-DOGGIE-SHAMPOO-300ML.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 53363,
   "name": "Cat Play Board With Spring Toys",
   "slug": "cat-play-board-with-spring-toys-2",
-  "sku": "CPBWST",
   "onSale": false,
   "price": 1300,
   "regularPrice": 1300,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/02/CAT-PLAY-BOARD-WITH-SPRING-TOYS.png",
   "categories": [
     {
       "id": 2325,
@@ -32,67 +30,51 @@
       "slug": "toys"
     }
   ],
-  "brands": [
-    {
-      "id": 2434,
-      "name": "CS",
-      "slug": "cs"
-    }
-  ],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2235,
-      "name": "cat scratcher",
-      "slug": "cat-scratcher"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/cat-play-board-with-spring-toys-2/",
-  "shortDescription": "Perfect for cats of all ages, this play board is an essential addition to any cat-friendly home, offering a fun and functional way to keep your furry friend entertained and active. Give your cat the ultimate playtime experience with the Cat Play Board with 2 Spring Toys and Scratching Board – a must-have for every playful feline! Height: 30cm Length: 25cm",
   "description": "Keep your feline friend entertained and active with our Cat Play Board with 2 Spring Toys This engaging play station offers the perfect blend of fun and functionality for your cat. Interactive Fun : Featuring two spring toys that bounce and wiggle with every swipe, this plays board will provide hours of excitement for your cat. Perfect for chasing, batting, and pouncing, it stimulates your cat's natural hunting instincts. Scratching Board : The built-in scratching surface helps keep your cat's claws healthy and sharp while protecting your furniture from unwanted scratching. Compact & Space-Saving : Its lightweight, sleek design makes it easy to place anywhere in your home, whether it's on the floor, a corner, or a favorite hangout spot. Pet-Safe Materials : Crafted from pet-safe materials, this play board is built to last, ensuring your cat has a safe and enjoyable playtime experience every day. Perfect for cats of all ages, this play board is an essential addition to any cat-friendly home, offering a fun and functional way to keep your furry friend entertained and active. Features : 2 spring toys for interactive play Scratching board Compact, lightweight design Safe, pet-friendly materials Give your cat the ultimate playtime experience with the Cat Play Board with 2 Spring Toys and Scratching Board – a must-have for every playful feline!",
   "images": [
     {
-      "id": 53364,
+      "id": 53363,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/02/CAT-PLAY-BOARD-WITH-SPRING-TOYS.png",
       "alt": "Cat Play Board With Spring Toys",
-      "name": "CAT PLAY BOARD WITH SPRING TOYS"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "CS",
+      "slug": "cs"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/cat-play-board-with-spring-toys-2/?add-to-cart=53363",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-02-06T11:41:12",
-  "dateModified": "2026-06-17T04:28:57",
+  "permalink": "https://petstore.co.ke/product/cat-play-board-with-spring-toys-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/cat-play-board-with-spring-toys-2/?add-to-cart=53363",
+  "shortDescription": "Keep your feline friend entertained and active with our Cat Play Board with 2 Spring Toys This engaging play station offers the perfect blend of fun a",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/02/CAT-PLAY-BOARD-WITH-SPRING-TOYS.png",
+  "sku": "PSK-53363",
   "brand": "CS",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/02/CAT-PLAY-BOARD-WITH-SPRING-TOYS.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/02/CAT-PLAY-BOARD-WITH-SPRING-TOYS.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

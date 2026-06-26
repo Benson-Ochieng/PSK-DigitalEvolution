@@ -2,14 +2,12 @@
   "id": 46144,
   "name": "Josera Urinary Cat Food 2kg",
   "slug": "josera-urinary-cat-food-2kg",
-  "sku": "JHLUC2",
   "onSale": false,
   "price": 4852,
   "regularPrice": 4852,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/white-josera-help-urinary-2kg_1.png",
   "categories": [
     {
       "id": 2325,
@@ -32,62 +30,51 @@
       "slug": "josera"
     }
   ],
-  "brands": [
-    {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 2319,
-      "name": "Veterinary Range",
-      "slug": "veterinary-range"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/josera-urinary-cat-food-2kg/",
-  "shortDescription": "If your cat has problems with cleanliness or urination, this may have painful causes: Often, it suffers from urinary stones, specifically struvite. The right feed helps improve well-being. Our Josera Help Urinary is tailored exactly to this.",
   "description": "If your cat has problems with cleanliness or urination, this can have painful causes for it: Often it suffers from urinary stones, in this case struvite’s. Here, the right feed can help to improve well-being. Our Josera Help Urinary is tailored exactly to this. The complete medicated feed promotes an acidic urinary pH to reduce the likelihood of struvite stones forming. The recipe also has a reduced magnesium content and a balanced protein and phosphorus content. These are the basis for the formation of struvite stones. The Phytogen Complex gives each crunchy kibble cranberry and nettle, which are traditionally used for urinary tract infections. With its selected ingredients, Josera Help Urinary can thus help to dissolve struvite stones and their urinary gravel and reduce their reformation. Magnesium-reduced recipe for cats Promotes an acidic urine pH to reduce the risk of struvite stone formation. Balanced protein and phosphorus ratio to counteract the formation of struvite stones. Phytogen complex: Cranberry and nettle are traditionally used as a supplement for urinary tract diseases. Increased sodium content to promote water absorption and thus flushing of the urinary tract. Dietary feed for adult cats for the dissolution of struvite stones and/or for prophylaxis against the recurrence of struvite stones Composition: Dried greaves protein; rice; maize; dried beet pulp (natural source of dietary fibre); poultry fat; dried potato; hydrolyzed animal protein; potato protein; minerals; poultry liver hydrolysate; oregano; ginger; rosemary; nettle; milk thistle; cranberry. Dietary feed for adult cats for the dissolution of struvite stones and/or for prophylaxis against the recurrence of struvite stones. Feeding Recommendation: Feeding recommendation per day. Weight inactive / older normally active / active 2-3 kg 30-40 g 40-55 g 3-4 kg 40-50 g 55-65 g 4-5 kg 50-60 g 65-75 g 5-7 kg 60-75 g 75-95 g 7-10 kg 75-95 g 95-125 g For optimal effect, only feed this diet to your cat. Additional feedings must be discussed with the attending veterinarian in advance. Ensure that your pet always has access to fresh drinking water",
   "images": [
     {
-      "id": 46145,
+      "id": 46144,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/04/white-josera-help-urinary-2kg_1.png",
       "alt": "Josera Urinary Cat Food 2kg",
-      "name": "white-josera-help-urinary-2kg_1"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/josera-urinary-cat-food-2kg/?add-to-cart=46144",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-04-16T15:33:04",
-  "dateModified": "2026-06-17T12:12:07",
+  "permalink": "https://petstore.co.ke/product/josera-urinary-cat-food-2kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/josera-urinary-cat-food-2kg/?add-to-cart=46144",
+  "shortDescription": "If your cat has problems with cleanliness or urination, this can have painful causes for it: Often it suffers from urinary stones, in this case struvi",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/white-josera-help-urinary-2kg_1.png",
+  "sku": "PSK-46144",
   "brand": "Josera",
   "weight_kg": 2,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/white-josera-help-urinary-2kg_1.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/white-josera-help-urinary-2kg_1.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

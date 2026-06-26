@@ -2,14 +2,12 @@
   "id": 68640,
   "name": "J4D 2 Cleaning Disinfectant Spray 300ml",
   "slug": "j4d-cleaning-disinfectant-500ml",
-  "sku": "GJ4D003",
   "onSale": false,
   "price": 645,
   "regularPrice": 645,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/disinfectant.png",
   "categories": [
     {
       "id": 2345,
@@ -32,62 +30,51 @@
       "slug": "dog-shampoo"
     }
   ],
-  "brands": [
-    {
-      "id": 2443,
-      "name": "J4D",
-      "slug": "j4d"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2375,
-      "name": "disinfectant",
-      "slug": "disinfectant"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/j4d-cleaning-disinfectant-500ml/",
-  "shortDescription": "J4D Cleaning Disinfectant 500ml kills germs, bacteria, and odours. Ideal for homes and offices, leaving surfaces clean, hygienic, and fresh smelling.",
   "description": "J4D Cleaning Disinfectant 500ml is a powerful liquid disinfectant designed to effectively clean, sanitise, and deodorise your home or workplace. Its concentrated formula kills germs and bacteria while eliminating unpleasant odours, leaving surfaces hygienically clean and fresh smelling. Ideal for everyday use, J4D Cleaning Disinfectant works on a wide range of surfaces including countertops, tables, floors, and other high-touch areas. It delivers both cleaning and disinfecting in one simple step, making hygiene effortless and reliable for busy homes and offices. Key Features 500ml liquid disinfectant for home and office use Kills germs and bacteria effectively Eliminates unpleasant odours Suitable for multiple surfaces including floors and countertops Fresh, long-lasting fragrance Benefits for Consumers Maintains a clean and hygienic environment Helps reduce the risk of germ and bacterial contamination Easy to use for quick and effective cleaning Leaves surfaces sanitised and fresh-smelling Product Advantages Concentrated formula for effective germ elimination Safe for use on a variety of household and office surfaces Combines cleaning and disinfecting in one step How to Use Apply directly to surfaces or dilute as required Wipe or mop to remove dirt, germs, and bacteria Suitable for daily use to maintain hygiene Benefits for Retailers High-demand everyday cleaning essential Strong repeat-purchase potential Ideal for household, office, and bulk cleaning categories Easy to merchandise for both individual and bulk sales &nbsp;",
   "images": [
     {
-      "id": 68654,
+      "id": 68640,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/01/disinfectant.png",
       "alt": "J4D 2 Cleaning Disinfectant Spray 300ml",
-      "name": "disinfectant"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "J4D",
+      "slug": "j4d"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 10,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/j4d-cleaning-disinfectant-500ml/?add-to-cart=68640",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-01-28T11:13:30",
-  "dateModified": "2026-06-17T04:30:33",
+  "permalink": "https://petstore.co.ke/product/j4d-cleaning-disinfectant-500ml/",
+  "addToCartUrl": "https://petstore.co.ke/product/j4d-cleaning-disinfectant-500ml/?add-to-cart=68640",
+  "shortDescription": "J4D Cleaning Disinfectant 500ml is a powerful liquid disinfectant designed to effectively clean, sanitise, and deodorise your home or workplace. Its c",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/disinfectant.png",
+  "sku": "PSK-68640",
   "brand": "J4D",
   "weight_kg": 0.4,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/disinfectant.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/disinfectant.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

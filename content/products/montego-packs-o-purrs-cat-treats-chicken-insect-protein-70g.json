@@ -2,14 +2,12 @@
   "id": 56712,
   "name": "Montego Packs O' Purrs Cat Treats -Chicken & Insect Protein 70g",
   "slug": "montego-packs-o-purrs-cat-treats-chicken-insect-protein-70g",
-  "sku": "MPPCI70",
   "onSale": false,
   "price": 495,
   "regularPrice": 495,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-41.png",
   "categories": [
     {
       "id": 2325,
@@ -32,57 +30,51 @@
       "slug": "montego"
     }
   ],
-  "brands": [
-    {
-      "id": 2453,
-      "name": "Montego",
-      "slug": "montego"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/montego-packs-o-purrs-cat-treats-chicken-insect-protein-70g/",
-  "shortDescription": "Specially crafted to support your cat’s overall wellbeing, these treats provide a great source of protein, taurine, and omega-6 fatty acids to promote muscle strength, heart health, and a shiny, healthy coat. Infused with natural catnip, each bite adds a playful twist your cat won’t be able to resist. Not suitable for kittens.",
   "description": "Treat your feline friend to a savory, meaty snack that’s truly out of this world with PACKS O’ PURRS Cosmic Kitty Chewy Treats - irresistibly soft, deliciously chewy, and packed with wholesome, sustainable goodness! Made with premium ingredients like black soldier fly larvae , poultry protein , and hydrolyzed chicken liver , these treats are as nutritious as they are irresistible. Specially crafted to support your cat’s overall wellbeing, these cosmic bites provide a balanced source of protein, taurine, and essential fatty acids to help maintain strong muscles, a healthy heart, and a shiny coat. With their soft texture and irresistible flavor, these treats make every snack time an intergalactic adventure your cat will love. Perfect for everyday rewards or special bonding moments, these treats are mess-free, easy to serve , and ideal for cats of all ages and breeds. Key Benefits Made with sustainable protein sources including black soldier fly larvae and poultry meal Supports heart health, vision, and muscle strength with added taurine Soft, chewy texture cats of all ages will love Enriched with essential amino acids and omega fatty acids for total wellbeing Enhanced with meat-based palatability boosters to satisfy even the pickiest eaters Typical Analysis (per 100g) Crude Protein 16.0% | Moisture 16.5% | Total Fat 2.7% | Crude Fibre 0.8% | Crude Ash 2.7% | Calcium 0.2% | Phosphorus 0.35% | Sodium 0.4% | Taurine 0.125% | Metabolisable Energy 334 kcal Storage & Usage Feeding Instructions: Serve as a treat or reward between meals. Suitable for cats of all breeds and life stages - adjust quantity according to size, age, and activity level. Always provide fresh drinking water. Storage: Store in a cool, dry place away from direct sunlight. Reseal the pouch tightly after each use to maintain freshness. Once opened, consume within 30 days for best quality. Make treat time a delight with PACKS O’ PURRS Cosmic Kitty Chewy Treats - Sustainable Protein Blend. Packed with real meaty flavor, wholesome insect protein, and essential nutrients, every bite supports your cat’s health and happiness. Give your feline a treat that’s truly cosmic - because they deserve nothing less than stellar!",
   "images": [
     {
-      "id": 56713,
+      "id": 56712,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-41.png",
-      "alt": "Montego Packs O’ Purrs Cat Treats -Chicken & Insect Protein 70g",
-      "name": "Untitled design (41)"
+      "alt": "Montego Packs O' Purrs Cat Treats -Chicken & Insect Protein 70g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Montego",
+      "slug": "montego"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/montego-packs-o-purrs-cat-treats-chicken-insect-protein-70g/?add-to-cart=56712",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-07-11T09:23:37",
-  "dateModified": "2026-06-23T14:12:13",
+  "permalink": "https://petstore.co.ke/product/montego-packs-o-purrs-cat-treats-chicken-insect-protein-70g/",
+  "addToCartUrl": "https://petstore.co.ke/product/montego-packs-o-purrs-cat-treats-chicken-insect-protein-70g/?add-to-cart=56712",
+  "shortDescription": "Treat your feline friend to a savory, meaty snack that’s truly out of this world with PACKS O’ PURRS Cosmic Kitty Chewy Treats - irresistibly soft, de",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-41.png",
+  "sku": "PSK-56712",
   "brand": "Montego",
   "weight_kg": 0.1,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-41.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-41.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

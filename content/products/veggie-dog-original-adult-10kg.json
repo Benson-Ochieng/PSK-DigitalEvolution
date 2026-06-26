@@ -2,14 +2,12 @@
   "id": 23709,
   "name": "Veggie Dog Original Adult 10kg",
   "slug": "veggie-dog-original-adult-10kg",
-  "sku": "JVDOA",
   "onSale": false,
   "price": 15900,
   "regularPrice": 15900,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JVDOA.jpg",
   "categories": [
     {
       "id": 2345,
@@ -37,52 +35,51 @@
       "slug": "veggie-dog"
     }
   ],
-  "brands": [
-    {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/veggie-dog-original-adult-10kg/",
-  "shortDescription": "Gluten-free complete food with red lentils for sensitive adult dogs",
   "description": "Veggie Dog Origin is a 100% vegetarian and 99.99% vegan complete food designed to keep your adult dog thriving while caring for the planet. This gluten-free recipe uses high-quality plant proteins like red lentils (10%) to provide essential amino acids for strong muscles and overall vitality. Enriched with taurine and L-carnitine for heart health and powerful antioxidants to combat cell aging, it ensures your canine companion enjoys a long, active life. Nutritional Benefits . Complete and balanced for adult dogs . Promotes healthy weight and vitality . Supports skin and coat health with plant-based oils . Environmentally responsible dog nutrition Nutritional Analysis (per 100g) Nutrient Value Protein ~22% Fat ~10% Crude Fiber ~2.5% Crude Ash ~7% Moisture ~10% *Approximate values Why Choose Veggie Dog Origin? 100% Vegetarian & 99.99% Vegan – Contains only plant-based ingredients, with 0.01% vitamin D3 from wool fat. Sustainable & Eco-Friendly – Help reduce your dog’s carbon pawprint with every meal. Gentle on Digestion – A gluten-free formula ideal for sensitive stomachs. Heart-Supportive Nutrients – Taurine and L-carnitine promote strong cardiovascular health. Antioxidant-Rich – Protects cells from aging and supports overall immunity.",
   "images": [
     {
-      "id": 23739,
+      "id": 23709,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JVDOA.jpg",
       "alt": "Veggie Dog Original Adult 10kg",
-      "name": "JVDOA.jpg"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/veggie-dog-original-adult-10kg/?add-to-cart=23709",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2021-10-29T07:55:16",
-  "dateModified": "2026-06-17T04:29:33",
+  "permalink": "https://petstore.co.ke/product/veggie-dog-original-adult-10kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/veggie-dog-original-adult-10kg/?add-to-cart=23709",
+  "shortDescription": "Veggie Dog Origin is a 100% vegetarian and 99.99% vegan complete food designed to keep your adult dog thriving while caring for the planet. This glute",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JVDOA.jpg",
+  "sku": "PSK-23709",
   "brand": "Josera",
   "weight_kg": 10,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JVDOA.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JVDOA.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

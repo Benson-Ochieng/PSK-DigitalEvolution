@@ -2,14 +2,12 @@
   "id": 56813,
   "name": "Lara Adult Cat Food -Fish 2kg",
   "slug": "lara-adult-cat-food-fish-2kg",
-  "sku": "LACFF01",
   "onSale": false,
   "price": 2695,
   "regularPrice": 2695,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-52.png",
   "categories": [
     {
       "id": 2325,
@@ -32,46 +30,51 @@
       "slug": "dry-food"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/lara-adult-cat-food-fish-2kg/",
-  "shortDescription": "Let your beloved cat salivate with the crispy chunks of Lara Adult with Salmon. The ideal meal for a perfect condition and health.",
   "description": "The chunks based on salmon and chicken contain all the necessary minerals and vitamins that your active cat can use. Lara Adult with Salmon is a complete food for adult cats from 1 year old. Weight 2 kg Product Size 2 kg Ingredients 0.2 mgE8 (selenium), 0.2% Taurine, 1.0% Phosphore, 1.1% Calcium, 1.4 3b202 (iode), 10.0% teneur en matieres grasses, 100 mg Vitamin E, 1000 U.I. Vitamin D3, 2.0% cellulose brute, 20000 U.I. Vitamin A, 32.0% Protein, 50 mg E1(fer), 57 mg E5 (manganese), 65 mg 3b605 (zinc), 7 mg E4 (cuivre), 8.0% cendres brutes, Antioxidants, Colorants Flavors Dry, Salmon",
   "images": [
     {
-      "id": 56814,
+      "id": 56813,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-52.png",
       "alt": "Lara Adult Cat Food -Fish 2kg",
-      "name": "Untitled design (52)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/lara-adult-cat-food-fish-2kg/?add-to-cart=56813",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-07-14T11:28:57",
-  "dateModified": "2026-06-17T04:18:46",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/lara-adult-cat-food-fish-2kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/lara-adult-cat-food-fish-2kg/?add-to-cart=56813",
+  "shortDescription": "The chunks based on salmon and chicken contain all the necessary minerals and vitamins that your active cat can use. Lara Adult with Salmon is a compl",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-52.png",
+  "sku": "PSK-56813",
+  "brand": "PetStore Kenya",
   "weight_kg": 2,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-52.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-52.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

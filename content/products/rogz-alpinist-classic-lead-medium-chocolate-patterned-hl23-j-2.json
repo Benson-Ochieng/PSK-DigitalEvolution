@@ -2,14 +2,12 @@
   "id": 47724,
   "name": "Rogz Alpinist Classic Leash Medium Chocolate Patterned (Hl23-J)",
   "slug": "rogz-alpinist-classic-lead-medium-chocolate-patterned-hl23-j-2",
-  "sku": "HL23-J",
   "onSale": false,
   "price": 1050,
   "regularPrice": 1050,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-ALPINIST-CLASSIC-LEAD-MEDIUM-CHOCOLATE-PATTERNED-HL23-J.jpg",
   "categories": [
     {
       "id": 1204,
@@ -37,56 +35,51 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1919,
-      "name": "Leashes",
-      "slug": "leash"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-alpinist-classic-lead-medium-chocolate-patterned-hl23-j-2/",
-  "shortDescription": "Rogz Small Dogs Fashion Classic Leads with custom designed wild safari prints stitched onto soft plush webbing with reflective yarn for extra visibility, connect you to your dog safely.",
   "description": "Made with soft-to-the-touch webbing, Rogz Alpinist Classic Leads are highly durable with a gentle grip – ideal for everyday use while a waste bag and accessory holder provide additional convenience. &nbsp;",
   "images": [
     {
-      "id": 47725,
+      "id": 47724,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-ALPINIST-CLASSIC-LEAD-MEDIUM-CHOCOLATE-PATTERNED-HL23-J.jpg",
       "alt": "Rogz Alpinist Classic Leash Medium Chocolate Patterned (Hl23-J)",
-      "name": "ROGZ ALPINIST CLASSIC LEAD &#8211; MEDIUM CHOCOLATE PATTERNED (HL23-J)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-alpinist-classic-lead-medium-chocolate-patterned-hl23-j-2/?add-to-cart=47724",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-06-11T11:12:09",
-  "dateModified": "2026-06-17T13:12:21",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/rogz-alpinist-classic-lead-medium-chocolate-patterned-hl23-j-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-alpinist-classic-lead-medium-chocolate-patterned-hl23-j-2/?add-to-cart=47724",
+  "shortDescription": "Made with soft-to-the-touch webbing, Rogz Alpinist Classic Leads are highly durable with a gentle grip – ideal for everyday use while a waste bag and ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-ALPINIST-CLASSIC-LEAD-MEDIUM-CHOCOLATE-PATTERNED-HL23-J.jpg",
+  "sku": "PSK-47724",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-ALPINIST-CLASSIC-LEAD-MEDIUM-CHOCOLATE-PATTERNED-HL23-J.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-ALPINIST-CLASSIC-LEAD-MEDIUM-CHOCOLATE-PATTERNED-HL23-J.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

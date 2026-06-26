@@ -2,14 +2,12 @@
   "id": 66437,
   "name": "Dashi Delights Cat Treats – Tuna Variety 70g",
   "slug": "dashi-delights-cat-12ct-tuna-variety-pack",
-  "sku": "BDCT003",
   "onSale": false,
   "price": 297,
   "regularPrice": 297,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/Dashi-Tuna.png",
   "categories": [
     {
       "id": 2325,
@@ -37,57 +35,51 @@
       "slug": "kitten"
     }
   ],
-  "brands": [
-    {
-      "id": 2435,
-      "name": "Dashi",
-      "slug": "dashi"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/dashi-delights-cat-12ct-tuna-variety-pack/",
-  "shortDescription": "Dashi Delights Chicken Recipe is a hydrating, grain-free cat food topper made with farm-raised chicken and bonito broth. Rich umami flavor with Vitamin E and antioxidants",
   "description": "Treat your cat to a flavorful experience with Dashi Delights Cat Tuna Variety Pack . Made with wholesome, high-quality ingredients , including farm-raised chicken and natural wild-caught tuna , these single-serve toppers bring umami-rich flavor to every meal. Each topper is crafted from a delicate bonito broth with shredded premium proteins, providing a hydrating, grain-free, preservative-free , and carrageenan-free treat your cat will adore. Enriched with Vitamin E for immune support and Green Tea Extract as a natural antioxidant, these toppers are perfect for cats of all life stages from kittens to seniors. Variety Pack Includes: Chicken with Tuna Recipe Chicken with Tuna & Salmon Recipe Chicken with Tuna & Scallop Recipe Hydrate your cat, enhance their meals, and provide a delicious boost of flavor with every serving. Feeding Instructions Feed as a treat or meal complement. Not intended as a complete meal. Provide fresh water daily and consult your veterinarian regularly. Storage Instructions Refrigerate after opening and serve promptly. Ingredients Chicken with Tuna: Chicken, Tuna, Tapioca Starch, Natural Flavors, Guar Gum, Scallop Extract, Bonito Flakes, Vitamin E Supplement, Green Tea Extract Chicken with Tuna & Salmon: Chicken, Tuna, Salmon, Tapioca Starch, Natural Flavors, Guar Gum, Scallop Extract, Bonito Flakes, Vitamin E Supplement, Green Tea Extract Chicken with Tuna & Scallop: Chicken, Tuna, Scallop, Tapioca Starch, Natural Flavors, Guar Gum, Scallop Extract, Bonito Flakes, Vitamin E Supplement, Green Tea Extract Calorie Content & Analysis Crude Protein (min): 11.00% Crude Fat (min): 0.50% Crude Fiber (max): 0.10% Moisture (max): 88.00% Vitamin E (min): 50 IU/kg 500 kcal/kg, 35 kcal per cup (ME) &nbsp; &nbsp; &nbsp;",
   "images": [
     {
-      "id": 76856,
+      "id": 66437,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/01/Dashi-Tuna.png",
       "alt": "Dashi Delights Cat Treats – Tuna Variety 70g",
-      "name": "Dashi Tuna"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Dashi",
+      "slug": "dashi"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/dashi-delights-cat-12ct-tuna-variety-pack/?add-to-cart=66437",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-01-09T15:35:02",
-  "dateModified": "2026-06-23T11:39:34",
+  "permalink": "https://petstore.co.ke/product/dashi-delights-cat-12ct-tuna-variety-pack/",
+  "addToCartUrl": "https://petstore.co.ke/product/dashi-delights-cat-12ct-tuna-variety-pack/?add-to-cart=66437",
+  "shortDescription": "Treat your cat to a flavorful experience with Dashi Delights Cat Tuna Variety Pack . Made with wholesome, high-quality ingredients , including farm-ra",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/Dashi-Tuna.png",
+  "sku": "PSK-66437",
   "brand": "Dashi",
   "weight_kg": 0.07,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/Dashi-Tuna.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/Dashi-Tuna.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

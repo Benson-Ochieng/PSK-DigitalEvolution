@@ -2,14 +2,12 @@
   "id": 54631,
   "name": "Trendline Puppy Food Lamb And Rice 1kg",
   "slug": "trendline-puppy-food-lamb-and-rice-1kg",
-  "sku": "TDD006",
   "onSale": false,
   "price": 650,
   "regularPrice": 650,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/04/Trendline-puppy-food-lamb-rice-1kg.png",
   "categories": [
     {
       "id": 2345,
@@ -32,62 +30,51 @@
       "slug": "trendline"
     }
   ],
-  "brands": [
-    {
-      "id": 2471,
-      "name": "Trendline",
-      "slug": "trendline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 637,
-      "name": "kibble",
-      "slug": "kibble"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2106,
-      "name": "Puppy food",
-      "slug": "puppy-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/trendline-puppy-food-lamb-and-rice-1kg/",
-  "shortDescription": "Fully balanced all-natural puppy food with lamb protein, brewer’s yeast for immune support and Omega-3 and -6 from flaxseed. Carefully formulated by dog nutritionists to meet the nutritional requirements of all puppies.",
   "description": "Trendline Puppy Food - Lamb & Rice , fully balanced all-natural puppy food with lamb protein, brewer's yeast for immune support and Omega-3 and -6 from flaxseed. Carefully formulated by dog nutritionists to meet the nutritional requirements of all puppies. NUTRIENT COMPONENTS Protein .........................................24% Fat .................................................9% Crude Ash .................................... 8% Crude Cellulose (Fiber) ............... 4% INGREDIENTS: Processed Animal Protein, Corn, Animal Fat, Wheat Middlings, Corn Gluten, Dried Sugar Beet, Liver Aroma, Salt, Flaxseed, Dried Brewer's Yeast. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan. Key Benefits for Your Puppy 18% Lamb Protein – supports muscle growth and provides sustained energy for active pups. 9% Healthy Fats – promotes brain development, healthy skin, and a glossy coat. Brewer’s Yeast – boosts immunity and aids in healthy digestion. Omega-3 & -6 Fatty Acids – support cognitive function and joint health. Rice for Gentle Digestion – ideal for young tummies adjusting to solid food. Why Puppy Parents Love It: . Gentle on sensitive stomachs. . Promotes strong immunity and healthy growth. . Delicious lamb flavor puppies can’t resist.",
   "images": [
     {
-      "id": 54632,
+      "id": 54631,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/04/Trendline-puppy-food-lamb-rice-1kg.png",
       "alt": "Trendline Puppy Food Lamb And Rice 1kg",
-      "name": "Trendline puppy food lamb &amp; rice 1kg"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Trendline",
+      "slug": "trendline"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/trendline-puppy-food-lamb-and-rice-1kg/?add-to-cart=54631",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-04-12T12:18:56",
-  "dateModified": "2026-06-24T16:12:30",
+  "permalink": "https://petstore.co.ke/product/trendline-puppy-food-lamb-and-rice-1kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/trendline-puppy-food-lamb-and-rice-1kg/?add-to-cart=54631",
+  "shortDescription": "Trendline Puppy Food - Lamb & Rice , fully balanced all-natural puppy food with lamb protein, brewer's yeast for immune support and Omega-3 and -6 fro",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/04/Trendline-puppy-food-lamb-rice-1kg.png",
+  "sku": "PSK-54631",
   "brand": "Trendline",
   "weight_kg": 1,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/04/Trendline-puppy-food-lamb-rice-1kg.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/04/Trendline-puppy-food-lamb-rice-1kg.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

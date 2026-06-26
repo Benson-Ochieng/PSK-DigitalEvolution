@@ -2,14 +2,12 @@
   "id": 52808,
   "name": "Rogz Doggumz Treat Ball 7.8cm Pink Large",
   "slug": "rogz-dog-gumz-treat-ball-7-8cm-pink-large-2",
-  "sku": "GU04-K@F",
-  "onSale": true,
+  "onSale": false,
   "price": 1256,
-  "regularPrice": 1570,
-  "salePrice": 1256,
+  "regularPrice": 1256,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/GU04-K-Gumz-Ball-Pink.jpg",
   "categories": [
     {
       "id": 2332,
@@ -17,35 +15,51 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=52808",
-  "shortDescription": "",
   "description": "",
   "images": [
     {
-      "id": 17329,
+      "id": 52808,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/01/GU04-K-Gumz-Ball-Pink.jpg",
-      "alt": "Rogz Dog Gumz-Treat Ball 7.8cm - Pink Large",
-      "name": "GU04-K Gumz Ball Pink"
+      "alt": "Rogz Doggumz Treat Ball 7.8cm Pink Large",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-gumz-treat-ball-7-8cm-pink-large-2/?add-to-cart=52808",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-01-16T17:05:11",
-  "dateModified": "2026-05-06T17:11:01",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=52808",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-gumz-treat-ball-7-8cm-pink-large-2/?add-to-cart=52808",
+  "shortDescription": "",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/GU04-K-Gumz-Ball-Pink.jpg",
+  "sku": "PSK-52808",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/GU04-K-Gumz-Ball-Pink.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/GU04-K-Gumz-Ball-Pink.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 54702,
   "name": "Truly Chicken Jerky For Cat 50g",
   "slug": "truly-chicken-jerky-for-cat-50g",
-  "sku": "TCJC50G",
   "onSale": false,
   "price": 260,
   "regularPrice": 260,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/04/Truly-Chicken-Jerky-For-Cats-50g.png",
   "categories": [
     {
       "id": 2325,
@@ -32,52 +30,51 @@
       "slug": "truly"
     }
   ],
-  "brands": [
-    {
-      "id": 2472,
-      "name": "Truly",
-      "slug": "truly"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/truly-chicken-jerky-for-cat-50g/",
-  "shortDescription": "Treat your cat to Truly Chicken Jerky Treats and give them a snack that not only tastes great but also supports their health. Your furry friend will thank you with purrs and cuddles!",
   "description": "Help your cat stay happy and healthy with Truly Chicken Jerky Treats. These tasty snacks are specially designed to reduce hairballs while providing your feline friend with a delicious chicken flavor. Cats love the rich taste, and you’ll love knowing that you’re helping to keep their digestive system in check. Key Features: Delicious Chicken Flavor: Cats will enjoy the tasty chicken snacks, making treat time enjoyable. Anti-Hairball Formula: Specifically designed to help reduce hairballs, promoting better digestion. Perfect Snack Size: Comes in a convenient 50g package, ideal for easy feeding and storage. Great for All Cats: Suitable for all cats, ensuring they get the benefits while enjoying a treat. Treat your cat to Truly Chicken Jerky Treats and give them a snack that not only tastes great but also supports their health. Your furry friend will thank you with purrs and cuddles!",
   "images": [
     {
-      "id": 54704,
+      "id": 54702,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/04/Truly-Chicken-Jerky-For-Cats-50g.png",
       "alt": "Truly Chicken Jerky For Cat 50g",
-      "name": "Truly Chicken Jerky For Cats 50g"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Truly",
+      "slug": "truly"
     }
   ],
   "stockStatus": "outofstock",
-  "lowStockRemaining": 5,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/truly-chicken-jerky-for-cat-50g/?add-to-cart=54702",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-04-16T10:08:45",
-  "dateModified": "2026-06-17T05:01:26",
+  "permalink": "https://petstore.co.ke/product/truly-chicken-jerky-for-cat-50g/",
+  "addToCartUrl": "https://petstore.co.ke/product/truly-chicken-jerky-for-cat-50g/?add-to-cart=54702",
+  "shortDescription": "Help your cat stay happy and healthy with Truly Chicken Jerky Treats. These tasty snacks are specially designed to reduce hairballs while providing yo",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/04/Truly-Chicken-Jerky-For-Cats-50g.png",
+  "sku": "PSK-54702",
   "brand": "Truly",
   "weight_kg": 0.05,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/04/Truly-Chicken-Jerky-For-Cats-50g.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/04/Truly-Chicken-Jerky-For-Cats-50g.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

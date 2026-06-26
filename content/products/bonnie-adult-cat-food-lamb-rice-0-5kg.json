@@ -2,14 +2,12 @@
   "id": 41051,
   "name": "Bonnie Adult Cat Food - Lamb & Rice 0.5kg",
   "slug": "bonnie-adult-cat-food-lamb-rice-0-5kg",
-  "sku": "BCD012",
   "onSale": false,
   "price": 690,
   "regularPrice": 690,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/11/Untitled-design-2025-07-18T120357.416.png",
   "categories": [
     {
       "id": 177,
@@ -32,62 +30,51 @@
       "slug": "dry-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2428,
-      "name": "Bonnie",
-      "slug": "bonnie"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 637,
-      "name": "kibble",
-      "slug": "kibble"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/bonnie-adult-cat-food-lamb-rice-0-5kg/",
-  "shortDescription": "Give your cat the nourishment it deserves with Bonnie Chicken Adult Cat Food — a premium, fully balanced recipe designed by expert nutritionists. Enriched with high-quality chicken meal and lamb protein, it provides essential amino acids for strong muscles and sustained energy. The addition of flaxseed delivers Omega 3 & 6 fatty acids that promote healthy skin, a glossy coat, and overall vitality in adult cats of all breeds.",
   "description": "Bonnie Chicken Adult Cat food , full-balanced, lamb protein-containing cat food carefully formulated by cat nutritionists to meet the nutritional requirements of all adult breeds. Chicken meal has been used as animal protein source. The balance of omega 3 & 6 is provided by using flaxseed . Yucca plant provides ammonia and odour control, increase absorption of nutrients, strengthens the immune system and optimises animal growth and performance. A good intestinal health and performance is provided by CitriStim which is a source of pathogen-binding manna oligsacharrides , beta-glucans and immune-supportive yeast. Healthy skin and shiny coat is supported by using brewer's yeast . Muscles, organs and nerve cells are supported, and the immune system strengthened by using whey powder . Rich vitamin contents. NUTRIENT COMPONENTS Protein...................33% Fat ..................... 13% Crude Cellulose (Fiber)... 3% INGREDIENTS: Processed Animal Protein (lamb), Wheat, Corn, Animal Fat, Wheat Middlings, Corn Gluten, Dried Sugar Beet, Chicken Liver Aroma, Salt, Flaxseed, Dried Brewers Yeast, Taurine. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
   "images": [
     {
-      "id": 57014,
+      "id": 41051,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/11/Untitled-design-2025-07-18T120357.416.png",
-      "alt": "Bonnie Adult Cat Food – Lamb & Rice 0.5kg",
-      "name": "Untitled design &#8211; 2025-07-18T120357.416"
+      "alt": "Bonnie Adult Cat Food - Lamb & Rice 0.5kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Bonnie",
+      "slug": "bonnie"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/bonnie-adult-cat-food-lamb-rice-0-5kg/?add-to-cart=41051",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2023-11-14T14:14:09",
-  "dateModified": "2026-06-24T16:12:04",
+  "permalink": "https://petstore.co.ke/product/bonnie-adult-cat-food-lamb-rice-0-5kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/bonnie-adult-cat-food-lamb-rice-0-5kg/?add-to-cart=41051",
+  "shortDescription": "Bonnie Chicken Adult Cat food , full-balanced, lamb protein-containing cat food carefully formulated by cat nutritionists to meet the nutritional requ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/11/Untitled-design-2025-07-18T120357.416.png",
+  "sku": "PSK-41051",
   "brand": "Bonnie",
   "weight_kg": 1.5,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/11/Untitled-design-2025-07-18T120357.416.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/11/Untitled-design-2025-07-18T120357.416.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

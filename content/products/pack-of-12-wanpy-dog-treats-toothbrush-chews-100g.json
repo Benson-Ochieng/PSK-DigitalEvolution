@@ -2,14 +2,12 @@
   "id": 90111,
   "name": "Pack Of 12 - Wanpy Dog Treats – Toothbrush Chews 100g",
   "slug": "pack-of-12-wanpy-dog-treats-toothbrush-chews-100g",
-  "sku": "WDW019$12",
-  "onSale": true,
+  "onSale": false,
   "price": 3555,
-  "regularPrice": 4740,
-  "salePrice": 3555,
+  "regularPrice": 3555,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/WANPY-DOG-TOOTHBRUSH-CHEWS-100GR.png",
   "categories": [
     {
       "id": 2345,
@@ -32,62 +30,51 @@
       "slug": "wanpy"
     }
   ],
-  "brands": [
-    {
-      "id": 2479,
-      "name": "Wanpy",
-      "slug": "wanpy"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2055,
-      "name": "Bulk Cat Food & Bulk Dog Food",
-      "slug": "bulk"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 939,
-      "name": "On Sale Now",
-      "slug": "sale"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pack-of-12-wanpy-dog-treats-toothbrush-chews-100g/",
-  "shortDescription": "Support your dog’s dental health with Wanpy Toothbrush Chew Dog Treats 100g. These delicious chew snacks are specially designed to help improve oral hygiene while giving dogs a tasty reward they will love.",
   "description": "Made with premium-quality ingredients and produced to human consumption standards, Wanpy Toothbrush Chews help promote healthy chewing habits and assist in reducing tartar build-up for cleaner teeth and fresher breath. Their chewy texture encourages natural chewing action that helps support daily dental care. Formulated with high protein and low fat content, these nutritious dog chews also support strong muscles, healthy digestion, and overall wellbeing. Perfect as a daily reward, training snack, or enrichment activity, Wanpy Toothbrush Chews can easily be portioned into smaller pieces for convenient feeding. Key Benefits Supports oral care and dental hygiene Helps reduce tartar build-up Promotes healthy chewing habits High protein and low fat formula Made with premium-quality ingredients Suitable as a daily chew snack for dogs Easy to portion for controlled feeding Crafted to human consumption standards Ingredients Vegetable protein, starch, chicken meal, beer yeast, calcium carbonate, vegetable oil, tea polyphenol, B-carbonate, dietary fiber, EC permitted colorants. Guaranteed Analysis Crude Protein: 30.0% Crude Fat: 0.5% Crude Fibre: 1.0% Crude Ash: 5.0% Moisture: 16.0% Feeding Instructions Feed as a chew snack between meals. Always provide fresh drinking water. Do not feed the deoxidizer found inside the package. &nbsp;",
   "images": [
     {
-      "id": 89873,
+      "id": 90111,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/05/WANPY-DOG-TOOTHBRUSH-CHEWS-100GR.png",
-      "alt": "Pack Of 12 – Wanpy Dog Treats – Toothbrush Chews 100g",
-      "name": "WANPY DOG TOOTHBRUSH CHEWS 100GR"
+      "alt": "Pack Of 12 - Wanpy Dog Treats – Toothbrush Chews 100g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Wanpy",
+      "slug": "wanpy"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/pack-of-12-wanpy-dog-treats-toothbrush-chews-100g/?add-to-cart=90111",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-05-28T09:46:40",
-  "dateModified": "2026-06-22T12:12:19",
+  "permalink": "https://petstore.co.ke/product/pack-of-12-wanpy-dog-treats-toothbrush-chews-100g/",
+  "addToCartUrl": "https://petstore.co.ke/product/pack-of-12-wanpy-dog-treats-toothbrush-chews-100g/?add-to-cart=90111",
+  "shortDescription": "Made with premium-quality ingredients and produced to human consumption standards, Wanpy Toothbrush Chews help promote healthy chewing habits and assi",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/WANPY-DOG-TOOTHBRUSH-CHEWS-100GR.png",
+  "sku": "PSK-90111",
   "brand": "Wanpy",
   "weight_kg": 1.2,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/WANPY-DOG-TOOTHBRUSH-CHEWS-100GR.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/WANPY-DOG-TOOTHBRUSH-CHEWS-100GR.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

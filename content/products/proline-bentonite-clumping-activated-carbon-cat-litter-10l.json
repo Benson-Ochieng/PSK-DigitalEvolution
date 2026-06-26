@@ -2,14 +2,12 @@
   "id": 43637,
   "name": "Proline Bentonite Clumping Activated Carbon Cat Litter 10l",
   "slug": "proline-bentonite-clumping-activated-carbon-cat-litter-10l",
-  "sku": "PCL010@F",
   "onSale": false,
   "price": 2314,
   "regularPrice": 2314,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-09-at-15.27.49-1.jpeg",
   "categories": [
     {
       "id": 2325,
@@ -32,67 +30,51 @@
       "slug": "proline"
     }
   ],
-  "brands": [
-    {
-      "id": 2217,
-      "name": "Proline",
-      "slug": "proline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 831,
-      "name": "bentonite",
-      "slug": "bentonite"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 819,
-      "name": "cat litter",
-      "slug": "cat-litter"
-    },
-    {
-      "id": 823,
-      "name": "clumping",
-      "slug": "clumping"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=43637",
-  "shortDescription": "Proline Bentonite Cat Litter with Activated Carbon is a 100% natural bentonite clumping litter that instantly forms tight clumps to trap urine and odor. The activated carbon helps to absorb odors and create a fresh and clean atmosphere in your home. The thin grain shape of the litter helps to prevent tracking, and the litter is non-toxic and safe for your cat.",
   "description": "Proline Bentonite Cat Litter with Activated Carbon is a 100% natural bentonite clumping litter that instantly forms tight clumps to trap urine and odor. The activated carbon helps to absorb odors and create a fresh and clean atmosphere in your home. The thin grain shape of the litter helps to prevent tracking, and the litter is non-toxic and safe for your cat. Key Benefits: 100% natural bentonite clay Instantly clumps to trap urine and odor. Activated carbon absorbs odors. Thin grain shape prevents tracking. Non-toxic and safe for cats Recommended to add new litter to the surface of the old litter for a few days when first using Guarantee: We are so confident that you and your cat will love Proline Bentonite Cat Litter with Activated Carbon that we offer a 100% satisfaction guarantee. If you are not happy with your purchase for any reason, simply return it for a full refund. Give your cat the best with Proline Bentonite Cat Litter with Activated Carbon!",
   "images": [
     {
-      "id": 41044,
+      "id": 43637,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-09-at-15.27.49-1.jpeg",
       "alt": "Proline Bentonite Clumping Activated Carbon Cat Litter 10l",
-      "name": "WhatsApp Image 2023-11-09 at 15.27.49 (1)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Proline",
+      "slug": "proline"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/proline-bentonite-clumping-activated-carbon-cat-litter-10l/?add-to-cart=43637",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-01-30T09:04:32",
-  "dateModified": "2026-05-06T17:09:26",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=43637",
+  "addToCartUrl": "https://petstore.co.ke/product/proline-bentonite-clumping-activated-carbon-cat-litter-10l/?add-to-cart=43637",
+  "shortDescription": "Proline Bentonite Cat Litter with Activated Carbon is a 100% natural bentonite clumping litter that instantly forms tight clumps to trap urine and odo",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-09-at-15.27.49-1.jpeg",
+  "sku": "PSK-43637",
   "brand": "Proline",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-09-at-15.27.49-1.jpeg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-09-at-15.27.49-1.jpeg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

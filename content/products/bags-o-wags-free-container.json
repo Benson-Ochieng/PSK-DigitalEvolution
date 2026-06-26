@@ -2,14 +2,12 @@
   "id": 77707,
   "name": "Bags o' Wags — Free Container",
   "slug": "bags-o-wags-free-container",
-  "sku": "PSK-77707",
   "onSale": false,
   "price": 0,
   "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "/images/psk_logo.png",
   "categories": [
     {
       "id": 2332,
@@ -17,28 +15,51 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/bags-o-wags-free-container/",
-  "shortDescription": "Complimentary container awarded as part of the Bags o' Wags campaign (Buy 2, Get Free Container).",
   "description": "Complimentary container awarded as part of the Bags o' Wags campaign (Buy 2, Get Free Container).",
-  "images": [],
+  "images": [
+    {
+      "id": 77707,
+      "src": "/images/psk_logo.png",
+      "alt": "Bags o' Wags — Free Container",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/bags-o-wags-free-container/?add-to-cart=77707",
-  "status": "private",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-04-02T16:31:12",
-  "dateModified": "2026-05-06T17:12:51",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/bags-o-wags-free-container/",
+  "addToCartUrl": "https://petstore.co.ke/product/bags-o-wags-free-container/?add-to-cart=77707",
+  "shortDescription": "Complimentary container awarded as part of the Bags o' Wags campaign (Buy 2, Get Free Container).",
+  "thumbnail": "/images/psk_logo.png",
+  "sku": "PSK-77707",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "/images/psk_logo.png"
+  "image_url": "/images/psk_logo.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

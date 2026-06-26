@@ -2,14 +2,12 @@
   "id": 56824,
   "name": "Snappy Tom Cat Food Salmon With Chicken 1.5kg",
   "slug": "snappy-tom-cat-food-salmon-with-chicken-1-5kg",
-  "sku": "STCTSWC",
   "onSale": false,
   "price": 1750,
   "regularPrice": 1750,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-57.png",
   "categories": [
     {
       "id": 2325,
@@ -32,52 +30,51 @@
       "slug": "snappy-tom"
     }
   ],
-  "brands": [
-    {
-      "id": 2466,
-      "name": "Snappy Tom",
-      "slug": "snappy-tom"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/snappy-tom-cat-food-salmon-with-chicken-1-5kg/",
-  "shortDescription": "Salmon with chicken dry cat food is made from real fish for real cats.",
   "description": "It is a complete & balanced meal with all the real nutrition they need to get through their day and have real fu High in protein with omega 3 & 6 oils for heart health & shiny coat CONVENIENCE FOR OWNERS AND CATS: Whiskas is convenient to keep & store once opened, due to its longer shelf life. Your cat will also find convenience in eating measured smaller volumes which is helpful for those that prefer to graze throughout the day. &nbsp;",
   "images": [
     {
-      "id": 56825,
+      "id": 56824,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-57.png",
       "alt": "Snappy Tom Cat Food Salmon With Chicken 1.5kg",
-      "name": "Untitled design (57)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Snappy Tom",
+      "slug": "snappy-tom"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/snappy-tom-cat-food-salmon-with-chicken-1-5kg/?add-to-cart=56824",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-07-14T12:08:58",
-  "dateModified": "2026-06-24T16:12:30",
+  "permalink": "https://petstore.co.ke/product/snappy-tom-cat-food-salmon-with-chicken-1-5kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/snappy-tom-cat-food-salmon-with-chicken-1-5kg/?add-to-cart=56824",
+  "shortDescription": "It is a complete & balanced meal with all the real nutrition they need to get through their day and have real fu High in protein with omega 3 & 6 oils",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-57.png",
+  "sku": "PSK-56824",
   "brand": "Snappy Tom",
   "weight_kg": 1.5,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-57.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-57.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

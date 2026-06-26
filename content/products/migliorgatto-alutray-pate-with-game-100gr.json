@@ -2,14 +2,12 @@
   "id": 28269,
   "name": "Miglior Cat Food Game Alutray 100g",
   "slug": "migliorgatto-alutray-pate-with-game-100gr",
-  "sku": "MCW011",
   "onSale": false,
   "price": 195,
   "regularPrice": 195,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW011.jpg",
   "categories": [
     {
       "id": 2325,
@@ -32,57 +30,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2451,
-      "name": "Miglior",
-      "slug": "miglior"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/migliorgatto-alutray-pate-with-game-100gr/",
-  "shortDescription": "Formula designed to guarantee the key nutrients required for the well-being of your cat. Vitamin E with antioxidant action and a recipe rich in meat to help keep muscle mass toned.",
   "description": "COMPOSITION : Meat and animal derivatives 50% (game 5%), minerals. ANALYTICAL CONSTITUENTS: Moisture 80%, Crude protein 11%, Crude fibres 0.5%, Crude fat 4%, Crude ash 1.8%. Nutritional additives / kg: Vitamin E 23.7 mg, Zinc (Zinc sulphate monohydrate) 2.1 mg, Copper (Copper sulphate pentahydrate) 2.0 mg, Manganese (Manganous sulphate monohydrate) 2.1 mg, Iodine (Potassium iodide) 0.4 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place.",
   "images": [
     {
-      "id": 28225,
+      "id": 28269,
       "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW011.jpg",
-      "alt": "Migliorgatto Alutray PATE WITH GAME 100Gr",
-      "name": "MCW011"
+      "alt": "Miglior Cat Food Game Alutray 100g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Miglior",
+      "slug": "miglior"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/migliorgatto-alutray-pate-with-game-100gr/?add-to-cart=28269",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2022-07-15T11:21:17",
-  "dateModified": "2026-06-24T14:12:07",
+  "permalink": "https://petstore.co.ke/product/migliorgatto-alutray-pate-with-game-100gr/",
+  "addToCartUrl": "https://petstore.co.ke/product/migliorgatto-alutray-pate-with-game-100gr/?add-to-cart=28269",
+  "shortDescription": "COMPOSITION : Meat and animal derivatives 50% (game 5%), minerals. ANALYTICAL CONSTITUENTS: Moisture 80%, Crude protein 11%, Crude fibres 0.5%, Crude ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW011.jpg",
+  "sku": "PSK-28269",
   "brand": "Miglior",
   "weight_kg": 0.1,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW011.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW011.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

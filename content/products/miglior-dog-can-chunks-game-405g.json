@@ -2,14 +2,12 @@
   "id": 55377,
   "name": "Miglior Canned Dog Food - Game Chunks, 405g",
   "slug": "miglior-dog-can-chunks-game-405g",
-  "sku": "MDW003@OFFER",
-  "onSale": true,
+  "onSale": false,
   "price": 128,
-  "regularPrice": 257,
-  "salePrice": 128,
+  "regularPrice": 128,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW003.jpg",
   "categories": [
     {
       "id": 2345,
@@ -37,56 +35,51 @@
       "slug": "wet-dog-food"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 622,
-      "name": "canned food",
-      "slug": "canned-food"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 939,
-      "name": "On Sale Now",
-      "slug": "sale"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=55377",
-  "shortDescription": "Formula designed to guarantee the key nutrients required for the well-being of your dog. Vitamin E with antioxidant action and a recipe rich in meat to help keep muscle mass toned. Whether served on its own or mixed with dry kibble, Migliorcane Adult Dog Food Chunks with Game is the ideal choice for pet owners who prioritize quality and flavor. Treat your canine companion to a meal they'll love—order your pack today and watch them thrive!",
   "description": "Give your furry friend the taste of the wild with Migliorcane Adult Dog Food Chunks with Game. Packed in convenient 405g cans, this nutritious meal is specially formulated to meet the dietary needs of adult dogs, ensuring they stay healthy, happy, and energetic. COMPOSITION: Meat and animal derivatives 30% (game 5%), cereals, vegetables 4%, minerals. ANALYTICAL CONSTITUENTS: Moisture 75%, Crude protein 8,0%, Crude fat 4,5%, Crude fibres 0,5%, crude ash 3%. Nutritional additives /kg: Vitamin E 10 mg, Copper (Copper (II) sulphate pentahydrate) 2 mg. Key Features: Savory Game Flavor: Rich in delicious game meat, this dog food provides a hearty and flavorful experience that dogs crave. Balanced Nutrition: Formulated with high-quality proteins and essential vitamins and minerals to support overall health, strong muscles, and a shiny coat. Easy to Digest: The tender chunks are easy for dogs to chew and digest, making mealtime enjoyable for even the pickiest eaters. No Artificial Additives: Free from artificial colors, flavors, and preservatives, ensuring a wholesome and natural diet. Convenient Pack: Each pack contains 24 cans, perfect for stockpiling your dog’s favorite meal without hassle. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight. Once opened, store in refrigerator for 2-3 days",
   "images": [
     {
-      "id": 28162,
+      "id": 55377,
       "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW003.jpg",
-      "alt": "Migliorcane chunks with Game",
-      "name": "MDW003"
+      "alt": "Miglior Canned Dog Food - Game Chunks, 405g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/miglior-dog-can-chunks-game-405g/?add-to-cart=55377",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-05-26T12:52:06",
-  "dateModified": "2026-05-22T16:11:32",
-  "brand": null,
-  "weight_kg": 0.405,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=55377",
+  "addToCartUrl": "https://petstore.co.ke/product/miglior-dog-can-chunks-game-405g/?add-to-cart=55377",
+  "shortDescription": "Give your furry friend the taste of the wild with Migliorcane Adult Dog Food Chunks with Game. Packed in convenient 405g cans, this nutritious meal is",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW003.jpg",
+  "sku": "PSK-55377",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.41,
   "animal_type": "dog",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW003.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW003.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

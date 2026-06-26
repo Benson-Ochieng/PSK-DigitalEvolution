@@ -2,14 +2,12 @@
   "id": 17298,
   "name": "Rogz Cat Fishcake Bowl 200ml - Anchovy Blue Floral Print",
   "slug": "rogz-cat-fishcake-bowl-200ml-anchovy-blue-floral-print",
-  "sku": "CBOWL31-B",
   "onSale": false,
   "price": 1850,
   "regularPrice": 1850,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/CBOWL31-B-Anchovy-Blue-Floral-1.jpg",
   "categories": [
     {
       "id": 2325,
@@ -27,51 +25,51 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2072,
-      "name": "Bowls",
-      "slug": "bowls"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-cat-fishcake-bowl-200ml-anchovy-blue-floral-print/",
-  "shortDescription": "The Rogz Fishcake Bowl in Anchovy Blue Paw Print blends sleek design with whisker-conscious ergonomics – perfect for cats with sensitive snouts and owners who value both function and form. Capacity: 200ml Material: Premium Melamine &nbsp;",
   "description": "Elevate your cat’s mealtime with the stylish and functional Rogz Fishcake Bowl in Anchovy Blue Paw print. Thoughtfully designed for comfort and convenience, this bowl brings together aesthetics and practicality for discerning cat owners. Crafted from durable, hygienic melamine and finished with a non-slip base, this bowl stays in place and stands up to daily use. The playful Anchovy Blue Paw Print adds a stylish touch to any feeding area. 🐾 Key Features: Whisker‑Friendly Design: A shallow, wide footprint with low edges ensures no harassment of your cat’s sensitive whiskers or short snout. Anti-Slip Ridges: The inner ridged surface keeps food in place, so your cat won’t bat kibble out and can enjoy a more pleasant meal. Premium Melamine Build: Crafted from strong, UV- and corrosion-resistant melamine that’s hygienic, long-lasting, and non‑toxic. Non-Skid Silicone Base: A natural, non-toxic silicone base prevents sliding and spillage, keeping mealtime tidy and stress-free. Easy to Clean: Dishwasher-safe on the top rack for simple, hygienic maintenance. Specifications: Capacity: 200 ml - ideal for meals or hydration. Material: Durable melamine with stainless steel accents and a silicone base. Design Option: Anchovy Blue Paw Print - stylish and playful decor for any cat lover’s home. Why It Stands Out: Cat Comfort First: No whisker fatigue - meals become more enjoyable. Mess-Resistant: Anti-slip ridges and base reduce fuss and floor cleanup. Built to Last: Robust materials withstand daily use with ease. Safe & Hygienic: Non-toxic and dishwasher-friendly for effortless upkeep. Perfect for cats and the humans who love them.",
   "images": [
     {
-      "id": 17452,
+      "id": 17298,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/01/CBOWL31-B-Anchovy-Blue-Floral-1.jpg",
       "alt": "Rogz Cat Fishcake Bowl 200ml - Anchovy Blue Floral Print",
-      "name": "CBOWL31-B Anchovy Blue Floral"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-cat-fishcake-bowl-200ml-anchovy-blue-floral-print/?add-to-cart=17298",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2021-01-08T15:13:29",
-  "dateModified": "2026-06-17T04:18:33",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/rogz-cat-fishcake-bowl-200ml-anchovy-blue-floral-print/",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-cat-fishcake-bowl-200ml-anchovy-blue-floral-print/?add-to-cart=17298",
+  "shortDescription": "Elevate your cat’s mealtime with the stylish and functional Rogz Fishcake Bowl in Anchovy Blue Paw print. Thoughtfully designed for comfort and conven",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/CBOWL31-B-Anchovy-Blue-Floral-1.jpg",
+  "sku": "PSK-17298",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "cat",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/CBOWL31-B-Anchovy-Blue-Floral-1.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/CBOWL31-B-Anchovy-Blue-Floral-1.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 2563,
   "name": "Proline Kitten Food - Chicken 400g",
   "slug": "proline-kitten-food-chicken-400g",
-  "sku": "PCD007",
   "onSale": false,
   "price": 700,
   "regularPrice": 700,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/07/Proline-Kitten-Food-Chicken-400g.png",
   "categories": [
     {
       "id": 2325,
@@ -32,62 +30,51 @@
       "slug": "proline"
     }
   ],
-  "brands": [
-    {
-      "id": 2461,
-      "name": "Proline",
-      "slug": "proline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 637,
-      "name": "kibble",
-      "slug": "kibble"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/proline-kitten-food-chicken-400g/",
-  "shortDescription": "Fully balanced all-natural kitten food with chicken protein. Carefully formulated by a cat nutritionist to meet the nutritional requirements of all growing kittens.",
   "description": "Proline Kitten Food - Chicken , fully balanced all-natural kitten food with chicken protein. Carefully formulated by a cat nutritionist to meet the nutritional requirements of growing kittens. NUTRIENT COMPONENTS Protein...........................36% Fat ................................20% Crude Ash ................................... 8% Crude Cellulose (Fiber) .............3% &nbsp;Essential Vitamins & Minerals Minerals: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. Vitamins: A, D, E, C, K, and B-complex (B1, B2, B3 [niacin], B6, B7 [biotin], B9 [folic acid], B12), Choline, Calcium Pantothenate. These nutrients ensure: . Strong bone growth and teeth development . Healthy immune system . Vital organ and nerve function &nbsp;Feeding Guide For kittens aged 1–12 months: Age Daily Amount 1–3 months 30–50g 4–6 months 50–70g 7–12 months 70–90g Adjust according to your kitten’s size and activity level. Always provide fresh, clean water. &nbsp;Why Cat Parents Love It: . Specially formulated for tiny teeth and delicate tummies. . Includes taurine for healthy eyes and heart. . Promotes playful energy and a silky-soft coat.",
   "images": [
     {
-      "id": 37970,
+      "id": 2563,
       "src": "https://petstore.co.ke/wp-content/uploads/2019/07/Proline-Kitten-Food-Chicken-400g.png",
-      "alt": "Proline Kitten Food – Chicken 400g",
-      "name": "Proline Kitten Food &#8211; Chicken 400g"
+      "alt": "Proline Kitten Food - Chicken 400g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Proline",
+      "slug": "proline"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/proline-kitten-food-chicken-400g/?add-to-cart=2563",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2019-07-07T16:46:47",
-  "dateModified": "2026-06-24T16:12:18",
+  "permalink": "https://petstore.co.ke/product/proline-kitten-food-chicken-400g/",
+  "addToCartUrl": "https://petstore.co.ke/product/proline-kitten-food-chicken-400g/?add-to-cart=2563",
+  "shortDescription": "Proline Kitten Food - Chicken , fully balanced all-natural kitten food with chicken protein. Carefully formulated by a cat nutritionist to meet the nu",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/07/Proline-Kitten-Food-Chicken-400g.png",
+  "sku": "PSK-2563",
   "brand": "Proline",
   "weight_kg": 0.4,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/07/Proline-Kitten-Food-Chicken-400g.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/07/Proline-Kitten-Food-Chicken-400g.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

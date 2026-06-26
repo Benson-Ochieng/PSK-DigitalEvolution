@@ -2,14 +2,12 @@
   "id": 42700,
   "name": "Slicker Brush Large",
   "slug": "slicker-brush-large-2",
-  "sku": "PG0810",
   "onSale": false,
   "price": 650,
   "regularPrice": 650,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/01/SLICKER-BRUSH-SMALL.png",
   "categories": [
     {
       "id": 2397,
@@ -42,46 +40,51 @@
       "slug": "dog-grooming-cleaning-supplies"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/slicker-brush-large-2/",
-  "shortDescription": "Perfect for small breeds, this sleek brush comes in a vibrant red color, adding a pop of fun to your grooming routine. Treat-your pet to the care they deserve and enjoy a cleaner home with less shedding! Available in Blue and Red. We cannot guarantee the colour you will receive when you order online",
   "description": "SLICKER BRUSH: Detangle and remove loose undercoat quickly and effectively with this large-sized professional dog slicker brush, which has been designed for detangling work on long, thick or curly coats. Keep your furry friend looking their best with our Small Slicker Brush! Designed for multi-purpose use, this brush effortlessly removes loose hair and tangles, making grooming a breeze. Its fine, angled bristles reach deep into your dog’s coat, ensuring a thorough and gentle grooming experience. Perfect for small breeds, this sleek brush comes in a vibrant red color, adding a pop of fun to your grooming routine. Treat your pet to the care they deserve and enjoy a cleaner home with less shedding! &nbsp;",
   "images": [
     {
-      "id": 50299,
+      "id": 42700,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/01/SLICKER-BRUSH-SMALL.png",
-      "alt": "Slicker Brush Small",
-      "name": "SLICKER BRUSH SMALL"
+      "alt": "Slicker Brush Large",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/slicker-brush-large-2/?add-to-cart=42700",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2023-12-27T14:09:26",
-  "dateModified": "2026-06-17T04:18:40",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/slicker-brush-large-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/slicker-brush-large-2/?add-to-cart=42700",
+  "shortDescription": "SLICKER BRUSH: Detangle and remove loose undercoat quickly and effectively with this large-sized professional dog slicker brush, which has been design",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/01/SLICKER-BRUSH-SMALL.png",
+  "sku": "PSK-42700",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/01/SLICKER-BRUSH-SMALL.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/01/SLICKER-BRUSH-SMALL.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 46090,
   "name": "Josidog Beef In Sauce Dog Wet Food 415g",
   "slug": "josera-beef-in-sauce-dog-wet-food-415kg",
-  "sku": "JBDSP159",
   "onSale": false,
   "price": 306,
   "regularPrice": 306,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/Josera-Beef-in-Sauce.png",
   "categories": [
     {
       "id": 2345,
@@ -32,57 +30,51 @@
       "slug": "wet-dog-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "tags": [
-    {
-      "id": 622,
-      "name": "canned food",
-      "slug": "canned-food"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/josera-beef-in-sauce-dog-wet-food-415kg/",
-  "shortDescription": "Josera Pate Beef is a new flavor in our Josera wet food range. And it really has what it takes – beef, that is. And in true pate style, the recipe contains vitamin E, vitamin D3 and an additional special promise: our wet food for dogs contains exclusively healthy ingredients and no junk like sugar, soya or similar.",
   "description": "Josera Pate Beef is a new flavors in our Josera wet food range. And it really has what it takes – beef, that is. And in true pate style, the recipe contains vitamin E, vitamin D3 and an additional special promise: our wet food for dogs contains exclusively healthy ingredients and no junk like sugar, soya or similar. Paté with beef for adult dogs With vitamin E for improved cell protection With vitamin D3 to support strong bone structure Fuss-free: no added sugar, soya, dairy products, colourings, flavourings or preservatives. Complete food for adult dogs: &nbsp; Composition: Beef and animal derivatives; cereals; minerals; derivatives of vegetable origin. Feeding Guide: Weight 5kg 10kg 20kg 35kg Feed amount/24 hrs 320 – 380g 540 – 600g 800 – 1000g 1400g – 1550g Please note that the quantities stated are guidelines and should be adapted. depending on your pet’s feeding requirements and activity levels. Please make sure your pet has fresh water at all times. After opening, keep refrigerated at 2 to 6 °C and offer the food at room temperature within 24 hours.",
   "images": [
     {
-      "id": 46091,
+      "id": 46090,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/04/Josera-Beef-in-Sauce.png",
       "alt": "Josidog Beef In Sauce Dog Wet Food 415g",
-      "name": "Josera Beef in Sauce"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/josera-beef-in-sauce-dog-wet-food-415kg/?add-to-cart=46090",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-04-15T11:26:12",
-  "dateModified": "2026-06-24T11:12:00",
+  "permalink": "https://petstore.co.ke/product/josera-beef-in-sauce-dog-wet-food-415kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/josera-beef-in-sauce-dog-wet-food-415kg/?add-to-cart=46090",
+  "shortDescription": "Josera Pate Beef is a new flavors in our Josera wet food range. And it really has what it takes – beef, that is. And in true pate style, the recipe co",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/Josera-Beef-in-Sauce.png",
+  "sku": "PSK-46090",
   "brand": "Josera",
-  "weight_kg": 0.415,
+  "weight_kg": 0.42,
   "animal_type": "dog",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/Josera-Beef-in-Sauce.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/Josera-Beef-in-Sauce.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 57789,
   "name": "Friskies Cat Duck Gravy 85g",
   "slug": "friskies-cat-duck-gravy-85g",
-  "sku": "FCW009",
   "onSale": false,
   "price": 176,
   "regularPrice": 176,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-11.png",
   "categories": [
     {
       "id": 2325,
@@ -32,57 +30,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2439,
-      "name": "Friskies",
-      "slug": "friskies"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/friskies-cat-duck-gravy-85g/",
-  "shortDescription": "FRISKIES Cat Duck in Gravy 85g delivers a delicious and nutritious meal made with tender duck pieces in rich, savory gravy. Formulated to provide 100% complete and balanced nutrition , it supports healthy digestion, strong muscles, and overall vitality in adult cats &nbsp;even those with sensitive stomachs .",
   "description": "Made with high-quality, carefully selected natural ingredients, it provides the nutrients your cat needs to maintain muscle health, vitality, and overall well-being. The recipe is free from artificial flavourings, colourants, and preservatives — ensuring a wholesome, gentle option for everyday feeding. Key Benefits • Tender duck chunks in delicious gravy for irresistible taste. • High-quality protein supports strong muscles and vitality. • Helps maintain hydration — perfect for cats that drink little water. • Gentle on sensitive stomachs thanks to all-natural ingredients. • No artificial flavours, colours, or preservatives. Feeding Guidelines • For an average adult cat (4 kg): Feed 4 pouches daily, split into 2 meals. • Serve at room temperature for best taste and aroma. • Discard any uneaten food after 2 hours. • Fresh drinking water should always be available.",
   "images": [
     {
-      "id": 57791,
+      "id": 57789,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-11.png",
       "alt": "Friskies Cat Duck Gravy 85g",
-      "name": "Untitled design (11)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Friskies",
+      "slug": "friskies"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/friskies-cat-duck-gravy-85g/?add-to-cart=57789",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-08-08T13:04:17",
-  "dateModified": "2026-06-24T10:12:00",
+  "permalink": "https://petstore.co.ke/product/friskies-cat-duck-gravy-85g/",
+  "addToCartUrl": "https://petstore.co.ke/product/friskies-cat-duck-gravy-85g/?add-to-cart=57789",
+  "shortDescription": "Made with high-quality, carefully selected natural ingredients, it provides the nutrients your cat needs to maintain muscle health, vitality, and over",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-11.png",
+  "sku": "PSK-57789",
   "brand": "Friskies",
-  "weight_kg": 0.085,
+  "weight_kg": 0.09,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-11.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-11.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

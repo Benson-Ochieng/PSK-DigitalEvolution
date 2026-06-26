@@ -2,14 +2,12 @@
   "id": 52891,
   "name": "Cs Pet Nail Clipper Set Large Pink",
   "slug": "cs-pet-nail-clipper-set-large-pink-2",
-  "sku": "PNCSL001",
   "onSale": false,
   "price": 849,
   "regularPrice": 849,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/NAIL-CLIPPER-WITH-FILE_blue.jpg",
   "categories": [
     {
       "id": 2325,
@@ -37,41 +35,51 @@
       "slug": "nail-care"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/cs-pet-nail-clipper-set-large-pink-2/",
-  "shortDescription": "Maintain your pet’s paws with ease using the Pet Nail Clipper Set – Large. Designed for larger dogs, cats, and other pets with thicker nails, this set includes high-quality clippers that ensure a safe, precise, and stress-free grooming experience.",
   "description": "Maintain your pet’s paws with ease using the Pet Nail Clipper Set - Large. Designed for larger dogs, cats, and other pets with thicker nails, this set includes high-quality clippers that ensure a safe, precise, and stress-free grooming experience. With sharp, durable blades and ergonomic handles, this tool makes trimming your pet’s nails quick and comfortable for both you and your furry friend. Key Features : Perfect for Larger Pets : Designed specifically for larger dogs, cats, and pets with thick nails, making it ideal for tough grooming tasks. Sharp, Durable Blades : Features precision blades that cut through nails cleanly and easily, minimizing the risk of splitting or injury. Ergonomic Design : Comfortable, non-slip handles ensure a firm grip, giving you better control while trimming your pet’s nails. Safety Lock : Includes a built-in safety lock to protect the blades and prevent accidental cuts when not in use. Easy to Use : Perfect for both beginners and experienced pet owners, this clipper set ensures a smooth and effortless nail trimming experience. Usage method: Grasp Pet’s Foot steady. Put the tip of pet nails into the knife and trim them slowly, several times. Avoid cutting blood lines into pet nails and causing bleeding. Avoid one-off large-area manicure of pet nails. When using nail clippers, please use safety shield to gradually trim, so as not to hurt toes by too much trimming. If the pet’s nails are too long, first trim a small part of the nail tips, every other week until the nails reach the appropriate length, leaving enough time for the pet to adapt. After trimming the nails, use the matching file to rub the nails until they are smooth. Directions : Gently trim the tips of your pet’s nails, avoiding the quick (the pink part inside the nail). Start slowly and offer your pet treats or praise to keep them calm during the process. Caution : Always trim your pet's nails carefully to avoid cutting too close to the quick. If unsure, seek professional advice or assistance. It is better to cut about 1/3 length of the nail once. And then use the nail file to polish it. Keep your pet’s paws neat and healthy with the Pet Nail Clipper Set - Large, the essential tool for every pet parent!",
   "images": [
     {
-      "id": 45120,
+      "id": 52891,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/04/NAIL-CLIPPER-WITH-FILE_blue.jpg",
       "alt": "Cs Pet Nail Clipper Set Large Pink",
-      "name": "NAIL-CLIPPER-WITH-FILE_blue"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/cs-pet-nail-clipper-set-large-pink-2/?add-to-cart=52891",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-01-18T12:44:03",
-  "dateModified": "2026-06-17T04:18:44",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/cs-pet-nail-clipper-set-large-pink-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/cs-pet-nail-clipper-set-large-pink-2/?add-to-cart=52891",
+  "shortDescription": "Maintain your pet’s paws with ease using the Pet Nail Clipper Set - Large. Designed for larger dogs, cats, and other pets with thicker nails, this set",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/NAIL-CLIPPER-WITH-FILE_blue.jpg",
+  "sku": "PSK-52891",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/NAIL-CLIPPER-WITH-FILE_blue.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/NAIL-CLIPPER-WITH-FILE_blue.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

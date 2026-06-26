@@ -2,14 +2,12 @@
   "id": 37699,
   "name": "SHORT EXPIRY - CLEARANCE: Bonnie Adult Dog Food - Lamb and Rice 15kg",
   "slug": "short-expiry-clearance-bonnie-adult-dog-food-lamb-and-rice-15kg",
-  "sku": "BDD003@SE",
-  "onSale": true,
+  "onSale": false,
   "price": 4599,
-  "regularPrice": 6570,
-  "salePrice": 4599,
+  "regularPrice": 4599,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2018/02/Bonnie-Adult-Dog-Lamb-Rice-1080x1080-c.png",
   "categories": [
     {
       "id": 177,
@@ -37,62 +35,51 @@
       "slug": "dry-dog-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2428,
-      "name": "Bonnie",
-      "slug": "bonnie"
-    }
-  ],
-  "tags": [
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 637,
-      "name": "kibble",
-      "slug": "kibble"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/short-expiry-clearance-bonnie-adult-dog-food-lamb-and-rice-15kg/",
-  "shortDescription": "Give your dog the goodness of nature with Bonnie Lamb & Rice Adult Dog Food . This tasty, balanced recipe blends tender lamb with rice to provide essential nutrients that keep your dog active, healthy, and happy perfect for adult dogs of every size and breed.",
   "description": "Bonnie Lamb & Rice Adult Dog food , full-balanced, lamb protein-containing all-natural dog food carefully formulated by dog nutritionists to meet the nutritional requirements of all adult breeds. Lamb meal has been used as animal protein source. The balance of omega 3 & 6 is provided by using flaxseed . Yucca plant provides ammonia and odour control, increase absorption of nutrients, strengthens the immune system and optimises animal growth and performance. A good intestinal health and performance is provided by CitriStim which is a source of pathogen-binding manna oligsacharride , immune provide beta-glucans and immune-supportive yeast. Healthy skin and shiny coat are supported by using brewer's yeast . Muscles, organs and nerve cells are supported, and the immune system strengthened by using whey powder . Rich vitamin contents. NUTRIENT COMPONENTS Protein ...............21% Fat .................11% Crude Cellulose (Fiber) ......... 4% INGREDIENTS: ?Lamb Proteins (dehydrated), Animal proteins (dehydrated), Wheat, Corn, Animal Fat, Corn Gluten, Rice, Dried Beet Pulp, Liver Flavour, Salt, Flaxseed, Dried Brewer?s Yeast, Yucca Schidigera, Mannan-Oligosaccharides, Beta Glucan. MINERALS: Calcium, Phosphorus, Sodium, Ionide, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
   "images": [
     {
-      "id": 890,
+      "id": 37699,
       "src": "https://petstore.co.ke/wp-content/uploads/2018/02/Bonnie-Adult-Dog-Lamb-Rice-1080x1080-c.png",
-      "alt": "Bonnie Adult Dog Lamb Rice 1080x1080 c",
-      "name": "Bonnie Adult Dog Lamb Rice 1080&#215;1080 c"
+      "alt": "SHORT EXPIRY - CLEARANCE: Bonnie Adult Dog Food - Lamb and Rice 15kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Bonnie",
+      "slug": "bonnie"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-bonnie-adult-dog-food-lamb-and-rice-15kg/?add-to-cart=37699",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2023-06-13T08:58:18",
-  "dateModified": "2026-06-17T04:28:49",
+  "permalink": "https://petstore.co.ke/product/short-expiry-clearance-bonnie-adult-dog-food-lamb-and-rice-15kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-bonnie-adult-dog-food-lamb-and-rice-15kg/?add-to-cart=37699",
+  "shortDescription": "Bonnie Lamb & Rice Adult Dog food , full-balanced, lamb protein-containing all-natural dog food carefully formulated by dog nutritionists to meet the ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2018/02/Bonnie-Adult-Dog-Lamb-Rice-1080x1080-c.png",
+  "sku": "PSK-37699",
   "brand": "Bonnie",
   "weight_kg": 15,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2018/02/Bonnie-Adult-Dog-Lamb-Rice-1080x1080-c.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2018/02/Bonnie-Adult-Dog-Lamb-Rice-1080x1080-c.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

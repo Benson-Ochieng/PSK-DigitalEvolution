@@ -2,14 +2,12 @@
   "id": 50810,
   "name": "Rogz Dog Grinz Treat Ball 6.4cm Lime Medium (g02-L)",
   "slug": "rogz-dog-grinz-treat-ball-6-4cm-lime-medium-gr02-l",
-  "sku": "GR02-L@F",
-  "onSale": true,
+  "onSale": false,
   "price": 1308,
-  "regularPrice": 1635,
-  "salePrice": 1308,
+  "regularPrice": 1308,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/GR02-S-Grinz-lime.jpg",
   "categories": [
     {
       "id": 2064,
@@ -17,41 +15,51 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=50810",
-  "shortDescription": "Keep your adult dog active and mentally stimulated with the Rogz Dog Grinz Treat Ball (GR02-L). Durable, interactive, and treat-dispensing for fun, healthy play Rogz Grinz ball – Lime Medium",
   "description": "Crafted from robust, non-toxic materials, the GR02-L is built to withstand chewing, rough play, and daily use, ensuring a long-lasting toy your dog will love. The hollow design allows you to fill the ball with kibble or treats, which are gradually released as your dog rolls, nudges, or bites the toy. This interactive play not only entertains your pet but also stimulates problem-solving skills and encourages healthy mouth engagement. Key Features Medium Size (6.4 cm): Perfect for adult dogs of various breeds. Durable & Safe Materials: Made from non-toxic, chew-resistant materials for long-lasting play. Interactive Treat Dispensing: Fills with kibble or treats that fall out gradually as your dog plays. Mental & Physical Stimulation: Encourages problem-solving, reduces boredom, and supports healthy chewing habits. Easy to Clean: Simply open the ball and rinse after play. Usage Tips Introduce treats gradually to teach your dog how to play with the toy. Supervise initial play sessions to prevent aggressive chewing or accidental swallowing of small pieces. Clean regularly to maintain hygiene and prevent debris buildup.",
   "images": [
     {
-      "id": 42024,
+      "id": 50810,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/12/GR02-S-Grinz-lime.jpg",
-      "alt": "Rogz Dog Grinz Treat Ball 7.8cm Lime Medium (g04-L)",
-      "name": "GR02-S-Grinz-lime"
+      "alt": "Rogz Dog Grinz Treat Ball 6.4cm Lime Medium (g02-L)",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-6-4cm-lime-medium-gr02-l/?add-to-cart=50810",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-10-13T14:49:51",
-  "dateModified": "2026-06-04T12:52:36",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=50810",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-6-4cm-lime-medium-gr02-l/?add-to-cart=50810",
+  "shortDescription": "Crafted from robust, non-toxic materials, the GR02-L is built to withstand chewing, rough play, and daily use, ensuring a long-lasting toy your dog wi",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/GR02-S-Grinz-lime.jpg",
+  "sku": "PSK-50810",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/GR02-S-Grinz-lime.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/GR02-S-Grinz-lime.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

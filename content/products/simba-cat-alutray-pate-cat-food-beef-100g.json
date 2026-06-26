@@ -2,14 +2,12 @@
   "id": 90272,
   "name": "Simba Cat Alutray Paté Cat Food – Beef 100g",
   "slug": "simba-cat-alutray-pate-cat-food-beef-100g",
-  "sku": "LSWC006",
   "onSale": false,
   "price": 172,
   "regularPrice": 172,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Beef-Alutray-100G-1.png",
   "categories": [
     {
       "id": 2325,
@@ -32,57 +30,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2464,
-      "name": "Simba",
-      "slug": "simba"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/simba-cat-alutray-pate-cat-food-beef-100g/",
-  "shortDescription": "Give your cat a delicious and nutritious meal with Simba Cat Paté Beef. This complete wet cat food is carefully prepared with quality beef, providing a rich source of protein and essential minerals to support your cat’s daily health and wellbeing.",
   "description": "Steam-cooked to enhance its natural flavour and aroma, this smooth and tasty paté is highly palatable, making it ideal for adult cats, including fussy eaters. Its soft texture is easy to eat and digest, ensuring a satisfying meal at every serving. Formulated with Vitamins A, D3, and E, Simba Cat Paté helps support healthy vision, strong bones, immune function, and overall vitality. Made without added colours or preservatives, it delivers balanced nutrition and great taste in every bite. Key Benefits Complete and balanced wet food for adult cats Made with quality beef for a delicious flavour Rich in protein to support muscle maintenance Smooth paté texture for easy chewing and digestion Enriched with Vitamins A, D3, and E Supports overall health and daily vitality No added colours or preservatives Suitable for everyday feeding Analytical Constituents Crude Protein: 8% Crude Fat: 7.5% Crude Fibre: 0.4% Crude Ash: 2.1% Moisture: 82% Feeding Guide For an average adult cat (4kg), feed approximately 200g daily, divided into two meals. Serve at room temperature and ensure fresh, clean water is always available. Storage Store in a cool, dry place. Once opened, refrigerate and consume within 2 days. &nbsp;",
   "images": [
     {
-      "id": 90273,
+      "id": 90272,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Beef-Alutray-100G-1.png",
       "alt": "Simba Cat Alutray Paté Cat Food – Beef 100g",
-      "name": "Simba Cat Beef Alutray 100G (1)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Simba",
+      "slug": "simba"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/simba-cat-alutray-pate-cat-food-beef-100g/?add-to-cart=90272",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-08T15:12:38",
-  "dateModified": "2026-06-23T11:39:34",
+  "permalink": "https://petstore.co.ke/product/simba-cat-alutray-pate-cat-food-beef-100g/",
+  "addToCartUrl": "https://petstore.co.ke/product/simba-cat-alutray-pate-cat-food-beef-100g/?add-to-cart=90272",
+  "shortDescription": "Steam-cooked to enhance its natural flavour and aroma, this smooth and tasty paté is highly palatable, making it ideal for adult cats, including fussy",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Beef-Alutray-100G-1.png",
+  "sku": "PSK-90272",
   "brand": "Simba",
   "weight_kg": 0.1,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Beef-Alutray-100G-1.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Cat-Beef-Alutray-100G-1.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

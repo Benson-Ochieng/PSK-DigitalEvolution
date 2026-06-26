@@ -2,14 +2,12 @@
   "id": 56386,
   "name": "SHORT EXPIRY-CLEARANCE: King Adult Dog Food Beef 500g",
   "slug": "short-expiry-clearance-king-adult-dog-food-beef-500gr",
-  "sku": "KDD005@SE",
-  "onSale": true,
+  "onSale": false,
   "price": 325,
-  "regularPrice": 465,
-  "salePrice": 325,
+  "regularPrice": 325,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/03/King-Adult-dog-beef-500gr.png",
   "categories": [
     {
       "id": 2167,
@@ -22,47 +20,51 @@
       "slug": "king"
     }
   ],
-  "brands": [
-    {
-      "id": 2446,
-      "name": "King",
-      "slug": "king"
-    }
-  ],
-  "tags": [
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/short-expiry-clearance-king-adult-dog-food-beef-500gr/",
-  "shortDescription": "Fully balanced all-natural dog food with beef protein and brewer's yeast for immune support. Carefully formulated by a dog nutritionist to meet the nutritional requirements of all adult large breed dogs.",
   "description": "King Plus Beef Adult Dog is a fully balanced all-natural dog food with beef protein and brewer's yeast for immune support. Carefully formulated by a dog nutritionist to meet the nutritional requirements of all adult large-breed dogs. NUTRIENT COMPONENTS Protein ...........18% Fat ............. 7% Crude Cellulose (Fiber) ........... 4% Crude Ash .................................10% INGREDIENTS: Wheat, Corn, Processed Animal Protein, Wheat Middling, Boncalit, Animal Fat, Dried Sugar Beet, Liver Flavor, Flaxseed, Salt, Dried Brewer's Yeast. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 , B2 ,B3 (niacin) B6, B12, B7 (biotin) B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
   "images": [
     {
-      "id": 37412,
+      "id": 56386,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/03/King-Adult-dog-beef-500gr.png",
       "alt": "SHORT EXPIRY-CLEARANCE: King Adult Dog Food Beef 500g",
-      "name": "King Adult dog beef 500gr"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "King",
+      "slug": "king"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-king-adult-dog-food-beef-500gr/?add-to-cart=56386",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-07-04T10:46:56",
-  "dateModified": "2026-06-22T09:44:48",
+  "permalink": "https://petstore.co.ke/product/short-expiry-clearance-king-adult-dog-food-beef-500gr/",
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-king-adult-dog-food-beef-500gr/?add-to-cart=56386",
+  "shortDescription": "King Plus Beef Adult Dog is a fully balanced all-natural dog food with beef protein and brewer's yeast for immune support. Carefully formulated by a d",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/03/King-Adult-dog-beef-500gr.png",
+  "sku": "PSK-56386",
   "brand": "King",
   "weight_kg": 0.5,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/03/King-Adult-dog-beef-500gr.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/03/King-Adult-dog-beef-500gr.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

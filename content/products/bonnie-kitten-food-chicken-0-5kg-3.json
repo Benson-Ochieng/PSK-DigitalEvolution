@@ -2,14 +2,12 @@
   "id": 48185,
   "name": "Bonnie Kitten Food - Chicken 0.5kg",
   "slug": "bonnie-kitten-food-chicken-0-5kg-3",
-  "sku": "BCD007@F",
-  "onSale": true,
+  "onSale": false,
   "price": 425,
-  "regularPrice": 720,
-  "salePrice": 425,
+  "regularPrice": 425,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/09/Bonnie-Kitten-Chicken-500g-min.png",
   "categories": [
     {
       "id": 177,
@@ -17,47 +15,51 @@
       "slug": "bonnie"
     }
   ],
-  "brands": [
-    {
-      "id": 2428,
-      "name": "Bonnie",
-      "slug": "bonnie"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=48185",
-  "shortDescription": "Bonnie Chicken Kitten Food is a nutritionally complete and balanced dry food, specially formulated to meet the needs of growing kittens. Made with high-quality natural ingredients and enriched with chicken protein, it supports healthy growth, strong muscles, and overall development for kittens of all breeds.",
   "description": "Bonnie Chicken Kitten food , fully balanced, chicken protein-containing all-natural kitten food carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all kitten breeds. Chicken meal has been used as animal protein source. The balance of omega 3 & 6 is provided by using flaxseed . Yucca plant provides ammonia and odour control, increase absorption of nutrients, strengthens the immune system and optimizes animal growth and performance. A good intestinal health and performance is provided by CitriStim which is a source of pathogen-binding manna oligsacharride , immune provide beta-glucans and immune-supportive yeast. Healthy skin and shiny coat are supported by using brewer's yeast . Muscles, organs and nerve cells are supported, and the immune system strengthened by using whey powder . Rich vitamin contents. NUTRIENT COMPONENTS Protein ...........................36% Fat..................................19% Crude Ash........................8% Crude Cellulose (Fiber)...... 3.5% INGREDIENTS: Chicken Proteins (dehydrated), Wheat, Corn, Animal Fat, Dried Beet Pulp, Corn Gluten, Liver Flavour, Salt, Linseed, Brewer's Yeast, Taurine, Yucca Schidigera, Mannan-Oligosaccharides, Beta Glucan, Preservatives - Antioxidants. MINERALS: Calcium, Phosphorus, Sodium, Ionide, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
   "images": [
     {
-      "id": 3410,
+      "id": 48185,
       "src": "https://petstore.co.ke/wp-content/uploads/2019/09/Bonnie-Kitten-Chicken-500g-min.png",
-      "alt": "Bonnie Kitten Chicken 500g min",
-      "name": "Bonnie Kitten Chicken 500g min"
+      "alt": "Bonnie Kitten Food - Chicken 0.5kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Bonnie",
+      "slug": "bonnie"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/bonnie-kitten-food-chicken-0-5kg-3/?add-to-cart=48185",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-07-01T16:58:36",
-  "dateModified": "2026-06-17T04:32:51",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=48185",
+  "addToCartUrl": "https://petstore.co.ke/product/bonnie-kitten-food-chicken-0-5kg-3/?add-to-cart=48185",
+  "shortDescription": "Bonnie Chicken Kitten food , fully balanced, chicken protein-containing all-natural kitten food carefully formulated by cat / dog nutritionists to mee",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/09/Bonnie-Kitten-Chicken-500g-min.png",
+  "sku": "PSK-48185",
   "brand": "Bonnie",
   "weight_kg": 0.5,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/09/Bonnie-Kitten-Chicken-500g-min.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/09/Bonnie-Kitten-Chicken-500g-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

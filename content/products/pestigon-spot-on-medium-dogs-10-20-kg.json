@@ -2,14 +2,12 @@
   "id": 61338,
   "name": "Pestigon Spot-on Medium Dogs 10-20kg",
   "slug": "pestigon-spot-on-medium-dogs-10-20-kg",
-  "sku": "PSOMD20",
-  "onSale": true,
+  "onSale": false,
   "price": 3150,
-  "regularPrice": 4500,
-  "salePrice": 3150,
+  "regularPrice": 3150,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/10/pestigon.png",
   "categories": [
     {
       "id": 2345,
@@ -32,67 +30,51 @@
       "slug": "pestigon"
     }
   ],
-  "brands": [
-    {
-      "id": 2457,
-      "name": "Pestigon",
-      "slug": "pestigon"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1149,
-      "name": "flea & tick",
-      "slug": "flea-tick"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 939,
-      "name": "On Sale Now",
-      "slug": "sale"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pestigon-spot-on-medium-dogs-10-20-kg/",
-  "shortDescription": "Pestigon Spot-On is a fast-acting, easy-to-apply treatment for the control of fleas and ticks in medium-sized dogs. Each pipette contains Fipronil 134 mg , a trusted active ingredient that kills parasites quickly and helps prevent re-infestation.",
   "description": "Pestigon Spot-On for Medium Dogs (10–20 kg) is a veterinary flea and tick treatment in the form of a topical solution. Each pack contains 3 pipettes of 1.34 ml, with Fipronil 134 mg as the active ingredient. &nbsp;Product Overview Brand: Pestigon (by Norbrook Laboratories) Pack size: 3 pipettes, each containing 1.34 ml of solution Target: Dogs weighing 10–20 kg (one pipette per dog in this weight range) Formulation: Clear, colourless to pale yellow solution for topical (spot-on) application to the skin Active & Inactive Ingredients Each 1.34 ml pipette contains Fipronil 134 mg Other excipients include: Butylated hydroxyanisole (E320): -0.268 mg Butylated hydroxytoluene (E321): -0.134 mg Indications (What It Treats) For the treatment of infestations by fleas (Ctenocephalides felis) in dogs Immediate insecticidal effect and persistent action against new adult flea infestations for up to 8 weeks Effective as an acaricide (tick control) against: Ixodes ricinus: up to 2 weeks Rhipicephalus sanguineus: up to 3 weeks Dermacentor reticulatus: up to 4 weeks May be used as part of a strategy in managing flea allergy dermatitis (FAD) when diagnosed by a veterinarian Dosage & Administration Use one 1.34 ml pipette per dog weighing 10–20 kg Application method: Hold pipette upright and tap the narrow part so contents settle Break off the snap top along the scored line Part the fur between the shoulder blades until the skin is visible Place the pipette tip on the skin and squeeze gently to release contents in one or two spots Avoid bathing or immersing the dog in water immediately after application, as this may reduce effectiveness &nbsp;Contraindications & Precautions For external use only Do not use on cats Not for puppies under 8 weeks or dogs under 10 kg Not to be used in sick (e.g. systemic diseases, fever) or convalescing animals without veterinary advice Toxic to aquatic organisms – avoid environmental contamination Prevent treated animals from being licked by other pets If the treated area appears wet or sticky, it may indicate excess product – avoid excessive wetting near the application site for 24 hours Packaging & Storage Pipettes sealed in multi-layer packaging for light and moisture protection Shelf life: Typically 2 years in sealed packaging Store in the original container, protect from light and moisture Keep out of reach of children Benefits & What to Expect Rapid action: kills fleas quickly and provides long-lasting protection Controls multiple tick species, reducing risk of irritation and tick-borne disease Monthly protection with a single pipette Simplifies external parasite management for medium-sized dogs Tips for Best Use & Safety Ensure your dog’s coat is dry and you can clearly access the skin between the shoulders Avoid petting the dog around the treated area until the solution dries Do not bathe the dog within 24 hours of application Monitor for any unusual signs (e.g., excessive salivation, nervous behavior, or skin irritation) and consult a vet if needed Apply regularly, especially during peak parasite seasons (e.g. spring/summer) For best results, combine with environmental flea and tick control measures: vacuum carpets, wash bedding, and maintain a clean yard It provides: Up to 8 weeks protection against fleas 2–4 weeks protection against ticks (depending on species) Can help manage flea allergy dermatitis (FAD) Easy, monthly spot-on application",
   "images": [
     {
-      "id": 61339,
+      "id": 61338,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/10/pestigon.png",
       "alt": "Pestigon Spot-on Medium Dogs 10-20kg",
-      "name": "pestigon"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Pestigon",
+      "slug": "pestigon"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/pestigon-spot-on-medium-dogs-10-20-kg/?add-to-cart=61338",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-10-22T16:03:10",
-  "dateModified": "2026-06-17T05:01:31",
+  "permalink": "https://petstore.co.ke/product/pestigon-spot-on-medium-dogs-10-20-kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/pestigon-spot-on-medium-dogs-10-20-kg/?add-to-cart=61338",
+  "shortDescription": "Pestigon Spot-On for Medium Dogs (10–20 kg) is a veterinary flea and tick treatment in the form of a topical solution. Each pack contains 3 pipettes o",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/10/pestigon.png",
+  "sku": "PSK-61338",
   "brand": "Pestigon",
   "weight_kg": 20,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/10/pestigon.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/10/pestigon.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

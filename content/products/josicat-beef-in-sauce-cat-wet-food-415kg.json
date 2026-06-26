@@ -2,14 +2,12 @@
   "id": 46102,
   "name": "Josicat Beef In Sauce Cat Wet Food 415g",
   "slug": "josicat-beef-in-sauce-cat-wet-food-415kg",
-  "sku": "JBCSP164",
   "onSale": false,
   "price": 299,
   "regularPrice": 299,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/Jisicat-in-sause.png",
   "categories": [
     {
       "id": 2325,
@@ -37,62 +35,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "tags": [
-    {
-      "id": 622,
-      "name": "canned food",
-      "slug": "canned-food"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/josicat-beef-in-sauce-cat-wet-food-415kg/",
-  "shortDescription": "JOSICAT Beef in Sauce, your cat will be longing for every meal: and it’s all because of these fine pieces in a tasty sauce with beef! Thanks to the Vitamin E, cell protection is improved, while Vitamin D3 supports the development of strong bones in adult cats. So our delicious recipe also does your cat some good!",
   "description": "JOSICAT Beef in Sauce, your cat will be longing for every meal: and it’s all because of these fine pieces in a tasty sauce with beef! Thanks to the Vitamin E, cell protection is improved, while Vitamin D3 supports the development of strong bones in adult cats. So our delicious recipe also does your cat some good! Fine wet food in sauce with beef, for adult cats With Vitamin E to improve cell protection With Vitamin D3 to support stable bone development Fuss-free: no added preservatives, colourings or flavourings. Complete food for adult cats Analytical constituents protein 7.1 % fat content 4.1 % crude fibre 0.5 % crude ash 2.5 % Feeding Guide: weight 2 -3kg 3 – 4kg 4 – 5kg 5 – 7kg feed quantities/24h 170 – 220g 220 -270g 270 – 320g 320g – 400g Please note that the quantities stated are a guide only and must be adapted to your animal’s nutritional status and its activity. Please make sure your animal has fresh water at all times. After opening, keep refrigerated between 2 to 6 °C, and use at room temperature within 24 hours. Composition: Beef and animal derivatives; cereals; fish; minerals; caramel syrup.",
   "images": [
     {
-      "id": 90156,
+      "id": 46102,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/04/Jisicat-in-sause.png",
       "alt": "Josicat Beef In Sauce Cat Wet Food 415g",
-      "name": "Jisicat in sause"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/josicat-beef-in-sauce-cat-wet-food-415kg/?add-to-cart=46102",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-04-15T12:31:37",
-  "dateModified": "2026-06-17T05:01:28",
+  "permalink": "https://petstore.co.ke/product/josicat-beef-in-sauce-cat-wet-food-415kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/josicat-beef-in-sauce-cat-wet-food-415kg/?add-to-cart=46102",
+  "shortDescription": "JOSICAT Beef in Sauce, your cat will be longing for every meal: and it’s all because of these fine pieces in a tasty sauce with beef! Thanks to the Vi",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/Jisicat-in-sause.png",
+  "sku": "PSK-46102",
   "brand": "Josera",
-  "weight_kg": 0.415,
+  "weight_kg": 0.42,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/Jisicat-in-sause.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/Jisicat-in-sause.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

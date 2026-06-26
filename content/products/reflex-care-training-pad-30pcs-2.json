@@ -2,14 +2,12 @@
   "id": 51511,
   "name": "Reflex Care Training Pad 30pcs",
   "slug": "reflex-care-training-pad-30pcs-2",
-  "sku": "RCTP30",
   "onSale": false,
   "price": 2500,
   "regularPrice": 2500,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CARE-TRAINING-PAD-30PCS.png",
   "categories": [
     {
       "id": 2345,
@@ -32,52 +30,51 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
-    {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/reflex-care-training-pad-30pcs-2/",
-  "shortDescription": "Make puppy training easier with our large training pad, measuring 60 x 90cm. Designed for durability and absorbency, this pad helps manage accidents while providing a comfortable and hygienic space for your pup. Ideal for both housebreaking and general training, it keeps your floors clean and offers peace of mind.",
   "description": "With its ultra absorbent power and leak-proof design, it is perfect for toilet training. Thanks to the adhesive strips fixed to the floor, it does not slip. Its technology traps odors. &nbsp; &nbsp; Puppy training pad training is great for puppy-owners without easy access to outdoors for their pets and those living in tall buildings. Make clean-up easy and are convenient for potty training. BENEFITS: 1 . Super-absorbent core. 2. Leak-proof with plastic lining to prevent damage to floors. 3. Quick-dry surface with built-in attractant 4. They’re comfortable for dogs. 5. They make clean-up easy. 6. They’re good options for dogs who can’t go outside for health reasons. &nbsp;",
   "images": [
     {
-      "id": 51512,
+      "id": 51511,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CARE-TRAINING-PAD-30PCS.png",
       "alt": "Reflex Care Training Pad 30pcs",
-      "name": "REFLEX CARE TRAINING PAD 30PCS"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-care-training-pad-30pcs-2/?add-to-cart=51511",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-11-13T10:59:12",
-  "dateModified": "2026-06-23T13:12:35",
+  "permalink": "https://petstore.co.ke/product/reflex-care-training-pad-30pcs-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-care-training-pad-30pcs-2/?add-to-cart=51511",
+  "shortDescription": "With its ultra absorbent power and leak-proof design, it is perfect for toilet training. Thanks to the adhesive strips fixed to the floor, it does not",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CARE-TRAINING-PAD-30PCS.png",
+  "sku": "PSK-51511",
   "brand": "Reflex",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CARE-TRAINING-PAD-30PCS.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CARE-TRAINING-PAD-30PCS.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

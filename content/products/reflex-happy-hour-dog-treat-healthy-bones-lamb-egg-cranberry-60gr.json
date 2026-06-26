@@ -2,14 +2,12 @@
   "id": 52692,
   "name": "Reflex Happy Hour Dog Treat Healthy Bones Lamb Egg & Cranberry 60g",
   "slug": "reflex-happy-hour-dog-treat-healthy-bones-lamb-egg-cranberry-60gr",
-  "sku": "RDT030",
   "onSale": false,
   "price": 195,
   "regularPrice": 195,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/01/Happy-Hour-Healthy-Bones-Dog-treats.png",
   "categories": [
     {
       "id": 2345,
@@ -37,52 +35,51 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
-    {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/reflex-happy-hour-dog-treat-healthy-bones-lamb-egg-cranberry-60gr/",
-  "shortDescription": "Happy hour dog treats Health Bones Lamb, Egg & Cranberry – Perfect for rewarding good behavior or just showing your pet some extra love, Reflex Happy Hours Dog Treats are free from artificial preservatives and fillers. Plus, they’re great for maintaining healthy teeth and gums! Treat your doggie to a snack they’ll wiggle for—because every hour is a happy hour with Reflex!",
   "description": "Delicious, crunchy morsels designed to delight your dog’s taste buds while promoting their overall health! Made with high-quality ingredients, these treats are rich in essential vitamins and minerals. Each bite is packed with flavor and offers a satisfying crunch that dogs love. Available in a variety of flavors to suit even the pickiest eaters. Key Features: Crunchy texture for dental health Packed with essential nutrients No artificial additives Ingredients: Processed Lamb Protein (20%), Processed Animal Protein, Corn, Egg Protein, Chicken Fat, Wheat Bran, Hydrolyzed Lamb Protein, Liver Flavor, Powdered Cellulose, Vitamins and Minerals, Brewer's Yeast, Salt, Flaxseed, Cranberry, Yucca Schidigera, Mannan-Oligosaccharide (MOS), Glucosamine, Chondroitin Sulfate, L-Carnitine, Preservatives and Antioxidants (E320 & E321). Nutrient Components Crude Protein 24% Fat Content 16% Crude Cellulose 3% Raw Ash 8% Humidity (Max.) 8% &nbsp; Nutritional Additives Vitamins: A (3a672a), Vitamin D3 (3a671), Vitamin E (3a700), Vitamin C (3a300), Vitamin B1 (3a821), B2 (3a825i), B3 (Niacin-3a315), B6 ​​(3a831), B12 (3A) , B7 (Biotin-3a880), B9 (Folic Acid-3a316), Vitamin K3 (3a710), Choline (3a890), Calcium Pantothenate (3a841). Minerals: Iron (3b103), Iodine (3b202), Copper (3b405), Manganese (3b502), Zinc (3b603), Selenium (3b802). Feeding Recommendations: For adult dogs, it can be consumed entirely in one meal. The daily rate may vary depending on the outdoor temperature, the pet's lifestyle (indoors and outdoors), temperament and activity. Make sure your pet has constant access to fresh drinking water. Store in a cool, dry place and close the food packaging properly after each feeding. The size and color of the product may vary depending on the properties of the ingredients. It is not suitable for human consumption. Daily ratio can vary according to outdoor temperature. Pet’s lifestyle (in door- or outdoor), temperature and activity. Ensure that your pet has permanent access to fresh water. Make every moment a celebration with Reflex Happy Hours Dog Treats!",
   "images": [
     {
-      "id": 52693,
+      "id": 52692,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/01/Happy-Hour-Healthy-Bones-Dog-treats.png",
-      "alt": "Pack Of 10 – Reflex Happy Hour Dog Treat Healthy Bones Lamb Egg & Cranberry 60g",
-      "name": "Happy Hour Healthy Bones Dog treats"
+      "alt": "Reflex Happy Hour Dog Treat Healthy Bones Lamb Egg & Cranberry 60g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 5,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-happy-hour-dog-treat-healthy-bones-lamb-egg-cranberry-60gr/?add-to-cart=52692",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-01-13T11:48:51",
-  "dateModified": "2026-06-24T16:12:26",
+  "permalink": "https://petstore.co.ke/product/reflex-happy-hour-dog-treat-healthy-bones-lamb-egg-cranberry-60gr/",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-happy-hour-dog-treat-healthy-bones-lamb-egg-cranberry-60gr/?add-to-cart=52692",
+  "shortDescription": "Delicious, crunchy morsels designed to delight your dog’s taste buds while promoting their overall health! Made with high-quality ingredients, these t",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/01/Happy-Hour-Healthy-Bones-Dog-treats.png",
+  "sku": "PSK-52692",
   "brand": "Reflex",
   "weight_kg": 0.06,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/01/Happy-Hour-Healthy-Bones-Dog-treats.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/01/Happy-Hour-Healthy-Bones-Dog-treats.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

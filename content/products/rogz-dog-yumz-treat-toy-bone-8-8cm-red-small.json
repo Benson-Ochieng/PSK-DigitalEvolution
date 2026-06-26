@@ -2,14 +2,12 @@
   "id": 24593,
   "name": "Rogz Dog Yumz-Treat Toy Bone 8.8cm - Red Small (YU01-C)",
   "slug": "rogz-dog-yumz-treat-toy-bone-8-8cm-red-small",
-  "sku": "YU01-C",
   "onSale": false,
   "price": 1200,
   "regularPrice": 1200,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/YU01-C-Yumz-Small-Red.jpg",
   "categories": [
     {
       "id": 1204,
@@ -42,56 +40,51 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-dog-yumz-treat-toy-bone-8-8cm-red-small/",
-  "shortDescription": "Rogz Dog Yumz-Treat Toy bone – Red Small",
   "description": "Yumz massages and gives treats! This new treat dispensing chew toy has GMT ? Gum Massaging Technology. Made from TPR, the inside treat cavity has 3 fins to hold treats longer. It bounces and fetches as well!",
   "images": [
     {
-      "id": 24622,
+      "id": 24593,
       "src": "https://petstore.co.ke/wp-content/uploads/2022/01/YU01-C-Yumz-Small-Red.jpg",
-      "alt": "Rogz Dog Yumz-Treat Toy Bone 15cm – Red Large (YU05-C)",
-      "name": "YU01-C-Yumz-Small-Red.jpg"
+      "alt": "Rogz Dog Yumz-Treat Toy Bone 8.8cm - Red Small (YU01-C)",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-yumz-treat-toy-bone-8-8cm-red-small/?add-to-cart=24593",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2022-01-15T21:40:47",
-  "dateModified": "2026-05-06T17:07:52",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/rogz-dog-yumz-treat-toy-bone-8-8cm-red-small/",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-yumz-treat-toy-bone-8-8cm-red-small/?add-to-cart=24593",
+  "shortDescription": "Yumz massages and gives treats! This new treat dispensing chew toy has GMT ? Gum Massaging Technology. Made from TPR, the inside treat cavity has 3 fi",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/YU01-C-Yumz-Small-Red.jpg",
+  "sku": "PSK-24593",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/YU01-C-Yumz-Small-Red.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/YU01-C-Yumz-Small-Red.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

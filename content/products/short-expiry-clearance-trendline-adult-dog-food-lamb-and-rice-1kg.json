@@ -2,14 +2,12 @@
   "id": 55403,
   "name": "SHORT EXPIRY-CLEARANCE: Trendline Adult Dog Food - Lamb and Rice 1kg",
   "slug": "short-expiry-clearance-trendline-adult-dog-food-lamb-and-rice-1kg",
-  "sku": "TDD005@SE",
-  "onSale": true,
+  "onSale": false,
   "price": 387,
-  "regularPrice": 645,
-  "salePrice": 387,
+  "regularPrice": 387,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/05/Trendline-puppy-1kg-.png",
   "categories": [
     {
       "id": 2345,
@@ -32,62 +30,51 @@
       "slug": "trendline"
     }
   ],
-  "brands": [
-    {
-      "id": 2471,
-      "name": "Trendline",
-      "slug": "trendline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 637,
-      "name": "kibble",
-      "slug": "kibble"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/short-expiry-clearance-trendline-adult-dog-food-lamb-and-rice-1kg/",
-  "shortDescription": "Fully balanced all-natural dog food with lamb protein, brewer's yeast for immune support and Omega-3 and -6 from flaxseed. Carefully formulated by a dog nutritionist to meet the nutritional requirements of all adult dogs.",
   "description": "Trendline Adult Dog Food -Lamb & Rice , fully balanced all-natural dog food with lamb protein, brewer's yeast for immune support and Omega-3 and -6 from flaxseed. Carefully formulated by a dog nutritionist to meet the nutritional requirements of all adult dogs. NUTRIENT COMPONENTS Protein ....................................... 20% Fat................................................9% Crude Cellulose (Fiber)............... 4% Crude Ash ....................................8% INGREDIENTS: Processed Animal Protein, Corn, Animal Fat, Wheat Middlings, Corn Gluten, Dried Sugar Beet, Liver Aroma, Salt, Flaxseed, Dried Brewer's Yeast. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
   "images": [
     {
-      "id": 89570,
+      "id": 55403,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/05/Trendline-puppy-1kg-.png",
-      "alt": "Trendline Adult Dog Food – Lamb and Rice 1kg",
-      "name": "Trendline puppy 1kg"
+      "alt": "SHORT EXPIRY-CLEARANCE: Trendline Adult Dog Food - Lamb and Rice 1kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Trendline",
+      "slug": "trendline"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-trendline-adult-dog-food-lamb-and-rice-1kg/?add-to-cart=55403",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-05-26T16:22:09",
-  "dateModified": "2026-06-24T09:59:13",
+  "permalink": "https://petstore.co.ke/product/short-expiry-clearance-trendline-adult-dog-food-lamb-and-rice-1kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-trendline-adult-dog-food-lamb-and-rice-1kg/?add-to-cart=55403",
+  "shortDescription": "Trendline Adult Dog Food -Lamb & Rice , fully balanced all-natural dog food with lamb protein, brewer's yeast for immune support and Omega-3 and -6 fr",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/05/Trendline-puppy-1kg-.png",
+  "sku": "PSK-55403",
   "brand": "Trendline",
   "weight_kg": 5,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/05/Trendline-puppy-1kg-.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/05/Trendline-puppy-1kg-.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

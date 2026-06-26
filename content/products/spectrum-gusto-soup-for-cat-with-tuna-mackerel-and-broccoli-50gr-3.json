@@ -2,14 +2,12 @@
   "id": 48150,
   "name": "Spectrum Gusto Soup For Cat With Tuna Mackerel And Broccoli 50g",
   "slug": "spectrum-gusto-soup-for-cat-with-tuna-mackerel-and-broccoli-50gr-3",
-  "sku": "SCW006@F",
-  "onSale": true,
+  "onSale": false,
   "price": 127,
-  "regularPrice": 195,
-  "salePrice": 127,
+  "regularPrice": 127,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-TUNA-MACKEREL-AND-BROCCOLI-50GR.png",
   "categories": [
     {
       "id": 180,
@@ -17,47 +15,51 @@
       "slug": "spectrum"
     }
   ],
-  "brands": [
-    {
-      "id": 2468,
-      "name": "Spectrum",
-      "slug": "spectrum"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=48150",
-  "shortDescription": "Healthy Spectrum Gusto Cat Soup with Tuna, Mackerel & Broccoli – hydrating, protein-rich 50g snack to support skin, coat, and digestion.",
   "description": "Spectrum Gusto Cat Soup is a wholesome, complementary treat for cats and kittens. Made with real tuna fillet, mackerel, and broccoli in a savory fish broth, it provides essential protein, omega-3 fatty acids, vitamins, and fiber. Its 90% moisture content supports hydration, making it ideal for cats that drink little water. Easy to serve and highly palatable, this 50g pouch is perfect as a snack, reward, or meal enhancer while maintaining a healthy, balanced diet. Key Features: Lean protein from tuna (15.4%) and mackerel (10%). Omega-3 fatty acids for a healthy skin and coat. Broccoli for minerals, fiber, and digestive support. High-moisture content keeps cats hydrated. Convenient single-serve pouch for easy feeding. &nbsp;",
   "images": [
     {
-      "id": 47681,
+      "id": 48150,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-TUNA-MACKEREL-AND-BROCCOLI-50GR.png",
       "alt": "Spectrum Gusto Soup For Cat With Tuna Mackerel And Broccoli 50g",
-      "name": "SPECTRUM GUSTO SOUP FOR CAT WITH TUNA MACKEREL AND BROCCOLI 50GR"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Spectrum",
+      "slug": "spectrum"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/spectrum-gusto-soup-for-cat-with-tuna-mackerel-and-broccoli-50gr-3/?add-to-cart=48150",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-07-01T12:44:26",
-  "dateModified": "2026-06-17T04:35:32",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=48150",
+  "addToCartUrl": "https://petstore.co.ke/product/spectrum-gusto-soup-for-cat-with-tuna-mackerel-and-broccoli-50gr-3/?add-to-cart=48150",
+  "shortDescription": "Spectrum Gusto Cat Soup is a wholesome, complementary treat for cats and kittens. Made with real tuna fillet, mackerel, and broccoli in a savory fish ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-TUNA-MACKEREL-AND-BROCCOLI-50GR.png",
+  "sku": "PSK-48150",
   "brand": "Spectrum",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-TUNA-MACKEREL-AND-BROCCOLI-50GR.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-TUNA-MACKEREL-AND-BROCCOLI-50GR.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

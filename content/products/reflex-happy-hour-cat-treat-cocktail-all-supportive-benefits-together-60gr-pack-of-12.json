@@ -2,14 +2,12 @@
   "id": 53433,
   "name": "Pack Of 10 - Reflex Happy Hour Cat Treat Cocktail All Supportive Benefits Together 60g",
   "slug": "reflex-happy-hour-cat-treat-cocktail-all-supportive-benefits-together-60gr-pack-of-12",
-  "sku": "RCT016$10",
-  "onSale": true,
+  "onSale": false,
   "price": 1755,
-  "regularPrice": 1950,
-  "salePrice": 1755,
+  "regularPrice": 1755,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/07/REFLEX-HAPPY-HOUR-CAT-TREAT-COCKTAIL-ALL-SUPPORTIVE-BENEFITS-TOGETHER-60GR.png",
   "categories": [
     {
       "id": 2325,
@@ -32,57 +30,51 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
-    {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2055,
-      "name": "Bulk Cat Food & Bulk Dog Food",
-      "slug": "bulk"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/reflex-happy-hour-cat-treat-cocktail-all-supportive-benefits-together-60gr-pack-of-12/",
-  "shortDescription": "Delight your cat with Reflex Happy Hour Treat Cocktail a crunchy, multi-flavor snack with salmon, lamb, and chicken that promotes teeth, heart, and digestive health. &nbsp;",
   "description": "Perfect for rewarding good behavior or just showing your pet some extra love, Reflex Happy Hours Cat Treats are free from artificial preservatives and fillers. Plus, they’re great for maintaining healthy teeth and gums! Treat your kitty to a snack they’ll purr for—because every hour can be a happy hour with Reflex! Available in a variety of flavors to suit even the pickiest eaters. Key Features: Crunchy texture for dental health Packed with essential nutrients No artificial additives Ingredients: Processed salmon protein, Processed lamb protein, Processed chicken protein, Corn, Chicken fat, Corn gluten, Salmon oil, Fish flavor, Powdered cellulose, Vitamins and minerals, Brewer's yeast, Salt, Blueberry, Flaxseed, Cranberry, Yucca schidigera, Xylooligosaccharides (XOS), Taurine (3a370), Preservatives and antioxidants (E320 & E321). Nutrient Components Crude Protein 32% Fat Content 16% Ash 3% Crude Fiber 8% Moisture Content 10% Feeding Recommendations: For adult cats, it can be consumed entirely in one meal. The daily rate may vary depending on the outdoor temperature, the pet's lifestyle (indoors and outdoors), temperament and activity. Make sure your pet has constant access to fresh drinking water. Store in a cool, dry place and close the food packaging properly after each feeding. The size and color of the product may vary depending on the properties of the ingredients. It is not suitable for human consumption. Daily ratio can vary according to outdoor temperature. Pet's lifestyle (in door- or outdoor), temperature and activity. Ensure that your pet has permanent access to fresh water. Make every moment a celebration with Reflex Happy Hours Cat Treats!",
   "images": [
     {
-      "id": 50513,
+      "id": 53433,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/07/REFLEX-HAPPY-HOUR-CAT-TREAT-COCKTAIL-ALL-SUPPORTIVE-BENEFITS-TOGETHER-60GR.png",
-      "alt": "Reflex Happy Hour Cat Treat Cocktail All Supportive Benefits Together 60g",
-      "name": "REFLEX HAPPY HOUR CAT TREAT COCKTAIL ALL SUPPORTIVE BENEFITS TOGETHER 60GR"
+      "alt": "Pack Of 10 - Reflex Happy Hour Cat Treat Cocktail All Supportive Benefits Together 60g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 5,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-happy-hour-cat-treat-cocktail-all-supportive-benefits-together-60gr-pack-of-12/?add-to-cart=53433",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-02-11T15:26:05",
-  "dateModified": "2026-06-24T16:12:24",
+  "permalink": "https://petstore.co.ke/product/reflex-happy-hour-cat-treat-cocktail-all-supportive-benefits-together-60gr-pack-of-12/",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-happy-hour-cat-treat-cocktail-all-supportive-benefits-together-60gr-pack-of-12/?add-to-cart=53433",
+  "shortDescription": "Perfect for rewarding good behavior or just showing your pet some extra love, Reflex Happy Hours Cat Treats are free from artificial preservatives and",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/07/REFLEX-HAPPY-HOUR-CAT-TREAT-COCKTAIL-ALL-SUPPORTIVE-BENEFITS-TOGETHER-60GR.png",
+  "sku": "PSK-53433",
   "brand": "Reflex",
   "weight_kg": 0.15,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/07/REFLEX-HAPPY-HOUR-CAT-TREAT-COCKTAIL-ALL-SUPPORTIVE-BENEFITS-TOGETHER-60GR.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/07/REFLEX-HAPPY-HOUR-CAT-TREAT-COCKTAIL-ALL-SUPPORTIVE-BENEFITS-TOGETHER-60GR.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

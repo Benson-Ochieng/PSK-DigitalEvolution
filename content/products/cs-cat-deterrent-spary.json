@@ -2,14 +2,12 @@
   "id": 52879,
   "name": "Cs Cat Deterrent Spray",
   "slug": "cs-cat-deterrent-spary",
-  "sku": "DS0001",
   "onSale": false,
   "price": 299,
   "regularPrice": 299,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/01/DETERRENT-SPRAY.png",
   "categories": [
     {
       "id": 2325,
@@ -32,62 +30,51 @@
       "slug": "cat-shampoo"
     }
   ],
-  "brands": [
-    {
-      "id": 2434,
-      "name": "CS",
-      "slug": "cs"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/cs-cat-deterrent-spary/",
-  "shortDescription": "Help keep your home cat-friendly and damage-free with our Cat Deterrent Spray—an easy and effective solution for managing unwanted behaviors and promoting a harmonious living space for you and your feline companion.",
   "description": "Keep your home free from unwanted scratching, spraying, and other undesirable behaviors with our Cat Deterrent Spray. Specially formulated to deter cats from marking their territory or damaging furniture, this spray provides a natural, safe solution to protect your belongings while promoting better behavior in your feline friend. The scent is unpleasant to cats but perfectly safe for them and your household. Key Features : Safe & Non-Toxic : Made with natural ingredients that are gentle on your cat and the environment, providing peace of mind while deterring bad behavior. Effective Deterrent : The strong scent discourages cats from scratching, marking, or chewing on furniture, carpets, and other household items. Multi-Surface Use : Perfect for use on furniture, curtains, carpets, plants, and other areas where cats tend to scratch or spray. Easy to Apply : Simply spray on the areas you want to protect. The formula dries quickly and leaves no sticky residue. Long-Lasting Protection : Offers continuous deterrent effects with regular use, helping to break unwanted habits over time. Directions : Shake well before use. Spray directly onto areas you want to protect, such as furniture, baseboards, or plants. Reapply as needed, especially after cleaning or moisture exposure. Caution : Keep out of reach of children and pets. Avoid spraying directly onto your cat’s fur or face. If contact with eyes occurs, rinse thoroughly with water. &nbsp;",
   "images": [
     {
-      "id": 52880,
+      "id": 52879,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/01/DETERRENT-SPRAY.png",
       "alt": "Cs Cat Deterrent Spray",
-      "name": "DETERRENT SPRAY"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "CS",
+      "slug": "cs"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/cs-cat-deterrent-spary/?add-to-cart=52879",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-01-18T11:38:26",
-  "dateModified": "2026-06-17T04:28:57",
+  "permalink": "https://petstore.co.ke/product/cs-cat-deterrent-spary/",
+  "addToCartUrl": "https://petstore.co.ke/product/cs-cat-deterrent-spary/?add-to-cart=52879",
+  "shortDescription": "Keep your home free from unwanted scratching, spraying, and other undesirable behaviors with our Cat Deterrent Spray. Specially formulated to deter ca",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/01/DETERRENT-SPRAY.png",
+  "sku": "PSK-52879",
   "brand": "CS",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/01/DETERRENT-SPRAY.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/01/DETERRENT-SPRAY.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

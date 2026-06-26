@@ -2,14 +2,12 @@
   "id": 70176,
   "name": "SHORT EXPIRY-CLEARANCE: Miglior Dog Unico Pouch - Lamb 100g",
   "slug": "short-expiry-clearance-miglior-dog-unico-pouch-lamb-100g",
-  "sku": "MDW005@SE",
-  "onSale": true,
+  "onSale": false,
   "price": 102,
-  "regularPrice": 204,
-  "salePrice": 102,
+  "regularPrice": 102,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW005.jpg",
   "categories": [
     {
       "id": 2163,
@@ -17,57 +15,51 @@
       "slug": "miglior"
     }
   ],
-  "brands": [
-    {
-      "id": 2451,
-      "name": "Miglior",
-      "slug": "miglior"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/short-expiry-clearance-miglior-dog-unico-pouch-lamb-100g/",
-  "shortDescription": "Migliorcane UNICO is a complete and balanced superpremium food, ideal for the daily diet of small dogs. UNICO: single protein, unique quality, great taste",
   "description": "COMPOSITION: Lamb 65% (lungs, liver), minerals. ANALYTICAL CONSTITUENTS: Moisture 80%, Crude protein 10%, Crude fat 4%, Crude fibres 0,3%, Crude ash 1,5%. Without colorants and preservatives. Nutritional additives / kg: Vitamin E 7,5 mg, Vitamin B1 4,2 mg, Vitamin B6 1,0 mg, Biotin (Vitamin H) 43,7 ?g, Zinc (Zinc sulphate monohydrate) 5,0 mg, Copper (Copper(II) sulphate pentahydrate) 0,2 mg, Manganese (Manganous sulphate monohydrate) 1,7 mg, Iodine (Potassium iodide) 0,7 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place",
   "images": [
     {
-      "id": 28197,
+      "id": 70176,
       "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW005.jpg",
-      "alt": "Migliorcane Unico ADULT MINI DELICATE LAMB PATE 100G",
-      "name": "MDW005"
+      "alt": "SHORT EXPIRY-CLEARANCE: Miglior Dog Unico Pouch - Lamb 100g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Miglior",
+      "slug": "miglior"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-miglior-dog-unico-pouch-lamb-100g/?add-to-cart=70176",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-03-03T09:32:09",
-  "dateModified": "2026-06-17T04:30:36",
+  "permalink": "https://petstore.co.ke/product/short-expiry-clearance-miglior-dog-unico-pouch-lamb-100g/",
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-miglior-dog-unico-pouch-lamb-100g/?add-to-cart=70176",
+  "shortDescription": "COMPOSITION: Lamb 65% (lungs, liver), minerals. ANALYTICAL CONSTITUENTS: Moisture 80%, Crude protein 10%, Crude fat 4%, Crude fibres 0,3%, Crude ash 1",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW005.jpg",
+  "sku": "PSK-70176",
   "brand": "Miglior",
   "weight_kg": 0.1,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW005.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW005.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

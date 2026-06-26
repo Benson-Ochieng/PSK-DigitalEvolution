@@ -2,14 +2,12 @@
   "id": 56848,
   "name": "Wagg Dog Treats Tasty Chunks 125g",
   "slug": "wagg-dog-treats-tasty-chunks-125g",
-  "sku": "WDTTCASTY",
   "onSale": false,
   "price": 495,
   "regularPrice": 495,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-68.png",
   "categories": [
     {
       "id": 2345,
@@ -32,51 +30,51 @@
       "slug": "puppy-food"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2106,
-      "name": "Puppy food",
-      "slug": "puppy-food"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/wagg-dog-treats-tasty-chunks-125g/",
-  "shortDescription": "Wagg Dog Training Treats 125g are meaty, bone-shaped dog treats enriched with vitamins, minerals, and yoghurt to support healthy teeth and bones, ideal for training dogs aged 8 weeks and over.",
   "description": "Product Description Wagg Tasty Chunks are oven-baked dog treats designed to lock in nutrition and flavor. These tasty chunks combine chicken, ham, and beef for a natural and appealing taste that dogs enjoy. They are soft and suitable for training or as a general treat at any time. Ingredients and Nutritional Information Main Ingredients: Wheat, Beef Meal (14%), Glycerine, Chicken Meal (5.5%), Chicken Fat, Ham Meal (4%), Minerals, Gelatine, Whey Powder. Nutritional Highlights: Crude Protein about 22.7%, Crude Fat around 8.5%, enriched with vitamins A, D3, E, and trace elements such as Zinc, Manganese, Copper, Iodine, and Selenium. No added artificial colors, flavors, or sugars , making them a wholesome treat option. Usage and Suitability Suitable for dogs and puppies over 8 weeks old . Feed as a complementary pet food or treat; easy to give anytime during training or play. When feeding treats, reduce your dog's main meal proportionally to maintain ideal weight and health. Always provide fresh drinking water for your dog. Storage and Packaging Packaged in a 125-gram bag, convenient for handling and freshness. Store unopened packs in cool, dry conditions. After opening, keep in an airtight container to maintain quality.",
   "images": [
     {
-      "id": 56849,
+      "id": 56848,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-68.png",
       "alt": "Wagg Dog Treats Tasty Chunks 125g",
-      "name": "Untitled design (68)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
-  "lowStockRemaining": 5,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/wagg-dog-treats-tasty-chunks-125g/?add-to-cart=56848",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-07-14T14:24:59",
-  "dateModified": "2026-06-17T04:18:47",
-  "brand": null,
-  "weight_kg": 0.125,
+  "permalink": "https://petstore.co.ke/product/wagg-dog-treats-tasty-chunks-125g/",
+  "addToCartUrl": "https://petstore.co.ke/product/wagg-dog-treats-tasty-chunks-125g/?add-to-cart=56848",
+  "shortDescription": "Product Description Wagg Tasty Chunks are oven-baked dog treats designed to lock in nutrition and flavor. These tasty chunks combine chicken, ham, and",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-68.png",
+  "sku": "PSK-56848",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.13,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-68.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-68.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

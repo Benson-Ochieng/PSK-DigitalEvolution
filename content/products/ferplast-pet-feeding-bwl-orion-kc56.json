@@ -2,14 +2,12 @@
   "id": 58392,
   "name": "Ferplast Pet Feeding Bwl Orion KC56",
   "slug": "ferplast-pet-feeding-bwl-orion-kc56",
-  "sku": "FPFBKC56",
   "onSale": false,
   "price": 0,
   "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-47-1.png",
   "categories": [
     {
       "id": 1204,
@@ -17,46 +15,51 @@
       "slug": "accessories"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=58392",
-  "shortDescription": "The FERPLAST Orion KC56 is part of Ferplast’s trusted Orion range—offering a high-quality, stainless steel feeding solution designed for both dogs and cats . Combining a classic look with a practical, pet-friendly design, the KC56 is ideal for daily use and easy maintenance.",
   "description": "Key Features Premium Stainless Steel Construction Built from durable, rust-resistant stainless steel that ensures excellent hygiene and long-lasting performance. Resists odors, stains, and corrosion—even with regular use. Practical Outer Rim Equipped with a wide, smooth rim for easy grip and handling , making it simple to lift, clean, or refill—even when full. Versatile Use Suitable for dry or wet food and water. Can be used on its own or paired with compatible accessories like the Ferplast Duo Feed plastic bowl holder for enhanced stability and reduced mess. Appropriate Sizing While exact capacity details for the KC56 model are not specified, it fits within the Orion range , which includes bowls from 0.25L to 4.5L —offering a size for every breed and feeding requirement. Classic & Functional Design The polished steel finish delivers a timeless, professional look that fits into any home environment, indoors or outdoors. Why Choose Orion KC56? The KC56 is designed with both pet health and owner convenience in mind. Its hygienic stainless steel body supports easy cleaning and resists wear, making it a smart choice for long-term feeding needs. The wide rim allows hassle-free handling, and the optional compatibility with holders like Duo Feed gives you added flexibility. Ideal for: Feeding cats or dogs (small to large breeds) Serving wet or dry food and water Daily home use or outdoor feeding stations Pairing with Ferplast Duo Feed holders for added stability",
   "images": [
     {
-      "id": 58394,
+      "id": 58392,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-47-1.png",
       "alt": "Ferplast Pet Feeding Bwl Orion KC56",
-      "name": "Untitled design (47)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/ferplast-pet-feeding-bwl-orion-kc56/?add-to-cart=58392",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-08-14T10:48:08",
-  "dateModified": "2026-06-24T16:12:09",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=58392",
+  "addToCartUrl": "https://petstore.co.ke/product/ferplast-pet-feeding-bwl-orion-kc56/?add-to-cart=58392",
+  "shortDescription": "Key Features Premium Stainless Steel Construction Built from durable, rust-resistant stainless steel that ensures excellent hygiene and long-lasting p",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-47-1.png",
+  "sku": "PSK-58392",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-47-1.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-47-1.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

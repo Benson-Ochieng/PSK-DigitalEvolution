@@ -2,14 +2,12 @@
   "id": 56815,
   "name": "Lara Adult Cat Food Beef 2kg",
   "slug": "lara-adult-cat-food-beef-2kg",
-  "sku": "LACFB02",
   "onSale": false,
   "price": 2695,
   "regularPrice": 2695,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-53.png",
   "categories": [
     {
       "id": 2325,
@@ -32,46 +30,51 @@
       "slug": "dry-food"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/lara-adult-cat-food-beef-2kg/",
-  "shortDescription": "Spoil your cat with the crispy chunks from Lara Adult Beef flavour, a real taste sensation for your cat. The chunks with beef flavor and chicken contain all the necessary minerals and vitamins that your active cat needs. Lara Adult Beef flavor is a complete food for adult cats from 1 year old.",
   "description": "Versele Laga Lara Adult Beef is a complete dry cat food with crisp chunks with a delicious beef flavor. Versele Laga Lara Beef will be a true flavor feast for your beloved cat. Feeding Guide: 3kg Cat – 55g per day (209Kcal) 4kg Cat – 70g per day (266Kcal) 5kg Cat – 80g per day (304Kcal) 6kg Cat – 90g per day (342Kcal) Make sure your cat always has plenty of fresh water to drink. Weight 2 kg Ingredients 0.2 mgE8 (selenium), 1.0% Phosphore, 1.1% Calcium, 1.4 3b202 (iode), 10.0% teneur en matieres grasses, 100 mg Vitamin E, 1000 U.I. Vitamin D3, 2.0% cellulose brute, 20000 U.I. Vitamin A, 32.0% Protein, 50 mg E1(fer), 57 mg E5 (manganese), 65 mg 3b605 (zinc), 7 mg E4 (cuivre), 8.0% cendres brutes, Antioxidants, Colorants Flavors Beef, Dry",
   "images": [
     {
-      "id": 56817,
+      "id": 56815,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-53.png",
       "alt": "Lara Adult Cat Food Beef 2kg",
-      "name": "Untitled design (53)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/lara-adult-cat-food-beef-2kg/?add-to-cart=56815",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-07-14T11:38:10",
-  "dateModified": "2026-06-22T16:12:13",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/lara-adult-cat-food-beef-2kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/lara-adult-cat-food-beef-2kg/?add-to-cart=56815",
+  "shortDescription": "Versele Laga Lara Adult Beef is a complete dry cat food with crisp chunks with a delicious beef flavor. Versele Laga Lara Beef will be a true flavor f",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-53.png",
+  "sku": "PSK-56815",
+  "brand": "PetStore Kenya",
   "weight_kg": 2,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-53.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-53.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

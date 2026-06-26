@@ -2,14 +2,12 @@
   "id": 42747,
   "name": "Rope Tug With TPR Football 49cm",
   "slug": "rope-tug-w-tpr-football-49cm-2",
-  "sku": "PA3330",
   "onSale": false,
   "price": 820,
   "regularPrice": 820,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/ROPE-TUG-W-TPR-FOOTBALL-49CM.webp",
   "categories": [
     {
       "id": 1204,
@@ -37,56 +35,51 @@
       "slug": "dog-rope-tug-toys"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rope-tug-w-tpr-football-49cm-2/",
-  "shortDescription": "Your dog will love the time he spends with this rope toy, it is strong and sturdy, features and attached with a ball and it is perfect for tugging, fetching and chewing. &nbsp;",
   "description": "This rope tug toy has long rope with a large knot and a ball at the end. The toy ideal for fetch and tug games with your dog. Features Designed for Play Great for chewing, tossing or tugging. A dental hygiene tool. Rope Tug with tennis ball Cotton rope &nbsp;",
   "images": [
     {
-      "id": 42748,
+      "id": 42747,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/12/ROPE-TUG-W-TPR-FOOTBALL-49CM.webp",
       "alt": "Rope Tug With TPR Football 49cm",
-      "name": "ROPE &#8211; TUG W TPR FOOTBALL 49CM"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rope-tug-w-tpr-football-49cm-2/?add-to-cart=42747",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2023-12-29T09:59:22",
-  "dateModified": "2026-06-17T04:14:35",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/rope-tug-w-tpr-football-49cm-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/rope-tug-w-tpr-football-49cm-2/?add-to-cart=42747",
+  "shortDescription": "This rope tug toy has long rope with a large knot and a ball at the end. The toy ideal for fetch and tug games with your dog. Features Designed for Pl",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/ROPE-TUG-W-TPR-FOOTBALL-49CM.webp",
+  "sku": "PSK-42747",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/ROPE-TUG-W-TPR-FOOTBALL-49CM.webp"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/ROPE-TUG-W-TPR-FOOTBALL-49CM.webp",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

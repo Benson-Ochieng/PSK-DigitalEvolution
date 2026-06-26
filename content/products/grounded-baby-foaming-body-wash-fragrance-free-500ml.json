@@ -2,14 +2,12 @@
   "id": 49006,
   "name": "Grounded Baby Foaming Body Wash Fragrance-Free 500ml",
   "slug": "grounded-baby-foaming-body-wash-fragrance-free-500ml",
-  "sku": "BBFW05U",
   "onSale": false,
   "price": 1150,
   "regularPrice": 1150,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/07/Baby-Foaming-Body-Wash-Fragrance-Free-500ml-scaled-1.jpg",
   "categories": [
     {
       "id": 2033,
@@ -22,47 +20,51 @@
       "slug": "human"
     }
   ],
-  "brands": [
-    {
-      "id": 2441,
-      "name": "Grounded",
-      "slug": "grounded"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2245,
-      "name": "Human",
-      "slug": "human"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/grounded-baby-foaming-body-wash-fragrance-free-500ml/",
-  "shortDescription": "Our best-selling baby body wash cleans your kids without stripping them of protective layers. In a unique refillable foaming dispenser. Pump onto hands and lather your little ones or add a few pumps directly to the bathtub.",
   "description": "Make bath time relaxing and fun with our refillable Baby Foaming Body Wash, powered by Castile Soap. Uses less harsh soap, and no sulfates – just Pure Soap in a refillable foaming dispenser. Pump some soap into the washing basin, or directly onto hands and onto skin. Overusing soap can remove the protective skin layer on our kids, which can make skin conditions like eczema worse. Our best-selling baby body wash cleans your kids without stripping them of protective layers. In a unique refillable foaming dispenser. Pump onto hands and lather your little ones or add a few pumps directly to the bathtub. Baby Foaming Body Wash (Fragrance-free) Fragrance-free natural soap body wash for sensitive baby’s skin 100% natural Castile soap free from any irritants for baby’s skin Save money by refilling your foaming dispenser Ingredients: Saponified Coconut Oil; Canola, Sunflower Oils, Citric Acid",
   "images": [
     {
-      "id": 49007,
+      "id": 49006,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/07/Baby-Foaming-Body-Wash-Fragrance-Free-500ml-scaled-1.jpg",
       "alt": "Grounded Baby Foaming Body Wash Fragrance-Free 500ml",
-      "name": "Baby-Foaming-Body-Wash-Fragrance-Free-500ml-scaled"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Grounded",
+      "slug": "grounded"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 5,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/grounded-baby-foaming-body-wash-fragrance-free-500ml/?add-to-cart=49006",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-07-30T11:34:18",
-  "dateModified": "2026-06-17T04:29:50",
+  "permalink": "https://petstore.co.ke/product/grounded-baby-foaming-body-wash-fragrance-free-500ml/",
+  "addToCartUrl": "https://petstore.co.ke/product/grounded-baby-foaming-body-wash-fragrance-free-500ml/?add-to-cart=49006",
+  "shortDescription": "Make bath time relaxing and fun with our refillable Baby Foaming Body Wash, powered by Castile Soap. Uses less harsh soap, and no sulfates – just Pure",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/07/Baby-Foaming-Body-Wash-Fragrance-Free-500ml-scaled-1.jpg",
+  "sku": "PSK-49006",
   "brand": "Grounded",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/07/Baby-Foaming-Body-Wash-Fragrance-Free-500ml-scaled-1.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/07/Baby-Foaming-Body-Wash-Fragrance-Free-500ml-scaled-1.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

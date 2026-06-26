@@ -2,14 +2,12 @@
   "id": 46451,
   "name": "Rogz Dog Utility Classic Harness X-Large Black (Sj05-A)",
   "slug": "rogz-dog-utility-classic-harness-x-large-black",
-  "sku": "SJ06-A@F",
-  "onSale": true,
+  "onSale": false,
   "price": 2720,
-  "regularPrice": 3400,
-  "salePrice": 2720,
+  "regularPrice": 2720,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/SJ11-A_Utility-Classic-Harness_M_Black-420x420-1.jpg",
   "categories": [
     {
       "id": 2064,
@@ -17,41 +15,51 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=46451",
-  "shortDescription": "Rogz Stop-Pull Dog Harness gentle pressure, padded comfort, and reflective design for safer, easier walks with pull-prone dogs.",
   "description": "Rogz Utility Classic Harnesses have a front chest lead attachment so you can walk your dog using any one of our Multi leads for the added benefit of Stop-Pull steering control. Fully adjustable and durable, these harnesses are made with strong webbing and highly reflective stitching for night-time visibility and added safety. They are designed to function with our Car-safe Seat Belt Clips and worn beneath our dog jackets with lead attachment openings.",
   "images": [
     {
-      "id": 46447,
+      "id": 46451,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/04/SJ11-A_Utility-Classic-Harness_M_Black-420x420-1.jpg",
-      "alt": "Rogz Dog Utility Classic Harness Large Black (Sj06-A)",
-      "name": "SJ11-A_Utility-Classic-Harness_M_Black-420&#215;420"
+      "alt": "Rogz Dog Utility Classic Harness X-Large Black (Sj05-A)",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-classic-harness-x-large-black/?add-to-cart=46451",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-04-26T16:06:15",
-  "dateModified": "2026-05-06T17:09:49",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=46451",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-classic-harness-x-large-black/?add-to-cart=46451",
+  "shortDescription": "Rogz Utility Classic Harnesses have a front chest lead attachment so you can walk your dog using any one of our Multi leads for the added benefit of S",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/SJ11-A_Utility-Classic-Harness_M_Black-420x420-1.jpg",
+  "sku": "PSK-46451",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/SJ11-A_Utility-Classic-Harness_M_Black-420x420-1.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/SJ11-A_Utility-Classic-Harness_M_Black-420x420-1.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

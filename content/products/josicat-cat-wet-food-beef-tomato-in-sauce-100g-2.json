@@ -2,14 +2,12 @@
   "id": 90341,
   "name": "JosiCat Cat Wet Food – Beef & Tomato in Sauce 100g",
   "slug": "josicat-cat-wet-food-beef-tomato-in-sauce-100g-2",
-  "sku": "JCW008",
-  "onSale": true,
+  "onSale": false,
   "price": 167,
-  "regularPrice": 209,
-  "salePrice": 167,
+  "regularPrice": 167,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/JosiCat-Cat-Wet-Food-–-Beef-Tomato-in-Sauce-100g.png",
   "categories": [
     {
       "id": 2325,
@@ -32,62 +30,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 939,
-      "name": "On Sale Now",
-      "slug": "sale"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/josicat-cat-wet-food-beef-tomato-in-sauce-100g-2/",
-  "shortDescription": "JosiCat Cat Wet Food – Beef & Tomato in Sauce 100g is a complete and balanced meal for adult cats, combining tender beef-rich chunks with tomatoes in a delicious savoury sauce. Crafted to satisfy your cat’s natural nutritional needs, this premium wet food contains 88% meat and animal-derived ingredients in the chunks, providing high-quality protein to help maintain lean muscles and overall wellbeing.",
   "description": "The addition of tomatoes provides natural antioxidants that help support your cat’s daily defence against free radicals. Prebiotic inulin promotes healthy digestion by supporting beneficial intestinal flora, while Vitamin E contributes to cellular protection and Vitamin D3 helps maintain strong bones and teeth. Free from sugar, grains, soy, dairy products, artificial colourings, and preservatives, this carefully formulated recipe delivers wholesome nutrition and great taste in every serving. Key Benefits Complete wet food for adult cats Made with beef and tomatoes in a tasty sauce Contains 88% meat and animal-derived ingredients in the chunks Rich in high-quality protein to support muscle maintenance Tomatoes provide natural antioxidants Prebiotic inulin supports healthy digestion Enriched with Vitamin E for cell protection Added Vitamin D3 for strong bones and teeth Grain-free, sugar-free, soy-free, and dairy-free No artificial colours or preservatives Ingredients Meat and animal derivatives (88.0% in pieces, including 40.6% beef), vegetables (dried tomatoes 0.45%, equivalent to 4.0% fresh tomatoes), minerals, derivatives of vegetable origin (inulin 0.40%), herbs. Analytical Constituents Crude Protein 10.0%, Fat Content 3.5%, Crude Fibre 0.4%, Crude Ash 2.5%, Moisture 81.0%, Metabolisable Energy 802 kcal/kg. Feeding Guide 2–3kg body weight: 150–260g daily 3–4kg body weight: 195–315g daily 4–5kg body weight: 235–365g daily 5–7kg body weight: 275–460g daily Serve at room temperature and always ensure fresh drinking water is available. Adjust feeding amounts according to your cat’s age, activity level, and any additional treats fed. &nbsp;",
   "images": [
     {
-      "id": 90346,
+      "id": 90341,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/06/JosiCat-Cat-Wet-Food-–-Beef-Tomato-in-Sauce-100g.png",
       "alt": "JosiCat Cat Wet Food – Beef & Tomato in Sauce 100g",
-      "name": "JosiCat Cat Wet Food – Beef &#038; Tomato in Sauce 100g"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/josicat-cat-wet-food-beef-tomato-in-sauce-100g-2/?add-to-cart=90341",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-04T12:40:15",
-  "dateModified": "2026-06-23T10:43:30",
+  "permalink": "https://petstore.co.ke/product/josicat-cat-wet-food-beef-tomato-in-sauce-100g-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/josicat-cat-wet-food-beef-tomato-in-sauce-100g-2/?add-to-cart=90341",
+  "shortDescription": "The addition of tomatoes provides natural antioxidants that help support your cat’s daily defence against free radicals. Prebiotic inulin promotes hea",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/JosiCat-Cat-Wet-Food-–-Beef-Tomato-in-Sauce-100g.png",
+  "sku": "PSK-90341",
   "brand": "Josera",
   "weight_kg": 0.1,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/JosiCat-Cat-Wet-Food-–-Beef-Tomato-in-Sauce-100g.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/JosiCat-Cat-Wet-Food-–-Beef-Tomato-in-Sauce-100g.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 54103,
   "name": "Josidog Junior 15kg",
   "slug": "josidog-junior-15kg",
-  "sku": "JDJJ@F",
-  "onSale": true,
+  "onSale": false,
   "price": 8442,
-  "regularPrice": 10552,
-  "salePrice": 8442,
+  "regularPrice": 8442,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/Untitled-design-3.png",
   "categories": [
     {
       "id": 2112,
@@ -17,47 +15,51 @@
       "slug": "josera"
     }
   ],
-  "brands": [
-    {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "tags": [
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=54103",
-  "shortDescription": "Complete feed for growing dogs. A specifically adapted calcium/phosphorus ratio makes JosiDog Junior suitable for all young dogs from the age of eight weeks onwards up to adulthood.",
   "description": "Composition: Junior - Complete feed for growing dogs. Composition: whole grain corn; dried poultry protein; rice; poultry fat; beet fibre; hydrolysed poultry protein; minerals; ground chicory root (natural source of inulin); dried meat from the New Zealand green-lipped mussel (Perna canaliculus). Product Details: Complete feed for growing dogs. A specifically adapted calcium/phosphorus ratio makes JosiDog Junior suitable for all young dogs from the age of eight weeks onwards up to adulthood. The gluten-free formula with adjusted energy content supports moderate growth rates and strong bones needed for puppies.",
   "images": [
     {
-      "id": 34544,
+      "id": 54103,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/10/Untitled-design-3.png",
-      "alt": "JosiDog Junior 15kg",
-      "name": "Untitled design (3)"
+      "alt": "Josidog Junior 15kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/josidog-junior-15kg/?add-to-cart=54103",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-03-21T16:21:00",
-  "dateModified": "2026-06-17T04:33:52",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=54103",
+  "addToCartUrl": "https://petstore.co.ke/product/josidog-junior-15kg/?add-to-cart=54103",
+  "shortDescription": "Composition: Junior - Complete feed for growing dogs. Composition: whole grain corn; dried poultry protein; rice; poultry fat; beet fibre; hydrolysed ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/Untitled-design-3.png",
+  "sku": "PSK-54103",
   "brand": "Josera",
   "weight_kg": 15,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/Untitled-design-3.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/Untitled-design-3.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

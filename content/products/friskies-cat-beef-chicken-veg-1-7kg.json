@@ -2,14 +2,12 @@
   "id": 56822,
   "name": "Friskies Cat Beef Chicken Veg 1.7kg",
   "slug": "friskies-cat-beef-chicken-veg-1-7kg",
-  "sku": "FCBCV",
   "onSale": false,
   "price": 2390,
   "regularPrice": 2390,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-56.png",
   "categories": [
     {
       "id": 2325,
@@ -32,62 +30,51 @@
       "slug": "friskies"
     }
   ],
-  "brands": [
-    {
-      "id": 2439,
-      "name": "Friskies",
-      "slug": "friskies"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/friskies-cat-beef-chicken-veg-1-7kg/",
-  "shortDescription": "Friskies Adult provides your cat with all the nutrition he needs and the great taste he loves, to help keep him healthy and happy.",
   "description": "Type Cat Food Brand Friskies Ingredients Cereals, Meat and Animal Derivatives (Of Which 2% Beef And 2% Chicken in Steak and Disc Shape Kibbles), Vegetable Protein Extracts, Oils and Fats, Derivatives of Vegetable Origin, Minerals, Yeasts, Vegetables (0.6% Dehydrated Vegetables Equivalent To 4% Rehydrated Vegetables in Tripods Shape Kibbles).Total Content In Product: 1.5% Beef And 1.5% Chicken. Total Content in Product: 1% Rehydrated Vegetables. Content 1.7kg &nbsp; &nbsp; &nbsp;",
   "images": [
     {
-      "id": 56823,
+      "id": 56822,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-56.png",
       "alt": "Friskies Cat Beef Chicken Veg 1.7kg",
-      "name": "Untitled design (56)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Friskies",
+      "slug": "friskies"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/friskies-cat-beef-chicken-veg-1-7kg/?add-to-cart=56822",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-07-14T12:00:41",
-  "dateModified": "2026-06-17T04:29:03",
+  "permalink": "https://petstore.co.ke/product/friskies-cat-beef-chicken-veg-1-7kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/friskies-cat-beef-chicken-veg-1-7kg/?add-to-cart=56822",
+  "shortDescription": "Type Cat Food Brand Friskies Ingredients Cereals, Meat and Animal Derivatives (Of Which 2% Beef And 2% Chicken in Steak and Disc Shape Kibbles), Veget",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-56.png",
+  "sku": "PSK-56822",
   "brand": "Friskies",
   "weight_kg": 1.7,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-56.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-56.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 52901,
   "name": "Cs Cat Carrier Shoulder Travel Backpack Bag Black",
   "slug": "cs-cat-carrier-shoulder-travel-backpack-bag-black",
-  "sku": "CCSTBB05",
   "onSale": false,
   "price": 3500,
   "regularPrice": 3500,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/01/CARRIER-SHOULDER-TRAVEL-BACKPACK-BAG-BLACK.png",
   "categories": [
     {
       "id": 1204,
@@ -37,57 +35,51 @@
       "slug": "cs"
     }
   ],
-  "brands": [
-    {
-      "id": 2434,
-      "name": "CS",
-      "slug": "cs"
-    }
-  ],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/cs-cat-carrier-shoulder-travel-backpack-bag-black/",
-  "shortDescription": "Travel with ease and give your cat the comfort and security they deserve with the Cat Carrier Shoulder Travel Backpack. Whether it’s a quick trip to the store or a weekend getaway, this backpack is the perfect companion for both you and your pet!",
   "description": "Make traveling with your feline companion comfortable and stylish with the Cat Carrier Shoulder Travel Backpack. Designed for convenience and safety, this sleek and practical backpack is perfect for trips to the vet, outdoor adventures, or just a day out. With breathable mesh panels, ample space, and secure zippers, it ensures your cat stays comfortable while you carry them hands-free. Key Features : Comfortable & Convenient : Designed as a backpack for easy, hands-free transport, making it ideal for long walks, hiking, or trips to the vet. Breathable & Ventilated : Features large mesh panels for optimal airflow, keeping your cat cool and comfortable during travel. Spacious & Secure : Provides plenty of room for your cat to move around, with secure zippers and a safety leash to prevent escape. Durable & Lightweight : Made from high-quality, lightweight materials that are both strong and comfortable to carry. Ergonomic Design : Padded shoulder straps and a breathable back panel reduce strain and ensure a comfortable fit for you, even during extended use. Multi-Functional : Ideal for both cats and small dogs, this carrier is perfect for everyday outings, travel, or vacations. Travel with ease and give your cat the comfort and security they deserve with the Cat Carrier Shoulder Travel Backpack. Whether it’s a quick trip to the store or a weekend getaway, this backpack is the perfect companion for both you and your pet!",
   "images": [
     {
-      "id": 52902,
+      "id": 52901,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/01/CARRIER-SHOULDER-TRAVEL-BACKPACK-BAG-BLACK.png",
       "alt": "Cs Cat Carrier Shoulder Travel Backpack Bag Black",
-      "name": "CARRIER SHOULDER TRAVEL BACKPACK BAG- BLACK"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "CS",
+      "slug": "cs"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/cs-cat-carrier-shoulder-travel-backpack-bag-black/?add-to-cart=52901",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-01-18T13:13:32",
-  "dateModified": "2026-06-17T04:29:57",
+  "permalink": "https://petstore.co.ke/product/cs-cat-carrier-shoulder-travel-backpack-bag-black/",
+  "addToCartUrl": "https://petstore.co.ke/product/cs-cat-carrier-shoulder-travel-backpack-bag-black/?add-to-cart=52901",
+  "shortDescription": "Make traveling with your feline companion comfortable and stylish with the Cat Carrier Shoulder Travel Backpack. Designed for convenience and safety, ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/01/CARRIER-SHOULDER-TRAVEL-BACKPACK-BAG-BLACK.png",
+  "sku": "PSK-52901",
   "brand": "CS",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/01/CARRIER-SHOULDER-TRAVEL-BACKPACK-BAG-BLACK.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/01/CARRIER-SHOULDER-TRAVEL-BACKPACK-BAG-BLACK.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

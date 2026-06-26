@@ -2,14 +2,12 @@
   "id": 17808,
   "name": "Rogz Dog RFO Floating Frisbee - Large",
   "slug": "rogz-dog-rfo-floating-frisbee-large-2",
-  "sku": "RF01-B",
   "onSale": false,
   "price": 2350,
   "regularPrice": 2350,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/RF01-B-Blue-RFO.jpg",
   "categories": [
     {
       "id": 2345,
@@ -32,51 +30,51 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-dog-rfo-floating-frisbee-large-2/",
-  "shortDescription": "Rogz Dog RFO Floating Frisbee – Large",
   "description": "Rogz RFO Frisbee Dog Toy is a specially designed lightweight and soft aerodynamic frisbee that is safe, can float and prevents bleeding gums for the pooch that loves to fetch. Guaranteed to offer great outdoor interaction with your dog! Key Features: Safe Soft: Light weight, no more bleeding gums or worn/broken teeth or cut hands, comfortable to carry Easy Pickup: Thick edge and different size holes assist easy pickup Floats: Max visibility with high floating ability and not easily lost. Fly-rite: Aerodynamic design with holes and counter weight cavity Bite-o-Meter = Soft Size Dimensions: 230mm",
   "images": [
     {
-      "id": 17749,
+      "id": 17808,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/01/RF01-B-Blue-RFO.jpg",
-      "alt": "Rogz Dog RFO Floating Frisbee – Large",
-      "name": "RF01 B Blue RFO"
+      "alt": "Rogz Dog RFO Floating Frisbee - Large",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-rfo-floating-frisbee-large-2/?add-to-cart=17808",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2021-01-12T14:54:17",
-  "dateModified": "2026-06-17T04:14:07",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/rogz-dog-rfo-floating-frisbee-large-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-rfo-floating-frisbee-large-2/?add-to-cart=17808",
+  "shortDescription": "Rogz RFO Frisbee Dog Toy is a specially designed lightweight and soft aerodynamic frisbee that is safe, can float and prevents bleeding gums for the p",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/RF01-B-Blue-RFO.jpg",
+  "sku": "PSK-17808",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/RF01-B-Blue-RFO.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/RF01-B-Blue-RFO.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

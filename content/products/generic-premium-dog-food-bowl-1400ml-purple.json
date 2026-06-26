@@ -2,14 +2,12 @@
   "id": 43662,
   "name": "Generic Premium Dog Food Bowl 1400ml-Purple",
   "slug": "generic-premium-dog-food-bowl-1400ml-purple",
-  "sku": "DFB1400PU@F",
-  "onSale": true,
+  "onSale": false,
   "price": 297,
-  "regularPrice": 850,
-  "salePrice": 297,
+  "regularPrice": 297,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/DFB1400P.jpg",
   "categories": [
     {
       "id": 1204,
@@ -32,61 +30,51 @@
       "slug": "generic"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2072,
-      "name": "Bowls",
-      "slug": "bowls"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=43662",
-  "shortDescription": "Premium Curved Dog Food Bowl 1400ml – Purple",
   "description": "Premium Curved Dog Food Bowl 1400ml - Purple",
   "images": [
     {
-      "id": 18010,
+      "id": 43662,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/01/DFB1400P.jpg",
       "alt": "Generic Premium Dog Food Bowl 1400ml-Purple",
-      "name": "DFB1400P"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/generic-premium-dog-food-bowl-1400ml-purple/?add-to-cart=43662",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-01-30T11:28:21",
-  "dateModified": "2026-05-06T17:09:27",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=43662",
+  "addToCartUrl": "https://petstore.co.ke/product/generic-premium-dog-food-bowl-1400ml-purple/?add-to-cart=43662",
+  "shortDescription": "Premium Curved Dog Food Bowl 1400ml - Purple",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/DFB1400P.jpg",
+  "sku": "PSK-43662",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/DFB1400P.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/DFB1400P.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

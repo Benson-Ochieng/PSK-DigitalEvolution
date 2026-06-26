@@ -2,14 +2,12 @@
   "id": 63423,
   "name": "Reflex Plus Alutray For Kitten With Chicken Pate 85g",
   "slug": "reflex-plus-alutray-for-kitten-with-chicken-pate-85gr",
-  "sku": "RPCW030",
   "onSale": false,
   "price": 210,
   "regularPrice": 210,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/12/reflex-alutray-d-1.png",
   "categories": [
     {
       "id": 2325,
@@ -32,57 +30,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/reflex-plus-alutray-for-kitten-with-chicken-pate-85gr/",
-  "shortDescription": "REFLEX PLUS Alutray Pate with Chicken for Kittens provides complete, balanced nutrition with chicken protein, vitamins, minerals, and high moisture to support healthy growth, digestion, and hydration in kittens aged 2–12 months.",
   "description": "Give your growing kitten the perfect start with REFLEX PLUS Alutray Pate with Chicken , a premium wet food specifically crafted to support healthy development from the early months of life. Formulated to meet the high nutritional demands of kittens aged 2 to 12 months , this soft and creamy pate provides complete, balanced nourishment in a convenient easy-to-serve tray. Made with chicken as the primary protein source, it delivers essential amino acids that promote lean muscle growth and sustained energy. The smooth pate texture is gentle on developing teeth and digestive systems, making it ideal for transitioning kittens or those with sensitive appetites. REFLEX PLUS is enriched with vital vitamins, minerals, prebiotics, and antioxidants to strengthen immunity, support healthy digestion, and enhance overall vitality. Its naturally high moisture content helps keep kittens hydrated, supporting kidney health and encouraging consistent nutrient intake during their rapid growth phase. Perfect as a standalone meal or paired with dry kitten kibble, this alutray is designed to nurture your kitten’s growth, curiosity, and playful energy every day. Key Benefits Chicken-based protein supports healthy muscle development and growth. High moisture content promotes hydration and supports kidney health. Smooth, digestible pate ideal for young kittens and picky eaters. Enriched with vitamins, minerals, and antioxidants to boost immunity and vitality. Prebiotics support digestive health , encouraging balanced gut function. Complete and balanced nutrition for kittens aged 2–12 months . Nutritional Information Crude Protein: 10% Crude Fat: 6% Crude Fibre: 0.5% Crude Ash: 2% Moisture: 80% Supplemented with essential minerals including zinc, copper, iodine & manganese Typical Ingredients Meat and animal derivatives (including 4% chicken ), minerals, derivatives of vegetable origin, and added oils and fats. Feeding & Usage Recommendations Suitable for kittens from 2 months and above . Serve at room temperature to maximize aroma and taste. Can be fed alone or combined with dry kitten food. Always provide fresh drinking water . &nbsp; &nbsp; &nbsp;",
   "images": [
     {
-      "id": 63427,
+      "id": 63423,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/12/reflex-alutray-d-1.png",
       "alt": "Reflex Plus Alutray For Kitten With Chicken Pate 85g",
-      "name": "reflex alutray d (1)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-alutray-for-kitten-with-chicken-pate-85gr/?add-to-cart=63423",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-12-04T16:07:27",
-  "dateModified": "2026-06-17T04:29:03",
+  "permalink": "https://petstore.co.ke/product/reflex-plus-alutray-for-kitten-with-chicken-pate-85gr/",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-alutray-for-kitten-with-chicken-pate-85gr/?add-to-cart=63423",
+  "shortDescription": "Give your growing kitten the perfect start with REFLEX PLUS Alutray Pate with Chicken , a premium wet food specifically crafted to support healthy dev",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/12/reflex-alutray-d-1.png",
+  "sku": "PSK-63423",
   "brand": "Reflex",
-  "weight_kg": 0.085,
+  "weight_kg": 0.09,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/12/reflex-alutray-d-1.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/12/reflex-alutray-d-1.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 68701,
   "name": "Reflex Dog Stick Treats With Salmon And Turkey 33g",
   "slug": "meaty-sticks-adult-dogs-salmon",
-  "sku": "RDT033",
-  "onSale": true,
+  "onSale": false,
   "price": 184,
-  "regularPrice": 230,
-  "salePrice": 184,
+  "regularPrice": 184,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/reflex-Meaty-stick-salmon-dog.png",
   "categories": [
     {
       "id": 2345,
@@ -27,62 +25,51 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
-    {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 939,
-      "name": "On Sale Now",
-      "slug": "sale"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/meaty-sticks-adult-dogs-salmon/",
-  "shortDescription": "Grain-free Meaty Sticks for adult dogs with salmon. High meat content, rich in protein, soft and delicious reward sticks for training and treating.",
   "description": "Reward your dog with a tasty, nutritious snack made from high-quality ingredients. Meaty Sticks for Adult Dogs with Salmon are crafted with 91% meat and animal derivatives , enriched with 4% salmon to deliver an irresistible flavor dogs love. These grain-free reward sticks provide a balanced combination of protein and fat to help support muscle maintenance and everyday energy needs. The added salmon contributes to palatability and supports healthy skin and coat condition. Soft in texture and easy to portion, they are ideal for training, rewarding, or simply treating your dog between meals. Meaty Sticks are designed to complement your dog’s balanced diet and make rewarding both healthy and enjoyable. Key Benefits High meat content (91%) for great taste With salmon for added flavor and nutrition Grain-free recipe for easy digestion Supports muscle maintenance and daily vitality Soft, easy-to-feed reward sticks Perfect for training and occasional treating Feed as a treat. Always ensure fresh drinking water is available &nbsp; &nbsp; &nbsp; &nbsp;",
   "images": [
     {
-      "id": 68703,
+      "id": 68701,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/01/reflex-Meaty-stick-salmon-dog.png",
       "alt": "Reflex Dog Stick Treats With Salmon And Turkey 33g",
-      "name": "reflex Meaty stick salmon dog"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 5,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/meaty-sticks-adult-dogs-salmon/?add-to-cart=68701",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-01-30T12:25:51",
-  "dateModified": "2026-06-23T14:18:47",
+  "permalink": "https://petstore.co.ke/product/meaty-sticks-adult-dogs-salmon/",
+  "addToCartUrl": "https://petstore.co.ke/product/meaty-sticks-adult-dogs-salmon/?add-to-cart=68701",
+  "shortDescription": "Reward your dog with a tasty, nutritious snack made from high-quality ingredients. Meaty Sticks for Adult Dogs with Salmon are crafted with 91% meat a",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/reflex-Meaty-stick-salmon-dog.png",
+  "sku": "PSK-68701",
   "brand": "Reflex",
   "weight_kg": 0.15,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/reflex-Meaty-stick-salmon-dog.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/reflex-Meaty-stick-salmon-dog.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 68601,
   "name": "Spectrum Gusto Lick Snack For Cat With Chicken 4x15g",
   "slug": "spectrum-gusto-lick-snack-chicken",
-  "sku": "SCW001",
   "onSale": false,
   "price": 550,
   "regularPrice": 550,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/spectrum-gusto-lick-snack-chicken.png",
   "categories": [
     {
       "id": 2325,
@@ -42,62 +40,51 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
-    {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/spectrum-gusto-lick-snack-chicken/",
-  "shortDescription": "Spectrum Gusto Lick Snack Chicken – creamy, lickable cat treat with real chicken breast. Low fat, high moisture, perfect for dessert or everyday feeding.",
   "description": "Treat your cat to a delicious, creamy chicken snack with Spectrum Gusto Lick Snack Chicken. Made with 29.4% real chicken breast and carefully formulated with high-quality ingredients, this lickable treat is perfect as a dessert, reward, or everyday indulgence. The soft, creamy texture makes it easy to serve simply offer small portions on a spoon for interactive feeding or bonding time. With low fat and high moisture content (87%) , it supports hydration while satisfying your cat’s natural cravings. Gentle thickeners like modified tapioca starch (E1442) and guar gum (E412) provide smooth consistency, making it easy for cats of all ages to enjoy. Key Benefits Made with real chicken breast (29.4%) for natural flavor Lickable, creamy texture for easy feeding and fun interaction High moisture content (87%) supports hydration Convenient to serve in small portions with a spoon No artificial colors or flavors Nutritional Information Ingredients Water Chicken breast 29.4% Modified tapioca starch (E1442) Guar gum (E412) Soybean oil Analytical Constituents Crude Protein: 7% Fat content: 1% Crude Ash: 1% Crude Cellulose (Fiber): 0.1% Moisture: 87% Feeding & Storage Advice Serve as a dessert or everyday treat Offer in small portions on a spoon Always provide fresh drinking water See packaging imprint for full instructions &nbsp; &nbsp; &nbsp;",
   "images": [
     {
-      "id": 68717,
+      "id": 68601,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/01/spectrum-gusto-lick-snack-chicken.png",
       "alt": "Spectrum Gusto Lick Snack For Cat With Chicken 4x15g",
-      "name": "spectrum gusto lick snack chicken"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 5,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/spectrum-gusto-lick-snack-chicken/?add-to-cart=68601",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-01-27T15:29:21",
-  "dateModified": "2026-06-18T11:12:00",
+  "permalink": "https://petstore.co.ke/product/spectrum-gusto-lick-snack-chicken/",
+  "addToCartUrl": "https://petstore.co.ke/product/spectrum-gusto-lick-snack-chicken/?add-to-cart=68601",
+  "shortDescription": "Treat your cat to a delicious, creamy chicken snack with Spectrum Gusto Lick Snack Chicken. Made with 29.4% real chicken breast and carefully formulat",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/spectrum-gusto-lick-snack-chicken.png",
+  "sku": "PSK-68601",
   "brand": "Reflex",
   "weight_kg": 0.15,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/spectrum-gusto-lick-snack-chicken.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/spectrum-gusto-lick-snack-chicken.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 50854,
   "name": "Pet Toy Snacks 20cm With Squeak",
   "slug": "pet-toy-snacks-20cm-with-squeak-2",
-  "sku": "PA4393@F",
-  "onSale": true,
+  "onSale": false,
   "price": 855,
-  "regularPrice": 950,
-  "salePrice": 855,
+  "regularPrice": 855,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/01/PET-TOY-SNACKS-20CM-WITH-SQUEAK.png",
   "categories": [
     {
       "id": 1204,
@@ -37,35 +35,51 @@
       "slug": "toys"
     }
   ],
-  "brands": [],
-  "tags": [],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=50854",
-  "shortDescription": "An all-day bright fun dog toy and a fabulous dog stocking filler, filled with catnip and fibrous catnip stalks to satisfy natural desire to crunch and chew. This toy also contains a squeaker and a crinkle noise effect for extra amusement! Available in 3 variants.",
   "description": "Treat your furry friend to endless fun with our Pet Toy Snacks! Measuring a playful 20cm, this toy is designed to engage and entertain pets of all sizes. The unique squash sound feature adds an extra layer of excitement, mimicking the fun noises that pets love. Perfect for playtime, this toy not only stimulates your pet’s natural instincts but also promotes healthy exercise and mental stimulation. Made from durable, pet-safe materials, it stands up to even the most enthusiastic chewers. Make playtime a blast with the Pet Toy Snacks—where fun and functionality meet! &nbsp;",
   "images": [
     {
-      "id": 42872,
+      "id": 50854,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/01/PET-TOY-SNACKS-20CM-WITH-SQUEAK.png",
       "alt": "Pet Toy Snacks 20cm With Squeak",
-      "name": "PET TOY SNACKS 20CM WITH SQUEAK"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/pet-toy-snacks-20cm-with-squeak-2/?add-to-cart=50854",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-10-14T17:05:07",
-  "dateModified": "2026-05-06T17:10:41",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=50854",
+  "addToCartUrl": "https://petstore.co.ke/product/pet-toy-snacks-20cm-with-squeak-2/?add-to-cart=50854",
+  "shortDescription": "Treat your furry friend to endless fun with our Pet Toy Snacks! Measuring a playful 20cm, this toy is designed to engage and entertain pets of all siz",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/01/PET-TOY-SNACKS-20CM-WITH-SQUEAK.png",
+  "sku": "PSK-50854",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/01/PET-TOY-SNACKS-20CM-WITH-SQUEAK.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/01/PET-TOY-SNACKS-20CM-WITH-SQUEAK.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

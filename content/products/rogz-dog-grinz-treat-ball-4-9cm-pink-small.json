@@ -2,14 +2,12 @@
   "id": 17428,
   "name": "Rogz Dog ginz-Treat Ball 4.9cm - Pink Small",
   "slug": "rogz-dog-grinz-treat-ball-4-9cm-pink-small",
-  "sku": "GR01-K",
   "onSale": false,
   "price": 950,
   "regularPrice": 950,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/GR01-K-Grinz-Pink.jpg",
   "categories": [
     {
       "id": 2345,
@@ -32,51 +30,51 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-4-9cm-pink-small/",
-  "shortDescription": "Buy the Rogz Grinz Small Treat Ball a safe, floating, treat-dispensing toy for small dogs. Durable, fun, and perfect for fetch, training, and enrichment.",
   "description": "Bring more fun and enrichment to your dog’s playtime with the Rogz Grinz Small Treat Ball a premium, durable toy engineered for small dogs and puppies. This lightweight ball features a unique grinning teeth pattern, adding humor to every game while offering practical functionality for training and reward-based play. Product Highlights Compact & Lightweight Designed for small dogs with a 4.9cm size and a comfortable weight that’s easy to fetch, carry, and chase. High-Quality SEBS/TPR Build Made from strong, non-toxic materials that are gentle on teeth but resilient enough for moderate chewers. Built-In Treat Cavity Insert treats into the internal chamber to encourage longer play sessions, mental stimulation, and rewarding interaction. Bounce & Float Functionality Soft bounce makes it safe indoors, while its floating ability offers exciting water-based fun. Easy Maintenance Freezer- and dishwasher-safe for effortless cleaning or creating frozen treat challenges. Safe for Play CE-certified and crafted from dog-safe materials for secure everyday use. Perfect for Training, Play & Enrichment Whether you’re teaching fetch, managing boredom, or encouraging healthy exercise, the Rogz Grinz Treat Ball is a reliable choice. Its versatility makes it ideal for indoor play, outdoor adventures, and water activities.",
   "images": [
     {
-      "id": 17343,
+      "id": 17428,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/01/GR01-K-Grinz-Pink.jpg",
-      "alt": "Rogz Dog ginz-Treat Ball 4.9cm – Pink Small",
-      "name": "GR01-K Grinz Pink"
+      "alt": "Rogz Dog ginz-Treat Ball 4.9cm - Pink Small",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-4-9cm-pink-small/?add-to-cart=17428",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2021-01-09T09:05:49",
-  "dateModified": "2026-06-20T11:12:01",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-4-9cm-pink-small/",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-4-9cm-pink-small/?add-to-cart=17428",
+  "shortDescription": "Bring more fun and enrichment to your dog’s playtime with the Rogz Grinz Small Treat Ball a premium, durable toy engineered for small dogs and puppies",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/GR01-K-Grinz-Pink.jpg",
+  "sku": "PSK-17428",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/GR01-K-Grinz-Pink.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/GR01-K-Grinz-Pink.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

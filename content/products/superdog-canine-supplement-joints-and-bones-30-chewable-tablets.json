@@ -2,14 +2,12 @@
   "id": 15104,
   "name": "Vitabiotics SuperDog Canine Supplement Joints and Bones - 60 Chewable Tablets",
   "slug": "superdog-canine-supplement-joints-and-bones-30-chewable-tablets",
-  "sku": "VITABIOTICS089",
   "onSale": false,
   "price": 2400,
   "regularPrice": 2400,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/09/super-dog-01.jpg",
   "categories": [
     {
       "id": 2345,
@@ -32,62 +30,51 @@
       "slug": "vitabiotics"
     }
   ],
-  "brands": [
-    {
-      "id": 2477,
-      "name": "Vitabiotics",
-      "slug": "vitabiotics"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2024,
-      "name": "joint and bone",
-      "slug": "joint-and-bone"
-    },
-    {
-      "id": 1385,
-      "name": "joint care",
-      "slug": "joint-care"
-    },
-    {
-      "id": 2085,
-      "name": "Supplements",
-      "slug": "supplements"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/superdog-canine-supplement-joints-and-bones-30-chewable-tablets/",
-  "shortDescription": "From wonderful walks to the toughest chews, Super Dog Joints & Bones is designed to support your dog's nutrition – with Glucosamine Hydrochloride, Calcium, Chondroitin Sulphate and MSM (Methyl Sulphonyl Methane) to help maintain teeth and dogs' bone health.",
   "description": "SuperDog Joints & Bones - a delicious braised beef flavour supplement chew tablet that your dog will love. With Glucosamine Hydrochloride, Calcium, Chondroitin Sulphate and MSM (Methyl Sulphonyl Methane) to help maintain teeth and dogs' bone health. This supplement is meant to compliment your dog's existing diet and is not a treatment, nor medication. Suitable for all size and breed of dog. Not suitable for puppies less than 12 months of age. Contains 22 specialist, advanced micronutrients including botanical extracts, vitamins and minerals, SuperDog Joints & Bones provides maximum strength support for strong bones, flexible joints and normal mobility, to help keep man's best friend, fit, active and healthy. No artificial colours No preservatives No yeast SuperDog is not tested on animals Supports Joint Health - Larger dogs and certain breeds can be more susceptible to joint health issues, due to rapid growth as puppies and more weight on the joints. SuperDog Joints & Bones provides a complete spectrum of nutrients for joint health, to help keep your dog active. Green Lipped Mussel extract, together with MSM, provides an excellent combination to maintain joint health for dogs, supporting mobility of the joints, flexibility and keep the surrounding tissue and cartilage healthy. To help safeguard your dog's joint mobility as they age, Glucosamine and Chondroitin work together to support collagen production and cushion the joints. Omega-3 from Linseed Oil provides essential fatty acids to keep joints supple and active. Supports Bones and Teeth - The formula provides a rich source of calcium with co-factors to help maintain teeth and dogs' bone health, as well as the health of the heart, muscles and nerves. Vitamin D helps with calcium absorption and co-factors such as zinc and copper help to support bone mineralisation. SuperDog Joints & Bones provides high-quality pharmaceutical grade vitamin D3. Each tablet contains an optimum level of 5mcg (200 IU) vitamin D in the preferred, more active cholecalciferol form, as found naturally in dogs' bodies. Supports All Round Health - As well as bone and joint health, SuperDog Joints & Bones also provides vitamins C, D, E to help to protect against the harmful effect of free radicals, plus zinc and selenium to support your dog's immune system. Vitamin E, zinc and Linseed oil also help to maintain a glossy coat, healthy skin and footpads. NUTRITIONAL INFORMATION Composition: Glucosamine (18%) Hydrochloride, Calcium (9%) Carbonate, Maltodextrin, Microcrystalline Cellulose, Chondroitin Sulphate (5%), Linseed Oil (1%), Methyl Sulphonyl Methane (2%), Beef Flavouring, Stearic Acid, Magnesium Stearate, Green Lipped Mussel (0.5%), Dried Ginger Root. Additives: Vitamins (per Kg): Ascorbic Acid 13,513mg, Vitamin E 900mg, Niacin 2,252mg, Thiamine Mononitrate 1,351mg, Vitamin D3 2.2mg, Pyridoxine Hydrochloride 900mg, Riboflavin 450mg, Cyanocobalamin 1.4mg, Folic Acid 36mg Trace Elements (per Kg): DL-Methionine 11,261mg, Ferrous Fumarate 676mg, Zinc Oxide 1,351mg, Manganese Sulphate 180mg, Cupric Sulphate 90mg, Sodium Selenite 11mg Anticaking Agent: Silicon Dioxide Analytical Constituents: Ash 23.3%, Crude Fibre 6.8%, Protein 12%, Fat Content 4.4% ADMINISTRATION: If required, break tablets up and mix with food. Owners of dogs with diabetes should consult their vet before using this product. Do not give more than the recommended intake. Do not give if your dog has a known allergy to fish or shellfish. SuperDog contains glucosamine sourced from natural chitin. The benefits of the ingredients in SuperDog are thought to build over time. A regular intake is therefore recommended. Small dogs (5-21kg): 1 tablet per day Medium dogs (22-33kg): 1-2 tablets per day Large dogs (34-45kg): 2-3 tablets per day",
   "images": [
     {
-      "id": 25522,
+      "id": 15104,
       "src": "https://petstore.co.ke/wp-content/uploads/2020/09/super-dog-01.jpg",
       "alt": "Vitabiotics SuperDog Canine Supplement Joints and Bones - 60 Chewable Tablets",
-      "name": "super dog-01"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Vitabiotics",
+      "slug": "vitabiotics"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/superdog-canine-supplement-joints-and-bones-30-chewable-tablets/?add-to-cart=15104",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2020-09-03T07:32:42",
-  "dateModified": "2026-06-17T04:28:41",
+  "permalink": "https://petstore.co.ke/product/superdog-canine-supplement-joints-and-bones-30-chewable-tablets/",
+  "addToCartUrl": "https://petstore.co.ke/product/superdog-canine-supplement-joints-and-bones-30-chewable-tablets/?add-to-cart=15104",
+  "shortDescription": "SuperDog Joints & Bones - a delicious braised beef flavour supplement chew tablet that your dog will love. With Glucosamine Hydrochloride, Calcium, Ch",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/09/super-dog-01.jpg",
+  "sku": "PSK-15104",
   "brand": "Vitabiotics",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/09/super-dog-01.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/09/super-dog-01.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

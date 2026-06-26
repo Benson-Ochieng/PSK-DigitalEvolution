@@ -2,14 +2,12 @@
   "id": 66429,
   "name": "Churu Pops Cat Treat - Tuna with Chicken Recipe",
   "slug": "churu-pops-tuna-chicken",
-  "sku": "BCCT035",
   "onSale": false,
   "price": 350,
   "regularPrice": 350,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/TUNA-WITH-CHICKEN-POPUPs-1.png",
   "categories": [
     {
       "id": 2325,
@@ -32,52 +30,51 @@
       "slug": "churu"
     }
   ],
-  "brands": [
-    {
-      "id": 2433,
-      "name": "Churu",
-      "slug": "churu"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/churu-pops-tuna-chicken/",
-  "shortDescription": "Churu Pops Tuna Recipe Cat Treats – hydrating, low-calorie jelly treats with 91% moisture. Grain-free, preservative-free, and enriched with Vitamin E for a healthy, tasty snack.",
   "description": "Treat your cat to Churu Pops Tuna with Chicken , the soft, juicy jelly snack that cats can’t resist! Crafted from high-quality farm-raised chicken and natural wild-caught tuna , these treats are packed with 91% moisture to help keep your kitty hydrated and healthy. Why Cats Love Churu Pops: Moist and irresistible: Creamy, squeezable jelly treats perfect for hand-feeding. Healthy & low-calorie: Only 6.5 calories per treat, free from grains, artificial colors, and preservatives. Immune-supporting: Enriched with Vitamin E to promote a strong immune system. Fun and interactive: Feed directly from the tube for a playful bonding experience. Available in multiple savory flavors, Churu Pops are suitable for cats of all life stages—from playful kittens to senior cats. Feeding Instructions: Feed as a treat. Not a substitute for meals. Provide fresh water daily. Consult your veterinarian regularly. Storage Instructions: Refrigerate after opening and serve promptly. Ingredients: Water, Tuna, Chicken, Natural Flavors, Agar-agar, Guar Gum, Natural Tuna Flavor, Xanthan Gum, Vitamin E Supplement, Green Tea Extract. &nbsp; &nbsp; &nbsp; &nbsp;",
   "images": [
     {
-      "id": 66430,
+      "id": 66429,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/01/TUNA-WITH-CHICKEN-POPUPs-1.png",
       "alt": "Churu Pops Cat Treat - Tuna with Chicken Recipe",
-      "name": "TUNA WITH CHICKEN POPUPs (1)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Churu",
+      "slug": "churu"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/churu-pops-tuna-chicken/?add-to-cart=66429",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-01-09T14:34:43",
-  "dateModified": "2026-06-19T17:12:07",
+  "permalink": "https://petstore.co.ke/product/churu-pops-tuna-chicken/",
+  "addToCartUrl": "https://petstore.co.ke/product/churu-pops-tuna-chicken/?add-to-cart=66429",
+  "shortDescription": "Treat your cat to Churu Pops Tuna with Chicken , the soft, juicy jelly snack that cats can’t resist! Crafted from high-quality farm-raised chicken and",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/TUNA-WITH-CHICKEN-POPUPs-1.png",
+  "sku": "PSK-66429",
   "brand": "Churu",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/TUNA-WITH-CHICKEN-POPUPs-1.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/TUNA-WITH-CHICKEN-POPUPs-1.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

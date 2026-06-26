@@ -2,14 +2,12 @@
   "id": 38505,
   "name": "Donate 1kg of Puppy Food",
   "slug": "donate-1kg-of-puppy-food",
-  "sku": "DD002",
   "onSale": false,
   "price": 353,
   "regularPrice": 353,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/07/Donate-Puppy-food.jpeg",
   "categories": [
     {
       "id": 2345,
@@ -32,51 +30,51 @@
       "slug": "puppy-food"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1791,
-      "name": "Donate",
-      "slug": "donate"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/donate-1kg-of-puppy-food/",
-  "shortDescription": "Donate 1kg of puppy food, and we’ll ensure its delivered directly to your selected recipient. Please choose your recipient during checkout.",
   "description": "You are purchasing a 1kg of subsidized Puppy food designated for any of the below rescue centers. The product supplied may be in a damaged bag or close to expiry. IMPORTANT! Specifics in the Notes field who the designated recipient is. You will get a notification once your donation ships for verification from the center. In the event we have more food available, Petstore Kenya will add in more items for the same price. OUR PARTNER ANIMAL SHELTERS AND ADVOCATES: The KSPCA (Kenya Society for the Protection and Care of Animals) - a welfare charity that protects animals from neglect and abuse. We currently support their branches in Nairobi , Naivasha and Mombasa . Africats Watamu - a non-profit organization that feeds, shelters and advocates for street cats and dogs in Watamu. Footsteps Rescue Centre (Diani) - a sanctuary for street animals in Diani NFS (Nairobi Feline Sanctuary), utawala KYSA (Kibera Youths for Stray Animals) PAW (Pwani Animal Welfare)",
   "images": [
     {
-      "id": 38650,
+      "id": 38505,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/07/Donate-Puppy-food.jpeg",
       "alt": "Donate 1kg of Puppy Food",
-      "name": "Donate Puppy food"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/donate-1kg-of-puppy-food/?add-to-cart=38505",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2023-07-20T12:13:24",
-  "dateModified": "2026-06-17T04:14:18",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/donate-1kg-of-puppy-food/",
+  "addToCartUrl": "https://petstore.co.ke/product/donate-1kg-of-puppy-food/?add-to-cart=38505",
+  "shortDescription": "You are purchasing a 1kg of subsidized Puppy food designated for any of the below rescue centers. The product supplied may be in a damaged bag or clos",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/07/Donate-Puppy-food.jpeg",
+  "sku": "PSK-38505",
+  "brand": "PetStore Kenya",
   "weight_kg": 15,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/07/Donate-Puppy-food.jpeg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/07/Donate-Puppy-food.jpeg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

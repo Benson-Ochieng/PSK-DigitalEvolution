@@ -2,14 +2,12 @@
   "id": 24044,
   "name": "Royal Canin Kitten 2kg",
   "slug": "royal-canin-kitten-2kg",
-  "sku": "ROC-FHND-011",
   "onSale": false,
   "price": 6000,
   "regularPrice": 6000,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Royal-Canin-Kitten-food-01.jpg",
   "categories": [
     {
       "id": 2325,
@@ -37,62 +35,51 @@
       "slug": "royal-canin"
     }
   ],
-  "brands": [
-    {
-      "id": 2423,
-      "name": "Royal Canin",
-      "slug": "royal-canin"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/royal-canin-kitten-2kg/",
-  "shortDescription": "Balanced and complete feed. For kittens up to 12 months old.",
   "description": "Balanced and complete feed. For kittens up to 12 months old. Growth is an essential stage in your kitten's life - it's a time of big changes, significant discoveries and new encounters. During this period, it's important to make sure your kitten gets the right kind of nutrients to support healthy growth and development. The second age growth stage is a key period for your kitten because its immune system still developing at a gradual pace. ROYAL CANIN? Kitten food helps to support your kitten's natural defences during this time, thanks particularly to a patented complex of antioxidants, including the highly beneficial vitamin E. ROYAL CANIN? Kitten is suitable for kittens up to 12 months old and has an enhanced digestive tolerance thanks to the inclusion of L.I.P - a protein selected due its 90% digestibility rate Composition: Dehydrated poultry protein, animal fats, maize flour, rice, vegetable protein isolate*, hydrolysed animal proteins, yeasts and parts thereof, fish oil, beet pulp, vegetable fibres, soya oil, minerals, fructo-oligo-saccharides (0,35%), hydrolysed yeast (source of manno-oligo-saccharides), yeasts extracts (source of betaglucans), marigold extract (source of lutein). Additives (per kg): Nutritional additives: Vitamin A: 25500 IU, Vitamin D3: 1000 IU, Vitamin E: 600 mg, E1 (Iron): 31,8 mg, E2 (Iodine): 3,2 mg, E4 (Copper): 9,8 mg, E5 (Manganese): 41,4 mg, E6 (Zinc): 118,1 mg, E8 (Selenium): 0,04 mg - Technological additives: Clinoptilolite of sedimentary origin: 5? g? - Preservatives - Antioxidants. Analytical constituents: Protein: 34.0% - Fat content: 25.0% - Crude ash: 7.4% - Crude fibres: 1.9% - NFE: 26.2%.",
   "images": [
     {
-      "id": 28436,
+      "id": 24044,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/12/Royal-Canin-Kitten-food-01.jpg",
       "alt": "Royal Canin Kitten 2kg",
-      "name": "Royal Canin Kitten food-01"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/royal-canin-kitten-2kg/?add-to-cart=24044",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2021-12-28T11:28:40",
-  "dateModified": "2026-06-24T09:12:01",
+  "permalink": "https://petstore.co.ke/product/royal-canin-kitten-2kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/royal-canin-kitten-2kg/?add-to-cart=24044",
+  "shortDescription": "Balanced and complete feed. For kittens up to 12 months old. Growth is an essential stage in your kitten's life - it's a time of big changes, signific",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Royal-Canin-Kitten-food-01.jpg",
+  "sku": "PSK-24044",
   "brand": "Royal Canin",
   "weight_kg": 2,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/12/Royal-Canin-Kitten-food-01.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/12/Royal-Canin-Kitten-food-01.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

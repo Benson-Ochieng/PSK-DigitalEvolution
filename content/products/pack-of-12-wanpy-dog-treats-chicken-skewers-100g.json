@@ -2,14 +2,12 @@
   "id": 90108,
   "name": "Pack Of 12 - Wanpy Dog Treats – Chicken Skewers 100g",
   "slug": "pack-of-12-wanpy-dog-treats-chicken-skewers-100g",
-  "sku": "WDW017$12",
-  "onSale": true,
+  "onSale": false,
   "price": 3555,
-  "regularPrice": 4740,
-  "salePrice": 3555,
+  "regularPrice": 3555,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/WANPY-DOG-CHICKEN-SKEWERS-100GR.png",
   "categories": [
     {
       "id": 2345,
@@ -32,62 +30,51 @@
       "slug": "wanpy"
     }
   ],
-  "brands": [
-    {
-      "id": 2479,
-      "name": "Wanpy",
-      "slug": "wanpy"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2055,
-      "name": "Bulk Cat Food & Bulk Dog Food",
-      "slug": "bulk"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 939,
-      "name": "On Sale Now",
-      "slug": "sale"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pack-of-12-wanpy-dog-treats-chicken-skewers-100g/",
-  "shortDescription": "Give your dog a delicious and nutritious mealtime with Wanpy Chicken Skewers Dog Food. Made with high-quality ingredients and rich in protein, this complete and balanced dog food is designed to support your dog’s overall health and wellbeing while delivering a tasty chicken flavour dogs love.",
   "description": "Formulated for both puppies and adult dogs, Wanpy Chicken Skewers help support the 5 Signs of Good Health, including healthy skin and coat, strong bones and teeth, digestive health, strong muscles, and a healthy immune system. The carefully balanced blend of Omega 6 and zinc helps maintain healthier skin and promotes a shinier, softer coat. With its protein-rich recipe and nutritious ingredients, Wanpy Chicken Skewers provide energy and essential nutrients to help keep your dog active, healthy, and happy every day. Key Benefits Complete and balanced food for dogs Made with high-quality ingredients Rich in protein for muscle support Supports healthy skin and a shiny coat Helps maintain strong bones and teeth Promotes digestive health and immunity Suitable for puppies and adult dogs Enriched with Omega 6 and zinc Storage Instructions Store in a cool and dry place.",
   "images": [
     {
-      "id": 89869,
+      "id": 90108,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/05/WANPY-DOG-CHICKEN-SKEWERS-100GR.png",
-      "alt": "Pack Of 12 – Wanpy Dog Treats – Chicken Skewers 100g",
-      "name": "WANPY DOG CHICKEN SKEWERS 100GR"
+      "alt": "Pack Of 12 - Wanpy Dog Treats – Chicken Skewers 100g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Wanpy",
+      "slug": "wanpy"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/pack-of-12-wanpy-dog-treats-chicken-skewers-100g/?add-to-cart=90108",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-05-28T09:38:34",
-  "dateModified": "2026-06-23T13:12:51",
+  "permalink": "https://petstore.co.ke/product/pack-of-12-wanpy-dog-treats-chicken-skewers-100g/",
+  "addToCartUrl": "https://petstore.co.ke/product/pack-of-12-wanpy-dog-treats-chicken-skewers-100g/?add-to-cart=90108",
+  "shortDescription": "Formulated for both puppies and adult dogs, Wanpy Chicken Skewers help support the 5 Signs of Good Health, including healthy skin and coat, strong bon",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/WANPY-DOG-CHICKEN-SKEWERS-100GR.png",
+  "sku": "PSK-90108",
   "brand": "Wanpy",
   "weight_kg": 1.2,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/WANPY-DOG-CHICKEN-SKEWERS-100GR.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/WANPY-DOG-CHICKEN-SKEWERS-100GR.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 36638,
   "name": "DEFECT/DAMAGED PACKAGE-CLEARANCE: Proline Bentonite Clumping Cat Litter - Marseille Soap Scented 5L",
   "slug": "defect-damaged-package-clearance-proline-bentonite-clumping-cat-litter-marseille-soap-scented-5l",
-  "sku": "PCL007@D",
-  "onSale": true,
+  "onSale": false,
   "price": 771,
-  "regularPrice": 1102,
-  "salePrice": 771,
+  "regularPrice": 771,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-Marseille-soap-5L.jpg",
   "categories": [
     {
       "id": 796,
@@ -17,67 +15,51 @@
       "slug": "proline"
     }
   ],
-  "brands": [
-    {
-      "id": 2461,
-      "name": "Proline",
-      "slug": "proline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 831,
-      "name": "bentonite",
-      "slug": "bentonite"
-    },
-    {
-      "id": 819,
-      "name": "cat litter",
-      "slug": "cat-litter"
-    },
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 823,
-      "name": "clumping",
-      "slug": "clumping"
-    },
-    {
-      "id": 2315,
-      "name": "scented",
-      "slug": "scented"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/defect-damaged-package-clearance-proline-bentonite-clumping-cat-litter-marseille-soap-scented-5l/",
-  "shortDescription": "Simplify litter box care using 100% natural bentonite that traps odours instantly, forming firm clumps while keeping your cat’s paws fresh and dry.",
   "description": "Proline Bentonite Clumping Marseille Soap Scented Cat Litter , 100% natural bentonite cat litter instantly clumps. Excellent pelletising, instantly lumps Neutralises odour with fresh Marseille Soap scent Non-toxic and 100% natural Thin grain shape Prevents bacterial growth Upon first use, we recommend adding new cat litter to the surface of the old cat litter for a few days.",
   "images": [
     {
-      "id": 35909,
+      "id": 36638,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-Marseille-soap-5L.jpg",
-      "alt": "Proline Bentonite Clumping Cat Litter – Marseille Soap Scented 5L",
-      "name": "Proline Marseille soap 5L"
+      "alt": "DEFECT/DAMAGED PACKAGE-CLEARANCE: Proline Bentonite Clumping Cat Litter - Marseille Soap Scented 5L",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Proline",
+      "slug": "proline"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/defect-damaged-package-clearance-proline-bentonite-clumping-cat-litter-marseille-soap-scented-5l/?add-to-cart=36638",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2023-04-28T14:34:35",
-  "dateModified": "2026-06-17T04:28:49",
+  "permalink": "https://petstore.co.ke/product/defect-damaged-package-clearance-proline-bentonite-clumping-cat-litter-marseille-soap-scented-5l/",
+  "addToCartUrl": "https://petstore.co.ke/product/defect-damaged-package-clearance-proline-bentonite-clumping-cat-litter-marseille-soap-scented-5l/?add-to-cart=36638",
+  "shortDescription": "Proline Bentonite Clumping Marseille Soap Scented Cat Litter , 100% natural bentonite cat litter instantly clumps. Excellent pelletising, instantly lu",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-Marseille-soap-5L.jpg",
+  "sku": "PSK-36638",
   "brand": "Proline",
   "weight_kg": 9,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-Marseille-soap-5L.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-Marseille-soap-5L.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

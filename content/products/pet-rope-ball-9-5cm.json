@@ -2,14 +2,12 @@
   "id": 42685,
   "name": "Pet Rope Ball 9.5cm",
   "slug": "pet-rope-ball-9-5cm",
-  "sku": "PA0449",
   "onSale": false,
   "price": 700,
   "regularPrice": 700,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/PET-ROPE-BALL-9.5cm.png",
   "categories": [
     {
       "id": 1204,
@@ -37,56 +35,51 @@
       "slug": "dog-rope-tug-toys"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pet-rope-ball-9-5cm/",
-  "shortDescription": "This puppy rope toy ball is fun, engaging and interactive, suitable for small dogs to medium dogs. Keep your dog entertained for hours and avoid destructive chewing behaviors.",
   "description": "Dog ball toy rope for chewing and playing – perfect puppy rope toy for tug, toss, fetch and chew games. GREAT FOR TEETH, the chew rope balls can be very comforting for teething puppies and can help improve your dog’s dental health. The brushing action of chewing can clean the teeth, massage gums, reduce plaque build-up and prevent decay. COTTON Fibers – The puppy chew toy ball is easy to keep clean. This puppy rope toy ball is fun, engaging and interactive, suitable for small dogs to medium dogs. Keep your dog entertained for hours and avoid destructive chewing behaviors.",
   "images": [
     {
-      "id": 51791,
+      "id": 42685,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/12/PET-ROPE-BALL-9.5cm.png",
       "alt": "Pet Rope Ball 9.5cm",
-      "name": "PET ROPE BALL 9.5cm"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/pet-rope-ball-9-5cm/?add-to-cart=42685",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2023-12-27T12:20:02",
-  "dateModified": "2026-06-17T04:14:35",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/pet-rope-ball-9-5cm/",
+  "addToCartUrl": "https://petstore.co.ke/product/pet-rope-ball-9-5cm/?add-to-cart=42685",
+  "shortDescription": "Dog ball toy rope for chewing and playing – perfect puppy rope toy for tug, toss, fetch and chew games. GREAT FOR TEETH, the chew rope balls can be ve",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/PET-ROPE-BALL-9.5cm.png",
+  "sku": "PSK-42685",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/PET-ROPE-BALL-9.5cm.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/PET-ROPE-BALL-9.5cm.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

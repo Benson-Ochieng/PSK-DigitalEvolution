@@ -2,14 +2,12 @@
   "id": 68366,
   "name": "Churu Fun Bites Dog Treats - Chicken Recipe Wraps (Chicken with Cheese Recipe)",
   "slug": "churu-bites-dog-treats-chicken-cheese-2",
-  "sku": "BCDT029",
   "onSale": false,
   "price": 930,
   "regularPrice": 930,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/CHURU-FINE-BITES.png",
   "categories": [
     {
       "id": 2386,
@@ -32,52 +30,51 @@
       "slug": "dog-treats"
     }
   ],
-  "brands": [
-    {
-      "id": 2433,
-      "name": "Churu",
-      "slug": "churu"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/churu-bites-dog-treats-chicken-cheese-2/",
-  "shortDescription": "Soft chicken dog treats with a creamy chicken & cheese center. Grain-free, low-calorie, high-moisture bites perfect for training, hand-feeding, and picky dogs.",
   "description": "Churu Bites Dog Treats – Chicken Recipe Wrapped with Chicken & Cheese Filling deliver a delicious two-texture experience your dog won’t be able to resist. Each soft, pillow-shaped bite features a gently baked chicken paste wrap filled with a rich, creamy chicken and cheese center for irresistible flavor in every nibble. Made with wholesome, high-quality ingredients you can trust , these treats use farm-raised chicken and contain no grains, preservatives, carrageenan, or artificial colors . The soft texture makes them easy to chew and perfect for hand-feeding, training, or even sneaking in small pills for picky pups. Each Tetra Fun Pack includes 8 individually portioned packs (about 12 bites per pack) to lock in freshness and prevent over-treating. With 69% moisture to support hydration and only about 15–18 kcal per pack , Churu Bites are a low-calorie indulgence you can feel good about giving daily. Enhanced with Vitamin E for immune support and Green Tea Extract as a natural antioxidant , these soft, savory treats are approved even by the most persnickety pups. Key Benefits Soft chicken wrap with creamy chicken & cheese filling Grain-free and free from artificial colors or preservatives Perfect for training, hand-feeding, or pill administration High moisture content to support hydration Low-calorie treat with added Vitamin E and antioxidants Individually wrapped portions for freshness and convenience Feeding Instructions Feed as a treat only. Not intended as a complete meal. Always provide fresh, clean water and consult your veterinarian regularly. Storage Instructions Refrigerate after opening and serve as soon as possible. Guaranteed Analysis Crude Protein (min): 22.0% Crude Fat (min): 3.0% Crude Fiber (max): 0.5% Moisture (max): 72.0% Vitamin E (min): 80 IU/kg Energy Content: 1300 kcal/kg | approx. 15.6 kcal per pack (ME) Net Weight: 3.36 oz (0.42 oz × 8 packs) &nbsp; &nbsp;",
   "images": [
     {
-      "id": 68375,
+      "id": 68366,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/01/CHURU-FINE-BITES.png",
-      "alt": "Churu Fun Bites Dog Treats – Chicken Recipe Wraps (Chicken with Cheese Recipe)",
-      "name": "CHURU FINE BITES"
+      "alt": "Churu Fun Bites Dog Treats - Chicken Recipe Wraps (Chicken with Cheese Recipe)",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Churu",
+      "slug": "churu"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/churu-bites-dog-treats-chicken-cheese-2/?add-to-cart=68366",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-01-20T16:20:34",
-  "dateModified": "2026-06-22T13:14:48",
+  "permalink": "https://petstore.co.ke/product/churu-bites-dog-treats-chicken-cheese-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/churu-bites-dog-treats-chicken-cheese-2/?add-to-cart=68366",
+  "shortDescription": "Churu Bites Dog Treats – Chicken Recipe Wrapped with Chicken & Cheese Filling deliver a delicious two-texture experience your dog won’t be able to res",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/CHURU-FINE-BITES.png",
+  "sku": "PSK-68366",
   "brand": "Churu",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/CHURU-FINE-BITES.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/CHURU-FINE-BITES.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

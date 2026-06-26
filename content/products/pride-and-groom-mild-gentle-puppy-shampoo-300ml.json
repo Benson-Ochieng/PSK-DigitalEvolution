@@ -2,14 +2,12 @@
   "id": 52782,
   "name": "Pride Andgoom Mild &gentle Puppy Shampoo 300ml",
   "slug": "pride-and-groom-mild-gentle-puppy-shampoo-300ml",
-  "sku": "PGPS@F",
-  "onSale": true,
+  "onSale": false,
   "price": 535.5,
-  "regularPrice": 595,
-  "salePrice": 535.5,
+  "regularPrice": 535.5,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/08/PRIDE-amp-GROOM-MILD-AND-GENTLE-PUPPY-SHAMPOO-WITH-COCONUT-OIL-300ML-e1723019029307.jpg",
   "categories": [
     {
       "id": 2332,
@@ -17,35 +15,51 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=52782",
-  "shortDescription": "",
   "description": "",
   "images": [
     {
-      "id": 49247,
+      "id": 52782,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/08/PRIDE-amp-GROOM-MILD-AND-GENTLE-PUPPY-SHAMPOO-WITH-COCONUT-OIL-300ML-e1723019029307.jpg",
-      "alt": "Pride & Groom Mild & Gentle Puppy Shampoo With Coconut Oil – 300ml",
-      "name": "PRIDE &amp; GROOM MILD AND GENTLE PUPPY SHAMPOO WITH COCONUT OIL- 300ML"
+      "alt": "Pride Andgoom Mild &gentle Puppy Shampoo 300ml",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/pride-and-groom-mild-gentle-puppy-shampoo-300ml/?add-to-cart=52782",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-01-16T17:04:50",
-  "dateModified": "2026-05-06T17:10:54",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=52782",
+  "addToCartUrl": "https://petstore.co.ke/product/pride-and-groom-mild-gentle-puppy-shampoo-300ml/?add-to-cart=52782",
+  "shortDescription": "",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/08/PRIDE-amp-GROOM-MILD-AND-GENTLE-PUPPY-SHAMPOO-WITH-COCONUT-OIL-300ML-e1723019029307.jpg",
+  "sku": "PSK-52782",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/08/PRIDE-amp-GROOM-MILD-AND-GENTLE-PUPPY-SHAMPOO-WITH-COCONUT-OIL-300ML-e1723019029307.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/08/PRIDE-amp-GROOM-MILD-AND-GENTLE-PUPPY-SHAMPOO-WITH-COCONUT-OIL-300ML-e1723019029307.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

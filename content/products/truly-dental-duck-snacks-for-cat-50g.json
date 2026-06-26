@@ -2,14 +2,12 @@
   "id": 54695,
   "name": "Truly Dental Duck Snacks For Cat 50g",
   "slug": "truly-dental-duck-snacks-for-cat-50g",
-  "sku": "TDDSC50G",
   "onSale": false,
   "price": 260,
   "regularPrice": 260,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/04/Untitled-design-39.png",
   "categories": [
     {
       "id": 2325,
@@ -27,46 +25,51 @@
       "slug": "cat-treats"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/truly-dental-duck-snacks-for-cat-50g/",
-  "shortDescription": "Treat your cat to Truly Duck Stick Treats and watch them enjoy a flavorful snack while benefiting from the nutrients they need. Your furry companion will love the taste, and you’ll love the health benefits!",
   "description": "Satisfy your cat’s cravings with Truly Duck Stick Treats! These delicious treats are made with real duck and fortified with taurine, an essential nutrient for your cat’s health. In a convenient 50g package, these tasty sticks are perfect for rewarding your feline friend or just making their day a little brighter. Key Features: Tasty Duck Flavor: Made with real duck, these treats are sure to delight your cat with every bite. Nutrient-Rich Taurine: Enhanced with taurine to support your cat’s heart health and overall well-being. Ideal Snack Size: Comes in a handy 50g pack, perfect for portioning out snacks or rewards. Great for All Cats: Suitable for cats of all ages, making snack time fun and healthy. Treat your cat to Truly Duck Stick Treats and watch them enjoy a flavorful snack while benefiting from the nutrients they need. Your furry companion will love the taste, and you’ll love the health benefits!",
   "images": [
     {
-      "id": 59414,
+      "id": 54695,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/04/Untitled-design-39.png",
       "alt": "Truly Dental Duck Snacks For Cat 50g",
-      "name": "Untitled design (39)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 5,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/truly-dental-duck-snacks-for-cat-50g/?add-to-cart=54695",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-04-16T09:39:45",
-  "dateModified": "2026-06-17T05:01:30",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/truly-dental-duck-snacks-for-cat-50g/",
+  "addToCartUrl": "https://petstore.co.ke/product/truly-dental-duck-snacks-for-cat-50g/?add-to-cart=54695",
+  "shortDescription": "Satisfy your cat’s cravings with Truly Duck Stick Treats! These delicious treats are made with real duck and fortified with taurine, an essential nutr",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/04/Untitled-design-39.png",
+  "sku": "PSK-54695",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.05,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/04/Untitled-design-39.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/04/Untitled-design-39.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

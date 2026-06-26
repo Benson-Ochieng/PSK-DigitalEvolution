@@ -2,14 +2,12 @@
   "id": 51539,
   "name": "Reflex Cat Pocket Treat Sensitive 60g",
   "slug": "reflex-cat-pocket-treat-sensitive-60gr-2",
-  "sku": "RCT020",
   "onSale": false,
   "price": 350,
   "regularPrice": 350,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CAT-POCKET-TREAT-SENSITIVE-60GR.png",
   "categories": [
     {
       "id": 2325,
@@ -32,52 +30,51 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
-    {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/reflex-cat-pocket-treat-sensitive-60gr-2/",
-  "shortDescription": "Reflex Cat Pocket Treats – Delicious, Healthy Snacks for Your Feline Friend Treat your cat to the irresistible taste of Reflex Cat Pocket Treats, a tasty and nutritious reward for your furry companion. Made with high-quality ingredients and crafted for cats of all ages, these treats offer a burst of flavor with every bite.",
   "description": "It contributes to coat and skin health with its miraculous krill, biotin, and vitamins. Thanks to its taurine content, it supports the immune system, heart health, and visual functions. Composition: Derivatives of vegetable origin, meat and animal derivatives, cereals, oils and fats, vegetable protein extracts, yeasts (1% brewer’s yeasts), molluscs and crustaceans (0.3% dried krill source of fatty acids omega3), minerals. Nutrient Components Crude Protein %29 Fat Content %20 Crude Fibre %1,7 Crude Ash %6 Nutritional Supplements Vitamins: Vitamin A 6000 IU, Vitamin D3 400 IU, Vitamin E 100 mg, Taurine 1000 mg, Biotin 300 μg. Trace Elements: Zn 100 mg. Antioxidants. Colourants.",
   "images": [
     {
-      "id": 51540,
+      "id": 51539,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CAT-POCKET-TREAT-SENSITIVE-60GR.png",
       "alt": "Reflex Cat Pocket Treat Sensitive 60g",
-      "name": "REFLEX CAT POCKET TREAT SENSITIVE 60GR"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-cat-pocket-treat-sensitive-60gr-2/?add-to-cart=51539",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-11-13T14:41:17",
-  "dateModified": "2026-06-24T13:12:10",
+  "permalink": "https://petstore.co.ke/product/reflex-cat-pocket-treat-sensitive-60gr-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-cat-pocket-treat-sensitive-60gr-2/?add-to-cart=51539",
+  "shortDescription": "It contributes to coat and skin health with its miraculous krill, biotin, and vitamins. Thanks to its taurine content, it supports the immune system, ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CAT-POCKET-TREAT-SENSITIVE-60GR.png",
+  "sku": "PSK-51539",
   "brand": "Reflex",
   "weight_kg": 0.06,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CAT-POCKET-TREAT-SENSITIVE-60GR.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CAT-POCKET-TREAT-SENSITIVE-60GR.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

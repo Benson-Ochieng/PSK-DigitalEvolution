@@ -2,14 +2,12 @@
   "id": 68484,
   "name": "Wanpy Dog Food Chicken & Liver 375g",
   "slug": "wanpy-chicken-liver-canned-dog-food-375g",
-  "sku": "WDW002",
-  "onSale": true,
+  "onSale": false,
   "price": 200,
-  "regularPrice": 250,
-  "salePrice": 200,
+  "regularPrice": 200,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/Wanpy-chicken-CHUNK-375-gr-.png",
   "categories": [
     {
       "id": 2345,
@@ -32,67 +30,51 @@
       "slug": "wet-dog-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2479,
-      "name": "Wanpy",
-      "slug": "wanpy"
-    }
-  ],
-  "tags": [
-    {
-      "id": 622,
-      "name": "canned food",
-      "slug": "canned-food"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 939,
-      "name": "On Sale Now",
-      "slug": "sale"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/wanpy-chicken-liver-canned-dog-food-375g/",
-  "shortDescription": "WANPY Chicken & Liver Canned Dog Food 375g is a preservative-free, protein-rich wet dog food with real chicken and liver, suitable for all dog breeds and life stages.",
   "description": "WANPY Chicken & Liver Canned Dog Food 375g is a premium wet dog food formulated to deliver balanced nutrition for dogs of all breeds and life stages. Made with high-quality chicken and liver, this protein-rich recipe supports strong muscles, healthy growth, and overall vitality from puppyhood through senior years. Prepared using advanced high-temperature sterilization technology, WANPY safely locks in nutrients and natural flavors without the use of artificial preservatives. The food is slow cooked in savory broth to create a juicy, soft texture that enhances palatability while remaining gentle on digestion. Enriched with essential vitamins and minerals, WANPY Chicken & Liver supports immune health, digestion, and daily energy needs. Its moist consistency makes it especially suitable for picky eaters, dogs with sensitive teeth, or pets that benefit from increased hydration. It can be served as a complete meal or mixed with dry kibble to improve taste and moisture content. Ingredients Chicken Liver Starch Carrot Green soybean Potato Calcium carbonate Vitamins: A, B2, B3, B5, D3, E Other essential nutrients to support daily dietary needs Nutritional & Health Benefits Rich in high-quality protein to support muscle development and maintenance Supports healthy growth and overall vitality Vitamins and minerals help boost immunity and general well-being Soft, moist texture is easy to chew and digest Preservative-free formula for safer, everyday feeding Supports healthy digestion and hydration Feeding Guidelines Suitable for dogs over 3 months of age Serve as a complete meal or mix with dry kibble Always provide fresh drinking water Once opened, feed immediately or refrigerate unused portions Storage & Safety Instructions Store unopened cans in a cool, dry place away from direct sunlight Refrigerate leftovers and use within a short period Handle cans carefully to avoid injury Supervise children during pet feeding",
   "images": [
     {
-      "id": 68486,
+      "id": 68484,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/01/Wanpy-chicken-CHUNK-375-gr-.png",
-      "alt": "Wanpy Canned Dog Food – Chicken Chunk 375g",
-      "name": "Wanpy chicken CHUNK 375 gr"
+      "alt": "Wanpy Dog Food Chicken & Liver 375g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Wanpy",
+      "slug": "wanpy"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/wanpy-chicken-liver-canned-dog-food-375g/?add-to-cart=68484",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-01-23T15:28:00",
-  "dateModified": "2026-06-24T11:12:13",
+  "permalink": "https://petstore.co.ke/product/wanpy-chicken-liver-canned-dog-food-375g/",
+  "addToCartUrl": "https://petstore.co.ke/product/wanpy-chicken-liver-canned-dog-food-375g/?add-to-cart=68484",
+  "shortDescription": "WANPY Chicken & Liver Canned Dog Food 375g is a premium wet dog food formulated to deliver balanced nutrition for dogs of all breeds and life stages. ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/Wanpy-chicken-CHUNK-375-gr-.png",
+  "sku": "PSK-68484",
   "brand": "Wanpy",
-  "weight_kg": 0.405,
+  "weight_kg": 0.41,
   "animal_type": "dog",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/Wanpy-chicken-CHUNK-375-gr-.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/Wanpy-chicken-CHUNK-375-gr-.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

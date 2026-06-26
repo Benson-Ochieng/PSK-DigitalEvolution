@@ -2,14 +2,12 @@
   "id": 50878,
   "name": "Flex Pet Bed Brown On Black X Large",
   "slug": "flex-pet-bed-brown-on-black-x-large-2",
-  "sku": "FPBBRBXL@F",
-  "onSale": true,
+  "onSale": false,
   "price": 7998,
-  "regularPrice": 8600,
-  "salePrice": 7998,
+  "regularPrice": 7998,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/08/FLEX-PET-BED-BROWN.png",
   "categories": [
     {
       "id": 1204,
@@ -22,41 +20,51 @@
       "slug": "flex-pet-bed"
     }
   ],
-  "brands": [
-    {
-      "id": 2463,
-      "name": "SF",
-      "slug": "sf"
-    }
-  ],
-  "tags": [],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=50878",
-  "shortDescription": "Flex Pet Bed is a modern bed made to offer optimal comfort and convenience. It typically features a combination of materials and design elements aimed at enhancing your pet's resting experience. Measurements: Length 97cm x Width 71cm",
   "description": "Flex Pet Bed is a modern bed made to offer optimal comfort and convenience. It typically features a combination of materials and design elements aimed at enhancing your pet's resting experience. The bed is designed to be soft yet supportive, providing a perfect balance between comfort and durability. Its lightweight construction makes it easy to move and reposition, while its washable feature ensures easy maintenance. Benefits & Features 1. Softness : Comfort : Flex Pet Bed's soft surface provides a plush and inviting place for pets to relax. This comfort is especially beneficial for pets with joint issues or those who enjoy a cushioned resting spot. Stress Relief : A soft bed can help alleviate stress and anxiety, giving pets a cozy retreat where they feel secure and comfortable. 2. Washability : Hygiene : Being washable, the bed can be easily cleaned to maintain a fresh and sanitary environment for your pet. This is particularly useful for managing fur, dirt, and occasional accidents. Convenience : Machine-washable materials save time and effort compared to handwashing or spot-cleaning. This feature ensures that maintaining the bed’s cleanliness is hassle-free. 3. Lightweight : Portability : The lightweight design allows you to easily move the bed around your home, making it simple to reposition it according to your pet’s needs or your own convenience. Travel-Friendly : For pet owners who travel or frequently move their pets, a lightweight bed is easy to transport, providing a familiar and comfortable spot for pets even away from home. 4. Firm Feel : Durability : A firm structure ensures that the bed retains its shape over time, preventing sagging and providing consistent support. 5. Comfort : Temperature Regulation : Flex Pet Bed are designed with materials that help regulate temperature, keeping pets warm in cooler weather and cool during warmer months. Fit : Flex Pet Bed design often includes features like raised edges or contoured shapes, allowing pets to nestle in comfortably and feel secure. Overall, Flex Pet Bed with these features offers a combination of softness, ease of maintenance, lightweight portability, firm support, and comfort, making it an excellent choice for providing your dog or cat with a cozy and practical resting place. &nbsp; &nbsp;",
   "images": [
     {
-      "id": 50108,
+      "id": 50878,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/08/FLEX-PET-BED-BROWN.png",
-      "alt": "Flex Pet Bed Brown On Black – X Large",
-      "name": "FLEX PET BED- BROWN"
+      "alt": "Flex Pet Bed Brown On Black X Large",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "SF",
+      "slug": "sf"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/flex-pet-bed-brown-on-black-x-large-2/?add-to-cart=50878",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-10-15T08:53:51",
-  "dateModified": "2026-06-17T04:35:20",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=50878",
+  "addToCartUrl": "https://petstore.co.ke/product/flex-pet-bed-brown-on-black-x-large-2/?add-to-cart=50878",
+  "shortDescription": "Flex Pet Bed is a modern bed made to offer optimal comfort and convenience. It typically features a combination of materials and design elements aimed",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/08/FLEX-PET-BED-BROWN.png",
+  "sku": "PSK-50878",
   "brand": "SF",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/08/FLEX-PET-BED-BROWN.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/08/FLEX-PET-BED-BROWN.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

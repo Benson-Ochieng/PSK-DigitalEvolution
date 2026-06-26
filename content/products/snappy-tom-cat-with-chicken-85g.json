@@ -2,14 +2,12 @@
   "id": 57801,
   "name": "Snappy Tom Cat With Chicken 85g",
   "slug": "snappy-tom-cat-with-chicken-85g",
-  "sku": "STCW005",
   "onSale": false,
   "price": 169,
   "regularPrice": 169,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-16.png",
   "categories": [
     {
       "id": 2325,
@@ -27,51 +25,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=57801",
-  "shortDescription": "Snappy Tom CAT With Chicken 85g is a nutritionally balanced wet cat food made from chicken and vegetables, designed to maintain your cat’s health while providing energy for alertness and agility throughout the day",
   "description": ". Product Features • Main Ingredient – Made primarily with chicken, delivering high-quality protein and fat essential for your cat’s health, strength, and energy. • Complemented with Vegetables – Includes wholesome vegetables in a rich gourmet gravy, offering both taste and nutrition cats love. • Convenient Packaging – Available in 85g cans or pouches, perfect for single servings or portion control based on your cat’s needs. Nutritional Benefits • Supports Active Lifestyles – Protein and fat content help keep your cat alert, agile, and healthy all day. • Enhanced Palatability – Slow-cooked preparation locks in flavor and preserves key nutrients for maximum benefit. Feeding Guidelines Adjust feeding amounts according to your cat’s weight and activity level: Cat Weight Daily Feeding Amount 0.5 – 1.0 kg 60g – 90g 1.0 – 3.0 kg 90g – 210g 3.0 – 4.0 kg 210g – 260g 4.0 kg + 260g +",
   "images": [
     {
-      "id": 57802,
+      "id": 57801,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-16.png",
       "alt": "Snappy Tom Cat With Chicken 85g",
-      "name": "Untitled design (16)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/snappy-tom-cat-with-chicken-85g/?add-to-cart=57801",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-08-08T16:29:08",
-  "dateModified": "2026-05-29T12:12:07",
-  "brand": null,
-  "weight_kg": 0.085,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=57801",
+  "addToCartUrl": "https://petstore.co.ke/product/snappy-tom-cat-with-chicken-85g/?add-to-cart=57801",
+  "shortDescription": ". Product Features • Main Ingredient – Made primarily with chicken, delivering high-quality protein and fat essential for your cat’s health, strength,",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-16.png",
+  "sku": "PSK-57801",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.09,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-16.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-16.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

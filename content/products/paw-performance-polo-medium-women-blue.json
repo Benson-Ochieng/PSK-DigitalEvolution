@@ -2,14 +2,12 @@
   "id": 56034,
   "name": "Paw Performance Polo-Medium Women Blue",
   "slug": "paw-performance-polo-medium-women-blue",
-  "sku": "PPPPMWB",
   "onSale": false,
   "price": 2500,
   "regularPrice": 2500,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/06/FRONT-POLO-SHIRT-FIXED.png",
   "categories": [
     {
       "id": 2243,
@@ -17,57 +15,51 @@
       "slug": "human"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2245,
-      "name": "Human",
-      "slug": "human"
-    },
-    {
-      "id": 2309,
-      "name": "Polo",
-      "slug": "polo"
-    },
-    {
-      "id": 2310,
-      "name": "T-shirt",
-      "slug": "t-shirt"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/paw-performance-polo-medium-women-blue/",
-  "shortDescription": "Add a touch of charm to your everyday style with this women’s medium-fit polo in a fresh blue shade. Crafted from a soft, breathable cotton-poly blend, it features a delicate embroidered paw print design that celebrates both cat and dog love — subtle, stylish, and full of heart.",
   "description": "Add a touch of charm to your everyday style with this women’s medium-fit polo in a fresh blue shade. Crafted from a soft, breathable cotton-poly blend, it features a delicate embroidered paw print design that celebrates both cat and dog love — subtle, stylish, and full of heart. Size: Medium (Women’s Fit) Color: Blue Material: Lightweight cotton-poly blend Design: Embroidered dual paw print (cat & dog paws) Fit: Flattering women’s cut with capped sleeves and shaped silhouette Care: Machine washable Perfect for pet lovers who want to stay comfy, confident, and connected to what they love most.",
   "images": [
     {
-      "id": 56029,
+      "id": 56034,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/06/FRONT-POLO-SHIRT-FIXED.png",
-      "alt": "Paw Performance Polo-Small Women Blue",
-      "name": "FRONT POLO SHIRT FIXED"
-    },
+      "alt": "Paw Performance Polo-Medium Women Blue",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
     {
-      "id": 56031,
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/06/BACK-POLO-SHIRT-FIXED-1.png",
-      "alt": "Paw Performance Polo-Small Women Blue",
-      "name": "BACK POLO SHIRT FIXED"
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/paw-performance-polo-medium-women-blue/?add-to-cart=56034",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-06-23T16:07:21",
-  "dateModified": "2026-06-17T04:15:07",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/paw-performance-polo-medium-women-blue/",
+  "addToCartUrl": "https://petstore.co.ke/product/paw-performance-polo-medium-women-blue/?add-to-cart=56034",
+  "shortDescription": "Add a touch of charm to your everyday style with this women’s medium-fit polo in a fresh blue shade. Crafted from a soft, breathable cotton-poly blend",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/06/FRONT-POLO-SHIRT-FIXED.png",
+  "sku": "PSK-56034",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/06/FRONT-POLO-SHIRT-FIXED.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/06/FRONT-POLO-SHIRT-FIXED.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

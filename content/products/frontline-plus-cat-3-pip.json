@@ -2,14 +2,12 @@
   "id": 24609,
   "name": "Frontline Plus Cat Spot-On (Fipronil) – 3 Pipette",
   "slug": "frontline-plus-cat-3-pip",
-  "sku": "FPC3",
   "onSale": false,
   "price": 3800,
   "regularPrice": 3800,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/FPC3.jpg",
   "categories": [
     {
       "id": 2325,
@@ -32,52 +30,51 @@
       "slug": "frontline"
     }
   ],
-  "brands": [
-    {
-      "id": 2440,
-      "name": "Frontline",
-      "slug": "frontline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 1149,
-      "name": "flea & tick",
-      "slug": "flea-tick"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/frontline-plus-cat-3-pip/",
-  "shortDescription": "Contains?Fipronil, which Kills adult fleas and ticks for 30 days and decimates flea eggs and larvae.",
   "description": "Protect your pets with FRONTLINE Plus Flea & Tick Treatment - a trusted, fast-acting solution designed to keep dogs and cats protected from fleas, ticks, and other common parasites. Suitable for pets 8 weeks and older, this easy-to-apply topical treatment delivers long-lasting, waterproof protection for up to 30 days with just one application. Formulated to kill adult fleas, flea eggs, flea larvae, ticks, chewing lice, and mites, FRONTLINE Plus helps break the flea life cycle and prevent reinfestation. The treatment is stored in your pet’s natural skin oils, continuously protecting them even after bathing or exposure to water. Key Benefits Fast-acting and long-lasting flea & tick protection Kills fleas, flea eggs, larvae, ticks, chewing lice, and mites Waterproof formula effective 24 hours after application Easy monthly topical application Suitable for dogs and cats aged 8 weeks and older Helps prevent reinfestation by breaking the flea life cycle For optimal protection, apply once every month as directed.",
   "images": [
     {
-      "id": 24629,
+      "id": 24609,
       "src": "https://petstore.co.ke/wp-content/uploads/2022/01/FPC3.jpg",
       "alt": "Frontline Plus Cat Spot-On (Fipronil) – 3 Pipette",
-      "name": "FPC3.jpg"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Frontline",
+      "slug": "frontline"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/frontline-plus-cat-3-pip/?add-to-cart=24609",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2022-01-15T21:40:50",
-  "dateModified": "2026-06-17T04:28:42",
+  "permalink": "https://petstore.co.ke/product/frontline-plus-cat-3-pip/",
+  "addToCartUrl": "https://petstore.co.ke/product/frontline-plus-cat-3-pip/?add-to-cart=24609",
+  "shortDescription": "Protect your pets with FRONTLINE Plus Flea & Tick Treatment - a trusted, fast-acting solution designed to keep dogs and cats protected from fleas, tic",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/FPC3.jpg",
+  "sku": "PSK-24609",
   "brand": "Frontline",
   "weight_kg": 0.4,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/FPC3.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/FPC3.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

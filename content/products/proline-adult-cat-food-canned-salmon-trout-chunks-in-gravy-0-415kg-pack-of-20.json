@@ -2,14 +2,12 @@
   "id": 16988,
   "name": "Pack Of 20: Proline Adult Cat Food Canned - Salmon & Trout Chunks in Gravy 400g",
   "slug": "proline-adult-cat-food-canned-salmon-trout-chunks-in-gravy-0-415kg-pack-of-20",
-  "sku": "PCW005$20",
-  "onSale": true,
+  "onSale": false,
   "price": 4482,
-  "regularPrice": 4980,
-  "salePrice": 4482,
+  "regularPrice": 4482,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/03/Untitled-design-85.png",
   "categories": [
     {
       "id": 2325,
@@ -37,72 +35,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2461,
-      "name": "Proline",
-      "slug": "proline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2055,
-      "name": "Bulk Cat Food & Bulk Dog Food",
-      "slug": "bulk"
-    },
-    {
-      "id": 622,
-      "name": "canned food",
-      "slug": "canned-food"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/proline-adult-cat-food-canned-salmon-trout-chunks-in-gravy-0-415kg-pack-of-20/",
-  "shortDescription": "Fully balanced all-natural wet cat food with salmon & trout protein. Carefully formulated by a cat nutritionist to meet the nutritional requirements of all adult cats.",
   "description": "Proline Adult Cat Food Canned - Salmon & Trout Chunks in Gravy (Pack of 20) , fully balanced all-natural cat food with salmon & trout protein. Carefully formulated by a cat nutritionists to meet the nutritional requirements of all adult cats. NUTRIENT COMPONENTS Protein .................. 7.5% Fat ...................... 4.5% Crude Ash ................. 2% Crude Cellulose (Fiber) ... 0.3% Moisture ...................... 82% INGREDIENTS: Meat and animal by-products, cereals, fish and fish by-products (4% salmon, 4% trout), minerals, vegetable by-products, sugar. MINERALS: Taurine, Zinc, Manganese, Copper. VITAMINS: Vit. D3, Vit. E.",
   "images": [
     {
-      "id": 56929,
+      "id": 16988,
       "src": "https://petstore.co.ke/wp-content/uploads/2020/03/Untitled-design-85.png",
       "alt": "Pack Of 20: Proline Adult Cat Food Canned - Salmon & Trout Chunks in Gravy 400g",
-      "name": "Untitled design (85)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Proline",
+      "slug": "proline"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/proline-adult-cat-food-canned-salmon-trout-chunks-in-gravy-0-415kg-pack-of-20/?add-to-cart=16988",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2020-12-24T09:53:53",
-  "dateModified": "2026-06-17T04:28:41",
+  "permalink": "https://petstore.co.ke/product/proline-adult-cat-food-canned-salmon-trout-chunks-in-gravy-0-415kg-pack-of-20/",
+  "addToCartUrl": "https://petstore.co.ke/product/proline-adult-cat-food-canned-salmon-trout-chunks-in-gravy-0-415kg-pack-of-20/?add-to-cart=16988",
+  "shortDescription": "Proline Adult Cat Food Canned - Salmon & Trout Chunks in Gravy (Pack of 20) , fully balanced all-natural cat food with salmon & trout protein. Careful",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/03/Untitled-design-85.png",
+  "sku": "PSK-16988",
   "brand": "Proline",
   "weight_kg": 8.3,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/03/Untitled-design-85.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/03/Untitled-design-85.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

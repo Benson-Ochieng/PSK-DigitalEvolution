@@ -2,14 +2,12 @@
   "id": 69386,
   "name": "Reflex Plus Adult Dog Food Breed Series German Shepherd Hypoallergenic 8kg",
   "slug": "reflex-plus-german-shepherd-adult-dog-food",
-  "sku": "RPDD015",
   "onSale": false,
   "price": 8850,
   "regularPrice": 8850,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/German-shepherd-8kg.png",
   "categories": [
     {
       "id": 2345,
@@ -32,57 +30,51 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
-    {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/reflex-plus-german-shepherd-adult-dog-food/",
-  "shortDescription": "Reflex Plus German Shepherd Adult Dog Food is a super-premium dry diet for dogs 10+ months. Supports joint health, digestion, immunity, heart & eye health, skin & coat, and dental care. &nbsp;",
   "description": "Reflex Plus German Shepherd Adult Dog Food is a complete and balanced dry diet specially formulated for German Shepherds over 10 months old. Made with high-quality animal proteins and enriched with functional ingredients, it provides optimal nutrition to support joint health, digestion, heart and eye health, skin and coat condition, and dental care. This formula contains glucosamine, chondroitin sulfate, prebiotics, taurine, aloe vera, and brown algae, delivering comprehensive support for immune health, joint flexibility, urinary and oral health, energy metabolism, and overall vitality. Key Benefits Formulated specifically for German Shepherds (10+ months) 82% of total protein comes from premium animal ingredients Supports immune and digestive system health (FOS & MOS prebiotics) Promotes joint health and flexibility (Glucosamine & Chondroitin Sulfate) Supports heart and eye health (Taurine) Promotes skin and coat condition (Aloe Vera & Marigold Extract) Boosts oral and dental health (Brown Algae) Contains antioxidants and essential vitamins for overall wellbeing Ingredients Processed chicken protein (24%), Rice, Corn, Chicken fat, Hydrolyzed chicken protein, Pea protein, Fish protein, Fish oil, Dried sugar beet, Liver flavor, Vitamins and minerals, Fiber concentrate, Nucleotide yeast protein, Psyllium fiber, Probiotic, Dried brewer's yeast, Brown algae, Mannan-oligosaccharides (MOS), Blueberry, Flaxseed, Yucca schidigera, Aloe Vera, Salt, L-carnitine, FOS (fructo-oligosaccharides), Glucosamine, Chondroitin sulfate, Marigold extract, Taurine, Preservatives and antioxidants (E320 & E321). Analytical Constituents Crude Protein: 24% Crude Fat: 15% Crude Ash: 7% Crude Fibre: 3% Nutritional Supplements Vitamins: Vitamin A: 18,000 IU/kg Vitamin D3: 1,500 IU/kg Vitamin E: 200 mg/kg Vitamin C: 200 mg/kg B Vitamins (B1, B2, B3, B6, B12, Biotin, Folic Acid), Vitamin K3, Choline, Calcium Pantothenate Taurine: included Minerals: Iron, Iodine, Copper, Manganese, Zinc, Selenium Feeding Guidelines Suitable for German Shepherds aged 10 months and above Feed according to age, weight, and activity level Provide fresh drinking water at all times Introduce diet changes gradually over 5–7 days Store in a cool, dry place &nbsp; &nbsp; &nbsp; &nbsp;",
   "images": [
     {
-      "id": 69387,
+      "id": 69386,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/02/German-shepherd-8kg.png",
       "alt": "Reflex Plus Adult Dog Food Breed Series German Shepherd Hypoallergenic 8kg",
-      "name": "German shepherd 8kg"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-german-shepherd-adult-dog-food/?add-to-cart=69386",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-02-02T11:17:43",
-  "dateModified": "2026-06-17T13:12:38",
+  "permalink": "https://petstore.co.ke/product/reflex-plus-german-shepherd-adult-dog-food/",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-german-shepherd-adult-dog-food/?add-to-cart=69386",
+  "shortDescription": "Reflex Plus German Shepherd Adult Dog Food is a complete and balanced dry diet specially formulated for German Shepherds over 10 months old. Made with",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/German-shepherd-8kg.png",
+  "sku": "PSK-69386",
   "brand": "Reflex",
   "weight_kg": 3,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/German-shepherd-8kg.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/German-shepherd-8kg.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

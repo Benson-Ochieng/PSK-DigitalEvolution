@@ -2,14 +2,12 @@
   "id": 59523,
   "name": "Pet Toilet Training Spray (Pet Inducer) - 60ml",
   "slug": "pet-toilet-training-spray-pet-inducer-60ml",
-  "sku": "CSPDI",
   "onSale": false,
   "price": 420,
   "regularPrice": 420,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/09/Pet-Inducer.png",
   "categories": [
     {
       "id": 2279,
@@ -32,57 +30,51 @@
       "slug": "dog-hygiene-potty-solutions"
     }
   ],
-  "brands": [
-    {
-      "id": 2434,
-      "name": "CS",
-      "slug": "cs"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pet-toilet-training-spray-pet-inducer-60ml/",
-  "shortDescription": "Quickly train your puppy or dog to use a designated toilet area with Pet Toilet Training Spray safe, effective, and perfect for stress-free housebreaking.",
   "description": "Help your pet develop healthy habits from the start with Pet &nbsp;Toilet Training Spray. A gentle yet effective solution designed to guide puppies and dogs to the right place for peeing or pooping. Formulated with a blend of safe ingredients including urea, two amid compounds, water, and pet-friendly fragrance, this spray mimics natural cues to attract your pet to a specific toilet area. Whether you're training a new puppy or reinforcing habits with older dogs, is the perfect aid to make house training easier for both you and your furry friend. Encourages pets to relieve themselves in a designated spot Ideal for indoor pads, outdoor spaces, and artificial turf Supports faster, stress-free toilet training Safe and non-toxic formula (but keep out of reach of children) How to Use: Spray a small amount of pet inducer on the area where you'd like your pet to relieve themselves. Allow your pet to sniff the area. Once your pet uses the designated spot, reward them with praise or a treat to reinforce the behavior. Repeat regularly until your pet consistently uses the spot.",
   "images": [
     {
-      "id": 59526,
+      "id": 59523,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/09/Pet-Inducer.png",
-      "alt": "Pet Toilet Training Spray (Pet Inducer) – 60ml",
-      "name": "Pet Inducer"
+      "alt": "Pet Toilet Training Spray (Pet Inducer) - 60ml",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "CS",
+      "slug": "cs"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/pet-toilet-training-spray-pet-inducer-60ml/?add-to-cart=59523",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-09-11T11:41:44",
-  "dateModified": "2026-06-17T04:30:25",
+  "permalink": "https://petstore.co.ke/product/pet-toilet-training-spray-pet-inducer-60ml/",
+  "addToCartUrl": "https://petstore.co.ke/product/pet-toilet-training-spray-pet-inducer-60ml/?add-to-cart=59523",
+  "shortDescription": "Help your pet develop healthy habits from the start with Pet &nbsp;Toilet Training Spray. A gentle yet effective solution designed to guide puppies an",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/09/Pet-Inducer.png",
+  "sku": "PSK-59523",
   "brand": "CS",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/09/Pet-Inducer.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/09/Pet-Inducer.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 46792,
   "name": "Pet Suction Rope Tug Ball Toy (Pa3555)",
   "slug": "pet-suction-rope-tug-ball-toy-2",
-  "sku": "PA3555",
   "onSale": false,
   "price": 1700,
   "regularPrice": 1700,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/05/PET-SUCTION-ROPE-TUG-BALL-TOY-e1715089819956.png",
   "categories": [
     {
       "id": 1204,
@@ -32,56 +30,51 @@
       "slug": "dog-rope-tug-toys"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pet-suction-rope-tug-ball-toy-2/",
-  "shortDescription": "This ingenious dog toy offers the paw-fect solution to keep your furry friend entertained for hours. With two assorted balls, your dog will never tire of this fun, interactive toy. It's not just a plaything, but a great way to keep your pet fit and healthy. &nbsp;",
   "description": "Looking for a way to keep your dog entertained whilst you're busy? Look no further than the UBL Pet Suction Rope Tug Ball. This ingenious dog toy offers the paw-fect solution to keep your furry friend entertained for hours. With two assorted balls, your dog will never tire of this fun, interactive toy. It's not just a plaything, but a great way to keep your pet fit and healthy. Interactive toy keeps dogs entertained for hours Sticks to any smooth surface for challenging play Durable rope and strong suction cup withstands tough tugs Easy to clean for prolonged use Two assorted balls for varied play Unlike ordinary dog toys, this UBL Pet Suction Rope Tug Ball sticks to any smooth surface, creating a challenging game for your pet. The durable rope and strong suction cup withstand even the most enthusiastic tugs, ensuring the toy lasts longer. It's a win-win, your dog gets the fun they crave, and you get peace of mind knowing they're occupied with a safe, durable toy. Plus, it's easy to clean, so you can keep it in tip-top condition for your pet. &nbsp;",
   "images": [
     {
-      "id": 46793,
+      "id": 46792,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/05/PET-SUCTION-ROPE-TUG-BALL-TOY-e1715089819956.png",
       "alt": "Pet Suction Rope Tug Ball Toy (Pa3555)",
-      "name": "PET SUCTION ROPE TUG BALL TOY"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/pet-suction-rope-tug-ball-toy-2/?add-to-cart=46792",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-05-07T16:46:06",
-  "dateModified": "2026-06-17T12:12:10",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/pet-suction-rope-tug-ball-toy-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/pet-suction-rope-tug-ball-toy-2/?add-to-cart=46792",
+  "shortDescription": "Looking for a way to keep your dog entertained whilst you're busy? Look no further than the UBL Pet Suction Rope Tug Ball. This ingenious dog toy offe",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/05/PET-SUCTION-ROPE-TUG-BALL-TOY-e1715089819956.png",
+  "sku": "PSK-46792",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/05/PET-SUCTION-ROPE-TUG-BALL-TOY-e1715089819956.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/05/PET-SUCTION-ROPE-TUG-BALL-TOY-e1715089819956.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

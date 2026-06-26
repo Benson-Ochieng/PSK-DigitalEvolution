@@ -2,14 +2,12 @@
   "id": 40912,
   "name": "Konggyro Large",
   "slug": "kong-gyro-large-2",
-  "sku": "PGY1@F",
   "onSale": false,
   "price": 2250,
   "regularPrice": 2250,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/12/PGY1.jpg",
   "categories": [
     {
       "id": 1204,
@@ -42,71 +40,51 @@
       "slug": "kong-accessories"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=40912",
-  "shortDescription": "KONG Toy Gyro Large",
   "description": "The KONGGyro is sure to entertain with irresistible roll and flip action keeping dogs enticed and intrigued. With the center spinning orb and static outer ring, this dynamic toy encourages dogs to push, paw and roll the GYRO, delightfully dispensing tasty treat rewards along the way. Ideal for independent play, stuff with snacks or kibble for added fun and extended playtime. Available in large and small sizes. Entertaining roll and flip action Dispenses food and treats Ideal for independent play Mentally stimulating treat dispenser",
   "images": [
     {
-      "id": 24978,
+      "id": 40912,
       "src": "https://petstore.co.ke/wp-content/uploads/2020/12/PGY1.jpg",
       "alt": "Konggyro Large",
-      "name": "PGY1"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/kong-gyro-large-2/?add-to-cart=40912",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2023-11-09T08:20:59",
-  "dateModified": "2026-05-06T17:09:03",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=40912",
+  "addToCartUrl": "https://petstore.co.ke/product/kong-gyro-large-2/?add-to-cart=40912",
+  "shortDescription": "The KONGGyro is sure to entertain with irresistible roll and flip action keeping dogs enticed and intrigued. With the center spinning orb and static o",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/12/PGY1.jpg",
+  "sku": "PSK-40912",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "cat",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/12/PGY1.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/12/PGY1.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

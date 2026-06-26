@@ -2,14 +2,12 @@
   "id": 28218,
   "name": "Miglior Dog Food Unico Pouch Turkey 100g",
   "slug": "migliorcane-unico-adult-mini-delicate-turkey-pate-100gr-2",
-  "sku": "MDW008",
   "onSale": false,
   "price": 204,
   "regularPrice": 204,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW008.jpg",
   "categories": [
     {
       "id": 2345,
@@ -37,67 +35,51 @@
       "slug": "wet-dog-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2451,
-      "name": "Miglior",
-      "slug": "miglior"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2108,
-      "name": "Mini breeds",
-      "slug": "mini-breeds"
-    },
-    {
-      "id": 2109,
-      "name": "Small breeds",
-      "slug": "small-breeds"
-    },
-    {
-      "id": 2272,
-      "name": "upsell-dog",
-      "slug": "upsell-dog"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/migliorcane-unico-adult-mini-delicate-turkey-pate-100gr-2/",
-  "shortDescription": "Migliorcane UNICO is a complete and balanced Super premium food, ideal for the daily diet of small dogs. UNICO: single protein , unique quality , great taste .",
   "description": "Treat your small dog to the exceptional taste and quality of Migliorcane Unico! This super premium, complete, and balanced food for small dogs, ensuring they receive the nutrition they need for a healthy, active life. Key Features: Single Protein Source: Made with high-quality turkey, ideal for dogs with sensitivities or those requiring a specific protein in their diet. Rich in Flavor: The delicious mousse texture is perfect for picky eaters, making mealtime a delightful experience. Complete Nutrition: Formulated to meet the daily dietary needs of small dogs, providing all essential nutrients for optimal health. Easy to Digest: Gentle on the stomach, making it suitable for dogs with sensitive digestion. Convenient Packaging: The 100g pack is perfect for a single meal or as a tasty addition to dry food. COMPOSITION: Turkey 65% (meat, livers), minerals. ANALYTICAL CONSTITUENTS: Moisture 78%, Crude protein 10%, Crude fat 7%, Crude fibres 0,3%, Crude ash 1,5%. Without colorants and preservatives. Nutritional additives / kg: Vitamin E 7,5 mg, Vitamin B1 4,2 mg, Vitamin B6 1,0 mg, Biotin (Vitamin H) 43,7 g, Zinc (Zinc sulphate monohydrate) 5,0 mg, Copper (Copper (II) sulphate pentahydrate) 0,2 mg, Manganese (Manganous sulphate monohydrate) 1,7 mg, Iodine (Potassium iodide) 0,7 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place. Give your furry friend a meal that’s not just nourishing, but also bursting with flavor. With Migliorcane Unico, you can be confident that you’re providing the best for your beloved pet!",
   "images": [
     {
-      "id": 28200,
+      "id": 28218,
       "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW008.jpg",
-      "alt": "Migliorcane Unico ADULT MINI DELICATE TURKEY PATÉ 100Gr",
-      "name": "MDW008"
+      "alt": "Miglior Dog Food Unico Pouch Turkey 100g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Miglior",
+      "slug": "miglior"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/migliorcane-unico-adult-mini-delicate-turkey-pate-100gr-2/?add-to-cart=28218",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2022-07-12T11:53:48",
-  "dateModified": "2026-06-17T12:12:09",
+  "permalink": "https://petstore.co.ke/product/migliorcane-unico-adult-mini-delicate-turkey-pate-100gr-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/migliorcane-unico-adult-mini-delicate-turkey-pate-100gr-2/?add-to-cart=28218",
+  "shortDescription": "Treat your small dog to the exceptional taste and quality of Migliorcane Unico! This super premium, complete, and balanced food for small dogs, ensuri",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW008.jpg",
+  "sku": "PSK-28218",
   "brand": "Miglior",
   "weight_kg": 0.1,
   "animal_type": "dog",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW008.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW008.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

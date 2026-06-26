@@ -2,14 +2,12 @@
   "id": 58280,
   "name": "Ferplast Adj. Padded Muzzle Large",
   "slug": "ferplast-adj-padded-muzzle-large",
-  "sku": "FAPML",
   "onSale": false,
   "price": 0,
   "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-53.png",
   "categories": [
     {
       "id": 1204,
@@ -32,46 +30,51 @@
       "slug": "dog-muzzles"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=58280",
-  "shortDescription": "The Ferplast Adjustable Padded Muzzle is designed to provide safety, comfort, and a secure fit for large dog breeds. Made from durable nylon with strategically placed soft padding, this muzzle prevents chafing while ensuring your dog can breathe, pant, and drink comfortably.",
   "description": "Key Features: • Durable Build: Constructed from high-quality nylon for strength and longevity. • Padded Comfort: Soft padding at contact points protects your dog’s skin and prevents irritation. • Customizable Fit: Fully adjustable straps for a secure and tailored fit to various snout shapes and sizes. • Safe & Practical: Allows natural panting and drinking while preventing unwanted biting or chewing. • Easy Maintenance: Simple to clean, ensuring lasting hygiene. Ideal For: • Large breeds with long snouts • Training sessions • Vet visits • Public outings For the best fit, measure your dog’s snout circumference and length before purchase. The Ferplast Adjustable Padded Muzzle is a trusted choice for owners seeking a balance of safety, comfort, and functionality.",
   "images": [
     {
-      "id": 58281,
+      "id": 58280,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-53.png",
       "alt": "Ferplast Adj. Padded Muzzle Large",
-      "name": "Untitled design (53)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/ferplast-adj-padded-muzzle-large/?add-to-cart=58280",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-08-11T12:38:54",
-  "dateModified": "2026-05-06T17:11:57",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=58280",
+  "addToCartUrl": "https://petstore.co.ke/product/ferplast-adj-padded-muzzle-large/?add-to-cart=58280",
+  "shortDescription": "Key Features: • Durable Build: Constructed from high-quality nylon for strength and longevity. • Padded Comfort: Soft padding at contact points protec",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-53.png",
+  "sku": "PSK-58280",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-53.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-53.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 43646,
   "name": "KONG Extreme XL",
   "slug": "kong-extreme-xl-3",
-  "sku": "UXL@F",
-  "onSale": true,
+  "onSale": false,
   "price": 2400,
-  "regularPrice": 2668,
-  "salePrice": 2400,
+  "regularPrice": 2400,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/12/UXL_Extreme_XL.jpg",
   "categories": [
     {
       "id": 2325,
@@ -42,71 +40,51 @@
       "slug": "kong-accessories"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=43646",
-  "shortDescription": "KONG Toy Extreme XL",
   "description": "The KONGExtreme dog toy represents the most durable strength of KONGrubber. Designed for the toughest of chewers, the KONGExtreme offers enrichment and helps satisfy dogs? instinctual needs. The KONGunique, ultra-durable, natural rubber formula is designed for determined chewers, while the erratic bounce fulfils a dog?s need to play. Want to extend playtime? Be sure to stuff with tempting bits of kibble and entice with a dash of peanut butter. Add to the fun by adding KONGSnacks and top with KONGEasy Treat. Stuff and Freeze for a longer-lasting challenge. Mentally stimulating toy; offering enrichment by helping satisfy dogs? instinctual needs KONGblack rubber formula is specifically designed for power chewers Unpredictable bounce for games of fetch Great for stuffing with KONGEasy Treat; Snacks or Ziggies Recommended worldwide by Veterinarians; Trainers; and dog enthusiasts Natural rubber Made in the USA. Globally Sourced Materials",
   "images": [
     {
-      "id": 24986,
+      "id": 43646,
       "src": "https://petstore.co.ke/wp-content/uploads/2020/12/UXL_Extreme_XL.jpg",
       "alt": "KONG Extreme XL",
-      "name": "UXL_Extreme_XL"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/kong-extreme-xl-3/?add-to-cart=43646",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-01-30T10:54:36",
-  "dateModified": "2026-05-06T17:09:26",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=43646",
+  "addToCartUrl": "https://petstore.co.ke/product/kong-extreme-xl-3/?add-to-cart=43646",
+  "shortDescription": "The KONGExtreme dog toy represents the most durable strength of KONGrubber. Designed for the toughest of chewers, the KONGExtreme offers enrichment an",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/12/UXL_Extreme_XL.jpg",
+  "sku": "PSK-43646",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "cat",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/12/UXL_Extreme_XL.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/12/UXL_Extreme_XL.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 44350,
   "name": "Veko-Banflea II Spot on 4.02ml XL dog-1PIP",
   "slug": "banflea-ii-spot-on-4-02ml-xl-dog-6-months-supply",
-  "sku": "BANFLEA 2",
   "onSale": false,
   "price": 1200,
   "regularPrice": 1200,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/02/Banflea-1pip-e1718197616651.png",
   "categories": [
     {
       "id": 2214,
@@ -17,51 +15,51 @@
       "slug": "veko"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1149,
-      "name": "flea & tick",
-      "slug": "flea-tick"
-    },
-    {
-      "id": 2288,
-      "name": "Medicine",
-      "slug": "medicine"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=44350",
-  "shortDescription": "To prevent and treat ticks, fleas, mosquitoes, biting flies, and lice.",
   "description": "To prevent and treat ticks, fleas, mosquitoes, biting flies, and lice, consider the generic equivalent of Advantix II. Acts as a deterrent and eliminates ticks, including Deer ticks (carriers of Lyme disease and anaplasmosis), American dog ticks (carriers of Rocky Mountain spotted fever, tularaemia, and ehrlichiosis), Brown dog ticks (carriers of ehrlichiosis, anaplasmosis, bordetellosis, canine hemoplasmas, babesiosis, and Rocky Mountain spotted fever), and Lone Star ticks (carriers of ehrlichiosis and tularaemia). &nbsp; Repels and eliminates all life stages of fleas and ticks. Compared to Frontline, Nexgard and Bravecto. Prevents fleas on treated dogs from infesting your home. Acts as a repellent against biting flies and mosquitoes and eliminates chewing lice. Kills fleas within 12 hours and continues to prevent infestations for a month. Halts the development of fleas, flea eggs, pupae, and larvae for a month. Also, kills larval flea stages in the dog's environment when they come into contact with a BanFlea® II-treated dog. Remains effective even when your pet gets wet, as it is waterproof. Offers convenience with a once-a-month application.",
   "images": [
     {
-      "id": 47790,
+      "id": 44350,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/02/Banflea-1pip-e1718197616651.png",
       "alt": "Veko-Banflea II Spot on 4.02ml XL dog-1PIP",
-      "name": "Banflea 1pip"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/banflea-ii-spot-on-4-02ml-xl-dog-6-months-supply/?add-to-cart=44350",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-02-13T11:58:28",
-  "dateModified": "2026-05-06T17:09:31",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=44350",
+  "addToCartUrl": "https://petstore.co.ke/product/banflea-ii-spot-on-4-02ml-xl-dog-6-months-supply/?add-to-cart=44350",
+  "shortDescription": "To prevent and treat ticks, fleas, mosquitoes, biting flies, and lice, consider the generic equivalent of Advantix II. Acts as a deterrent and elimina",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/02/Banflea-1pip-e1718197616651.png",
+  "sku": "PSK-44350",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/02/Banflea-1pip-e1718197616651.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/02/Banflea-1pip-e1718197616651.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

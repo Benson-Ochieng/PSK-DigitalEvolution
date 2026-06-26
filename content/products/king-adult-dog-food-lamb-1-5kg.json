@@ -2,14 +2,12 @@
   "id": 62319,
   "name": "King Adult Dog Food Lamb 1.5kg",
   "slug": "king-adult-dog-food-lamb-1-5kg",
-  "sku": "KDD007",
   "onSale": false,
   "price": 799,
   "regularPrice": 799,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/11/KING-4.png",
   "categories": [
     {
       "id": 2345,
@@ -32,57 +30,51 @@
       "slug": "king"
     }
   ],
-  "brands": [
-    {
-      "id": 2446,
-      "name": "King",
-      "slug": "king"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/king-adult-dog-food-lamb-1-5kg/",
-  "shortDescription": "Give your adult large breed dog a premium, all-natural meal with King Plus Adult Dog Food Lamb & Rice . Carefully crafted with high-quality lamb protein and enriched with brewer’s yeast, this fully balanced formula supports overall health, energy, and vitality.",
   "description": "King Plus Adult Dog Food Lamb & Rice is a fully balanced, all-natural formula designed to meet the nutritional needs of adult large breed dogs. Crafted with high-quality lamb protein and enriched with brewer’s yeast, this premium dog food supports immune health while providing optimal energy and vitality. Key Benefits: High-quality protein (21%) : Supports strong muscles and sustained energy for active adult dogs Balanced fat content (9%) : Promotes a healthy skin and shiny coat Fiber (4%) : Aids digestion and maintains gut health Crude ash (10%) : Supplies essential minerals for overall wellbeing Immune support : Enriched with brewer’s yeast to help strengthen immunity Palatable & nutritious : Carefully selected ingredients ensure a tasty, wholesome meal dogs love Premium Ingredients: Lamb, wheat, corn, processed animal protein, animal fat, corn gluten, liver aroma, rice, salt, and dried brewer’s yeast. Essential Minerals & Vitamins: Formulated with vital minerals such as calcium, phosphorus, sodium, iodine, zinc, copper, potassium chloride, iron, and selenium. It also contains a comprehensive vitamin complex including vitamins A, D, E, C, B1, B2, B3 (niacin), B6, B7 (biotin), B9 (folic acid), B12, K, along with choline and calcium pantothenate, ensuring complete nutrition for your dog’s health. This carefully balanced formula supports immune function, muscle maintenance, and overall vitality, making King Plus Lamb & Rice an excellent choice for adult large breed dogs.",
   "images": [
     {
-      "id": 62320,
+      "id": 62319,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/11/KING-4.png",
       "alt": "King Adult Dog Food Lamb 1.5kg",
-      "name": "KING (4)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "King",
+      "slug": "king"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/king-adult-dog-food-lamb-1-5kg/?add-to-cart=62319",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-11-13T13:30:36",
-  "dateModified": "2026-06-23T11:12:05",
+  "permalink": "https://petstore.co.ke/product/king-adult-dog-food-lamb-1-5kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/king-adult-dog-food-lamb-1-5kg/?add-to-cart=62319",
+  "shortDescription": "King Plus Adult Dog Food Lamb & Rice is a fully balanced, all-natural formula designed to meet the nutritional needs of adult large breed dogs. Crafte",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/11/KING-4.png",
+  "sku": "PSK-62319",
   "brand": "King",
   "weight_kg": 1.5,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/11/KING-4.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/11/KING-4.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

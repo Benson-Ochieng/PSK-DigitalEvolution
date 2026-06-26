@@ -2,14 +2,12 @@
   "id": 20022,
   "name": "Dog Toothbrush Stick - Medium Green",
   "slug": "dog-toothbrush-stick-medium-green",
-  "sku": "DTBSMGR",
   "onSale": false,
   "price": 2181,
   "regularPrice": 2181,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Toothbrush-Stick-Medium-Green-DTBSMGR.jpg",
   "categories": [
     {
       "id": 2399,
@@ -32,41 +30,51 @@
       "slug": "generic"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1824,
-      "name": "dental care",
-      "slug": "dental-care"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/dog-toothbrush-stick-medium-green/",
-  "shortDescription": "Keep your canine companion's teeth clean and healthy with our Dog Toothbrush Stick in a vibrant medium green. Designed for optimal dental care, this playful yet practical tool makes brushing your dog's teeth both effective and enjoyable.",
   "description": "Dog Toothbrush Stick Chew Toy. The base makes it easier for the dog to hold and promotes the dog's tooth cleaning and chewing pleasure. It has bristles on all sides. It can clean teeth in all directions. It is easy to clean and use. Keep your canine companion's teeth clean and healthy with our Dog Toothbrush Stick in a vibrant medium green. Designed for optimal dental care, this playful yet practical tool makes brushing your dog's teeth both effective and enjoyable. Key Features: Dental Health: The unique design helps to clean your dog's teeth and massage their gums, promoting better oral hygiene and reducing plaque buildup. Durable Material: Made from high-quality, non-toxic rubber that withstands vigorous chewing, ensuring long-lasting use. Interactive Design: The textured surface and playful shape encourage chewing, which can help clean teeth and prevent boredom. Easy to Use: Lightweight and ergonomically designed for comfortable handling, making brushing a stress-free experience for both you and your pet. Bright and Fun: The medium green color adds a touch of fun to your dog's dental routine, while being easy to spot among their toys. Make oral care a breeze with this engaging and effective Dog Toothbrush Stick and keep your dog's smile bright and healthy! &nbsp;",
   "images": [
     {
-      "id": 19969,
+      "id": 20022,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Toothbrush-Stick-Medium-Green-DTBSMGR.jpg",
       "alt": "Dog Toothbrush Stick - Medium Green",
-      "name": "Dog Toothbrush Stick &#8211; Medium Green DTBSMGR"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/dog-toothbrush-stick-medium-green/?add-to-cart=20022",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2021-04-14T22:17:43",
-  "dateModified": "2026-06-17T04:18:35",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/dog-toothbrush-stick-medium-green/",
+  "addToCartUrl": "https://petstore.co.ke/product/dog-toothbrush-stick-medium-green/?add-to-cart=20022",
+  "shortDescription": "Dog Toothbrush Stick Chew Toy. The base makes it easier for the dog to hold and promotes the dog's tooth cleaning and chewing pleasure. It has bristle",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Toothbrush-Stick-Medium-Green-DTBSMGR.jpg",
+  "sku": "PSK-20022",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Toothbrush-Stick-Medium-Green-DTBSMGR.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Toothbrush-Stick-Medium-Green-DTBSMGR.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

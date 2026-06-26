@@ -2,14 +2,12 @@
   "id": 57774,
   "name": "Felix Cat Pouch 85g Tuna",
   "slug": "felix-cat-pouch-85g-tuna",
-  "sku": "FCW005",
   "onSale": false,
   "price": 194,
   "regularPrice": 194,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-7.png",
   "categories": [
     {
       "id": 2325,
@@ -32,62 +30,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2437,
-      "name": "Felix",
-      "slug": "felix"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/felix-cat-pouch-85g-tuna/",
-  "shortDescription": "FELIX Cat Pouch 85g – Tuna . Packed with tender tuna pieces in a rich, mouth-watering jelly , this wet food provides complete and balanced nutrition for adult cats. Enriched with essential vitamins, minerals, and Omega 6 fatty acids , it supports a shiny coat, strong muscles, and everyday vitality. FELIX makes mealtime both wholesome and irresistibly tasty for your cat.",
   "description": "Perfect as an everyday meal or as a complementary snack, Felix as Good As It Looks turns mealtimes into a delightful feast your cat will eagerly look forward to. Why Your Cat Will Love It: • Made with tender pieces of tuna in a rich, tasty jelly. • 100% complete and balanced for daily feeding. • Packed with essential vitamins and minerals to support overall health. • Omega-6 fatty acids for a shiny, healthy coat. Irresistible aroma and texture - even picky eaters will enjoy",
   "images": [
     {
-      "id": 57775,
+      "id": 57774,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-7.png",
       "alt": "Felix Cat Pouch 85g Tuna",
-      "name": "Untitled design (7)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Felix",
+      "slug": "felix"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/felix-cat-pouch-85g-tuna/?add-to-cart=57774",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-08-08T11:49:19",
-  "dateModified": "2026-06-24T10:11:59",
+  "permalink": "https://petstore.co.ke/product/felix-cat-pouch-85g-tuna/",
+  "addToCartUrl": "https://petstore.co.ke/product/felix-cat-pouch-85g-tuna/?add-to-cart=57774",
+  "shortDescription": "Perfect as an everyday meal or as a complementary snack, Felix as Good As It Looks turns mealtimes into a delightful feast your cat will eagerly look ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-7.png",
+  "sku": "PSK-57774",
   "brand": "Felix",
-  "weight_kg": 0.085,
+  "weight_kg": 0.09,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-7.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-7.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 69405,
   "name": "Reflex Plus Adult Dog Food Breed Series Pomeranian Hypoallergenic 2kg",
   "slug": "reflex-plus-pomeranian-adult-dog-food",
-  "sku": "RPDD019",
   "onSale": false,
   "price": 3450,
   "regularPrice": 3450,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/POMERANIAN-hypoallergenic.png",
   "categories": [
     {
       "id": 2345,
@@ -32,57 +30,51 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
-    {
-      "id": 2854,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=69405",
-  "shortDescription": "Reflex Plus Pomeranian Adult Dog Food is a super-premium dry diet for dogs 10+ months. Supports joint, urinary, immune, digestion, skin & coat health with high-quality animal protein. &nbsp;",
   "description": "Complete & Balanced Super Premium Dry Food for Pomeranian Dogs (10+ Months) Reflex Plus Pomeranian Adult Dog Food is a complete and balanced dry diet specially formulated for Pomeranian dogs over 10 months old. Made with high-quality animal proteins, it supports joint health, digestion, urinary tract health, skin and coat condition, and overall vitality. This formula is enriched with functional ingredients such as prebiotics, glucosamine, chondroitin sulfate, DL-Methionine, borage oil, and flaxseed, providing immune system support, anti-inflammatory benefits, joint flexibility, urinary tract health, and a shiny, healthy coat. Fos & Mos Prebiotics : It is a natural additive that has a positive effect on maintaining immune and digestive system health. Borage Oil : Due to its omega-3 fatty acid content, it has anti-inflammatory effects that support joint health. DL-Methionine : It helps support urinary tract health, regulate urine pH, and reduce the formation of urine crystals. Chondroitin Sulfate : It helps preserve the structure of cartilage tissue in joints and supports the production of joint fluid. Flaxseed : It is a natural plant-based source rich in Omega-3 fatty acids. Glucosamine : It helps to maintain joint flexibility and improve joint health. Key Benefits Formulated specifically for Pomeranians (10+ months) 85% of total protein comes from premium animal ingredients Supports immune and digestive system health (FOS & MOS prebiotics) Promotes joint health and flexibility (Glucosamine & Chondroitin Sulfate) Supports urinary tract health and helps regulate urine pH (DL-Methionine) Supports skin and coat condition (Borage Oil & Flaxseed) Antioxidant-rich formula (Blueberries) Balanced nutrition for optimal energy and vitality Ingredients Processed chicken protein, Corn, Chicken fat, Rice, Fish protein, Dried beet pulp, Pea protein, Fish oil, Liver aroma, Hydrolyzed chicken protein, Vitamins and minerals, DL-Methionine, Psyllium fiber, Brewer's yeast, Fiber concentrate, Borage oil, Blueberries, MOS (mannan-oligosaccharides), Flaxseed, Yucca schidigera, Salt, FOS (fructo-oligosaccharides), Glucosamine, Chondroitin sulfate, Preservatives & antioxidants (E320 & E321). Analytical Constituents Crude Protein: 26% Crude Fat: 16% Crude Ash: 7% Crude Fibre: 2.5% Nutritional Supplements Vitamins: Vitamin A: 18,000 IU/kg Vitamin D3: 1,500 IU/kg Vitamin E: 200 mg/kg Vitamin C: 200 mg/kg B Vitamins (B1, B2, B3, B6, B12, Biotin, Folic Acid), Vitamin K3, Choline, Calcium Pantothenate Minerals: Iron, Iodine, Copper, Manganese, Zinc, Selenium Feeding Guidelines Suitable for Pomeranians aged 10 months and above Feed according to body weight, activity level, and lifestyle Provide clean, fresh drinking water at all times Gradually introduce new food over 5–7 days Store in a cool, dry place; close the bag properly after each feeding Not suitable for human consumption &nbsp; &nbsp;",
   "images": [
     {
-      "id": 69407,
+      "id": 69405,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/02/POMERANIAN-hypoallergenic.png",
       "alt": "Reflex Plus Adult Dog Food Breed Series Pomeranian Hypoallergenic 2kg",
-      "name": "POMERANIAN hypoallergenic"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-pomeranian-adult-dog-food/?add-to-cart=69405",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-02-02T12:24:40",
-  "dateModified": "2026-05-29T15:12:16",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=69405",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-pomeranian-adult-dog-food/?add-to-cart=69405",
+  "shortDescription": "Complete & Balanced Super Premium Dry Food for Pomeranian Dogs (10+ Months) Reflex Plus Pomeranian Adult Dog Food is a complete and balanced dry diet ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/POMERANIAN-hypoallergenic.png",
+  "sku": "PSK-69405",
   "brand": "Reflex",
   "weight_kg": 3,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/POMERANIAN-hypoallergenic.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/POMERANIAN-hypoallergenic.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

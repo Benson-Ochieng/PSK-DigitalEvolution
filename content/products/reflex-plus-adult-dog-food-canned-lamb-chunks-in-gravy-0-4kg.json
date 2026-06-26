@@ -2,14 +2,12 @@
   "id": 12630,
   "name": "Reflex Plus Adult Dog Food Canned - Lamb Chunks in Gravy 400g",
   "slug": "reflex-plus-adult-dog-food-canned-lamb-chunks-in-gravy-0-4kg",
-  "sku": "RPDW004",
-  "onSale": true,
+  "onSale": false,
   "price": 244,
-  "regularPrice": 305,
-  "salePrice": 244,
+  "regularPrice": 244,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Plus-Lamb-chunks-in-jelly.png",
   "categories": [
     {
       "id": 2345,
@@ -32,62 +30,51 @@
       "slug": "wet-dog-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 622,
-      "name": "canned food",
-      "slug": "canned-food"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 939,
-      "name": "On Sale Now",
-      "slug": "sale"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/reflex-plus-adult-dog-food-canned-lamb-chunks-in-gravy-0-4kg/",
-  "shortDescription": "Reflex Plus Lamb Adult Dog Canned Food, its nutritional value and digestibility are high thanks to its high-quality animal protein and vitamin diversity. Its functional ingredients support many systems, while its high-water content contributes to daily water intake and supports kidney health.",
   "description": "Give your dog the premium nutrition they deserve with Reflex Plus Lamb Adult Dog Canned Food . Specially formulated for adult dogs, this wholesome meal provides a balanced blend of high-quality animal proteins, vitamins, and minerals to support overall health and vitality. Made with 4% real lamb , it offers excellent taste and digestibility, making it ideal even for dogs with sensitive stomachs. Its high moisture content helps maintain proper hydration and supports kidney function, while functional ingredients promote healthy digestion, a shiny coat, and strong immunity. Key Benefits: High-quality lamb protein for strong muscles and easy digestion Enriched with vitamins and minerals for complete nutrition Supports hydration and kidney health with high water content Promotes healthy skin and a glossy coat Suitable for all adult dog breeds Ingredients: Meat and animal derivatives (Lamb 4%), Cereals, Minerals, Derivatives of plant origin. Nutritional Components Crude protein 8% Fat content 5% Crude fiber 0.5% Raw ash 2.5% Moisture Content 80% Nutritional Additives Nutritional supplements: Vitamin A 2250 IU, Vitamin D3 328 IU, Vitamin E 26 mg. Trace Elements: 3b605 (Zinc 24mg/kg), 3b103 (Iron 12.5mg/kg), 3b405 (Copper 2.5mg/kg), 3b503 (Manganese 2mg/kg), 3b202 (Iodine 0.45mg/kg), 3b801 (Selenium 0.04mg/kg). Nutritional Recommendations Serve at room temperature. • Clean, fresh drinking water should always be available. • If this food is new to your dog, introduce it gradually over a few days. • The exact amount of food for your dog may vary depending on many factors such as age, breed, weight, sex, and activity level. • Not suitable for human use.",
   "images": [
     {
-      "id": 61815,
+      "id": 12630,
       "src": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Plus-Lamb-chunks-in-jelly.png",
-      "alt": "Reflex Plus Adult Dog Food Canned – Lamb Chunks in Gravy 400g",
-      "name": "Reflex Plus Lamb chunks in jelly"
+      "alt": "Reflex Plus Adult Dog Food Canned - Lamb Chunks in Gravy 400g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-adult-dog-food-canned-lamb-chunks-in-gravy-0-4kg/?add-to-cart=12630",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2020-04-07T20:14:37",
-  "dateModified": "2026-06-22T12:12:16",
+  "permalink": "https://petstore.co.ke/product/reflex-plus-adult-dog-food-canned-lamb-chunks-in-gravy-0-4kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-adult-dog-food-canned-lamb-chunks-in-gravy-0-4kg/?add-to-cart=12630",
+  "shortDescription": "Give your dog the premium nutrition they deserve with Reflex Plus Lamb Adult Dog Canned Food . Specially formulated for adult dogs, this wholesome mea",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Plus-Lamb-chunks-in-jelly.png",
+  "sku": "PSK-12630",
   "brand": "Reflex",
   "weight_kg": 0.4,
   "animal_type": "dog",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Plus-Lamb-chunks-in-jelly.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Plus-Lamb-chunks-in-jelly.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

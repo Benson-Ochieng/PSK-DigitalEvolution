@@ -2,14 +2,12 @@
   "id": 63394,
   "name": "King Adult Cat Food Beef 300g",
   "slug": "king-adult-cat-food-beef-300g",
-  "sku": "KCD009",
   "onSale": false,
   "price": 375,
   "regularPrice": 375,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/12/King-300g-.png",
   "categories": [
     {
       "id": 2325,
@@ -32,57 +30,51 @@
       "slug": "king"
     }
   ],
-  "brands": [
-    {
-      "id": 2446,
-      "name": "King",
-      "slug": "king"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/king-adult-cat-food-beef-300g/",
-  "shortDescription": "King Adult Dry Cat Food delivers 28% protein, essential vitamins, minerals, and taurine to support muscle strength, energy, immunity, and overall wellness in adult cats. A complete, balanced diet for daily feline nutrition.",
   "description": "Give your adult cat complete and balanced nutrition with King Adult Dry Cat Food , a high-quality formula designed to fuel everyday vitality. Crafted with essential animal proteins, healthy fats, and a rich blend of vitamins and minerals, King ensures your feline companion receives everything needed for strong muscles, sustained energy, and lifelong well-being. This nutrient-dense dry food features approximately 28% high-quality protein , ideal for supporting lean muscle and maintaining an active, healthy lifestyle. Essential fatty acids promote a shiny coat and healthy skin, while added taurine supports heart health and clear vision two critical needs for adult cats. King Adult Cat Food is also enriched with digestible fibers to aid smooth digestion, alongside key minerals such as calcium, phosphorus, zinc, and iron to support bone strength, immunity, and overall body function. With its flavorful recipe and balanced composition, it’s a reliable daily diet for cats of all breeds. Key Benefits 28% high-quality animal protein supports lean muscle and overall strength. Essential fatty acids help maintain a glossy coat and healthy skin. Taurine-enriched formula supports heart and vision health. Added vitamins A, D3, E, C, and B-complex boost immunity and vitality. Fiber content promotes healthy digestion and nutrient absorption. Suitable for all adult cat breeds requiring balanced daily nutrition. Feeding Guidelines Adjust feeding amounts based on weight, activity level, and appetite: 1–2 kg: 30–45g/day 3–4 kg: 60–80g/day 5–6 kg: 100–120g/day 7–8 kg: 140–160g/day Ensure fresh drinking water is available at all times. Storage Instructions Store in a cool, dry place . Keep away from direct sunlight. Reseal the bag tightly after opening to maintain freshness. Shelf life: 18 months from production . &nbsp; &nbsp; &nbsp;",
   "images": [
     {
-      "id": 77702,
+      "id": 63394,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/12/King-300g-.png",
       "alt": "King Adult Cat Food Beef 300g",
-      "name": "King 300g"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "King",
+      "slug": "king"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/king-adult-cat-food-beef-300g/?add-to-cart=63394",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-12-04T12:18:11",
-  "dateModified": "2026-06-17T05:01:27",
+  "permalink": "https://petstore.co.ke/product/king-adult-cat-food-beef-300g/",
+  "addToCartUrl": "https://petstore.co.ke/product/king-adult-cat-food-beef-300g/?add-to-cart=63394",
+  "shortDescription": "Give your adult cat complete and balanced nutrition with King Adult Dry Cat Food , a high-quality formula designed to fuel everyday vitality. Crafted ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/12/King-300g-.png",
+  "sku": "PSK-63394",
   "brand": "King",
   "weight_kg": 0.3,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/12/King-300g-.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/12/King-300g-.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

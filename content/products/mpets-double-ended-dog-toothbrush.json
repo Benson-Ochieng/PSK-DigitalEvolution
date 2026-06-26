@@ -2,14 +2,12 @@
   "id": 27334,
   "name": "Mpets Double Ended Dog Toothbrush",
   "slug": "mpets-double-ended-dog-toothbrush",
-  "sku": "MPDETB",
   "onSale": false,
   "price": 500,
   "regularPrice": 500,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/MPDETB.jpg",
   "categories": [
     {
       "id": 2399,
@@ -32,47 +30,51 @@
       "slug": "mpets"
     }
   ],
-  "brands": [
-    {
-      "id": 2454,
-      "name": "MPETS",
-      "slug": "mpets"
-    }
-  ],
-  "tags": [
-    {
-      "id": 1824,
-      "name": "dental care",
-      "slug": "dental-care"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/mpets-double-ended-dog-toothbrush/",
-  "shortDescription": "Mpets Double Ended Dog Toothbrush",
   "description": "Mpets Double Ended Dog Toothbrush 2x22cm",
   "images": [
     {
-      "id": 27326,
+      "id": 27334,
       "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPDETB.jpg",
       "alt": "Mpets Double Ended Dog Toothbrush",
-      "name": "MPDETB"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "MPETS",
+      "slug": "mpets"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/mpets-double-ended-dog-toothbrush/?add-to-cart=27334",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2022-04-20T16:20:40",
-  "dateModified": "2026-06-17T04:28:47",
+  "permalink": "https://petstore.co.ke/product/mpets-double-ended-dog-toothbrush/",
+  "addToCartUrl": "https://petstore.co.ke/product/mpets-double-ended-dog-toothbrush/?add-to-cart=27334",
+  "shortDescription": "Mpets Double Ended Dog Toothbrush 2x22cm",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/MPDETB.jpg",
+  "sku": "PSK-27334",
   "brand": "MPETS",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPDETB.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPDETB.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

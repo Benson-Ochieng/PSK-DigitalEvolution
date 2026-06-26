@@ -2,14 +2,12 @@
   "id": 47998,
   "name": "SHORT EXPIRY - CLEARANCE: Bonnie Adult Dog Food Canned Lamb Chunks inGravy 415g",
   "slug": "short-expiry-clearance-bonnie-adult-dog-food-canned-lamb-chunks-in-gravy-415g",
-  "sku": "BDW003@SE",
-  "onSale": true,
+  "onSale": false,
   "price": 131,
-  "regularPrice": 263,
-  "salePrice": 131,
+  "regularPrice": 131,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/06/Bonnie-Adult-Dog-Food-Canned-–-Lamb-Chunks-in-Gravy-0.4kg-min.png",
   "categories": [
     {
       "id": 177,
@@ -37,62 +35,51 @@
       "slug": "wet-dog-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2428,
-      "name": "Bonnie",
-      "slug": "bonnie"
-    }
-  ],
-  "tags": [
-    {
-      "id": 622,
-      "name": "canned food",
-      "slug": "canned-food"
-    },
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=47998",
-  "shortDescription": "(4 pieces minimum order) Fully balanced, lamb protein-containing all-natural canned dog food carefully formulated by dog nutritionists to meet the nutritional requirements of all adult breeds.",
   "description": "Bonnie Lamb Chunks in Gravy Adult Dog Canned Food , fully balanced, lamb protein-containing cat food carefully formulated by dog nutritionists to meet the nutritional requirements of all adult breeds. NUTRIENT COMPONENTS Crude Protein (%) - 6.5 Crude Oils & Fats (%) - 3.5 Crude Fiber (%) - 0.3 Moisture (%) - 82 Crude Ash (%) - 2.0 Vitamin E (Min) - 240 IE/kg Vitamin D3 (Min) - 150 IE/kg Copper - 10 mg/kg Manganese - 1.9 mg/kg Zinc - 0.4 mg/kg INGREDIENTS: Meat and Animal Derivatives (Lamb 4% min.), Cereals, Minerals, Vegetable by Products, Sugar. MINERALS: Iron, Copper, Iodine, Manganese, Zinc, Selenium VITAMINS: Vit. E, Vit. D FEEDING RECOMMENDATION: See information below. The individual necessity depends on age, breed or activity. Serve at room temperature. DOG SIZE (Cans per meal) Toy (up to 5kg): up to 1 can Small (5-10kg): 1 - 2 cans Medium (10-20kg): 2 - 3 cans Large (20-35kg): 3 - 5 cans",
   "images": [
     {
-      "id": 32330,
+      "id": 47998,
       "src": "https://petstore.co.ke/wp-content/uploads/2020/06/Bonnie-Adult-Dog-Food-Canned-–-Lamb-Chunks-in-Gravy-0.4kg-min.png",
-      "alt": "BDW003",
-      "name": "Bonnie Adult Dog Food Canned – Lamb Chunks in Gravy 0.4kg-min"
+      "alt": "SHORT EXPIRY - CLEARANCE: Bonnie Adult Dog Food Canned Lamb Chunks inGravy 415g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Bonnie",
+      "slug": "bonnie"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-bonnie-adult-dog-food-canned-lamb-chunks-in-gravy-415g/?add-to-cart=47998",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-06-24T16:17:57",
-  "dateModified": "2026-06-17T04:32:51",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=47998",
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-bonnie-adult-dog-food-canned-lamb-chunks-in-gravy-415g/?add-to-cart=47998",
+  "shortDescription": "Bonnie Lamb Chunks in Gravy Adult Dog Canned Food , fully balanced, lamb protein-containing cat food carefully formulated by dog nutritionists to meet",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/06/Bonnie-Adult-Dog-Food-Canned-–-Lamb-Chunks-in-Gravy-0.4kg-min.png",
+  "sku": "PSK-47998",
   "brand": "Bonnie",
   "weight_kg": 0.4,
   "animal_type": "dog",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/06/Bonnie-Adult-Dog-Food-Canned-–-Lamb-Chunks-in-Gravy-0.4kg-min.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/06/Bonnie-Adult-Dog-Food-Canned-–-Lamb-Chunks-in-Gravy-0.4kg-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 44532,
   "name": "Pet Hair Removal Brush 15.5x7.5cm",
   "slug": "pet-hair-removal-brush-15-5x7-5cm",
-  "sku": "PA4433",
   "onSale": false,
   "price": 2100,
   "regularPrice": 2100,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/02/PET-HAIR-REMOVAL-BRUSH.png",
   "categories": [
     {
       "id": 1204,
@@ -37,51 +35,51 @@
       "slug": "generic"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pet-hair-removal-brush-15-5x7-5cm/",
-  "shortDescription": "A new professional ergonomic design, equipped with double-layer zigzag silica gel hairbrush, which easily clean the deep stubborn hair. Good to used comfortably when combing pet hair.",
   "description": "Pet hair removal brush with soft silicone gel material, cleans furniture, carpet, home and car interior. Remove unwanted animal hair from Labrador, Border collie, cats, Corgi, Eskimo etc. A new professional ergonomic design, equipped with double-layer zigzag silica gel hairbrush, easily clean the deep stubborn hair. Easy to carry, clean the home fabric and carpet. Cleans corner and depressions not accessible by other brushes. It makes a great gift to your friends or family.",
   "images": [
     {
-      "id": 44533,
+      "id": 44532,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/02/PET-HAIR-REMOVAL-BRUSH.png",
-      "alt": "Pet Hair Removal Brush 15.5×7.5cm",
-      "name": "PET HAIR REMOVAL BRUSH"
+      "alt": "Pet Hair Removal Brush 15.5x7.5cm",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/pet-hair-removal-brush-15-5x7-5cm/?add-to-cart=44532",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-02-19T13:04:59",
-  "dateModified": "2026-06-17T04:14:36",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/pet-hair-removal-brush-15-5x7-5cm/",
+  "addToCartUrl": "https://petstore.co.ke/product/pet-hair-removal-brush-15-5x7-5cm/?add-to-cart=44532",
+  "shortDescription": "Pet hair removal brush with soft silicone gel material, cleans furniture, carpet, home and car interior. Remove unwanted animal hair from Labrador, Bo",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/02/PET-HAIR-REMOVAL-BRUSH.png",
+  "sku": "PSK-44532",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/02/PET-HAIR-REMOVAL-BRUSH.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/02/PET-HAIR-REMOVAL-BRUSH.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

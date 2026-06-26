@@ -2,14 +2,12 @@
   "id": 62593,
   "name": "Josera Sensicat 2kg",
   "slug": "josera-sensicat-2kg-2",
-  "sku": "JCS@F",
-  "onSale": true,
+  "onSale": false,
   "price": 3394,
-  "regularPrice": 3994,
-  "salePrice": 3394,
+  "regularPrice": 3394,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JCS.jpg",
   "categories": [
     {
       "id": 2112,
@@ -17,47 +15,51 @@
       "slug": "josera"
     }
   ],
-  "brands": [
-    {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=62593",
-  "shortDescription": "SensiCat is well-balanced formula with high-quality ingredients ensures high digestibility. Ideal for adult cats and cats with a sensitive digestive system.",
   "description": "Composition: poultry protein (dried); maize; rice; greaves; poultry fat; sugar beet pulp; poultry protein (hydrolysed), maize protein; poultry liver (dried), minerals. Product Details: SensiCat is well-balanced formula with high-quality ingredients ensures high digestibility. Ideal for adult cats and cats with a sensitive digestive system. Highly accepted formula and easily digestible ingredients Encourages a pH-value of 6.0-6.5 to reduce the risk of urinary stone formation Dietary fibre reduces hairball formation Also suitable for kittens from 6 months on that prefer a larger kibble size. Nutritional Analysis Nutrient Value Protein ~33% Fat ~12% Crude Fiber ~2.5% Crude Ash ~7% Moisture ~10% &nbsp; Why Choose JOSERA SensiCat? Gentle on Digestion – carefully selected ingredients ensure high digestibility, making it ideal for cats with sensitive stomachs. Reduces Hairball Formation – dietary fibers help prevent hairballs by supporting healthy digestion. Urinary Health Support – promotes a healthy pH value (6.0–6.5) to lower the risk of urinary stones. Highly Palatable – loved by even the fussiest eaters, with a texture and flavor cats adore. Suitable for Young Cats – perfect for kittens 6 months and older who prefer larger kibble. &nbsp;",
   "images": [
     {
-      "id": 23779,
+      "id": 62593,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JCS.jpg",
       "alt": "Josera Sensicat 2kg",
-      "name": "JCS.jpg"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/josera-sensicat-2kg-2/?add-to-cart=62593",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-11-21T10:20:54",
-  "dateModified": "2026-06-17T04:33:52",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=62593",
+  "addToCartUrl": "https://petstore.co.ke/product/josera-sensicat-2kg-2/?add-to-cart=62593",
+  "shortDescription": "Composition: poultry protein (dried); maize; rice; greaves; poultry fat; sugar beet pulp; poultry protein (hydrolysed), maize protein; poultry liver (",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JCS.jpg",
+  "sku": "PSK-62593",
   "brand": "Josera",
   "weight_kg": 2,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JCS.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JCS.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

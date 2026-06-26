@@ -2,14 +2,12 @@
   "id": 66356,
   "name": "Churu Cat Treats Tuna With Cheese Recipe 4 Tubes",
   "slug": "churu-tuna-with-cheese-recipe-lickable-cat-treats",
-  "sku": "BCCT016",
   "onSale": false,
   "price": 350,
   "regularPrice": 350,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/CHURU-TUNA-CHEESE-.png",
   "categories": [
     {
       "id": 2325,
@@ -37,52 +35,51 @@
       "slug": "kitten-treats"
     }
   ],
-  "brands": [
-    {
-      "id": 2433,
-      "name": "Churu",
-      "slug": "churu"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/churu-tuna-with-cheese-recipe-lickable-cat-treats/",
-  "shortDescription": "Creamy Churu Tuna with Cheese cat treats made with real tuna and cheese, only 6 calories per tube, 91% moisture, grain-free, and enriched with taurine for healthy, happy cats.",
   "description": "Delight your cat with the irresistibly creamy taste of Churu Tuna with Cheese Recipe . Made with high-quality, wholesome ingredients, these lickable purée treats deliver exceptional flavor while supporting your cat’s hydration and overall wellbeing. Each tube contains 91% moisture and only 6 calories , making it a healthy, guilt-free treat for cats of all life stages. Perfect for hand-feeding, as a food topper, or for disguising medication, Churu makes every moment delicious and engaging. Key Benefits Wholesome ingredients you can trust – Natural wild-caught tuna and real cheese Supports hydration – High moisture content helps keep cats well hydrated Low-calorie treat – Only 6 kcal per tube Free from the bad stuff – No grains, preservatives, artificial colors, or carrageenan Added Taurine & Vitamin E – Supports heart, vision, and overall health Versatile feeding options – Feed by hand, use as a topper, or to administer medication Feeding Instructions Feed as a treat only. Not intended as a complete meal. Always provide clean, fresh water and consult your veterinarian regularly. Storage Instructions Refrigerate after opening and serve as soon as possible. Ingredients Water, Tuna, Cheese (Milk, Water, Phosphoric Acid), Tapioca Starch, Natural Flavors, Guar Gum, Natural Tuna Flavor, Vitamin E Supplement, Taurine, Green Tea Extract. Guaranteed Analysis Crude Protein (min): 7.00% Crude Fat (min): 0.20% Crude Fiber (max): 0.30% Moisture (max): 91.00% Vitamin E (min): 310 IU/kg Taurine (min): 0.025% Calorie Content: 430 kcal/kg, 6.0 kcal per tube (ME) Net Weight: 2.0 oz (0.5 oz × 4 tubes)",
   "images": [
     {
-      "id": 66357,
+      "id": 66356,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/01/CHURU-TUNA-CHEESE-.png",
       "alt": "Churu Cat Treats Tuna With Cheese Recipe 4 Tubes",
-      "name": "CHURU TUNA CHEESE"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Churu",
+      "slug": "churu"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/churu-tuna-with-cheese-recipe-lickable-cat-treats/?add-to-cart=66356",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-01-07T10:08:35",
-  "dateModified": "2026-06-22T12:12:01",
+  "permalink": "https://petstore.co.ke/product/churu-tuna-with-cheese-recipe-lickable-cat-treats/",
+  "addToCartUrl": "https://petstore.co.ke/product/churu-tuna-with-cheese-recipe-lickable-cat-treats/?add-to-cart=66356",
+  "shortDescription": "Delight your cat with the irresistibly creamy taste of Churu Tuna with Cheese Recipe . Made with high-quality, wholesome ingredients, these lickable p",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/CHURU-TUNA-CHEESE-.png",
+  "sku": "PSK-66356",
   "brand": "Churu",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/CHURU-TUNA-CHEESE-.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/CHURU-TUNA-CHEESE-.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

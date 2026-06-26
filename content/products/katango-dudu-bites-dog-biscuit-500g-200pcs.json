@@ -2,14 +2,12 @@
   "id": 48184,
   "name": "Dudu Bites Dog Biscuit 500g (200pcs)",
   "slug": "katango-dudu-bites-dog-biscuit-500g-200pcs",
-  "sku": "DBD05@F",
-  "onSale": true,
+  "onSale": false,
   "price": 720,
-  "regularPrice": 900,
-  "salePrice": 720,
+  "regularPrice": 720,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/05/WhatsApp-Image-2024-04-29-at-12.48.32.jpeg",
   "categories": [
     {
       "id": 2332,
@@ -17,53 +15,51 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=48184",
-  "shortDescription": "Dudu Bites – our 100% natural tasty treat and topper for your dog! 10 Week Shelf- life.",
   "description": "Katango Dudu Bites dog biscuits offer homemade goodness, crafted with care for your furry friend. These treats are both delightful and nutritious, approved by a licensed canine nutritionist. Free from strange preservatives, artificial flavors, or colors, and without any artificial fillers, they contain only all-natural ingredients made with love by a dedicated dog enthusiast. Perfect for treating your dog, as a snack, or as a tasty addition to their regular meals. Dudu Bites: Dry biscuit treat / topper All natural, no additives Protein: 27% Fats: 8% Fiber: 7% Max Ash: 4% Wholefood ingredients: Black Soldier Fly Larvae (Insect protein) Zucchini Carrots Potatoes Sweet Potatoes Spinach Apples Eggs Bananas Beef Liver Flaxseeds Rosemary Parsley GRAIN FREE! &nbsp;",
   "images": [
     {
-      "id": 46896,
+      "id": 48184,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/05/WhatsApp-Image-2024-04-29-at-12.48.32.jpeg",
-      "alt": "Dudu Bites Dog Biscuit 100g (40pcs)",
-      "name": "WhatsApp Image 2024-04-29 at 12.48.32"
-    },
+      "alt": "Dudu Bites Dog Biscuit 500g (200pcs)",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
     {
-      "id": 46893,
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/05/WhatsApp-Image-2024-04-29-at-12.48.26.jpeg",
-      "alt": "Dudu Bites Dog Biscuit 100g (40pcs)",
-      "name": "WhatsApp Image 2024-04-29 at 12.48.26"
-    },
-    {
-      "id": 46897,
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/05/WhatsApp-Image-2024-04-29-at-12.48.28.jpeg",
-      "alt": "Dudu Bites Dog Biscuit 100g (40pcs)",
-      "name": "WhatsApp Image 2024-04-29 at 12.48.28"
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/katango-dudu-bites-dog-biscuit-500g-200pcs/?add-to-cart=48184",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-07-01T16:47:41",
-  "dateModified": "2026-05-06T17:10:17",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=48184",
+  "addToCartUrl": "https://petstore.co.ke/product/katango-dudu-bites-dog-biscuit-500g-200pcs/?add-to-cart=48184",
+  "shortDescription": "Katango Dudu Bites dog biscuits offer homemade goodness, crafted with care for your furry friend. These treats are both delightful and nutritious, app",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/05/WhatsApp-Image-2024-04-29-at-12.48.32.jpeg",
+  "sku": "PSK-48184",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/05/WhatsApp-Image-2024-04-29-at-12.48.32.jpeg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/05/WhatsApp-Image-2024-04-29-at-12.48.32.jpeg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

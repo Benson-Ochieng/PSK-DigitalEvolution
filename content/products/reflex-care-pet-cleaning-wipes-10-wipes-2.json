@@ -2,14 +2,12 @@
   "id": 51513,
   "name": "Reflex Care Pet Cleaning Wipes 10 wipes",
   "slug": "reflex-care-pet-cleaning-wipes-10-wipes-2",
-  "sku": "RCPC001",
   "onSale": false,
   "price": 150,
   "regularPrice": 150,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CARE-PET-CLEANING-WIPES-10-WIPES.png",
   "categories": [
     {
       "id": 2345,
@@ -32,52 +30,51 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
-    {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/reflex-care-pet-cleaning-wipes-10-wipes-2/",
-  "shortDescription": "Reflex Pet Wipes are an easy, effective solution for keeping your pet clean and fresh between baths. These gentle wipes are designed to quickly remove dirt, odors, and debris from your pet's coat, paws, and skin. Ideal for pets of all sizes and types, including dogs and cats, these wipes help maintain your pet’s hygiene and promote a healthy, shiny coat. 10pcs 8.4cmx8.4cm",
   "description": "Reflex Pet Wipes are free from harsh chemicals, making them safe for sensitive skin. They are enriched with soothing aloe vera and vitamin E to nourish and moisturize the skin while cleaning, ensuring your pet stays comfortable and happy. Whether you're cleaning your pet's paws after a walk, wiping away dander, or freshening up your pet in between grooming sessions, these wipes offer a quick and convenient solution for pet parents. With its neutral pH value, it is gentle on skin and fur. It prevents bad odors with baby powder. It does not contain alcohol, parabens, SLES, or SLS. Content Information Ingredients : Aqua, Phenoxyethanol, Monopropylene Glycol, Polyquaternium-7, Cetearyl Isononanoate, Ceteareth-20, Cetearyl Alcohol, Glyceryl Stearate, Glycerin, Ceteareth-12, Cetyl Palmitate, Benzalkonium Chloride, Ethylhexylglycerin, Parfum. Key Features: Gentle & Safe: Non-toxic, alcohol-free, and suitable for sensitive skin. Multipurpose Use: Ideal for wiping paws, coats, ears, and faces. Convenient & Easy to Use: Quick cleaning on-the-go or at home, no need for water. Fresh Scent: Leaves your pet smelling fresh without overpowering fragrances.",
   "images": [
     {
-      "id": 51514,
+      "id": 51513,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CARE-PET-CLEANING-WIPES-10-WIPES.png",
       "alt": "Reflex Care Pet Cleaning Wipes 10 wipes",
-      "name": "REFLEX CARE PET CLEANING WIPES (10 WIPES)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-care-pet-cleaning-wipes-10-wipes-2/?add-to-cart=51513",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-11-20T16:25:15",
-  "dateModified": "2026-06-24T10:12:08",
+  "permalink": "https://petstore.co.ke/product/reflex-care-pet-cleaning-wipes-10-wipes-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-care-pet-cleaning-wipes-10-wipes-2/?add-to-cart=51513",
+  "shortDescription": "Reflex Pet Wipes are free from harsh chemicals, making them safe for sensitive skin. They are enriched with soothing aloe vera and vitamin E to nouris",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CARE-PET-CLEANING-WIPES-10-WIPES.png",
+  "sku": "PSK-51513",
   "brand": "Reflex",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CARE-PET-CLEANING-WIPES-10-WIPES.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CARE-PET-CLEANING-WIPES-10-WIPES.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

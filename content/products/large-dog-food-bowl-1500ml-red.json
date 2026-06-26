@@ -2,14 +2,12 @@
   "id": 18058,
   "name": "Large-Dog Food Bowl 1500ml Red",
   "slug": "large-dog-food-bowl-1500ml-red",
-  "sku": "DFBEL1500R",
   "onSale": false,
   "price": 1102,
   "regularPrice": 1102,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/DFBEL1500R.jpg",
   "categories": [
     {
       "id": 1204,
@@ -32,46 +30,51 @@
       "slug": "generic"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2072,
-      "name": "Bowls",
-      "slug": "bowls"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/large-dog-food-bowl-1500ml-red/",
-  "shortDescription": "Large Plastic Medium Duty Feeding Bowl 1500ml – Red",
   "description": "Large Plastic Medium Duty Dog Feeding Bowl 1500ml - Red",
   "images": [
     {
-      "id": 18015,
+      "id": 18058,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/01/DFBEL1500R.jpg",
       "alt": "Large-Dog Food Bowl 1500ml Red",
-      "name": "DFBEL1500R"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/large-dog-food-bowl-1500ml-red/?add-to-cart=18058",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2021-01-13T22:34:16",
-  "dateModified": "2026-06-17T04:18:35",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/large-dog-food-bowl-1500ml-red/",
+  "addToCartUrl": "https://petstore.co.ke/product/large-dog-food-bowl-1500ml-red/?add-to-cart=18058",
+  "shortDescription": "Large Plastic Medium Duty Dog Feeding Bowl 1500ml - Red",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/DFBEL1500R.jpg",
+  "sku": "PSK-18058",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/DFBEL1500R.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/DFBEL1500R.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 52809,
   "name": "Rogz Dog Gumz Treats Ball 4.9cm",
   "slug": "rogz-dog-gumz-treats-ball-4-9cm",
-  "sku": "GU01-C4@F",
-  "onSale": true,
+  "onSale": false,
   "price": 600,
-  "regularPrice": 750,
-  "salePrice": 600,
+  "regularPrice": 600,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "/images/psk_logo.png",
   "categories": [
     {
       "id": 2332,
@@ -17,28 +15,51 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=52809",
-  "shortDescription": "",
   "description": "",
-  "images": [],
+  "images": [
+    {
+      "id": 52809,
+      "src": "/images/psk_logo.png",
+      "alt": "Rogz Dog Gumz Treats Ball 4.9cm",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-gumz-treats-ball-4-9cm/?add-to-cart=52809",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-01-16T17:05:11",
-  "dateModified": "2026-06-04T12:49:22",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=52809",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-gumz-treats-ball-4-9cm/?add-to-cart=52809",
+  "shortDescription": "",
+  "thumbnail": "/images/psk_logo.png",
+  "sku": "PSK-52809",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "/images/psk_logo.png"
+  "image_url": "/images/psk_logo.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

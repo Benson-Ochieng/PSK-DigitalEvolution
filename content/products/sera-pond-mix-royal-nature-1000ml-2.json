@@ -2,14 +2,12 @@
   "id": 54716,
   "name": "Sera Pond Mix Royal Nature 1000ml",
   "slug": "sera-pond-mix-royal-nature-1000ml-2",
-  "sku": "SPMRN",
   "onSale": false,
   "price": 1450,
   "regularPrice": 1450,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/04/Sera-Pond-Mix-Royal-Nature-1000ml.png",
   "categories": [
     {
       "id": 2285,
@@ -22,46 +20,51 @@
       "slug": "fish-food-treats"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 2317,
-      "name": "fish",
-      "slug": "fish"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/sera-pond-mix-royal-nature-1000ml-2/",
-  "shortDescription": "Pond Mix Royal is the staple food consisting of carefully processed flakes, granules and whole gammarus for year-round feeding in ponds with various fish. Of course, free from dyes and preservatives.",
   "description": "The balanced mix contains everything pond fish of different species and sizes need for a healthy development and strong disease resistance. The small ones eat the flakes, whereas the larger ones can choose from three savory granules. The tasty gammarus rich in minerals (7%) are a special treat. The floating food retains its shape for a long time and does not pollute the water. Natural food for pond fish Be it goldfish, bitterlings or sunbleaks: the sera pond food range provides the right food for all pond fish. According to the size and age of the animal, nutritional requirements, and desired function (e.g., color enhancement) with the appropriate composition and suitable form (flakes, sticks, pellets). All sera pond foods belong to the “Nature” range and do not require any dyes or preservatives. The colors of the different food types are due to the natural ingredients. A varied diet with natural ingredients is the best protection against deficiencies and supports health and liveliness of the fish. The Nature food types therefore contain natural ingredients such as spirulina, krill or sustainable insect meal from soldier fly larvae (Hermetia).",
   "images": [
     {
-      "id": 54717,
+      "id": 54716,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/04/Sera-Pond-Mix-Royal-Nature-1000ml.png",
       "alt": "Sera Pond Mix Royal Nature 1000ml",
-      "name": "Sera Pond Mix Royal Nature 1000ml"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/sera-pond-mix-royal-nature-1000ml-2/?add-to-cart=54716",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-04-16T11:16:10",
-  "dateModified": "2026-06-17T04:18:45",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/sera-pond-mix-royal-nature-1000ml-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/sera-pond-mix-royal-nature-1000ml-2/?add-to-cart=54716",
+  "shortDescription": "The balanced mix contains everything pond fish of different species and sizes need for a healthy development and strong disease resistance. The small ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/04/Sera-Pond-Mix-Royal-Nature-1000ml.png",
+  "sku": "PSK-54716",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/04/Sera-Pond-Mix-Royal-Nature-1000ml.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/04/Sera-Pond-Mix-Royal-Nature-1000ml.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

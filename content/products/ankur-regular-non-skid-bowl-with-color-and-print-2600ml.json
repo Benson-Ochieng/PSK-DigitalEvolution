@@ -2,14 +2,12 @@
   "id": 29378,
   "name": "Ankur Regular Non Skid Bowl With Color And Print 2600ml",
   "slug": "ankur-regular-non-skid-bowl-with-color-and-print-2600ml",
-  "sku": "AEDBNTRCP-06",
   "onSale": false,
   "price": 1650,
   "regularPrice": 1650,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-Regular-Non-skid-bowl.png",
   "categories": [
     {
       "id": 1204,
@@ -42,41 +40,51 @@
       "slug": "dog-bowls-feeders"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2072,
-      "name": "Bowls",
-      "slug": "bowls"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/ankur-regular-non-skid-bowl-with-color-and-print-2600ml/",
-  "shortDescription": "Upgrade your pet’s dining experience with the ANKUR Regular Non-Skid Bowl, specifically designed to meet the needs of your furry friend. With a spacious 2600ml capacity, this bowl is perfect for both food and water, ensuring your pet stays well-fed and hydrated.",
   "description": "Enhance your pet’s mealtime with the ANKUR Regular Non-Skid Bowl. Practical, stylish, and durable, it’s the perfect addition to your pet’s dining routine. Key Features: Non-Skid Base: The bowl’s non-skid bottom keeps it firmly in place, preventing spills and skids, even during your pet’s most enthusiastic mealtimes. Charming Colors and Prints: Available in a vibrant color (Yellow) and playful prints, this bowl adds a touch of personality to your pet’s feeding area while matching your home decor. Durable and Pet-Friendly: Crafted from high-quality, food-safe materials, this bowl is built to withstand daily use and is gentle on your pet’s health. Easy to Clean: The smooth, easy-to-clean surface ensures hassle-free maintenance, whether you rinse it by hand or pop it in the dishwasher. Generous Capacity: With 2600ml of space, this bowl is ideal for larger breeds or multiple pets, making it versatile for both food and water.",
   "images": [
     {
-      "id": 29372,
+      "id": 29378,
       "src": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-Regular-Non-skid-bowl.png",
       "alt": "Ankur Regular Non Skid Bowl With Color And Print 2600ml",
-      "name": "Ankur Regular Non skid bowl"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/ankur-regular-non-skid-bowl-with-color-and-print-2600ml/?add-to-cart=29378",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2022-06-28T16:57:44",
-  "dateModified": "2026-06-17T04:18:38",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/ankur-regular-non-skid-bowl-with-color-and-print-2600ml/",
+  "addToCartUrl": "https://petstore.co.ke/product/ankur-regular-non-skid-bowl-with-color-and-print-2600ml/?add-to-cart=29378",
+  "shortDescription": "Enhance your pet’s mealtime with the ANKUR Regular Non-Skid Bowl. Practical, stylish, and durable, it’s the perfect addition to your pet’s dining rout",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-Regular-Non-skid-bowl.png",
+  "sku": "PSK-29378",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-Regular-Non-skid-bowl.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-Regular-Non-skid-bowl.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

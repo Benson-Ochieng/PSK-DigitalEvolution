@@ -2,14 +2,12 @@
   "id": 52784,
   "name": "Proline Bentonite Clumping Cat Litter Aloe Vera 10l",
   "slug": "proline-bentonite-clumping-cat-litter-aloe-vera-10l",
-  "sku": "PCL008@F",
-  "onSale": true,
+  "onSale": false,
   "price": 1499,
-  "regularPrice": 2082,
-  "salePrice": 1499,
+  "regularPrice": 1499,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/01/Untitled-design-6.png",
   "categories": [
     {
       "id": 2332,
@@ -17,35 +15,51 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=52784",
-  "shortDescription": "Keep your cat’s litter area spotless and naturally fresh with Proline Bentonite Clumping Cat Litter Aloe Vera 10L. This premium-quality bentonite clay litter delivers strong, instant clumping for effortless cleaning and excellent odor control. The soothing aloe vera scent not only neutralizes unpleasant smells but also creates a pleasant, refreshing environment in your home.",
   "description": "Keep your cat’s litter area spotless and naturally fresh with Proline Bentonite Clumping Cat Litter – Aloe Vera 10L . This premium-quality bentonite clay litter delivers strong, instant clumping for effortless cleaning and excellent odor control. The soothing aloe vera scent not only neutralizes unpleasant smells but also creates a pleasant, refreshing environment in your home. Formulated to be safe, hygienic, and non-toxic , this litter effectively inhibits bacterial growth, making it ideal for both single and multi-cat households. With its dust-minimizing texture and superior absorption , you can count on a cleaner, more comfortable litter box. Available in a convenient 10L pack for long-lasting use, Proline ensures that maintaining your cat’s hygiene is simple, efficient, and worry-free.",
   "images": [
     {
-      "id": 34584,
+      "id": 52784,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/01/Untitled-design-6.png",
       "alt": "Proline Bentonite Clumping Cat Litter Aloe Vera 10l",
-      "name": "Untitled design (6)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/proline-bentonite-clumping-cat-litter-aloe-vera-10l/?add-to-cart=52784",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-01-16T17:04:51",
-  "dateModified": "2026-05-06T17:10:54",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=52784",
+  "addToCartUrl": "https://petstore.co.ke/product/proline-bentonite-clumping-cat-litter-aloe-vera-10l/?add-to-cart=52784",
+  "shortDescription": "Keep your cat’s litter area spotless and naturally fresh with Proline Bentonite Clumping Cat Litter – Aloe Vera 10L . This premium-quality bentonite c",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/01/Untitled-design-6.png",
+  "sku": "PSK-52784",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/01/Untitled-design-6.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/01/Untitled-design-6.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

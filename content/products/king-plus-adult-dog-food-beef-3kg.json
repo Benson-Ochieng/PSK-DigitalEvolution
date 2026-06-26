@@ -2,14 +2,12 @@
   "id": 266,
   "name": "King Plus Adult Dog Food - Beef 3kg",
   "slug": "king-plus-adult-dog-food-beef-3kg",
-  "sku": "KDD002",
   "onSale": false,
   "price": 1420,
   "regularPrice": 1420,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/09/King-Plus-Dog-Food-3kg-min.png",
   "categories": [
     {
       "id": 2345,
@@ -32,52 +30,51 @@
       "slug": "king"
     }
   ],
-  "brands": [
-    {
-      "id": 2446,
-      "name": "King",
-      "slug": "king"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/king-plus-adult-dog-food-beef-3kg/",
-  "shortDescription": "Fully balanced all-natural dog food with beef protein and brewer's yeast for immune support. Carefully formulated by a dog nutritionist to meet the nutritional requirements of all adult large breed dogs.",
   "description": "King Plus Beef Adult Dog fully balanced all-natural dog food with beef protein and brewer's yeast for immune support. Carefully formulated by a dog nutritionist to meet the nutritional requirements of all adult large breed dogs. NUTRIENT COMPONENTS Protein .................. 18% Fat ........................7% Crude Cellulose (Fiber) ... 4% INGREDIENTS: Wheat, Corn, Processed Animal Protein, Wheat Middlings, Boncalit, Animal Fat, Dried Sugar Beet, Liver Flavour, Flaxseed, Salt, Dried Brewer's Yeast. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan. http://petstore.co.ke/%f0%9f%a5%a3-wet-vs-dry-pet-food-which-is-the-best-food-for-your-dog-cat/ &nbsp;",
   "images": [
     {
-      "id": 15336,
+      "id": 266,
       "src": "https://petstore.co.ke/wp-content/uploads/2020/09/King-Plus-Dog-Food-3kg-min.png",
-      "alt": "King Plus Adult Dog Food – Beef 3kg",
-      "name": "King Plus Dog Food 3kg -min"
+      "alt": "King Plus Adult Dog Food - Beef 3kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "King",
+      "slug": "king"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/king-plus-adult-dog-food-beef-3kg/?add-to-cart=266",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2017-07-06T21:52:34",
-  "dateModified": "2026-06-24T16:12:10",
+  "permalink": "https://petstore.co.ke/product/king-plus-adult-dog-food-beef-3kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/king-plus-adult-dog-food-beef-3kg/?add-to-cart=266",
+  "shortDescription": "King Plus Beef Adult Dog fully balanced all-natural dog food with beef protein and brewer's yeast for immune support. Carefully formulated by a dog nu",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/09/King-Plus-Dog-Food-3kg-min.png",
+  "sku": "PSK-266",
   "brand": "King",
   "weight_kg": 3,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/09/King-Plus-Dog-Food-3kg-min.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/09/King-Plus-Dog-Food-3kg-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

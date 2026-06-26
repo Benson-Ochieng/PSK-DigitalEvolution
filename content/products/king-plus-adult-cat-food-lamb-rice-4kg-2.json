@@ -2,14 +2,12 @@
   "id": 53916,
   "name": "King Plus Complete Adult Cat Food Lamb & Rice 4kg",
   "slug": "king-plus-adult-cat-food-lamb-rice-4kg-2",
-  "sku": "KCD008@SE",
-  "onSale": true,
+  "onSale": false,
   "price": 2065,
-  "regularPrice": 2950,
-  "salePrice": 2065,
+  "regularPrice": 2065,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/King-4kg.png",
   "categories": [
     {
       "id": 2325,
@@ -32,62 +30,51 @@
       "slug": "king"
     }
   ],
-  "brands": [
-    {
-      "id": 2446,
-      "name": "King",
-      "slug": "king"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 637,
-      "name": "kibble",
-      "slug": "kibble"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/king-plus-adult-cat-food-lamb-rice-4kg-2/",
-  "shortDescription": "Fully balanced all-natural cat food with lamb protein. Carefully formulated by cat nutritionists to meet the nutritional requirements of all adult cats.",
   "description": "Fully balanced all-natural cat food with lamb protein. Carefully formulated by cat nutritionists to meet the nutritional requirements of all adult cats. King Plus Adult Cat Food – Lamb , fully balanced all-natural cat food with lamb protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult cats. NUTRIENT COMPONENTS Protein ………… 26% Fat ……………. 9% Crude Ash ………….. 11% Crude Cellulose (Fiber) ………… 3.5% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Processed lamb protein, Corn Gluten, Liver Aroma, Fish Aroma, Rice, Salt, Flaxseed, Dried Brewer's Yeast, Taurine. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 – B2 – B3 (niacin) – B6 – B12 – B7 (biotin) – B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
   "images": [
     {
-      "id": 41986,
+      "id": 53916,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/12/King-4kg.png",
-      "alt": "King Plus Adult Cat: Lamb & Rice Complete Dry Food 4KG",
-      "name": "King 4kg"
+      "alt": "King Plus Complete Adult Cat Food Lamb & Rice 4kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "King",
+      "slug": "king"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/king-plus-adult-cat-food-lamb-rice-4kg-2/?add-to-cart=53916",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-03-12T09:08:29",
-  "dateModified": "2026-06-17T05:01:26",
+  "permalink": "https://petstore.co.ke/product/king-plus-adult-cat-food-lamb-rice-4kg-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/king-plus-adult-cat-food-lamb-rice-4kg-2/?add-to-cart=53916",
+  "shortDescription": "Fully balanced all-natural cat food with lamb protein. Carefully formulated by cat nutritionists to meet the nutritional requirements of all adult cat",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/King-4kg.png",
+  "sku": "PSK-53916",
   "brand": "King",
   "weight_kg": 4,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/King-4kg.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/King-4kg.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

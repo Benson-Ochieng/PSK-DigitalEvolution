@@ -2,14 +2,12 @@
   "id": 52800,
   "name": "Reflex Plus Light And Sterilised Dog Food Lamb And Rice 15kg",
   "slug": "reflex-plus-light-and-sterilised-dog-food-lamb-and-rice-15-kg-2",
-  "sku": "RPDD008@F",
-  "onSale": true,
+  "onSale": false,
   "price": 7840,
-  "regularPrice": 11200,
-  "salePrice": 7840,
+  "regularPrice": 7840,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Reflex-plus-light-and-sterilsed-01.jpg",
   "categories": [
     {
       "id": 2332,
@@ -17,41 +15,51 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=52800",
-  "shortDescription": "",
   "description": "",
   "images": [
     {
-      "id": 23948,
+      "id": 52800,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/12/Reflex-plus-light-and-sterilsed-01.jpg",
-      "alt": "DEFECT/DAMAGED PACKAGE-CLEARANCE: Reflex Plus Light And Sterilised Dog Food - Lamb And Rice 15kg",
-      "name": "Reflex plus light and sterilsed"
+      "alt": "Reflex Plus Light And Sterilised Dog Food Lamb And Rice 15kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-light-and-sterilised-dog-food-lamb-and-rice-15-kg-2/?add-to-cart=52800",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-01-16T17:05:02",
-  "dateModified": "2026-05-06T17:11:00",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=52800",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-light-and-sterilised-dog-food-lamb-and-rice-15-kg-2/?add-to-cart=52800",
+  "shortDescription": "",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Reflex-plus-light-and-sterilsed-01.jpg",
+  "sku": "PSK-52800",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/12/Reflex-plus-light-and-sterilsed-01.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/12/Reflex-plus-light-and-sterilsed-01.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

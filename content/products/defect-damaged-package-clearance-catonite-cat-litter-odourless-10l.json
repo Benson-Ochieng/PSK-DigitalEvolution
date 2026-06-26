@@ -2,14 +2,12 @@
   "id": 53801,
   "name": "DEFECT/DAMAGED PACKAGE-CLEARANCE: Catonite Cat Litter Odourless 10l",
   "slug": "defect-damaged-package-clearance-catonite-cat-litter-odourless-10l",
-  "sku": "CCL001@D",
-  "onSale": true,
+  "onSale": false,
   "price": 1260,
-  "regularPrice": 1800,
-  "salePrice": 1260,
+  "regularPrice": 1260,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/02/Catonite-Cat-Litter-Odourless-10L.png",
   "categories": [
     {
       "id": 2325,
@@ -32,77 +30,51 @@
       "slug": "cat-litter-and-accessories"
     }
   ],
-  "brands": [
-    {
-      "id": 2430,
-      "name": "Catonite",
-      "slug": "catonite"
-    }
-  ],
-  "tags": [
-    {
-      "id": 831,
-      "name": "bentonite",
-      "slug": "bentonite"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 819,
-      "name": "cat litter",
-      "slug": "cat-litter"
-    },
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 823,
-      "name": "clumping",
-      "slug": "clumping"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 2316,
-      "name": "unscented",
-      "slug": "unscented"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/defect-damaged-package-clearance-catonite-cat-litter-odourless-10l/",
-  "shortDescription": "Catonite Cat litter – clumps quickly with its structure that traps odor and liquid. It does not contain ingredients that will harm nature. It is environmentally friendly. It is obtained from completely sustainable, 100% natural. It does not contain chemicals that could harm both your and your cat's health.",
   "description": "Catonite Cat litter - clumps quickly with its structure that traps odor and liquid. It does not contain ingredients that will harm nature. It is environmentally friendly. It is obtained from completely sustainable, 100% natural. It does not contain chemicals that could harm both your and your cat's health. It clumps quickly with its structure that traps odor and liquid. It does not contain ingredients that will harm nature. It is environmentally friendly. Key Feature: Low Dusting High quality bentonite, which instantly clumps with dusting reduced to a minimum level through special processes, does not stick to your cat's paws and thus does not disperse outside the litter box. Absorbency Feature Thanks to the extra durable lumps formed thanks to its high liquid absorption ability, your cat's litter is easily cleaned and the remaining litter remains cleaner and can be used for a long time. Anti-Odor EffectAnti-Odor Effect a> It has high liquid absorption ability thanks to the natural minerals it contains. It quickly absorbs and traps the liquid, thus preventing the formation of odor and bacteria. Granule Size mm 0.5 - 2.35 Liquid Absorption percentage? % 320 - 250 Clumping Weight g/20ml 62 (± 8) Clumping Resistance cm 85 (± 15) Mass Density g/l 820 - 880 Colour HLab 92 - 84 PH 9.2 – 10.5 Moisture % 8 (± 2) pollination % (",
   "images": [
     {
-      "id": 53657,
+      "id": 53801,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/02/Catonite-Cat-Litter-Odourless-10L.png",
-      "alt": "Catonite Cat Litter Odourless 10l",
-      "name": "Catonite Cat Litter Odourless 10L"
+      "alt": "DEFECT/DAMAGED PACKAGE-CLEARANCE: Catonite Cat Litter Odourless 10l",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Catonite",
+      "slug": "catonite"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/defect-damaged-package-clearance-catonite-cat-litter-odourless-10l/?add-to-cart=53801",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-03-05T09:58:50",
-  "dateModified": "2026-06-17T04:28:57",
+  "permalink": "https://petstore.co.ke/product/defect-damaged-package-clearance-catonite-cat-litter-odourless-10l/",
+  "addToCartUrl": "https://petstore.co.ke/product/defect-damaged-package-clearance-catonite-cat-litter-odourless-10l/?add-to-cart=53801",
+  "shortDescription": "Catonite Cat litter - clumps quickly with its structure that traps odor and liquid. It does not contain ingredients that will harm nature. It is envir",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/02/Catonite-Cat-Litter-Odourless-10L.png",
+  "sku": "PSK-53801",
   "brand": "Catonite",
   "weight_kg": 8.5,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/02/Catonite-Cat-Litter-Odourless-10L.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/02/Catonite-Cat-Litter-Odourless-10L.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

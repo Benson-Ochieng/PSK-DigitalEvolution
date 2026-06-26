@@ -2,14 +2,12 @@
   "id": 42240,
   "name": "SHORT EXPIRY-CLEARANCE: Reflex Plus Adult Cat Food Chicken 500g",
   "slug": "short-expiry-clearance-reflex-plus-adult-cat-food-chicken-500gr",
-  "sku": "RPCD008@SE",
-  "onSale": true,
+  "onSale": false,
   "price": 619,
-  "regularPrice": 950,
-  "salePrice": 619,
+  "regularPrice": 619,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/11/RPCD008-Reflex-Chicken-500g.jpg",
   "categories": [
     {
       "id": 2167,
@@ -17,46 +15,51 @@
       "slug": "dry-food"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=42240",
-  "shortDescription": "Reflex Plus Adult Cat Chicken is a premium cat food for all adult breeds. Highly palatable with chicken protein and oil.",
   "description": "Reflex Plus Adult Cat Chicken is a super-premium cat food for all adult cat breeds. It is a highly palatable formulation with chicken protein and oils. It is enhanced with the super pre-biotic Xylo-oligosaccharide (XOS) that helps with glycemia, immune function and superior digestion. Omega 3 & 6 from flaxseed. Yucca plant provides ammonia Oduor control, increases the absorption of nutrients. The immune system is strengthened, animals grow, and performance improves. Good intestinal health and performance are achieved with pathogen-binding XOS, beta-glucans, and CitriStim, an immune-boosting yeast source. Brewer's yeast is used for healthy skin and shiny coat. Enriched with vitamins and minerals. Ingredients: Processed Chicken Protein, Corn, Chicken Oil, Rice, Sugar Beet, Liver Flavor, Vitamins and Minerals, Flax Seed, Xylo-Oligosaccharide, Brewer's Yeast, Salt, Yucca Schidigera, Preservatives Antioxidants Minerals: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Iron, Selenium. Vitamins: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1,B2 ,B3 (Niacin), B6, B12 ,B7 (Biotin), B9 (Folic Acid), Vit. K, Choline, Calcium Pantothene. NUTRIENT COMPONENTS Raw Protein.......................................... 33% Crude Fat ..............................................14% Crude Ash.................................................7% Crude Cellulose (Fiber) .......................... 2% FEEDING INGREDIENTS Vitamin A (E672) .............................. 18,000 IU / kg Vitamin D3 (E671) ............................................................1,500 IU / kg Vitamin E (3a700)) ................................................................200 mg / kg Vitamin C (Stay C) ................................................200 mg / kg Taurine ........................................................1,500 mg / kg &nbsp; Feeding Suggestions The amount of food to be given per day may vary depending on the outdoor temperature, the living conditions (inside / outside the home), the character and activity of your cat. It is important to weigh the amount of food so that your cat can be an ideal weight. When adjusting the amount of food, it will be helpful to evaluate your cat's appetite, appearance and Oduor. Additional Tips Transition from one food to another must be made progressively by feeding small amounts of both foods for one week after mixing. Click here for instructions. Always keep clean and fresh water near the food bowl. Change it at least once a day. Store the product in a dry and cool place and be sure to close the packaging thoroughly after each use.",
   "images": [
     {
-      "id": 33160,
+      "id": 42240,
       "src": "https://petstore.co.ke/wp-content/uploads/2022/11/RPCD008-Reflex-Chicken-500g.jpg",
       "alt": "SHORT EXPIRY-CLEARANCE: Reflex Plus Adult Cat Food Chicken 500g",
-      "name": "RPCD008 Reflex Chicken 500g"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-reflex-plus-adult-cat-food-chicken-500gr/?add-to-cart=42240",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2023-12-11T16:00:08",
-  "dateModified": "2026-06-11T12:43:42",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=42240",
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-reflex-plus-adult-cat-food-chicken-500gr/?add-to-cart=42240",
+  "shortDescription": "Reflex Plus Adult Cat Chicken is a super-premium cat food for all adult cat breeds. It is a highly palatable formulation with chicken protein and oils",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/11/RPCD008-Reflex-Chicken-500g.jpg",
+  "sku": "PSK-42240",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.5,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/11/RPCD008-Reflex-Chicken-500g.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/11/RPCD008-Reflex-Chicken-500g.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

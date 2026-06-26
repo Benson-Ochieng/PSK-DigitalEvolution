@@ -2,14 +2,12 @@
   "id": 66333,
   "name": "Churu Cat Treats Chicken With Crab Flavor Recipe 4 Tubes",
   "slug": "churu-cat-lickable-treats-chicken-with-crab-4-tubes",
-  "sku": "BCCT009",
   "onSale": false,
   "price": 350,
   "regularPrice": 350,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/CHURU-beef-RECIPE-4CT.png",
   "categories": [
     {
       "id": 2325,
@@ -32,52 +30,51 @@
       "slug": "churu"
     }
   ],
-  "brands": [
-    {
-      "id": 2433,
-      "name": "Churu",
-      "slug": "churu"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/churu-cat-lickable-treats-chicken-with-crab-4-tubes/",
-  "shortDescription": "Churu Cat Lickable Treats Chicken with Crab 4 tubes of creamy, grain-free puree made with real chicken and natural crab flavor. Hydrating, low-calorie, and fortified with taurine and vitamin E for healthy, happy cats.",
   "description": "Treat your cat to a taste of the sea with Churu Chicken with Crab ! These creamy, lickable purée tubes are made with real chicken and natural crab flavor , delivering irresistible protein-packed flavor your feline will love. Each tube contains 91% moisture and only 6 calories , making it a hydrating, low-calorie snack that’s perfect as a treat, topper, or interactive feeding experience. Key Benefits: Grain-Free & Delicious: Made with real chicken and natural crab flavor—no grains, artificial colors, or preservatives Interactive Feeding: Lick straight from the tube, lap from a bowl, or mix into kibble/wet food Boosts Hydration: 91% moisture helps cats stay hydrated and supports urinary health Nutritious & Healthy: Added vitamin E and taurine support heart, vision, and immune health Fun & Easy: Tear, squeeze, and feed as a treat, snack, or meal topper Guaranteed Analysis Crude Protein (min): 7.00% Crude Fat (min): 0.20% Crude Fiber (max): 0.30% Moisture (max): 91.00% Vitamin E (min): 310 IU/kg Taurine (min): 0.025% Calorie Content: 430 kcal/kg | 6 kcal per tube (ME) Net Weight: 2.0 oz (0.5 oz × 4 tubes) Feeding Instructions Feed as a treat only. Not intended as a complete meal. Always provide fresh water and consult your veterinarian regularly. Storage Instructions Refrigerate after opening and serve as soon as possible. &nbsp; &nbsp; &nbsp;",
   "images": [
     {
-      "id": 66329,
+      "id": 66333,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/01/CHURU-beef-RECIPE-4CT.png",
       "alt": "Churu Cat Treats Chicken With Crab Flavor Recipe 4 Tubes",
-      "name": "CHURU beef RECIPE 4CT"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Churu",
+      "slug": "churu"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/churu-cat-lickable-treats-chicken-with-crab-4-tubes/?add-to-cart=66333",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-01-06T15:56:02",
-  "dateModified": "2026-06-22T11:12:00",
+  "permalink": "https://petstore.co.ke/product/churu-cat-lickable-treats-chicken-with-crab-4-tubes/",
+  "addToCartUrl": "https://petstore.co.ke/product/churu-cat-lickable-treats-chicken-with-crab-4-tubes/?add-to-cart=66333",
+  "shortDescription": "Treat your cat to a taste of the sea with Churu Chicken with Crab ! These creamy, lickable purée tubes are made with real chicken and natural crab fla",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/CHURU-beef-RECIPE-4CT.png",
+  "sku": "PSK-66333",
   "brand": "Churu",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/CHURU-beef-RECIPE-4CT.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/CHURU-beef-RECIPE-4CT.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

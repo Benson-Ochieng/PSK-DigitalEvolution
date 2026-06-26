@@ -2,14 +2,12 @@
   "id": 47737,
   "name": "Rogz Airtech Sport Harness XLarge Nightsky Black (Sjst87Xl-A)",
   "slug": "rogz-airtech-sport-harness-xlarge-nightsky-black-sjst87xl-a-2",
-  "sku": "SJST87XL-A",
   "onSale": false,
   "price": 5100,
   "regularPrice": 5100,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-AIRTECH-SPORT-HARNESS-XLARGE-NIGHTSKY-BLACK-SJST87XL-A.jpg",
   "categories": [
     {
       "id": 2351,
@@ -32,41 +30,51 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2318,
-      "name": "Harnesses",
-      "slug": "harness"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-airtech-sport-harness-xlarge-nightsky-black-sjst87xl-a-2/",
-  "shortDescription": "The belay loop on the harness allows for a lead attachment and when used with AirTech leads, the carabiner slides side to side for freedom of movement for both adventurer and fur companion.",
   "description": "With the ergonomic design of the Rogz AirTech Sport Harness, it is quick and easy to fit. The belay loop on the harness allows for a lead attachment and when used with AirTech leads, the carabiner slides side to side for freedom of movement for both adventurer and fur companion. The engineered fabric is extremely soft and comfortable, perfect for outdoor activities and long wear. The harness is fully adjustable with reflective stitching.",
   "images": [
     {
-      "id": 47738,
+      "id": 47737,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-AIRTECH-SPORT-HARNESS-XLARGE-NIGHTSKY-BLACK-SJST87XL-A.jpg",
       "alt": "Rogz Airtech Sport Harness XLarge Nightsky Black (Sjst87Xl-A)",
-      "name": "ROGZ AIRTECH SPORT HARNESS XLARGE &#8211; NIGHTSKY BLACK (SJST87XL-A)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-airtech-sport-harness-xlarge-nightsky-black-sjst87xl-a-2/?add-to-cart=47737",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-06-11T11:54:27",
-  "dateModified": "2026-06-17T04:14:43",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/rogz-airtech-sport-harness-xlarge-nightsky-black-sjst87xl-a-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-airtech-sport-harness-xlarge-nightsky-black-sjst87xl-a-2/?add-to-cart=47737",
+  "shortDescription": "With the ergonomic design of the Rogz AirTech Sport Harness, it is quick and easy to fit. The belay loop on the harness allows for a lead attachment a",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-AIRTECH-SPORT-HARNESS-XLARGE-NIGHTSKY-BLACK-SJST87XL-A.jpg",
+  "sku": "PSK-47737",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-AIRTECH-SPORT-HARNESS-XLARGE-NIGHTSKY-BLACK-SJST87XL-A.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-AIRTECH-SPORT-HARNESS-XLARGE-NIGHTSKY-BLACK-SJST87XL-A.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

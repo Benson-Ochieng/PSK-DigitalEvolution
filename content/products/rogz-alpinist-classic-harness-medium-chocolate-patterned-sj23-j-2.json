@@ -2,14 +2,12 @@
   "id": 47717,
   "name": "Rogz Alpinist Classic Harness Medium Chocolate Patterned (Sj23-J)",
   "slug": "rogz-alpinist-classic-harness-medium-chocolate-patterned-sj23-j-2",
-  "sku": "SJ23-J",
   "onSale": false,
   "price": 1650,
   "regularPrice": 1650,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-ALPINIST-CLASSIC-HARNESS-MEDIUM-CHOCOLATE-PATTERNED-SJ23-J.jpg",
   "categories": [
     {
       "id": 2351,
@@ -32,41 +30,51 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2318,
-      "name": "Harnesses",
-      "slug": "harness"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-alpinist-classic-harness-medium-chocolate-patterned-sj23-j-2/",
-  "shortDescription": "Rogz Alpinist Classic Harnesses have a front chest lead attachment allowing you to walk your dog using any one of our Multi leads for the added benefit of Stop-Pull steering control.",
   "description": "Rogz Alpinist Classic Harness: Made with soft to the touch webbing, Rogz Alpinist Classic Harnesses have a front chest lead attachment so you can walk your dog using any one of our Multi leads for the added benefit of Stop-Pull steering control. Fully adjustable and durable, these harnesses are designed to function with our Car-safe Seat Belt Clips and worn beneath our dog jackets with lead attachment openings. Fully adjustable and durable. They are designed to function with our Car-safe Seat Belt Clips and worn beneath our dog jackets with lead attachment openings.",
   "images": [
     {
-      "id": 47718,
+      "id": 47717,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-ALPINIST-CLASSIC-HARNESS-MEDIUM-CHOCOLATE-PATTERNED-SJ23-J.jpg",
       "alt": "Rogz Alpinist Classic Harness Medium Chocolate Patterned (Sj23-J)",
-      "name": "ROGZ ALPINIST CLASSIC HARNESS -MEDIUM CHOCOLATE PATTERNED (SJ23-J)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-alpinist-classic-harness-medium-chocolate-patterned-sj23-j-2/?add-to-cart=47717",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-06-11T10:53:02",
-  "dateModified": "2026-06-17T04:14:39",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/rogz-alpinist-classic-harness-medium-chocolate-patterned-sj23-j-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-alpinist-classic-harness-medium-chocolate-patterned-sj23-j-2/?add-to-cart=47717",
+  "shortDescription": "Rogz Alpinist Classic Harness: Made with soft to the touch webbing, Rogz Alpinist Classic Harnesses have a front chest lead attachment so you can walk",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-ALPINIST-CLASSIC-HARNESS-MEDIUM-CHOCOLATE-PATTERNED-SJ23-J.jpg",
+  "sku": "PSK-47717",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-ALPINIST-CLASSIC-HARNESS-MEDIUM-CHOCOLATE-PATTERNED-SJ23-J.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-ALPINIST-CLASSIC-HARNESS-MEDIUM-CHOCOLATE-PATTERNED-SJ23-J.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

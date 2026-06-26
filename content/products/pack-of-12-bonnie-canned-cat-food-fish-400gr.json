@@ -2,14 +2,12 @@
   "id": 34840,
   "name": "Pack Of 12 - Bonnie Canned Cat Food Fish 400g",
   "slug": "pack-of-12-bonnie-canned-cat-food-fish-400gr",
-  "sku": "BCW004$12",
-  "onSale": true,
+  "onSale": false,
   "price": 3121,
-  "regularPrice": 3468,
-  "salePrice": 3121,
+  "regularPrice": 3121,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2018/02/Untitled-design-24.png",
   "categories": [
     {
       "id": 177,
@@ -32,67 +30,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2428,
-      "name": "Bonnie",
-      "slug": "bonnie"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2055,
-      "name": "Bulk Cat Food & Bulk Dog Food",
-      "slug": "bulk"
-    },
-    {
-      "id": 622,
-      "name": "canned food",
-      "slug": "canned-food"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pack-of-12-bonnie-canned-cat-food-fish-400gr/",
-  "shortDescription": "Nutritious wet food made with real fish protein and enriched with essential vitamins and minerals. Supports strong muscles, healthy digestion, and hydration for all adult cats.",
   "description": "Bonnie Fish Adult Cat Canned Food is a fully balanced, high-quality wet food formulated by expert cat nutritionists to meet the nutritional needs of all adult cat breeds. Made with real fish protein (4%) , it provides essential amino acids for strong muscles, a shiny coat, and overall vitality. Its soft texture and rich flavor make it highly palatable, while the added vitamins and minerals support immune health, bone strength, and metabolic function. The recipe’s high moisture content (80%) helps maintain proper hydration and urinary tract health, making it a wholesome and complete meal for your cat’s daily diet. Key Benefits: Made with high-quality fish protein (4%) for muscle development and energy. Rich in vitamins (A & D3) to support vision, bone, and immune health. Balanced mineral content (iron, zinc, copper, iodine, manganese, selenium) for optimal metabolism. High moisture content (80%) aids hydration and supports kidney and urinary health. Formulated by cat nutrition experts for all adult breeds. Ingredients: Meat and Animal Derivatives, Fish and Fish Derivatives (Fish 4%), Cereals, Minerals, Vegetal Protein Extracts, Cassia Gum (2200 mg/kg), Preservatives, and Colorants. Nutritional Components: Component Value Crude Protein 6.5% Crude Oils & Fats 3.5% Crude Fibre 0.3% Crude Ash 2% Moisture 80% Nutritional Additives (per kg): Vitamin A: 1650 IU Vitamin D3: 210 IU Iron: 9.6 mg Copper: 1.4 mg Iodine: 0.24 mg Manganese: 1.8 mg Zinc: 9.5 mg Selenium: 0.025 mg Feeding Recommendations and Warnings Refer to the feeding table for guidance. Individual requirements may vary depending on your cat’s age, breed, and activity level . Ensure fresh drinking water is available at all times. Serve the food at room temperature for optimal taste and digestibility.",
   "images": [
     {
-      "id": 34839,
+      "id": 34840,
       "src": "https://petstore.co.ke/wp-content/uploads/2018/02/Untitled-design-24.png",
-      "alt": "Bonnie Canned Cat Food – Fish 400g",
-      "name": "Untitled design (24)"
+      "alt": "Pack Of 12 - Bonnie Canned Cat Food Fish 400g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Bonnie",
+      "slug": "bonnie"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 1,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/pack-of-12-bonnie-canned-cat-food-fish-400gr/?add-to-cart=34840",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2023-02-02T15:38:52",
-  "dateModified": "2026-06-22T17:12:03",
+  "permalink": "https://petstore.co.ke/product/pack-of-12-bonnie-canned-cat-food-fish-400gr/",
+  "addToCartUrl": "https://petstore.co.ke/product/pack-of-12-bonnie-canned-cat-food-fish-400gr/?add-to-cart=34840",
+  "shortDescription": "Bonnie Fish Adult Cat Canned Food is a fully balanced, high-quality wet food formulated by expert cat nutritionists to meet the nutritional needs of a",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2018/02/Untitled-design-24.png",
+  "sku": "PSK-34840",
   "brand": "Bonnie",
   "weight_kg": 0.4,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2018/02/Untitled-design-24.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2018/02/Untitled-design-24.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

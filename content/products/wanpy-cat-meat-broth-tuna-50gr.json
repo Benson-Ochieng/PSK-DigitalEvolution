@@ -2,14 +2,12 @@
   "id": 71949,
   "name": "Wanpy Cat Meat Broth - Tuna 50g",
   "slug": "wanpy-cat-meat-broth-tuna-50gr",
-  "sku": "WCW015",
-  "onSale": true,
+  "onSale": false,
   "price": 138,
-  "regularPrice": 173,
-  "salePrice": 138,
+  "regularPrice": 138,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/03/WANPY-CAT-SWEET-POTATO-DUMBELLS-100GR.png",
   "categories": [
     {
       "id": 2325,
@@ -32,57 +30,51 @@
       "slug": "wanpy"
     }
   ],
-  "brands": [
-    {
-      "id": 2479,
-      "name": "Wanpy",
-      "slug": "wanpy"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 939,
-      "name": "On Sale Now",
-      "slug": "sale"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/wanpy-cat-meat-broth-tuna-50gr/",
-  "shortDescription": "Hydrating grain-free cat treat made with real tuna broth. Wanpy Meat Broth Tuna for Cats 50g supports skin, coat health, and hydration. No artificial preservatives or colorants. &nbsp;",
   "description": "Treat your feline companion to the rich taste and nourishing hydration of Wanpy Meat Broth Tuna for Cats , a premium complementary cat treat made with real tuna broth and carefully selected natural ingredients. This delicious broth-based treat is designed to support your cat’s daily hydration while delivering irresistible flavor that even picky eaters will love. Crafted using real tuna and enriched with beneficial nutrients such as taurine and salmon oil, this light and savory broth promotes healthy skin, a shiny coat, and overall well-being. With an exceptionally high moisture content of 92%, it helps increase fluid intake—an important factor for maintaining urinary and kidney health in cats. Free from grains, artificial preservatives, and colorants, Wanpy Meat Broth Tuna is a clean and natural choice for cats with sensitive digestion or food sensitivities. It can be served on its own as a tasty snack, poured over dry food as a flavorful topper, or used to stimulate appetite in cats recovering from illness or stress. Conveniently packed in 50g single-serve pouches , this broth treat ensures freshness and easy feeding while keeping your cat hydrated and satisfied. Key Benefits .Real Tuna Broth – Made with real fish for a naturally rich flavor cats love. .Hydration Support – High moisture content helps promote healthy hydration. .Grain-Free Recipe – Ideal for cats with grain sensitivities. .Healthy Skin & Coat – Enriched with salmon oil and Vitamin E. .Taurine Enriched – Supports heart health and vision. . No Artificial Additives – Free from preservatives and colorants. . Highly Palatable – Perfect for picky eaters or cats with low appetite. Ingredients Tuna broth, tuna, salmon oil, egg white, seaweed, guar gum, tapioca starch, calcium carbonate, taurine, salt, glycerine, vitamin E. Guaranteed Analysis Nutrient Amount Crude Protein 6.5% Crude Fat 0.1% Crude Fiber 1.5% Crude Ash 1.5% Moisture 92.0% These nutritional levels help maintain hydration and provide light protein support for daily feline nutrition. Feeding Guide Cat Weight Recommended Daily Feeding Less than 2 kg 1 pouch 2 – 4 kg 1 – 2 pouches Over 4 kg 2 – 3 pouches Serve as a complementary treat alongside a balanced cat diet. Storage Instructions Store in a cool, dry place. Refrigerate after opening and use within 24 hours. Serve at room temperature for best flavor. &nbsp;",
   "images": [
     {
-      "id": 71954,
+      "id": 71949,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/03/WANPY-CAT-SWEET-POTATO-DUMBELLS-100GR.png",
-      "alt": "Pack Of 12 – Wanpy Cat Meat Broth – Tuna 50g",
-      "name": "WANPY CAT SWEET POTATO DUMBELLS 100GR"
+      "alt": "Wanpy Cat Meat Broth - Tuna 50g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Wanpy",
+      "slug": "wanpy"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/wanpy-cat-meat-broth-tuna-50gr/?add-to-cart=71949",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-03-12T09:25:11",
-  "dateModified": "2026-06-23T11:39:34",
+  "permalink": "https://petstore.co.ke/product/wanpy-cat-meat-broth-tuna-50gr/",
+  "addToCartUrl": "https://petstore.co.ke/product/wanpy-cat-meat-broth-tuna-50gr/?add-to-cart=71949",
+  "shortDescription": "Treat your feline companion to the rich taste and nourishing hydration of Wanpy Meat Broth Tuna for Cats , a premium complementary cat treat made with",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/03/WANPY-CAT-SWEET-POTATO-DUMBELLS-100GR.png",
+  "sku": "PSK-71949",
   "brand": "Wanpy",
-  "weight_kg": 0.405,
+  "weight_kg": 0.41,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/03/WANPY-CAT-SWEET-POTATO-DUMBELLS-100GR.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/03/WANPY-CAT-SWEET-POTATO-DUMBELLS-100GR.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 69371,
   "name": "Pack Of 12: Reflex Plus Cat Food Pouch Chicken Chunks In Gravy 85g",
   "slug": "reflex-plus-chunks-gravy-chicken-adult-cat-food-85g",
-  "sku": "RPCW034@12",
-  "onSale": true,
+  "onSale": false,
   "price": 2052,
-  "regularPrice": 2280,
-  "salePrice": 2052,
+  "regularPrice": 2052,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-PLUS-ADULT-CAT-FOOD-BREED-SERIES-BRITISH-SHORTHAIR-HYPOALLERGENIC-1.5KG.png",
   "categories": [
     {
       "id": 2325,
@@ -32,57 +30,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2055,
-      "name": "Bulk Cat Food & Bulk Dog Food",
-      "slug": "bulk"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/reflex-plus-chunks-gravy-chicken-adult-cat-food-85g/",
-  "shortDescription": "Reflex Plus Chunks in Gravy with Chicken is a nutritious wet cat food for adult cats. Supports hydration, kidney health, and easy digestion.",
   "description": "Reflex Plus Chunks in Gravy with Chicken for Adult Cats is a nutritious wet cat food made with high-quality chicken and carefully selected ingredients for optimal digestion and health. Its soft chunks in rich gravy are highly palatable, making mealtime enjoyable even for picky eaters. Enriched with functional components, vitamins, and trace minerals, this meal supports multiple body systems, including heart, vision, immunity, and overall vitality. The high moisture content contributes to daily hydration, promoting kidney health and overall wellbeing. Key Benefits Made with real chicken (5%) High-quality animal protein for easy digestion Soft, tasty chunks in gravy for maximum palatability Supports hydration and kidney health Enriched with taurine, vitamins, and essential minerals Suitable for adult cats Ingredients Meat and animal derivatives (chicken 5%), derivatives of vegetable origin, minerals, various sugars. Analytical Constituents Crude Protein: 8% Crude Fat: 4.5% Crude Fibre: 0.3% Crude Ash: 2% Moisture: 83% Nutritional Supplements (Additives per kg) Taurine: 1000 mg Vitamin E (all-rac-alpha-tocopheryl acetate): 100 mg Zinc (zinc oxide): 10 mg Manganese (manganous sulphate monohydrate): 2 mg Iodine (calcium iodate anhydrous): 0.7 mg Copper (copper (II) sulphate pentahydrate): 2 mg Iron (iron (II) sulphate monohydrate): 2 mg Biotin: 100 μg Feeding Guidelines Serve at room temperature Provide clean, fresh drinking water at all times Introduce diet changes gradually over 5 days Store unopened packs in a cool, dry place Once opened, cover, refrigerate, and use within 2 days Not suitable for human consumption &nbsp; &nbsp; &nbsp;",
   "images": [
     {
-      "id": 69373,
+      "id": 69371,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-PLUS-ADULT-CAT-FOOD-BREED-SERIES-BRITISH-SHORTHAIR-HYPOALLERGENIC-1.5KG.png",
       "alt": "Pack Of 12: Reflex Plus Cat Food Pouch Chicken Chunks In Gravy 85g",
-      "name": "REFLEX PLUS ADULT CAT FOOD BREED SERIES BRITISH SHORTHAIR HYPOALLERGENIC 1.5KG"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 5,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-chunks-gravy-chicken-adult-cat-food-85g/?add-to-cart=69371",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-02-02T09:55:13",
-  "dateModified": "2026-06-24T10:12:12",
+  "permalink": "https://petstore.co.ke/product/reflex-plus-chunks-gravy-chicken-adult-cat-food-85g/",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-chunks-gravy-chicken-adult-cat-food-85g/?add-to-cart=69371",
+  "shortDescription": "Reflex Plus Chunks in Gravy with Chicken for Adult Cats is a nutritious wet cat food made with high-quality chicken and carefully selected ingredients",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-PLUS-ADULT-CAT-FOOD-BREED-SERIES-BRITISH-SHORTHAIR-HYPOALLERGENIC-1.5KG.png",
+  "sku": "PSK-69371",
   "brand": "Reflex",
   "weight_kg": 1.02,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-PLUS-ADULT-CAT-FOOD-BREED-SERIES-BRITISH-SHORTHAIR-HYPOALLERGENIC-1.5KG.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-PLUS-ADULT-CAT-FOOD-BREED-SERIES-BRITISH-SHORTHAIR-HYPOALLERGENIC-1.5KG.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 62594,
   "name": "Josera Naturelle 2kg",
   "slug": "josera-naturelle-2kg-2",
-  "sku": "JCN@F",
-  "onSale": true,
+  "onSale": false,
   "price": 3360,
-  "regularPrice": 3953,
-  "salePrice": 3360,
+  "regularPrice": 3360,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JCN.jpg",
   "categories": [
     {
       "id": 2112,
@@ -17,47 +15,51 @@
       "slug": "josera"
     }
   ],
-  "brands": [
-    {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=62594",
-  "shortDescription": "JOSERA Naturelle with Lentil and Trout offers a grain-free, tasty recipe with moderate fat content to provide your pet with the best possible nutrition. Excellent for cats that have allergies or have high blood glucose levels.",
   "description": "JOSERA Naturelle combines the power of nature with premium nutrition in a grain-free recipe that’s perfect for cats with food sensitivities or high blood sugar levels. Featuring succulent trout (6%) and nutrient-rich red lentils (6%) , this tasty formula delivers balanced energy and supports your cat’s health—inside and out. Ingredients Dried poultry protein, pea flour, sweet potato, poultry fat, potato protein, dried red lentil (6.0%), dried trout (6.0%), beet fibre, dried potato, plant fibre, minerals (sodium tri-polyphosphate 0.33%), hydrolysed fish protein, hydrolysed animal protein, yeast, ground chicory root (natural source of inulin). Complete & Balanced Nutrition Formulated to: . Maintain steady blood glucose levels . Support healthy digestion and immunity . Encourage lean muscle and a shiny coat . Promote dental hygiene Nutritional Analysis (per 100g) Nutrient Value Protein ~33% Fat ~12% Crude Fiber ~3% Crude Ash ~7% Moisture ~10%",
   "images": [
     {
-      "id": 23785,
+      "id": 62594,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JCN.jpg",
       "alt": "Josera Naturelle 2kg",
-      "name": "JCN.jpg"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/josera-naturelle-2kg-2/?add-to-cart=62594",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-11-21T10:20:59",
-  "dateModified": "2026-06-17T04:33:52",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=62594",
+  "addToCartUrl": "https://petstore.co.ke/product/josera-naturelle-2kg-2/?add-to-cart=62594",
+  "shortDescription": "JOSERA Naturelle combines the power of nature with premium nutrition in a grain-free recipe that’s perfect for cats with food sensitivities or high bl",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JCN.jpg",
+  "sku": "PSK-62594",
   "brand": "Josera",
   "weight_kg": 2,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JCN.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JCN.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

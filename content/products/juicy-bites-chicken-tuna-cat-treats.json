@@ -2,14 +2,12 @@
   "id": 69961,
   "name": "Inaba Foods Cat Treat Juicy Bites In Chicken & Tuna Flavors",
   "slug": "juicy-bites-chicken-tuna-cat-treats",
-  "sku": "BJCT003",
   "onSale": false,
   "price": 430,
   "regularPrice": 430,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/Juicy-Bites-Chicken-and-Tuna-Flavors.png",
   "categories": [
     {
       "id": 2325,
@@ -37,52 +35,51 @@
       "slug": "kitten"
     }
   ],
-  "brands": [
-    {
-      "id": 2442,
-      "name": "Inaba",
-      "slug": "inaba"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/juicy-bites-chicken-tuna-cat-treats/",
-  "shortDescription": "Inaba Juicy Bites cat treats in Chicken & Tuna Flavors. Moist, bite-sized, low-calorie, grain-free treats enriched with Vitamin E & antioxidants. Perfect for handfeeding or training. &nbsp; &nbsp;",
   "description": "Delight your cat with Inaba Foods Juicy Bites in Chicken & Tuna Flavors , moist, bite-sized treats made with natural tuna and farm-raised chicken. Enhanced with natural chicken and tuna flavors, these treats are free from grains, preservatives, carrageenan, and artificial colors, making them a healthy and tasty choice for cats of all life stages. Each mini pouch contains 71% moisture and only 15 calories per piece, almost 50% fewer calories than traditional dry treats making them perfect for portion control. Ideal for handfeeding, interactive play, clicker training, or disguising medications, these treats combine convenience, flavor, and nutrition in every bite. Enriched with Vitamin E for immune support and Green Tea Extract for antioxidant benefits, Juicy Bites Chicken & Tuna Flavors provide a healthy, moisture-rich snack that keeps your cat engaged and happy. Key Benefits . Moist, bite-sized treats with 71% moisture for hydration . Only ~15 kcal per piece, perfect for portion control . Grain-free, preservative-free, carrageenan-free, and no artificial colors . Enriched with Vitamin E & Green Tea Extract for immunity and antioxidants . Ideal for handfeeding, play, training, or hiding pills . Convenient mini pouches for freshness and controlled portions . Suitable for kittens, adults, and senior cats Ingredients Chicken, Tuna, Natural Chicken Flavor, Natural Tuna Flavor, Tapioca, Vitamin E Supplement, Paprika Oleoresin, Green Tea Extract Guaranteed Analysis Crude Protein (min): 24% Crude Fat (min): 2.5% Crude Fiber (max): 0.5% Moisture (max): 71% Vitamin E (min): 200 IU/kg Calories: 1300 kcal/kg | 15 kcal per piece Net Weight: 1.2oz (0.4oz x 3 pouches) Feeding Instructions Feed as a complementary treat only. Not a full meal. Provide fresh water daily. Storage Instructions Refrigerate after opening and serve promptly to maintain freshness. &nbsp; &nbsp; &nbsp; &nbsp;",
   "images": [
     {
-      "id": 69965,
+      "id": 69961,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/02/Juicy-Bites-Chicken-and-Tuna-Flavors.png",
       "alt": "Inaba Foods Cat Treat Juicy Bites In Chicken & Tuna Flavors",
-      "name": "Juicy Bites Chicken and Tuna Flavors"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Inaba",
+      "slug": "inaba"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/juicy-bites-chicken-tuna-cat-treats/?add-to-cart=69961",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-02-23T11:44:58",
-  "dateModified": "2026-06-17T04:30:36",
+  "permalink": "https://petstore.co.ke/product/juicy-bites-chicken-tuna-cat-treats/",
+  "addToCartUrl": "https://petstore.co.ke/product/juicy-bites-chicken-tuna-cat-treats/?add-to-cart=69961",
+  "shortDescription": "Delight your cat with Inaba Foods Juicy Bites in Chicken & Tuna Flavors , moist, bite-sized treats made with natural tuna and farm-raised chicken. Enh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/Juicy-Bites-Chicken-and-Tuna-Flavors.png",
+  "sku": "PSK-69961",
   "brand": "Inaba",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/Juicy-Bites-Chicken-and-Tuna-Flavors.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/Juicy-Bites-Chicken-and-Tuna-Flavors.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

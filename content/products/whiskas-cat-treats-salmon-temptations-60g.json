@@ -2,14 +2,12 @@
   "id": 89892,
   "name": "Whiskas Cat Treats – Salmon Temptations 60g",
   "slug": "whiskas-cat-treats-salmon-temptations-60g",
-  "sku": "WCT001",
   "onSale": false,
   "price": 399,
   "regularPrice": 399,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Treat-Temptations-Salmon-60g.png",
   "categories": [
     {
       "id": 2325,
@@ -32,52 +30,51 @@
       "slug": "whiskas"
     }
   ],
-  "brands": [
-    {
-      "id": 2480,
-      "name": "Whiskas",
-      "slug": "whiskas"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/whiskas-cat-treats-salmon-temptations-60g/",
-  "shortDescription": "Reward your cat with the irresistible crunch of Whiskas Temptations Salmon Cat Treats 60g delicious dual-texture snacks with a crunchy outer layer and a soft, creamy center. Made with tasty salmon flavour, these cat snacks are specially crafted to keep adult cats happy, satisfied, and purring for more.",
   "description": "Each piece contains less than 2 kcal, making them perfect for rewarding, training, or everyday snacking. Enriched with essential vitamins and minerals, Whiskas Temptations help support your cat’s overall wellbeing while delivering the irresistible taste cats love. Key Benefits Delicious salmon flavour cats love Crunchy outside with a soft and creamy center Less than 2 kcal per piece Enriched with essential vitamins and minerals Perfect for rewarding or everyday snacking Developed with nutritionists and veterinarians from the WALTHAM Centre for Pet Nutrition No added colourants Ingredients Cereals, derivatives of vegetable origin, oils and fats, meat and animal derivatives, vegetable protein extracts, minerals. Analytical Constituents Protein: 22.0% Fat Content: 22.0% Inorganic Matter: 8.0% Crude Fibre: 2.0% Energy: 411 kcal/100g Nutritional Additives Vitamin A: 6450 IU Vitamin D3: 711 IU Copper: 6.1 mg Iodine: 1.5 mg Feeding Guide Feed up to 12 pieces daily and reduce your cat’s main meal accordingly. Always provide fresh, clean drinking water. Storage Instructions Store in a cool, dry place and use within 4 weeks after opening. Keep your cat excited for snack time with Whiskas Temptations Salmon Cat Treats 60g the crunchy and creamy snack cats can’t resist. &nbsp;",
   "images": [
     {
-      "id": 89893,
+      "id": 89892,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Treat-Temptations-Salmon-60g.png",
       "alt": "Whiskas Cat Treats – Salmon Temptations 60g",
-      "name": "Whiskas Cat Treat Temptations Salmon 60g"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Whiskas",
+      "slug": "whiskas"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/whiskas-cat-treats-salmon-temptations-60g/?add-to-cart=89892",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-05-21T15:32:29",
-  "dateModified": "2026-06-17T05:01:34",
+  "permalink": "https://petstore.co.ke/product/whiskas-cat-treats-salmon-temptations-60g/",
+  "addToCartUrl": "https://petstore.co.ke/product/whiskas-cat-treats-salmon-temptations-60g/?add-to-cart=89892",
+  "shortDescription": "Each piece contains less than 2 kcal, making them perfect for rewarding, training, or everyday snacking. Enriched with essential vitamins and minerals",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Treat-Temptations-Salmon-60g.png",
+  "sku": "PSK-89892",
   "brand": "Whiskas",
   "weight_kg": 0.06,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Treat-Temptations-Salmon-60g.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Treat-Temptations-Salmon-60g.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

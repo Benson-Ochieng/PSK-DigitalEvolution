@@ -2,14 +2,12 @@
   "id": 43075,
   "name": "Dura Chew M/L",
   "slug": "dura-chew-m-l",
-  "sku": "PA3915",
   "onSale": false,
   "price": 1700,
   "regularPrice": 1700,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/01/Dura-chew-PA3915-1.webp",
   "categories": [
     {
       "id": 1204,
@@ -37,46 +35,51 @@
       "slug": "toys"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/dura-chew-m-l/",
-  "shortDescription": "It provides long-lasting enjoyment, satisfies the natural urge to chew, and encourages positive chewing habits.",
   "description": "Give your dog something good to chew on, tough and durable. Dura Chew Chicken Bone Dog Chew Toy satisfies powerful chewers. It provides long-lasting enjoyment, satisfies the natural urge to chew, and encourages positive chewing habits. Different dogs have different chewing styles and strengths, even within the same breed, so be sure to choose the correct chew toy size and strength for your dog.",
   "images": [
     {
-      "id": 43076,
+      "id": 43075,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/01/Dura-chew-PA3915-1.webp",
       "alt": "Dura Chew M/L",
-      "name": "Dura chew PA3915"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/dura-chew-m-l/?add-to-cart=43075",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-01-10T09:27:14",
-  "dateModified": "2026-06-17T04:18:42",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/dura-chew-m-l/",
+  "addToCartUrl": "https://petstore.co.ke/product/dura-chew-m-l/?add-to-cart=43075",
+  "shortDescription": "Give your dog something good to chew on, tough and durable. Dura Chew Chicken Bone Dog Chew Toy satisfies powerful chewers. It provides long-lasting e",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/01/Dura-chew-PA3915-1.webp",
+  "sku": "PSK-43075",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/01/Dura-chew-PA3915-1.webp"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/01/Dura-chew-PA3915-1.webp",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 50369,
   "name": "Pack Of 24: Miglior Cat Food Salmon & Tuna Pouches -100g",
   "slug": "pack-of-24-miglior-cat-food-salmon-tuna-pouches-100g",
-  "sku": "MCW016@12",
-  "onSale": true,
+  "onSale": false,
   "price": 3611,
-  "regularPrice": 4248,
-  "salePrice": 3611,
+  "regularPrice": 3611,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/09/MIGLIOR-SALMON-TUNA.png",
   "categories": [
     {
       "id": 2325,
@@ -32,62 +30,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2451,
-      "name": "Miglior",
-      "slug": "miglior"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2055,
-      "name": "Bulk Cat Food & Bulk Dog Food",
-      "slug": "bulk"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pack-of-24-miglior-cat-food-salmon-tuna-pouches-100g/",
-  "shortDescription": "Formula designed to guarantee the key nutrients required for the well-being of your cat, including vitamins, Omega 3, calcium and phosphorous to support strong bones and teeth, healthy skin and glossy coat, and toned musculature.",
   "description": "COMPOSITION: Meat and animal derivatives 30%, fish and fish derivatives (salmon 5%), cereals, minerals. ANALYTICAL CONSTITUENTS: Moisture 77%, Crude protein 8.5%, Crude fat 4.8%, Crude fibres 0.5%, Crude ash 3%. Nutritional additives / kg: Vitamin E 10 mg, Copper (Copper(II) sulphate pentahydrate) 2 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight. Once opened, store in refrigerator for 2-3 days.",
   "images": [
     {
-      "id": 90582,
+      "id": 50369,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/09/MIGLIOR-SALMON-TUNA.png",
       "alt": "Pack Of 24: Miglior Cat Food Salmon & Tuna Pouches -100g",
-      "name": "MIGLIOR SALMON TUNA"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Miglior",
+      "slug": "miglior"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/pack-of-24-miglior-cat-food-salmon-tuna-pouches-100g/?add-to-cart=50369",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-09-23T12:06:26",
-  "dateModified": "2026-06-24T16:42:52",
+  "permalink": "https://petstore.co.ke/product/pack-of-24-miglior-cat-food-salmon-tuna-pouches-100g/",
+  "addToCartUrl": "https://petstore.co.ke/product/pack-of-24-miglior-cat-food-salmon-tuna-pouches-100g/?add-to-cart=50369",
+  "shortDescription": "COMPOSITION: Meat and animal derivatives 30%, fish and fish derivatives (salmon 5%), cereals, minerals. ANALYTICAL CONSTITUENTS: Moisture 77%, Crude p",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/09/MIGLIOR-SALMON-TUNA.png",
+  "sku": "PSK-50369",
   "brand": "Miglior",
   "weight_kg": 0.1,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/09/MIGLIOR-SALMON-TUNA.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/09/MIGLIOR-SALMON-TUNA.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

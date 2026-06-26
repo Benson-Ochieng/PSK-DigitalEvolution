@@ -2,14 +2,12 @@
   "id": 66622,
   "name": "Reflex Care Dog Shampoo Colour Enhancing - 300ml",
   "slug": "reflex-care-colour-enhancing-dog-shampoo",
-  "sku": "RCS001",
   "onSale": false,
   "price": 1508,
   "regularPrice": 1508,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/Reflex-care-dog-shampoo-colou-enhancing-shampoo.png",
   "categories": [
     {
       "id": 2345,
@@ -32,67 +30,51 @@
       "slug": "dog-shampoo"
     }
   ],
-  "brands": [
-    {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 675,
-      "name": "sensitive skin",
-      "slug": "sensitive-skin"
-    },
-    {
-      "id": 2025,
-      "name": "shampoo",
-      "slug": "shampoo"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/reflex-care-colour-enhancing-dog-shampoo/",
-  "shortDescription": "Professional colour-enhancing dog shampoo that naturally intensifies white, black, brown, and red coats. Gentle, pH-balanced & ideal for sensitive skin.",
   "description": "Reflex Care Colour Enhancing Dog Shampoo is a professional-grade shampoo formulated with advanced chromatic action to naturally intensify and enhance your dog’s coat colour. Powered by active ingredients that work in harmony with the natural pigments of the fur, it revitalizes white, black, brown, red, and mixed-shade coats—bringing out deeper colour, improved brightness, and a healthy shine without the use of harsh dyes or artificial colourants. This gentle yet effective shampoo is suitable for all dog breeds and is especially ideal for sensitive skin or frequent washing . Its neutral pH and mild cleansing base help maintain the skin’s natural balance while thoroughly cleansing dirt, odours, and impurities. As part of the trusted Reflex Care Dog Shampoo range , this colour-enhancing formula supports overall coat and skin health, leaving fur soft, smooth, and visibly healthier after every wash. The pleasant, non-overpowering fragrance ensures your dog smells fresh and clean without irritation. Key Benefits Naturally enhances and intensifies coat colour Suitable for white, black, brown, red, and mixed coats Neutral pH gentle on sensitive skin Ideal for frequent use Leaves coat soft, shiny, and healthy-looking Professional-quality grooming solution How to Use Wet the coat thoroughly with lukewarm water. Apply the shampoo to the neck, back, body, legs, and paws. Massage gently to create a rich, creamy lather and leave on for a few moments. Rinse thoroughly and allow the dog to shake. Towel dry and finish by brushing while blow-drying to remove excess moisture. &nbsp; &nbsp; &nbsp; &nbsp;",
   "images": [
     {
-      "id": 66623,
+      "id": 66622,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/01/Reflex-care-dog-shampoo-colou-enhancing-shampoo.png",
       "alt": "Reflex Care Dog Shampoo Colour Enhancing - 300ml",
-      "name": "Reflex care dog shampoo colou enhancing shampoo"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-care-colour-enhancing-dog-shampoo/?add-to-cart=66622",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-01-17T09:54:47",
-  "dateModified": "2026-06-17T04:29:04",
+  "permalink": "https://petstore.co.ke/product/reflex-care-colour-enhancing-dog-shampoo/",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-care-colour-enhancing-dog-shampoo/?add-to-cart=66622",
+  "shortDescription": "Reflex Care Colour Enhancing Dog Shampoo is a professional-grade shampoo formulated with advanced chromatic action to naturally intensify and enhance ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/Reflex-care-dog-shampoo-colou-enhancing-shampoo.png",
+  "sku": "PSK-66622",
   "brand": "Reflex",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/Reflex-care-dog-shampoo-colou-enhancing-shampoo.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/Reflex-care-dog-shampoo-colou-enhancing-shampoo.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

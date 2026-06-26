@@ -2,14 +2,12 @@
   "id": 52790,
   "name": "Proline Canned Cat Food Liver InGravy 415g",
   "slug": "proline-canned-cat-food-liver-in-gravy-415gr",
-  "sku": "PCW004@F",
-  "onSale": true,
+  "onSale": false,
   "price": 167.05,
-  "regularPrice": 257,
-  "salePrice": 167.05,
+  "regularPrice": 167.05,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/11/Proline-Adult-Cat-Can-Liver-Chunks-in-Jelly-400g-1080x1080-min.png",
   "categories": [
     {
       "id": 2332,
@@ -17,35 +15,51 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=52790",
-  "shortDescription": "",
   "description": "",
   "images": [
     {
-      "id": 3920,
+      "id": 52790,
       "src": "https://petstore.co.ke/wp-content/uploads/2019/11/Proline-Adult-Cat-Can-Liver-Chunks-in-Jelly-400g-1080x1080-min.png",
-      "alt": "Proline Adult Cat Can Liver Chunks in Jelly 400g 1080x1080 min",
-      "name": "Proline Adult Cat Can Liver Chunks in Jelly 400g 1080&#215;1080 min"
+      "alt": "Proline Canned Cat Food Liver InGravy 415g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/proline-canned-cat-food-liver-in-gravy-415gr/?add-to-cart=52790",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-01-16T17:04:55",
-  "dateModified": "2026-05-06T17:10:54",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=52790",
+  "addToCartUrl": "https://petstore.co.ke/product/proline-canned-cat-food-liver-in-gravy-415gr/?add-to-cart=52790",
+  "shortDescription": "",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/11/Proline-Adult-Cat-Can-Liver-Chunks-in-Jelly-400g-1080x1080-min.png",
+  "sku": "PSK-52790",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/11/Proline-Adult-Cat-Can-Liver-Chunks-in-Jelly-400g-1080x1080-min.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/11/Proline-Adult-Cat-Can-Liver-Chunks-in-Jelly-400g-1080x1080-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

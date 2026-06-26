@@ -2,14 +2,12 @@
   "id": 44517,
   "name": "Migliorgatto Adult Cat Food croquettes Chicken and Turkey and Vegetable 2Kg",
   "slug": "migliorgatto-adult-cat-food-croquettes-chicken-and-turkey-and-vegetable-2kg-2",
-  "sku": "MCD002@SE",
-  "onSale": true,
+  "onSale": false,
   "price": 1880,
-  "regularPrice": 2350,
-  "salePrice": 1880,
+  "regularPrice": 1880,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MCD002.jpg",
   "categories": [
     {
       "id": 2325,
@@ -32,56 +30,51 @@
       "slug": "miglior"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=44517",
-  "shortDescription": "Formula designed to guarantee the key nutrients required for the well-being of your cat, including vitamins, Omega 3, calcium and phosphorous to support strong bones and teeth, healthy skin and glossy coat, and toned musculature.",
   "description": "COMPOSITION: Meat and animal derivatives 30% (chicken 5%, turkey 5%), cereals, minerals. ANALYTICAL CONSTITUENTS: Moisture 77%, Crude protein 8.5%, Crude fat 4.8%, Crude fibres 0.5%, Crude ash 3%. Nutritional additives / kg: Vitamin E 10 mg, Copper (Copper(II) sulphate pentahydrate) 2 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight. Once opened, store in refrigerator for 2-3 days.",
   "images": [
     {
-      "id": 28232,
+      "id": 44517,
       "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MCD002.jpg",
-      "alt": "Migliorgatto croquettes Chicken and Turkey and Vegetable 2Kg",
-      "name": "MCD002"
+      "alt": "Migliorgatto Adult Cat Food croquettes Chicken and Turkey and Vegetable 2Kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/migliorgatto-adult-cat-food-croquettes-chicken-and-turkey-and-vegetable-2kg-2/?add-to-cart=44517",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-02-19T09:32:58",
-  "dateModified": "2026-05-06T17:09:31",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=44517",
+  "addToCartUrl": "https://petstore.co.ke/product/migliorgatto-adult-cat-food-croquettes-chicken-and-turkey-and-vegetable-2kg-2/?add-to-cart=44517",
+  "shortDescription": "COMPOSITION: Meat and animal derivatives 30% (chicken 5%, turkey 5%), cereals, minerals. ANALYTICAL CONSTITUENTS: Moisture 77%, Crude protein 8.5%, Cr",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MCD002.jpg",
+  "sku": "PSK-44517",
+  "brand": "PetStore Kenya",
   "weight_kg": 2,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MCD002.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MCD002.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 68595,
   "name": "Reflex Happy Hour Cat Treat Salmon Anti Aging Collagen 60g",
   "slug": "happy-hour-anti-aging-collagen-cat-treats-salmon",
-  "sku": "RCT023",
-  "onSale": true,
+  "onSale": false,
   "price": 1755,
-  "regularPrice": 1950,
-  "salePrice": 1755,
+  "regularPrice": 1755,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/Reflex-Happy-Hour-anti-collagen.png",
   "categories": [
     {
       "id": 2325,
@@ -32,57 +30,51 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
-    {
-      "id": 2422,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=68595",
-  "shortDescription": "Happy Hour Anti-Aging Collagen Cat Treats with salmon protein support healthy skin, coat, joints, and vitality. High-protein, taurine-rich treats for adult cats.",
   "description": "Happy Hour Anti-Aging Collagen Cat Treats are a premium, protein-rich snack specially formulated to support your cat’s skin, coat, joints, and overall vitality. Made with processed salmon protein (20%), added hydrolyzed collagen, and essential vitamins and minerals, these treats help promote healthy aging while delivering irresistible flavor. With a high 32% crude protein content and healthy fats from salmon oil and chicken fat, these treats support muscle maintenance, shiny fur, and daily energy needs. Added taurine supports heart and eye health, while flaxseed, brewer’s yeast, and XOS prebiotics aid digestion and gut balance. Yucca schidigera helps reduce litter box odors, making life better for both cats and owners. Perfect for adult cats, Happy Hour Collagen Treats are ideal as a daily reward or functional snack to help keep your feline friend feeling youthful, active, and happy. Key Benefits Anti-Aging Support – Hydrolyzed collagen promotes healthy skin, coat, and joints High Protein Formula – 32% crude protein for strength and vitality Skin & Coat Health – Salmon oil and flaxseed support a glossy coat Heart & Vision Support – Enriched with taurine Digestive Wellness – XOS prebiotics and brewer’s yeast support gut health For Cats Only – Not suitable for human consumption Guaranteed Analysis Crude Protein: 32% Fat Content: 16% Crude Cellulose: 3% Crude Ash: 8% Moisture (Max): 10% Feeding & Storage Instructions Suitable for adult cats Can be given in one meal or as a treat Daily intake may vary based on activity level and lifestyle Always provide fresh drinking water Store in a cool, dry place and reseal after opening &nbsp; &nbsp; &nbsp;",
   "images": [
     {
-      "id": 68596,
+      "id": 68595,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/01/Reflex-Happy-Hour-anti-collagen.png",
       "alt": "Reflex Happy Hour Cat Treat Salmon Anti Aging Collagen 60g",
-      "name": "Reflex Happy Hour anti collagen"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 5,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/happy-hour-anti-aging-collagen-cat-treats-salmon/?add-to-cart=68595",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-01-27T14:31:37",
-  "dateModified": "2026-05-06T17:12:30",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=68595",
+  "addToCartUrl": "https://petstore.co.ke/product/happy-hour-anti-aging-collagen-cat-treats-salmon/?add-to-cart=68595",
+  "shortDescription": "Happy Hour Anti-Aging Collagen Cat Treats are a premium, protein-rich snack specially formulated to support your cat’s skin, coat, joints, and overall",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/Reflex-Happy-Hour-anti-collagen.png",
+  "sku": "PSK-68595",
   "brand": "Reflex",
   "weight_kg": 0.15,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/Reflex-Happy-Hour-anti-collagen.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/Reflex-Happy-Hour-anti-collagen.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

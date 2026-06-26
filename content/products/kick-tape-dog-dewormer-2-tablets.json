@@ -2,14 +2,12 @@
   "id": 47925,
   "name": "Kick-Tape Dog Dewormer 2 tablets",
   "slug": "kick-tape-dog-dewormer-2-tablets",
-  "sku": "KICKTAPED2",
   "onSale": false,
   "price": 420,
   "regularPrice": 420,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/file-4-e1718871999992.png",
   "categories": [
     {
       "id": 2345,
@@ -37,61 +35,51 @@
       "slug": "veko"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2021,
-      "name": "Dewormers",
-      "slug": "deworm"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1149,
-      "name": "flea & tick",
-      "slug": "flea-tick"
-    },
-    {
-      "id": 2288,
-      "name": "Medicine",
-      "slug": "medicine"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=47925",
-  "shortDescription": "KICK-TAPE DOG is a broad-spectrum dewormer used for dogs. These tablets are effective in the control of all common gastrointestinal worms, including roundworm (Toxicara), hookworm (Ancylostoma caninum) and whipworm (Trichuris vulpis). They are also effective against intestinal tapeworms (cestodes), particularly the Taenia species and including the hyatid (also known as Echinococcus granulosus), which is the cyst stage of the tapeworm.",
   "description": "KICK-TAPE DOG is a broad-spectrum dewormer used for dogs. These tablets are effective in the control of all common gastrointestinal worms, including roundworm (Toxicara), hookworm (Ancylostoma caninum) and whipworm (Trichuris vulpis). They are also effective against intestinal tapeworms (cestodes), particularly the Taenia species and including the hyatid (also known as Echinococcus granulosus), which is the cyst stage of the tapeworm. Benefits: Proven to eliminate the most common intestinal parasites like tapeworms, roundworms, hookworms, and whipworms. Generic Equivalent to: Drontal Plus Chewable tablets and easy to give. How it Works: Kick Tape tablets contain a combination of three anthelmintic drugs. Praziquantel in Kick Tape tablets is an anthelmintic that is effective against intestinal tapeworms (cestodes) and works by interfering with the tapeworm’s ability to protect itself against its host, causing the tapeworm to lose resistance to digestion by the host digestive enzymes. The tapeworm becomes disintegrated and is then removed by the host’s immune system, which destroys the tapeworm before it can be passed out in stools. Pyrantel is a depolarising neuromuscular blocking agent that is effective against roundworms and hookworms that attach to the wall of the host’s intestine by small teeth or suckers. They work by blocking nerve transmission causing sudden muscular contraction followed by paralysis. This causes the worm to lose its grip on the intestine wall and fall off; it then becomes paralysed and dies and is passed out in the stools. Febantel in Kick tape tablets is inactive but is converted to fenbendazole a benzimidazole anthelmintic, which has a broad-spectrum action. Fenbendazole works by binding to tubulin in the worm cells, a structural protein of microtubules, and this blocks glucose uptake, which depletes energy stores and eventually paralyses the parasite, which then dies. Cautions: Side effects of Kick-tape dog are rare but may include vomiting, loss of appetite, or diarrhoea. Other side effects may also occur. Talk to your veterinarian about any unusual or bothersome side effects that may occur. You should give Kick tape tablets to your dog with or without food by hand or crushed into their food. You should weigh your dog before dosing to ensure the correct dose of one tablet per 10kg (22 lbs) body weight. Repeat the dose of Kick tape tablets after 3 months. You should continue to give your dog Kick tape tablets for as long as recommended by your veterinarian professional. You should always consult your veterinarian professional before administering Kick Tape tablets to dogs that are pregnant or lactating. DOSAGE: The recommended dose is: Half tablet up to 5kg (11lbs) body weight 1 tablets 6-10 kg (13-22lbs) body weight Over 10kg (22lbs), 1 tablet per 10kg (22lbs) body weight adding half a tablet for each 5kg (11lbs) Repeat Dose after every 3 Months for all Dogs. &nbsp; Active Ingredient Amount Praziquantel 50mg Pyrantel Pamoate 144mg Febantel 150mg",
   "images": [
     {
-      "id": 47926,
+      "id": 47925,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/06/file-4-e1718871999992.png",
       "alt": "Kick-Tape Dog Dewormer 2 tablets",
-      "name": "file (4)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/kick-tape-dog-dewormer-2-tablets/?add-to-cart=47925",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-06-20T11:30:07",
-  "dateModified": "2026-05-06T17:10:02",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=47925",
+  "addToCartUrl": "https://petstore.co.ke/product/kick-tape-dog-dewormer-2-tablets/?add-to-cart=47925",
+  "shortDescription": "KICK-TAPE DOG is a broad-spectrum dewormer used for dogs. These tablets are effective in the control of all common gastrointestinal worms, including r",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/file-4-e1718871999992.png",
+  "sku": "PSK-47925",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/file-4-e1718871999992.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/file-4-e1718871999992.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

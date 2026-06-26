@@ -2,14 +2,12 @@
   "id": 59317,
   "name": "Grounded Shampoo Bar 150g - In A Box (ENTO-OIL)",
   "slug": "grounded-shampoo-bar-150g-in-a-box-ento-oil",
-  "sku": "GPSB150g",
   "onSale": false,
   "price": 650,
   "regularPrice": 650,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/09/Grounded-pet-bar-soap.png",
   "categories": [
     {
       "id": 2325,
@@ -42,77 +40,51 @@
       "slug": "dog-shampoo"
     }
   ],
-  "brands": [
-    {
-      "id": 2441,
-      "name": "Grounded",
-      "slug": "grounded"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 675,
-      "name": "sensitive skin",
-      "slug": "sensitive-skin"
-    },
-    {
-      "id": 2025,
-      "name": "shampoo",
-      "slug": "shampoo"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/grounded-shampoo-bar-150g-in-a-box-ento-oil/",
-  "shortDescription": "Grounded Pet Shampoo is an all-natural, non-toxic shampoo for Dogs and Cats Eco-friendly and zero-waste, this biodegradable shampoo bar is a sustainable alternative to traditional liquid shampoos. Safe for dogs over one year old, it’s free from sulfates and synthetic additives, making it ideal for regular use.",
   "description": "All-Natural, Non-Toxic Care for Your Furry Friends Keep your dog’s coat clean, healthy, and itch-free with the Grounded Solid Dog Shampoo Bar. Crafted from real soap made with coconut, canola, macadamia, and castor oils, this plant-based formula gently cleanses without stripping natural oils, leaving your pet’s fur soft, shiny, and nourished. Enriched with moisturizing castor oil and diatomaceous earth, this shampoo bar naturally repels fleas and ticks while deeply hydrating the skin and coat. Lightly scented with refreshing lemongrass essential oil, it provides a clean, fresh aroma without any harsh chemicals or synthetic fragrances—perfect for dogs with sensitive skin. Eco-friendly and zero-waste, this biodegradable shampoo bar is a sustainable alternative to traditional liquid shampoos. Safe for dogs over one year old, it’s free from sulfates and synthetic additives, making it ideal for regular use. Key Ingredients: Concentrated Liquid Soap : Derived from saponified coconut, macadamia, castor oils and canola oils for a gentle yet effective cleanse. Glycerin : Helps to lock in moisture, ensuring your pet’s coat remains soft and shiny. Instructions for Use: Wet your pet’s coat thoroughly. Rub the bar directly onto the fur or your hands and lather up. Rinse thoroughly to reveal a clean, healthy coat. Store in a dry place to extend its lifespan. Proudly MADE IN KENYA &nbsp;by Grounded, our pet shampoo is a responsible choice for environmentally conscious pet owners. Treat your beloved pets to the natural care they deserve with Grounded Pet Shampoo! Give your pet the natural, gentle clean they deserve, while caring for the planet.",
   "images": [
     {
-      "id": 59318,
+      "id": 59317,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/09/Grounded-pet-bar-soap.png",
-      "alt": "Grounded Shampoo Bar 150g – In A Box (ENTO-OIL)",
-      "name": "Grounded pet bar soap"
+      "alt": "Grounded Shampoo Bar 150g - In A Box (ENTO-OIL)",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Grounded",
+      "slug": "grounded"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 5,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/grounded-shampoo-bar-150g-in-a-box-ento-oil/?add-to-cart=59317",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-09-05T12:16:45",
-  "dateModified": "2026-06-17T04:30:24",
+  "permalink": "https://petstore.co.ke/product/grounded-shampoo-bar-150g-in-a-box-ento-oil/",
+  "addToCartUrl": "https://petstore.co.ke/product/grounded-shampoo-bar-150g-in-a-box-ento-oil/?add-to-cart=59317",
+  "shortDescription": "All-Natural, Non-Toxic Care for Your Furry Friends Keep your dog’s coat clean, healthy, and itch-free with the Grounded Solid Dog Shampoo Bar. Crafted",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/09/Grounded-pet-bar-soap.png",
+  "sku": "PSK-59317",
   "brand": "Grounded",
   "weight_kg": 0.15,
   "animal_type": "cat",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/09/Grounded-pet-bar-soap.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/09/Grounded-pet-bar-soap.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

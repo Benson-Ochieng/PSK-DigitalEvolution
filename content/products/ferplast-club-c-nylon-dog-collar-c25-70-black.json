@@ -2,14 +2,12 @@
   "id": 69522,
   "name": "Ferplast Club Dog Collar C25/70 Black",
   "slug": "ferplast-club-c-nylon-dog-collar-c25-70-black",
-  "sku": "FCCC25",
   "onSale": false,
   "price": 1860,
   "regularPrice": 1860,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/Ferplast-Club-Dog-Collar-C2570-Black.png",
   "categories": [
     {
       "id": 1204,
@@ -22,46 +20,51 @@
       "slug": "dog-collars"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=69522",
-  "shortDescription": "Adjustable nylon dog collar with snap clip closure. Durable, comfortable, and available in multiple sizes and colors. Ideal for everyday use.",
   "description": "The Ferplast Club C Nylon Dog Collar is a simple, strong, and reliable everyday collar designed to suit dogs of all sizes. Made from durable nylon tape , this collar offers long-lasting performance while remaining lightweight and comfortable for daily wear. It features a secure snap clip closure for quick fastening and removal, along with a sliding plastic buckle that allows easy and precise length adjustment. With a tape circumference ranging from 45 to 70 cm and a 25 mm width , this specific C25/70 size is ideal for medium to large dogs. Part of the Ferplast Club range , this collar perfectly matches with Club nylon leads and training leads, allowing you to create a coordinated and practical walking set. Available in multiple colors and sizes, the Club C collar combines functionality, comfort, and minimalist style. Key Characteristics Material: Strong and durable nylon Closure: Secure snap clip latch Adjustability: Sliding plastic buckle for a perfect fit Size (C25/70): Circumference: 45 – 70 cm Tape width: 25 mm Color: Black SKU: 75265917 Compatibility: Matchable with other Ferplast Club leads and accessories Why Choose the Ferplast Club C Collar? Suitable for dogs of all sizes , from small to large breeds Easy to adjust for growing or active dogs Comfortable for daily use without compromising strength Minimal, practical design ideal for everyday walks and training Part of a complete matching range for a consistent look &nbsp; &nbsp;",
   "images": [
     {
-      "id": 69523,
+      "id": 69522,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/02/Ferplast-Club-Dog-Collar-C2570-Black.png",
       "alt": "Ferplast Club Dog Collar C25/70 Black",
-      "name": "Ferplast Club Dog Collar C2570 Black"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/ferplast-club-c-nylon-dog-collar-c25-70-black/?add-to-cart=69522",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-02-05T11:54:03",
-  "dateModified": "2026-05-06T17:12:42",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=69522",
+  "addToCartUrl": "https://petstore.co.ke/product/ferplast-club-c-nylon-dog-collar-c25-70-black/?add-to-cart=69522",
+  "shortDescription": "The Ferplast Club C Nylon Dog Collar is a simple, strong, and reliable everyday collar designed to suit dogs of all sizes. Made from durable nylon tap",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/Ferplast-Club-Dog-Collar-C2570-Black.png",
+  "sku": "PSK-69522",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/Ferplast-Club-Dog-Collar-C2570-Black.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/Ferplast-Club-Dog-Collar-C2570-Black.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

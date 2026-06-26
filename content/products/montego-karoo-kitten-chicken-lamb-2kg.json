@@ -2,14 +2,12 @@
   "id": 56680,
   "name": "Montego Karoo Kitten - Chicken & Lamb 2kg",
   "slug": "montego-karoo-kitten-chicken-lamb-2kg",
-  "sku": "MKKITCL02",
   "onSale": false,
   "price": 3950,
   "regularPrice": 3950,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-51.png",
   "categories": [
     {
       "id": 2325,
@@ -37,52 +35,51 @@
       "slug": "montego"
     }
   ],
-  "brands": [
-    {
-      "id": 2453,
-      "name": "Montego",
-      "slug": "montego"
-    }
-  ],
-  "tags": [
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/montego-karoo-kitten-chicken-lamb-2kg/",
-  "shortDescription": "Montego Karoo Kitten Chicken & Lamb is specially formulated with home-cooked, country goodness plus all the benefits of scientific formulation, to keep your adorable kitten’s rounded tummy well-fed. Your inquisitive kitten needs a nutrient-rich yet optimally balanced diet to keep her healthy and active.",
   "description": "Montego Karoo Kitten Chicken & Lamb offers your kitten the strongest possible start to life. So tasty, you could even feed your pawed pet the Montego Karoo Kitten Chicken & Lamb as a treat! The Montego Karoo range, including Montego Karoo Kitten Chicken & Lamb, provides satisfying whisker-friendly nutrition to your growing kitten and will ensure sustained energy and maintain health. Freeze-dried melon juice and nutritional yeast protect cells from free radicals and fortify natural defenses to citrus fiber and beet pulp to stimulate the growth of beneficial gut bacteria. Montego Karoo Kitten Chicken & Lamb offers your pet precious the best of home-cooked, country goodness with all the benefits of a scientific formulation. This delicious, Montego Karoo Kitten Chicken & Lamb single grain recipe with real chicken, lamb & rice for cats contains several beneficial life-stage-specific ingredients suited to your kitten. Available in a 2 kg pack and is suited for all cat breeds. Ingredients Chicken meal, rice, lamb liver, lamb heart, chicken fat, pea protein, whole egg powder, brewer’s yeast, beet pulp, citrus fiber, salmon oil powder, fish oil, inulin, chicken protein, potassium chloride, sodium bisulphate, salt, essential minerals & vitamins, amino acids, encapsulated fatty acids, inactivated whole yeast, dried melon juice, rosemary extract. Nutritional: Vitamin A 15 000 IU, Vitamin D3 1 500 IU, Vitamin E 250 IU, Vitamin C 125 IU, potassium chloride 2.5 g, zinc hydroxychloride 125 mg, ferrous sulphate 50 mg, copper sulphate 2 mg, potassium iodide 1 mg and organic selenium 0.2 mg; Preservatives: Approved antioxidants; Sensory: Palatability meat-based enhancers. Feeding Guide HOW MUCH SHOULD YOU FEED YOUR KITTEN? Depending on their age, kittens must be fed at the same time, in the same place, 2 – 4 times per day. Initially, you can soften your kitten’s food with a little warm water. Remove any uneaten food after 20 minutes. When switching your kitten to Karoo Kitten, do so gradually, by decreasing your existing brand and increasing the amount of Karoo Kitten. ENSURE FRESH WATER IS AVAILABLE FOR YOUR KITTEN AT ALL TIMES FOR KITTENS Age of Kitten Grams/Day 1 – 3 months 20 – 50 g 3 – 6 months 35 – 60 g 6 – 12 months 30 – 65 g",
   "images": [
     {
-      "id": 60587,
+      "id": 56680,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-51.png",
-      "alt": "Montego Karoo Kitten – Chicken & Lamb 2kg",
-      "name": "Untitled design (51)"
+      "alt": "Montego Karoo Kitten - Chicken & Lamb 2kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Montego",
+      "slug": "montego"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/montego-karoo-kitten-chicken-lamb-2kg/?add-to-cart=56680",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-07-10T15:10:36",
-  "dateModified": "2026-06-17T04:30:18",
+  "permalink": "https://petstore.co.ke/product/montego-karoo-kitten-chicken-lamb-2kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/montego-karoo-kitten-chicken-lamb-2kg/?add-to-cart=56680",
+  "shortDescription": "Montego Karoo Kitten Chicken & Lamb offers your kitten the strongest possible start to life. So tasty, you could even feed your pawed pet the Montego ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-51.png",
+  "sku": "PSK-56680",
   "brand": "Montego",
   "weight_kg": 2,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-51.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-51.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

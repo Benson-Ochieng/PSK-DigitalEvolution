@@ -2,14 +2,12 @@
   "id": 50794,
   "name": "Trendline Adult Cat Food - Multi-colour1kg",
   "slug": "trendline-adult-cat-food-gourmet-1kg-3",
-  "sku": "TCD002@OFFER",
-  "onSale": true,
+  "onSale": false,
   "price": 846,
-  "regularPrice": 995,
-  "salePrice": 846,
+  "regularPrice": 846,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/02/Trendline-Cat-Food-Multi-colour-1kg.png",
   "categories": [
     {
       "id": 1125,
@@ -17,47 +15,51 @@
       "slug": "trendline"
     }
   ],
-  "brands": [
-    {
-      "id": 2471,
-      "name": "Trendline",
-      "slug": "trendline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=50794",
-  "shortDescription": "Fully balanced all natural cat food with chicken protein, brewer's yeast for immune support, Omega-3 and -6 from flaxseed and taurine. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult cats.",
   "description": "Trendline Adult Cat Food - Multi-colour , fully balanced all-natural cat food with chicken protein, brewer's yeast for immune support, Omega-3 and -6 from flaxseed and taurine. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult cats. NUTRIENT COMPONENTS Protein............................27% Fat ..................................10% Crude Ash ......................... 8% Crude Cellulose (Fiber)...... 3% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Corn Gluten, Dried Sugar Beet, Liver Aroma, Salt, Flaxseed, Dried Brewer's Yeast, Taurine. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
   "images": [
     {
-      "id": 53956,
+      "id": 50794,
       "src": "https://petstore.co.ke/wp-content/uploads/2019/02/Trendline-Cat-Food-Multi-colour-1kg.png",
       "alt": "Trendline Adult Cat Food - Multi-colour1kg",
-      "name": "Trendline Cat Food &#8211; Multi-colour 1kg"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Trendline",
+      "slug": "trendline"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/trendline-adult-cat-food-gourmet-1kg-3/?add-to-cart=50794",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-10-13T14:01:29",
-  "dateModified": "2026-06-17T04:35:38",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=50794",
+  "addToCartUrl": "https://petstore.co.ke/product/trendline-adult-cat-food-gourmet-1kg-3/?add-to-cart=50794",
+  "shortDescription": "Trendline Adult Cat Food - Multi-colour , fully balanced all-natural cat food with chicken protein, brewer's yeast for immune support, Omega-3 and -6 ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/02/Trendline-Cat-Food-Multi-colour-1kg.png",
+  "sku": "PSK-50794",
   "brand": "Trendline",
   "weight_kg": 1,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/02/Trendline-Cat-Food-Multi-colour-1kg.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/02/Trendline-Cat-Food-Multi-colour-1kg.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

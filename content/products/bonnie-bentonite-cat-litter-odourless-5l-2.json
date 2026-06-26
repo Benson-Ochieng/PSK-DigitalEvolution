@@ -2,14 +2,12 @@
   "id": 48188,
   "name": "Bonnie Bentonite Cat Litter Odourless 5l",
   "slug": "bonnie-bentonite-cat-litter-odourless-5l-2",
-  "sku": "BCL002@F",
-  "onSale": true,
+  "onSale": false,
   "price": 606,
-  "regularPrice": 1102,
-  "salePrice": 606,
+  "regularPrice": 606,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Bonnie-Cat-Litter-Unscented-01.jpg",
   "categories": [
     {
       "id": 177,
@@ -32,77 +30,51 @@
       "slug": "cat-litter-and-accessories"
     }
   ],
-  "brands": [
-    {
-      "id": 2428,
-      "name": "Bonnie",
-      "slug": "bonnie"
-    }
-  ],
-  "tags": [
-    {
-      "id": 831,
-      "name": "bentonite",
-      "slug": "bentonite"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 819,
-      "name": "cat litter",
-      "slug": "cat-litter"
-    },
-    {
-      "id": 823,
-      "name": "clumping",
-      "slug": "clumping"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 2316,
-      "name": "unscented",
-      "slug": "unscented"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=48188",
-  "shortDescription": "Bonnie Bentonite Clumping Cat Litter Unscented will keep your cat's litter box clean.",
   "description": "Bonnie Bentonite Clumping Cat Litter Unscented will keep your cat's litter box clean MINIMUM DUST Bonnie Cat Litter is processed specially during production to be able to minimize the dust formation in the area where it is used. ABSORBENT FEATURE Bonnie Cat Litter absorbs the liquid quickly and forms clumps with perfect clumping feature. It prevents all kind of bacterial contamination that can be harmful for you or your cat. ODOR BLOCKING Bonnie Cat Litter blocks bad odour to release to the environment and it prevents you or your cat from being uncomfortable.",
   "images": [
     {
-      "id": 23861,
+      "id": 48188,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/12/Bonnie-Cat-Litter-Unscented-01.jpg",
       "alt": "Bonnie Bentonite Cat Litter Odourless 5l",
-      "name": "Bonnie Cat Litter Unscented"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Bonnie",
+      "slug": "bonnie"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/bonnie-bentonite-cat-litter-odourless-5l-2/?add-to-cart=48188",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-07-02T09:10:33",
-  "dateModified": "2026-06-17T04:32:51",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=48188",
+  "addToCartUrl": "https://petstore.co.ke/product/bonnie-bentonite-cat-litter-odourless-5l-2/?add-to-cart=48188",
+  "shortDescription": "Bonnie Bentonite Clumping Cat Litter Unscented will keep your cat's litter box clean MINIMUM DUST Bonnie Cat Litter is processed specially during prod",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Bonnie-Cat-Litter-Unscented-01.jpg",
+  "sku": "PSK-48188",
   "brand": "Bonnie",
   "weight_kg": 5,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/12/Bonnie-Cat-Litter-Unscented-01.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/12/Bonnie-Cat-Litter-Unscented-01.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

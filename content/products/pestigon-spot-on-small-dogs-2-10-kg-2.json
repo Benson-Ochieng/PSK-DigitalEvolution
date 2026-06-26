@@ -2,14 +2,12 @@
   "id": 62612,
   "name": "Pestigon Spot-on Small Dogs 2-10kg",
   "slug": "pestigon-spot-on-small-dogs-2-10-kg-2",
-  "sku": "PSOSD10@F",
-  "onSale": true,
+  "onSale": false,
   "price": 2340,
-  "regularPrice": 3600,
-  "salePrice": 2340,
+  "regularPrice": 2340,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/10/pestigon-1.png",
   "categories": [
     {
       "id": 2314,
@@ -17,47 +15,51 @@
       "slug": "pestigon"
     }
   ],
-  "brands": [
-    {
-      "id": 2457,
-      "name": "Pestigon",
-      "slug": "pestigon"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=62612",
-  "shortDescription": "Pestigon Spot-On for Medium Dogs (2–10 kg) is a veterinary flea and tick treatment in the form of a topical solution. Each pack contains 3 pipettes of 0.67 ml , with Fipronil 67 mg as the active ingredient.",
   "description": "Pestigon Spot-On for Medium Dogs (2–10 kg) is a veterinary flea and tick treatment in the form of a topical solution. Each pack contains 3 pipettes of 0.67 ml, with Fipronil 67 mg as the active ingredient. Product Overview Brand: Pestigon (by Norbrook Laboratories) Pack size: 3 pipettes, each containing 0.67 ml of solution Target: Dogs weighing 2–10 kg (one pipette per dog in this weight range) Formulation: Clear, colourless to pale yellow solution for topical (spot-on) application to the skin Active & Inactive Ingredients Each 0.67 ml pipette contains Fipronil 67 mg Other excipients include: Butylated hydroxyanisole (E320): ~0.134 mg Butylated hydroxytoluene (E321): ~0.067 mg Indications (What It Treats) Treatment of flea infestations (Ctenocephalides felis) in small dogs Immediate killing action and persistent protection against new adult flea infestations for up to 8 weeks Effective as a tick treatment (acaricide) for the following species: Ixodes ricinus: up to 2 weeks Rhipicephalus sanguineus: up to 3 weeks Dermacentor reticulatus: up to 4 weeks Can be used as part of a flea allergy dermatitis (FAD) management plan, under veterinary advice Dosage & Administration Apply one 0.67 ml pipette per dog weighing 2–10 kg Application method: Hold pipette upright and tap the narrow part to move contents to the base Break off the snap top along the scored line Part the dog’s coat between the shoulder blades until skin is visible Place pipette tip directly on the skin and gently squeeze to empty the contents in one or two spots Avoid bathing or water immersion immediately after application to maintain efficacy Contraindications & Precautions For external use only Not for use in cats Not suitable for puppies under 8 weeks or dogs under 2 kg Do not use on sick or convalescing animals without veterinary advice Toxic to aquatic life – avoid contaminating water sources Prevent licking of the application site by treated animals or other pets If the treated area appears sticky or wet, avoid touching until it dries completely (usually within 24 hours) Packaging & Storage Sealed in multi-layer pipettes for light and moisture protection Shelf life: Approximately 2 years in original packaging Store in a cool, dry place away from direct sunlight Keep out of reach of children and pets Benefits & What to Expect Fast-acting protection against fleas and ticks Long-lasting effects help break the flea life cycle and reduce tick exposure One pipette provides 1 month of protection Simple monthly spot-on application suitable for small dogs Tips for Best Use & Safety Ensure the coat is dry and part the hair properly to access the skin Allow solution to dry before petting or allowing contact with other animals Avoid washing the dog within 24 hours after application Monitor your pet after use; if adverse reactions occur, consult your vet Maintain monthly use during warm or high-risk seasons Combine with regular cleaning of bedding, carpets, and pet areas for best results &nbsp;",
   "images": [
     {
-      "id": 61341,
+      "id": 62612,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/10/pestigon-1.png",
       "alt": "Pestigon Spot-on Small Dogs 2-10kg",
-      "name": "pestigon (1)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Pestigon",
+      "slug": "pestigon"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/pestigon-spot-on-small-dogs-2-10-kg-2/?add-to-cart=62612",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-11-21T11:05:04",
-  "dateModified": "2026-06-17T04:34:34",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=62612",
+  "addToCartUrl": "https://petstore.co.ke/product/pestigon-spot-on-small-dogs-2-10-kg-2/?add-to-cart=62612",
+  "shortDescription": "Pestigon Spot-On for Medium Dogs (2–10 kg) is a veterinary flea and tick treatment in the form of a topical solution. Each pack contains 3 pipettes of",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/10/pestigon-1.png",
+  "sku": "PSK-62612",
   "brand": "Pestigon",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/10/pestigon-1.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/10/pestigon-1.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

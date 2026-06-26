@@ -2,14 +2,12 @@
   "id": 49407,
   "name": "Royal Blue Kids Hoodies with Embroidery Paw - (7-9 Years)",
   "slug": "royal-blue-kids-hoodies-with-embroidery-paw-7-9-years",
-  "sku": "RBHEPXLC",
   "onSale": false,
   "price": 3500,
   "regularPrice": 3500,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/08/Hoodie-front.jpeg",
   "categories": [
     {
       "id": 2243,
@@ -17,57 +15,51 @@
       "slug": "human"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2238,
-      "name": "Gift Cards",
-      "slug": "gift-cards"
-    },
-    {
-      "id": 2266,
-      "name": "Hoodies",
-      "slug": "hoodies"
-    },
-    {
-      "id": 2245,
-      "name": "Human",
-      "slug": "human"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/royal-blue-kids-hoodies-with-embroidery-paw-7-9-years/",
-  "shortDescription": "Kids' Paw Print Hoodie, the perfect blend of cozy comfort and playful design! Crafted from ultra-soft, high-quality fabric, this hoodie will keep your little one warm and snug during chilly days of play and adventure. Available in a range of sizes to fit kids of all ages. Give your child a hoodie they’ll love to wear, combining comfort and cute factor in one!",
   "description": "A Cozy Embrace for Cat & Dog Lovers. Kids' Paw Print Hoodie, the perfect blend of cozy comfort and playful design! Crafted from ultra-soft, high-quality fabric, this hoodie will keep your little one warm and snug during chilly days of play and adventure. Available in a range of sizes to fit kids of all ages. Give your child a hoodie they’ll love to wear, combining comfort and cute factor in one! Product Highlights: Material: Crafted from a plush cotton-poly blend for ultimate softness and durability Design: Eye-catching paw print graphic that features a heartwarming blend of cat and dog paw prints Fit: Relaxed and cozy with a classic hoodie silhouette, complete with a spacious kangaroo pocket and adjustable drawstring hood Care Instructions: Machine washable for easy maintenance and long-lasting wear It’s also a perfect gift for any pet parent who cherishes the unconditional love of their cats and dogs. Embrace the warmth of your favorite pets with every wear. Order your Paw Print Hoodie today and let your love for animal’s shine!",
   "images": [
     {
-      "id": 49355,
+      "id": 49407,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/08/Hoodie-front.jpeg",
-      "alt": "Royal Blue Kids Hoodies with Embroidery Paw – (2-4 Years)",
-      "name": "Hoodie front"
-    },
+      "alt": "Royal Blue Kids Hoodies with Embroidery Paw - (7-9 Years)",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
     {
-      "id": 49357,
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/08/Hoodie-back-1.jpeg",
-      "alt": "Royal Blue Zipped Hoodies with Embroidery Paw – XX Large",
-      "name": "Hoodie back"
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/royal-blue-kids-hoodies-with-embroidery-paw-7-9-years/?add-to-cart=49407",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-08-15T14:24:28",
-  "dateModified": "2026-06-17T04:14:46",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/royal-blue-kids-hoodies-with-embroidery-paw-7-9-years/",
+  "addToCartUrl": "https://petstore.co.ke/product/royal-blue-kids-hoodies-with-embroidery-paw-7-9-years/?add-to-cart=49407",
+  "shortDescription": "A Cozy Embrace for Cat & Dog Lovers. Kids' Paw Print Hoodie, the perfect blend of cozy comfort and playful design! Crafted from ultra-soft, high-quali",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/08/Hoodie-front.jpeg",
+  "sku": "PSK-49407",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/08/Hoodie-front.jpeg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/08/Hoodie-front.jpeg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

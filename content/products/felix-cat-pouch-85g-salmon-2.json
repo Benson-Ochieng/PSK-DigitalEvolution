@@ -2,14 +2,12 @@
   "id": 55905,
   "name": "Felix Cat Pouch Salmon 85g",
   "slug": "felix-cat-pouch-85g-salmon-2",
-  "sku": "FCW001",
   "onSale": false,
   "price": 194,
   "regularPrice": 194,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/06/FELIX-AS-GOOD-AS-IT-LOOKS-SALMON.png",
   "categories": [
     {
       "id": 2325,
@@ -32,57 +30,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2437,
-      "name": "Felix",
-      "slug": "felix"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/felix-cat-pouch-85g-salmon-2/",
-  "shortDescription": "FELIX Salmon Cat Pouch 85g offers your cat a nutritionally complete meal with the flavor they love. Each pouch contains succulent salmon pieces in savory jelly , packed with Omega-6, vitamins, and minerals to promote radiant fur, healthy skin, and lasting energy. With its balanced formulation and irresistible taste, FELIX delivers wholesome nourishment and pure satisfaction in every serving.",
   "description": "FELIX As Good As It Looks is a range of irresistible meals that look, smell and taste so delicious they’re just like food you might have cooked yourself. Each recipe has tender pieces in succulent jelly for a tasty meal your cat can really get his teeth into! They’re also a source of essential Omega 6 fatty acids with the right combination of balanced minerals and vitamins to help keep your cat full of vitality and ready for mischief! They’re packed with healthy goodness and satisfy 100% of your cat’s daily needs when served according to the feeding guidelines. Mouth-watering tastes and textures, it really does taste as good as it looks! Packed with essential vitamins and minerals. A great way to keep your cat nourished through complete and balanced nutrition. Delicious flavor including salmon Ingredients Salmon and animal derivatives Vegetable protein extracts Minerals Various sugars Nutrition & Analytical Constituents Moisture: 82.0% Protein: 11.5% Fat content: 2.5% Crude ash: 2.5% Crude fibres: 0.05% Linoleic acid: (omega 6 FA) 0.4% ME value:&nbsp;67kcal/100g Nutritional additives IU/kg: Vitamin A:&nbsp;585; Vitamin D3:&nbsp;90; Vitamin E:&nbsp;13. mg/kg: Fe (E1):&nbsp;20; I (E2):&nbsp;0.26; Cu (E4):&nbsp;2.3; Mn (E5):&nbsp;4.0; Zn (E6):&nbsp;33. Feeding Guide: For an average adult cat (4kg), feed 4 pouches per day served in 2 meals at room temperature. The adult maintenance averages are based on moderately active cats at normal environmental temperatures. Individual needs vary and feeding should be adjusted as required to maintain your cat at a lean, healthy body weight. Fresh, clean drinking water should always be available.",
   "images": [
     {
-      "id": 55907,
+      "id": 55905,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/06/FELIX-AS-GOOD-AS-IT-LOOKS-SALMON.png",
       "alt": "Felix Cat Pouch Salmon 85g",
-      "name": "FELIX AS GOOD AS IT LOOKS SALMON"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Felix",
+      "slug": "felix"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/felix-cat-pouch-85g-salmon-2/?add-to-cart=55905",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-06-17T13:20:22",
-  "dateModified": "2026-06-24T10:11:59",
+  "permalink": "https://petstore.co.ke/product/felix-cat-pouch-85g-salmon-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/felix-cat-pouch-85g-salmon-2/?add-to-cart=55905",
+  "shortDescription": "FELIX As Good As It Looks is a range of irresistible meals that look, smell and taste so delicious they’re just like food you might have cooked yourse",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/06/FELIX-AS-GOOD-AS-IT-LOOKS-SALMON.png",
+  "sku": "PSK-55905",
   "brand": "Felix",
-  "weight_kg": 0.085,
+  "weight_kg": 0.09,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/06/FELIX-AS-GOOD-AS-IT-LOOKS-SALMON.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/06/FELIX-AS-GOOD-AS-IT-LOOKS-SALMON.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

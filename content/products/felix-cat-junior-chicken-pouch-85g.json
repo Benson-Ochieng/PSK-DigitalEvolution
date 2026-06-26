@@ -2,14 +2,12 @@
   "id": 57780,
   "name": "Felix Cat Junior Chicken Pouch 85g",
   "slug": "felix-cat-junior-chicken-pouch-85g",
-  "sku": "FCW007",
   "onSale": false,
   "price": 194,
   "regularPrice": 194,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-9.png",
   "categories": [
     {
       "id": 2325,
@@ -32,62 +30,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2437,
-      "name": "Felix",
-      "slug": "felix"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/felix-cat-junior-chicken-pouch-85g/",
-  "shortDescription": "Felix Cat Junior Chicken Pouch 85g is a nutritious wet cat food specifically formulated for kittens aged 2 to 12 months, featuring tender chicken pieces in a succulent jelly with essential vitamins, minerals, and Omega-6 for healthy growth.",
   "description": "Nutrition & Analytical Constituents Moisture: 80.0% Crude Protein: 14.0% Crude Oil: 2.5% Crude Ash: 2.2% Crude Fibre: 0.8% Nutritional Additives (per kg) Vitamin A: 1,015 IU Vitamin D3: 140 IU Vitamin E: 150 IU Iron (Fe): 29.5 mg Iodine (I): 0.57 mg Copper (Cu): 3.6 mg Manganese (Mn): 5.2 mg Zinc (Zn): 71.9 mg Selenium (Se): 0.047 mg Feeding Guide For an average adult cat (4 kg), feed 3–4 pouches per day split into at least 2 meals. Adjust feeding amounts based on your cat’s activity level and body condition. Serve at room temperature and always provide fresh drinking water. Key Benefits • Mouth-watering tastes and textures cats love. • Packed with essential vitamins and minerals for daily health. • 100% complete and balanced nutrition. • Delicious chicken flavour for a meaty, satisfying meal",
   "images": [
     {
-      "id": 57781,
+      "id": 57780,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-9.png",
       "alt": "Felix Cat Junior Chicken Pouch 85g",
-      "name": "Untitled design (9)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Felix",
+      "slug": "felix"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/felix-cat-junior-chicken-pouch-85g/?add-to-cart=57780",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-08-08T12:38:40",
-  "dateModified": "2026-06-24T10:12:00",
+  "permalink": "https://petstore.co.ke/product/felix-cat-junior-chicken-pouch-85g/",
+  "addToCartUrl": "https://petstore.co.ke/product/felix-cat-junior-chicken-pouch-85g/?add-to-cart=57780",
+  "shortDescription": "Nutrition & Analytical Constituents Moisture: 80.0% Crude Protein: 14.0% Crude Oil: 2.5% Crude Ash: 2.2% Crude Fibre: 0.8% Nutritional Additives (per ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-9.png",
+  "sku": "PSK-57780",
   "brand": "Felix",
-  "weight_kg": 0.085,
+  "weight_kg": 0.09,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-9.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-9.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

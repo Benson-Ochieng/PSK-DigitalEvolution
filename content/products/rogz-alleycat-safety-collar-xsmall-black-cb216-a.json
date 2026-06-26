@@ -2,14 +2,12 @@
   "id": 47742,
   "name": "Rogz Alleycat Safety Collar XSmall Black (Cb216-A)",
   "slug": "rogz-alleycat-safety-collar-xsmall-black-cb216-a",
-  "sku": "CB216-A",
   "onSale": false,
   "price": 900,
   "regularPrice": 900,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/CB16-A-Alleycat-Black.jpg",
   "categories": [
     {
       "id": 2325,
@@ -32,56 +30,51 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2065,
-      "name": "Collars",
-      "slug": "collar"
-    },
-    {
-      "id": 2227,
-      "name": "Rogz",
-      "slug": "rogz"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-alleycat-safety-collar-xsmall-black-cb216-a/",
-  "shortDescription": "Crafted from high-quality, snag-proof webbing , this collar is built to withstand daily wear while remaining soft and comfortable. A highly reflective finish enhances visibility during night-time adventures, helping to keep your cat safe after dark. Reflective | Snag-Proof | Breakaway Safety Buckle",
   "description": "The Rogz AlleyCat Safety Collar is the ideal choice for everyday wear and identification, offering both safety and durability for your feline friend. Crafted from high-quality, snag-proof webbing , this collar is built to withstand daily wear while remaining soft and comfortable. A highly reflective finish enhances visibility during night-time adventures, helping to keep your cat safe after dark. Featuring the Rogz Safe lock breakaway buckle with three adjustable load settings , the collar is designed to release under enough strain allowing your cat to safely escape if the collar becomes caught. With an 8mm width and adjustable neck size from 16.5 to 23cm , it’s perfect for kittens and small adult cats. Key Features: Reflective webbing for increased night-time visibility Snag-proof and durable for everyday use Breakaway buckle with 3 safety release settings Adjustable fit : 16.5–23cm neck size | Width : 8mm Ideal for kittens and small cat breeds Keep your cat safe and seen after dark with Rogz AlleyCat Safety Collar designed for both function and flair.",
   "images": [
     {
-      "id": 58332,
+      "id": 47742,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/06/CB16-A-Alleycat-Black.jpg",
       "alt": "Rogz Alleycat Safety Collar XSmall Black (Cb216-A)",
-      "name": "CB16-A-Alleycat-Black"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-alleycat-safety-collar-xsmall-black-cb216-a/?add-to-cart=47742",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-06-11T12:55:53",
-  "dateModified": "2026-06-17T13:12:17",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/rogz-alleycat-safety-collar-xsmall-black-cb216-a/",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-alleycat-safety-collar-xsmall-black-cb216-a/?add-to-cart=47742",
+  "shortDescription": "The Rogz AlleyCat Safety Collar is the ideal choice for everyday wear and identification, offering both safety and durability for your feline friend. ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/CB16-A-Alleycat-Black.jpg",
+  "sku": "PSK-47742",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/CB16-A-Alleycat-Black.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/CB16-A-Alleycat-Black.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

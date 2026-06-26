@@ -2,14 +2,12 @@
   "id": 52884,
   "name": "Cs Cat Play Tunnel S Type",
   "slug": "cs-cat-play-tunnel-s-type",
-  "sku": "CPT001",
   "onSale": false,
   "price": 2900,
   "regularPrice": 2900,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/01/CAT-PLAY-TUNNEL.png",
   "categories": [
     {
       "id": 1204,
@@ -32,62 +30,51 @@
       "slug": "cs"
     }
   ],
-  "brands": [
-    {
-      "id": 2434,
-      "name": "CS",
-      "slug": "cs"
-    }
-  ],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/cs-cat-play-tunnel-s-type/",
-  "shortDescription": "Whether your cat is chasing toys, napping, or just having fun, this tunnel is sure to become a favorite hangout spot. Available in Grey",
   "description": "Give your cat the ultimate playground with our Cat Play Tunnel - S Type! This fun and versatile tunnel provides hours of entertainment and exercise, perfect for cats who love to explore, hide, and pounce. Its unique \"S\" shape encourages interactive play, while its durable, lightweight design makes it easy to set up and store. Whether your cat is chasing toys, napping, or just having fun, this tunnel is sure to become a favorite hangout spot. Key Features : Interactive & Stimulating : The unique S-shaped design creates a dynamic play area, ideal for running, hiding, and pouncing, keeping your cat mentally and physically engaged. Durable & Safe : Made from high-quality, pet-safe materials that are designed to withstand rough play and provide long-lasting use. Collapsible & Easy to Store : Lightweight and easy to fold for compact storage, perfect for homes with limited space. Perfect for Play & Relaxation : Not only great for active play, but also a cozy spot for your cat to relax and nap in between adventures. Bright & Fun Design : Vibrant colors and a fun, crinkly sound add to the excitement, keeping your cat entertained for hours. Dimensions : Length 1m, Diameter: 25cm Create a fun and exciting environment for your feline friend with the Cat Play Tunnel - S Type. Whether it's a playful romp or a quiet retreat, this tunnel provides endless entertainment and comfort for your cat!",
   "images": [
     {
-      "id": 52885,
+      "id": 52884,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/01/CAT-PLAY-TUNNEL.png",
       "alt": "Cs Cat Play Tunnel S Type",
-      "name": "CAT PLAY TUNNEL"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "CS",
+      "slug": "cs"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/cs-cat-play-tunnel-s-type/?add-to-cart=52884",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-01-18T12:18:43",
-  "dateModified": "2026-06-17T04:28:57",
+  "permalink": "https://petstore.co.ke/product/cs-cat-play-tunnel-s-type/",
+  "addToCartUrl": "https://petstore.co.ke/product/cs-cat-play-tunnel-s-type/?add-to-cart=52884",
+  "shortDescription": "Give your cat the ultimate playground with our Cat Play Tunnel - S Type! This fun and versatile tunnel provides hours of entertainment and exercise, p",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/01/CAT-PLAY-TUNNEL.png",
+  "sku": "PSK-52884",
   "brand": "CS",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/01/CAT-PLAY-TUNNEL.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/01/CAT-PLAY-TUNNEL.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

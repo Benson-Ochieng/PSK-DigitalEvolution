@@ -2,14 +2,12 @@
   "id": 25988,
   "name": "Unique Veterinary Prescription Diet Adult Cat Obesity Chicken & Turkey 2kg",
   "slug": "unique-veterinary-prescription-diet-adult-cat-obesity-chicken-turkey-2kg",
-  "sku": "UCD007",
-  "onSale": true,
+  "onSale": false,
   "price": 2672,
-  "regularPrice": 3563,
-  "salePrice": 2672,
+  "regularPrice": 2672,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/03/UCD007.jpg",
   "categories": [
     {
       "id": 2325,
@@ -32,67 +30,51 @@
       "slug": "unique"
     }
   ],
-  "brands": [
-    {
-      "id": 2475,
-      "name": "Unique",
-      "slug": "unique-2"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 939,
-      "name": "On Sale Now",
-      "slug": "sale"
-    },
-    {
-      "id": 2319,
-      "name": "Veterinary Range",
-      "slug": "veterinary-range"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/unique-veterinary-prescription-diet-adult-cat-obesity-chicken-turkey-2kg/",
-  "shortDescription": "It is used to help cats with weight problems reach the ideal weight by increasing their body muscle mass and to maintain this weight. It is effective in protecting heart health. It helps in solving joint problems. It may be used as a support for the treatment of diabetes mellitus caused by obesity. Due to its high-quality protein content and limited energy level, it helps your cat achieve and maintain the desired weight. Thanks to its high fiber content and L-Carnitine content, it achieves the desired weight loss in a healthy way.",
   "description": "How it works: Weight control with limited metabolic energy level, Rich and effective fiber content (healthy digestion), High L-Carnitine (effective use of energy), Probiotic and prebiotic rich content, High quality protein sources. Ingredients: Chicken Protein, Turkey Protein, Pea, Pea Protein, Powdered Cellulose, Sugar Beet Pulp, Fish Oil, Chicken Oil, Hydrolysed Chicken Liver, Vitamin and Mineral Premix, Natural Flavours, Brewer's Yeast, Probiotic, Psyllium Shells, Dried Algae, MOS, Glucan, Tocopherol, Marigold Extract, Yucca, Wild Sea buckthorn. Raw Material Components Raw Protein 42.10% Raw oil 9.60% Raw Cellulose (Fiber) 8.60% Ash 6.84% Moisture 4.20% Omega-3 0.48% Omega 6 1.30% Calcium 1.20% Phosphorus 0.90% Sodium 0.27% Magnesium 0.062% Potassium 0.50% Nutritional Supplements Vitamin A (3a672a) 25,000 IU/kg Vitamin D 3 (E671) 850 IU/kg Vitamin E (3a700) 1.000 mg/kg Vitamin C (3a312) 300mg/kg Choline Chloride (3a890) 2.300 mg/kg Biotin (3a880) 3mg/kg Vitamin B 1 (3a821) 10mg/kg Vitamin B2 30mg/kg Niacinamide (3a315) 60mg/kg Calcium-D-Panthothenate (3a841) 50mg/kg Vitamin B 6 (3a831) 35mg/kg Folic Acid (3a316) 15mg/kg Vitamin B 12 0.15 mg/kg Zinc Chelate of Amino Acids Hydrate (3b606) 110mg/kg Ferrous Chelate of Amino Acids Hydrate (E1) 55mg/kg Manganese Chelate of Amino Acids Hydrate (E5) 35mg/kg Potassium Iodide (3b201) 3mg/kg Cupric Chelate of Amino Acids Hydrate (E4) 3mg/kg Organic Form of Selenium (3b8.10) 0.2mg/kg Taurine (3a370) 2.300 mg/kg L-Carnitine (3a910) 600mg/kg L-Methionine (3c305) 4,000 mg/kg Probiotic (B. Amyloliquefaciens) 7 x 10 14 /kg",
   "images": [
     {
-      "id": 25871,
+      "id": 25988,
       "src": "https://petstore.co.ke/wp-content/uploads/2022/03/UCD007.jpg",
-      "alt": "SHORT EXPIRY-CLEARANCE: Unique Veterinary Prescription Diet Adult Cat Obesity Chicken & Turkey 2kg",
-      "name": "UCD007"
+      "alt": "Unique Veterinary Prescription Diet Adult Cat Obesity Chicken & Turkey 2kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Unique",
+      "slug": "unique"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/unique-veterinary-prescription-diet-adult-cat-obesity-chicken-turkey-2kg/?add-to-cart=25988",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2022-03-07T08:17:34",
-  "dateModified": "2026-06-17T04:28:47",
+  "permalink": "https://petstore.co.ke/product/unique-veterinary-prescription-diet-adult-cat-obesity-chicken-turkey-2kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/unique-veterinary-prescription-diet-adult-cat-obesity-chicken-turkey-2kg/?add-to-cart=25988",
+  "shortDescription": "How it works: Weight control with limited metabolic energy level, Rich and effective fiber content (healthy digestion), High L-Carnitine (effective us",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/03/UCD007.jpg",
+  "sku": "PSK-25988",
   "brand": "Unique",
   "weight_kg": 2,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/03/UCD007.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/03/UCD007.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

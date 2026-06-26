@@ -2,14 +2,12 @@
   "id": 68413,
   "name": "Churu Rolls Dog Treats Chicken Recipe Wraps Chicken Recipe",
   "slug": "inaba-churu-rolls-dog-treats-chicken-recipe",
-  "sku": "BCDT031",
   "onSale": false,
   "price": 780,
   "regularPrice": 780,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/Churu-Rolls-Chicken-Wraps-Chicken-Recipe-.png",
   "categories": [
     {
       "id": 2386,
@@ -32,52 +30,51 @@
       "slug": "dog-treats"
     }
   ],
-  "brands": [
-    {
-      "id": 2433,
-      "name": "Churu",
-      "slug": "churu"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/inaba-churu-rolls-dog-treats-chicken-recipe/",
-  "shortDescription": "Soft, chewy dog treats with a dual texture baked chicken outside and creamy Churu filling inside. Grain-free, low-calorie, and enriched with vitamins for healthy rewarding.",
   "description": "Inaba Churu Rolls Dog Treats – Chicken Recipe are soft, chewy, and irresistibly tasty treats made to delight dogs of all sizes and life stages. Each roll features a dual-texture design , with a gently baked chicken paste on the outside and a rich, creamy Churu filling on the inside giving your dog two satisfying textures in every bite. Prepared using wholesome, grain-free ingredients , these premium treats are made with farm-raised chicken and wild-caught tuna, with no artificial colours, preservatives, carrageenan, or grains. Light on calories and high in moisture, Churu Rolls are perfect for daily rewarding while helping support your dog’s hydration. Enriched with Vitamin E for immune support and Green Tea Extract as a natural antioxidant , Churu Rolls do more than just taste good they support your dog’s overall wellbeing. Whether used for training, bonding moments, or to safely hide medication, these soft rolls make every treat time easy and enjoyable. Key Benefits Dual texture: soft baked chicken outside, creamy Churu filling inside Made with farm-raised chicken and wild-caught tuna Grain-free and free from artificial additives Low-calorie and high moisture for healthy snacking Enriched with Vitamin E and Green Tea Extract Ideal for training, rewarding, or hiding medication Available Variants Chicken Recipe Chicken with Cheese Recipe Chicken with Salmon Recipe &nbsp; &nbsp; &nbsp; &nbsp;",
   "images": [
     {
-      "id": 68414,
+      "id": 68413,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/01/Churu-Rolls-Chicken-Wraps-Chicken-Recipe-.png",
       "alt": "Churu Rolls Dog Treats Chicken Recipe Wraps Chicken Recipe",
-      "name": "Churu Rolls Chicken Wraps Chicken Recipe"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Churu",
+      "slug": "churu"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/inaba-churu-rolls-dog-treats-chicken-recipe/?add-to-cart=68413",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-01-21T12:37:51",
-  "dateModified": "2026-06-19T17:12:09",
+  "permalink": "https://petstore.co.ke/product/inaba-churu-rolls-dog-treats-chicken-recipe/",
+  "addToCartUrl": "https://petstore.co.ke/product/inaba-churu-rolls-dog-treats-chicken-recipe/?add-to-cart=68413",
+  "shortDescription": "Inaba Churu Rolls Dog Treats – Chicken Recipe are soft, chewy, and irresistibly tasty treats made to delight dogs of all sizes and life stages. Each r",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/Churu-Rolls-Chicken-Wraps-Chicken-Recipe-.png",
+  "sku": "PSK-68413",
   "brand": "Churu",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/Churu-Rolls-Chicken-Wraps-Chicken-Recipe-.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/Churu-Rolls-Chicken-Wraps-Chicken-Recipe-.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

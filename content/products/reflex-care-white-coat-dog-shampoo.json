@@ -2,14 +2,12 @@
   "id": 66624,
   "name": "Reflex Care Dog Shampoo White Fur - 300ml",
   "slug": "reflex-care-white-coat-dog-shampoo",
-  "sku": "RCS002",
   "onSale": false,
   "price": 1300,
   "regularPrice": 1300,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/Reflex-care-dog-shampoo-white-fur-300ml-1.png",
   "categories": [
     {
       "id": 2345,
@@ -32,67 +30,51 @@
       "slug": "dog-shampoo"
     }
   ],
-  "brands": [
-    {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 675,
-      "name": "sensitive skin",
-      "slug": "sensitive-skin"
-    },
-    {
-      "id": 2025,
-      "name": "shampoo",
-      "slug": "shampoo"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/reflex-care-white-coat-dog-shampoo/",
-  "shortDescription": "Professional shampoo for white and light-coloured dogs that removes yellow stains, enhances shine, and hydrates with collagen. Gentle, pH-balanced formula.",
   "description": "Reflex Care White Coat Dog Shampoo is a top-quality professional shampoo specially developed for white and light-coloured dogs . Its advanced brightening formula effectively removes and helps prevent unsightly grey and yellow stains , restoring the coat’s original brilliance and enhancing its natural shine without the use of harsh bleaches or dyes. Enriched with natural collagen , this shampoo deeply hydrates, revitalizes, and strengthens the coat, helping to restore a healthy, soft, and glossy appearance. The inclusion of vegetable glycerin supports moisture retention, leaving the fur smooth and manageable after every wash. Designed for frequent use , the shampoo features a neutral pH and very mild surfactants , making it gentle on sensitive skin while still delivering excellent cleansing performance. Its purple colour helps visually neutralize yellow tones, while the light, fruity fragrance leaves your dog smelling fresh without being overpowering. Part of the trusted Reflex Care Dog Shampoo range , this formula provides professional-level grooming results while maintaining optimal coat and skin health. Key Benefits Specifically formulated for white and light-coloured coats Removes and prevents yellow and grey stains Enhances natural brightness and shine Enriched with natural collagen for coat repair and hydration Contains vegetable glycerin for added softness Neutral pH and mild surfactants – ideal for frequent washing Pleasant fruity fragrance How to Use Moisten the coat thoroughly with warm water. Apply the shampoo to the neck, back, loin, legs, and paws. Massage gently into a rich, creamy lather and leave on for a few moments. Rinse thoroughly and allow the dog to shake. Towel dry and finish by blow-drying while brushing the coat. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
   "images": [
     {
-      "id": 66626,
+      "id": 66624,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/01/Reflex-care-dog-shampoo-white-fur-300ml-1.png",
       "alt": "Reflex Care Dog Shampoo White Fur - 300ml",
-      "name": "Reflex care dog shampoo white fur 300ml (1)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-care-white-coat-dog-shampoo/?add-to-cart=66624",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-01-17T10:20:44",
-  "dateModified": "2026-06-17T04:29:04",
+  "permalink": "https://petstore.co.ke/product/reflex-care-white-coat-dog-shampoo/",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-care-white-coat-dog-shampoo/?add-to-cart=66624",
+  "shortDescription": "Reflex Care White Coat Dog Shampoo is a top-quality professional shampoo specially developed for white and light-coloured dogs . Its advanced brighten",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/Reflex-care-dog-shampoo-white-fur-300ml-1.png",
+  "sku": "PSK-66624",
   "brand": "Reflex",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/Reflex-care-dog-shampoo-white-fur-300ml-1.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/Reflex-care-dog-shampoo-white-fur-300ml-1.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

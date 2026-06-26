@@ -2,14 +2,12 @@
   "id": 90110,
   "name": "Pack Of 12 - Wanpy Dog Treats – Soft Chicken Jerky Strips 100g",
   "slug": "pack-of-12-wanpy-dog-treats-soft-chicken-jerky-strips-100g",
-  "sku": "WDW022$12",
-  "onSale": true,
+  "onSale": false,
   "price": 3555,
-  "regularPrice": 4740,
-  "salePrice": 3555,
+  "regularPrice": 3555,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/WANPY-DOG-SOFT-CHICKEN-JERKY-STRIPS-100G.png",
   "categories": [
     {
       "id": 2345,
@@ -32,62 +30,51 @@
       "slug": "wanpy"
     }
   ],
-  "brands": [
-    {
-      "id": 2479,
-      "name": "Wanpy",
-      "slug": "wanpy"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2055,
-      "name": "Bulk Cat Food & Bulk Dog Food",
-      "slug": "bulk"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 939,
-      "name": "On Sale Now",
-      "slug": "sale"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pack-of-12-wanpy-dog-treats-soft-chicken-jerky-strips-100g/",
-  "shortDescription": "Reward your dog with the irresistible taste of Wanpy Oven Roasted Chicken Jerky Strips Dog Treats. Made with high-quality ingredients and crafted to human consumption standards, these delicious jerky strips deliver rich chicken flavour and a satisfying chewy texture dogs love.",
   "description": "Carefully oven-roasted to enhance flavour and preserve quality, Wanpy Chicken Jerky Strips provide a protein-rich snack suitable for daily rewarding, training sessions, or between-meal enjoyment. Their soft and chewy texture also makes them easy to break into smaller portions for controlled feeding. Designed to combine taste and nutrition, these premium dog snacks are a great addition to your dog’s daily routine while helping keep them happy and satisfied. Key Benefits Delicious oven-roasted chicken flavour Premium-quality dog snacks Made with high-quality ingredients Protein-rich recipe for dogs Soft, chewy texture dogs enjoy Easy to break into smaller portions Suitable for training and daily rewarding Produced to human consumption standards Storage Instructions Store in a cool and dry place.",
   "images": [
     {
-      "id": 89877,
+      "id": 90110,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/05/WANPY-DOG-SOFT-CHICKEN-JERKY-STRIPS-100G.png",
-      "alt": "Pack Of 12 – Wanpy Dog Treats – Soft Chicken Jerky Strips 100g",
-      "name": "WANPY DOG SOFT CHICKEN JERKY STRIPS 100G"
+      "alt": "Pack Of 12 - Wanpy Dog Treats – Soft Chicken Jerky Strips 100g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Wanpy",
+      "slug": "wanpy"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/pack-of-12-wanpy-dog-treats-soft-chicken-jerky-strips-100g/?add-to-cart=90110",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-05-28T09:45:49",
-  "dateModified": "2026-06-17T05:01:39",
+  "permalink": "https://petstore.co.ke/product/pack-of-12-wanpy-dog-treats-soft-chicken-jerky-strips-100g/",
+  "addToCartUrl": "https://petstore.co.ke/product/pack-of-12-wanpy-dog-treats-soft-chicken-jerky-strips-100g/?add-to-cart=90110",
+  "shortDescription": "Carefully oven-roasted to enhance flavour and preserve quality, Wanpy Chicken Jerky Strips provide a protein-rich snack suitable for daily rewarding, ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/WANPY-DOG-SOFT-CHICKEN-JERKY-STRIPS-100G.png",
+  "sku": "PSK-90110",
   "brand": "Wanpy",
   "weight_kg": 1.2,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/WANPY-DOG-SOFT-CHICKEN-JERKY-STRIPS-100G.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/WANPY-DOG-SOFT-CHICKEN-JERKY-STRIPS-100G.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

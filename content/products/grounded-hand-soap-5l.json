@@ -2,14 +2,12 @@
   "id": 63430,
   "name": "Grounded Hand Soap 5L",
   "slug": "grounded-hand-soap-5l",
-  "sku": "HSP5",
   "onSale": false,
   "price": 5603,
   "regularPrice": 5603,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/12/GROUNDED-1.png",
   "categories": [
     {
       "id": 2033,
@@ -22,47 +20,51 @@
       "slug": "human"
     }
   ],
-  "brands": [
-    {
-      "id": 2441,
-      "name": "Grounded",
-      "slug": "grounded"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2245,
-      "name": "Human",
-      "slug": "human"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/grounded-hand-soap-5l/",
-  "shortDescription": "Grounded 5L Castile Hand Soap Refills: natural, non-toxic, long-lasting and eco-friendly. Gentle on skin, perfect for homes, offices and high-use spaces.",
   "description": "Keep every handwash clean, safe, and sustainable with Grounded’s 5-liter Castile Hand Soap Refill. Made from natural plant oils—including coconut, canola and sunflower—this concentrated formula delivers a luxurious foam that lifts away dirt while protecting your skin’s natural moisture. Perfect for homes, offices, schools, restaurants and high-traffic spaces, each 5L refill is designed to last significantly longer than standard gel soaps, offering hundreds of washes per container. Choose from pure unscented or essential-oil-infused options for a naturally refreshing cleanse. Crafted without sulfates, parabens, synthetic fragrances or harsh chemicals, this non-toxic soap is safe for families and gentle enough for daily use. Its biodegradable ingredients and refillable packaging help reduce plastic waste, making it a smart, planet-friendly choice. Why You’ll Love It Long-lasting value — Concentrated formula provides many more washes than typical liquid soaps. Gentle + effective — Cleans thoroughly while keeping hands soft. Eco-friendly — Refillable, biodegradable and packaged with recycled materials. Non-toxic — Free from SLS, parabens, and synthetic fragrances. Perfect for high-use environments — Ideal for multiple dispensers or large households. A cleaner home. A lighter footprint. A better way to wash. &nbsp; &nbsp; &nbsp;",
   "images": [
     {
-      "id": 63433,
+      "id": 63430,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/12/GROUNDED-1.png",
       "alt": "Grounded Hand Soap 5L",
-      "name": "GROUNDED (1)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Grounded",
+      "slug": "grounded"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 5,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/grounded-hand-soap-5l/?add-to-cart=63430",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-12-04T16:32:31",
-  "dateModified": "2026-06-17T04:30:27",
+  "permalink": "https://petstore.co.ke/product/grounded-hand-soap-5l/",
+  "addToCartUrl": "https://petstore.co.ke/product/grounded-hand-soap-5l/?add-to-cart=63430",
+  "shortDescription": "Keep every handwash clean, safe, and sustainable with Grounded’s 5-liter Castile Hand Soap Refill. Made from natural plant oils—including coconut, can",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/12/GROUNDED-1.png",
+  "sku": "PSK-63430",
   "brand": "Grounded",
   "weight_kg": 0.4,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/12/GROUNDED-1.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/12/GROUNDED-1.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

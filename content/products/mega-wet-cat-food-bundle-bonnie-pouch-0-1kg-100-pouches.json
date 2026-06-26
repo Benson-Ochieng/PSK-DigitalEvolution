@@ -2,14 +2,12 @@
   "id": 5960,
   "name": "Mega Wet Cat Food Bundle | Bonnie Pouch 0.1kg - 100 Pouches",
   "slug": "mega-wet-cat-food-bundle-bonnie-pouch-0-1kg-100-pouches",
-  "sku": "BPC100",
   "onSale": false,
   "price": 11000,
   "regularPrice": 11000,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/12/Bonnie-Adult-Cat-pouch-5-flavours-100g-min.png",
   "categories": [
     {
       "id": 177,
@@ -47,62 +45,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2428,
-      "name": "Bonnie",
-      "slug": "bonnie"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=5960",
-  "shortDescription": "SET of 100, 100g pouches FOR ONLY KSh 5,000/- + FREE Delivery (wihtin Nariobi Only). Flat rate delivery fee of 400/- for delivery outside of Nairobi. SAVE 55% – CHOOSE among 5 DELICIOUS FLAVOURS. While supplies last – this bundle is going fast! Enough for 1 month's supply for 1 cat (3 pouches per day for avg 4kg adult cat).",
   "description": "MEGA Wet Cat Food Bundle - SET OF 100 Bonnie Pouches. Fully-balanced, wet cat food carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult breeds. NUTRIENT COMPONENTS Crude Protein (%) - 8.5 Crude Oils & Fats (%) - 4,5 Crude Fiber (%) - 0.3 Moisture (%) - 83 Crude Ash (%) - 2.5 Vitamin E (Min) - 15 mg/kg Vitamin D3 (Min) - 250 IU/kg Copper - 1 mg/kg Manganese - 1 mg/kg Zinc - 15 mg/kg Biotin - 20 μg/kg Taurine - 445 mg/kg INGREDIENTS: Meat & Animal Derivatives (5%), minerals, inulin (0.1%).",
   "images": [
     {
-      "id": 6309,
+      "id": 5960,
       "src": "https://petstore.co.ke/wp-content/uploads/2019/12/Bonnie-Adult-Cat-pouch-5-flavours-100g-min.png",
-      "alt": "Bonnie Adult Cat pouch 5 flavours 100g min",
-      "name": "Bonnie Adult Cat pouch 5 flavours 100g min"
+      "alt": "Mega Wet Cat Food Bundle | Bonnie Pouch 0.1kg - 100 Pouches",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Bonnie",
+      "slug": "bonnie"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/mega-wet-cat-food-bundle-bonnie-pouch-0-1kg-100-pouches/?add-to-cart=5960",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "hidden",
-  "dateCreated": "2019-12-18T18:49:20",
-  "dateModified": "2026-06-17T04:32:52",
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=5960",
+  "addToCartUrl": "https://petstore.co.ke/product/mega-wet-cat-food-bundle-bonnie-pouch-0-1kg-100-pouches/?add-to-cart=5960",
+  "shortDescription": "MEGA Wet Cat Food Bundle - SET OF 100 Bonnie Pouches. Fully-balanced, wet cat food carefully formulated by cat / dog nutritionists to meet the nutriti",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/12/Bonnie-Adult-Cat-pouch-5-flavours-100g-min.png",
+  "sku": "PSK-5960",
   "brand": "Bonnie",
   "weight_kg": 10,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/12/Bonnie-Adult-Cat-pouch-5-flavours-100g-min.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/12/Bonnie-Adult-Cat-pouch-5-flavours-100g-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

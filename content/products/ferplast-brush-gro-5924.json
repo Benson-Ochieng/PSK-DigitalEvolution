@@ -2,14 +2,12 @@
   "id": 58208,
   "name": "Ferplast Brush gO 5924",
   "slug": "ferplast-brush-gro-5924",
-  "sku": "FBG5924",
   "onSale": false,
   "price": 1775,
   "regularPrice": 1775,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-36.png",
   "categories": [
     {
       "id": 1204,
@@ -32,46 +30,51 @@
       "slug": "dog-grooming-cleaning-supplies"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=58208",
-  "shortDescription": "The FERPLAST GRO 5924 is a versatile soft-bristle brush designed for pets with short, medium, or long coats. It keeps fur shiny, silky, and healthy while being gentle on sensitive skin",
   "description": "Key Features • Soft Bristles: Removes loose hair and dirt without irritation. • For All Coat Lengths: Suitable for short, medium, and long fur. • Enhances Shine: Promotes a soft, glossy coat with regular use. • For Dogs & Cats: Perfect for single or multi-pet households. Benefits Regular grooming with the GRO 5924 helps reduce shedding, maintain coat cleanliness, and strengthen the bond between you and your pet. Easy to use and effective, it’s an essential tool for everyday grooming",
   "images": [
     {
-      "id": 58209,
+      "id": 58208,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-36.png",
       "alt": "Ferplast Brush gO 5924",
-      "name": "Untitled design (36)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/ferplast-brush-gro-5924/?add-to-cart=58208",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-08-09T12:15:09",
-  "dateModified": "2026-05-26T17:12:13",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=58208",
+  "addToCartUrl": "https://petstore.co.ke/product/ferplast-brush-gro-5924/?add-to-cart=58208",
+  "shortDescription": "Key Features • Soft Bristles: Removes loose hair and dirt without irritation. • For All Coat Lengths: Suitable for short, medium, and long fur. • Enha",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-36.png",
+  "sku": "PSK-58208",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-36.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-36.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

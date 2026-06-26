@@ -2,14 +2,12 @@
   "id": 48669,
   "name": "DEFECT/DAMAGED PACKAGE-CLEARANCE: Thunder Adult Dog Food Lamb And Rice 15kg",
   "slug": "defect-damaged-package-clearance-thunder-adult-dog-food-lamb-and-rice-15kg",
-  "sku": "TDD001@D",
-  "onSale": true,
+  "onSale": false,
   "price": 4200,
-  "regularPrice": 4500,
-  "salePrice": 4200,
+  "regularPrice": 4200,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/Thunder-Adult-Dog-Lamb-Rice-15KG.jpg",
   "categories": [
     {
       "id": 2345,
@@ -37,62 +35,51 @@
       "slug": "thunder"
     }
   ],
-  "brands": [
-    {
-      "id": 2469,
-      "name": "Thunder",
-      "slug": "thunder"
-    }
-  ],
-  "tags": [
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 637,
-      "name": "kibble",
-      "slug": "kibble"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=48669",
-  "shortDescription": "Thunder Premium dog food Lamb and Rice",
   "description": "INGREDIENTS: Wheat, Corn, Processed Animal Protein, Wheat Middlings, Bonkalit, Processed Lamb Protein, Rice, Animal Fat, Liver Aroma, Flax-seed, Rice, Salt, Dried Brewer’s Yeast. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 – B2 – B3 (Niacin) – B6 – B12 – B7 (Biotin) – B9 (Folic Acid), Vit. K, Choline, Calcium Pantotetan. NUTRIENT COMPOSITION Crude Protein 18% Crude Fat 7% Crude Cellulose (Fiber) 4% Crude Ash 8% &nbsp; DAILY FEEDING GUIDE: DOG WEIGHT GR / DAY 1 – 5 kg 45 – 140 5 – 10 kg 160 – 235 10 – 20 kg 235 – 390 20 – 30 kg 390 – 530 30 – 40 kg 530 – 660 40 – 50 kg 660 – 780 50 – 60 kg 780 – 890",
   "images": [
     {
-      "id": 46141,
+      "id": 48669,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/04/Thunder-Adult-Dog-Lamb-Rice-15KG.jpg",
       "alt": "DEFECT/DAMAGED PACKAGE-CLEARANCE: Thunder Adult Dog Food Lamb And Rice 15kg",
-      "name": "Thunder Adult Dog Lamb &amp; Rice 15KG"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Thunder",
+      "slug": "thunder"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/defect-damaged-package-clearance-thunder-adult-dog-food-lamb-and-rice-15kg/?add-to-cart=48669",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-07-11T11:13:41",
-  "dateModified": "2026-06-17T04:35:35",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=48669",
+  "addToCartUrl": "https://petstore.co.ke/product/defect-damaged-package-clearance-thunder-adult-dog-food-lamb-and-rice-15kg/?add-to-cart=48669",
+  "shortDescription": "INGREDIENTS: Wheat, Corn, Processed Animal Protein, Wheat Middlings, Bonkalit, Processed Lamb Protein, Rice, Animal Fat, Liver Aroma, Flax-seed, Rice,",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/Thunder-Adult-Dog-Lamb-Rice-15KG.jpg",
+  "sku": "PSK-48669",
   "brand": "Thunder",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/Thunder-Adult-Dog-Lamb-Rice-15KG.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/Thunder-Adult-Dog-Lamb-Rice-15KG.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

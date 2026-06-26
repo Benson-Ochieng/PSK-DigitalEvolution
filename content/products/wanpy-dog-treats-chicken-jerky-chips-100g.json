@@ -2,14 +2,12 @@
   "id": 89870,
   "name": "Wanpy Dog Treats – Chicken Jerky Chips 100g",
   "slug": "wanpy-dog-treats-chicken-jerky-chips-100g",
-  "sku": "WDW018",
-  "onSale": true,
+  "onSale": false,
   "price": 316,
-  "regularPrice": 395,
-  "salePrice": 316,
+  "regularPrice": 316,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/WANPY-DOG-CHICKEN-JERKY-CHIPS-100GR.png",
   "categories": [
     {
       "id": 2345,
@@ -32,62 +30,51 @@
       "slug": "wanpy"
     }
   ],
-  "brands": [
-    {
-      "id": 2479,
-      "name": "Wanpy",
-      "slug": "wanpy"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 939,
-      "name": "On Sale Now",
-      "slug": "sale"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/wanpy-dog-treats-chicken-jerky-chips-100g/",
-  "shortDescription": "Reward your dog with the delicious taste of Wanpy Chicken Skewers Dog Treats 100g. Made with premium-quality ingredients and crafted to human consumption standards, these tasty dog snacks deliver high protein nutrition and irresistible flavour dogs love.",
   "description": "Carefully prepared through oven-roasting, baking, or freeze-drying methods, Wanpy dog treats are designed to provide both flavour and nutritional benefits. Their soft, easy-to-break texture makes portioning simple during training sessions or daily rewarding. These complementary dog snacks are low in fat and high in protein, helping support strong muscles, healthy digestion, and strong bones while giving your furry companion a satisfying chewing experience. Key Benefits Delicious chicken skewer flavour dogs enjoy Complementary food for dogs Low fat and high protein recipe Made with premium-quality ingredients Supports healthy digestion Helps strengthen bones and muscles Easy to snap into smaller portions Crafted to human consumption standards Storage Instructions Store in a cool and dry place. &nbsp;",
   "images": [
     {
-      "id": 89871,
+      "id": 89870,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/05/WANPY-DOG-CHICKEN-JERKY-CHIPS-100GR.png",
-      "alt": "Pack Of 12 – Wanpy Dog Treats – Chicken Jerky Chips 100g",
-      "name": "WANPY DOG CHICKEN JERKY CHIPS 100GR"
+      "alt": "Wanpy Dog Treats – Chicken Jerky Chips 100g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Wanpy",
+      "slug": "wanpy"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/wanpy-dog-treats-chicken-jerky-chips-100g/?add-to-cart=89870",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-05-21T15:06:23",
-  "dateModified": "2026-06-18T10:12:04",
+  "permalink": "https://petstore.co.ke/product/wanpy-dog-treats-chicken-jerky-chips-100g/",
+  "addToCartUrl": "https://petstore.co.ke/product/wanpy-dog-treats-chicken-jerky-chips-100g/?add-to-cart=89870",
+  "shortDescription": "Carefully prepared through oven-roasting, baking, or freeze-drying methods, Wanpy dog treats are designed to provide both flavour and nutritional bene",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/WANPY-DOG-CHICKEN-JERKY-CHIPS-100GR.png",
+  "sku": "PSK-89870",
   "brand": "Wanpy",
   "weight_kg": 0.1,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/WANPY-DOG-CHICKEN-JERKY-CHIPS-100GR.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/WANPY-DOG-CHICKEN-JERKY-CHIPS-100GR.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

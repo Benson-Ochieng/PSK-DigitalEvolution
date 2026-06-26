@@ -2,14 +2,12 @@
   "id": 57172,
   "name": "Trendline Adult Cat Food - Chicken 1kg",
   "slug": "trendline-adult-cat-food-chicken-1kg-3",
-  "sku": "TCD001@OFFER",
-  "onSale": true,
+  "onSale": false,
   "price": 605,
-  "regularPrice": 975,
-  "salePrice": 605,
+  "regularPrice": 605,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/04/Trendline-Cat-Food-Chicken-1kg-1024x1024-2.png",
   "categories": [
     {
       "id": 1125,
@@ -17,47 +15,51 @@
       "slug": "trendline"
     }
   ],
-  "brands": [
-    {
-      "id": 2471,
-      "name": "Trendline",
-      "slug": "trendline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=57172",
-  "shortDescription": "Fully balanced all-natural cat food with chicken protein, brewer's yeast for immune support, Omega-3 and -6 from flaxseed and taurine. Carefully formulated by cat nutritionists to meet the nutritional requirements of all adult cats.",
   "description": "Trendline Adult Cat Food -Chicken , fully balanced all-natural cat food with chicken protein, brewer's yeast for immune support, Omega-3 and -6 from flaxseed and taurine. Carefully formulated by cat nutritionists to meet the nutritional requirements of all adult cats. NUTRIENT COMPONENTS Protein...............................27% Fat ....................................10% Crude Ash ........................ 8% Crude Cellulose (Fiber)....... 3% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Corn Gluten, Dried Sugar Beet, Liver Aroma, Salt, Flaxseed, Dried Brewer's Yeast, Taurine. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan. These nutrients help: . Maintain a strong immune system. . Support healthy bones and teeth. . Aid digestion and boost metabolism. Why you should buy Trendline Chicken: . Supports whole-body health for adult cats . Delicious chicken flavor that cats crave . Balanced nutrition for energy, immunity, and coat health Feeding Guide For adult cats: serve 50–80g daily for every 4kg of body weight. Adjust based on your cat’s activity level and condition.",
   "images": [
     {
-      "id": 54985,
+      "id": 57172,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/04/Trendline-Cat-Food-Chicken-1kg-1024x1024-2.png",
-      "alt": "Trendline Adult Cat Food – Chicken 1kg",
-      "name": "Trendline-Cat-Food-Chicken-1kg-1024&#215;1024"
+      "alt": "Trendline Adult Cat Food - Chicken 1kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Trendline",
+      "slug": "trendline"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/trendline-adult-cat-food-chicken-1kg-3/?add-to-cart=57172",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-07-25T17:13:04",
-  "dateModified": "2026-06-17T04:35:38",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=57172",
+  "addToCartUrl": "https://petstore.co.ke/product/trendline-adult-cat-food-chicken-1kg-3/?add-to-cart=57172",
+  "shortDescription": "Trendline Adult Cat Food -Chicken , fully balanced all-natural cat food with chicken protein, brewer's yeast for immune support, Omega-3 and -6 from f",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/04/Trendline-Cat-Food-Chicken-1kg-1024x1024-2.png",
+  "sku": "PSK-57172",
   "brand": "Trendline",
   "weight_kg": 1,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/04/Trendline-Cat-Food-Chicken-1kg-1024x1024-2.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/04/Trendline-Cat-Food-Chicken-1kg-1024x1024-2.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

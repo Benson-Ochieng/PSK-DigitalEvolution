@@ -2,14 +2,12 @@
   "id": 24591,
   "name": "Rogz Dog-Treat Tumbler 12cm - Blue (TUM03-B)",
   "slug": "rogz-dog-treat-tumbler-12cm-blue",
-  "sku": "TUM03-B",
   "onSale": false,
   "price": 2900,
   "regularPrice": 2900,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/TUM03-B-Tumbler-Blue.jpg",
   "categories": [
     {
       "id": 1204,
@@ -32,56 +30,51 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-dog-treat-tumbler-12cm-blue/",
-  "shortDescription": "Rogz-Treat Tumbler 12cm – Blue",
   "description": "Stimulate your dog with this durable Rogz treat tumbler that slowly dispenses your dog's favourite treats while they play with the ball. The ball features 3 settings which allow you to adjust the rate of release to control both feeding and learning as they mature. Simply twist the ball to open, fill with treats and adjust the internal feeder according to your dog's needs. The ball is made from durable ABS plastic that is safe to chew. There is a counterweight inside the ball that makes the movement of the ball unpredictable and more fun to play with.",
   "images": [
     {
-      "id": 24620,
+      "id": 24591,
       "src": "https://petstore.co.ke/wp-content/uploads/2022/01/TUM03-B-Tumbler-Blue.jpg",
-      "alt": "Rogz Dog-Treat Tumbler 12cm – Blue (TUM03-B)",
-      "name": "TUM03-B-Tumbler-Blue.jpg"
+      "alt": "Rogz Dog-Treat Tumbler 12cm - Blue (TUM03-B)",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-treat-tumbler-12cm-blue/?add-to-cart=24591",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2022-01-15T21:40:47",
-  "dateModified": "2026-06-17T04:14:12",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/rogz-dog-treat-tumbler-12cm-blue/",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-treat-tumbler-12cm-blue/?add-to-cart=24591",
+  "shortDescription": "Stimulate your dog with this durable Rogz treat tumbler that slowly dispenses your dog's favourite treats while they play with the ball. The ball feat",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/TUM03-B-Tumbler-Blue.jpg",
+  "sku": "PSK-24591",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/TUM03-B-Tumbler-Blue.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/TUM03-B-Tumbler-Blue.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 49043,
   "name": "Short Expiry - Clearance: Miglior Cat Food Lamb & Carrots Chunks ? 405g Can",
   "slug": "short-expiry-clearance-migliorgatto-bocconcini-adult-cat-food-small-chunks-with-tripe-lamb-and-carrots-405gr",
-  "sku": "MCW008@SE",
-  "onSale": true,
+  "onSale": false,
   "price": 161,
-  "regularPrice": 269,
-  "salePrice": 161,
+  "regularPrice": 161,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW008.jpg",
   "categories": [
     {
       "id": 2325,
@@ -32,61 +30,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 622,
-      "name": "canned food",
-      "slug": "canned-food"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=49043",
-  "shortDescription": "(4 pieces minimum order) Formula designed to guarantee the key nutrients required for the well-being of your cat. Vitamin E with antioxidant action and a recipe rich in meat to help keep muscle mass toned.",
   "description": "COMPOSITION: Meat and animal derivatives 30% (tripe 5%, lamb 5%), dehydrated carrots 4%, cereals, minerals. ANALYTICAL CONSTITUENTS: Moisture 77%, Crude protein 8.5%, Crude fat 4.8%, Crude fibres 0.5%, Crude ash 3%. Nutritional additives / kg: Vitamin E 10 mg, Copper (Copper(II) sulphate pentahydrate) 2 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight. Once opened, store in refrigerator for 2-3 days.",
   "images": [
     {
-      "id": 28244,
+      "id": 49043,
       "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW008.jpg",
-      "alt": "Migliorgatto Bocconcini SMALL CHUNKS WITH TRIPE, LAMB AND CARROTS 405Gr",
-      "name": "MCW008"
+      "alt": "Short Expiry - Clearance: Miglior Cat Food Lamb & Carrots Chunks ? 405g Can",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-migliorgatto-bocconcini-adult-cat-food-small-chunks-with-tripe-lamb-and-carrots-405gr/?add-to-cart=49043",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-07-31T09:10:48",
-  "dateModified": "2026-05-06T17:10:24",
-  "brand": null,
-  "weight_kg": 0.405,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=49043",
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-migliorgatto-bocconcini-adult-cat-food-small-chunks-with-tripe-lamb-and-carrots-405gr/?add-to-cart=49043",
+  "shortDescription": "COMPOSITION: Meat and animal derivatives 30% (tripe 5%, lamb 5%), dehydrated carrots 4%, cereals, minerals. ANALYTICAL CONSTITUENTS: Moisture 77%, Cru",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW008.jpg",
+  "sku": "PSK-49043",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.41,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW008.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW008.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

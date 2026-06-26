@@ -2,14 +2,12 @@
   "id": 20023,
   "name": "Dog Toothbrush Stick - Large Light Blue",
   "slug": "dog-toothbrush-stick-large-light-blue",
-  "sku": "DTBSLLB",
   "onSale": false,
   "price": 3051,
   "regularPrice": 3051,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Toothbrush-Stick-Large-Light-Blue-DTBSLLB.jpg",
   "categories": [
     {
       "id": 2399,
@@ -32,41 +30,51 @@
       "slug": "generic"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1824,
-      "name": "dental care",
-      "slug": "dental-care"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/dog-toothbrush-stick-large-light-blue/",
-  "shortDescription": "Dog Toothbrush Stick Chew Toy. The base makes it easier for the dog to hold and promotes the dog's tooth cleaning and chewing pleasure. It has bris",
   "description": "Dog Toothbrush Stick Chew Toy. The base makes it easier for the dog to hold and promotes the dog's tooth cleaning and chewing pleasure. It has bristles on all sides. It can clean teeth in all directions. It is easy to clean and use.",
   "images": [
     {
-      "id": 19968,
+      "id": 20023,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Toothbrush-Stick-Large-Light-Blue-DTBSLLB.jpg",
       "alt": "Dog Toothbrush Stick - Large Light Blue",
-      "name": "Dog Toothbrush Stick &#8211; Large Light Blue DTBSLLB"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/dog-toothbrush-stick-large-light-blue/?add-to-cart=20023",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2021-04-14T22:20:19",
-  "dateModified": "2026-06-17T04:18:35",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/dog-toothbrush-stick-large-light-blue/",
+  "addToCartUrl": "https://petstore.co.ke/product/dog-toothbrush-stick-large-light-blue/?add-to-cart=20023",
+  "shortDescription": "Dog Toothbrush Stick Chew Toy. The base makes it easier for the dog to hold and promotes the dog's tooth cleaning and chewing pleasure. It has bristle",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Toothbrush-Stick-Large-Light-Blue-DTBSLLB.jpg",
+  "sku": "PSK-20023",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Toothbrush-Stick-Large-Light-Blue-DTBSLLB.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Toothbrush-Stick-Large-Light-Blue-DTBSLLB.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 24047,
   "name": "Royal Canin Maxi Adult 10kg",
   "slug": "royal-canin-maxi-adult-10kg",
-  "sku": "ROC-SHMX-002",
   "onSale": false,
   "price": 12400,
   "regularPrice": 12400,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Royal-Canin-Maxi-Adult-01.jpg",
   "categories": [
     {
       "id": 2345,
@@ -32,57 +30,51 @@
       "slug": "royal-canin"
     }
   ],
-  "brands": [
-    {
-      "id": 2423,
-      "name": "Royal Canin",
-      "slug": "royal-canin"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 1034,
-      "name": "large breed",
-      "slug": "large-breed"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/royal-canin-maxi-adult-10kg/",
-  "shortDescription": "Maxi Adult is tailor made to suit the unique nutritional needs of your large breed adult dogs. Complete feed for dogs – For adult large breed dogs (from 26 to 44 kg) – From 15 months to 5 years old.",
   "description": "Maxi Adult is tailor made to suit the unique nutritional needs of your large breed adult dogs. Complete feed for dogs - For adult large breed dogs (from 26 to 44 kg) - From 15 months to 5 years old. The nutritional requirements of a larger breed dog versus a smaller breed dog vary greatly, therefore it is essential you feed a balanced diet according to size and other particular sensitivities. ROYAL CANIN? Maxi Adult food is specially formulated with your dog's nutritional needs in mind. This food is suitable for large dogs aged 15 months and over - with an adult weight ranging between 26-44kg. For large dogs, bones and joints can be a particular sensitivity, therefore maintaining your dog's joint health is crucial for the wear and tear it may face due to its size. ROYAL CANIN? Maxi Adult food will help maintain an ideal weight that your dog can comfortably support. ROYAL CANIN? Maxi dog food contains an exclusive formula to help maintain your dog's digestive health. What's more, it's enriched with omega-3 fatty acids (EPA and DHA), ROYAL CANIN? Maxi adult dog food also helps to support and maintain your dog's skin by keeping it healthy and nourished. Composition: dehydrated poultry protein, maize, maize flour, animal fats, wheat, rice, maize gluten, hydrolysed animal proteins, beet pulp, fish oil, soya oil, minerals, yeasts and parts thereof, hydrolysed crustaceans (source of glucosamine), hydrolysed cartilage (source of chondroitin). Additives (per kg): Nutritional additives: Vitamin A: 16000?IU, Vitamin D3: 1000?IU, E1 (Iron): 38?mg, E2 (Iodine): 3.8?mg, E4 (Copper): 12?mg, E5 (Manganese): 50?mg, E6 (Zinc): 132?mg, E8 (Selenium): 0.07?mg?- Technological additives: Clinoptilolite of sedimentary origin: 5?g?- Preservatives?- Antioxidants. Analytical constituents: Protein: 26.0%?- Fat content: 17.0%?- Crude ash: 6.7%?- Crude fibres: 1.3%?- Per kg: Omega 3 fatty acids: 7.8?g including EPA/DHA: 4?g. Feeding instructions: see table. Batch number, factory registration number and best before date: see information on packaging. To be stored in a cool, dry place. For RSA: Guaranteed analysis g/kg: Crude protein (min) 240 - Moisture (max) 110 - Crude fat (min) 150 - Crude fibre (max) 23 - Crude ash (max) 74. Metabolizable energy: 3970 kcal/kg",
   "images": [
     {
-      "id": 28438,
+      "id": 24047,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/12/Royal-Canin-Maxi-Adult-01.jpg",
       "alt": "Royal Canin Maxi Adult 10kg",
-      "name": "Royal Canin Maxi Adult-01"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/royal-canin-maxi-adult-10kg/?add-to-cart=24047",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2021-12-28T11:58:05",
-  "dateModified": "2026-06-17T04:23:42",
+  "permalink": "https://petstore.co.ke/product/royal-canin-maxi-adult-10kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/royal-canin-maxi-adult-10kg/?add-to-cart=24047",
+  "shortDescription": "Maxi Adult is tailor made to suit the unique nutritional needs of your large breed adult dogs. Complete feed for dogs - For adult large breed dogs (fr",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Royal-Canin-Maxi-Adult-01.jpg",
+  "sku": "PSK-24047",
   "brand": "Royal Canin",
   "weight_kg": 10,
   "animal_type": "dog",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/12/Royal-Canin-Maxi-Adult-01.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/12/Royal-Canin-Maxi-Adult-01.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

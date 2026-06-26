@@ -2,14 +2,12 @@
   "id": 51531,
   "name": "Reflex Plus Alutray Pate With Lamb For Cats 85g",
   "slug": "reflex-plus-alutray-pate-with-lamb-for-cats-85gr-2",
-  "sku": "RPCW027",
   "onSale": false,
   "price": 187,
   "regularPrice": 187,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-PLUS-ALUTRAY-PATE-WITH-LAMB-FOR-CATS-85GR.png",
   "categories": [
     {
       "id": 2325,
@@ -32,57 +30,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/reflex-plus-alutray-pate-with-lamb-for-cats-85gr-2/",
-  "shortDescription": "Alu-tray is a nutritious wet food with high-quality animal protein and a variety of vitamins. It offers multisystemic benefits due to its functional components. With its high-water content, it supports the body's daily water intake and contributes to kidney health. Additionally, it is easy to digest and highly palatable.",
   "description": "Alu-tray is a nutritious wet food with high-quality animal protein and a variety of vitamins. It offers multisystemic benefits due to its functional components. With its high-water content, it supports the body's daily water intake and contributes to kidney health. Additionally, it is easy to digest and highly palatable. Ingredients: Meat and animal derivatives (4% Lamb), Minerals. Nutrient Components Crude protein 9% Fat content 5% Crude fibre 0.5% Crude ash 2.5% Moisture 83% Nutritional Supplements Functional Components: Taurine (3a370) Vitamins: Vitamin D3 (3a671) 75 IU, Vitamin E (3a700) 30 mg. Trace Elements: 3b605 (Zinc 15 mg), 3b503 (Manganese 6 mg), 3b405 (Copper 1 mg), 3b202 (Iodine 0.5 mg). &nbsp;",
   "images": [
     {
-      "id": 51532,
+      "id": 51531,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-PLUS-ALUTRAY-PATE-WITH-LAMB-FOR-CATS-85GR.png",
       "alt": "Reflex Plus Alutray Pate With Lamb For Cats 85g",
-      "name": "REFLEX PLUS ALUTRAY PATE WITH LAMB FOR CATS 85GR"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-alutray-pate-with-lamb-for-cats-85gr-2/?add-to-cart=51531",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-11-13T13:42:13",
-  "dateModified": "2026-06-17T04:28:57",
+  "permalink": "https://petstore.co.ke/product/reflex-plus-alutray-pate-with-lamb-for-cats-85gr-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-alutray-pate-with-lamb-for-cats-85gr-2/?add-to-cart=51531",
+  "shortDescription": "Alu-tray is a nutritious wet food with high-quality animal protein and a variety of vitamins. It offers multisystemic benefits due to its functional c",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-PLUS-ALUTRAY-PATE-WITH-LAMB-FOR-CATS-85GR.png",
+  "sku": "PSK-51531",
   "brand": "Reflex",
-  "weight_kg": 0.085,
+  "weight_kg": 0.09,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-PLUS-ALUTRAY-PATE-WITH-LAMB-FOR-CATS-85GR.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-PLUS-ALUTRAY-PATE-WITH-LAMB-FOR-CATS-85GR.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

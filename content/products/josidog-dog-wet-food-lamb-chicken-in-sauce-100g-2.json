@@ -2,14 +2,12 @@
   "id": 90367,
   "name": "JosiDog Dog Wet Food – Lamb & Chicken in Sauce 100g",
   "slug": "josidog-dog-wet-food-lamb-chicken-in-sauce-100g-2",
-  "sku": "JDW001",
-  "onSale": true,
+  "onSale": false,
   "price": 170,
-  "regularPrice": 213,
-  "salePrice": 170,
+  "regularPrice": 170,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/chicken-and-lamb-.png",
   "categories": [
     {
       "id": 2345,
@@ -32,62 +30,51 @@
       "slug": "wet-dog-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 939,
-      "name": "On Sale Now",
-      "slug": "sale"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/josidog-dog-wet-food-lamb-chicken-in-sauce-100g-2/",
-  "shortDescription": "JosiDog Dog Wet Food – Lamb & Chicken in Sauce 100g is a complete and balanced meal specially formulated for adult small breed dogs. Made with tender lamb and chicken pieces in a rich, savoury sauce, this delicious wet food provides the essential nutrients your dog needs while delivering exceptional taste in every bite.",
   "description": "Crafted to support everyday health and wellbeing, this nutritious recipe contains high-quality protein to help maintain lean muscles and support an active lifestyle. Enriched with prebiotic inulin, it helps promote healthy digestion and supports beneficial intestinal flora. Added Vitamin E contributes to natural cell protection, while Vitamin D3 helps maintain strong bones and teeth for long-term health. Conveniently packed in a practical 100g freshness pouch, this wet food is easy to serve, helps with portion control, and keeps every meal fresh and appetising. Its carefully balanced formulation makes it an ideal choice for daily feeding of small breed adult dogs. Key Benefits Complete wet food for adult small breed dogs Made with lamb and chicken in a delicious sauce High-quality protein supports muscle maintenance Prebiotic inulin promotes healthy digestion Vitamin E helps protect cells from oxidative stress Vitamin D3 supports strong bones and teeth Highly palatable recipe for fussy eaters Convenient 100g freshness pouch Suitable for everyday feeding Easy to portion and serve Analytical Constituents Crude Protein: 8.0% Crude Fat: 5.0% Crude Fibre: 0.4% Crude Ash: 2.0% Energy Content Metabolisable Energy: 916 kcal/kg Metabolisable Energy: 3.8 MJ/kg Feeding Guide Daily feeding recommendations: 5kg body weight: 345–400g 10kg body weight: 585–675g 20kg body weight: 980–1,125g 35kg body weight: 1,495–1,730g The recommended amounts are guidelines only and should be adjusted according to your dog's age, activity level, and body condition. If treats or snacks are fed, reduce the daily food allowance accordingly. Storage Instructions Always provide fresh drinking water. Once opened, store refrigerated at 2–6°C and consume within 24 hours. Serve at room temperature for maximum enjoyment. &nbsp;",
   "images": [
     {
-      "id": 90374,
+      "id": 90367,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/06/chicken-and-lamb-.png",
       "alt": "JosiDog Dog Wet Food – Lamb & Chicken in Sauce 100g",
-      "name": "chicken and lamb"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/josidog-dog-wet-food-lamb-chicken-in-sauce-100g-2/?add-to-cart=90367",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-04T15:11:46",
-  "dateModified": "2026-06-17T05:01:40",
+  "permalink": "https://petstore.co.ke/product/josidog-dog-wet-food-lamb-chicken-in-sauce-100g-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/josidog-dog-wet-food-lamb-chicken-in-sauce-100g-2/?add-to-cart=90367",
+  "shortDescription": "Crafted to support everyday health and wellbeing, this nutritious recipe contains high-quality protein to help maintain lean muscles and support an ac",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/chicken-and-lamb-.png",
+  "sku": "PSK-90367",
   "brand": "Josera",
   "weight_kg": 0.1,
   "animal_type": "dog",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/chicken-and-lamb-.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/chicken-and-lamb-.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

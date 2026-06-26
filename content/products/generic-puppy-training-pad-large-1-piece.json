@@ -2,14 +2,12 @@
   "id": 29735,
   "name": "Generic Puppy Training Pad- 60 by 90cm Large (1 piece)",
   "slug": "generic-puppy-training-pad-large-1-piece",
-  "sku": "VBP10",
   "onSale": false,
   "price": 100,
   "regularPrice": 100,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/PTMXL.jpg",
   "categories": [
     {
       "id": 2345,
@@ -27,51 +25,51 @@
       "slug": "dog-hygiene-potty-solutions"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/generic-puppy-training-pad-large-1-piece/",
-  "shortDescription": "Make puppy training easier with our large training bed pad, measuring 60 x 90cm. Designed for durability and absorbency, this pad helps manage accidents while providing a comfortable and hygienic space for your pup. Ideal for both housebreaking and general training, it keeps your floors clean and offers peace of mind.",
   "description": "Puppy training pad training is great for puppy-owners without easy access to outdoors for their pets and those living in tall buildings. Make clean-up easy and are convenient for potty training. BENEFITS: 1 . Super-absorbent core. 2. Leak-proof with plastic lining to prevent damage to floors. 3. Quick-dry surface with built-in attractant 4. They're comfortable for dogs. 5. They make clean-up easy. 6. They're good options for dogs who can't go outside for health reasons.",
   "images": [
     {
-      "id": 24342,
+      "id": 29735,
       "src": "https://petstore.co.ke/wp-content/uploads/2022/01/PTMXL.jpg",
       "alt": "Generic Puppy Training Pad- 60 by 90cm Large (1 piece)",
-      "name": "PTMXL"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/generic-puppy-training-pad-large-1-piece/?add-to-cart=29735",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2022-07-12T09:48:24",
-  "dateModified": "2026-06-17T04:18:39",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/generic-puppy-training-pad-large-1-piece/",
+  "addToCartUrl": "https://petstore.co.ke/product/generic-puppy-training-pad-large-1-piece/?add-to-cart=29735",
+  "shortDescription": "Puppy training pad training is great for puppy-owners without easy access to outdoors for their pets and those living in tall buildings. Make clean-up",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/PTMXL.jpg",
+  "sku": "PSK-29735",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/PTMXL.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/PTMXL.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

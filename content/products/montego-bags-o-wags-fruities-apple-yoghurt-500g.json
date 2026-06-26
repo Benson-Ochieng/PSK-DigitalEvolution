@@ -2,14 +2,12 @@
   "id": 69416,
   "name": "Montego Bags O' Wags Fruities Apple & Yoghurt  - 500g",
   "slug": "montego-bags-o-wags-fruities-apple-yoghurt-500g",
-  "sku": "MBWFAY500",
   "onSale": false,
   "price": 1415,
   "regularPrice": 1415,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/Untitled-design-14.png",
   "categories": [
     {
       "id": 2380,
@@ -37,57 +35,51 @@
       "slug": "montego"
     }
   ],
-  "brands": [
-    {
-      "id": 2425,
-      "name": "Bags-o-wags",
-      "slug": "bags-o-wags"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/montego-bags-o-wags-fruities-apple-yoghurt-500g/",
-  "shortDescription": "Bags O’ Wags Fruities Apple & Yoghurt – 120g: Soft, chewy dog treats made with real apple and creamy yoghurt. Low in fat and sugar, ideal for rewarding and training.",
   "description": "Bags o’ Wags Fruities - Apple & Yoghurt Flavour Give your dog a treat they’ll wag for! Bags o’ Wags Fruities combine the juicy sweetness of real apple with creamy yoghurt, creating a soft, chewy snack that dogs love. Perfect for rewarding, training, or everyday indulgence, these treats are low in fat and low in sugar, so you can spoil your furry friend guilt-free. Why pet parents love it: Delicious & irresistible: Apple and yoghurt flavours with meat-based palatability enhancers make every bite a tail-wagger. Soft & chewy: Gentle on teeth, perfect for dogs of all sizes. Wholesome ingredients: Corn starch, lactose-reduced milk powder, poultry fat, fish oil, and wheat gluten provide taste plus nutritional support. Safe & fresh: Preserved with potassium sorbate for freshness and lightly coloured for visual appeal. Ingredients : Corn starch, water, glycerine, milk powder (lactose reduced), wheat gluten, sugar, poultry fat, sodium hexametaphosphate, spray-dried animal plasma, fish oil. ADDITIVES (/kg): &nbsp;SENSORY: Palatability meat-based enhancers, apple flavour, yoghurt flavour, colourants. PRESERVATIVES: &nbsp;Potassium sorbate. A fun fact: Apples are rich in vitamins and fibre, while yoghurt supports digestion - so every treat is both tasty and functional! Bags o’ Wags Fruities - Apple & Yoghurt: a delicious way to reward your dog, keep them happy, and support their health.",
   "images": [
     {
-      "id": 69417,
+      "id": 69416,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/02/Untitled-design-14.png",
-      "alt": "Montego Bags O’ Wags Fruities Apple & Yoghurt – 500g",
-      "name": "Untitled design (14)"
+      "alt": "Montego Bags O' Wags Fruities Apple & Yoghurt  - 500g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Bags-o-wags",
+      "slug": "bags-o-wags"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/montego-bags-o-wags-fruities-apple-yoghurt-500g/?add-to-cart=69416",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-03-12T09:45:07",
-  "dateModified": "2026-06-17T05:01:32",
+  "permalink": "https://petstore.co.ke/product/montego-bags-o-wags-fruities-apple-yoghurt-500g/",
+  "addToCartUrl": "https://petstore.co.ke/product/montego-bags-o-wags-fruities-apple-yoghurt-500g/?add-to-cart=69416",
+  "shortDescription": "Bags o’ Wags Fruities - Apple & Yoghurt Flavour Give your dog a treat they’ll wag for! Bags o’ Wags Fruities combine the juicy sweetness of real apple",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/Untitled-design-14.png",
+  "sku": "PSK-69416",
   "brand": "Bags-o-wags",
   "weight_kg": 0.5,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/Untitled-design-14.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/Untitled-design-14.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

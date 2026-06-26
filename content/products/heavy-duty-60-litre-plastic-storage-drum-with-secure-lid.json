@@ -2,14 +2,12 @@
   "id": 18073,
   "name": "Heavy Duty Plastic Storage Drum with secure Lid-60 Litre",
   "slug": "heavy-duty-60-litre-plastic-storage-drum-with-secure-lid",
-  "sku": "BIN60",
   "onSale": false,
   "price": 970,
   "regularPrice": 970,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/BIN60-1-e1725625032425.png",
   "categories": [
     {
       "id": 1204,
@@ -32,41 +30,51 @@
       "slug": "dog-bowls-feeders"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/heavy-duty-60-litre-plastic-storage-drum-with-secure-lid/",
-  "shortDescription": "Keep your pet food fresh and safe with our Heavy Duty 60 Litre Plastic Storage Drum . Designed for durability and convenience, this storage drum is perfect for bulk storage of food, kibble, and other non-perishables. Material: High-quality Plastic Color: Blue Lid Type: Secure Airtight Lid The storage drum hold the equivalent of 20.5 kg of food.",
   "description": "Keep your pet food fresh and safe with our Heavy Duty 60 Litre Plastic Storage Drum. Designed for durability and convenience, this storage drum is perfect for bulk storage of pet food, kibble, and other dry goods. Key Features: Generous Capacity: With a 60-litre volume, this drum provides ample space to store large quantities of pet food, reducing the need for frequent refills and keeping your pet’s nutrition readily available. Heavy Duty Construction: Made from high-quality, robust plastic, this drum is built to withstand the rigors of daily use. Its durable design ensures long-lasting performance, even in demanding environments. Airtight Seal: The secure, airtight lid keeps contents fresh by protecting them from moisture, air, and pests. This feature is crucial for maintaining the quality and flavor of pet food over time. Easy Handling: Equipped with ergonomic handles for easy lifting and maneuvering, the drum is user-friendly and practical for everyday use. Versatile Use: Ideal for storing not only pet food but also other dry goods, grains, and non-perishable items, making it a versatile addition to your home. Keep your pet’s food secure and fresh with our Heavy-Duty Plastic Storage Drum, designed to make storage simple and effective.",
   "images": [
     {
-      "id": 50051,
+      "id": 18073,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/01/BIN60-1-e1725625032425.png",
       "alt": "Heavy Duty Plastic Storage Drum with secure Lid-60 Litre",
-      "name": "BIN60"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/heavy-duty-60-litre-plastic-storage-drum-with-secure-lid/?add-to-cart=18073",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2021-01-13T23:03:40",
-  "dateModified": "2026-06-17T04:14:09",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/heavy-duty-60-litre-plastic-storage-drum-with-secure-lid/",
+  "addToCartUrl": "https://petstore.co.ke/product/heavy-duty-60-litre-plastic-storage-drum-with-secure-lid/?add-to-cart=18073",
+  "shortDescription": "Keep your pet food fresh and safe with our Heavy Duty 60 Litre Plastic Storage Drum. Designed for durability and convenience, this storage drum is per",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/BIN60-1-e1725625032425.png",
+  "sku": "PSK-18073",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/BIN60-1-e1725625032425.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/BIN60-1-e1725625032425.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 48481,
   "name": "Grounded Pet Shampoo Unscented - 5l",
   "slug": "grounded-pet-shampoo-unscented-5l",
-  "sku": "GPSU5",
   "onSale": false,
   "price": 10150,
   "regularPrice": 10150,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/07/Pet-Shampoo-Lemongrass-5L.jpg",
   "categories": [
     {
       "id": 2345,
@@ -32,72 +30,51 @@
       "slug": "dog-shampoo"
     }
   ],
-  "brands": [
-    {
-      "id": 2441,
-      "name": "Grounded",
-      "slug": "grounded"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2025,
-      "name": "shampoo",
-      "slug": "shampoo"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/grounded-pet-shampoo-unscented-5l/",
-  "shortDescription": "Grounded Pet Shampoo is an all-natural, non-toxic shampoo for Dogs and Cats Gentle and effective for all breeds.",
   "description": "All-Natural, Non-Toxic Care for Your Furry Friends Pamper your pets with Grounded Pet Shampoo, a luxurious, all-natural shampoo crafted specifically for dogs and cats. Made from a vegan castille soap base, this gentle formula creates a rich lather that soothes and moisturizes your pet’s fur and skin, leaving them clean, fresh, and happy. Key Ingredients: Concentrated Liquid Soap : Derived from saponified coconut, sunflower, and canola oils for a gentle yet effective cleanse. Glycerin : Helps to lock in moisture, ensuring your pet’s coat remains soft and shiny. Instructions for Use: Wet your pet’s coat thoroughly. Dilute the shampoo with water in a pitcher, then pour it over your pet and lather up. Alternatively, you can squeeze a small amount directly onto their coat and work into a lather. Rinse thoroughly to reveal a clean, healthy coat. Proudly MADE IN KENYA by Grounded, our pet shampoo is a responsible choice for environmentally conscious pet owners. Treat your beloved pets to the natural care they deserve with Grounded Pet Shampoo!",
   "images": [
     {
-      "id": 48480,
+      "id": 48481,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/07/Pet-Shampoo-Lemongrass-5L.jpg",
-      "alt": "Grounded Pet Shampoo Unscented – 5l",
-      "name": "Pet Shampoo Lemongrass 5L"
+      "alt": "Grounded Pet Shampoo Unscented - 5l",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Grounded",
+      "slug": "grounded"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 5,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/grounded-pet-shampoo-unscented-5l/?add-to-cart=48481",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-07-05T13:03:44",
-  "dateModified": "2026-06-17T04:29:49",
+  "permalink": "https://petstore.co.ke/product/grounded-pet-shampoo-unscented-5l/",
+  "addToCartUrl": "https://petstore.co.ke/product/grounded-pet-shampoo-unscented-5l/?add-to-cart=48481",
+  "shortDescription": "All-Natural, Non-Toxic Care for Your Furry Friends Pamper your pets with Grounded Pet Shampoo, a luxurious, all-natural shampoo crafted specifically f",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/07/Pet-Shampoo-Lemongrass-5L.jpg",
+  "sku": "PSK-48481",
   "brand": "Grounded",
   "weight_kg": 0.4,
   "animal_type": "cat",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/07/Pet-Shampoo-Lemongrass-5L.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/07/Pet-Shampoo-Lemongrass-5L.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

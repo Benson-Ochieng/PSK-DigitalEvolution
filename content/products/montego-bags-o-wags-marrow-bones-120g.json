@@ -2,14 +2,12 @@
   "id": 56588,
   "name": "Montego Bags O' Wags Dog Treats - Marrow Bones 120g",
   "slug": "montego-bags-o-wags-marrow-bones-120g",
-  "sku": "MBWMA120",
   "onSale": false,
   "price": 480,
   "regularPrice": 480,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Montego-Bags-O-Wags-Marrow-Bones-120g.png",
   "categories": [
     {
       "id": 2380,
@@ -37,52 +35,51 @@
       "slug": "montego"
     }
   ],
-  "brands": [
-    {
-      "id": 2425,
-      "name": "Bags-o-wags",
-      "slug": "bags-o-wags"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/montego-bags-o-wags-marrow-bones-120g/",
-  "shortDescription": "Montego Bags O’ Wags Marrow Bones are nutritious and delicious dog chew treats that support healthy teeth and muscles while providing a tasty reward for dogs of all breeds and ages. Not suitable for puppies.",
   "description": "Give your dog a wagtastically delicious and nutritious treat that supports oral health! Montego BAGS O’ WAGS Dental Sticks are firm, chewtastically satisfying snacks specially crafted for adult dogs, especially larger breeds. Featuring a Delectable Beef Marrow Bones that dogs love, these treats help reduce plaque and tartar build-up, promote gum health, and freshen breath. Perfect as a daily reward, training incentive, or between-meal snack, they complement any Montego dry or wet food diet. Key Features: Flavour: Delectable Beef Marrow Bones Size & Weight: Convenient 120g single-serving packs Dental Benefits: Helps clean teeth, reduce tartar, and support healthy gums Versatile Use: Ideal for training, rewarding good behaviour, or daily snacks Complements Montego Diets: Perfect alongside Montego dry or wet food meals Ingredients & Nutritional Info: Corn starch, chicken meal, water, glycerine, propylene glycol, sugars, wheat gluten, spray-‎dried animal plasma, poultry fat, sodium phosphates, fish oil‎‎.‎ ADDITIVES (/kg): SENSORY: Palatability meat-based enhancers with beef aroma, white and brown colourants; PRESERVATIVES: Potassium sorbate. Nutrient Amount Crude Protein 20% Total Fat 5% Crude Fibre 1% Moisture 18.5% Calcium 1% Phosphorus 0.8% Sugars 3% Metabolizable Energy 330kcal/100 g Treat your dog to a healthy chew that’s full of yummy goodness and supports their smile every day!",
   "images": [
     {
-      "id": 60995,
+      "id": 56588,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Montego-Bags-O-Wags-Marrow-Bones-120g.png",
-      "alt": "Montego Bags O’ Wags Dog Treats – Marrow Bones 120g",
-      "name": "_Montego Bags O&#8217; Wags Marrow Bones &#8211; 120g"
+      "alt": "Montego Bags O' Wags Dog Treats - Marrow Bones 120g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Bags-o-wags",
+      "slug": "bags-o-wags"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/montego-bags-o-wags-marrow-bones-120g/?add-to-cart=56588",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-07-09T14:09:59",
-  "dateModified": "2026-06-24T12:12:03",
+  "permalink": "https://petstore.co.ke/product/montego-bags-o-wags-marrow-bones-120g/",
+  "addToCartUrl": "https://petstore.co.ke/product/montego-bags-o-wags-marrow-bones-120g/?add-to-cart=56588",
+  "shortDescription": "Give your dog a wagtastically delicious and nutritious treat that supports oral health! Montego BAGS O’ WAGS Dental Sticks are firm, chewtastically sa",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Montego-Bags-O-Wags-Marrow-Bones-120g.png",
+  "sku": "PSK-56588",
   "brand": "Bags-o-wags",
   "weight_kg": 0.12,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Montego-Bags-O-Wags-Marrow-Bones-120g.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Montego-Bags-O-Wags-Marrow-Bones-120g.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

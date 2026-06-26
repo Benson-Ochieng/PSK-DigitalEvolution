@@ -2,14 +2,12 @@
   "id": 49711,
   "name": "SHORT EXPIRY-CLEARANCE: Proline Adult Cat Food Fish 0.4kg",
   "slug": "short-expiry-clearance-proline-adult-cat-food-fish-0-4kg",
-  "sku": "PCD014@SE",
-  "onSale": true,
+  "onSale": false,
   "price": 472,
-  "regularPrice": 675,
-  "salePrice": 472,
+  "regularPrice": 472,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/06/Proline-Adult-Cat-Food-Fish-0.4kg.png",
   "categories": [
     {
       "id": 2325,
@@ -37,67 +35,51 @@
       "slug": "proline"
     }
   ],
-  "brands": [
-    {
-      "id": 2474,
-      "name": "Proline",
-      "slug": "proline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 637,
-      "name": "kibble",
-      "slug": "kibble"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=49711",
-  "shortDescription": "Fully balanced all-natural cat food with fish protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult cats.",
   "description": "Fully balanced all-natural cat food with fish protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult cats. CONTENTS: Processed animal protein, Wheat, Corn, Animal fat, Fish oil, Corn gluten, Processed Fish Protein (4%), Dried sugar beet, Fish flavor, Rice, Flaxseed, Dry brewer's yeast, Salt, Taurine (3A370), Preservatives - antioxidants (E320 & E321). MINERALS: Iron(3B103), Iodine (3B202), Copper(3B405), Manganese (3B502), Zinc(3B603), Selenium(3B802) VITAMINS: Vitamin A (3A672A), Vitamin D3 (3A671), Vitamin E (3A700), Vitamin C (3A300), Vitamin B1 (3A821), B2 (3A825i), B3 (Niacin-3A315), B6 ​​(3A831), B12 (3A). ), B7 (Biotin-3A880), B9 (Folic Acid-3A316), Vitamin K3 (3A710), Choline (3A890), Calcium Pantothenate (3A841) NUTRIENT COMPONENTS NUTRITIONAL SUPPLEMENTS Crude Protein 31% Vitamin A (3A672A) 15000 IU/kg Raw oil 20% Vitamin D3(3A671) 1000 IU/kg Ash 8% Vitamin E (3A700) 150mg/kg Crude Cellulose (Fiber) 3% Vitamin C (3A300) 120mg/kg taurine 1000mg/kg",
   "images": [
     {
-      "id": 37973,
+      "id": 49711,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/06/Proline-Adult-Cat-Food-Fish-0.4kg.png",
-      "alt": "Proline Adult Cat Food Fish 0.4kg",
-      "name": "Proline Adult Cat Food Fish 0.4kg"
+      "alt": "SHORT EXPIRY-CLEARANCE: Proline Adult Cat Food Fish 0.4kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Proline",
+      "slug": "proline"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-proline-adult-cat-food-fish-0-4kg/?add-to-cart=49711",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-08-27T17:14:54",
-  "dateModified": "2026-06-11T12:43:53",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=49711",
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-proline-adult-cat-food-fish-0-4kg/?add-to-cart=49711",
+  "shortDescription": "Fully balanced all-natural cat food with fish protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adu",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/06/Proline-Adult-Cat-Food-Fish-0.4kg.png",
+  "sku": "PSK-49711",
   "brand": "Proline",
   "weight_kg": 0.5,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/06/Proline-Adult-Cat-Food-Fish-0.4kg.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/06/Proline-Adult-Cat-Food-Fish-0.4kg.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

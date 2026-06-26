@@ -2,14 +2,12 @@
   "id": 55910,
   "name": "Friskies Cat Chicken Gravy 85g",
   "slug": "friskies-cat-chicken-gravy-85g",
-  "sku": "FCW003",
   "onSale": false,
   "price": 176,
   "regularPrice": 176,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/06/7613036976671_1.png",
   "categories": [
     {
       "id": 2325,
@@ -32,57 +30,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2439,
-      "name": "Friskies",
-      "slug": "friskies"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/friskies-cat-chicken-gravy-85g/",
-  "shortDescription": "FRISKIES Cat Beef, Chicken & Vegetables 1.7KG delivers a complete and balanced dry meal made with real beef, chicken, and garden vegetables . Formulated to support strong muscles, a healthy immune system, and lasting energy , it provides the perfect mix of flavor and nutrition to keep adult cats happy and active.",
   "description": "Purina Friskies Chicken in Gravy Wet Cat Food are complete pet food for adult cats and also suitable for neutered cats. Delight your cat's senses with bite-sized, moist chunks made with real chicken served in a flavorful gravy. Perfect for a complete and balanced nutrition for adult cats. This single-serve pouch contains all the nutrition your cat needs. It's a tasty and balanced meal of chicken chunks in gravy and is suitable for neutered cats as well. INFORMATION Ingredients Meat And Animal Derivatives (Of Which Chicken 4%)●&nbsp;Cereals●&nbsp;Minerals●&nbsp;Various Sugars. Storage Condition Store in a cool and dry place. Brand Message Friskies is a brand of wet and dry cat food and treats. It is owned by Nestlé Purina Petcare company, a subsidiary of Nestlé global. When Friskies cat food was introduced in the 1950s, it was the first dry pet food product specifically for cats. The brand was acquired by Nestlé in 1985.",
   "images": [
     {
-      "id": 56394,
+      "id": 55910,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/06/7613036976671_1.png",
       "alt": "Friskies Cat Chicken Gravy 85g",
-      "name": "7613036976671_1"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Friskies",
+      "slug": "friskies"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/friskies-cat-chicken-gravy-85g/?add-to-cart=55910",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-06-17T14:49:38",
-  "dateModified": "2026-06-17T04:30:15",
+  "permalink": "https://petstore.co.ke/product/friskies-cat-chicken-gravy-85g/",
+  "addToCartUrl": "https://petstore.co.ke/product/friskies-cat-chicken-gravy-85g/?add-to-cart=55910",
+  "shortDescription": "Purina Friskies Chicken in Gravy Wet Cat Food are complete pet food for adult cats and also suitable for neutered cats. Delight your cat's senses with",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/06/7613036976671_1.png",
+  "sku": "PSK-55910",
   "brand": "Friskies",
   "weight_kg": 0.1,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/06/7613036976671_1.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/06/7613036976671_1.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }
