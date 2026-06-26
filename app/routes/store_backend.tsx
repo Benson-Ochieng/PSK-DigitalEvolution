@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { Form, Link, Outlet, redirect, useLoaderData, useLocation } from "react-router";
+import { Form, Link, Outlet, redirect, useLoaderData, useLocation, useNavigation } from "react-router";
 import type { User } from "~/lib/db.server";
 
 export async function loader({ request }: { request: Request }) {
@@ -26,6 +26,8 @@ export async function action({ request }: { request: Request }) {
 export default function VpBackendLayout() {
   const { user, reviewsCount, ordersCount } = useLoaderData() as { user: User; reviewsCount: number; ordersCount: number };
   const location = useLocation();
+  const navigation = useNavigation();
+  const isLoading = navigation.state !== "idle";
 
   const [productsOpen, setProductsOpen] = useState(
     location.pathname.startsWith("/store_backend/products")
@@ -105,7 +107,7 @@ export default function VpBackendLayout() {
     <div className={`admin-layout ${sidebarCollapsed ? "sidebar-collapsed" : ""}`}>
       <style dangerouslySetInnerHTML={{
         __html: `
-        .admin-layout {
+         .admin-layout {
           min-height: 100vh;
           background: #0d0d12;
           color: #f3f4f6;
@@ -114,6 +116,28 @@ export default function VpBackendLayout() {
           grid-template-columns: 280px 1fr;
           overflow: hidden;
           transition: grid-template-columns 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .top-loading-bar {
+          position: fixed;
+          top: 0;
+          left: 0;
+          height: 3px;
+          background: linear-gradient(90deg, #00ccff, #a855f7, #00ccff);
+          background-size: 200% 100%;
+          animation: loadingBarProgress 1.5s infinite linear;
+          z-index: 99999;
+          width: 100%;
+        }
+        @keyframes loadingBarProgress {
+          0% { background-position: 200% 0; }
+          100% { background-position: -200% 0; }
+        }
+
+        .admin-content-viewport.loading-transition {
+          opacity: 0.5;
+          pointer-events: none;
+          transition: opacity 0.25s ease;
         }
 
         .admin-layout.sidebar-collapsed {
@@ -1584,7 +1608,9 @@ export default function VpBackendLayout() {
           </div>
         </header>
 
-        <div className="admin-content-viewport">
+        {isLoading && <div className="top-loading-bar" />}
+
+        <div className={`admin-content-viewport ${isLoading ? "loading-transition" : ""}`}>
           <Outlet />
         </div>
       </main>
