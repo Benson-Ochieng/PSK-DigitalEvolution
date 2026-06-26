@@ -1,26 +1,44 @@
 [
   {
+    "name": "15kg Reflex Flavour",
+    "slug": "15kg-flavour",
+    "type": "select",
+    "terms": "High Energy Beef, Fish & Rice, Lamb, Rice & Vegetable"
+  },
+  {
+    "name": "3kg Reflex Flavour",
+    "slug": "3kg-flavour",
+    "type": "select",
+    "terms": "Small Breed Chicken, Fish & Rice, High Energy Beef, Lamb, Rice & Vegetable"
+  },
+  {
     "name": "Color",
-    "slug": "pa_color",
+    "slug": "color",
     "type": "select",
-    "terms": "Black, Silver, White, Grey"
+    "terms": "Black, Blue, Green, Pink, Purple, Red, Yellow"
   },
   {
-    "name": "Screen Size",
-    "slug": "pa_screen-size",
+    "name": "Donate",
+    "slug": "donate",
     "type": "select",
-    "terms": "32\", 43\", 50\", 55\", 65\", 75\", 85\""
+    "terms": "Donate Cat Food, Donate Cat Food - Cat Lovers Kenya, Donate Cat Food - Footsteps Rescue Centre, Donate Cat Food - KSCPA Diani, Donate Cat Food - KSPCA Mombasa, Donate Cat Food - KSPCA Nairobi, Donate Cat Food - KSPCA Naivasha, Donate Cat Food - Lamu Animal Welfare Clinic, Donate Cat Food - Mici Randagai Watamu, Donate Cat Food - Nairobi Feline Sanctuary, Donate Cat Food - TNR Trust, Donate Dog Food, Donate Dog Food - Footsteps Rescue Centre, Donate Dog Food - KSCPA Diani, Donate Dog Food - KSPCA Mombasa, Donate Dog Food - KSPCA Nairobi, Donate Dog Food - KSPCA Naivasha, Donate Dog Food - Lamu Animal Welfare Clinic, Donate Dog Food - Mici Randagai Watamu, Donate Dog Food - TNR Trust, Donate Kitten Food, Donate Puppy Food"
   },
   {
-    "name": "Resolution",
-    "slug": "pa_resolution",
+    "name": "Flavour",
+    "slug": "flavour-cat-stick-treats",
     "type": "select",
-    "terms": "HD Ready, Full HD, 4K UHD, 8K UHD"
+    "terms": "rabbit, salmon"
   },
   {
-    "name": "Warranty",
-    "slug": "pa_warranty",
+    "name": "Pouch Flavour",
+    "slug": "flavour-pouch",
     "type": "select",
-    "terms": "1 Year, 2 Years, 5 Years"
+    "terms": "Beef Chunks in Gravy, Chicken Chunks in Gravy, Duck and Turkey Chunks in Gravy, Lamb and Liver Chunks in Jelly, Salmon and Trout Chunks in Jelly"
+  },
+  {
+    "name": "Size",
+    "slug": "size",
+    "type": "select",
+    "terms": "Small, Medium, Large, 0.4kg, 0.5kg, 1.5kg, 2.75kg, 3kg, 12kg, 15kg, 235 ml, 475 ml, 950ml, 235 ml, 400X2 ML, 475 ml, 480 ML, 800X2 ML, 850 ML, 950 ml, 1420ml, 1420 ml, 1500 ml, 1600 ML, 1900 ML"
   }
 ]

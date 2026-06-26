@@ -3826,15 +3826,15 @@ export default function VpBackendProducts() {
                 <input type="hidden" name="intent" value="add_attribute" />
                 <div className="form-group-admin">
                   <label>Name</label>
-                  <input type="text" name="name" value={newAttrName} onChange={(e) => setNewAttrName(e.target.value)} required placeholder="e.g. Processor" />
+                  <input type="text" name="name" value={newAttrName} onChange={(e) => setNewAttrName(e.target.value)} required placeholder="e.g. Color" />
                 </div>
                 <div className="form-group-admin">
                   <label>Slug</label>
-                  <input type="text" name="slug" value={newAttrSlug} onChange={(e) => setNewAttrSlug(e.target.value)} placeholder="e.g. pa_processor (optional)" />
+                  <input type="text" name="slug" value={newAttrSlug} onChange={(e) => setNewAttrSlug(e.target.value)} placeholder="e.g. color (optional)" />
                 </div>
                 <div className="form-group-admin">
                   <label>Terms / Values (comma separated)</label>
-                  <input type="text" name="terms" value={newAttrTerms} onChange={(e) => setNewAttrTerms(e.target.value)} placeholder="e.g. Quad-Core, Dual-Core" required />
+                  <input type="text" name="terms" value={newAttrTerms} onChange={(e) => setNewAttrTerms(e.target.value)} placeholder="e.g. Red, Blue, Green, Yellow, Black" required />
                 </div>
                 <button type="submit" className="btn-action-primary" style={{ width: "100%", height: "36px" }}>Add New Attribute</button>
               </Form>
