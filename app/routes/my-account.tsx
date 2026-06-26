@@ -513,10 +513,10 @@ export default function MyAccount() {
                 onClick={() => setActiveTab("loyalty")}
                 style={{
                   textAlign: "left",
-                  background: activeTab === "loyalty" ? "#585447" : "#6a6659",
+                  background: activeTab === "loyalty" ? "#1a5ca3" : "#1053a0",
                   color: "#ffffff",
                   border: "none",
-                  borderBottom: "1px solid #524f44",
+                  borderBottom: "1px solid #0f4a8f",
                   padding: "0.85rem 1.25rem",
                   fontSize: "0.85rem",
                   fontWeight: 700,
