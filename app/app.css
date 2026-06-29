@@ -2941,4 +2941,36 @@ body {
 /* Global Link Hover Customization */
 a:hover {
   text-decoration: underline;
+}
+
+/* Sleek Top Progress Bar Loader */
+.top-loader-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #1E5DA7 0%, #5ba672 50%, #1E5DA7 100%);
+  background-size: 200% 100%;
+  z-index: 99999;
+  width: 100%;
+  animation: loadingBarProgress 1.5s linear infinite, loadingBarFadeIn 0.2s ease-out;
+  pointer-events: none;
+}
+
+@keyframes loadingBarProgress {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+@keyframes loadingBarFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

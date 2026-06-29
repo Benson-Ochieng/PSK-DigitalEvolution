@@ -5,6 +5,7 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
+  useNavigation,
 } from "react-router";
 
 import type { Route } from "./+types/root";
@@ -50,8 +51,12 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
+  const navigation = useNavigation();
+  const isLoading = navigation.state === "loading";
+
   return (
     <CartProvider>
+      {isLoading && <div className="top-loader-bar" />}
       <Outlet />
       <CartDrawer />
       <CheckoutModal />
