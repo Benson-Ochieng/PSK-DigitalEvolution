@@ -3,6 +3,7 @@ import { useLoaderData, Link } from "react-router";
 import { getAllProducts } from "~/lib/content.server";
 import { db } from "~/lib/db.server";
 import type { Order } from "~/lib/db.server";
+import { query } from "~/db.server";
 
 export async function loader() {
   const orders = await db.order.findMany();
@@ -26,17 +27,102 @@ export async function loader() {
     (p) => !p.inStock || p.sku?.includes("CLEARANCE") || p.id === 43015
   );
 
-  // Group top sellers from orders
+  // 1. Gather all candidate product IDs and slugs to query their images from the database
+  const candidateIds = new Set<number>();
+  const candidateSlugs = new Set<string>();
+
+  // Add low stock product candidates
+  lowStockProducts.slice(0, 10).forEach((p: any) => {
+    if (p.id) candidateIds.add(Number(p.id));
+    if (p.slug) candidateSlugs.add(p.slug);
+  });
+
+  // Add order item candidates
+  orders.forEach((o) => {
+    if (o.status === "COMPLETED" || o.status === "PROCESSING") {
+      o.items.forEach((item) => {
+        if (item.id) candidateIds.add(Number(item.id));
+      });
+    }
+  });
+
+  // Add seeded top-seller candidates
+  const seededSlugs = [
+    "bonnie-adult-dog-food-beef-15kg",
+    "bonnie-adult-dog-food-lamb-and-rice-2-5kg",
+    "reflex-adult-cat-food-salmon-rice-0-5kg",
+    "bonnie-canary-bird-food-500gr-3",
+    "bravecto-chewable-tablet-for-dogs-20-to-40kg-1-treatment"
+  ];
+  seededSlugs.forEach(s => candidateSlugs.add(s));
+
+  // Query database for all candidate images
+  const dbImagesMap: Record<string, string> = {};
+  const idsArr = Array.from(candidateIds);
+  const slugsArr = Array.from(candidateSlugs);
+
+  if (idsArr.length > 0 || slugsArr.length > 0) {
+    try {
+      const res = await query(
+        `SELECT id, slug, image_url FROM products WHERE id = ANY($1) OR slug = ANY($2)`,
+        [idsArr, slugsArr]
+      );
+      res.rows.forEach((row: any) => {
+        if (row.image_url) {
+          dbImagesMap[String(row.id)] = row.image_url;
+          if (row.slug) {
+            dbImagesMap[row.slug] = row.image_url;
+          }
+        }
+      });
+    } catch (e) {
+      console.error("Failed to query product images from DB in dashboard loader:", e);
+    }
+  }
+
+  // Helper: resolve the best available image URL for a product.
+  // Prioritizes the database image_url, then details JSON images, and finally falls back to summary or logo.
+  const { getProduct } = await import("~/lib/content.server");
+  const FALLBACK_IMG = "/images/psk_logo.png";
+  function resolveProductImage(summary: any): string {
+    const idKey = summary?.id ? String(summary.id) : "";
+    const slugKey = summary?.slug || "";
+    
+    if (idKey && dbImagesMap[idKey]) return dbImagesMap[idKey];
+    if (slugKey && dbImagesMap[slugKey]) return dbImagesMap[slugKey];
+    
+    if (!summary?.slug) return FALLBACK_IMG;
+    try {
+      const detail = getProduct(summary.slug) as any;
+      if (detail) {
+        const firstImage = detail.images?.[0]?.src;
+        if (firstImage && firstImage !== FALLBACK_IMG) return firstImage;
+        if (detail.thumbnail && detail.thumbnail !== FALLBACK_IMG) return detail.thumbnail;
+        if (detail.image_url && detail.image_url !== FALLBACK_IMG) return detail.image_url;
+      }
+    } catch (_) { /* detail file may not exist */ }
+    if (summary.thumbnail && summary.thumbnail !== FALLBACK_IMG) return summary.thumbnail;
+    if ((summary as any).image_url && (summary as any).image_url !== FALLBACK_IMG)
+      return (summary as any).image_url;
+    return FALLBACK_IMG;
+  }
+
+  // Group top sellers from orders — cross-reference the product index to get real images
   const productSalesMap: Record<string, { name: string; count: number; thumbnail: string; price: number }> = {};
   orders.forEach((o) => {
     if (o.status === "COMPLETED" || o.status === "PROCESSING") {
       o.items.forEach((item) => {
         const idStr = String(item.id);
         if (!productSalesMap[idStr]) {
+          const matchedSummary = products.find(
+            (p: any) => String(p.id) === idStr
+          );
           productSalesMap[idStr] = {
             name: item.name,
             count: 0,
-            thumbnail: item.thumbnail || "/assets/images/products/Cool-Pods.jpg",
+            thumbnail: matchedSummary
+              ? resolveProductImage(matchedSummary)
+              : (item.thumbnail || FALLBACK_IMG),
             price: item.price,
           };
         }
@@ -49,26 +135,34 @@ export async function loader() {
     .sort((a, b) => b.count - a.count)
     .slice(0, 5);
 
-  // Seed default top sellers if empty
+  // Seed default top sellers — use getProduct() with exact known slugs so we always
+  // get the real WooCommerce product image rather than a pattern-match that may miss.
   if (topSellers.length === 0) {
+    // These slugs are confirmed to have images[] populated from WooCommerce
+    const slot1 = getProduct("bonnie-adult-dog-food-beef-15kg") as any;
+    const slot2 = getProduct("bonnie-adult-dog-food-lamb-and-rice-2-5kg") as any
+               ?? getProduct("reflex-adult-cat-food-salmon-rice-0-5kg") as any;
+    const slot3 = getProduct("bonnie-canary-bird-food-500gr-3") as any
+               ?? getProduct("bravecto-chewable-tablet-for-dogs-20-to-40kg-1-treatment") as any;
+
     topSellers = [
       {
-        name: "Bonnie Adult Dog Food - Beef 15kg",
+        name: slot1?.name ?? "Bonnie Adult Dog Food - Beef 15kg",
         count: 14,
-        thumbnail: "/images/psk_logo.png",
-        price: 4500,
+        thumbnail: slot1 ? resolveProductImage(slot1) : FALLBACK_IMG,
+        price: slot1?.regularPrice ?? slot1?.price ?? 4500,
       },
       {
-        name: "Reflex Plus Cat Food - Salmon 1.5kg",
+        name: slot2?.name ?? "Bonnie Lamb & Rice 2.5kg",
         count: 9,
-        thumbnail: "/images/psk_logo.png",
-        price: 1200,
+        thumbnail: slot2 ? resolveProductImage(slot2) : FALLBACK_IMG,
+        price: slot2?.regularPrice ?? slot2?.price ?? 1200,
       },
       {
-        name: "Trixie Cat Scratching Post",
+        name: slot3?.name ?? "Bonnie Canary Bird Food 500g",
         count: 5,
-        thumbnail: "/images/psk_logo.png",
-        price: 3200,
+        thumbnail: slot3 ? resolveProductImage(slot3) : FALLBACK_IMG,
+        price: slot3?.regularPrice ?? slot3?.price ?? 650,
       },
     ];
   }
@@ -84,7 +178,10 @@ export async function loader() {
     totalRevenue,
     activeOrdersCount,
     lowStockCount: lowStockProducts.length,
-    lowStockProducts: lowStockProducts.slice(0, 4),
+    lowStockProducts: lowStockProducts.slice(0, 4).map((p: any) => ({
+      ...p,
+      thumbnail: resolveProductImage(p),
+    })),
     couponsCount,
     topSellers,
     recentOrders,
@@ -541,7 +638,12 @@ export default function VpBackendDashboard() {
               {data.topSellers.map((prod: any, idx: number) => (
                 <div className="widget-item" key={idx}>
                   <div className="product-meta-row">
-                    <img className="product-mini-thumb" src={prod.thumbnail} alt={prod.name} />
+                    <img
+                      className="product-mini-thumb"
+                      src={prod.thumbnail || "/images/psk_logo.png"}
+                      alt={prod.name}
+                      onError={(e) => { (e.currentTarget as HTMLImageElement).src = "/images/psk_logo.png"; }}
+                    />
                     <div>
                       <div className="product-name-txt">{prod.name}</div>
                       <div className="product-sub-txt">{formatKsh(prod.price)}</div>
@@ -560,7 +662,12 @@ export default function VpBackendDashboard() {
               {data.lowStockProducts.map((prod: any, idx: number) => (
                 <div className="widget-item" key={idx}>
                   <div className="product-meta-row">
-                    <img className="product-mini-thumb" src={prod.thumbnail} alt={prod.name} />
+                    <img
+                      className="product-mini-thumb"
+                      src={prod.thumbnail || "/images/psk_logo.png"}
+                      alt={prod.name}
+                      onError={(e) => { (e.currentTarget as HTMLImageElement).src = "/images/psk_logo.png"; }}
+                    />
                     <div>
                       <div className="product-name-txt">{prod.name}</div>
                       <div className="product-sub-txt">SKU: {prod.sku}</div>
