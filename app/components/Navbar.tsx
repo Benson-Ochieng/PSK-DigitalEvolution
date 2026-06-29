@@ -235,7 +235,7 @@ const DRAWER_MENU_ITEMS = [
   { name: "Food Comparison", path: "/shop?type=comparison" },
   {
     name: "Pet Avenue",
-    path: "/shop?type=avenue",
+    path: "/pet-avenue",
     subItems: [
       { name: "Avenue Group", path: "/shop?type=avenue&sub=group" },
       { name: "Avenue Shops", path: "/shop?type=avenue&sub=shops" },

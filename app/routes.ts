@@ -51,7 +51,12 @@ const routes = [
   route("see-all-our-stores", "routes/see-all-our-stores.tsx"),
   route("retail-locations-nairobi-nanyuki-naivasha-nakuru-mombasa", "routes/retail-locations.tsx"),
   route("blog", "routes/blog.tsx"),
-  
+  route("pet-avenue", "routes/pet-avenue.tsx"),
+  route("pet-avenue/veterinary-care", "routes/pet-avenue.vets.tsx"),
+  route("pet-avenue/boarding-facilities", "routes/pet-avenue.boarding.tsx"),
+  route("pet-avenue/restaurants", "routes/pet-avenue.restaurants.tsx"),
+  route("pet-avenue/pet-adoption", "routes/pet-avenue.adoption.tsx"),
+
   // API
   route("api/order", "routes/api.order.ts"),
   route("api/search", "routes/api.search.ts"),

@@ -2936,4 +2936,9 @@ body {
     width: 56px;
     height: 56px;
   }
+}
+
+/* Global Link Hover Customization */
+a:hover {
+  text-decoration: underline;
 }
