@@ -168,7 +168,6 @@ export default function SeeAllOurStores() {
         }
 
         .store-link:hover {
-          color: #f7c276;
           text-decoration: underline;
         }
       ` }} />
