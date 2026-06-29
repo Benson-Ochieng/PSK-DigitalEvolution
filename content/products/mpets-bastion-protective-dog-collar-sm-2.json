@@ -3,8 +3,8 @@
   "name": "Mpets Bastion Protective Dog cone (Sm)",
   "slug": "mpets-bastion-protective-dog-collar-sm-2",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,50 +16,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "X/Small, Small, Medium, Large, X/Large",
-  "images": [
-    {
-      "id": 33129,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/11/MPBPDC2-M-PETS-BASTION-Protective-Collar-Small.jpg",
-      "alt": "Mpets Bastion Protective Dog cone (Sm)",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=33129",
-  "addToCartUrl": "https://petstore.co.ke/product/mpets-bastion-protective-dog-collar-sm-2/?add-to-cart=33129",
-  "shortDescription": "X/Small, Small, Medium, Large, X/Large",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/11/MPBPDC2-M-PETS-BASTION-Protective-Collar-Small.jpg",
-  "sku": "PSK-33129",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/11/MPBPDC2-M-PETS-BASTION-Protective-Collar-Small.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

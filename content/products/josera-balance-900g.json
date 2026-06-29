@@ -3,8 +3,8 @@
   "name": "Josera Balance 900g",
   "slug": "josera-balance-900g",
   "onSale": false,
-  "price": 668,
-  "regularPrice": 668,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,50 +16,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Composition: poultry, whole grain corn; rice; beet fibre; hydrolysed poultry protein; poultry fat; minerals; chicory root (ground, natural source of inulin); dried meat from the New Zealand green-lipped mussel (Perna canaliculus). Product Details: Fat- and protein-reduced, moderate level of minerals For our seniors: A special food designed to boost vitality, even in old age. The reduced protein and fat content helps to ease the strain on the metabolism. The balanced and extremely well-tolerated formula containing valuable antioxidants helps to counteract cell aging. It is therefore highly suitable for older dogs. ? For older and less active dogs with a lower energy requirement ? Low-fat recipe to prevent obesity ? The low-fat content and L-carnitine encourage an optimal ratio of fatty tissue and muscle mass ? Together with taurine, L-carnitine also supports cardiovascular functions",
-  "images": [
-    {
-      "id": 23772,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JDB003.jpg",
-      "alt": "Josera Balance 900g",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=23772",
-  "addToCartUrl": "https://petstore.co.ke/product/josera-balance-900g/?add-to-cart=23772",
-  "shortDescription": "Composition: poultry, whole grain corn; rice; beet fibre; hydrolysed poultry protein; poultry fat; minerals; chicory root (ground, natural source of i",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JDB003.jpg",
-  "sku": "PSK-23772",
-  "brand": "Josera",
-  "weight_kg": 0.9,
-  "animal_type": "dog",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JDB003.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

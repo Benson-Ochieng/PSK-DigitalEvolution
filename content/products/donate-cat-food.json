@@ -3,8 +3,8 @@
   "name": "Donate Cat Food",
   "slug": "donate-cat-food",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -36,50 +36,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "k For every bag you donate, WE WILL MATCH YOUR DONATION. &nbsp; OUR PARTNER ANIMAL SHELTERS AND ADVOCATES: The KSPCA (Kenya Society for the Protection and Care of Animals) - a welfare charity that protects animals from neglect and abuse. We currently support their branches in Diani , Nairobi , Naivasha and Mombasa . TNR Trust - their aim is to enhance community health by managing a healthy pet population by means of neutering and rabies campaigns. MICI Randagai Watamu - a non-profit organisation that feeds, shelters and advocates for street cats in Watamu. The Lamu Animal Welfare Clinic - a charitable Trust dedicated to alleviating the suffering of distressed animals, provide treatment, vaccinate, de-worm and manage the Lamu cats' population. Footsteps Rescue Centre (Diani) - a sanctuary for street animals in Diani Cat Lovers Kenya - an organisation that helps home abandoned cats and supports cat-foster-families Nairobi Feline Sanctuary - an organisation that provides a forever home for rescued cats and an education centre for animal welfare and activism",
-  "images": [
-    {
-      "id": 12464,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/03/PSK-Donate-Cat-Food-Dog-Food-030920-V4.1.png",
-      "alt": "Donate Cat Food",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=12464",
-  "addToCartUrl": "https://petstore.co.ke/product/donate-cat-food/?add-to-cart=12464",
-  "shortDescription": "k For every bag you donate, WE WILL MATCH YOUR DONATION. &nbsp; OUR PARTNER ANIMAL SHELTERS AND ADVOCATES: The KSPCA (Kenya Society for the Protection",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/03/PSK-Donate-Cat-Food-Dog-Food-030920-V4.1.png",
-  "sku": "PSK-12464",
-  "brand": "PetStore Kenya",
-  "weight_kg": 15,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/03/PSK-Donate-Cat-Food-Dog-Food-030920-V4.1.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

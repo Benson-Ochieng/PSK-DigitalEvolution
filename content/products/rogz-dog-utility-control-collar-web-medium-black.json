@@ -3,8 +3,8 @@
   "name": "Rogz Dog Utility Control Collar Web Medium - Black",
   "slug": "rogz-dog-utility-control-collar-web-medium-black",
   "onSale": false,
-  "price": 1450,
-  "regularPrice": 1450,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Rogz Control Collar Web is a safe, non-slip collar recommended for behaviour correction and training. Through gently-applied pressure, when attached to a Lead/Leash, the two D-rings are drawn together, tightening slightly to prevent your dog from reversing out of the collar. TO FIT: To avoid injury, fit the collar with a two-finger gap between the metal rings in the tightened position. The collar should then fit snuggly over your dog?s head. Size: Medium 16mm (Neck Size: 35 - 45cm)",
-  "images": [
-    {
-      "id": 17631,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/HCW11-A_Control-Collar-Web.jpg",
-      "alt": "Rogz Dog Utility Control Collar Web Medium - Black",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=17631",
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-control-collar-web-medium-black/?add-to-cart=17631",
-  "shortDescription": "Rogz Control Collar Web is a safe, non-slip collar recommended for behaviour correction and training. Through gently-applied pressure, when attached t",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/HCW11-A_Control-Collar-Web.jpg",
-  "sku": "PSK-17631",
-  "brand": "PetStore Kenya",
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/HCW11-A_Control-Collar-Web.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

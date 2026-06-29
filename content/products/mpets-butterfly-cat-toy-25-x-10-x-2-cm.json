@@ -3,8 +3,8 @@
   "name": "Mpets Butterfly Cat Toy - (25 X 10 X 2 cm)",
   "slug": "mpets-butterfly-cat-toy-25-x-10-x-2-cm",
   "onSale": false,
-  "price": 800,
-  "regularPrice": 800,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -26,50 +26,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "M-PETS BUTTERFLY - Fluorescent fabric Colors: yellow, green, blue & pink",
-  "images": [
-    {
-      "id": 27306,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPB.jpg",
-      "alt": "Mpets Butterfly Cat Toy - (25 X 10 X 2 cm)",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=27306",
-  "addToCartUrl": "https://petstore.co.ke/product/mpets-butterfly-cat-toy-25-x-10-x-2-cm/?add-to-cart=27306",
-  "shortDescription": "M-PETS BUTTERFLY - Fluorescent fabric Colors: yellow, green, blue & pink",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/MPB.jpg",
-  "sku": "PSK-27306",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPB.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

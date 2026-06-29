@@ -3,8 +3,8 @@
   "name": "Reflex Plus Adult Cat Food Pouch - Tuna & Salmon Chunks in Jelly 100g",
   "slug": "reflex-plus-adult-cat-food-pouch-tuna-salmon-chunks-in-jelly-0-1kg",
   "onSale": false,
-  "price": 190,
-  "regularPrice": 190,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -46,50 +46,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Reflex Plus Tuna & Salmon Chunks in Jelly Adult Cat Food in Pouch , fully balanced, tuna & salmon protein-containing cat food carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult breeds. NUTRIENT COMPONENTS Crude Protein (%) - 8.0 Crude Oils & Fats (%) - 5.0 Crude Fiber (%) - 2.0 Moisture (%) - 0.3 Crude Ash (%) - 83 Vitamin D3 - 250 IE/kg Vitamin E - 15 mg/kg Copper -1.0 mg/kg Biotin - 20 g/kg Manganese - 1 mg/kg Zinc - 15 mg/kg Taurine - 445 mg/kg INGREDIENTS: Meat and animal derivatives, fish and fish derivatives (5% tuna, 5% salmon), minerals, inulin (0,1%). FEEDING RECOMMENDATION: One pouch per meal. An adult cat (approx. 4kg) requires up to 3 meals per day. Individual requirements depend on factors like age, breed and activity. Serve at room temperature. Store in a cool, dry place.",
-  "images": [
-    {
-      "id": 12116,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/03/Reflex-Plus-Adult-Cat-Food-Tuna-and-Salmon-Chunks-in-Jelly-100g-min.png",
-      "alt": "Reflex Plus Adult Cat Food Pouch - Tuna & Salmon Chunks in Jelly 100g",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=12116",
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-adult-cat-food-pouch-tuna-salmon-chunks-in-jelly-0-1kg/?add-to-cart=12116",
-  "shortDescription": "Reflex Plus Tuna & Salmon Chunks in Jelly Adult Cat Food in Pouch , fully balanced, tuna & salmon protein-containing cat food carefully formulated by ",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/03/Reflex-Plus-Adult-Cat-Food-Tuna-and-Salmon-Chunks-in-Jelly-100g-min.png",
-  "sku": "PSK-12116",
-  "brand": "Reflex",
-  "weight_kg": 0.1,
-  "animal_type": "cat",
-  "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/03/Reflex-Plus-Adult-Cat-Food-Tuna-and-Salmon-Chunks-in-Jelly-100g-min.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

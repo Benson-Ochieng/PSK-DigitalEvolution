@@ -3,8 +3,8 @@
   "name": "Proline Puppy Food - Chicken 15kg",
   "slug": "proline-puppy-food-chicken-15kg",
   "onSale": false,
-  "price": 7440,
-  "regularPrice": 7440,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Proline Puppy Food - Chicken , fully balanced all-natural puppy food with chicken protein plus brewer's yeast and whey protein for immune support and omega -3 and -6 from flaxseed. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of growing puppies. NUTRIENT COMPONENTS Protein.............................28% Fat...........................................16% Crude Cellulose (Fiber) .............4% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Wheat Middlings, Corn Gluten, Dried Sugar Beeet, Chicken Liver Aroma, Rice, Salt, Whey Powder, Flaxseed, Dried Brewer's Yeast. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
-  "images": [
-    {
-      "id": 40843,
-      "src": "https://petstore.co.ke/wp-content/uploads/2019/07/Pet-Store-Kenya-Nairobi-Proline-Puppy-Food-Chicken-15kg-min.png",
-      "alt": "Proline Puppy Food - Chicken 15kg",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Proline",
-      "slug": "proline"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=40843",
-  "addToCartUrl": "https://petstore.co.ke/product/proline-puppy-food-chicken-15kg/?add-to-cart=40843",
-  "shortDescription": "Proline Puppy Food - Chicken , fully balanced all-natural puppy food with chicken protein plus brewer's yeast and whey protein for immune support and ",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/07/Pet-Store-Kenya-Nairobi-Proline-Puppy-Food-Chicken-15kg-min.png",
-  "sku": "PSK-40843",
-  "brand": "Proline",
-  "weight_kg": 15,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/07/Pet-Store-Kenya-Nairobi-Proline-Puppy-Food-Chicken-15kg-min.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

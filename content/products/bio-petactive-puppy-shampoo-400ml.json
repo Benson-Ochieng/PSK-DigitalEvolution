@@ -3,8 +3,8 @@
   "name": "Bio Petactive Puppy Shampoo 400ml",
   "slug": "bio-petactive-puppy-shampoo-400ml",
   "onSale": false,
-  "price": 900,
-  "regularPrice": 900,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,50 +16,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Bio PetActive Puppy Shampoo with its chamomile extract and cleansing substances in shampoo formula, it nourishes the skin and fur, giving them extra strength and shine.",
-  "images": [
-    {
-      "id": 24777,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/BioPetactive-Puppy.jpg",
-      "alt": "Bio Petactive Puppy Shampoo 400ml",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=24777",
-  "addToCartUrl": "https://petstore.co.ke/product/bio-petactive-puppy-shampoo-400ml/?add-to-cart=24777",
-  "shortDescription": "Bio PetActive Puppy Shampoo with its chamomile extract and cleansing substances in shampoo formula, it nourishes the skin and fur, giving them extra s",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/BioPetactive-Puppy.jpg",
-  "sku": "PSK-24777",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/BioPetactive-Puppy.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

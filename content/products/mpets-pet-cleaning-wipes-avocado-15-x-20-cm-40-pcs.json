@@ -3,8 +3,8 @@
   "name": "Mpets Pet Cleaning Wipes Avocado 15 X 20 Cm - 40 Pcs",
   "slug": "mpets-pet-cleaning-wipes-avocado-15-x-20-cm-40-pcs",
   "onSale": false,
-  "price": 600,
-  "regularPrice": 600,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,50 +16,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Description: Avocado SPUNLACED NON-WOVEN",
-  "images": [
-    {
-      "id": 27478,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPCWA.jpg",
-      "alt": "Mpets Pet Cleaning Wipes Avocado 15 X 20 Cm - 40 Pcs",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=27478",
-  "addToCartUrl": "https://petstore.co.ke/product/mpets-pet-cleaning-wipes-avocado-15-x-20-cm-40-pcs/?add-to-cart=27478",
-  "shortDescription": "Description: Avocado SPUNLACED NON-WOVEN",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/MPCWA.jpg",
-  "sku": "PSK-27478",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPCWA.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

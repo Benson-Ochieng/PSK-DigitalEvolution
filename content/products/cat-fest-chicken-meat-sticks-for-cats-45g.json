@@ -3,8 +3,8 @@
   "name": "Cat Fest Chicken Meat Sticks For Cats 45g",
   "slug": "cat-fest-chicken-meat-sticks-for-cats-45g",
   "onSale": false,
-  "price": 190,
-  "regularPrice": 190,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -26,50 +26,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Description The most delicate chicken is carefully ground to become your cat’s favorite treat. Ingredients: chicken meat, plant products, minerals. Analytical components: crude protein 31%, fats 4.5%, crude fiber 0.1% moisture 25%; energy value – 164.5 kcal. Usage: Serve as a treat during the day. Adjust the amount according to your pet’s needs and condition. Do not overdo it.",
-  "images": [
-    {
-      "id": 36487,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/04/cat-chicken-meat-sticks.jpg",
-      "alt": "Cat Fest Chicken Meat Sticks For Cats 45g",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=36487",
-  "addToCartUrl": "https://petstore.co.ke/product/cat-fest-chicken-meat-sticks-for-cats-45g/?add-to-cart=36487",
-  "shortDescription": "Description The most delicate chicken is carefully ground to become your cat’s favorite treat. Ingredients: chicken meat, plant products, minerals. An",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/04/cat-chicken-meat-sticks.jpg",
-  "sku": "PSK-36487",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/04/cat-chicken-meat-sticks.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

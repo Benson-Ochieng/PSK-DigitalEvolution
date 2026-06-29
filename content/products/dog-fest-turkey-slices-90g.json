@@ -3,8 +3,8 @@
   "name": "Dog Fest Turkey Slices (90G)",
   "slug": "dog-fest-turkey-slices-90g",
   "onSale": false,
-  "price": 290,
-  "regularPrice": 290,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -26,50 +26,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "All natural treats & chews We range our treats based on the size and age of the dog. This helps to find a treat, which is just perfect just for your pet. You will still have to spend some time choosing a favorite flavor. Turkey Slices Reward him as a hero with something tasty! Turkey will alsobe your best choice if your dog has a sensitive stomach. Ingredients: turkey, vegetable by-products, minerals. Guaranteed analysis: crude protein 32%, crude fat 8.5%, crude fiber 0.2%, crude ash 4%, moisture 21%.",
-  "images": [
-    {
-      "id": 27274,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/DF026.jpg",
-      "alt": "Dog Fest Turkey Slices (90G)",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=27274",
-  "addToCartUrl": "https://petstore.co.ke/product/dog-fest-turkey-slices-90g/?add-to-cart=27274",
-  "shortDescription": "All natural treats & chews We range our treats based on the size and age of the dog. This helps to find a treat, which is just perfect just for your p",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/DF026.jpg",
-  "sku": "PSK-27274",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/DF026.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

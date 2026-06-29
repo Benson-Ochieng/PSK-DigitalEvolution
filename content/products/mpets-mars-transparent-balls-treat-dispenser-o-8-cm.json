@@ -3,8 +3,8 @@
   "name": "Mpets Mars Transparent Balls Treat Dispenser -8 Cm",
   "slug": "mpets-mars-transparent-balls-treat-dispenser-o-8-cm",
   "onSale": false,
-  "price": 650,
-  "regularPrice": 650,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -26,50 +26,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Description: M-PETS MARS Transparent Balls Materail: TRP - Treat dispenser Colors: purple, blue, green",
-  "images": [
-    {
-      "id": 27410,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPMTBTD.jpg",
-      "alt": "Mpets Mars Transparent Balls Treat Dispenser -8 Cm",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=27410",
-  "addToCartUrl": "https://petstore.co.ke/product/mpets-mars-transparent-balls-treat-dispenser-o-8-cm/?add-to-cart=27410",
-  "shortDescription": "Description: M-PETS MARS Transparent Balls Materail: TRP - Treat dispenser Colors: purple, blue, green",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/MPMTBTD.jpg",
-  "sku": "PSK-27410",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPMTBTD.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

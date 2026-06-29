@@ -3,8 +3,8 @@
   "name": "Pack Of 12: Reflex Plus Adult Cat Food Canned - Beef & Liver Chunks in Gravy 400g",
   "slug": "reflex-plus-adult-cat-food-canned-beef-liver-chunks-in-gravy-0-4kg-pack-of-12",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -36,50 +36,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Reflex Plus Beef & Liver Adult Cat Canned Food (Pack of 12) , fully-balanced, beef & liver protein-containing cat food carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult breeds. NUTRIENT COMPONENTS Crude Protein (%) - 7.0 Crude Oils & Fats (%) - 4.0 Crude Fiber (%) -?0.5 Moisture (%) -?81 Crude Ash (%) - 2.5 Vitamin A (Min) -?1400 IE/kg Vitamin D3 (Min) -?180 IE/kg Iron -?8 mg/kg Copper -?1.2 mg/kg Iodine -?0.21 mg/kg Manganese -?1.6 mg/kg Zinc -?8.0 mg/kg Selenium -?0.02 mg/kg INGREDIENTS: Meat & Animal Derivatives (Beef 4% min, liver 4% min), Cereals, Fish & Fish Derivatives, Minerals, Preservatives, Colourants. FEEDING RECOMMENDATION: An adult cat (approx. 4kg) requires up to 3 meals per day, where 1 can serve 2 meals. Individual requirements depend on factors like age, breed and activity. Serve at room temperature. Store in a cool, dry place. Not fit for human consumption.",
-  "images": [
-    {
-      "id": 16976,
-      "src": "https://petstore.co.ke/wp-content/uploads/2019/10/Reflex-Plus-cat-canned-beef-liver-min.png",
-      "alt": "Pack Of 12: Reflex Plus Adult Cat Food Canned - Beef & Liver Chunks in Gravy 400g",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=16976",
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-adult-cat-food-canned-beef-liver-chunks-in-gravy-0-4kg-pack-of-12/?add-to-cart=16976",
-  "shortDescription": "Reflex Plus Beef & Liver Adult Cat Canned Food (Pack of 12) , fully-balanced, beef & liver protein-containing cat food carefully formulated by cat / d",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/10/Reflex-Plus-cat-canned-beef-liver-min.png",
-  "sku": "PSK-16976",
-  "brand": "Reflex",
-  "weight_kg": 4.8,
-  "animal_type": "cat",
-  "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/10/Reflex-Plus-cat-canned-beef-liver-min.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

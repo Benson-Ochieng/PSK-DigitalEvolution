@@ -3,8 +3,8 @@
   "name": "Royal Canin Mini Puppy 2kg",
   "slug": "royal-canin-mini-puppy-2kg",
   "onSale": false,
-  "price": 3620,
-  "regularPrice": 3620,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "ROYAL CANIN? Mini Puppy food is formulated with the nutritional needs of your puppy in mind and is suitable for puppies aged 2-10 months that will have an adult weight of up to 10kg. Your puppy's growth period is such an essential stage in its life; it's the time of big changes and new discoveries. Within this period, your puppy's immune system is developing gradually. That's why ROYAL CANIN? Mini Puppy contains a complex of antioxidants - including vitamin E - to help support your puppy's natural defences as it grows. The shape of the kibble is small and easy to chew, perfect for your puppy's small mouth, and both the smell and flavour are optimised to tempt even the fussiest of dogs; it also helps to support its dental health and general oral hygiene. By containing a combination of nutrients with high quality protein (such as L.I.P - known for its high digestibility) as well as prebiotics, ROYAL CANIN? Mini Puppy supports the digestive health and balance of intestinal flora, which contributes to good stool quality by reducing faecal smell and quantity. Composition: dehydrated poultry protein, rice, animal fats, vegetable protein isolate*, maize, beet pulp, maize flour, hydrolysed animal proteins, maize gluten, minerals, fish oil, soya oil, fructo-oligo-saccharides (0.34%), hydrolysed yeast (source of manno-oligo-saccharides), yeast extracts (source of betaglucans), marigold extract (source of lutein). Additives (per kg): Nutritional additives: Vitamin A: 21500?IU, Vitamin D3: 1000?IU, Vitamin E: 510?mg, E1 (Iron): 38?mg, E2 (Iodine): 3.8?mg, E4 (Copper): 12?mg, E5 (Manganese): 49?mg, E6 (Zinc): 126?mg, E8 (Selenium): 0.06?mg?- Technological additives: Clinoptilolite of sedimentary origin: 10?g?- Sensory additives: Yucca extract: 125?mg?- Preservatives?- Antioxidants. Analytical constituents: Protein: 31%?- Fat content: 20%?- Crude ash: 7.7%?- Crude fibres: 1.4%. *L.I.P.: protein selected for its very high digestibility.",
-  "images": [
-    {
-      "id": 29452,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-SHMN-022.jpg",
-      "alt": "Royal Canin Mini Puppy 2kg",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Royal Canin",
-      "slug": "royal-canin"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=29452",
-  "addToCartUrl": "https://petstore.co.ke/product/royal-canin-mini-puppy-2kg/?add-to-cart=29452",
-  "shortDescription": "ROYAL CANIN? Mini Puppy food is formulated with the nutritional needs of your puppy in mind and is suitable for puppies aged 2-10 months that will hav",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-SHMN-022.jpg",
-  "sku": "PSK-29452",
-  "brand": "Royal Canin",
-  "weight_kg": 4,
-  "animal_type": "dog",
-  "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-SHMN-022.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

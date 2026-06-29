@@ -3,8 +3,8 @@
   "name": "Rogz Cat H-Harness & Lead Set X-Small - Blue",
   "slug": "rogz-cat-h-harness-lead-set-x-small-blue",
   "onSale": false,
-  "price": 2500,
-  "regularPrice": 2500,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -21,50 +21,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Rogz Catz 8mm NightCat Reflective Cat Lead and H-Harness Combination, Blue Floral Design Harness and Lead Combination, Scratchproof Webbing, Fully Adjustable Harness.",
-  "images": [
-    {
-      "id": 24563,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/CLJ208-B-Nightcat-Blue.jpg",
-      "alt": "Rogz Cat H-Harness & Lead Set X-Small - Blue",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=24563",
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-cat-h-harness-lead-set-x-small-blue/?add-to-cart=24563",
-  "shortDescription": "Rogz Catz 8mm NightCat Reflective Cat Lead and H-Harness Combination, Blue Floral Design Harness and Lead Combination, Scratchproof Webbing, Fully Adj",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/CLJ208-B-Nightcat-Blue.jpg",
-  "sku": "PSK-24563",
-  "brand": "PetStore Kenya",
-  "weight_kg": 0.4,
-  "animal_type": "cat",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/CLJ208-B-Nightcat-Blue.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

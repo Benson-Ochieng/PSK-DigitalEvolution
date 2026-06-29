@@ -3,8 +3,8 @@
   "name": "Reflex Cat Treats - Skin & Coat Pocket Treats, Salmon 60g",
   "slug": "reflex-cat-treats-skin-coat-pocket-treats-salmon-60g",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Reflex Cat Treats - Skin & Coat Pocket Treats, Salmon. Perfectly sized cat biscuits for training and for rewarding good behaviour. Made with the highest quality ingredients and bursting with flavour. INGREDIENTS: Meat and animal derivatives, cereals (8.75% malt extract), oils and fats, derivatives of vegetable origin, milk and milk derivatives (4% cheese), minerals. NUTRIENT COMPONENTS Crude Protein (%) - 26 Crude Fat (%) - 23 Crude Ash (%) - 7 Crude Fiber (%) - 1 Vitamin A - 1,400 IU Vitamin D3 - 2,100 IU Vitamin E - 79 mg FEEDING RECOMMENDATIONS: Feed as a snack or a treat between the meals. For an adult cat (ca. 4 kg) 6 to 10 pieces per day. This indications are guidelines. Always supply a sufficient amount of fresh drinking water. Once opened keep the package tightly closed. Store in a cool and dry place.",
-  "images": [
-    {
-      "id": 12673,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Cat-Treats-Skin-Coat-Pocket-Treats-Salmon-60g-min.png",
-      "alt": "Reflex Cat Treats - Skin & Coat Pocket Treats, Salmon 60g",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=12673",
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-cat-treats-skin-coat-pocket-treats-salmon-60g/?add-to-cart=12673",
-  "shortDescription": "Reflex Cat Treats - Skin & Coat Pocket Treats, Salmon. Perfectly sized cat biscuits for training and for rewarding good behaviour. Made with the highe",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Cat-Treats-Skin-Coat-Pocket-Treats-Salmon-60g-min.png",
-  "sku": "PSK-12673",
-  "brand": "Reflex",
-  "weight_kg": 0.06,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Cat-Treats-Skin-Coat-Pocket-Treats-Salmon-60g-min.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

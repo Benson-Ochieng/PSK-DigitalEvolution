@@ -3,8 +3,8 @@
   "name": "Pack Of 22: Bonnie Adult Cat Food Pouch - Salmon Chunks in Jelly 85g",
   "slug": "bonnie-adult-cat-food-pouch-salmon-chunks-in-jelly-0-1kg-pack-of-20",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -36,50 +36,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Bonnie Adult Cat Food Pouch - Salmon Chunks in Jelly (Pack of 22) , fully-balanced, salmon protein-containing cat food carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult breeds. NUTRIENT COMPONENTS Crude Protein (%) - 8.5 Crude Oils & Fats (%) - 4,5 Crude Fiber (%) -0.3 Moisture (%) -83 Crude Ash (%) - 2.5 Vitamin E (Min) - 15 mg/kg Vitamin D3 (Min) - 250 IU/kg Copper -1 mg/kg Manganese -1 mg/kg Zinc - 15 mg/kg Biotin - 20 g/kg Taurine - 445 mg/kg INGREDIENTS: Meat & Animal Derivatives (salmon 5%,), minerals, inulin (0.1%).",
-  "images": [
-    {
-      "id": 16998,
-      "src": "https://petstore.co.ke/wp-content/uploads/2019/10/Untitled-design-21.png",
-      "alt": "Pack Of 22: Bonnie Adult Cat Food Pouch - Salmon Chunks in Jelly 85g",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Bonnie",
-      "slug": "bonnie"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=16998",
-  "addToCartUrl": "https://petstore.co.ke/product/bonnie-adult-cat-food-pouch-salmon-chunks-in-jelly-0-1kg-pack-of-20/?add-to-cart=16998",
-  "shortDescription": "Bonnie Adult Cat Food Pouch - Salmon Chunks in Jelly (Pack of 22) , fully-balanced, salmon protein-containing cat food carefully formulated by cat / d",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/10/Untitled-design-21.png",
-  "sku": "PSK-16998",
-  "brand": "Bonnie",
-  "weight_kg": 2,
-  "animal_type": "cat",
-  "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/10/Untitled-design-21.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

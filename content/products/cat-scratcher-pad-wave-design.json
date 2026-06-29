@@ -3,8 +3,8 @@
   "name": "Cat Scratcher Pad - Wave Design",
   "slug": "cat-scratcher-pad-wave-design",
   "onSale": false,
-  "price": 1450,
-  "regularPrice": 1450,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Cat Scratcher Cardboard Scratch Pad. Reversible wave design with Catnip. Ideal for indoor cats. The easiest way to protect your furniture and provide your cat with a place to scratch away. Size 44cm x 21cm x 4cm",
-  "images": [
-    {
-      "id": 20000,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/Cat-Scratcher-CSPW350.jpg",
-      "alt": "Cat Scratcher Pad - Wave Design",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=20000",
-  "addToCartUrl": "https://petstore.co.ke/product/cat-scratcher-pad-wave-design/?add-to-cart=20000",
-  "shortDescription": "Cat Scratcher Cardboard Scratch Pad. Reversible wave design with Catnip. Ideal for indoor cats. The easiest way to protect your furniture and provide ",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/Cat-Scratcher-CSPW350.jpg",
-  "sku": "PSK-20000",
-  "brand": "PetStore Kenya",
-  "weight_kg": 0.4,
-  "animal_type": "cat",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/Cat-Scratcher-CSPW350.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

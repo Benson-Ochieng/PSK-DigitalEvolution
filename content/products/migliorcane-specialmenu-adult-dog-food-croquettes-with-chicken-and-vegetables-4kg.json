@@ -3,8 +3,8 @@
   "name": "Migliorcane Specialmenu Adult Dog Food Croquettes With Chicken And Vegetables 4kg",
   "slug": "migliorcane-specialmenu-adult-dog-food-croquettes-with-chicken-and-vegetables-4kg",
   "onSale": false,
-  "price": 2363,
-  "regularPrice": 2363,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "COMPOSITION: Cereals, meat and animal derivatives 21% (chicken 4%), derivatives of vegetable origin, oil and fats, vegetables 1%, minerals, yeasts. ANALYTICAL CONSTITUENTS: Crude protein 19.00%, Crude fibres 3.50%, Crude Fat 8.00%, Crude ash 8.00%, Calcium 2.5%, Phosphorus 1.8%, Sodium 0.3%, Omega 3 fatty acids 0.3%, Omega 6 fatty acids 1.5%. Nutritional additives /kg: Vitamin A 11090 IU, Vitamin D3 770 IU, Vitamin E 70 mg, Iron (Iron (II) carbonate - siderite) 35.8 mg, Zinc (Zinc oxide) 71 mg, Copper (Copper (II) sulphate pentahydrate) 5.9 mg, Manganese (Manganese (II) oxide) 3.5 mg, Iodine (Potassium iodide) 1.7 mg, Selenium (Sodium selenite) 0.1 mg. Colourants. Antioxidants. HOW TO USE: The product is ready to use. The daily amount recommended may vary due to age or particular needs of every dog. We suggest to switch gradually to the new food. Leave always available to your dog a bowl of pure water. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight.",
-  "images": [
-    {
-      "id": 40831,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MDD006.jpg",
-      "alt": "Migliorcane Specialmenu Adult Dog Food Croquettes With Chicken And Vegetables 4kg",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=40831",
-  "addToCartUrl": "https://petstore.co.ke/product/migliorcane-specialmenu-adult-dog-food-croquettes-with-chicken-and-vegetables-4kg/?add-to-cart=40831",
-  "shortDescription": "COMPOSITION: Cereals, meat and animal derivatives 21% (chicken 4%), derivatives of vegetable origin, oil and fats, vegetables 1%, minerals, yeasts. AN",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MDD006.jpg",
-  "sku": "PSK-40831",
-  "brand": "PetStore Kenya",
-  "weight_kg": 4,
-  "animal_type": "dog",
-  "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MDD006.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

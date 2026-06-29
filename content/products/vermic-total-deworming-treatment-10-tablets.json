@@ -3,8 +3,8 @@
   "name": "Vermic Total Deworming Treatment - 10 Tablets",
   "slug": "vermic-total-deworming-treatment-10-tablets",
   "onSale": false,
-  "price": 1466,
-  "regularPrice": 1466,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,50 +16,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Vermic Total - a wide spectrum anti-endoparasitic (deworming treatment) for adult cats, adult dogs, kittens and puppies. Animals that sniff, lick and eat anything in their paths, including dirt, rubbish and poop are very likely to pick up parasites that could make a home in your pet's gut. Intestinal parasites, like tapeworms, may cause: vomiting, diarrhoea, coughing, chewing or licking under his / her tail, shortness of breath or weight loss. Prevent an infestation by administering Vermic Total every THREE MONTHS. Outdoor cats who hunt are at higher risk of infestation - it may be necessary to deworm monthly. Consult your veterinarian first. FORMULA: Praziquantel???????50.00 mg Pyrantel pamoate???...144.00 mg Febantel?????????150.00 mg Excipients q.s?..??????..1 tablet ADMINISTRATION: give the tablet(s) in one single intake in a piece of meat or other food product, or ground and mixed with the feed. If you choose to grind, be sure that your pet finishes all of his / her food in one go. DOSAGE: 1 tablet per 10 kilos of body weight. For adults, repeat treatment every THREE months. In diagnosed vermin infestations, immediate de-worming must be carried out and, if possible, repeat the treatment three weeks later. In females, before mating and 10 days after labour, in order to reduce infestation in puppies / kittens. Treat puppies / kittens when they are 15 days, 1, 2, 3, 4, 5 and 6 months old. One single dose per treatment recommended, as per below: Animal Size / Weight, Single Dose Cat: up to 5 kg, 1 tablet Dog Miniature (e.g. Pekingese) up to 5 kg, ? tablet Dog Small (e.g. Beagle) 5.1 kg ? 10 kg, 1 tablet Dog Medium (e.g. Dalmatian) 10.1 ? 20 kg, 2 tablets Dog Large (e.g. German Shepherd) 20.1 ? 30 kg, 3 tablets Dog Giant (e.g. Brazilian Fila) 30.1 ? 40 kg, 4 tablets For larger dogs, administer 1 tablet per each 10 kg of live weight",
-  "images": [
-    {
-      "id": 30191,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/08/Vermic-Total-10-Tablets-min-1.png",
-      "alt": "Vermic Total Deworming Treatment - 10 Tablets",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=30191",
-  "addToCartUrl": "https://petstore.co.ke/product/vermic-total-deworming-treatment-10-tablets/?add-to-cart=30191",
-  "shortDescription": "Vermic Total - a wide spectrum anti-endoparasitic (deworming treatment) for adult cats, adult dogs, kittens and puppies. Animals that sniff, lick and ",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/08/Vermic-Total-10-Tablets-min-1.png",
-  "sku": "PSK-30191",
-  "brand": "PetStore Kenya",
-  "weight_kg": 0,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/08/Vermic-Total-10-Tablets-min-1.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

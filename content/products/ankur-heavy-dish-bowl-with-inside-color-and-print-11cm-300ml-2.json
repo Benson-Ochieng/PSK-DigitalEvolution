@@ -3,8 +3,8 @@
   "name": "Ankur Heavy Dish Bowl With Inside Color And Print 11cm (300ml)",
   "slug": "ankur-heavy-dish-bowl-with-inside-color-and-print-11cm-300ml-2",
   "onSale": false,
-  "price": 600,
-  "regularPrice": 600,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -36,50 +36,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Enhance your pet’s dining experience with the ANKUR Heavy Dish Bowl. It’s not just a feeding dish; it’s a stylish and practical addition to your pet’s daily routine. Key Features: Heavy-Duty Design: Crafted with a sturdy, heavy-duty base, this bowl resists tipping and sliding, even during enthusiastic feedings. Ideal for pets who tend to be a bit messy or energetic. Inside Color and Print: Featuring a vibrant interior color and charming prints, this bowl adds a splash of fun to your pet’s mealtime. Pet-Safe Materials: Made from high-quality, non-toxic materials, this bowl is designed with your pet’s health and safety in mind. Easy to Clean: The smooth surface of the bowl makes it easy to clean by hand or in the dishwasher, ensuring convenience for busy pet owners. Generous Capacity: With a 300ml capacity, it’s perfect for larger pets or multiple servings, making it versatile for both meals and hydration.",
-  "images": [
-    {
-      "id": 29353,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-bowl-dish.png",
-      "alt": "Ankur Heavy Dish Bowl With Inside Color And Print 11cm (300ml)",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=29353",
-  "addToCartUrl": "https://petstore.co.ke/product/ankur-heavy-dish-bowl-with-inside-color-and-print-11cm-300ml-2/?add-to-cart=29353",
-  "shortDescription": "Enhance your pet’s dining experience with the ANKUR Heavy Dish Bowl. It’s not just a feeding dish; it’s a stylish and practical addition to your pet’s",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-bowl-dish.png",
-  "sku": "PSK-29353",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-bowl-dish.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

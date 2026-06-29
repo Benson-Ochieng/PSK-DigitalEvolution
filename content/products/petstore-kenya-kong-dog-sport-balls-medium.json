@@ -3,8 +3,8 @@
   "name": "Kong Dog Sport Balls - Medium",
   "slug": "petstore-kenya-kong-dog-sport-balls-medium",
   "onSale": false,
-  "price": 800,
-  "regularPrice": 800,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -41,50 +41,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "KONGSport Balls are better than a tennis ball. Made with extra-thick rubber walls, these toys are tough enough for serious games of fetch. Give them a throw and watch your dog go crazy for these rugged, bouncy balls. Tougher and safer than a tennis ball Extra bouncy for hardy games of fetch No squeaker",
-  "images": [
-    {
-      "id": 16353,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/11/ABS2-3.jpg",
-      "alt": "Kong Dog Sport Balls - Medium",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=16353",
-  "addToCartUrl": "https://petstore.co.ke/product/petstore-kenya-kong-dog-sport-balls-medium/?add-to-cart=16353",
-  "shortDescription": "KONGSport Balls are better than a tennis ball. Made with extra-thick rubber walls, these toys are tough enough for serious games of fetch. Give them a",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/11/ABS2-3.jpg",
-  "sku": "PSK-16353",
-  "brand": "PetStore Kenya",
-  "weight_kg": 0.4,
-  "animal_type": "cat",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/11/ABS2-3.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

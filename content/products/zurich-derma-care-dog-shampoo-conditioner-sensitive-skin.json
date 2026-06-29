@@ -3,8 +3,8 @@
   "name": "Zurich Flea & Tick - Derma Care Dog Shampoo & Conditioner for Sensitive Skin",
   "slug": "zurich-derma-care-dog-shampoo-conditioner-sensitive-skin",
   "onSale": false,
-  "price": 1160,
-  "regularPrice": 1160,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -26,50 +26,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Zurich Flea & Tick Derma Care Dog Shampoo & Conditioner helps to restore moisture to dry and itchy skin and smooth dry and brittle coats. Gentle enough for the most delicate breeds. Use regularly to enhance your dog's coat and discourage fleas and ticks.",
-  "images": [
-    {
-      "id": 1821,
-      "src": "https://petstore.co.ke/wp-content/uploads/2019/04/PetStore-Kenya-Zurich-Pet-Shampoo-Conditioner-Derma-Care1080x1080-min.png",
-      "alt": "Zurich Flea & Tick - Derma Care Dog Shampoo & Conditioner for Sensitive Skin",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=1821",
-  "addToCartUrl": "https://petstore.co.ke/product/zurich-derma-care-dog-shampoo-conditioner-sensitive-skin/?add-to-cart=1821",
-  "shortDescription": "Zurich Flea & Tick Derma Care Dog Shampoo & Conditioner helps to restore moisture to dry and itchy skin and smooth dry and brittle coats. Gentle enoug",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/04/PetStore-Kenya-Zurich-Pet-Shampoo-Conditioner-Derma-Care1080x1080-min.png",
-  "sku": "PSK-1821",
-  "brand": "PetStore Kenya",
-  "weight_kg": 0.5,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/04/PetStore-Kenya-Zurich-Pet-Shampoo-Conditioner-Derma-Care1080x1080-min.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

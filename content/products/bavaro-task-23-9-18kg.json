@@ -3,8 +3,8 @@
   "name": "Bavaro-Task 23/9 18kg",
   "slug": "bavaro-task-23-9-18kg",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Composition: meat and animal by-products, cereals; vegetable by-products; oils and fats; minerals. Protein 23% Fat content 9% Crude fibre 2.7% Crude ash 7.3% Calcium 1.4% Phosphorus 0.7% Metabolisable energy* MJ/kg14.75 Metabolisable energy* kcal/kg3524 Product Details: For working dogs that have light jobs to accomplish, BAVARO Task is the right choice.",
-  "images": [
-    {
-      "id": 23730,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JDBT.jpg",
-      "alt": "Bavaro-Task 23/9 18kg",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=23730",
-  "addToCartUrl": "https://petstore.co.ke/product/bavaro-task-23-9-18kg/?add-to-cart=23730",
-  "shortDescription": "Composition: meat and animal by-products, cereals; vegetable by-products; oils and fats; minerals. Protein 23% Fat content 9% Crude fibre 2.7% Crude a",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JDBT.jpg",
-  "sku": "PSK-23730",
-  "brand": "Josera",
-  "weight_kg": 18,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JDBT.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

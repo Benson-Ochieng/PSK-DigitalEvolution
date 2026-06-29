@@ -3,8 +3,8 @@
   "name": "KONG Classic Large",
   "slug": "kong-classic-large",
   "onSale": false,
-  "price": 1800,
-  "regularPrice": 1800,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -36,50 +36,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "The KONGClassic is the gold standard of dog toys and has become the staple for dogs around the world for over forty years. Offering enrichment by helping satisfy dogs? instinctual needs, the KONGClassic?s unique natural red rubber formula is ultra-durable with an erratic bounce that is ideal for dogs that like to chew while also fulfilling a dog?s need to play. Want to extend playtime? Be sure to stuff with tempting bits of kibble and entice with a dash of peanut butter. Add to the fun by adding KONGSnacks and topping with KONGEasy Treat. Mentally stimulating toy; offering enrichment by helping satisfy dogs? instinctual needs KONGclassic red rubber formula for average chewers Unpredictable bounce for games of fetch Great for stuffing with KONGEasy Treat; Snacks or Ziggies Recommended by veterinarians and trainers worldwide Natural rubber Made in the USA. Globally Sourced Materials",
-  "images": [
-    {
-      "id": 16563,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/12/Kong-Classic-Large.png",
-      "alt": "KONG Classic Large",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=16563",
-  "addToCartUrl": "https://petstore.co.ke/product/kong-classic-large/?add-to-cart=16563",
-  "shortDescription": "The KONGClassic is the gold standard of dog toys and has become the staple for dogs around the world for over forty years. Offering enrichment by help",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/12/Kong-Classic-Large.png",
-  "sku": "PSK-16563",
-  "brand": "PetStore Kenya",
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/12/Kong-Classic-Large.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

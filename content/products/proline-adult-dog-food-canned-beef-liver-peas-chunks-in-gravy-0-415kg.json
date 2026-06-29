@@ -3,8 +3,8 @@
   "name": "Proline Adult Dog Food Canned Beef, Liver & Peas Chunks in Gravy 415g",
   "slug": "proline-adult-dog-food-canned-beef-liver-peas-chunks-in-gravy-0-415kg",
   "onSale": false,
-  "price": 257,
-  "regularPrice": 257,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -41,50 +41,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Proline Adult Dog Food Canned - Beef Chunks in Gravy , fully balanced all-natural dog food with beef, liver & peas protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult dogs. NUTRIENT COMPONENTS Protein ...........................................7% Fat .................................................. 4% Crude Ash ......................................... 2% Crude Cellulose (Fiber)....................0.3% Moisture ...........................................82% INGREDIENTS: Meat and animal derivatives (4% beef, 4% liver), cereals, minerals, vegetable by-products, sugar. MINERALS: Zinc, Manganese, Copper. VITAMINS: Vit. D3, Vit. E.",
-  "images": [
-    {
-      "id": 12873,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/04/Proline-Adult-Dog-Food-Canned-Beef-Liver-Peas-Chunks-in-Gravy-415g-min.png",
-      "alt": "Proline Adult Dog Food Canned Beef, Liver & Peas Chunks in Gravy 415g",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Proline",
-      "slug": "proline"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=12873",
-  "addToCartUrl": "https://petstore.co.ke/product/proline-adult-dog-food-canned-beef-liver-peas-chunks-in-gravy-0-415kg/?add-to-cart=12873",
-  "shortDescription": "Proline Adult Dog Food Canned - Beef Chunks in Gravy , fully balanced all-natural dog food with beef, liver & peas protein. Carefully formulated by ca",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/04/Proline-Adult-Dog-Food-Canned-Beef-Liver-Peas-Chunks-in-Gravy-415g-min.png",
-  "sku": "PSK-12873",
-  "brand": "Proline",
-  "weight_kg": 0.42,
-  "animal_type": "dog",
-  "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/04/Proline-Adult-Dog-Food-Canned-Beef-Liver-Peas-Chunks-in-Gravy-415g-min.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

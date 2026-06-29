@@ -3,8 +3,8 @@
   "name": "Royal Canin Canine Renal Select 10kg",
   "slug": "canine-renal-select-10kg",
   "onSale": false,
-  "price": 17850,
-  "regularPrice": 17850,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "ROYAL CANIN? Renal is scientifically formulated to support renal function in cases of chronic kidney disease. Recommendations: It is recommended that a veterinarian?s opinion be sought before use or before extending the period of use. Initially feed Renal dry for up to 6 months in cases of chronic renal insufficiency. Recommended in cases of: Azotemic Chronic Kidney Disease (IRIS stage 2 to stage 4), Chronic Kidney Disease with proteinuria (IRIS stage 1 to 4). Not recommended in case of: growth, gestation and lactation. This diet is complete and balanced and can be fed long-term. A full health check should be performed by a veterinarian every 6 months. Composition: Rice, maize flour, animal fats, maize gluten, maize, hydrolysed animal proteins, beet pulp, wheat gluten**, minerals, fish oil, vegetable fibres, soya oil, psyllium husks and seeds, fructo-oligosaccharides, mono - and diglycerides of palmitic and stearic acids esterified with citric acid, marigold extract (source of lutein). Protein sources: maize gluten, hydrolysed animal proteins, wheat gluten**. ** L.I.P.: protein selected for its very high digestibility. Additives: Vitamin A: 15500 IU, Vitamin D3: 1000 IU, Iron: 40 mg, Iodine : 4 mg, Copper: 12 mg, Manganese: 52 mg, Zinc: 156 mg, Selenium: 0.05 mg - Technological additives: Clinoptilolite of sedimentary origin: 5 g - Preservatives - Antioxidants. Analytical constituants: Protein: 14.0% - Fat content: 18.0% - Crude ash: 4.0% - Crude fibres: 2.4% - Calcium: 0.4% - Phosphorus: 0.2% - Potassium: 0.6% - Sodium: 0.35% - Essential Fatty Acids (Linoleic Acid): 4% - EPA/DHA: 0.47%. Metabolisable energy: 398.40 kcal/ 100g.",
-  "images": [
-    {
-      "id": 23670,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-VHND-072.jpg",
-      "alt": "Royal Canin Canine Renal Select 10kg",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Royal Canin",
-      "slug": "royal-canin"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=23670",
-  "addToCartUrl": "https://petstore.co.ke/product/canine-renal-select-10kg/?add-to-cart=23670",
-  "shortDescription": "ROYAL CANIN? Renal is scientifically formulated to support renal function in cases of chronic kidney disease. Recommendations: It is recommended that ",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-VHND-072.jpg",
-  "sku": "PSK-23670",
-  "brand": "Royal Canin",
-  "weight_kg": 10,
-  "animal_type": "dog",
-  "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-VHND-072.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

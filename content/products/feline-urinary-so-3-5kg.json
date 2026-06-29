@@ -3,8 +3,8 @@
   "name": "Royal Canin Feline Urinary SO 3.5kg",
   "slug": "feline-urinary-so-3-5kg",
   "onSale": false,
-  "price": 7530,
-  "regularPrice": 7530,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "ROYAL CANIN? Urinary S/O is for the nutritional management of cats with struvite or oxalate crystals and lower urinary tract disease. Recommended for (indications): Struvite uroliths: dissolution and management of recurrence, Calcium oxalate uroliths: management of recurrence. Not recommended for (contraindications): Chronic Kidney Disease (CKD), Heart disease (when sodium restriction is sought), Concurrent use of urine-acidifying drugs, Growth, gestation, lactation, Hypertension. In older cats and dogs, it is recommended renal function be checked before Urinary S/O is prescribed. This diet is complete and balanced and can be fed long-term. A full health check should be performed by a veterinarian every 6 months. Composition: Rice, wheat gluten*, dehydrated poultry protein, maize flour, animal fats, hydrolysed animal proteins, minerals, vegetable fibres, maize gluten, fish oil, soya oil, fructo-oligosaccharides, marigold extract (source of lutein), wheat flour. *L.I.P.: protein selected for its very high digestibility. Additives (per kg): Nutritional additives: Vitamin A: 21000 IU, Vitamin D3: 800 IU, E1 (Iron): 34mg, E2 (Iodine): 3.4mg, E4 (Copper): 10mg, E5 (Manganese): 44mg, E6 (Zinc): 150mg, E8 (Selenium): 0.05mg. Preservatives ? Antioxidants. Analytical constituants: Proteins: 34.5%, Fat content: 15%, Crude fibre: 2.9%, Calcium: 0.9%, Omega 6: 3.18%, Omega 3: 0.82%, EPA + DHA: 0.36%, Dietary fibre: 6.9%, Carbohydrates (Starch): 33.2%. Metabolisable energy: 387kcal/100g.",
-  "images": [
-    {
-      "id": 23665,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-VHNC-011.jpg",
-      "alt": "Royal Canin Feline Urinary SO 3.5kg",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Royal Canin",
-      "slug": "royal-canin"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=23665",
-  "addToCartUrl": "https://petstore.co.ke/product/feline-urinary-so-3-5kg/?add-to-cart=23665",
-  "shortDescription": "ROYAL CANIN? Urinary S/O is for the nutritional management of cats with struvite or oxalate crystals and lower urinary tract disease. Recommended for ",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-VHNC-011.jpg",
-  "sku": "PSK-23665",
-  "brand": "Royal Canin",
-  "weight_kg": 3.5,
-  "animal_type": "cat",
-  "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-VHNC-011.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

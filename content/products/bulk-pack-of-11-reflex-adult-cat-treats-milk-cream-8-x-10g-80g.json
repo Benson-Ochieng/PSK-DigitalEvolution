@@ -3,8 +3,8 @@
   "name": "Bulk pack of 11: Reflex Adult Cat Treats - Milk Cream (8 x 10g) 80g",
   "slug": "bulk-pack-of-11-reflex-adult-cat-treats-milk-cream-8-x-10g-80g",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -36,50 +36,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Bulk pack of 11 boxes of Reflex Cat Treats - Milk Cream, extremely satisfying liquid snacks for your cat. No artificial colours, flavours or preservatives. Reward good behaviour with these fun and delicious treats made with the highest quality ingredients and bursting with flavour. Pack of 8 snacks. INGREDIENTS: milk and dairy products (min. 4% milk), vegetable by-products, inulin(0,1%). NUTRIENT COMPONENTS Crude Protein (%) - 2 Crude Fat (%) - 9 Crude Ash (%) -1 Crude Fiber (%) - 0.5 Moisture (%) - 83 Taurin (mg) 445 FEEDING RECOMMENDATIONS: This milk cream can be given as a dessert or as an everyday treat. You can use a spoon on which you are offering the cream in several small portions.",
-  "images": [
-    {
-      "id": 20476,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/02/Reflex-Adult-Cat-Treats-Milk-Cream-80g-min.png",
-      "alt": "Bulk pack of 11: Reflex Adult Cat Treats - Milk Cream (8 x 10g) 80g",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=20476",
-  "addToCartUrl": "https://petstore.co.ke/product/bulk-pack-of-11-reflex-adult-cat-treats-milk-cream-8-x-10g-80g/?add-to-cart=20476",
-  "shortDescription": "Bulk pack of 11 boxes of Reflex Cat Treats - Milk Cream, extremely satisfying liquid snacks for your cat. No artificial colours, flavours or preservat",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/02/Reflex-Adult-Cat-Treats-Milk-Cream-80g-min.png",
-  "sku": "PSK-20476",
-  "brand": "Reflex",
-  "weight_kg": 0.8,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/02/Reflex-Adult-Cat-Treats-Milk-Cream-80g-min.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

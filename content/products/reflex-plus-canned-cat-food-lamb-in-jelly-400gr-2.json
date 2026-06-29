@@ -3,8 +3,8 @@
   "name": "SHORT EXPIRY-CLEARANCE: Reflex Plus Canned Cat Food Lamb in Jelly 400g",
   "slug": "reflex-plus-canned-cat-food-lamb-in-jelly-400gr-2",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Fully balanced, lamb protein containing canned (wet) cat food carefully formulated by cat nutritionists to meet the nutritional requirements of all adult breeds.",
-  "images": [
-    {
-      "id": 39455,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/RPCCFLLJ0.4.jpg",
-      "alt": "SHORT EXPIRY-CLEARANCE: Reflex Plus Canned Cat Food Lamb in Jelly 400g",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=39455",
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-canned-cat-food-lamb-in-jelly-400gr-2/?add-to-cart=39455",
-  "shortDescription": "Fully balanced, lamb protein containing canned (wet) cat food carefully formulated by cat nutritionists to meet the nutritional requirements of all ad",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/RPCCFLLJ0.4.jpg",
-  "sku": "PSK-39455",
-  "brand": "Reflex",
-  "weight_kg": 0.4,
-  "animal_type": "cat",
-  "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/RPCCFLLJ0.4.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

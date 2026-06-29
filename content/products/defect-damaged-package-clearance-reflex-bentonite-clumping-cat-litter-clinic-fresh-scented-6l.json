@@ -3,8 +3,8 @@
   "name": "DEFECT / DAMAGED PACKAGE - CLEARANCE: Reflex Bentonite Clumping Cat Litter Clinic Fresh Scented 6L",
   "slug": "defect-damaged-package-clearance-reflex-bentonite-clumping-cat-litter-clinic-fresh-scented-6l",
   "onSale": false,
-  "price": 1358,
-  "regularPrice": 1358,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -41,50 +41,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "100% natural bentonite cat litter highly capable of liquid absorption, ideally clumping, through compact granule size, it does not stick to your cat?s paws and thus does not spread over the litter box. Biological organisms, when in contact with cat urine or feces, can invite many diseases for both our cats and us animal lovers. Thanks to the \"specially formulated particles\" added to the product, Reflex Clinic Cat Litter helps to prevent biological organism-based diseases that may occur with the urine and feces of cats that are fed and sheltered in home and indoor environments.",
-  "images": [
-    {
-      "id": 31342,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/08/Reflex-Clinic-Cat-litter.png",
-      "alt": "DEFECT / DAMAGED PACKAGE - CLEARANCE: Reflex Bentonite Clumping Cat Litter Clinic Fresh Scented 6L",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=31342",
-  "addToCartUrl": "https://petstore.co.ke/product/defect-damaged-package-clearance-reflex-bentonite-clumping-cat-litter-clinic-fresh-scented-6l/?add-to-cart=31342",
-  "shortDescription": "100% natural bentonite cat litter highly capable of liquid absorption, ideally clumping, through compact granule size, it does not stick to your cat?s",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/08/Reflex-Clinic-Cat-litter.png",
-  "sku": "PSK-31342",
-  "brand": "Reflex",
-  "weight_kg": 6,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/08/Reflex-Clinic-Cat-litter.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

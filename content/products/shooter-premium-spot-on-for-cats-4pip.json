@@ -3,8 +3,8 @@
   "name": "Shooter Premium Spot On for Cats (up to 10kg) - (4 Pip)",
   "slug": "shooter-premium-spot-on-for-cats-4pip",
   "onSale": false,
-  "price": 850,
-  "regularPrice": 850,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Shooter Premium Spot-on for Cats is used against fleas and lice. With environmental effect, it decreases the fleas in the pet?s environment.?Pet ecto-paracsiticide against fleas, lice and ticks; plus decreases fleas in environment. Contains Fipronil 10gm, Imidacloprid 10gm, Fenoxycarb 0.6gm per 100ml) - For Cats Route of administration: Topic use, spot on. Apply separating the hair, on the dorsal midline, behind the base of the neck in such way that the product goes into direct contact with the skin. The product action protects against fleas for 30 days. This period may vary according to the degree of infestation, propitious environmental circumstances, bath frequency, etc. Consult the veterinary for a correct use of the product. Precautions: Do not administer to kitten younger than 2 months old. It is not recommended to bathe the animal 48 hours before or after application. If product enters into contact with eyes or mouth membranes of the animals, rinse abundantly with water. Do not apply on areas where the skin has lesions or irritation.",
-  "images": [
-    {
-      "id": 24059,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/12/SPC.jpg",
-      "alt": "Shooter Premium Spot On for Cats (up to 10kg) - (4 Pip)",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=24059",
-  "addToCartUrl": "https://petstore.co.ke/product/shooter-premium-spot-on-for-cats-4pip/?add-to-cart=24059",
-  "shortDescription": "Shooter Premium Spot-on for Cats is used against fleas and lice. With environmental effect, it decreases the fleas in the pet?s environment.?Pet ecto-",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/SPC.jpg",
-  "sku": "PSK-24059",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/12/SPC.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

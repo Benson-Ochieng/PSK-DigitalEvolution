@@ -3,8 +3,8 @@
   "name": "Migliorgatto Cat Bundle",
   "slug": "migliorgatto-cat-bundle",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -26,50 +26,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "1 Pc Migliorgatto Adult Cat Food Chicken and Turkey 2kg 4 Pcs Migliorgatto Cat Alutray Lamb and Liver 100Gr 4 Pcs Migliorgatto Canned Cat Food Poultry and Carrots 405Gr",
-  "images": [
-    {
-      "id": 33787,
-      "src": "/images/psk_logo.png",
-      "alt": "Migliorgatto Cat Bundle",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=33787",
-  "addToCartUrl": "https://petstore.co.ke/product/migliorgatto-cat-bundle/?add-to-cart=33787",
-  "shortDescription": "1 Pc Migliorgatto Adult Cat Food Chicken and Turkey 2kg 4 Pcs Migliorgatto Cat Alutray Lamb and Liver 100Gr 4 Pcs Migliorgatto Canned Cat Food Poultry",
-  "thumbnail": "/images/psk_logo.png",
-  "sku": "PSK-33787",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "wet",
-  "image_url": "/images/psk_logo.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

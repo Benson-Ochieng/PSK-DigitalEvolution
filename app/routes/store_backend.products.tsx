@@ -73,8 +73,7 @@ export async function loader({ request }: { request: Request }) {
     }
   }
 
-  const { getMediaAssets, syncMediaAssets } = await import("~/lib/media.server");
-  await syncMediaAssets().catch(() => { });
+  const { getMediaAssets } = await import("~/lib/media.server");
   const mediaAssets = await getMediaAssets();
 
   return { allProducts, allCategories, allReviews, editingProductDetails, allBrands, allTags, allAttributes, mediaAssets, origin: url.origin };
@@ -1222,6 +1221,17 @@ export async function action({ request }: { request: Request }) {
     return { success: true };
   }
 
+  // MEDIA SYNC ACTION — only runs when explicitly requested via button
+  if (intent === "sync_media") {
+    const { requireAdminUser } = await import("~/lib/sessions.server");
+    await requireAdminUser(request);
+    const { syncMediaAssets } = await import("~/lib/media.server");
+    await syncMediaAssets().catch(err => console.error("Manual media sync error:", err));
+    const { logHistoryEvent } = await import("~/lib/content.server");
+    logHistoryEvent("Admin", "Media Synced", "Manually triggered media asset synchronisation with products", "🔄");
+    return { syncSuccess: true };
+  }
+
   return null;
 }
 
@@ -2151,8 +2161,45 @@ export default function VpBackendProducts() {
               <button type="button" className="btn-action-secondary" style={{ padding: "4px 12px", fontSize: "12px", height: "30px", display: "flex", alignItems: "center" }} onClick={() => alert("CSV Import utility ready")}>Import</button>
               <a href="?export=csv" download="products-export.csv" className="btn-action-secondary" style={{ padding: "4px 12px", fontSize: "12px", height: "30px", display: "flex", alignItems: "center", textDecoration: "none", color: "#fff", borderColor: "rgba(255,255,255,0.15)" }}>Export</a>
               <button type="button" className="btn-action-secondary" style={{ padding: "4px 12px", fontSize: "12px", height: "30px", display: "flex", alignItems: "center" }} onClick={() => alert("Spreadsheet bulk editor ready")}>Open in a Spreadsheet</button>
+              {/* Manual Media Sync button — replaces the old automatic on-load sync */}
+              <Form method="post" style={{ display: "inline" }}>
+                <input type="hidden" name="intent" value="sync_media" />
+                <button
+                  type="submit"
+                  disabled={navigation.state === "submitting" && navigation.formData?.get("intent") === "sync_media"}
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "6px",
+                    padding: "4px 12px",
+                    fontSize: "12px",
+                    height: "30px",
+                    background: "rgba(71, 47, 143, 0.15)",
+                    border: "1px solid rgba(71, 47, 143, 0.4)",
+                    borderRadius: "6px",
+                    color: "#a78bfa",
+                    cursor: navigation.state === "submitting" ? "wait" : "pointer",
+                    fontFamily: "inherit",
+                    transition: "all 0.2s ease",
+                    opacity: navigation.state === "submitting" && navigation.formData?.get("intent") === "sync_media" ? 0.6 : 1,
+                  }}
+                >
+                  {navigation.state === "submitting" && navigation.formData?.get("intent") === "sync_media" ? (
+                    <>
+                      <span style={{ display: "inline-block", animation: "spin 1s linear infinite", fontSize: "11px" }}>⟳</span>
+                      Syncing…
+                    </>
+                  ) : (
+                    <>
+                      <span style={{ fontSize: "11px" }}>🔄</span>
+                      Sync Media
+                    </>
+                  )}
+                </button>
+              </Form>
             </div>
           </div>
+          <style>{`@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }`}</style>
 
           {/* Search and Catalog Filter Controls */}
           {/* Search and Status links row */}

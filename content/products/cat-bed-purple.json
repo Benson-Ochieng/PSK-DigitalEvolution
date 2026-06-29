@@ -3,8 +3,8 @@
   "name": "Cat Bed - Purple",
   "slug": "cat-bed-purple",
   "onSale": false,
-  "price": 3364,
-  "regularPrice": 3364,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Circular and fluffy cat bed - purple.",
-  "images": [
-    {
-      "id": 23905,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/12/Cat-beds-02.jpg",
-      "alt": "Cat Bed - Purple",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=23905",
-  "addToCartUrl": "https://petstore.co.ke/product/cat-bed-purple/?add-to-cart=23905",
-  "shortDescription": "Circular and fluffy cat bed - purple.",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Cat-beds-02.jpg",
-  "sku": "PSK-23905",
-  "brand": "PetStore Kenya",
-  "weight_kg": 5,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/12/Cat-beds-02.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

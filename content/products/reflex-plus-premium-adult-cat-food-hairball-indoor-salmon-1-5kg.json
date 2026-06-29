@@ -3,8 +3,8 @@
   "name": "Reflex Plus Premium Adult Cat Food - Hairball & Indoor Salmon 1.5kg",
   "slug": "reflex-plus-premium-adult-cat-food-hairball-indoor-salmon-1-5kg",
   "onSale": false,
-  "price": 2340,
-  "regularPrice": 2340,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,50 +16,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Reflex Plus Adult Cat - Hairball & Indoor Salmon is a premium cat food for all adult breeds (over 12 months old) prone to hairballs, like long-haired breeds and indoor cats. With salmon protein and psyllium husk to help pass digested hairballs, formulated by cat / dog nutritionists to meet your cat?s daily nutritional needs. Nature miraculously provided omega 3 & 6 balance using flaxseed . Yucca plant provides ammonia odour control, increases the absorption of nutrients. The immune system is strengthened, animals grow and performance improves. Good intestinal health and performance are achieved with pathogen-binding mannan oligosaccharide , immunogenic beta-glucans , and CitriStim , an immune-boosting yeast source. Brewer's yeast is used for healthy skin and shiny coat. Enriched with vitamins and minerals . &nbsp; Ingredients: Salmon Proteins (dehydrated), Animal Proteins (dehydrated), Corn, Chicken Fat, Rice, Sugar Cane Fibre, Beet Pulp, Hydrolysed Fish Proteins, Salmon Oil, Xylo-Oligosaccharides, Brewer?s Yeast, Psyllium, Salt, Yucca Schidigera, L-Carnitine, Preservatives, Antioxidants. Minerals: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Iron, Selenium. Vitamins: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (Niacin) - B6 - B12 - B7 (Biotin) - B9 (Folic Acid), Vit. K, Choline, Calcium Pantothene. NUTRIENT COMPONENTS Raw Protein ....................... 34% Crude Fat...................................... 14% Crude Ash. ............................. 8% Crude Cellulose (Fiber) ........ 5% FEEDING INGREDIENTS Vitamin A (E672) ........ 18,000 IU / kg Vitamin D3 (E671) ................................ 1,500 IU / kg Vitamin E (3a700) ) .............................200 mg / kg Vitamin C (Stay C) ................................ 200 mg / kg Taurine .......................................... 1,500 mg / kg &nbsp; Feeding Suggestions The amount of food to be given per day may vary depending on the outdoor temperature, the living conditions (inside / outside the home), the character and activity of your cat. It is important to weigh the amount of food so that your cat can be an ideal weight. When adjusting the amount of food, it will be helpful to evaluate your cat's appetite, appearance and odour. Additional Tips Transition from one food to another must be made progressively by feeding small amounts of both foods for one week after mixing. Click here for instructions. Always keep clean and fresh water near the food bowl. Change it at least once a day. Store the product in a dry and cool place, and be sure to close the packaging thoroughly after each use.",
-  "images": [
-    {
-      "id": 40857,
-      "src": "https://petstore.co.ke/wp-content/uploads/2019/10/PetStore-Kenya-Reflex-Plus-Cat-Hairball-min.png",
-      "alt": "Reflex Plus Premium Adult Cat Food - Hairball & Indoor Salmon 1.5kg",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=40857",
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-premium-adult-cat-food-hairball-indoor-salmon-1-5kg/?add-to-cart=40857",
-  "shortDescription": "Reflex Plus Adult Cat - Hairball & Indoor Salmon is a premium cat food for all adult breeds (over 12 months old) prone to hairballs, like long-haired ",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/10/PetStore-Kenya-Reflex-Plus-Cat-Hairball-min.png",
-  "sku": "PSK-40857",
-  "brand": "Reflex",
-  "weight_kg": 1.5,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/10/PetStore-Kenya-Reflex-Plus-Cat-Hairball-min.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

@@ -3,8 +3,8 @@
   "name": "Montego Classic Kitten - Chicken 1kg",
   "slug": "montego-classic-kitten-chicken-1kg",
   "onSale": false,
-  "price": 1550,
-  "regularPrice": 1550,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -41,50 +41,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Montego Classic Kitten Food is a complete and balanced diet for cats under the age of 12 months. It contains no artificial flavors or colorants and is specifically formulated for kittens and pregnant or lactating cats. Features Montego Classic Kitten is a highly digestible food with calcium and minerals to support strong teeth and bone growth. The high-quality proteins derived from chicken and fish help to build healthy bodies. Montego Classic Kitten has taurine in the mix, which helps support good eyesight and a healthy heart function. Contains L-Lysine (an essential amino acid) for healthy growth and bone development, L-Carnitine for increased fat metabolism and enhanced endurance, and DL-Methionine for Keratin (hair protein) synthesis. DHA (an essential fatty acid that kittens get from their mother’s milk) and Choline support healthy cognitive and retinal development. The right combination of proteins and fats will help your little kitten to develop healthy organs. 3% Fiber for digestive health: The combination of high-quality, natural sources of both soluble and insoluble fibers promotes optimal nutrient absorption and digestive health. The right amount of essential fatty acids and zinc supports healthy skin and coat. Encapsulated fatty acids are added to the formulation to ensure that the stool Oduors and flatulence are reduced to a minimum. Balanced nutrition with antioxidants supplements a healthy immune system. Contains the right amount of calories for proper body growth. The kibbles are kitten-sized and are easy to chew. Contains highly digestible ingredients that enable your kitten to receive optimal nutrition. Ingredients Rice, chicken meal (natural source of Taurine), corn gluten*, deboned chicken, chicken liver, chicken fat, beet pulp, brewer’s yeast, salmon oil, inulin, fish oil, salt, acidifiers, minerals and vitamins, encapsulated fatty acids and amino acids. Additives (/kg): Nutritional: Vitamin A 15 000 IU, Vitamin D3 1 500 IU, Vitamin E 125 IU, Vitamin C 100 IU, potassium chloride 5.5 g, zinc hydroxychloride 45 mg, copper chloride 2 mg, potassium iodide 1 mg and sodium selenite 0.1 mg; Preservatives: Approved antioxidants; Sensory: Palatability meat-based enhancers. Feeding Guidelines DAILY FEEDING GUIDE Age of Kitten (kg) Grams/Day 1 – 2 months 30 – 50 g 2 – 6 months 50 – 60 g 6 – 12 months 60 – 70 g",
-  "images": [
-    {
-      "id": 56678,
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/MONC_06_43898937082074_8e2b0869-f14d-413b-8384-f5cb35380682.webp",
-      "alt": "Montego Classic Kitten - Chicken 1kg",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Montego",
-      "slug": "montego"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/product/montego-classic-kitten-chicken-1kg/",
-  "addToCartUrl": "https://petstore.co.ke/product/montego-classic-kitten-chicken-1kg/?add-to-cart=56678",
-  "shortDescription": "Montego Classic Kitten Food is a complete and balanced diet for cats under the age of 12 months. It contains no artificial flavors or colorants and is",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/MONC_06_43898937082074_8e2b0869-f14d-413b-8384-f5cb35380682.webp",
-  "sku": "PSK-56678",
-  "brand": "Montego",
-  "weight_kg": 1,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/MONC_06_43898937082074_8e2b0869-f14d-413b-8384-f5cb35380682.webp",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

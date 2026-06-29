@@ -3,8 +3,8 @@
   "name": "Migliorcane Dog Bundle",
   "slug": "migliorcane-dog-bundle",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -36,50 +36,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "1Pc Migliorcane Adult Dog Food Active 4Kg 2Pcs Reflex Dog Treats Duck Sausages 80Gr 2Pcs Reflex Dog Treats Chicken Drumsticks 80Gr 4Pcs Migliorcane Canned Dog Food Game 405Gr",
-  "images": [
-    {
-      "id": 33793,
-      "src": "/images/psk_logo.png",
-      "alt": "Migliorcane Dog Bundle",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=33793",
-  "addToCartUrl": "https://petstore.co.ke/product/migliorcane-dog-bundle/?add-to-cart=33793",
-  "shortDescription": "1Pc Migliorcane Adult Dog Food Active 4Kg 2Pcs Reflex Dog Treats Duck Sausages 80Gr 2Pcs Reflex Dog Treats Chicken Drumsticks 80Gr 4Pcs Migliorcane Ca",
-  "thumbnail": "/images/psk_logo.png",
-  "sku": "PSK-33793",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "wet",
-  "image_url": "/images/psk_logo.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

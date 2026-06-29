@@ -3,8 +3,8 @@
   "name": "DEFECT/DAMAGED PACKAGE CLEARANCE: Unique Veterinary Prescription Diet Adult Dog Urinary Chicken & Egg & Rice 12kg",
   "slug": "defect-damaged-package-clearance-unique-veterinary-prescription-diet-adult-dog-urinary-chicken-egg-rice-12kg",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "How it works: - Preventing the formation of urinary tract stones with optimal urine PH (6.4-6.6) , -Urine acidifying properties and low magnesium level (0.04%), - Quality and hydrolyzed protein sources, - Composition containing organic trace elements, - Dried algae (Omega-3 and vitamin source), - Cranberry (Optimum kidney health) Ingredients:? Dehydrated Egg, Brown Rice, Chicken Protein, Pea, Sugar Beet Pulp, Corn Gluten Meal, Chicken Oil, Fish Oil, Hydrolyzed Chicken Liver, Sodium Chlorite, Vitamin and Mineral Premix, Natural Flavors, Probiotic, Dried Algae, Calcium Sulphate, Cranberry, MOS,-Glucan, Tocopherol, Yucca, Wild Sea buckthorn. Raw Material Components Raw Protein 21.18% Raw oil 13.80% Raw Cellulose (Fiber) 3.48% Ash 5.33% Moisture 4.09% Omega-3 0.68% Omega 6 2.30% Calcium 0.71% Phosphorus 0.41% Sodium 0.27% Magnesium 0.044% Potassium 0.40% chloride 0.55% Urine Acidifying Substances -Sodium Chlorite 1.00% -Calcium Sulphate 0.40% -Methionine 8000mg/kg Does not contain sulfur dioxide Nutritional Supplements Vitamin A (3a672a) 20,000 IU/kg Vitamin D 3 (E671) 1,000 IU/kg Vitamin E (3a700) 1.000 mg/kg Vitamin C (3a312) 500mg/kg Choline Chloride (3a890) 2.300 mg/kg Biotin (3a880) 2.4 mg/kg Vitamin B 1 (3a821) 11mg/kg Vitamin B2 10mg/kg Niacinamide (3a315) 55mg/kg Calcium-D-Panthothenate (3a841) 25mg/kg Vitamin B 6 (3a831) 7.0 mg/kg Folic Acid (3a316) 5.0 mg/kg Vitamin B 12 0.17 mg/kg Zinc Chelate of Amino Acids Hydrate (3b606) 140mg/kg Ferrous Chelate of Amino Acids Hydrate (E1) 45mg/kg Manganese Chelate of Amino Acids Hydrate (E5) 60mg/kg Potassium Iodide (3b201) 3,5 mg/kg Cupric Chelate of Amino Acids Hydrate (E4) 5.0 mg/kg Organic Form of Selenium (3b8.10) 0.2mg/kg Taurine (3a370) 2.300 mg/kg L-Carnitine (3a910) 300mg/kg Probiotic (B. Amyloliquefaciens) 7 x 10 14 /kg &nbsp;",
-  "images": [
-    {
-      "id": 39199,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/03/UDD014.jpg",
-      "alt": "DEFECT/DAMAGED PACKAGE CLEARANCE: Unique Veterinary Prescription Diet Adult Dog Urinary Chicken & Egg & Rice 12kg",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Unique",
-      "slug": "unique"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=39199",
-  "addToCartUrl": "https://petstore.co.ke/product/defect-damaged-package-clearance-unique-veterinary-prescription-diet-adult-dog-urinary-chicken-egg-rice-12kg/?add-to-cart=39199",
-  "shortDescription": "How it works: - Preventing the formation of urinary tract stones with optimal urine PH (6.4-6.6) , -Urine acidifying properties and low magnesium leve",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/03/UDD014.jpg",
-  "sku": "PSK-39199",
-  "brand": "Unique",
-  "weight_kg": 12,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/03/UDD014.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

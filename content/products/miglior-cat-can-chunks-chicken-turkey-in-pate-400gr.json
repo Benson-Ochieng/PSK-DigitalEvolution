@@ -3,8 +3,8 @@
   "name": "Miglior Cat Can Chicken & Turkey Pate 400g",
   "slug": "miglior-cat-can-chunks-chicken-turkey-in-pate-400gr",
   "onSale": false,
-  "price": 224,
-  "regularPrice": 224,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,50 +16,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Meat and animal derivatives 50%, Chicken, 5%, Salmon5%, cereals, Fish and fish derivatives, Minerals. ANALYTICAL CONSTITUENTS: Moisture 77%, Crude protein 10%, Crude fat 6%, Crude fibers 0.5%, Crude ash 3%. Nutritional additives / kg: Vitamin E 10 mg, Copper (Copper (II) sulphate pentahydrate) 2 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight. Once opened, store in refrigerator for 2-3 days.",
-  "images": [
-    {
-      "id": 40827,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/01/MIGLIOR-GATTO-CON-POLLO-E-TACCHINO-IN-PATE-400G.jpg",
-      "alt": "Miglior Cat Can Chicken & Turkey Pate 400g",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=40827",
-  "addToCartUrl": "https://petstore.co.ke/product/miglior-cat-can-chunks-chicken-turkey-in-pate-400gr/?add-to-cart=40827",
-  "shortDescription": "Meat and animal derivatives 50%, Chicken, 5%, Salmon5%, cereals, Fish and fish derivatives, Minerals. ANALYTICAL CONSTITUENTS: Moisture 77%, Crude pro",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/01/MIGLIOR-GATTO-CON-POLLO-E-TACCHINO-IN-PATE-400G.jpg",
-  "sku": "PSK-40827",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/01/MIGLIOR-GATTO-CON-POLLO-E-TACCHINO-IN-PATE-400G.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

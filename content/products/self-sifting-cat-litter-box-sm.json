@@ -3,8 +3,8 @@
   "name": "Self Sifting Cat Litter Box (Sm)",
   "slug": "self-sifting-cat-litter-box-sm",
   "onSale": false,
-  "price": 3000,
-  "regularPrice": 3000,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,50 +16,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "3 Tray Self Sifting Cat Litter Box Products features: With safe and environmentally friendly PP material Big capacity, not easy to spill out Easy to clean and very durable",
-  "images": [
-    {
-      "id": 38269,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/07/selfsiftingcatlitter1.jpg",
-      "alt": "Self Sifting Cat Litter Box (Sm)",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=38269",
-  "addToCartUrl": "https://petstore.co.ke/product/self-sifting-cat-litter-box-sm/?add-to-cart=38269",
-  "shortDescription": "3 Tray Self Sifting Cat Litter Box Products features: With safe and environmentally friendly PP material Big capacity, not easy to spill out Easy to c",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/07/selfsiftingcatlitter1.jpg",
-  "sku": "PSK-38269",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/07/selfsiftingcatlitter1.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

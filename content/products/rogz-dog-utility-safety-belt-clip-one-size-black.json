@@ -3,8 +3,8 @@
   "name": "Rogz Dog Utility Safety Belt Clip (One Size) - Black (SBC19-A)",
   "slug": "rogz-dog-utility-safety-belt-clip-one-size-black",
   "onSale": false,
-  "price": 885,
-  "regularPrice": 885,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -36,50 +36,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "ROGZ Safety Belt Clip for those of you who take your driving and safety seriously. Just slip the seatbelt through the loop of the Safety Belt Clip, clip it onto your dog's ROGZ Harness (not collar), and enjoy stress free driving!",
-  "images": [
-    {
-      "id": 24548,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/SBC19-A-Car-Safe-Seat-Belt-Clip.jpg",
-      "alt": "Rogz Dog Utility Safety Belt Clip (One Size) - Black (SBC19-A)",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=24548",
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-safety-belt-clip-one-size-black/?add-to-cart=24548",
-  "shortDescription": "ROGZ Safety Belt Clip for those of you who take your driving and safety seriously. Just slip the seatbelt through the loop of the Safety Belt Clip, cl",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/SBC19-A-Car-Safe-Seat-Belt-Clip.jpg",
-  "sku": "PSK-24548",
-  "brand": "PetStore Kenya",
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/SBC19-A-Car-Safe-Seat-Belt-Clip.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

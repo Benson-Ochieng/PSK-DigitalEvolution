@@ -3,8 +3,8 @@
   "name": "Migliorgatto Adult Cat Bundle-Chicken",
   "slug": "migliorgatto-adult-cat-bundle-chicken",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,50 +16,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "This Bundle contains: 1pc Migliorgatto Adult cat Food Croquettes Chicken 400gr 4pc Migliorgatto Adult cat Food chunks with Chicken and Turkey 405gr",
-  "images": [
-    {
-      "id": 37064,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/05/Migliorgatto-Cat-Bundle-Chicken.png",
-      "alt": "Migliorgatto Adult Cat Bundle-Chicken",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=37064",
-  "addToCartUrl": "https://petstore.co.ke/product/migliorgatto-adult-cat-bundle-chicken/?add-to-cart=37064",
-  "shortDescription": "This Bundle contains: 1pc Migliorgatto Adult cat Food Croquettes Chicken 400gr 4pc Migliorgatto Adult cat Food chunks with Chicken and Turkey 405gr",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/05/Migliorgatto-Cat-Bundle-Chicken.png",
-  "sku": "PSK-37064",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/05/Migliorgatto-Cat-Bundle-Chicken.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

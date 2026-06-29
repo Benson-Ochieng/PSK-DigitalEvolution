@@ -3,8 +3,8 @@
   "name": "Bio Petactive Natural Honey Dog Shampoo 400ml",
   "slug": "bio-petactive-natural-honey-dog-shampoo-400ml",
   "onSale": false,
-  "price": 900,
-  "regularPrice": 900,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -26,50 +26,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Bio PetActive Natural Honey Dog Shampoo is for densley furred dogs, impacts extra shine and softness while keeping the skin moist and prevents dryness. Its honey essence, imparts extra shine and softness by nourishing the skin and fur. Its pH balanced formulation and effective moisturizing property keeps the skin moist and prevents dryness. Usage: Soak the body of your dog in warm water prior to application. Dilute the amount of product 1:5 with water then rub to spread the foam throughout the body of your dog. Start shampooing and washing on the back. To get the best results, wait for 3 to 5 minutes until the shampoo thoroughly soaks into the dog?s fur. Then rinse and dry with a towel and groom its fur.",
-  "images": [
-    {
-      "id": 19821,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/BPNHDS400-1.jpg",
-      "alt": "Bio Petactive Natural Honey Dog Shampoo 400ml",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=19821",
-  "addToCartUrl": "https://petstore.co.ke/product/bio-petactive-natural-honey-dog-shampoo-400ml/?add-to-cart=19821",
-  "shortDescription": "Bio PetActive Natural Honey Dog Shampoo is for densley furred dogs, impacts extra shine and softness while keeping the skin moist and prevents dryness",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/BPNHDS400-1.jpg",
-  "sku": "PSK-19821",
-  "brand": "PetStore Kenya",
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/BPNHDS400-1.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

@@ -3,8 +3,8 @@
   "name": "Open Cat Litter Box Sm",
   "slug": "open-cat-litter-box-sm-2",
   "onSale": false,
-  "price": 3000,
-  "regularPrice": 3000,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -21,50 +21,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Cat Litter Box High Sides Provide your cats with a litter box that takes up minimal space and gives them the opportunity to alleviate themselves in style. Keep your floors clean: Anti-tracking grid captures litter from your cat’s paws as she exits the box and the high walls help keep the crystal litter inside the box. Litter tray with a high rim, prevents litter being scattered. Easy click clasps make it fast to open and close. Durable: Made of durable materials, this product is sure to stick around and will provide you and your beloved pets with its services for a lengthy period of time.",
-  "images": [
-    {
-      "id": 38319,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/07/Open-Cat-Litter-Box-Sm.png",
-      "alt": "Open Cat Litter Box Sm",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=38319",
-  "addToCartUrl": "https://petstore.co.ke/product/open-cat-litter-box-sm-2/?add-to-cart=38319",
-  "shortDescription": "Cat Litter Box High Sides Provide your cats with a litter box that takes up minimal space and gives them the opportunity to alleviate themselves in st",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/07/Open-Cat-Litter-Box-Sm.png",
-  "sku": "PSK-38319",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/07/Open-Cat-Litter-Box-Sm.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

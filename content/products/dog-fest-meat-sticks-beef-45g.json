@@ -3,8 +3,8 @@
   "name": "Dog Fest Meat Sticks - Beef 45G",
   "slug": "dog-fest-meat-sticks-beef-45g",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -26,50 +26,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "These tender and meaty treats can be torn into smaller bits as a reward for training. Something you should always have with you wherever you go with your dog. Composition: beef, vegetable by-products, minerals. Analytical constituents, %: crude protein 26, crude fat 5.5, crude fiber 0.2, crude ash 4.5, moisture 23.",
-  "images": [
-    {
-      "id": 27236,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/DF019.jpg",
-      "alt": "Dog Fest Meat Sticks - Beef 45G",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=27236",
-  "addToCartUrl": "https://petstore.co.ke/product/dog-fest-meat-sticks-beef-45g/?add-to-cart=27236",
-  "shortDescription": "These tender and meaty treats can be torn into smaller bits as a reward for training. Something you should always have with you wherever you go with y",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/DF019.jpg",
-  "sku": "PSK-27236",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/DF019.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

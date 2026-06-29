@@ -61,8 +61,20 @@ const poolConfig: pg.PoolConfig = {
 
 let pool: pg.Pool;
 
+// A promise that resolves once migrations have run on startup.
+// All route loaders should await ensureDbReady() before querying,
+// preventing a race condition where the first request fires before
+// the migration check has completed.
+let _dbReadyResolve: () => void;
+let _dbReadyReject: (err: any) => void;
+let dbReadyPromise: Promise<void> = new Promise<void>((res, rej) => {
+  _dbReadyResolve = res;
+  _dbReadyReject = rej;
+});
+
 declare global {
   var __petstore_pool__: pg.Pool | undefined;
+  var __petstore_db_ready__: Promise<void> | undefined;
 }
 
 // Startup migrations check
@@ -71,6 +83,7 @@ async function startDatabase() {
   try {
     await runMigrations(pool);
     console.log('Database migrations completed successfully.');
+    _dbReadyResolve();
   } catch (err: any) {
     // Check if the connection failed because the server does not support SSL
     if (err.message?.includes('does not support SSL connections') && poolConfig.ssl) {
@@ -92,11 +105,16 @@ async function startDatabase() {
       try {
         await runMigrations(pool);
         console.log('Database migrations completed successfully (without SSL).');
+        _dbReadyResolve();
       } catch (retryErr) {
         console.error('Auto migrations failed on retry (non-fatal):', retryErr);
+        // Resolve anyway so loaders are not blocked indefinitely
+        _dbReadyResolve();
       }
     } else {
       console.error('Auto migrations failed (non-fatal):', err);
+      // Resolve anyway so loaders are not blocked indefinitely
+      _dbReadyResolve();
     }
   }
 }
@@ -108,9 +126,16 @@ if (isProduction) {
   if (!global.__petstore_pool__) {
     global.__petstore_pool__ = new Pool(poolConfig);
     pool = global.__petstore_pool__;
+    // Store the ready promise globally so HMR reloads share the same one
+    global.__petstore_db_ready__ = dbReadyPromise;
     startDatabase();
   } else {
     pool = global.__petstore_pool__;
+    // Reuse the already-resolved promise from a previous HMR cycle
+    dbReadyPromise = global.__petstore_db_ready__ ?? Promise.resolve();
+    // Ensure the module-level resolve/reject are no-ops (promise already settled)
+    _dbReadyResolve = () => {};
+    _dbReadyReject = () => {};
   }
 }
 
@@ -121,7 +146,19 @@ pool.on('error', (err: Error) => {
 
 export default pool;
 
+/**
+ * Await this in any route loader that runs on startup to ensure migrations
+ * have completed before the first query is executed.
+ * After the first successful startup it resolves instantly (no overhead).
+ */
+export async function ensureDbReady(): Promise<void> {
+  await dbReadyPromise;
+}
+
 export async function query<T extends pg.QueryResultRow = any>(text: string, params?: any[]) {
+  // Wait for the startup migration check to complete before running any query.
+  // This is instant on all subsequent requests after startup.
+  await dbReadyPromise;
   const start = Date.now();
   try {
     const res = await pool.query<T>(text, params);

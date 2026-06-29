@@ -3,8 +3,8 @@
   "name": "Donate to Lamu Animal Welfare Clinic",
   "slug": "donate-to-lamu-animal-welfare-clinic",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -51,50 +51,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "For every bag you donate, WE WILL MATCH YOUR DONATION. The Lamu Animal Welfare Clinic - a charitable Trust dedicated to alleviating the suffering of distressed animals, provides treatment, vaccinate, de-worm and manage the Lamu cats' population.",
-  "images": [
-    {
-      "id": 18798,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/02/Donate-v5-LAMU-ANIMAL-WELFARE-CLINIC-min.png",
-      "alt": "Donate to Lamu Animal Welfare Clinic",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=18798",
-  "addToCartUrl": "https://petstore.co.ke/product/donate-to-lamu-animal-welfare-clinic/?add-to-cart=18798",
-  "shortDescription": "For every bag you donate, WE WILL MATCH YOUR DONATION. The Lamu Animal Welfare Clinic - a charitable Trust dedicated to alleviating the suffering of d",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/02/Donate-v5-LAMU-ANIMAL-WELFARE-CLINIC-min.png",
-  "sku": "PSK-18798",
-  "brand": "PetStore Kenya",
-  "weight_kg": 15,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/02/Donate-v5-LAMU-ANIMAL-WELFARE-CLINIC-min.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

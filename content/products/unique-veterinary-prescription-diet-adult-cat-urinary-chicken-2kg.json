@@ -3,8 +3,8 @@
   "name": "Unique Veterinary Prescription Diet Adult Cat Urinary Chicken 2kg",
   "slug": "unique-veterinary-prescription-diet-adult-cat-urinary-chicken-2kg",
   "onSale": false,
-  "price": 2730,
-  "regularPrice": 2730,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "How it works: Preventing the formation of urinary tract stones with optimal urine PH (6.4-6.6), Urine acidifying properties and low magnesium level (0.05%), Quality and hydrolyzed protein sources, Composition containing organic trace elements, Dried algae (source of omega-3 and vitamins), Marigold extract (anti-inflammatory and antiseptic). Ingredients Chicken Protein, Brown Rice, Pea, Chicken Oil, Hydrolyzed Chicken Protein, Corn Gluten Meal, Sodium Chloride, Sugar Beet Pulp, Fish Oil, Hydrolyzed Chicken Liver, Vitamin and Mineral Premix, Natural Flavors, Brewer's Yeast, Calcium Sulphate, Probiotic, Dried Algae, MOS, ?-Glucan, Tocopherol, Marigold Extract, Yucca, Cranberry, Glycosaminoglycan, Chondrotin Sulfate, Wild Seaweed. Raw Material Components Raw Protein 32.74% Raw oil 15.12% Raw Cellulose (Fiber) 2.15% Ash 7.40% Moisture 5.20% Omega-3 1.05% Omega 6 3.60% Calcium 0.75% Phosphorus 0.60% Sodium 0.40% Magnesium 0.05% Potassium 0.45% chloride 0.43% Urine Acidifying Substances Sodium Chlorite 1.00% Calcium Sulphate 0.70% methionine 5000mg/kg It does not contain sulfur dioxide. Nutritional Supplements Vitamin A (3a672a) 25,000 IU/kg Vitamin D 3 (E671) 500 IU/kg Vitamin E (3a700) 1.000 mg/kg Choline Chloride (3a890) 2.300 mg/kg Biotin (3a880) 3mg/kg Vitamin B 1 (3a821) 10mg/kg Vitamin B2 30mg/kg Niacinamide (3a315) 100mg/kg Calcium-D-Panthothenate (3a841) 60mg/kg Vitamin B 6 (3a831) 35mg/kg Folic Acid (3a316) 15mg/kg Vitamin B 12 0.18 mg/kg Zinc Chelate of Amino Acids Hydrate (3b606) 120mg/kg Ferrous Chelate of Amino Acids Hydrate (E1) 60mg/kg Manganese Chelate of Amino Acids Hydrate (E5) 60mg/kg Potassium Iodide (3b201) 4mg/kg Cupric Chelate of Amino Acids Hydrate (E4) 3,5 mg/kg Organic Form of Selenium (3b8.10) 0.2mg/kg Taurine (3a370) 2.300 mg/kg L-Carnitine (3a910) 230mg/kg L-Methionine (3c305) 5,000 mg/kg L-Tryptophan 1.400 mg/kg Probiotic (B. Amyloliquefaciens) 7 x 10 14 /kg",
-  "images": [
-    {
-      "id": 25991,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/03/UCD010.jpg",
-      "alt": "Unique Veterinary Prescription Diet Adult Cat Urinary Chicken 2kg",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Unique",
-      "slug": "unique"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=25991",
-  "addToCartUrl": "https://petstore.co.ke/product/unique-veterinary-prescription-diet-adult-cat-urinary-chicken-2kg/?add-to-cart=25991",
-  "shortDescription": "How it works: Preventing the formation of urinary tract stones with optimal urine PH (6.4-6.6), Urine acidifying properties and low magnesium level (0",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/03/UCD010.jpg",
-  "sku": "PSK-25991",
-  "brand": "Unique",
-  "weight_kg": 2,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/03/UCD010.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

@@ -3,8 +3,8 @@
   "name": "SHORT EXPIRY-CLEARANCE: Unique Veterinary Prescription Diet Adult Cat Hepatic Chicken & Rice 2kg",
   "slug": "unique-veterinary-prescription-diet-adult-cat-hepatic-chicken-rice-2kg",
   "onSale": false,
-  "price": 3393,
-  "regularPrice": 3393,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "How it works: Limited sodium, phosphorus and copper content, Limited protein and rich energy level, Thistle seed (liver regenerative and protective), Rich fiber content (healthy digestion), L-Carnitine (effective use of energy), Probiotic and prebiotic Rich content, Low ammonia formation with quality and balanced protein source. Ingredients Chicken Protein, Brown Rice, Eggs, Peas, Fish Protein, Chicken Oil, Hydrolyzed Chicken Protein, Sugar Beet Pulp, Fish Oil, Hydrolyzed Chicken Liver, Vitamin and Mineral Premix, Natural Flavors, Brewer's Yeast, Probiotic, Dried Algae, Psyllium Shells, Marigold Extract, MOS, -Glucan, Tocopherol, Yucca, Thistle, Wild Sea buckthorn. Raw Material Components Raw Protein 27.64% Raw oil 18.41% Raw Cellulose (Fiber) 3.78% Ash 6.30% Moisture 6.85% Calcium 0.73% Phosphorus 0.49% Sodium 0.26% Magnesium 0.06% Omega 3 0.80% Omega 6 2.66% Total Copper 5.62ppm Nutritional Supplements Vitamin A (3a672a) 25,000 IU/kg Vitamin D 3 (E671) 850 IU/kg Vitamin E (3a700) 1.000 mg/kg Vitamin C (3a312) 400mg/kg Choline Chloride (3a890) 2.300 mg/kg Biotin (3a880) 3mg/kg Vitamin B 1 (3a821) 10mg/kg Vitamin B2 30mg/kg Niacinamide (3a315) 100mg/kg Calcium-D-Panthothenate (3a841) 60mg/kg Vitamin B 6 (3a831) 35mg/kg Folic Acid (3a316) 15mg/kg Vitamin B 12 0.18 mg/kg Zinc Chelate of Amino Acids Hydrate (3b606) 140mg/kg Ferrous Chelate of Amino Acids Hydrate (E1) 60mg/kg Manganese Chelate of Amino Acids Hydrate (E5) 60mg/kg Potassium Iodide (3b201) 4mg/kg Organic Form of Selenium (3b8.10) 0.2mg/kg Taurine (3a370) 2.300 mg/kg L-Carnitine (3a910) 500mg/kg Arginine (3c3.6.1) 3.200mg/kg Probiotic (B. Amyloliquefaciens) 7 x 10 14 /kg",
-  "images": [
-    {
-      "id": 39611,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/03/UCD011.jpg",
-      "alt": "SHORT EXPIRY-CLEARANCE: Unique Veterinary Prescription Diet Adult Cat Hepatic Chicken & Rice 2kg",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Unique",
-      "slug": "unique"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=39611",
-  "addToCartUrl": "https://petstore.co.ke/product/unique-veterinary-prescription-diet-adult-cat-hepatic-chicken-rice-2kg/?add-to-cart=39611",
-  "shortDescription": "How it works: Limited sodium, phosphorus and copper content, Limited protein and rich energy level, Thistle seed (liver regenerative and protective), ",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/03/UCD011.jpg",
-  "sku": "PSK-39611",
-  "brand": "Unique",
-  "weight_kg": 2,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/03/UCD011.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

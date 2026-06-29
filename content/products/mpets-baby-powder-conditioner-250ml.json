@@ -3,8 +3,8 @@
   "name": "Mpets Baby Powder Conditioner 250Ml",
   "slug": "mpets-baby-powder-conditioner-250ml",
   "onSale": false,
-  "price": 650,
-  "regularPrice": 650,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,50 +16,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Baby powder conditioner with pleasant and fresh smell, especially adding glycerin to moisturize the pet hair and skin",
-  "images": [
-    {
-      "id": 27295,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPBPC1.jpg",
-      "alt": "Mpets Baby Powder Conditioner 250Ml",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=27295",
-  "addToCartUrl": "https://petstore.co.ke/product/mpets-baby-powder-conditioner-250ml/?add-to-cart=27295",
-  "shortDescription": "Baby powder conditioner with pleasant and fresh smell, especially adding glycerin to moisturize the pet hair and skin",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/MPBPC1.jpg",
-  "sku": "PSK-27295",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPBPC1.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

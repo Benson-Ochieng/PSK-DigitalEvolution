@@ -3,8 +3,8 @@
   "name": "KONG Squeezzgoomz Football Md",
   "slug": "kong-squeezz-goomz-football-md",
   "onSale": false,
-  "price": 1100,
-  "regularPrice": 1100,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -36,50 +36,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "KONGGoomz football?s enticing raised nubs massage teeth and gums while rewarding appropriate chewing behavior. Mixed textures and a durable material encourage on-going fun while satisfying natural instincts. The squeaker continues to extend playtime for indoor and outdoor sessions of interactive engagement. Enticing nubs massage teeth and gums Mixed textures satisfy chewing instincts Durable material for long-lasting fun",
-  "images": [
-    {
-      "id": 24992,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/PSG11.jpg",
-      "alt": "KONG Squeezzgoomz Football Md",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=24992",
-  "addToCartUrl": "https://petstore.co.ke/product/kong-squeezz-goomz-football-md/?add-to-cart=24992",
-  "shortDescription": "KONGGoomz football?s enticing raised nubs massage teeth and gums while rewarding appropriate chewing behavior. Mixed textures and a durable material e",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/PSG11.jpg",
-  "sku": "PSK-24992",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/PSG11.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

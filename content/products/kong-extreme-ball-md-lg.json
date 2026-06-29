@@ -3,8 +3,8 @@
   "name": "KONG Extreme Ball Md/Lg- Black",
   "slug": "kong-extreme-ball-md-lg",
   "onSale": false,
-  "price": 1600,
-  "regularPrice": 1600,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "The KONGExtreme Ball wins the fetching game for your dog! Durable, bouncy, natural KONGExtreme rubber gives it a bounce for fun games of fetch, delivering tons of healthy and interactive play. KONGExtreme Black Rubber ball for durable fetching fun Puncture resistant for continued safe play Made in the USA. Globally Sourced Materials",
-  "images": [
-    {
-      "id": 16568,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/12/UB2_Extreme_Ball.jpg",
-      "alt": "KONG Extreme Ball Md/Lg- Black",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=16568",
-  "addToCartUrl": "https://petstore.co.ke/product/kong-extreme-ball-md-lg/?add-to-cart=16568",
-  "shortDescription": "The KONGExtreme Ball wins the fetching game for your dog! Durable, bouncy, natural KONGExtreme rubber gives it a bounce for fun games of fetch, delive",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/12/UB2_Extreme_Ball.jpg",
-  "sku": "PSK-16568",
-  "brand": "PetStore Kenya",
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/12/UB2_Extreme_Ball.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

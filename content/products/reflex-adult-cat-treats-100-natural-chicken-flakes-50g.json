@@ -3,8 +3,8 @@
   "name": "Reflex Cat Treats - 100% Natural Chicken Flakes 50g",
   "slug": "reflex-adult-cat-treats-100-natural-chicken-flakes-50g",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Reflex Adult Cat Treats Chicken Flakes are Super premium cat treats that can easily be digested due to its high meat content.? ?It will not cause weight gain as it was low calorie. The fatty acids in it support skin and coat health. INGREDIENTS: chicken (74%), plant protein, starch, sorbitol, glycerin, salt, potassium sorbate. NUTRIENT COMPONENTS Crude Protein (%) - 36 Crude Fat (%) - 5.5 Crude Ash (%) - 4.5 Crude Fiber (%) - 1 Moisture (%) - 20 FEEDING RECOMMENDATIONS: Recommended for all adult cats as a snack in addition to meals. This product does not replace your cat's daily food requirement. Store in a cool, dry place.",
-  "images": [
-    {
-      "id": 11984,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/02/Reflex-Adult-Cat-Treats-Chicken-Flakes-50g-min.png",
-      "alt": "Reflex Cat Treats - 100% Natural Chicken Flakes 50g",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=11984",
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-adult-cat-treats-100-natural-chicken-flakes-50g/?add-to-cart=11984",
-  "shortDescription": "Reflex Adult Cat Treats Chicken Flakes are Super premium cat treats that can easily be digested due to its high meat content.? ?It will not cause weig",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/02/Reflex-Adult-Cat-Treats-Chicken-Flakes-50g-min.png",
-  "sku": "PSK-11984",
-  "brand": "Reflex",
-  "weight_kg": 0.05,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/02/Reflex-Adult-Cat-Treats-Chicken-Flakes-50g-min.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

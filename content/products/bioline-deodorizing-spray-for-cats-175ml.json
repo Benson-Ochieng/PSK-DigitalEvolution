@@ -3,8 +3,8 @@
   "name": "Bioline deodorizing spray for cats -175ML",
   "slug": "bioline-deodorizing-spray-for-cats-175ml",
   "onSale": false,
-  "price": 647,
-  "regularPrice": 647,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -21,50 +21,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "The ideal and environment-friendly product for cat toilets, bathrooms, living rooms, etc. Thanks to its active agents the deodorizing spray eliminate all unpleasant smells. Instructions: Shake well before use. All surfaces should be cleaned of urine. Spray at a distance of approx. 30 cm until it is slightly wet. In case of heavily soiled surfaces and during warm weather use the spray several times a day. Test material compatibility in an unobtrusive area. Warning: Use only in accordance with the instructions. Harmful to aquatic organisms, and may cause long-term adverse effects on the environment Keep out of reach of children. Contains citronella and geraniol May cause allergic reactions. The only completely emptied package may be recycled.",
-  "images": [
-    {
-      "id": 33117,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/12/BLDS175-Bioline-cats-deodorisizing-spray.jpg",
-      "alt": "Bioline deodorizing spray for cats -175ML",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=33117",
-  "addToCartUrl": "https://petstore.co.ke/product/bioline-deodorizing-spray-for-cats-175ml/?add-to-cart=33117",
-  "shortDescription": "The ideal and environment-friendly product for cat toilets, bathrooms, living rooms, etc. Thanks to its active agents the deodorizing spray eliminate ",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/12/BLDS175-Bioline-cats-deodorisizing-spray.jpg",
-  "sku": "PSK-33117",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/12/BLDS175-Bioline-cats-deodorisizing-spray.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

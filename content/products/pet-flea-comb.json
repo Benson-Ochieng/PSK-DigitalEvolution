@@ -3,8 +3,8 @@
   "name": "Pet Flea Comb",
   "slug": "pet-flea-comb",
   "onSale": false,
-  "price": 500,
-  "regularPrice": 500,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Description Advanced material, arc handle, reasonable design and comfortable handle. Strengthened needle design can remove fleas, and it is durable in the same type of resistance. There is a hook in the root of the combs. It is lightweight and easy to carry. It will remove fleas from your pets, especially the long-haired sausage dogs.",
-  "images": [
-    {
-      "id": 36959,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/05/FLEA-COMB_blue.jpg",
-      "alt": "Pet Flea Comb",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=36959",
-  "addToCartUrl": "https://petstore.co.ke/product/pet-flea-comb/?add-to-cart=36959",
-  "shortDescription": "Description Advanced material, arc handle, reasonable design and comfortable handle. Strengthened needle design can remove fleas, and it is durable in",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/05/FLEA-COMB_blue.jpg",
-  "sku": "PSK-36959",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/05/FLEA-COMB_blue.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

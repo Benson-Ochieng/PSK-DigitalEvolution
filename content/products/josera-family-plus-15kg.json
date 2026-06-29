@@ -3,8 +3,8 @@
   "name": "Josera Family Plus 15kg",
   "slug": "josera-family-plus-15kg",
   "onSale": false,
-  "price": 13270,
-  "regularPrice": 13270,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Composition: poultry; rice; whole grain corn; poultry fat; salmon 6,0 %; beet fibre; hydrolysed poultry protein; plant fibre; minerals; chicory root (ground, natural source of inulin). For pregnant bitches: Product Details: Tasty food for our mothers-to-be and puppies: This special formula not only covers a bitch? s special requirements, from the last trimester of gestation until the end of the nursing period; it also supplies puppies, whether still in the womb or being nursed, with all the necessary nutrients. Later, the nutritious kibble can be softened in JOSERA puppy milk or water to help the puppies transition to solid food. ? Contains plenty of energy and protein for pregnant and nursing bitches ? With taurine for fertility and valuable antioxidants to support the highly metabolic reproductive organs ? Supports puppies? brain development thanks to high-quality fatty acids from salmon ? Soakable kibble to wean puppies onto dry food",
-  "images": [
-    {
-      "id": 23714,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JDFP.jpg",
-      "alt": "Josera Family Plus 15kg",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=23714",
-  "addToCartUrl": "https://petstore.co.ke/product/josera-family-plus-15kg/?add-to-cart=23714",
-  "shortDescription": "Composition: poultry; rice; whole grain corn; poultry fat; salmon 6,0 %; beet fibre; hydrolysed poultry protein; plant fibre; minerals; chicory root (",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JDFP.jpg",
-  "sku": "PSK-23714",
-  "brand": "Josera",
-  "weight_kg": 15,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JDFP.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

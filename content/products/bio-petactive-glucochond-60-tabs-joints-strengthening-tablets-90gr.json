@@ -3,8 +3,8 @@
   "name": "Bio Petactiveglucochond 60 Tabs (Joints Strengthening Tablets) 90g",
   "slug": "bio-petactive-glucochond-60-tabs-joints-strengthening-tablets-90gr",
   "onSale": false,
-  "price": 1500,
-  "regularPrice": 1500,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,50 +16,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Glucosamine chondroitin and MSM supplement to enhance joints health of your dogs and cats A specially formulated supplement to help our pet friends to run and play as they wish, with healthy and strong joints. Glucosamine is one of the main constituents of connective tissue which has very important roles in skeletal systems of pets. It is found in tendons, ligaments, intervertebral discs, cell walls, intra-articular pads and cartilage tissue. Chondroitin similarly functions as a building block of tendons, skin, cartilage tissue, mucosa, connective tissue, and eyes. When taken together glucosamine and chondroitin enhances the effectiveness of each other. MSM (Methyl Sulfonyl Methane), is the source of organic sulfide, an antioxidant molecule and a critical mineral in the structure of cartilage. NUTRITIONAL INGREDIENTS GlucoCHOND Glucosamine, Chondroitin Sulfate and MSM as well as Vitamins C, Vitamin E, Niacin, Biotin, and Manganese contain all the necessary vitamins and minerals for bone and joint, reducing pain in joints and cartilage tissue areas, increasing resistance and elasticity. It helps to ease the mobility of our old friend. COMPOSITION Glucosamine HCL 333.333 mg/kg Chondrotin Sulfate 133.333 mg/kg Methyl Sulfonyl Methane (MSM) 166.500 mg/kg Usage: To meet the need for vitamin and manganese for junior dogs and cats, for every 10kg body weight, add ? tablet (0.75 gr.), for every 10 kg body weight of adult dogs, add 1 tablet (1.5 gr.) to the food or can be given directly. Discontinue using premix after 8 months usage; start using 3 months later.",
-  "images": [
-    {
-      "id": 19810,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/BPG60JST90.jpg",
-      "alt": "Bio Petactiveglucochond 60 Tabs (Joints Strengthening Tablets) 90g",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=19810",
-  "addToCartUrl": "https://petstore.co.ke/product/bio-petactive-glucochond-60-tabs-joints-strengthening-tablets-90gr/?add-to-cart=19810",
-  "shortDescription": "Glucosamine chondroitin and MSM supplement to enhance joints health of your dogs and cats A specially formulated supplement to help our pet friends to",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/BPG60JST90.jpg",
-  "sku": "PSK-19810",
-  "brand": "PetStore Kenya",
-  "weight_kg": 0.3,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/BPG60JST90.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

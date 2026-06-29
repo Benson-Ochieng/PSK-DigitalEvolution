@@ -3,8 +3,8 @@
   "name": "Dog Fest Chicken Strips On Chewy Stick 90G",
   "slug": "dog-fest-chicken-strips-on-chewy-stick-90g",
   "onSale": false,
-  "price": 250,
-  "regularPrice": 250,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -26,50 +26,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Simple and Classic. A long-lasting chewy rawhide stick is covered with strips of chicken breast fillet. Cooked in the oven to become one of the most favorite dog treats. Composition: chicken, rawhide, vegetable by-products, minerals. Analytical constituents, %: crude protein 65, crude fat 3.5, crude fiber 0.2, crude ash 3.5, moisture 18.",
-  "images": [
-    {
-      "id": 27221,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/DF016.jpg",
-      "alt": "Dog Fest Chicken Strips On Chewy Stick 90G",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=27221",
-  "addToCartUrl": "https://petstore.co.ke/product/dog-fest-chicken-strips-on-chewy-stick-90g/?add-to-cart=27221",
-  "shortDescription": "Simple and Classic. A long-lasting chewy rawhide stick is covered with strips of chicken breast fillet. Cooked in the oven to become one of the most f",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/DF016.jpg",
-  "sku": "PSK-27221",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/DF016.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

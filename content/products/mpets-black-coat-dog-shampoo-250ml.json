@@ -3,8 +3,8 @@
   "name": "Mpets Black Coat Dog Shampoo 250Ml",
   "slug": "mpets-black-coat-dog-shampoo-250ml",
   "onSale": false,
-  "price": 696,
-  "regularPrice": 696,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "This shampoo strengthens the natural color of a dog?s black or dark-colored coat. In addition, it also replenishes lipids. capacity: 250 ml Feature: Paraben-Free; The Very Best Ingredients In a Shampoo For Dogs BATH OF LIFE: The Black Coat Shampoo will provide a deep cleansing while enhancing the shine on your dog?s dark coat. Plant-derived cleansers make up the base of our all-natural ingredients, which are sustainably sourced MAKE YOUR PET?S COAT EXTRA SOFT: Hydrating natural oils can go deep under the fur for skin hydration that will make your pet moisturized from the inside out.",
-  "images": [
-    {
-      "id": 27305,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPBCDS.jpg",
-      "alt": "Mpets Black Coat Dog Shampoo 250Ml",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=27305",
-  "addToCartUrl": "https://petstore.co.ke/product/mpets-black-coat-dog-shampoo-250ml/?add-to-cart=27305",
-  "shortDescription": "This shampoo strengthens the natural color of a dog?s black or dark-colored coat. In addition, it also replenishes lipids. capacity: 250 ml Feature: P",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/MPBCDS.jpg",
-  "sku": "PSK-27305",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPBCDS.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

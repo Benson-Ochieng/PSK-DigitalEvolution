@@ -3,8 +3,8 @@
   "name": "Reflex Dog Treats - 100% Natural Beef Cubes 80g",
   "slug": "reflex-dog-treats-100-natural-beef-cubes-80g",
   "onSale": false,
-  "price": 87,
-  "regularPrice": 87,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Reflex Dog Treats 100% Natural Beef Cubes are super-premium dog treats that are easily digested due to its high meat content. Includes fatty acids that support healthy skin and coat health. Very effective to training due to its high palatability. INGREDIENTS: Beef, Vegetable Glycerin, Soy Protein, Starch, Salt. NUTRIENT COMPONENTS Crude Protein (%) - 40 Crude Fat (%) - 1 Crude Fiber (%) - 4 Moisture Content (%) 18 FEEDING RECOMMENDATIONS: Treats may be given as an additional snack. This product does not replace your dog's daily food.",
-  "images": [
-    {
-      "id": 3492,
-      "src": "https://petstore.co.ke/wp-content/uploads/2019/09/Reflex-beef-cube-80g.png",
-      "alt": "Reflex Dog Treats - 100% Natural Beef Cubes 80g",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=3492",
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-dog-treats-100-natural-beef-cubes-80g/?add-to-cart=3492",
-  "shortDescription": "Reflex Dog Treats 100% Natural Beef Cubes are super-premium dog treats that are easily digested due to its high meat content. Includes fatty acids tha",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/09/Reflex-beef-cube-80g.png",
-  "sku": "PSK-3492",
-  "brand": "Reflex",
-  "weight_kg": 0.08,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/09/Reflex-beef-cube-80g.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

@@ -3,8 +3,8 @@
   "name": "SHORT EXPIRY - CLEARANCE: Reflex Plus Adult Cat Food Pouch - Tuna & Shrimp Chunks in Jelly 0.1kg",
   "slug": "short-expiry-clearance-reflex-plus-adult-cat-food-pouch-tuna-shrimp-chunks-in-jelly-0-1kg",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -51,50 +51,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Reflex Plus Tuna & Shrimp Chunks in Jelly Adult Cat Food in Pouch , fully-balanced, tuna & shrimp protein-containing cat food carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult breeds. NUTRIENT COMPONENTS Crude Protein (%) - 8.0 Crude Oils & Fats (%) - 5.0 Crude Fiber (%) - 2.0 Moisture (%) - 83 Crude Ash (%) - 0.3 Vitamin D3 - 250 IE/kg Vitamin E - 15 mg/kg Copper -?1.0 mg/kg Biotin - 20 ?g/kg Manganese - 100 mg/kg Zinc - 15 mg/kg Taurine - 445 mg/kg INGREDIENTS: Meat & Animal Derivatives, fish and fish derivatives (tuna 5%), molluscs and crustaceans (shrimp 5%) , Minerals, Inulin (0.1%). FEEDING RECOMMENDATION: One pouch per meal. An adult cat (approx. 4kg) requires up to 3 meals per day. Individual requirements depend on factors like age, breed and activity. Serve at room temperature. Store in a cool, dry place. Not fit for human consumption.",
-  "images": [
-    {
-      "id": 18517,
-      "src": "https://petstore.co.ke/wp-content/uploads/2019/10/Reflex-Plus-cat-pouch-tuna-shrimp-min.png",
-      "alt": "SHORT EXPIRY - CLEARANCE: Reflex Plus Adult Cat Food Pouch - Tuna & Shrimp Chunks in Jelly 0.1kg",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=18517",
-  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-reflex-plus-adult-cat-food-pouch-tuna-shrimp-chunks-in-jelly-0-1kg/?add-to-cart=18517",
-  "shortDescription": "Reflex Plus Tuna & Shrimp Chunks in Jelly Adult Cat Food in Pouch , fully-balanced, tuna & shrimp protein-containing cat food carefully formulated by ",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/10/Reflex-Plus-cat-pouch-tuna-shrimp-min.png",
-  "sku": "PSK-18517",
-  "brand": "Reflex",
-  "weight_kg": 0.1,
-  "animal_type": "cat",
-  "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/10/Reflex-Plus-cat-pouch-tuna-shrimp-min.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

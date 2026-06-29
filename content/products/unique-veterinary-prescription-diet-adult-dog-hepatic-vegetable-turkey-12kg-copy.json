@@ -3,8 +3,8 @@
   "name": "DEFECT/DAMAGED PACKAGE CLEARANCE: Unique Veterinary Prescription Diet Adult Dog Hepatic Vegetable & Turkey 12kg",
   "slug": "unique-veterinary-prescription-diet-adult-dog-hepatic-vegetable-turkey-12kg-copy",
   "onSale": false,
-  "price": 20007,
-  "regularPrice": 20007,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "How it works: Protection of kidneys as well as liver thanks to its limited sodium, phosphorus, and copper content, Low ammonia formation with high quality, specially selected and balanced protein sources, Thistle seed (liver cell regenerative and protective), L-Carnitine (effective use of energy), Content rich in probiotics and prebiotics. Rich fiber content (healthy digestion) Ingredients Peas, Sweet Potatoes, Eggs, Apple Pulp, Brown Rice, Hydrolyzed Turkey Protein, Chicken Oil, Fish Protein, Fish Oil, Hydrolyzed Chicken Liver, Oatmeal, Vitamin and Mineral Premix, Natural Flavors, Probiotic, Dried Algae, MOS, ?- Glucan, Tocopherol, Yucca, Thistle, Wild Sea buckthorn. Raw Material Components Raw Protein 18.15% Raw oil 14.85% Raw Cellulose (Fiber) 3.65% Ash 5.37% Moisture 6.75% Omega 3 0.58% Omega 6 2.22% Calcium 0.69% Phosphorus 0.55% Sodium 0.26% Magnesium 0.01% Total Copper 3.6ppm Nutritional Supplements Vitamin A (3a672a) 26,000 IU/kg Vitamin D 3 (E671) 1.800 IU/kg Vitamin E (3a700) 1.000 mg/kg Vitamin C (3a312) 600mg/kg Choline Chloride (3a890) 750mg/kg Biotin (3a880) 3,5 mg/kg Vitamin B 1 (3a821) 2.5 mg/kg Vitamin B2 9.5 mg/kg Niacinamide (3a315) 32mg/kg Calcium-D-Panthothenate (3a841) 25mg/kg Vitamin B 6 (3a831) 2.5 mg/kg Folic Acid (3a316) 1.3 mg/kg Vitamin B 12 0.12 mg/kg Zinc Chelate of Amino Acids Hydrate (3b606) 150mg/kg Ferrous Chelate of Amino Acids Hydrate (E1) 90mg/kg Manganese Chelate of Amino Acids Hydrate (E5) 45mg/kg Potassium Iodide (3b201) 0.85 mg/kg Cupric Chelate of Amino Acids Hydrate (E4) 20mg/kg Organic Form of Selenium (3b8.10) 0.2mg/kg L-Carnitine (3a910) 350mg/kg Probiotic (B. Amyloliquefaciens) 7 x 10 14 /kg",
-  "images": [
-    {
-      "id": 39197,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/03/UDD002.jpg",
-      "alt": "DEFECT/DAMAGED PACKAGE CLEARANCE: Unique Veterinary Prescription Diet Adult Dog Hepatic Vegetable & Turkey 12kg",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Unique",
-      "slug": "unique"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=39197",
-  "addToCartUrl": "https://petstore.co.ke/product/unique-veterinary-prescription-diet-adult-dog-hepatic-vegetable-turkey-12kg-copy/?add-to-cart=39197",
-  "shortDescription": "How it works: Protection of kidneys as well as liver thanks to its limited sodium, phosphorus, and copper content, Low ammonia formation with high qua",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/03/UDD002.jpg",
-  "sku": "PSK-39197",
-  "brand": "Unique",
-  "weight_kg": 12,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/03/UDD002.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

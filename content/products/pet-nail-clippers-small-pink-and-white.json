@@ -3,8 +3,8 @@
   "name": "GENERIC Pet Nail Clippers With File- Small",
   "slug": "pet-nail-clippers-small-pink-and-white",
   "onSale": false,
-  "price": 800,
-  "regularPrice": 800,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -61,50 +61,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Small size pet nail clippers with file. Colour: Blue and white. usage method: Grasp Pet's Foot steady. Put the tip of pet nails into the knife and trim them slowly, several times. Avoid cutting blood lines into pet nails and causing bleeding. Avoid one-off large-area manicure of pet nails. When using nail clippers, please use safety shield to gradually trim, so as not to hurt toes by too much trimming. If the pet's nails are too long, first trim a small part of the nail tips, every other week until the nails reach the appropriate length, leaving enough time for the pet to adapt. After trimming the nails, use the matching file to rub the nails until they are smooth.",
-  "images": [
-    {
-      "id": 20323,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/NAIL-CLIPPER-WITH-FILE_blue.jpg",
-      "alt": "GENERIC Pet Nail Clippers With File- Small",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=20323",
-  "addToCartUrl": "https://petstore.co.ke/product/pet-nail-clippers-small-pink-and-white/?add-to-cart=20323",
-  "shortDescription": "Small size pet nail clippers with file. Colour: Blue and white. usage method: Grasp Pet's Foot steady. Put the tip of pet nails into the knife and tri",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/NAIL-CLIPPER-WITH-FILE_blue.jpg",
-  "sku": "PSK-20323",
-  "brand": "PetStore Kenya",
-  "weight_kg": 0.4,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/NAIL-CLIPPER-WITH-FILE_blue.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

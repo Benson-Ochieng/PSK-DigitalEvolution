@@ -3,8 +3,8 @@
   "name": "Reflex Plus Adult Cat Food Canned -  Salmon & Trout in Loaf Pate 400g",
   "slug": "reflex-plus-adult-cat-food-canned-salmon-trout-in-loaf-pate-0-4kg",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -36,50 +36,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Reflex Plus Salmon & Trout Adult Cat Canned Food , fully-balanced, fish protein-containing cat food carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult breeds. NUTRIENT COMPONENTS Crude Protein (%) - 9.5 Crude Oils & Fats (%) - 5.0 Crude Fiber (%) -?0.5 Moisture (%) -?80 Crude Ash (%) - 3.0 Vitamin A (Min) - 1650 IE/kg Vitamin D3 (Min) - 240 IE/kg Iron - 9.6 mg/kg Copper - 1.4 mg/kg Manganese - 1.8 mg/kg Iodine - 0.75 mg/kg Zinc - 9.5 mg/kg Selenium - 0.025 mg/kg INGREDIENTS: Meat and Animal Derivatives, Fish and Fish derivatives (Salmon 4%, Trout 4%), Cereals, Minerals, Vegetal Protein Extracts, Cassia Gum (2200 mg/kg), Preservers and Colourants. FEEDING RECOMMENDATION: An adult cat (approx. 4kg) requires up to 3 meals per day, where 1 can serves 2 meals. Individual requirements depend on factors like age, breed and activity. Serve at room temperature. Store in a cool, dry place. Not fit for human consumption. &nbsp;",
-  "images": [
-    {
-      "id": 12662,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Plus-Adult-Cat-Food-Canned-Salmon-Trout-in-Loaf-Pate-400g-min.png",
-      "alt": "Reflex Plus Adult Cat Food Canned -  Salmon & Trout in Loaf Pate 400g",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=12662",
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-adult-cat-food-canned-salmon-trout-in-loaf-pate-0-4kg/?add-to-cart=12662",
-  "shortDescription": "Reflex Plus Salmon & Trout Adult Cat Canned Food , fully-balanced, fish protein-containing cat food carefully formulated by cat / dog nutritionists to",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Plus-Adult-Cat-Food-Canned-Salmon-Trout-in-Loaf-Pate-400g-min.png",
-  "sku": "PSK-12662",
-  "brand": "Reflex",
-  "weight_kg": 0.4,
-  "animal_type": "cat",
-  "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Plus-Adult-Cat-Food-Canned-Salmon-Trout-in-Loaf-Pate-400g-min.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

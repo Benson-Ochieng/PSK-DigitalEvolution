@@ -3,8 +3,8 @@
   "name": "Dog Fest Meat Slices Withgoose (55G)",
   "slug": "dog-fest-meat-slices-with-goose-55g",
   "onSale": false,
-  "price": 260,
-  "regularPrice": 260,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,50 +16,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Time to add a little wildness to your dog?s life. Tender goose meat strips are perfect for training as can be easily broken into smaller bits. Ingredients: duck 50%, goose 30%, vegetable by-products, minerals. Guaranteed analysis: crude protein 28%, crude fat 11%, crude fiber 1%, crude ash 5%, moisture 21%",
-  "images": [
-    {
-      "id": 27266,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/DF025.jpg",
-      "alt": "Dog Fest Meat Slices Withgoose (55G)",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=27266",
-  "addToCartUrl": "https://petstore.co.ke/product/dog-fest-meat-slices-with-goose-55g/?add-to-cart=27266",
-  "shortDescription": "Time to add a little wildness to your dog?s life. Tender goose meat strips are perfect for training as can be easily broken into smaller bits. Ingredi",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/DF025.jpg",
-  "sku": "PSK-27266",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/DF025.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

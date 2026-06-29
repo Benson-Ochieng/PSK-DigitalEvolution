@@ -3,8 +3,8 @@
   "name": "KONG Jumbler Ball Md/Lg- Blue",
   "slug": "kong-jumbler-ball-md-lg",
   "onSale": false,
-  "price": 2100,
-  "regularPrice": 2100,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -36,50 +36,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "The KONGJumbler is a two-in-one ball toy for twice the interactive fun. The interior tennis ball and loud squeak entice play, while the handles make pickup and shaking easy. The Jumbler stands up to tough play, making it ideal for games of fetch. Available in two shapes and sizes, the KONGJumbler will ensure an exciting, active play session for you and your dog. Squeaker and tumbling interior ball entice play Ideal for interactive fun Handles make pick up and shaking easy",
-  "images": [
-    {
-      "id": 16567,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/12/TMB1.jpg",
-      "alt": "KONG Jumbler Ball Md/Lg- Blue",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=16567",
-  "addToCartUrl": "https://petstore.co.ke/product/kong-jumbler-ball-md-lg/?add-to-cart=16567",
-  "shortDescription": "The KONGJumbler is a two-in-one ball toy for twice the interactive fun. The interior tennis ball and loud squeak entice play, while the handles make p",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/12/TMB1.jpg",
-  "sku": "PSK-16567",
-  "brand": "PetStore Kenya",
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/12/TMB1.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

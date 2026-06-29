@@ -3,8 +3,8 @@
   "name": "Royal Maxi Adult 4kg",
   "slug": "maxi-adult-4kg",
   "onSale": false,
-  "price": 4800,
-  "regularPrice": 4800,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "ROYAL CANIN? Maxi Adult food is specially formulated with your dog's nutritional needs in mind. This food is suitable for large dogs aged 15 months and over - with an adult weight ranging between 26-44kg. For large dogs, bones and joints can be a particular sensitivity, therefore maintaining your dog's joint health is crucial for the wear and tear it may face due to its size. ROYAL CANIN? Maxi Adult food will help maintain an ideal weight that your dog can comfortably support. ROYAL CANIN? Maxi dog food contains an exclusive formula to help maintain your dog's digestive health. What's more, it's enriched with omega-3 fatty acids (EPA and DHA), ROYAL CANIN? Maxi adult dog food also helps to support and maintain your dog's skin by keeping it healthy and nourished. Composition: dehydrated poultry protein, maize, maize flour, animal fats, wheat, rice, maize gluten, hydrolysed animal proteins, beet pulp, fish oil, soya oil, minerals, yeasts and parts thereof, hydrolysed crustaceans (source of glucosamine), hydrolysed cartilage (source of chondroitin). Additives (per kg): Nutritional additives: Vitamin A: 16000?IU, Vitamin D3: 1000?IU, E1 (Iron): 38?mg, E2 (Iodine): 3.8?mg, E4 (Copper): 12?mg, E5 (Manganese): 50?mg, E6 (Zinc): 132?mg, E8 (Selenium): 0.07?mg?- Technological additives: Clinoptilolite of sedimentary origin: 5?g?- Preservatives?- Antioxidants. Analytical constituents: Protein: 26.0%?- Fat content: 17.0%?- Crude ash: 6.7%?- Crude fibres: 1.3%?- Per kg: Omega 3 fatty acids: 7.8?g including EPA/DHA: 4?g. Feeding instructions: see table. Batch number, factory registration number and best before date: see information on packaging. To be stored in a cool, dry place. For RSA: Guaranteed analysis g/kg: Crude protein (min) 240 - Moisture (max) 110 - Crude fat (min) 150 - Crude fibre (max) 23 - Crude ash (max) 74. Metabolizable energy: 3970 kcal/kg.",
-  "images": [
-    {
-      "id": 23651,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-SHMX-003.jpg",
-      "alt": "Royal Maxi Adult 4kg",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Royal Canin",
-      "slug": "royal-canin"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=23651",
-  "addToCartUrl": "https://petstore.co.ke/product/maxi-adult-4kg/?add-to-cart=23651",
-  "shortDescription": "ROYAL CANIN? Maxi Adult food is specially formulated with your dog's nutritional needs in mind. This food is suitable for large dogs aged 15 months an",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-SHMX-003.jpg",
-  "sku": "PSK-23651",
-  "brand": "Royal Canin",
-  "weight_kg": 4,
-  "animal_type": "dog",
-  "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/ROC-SHMX-003.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

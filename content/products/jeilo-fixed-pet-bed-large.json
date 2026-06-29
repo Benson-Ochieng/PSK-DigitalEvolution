@@ -3,8 +3,8 @@
   "name": "Jeilo Fixed Pet bed - large",
   "slug": "jeilo-fixed-pet-bed-large",
   "onSale": false,
-  "price": 7300,
-  "regularPrice": 7300,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "The Jeilo large pet bed is the perfect bed for your medium to large pet. Covered with Ankara material and filled with soft fiber. It soft and cozy providing quality rest and comfort. The Dimensions for the small bed are: 35\"W x 45\"L x 5\"H",
-  "images": [
-    {
-      "id": 20319,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/JBPF.png",
-      "alt": "Jeilo Fixed Pet bed - large",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=20319",
-  "addToCartUrl": "https://petstore.co.ke/product/jeilo-fixed-pet-bed-large/?add-to-cart=20319",
-  "shortDescription": "The Jeilo large pet bed is the perfect bed for your medium to large pet. Covered with Ankara material and filled with soft fiber. It soft and cozy pro",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/JBPF.png",
-  "sku": "PSK-20319",
-  "brand": "PetStore Kenya",
-  "weight_kg": 3,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/JBPF.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

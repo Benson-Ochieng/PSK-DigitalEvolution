@@ -3,8 +3,8 @@
   "name": "Josera MiniDeluxe 900g",
   "slug": "josera-minideluxe-4-5kg",
   "onSale": false,
-  "price": 1330,
-  "regularPrice": 1330,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,50 +16,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Composition: lamb protein 25.0 %; dried potato; sweet potato; poultry fat; potato protein; beet fibre; carob meal; partially hydrolysed yeast; minerals (sodium tri-polyphosphate %0.35); hydrolysed animal protein; apple fibre; herbs, fruits; ground chicory root (natural source of inulin). Product Details: With no grains but full of vegetables, herbs and fruits along with a large portion of lamb, this dogfood offers our little scoundrels a meal with no regrets, full of taste yet easy to digest. Lamb instead of poultry Reduces the risk of tartar formation Ideal as grainfree nutrition for small dogs With herbs and fruits: (carob, chicory root, raspberries, peppermint, parsley, chamomile, rose hips, liquorice root, aronia, fenugreek seeds, blueberries, marigold, fennel) With delicious sweet potatoes",
-  "images": [
-    {
-      "id": 23716,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JDMD.jpg",
-      "alt": "Josera MiniDeluxe 900g",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=23716",
-  "addToCartUrl": "https://petstore.co.ke/product/josera-minideluxe-4-5kg/?add-to-cart=23716",
-  "shortDescription": "Composition: lamb protein 25.0 %; dried potato; sweet potato; poultry fat; potato protein; beet fibre; carob meal; partially hydrolysed yeast; mineral",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JDMD.jpg",
-  "sku": "PSK-23716",
-  "brand": "Josera",
-  "weight_kg": 4.5,
-  "animal_type": "dog",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JDMD.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

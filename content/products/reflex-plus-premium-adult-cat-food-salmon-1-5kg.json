@@ -3,8 +3,8 @@
   "name": "Reflex Plus Premium Adult Cat Food Salmon 1.5kg",
   "slug": "reflex-plus-premium-adult-cat-food-salmon-1-5kg",
   "onSale": false,
-  "price": 2625,
-  "regularPrice": 2625,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Reflex Plus Adult Cat - Salmon is a super premium cat food for all adult cat breeds. It is a highly palatable formulation with salmon protein and salmon oil. It is enhanced with the super pre-biotic Xylo-oligosaccharide (XOS) that helps with glycemia, immune function and superior digestion. O mega 3 & 6 from flaxseed . &nbsp; Yucca plant provides ammonia odour control, increases the absorption of nutrients. The immune system is strengthened, animals grow and performance improves. Good intestinal health and performance are achieved with pathogen-binding XOS ,? beta-glucans , and CitriStim , an immune-boosting yeast source. Brewer's yeast is used for healthy skin and shiny coat. Enriched with vitamins and minerals . &nbsp; Ingredients: Processed Salmon Protein, Processed Animal Protein, Corn, Chicken Oil, Rice, Sugar Beet, Fish Flavor, Vitamins and Minerals, Salmon Oil, Xylo-Oligosaccharide, Brewer's Yeast, Salt, Yucca Schidigera, Preservatives - Antioxidants. Minerals: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Iron, Selenium. Vitamins: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (Niacin) - B6 - B12 - B7 (Biotin) - B9 (Folic Acid), Vit. K, Choline, Calcium Pantothene. NUTRIENT COMPONENTS Raw Protein ....................... 32% Crude Fat .............................. 15% Crude Ash. ............................. 8% Crude Cellulose (Fiber) ........ 2% FEEDING INGREDIENTS Vitamin A (E672) ........ 18,000 IU / kg Vitamin D3 (E671) ................................ 1,500 IU / kg Vitamin E (3a700) ) ...............200 mg / kg Vitamin C (Stay C) ................................ 200 mg / kg Taurine........................................................ 1,500 mg / kg &nbsp; Feeding Suggestions The amount of food to be given per day may vary depending on the outdoor temperature, the living conditions (inside / outside the home), the character and activity of your cat. It is important to weigh the amount of food so that your cat can be an ideal weight. When adjusting the amount of food, it will be helpful to evaluate your cat's appetite, appearance and odour. Additional Tips Transition from one food to another must be made progressively by feeding small amounts of both foods for one week after mixing. Click here for instructions. Always keep clean and fresh water near the food bowl. Change it at least once a day. Store the product in a dry and cool place and be sure to close the packaging thoroughly after each use.",
-  "images": [
-    {
-      "id": 43686,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/Reflex-Plus-Salmon-1.5kg-min.png",
-      "alt": "Reflex Plus Premium Adult Cat Food Salmon 1.5kg",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=43686",
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-premium-adult-cat-food-salmon-1-5kg/?add-to-cart=43686",
-  "shortDescription": "Reflex Plus Adult Cat - Salmon is a super premium cat food for all adult cat breeds. It is a highly palatable formulation with salmon protein and salm",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/Reflex-Plus-Salmon-1.5kg-min.png",
-  "sku": "PSK-43686",
-  "brand": "Reflex",
-  "weight_kg": 1.5,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/Reflex-Plus-Salmon-1.5kg-min.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

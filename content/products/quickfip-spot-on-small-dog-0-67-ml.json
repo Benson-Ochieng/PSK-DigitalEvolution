@@ -3,8 +3,8 @@
   "name": "Veko-QuicFip Plus Spot on Small Dog 0.67 Ml- 6 months supply",
   "slug": "quickfip-spot-on-small-dog-0-67-ml",
   "onSale": false,
-  "price": 5300,
-  "regularPrice": 5300,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "QuicFIP Plus is a monthly topical solution designed to safeguard dogs against fleas and ticks. This product swiftly eliminates 100% of adult fleas on your pet within 12 hours, and it also effectively eradicates all ticks and chewing lice within 48 hours. An integral component of QuicFIP Plus is S-Methoprene, an insect growth regulator that eliminates fleas and ticks at every stage of their life cycle, including eggs and larvae. This treatment is highly effective against various tick species, such as the brown dog tick, American dog tick, lone star tick, and deer tick. &nbsp; QuicFIP Plus Spot On offers a rapid, efficient, and user-friendly method for managing and preventing fleas, ticks, and chewing lice. It not only exterminates all phases of fleas, encompassing eggs, larvae, pupae, and adult forms for a minimum of one month but also aids in controlling Flea Allergy Dermatitis in dogs. Additionally, it serves as a preventative measure against re-infestations. Furthermore, QuicFIP Plus is exceptionally convenient to apply and remains effective even for pets that enjoy swimming since it is waterproof. Compared to Frontline, Nexgard and Bravecto. Active Ingredient Fipronil 0.25% w/v (S) – Methoprene 0.22% w/v Dosage: For use in: Dogs/Puppies (8 weeks of age and older) For Dogs up to 10 kg (up to 22.04lb): use 0.67 ml Pipet {Small Dogs} (Comes in Box 6 Tubes of 0.67ml which is Six- month supply).",
-  "images": [
-    {
-      "id": 39067,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/08/quicfip-spot-on-small-dog.png",
-      "alt": "Veko-QuicFip Plus Spot on Small Dog 0.67 Ml- 6 months supply",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=39067",
-  "addToCartUrl": "https://petstore.co.ke/product/quickfip-spot-on-small-dog-0-67-ml/?add-to-cart=39067",
-  "shortDescription": "QuicFIP Plus is a monthly topical solution designed to safeguard dogs against fleas and ticks. This product swiftly eliminates 100% of adult fleas on ",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/08/quicfip-spot-on-small-dog.png",
-  "sku": "PSK-39067",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/08/quicfip-spot-on-small-dog.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

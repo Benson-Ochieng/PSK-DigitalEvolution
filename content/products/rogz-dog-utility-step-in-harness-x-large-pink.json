@@ -3,8 +3,8 @@
   "name": "Rogz Dog Utility Step In Harness X-Large - Pink (SSJ05-K)",
   "slug": "rogz-dog-utility-step-in-harness-x-large-pink",
   "onSale": false,
-  "price": 3150,
-  "regularPrice": 3150,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Rogz Utility Step-In Reflective Dog Harness has a reflective yarn woven into the webbing for night time visibility so that everyone is aware that you & your dog are on an outing. Key Features: Reflective Stitching: Reflective yarn is woven into the webbing for nighttime visibility RogLoc: The Fort Knox of release buckles Low Load Technology: LLT technology reduces the load on the Titanium Plastic buckle through a cleverly positioned load ring Contoured Plastic Component: ROGZ rounded contoured plastic components ensure that every ROGZ collar fits snugly Die-Cast Ring: Custom designed die cast ring (no welding). Electroplated chrome for a tarnish free finish Size: XLarge 25mm. (Girth measurement of 60-100cm) - PINK",
-  "images": [
-    {
-      "id": 19823,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/SSJ05-K.jpg",
-      "alt": "Rogz Dog Utility Step In Harness X-Large - Pink (SSJ05-K)",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=19823",
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-step-in-harness-x-large-pink/?add-to-cart=19823",
-  "shortDescription": "Rogz Utility Step-In Reflective Dog Harness has a reflective yarn woven into the webbing for night time visibility so that everyone is aware that you ",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/SSJ05-K.jpg",
-  "sku": "PSK-19823",
-  "brand": "PetStore Kenya",
-  "weight_kg": 0.3,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/SSJ05-K.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

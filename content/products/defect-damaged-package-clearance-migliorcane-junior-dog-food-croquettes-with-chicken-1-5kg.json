@@ -3,8 +3,8 @@
   "name": "DEFECT/DAMAGED PACKAGE CLEARANCE: Migliorcane Junior Dog Food Croquettes With Chicken 1.5kg",
   "slug": "defect-damaged-package-clearance-migliorcane-junior-dog-food-croquettes-with-chicken-1-5kg",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "COMPOSITION: Cereals, meat and animal derivatives 31.5 (chicken 4%), oils and fats, derivatives of vegetable origin, minerals, yeasts (yeast products sources of nucleotides 0.12%). ANALYTICAL CONSTITUENTS: Crude protein 25.00%, Crude fibres 2.00%, Crude Fat 12.00%, Crude ash 6.00%, Calcium 1.8%, Phosphorus 1.1%, Omega 3 fatty acids 0.25%, Omega 6 fatty acids 1.4%. Nutritional additives /kg: Vitamin A 19000 UI, Vitamin D3 1320 UI, Vitamin E 100 mg, Vitamin B1 16.2 mg, Vitamin B2 5.5 mg, Vitamin B6 5.7 mg, Vitamin B12 0.03 mg, Niacin 54.5 mg, Biotin 0.2 mg, Calcium D-pantothenate 68.2 mg, Folic acid 1.6 mg, Zinc (Zinc oxide) 140 mg, Iron (Iron (II) carbonate (siderite)) 100 mg, Copper (Copper II sulphate pentahydrate) 12 mg, Manganese (Manganese (II) oxide) 8.0 mg, Iodine (Potassium iodide) 3 mg, Selenium (Sodium selenite) 0.2 mg. Antioxidants. HOW TO USE: The product is ready to use. The daily amount recommended may vary due to age or particular needs of every dog. We suggest to switch gradually to the new food. Leave always available to your dog a bowl of pure water. It is recommended to divide the daily dosage into 3 - 4 meals up to six months; subsequently it is recommended to divide it into 2 meals a day. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight",
-  "images": [
-    {
-      "id": 39128,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MDD001.jpg",
-      "alt": "DEFECT/DAMAGED PACKAGE CLEARANCE: Migliorcane Junior Dog Food Croquettes With Chicken 1.5kg",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=39128",
-  "addToCartUrl": "https://petstore.co.ke/product/defect-damaged-package-clearance-migliorcane-junior-dog-food-croquettes-with-chicken-1-5kg/?add-to-cart=39128",
-  "shortDescription": "COMPOSITION: Cereals, meat and animal derivatives 31.5 (chicken 4%), oils and fats, derivatives of vegetable origin, minerals, yeasts (yeast products ",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MDD001.jpg",
-  "sku": "PSK-39128",
-  "brand": "PetStore Kenya",
-  "weight_kg": 1.5,
-  "animal_type": "dog",
-  "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MDD001.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

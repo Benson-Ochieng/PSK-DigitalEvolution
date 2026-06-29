@@ -3,8 +3,8 @@
   "name": "Dog Fest Calcium Bones With Chicken 55G",
   "slug": "dog-fest-calcium-bones-with-chicken-55g",
   "onSale": false,
-  "price": 260,
-  "regularPrice": 260,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,50 +16,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "We specifically made smaller bones for smaller dogs. Enriched with calcium, covered with chicken fillet strips, this great tasting treat supports healthy teeth and bones. Composition: chicken, calcium bone, vegetable by-products, minerals. Analytical constituents, %: crude protein 24, crude fat 2.5, crude fiber 0.2, crude ash 4, moisture 18.",
-  "images": [
-    {
-      "id": 27099,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/DF008.jpg",
-      "alt": "Dog Fest Calcium Bones With Chicken 55G",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=27099",
-  "addToCartUrl": "https://petstore.co.ke/product/dog-fest-calcium-bones-with-chicken-55g/?add-to-cart=27099",
-  "shortDescription": "We specifically made smaller bones for smaller dogs. Enriched with calcium, covered with chicken fillet strips, this great tasting treat supports heal",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/DF008.jpg",
-  "sku": "PSK-27099",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/DF008.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

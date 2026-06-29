@@ -3,8 +3,8 @@
   "name": "Bioline Beef Sausage 15g X 30pcs",
   "slug": "bioline-beef-sausage-15g-x30pcs",
   "onSale": false,
-  "price": 650,
-  "regularPrice": 650,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -26,50 +26,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "BIOLINE BEEF SAUSAGE: The product contains unsaturated fatty acids and trace elements, rich in high-quality protein, very tasty and can be used as a reward in training. Ingredients: Beef (60%), Water, Corn Starch, Soya Protein, Sucrose Additive Composition: Caragel, Sodium Chloride Suitable for All Dogs",
-  "images": [
-    {
-      "id": 39891,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/09/Bioline-beefsausage-1.jpg",
-      "alt": "Bioline Beef Sausage 15g X 30pcs",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=39891",
-  "addToCartUrl": "https://petstore.co.ke/product/bioline-beef-sausage-15g-x30pcs/?add-to-cart=39891",
-  "shortDescription": "BIOLINE BEEF SAUSAGE: The product contains unsaturated fatty acids and trace elements, rich in high-quality protein, very tasty and can be used as a r",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/09/Bioline-beefsausage-1.jpg",
-  "sku": "PSK-39891",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/09/Bioline-beefsausage-1.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

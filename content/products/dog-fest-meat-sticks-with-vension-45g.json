@@ -3,8 +3,8 @@
   "name": "Dog Fest Meat Sticks With Vension (45G)",
   "slug": "dog-fest-meat-sticks-with-vension-45g",
   "onSale": false,
-  "price": 190,
-  "regularPrice": 190,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -26,50 +26,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Meat sticks with wild taste. Training will be even more exciting now. These exotic meats have a great smell and taste. Dogs would do anything for it. Composition: duck, venison, vegetable by-products, minerals. Analytical constituents, %: crude protein 28, crude fat 10, crude fiber 1, crude ash 5, moisture 21.",
-  "images": [
-    {
-      "id": 27271,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/DF029.jpg",
-      "alt": "Dog Fest Meat Sticks With Vension (45G)",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=27271",
-  "addToCartUrl": "https://petstore.co.ke/product/dog-fest-meat-sticks-with-vension-45g/?add-to-cart=27271",
-  "shortDescription": "Meat sticks with wild taste. Training will be even more exciting now. These exotic meats have a great smell and taste. Dogs would do anything for it. ",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/DF029.jpg",
-  "sku": "PSK-27271",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/DF029.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

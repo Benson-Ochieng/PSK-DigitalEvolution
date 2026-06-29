@@ -3,8 +3,8 @@
   "name": "Bavaro-Work 26/12 18kg",
   "slug": "bavaro-work-26-12-18kg",
   "onSale": false,
-  "price": 0,
-  "regularPrice": 0,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Composition: meat and animal by-products, cereals, vegetable by-products; oils and fats; minerals. Protein 26% Fat content 12%, Crude fibre 2.3%, Crude ash 8.0%, Calcium 1.9%, Phosphorus 1.4%, Metabolisable energy* MJ/kg15.25 Metabolisable energy* kcal/kg3646 Product Details: The energy and protein content of BAVARO Work is tailored to working dogs facing constant demands. For Performance & activity. Complete feed for adult dogs.",
-  "images": [
-    {
-      "id": 23731,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JDBW.jpg",
-      "alt": "Bavaro-Work 26/12 18kg",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=23731",
-  "addToCartUrl": "https://petstore.co.ke/product/bavaro-work-26-12-18kg/?add-to-cart=23731",
-  "shortDescription": "Composition: meat and animal by-products, cereals, vegetable by-products; oils and fats; minerals. Protein 26% Fat content 12%, Crude fibre 2.3%, Crud",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JDBW.jpg",
-  "sku": "PSK-23731",
-  "brand": "Josera",
-  "weight_kg": 18,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JDBW.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

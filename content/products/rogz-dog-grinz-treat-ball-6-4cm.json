@@ -3,8 +3,8 @@
   "name": "Rogz Dog Grinz Treat Ball 6.4cm",
   "slug": "rogz-dog-grinz-treat-ball-6-4cm",
   "onSale": false,
-  "price": 920,
-  "regularPrice": 920,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,50 +16,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "",
-  "images": [
-    {
-      "id": 52806,
-      "src": "/images/psk_logo.png",
-      "alt": "Rogz Dog Grinz Treat Ball 6.4cm",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=52806",
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-6-4cm/?add-to-cart=52806",
-  "shortDescription": "",
-  "thumbnail": "/images/psk_logo.png",
-  "sku": "PSK-52806",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "/images/psk_logo.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }
