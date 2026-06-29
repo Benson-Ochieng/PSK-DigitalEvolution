@@ -30,7 +30,7 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/shop">
+                  <Link to="/pet-avenue">
                     <i className="fa fa-info-circle footer-inline-icon"></i> Pet Avenue
                   </Link>
                 </li>
