@@ -3,8 +3,8 @@
   "name": "Magic Perfume -gardenia Scent 118ml",
   "slug": "magic-perfume-gardenia-scent-118ml",
   "onSale": false,
-  "price": 812,
-  "regularPrice": 812,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,22 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "MAGIC PERFUME-GARDENIA SCENT: This product selects Gardenia essence, which is fresh elegant, brings an extraordinary sense of smell to pets and adds FORESTALL Soybean extracts to eliminate odour effectively. It is a good choice for home care. Instructions for Use: Shake well before use. Warning: Do not spray at your pet's mouth, nose, eyes or ears.",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 39899,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/09/Magic-PERFUME-FOR-PETS-GARDENIA.jpg",
-      "alt": "Magic Perfume -gardenia Scent 118ml",
-      "name": "thumbnail"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/product/magic-perfume-gardenia-scent-118ml/",
-  "addToCartUrl": "https://petstore.co.ke/product/magic-perfume-gardenia-scent-118ml/?add-to-cart=39899",
-  "shortDescription": "MAGIC PERFUME-GARDENIA SCENT: This product selects Gardenia essence, which is fresh elegant, brings an extraordinary sense of smell to pets and adds F",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/09/Magic-PERFUME-FOR-PETS-GARDENIA.jpg",
-  "sku": "PSK-39899",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/09/Magic-PERFUME-FOR-PETS-GARDENIA.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

@@ -36,7 +36,12 @@
   "type": "simple",
   "description": "Non-slip and ergonomic designed handle is easy and comfortable to grip Suitable for long and short-haired dogs or cats Can be used to groom and massage pets for healthy hair, increasing blood circulation effectively and leaving your pets’ hair soft and shiny.",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

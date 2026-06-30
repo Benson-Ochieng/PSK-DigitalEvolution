@@ -3,8 +3,8 @@
   "name": "J4D 2-in-1 Deodorising Detangling Spray 300ml",
   "slug": "j4d-2-in-1-deodorising-detangling-spray-300m",
   "onSale": false,
-  "price": 645,
-  "regularPrice": 645,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -30,51 +30,23 @@
       "slug": "dog-shampoo"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
+  "inStock": false,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "J4D 2 In 1 Deodorising & Detangling Spray 300ml is a lightweight, multi-functional hair spray designed to keep hair fresh, soft, and tangle-free all day. Its non-greasy formula instantly neutralises unpleasant odours while gently detangling knots, leaving hair smooth, manageable, and revitalised. Perfect for everyday use, this convenient 2-in-1 spray simplifies your hair care routine by combining deodorising and detangling in one easy step. Ideal for busy mornings, post-workout refreshes, or on-the-go hair care, it works effortlessly on all hair types and textures. Key Features 300ml 2-in-1 deodorising & detangling spray Lightweight, non-greasy formula Instantly refreshes hair and removes odours Gently detangles knots without breakage Benefits for Consumers Keeps hair fresh throughout the day Makes combing easier and reduces tangles Leaves hair soft, smooth, and manageable Ideal for daily use and active lifestyles Product Advantages Combines deodorising and detangling in one step Suitable for all hair types and textures Quick, convenient solution for everyday hair maintenance How to Use Spray evenly onto damp or dry hair Gently comb through to detangle Use daily or as needed for refreshed, manageable hair Benefits for Retailers High-appeal multi-functional haircare product Drives impulse and repeat purchases Complements shampoos, conditioners, and styling products &nbsp; &nbsp; &nbsp;",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 68630,
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/Deoorisingdeatangling-shampoo-300ml.png",
-      "alt": "J4D 2-in-1 Deodorising Detangling Spray 300ml",
-      "name": "thumbnail"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "J4D",
-      "slug": "j4d"
-    }
-  ],
+  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/product/j4d-2-in-1-deodorising-detangling-spray-300m/",
-  "addToCartUrl": "https://petstore.co.ke/product/j4d-2-in-1-deodorising-detangling-spray-300m/?add-to-cart=68630",
-  "shortDescription": "J4D 2 In 1 Deodorising & Detangling Spray 300ml is a lightweight, multi-functional hair spray designed to keep hair fresh, soft, and tangle-free all d",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/Deoorisingdeatangling-shampoo-300ml.png",
-  "sku": "PSK-68630",
-  "brand": "J4D",
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/Deoorisingdeatangling-shampoo-300ml.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

@@ -3,8 +3,8 @@
   "name": "Trendy Cat Carrier Basket",
   "slug": "cat-carrier",
   "onSale": false,
-  "price": 680,
-  "regularPrice": 680,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -36,50 +36,22 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Discover the ultimate blend of style and functionality with our Multipurpose Trendy Basket with Lid. Perfect for a range of uses, this versatile basket is ideal as a pet carrier or toy storage solution. Key Features: Stylish Design: Sleek and trendy, this basket complements any décor while offering practical utility. Pet Carrier: Safely transport your furry friends with ease. The basket features ventilation holes for optimal airflow, ensuring your pet's comfort during travel. Toy Storage: Keep toys organized and within reach. The spacious interior and secure lid make it easy to store and access your child's favorite playthings. Folding Handles: Ergonomically designed handles make carrying the basket a breeze, whether you’re heading to the park or just moving it around the house. Easy to clean: Ventilation Holes: Strategically placed holes provide excellent airflow, keeping contents fresh and ventilated. Elevate your organization game and travel convenience with this chic and practical basket. &nbsp;",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 36383,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/04/PET-CARRIER-e1725627385990.png",
-      "alt": "Trendy Cat Carrier Basket",
-      "name": "thumbnail"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/product/cat-carrier/",
-  "addToCartUrl": "https://petstore.co.ke/product/cat-carrier/?add-to-cart=36383",
-  "shortDescription": "Discover the ultimate blend of style and functionality with our Multipurpose Trendy Basket with Lid. Perfect for a range of uses, this versatile baske",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/04/PET-CARRIER-e1725627385990.png",
-  "sku": "PSK-36383",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/04/PET-CARRIER-e1725627385990.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

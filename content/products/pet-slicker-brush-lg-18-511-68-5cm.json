@@ -3,8 +3,8 @@
   "name": "Pet Slicker Brush Large 18.5x11.6x8.5cm",
   "slug": "pet-slicker-brush-lg-18-511-68-5cm",
   "onSale": false,
-  "price": 1200,
-  "regularPrice": 1200,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,22 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Slicker Brush for Shedding Hair Material: plastic with extra soft pins The finely-curved, flexible pins help to untangle knots and remove hair Suitable for pets with a short or long coat The rubber handle ensures a better grip",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 45050,
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/03/slickerbrush.jpg",
-      "alt": "Pet Slicker Brush Large 18.5x11.6x8.5cm",
-      "name": "thumbnail"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=45050",
-  "addToCartUrl": "https://petstore.co.ke/product/pet-slicker-brush-lg-18-511-68-5cm/?add-to-cart=45050",
-  "shortDescription": "Slicker Brush for Shedding Hair Material: plastic with extra soft pins The finely-curved, flexible pins help to untangle knots and remove hair Suitabl",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/03/slickerbrush.jpg",
-  "sku": "PSK-45050",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/03/slickerbrush.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

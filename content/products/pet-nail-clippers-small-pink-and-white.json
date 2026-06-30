@@ -66,7 +66,12 @@
   "type": "simple",
   "description": "Small size pet nail clippers with file. Colour: Blue and white. usage method: Grasp Pet's Foot steady. Put the tip of pet nails into the knife and trim them slowly, several times. Avoid cutting blood lines into pet nails and causing bleeding. Avoid one-off large-area manicure of pet nails. When using nail clippers, please use safety shield to gradually trim, so as not to hurt toes by too much trimming. If the pet's nails are too long, first trim a small part of the nail tips, every other week until the nails reach the appropriate length, leaving enough time for the pet to adapt. After trimming the nails, use the matching file to rub the nails until they are smooth.",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

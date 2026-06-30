@@ -36,7 +36,12 @@
   "type": "simple",
   "description": "Mpets Natural Deshedding Conditioner 250Ml",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

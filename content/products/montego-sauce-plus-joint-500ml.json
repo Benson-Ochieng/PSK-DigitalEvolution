@@ -3,8 +3,8 @@
   "name": "Montego Sauce Plus Joint - 500ml",
   "slug": "montego-sauce-plus-joint-500ml",
   "onSale": false,
-  "price": 1100,
-  "regularPrice": 1100,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -30,51 +30,23 @@
       "slug": "dog-supplements"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
+  "inStock": false,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "A little sauce goes a long way in turning nutritious meals into extra delicious ones! Specially formulated for adult dogs, Sauce for Dogs is a flavour-packed topper designed to support joint and cartilage health with added glucosamine and chondroitin . Made with real chicken stock , seasonal fruits and vegetables, and a blend of functional ingredients, this tasty sauce enhances the flavour of dry food while delivering added nutritional benefits. Whether served on top or mixed in, it’s an easy way to make every mealtime feel like a treat. Key Features: Joint & Cartilage Support: Includes glucosamine (50 mg) and chondroitin (30 mg) Tasty Roast Chicken Flavour: Dogs love the rich, savoury taste Serve Your Way: Pour over or mix into dry food Up to 30 Servings Per Bottle: Approx. 1 tbsp per ½ cup of dry food Ingredients: Water, chicken stock, corn starch, seasonal fruits & vegetables, sugars, acidity regulator, yeast extract, salt, stabiliser gums, spices, omega-3 powder (fish oil source), antioxidants (Tocopherols) ADDITIVES: &nbsp;SENSORY: Caramel and flavouring PRESERVATIVES: &nbsp;Vinegar and potassium sorbate Nutritional Information Nutrient Amount Crude Protein 2% Total Fat 2.75% Crude Fibre 0.35% Moisture 87.5% Omega-6 fatty acids 0.3% Omega-3 fatty acids 0.05% DHA 0.025% EPA 10mg/kg Preserved naturally with vinegar and potassium sorbate. Contains no artificial colours. Not suitable for: Puppies, kittens, cats, pregnant or lactating dogs, overweight/obese dogs, or dogs with specific health conditions. Always consult your vet if unsure.",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 56725,
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/sauce.png",
-      "alt": "Montego Sauce Plus Joint - 500ml",
-      "name": "thumbnail"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Montego",
-      "slug": "montego"
-    }
-  ],
+  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/product/montego-sauce-plus-joint-500ml/",
-  "addToCartUrl": "https://petstore.co.ke/product/montego-sauce-plus-joint-500ml/?add-to-cart=56725",
-  "shortDescription": "A little sauce goes a long way in turning nutritious meals into extra delicious ones! Specially formulated for adult dogs, Sauce for Dogs is a flavour",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/sauce.png",
-  "sku": "PSK-56725",
-  "brand": "Montego",
-  "weight_kg": 0.1,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/sauce.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

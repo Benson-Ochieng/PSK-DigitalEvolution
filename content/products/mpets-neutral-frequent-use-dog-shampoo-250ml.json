@@ -36,7 +36,12 @@
   "type": "simple",
   "description": "Description: This shampoo provides particularly mild care and is free of fragrances and colorants",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

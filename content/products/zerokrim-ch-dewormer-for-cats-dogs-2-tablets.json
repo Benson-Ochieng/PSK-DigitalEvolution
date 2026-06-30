@@ -3,8 +3,8 @@
   "name": "Zerokrim CH Dewormer for Cats & Dogs - 2 Tablets",
   "slug": "zerokrim-ch-dewormer-for-cats-dogs-2-tablets",
   "onSale": false,
-  "price": 300,
-  "regularPrice": 300,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -45,51 +45,23 @@
       "slug": "zerokrim-ch"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
+  "inStock": false,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Broad-spectrum deworming solution for both cats and dogs Zerokrim CH is a broad-spectrum deworming tablet formulated for the effective treatment and control of roundworms, hookworms, tapeworms, and whipworms in both cats and dogs. Each tablet is designed to deliver fast-acting relief and help keep your pets healthy, active, and free from internal parasites. Suitable for both cats and dogs , Zerokrim CH makes deworming simple and convenient with a single oral dose and can be used as part of a regular worm control program. Key Benefits: Effective against tapeworms, roundworms, hookworms, and whipworms Suitable for cats and dogs of all breeds Easy oral administration Can be used in pets over 6 weeks of age Helps improve digestive health and overall vitality Dosage & Administration: Administer orally according to your pet’s body weight For dogs and cats: 1 tablet per 10 kg body weight (or as directed by a vet) Deworming should be done every 3 months or as advised by your veterinarian Active Ingredients: Praziquantel – effective against tapeworms Pyrantel Pamoate – targets roundworms and hookworms Febantel – combats whipworms Precautions: Not recommended for use in puppies or kittens under 6 weeks of age Do not exceed the recommended dosage Consult your vet before use in pregnant or lactating animals Storage: Store in a cool, dry place below 25°C Keep out of reach of children and pets Use within the expiry date mentioned on the packaging &nbsp;",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 59352,
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/09/zerochrim-2-tablets-.png",
-      "alt": "Zerokrim CH Dewormer for Cats & Dogs - 2 Tablets",
-      "name": "thumbnail"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Zerokrim CH",
-      "slug": "zerokrim-ch"
-    }
-  ],
+  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/product/zerokrim-ch-dewormer-for-cats-dogs-2-tablets/",
-  "addToCartUrl": "https://petstore.co.ke/product/zerokrim-ch-dewormer-for-cats-dogs-2-tablets/?add-to-cart=59352",
-  "shortDescription": "Broad-spectrum deworming solution for both cats and dogs Zerokrim CH is a broad-spectrum deworming tablet formulated for the effective treatment and c",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/09/zerochrim-2-tablets-.png",
-  "sku": "PSK-59352",
-  "brand": "Zerokrim CH",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/09/zerochrim-2-tablets-.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

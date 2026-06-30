@@ -31,7 +31,12 @@
   "type": "simple",
   "description": "Premium Large Dog pooper scoop - Pink",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

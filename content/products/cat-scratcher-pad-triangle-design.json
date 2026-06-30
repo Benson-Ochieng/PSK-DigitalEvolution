@@ -36,7 +36,12 @@
   "type": "simple",
   "description": "Cat Scratcher Cardboard Scratch Pad. Reversible Triangle design with Catnip. Ideal for indoor cats. The easiest way to protect your furniture and provide your cat with a place to scratch away. Size 25cm x 25cm x 25cm",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

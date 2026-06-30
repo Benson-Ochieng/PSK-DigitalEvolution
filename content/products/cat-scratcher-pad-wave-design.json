@@ -36,7 +36,12 @@
   "type": "simple",
   "description": "Cat Scratcher Cardboard Scratch Pad. Reversible wave design with Catnip. Ideal for indoor cats. The easiest way to protect your furniture and provide your cat with a place to scratch away. Size 44cm x 21cm x 4cm",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

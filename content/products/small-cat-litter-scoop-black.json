@@ -31,7 +31,12 @@
   "type": "simple",
   "description": "Small Plastic cat litter scooper",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

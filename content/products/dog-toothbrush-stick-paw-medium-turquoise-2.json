@@ -36,7 +36,12 @@
   "type": "simple",
   "description": "Dog Toothbrush Stick Chew Toy. The paw base makes it easier for the dog to hold and promotes the dog's tooth cleaning and chewing pleasure. It has bristles on all sides. It can clean teeth in all directions. It is easy to clean and use.",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

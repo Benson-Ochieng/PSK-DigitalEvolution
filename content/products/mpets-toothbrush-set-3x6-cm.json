@@ -36,7 +36,12 @@
   "type": "simple",
   "description": "Mpets Toothbrush Set (3x6 cm)",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

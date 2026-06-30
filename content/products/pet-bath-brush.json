@@ -36,7 +36,12 @@
   "type": "simple",
   "description": "High Quality Material: Made from high-quality soft TRP rubber material and craftsmanship, the dog bath brush scrubber is safe, comfortable, durable and will not harm the pets’ skin. Adjustable Handle: The dog bath brush handle comes with perfect adjustable ring grip handle to fit different sizes of hands comfortably, firmly fixed between the palms. Three-In-One: Pet grooming brush can be used not only to bathe pets, but also to massage pets, hair removal, newly upgraded three-in-one pet grooming brush for any long hair and short hair or thick hair pets. Easy to Use, Clean & Portable: The adjustable handle and lightweight brush makes using easier and more convenient, and it also easy to carry when travel. The professional bathing supplies will help your pet enjoy bath-time and fall in love with bath. Just wash it with water and dry naturally after use.",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

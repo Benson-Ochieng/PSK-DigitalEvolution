@@ -46,7 +46,12 @@
   "type": "simple",
   "description": "This Cat Litter Box combines beauty and functionality with; Spacious hood provides privacy for kitty. Hinged door to help contains odor and “doorstep” grate helps remove excess litter from kitty’s paws. Includes matching litter scoop for easy cleaning. size: 56x38x62cm",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

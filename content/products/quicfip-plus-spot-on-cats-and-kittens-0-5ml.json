@@ -36,7 +36,12 @@
   "type": "simple",
   "description": "QuicFIP Plus Spot On, designed for cats and kittens, offers enduring, swift-acting, and waterproof defence against fleas and ticks. This proven treatment is highly effective in eliminating adult fleas, flea eggs, flea larvae, chewing lice, and ticks, including those that may transmit Lyme disease. Pet owners have relied on QuicFIP Plus Spot-On for Cats for more than a decade. This monthly treatment is suitable for cats aged eight weeks or older, weighing 1.5 pounds or more. Compared to Frontline. Formulated with two active ingredients, fipronil and (S)-Methoprene, it disrupts the flea life cycle by eradicating adult fleas, as well as their eggs and larvae, and prevents future infestations. A single, rapid-acting topical application offers complete protection for a full 30 days. Dosage: For Cats above 0.8kg: use 0.50 ml Pipet (Comes in Box 6 Tubes of 0.67ml which is Six- month supply).",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

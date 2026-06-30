@@ -3,8 +3,8 @@
   "name": "Drontal Dewormers For Medium Dogs 4 Chewables",
   "slug": "drontal-dewomers-for-medium-dogs-4-tablets",
   "onSale": false,
-  "price": 2400,
-  "regularPrice": 2400,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -26,50 +26,22 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Keep your dog healthy, protected, and free from harmful intestinal parasites with Drontal Flavoured Deworming Chewables for Medium Dogs . Formulated with a powerful combination of Praziquantel, Febantel, and Pyrantel embonate , Drontal provides broad-spectrum protection against the most common and damaging worms found in dogs. This trusted veterinary remedy targets both adult and immature stages of Ascarids (roundworms), Hookworms, Tapeworms, and adult Whipworms , ensuring a thorough and reliable deworming process. Drontal is also an effective treatment for Giardiasis , a common protozoal infection, when administered for two consecutive days. Designed for easy dosing, each chewable treats 10 kg of body weight and can be given directly or mixed with food—no fasting required. With a tasty flavour dogs love and a proven safety profile, Drontal is suitable for all dogs , including puppies and pregnant bitches , making it a convenient and dependable choice for routine parasite control. Key Benefits Broad-spectrum protection against roundworms, hookworms, tapeworms, and whipworms. Effective against Giardiasis when used for 2 consecutive days. Easy administration: one tablet per 10 kg body weight; can be given with or without food. Dog-friendly flavoured Chewables for stress-free dosing. Safe for all dogs , including puppies and pregnant females. Veterinarian-trusted formula containing: Praziquantel – 50 mg Febantel – 150 mg Pyrantel embonate – 144 mg Ensure your dog remains healthy and parasite-free with the reliable protection of Drontal Flavoured Chewables for Medium Dogs . &nbsp; &nbsp; &nbsp;",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 63472,
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/12/Drontal-2.png",
-      "alt": "Drontal Dewormers For Medium Dogs 4 Chewables",
-      "name": "thumbnail"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/product/drontal-dewomers-for-medium-dogs-4-tablets/",
-  "addToCartUrl": "https://petstore.co.ke/product/drontal-dewomers-for-medium-dogs-4-tablets/?add-to-cart=63472",
-  "shortDescription": "Keep your dog healthy, protected, and free from harmful intestinal parasites with Drontal Flavoured Deworming Chewables for Medium Dogs . Formulated w",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/12/Drontal-2.png",
-  "sku": "PSK-63472",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/12/Drontal-2.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

@@ -3,8 +3,8 @@
   "name": "Ricarica Baby Lindo Wipes 200pcs",
   "slug": "ricarica-baby-lindo-wipes-200-pcs",
   "onSale": false,
-  "price": 1750,
-  "regularPrice": 1750,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,22 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "The wet wipes Baby Lindo are ideal for cleaning the babies at the nappy's change. The skin will be cleaned, dry, perfumed and soft. Always reseal your pack with pop-up lid to prevent wipes drying out after use. 200pcs Made in Italy.",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 44605,
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/02/Baby-lindo-wipes-200pc.png",
-      "alt": "Ricarica Baby Lindo Wipes 200pcs",
-      "name": "thumbnail"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=44605",
-  "addToCartUrl": "https://petstore.co.ke/product/ricarica-baby-lindo-wipes-200-pcs/?add-to-cart=44605",
-  "shortDescription": "The wet wipes Baby Lindo are ideal for cleaning the babies at the nappy's change. The skin will be cleaned, dry, perfumed and soft. Always reseal your",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/02/Baby-lindo-wipes-200pc.png",
-  "sku": "PSK-44605",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/02/Baby-lindo-wipes-200pc.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

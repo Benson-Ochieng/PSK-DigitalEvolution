@@ -3,8 +3,8 @@
   "name": "Cs Pet Anti-Chew Bitterness Stop",
   "slug": "cs-pet-anti-chew-bitterness-stop",
   "onSale": false,
-  "price": 297,
-  "regularPrice": 297,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -30,51 +30,23 @@
       "slug": "dog-hygiene-potty-solutions"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
+  "inStock": false,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Protect your belongings from unwanted chewing with our Dog Anti-Chew Bitterness Spray. This safe, effective, and easy-to-use solution is designed to deter your furry friend from chewing on furniture, shoes, cords, and other household items. The bitter taste is unpleasant to dogs but completely safe for them, helping to break the habit of destructive chewing. Key Features: Safe & Non-Toxic : Formulated with natural, dog-safe ingredients that are gentle yet effective. Strong Bitter Taste : Discourages chewing without harm, making it ideal for training and behavior modification. Multi-Surface Use : Suitable for use on furniture, shoes, plants, cords, and other household items. Quick-Drying & Long-Lasting : Once applied, it dries quickly and continues to provide protection against chewing. Easy to Apply : Convenient spray bottle for precise application on surfaces or objects you want to protect. Help your dog learn what’s off-limits and keep your home safe with our Dog Anti-Chew Bitterness Spray—an essential tool for every pet parent looking to curb destructive behavior. Directions : Spray directly onto surfaces or items your dog tends to chew. Reapply as necessary, especially after cleaning or after extended exposure to moisture. Caution : Keep out of reach of children. If contact with eyes or skin occurs, rinse thoroughly with water. Features: 1. Contains tea tree oil and bitter ingredients that are safe for pets. 2. Suitable for furniture, clothing, shoes, floor blinds, plants, dog fur. 3.Train your dog not to chew or chew inappropriately and designed to relieve gum pain with a chew toy. 4.Easy to use. 5.Great gift for dogs and cats. Specifications: Name: No Chew Spray for Dogs Volume: 1.7 fl oz (50 Shelf Life: 3 years. Weight: Approx. 2.5 oz (72 Storage: Store in a cool dry place Product function: Prevent pets from chewing and chewing",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 52876,
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/01/CS-PET-ANTI-CHEW-STOP.png",
-      "alt": "Cs Pet Anti-Chew Bitterness Stop",
-      "name": "thumbnail"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "CS",
-      "slug": "cs"
-    }
-  ],
+  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/product/cs-pet-anti-chew-bitterness-stop/",
-  "addToCartUrl": "https://petstore.co.ke/product/cs-pet-anti-chew-bitterness-stop/?add-to-cart=52876",
-  "shortDescription": "Protect your belongings from unwanted chewing with our Dog Anti-Chew Bitterness Spray. This safe, effective, and easy-to-use solution is designed to d",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/01/CS-PET-ANTI-CHEW-STOP.png",
-  "sku": "PSK-52876",
-  "brand": "CS",
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/01/CS-PET-ANTI-CHEW-STOP.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

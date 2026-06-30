@@ -36,7 +36,12 @@
   "type": "simple",
   "description": "Mpets Hairball Prevention Shampoo For Cats",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
