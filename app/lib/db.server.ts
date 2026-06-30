@@ -1006,7 +1006,14 @@ export const db = {
   }
 };
 
-// Asynchronously pull latest data from Supabase in background on boot
-pullFromSupabase().catch(err => {
-  console.error("Failed to run boot sync from Supabase:", err);
-});
+declare global {
+  var __petstore_boot_pulled__: boolean | undefined;
+}
+
+if (!global.__petstore_boot_pulled__) {
+  global.__petstore_boot_pulled__ = true;
+  // Asynchronously pull latest data from Supabase in background on boot
+  pullFromSupabase().catch(err => {
+    console.error("Failed to run boot sync from Supabase:", err);
+  });
+}

@@ -5,6 +5,9 @@ import { defineConfig } from "vite";
 export default defineConfig({
   server: {
     port: 3001,
+    watch: {
+      ignored: ["**/content/**"],
+    },
   },
   plugins: [tailwindcss(), reactRouter()],
   resolve: {
