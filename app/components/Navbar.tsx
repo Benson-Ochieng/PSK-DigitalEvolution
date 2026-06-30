@@ -291,18 +291,18 @@ export default function Navbar() {
 
     return (
       <li key={item.name} style={{ display: "flex", flexDirection: "column" }}>
-        <div 
-          className="drawer-menu-item-row" 
-          style={{ 
+        <div
+          className="drawer-menu-item-row"
+          style={{
             borderBottom: depth === 0 ? "1px solid #e2e8f0" : "none",
-            background: depth > 0 ? "#ffffff" : "#f8fafc" 
+            background: depth > 0 ? "#ffffff" : "#f8fafc"
           }}
         >
           <Link
             to={item.path}
             className="drawer-menu-link"
-            style={{ 
-              fontWeight: depth === 0 ? "700" : "500", 
+            style={{
+              fontWeight: depth === 0 ? "700" : "500",
               fontSize: depth === 0 ? "0.95rem" : "0.85rem",
               color: depth === 0 ? "#1e293b" : "#475569",
               paddingLeft: `${1.25 + depth * 0.75}rem`
@@ -433,7 +433,7 @@ export default function Navbar() {
           <ul className="navbar-links" style={{ marginRight: "auto", marginLeft: "1rem" }}>
             <li className="nav-item-dropdown">
               <span className="nav-link dropdown-toggle">
-                Shop By Pet <i className="fa fa-chevron-down toggle-arrow"></i>
+                Shop By Pet <i className="fa fa-caret-down toggle-arrow"></i>
               </span>
               <ul className="dropdown-menu pet-dropdown">
                 <li>
@@ -489,7 +489,7 @@ export default function Navbar() {
 
             <li className="nav-item-dropdown mega-dropdown-container">
               <span className="nav-link dropdown-toggle">
-                Shop By Brands <i className="fa fa-chevron-down toggle-arrow"></i>
+                Shop By Brands <i className="fa fa-caret-down toggle-arrow"></i>
               </span>
               <div className="mega-dropdown-menu brand-mega-menu">
                 <div className="brand-grid">
@@ -516,7 +516,7 @@ export default function Navbar() {
 
             <li className="nav-item-dropdown">
               <span className="nav-link dropdown-toggle">
-                Offers <i className="fa fa-chevron-down toggle-arrow"></i>
+                Offers <i className="fa fa-caret-down toggle-arrow"></i>
               </span>
               <ul className="dropdown-menu offers-dropdown" style={{ minWidth: "180px" }}>
                 <li style={{ borderBottom: "1px solid #eaeaea" }}>
@@ -559,7 +559,7 @@ export default function Navbar() {
               <div className="search-input-container">
                 <input
                   type="text"
-                  placeholder="Search for products, brands or categories..."
+                  placeholder="Search"
                   value={searchVal}
                   onChange={(e) => setSearchVal(e.target.value)}
                   onFocus={() => setIsSearchFocused(true)}
@@ -733,7 +733,7 @@ export default function Navbar() {
             <Link className="cart-nav-btn" to="/cart" title="Shopping Cart" style={{ position: "relative", display: "inline-block", background: "none", border: "none" }}>
               <i className="fa fa-shopping-cart" style={{ fontSize: "30px", color: "#ffffff" }}></i>
               {count > 0 && (
-                <span 
+                <span
                   style={{
                     position: "absolute",
                     top: "-5px",

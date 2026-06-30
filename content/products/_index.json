@@ -1,5 +1,26 @@
 [
   {
+    "id": 12064,
+    "name": "Cat Lover Loyal Customer Bundle",
+    "slug": "cat-lover-loyal-customer-bundle",
+    "sku": "PSK-12064",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 1304,
+        "name": "Clearance",
+        "slug": "clearance"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
     "id": 18048,
     "name": "Dog Scooper- Pink",
     "slug": "dog-scooper-pink",
@@ -33,6 +54,27 @@
         "slug": "pet-care"
       }
     ],
+    "status": "publish"
+  },
+  {
+    "id": 52832,
+    "name": "Rogz Reflectocat Safety Collar Small Red Fish",
+    "slug": "rogz-reflectocat-safety-collar-small-red-fish-2",
+    "sku": "PSK-52832",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
     "status": "publish"
   },
   {
@@ -84,6 +126,1000 @@
         "slug": "pet-care"
       }
     ],
+    "status": "publish"
+  },
+  {
+    "id": 52807,
+    "name": "Rogz Dog Gumz Treat Ball 6.4cm",
+    "slug": "rogz-dog-gumz-treat-ball-6-4cm",
+    "sku": "PSK-52807",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52831,
+    "name": "Rogz Reflectocat Safety Collar Small Lime Fish",
+    "slug": "rogz-reflectocat-safety-collar-small-lime-fish",
+    "sku": "PSK-52831",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52817,
+    "name": "Rogz Dog Utility Side Release Collar Small Black",
+    "slug": "rogz-dog-utility-side-release-collar-small-black-2",
+    "sku": "PSK-52817",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52800,
+    "name": "Reflex Plus Light And Sterilised Dog Food Lamb And Rice 15kg",
+    "slug": "reflex-plus-light-and-sterilised-dog-food-lamb-and-rice-15-kg-2",
+    "sku": "PSK-52800",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52801,
+    "name": "Reflex Pocket Treats Dental Care 60g",
+    "slug": "reflex-pocket-treats-dental-care-60gr",
+    "sku": "PSK-52801",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52802,
+    "name": "Reflex Pocket Treats Hairball Control 60g",
+    "slug": "reflex-pocket-treats-hairball-controll-60gr",
+    "sku": "PSK-52802",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52803,
+    "name": "Reflex Pocket Treats Sensitive 60g",
+    "slug": "reflex-pocket-treats-sensitive-60gr",
+    "sku": "PSK-52803",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 8436,
+    "name": "SUPER Saver January Cat Bundle: 25 Assorted 100g Bonnie Pouches + ONE 5L Cat Litter",
+    "slug": "super-saver-january-cat-bundle",
+    "sku": "PSK-8436",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 177,
+        "name": "Bonnie",
+        "slug": "bonnie"
+      },
+      {
+        "id": 796,
+        "name": "Proline",
+        "slug": "proline"
+      },
+      {
+        "id": 927,
+        "name": "Sale",
+        "slug": "sale"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 8445,
+    "name": "MEGA Saver January Cat Bundle: 50 Assorted 100g Bonnie Pouches + ONE 5L Cat Litter",
+    "slug": "mega-saver-january-cat-bundle",
+    "sku": "PSK-8445",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 177,
+        "name": "Bonnie",
+        "slug": "bonnie"
+      },
+      {
+        "id": 796,
+        "name": "Proline",
+        "slug": "proline"
+      },
+      {
+        "id": 927,
+        "name": "Sale",
+        "slug": "sale"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 11341,
+    "name": "March Madness Cat Bundle: ONE 1.5kg Reflex Adult Cat Multicolour Chicken + 4 Assorted Reflex Cat Treats",
+    "slug": "march-madness-cat-bundle-one-1-5kg-reflex-adult-cat-multicolour-chicken-four-assorted-reflex-cat-treats",
+    "sku": "PSK-11341",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 927,
+        "name": "Sale",
+        "slug": "sale"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 12067,
+    "name": "Dog Lover Loyal Customer Bundle 1",
+    "slug": "dog-lover-loyal-customer-bundle-1",
+    "sku": "PSK-12067",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 1304,
+        "name": "Clearance",
+        "slug": "clearance"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 12069,
+    "name": "Dog Lover Loyal Customer Bundle 2",
+    "slug": "dog-lover-loyal-customer-bundle-2",
+    "sku": "PSK-12069",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 1304,
+        "name": "Clearance",
+        "slug": "clearance"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52836,
+    "name": "Royal Blue Kids Hoodies with Embroidery Paw - (7-9 Years)",
+    "slug": "royal-blue-kids-hoodies-with-embroidery-paw-7-9-years-2",
+    "sku": "PSK-52836",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52837,
+    "name": "Royal Blue Kids Hoodies with Embroidery Paw - (9-11 Years)",
+    "slug": "royal-blue-kids-hoodies-with-embroidery-paw-9-11-years-2",
+    "sku": "PSK-52837",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52838,
+    "name": "Spectrum Adult Dog Food Derm26 3kg",
+    "slug": "spectrum-adult-dog-food-derm26-3kg",
+    "sku": "PSK-52838",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52839,
+    "name": "Spectrum Lowgain Salmon & Anchovy For Medium And Large Breed Adult Dogs 2.5kg",
+    "slug": "spectrum-low-grain-salmon-anchovy-for-medium-and-large-breed-adult-dogs-2-5kg-3",
+    "sku": "PSK-52839",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52840,
+    "name": "Unique Cat Obesity Chicken & Turkey 2kg",
+    "slug": "unique-cat-obesity-chicken-turkey-2kg",
+    "sku": "PSK-52840",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52841,
+    "name": "Unique Dog Gastro Int Chicken & Rice 3kg",
+    "slug": "unique-dog-gastro-int-chicken-rice-3kg",
+    "sku": "PSK-52841",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 43483,
+    "name": "Generic Dog Collar - 4cm",
+    "slug": "generic-dog-collar-4cm",
+    "sku": "PSK-43483",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 1204,
+        "name": "Accessories",
+        "slug": "accessories"
+      },
+      {
+        "id": 2351,
+        "name": "Collars, Leashes & Harnesses",
+        "slug": "dog-collars-leashes-and-harnesses"
+      },
+      {
+        "id": 2345,
+        "name": "Dog",
+        "slug": "dog-supplies-store"
+      },
+      {
+        "id": 2354,
+        "name": "Dog Collars",
+        "slug": "dog-collars"
+      },
+      {
+        "id": 2096,
+        "name": "Generic",
+        "slug": "generic"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52833,
+    "name": "Royal Blue Hoodies with Embroidery Paw - X Large",
+    "slug": "royal-blue-hoodies-with-embroidery-paw-x-large-2",
+    "sku": "PSK-52833",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52814,
+    "name": "Rogz Dog Utility Control Collar Web X-Large Pink",
+    "slug": "rogz-dog-utility-control-collar-web-x-large-pink-2",
+    "sku": "PSK-52814",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52815,
+    "name": "Rogz Dog Utility Control Collar Web XX-Large Pink",
+    "slug": "rogz-dog-utility-control-collar-web-xx-large-pink-2",
+    "sku": "PSK-52815",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52776,
+    "name": "Pet Ball For Dog Treat 7.5cm",
+    "slug": "pet-ball-for-dog-treat-7-5cm",
+    "sku": "PSK-52776",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52777,
+    "name": "Pet Ball Rubber For Dog Treat",
+    "slug": "pet-ball-rubber-for-dog-treat",
+    "sku": "PSK-52777",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52778,
+    "name": "Pet Ball Spiky Asst Col",
+    "slug": "pet-ball-spiky-asst-col",
+    "sku": "PSK-52778",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52779,
+    "name": "Pet Tennis Ball Paw/Jungle 3pc",
+    "slug": "pet-tennis-ball-paw-jungle-3pc-2",
+    "sku": "PSK-52779",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52780,
+    "name": "Pet Tyre Ball Play Toy 9.5cm",
+    "slug": "pet-tyre-ball-play-toy-9-5cm-3",
+    "sku": "PSK-52780",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52788,
+    "name": "Proline Bentonite Clumping Cat Litter Odourless 5l",
+    "slug": "proline-bentonite-clumping-cat-litter-odourless-5l",
+    "sku": "PSK-52788",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52790,
+    "name": "Proline Canned Cat Food Liver InGravy 415g",
+    "slug": "proline-canned-cat-food-liver-in-gravy-415gr",
+    "sku": "PSK-52790",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52816,
+    "name": "Rogz Dog Utility Control Harness Medium Red",
+    "slug": "rogz-dog-utility-control-harness-medium-red-2",
+    "sku": "PSK-52816",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2351,
+        "name": "Collars, Leashes & Harnesses",
+        "slug": "dog-collars-leashes-and-harnesses"
+      },
+      {
+        "id": 2345,
+        "name": "Dog",
+        "slug": "dog-supplies-store"
+      },
+      {
+        "id": 2352,
+        "name": "Dog Harnesses",
+        "slug": "dog-harnesses"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52804,
+    "name": "Reflex Pocket Treats Skin And Coat 60g",
+    "slug": "reflex-pocket-treats-skin-and-coat-60gr",
+    "sku": "PSK-52804",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52805,
+    "name": "Rogz Dog Grinz Treat Ball 4.9cm Lime Small",
+    "slug": "rogz-dog-grinz-treat-ball-4-9cm-lime-small-2",
+    "sku": "PSK-52805",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52808,
+    "name": "Rogz Doggumz Treat Ball 7.8cm Pink Large",
+    "slug": "rogz-dog-gumz-treat-ball-7-8cm-pink-large-2",
+    "sku": "PSK-52808",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52809,
+    "name": "Rogz Dog Gumz Treats Ball 4.9cm",
+    "slug": "rogz-dog-gumz-treats-ball-4-9cm",
+    "sku": "PSK-52809",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52810,
+    "name": "Rogz Dog Rfo Flying Floating Frisbee Red Large",
+    "slug": "rogz-dog-rfo-flying-floating-frisbee-red-large",
+    "sku": "PSK-52810",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52822,
+    "name": "Rogz Dog Utility Step In Harness Large Pink",
+    "slug": "rogz-dog-utility-step-in-harness-large-pink-2",
+    "sku": "PSK-52822",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2351,
+        "name": "Collars, Leashes & Harnesses",
+        "slug": "dog-collars-leashes-and-harnesses"
+      },
+      {
+        "id": 2345,
+        "name": "Dog",
+        "slug": "dog-supplies-store"
+      },
+      {
+        "id": 2352,
+        "name": "Dog Harnesses",
+        "slug": "dog-harnesses"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52823,
+    "name": "Rogz Dog Utility Step In Harness Small Black",
+    "slug": "rogz-dog-utility-step-in-harness-small-black-2",
+    "sku": "PSK-52823",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2351,
+        "name": "Collars, Leashes & Harnesses",
+        "slug": "dog-collars-leashes-and-harnesses"
+      },
+      {
+        "id": 2345,
+        "name": "Dog",
+        "slug": "dog-supplies-store"
+      },
+      {
+        "id": 2352,
+        "name": "Dog Harnesses",
+        "slug": "dog-harnesses"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52824,
+    "name": "Rogz Dog Yumz Treat Toy Bone 15cm",
+    "slug": "rogz-dog-yumz-treat-toy-bone-15cm",
+    "sku": "PSK-52824",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52825,
+    "name": "Rogz Fashion Classic Collar Medium Zebra",
+    "slug": "rogz-fashion-classic-collar-medium-zebra",
+    "sku": "PSK-52825",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52826,
+    "name": "Rogz Fashion Classic Lead Medium Zebra",
+    "slug": "rogz-fashion-classic-lead-medium-zebra",
+    "sku": "PSK-52826",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52827,
+    "name": "Rogz Fashion Comfy Harness Medium Zebra",
+    "slug": "rogz-fashion-comfy-harness-medium-zebra",
+    "sku": "PSK-52827",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52828,
+    "name": "Rogzglowcat Safety Collar Small Black Jumping Cat",
+    "slug": "rogz-glowcat-safety-collar-small-black-jumping-cat",
+    "sku": "PSK-52828",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52829,
+    "name": "Rogz Lekka Flat Mat Mediumgey/Navy",
+    "slug": "rogz-lekka-flat-mat-medium-grey-navy",
+    "sku": "PSK-52829",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52830,
+    "name": "Rogz Reflectocat Safety Collar Small Blue Fish",
+    "slug": "rogz-reflectocat-safety-collar-small-blue-fish",
+    "sku": "PSK-52830",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
     "status": "publish"
   },
   {
@@ -11401,68 +12437,6 @@
     "status": "publish"
   },
   {
-    "id": 8436,
-    "name": "SUPER Saver January Cat Bundle: 25 Assorted 100g Bonnie Pouches + ONE 5L Cat Litter",
-    "slug": "super-saver-january-cat-bundle",
-    "sku": "PSK-8436",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 177,
-        "name": "Bonnie",
-        "slug": "bonnie"
-      },
-      {
-        "id": 796,
-        "name": "Proline",
-        "slug": "proline"
-      },
-      {
-        "id": 927,
-        "name": "Sale",
-        "slug": "sale"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 8445,
-    "name": "MEGA Saver January Cat Bundle: 50 Assorted 100g Bonnie Pouches + ONE 5L Cat Litter",
-    "slug": "mega-saver-january-cat-bundle",
-    "sku": "PSK-8445",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 177,
-        "name": "Bonnie",
-        "slug": "bonnie"
-      },
-      {
-        "id": 796,
-        "name": "Proline",
-        "slug": "proline"
-      },
-      {
-        "id": 927,
-        "name": "Sale",
-        "slug": "sale"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
     "id": 27483,
     "name": "Mpets Shampoo & Conditioner For Cats And Dogs 250ml",
     "slug": "mpets-shampoo-conditioner-for-cats-and-dogs-250ml",
@@ -12187,69 +13161,6 @@
     "status": "publish"
   },
   {
-    "id": 11329,
-    "name": "March Madness Kitten Bundle: ONE 1.5kg Reflex Kitten Chicken + ONE Reflex Kitten Treat + ONE 5L Proline Cat Litter",
-    "slug": "march-madness-kitten-bundle-1-5kg-reflex-kitten-chicken-5l-prolien-cat-litter-reflex-kitten-treat",
-    "sku": "PSK-11329",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 927,
-        "name": "Sale",
-        "slug": "sale"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 11341,
-    "name": "March Madness Cat Bundle: ONE 1.5kg Reflex Adult Cat Multicolour Chicken + 4 Assorted Reflex Cat Treats",
-    "slug": "march-madness-cat-bundle-one-1-5kg-reflex-adult-cat-multicolour-chicken-four-assorted-reflex-cat-treats",
-    "sku": "PSK-11341",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 927,
-        "name": "Sale",
-        "slug": "sale"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 11343,
-    "name": "Dog Love Bundle: 4 Assorted ENJOY Dog Treats",
-    "slug": "dog-love-bundle-4-assorted-enjoy-dog-treats",
-    "sku": "PSK-11343",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 927,
-        "name": "Sale",
-        "slug": "sale"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
     "id": 11925,
     "name": "Enjoy Dog Treats - 100% Natural Lamb Slice 80g",
     "slug": "enjoy-dog-treats-100-natural-lamb-slice-80g",
@@ -12382,6 +13293,48 @@
         "id": 1304,
         "name": "Clearance",
         "slug": "clearance"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 11329,
+    "name": "March Madness Kitten Bundle: ONE 1.5kg Reflex Kitten Chicken + ONE Reflex Kitten Treat + ONE 5L Proline Cat Litter",
+    "slug": "march-madness-kitten-bundle-1-5kg-reflex-kitten-chicken-5l-prolien-cat-litter-reflex-kitten-treat",
+    "sku": "PSK-11329",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 927,
+        "name": "Sale",
+        "slug": "sale"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 11343,
+    "name": "Dog Love Bundle: 4 Assorted ENJOY Dog Treats",
+    "slug": "dog-love-bundle-4-assorted-enjoy-dog-treats",
+    "sku": "PSK-11343",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 927,
+        "name": "Sale",
+        "slug": "sale"
       }
     ],
     "brands": [],
@@ -12762,69 +13715,6 @@
         "id": 2347,
         "name": "Dog Treats",
         "slug": "dog-treats"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 12064,
-    "name": "Cat Lover Loyal Customer Bundle",
-    "slug": "cat-lover-loyal-customer-bundle",
-    "sku": "PSK-12064",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 1304,
-        "name": "Clearance",
-        "slug": "clearance"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 12067,
-    "name": "Dog Lover Loyal Customer Bundle 1",
-    "slug": "dog-lover-loyal-customer-bundle-1",
-    "sku": "PSK-12067",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 1304,
-        "name": "Clearance",
-        "slug": "clearance"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 12069,
-    "name": "Dog Lover Loyal Customer Bundle 2",
-    "slug": "dog-lover-loyal-customer-bundle-2",
-    "sku": "PSK-12069",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 1304,
-        "name": "Clearance",
-        "slug": "clearance"
       }
     ],
     "brands": [],
@@ -35573,1151 +36463,6 @@
         "id": 796,
         "name": "Proline",
         "slug": "proline"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40401,
-    "name": "DEFECT/DAMAGED PACKAGE-CLEARANCE: Proline Bentonite Clumping Cat Litter - Vanilla Scented 5L",
-    "slug": "defect-damaged-package-clearance-proline-bentonite-clumping-cat-litter-vanilla-scented-5l",
-    "sku": "PSK-40401",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2325,
-        "name": "Cat",
-        "slug": "cat-supplies-store"
-      },
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      },
-      {
-        "id": 2331,
-        "name": "Litter and Litter Box & Accessories",
-        "slug": "cat-litter-and-accessories"
-      },
-      {
-        "id": 796,
-        "name": "Proline",
-        "slug": "proline"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40402,
-    "name": "DEFECT/DAMAGED PACKAGE-CLEARANCE: Proline Bentonite Clumping Cat Litter - Vanilla Scented 10L",
-    "slug": "defect-damaged-package-clearance-proline-bentonite-clumping-cat-litter-vanilla-scented-10l",
-    "sku": "PSK-40402",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2325,
-        "name": "Cat",
-        "slug": "cat-supplies-store"
-      },
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      },
-      {
-        "id": 2331,
-        "name": "Litter and Litter Box & Accessories",
-        "slug": "cat-litter-and-accessories"
-      },
-      {
-        "id": 796,
-        "name": "Proline",
-        "slug": "proline"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40756,
-    "name": "Short Expiry-Clearance: Proline Adult Cat Food Canned - Beef Chunks In Gravy 415g",
-    "slug": "proline-adult-cat-food-canned-beef-chunks-in-gravy-0-415kg-2",
-    "sku": "PSK-40756",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2325,
-        "name": "Cat",
-        "slug": "cat-supplies-store"
-      },
-      {
-        "id": 2326,
-        "name": "Cat Food & Treats",
-        "slug": "cat-food-and-treats"
-      },
-      {
-        "id": 2328,
-        "name": "Dry Cat Food",
-        "slug": "dry-cat-food"
-      },
-      {
-        "id": 796,
-        "name": "Proline",
-        "slug": "proline"
-      },
-      {
-        "id": 2327,
-        "name": "Wet Cat Food",
-        "slug": "wet-cat-food"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40806,
-    "name": "Bonnie Adult Cat Food Chicken 4kg",
-    "slug": "bonnie-adult-cat-food-chicken-4kg-3",
-    "sku": "PSK-40806",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2167,
-        "name": "dry food",
-        "slug": "dry-food"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 52806,
-    "name": "Rogz Dog Grinz Treat Ball 6.4cm",
-    "slug": "rogz-dog-grinz-treat-ball-6-4cm",
-    "sku": "PSK-52806",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40814,
-    "name": "Bonnie Adult Cat Food Pouch - Salmon  Chunks inGravy 85g",
-    "slug": "bonnie-adult-cat-food-pouch-salmon-chunks-in-gravy-85gr",
-    "sku": "PSK-40814",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 177,
-        "name": "Bonnie",
-        "slug": "bonnie"
-      },
-      {
-        "id": 2325,
-        "name": "Cat",
-        "slug": "cat-supplies-store"
-      },
-      {
-        "id": 2326,
-        "name": "Cat Food & Treats",
-        "slug": "cat-food-and-treats"
-      },
-      {
-        "id": 2347,
-        "name": "Dog Treats",
-        "slug": "dog-treats"
-      },
-      {
-        "id": 2327,
-        "name": "Wet Cat Food",
-        "slug": "wet-cat-food"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40816,
-    "name": "SHORT EXPIRY-CLEARANCE: Migliorgatto Adult Cat Food croquettes Beef and Liver 2Kg",
-    "slug": "migliorgatto-adult-cat-food-croquettes-beef-and-liver-2kg",
-    "sku": "PSK-40816",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2325,
-        "name": "Cat",
-        "slug": "cat-supplies-store"
-      },
-      {
-        "id": 2326,
-        "name": "Cat Food & Treats",
-        "slug": "cat-food-and-treats"
-      },
-      {
-        "id": 2328,
-        "name": "Dry Cat Food",
-        "slug": "dry-cat-food"
-      },
-      {
-        "id": 2163,
-        "name": "Miglior",
-        "slug": "miglior"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40819,
-    "name": "Migliorgatto Adult Cat Food Croquettes Chicken And Turkey And Vegetable 2kg",
-    "slug": "migliorgatto-adult-cat-food-croquettes-chicken-and-turkey-and-vegetable-2kg",
-    "sku": "PSK-40819",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2325,
-        "name": "Cat",
-        "slug": "cat-supplies-store"
-      },
-      {
-        "id": 2326,
-        "name": "Cat Food & Treats",
-        "slug": "cat-food-and-treats"
-      },
-      {
-        "id": 2328,
-        "name": "Dry Cat Food",
-        "slug": "dry-cat-food"
-      },
-      {
-        "id": 2163,
-        "name": "Miglior",
-        "slug": "miglior"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40820,
-    "name": "Miglior Cat Food Salmon Alutray - 100g",
-    "slug": "migliorgatto-adult-cat-food-alutray-pate-with-salmon-100gr",
-    "sku": "PSK-40820",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2163,
-        "name": "Miglior",
-        "slug": "miglior"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40821,
-    "name": "Miglior Cat Food Lamb & Liver Alutray - 100g",
-    "slug": "migliorgatto-adult-cat-food-alutray-pate-with-lamb-and-liver-100gr-2",
-    "sku": "PSK-40821",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2163,
-        "name": "Miglior",
-        "slug": "miglior"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40822,
-    "name": "Miglior Cat Food Game Alutray - 100g",
-    "slug": "migliorgatto-adult-cat-food-alutray-pate-with-game-100gr-2",
-    "sku": "PSK-40822",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2163,
-        "name": "Miglior",
-        "slug": "miglior"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40823,
-    "name": "Miglior Cat Food Beef & Heart Alutray - 100g",
-    "slug": "migliorgatto-adult-cat-food-alutray-pate-with-beef-and-heart-100gr",
-    "sku": "PSK-40823",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2325,
-        "name": "Cat",
-        "slug": "cat-supplies-store"
-      },
-      {
-        "id": 2326,
-        "name": "Cat Food & Treats",
-        "slug": "cat-food-and-treats"
-      },
-      {
-        "id": 2163,
-        "name": "Miglior",
-        "slug": "miglior"
-      },
-      {
-        "id": 2327,
-        "name": "Wet Cat Food",
-        "slug": "wet-cat-food"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40824,
-    "name": "Miglior Cat Food Chicken & Rabbit Alutray - 100g",
-    "slug": "migliorgatto-adult-cat-food-alutray-pate-with-chicken-and-rabbit-100gr-2",
-    "sku": "PSK-40824",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2163,
-        "name": "Miglior",
-        "slug": "miglior"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40825,
-    "name": "Miglior Cat Food Pouch - Beef & Carrots 100g",
-    "slug": "migliorgatto-adult-cat-food-pouch-strips-beef-and-carrots-100gr",
-    "sku": "PSK-40825",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2163,
-        "name": "Miglior",
-        "slug": "miglior"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40826,
-    "name": "Miglior Cat Can Veal & Carrots Pate 400g",
-    "slug": "miglior-cat-can-chunks-veal-carrots-in-pate-400gr",
-    "sku": "PSK-40826",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2163,
-        "name": "Miglior",
-        "slug": "miglior"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40827,
-    "name": "Miglior Cat Can Chicken & Turkey Pate 400g",
-    "slug": "miglior-cat-can-chunks-chicken-turkey-in-pate-400gr",
-    "sku": "PSK-40827",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2163,
-        "name": "Miglior",
-        "slug": "miglior"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40828,
-    "name": "Migliorcane Junior Dog Food Croquettes With Chicken 1.5kg",
-    "slug": "migliorcane-junior-dog-food-croquettes-with-chicken-1-5kg",
-    "sku": "PSK-40828",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2345,
-        "name": "Dog",
-        "slug": "dog-supplies-store"
-      },
-      {
-        "id": 2346,
-        "name": "Dog Food & Treats",
-        "slug": "dog-food-treats"
-      },
-      {
-        "id": 2348,
-        "name": "Dry Dog Food",
-        "slug": "dry-dog-food"
-      },
-      {
-        "id": 2163,
-        "name": "Miglior",
-        "slug": "miglior"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40836,
-    "name": "Short Expiry-Clearance: Proline Adult Cat Food Fish 0.5kg",
-    "slug": "proline-adult-cat-food-fish-0-5kg-3",
-    "sku": "PSK-40836",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2325,
-        "name": "Cat",
-        "slug": "cat-supplies-store"
-      },
-      {
-        "id": 2326,
-        "name": "Cat Food & Treats",
-        "slug": "cat-food-and-treats"
-      },
-      {
-        "id": 2328,
-        "name": "Dry Cat Food",
-        "slug": "dry-cat-food"
-      },
-      {
-        "id": 796,
-        "name": "Proline",
-        "slug": "proline"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 45012,
-    "name": "Ankur Regular Non Skid Bowl With Color And Print 950ml",
-    "slug": "ankur-regular-non-skid-bowl-with-color-and-print-950ml",
-    "sku": "PSK-45012",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2041,
-        "name": "Ankur",
-        "slug": "ankur"
-      },
-      {
-        "id": 2325,
-        "name": "Cat",
-        "slug": "cat-supplies-store"
-      },
-      {
-        "id": 2344,
-        "name": "Cat Bowls & Feeders",
-        "slug": "cat-bowls-and-feeders"
-      },
-      {
-        "id": 2345,
-        "name": "Dog",
-        "slug": "dog-supplies-store"
-      },
-      {
-        "id": 2366,
-        "name": "Dog Bowls & Feeders",
-        "slug": "dog-bowls-feeders"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40829,
-    "name": "Migliorcane Adult Dog Food Mini Croquettes With Beef 1.5kg",
-    "slug": "migliorcane-adult-dog-food-mini-croquettes-with-beef-1-5kg",
-    "sku": "PSK-40829",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2345,
-        "name": "Dog",
-        "slug": "dog-supplies-store"
-      },
-      {
-        "id": 2346,
-        "name": "Dog Food & Treats",
-        "slug": "dog-food-treats"
-      },
-      {
-        "id": 2348,
-        "name": "Dry Dog Food",
-        "slug": "dry-dog-food"
-      },
-      {
-        "id": 2163,
-        "name": "Miglior",
-        "slug": "miglior"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40830,
-    "name": "Migliorcane Senior Dog Food Croquettes With Chicken 4kg",
-    "slug": "migliorcane-senior-dog-food-croquettes-with-chicken-4kg",
-    "sku": "PSK-40830",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2345,
-        "name": "Dog",
-        "slug": "dog-supplies-store"
-      },
-      {
-        "id": 2346,
-        "name": "Dog Food & Treats",
-        "slug": "dog-food-treats"
-      },
-      {
-        "id": 2348,
-        "name": "Dry Dog Food",
-        "slug": "dry-dog-food"
-      },
-      {
-        "id": 2163,
-        "name": "Miglior",
-        "slug": "miglior"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40831,
-    "name": "Migliorcane Specialmenu Adult Dog Food Croquettes With Chicken And Vegetables 4kg",
-    "slug": "migliorcane-specialmenu-adult-dog-food-croquettes-with-chicken-and-vegetables-4kg",
-    "sku": "PSK-40831",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2345,
-        "name": "Dog",
-        "slug": "dog-supplies-store"
-      },
-      {
-        "id": 2346,
-        "name": "Dog Food & Treats",
-        "slug": "dog-food-treats"
-      },
-      {
-        "id": 2348,
-        "name": "Dry Dog Food",
-        "slug": "dry-dog-food"
-      },
-      {
-        "id": 2163,
-        "name": "Miglior",
-        "slug": "miglior"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40832,
-    "name": "Miglior Canned Dog Food - Beef Chunks - 405g",
-    "slug": "migliorcane-adult-dog-food-chunks-with-beef-405g",
-    "sku": "PSK-40832",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2163,
-        "name": "Miglior",
-        "slug": "miglior"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40834,
-    "name": "Miglior Dog Food Unico Pouch - Veal 100g",
-    "slug": "migliorcane-unico-adult-mini-delicate-veal-pate-100gr",
-    "sku": "PSK-40834",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2163,
-        "name": "Miglior",
-        "slug": "miglior"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40835,
-    "name": "Miglior Dog Food Unico Pouch - Turkey 100g",
-    "slug": "migliorcane-unico-adult-mini-delicate-turkey-pate-100gr",
-    "sku": "PSK-40835",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2163,
-        "name": "Miglior",
-        "slug": "miglior"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40838,
-    "name": "Proline Kitten Food - Chicken 400g",
-    "slug": "proline-kitten-food-chicken-400g-3-2",
-    "sku": "PSK-40838",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 796,
-        "name": "Proline",
-        "slug": "proline"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40839,
-    "name": "Proline Adult Cat Food Multi Colour 1.2kg",
-    "slug": "proline-adult-cat-food-multi-colour-1-2kg",
-    "sku": "PSK-40839",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 796,
-        "name": "Proline",
-        "slug": "proline"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40840,
-    "name": "Proline Sterilised Cat Food With Chicken 500g",
-    "slug": "proline-sterilised-cat-food-with-chicken-500g-2",
-    "sku": "PSK-40840",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 796,
-        "name": "Proline",
-        "slug": "proline"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40841,
-    "name": "Proline Adult Cat Food Multicolour Chicken 400g",
-    "slug": "proline-adult-cat-food-multicolour-chicken-400gr",
-    "sku": "PSK-40841",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 796,
-        "name": "Proline",
-        "slug": "proline"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40873,
-    "name": "Rogz Dog Fred Treat Ball 6.4cm - Pink Medium",
-    "slug": "rogz-dog-fred-treat-ball-6-4cm-pink-medium-2",
-    "sku": "PSK-40873",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2345,
-        "name": "Dog",
-        "slug": "dog-supplies-store"
-      },
-      {
-        "id": 2357,
-        "name": "Dog Fetch Toys",
-        "slug": "dog-fetch-toys"
-      },
-      {
-        "id": 2356,
-        "name": "Dog Toys",
-        "slug": "dog-toys"
-      },
-      {
-        "id": 2064,
-        "name": "Rogz",
-        "slug": "rogz"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40842,
-    "name": "Proline Adult Cat Food - Chicken 1.2kg",
-    "slug": "proline-adult-cat-food-chicken-1-2kg",
-    "sku": "PSK-40842",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 796,
-        "name": "Proline",
-        "slug": "proline"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40877,
-    "name": "Ankur Regular Non Skid Bowl With Color And Print 2600ml",
-    "slug": "ankur-regular-non-skid-bowl-with-color-and-print-2600ml-2",
-    "sku": "PSK-40877",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2041,
-        "name": "Ankur",
-        "slug": "ankur"
-      },
-      {
-        "id": 2325,
-        "name": "Cat",
-        "slug": "cat-supplies-store"
-      },
-      {
-        "id": 2344,
-        "name": "Cat Bowls & Feeders",
-        "slug": "cat-bowls-and-feeders"
-      },
-      {
-        "id": 2345,
-        "name": "Dog",
-        "slug": "dog-supplies-store"
-      },
-      {
-        "id": 2366,
-        "name": "Dog Bowls & Feeders",
-        "slug": "dog-bowls-feeders"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40843,
-    "name": "Proline Puppy Food - Chicken 15kg",
-    "slug": "proline-puppy-food-chicken-15kg",
-    "sku": "PSK-40843",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2345,
-        "name": "Dog",
-        "slug": "dog-supplies-store"
-      },
-      {
-        "id": 2346,
-        "name": "Dog Food & Treats",
-        "slug": "dog-food-treats"
-      },
-      {
-        "id": 796,
-        "name": "Proline",
-        "slug": "proline"
-      },
-      {
-        "id": 2350,
-        "name": "Puppy Food",
-        "slug": "puppy-food"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40844,
-    "name": "Proline Adult Dog Food - Lamb And Rice 2.2kg",
-    "slug": "proline-adult-dog-food-lamb-and-rice-2-2kg",
-    "sku": "PSK-40844",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 796,
-        "name": "Proline",
-        "slug": "proline"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40845,
-    "name": "Proline Adult Dog Food - Chicken 2.2kg",
-    "slug": "proline-adult-dog-food-chicken-2-2kg-3",
-    "sku": "PSK-40845",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 796,
-        "name": "Proline",
-        "slug": "proline"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 54094,
-    "name": "Proline Sterilised Adult Cat Food Chicken 0.4kg",
-    "slug": "proline-sterilised-adult-cat-food-chicken-0-4kg-2-2",
-    "sku": "PSK-54094",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 796,
-        "name": "Proline",
-        "slug": "proline"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40846,
-    "name": "Proline Puppy Food - Lamb & Rice 2.2kg",
-    "slug": "proline-puppy-food-lamb-rice-2-2kg",
-    "sku": "PSK-40846",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2345,
-        "name": "Dog",
-        "slug": "dog-supplies-store"
-      },
-      {
-        "id": 2346,
-        "name": "Dog Food & Treats",
-        "slug": "dog-food-treats"
-      },
-      {
-        "id": 796,
-        "name": "Proline",
-        "slug": "proline"
-      },
-      {
-        "id": 2350,
-        "name": "Puppy Food",
-        "slug": "puppy-food"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40854,
-    "name": "SHORT EXPIRY-CLEARANCE: Reflex Dog Treats - Duck Wrapped Sticks 80g",
-    "slug": "reflex-dog-treats-duck-wrapped-sticks-80g",
-    "sku": "PSK-40854",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2345,
-        "name": "Dog",
-        "slug": "dog-supplies-store"
-      },
-      {
-        "id": 2346,
-        "name": "Dog Food & Treats",
-        "slug": "dog-food-treats"
-      },
-      {
-        "id": 2347,
-        "name": "Dog Treats",
-        "slug": "dog-treats"
-      },
-      {
-        "id": 179,
-        "name": "Reflex",
-        "slug": "reflex"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40848,
-    "name": "Reflex Adult Cat Food - Chicken 15kg",
-    "slug": "reflex-premium-adult-cat-food-chicken-15kg-2",
-    "sku": "PSK-40848",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 179,
-        "name": "Reflex",
-        "slug": "reflex"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 40849,
-    "name": "Reflex Bentonite Cat Litter - Sensitive Unscented 6L",
-    "slug": "reflex-plus-bentonite-cat-litter-sensitive-unscented-6l",
-    "sku": "PSK-40849",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2325,
-        "name": "Cat",
-        "slug": "cat-supplies-store"
-      },
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      },
-      {
-        "id": 2331,
-        "name": "Litter and Litter Box & Accessories",
-        "slug": "cat-litter-and-accessories"
-      },
-      {
-        "id": 179,
-        "name": "Reflex",
-        "slug": "reflex"
       }
     ],
     "brands": [],
