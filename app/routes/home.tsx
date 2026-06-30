@@ -162,7 +162,7 @@ export default function Home() {
 
         {/* 3. Middle Call-To-Action Promo Banners */}
         <div className="promo-banners-grid">
-          <Link to="/shop" className="promo-banner-link">
+          <Link to="/product-category/cat-food-and-treats/" className="promo-banner-link">
             <img src="/images/ctabanner1.jpg.webp" alt="Cat Food Banner" />
           </Link>
           <Link to="/shop" className="promo-banner-link">
