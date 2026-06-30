@@ -77,6 +77,25 @@ declare global {
   var __petstore_db_ready__: Promise<void> | undefined;
 }
 
+async function seedProductSkuAndDescription(pool: pg.Pool) {
+  try {
+    console.log('Seeding products SKU and short_description...');
+    await pool.query(`
+      UPDATE products
+      SET 
+        sku = COALESCE(sku, 'PSK-' || id),
+        short_description = COALESCE(
+          NULLIF(short_description, ''),
+          SUBSTRING(regexp_replace(COALESCE(description, ''), '<[^>]*>', '', 'g') FROM 1 FOR 150)
+        )
+      WHERE sku IS NULL OR short_description IS NULL OR short_description = '';
+    `);
+    console.log('SKU and short_description seeding completed.');
+  } catch (err) {
+    console.error('Failed to seed SKU and short_description:', err);
+  }
+}
+
 async function seedProductTags(pool: pg.Pool) {
   try {
     console.log('Seeding pet-care product tags based on category matches...');
@@ -105,6 +124,7 @@ async function startDatabase() {
   try {
     await runMigrations(pool);
     console.log('Database migrations completed successfully.');
+    await seedProductSkuAndDescription(pool);
     await seedProductTags(pool);
     _dbReadyResolve();
   } catch (err: any) {
@@ -128,6 +148,7 @@ async function startDatabase() {
       try {
         await runMigrations(pool);
         console.log('Database migrations completed successfully (without SSL).');
+        await seedProductSkuAndDescription(pool);
         await seedProductTags(pool);
         _dbReadyResolve();
       } catch (retryErr) {
