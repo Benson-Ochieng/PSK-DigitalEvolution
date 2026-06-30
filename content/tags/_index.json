@@ -28,5 +28,11 @@
     "name": "Kitten",
     "slug": "kitten",
     "desc": "Nutrient-rich formulas for young kittens."
+  },
+  {
+    "id": 6,
+    "name": "Pet Care",
+    "slug": "pet-care",
+    "desc": "Essential healthcare, grooming, and wellness products for your pets."
   }
 ]
