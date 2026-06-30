@@ -3,8 +3,8 @@
   "name": "Pride & Groom Mild & Gentle Puppy Shampoo With Coconut Oil - 300ml",
   "slug": "pride-groom-mild-and-gentle-puppy-shampoo-with-coconut-oil-300ml-2",
   "onSale": false,
-  "price": 595,
-  "regularPrice": 595,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -30,51 +30,23 @@
       "slug": "dog-shampoo"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
+  "inStock": false,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Pride & Groom mild and gentle puppy shampoo is specially formulated to soften, revitalize and add shine to your pet's skin and coat. It not only makes your dog smell gorgeous with its unique fragrance but also conditions the coat and moistures the skin. Directions for use: Wet pet's body with water. Pour a moderate amount into hand or wash cloth and gently wash pet's hair and skin. Rinse thoroughly. Precautions: Keep outreach of children. Avoid contact with eyes. In case of contact with eyes rinse immediately with plenty of water and seek medical advice. If swallowed, seek medical advice. Keep in a cool place away from direct sunlight. Ingredients: Aqua, Sodium Lauryl Ether Sulphate, Coconut Oil, Glycererine, Sodium Chloride, Methyl, Parahydroxybenzoate, Fragrance, Sodium Benzoate, Disodium EDTA, Sodium Bicarbonate, D&C Yellow 11, Tocopheryl Acetate. &nbsp; &nbsp;",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 49244,
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/08/PRIDE-amp-GROOM-MILD-AND-GENTLE-PUPPY-SHAMPOO-WITH-COCONUT-OIL-300ML-e1723019029307.jpg",
-      "alt": "Pride & Groom Mild & Gentle Puppy Shampoo With Coconut Oil - 300ml",
-      "name": "thumbnail"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Pride & Groom",
-      "slug": "pride-groom"
-    }
-  ],
+  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/product/pride-groom-mild-and-gentle-puppy-shampoo-with-coconut-oil-300ml-2/",
-  "addToCartUrl": "https://petstore.co.ke/product/pride-groom-mild-and-gentle-puppy-shampoo-with-coconut-oil-300ml-2/?add-to-cart=49244",
-  "shortDescription": "Pride & Groom mild and gentle puppy shampoo is specially formulated to soften, revitalize and add shine to your pet's skin and coat. It not only makes",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/08/PRIDE-amp-GROOM-MILD-AND-GENTLE-PUPPY-SHAMPOO-WITH-COCONUT-OIL-300ML-e1723019029307.jpg",
-  "sku": "PSK-49244",
-  "brand": "Pride & Groom",
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/08/PRIDE-amp-GROOM-MILD-AND-GENTLE-PUPPY-SHAMPOO-WITH-COCONUT-OIL-300ML-e1723019029307.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

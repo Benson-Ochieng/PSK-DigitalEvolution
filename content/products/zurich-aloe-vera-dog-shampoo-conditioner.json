@@ -31,7 +31,12 @@
   "type": "simple",
   "description": "Zurich Flea & Tick Aloe Vera Dog Shampoo & Conditioner enriched with aloe vera to naturally soothe dry and itchy skin and smooth dry and brittle coats. pH balanced formulation for all skin types. Gentle enough for the most delicate breeds. Use regularly to enhance your dog's coat and discourage fleas and ticks.",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

@@ -41,7 +41,12 @@
   "type": "simple",
   "description": "Dog Poop Bag Holder with Leash Clip. Comes with disposable waste bags, each bag is perforate for easy seperation",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

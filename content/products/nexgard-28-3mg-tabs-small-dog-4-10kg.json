@@ -3,8 +3,8 @@
   "name": "NexGard 28.3mg Tabs - 3 month supply - Small Dog (4-10kg)",
   "slug": "nexgard-28-3mg-tabs-small-dog-4-10kg",
   "onSale": false,
-  "price": 4000,
-  "regularPrice": 4000,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -30,51 +30,23 @@
       "slug": "nexgard"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
+  "inStock": false,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "NexGard is a fast-acting oral treatment that kills fleas and ticks quickly no messy topical applications required. Formulated with afoxolaner , NexGard starts working fast to kill adult fleas before they can lay eggs, helping break the flea life cycle and prevent infestations in your home. It also provides effective control of major tick species, giving your dog reliable protection all month long. What NexGard Protects Against Fleas ( Ctenocephalides felis ) American Dog Tick ( Dermacentor variabilis ) Black-legged Tick ( Ixodes scapularis ) Lone Star Tick ( Amblyomma americanum ) Brown Dog Tick Why Choose NexGard? Fast-Acting Formula – Starts killing fleas quickly and continues protecting for a full 30 days. Prevents Infestations – Kills adult fleas before they lay eggs. Monthly Convenience – One soft chew, once a month. Beef-Flavored Chew – Tasty and easy to administer. Proven & Trusted – From the makers of Frontline , a globally trusted parasite protection brand. Safe & Approved – FDA-approved for dogs and puppies 8 weeks and older, weighing 4 lbs (1.8 kg) or more. Product Details Form: Soft, beef-flavored chewable tablet Active Ingredient: Afoxolaner Duration: 1 month of protection per dose Suitable For: Dogs & puppies 8 weeks+ &nbsp;",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 24690,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/NGTSD.jpg",
-      "alt": "NexGard 28.3mg Tabs - 3 month supply - Small Dog (4-10kg)",
-      "name": "thumbnail"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "NexGard",
-      "slug": "nexgard"
-    }
-  ],
+  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/product/nexgard-28-3mg-tabs-small-dog-4-10kg/",
-  "addToCartUrl": "https://petstore.co.ke/product/nexgard-28-3mg-tabs-small-dog-4-10kg/?add-to-cart=24690",
-  "shortDescription": "NexGard is a fast-acting oral treatment that kills fleas and ticks quickly no messy topical applications required. Formulated with afoxolaner , NexGar",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/NGTSD.jpg",
-  "sku": "PSK-24690",
-  "brand": "NexGard",
-  "weight_kg": 10,
-  "animal_type": "dog",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/NGTSD.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

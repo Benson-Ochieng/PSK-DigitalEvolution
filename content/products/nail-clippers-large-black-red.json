@@ -66,7 +66,12 @@
   "type": "simple",
   "description": "Large size pet nail clippers with file. Colour: black and red. 16cm Length, 120g weight",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

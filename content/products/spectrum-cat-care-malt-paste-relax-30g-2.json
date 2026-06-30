@@ -3,8 +3,8 @@
   "name": "Spectrum Cat Care Malt Paste Relax 30g",
   "slug": "spectrum-cat-care-malt-paste-relax-30g-2",
   "onSale": false,
-  "price": 350,
-  "regularPrice": 350,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -30,51 +30,23 @@
       "slug": "cat-supplements"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
+  "inStock": false,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "It helps cats to eliminate stress and relax by supporting calmness and comfort in stressful situations such as changes in environment, loud environments such as thunder and fireworks, mating visits, the process of meeting a new home, new people and a new pet. Thus, it supports the health of cats. It also supports the intestinal and digestive system with the prebiotic nutrients it contains. Key Benefits: Hairball Control : The malt paste helps in reducing the formation of hairballs by aiding the digestion of ingested hair. Cats frequently groom themselves, and the paste helps prevent hairballs from forming and causing discomfort. Promotes Healthy Digestion : It helps in maintaining healthy digestion by supporting the smooth passage of hairballs through the digestive system, preventing blockages and discomfort. Relaxing Effect : As the name suggests, this product contains ingredients that may help promote relaxation in cats. It can be beneficial for cats who are stressed, anxious, or hyperactive, offering a calming effect. Palatable & Easy to Administer : The paste is designed to be tasty for cats, making it easier to administer, even for picky eaters. You can simply squeeze it onto their food or give it directly. Supports General Health : In addition to hairball control, it contains essential nutrients that contribute to overall health, including maintaining a healthy coat and improving the digestive system's functioning. Suitable for All Cats : This malt paste is safe for cats of all ages, making it a suitable supplement for both kittens and adult cats. Inactive Ingredients Malt Extract (1.1.18) R.5, Oat Flour (1.4.9), Vegetable Oils and Fats (2.20.1), Yeast Products (12.1.12), Potassium Sorbate (E202), Deionized Water. Contains Mannanoligosaccharide MOS and Beta Glucan Nutrient Components Crude Protein &nbsp;4.8% Fat Content &nbsp;18.5% Raw Ash &nbsp;1.2% Crude Fiber &nbsp;1.2% Moisture Content &nbsp;19% Nutritional Recommendations and Warnings; Refer to the table for recommended daily amount of food (grams/day) that vary according to your cat’s age (months). The recommended daily amount of food may vary depending on the outdoor temperature, your cat’s living conditions (indoor/outdoor), character and activity In order for your cat to have/maintain the ideal weight, the amount of food to be given should be weighed. When adjusting the amount of food to be given, your cat’s appetite, appearance and stool analysis should be considered. Switching to a different food should be done gradually, by mixing small amounts of both (old and new) foods over the course of a week. Always keep clean and fresh water near the food bowl. Even if the water looks clean, change it at least once a day. Store the product in a dry and cool place and make sure that the package is well closed after each use. The recommended consumption date, batch code and factory approval number are on the package.",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 51506,
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/11/SPECTRUM-CAT-CARE-MALT-PASTE-RELAX-30G.png",
-      "alt": "Spectrum Cat Care Malt Paste Relax 30g",
-      "name": "thumbnail"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Spectrum",
-      "slug": "spectrum"
-    }
-  ],
+  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/product/spectrum-cat-care-malt-paste-relax-30g-2/",
-  "addToCartUrl": "https://petstore.co.ke/product/spectrum-cat-care-malt-paste-relax-30g-2/?add-to-cart=51506",
-  "shortDescription": "It helps cats to eliminate stress and relax by supporting calmness and comfort in stressful situations such as changes in environment, loud environmen",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/11/SPECTRUM-CAT-CARE-MALT-PASTE-RELAX-30G.png",
-  "sku": "PSK-51506",
-  "brand": "Spectrum",
-  "weight_kg": 0.03,
-  "animal_type": "cat",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/11/SPECTRUM-CAT-CARE-MALT-PASTE-RELAX-30G.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

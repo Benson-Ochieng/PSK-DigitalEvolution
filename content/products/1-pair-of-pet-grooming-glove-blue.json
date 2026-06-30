@@ -3,8 +3,8 @@
   "name": "Pet Grooming Glove Blue",
   "slug": "1-pair-of-pet-grooming-glove-blue",
   "onSale": false,
-  "price": 610,
-  "regularPrice": 610,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -45,51 +45,23 @@
       "slug": "dog-grooming-cleaning-supplies"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
+  "inStock": false,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Make grooming time enjoyable and hassle-free for both you and your furry friend with our Pet Grooming Glove in Blue . Designed with comfort and functionality in mind, this versatile grooming tool features soft, flexible silicone tips that effectively capture loose fur, dirt, and dander without irritating your pet's skin. Key Features: Gentle & Effective : The silicone bristles massage your pet’s coat, helping to remove loose hair and tangles while stimulating healthy skin and promoting blood circulation. Ergonomic Design : The glove fits comfortably on your hand, allowing for easy control and a natural, soothing grooming experience. Its breathable, adjustable strap ensures a snug, secure fit for any hand size. Perfect for All Pets : Whether you have a dog, cat, or other furry companion, this glove is designed to work on all coat types—from short-haired to long-haired pets. Easy to Clean : Simply rinse the glove under water to remove collected hair and debris. The flexible silicone material makes it easy to wipe clean. Durable & Long-Lasting : Made from high-quality materials, the grooming glove is built to last and withstand regular use, ensuring a great value for your pet care routine. Why Choose Our Pet Grooming Glove? This glove is more than just a grooming tool—it’s a bonding experience for you and your pet. The massaging effect feels like a relaxing spa treatment, making your pet look and feel their best, while also reducing shedding and preventing matting. Plus, with its eye-catching blue color, it's as stylish as it is functional. Upgrade your grooming routine with the Pet Grooming Glove in Blue today and give your pet the care they deserve!",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 42857,
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/01/Pet-grooming-glove.png",
-      "alt": "Pet Grooming Glove Blue",
-      "name": "thumbnail"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
+  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/product/1-pair-of-pet-grooming-glove-blue/",
-  "addToCartUrl": "https://petstore.co.ke/product/1-pair-of-pet-grooming-glove-blue/?add-to-cart=42857",
-  "shortDescription": "Make grooming time enjoyable and hassle-free for both you and your furry friend with our Pet Grooming Glove in Blue . Designed with comfort and functi",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/01/Pet-grooming-glove.png",
-  "sku": "PSK-42857",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/01/Pet-grooming-glove.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

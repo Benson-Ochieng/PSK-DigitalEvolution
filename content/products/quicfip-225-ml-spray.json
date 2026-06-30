@@ -36,7 +36,12 @@
   "type": "simple",
   "description": "QuicFIP Plus is a once-a-month topical solution designed to prevent fleas and ticks in dogs, Compared to Frontline, Nexgard and Bravecto. This potent formula eliminates 100% of adult fleas on your pet within 12 hours and completely eradicates all ticks and chewing lice within 48 hours. QuicFIP Plus includes an insect growth regulator called S-Methoprene, which effectively eliminates fleas and ticks at every life stage, including their eggs and larvae. It provides comprehensive protection against various tick species, including the brown dog tick, American dog tick, lone star tick, and deer tick.",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

@@ -31,7 +31,12 @@
   "type": "simple",
   "description": "Zurich Flea & Tick Derma Care Dog Shampoo & Conditioner helps to restore moisture to dry and itchy skin and smooth dry and brittle coats. Gentle enough for the most delicate breeds. Use regularly to enhance your dog's coat and discourage fleas and ticks.",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

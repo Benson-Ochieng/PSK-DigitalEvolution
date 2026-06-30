@@ -3,8 +3,8 @@
   "name": "Cat Furniture Protector Sticker(2 Pcs)",
   "slug": "cat-furniture-protector-sticker2-pcs",
   "onSale": false,
-  "price": 1044,
-  "regularPrice": 1044,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,22 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "About this item: Designed to protect the interior decoration, doors, sofas, screens and wood products and prevent the cat's claw from getting hurt from the scratching. You can install it on the cat couch protectors on the wall, carpet, mattress, chair, doors, car seats, couch arms, screens and more. Self-adhesive sticker design: very sturdy and it won't leave any pin holes behind. Transparent and super-clear, so they're hard to notice, so it won't affect the beauty of your furniture. Made of high quality pvc material, which is harmless to the furniture. Measurements Length: 45cm width:15cm",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 24381,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/CFPS.jpg",
-      "alt": "Cat Furniture Protector Sticker(2 Pcs)",
-      "name": "thumbnail"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/product/cat-furniture-protector-sticker2-pcs/",
-  "addToCartUrl": "https://petstore.co.ke/product/cat-furniture-protector-sticker2-pcs/?add-to-cart=24381",
-  "shortDescription": "About this item: Designed to protect the interior decoration, doors, sofas, screens and wood products and prevent the cat's claw from getting hurt fro",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/CFPS.jpg",
-  "sku": "PSK-24381",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/CFPS.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

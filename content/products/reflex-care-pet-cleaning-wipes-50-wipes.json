@@ -3,8 +3,8 @@
   "name": "Reflex Care Pet Cleaning Wipes 50 wipes",
   "slug": "reflex-care-pet-cleaning-wipes-50-wipes",
   "onSale": false,
-  "price": 710,
-  "regularPrice": 710,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,22 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Reflex Pet Wipes are free from harsh chemicals, making them safe for sensitive skin. They are enriched with soothing aloe vera and vitamin E to nourish and moisturize the skin while cleaning, ensuring your pet stays comfortable and happy. Whether you’re cleaning your pet’s paws after a walk, wiping away dander, or freshening up your pet in between grooming sessions, these wipes offer a quick and convenient solution for pet parents. With its neutral pH value, it is gentle on skin and fur. It prevents bad odors with baby powder. It does not contain alcohol, parabens, SLES, or SLS. Content Information Ingredients : Aqua, Phenoxyethanol, Monopropylene Glycol, Polyquaternium-7, Cetearyl Isononanoate, Ceteareth-20, Cetearyl Alcohol, Glyceryl Stearate, Glycerin, Ceteareth-12, Cetyl Palmitate, Benzalkonium Chloride, Ethylhexylglycerin, Parfum. Key Features: Gentle & Safe: Non-toxic, alcohol-free, and suitable for sensitive skin. Multipurpose Use: Ideal for wiping paws, coats, ears, and faces. Convenient & Easy to Use: Quick cleaning on-the-go or at home, no need for water. Fresh Scent: Leaves your pet smelling fresh without overpowering fragrances. .",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 51515,
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CARE-PET-CLEANING-TOWEL-50-TOWELS.png",
-      "alt": "Reflex Care Pet Cleaning Wipes 50 wipes",
-      "name": "thumbnail"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/product/reflex-care-pet-cleaning-wipes-50-wipes/",
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-care-pet-cleaning-wipes-50-wipes/?add-to-cart=51515",
-  "shortDescription": "Reflex Pet Wipes are free from harsh chemicals, making them safe for sensitive skin. They are enriched with soothing aloe vera and vitamin E to nouris",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CARE-PET-CLEANING-TOWEL-50-TOWELS.png",
-  "sku": "PSK-51515",
-  "brand": "Reflex",
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CARE-PET-CLEANING-TOWEL-50-TOWELS.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

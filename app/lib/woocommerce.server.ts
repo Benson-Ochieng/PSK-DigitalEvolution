@@ -443,8 +443,8 @@ export async function syncWooCommerceData(): Promise<{ success: boolean; stats: 
         for (const p of productsDetailList) {
           await client.query(`
             INSERT INTO products (
-              id, name, brand, weight_kg, animal_type, food_type, image_url, description, categories, slug
-            ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)
+              id, name, brand, weight_kg, animal_type, food_type, image_url, description, categories, slug, tags
+            ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
             ON CONFLICT (id) DO UPDATE SET
               name = EXCLUDED.name,
               brand = EXCLUDED.brand,
@@ -454,13 +454,15 @@ export async function syncWooCommerceData(): Promise<{ success: boolean; stats: 
               image_url = EXCLUDED.image_url,
               description = EXCLUDED.description,
               categories = EXCLUDED.categories,
-              slug = EXCLUDED.slug
+              slug = EXCLUDED.slug,
+              tags = EXCLUDED.tags
           `, [
             p.id, p.name, p.brand, p.weight_kg,
             p.animal_type, p.food_type,
             p.image_url, p.description,
             JSON.stringify(p.categories),
-            p.slug
+            p.slug,
+            JSON.stringify(p.tags)
           ]);
         }
 

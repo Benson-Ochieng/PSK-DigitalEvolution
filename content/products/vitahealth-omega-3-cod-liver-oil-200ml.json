@@ -3,8 +3,8 @@
   "name": "Vita Health Omega 3 Cod Liver Oil - 200ml",
   "slug": "vitahealth-omega-3-cod-liver-oil-200ml",
   "onSale": false,
-  "price": 1750,
-  "regularPrice": 1750,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -30,51 +30,23 @@
       "slug": "vitahealth"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
+  "inStock": false,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Vita Health Omega 3 Cod Liver Oil with Vitamins A&D - the ultimate nutritional supplement to support your furry friend's health naturally. Packed with essential Omega 3, including EPA and DHA, this premium quality unique fish oil blend offers a wide range of benefits. Cod Liver Oil is a rich source of vitamin A, a crucial nutrient known for its positive impact on the immune system, cellular growth, eye health, and reproduction in dogs. Additionally, it boasts high levels of omega-3 fatty acids, which play a vital role in reducing inflammation and preventing blood clot formation. Key Benefits: Omega-3 Rich : Provides a potent source of EPA and DHA, which are crucial for maintaining a healthy heart, brain, and joints. Skin and Coat Health : Helps to reduce shedding, improve skin hydration, and promote a glossy, vibrant coat. Joint Support : Aids in reducing inflammation and supports joint mobility, making it ideal for pets with arthritis or joint issues. Digestive Health : Supports a healthy digestive system and can help with digestive discomfort. Facilitates proper eye function and health Easy to Administer : Comes in a convenient liquid form, making it easy to mix with your pet’s food. Ingredients: Cod Liver Oil Omega-3 Fatty Acids (EPA and DHA) Vitamin A Vitamin D Feeding Guidelines: Add to your pet’s food. Dosage will vary based on the size and weight of your pet. 1/2 teaspoon per 10kg of weight or as recommended by your vet. Use: This formula is carefully crafted to ensure maximum absorption, ensuring that your dog receives the full benefits of these essential nutrients. By adding Vita Health Omega 3 Cod Liver Oil to your dog's daily routine, you're providing them with the nutritional support they need for a vibrant and active life. Storage: Store in a cool, dry place away from direct sunlight. Keep out of reach of children and pets. Give your pet the gift of health and vitality with VitaHealth Omega-3 Cod Liver Oil. Their health and happiness are worth it!",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 29407,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/06/VitaHealth-OMEGA-3cod-liver-oil-200ml-01.jpg",
-      "alt": "Vita Health Omega 3 Cod Liver Oil - 200ml",
-      "name": "thumbnail"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "VitaHealth",
-      "slug": "vitahealth"
-    }
-  ],
+  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/product/vitahealth-omega-3-cod-liver-oil-200ml/",
-  "addToCartUrl": "https://petstore.co.ke/product/vitahealth-omega-3-cod-liver-oil-200ml/?add-to-cart=29407",
-  "shortDescription": "Vita Health Omega 3 Cod Liver Oil with Vitamins A&D - the ultimate nutritional supplement to support your furry friend's health naturally. Packed with",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/06/VitaHealth-OMEGA-3cod-liver-oil-200ml-01.jpg",
-  "sku": "PSK-29407",
-  "brand": "VitaHealth",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/06/VitaHealth-OMEGA-3cod-liver-oil-200ml-01.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

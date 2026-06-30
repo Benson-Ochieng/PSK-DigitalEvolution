@@ -193,7 +193,15 @@ export const migrations: Migration[] = [
     up: `
       ALTER TABLE products ADD COLUMN IF NOT EXISTS media_asset_id UUID REFERENCES media_assets(id);
     `
+  },
+  {
+    id: 5,
+    name: 'add_tags_to_products',
+    up: `
+      ALTER TABLE products ADD COLUMN IF NOT EXISTS tags JSONB;
+    `
   }
 ];
+
 
 

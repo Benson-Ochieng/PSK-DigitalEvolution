@@ -77,12 +77,35 @@ declare global {
   var __petstore_db_ready__: Promise<void> | undefined;
 }
 
+async function seedProductTags(pool: pg.Pool) {
+  try {
+    console.log('Seeding pet-care product tags based on category matches...');
+    await pool.query(`
+      UPDATE products
+      SET tags = COALESCE(tags, '[]'::jsonb) || '[{"name": "Pet Care", "slug": "pet-care"}]'::jsonb
+      WHERE (categories @> '[{"slug": "dog-healthcare-supplies"}]'
+         OR categories @> '[{"slug": "cat-healthcare"}]'
+         OR categories @> '[{"slug": "dog-flea-tick"}]'
+         OR categories @> '[{"slug": "cat-flea-tick"}]'
+         OR categories @> '[{"slug": "dog-dewormers"}]'
+         OR categories @> '[{"slug": "cat-dewormers"}]'
+         OR categories @> '[{"slug": "dog-grooming-cleaning-supplies"}]'
+         OR categories @> '[{"slug": "cat-grooming"}]')
+        AND (tags IS NULL OR NOT (tags @> '[{"slug": "pet-care"}]'::jsonb));
+    `);
+    console.log('Product tags seeding completed.');
+  } catch (err) {
+    console.error('Failed to seed product tags:', err);
+  }
+}
+
 // Startup migrations check
 async function startDatabase() {
   console.log('Starting database migrations check...');
   try {
     await runMigrations(pool);
     console.log('Database migrations completed successfully.');
+    await seedProductTags(pool);
     _dbReadyResolve();
   } catch (err: any) {
     // Check if the connection failed because the server does not support SSL
@@ -105,6 +128,7 @@ async function startDatabase() {
       try {
         await runMigrations(pool);
         console.log('Database migrations completed successfully (without SSL).');
+        await seedProductTags(pool);
         _dbReadyResolve();
       } catch (retryErr) {
         console.error('Auto migrations failed on retry (non-fatal):', retryErr);

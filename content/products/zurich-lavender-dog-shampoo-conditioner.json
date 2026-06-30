@@ -31,7 +31,12 @@
   "type": "simple",
   "description": "Zurich Flea & Tick Lavender Dog Shampoo & Conditioner, pH balanced formulation for all skin types. Enirched with lavender to naturally repel insects and relax your pet. Gentle enough for the most delicate breeds. Use regularly to enhance your dog's coat and discourage fleas and ticks.",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

@@ -36,7 +36,12 @@
   "type": "simple",
   "description": "Description: The flea & tick protection powder is designed for conditions where watershampoo is not recommended for pets. Composition: D-Panthenol, Pyrethrin, Piperonylbutox, Beta-Cyclodextrin, Alcohol, Talc, Triclosan",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

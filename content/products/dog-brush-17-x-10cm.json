@@ -46,7 +46,12 @@
   "type": "simple",
   "description": "Double sided dog grooming brush - perfect for detangling and tick removal",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

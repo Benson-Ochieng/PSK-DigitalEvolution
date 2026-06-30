@@ -3,8 +3,8 @@
   "name": "Simparica (Sarolaner) Chewables For Dog 40-60kg",
   "slug": "simparica-sarolaner-chewables-for-dog-40-60kg",
   "onSale": false,
-  "price": 8250,
-  "regularPrice": 8250,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -30,51 +30,23 @@
       "slug": "simparica"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
+  "inStock": false,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Simparica (Sarolaner) Chewables for Dogs 40-60kg Fast-acting monthly protection against fleas and ticks in a tasty chew. Simparica is a flavorful, once-a-month chewable tablet designed to protect dogs from fleas and ticks for a full 30 days . Suitable for dogs weighing 40-60kg , Simparica starts killing fleas within 3 hours and ticks within 8 hours of administration. It’s an easy, stress-free alternative to topical treatments no mess, no residue, just simple dosing your dog will love. Simparica works even after bathing or swimming and remains effective for a month. It helps treat and prevent flea infestations and provides consistent tick control, including protection against brown dog ticks , lone star ticks , and black-legged ticks . Key Benefits: Starts killing fleas fast — within 3 hours Eliminates ticks quickly — within 8 hours Monthly chewable with broad-spectrum coverage Stays effective through baths and water exposure Tasty, easy-to-administer chew Dosage & Administration: Administer orally once a month with or without food This chew is specifically formulated for dogs weighing 40-60 kg Ensure accurate dosing based on your dog’s weight Active Ingredient: Sarolaner – A powerful isoxazoline compound that disrupts the nervous system of fleas and ticks, leading to rapid death. Possible Side Effects: Reported side effects are uncommon but may include: Vomiting Diarrhea Lethargy Tremors Loss of appetite Incoordination (ataxia) Precautions: Use with caution in dogs with a history of seizures or neurological disorders Not for use in puppies under 8 weeks of age or weighing less than 1.3 kg For dog use only – not safe for cats Storage Instructions: Store below 30°C Keep in original packaging until use Do not use after the expiry date stated on the label Compare With: Simparica offers fast-acting monthly protection and is often compared to other leading brands like NexGard and Bravecto with the added benefit of rapid onset and consistent protection.",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 56779,
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Simparica-40-50kg.png",
-      "alt": "Simparica (Sarolaner) Chewables For Dog 40-60kg",
-      "name": "thumbnail"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Simparica",
-      "slug": "simparica"
-    }
-  ],
+  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/product/simparica-sarolaner-chewables-for-dog-40-60kg/",
-  "addToCartUrl": "https://petstore.co.ke/product/simparica-sarolaner-chewables-for-dog-40-60kg/?add-to-cart=56779",
-  "shortDescription": "Simparica (Sarolaner) Chewables for Dogs 40-60kg Fast-acting monthly protection against fleas and ticks in a tasty chew. Simparica is a flavorful, onc",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Simparica-40-50kg.png",
-  "sku": "PSK-56779",
-  "brand": "Simparica",
-  "weight_kg": 0.1,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Simparica-40-50kg.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

@@ -31,7 +31,12 @@
   "type": "simple",
   "description": "Cheese Flavor Toothpaste Helps prevent tartar formation Improves dental hygiene. 2 Toothbrushes with 3 different heads Large front toothbrush Small molar brushes",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

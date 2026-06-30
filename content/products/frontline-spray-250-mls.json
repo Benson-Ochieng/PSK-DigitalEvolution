@@ -3,8 +3,8 @@
   "name": "Frontline Spray 250Ml- For Cats and Dogs",
   "slug": "frontline-spray-250-mls",
   "onSale": false,
-  "price": 4250,
-  "regularPrice": 4250,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -40,51 +40,23 @@
       "slug": "frontline"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
+  "inStock": false,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "FRONTLINE SPRAY protects cats and dogs against fleas and ticks, including paralysis ticks. It can be used on puppies and kittens from 2 days of age. To protect against adult fleas, apply every 12 weeks for dogs and every 8 weeks for cats. To protect against paralysis ticks, apply every 3 weeks for dogs and cats and for protection against brown dog ticks, apply monthly. Can be used in puppies and kittens from 2 days of age. Controls flea allergy dermatitis when used monthly.",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 24607,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/frontline-spray-1.png",
-      "alt": "Frontline Spray 250Ml- For Cats and Dogs",
-      "name": "thumbnail"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Frontline",
-      "slug": "frontline"
-    }
-  ],
+  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/product/frontline-spray-250-mls/",
-  "addToCartUrl": "https://petstore.co.ke/product/frontline-spray-250-mls/?add-to-cart=24607",
-  "shortDescription": "FRONTLINE SPRAY protects cats and dogs against fleas and ticks, including paralysis ticks. It can be used on puppies and kittens from 2 days of age. T",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/frontline-spray-1.png",
-  "sku": "PSK-24607",
-  "brand": "Frontline",
-  "weight_kg": 0.4,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/frontline-spray-1.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

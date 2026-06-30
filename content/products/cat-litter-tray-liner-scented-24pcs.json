@@ -3,8 +3,8 @@
   "name": "Cat Litter Tray Liner Scented 24pcs",
   "slug": "cat-litter-tray-liner-scented-24pcs",
   "onSale": false,
-  "price": 500,
-  "regularPrice": 500,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -20,51 +20,23 @@
       "slug": "cat-grooming"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
+  "inStock": false,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Crafted from durable, leak-proof material, they provide a reliable barrier against spills and messes, making cleanup a breeze. The easy-to-fit design ensures a snug, secure fit in most litter trays, while the simple wipe-down process minimizes maintenance time. With 24 liners in each pack, you’ll have plenty of coverage for extended use, helping to keep your cat’s environment fresh and inviting. Perfect for busy cat owners looking to simplify litter box maintenance! The simple way to dispose of used cat litter. Quick, hygiene disposal Easy to clean Fit most standard size trays How to use: Fit one liner in the bottom of the litter box, fold edges over the side of the litter box. Fill clean Litter box with approximately 2-3 inches of litter To remove used litter, gather the edges of the liner. tie or bundle together and lift out carefully. For Best results, remove solid waste daily and replace litter every 7 to 10 days, or as needed.",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 46781,
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/05/CAT-LITTER-LINER-SCENTED-24PK-e1715084499170.png",
-      "alt": "Cat Litter Tray Liner Scented 24pcs",
-      "name": "thumbnail"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
+  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/product/cat-litter-tray-liner-scented-24pcs/",
-  "addToCartUrl": "https://petstore.co.ke/product/cat-litter-tray-liner-scented-24pcs/?add-to-cart=46781",
-  "shortDescription": "Crafted from durable, leak-proof material, they provide a reliable barrier against spills and messes, making cleanup a breeze. The easy-to-fit design ",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/05/CAT-LITTER-LINER-SCENTED-24PK-e1715084499170.png",
-  "sku": "PSK-46781",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/05/CAT-LITTER-LINER-SCENTED-24PK-e1715084499170.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

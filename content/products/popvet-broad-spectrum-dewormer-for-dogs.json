@@ -3,8 +3,8 @@
   "name": "Popvet - Broad Spectrum dewormer for Dogs (Pack of 4 tabs)",
   "slug": "popvet-broad-spectrum-dewormer-for-dogs",
   "onSale": false,
-  "price": 340,
-  "regularPrice": 340,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -30,51 +30,23 @@
       "slug": "popvet"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
+  "inStock": false,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Popvet Broad Spectrum Dewormer for Dogs is a powerful deworming treatment designed to eliminate common intestinal parasites in dogs. It provides effective control against roundworms, hookworms, whipworms, and tapeworms , helping to keep your dog healthy, active, and free from harmful worms. Formulated with a combination of proven antiparasitic ingredients, Popvet works by targeting parasites at different stages of their lifecycle, ensuring comprehensive protection and treatment. Regular deworming helps improve digestion, nutrient absorption, and overall wellbeing in puppies and adult dogs. Key Benefits Broad-spectrum protection against major intestinal worms Effective against roundworms, hookworms, whipworms, and tapeworms Easy-to-administer tablets - can be given directly or mixed with food Suitable for puppies and adult dogs Helps improve nutrient absorption, growth, and vitality Active Ingredients Popvet contains a powerful combination of antiparasitic ingredients commonly used in veterinary dewormers: Praziquantel - eliminates tapeworms Pyrantel Pamoate - targets roundworms and hookworms Febantel - effective against whipworms and other intestinal parasites Indications Popvet Dewormer is recommended for the treatment and control of intestinal worm infections , including: Roundworms (Toxocara canis, Toxascaris leonina) Hookworms (Ancylostoma caninum, Uncinaria stenocephala) Tapeworms (Dipylidium caninum, Taenia species) Whipworms (Trichuris vulpis) Directions for Use Administer orally according to your dog’s body weight or as directed by a veterinarian. Tablets may be given directly or mixed with a small amount of food. Routine deworming every 3 months is recommended for optimal parasite control. Pack Size 4 Tablets Storage Store in a cool, dry place away from direct sunlight and keep out of reach of children. For veterinary use only. Always follow dosage instructions or consult your veterinarian before use.",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 19853,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/Popvet-new.png",
-      "alt": "Popvet - Broad Spectrum dewormer for Dogs (Pack of 4 tabs)",
-      "name": "thumbnail"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Popvet",
-      "slug": "popvet"
-    }
-  ],
+  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/product/popvet-broad-spectrum-dewormer-for-dogs/",
-  "addToCartUrl": "https://petstore.co.ke/product/popvet-broad-spectrum-dewormer-for-dogs/?add-to-cart=19853",
-  "shortDescription": "Popvet Broad Spectrum Dewormer for Dogs is a powerful deworming treatment designed to eliminate common intestinal parasites in dogs. It provides effec",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/Popvet-new.png",
-  "sku": "PSK-19853",
-  "brand": "Popvet",
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/Popvet-new.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

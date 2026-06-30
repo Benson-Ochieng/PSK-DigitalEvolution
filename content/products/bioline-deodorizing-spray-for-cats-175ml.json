@@ -26,7 +26,12 @@
   "type": "simple",
   "description": "The ideal and environment-friendly product for cat toilets, bathrooms, living rooms, etc. Thanks to its active agents the deodorizing spray eliminate all unpleasant smells. Instructions: Shake well before use. All surfaces should be cleaned of urine. Spray at a distance of approx. 30 cm until it is slightly wet. In case of heavily soiled surfaces and during warm weather use the spray several times a day. Test material compatibility in an unobtrusive area. Warning: Use only in accordance with the instructions. Harmful to aquatic organisms, and may cause long-term adverse effects on the environment Keep out of reach of children. Contains citronella and geraniol May cause allergic reactions. The only completely emptied package may be recycled.",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

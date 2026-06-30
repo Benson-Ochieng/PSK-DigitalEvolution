@@ -41,7 +41,12 @@
   "type": "simple",
   "description": "Pet Grooming Glove. Ideal for removing hair, makes it easier to peel and disguard hair. Quick, Gentle and Effective.",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

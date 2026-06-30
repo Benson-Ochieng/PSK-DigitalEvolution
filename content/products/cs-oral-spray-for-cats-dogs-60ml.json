@@ -3,8 +3,8 @@
   "name": "CS Oral Spray for Cats & Dogs - 60ml",
   "slug": "cs-oral-spray-for-cats-dogs-60ml",
   "onSale": false,
-  "price": 260,
-  "regularPrice": 260,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -30,51 +30,23 @@
       "slug": "dog-grooming-cleaning-supplies"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
+  "inStock": false,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Keep your pet’s breath fresh and mouth healthy with our all-natural Oral Spray for cats and dogs. Formulated with gentle, plant-based ingredients, this spray helps reduce bad breath, supports oral hygiene, and promotes overall dental health without any harsh chemicals. Easy to use and safe for daily use, simply spray directly into your pet’s mouth to help combat plaque and bacteria naturally. Perfect for pets of all ages, it’s a quick and stress-free way to maintain a clean and healthy smile! Freshens breath naturally Supports healthy gums and teeth Made with gentle, natural ingredients Suitable for cats and dogs of all sizes",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 59528,
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/09/Oral-spray.png",
-      "alt": "CS Oral Spray for Cats & Dogs - 60ml",
-      "name": "thumbnail"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "CS",
-      "slug": "cs"
-    }
-  ],
+  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/product/cs-oral-spray-for-cats-dogs-60ml/",
-  "addToCartUrl": "https://petstore.co.ke/product/cs-oral-spray-for-cats-dogs-60ml/?add-to-cart=59528",
-  "shortDescription": "Keep your pet’s breath fresh and mouth healthy with our all-natural Oral Spray for cats and dogs. Formulated with gentle, plant-based ingredients, thi",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/09/Oral-spray.png",
-  "sku": "PSK-59528",
-  "brand": "CS",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/09/Oral-spray.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

@@ -3,8 +3,8 @@
   "name": "Reflex Care Lint Roller 30 Sheets",
   "slug": "reflex-care-lint-roller-30-sheets",
   "onSale": false,
-  "price": 300,
-  "regularPrice": 300,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -45,51 +45,23 @@
       "slug": "reflex"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
+  "inStock": false,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Content Information Extra-Strong Adhesive: Effectively removes pet hair, dust, and lint from furniture, clothing, and surfaces. 30 Sticky Sheets: Each roll includes 30 high-adhesion sheets for long-lasting use. Ergonomic Handle: Comfortable, easy-grip handle with a hook-shaped design for effortless handling and storage. &nbsp;",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 69427,
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-CARE-TRAINING-PAD-10PCS-1.png",
-      "alt": "Reflex Care Lint Roller 30 Sheets",
-      "name": "thumbnail"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
+  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/product/reflex-care-lint-roller-30-sheets/",
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-care-lint-roller-30-sheets/?add-to-cart=69427",
-  "shortDescription": "Content Information Extra-Strong Adhesive: Effectively removes pet hair, dust, and lint from furniture, clothing, and surfaces. 30 Sticky Sheets: Each",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-CARE-TRAINING-PAD-10PCS-1.png",
-  "sku": "PSK-69427",
-  "brand": "Reflex",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-CARE-TRAINING-PAD-10PCS-1.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

@@ -31,7 +31,12 @@
   "type": "simple",
   "description": "Bio PetActive ? Aloe Vera is a shampoo with Aloe Vera Extract for dogs. It is a cleansing, moisturizing care shampoo for your dog with carefully selected surfactants and Aloe Vera. It is suitable for long and short fur dogs. With its Aloe Vera extract and other ingredients, it nourishes the skin and fur of sensitive skinned dogs, giving them extra strength and shine. Its pH balanced formulation and effective moisturizing property keeps the skin moist and prevents dryness",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

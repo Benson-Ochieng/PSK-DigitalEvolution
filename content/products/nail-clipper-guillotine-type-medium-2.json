@@ -3,8 +3,8 @@
   "name": "Nail Clipper Guillotine Type-Medium",
   "slug": "nail-clipper-guillotine-type-medium-2",
   "onSale": false,
-  "price": 1200,
-  "regularPrice": 1200,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -31,50 +31,22 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "The Guillotine Nail Clippers for Dogs & Cats is easy to use and makes trimming your pet’s nails simple. Precision cutting blades trim the nail in one smooth action. Nail clipper usage instructions: It is important to not cut into the blood vessel of your cat’s or dog’s claw, known as the “quick”. If you pet has clear nails, this area will be easy to see, as it is slightly pink in colour. It is harder to see the quick in animals with dark-coloured nails. If you are not sure, ask your veterinarian or pet groomer. Carefully hold your pet’s paw and make sure that you are in complete control before you start to cut each nail. Cut with extreme care. If you aren’t sure, only cut a bit at a time.",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 38260,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/07/Nail-Clipper-Guillotine-Type-Medium.jpg",
-      "alt": "Nail Clipper Guillotine Type-Medium",
-      "name": "thumbnail"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/product/nail-clipper-guillotine-type-medium-2/",
-  "addToCartUrl": "https://petstore.co.ke/product/nail-clipper-guillotine-type-medium-2/?add-to-cart=38260",
-  "shortDescription": "The Guillotine Nail Clippers for Dogs & Cats is easy to use and makes trimming your pet’s nails simple. Precision cutting blades trim the nail in one ",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/07/Nail-Clipper-Guillotine-Type-Medium.jpg",
-  "sku": "PSK-38260",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/07/Nail-Clipper-Guillotine-Type-Medium.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }

@@ -3,8 +3,8 @@
   "name": "Ferplast Comb GO 5864",
   "slug": "ferplast-comb-gro-5864",
   "onSale": false,
-  "price": 2485,
-  "regularPrice": 2485,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -40,51 +40,23 @@
       "slug": "ferplast"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
+  "inStock": false,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "Key Features • For Medium & Long Hair – Perfect for detangling and smoothing coats without pulling. • Rounded Teeth – Protects delicate skin from scratches or irritation. • Comfort Grip – Durable plastic handle for a firm, comfortable hold. • For Dogs & Cats – One tool for multi-pet households. Benefits Regular use helps remove knots, loose hair, and dirt, reducing shedding and keeping your pet’s coat healthy and shiny. As part of Ferplast’s premium grooming range, this comb pairs well with their brushes, slickers, scissors, and nail clippers for a complete pet care toolkit.",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 58210,
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/08/Screenshot-2025-08-11-094336.png",
-      "alt": "Ferplast Comb GO 5864",
-      "name": "thumbnail"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Ferplast",
-      "slug": "ferplast"
-    }
-  ],
+  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/product/ferplast-comb-gro-5864/",
-  "addToCartUrl": "https://petstore.co.ke/product/ferplast-comb-gro-5864/?add-to-cart=58210",
-  "shortDescription": "Key Features • For Medium & Long Hair – Perfect for detangling and smoothing coats without pulling. • Rounded Teeth – Protects delicate skin from scra",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Screenshot-2025-08-11-094336.png",
-  "sku": "PSK-58210",
-  "brand": "Ferplast",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Screenshot-2025-08-11-094336.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }
