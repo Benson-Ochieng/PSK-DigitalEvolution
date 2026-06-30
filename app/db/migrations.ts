@@ -200,6 +200,14 @@ export const migrations: Migration[] = [
     up: `
       ALTER TABLE products ADD COLUMN IF NOT EXISTS tags JSONB;
     `
+  },
+  {
+    id: 6,
+    name: 'add_sku_and_short_description_to_products',
+    up: `
+      ALTER TABLE products ADD COLUMN IF NOT EXISTS sku TEXT;
+      ALTER TABLE products ADD COLUMN IF NOT EXISTS short_description TEXT;
+    `
   }
 ];
 
