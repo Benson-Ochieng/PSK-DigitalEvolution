@@ -2,9 +2,10 @@
   "id": 52777,
   "name": "Pet Ball Rubber For Dog Treat",
   "slug": "pet-ball-rubber-for-dog-treat",
+  "sku": "PSK-52777",
   "onSale": false,
-  "price": 1260,
-  "regularPrice": 1260,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
@@ -16,50 +17,17 @@
     }
   ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "description": "",
-  "images": [
-    {
-      "id": 52777,
-      "src": "/images/psk_logo.png",
-      "alt": "Pet Ball Rubber For Dog Treat",
-      "name": "thumbnail"
-    }
-  ],
+  "images": [],
   "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=52777",
-  "addToCartUrl": "https://petstore.co.ke/product/pet-ball-rubber-for-dog-treat/?add-to-cart=52777",
-  "shortDescription": "",
-  "thumbnail": "/images/psk_logo.png",
-  "sku": "PSK-52777",
-  "brand": "PetStore Kenya",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "/images/psk_logo.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "catalogVisibility": "visible"
 }
