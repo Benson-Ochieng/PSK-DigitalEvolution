@@ -691,6 +691,13 @@ export default function CheckoutPage() {
       setErrorMessage("Please enter a phone number.");
       return;
     }
+    if (contactPersonPhone.trim()) {
+      const phoneRegex = /^[\+]?[0-9\s\-\(\)]{8,20}$/;
+      if (!phoneRegex.test(contactPersonPhone.trim())) {
+        setErrorMessage("Please enter a valid recipient phone number.");
+        return;
+      }
+    }
     if (!agreedToTerms) {
       setErrorMessage("You must agree to the terms and conditions to proceed.");
       return;
@@ -765,6 +772,13 @@ export default function CheckoutPage() {
     if (!recipientPhone.trim()) {
       setErrorMessage("Please enter a phone number.");
       return;
+    }
+    if (contactPersonPhone.trim()) {
+      const phoneRegex = /^[\+]?[0-9\s\-\(\)]{8,20}$/;
+      if (!phoneRegex.test(contactPersonPhone.trim())) {
+        setErrorMessage("Please enter a valid recipient phone number.");
+        return;
+      }
     }
 
     const lines = items.map(i => `• ${i.name} x${i.quantity} — KES ${(i.price * i.quantity).toLocaleString()}`).join("\n");

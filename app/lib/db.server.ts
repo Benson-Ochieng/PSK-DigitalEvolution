@@ -21,6 +21,7 @@ export interface Order {
   };
   status: OrderStatus;
   paymentGatewayData?: any; // To store transaction IDs, etc.
+  notes?: string;
 }
 
 export interface User {
@@ -357,7 +358,9 @@ export function ensureOrderFormat(o: any, dbItems: any[] = []): Order {
       email: o.customer_email || "",
       phone: o.customer_phone || ""
     },
-    status: status
+    status: status,
+    paymentGatewayData: o.paymentGatewayData || (o.payment_gateway_data ? (typeof o.payment_gateway_data === 'string' ? JSON.parse(o.payment_gateway_data) : o.payment_gateway_data) : undefined),
+    notes: o.notes || ""
   };
 }
 
@@ -378,7 +381,9 @@ export const db = {
             delivery_fee_kes: order.shipping,
             payment_method: order.paymentMethod,
             status: order.status.toLowerCase(),
-            created_at: order.date || new Date().toISOString()
+            created_at: order.date || new Date().toISOString(),
+            notes: order.notes || null,
+            payment_gateway_data: order.paymentGatewayData || null
           };
           const { data: inserted, error } = await supabase.from("orders").insert(dbOrder).select().single();
           if (error) throw error;
