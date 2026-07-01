@@ -2,14 +2,12 @@
   "id": 56832,
   "name": "Skinners Chicken & Rice Dog Food 15kg",
   "slug": "skinners-chicken-rice-dog-food-15kg",
-  "sku": "SCRDF02",
   "onSale": false,
   "price": 10800,
   "regularPrice": 10800,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-60.png",
   "categories": [
     {
       "id": 2345,
@@ -32,51 +30,51 @@
       "slug": "dry-dog-food"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 2063,
-      "name": "senior dog",
-      "slug": "senior-dog"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/skinners-chicken-rice-dog-food-15kg/",
-  "shortDescription": "Chicken & Rice from Skinners is a complete working adult dog food. This dry dog food recipe has been specially developed and formulated to support active dogs who are regularly working at a moderate activity intensity.",
   "description": "Field & Trial Chicken & Rice has been carefully developed from Skinners to include a protein level of 25% and a fat level of 10% to support the energetic requirements of a range of active dogs, such as working dogs, agility dogs and active pet dogs. With protein being provided from digestible chicken, to support muscle integrity and development, and fat to support moderate performance output. Key Benefits Wheat Free Recipe Added Herbs Fat Level 10% Digestive Support Vat Free Complete Food for Everyday Activity Feeding Guide It can be fed straight from the bag or, if your dog prefers, moistened a few minutes before serving with a small amount of tepid water. Ingredients & Additives: Brown rice 37.8%, Poultry meat meal (min. 95% chicken) 27.5%, Naked oats, Peas, Whole linseed, Beet pulp, Poultry fat, Vitamins & minerals, Herb blend (750mg/kg), MOS (500mg/kg), FOS (500mg/kg), Glucosamine (350mg/kg), Chondroitin sulphate (150mg/kg), Seaweed (150mg/kg), Yucca (100mg/kg) Additives: Vitamin A 13000iu, Vitamin D3 2000iu, Vitamin E (as all rac-alphatocopherol acetate) 310mg, Taurine 100mg Nutritional additives per kg: Vitamin A 13000iu, Vitamin D3 2000iu, Vitamin E (as all rac-alphatocopherol acetate) 310mg, Taurine 100mg Trace Elements per kg: Iron (as iron (II) sulphate monohydrate) 26.7mg, Iron (as iron (II) chelate of protein hydrolysates) 13.3mg, Iodine (as calcium iodate anhydrous) 1.5mg, Copper (as copper (II) sulphate pentahydrate) 3.3mg, Copper (as copper (II) chelate of hydrolysates) 1.7mg, Manganese (as manganese (II) oxide) 16.7mg, Manganese (as manganese chelate of protein hydrolysates) 8.3mg, Zinc (as zinc oxide) 100mg, Zinc (as zinc chelate of protein hydrolysates) 30mg, Selenium (as organic selenium) 0.1mg, Tocopherol extracts from vegetable oils (vitamin E), Contains antioxidants and preservatives Analytical Constituents: Crude protein 25%, Crude fat 10%, Crude fibres 2.8%, Crude ash 6% &nbsp; &nbsp;",
   "images": [
     {
-      "id": 56833,
+      "id": 56832,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-60.png",
       "alt": "Skinners Chicken & Rice Dog Food 15kg",
-      "name": "Untitled design (60)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
-  "lowStockRemaining": 10,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/skinners-chicken-rice-dog-food-15kg/?add-to-cart=56832",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-07-14T12:43:21",
-  "dateModified": "2026-06-17T04:18:47",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/skinners-chicken-rice-dog-food-15kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/skinners-chicken-rice-dog-food-15kg/?add-to-cart=56832",
+  "shortDescription": "Field & Trial Chicken & Rice has been carefully developed from Skinners to include a protein level of 25% and a fat level of 10% to support the energe",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-60.png",
+  "sku": "PSK-56832",
+  "brand": "PetStore Kenya",
   "weight_kg": 15,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-60.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-60.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

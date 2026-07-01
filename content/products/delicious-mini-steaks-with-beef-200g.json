@@ -2,14 +2,12 @@
   "id": 45961,
   "name": "Delicious Mini Steaks With Beef 200g",
   "slug": "delicious-mini-steaks-with-beef-200g",
-  "sku": "WP1006",
-  "onSale": true,
+  "onSale": false,
   "price": 346,
-  "regularPrice": 495,
-  "salePrice": 346,
+  "regularPrice": 346,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/Delicious-mini-steaks-with-beef-e1712664724682.jpg",
   "categories": [
     {
       "id": 2345,
@@ -27,66 +25,51 @@
       "slug": "dog-treats"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1034,
-      "name": "large breed",
-      "slug": "large-breed"
-    },
-    {
-      "id": 2108,
-      "name": "Mini breeds",
-      "slug": "mini-breeds"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2109,
-      "name": "Small breeds",
-      "slug": "small-breeds"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=45961",
-  "shortDescription": "Delicious mini steaks with beef 200gr with over 30 treats, contains Vitamin A, D & E, Calcium and no added sugar.",
   "description": "Delicious mini steaks with beef 200gr with over 30 treats, contains Vitamin A, D & E, Calcium and no added sugar. Crude Protein 12% Crude Fat 2% Crude Fiber 0.5% Crude Ash 0.5% Moisture 20% Only a small percentage of the declared protein will be useful to the pet. Composition: Cereals, meat and Animal by products (Beef 4%), Derivates of vegetable origin. Guidelines & warnings: Always supervise when feeding your pet, especially if your pet is unaccustomed to this product. Serve limited amounts initially, excessive use of this product may cause gastric upset. Always ensure a bowl of fresh clean water is available. Should be given on a non-stainable surface as this product may stain. Please refer to the ingredients listing. Complementary pet food for dogs- not a primary feeding product. To be stored in a cool dry condition.",
   "images": [
     {
-      "id": 45962,
+      "id": 45961,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/04/Delicious-mini-steaks-with-beef-e1712664724682.jpg",
       "alt": "Delicious Mini Steaks With Beef 200g",
-      "name": "Delicious mini steaks with beef"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/delicious-mini-steaks-with-beef-200g/?add-to-cart=45961",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-04-09T15:01:02",
-  "dateModified": "2026-05-06T17:09:43",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=45961",
+  "addToCartUrl": "https://petstore.co.ke/product/delicious-mini-steaks-with-beef-200g/?add-to-cart=45961",
+  "shortDescription": "Delicious mini steaks with beef 200gr with over 30 treats, contains Vitamin A, D & E, Calcium and no added sugar. Crude Protein 12% Crude Fat 2% Crude",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/Delicious-mini-steaks-with-beef-e1712664724682.jpg",
+  "sku": "PSK-45961",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/Delicious-mini-steaks-with-beef-e1712664724682.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/Delicious-mini-steaks-with-beef-e1712664724682.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 54621,
   "name": "Trendline Adult Cat Food - Lamb & Rice 10KG",
   "slug": "trendline-adult-cat-food-lamb-rice10kg",
-  "sku": "TCD006",
   "onSale": false,
   "price": 7600,
   "regularPrice": 7600,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/04/Trendline-cat-Lamb-and-Rice-10kg.png",
   "categories": [
     {
       "id": 2325,
@@ -32,62 +30,51 @@
       "slug": "trendline"
     }
   ],
-  "brands": [
-    {
-      "id": 2471,
-      "name": "Trendline",
-      "slug": "trendline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 637,
-      "name": "kibble",
-      "slug": "kibble"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/trendline-adult-cat-food-lamb-rice10kg/",
-  "shortDescription": "Fully balanced all-natural cat food with lamb protein, brewer’s yeast for immune support, Omega-3 and -6 from flaxseed and taurine. Carefully formulated by cat nutritionists to meet the nutritional requirements of all adult cats.",
   "description": "Trendline Adult Cat Food - Lamb & Rice , fully balanced all-natural cat food with chicken protein, brewer's yeast for immune support, Omega-3 and -6 from flaxseed and taurine. Carefully formulated by cat nutritionists to meet the nutritional requirements of all adult cats. NUTRIENT COMPONENTS Protein...............................27% Fat ....................................10% Crude Ash ........................ 8% Crude Cellulose (Fiber)....... 3% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Corn Gluten, Dried Sugar Beet, Liver Aroma, Salt, Flaxseed, Dried Brewer's Yeast, Taurine. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan. Why Your Cat Will Love It 27% High-Quality Protein – supports muscle strength and overall vitality. 10% Healthy Fats – for a silky coat and optimal energy levels. Brewer’s Yeast – enhances immunity and supports digestive health. Omega-3 & -6 Fatty Acids – reduce shedding and promote skin health. Taurine Enriched – essential for healthy eyes and heart function. Why Cat Parents Love It: . Helps maintain healthy weight and strong muscles . Promotes a shiny coat and healthy skin . Supports heart health and immunity",
   "images": [
     {
-      "id": 54624,
+      "id": 54621,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/04/Trendline-cat-Lamb-and-Rice-10kg.png",
-      "alt": "Trendline Adult Cat Food – Lamb & Rice 10KG",
-      "name": "Trendline cat Lamb and Rice 10kg"
+      "alt": "Trendline Adult Cat Food - Lamb & Rice 10KG",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Trendline",
+      "slug": "trendline"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/trendline-adult-cat-food-lamb-rice10kg/?add-to-cart=54621",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-04-12T11:44:47",
-  "dateModified": "2026-06-24T12:12:08",
+  "permalink": "https://petstore.co.ke/product/trendline-adult-cat-food-lamb-rice10kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/trendline-adult-cat-food-lamb-rice10kg/?add-to-cart=54621",
+  "shortDescription": "Trendline Adult Cat Food - Lamb & Rice , fully balanced all-natural cat food with chicken protein, brewer's yeast for immune support, Omega-3 and -6 f",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/04/Trendline-cat-Lamb-and-Rice-10kg.png",
+  "sku": "PSK-54621",
   "brand": "Trendline",
   "weight_kg": 1,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/04/Trendline-cat-Lamb-and-Rice-10kg.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/04/Trendline-cat-Lamb-and-Rice-10kg.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

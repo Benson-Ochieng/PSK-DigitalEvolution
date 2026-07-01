@@ -2,14 +2,12 @@
   "id": 46099,
   "name": "Josicat Fish In Sauce Cat Wet Food 415g",
   "slug": "josicat-fish-in-sauce-cat-wet-food-415kg",
-  "sku": "JFCSP166",
   "onSale": false,
   "price": 299,
   "regularPrice": 299,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/josicat-fisht.png",
   "categories": [
     {
       "id": 2325,
@@ -37,57 +35,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "tags": [
-    {
-      "id": 622,
-      "name": "canned food",
-      "slug": "canned-food"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/josicat-fish-in-sauce-cat-wet-food-415kg/",
-  "shortDescription": "JOSICAT Fish in Sauce is the nautical pet treat for adult cats. Here tasty pieces in sauce are served with delicious pollock. It goes without saying that we have avoid additional fuss such as artificial additives. Here’s some clever nutrition for your pets!",
   "description": "JOSICAT Fish in Sauce is the nautical pet treat for adult cats. Here tasty pieces in sauce are served with delicious pollock. It goes without saying that we have avoid additional fuss such as artificial additives. Here’s some clever nutrition for your pets! Fine wet food in sauce with pollock, for adult cats With Vitamin E to improve cell protection With Vitamin D3 to support stable bone development Fuss-free: no added preservatives, colourings or flavourings. Complete food for adult cats weight 2 -3kg 3 – 4kg 4 – 5kg 5 – 7kg feed quantities/24h 170 – 220g 220 -270g 270 – 320g 320g – 400g &nbsp; Please note that the quantities stated are a guide only and must be adapted to your animal’s. nutritional status and its activity. Please make sure your animal has fresh water at all times. After opening, keep refrigerated between 2 to 6 °C, and use at room temperature within 24 hours. Composition: Fish and fish derivatives (salmon 4.0%); cereals; minerals; caramel syrup. Analytical constituents: Analytical constituents protein 7.2 % fat content 4.0 % crude fibre 0.5 % crude ash 2.5 % &nbsp;",
   "images": [
     {
-      "id": 90160,
+      "id": 46099,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/04/josicat-fisht.png",
       "alt": "Josicat Fish In Sauce Cat Wet Food 415g",
-      "name": "josicat fisht"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/josicat-fish-in-sauce-cat-wet-food-415kg/?add-to-cart=46099",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-04-15T12:14:20",
-  "dateModified": "2026-06-24T11:12:04",
+  "permalink": "https://petstore.co.ke/product/josicat-fish-in-sauce-cat-wet-food-415kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/josicat-fish-in-sauce-cat-wet-food-415kg/?add-to-cart=46099",
+  "shortDescription": "JOSICAT Fish in Sauce is the nautical pet treat for adult cats. Here tasty pieces in sauce are served with delicious pollock. It goes without saying t",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/josicat-fisht.png",
+  "sku": "PSK-46099",
   "brand": "Josera",
-  "weight_kg": 0.415,
+  "weight_kg": 0.42,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/josicat-fisht.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/josicat-fisht.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

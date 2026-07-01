@@ -2,14 +2,12 @@
   "id": 89342,
   "name": "Pack Of 12 - Wanpy Dog Pouch - Chicken & Duck 100g",
   "slug": "pack-of-12-pay-for-10-get-2-free-wanpy-dog-pouch-chicken-duck-100gr",
-  "sku": "WDW013$12",
-  "onSale": true,
+  "onSale": false,
   "price": 1557,
-  "regularPrice": 2076,
-  "salePrice": 1557,
+  "regularPrice": 1557,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/WANPY-DOG-CHICKEN-DUCK-POUCH-100GR.png",
   "categories": [
     {
       "id": 2345,
@@ -32,67 +30,51 @@
       "slug": "wet-dog-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2479,
-      "name": "Wanpy",
-      "slug": "wanpy"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2055,
-      "name": "Bulk Cat Food & Bulk Dog Food",
-      "slug": "bulk"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 939,
-      "name": "On Sale Now",
-      "slug": "sale"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pack-of-12-pay-for-10-get-2-free-wanpy-dog-pouch-chicken-duck-100gr/",
-  "shortDescription": "WANPY Chicken & Duck Dog Pouch is a premium wet dog food with high-quality chicken and duck. Complementary nutrition for healthy growth, strong muscles, and a shiny coat.",
   "description": "WANPY Chicken & Duck Dog Pouch is a premium wet dog food crafted with high-quality chicken and duck to provide balanced nutrition for dogs over three months old. Each 100g pouch is high-temperature sterilized to preserve juiciness, flavor, and nutrients, ensuring your dog enjoys a tasty and wholesome meal every time. This complementary wet food can be fed directly or mixed with dry food , offering a convenient and nutritious way to support healthy growth, strong muscles, and a shiny, healthy coat. Key Ingredients Chicken and Duck Carrot Potato Starch Carrageenan Salt Oligosaccharides Extract of Green Tea Vitamins: A, B2, B3, B5, D3, E Nutritional Analysis (Per 100g) Crude Protein: 9% Crude Fat: 0.1% Crude Fiber: 0.5% Crude Ash: 1.5% Moisture: 88% Rich in protein, vitamins, and minerals, this wet food supports healthy growth, muscle development, and overall vitality . Feeding Guidelines Daily feeding depends on your dog’s weight: 1–5 kg: 0.5–2 pouches 5–10 kg: 2–3 pouches 10–25 kg: 3–4 pouches >25 kg: 4–5 pouches Feed during the day to support digestion. Supplement with water in the evening to aid the digestive system. Storage & Handling Avoid direct sunlight and storing in hot or humid areas. Refrigerate unused portions after opening and feed as soon as possible. Children should be supervised while feeding pets. Health Benefits Balanced nutrition with high-quality protein for strong muscles Promotes healthy growth and overall vitality Supports a shiny coat and strong immune system Convenient complementary food suitable for all breeds &nbsp; &nbsp; &nbsp; &nbsp;",
   "images": [
     {
-      "id": 69470,
+      "id": 89342,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/02/WANPY-DOG-CHICKEN-DUCK-POUCH-100GR.png",
-      "alt": "Wanpy Dog Pouch – Chicken & Duck 100g",
-      "name": "WANPY DOG CHICKEN &#038; DUCK POUCH 100GR"
+      "alt": "Pack Of 12 - Wanpy Dog Pouch - Chicken & Duck 100g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Wanpy",
+      "slug": "wanpy"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/pack-of-12-pay-for-10-get-2-free-wanpy-dog-pouch-chicken-duck-100gr/?add-to-cart=89342",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-05-04T13:19:09",
-  "dateModified": "2026-06-24T09:12:08",
+  "permalink": "https://petstore.co.ke/product/pack-of-12-pay-for-10-get-2-free-wanpy-dog-pouch-chicken-duck-100gr/",
+  "addToCartUrl": "https://petstore.co.ke/product/pack-of-12-pay-for-10-get-2-free-wanpy-dog-pouch-chicken-duck-100gr/?add-to-cart=89342",
+  "shortDescription": "WANPY Chicken & Duck Dog Pouch is a premium wet dog food crafted with high-quality chicken and duck to provide balanced nutrition for dogs over three ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/WANPY-DOG-CHICKEN-DUCK-POUCH-100GR.png",
+  "sku": "PSK-89342",
   "brand": "Wanpy",
-  "weight_kg": 0.405,
+  "weight_kg": 0.41,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/WANPY-DOG-CHICKEN-DUCK-POUCH-100GR.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/WANPY-DOG-CHICKEN-DUCK-POUCH-100GR.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 62602,
   "name": "Josera Kitten 2kg",
   "slug": "josera-kitten-2kg-2",
-  "sku": "JCK@F",
-  "onSale": true,
+  "onSale": false,
   "price": 3230,
-  "regularPrice": 3800,
-  "salePrice": 3230,
+  "regularPrice": 3230,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JCK.jpg",
   "categories": [
     {
       "id": 2112,
@@ -17,47 +15,51 @@
       "slug": "josera"
     }
   ],
-  "brands": [
-    {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=62602",
-  "shortDescription": "Optimal nutrition is especially important while the cat is growing up and later in pregnancy and during lactation. JOSERA Kitten is a high-energy, easily digestible and particularly tasty feed for growing cats.",
   "description": "Composition: poultry protein (dried); poultry fat; maize; rice; greaves; sugar beet pulp; salmon meal; maize gluten; poultry protein (hydrolysed); poultry liver (dried); minerals Product Details: Optimal nutrition is especially important while the cat is growing up and later in pregnancy and during lactation. JOSERA Minette is a high-energy, easily digestible and particularly tasty feed for growing cats. . Excellent for the first year of your Cats life and during pregnancy and lactation for Mother Cats. . With plenty of energy for the special needs in the most crucial phases of life. . Easy to digest, contains dietary fiber to help prevent hairball formation. . Complete feed for pregnant, nursing and growing cats. . Optimal nutrition is especially important while the cat is growing up and later in pregnancy and during lactation. . JOSERA Minette is a high-energy, easily digestible and particularly tasty feed for growing cats. Excellent for the first year of your Cats life and during pregnancy and lactation for Mother Cats. . With plenty of energy for the special needs in the most crucial phases of life. . Easy to digest, contains dietary fiber to help prevent hairball formation. . Complete feed for pregnant, nursing and growing cats.",
   "images": [
     {
-      "id": 23783,
+      "id": 62602,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JCK.jpg",
       "alt": "Josera Kitten 2kg",
-      "name": "JCK.jpg"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/josera-kitten-2kg-2/?add-to-cart=62602",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-11-21T10:38:21",
-  "dateModified": "2026-06-17T04:33:52",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=62602",
+  "addToCartUrl": "https://petstore.co.ke/product/josera-kitten-2kg-2/?add-to-cart=62602",
+  "shortDescription": "Composition: poultry protein (dried); poultry fat; maize; rice; greaves; sugar beet pulp; salmon meal; maize gluten; poultry protein (hydrolysed); pou",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JCK.jpg",
+  "sku": "PSK-62602",
   "brand": "Josera",
   "weight_kg": 2,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JCK.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JCK.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

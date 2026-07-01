@@ -19,6 +19,8 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   const url = new URL(request.url);
   const routeParams = params as any;
   const slug = routeParams.slug || "";
+  const isTagPage = url.pathname.includes("/product-tag/");
+  const hideFilter = url.searchParams.get("hideFilter") === "true" || isTagPage;
 
   let animal = url.searchParams.get("animal") || "";
   let type   = url.searchParams.get("type")   || "";
@@ -29,10 +31,14 @@ export async function loader({ request, params }: Route.LoaderArgs) {
 
   let search = urlSearch;
   let categorySlug = "";
+  
+  let tagSlug = "";
 
   if (slug) {
     const normSlug = slug.toLowerCase().replace(/\/$/, "");
-    if (normSlug === "cat-food" || normSlug === "cat" || normSlug === "cat-supplies-store" || normSlug === "cat-food-and-treats") {
+    if (isTagPage) {
+      tagSlug = normSlug;
+    } else if (normSlug === "cat-food" || normSlug === "cat" || normSlug === "cat-supplies-store" || normSlug === "cat-food-and-treats") {
       animal = "cat";
     } else if (normSlug === "kitten-food" || normSlug === "kitten" || normSlug === "kitten-treats") {
       animal = "cat";
@@ -60,23 +66,27 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   let pageTitle = "All Pet Food";
   if (slug) {
     const normSlug = slug.toLowerCase().replace(/\/$/, "");
-    const matchedCat = CAT_CATEGORIES.find(c => c.slug === normSlug) || DOG_CATEGORIES.find(c => c.slug === normSlug);
-    if (matchedCat) {
-      pageTitle = matchedCat.label;
-    } else if (normSlug === "cat-food" || normSlug === "cat" || normSlug === "cat-supplies-store" || normSlug === "cat-food-and-treats") {
-      pageTitle = "Cat";
-    } else if (normSlug === "dog-food" || normSlug === "dog" || normSlug === "dog-supplies-store" || normSlug === "dog-food-treats") {
-      pageTitle = "Dog";
-    } else if (normSlug === "kitten-food" || normSlug === "kitten") {
-      pageTitle = "Kitten";
-    } else if (normSlug === "puppy-food" || normSlug === "puppy") {
-      pageTitle = "Puppy";
-    } else if (normSlug === "bird-food" || normSlug === "bird" || normSlug === "bird-supplies-store") {
-      pageTitle = "Bird";
-    } else if (normSlug === "rabbit-food" || normSlug === "rabbit") {
-      pageTitle = "Rabbit";
-    } else {
+    if (isTagPage) {
       pageTitle = normSlug.split("-").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+    } else {
+      const matchedCat = CAT_CATEGORIES.find(c => c.slug === normSlug) || DOG_CATEGORIES.find(c => c.slug === normSlug);
+      if (matchedCat) {
+        pageTitle = matchedCat.label;
+      } else if (normSlug === "cat-food" || normSlug === "cat" || normSlug === "cat-supplies-store" || normSlug === "cat-food-and-treats") {
+        pageTitle = "Cat";
+      } else if (normSlug === "dog-food" || normSlug === "dog" || normSlug === "dog-supplies-store" || normSlug === "dog-food-treats") {
+        pageTitle = "Dog";
+      } else if (normSlug === "kitten-food" || normSlug === "kitten") {
+        pageTitle = "Kitten";
+      } else if (normSlug === "puppy-food" || normSlug === "puppy") {
+        pageTitle = "Puppy";
+      } else if (normSlug === "bird-food" || normSlug === "bird" || normSlug === "bird-supplies-store") {
+        pageTitle = "Bird";
+      } else if (normSlug === "rabbit-food" || normSlug === "rabbit") {
+        pageTitle = "Rabbit";
+      } else {
+        pageTitle = normSlug.split("-").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+      }
     }
   } else {
     if (animal === "dog") pageTitle = "Dog";
@@ -92,7 +102,10 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   if (type)   { sqlParams.push(type);   conditions.push(`p.food_type = $${sqlParams.length}`); }
   if (search) { sqlParams.push(`%${search.toLowerCase()}%`); conditions.push(`LOWER(p.name) LIKE $${sqlParams.length}`); }
   if (brand)  { sqlParams.push(brand);  conditions.push(`LOWER(p.brand) = LOWER($${sqlParams.length})`); }
-  if (categorySlug) {
+  if (isTagPage && tagSlug) {
+    sqlParams.push(JSON.stringify([{ slug: tagSlug }]));
+    conditions.push(`p.tags @> $${sqlParams.length}::jsonb`);
+  } else if (categorySlug) {
     sqlParams.push(JSON.stringify([{ slug: categorySlug }]));
     conditions.push(`p.categories @> $${sqlParams.length}::jsonb`);
   }
@@ -140,7 +153,9 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     slug, 
     brand, 
     limit, 
-    sort 
+    sort,
+    hideFilter,
+    isTag: isTagPage
   };
 }
 
@@ -175,38 +190,43 @@ const FILTERS = [
   { label: "Wet",       iconType: "wet",    animal: "",    type: "wet" },
 ];
 
-function getBreadcrumbs(slug: string, animal: string, brand?: string) {
+function getBreadcrumbs(slug: string, animal: string, brand?: string, isTag?: boolean) {
   const crumbs = [
     { label: "Home", path: "/" }
   ];
 
   if (slug) {
     const normSlug = slug.toLowerCase().replace(/\/$/, "");
-    const catSub = CAT_CATEGORIES.find(c => c.slug === normSlug);
-    const dogSub = DOG_CATEGORIES.find(c => c.slug === normSlug);
-
-    if (catSub) {
-      crumbs.push({ label: "Cat", path: "/product-category/cat-food/" });
-      crumbs.push({ label: catSub.label, path: `/product-category/${catSub.slug}/` });
-    } else if (dogSub) {
-      crumbs.push({ label: "Dog", path: "/product-category/dog-food/" });
-      crumbs.push({ label: dogSub.label, path: `/product-category/${dogSub.slug}/` });
-    } else if (normSlug === "cat-food" || normSlug === "cat" || normSlug === "cat-supplies-store" || normSlug === "cat-food-and-treats") {
-      crumbs.push({ label: "Cat", path: "/product-category/cat-food/" });
-    } else if (normSlug === "dog-food" || normSlug === "dog" || normSlug === "dog-supplies-store" || normSlug === "dog-food-treats") {
-      crumbs.push({ label: "Dog", path: "/product-category/dog-food/" });
-    } else if (normSlug === "kitten-food" || normSlug === "kitten") {
-      crumbs.push({ label: "Cat", path: "/product-category/cat-food/" });
-      crumbs.push({ label: "Kitten Food", path: "/product-category/kitten-food/" });
-    } else if (normSlug === "puppy-food" || normSlug === "puppy") {
-      crumbs.push({ label: "Dog", path: "/product-category/dog-food/" });
-      crumbs.push({ label: "Puppy Food", path: "/product-category/puppy-food/" });
-    } else if (normSlug === "bird-food" || normSlug === "bird" || normSlug === "bird-supplies-store" || normSlug === "bird-food-treats") {
-      crumbs.push({ label: "Bird", path: "/product-category/bird-food/" });
-    } else if (normSlug === "rabbit-food" || normSlug === "rabbit") {
-      crumbs.push({ label: "Rabbit", path: "/product-category/rabbit-food/" });
+    if (isTag) {
+      crumbs.push({ label: "Tags", path: "/shop" });
+      crumbs.push({ label: normSlug.split("-").map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" "), path: `/product-tag/${slug}/` });
     } else {
-      crumbs.push({ label: slug.split("-").map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" "), path: `/product-category/${slug}/` });
+      const catSub = CAT_CATEGORIES.find(c => c.slug === normSlug);
+      const dogSub = DOG_CATEGORIES.find(c => c.slug === normSlug);
+
+      if (catSub) {
+        crumbs.push({ label: "Cat", path: "/product-category/cat-food/" });
+        crumbs.push({ label: catSub.label, path: `/product-category/${catSub.slug}/` });
+      } else if (dogSub) {
+        crumbs.push({ label: "Dog", path: "/product-category/dog-food/" });
+        crumbs.push({ label: dogSub.label, path: `/product-category/${dogSub.slug}/` });
+      } else if (normSlug === "cat-food" || normSlug === "cat" || normSlug === "cat-supplies-store" || normSlug === "cat-food-and-treats") {
+        crumbs.push({ label: "Cat", path: "/product-category/cat-food/" });
+      } else if (normSlug === "dog-food" || normSlug === "dog" || normSlug === "dog-supplies-store" || normSlug === "dog-food-treats") {
+        crumbs.push({ label: "Dog", path: "/product-category/dog-food/" });
+      } else if (normSlug === "kitten-food" || normSlug === "kitten") {
+        crumbs.push({ label: "Cat", path: "/product-category/cat-food/" });
+        crumbs.push({ label: "Kitten Food", path: "/product-category/kitten-food/" });
+      } else if (normSlug === "puppy-food" || normSlug === "puppy") {
+        crumbs.push({ label: "Dog", path: "/product-category/dog-food/" });
+        crumbs.push({ label: "Puppy Food", path: "/product-category/puppy-food/" });
+      } else if (normSlug === "bird-food" || normSlug === "bird" || normSlug === "bird-supplies-store" || normSlug === "bird-food-treats") {
+        crumbs.push({ label: "Bird", path: "/product-category/bird-food/" });
+      } else if (normSlug === "rabbit-food" || normSlug === "rabbit") {
+        crumbs.push({ label: "Rabbit", path: "/product-category/rabbit-food/" });
+      } else {
+        crumbs.push({ label: slug.split("-").map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" "), path: `/product-category/${slug}/` });
+      }
     }
   } else if (animal) {
     const label = animal.charAt(0).toUpperCase() + animal.slice(1);
@@ -319,7 +339,9 @@ export default function Shop() {
     slug, 
     brand, 
     limit, 
-    sort 
+    sort,
+    hideFilter,
+    isTag
   } = useLoaderData<typeof loader>();
   const navigate = useNavigate();
   const [searchVal, setSearchVal] = useState(urlSearch);
@@ -330,11 +352,12 @@ export default function Shop() {
     if (limit) p.set("limit", String(limit));
     if (sort) p.set("sort", sort);
     if (urlSearch) p.set("q", urlSearch);
+    if (hideFilter) p.set("hideFilter", "true");
     if (pageNumber > 1) p.set("page", String(pageNumber));
 
     const queryStr = p.toString() ? "?" + p.toString() : "";
     if (slug) {
-      return `/product-category/${slug}/${queryStr}`;
+      return isTag ? `/product-tag/${slug}/${queryStr}` : `/product-category/${slug}/${queryStr}`;
     }
     if (animal) p.set("animal", animal);
     if (type) p.set("type", type);
@@ -351,10 +374,11 @@ export default function Shop() {
     if (activeLimit) p.set("limit", String(activeLimit));
     if (activeSort) p.set("sort", activeSort);
     if (urlSearch) p.set("q", urlSearch);
+    if (hideFilter) p.set("hideFilter", "true");
 
     const queryStr = p.toString() ? "?" + p.toString() : "";
     if (slug) {
-      return `/product-category/${slug}/${queryStr}`;
+      return isTag ? `/product-tag/${slug}/${queryStr}` : `/product-category/${slug}/${queryStr}`;
     }
     if (animal) p.set("animal", animal);
     if (type) p.set("type", type);
@@ -368,9 +392,10 @@ export default function Shop() {
     if (limit) p.set("limit", String(limit));
     if (sort) p.set("sort", sort);
     if (searchVal.trim()) p.set("q", searchVal.trim());
+    if (hideFilter) p.set("hideFilter", "true");
     
     if (slug) {
-      navigate(`/product-category/${slug}/${p.toString() ? "?" + p.toString() : ""}`);
+      navigate(isTag ? `/product-tag/${slug}/${p.toString() ? "?" + p.toString() : ""}` : `/product-category/${slug}/${p.toString() ? "?" + p.toString() : ""}`);
     } else {
       if (animal) p.set("animal", animal);
       if (type)   p.set("type", type);
@@ -384,8 +409,9 @@ export default function Shop() {
     if (brand) p.set("brand", brand);
     if (limit) p.set("limit", String(limit));
     if (sort) p.set("sort", sort);
+    if (hideFilter) p.set("hideFilter", "true");
     if (slug) {
-      navigate(`/product-category/${slug}/${p.toString() ? "?" + p.toString() : ""}`);
+      navigate(isTag ? `/product-tag/${slug}/${p.toString() ? "?" + p.toString() : ""}` : `/product-category/${slug}/${p.toString() ? "?" + p.toString() : ""}`);
     } else {
       if (animal) p.set("animal", animal);
       if (type)   p.set("type", type);
@@ -393,83 +419,99 @@ export default function Shop() {
     }
   }
 
-  const breadcrumbs = getBreadcrumbs(slug, animal, brand);
+  const breadcrumbs = getBreadcrumbs(slug, animal, brand, isTag);
   const SIDEBAR_BRANDS = ["Bonnie", "King", "Montego", "Proline", "Reflex", "Royal Canin", "Spectrum", "Trendline"];
 
   return (
     <>
       <Navbar />
+      {hideFilter && (
+        <style dangerouslySetInnerHTML={{ __html: `
+          @media (min-width: 1025px) {
+            .shop-layout .product-grid {
+              grid-template-columns: repeat(5, 1fr) !important;
+            }
+          }
+          @media (max-width: 1024px) and (min-width: 769px) {
+            .shop-layout .product-grid {
+              grid-template-columns: repeat(4, 1fr) !important;
+            }
+          }
+        `}} />
+      )}
       <div className="page" style={{ paddingTop: "2.5rem" }}>
         
         {/* Main Grid Layout with sidebar */}
         <div className="shop-layout">
           
           {/* Sidebar */}
-          <aside className="shop-sidebar">
-            {animal === "cat" && (
-              <>
-                <h3 className="sidebar-title">CATEGORIES</h3>
-                <ul className="sidebar-brands-list" style={{ marginBottom: "2.5rem" }}>
-                  {CAT_CATEGORIES.map(c => {
-                    const normSlug = slug.toLowerCase().replace(/\/$/, "");
-                    const isActive = normSlug === c.slug;
-                    return (
-                      <li key={c.slug}>
-                        <Link 
-                          to={`/product-category/${c.slug}/`} 
-                          className={isActive ? "active-brand" : ""}
-                        >
-                          {c.label}
-                        </Link>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </>
-            )}
+          {!hideFilter && (
+            <aside className="shop-sidebar">
+              {animal === "cat" && (
+                <>
+                  <h3 className="sidebar-title">CATEGORIES</h3>
+                  <ul className="sidebar-brands-list" style={{ marginBottom: "2.5rem" }}>
+                    {CAT_CATEGORIES.map(c => {
+                      const normSlug = slug.toLowerCase().replace(/\/$/, "");
+                      const isActive = normSlug === c.slug;
+                      return (
+                        <li key={c.slug}>
+                          <Link 
+                            to={`/product-category/${c.slug}/`} 
+                            className={isActive ? "active-brand" : ""}
+                          >
+                            {c.label}
+                          </Link>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </>
+              )}
 
-            {animal === "dog" && (
-              <>
-                <h3 className="sidebar-title">CATEGORIES</h3>
-                <ul className="sidebar-brands-list" style={{ marginBottom: "2.5rem" }}>
-                  {DOG_CATEGORIES.map(c => {
-                    const normSlug = slug.toLowerCase().replace(/\/$/, "");
-                    const isActive = normSlug === c.slug;
-                    return (
-                      <li key={c.slug}>
-                        <Link 
-                          to={`/product-category/${c.slug}/`} 
-                          className={isActive ? "active-brand" : ""}
-                        >
-                          {c.label}
-                        </Link>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </>
-            )}
+              {animal === "dog" && (
+                <>
+                  <h3 className="sidebar-title">CATEGORIES</h3>
+                  <ul className="sidebar-brands-list" style={{ marginBottom: "2.5rem" }}>
+                    {DOG_CATEGORIES.map(c => {
+                      const normSlug = slug.toLowerCase().replace(/\/$/, "");
+                      const isActive = normSlug === c.slug;
+                      return (
+                        <li key={c.slug}>
+                          <Link 
+                            to={`/product-category/${c.slug}/`} 
+                            className={isActive ? "active-brand" : ""}
+                          >
+                            {c.label}
+                          </Link>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </>
+              )}
 
-            {!animal && (
-              <>
-                <h3 className="sidebar-title">FILTER BY BRAND</h3>
-                <ul className="sidebar-brands-list">
-                  <li>
-                    <Link to={buildCategoryHref("")} className={!brand ? "active-brand" : ""}>
-                      All Brands
-                    </Link>
-                  </li>
-                  {SIDEBAR_BRANDS.map(b => (
-                    <li key={b}>
-                      <Link to={buildCategoryHref(b)} className={brand.toLowerCase() === b.toLowerCase() ? "active-brand" : ""}>
-                        {b}
+              {!animal && (
+                <>
+                  <h3 className="sidebar-title">FILTER BY BRAND</h3>
+                  <ul className="sidebar-brands-list">
+                    <li>
+                      <Link to={buildCategoryHref("")} className={!brand ? "active-brand" : ""}>
+                        All Brands
                       </Link>
                     </li>
-                  ))}
-                </ul>
-              </>
-            )}
-          </aside>
+                    {SIDEBAR_BRANDS.map(b => (
+                      <li key={b}>
+                        <Link to={buildCategoryHref(b)} className={brand.toLowerCase() === b.toLowerCase() ? "active-brand" : ""}>
+                          {b}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+            </aside>
+          )}
 
           {/* Main Content Area */}
           <main className="shop-main">

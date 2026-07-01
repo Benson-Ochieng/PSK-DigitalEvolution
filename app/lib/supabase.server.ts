@@ -168,7 +168,20 @@ export async function syncLocalToSupabase() {
             featured: !!p.featured,
             catalogVisibility: p.catalogVisibility || "visible",
             dateCreated: p.dateCreated || p.createdAt || null,
-            dateModified: p.dateModified || null
+            dateModified: p.dateModified || null,
+            brand: p.brand || (Array.isArray(p.brands) && p.brands[0] ? p.brands[0].name : null),
+            weight_kg: p.weight_kg !== undefined && p.weight_kg !== null ? Number(p.weight_kg) : null,
+            animal_type: p.animal_type || null,
+            food_type: p.food_type || null,
+            image_url: p.image_url || p.thumbnail || null,
+            key_ingredients: p.key_ingredients || null,
+            feeding_guide: p.feeding_guide || null,
+            replaces_brand: p.replaces_brand || null,
+            replaces_reason: p.replaces_reason || null,
+            nutrition_protein: p.nutrition_protein !== undefined && p.nutrition_protein !== null ? Number(p.nutrition_protein) : null,
+            nutrition_fat: p.nutrition_fat !== undefined && p.nutrition_fat !== null ? Number(p.nutrition_fat) : null,
+            nutrition_fibre: p.nutrition_fibre !== undefined && p.nutrition_fibre !== null ? Number(p.nutrition_fibre) : null,
+            nutrition_moisture: p.nutrition_moisture !== undefined && p.nutrition_moisture !== null ? Number(p.nutrition_moisture) : null
           };
         });
 
@@ -395,10 +408,53 @@ export async function upsertProductToSupabase(p: any) {
       featured: !!p.featured,
       catalogVisibility: p.catalogVisibility || "visible",
       dateCreated: p.dateCreated || p.createdAt || null,
-      dateModified: p.dateModified || new Date().toISOString()
+      dateModified: p.dateModified || new Date().toISOString(),
+      brand: p.brand || (Array.isArray(p.brands) && p.brands[0] ? p.brands[0].name : null),
+      weight_kg: p.weight_kg !== undefined && p.weight_kg !== null ? Number(p.weight_kg) : null,
+      animal_type: p.animal_type || null,
+      food_type: p.food_type || null,
+      image_url: p.image_url || p.thumbnail || null,
+      key_ingredients: p.key_ingredients || null,
+      feeding_guide: p.feeding_guide || null,
+      replaces_brand: p.replaces_brand || null,
+      replaces_reason: p.replaces_reason || null,
+      nutrition_protein: p.nutrition_protein !== undefined && p.nutrition_protein !== null ? Number(p.nutrition_protein) : null,
+      nutrition_fat: p.nutrition_fat !== undefined && p.nutrition_fat !== null ? Number(p.nutrition_fat) : null,
+      nutrition_fibre: p.nutrition_fibre !== undefined && p.nutrition_fibre !== null ? Number(p.nutrition_fibre) : null,
+      nutrition_moisture: p.nutrition_moisture !== undefined && p.nutrition_moisture !== null ? Number(p.nutrition_moisture) : null
     };
     const { error } = await supabase.from("products").upsert(cleaned);
     if (error) console.error("Error upserting product to Supabase:", error);
+
+    // Synchronize price and stock changes back to store_prices PostgreSQL table in real-time
+    try {
+      const { query: dbQuery } = await import("../db.server");
+      const priceVal = Number(p.price || 0);
+      const inStockVal = !!p.inStock;
+      const productUrlVal = p.permalink || `https://petstore.co.ke/product/${p.slug}/`;
+
+      const checkPrice = await dbQuery(
+        `SELECT id FROM store_prices WHERE product_id = $1 AND store_name = 'PetStore Kenya'`,
+        [p.id]
+      );
+
+      if (checkPrice.rows.length > 0) {
+        await dbQuery(
+          `UPDATE store_prices 
+           SET price = $1, in_stock = $2, product_url = $3, last_updated = NOW()
+           WHERE product_id = $4 AND store_name = 'PetStore Kenya'`,
+          [priceVal, inStockVal, productUrlVal, p.id]
+        );
+      } else {
+        await dbQuery(
+          `INSERT INTO store_prices (product_id, store_name, price, product_url, in_stock, last_updated)
+           VALUES ($1, 'PetStore Kenya', $2, $3, $4, NOW())`,
+          [p.id, priceVal, productUrlVal, inStockVal]
+        );
+      }
+    } catch (dbErr) {
+      console.error("Failed to sync store_prices database table:", dbErr);
+    }
   } catch (err) {
     console.error("Failed to upsert product:", err);
   }
@@ -409,6 +465,14 @@ export async function deleteProductFromSupabase(id: number) {
   try {
     const { error } = await supabase.from("products").delete().eq("id", id);
     if (error) console.error("Error deleting product from Supabase:", error);
+
+    // Also remove from store_prices in PostgreSQL
+    try {
+      const { query: dbQuery } = await import("../db.server");
+      await dbQuery("DELETE FROM store_prices WHERE product_id = $1", [id]);
+    } catch (dbErr) {
+      console.error("Failed to delete from store_prices database table:", dbErr);
+    }
   } catch (err) {
     console.error("Failed to delete product:", err);
   }

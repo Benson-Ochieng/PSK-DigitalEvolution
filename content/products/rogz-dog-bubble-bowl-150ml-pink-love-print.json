@@ -2,14 +2,12 @@
   "id": 19754,
   "name": "Rogz Dog Bubble Bowl 150ml - Pink Love Print",
   "slug": "rogz-dog-bubble-bowl-150ml-pink-love-print",
-  "sku": "BOWL101-CK",
   "onSale": false,
   "price": 1900,
   "regularPrice": 1900,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/BOWL101-CK.jpg",
   "categories": [
     {
       "id": 2345,
@@ -27,51 +25,51 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2072,
-      "name": "Bowls",
-      "slug": "bowls"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-dog-bubble-bowl-150ml-pink-love-print/",
-  "shortDescription": "Rogz Bubble Bowl",
   "description": "Rogz Bubble Bowl is a classic two-in-one design. A removable stainless steel inner bowl makes it easy to provide both food and water at the same time. 1. Top ? non-toxic stainless steel bowl 2. Bottom ? striking design melamine bowl Made with a non-skid silicone base, this bowl is easy to clean and durable. UV and corrosion resistant make it a 100% non-harmful option for your pet. Available in various colours and 3 sizes Size and volume: Small ? 160ml",
   "images": [
     {
-      "id": 19737,
+      "id": 19754,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/04/BOWL101-CK.jpg",
       "alt": "Rogz Dog Bubble Bowl 150ml - Pink Love Print",
-      "name": "BOWL101-CK"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-bubble-bowl-150ml-pink-love-print/?add-to-cart=19754",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2021-04-07T15:20:29",
-  "dateModified": "2026-06-17T04:18:35",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/rogz-dog-bubble-bowl-150ml-pink-love-print/",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-bubble-bowl-150ml-pink-love-print/?add-to-cart=19754",
+  "shortDescription": "Rogz Bubble Bowl is a classic two-in-one design. A removable stainless steel inner bowl makes it easy to provide both food and water at the same time.",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/BOWL101-CK.jpg",
+  "sku": "PSK-19754",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.5,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/BOWL101-CK.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/BOWL101-CK.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

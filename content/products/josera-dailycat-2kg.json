@@ -2,14 +2,12 @@
   "id": 23738,
   "name": "Josera Dailycat 2kg",
   "slug": "josera-dailycat-2kg",
-  "sku": "JCD",
   "onSale": false,
   "price": 3853,
   "regularPrice": 3853,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JCD.jpg",
   "categories": [
     {
       "id": 2325,
@@ -32,57 +30,51 @@
       "slug": "josera"
     }
   ],
-  "brands": [
-    {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/josera-dailycat-2kg/",
-  "shortDescription": "This Josera DailyCat is a delicious, nutritious dry food offering your cat a healthy, balanced diet. It is made with extra poultry and has a high content of animal protein. Josera DailyCat is a grain-free dry food that is ideal for cats with allergies or intolerances.",
   "description": "Composition: Dried poultry protein (%39), sweet potato, pea meal, poultry fat, beet fiber, hydrolyzed poultry protein, dried poultry liver, herbs, fruits, minerals. Additives per kg: Nutritional additives: Vitamin A (24,000 IU), vitamin D1800) 3 IU0, vitamin E (220mg), vitamin B15) 1mg), vitamin B20) 2mg), vitamin B6 20)mg), vitamin B100) 12mcg), niacin (90mg), pantothenic acid (50mg), folic acid (5mg), biotin (1000mcg), taurine (1500mg), iron (250mg), zinc (150mg), manganese (18mg), copper (18mg), iodine (1.9mg), selenium (0.25mg) Product Details: This Josera DailyCat is a delicious, nutritious dry food offering your cat a healthy, balanced diet. It is made with extra poultry and has a high content of animal protein. Josera DailyCat is a grain-free dry food that is ideal for cats with allergies or intolerances. Josera DailyCat is made in Germany to the highest quality standards, ensuring only premium ingredients are used. It contains selected herbs, fruits and special fibres. It can also help to combat the build-up of hairballs, supporting the movement of swallowed hairs through the digestive tract. Josera DailyCat at a glance: Balanced dry food for adult cats: With plenty of extra poultry: very delicious and with a high content of animal protein (%82 of the total protein content). Anti-hairball recipe contains special fibres that prevent the build-up of hairballs and help to move swallowed hairs through the digestive system. No grains: suitable for cats with allergies or intolerances. Easy to digest high-quality ingredients and a gentle preparation process to make this food highly digestible. With vitamins, minerals and trace elements: can support healthy skin and glossy coat. Fruits and herbs: nutrient-rich ingredients that ensure great flavour.",
   "images": [
     {
-      "id": 23784,
+      "id": 23738,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JCD.jpg",
       "alt": "Josera Dailycat 2kg",
-      "name": "JCD.jpg"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/josera-dailycat-2kg/?add-to-cart=23738",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2021-10-29T07:55:21",
-  "dateModified": "2026-06-17T04:29:33",
+  "permalink": "https://petstore.co.ke/product/josera-dailycat-2kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/josera-dailycat-2kg/?add-to-cart=23738",
+  "shortDescription": "Composition: Dried poultry protein (%39), sweet potato, pea meal, poultry fat, beet fiber, hydrolyzed poultry protein, dried poultry liver, herbs, fru",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JCD.jpg",
+  "sku": "PSK-23738",
   "brand": "Josera",
   "weight_kg": 2,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JCD.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JCD.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 52821,
   "name": "Rogz Dog Utility Side Release Collar XX-Large Blue",
   "slug": "rogz-dog-utility-side-release-collar-xx-large-blue-2",
-  "sku": "HB19-B@F",
-  "onSale": true,
+  "onSale": false,
   "price": 1927.5,
-  "regularPrice": 2570,
-  "salePrice": 1927.5,
+  "regularPrice": 1927.5,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/HB19-B-Landing-Strip-Blue.jpg",
   "categories": [
     {
       "id": 2332,
@@ -17,35 +15,51 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=52821",
-  "shortDescription": "Stay safe after sunset with the Rogz Reflective Dog Collar, featuring high-visibility woven yarn and the ultra-secure RogLoc buckle for reliable comfort and protection on every adventure.",
   "description": "The ROGZ Dog Utility Side Release Collar XX-Large – Blue is engineered for big, strong dog breeds that need a collar combining strength, safety, and all-day comfort . Designed with heavy-duty materials and advanced ROGZ technology, this collar ensures your dog stays secure and visible during every walk, play session, or outdoor adventure. Key Features Perfect Size for Large Breeds XX-Large size with an adjustable neck range of 50–80 cm (20–31 inches) and a sturdy 40 mm width , making it ideal for Dobermans, Boxers, Spaniels, Dalmatians, and similar large breeds. Durable Nylon Webbing Made from premium, lightweight nylon that resists wear and tear, ensuring long-lasting performance even with daily use. Reflective Safety Stitching High-visibility reflective yarn is woven into the webbing to improve visibility during nighttime or low-light walks, enhancing safety for both you and your dog. Secure RogLoc Buckle System The paw-resistant RogLoc locking buckle keeps the collar firmly in place, while Low Load Technology (LLT) distributes tension to the D-ring, preventing buckle strain and increasing security. Reliable D-Ring Attachment A strong metal D-ring provides a secure point for attaching leashes, tags, or accessories. Comfort-Focused Design Rounded edges, contoured plastic components, and reinforced box stitching ensure a snug fit without causing irritation or discomfort. Benefits Unmatched Durability Built with reinforced stitching and tested for buckle strength, this collar withstands daily activity, pulling, and rough play. Enhanced Outdoor Safety Reflective threading boosts visibility after dark, while the RogLoc buckle protects against accidental openings, keeping your dog safe at all times. Adjustable, Freedom-Fit Design Easily adjustable for a custom and secure fit, giving your dog comfort and free movement without risk of slipping out or feeling restricted.",
   "images": [
     {
-      "id": 17525,
+      "id": 52821,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/01/HB19-B-Landing-Strip-Blue.jpg",
-      "alt": "Rogz Dog Utility Side Release Collar XX-Large – Blue",
-      "name": "HB19-B Landing Strip Blue"
+      "alt": "Rogz Dog Utility Side Release Collar XX-Large Blue",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-side-release-collar-xx-large-blue-2/?add-to-cart=52821",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-01-16T17:05:18",
-  "dateModified": "2026-05-06T17:11:02",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=52821",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-side-release-collar-xx-large-blue-2/?add-to-cart=52821",
+  "shortDescription": "The ROGZ Dog Utility Side Release Collar XX-Large – Blue is engineered for big, strong dog breeds that need a collar combining strength, safety, and a",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/HB19-B-Landing-Strip-Blue.jpg",
+  "sku": "PSK-52821",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/HB19-B-Landing-Strip-Blue.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/HB19-B-Landing-Strip-Blue.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

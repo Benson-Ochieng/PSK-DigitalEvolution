@@ -2,14 +2,12 @@
   "id": 54708,
   "name": "Truly Chicken & Crab Can 95g",
   "slug": "truly-chicken-crab-can-95g-2",
-  "sku": "TCCC95G",
   "onSale": false,
   "price": 190,
   "regularPrice": 190,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/04/Truly-Chicken-Crab-Can-95g.png",
   "categories": [
     {
       "id": 2325,
@@ -32,52 +30,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2472,
-      "name": "Truly",
-      "slug": "truly"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/truly-chicken-crab-can-95g-2/",
-  "shortDescription": "Treat your cat to the best of both worlds with this delicious combo of tender chicken and sweet crab. Made with high-quality ingredients, this 95g can is packed with protein and essential nutrients for a healthy and happy feline. Perfect for a satisfying meal or a special treat!",
   "description": "Treat your cat to the best of both worlds with this delicious combo of tender chicken and sweet crab. Made with high-quality ingredients, this 95g can is packed with protein and essential nutrients for a healthy and happy feline. Perfect for a satisfying meal or a special treat!",
   "images": [
     {
-      "id": 54709,
+      "id": 54708,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/04/Truly-Chicken-Crab-Can-95g.png",
       "alt": "Truly Chicken & Crab Can 95g",
-      "name": "Truly Chicken &amp; Crab Can 95g"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Truly",
+      "slug": "truly"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 5,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/truly-chicken-crab-can-95g-2/?add-to-cart=54708",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-04-16T10:43:34",
-  "dateModified": "2026-06-17T05:01:30",
+  "permalink": "https://petstore.co.ke/product/truly-chicken-crab-can-95g-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/truly-chicken-crab-can-95g-2/?add-to-cart=54708",
+  "shortDescription": "Treat your cat to the best of both worlds with this delicious combo of tender chicken and sweet crab. Made with high-quality ingredients, this 95g can",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/04/Truly-Chicken-Crab-Can-95g.png",
+  "sku": "PSK-54708",
   "brand": "Truly",
-  "weight_kg": 0.095,
+  "weight_kg": 0.1,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/04/Truly-Chicken-Crab-Can-95g.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/04/Truly-Chicken-Crab-Can-95g.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

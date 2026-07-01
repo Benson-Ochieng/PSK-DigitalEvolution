@@ -2,14 +2,12 @@
   "id": 55392,
   "name": "Reflex Happy Hour Dog Treat Shiny Coat Salmon & Whey Powder 60g",
   "slug": "reflex-happy-hour-dog-treat-shiny-coat-salmon-whey-powder-60gr-2",
-  "sku": "RDT031@OFFER",
-  "onSale": true,
+  "onSale": false,
   "price": 97,
-  "regularPrice": 195,
-  "salePrice": 97,
+  "regularPrice": 97,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/01/Happy-Hour-Dog-treats-Healthy-and-Shinny-coats.png",
   "categories": [
     {
       "id": 2345,
@@ -32,57 +30,51 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
-    {
-      "id": 2258,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 939,
-      "name": "On Sale Now",
-      "slug": "sale"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=55392",
-  "shortDescription": "Happy hour dog treats Healthy & shiny coat- Salmon & Whey Powder – Perfect for rewarding good behavior or just showing your pet some extra love, Reflex Happy Hour Dog Treats are free from artificial preservatives and fillers. Plus, they’re great for maintaining healthy teeth and gums! Treat your doggie to a snack they’ll wiggle for—because every hour can be a happy hour with Reflex!",
   "description": "Delicious, crunchy morsels designed to delight your dog’s taste buds while promoting their overall health! Made with high-quality ingredients, these treats are rich in essential vitamins and minerals. Each bite is packed with flavor and offers a satisfying crunch that dogs love. Available in a variety of flavors to suit even the pickiest eaters. Key Features: Crunchy texture for dental health Packed with essential nutrients No artificial additives Ingredients: Processed Salmon Protein (20%), Processed Animal Protein, Corn, Chicken Fat, Wheat Bran, Hydrolyzed Salmon Protein, Salmon Oil, Whey Powder, Fish Flavor, Powdered Cellulose, Vitamins and Minerals, Brewer's Yeast, Salt, Flaxseed, Yucca Schidigera, Mannan-Oligosaccharide (MOS), Aloe vera, Preservatives and Antioxidants (E320 & E321). Nutrient Components Crude Protein 24% Fat Content 16% Crude Cellulose 3% Raw Ash 8% Humidity (Max.) 8% &nbsp; Nutritional Additives Vitamins: Vitamin A (3a672a), Vitamin D3 (3a671), Vitamin E (3a700), Vitamin C (3a300), Vitamin B1 (3a821), B2 (3a825i), B3 (Niacin-3a315), B6 ​​(3a831), B12 (3A). ), B7 (Biotin-3a880), B9 (Folic Acid-3a316), Vitamin K3 (3a710), Choline (3a890), Calcium Pantothenate (3a841). Minerals: Iron (3b103), Iodine (3b202), Copper (3b405), Manganese (3b502), Zinc (3b603), Selenium (3b802). Feeding Recommendations: For adult dogs, it can be consumed entirely in one meal. The daily rate may vary depending on the outdoor temperature, the pet's lifestyle (indoors and outdoors), temperament and activity. Make sure your pet has constant access to fresh drinking water. Store in a cool, dry place and close the food packaging properly after each feeding. The size and color of the product may vary depending on the properties of the ingredients. It is not suitable for human consumption. Daily ratio can vary according to outdoor temperature. Pet’s lifestyle (in door- or outdoor), temperature and activity. Ensure that your pet has permanent access to fresh water. Make every moment a celebration with Reflex Happy Hours Dog Treats!",
   "images": [
     {
-      "id": 52695,
+      "id": 55392,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/01/Happy-Hour-Dog-treats-Healthy-and-Shinny-coats.png",
-      "alt": "Pack Of 10 – Reflex Happy Hour Dog Treat Shiny Coat Salmon & Whey Powder 60g",
-      "name": "Happy Hour Dog treats &#8211; Healthy and Shinny coats"
+      "alt": "Reflex Happy Hour Dog Treat Shiny Coat Salmon & Whey Powder 60g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-happy-hour-dog-treat-shiny-coat-salmon-whey-powder-60gr-2/?add-to-cart=55392",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-05-26T14:31:02",
-  "dateModified": "2026-05-06T17:11:21",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=55392",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-happy-hour-dog-treat-shiny-coat-salmon-whey-powder-60gr-2/?add-to-cart=55392",
+  "shortDescription": "Delicious, crunchy morsels designed to delight your dog’s taste buds while promoting their overall health! Made with high-quality ingredients, these t",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/01/Happy-Hour-Dog-treats-Healthy-and-Shinny-coats.png",
+  "sku": "PSK-55392",
   "brand": "Reflex",
   "weight_kg": 0.06,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/01/Happy-Hour-Dog-treats-Healthy-and-Shinny-coats.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/01/Happy-Hour-Dog-treats-Healthy-and-Shinny-coats.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

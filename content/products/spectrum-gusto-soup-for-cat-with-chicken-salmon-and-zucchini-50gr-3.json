@@ -2,14 +2,12 @@
   "id": 48152,
   "name": "Spectrum Gusto Soup For Cat With Chicken Salmon And Zucchini 50g",
   "slug": "spectrum-gusto-soup-for-cat-with-chicken-salmon-and-zucchini-50gr-3",
-  "sku": "SCW005@F",
-  "onSale": true,
+  "onSale": false,
   "price": 127,
-  "regularPrice": 195,
-  "salePrice": 127,
+  "regularPrice": 127,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-CHICKEN-SALMON-AND-ZUCCHINI-50GR.png",
   "categories": [
     {
       "id": 180,
@@ -17,47 +15,51 @@
       "slug": "spectrum"
     }
   ],
-  "brands": [
-    {
-      "id": 2468,
-      "name": "Spectrum",
-      "slug": "spectrum"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=48152",
-  "shortDescription": "Spectrum Gusto Chicken, Salmon & Zucchini Soup 50g light, hydrating cat treat with protein, omega-3s, and veggies, ideal as a snack or meal topper.",
   "description": "Give your cat a tasty and light snack with Spectrum Gusto Soup featuring Chicken, Salmon, and Zucchini. This 50g wet food pouch combines 15.4% chicken, 10% salmon, and 4.7% zucchini in a savory fish broth for a flavorful, hydrating experience. Perfect as a daily reward, snack, or meal topper, it provides modest protein, minimal fat, and 90% moisture for cats needing extra hydration or a palatable treat. Key Features: Real chicken and salmon for protein and omega-3 support. Zucchini adds fiber and essential nutrients. Hydrating fish broth encourages water intake. Low-fat, light snack suitable for all cats. Pre-portioned 50g pouch for convenient feeding. Feeding Guidelines: Serve in small amounts with a spoon. Use as a treat, snack, or complementary food. Fresh water must always be available. &nbsp;",
   "images": [
     {
-      "id": 47676,
+      "id": 48152,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-CHICKEN-SALMON-AND-ZUCCHINI-50GR.png",
       "alt": "Spectrum Gusto Soup For Cat With Chicken Salmon And Zucchini 50g",
-      "name": "SPECTRUM GUSTO SOUP FOR CAT WITH CHICKEN, SALMON AND ZUCCHINI 50GR"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Spectrum",
+      "slug": "spectrum"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/spectrum-gusto-soup-for-cat-with-chicken-salmon-and-zucchini-50gr-3/?add-to-cart=48152",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-07-01T12:48:15",
-  "dateModified": "2026-06-17T04:35:32",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=48152",
+  "addToCartUrl": "https://petstore.co.ke/product/spectrum-gusto-soup-for-cat-with-chicken-salmon-and-zucchini-50gr-3/?add-to-cart=48152",
+  "shortDescription": "Give your cat a tasty and light snack with Spectrum Gusto Soup featuring Chicken, Salmon, and Zucchini. This 50g wet food pouch combines 15.4% chicken",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-CHICKEN-SALMON-AND-ZUCCHINI-50GR.png",
+  "sku": "PSK-48152",
   "brand": "Spectrum",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-CHICKEN-SALMON-AND-ZUCCHINI-50GR.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/SPECTRUM-GUSTO-SOUP-FOR-CAT-WITH-CHICKEN-SALMON-AND-ZUCCHINI-50GR.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

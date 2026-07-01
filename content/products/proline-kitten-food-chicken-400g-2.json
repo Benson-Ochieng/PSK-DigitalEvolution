@@ -2,14 +2,12 @@
   "id": 37968,
   "name": "SHORT EXPIRY-CLEARANCE: Proline Kitten Food - Chicken 400g",
   "slug": "proline-kitten-food-chicken-400g-2",
-  "sku": "PCD007@SE",
-  "onSale": true,
+  "onSale": false,
   "price": 490,
-  "regularPrice": 700,
-  "salePrice": 490,
+  "regularPrice": 490,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/06/Untitled-design-2025-07-23T093350.458.png",
   "categories": [
     {
       "id": 2325,
@@ -32,67 +30,51 @@
       "slug": "proline"
     }
   ],
-  "brands": [
-    {
-      "id": 2461,
-      "name": "Proline",
-      "slug": "proline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 637,
-      "name": "kibble",
-      "slug": "kibble"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/proline-kitten-food-chicken-400g-2/",
-  "shortDescription": "Fully balanced all-natural kitten food with chicken protein. Carefully formulated by cat nutritionists to meet the nutritional requirements of all growing kittens.",
   "description": "Proline Kitten Food - Chicken , fully balanced all natural kitten food with chicken protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of growing kittens. NUTRIENT COMPONENTS Protein ..................... 36% Fat ..........................20% Crude Ash ........................ 8% Crude Cellulose (Fiber)................ 3% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Wheat Middlings, Corn Gluten, Dried Sugar Beet, Chicken Liver Aroma, Salt, Flaxseed, Dried Brewer's Yeast, Taurine. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
   "images": [
     {
-      "id": 57102,
+      "id": 37968,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/06/Untitled-design-2025-07-23T093350.458.png",
       "alt": "SHORT EXPIRY-CLEARANCE: Proline Kitten Food - Chicken 400g",
-      "name": "Untitled design &#8211; 2025-07-23T093350.458"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Proline",
+      "slug": "proline"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/proline-kitten-food-chicken-400g-2/?add-to-cart=37968",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2023-06-24T11:52:31",
-  "dateModified": "2026-06-17T04:28:50",
+  "permalink": "https://petstore.co.ke/product/proline-kitten-food-chicken-400g-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/proline-kitten-food-chicken-400g-2/?add-to-cart=37968",
+  "shortDescription": "Proline Kitten Food - Chicken , fully balanced all natural kitten food with chicken protein. Carefully formulated by cat / dog nutritionists to meet t",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/06/Untitled-design-2025-07-23T093350.458.png",
+  "sku": "PSK-37968",
   "brand": "Proline",
   "weight_kg": 0.4,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/06/Untitled-design-2025-07-23T093350.458.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/06/Untitled-design-2025-07-23T093350.458.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

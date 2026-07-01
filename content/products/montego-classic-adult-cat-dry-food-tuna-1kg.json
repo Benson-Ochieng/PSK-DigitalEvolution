@@ -2,14 +2,12 @@
   "id": 62670,
   "name": "Montego Classic Adult Cat Dry Food - Tuna 1kg",
   "slug": "montego-classic-adult-cat-dry-food-tuna-1kg",
-  "sku": "MCCATT01@F",
-  "onSale": true,
+  "onSale": false,
   "price": 1224,
-  "regularPrice": 1550,
-  "salePrice": 1224,
+  "regularPrice": 1224,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-49.png",
   "categories": [
     {
       "id": 2298,
@@ -17,47 +15,51 @@
       "slug": "montego"
     }
   ],
-  "brands": [
-    {
-      "id": 2453,
-      "name": "Montego",
-      "slug": "montego"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=62670",
-  "shortDescription": "Montego Classic Adult Tuna Dry Cat Food provides a nutritionally balanced, premium meal for adult cats. With the delicious taste of tuna, this premium multi-protein formula is designed to support your cat's overall health, featuring added sodium to help maintain urinary tract health by reducing urinary ph.",
   "description": "It is packed with essential nutrients, including natural antioxidants and taurine for heart health, Omega-3 and Omega-6 fatty acids for skin and coat health, and no artificial colors or flavors. Your cat will enjoy every bite while receiving the nourishment they need to thrive. Key Benefits of Montego Classic Adult Tuna Dry Cat Food: Delicious Tuna: Provides a flavorful and protein-rich meal that cats love. Urinary Tract Health: Increased sodium content helps reduce urinary pH, supporting urinary tract health. Added Taurine: Supports heart health, nervous system function, and vision. Skin & Coat Health: Omega-6 and Omega-3 fatty acids help maintain a healthy, shiny coat and promote overall skin health. No Artificial Additives: Free from artificial colors and flavors for a wholesome, natural meal. Daily Feeding Guidelines Weight of Cat Moderate Activity High Activity 2 – 3 kg 35 – 45 g 43 – 57 g 3 – 5 kg 45 – 63 g 57 – 82 g 5 – 8 kg 63 – 87 g 82 – 112 g Why Choose Montego Classic Adult Tuna Dry Cat Food? This premium multi-protein formula is designed with the highest quality ingredients to provide balanced nutrition for adult cats. It offers a complete meal that supports urinary tract health, heart function, skin and coat health, and overall well-being. With added taurine and Omega-3 and Omega-6 fatty acids, your cat will benefit from essential nutrients for optimal health.",
   "images": [
     {
-      "id": 60585,
+      "id": 62670,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-49.png",
       "alt": "Montego Classic Adult Cat Dry Food - Tuna 1kg",
-      "name": "Untitled design (49)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Montego",
+      "slug": "montego"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/montego-classic-adult-cat-dry-food-tuna-1kg/?add-to-cart=62670",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-11-21T14:30:12",
-  "dateModified": "2026-06-17T04:34:30",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=62670",
+  "addToCartUrl": "https://petstore.co.ke/product/montego-classic-adult-cat-dry-food-tuna-1kg/?add-to-cart=62670",
+  "shortDescription": "It is packed with essential nutrients, including natural antioxidants and taurine for heart health, Omega-3 and Omega-6 fatty acids for skin and coat ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-49.png",
+  "sku": "PSK-62670",
   "brand": "Montego",
   "weight_kg": 1,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-49.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-49.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

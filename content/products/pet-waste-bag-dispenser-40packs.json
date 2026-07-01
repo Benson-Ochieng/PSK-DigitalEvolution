@@ -2,14 +2,12 @@
   "id": 43656,
   "name": "Pet Waste Bag + Dispenser 40packs",
   "slug": "pet-waste-bag-dispenser-40packs",
-  "sku": "PA0127@F",
-  "onSale": true,
+  "onSale": false,
   "price": 405,
-  "regularPrice": 450,
-  "salePrice": 405,
+  "regularPrice": 405,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/01/Pet-waste-Bag-and-dispenser-40pack.png",
   "categories": [
     {
       "id": 2096,
@@ -17,35 +15,51 @@
       "slug": "generic"
     }
   ],
-  "brands": [],
-  "tags": [],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=43656",
-  "shortDescription": "Dog Poop Bag Holder with Leash Clip. Comes with 40 disposable waste bags, each bag is perforate for easy separation",
   "description": "Dog Poop Bag Holder with Leash Clip. Comes with 40 disposable waste bags, each bag is perforate for easy separation.",
   "images": [
     {
-      "id": 42866,
+      "id": 43656,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/01/Pet-waste-Bag-and-dispenser-40pack.png",
       "alt": "Pet Waste Bag + Dispenser 40packs",
-      "name": "Pet waste Bag and dispenser 40pack"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/pet-waste-bag-dispenser-40packs/?add-to-cart=43656",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-01-30T11:15:58",
-  "dateModified": "2026-05-06T17:09:27",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=43656",
+  "addToCartUrl": "https://petstore.co.ke/product/pet-waste-bag-dispenser-40packs/?add-to-cart=43656",
+  "shortDescription": "Dog Poop Bag Holder with Leash Clip. Comes with 40 disposable waste bags, each bag is perforate for easy separation.",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/01/Pet-waste-Bag-and-dispenser-40pack.png",
+  "sku": "PSK-43656",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/01/Pet-waste-Bag-and-dispenser-40pack.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/01/Pet-waste-Bag-and-dispenser-40pack.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 29419,
   "name": "Ankur Heavy Dish Bowl With Full Bonded Colored Rubber Base 27cm (3900ml)",
   "slug": "ankur-heavy-dish-bowl-with-full-bonded-colored-rubber-base-27cm-3900ml",
-  "sku": "AEHDASFRBC-06",
   "onSale": false,
   "price": 1850,
   "regularPrice": 1850,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-Heavy-Bondend-Bowl.png",
   "categories": [
     {
       "id": 2041,
@@ -27,41 +25,51 @@
       "slug": "dog-bowls-feeders"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2072,
-      "name": "Bowls",
-      "slug": "bowls"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/ankur-heavy-dish-bowl-with-full-bonded-colored-rubber-base-27cm-3900ml/",
-  "shortDescription": "Treat-your pet to the perfect dining experience with the Ankur Heavy Bowl—a combination of functionality and modern design!",
   "description": "Pamper your furry friend with the Ankur Heavy Dog Bowl, expertly crafted for both durability and style. With a generous capacity of 3900ml, this bowl is perfect for serving food or water for larger breeds or multiple pets. Key Features: Spacious Capacity: The 27cm diameter ensures plenty of room for meals, keeping your pet satisfied and hydrated. Robust Construction: Made from high-quality materials, this bowl is designed to withstand enthusiastic eating and drinking. Non-Slip Rubber Base: The full bonded colored rubber base prevents sliding and tipping, keeping mess to a minimum while protecting your floors. Stylish Design: Available in a range of vibrant colors, this bowl adds a touch of flair to your pet’s dining area. Easy to Clean: The smooth interior surface makes cleaning simple, ensuring your dog’s bowl stays fresh and hygienic. Treat your pet to the perfect dining experience with the Ankur Heavy Dog Bowl—a combination of functionality and modern design! &nbsp; &nbsp; &nbsp;",
   "images": [
     {
-      "id": 29412,
+      "id": 29419,
       "src": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-Heavy-Bondend-Bowl.png",
       "alt": "Ankur Heavy Dish Bowl With Full Bonded Colored Rubber Base 27cm (3900ml)",
-      "name": "Ankur Heavy Bondend Bowl"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/ankur-heavy-dish-bowl-with-full-bonded-colored-rubber-base-27cm-3900ml/?add-to-cart=29419",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2022-06-29T11:26:43",
-  "dateModified": "2026-06-17T04:18:39",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/ankur-heavy-dish-bowl-with-full-bonded-colored-rubber-base-27cm-3900ml/",
+  "addToCartUrl": "https://petstore.co.ke/product/ankur-heavy-dish-bowl-with-full-bonded-colored-rubber-base-27cm-3900ml/?add-to-cart=29419",
+  "shortDescription": "Pamper your furry friend with the Ankur Heavy Dog Bowl, expertly crafted for both durability and style. With a generous capacity of 3900ml, this bowl ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-Heavy-Bondend-Bowl.png",
+  "sku": "PSK-29419",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-Heavy-Bondend-Bowl.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-Heavy-Bondend-Bowl.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

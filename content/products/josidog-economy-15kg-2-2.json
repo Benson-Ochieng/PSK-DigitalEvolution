@@ -2,14 +2,12 @@
   "id": 54102,
   "name": "Josidog Economy 15kg",
   "slug": "josidog-economy-15kg-2-2",
-  "sku": "JDJE@F",
-  "onSale": true,
+  "onSale": false,
   "price": 5945,
-  "regularPrice": 7800,
-  "salePrice": 5945,
+  "regularPrice": 5945,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JOSIDOG-ECONOMY-15KG-1.png",
   "categories": [
     {
       "id": 2112,
@@ -17,47 +15,51 @@
       "slug": "josera"
     }
   ],
-  "brands": [
-    {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=54102",
-  "shortDescription": "The kibble of JosiDog Economy is made from crunchy, tasty chunks and is suitable for dogs with normal energy requirements. Complete feed for adult dogs.",
   "description": "The kibble of JosiDog Economy is made from crunchy, tasty chunks and is suitable for dogs with normal energy requirements. Complete feed for adult dogs. Complete feed for adult dogs Composition: cereals meat and animal derivatives vegetable by-products oils and fats minerals Composition: cereals; meat and animal derivatives; derivatives of vegetable origin; oils and fats; minerals. Protein ........................ 22% Fat Content .................8% crude fiber ................. 2.7% Calcium ...................... 2.8% Phosphorus ................ 1.6% Sodium ......................... 0.45% Metabollsable energy : 13.9 MJ/kg .......................... kcal/kg 3358",
   "images": [
     {
-      "id": 51771,
+      "id": 54102,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JOSIDOG-ECONOMY-15KG-1.png",
-      "alt": "JosiDog Economy 15kg",
-      "name": "JOSIDOG ECONOMY- 15KG"
+      "alt": "Josidog Economy 15kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/josidog-economy-15kg-2-2/?add-to-cart=54102",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-03-21T16:20:49",
-  "dateModified": "2026-06-17T04:33:52",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=54102",
+  "addToCartUrl": "https://petstore.co.ke/product/josidog-economy-15kg-2-2/?add-to-cart=54102",
+  "shortDescription": "The kibble of JosiDog Economy is made from crunchy, tasty chunks and is suitable for dogs with normal energy requirements. Complete feed for adult dog",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JOSIDOG-ECONOMY-15KG-1.png",
+  "sku": "PSK-54102",
   "brand": "Josera",
   "weight_kg": 15,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JOSIDOG-ECONOMY-15KG-1.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JOSIDOG-ECONOMY-15KG-1.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

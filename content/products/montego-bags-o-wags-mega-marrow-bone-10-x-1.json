@@ -2,14 +2,12 @@
   "id": 56601,
   "name": "Montego Bags O' Wags Mega Marrow Bone - 10 x 1",
   "slug": "montego-bags-o-wags-mega-marrow-bone-10-x-1",
-  "sku": "BWMMBXL1",
   "onSale": false,
   "price": 0,
   "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-14.png",
   "categories": [
     {
       "id": 2380,
@@ -37,52 +35,51 @@
       "slug": "montego"
     }
   ],
-  "brands": [
-    {
-      "id": 2425,
-      "name": "Bags-o-wags",
-      "slug": "bags-o-wags"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=56601",
-  "shortDescription": "Highly nutritious, wagtastically delicious, BAGS O’ WAGS Megachews are the super-sized treats dogs love to get and they’re big on fun and goodness! A chewmungous bone with a soft, meaty centre! These tasty treats are ideal as a delicious reward when training (or whenever!)",
   "description": "Ingredients: Corn starch, poultry meal, water, glycerine, milk powder (lactose reduced), propylene glycol, wheat gluten, sugars, chicken fat, sodium hexametaphosphate, spray-dried animal plasma, sodium tripolyphosphate, fish oil, carrageenan. Additives: SENSORY: White and brown colour; palatability meat-based enhancers with beef flavour; Preservatives: Potassium sorbate. Typical Analysis: Crude protein: 15% | Moisture: 16.5% | Total fat: 5.5% | Crude fibre: 1% | Sodium: 5% | Metabolisable energy: 342 kcal/100 g &nbsp;",
   "images": [
     {
-      "id": 56602,
+      "id": 56601,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-14.png",
       "alt": "Montego Bags O' Wags Mega Marrow Bone - 10 x 1",
-      "name": "Untitled design (14)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Bags-o-wags",
+      "slug": "bags-o-wags"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/montego-bags-o-wags-mega-marrow-bone-10-x-1/?add-to-cart=56601",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-07-09T15:44:23",
-  "dateModified": "2026-06-17T04:32:41",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=56601",
+  "addToCartUrl": "https://petstore.co.ke/product/montego-bags-o-wags-mega-marrow-bone-10-x-1/?add-to-cart=56601",
+  "shortDescription": "Ingredients: Corn starch, poultry meal, water, glycerine, milk powder (lactose reduced), propylene glycol, wheat gluten, sugars, chicken fat, sodium h",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-14.png",
+  "sku": "PSK-56601",
   "brand": "Bags-o-wags",
   "weight_kg": 0.1,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-14.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-14.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

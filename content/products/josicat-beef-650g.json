@@ -2,14 +2,12 @@
   "id": 23764,
   "name": "JosiCat Beef 650g",
   "slug": "josicat-beef-650g",
-  "sku": "JCJB003",
   "onSale": false,
   "price": 820,
   "regularPrice": 820,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JCJB003.jpg",
   "categories": [
     {
       "id": 2112,
@@ -17,52 +15,51 @@
       "slug": "josera"
     }
   ],
-  "brands": [
-    {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=23764",
-  "shortDescription": "Tasty kibble refined with hearty beef. Complete feed for adult cats. Flavourful kibble with an appetizing beef taste. Suitable for both indoor and outdoor cats. No added artificial colours, flavours or preservatives. No added soy, sugar or milk products.",
   "description": "Composition: Meat and animal by-products (beef 4 %), cereals; oils and fats; vegetable by-products; minerals. Product Details: Tasty kibble refined with hearty beef. Complete feed for adult cats. ? Flavourful kibble with an appetizing beef taste. ? Suitable for both indoor and outdoor cats. ? No added artificial colours, flavours or preservatives. ? No added soy, sugar or milk products.",
   "images": [
     {
-      "id": 23788,
+      "id": 23764,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JCJB003.jpg",
       "alt": "JosiCat Beef 650g",
-      "name": "JCJB003.jpg"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/josicat-beef-650g/?add-to-cart=23764",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2021-10-29T07:55:43",
-  "dateModified": "2026-06-24T11:12:00",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=23764",
+  "addToCartUrl": "https://petstore.co.ke/product/josicat-beef-650g/?add-to-cart=23764",
+  "shortDescription": "Composition: Meat and animal by-products (beef 4 %), cereals; oils and fats; vegetable by-products; minerals. Product Details: Tasty kibble refined wi",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JCJB003.jpg",
+  "sku": "PSK-23764",
   "brand": "Josera",
   "weight_kg": 0.65,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JCJB003.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JCJB003.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

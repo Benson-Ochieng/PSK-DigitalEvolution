@@ -2,14 +2,12 @@
   "id": 48172,
   "name": "Migliorcane Adult Dog Food Active Croquettes With Beef 10kg",
   "slug": "migliorcane-adult-dog-food-active-croquettes-with-beef-10kg-2",
-  "sku": "MDD005@F",
-  "onSale": true,
+  "onSale": false,
   "price": 4284,
-  "regularPrice": 5355,
-  "salePrice": 4284,
+  "regularPrice": 4284,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MDD004.jpg",
   "categories": [
     {
       "id": 2163,
@@ -17,41 +15,51 @@
       "slug": "miglior"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=48172",
-  "shortDescription": "Formula designed to guarantee the key nutrients required for the well-being of your dog, including vitamins, Omega 3, calcium and phosphorous to support strong bones and teeth, healthy skin and glossy coat, and toned muscules.",
   "description": "COMPOSITION: Cereals, meat and animal derivatives 27% (beef 4%), derivatives of vegetable origin, oil and fats, minerals, yeasts. ANALYTICAL CONSTITUENTS: Crude protein 21.00%, Crude fibres 2.50%, Crude Fat 10.00%, Crude ash 8.50%, Calcium 2.4%, Phosphorus 1.5%, Sodium 0.3%, Omega 3 fatty acids 0.26%, Omega 6 fatty acids 1.5%. Nutritional additives /kg: Vitamin A 11090 IU, Vitamin D3 770 IU, Vitamin E 70 mg, Iron (Iron (II) carbonate - siderite) 35.8 mg, Zinc (Zinc oxide) 71 mg, Copper (Copper (II) sulphate pentahydrate) 5.9 mg, Manganese (Manganese (II) oxide) 3.5 mg, Iodine (Potassium iodide) 1.7 mg, Selenium (Sodium selenite) 0.1 mg. Antioxidants. HOW TO USE: The product is ready to use. The daily amount recommended may vary due to age or particular needs of every dog. We suggest to switch gradually to the new food. Leave always available to your dog a bowl of pure water. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight.",
   "images": [
     {
-      "id": 28164,
+      "id": 48172,
       "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MDD004.jpg",
-      "alt": "MIGLIORCANE DOG FOOD ACTIVE CROQUETTES with BEEF",
-      "name": "MDD004"
+      "alt": "Migliorcane Adult Dog Food Active Croquettes With Beef 10kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/migliorcane-adult-dog-food-active-croquettes-with-beef-10kg-2/?add-to-cart=48172",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-07-01T15:18:34",
-  "dateModified": "2026-05-06T17:10:15",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=48172",
+  "addToCartUrl": "https://petstore.co.ke/product/migliorcane-adult-dog-food-active-croquettes-with-beef-10kg-2/?add-to-cart=48172",
+  "shortDescription": "COMPOSITION: Cereals, meat and animal derivatives 27% (beef 4%), derivatives of vegetable origin, oil and fats, minerals, yeasts. ANALYTICAL CONSTITUE",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MDD004.jpg",
+  "sku": "PSK-48172",
+  "brand": "PetStore Kenya",
   "weight_kg": 10,
   "animal_type": "dog",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MDD004.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MDD004.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

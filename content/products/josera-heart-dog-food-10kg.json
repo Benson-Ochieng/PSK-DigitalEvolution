@@ -2,14 +2,12 @@
   "id": 46155,
   "name": "Josera Heart Dog Food 10kg",
   "slug": "josera-heart-dog-food-10kg",
-  "sku": "JHLHD10",
   "onSale": false,
   "price": 13000,
   "regularPrice": 13000,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/transparent-4032254768227_hund_josera_help_heart_10kg_seitlich_2.png",
   "categories": [
     {
       "id": 2345,
@@ -32,52 +30,51 @@
       "slug": "josera"
     }
   ],
-  "brands": [
-    {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/josera-heart-dog-food-10kg/",
-  "shortDescription": "When the heart of the beloved dog weakens, the worry is great. But you could help your four-legged friend to feel better with a suitable feed. Josera Help Heart is a complete dietary feed that starts exactly here.",
   "description": "When the heart of the beloved dog weakens, the worry is great. But you can help your four-legged friend to feel better with a suitable feed. Josera Help Heart is a complete dietary feed that starts exactly here. The sodium-reduced dry feed relieves the heart and supports heart health thanks to vitamins E and C as well as taurine and L-carnitine. The phytogenic complex contains rosemary, which is traditionally used in folk medicine to support the heart and circulation. Thanks to the selected recipe, Josera Help Heart can support the diseases of the heart and thus contribute to the dog’s zest for life. Can support the well-being of a heart condition and relieve the heart thanks to the sodium-reduced recipe With vitamins E and C, taurine, and L-carnitine to support heart health Phytogen Complex: Rosemary is traditionally used to support the heart The salmon oil provides anti-inflammatory omega-3 fatty acids &nbsp; Composition: Maize; rice; dried poultry protein; barley; dried salmon protein; poultry fat; dried beet pulp (natural source of dietary fibre); hydrolysed animal protein; salmon oil; yeast; minerals; ground chicory root (natural source of inulin); oregano; ginger; rosemary; nettle; milk thistle; cranberry. Complete dietary feed for adult dogs with chronic cardiac insufficiency FEEDING RECOMMENDATION: Feeding recommendation per day. &nbsp; Weight inactive / older normally active active 5 kg 75 g 90 g 105 g 10 kg 125 g 150 g 170 g 20 kg 210 g 250 g 290 g 30 kg 285 g 340 g 395 g 40 kg 355 g 420 g 490 g 60 kg 480 g 570 g 660 g 80 kg 600 g 710 g 820 g For optimal effect, only feed the diet feed. Additional feedings must be discussed with the attending veterinarian in advance. Ensure that your pet always has access to fresh drinking water. .",
   "images": [
     {
-      "id": 46157,
+      "id": 46155,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/04/transparent-4032254768227_hund_josera_help_heart_10kg_seitlich_2.png",
       "alt": "Josera Heart Dog Food 10kg",
-      "name": "transparent-4032254768227_hund_josera_help_heart_10kg_seitlich_2"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/josera-heart-dog-food-10kg/?add-to-cart=46155",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-04-16T16:53:03",
-  "dateModified": "2026-06-17T04:29:48",
+  "permalink": "https://petstore.co.ke/product/josera-heart-dog-food-10kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/josera-heart-dog-food-10kg/?add-to-cart=46155",
+  "shortDescription": "When the heart of the beloved dog weakens, the worry is great. But you can help your four-legged friend to feel better with a suitable feed. Josera He",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/transparent-4032254768227_hund_josera_help_heart_10kg_seitlich_2.png",
+  "sku": "PSK-46155",
   "brand": "Josera",
   "weight_kg": 2,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/transparent-4032254768227_hund_josera_help_heart_10kg_seitlich_2.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/transparent-4032254768227_hund_josera_help_heart_10kg_seitlich_2.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

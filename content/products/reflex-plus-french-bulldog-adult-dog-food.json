@@ -2,14 +2,12 @@
   "id": 69384,
   "name": "Reflex Plus Adult Dog Food Breed Series French Bulldog Hypoallergenic 3kg",
   "slug": "reflex-plus-french-bulldog-adult-dog-food",
-  "sku": "RPDD014",
   "onSale": false,
   "price": 4350,
   "regularPrice": 4350,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/french-bulldog-1.png",
   "categories": [
     {
       "id": 2345,
@@ -32,57 +30,51 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
-    {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/reflex-plus-french-bulldog-adult-dog-food/",
-  "shortDescription": "Reflex Plus French Bulldog Adult Dog Food is a super-premium dry diet for dogs 10+ months. Supports joint health, digestion, immunity, skin & coat, and dental care. &nbsp;",
   "description": "Reflex Plus French Bulldog Adult Dog Food is a complete and balanced dry diet specially formulated for French Bulldogs over 10 months old. With high-quality animal proteins and functional ingredients, it delivers optimal nutrition while supporting joint health, digestion, skin and coat condition, oral hygiene, and overall vitality. Enriched with glucosamine, chondroitin sulfate, prebiotics, Aloe Vera, cranberry, and brown algae, this formula promotes immune system health, joint flexibility, urinary tract support, skin barrier maintenance, and dental health. Key Benefits Formulated specifically for French Bulldogs (10+ months) 83% of total protein comes from premium animal ingredients Supports immune and digestive system health (FOS & MOS prebiotics) Promotes joint health and flexibility (Glucosamine & Chondroitin Sulfate) Supports skin and coat health (Aloe Vera & Borage Oil) Boosts oral and dental health (Brown Algae) Rich in antioxidants (Cranberry) Complete nutrition for adult French Bulldogs Ingredients Processed chicken protein (30%), Corn, Chicken fat, Rice, Hydrolyzed chicken protein, Pea protein, Dried beet pulp, Fish protein, Fish oil, Liver aroma, Vitamins and minerals, DL-Methionine, Fiber Concentrate, Psyllium fiber, Dried brewer's yeast, Brown algae, Borage oil, Cranberry, MOS (mannan oligosaccharides), Flaxseed, Yucca schidigera, Salt, Aloe Vera, FOS (fructo-oligosaccharides), Glucosamine, Chondroitin sulfate, Preservatives – antioxidants (E320 & E321). Analytical Constituents Crude Protein: 27% Crude Fat: 17% Crude Ash: 7% Crude Fibre: 2.5% Nutritional Supplements Vitamins: Vitamin A: 18,000 IU/kg Vitamin D3: 1,500 IU/kg Vitamin E: 200 mg/kg Vitamin C: 200 mg/kg B Vitamins (B1, B2, B3, B6, B12, Biotin, Folic Acid), Vitamin K3, Choline, Calcium Pantothenate Minerals: Iron, Iodine, Copper, Manganese, Zinc, Selenium Feeding Guidelines Suitable for French Bulldogs aged 10 months and above Feed according to age, weight, and activity level Provide fresh drinking water at all times Introduce new food gradually over 5–7 days Store in a cool, dry place &nbsp; &nbsp; &nbsp; &nbsp;",
   "images": [
     {
-      "id": 69385,
+      "id": 69384,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/02/french-bulldog-1.png",
       "alt": "Reflex Plus Adult Dog Food Breed Series French Bulldog Hypoallergenic 3kg",
-      "name": "french bulldog (1)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-french-bulldog-adult-dog-food/?add-to-cart=69384",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-02-02T10:56:52",
-  "dateModified": "2026-06-17T04:30:34",
+  "permalink": "https://petstore.co.ke/product/reflex-plus-french-bulldog-adult-dog-food/",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-french-bulldog-adult-dog-food/?add-to-cart=69384",
+  "shortDescription": "Reflex Plus French Bulldog Adult Dog Food is a complete and balanced dry diet specially formulated for French Bulldogs over 10 months old. With high-q",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/french-bulldog-1.png",
+  "sku": "PSK-69384",
   "brand": "Reflex",
   "weight_kg": 3,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/french-bulldog-1.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/french-bulldog-1.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

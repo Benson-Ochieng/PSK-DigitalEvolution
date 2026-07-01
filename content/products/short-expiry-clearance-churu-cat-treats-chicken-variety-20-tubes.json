@@ -2,14 +2,12 @@
   "id": 88826,
   "name": "SHORT EXPIRY-CLEARANCE: Churu Cat Treats Chicken Variety 20 Tubes",
   "slug": "short-expiry-clearance-churu-cat-treats-chicken-variety-20-tubes",
-  "sku": "BCCT001@SE",
-  "onSale": true,
+  "onSale": false,
   "price": 1464,
-  "regularPrice": 1830,
-  "salePrice": 1464,
+  "regularPrice": 1464,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/CHURU-CHICKEN-20CT.png",
   "categories": [
     {
       "id": 2325,
@@ -27,51 +25,51 @@
       "slug": "kitten"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=88826",
-  "shortDescription": "Churu Chicken Variety Pack 20ct creamy, lickable cat treats made with farm raised chicken. 91% moisture, only 6 calories per tube, grain-free with added taurine. Perfect for hydration, bonding, and picky eaters.",
   "description": "Treat your cat to the irresistible taste and creamy texture they crave with the Churu 20-Count Chicken Variety Pack . Made with wholesome, high-quality ingredients you can trust , these lickable purée treats turn snack time into a bonding experience while supporting your cat’s hydration and overall wellbeing. Each tube is crafted using farm-raised chicken and carefully selected natural ingredients, delivering a delicious reward that’s both nutritious and low in calories. With 91% moisture and only 6 calories per tube , Churu treats are a smart choice for daily indulgence without guilt. Why Cats (and Cat Parents) Love Churu: High Moisture for Hydration: Helps keep cats hydrated, especially those who don’t drink enough water Low-Calorie Treat: Only 6 kcal per tube—about one-tenth the calories of traditional dry treats Clean, Simple Recipe: Free from grains, preservatives, artificial colors, and carrageenan Added Taurine & Vitamin E: Supports heart health, vision, and immune function Interactive Feeding: Perfect for hand-feeding, food topping, or disguising medication Flavor Variety Included (20 Tubes): Chicken Recipe ×5 Chicken with Scallop ×5 Chicken with Cheese ×5 Chicken with Shrimp Flavor ×5 Suitable for cats of all life stages , from playful kittens to senior companions, this variety pack keeps treat time exciting and satisfying. Guaranteed Analysis Crude Protein (min): 7.00% Crude Fat (min): 0.20% Crude Fiber (max): 0.30% Moisture (max): 91.00% Vitamin E (min): 310 IU/kg Taurine (min): 0.025% Calorie Content: 430 kcal/kg | 6.0 kcal per tube (ME) Net Weight: 10.0 oz (0.5 oz × 20 tubes) Feeding Instructions Feed as a treat only. Not intended as a complete meal. Always provide clean, fresh water and consult your veterinarian regularly. Storage Instructions Refrigerate after opening and serve as soon as possible. &nbsp;",
   "images": [
     {
-      "id": 66314,
+      "id": 88826,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/01/CHURU-CHICKEN-20CT.png",
-      "alt": "Churu Cat Treats Chicken Variety 20 Tubes",
-      "name": "CHURU CHICKEN 20CT"
+      "alt": "SHORT EXPIRY-CLEARANCE: Churu Cat Treats Chicken Variety 20 Tubes",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-churu-cat-treats-chicken-variety-20-tubes/?add-to-cart=88826",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-04-11T10:39:44",
-  "dateModified": "2026-05-30T12:12:48",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=88826",
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-churu-cat-treats-chicken-variety-20-tubes/?add-to-cart=88826",
+  "shortDescription": "Treat your cat to the irresistible taste and creamy texture they crave with the Churu 20-Count Chicken Variety Pack . Made with wholesome, high-qualit",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/CHURU-CHICKEN-20CT.png",
+  "sku": "PSK-88826",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/CHURU-CHICKEN-20CT.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/CHURU-CHICKEN-20CT.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

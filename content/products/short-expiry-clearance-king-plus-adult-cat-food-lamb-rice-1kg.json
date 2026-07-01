@@ -2,14 +2,12 @@
   "id": 53930,
   "name": "SHORT EXPIRY-CLEARANCE: King Plus Adult Cat Food Lamb & Rice 1kg",
   "slug": "short-expiry-clearance-king-plus-adult-cat-food-lamb-rice-1kg",
-  "sku": "KCD007@SE",
-  "onSale": true,
+  "onSale": false,
   "price": 696,
-  "regularPrice": 995,
-  "salePrice": 696,
+  "regularPrice": 696,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/11/KING-CAT-LAMB-AND-RICE-1KG.png",
   "categories": [
     {
       "id": 2325,
@@ -32,62 +30,51 @@
       "slug": "king"
     }
   ],
-  "brands": [
-    {
-      "id": 2446,
-      "name": "King",
-      "slug": "king"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 637,
-      "name": "kibble",
-      "slug": "kibble"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/short-expiry-clearance-king-plus-adult-cat-food-lamb-rice-1kg/",
-  "shortDescription": "Fully balanced all-natural cat food with lamb protein. Carefully formulated by cat nutritionists to meet the nutritional requirements of all adult cats.",
   "description": "Fully balanced all-natural cat food with lamb protein. Carefully formulated by cat nutritionists to meet the nutritional requirements of all adult cats. King Plus Adult Cat Food – Lamb , fully balanced all-natural cat food with fish protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult cats. NUTRIENT COMPONENTS Protein ………… 26% Fat ……………. 9% Crude Ash …………. 11% Crude Cellulose (Fiber) ………… 3.5% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Processed lamb protein, Corn Gluten, Liver Aroma, Fish Aroma, Rice, Salt, Flaxseed, Dried Brewer's Yeast, Taurine. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 – B2 – B3 (niacin) – B6 – B12 – B7 (biotin) – B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
   "images": [
     {
-      "id": 41467,
+      "id": 53930,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/11/KING-CAT-LAMB-AND-RICE-1KG.png",
-      "alt": "King Plus Adult Cat Food Lamb & Rice 1kg",
-      "name": "KING CAT LAMB AND RICE 1KG"
+      "alt": "SHORT EXPIRY-CLEARANCE: King Plus Adult Cat Food Lamb & Rice 1kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "King",
+      "slug": "king"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-king-plus-adult-cat-food-lamb-rice-1kg/?add-to-cart=53930",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-03-13T11:03:19",
-  "dateModified": "2026-06-17T05:01:26",
+  "permalink": "https://petstore.co.ke/product/short-expiry-clearance-king-plus-adult-cat-food-lamb-rice-1kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-king-plus-adult-cat-food-lamb-rice-1kg/?add-to-cart=53930",
+  "shortDescription": "Fully balanced all-natural cat food with lamb protein. Carefully formulated by cat nutritionists to meet the nutritional requirements of all adult cat",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/11/KING-CAT-LAMB-AND-RICE-1KG.png",
+  "sku": "PSK-53930",
   "brand": "King",
   "weight_kg": 1,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/11/KING-CAT-LAMB-AND-RICE-1KG.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/11/KING-CAT-LAMB-AND-RICE-1KG.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

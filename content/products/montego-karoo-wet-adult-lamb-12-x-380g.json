@@ -2,14 +2,12 @@
   "id": 56682,
   "name": "Montego Karoo Wet Adult Lamb - 380g",
   "slug": "montego-karoo-wet-adult-lamb-12-x-380g",
-  "sku": "MKWL380",
-  "onSale": true,
+  "onSale": false,
   "price": 855,
-  "regularPrice": 950,
-  "salePrice": 855,
+  "regularPrice": 855,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-30.png",
   "categories": [
     {
       "id": 2345,
@@ -32,57 +30,51 @@
       "slug": "wet-dog-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2453,
-      "name": "Montego",
-      "slug": "montego"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 939,
-      "name": "On Sale Now",
-      "slug": "sale"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/montego-karoo-wet-adult-lamb-12-x-380g/",
-  "shortDescription": "Montego Karoo Lamb wet food for adult dogs come in a 380g tub. It is made with the finest ingredients to use as a complete diet or to add to kibble as a topper. The food is perfect for even the fussiest taste buds as it has been slow cooked to excellence for your furry friend.",
   "description": "Montego Karoo Lamb wet food is made with the finest ingredients that have been slow-cooked. This succulent food is made with Lamb, rice and vitamin-rich Country Vegetables and comes in a 380g tub for adult dogs, suitable for all breeds. The food is a complete, nutritional diet which means it can be fed as a meal, or you could add it to your current dry food pellets if that is preferred. Ingredients Water, lamb (including liver),, rice (including rice flour), whole egg powder, palm oil, beet pulp, sodium tripolyphosphate, calcium carbonate, guar gum, salt, xanthan gum, potassium chloride, essential minerals & vitamins. Nutritional: Vitamin A 1 500 IU, Vitamin D3 75 IU, Vitamin E 6 IU, potassium chloride 1 g, zinc sulphate 7.5 mg, ferrous sulphate 7.5 mg, copper sulphate 0.5 mg, manganese sulphate 0.3 mg, potassium iodide 0.1 mg and sodium selenite 0.01 mg; Preservatives: Approved antioxidants; Sensory: Gravy sauce, palatability meat-based enhancers and dextrose Daily Feeding Guidelines Cat’s Weight Wet Food Only (Tubs/Day) Dry Food Only (g/Day) Mixed Feeding (Dry + Wet) 2 – 3 kg 1 – 1 ½ Tubs 125 – 187.5 g 17 – 25 g kibble + ½ – ¾ Tub 4 – 5 kg 2 – 2 ½ Tubs 250 – 312.5 g 27 – 35 g kibble + 1 – 1 ¼ Tubs 6 – 8 kg 3 – 4 Tubs 375 – 500 g 40 – 50 g kibble + 1 ½ – 2 Tubs",
   "images": [
     {
-      "id": 56683,
+      "id": 56682,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-30.png",
-      "alt": "Montego Karoo Wet Adult Lamb – 380g",
-      "name": "Untitled design (30)"
+      "alt": "Montego Karoo Wet Adult Lamb - 380g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Montego",
+      "slug": "montego"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/montego-karoo-wet-adult-lamb-12-x-380g/?add-to-cart=56682",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-07-10T15:20:24",
-  "dateModified": "2026-06-24T11:12:06",
+  "permalink": "https://petstore.co.ke/product/montego-karoo-wet-adult-lamb-12-x-380g/",
+  "addToCartUrl": "https://petstore.co.ke/product/montego-karoo-wet-adult-lamb-12-x-380g/?add-to-cart=56682",
+  "shortDescription": "Montego Karoo Lamb wet food is made with the finest ingredients that have been slow-cooked. This succulent food is made with Lamb, rice and vitamin-ri",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-30.png",
+  "sku": "PSK-56682",
   "brand": "Montego",
   "weight_kg": 0.1,
   "animal_type": "dog",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-30.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-30.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

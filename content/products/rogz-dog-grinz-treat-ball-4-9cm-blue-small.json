@@ -2,14 +2,12 @@
   "id": 17367,
   "name": "Rogz Dog ginz-Treat Ball 4.9cm - Blue Small",
   "slug": "rogz-dog-grinz-treat-ball-4-9cm-blue-small",
-  "sku": "GR01-B",
   "onSale": false,
   "price": 950,
   "regularPrice": 950,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/GR01-B-Grinz-Blue.jpg",
   "categories": [
     {
       "id": 2345,
@@ -32,51 +30,51 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-4-9cm-blue-small/",
-  "shortDescription": "Rogz Grinz ball – Blue Small",
   "description": "The Rogz Dog Grinz-Treat Ball is a durable, interactive treat-dispensing toy designed for small dogs, promoting mental stimulation, exercise, and safe play. Key Features: Interactive Treat Dispenser: Fill the ball with your dog’s favorite treats. As your dog plays, treats gradually fall out, keeping them engaged and active. Material & Durability: Made from SEBS thermoplastic rubber, soft on teeth yet firm enough to bounce for a fun chase experience. Floating Capability: Floats on water, perfect for fetch both on land and in shallow water. Fun Design: The unique “teeth” pattern creates a humorous effect when carried in your dog’s mouth. Ideal Size: 4.9 cm (≈2 in) diameter, perfect for small breeds. Bounce & Comfort: Medium firmness provides a comfortable bite and playful bounce without harming gums. Safe & Non-toxic: Free from harmful materials, supporting healthy chewing and dental care. Additional Information: Weight: ~20 ga Available Colors: Blue, Red, Orange, Pink, Lime Usage: Great for physical activity, mental stimulation, treat-reward training, and enrichment. Care: Supervise play and regularly inspect for damage. Play Benefits: Reduces boredom and keeps dogs mentally stimulated. Encourages physical activity through chase and fetch. Promotes healthy chewing habits. Can slow down treat consumption, adding a fun challenge to snacking. Widely appreciated for its durability, engaging design, and suitability for small dogs, the Rogz Dog Grinz-Treat Ball is a must-have for interactive indoor and outdoor play. &nbsp;",
   "images": [
     {
-      "id": 17341,
+      "id": 17367,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/01/GR01-B-Grinz-Blue.jpg",
       "alt": "Rogz Dog ginz-Treat Ball 4.9cm - Blue Small",
-      "name": "GR01-B Grinz Blue"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-4-9cm-blue-small/?add-to-cart=17367",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2021-01-08T19:32:41",
-  "dateModified": "2026-06-17T04:18:33",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-4-9cm-blue-small/",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-4-9cm-blue-small/?add-to-cart=17367",
+  "shortDescription": "The Rogz Dog Grinz-Treat Ball is a durable, interactive treat-dispensing toy designed for small dogs, promoting mental stimulation, exercise, and safe",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/GR01-B-Grinz-Blue.jpg",
+  "sku": "PSK-17367",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/GR01-B-Grinz-Blue.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/GR01-B-Grinz-Blue.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

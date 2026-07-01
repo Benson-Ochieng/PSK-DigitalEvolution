@@ -2,14 +2,12 @@
   "id": 55900,
   "name": "Snappy Tom Tuna Shrimp And Jelly 85g",
   "slug": "snappy-tom-tuna-shrimp-and-jelly-85g",
-  "sku": "STCW004",
   "onSale": false,
   "price": 169,
   "regularPrice": 169,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/06/SNAPPY-TOM-TUNASHRIMP-IN-JELLY.png",
   "categories": [
     {
       "id": 2325,
@@ -27,51 +25,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/snappy-tom-tuna-shrimp-and-jelly-85g/",
-  "shortDescription": "The amount fed should be adjusted accordingly to your cat activity level. Feed your cat by divided all daily meals into 2 or more servings and ensure fresh clean water is available at all times.",
   "description": "The amount fed can be adjusted accordingly to your cat activity level. Feed your cat by divided all daily meals into 2 or more servings and ensure fresh clean water is available at all times. Feeding Guide Cat’s Weight Feeding Amount (g/day) 0.5kg – 1.0kg 100g – 170g 1.0kg – 3.0kg 170g – 390g 3.0kg – 4.0kg 390g – 480g > 4.0kg >480g Ingredient List Tuna Gelling Agents Shrimp Vitamins & Minerals Taurine Permitted Food Colours Guaranteed Analysis Crude Protein (Min) 8% Crude Fat (Min) 1.5% Crude Fibre (Max) 1% Moisture (Max) 87",
   "images": [
     {
-      "id": 55901,
+      "id": 55900,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/06/SNAPPY-TOM-TUNASHRIMP-IN-JELLY.png",
       "alt": "Snappy Tom Tuna Shrimp And Jelly 85g",
-      "name": "SNAPPY TOM TUNA&amp;SHRIMP IN JELLY"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/snappy-tom-tuna-shrimp-and-jelly-85g/?add-to-cart=55900",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-06-17T12:47:53",
-  "dateModified": "2026-06-22T16:12:24",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/snappy-tom-tuna-shrimp-and-jelly-85g/",
+  "addToCartUrl": "https://petstore.co.ke/product/snappy-tom-tuna-shrimp-and-jelly-85g/?add-to-cart=55900",
+  "shortDescription": "The amount fed can be adjusted accordingly to your cat activity level. Feed your cat by divided all daily meals into 2 or more servings and ensure fre",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/06/SNAPPY-TOM-TUNASHRIMP-IN-JELLY.png",
+  "sku": "PSK-55900",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.1,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/06/SNAPPY-TOM-TUNASHRIMP-IN-JELLY.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/06/SNAPPY-TOM-TUNASHRIMP-IN-JELLY.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

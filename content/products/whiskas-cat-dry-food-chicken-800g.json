@@ -2,14 +2,12 @@
   "id": 89890,
   "name": "Whiskas Cat Dry Food - Chicken 800g",
   "slug": "whiskas-cat-dry-food-chicken-800g",
-  "sku": "WCD001",
   "onSale": false,
   "price": 1350,
   "regularPrice": 1350,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Food-Chicken-800g-2.png",
   "categories": [
     {
       "id": 2325,
@@ -32,52 +30,51 @@
       "slug": "whiskas"
     }
   ],
-  "brands": [
-    {
-      "id": 2480,
-      "name": "Whiskas",
-      "slug": "whiskas"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/whiskas-cat-dry-food-chicken-800g/",
-  "shortDescription": "Support your adult cat’s daily nutrition with Whiskas 1+ Chicken Dry Cat Food 800g, a complete and balanced meal specially formulated for cats aged 1 year and above. Made with 100% high-quality ingredients, this tasty recipe delivers irresistible flavour and essential nutrients to keep your cat happy, healthy, and purring every day.",
   "description": "Each crunchy kibble is carefully crafted with a delicious mix of chicken, peas, carrots, and signature pocket kibbles crunchy on the outside with a soft, flavourful centre. This combination enhances taste and provides a satisfying texture cats enjoy. Enriched with Vitamin E and Taurine, this formula helps support a healthy immune system, while natural fibres promote healthy digestion. Balanced minerals support urinary tract health, and added zinc helps maintain healthy skin and a shiny coat. With no added artificial colours or preservatives, it offers complete and reliable daily nutrition. Key Benefits Complete and balanced dry food for adult cats (1+) Made with high-quality chicken and vegetable ingredients Crunchy kibble with soft centres for enhanced taste Supports immune health with Vitamin E and Taurine Natural fibres support healthy digestion Balanced minerals support urinary tract health Zinc helps maintain healthy skin and coat No added artificial colours or preservatives Ingredients Cereals, meat and animal derivatives (including chicken 4%), oils and fats, derivatives of vegetable origin (including dried beet pulp 2%), minerals, vegetable protein extracts, yeast, vegetables (including dried carrots and peas), various sugars. Feeding Guide 3 kg cat: 45–55 g/day 4 kg cat: 55–65 g/day 5 kg cat: 65–75 g/day Always provide fresh drinking water and adjust feeding based on activity level. &nbsp;",
   "images": [
     {
-      "id": 89891,
+      "id": 89890,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Food-Chicken-800g-2.png",
-      "alt": "Whiskas Cat Dry Food – Chicken 800g",
-      "name": "Whiskas Cat Food Chicken 800g (2)"
+      "alt": "Whiskas Cat Dry Food - Chicken 800g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Whiskas",
+      "slug": "whiskas"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/whiskas-cat-dry-food-chicken-800g/?add-to-cart=89890",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-05-21T15:35:03",
-  "dateModified": "2026-06-24T10:12:15",
+  "permalink": "https://petstore.co.ke/product/whiskas-cat-dry-food-chicken-800g/",
+  "addToCartUrl": "https://petstore.co.ke/product/whiskas-cat-dry-food-chicken-800g/?add-to-cart=89890",
+  "shortDescription": "Each crunchy kibble is carefully crafted with a delicious mix of chicken, peas, carrots, and signature pocket kibbles crunchy on the outside with a so",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Food-Chicken-800g-2.png",
+  "sku": "PSK-89890",
   "brand": "Whiskas",
   "weight_kg": 0.8,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Food-Chicken-800g-2.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Food-Chicken-800g-2.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

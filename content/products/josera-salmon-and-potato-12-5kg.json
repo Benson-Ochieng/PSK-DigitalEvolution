@@ -2,14 +2,12 @@
   "id": 23710,
   "name": "Josera Salmon and Potato 12.5kg",
   "slug": "josera-salmon-and-potato-12-5kg",
-  "sku": "JDSP004",
   "onSale": false,
   "price": 17200,
   "regularPrice": 17200,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/Josera-Dog-Salmon-Potato.png",
   "categories": [
     {
       "id": 2345,
@@ -32,57 +30,51 @@
       "slug": "josera"
     }
   ],
-  "brands": [
-    {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 2063,
-      "name": "senior dog",
-      "slug": "senior-dog"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/josera-salmon-and-potato-12-5kg/",
-  "shortDescription": "A grain-free pleasure for our chowhounds: Salmon and potato, with herbs and fruits. Due to the low protein and energy content and the moderate mineral content, it is also highly suitable for older dogs. A great product for dogs with allergies to Grains or to other sources of meat besides Salmon. Greatly helps dogs with skin allergies.",
   "description": "JOSERA Nature Senior . This grain-free recipe combines the irresistible taste of salmon (19%) with wholesome potato (51%) , herbs, and fruits to provide a complete and balanced diet. With reduced protein and energy content and a moderate mineral level, it’s perfectly tailored for older dogs or dogs with lower activity levels. Premium Ingredients Salmon (19.0%), dried potato (51.0%), poultry fat, beet fiber, potato protein, carob meal, hydrolysed fish protein, minerals, chicory root (natural source of inulin), herbs, fruits. Complete & Balanced Nutrition Supports: . Healthy joints and mobility . Shiny coat and healthy skin . Gentle digestion and nutrient absorption . Vitality in later life Why It’s Ideal for Senior Dogs Single Animal Protein Source – 19% dried salmon (equivalent to 65g fresh salmon per 100g kibble) supports lean muscles while being gentle on digestion. Grain-Free Formula – ideal for sensitive dogs or those prone to grain intolerance. Natural Herbs & Fruits Blend – including carob, chicory root (a natural prebiotic), raspberries, peppermint, parsley, chamomile, rosehip, liquorice root, and chokeberry for vitality and wellness. Balanced Energy for Aging Dogs – lower protein and fat levels support healthy weight maintenance. Moderate Mineral Content – helps reduce strain on kidneys and supports senior dogs’ needs.",
   "images": [
     {
-      "id": 89081,
+      "id": 23710,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/10/Josera-Dog-Salmon-Potato.png",
       "alt": "Josera Salmon and Potato 12.5kg",
-      "name": "Josera Dog Salmon &#038; Potato"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/josera-salmon-and-potato-12-5kg/?add-to-cart=23710",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2021-10-29T07:55:16",
-  "dateModified": "2026-06-17T04:29:33",
+  "permalink": "https://petstore.co.ke/product/josera-salmon-and-potato-12-5kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/josera-salmon-and-potato-12-5kg/?add-to-cart=23710",
+  "shortDescription": "JOSERA Nature Senior . This grain-free recipe combines the irresistible taste of salmon (19%) with wholesome potato (51%) , herbs, and fruits to provi",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/Josera-Dog-Salmon-Potato.png",
+  "sku": "PSK-23710",
   "brand": "Josera",
   "weight_kg": 12.5,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/Josera-Dog-Salmon-Potato.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/Josera-Dog-Salmon-Potato.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

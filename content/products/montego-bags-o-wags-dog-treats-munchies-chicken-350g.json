@@ -2,14 +2,12 @@
   "id": 62674,
   "name": "Montego Bags O' Wags Dog Treats Munchies Chicken - 350g",
   "slug": "montego-bags-o-wags-dog-treats-munchies-chicken-350g",
-  "sku": "MBWMC350@F",
-  "onSale": true,
+  "onSale": false,
   "price": 616,
-  "regularPrice": 725,
-  "salePrice": 616,
+  "regularPrice": 616,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Montego-Bags-O-Wags-Munchies-star-350g.png",
   "categories": [
     {
       "id": 2298,
@@ -17,47 +15,51 @@
       "slug": "montego"
     }
   ],
-  "brands": [
-    {
-      "id": 2453,
-      "name": "Montego",
-      "slug": "montego"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=62674",
-  "shortDescription": "Montego Bags O’ Wags Munchies Chicken are highly nutritious, grilled chicken-flavoured, star-shaped dog treats ideal for training, rewarding good behaviour , or as a daily snack for adult dogs of all breeds and sizes. Not suitable for puppies.",
   "description": "Treat your dog to the mouth-watering taste of Bags O’ Wags Munchies , deliciously star-shaped biscuits packed with beefy goodness! These handcrafted treats are made in small batches using only the finest ingredients to ensure top quality, great taste, and a satisfying crunch. Perfect as a training reward or a special snack just because, Munchies are both nutritious and fun , the kind of treat dogs can’t wait to wag their tails for! Key Features: Roast Beef Flavour: Rich, savoury taste dogs love Star-Shaped Biscuits: Fun to chew and easy to serve Handcrafted in Small Batches: Made with care and quality ingredients Ideal Training Treat: Nutritious and rewarding Suitable for all adult dogs Ingredients: Wheat and whole wheat flour, chicken meal, palm oil, milk powder (lactose reduced), brewer’s yeast, calcium carbonate, sugars and salt. ADDITIVES: SENSORY: Palatability meat-based enhancers, white colour and beef flavour; PRESERVATIVES: Potassium sorbate and sodium metabisulphite. Nutritional Information Nutrient Amount Crude Protein 18% Total Fat 12% Crude Fibre 2% Moisture 10% Sodium 0.25% Metabolisable energy 420 kcal/100g Treats should be served in moderation and not replace a complete diet. Always provide fresh water. Make every treat time special with Bags O’ Wags Munchies - fun, flavour, and goodness in every bite!",
   "images": [
     {
-      "id": 61026,
+      "id": 62674,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Montego-Bags-O-Wags-Munchies-star-350g.png",
-      "alt": "DEFECT / DAMAGED PACKAGE – CLEARANCE: Montego Bags O’ Wags Dog Treats Munchies Chicken – 350g",
-      "name": "Montego Bags O&#8217; Wags Munchies star- 350g"
+      "alt": "Montego Bags O' Wags Dog Treats Munchies Chicken - 350g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Montego",
+      "slug": "montego"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/montego-bags-o-wags-dog-treats-munchies-chicken-350g/?add-to-cart=62674",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-11-21T14:37:28",
-  "dateModified": "2026-06-17T04:34:30",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=62674",
+  "addToCartUrl": "https://petstore.co.ke/product/montego-bags-o-wags-dog-treats-munchies-chicken-350g/?add-to-cart=62674",
+  "shortDescription": "Treat your dog to the mouth-watering taste of Bags O’ Wags Munchies , deliciously star-shaped biscuits packed with beefy goodness! These handcrafted t",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Montego-Bags-O-Wags-Munchies-star-350g.png",
+  "sku": "PSK-62674",
   "brand": "Montego",
   "weight_kg": 0.35,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Montego-Bags-O-Wags-Munchies-star-350g.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Montego-Bags-O-Wags-Munchies-star-350g.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

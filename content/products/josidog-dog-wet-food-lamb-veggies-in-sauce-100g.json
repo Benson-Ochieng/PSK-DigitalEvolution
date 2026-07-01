@@ -2,14 +2,12 @@
   "id": 90369,
   "name": "JosiDog Dog Wet Food – Lamb & Veggies in Sauce 100g",
   "slug": "josidog-dog-wet-food-lamb-veggies-in-sauce-100g",
-  "sku": "JDW002",
-  "onSale": true,
+  "onSale": false,
   "price": 170,
-  "regularPrice": 213,
-  "salePrice": 170,
+  "regularPrice": 170,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/lamb-veggies-.png",
   "categories": [
     {
       "id": 2345,
@@ -32,57 +30,51 @@
       "slug": "wet-dog-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 939,
-      "name": "On Sale Now",
-      "slug": "sale"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/josidog-dog-wet-food-lamb-veggies-in-sauce-100g/",
-  "shortDescription": "JosiDog Dog Wet Food – Lamb & Vegetables in Sauce 100g is a complete and balanced wet food specially formulated for adult small breed dogs. Prepared with tender lamb, tasty vegetables, and a savoury sauce, this premium recipe delivers both excellent palatability and essential daily nutrition to support overall health and vitality.",
   "description": "With 84% meat and animal derivatives in the chunks (including lamb and liver), this recipe provides high-quality protein to help maintain lean muscle mass and support an active lifestyle. The addition of vegetables such as peas and carrots provides natural nutrients that complement the meat-based formula, contributing to a balanced and wholesome diet. Enriched with prebiotic inulin, this recipe supports healthy digestion by promoting beneficial intestinal flora and improving nutrient absorption. Carefully selected vitamins and minerals, including Vitamin D3, Vitamin E, zinc, manganese, copper, and iodine, help support strong bones, healthy cell function, and overall wellbeing. This formula is free from artificial additives such as soy, colourants, flavourings, and preservatives, ensuring clean and natural nutrition in every meal. Packed in a convenient 100g freshness pouch, it is easy to serve, supports portion control, and keeps food fresh and appetising. Key Benefits Complete wet food for adult small breed dogs Made with lamb, vegetables, and liver in a tasty sauce 84% meat and animal derivatives in the chunks Includes peas and carrots for balanced vegetable nutrition High-quality protein supports muscle maintenance Prebiotic inulin supports healthy digestion and gut flora Enriched with essential vitamins and minerals Vitamin E supports cell protection Vitamin D3 supports strong bones and teeth No artificial colours, flavourings, or preservatives Convenient 100g freshness pouch for easy feeding Analytical Constituents Crude Protein: 8.0% Crude Fat: 5.0% Crude Fibre: 0.4% Crude Ash: 2.0% Moisture: 80% Energy Content 916 kcal/kg (3.8 MJ/kg) Feeding Guide Feed according to your dog’s weight, age, and activity level: 5kg dog: 345–400g 10kg dog: 585–675g 20kg dog: 980–1,125g 35kg dog: 1,495–1,730g Always provide fresh drinking water. Adjust portions if treats or snacks are included in the diet. Storage Instructions Store in a cool, dry place. Once opened, refrigerate at 2–6°C and consume within 24 hours. Serve at room temperature for best taste and aroma. &nbsp;",
   "images": [
     {
-      "id": 90377,
+      "id": 90369,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/06/lamb-veggies-.png",
       "alt": "JosiDog Dog Wet Food – Lamb & Veggies in Sauce 100g",
-      "name": "lamb veggies"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/josidog-dog-wet-food-lamb-veggies-in-sauce-100g/?add-to-cart=90369",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-04T15:09:38",
-  "dateModified": "2026-06-17T05:01:40",
+  "permalink": "https://petstore.co.ke/product/josidog-dog-wet-food-lamb-veggies-in-sauce-100g/",
+  "addToCartUrl": "https://petstore.co.ke/product/josidog-dog-wet-food-lamb-veggies-in-sauce-100g/?add-to-cart=90369",
+  "shortDescription": "With 84% meat and animal derivatives in the chunks (including lamb and liver), this recipe provides high-quality protein to help maintain lean muscle ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/lamb-veggies-.png",
+  "sku": "PSK-90369",
   "brand": "Josera",
   "weight_kg": 0.1,
   "animal_type": "dog",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/lamb-veggies-.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/lamb-veggies-.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

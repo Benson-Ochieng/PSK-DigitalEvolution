@@ -2,14 +2,12 @@
   "id": 62669,
   "name": "Montego Classic Adult Cat Dry Food -Tuna 3kg",
   "slug": "montego-classic-adult-cat-dry-food-tuna-3kg",
-  "sku": "MCCATT03@F",
-  "onSale": true,
+  "onSale": false,
   "price": 3357,
-  "regularPrice": 4250,
-  "salePrice": 3357,
+  "regularPrice": 3357,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-59-1.png",
   "categories": [
     {
       "id": 2298,
@@ -17,47 +15,51 @@
       "slug": "montego"
     }
   ],
-  "brands": [
-    {
-      "id": 2453,
-      "name": "Montego",
-      "slug": "montego"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=62669",
-  "shortDescription": "Montego Classic Adult Cat Food is a premium, nutritionally balanced dry food designed to meet the needs of adult cats of all breeds. With high quality protein, essential fatty acids, taurine, and antioxidants, it supports muscle maintenance, skin and coat health, heart function, and a strong immune system helping your cat live a long, healthy, and happy life.",
   "description": "Product Overview Montego Classic Adult Cat Food is a premium, nutritionally balanced dry food designed to meet the needs of adult cats of all breeds. With high quality protein, essential fatty acids, taurine, and antioxidants, it supports muscle maintenance, skin and coat health, heart function, and a strong immune system helping your cat live a long, healthy, and happy life. Nutritional Benefits Each 100 g provides approximately 370 kcal of energy, with 30% protein and 10–12% fat , delivering complete and balanced nutrition for daily activity and a healthy weight. The protein sources, including chicken meal, tuna, and salmon , supply a full amino acid profile essential for muscle growth, strength, and vitality. Key Health Features Heart, Nervous System & Vision Support: Enriched with natural and added taurine to help regulate heart contractions, maintain strong vision, and support healthy neurological function. Skin & Coat Health: Omega-3 and Omega-6 fatty acids nourish the skin, support blood vessel health, and promote a soft, shiny coat while reducing dryness and irritation. Urinary Tract Health: Balanced sodium levels encourage hydration and increased urine output, helping to maintain urinary pH and reduce the risk of struvite crystal formation. Digestive Support & Hairball Management: Contains dietary fibre, inulin, and natural digestive enzymes to promote gut health and help prevent hairball buildup. Immune System Enhancement: Vitamins C and E act as powerful antioxidants, protecting cells from free radicals and strengthening the immune system. Ingredients Chicken meal, rice, corn*, corn gluten, chicken fat, powdered cellulose, tuna meal, beet pulp, brewer’s yeast, salmon meal, inulin, fish oil, tuna, salmon oil powder, acidifiers, encapsulated fatty acids, and amino acids. Additives (/kg): Vitamins: A (24,500 IU), D₃ (980 IU), E (70 IU), C (250 mg) Minerals: Potassium chloride (5.5 g), zinc hydroxychloride (75 mg), copper chloride (2 mg), potassium iodide (1 mg), sodium selenite (0.1 mg) Preservatives: Approved antioxidants Sensory: Natural meat-based flavour enhancers May contain GMOs. Typical Analysis Nutrient Value Crude Protein 30% Moisture 10% Total Fat 12% Crude Fibre 6.5% Crude Ash 7.5% Calcium 1.2% Phosphorus 0.7% Magnesium 0.11% Potassium 0.6% Sodium 0.35% Omega-6 Fatty Acids 1.5% Omega-3 Fatty Acids 0.3% Glycaemic Carbohydrates 30% Taurine 0.15% Metabolisable Energy 370 kcal / 100 g &nbsp; Feeding Guide Weight of Cat Moderate Activity High Activity 2–3 kg 35–45 g 43–57 g 3–5 kg 45–63 g 57–82 g 5–8 kg 63–87 g 82–112 g Always ensure your cat has access to fresh, clean water to support hydration and urinary health. Key Benefits Supports muscle strength and energy levels Promotes a healthy, glossy coat and supple skin Aids urinary and kidney health through improved hydration Reduces hairball formation and supports digestion Strengthens immune defense and overall well-being Free from artificial flavours and colours",
   "images": [
     {
-      "id": 60608,
+      "id": 62669,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-59-1.png",
       "alt": "Montego Classic Adult Cat Dry Food -Tuna 3kg",
-      "name": "Untitled design (59)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Montego",
+      "slug": "montego"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/montego-classic-adult-cat-dry-food-tuna-3kg/?add-to-cart=62669",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-11-21T14:28:36",
-  "dateModified": "2026-06-17T04:34:30",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=62669",
+  "addToCartUrl": "https://petstore.co.ke/product/montego-classic-adult-cat-dry-food-tuna-3kg/?add-to-cart=62669",
+  "shortDescription": "Product Overview Montego Classic Adult Cat Food is a premium, nutritionally balanced dry food designed to meet the needs of adult cats of all breeds. ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-59-1.png",
+  "sku": "PSK-62669",
   "brand": "Montego",
   "weight_kg": 3,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-59-1.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-59-1.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

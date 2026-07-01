@@ -2,14 +2,12 @@
   "id": 45745,
   "name": "Grounded Scouring Powder 500g",
   "slug": "grounded-scouring-powder-500g",
-  "sku": "SCO-0.5-",
   "onSale": false,
   "price": 475,
   "regularPrice": 475,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/Scouring-Powder-500g.jpg",
   "categories": [
     {
       "id": 2033,
@@ -22,47 +20,51 @@
       "slug": "human"
     }
   ],
-  "brands": [
-    {
-      "id": 2441,
-      "name": "Grounded",
-      "slug": "grounded"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2245,
-      "name": "Human",
-      "slug": "human"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/grounded-scouring-powder-500g/",
-  "shortDescription": "Powerful scouring powder lightly scented with dried rosemary and tea tree essential oil. Great with steel wool or a scrubbing brush for deep cleaning. Sustainable, refillable container.",
   "description": "For use on sinks, tubs, taps, toilets, tiles and even dishes. Sprinkle onto surfaces and scrub with a damp cloth, steel wool, or brush. Ingredients: Sodium Bicarbonate, Sodium Carbonate, Saponified Coconut Oil, Borax, Rosemary, Tea Tree Essential Oil",
   "images": [
     {
-      "id": 45746,
+      "id": 45745,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/04/Scouring-Powder-500g.jpg",
       "alt": "Grounded Scouring Powder 500g",
-      "name": "Scouring-Powder-500g"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Grounded",
+      "slug": "grounded"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/grounded-scouring-powder-500g/?add-to-cart=45745",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-04-02T12:12:57",
-  "dateModified": "2026-06-17T05:01:28",
+  "permalink": "https://petstore.co.ke/product/grounded-scouring-powder-500g/",
+  "addToCartUrl": "https://petstore.co.ke/product/grounded-scouring-powder-500g/?add-to-cart=45745",
+  "shortDescription": "For use on sinks, tubs, taps, toilets, tiles and even dishes. Sprinkle onto surfaces and scrub with a damp cloth, steel wool, or brush. Ingredients: S",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/Scouring-Powder-500g.jpg",
+  "sku": "PSK-45745",
   "brand": "Grounded",
   "weight_kg": 0.5,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/Scouring-Powder-500g.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/Scouring-Powder-500g.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

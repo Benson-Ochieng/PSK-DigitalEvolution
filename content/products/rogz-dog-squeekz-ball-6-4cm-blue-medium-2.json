@@ -2,14 +2,12 @@
   "id": 43697,
   "name": "Rogz Dog Squeekz Ball 6.4cm Blue Medium",
   "slug": "rogz-dog-squeekz-ball-6-4cm-blue-medium-2",
-  "sku": "SQ02-B@F",
-  "onSale": true,
+  "onSale": false,
   "price": 412,
-  "regularPrice": 750,
-  "salePrice": 412,
+  "regularPrice": 412,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/SQ02-B-Squeekz-Blue-420x420-1.jpg",
   "categories": [
     {
       "id": 1204,
@@ -42,35 +40,51 @@
       "slug": "toys"
     }
   ],
-  "brands": [],
-  "tags": [],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=43697",
-  "shortDescription": "Rogz Squeekz Fetch Ball is a bounce and fetch toy that floats on water. A squeaker inside will entice to keep your dog excited and active while playing.",
   "description": "Rogz Squeekz Ball is a fetch ball with a squeaker that bounces on land and floats on water! Features: Squeak - Designed to provide endless excitement for your dog. Float - Made from TPR which floats visibly on the water for easy fetching. Bounce and Fetch - Soft enough not to hurt your dog's teeth, but firm enough to bounce! Bite-o-Meter - 2 Soft CE Approved, Non-Toxic, TPR",
   "images": [
     {
-      "id": 42008,
+      "id": 43697,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/12/SQ02-B-Squeekz-Blue-420x420-1.jpg",
-      "alt": "Rogz Dog Squeekz Ball 6.4cm Blue Medium (Sq02-B)",
-      "name": "SQ02-B-Squeekz-Blue-420&#215;420"
+      "alt": "Rogz Dog Squeekz Ball 6.4cm Blue Medium",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-squeekz-ball-6-4cm-blue-medium-2/?add-to-cart=43697",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-01-30T12:52:39",
-  "dateModified": "2026-05-06T17:09:30",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=43697",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-squeekz-ball-6-4cm-blue-medium-2/?add-to-cart=43697",
+  "shortDescription": "Rogz Squeekz Ball is a fetch ball with a squeaker that bounces on land and floats on water! Features: Squeak - Designed to provide endless excitement ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/SQ02-B-Squeekz-Blue-420x420-1.jpg",
+  "sku": "PSK-43697",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/SQ02-B-Squeekz-Blue-420x420-1.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/SQ02-B-Squeekz-Blue-420x420-1.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

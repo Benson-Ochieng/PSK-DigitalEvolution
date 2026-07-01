@@ -2,14 +2,12 @@
   "id": 69364,
   "name": "Reflex Plus Cat Food Alutray Organic Chicken In Gravy 85g",
   "slug": "reflex-plus-meaty-chunks-organic-chicken-gravy-adult-cats-85g",
-  "sku": "RPCW032",
   "onSale": false,
   "price": 195,
   "regularPrice": 195,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-PLUS-CAT-FOOD-ALUTRAY-ORGANIC-CHICKEN-IN-GRAVY-85GR.png",
   "categories": [
     {
       "id": 2325,
@@ -32,52 +30,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/reflex-plus-meaty-chunks-organic-chicken-gravy-adult-cats-85g/",
-  "shortDescription": "Reflex Plus Meaty Chunks with Organic Chicken in Gravy is a nutritious wet cat food for adult cats. Supports hydration, kidney health, and easy digestion.",
   "description": "Reflex Plus Meaty Chunks with Organic Chicken in Gravy for Adult Cats is a premium wet cat food served in a convenient alu-tray, designed to deliver balanced nutrition and exceptional taste. Made with high-quality animal protein and enriched with essential vitamins and functional components, it supports your cat’s overall health and wellbeing. With its high moisture content, this delicious gravy-based meal helps maintain daily hydration levels and supports kidney health. The soft meaty chunks are easy to digest and highly palatable, making mealtime enjoyable even for picky eaters. Added taurine, vitamins, and trace minerals contribute to healthy vision, heart function, immunity, and vitality in adult cats. Key Benefits Made with organic chicken in rich gravy High moisture content supports hydration and kidney health Easily digestible formula Highly palatable for fussy cats Enriched with taurine, vitamins, and essential minerals Complete and balanced nutrition for adult cats Ingredients Meat and animal derivatives (4% chicken), minerals, derivatives of vegetable origin, vegetable protein extracts. Analytical Constituents Crude Protein: 7% Crude Fat: 6% Crude Fibre: 0.4% Crude Ash: 2.5% Moisture: 82.5% Nutritional Supplements Functional Components: Taurine (3a370): 450 mg Vitamins: Vitamin D3 (3a671): 75 IU Vitamin E (3a700): 30 mg Trace Elements: Zinc (3b605): 15 mg Manganese (3b503): 6 mg Copper (3b405): 1 mg Iodine (3b202): 0.5 mg Feeding Guidelines Divide the daily amount into at least two meals Serve at room temperature Daily feeding amount depends on age, breed, and activity level Ensure fresh drinking water is always available Not suitable for human consumption &nbsp; &nbsp; &nbsp;",
   "images": [
     {
-      "id": 69365,
+      "id": 69364,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-PLUS-CAT-FOOD-ALUTRAY-ORGANIC-CHICKEN-IN-GRAVY-85GR.png",
       "alt": "Reflex Plus Cat Food Alutray Organic Chicken In Gravy 85g",
-      "name": "REFLEX PLUS CAT FOOD ALUTRAY ORGANIC CHICKEN IN GRAVY 85GR"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 5,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-meaty-chunks-organic-chicken-gravy-adult-cats-85g/?add-to-cart=69364",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-02-02T09:25:36",
-  "dateModified": "2026-06-17T04:30:34",
+  "permalink": "https://petstore.co.ke/product/reflex-plus-meaty-chunks-organic-chicken-gravy-adult-cats-85g/",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-meaty-chunks-organic-chicken-gravy-adult-cats-85g/?add-to-cart=69364",
+  "shortDescription": "Reflex Plus Meaty Chunks with Organic Chicken in Gravy for Adult Cats is a premium wet cat food served in a convenient alu-tray, designed to deliver b",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-PLUS-CAT-FOOD-ALUTRAY-ORGANIC-CHICKEN-IN-GRAVY-85GR.png",
+  "sku": "PSK-69364",
   "brand": "Reflex",
   "weight_kg": 0.15,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-PLUS-CAT-FOOD-ALUTRAY-ORGANIC-CHICKEN-IN-GRAVY-85GR.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-PLUS-CAT-FOOD-ALUTRAY-ORGANIC-CHICKEN-IN-GRAVY-85GR.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

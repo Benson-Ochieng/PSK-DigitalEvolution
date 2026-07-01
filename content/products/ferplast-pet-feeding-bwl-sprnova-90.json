@@ -2,14 +2,12 @@
   "id": 58437,
   "name": "Ferplast Pet Feeding Bwl Sprnova 90",
   "slug": "ferplast-pet-feeding-bwl-sprnova-90",
-  "sku": "FPFBS90",
   "onSale": false,
   "price": 2130,
   "regularPrice": 2130,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-37.png",
   "categories": [
     {
       "id": 1204,
@@ -32,41 +30,51 @@
       "slug": "ferplast"
     }
   ],
-  "brands": [
-    {
-      "id": 2438,
-      "name": "Ferplast",
-      "slug": "ferplast"
-    }
-  ],
-  "tags": [],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/ferplast-pet-feeding-bwl-sprnova-90/",
-  "shortDescription": "Upgrade your pet’s mealtime with the Ferplast Supernova 90 , a premium-quality stainless steel feeding bowl designed for hygiene, durability, and style. Perfect for dogs and cats, this bowl combines everyday practicality with an elegant chrome finish that looks great in any home.",
   "description": "Key Features: Premium Stainless Steel with Chrome Finish Crafted from durable stainless steel and coated in a sleek chrome finish, the Supernova 90 is built to last while adding a touch of sophistication to your pet’s feeding area. Hygienic & Easy to Clean The smooth, non-porous surface is resistant to bacteria buildup and easy to clean—either by hand or in the dishwasher. A raised rim helps keep insects out and maintains a cleaner eating environment. Stable & Spill-Resistant Design An anti-slip rubber base keeps the bowl firmly in place, reducing spills and mess during feeding time. Generous Capacity The \"90\" size is ideal for medium to large dogs or households with multiple pets. It easily accommodates dry food, wet food, water, or even treats like pasta or biscuits. Versatile Use Suitable for both cats and dogs, it’s perfect for all types of pet-safe consumables and feeding routines. Why Choose the Supernova 90? Built for daily use with exceptional wear and corrosion resistance Provides a clean and sanitary eating area for your pets Combines form and function , thanks to its stylish chrome finish Part of the trusted Ferplast Supernova line , known for quality and pet safety",
   "images": [
     {
-      "id": 58622,
+      "id": 58437,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-37.png",
       "alt": "Ferplast Pet Feeding Bwl Sprnova 90",
-      "name": "Untitled design (37)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Ferplast",
+      "slug": "ferplast"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/ferplast-pet-feeding-bwl-sprnova-90/?add-to-cart=58437",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-08-15T10:48:50",
-  "dateModified": "2026-06-24T16:12:09",
+  "permalink": "https://petstore.co.ke/product/ferplast-pet-feeding-bwl-sprnova-90/",
+  "addToCartUrl": "https://petstore.co.ke/product/ferplast-pet-feeding-bwl-sprnova-90/?add-to-cart=58437",
+  "shortDescription": "Key Features: Premium Stainless Steel with Chrome Finish Crafted from durable stainless steel and coated in a sleek chrome finish, the Supernova 90 is",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-37.png",
+  "sku": "PSK-58437",
   "brand": "Ferplast",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-37.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-37.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

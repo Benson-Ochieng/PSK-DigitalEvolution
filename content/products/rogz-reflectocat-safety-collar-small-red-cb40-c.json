@@ -2,14 +2,12 @@
   "id": 47766,
   "name": "Rogz Reflectocat Safety Collar Small Red (Cb40-C)",
   "slug": "rogz-reflectocat-safety-collar-small-red-cb40-c",
-  "sku": "CB40-C",
   "onSale": false,
   "price": 1100,
   "regularPrice": 1100,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-REFLECTOCAT-SAFETY-COLLAR-SMALL-RED-FISH.jpg",
   "categories": [
     {
       "id": 2325,
@@ -32,56 +30,51 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2065,
-      "name": "Collars",
-      "slug": "collar"
-    },
-    {
-      "id": 2227,
-      "name": "Rogz",
-      "slug": "rogz"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-reflectocat-safety-collar-small-red-cb40-c/",
-  "shortDescription": "Recommended for everyday use and identification, this collar is snag-proof and durable.",
   "description": "Rogz ReflectoCat Safety Collar is made from reflective materials that glow in the dark for high visibility and night-time safety. Recommended for everyday use and identification, this collar is snag-proof and durable. The break-away safety buckle features three variable load settings that break open under enough strain from your cat to allow a safe escape. &nbsp;",
   "images": [
     {
-      "id": 47767,
+      "id": 47766,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-REFLECTOCAT-SAFETY-COLLAR-SMALL-RED-FISH.jpg",
       "alt": "Rogz Reflectocat Safety Collar Small Red (Cb40-C)",
-      "name": "ROGZ REFLECTOCAT SAFETY COLLAR SMALL &#8211; RED FISH"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-reflectocat-safety-collar-small-red-cb40-c/?add-to-cart=47766",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-06-12T11:07:37",
-  "dateModified": "2026-06-17T04:14:43",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/rogz-reflectocat-safety-collar-small-red-cb40-c/",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-reflectocat-safety-collar-small-red-cb40-c/?add-to-cart=47766",
+  "shortDescription": "Rogz ReflectoCat Safety Collar is made from reflective materials that glow in the dark for high visibility and night-time safety. Recommended for ever",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-REFLECTOCAT-SAFETY-COLLAR-SMALL-RED-FISH.jpg",
+  "sku": "PSK-47766",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-REFLECTOCAT-SAFETY-COLLAR-SMALL-RED-FISH.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-REFLECTOCAT-SAFETY-COLLAR-SMALL-RED-FISH.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

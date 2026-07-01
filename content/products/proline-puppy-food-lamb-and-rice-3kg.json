@@ -2,14 +2,12 @@
   "id": 35539,
   "name": "Proline Puppy Food - Lamb & Rice 2.2kg",
   "slug": "proline-puppy-food-lamb-and-rice-3kg",
-  "sku": "PDD012",
   "onSale": false,
   "price": 1950,
   "regularPrice": 1950,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-puppy-food-lamb-and-rice-2.2kg.png",
   "categories": [
     {
       "id": 2345,
@@ -32,62 +30,51 @@
       "slug": "puppy-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2461,
-      "name": "Proline",
-      "slug": "proline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 637,
-      "name": "kibble",
-      "slug": "kibble"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2106,
-      "name": "Puppy food",
-      "slug": "puppy-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/proline-puppy-food-lamb-and-rice-3kg/",
-  "shortDescription": "Fully balanced all-natural puppy food with Lamb protein plus brewer’s yeast and whey protein for immune support and omega -3 and -6 from flaxseed. Carefully formulated by a dog nutritionist to meet the nutritional requirements of growing puppies.",
   "description": "Help your puppy grow into a strong, healthy, and happy dog with Proline Puppy Food – Lamb & Rice . This fully balanced, all-natural dry food is carefully crafted by expert canine nutritionists to meet the unique nutritional demands of puppies during their rapid growth phase. With high-quality chicken protein, omega fatty acids, and immune-boosting ingredients, it’s the perfect foundation for lifelong wellness. NUTRIENT COMPONENTS Protein ............................................... 28% Fat ..................................................... 16% Crude Cellulose (Fiber) ........................4% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Wheat Middlings, Corn Gluten, Dried Sugar Beet, Lamb, Rice, Salt, Whey Powder, Flaxseed, Dried Brewer's Yeast. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan. &nbsp;Key Benefits &nbsp; 28% Protein from Lamb &nbsp;– for healthy muscle growth and strong development. 16% Fat Content – provides the high energy puppies need for play and learning. DHA & Taurine Enriched – supports brain development and sharp vision. Brewer’s Yeast & Whey Protein – to strengthen immunity and aid digestion. Omega-3 & Omega-6 (from flaxseed) – promotes a shiny coat and healthy skin. Rich in Calcium & Phosphorus – for strong bones and teeth.",
   "images": [
     {
-      "id": 35544,
+      "id": 35539,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-puppy-food-lamb-and-rice-2.2kg.png",
-      "alt": "Proline Puppy Food – Lamb & Rice 2.2kg",
-      "name": "Proline puppy food lamb and rice 2.2kg"
+      "alt": "Proline Puppy Food - Lamb & Rice 2.2kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Proline",
+      "slug": "proline"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/proline-puppy-food-lamb-and-rice-3kg/?add-to-cart=35539",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2023-03-09T11:20:22",
-  "dateModified": "2026-06-24T16:12:22",
+  "permalink": "https://petstore.co.ke/product/proline-puppy-food-lamb-and-rice-3kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/proline-puppy-food-lamb-and-rice-3kg/?add-to-cart=35539",
+  "shortDescription": "Help your puppy grow into a strong, healthy, and happy dog with Proline Puppy Food – Lamb & Rice . This fully balanced, all-natural dry food is carefu",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-puppy-food-lamb-and-rice-2.2kg.png",
+  "sku": "PSK-35539",
   "brand": "Proline",
   "weight_kg": 3,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-puppy-food-lamb-and-rice-2.2kg.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-puppy-food-lamb-and-rice-2.2kg.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 49109,
   "name": "Maasai Shuka Blanket with Blue Fleece Lining - Small",
   "slug": "maasai-shuka-blanket-with-blue-fleece-lining-small",
-  "sku": "MSSB",
   "onSale": false,
   "price": 1450,
   "regularPrice": 1450,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/08/20240731_165308-rotated.jpg",
   "categories": [
     {
       "id": 1204,
@@ -52,83 +50,51 @@
       "slug": "maasai-shukas"
     }
   ],
-  "brands": [
-    {
-      "id": 2449,
-      "name": "Maasai Shukas",
-      "slug": "maasai-shukas"
-    }
-  ],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2082,
-      "name": "Beds",
-      "slug": "beds"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2245,
-      "name": "Human",
-      "slug": "human"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/maasai-shuka-blanket-with-blue-fleece-lining-small/",
-  "shortDescription": "Give your pet the perfect combination of cultural elegance and modern comfort with the Maasai Shuka Blanket with Fleece Lining . Thoughtfully crafted for pets that love to relax in warmth and style, this blanket is more than just a cozy layer it’s a comforting retreat infused with the rich heritage of the Maasai people.",
   "description": "The exterior features the iconic vibrancy of traditional Maasai patterns, showcasing bold geometric designs and striking colors that make the blanket a beautiful addition to any home. Inside, your furry friend will enjoy the plush feel of a premium fleece lining that offers exceptional softness and reliable warmth. Whether used during naps, snuggle time, or travel, this blanket keeps your pet comfortable in every season. Built with durability and practicality in mind, the Maasai Shuka Blanket is designed to withstand daily use while remaining easy to care for. Its versatile size and lightweight construction make it suitable for pet beds, crates, sofas, or outdoor lounging—providing your pet with comfort wherever they go. Key Features Authentic Maasai Design: Vibrant geometric patterns and bold colors inspired by traditional Maasai artistry. Soft Fleece Lining: High-quality, ultra-soft fleece that provides superior warmth and comfort. Versatile Use: Ideal for pet beds, crates, couches, car rides, or as a cozy throw in your pet’s favorite resting spot. Durable & Easy to Maintain: Made from long-lasting materials and fully machine washable for effortless care. Perfect Size: Generously sized to accommodate pets of various breeds, offering plenty of room to stretch and relax. Benefits of Fleece Lining Superior Warmth: Provides exceptional insulation, keeping pets warm throughout all seasons. Soft & Soothing: Creates a plush, gentle surface perfect for snuggling and lounging. Breathable & Temperature-Regulating: Wicks moisture and prevents overheating while maintaining comfortable warmth. Lightweight & Travel-Friendly: Easy to fold, carry, and use during trips or outdoor activities. Low Maintenance: Resists wrinkles and is easy to clean, ensuring long-lasting freshness. Treat your beloved pet to the perfect blend of tradition, comfort, and style with the Maasai Shuka Blanket with Fleece Lining . It’s not just a blanket—it’s a warm, inviting haven your furry companion will love every day",
   "images": [
     {
-      "id": 49106,
+      "id": 49109,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/08/20240731_165308-rotated.jpg",
-      "alt": "Maasai Shuka Blanket with Blue Fleece Lining – Small",
-      "name": "20240731_165308"
-    },
+      "alt": "Maasai Shuka Blanket with Blue Fleece Lining - Small",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
     {
-      "id": 49107,
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/08/20240731_165336.jpg",
-      "alt": "Maasai Shuka Blanket with Blue Fleece Lining – Small",
-      "name": "20240731_165336"
+      "id": 1,
+      "name": "Maasai Shukas",
+      "slug": "maasai-shukas"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/maasai-shuka-blanket-with-blue-fleece-lining-small/?add-to-cart=49109",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-08-01T15:22:04",
-  "dateModified": "2026-06-24T11:12:08",
+  "permalink": "https://petstore.co.ke/product/maasai-shuka-blanket-with-blue-fleece-lining-small/",
+  "addToCartUrl": "https://petstore.co.ke/product/maasai-shuka-blanket-with-blue-fleece-lining-small/?add-to-cart=49109",
+  "shortDescription": "The exterior features the iconic vibrancy of traditional Maasai patterns, showcasing bold geometric designs and striking colors that make the blanket ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/08/20240731_165308-rotated.jpg",
+  "sku": "PSK-49109",
   "brand": "Maasai Shukas",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/08/20240731_165308-rotated.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/08/20240731_165308-rotated.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

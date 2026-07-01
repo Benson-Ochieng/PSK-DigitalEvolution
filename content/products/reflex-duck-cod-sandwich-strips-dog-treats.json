@@ -2,14 +2,12 @@
   "id": 69361,
   "name": "Reflex Dog Treat Duck & Cod Sandwich Strips 80g",
   "slug": "reflex-duck-cod-sandwich-strips-dog-treats",
-  "sku": "RDT039",
   "onSale": false,
   "price": 395,
   "regularPrice": 395,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-–-DOG-–-TREAT-–-DUCK-COD-SANDWICH-STRIPS-–-80GR-1.png",
   "categories": [
     {
       "id": 2345,
@@ -32,57 +30,51 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
-    {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/reflex-duck-cod-sandwich-strips-dog-treats/",
-  "shortDescription": "Reflex Duck & Cod Sandwich Strips are natural, low-fat dog treats made with real duck and cod. Highly digestible and perfect for training rewards.",
   "description": "Reflex Duck & Cod Sandwich Strips are super-premium, natural dog treats made with real duck meat and cod for superior taste and easy digestion. Their low-fat, high-protein formula makes them a healthy choice for rewarding your dog without contributing to unnecessary weight gain. Enriched with essential fatty acids, these delicious sandwich strips help support healthy skin and a shiny coat. Thanks to their soft texture and high palatability, they are ideal for training sessions or as a tasty snack between meals. Key Benefits Made with real duck meat and cod Highly digestible, high meat content Low-fat, low-calorie formula Supports healthy skin and coat Perfect for training and rewarding Suitable for all adult dog breeds Ingredients Duck Meat, Cod, Vegetable Glycerine, Soy Protein, Starch, Salt Analytical Constituents Crude Protein: 30% Crude Fat: 1% Crude Fibre: 4% Moisture: 20% Feeding Guidelines Recommended for all adult dogs Serve as a complementary snack in addition to regular meals Not a substitute for complete daily dog food Break into smaller pieces for small dogs Always provide fresh drinking water Storage & Safety Information Not for human consumption Store in a cool, dry place &nbsp; &nbsp;",
   "images": [
     {
-      "id": 69363,
+      "id": 69361,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-–-DOG-–-TREAT-–-DUCK-COD-SANDWICH-STRIPS-–-80GR-1.png",
       "alt": "Reflex Dog Treat Duck & Cod Sandwich Strips 80g",
-      "name": "REFLEX – DOG – TREAT – DUCK &#038; COD SANDWICH STRIPS – 80GR (1)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 5,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-duck-cod-sandwich-strips-dog-treats/?add-to-cart=69361",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-02-02T09:02:09",
-  "dateModified": "2026-06-17T04:30:34",
+  "permalink": "https://petstore.co.ke/product/reflex-duck-cod-sandwich-strips-dog-treats/",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-duck-cod-sandwich-strips-dog-treats/?add-to-cart=69361",
+  "shortDescription": "Reflex Duck & Cod Sandwich Strips are super-premium, natural dog treats made with real duck meat and cod for superior taste and easy digestion. Their ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-–-DOG-–-TREAT-–-DUCK-COD-SANDWICH-STRIPS-–-80GR-1.png",
+  "sku": "PSK-69361",
   "brand": "Reflex",
   "weight_kg": 0.15,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-–-DOG-–-TREAT-–-DUCK-COD-SANDWICH-STRIPS-–-80GR-1.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-–-DOG-–-TREAT-–-DUCK-COD-SANDWICH-STRIPS-–-80GR-1.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

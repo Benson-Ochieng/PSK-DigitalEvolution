@@ -2,14 +2,12 @@
   "id": 17979,
   "name": "Rogz Dog Utility Step In Harness Large - Black",
   "slug": "rogz-dog-utility-step-in-harness-large-black",
-  "sku": "SSJ06-A",
   "onSale": false,
   "price": 2600,
   "regularPrice": 2600,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/SSJ06-A-Fanbelt-Black.jpg",
   "categories": [
     {
       "id": 2351,
@@ -32,41 +30,51 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2318,
-      "name": "Harnesses",
-      "slug": "harness"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-step-in-harness-large-black/",
-  "shortDescription": "Control strong and erratic pullers with the Rogz Stop-Pull Harness, featuring padded chest support and double reflective stitching for night walks.",
   "description": "Rogz Utility Step-In Reflective Dog Harness has a reflective yarn woven into the webbing for night time visibility so that everyone is aware that you & your dog are on an outing. Key Features: Reflective Stitching: Reflective yarn is woven into the webbing for nighttime visibility RogLoc: The Fort Knox of release buckles Low Load Technology: LLT technology reduces the load on the Titanium Plastic buckle through a cleverly positioned load ring Contoured Plastic Component: ROGZ rounded contoured plastic components ensure that every ROGZ collar fits snugly Die-Cast Ring: Custom designed die cast ring (no welding). Electroplated chrome for a tarnish free finish Size: Large 20mm. (Girth measurement of 45-75cm)",
   "images": [
     {
-      "id": 17940,
+      "id": 17979,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/01/SSJ06-A-Fanbelt-Black.jpg",
-      "alt": "Rogz Dog Utility Step In Harness Large – Black",
-      "name": "SSJ06-A Fanbelt Black"
+      "alt": "Rogz Dog Utility Step In Harness Large - Black",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-step-in-harness-large-black/?add-to-cart=17979",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2021-01-13T17:33:32",
-  "dateModified": "2026-06-24T10:12:13",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-step-in-harness-large-black/",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-step-in-harness-large-black/?add-to-cart=17979",
+  "shortDescription": "Rogz Utility Step-In Reflective Dog Harness has a reflective yarn woven into the webbing for night time visibility so that everyone is aware that you ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/SSJ06-A-Fanbelt-Black.jpg",
+  "sku": "PSK-17979",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/SSJ06-A-Fanbelt-Black.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/SSJ06-A-Fanbelt-Black.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

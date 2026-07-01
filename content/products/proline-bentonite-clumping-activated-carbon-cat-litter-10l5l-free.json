@@ -2,14 +2,12 @@
   "id": 41486,
   "name": "Proline Bentonite Clumping Activated Carbon Cat Litter -10L+5L FREE",
   "slug": "proline-bentonite-clumping-activated-carbon-cat-litter-10l5l-free",
-  "sku": "PCL010@B",
   "onSale": false,
   "price": 2314,
   "regularPrice": 2314,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/11/PROLINE-CAT-LITTER-ACTIVATED-CARBON-10L-5L.jpg",
   "categories": [
     {
       "id": 2325,
@@ -32,72 +30,51 @@
       "slug": "proline"
     }
   ],
-  "brands": [
-    {
-      "id": 2049,
-      "name": "Proline",
-      "slug": "proline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 831,
-      "name": "bentonite",
-      "slug": "bentonite"
-    },
-    {
-      "id": 2122,
-      "name": "Bundle",
-      "slug": "bundle"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 819,
-      "name": "cat litter",
-      "slug": "cat-litter"
-    },
-    {
-      "id": 823,
-      "name": "clumping",
-      "slug": "clumping"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=41486",
-  "shortDescription": "BUY 10L GET 5L FREE Proline Bentonite Cat Litter with Activated Carbon is a 100% natural bentonite clumping litter that instantly forms tight clumps to trap urine and odor. The activated carbon helps to absorb odors and create a fresh and clean atmosphere in your home. The thin grain shape of the litter helps to prevent tracking, and the litter is non-toxic and safe for your cat.",
   "description": "Proline Bentonite Cat Litter with Activated Carbon is a 100% natural bentonite clumping litter that instantly forms tight clumps to trap urine and odor. The activated carbon helps to absorb odors and create a fresh and clean atmosphere in your home. The thin grain shape of the litter helps to prevent tracking, and the litter is non-toxic and safe for your cat. Key Benefits: 100% natural bentonite clay Instantly clumps to trap urine and odor. Activated carbon absorbs odors. Thin grain shape prevents tracking. Non-toxic and safe for cats Recommended to add new litter to the surface of the old litter for a few days when first using Guarantee: We are so confident that you and your cat will love Proline Bentonite Cat Litter with Activated Carbon that we offer a 100% satisfaction guarantee. If you are not happy with your purchase for any reason, simply return it for a full refund. Give your cat the best with Proline Bentonite Cat Litter with Activated Carbon!",
   "images": [
     {
-      "id": 41487,
+      "id": 41486,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/11/PROLINE-CAT-LITTER-ACTIVATED-CARBON-10L-5L.jpg",
       "alt": "Proline Bentonite Clumping Activated Carbon Cat Litter -10L+5L FREE",
-      "name": "PROLINE CAT LITTER ACTIVATED CARBON 10L +5L"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Proline",
+      "slug": "proline"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/proline-bentonite-clumping-activated-carbon-cat-litter-10l5l-free/?add-to-cart=41486",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2023-11-23T15:18:20",
-  "dateModified": "2026-05-06T17:09:10",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=41486",
+  "addToCartUrl": "https://petstore.co.ke/product/proline-bentonite-clumping-activated-carbon-cat-litter-10l5l-free/?add-to-cart=41486",
+  "shortDescription": "Proline Bentonite Cat Litter with Activated Carbon is a 100% natural bentonite clumping litter that instantly forms tight clumps to trap urine and odo",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/11/PROLINE-CAT-LITTER-ACTIVATED-CARBON-10L-5L.jpg",
+  "sku": "PSK-41486",
   "brand": "Proline",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/11/PROLINE-CAT-LITTER-ACTIVATED-CARBON-10L-5L.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/11/PROLINE-CAT-LITTER-ACTIVATED-CARBON-10L-5L.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

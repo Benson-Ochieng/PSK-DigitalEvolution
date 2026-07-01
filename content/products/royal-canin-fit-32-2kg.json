@@ -2,14 +2,12 @@
   "id": 26974,
   "name": "Royal Canin Fit 32 2kg",
   "slug": "royal-canin-fit-32-2kg",
-  "sku": "ROC-FHND-002",
   "onSale": false,
   "price": 4400,
   "regularPrice": 4400,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/ROC-FHND-002-01.jpg",
   "categories": [
     {
       "id": 2325,
@@ -32,57 +30,51 @@
       "slug": "royal-canin"
     }
   ],
-  "brands": [
-    {
-      "id": 2423,
-      "name": "Royal Canin",
-      "slug": "royal-canin"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/royal-canin-fit-32-2kg/",
-  "shortDescription": "ROYAL CANIN? Fit 32 is suitable for adult cats between 1-7 years old, it's been specially designed to meet all of your cat's nutritional requirements for supporting and maintaining the healthy situation that your cat is currently in. Your cat needs high quality nutrition to meet all the requirements of adulthood – that's why ROYAL CANIN? Fit 32 has an optimal nutrient profile that contains the right level of beneficial nutrients to help support and maintain the good health of your adult cat.",
   "description": "it's been specially designed to meet all of your cat's nutritional requirements for supporting and maintaining the healthy situation that your cat is currently in. Your cat needs high quality nutrition to meet all the requirements of adulthood - that's why ROYAL CANIN? Fit 32 has an optimal nutrient profile that contains the right level of beneficial nutrients to help support and maintain the good health of your adult cat. What's more, ROYAL CANIN? Fit 32 is formulated with a balance of beneficial nutrients - such as a variety of vitamins and minerals - to help in maintaining a healthy urinary system for adult cats like yours. Thanks to the inclusion of specific dietary fibres, ROYAL CANIN? Fit 32 also helps to rid your cat of hair and fur it may have ingested. This ultimately means that occurrence of hairballs is significantly reduced. Composition: Dehydrated poultry protein, rice, vegetable protein isolate*, wheat, maize, animal fats, wheat flour, hydrolysed animal proteins, vegetable fibres, minerals, yeasts and parts thereof, maize gluten, beet pulp, soya oil, fish oil, psyllium husks and seeds, hydrolysed yeast (source of manno- oligosaccharides), marigold extract (source of lutein). Additives (per kg) : Nutritional additives: Vitamin A: 13000 IU, Vitamin D3: 700 IU, E1 (Iron): 34 mg, E2 (Iodine): 3.4 mg, E4 (Copper): 10 mg, E5 (Manganese): 44 mg, E6 (Zinc): 131 mg, E8 (Selenium): 0.08 mg - Zootechnical additives: Ammonium chloride: 5 g - Preservatives - Antioxidants. * L.I.P.: protein selected for its very high assimilation Analytical constituents: Protein: 32% - Fat content: 15% - Crude ash: 7.6% - Crude fiber: 4.3%, NFE: 35.6%. Metabolisable energy: 3641 kcal/kg (NRC 2006).",
   "images": [
     {
-      "id": 26975,
+      "id": 26974,
       "src": "https://petstore.co.ke/wp-content/uploads/2022/04/ROC-FHND-002-01.jpg",
       "alt": "Royal Canin Fit 32 2kg",
-      "name": "ROC-FHND-002-01"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/royal-canin-fit-32-2kg/?add-to-cart=26974",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2022-04-08T16:18:29",
-  "dateModified": "2026-06-17T15:12:07",
+  "permalink": "https://petstore.co.ke/product/royal-canin-fit-32-2kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/royal-canin-fit-32-2kg/?add-to-cart=26974",
+  "shortDescription": "it's been specially designed to meet all of your cat's nutritional requirements for supporting and maintaining the healthy situation that your cat is ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/ROC-FHND-002-01.jpg",
+  "sku": "PSK-26974",
   "brand": "Royal Canin",
   "weight_kg": 2,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/ROC-FHND-002-01.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/ROC-FHND-002-01.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 46406,
   "name": "Kong Squeezz Ball Large Red",
   "slug": "kong-squeezz-ball-large-red",
-  "sku": "PSB1R",
   "onSale": false,
   "price": 1100,
   "regularPrice": 1100,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/Kong-squeezz-red-e1714036450326.jpg",
   "categories": [
     {
       "id": 1204,
@@ -42,71 +40,51 @@
       "slug": "kong-accessories"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=46406",
-  "shortDescription": "The KONG Squeezz® Ball is a great dog toy for fetch. The fun bounce and recessed squeaker provide safe play, while the grippy textures provide extra chewing enjoyment for your dog.",
   "description": "KONG Dental Squeezz toys satisfy dog's instinctual need to chew as the textured nubs reward appropriate behavior while cleaning teeth. Stuffing with treats and its flexible material adds to the engagement while extending playtime. The way the toy flexes as dogs chew allows for a deeper clean. Chewing on the KONG Dental Squeeze is a fun way to help prevent clinical teeth and gum conditions. Unique texture rewards appropriate chewing Flexible material for added engagement. Stuff with treats or kibble to extend playtime. Stuff grooves to entice chewing.",
   "images": [
     {
-      "id": 46404,
+      "id": 46406,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/04/Kong-squeezz-red-e1714036450326.jpg",
       "alt": "Kong Squeezz Ball Large Red",
-      "name": "Kong squeezz red"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/kong-squeezz-ball-large-red/?add-to-cart=46406",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-04-25T12:16:46",
-  "dateModified": "2026-05-06T17:09:49",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=46406",
+  "addToCartUrl": "https://petstore.co.ke/product/kong-squeezz-ball-large-red/?add-to-cart=46406",
+  "shortDescription": "KONG Dental Squeezz toys satisfy dog's instinctual need to chew as the textured nubs reward appropriate behavior while cleaning teeth. Stuffing with t",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/Kong-squeezz-red-e1714036450326.jpg",
+  "sku": "PSK-46406",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "cat",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/Kong-squeezz-red-e1714036450326.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/Kong-squeezz-red-e1714036450326.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

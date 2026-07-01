@@ -2,14 +2,12 @@
   "id": 50802,
   "name": "Miglior Canned Cat Food - Rabbit Chunks, 405g",
   "slug": "migliorgatto-adult-cat-food-chunks-with-rabbit-405gr-2",
-  "sku": "MCW006@F",
-  "onSale": true,
+  "onSale": false,
   "price": 202,
-  "regularPrice": 269,
-  "salePrice": 202,
+  "regularPrice": 202,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW006.jpg",
   "categories": [
     {
       "id": 2163,
@@ -17,35 +15,51 @@
       "slug": "miglior"
     }
   ],
-  "brands": [],
-  "tags": [],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=50802",
-  "shortDescription": "(4 pieces minimum order) Support your cat’s wellness with Miglior Cat Food Rabbit Chunks, a vitamin-packed recipe formulated to promote strong bones, vibrant skin, and smooth, glossy fur.",
   "description": "COMPOSITION: Meat and animal derivatives 30% (rabbit 5%), cereals, minerals. ANALYTICAL CONSTITUENTS: Moisture 77%, Crude protein 8.5%, Crude fat 4.8%, Crude fibres 0.5%, Crude ash 3%. Nutritional additives / kg: Vitamin E 10 mg, Copper (Copper(II) sulphate pentahydrate) 2 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight. Once opened, store in refrigerator for 2-3 days.",
   "images": [
     {
-      "id": 28242,
+      "id": 50802,
       "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW006.jpg",
-      "alt": "Migliorgatto CHUNKS WITH Rabbit 405Gr",
-      "name": "MCW006"
+      "alt": "Miglior Canned Cat Food - Rabbit Chunks, 405g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/migliorgatto-adult-cat-food-chunks-with-rabbit-405gr-2/?add-to-cart=50802",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-10-13T14:23:05",
-  "dateModified": "2026-05-06T17:10:38",
-  "brand": null,
-  "weight_kg": 0.405,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=50802",
+  "addToCartUrl": "https://petstore.co.ke/product/migliorgatto-adult-cat-food-chunks-with-rabbit-405gr-2/?add-to-cart=50802",
+  "shortDescription": "COMPOSITION: Meat and animal derivatives 30% (rabbit 5%), cereals, minerals. ANALYTICAL CONSTITUENTS: Moisture 77%, Crude protein 8.5%, Crude fat 4.8%",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW006.jpg",
+  "sku": "PSK-50802",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.41,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW006.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW006.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

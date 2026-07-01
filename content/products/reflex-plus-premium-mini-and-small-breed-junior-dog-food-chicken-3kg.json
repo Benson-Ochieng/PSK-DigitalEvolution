@@ -2,14 +2,12 @@
   "id": 43676,
   "name": "Reflex Plus Premium Mini And Small Breed Junior Dog Food Chicken 3kg",
   "slug": "reflex-plus-premium-mini-and-small-breed-junior-dog-food-chicken-3kg",
-  "sku": "RPDD006@F",
-  "onSale": true,
+  "onSale": false,
   "price": 2415,
-  "regularPrice": 3450,
-  "salePrice": 2415,
+  "regularPrice": 2415,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/10/Reflex-Plus-Mini-Small-Breed-Junior-Dog-Food-Chicken-3kg-min.png",
   "categories": [
     {
       "id": 179,
@@ -17,47 +15,51 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
-    {
-      "id": 2079,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=43676",
-  "shortDescription": "Reflex Plus Junior Dog Food Chicken is a complete and balanced formulated super premium dry dog food with chicken for mini and small breeds aged from 2 months to 10 months.",
   "description": "Complete and balanced formulated super premium dry dog food with chicken for mini and small breeds aged from 2 months to 10 months. INGREDIENTS:? Chicken Proteins (Dehydrated), Corn, Wheat, Chicken Fat, Rice, Beet Pulp, Liver Flavour, Whey Powder, Vitamins and Minerals, Xylo-Oligosaccharides, Brewer?s Yeast, L-Carnitine, Linseed, Salt, Yucca Schidigera, Preservatives - Antioxidants. MINERALS: ?Calcium, Phosphor, Sodium, lodine , Zinc, Copper, Iron, Selenium. VITAMINS: ?Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (Niacin) - B6 - B12 - B7 (Biotin) - B9 (Folic Acid), v?T. k, Choline, Calcium Pantothenate. NUTRIENT COMPOSITION NUTRITIVE ADDITIONS Crude Protein 30% Vitamin A (E672) 18000 IU/kg Crude Fat 18% Vitamin D3(E671) 1500 IU/kg Crude Ash 7% Vitamin E (3A700) 150 mg/kg Crude Cellulose ( Fiber ) 2,5% Vitamin C (Stay C) 200 mg/kg RECOMMENDED FEEDING AMOUNT DOG'S ADULT WEIGHT : 2 kg 3 kg 4 kg 5 kg 6 kg 7 kg 8 kg 9 kg ?10 kg DOG'S AGE (MONTH) ?2 48 - 53 g 62 - 68 g 76 - 84 g 89 - 99 g 99 - 109 g 108 - 120 g 119 - 131 g 129 - 143 g 140 - 154 g ?3 53 - 59 g 69 - 77 g 85 - 93 g 101 - 111 g 114 - 126 g 125 - 139 g 139 - 153 g 151 - 167 g 163 - 181 g ?4 54 - 60 g 72 - 80 g 88 - 98? g 105 - 117 g 120 - 132 g 133 - 147 g 147 - 163 g 160 - 176 g 173 - 191 g ?5 54 - 60 g 72 - 80 g 89 - 99 g 105 - 117 g 121 - 133 g 136 - 150 g 149 - 165 g 163 - 181 g 177 - 195 g ?6 47 - 51 g 67 - 74 g 81 - 89 g 96 - 106 g 120 - 132 g 135 - 149 g 148? - 164 g 162 - 179 g 176 - 194 g ?7 40 - 44 g 60 - 66 g 73 - 81 g 86 - 96 g 107 - 119 g 122 - 134 g 134 - 148 g 147 - 163 g 160 - 176 g ?8 49 - 42 g 53 - 59 g 65 - 71 g 77 - 85 g 97 - 107 g 109 - 121 g 121 - 133 g 132 - 146 g 143 - 158 g ?9 39 - 43 g 52 - 58 g 65 - 71 g 76 - 84 g 86 - 96 g 97 - 107 g 107 - 119 g 108 - 130 g 127 - 141 g ?10 49 - 43 g 52 - 58 g 64 - 70 g 75 - 83 g 86 - 95 g 36 - 106 g 106 - 118 g 116 - 128 g 126 - 140 g IMPORTANT AND TO KNOW: Recommended daily feeding amount (gram per day) according to the puppies' adult weight (kg) and age (months), see chart. Daily ration can vary linked to ambient temperature, puppy's lifestyle (indoor-outdoor), temperament and activity.? In order to ensure ideal body weight of your puppy, weigh out the quantity of food. To provide the correct portions, assess your puppy's appetite, visual appearance and stools. Switch over from one food to another should be done gradually by mixing small amounts of both foods during a period of one week. Ensure that your puppy has permanent access to fresh water. Even if the water seems clear, change it at least daily. Keep the product in a dry and cool place and be sure the food bag is properly closed after each feeding. Batch number, factory registration number and best before date, see packaging.",
   "images": [
     {
-      "id": 15675,
+      "id": 43676,
       "src": "https://petstore.co.ke/wp-content/uploads/2020/10/Reflex-Plus-Mini-Small-Breed-Junior-Dog-Food-Chicken-3kg-min.png",
-      "alt": "Reflex Plus Premium Mini and Small Breed- Junior Dog Food Chicken 3kg",
-      "name": "Reflex Plus Mini Small Breed Junior Dog Food Chicken 3kg-min"
+      "alt": "Reflex Plus Premium Mini And Small Breed Junior Dog Food Chicken 3kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "outofstock",
-  "lowStockRemaining": 10,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-premium-mini-and-small-breed-junior-dog-food-chicken-3kg/?add-to-cart=43676",
-  "status": "draft",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-01-30T11:48:12",
-  "dateModified": "2026-05-06T17:09:28",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=43676",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-premium-mini-and-small-breed-junior-dog-food-chicken-3kg/?add-to-cart=43676",
+  "shortDescription": "Complete and balanced formulated super premium dry dog food with chicken for mini and small breeds aged from 2 months to 10 months. INGREDIENTS:? Chic",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/10/Reflex-Plus-Mini-Small-Breed-Junior-Dog-Food-Chicken-3kg-min.png",
+  "sku": "PSK-43676",
   "brand": "Reflex",
   "weight_kg": 3,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/10/Reflex-Plus-Mini-Small-Breed-Junior-Dog-Food-Chicken-3kg-min.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/10/Reflex-Plus-Mini-Small-Breed-Junior-Dog-Food-Chicken-3kg-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

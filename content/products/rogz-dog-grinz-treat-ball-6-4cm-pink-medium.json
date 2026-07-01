@@ -2,14 +2,12 @@
   "id": 17431,
   "name": "Rogz Dog ginz-Treat Ball 6.4cm - Pink Medium",
   "slug": "rogz-dog-grinz-treat-ball-6-4cm-pink-medium",
-  "sku": "GR02-K",
   "onSale": false,
   "price": 1150,
   "regularPrice": 1150,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/GR02-K-Grinz-Pink.jpg",
   "categories": [
     {
       "id": 2345,
@@ -32,51 +30,51 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-6-4cm-pink-medium/",
-  "shortDescription": "Keep small to medium dogs entertained with the Rogz Dog Grinz Treat Ball 6.4 cm, Pink. Interactive, treat-dispensing, floating, and safe for teeth during playtime.",
   "description": "The Rogz Dog Grinz Treat Ball (6.4 cm, Pink) is an engaging and versatile toy for small to medium-sized dogs. Combining treat-dispensing, bouncing, and floating play, it provides both physical and mental enrichment. Crafted from semi-hard, non-toxic SEBS rubber, the ball is firm enough to bounce during fetch but soft enough to be gentle on your dog’s teeth. Dogs are motivated to work for treats through the bone-shaped opening, encouraging problem-solving and prolonged play. Its bright pink color ensures visibility during outdoor activities or water games, while the chew-resistant material helps promote safe dental engagement. Lightweight and portable, this treat ball is perfect for interactive play sessions between owners and their dogs. Features & Benefits Durable SEBS Material: Safe for chewing, firm for bouncing Interactive Treat Play: Bone-shaped hole releases treats to engage dogs mentally Medium Size (6.4 cm): Suitable for small to medium breeds Floatable & Bouncy: Ideal for land and water-based activities Promotes Exercise & Bonding: Combines physical activity with interactive play Care & Safety Hand washable for easy cleaning Always supervise dogs during play to prevent accidental ingestion of treats For animal use only &nbsp;",
   "images": [
     {
-      "id": 17346,
+      "id": 17431,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/01/GR02-K-Grinz-Pink.jpg",
       "alt": "Rogz Dog ginz-Treat Ball 6.4cm - Pink Medium",
-      "name": "GR02-K Grinz Pink"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-6-4cm-pink-medium/?add-to-cart=17431",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2021-01-09T09:36:46",
-  "dateModified": "2026-06-17T04:18:33",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-6-4cm-pink-medium/",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-6-4cm-pink-medium/?add-to-cart=17431",
+  "shortDescription": "The Rogz Dog Grinz Treat Ball (6.4 cm, Pink) is an engaging and versatile toy for small to medium-sized dogs. Combining treat-dispensing, bouncing, an",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/GR02-K-Grinz-Pink.jpg",
+  "sku": "PSK-17431",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/GR02-K-Grinz-Pink.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/GR02-K-Grinz-Pink.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

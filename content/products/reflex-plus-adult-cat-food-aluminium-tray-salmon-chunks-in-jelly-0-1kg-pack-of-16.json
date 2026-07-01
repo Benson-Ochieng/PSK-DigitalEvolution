@@ -2,14 +2,12 @@
   "id": 29828,
   "name": "Reflex Plus Adult Cat Food Aluminium Tray - Salmon Chunks in Jelly 0.1kg -Pack of 16",
   "slug": "reflex-plus-adult-cat-food-aluminium-tray-salmon-chunks-in-jelly-0-1kg-pack-of-16",
-  "sku": "RPCW014$16",
   "onSale": false,
   "price": 0,
   "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/09/Reflex-adult-cat-aluminium-tray-salmon-chunks-in-jelly-100g-min.png",
   "categories": [
     {
       "id": 2325,
@@ -37,72 +35,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2107,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2055,
-      "name": "Bulk Cat Food & Bulk Dog Food",
-      "slug": "bulk"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 2108,
-      "name": "Mini breeds",
-      "slug": "mini-breeds"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=29828",
-  "shortDescription": "Reflex Plus Salmon Adult Cat Food offers a balanced, nutrient-rich meal made with premium salmon protein to support skin health, digestion, and daily vitality in adult cats.",
   "description": "Reflex Plus Salmon Chunks in Jelly Adult Cat Food in Aluminium Tray , fully balanced, fish protein-containing cat food carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult breeds. NUTRIENT COMPONENTS Crude Protein (%) - 8.0 Crude Oils & Fats (%) - 5.0 Crude Fiber (%) -0.3 Moisture (%) -82 Crude Ash (%) - 2.0 Vitamin D3 - 250 IE/kg Vitamin E - 15 mg/kg Copper -1.0 mg/kg Biotin - 20g/kg Manganese -1 mg/kg Zinc - 15 mg/kg Taurine - 445 mg/kg INGREDIENTS: Meat & Animal Derivatives, Fish & Fish Derivatives (salmon 5%), Minerals, Inulin (0.1%). FEEDING RECOMMENDATION: One alu-tray per meal. An adult cat (approx. 4kg) requires up to 3 meals per day. Individual requirements depend on factors like age, breed and activity. Serve at room temperature. Store in a cool, dry place. Not fit for human consumption.",
   "images": [
     {
-      "id": 3311,
+      "id": 29828,
       "src": "https://petstore.co.ke/wp-content/uploads/2019/09/Reflex-adult-cat-aluminium-tray-salmon-chunks-in-jelly-100g-min.png",
-      "alt": "Reflex adult cat aluminium tray salmon chunks in jelly 100g min",
-      "name": "Reflex adult cat aluminium tray salmon chunks in jelly 100g min"
+      "alt": "Reflex Plus Adult Cat Food Aluminium Tray - Salmon Chunks in Jelly 0.1kg -Pack of 16",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-adult-cat-food-aluminium-tray-salmon-chunks-in-jelly-0-1kg-pack-of-16/?add-to-cart=29828",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2022-07-15T13:18:45",
-  "dateModified": "2026-05-06T17:08:21",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=29828",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-adult-cat-food-aluminium-tray-salmon-chunks-in-jelly-0-1kg-pack-of-16/?add-to-cart=29828",
+  "shortDescription": "Reflex Plus Salmon Chunks in Jelly Adult Cat Food in Aluminium Tray , fully balanced, fish protein-containing cat food carefully formulated by cat / d",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/09/Reflex-adult-cat-aluminium-tray-salmon-chunks-in-jelly-100g-min.png",
+  "sku": "PSK-29828",
   "brand": "Reflex",
   "weight_kg": 0.1,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/09/Reflex-adult-cat-aluminium-tray-salmon-chunks-in-jelly-100g-min.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/09/Reflex-adult-cat-aluminium-tray-salmon-chunks-in-jelly-100g-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

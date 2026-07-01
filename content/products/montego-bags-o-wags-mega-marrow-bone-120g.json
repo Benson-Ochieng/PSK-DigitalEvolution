@@ -2,14 +2,12 @@
   "id": 60171,
   "name": "Montego Bags O' Wags Mega Dog Treats - Marrow Bone (30CM/1PC) 120g",
   "slug": "montego-bags-o-wags-mega-marrow-bone-120g",
-  "sku": "MBWMMBXL1",
   "onSale": false,
   "price": 480,
   "regularPrice": 480,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/09/Montego-Bags-O-Wags-Mega-Marrow-Bone-–-120g.png",
   "categories": [
     {
       "id": 2380,
@@ -37,57 +35,51 @@
       "slug": "montego"
     }
   ],
-  "brands": [
-    {
-      "id": 2425,
-      "name": "Bags-o-wags",
-      "slug": "bags-o-wags"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/montego-bags-o-wags-mega-marrow-bone-120g/",
-  "shortDescription": "BAGS O’ WAGS Megachews – Beef Flavoured Marrow Bones (30cm/1pc) are long-lasting, super-sized treats with a soft, meaty centre, perfect for rewarding large dogs with a delicious, nutritious chew. Sold as one 30cm chewy treat. Not suitable for puppies.",
   "description": "BAGS O’ WAGS Megachews – Beef Flavoured Marrow Bones (30cm) A chewmungous treat packed with flavour and nutrition! BAGS O’ WAGS Megachews are the ultimate reward for large dogs who love to chew! These 30cm beef-flavoured marrow bones feature a soft, meaty centre that’s wagtastically irresistible. Whether you're training or just showing some love, these tasty treats are perfect for any occasion. Crafted with high-quality ingredients and packed with nutritional goodness , Megachews support your dog’s wellbeing while satisfying their natural chewing instincts. Key Benefits Super-sized (30cm) treat ideal for large breeds Soft, meaty centre dogs love High in protein to support muscle maintenance Great as a training reward or daily treat Promotes chewing for dental health and stimulation Ingredients: Corn starch, poultry meal, water, glycerine, milk powder (lactose reduced), propylene glycol, wheat gluten, sugars, chicken fat, sodium hexametaphosphate, spray-dried animal plasma, sodium tripolyphosphate, fish oil, carrageenan. Additives (/kg): Sensory: Palatability meat-based enhancers with beef aroma, white and brown colourants. Crude protein 15% Moisture 16.5% Total fat 5.5% TYPICAL ANALYSIS Crude fibre 1% Sodium 5% Metabolisable energy 342 kcal/lOO g Give your dog a long-lasting , deliciously beefy chew that delivers both joy and nourishment, because they deserve the best!",
   "images": [
     {
-      "id": 60969,
+      "id": 60171,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/09/Montego-Bags-O-Wags-Mega-Marrow-Bone-–-120g.png",
       "alt": "Montego Bags O' Wags Mega Dog Treats - Marrow Bone (30CM/1PC) 120g",
-      "name": "Montego Bags O’ Wags Mega Marrow Bone – 120g"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Bags-o-wags",
+      "slug": "bags-o-wags"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/montego-bags-o-wags-mega-marrow-bone-120g/?add-to-cart=60171",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-09-26T15:33:14",
-  "dateModified": "2026-06-17T04:29:03",
+  "permalink": "https://petstore.co.ke/product/montego-bags-o-wags-mega-marrow-bone-120g/",
+  "addToCartUrl": "https://petstore.co.ke/product/montego-bags-o-wags-mega-marrow-bone-120g/?add-to-cart=60171",
+  "shortDescription": "BAGS O’ WAGS Megachews – Beef Flavoured Marrow Bones (30cm) A chewmungous treat packed with flavour and nutrition! BAGS O’ WAGS Megachews are the ulti",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/09/Montego-Bags-O-Wags-Mega-Marrow-Bone-–-120g.png",
+  "sku": "PSK-60171",
   "brand": "Bags-o-wags",
   "weight_kg": 0.12,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/09/Montego-Bags-O-Wags-Mega-Marrow-Bone-–-120g.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/09/Montego-Bags-O-Wags-Mega-Marrow-Bone-–-120g.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

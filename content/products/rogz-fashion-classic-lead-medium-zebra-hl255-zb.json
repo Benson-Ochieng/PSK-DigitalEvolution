@@ -2,14 +2,12 @@
   "id": 47713,
   "name": "Rogz Fashion Classic Leash Medium Zebra (Hl255-Zb)",
   "slug": "rogz-fashion-classic-lead-medium-zebra-hl255-zb",
-  "sku": "HL255-ZB",
   "onSale": false,
   "price": 1400,
   "regularPrice": 1400,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/HL255-ZB_Fashion-Classic-Lead_M_Zebra-420x420-1.jpg",
   "categories": [
     {
       "id": 1204,
@@ -37,56 +35,51 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1919,
-      "name": "Leashes",
-      "slug": "leash"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-fashion-classic-lead-medium-zebra-hl255-zb/",
-  "shortDescription": "Rogz Small Dogs Fashion Classic Leads with custom designed wild safari prints stitched onto soft plush webbing with reflective yarn for extra visibility, connect you to your dog safely.",
   "description": "Rogz Small Dogs Fashion Classic Leads with custom designed wild safari prints stitched onto soft plush webbing with reflective yarn for extra visibility, connect you to your dog safely.",
   "images": [
     {
-      "id": 47714,
+      "id": 47713,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/06/HL255-ZB_Fashion-Classic-Lead_M_Zebra-420x420-1.jpg",
       "alt": "Rogz Fashion Classic Leash Medium Zebra (Hl255-Zb)",
-      "name": "HL255-ZB_Fashion-Classic-Lead_M_Zebra-420&#215;420"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-fashion-classic-lead-medium-zebra-hl255-zb/?add-to-cart=47713",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-06-11T10:16:24",
-  "dateModified": "2026-06-17T13:12:22",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/rogz-fashion-classic-lead-medium-zebra-hl255-zb/",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-fashion-classic-lead-medium-zebra-hl255-zb/?add-to-cart=47713",
+  "shortDescription": "Rogz Small Dogs Fashion Classic Leads with custom designed wild safari prints stitched onto soft plush webbing with reflective yarn for extra visibili",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/HL255-ZB_Fashion-Classic-Lead_M_Zebra-420x420-1.jpg",
+  "sku": "PSK-47713",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/HL255-ZB_Fashion-Classic-Lead_M_Zebra-420x420-1.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/HL255-ZB_Fashion-Classic-Lead_M_Zebra-420x420-1.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

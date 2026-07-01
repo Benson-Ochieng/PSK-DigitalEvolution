@@ -2,14 +2,12 @@
   "id": 58430,
   "name": "Test Product",
   "slug": "test-product",
-  "sku": "FPFBKC58",
   "onSale": false,
   "price": 1,
   "regularPrice": 1,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "/images/psk_logo.png",
   "categories": [
     {
       "id": 1204,
@@ -17,39 +15,51 @@
       "slug": "accessories"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/test-product/",
-  "shortDescription": "The Ferplast Orion KC58 is a high-quality stainless steel feeding bowl designed to provide a hygienic, durable, and user-friendly solution for feeding both dogs and cats.",
   "description": "Key Features Premium Material Made from durable stainless steel, the Orion KC58 is rust-resistant, easy to clean, and built for long-term use—ensuring maximum hygiene with every meal. Functional Design Equipped with a practical outer rim for a secure grip, the bowl is easy to handle and helps prevent spills during feeding. Versatile Use Suitable for both dogs and cats, it can be used independently or paired with Ferplast accessories like the Duo Feed bowl holder for enhanced stability. Ideal Size Designed to accommodate a variety of dog breeds and cat sizes, making it perfect for daily use with dry food, wet food, or water. Safe and Long-Lasting The corrosion-resistant construction ensures safe feeding and long-lasting reliability. Usage Whether serving kibble, canned food, or water, the Ferplast Orion KC58 supports all your pet’s feeding needs. For added convenience and stability, it can be used with compatible Ferplast bowl holders to create a customized feeding station.",
-  "images": [],
+  "images": [
+    {
+      "id": 58430,
+      "src": "/images/psk_logo.png",
+      "alt": "Test Product",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/test-product/?add-to-cart=58430",
-  "status": "private",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-08-15T09:25:53",
-  "dateModified": "2026-06-17T13:12:19",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/test-product/",
+  "addToCartUrl": "https://petstore.co.ke/product/test-product/?add-to-cart=58430",
+  "shortDescription": "Key Features Premium Material Made from durable stainless steel, the Orion KC58 is rust-resistant, easy to clean, and built for long-term use—ensuring",
+  "thumbnail": "/images/psk_logo.png",
+  "sku": "PSK-58430",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "/images/psk_logo.png"
+  "image_url": "/images/psk_logo.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 43665,
   "name": "Rogz Kiddycat Safety Collar Xsmall Lime Paws",
   "slug": "rogz-kiddycat-safety-collar-xsmall-lime-paws-2",
-  "sku": "CB207-L@F",
-  "onSale": true,
+  "onSale": false,
   "price": 760,
-  "regularPrice": 950,
-  "salePrice": 760,
+  "regularPrice": 760,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/CB07-L-KiddyCat-Lime-420x420-1.jpg",
   "categories": [
     {
       "id": 1204,
@@ -22,41 +20,51 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=43665",
-  "shortDescription": "Rogz KiddyCat Safety Collar is snag-proof and durable. Made from a soft, pliable material, this collar is ideal for sensitive cats. The break-away safety buckle features three variable load settings that break open under enough strain from your cat to allow a safe escape.",
   "description": "Rogz KiddyCat Safety Collar is snag-proof and durable. Made from a soft, pliable material, this collar is ideal for sensitive cats. The break-away safety buckle features three variable load settings that break open under enough strain from your cat to allow a safe escape. &nbsp;",
   "images": [
     {
-      "id": 42020,
+      "id": 43665,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/12/CB07-L-KiddyCat-Lime-420x420-1.jpg",
-      "alt": "Rogz Kiddycat Safety Collar Xsmall Lime Paws (Cb207-L)",
-      "name": "CB07-L-KiddyCat-Lime-420&#215;420"
+      "alt": "Rogz Kiddycat Safety Collar Xsmall Lime Paws",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-kiddycat-safety-collar-xsmall-lime-paws-2/?add-to-cart=43665",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-01-30T11:33:35",
-  "dateModified": "2026-05-06T17:09:27",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=43665",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-kiddycat-safety-collar-xsmall-lime-paws-2/?add-to-cart=43665",
+  "shortDescription": "Rogz KiddyCat Safety Collar is snag-proof and durable. Made from a soft, pliable material, this collar is ideal for sensitive cats. The break-away saf",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/CB07-L-KiddyCat-Lime-420x420-1.jpg",
+  "sku": "PSK-43665",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/CB07-L-KiddyCat-Lime-420x420-1.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/CB07-L-KiddyCat-Lime-420x420-1.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

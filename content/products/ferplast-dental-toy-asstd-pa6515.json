@@ -2,14 +2,12 @@
   "id": 58278,
   "name": "Ferplast Dental Toy Asstd PA6515",
   "slug": "ferplast-dental-toy-asstd-pa6515",
-  "sku": "FDT6515",
   "onSale": false,
   "price": 0,
   "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "/images/psk_logo.png",
   "categories": [
     {
       "id": 1204,
@@ -32,39 +30,51 @@
       "slug": "dog-toys"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=58278",
-  "shortDescription": "FERPLAST dental toys, including models similar to the PA6515, are designed to promote your dog's oral hygiene while providing durable and safe entertainment.",
   "description": "Design and Purpose The dental toy typically features a textured surface that stimulates your dog's natural biting instinct while helping to reduce plaque and tartar buildup. The irregular texture massages gums during chewing, contributing to healthier teeth and fresher breath. This makes the toy an effective tool for promoting oral hygiene during playtime. Materials and Safety Made from high-quality, pet-safe thermoplastic rubber or similar resilient materials, Ferplast dental toys are non-toxic and safe for dogs of various sizes. The material is also durable enough to withstand strong chewing, ensuring long-lasting use without breaking down easily. Size and Suitability While the exact dimensions of PA6515 are not listed, related models like PA6560 measure approximately 8 x 8 x 3 cm, ideal for small to medium-sized dogs. The manageable size helps ensure your dog can easily handle the toy, making it appropriate for various breeds and ages. Benefits • Helps reduce plaque and tartar formation on teeth • Provides a gentle gum massage to stimulate circulation and health • Encourages natural chewing behavior, reducing boredom and destructive habits • Made from safe, non-toxic materials suitable for regular play Ferplast dental toys are a popular choice among pet owners who want to combine fun and preventive dental care for their dogs, making them a practical addition to your pet's toy collection. If you want a specific reference for size or design, it may help to check local sellers or Ferplast's official catalog for the exact PA6515 variant.",
-  "images": [],
+  "images": [
+    {
+      "id": 58278,
+      "src": "/images/psk_logo.png",
+      "alt": "Ferplast Dental Toy Asstd PA6515",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/ferplast-dental-toy-asstd-pa6515/?add-to-cart=58278",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-08-11T12:28:33",
-  "dateModified": "2026-05-06T17:11:57",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=58278",
+  "addToCartUrl": "https://petstore.co.ke/product/ferplast-dental-toy-asstd-pa6515/?add-to-cart=58278",
+  "shortDescription": "Design and Purpose The dental toy typically features a textured surface that stimulates your dog's natural biting instinct while helping to reduce pla",
+  "thumbnail": "/images/psk_logo.png",
+  "sku": "PSK-58278",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "/images/psk_logo.png"
+  "image_url": "/images/psk_logo.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

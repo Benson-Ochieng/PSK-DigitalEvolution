@@ -2,14 +2,12 @@
   "id": 57200,
   "name": "Proline Adult cat Food MultiColour Chicken 400g",
   "slug": "proline-adult-cat-food-multicolour-chicken-400gr-4",
-  "sku": "PCD010@OFFER",
   "onSale": false,
   "price": 680,
   "regularPrice": 680,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-Cat-Food-Multi-colour-400gr.png",
   "categories": [
     {
       "id": 796,
@@ -17,52 +15,51 @@
       "slug": "proline"
     }
   ],
-  "brands": [
-    {
-      "id": 2293,
-      "name": "Proline",
-      "slug": "proline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=57200",
-  "shortDescription": "Fully balanced all-natural cat food with chicken protein. Carefully formulated by cat nutritionists to meet the nutritional requirements of all adult cats.",
   "description": "Fully balanced all-natural cat food with chicken protein. Carefully formulated by cat nutritionists to meet the nutritional requirements of all adult cats. It is our job to meet the needs of your lovely friends in the best way possible. We ensure that they live a comfortable life with rich foods full of vitamins and minerals that support their health and behavior. Healthy Skin and Shiny Coat Support for Intestinal Health Strong Immune System Healthy Skeleton and Teeth Complete and Balanced Organic Minerals Processed animal protein, Wheat, Corn, Wheat bran, Animal fat, Corn gluten, Dried sugar beet, Liver flavor, Flaxseed, Dry brewer's yeast, Salt, Colorants (E110, E104, E102, E133, E124), Taurine (3A370), Preservatives - antioxidants (E320 & E321) Iron (3B103) Iodine (3B202) Copper (3B405) Zinc (3B603) Manganese (3B502) Selenium (3B802) Vitamin A (3A672A) 15000 IU/kgVitamin D3 (3A671) 1000 IU/kgVitamin E (3A700) 150 mg/kgVitamin C (3A300) 120 mg/kgTaurine 1000 mg/kgVitamin B1 (3A821) Vitamin B2 B3 (Niacin-3A315) B7 (Biotin-3A880) B9 (Folic Acid-3A316) Vitamin B12 Vitamin K3 (3A710) Choline (3A890) Calcium pantothenate NUTRITIONAL VALUES NUTRITIONAL ADDITIONS Crude Protein 31% Vitamin A 15000 IU/kg Crude Oil 12% Vitamin D3 1000 IU/kg Raw Ash 8% Vitamin E 150 mg/kg Raw Cellulose (Fiber ) 3% Vitamin C 120 mg/kg Taurine 1000 mg/kg DAILY FEEDING TABLE 1 to 2 kg 30 to 45 g 3 to 4 kg 60 to 80 g 5 to 6 kg 100 to 120 g 7 to 8 kg 140 to 160 g",
   "images": [
     {
-      "id": 35471,
+      "id": 57200,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-Cat-Food-Multi-colour-400gr.png",
       "alt": "Proline Adult cat Food MultiColour Chicken 400g",
-      "name": "Proline Cat Food Multi colour 400gr"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Proline",
+      "slug": "proline"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/proline-adult-cat-food-multicolour-chicken-400gr-4/?add-to-cart=57200",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-07-26T12:04:08",
-  "dateModified": "2026-05-06T17:11:51",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=57200",
+  "addToCartUrl": "https://petstore.co.ke/product/proline-adult-cat-food-multicolour-chicken-400gr-4/?add-to-cart=57200",
+  "shortDescription": "Fully balanced all-natural cat food with chicken protein. Carefully formulated by cat nutritionists to meet the nutritional requirements of all adult ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-Cat-Food-Multi-colour-400gr.png",
+  "sku": "PSK-57200",
   "brand": "Proline",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-Cat-Food-Multi-colour-400gr.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-Cat-Food-Multi-colour-400gr.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

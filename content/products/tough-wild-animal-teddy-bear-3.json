@@ -2,14 +2,12 @@
   "id": 43672,
   "name": "Tough Wild Animal Teddy Bear",
   "slug": "tough-wild-animal-teddy-bear-3",
-  "sku": "PA3926@F",
   "onSale": false,
   "price": 2070,
   "regularPrice": 2070,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/TOUGH-WILD-ANIMAL-TEDDY-BEAR.webp",
   "categories": [
     {
       "id": 1204,
@@ -37,61 +35,51 @@
       "slug": "dog-toys"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=43672",
-  "shortDescription": "Medium size perfect for dogs of all breeds and sizes.",
   "description": "TOUGH - WILD ANIMAL - TEDDY BEAR is soft and with a cuddly exterior, durable and strong skeleton that can withstand toughest playtime, which is good for chewing and tugging. Medium size perfect for dogs of all breeds and sizes.",
   "images": [
     {
-      "id": 42753,
+      "id": 43672,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/12/TOUGH-WILD-ANIMAL-TEDDY-BEAR.webp",
       "alt": "Tough Wild Animal Teddy Bear",
-      "name": "TOUGH &#8211; WILD ANIMAL &#8211; TEDDY BEAR"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/tough-wild-animal-teddy-bear-3/?add-to-cart=43672",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-01-30T11:43:22",
-  "dateModified": "2026-05-06T17:09:28",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=43672",
+  "addToCartUrl": "https://petstore.co.ke/product/tough-wild-animal-teddy-bear-3/?add-to-cart=43672",
+  "shortDescription": "TOUGH - WILD ANIMAL - TEDDY BEAR is soft and with a cuddly exterior, durable and strong skeleton that can withstand toughest playtime, which is good f",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/TOUGH-WILD-ANIMAL-TEDDY-BEAR.webp",
+  "sku": "PSK-43672",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/TOUGH-WILD-ANIMAL-TEDDY-BEAR.webp"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/TOUGH-WILD-ANIMAL-TEDDY-BEAR.webp",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 58268,
   "name": "Ferplast Dual Collar Orange CF25/53",
   "slug": "ferplast-dual-collar-orange-cf25-53",
-  "sku": "FDCO",
   "onSale": false,
   "price": 2448,
   "regularPrice": 2448,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-49.png",
   "categories": [
     {
       "id": 1204,
@@ -22,52 +20,51 @@
       "slug": "ferplast"
     }
   ],
-  "brands": [
-    {
-      "id": 2438,
-      "name": "Ferplast",
-      "slug": "ferplast"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/ferplast-dual-collar-orange-cf25-53/",
-  "shortDescription": "The Ferplast Dual CF Nylon Dog Collar is a durable, stylish, and practical choice for everyday walks. Crafted from tough nylon and finished with a refined metal buckle, it combines long-lasting strength with a touch of elegance. Available in multiple sizes, including the CF25/53, it caters to a wide variety of breeds.",
   "description": "The Ferplast Dual CF Collar is perfect for dog owners who value strength, comfort, and understated elegance. Whether you opt for the vibrant orange for visibility or a more classic shade, this collar will keep your dog safe, stylish, and comfortable. Why Choose the Dual CF Collar? • Secure fit thanks to its sturdy buckle and adjustable holes. • High visibility in the orange version – great for outdoor adventures. • Stylish versatility – works for casual walks or as part of a coordinated look with matching accessories. • Durable build designed to last through active daily use.",
   "images": [
     {
-      "id": 58269,
+      "id": 58268,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-49.png",
       "alt": "Ferplast Dual Collar Orange CF25/53",
-      "name": "Untitled design (49)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Ferplast",
+      "slug": "ferplast"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/ferplast-dual-collar-orange-cf25-53/?add-to-cart=58268",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-08-11T11:34:24",
-  "dateModified": "2026-06-17T04:30:24",
+  "permalink": "https://petstore.co.ke/product/ferplast-dual-collar-orange-cf25-53/",
+  "addToCartUrl": "https://petstore.co.ke/product/ferplast-dual-collar-orange-cf25-53/?add-to-cart=58268",
+  "shortDescription": "The Ferplast Dual CF Collar is perfect for dog owners who value strength, comfort, and understated elegance. Whether you opt for the vibrant orange fo",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-49.png",
+  "sku": "PSK-58268",
   "brand": "Ferplast",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-49.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-49.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

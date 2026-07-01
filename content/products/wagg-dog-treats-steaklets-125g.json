@@ -2,14 +2,12 @@
   "id": 56842,
   "name": "Wagg Dog Treats Steaklets 125g",
   "slug": "wagg-dog-treats-steaklets-125g",
-  "sku": "WDTSTEAKLES",
   "onSale": false,
   "price": 495,
   "regularPrice": 495,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-63.png",
   "categories": [
     {
       "id": 2345,
@@ -27,46 +25,51 @@
       "slug": "dog-treats"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/wagg-dog-treats-steaklets-125g/",
-  "shortDescription": "Looking for a delicious and nutritious snack for your pet? Consider Wagg Steaklets Dog Treats, made with beef meal, cheese, and other wholesome ingredients. These bite-sized treats are enriched with essential vitamins and minerals, providing a balanced diet for your furry friend. With a moisture content of 18% and protein content of 25.7%, they make a great reward for training or outdoor activities. Keep your pet active and happy with these flavorful treats, free from added sugars and high in energy. Available in a convenient 125g pack, each piece offers 8 kcal of goodness.",
   "description": "Product Benefits Contain beef meal (26%), cheese (4%), chicken fat, glycerine, minerals, and gelatine; add new flavours to your pet’s diet Oven-baked, suitable for pets above 8 weeks of age Enriched with vitamins and minerals and don't contain any added sugar Great tool for training and engaging your pets in physical activities Available in a pack of 125 g, per piece of this treat offers 8 kcal Ingredients Wheat, Beef Meal (26%), Glycerine, Chicken Fat, Minerals, Cheese (4%), Minerals, Gelatin",
   "images": [
     {
-      "id": 56843,
+      "id": 56842,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-63.png",
       "alt": "Wagg Dog Treats Steaklets 125g",
-      "name": "Untitled design (63)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
-  "lowStockRemaining": 5,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/wagg-dog-treats-steaklets-125g/?add-to-cart=56842",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-07-14T13:08:16",
-  "dateModified": "2026-06-17T04:18:47",
-  "brand": null,
-  "weight_kg": 0.125,
+  "permalink": "https://petstore.co.ke/product/wagg-dog-treats-steaklets-125g/",
+  "addToCartUrl": "https://petstore.co.ke/product/wagg-dog-treats-steaklets-125g/?add-to-cart=56842",
+  "shortDescription": "Product Benefits Contain beef meal (26%), cheese (4%), chicken fat, glycerine, minerals, and gelatine; add new flavours to your pet’s diet Oven-baked,",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-63.png",
+  "sku": "PSK-56842",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.13,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-63.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-63.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

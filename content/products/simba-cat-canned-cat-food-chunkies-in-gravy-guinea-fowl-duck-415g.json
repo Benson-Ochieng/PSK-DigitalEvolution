@@ -2,14 +2,12 @@
   "id": 90293,
   "name": "Simba Cat Canned Cat Food Chunkies in Gravy – Guinea Fowl & Duck 415g.",
   "slug": "simba-cat-canned-cat-food-chunkies-in-gravy-guinea-fowl-duck-415g",
-  "sku": "LSWC011",
   "onSale": false,
   "price": 251,
   "regularPrice": 251,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/SimSimba-Canned-Cat-Chunkies-With-Guinea-FowlDuck-415Gba-Canned-Cat-Chunkies-With-Tuna-415G.png",
   "categories": [
     {
       "id": 2325,
@@ -32,57 +30,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2464,
-      "name": "Simba",
-      "slug": "simba"
-    }
-  ],
-  "tags": [
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/simba-cat-canned-cat-food-chunkies-in-gravy-guinea-fowl-duck-415g/",
-  "shortDescription": "Give your cat a delicious and nutritious meal with Simba Cat Chunkies in Gravy Guinea Fowl & Duck. This complete wet cat food for adult cats is made with quality ingredients, including guinea fowl and duck, providing a valuable source of protein and minerals to support your cat’s daily health and wellbeing.",
   "description": "Featuring tender chunks in a rich gravy, this appetising recipe is oven-baked to enhance its natural flavour and aroma, helping to stimulate your cat’s appetite. Enriched with Vitamins A, D3, and E, it delivers balanced nutrition to support healthy vision, strong bones, immune function, and overall vitality. Made without added colours or preservatives, Simba Cat Chunkies in Gravy Guinea Fowl & Duck is a wholesome and tasty choice for everyday feeding. Key Benefits Complete and balanced wet food for adult cats Made with guinea fowl and duck for a rich, meaty flavour Source of high-quality protein and essential minerals Tender chunks in gravy for enhanced palatability Enriched with Vitamins A, D3, and E Supports overall health, vitality, and wellbeing Oven-baked to enhance natural taste No added colours or preservatives Ingredients Meat and animal derivatives (guinea fowl 5%, duck 5%), cereals, minerals. Analytical Constituents Crude Protein: 8.0% Crude Fat: 5.0% Crude Fibre: 0.8% Crude Ash: 2.5% Moisture: 80% Nutritional Additives (per kg) Vitamin A (Retinyl Acetate): 2000 IU Vitamin D3: 160 IU Vitamin E: 5 mg Feeding Guide Recommended daily feeding amounts: 4kg adult cat: 200g per day 5kg adult cat: 220g per day 6kg adult cat: 250g per day Serve at room temperature and divide into two meals where possible. Always provide fresh, clean drinking water. Storage Store in a cool, dry place. Once opened, refrigerate and consume within 2 days. Size: 415g &nbsp;",
   "images": [
     {
-      "id": 90295,
+      "id": 90293,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/06/SimSimba-Canned-Cat-Chunkies-With-Guinea-FowlDuck-415Gba-Canned-Cat-Chunkies-With-Tuna-415G.png",
       "alt": "Simba Cat Canned Cat Food Chunkies in Gravy – Guinea Fowl & Duck 415g.",
-      "name": "SimSimba Canned Cat Chunkies With Guinea Fowl&#038;Duck 415Gba Canned Cat Chunkies With Tuna 415G"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Simba",
+      "slug": "simba"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/simba-cat-canned-cat-food-chunkies-in-gravy-guinea-fowl-duck-415g/?add-to-cart=90293",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-08T12:38:26",
-  "dateModified": "2026-06-17T05:01:39",
+  "permalink": "https://petstore.co.ke/product/simba-cat-canned-cat-food-chunkies-in-gravy-guinea-fowl-duck-415g/",
+  "addToCartUrl": "https://petstore.co.ke/product/simba-cat-canned-cat-food-chunkies-in-gravy-guinea-fowl-duck-415g/?add-to-cart=90293",
+  "shortDescription": "Featuring tender chunks in a rich gravy, this appetising recipe is oven-baked to enhance its natural flavour and aroma, helping to stimulate your cat’",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/SimSimba-Canned-Cat-Chunkies-With-Guinea-FowlDuck-415Gba-Canned-Cat-Chunkies-With-Tuna-415G.png",
+  "sku": "PSK-90293",
   "brand": "Simba",
-  "weight_kg": 0.415,
+  "weight_kg": 0.42,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/SimSimba-Canned-Cat-Chunkies-With-Guinea-FowlDuck-415Gba-Canned-Cat-Chunkies-With-Tuna-415G.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/SimSimba-Canned-Cat-Chunkies-With-Guinea-FowlDuck-415Gba-Canned-Cat-Chunkies-With-Tuna-415G.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

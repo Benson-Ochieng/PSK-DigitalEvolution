@@ -2,14 +2,12 @@
   "id": 56840,
   "name": "Wagg Dog Treats BBQ Bangers 125g",
   "slug": "wagg-dog-treats-bbq-bangers-125g",
-  "sku": "WDTBBQB",
   "onSale": false,
   "price": 495,
   "regularPrice": 495,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-62.png",
   "categories": [
     {
       "id": 2345,
@@ -32,51 +30,51 @@
       "slug": "puppy-food"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2106,
-      "name": "Puppy food",
-      "slug": "puppy-food"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=56840",
-  "shortDescription": "Treat your pet to the delicious Wagg BBQ Bangers, oven-baked to preserve their natural flavors and aromas. Packed with 28% pork, wheat, chicken fat, and essential minerals and vitamins, these treats are perfect for rewarding good behavior or engaging your pet in training exercises. Suitable for puppies over 8 weeks old, these treats are free from artificial additives and come in a convenient 125g pack. Store them in an airtight container and use them as recommended by your vet for a tasty and nutritious snack option.",
   "description": "Product Benefits Contain 28% pork including pork meal and gelatine, wheat, chicken fat, glycerine, minerals, and whey powder Rich in vitamins (A, D3, and E), minerals (zinc, manganese, copper, iodine), and antioxidants and is a nutritious snack for your pet Oven-baked treats rich in smoky meaty aroma No artificial color, additives, and flavors Suitable for puppies above 8 weeks of age; can be used for training your dogs Ingredients Wheat, Pork (28%), Pork Meal (26%), Gelatin (2%), Glycerin, Chicken Fat, Minerals, Whey powder Additives Vitamin A, Vitamin D3, Vitamin E, Copper (as Cupric sulphate pentahydrate), Manganese (as Manganese sulphate monohydrate), Zinc (as Zinc sulphate monohydrate), Iodine (as Calcium iodate anhydrous), Selenium (as Sodium selenite) Analytical Constituents Protein (26.9%), Crude Fibers (0.94%), Crude Oils and Fats (7.7%), Crude Ash (6.8%), Moisture (18%) Analytical Constituents Vitamin A, Vitamin D3, Vitamin E, Copper (as Cupric sulphate pentahydrate), Manganese (as Manganese sulphate monohydrate), Zinc (as Zinc sulphate monohydrate).",
   "images": [
     {
-      "id": 56841,
+      "id": 56840,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-62.png",
       "alt": "Wagg Dog Treats BBQ Bangers 125g",
-      "name": "Untitled design (62)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
-  "lowStockRemaining": 5,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/wagg-dog-treats-bbq-bangers-125g/?add-to-cart=56840",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "hidden",
-  "dateCreated": "2025-07-14T13:00:41",
-  "dateModified": "2026-05-06T17:11:45",
-  "brand": null,
-  "weight_kg": 0.125,
+  "catalogVisibility": "visible",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=56840",
+  "addToCartUrl": "https://petstore.co.ke/product/wagg-dog-treats-bbq-bangers-125g/?add-to-cart=56840",
+  "shortDescription": "Product Benefits Contain 28% pork including pork meal and gelatine, wheat, chicken fat, glycerine, minerals, and whey powder Rich in vitamins (A, D3, ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-62.png",
+  "sku": "PSK-56840",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.13,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-62.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-62.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

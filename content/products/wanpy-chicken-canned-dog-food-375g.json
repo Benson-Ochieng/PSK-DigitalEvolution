@@ -2,14 +2,12 @@
   "id": 68492,
   "name": "Wanpy Canned Dog Food - Chicken Chunk 375g",
   "slug": "wanpy-chicken-canned-dog-food-375g",
-  "sku": "WDW001",
-  "onSale": true,
+  "onSale": false,
   "price": 200,
-  "regularPrice": 250,
-  "salePrice": 200,
+  "regularPrice": 200,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/Wanpy-chicken-CHUNK-375-gr-.png",
   "categories": [
     {
       "id": 2345,
@@ -32,67 +30,51 @@
       "slug": "wet-dog-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2479,
-      "name": "Wanpy",
-      "slug": "wanpy"
-    }
-  ],
-  "tags": [
-    {
-      "id": 622,
-      "name": "canned food",
-      "slug": "canned-food"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 939,
-      "name": "On Sale Now",
-      "slug": "sale"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/wanpy-chicken-canned-dog-food-375g/",
-  "shortDescription": "WANPY Chicken Canned Dog Food 375g: Premium wet food with real chicken, vitamins, and minerals for all breeds. Supports muscle health, shiny coat, and digestion. No preservatives ready to serve. &nbsp;",
   "description": "Indulge your furry friend with WANPY Chicken Canned Dog Food 375g – a premium wet food crafted from real chicken and enriched with essential vitamins and minerals. This ready-to-serve canned delight is perfect for dogs of all breeds and life stages, from energetic puppies over 3 months old to active adults and senior companions. Made using high-temperature sterilization, it locks in nutrition, freshness, and safety without any preservatives. The soft, juicy texture ensures easy chewing and digestion, making every meal a tail-wagging experience. Key Ingredients Main Ingredients: Real chicken and chicken derivatives for high-quality protein. Vegetables: Carrots, green soybeans, and potatoes for added fiber and natural goodness. Thickeners & Stabilizers: Starch, carrageenan, and salt. Vitamins & Minerals: Vitamins A, B2, B3, B5, D3, E; calcium carbonate; sodium nitrate (for shelf stability). This balanced formula supports holistic health, free from artificial additives. Nutritional Analysis (Per Can) Nutrient Percentage Crude Protein 5.5% Crude Fat 1.5% Crude Fibre 1.0% Crude Ash 2.5% Moisture 85% Enriched with vitamins and minerals to promote strong muscles, healthy growth, a shiny coat, boosted immunity, and optimal digestive health. Feeding Guidelines Serve as a standalone complete meal or mix with dry kibble to add flavor and moisture. Suitable for dogs over 3 months of age. Adjust portions based on your dog's size, age, and activity level: Small Dogs (up to 10kg): 1/2 to 1 can per day. Medium Dogs (10-25kg): 1 to 2 cans per day. Large Dogs (over 25kg): 2+ cans per day. Benefits Balanced Nutrition: Ideal for all breeds and ages, ensuring comprehensive daily nourishment. Muscle & Coat Health: High-quality chicken protein builds strong muscles and promotes a glossy coat. Easy Digestion: Soft, juicy texture that's gentle on sensitive stomachs. No Preservatives: A natural, safer option for long-term feeding. Versatile & Tasty: Enhances any meal with its irresistible flavor. Always provide fresh water. After opening, refrigerate unused portions and consume within 48 hours for best freshness. &nbsp; &nbsp;",
   "images": [
     {
-      "id": 68486,
+      "id": 68492,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/01/Wanpy-chicken-CHUNK-375-gr-.png",
-      "alt": "Wanpy Canned Dog Food – Chicken Chunk 375g",
-      "name": "Wanpy chicken CHUNK 375 gr"
+      "alt": "Wanpy Canned Dog Food - Chicken Chunk 375g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Wanpy",
+      "slug": "wanpy"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/wanpy-chicken-canned-dog-food-375g/?add-to-cart=68492",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-01-23T18:06:48",
-  "dateModified": "2026-06-24T11:12:13",
+  "permalink": "https://petstore.co.ke/product/wanpy-chicken-canned-dog-food-375g/",
+  "addToCartUrl": "https://petstore.co.ke/product/wanpy-chicken-canned-dog-food-375g/?add-to-cart=68492",
+  "shortDescription": "Indulge your furry friend with WANPY Chicken Canned Dog Food 375g – a premium wet food crafted from real chicken and enriched with essential vitamins ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/Wanpy-chicken-CHUNK-375-gr-.png",
+  "sku": "PSK-68492",
   "brand": "Wanpy",
-  "weight_kg": 0.405,
+  "weight_kg": 0.41,
   "animal_type": "dog",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/Wanpy-chicken-CHUNK-375-gr-.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/Wanpy-chicken-CHUNK-375-gr-.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

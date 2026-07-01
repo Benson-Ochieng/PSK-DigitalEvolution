@@ -2,14 +2,12 @@
   "id": 66637,
   "name": "Churu Fun Bites Dog Treats - Chicken Recipe Wraps (Chicken Recipe)",
   "slug": "churu-fun-bites-dog-treats-chicken",
-  "sku": "BCDT028",
   "onSale": false,
   "price": 930,
   "regularPrice": 930,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/Churu-fun-bites-chicken-with-chicken-recipe.png",
   "categories": [
     {
       "id": 2386,
@@ -32,52 +30,51 @@
       "slug": "dog-treats"
     }
   ],
-  "brands": [
-    {
-      "id": 2433,
-      "name": "Churu",
-      "slug": "churu"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/churu-fun-bites-dog-treats-chicken/",
-  "shortDescription": "Soft dual-texture dog treats with chicken. Grain-free, high-moisture, low-calorie, perfect for training, rewards, or picky dogs.",
   "description": "Churu fun Bites Dog Treats – Chicken Recipe Wrapped with Chicken Recipe are soft, pillow-shaped treats designed to delight even the most selective dogs. Each bite combines a soft baked chicken paste exterior with a creamy Churu-style chicken filling , delivering two irresistible textures in every mouthful. Made with high-quality, wholesome ingredients , including farm-raised chicken and natural tuna, these treats are grain-free and contain no preservatives, carrageenan, or artificial colors . With 72% moisture content , they help support hydration and are gentle on your dog’s digestive system. Perfect for training, rewarding, or pill administration , Churu Bites are suitable for puppies, adult dogs, and senior dogs alike. Each individually portioned tube ensures convenience, keeps treats fresh, and prevents messes. At approximately 16 kcal per pack , they are a low-calorie treat you can feel good about giving daily. Enriched with Vitamin E for immune support and Green Tea Extract for antioxidant benefits, these soft, savory treats provide both taste and nutrition in every bite. Key Benefits Dual texture treat: soft chicken exterior with creamy chicken center Made with wholesome, high-quality ingredients Grain-free, free from preservatives, carrageenan, and artificial colors 72% moisture supports hydration Low-calorie treat (~16 kcal per pack) Vitamin E supports immune health Green Tea Extract provides antioxidant benefits Ideal for training, rewards, or hiding medication Feeding Instructions Feed as a treat only. This product is not intended to replace a meal. Always provide clean, fresh water. Consult your veterinarian regularly. Storage Instructions Refrigerate after opening and serve as soon as possible. Ingredients Chicken, Water, Tuna, Tapioca Starch, Egg White, Sodium Caseinate, Guar Gum, Natural Chicken Flavor, Yeast Extract, Vitamin E Supplement, Paprika Oleoresin (Color), Green Tea Extract. Guaranteed Analysis Crude Protein (min): 22.00% Crude Fat (min): 3.00% Crude Fiber (max): 0.50% Moisture (max): 72.00% Vitamin E (min): 80 IU/kg Calorie Content 1300 kcal/kg 15.6 kcal per pack (ME) Net Weight 3.36 oz (0.42 oz × 8 tubes) &nbsp;",
   "images": [
     {
-      "id": 67648,
+      "id": 66637,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/01/Churu-fun-bites-chicken-with-chicken-recipe.png",
       "alt": "Churu Fun Bites Dog Treats - Chicken Recipe Wraps (Chicken Recipe)",
-      "name": "Churu fun bites chicken with chicken recipe"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Churu",
+      "slug": "churu"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/churu-fun-bites-dog-treats-chicken/?add-to-cart=66637",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-01-17T12:12:25",
-  "dateModified": "2026-06-17T04:29:04",
+  "permalink": "https://petstore.co.ke/product/churu-fun-bites-dog-treats-chicken/",
+  "addToCartUrl": "https://petstore.co.ke/product/churu-fun-bites-dog-treats-chicken/?add-to-cart=66637",
+  "shortDescription": "Churu fun Bites Dog Treats – Chicken Recipe Wrapped with Chicken Recipe are soft, pillow-shaped treats designed to delight even the most selective dog",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/Churu-fun-bites-chicken-with-chicken-recipe.png",
+  "sku": "PSK-66637",
   "brand": "Churu",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/Churu-fun-bites-chicken-with-chicken-recipe.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/Churu-fun-bites-chicken-with-chicken-recipe.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 89670,
   "name": "Ferplast Clipper Plus6 Dog Carrier",
   "slug": "ferplast-clipper-plus6",
-  "sku": "FPCP6",
   "onSale": false,
   "price": 45309,
   "regularPrice": 45309,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/CLIPPER-PLUS-4-7.png",
   "categories": [
     {
       "id": 2368,
@@ -32,41 +30,51 @@
       "slug": "dog-kennels-houses-crates"
     }
   ],
-  "brands": [
-    {
-      "id": 2438,
-      "name": "Ferplast",
-      "slug": "ferplast"
-    }
-  ],
-  "tags": [],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/ferplast-clipper-plus6/",
-  "shortDescription": "Travel with confidence using the Clipper Plus 6 Dog Carrier , a premium heavy-duty pet carrier designed for large and extra-large dogs. Built for comfort, safety, and convenience, this spacious travel crate is ideal for transport by car, train, ship, or airplane when used with the optional IATA-approved net kit.",
   "description": "Manufactured from durable eco-sustainable recycled plastic and iron , the Clipper Plus combines strength with practicality, making it a reliable solution for everyday travel, vet visits, relocations, and long-distance journeys. The sturdy plastic-coated iron door features a secure 2-point locking system and reinforced mesh design for maximum safety during transport. Large side ventilation slots provide excellent airflow, helping your dog stay calm and comfortable throughout the trip. Designed with convenience in mind, the carrier includes a pull-out extendable handle for easier movement and double storage compartments for storing treats, travel documents, leashes, or other pet essentials. The carrier can also be quickly assembled or disassembled for easy cleaning and storage. Whether you’re traveling locally or internationally, the Clipper Plus 6 offers the perfect combination of durability, ventilation, security, and comfort for larger breeds. 93 x 65 x h 68 cm Key Features Heavy-duty dog carrier for large and extra-large dogs Ideal for travel by car, train, ship, or airplane Compatible with IATA travel requirements when used with optional net kit Durable plastic-coated iron door with secure 2-point locking system Reinforced 25 x 25 mm door mesh for extra safety Large ventilation openings for maximum airflow Pull-out and extendable handle for easier transportation Double accessory compartments for travel essentials Side snap hooks for secure closure Easy to assemble, disassemble, and clean Includes fixing screws and safety door clamps Eco-friendly construction using recycled plastic and iron Important Notice Please contact your airline or transport company before travel to confirm their latest pet carrier boarding requirements and regulations. Why Choose Clipper Plus 6? The Clipper Plus 6 is designed for pet owners who need a safe, spacious, and travel-ready carrier for larger dogs. With its durable construction, secure locking system, excellent ventilation, and practical travel features, it provides peace of mind for both pets and owners during every journey. &nbsp;",
   "images": [
     {
-      "id": 89669,
+      "id": 89670,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/05/CLIPPER-PLUS-4-7.png",
       "alt": "Ferplast Clipper Plus6 Dog Carrier",
-      "name": "CLIPPER PLUS 4-7"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Ferplast",
+      "slug": "ferplast"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/ferplast-clipper-plus6/?add-to-cart=89670",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-05-15T14:33:32",
-  "dateModified": "2026-06-17T04:30:38",
+  "permalink": "https://petstore.co.ke/product/ferplast-clipper-plus6/",
+  "addToCartUrl": "https://petstore.co.ke/product/ferplast-clipper-plus6/?add-to-cart=89670",
+  "shortDescription": "Manufactured from durable eco-sustainable recycled plastic and iron , the Clipper Plus combines strength with practicality, making it a reliable solut",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/CLIPPER-PLUS-4-7.png",
+  "sku": "PSK-89670",
   "brand": "Ferplast",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/CLIPPER-PLUS-4-7.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/CLIPPER-PLUS-4-7.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

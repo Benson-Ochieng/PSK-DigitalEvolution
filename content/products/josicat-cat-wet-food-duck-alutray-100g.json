@@ -2,14 +2,12 @@
   "id": 89863,
   "name": "JosiCat Cat Wet Food – Duck Alutray 100g",
   "slug": "josicat-cat-wet-food-duck-alutray-100g",
-  "sku": "JCW002",
   "onSale": false,
   "price": 198,
   "regularPrice": 198,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/JOSICAT-DUCK-ALUTRAY-100GR.png",
   "categories": [
     {
       "id": 2325,
@@ -32,57 +30,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/josicat-cat-wet-food-duck-alutray-100g/",
-  "shortDescription": "Treat your cat to a rich and juicy mealtime experience with JosiCat JosiCat Pâté with Duck 100g. Specially formulated for adult cats, this delicious wet cat food features a smooth pâté texture and savoury duck flavour that cats love while providing balanced daily nutrition and added moisture for healthy hydration.",
   "description": "Made with high-quality ingredients and a no-nonsense recipe, this complete wet food is enriched with essential vitamins and nutrients to support your cat’s wellbeing. Vitamin E helps support natural cell protection, while vitamin D3 contributes to strong bones and overall vitality. Added biotin, zinc, and copper help maintain healthy skin and a shiny coat, while prebiotic inulin supports healthy digestion and balanced gut flora. The convenient 100g alutray portion is ideal for fresh, easy feeding at home or on the go. Whether served alone or combined with dry food, JosiCat Duck Pâté offers a tasty and nutritious meal your feline companion will enjoy every day. Key Benefits Complete wet food for adult cats Delicious duck flavour in a smooth pâté texture Supports healthy digestion with prebiotic inulin Enriched with vitamins E and D3 for overall wellbeing Helps maintain healthy skin and a glossy coat Provides additional moisture to support hydration Convenient 100g single-serve alutray Composition Meat and animal derivatives (duck 4.0%), minerals, derivatives of vegetable origin (inulin 0.40%). Analytical Constituents Protein: 11.0% Fat Content: 4.5% Crude Fibre: 0.3% Crude Ash: 2.0% Feeding Guide Cat Weight Daily Feeding Amount 3 kg Approx. 230 g 4 kg Approx. 280 g 5 kg Approx. 330 g 6 kg Approx. 370 g Feed amounts may vary depending on your cat’s activity level and additional food intake. Always provide fresh drinking water. After opening, refrigerate at 2–6°C and serve at room temperature within 24 hours. &nbsp;",
   "images": [
     {
-      "id": 89864,
+      "id": 89863,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/05/JOSICAT-DUCK-ALUTRAY-100GR.png",
       "alt": "JosiCat Cat Wet Food – Duck Alutray 100g",
-      "name": "JOSICAT DUCK ALUTRAY 100GR"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/josicat-cat-wet-food-duck-alutray-100g/?add-to-cart=89863",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-05-21T16:13:02",
-  "dateModified": "2026-06-17T05:01:33",
+  "permalink": "https://petstore.co.ke/product/josicat-cat-wet-food-duck-alutray-100g/",
+  "addToCartUrl": "https://petstore.co.ke/product/josicat-cat-wet-food-duck-alutray-100g/?add-to-cart=89863",
+  "shortDescription": "Made with high-quality ingredients and a no-nonsense recipe, this complete wet food is enriched with essential vitamins and nutrients to support your ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/JOSICAT-DUCK-ALUTRAY-100GR.png",
+  "sku": "PSK-89863",
   "brand": "Josera",
   "weight_kg": 0.1,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/JOSICAT-DUCK-ALUTRAY-100GR.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/JOSICAT-DUCK-ALUTRAY-100GR.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

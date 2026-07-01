@@ -2,14 +2,12 @@
   "id": 40710,
   "name": "Lowgain Small Breed Adult Dog Kibble, Duck & Pumpkin 2.5kg",
   "slug": "spectrum-low-grain-mini-small-breed-adult-dog-food-duck-pumpkin-formula-2-5kg-2",
-  "sku": "SLGDD007",
   "onSale": false,
   "price": 4400,
   "regularPrice": 4400,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/11/SPECTRUM-LOW-GRAIN-MINI-SMALL-BREED-ADULT-DOG-FOOD-DUCK-PUMPKIN-FORMULA-2.5kg.png",
   "categories": [
     {
       "id": 2345,
@@ -32,62 +30,51 @@
       "slug": "spectrum"
     }
   ],
-  "brands": [
-    {
-      "id": 2468,
-      "name": "Spectrum",
-      "slug": "spectrum"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 637,
-      "name": "kibble",
-      "slug": "kibble"
-    },
-    {
-      "id": 2108,
-      "name": "Mini breeds",
-      "slug": "mini-breeds"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/spectrum-low-grain-mini-small-breed-adult-dog-food-duck-pumpkin-formula-2-5kg-2/",
-  "shortDescription": "SPECTRUM LOW GRAIN Duck, Pumpkin formula is a Complete and balanced food for Mini and Small Breed Adult Dogs.",
   "description": "SPECTRUM LOW GRAIN MINI SMALL BREED ADULT DOG FOOD DUCK & PUMPKIN FORMULA Ingredients: Processed animal protein (min. & duck), grains (rice, corn, oats), chicken fat, whey powder, sugar cane fiber, hydrolyzed chicken protein, carob flour, pea starch, brewer's yeast, salt, psyllium, dried pumpkin, blueberries, chia seeds, cranberries, L-carnitine, xylooligosaccharide (XOS), yucca schidigera, dried egg, turmeric, artichoke, olives, red onion, blackberries, tomatoes, watermelon, pomegranate, thyme, rosemary, ginger extracts , natural preservatives and antioxidants (E320 & E321). Minerals: Iron (3B103)150 mg/kg, Iodine (3B202)1.5 mg/kg, Copper (3B405)15 mg/kg, Manganese (3B502)70 mg/kg, Zinc (3B603)180 mg/kg, Selenium (3B802)0.3 mg/kg. NUTRITIONAL VALUES NUTRITIONAL SUPPLEMENTS/kg Crude Protein 30% Vitamin A (3A672A) 18000 IU/kg Raw oil 18% Vitamin D3(3A671) 1500 IU/kg Ash 7% Vitamin E (3A700) 150mg/kg Crude Cellulose (Fibre) 3% Vitamin C (3A300) 200 mgkg Nutritional recommendations and Warning See the table for the recommended daily feeding amounts (grams/day) according to your dog's weight (kg) and silhouette (A-Thin, B-Normal, C-Overweight). • The amount of food to be given daily may vary depending on the outdoor temperature, your dog's living conditions (inside/outside the home), temperament and activity. • It is important to weigh the amount of food and give it to your dog so that it can reach its ideal weight. • Evaluating your dog's appetite, appearance and stool will help in adjusting the amount of food to be given correctly. • The transition from one food to another should be done gradually by mixing small amounts of both foods and giving them for a week. • Always keep clean and fresh water next to the food bowl. Change the water at least once a day, even if it looks clean. • Store the product in a dry and cool place and ensure that the packaging is tightly closed after each use. • You can see the recommended consumption date, batch code and factory approval number on the package. &nbsp;",
   "images": [
     {
-      "id": 50269,
+      "id": 40710,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/11/SPECTRUM-LOW-GRAIN-MINI-SMALL-BREED-ADULT-DOG-FOOD-DUCK-PUMPKIN-FORMULA-2.5kg.png",
       "alt": "Lowgain Small Breed Adult Dog Kibble, Duck & Pumpkin 2.5kg",
-      "name": "SPECTRUM LOW GRAIN MINI SMALL BREED ADULT DOG FOOD DUCK &amp; PUMPKIN FORMULA 2.5kg"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Spectrum",
+      "slug": "spectrum"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/spectrum-low-grain-mini-small-breed-adult-dog-food-duck-pumpkin-formula-2-5kg-2/?add-to-cart=40710",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2023-11-04T10:45:37",
-  "dateModified": "2026-06-17T05:01:26",
+  "permalink": "https://petstore.co.ke/product/spectrum-low-grain-mini-small-breed-adult-dog-food-duck-pumpkin-formula-2-5kg-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/spectrum-low-grain-mini-small-breed-adult-dog-food-duck-pumpkin-formula-2-5kg-2/?add-to-cart=40710",
+  "shortDescription": "SPECTRUM LOW GRAIN MINI SMALL BREED ADULT DOG FOOD DUCK & PUMPKIN FORMULA Ingredients: Processed animal protein (min. & duck), grains (rice, corn, oat",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/11/SPECTRUM-LOW-GRAIN-MINI-SMALL-BREED-ADULT-DOG-FOOD-DUCK-PUMPKIN-FORMULA-2.5kg.png",
+  "sku": "PSK-40710",
   "brand": "Spectrum",
   "weight_kg": 2.5,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/11/SPECTRUM-LOW-GRAIN-MINI-SMALL-BREED-ADULT-DOG-FOOD-DUCK-PUMPKIN-FORMULA-2.5kg.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/11/SPECTRUM-LOW-GRAIN-MINI-SMALL-BREED-ADULT-DOG-FOOD-DUCK-PUMPKIN-FORMULA-2.5kg.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

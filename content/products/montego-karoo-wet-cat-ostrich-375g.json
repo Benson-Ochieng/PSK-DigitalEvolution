@@ -2,14 +2,12 @@
   "id": 62662,
   "name": "Montego Karoo Wet Cat Ostrich - 375g",
   "slug": "montego-karoo-wet-cat-ostrich-375g",
-  "sku": "MKWCATO375@F",
-  "onSale": true,
+  "onSale": false,
   "price": 1064,
-  "regularPrice": 1520,
-  "salePrice": 1064,
+  "regularPrice": 1064,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-32.png",
   "categories": [
     {
       "id": 2298,
@@ -17,47 +15,51 @@
       "slug": "montego"
     }
   ],
-  "brands": [
-    {
-      "id": 2453,
-      "name": "Montego",
-      "slug": "montego"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=62662",
-  "shortDescription": "Montego&nbsp;Karoo&nbsp;Wet&nbsp;Cat&nbsp;Food&nbsp;in&nbsp;Ostrich&nbsp;flavor&nbsp;is&nbsp;a&nbsp;super-premium,&nbsp;limited&nbsp;ingredient&nbsp;diet&nbsp;designed&nbsp;for&nbsp;adult&nbsp;cats&nbsp;of&nbsp;all&nbsp;breeds,&nbsp;combining&nbsp;high quality&nbsp;proteins,&nbsp;essential&nbsp;nutrients,&nbsp;and&nbsp;moisture&nbsp;for&nbsp;overall&nbsp;health.",
   "description": "At the peak of physical development, adult cats require nutrition that enhances their physique and feeds their minds, while keeping them healthy and active. Scientifically formulated and nutrient rich, Montego Karoo Adult’s super-premium, limited ingredient recipe provides adult cats of all breeds and sizes with an optimally balanced diet. Features and Benefits: Limited ingredient Diet: with vitamins & minerals for a delicious meal and healthy digestion. Strength-Building Protein: lamb adds delicious flavor and texture while providing essential amino acids, crucial to the development and maintenance of strong, healthy muscles. Urinary Tract Health: provides a source of moisture that helps promote a healthy urinary tract. Feeding Guide: Weight of Cat Tubs Per Day Grams Per Day Kibble + Tub Mix Per Day 2 - 3 kg 1 - 1 ½ 125 – 187,5 g 17 - 25 g dry + ½ - ¾ Tub 4 - 5 kg 2 - 2 ½ 250 – 312.5 g 27 - 35 g dry + 1 - 1 ¼ Tubs 6 - 8 kg 3 - 4 375 – 500 g 40 - 50 g dry + 1 ½ - 2 Tubs Ingredients: Water, ostrich, lamb, chicken, palm oil, whole egg powder, beet pulp, sodium tripolyphosphate, calcium carbonate, guar gum, xanthan gum, essential minerals & vitamins, taurine. Nutritional: Vitamin A 1 500 IU, Vitamin D3 150 IU, Vitamin E 12 IU, potassium chloride 1 g, zinc sulphate 15 mg, ferrous sulphate 7.5 mg, copper sulphate 0.75 mg, manganese sulphate 0.75 mg, potassium iodide 0.075 mg, sodium selenite 0,0075 mg; Preservatives: Approved antioxidants; Sensory: Gravy sauce and dextrose. Guaranteed Analysis: Crude protein: 7% | Moisture: 82% | Total fat: 5% | Crude fibre: 1% | Crude ash: 2% | Calcium: 0.25% | Phosphorus: 0.15% | Taurine: 600 mg/kg | Metabolisable energy: 74 kcal/100g",
   "images": [
     {
-      "id": 56687,
+      "id": 62662,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-32.png",
-      "alt": "Montego Karoo Wet Cat Ostrich – 375g",
-      "name": "Untitled design (32)"
+      "alt": "Montego Karoo Wet Cat Ostrich - 375g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Montego",
+      "slug": "montego"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/montego-karoo-wet-cat-ostrich-375g/?add-to-cart=62662",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-11-21T14:05:08",
-  "dateModified": "2026-06-17T04:34:29",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=62662",
+  "addToCartUrl": "https://petstore.co.ke/product/montego-karoo-wet-cat-ostrich-375g/?add-to-cart=62662",
+  "shortDescription": "At the peak of physical development, adult cats require nutrition that enhances their physique and feeds their minds, while keeping them healthy and a",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-32.png",
+  "sku": "PSK-62662",
   "brand": "Montego",
   "weight_kg": 0.1,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-32.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-32.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

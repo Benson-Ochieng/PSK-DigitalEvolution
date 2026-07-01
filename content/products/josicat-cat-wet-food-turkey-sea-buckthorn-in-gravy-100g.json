@@ -2,14 +2,12 @@
   "id": 90354,
   "name": "JosiCat Cat Wet Food – Turkey & Sea Buckthorn in Gravy 100g",
   "slug": "josicat-cat-wet-food-turkey-sea-buckthorn-in-gravy-100g",
-  "sku": "JCW006",
-  "onSale": true,
+  "onSale": false,
   "price": 167,
-  "regularPrice": 209,
-  "salePrice": 167,
+  "regularPrice": 167,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/JosiCat-Turkey-Buckthorn-in-Sauce-pouch-85g.png",
   "categories": [
     {
       "id": 2325,
@@ -32,62 +30,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 939,
-      "name": "On Sale Now",
-      "slug": "sale"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/josicat-cat-wet-food-turkey-sea-buckthorn-in-gravy-100g/",
-  "shortDescription": "JosiCat Cat Wet Food – Turkey & Sea Buckthorn in Gravy 100g is a complete and balanced meal for adult cats, combining tender turkey-rich chunks with nutrient-rich sea buckthorn in a delicious gravy. Carefully crafted to satisfy your cat's natural nutritional needs, this premium wet food contains 88% meat and animal-derived ingredients in the pieces, providing high-quality protein to support lean muscle maintenance and overall wellbeing.",
   "description": "Enriched with sea buckthorn, a natural source of antioxidants, this recipe helps support the body's defence against free radicals and everyday environmental stress. Added prebiotic inulin promotes healthy digestion by supporting beneficial intestinal flora, while Vitamin E contributes to cell protection and Vitamin D3 helps maintain strong bones and teeth. Free from sugar, grains, soy, dairy products, artificial colours, and preservatives, this wholesome recipe focuses on quality nutrition and exceptional taste, making it an ideal choice for everyday feeding. Key Benefits Complete wet food for adult cats Made with turkey and sea buckthorn in a delicious gravy Contains 88% meat and animal-derived ingredients in the pieces Rich in high-quality protein to support muscle maintenance Sea buckthorn provides natural antioxidants Prebiotic inulin supports healthy digestion and gut flora Vitamin E helps protect cells from oxidative stress Vitamin D3 supports strong bones and teeth Grain-free, sugar-free, soy-free, and dairy-free No artificial colours or preservatives Suitable for daily feeding Ingredients Meat and animal derivatives (88% in pieces, including turkey), sea buckthorn, minerals, derivatives of vegetable origin (inulin), and selected herbs. Analytical Constituents Crude Protein: 10.0% Fat Content: 3.5% Crude Fibre: 0.4% Crude Ash: 2.5% Moisture: 81.0% Feeding Guide 2–3kg body weight: 150–260g daily 3–4kg body weight: 195–315g daily 4–5kg body weight: 235–365g daily 5–7kg body weight: 275–460g daily Always provide fresh drinking water. Adjust feeding amounts according to your cat’s age, activity level, and body condition. If treats or snacks are given, reduce the daily food portion accordingly. Storage Instructions Store in a cool, dry place. Once opened, refrigerate and use within 24 hours. Serve at room temperature for maximum palatability. &nbsp;",
   "images": [
     {
-      "id": 90356,
+      "id": 90354,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/06/JosiCat-Turkey-Buckthorn-in-Sauce-pouch-85g.png",
       "alt": "JosiCat Cat Wet Food – Turkey & Sea Buckthorn in Gravy 100g",
-      "name": "JosiCat Turkey &#038; Buckthorn in Sauce pouch 85g"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/josicat-cat-wet-food-turkey-sea-buckthorn-in-gravy-100g/?add-to-cart=90354",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-04T12:23:15",
-  "dateModified": "2026-06-24T12:12:02",
+  "permalink": "https://petstore.co.ke/product/josicat-cat-wet-food-turkey-sea-buckthorn-in-gravy-100g/",
+  "addToCartUrl": "https://petstore.co.ke/product/josicat-cat-wet-food-turkey-sea-buckthorn-in-gravy-100g/?add-to-cart=90354",
+  "shortDescription": "Enriched with sea buckthorn, a natural source of antioxidants, this recipe helps support the body's defence against free radicals and everyday environ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/JosiCat-Turkey-Buckthorn-in-Sauce-pouch-85g.png",
+  "sku": "PSK-90354",
   "brand": "Josera",
   "weight_kg": 0.1,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/JosiCat-Turkey-Buckthorn-in-Sauce-pouch-85g.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/JosiCat-Turkey-Buckthorn-in-Sauce-pouch-85g.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

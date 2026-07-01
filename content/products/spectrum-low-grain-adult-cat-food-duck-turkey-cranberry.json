@@ -2,14 +2,12 @@
   "id": 40705,
   "name": "Spectrum Lowgain Adult Cat Food Duck, Turkey & Cranberry Formula 2kg",
   "slug": "spectrum-low-grain-adult-cat-food-duck-turkey-cranberry",
-  "sku": "SLGCD008",
   "onSale": false,
   "price": 3995,
   "regularPrice": 3995,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/11/Untitled-design-94.png",
   "categories": [
     {
       "id": 2325,
@@ -32,57 +30,51 @@
       "slug": "spectrum"
     }
   ],
-  "brands": [
-    {
-      "id": 2468,
-      "name": "Spectrum",
-      "slug": "spectrum"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 637,
-      "name": "kibble",
-      "slug": "kibble"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/spectrum-low-grain-adult-cat-food-duck-turkey-cranberry/",
-  "shortDescription": "SPECTRUM LOW GRAIN Turkey, Duck and Cranberry formula is a Complete and balanced food for all cats from age of 1 year.",
   "description": "SPECTRUM LOW GRAIN COMPLETE AND BALANCED ADULT CAT FOOD WITH TURKEY, DUCK & CRANBERRY Ingredients: Processed turkey and duck protein (min. @), grains (rice, corn, oats), chicken fat, whey powder, sugar cane fiber, hydrolyzed chicken protein, krill, carob flour, pea starch, dried egg, beer yeast, salt, blueberry, chia seed, psyllium, flaxseed, cranberry, yucca schidigera, fructooligosaccharide (FOS), turmeric, artichoke, olive, red onion, blackberry, tomato, watermelon, pomegranate, thyme, rosemary, ginger extracts, natural preservatives and antioxidants (E320 & E321). Minerals: Iron (3B103) 200 mg, Iodine (3B202) 1.5 mg, Copper (3B405) 18 mg, Manganese (3B502) 70 mg, Zinc (3B603) 180 mg, Selenium (3B802) 0.3 mg. Nutrient components: NUTRITIONAL VALUES NUTRITIONAL SUPPLEMENTS/kg Crude Protein 36% Vitamin A (3A672A) 18000 IU/kg Raw oil 16% Vitamin D3(3A671) 1500 IU/kg Ash 8% Vitamin E (3A700) 200mg/kg Crude Cellulose (Fibre) 2.5% Vitamin C (3A300) 200 mgkg Taurune (3A370) 1500mg/kg Nutritional Recommendations and Warnings See the table for the recommended daily feeding amounts (grams/day) according to your cat's weight (kg) and silhouette (A- Thin, B- Normal, C-Overweight). • The amount of food to be given daily may vary depending on the outdoor temperature, your cat's living conditions (inside/outside the home), temperament and activity. • It is important to weigh the amount of food to ensure that your cat is at its ideal weight. • Evaluating your cat's appetite, appearance and feces will help in adjusting the correct amount of food to be given. • The transition from one food to another should be done gradually by mixing small amounts of both foods and giving them for a week. • Always keep clean and fresh water next to the food bowl. Change the water at least once a day, even if it looks clean. • Store the product in a dry and cool place and ensure that the packaging is tightly closed after each use. • You can see the recommended consumption date, batch code and factory approval number on the package. &nbsp;",
   "images": [
     {
-      "id": 56947,
+      "id": 40705,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/11/Untitled-design-94.png",
       "alt": "Spectrum Lowgain Adult Cat Food Duck, Turkey & Cranberry Formula 2kg",
-      "name": "Untitled design (94)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Spectrum",
+      "slug": "spectrum"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/spectrum-low-grain-adult-cat-food-duck-turkey-cranberry/?add-to-cart=40705",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2023-11-04T10:27:05",
-  "dateModified": "2026-06-17T12:12:16",
+  "permalink": "https://petstore.co.ke/product/spectrum-low-grain-adult-cat-food-duck-turkey-cranberry/",
+  "addToCartUrl": "https://petstore.co.ke/product/spectrum-low-grain-adult-cat-food-duck-turkey-cranberry/?add-to-cart=40705",
+  "shortDescription": "SPECTRUM LOW GRAIN COMPLETE AND BALANCED ADULT CAT FOOD WITH TURKEY, DUCK & CRANBERRY Ingredients: Processed turkey and duck protein (min. @), grains ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/11/Untitled-design-94.png",
+  "sku": "PSK-40705",
   "brand": "Spectrum",
   "weight_kg": 2,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/11/Untitled-design-94.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/11/Untitled-design-94.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 56863,
   "name": "Chuck Adult Cat Salmon 400g",
   "slug": "chuck-adult-cat-salmon-400g",
-  "sku": "CACS400",
   "onSale": false,
   "price": 257,
   "regularPrice": 257,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Chuck-in-Gravy-salmon-2.png",
   "categories": [
     {
       "id": 2325,
@@ -37,57 +35,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2432,
-      "name": "Chuck",
-      "slug": "chuck"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/chuck-adult-cat-salmon-400g/",
-  "shortDescription": "Well-rounded cat food recipe crafted to nourish bones, skin and muscles while promoting a naturally shiny, healthy coat.",
   "description": "Product Highlights Main Ingredient: Contains 35% real salmon, providing high-quality protein essential for muscle maintenance and health. Nutritional Benefits: Loaded with Omega-3 fatty acids, taurine, zinc, and vitamins which promote a shiny coat, heart health, muscle function, and overall vitality. Ingredients: Salmon, meat and animal derivatives, fish oil, vegetable oils, vitamins, and minerals. Ideal for: Adult cats needing balanced nutrition and flavor-rich meals inspired by seafood Usage and Storage Store unopened cans in a cool, dry place. After opening, refrigerate and use within 2 days to maintain freshness and quality. Suitable as a daily meal for adult cats, offering a tasty, moisture-rich option to help hydration.",
   "images": [
     {
-      "id": 76479,
+      "id": 56863,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Chuck-in-Gravy-salmon-2.png",
       "alt": "Chuck Adult Cat Salmon 400g",
-      "name": "Chuck in Gravy salmon (2)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Chuck",
+      "slug": "chuck"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/chuck-adult-cat-salmon-400g/?add-to-cart=56863",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-07-14T15:19:33",
-  "dateModified": "2026-06-17T04:29:03",
+  "permalink": "https://petstore.co.ke/product/chuck-adult-cat-salmon-400g/",
+  "addToCartUrl": "https://petstore.co.ke/product/chuck-adult-cat-salmon-400g/?add-to-cart=56863",
+  "shortDescription": "Product Highlights Main Ingredient: Contains 35% real salmon, providing high-quality protein essential for muscle maintenance and health. Nutritional ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Chuck-in-Gravy-salmon-2.png",
+  "sku": "PSK-56863",
   "brand": "Chuck",
   "weight_kg": 0.4,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Chuck-in-Gravy-salmon-2.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Chuck-in-Gravy-salmon-2.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

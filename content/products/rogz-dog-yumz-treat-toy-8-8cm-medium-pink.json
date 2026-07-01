@@ -2,14 +2,12 @@
   "id": 41998,
   "name": "Rogz Dog Yumz Treat Toy 11.5cm Pink Medium (Yu03-K)",
   "slug": "rogz-dog-yumz-treat-toy-8-8cm-medium-pink",
-  "sku": "YU03-K",
   "onSale": false,
   "price": 1400,
   "regularPrice": 1400,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/YU03-K-Yumz-Pink-350x350-1.jpg",
   "categories": [
     {
       "id": 1204,
@@ -37,61 +35,51 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2227,
-      "name": "Rogz",
-      "slug": "rogz"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-dog-yumz-treat-toy-8-8cm-medium-pink/",
-  "shortDescription": "Rogz Dog Yumz-Treat Toy bone – Pink Medium",
   "description": "Rogz Yumz is a versatile, treat and chew toy with two treat cavities for added interaction. Gum massaging technology takes care of your dog’s dental hygiene, while its odd shape and rubbery material gives it an erratic bounce to keep your dog entertained. Available in",
   "images": [
     {
-      "id": 41996,
+      "id": 41998,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/12/YU03-K-Yumz-Pink-350x350-1.jpg",
       "alt": "Rogz Dog Yumz Treat Toy 11.5cm Pink Medium (Yu03-K)",
-      "name": "YU03-K-Yumz-Pink-350&#215;350"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-yumz-treat-toy-8-8cm-medium-pink/?add-to-cart=41998",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2023-12-05T14:51:00",
-  "dateModified": "2026-06-17T04:14:34",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/rogz-dog-yumz-treat-toy-8-8cm-medium-pink/",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-yumz-treat-toy-8-8cm-medium-pink/?add-to-cart=41998",
+  "shortDescription": "Rogz Yumz is a versatile, treat and chew toy with two treat cavities for added interaction. Gum massaging technology takes care of your dog’s dental h",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/YU03-K-Yumz-Pink-350x350-1.jpg",
+  "sku": "PSK-41998",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/YU03-K-Yumz-Pink-350x350-1.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/YU03-K-Yumz-Pink-350x350-1.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

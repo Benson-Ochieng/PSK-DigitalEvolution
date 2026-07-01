@@ -2,14 +2,12 @@
   "id": 48170,
   "name": "Miglior Canned Dog Food -  Beef & Vegetables Chunks, 405g",
   "slug": "migliorcane-adult-dog-food-chunks-with-beef-and-vegetable-405g-flash",
-  "sku": "MDW004@F",
-  "onSale": true,
+  "onSale": false,
   "price": 188,
-  "regularPrice": 269,
-  "salePrice": 188,
+  "regularPrice": 188,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW004.jpg",
   "categories": [
     {
       "id": 2163,
@@ -17,41 +15,51 @@
       "slug": "miglior"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=48170",
-  "shortDescription": "(4 pieces minimum order) Formula designed to guarantee the key nutrients required for the well-being of your dog. Vitamin E with antioxidant action and a recipe rich in meat to help keep muscle mass toned.",
   "description": "COMPOSITION: Meat and animal derivatives 30% (beef 5%), cereals, vegetables 4%, minerals. ANALYTICAL CONSTITUENTS: Moisture 75%, Crude protein 8,0%, Crude fat 4,5%, Crude fibres 0,5%, Crude ash 3%. Nutritional additives/kg: Vitamin E 10 mg, Copper (Copper (II) sulphate pentahydrate) 2 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight. Once opened, store in refrigerator for 2-3 days",
   "images": [
     {
-      "id": 28163,
+      "id": 48170,
       "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW004.jpg",
-      "alt": "Migliorcane chunks with Beef and Vegetable",
-      "name": "MDW004"
+      "alt": "Miglior Canned Dog Food -  Beef & Vegetables Chunks, 405g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/migliorcane-adult-dog-food-chunks-with-beef-and-vegetable-405g-flash/?add-to-cart=48170",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-07-01T15:14:11",
-  "dateModified": "2026-05-20T16:09:14",
-  "brand": null,
-  "weight_kg": 0.405,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=48170",
+  "addToCartUrl": "https://petstore.co.ke/product/migliorcane-adult-dog-food-chunks-with-beef-and-vegetable-405g-flash/?add-to-cart=48170",
+  "shortDescription": "COMPOSITION: Meat and animal derivatives 30% (beef 5%), cereals, vegetables 4%, minerals. ANALYTICAL CONSTITUENTS: Moisture 75%, Crude protein 8,0%, C",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW004.jpg",
+  "sku": "PSK-48170",
+  "brand": "PetStore Kenya",
+  "weight_kg": 0.41,
   "animal_type": "dog",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW004.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW004.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

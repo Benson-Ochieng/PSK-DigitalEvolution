@@ -2,14 +2,12 @@
   "id": 56634,
   "name": "Montego Classic Cat Dry Food - Chicken 1kg",
   "slug": "montego-classic-cat-chicken-1kg",
-  "sku": "MCCATC01",
   "onSale": false,
   "price": 1550,
   "regularPrice": 1550,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-22.png",
   "categories": [
     {
       "id": 2325,
@@ -32,52 +30,51 @@
       "slug": "montego"
     }
   ],
-  "brands": [
-    {
-      "id": 2453,
-      "name": "Montego",
-      "slug": "montego"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/montego-classic-cat-chicken-1kg/",
-  "shortDescription": "Montego Classic Cat Chicken is a premium, nutritionally balanced dry food formulated for adult cats. With 30% protein, 12% fat, essential amino acids, and carefully selected nutrients, it supports overall health including strong muscles, healthy skin and coat, sharp vision, and a well functioning urinary system.",
   "description": "Nutritional Profile Protein (30%) – Derived from high-quality sources such as chicken meal, deboned poultry, and poultry liver to promote lean muscle development and sustained strength. Fat (12%) – Provides energy while supporting skin and coat health with balanced Omega-3 and Omega-6 fatty acids. Metabolisable Energy: Approximately 370 kcal per 100 g for optimal vitality and activity levels. Vitamins & Minerals – Includes Vitamins C and E for immune support and antioxidant protection, calcium for strong bones and teeth, and controlled magnesium to promote urinary tract health. Taurine – Naturally present and supplemented to maintain healthy heart function, sharp vision, and proper nervous system performance. Dietary Fibre – Fructo-oligosaccharides and lignocellulose aid digestion, support gut health, and assist in controlling hairballs. Typical Analysis Nutrient Value Crude Protein 30% Moisture 10% Total Fat 12% Crude Fibre 6.5% Crude Ash 7.5% Calcium 1.2% Phosphorus 0.7% Magnesium 0.11% Potassium 0.6% Sodium 0.35% Omega-6 Fatty Acids 1.5% Omega-3 Fatty Acids 0.3% Glycaemic Carbohydrates 30% Taurine 0.15% Metabolisable Energy 370 kcal / 100 g &nbsp; Feeding Guide Weight of Cat Moderate Activity High Activity 2–3 kg 35–45 g 43–57 g 3–5 kg 45–63 g 57–82 g 5–8 kg 63–87 g 82–112 g Ensure your cat always has access to fresh, clean water. Key Benefits Muscle Conditioning: High protein and amino acid content help maintain strong, lean muscles. Skin & Coat Health: Omega fatty acids support soft, glossy coats and healthy skin. Heart, Vision & Nervous System: Enriched with taurine for heart function, visual acuity, and neurological balance. Urinary & Kidney Health: Balanced sodium levels encourage hydration and proper urinary tract function. Digestive Wellness: Natural fibres and prebiotics promote gut health and control hairballs. Immune System Support: Vitamins C and E act as antioxidants, strengthening immune defense. Ingredients Chicken meal, rice, corn*, corn gluten, chicken fat, powdered cellulose, tuna meal, beet pulp, brewer’s yeast, salmon meal, inulin, fish oil, tuna, salmon oil powder, acidifiers, encapsulated fatty acids, amino acids, and essential minerals. Additives (/kg): Vitamins: A (24,500 IU), D₃ (980 IU), E (70 IU), C (250 mg) Minerals: Potassium chloride (5.5 g), zinc hydroxychloride (75 mg), copper chloride (2 mg), potassium iodide (1 mg), sodium selenite (0.1 mg) Preservatives: Approved antioxidants Sensory: Natural meat-based flavour enhancers May contain GMOs Why Choose Montego Classic Cat Chicken Montego Classic Adult Cat Food combines scientifically balanced nutrition with delicious flavour to keep your cat healthy, active, and happy. It’s free from artificial colours and flavours—offering complete and natural nutrition for adult cats of all breeds.",
   "images": [
     {
-      "id": 56635,
+      "id": 56634,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-22.png",
-      "alt": "Montego Classic Cat Dry Food – Chicken 1kg",
-      "name": "Untitled design (22)"
+      "alt": "Montego Classic Cat Dry Food - Chicken 1kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Montego",
+      "slug": "montego"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/montego-classic-cat-chicken-1kg/?add-to-cart=56634",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-07-10T08:00:44",
-  "dateModified": "2026-06-22T16:12:13",
+  "permalink": "https://petstore.co.ke/product/montego-classic-cat-chicken-1kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/montego-classic-cat-chicken-1kg/?add-to-cart=56634",
+  "shortDescription": "Nutritional Profile Protein (30%) – Derived from high-quality sources such as chicken meal, deboned poultry, and poultry liver to promote lean muscle ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-22.png",
+  "sku": "PSK-56634",
   "brand": "Montego",
   "weight_kg": 1,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-22.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-22.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 68422,
   "name": "Churu Kitten Treats Chicken Recipe",
   "slug": "churu-bites-dog-treats-chicken-wraps-salmon-2",
-  "sku": "BCKT025",
   "onSale": false,
   "price": 350,
   "regularPrice": 350,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/kitten-chicken-recipe-.png",
   "categories": [
     {
       "id": 2325,
@@ -37,52 +35,51 @@
       "slug": "kitten-treats"
     }
   ],
-  "brands": [
-    {
-      "id": 2433,
-      "name": "Churu",
-      "slug": "churu"
-    }
-  ],
-  "tags": [
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/churu-bites-dog-treats-chicken-wraps-salmon-2/",
-  "shortDescription": "Creamy, lickable kitten treats made with real chicken. High in moisture, low in calories, and enriched with DHA, calcium, and taurine to support healthy growth and bonding.",
   "description": "Churu for Kittens Cat Treats – Chicken Recipe are creamy, lickable treats specially formulated to support the healthy growth and development of kittens under one year of age. Made with farm-raised chicken and natural tuna , this smooth purée is gentle on young tummies while delivering essential nutrients in every tasty lick. With an impressive 91% moisture content and only 6 calories per tube , Churu for Kittens helps keep growing kittens hydrated without adding unnecessary calories. The grain-free recipe contains no preservatives, artificial colours, or carrageenan , making it a safe and wholesome choice during this important life stage. Fortified with calcium for strong bones and teeth , DHA and EPA from fish oil for brain and vision development , taurine for heart and eye health , and Vitamin E to support immunity , these treats do more than satisfy cravings they actively support healthy development. Perfect for handfeeding, Churu for Kittens encourages bonding and trust between you and your kitten. It can also be used as a meal topper , during weaning , or to help administer medication. Whether used as a reward or a comfort treat, Churu makes every moment with your kitten special. Key Benefits Specially formulated for kittens under 12 months High moisture (91%) to support hydration Low-calorie and low-fat for healthy growth Enriched with Calcium, DHA, EPA, Taurine & Vitamin E Grain-free and free from artificial additives Ideal for bonding, weaning, topping meals, or hiding medication Feeding Guidelines Serve as a treat only, not a complete meal Feed directly from the tube for bonding Can be used as a food topper or mixed with kibble Provide fresh water at all times Refrigerate after opening and use promptly &nbsp; &nbsp; &nbsp; &nbsp;",
   "images": [
     {
-      "id": 68423,
+      "id": 68422,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/01/kitten-chicken-recipe-.png",
       "alt": "Churu Kitten Treats Chicken Recipe",
-      "name": "kitten chicken recipe"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Churu",
+      "slug": "churu"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/churu-bites-dog-treats-chicken-wraps-salmon-2/?add-to-cart=68422",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-01-21T15:30:03",
-  "dateModified": "2026-06-22T16:12:09",
+  "permalink": "https://petstore.co.ke/product/churu-bites-dog-treats-chicken-wraps-salmon-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/churu-bites-dog-treats-chicken-wraps-salmon-2/?add-to-cart=68422",
+  "shortDescription": "Churu for Kittens Cat Treats – Chicken Recipe are creamy, lickable treats specially formulated to support the healthy growth and development of kitten",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/kitten-chicken-recipe-.png",
+  "sku": "PSK-68422",
   "brand": "Churu",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/kitten-chicken-recipe-.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/kitten-chicken-recipe-.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

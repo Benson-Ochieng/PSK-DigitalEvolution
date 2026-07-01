@@ -2,14 +2,12 @@
   "id": 51033,
   "name": "LOOP Adult Dog Food Apple + Cinnamon 15kg",
   "slug": "loop-adult-dog-food-apple-cinnamon-15kg-2",
-  "sku": "LDD004@F",
-  "onSale": true,
+  "onSale": false,
   "price": 9775,
-  "regularPrice": 11500,
-  "salePrice": 9775,
+  "regularPrice": 9775,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/08/Loop-15kg-e1723441281430.png",
   "categories": [
     {
       "id": 2345,
@@ -42,46 +40,51 @@
       "slug": "loop"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
-  "reviewCount": 1,
+  "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=51033",
-  "shortDescription": "Loop Pet Food was born out of the need for locally made (proudly Kenyan), premium pet food that pet owners can trust which led us to today's complete and balanced dog food.",
   "description": "Loop Pet Food was born out of the need for locally made (proudly Kenyan), premium pet food that pet owners can trust which led us to today's complete and balanced dog food. Grain-free : We use vegetables as our source of carbohydrates to make sure your dogs are getting the daily nutrition that they need while reducing the risk of aflatoxin* exposure. Whole food : Dogs are omnivores, so we give them what they need… at least 30% of each of our formulae are fresh fruits and vegetables which comes with all their natural goodness. No additives, preservatives or other nasties : We are all natural. Nothing simpler. Nothing better. Ingredients: Black soldier fly larvae (dried and meal), cassava flour, beetroot, carrot, potato, spinach, brewer's yeast molasses, dicalcium phosphate (DCP), enzymes, chicory root (natural inulin), bentonite clay, green peas. With carefully selected ingredients and a commitment to sustainability, this insect-powered pet food offers a balanced diet that aligns with nature’s wisdom. Treat your pet to the wholesome goodness of Loop Adult Pet Food and join us in shaping a healthier, more sustainable future for our furry friends. Added Benefits: Eco-Friendly Protein: Black soldier fly larvae—because even your dog deserves a little sustainability in their diet! Digestive Health: Chicory root and enzymes keep the tummy rumbles at bay and the good vibes rolling. Nutritious Feast: Veggies, fruits, and a touch of cinnamon make every bite a burst of flavors and nutrients. Store in a cool, dry place.",
   "images": [
     {
-      "id": 49322,
+      "id": 51033,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/08/Loop-15kg-e1723441281430.png",
       "alt": "LOOP Adult Dog Food Apple + Cinnamon 15kg",
-      "name": "Loop 15kg"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/loop-adult-dog-food-apple-cinnamon-15kg-2/?add-to-cart=51033",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-10-16T15:42:34",
-  "dateModified": "2026-05-06T17:10:42",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=51033",
+  "addToCartUrl": "https://petstore.co.ke/product/loop-adult-dog-food-apple-cinnamon-15kg-2/?add-to-cart=51033",
+  "shortDescription": "Loop Pet Food was born out of the need for locally made (proudly Kenyan), premium pet food that pet owners can trust which led us to today's complete ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/08/Loop-15kg-e1723441281430.png",
+  "sku": "PSK-51033",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/08/Loop-15kg-e1723441281430.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/08/Loop-15kg-e1723441281430.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

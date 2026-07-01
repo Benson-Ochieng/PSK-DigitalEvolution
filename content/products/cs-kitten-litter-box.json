@@ -2,14 +2,12 @@
   "id": 52878,
   "name": "Cs Kitten Litter Box",
   "slug": "cs-kitten-litter-box",
-  "sku": "KLB001",
   "onSale": false,
   "price": 1850,
   "regularPrice": 1850,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/01/Kitten-litter-box-.png",
   "categories": [
     {
       "id": 1204,
@@ -37,57 +35,51 @@
       "slug": "cat-litter-boxes"
     }
   ],
-  "brands": [
-    {
-      "id": 2434,
-      "name": "CS",
-      "slug": "cs"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2119,
-      "name": "cat litter box",
-      "slug": "cat-litter-box"
-    },
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/cs-kitten-litter-box/",
-  "shortDescription": "Elevate your kitten’s litter experience with a stylish, practical solution that’s easy to clean and built to last. The Stylish Kitten Litter Box with Scoop is the perfect addition to any home looking to provide comfort for their feline companion while maintaining a chic, organized space. Available in Blue, Green and Purple We cannot guarantee the colour you will receive when you order online.",
   "description": "Upgrade your cat’s bathroom experience with our Stylish Kitten Litter Box with Scoop, combining functionality and design in one sleek package. Perfect for kittens and small cats, this modern litter box offers a clean and comfortable space for your furry friend while seamlessly blending into your home décor. Its minimalist design, coupled with a convenient scoop, makes it the ideal choice for pet parents who value both style and practicality. Key Features : Modern & Stylish Design : With its sleek, contemporary look, this litter box complements any home interior, offering both form and function. Compact & Spacious : Ideal for kittens and small cats, providing plenty of room for your pet while maintaining a compact footprint. Easy to Clean : Comes with a durable scoop for effortless litter removal, making cleaning quick and hassle-free. High-Quality, Durable Materials : Made from premium, odor-resistant materials to ensure long-lasting use and easy maintenance. Anti-Spill Lip : Raised edges help to contain litter and prevent spills, keeping your floors clean and tidy. Non-Slip Base : The sturdy, non-slip base ensures stability and prevents the box from sliding around during use. Durable: Made of durable materials, this product is sure to stick around and will provide you and your beloved pets with its services for a lengthy period of time. Elevate your kitten’s litter experience with a stylish, practical solution that’s easy to clean and built to last. The Stylish Kitten Litter Box with Scoop is the perfect addition to any home looking to provide comfort for their feline companion while maintaining a chic, organized space. &nbsp;",
   "images": [
     {
-      "id": 53376,
+      "id": 52878,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/01/Kitten-litter-box-.png",
       "alt": "Cs Kitten Litter Box",
-      "name": "Kitten litter box &#8211;"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "CS",
+      "slug": "cs"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/cs-kitten-litter-box/?add-to-cart=52878",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-01-18T11:16:58",
-  "dateModified": "2026-06-17T04:28:57",
+  "permalink": "https://petstore.co.ke/product/cs-kitten-litter-box/",
+  "addToCartUrl": "https://petstore.co.ke/product/cs-kitten-litter-box/?add-to-cart=52878",
+  "shortDescription": "Upgrade your cat’s bathroom experience with our Stylish Kitten Litter Box with Scoop, combining functionality and design in one sleek package. Perfect",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/01/Kitten-litter-box-.png",
+  "sku": "PSK-52878",
   "brand": "CS",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/01/Kitten-litter-box-.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/01/Kitten-litter-box-.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

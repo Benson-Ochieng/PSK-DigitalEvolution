@@ -2,14 +2,12 @@
   "id": 41170,
   "name": "Reflex Plus Medium/Large Breed JUNIOR Dog Food - Lamb and Rice 3kg",
   "slug": "reflex-plus-medium-large-breed-junior-dog-food-lamb-and-rice-3kg-2",
-  "sku": "RPDD002@F",
-  "onSale": true,
+  "onSale": false,
   "price": 2829,
-  "regularPrice": 3450,
-  "salePrice": 2829,
+  "regularPrice": 2829,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/RPLBJDLR03.png",
   "categories": [
     {
       "id": 179,
@@ -17,47 +15,51 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
-    {
-      "id": 2971,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=41170",
-  "shortDescription": "Reflex Plus Junior Dog Food Lamb and Rice is a complete and balanced formulated super premium dry dog food with lamb and rice? for medium to large breeds aged from 2 months to 24 months.",
   "description": "Reflex Plus Junior Dog Food Lamb and Rice is a complete and balanced super premium dry dog food with lamb and rice for medium-large breeds from 2 months to 24 months of age.",
   "images": [
     {
-      "id": 17373,
+      "id": 41170,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/01/RPLBJDLR03.png",
       "alt": "Reflex Plus Medium/Large Breed JUNIOR Dog Food - Lamb and Rice 3kg",
-      "name": "RPLBJDLR03"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-medium-large-breed-junior-dog-food-lamb-and-rice-3kg-2/?add-to-cart=41170",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2023-11-16T09:22:39",
-  "dateModified": "2026-05-06T17:09:06",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=41170",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-medium-large-breed-junior-dog-food-lamb-and-rice-3kg-2/?add-to-cart=41170",
+  "shortDescription": "Reflex Plus Junior Dog Food Lamb and Rice is a complete and balanced super premium dry dog food with lamb and rice for medium-large breeds from 2 mont",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/RPLBJDLR03.png",
+  "sku": "PSK-41170",
   "brand": "Reflex",
   "weight_kg": 3,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/RPLBJDLR03.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/RPLBJDLR03.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

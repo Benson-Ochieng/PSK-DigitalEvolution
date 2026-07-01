@@ -2,14 +2,12 @@
   "id": 53431,
   "name": "Pack Of 10 - Dental Care Lamb & Mint 60g",
   "slug": "reflex-happy-hour-dog-treat-dental-care-lamb-mint-60gr-pack-of-12",
-  "sku": "RDT029$10",
-  "onSale": true,
+  "onSale": false,
   "price": 1755,
-  "regularPrice": 1950,
-  "salePrice": 1755,
+  "regularPrice": 1755,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/01/Happy-Hour-Dog-TREATS-Dental-Care-60G.png",
   "categories": [
     {
       "id": 2345,
@@ -32,57 +30,51 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
-    {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2055,
-      "name": "Bulk Cat Food & Bulk Dog Food",
-      "slug": "bulk"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/reflex-happy-hour-dog-treat-dental-care-lamb-mint-60gr-pack-of-12/",
-  "shortDescription": "Happy hour dog treats dental care lamb & mint – Perfect for rewarding good behavior or just showing your pet some extra love, Reflex Happy Hours Dog Treats are free from artificial preservatives and fillers. Plus, they’re great for maintaining healthy teeth and gums! Treat your doggie to a snack they’ll wiggle for—because every hour should be a happy hour with Reflex!",
   "description": "Give your dog a reason to wag their tail with Reflex Happy Hours Dog Treats , the perfect combination of taste, nutrition, and care. These delicious, crunchy morsels are designed to delight your dog’s taste buds while supporting their overall health and wellbeing. Made from high-quality ingredients and enriched with essential vitamins and minerals, each bite offers a burst of flavor and a satisfying crunch that dogs love. Crafted with 20% processed lamb protein , these treats provide an excellent source of lean protein for muscle maintenance, while added brown algae and dried mint help freshen breath and promote digestive health. The natural ingredients make these treats an ideal choice for daily rewards or as a wholesome snack between meals. Key Features Crunchy texture helps reduce plaque and maintain dental hygiene Rich in essential nutrients for overall vitality and wellbeing Contains brown algae and mint to support digestion and fresh breath Made with real lamb protein for a delicious, meaty flavor No artificial additives or fillers – only wholesome goodness Ingredients Processed Lamb Protein (20%), Processed Animal Protein, Maize, Chicken Fat, Wheat Bran, Hydrolyzed Lamb Protein, Liver Flavor, Powdered Cellulose, Vitamins and Minerals, Brewer's Yeast, Salt, Linseed, Yucca Schidigera, Mannan-Oligosaccharide (MOS), Marigold Extract, Brown Algae, Dried Mint, Preservatives and Antioxidants (E320 & E321). Nutrient Components Crude Protein: 24% Fat Content: 16% Crude Cellulose: 3% Raw Ash: 8% Humidity (Max): 8% Nutritional Additives Vitamins: Vitamin A (3a672a), Vitamin D₃ (3a671), Vitamin E (3a700), Vitamin C (3a300), Vitamin B₁ (3a821), B₂ (3a825i), B₃ (Niacin-3a315), B₆ (3a831), B₁₂ (3A), B₇ (Biotin-3a880), B₉ (Folic Acid-3a316), Vitamin K₃ (3a710), Choline (3a890), Calcium Pantothenate (3a841). Minerals: Iron (3b103), Iodine (3b202), Copper (3b405), Manganese (3b502), Zinc (3b603), Selenium (3b802). Feeding Recommendations For adult dogs, the treats can be given as a complete portion in one meal or divided throughout the day as a reward. The ideal daily amount may vary based on your dog’s lifestyle, size, activity level, and environmental temperature. Ensure your pet always has access to fresh drinking water . Store in a cool, dry place , and reseal the packaging tightly after each use. The product’s size and color may vary depending on natural ingredient properties. Not suitable for human consumption. Make every moment a celebration with Reflex Happy Hours Dog Treats — the perfect blend of taste, nutrition, and love. &nbsp;",
   "images": [
     {
-      "id": 52690,
+      "id": 53431,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/01/Happy-Hour-Dog-TREATS-Dental-Care-60G.png",
-      "alt": "Pack Of 10 – Dental Care Lamb & Mint 60g",
-      "name": "Happy Hour Dog TREATS Dental Care 60G"
+      "alt": "Pack Of 10 - Dental Care Lamb & Mint 60g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 5,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-happy-hour-dog-treat-dental-care-lamb-mint-60gr-pack-of-12/?add-to-cart=53431",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-02-11T15:19:15",
-  "dateModified": "2026-06-24T13:12:11",
+  "permalink": "https://petstore.co.ke/product/reflex-happy-hour-dog-treat-dental-care-lamb-mint-60gr-pack-of-12/",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-happy-hour-dog-treat-dental-care-lamb-mint-60gr-pack-of-12/?add-to-cart=53431",
+  "shortDescription": "Give your dog a reason to wag their tail with Reflex Happy Hours Dog Treats , the perfect combination of taste, nutrition, and care. These delicious, ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/01/Happy-Hour-Dog-TREATS-Dental-Care-60G.png",
+  "sku": "PSK-53431",
   "brand": "Reflex",
   "weight_kg": 0.15,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/01/Happy-Hour-Dog-TREATS-Dental-Care-60G.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/01/Happy-Hour-Dog-TREATS-Dental-Care-60G.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

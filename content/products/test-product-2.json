@@ -2,14 +2,12 @@
   "id": 89151,
   "name": "Test product",
   "slug": "test-product-2",
-  "sku": "PSK-89151",
   "onSale": false,
   "price": 1,
   "regularPrice": 1,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "/images/psk_logo.png",
   "categories": [
     {
       "id": 1790,
@@ -22,34 +20,51 @@
       "slug": "rabbit-supplies-store"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1791,
-      "name": "Donate",
-      "slug": "donate"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=89151",
-  "shortDescription": "",
   "description": "",
-  "images": [],
+  "images": [
+    {
+      "id": 89151,
+      "src": "/images/psk_logo.png",
+      "alt": "Test product",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
+    }
+  ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/test-product-2/?add-to-cart=89151",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-04-27T10:46:03",
-  "dateModified": "2026-05-13T15:14:42",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=89151",
+  "addToCartUrl": "https://petstore.co.ke/product/test-product-2/?add-to-cart=89151",
+  "shortDescription": "",
+  "thumbnail": "/images/psk_logo.png",
+  "sku": "PSK-89151",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "rabbit",
   "food_type": "dry",
-  "image_url": "/images/psk_logo.png"
+  "image_url": "/images/psk_logo.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

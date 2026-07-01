@@ -2,14 +2,12 @@
   "id": 45773,
   "name": "SHORT EXPIRY - CLEARANCE: Proline Adult Dog Food - Chicken 2.2kg",
   "slug": "proline-adult-dog-food-chicken-2-2kg-4",
-  "sku": "PDD011@SE",
-  "onSale": true,
+  "onSale": false,
   "price": 925,
-  "regularPrice": 1850,
-  "salePrice": 925,
+  "regularPrice": 925,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-Adult-Dog-Food-Chicken-2.2Kg.png",
   "categories": [
     {
       "id": 2345,
@@ -32,62 +30,51 @@
       "slug": "proline"
     }
   ],
-  "brands": [
-    {
-      "id": 2461,
-      "name": "Proline",
-      "slug": "proline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 637,
-      "name": "kibble",
-      "slug": "kibble"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/proline-adult-dog-food-chicken-2-2kg-4/",
-  "shortDescription": "Fully balanced all-natural dog food with chicken protein plus brewer's yeast and whey protein for immune support and omega -3 and -6 from flaxseed. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult dogs.",
   "description": "Proline Adult Dog Food - Chicken , fully balanced all natural dog food with chicken protein plus brewer's yeast and whey protein for immune support and omega -3 and -6 from flaxseed. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult dogs. NUTRIENT COMPONENTS Protein...........................23% Fat ........................... 12% Crude Cellulose (Fiber).................. 4% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Wheat Middlings, Corn Gluten, Dried Sugar Beet, Chicken Liver Aroma, Rice, Salt, Whey Powder, Flaxseed, Dried Brewer's Yeast. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
   "images": [
     {
-      "id": 35538,
+      "id": 45773,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-Adult-Dog-Food-Chicken-2.2Kg.png",
       "alt": "SHORT EXPIRY - CLEARANCE: Proline Adult Dog Food - Chicken 2.2kg",
-      "name": "Proline Adult Dog Food Chicken 2.2Kg"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Proline",
+      "slug": "proline"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/proline-adult-dog-food-chicken-2-2kg-4/?add-to-cart=45773",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-04-03T08:34:05",
-  "dateModified": "2026-06-17T04:28:55",
+  "permalink": "https://petstore.co.ke/product/proline-adult-dog-food-chicken-2-2kg-4/",
+  "addToCartUrl": "https://petstore.co.ke/product/proline-adult-dog-food-chicken-2-2kg-4/?add-to-cart=45773",
+  "shortDescription": "Proline Adult Dog Food - Chicken , fully balanced all natural dog food with chicken protein plus brewer's yeast and whey protein for immune support an",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-Adult-Dog-Food-Chicken-2.2Kg.png",
+  "sku": "PSK-45773",
   "brand": "Proline",
   "weight_kg": 3,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-Adult-Dog-Food-Chicken-2.2Kg.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-Adult-Dog-Food-Chicken-2.2Kg.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

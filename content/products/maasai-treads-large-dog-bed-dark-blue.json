@@ -2,14 +2,12 @@
   "id": 19721,
   "name": "Maasai Treads Large Dog Bed - Dark Blue",
   "slug": "maasai-treads-large-dog-bed-dark-blue",
-  "sku": "MTLDB-DB",
-  "onSale": true,
+  "onSale": false,
   "price": 5795,
-  "regularPrice": 6100,
-  "salePrice": 5795,
+  "regularPrice": 5795,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/MTLDB-DB.jpg",
   "categories": [
     {
       "id": 2345,
@@ -27,77 +25,51 @@
       "slug": "maasai-treads"
     }
   ],
-  "brands": [
-    {
-      "id": 2450,
-      "name": "Maasai Treads",
-      "slug": "maasai-treads"
-    }
-  ],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2082,
-      "name": "Beds",
-      "slug": "beds"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1034,
-      "name": "large breed",
-      "slug": "large-breed"
-    },
-    {
-      "id": 939,
-      "name": "On Sale Now",
-      "slug": "sale"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/maasai-treads-large-dog-bed-dark-blue/",
-  "shortDescription": "Maasai Treads Small Dog Bed features a sturdy, removable cushion with a Maasai Shuka design, ensuring both style and durability. Not only does this bed provide a cozy spot for your furry friend, but it also supports local artisans and promotes environmental sustainability. Diameter: 75cm",
   "description": "Elevate your pet’s comfort with the Maasai Treads Dog Bed, a blend of sustainable materials and traditional craftsmanship. Each bed is crafted from repurposed car tires, giving it a unique, eco-friendly edge. The bed features a sturdy, removable cushion with a Maasai Shuka design, ensuring both style and durability. Not only does this bed provide a cozy spot for your furry friend, but it also supports local artisans and promotes environmental sustainability. Features: Washable Maasai Print Cover: The vibrant Maasai print cover is not only eye-catching but also washable for easy maintenance. Removable Cushion: The bed includes a sturdy, removable cushion lined with a matching Maasai Shuka design, providing extra comfort and convenience. Zippered Cover: The cover features a zipper for easy removal and cleaning, ensuring your pet always has a fresh and hygienic place to rest. Eco-Friendly Materials: Crafted from old car tires, this bed is an environmentally responsible choice that reduces waste. Soft Sponge Lining: Lined with soft sponge, the bed offers a plush, comfortable surface for your pet to relax on. Benefits: Sustainable and Local: By choosing this bed, you support local craftsmanship and contribute to environmental preservation through the reuse of car tires. Easy Maintenance: The washable cover and removable cushion ensure effortless cleaning, so your pet always has a clean place to rest. Durable and Long-Lasting: The combination of repurposed tires and a sturdy cushion guarantees durability and resilience, even with regular use. Comfort and Style: Offers both a comfortable sleeping surface and a stylish, culturally rich design that complements any home decor. Buy Local, Build Local, and Help Save the Environment.",
   "images": [
     {
-      "id": 19712,
+      "id": 19721,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/04/MTLDB-DB.jpg",
       "alt": "Maasai Treads Large Dog Bed - Dark Blue",
-      "name": "MTLDB-DB"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Maasai Treads",
+      "slug": "maasai-treads"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/maasai-treads-large-dog-bed-dark-blue/?add-to-cart=19721",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2021-04-06T21:23:28",
-  "dateModified": "2026-06-20T11:12:03",
+  "permalink": "https://petstore.co.ke/product/maasai-treads-large-dog-bed-dark-blue/",
+  "addToCartUrl": "https://petstore.co.ke/product/maasai-treads-large-dog-bed-dark-blue/?add-to-cart=19721",
+  "shortDescription": "Elevate your pet’s comfort with the Maasai Treads Dog Bed, a blend of sustainable materials and traditional craftsmanship. Each bed is crafted from re",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/MTLDB-DB.jpg",
+  "sku": "PSK-19721",
   "brand": "Maasai Treads",
   "weight_kg": 8,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/MTLDB-DB.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/MTLDB-DB.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

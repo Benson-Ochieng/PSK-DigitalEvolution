@@ -2,14 +2,12 @@
   "id": 39119,
   "name": "DEFECT/DAMAGED PACKAGE-CLEARANCE: Bonnie Adult Dog Food - Beef 15kg",
   "slug": "defect-damaged-package-clearance-bonnie-adult-dog-food-beef-15kg",
-  "sku": "BDD001@D",
-  "onSale": true,
+  "onSale": false,
   "price": 4599,
-  "regularPrice": 6570,
-  "salePrice": 4599,
+  "regularPrice": 4599,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2017/07/Bonnie-Adult-Dog-Beef-min.png",
   "categories": [
     {
       "id": 177,
@@ -32,62 +30,51 @@
       "slug": "dry-dog-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2428,
-      "name": "Bonnie",
-      "slug": "bonnie"
-    }
-  ],
-  "tags": [
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 637,
-      "name": "kibble",
-      "slug": "kibble"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/defect-damaged-package-clearance-bonnie-adult-dog-food-beef-15kg/",
-  "shortDescription": "Nourish your dog with a protein-rich meal made from quality beef and natural ingredients. Bonnie Beef Adult Dog Food delivers balanced nutrition that helps maintain lean muscle, supports digestive health, and fuels an active lifestyle ideal for adult dogs of all breeds.",
   "description": "Bonnie Beef Adult Dog food , full-balanced, beef protein-containing all-natural dog food carefully formulated by a dog nutritionist to meet the nutritional requirements of all adult breeds. Beef meal has been used as animal protein source. The balance of omega 3 & 6 is provided by using flaxseed . Yucca plant provides ammonia and odour control, increase absorption of nutrients, strengthens the immune system and optimises animal growth and performance. A good intestinal health and performance is provided by CitriStim which is a source of pathogen-binding manna oligosaccharide , immune provide beta-glucans and immune-supportive yeast. Healthy skin and shiny coat are supported by using brewer's yeast . Muscles, organs and nerve cells are supported, and the immune system strengthened by using whey powder . Rich vitamin contents. NUTRIENT COMPONENTS Protein .................. 21% Fat .......................11% Crude Cellulose (Fiber)... 3% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Wheat Middlings, Corn Gluten, Dried Sugar Beet, Liver Aroma, Salt, Flaxseed, Dried Brewer's Yeast. MINERALS: Calcium, Phosphorus, Sodium, Ionide, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
   "images": [
     {
-      "id": 663,
+      "id": 39119,
       "src": "https://petstore.co.ke/wp-content/uploads/2017/07/Bonnie-Adult-Dog-Beef-min.png",
-      "alt": "Bonnie Adult Dog Beef min",
-      "name": "Bonnie Adult Dog Beef min"
+      "alt": "DEFECT/DAMAGED PACKAGE-CLEARANCE: Bonnie Adult Dog Food - Beef 15kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Bonnie",
+      "slug": "bonnie"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/defect-damaged-package-clearance-bonnie-adult-dog-food-beef-15kg/?add-to-cart=39119",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2023-08-21T12:17:50",
-  "dateModified": "2026-06-17T04:28:50",
+  "permalink": "https://petstore.co.ke/product/defect-damaged-package-clearance-bonnie-adult-dog-food-beef-15kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/defect-damaged-package-clearance-bonnie-adult-dog-food-beef-15kg/?add-to-cart=39119",
+  "shortDescription": "Bonnie Beef Adult Dog food , full-balanced, beef protein-containing all-natural dog food carefully formulated by a dog nutritionist to meet the nutrit",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2017/07/Bonnie-Adult-Dog-Beef-min.png",
+  "sku": "PSK-39119",
   "brand": "Bonnie",
   "weight_kg": 15,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2017/07/Bonnie-Adult-Dog-Beef-min.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2017/07/Bonnie-Adult-Dog-Beef-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

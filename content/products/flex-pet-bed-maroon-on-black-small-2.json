@@ -2,14 +2,12 @@
   "id": 52774,
   "name": "Flex Pet Bed Maroon On Black Small",
   "slug": "flex-pet-bed-maroon-on-black-small-2",
-  "sku": "FPBMBS@F",
-  "onSale": true,
+  "onSale": false,
   "price": 2790,
-  "regularPrice": 3000,
-  "salePrice": 2790,
+  "regularPrice": 2790,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/08/FLEX-PET-BED-MAROON.png",
   "categories": [
     {
       "id": 2332,
@@ -17,35 +15,51 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=52774",
-  "shortDescription": "The Flex Pet Bed offers the perfect balance of comfort, durability, and convenience for small dogs and cats. Crafted with soft, supportive materials , it creates a cozy haven for rest and relaxation. Its lightweight design allows easy repositioning anywhere in your home, while the washable cover ensures effortless cleaning and long-lasting freshness.",
   "description": "The Flex Pet Bed offers the perfect balance of comfort, durability, and convenience for small dogs and cats. Crafted with soft, supportive materials , it creates a cozy haven for rest and relaxation. Its lightweight design allows easy repositioning anywhere in your home, while the washable cover ensures effortless cleaning and long-lasting freshness.",
   "images": [
     {
-      "id": 50106,
+      "id": 52774,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/08/FLEX-PET-BED-MAROON.png",
-      "alt": "Flex Pet Bed Maroon On Black – X Large",
-      "name": "FLEX PET BED- MAROON"
+      "alt": "Flex Pet Bed Maroon On Black Small",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/flex-pet-bed-maroon-on-black-small-2/?add-to-cart=52774",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-01-16T17:04:45",
-  "dateModified": "2026-05-06T17:10:54",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=52774",
+  "addToCartUrl": "https://petstore.co.ke/product/flex-pet-bed-maroon-on-black-small-2/?add-to-cart=52774",
+  "shortDescription": "The Flex Pet Bed offers the perfect balance of comfort, durability, and convenience for small dogs and cats. Crafted with soft, supportive materials ,",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/08/FLEX-PET-BED-MAROON.png",
+  "sku": "PSK-52774",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/08/FLEX-PET-BED-MAROON.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/08/FLEX-PET-BED-MAROON.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 58362,
   "name": "Ferplast Cat Collar 5628",
   "slug": "ferplast-cat-collar-5628",
-  "sku": "FCC5628",
   "onSale": false,
   "price": 0,
   "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-8-1.png",
   "categories": [
     {
       "id": 1204,
@@ -17,46 +15,51 @@
       "slug": "accessories"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=58362",
-  "shortDescription": "The FERPLAST GAT 5628 is a vibrant, secure, and comfortable collar designed with your cat's safety and visibility in mind. Ideal for both indoor and outdoor cats, this collar combines smart safety features with playful design elements to keep your feline friend both protected and easy to find.",
   "description": "Key Features: • Cat Safe Safety System: Equipped with a specially designed clip closure that automatically opens under abnormal pressure, reducing the risk of choking or entrapment. A crucial safety feature for adventurous cats. • Durable Polyester Construction: Made from high-quality, lightweight polyester that’s built to last. The collar is available in bright, cheerful colors and patterns. (Please note: Specific colors cannot be selected; items are shipped based on stock availability.) • Integrated Metal Bell: A small metal bell gently rings with your cat’s movements, helping you easily locate them anywhere in your home or yard. • Adjustable Fit: Fully adjustable to comfortably fit your cat’s neck without restricting movement. Designed for daily wear with maximum comfort. Benefits: • Enhances your cat’s safety with an intelligent breakaway design. • Helps you monitor your cat’s whereabouts through the bell’s sound. • Offers a fun, colorful accessory that matches your cat’s personality. • A great choice for cats who explore both indoors and outdoors. Give your cat the freedom they love with the safety you trust. The FERPLAST GAT 5628 Cat Collar is a reliable and stylish option for any pet owner looking to combine function, comfort, and design in one simple accessory.",
   "images": [
     {
-      "id": 58363,
+      "id": 58362,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-8-1.png",
       "alt": "Ferplast Cat Collar 5628",
-      "name": "Untitled design (8)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/ferplast-cat-collar-5628/?add-to-cart=58362",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-08-13T11:25:28",
-  "dateModified": "2026-05-07T13:12:40",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=58362",
+  "addToCartUrl": "https://petstore.co.ke/product/ferplast-cat-collar-5628/?add-to-cart=58362",
+  "shortDescription": "Key Features: • Cat Safe Safety System: Equipped with a specially designed clip closure that automatically opens under abnormal pressure, reducing the",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-8-1.png",
+  "sku": "PSK-58362",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-8-1.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-8-1.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

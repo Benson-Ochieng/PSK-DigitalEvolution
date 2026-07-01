@@ -2,14 +2,12 @@
   "id": 26970,
   "name": "Royal Canin FHN Hairball Care Cat Pouch WithGravy 85g",
   "slug": "royal-canin-fhn-hairball-care-cat-pouch-with-gravy-0-085kg",
-  "sku": "ROC-FHNW-063",
   "onSale": false,
   "price": 330,
   "regularPrice": 330,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/Royal-Canin-wet-food-04.jpg",
   "categories": [
     {
       "id": 2325,
@@ -37,57 +35,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2423,
-      "name": "Royal Canin",
-      "slug": "royal-canin"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/royal-canin-fhn-hairball-care-cat-pouch-with-gravy-0-085kg/",
-  "shortDescription": "ROYAL CANIN? Hairball Care in Gravy is formulated to help your cat eliminate ingested hair by stimulating the intestinal transit passage – removing any excess hair that would usually remain in the stomach.",
   "description": "ROYAL CANIN? Hairball Care in Gravy is formulated to help your cat eliminate ingested hair by stimulating the intestinal transit passage - removing any excess hair that would usually remain in the stomach. ROYAL CANIN? Hairball Care in Gravy also helps to maintain your cat's ideal weight - with a low-fat content of just 2.7%. Essential fatty acids are included as well, to help provide valuable energy. High digestibility is supported through the inclusion of dietary fibre in ROYAL CANIN? Hairball Care in Gravy, this contributes to a balanced gut flora and healthy intestinal tract activity. To cater to each cat's preferences, ROYAL CANIN? Hairball Care is also available as dry food, with crunchy and tasty kibble. If you're considering mixed feeding, simply follow our feeding guidelines to ensure your cat gets an accurate amount of both wet and dry food for optimal benefit. Complete feed for adult cats (thin slices in gravy) COMPOSITION : Meat and animal derivatives, cereals, derivatives of vegetable origin, vegetable protein extracts, minerals, oils and fats, various sugars, yeasts. ADDITIVES (per kg): Vitamin D3: 150 IU, E1 (Iron): 2 mg, E2 (Iodine): 0.3 mg, E4 (Copper): 2.3 mg, E5 (Manganese): 0.6 mg, E6 (Zinc): 6 mg - Technological additives: Clinoptilolite of sedimentary origin2g ANALYTICAL CONSTITUANTS: Protein: 7.0% - Fat content: 2.7% - Crude ash: 1.6% - Crude fibres: 1.0% - Moisture: 82.0%.",
   "images": [
     {
-      "id": 28434,
+      "id": 26970,
       "src": "https://petstore.co.ke/wp-content/uploads/2022/04/Royal-Canin-wet-food-04.jpg",
       "alt": "Royal Canin FHN Hairball Care Cat Pouch WithGravy 85g",
-      "name": "Royal Canin wet food-04"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Royal Canin",
+      "slug": "royal-canin"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/royal-canin-fhn-hairball-care-cat-pouch-with-gravy-0-085kg/?add-to-cart=26970",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2022-04-08T16:05:20",
-  "dateModified": "2026-06-17T05:01:27",
+  "permalink": "https://petstore.co.ke/product/royal-canin-fhn-hairball-care-cat-pouch-with-gravy-0-085kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/royal-canin-fhn-hairball-care-cat-pouch-with-gravy-0-085kg/?add-to-cart=26970",
+  "shortDescription": "ROYAL CANIN? Hairball Care in Gravy is formulated to help your cat eliminate ingested hair by stimulating the intestinal transit passage - removing an",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/Royal-Canin-wet-food-04.jpg",
+  "sku": "PSK-26970",
   "brand": "Royal Canin",
-  "weight_kg": 0.085,
+  "weight_kg": 0.09,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/Royal-Canin-wet-food-04.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/Royal-Canin-wet-food-04.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

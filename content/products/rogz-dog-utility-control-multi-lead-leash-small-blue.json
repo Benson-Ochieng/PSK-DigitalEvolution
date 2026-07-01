@@ -2,14 +2,12 @@
   "id": 17803,
   "name": "Rogz Dog Utility Control Multi Leash Small - Blue",
   "slug": "rogz-dog-utility-control-multi-lead-leash-small-blue",
-  "sku": "HLMC14-B",
   "onSale": false,
   "price": 1285,
   "regularPrice": 1285,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/HLMC14-B_Control-Multi-Lead_Blue.jpg",
   "categories": [
     {
       "id": 2351,
@@ -32,51 +30,51 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1919,
-      "name": "Leashes",
-      "slug": "leash"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-control-multi-lead-leash-small-blue/",
-  "shortDescription": "Rogz Dog Utility Control Multi Lead/Leash Small – Blue",
   "description": "Rogz Control Multi Dog Lead/Leash is a versatile Lead/Leash for both training and dog's who pull. This Lead/Leash puts you in control and aids behaviour correction with the stop-pull steering. Key Features: Behaviour correction with the stop-pull function Adjustable Lead/Leash allowing you to choose a Lead/Leash length Reflective webbing making you and your furry friend visible Waste bag holder to make it easy to clean up after your dog. The Lead/Leash works best when used with a harness that has both front and back attachment points like the Rogz Control or Utility Harnesses Size: Length 2.2m, Width 1.1cm",
   "images": [
     {
-      "id": 17772,
+      "id": 17803,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/01/HLMC14-B_Control-Multi-Lead_Blue.jpg",
-      "alt": "Rogz Dog Utility Control Multi Leash Small – Blue",
-      "name": "HLMC14 &#8211; B_Control Multi Lead_Blue"
+      "alt": "Rogz Dog Utility Control Multi Leash Small - Blue",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-control-multi-lead-leash-small-blue/?add-to-cart=17803",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2021-01-12T14:39:00",
-  "dateModified": "2026-06-17T04:14:07",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/rogz-dog-utility-control-multi-lead-leash-small-blue/",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-control-multi-lead-leash-small-blue/?add-to-cart=17803",
+  "shortDescription": "Rogz Control Multi Dog Lead/Leash is a versatile Lead/Leash for both training and dog's who pull. This Lead/Leash puts you in control and aids behavio",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/HLMC14-B_Control-Multi-Lead_Blue.jpg",
+  "sku": "PSK-17803",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/HLMC14-B_Control-Multi-Lead_Blue.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/HLMC14-B_Control-Multi-Lead_Blue.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

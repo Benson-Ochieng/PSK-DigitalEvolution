@@ -2,14 +2,12 @@
   "id": 50855,
   "name": "Stuffless Rope Animals (Pa3354)",
   "slug": "stuffless-rope-animals-3-assorted-pa3354",
-  "sku": "PA3354@F",
   "onSale": false,
   "price": 1500,
   "regularPrice": 1500,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/05/STUFFLESS-ROPE-ANIMALS-3-ASSORTED-e1715091059849.png",
   "categories": [
     {
       "id": 2345,
@@ -32,61 +30,51 @@
       "slug": "toys"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2109,
-      "name": "Small breeds",
-      "slug": "small-breeds"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=50855",
-  "shortDescription": "For small breed dogs who love to chew, these cute & unique animal-shaped toys have a squeaker in the head that makes a squeeky sound to grab dogs' attention in making a fun toy for them. Puppy chew toys including Raccoon, squirrel and Fox Assorted colours: Brown, Red or Gray, each sold separately. We cannot guarantee which colour/style you will receive when you purchase online",
   "description": "For small breed dogs who love to chew, these cute & unique animal-shaped toys have a squeaker in the head that makes a squeeky sound to grab dogs' attention in making a fun toy for them. STUFFLESS DOG TOY FOR PUPPY - No stuffing dog toy for small dogs & little puppies. This is much safer for your pet than your normal stuffed toy. It also saves you the hassle of cleaning up stuffing everywhere! CRINKLE SOUND - Dog toys can tug, crinkle, & squeak. Moreover, if tossed this toy will float effortlessly. When a dog chews the interior, the crinkly paper makes a strange noise for entertainment. ROPE DOG TOY - Cotton rope arms & rope legs ideal for tiny dog teething toys & puppy chew toys. Each toy comes with 4 knots for dogs to tug, chew, brush teeth, & massage gums. SAFE MATERIAL - These are tough chew toys for dogs, made of natural cotton, non-toxic. Both hand wash & machine wash are OK. No more heavy duty cleans up from regular stuffed toys.",
   "images": [
     {
-      "id": 46798,
+      "id": 50855,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/05/STUFFLESS-ROPE-ANIMALS-3-ASSORTED-e1715091059849.png",
-      "alt": "Stuffless Rope Toy With Crinkle Sound",
-      "name": "STUFFLESS ROPE ANIMALS &#8211; 3 ASSORTED"
+      "alt": "Stuffless Rope Animals (Pa3354)",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/stuffless-rope-animals-3-assorted-pa3354/?add-to-cart=50855",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-10-14T17:08:05",
-  "dateModified": "2026-05-06T17:10:41",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=50855",
+  "addToCartUrl": "https://petstore.co.ke/product/stuffless-rope-animals-3-assorted-pa3354/?add-to-cart=50855",
+  "shortDescription": "For small breed dogs who love to chew, these cute & unique animal-shaped toys have a squeaker in the head that makes a squeeky sound to grab dogs' att",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/05/STUFFLESS-ROPE-ANIMALS-3-ASSORTED-e1715091059849.png",
+  "sku": "PSK-50855",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/05/STUFFLESS-ROPE-ANIMALS-3-ASSORTED-e1715091059849.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/05/STUFFLESS-ROPE-ANIMALS-3-ASSORTED-e1715091059849.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

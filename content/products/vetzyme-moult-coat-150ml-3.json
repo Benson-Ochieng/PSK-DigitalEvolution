@@ -2,14 +2,12 @@
   "id": 43671,
   "name": "Vetzyme Moult & Coat 150ml",
   "slug": "vetzyme-moult-coat-150ml-3",
-  "sku": "VetM150ML@F",
-  "onSale": true,
+  "onSale": false,
   "price": 1440,
-  "regularPrice": 1600,
-  "salePrice": 1440,
+  "regularPrice": 1440,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/01/Vetzyme-MOULT-COAT-150ml.jpg",
   "categories": [
     {
       "id": 2332,
@@ -17,56 +15,51 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2085,
-      "name": "Supplements",
-      "slug": "supplements"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=43671",
-  "shortDescription": "This is a complementary pet food for dogs and cats to help reduce excessive moulting (hair shedding) and promote a shiny/glossy coat. Vet-zyme moult & coat is a rich source of vitamins and energy.",
   "description": "A daily feed supplement for dogs and cats, to promote a shiny handsome coat. It will help to reduce excessive moulting which can cause fur balls. Moult problems are often caused by the dehydrating effects of central heating and warm weather. A good source of vitamins and energy, it also promotes strong bones and teeth and is great for all round good health. Daily Recommendations Mix the following amounts with food (5ml=1 tsp) Cats up to 5ML Dogs Dogs 5-25kg 5mL-7.5ML Dogs 25-35kg 7.5ML-10ML Dogs 35kg+ 10ML-15ML Contains selected refined cod liver oil to provide the following ingredients: Vitamins Per 5ml per Kg Vitamin A (Palmitate) 300g 65mg Vitamin D (Cholecalciferol) 2.5mg 0.54mg Vitamin E (dl tocopheryl acetate) 1.55mg 335mg Polyunsaturated 31.2% &nbsp;",
   "images": [
     {
-      "id": 43220,
+      "id": 43671,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/01/Vetzyme-MOULT-COAT-150ml.jpg",
       "alt": "Vetzyme Moult & Coat 150ml",
-      "name": "Vetzyme- MOULT &amp; COAT 150ml"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/vetzyme-moult-coat-150ml-3/?add-to-cart=43671",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-01-30T11:42:08",
-  "dateModified": "2026-05-06T17:09:27",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=43671",
+  "addToCartUrl": "https://petstore.co.ke/product/vetzyme-moult-coat-150ml-3/?add-to-cart=43671",
+  "shortDescription": "A daily feed supplement for dogs and cats, to promote a shiny handsome coat. It will help to reduce excessive moulting which can cause fur balls. Moul",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/01/Vetzyme-MOULT-COAT-150ml.jpg",
+  "sku": "PSK-43671",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/01/Vetzyme-MOULT-COAT-150ml.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/01/Vetzyme-MOULT-COAT-150ml.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

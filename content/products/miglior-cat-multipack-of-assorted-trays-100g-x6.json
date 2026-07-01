@@ -2,14 +2,12 @@
   "id": 55892,
   "name": "Miglior Cat Multipack Of Assorted Trays 100g X6",
   "slug": "miglior-cat-multipack-of-assorted-trays-100g-x6",
-  "sku": "MCW023",
   "onSale": false,
   "price": 1080,
   "regularPrice": 1080,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/06/MIGLIOR-GATTO-Multipack-ASSORTED-TRAYS-X6.png",
   "categories": [
     {
       "id": 2325,
@@ -32,62 +30,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2451,
-      "name": "Miglior",
-      "slug": "miglior"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 2297,
-      "name": "Multipack",
-      "slug": "multipack"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/miglior-cat-multipack-of-assorted-trays-100g-x6/",
-  "shortDescription": "Formula designed to guarantee the key nutrients required for the well-being of your cat, including vitamins, Omega 3, calcium and phosphorous to support strong bones and teeth, healthy skin and glossy coat, and toned musculature. What's in the box? 2 Salmon Pate 2 Game Pate 2 Beef and Heart Pate",
   "description": "Formula designed to guarantee the key nutrients required for the well-being of your cat. Vitamin E with antioxidant action and a recipe rich in meat to help keep muscle mass toned. NUTRITIONAL CHARACTERISTICS COMPOSITION: Patè with beef and heart: meat and animal derivatives 50% (beef 5%, heart 5%), minerals. Patè with game: meat and animal derivatives 50% (game 5%), minerals. Patè with salmon: meat and animal derivatives 50%, fish and fish derivatives (salmon 5%), minerals. ANALYTICAL CONSTITUENTS: Moisture 80%, Crude protein 11%, Crude fibres 0.5%, Crude fat 4%, Crude ash 1.8%. ADDITIVES: Nutritional additives/kg: Vitamin E 23.7 mg, Zinc (Zinc sulphate monohydrate) 2.1 mg, Copper (Copper (II) sulphate pentahydrate) 2.0 mg, Manganese (Manganous sulphate monohydrate) 2.1 mg, Iodine (Potassium iodide) 0.4 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place. DAILY RECOMMENDED AMOUNT Ideal weight (kg) 3 4 5 Daily amount (g) 220 270 310 *Split the recommended daily amount into at least two meals.",
   "images": [
     {
-      "id": 56448,
+      "id": 55892,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/06/MIGLIOR-GATTO-Multipack-ASSORTED-TRAYS-X6.png",
       "alt": "Miglior Cat Multipack Of Assorted Trays 100g X6",
-      "name": "MIGLIOR GATTO Multipack &#8211; ASSORTED TRAYS X6"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Miglior",
+      "slug": "miglior"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/miglior-cat-multipack-of-assorted-trays-100g-x6/?add-to-cart=55892",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-06-17T11:58:36",
-  "dateModified": "2026-06-17T04:28:58",
+  "permalink": "https://petstore.co.ke/product/miglior-cat-multipack-of-assorted-trays-100g-x6/",
+  "addToCartUrl": "https://petstore.co.ke/product/miglior-cat-multipack-of-assorted-trays-100g-x6/?add-to-cart=55892",
+  "shortDescription": "Formula designed to guarantee the key nutrients required for the well-being of your cat. Vitamin E with antioxidant action and a recipe rich in meat t",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/06/MIGLIOR-GATTO-Multipack-ASSORTED-TRAYS-X6.png",
+  "sku": "PSK-55892",
   "brand": "Miglior",
   "weight_kg": 0.1,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/06/MIGLIOR-GATTO-Multipack-ASSORTED-TRAYS-X6.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/06/MIGLIOR-GATTO-Multipack-ASSORTED-TRAYS-X6.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

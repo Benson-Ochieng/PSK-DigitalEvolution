@@ -2,14 +2,12 @@
   "id": 61832,
   "name": "Reflex Plus Canned Cat Food Salmon In Pate 395g",
   "slug": "reflex-plus-canned-cat-food-salmon-in-pate-395gr-2",
-  "sku": "RPCW029",
   "onSale": false,
   "price": 338,
   "regularPrice": 338,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/11/REFLEX-PLUS-CANNED-CAT-FOOD-SALMON-IN-PATE-395GR.png",
   "categories": [
     {
       "id": 2325,
@@ -32,57 +30,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 622,
-      "name": "canned food",
-      "slug": "canned-food"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/reflex-plus-canned-cat-food-salmon-in-pate-395gr-2/",
-  "shortDescription": "Reflex Plus Pâté Salmon Adult Cat Food, its nutritional value and digestibility are high thanks to its high-quality animal protein and vitamin diversity. Its functional ingredients support many systems, while its high-water content contributes to daily water intake and supports kidney health.",
   "description": "The Reflex Plus Pâté Salmon Adult Cat Food offers high nutritional value and excellent digestibility thanks to quality animal protein and a diverse vitamin profile. Its rich moisture content supports daily hydration and assists kidney health. Key Benefits: High‑quality animal & fish‑derived proteins for digestibility Diverse vitamin and mineral mix to support overall health Elevated moisture content to bolster hydration and renal/urinary support Carefully formulated for adult cats’ nutritional needs Ingredients: Meat and animal derivatives, Fish and fish derivatives (Salmon 4%), Derivatives of plant origin, Minerals. Nutritional Components Crude protein 8.5% Fat content 5% Crude fiber 0.5% Raw ash 2.5% Moisture Content 81% Nutritional Additives Nutritional supplements: Vitamin A 1875 IU, Vitamin D3 250 IU, Vitamin E 35 mg, Taurine 500 mg. Trace Elements: 3b605 (Zinc 14mg/kg), 3b103 (Iron 10mg/kg), 3b405 (Copper 1.5mg/kg), 3b503 (Manganese 2.5mg/kg), 3b202 (Iodine 0.4mg/kg), 3b801 (Selenium 0.025mg/kg). Nutritional Recommendation Serve at room temperature. • Clean, fresh drinking water should always be available. • If this food is new to your cat, introduce it gradually over a few days. • The exact amount of food for your cat may vary depending on many factors such as age, breed, weight, sex, and activity level. • Not suitable for human use.",
   "images": [
     {
-      "id": 61834,
+      "id": 61832,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/11/REFLEX-PLUS-CANNED-CAT-FOOD-SALMON-IN-PATE-395GR.png",
       "alt": "Reflex Plus Canned Cat Food Salmon In Pate 395g",
-      "name": "REFLEX PLUS CANNED CAT FOOD SALMON IN PATE 395GR"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-canned-cat-food-salmon-in-pate-395gr-2/?add-to-cart=61832",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-11-03T11:23:41",
-  "dateModified": "2026-06-17T05:01:31",
+  "permalink": "https://petstore.co.ke/product/reflex-plus-canned-cat-food-salmon-in-pate-395gr-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-canned-cat-food-salmon-in-pate-395gr-2/?add-to-cart=61832",
+  "shortDescription": "The Reflex Plus Pâté Salmon Adult Cat Food offers high nutritional value and excellent digestibility thanks to quality animal protein and a diverse vi",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/11/REFLEX-PLUS-CANNED-CAT-FOOD-SALMON-IN-PATE-395GR.png",
+  "sku": "PSK-61832",
   "brand": "Reflex",
-  "weight_kg": 0.395,
+  "weight_kg": 0.4,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/11/REFLEX-PLUS-CANNED-CAT-FOOD-SALMON-IN-PATE-395GR.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/11/REFLEX-PLUS-CANNED-CAT-FOOD-SALMON-IN-PATE-395GR.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 57090,
   "name": "Soup Time Cat Creamy Treats Tuna & Crab 70g",
   "slug": "soup-time-cat-creamy-treats-tuna-crab70g",
-  "sku": "STCCTTC70",
   "onSale": false,
   "price": 297,
   "regularPrice": 297,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-2025-07-23T083512.198.png",
   "categories": [
     {
       "id": 2325,
@@ -37,52 +35,51 @@
       "slug": "soup-time"
     }
   ],
-  "brands": [
-    {
-      "id": 2467,
-      "name": "Soup Time",
-      "slug": "soup-time"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/soup-time-cat-creamy-treats-tuna-crab70g/",
-  "shortDescription": "Soup Time Creamy is a healthy and hydrating lickable treat made with premium tuna and crab. This natural, tasty snack is packed with essential nutrients to keep your cat happy and healthy. Serve it as a treat, reward, or a delicious topping on dry food to add variety to their diet.",
   "description": "Soup Time Creamy is a healthy and hydrating lickable treat made with premium tuna and crab. This natural, tasty snack is packed with essential nutrients to keep your cat happy and healthy. Serve it as a treat, reward, or a delicious topping on dry food to add variety to their diet. Ingredients: Tuna, Crab, Chicken, Starch, Taurine, Vitamins (A, B2, B3, B5, D3, E), Xanthan Gum. Guaranteed Analysis: Crude Protein: 6.5% (min) Crude Fat: 0.1% (min) Crude Fiber: 1.0% (min) Crude Ash: 2.0% (max) Moisture: 90.0% (max) Serving Suggestions: Serve directly from the tube as a bonding treat Pour onto a dish for a quick snack Use as a flavorful topper to encourage picky eaters",
   "images": [
     {
-      "id": 57093,
+      "id": 57090,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-2025-07-23T083512.198.png",
       "alt": "Soup Time Cat Creamy Treats Tuna & Crab 70g",
-      "name": "Untitled design &#8211; 2025-07-23T083512.198"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Soup Time",
+      "slug": "soup-time"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/soup-time-cat-creamy-treats-tuna-crab70g/?add-to-cart=57090",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-07-23T08:21:48",
-  "dateModified": "2026-06-24T14:48:56",
+  "permalink": "https://petstore.co.ke/product/soup-time-cat-creamy-treats-tuna-crab70g/",
+  "addToCartUrl": "https://petstore.co.ke/product/soup-time-cat-creamy-treats-tuna-crab70g/?add-to-cart=57090",
+  "shortDescription": "Soup Time Creamy is a healthy and hydrating lickable treat made with premium tuna and crab. This natural, tasty snack is packed with essential nutrien",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-2025-07-23T083512.198.png",
+  "sku": "PSK-57090",
   "brand": "Soup Time",
   "weight_kg": 0.07,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-2025-07-23T083512.198.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-2025-07-23T083512.198.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

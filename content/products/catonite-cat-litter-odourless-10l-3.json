@@ -2,14 +2,12 @@
   "id": 54093,
   "name": "Catonite Cat Litter Odourless 10l",
   "slug": "catonite-cat-litter-odourless-10l-3",
-  "sku": "CCL001@F",
-  "onSale": true,
+  "onSale": false,
   "price": 1350,
-  "regularPrice": 1800,
-  "salePrice": 1350,
+  "regularPrice": 1350,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/02/Catonite-Cat-Litter-Odourless-10L.png",
   "categories": [
     {
       "id": 2281,
@@ -17,57 +15,51 @@
       "slug": "catonite"
     }
   ],
-  "brands": [
-    {
-      "id": 2430,
-      "name": "Catonite",
-      "slug": "catonite"
-    }
-  ],
-  "tags": [
-    {
-      "id": 831,
-      "name": "bentonite",
-      "slug": "bentonite"
-    },
-    {
-      "id": 823,
-      "name": "clumping",
-      "slug": "clumping"
-    },
-    {
-      "id": 2316,
-      "name": "unscented",
-      "slug": "unscented"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=54093",
-  "shortDescription": "Catonite Cat litter – clumps quickly with its structure that traps odor and liquid. It does not contain ingredients that will harm nature. It is environmentally friendly. It is obtained from completely sustainable, 100% natural. It does not contain chemicals that could harm both your and your cat's health.",
   "description": "Catonite Cat litter - clumps quickly with its structure that traps odor and liquid. It does not contain ingredients that will harm nature. It is environmentally friendly. It is obtained from completely sustainable, 100% natural. It does not contain chemicals that could harm both your and your cat's health. It clumps quickly with its structure that traps odor and liquid. It does not contain ingredients that will harm nature. It is environmentally friendly. Key Feature: Low Dusting High quality bentonite, which instantly clumps with dusting reduced to a minimum level through special processes, does not stick to your cat's paws and thus does not disperse outside the litter box. Absorbency Feature Thanks to the extra durable lumps formed thanks to its high liquid absorption ability, your cat's litter is easily cleaned and the remaining litter remains cleaner and can be used for a long time. Anti-Odor EffectAnti-Odor Effect a> It has high liquid absorption ability thanks to the natural minerals it contains. It quickly absorbs and traps the liquid, thus preventing the formation of odor and bacteria. Granule Size mm 0.5 - 2.35 Liquid Absorption percentage? % 320 - 250 Clumping Weight g/20ml 62 (± 8) Clumping Resistance cm 85 (± 15) Mass Density g/l 820 - 880 Colour HLab 92 - 84 PH 9.2 – 10.5 Moisture % 8 (± 2) pollination % (",
   "images": [
     {
-      "id": 53657,
+      "id": 54093,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/02/Catonite-Cat-Litter-Odourless-10L.png",
       "alt": "Catonite Cat Litter Odourless 10l",
-      "name": "Catonite Cat Litter Odourless 10L"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Catonite",
+      "slug": "catonite"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/catonite-cat-litter-odourless-10l-3/?add-to-cart=54093",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-03-21T16:06:57",
-  "dateModified": "2026-06-17T04:32:56",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=54093",
+  "addToCartUrl": "https://petstore.co.ke/product/catonite-cat-litter-odourless-10l-3/?add-to-cart=54093",
+  "shortDescription": "Catonite Cat litter - clumps quickly with its structure that traps odor and liquid. It does not contain ingredients that will harm nature. It is envir",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/02/Catonite-Cat-Litter-Odourless-10L.png",
+  "sku": "PSK-54093",
   "brand": "Catonite",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/02/Catonite-Cat-Litter-Odourless-10L.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/02/Catonite-Cat-Litter-Odourless-10L.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

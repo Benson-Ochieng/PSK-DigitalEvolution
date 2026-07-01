@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { Form, Link, Outlet, redirect, useLoaderData, useLocation } from "react-router";
+import { Form, Link, Outlet, redirect, useLoaderData, useLocation, useNavigation } from "react-router";
 import type { User } from "~/lib/db.server";
 
 export async function loader({ request }: { request: Request }) {
@@ -26,6 +26,8 @@ export async function action({ request }: { request: Request }) {
 export default function VpBackendLayout() {
   const { user, reviewsCount, ordersCount } = useLoaderData() as { user: User; reviewsCount: number; ordersCount: number };
   const location = useLocation();
+  const navigation = useNavigation();
+  const isLoading = navigation.state !== "idle";
 
   const [productsOpen, setProductsOpen] = useState(
     location.pathname.startsWith("/store_backend/products")
@@ -33,7 +35,6 @@ export default function VpBackendLayout() {
   const [productsHovered, setProductsHovered] = useState(false);
   const [pagesHovered, setPagesHovered] = useState(false);
   const [usersHovered, setUsersHovered] = useState(false);
-  const [downloadsHovered, setDownloadsHovered] = useState(false);
   const [historyHovered, setHistoryHovered] = useState(false);
   const [postsHovered, setPostsHovered] = useState(false);
   const [mediaHovered, setMediaHovered] = useState(false);
@@ -96,7 +97,6 @@ export default function VpBackendLayout() {
     { label: "Analytics", path: "/store_backend/analytics", icon: "📈" },
     { label: "Pages", path: "/store_backend/pages", icon: "📄" },
     { label: "Comments", path: "/store_backend/comments", icon: "💬" },
-    { label: "Manuals & Drivers", path: "/store_backend/downloads", icon: "📥" },
     { label: "User Directory", path: "/store_backend/users", icon: "👥" },
     { label: "Live Orders", path: "/store_backend/orders", icon: "🛒" },
     { label: "Coupon Console", path: "/store_backend/coupons", icon: "🎫" },
@@ -107,7 +107,7 @@ export default function VpBackendLayout() {
     <div className={`admin-layout ${sidebarCollapsed ? "sidebar-collapsed" : ""}`}>
       <style dangerouslySetInnerHTML={{
         __html: `
-        .admin-layout {
+         .admin-layout {
           min-height: 100vh;
           background: #0d0d12;
           color: #f3f4f6;
@@ -116,6 +116,28 @@ export default function VpBackendLayout() {
           grid-template-columns: 280px 1fr;
           overflow: hidden;
           transition: grid-template-columns 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .top-loading-bar {
+          position: fixed;
+          top: 0;
+          left: 0;
+          height: 3px;
+          background: linear-gradient(90deg, #00ccff, #a855f7, #00ccff);
+          background-size: 200% 100%;
+          animation: loadingBarProgress 1.5s infinite linear;
+          z-index: 99999;
+          width: 100%;
+        }
+        @keyframes loadingBarProgress {
+          0% { background-position: 200% 0; }
+          100% { background-position: -200% 0; }
+        }
+
+        .admin-content-viewport.loading-transition {
+          opacity: 0.5;
+          pointer-events: none;
+          transition: opacity 0.25s ease;
         }
 
         .admin-layout.sidebar-collapsed {
@@ -1410,45 +1432,7 @@ export default function VpBackendLayout() {
               <span className="nav-label">Comments</span>
             </Link>
 
-            {/* Collapsible Manuals & Drivers Menu */}
-            <div
-              onMouseEnter={() => handleHoverStart("downloads", setDownloadsHovered)}
-              onMouseLeave={() => handleHoverEnd("downloads", setDownloadsHovered)}
-            >
-              <Link
-                to="/store_backend/downloads"
-                className={`nav-item menu-parent ${location.pathname.startsWith("/store_backend/downloads") ? "active" : ""}`}
-                style={{ textDecoration: "none" }}
-              >
-                <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-                  <span style={{ fontSize: "16px" }}>📥</span>
-                  <span className="nav-label">Manuals & Drivers</span>
-                </div>
-                <span className={`chevron-icon ${downloadsHovered || location.pathname.startsWith("/store_backend/downloads") ? "rotated" : ""}`}>▶</span>
-              </Link>
 
-              <div
-                className="submenu-container"
-                style={{
-                  maxHeight: (downloadsHovered || location.pathname.startsWith("/store_backend/downloads")) ? "120px" : "0px",
-                  opacity: (downloadsHovered || location.pathname.startsWith("/store_backend/downloads")) ? 1 : 0,
-                  marginTop: (downloadsHovered || location.pathname.startsWith("/store_backend/downloads")) ? "4px" : "0px",
-                }}
-              >
-                <Link
-                  to="/store_backend/downloads"
-                  className={`submenu-item ${(location.pathname === "/store_backend/downloads" && (!location.search || !location.search.includes("view=categories"))) ? "active" : ""}`}
-                >
-                  All Manuals
-                </Link>
-                <Link
-                  to="/store_backend/downloads?view=categories"
-                  className={`submenu-item ${location.search.includes("view=categories") ? "active" : ""}`}
-                >
-                  Categories
-                </Link>
-              </div>
-            </div>
 
             {/* Collapsible Users Menu */}
             <div
@@ -1624,7 +1608,9 @@ export default function VpBackendLayout() {
           </div>
         </header>
 
-        <div className="admin-content-viewport">
+        {isLoading && <div className="top-loading-bar" />}
+
+        <div className={`admin-content-viewport ${isLoading ? "loading-transition" : ""}`}>
           <Outlet />
         </div>
       </main>

@@ -2,14 +2,12 @@
   "id": 56039,
   "name": "Paw Performance Polo-XL Women Blue",
   "slug": "paw-performance-polo-small-women-blue-2",
-  "sku": "PPPPXWB",
   "onSale": false,
   "price": 2500,
   "regularPrice": 2500,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/06/FRONT-POLO-SHIRT-FIXED.png",
   "categories": [
     {
       "id": 2243,
@@ -17,57 +15,51 @@
       "slug": "human"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2245,
-      "name": "Human",
-      "slug": "human"
-    },
-    {
-      "id": 2309,
-      "name": "Polo",
-      "slug": "polo"
-    },
-    {
-      "id": 2310,
-      "name": "T-shirt",
-      "slug": "t-shirt"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/paw-performance-polo-small-women-blue-2/",
-  "shortDescription": "Celebrate your love for pets in comfort and style with this women’s XL-fit polo in a beautiful blue shade. Made from a soft, breathable cotton-poly blend, this shirt features a sweet embroidered paw print that blends cat and dog paw designs — a heartfelt touch for any animal lover.",
   "description": "Celebrate your love for pets in comfort and style with this women’s XL-fit polo in a beautiful blue shade. Made from a soft, breathable cotton-poly blend, this shirt features a sweet embroidered paw print that blends cat and dog paw designs — a heartfelt touch for any animal lover. Size: Extra Large (Women’s Fit) Color: Blue Material: Lightweight cotton-poly blend for softness and breathability Design: Embroidered paw print combining cat & dog motifs Fit: Flattering XL women’s fit with a shaped silhouette and capped sleeves Care: Machine washable for easy care and lasting quality Whether you're out with your pet or just showing your love for them, this polo shirt brings warmth, comfort, and personality to your everyday wardrobe. .",
   "images": [
     {
-      "id": 56029,
+      "id": 56039,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/06/FRONT-POLO-SHIRT-FIXED.png",
-      "alt": "Paw Performance Polo-Small Women Blue",
-      "name": "FRONT POLO SHIRT FIXED"
-    },
+      "alt": "Paw Performance Polo-XL Women Blue",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
     {
-      "id": 56031,
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/06/BACK-POLO-SHIRT-FIXED-1.png",
-      "alt": "Paw Performance Polo-Small Women Blue",
-      "name": "BACK POLO SHIRT FIXED"
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/paw-performance-polo-small-women-blue-2/?add-to-cart=56039",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-06-23T16:27:49",
-  "dateModified": "2026-05-06T17:11:28",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/paw-performance-polo-small-women-blue-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/paw-performance-polo-small-women-blue-2/?add-to-cart=56039",
+  "shortDescription": "Celebrate your love for pets in comfort and style with this women’s XL-fit polo in a beautiful blue shade. Made from a soft, breathable cotton-poly bl",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/06/FRONT-POLO-SHIRT-FIXED.png",
+  "sku": "PSK-56039",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/06/FRONT-POLO-SHIRT-FIXED.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/06/FRONT-POLO-SHIRT-FIXED.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

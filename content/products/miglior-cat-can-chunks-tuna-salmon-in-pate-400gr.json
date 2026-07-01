@@ -2,14 +2,12 @@
   "id": 34609,
   "name": "Miglior  Canned Cat Food - Tuna & Salmon, Pate 400g",
   "slug": "miglior-cat-can-chunks-tuna-salmon-in-pate-400gr",
-  "sku": "MCW018",
   "onSale": false,
   "price": 280,
   "regularPrice": 280,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/01/MIGLIOR-GATTO-CON-TONNO-E-SALMONE-IN-PATE-400G.jpg",
   "categories": [
     {
       "id": 2325,
@@ -32,62 +30,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2451,
-      "name": "Miglior",
-      "slug": "miglior"
-    }
-  ],
-  "tags": [
-    {
-      "id": 622,
-      "name": "canned food",
-      "slug": "canned-food"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/miglior-cat-can-chunks-tuna-salmon-in-pate-400gr/",
-  "shortDescription": "Formula designed to guarantee the key nutrients required for the well-being of your cat. Vitamin E with antioxidant action and a recipe rich in meat to help keep muscle mass toned.",
   "description": "Meat and animal derivatives 50%, fish and fish derivatives (Tuna 5%, Salmon5%), cereals, Minerals. ANALYTICAL CONSTITUENTS: Moisture 77%, Crude protein 10%, Crude fat 6%, Crude fibers 0.5%, Crude ash 3%. Nutritional additives / kg: Vitamin E 10 mg, Copper (Copper (II) sulphate pentahydrate) 2 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight. Once opened, store in refrigerator for 2-3 days.",
   "images": [
     {
-      "id": 34611,
+      "id": 34609,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/01/MIGLIOR-GATTO-CON-TONNO-E-SALMONE-IN-PATE-400G.jpg",
-      "alt": "Miglior Canned Cat Food – Tuna & Salmon, Pate 400g",
-      "name": "MIGLIOR GATTO CON TONNO E SALMONE IN PATE 400G"
+      "alt": "Miglior  Canned Cat Food - Tuna & Salmon, Pate 400g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Miglior",
+      "slug": "miglior"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/miglior-cat-can-chunks-tuna-salmon-in-pate-400gr/?add-to-cart=34609",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2023-01-24T16:59:51",
-  "dateModified": "2026-06-24T15:12:09",
+  "permalink": "https://petstore.co.ke/product/miglior-cat-can-chunks-tuna-salmon-in-pate-400gr/",
+  "addToCartUrl": "https://petstore.co.ke/product/miglior-cat-can-chunks-tuna-salmon-in-pate-400gr/?add-to-cart=34609",
+  "shortDescription": "Meat and animal derivatives 50%, fish and fish derivatives (Tuna 5%, Salmon5%), cereals, Minerals. ANALYTICAL CONSTITUENTS: Moisture 77%, Crude protei",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/01/MIGLIOR-GATTO-CON-TONNO-E-SALMONE-IN-PATE-400G.jpg",
+  "sku": "PSK-34609",
   "brand": "Miglior",
   "weight_kg": 0.4,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/01/MIGLIOR-GATTO-CON-TONNO-E-SALMONE-IN-PATE-400G.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/01/MIGLIOR-GATTO-CON-TONNO-E-SALMONE-IN-PATE-400G.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

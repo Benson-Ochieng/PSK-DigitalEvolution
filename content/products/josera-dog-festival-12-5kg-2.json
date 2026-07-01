@@ -2,14 +2,12 @@
   "id": 62597,
   "name": "Josera Dog Festival 12.5kg",
   "slug": "josera-dog-festival-12-5kg-2",
-  "sku": "JDF004@F",
-  "onSale": true,
+  "onSale": false,
   "price": 11049,
-  "regularPrice": 12999,
-  "salePrice": 11049,
+  "regularPrice": 11049,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/11/Josera-Dog-Festival-12.5kg-.png",
   "categories": [
     {
       "id": 2112,
@@ -17,47 +15,51 @@
       "slug": "josera"
     }
   ],
-  "brands": [
-    {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=62597",
-  "shortDescription": "Josera Festival with a delicious sauce for picky dogs. A unique menu for our discerning connoisseurs: This food should be fed dry or moist. Just add water to the gravy powder to transform this crunchy kibble into a special taste sensation! This variety is sure to win over even the fussiest pet.",
   "description": "Composition: poultry; whole-grain corn; rice; poultry fat; beet fibre; dried salmon 6.0 %; potato starch; hydrolysed poultry protein; hydrolysed vegetable protein; minerals; dried poultry liver; yeast; haemoglobin powder; ground chicory root (natural source of inulin); dried meat from the New Zealand green-lipped mussel (Perna canaliculus). Product Details: A unique menu for our discerning connoisseurs: This food can be fed dry or moist. Just add water to the gravy powder to transform this crunchy kibble into a special taste sensation! This variety is sure to win over even the fussiest pet. Salmon adds a tasty finishing touch to the exclusive recipe. With tasty gravy powder for added flavor Valuable fatty acids promote a healthy appearance and a shiny coat. Supplies active and sporting dogs with plenty of energy. Supports bone formation and joints.",
   "images": [
     {
-      "id": 89078,
+      "id": 62597,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/11/Josera-Dog-Festival-12.5kg-.png",
       "alt": "Josera Dog Festival 12.5kg",
-      "name": "Josera Dog Festival 12.5kg"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/josera-dog-festival-12-5kg-2/?add-to-cart=62597",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-11-21T10:26:52",
-  "dateModified": "2026-06-17T04:33:52",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=62597",
+  "addToCartUrl": "https://petstore.co.ke/product/josera-dog-festival-12-5kg-2/?add-to-cart=62597",
+  "shortDescription": "Composition: poultry; whole-grain corn; rice; poultry fat; beet fibre; dried salmon 6.0 %; potato starch; hydrolysed poultry protein; hydrolysed veget",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/11/Josera-Dog-Festival-12.5kg-.png",
+  "sku": "PSK-62597",
   "brand": "Josera",
   "weight_kg": 12.5,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/11/Josera-Dog-Festival-12.5kg-.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/11/Josera-Dog-Festival-12.5kg-.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

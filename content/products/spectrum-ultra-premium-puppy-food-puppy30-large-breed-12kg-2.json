@@ -2,14 +2,12 @@
   "id": 1626,
   "name": "Spectrum Ultra Premium Puppy Food - Puppy 30 Large Breed 12kg",
   "slug": "spectrum-ultra-premium-puppy-food-puppy30-large-breed-12kg-2",
-  "sku": "SDD007",
   "onSale": false,
   "price": 14950,
   "regularPrice": 14950,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/02/Untitled-design-12-e1712567457882.png",
   "categories": [
     {
       "id": 2345,
@@ -32,67 +30,51 @@
       "slug": "spectrum"
     }
   ],
-  "brands": [
-    {
-      "id": 2468,
-      "name": "Spectrum",
-      "slug": "spectrum"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 637,
-      "name": "kibble",
-      "slug": "kibble"
-    },
-    {
-      "id": 1034,
-      "name": "large breed",
-      "slug": "large-breed"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/spectrum-ultra-premium-puppy-food-puppy30-large-breed-12kg-2/",
-  "shortDescription": "Fuel your puppy’s potential with SPECTRUM Puppy Starter30 , a scientifically formulated diet for large breed puppies aged 2–14 months. It provides the right blend of proteins, fats, vitamins, and minerals to encourage controlled bone growth , strong muscles , and a resilient immune system . Give your puppy the nutrition it deserves to grow into a strong and balanced adult dog.",
   "description": "SPECTRUM Puppy30 Large Breed, specially formulated complete and balanced ultra-premium puppy food to meet nutritional requirements of large breed puppies (expected adult weight 25 kg or more) from 2 to 14 months of age. OPTIMUM PUPPY GROWTH: SPECTRUM Puppy30 with its highly digestible protein sources and unique palatability helps your puppy to adapt its food easily and ensure optimum growth. STRONG IMMUNE SYSTEM: SPECTRUM Puppy30 supports the immune system with Qrill rich in glutamine and protects your puppy from diseases. HIP & JOINT HEALTH: Large Breed Dogs are prone to hip & joint problems caused by sub-optimal nutrition. SPECTRUM Puppy30 protects joint health with Qrill, a very rich source of glucosamine. BRAIN HEALTH: Omega 3 and marine phospholipids support the nervous system and brain health. Qrill supports the learning ability of your puppy. SYNOX 3D: a blend of natural, standardized GMO free - titrated plant extracts (Rosemary, grape seed, curcuma, citrus and cloves) clinical proven in cats to counter free radicals induced by oxidative cell damage . Free radicals are essential for life. However, ageing is linked to an increased production of free radicals and a decreased ability to counter their negative effects on health and wellbeing. SYNOX 3D limits the production of malondialdehyde, one of the main toxic metabolites of oxidative stress, protecting cell membrane, mitochondria and genetic material of each individual cell. The unique composition of SYNOX 3D is the result of a screening process on 134 plant extracts, combined with trials in laboratory conditions and a successful clinical trial run in pets. Potential health benefits include increased resistance against oxidative stress, improved life-span and immune stimulation. Qrill: Antarctic qrill is a breakthrough ingredient providing a bioavailable matrix of proteins, omega-3 phospholipids and astaxanthin. Qrill or Euphausia superba phospholipids have been clinically proven to promote brain development, skin health, active joints and body composition. Xylo-oligsaccharides (XOS): super probiotics obtained by hydrolysis of corn cobs. XOS in the diet resists salivary, gastric and pancreatic enzymes. XOS limits energy wasting fermentation which is often the source of digestive discomfort and flatulence. The selective proliferation of Bifidobacteria and Lactobacilli, stimulates the synthesis of Short Chain Fatty Acids (SCFA) in the colon. The acidifying effect of SCFA counters potential pathogenic bacteria, promotes toxin neutralisation and keeps minerals in ionic configuration increasing bioavailability. SCFA serve as an available energy source to promote the regeneration of epithelial cells, increase the villus height, which induces a?larger area of epithelial villus cells that could facilitate absorption of nutrients. Ingredients: Dehydrated chicken protein, brown rice, chicken oil, maize, dehydrated lamb meat protein, dried antarctic krill (4%), wheat, hydrolysed chicken liver, whey powder, brewer's yeast, carob flour, L-carnitine, xylo-oligosaccharide (400 ppm), rosmarinus sp. - curcuma sp. - vitis sp.- citrus sp. - eugenia sp. (300 ppm). Additives: Vitamin A (E-672): 18000 IU/kg, Vitamin D3 (E-671): 1500 IU/kg, Vitamin E (3A700): 200 mg/kg, Vitamin C (E301): 200 mg/kg, Iron (E1): 320 mg/kg, Iodine (E2): 1.5 mg/kg, Copper (E4): 45 mg/kg, Manganese (E5): 20 mg/kg, Zinc (E6): 180 mg/kg, Selenium (E8): 0.9 mg/kg, Preservatives - Antioxidants. NUTRIENT COMPONENTS Protein ...............................30% Fat ..................................... 16% Cellulose (Fiber)..................3.5% &nbsp;",
   "images": [
     {
-      "id": 34167,
+      "id": 1626,
       "src": "https://petstore.co.ke/wp-content/uploads/2019/02/Untitled-design-12-e1712567457882.png",
-      "alt": "SHORT EXPIRY-CLEARANCE: Spectrum Ultra-Premium Puppy Food – Puppy 30 Large Breed 12kg",
-      "name": "Untitled design (12)"
+      "alt": "Spectrum Ultra Premium Puppy Food - Puppy 30 Large Breed 12kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Spectrum",
+      "slug": "spectrum"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/spectrum-ultra-premium-puppy-food-puppy30-large-breed-12kg-2/?add-to-cart=1626",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2019-02-11T10:06:49",
-  "dateModified": "2026-06-17T04:28:41",
+  "permalink": "https://petstore.co.ke/product/spectrum-ultra-premium-puppy-food-puppy30-large-breed-12kg-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/spectrum-ultra-premium-puppy-food-puppy30-large-breed-12kg-2/?add-to-cart=1626",
+  "shortDescription": "SPECTRUM Puppy30 Large Breed, specially formulated complete and balanced ultra-premium puppy food to meet nutritional requirements of large breed pupp",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/02/Untitled-design-12-e1712567457882.png",
+  "sku": "PSK-1626",
   "brand": "Spectrum",
   "weight_kg": 12,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/02/Untitled-design-12-e1712567457882.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/02/Untitled-design-12-e1712567457882.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

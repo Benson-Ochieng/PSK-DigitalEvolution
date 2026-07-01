@@ -2,14 +2,12 @@
   "id": 90105,
   "name": "Pack Of 12 - Wanpy Dog Pouch Food - Chicken & Vegetable 100G",
   "slug": "pack-of-12-wanpy-dog-pouch-food-chicken-vegetable-100g",
-  "sku": "WDW023$12",
-  "onSale": true,
+  "onSale": false,
   "price": 1557,
-  "regularPrice": 2076,
-  "salePrice": 1557,
+  "regularPrice": 1557,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/Wanpy-chicken-and-vegetables-.png",
   "categories": [
     {
       "id": 2345,
@@ -32,62 +30,51 @@
       "slug": "wanpy"
     }
   ],
-  "brands": [
-    {
-      "id": 2479,
-      "name": "Wanpy",
-      "slug": "wanpy"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2055,
-      "name": "Bulk Cat Food & Bulk Dog Food",
-      "slug": "bulk"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 939,
-      "name": "On Sale Now",
-      "slug": "sale"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pack-of-12-wanpy-dog-pouch-food-chicken-vegetable-100g/",
-  "shortDescription": "WANPY Chicken & Vegetable Dog Wet Food is a tasty and highly digestible meal specially made to provide dogs with balanced nutrition and irresistible flavour. Prepared with real chicken, vegetables, and essential vitamins, this premium wet dog food supports healthy digestion, energy, immunity, and overall wellbeing.",
   "description": "Perfect as a complete meal, topper, or special treat, WANPY® Chicken & Vegetable delivers nutritious goodness without disrupting your dog’s regular diet. Why Choose WANPY® Chicken & Vegetable Dog Food? Made with Real Chicken & Vegetables This delicious recipe combines quality chicken with nutritious vegetables including carrot and potato to create a flavour dogs love while supporting balanced daily nutrition. Highly Digestible Formula WANPY Chicken & Vegetable is made with easy-to-digest ingredients that help support digestive comfort and efficient nutrient absorption. Enriched with Essential Vitamins Added vitamins help support your dog’s: Immune system Energy levels Skin and coat health Overall vitality Healthy & Natural Recipe This wet dog food is made without added preservatives, artificial colourants, or flavourings, making it a healthier feeding option for everyday enjoyment. Perfect as a Meal or Treat Serve it as: A complete meal A tasty meal topper A nutritious snack or reward Key Benefits of WANPY® Chicken & Vegetable Dog Food Made with real chicken and vegetables Highly digestible wet dog food Supports healthy digestion Rich in vitamins and minerals Helps support immunity and vitality No added preservatives No artificial colourants or flavourings Delicious flavour dogs enjoy Suitable for daily feeding or treats Main Ingredients WANPY Chicken & Vegetable Dog Wet Food contains: Chicken Carrot Potato Starch Carrageenan Oligosaccharides Green tea extract Vitamins A, B2, B3, B5, D3, and E Feeding & Storage Instructions Feeding Guide Feed according to your dog’s size, age, and activity level. Can be served alone or mixed with dry food for added flavour and nutrition. Storage Store in a cool, dry place. Refrigerate unused portions after opening and serve fresh. &nbsp;",
   "images": [
     {
-      "id": 90067,
+      "id": 90105,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Wanpy-chicken-and-vegetables-.png",
-      "alt": "Pack Of 12 – Wanpy Dog Pouch Food – Chicken & Vegetable 100G",
-      "name": "Wanpy chicken and vegetables"
+      "alt": "Pack Of 12 - Wanpy Dog Pouch Food - Chicken & Vegetable 100G",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Wanpy",
+      "slug": "wanpy"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/pack-of-12-wanpy-dog-pouch-food-chicken-vegetable-100g/?add-to-cart=90105",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-05-28T09:20:24",
-  "dateModified": "2026-06-24T09:12:08",
+  "permalink": "https://petstore.co.ke/product/pack-of-12-wanpy-dog-pouch-food-chicken-vegetable-100g/",
+  "addToCartUrl": "https://petstore.co.ke/product/pack-of-12-wanpy-dog-pouch-food-chicken-vegetable-100g/?add-to-cart=90105",
+  "shortDescription": "Perfect as a complete meal, topper, or special treat, WANPY® Chicken & Vegetable delivers nutritious goodness without disrupting your dog’s regular di",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/Wanpy-chicken-and-vegetables-.png",
+  "sku": "PSK-90105",
   "brand": "Wanpy",
   "weight_kg": 1.2,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/Wanpy-chicken-and-vegetables-.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/Wanpy-chicken-and-vegetables-.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

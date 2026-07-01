@@ -2,14 +2,12 @@
   "id": 52793,
   "name": "Reflex Happy Hour Cat Treat Healthy Bones 60g",
   "slug": "reflex-happy-hour-cat-treat-healthy-bones-60gr-4",
-  "sku": "RCT015@F",
-  "onSale": true,
+  "onSale": false,
   "price": 127,
-  "regularPrice": 195,
-  "salePrice": 127,
+  "regularPrice": 127,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/07/REFLEX-HAPPY-HOUR-CAT-TREAT-HEALTHY-BONES-60GR-1.png",
   "categories": [
     {
       "id": 2332,
@@ -17,41 +15,51 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=52793",
-  "shortDescription": "Delicious, crunchy morsels designed to delight your cat’s taste buds while promoting their overall health! Made with high-quality ingredients, thes",
   "description": "Delicious, crunchy morsels designed to delight your cat’s taste buds while promoting their overall health! Made with high-quality ingredients, these treats are rich in essential vitamins and minerals. Each bite is packed with flavor and offers a satisfying crunch that cats love. Perfect as a daily reward or complementary snack, Reflex Happy Hours Cat Treats help maintain your cat’s dental health while supporting bone strength and vitality. Available in a variety of flavors to suit even the pickiest eaters. Key Features: Crunchy texture helps support dental hygiene Enriched with essential nutrients for strong bones and overall wellbeing Made with premium proteins from salmon, lamb, and chicken Contains natural ingredients such as flaxseed, blueberry, and cranberry for added nutrition Free from artificial additives and fillers Ingredients: Processed Salmon Protein, Processed Lamb Protein, Processed Chicken Protein, Corn, Chicken Fat, Corn Gluten, Salmon Oil, Fish Flavor, Powdered Cellulose, Vitamins and Minerals, Brewer’s Yeast, Salt, Blueberry, Flaxseed, Cranberry, Yucca Schidigera, Xylooligosaccharides (XOS), Taurine (3a370), Preservatives and Antioxidants (E320 & E321). Nutrient Composition: Component Percentage Crude Protein 32% Fat Content 16% Crude Fiber 8% Raw Ash 3% Moisture 10% &nbsp; Feeding Recommendations: Suitable for adult cats as a complementary food. Can be given entirely in one meal or as occasional treats. Daily feeding amount may vary depending on your cat’s size, lifestyle (indoor/outdoor), and activity level. Ensure your pet always has access to fresh drinking water. Store in a cool, dry place and reseal the packaging properly after each feeding. Product color and size may vary slightly due to natural ingredient variations. Not suitable for human consumption. Make every moment a celebration with Reflex Happy Hours Cat Treats! &nbsp;",
   "images": [
     {
-      "id": 50515,
+      "id": 52793,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/07/REFLEX-HAPPY-HOUR-CAT-TREAT-HEALTHY-BONES-60GR-1.png",
       "alt": "Reflex Happy Hour Cat Treat Healthy Bones 60g",
-      "name": "REFLEX HAPPY HOUR CAT TREAT HEALTHY BONES 60GR"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-happy-hour-cat-treat-healthy-bones-60gr-4/?add-to-cart=52793",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-01-16T17:04:57",
-  "dateModified": "2026-05-06T17:10:55",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=52793",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-happy-hour-cat-treat-healthy-bones-60gr-4/?add-to-cart=52793",
+  "shortDescription": "Delicious, crunchy morsels designed to delight your cat’s taste buds while promoting their overall health! Made with high-quality ingredients, these t",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/07/REFLEX-HAPPY-HOUR-CAT-TREAT-HEALTHY-BONES-60GR-1.png",
+  "sku": "PSK-52793",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/07/REFLEX-HAPPY-HOUR-CAT-TREAT-HEALTHY-BONES-60GR-1.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/07/REFLEX-HAPPY-HOUR-CAT-TREAT-HEALTHY-BONES-60GR-1.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

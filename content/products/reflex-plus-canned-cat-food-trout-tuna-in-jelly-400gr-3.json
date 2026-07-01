@@ -2,14 +2,12 @@
   "id": 1370,
   "name": "Reflex Plus Canned Cat Food - Trout & Tuna in Jelly 400g",
   "slug": "reflex-plus-canned-cat-food-trout-tuna-in-jelly-400gr-3",
-  "sku": "RPCW008",
-  "onSale": true,
+  "onSale": false,
   "price": 270,
-  "regularPrice": 338,
-  "salePrice": 270,
+  "regularPrice": 270,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2018/10/REFLEX-PLUS-CANNED-CAT-FOOD-TROUT-TUNA-IN-JELLY-400GR.png",
   "categories": [
     {
       "id": 2325,
@@ -32,67 +30,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 622,
-      "name": "canned food",
-      "slug": "canned-food"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 939,
-      "name": "On Sale Now",
-      "slug": "sale"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/reflex-plus-canned-cat-food-trout-tuna-in-jelly-400gr-3/",
-  "shortDescription": "Reflex Plus Tuna & Salmon Adult Cat Food in Jelly, its nutritional value and digestibility are high thanks to its high-quality animal protein and vitamin diversity. Its functional ingredients support many systems, while its high-water content contributes to daily water intake and supports kidney health.",
   "description": "The Reflex Plus Tuna &Salmon Adult Cat Food in Jelly, offers high nutritional value and excellent digestibility thanks to quality animal protein and a diverse vitamin profile. Its rich moisture content supports daily hydration and assists kidney health. Key Benefits: High‑quality animal & fish‑derived proteins for digestibility Diverse vitamin and mineral mix to support overall health Elevated moisture content to bolster hydration and renal/urinary support Carefully formulated for adult cats’ nutritional needs Ingredients: Meat and animal derivatives, Fish and fish derivatives (Trout 4%, Tuna 4%), Cereals, Derivatives of plant origin, Minerals. Nutritional Components Crude protein 8.5% Fat content 5% Crude fiber 0.5% Raw ash 2.5% Moisture Content 82% Nutritional Additives Nutritional supplements: Vitamin A 2360 IU, Vitamin D3 315 IU, Vitamin E 44 mg, Taurine 630 mg. Trace Elements: 3b605 (Zinc 17.6mg/kg), 3b103 (Iron 12.6mg/kg), 3b405 (Copper 1.9mg/kg), 3b503 (Manganese 3.2mg/kg), 3b202 (Iodine 0.5mg/kg), 3b801 (Selenium 0.03mg/kg). Nutritional Recommendation Serve at room temperature. • Clean, fresh drinking water should always be available. • If this food is new to your cat, introduce it gradually over a few days. • The exact amount of food for your cat may vary depending on many factors such as age, breed, weight, sex, and activity level. • Not suitable for human use. &nbsp; &nbsp;",
   "images": [
     {
-      "id": 61861,
+      "id": 1370,
       "src": "https://petstore.co.ke/wp-content/uploads/2018/10/REFLEX-PLUS-CANNED-CAT-FOOD-TROUT-TUNA-IN-JELLY-400GR.png",
-      "alt": "Reflex Plus Canned Cat Food – Trout & Tuna in Jelly 400g",
-      "name": "REFLEX PLUS CANNED CAT FOOD TROUT &amp; TUNA IN JELLY 400GR"
+      "alt": "Reflex Plus Canned Cat Food - Trout & Tuna in Jelly 400g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-canned-cat-food-trout-tuna-in-jelly-400gr-3/?add-to-cart=1370",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2018-10-12T13:38:36",
-  "dateModified": "2026-06-23T14:12:18",
+  "permalink": "https://petstore.co.ke/product/reflex-plus-canned-cat-food-trout-tuna-in-jelly-400gr-3/",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-canned-cat-food-trout-tuna-in-jelly-400gr-3/?add-to-cart=1370",
+  "shortDescription": "The Reflex Plus Tuna &Salmon Adult Cat Food in Jelly, offers high nutritional value and excellent digestibility thanks to quality animal protein and a",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2018/10/REFLEX-PLUS-CANNED-CAT-FOOD-TROUT-TUNA-IN-JELLY-400GR.png",
+  "sku": "PSK-1370",
   "brand": "Reflex",
   "weight_kg": 0.4,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2018/10/REFLEX-PLUS-CANNED-CAT-FOOD-TROUT-TUNA-IN-JELLY-400GR.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2018/10/REFLEX-PLUS-CANNED-CAT-FOOD-TROUT-TUNA-IN-JELLY-400GR.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

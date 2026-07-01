@@ -2,14 +2,12 @@
   "id": 23913,
   "name": "Bonnie Rabbit and Rodent Food 750g",
   "slug": "bonnie-rabbit-and-rodent-food-750-gr",
-  "sku": "BRF001",
   "onSale": false,
   "price": 882,
   "regularPrice": 882,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Bonnie-Rodent-and-Rabbit-Food-750g.png",
   "categories": [
     {
       "id": 177,
@@ -22,57 +20,51 @@
       "slug": "rabbit-supplies-store"
     }
   ],
-  "brands": [
-    {
-      "id": 2428,
-      "name": "Bonnie",
-      "slug": "bonnie"
-    }
-  ],
-  "tags": [
-    {
-      "id": 1359,
-      "name": "rabbit",
-      "slug": "rabbit"
-    },
-    {
-      "id": 2117,
-      "name": "rabbit food",
-      "slug": "rabbit-food"
-    },
-    {
-      "id": 2116,
-      "name": "rodent",
-      "slug": "rodent"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/bonnie-rabbit-and-rodent-food-750-gr/",
-  "shortDescription": "Bonnie Rabbit and Rodent Food.",
   "description": "This complete, all-natural food blend is specially designed to meet the dietary needs of small animals like rabbits, guinea pigs, and hamsters. Enriched with high-quality ingredients such as clover pellets, grains, seeds, and legumes, it provides essential nutrients for healthy growth, energy, and vitality. Whether your pet is a curious rabbit, a playful guinea pig, or a busy hamster, this feed ensures they get a balanced diet to support their active lifestyle and long-term health. Key Features Complete & Balanced Nutrition – Provides all vital vitamins, minerals, and fiber for digestive health. High-Fiber Formula – Supports optimal digestion and prevents gastrointestinal issues. Natural Ingredients – Made with clover pellets, grains, seeds, and carob for natural taste and aroma. Energy Boosting – Rich in carbohydrates and proteins to keep your small pet active and playful. Healthy Skin & Fur – Omega-rich ingredients promote shiny coats and healthy skin. No Artificial Additives – Free from artificial colors, flavors, and preservatives. Ingredients Clover Pellets, Wheat, Barley, Oat, Corn, Sunflower Seeds, Peas, Carob. Feeding Recommendations Animal Daily Portion Equivalent in Tablespoons Rabbits 40–50 g 4–5 tbsp Guinea Pigs 35–40 g 3–4 tbsp Hamsters 10–15 g 1–1.5 tbsp Why Choose This Feed? Supports healthy teeth wear due to fibrous texture. Encourages natural foraging behavior with a mix of textures and flavors. Suitable for all breeds and ages of rabbits, guinea pigs, and hamsters.",
   "images": [
     {
-      "id": 28990,
+      "id": 23913,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/12/Bonnie-Rodent-and-Rabbit-Food-750g.png",
       "alt": "Bonnie Rabbit and Rodent Food 750g",
-      "name": "Bonnie Rodent and Rabbit Food 750g"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Bonnie",
+      "slug": "bonnie"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/bonnie-rabbit-and-rodent-food-750-gr/?add-to-cart=23913",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2021-12-22T17:55:27",
-  "dateModified": "2026-06-17T04:28:42",
+  "permalink": "https://petstore.co.ke/product/bonnie-rabbit-and-rodent-food-750-gr/",
+  "addToCartUrl": "https://petstore.co.ke/product/bonnie-rabbit-and-rodent-food-750-gr/?add-to-cart=23913",
+  "shortDescription": "This complete, all-natural food blend is specially designed to meet the dietary needs of small animals like rabbits, guinea pigs, and hamsters. Enrich",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Bonnie-Rodent-and-Rabbit-Food-750g.png",
+  "sku": "PSK-23913",
   "brand": "Bonnie",
   "weight_kg": 0.75,
   "animal_type": "rabbit",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/12/Bonnie-Rodent-and-Rabbit-Food-750g.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/12/Bonnie-Rodent-and-Rabbit-Food-750g.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 62313,
   "name": "Pack Of 24  - King Canned Dog Food - Lamb Chunks in Gravy 400g",
   "slug": "pack-of-12-king-canned-dog-food-lamb-chunks-in-gravy-400gr",
-  "sku": "KDW002$12",
-  "onSale": true,
+  "onSale": false,
   "price": 2298,
-  "regularPrice": 3024,
-  "salePrice": 2298,
+  "regularPrice": 2298,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/11/KING-2.png",
   "categories": [
     {
       "id": 2345,
@@ -32,62 +30,51 @@
       "slug": "wet-dog-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2446,
-      "name": "King",
-      "slug": "king"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2055,
-      "name": "Bulk Cat Food & Bulk Dog Food",
-      "slug": "bulk"
-    },
-    {
-      "id": 622,
-      "name": "canned food",
-      "slug": "canned-food"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pack-of-12-king-canned-dog-food-lamb-chunks-in-gravy-400gr/",
-  "shortDescription": "King Canned Dog Food Lamb Chunks in Gravy 400g is a complementary meal for adult dogs, made with real lamb ( 4% ), cereals, and essential minerals . The savory meaty chunks in gravy provide a protein-rich, moisture-packed formula that supports hydration, healthy muscles , and overall wellbeing . Easy to serve and highly palatable , it’s perfect as a tasty addition to your dog’s daily diet.",
   "description": "Provide your adult dog with a delicious and nutritious meal with King Canned Dog Food Lamb Chunks in Gravy 400g . Made with real lamb (4% in the chunks), high-quality cereals, and essential minerals, this complementary pet food delivers a tasty and wholesome addition to your dog’s diet. Key Benefits: Meaty chunks in savory gravy that dogs love Balanced nutrition with protein, fat, and essential minerals Moisture-rich formula (83%) to support hydration Easy to serve and digest Analytical Constituents: Crude Protein: 7% Crude Fat: 5% Crude Fibre: 0.5% Crude Ash: 2.5% Moisture: 83% Feeding Directions: Serve at room temperature. Always provide clean, fresh drinking water. Once opened, cover, refrigerate, and use within 2 days. Not suitable for human consumption. Storage & Expiry: Check the bottom of the can for the best before date and batch number. &nbsp;",
   "images": [
     {
-      "id": 62312,
+      "id": 62313,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/11/KING-2.png",
-      "alt": "Pack Of 24 – King Canned Dog Food – Lamb Chunks in Gravy 400g",
-      "name": "KING (2)"
+      "alt": "Pack Of 24  - King Canned Dog Food - Lamb Chunks in Gravy 400g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "King",
+      "slug": "king"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/pack-of-12-king-canned-dog-food-lamb-chunks-in-gravy-400gr/?add-to-cart=62313",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-11-13T12:52:51",
-  "dateModified": "2026-06-24T10:12:03",
+  "permalink": "https://petstore.co.ke/product/pack-of-12-king-canned-dog-food-lamb-chunks-in-gravy-400gr/",
+  "addToCartUrl": "https://petstore.co.ke/product/pack-of-12-king-canned-dog-food-lamb-chunks-in-gravy-400gr/?add-to-cart=62313",
+  "shortDescription": "Provide your adult dog with a delicious and nutritious meal with King Canned Dog Food Lamb Chunks in Gravy 400g . Made with real lamb (4% in the chunk",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/11/KING-2.png",
+  "sku": "PSK-62313",
   "brand": "King",
   "weight_kg": 9.6,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/11/KING-2.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/11/KING-2.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

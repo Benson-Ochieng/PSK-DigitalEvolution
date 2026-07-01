@@ -1,37 +1,8 @@
 [
   {
-    "id": "cat-audio",
-    "name": "Audio",
-    "slug": "audio",
-    "description": "High-fidelity audio systems, soundbars, and headphones.",
-    "count": 14
-  },
-  {
-    "id": "cat-tvs",
-    "name": "TVs",
-    "slug": "tvs",
-    "description": "Smart TVs, QLED, Vidaa, Whale OS, and accessories.",
-    "count": 7
-  },
-  {
-    "id": "cat-appliances",
-    "name": "Appliances",
-    "slug": "appliances",
-    "description": "Washing machines, water dispensers, fans, and standing cookers.",
-    "count": 11
-  },
-  {
-    "id": "cat-wearables",
-    "name": "Wearables",
-    "slug": "wearables",
-    "description": "Smartwatches, fit trackers, and smart eyewear.",
-    "count": 3
-  },
-  {
-    "id": "cat-digital-it",
-    "name": "Digital IT",
-    "slug": "digital-it",
-    "description": "Projectors, tablets, and computer peripherals.",
-    "count": 2
+    "id": "cat-pet-care",
+    "name": "Pet Care",
+    "slug": "pet-care",
+    "description": "General care tips, guides, and advice for all pets."
   }
 ]

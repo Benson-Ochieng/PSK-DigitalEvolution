@@ -235,7 +235,7 @@ const DRAWER_MENU_ITEMS = [
   { name: "Food Comparison", path: "/shop?type=comparison" },
   {
     name: "Pet Avenue",
-    path: "/shop?type=avenue",
+    path: "/pet-avenue",
     subItems: [
       { name: "Avenue Group", path: "/shop?type=avenue&sub=group" },
       { name: "Avenue Shops", path: "/shop?type=avenue&sub=shops" },
@@ -268,6 +268,7 @@ export default function Navbar() {
     suggestions: string[];
     groups: string[];
     products: any[];
+    correctedQuery?: string | null;
   } | null>(null);
   const [isSearching, setIsSearching] = useState(false);
   const [isSearchFocused, setIsSearchFocused] = useState(false);
@@ -290,18 +291,18 @@ export default function Navbar() {
 
     return (
       <li key={item.name} style={{ display: "flex", flexDirection: "column" }}>
-        <div 
-          className="drawer-menu-item-row" 
-          style={{ 
+        <div
+          className="drawer-menu-item-row"
+          style={{
             borderBottom: depth === 0 ? "1px solid #e2e8f0" : "none",
-            background: depth > 0 ? "#ffffff" : "#f8fafc" 
+            background: depth > 0 ? "#ffffff" : "#f8fafc"
           }}
         >
           <Link
             to={item.path}
             className="drawer-menu-link"
-            style={{ 
-              fontWeight: depth === 0 ? "700" : "500", 
+            style={{
+              fontWeight: depth === 0 ? "700" : "500",
               fontSize: depth === 0 ? "0.95rem" : "0.85rem",
               color: depth === 0 ? "#1e293b" : "#475569",
               paddingLeft: `${1.25 + depth * 0.75}rem`
@@ -381,15 +382,17 @@ export default function Navbar() {
     }
   }
 
-  // Highlight matches in the query string
+  // Highlight matches in the query string (handles multiple words)
   function highlightText(text: string, search: string) {
     if (!search.trim()) return <span>{text}</span>;
-    const regex = new RegExp(`(${search.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&')})`, 'gi');
+    const words = search.trim().split(/\s+/).filter(Boolean).map(w => w.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'));
+    if (words.length === 0) return <span>{text}</span>;
+    const regex = new RegExp(`(${words.join('|')})`, 'gi');
     const parts = text.split(regex);
     return (
       <span>
         {parts.map((part, i) =>
-          regex.test(part) ? <strong key={i} style={{ color: "var(--primary)", fontWeight: 700 }}>{part}</strong> : part
+          regex.test(part) ? <strong key={i} style={{ color: "#1053a0", fontWeight: 700 }}>{part}</strong> : part
         )}
       </span>
     );
@@ -430,7 +433,7 @@ export default function Navbar() {
           <ul className="navbar-links" style={{ marginRight: "auto", marginLeft: "1rem" }}>
             <li className="nav-item-dropdown">
               <span className="nav-link dropdown-toggle">
-                Shop By Pet <i className="fa fa-chevron-down toggle-arrow"></i>
+                Shop By Pet <i className="fa fa-caret-down toggle-arrow"></i>
               </span>
               <ul className="dropdown-menu pet-dropdown">
                 <li>
@@ -486,7 +489,7 @@ export default function Navbar() {
 
             <li className="nav-item-dropdown mega-dropdown-container">
               <span className="nav-link dropdown-toggle">
-                Shop By Brands <i className="fa fa-chevron-down toggle-arrow"></i>
+                Shop By Brands <i className="fa fa-caret-down toggle-arrow"></i>
               </span>
               <div className="mega-dropdown-menu brand-mega-menu">
                 <div className="brand-grid">
@@ -513,7 +516,7 @@ export default function Navbar() {
 
             <li className="nav-item-dropdown">
               <span className="nav-link dropdown-toggle">
-                Offers <i className="fa fa-chevron-down toggle-arrow"></i>
+                Offers <i className="fa fa-caret-down toggle-arrow"></i>
               </span>
               <ul className="dropdown-menu offers-dropdown" style={{ minWidth: "180px" }}>
                 <li style={{ borderBottom: "1px solid #eaeaea" }}>
@@ -556,24 +559,28 @@ export default function Navbar() {
               <div className="search-input-container">
                 <input
                   type="text"
-                  placeholder="Search for products, brands or categories..."
+                  placeholder="Search"
                   value={searchVal}
                   onChange={(e) => setSearchVal(e.target.value)}
                   onFocus={() => setIsSearchFocused(true)}
                   className="nav-search-input"
                 />
-                {searchVal.trim() !== "" && (
-                  <button
-                    type="button"
-                    className="search-clear-btn"
-                    onClick={() => {
-                      setSearchVal("");
-                      setSearchResults(null);
-                    }}
-                    title="Clear search"
-                  >
-                    ✕
-                  </button>
+                {isSearching ? (
+                  <div className="search-loading-spinner" />
+                ) : (
+                  searchVal.trim() !== "" && (
+                    <button
+                      type="button"
+                      className="search-clear-btn"
+                      onClick={() => {
+                        setSearchVal("");
+                        setSearchResults(null);
+                      }}
+                      title="Clear search"
+                    >
+                      ✕
+                    </button>
+                  )
                 )}
               </div>
               <button type="submit" className="nav-search-btn" title="Search">
@@ -587,119 +594,119 @@ export default function Navbar() {
             {/* Suggestions Dropdown Container */}
             {isSearchFocused && searchVal.trim() !== "" && (
               <div className="search-suggestions-dropdown">
-                {/* Left side: Product Results list */}
-                <div className="search-dropdown-left">
-                  <div className="search-section-title">Products</div>
+                {searchResults?.correctedQuery && (
+                  <div className="search-autocorrect-banner">
+                    Showing results for: <span className="search-autocorrect-term">{searchResults.correctedQuery}</span>
+                  </div>
+                )}
 
-                  {isSearching ? (
-                    <div style={{ padding: "1rem", color: "var(--ink-light)", fontSize: "0.85rem" }}>
-                      Searching...
+                {searchResults?.suggestions && searchResults.suggestions.length > 0 && (
+                  <div className="search-suggestions-chips-section">
+                    <span className="search-suggestions-chips-label">Suggestions:</span>
+                    <div className="search-suggestions-chips-list">
+                      {searchResults.suggestions.map((s, idx) => (
+                        <button
+                          type="button"
+                          key={idx}
+                          className="search-suggestion-chip"
+                          onClick={() => {
+                            setSearchVal(s);
+                            navigate(`/shop?q=${encodeURIComponent(s)}`);
+                            setIsSearchFocused(false);
+                          }}
+                        >
+                          {s}
+                        </button>
+                      ))}
                     </div>
-                  ) : searchResults && searchResults.products.length > 0 ? (
-                    searchResults.products.map((p) => {
-                      const oldPrice = Math.round(p.price * 1.2);
-                      const displayBreadcrumb = ["Clearance", p.animal_type, p.brand]
+                  </div>
+                )}
+
+                {searchResults?.groups && searchResults.groups.length > 0 && (
+                  <div className="search-groups-section">
+                    {searchResults.groups.map((group, idx) => {
+                      const name = group.split(" ")[0];
+                      const countStr = group.split("(")[1]?.replace(")", "") || "";
+                      return (
+                        <div
+                          key={idx}
+                          className="search-group-header-row"
+                          onClick={() => {
+                            navigate(`/shop?q=${encodeURIComponent(name.toLowerCase())}`);
+                            setIsSearchFocused(false);
+                          }}
+                        >
+                          {name} ({countStr})
+                        </div>
+                      );
+                    })}
+                  </div>
+                )}
+
+                <div className="search-section-title">Products</div>
+
+                {isSearching ? (
+                  <div className="search-status-message">Searching...</div>
+                ) : searchResults && searchResults.products.length > 0 ? (
+                  <div className="search-products-scroll-list">
+                    {searchResults.products.map((p) => {
+                      const displayBreadcrumb = [
+                        ...(p.categories || []).map((c: any) => c.name),
+                        ...(p.tags || []).map((t: any) => t.name),
+                        p.brand
+                      ]
                         .filter(Boolean)
-                        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                        .filter((val, idx, self) => self.indexOf(val) === idx)
                         .join(", ");
                       return (
                         <Link
                           key={p.id}
                           to={p.slug ? `/product/${p.slug}/` : `/shop/${p.id}`}
-                          className="search-product-item"
+                          className="search-product-row-item"
                           onClick={() => {
                             setIsSearchFocused(false);
                             setSearchVal("");
                           }}
                         >
-                          <img src={p.image_url} alt={p.name} className="search-product-img" />
-                          <div className="search-product-info">
-                            <div className="search-product-name">
+                          <img src={p.image_url} alt={p.name} className="search-product-row-img" />
+                          <div className="search-product-row-info">
+                            <div className="search-product-row-name">
                               {highlightText(p.name, searchVal)}
                             </div>
-                            <div className="search-product-breadcrumb">
-                              {displayBreadcrumb}
+                            <div className="search-product-row-price">
+                              {p.price.toLocaleString()}KSh
                             </div>
-                            <div className="search-product-price">
-                              <span className="search-price-sale">KES {p.price.toLocaleString()}</span>
-                              <span className="search-price-old">KES {oldPrice.toLocaleString()}</span>
+                            {p.short_description && (
+                              <div className="search-product-row-desc">
+                                {highlightText(p.short_description, searchVal)}
+                              </div>
+                            )}
+                            <div className="search-product-row-breadcrumb">
+                              {displayBreadcrumb}
                             </div>
                           </div>
                         </Link>
                       );
-                    })
-                  ) : (
-                    <div className="search-no-results">No products found matching &ldquo;{searchVal}&rdquo;</div>
-                  )}
+                    })}
+                  </div>
+                ) : (
+                  <div className="search-no-results">No products found matching &ldquo;{searchVal}&rdquo;</div>
+                )}
 
-                  {searchResults && searchResults.products.length > 0 && (
-                    <div className="search-view-all">
-                      <button
-                        type="button"
-                        className="search-view-all-btn"
-                        onClick={() => {
-                          navigate(`/shop?q=${encodeURIComponent(searchVal)}`);
-                          setIsSearchFocused(false);
-                        }}
-                      >
-                        View all search results &rarr;
-                      </button>
-                    </div>
-                  )}
-                </div>
-
-                {/* Right side: Autocomplete Suggestions & Group Categorizations */}
-                <div className="search-dropdown-right">
-                  <div className="search-section-title">Suggestions</div>
-                  {searchResults && searchResults.suggestions.length > 0 ? (
-                    searchResults.suggestions.map((suggestion, index) => (
-                      <button
-                        type="button"
-                        key={index}
-                        className="search-suggestion-item"
-                        onClick={() => {
-                          setSearchVal(suggestion);
-                          navigate(`/shop?q=${encodeURIComponent(suggestion)}`);
-                          setIsSearchFocused(false);
-                        }}
-                        style={{ background: "none", border: "none", width: "100%", textAlign: "left" }}
-                      >
-                        {highlightText(suggestion, searchVal)}
-                      </button>
-                    ))
-                  ) : (
-                    <div style={{ padding: "0.5rem 0.6rem", color: "var(--ink-light)", fontSize: "0.8rem" }}>
-                      No suggestions
-                    </div>
-                  )}
-
-                  <div className="search-section-title" style={{ marginTop: "1.5rem" }}>Groups</div>
-                  {searchResults && searchResults.groups.length > 0 ? (
-                    searchResults.groups.map((group, index) => {
-                      const name = group.split(" ")[0];
-                      const countStr = group.split("(")[1]?.replace(")", "") || "";
-                      return (
-                        <button
-                          type="button"
-                          key={index}
-                          className="search-group-item"
-                          onClick={() => {
-                            navigate(`/shop?q=${encodeURIComponent(name.toLowerCase())}`);
-                            setIsSearchFocused(false);
-                          }}
-                          style={{ background: "none", border: "none", width: "100%", textAlign: "left" }}
-                        >
-                          <span>{name}</span>
-                          <span style={{ color: "var(--ink-light)", marginLeft: "auto" }}>({countStr})</span>
-                        </button>
-                      );
-                    })
-                  ) : (
-                    <div style={{ padding: "0.5rem 0.6rem", color: "var(--ink-light)", fontSize: "0.8rem" }}>
-                      No groups
-                    </div>
-                  )}
-                </div>
+                {searchResults && searchResults.products.length > 0 && (
+                  <div className="search-view-all">
+                    <button
+                      type="button"
+                      className="search-view-all-btn"
+                      onClick={() => {
+                        navigate(`/shop?q=${encodeURIComponent(searchVal)}`);
+                        setIsSearchFocused(false);
+                      }}
+                    >
+                      View all search results &rarr;
+                    </button>
+                  </div>
+                )}
               </div>
             )}
           </div>
@@ -726,7 +733,7 @@ export default function Navbar() {
             <Link className="cart-nav-btn" to="/cart" title="Shopping Cart" style={{ position: "relative", display: "inline-block", background: "none", border: "none" }}>
               <i className="fa fa-shopping-cart" style={{ fontSize: "30px", color: "#ffffff" }}></i>
               {count > 0 && (
-                <span 
+                <span
                   style={{
                     position: "absolute",
                     top: "-5px",

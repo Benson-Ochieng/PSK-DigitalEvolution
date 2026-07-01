@@ -2,14 +2,12 @@
   "id": 62707,
   "name": "Rogz Dog Grinz -Treat Ball 4.9cm - Orange Medium (g02-D)",
   "slug": "rogz-dog-grinz-treat-ball-4-9cm-orange-medium-gr02-d",
-  "sku": "GR02-D@F",
-  "onSale": true,
+  "onSale": false,
   "price": 920,
-  "regularPrice": 1150,
-  "salePrice": 920,
+  "regularPrice": 920,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/11/GR02-D-Grinz-Orange-420x420-1.jpg",
   "categories": [
     {
       "id": 2064,
@@ -17,41 +15,51 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=62707",
-  "shortDescription": "Keep your adult dog engaged and mentally stimulated with the Rogz Dog Grinz Treat Ball GR02-D. Medium-sized, orange, interactive, and treat-dispensing for fun play.",
   "description": "Make playtime fun, rewarding, and mentally stimulating with the Rogz Dog Grinz Treat Ball GR02-D . This medium-sized, orange treat ball is specifically designed for adult dogs, providing a combination of interactive play, mental engagement, and slow treat dispensing to keep your pet entertained for hours. Part of the Rogz Dog Grinz series, this durable toy encourages active play while promoting healthy feeding habits. As your dog nudges, rolls, or bites the ball, treats are gradually released, making mealtime a fun and engaging challenge. Product Features Medium Size (4.9 cm): Ideal for adult dogs, easy to handle, and suitable for small to medium breeds. Durable Material: Made to withstand chewing and rough play, ensuring long-lasting use. Interactive Treat Dispensing: Gradually releases treats to motivate play and stimulate your dog’s mind. Designed for Adult Dogs: Provides age-appropriate play and enrichment for adult pets. Bright Orange Color: Easy to spot indoors or outdoors during play. Benefits for Your Dog Promotes mental stimulation and problem-solving skills. Encourages physical activity and reduces boredom. Provides a rewarding and engaging experience through treat release. Helps slow down treat consumption for healthier eating habits. Usage Tips Introduce treats gradually to teach your dog how to interact with the toy. Supervise play, especially during initial sessions, to ensure safety. Clean regularly to maintain hygiene and remove leftover treats.",
   "images": [
     {
-      "id": 41636,
+      "id": 62707,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/11/GR02-D-Grinz-Orange-420x420-1.jpg",
-      "alt": "Rogz Dog Grinz Treat Ball 4.9cm Orange Small (g01-D)",
-      "name": "GR02-D-Grinz-Orange-420&#215;420"
+      "alt": "Rogz Dog Grinz -Treat Ball 4.9cm - Orange Medium (g02-D)",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-4-9cm-orange-medium-gr02-d/?add-to-cart=62707",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-11-23T09:22:31",
-  "dateModified": "2026-06-04T12:52:02",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=62707",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-4-9cm-orange-medium-gr02-d/?add-to-cart=62707",
+  "shortDescription": "Make playtime fun, rewarding, and mentally stimulating with the Rogz Dog Grinz Treat Ball GR02-D . This medium-sized, orange treat ball is specificall",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/11/GR02-D-Grinz-Orange-420x420-1.jpg",
+  "sku": "PSK-62707",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/11/GR02-D-Grinz-Orange-420x420-1.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/11/GR02-D-Grinz-Orange-420x420-1.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

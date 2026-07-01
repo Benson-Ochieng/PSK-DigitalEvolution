@@ -2,14 +2,12 @@
   "id": 46094,
   "name": "Josicat Chicken In Sauce Cat Wet Food 415g",
   "slug": "josicat-chicken-in-sauce-cat-wet-food-415kg",
-  "sku": "JCCSP161",
   "onSale": false,
   "price": 299,
   "regularPrice": 299,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/JOSICAT-Chicken-in-sauce.png",
   "categories": [
     {
       "id": 2325,
@@ -37,57 +35,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "tags": [
-    {
-      "id": 622,
-      "name": "canned food",
-      "slug": "canned-food"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=46094",
-  "shortDescription": "Thanks to the delicious sauce, even picky Cats won’t say “no” to our tasty recipe. And pet-owners also love the fact that the tasty treats also support cell protection and the development of strong bones in adult cats, thanks to the Vitamins E and D3.",
   "description": "JOSICAT CHICKEN IN SAUCE Thanks to the delicious sauce, even picky Cats won’t say “no” to our tasty recipe. And pet-owners also love the fact that the tasty treats also support cell protection and the development of strong bones in adult cats, thanks to the Vitamins E and D3. Fine wet food in sauce with chicken, for adult cats With Vitamin E to improve cell protection With Vitamin D3 to support stable bone development Fuss-free: no added preservatives, colourings or flavourings. Complete food for adult cats &nbsp; Composition: Chicken and animal derivatives; cereals; fish and fish derivatives; minerals; caramel syrup. &nbsp; Feeding Guide: weight 2 -3kg 3 – 4kg 4 – 5kg 5 – 7kg feed quantities/24h 170 – 220g 220 -270g 270 – 320g 320g – 400g &nbsp; Please note that the quantities stated are a guide only and must be adapted to your animal’s nutritional status and its activity. Please make sure your animal has fresh water at all times. After opening, keep refrigerated between 2 to 6 °C, and use at room temperature within 24 hours. &nbsp;",
   "images": [
     {
-      "id": 46097,
+      "id": 46094,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/04/JOSICAT-Chicken-in-sauce.png",
       "alt": "Josicat Chicken In Sauce Cat Wet Food 415g",
-      "name": "JOSICAT Chicken in sauce"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/josicat-chicken-in-sauce-cat-wet-food-415kg/?add-to-cart=46094",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-04-15T11:45:56",
-  "dateModified": "2026-06-17T04:33:51",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=46094",
+  "addToCartUrl": "https://petstore.co.ke/product/josicat-chicken-in-sauce-cat-wet-food-415kg/?add-to-cart=46094",
+  "shortDescription": "JOSICAT CHICKEN IN SAUCE Thanks to the delicious sauce, even picky Cats won’t say “no” to our tasty recipe. And pet-owners also love the fact that the",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/JOSICAT-Chicken-in-sauce.png",
+  "sku": "PSK-46094",
   "brand": "Josera",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/JOSICAT-Chicken-in-sauce.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/JOSICAT-Chicken-in-sauce.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

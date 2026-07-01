@@ -2,14 +2,12 @@
   "id": 50787,
   "name": "Miglior Cat Food Pouch Chicken & Turkey 100g",
   "slug": "migliorgatto-adult-cat-food-pouch-strips-chicken-and-turkey-100gr",
-  "sku": "MCW015@F",
-  "onSale": true,
+  "onSale": false,
   "price": 133,
-  "regularPrice": 177,
-  "salePrice": 133,
+  "regularPrice": 133,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/07/Miglior-chicken-and-turkey.png",
   "categories": [
     {
       "id": 2163,
@@ -17,35 +15,51 @@
       "slug": "miglior"
     }
   ],
-  "brands": [],
-  "tags": [],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=50787",
-  "shortDescription": "(4 pieces minimum order) Formula designed to guarantee the key nutrients required for the well-being of your cat, including vitamins, Omega 3, calcium and phosphorous to support strong bones and teeth, healthy skin and glossy coat, and toned musculature.",
   "description": "COMPOSITION: Meat and animal derivatives 30% (chicken 5%, turkey 5%), cereals, minerals. ANALYTICAL CONSTITUENTS: Moisture 75%, Crude protein 8,0%, Crude fat 4,5%, Crude fibres 0,5%, Crude ash 3%. Nutritional additives/kg: Vitamin E 10 mg, Copper (Copper (II) sulphate pentahydrate) 2 mg. HOW TO USE: How to use: the product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight. Once opened, store in refrigerator for 2-3 days.",
   "images": [
     {
-      "id": 90584,
+      "id": 50787,
       "src": "https://petstore.co.ke/wp-content/uploads/2022/07/Miglior-chicken-and-turkey.png",
-      "alt": "Pack Of 24 – Miglior Cat Food Pouch – Chicken & Turkey 100g",
-      "name": "Miglior chicken and turkey"
+      "alt": "Miglior Cat Food Pouch Chicken & Turkey 100g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/migliorgatto-adult-cat-food-pouch-strips-chicken-and-turkey-100gr/?add-to-cart=50787",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-10-13T13:35:52",
-  "dateModified": "2026-06-11T16:46:17",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=50787",
+  "addToCartUrl": "https://petstore.co.ke/product/migliorgatto-adult-cat-food-pouch-strips-chicken-and-turkey-100gr/?add-to-cart=50787",
+  "shortDescription": "COMPOSITION: Meat and animal derivatives 30% (chicken 5%, turkey 5%), cereals, minerals. ANALYTICAL CONSTITUENTS: Moisture 75%, Crude protein 8,0%, Cr",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/07/Miglior-chicken-and-turkey.png",
+  "sku": "PSK-50787",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.1,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/07/Miglior-chicken-and-turkey.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/07/Miglior-chicken-and-turkey.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

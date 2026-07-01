@@ -2,14 +2,12 @@
   "id": 62308,
   "name": "Pack Of 12 - King Canned Cat Food Salmon Chunks In Gravy 400g",
   "slug": "pack-of-12-king-canned-cat-food-salmon-chunks-in-gravy-400gr",
-  "sku": "KCW003$12",
-  "onSale": true,
+  "onSale": false,
   "price": 2721,
-  "regularPrice": 3024,
-  "salePrice": 2721,
+  "regularPrice": 2721,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/11/KING-1.png",
   "categories": [
     {
       "id": 2325,
@@ -32,67 +30,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2446,
-      "name": "King",
-      "slug": "king"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2055,
-      "name": "Bulk Cat Food & Bulk Dog Food",
-      "slug": "bulk"
-    },
-    {
-      "id": 622,
-      "name": "canned food",
-      "slug": "canned-food"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pack-of-12-king-canned-cat-food-salmon-chunks-in-gravy-400gr/",
-  "shortDescription": "Give your feline a royal dining experience with King Cat Wet Food Salmon 400g – a delicious, protein-rich meal made from high-quality chicken to keep your cat healthy, happy, and satisfied.",
   "description": "Give your feline a royal dining experience with King Cat Wet Food Salmon 400g - a delicious, protein-rich meal made from high-quality chicken to keep your cat healthy, happy, and satisfied. Crafted with care, this meal provides balanced nutrition to support muscle strength, healthy digestion, and overall vitality. Its soft texture and irresistible chicken flavor make it perfect even for the pickiest eaters. Key Benefits: Made with premium-quality chicken for optimal protein intake Supports healthy muscles and energy levels Soft, flavorful texture cats love Provides complete and balanced nutrition Ideal for adult cats of all breeds Ingredients: Meaty Chunks with Salmon in Gravy / Complementary pet food for adult cats. Composition: Fish and fish derivatives (salmon 4%), Cereals, Minerals, Derivatives of vegetable origin. Analytical Constituents: Crude protein 7%, Crude fat 5%, Crude fibre 0.5%, Crude ash 2.5%, Moisture 82%. Feeding Guide: Serve at room temperature. Clean, fresh drinking water should be available at all times. Once opened, cover and store in the refrigerator and use within 2 days. It is not suitable for use as human food. Adjust the portion according to your cat’s weight and activity level. Best Before and Batch Number: For best before & batch number see bottom.",
   "images": [
     {
-      "id": 62306,
+      "id": 62308,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/11/KING-1.png",
-      "alt": "Pack Of 12 – King Canned Cat Food Salmon Chunks In Gravy 400g",
-      "name": "KING (1)"
+      "alt": "Pack Of 12 - King Canned Cat Food Salmon Chunks In Gravy 400g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "King",
+      "slug": "king"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/pack-of-12-king-canned-cat-food-salmon-chunks-in-gravy-400gr/?add-to-cart=62308",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-11-13T12:30:41",
-  "dateModified": "2026-06-24T15:12:07",
+  "permalink": "https://petstore.co.ke/product/pack-of-12-king-canned-cat-food-salmon-chunks-in-gravy-400gr/",
+  "addToCartUrl": "https://petstore.co.ke/product/pack-of-12-king-canned-cat-food-salmon-chunks-in-gravy-400gr/?add-to-cart=62308",
+  "shortDescription": "Give your feline a royal dining experience with King Cat Wet Food Salmon 400g - a delicious, protein-rich meal made from high-quality chicken to keep ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/11/KING-1.png",
+  "sku": "PSK-62308",
   "brand": "King",
   "weight_kg": 4.8,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/11/KING-1.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/11/KING-1.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

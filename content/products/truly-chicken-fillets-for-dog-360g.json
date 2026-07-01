@@ -2,14 +2,12 @@
   "id": 54710,
   "name": "Truly Chicken Fillets For Dog 360g",
   "slug": "truly-chicken-fillets-for-dog-360g",
-  "sku": "TCFD360G",
   "onSale": false,
   "price": 1720,
   "regularPrice": 1720,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/04/Truly-Chicken-Fillets-For-Dogs-360g.png",
   "categories": [
     {
       "id": 2345,
@@ -27,46 +25,51 @@
       "slug": "dog-treats"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/truly-chicken-fillets-for-dog-360g/",
-  "shortDescription": "Treat your furry friend to the delicious taste of 100% real chicken with Truly Chicken Fillets . These tender, high-quality fillets are packed with protein to support your dog’s health and vitality. Perfect for rewarding good behavior, as a snack, or adding a tasty boost to their meals. Your dog will love every bite!",
   "description": "Treat your furry friend to the delicious taste of 100% real chicken with Truly Chicken Fillets . These tender, high-quality fillets are packed with protein to support your dog’s health and vitality. Perfect for rewarding good behavior, as a snack, or adding a tasty boost to their meals. Your dog will love every bite!",
   "images": [
     {
-      "id": 54711,
+      "id": 54710,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/04/Truly-Chicken-Fillets-For-Dogs-360g.png",
       "alt": "Truly Chicken Fillets For Dog 360g",
-      "name": "Truly Chicken Fillets For Dogs 360g"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/truly-chicken-fillets-for-dog-360g/?add-to-cart=54710",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-04-16T10:55:59",
-  "dateModified": "2026-06-19T13:12:10",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/truly-chicken-fillets-for-dog-360g/",
+  "addToCartUrl": "https://petstore.co.ke/product/truly-chicken-fillets-for-dog-360g/?add-to-cart=54710",
+  "shortDescription": "Treat your furry friend to the delicious taste of 100% real chicken with Truly Chicken Fillets . These tender, high-quality fillets are packed with pr",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/04/Truly-Chicken-Fillets-For-Dogs-360g.png",
+  "sku": "PSK-54710",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.36,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/04/Truly-Chicken-Fillets-For-Dogs-360g.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/04/Truly-Chicken-Fillets-For-Dogs-360g.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

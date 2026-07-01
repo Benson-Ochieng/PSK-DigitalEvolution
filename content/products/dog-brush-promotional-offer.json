@@ -41,7 +41,12 @@
   "type": "simple",
   "description": "Dual sided dog brush. Promotional offer only. Not for sale individually. See our SALE page .",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

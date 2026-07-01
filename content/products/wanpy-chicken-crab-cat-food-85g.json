@@ -2,14 +2,12 @@
   "id": 69471,
   "name": "Wanpy Cat Pouch - Chicken & Crab 85g",
   "slug": "wanpy-chicken-crab-cat-food-85g",
-  "sku": "WCW014",
-  "onSale": true,
+  "onSale": false,
   "price": 144,
-  "regularPrice": 180,
-  "salePrice": 144,
+  "regularPrice": 144,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/WANPY-cat-CHICKEN-crab-POUCH-100GR.png",
   "categories": [
     {
       "id": 2325,
@@ -37,62 +35,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2479,
-      "name": "Wanpy",
-      "slug": "wanpy"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 939,
-      "name": "On Sale Now",
-      "slug": "sale"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/wanpy-chicken-crab-cat-food-85g/",
-  "shortDescription": "Wanpy Chicken & Crab Cat Food 85g is a premium wet food pouch with tender chicken and sweet crab. High-protein, preservative-free nutrition for kittens, adults, and senior cats. &nbsp;",
   "description": "Wanpy Chicken & Crab Cat Food 85g is a premium wet food pouch designed to provide complete and easy-to-digest nutrition for cats of all ages and breeds. Made with tender chicken shreds and sweet crab in a flavorful, juicy broth, this recipe delivers high-quality protein essential for lean muscle maintenance and overall health. Formulated without preservatives, colorants, or artificial flavors, it ensures gentle digestion while supplying essential vitamins and minerals to support immunity, strong bones, healthy skin, and a shiny coat. Ideal for both kittens and adult cats, it makes feeding simple, convenient, and nutritious. Key Features & Benefits Single-Serve 85g Pouch – Convenient portion control and freshness Easily Digestible & Hydrating – Juicy broth encourages hydration and gentle digestion 100% Natural Ingredients – Free from preservatives, colorants, and artificial flavors High Protein & Balanced Nutrition – Supports lean muscles, healthy skin, and a shiny coat Suitable for All Life Stages – Safe for kittens, adults, and senior cats Picky Eater Friendly – Soft shreds and appetizing aroma improve acceptance Nutritional Information (Per 85g Pouch) Protein (min): 9% Fat (min): 2% Fiber (max): 1% Moisture (max): 85% Calories: Approx. 70–75 kcal Additional Nutrients: Taurine, vitamins, and minerals for eye, brain, and cardiovascular health Feeding Guidelines Serve directly from the pouch at room temperature, or pour over dry food as a topper. Adjust quantity based on your cat’s age, weight, and activity level. Store leftovers in the refrigerator and consume within 24 hours. Always provide fresh water alongside the meal. Health Benefits Supports lean muscle development and overall vitality Promotes healthy skin, shiny coat, and strong bones Encourages hydration through broth-based wet food Provides essential vitamins and taurine for heart, eye, and brain health &nbsp; &nbsp;",
   "images": [
     {
-      "id": 69473,
+      "id": 69471,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/02/WANPY-cat-CHICKEN-crab-POUCH-100GR.png",
       "alt": "Wanpy Cat Pouch - Chicken & Crab 85g",
-      "name": "WANPY cat CHICKEN &#038;crab POUCH 100GR"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Wanpy",
+      "slug": "wanpy"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/wanpy-chicken-crab-cat-food-85g/?add-to-cart=69471",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-02-03T12:37:25",
-  "dateModified": "2026-06-17T13:15:00",
+  "permalink": "https://petstore.co.ke/product/wanpy-chicken-crab-cat-food-85g/",
+  "addToCartUrl": "https://petstore.co.ke/product/wanpy-chicken-crab-cat-food-85g/?add-to-cart=69471",
+  "shortDescription": "Wanpy Chicken & Crab Cat Food 85g is a premium wet food pouch designed to provide complete and easy-to-digest nutrition for cats of all ages and breed",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/WANPY-cat-CHICKEN-crab-POUCH-100GR.png",
+  "sku": "PSK-69471",
   "brand": "Wanpy",
-  "weight_kg": 0.405,
+  "weight_kg": 0.41,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/WANPY-cat-CHICKEN-crab-POUCH-100GR.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/WANPY-cat-CHICKEN-crab-POUCH-100GR.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 35907,
   "name": "Proline Bentonite Clumping Cat Litter - Marseille Soap Scented 5L",
   "slug": "proline-bentonite-clumping-cat-litter-marseille-soap-scented-5l-2",
-  "sku": "PCL007",
   "onSale": false,
   "price": 1102,
   "regularPrice": 1102,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-Marseille-soap-5L.jpg",
   "categories": [
     {
       "id": 2325,
@@ -32,62 +30,51 @@
       "slug": "proline"
     }
   ],
-  "brands": [
-    {
-      "id": 2461,
-      "name": "Proline",
-      "slug": "proline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 831,
-      "name": "bentonite",
-      "slug": "bentonite"
-    },
-    {
-      "id": 819,
-      "name": "cat litter",
-      "slug": "cat-litter"
-    },
-    {
-      "id": 823,
-      "name": "clumping",
-      "slug": "clumping"
-    },
-    {
-      "id": 2315,
-      "name": "scented",
-      "slug": "scented"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/proline-bentonite-clumping-cat-litter-marseille-soap-scented-5l-2/",
-  "shortDescription": "Freshness made effortless. This Marseille Soap-scented bentonite cat litter absorbs quickly, prevents bacterial growth, and ensures a spotless litter box every time.",
   "description": "Proline Bentonite Clumping Marseille Soap Scented Cat Litter , 100% natural bentonite cat litter instantly clumps. Excellent pelletising, instantly lumps Neutralises odour with fresh Marseille Soap scent Non-toxic and 100% natural Thin grain shape Prevents bacterial growth Upon first use, we recommend adding new cat litter to the surface of the old cat litter for a few days.",
   "images": [
     {
-      "id": 35909,
+      "id": 35907,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-Marseille-soap-5L.jpg",
-      "alt": "Proline Bentonite Clumping Cat Litter – Marseille Soap Scented 5L",
-      "name": "Proline Marseille soap 5L"
+      "alt": "Proline Bentonite Clumping Cat Litter - Marseille Soap Scented 5L",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Proline",
+      "slug": "proline"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/proline-bentonite-clumping-cat-litter-marseille-soap-scented-5l-2/?add-to-cart=35907",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2023-03-23T10:28:00",
-  "dateModified": "2026-06-24T16:12:21",
+  "permalink": "https://petstore.co.ke/product/proline-bentonite-clumping-cat-litter-marseille-soap-scented-5l-2/",
+  "addToCartUrl": "https://petstore.co.ke/product/proline-bentonite-clumping-cat-litter-marseille-soap-scented-5l-2/?add-to-cart=35907",
+  "shortDescription": "Proline Bentonite Clumping Marseille Soap Scented Cat Litter , 100% natural bentonite cat litter instantly clumps. Excellent pelletising, instantly lu",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-Marseille-soap-5L.jpg",
+  "sku": "PSK-35907",
   "brand": "Proline",
   "weight_kg": 4.8,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-Marseille-soap-5L.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/03/Proline-Marseille-soap-5L.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

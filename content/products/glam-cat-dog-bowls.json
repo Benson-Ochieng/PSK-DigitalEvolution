@@ -2,14 +2,12 @@
   "id": 69477,
   "name": "Ferplast Feeding Bowl Medium Red",
   "slug": "glam-cat-dog-bowls",
-  "sku": "FFBMR",
   "onSale": false,
   "price": 1700,
   "regularPrice": 1700,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/Ferplast-Feeding-Bowl-Medium-Red.png",
   "categories": [
     {
       "id": 1204,
@@ -17,41 +15,51 @@
       "slug": "accessories"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=69477",
-  "shortDescription": "Glam Bowls for cats and dogs are stylish, sturdy, and anti-slip. Perfect for food or water, easy to clean, and mix-and-match ready.",
   "description": "Glam Bowls are fashionable and practical feeding bowls designed for cats and dogs of all sizes. Made from sturdy, lightweight plastic , these bowls combine style with functionality. They are perfect for dry or wet food as well as water, and their anti-slip rubber bottom edge ensures maximum stability, preventing spills during mealtime. With smooth surfaces for easy cleaning and side handles for easy grip , Glam Bowls are ideal for everyday use, travel, or walks with your furry friend. Optional connectors allow you to mix and match models to create your own custom feeding station. Key Features & Benefits Sturdy & Lightweight Plastic – Durable and easy to handle Anti-Slip Base – Rubber edges prevent spills and sliding Side Handles – Easy to carry, lift, and move Smooth Surface – Simple to clean and maintain Versatile Use – Suitable for food or water Mix & Match with Connectors – Optional accessories allow custom setups Bright, Glossy Colors – Ceramic-like finish in multiple fashionable colors Glam Bowls combine trendy design with practical functionality . The wide support base and anti-slip edges ensure maximum stability, while handles on the sides make them safe and easy to move. Extra Small bowls can be combined with each other, and larger bowls can be linked with optional connectors to create a custom feeding station . Perfect for cats and dogs of all sizes , these bowls are suitable for everyday feeding, travel, or walks. Their smooth surface makes them quick to clean , while the glossy ceramic-like finish adds a touch of style to any feeding area. Usage Tips Use as a standalone bowl for food or water Combine with other Glam Bowls using connectors for a multi-bowl setup Ideal for travel or outdoor use due to lightweight and durable design &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
   "images": [
     {
-      "id": 69478,
+      "id": 69477,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/02/Ferplast-Feeding-Bowl-Medium-Red.png",
       "alt": "Ferplast Feeding Bowl Medium Red",
-      "name": "Ferplast Feeding Bowl Medium Red"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/glam-cat-dog-bowls/?add-to-cart=69477",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-02-03T15:46:04",
-  "dateModified": "2026-06-24T16:12:09",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=69477",
+  "addToCartUrl": "https://petstore.co.ke/product/glam-cat-dog-bowls/?add-to-cart=69477",
+  "shortDescription": "Glam Bowls are fashionable and practical feeding bowls designed for cats and dogs of all sizes. Made from sturdy, lightweight plastic , these bowls co",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/Ferplast-Feeding-Bowl-Medium-Red.png",
+  "sku": "PSK-69477",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/Ferplast-Feeding-Bowl-Medium-Red.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/Ferplast-Feeding-Bowl-Medium-Red.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

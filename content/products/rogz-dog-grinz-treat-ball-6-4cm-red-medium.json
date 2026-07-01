@@ -2,14 +2,12 @@
   "id": 17430,
   "name": "Rogz Dog ginz-Treat Ball 6.4cm - Red Medium",
   "slug": "rogz-dog-grinz-treat-ball-6-4cm-red-medium",
-  "sku": "GR02-C",
   "onSale": false,
   "price": 1150,
   "regularPrice": 1150,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/GR02-C-Red-Grinz.jpg",
   "categories": [
     {
       "id": 2345,
@@ -32,51 +30,51 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-6-4cm-red-medium/",
-  "shortDescription": "Engage your small to medium dog with the Rogz Dog Grinz Treat Ball 6.4 cm, Red. Durable, treat-dispensing, floating, and safe for teeth for interactive play and exercise.",
   "description": "Make playtime both fun and rewarding with the Rogz Dog Grinz Treat Ball. Designed for small to medium-sized dogs, this interactive toy combines treat dispensing, bouncing, and floating to provide mental stimulation and physical exercise. Dogs love the playful teeth design, which creates a comical “grin” when held in their mouth, keeping both dogs and owners entertained. Crafted from soft yet durable SEBS rubber, the ball is safe for chewing while remaining resilient enough for fetch games or water play. The treat-dispensing feature encourages dogs to solve problems and remain engaged, promoting long-lasting activity and reducing boredom. Its bright red color ensures visibility during outdoor play or pool sessions. Features & Benefits Medium Size: 6.4 cm diameter, suitable for small and medium dogs Durable & Safe Material: Non-toxic SEBS rubber, soft on teeth but firm for bouncing Interactive Treat Play: Fill with treats to motivate mental stimulation and problem-solving Versatile Play: Fetch, water games, or backyard fun Dental Support: Gentle chewing helps maintain teeth health Easy Maintenance: Hand washable and built to withstand vigorous play Usage & Safety Guidelines Always supervise play, particularly for aggressive chewers Suitable for indoor, outdoor, and pool use Fill with small treats or kibble for rewarding play &nbsp; &nbsp;",
   "images": [
     {
-      "id": 17345,
+      "id": 17430,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/01/GR02-C-Red-Grinz.jpg",
-      "alt": "Rogz Dog ginz-Treat Ball 6.4cm – Red Medium",
-      "name": "GR02-C Red Grinz"
+      "alt": "Rogz Dog ginz-Treat Ball 6.4cm - Red Medium",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-6-4cm-red-medium/?add-to-cart=17430",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2021-01-09T09:24:38",
-  "dateModified": "2026-06-17T04:13:38",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-6-4cm-red-medium/",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-grinz-treat-ball-6-4cm-red-medium/?add-to-cart=17430",
+  "shortDescription": "Make playtime both fun and rewarding with the Rogz Dog Grinz Treat Ball. Designed for small to medium-sized dogs, this interactive toy combines treat ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/GR02-C-Red-Grinz.jpg",
+  "sku": "PSK-17430",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/GR02-C-Red-Grinz.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/GR02-C-Red-Grinz.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

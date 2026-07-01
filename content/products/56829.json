@@ -2,14 +2,12 @@
   "id": 56829,
   "name": "Skinners Field & Trial Light & Senior Dog Food 15kg",
   "slug": "56829",
-  "sku": "SFTLSDF01",
   "onSale": false,
   "price": 10800,
   "regularPrice": 10800,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-59.png",
   "categories": [
     {
       "id": 2345,
@@ -32,56 +30,51 @@
       "slug": "dry-dog-food"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 2063,
-      "name": "senior dog",
-      "slug": "senior-dog"
-    },
-    {
-      "id": 2319,
-      "name": "Veterinary Range",
-      "slug": "veterinary-range"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/56829/",
-  "shortDescription": "Skinner's Light & Senior is a complete working dog food. This dry dog food recipe has been specially developed and formulated for any dog that requires a less energy dense diet.",
   "description": "With a formulation that includes reduced levels of fat and protein, Light & Senior is an ideal diet for any dog that needs dietary support (in addition to exercise and other lifestyle management!) to maintain a healthy weight and body condition and can be fed both in meals and as treats as a holistic weight management strategy. Key Benefits Wheat free recipe 8% fat content Support weight management Less active 18% protein Joint support Vat Free Feeding Guide It can be fed straight from the bag or, if your dog prefers, moistened a few minutes before serving with a small amount of tepid water. Ingredients & Additives: Maize, Naked oats, Poultry meat meal, Barley, Beet pulp, Brewers yeast, White fishmeal, Dried egg, Poultry fat, Vitamins and minerals, Whole linseed, Glucosamine 350mg/kg, Chondroitin sulphate 150mg/kg, MSM 50mg/kg Additives: Nutritional additives per kg: Vitamin A 14000iu, Vitamin D3 2000iu, Vitamin E (as all rac-alphatocopherol acetate) 200mg, Carnitine 100mg, Taurine 500mg Trace Elements per kg: Iron (as iron (II) sulphate monohydrate) (10mg) 10mg, Iodine (as calcium iodate anhydrous) (1.5mg) 1.5mg, Copper (as copper (II) sulphate pentahydrate) (7mg) 7mg, Manganese (as manganese (II) oxide) (30mg) 30mg, Zinc (as zinc oxide) (70mg) 70mg, Zinc (as zinc chelate of protein hydrolysates) (30mg) 30mg, Selenium (as organic selenium) (0.1mg) 0.1mg, Tocopherol extracts from vegetable oils (vitamin E) Analytical Constituents: Crude protein 18%, Crude fat 8%, Crude fibres 2.5%, Crude ash 5%",
   "images": [
     {
-      "id": 56831,
+      "id": 56829,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-59.png",
       "alt": "Skinners Field & Trial Light & Senior Dog Food 15kg",
-      "name": "Untitled design (59)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
-  "lowStockRemaining": 10,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/56829/?add-to-cart=56829",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-07-14T12:35:02",
-  "dateModified": "2026-06-17T04:18:47",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/56829/",
+  "addToCartUrl": "https://petstore.co.ke/product/56829/?add-to-cart=56829",
+  "shortDescription": "With a formulation that includes reduced levels of fat and protein, Light & Senior is an ideal diet for any dog that needs dietary support (in additio",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-59.png",
+  "sku": "PSK-56829",
+  "brand": "PetStore Kenya",
   "weight_kg": 15,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-59.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-59.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

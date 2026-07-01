@@ -2,14 +2,12 @@
   "id": 50789,
   "name": "Trendline Adult Dog Food - BEEF 1kg",
   "slug": "trendline-adult-dog-food-beef-1kg-2",
-  "sku": "TDD003@F",
-  "onSale": true,
+  "onSale": false,
   "price": 446,
-  "regularPrice": 580,
-  "salePrice": 446,
+  "regularPrice": 446,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/Trendline-beef-1kg-e1712047106471.png",
   "categories": [
     {
       "id": 1125,
@@ -17,47 +15,51 @@
       "slug": "trendline"
     }
   ],
-  "brands": [
-    {
-      "id": 2471,
-      "name": "Trendline",
-      "slug": "trendline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=50789",
-  "shortDescription": "Fully balanced all-natural dog food with Beef protein, brewer's yeast for immune support and Omega-3 and -6 from flaxseed. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult dogs.",
   "description": "Trendline Adult Dog Food - Beef , fully balanced all-natural dog food with beef protein, brewer's yeast for immune support and Omega-3 and -6 from flaxseed. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult dogs. NUTRIENT COMPONENTS Protein .........................................18% Fat .................................................9% Crude Ash .................................... 8% Crude Cellulose (Fiber) ............... 4% INGREDIENTS: Processed Animal Protein, Corn, Animal Fat, Wheat Middlings, Corn Gluten, Dried Sugar Beet, Liver Aroma, Salt, Flaxseed, Dried Brewer's Yeast. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
   "images": [
     {
-      "id": 45742,
+      "id": 50789,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/04/Trendline-beef-1kg-e1712047106471.png",
-      "alt": "Trendline Adult Dog Food – BEEF 1kg",
-      "name": "Trendline beef 1kg"
+      "alt": "Trendline Adult Dog Food - BEEF 1kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Trendline",
+      "slug": "trendline"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/trendline-adult-dog-food-beef-1kg-2/?add-to-cart=50789",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-10-13T13:48:45",
-  "dateModified": "2026-06-17T04:35:38",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=50789",
+  "addToCartUrl": "https://petstore.co.ke/product/trendline-adult-dog-food-beef-1kg-2/?add-to-cart=50789",
+  "shortDescription": "Trendline Adult Dog Food - Beef , fully balanced all-natural dog food with beef protein, brewer's yeast for immune support and Omega-3 and -6 from fla",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/Trendline-beef-1kg-e1712047106471.png",
+  "sku": "PSK-50789",
   "brand": "Trendline",
   "weight_kg": 1,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/Trendline-beef-1kg-e1712047106471.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/Trendline-beef-1kg-e1712047106471.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 48742,
   "name": "Josera Denties With Duck & Carrot 180g",
   "slug": "josera-denties-with-duck-carrot-180g",
-  "sku": "JDT003",
   "onSale": false,
   "price": 730,
   "regularPrice": 730,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/07/Josera_Denties_DuckCarrot_180g.png",
   "categories": [
     {
       "id": 2345,
@@ -32,57 +30,51 @@
       "slug": "josera"
     }
   ],
-  "brands": [
-    {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2320,
-      "name": "grain-free",
-      "slug": "grain-free"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/josera-denties-with-duck-carrot-180g/",
-  "shortDescription": "The chew snacks are made in Germany and offer top quality. They are also completely free from grains, making them easy to digest.",
   "description": "As your dog chews these tasty sticks, the gums are massaged, and plaque can be reduced. The recipe of these Josera Denties with Duck & Carrot also contains cellulose, which can help to boost the dental care effect. The chew snacks are made in Germany and offer top quality. They are also completely free from grains, making them easy to digest. Ingredients: Vegetable by-products (dried potato, dried tapioca, cellulose), dried duck protein (14%), carrot puree (4%), hydrolysed poultry protein, minerals. Feeding recommendation: Josera Denties with Duck & Carrot is a supplementary food for adult dogs. Dog’s weight Serving in sticks per day 10kg 0.5 25kg 1.5 35kg 2 Feed in addition to a complete diet. Be sure to factor treats into your dog’s daily nutritional intake. Ensure fresh drinking water is always available.",
   "images": [
     {
-      "id": 48743,
+      "id": 48742,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/07/Josera_Denties_DuckCarrot_180g.png",
       "alt": "Josera Denties With Duck & Carrot 180g",
-      "name": "Josera_Denties_DuckCarrot_180g"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/josera-denties-with-duck-carrot-180g/?add-to-cart=48742",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-07-15T09:06:05",
-  "dateModified": "2026-06-17T13:12:22",
+  "permalink": "https://petstore.co.ke/product/josera-denties-with-duck-carrot-180g/",
+  "addToCartUrl": "https://petstore.co.ke/product/josera-denties-with-duck-carrot-180g/?add-to-cart=48742",
+  "shortDescription": "As your dog chews these tasty sticks, the gums are massaged, and plaque can be reduced. The recipe of these Josera Denties with Duck & Carrot also con",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/07/Josera_Denties_DuckCarrot_180g.png",
+  "sku": "PSK-48742",
   "brand": "Josera",
   "weight_kg": 0.18,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/07/Josera_Denties_DuckCarrot_180g.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/07/Josera_Denties_DuckCarrot_180g.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 2322,
   "name": "Premium Dual Cat Bowl - Promotional Offer",
   "slug": "premium-dual-cat-bowl-promotional-offer",
-  "sku": "PSK-2322",
   "onSale": false,
   "price": 0,
   "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/06/petstore-kenya-nairobi-premium-cat-bowl-min.png",
   "categories": [
     {
       "id": 1204,
@@ -27,51 +25,51 @@
       "slug": "cat-bowls-and-feeders"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2072,
-      "name": "Bowls",
-      "slug": "bowls"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=2322",
-  "shortDescription": "Promotional offer only. Not for sale individually. See our SALE page .",
   "description": "Promotional offer only. Not for sale individually. See our SALE page .",
   "images": [
     {
-      "id": 2319,
+      "id": 2322,
       "src": "https://petstore.co.ke/wp-content/uploads/2019/06/petstore-kenya-nairobi-premium-cat-bowl-min.png",
-      "alt": "petstore kenya nairobi premium cat bowl min",
-      "name": "petstore kenya nairobi premium cat bowl min"
+      "alt": "Premium Dual Cat Bowl - Promotional Offer",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/premium-dual-cat-bowl-promotional-offer/?add-to-cart=2322",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2019-06-21T13:14:54",
-  "dateModified": "2026-05-06T17:06:17",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=2322",
+  "addToCartUrl": "https://petstore.co.ke/product/premium-dual-cat-bowl-promotional-offer/?add-to-cart=2322",
+  "shortDescription": "Promotional offer only. Not for sale individually. See our SALE page .",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/06/petstore-kenya-nairobi-premium-cat-bowl-min.png",
+  "sku": "PSK-2322",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/06/petstore-kenya-nairobi-premium-cat-bowl-min.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/06/petstore-kenya-nairobi-premium-cat-bowl-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

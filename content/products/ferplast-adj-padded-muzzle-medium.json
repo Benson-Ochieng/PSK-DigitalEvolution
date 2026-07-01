@@ -2,14 +2,12 @@
   "id": 58282,
   "name": "Ferplast Adj. Padded Muzzle Medium",
   "slug": "ferplast-adj-padded-muzzle-medium",
-  "sku": "FAPMM",
   "onSale": false,
   "price": 0,
   "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-54.png",
   "categories": [
     {
       "id": 1204,
@@ -32,46 +30,51 @@
       "slug": "dog-muzzles"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=58282",
-  "shortDescription": "The FERPLAST Adjustable Padded Muzzle (Medium) offers a safe, comfortable, and practical solution for managing medium-sized dogs in situations where bite prevention is necessary without restricting their ability to drink or breathe.",
   "description": "Key Features • Premium Material & Comfort: Crafted from durable nylon with soft padded edges to protect the dog’s snout from irritation, ensuring comfort even during extended wear. • Fully Adjustable Fit: Equipped with nylon straps and Velcro adjustments to achieve a snug, secure fit. Suitable for dogs with a nose circumference (A) of 46–80 cm and length (B) of 20–25 cm. • Functional Design: Open-front structure allows the dog to pant freely and drink water while wearing the muzzle, ensuring both safety and comfort. • Secure Closure: Features a robust buckle with a plastic hook clasp to keep the muzzle firmly in place. • Lightweight & Practical: Weighs approximately 85 g, making it comfortable for the dog to wear and easy for owners to handle. The nylon material is simple to clean and maintain. Suitable For Medium-sized dog breeds with average snout lengths, ideal for training sessions, vet visits, grooming, or safe public outings. Additional Information Designed and manufactured in Italy by Ferplast renowned for high-quality, pet-friendly products the Adjustable Padded Muzzle delivers the perfect balance of safety, comfort, and functionality. For short-nosed breeds, Ferplast recommends the Safe Boxer model, designed specifically for brachycephalic dogs. If you’d like, I can also create a short, sales-oriented version that works perfectly for online product listings or packaging. That would make it more appealing at first glance while keeping the key details.",
   "images": [
     {
-      "id": 58283,
+      "id": 58282,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-54.png",
       "alt": "Ferplast Adj. Padded Muzzle Medium",
-      "name": "Untitled design (54)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/ferplast-adj-padded-muzzle-medium/?add-to-cart=58282",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-08-11T12:47:14",
-  "dateModified": "2026-05-06T17:11:57",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=58282",
+  "addToCartUrl": "https://petstore.co.ke/product/ferplast-adj-padded-muzzle-medium/?add-to-cart=58282",
+  "shortDescription": "Key Features • Premium Material & Comfort: Crafted from durable nylon with soft padded edges to protect the dog’s snout from irritation, ensuring comf",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-54.png",
+  "sku": "PSK-58282",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-54.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-54.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

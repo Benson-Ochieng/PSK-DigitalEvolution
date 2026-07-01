@@ -2,14 +2,12 @@
   "id": 49065,
   "name": "Grounded Body Bar Uplifting Eucalyptus & Aloe 150g",
   "slug": "grounded-body-bar-uplifting-eucalyptus-aloe-150g",
-  "sku": "BBA015EUC",
   "onSale": false,
   "price": 420,
   "regularPrice": 420,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/07/Body-Bar-Uplifting-EUCALYPTUS.jpg",
   "categories": [
     {
       "id": 2033,
@@ -22,47 +20,51 @@
       "slug": "human"
     }
   ],
-  "brands": [
-    {
-      "id": 2441,
-      "name": "Grounded",
-      "slug": "grounded"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2245,
-      "name": "Human",
-      "slug": "human"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/grounded-body-bar-uplifting-eucalyptus-aloe-150g/",
-  "shortDescription": "Boost your senses and embrace a nurturing experience with this body bar. Leaves your skin feeling hydrated and refreshed. Whether used for a luxurious body cleanse or as a hair-loving care, indulge in its versatile goodness.",
   "description": "100% natural bathing bars for body and hair. Choose our original calming lavender, or our new activated charcoal mint, and uplifting aloe eucalyptus. Dry brush your body before a relaxing shower with which is a great exfoliator. The firm but gentle sisal bristles reveal healthier, smoother, and more radiant skin, after a session of dry brushing. Uplifting – with moringa, aloe, and eucalyptus essential oil &nbsp;",
   "images": [
     {
-      "id": 49067,
+      "id": 49065,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/07/Body-Bar-Uplifting-EUCALYPTUS.jpg",
       "alt": "Grounded Body Bar Uplifting Eucalyptus & Aloe 150g",
-      "name": "Body-Bar-Uplifting- EUCALYPTUS"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Grounded",
+      "slug": "grounded"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 5,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/grounded-body-bar-uplifting-eucalyptus-aloe-150g/?add-to-cart=49065",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-07-31T15:51:21",
-  "dateModified": "2026-06-17T05:01:29",
+  "permalink": "https://petstore.co.ke/product/grounded-body-bar-uplifting-eucalyptus-aloe-150g/",
+  "addToCartUrl": "https://petstore.co.ke/product/grounded-body-bar-uplifting-eucalyptus-aloe-150g/?add-to-cart=49065",
+  "shortDescription": "100% natural bathing bars for body and hair. Choose our original calming lavender, or our new activated charcoal mint, and uplifting aloe eucalyptus. ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/07/Body-Bar-Uplifting-EUCALYPTUS.jpg",
+  "sku": "PSK-49065",
   "brand": "Grounded",
   "weight_kg": 0.15,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/07/Body-Bar-Uplifting-EUCALYPTUS.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/07/Body-Bar-Uplifting-EUCALYPTUS.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

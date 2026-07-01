@@ -2,14 +2,12 @@
   "id": 44988,
   "name": "Spectrum Ultra Premium Adult Cat Food - Slim34 2kg",
   "slug": "spectrum-ultra-premium-adult-cat-food-slim34-2kg",
-  "sku": "SCD005@F",
-  "onSale": true,
+  "onSale": false,
   "price": 2700,
-  "regularPrice": 3750,
-  "salePrice": 2700,
+  "regularPrice": 2700,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/02/Untitled-design-19-e1712568753787.png",
   "categories": [
     {
       "id": 180,
@@ -17,47 +15,51 @@
       "slug": "spectrum"
     }
   ],
-  "brands": [
-    {
-      "id": 2468,
-      "name": "Spectrum",
-      "slug": "spectrum"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=44988",
-  "shortDescription": "Spectrum Slim3 4 , is a specially formulated complete and balanced ultra-premium cat food to meet the nutritional requirements of adult cats prone to? obesity or is sterilised . This? formula is boosted by sugar cane fibre to regulate food intake .",
   "description": "Spectrum Slim34 , is a specially formulated complete and balanced ultra-premium cat food to meet the nutritional requirements of an adult cat prone to obesity or is sterilised . This formula is boosted by sugar cane fibre to regulate food intake . CELL PROTECTION: The titrated plant extracts limit the consequences of oxidative stress by limiting the production of toxic end metabolites. In addition, the Synox 3D increases the bioavailability of essential free fatty acids and vitamins indispensable in skin regeneration. APPETITE REGULATION: The SQF concept in this formula is boosted by hydrolysed sugar cane fibre to regulate food intake and limit weight gain. INTESTINAL HEALTH: Contains Fructo-oligosaccharides to stabilize the intestinal flora, promoting optimal intestinal health and digestive comfort. SKIN CARE: Rich in Antarctic Omega 3 phospholipids to strengthen the?skin barrier, ensuring optimal skin care. &nbsp; SYNOX 3D: a blend of natural, standardised GMO free - titrated plant extracts (Rosemary, grape seed, curcuma, citrus and cloves) clinically proven in cats to counter free radicals induced by oxidative cell damage . Free radicals are essential for life. However, ageing is linked to an increased production of free radicals and a decreased ability to counter their negative effects on health and wellbeing. SYNOX 3D limits the production of malondialdehyde, one of the main toxic metabolites of oxidative stress, protecting cell membrane, mitochondria and genetic material of each individual cell. The unique composition of SYNOX 3D is the result of a screening process on 134 plant extracts, combined with trials in laboratory conditions and a successful clinical trial run in pets. Potential health benefits include increased resistance against oxidative stress, improved life-span and immune stimulation. Qrill: Antarctic qrill is a breakthrough ingredient providing a bioavailable matrix of proteins, omega-3 phospholipids and astaxanthin. Qrill or Euphausia superba phospholipids have been clinically proven to promote brain development, skin health, active joints and body composition. Fructo-oligosaccharides (FOS): stimulate growth and metabolism of beneficial bacteria for the intestine of cats. Ingredients: Dehydrated chicken protein, brown rice, maize, maize gluten, hydrolysed bagasse fibre, chicken oil, dehydrated fish protein, wheat, dried antarctic krill (4%), hydrolysed chicken liver, brewer's yeast, carob flour, DL-methionine, cranberry extract, yucca-quillaja, fructo-oligosaccharides (600 ppm), L-carnitine, rosmarinus sp. - curcuma sp. - vitis sp. - citrus sp.- eugenia sp.(300 ppm). Additives: Vitamin A (E-672): 18000 IU/kg, Vitamin D3 (E-671): 1500 IU/kg, Vitamin E (3A700): 200 mg/kg, Vitamin C (E301): 200 mg/kg, Taurin: 1500 mg, Iron (E1): 200 mg/kg, Iodine (E2): 1.5 mg/kg, Copper (E4): 18 mg/kg, Manganese (E5): 70 mg/kg, Zinc (E6): 180 mg/kg, Selenium (E8): 0.3 mg/kg, Preservatives - Antioxidants. NUTRIENT COMPONENTS Protein ............................................ 34% Fat ...................................................... 12% Cellulose (Fiber)..................................... 7%",
   "images": [
     {
-      "id": 34182,
+      "id": 44988,
       "src": "https://petstore.co.ke/wp-content/uploads/2019/02/Untitled-design-19-e1712568753787.png",
-      "alt": "Spectrum Ultra Premium Adult Cat Food – Slim34 2kg",
-      "name": "Untitled design (19)"
+      "alt": "Spectrum Ultra Premium Adult Cat Food - Slim34 2kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Spectrum",
+      "slug": "spectrum"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/spectrum-ultra-premium-adult-cat-food-slim34-2kg/?add-to-cart=44988",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-03-06T15:31:32",
-  "dateModified": "2026-06-17T04:35:32",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=44988",
+  "addToCartUrl": "https://petstore.co.ke/product/spectrum-ultra-premium-adult-cat-food-slim34-2kg/?add-to-cart=44988",
+  "shortDescription": "Spectrum Slim34 , is a specially formulated complete and balanced ultra-premium cat food to meet the nutritional requirements of an adult cat prone to",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/02/Untitled-design-19-e1712568753787.png",
+  "sku": "PSK-44988",
   "brand": "Spectrum",
   "weight_kg": 2,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/02/Untitled-design-19-e1712568753787.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/02/Untitled-design-19-e1712568753787.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

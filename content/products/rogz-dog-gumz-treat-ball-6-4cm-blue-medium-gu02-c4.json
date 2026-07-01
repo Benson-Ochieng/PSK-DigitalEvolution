@@ -2,14 +2,12 @@
   "id": 62706,
   "name": "Rogz Dog Gumz-Treat Ball 6.4cm - Blue Medium (GU02-C4)",
   "slug": "rogz-dog-gumz-treat-ball-6-4cm-blue-medium-gu02-c4",
-  "sku": "GU02-B@F",
-  "onSale": true,
+  "onSale": false,
   "price": 760,
-  "regularPrice": 1085,
-  "salePrice": 760,
+  "regularPrice": 760,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/GU02-B-Gumz-Ball-Blue.jpg",
   "categories": [
     {
       "id": 1204,
@@ -37,41 +35,51 @@
       "slug": "rogz"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=62706",
-  "shortDescription": "Rogz Gums-Treat ball – Blue Medium",
   "description": "Gumz dog ball is easy to bounce, easy to fetch, easy to carry and easy to love! And all dog parents know balls have always been a huge hit amongst dogs - so upgrade that celebrated experience with a treat filled Gumz ball from Rogz. Playtime has never tasted this good! Benefits your dog?s mental & physical health Bone-shaped hole to fill with your dog?s favourite treat Easy to bounce & for your dog to fetch and carry Durable exterior for the chewer in your home Size: Medium 6.4cm",
   "images": [
     {
-      "id": 24590,
+      "id": 62706,
       "src": "https://petstore.co.ke/wp-content/uploads/2022/01/GU02-B-Gumz-Ball-Blue.jpg",
-      "alt": "Rogz Doggumz Treat Ball 7.8cm Blue Large (Gu04-B)",
-      "name": "GU02-B-Gumz-Ball-Blue.jpg"
+      "alt": "Rogz Dog Gumz-Treat Ball 6.4cm - Blue Medium (GU02-C4)",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-gumz-treat-ball-6-4cm-blue-medium-gu02-c4/?add-to-cart=62706",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-11-23T09:19:44",
-  "dateModified": "2026-06-04T12:49:41",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=62706",
+  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-gumz-treat-ball-6-4cm-blue-medium-gu02-c4/?add-to-cart=62706",
+  "shortDescription": "Gumz dog ball is easy to bounce, easy to fetch, easy to carry and easy to love! And all dog parents know balls have always been a huge hit amongst dog",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/GU02-B-Gumz-Ball-Blue.jpg",
+  "sku": "PSK-62706",
+  "brand": "PetStore Kenya",
   "weight_kg": 0.4,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/GU02-B-Gumz-Ball-Blue.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/GU02-B-Gumz-Ball-Blue.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

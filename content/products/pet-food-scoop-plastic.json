@@ -2,14 +2,12 @@
   "id": 44546,
   "name": "Pet Food Scoop Plastic",
   "slug": "pet-food-scoop-plastic",
-  "sku": "PF0525",
   "onSale": false,
   "price": 600,
   "regularPrice": 600,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/02/PF0525.png",
   "categories": [
     {
       "id": 1204,
@@ -52,56 +50,51 @@
       "slug": "generic"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 637,
-      "name": "kibble",
-      "slug": "kibble"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pet-food-scoop-plastic/",
-  "shortDescription": "Allows you to easily serve your precious pet. Ideal for measured portions",
   "description": "Pet food scoop: Allows you to easily serve food for your precious pet. Ideal for measured portions 2 cups",
   "images": [
     {
-      "id": 44547,
+      "id": 44546,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/02/PF0525.png",
       "alt": "Pet Food Scoop Plastic",
-      "name": "PF0525"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/pet-food-scoop-plastic/?add-to-cart=44546",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-02-19T15:20:43",
-  "dateModified": "2026-06-17T04:18:42",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/product/pet-food-scoop-plastic/",
+  "addToCartUrl": "https://petstore.co.ke/product/pet-food-scoop-plastic/?add-to-cart=44546",
+  "shortDescription": "Pet food scoop: Allows you to easily serve food for your precious pet. Ideal for measured portions 2 cups",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/02/PF0525.png",
+  "sku": "PSK-44546",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/02/PF0525.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/02/PF0525.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

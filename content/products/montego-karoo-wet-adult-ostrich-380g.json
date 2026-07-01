@@ -2,14 +2,12 @@
   "id": 62663,
   "name": "Montego Karoo Wet Adult Ostrich - 380g",
   "slug": "montego-karoo-wet-adult-ostrich-380g",
-  "sku": "MKWO380@F",
-  "onSale": true,
+  "onSale": false,
   "price": 665,
-  "regularPrice": 950,
-  "salePrice": 665,
+  "regularPrice": 665,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-31.png",
   "categories": [
     {
       "id": 2298,
@@ -17,47 +15,51 @@
       "slug": "montego"
     }
   ],
-  "brands": [
-    {
-      "id": 2453,
-      "name": "Montego",
-      "slug": "montego"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=62663",
-  "shortDescription": "Montego Karoo Ostrich wet food for adult dogs is a mouth-watering wet food that have been slow cooked to perfection. It comes in a 380 tub and even the fussiest dogs should love these.",
   "description": "Montego Karoo Ostrich wet food for dogs is made for adult dogs and contains all the best ingredients for dogs to keep them happy and healthy while also satisfying their taste buds. It comes in a 380g tub and is suitable for all breeds and can be given as a meal or could be added to dry food as a treat. The Montego Karoo Ostrich wet food contains Ostrich, Rice, Potato and Carrots that have been slow cooked to excellence. This is definitely a food that is recommended for even the fussiest dogs in mind. Water, ostrich (including liver), rice (including rice flour), whole egg powder, palm oil, beet pulp, sodium tripolyphosphate, calcium carbonate, guar gum, salt, xanthan gum, potassium chloride, essential minerals & vitamins. Nutritional: Vitamin A 1 500 IU, Vitamin D3 75 IU, Vitamin E 6 IU, potassium chloride 1 g, zinc sulphate 7.5 mg, ferrous sulphate 7.5 mg, copper sulphate 0.5 mg, manganese sulphate 0.3 mg, potassium iodide 0.1 mg and sodium selenite 0.01 mg; Preservatives: Approved antioxidants; Sensory: Gravy sauce, palatability meat-based enhancers and dextrose. Feeding Guide Weight of Cat Tubs per Day Grams per Day (Dry) Kibble + Tub Mix per Day 2 – 3 kg 1 – 1 ½ 125 – 187.5 g 17 – 25 g dry + ½ – ¾ Tub 4 – 5 kg 2 – 2 ½ 250 – 312.5 g 27 – 35 g dry + 1 – 1 ¼ Tubs 6 – 8 kg 3 – 4 375 – 500 g 40 – 50 g dry + 1 ½ – 2 Tubs &nbsp;",
   "images": [
     {
-      "id": 56685,
+      "id": 62663,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-31.png",
-      "alt": "Montego Karoo Wet Adult Ostrich – 380g",
-      "name": "Untitled design (31)"
+      "alt": "Montego Karoo Wet Adult Ostrich - 380g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Montego",
+      "slug": "montego"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/montego-karoo-wet-adult-ostrich-380g/?add-to-cart=62663",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-11-21T14:11:24",
-  "dateModified": "2026-06-17T04:34:29",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=62663",
+  "addToCartUrl": "https://petstore.co.ke/product/montego-karoo-wet-adult-ostrich-380g/?add-to-cart=62663",
+  "shortDescription": "Montego Karoo Ostrich wet food for dogs is made for adult dogs and contains all the best ingredients for dogs to keep them happy and healthy while als",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-31.png",
+  "sku": "PSK-62663",
   "brand": "Montego",
   "weight_kg": 0.38,
   "animal_type": "dog",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-31.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-31.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

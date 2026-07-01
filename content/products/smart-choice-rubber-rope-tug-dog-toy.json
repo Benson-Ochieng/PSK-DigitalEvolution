@@ -2,14 +2,12 @@
   "id": 47376,
   "name": "Smart Choice Rubber & Rope Tug Dog Toy (Sc972)",
   "slug": "smart-choice-rubber-rope-tug-dog-toy",
-  "sku": "SC972",
   "onSale": false,
   "price": 1500,
   "regularPrice": 1500,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/05/SC972.jpg",
   "categories": [
     {
       "id": 2358,
@@ -42,61 +40,51 @@
       "slug": "toys"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    },
-    {
-      "id": 2032,
-      "name": "Toys",
-      "slug": "toys"
-    },
-    {
-      "id": 2272,
-      "name": "upsell-dog",
-      "slug": "upsell-dog"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=47376",
-  "shortDescription": "Sometimes a dog just needs to play and what better way than with a tough tug toy. This durable toy is great for indoor games of tug and pull, keeping your pet amused for hours. The knotted rope and strong rubber help to keep your dog's teeth and gums healthy whilst satisfying their natural instinct to chew.",
   "description": "Designed to keep your dog happy and healthy through fun games of throw and fetch. The strong rubber structure is a great chewy toy, strengthening the jaw and satisfying your pet's natural instinct to chew. This lightweight and robust toy is a gentle on your dog's mouth, helping to keep gums and teeth healthy. Whilst chewing the nubs and ridges massage your dog's gums, reducing the build-up of plaque and tarter. Available in Blue, Green and Pink. We cannot guarantee which colour you will receive when you purchase online Length: 60cm",
   "images": [
     {
-      "id": 47377,
+      "id": 47376,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/05/SC972.jpg",
       "alt": "Smart Choice Rubber & Rope Tug Dog Toy (Sc972)",
-      "name": "SC972"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/smart-choice-rubber-rope-tug-dog-toy/?add-to-cart=47376",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-05-30T15:34:57",
-  "dateModified": "2026-05-06T17:09:56",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=47376",
+  "addToCartUrl": "https://petstore.co.ke/product/smart-choice-rubber-rope-tug-dog-toy/?add-to-cart=47376",
+  "shortDescription": "Designed to keep your dog happy and healthy through fun games of throw and fetch. The strong rubber structure is a great chewy toy, strengthening the ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/05/SC972.jpg",
+  "sku": "PSK-47376",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/05/SC972.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/05/SC972.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

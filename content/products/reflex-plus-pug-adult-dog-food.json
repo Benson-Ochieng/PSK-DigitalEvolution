@@ -2,14 +2,12 @@
   "id": 69411,
   "name": "Reflex Plus Adult Dog Food Breed Series Pug Hypoallergenic 2kg",
   "slug": "reflex-plus-pug-adult-dog-food",
-  "sku": "RPDD020",
   "onSale": false,
   "price": 3450,
   "regularPrice": 3450,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-PLUS-ADULT-DOG-FOOD-BREED-SERIES-PUG-HYPOALLERGENIC-2KG.png",
   "categories": [
     {
       "id": 2345,
@@ -32,57 +30,51 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
-    {
-      "id": 2318,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=69411",
-  "shortDescription": "Reflex Plus Pug Adult Dog Food is a super-premium dry diet for Pugs 10+ months. Supports joint, urinary, immune, digestive, skin & coat, and oral health with high-quality animal protein. &nbsp; &nbsp;",
   "description": "Complete & Balanced Super Premium Dry Food for Pug Dogs (10+ Months) Reflex Plus Pug Adult Dog Food is a complete and balanced dry diet specially formulated for Pugs over 10 months old. Enriched with high-quality animal proteins and functional ingredients, it supports joint health, digestion, skin and coat condition, urinary and immune health, and oral hygiene. The formula contains glucosamine, chondroitin sulfate, prebiotics, Aloe Vera, cranberry, borage oil, brown algae, and flaxseed, delivering targeted support for joint flexibility, urinary tract function, antioxidant protection, and a shiny, healthy coat. &nbsp; Fos & Mos Prebiotics : It is a natural additive that has a positive effect on maintaining immune and digestive system health. Glucosamine : It helps to maintain joint flexibility and improve joint health. Aloe Vera : It helps support coat health and maintain the skin barrier. Cranberry : It has antioxidant content. It supports the immune system and urinary system health. Chondroitin Sulfate : It helps preserve the structure of cartilage tissue in joints and supports the production of joint fluid. Brown Algae : AIt has a rich content of minerals beneficial for oral and dental health. Helps prevent tartar formation and eliminate bad breath. Key Benefits Formulated specifically for Pugs (10+ months) 83% of total protein comes from premium animal ingredients Supports immune and digestive system health (FOS & MOS prebiotics) Promotes joint health and flexibility (Glucosamine & Chondroitin Sulfate) Supports urinary tract and antioxidant health (DL-Methionine & Cranberry) Promotes skin and coat condition (Aloe Vera & Borage Oil) Supports oral and dental health (Brown Algae) Balanced nutrition for energy, vitality, and overall wellbeing Ingredients Processed chicken protein (29%), Corn, Rice, Chicken fat, Hydrolyzed chicken protein, Pea protein, Dried beet pulp, Fish protein, Fish oil, Liver aroma, Vitamins and minerals, Fiber concentrate, DL-Methionine, Psyllium fiber, Dried brewer's yeast, Brown algae, Borage oil, Cranberry, MOS (mannan-oligosaccharides), Flaxseed, Yucca schidigera, Salt, L-carnitine, Aloe Vera, FOS (fructo-oligosaccharides), Glucosamine, Chondroitin sulfate, Preservatives & antioxidants (E320 & E321). Analytical Constituents Crude Protein: 26% Crude Fat: 15% Crude Ash: 7% Crude Fibre: 2.7% Nutritional Supplements Vitamins: Vitamin A: 18,000 IU/kg Vitamin D3: 1,500 IU/kg Vitamin E: 200 mg/kg Vitamin C: 200 mg/kg B Vitamins (B1, B2, B3, B6, B12, Biotin, Folic Acid), Vitamin K3, Choline, Calcium Pantothenate Minerals: Iron, Iodine, Copper, Manganese, Zinc, Selenium Feeding Guidelines Feed according to body weight, activity level, and silhouette (A-Thin, B-Normal, C-Overweight) Adjust daily portions based on environment, lifestyle, temperament, and energy needs Gradually transition from one food to another over 7 days Provide clean, fresh drinking water at all times Store in a cool, dry place; close bag properly after each feeding Not suitable for human consumption Check expiration date and batch number on packaging &nbsp; &nbsp; &nbsp; &nbsp;",
   "images": [
     {
-      "id": 69414,
+      "id": 69411,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-PLUS-ADULT-DOG-FOOD-BREED-SERIES-PUG-HYPOALLERGENIC-2KG.png",
       "alt": "Reflex Plus Adult Dog Food Breed Series Pug Hypoallergenic 2kg",
-      "name": "REFLEX PLUS ADULT DOG FOOD BREED SERIES PUG HYPOALLERGENIC 2KG"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-pug-adult-dog-food/?add-to-cart=69411",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-02-02T12:47:15",
-  "dateModified": "2026-05-29T15:12:16",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=69411",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-pug-adult-dog-food/?add-to-cart=69411",
+  "shortDescription": "Complete & Balanced Super Premium Dry Food for Pug Dogs (10+ Months) Reflex Plus Pug Adult Dog Food is a complete and balanced dry diet specially form",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-PLUS-ADULT-DOG-FOOD-BREED-SERIES-PUG-HYPOALLERGENIC-2KG.png",
+  "sku": "PSK-69411",
   "brand": "Reflex",
   "weight_kg": 3,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-PLUS-ADULT-DOG-FOOD-BREED-SERIES-PUG-HYPOALLERGENIC-2KG.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-PLUS-ADULT-DOG-FOOD-BREED-SERIES-PUG-HYPOALLERGENIC-2KG.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

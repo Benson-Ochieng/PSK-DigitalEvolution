@@ -2,14 +2,12 @@
   "id": 68410,
   "name": "Churu Fun Bites Dog Treats - Chicken Recipe Wraps - Tuna Recipe",
   "slug": "churu-fun-bites-dog-treats-chicken-tuna",
-  "sku": "BCDT030",
   "onSale": false,
   "price": 930,
   "regularPrice": 930,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/Dog-Churu-Bites-Chicken-Recipe-Wraps-Tuna-Recipe.png",
   "categories": [
     {
       "id": 2386,
@@ -32,52 +30,51 @@
       "slug": "dog-treats"
     }
   ],
-  "brands": [
-    {
-      "id": 2433,
-      "name": "Churu",
-      "slug": "churu"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/churu-fun-bites-dog-treats-chicken-tuna/",
-  "shortDescription": "Soft, premium dog treats made with real chicken and tuna. Churu Fun Bites offer a dual texture, grain-free recipe perfect for training, picky eaters, and healthy rewarding.",
   "description": "Churu Fun Bites Dog Treats – Chicken Recipe Wrapped with Tuna Recipe are soft, premium snacks made for dogs who know what they like. Each pillow-shaped bite is gently baked with real chicken on the outside and filled with a rich, creamy Churu center made from chicken and wild-caught tuna. Crafted with 100% natural ingredients , these treats bring together two irresistible textures in every bite —soft on the outside, creamy on the inside—making them perfect for picky eaters and dogs that need a little extra encouragement at snack time. Free from grains, preservatives, artificial colours, and carrageenan, Churu Fun Bites are not just tasty but thoughtfully made. They’re low in calories and high in moisture , ideal for frequent rewarding, training, or simply sharing a special moment with your dog. Whether you’re training, giving medication, or treating your dog on the go, Churu Fun Bites deliver flavour, nutrition, and convenience—because every good dog deserves something special. Key Benefits Made with farm-raised chicken and wild-caught tuna Dual texture: soft baked outside, creamy filling inside Grain-free and free from artificial additives Low-calorie and high moisture for healthy snacking Perfect for training, picky eaters, and medication support &nbsp; &nbsp;",
   "images": [
     {
-      "id": 68412,
+      "id": 68410,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/01/Dog-Churu-Bites-Chicken-Recipe-Wraps-Tuna-Recipe.png",
-      "alt": "Churu Fun Bites Dog Treats – Chicken Recipe Wraps – Tuna Recipe",
-      "name": "Dog Churu Bites Chicken Recipe Wraps Tuna Recipe"
+      "alt": "Churu Fun Bites Dog Treats - Chicken Recipe Wraps - Tuna Recipe",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Churu",
+      "slug": "churu"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/churu-fun-bites-dog-treats-chicken-tuna/?add-to-cart=68410",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-01-21T12:09:00",
-  "dateModified": "2026-06-17T04:30:29",
+  "permalink": "https://petstore.co.ke/product/churu-fun-bites-dog-treats-chicken-tuna/",
+  "addToCartUrl": "https://petstore.co.ke/product/churu-fun-bites-dog-treats-chicken-tuna/?add-to-cart=68410",
+  "shortDescription": "Churu Fun Bites Dog Treats – Chicken Recipe Wrapped with Tuna Recipe are soft, premium snacks made for dogs who know what they like. Each pillow-shape",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/Dog-Churu-Bites-Chicken-Recipe-Wraps-Tuna-Recipe.png",
+  "sku": "PSK-68410",
   "brand": "Churu",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/Dog-Churu-Bites-Chicken-Recipe-Wraps-Tuna-Recipe.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/Dog-Churu-Bites-Chicken-Recipe-Wraps-Tuna-Recipe.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

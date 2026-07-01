@@ -2,14 +2,12 @@
   "id": 48666,
   "name": "SHORT EXPIRY-CLEARANCE: Reflex Kitten Food Chicken & Rice 15kg",
   "slug": "defect-damaged-package-clearance-reflex-kitten-food-chicken-rice-15kg",
-  "sku": "RCD008@SE",
-  "onSale": true,
+  "onSale": false,
   "price": 8820,
-  "regularPrice": 14700,
-  "salePrice": 8820,
+  "regularPrice": 8820,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/Untitled-design-16.png",
   "categories": [
     {
       "id": 2325,
@@ -32,67 +30,51 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
-    {
-      "id": 2515,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 637,
-      "name": "kibble",
-      "slug": "kibble"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=48666",
-  "shortDescription": "Reflex Kitten Food Chicken 15kg delivers premium nutrition for growing kittens, promoting strong muscles, bone development, and a robust immune system with every meal.",
   "description": "Reflex Kitten Food Chicken & Rice 15kg is a nutritionally complete, premium-quality food designed to meet the unique dietary needs of growing kittens. Blending high-quality chicken protein with wholesome rice , this recipe delivers the perfect balance of energy, digestibility, and nourishment to support steady development from the earliest stages of life. Specially formulated for optimal growth, immune defense, and digestive health , Reflex Kitten ensures your little feline receives all the nutrients necessary to grow strong, active, and full of life. The large 15kg pack provides long-lasting value, ideal for multi-kitten households or economical feeding. Key Benefits High Protein for Lean Muscle Growth With chicken as the main ingredient, Reflex Kitten provides essential amino acids that promote healthy muscle and bone development , ensuring balanced, strong growth. Energy and Coat Support The recipe includes 20% crude fat to supply sustained energy for playful, active kittens while maintaining a smooth, shiny coat and healthy skin . Omega 3 & 6 for Brain Development Enriched with flaxseed , the formula delivers natural omega 3 and 6 fatty acids that enhance brain function, learning ability, and coat glossiness . Immunity and Disease Resistance A carefully selected blend of CitriStim, beta-glucans, and whey protein helps strengthen your kitten’s immune system, protecting it from common infections and environmental stress. Digestive Comfort and Odour Control With mannan oligosaccharides (MOS) and yucca extract , Reflex Kitten supports a healthy digestive tract, improves nutrient absorption, and reduces unpleasant litter odours. Vitamins and Minerals for Total Health Fortified with a full range of vitamins ( A, D, E, K, C, and B-complex ) and minerals ( zinc, calcium, iron, selenium, phosphorus ), this diet supports bone strength , organ function , and overall vitality . Ingredients Processed animal protein, rice, wheat, corn, corn gluten, animal fat, liver flavour, flaxseed, brewer’s yeast, taurine, MOS (mannan oligosaccharides), beta-glucan, yucca, quillaja, and enriched vitamins and minerals. Each ingredient is expertly selected to ensure maximum digestibility , superior taste , and balanced nutrition for kittens of all breeds. Feeding Guidelines Feeding amounts should be adjusted depending on your kitten’s age, weight, and activity level . Feed smaller portions more frequently for very young kittens. Provide clean, fresh water at all times. Store in a cool, dry location , away from moisture and direct sunlight. Monitoring appetite, stool consistency, and body condition ensures your kitten remains healthy and well-nourished. Why Reflex Kitten Chicken & Rice 15kg Stands Out . Premium chicken-based nutrition for growth and vitality . Supports immunity, digestion, and coat health naturally . Fortified with vitamins, minerals, and omega fatty acids . Ideal for breeders and multi-kitten homes . Economical 15kg size without compromise on quality &nbsp;",
   "images": [
     {
-      "id": 34177,
+      "id": 48666,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/04/Untitled-design-16.png",
-      "alt": "Reflex Kitten Food Chicken & Rice 15kg",
-      "name": "Untitled design (16)"
+      "alt": "SHORT EXPIRY-CLEARANCE: Reflex Kitten Food Chicken & Rice 15kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/defect-damaged-package-clearance-reflex-kitten-food-chicken-rice-15kg/?add-to-cart=48666",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-07-11T10:30:18",
-  "dateModified": "2026-05-06T17:10:19",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=48666",
+  "addToCartUrl": "https://petstore.co.ke/product/defect-damaged-package-clearance-reflex-kitten-food-chicken-rice-15kg/?add-to-cart=48666",
+  "shortDescription": "Reflex Kitten Food Chicken & Rice 15kg is a nutritionally complete, premium-quality food designed to meet the unique dietary needs of growing kittens.",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/Untitled-design-16.png",
+  "sku": "PSK-48666",
   "brand": "Reflex",
   "weight_kg": 15,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/Untitled-design-16.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/Untitled-design-16.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

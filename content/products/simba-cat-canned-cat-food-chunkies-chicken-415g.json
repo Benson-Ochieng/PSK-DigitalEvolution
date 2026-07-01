@@ -2,14 +2,12 @@
   "id": 90284,
   "name": "Simba Cat Canned Cat Food Chunkies – Chicken 415g",
   "slug": "simba-cat-canned-cat-food-chunkies-chicken-415g",
-  "sku": "LSWC009",
   "onSale": false,
   "price": 251,
   "regularPrice": 251,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Canned-Cat-Chunkies-With-Chicken-415G-2.png",
   "categories": [
     {
       "id": 2325,
@@ -32,57 +30,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2464,
-      "name": "Simba",
-      "slug": "simba"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/simba-cat-canned-cat-food-chunkies-chicken-415g/",
-  "shortDescription": "Give your cat a delicious and nutritious meal with Simba Cat Chunks Chicken. Made with tender chicken chunks and carefully selected ingredients, this complete wet cat food provides the protein and essential nutrients adult cats need to stay active and healthy.",
   "description": "The chunky texture offers an enjoyable eating experience while delivering balanced daily nutrition. Rich in quality animal protein, this recipe helps support muscle maintenance, vitality, and overall wellbeing. Its appetising flavour makes it a great choice for everyday feeding, even for cats with selective appetites. Produced with quality ingredients and crafted to provide complete nutrition, Simba Cat Chunks Chicken is a tasty and convenient meal that your cat will love. Key Benefits Complete and balanced wet food for adult cats Made with delicious chicken chunks Rich in quality protein to support muscle maintenance Supports daily health and vitality Highly palatable recipe for everyday feeding Chunky texture cats enjoy Suitable for adult cats of all breeds Convenient canned format Feeding Guide Serve according to your cat’s weight, age, and activity level. Always provide fresh, clean drinking water. Storage Store in a cool, dry place. Once opened, refrigerate and consume within 48 hours. Size: 415g &nbsp;",
   "images": [
     {
-      "id": 90339,
+      "id": 90284,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Canned-Cat-Chunkies-With-Chicken-415G-2.png",
       "alt": "Simba Cat Canned Cat Food Chunkies – Chicken 415g",
-      "name": "Simba Canned Cat Chunkies With Chicken 415G (2)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Simba",
+      "slug": "simba"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/simba-cat-canned-cat-food-chunkies-chicken-415g/?add-to-cart=90284",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-06-08T12:19:29",
-  "dateModified": "2026-06-17T05:01:39",
+  "permalink": "https://petstore.co.ke/product/simba-cat-canned-cat-food-chunkies-chicken-415g/",
+  "addToCartUrl": "https://petstore.co.ke/product/simba-cat-canned-cat-food-chunkies-chicken-415g/?add-to-cart=90284",
+  "shortDescription": "The chunky texture offers an enjoyable eating experience while delivering balanced daily nutrition. Rich in quality animal protein, this recipe helps ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Canned-Cat-Chunkies-With-Chicken-415G-2.png",
+  "sku": "PSK-90284",
   "brand": "Simba",
-  "weight_kg": 0.415,
+  "weight_kg": 0.42,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Canned-Cat-Chunkies-With-Chicken-415G-2.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/Simba-Canned-Cat-Chunkies-With-Chicken-415G-2.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

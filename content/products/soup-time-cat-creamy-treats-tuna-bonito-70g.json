@@ -2,14 +2,12 @@
   "id": 57087,
   "name": "Soup Time Cat Creamy Treats Tuna & Bonito 70g",
   "slug": "soup-time-cat-creamy-treats-tuna-bonito-70g",
-  "sku": "STCCTTB",
   "onSale": false,
   "price": 297,
   "regularPrice": 297,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-2025-07-23T081831.553.png",
   "categories": [
     {
       "id": 2325,
@@ -37,52 +35,51 @@
       "slug": "soup-time"
     }
   ],
-  "brands": [
-    {
-      "id": 2467,
-      "name": "Soup Time",
-      "slug": "soup-time"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/soup-time-cat-creamy-treats-tuna-bonito-70g/",
-  "shortDescription": "A premium, healthy, and hydrating lickable treat your cat will absolutely love! Perfect as a reward, a tasty snack, or even as a topping to enhance dry food.",
   "description": "Soup Time Creamy is a healthy and hydrating lickable treat. Serve it on a dish or feed your cat directly from the tube as a special reward. Soup Time Creamy treats are natural, tasty, and full of essential nutrients. Add some tasty variation to your cat's diet with Soup Time Creamy treats—delicious or as a dry food topping. Ingredients: Tuna, Bonito, Chicken, Starch, Taurine, Vitamins (A, B2, B3, B5, D3, E), Xanthan Gum. Nutritional Analysis: Crude Protein: 6.5% (min) Crude Fat: 0.1% (min) Crude Fiber: 0.5% (max) Moisture: 90% (max) Why Choose Soup Time? Premium Quality – crafted with natural, wholesome ingredients. Lickable & Easy to Digest – ideal for cats of all ages. Hydrating Formula – supports your cat’s daily fluid intake. No Artificial Colors or Preservatives – just pure goodness. Serving Suggestions: Serve directly from the tube, in a dish, or drizzle over dry kibble for an irresistible treat.",
   "images": [
     {
-      "id": 57089,
+      "id": 57087,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-2025-07-23T081831.553.png",
       "alt": "Soup Time Cat Creamy Treats Tuna & Bonito 70g",
-      "name": "Untitled design &#8211; 2025-07-23T081831.553"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Soup Time",
+      "slug": "soup-time"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/soup-time-cat-creamy-treats-tuna-bonito-70g/?add-to-cart=57087",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-07-23T08:05:22",
-  "dateModified": "2026-06-17T10:12:13",
+  "permalink": "https://petstore.co.ke/product/soup-time-cat-creamy-treats-tuna-bonito-70g/",
+  "addToCartUrl": "https://petstore.co.ke/product/soup-time-cat-creamy-treats-tuna-bonito-70g/?add-to-cart=57087",
+  "shortDescription": "Soup Time Creamy is a healthy and hydrating lickable treat. Serve it on a dish or feed your cat directly from the tube as a special reward. Soup Time ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-2025-07-23T081831.553.png",
+  "sku": "PSK-57087",
   "brand": "Soup Time",
   "weight_kg": 0.07,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-2025-07-23T081831.553.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-2025-07-23T081831.553.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 66402,
   "name": "Churu Cat Treats Fun Bites Chicken Recipe Wraps Tuna With Scallop Recipe 60g",
   "slug": "inaba-churu-bites-chicken-wraps-tuna-scallop-grain-free-cat-treats",
-  "sku": "BCCT032",
   "onSale": false,
   "price": 530,
   "regularPrice": 530,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/fun-bites-chicken-with-scallop-tuna-.png",
   "categories": [
     {
       "id": 2325,
@@ -32,52 +30,51 @@
       "slug": "churu"
     }
   ],
-  "brands": [
-    {
-      "id": 2433,
-      "name": "Churu",
-      "slug": "churu"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/inaba-churu-bites-chicken-wraps-tuna-scallop-grain-free-cat-treats/",
-  "shortDescription": "Delight your cat with Churu Bites Chicken Wraps Tuna with Scallop Grain-Free Cat Treats pillow-shaped soft treats featuring a baked chicken exterior and creamy tuna-scallop filling. Made with real chicken, wild tuna & scallops, grain-free with no preservatives or artificial colors. Perfect for hydration & bonding. Pack of 3 for freshness.",
   "description": "Spoil your feline friend with Churu Bites Chicken Recipe Wraps Tuna with Scallop Grain-Free Cat Treats , the ultimate indulgent snack that combines two irresistible textures in every bite. These premium pillow-shaped cat treats feature a soft-baked chicken paste exterior made from 100% pure farm-raised chicken, wrapped around a creamy, lickable Churu filling infused with wild-caught tuna and real scallops for a seafood flavor cats crave. Crafted with high-quality, natural ingredients like real chicken, wild tuna, and premium scallops, these grain-free cat treats are free from grains, corn, wheat, soy, preservatives, and artificial colors – making them an ideal choice for cats with sensitivities or owners seeking wholesome, clean treats. Added vitamin E and green tea extract provide antioxidant support for immune health, while the high moisture content (72%) helps promote hydration, supporting urinary tract health and overall wellness. Each low-calorie treat (just 13 kcal per piece) is perfect for training, rewarding good behavior, or simply bonding with your cat. Hand-feed for interactive fun, or use as a food topper to entice picky eaters. Packaged in three individual portions for maximum freshness – no more stale treats! Key Benefits: Dual textures : Soft-baked outside with creamy filling inside for exciting mouthfeel High moisture : Helps keep cats hydrated, especially those on dry food diets Grain-free formula : No grains, corn, wheat, soy, preservatives, or artificial colors Real meat & seafood first : Made with farm-raised chicken, wild tuna, and scallops Antioxidant boost : Vitamin E and green tea extract for immune support Ingredients: Chicken, Tuna, Water, Tapioca, Egg White, Sodium Caseinate, Scallop, Guar Gum, Natural Scallop Flavor, Natural Chicken Flavor, Natural Flavors, Yeast Extract, Carrageenan, Vitamin E Supplement, Paprika Oleoresin (color), Green Tea Extract. Guaranteed Analysis: Crude Protein (min): 22.0% Crude Fat (min): 3.0% Crude Fiber (max): 0.5% Moisture (max): 72.0% Vitamin E (min): 80 IU/lb Caloric Content: 1300 kcal/kg; 13 kcal/piece Feeding Guidelines: Feed as a treat, not intended as a complete meal. Refrigerate after opening and serve soon. Always provide fresh water and consult your vet for your cat's health needs. Treat your cat to the delicious taste of the sea with these irresistible grain-free tuna and scallop cat treats order Churu Bites today and watch your kitty beg for more! &nbsp;",
   "images": [
     {
-      "id": 66424,
+      "id": 66402,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/01/fun-bites-chicken-with-scallop-tuna-.png",
       "alt": "Churu Cat Treats Fun Bites Chicken Recipe Wraps Tuna With Scallop Recipe 60g",
-      "name": "fun bites chicken with scallop tuna"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Churu",
+      "slug": "churu"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/inaba-churu-bites-chicken-wraps-tuna-scallop-grain-free-cat-treats/?add-to-cart=66402",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-01-08T14:08:54",
-  "dateModified": "2026-06-22T11:12:01",
+  "permalink": "https://petstore.co.ke/product/inaba-churu-bites-chicken-wraps-tuna-scallop-grain-free-cat-treats/",
+  "addToCartUrl": "https://petstore.co.ke/product/inaba-churu-bites-chicken-wraps-tuna-scallop-grain-free-cat-treats/?add-to-cart=66402",
+  "shortDescription": "Spoil your feline friend with Churu Bites Chicken Recipe Wraps Tuna with Scallop Grain-Free Cat Treats , the ultimate indulgent snack that combines tw",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/fun-bites-chicken-with-scallop-tuna-.png",
+  "sku": "PSK-66402",
   "brand": "Churu",
   "weight_kg": 0.06,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/fun-bites-chicken-with-scallop-tuna-.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/fun-bites-chicken-with-scallop-tuna-.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

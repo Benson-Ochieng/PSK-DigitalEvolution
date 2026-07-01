@@ -2,14 +2,12 @@
   "id": 69951,
   "name": "Inaba Foods Cat Treat Grilled Tuna In Flavored Broth",
   "slug": "grilled-tuna-tuna-flavored-broth-cat-treat",
-  "sku": "BGCT004",
   "onSale": false,
   "price": 350,
   "regularPrice": 350,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/Grilled-Cat-Tuna-Fillet-In-Tuna-Flavored-Broth-2.png",
   "categories": [
     {
       "id": 2325,
@@ -37,52 +35,51 @@
       "slug": "inaba"
     }
   ],
-  "brands": [
-    {
-      "id": 2433,
-      "name": "Churu",
-      "slug": "churu"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/grilled-tuna-tuna-flavored-broth-cat-treat/",
-  "shortDescription": "Premium Inaba grilled tuna cat treats in tuna flavored broth. Grain-free, hydrating, and enriched with Vitamin E & antioxidants. Suitable for all cat life stages. &nbsp;",
   "description": "Delight your cat with Inaba Foods Grilled Tuna in Tuna Flavored Broth , a premium, hand-cut tuna fillet made from wholesome, high-quality ingredients. Each lightly grilled fillet is packed in a savory tuna-flavored broth to lock in moisture, helping to keep your feline hydrated and happy. Made with natural wild-caught tuna, these flaky fillets are vacuum-sealed in UV-blocking packaging to preserve freshness and flavor. Free from grains, preservatives, and artificial colors, they are enriched with Vitamin E for immunity and Green Tea Extract as an antioxidant, giving your cat a healthy and tasty treat. Perfect for handfeeding, topping wet or dry food, or as a special reward, these tender tuna fillets provide variety and excitement to your cat’s daily routine. Suitable for all life stages, from kittens to seniors. Key Benefits . Made with natural wild-caught tuna . Moisture-rich broth supports hydration . Grain-free, preservative-free, and no artificial colors . Enriched with Vitamin E & Green Tea Extract antioxidants . Ideal for handfeeding, topping, or treating . Vacuum-sealed for freshness . Suitable for kittens, adults, and senior cats Ingredients Tuna, Natural Tuna Flavored Broth, Vitamin E Supplement, Green Tea Extract Guaranteed Analysis Crude Protein (min): 26.5% Crude Fat (min): 0.8% Crude Fiber (max): 0.5% Moisture (max): 71% Vitamin E (min): 14 IU/kg Calories: 1277 kcal/kg | 19 kcal per piece Net Weight: 0.52 oz per fillet Feeding Instructions Feed as a treat only. Not intended as a complete meal. Provide fresh water daily. Storage Instructions Refrigerate after opening and serve promptly to maintain freshness. &nbsp; &nbsp; &nbsp; &nbsp;",
   "images": [
     {
-      "id": 69953,
+      "id": 69951,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/02/Grilled-Cat-Tuna-Fillet-In-Tuna-Flavored-Broth-2.png",
       "alt": "Inaba Foods Cat Treat Grilled Tuna In Flavored Broth",
-      "name": "Grilled Cat Tuna Fillet In Tuna Flavored Broth (2)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Churu",
+      "slug": "churu"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/grilled-tuna-tuna-flavored-broth-cat-treat/?add-to-cart=69951",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-02-23T10:36:37",
-  "dateModified": "2026-06-19T16:12:40",
+  "permalink": "https://petstore.co.ke/product/grilled-tuna-tuna-flavored-broth-cat-treat/",
+  "addToCartUrl": "https://petstore.co.ke/product/grilled-tuna-tuna-flavored-broth-cat-treat/?add-to-cart=69951",
+  "shortDescription": "Delight your cat with Inaba Foods Grilled Tuna in Tuna Flavored Broth , a premium, hand-cut tuna fillet made from wholesome, high-quality ingredients.",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/Grilled-Cat-Tuna-Fillet-In-Tuna-Flavored-Broth-2.png",
+  "sku": "PSK-69951",
   "brand": "Churu",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/Grilled-Cat-Tuna-Fillet-In-Tuna-Flavored-Broth-2.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/Grilled-Cat-Tuna-Fillet-In-Tuna-Flavored-Broth-2.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

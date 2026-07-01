@@ -2,14 +2,12 @@
   "id": 68597,
   "name": "Reflex Happy Hour Dog Treat Lamb Anti Aging Collagen 60g",
   "slug": "happy-hour-collagen-dog-treats-lamb",
-  "sku": "RDT032",
   "onSale": false,
   "price": 195,
   "regularPrice": 195,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/Reflex-Happy-Hour-anti-collagen-Dog-2.png",
   "categories": [
     {
       "id": 2345,
@@ -32,57 +30,51 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
-    {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/happy-hour-collagen-dog-treats-lamb/",
-  "shortDescription": "Happy Hour Lamb Collagen Dog Treats support joint health, digestion, and vitality. Made with lamb protein, collagen, and essential vitamins for adult dogs.",
   "description": "Happy Hour Collagen Dog Treats with Lamb are a nutritious, high-quality snack designed to support your dog’s daily health, digestion, and vitality. Made with processed lamb protein (20%) , hydrolyzed lamb protein , and hydrolyzed collagen , this functional treat helps maintain strong muscles, healthy joints, and a shiny coat while delivering an irresistible meaty taste dogs love. With 24% crude protein and 16% fat , this balanced formula provides sustained energy and supports active adult dogs. Natural ingredients such as flaxseed, brewer’s yeast, MOS prebiotics, marigold extract, and yucca schidigera promote digestive health, immune support, and improved nutrient absorption. Added vitamins and trace minerals help maintain overall well-being, while antioxidants support long-term vitality. Perfect as a reward or daily snack, Happy Hour Lamb Collagen Treats are ideal for dog owners looking for both taste and functional benefits in one treat. Key Benefits Lamb Protein Formula – Highly palatable and easy to digest Collagen Support – Helps maintain joints, skin, and coat health Balanced Nutrition – 24% protein and healthy fats for energy Digestive Health – MOS prebiotics, yeast, and fiber support gut balance Skin & Coat Care – Flaxseed and chicken fat promote a glossy coat For Dogs Only – Not suitable for human consumption Guaranteed Analysis Crude Protein: 24% Fat Content: 16% Crude Cellulose: 3% Crude Ash: 8% Moisture (Max): 10% Feeding & Storage Instructions Suitable for adult dogs Can be consumed in one meal or given as a treat Daily intake may vary depending on lifestyle, activity level, and climate Ensure constant access to fresh drinking water Store in a cool, dry place and reseal the bag after opening &nbsp; &nbsp;",
   "images": [
     {
-      "id": 68600,
+      "id": 68597,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/01/Reflex-Happy-Hour-anti-collagen-Dog-2.png",
       "alt": "Reflex Happy Hour Dog Treat Lamb Anti Aging Collagen 60g",
-      "name": "Reflex Happy Hour anti collagen Dog"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/happy-hour-collagen-dog-treats-lamb/?add-to-cart=68597",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-01-27T14:52:20",
-  "dateModified": "2026-06-19T14:38:27",
+  "permalink": "https://petstore.co.ke/product/happy-hour-collagen-dog-treats-lamb/",
+  "addToCartUrl": "https://petstore.co.ke/product/happy-hour-collagen-dog-treats-lamb/?add-to-cart=68597",
+  "shortDescription": "Happy Hour Collagen Dog Treats with Lamb are a nutritious, high-quality snack designed to support your dog’s daily health, digestion, and vitality. Ma",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/01/Reflex-Happy-Hour-anti-collagen-Dog-2.png",
+  "sku": "PSK-68597",
   "brand": "Reflex",
   "weight_kg": 0.06,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/Reflex-Happy-Hour-anti-collagen-Dog-2.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/Reflex-Happy-Hour-anti-collagen-Dog-2.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

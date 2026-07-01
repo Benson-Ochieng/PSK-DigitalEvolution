@@ -2,14 +2,12 @@
   "id": 52795,
   "name": "Reflex Happy Hour Dog Treat Calming Support Lamb & Blueberry 60g",
   "slug": "reflex-happy-hour-dog-treat-calming-support-lamb-blueberry-60gr",
-  "sku": "RDT028@F",
-  "onSale": true,
+  "onSale": false,
   "price": 127,
-  "regularPrice": 195,
-  "salePrice": 127,
+  "regularPrice": 127,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/01/Happy-Hour-Dog-Treats-Calmness-60g.png",
   "categories": [
     {
       "id": 2332,
@@ -17,41 +15,51 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=52795",
-  "shortDescription": "Promote calmness and relaxation in your pet with Reflex Happy Hour Lamb & Cranberry Treats a wholesome, stress-relieving snack crafted with premium ingredients.",
   "description": "Give your dog the perfect combination of flavor, nutrition, and relaxation with Reflex Happy Hour Dog Treats Calmness – Lamb & Cranberry . These delicious, crunchy treats are specially crafted to help calm anxious or hyperactive dogs while promoting their overall health and happiness. Each bite is bursting with natural flavor and packed with nutrients that support stress reduction and emotional balance. Made with premium lamb protein and real cranberry, these treats not only taste irresistible but also deliver antioxidants and vitamins that enhance your pet’s wellbeing. The crunchy texture supports dental hygiene, while the nutrient-rich recipe helps maintain vitality and calm energy levels — perfect for daily rewarding or soothing stressful moments. Key Benefits Calming Support: Formulated with natural ingredients that help reduce anxiety and promote relaxation. Healthy Digestion: Enriched with MOS and Yucca Schidigera to aid in digestion and nutrient absorption. Rich in Antioxidants: Contains cranberry and blueberry to support immune health and cell protection. Crunchy for Dental Health: Helps clean teeth and freshen breath with every bite. No Artificial Additives: Made with natural ingredients and free from artificial colors or preservatives. Ingredients Processed Lamb Protein (20%), Processed Animal Protein, Corn, Chicken Fat, Wheat Bran, Hydrolyzed Lamb Protein, Liver Flavor, Powdered Cellulose, Vitamins and Minerals, Brewer’s Yeast, Salt, Flaxseed, Yucca Schidigera, Marigold Extract, Cranberry, Blueberry, Mannan-Oligosaccharide (MOS), Preservatives and Antioxidants (E320 & E321). Nutrient Components Component Value Crude Protein 24% Fat Content 16% Crude Cellulose 3% Raw Ash 8% Humidity (Max.) 8% &nbsp; Nutritional Additives Vitamins: Vitamin A (3a672a), Vitamin D3 (3a671), Vitamin E (3a700), Vitamin C (3a300), Vitamin B1 (3a821), B2 (3a825i), B3 (Niacin-3a315), B6 (3a831), B12 (3A), B7 (Biotin-3a880), B9 (Folic Acid-3a316), Vitamin K3 (3a710), Choline (3a890), Calcium Pantothenate (3a841). Minerals: Iron (3b103), Iodine (3b202), Copper (3b405), Manganese (3b502), Zinc (3b603), Selenium (3b802). Feeding Recommendations For adult dogs, it can be given as a daily treat or reward. The feeding rate may vary depending on outdoor temperature, activity level, and lifestyle. Always provide fresh drinking water and store treats in a cool, dry place. Close packaging tightly after each feeding to preserve freshness. Note: Not suitable for human consumption. The size and color of the product may vary depending on ingredient properties. Make every calm moment count with Reflex Happy Hour Dog Treats – the perfect blend of taste, relaxation, and care. &nbsp;",
   "images": [
     {
-      "id": 52691,
+      "id": 52795,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/01/Happy-Hour-Dog-Treats-Calmness-60g.png",
-      "alt": "Pack Of 10 – Reflex Happy Hour Dog Treat Calmness Lamb & Blueberry 60g",
-      "name": "Happy Hour Dog Treats- Calmness 60g"
+      "alt": "Reflex Happy Hour Dog Treat Calming Support Lamb & Blueberry 60g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-happy-hour-dog-treat-calming-support-lamb-blueberry-60gr/?add-to-cart=52795",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-01-16T17:04:58",
-  "dateModified": "2026-05-06T17:10:55",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=52795",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-happy-hour-dog-treat-calming-support-lamb-blueberry-60gr/?add-to-cart=52795",
+  "shortDescription": "Give your dog the perfect combination of flavor, nutrition, and relaxation with Reflex Happy Hour Dog Treats Calmness – Lamb & Cranberry . These delic",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/01/Happy-Hour-Dog-Treats-Calmness-60g.png",
+  "sku": "PSK-52795",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/01/Happy-Hour-Dog-Treats-Calmness-60g.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/01/Happy-Hour-Dog-Treats-Calmness-60g.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 25976,
   "name": "Unique Veterinary Prescription Diet Adult Dog Obesity Turkey & Lamb 12kg",
   "slug": "unique-veterinary-prescription-diet-adult-dog-obesity-turkey-lamb-12kg",
-  "sku": "UDD012",
   "onSale": false,
   "price": 17813,
   "regularPrice": 17813,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/03/UDD012.jpg",
   "categories": [
     {
       "id": 2345,
@@ -32,57 +30,51 @@
       "slug": "unique"
     }
   ],
-  "brands": [
-    {
-      "id": 2475,
-      "name": "Unique",
-      "slug": "unique-2"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 2319,
-      "name": "Veterinary Range",
-      "slug": "veterinary-range"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/unique-veterinary-prescription-diet-adult-dog-obesity-turkey-lamb-12kg/",
-  "shortDescription": "Formulated for dogs prone to putting on excess bodyweight. It helps maintain optimal muscle mass, promotes heart health and solves joint problems. Provides effective support for the treatment of diabetes mellitus, appetite control and promote satiety.",
   "description": "How it works: Weight control with limited energy level, High quality hydrolyzed protein sources, Rich and effective fiber content (healthy digestion), High L-Carnitine ratio (effective use of energy), Wild buckthorn (Omega-7 and anti-inflammatory), Content rich in probiotics and prebiotics. Ingredients: Turkey Protein, Lamb Protein, Pea, Brown Rice, Sugar Beet Pulp, Powdered Cellulose, Corn Gluten Meal, Pea Protein, Hydrolyzed Lamb Protein, Fish Oil, Hydrolyzed Chicken Liver, Psyllium Shells, Vitamin and Mineral Premix, Natural Flavors, Probiotic, Dried Algae, MOS, ?-Glucan, Tocopherol, Yucca, Wild Seaweed. Raw Material Components Raw Protein 28.76% Raw oil 9.88% Raw Cellulose (Fiber) 11.24% Ash 6.92% Moisture 4.29% Omega-3 0.48% Omega 6 0.57% Calcium 1.01% Phosphorus 0.70% Sodium 0.27% Magnesium 0.043% Nutritional Supplements Vitamin A (3a672a) 21,000 IU/kg Vitamin D 3 (E671) 1.100 IU/kg Vitamin E (3a700) 1.200mg/kg Vitamin C (3a312) 500mg/kg Choline Chloride (3a890) 2.500mg/kg Biotin (3a880) 2.6 mg/kg Vitamin B 1 (3a821) 12mg/kg Vitamin B2 10mg/kg Niacinamide (3a315) 60mg/kg Calcium-D-Panthothenate (3a841) 25mg/kg Vitamin B 6 (3a831) 8mg/kg Folic Acid (3a316) 5mg/kg Vitamin B 12 0.18 mg/kg Zinc Chelate of Amino Acids Hydrate (3b606) 140mg/kg Ferrous Chelate of Amino Acids Hydrate (E1) 48mg/kg Manganese Chelate of Amino Acids Hydrate (E5) 65mg/kg Potassium Iodide (3b201) 3.7 mg/kg Cupric Chelate of Amino Acids Hydrate (E4) 5mg/kg Organic Form of Selenium (3b8.10) 0.2mg/kg Taurine (3a370) 2.500mg/kg L-Carnitine (3a910) 650mg/kg Glucosamine 700mg/kg chondroitin 500mg/kg Probiotic (B. Amyloliquefaciens) 7 x 10 14 /kg",
   "images": [
     {
-      "id": 25865,
+      "id": 25976,
       "src": "https://petstore.co.ke/wp-content/uploads/2022/03/UDD012.jpg",
       "alt": "Unique Veterinary Prescription Diet Adult Dog Obesity Turkey & Lamb 12kg",
-      "name": "UDD012"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Unique",
+      "slug": "unique"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/unique-veterinary-prescription-diet-adult-dog-obesity-turkey-lamb-12kg/?add-to-cart=25976",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2022-03-07T07:37:22",
-  "dateModified": "2026-06-17T04:29:35",
+  "permalink": "https://petstore.co.ke/product/unique-veterinary-prescription-diet-adult-dog-obesity-turkey-lamb-12kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/unique-veterinary-prescription-diet-adult-dog-obesity-turkey-lamb-12kg/?add-to-cart=25976",
+  "shortDescription": "How it works: Weight control with limited energy level, High quality hydrolyzed protein sources, Rich and effective fiber content (healthy digestion),",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/03/UDD012.jpg",
+  "sku": "PSK-25976",
   "brand": "Unique",
   "weight_kg": 12,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/03/UDD012.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/03/UDD012.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

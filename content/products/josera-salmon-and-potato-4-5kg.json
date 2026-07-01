@@ -2,14 +2,12 @@
   "id": 23711,
   "name": "Josera Salmon and Potato 900g (Pack of 5)",
   "slug": "josera-salmon-and-potato-4-5kg",
-  "sku": "JDSP002",
   "onSale": false,
   "price": 5601,
   "regularPrice": 5601,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JDSP002.jpg",
   "categories": [
     {
       "id": 2112,
@@ -17,57 +15,51 @@
       "slug": "josera"
     }
   ],
-  "brands": [
-    {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2055,
-      "name": "Bulk Cat Food & Bulk Dog Food",
-      "slug": "bulk"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2063,
-      "name": "senior dog",
-      "slug": "senior-dog"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=23711",
-  "shortDescription": "A grain-free pleasure for our chowhounds: Salmon and potato, with herbs and fruits. Due to the low protein and energy content and the moderate mineral content, it is also highly suitable for older dogs. A great product for dogs with allergies to Grains or to other sources of meat besides Salmon. Greatly helps dogs with skin allergies.",
   "description": "Composition: salmon 19,0 %; dried potato 51.0 %; poultry fat; beet fibre; potato protein; carob meal; hydrolysed fish protein; minerals; chicory root, ground (natural source of inulin); herbs; fruits. Product Details: A grain-free pleasure for our chowhounds: Salmon and potato, with herbs and fruits. Due to the low protein and energy content and the moderate mineral content, it is also highly suitable for older dogs. ? With 19% dried salmon as the only source of animal protein (corresponds to about 65 g of fresh meat per 100 g of dry food) ? With herbs and fruit (carob, chicory root, raspberries, peppermint, parsley, camomile, rose hip, liquorice, chokeberry, fenugreek seeds, blueberries, marigold and fennel) ? Also suitable for older dogs",
   "images": [
     {
-      "id": 23741,
+      "id": 23711,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/10/JDSP002.jpg",
       "alt": "Josera Salmon and Potato 900g (Pack of 5)",
-      "name": "JDSP002.jpg"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/josera-salmon-and-potato-4-5kg/?add-to-cart=23711",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2021-10-29T07:55:17",
-  "dateModified": "2026-06-17T04:33:52",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=23711",
+  "addToCartUrl": "https://petstore.co.ke/product/josera-salmon-and-potato-4-5kg/?add-to-cart=23711",
+  "shortDescription": "Composition: salmon 19,0 %; dried potato 51.0 %; poultry fat; beet fibre; potato protein; carob meal; hydrolysed fish protein; minerals; chicory root,",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/10/JDSP002.jpg",
+  "sku": "PSK-23711",
   "brand": "Josera",
   "weight_kg": 4.5,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JDSP002.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/10/JDSP002.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 50853,
   "name": "Latex Dog Toy 20cm 3 Assorted",
   "slug": "latex-dog-toy-20cm-3-assorted-2",
-  "sku": "PA3367@F",
-  "onSale": true,
+  "onSale": false,
   "price": 1620,
-  "regularPrice": 1800,
-  "salePrice": 1620,
+  "regularPrice": 1620,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/latex-dog-toy-20cm-assorted-webimage1-pa3367.webp",
   "categories": [
     {
       "id": 1204,
@@ -17,35 +15,51 @@
       "slug": "accessories"
     }
   ],
-  "brands": [],
-  "tags": [],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=50853",
-  "shortDescription": "Enhance your pet's playtime with our Latex Dog Toy, designed to deliver endless fun and excitement. This 20cm squeaky toy is perfect for games of catch, providing both entertainment and exercise for your furry friend. Assorted colours: Black, Red or Blue, each sold separately. We cannot guarantee which colour/style you will receive when you purchase online.",
   "description": "Latex Dog Toy 20cm (Hen) with a guarantee of hours of fun and great for playing catch with your pet. 20cm Squeaky pet toy Assorted colours: black, red or blue Available in various colours/styles, each sold separately. We cannot guarantee which colour/style you will receive when you purchase online.",
   "images": [
     {
-      "id": 42763,
+      "id": 50853,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/12/latex-dog-toy-20cm-assorted-webimage1-pa3367.webp",
       "alt": "Latex Dog Toy 20cm 3 Assorted",
-      "name": "latex-dog-toy-20cm-assorted-webimage1-pa3367"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/latex-dog-toy-20cm-3-assorted-2/?add-to-cart=50853",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-10-14T17:01:44",
-  "dateModified": "2026-05-06T17:10:41",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=50853",
+  "addToCartUrl": "https://petstore.co.ke/product/latex-dog-toy-20cm-3-assorted-2/?add-to-cart=50853",
+  "shortDescription": "Latex Dog Toy 20cm (Hen) with a guarantee of hours of fun and great for playing catch with your pet. 20cm Squeaky pet toy Assorted colours: black, red",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/latex-dog-toy-20cm-assorted-webimage1-pa3367.webp",
+  "sku": "PSK-50853",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/latex-dog-toy-20cm-assorted-webimage1-pa3367.webp"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/latex-dog-toy-20cm-assorted-webimage1-pa3367.webp",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

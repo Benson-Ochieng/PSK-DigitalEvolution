@@ -2,14 +2,12 @@
   "id": 49485,
   "name": "SHORT EXPIRY - CLEARANCE: Migliorcane Specialmenu Adult Dog Food Croquettes With Chicken And Vegetables 10kg",
   "slug": "short-expiry-clearance-migliorcane-specialmenu-adult-dog-food-croquettes-with-chicken-and-vegetables-10kg",
-  "sku": "MDD007@SE",
-  "onSale": true,
+  "onSale": false,
   "price": 4284,
-  "regularPrice": 5355,
-  "salePrice": 4284,
+  "regularPrice": 4284,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MDD007.jpg",
   "categories": [
     {
       "id": 2345,
@@ -32,51 +30,51 @@
       "slug": "miglior"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=49485",
-  "shortDescription": "Formula designed to guarantee the key nutrients required for the well-being of your dog, including vitamins, Omega 3, calcium and phosphorous to support strong bones and teeth, healthy skin and glossy coat, and toned musculature.",
   "description": "COMPOSITION: Cereals, meat and animal derivatives 21% (chicken 4%), derivatives of vegetable origin, oil and fats, vegetables 1%, minerals, yeasts. ANALYTICAL CONSTITUENTS: Crude protein 19.00%, Crude fibres 3.50%, Crude Fat 8.00%, Crude ash 8.00%, Calcium 2.5%, Phosphorus 1.8%, Sodium 0.3%, Omega 3 fatty acids 0.3%, Omega 6 fatty acids 1.5%. Nutritional additives /kg: Vitamin A 11090 IU, Vitamin D3 770 IU, Vitamin E 70 mg, Iron (Iron (II) carbonate - siderite) 35.8 mg, Zinc (Zinc oxide) 71 mg, Copper (Copper (II) sulphate pentahydrate) 5.9 mg, Manganese (Manganese (II) oxide) 3.5 mg, Iodine (Potassium iodide) 1.7 mg, Selenium (Sodium selenite) 0.1 mg. Colourants. Antioxidants. HOW TO USE: The product is ready to use. The daily amount recommended may vary due to age or particular needs of every dog. We suggest to switch gradually to the new food. Leave always available to your dog a bowl of pure water. STORAGE INSTRUCTION: Store the product in a cool and dry place, avoiding direct sunlight.",
   "images": [
     {
-      "id": 28196,
+      "id": 49485,
       "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MDD007.jpg",
-      "alt": "Migliorcane SPECIALMENU CROQUETTES WITH CHICKEN AND VEGETABLES 10kg",
-      "name": "MDD007"
+      "alt": "SHORT EXPIRY - CLEARANCE: Migliorcane Specialmenu Adult Dog Food Croquettes With Chicken And Vegetables 10kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-migliorcane-specialmenu-adult-dog-food-croquettes-with-chicken-and-vegetables-10kg/?add-to-cart=49485",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-08-17T12:29:15",
-  "dateModified": "2026-05-06T17:10:30",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=49485",
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-migliorcane-specialmenu-adult-dog-food-croquettes-with-chicken-and-vegetables-10kg/?add-to-cart=49485",
+  "shortDescription": "COMPOSITION: Cereals, meat and animal derivatives 21% (chicken 4%), derivatives of vegetable origin, oil and fats, vegetables 1%, minerals, yeasts. AN",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/05/MDD007.jpg",
+  "sku": "PSK-49485",
+  "brand": "PetStore Kenya",
   "weight_kg": 10,
   "animal_type": "dog",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MDD007.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MDD007.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 58356,
   "name": "Ferplast Cat Collar 5627",
   "slug": "ferplast-cat-collar-5627",
-  "sku": "FCC56/27",
   "onSale": false,
   "price": 0,
   "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-7-1.png",
   "categories": [
     {
       "id": 1204,
@@ -17,46 +15,51 @@
       "slug": "accessories"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=58356",
-  "shortDescription": "Keep your cat safe, stylish, and easy to find with the Ferplast Cat Collar 5627 – a smart, secure, and colorful accessory designed with your pet’s wellbeing in mind.",
   "description": "Key Features: • Durable Polyester Material: Made from high-quality polyester, this collar is built to last while staying soft and comfortable on your cat’s neck. • Vibrant Mixed Colors: The collar comes in a variety of bright, fun colors to match your cat’s personality. (Note: Colors are shipped randomly based on stock availability.) • Cheerful Metal Bell: A small metal bell helps you easily track your cat’s movements while adding a charming touch to their look. • Cat Safe Snap Closure: Featuring Ferplast’s Cat Safe safety system, the snap buckle is designed to release automatically under excessive pressure—protecting your cat from choking or getting caught. • Adjustable Fit: Easily adjustable to ensure a snug yet comfortable fit for cats of various sizes. Whether your cat is an indoor explorer or an outdoor adventurer, the Ferplast Cat Collar 5627 provides peace of mind with its smart safety design and cheerful appearance",
   "images": [
     {
-      "id": 58358,
+      "id": 58356,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-7-1.png",
       "alt": "Ferplast Cat Collar 5627",
-      "name": "Untitled design (7)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/ferplast-cat-collar-5627/?add-to-cart=58356",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-08-13T11:08:38",
-  "dateModified": "2026-05-06T17:11:57",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=58356",
+  "addToCartUrl": "https://petstore.co.ke/product/ferplast-cat-collar-5627/?add-to-cart=58356",
+  "shortDescription": "Key Features: • Durable Polyester Material: Made from high-quality polyester, this collar is built to last while staying soft and comfortable on your ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-7-1.png",
+  "sku": "PSK-58356",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-7-1.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-7-1.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

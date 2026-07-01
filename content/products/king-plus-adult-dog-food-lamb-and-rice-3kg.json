@@ -2,14 +2,12 @@
   "id": 1398,
   "name": "King Plus Adult Dog Food - Lamb and Rice 3kg",
   "slug": "king-plus-adult-dog-food-lamb-and-rice-3kg",
-  "sku": "KDD004",
   "onSale": false,
   "price": 1920,
   "regularPrice": 1920,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/09/King-Plus-Dog-Food-Lamb-and-rice-3kg-min.png",
   "categories": [
     {
       "id": 2345,
@@ -32,52 +30,51 @@
       "slug": "king"
     }
   ],
-  "brands": [
-    {
-      "id": 2446,
-      "name": "King",
-      "slug": "king"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/king-plus-adult-dog-food-lamb-and-rice-3kg/",
-  "shortDescription": "Give your adult large breed dog a premium, all-natural meal with King Plus Adult Dog Food Lamb & Rice . Carefully crafted with high-quality lamb protein and enriched with brewer’s yeast, this fully balanced formula supports overall health, energy, and vitality.",
   "description": "King Plus Adult Dog Food Lamb & Rice is a fully balanced, all-natural formula designed to meet the nutritional needs of adult large breed dogs. Crafted with high-quality lamb protein and enriched with brewer’s yeast, this premium dog food supports immune health while providing optimal energy and vitality. Key Nutritional Highlights: High Protein (21%) from lamb for strong muscles and sustained energy Balanced Fat Content (9%) to promote healthy skin and coat Fiber (4%) to aid digestion and maintain gut health Crude Ash (10%) contributing essential minerals for overall wellbeing Premium Ingredients: Includes wheat, corn, processed animal protein, animal fat, corn gluten, liver aroma, rice, salt, and dried brewer’s yeast to deliver a rich, palatable meal your dog will love. Essential Minerals & Vitamins: Formulated with vital minerals such as calcium, phosphorus, sodium, iodine, zinc, copper, potassium chloride, iron, and selenium. It also contains a comprehensive vitamin complex including vitamins A, D, E, C, B1, B2, B3 (niacin), B6, B7 (biotin), B9 (folic acid), B12, K, along with choline and calcium pantothenate, ensuring complete nutrition for your dog’s health. This carefully balanced formula supports immune function, muscle maintenance, and overall vitality, making King Plus Lamb & Rice an excellent choice for adult large breed dogs.",
   "images": [
     {
-      "id": 15359,
+      "id": 1398,
       "src": "https://petstore.co.ke/wp-content/uploads/2020/09/King-Plus-Dog-Food-Lamb-and-rice-3kg-min.png",
-      "alt": "King Plus Adult Dog Food – Lamb and Rice 3kg",
-      "name": "King Plus Dog Food Lamb and rice 3kg-min"
+      "alt": "King Plus Adult Dog Food - Lamb and Rice 3kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "King",
+      "slug": "king"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/king-plus-adult-dog-food-lamb-and-rice-3kg/?add-to-cart=1398",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2018-11-08T15:59:25",
-  "dateModified": "2026-06-24T16:12:11",
+  "permalink": "https://petstore.co.ke/product/king-plus-adult-dog-food-lamb-and-rice-3kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/king-plus-adult-dog-food-lamb-and-rice-3kg/?add-to-cart=1398",
+  "shortDescription": "King Plus Adult Dog Food Lamb & Rice is a fully balanced, all-natural formula designed to meet the nutritional needs of adult large breed dogs. Crafte",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/09/King-Plus-Dog-Food-Lamb-and-rice-3kg-min.png",
+  "sku": "PSK-1398",
   "brand": "King",
   "weight_kg": 3,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/09/King-Plus-Dog-Food-Lamb-and-rice-3kg-min.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/09/King-Plus-Dog-Food-Lamb-and-rice-3kg-min.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

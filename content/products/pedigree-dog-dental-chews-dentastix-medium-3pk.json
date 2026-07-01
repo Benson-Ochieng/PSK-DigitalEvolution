@@ -2,14 +2,12 @@
   "id": 89811,
   "name": "Pedigree Dog Dental Chews - Dentastix Medium 3pk",
   "slug": "pedigree-dog-dental-chews-dentastix-medium-3pk",
-  "sku": "PDT003",
   "onSale": false,
   "price": 496,
   "regularPrice": 496,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/Pedigree-Dentastix-Dental-Chews-Medium-3pk.png",
   "categories": [
     {
       "id": 2325,
@@ -32,57 +30,51 @@
       "slug": "pedigree"
     }
   ],
-  "brands": [
-    {
-      "id": 2456,
-      "name": "Pedigree",
-      "slug": "pedigree"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pedigree-dog-dental-chews-dentastix-medium-3pk/",
-  "shortDescription": "Support your dog’s daily dental health with Pedigree Dentastix Medium Dog Dental Chews specially designed dental chews for medium dogs weighing 10–25kg. These tasty X-shaped dental sticks help reduce plaque and tartar buildup while promoting healthy teeth and gums through daily chewing.",
   "description": "Clinically proven to help reduce tartar buildup by up to 80% when fed daily, Pedigree Dentastix feature a unique texture, special shape, and active ingredients that help clean even hard-to-reach teeth. They provide long-lasting chewing enjoyment while supporting your dog’s oral hygiene routine. Key Benefits Daily dental chews for medium dogs weighing 10–25kg Clinically proven to help reduce plaque and tartar buildup by up to 80% Unique X-shape and texture help clean teeth effectively Helps support healthy gums and fresher breath Cleans hard-to-reach back teeth Fully digestible and safe for daily chewing Delicious taste dogs love Why Choose Pedigree Dentastix? Dental care is an important part of your dog’s overall health. Pedigree Dentastix make daily oral care simple and enjoyable by combining effective cleaning action with a tasty chew your dog will look forward to every day. Suitable For Medium breed dogs weighing between 10kg and 25kg Feeding Guide Feed one Dentastix daily as part of a balanced diet. Always provide fresh, clean drinking water. Storage Instructions Store in a cool, dry place away from direct sunlight. Keep your dog’s teeth clean and healthy with Pedigree Dentastix Medium Dog Dental Chews — the delicious daily dental chew for healthier smiles.",
   "images": [
     {
-      "id": 89813,
+      "id": 89811,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Pedigree-Dentastix-Dental-Chews-Medium-3pk.png",
-      "alt": "Pedigree Dog Dental Chews – Dentastix Medium 3pk",
-      "name": "Pedigree Dentastix Dental Chews Medium 3pk"
+      "alt": "Pedigree Dog Dental Chews - Dentastix Medium 3pk",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Pedigree",
+      "slug": "pedigree"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/pedigree-dog-dental-chews-dentastix-medium-3pk/?add-to-cart=89811",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-05-21T16:33:18",
-  "dateModified": "2026-06-17T04:30:38",
+  "permalink": "https://petstore.co.ke/product/pedigree-dog-dental-chews-dentastix-medium-3pk/",
+  "addToCartUrl": "https://petstore.co.ke/product/pedigree-dog-dental-chews-dentastix-medium-3pk/?add-to-cart=89811",
+  "shortDescription": "Clinically proven to help reduce tartar buildup by up to 80% when fed daily, Pedigree Dentastix feature a unique texture, special shape, and active in",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/Pedigree-Dentastix-Dental-Chews-Medium-3pk.png",
+  "sku": "PSK-89811",
   "brand": "Pedigree",
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/Pedigree-Dentastix-Dental-Chews-Medium-3pk.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/Pedigree-Dentastix-Dental-Chews-Medium-3pk.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

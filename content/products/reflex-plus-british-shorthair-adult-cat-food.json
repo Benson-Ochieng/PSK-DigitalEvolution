@@ -2,14 +2,12 @@
   "id": 69375,
   "name": "Reflex Plus Adult Cat Food Breed Series British Shorthair Hypoallergenic 1.5kg",
   "slug": "reflex-plus-british-shorthair-adult-cat-food",
-  "sku": "RPCD012",
   "onSale": false,
   "price": 2850,
   "regularPrice": 2850,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-PLUS-ADULT-CAT-FOOD-BREED-SERIES-BRITISH-SHORTHAIR-HYPOALLERGENIC-1.5KG-1.png",
   "categories": [
     {
       "id": 2325,
@@ -32,67 +30,51 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
-    {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 637,
-      "name": "kibble",
-      "slug": "kibble"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/reflex-plus-british-shorthair-adult-cat-food/",
-  "shortDescription": "Reflex Plus British Shorthair Adult Cat Food is a super-premium dry diet for cats 12+ months. Supports digestion, joint health, immunity, and a healthy coat.",
   "description": "Complete & Balanced Super Premium Dry Food for British Shorthair Cats (12+ Months) Reflex Plus British Shorthair Adult Cat Food is a complete and balanced dry diet specially formulated for British Shorthair cats over 12 months old. Made with high-quality animal proteins, it provides optimal nutrition while supporting overall health, coat condition, joint function, and digestive wellness. Enriched with functional components such as prebiotics, glucosamine, chondroitin, cranberry, and flaxseed, this food promotes immune system health, joint flexibility, urinary tract support, and a shiny, healthy coat. Key Benefits Formulated specifically for British Shorthair cats (12+ months) 88% of total protein comes from premium animal ingredients Supports immune and digestive system health (FOS & MOS prebiotics) Promotes joint health and flexibility (Glucosamine & Chondroitin Sulfate) Contains antioxidants for overall wellbeing (Cranberry & Vitamin C & E) Rich in Omega-3 fatty acids for a healthy coat (Flaxseed & Fish Oil) Boosts energy metabolism (L-Carnitine) Ingredients Chicken proteins dehydrated, Corn, Chicken fat, Rice, Corn gluten, Fish protein, Fiber concentrate, Fish oil, Liver aroma, Hydrolyzed chicken protein, Probiotic, Psyllium fiber, Vitamins and minerals, Brewer's yeast, Salt, Flaxseed, Cranberry, Yucca schidigera, MOS (mannan oligosaccharides), FOS (fructo-oligosaccharides), Glucosamine, Chondroitin sulfate, L-carnitine, Preservatives – antioxidants (E320 & E321). Analytical Constituents Crude Protein: 33% Crude Fat: 16% Crude Ash: 7.5% Crude Fibre: 3.2% Nutritional Supplements Vitamins: Vitamin A: 18,000 IU/kg Vitamin D3: 1,500 IU/kg Vitamin E: 200 mg/kg Vitamin C: 200 mg/kg B Vitamins (B1, B2, B3, B6, B12, Biotin, Folic Acid), Vitamin K3, Choline, Calcium Pantothenate Taurine: 1,500 mg/kg Minerals: Iron, Iodine, Copper, Manganese, Zinc, Selenium Feeding Guidelines Suitable for British Shorthair cats aged 12 months and above Feed according to age, weight, and activity level Provide fresh water at all times Introduce any diet changes gradually over 5–7 days Store in a cool, dry place &nbsp; &nbsp;",
   "images": [
     {
-      "id": 69377,
+      "id": 69375,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-PLUS-ADULT-CAT-FOOD-BREED-SERIES-BRITISH-SHORTHAIR-HYPOALLERGENIC-1.5KG-1.png",
       "alt": "Reflex Plus Adult Cat Food Breed Series British Shorthair Hypoallergenic 1.5kg",
-      "name": "REFLEX PLUS ADULT CAT FOOD BREED SERIES BRITISH SHORTHAIR HYPOALLERGENIC 1.5KG (1)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "instock",
-  "lowStockRemaining": 10,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-british-shorthair-adult-cat-food/?add-to-cart=69375",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-02-02T10:07:41",
-  "dateModified": "2026-06-17T04:30:34",
+  "permalink": "https://petstore.co.ke/product/reflex-plus-british-shorthair-adult-cat-food/",
+  "addToCartUrl": "https://petstore.co.ke/product/reflex-plus-british-shorthair-adult-cat-food/?add-to-cart=69375",
+  "shortDescription": "Complete & Balanced Super Premium Dry Food for British Shorthair Cats (12+ Months) Reflex Plus British Shorthair Adult Cat Food is a complete and bala",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-PLUS-ADULT-CAT-FOOD-BREED-SERIES-BRITISH-SHORTHAIR-HYPOALLERGENIC-1.5KG-1.png",
+  "sku": "PSK-69375",
   "brand": "Reflex",
   "weight_kg": 1.5,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-PLUS-ADULT-CAT-FOOD-BREED-SERIES-BRITISH-SHORTHAIR-HYPOALLERGENIC-1.5KG-1.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/REFLEX-PLUS-ADULT-CAT-FOOD-BREED-SERIES-BRITISH-SHORTHAIR-HYPOALLERGENIC-1.5KG-1.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

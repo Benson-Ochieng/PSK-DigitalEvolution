@@ -2,14 +2,12 @@
   "id": 90109,
   "name": "Pack Of 12 - Wanpy Dog Treats – Chicken & Carrot Sticks 100g",
   "slug": "pack-of-12-wanpy-dog-treats-chicken-carrot-sticks-100g",
-  "sku": "WDW021$12",
-  "onSale": true,
+  "onSale": false,
   "price": 3555,
-  "regularPrice": 4740,
-  "salePrice": 3555,
+  "regularPrice": 3555,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/WANPY-DOG-CHICKEN-CARROT-STICKS-100GR.png",
   "categories": [
     {
       "id": 2345,
@@ -32,62 +30,51 @@
       "slug": "wanpy"
     }
   ],
-  "brands": [
-    {
-      "id": 2479,
-      "name": "Wanpy",
-      "slug": "wanpy"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2055,
-      "name": "Bulk Cat Food & Bulk Dog Food",
-      "slug": "bulk"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 939,
-      "name": "On Sale Now",
-      "slug": "sale"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pack-of-12-wanpy-dog-treats-chicken-carrot-sticks-100g/",
-  "shortDescription": "Support your dog’s wellbeing with the delicious taste of Wanpy Chicken Jerky & Carrot Sticks Dog Snack. Made with premium-quality ingredients, this nutritious recipe combines savoury chicken jerky with wholesome carrot to deliver a flavourful and balanced snack dogs enjoy.",
   "description": "Low in fat and high in protein, this complementary dog snack helps support lean muscle maintenance while encouraging healthy chewing behaviour. Enriched with vitamins and essential nutrients, it also supports healthy digestion and contributes to strong bones and overall vitality. With its chewy, satisfying texture, this snack keeps dogs engaged while providing a tasty reward option for training or everyday positive reinforcement. It is a great addition to a balanced diet for active and healthy dogs. Key Benefits Delicious chicken and carrot flavour combination Low fat and high protein formula Supports healthy digestion and overall wellbeing Helps maintain strong bones and muscles Encourages healthy chewing behaviour Enriched with vitamins and nutrients Made with premium-quality ingredients Ideal for training and daily rewarding moments Storage Instructions Store in a cool and dry place.",
   "images": [
     {
-      "id": 89879,
+      "id": 90109,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/05/WANPY-DOG-CHICKEN-CARROT-STICKS-100GR.png",
-      "alt": "Pack Of 12 – Wanpy Dog Treats – Chicken & Carrot Sticks 100g",
-      "name": "WANPY DOG CHICKEN &#038; CARROT STICKS 100GR"
+      "alt": "Pack Of 12 - Wanpy Dog Treats – Chicken & Carrot Sticks 100g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Wanpy",
+      "slug": "wanpy"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/pack-of-12-wanpy-dog-treats-chicken-carrot-sticks-100g/?add-to-cart=90109",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-05-28T09:42:41",
-  "dateModified": "2026-06-18T10:12:04",
+  "permalink": "https://petstore.co.ke/product/pack-of-12-wanpy-dog-treats-chicken-carrot-sticks-100g/",
+  "addToCartUrl": "https://petstore.co.ke/product/pack-of-12-wanpy-dog-treats-chicken-carrot-sticks-100g/?add-to-cart=90109",
+  "shortDescription": "Low in fat and high in protein, this complementary dog snack helps support lean muscle maintenance while encouraging healthy chewing behaviour. Enrich",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/WANPY-DOG-CHICKEN-CARROT-STICKS-100GR.png",
+  "sku": "PSK-90109",
   "brand": "Wanpy",
   "weight_kg": 1.2,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/WANPY-DOG-CHICKEN-CARROT-STICKS-100GR.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/WANPY-DOG-CHICKEN-CARROT-STICKS-100GR.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

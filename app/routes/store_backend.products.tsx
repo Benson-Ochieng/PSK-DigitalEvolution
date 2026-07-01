@@ -73,8 +73,7 @@ export async function loader({ request }: { request: Request }) {
     }
   }
 
-  const { getMediaAssets, syncMediaAssets } = await import("~/lib/media.server");
-  await syncMediaAssets().catch(() => {});
+  const { getMediaAssets } = await import("~/lib/media.server");
   const mediaAssets = await getMediaAssets();
 
   return { allProducts, allCategories, allReviews, editingProductDetails, allBrands, allTags, allAttributes, mediaAssets, origin: url.origin };
@@ -561,7 +560,7 @@ export async function action({ request }: { request: Request }) {
     if (fs.existsSync(categoriesFilePath)) {
       try {
         allCategories = JSON.parse(fs.readFileSync(categoriesFilePath, "utf-8"));
-      } catch (e) {}
+      } catch (e) { }
     }
 
     const categories = selectedCategories.map(catSlug => {
@@ -584,7 +583,7 @@ export async function action({ request }: { request: Request }) {
     if (fs.existsSync(oldProductPath)) {
       try {
         productDetails = JSON.parse(fs.readFileSync(oldProductPath, "utf-8"));
-      } catch (e) {}
+      } catch (e) { }
     }
 
     productDetails.name = name;
@@ -754,7 +753,7 @@ export async function action({ request }: { request: Request }) {
             dateCreated: new Date().toISOString(),
             dateModified: new Date().toISOString()
           };
-          
+
           indexProducts.unshift(newIndexItem);
           fs.writeFileSync(indexFilePath, JSON.stringify(indexProducts, null, 2), "utf-8");
 
@@ -780,7 +779,7 @@ export async function action({ request }: { request: Request }) {
         const itemIdx = indexProducts.findIndex((p: any) => p.id === productId);
         if (itemIdx !== -1) {
           const item = indexProducts[itemIdx];
-          
+
           const detailPath = path.join(CONTENT_DIR, "products", `${item.slug}.json`);
           let details: any = {};
           if (fs.existsSync(detailPath)) {
@@ -792,9 +791,9 @@ export async function action({ request }: { request: Request }) {
               console.error(e);
             }
           }
-          
+
           upsertProductToSupabase({ ...item, ...details, status: "trash" }).catch(err => console.error(err));
-          
+
           indexProducts[itemIdx].status = "trash";
           fs.writeFileSync(indexFilePath, JSON.stringify(indexProducts, null, 2), "utf-8");
 
@@ -820,7 +819,7 @@ export async function action({ request }: { request: Request }) {
         const itemIdx = indexProducts.findIndex((p: any) => p.id === productId);
         if (itemIdx !== -1) {
           const item = indexProducts[itemIdx];
-          
+
           const detailPath = path.join(CONTENT_DIR, "products", `${item.slug}.json`);
           let details: any = {};
           if (fs.existsSync(detailPath)) {
@@ -832,9 +831,9 @@ export async function action({ request }: { request: Request }) {
               console.error(e);
             }
           }
-          
+
           upsertProductToSupabase({ ...item, ...details, status: "publish" }).catch(err => console.error(err));
-          
+
           indexProducts[itemIdx].status = "publish";
           fs.writeFileSync(indexFilePath, JSON.stringify(indexProducts, null, 2), "utf-8");
 
@@ -860,7 +859,7 @@ export async function action({ request }: { request: Request }) {
         const itemIdx = indexProducts.findIndex((p: any) => p.id === productId);
         if (itemIdx !== -1) {
           const item = indexProducts[itemIdx];
-          
+
           const detailPath = path.join(CONTENT_DIR, "products", `${item.slug}.json`);
           if (fs.existsSync(detailPath)) {
             try {
@@ -869,9 +868,9 @@ export async function action({ request }: { request: Request }) {
               console.error(e);
             }
           }
-          
+
           deleteProductFromSupabase(productId).catch(err => console.error("Error deleting product from Supabase:", err));
-          
+
           indexProducts.splice(itemIdx, 1);
           fs.writeFileSync(indexFilePath, JSON.stringify(indexProducts, null, 2), "utf-8");
 
@@ -961,7 +960,7 @@ export async function action({ request }: { request: Request }) {
         const rawCats = JSON.parse(fs.readFileSync(categoriesFilePath, "utf-8"));
         const matched = rawCats.find((c: any) => c.slug === selectedCategorySlug);
         if (matched) categoryName = matched.name;
-      } catch (e) {}
+      } catch (e) { }
     }
     const categories = selectedCategorySlug ? [{ name: categoryName, slug: selectedCategorySlug }] : [];
 
@@ -1024,7 +1023,7 @@ export async function action({ request }: { request: Request }) {
           dateModified: dateCreated
         });
         fs.writeFileSync(indexFilePath, JSON.stringify(indexProducts, null, 2), "utf-8");
-      } catch (e) {}
+      } catch (e) { }
     }
 
     const { logHistoryEvent } = await import("~/lib/content.server");
@@ -1222,6 +1221,17 @@ export async function action({ request }: { request: Request }) {
     return { success: true };
   }
 
+  // MEDIA SYNC ACTION — only runs when explicitly requested via button
+  if (intent === "sync_media") {
+    const { requireAdminUser } = await import("~/lib/sessions.server");
+    await requireAdminUser(request);
+    const { syncMediaAssets } = await import("~/lib/media.server");
+    await syncMediaAssets().catch(err => console.error("Manual media sync error:", err));
+    const { logHistoryEvent } = await import("~/lib/content.server");
+    logHistoryEvent("Admin", "Media Synced", "Manually triggered media asset synchronisation with products", "🔄");
+    return { syncSuccess: true };
+  }
+
   return null;
 }
 
@@ -1366,7 +1376,7 @@ export default function VpBackendProducts() {
   const [newBrandName, setNewBrandName] = useState("");
   const [newBrandDesc, setNewBrandDesc] = useState("");
   const [newBrandSlug, setNewBrandSlug] = useState("");
-  
+
   const [newTagName, setNewTagName] = useState("");
   const [newTagDesc, setNewTagDesc] = useState("");
   const [newTagSlug, setNewTagSlug] = useState("");
@@ -1429,8 +1439,11 @@ export default function VpBackendProducts() {
     setCurrentPage(1);
   }
 
-  const formatKsh = (num: number) => {
-    return "KSh " + num.toLocaleString("en-KE");
+  const formatKsh = (num: any) => {
+    if (num === null || num === undefined || num === "") return "—";
+    const val = Number(num);
+    if (isNaN(val)) return "—";
+    return "KSh " + val.toLocaleString("en-KE");
   };
 
   const filteredProducts = allProducts.filter((p: any) => {
@@ -1446,7 +1459,7 @@ export default function VpBackendProducts() {
       p.categories.some((c: any) => c.slug === categoryFilter);
 
     // 3. Status Filter (tabs)
-    const prodStatus = p.status || "publish"; 
+    const prodStatus = p.status || "publish";
     let matchesStatus = true;
     if (statusFilter === "all") {
       matchesStatus = prodStatus !== "trash";
@@ -1480,7 +1493,7 @@ export default function VpBackendProducts() {
       prodType === typeFilter;
 
     // 7. SEO Score Filter
-    const seoScore = p.seoScore || (p.name.length > 30 ? 85 : 55); 
+    const seoScore = p.seoScore || (p.name.length > 30 ? 85 : 55);
     let matchesSEO = true;
     if (seoFilter === "good") {
       matchesSEO = seoScore >= 80;
@@ -2004,496 +2017,533 @@ export default function VpBackendProducts() {
               </button>
             </div>
             <div className={`screen-options-drawer ${showOptions ? "open" : ""}`} style={{ marginBottom: "24px" }}>
-            <div className="screen-options-title">Columns</div>
-            <div className="checkbox-group-grid">
-              <label className="checkbox-label">
-                <input
-                  type="checkbox"
-                  checked={showImage}
-                  onChange={(e) => setShowImage(e.target.checked)}
-                />
-                Image
-              </label>
-              <label className="checkbox-label">
-                <input
-                  type="checkbox"
-                  checked={showSKU}
-                  onChange={(e) => setShowSKU(e.target.checked)}
-                />
-                SKU
-              </label>
-              <label className="checkbox-label">
-                <input
-                  type="checkbox"
-                  checked={showGTIN}
-                  onChange={(e) => setShowGTIN(e.target.checked)}
-                />
-                GTIN, UPC, EAN, or ISBN
-              </label>
-              <label className="checkbox-label">
-                <input
-                  type="checkbox"
-                  checked={showStock}
-                  onChange={(e) => setShowStock(e.target.checked)}
-                />
-                Stock
-              </label>
-              <label className="checkbox-label">
-                <input
-                  type="checkbox"
-                  checked={showPrice}
-                  onChange={(e) => setShowPrice(e.target.checked)}
-                />
-                Price
-              </label>
-              <label className="checkbox-label">
-                <input
-                  type="checkbox"
-                  checked={showCategories}
-                  onChange={(e) => setShowCategories(e.target.checked)}
-                />
-                Categories
-              </label>
-              <label className="checkbox-label">
-                <input
-                  type="checkbox"
-                  checked={showTags}
-                  onChange={(e) => setShowTags(e.target.checked)}
-                />
-                Tags
-              </label>
-              <label className="checkbox-label">
-                <input
-                  type="checkbox"
-                  checked={showFeatured}
-                  onChange={(e) => setShowFeatured(e.target.checked)}
-                />
-                Featured
-              </label>
-              <label className="checkbox-label">
-                <input
-                  type="checkbox"
-                  checked={showDate}
-                  onChange={(e) => setShowDate(e.target.checked)}
-                />
-                Date
-              </label>
-              <label className="checkbox-label">
-                <input
-                  type="checkbox"
-                  checked={showMetaSync}
-                  onChange={(e) => setShowMetaSync(e.target.checked)}
-                />
-                Synced to Meta catalog
-              </label>
+              <div className="screen-options-title">Columns</div>
+              <div className="checkbox-group-grid">
+                <label className="checkbox-label">
+                  <input
+                    type="checkbox"
+                    checked={showImage}
+                    onChange={(e) => setShowImage(e.target.checked)}
+                  />
+                  Image
+                </label>
+                <label className="checkbox-label">
+                  <input
+                    type="checkbox"
+                    checked={showSKU}
+                    onChange={(e) => setShowSKU(e.target.checked)}
+                  />
+                  SKU
+                </label>
+                <label className="checkbox-label">
+                  <input
+                    type="checkbox"
+                    checked={showGTIN}
+                    onChange={(e) => setShowGTIN(e.target.checked)}
+                  />
+                  GTIN, UPC, EAN, or ISBN
+                </label>
+                <label className="checkbox-label">
+                  <input
+                    type="checkbox"
+                    checked={showStock}
+                    onChange={(e) => setShowStock(e.target.checked)}
+                  />
+                  Stock
+                </label>
+                <label className="checkbox-label">
+                  <input
+                    type="checkbox"
+                    checked={showPrice}
+                    onChange={(e) => setShowPrice(e.target.checked)}
+                  />
+                  Price
+                </label>
+                <label className="checkbox-label">
+                  <input
+                    type="checkbox"
+                    checked={showCategories}
+                    onChange={(e) => setShowCategories(e.target.checked)}
+                  />
+                  Categories
+                </label>
+                <label className="checkbox-label">
+                  <input
+                    type="checkbox"
+                    checked={showTags}
+                    onChange={(e) => setShowTags(e.target.checked)}
+                  />
+                  Tags
+                </label>
+                <label className="checkbox-label">
+                  <input
+                    type="checkbox"
+                    checked={showFeatured}
+                    onChange={(e) => setShowFeatured(e.target.checked)}
+                  />
+                  Featured
+                </label>
+                <label className="checkbox-label">
+                  <input
+                    type="checkbox"
+                    checked={showDate}
+                    onChange={(e) => setShowDate(e.target.checked)}
+                  />
+                  Date
+                </label>
+                <label className="checkbox-label">
+                  <input
+                    type="checkbox"
+                    checked={showMetaSync}
+                    onChange={(e) => setShowMetaSync(e.target.checked)}
+                  />
+                  Synced to Meta catalog
+                </label>
 
-              <label className="checkbox-label">
+                <label className="checkbox-label">
+                  <input
+                    type="checkbox"
+                    checked={showBrands}
+                    onChange={(e) => setShowBrands(e.target.checked)}
+                  />
+                  Brands
+                </label>
+                <label className="checkbox-label">
+                  <input
+                    type="checkbox"
+                    checked={showOutgoingLinks}
+                    onChange={(e) => setShowOutgoingLinks(e.target.checked)}
+                  />
+                  Outgoing internal links
+                </label>
+                <label className="checkbox-label">
+                  <input
+                    type="checkbox"
+                    checked={showReceivedLinks}
+                    onChange={(e) => setShowReceivedLinks(e.target.checked)}
+                  />
+                  Received internal links
+                </label>
+              </div>
+
+              <div className="screen-options-title" style={{ marginTop: "24px" }}>Pagination</div>
+              <div style={{ display: "flex", alignItems: "center", gap: "12px", marginTop: "8px" }}>
+                <span style={{ fontSize: "13px", color: "rgba(255,255,255,0.7)" }}>Number of items per page:</span>
                 <input
-                  type="checkbox"
-                  checked={showBrands}
-                  onChange={(e) => setShowBrands(e.target.checked)}
+                  type="number"
+                  className="admin-input"
+                  style={{ width: "80px", background: "rgba(0,0,0,0.3)", padding: "6px 10px" }}
+                  value={tempItemsPerPage}
+                  min={1}
+                  max={100}
+                  onChange={(e) => setTempItemsPerPage(Math.max(1, Number(e.target.value)))}
                 />
-                Brands
-              </label>
-              <label className="checkbox-label">
-                <input
-                  type="checkbox"
-                  checked={showOutgoingLinks}
-                  onChange={(e) => setShowOutgoingLinks(e.target.checked)}
-                />
-                Outgoing internal links
-              </label>
-              <label className="checkbox-label">
-                <input
-                  type="checkbox"
-                  checked={showReceivedLinks}
-                  onChange={(e) => setShowReceivedLinks(e.target.checked)}
-                />
-                Received internal links
-              </label>
+                <button
+                  className="btn-action-primary"
+                  style={{ padding: "6px 16px", fontSize: "12px", height: "32px", display: "flex", alignItems: "center" }}
+                  onClick={() => {
+                    setItemsPerPage(tempItemsPerPage);
+                    setCurrentPage(1);
+                    setShowOptions(false);
+                  }}
+                >
+                  Apply
+                </button>
+              </div>
             </div>
+          </div>
 
-            <div className="screen-options-title" style={{ marginTop: "24px" }}>Pagination</div>
-            <div style={{ display: "flex", alignItems: "center", gap: "12px", marginTop: "8px" }}>
-              <span style={{ fontSize: "13px", color: "rgba(255,255,255,0.7)" }}>Number of items per page:</span>
-              <input
-                type="number"
-                className="admin-input"
-                style={{ width: "80px", background: "rgba(0,0,0,0.3)", padding: "6px 10px" }}
-                value={tempItemsPerPage}
-                min={1}
-                max={100}
-                onChange={(e) => setTempItemsPerPage(Math.max(1, Number(e.target.value)))}
-              />
+          {/* Page Sub-Header matching the second image */}
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px", marginTop: "10px" }}>
+            <div style={{ display: "flex", alignItems: "center", gap: "12px", flexWrap: "wrap" }}>
+              <h2 style={{ fontSize: "22px", fontWeight: "700", color: "#fff", margin: 0 }}>Products</h2>
+              <Link to="?view=new" className="btn-action-secondary" style={{ padding: "4px 12px", fontSize: "12px", height: "30px", display: "flex", alignItems: "center", borderColor: "rgba(0, 204, 255, 0.4)", color: "#00ccff", textDecoration: "none", background: "rgba(0, 204, 255, 0.05)" }}>Add new product</Link>
+              <button type="button" className="btn-action-secondary" style={{ padding: "4px 12px", fontSize: "12px", height: "30px", display: "flex", alignItems: "center" }} onClick={() => alert("CSV Import utility ready")}>Import</button>
+              <a href="?export=csv" download="products-export.csv" className="btn-action-secondary" style={{ padding: "4px 12px", fontSize: "12px", height: "30px", display: "flex", alignItems: "center", textDecoration: "none", color: "#fff", borderColor: "rgba(255,255,255,0.15)" }}>Export</a>
+              <button type="button" className="btn-action-secondary" style={{ padding: "4px 12px", fontSize: "12px", height: "30px", display: "flex", alignItems: "center" }} onClick={() => alert("Spreadsheet bulk editor ready")}>Open in a Spreadsheet</button>
+              {/* Manual Media Sync button — replaces the old automatic on-load sync */}
+              <Form method="post" style={{ display: "inline" }}>
+                <input type="hidden" name="intent" value="sync_media" />
+                <button
+                  type="submit"
+                  disabled={navigation.state === "submitting" && navigation.formData?.get("intent") === "sync_media"}
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "6px",
+                    padding: "4px 12px",
+                    fontSize: "12px",
+                    height: "30px",
+                    background: "rgba(71, 47, 143, 0.15)",
+                    border: "1px solid rgba(71, 47, 143, 0.4)",
+                    borderRadius: "6px",
+                    color: "#a78bfa",
+                    cursor: navigation.state === "submitting" ? "wait" : "pointer",
+                    fontFamily: "inherit",
+                    transition: "all 0.2s ease",
+                    opacity: navigation.state === "submitting" && navigation.formData?.get("intent") === "sync_media" ? 0.6 : 1,
+                  }}
+                >
+                  {navigation.state === "submitting" && navigation.formData?.get("intent") === "sync_media" ? (
+                    <>
+                      <span style={{ display: "inline-block", animation: "spin 1s linear infinite", fontSize: "11px" }}>⟳</span>
+                      Syncing…
+                    </>
+                  ) : (
+                    <>
+                      <span style={{ fontSize: "11px" }}>🔄</span>
+                      Sync Media
+                    </>
+                  )}
+                </button>
+              </Form>
+            </div>
+          </div>
+          <style>{`@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }`}</style>
+
+          {/* Search and Catalog Filter Controls */}
+          {/* Search and Status links row */}
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "16px", flexWrap: "wrap", gap: "16px" }}>
+            {/* Status links (WordPress style) */}
+            <div style={{ display: "flex", gap: "10px", alignItems: "center", fontSize: "13px", color: "rgba(255,255,255,0.3)", flexWrap: "wrap" }}>
               <button
-                className="btn-action-primary"
-                style={{ padding: "6px 16px", fontSize: "12px", height: "32px", display: "flex", alignItems: "center" }}
+                type="button"
                 onClick={() => {
-                  setItemsPerPage(tempItemsPerPage);
+                  setStatusFilter("all");
+                  setSearchQuery("");
+                  setCategoryFilter("");
+                  setBrandFilter("");
+                  setStockFilter("");
+                  setSeoFilter("");
+                  setReadabilityFilter("");
+                  setTypeFilter("");
+                  setMetaSyncFilter("");
                   setCurrentPage(1);
-                  setShowOptions(false);
+                }}
+                style={{
+                  background: "none",
+                  border: "none",
+                  padding: 0,
+                  font: "inherit",
+                  cursor: "pointer",
+                  color: statusFilter === "all" ? "#00ccff" : "rgba(255,255,255,0.7)",
+                  fontWeight: statusFilter === "all" ? "600" : "normal"
                 }}
               >
-                Apply
+                All ({countAll})
+              </button>
+              <span>|</span>
+              <button
+                type="button"
+                onClick={() => {
+                  setStatusFilter("publish");
+                  setSearchQuery("");
+                  setCurrentPage(1);
+                }}
+                style={{
+                  background: "none",
+                  border: "none",
+                  padding: 0,
+                  font: "inherit",
+                  cursor: "pointer",
+                  color: statusFilter === "publish" ? "#00ccff" : "rgba(255,255,255,0.7)",
+                  fontWeight: statusFilter === "publish" ? "600" : "normal"
+                }}
+              >
+                Published ({countPublished})
+              </button>
+              <span>|</span>
+              <button
+                type="button"
+                onClick={() => {
+                  setStatusFilter("draft");
+                  setSearchQuery("");
+                  setCurrentPage(1);
+                }}
+                style={{
+                  background: "none",
+                  border: "none",
+                  padding: 0,
+                  font: "inherit",
+                  cursor: "pointer",
+                  color: statusFilter === "draft" ? "#00ccff" : "rgba(255,255,255,0.7)",
+                  fontWeight: statusFilter === "draft" ? "600" : "normal"
+                }}
+              >
+                Drafts ({countDrafts})
+              </button>
+              <span>|</span>
+              <button
+                type="button"
+                onClick={() => {
+                  setStatusFilter("private");
+                  setSearchQuery("");
+                  setCurrentPage(1);
+                }}
+                style={{
+                  background: "none",
+                  border: "none",
+                  padding: 0,
+                  font: "inherit",
+                  cursor: "pointer",
+                  color: statusFilter === "private" ? "#00ccff" : "rgba(255,255,255,0.7)",
+                  fontWeight: statusFilter === "private" ? "600" : "normal"
+                }}
+              >
+                Private ({countPrivate})
+              </button>
+              <span>|</span>
+              <button
+                type="button"
+                onClick={() => {
+                  setStatusFilter("cornerstone");
+                  setSearchQuery("");
+                  setCurrentPage(1);
+                }}
+                style={{
+                  background: "none",
+                  border: "none",
+                  padding: 0,
+                  font: "inherit",
+                  cursor: "pointer",
+                  color: statusFilter === "cornerstone" ? "#00ccff" : "rgba(255,255,255,0.7)",
+                  fontWeight: statusFilter === "cornerstone" ? "600" : "normal"
+                }}
+              >
+                Cornerstone content ({countCornerstone})
+              </button>
+              {countTrash > 0 && (
+                <>
+                  <span>|</span>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setStatusFilter("trash");
+                      setSearchQuery("");
+                      setCurrentPage(1);
+                    }}
+                    style={{
+                      background: "none",
+                      border: "none",
+                      padding: 0,
+                      font: "inherit",
+                      cursor: "pointer",
+                      color: statusFilter === "trash" ? "#ff4d62" : "rgba(255,255,255,0.7)",
+                      fontWeight: statusFilter === "trash" ? "600" : "normal"
+                    }}
+                  >
+                    Trash ({countTrash})
+                  </button>
+                </>
+              )}
+            </div>
+
+            {/* Search box right-aligned */}
+            <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+              <input
+                type="text"
+                placeholder="Search products..."
+                className="admin-input"
+                style={{ height: "32px", width: "200px", padding: "4px 10px", fontSize: "13px" }}
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+              />
+              <button
+                type="button"
+                className="btn-action-secondary"
+                style={{ height: "32px", padding: "0 12px", fontSize: "12px", cursor: "pointer" }}
+              >
+                Search products
               </button>
             </div>
           </div>
-        </div>
 
-        {/* Page Sub-Header matching the second image */}
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px", marginTop: "10px" }}>
-          <div style={{ display: "flex", alignItems: "center", gap: "12px", flexWrap: "wrap" }}>
-            <h2 style={{ fontSize: "22px", fontWeight: "700", color: "#fff", margin: 0 }}>Products</h2>
-            <Link to="?view=new" className="btn-action-secondary" style={{ padding: "4px 12px", fontSize: "12px", height: "30px", display: "flex", alignItems: "center", borderColor: "rgba(0, 204, 255, 0.4)", color: "#00ccff", textDecoration: "none", background: "rgba(0, 204, 255, 0.05)" }}>Add new product</Link>
-            <button type="button" className="btn-action-secondary" style={{ padding: "4px 12px", fontSize: "12px", height: "30px", display: "flex", alignItems: "center" }} onClick={() => alert("CSV Import utility ready")}>Import</button>
-            <a href="?export=csv" download="products-export.csv" className="btn-action-secondary" style={{ padding: "4px 12px", fontSize: "12px", height: "30px", display: "flex", alignItems: "center", textDecoration: "none", color: "#fff", borderColor: "rgba(255,255,255,0.15)" }}>Export</a>
-            <button type="button" className="btn-action-secondary" style={{ padding: "4px 12px", fontSize: "12px", height: "30px", display: "flex", alignItems: "center" }} onClick={() => alert("Spreadsheet bulk editor ready")}>Open in a Spreadsheet</button>
-          </div>
-        </div>
-
-        {/* Search and Catalog Filter Controls */}
-        {/* Search and Status links row */}
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "16px", flexWrap: "wrap", gap: "16px" }}>
-          {/* Status links (WordPress style) */}
-          <div style={{ display: "flex", gap: "10px", alignItems: "center", fontSize: "13px", color: "rgba(255,255,255,0.3)", flexWrap: "wrap" }}>
-            <button
-              type="button"
-              onClick={() => {
-                setStatusFilter("all");
-                setSearchQuery("");
-                setCategoryFilter("");
-                setBrandFilter("");
-                setStockFilter("");
-                setSeoFilter("");
-                setReadabilityFilter("");
-                setTypeFilter("");
-                setMetaSyncFilter("");
-                setCurrentPage(1);
-              }}
-              style={{
-                background: "none",
-                border: "none",
-                padding: 0,
-                font: "inherit",
-                cursor: "pointer",
-                color: statusFilter === "all" ? "#00ccff" : "rgba(255,255,255,0.7)",
-                fontWeight: statusFilter === "all" ? "600" : "normal"
-              }}
+          {/* Toolbar of Filters (Dropdowns & Action buttons) */}
+          <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "20px", flexWrap: "wrap" }}>
+            {/* Bulk actions */}
+            <select
+              className="admin-select"
+              style={{ minWidth: "130px", width: "auto", background: "rgba(0,0,0,0.3)", height: "32px", padding: "4px 8px", fontSize: "13px" }}
+              value={bulkAction}
+              onChange={(e) => setBulkAction(e.target.value)}
             >
-              All ({countAll})
-            </button>
-            <span>|</span>
-            <button
-              type="button"
-              onClick={() => {
-                setStatusFilter("publish");
-                setSearchQuery("");
-                setCurrentPage(1);
-              }}
-              style={{
-                background: "none",
-                border: "none",
-                padding: 0,
-                font: "inherit",
-                cursor: "pointer",
-                color: statusFilter === "publish" ? "#00ccff" : "rgba(255,255,255,0.7)",
-                fontWeight: statusFilter === "publish" ? "600" : "normal"
-              }}
-            >
-              Published ({countPublished})
-            </button>
-            <span>|</span>
-            <button
-              type="button"
-              onClick={() => {
-                setStatusFilter("draft");
-                setSearchQuery("");
-                setCurrentPage(1);
-              }}
-              style={{
-                background: "none",
-                border: "none",
-                padding: 0,
-                font: "inherit",
-                cursor: "pointer",
-                color: statusFilter === "draft" ? "#00ccff" : "rgba(255,255,255,0.7)",
-                fontWeight: statusFilter === "draft" ? "600" : "normal"
-              }}
-            >
-              Drafts ({countDrafts})
-            </button>
-            <span>|</span>
-            <button
-              type="button"
-              onClick={() => {
-                setStatusFilter("private");
-                setSearchQuery("");
-                setCurrentPage(1);
-              }}
-              style={{
-                background: "none",
-                border: "none",
-                padding: 0,
-                font: "inherit",
-                cursor: "pointer",
-                color: statusFilter === "private" ? "#00ccff" : "rgba(255,255,255,0.7)",
-                fontWeight: statusFilter === "private" ? "600" : "normal"
-              }}
-            >
-              Private ({countPrivate})
-            </button>
-            <span>|</span>
-            <button
-              type="button"
-              onClick={() => {
-                setStatusFilter("cornerstone");
-                setSearchQuery("");
-                setCurrentPage(1);
-              }}
-              style={{
-                background: "none",
-                border: "none",
-                padding: 0,
-                font: "inherit",
-                cursor: "pointer",
-                color: statusFilter === "cornerstone" ? "#00ccff" : "rgba(255,255,255,0.7)",
-                fontWeight: statusFilter === "cornerstone" ? "600" : "normal"
-              }}
-            >
-              Cornerstone content ({countCornerstone})
-            </button>
-            {countTrash > 0 && (
-              <>
-                <span>|</span>
-                <button
-                  type="button"
-                  onClick={() => {
-                    setStatusFilter("trash");
-                    setSearchQuery("");
-                    setCurrentPage(1);
-                  }}
-                  style={{
-                    background: "none",
-                    border: "none",
-                    padding: 0,
-                    font: "inherit",
-                    cursor: "pointer",
-                    color: statusFilter === "trash" ? "#ff4d62" : "rgba(255,255,255,0.7)",
-                    fontWeight: statusFilter === "trash" ? "600" : "normal"
-                  }}
-                >
-                  Trash ({countTrash})
-                </button>
-              </>
-            )}
-          </div>
-
-          {/* Search box right-aligned */}
-          <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-            <input
-              type="text"
-              placeholder="Search products..."
-              className="admin-input"
-              style={{ height: "32px", width: "200px", padding: "4px 10px", fontSize: "13px" }}
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-            />
+              <option value="">Bulk actions</option>
+              {statusFilter === "trash" ? (
+                <>
+                  <option value="restore">Restore</option>
+                  <option value="delete">Delete permanently</option>
+                </>
+              ) : (
+                <>
+                  <option value="edit">Bulk edit</option>
+                  <option value="trash">Move to Trash</option>
+                </>
+              )}
+            </select>
             <button
               type="button"
               className="btn-action-secondary"
               style={{ height: "32px", padding: "0 12px", fontSize: "12px", cursor: "pointer" }}
+              onClick={handleApplyBulkAction}
             >
-              Search products
+              Apply
             </button>
-          </div>
-        </div>
 
-        {/* Toolbar of Filters (Dropdowns & Action buttons) */}
-        <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "20px", flexWrap: "wrap" }}>
-          {/* Bulk actions */}
-          <select
-            className="admin-select"
-            style={{ minWidth: "130px", width: "auto", background: "rgba(0,0,0,0.3)", height: "32px", padding: "4px 8px", fontSize: "13px" }}
-            value={bulkAction}
-            onChange={(e) => setBulkAction(e.target.value)}
-          >
-            <option value="">Bulk actions</option>
-            {statusFilter === "trash" ? (
-              <>
-                <option value="restore">Restore</option>
-                <option value="delete">Delete permanently</option>
-              </>
-            ) : (
-              <>
-                <option value="edit">Bulk edit</option>
-                <option value="trash">Move to Trash</option>
-              </>
-            )}
-          </select>
-          <button
-            type="button"
-            className="btn-action-secondary"
-            style={{ height: "32px", padding: "0 12px", fontSize: "12px", cursor: "pointer" }}
-            onClick={handleApplyBulkAction}
-          >
-            Apply
-          </button>
+            {/* Categories */}
+            <select
+              className="admin-select"
+              style={{ minWidth: "130px", width: "auto", background: "rgba(0,0,0,0.3)", height: "32px", padding: "4px 8px", fontSize: "13px" }}
+              value={categoryFilter}
+              onChange={(e) => setCategoryFilter(e.target.value)}
+            >
+              <option value="">Select a category</option>
+              {allCategories.map((c: any) => (
+                <option key={c.slug} value={c.slug}>
+                  {c.name}
+                </option>
+              ))}
+            </select>
 
-          {/* Categories */}
-          <select
-            className="admin-select"
-            style={{ minWidth: "130px", width: "auto", background: "rgba(0,0,0,0.3)", height: "32px", padding: "4px 8px", fontSize: "13px" }}
-            value={categoryFilter}
-            onChange={(e) => setCategoryFilter(e.target.value)}
-          >
-            <option value="">Select a category</option>
-            {allCategories.map((c: any) => (
-              <option key={c.slug} value={c.slug}>
-                {c.name}
-              </option>
-            ))}
-          </select>
+            {/* Product Type */}
+            <select
+              className="admin-select"
+              style={{ minWidth: "150px", width: "auto", background: "rgba(0,0,0,0.3)", height: "32px", padding: "4px 8px", fontSize: "13px" }}
+              value={typeFilter}
+              onChange={(e) => setTypeFilter(e.target.value)}
+            >
+              <option value="">Filter by product type</option>
+              <option value="simple">Simple product</option>
+              <option value="variable">Variable product</option>
+              <option value="grouped">Grouped product</option>
+              <option value="external">External/Affiliate product</option>
+            </select>
 
-          {/* Product Type */}
-          <select
-            className="admin-select"
-            style={{ minWidth: "150px", width: "auto", background: "rgba(0,0,0,0.3)", height: "32px", padding: "4px 8px", fontSize: "13px" }}
-            value={typeFilter}
-            onChange={(e) => setTypeFilter(e.target.value)}
-          >
-            <option value="">Filter by product type</option>
-            <option value="simple">Simple product</option>
-            <option value="variable">Variable product</option>
-            <option value="grouped">Grouped product</option>
-            <option value="external">External/Affiliate product</option>
-          </select>
+            {/* Stock Status */}
+            <select
+              className="admin-select"
+              style={{ minWidth: "150px", width: "auto", background: "rgba(0,0,0,0.3)", height: "32px", padding: "4px 8px", fontSize: "13px" }}
+              value={stockFilter}
+              onChange={(e) => setStockFilter(e.target.value)}
+            >
+              <option value="">Filter by stock status</option>
+              <option value="instock">In stock</option>
+              <option value="outofstock">Out of stock</option>
+              <option value="onbackorder">On backorder</option>
+            </select>
 
-          {/* Stock Status */}
-          <select
-            className="admin-select"
-            style={{ minWidth: "150px", width: "auto", background: "rgba(0,0,0,0.3)", height: "32px", padding: "4px 8px", fontSize: "13px" }}
-            value={stockFilter}
-            onChange={(e) => setStockFilter(e.target.value)}
-          >
-            <option value="">Filter by stock status</option>
-            <option value="instock">In stock</option>
-            <option value="outofstock">Out of stock</option>
-            <option value="onbackorder">On backorder</option>
-          </select>
+            {/* Brand */}
+            <select
+              className="admin-select"
+              style={{ minWidth: "130px", width: "auto", background: "rgba(0,0,0,0.3)", height: "32px", padding: "4px 8px", fontSize: "13px" }}
+              value={brandFilter}
+              onChange={(e) => setBrandFilter(e.target.value)}
+            >
+              <option value="">Filter by brand</option>
+              {allBrands.map((b: any) => (
+                <option key={b.slug} value={b.slug}>
+                  {b.name}
+                </option>
+              ))}
+            </select>
 
-          {/* Brand */}
-          <select
-            className="admin-select"
-            style={{ minWidth: "130px", width: "auto", background: "rgba(0,0,0,0.3)", height: "32px", padding: "4px 8px", fontSize: "13px" }}
-            value={brandFilter}
-            onChange={(e) => setBrandFilter(e.target.value)}
-          >
-            <option value="">Filter by brand</option>
-            {allBrands.map((b: any) => (
-              <option key={b.slug} value={b.slug}>
-                {b.name}
-              </option>
-            ))}
-          </select>
+            {/* Synced to Meta */}
+            <select
+              className="admin-select"
+              style={{ minWidth: "170px", width: "auto", background: "rgba(0,0,0,0.3)", height: "32px", padding: "4px 8px", fontSize: "13px" }}
+              value={metaSyncFilter}
+              onChange={(e) => setMetaSyncFilter(e.target.value)}
+            >
+              <option value="">Filter by synced to Meta</option>
+              <option value="synced">Synced</option>
+              <option value="not_synced">Not Synced</option>
+            </select>
 
-          {/* Synced to Meta */}
-          <select
-            className="admin-select"
-            style={{ minWidth: "170px", width: "auto", background: "rgba(0,0,0,0.3)", height: "32px", padding: "4px 8px", fontSize: "13px" }}
-            value={metaSyncFilter}
-            onChange={(e) => setMetaSyncFilter(e.target.value)}
-          >
-            <option value="">Filter by synced to Meta</option>
-            <option value="synced">Synced</option>
-            <option value="not_synced">Not Synced</option>
-          </select>
-
-          {/* Filter Action */}
-          <button
-            type="button"
-            className="btn-action-secondary"
-            style={{ height: "32px", padding: "0 14px", fontSize: "12px", color: "#00ccff", borderColor: "rgba(0, 204, 255, 0.3)", cursor: "pointer" }}
-            onClick={() => {
-              setCurrentPage(1);
-            }}
-          >
-            Filter
-          </button>
-
-          {countTrash > 0 && (
-            <Form method="post" style={{ display: "inline" }}>
-              <input type="hidden" name="intent" value="empty_trash_products" />
-              <button
-                type="submit"
-                className="btn-action-secondary"
-                style={{ height: "32px", padding: "0 14px", fontSize: "12px", color: "#00ccff", borderColor: "rgba(0, 204, 255, 0.3)", cursor: "pointer", background: "rgba(0, 204, 255, 0.05)" }}
-                onClick={(e) => {
-                  if (!confirm("Are you sure you want to permanently delete all products in the Trash? This action cannot be undone.")) {
-                    e.preventDefault();
-                  }
-                }}
-              >
-                Empty Trash
-              </button>
-            </Form>
-          )}
-
-          {/* Clear filters shortcut */}
-          {(seoFilter || readabilityFilter || categoryFilter || typeFilter || stockFilter || brandFilter || metaSyncFilter || searchQuery || statusFilter !== "all") && (
+            {/* Filter Action */}
             <button
               type="button"
-              style={{
-                background: "none",
-                border: "none",
-                color: "#ff5252",
-                fontSize: "12px",
-                cursor: "pointer",
-                padding: "0 4px",
-                textDecoration: "underline"
-              }}
+              className="btn-action-secondary"
+              style={{ height: "32px", padding: "0 14px", fontSize: "12px", color: "#00ccff", borderColor: "rgba(0, 204, 255, 0.3)", cursor: "pointer" }}
               onClick={() => {
-                setSeoFilter("");
-                setReadabilityFilter("");
-                setCategoryFilter("");
-                setTypeFilter("");
-                setStockFilter("");
-                setBrandFilter("");
-                setMetaSyncFilter("");
-                setSearchQuery("");
-                setStatusFilter("all");
                 setCurrentPage(1);
               }}
             >
-              Clear
+              Filter
             </button>
-          )}
 
-          {selectedProductIds.length > 0 && (
-            <span style={{ fontSize: "13px", color: "#00ccff", fontWeight: "600", marginLeft: "8px" }}>
-              {selectedProductIds.length} items selected
-            </span>
-          )}
+            {countTrash > 0 && (
+              <Form method="post" style={{ display: "inline" }}>
+                <input type="hidden" name="intent" value="empty_trash_products" />
+                <button
+                  type="submit"
+                  className="btn-action-secondary"
+                  style={{ height: "32px", padding: "0 14px", fontSize: "12px", color: "#00ccff", borderColor: "rgba(0, 204, 255, 0.3)", cursor: "pointer", background: "rgba(0, 204, 255, 0.05)" }}
+                  onClick={(e) => {
+                    if (!confirm("Are you sure you want to permanently delete all products in the Trash? This action cannot be undone.")) {
+                      e.preventDefault();
+                    }
+                  }}
+                >
+                  Empty Trash
+                </button>
+              </Form>
+            )}
 
-          <Form method="post" style={{ display: "none" }}>
-            <input type="hidden" name="intent" value="bulk_trash" />
-            <input type="hidden" name="ids" value={JSON.stringify(selectedProductIds)} />
-            <button id="submitBulkTrash" type="submit" />
-          </Form>
+            {/* Clear filters shortcut */}
+            {(seoFilter || readabilityFilter || categoryFilter || typeFilter || stockFilter || brandFilter || metaSyncFilter || searchQuery || statusFilter !== "all") && (
+              <button
+                type="button"
+                style={{
+                  background: "none",
+                  border: "none",
+                  color: "#ff5252",
+                  fontSize: "12px",
+                  cursor: "pointer",
+                  padding: "0 4px",
+                  textDecoration: "underline"
+                }}
+                onClick={() => {
+                  setSeoFilter("");
+                  setReadabilityFilter("");
+                  setCategoryFilter("");
+                  setTypeFilter("");
+                  setStockFilter("");
+                  setBrandFilter("");
+                  setMetaSyncFilter("");
+                  setSearchQuery("");
+                  setStatusFilter("all");
+                  setCurrentPage(1);
+                }}
+              >
+                Clear
+              </button>
+            )}
 
-          <Form method="post" style={{ display: "none" }}>
-            <input type="hidden" name="intent" value="bulk_restore" />
-            <input type="hidden" name="ids" value={JSON.stringify(selectedProductIds)} />
-            <button id="submitBulkRestore" type="submit" />
-          </Form>
+            {selectedProductIds.length > 0 && (
+              <span style={{ fontSize: "13px", color: "#00ccff", fontWeight: "600", marginLeft: "8px" }}>
+                {selectedProductIds.length} items selected
+              </span>
+            )}
 
-          <Form method="post" style={{ display: "none" }}>
-            <input type="hidden" name="intent" value="bulk_delete_permanently" />
-            <input type="hidden" name="ids" value={JSON.stringify(selectedProductIds)} />
-            <button id="submitBulkDeletePermanently" type="submit" />
-          </Form>
-        </div>
+            <Form method="post" style={{ display: "none" }}>
+              <input type="hidden" name="intent" value="bulk_trash" />
+              <input type="hidden" name="ids" value={JSON.stringify(selectedProductIds)} />
+              <button id="submitBulkTrash" type="submit" />
+            </Form>
 
-        <div className="catalog-table-card">
+            <Form method="post" style={{ display: "none" }}>
+              <input type="hidden" name="intent" value="bulk_restore" />
+              <input type="hidden" name="ids" value={JSON.stringify(selectedProductIds)} />
+              <button id="submitBulkRestore" type="submit" />
+            </Form>
+
+            <Form method="post" style={{ display: "none" }}>
+              <input type="hidden" name="intent" value="bulk_delete_permanently" />
+              <input type="hidden" name="ids" value={JSON.stringify(selectedProductIds)} />
+              <button id="submitBulkDeletePermanently" type="submit" />
+            </Form>
+          </div>
+
+          <div className="catalog-table-card">
             <div className="admin-table-wrapper">
               <table className="admin-table">
                 <thead>
@@ -2588,7 +2638,7 @@ export default function VpBackendProducts() {
                                 <Form method="post" style={{ display: "inline" }}>
                                   <input type="hidden" name="intent" value="delete_product_permanently" />
                                   <input type="hidden" name="id" value={prod.id} />
-                                  <button type="submit" style={{ background: "none", border: "none", color: "#ff4d62", cursor: "pointer", padding: 0, fontSize: "inherit", fontFamily: "inherit" }} onClick={(e) => { if(!confirm("Are you sure you want to permanently delete this product? This action cannot be undone.")) e.preventDefault(); }}>Delete Permanently</button>
+                                  <button type="submit" style={{ background: "none", border: "none", color: "#ff4d62", cursor: "pointer", padding: 0, fontSize: "inherit", fontFamily: "inherit" }} onClick={(e) => { if (!confirm("Are you sure you want to permanently delete this product? This action cannot be undone.")) e.preventDefault(); }}>Delete Permanently</button>
                                 </Form>
                               </>
                             ) : (
@@ -2601,7 +2651,7 @@ export default function VpBackendProducts() {
                                 <Form method="post" style={{ display: "inline" }}>
                                   <input type="hidden" name="intent" value="trash_product" />
                                   <input type="hidden" name="id" value={prod.id} />
-                                  <button type="submit" style={{ background: "none", border: "none", color: "#ff4d62", cursor: "pointer", padding: 0, fontSize: "inherit", fontFamily: "inherit" }} onClick={(e) => { if(!confirm("Are you sure you want to move this product to Trash?")) e.preventDefault(); }}>Trash</button>
+                                  <button type="submit" style={{ background: "none", border: "none", color: "#ff4d62", cursor: "pointer", padding: 0, fontSize: "inherit", fontFamily: "inherit" }} onClick={(e) => { if (!confirm("Are you sure you want to move this product to Trash?")) e.preventDefault(); }}>Trash</button>
                                 </Form>
                                 <span className="row-actions-separator">|</span>
                                 <a href={`/product/${prod.slug}`} target="_blank" rel="noreferrer" style={{ color: "#00ccff", textDecoration: "none" }}>View</a>
@@ -2746,8 +2796,8 @@ export default function VpBackendProducts() {
               </div>
             )}
           </div>
-      </>
-    )}
+        </>
+      )}
 
       {/* VIEW: DEEP EDIT PRODUCT */}
       {currentView === "edit" && editingProductDetails && (
@@ -2808,7 +2858,7 @@ export default function VpBackendProducts() {
                 <div style={{ display: "flex", alignItems: "center", gap: "6px", fontSize: "13px", color: "rgba(255, 255, 255, 0.65)", marginBottom: "20px", paddingLeft: "4px" }}>
                   <span>Permalink:</span>
                   <span style={{ color: "rgba(255, 255, 255, 0.45)" }}>{origin}/product/</span>
-                  
+
                   {isEditingSlug ? (
                     <div style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>
                       <input
@@ -2979,11 +3029,11 @@ export default function VpBackendProducts() {
                         <div className="form-group-admin" style={{ display: "grid", gridTemplateColumns: "180px 1fr", gap: "16px", alignItems: "center", marginTop: "12px" }}>
                           <label style={{ marginBottom: 0 }}>Manage Stock?</label>
                           <label style={{ display: "inline-flex", alignItems: "center", gap: "6px", cursor: "pointer", color: "#fff", fontSize: "13px" }}>
-                            <input 
-                              type="checkbox" 
-                              name="manageStock" 
-                              value="true" 
-                              defaultChecked={editingProductDetails.manageStock !== false} 
+                            <input
+                              type="checkbox"
+                              name="manageStock"
+                              value="true"
+                              defaultChecked={editingProductDetails.manageStock !== false}
                             /> Track stock quantity
                           </label>
                         </div>
@@ -3001,7 +3051,7 @@ export default function VpBackendProducts() {
                             name="stockQty"
                             defaultValue={
                               editingProductDetails.lowStockRemaining !== undefined &&
-                              editingProductDetails.lowStockRemaining !== null
+                                editingProductDetails.lowStockRemaining !== null
                                 ? editingProductDetails.lowStockRemaining
                                 : (editingProductDetails.inStock ? 10 : 0)
                             }
@@ -3219,7 +3269,7 @@ export default function VpBackendProducts() {
                 <div className="edit-card">
                   <div className="edit-card-header">Product image</div>
                   <div className="edit-card-body" style={{ textAlign: "center" }}>
-                    <div 
+                    <div
                       onClick={() => {
                         setMediaPickerTarget("thumbnail");
                         setIsMediaPickerOpen(true);
@@ -3231,7 +3281,7 @@ export default function VpBackendProducts() {
                         alt={nameVal}
                         style={{ maxWidth: "100%", maxHeight: "150px", objectFit: "contain", borderRadius: "4px" }}
                       />
-                      <div 
+                      <div
                         style={{
                           position: "absolute",
                           inset: 0,
@@ -3266,11 +3316,11 @@ export default function VpBackendProducts() {
 
                     <div style={{ borderTop: "1px solid rgba(255,255,255,0.05)", paddingTop: "12px", marginTop: "12px" }}>
                       <label className="admin-label" style={{ display: "block", textAlign: "left", fontSize: "11px", marginBottom: "6px" }}>Or Upload New Image</label>
-                      <input 
-                        type="file" 
-                        name="thumbnail" 
-                        accept="image/*" 
-                        style={{ fontSize: "11px", width: "100%" }} 
+                      <input
+                        type="file"
+                        name="thumbnail"
+                        accept="image/*"
+                        style={{ fontSize: "11px", width: "100%" }}
                         onChange={(e) => {
                           const file = e.target.files?.[0];
                           if (file) {
@@ -3350,12 +3400,12 @@ export default function VpBackendProducts() {
                       </div>
                     )}
                     <input type="hidden" name="existingGalleryJson" value={JSON.stringify(galleryImages)} />
-                    <input 
-                      type="file" 
-                      name="gallery" 
-                      accept="image/*" 
-                      multiple 
-                      style={{ fontSize: "11px", width: "100%" }} 
+                    <input
+                      type="file"
+                      name="gallery"
+                      accept="image/*"
+                      multiple
+                      style={{ fontSize: "11px", width: "100%" }}
                       onChange={(e) => {
                         const files = e.target.files;
                         if (files) {
@@ -3433,7 +3483,7 @@ export default function VpBackendProducts() {
           <div className="directory-form-card" style={{ width: "100%" }}>
             <Form method="post" replace>
               <input type="hidden" name="intent" value="add_product" />
-              
+
               <div className="form-group-admin">
                 <label>Product Name <span style={{ color: "#ff4d62" }}>*</span></label>
                 <input type="text" name="name" required placeholder="e.g. Bonnie Adult Dog Food - Beef 15kg" />
@@ -3442,7 +3492,7 @@ export default function VpBackendProducts() {
               <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px" }}>
                 <div className="form-group-admin">
                   <label>SKU (Stock Keeping Unit)</label>
-                  <input type="text" name="sku" placeholder="e.g. VP55UHD" />
+                  <input type="text" name="sku" placeholder="e.g. PSK123" />
                 </div>
                 <div className="form-group-admin">
                   <label>Category</label>
@@ -3458,11 +3508,11 @@ export default function VpBackendProducts() {
               <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px" }}>
                 <div className="form-group-admin">
                   <label>Regular Price (KSh) <span style={{ color: "#ff4d62" }}>*</span></label>
-                  <input type="number" name="regularPrice" required min={0} placeholder="e.g. 54999" />
+                  <input type="number" name="regularPrice" required min={0} placeholder="e.g. 10000" />
                 </div>
                 <div className="form-group-admin">
                   <label>Sale Price (KSh)</label>
-                  <input type="number" name="salePrice" min={0} placeholder="e.g. 49999 (optional)" />
+                  <input type="number" name="salePrice" min={0} placeholder="e.g. 9000 (optional)" />
                 </div>
               </div>
 
@@ -3520,12 +3570,12 @@ export default function VpBackendProducts() {
                 <input type="hidden" name="intent" value="add_brand" />
                 <div className="form-group-admin">
                   <label>Name</label>
-                  <input type="text" name="name" value={newBrandName} onChange={(e) => setNewBrandName(e.target.value)} required placeholder="e.g. LG Electronics" />
+                  <input type="text" name="name" value={newBrandName} onChange={(e) => setNewBrandName(e.target.value)} required placeholder="e.g. Brand Name" />
                   <span style={{ fontSize: "11px", color: "rgba(255,255,255,0.3)" }}>How it appears on your site.</span>
                 </div>
                 <div className="form-group-admin">
                   <label>Slug</label>
-                  <input type="text" name="slug" value={newBrandSlug} onChange={(e) => setNewBrandSlug(e.target.value)} placeholder="e.g. lg-electronics (optional)" />
+                  <input type="text" name="slug" value={newBrandSlug} onChange={(e) => setNewBrandSlug(e.target.value)} placeholder="e.g. brand-name (optional)" />
                 </div>
                 <div className="form-group-admin">
                   <label>Description</label>
@@ -3580,7 +3630,7 @@ export default function VpBackendProducts() {
                             <Form method="post" style={{ display: "inline" }}>
                               <input type="hidden" name="intent" value="delete_brand" />
                               <input type="hidden" name="slug" value={brand.slug} />
-                              <button type="submit" style={{ background: "none", border: "none", color: "#ff4d62", cursor: "pointer", padding: 0, fontSize: "inherit", fontFamily: "inherit" }} onClick={(e) => { if(!confirm(`Are you sure you want to delete the brand "${brand.name}"?`)) e.preventDefault(); }}>Delete</button>
+                              <button type="submit" style={{ background: "none", border: "none", color: "#ff4d62", cursor: "pointer", padding: 0, fontSize: "inherit", fontFamily: "inherit" }} onClick={(e) => { if (!confirm(`Are you sure you want to delete the brand "${brand.name}"?`)) e.preventDefault(); }}>Delete</button>
                             </Form>
                             <span className="row-actions-separator">|</span>
                             <a href={`/brand/${brand.slug}`} target="_blank" rel="noreferrer" style={{ color: "#00ccff", textDecoration: "none" }}>View</a>
@@ -3620,12 +3670,12 @@ export default function VpBackendProducts() {
                 <input type="hidden" name="intent" value="add_category" />
                 <div className="form-group-admin">
                   <label>Name</label>
-                  <input type="text" name="name" value={newCatName} onChange={(e) => setNewCatName(e.target.value)} required placeholder="e.g. Smart Audio" />
+                  <input type="text" name="name" value={newCatName} onChange={(e) => setNewCatName(e.target.value)} required placeholder="e.g. Cat Treats" />
                   <span style={{ fontSize: "11px", color: "rgba(255,255,255,0.3)" }}>How it appears on your site.</span>
                 </div>
                 <div className="form-group-admin">
                   <label>Slug</label>
-                  <input type="text" name="slug" value={newCatSlug} onChange={(e) => setNewCatSlug(e.target.value)} placeholder="e.g. smart-audio (optional)" />
+                  <input type="text" name="slug" value={newCatSlug} onChange={(e) => setNewCatSlug(e.target.value)} placeholder="e.g. cat-treats (optional)" />
                 </div>
                 <div className="form-group-admin">
                   <label>Description</label>
@@ -3684,15 +3734,15 @@ export default function VpBackendProducts() {
                             <Form method="post" style={{ display: "inline" }}>
                               <input type="hidden" name="intent" value="delete_category" />
                               <input type="hidden" name="slug" value={cat.slug} />
-                              <button type="submit" style={{ background: "none", border: "none", color: "#ff4d62", cursor: "pointer", padding: 0, fontSize: "inherit", fontFamily: "inherit" }} onClick={(e) => { if(!confirm(`Are you sure you want to delete the category "${cat.name}"?`)) e.preventDefault(); }}>Delete</button>
+                              <button type="submit" style={{ background: "none", border: "none", color: "#ff4d62", cursor: "pointer", padding: 0, fontSize: "inherit", fontFamily: "inherit" }} onClick={(e) => { if (!confirm(`Are you sure you want to delete the category "${cat.name}"?`)) e.preventDefault(); }}>Delete</button>
                             </Form>
                             <span className="row-actions-separator">|</span>
-                            <a href={`/category/${cat.slug}`} target="_blank" rel="noreferrer" style={{ color: "#00ccff", textDecoration: "none" }}>View</a>
+                            <a href={`/product-category/${cat.slug}`} target="_blank" rel="noreferrer" style={{ color: "#00ccff", textDecoration: "none" }}>View</a>
                           </div>
                         </td>
                         <td style={{ fontFamily: "monospace", fontSize: "12px" }}>{cat.slug}</td>
                         <td style={{ color: "rgba(255,255,255,0.6)", fontSize: "13px" }}>{cat.description || "—"}</td>
-                        <td style={{ textAlign: "right", fontWeight: "600", color: "#00ccff" }}>{cat.count}</td>
+                        <td style={{ textAlign: "right", fontWeight: "600" }}><Link to={`/product-category/${cat.slug}?hideFilter=true`} target="_blank" style={{ color: "#00ccff", textDecoration: "underline", cursor: "pointer" }}>{cat.count}</Link></td>
                       </tr>
                     ))}
                   </tbody>
@@ -3724,11 +3774,11 @@ export default function VpBackendProducts() {
                 <input type="hidden" name="intent" value="add_tag" />
                 <div className="form-group-admin">
                   <label>Name</label>
-                  <input type="text" name="name" value={newTagName} onChange={(e) => setNewTagName(e.target.value)} required placeholder="e.g. LED Screen" />
+                  <input type="text" name="name" value={newTagName} onChange={(e) => setNewTagName(e.target.value)} required placeholder="e.g. Senior" />
                 </div>
                 <div className="form-group-admin">
                   <label>Slug</label>
-                  <input type="text" name="slug" value={newTagSlug} onChange={(e) => setNewTagSlug(e.target.value)} placeholder="e.g. led-screen (optional)" />
+                  <input type="text" name="slug" value={newTagSlug} onChange={(e) => setNewTagSlug(e.target.value)} placeholder="e.g. senior (optional)" />
                 </div>
                 <div className="form-group-admin">
                   <label>Description</label>
@@ -3783,7 +3833,7 @@ export default function VpBackendProducts() {
                             <Form method="post" style={{ display: "inline" }}>
                               <input type="hidden" name="intent" value="delete_tag" />
                               <input type="hidden" name="slug" value={tag.slug} />
-                              <button type="submit" style={{ background: "none", border: "none", color: "#ff4d62", cursor: "pointer", padding: 0, fontSize: "inherit", fontFamily: "inherit" }} onClick={(e) => { if(!confirm(`Are you sure you want to delete the tag "${tag.name}"?`)) e.preventDefault(); }}>Delete</button>
+                              <button type="submit" style={{ background: "none", border: "none", color: "#ff4d62", cursor: "pointer", padding: 0, fontSize: "inherit", fontFamily: "inherit" }} onClick={(e) => { if (!confirm(`Are you sure you want to delete the tag "${tag.name}"?`)) e.preventDefault(); }}>Delete</button>
                             </Form>
                             <span className="row-actions-separator">|</span>
                             <a href={`/tag/${tag.slug}`} target="_blank" rel="noreferrer" style={{ color: "#00ccff", textDecoration: "none" }}>View</a>
@@ -3823,15 +3873,15 @@ export default function VpBackendProducts() {
                 <input type="hidden" name="intent" value="add_attribute" />
                 <div className="form-group-admin">
                   <label>Name</label>
-                  <input type="text" name="name" value={newAttrName} onChange={(e) => setNewAttrName(e.target.value)} required placeholder="e.g. Processor" />
+                  <input type="text" name="name" value={newAttrName} onChange={(e) => setNewAttrName(e.target.value)} required placeholder="e.g. Color" />
                 </div>
                 <div className="form-group-admin">
                   <label>Slug</label>
-                  <input type="text" name="slug" value={newAttrSlug} onChange={(e) => setNewAttrSlug(e.target.value)} placeholder="e.g. pa_processor (optional)" />
+                  <input type="text" name="slug" value={newAttrSlug} onChange={(e) => setNewAttrSlug(e.target.value)} placeholder="e.g. color (optional)" />
                 </div>
                 <div className="form-group-admin">
                   <label>Terms / Values (comma separated)</label>
-                  <input type="text" name="terms" value={newAttrTerms} onChange={(e) => setNewAttrTerms(e.target.value)} placeholder="e.g. Quad-Core, Dual-Core" required />
+                  <input type="text" name="terms" value={newAttrTerms} onChange={(e) => setNewAttrTerms(e.target.value)} placeholder="e.g. Red, Blue, Green, Yellow, Black" required />
                 </div>
                 <button type="submit" className="btn-action-primary" style={{ width: "100%", height: "36px" }}>Add New Attribute</button>
               </Form>
@@ -3882,7 +3932,7 @@ export default function VpBackendProducts() {
                             <Form method="post" style={{ display: "inline" }}>
                               <input type="hidden" name="intent" value="delete_attribute" />
                               <input type="hidden" name="slug" value={attr.slug} />
-                              <button type="submit" style={{ background: "none", border: "none", color: "#ff4d62", cursor: "pointer", padding: 0, fontSize: "inherit", fontFamily: "inherit" }} onClick={(e) => { if(!confirm(`Are you sure you want to delete the attribute "${attr.name}"?`)) e.preventDefault(); }}>Delete</button>
+                              <button type="submit" style={{ background: "none", border: "none", color: "#ff4d62", cursor: "pointer", padding: 0, fontSize: "inherit", fontFamily: "inherit" }} onClick={(e) => { if (!confirm(`Are you sure you want to delete the attribute "${attr.name}"?`)) e.preventDefault(); }}>Delete</button>
                             </Form>
                             <span className="row-actions-separator">|</span>
                             <a href={`/attribute/${attr.slug}`} target="_blank" rel="noreferrer" style={{ color: "#00ccff", textDecoration: "none" }}>View</a>
@@ -4092,7 +4142,7 @@ export default function VpBackendProducts() {
                     >
                       Browse Media Library
                     </button>
-                    
+
                     <label className="admin-label" style={{ fontSize: "10px", marginBottom: "4px", display: "block" }}>Or Upload New Image:</label>
                     <input
                       style={{ padding: "4px", fontSize: "11px", width: "100%" }}

@@ -2,14 +2,12 @@
   "id": 89791,
   "name": "Whiskas Cat Temptations Treats - Chicken & Cheese 60g",
   "slug": "whiskas-cat-temptations-treats-chicken-cheese-60g",
-  "sku": "WCT002",
   "onSale": false,
   "price": 399,
   "regularPrice": 399,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Treat-Temptations-Chicken-Cheese-60g-1.png",
   "categories": [
     {
       "id": 2325,
@@ -32,57 +30,51 @@
       "slug": "whiskas"
     }
   ],
-  "brands": [
-    {
-      "id": 2480,
-      "name": "Whiskas",
-      "slug": "whiskas"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/whiskas-cat-temptations-treats-chicken-cheese-60g/",
-  "shortDescription": "Treat your cat to the irresistible crunch of Whiskas Temptations Chicken Cat Treats 60g a delicious dual-texture snack with a crunchy outside and a soft, tasty center. Made with real chicken and enriched with essential vitamins and minerals, these cat treats are perfect for rewarding, training, or simply pampering your feline friend. &nbsp;",
   "description": "Formulated to satisfy your cat’s natural cravings, Whiskas Temptations Chicken Treats contain high-quality protein to support overall health and energy. The bite-sized pieces are easy to chew and ideal for cats of all breeds and life stages. Key Benefits Made with real chicken for a rich, meaty flavor cats love Crunchy outside with a soft center for an irresistible texture Enriched with vitamins and minerals to support overall wellbeing Perfect as a reward, training treat, or everyday snack Convenient resealable 60g pack for freshness Ingredients Cereals, oils and fats, vegetable by-products, meat and animal by-products (including 4% chicken), mineral substances, vegetable protein extracts, milk and milk by-products (including cheese derivatives). Analytical Constituents Protein: 22% Fat: 22% Fibre: 2% Inorganic Matter: 9% Feeding Guide Feed up to 12 treats daily and adjust your cat’s main meal accordingly. Always provide fresh, clean drinking water. Storage Instructions Store in a cool, dry place. Once opened, consume within 4 weeks for maximum freshness. Buy Whiskas Temptations Chicken Cat Treats 60g online today for a tasty cat snack your furry companion will keep coming back for.",
   "images": [
     {
-      "id": 89794,
+      "id": 89791,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Treat-Temptations-Chicken-Cheese-60g-1.png",
-      "alt": "Whiskas Cat Temptations Treats – Chicken & Cheese 60g",
-      "name": "Whiskas Cat Treat Temptations Chicken &#038; Cheese 60g (1)"
+      "alt": "Whiskas Cat Temptations Treats - Chicken & Cheese 60g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Whiskas",
+      "slug": "whiskas"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/whiskas-cat-temptations-treats-chicken-cheese-60g/?add-to-cart=89791",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-05-21T16:34:55",
-  "dateModified": "2026-06-17T05:01:33",
+  "permalink": "https://petstore.co.ke/product/whiskas-cat-temptations-treats-chicken-cheese-60g/",
+  "addToCartUrl": "https://petstore.co.ke/product/whiskas-cat-temptations-treats-chicken-cheese-60g/?add-to-cart=89791",
+  "shortDescription": "Formulated to satisfy your cat’s natural cravings, Whiskas Temptations Chicken Treats contain high-quality protein to support overall health and energ",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Treat-Temptations-Chicken-Cheese-60g-1.png",
+  "sku": "PSK-89791",
   "brand": "Whiskas",
   "weight_kg": 0.06,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Treat-Temptations-Chicken-Cheese-60g-1.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/Whiskas-Cat-Treat-Temptations-Chicken-Cheese-60g-1.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

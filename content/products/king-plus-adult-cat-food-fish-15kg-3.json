@@ -2,14 +2,12 @@
   "id": 55398,
   "name": "King Plus Adult Cat Food - Fish 15kg",
   "slug": "king-plus-adult-cat-food-fish-15kg-3",
-  "sku": "KCD003@OFFER",
-  "onSale": true,
+  "onSale": false,
   "price": 5375,
-  "regularPrice": 10750,
-  "salePrice": 5375,
+  "regularPrice": 5375,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/01/King-fish-15kg-new-packaging.png",
   "categories": [
     {
       "id": 2325,
@@ -32,72 +30,51 @@
       "slug": "king"
     }
   ],
-  "brands": [
-    {
-      "id": 2446,
-      "name": "King",
-      "slug": "king"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 637,
-      "name": "kibble",
-      "slug": "kibble"
-    },
-    {
-      "id": 939,
-      "name": "On Sale Now",
-      "slug": "sale"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=55398",
-  "shortDescription": "Fully balanced all natural cat food with fish protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult cats.",
   "description": "King Plus Adult Cat Food - Fish , fully balanced all natural cat food with fish protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult cats. NUTRIENT COMPONENTS Protein ................ 28% Fat ...................... 10% Crude Ash ................ 8% Crude Cellulose (Fiber)....2.5% INGREDIENTS: Processed Animal Protein, Wheat, Corn, Animal Fat, Fish Meal, Fish Oil, Corn Gluten, Liver Aroma, Fish Aroma, Rice, Salt, Flaxseed, Dried Brewer's Yeast, Taurine. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 - B2 - B3 (niacin) - B6 - B12 - B7 (biotin) - B9 (folic acid), Vit. K, Choline, Calcium Pantotetan.",
   "images": [
     {
-      "id": 77119,
+      "id": 55398,
       "src": "https://petstore.co.ke/wp-content/uploads/2020/01/King-fish-15kg-new-packaging.png",
-      "alt": "King Plus Adult Cat Food – Fish 15kg",
-      "name": "King fish 15kg new packaging"
+      "alt": "King Plus Adult Cat Food - Fish 15kg",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "King",
+      "slug": "king"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/king-plus-adult-cat-food-fish-15kg-3/?add-to-cart=55398",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-05-26T14:42:30",
-  "dateModified": "2026-06-17T04:33:57",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=55398",
+  "addToCartUrl": "https://petstore.co.ke/product/king-plus-adult-cat-food-fish-15kg-3/?add-to-cart=55398",
+  "shortDescription": "King Plus Adult Cat Food - Fish , fully balanced all natural cat food with fish protein. Carefully formulated by cat / dog nutritionists to meet the n",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/01/King-fish-15kg-new-packaging.png",
+  "sku": "PSK-55398",
   "brand": "King",
   "weight_kg": 15,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/01/King-fish-15kg-new-packaging.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/01/King-fish-15kg-new-packaging.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 58260,
   "name": "Ferplast Club Collar C25/70 Black",
   "slug": "ferplast-club-collar-c25-70-black",
-  "sku": "FCCBlack",
   "onSale": false,
   "price": 0,
   "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-48.png",
   "categories": [
     {
       "id": 1204,
@@ -17,46 +15,51 @@
       "slug": "accessories"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=58260",
-  "shortDescription": "The Ferplast Club Collar C25/70 in black is a robust, adjustable nylon collar designed for medium to large dogs. Combining strength, comfort, and a timeless minimalistic design, it’s perfect for daily walks, training, and general use.",
   "description": "Why Choose the C25/70 Club Collar? • Built for daily use – tough yet lightweight construction. • Fully adjustable to adapt as your dog grows or if their coat thickness changes. • Easy to maintain and clean – ideal for active dogs who love outdoor adventures. • Timeless design works for any breed or personality. Part of Ferplast’s Club range, the C25/70 delivers everything you need in a dependable dog collar – strength, comfort, and a clean style that never goes out of fashion. Whether you’re looking for a collar for everyday walks or a reliable training accessory, this collar is a practical and stylish choice for your dog.",
   "images": [
     {
-      "id": 58261,
+      "id": 58260,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-48.png",
       "alt": "Ferplast Club Collar C25/70 Black",
-      "name": "Untitled design (48)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "PetStore Kenya",
+      "slug": "petstore-kenya"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/ferplast-club-collar-c25-70-black/?add-to-cart=58260",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-08-11T11:18:44",
-  "dateModified": "2026-05-07T13:12:40",
-  "brand": null,
+  "permalink": "https://petstore.co.ke/?post_type=product&p=58260",
+  "addToCartUrl": "https://petstore.co.ke/product/ferplast-club-collar-c25-70-black/?add-to-cart=58260",
+  "shortDescription": "Why Choose the C25/70 Club Collar? • Built for daily use – tough yet lightweight construction. • Fully adjustable to adapt as your dog grows or if the",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-48.png",
+  "sku": "PSK-58260",
+  "brand": "PetStore Kenya",
   "weight_kg": null,
   "animal_type": "dog",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-48.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-48.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

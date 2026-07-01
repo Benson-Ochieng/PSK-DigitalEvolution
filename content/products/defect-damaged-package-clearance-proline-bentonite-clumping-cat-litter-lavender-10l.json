@@ -2,14 +2,12 @@
   "id": 35460,
   "name": "DEFECT / DAMAGED PACKAGE  CLEARANCE: Proline Bentonite Clumping Cat Litter - Lavender 10L",
   "slug": "defect-damaged-package-clearance-proline-bentonite-clumping-cat-litter-lavender-10l",
-  "sku": "PCL006@D",
-  "onSale": true,
+  "onSale": false,
   "price": 1457,
-  "regularPrice": 2082,
-  "salePrice": 1457,
+  "regularPrice": 1457,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/PCL006-01.jpg",
   "categories": [
     {
       "id": 2325,
@@ -32,77 +30,51 @@
       "slug": "proline"
     }
   ],
-  "brands": [
-    {
-      "id": 2461,
-      "name": "Proline",
-      "slug": "proline"
-    }
-  ],
-  "tags": [
-    {
-      "id": 831,
-      "name": "bentonite",
-      "slug": "bentonite"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 819,
-      "name": "cat litter",
-      "slug": "cat-litter"
-    },
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    },
-    {
-      "id": 823,
-      "name": "clumping",
-      "slug": "clumping"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 2315,
-      "name": "scented",
-      "slug": "scented"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/defect-damaged-package-clearance-proline-bentonite-clumping-cat-litter-lavender-10l/",
-  "shortDescription": "Proline Bentonite Cat Litter – Lavender offers superior clumping power and reliable odor protection. Crafted from premium natural bentonite, it traps odors instantly and keeps your cat’s litter box dry, clean, and lightly scented with lavender freshness.",
   "description": "Proline Bentonite Clumping Lavender Cat Litter , 100% natural bentonite cat litter instantly clumps. Excellent pelletising, instantly lumps Neutralises odour with a gentle Lavender scent Non-toxic and 100% natural Thin grain shape Prevents bacterial growth Upon first use, we recommend adding new cat litter to the surface of the old cat litter for a few days.",
   "images": [
     {
-      "id": 27584,
+      "id": 35460,
       "src": "https://petstore.co.ke/wp-content/uploads/2022/04/PCL006-01.jpg",
-      "alt": "Proline Bentonite Clumping Cat Litter – Lavender 10l",
-      "name": "PCL006-01"
+      "alt": "DEFECT / DAMAGED PACKAGE  CLEARANCE: Proline Bentonite Clumping Cat Litter - Lavender 10L",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Proline",
+      "slug": "proline"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/defect-damaged-package-clearance-proline-bentonite-clumping-cat-litter-lavender-10l/?add-to-cart=35460",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2023-03-06T08:46:18",
-  "dateModified": "2026-06-17T04:28:48",
+  "permalink": "https://petstore.co.ke/product/defect-damaged-package-clearance-proline-bentonite-clumping-cat-litter-lavender-10l/",
+  "addToCartUrl": "https://petstore.co.ke/product/defect-damaged-package-clearance-proline-bentonite-clumping-cat-litter-lavender-10l/?add-to-cart=35460",
+  "shortDescription": "Proline Bentonite Clumping Lavender Cat Litter , 100% natural bentonite cat litter instantly clumps. Excellent pelletising, instantly lumps Neutralise",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/04/PCL006-01.jpg",
+  "sku": "PSK-35460",
   "brand": "Proline",
   "weight_kg": 9,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/PCL006-01.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/PCL006-01.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

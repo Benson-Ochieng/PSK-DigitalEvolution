@@ -2,14 +2,12 @@
   "id": 47499,
   "name": "Josera Weight And Diabetic Dog Dry Food 10kg",
   "slug": "josera-weight-and-diabetic-dog-dry-food-10kg",
-  "sku": "JWDD1098",
   "onSale": false,
   "price": 14119,
   "regularPrice": 14119,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/transparent-hund_josera_help_weight_diabetic_10kg.png",
   "categories": [
     {
       "id": 2345,
@@ -32,57 +30,51 @@
       "slug": "josera"
     }
   ],
-  "brands": [
-    {
-      "id": 2444,
-      "name": "Josera",
-      "slug": "josera"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 2319,
-      "name": "Veterinary Range",
-      "slug": "veterinary-range"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/josera-weight-and-diabetic-dog-dry-food-10kg/",
-  "shortDescription": "It is not only us humans who are increasingly suffering from obesity, often accompanied by diabetes – this also affects our dogs. We help overweight dogs as well as those with diabetes with Josera Help Weight & Diabetic Line",
   "description": "It is not only us humans who are increasingly suffering from obesity, which is not infrequently accompanied by diabetes – it can also affect our dogs. We can help with overweight dogs as well as diabetes: with Josera Help Weight & Diabetic Line. The reduced calorie and sugar content of the complete dietary feed is well suited for weight reduction. The recipe is also rich in fibre to support normal blood sugar levels and contribute to satiety. The phytogenic complex in this feed relies on the valuable ingredients of the ginger tuber, which can have a digestive effect and support the normal metabolism. Traditionally, ginger is used to support diabetes. With the needs-based and tasty recipe of Josera Help Weight & Diabetic, your dog can finally lose weight in an organ-friendly way and reach its ideal weight. Muscle mass is maintained by the diet, while the reduced-sugar composition also supports diabetes therapy. Suitable for a needs-based weight loss diet Can support diabetes therapy thanks to reduced calorie and sugar content Rich in fibre: Supports normal blood sugar levels and contributes to satiety despite reduced calorie intake Phytogen complex: the ingredients of the ginger tuber have a digestive effect Stimulation of the metabolism through a high protein content L-carnitine stimulates fat metabolism and supports muscle maintenance Dietary feed for adult dogs with overweight and/or diabetes mellitus Composition: Poultry; pea flour (natural source of amino acids); wholegrain barley; cellulose; dried beet pulp (natural source of dietary fibre); hydrolysed poultry protein; poultry fat; carob bean; hydrolysed yeast; yeast; minerals; psyllium husks; oregano; ginger; rosemary; nettle; milk thistle; cranberry; dried protein from the New Zealand green-lipped mussel (Perna canaliculus). Dietary feed for adult dogs with overweight and/or diabetes mellitus. FEEDING RECOMMENDATION: Feeding recommendation per day. Weight reduction Weight maintenance Weight overweight inactive / older normally active 5 kg 60 g 85 g 100 g 10 kg 100 g 140 g 170 g 20 kg 170 g 240 g 285 g 30 kg 230 g 325 g 385 g 40 kg 290 g 400 g 475 g 60 kg 390 g 545 g 650 g 80 kg 480 g 675 g 800 g For a gentle weight reduction, your pet should lose 1-2% body mass per week. This should be checked regularly and may need to be adjusted by slightly reducing or increasing the amount of feed. Ensure that your pet always has access to fresh drinking water.",
   "images": [
     {
-      "id": 47500,
+      "id": 47499,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/06/transparent-hund_josera_help_weight_diabetic_10kg.png",
       "alt": "Josera Weight And Diabetic Dog Dry Food 10kg",
-      "name": "transparent-hund_josera_help_weight_diabetic_10kg"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Josera",
+      "slug": "josera"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/josera-weight-and-diabetic-dog-dry-food-10kg/?add-to-cart=47499",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-06-03T15:48:56",
-  "dateModified": "2026-06-17T04:29:49",
+  "permalink": "https://petstore.co.ke/product/josera-weight-and-diabetic-dog-dry-food-10kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/josera-weight-and-diabetic-dog-dry-food-10kg/?add-to-cart=47499",
+  "shortDescription": "It is not only us humans who are increasingly suffering from obesity, which is not infrequently accompanied by diabetes – it can also affect our dogs.",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/transparent-hund_josera_help_weight_diabetic_10kg.png",
+  "sku": "PSK-47499",
   "brand": "Josera",
   "weight_kg": 2,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/transparent-hund_josera_help_weight_diabetic_10kg.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/transparent-hund_josera_help_weight_diabetic_10kg.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

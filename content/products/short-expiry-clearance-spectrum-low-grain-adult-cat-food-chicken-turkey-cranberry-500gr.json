@@ -2,14 +2,12 @@
   "id": 45778,
   "name": "SHORT EXPIRY - CLEARANCE: SPECTRUM LOWgAIN ADULT CAT FOOD CHICKEN  TURKEY  & CRANBERRY 500g",
   "slug": "short-expiry-clearance-spectrum-low-grain-adult-cat-food-chicken-turkey-cranberry-500gr",
-  "sku": "SLGCD003@SE",
-  "onSale": true,
+  "onSale": false,
   "price": 675,
-  "regularPrice": 1350,
-  "salePrice": 675,
+  "regularPrice": 675,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/11/SLGCD003-Spectrum-Low-graion-2.jpg",
   "categories": [
     {
       "id": 2167,
@@ -22,57 +20,51 @@
       "slug": "spectrum"
     }
   ],
-  "brands": [
-    {
-      "id": 2468,
-      "name": "Spectrum",
-      "slug": "spectrum"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 1303,
-      "name": "Clearance",
-      "slug": "clearance"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=45778",
-  "shortDescription": "SPECTRUM LOW GRAIN COMPLETE AND BALANCED ADULT CAT FOOD WITH CHICKEN, TURKEY & CRANBERRY 500gr",
   "description": "SPECTRUM LOW GRAIN COMPLETE AND BALANCED ADULT CAT FOOD WITH CHICKEN, TURKEY & CRANBERRY Nutrition the way Nature Intended! OPTIMUM NUTRITION Formulated with higher levels of protein and fat with lower glycemic carbohydrates to mimic carnivore nutrition more closely. OPTIMUM DIGESTION Carnivores do not digest all grains well as they have short intestines. Spectrum Low Grain has been specially formulated with specific grains that have been pre-processed for easier digestion. Better absorption naturally reduces stool odour and quantity. NATURAL ANTIOXIDANTS Natural antioxidants (flavanoids) obtained from different herbs, fruits and vegetables such as artichoke, tomato, red onion, rosemary, citrus, black grape, date palm, blackberry, olive, watermelon, pomegranate, protect from heart disease, diabetes, cancer, and support the immune system. HYPOALLERGENIC Most grains have an allergenic effect on carnivores, Spectrum Low Grain Combats this by using a very low grain content making it suitable for even the most allergy prone animals. FRUCTO-OLIGOSACCHARIDES It is extremely important for your pet to have a healthy digestive tract to support its immune system. This proprietary pre-biotic fiber helps feed all the good probiotics to build disease resistance for the digestive system as well as the whole animal. CRANBERRY Cranberry increases the pH of the Urinary tract which helps support the urinary and renal systems. INGREDIENTS: Dehydrated chicken and turkey protein (min. 40%), cereals (rice, corn, oat), chicken fat, whey powder, sugar cane fiber, hydrolyzed chicken protein, carob meal, pea starch, brewery's yeast, salt, blueberry, chia seed, flax seed, cranberry, yucca schidigera, fructooligosaccharides (FOS), dried egg powder, turmeric, artichoke, olive, red onion, blackberry, tomato, watermelon, pomegranate, thym, rosemary, ginger extracts. MINERALS/kg: Iron(E1) 200 mg, Iodin(E2) 1,5 mg, Copper(E4) 18 mg, Mangenese(E5) 70 mg, Zinc(E6) 180 mg, Selenium(E8) 0,3 mg. ANALYTICAL CONSTITUENTS NUTRITIVE ADDITIONS/kg Crude Protein 36% Vitamin A (E672) 18000 IU Crude Fat 16% Vitamin D3(E671) 1500 IU Crude Ash 8% Vitamin E (3A700) 150 mg Crude Cellulose (Fiber) 2,5% Vitamin C (Stay C) 200 mg Taurine 1500 mg",
   "images": [
     {
-      "id": 33158,
+      "id": 45778,
       "src": "https://petstore.co.ke/wp-content/uploads/2022/11/SLGCD003-Spectrum-Low-graion-2.jpg",
-      "alt": "Spectrum Lowgain Adult Cat Food Chicken Turkey & Cranberry 500g",
-      "name": "SLGCD003 Spectrum Low graion 2"
+      "alt": "SHORT EXPIRY - CLEARANCE: SPECTRUM LOWgAIN ADULT CAT FOOD CHICKEN  TURKEY  & CRANBERRY 500g",
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Spectrum",
+      "slug": "spectrum"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-spectrum-low-grain-adult-cat-food-chicken-turkey-cranberry-500gr/?add-to-cart=45778",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-04-03T09:37:18",
-  "dateModified": "2026-06-17T04:35:32",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=45778",
+  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-spectrum-low-grain-adult-cat-food-chicken-turkey-cranberry-500gr/?add-to-cart=45778",
+  "shortDescription": "SPECTRUM LOW GRAIN COMPLETE AND BALANCED ADULT CAT FOOD WITH CHICKEN, TURKEY & CRANBERRY Nutrition the way Nature Intended! OPTIMUM NUTRITION Formulat",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/11/SLGCD003-Spectrum-Low-graion-2.jpg",
+  "sku": "PSK-45778",
   "brand": "Spectrum",
   "weight_kg": 0.5,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/11/SLGCD003-Spectrum-Low-graion-2.jpg"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/11/SLGCD003-Spectrum-Low-graion-2.jpg",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

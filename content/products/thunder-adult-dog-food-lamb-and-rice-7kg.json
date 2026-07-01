@@ -2,14 +2,12 @@
   "id": 77687,
   "name": "Thunder Adult Dog Food Lamb And Rice 7kg",
   "slug": "thunder-adult-dog-food-lamb-and-rice-7kg",
-  "sku": "TDD008",
   "onSale": false,
   "price": 2500,
   "regularPrice": 2500,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/Your-paragraph-text-1.png",
   "categories": [
     {
       "id": 2345,
@@ -37,62 +35,51 @@
       "slug": "thunder"
     }
   ],
-  "brands": [
-    {
-      "id": 2469,
-      "name": "Thunder",
-      "slug": "thunder"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 637,
-      "name": "kibble",
-      "slug": "kibble"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    }
-  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/thunder-adult-dog-food-lamb-and-rice-7kg/",
-  "shortDescription": "Safe, effective, and economical nutrition made with high-quality animal protein and wholesome ingredients. Free from potato starch, vegetable, and soy proteins to support better digestion and overall health. Manufactured in an ISO-certified facility for consistent quality and label accuracy.",
   "description": "Nourish your dog with Thunder’s Lamb & Rice formula, crafted to provide balanced nutrition and delicious taste. Made with high-quality ingredients like wheat, corn, and wholesome lamb protein, this formula supports your dog’s energy and vitality. Enriched with natural animal fats and liver aroma for irresistible flavor, plus flaxseed for a healthy coat. No Potato Starch: potato starch is a problematic ingredient, dogs don't have amylase in their saliva and incomplete starch metabolism leads to inflammation, spiked insulin, high blood sugar, obesity and hormone disruption. No Vegetable or soy protein: dogs are preferential carnivores and do much better with ANIMAL PROTEIN. Vegetable and Soy proteins are often added to dog food to artificially inflate the protein percentage on the label, but dogs cannot break it down in large poop volume. Manufactured in an ISO certified factory: this ensures what is on the label is in the bag and consistency from bag to bag. INGREDIENTS: Wheat, Corn, Processed Animal Protein, Wheat Middlings, Bonkalit, Processed Lamb Protein, Rice, Animal Fat, Liver Aroma, Flaxseed, Rice, Salt, Dried Brewer’s Yeast. MINERALS: Calcium, Phosphorus, Sodium, Iodine, Zinc, Copper, Potassium Chloride, Iron, Selenium. VITAMINS: Vit. A, Vit. D, Vit. E, Vit. C, Vit. B1 – B2 – B3 (Niacin) – B6 – B12 – B7 (Biotin) – B9 (Folic Acid), Vit. K, Choline, Calcium Pantotetan. NUTRIENT COMPOSITION Crude Protein 18% Crude Fat 7% Crude Cellulose (Fiber) 4% Crude Ash 8% &nbsp; DAILY FEEDING GUIDE: DOG WEIGHT GR / DAY 1 – 5 kg 45 – 140 5 – 10 kg 160 – 235 10 – 20 kg 235 – 390 20 – 30 kg 390 – 530 30 – 40 kg 530 – 660 40 – 50 kg 660 – 780 50 – 60 kg 780 – 890",
   "images": [
     {
-      "id": 88871,
+      "id": 77687,
       "src": "https://petstore.co.ke/wp-content/uploads/2024/04/Your-paragraph-text-1.png",
       "alt": "Thunder Adult Dog Food Lamb And Rice 7kg",
-      "name": "Your paragraph text (1)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Thunder",
+      "slug": "thunder"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/thunder-adult-dog-food-lamb-and-rice-7kg/?add-to-cart=77687",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-04-02T14:46:33",
-  "dateModified": "2026-06-17T05:01:33",
+  "permalink": "https://petstore.co.ke/product/thunder-adult-dog-food-lamb-and-rice-7kg/",
+  "addToCartUrl": "https://petstore.co.ke/product/thunder-adult-dog-food-lamb-and-rice-7kg/?add-to-cart=77687",
+  "shortDescription": "Nourish your dog with Thunder’s Lamb & Rice formula, crafted to provide balanced nutrition and delicious taste. Made with high-quality ingredients lik",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/04/Your-paragraph-text-1.png",
+  "sku": "PSK-77687",
   "brand": "Thunder",
   "weight_kg": 7,
   "animal_type": "dog",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/Your-paragraph-text-1.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/Your-paragraph-text-1.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }

@@ -2,14 +2,12 @@
   "id": 56866,
   "name": "Chuck Adult Cat Beef 400g",
   "slug": "chuck-adult-cat-beef-400g",
-  "sku": "CACB400",
   "onSale": false,
   "price": 257,
   "regularPrice": 257,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-39-1.png",
   "categories": [
     {
       "id": 2325,
@@ -37,62 +35,51 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2432,
-      "name": "Chuck",
-      "slug": "chuck"
-    }
-  ],
-  "tags": [
-    {
-      "id": 622,
-      "name": "canned food",
-      "slug": "canned-food"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/chuck-adult-cat-beef-400g/",
-  "shortDescription": "Nutrient-rich cat food designed with vitamins, Omega 3, calcium and phosphorus for strong teeth, healthy skin, shiny coat and optimal muscle tone.",
   "description": "Product Highlights High-Quality Protein: Formulated to support muscle maintenance and promote a healthy, shiny coat. Rich in Nutrients: Contains essential vitamins and minerals to support overall health and vitality in adult cats. Natural Ingredients: Made without artificial flavors or preservatives, ensuring wholesome nutrition. Great Taste: Designed to be flavorful and appetizing to keep your cat satisfied and coming back for more. Perfect for Adult Cats: Balanced to meet the dietary needs of grown cats to fuel their daily activities Availability and Purchase Available for purchase online at Carrefour Kenya, with limited stock noted, which offers convenient delivery options in Nairobi. Other types of adult cat beef wet food, such as Mio Chunks and Prochoice adult cat beef 400g, are also available from local Kenyan retailers, providing alternatives with similar nutritional benefits",
   "images": [
     {
-      "id": 58235,
+      "id": 56866,
       "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-39-1.png",
       "alt": "Chuck Adult Cat Beef 400g",
-      "name": "Untitled design (39)"
+      "name": "thumbnail"
+    }
+  ],
+  "tags": [],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Chuck",
+      "slug": "chuck"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/chuck-adult-cat-beef-400g/?add-to-cart=56866",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-07-14T15:31:25",
-  "dateModified": "2026-06-24T11:11:58",
+  "permalink": "https://petstore.co.ke/product/chuck-adult-cat-beef-400g/",
+  "addToCartUrl": "https://petstore.co.ke/product/chuck-adult-cat-beef-400g/?add-to-cart=56866",
+  "shortDescription": "Product Highlights High-Quality Protein: Formulated to support muscle maintenance and promote a healthy, shiny coat. Rich in Nutrients: Contains essen",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-39-1.png",
+  "sku": "PSK-56866",
   "brand": "Chuck",
   "weight_kg": 0.4,
   "animal_type": "cat",
   "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-39-1.png"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Untitled-design-39-1.png",
+  "nutrition_protein": null,
+  "nutrition_fat": null,
+  "nutrition_fibre": null,
+  "nutrition_moisture": null,
+  "key_ingredients": null,
+  "feeding_guide": null,
+  "replaces_brand": null,
+  "replaces_reason": null,
+  "dateCreated": "2026-06-24T14:22:45.823Z",
+  "dateModified": "2026-06-24T14:22:45.823Z"
 }
