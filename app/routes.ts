@@ -26,7 +26,7 @@ try {
   // Silent fallback
 }
 
-const enableDashboard = process.env.ENABLE_DASHBOARD === "true";
+const enableDashboard = process.env.ENABLE_DASHBOARD !== "false";
 console.log("[DEBUG Routes] enableDashboard evaluated as:", enableDashboard, "| process.env.ENABLE_DASHBOARD:", process.env.ENABLE_DASHBOARD);
 
 const routes = [
