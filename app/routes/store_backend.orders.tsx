@@ -1031,7 +1031,7 @@ export default function VpBackendOrders() {
                 checked={showChannelColumn}
                 onChange={(e) => setShowChannelColumn(e.target.checked)}
               />
-              Channel
+              Payment Method
             </label>
             <label className="checkbox-label">
               <input
@@ -1285,7 +1285,7 @@ export default function VpBackendOrders() {
             value={tempChannel}
             onChange={(e) => setTempChannel(e.target.value)}
           >
-            <option value="">All sales channels</option>
+            <option value="">All payment methods</option>
             {uniqueChannels.map((c) => (
               <option key={c} value={c}>
                 {c}
@@ -1405,7 +1405,7 @@ export default function VpBackendOrders() {
                     Order {renderSortIndicator("id")}
                   </th>
                 )}
-                {showChannelColumn && <th>Channel</th>}
+                {showChannelColumn && <th>Payment Method</th>}
                 {showDateColumn && (
                   <th onClick={() => handleSort("date")} style={{ cursor: "pointer", userSelect: "none" }}>
                     Date {renderSortIndicator("date")}
