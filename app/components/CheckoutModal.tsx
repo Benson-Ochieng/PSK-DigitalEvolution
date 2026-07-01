@@ -664,8 +664,17 @@ export function CartDrawer() {
             </button>
             <input 
               type="text" 
-              readOnly 
-              value={activeItem.quantity} 
+              value={activeItem.quantity}
+              onChange={e => {
+                const cleanVal = e.target.value.replace(/[^0-9]/g, "");
+                const val = cleanVal === "" ? 0 : parseInt(cleanVal, 10);
+                updateQty(activeItem.id, val);
+              }}
+              onBlur={() => {
+                if (activeItem.quantity <= 0) {
+                  updateQty(activeItem.id, 1);
+                }
+              }}
               style={{
                 width: "28px",
                 borderTop: "none",
