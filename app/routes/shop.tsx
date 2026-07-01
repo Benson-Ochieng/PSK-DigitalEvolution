@@ -182,6 +182,36 @@ export const DOG_CATEGORIES = [
   { label: "Dog Toys", slug: "dog-toys" }
 ];
 
+function categorizeFilterTerms<T extends { label: string; slug: string }>(terms: T[]) {
+  const foodKeywords = ["food", "treats", "dry food", "wet food"];
+  const protectionKeywords = ["healthcare", "dewormer", "flea", "tick", "worm", "hygiene", "potty"];
+  const otherKeywords = ["accessories", "shampoo", "toys", "bowls", "beds", "grooming", "furniture", "collars", "leashes", "harnesses", "travel", "carriers", "feeder", "house"];
+
+  const foodTerms: T[] = [];
+  const protectionTerms: T[] = [];
+  const otherTerms: T[] = [];
+
+  terms.forEach(term => {
+    const nameLower = term.label.toLowerCase();
+    if (foodKeywords.some(kw => nameLower.includes(kw))) {
+      foodTerms.push(term);
+    } else if (protectionKeywords.some(kw => nameLower.includes(kw))) {
+      protectionTerms.push(term);
+    } else if (otherKeywords.some(kw => nameLower.includes(kw))) {
+      otherTerms.push(term);
+    } else {
+      otherTerms.push(term);
+    }
+  });
+
+  const result: Record<string, T[]> = {};
+  if (foodTerms.length > 0) result["Food"] = foodTerms;
+  if (protectionTerms.length > 0) result["Protection"] = protectionTerms;
+  if (otherTerms.length > 0) result["Other Accessories & Supplies"] = otherTerms;
+
+  return result;
+}
+
 const FILTERS = [
   { label: "All",       iconType: "all",    animal: "",    type: "" },
   { label: "Dogs",      iconType: "dog",    animal: "dog", type: "" },
@@ -449,45 +479,81 @@ export default function Shop() {
             <aside className="shop-sidebar">
               {animal === "cat" && (
                 <>
-                  <h3 className="sidebar-title">CATEGORIES</h3>
-                  <ul className="sidebar-brands-list" style={{ marginBottom: "2.5rem" }}>
-                    {CAT_CATEGORIES.map(c => {
-                      const normSlug = slug.toLowerCase().replace(/\/$/, "");
-                      const isActive = normSlug === c.slug;
-                      return (
-                        <li key={c.slug}>
-                          <Link 
-                            to={`/product-category/${c.slug}/`} 
-                            className={isActive ? "active-brand" : ""}
-                          >
-                            {c.label}
-                          </Link>
-                        </li>
-                      );
-                    })}
-                  </ul>
+                  <h3 className="sidebar-title" style={{ marginBottom: "1rem" }}>CATEGORIES</h3>
+                  {(() => {
+                    const grouped = categorizeFilterTerms(CAT_CATEGORIES);
+                    return Object.entries(grouped).map(([categoryName, terms]) => (
+                      <div key={categoryName} style={{ marginBottom: "1.5rem" }}>
+                        <h4 style={{ 
+                          fontSize: "0.85rem", 
+                          fontWeight: "bold", 
+                          textTransform: "uppercase", 
+                          color: "#1a5ca3", 
+                          margin: "0.5rem 0",
+                          borderBottom: "1px solid #eaeaea",
+                          paddingBottom: "4px"
+                        }}>
+                          {categoryName}
+                        </h4>
+                        <ul className="sidebar-brands-list" style={{ listStyle: "none", padding: 0, margin: 0 }}>
+                          {terms.map(c => {
+                            const normSlug = slug ? slug.toLowerCase().replace(/\/$/, "") : "";
+                            const isActive = normSlug === c.slug;
+                            return (
+                              <li key={c.slug} style={{ margin: "4px 0" }}>
+                                <Link 
+                                  to={`/product-category/${c.slug}/`} 
+                                  className={isActive ? "active-brand" : ""}
+                                >
+                                  {c.label}
+                                </Link>
+                              </li>
+                            );
+                          })}
+                        </ul>
+                      </div>
+                    ));
+                  })()}
                 </>
               )}
 
               {animal === "dog" && (
                 <>
-                  <h3 className="sidebar-title">CATEGORIES</h3>
-                  <ul className="sidebar-brands-list" style={{ marginBottom: "2.5rem" }}>
-                    {DOG_CATEGORIES.map(c => {
-                      const normSlug = slug.toLowerCase().replace(/\/$/, "");
-                      const isActive = normSlug === c.slug;
-                      return (
-                        <li key={c.slug}>
-                          <Link 
-                            to={`/product-category/${c.slug}/`} 
-                            className={isActive ? "active-brand" : ""}
-                          >
-                            {c.label}
-                          </Link>
-                        </li>
-                      );
-                    })}
-                  </ul>
+                  <h3 className="sidebar-title" style={{ marginBottom: "1rem" }}>CATEGORIES</h3>
+                  {(() => {
+                    const grouped = categorizeFilterTerms(DOG_CATEGORIES);
+                    return Object.entries(grouped).map(([categoryName, terms]) => (
+                      <div key={categoryName} style={{ marginBottom: "1.5rem" }}>
+                        <h4 style={{ 
+                          fontSize: "0.85rem", 
+                          fontWeight: "bold", 
+                          textTransform: "uppercase", 
+                          color: "#1a5ca3", 
+                          margin: "0.5rem 0",
+                          borderBottom: "1px solid #eaeaea",
+                          paddingBottom: "4px"
+                        }}>
+                          {categoryName}
+                        </h4>
+                        <ul className="sidebar-brands-list" style={{ listStyle: "none", padding: 0, margin: 0 }}>
+                          {terms.map(c => {
+                            const normSlug = slug ? slug.toLowerCase().replace(/\/$/, "") : "";
+                            const isActive = normSlug === c.slug;
+                            return (
+                              <li key={c.slug} style={{ margin: "4px 0" }}>
+                                <Link 
+                                  to={`/product-category/${c.slug}/`} 
+                                  className={isActive ? "active-brand" : ""}
+                                >
+                                  {c.label}
+                                </Link>
+                              </li>
+                            );
+                          })}
+                        </ul>
+                      </div>
+                    ));
+                  })()}
                 </>
               )}
 
