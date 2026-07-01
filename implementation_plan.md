@@ -34,44 +34,56 @@ The visual system is designed to look premium, modern, and highly interactive, i
 
 | Layer | Technology | Description |
 |---|---|---|
-| **Frontend Framework** | React Router v7 | Full-featured SSR and React framework rendering pages |
-| **Database** | PostgreSQL (Supabase) | Hosted production database containing products, posts, orders, users, and coupons |
-| **DB Client** | `@supabase/supabase-js` | Standard client wrapper used to interact with the Supabase project instance |
-| **State Management** | React State & Context | Custom React state handles client-side cart, search suggestions, and overlays |
-| **Sync Utility** | Custom TypeScript Runner | Scrapes/syncs categories, products, and blog posts from `https://petstore.co.ke` |
-| **Development Server** | Vite / React Router Dev | Running on standard port `5173` |
+| **Frontend & SSR** | React Router v7 (`v7.15.1`) | Serves as the full-stack web framework (evolution of Remix) with Server-Side Rendering and ESM compliance. |
+| **Styling & UI** | TailwindCSS v4.0 & Custom CSS | Styled with the `@tailwindcss/vite` plugin and native HSL variables. |
+| **Database Server** | PostgreSQL (Supabase) | Production relational database host with tables for products, prices, orders, order items, users, and coupons. |
+| **Database Client** | Native Client & SDK | Uses native client connection pools (`pg` driver) for SQL transactions, plus the `@supabase/supabase-js` client SDK. |
+| **Fallback Storage** | JSON File Cache (`/content`) | A local filesystem cache acting as a persistent offline database fallback. |
+| **Integrations** | WooCommerce API REST (`wc/v3`) | Connects dynamically to `https://petstore.co.ke` via authorization headers. |
+| **Sync Utility** | Custom Background Worker | `woocommerce.server.ts` performs non-blocking, automated data pulls and mapping. |
+| **State & Session** | Cookies & Context | React context API handles UI state; secure HTTP-only cookie sessions (`__vp_session`) handle admin access. |
+| **Containerization** | Docker | Binds port `3001` via a `Dockerfile` and `docker-compose.yml` configuration. |
+| **Build Engine** | Vite (`v8.0.3`) | Compiles bundles and provides Hot Module Replacement (HMR). |
 
 ---
 
 ## 4. Database Schema Alignment
 
-The system uses five main tables in the Supabase PostgreSQL database:
+The system synchronizes and maintains a relational database on Supabase containing seven core tables:
 
 ### `users`
-Represents the administrative and shop management team accounts.
-- Fields: `id`, `name`, `email`, `username`, `role` (`administrator`, `shop_manager`, etc.), `status` (`active`, `suspended`), `passwordHash`.
+Represents administrative, management, and authenticated client accounts.
+- Fields: `id` (Primary Key), `name`, `email`, `username`, `role` (`administrator`, `shop_manager`, `customer`), `ordersCount`, `status` (`active`, `suspended`), `passwordHash`, `createdAt`.
 
 ### `coupons`
-Stores promotional discount codes.
-- Fields: `code` (Primary Key, capitalized), `discountValue`, `discountType` (e.g. `fixed` or `percentage`), `active`, `createdAt`.
+Stores promotional codes and discount thresholds.
+- Fields: `code` (Primary Key, capitalized), `discountValue`, `discountType` (percentage or fixed, mapping metadata), `active`, `createdAt`.
 
 ### `orders`
-Stores customer transaction and billing records.
-- Fields: `id`, `date`, `paymentMethod`, `items` (JSONB array), `total`, `shipping`, `currency`, `billing` (JSONB object), `status` (`PENDING_PAYMENT`, `PROCESSING`, `COMPLETED`, `FAILED`, `CANCELLED`).
+Represents customer purchases, linked directly to transactional details.
+- Fields: `id` (Primary Key), `customer_name`, `customer_phone`, `customer_email`, `delivery_area`, `subtotal_kes`, `delivery_fee_kes`, `total_kes`, `payment_method`, `status` (`pending_payment`, `processing`, `completed`, `failed`, `cancelled`, `on_hold`, `refunded`, `trash`), `notes`, `created_at`.
+
+### `order_items`
+Indexes each item purchased in an order, maintaining foreign-key references to products.
+- Fields: `id` (Auto-increment PK), `order_id` (References `orders`), `product_id` (References `products`), `product_name`, `qty`, `unit_price`, `total_price`.
 
 ### `products`
-The product inventory catalog pulled from the live website.
-- Fields: `id` (Primary Key), `name`, `slug`, `sku`, `price`, `regularPrice`, `salePrice`, `onSale`, `inStock`, `thumbnail`, `categories`, `brands`, `tags`, `status`, `dateCreated`, `dateModified`, etc.
+The product inventory catalog synchronized from the WooCommerce store.
+- Fields: `id` (Primary Key), `name`, `brand`, `weight_kg`, `animal_type` (categorized as `dog`, `cat`, etc.), `food_type` (`dry`, `wet`, `treat`), `image_url`, `description`, `categories` (JSON), `slug`, `tags` (JSON), `sku`, `short_description`.
+
+### `store_prices`
+Tracks pricing benchmarks for PetStore Kenya and surrounding retail brands.
+- Fields: `id` (Auto-increment PK), `product_id` (References `products`), `store_name` (e.g., `PetStore Kenya`, `Naivas`, `Carrefour`, `Quickmart`), `price`, `product_url`, `in_stock`, `last_updated`.
 
 ### `posts`
-Blog articles and content pages.
-- Fields: `id` (Primary Key), `title`, `slug`, `date`, `content`, `excerpt`, `thumbnail` (mapped to `image` in client APIs), `status`, `author`.
+Blog articles and informational pages.
+- Fields: `id` (Primary Key), `title`, `slug`, `date`, `content`, `excerpt`, `thumbnail` (mapped to `image` in client-side APIs), `status`, `author`.
 
 > [!NOTE]
-> **Post Schema Alignment Mapping:** To resolve column mismatches where the database schema lacks `image`, `link`, and `tag` columns:
-> 1. Client query wrappers automatically map the database column `thumbnail` to the application property `image`.
-> 2. Write operations (`insert`, `update`, `upsert`) clean-filter and omit unsupported columns (`link`, `tag`) to prevent schema failures on Supabase.
-> 3. Read queries hydrate empty fields with fallback values (`link: ""` and `tag: "Pet Care"`) to maintain application compatibility.
+> **Data Resilience and Schema Translation:**
+> 1. To resolve mismatches with WordPress models, the client wrapper maps legacy API keys (e.g., `thumbnail` $\rightarrow$ `image`).
+> 2. Write operations filter out local transient properties (`link`, `tag`) to prevent syntax failures on remote databases.
+> 3. Read requests inject default configurations to preserve frontend compatibility when parameters are absent.
 
 ---
 
@@ -79,40 +91,48 @@ Blog articles and content pages.
 
 ```
 c:\_Workspace\Projects\PSK-DigitalEvolution\
-├── implementation_plan.md              ← This plan
-├── package.json                        ← Node dependencies (Supabase, React Router, etc.)
-├── content/                            ← Local file system cache & seed data fallback
-│   ├── users.json                      ← Local users database
-│   ├── coupons.json                    ← Local coupons database
-│   ├── orders.json                     ← Local orders database
-│   ├── products/                       ← Local product metadata details
-│   │   ├── _index.json                 ← Index catalog of all products
-│   │   └── *.json                      ← Individual product description files
+├── implementation_plan.md              ← System overview and architecture details
+├── package.json                        ← Node.js package manifests, dependencies, scripts
+├── Dockerfile                          ← Packaging script mapping container dependencies
+├── docker-compose.yml                  ← Orchestration script binding server ports
+├── vite.config.ts                      ← Vite bundler configuration including Tailwind integration
+├── content/                            ← Local filesystem cache database (offline fallbacks)
+│   ├── users.json                      ← Cached customer and administrator registry
+│   ├── coupons.json                    ← Cached promotional coupon settings
+│   ├── orders.json                     ← Cached customer billing entries
+│   ├── products/                       ← Cached product descriptions and catalog metadata
+│   │   ├── _index.json                 ← Unified product summaries list
+│   │   └── *.json                      ← Distinct details for each product
 │   └── posts/
-│       └── _index.json                 ← Local blog posts index
+│       └── _index.json                 ← Cached blog content index
 ├── app/
-│   ├── app.css                         ← Custom Cobalt/Emerald Design System styles
-│   ├── routes.ts                       ← Application route configuration
-│   ├── root.tsx                        ← Main layout, metadata configuration & scripts
+│   ├── app.css                         ← Style theme incorporating color definitions
+│   ├── routes.ts                       ← Route definitions and mapping logic
+│   ├── root.tsx                        ← Entry layout containing HTML anchors, headers, scripts
 │   ├── components/
-│   │   ├── Navbar.tsx                  ← Dynamic header, search autocomplete, category drop
-│   │   ├── Footer.tsx                  ← Branded customer footer
-│   │   └── VisualCodeEditor.tsx        ← Custom code editor interface component
+│   │   ├── Navbar.tsx                  ← Navigation bar with active query autocomplete
+│   │   ├── Footer.tsx                  ← Informative footer widget
+│   │   └── VisualCodeEditor.tsx        ← Custom code sandbox block editor
 │   ├── lib/
-│   │   ├── db.server.ts                ← Unified DB wrapper interfacing local JSON & Supabase
-│   │   ├── supabase.server.ts          ← Supabase client initialization & bidirection sync
-│   │   └── content.server.ts           ← Local asset manager, history events logs utilities
+│   │   ├── db.server.ts                ← Database controller mediating JSON files & PostgreSQL
+│   │   ├── supabase.server.ts          ← Supabase clients and sync connectors
+│   │   ├── woocommerce.server.ts       ← WooCommerce REST clients and background task manager
+│   │   ├── sessions.server.ts          ← Secure cookie storage and session validation check
+│   │   ├── content.server.ts           ← History events log parsing and file utilities
+│   │   ├── media.server.ts             ← Asset manager for dynamic attachments
+│   │   ├── types.ts                    ← Common TypeScript type bindings
+│   │   └── utils.ts                    ← Miscellaneous client-side support utilities
 │   └── routes/
-│       ├── home.tsx                    ← Front-facing store landing page
-│       ├── shop.tsx                    ← Catalog layout, filter lists, and sorting controls
-│       ├── shop.$id.tsx                ← Detailed product layout and WhatsApp order link
-│       ├── my-account.tsx              ← Customer login, registration & portal dashboard
-│       ├── cart.tsx                    ← Shopping cart review layout
-│       ├── checkout.tsx                ← Checkout processing & billing form
-│       └── store_backend.tsx           ← Premium admin layout & auth gateway
-│       └── store_backend.*.tsx         ← Individual back-office routes (Dashboard, Products, Users, etc.)
+│       ├── home.tsx                    ← Store landing layout
+│       ├── shop.tsx                    ← Catalog layout, category directories, sorting controls
+│       ├── product.$slug.tsx           ← Dynamic SEO details layout with WhatsApp ordering links
+│       ├── my-account.tsx              ← Customer portals and entry gateways
+│       ├── cart.tsx                    ← Shopping checkout basket reviews
+│       ├── checkout.tsx                ← Order dispatch forms
+│       ├── store_backend.tsx           ← Secured administrator layout panel
+│       └── store_backend.*.tsx         ← Back-office routes (analytics, settings, products, coupons)
 └── scratch/
-    ├── sync-petstore-to-supabase.ts    ← Downloads WP assets from petstore.co.ke & seeds Supabase
+    ├── sync-petstore-to-supabase.ts    ← Legacy sync script
     └── validate-sync.ts                ← Verifies Supabase row counts and connection integrity
 ```
 
@@ -141,7 +161,8 @@ c:\_Workspace\Projects\PSK-DigitalEvolution\
 ## 7. Migration & Sync Status
 
 The database synchronization is fully operational and verified:
-- **Products:** 919 products migrated from the live site.
-- **Blog Posts:** 27 posts synced, with inline mapping for image fields.
-- **Coupons:** Pre-configured with active codes (`WELCOME500`, `PET8`).
-- **Users:** Administrative provisioning is enabled and fully active.
+- **Products:** 919 products migrated and synchronized, categorized into animal species (dog, cat, rabbit, bird, fish) and diet types (wet, dry, treat) automatically during import.
+- **Competitor Prices:** Competitor price simulation logs created for major local retail outlets (Naivas, Carrefour, Quickmart) to enable benchmarking.
+- **Blog Posts:** 27 blog posts synchronized with correct tag, author, and description mappings.
+- **Coupons:** Pre-configured with live active codes (`WELCOME500`, `PET8`) and syncing mechanism to keep local caching aligned.
+- **Users:** Administrative provisioning and role-based session cookie gates (`__vp_session`) are fully operational.
