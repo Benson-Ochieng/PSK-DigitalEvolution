@@ -510,7 +510,7 @@ export default function CheckoutPage() {
   const [contactPersonPhone, setContactPersonPhone] = useState("");
   const [deliveryInstructions, setDeliveryInstructions] = useState("");
   const [orderNotes, setOrderNotes] = useState("");
-  
+
   // UI toggles and selections
   const [showAdditionalInfo, setShowAdditionalInfo] = useState(false);
   const [couponCode, setCouponCode] = useState("");
@@ -752,7 +752,7 @@ export default function CheckoutPage() {
   // Submit/Complete via WhatsApp
   const handleWhatsAppCheckout = () => {
     if (items.length === 0) return;
-    
+
     if (!firstName.trim() || !lastName.trim()) {
       setErrorMessage("Please enter first and last name.");
       return;
@@ -813,16 +813,12 @@ export default function CheckoutPage() {
   return (
     <>
       <Navbar />
-      
+
       <div className="page" style={{ paddingTop: "2.5rem", paddingBottom: "4rem" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 1.5rem" }}>
-          
+
           {/* Header Banner */}
           <PageHeader title="Checkout" />
-
-          <div style={{ marginBottom: "1.5rem" }}>
-            <span style={{ fontSize: "0.85rem", color: "#3b82f6", cursor: "pointer" }}>Edit This</span>
-          </div>
 
           {/* Returning Customer Alert Banner */}
           {!customerEmail && (
@@ -967,709 +963,709 @@ export default function CheckoutPage() {
               })()}
 
               <form onSubmit={handlePlaceOrder} style={{ display: "grid", gridTemplateColumns: "1fr 450px", gap: "3.5rem", alignItems: "start" }}>
-              
-              {/* Left Column: Delivery Address Form */}
-              <div style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
-                
-                <div>
+
+                {/* Left Column: Delivery Address Form */}
+                <div style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
+
+                  <div>
+                    <h3 style={{
+                      fontFamily: '"Patrick Hand", cursive',
+                      fontSize: "1.6rem",
+                      color: "#1a5ca3",
+                      textAlign: "center",
+                      margin: "0 0 1.5rem 0",
+                      fontWeight: "bold",
+                      borderBottom: "2px solid #eaeaea",
+                      paddingBottom: "0.5rem"
+                    }}>
+                      DELIVERY ADDRESS
+                    </h3>
+
+                    <div style={{ display: "flex", flexDirection: "column", gap: "1.2rem" }}>
+
+                      {/* First & Last name rows */}
+                      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1.5rem" }}>
+                        <div>
+                          <label style={labelStyle}>
+                            First name <span style={{ color: "#ef4444" }}>*</span>
+                          </label>
+                          <input
+                            type="text"
+                            required
+                            value={firstName}
+                            onChange={e => setFirstName(e.target.value)}
+                            style={inputStyle}
+                          />
+                        </div>
+                        <div>
+                          <label style={labelStyle}>
+                            Last name <span style={{ color: "#ef4444" }}>*</span>
+                          </label>
+                          <input
+                            type="text"
+                            required
+                            value={lastName}
+                            onChange={e => setLastName(e.target.value)}
+                            style={inputStyle}
+                          />
+                        </div>
+                      </div>
+
+                      {/* Static Country */}
+                      <div>
+                        <label style={labelStyle}>
+                          Country <span style={{ color: "#ef4444" }}>*</span>
+                        </label>
+                        <div style={{ fontSize: "1.05rem", fontWeight: "bold", color: "#333", padding: "0.2rem 0" }}>
+                          Kenya
+                        </div>
+                      </div>
+
+                      {/* City / County selection */}
+                      <div>
+                        <label style={labelStyle}>
+                          City/County <span style={{ color: "#ef4444" }}>*</span>
+                        </label>
+                        <select
+                          required
+                          value={selectedCity}
+                          onChange={e => {
+                            setSelectedCity(e.target.value);
+                            setSelectedZone("Select your Neighbourhood");
+                          }}
+                          style={inputStyle}
+                        >
+                          <option value="Select a City">Select a City</option>
+                          {CITIES.map(city => (
+                            <option key={city} value={city}>{city}</option>
+                          ))}
+                        </select>
+                      </div>
+
+                      {/* Neighbourhood selection */}
+                      <div>
+                        <label style={labelStyle}>
+                          Neighbourhood <span style={{ color: "#ef4444" }}>*</span>
+                        </label>
+                        <select
+                          required
+                          value={selectedZone}
+                          onChange={e => setSelectedZone(e.target.value)}
+                          style={inputStyle}
+                        >
+                          {selectedCity && SHIPPING_ZONES[selectedCity] ? (
+                            Object.keys(SHIPPING_ZONES[selectedCity]).map(zone => {
+                              const fee = SHIPPING_ZONES[selectedCity][zone];
+                              return (
+                                <option key={zone} value={zone}>
+                                  {zone === "Select your Neighbourhood"
+                                    ? zone
+                                    : `${zone} (Fee: ${fee} KSh)`}
+                                </option>
+                              );
+                            })
+                          ) : (
+                            <option value="Select your Neighbourhood">Select your Neighbourhood</option>
+                          )}
+                        </select>
+                      </div>
+
+                      {/* Free shipping product message */}
+                      {hasFreeShippingProduct && (
+                        <div style={{
+                          padding: "0.85rem 1rem",
+                          background: "#e6f4ea",
+                          color: "#137333",
+                          border: "1px solid #c2e7cc",
+                          borderRadius: "4px",
+                          fontSize: "0.9rem",
+                          fontWeight: 500,
+                          marginTop: "0.5rem"
+                        }}>
+                          Free shipping is available for this order.
+                        </div>
+                      )}
+
+                      {/* Nairobi Express vs Standard Delivery Option Selector */}
+                      {!hasFreeShippingProduct && selectedCity === "Nairobi" && EXPRESS_NEIGHBOURHOODS.includes(selectedZone) && (
+                        <div style={{
+                          padding: "1rem",
+                          border: "1px solid #bbd2e8",
+                          borderRadius: "4px",
+                          background: "#f7fafd",
+                          marginTop: "0.5rem"
+                        }}>
+                          <label style={{ ...labelStyle, fontWeight: "bold" }}>
+                            Delivery Option
+                          </label>
+                          {isExpressTimeAvailable ? (
+                            <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem", marginTop: "0.5rem" }}>
+                              <label style={{ display: "flex", alignItems: "center", cursor: "pointer", fontSize: "0.95rem" }}>
+                                <input
+                                  type="radio"
+                                  name="radio_delivery"
+                                  value="standard"
+                                  checked={shippingMethod === "standard"}
+                                  onChange={() => setShippingMethod("standard")}
+                                  style={{ marginRight: "8px" }}
+                                />
+                                Standard Shipping
+                              </label>
+                              <label style={{ display: "flex", alignItems: "center", cursor: "pointer", fontSize: "0.95rem" }}>
+                                <input
+                                  type="radio"
+                                  name="radio_delivery"
+                                  value="express"
+                                  checked={shippingMethod === "express"}
+                                  onChange={() => setShippingMethod("express")}
+                                  style={{ marginRight: "8px" }}
+                                />
+                                Express Shipping (3hr) 8am - 3pm
+                              </label>
+                            </div>
+                          ) : (
+                            <p style={{ margin: "0.5rem 0 0 0", fontSize: "0.85rem", color: "#666", lineHeight: 1.4 }}>
+                              Express shipping is only available between 8AM - 3PM, and on Saturdays until 11AM, excluding Sundays, and Public Holidays. Turnaround time is 2 hours.
+                            </p>
+                          )}
+                        </div>
+                      )}
+
+                      {/* Street Address */}
+                      <div>
+                        <label style={labelStyle}>
+                          Street Address <span style={{ color: "#ef4444" }}>**</span>
+                        </label>
+                        <input
+                          type="text"
+                          required
+                          placeholder="House number, & street name"
+                          value={streetAddress}
+                          onChange={e => setStreetAddress(e.target.value)}
+                          style={inputStyle}
+                        />
+                      </div>
+
+                      {/* Apartment details */}
+                      <div>
+                        <label style={{ ...labelStyle, fontWeight: "normal" }}>
+                          Apartment, suite, unit etc. <span style={{ color: "#888", fontSize: "0.8rem" }}>(optional)</span>
+                        </label>
+                        <input
+                          type="text"
+                          placeholder="Apartment, suite, unit etc."
+                          value={apartmentInfo}
+                          onChange={e => setApartmentInfo(e.target.value)}
+                          style={inputStyle}
+                        />
+                      </div>
+
+                      {/* Email and Phone side by side */}
+                      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1.5rem" }}>
+                        <div>
+                          <label style={labelStyle}>
+                            Email <span style={{ color: "#ef4444" }}>*</span>
+                          </label>
+                          <input
+                            type="email"
+                            required
+                            placeholder="me@mail.com"
+                            value={recipientEmail}
+                            onChange={e => setRecipientEmail(e.target.value)}
+                            style={inputStyle}
+                          />
+                        </div>
+                        <div>
+                          <label style={labelStyle}>
+                            Phone <span style={{ color: "#ef4444" }}>*</span>
+                          </label>
+                          <input
+                            type="tel"
+                            required
+                            placeholder="+254 000 000 000"
+                            value={recipientPhone}
+                            onChange={e => setRecipientPhone(e.target.value)}
+                            style={inputStyle}
+                          />
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  {/* Additional Delivery Information Accordion */}
+                  <div style={{
+                    border: "1px solid #dcdcdc",
+                    borderRadius: "8px",
+                    background: "#ffffff",
+                    overflow: "hidden"
+                  }}>
+                    {/* Accordion Header */}
+                    <div
+                      onClick={() => setShowAdditionalInfo(!showAdditionalInfo)}
+                      style={{
+                        padding: "1rem 1.5rem",
+                        background: "#fdfdfd",
+                        cursor: "pointer",
+                        display: "flex",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                        borderBottom: showAdditionalInfo ? "1px solid #eaeaea" : "none",
+                        userSelect: "none"
+                      }}
+                    >
+                      <span style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontWeight: "bold", color: "#1a5ca3" }}>
+                        📋 ADDITIONAL DELIVERY INFORMATION (OPTIONAL)
+                      </span>
+                      <span style={{ color: "#1a5ca3" }}>{showAdditionalInfo ? "▲" : "▼"}</span>
+                    </div>
+
+                    {/* Accordion Body */}
+                    {showAdditionalInfo && (
+                      <div style={{ padding: "1.5rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
+                        <div>
+                          <label style={{ display: "block", fontSize: "0.85rem", color: "#666", marginBottom: "0.4rem" }}>
+                            Additional Address Information <span style={{ fontSize: "0.8rem", color: "#999" }}>(optional)</span>
+                          </label>
+                          <input
+                            type="text"
+                            placeholder="Building name, floor, apartment number, etc."
+                            value={additionalAddress}
+                            onChange={e => setAdditionalAddress(e.target.value)}
+                            style={inputStyle}
+                          />
+                        </div>
+
+                        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem" }}>
+                          <div>
+                            <label style={{ display: "block", fontSize: "0.85rem", color: "#666", marginBottom: "0.4rem" }}>
+                              Recipient Contact <span style={{ fontSize: "0.8rem", color: "#999" }}>(optional)</span>
+                            </label>
+                            <input
+                              type="text"
+                              placeholder="Name of the person receiving"
+                              value={contactPerson}
+                              onChange={e => setContactPerson(e.target.value)}
+                              style={inputStyle}
+                            />
+                          </div>
+                          <div>
+                            <label style={{ display: "block", fontSize: "0.85rem", color: "#666", marginBottom: "0.4rem" }}>
+                              Recipient Phone <span style={{ fontSize: "0.8rem", color: "#999" }}>(optional)</span>
+                            </label>
+                            <input
+                              type="tel"
+                              placeholder="Phone number of the recipient"
+                              value={contactPersonPhone}
+                              onChange={e => setContactPersonPhone(e.target.value)}
+                              style={inputStyle}
+                            />
+                          </div>
+                        </div>
+
+                        <div>
+                          <label style={{ display: "block", fontSize: "0.85rem", color: "#666", marginBottom: "0.4rem" }}>
+                            Delivery Instructions <span style={{ fontSize: "0.8rem", color: "#999" }}>(optional)</span>
+                          </label>
+                          <textarea
+                            placeholder="Special delivery instructions, gate codes, etc."
+                            rows={3}
+                            value={deliveryInstructions}
+                            onChange={e => setDeliveryInstructions(e.target.value)}
+                            style={{
+                              ...inputStyle,
+                              resize: "vertical"
+                            }}
+                          />
+                        </div>
+                      </div>
+                    )}
+                  </div>
+
+                  {/* General Order Notes */}
+                  <div>
+                    <label style={{ display: "block", fontSize: "0.85rem", color: "#333", fontWeight: "bold", marginBottom: "0.5rem" }}>
+                      Order notes (optional)
+                    </label>
+                    <textarea
+                      placeholder="Notes about your order, e.g. special notes for delivery."
+                      rows={4}
+                      value={orderNotes}
+                      onChange={e => setOrderNotes(e.target.value)}
+                      style={{
+                        ...inputStyle,
+                        resize: "vertical"
+                      }}
+                    />
+                  </div>
+
+                </div>
+
+                {/* Right Column: Order Summary & Checkout CTA */}
+                <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }}>
+
                   <h3 style={{
                     fontFamily: '"Patrick Hand", cursive',
                     fontSize: "1.6rem",
                     color: "#1a5ca3",
                     textAlign: "center",
-                    margin: "0 0 1.5rem 0",
+                    margin: 0,
                     fontWeight: "bold",
                     borderBottom: "2px solid #eaeaea",
                     paddingBottom: "0.5rem"
                   }}>
-                    DELIVERY ADDRESS
+                    YOUR ORDERS
                   </h3>
 
-                  <div style={{ display: "flex", flexDirection: "column", gap: "1.2rem" }}>
-                    
-                    {/* First & Last name rows */}
-                    <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1.5rem" }}>
-                      <div>
-                        <label style={labelStyle}>
-                          First name <span style={{ color: "#ef4444" }}>*</span>
-                        </label>
-                        <input 
-                          type="text" 
-                          required 
-                          value={firstName}
-                          onChange={e => setFirstName(e.target.value)}
-                          style={inputStyle}
-                        />
-                      </div>
-                      <div>
-                        <label style={labelStyle}>
-                          Last name <span style={{ color: "#ef4444" }}>*</span>
-                        </label>
-                        <input 
-                          type="text" 
-                          required 
-                          value={lastName}
-                          onChange={e => setLastName(e.target.value)}
-                          style={inputStyle}
-                        />
-                      </div>
-                    </div>
-
-                    {/* Static Country */}
-                    <div>
-                      <label style={labelStyle}>
-                        Country <span style={{ color: "#ef4444" }}>*</span>
-                      </label>
-                      <div style={{ fontSize: "1.05rem", fontWeight: "bold", color: "#333", padding: "0.2rem 0" }}>
-                        Kenya
-                      </div>
-                    </div>
-
-                    {/* City / County selection */}
-                    <div>
-                      <label style={labelStyle}>
-                        City/County <span style={{ color: "#ef4444" }}>*</span>
-                      </label>
-                      <select 
-                        required
-                        value={selectedCity}
-                        onChange={e => {
-                          setSelectedCity(e.target.value);
-                          setSelectedZone("Select your Neighbourhood");
-                        }}
-                        style={inputStyle}
-                      >
-                        <option value="Select a City">Select a City</option>
-                        {CITIES.map(city => (
-                          <option key={city} value={city}>{city}</option>
-                        ))}
-                      </select>
-                    </div>
-
-                    {/* Neighbourhood selection */}
-                    <div>
-                      <label style={labelStyle}>
-                        Neighbourhood <span style={{ color: "#ef4444" }}>*</span>
-                      </label>
-                      <select 
-                        required
-                        value={selectedZone}
-                        onChange={e => setSelectedZone(e.target.value)}
-                        style={inputStyle}
-                      >
-                        {selectedCity && SHIPPING_ZONES[selectedCity] ? (
-                          Object.keys(SHIPPING_ZONES[selectedCity]).map(zone => {
-                            const fee = SHIPPING_ZONES[selectedCity][zone];
-                            return (
-                              <option key={zone} value={zone}>
-                                {zone === "Select your Neighbourhood" 
-                                  ? zone 
-                                  : `${zone} (Fee: ${fee} KSh)`}
-                              </option>
-                            );
-                          })
-                        ) : (
-                          <option value="Select your Neighbourhood">Select your Neighbourhood</option>
-                        )}
-                      </select>
-                    </div>
-
-                    {/* Free shipping product message */}
-                    {hasFreeShippingProduct && (
-                      <div style={{
-                        padding: "0.85rem 1rem",
-                        background: "#e6f4ea",
-                        color: "#137333",
-                        border: "1px solid #c2e7cc",
-                        borderRadius: "4px",
-                        fontSize: "0.9rem",
-                        fontWeight: 500,
-                        marginTop: "0.5rem"
-                      }}>
-                        Free shipping is available for this order.
-                      </div>
-                    )}
-
-                    {/* Nairobi Express vs Standard Delivery Option Selector */}
-                    {!hasFreeShippingProduct && selectedCity === "Nairobi" && EXPRESS_NEIGHBOURHOODS.includes(selectedZone) && (
-                      <div style={{
-                        padding: "1rem",
-                        border: "1px solid #bbd2e8",
-                        borderRadius: "4px",
-                        background: "#f7fafd",
-                        marginTop: "0.5rem"
-                      }}>
-                        <label style={{ ...labelStyle, fontWeight: "bold" }}>
-                          Delivery Option
-                        </label>
-                        {isExpressTimeAvailable ? (
-                          <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem", marginTop: "0.5rem" }}>
-                            <label style={{ display: "flex", alignItems: "center", cursor: "pointer", fontSize: "0.95rem" }}>
-                              <input 
-                                type="radio" 
-                                name="radio_delivery" 
-                                value="standard" 
-                                checked={shippingMethod === "standard"} 
-                                onChange={() => setShippingMethod("standard")}
-                                style={{ marginRight: "8px" }} 
-                              />
-                              Standard Shipping
-                            </label>
-                            <label style={{ display: "flex", alignItems: "center", cursor: "pointer", fontSize: "0.95rem" }}>
-                              <input 
-                                type="radio" 
-                                name="radio_delivery" 
-                                value="express" 
-                                checked={shippingMethod === "express"} 
-                                onChange={() => setShippingMethod("express")}
-                                style={{ marginRight: "8px" }} 
-                              />
-                              Express Shipping (3hr) 8am - 3pm
-                            </label>
-                          </div>
-                        ) : (
-                          <p style={{ margin: "0.5rem 0 0 0", fontSize: "0.85rem", color: "#666", lineHeight: 1.4 }}>
-                            Express shipping is only available between 8AM - 3PM, and on Saturdays until 11AM, excluding Sundays, and Public Holidays. Turnaround time is 2 hours.
-                          </p>
-                        )}
-                      </div>
-                    )}
-
-                    {/* Street Address */}
-                    <div>
-                      <label style={labelStyle}>
-                        Street Address <span style={{ color: "#ef4444" }}>**</span>
-                      </label>
-                      <input 
-                        type="text" 
-                        required
-                        placeholder="House number, & street name"
-                        value={streetAddress}
-                        onChange={e => setStreetAddress(e.target.value)}
-                        style={inputStyle}
-                      />
-                    </div>
-
-                    {/* Apartment details */}
-                    <div>
-                      <label style={{ ...labelStyle, fontWeight: "normal" }}>
-                        Apartment, suite, unit etc. <span style={{ color: "#888", fontSize: "0.8rem" }}>(optional)</span>
-                      </label>
-                      <input 
-                        type="text" 
-                        placeholder="Apartment, suite, unit etc."
-                        value={apartmentInfo}
-                        onChange={e => setApartmentInfo(e.target.value)}
-                        style={inputStyle}
-                      />
-                    </div>
-
-                    {/* Email and Phone side by side */}
-                    <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1.5rem" }}>
-                      <div>
-                        <label style={labelStyle}>
-                          Email <span style={{ color: "#ef4444" }}>*</span>
-                        </label>
-                        <input 
-                          type="email" 
-                          required
-                          placeholder="me@mail.com"
-                          value={recipientEmail}
-                          onChange={e => setRecipientEmail(e.target.value)}
-                          style={inputStyle}
-                        />
-                      </div>
-                      <div>
-                        <label style={labelStyle}>
-                          Phone <span style={{ color: "#ef4444" }}>*</span>
-                        </label>
-                        <input 
-                          type="tel" 
-                          required
-                          placeholder="+254 000 000 000"
-                          value={recipientPhone}
-                          onChange={e => setRecipientPhone(e.target.value)}
-                          style={inputStyle}
-                        />
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-
-                {/* Additional Delivery Information Accordion */}
-                <div style={{
-                  border: "1px solid #dcdcdc",
-                  borderRadius: "8px",
-                  background: "#ffffff",
-                  overflow: "hidden"
-                }}>
-                  {/* Accordion Header */}
-                  <div 
-                    onClick={() => setShowAdditionalInfo(!showAdditionalInfo)}
-                    style={{
-                      padding: "1rem 1.5rem",
-                      background: "#fdfdfd",
-                      cursor: "pointer",
-                      display: "flex",
-                      justifyContent: "space-between",
-                      alignItems: "center",
-                      borderBottom: showAdditionalInfo ? "1px solid #eaeaea" : "none",
-                      userSelect: "none"
-                    }}
-                  >
-                    <span style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontWeight: "bold", color: "#1a5ca3" }}>
-                      📋 ADDITIONAL DELIVERY INFORMATION (OPTIONAL)
-                    </span>
-                    <span style={{ color: "#1a5ca3" }}>{showAdditionalInfo ? "▲" : "▼"}</span>
-                  </div>
-
-                  {/* Accordion Body */}
-                  {showAdditionalInfo && (
-                    <div style={{ padding: "1.5rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
-                      <div>
-                        <label style={{ display: "block", fontSize: "0.85rem", color: "#666", marginBottom: "0.4rem" }}>
-                          Additional Address Information <span style={{ fontSize: "0.8rem", color: "#999" }}>(optional)</span>
-                        </label>
-                        <input 
-                          type="text" 
-                          placeholder="Building name, floor, apartment number, etc."
-                          value={additionalAddress}
-                          onChange={e => setAdditionalAddress(e.target.value)}
-                          style={inputStyle}
-                        />
-                      </div>
-
-                      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem" }}>
-                        <div>
-                          <label style={{ display: "block", fontSize: "0.85rem", color: "#666", marginBottom: "0.4rem" }}>
-                            Recipient Contact <span style={{ fontSize: "0.8rem", color: "#999" }}>(optional)</span>
-                          </label>
-                          <input 
-                            type="text" 
-                            placeholder="Name of the person receiving"
-                            value={contactPerson}
-                            onChange={e => setContactPerson(e.target.value)}
-                            style={inputStyle}
-                          />
-                        </div>
-                        <div>
-                          <label style={{ display: "block", fontSize: "0.85rem", color: "#666", marginBottom: "0.4rem" }}>
-                            Recipient Phone <span style={{ fontSize: "0.8rem", color: "#999" }}>(optional)</span>
-                          </label>
-                          <input 
-                            type="tel" 
-                            placeholder="Phone number of the recipient"
-                            value={contactPersonPhone}
-                            onChange={e => setContactPersonPhone(e.target.value)}
-                            style={inputStyle}
-                          />
-                        </div>
-                      </div>
-
-                      <div>
-                        <label style={{ display: "block", fontSize: "0.85rem", color: "#666", marginBottom: "0.4rem" }}>
-                          Delivery Instructions <span style={{ fontSize: "0.8rem", color: "#999" }}>(optional)</span>
-                        </label>
-                        <textarea 
-                          placeholder="Special delivery instructions, gate codes, etc."
-                          rows={3}
-                          value={deliveryInstructions}
-                          onChange={e => setDeliveryInstructions(e.target.value)}
-                          style={{
-                            ...inputStyle,
-                            resize: "vertical"
-                          }}
-                        />
-                      </div>
-                    </div>
-                  )}
-                </div>
-
-                {/* General Order Notes */}
-                <div>
-                  <label style={{ display: "block", fontSize: "0.85rem", color: "#333", fontWeight: "bold", marginBottom: "0.5rem" }}>
-                    Order notes (optional)
-                  </label>
-                  <textarea 
-                    placeholder="Notes about your order, e.g. special notes for delivery."
-                    rows={4}
-                    value={orderNotes}
-                    onChange={e => setOrderNotes(e.target.value)}
-                    style={{
-                      ...inputStyle,
-                      resize: "vertical"
-                    }}
-                  />
-                </div>
-
-              </div>
-
-              {/* Right Column: Order Summary & Checkout CTA */}
-              <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }}>
-                
-                <h3 style={{
-                  fontFamily: '"Patrick Hand", cursive',
-                  fontSize: "1.6rem",
-                  color: "#1a5ca3",
-                  textAlign: "center",
-                  margin: 0,
-                  fontWeight: "bold",
-                  borderBottom: "2px solid #eaeaea",
-                  paddingBottom: "0.5rem"
-                }}>
-                  YOUR ORDERS
-                </h3>
-
-                {/* Order Summary Box */}
-                <div style={{
-                  border: "1px solid #1a5ca3",
-                  borderRadius: "4px",
-                  overflow: "hidden",
-                  background: "#ffffff"
-                }}>
-                  {/* Header Row */}
+                  {/* Order Summary Box */}
                   <div style={{
-                    background: "#1a5ca3",
-                    color: "#ffffff",
-                    padding: "0.75rem 1rem",
-                    display: "flex",
-                    justifyContent: "space-between",
-                    fontWeight: "bold",
-                    fontSize: "0.95rem"
-                  }}>
-                    <span>Order Summary Total</span>
-                    <span>{totalAmount.toLocaleString()}KSh</span>
-                  </div>
-
-                  {/* Products label */}
-                  <div style={{
-                    background: "#f4f8fa",
-                    padding: "0.5rem 1rem",
-                    fontWeight: "bold",
-                    fontSize: "0.85rem",
-                    color: "#333"
-                  }}>
-                    Product
-                  </div>
-
-                  {/* List of items */}
-                  <div style={{ borderBottom: "1px solid #eaeaea" }}>
-                    {items.map(item => (
-                      <div key={item.id} style={{
-                        display: "flex",
-                        justifyContent: "space-between",
-                        padding: "0.65rem 1rem",
-                        fontSize: "0.85rem",
-                        borderBottom: "1px solid #f9f9f9"
-                      }}>
-                        <span style={{ color: "#515151" }}>{item.name} <strong>× {item.quantity}</strong></span>
-                        <span style={{ color: "#333", fontWeight: 500 }}>{(item.price * item.quantity).toLocaleString()}KSh</span>
-                      </div>
-                    ))}
-                  </div>
-
-                  {/* Subtotal Row */}
-                  <div style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    padding: "0.75rem 1rem",
-                    fontWeight: "bold",
-                    fontSize: "0.9rem",
-                    borderBottom: "1px solid #eaeaea"
-                  }}>
-                    <span>Subtotal</span>
-                    <span>{subtotal.toLocaleString()}KSh</span>
-                  </div>
-
-                  {/* Coupon Box */}
-                  <div style={{
-                    padding: "0.75rem 1rem",
-                    borderBottom: "1px solid #eaeaea",
+                    border: "1px solid #1a5ca3",
+                    borderRadius: "4px",
+                    overflow: "hidden",
                     background: "#ffffff"
                   }}>
-                    <div style={{ display: "flex", gap: "0.5rem" }}>
-                      <input 
-                        type="text" 
-                        placeholder="Enter Coupon code"
-                        value={couponCode}
-                        onChange={e => setCouponCode(e.target.value)}
-                        style={{
-                          flex: 1,
-                          padding: "0.4rem 0.75rem",
-                          border: "1px solid #c2c2c2",
-                          borderRadius: "4px",
-                          outline: "none",
-                          fontSize: "0.85rem"
-                        }}
-                      />
-                      <button 
-                        type="button"
-                        onClick={handleApplyCoupon}
-                        style={{
-                          background: "#1053a0",
-                          color: "#ffffff",
-                          border: "none",
-                          borderRadius: "20px",
-                          padding: "0.4rem 1.2rem",
-                          fontSize: "0.8rem",
-                          fontWeight: "bold",
-                          cursor: "pointer",
-                          whiteSpace: "nowrap"
-                        }}
-                      >
-                        Apply coupon
-                      </button>
-                    </div>
-                    {couponMessage && (
-                      <div style={{ fontSize: "0.8rem", color: appliedDiscount > 0 ? "green" : "red", marginTop: "0.4rem" }}>
-                        {couponMessage}
-                      </div>
-                    )}
-                  </div>
-
-                  {/* Delivery Fee Notice Row */}
-                  <div style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    padding: "0.75rem 1rem",
-                    borderBottom: "1px solid #eaeaea",
-                    fontSize: "0.8rem",
-                    color: "#515151",
-                    alignItems: "center"
-                  }}>
-                    <span style={{ 
-                      maxWidth: "80%", 
-                      lineHeight: 1.3,
-                      fontWeight: !isNeighbourhoodProvided ? "bold" : "normal",
-                      color: !isNeighbourhoodProvided ? "#000000" : "#515151"
+                    {/* Header Row */}
+                    <div style={{
+                      background: "#1a5ca3",
+                      color: "#ffffff",
+                      padding: "0.75rem 1rem",
+                      display: "flex",
+                      justifyContent: "space-between",
+                      fontWeight: "bold",
+                      fontSize: "0.95rem"
                     }}>
-                      {deliveryFeeLabel}
-                    </span>
-                    <span style={{ fontWeight: "bold" }}>
-                      {isNeighbourhoodProvided ? `${deliveryFee.toLocaleString()}KSh` : "0KSh"}
-                    </span>
-                  </div>
+                      <span>Order Summary Total</span>
+                      <span>{totalAmount.toLocaleString()}KSh</span>
+                    </div>
 
-                  {/* Applied Discount Row */}
-                  {appliedDiscount > 0 && (
+                    {/* Products label */}
+                    <div style={{
+                      background: "#f4f8fa",
+                      padding: "0.5rem 1rem",
+                      fontWeight: "bold",
+                      fontSize: "0.85rem",
+                      color: "#333"
+                    }}>
+                      Product
+                    </div>
+
+                    {/* List of items */}
+                    <div style={{ borderBottom: "1px solid #eaeaea" }}>
+                      {items.map(item => (
+                        <div key={item.id} style={{
+                          display: "flex",
+                          justifyContent: "space-between",
+                          padding: "0.65rem 1rem",
+                          fontSize: "0.85rem",
+                          borderBottom: "1px solid #f9f9f9"
+                        }}>
+                          <span style={{ color: "#515151" }}>{item.name} <strong>× {item.quantity}</strong></span>
+                          <span style={{ color: "#333", fontWeight: 500 }}>{(item.price * item.quantity).toLocaleString()}KSh</span>
+                        </div>
+                      ))}
+                    </div>
+
+                    {/* Subtotal Row */}
+                    <div style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      padding: "0.75rem 1rem",
+                      fontWeight: "bold",
+                      fontSize: "0.9rem",
+                      borderBottom: "1px solid #eaeaea"
+                    }}>
+                      <span>Subtotal</span>
+                      <span>{subtotal.toLocaleString()}KSh</span>
+                    </div>
+
+                    {/* Coupon Box */}
+                    <div style={{
+                      padding: "0.75rem 1rem",
+                      borderBottom: "1px solid #eaeaea",
+                      background: "#ffffff"
+                    }}>
+                      <div style={{ display: "flex", gap: "0.5rem" }}>
+                        <input
+                          type="text"
+                          placeholder="Enter Coupon code"
+                          value={couponCode}
+                          onChange={e => setCouponCode(e.target.value)}
+                          style={{
+                            flex: 1,
+                            padding: "0.4rem 0.75rem",
+                            border: "1px solid #c2c2c2",
+                            borderRadius: "4px",
+                            outline: "none",
+                            fontSize: "0.85rem"
+                          }}
+                        />
+                        <button
+                          type="button"
+                          onClick={handleApplyCoupon}
+                          style={{
+                            background: "#1053a0",
+                            color: "#ffffff",
+                            border: "none",
+                            borderRadius: "20px",
+                            padding: "0.4rem 1.2rem",
+                            fontSize: "0.8rem",
+                            fontWeight: "bold",
+                            cursor: "pointer",
+                            whiteSpace: "nowrap"
+                          }}
+                        >
+                          Apply coupon
+                        </button>
+                      </div>
+                      {couponMessage && (
+                        <div style={{ fontSize: "0.8rem", color: appliedDiscount > 0 ? "green" : "red", marginTop: "0.4rem" }}>
+                          {couponMessage}
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Delivery Fee Notice Row */}
                     <div style={{
                       display: "flex",
                       justifyContent: "space-between",
                       padding: "0.75rem 1rem",
                       borderBottom: "1px solid #eaeaea",
-                      fontSize: "0.9rem",
-                      color: "green",
-                      fontWeight: 500
+                      fontSize: "0.8rem",
+                      color: "#515151",
+                      alignItems: "center"
                     }}>
-                      <span>Discount (10%)</span>
-                      <span>-{discountAmount.toLocaleString()}KSh</span>
+                      <span style={{
+                        maxWidth: "80%",
+                        lineHeight: 1.3,
+                        fontWeight: !isNeighbourhoodProvided ? "bold" : "normal",
+                        color: !isNeighbourhoodProvided ? "#000000" : "#515151"
+                      }}>
+                        {deliveryFeeLabel}
+                      </span>
+                      <span style={{ fontWeight: "bold" }}>
+                        {isNeighbourhoodProvided ? `${deliveryFee.toLocaleString()}KSh` : "0KSh"}
+                      </span>
                     </div>
-                  )}
 
-                  {/* Total Row */}
-                  <div style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    padding: "0.85rem 1rem",
-                    fontWeight: "bold",
-                    fontSize: "1.05rem",
-                    color: "#333"
-                  }}>
-                    <span>Total</span>
-                    <span>{totalAmount.toLocaleString()}KSh</span>
-                  </div>
-                </div>
+                    {/* Applied Discount Row */}
+                    {appliedDiscount > 0 && (
+                      <div style={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                        padding: "0.75rem 1rem",
+                        borderBottom: "1px solid #eaeaea",
+                        fontSize: "0.9rem",
+                        color: "green",
+                        fontWeight: 500
+                      }}>
+                        <span>Discount (10%)</span>
+                        <span>-{discountAmount.toLocaleString()}KSh</span>
+                      </div>
+                    )}
 
-                {/* Loyalty Points & PSK Cash Box */}
-                <div style={{
-                  border: "1px solid #dcdcdc",
-                  borderRadius: "4px",
-                  padding: "1rem",
-                  background: "#ffffff"
-                }}>
-                  <div style={{ fontWeight: "bold", fontSize: "0.9rem", color: "#333", display: "flex", alignItems: "center", gap: "0.3rem" }}>
-                    🎁 Loyalty Points & PSK Cash
-                  </div>
-                  <div style={{
-                    color: "#515151",
-                    fontSize: "0.8rem",
-                    lineHeight: 1.4,
-                    marginTop: "0.6rem",
-                    marginBottom: "1rem"
-                  }}>
-                    Earn points with every purchase and redeem them for discounts. Login to your PetStore Kenya account to view and use your loyalty points.
-                  </div>
-                  <button 
-                    type="button"
-                    onClick={() => navigate("/my-account")}
-                    style={{
-                      background: "#ffffff",
-                      color: "#1a5ca3",
-                      border: "1px solid #bbd2e8",
-                      borderRadius: "4px",
-                      padding: "0.5rem 1rem",
+                    {/* Total Row */}
+                    <div style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      padding: "0.85rem 1rem",
                       fontWeight: "bold",
-                      fontSize: "0.85rem",
-                      cursor: "pointer",
-                      width: "100%"
-                    }}
-                  >
-                    Login to view your points
-                  </button>
-                </div>
+                      fontSize: "1.05rem",
+                      color: "#333"
+                    }}>
+                      <span>Total</span>
+                      <span>{totalAmount.toLocaleString()}KSh</span>
+                    </div>
+                  </div>
 
-                {/* Payment Option radios */}
-                <div style={{
-                  border: "1px solid #dcdcdc",
-                  borderRadius: "4px",
-                  padding: "1.5rem",
-                  background: "#ffffff"
-                }}>
-                  <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-                    
-                    {/* iPay Option */}
-                    <div>
-                      <label style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontWeight: "bold", cursor: "pointer", fontSize: "0.95rem" }}>
-                        <input 
-                          type="radio" 
-                          name="payment_method" 
-                          checked={paymentMethod === "ipay"}
-                          onChange={() => setPaymentMethod("ipay")}
-                          style={{ cursor: "pointer" }}
-                        />
-                        iPay
-                      </label>
-                      
-                      {/* Merchant Logos */}
-                      <div style={{ display: "flex", gap: "0.4rem", margin: "0.4rem 0 0.4rem 1.5rem", flexWrap: "wrap" }}>
-                        <span style={{ background: "#f0f0f0", padding: "0.2rem 0.5rem", borderRadius: "3px", fontSize: "0.75rem", fontWeight: "bold" }}>M-Pesa</span>
-                        <span style={{ background: "#f0f0f0", padding: "0.2rem 0.5rem", borderRadius: "3px", fontSize: "0.75rem", fontWeight: "bold" }}>Airtel</span>
-                        <span style={{ background: "#f0f0f0", padding: "0.2rem 0.5rem", borderRadius: "3px", fontSize: "0.75rem", fontWeight: "bold" }}>Kenswitch</span>
-                        <span style={{ background: "#f0f0f0", padding: "0.2rem 0.5rem", borderRadius: "3px", fontSize: "0.75rem", fontWeight: "bold" }}>Visa</span>
-                        <span style={{ background: "#f0f0f0", padding: "0.2rem 0.5rem", borderRadius: "3px", fontSize: "0.75rem", fontWeight: "bold" }}>MasterCard</span>
+                  {/* Loyalty Points & PSK Cash Box */}
+                  <div style={{
+                    border: "1px solid #dcdcdc",
+                    borderRadius: "4px",
+                    padding: "1rem",
+                    background: "#ffffff"
+                  }}>
+                    <div style={{ fontWeight: "bold", fontSize: "0.9rem", color: "#333", display: "flex", alignItems: "center", gap: "0.3rem" }}>
+                      🎁 Loyalty Points & PSK Cash
+                    </div>
+                    <div style={{
+                      color: "#515151",
+                      fontSize: "0.8rem",
+                      lineHeight: 1.4,
+                      marginTop: "0.6rem",
+                      marginBottom: "1rem"
+                    }}>
+                      Earn points with every purchase and redeem them for discounts. Login to your PetStore Kenya account to view and use your loyalty points.
+                    </div>
+                    <button
+                      type="button"
+                      onClick={() => navigate("/my-account")}
+                      style={{
+                        background: "#ffffff",
+                        color: "#1a5ca3",
+                        border: "1px solid #bbd2e8",
+                        borderRadius: "4px",
+                        padding: "0.5rem 1rem",
+                        fontWeight: "bold",
+                        fontSize: "0.85rem",
+                        cursor: "pointer",
+                        width: "100%"
+                      }}
+                    >
+                      Login to view your points
+                    </button>
+                  </div>
+
+                  {/* Payment Option radios */}
+                  <div style={{
+                    border: "1px solid #dcdcdc",
+                    borderRadius: "4px",
+                    padding: "1.5rem",
+                    background: "#ffffff"
+                  }}>
+                    <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+
+                      {/* iPay Option */}
+                      <div>
+                        <label style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontWeight: "bold", cursor: "pointer", fontSize: "0.95rem" }}>
+                          <input
+                            type="radio"
+                            name="payment_method"
+                            checked={paymentMethod === "ipay"}
+                            onChange={() => setPaymentMethod("ipay")}
+                            style={{ cursor: "pointer" }}
+                          />
+                          iPay
+                        </label>
+
+                        {/* Merchant Logos */}
+                        <div style={{ display: "flex", gap: "0.4rem", margin: "0.4rem 0 0.4rem 1.5rem", flexWrap: "wrap" }}>
+                          <span style={{ background: "#f0f0f0", padding: "0.2rem 0.5rem", borderRadius: "3px", fontSize: "0.75rem", fontWeight: "bold" }}>M-Pesa</span>
+                          <span style={{ background: "#f0f0f0", padding: "0.2rem 0.5rem", borderRadius: "3px", fontSize: "0.75rem", fontWeight: "bold" }}>Airtel</span>
+                          <span style={{ background: "#f0f0f0", padding: "0.2rem 0.5rem", borderRadius: "3px", fontSize: "0.75rem", fontWeight: "bold" }}>Kenswitch</span>
+                          <span style={{ background: "#f0f0f0", padding: "0.2rem 0.5rem", borderRadius: "3px", fontSize: "0.75rem", fontWeight: "bold" }}>Visa</span>
+                          <span style={{ background: "#f0f0f0", padding: "0.2rem 0.5rem", borderRadius: "3px", fontSize: "0.75rem", fontWeight: "bold" }}>MasterCard</span>
+                        </div>
+
+                        {paymentMethod === "ipay" && (
+                          <div style={{
+                            background: "#eae8f3",
+                            color: "#333333",
+                            padding: "0.85rem",
+                            borderRadius: "4px",
+                            fontSize: "0.8rem",
+                            lineHeight: 1.4,
+                            marginLeft: "1.5rem",
+                            borderLeft: "4px solid #1a5ca3"
+                          }}>
+                            Place order and pay using (M-PESA, Airtel Money, Kenswitch, VISA, MasterCard) Powered by www.ipayafrica.com
+                          </div>
+                        )}
                       </div>
 
-                      {paymentMethod === "ipay" && (
-                        <div style={{
-                          background: "#eae8f3",
-                          color: "#333333",
-                          padding: "0.85rem",
-                          borderRadius: "4px",
-                          fontSize: "0.8rem",
-                          lineHeight: 1.4,
-                          marginLeft: "1.5rem",
-                          borderLeft: "4px solid #1a5ca3"
-                        }}>
-                          Place order and pay using (M-PESA, Airtel Money, Kenswitch, VISA, MasterCard) Powered by www.ipayafrica.com
-                        </div>
-                      )}
+                      {/* Peach Payments Option */}
+                      <div>
+                        <label style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontWeight: "bold", cursor: "pointer", fontSize: "0.95rem" }}>
+                          <input
+                            type="radio"
+                            name="payment_method"
+                            checked={paymentMethod === "peach"}
+                            onChange={() => setPaymentMethod("peach")}
+                            style={{ cursor: "pointer" }}
+                          />
+                          Peach Payments
+                        </label>
+                      </div>
+
+                      {/* Lipa na M-PESA Option */}
+                      <div>
+                        <label style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontWeight: "bold", cursor: "pointer", fontSize: "0.95rem" }}>
+                          <input
+                            type="radio"
+                            name="payment_method"
+                            checked={paymentMethod === "lipampesa"}
+                            onChange={() => setPaymentMethod("lipampesa")}
+                            style={{ cursor: "pointer" }}
+                          />
+                          Lipa na M-PESA <span style={{ color: "#25d366", fontSize: "0.85rem", fontWeight: "900", marginLeft: "0.5rem" }}>LIPA NA m-pesa</span>
+                        </label>
+                      </div>
+
                     </div>
 
-                    {/* Peach Payments Option */}
-                    <div>
-                      <label style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontWeight: "bold", cursor: "pointer", fontSize: "0.95rem" }}>
-                        <input 
-                          type="radio" 
-                          name="payment_method"
-                          checked={paymentMethod === "peach"}
-                          onChange={() => setPaymentMethod("peach")}
-                          style={{ cursor: "pointer" }}
-                        />
-                        Peach Payments
+                    {/* Terms & Conditions Checkbox */}
+                    <div style={{ marginTop: "1.5rem", display: "flex", alignItems: "flex-start", gap: "0.5rem" }}>
+                      <input
+                        type="checkbox"
+                        id="terms"
+                        checked={agreedToTerms}
+                        onChange={e => setAgreedToTerms(e.target.checked)}
+                        style={{ marginTop: "0.2rem", cursor: "pointer" }}
+                      />
+                      <label htmlFor="terms" style={{ fontSize: "0.85rem", color: "#333", cursor: "pointer", userSelect: "none" }}>
+                        I have read and agree to the website <span style={{ color: "#ef4444", textDecoration: "underline", cursor: "pointer" }}>terms and conditions</span> *
                       </label>
                     </div>
 
-                    {/* Lipa na M-PESA Option */}
-                    <div>
-                      <label style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontWeight: "bold", cursor: "pointer", fontSize: "0.95rem" }}>
-                        <input 
-                          type="radio" 
-                          name="payment_method"
-                          checked={paymentMethod === "lipampesa"}
-                          onChange={() => setPaymentMethod("lipampesa")}
-                          style={{ cursor: "pointer" }}
-                        />
-                        Lipa na M-PESA <span style={{ color: "#25d366", fontSize: "0.85rem", fontWeight: "900", marginLeft: "0.5rem" }}>LIPA NA m-pesa</span>
-                      </label>
-                    </div>
+                    {errorMessage && (
+                      <div style={{ background: "#fdf2f2", border: "1px solid #f5c2c2", padding: "0.75rem", borderRadius: "4px", color: "#ef4444", fontSize: "0.85rem", marginTop: "1rem" }}>
+                        {errorMessage}
+                      </div>
+                    )}
+
+                    {/* Place Order CTA Button */}
+                    <button
+                      type="submit"
+                      disabled={submitting}
+                      style={{
+                        background: "#00c853",
+                        color: "#ffffff",
+                        border: "none",
+                        borderRadius: "4px",
+                        padding: "0.75rem",
+                        width: "100%",
+                        fontWeight: "bold",
+                        fontSize: "1rem",
+                        cursor: submitting ? "not-allowed" : "pointer",
+                        marginTop: "1.2rem",
+                        textTransform: "uppercase",
+                        boxShadow: "0 2px 4px rgba(0,0,0,0.15)",
+                        outline: "none"
+                      }}
+                    >
+                      {submitting ? "Placing Order..." : "Place Order"}
+                    </button>
+
+                    {/* Complete Order via WhatsApp */}
+                    <button
+                      type="button"
+                      onClick={handleWhatsAppCheckout}
+                      style={{
+                        background: "#4caf50",
+                        color: "#ffffff",
+                        border: "none",
+                        borderRadius: "20px",
+                        padding: "0.7rem",
+                        width: "100%",
+                        fontWeight: "bold",
+                        fontSize: "0.95rem",
+                        cursor: "pointer",
+                        marginTop: "1rem",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        gap: "0.5rem",
+                        boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
+                        outline: "none"
+                      }}
+                    >
+                      <i className="fa fa-whatsapp" style={{ fontSize: "18px" }}></i> Complete Order via WhatsApp
+                    </button>
 
                   </div>
-
-                  {/* Terms & Conditions Checkbox */}
-                  <div style={{ marginTop: "1.5rem", display: "flex", alignItems: "flex-start", gap: "0.5rem" }}>
-                    <input 
-                      type="checkbox" 
-                      id="terms"
-                      checked={agreedToTerms}
-                      onChange={e => setAgreedToTerms(e.target.checked)}
-                      style={{ marginTop: "0.2rem", cursor: "pointer" }}
-                    />
-                    <label htmlFor="terms" style={{ fontSize: "0.85rem", color: "#333", cursor: "pointer", userSelect: "none" }}>
-                      I have read and agree to the website <span style={{ color: "#ef4444", textDecoration: "underline", cursor: "pointer" }}>terms and conditions</span> *
-                    </label>
-                  </div>
-
-                  {errorMessage && (
-                    <div style={{ background: "#fdf2f2", border: "1px solid #f5c2c2", padding: "0.75rem", borderRadius: "4px", color: "#ef4444", fontSize: "0.85rem", marginTop: "1rem" }}>
-                      {errorMessage}
-                    </div>
-                  )}
-
-                  {/* Place Order CTA Button */}
-                  <button 
-                    type="submit"
-                    disabled={submitting}
-                    style={{
-                      background: "#00c853",
-                      color: "#ffffff",
-                      border: "none",
-                      borderRadius: "4px",
-                      padding: "0.75rem",
-                      width: "100%",
-                      fontWeight: "bold",
-                      fontSize: "1rem",
-                      cursor: submitting ? "not-allowed" : "pointer",
-                      marginTop: "1.2rem",
-                      textTransform: "uppercase",
-                      boxShadow: "0 2px 4px rgba(0,0,0,0.15)",
-                      outline: "none"
-                    }}
-                  >
-                    {submitting ? "Placing Order..." : "Place Order"}
-                  </button>
-
-                  {/* Complete Order via WhatsApp */}
-                  <button 
-                    type="button"
-                    onClick={handleWhatsAppCheckout}
-                    style={{
-                      background: "#4caf50",
-                      color: "#ffffff",
-                      border: "none",
-                      borderRadius: "20px",
-                      padding: "0.7rem",
-                      width: "100%",
-                      fontWeight: "bold",
-                      fontSize: "0.95rem",
-                      cursor: "pointer",
-                      marginTop: "1rem",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      gap: "0.5rem",
-                      boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
-                      outline: "none"
-                    }}
-                  >
-                    <i className="fa fa-whatsapp" style={{ fontSize: "18px" }}></i> Complete Order via WhatsApp
-                  </button>
 
                 </div>
 
-              </div>
-
-            </form>
+              </form>
             </>
           )}
 
