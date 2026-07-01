@@ -2,14 +2,13 @@
   "id": 52828,
   "name": "Rogzglowcat Safety Collar Small Black Jumping Cat",
   "slug": "rogz-glowcat-safety-collar-small-black-jumping-cat",
-  "sku": "CB09-A@F",
-  "onSale": true,
-  "price": 880,
-  "regularPrice": 1100,
-  "salePrice": 880,
+  "sku": "PSK-52828",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-GLOWCAT-SAFETY-COLLAR-SMALL-BLACK-CB09-A.jpg",
   "categories": [
     {
       "id": 2332,
@@ -17,35 +16,18 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=52828",
-  "shortDescription": "",
   "description": "",
-  "images": [
-    {
-      "id": 47776,
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-GLOWCAT-SAFETY-COLLAR-SMALL-BLACK-CB09-A.jpg",
-      "alt": "Rogzglowcat Safety Collar Small Black (Cb09-A)",
-      "name": "ROGZ GLOWCAT SAFETY COLLAR SMALL &#8211; BLACK (CB09-A)"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-glowcat-safety-collar-small-black-jumping-cat/?add-to-cart=52828",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2025-01-16T17:05:22",
-  "dateModified": "2026-05-06T17:11:02",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-GLOWCAT-SAFETY-COLLAR-SMALL-BLACK-CB09-A.jpg"
+  "catalogVisibility": "visible"
 }

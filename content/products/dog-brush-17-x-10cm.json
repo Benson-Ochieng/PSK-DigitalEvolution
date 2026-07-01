@@ -2,6 +2,7 @@
   "id": 18062,
   "name": "Dog Brush 17 x 10cm",
   "slug": "dog-brush-17-x-10cm",
+  "sku": "PSK-18062",
   "onSale": false,
   "price": null,
   "regularPrice": null,
@@ -46,7 +47,12 @@
   "type": "simple",
   "description": "Double sided dog grooming brush - perfect for detangling and tick removal",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

@@ -2,14 +2,13 @@
   "id": 52788,
   "name": "Proline Bentonite Clumping Cat Litter Odourless 5l",
   "slug": "proline-bentonite-clumping-cat-litter-odourless-5l",
-  "sku": "PCL001@F",
-  "onSale": true,
-  "price": 771,
-  "regularPrice": 1102,
-  "salePrice": 771,
+  "sku": "PSK-52788",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/01/ProLine-Bentonit-Cat-Litter-Unscented-5L-1080x1080-min.png",
   "categories": [
     {
       "id": 2332,
@@ -17,41 +16,18 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=52788",
-  "shortDescription": "",
   "description": "",
-  "images": [
-    {
-      "id": 8410,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/01/ProLine-Bentonit-Cat-Litter-Unscented-5L-1080x1080-min.png",
-      "alt": "ProLine Bentonit Cat Litter Unscented 5L 1080x1080 min",
-      "name": "ProLine Bentonit Cat Litter Unscented 5L 1080&#215;1080 min"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/proline-bentonite-clumping-cat-litter-odourless-5l/?add-to-cart=52788",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2025-01-16T17:04:54",
-  "dateModified": "2026-05-06T17:10:54",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/01/ProLine-Bentonit-Cat-Litter-Unscented-5L-1080x1080-min.png"
+  "catalogVisibility": "visible"
 }

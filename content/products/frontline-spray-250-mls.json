@@ -2,14 +2,13 @@
   "id": 24607,
   "name": "Frontline Spray 250Ml- For Cats and Dogs",
   "slug": "frontline-spray-250-mls",
-  "sku": "FS250",
+  "sku": "PSK-24607",
   "onSale": false,
-  "price": 4250,
-  "regularPrice": 4250,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/frontline-spray-1.png",
   "categories": [
     {
       "id": 2325,
@@ -42,57 +41,23 @@
       "slug": "frontline"
     }
   ],
-  "brands": [
-    {
-      "id": 2440,
-      "name": "Frontline",
-      "slug": "frontline"
-    }
-  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "FRONTLINE SPRAY protects cats and dogs against fleas and ticks, including paralysis ticks. It can be used on puppies and kittens from 2 days of age. To protect against adult fleas, apply every 12 weeks for dogs and every 8 weeks for cats. To protect against paralysis ticks, apply every 3 weeks for dogs and cats and for protection against brown dog ticks, apply monthly. Can be used in puppies and kittens from 2 days of age. Controls flea allergy dermatitis when used monthly.",
+  "images": [],
   "tags": [
     {
-      "id": 1149,
-      "name": "flea & tick",
-      "slug": "flea-tick"
-    },
-    {
-      "id": 2288,
-      "name": "Medicine",
-      "slug": "medicine"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
+      "name": "Pet Care",
       "slug": "pet-care"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/frontline-spray-250-mls/",
-  "shortDescription": "Frontline Spray, Contains Fipronil long-acting insecticide/ acaricide that is highly effective against ticks and fleas in dogs and cats.",
-  "description": "FRONTLINE SPRAY protects cats and dogs against fleas and ticks, including paralysis ticks. It can be used on puppies and kittens from 2 days of age. To protect against adult fleas, apply every 12 weeks for dogs and every 8 weeks for cats. To protect against paralysis ticks, apply every 3 weeks for dogs and cats and for protection against brown dog ticks, apply monthly. Can be used in puppies and kittens from 2 days of age. Controls flea allergy dermatitis when used monthly.",
-  "images": [
-    {
-      "id": 88810,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/frontline-spray-1.png",
-      "alt": "Frontline Spray 250Ml- For Cats and Dogs",
-      "name": "frontline spray (1)"
-    }
-  ],
+  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/frontline-spray-250-mls/?add-to-cart=24607",
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2022-01-15T21:40:50",
-  "dateModified": "2026-06-24T10:12:01",
-  "brand": "Frontline",
-  "weight_kg": 0.4,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/frontline-spray-1.png"
+  "catalogVisibility": "visible"
 }

@@ -2,6 +2,7 @@
   "id": 36959,
   "name": "Pet Flea Comb",
   "slug": "pet-flea-comb",
+  "sku": "PSK-36959",
   "onSale": false,
   "price": null,
   "regularPrice": null,
@@ -36,7 +37,12 @@
   "type": "simple",
   "description": "Description Advanced material, arc handle, reasonable design and comfortable handle. Strengthened needle design can remove fleas, and it is durable in the same type of resistance. There is a hook in the root of the combs. It is lightweight and easy to carry. It will remove fleas from your pets, especially the long-haired sausage dogs.",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

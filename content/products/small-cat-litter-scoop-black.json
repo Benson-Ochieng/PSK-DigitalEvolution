@@ -2,6 +2,7 @@
   "id": 18046,
   "name": "Small Cat Litter Scoop Black",
   "slug": "small-cat-litter-scoop-black",
+  "sku": "PSK-18046",
   "onSale": false,
   "price": null,
   "regularPrice": null,
@@ -31,7 +32,12 @@
   "type": "simple",
   "description": "Small Plastic cat litter scooper",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

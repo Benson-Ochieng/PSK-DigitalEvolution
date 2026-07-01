@@ -2,6 +2,7 @@
   "id": 24643,
   "name": "Shooter Premium Spot On 1x0.67ml (Up To 10kg) For Dogs (1 Pip)",
   "slug": "shooter-premium-spot-on-1x0-67mlupto-10kg-for-dogs-1-pip",
+  "sku": "PSK-24643",
   "onSale": false,
   "price": null,
   "regularPrice": null,
@@ -31,7 +32,12 @@
   "type": "simple",
   "description": "Shooter Premium Spot-on for Dogs is used against fleas and lice. With environmental effect, it decreases the fleas in the pet?s environment. Route of administration: Topic use, spot on. Apply separating the hair, on the dorsal midline, behind the base of the neck (withers) in such way that the product goes into direct contact with the skin. In larger dogs, apply more than one spot along the dorsal midline, in order to maximize coverage and diffusion of the active principles. The product action protects against fleas for 30 days and against ticks for 60 days. These periods may vary according to the degree of infestation, propitious environmental circumstances, bath frequency, etc. Consult the veterinary for a correct use of the product. Precautions: Do not administer to puppies younger than 2 months old. It is not recommended to bathe the animal 48 hours before or after application. If product enters into contact with eyes or mouth membranes of the animals, rinse with water abundantly. Do not apply on areas where the skin has lesions or irritation.",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

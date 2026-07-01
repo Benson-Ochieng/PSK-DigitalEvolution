@@ -2,14 +2,13 @@
   "id": 90014,
   "name": "Leonardo Cat Adult Dry Food - Light & Sterilised 1.8kg",
   "slug": "leonardo-cat-adult-dry-food-light-sterilised-1-8kg",
-  "sku": "LLDC005",
+  "sku": "PSK-90014",
   "onSale": false,
-  "price": 3330,
-  "regularPrice": 3330,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/05/Leonardo-Adult-Cat-Light-Sterilised-1.8kg.png",
   "categories": [
     {
       "id": 2325,
@@ -32,57 +31,18 @@
       "slug": "leonardo"
     }
   ],
-  "brands": [
-    {
-      "id": 2448,
-      "name": "Leonardo",
-      "slug": "leonardo"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 636,
-      "name": "dry food",
-      "slug": "dry-food"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    }
-  ],
-  "inStock": true,
-  "averageRating": 5,
+  "inStock": false,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/leonardo-cat-adult-dry-food-light-sterilised-1-8kg/",
-  "shortDescription": "Leonardo Adult Light & Sterilised Dry Cat Food is specially developed for overweight, sterilised, and less active adult cats. With reduced energy content and a high-quality protein-rich recipe, it helps support healthy weight management while maintaining lean muscle mass and overall vitality.",
   "description": "Made with fresh poultry and carefully selected ingredients, this premium German-made cat food provides balanced daily nutrition while supporting urinary health, digestion, and dental hygiene. Key Benefits Specially formulated for sterilised and overweight cats Reduced energy content to support healthy weight control High protein recipe helps maintain lean muscle mass L-Carnitine supports fat metabolism and weight management Fresh poultry for excellent taste and digestibility PH-Control helps maintain optimal urinary pH levels STAY-CLEAN™ helps reduce plaque build-up Supports overall health, vitality, and wellbeing Why Sterilised Cats Need Special Nutrition After sterilisation or castration, hormonal changes can increase appetite while lowering energy requirements, making cats more prone to weight gain. LEONARDO Light helps manage calorie intake while still providing all essential nutrients needed for a healthy and active life. Main Ingredients Fresh poultry meat (30%) Poultry protein (23%) Rice Fish meal from sea fish (9%) Apple pomace (4%) Marine zooplankton (Krill) (2.5%) Oat bran (2.5%) Chia seed (1.3%) Brewers’ yeast Chicory inulin Analytical Constituents Protein: 35% Fat Content: 12.5% Crude Ash: 7.8% Crude Fibre: 3.5% Moisture: 10% Calcium: 1% Phosphorus: 0.8% Sodium: 0.4% Vital Components L-CARNITINE – Supports healthy fat burning and weight control PH-CONTROL – Helps optimise urinary pH levels STAY-CLEAN™ – Helps reduce plaque formation for better dental hygiene Suitable For Adult sterilised, castrated, overweight, or less active cats requiring controlled energy intake and balanced nutrition. Always provide fresh drinking water alongside feeding. &nbsp;",
-  "images": [
-    {
-      "id": 90016,
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/05/Leonardo-Adult-Cat-Light-Sterilised-1.8kg.png",
-      "alt": "Leonardo Cat Adult Dry Food – Light & Sterilised 1.8kg",
-      "name": "Leonardo Adult Cat Light &#038; Sterilised 1.8kg"
-    }
-  ],
+  "images": [],
+  "tags": [],
+  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/leonardo-cat-adult-dry-food-light-sterilised-1-8kg/?add-to-cart=90014",
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2026-05-28T11:03:28",
-  "dateModified": "2026-06-17T05:01:35",
-  "brand": "Leonardo",
-  "weight_kg": 1.8,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/05/Leonardo-Adult-Cat-Light-Sterilised-1.8kg.png"
+  "catalogVisibility": "visible"
 }

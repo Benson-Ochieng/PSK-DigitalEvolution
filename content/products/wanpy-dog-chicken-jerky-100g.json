@@ -2,14 +2,13 @@
   "id": 69453,
   "name": "Wanpy Dog Treats - Chicken Jerky 100g",
   "slug": "wanpy-dog-chicken-jerky-100g",
-  "sku": "WDW008",
-  "onSale": true,
-  "price": 316,
-  "regularPrice": 395,
-  "salePrice": 316,
+  "sku": "PSK-69453",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/02/WANPY-DOG-CHICKEN-JERKY-100GR-real.png",
   "categories": [
     {
       "id": 2345,
@@ -32,57 +31,18 @@
       "slug": "wanpy"
     }
   ],
-  "brands": [
-    {
-      "id": 2479,
-      "name": "Wanpy",
-      "slug": "wanpy"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2275,
-      "name": "New Arrivals",
-      "slug": "new-arrivals"
-    },
-    {
-      "id": 939,
-      "name": "On Sale Now",
-      "slug": "sale"
-    }
-  ],
-  "inStock": true,
-  "averageRating": 5,
+  "inStock": false,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/wanpy-dog-chicken-jerky-100g/",
-  "shortDescription": "Wanpy Dog Chicken Jerky 100g is a high-protein, low-fat oven-roasted dog treat that supports dental health, digestion, and overall vitality. Ideal for training and daily rewards. &nbsp;",
   "description": "Wanpy Dog Chicken Jerky 100g is a premium oven-roasted dog treat made from high-quality chicken. It is high in protein and low in fat, making it an ideal healthy snack for dogs of all breeds and life stages. The soft jerky texture allows easy portioning, making it perfect for training rewards or feeding between meals. Key Features & Benefits High Protein Content (45–58%) – Supports strong muscles and overall vitality Low Fat (1–2%) – Helps maintain a healthy weight Oven-Roasted Chicken Jerky – Naturally flavorful and highly palatable Chewable Texture – Helps reduce plaque and supports dental health Easy to Break – Ideal for training and portion control Suitable for All Breeds & Ages – Puppies, adults, and senior dogs Ingredients Chicken, vegetable protein, glycerin, vegetable oil, glucose, lecithin, brewer’s yeast, Vitamin E, rosemary, salt, and permitted colorants. Nutritional Analysis (Approx.) Crude Protein: 45–58% Crude Fat: 1–2% Crude Fiber: 0.5–1% Crude Ash: 4–4.5% Moisture: 18–30% This balanced nutritional profile promotes muscle development, healthy digestion, and sustained energy. Health Benefits Supports strong bones and immunity Aids healthy digestion Promotes a shiny, healthy coat Provides mental stimulation through chewing Helps maintain oral and dental hygiene Feeding Recommendations Feed Wanpy Chicken Jerky as a complementary chew snack between meals . Break into smaller pieces for portion control. Always ensure your dog has access to fresh, clean drinking water. &nbsp; &nbsp; &nbsp; &nbsp;",
-  "images": [
-    {
-      "id": 69456,
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/02/WANPY-DOG-CHICKEN-JERKY-100GR-real.png",
-      "alt": "Wanpy Dog Treats – Chicken Jerky 100g",
-      "name": "WANPY DOG CHICKEN JERKY 100GR real"
-    }
-  ],
+  "images": [],
+  "tags": [],
+  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/wanpy-dog-chicken-jerky-100g/?add-to-cart=69453",
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2026-02-03T10:50:36",
-  "dateModified": "2026-06-24T09:12:06",
-  "brand": "Wanpy",
-  "weight_kg": 0.405,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/02/WANPY-DOG-CHICKEN-JERKY-100GR-real.png"
+  "catalogVisibility": "visible"
 }

@@ -2,14 +2,13 @@
   "id": 56783,
   "name": "Zerokrim CH Dewormer for Cats & Dogs - 20 Tablets",
   "slug": "zerokrim-ch-dewormer-for-cats-dogs-20-tablets",
-  "sku": "ZCHD20T",
+  "sku": "PSK-56783",
   "onSale": false,
-  "price": 2400,
-  "regularPrice": 2400,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/07/Zerokrim-CH-Dewormer-for-Cats-Dogs-4-Tablets.png",
   "categories": [
     {
       "id": 2325,
@@ -47,57 +46,23 @@
       "slug": "zerokrim-ch"
     }
   ],
-  "brands": [
-    {
-      "id": 2481,
-      "name": "Zerokrim CH",
-      "slug": "zerokrim-ch"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2021,
-      "name": "Dewormers",
-      "slug": "deworm"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    }
-  ],
-  "inStock": true,
-  "averageRating": 5,
+  "inStock": false,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/zerokrim-ch-dewormer-for-cats-dogs-20-tablets/",
-  "shortDescription": "Zerokrim CH is a broad-spectrum deworming tablet formulated for the effective treatment and control of roundworms, hookworms, tapeworms, and whipworms in both cats and dogs. Each tablet is designed to deliver fast-acting relief and help keep your pets healthy, active, and free from internal parasites. Broad-spectrum deworming solution for both cats and dogs",
   "description": "Broad-spectrum deworming solution for both cats and dogs Zerokrim CH is a broad-spectrum deworming tablet formulated for the effective treatment and control of roundworms, hookworms, tapeworms, and whipworms in both cats and dogs. Each tablet is designed to deliver fast-acting relief and help keep your pets healthy, active, and free from internal parasites. Suitable for both cats and dogs , Zerokrim CH makes deworming simple and convenient with a single oral dose and can be used as part of a regular worm control program. Key Benefits: Effective against tapeworms, roundworms, hookworms, and whipworms Suitable for cats and dogs of all breeds Easy oral administration Can be used in pets over 6 weeks of age Helps improve digestive health and overall vitality Dosage & Administration: Administer orally according to your pet’s body weight For dogs and cats: 1 tablet per 10 kg body weight (or as directed by a vet) Deworming should be done every 3 months or as advised by your veterinarian Active Ingredients: Praziquantel – effective against tapeworms Pyrantel Pamoate – targets roundworms and hookworms Febantel – combats whipworms Precautions: Not recommended for use in puppies or kittens under 6 weeks of age Do not exceed the recommended dosage Consult your vet before use in pregnant or lactating animals Storage: Store in a cool, dry place below 25°C Keep out of reach of children and pets Use within the expiry date mentioned on the packaging &nbsp;",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 56782,
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/07/Zerokrim-CH-Dewormer-for-Cats-Dogs-4-Tablets.png",
-      "alt": "Zerokrim CH Dewormer for Cats & Dogs – 20 Tablets",
-      "name": "Zerokrim CH Dewormer for Cats &amp; Dogs &#8211; 4 Tablets"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
+  "brands": [],
   "stockStatus": "instock",
-  "lowStockRemaining": 5,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/zerokrim-ch-dewormer-for-cats-dogs-20-tablets/?add-to-cart=56783",
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2025-07-13T18:13:53",
-  "dateModified": "2026-06-17T04:30:19",
-  "brand": "Zerokrim CH",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/07/Zerokrim-CH-Dewormer-for-Cats-Dogs-4-Tablets.png"
+  "catalogVisibility": "visible"
 }

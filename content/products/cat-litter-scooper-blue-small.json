@@ -2,6 +2,7 @@
   "id": 24384,
   "name": "Cat Litter Scooper Blue Small",
   "slug": "cat-litter-scooper-blue-small",
+  "sku": "PSK-24384",
   "onSale": false,
   "price": null,
   "regularPrice": null,
@@ -36,7 +37,12 @@
   "type": "simple",
   "description": "This cat litter scooper is portable, light weight and durable. ? Flat, thin, & sharp leading edge sits flush against your cat litter box floor to scoop underneath cat litter, rather than into clumped litter. ? Faster sifting. ? High walls on this litter scoop prevent scatter. ? Comfortable, ergonomic & longer type handle.",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

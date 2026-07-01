@@ -2,6 +2,7 @@
   "id": 27338,
   "name": "Mpets Flea & Tick Dog Shampoo 250Ml",
   "slug": "mpets-flea-tick-dog-shampoo-250ml",
+  "sku": "PSK-27338",
   "onSale": false,
   "price": null,
   "regularPrice": null,
@@ -36,7 +37,12 @@
   "type": "simple",
   "description": "Mpets Flea & Tick Dog Shampoo 250Ml",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

@@ -2,6 +2,7 @@
   "id": 19821,
   "name": "Bio Petactive Natural Honey Dog Shampoo 400ml",
   "slug": "bio-petactive-natural-honey-dog-shampoo-400ml",
+  "sku": "PSK-19821",
   "onSale": false,
   "price": null,
   "regularPrice": null,
@@ -31,7 +32,12 @@
   "type": "simple",
   "description": "Bio PetActive Natural Honey Dog Shampoo is for densley furred dogs, impacts extra shine and softness while keeping the skin moist and prevents dryness. Its honey essence, imparts extra shine and softness by nourishing the skin and fur. Its pH balanced formulation and effective moisturizing property keeps the skin moist and prevents dryness. Usage: Soak the body of your dog in warm water prior to application. Dilute the amount of product 1:5 with water then rub to spread the foam throughout the body of your dog. Start shampooing and washing on the back. To get the best results, wait for 3 to 5 minutes until the shampoo thoroughly soaks into the dog?s fur. Then rinse and dry with a towel and groom its fur.",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

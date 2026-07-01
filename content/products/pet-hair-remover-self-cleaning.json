@@ -2,14 +2,13 @@
   "id": 42617,
   "name": "Pet Hair Remover Self Cleaning",
   "slug": "pet-hair-remover-self-cleaning",
-  "sku": "PG0804",
+  "sku": "PSK-42617",
   "onSale": false,
-  "price": 1630,
-  "regularPrice": 1630,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/PET-HAIR-REMOVER-SELF-CLEANING.png",
   "categories": [
     {
       "id": 2397,
@@ -42,56 +41,23 @@
       "slug": "dog-grooming-cleaning-supplies"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 2245,
-      "name": "Human",
-      "slug": "human"
-    }
-  ],
-  "inStock": true,
-  "averageRating": 5,
+  "inStock": false,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pet-hair-remover-self-cleaning/",
-  "shortDescription": "Pet Hair Remover Reusable Cat and Dog Hair Remover Multi-Surface Lint Roller Portable Fur Removal Tool for Furniture, Couch, Carpet, Bedding, Clothes and Car Seats, Non-Slip Handle Self-Cleaning Roller",
   "description": "Pet Hair Remover Reusable Cat and Dog Hair Remover Multi-Surface Lint Roller Portable Fur Removal Tool for Furniture, Couch, Carpet, Bedding, Clothes and Car Seats, Non-Slip Handle Self-Cleaning Roller Fast & Effective Hair Removal Roller: quickly and effectively removes all kinds of pet hair from couch, carpet, bedding, clothes, and car seats, keeping your home free from lint and hair. Both sides of the pet hair roller are made of soft glue wrapping process, which effectively protects the surface of high-grade fabrics and furs from scratches, and the sturdy and non-slip handle brings you a comfortable feel. Reusable Lint Rollers: This pet hair roller cleans animal hair by electrostatic adsorption, it is reusable, no need for sticky tape and power supply. You no longer have to buy sticky tape and spend time charging, making your life more convenient. Easy to Use & Carry: Our dog hair remover rolls in both directions and self-cleaning for convenience and simplicity. You can easily collect pet fur and lint into the storage box by simply rolling it back and forth on the surface of the sofa, rug, bed and other furniture, then open the lid to remove the pet hair. It is small, lightweight and easy to carry, allows you to take your pet on a relaxing and clean journey. Easy to Clean: Simply use a soft towel that is soaked with water or synthetic detergent to clean the brush surface and storage box",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 50304,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/12/PET-HAIR-REMOVER-SELF-CLEANING.png",
-      "alt": "Pet Hair Remover Self Cleaning",
-      "name": "PET HAIR REMOVER SELF CLEANING"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
+  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/pet-hair-remover-self-cleaning/?add-to-cart=42617",
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-12-22T16:08:11",
-  "dateModified": "2026-06-22T12:12:12",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/PET-HAIR-REMOVER-SELF-CLEANING.png"
+  "catalogVisibility": "visible"
 }

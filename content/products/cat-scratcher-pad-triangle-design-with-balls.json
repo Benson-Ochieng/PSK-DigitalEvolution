@@ -2,6 +2,7 @@
   "id": 20001,
   "name": "Cat Scratcher Pad - Triangle Design with Balls",
   "slug": "cat-scratcher-pad-triangle-design-with-balls",
+  "sku": "PSK-20001",
   "onSale": false,
   "price": null,
   "regularPrice": null,
@@ -36,7 +37,12 @@
   "type": "simple",
   "description": "Cat Scratcher Cardboard Scratch Pad. Triangle design with Balls. Ideal for indoor cats. The easiest way to protect your furniture and provide your cat with a place to scratch away. Size 28cm x 27cm x 14.5cm",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

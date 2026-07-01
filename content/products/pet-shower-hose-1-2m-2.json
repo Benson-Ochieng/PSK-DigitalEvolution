@@ -2,14 +2,13 @@
   "id": 42863,
   "name": "Pet Shower Hose 1.2m",
   "slug": "pet-shower-hose-1-2m-2",
-  "sku": "PG0526",
+  "sku": "PSK-42863",
   "onSale": false,
-  "price": 1050,
-  "regularPrice": 1050,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/01/PET-SHOWER-HOSE-1.2M.png",
   "categories": [
     {
       "id": 1204,
@@ -37,61 +36,23 @@
       "slug": "dog-grooming-cleaning-supplies"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "1.2 Meter 120cm Pet Shower Head Bathroom Pipe Fitting Extension Hose Perfect length at 1.2m for easy reach Designed for comfortable pet grooming. Easy attachment to existing showers Durable material for long-lasting use Cost-effective solution for pet hygiene",
+  "images": [],
   "tags": [
     {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
+      "name": "Pet Care",
       "slug": "pet-care"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pet-shower-hose-1-2m-2/",
-  "shortDescription": "1.2 Meter 120cm Pet Shower Head Bathroom Pipe Fitting Extension Hose, convenient and flexible, it can be used to connect the faucet to wash your pet.",
-  "description": "1.2 Meter 120cm Pet Shower Head Bathroom Pipe Fitting Extension Hose Perfect length at 1.2m for easy reach Designed for comfortable pet grooming. Easy attachment to existing showers Durable material for long-lasting use Cost-effective solution for pet hygiene",
-  "images": [
-    {
-      "id": 42864,
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/01/PET-SHOWER-HOSE-1.2M.png",
-      "alt": "Pet Shower Hose 1.2m",
-      "name": "PET SHOWER HOSE 1.2M"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/pet-shower-hose-1-2m-2/?add-to-cart=42863",
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2024-01-03T11:03:50",
-  "dateModified": "2026-06-17T04:18:42",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/01/PET-SHOWER-HOSE-1.2M.png"
+  "catalogVisibility": "visible"
 }

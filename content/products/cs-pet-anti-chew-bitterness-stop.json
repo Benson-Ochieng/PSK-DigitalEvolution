@@ -2,14 +2,13 @@
   "id": 52876,
   "name": "Cs Pet Anti-Chew Bitterness Stop",
   "slug": "cs-pet-anti-chew-bitterness-stop",
-  "sku": "PACBS",
+  "sku": "PSK-52876",
   "onSale": false,
-  "price": 297,
-  "regularPrice": 297,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/01/CS-PET-ANTI-CHEW-STOP.png",
   "categories": [
     {
       "id": 2279,
@@ -32,57 +31,23 @@
       "slug": "dog-hygiene-potty-solutions"
     }
   ],
-  "brands": [
-    {
-      "id": 2434,
-      "name": "CS",
-      "slug": "cs"
-    }
-  ],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    }
-  ],
-  "inStock": true,
-  "averageRating": 5,
+  "inStock": false,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/cs-pet-anti-chew-bitterness-stop/",
-  "shortDescription": "Chew Free Spray for Dogs – Dog Bitter Spray for Chewing Alcohol Free Natural Pet Collector Spray Safe Formula Stops Dogs from Chewing Feet and Furniture. Give your dog the training they need while preserving your belongings with this essential anti-chew spray!",
   "description": "Protect your belongings from unwanted chewing with our Dog Anti-Chew Bitterness Spray. This safe, effective, and easy-to-use solution is designed to deter your furry friend from chewing on furniture, shoes, cords, and other household items. The bitter taste is unpleasant to dogs but completely safe for them, helping to break the habit of destructive chewing. Key Features: Safe & Non-Toxic : Formulated with natural, dog-safe ingredients that are gentle yet effective. Strong Bitter Taste : Discourages chewing without harm, making it ideal for training and behavior modification. Multi-Surface Use : Suitable for use on furniture, shoes, plants, cords, and other household items. Quick-Drying & Long-Lasting : Once applied, it dries quickly and continues to provide protection against chewing. Easy to Apply : Convenient spray bottle for precise application on surfaces or objects you want to protect. Help your dog learn what’s off-limits and keep your home safe with our Dog Anti-Chew Bitterness Spray—an essential tool for every pet parent looking to curb destructive behavior. Directions : Spray directly onto surfaces or items your dog tends to chew. Reapply as necessary, especially after cleaning or after extended exposure to moisture. Caution : Keep out of reach of children. If contact with eyes or skin occurs, rinse thoroughly with water. Features: 1. Contains tea tree oil and bitter ingredients that are safe for pets. 2. Suitable for furniture, clothing, shoes, floor blinds, plants, dog fur. 3.Train your dog not to chew or chew inappropriately and designed to relieve gum pain with a chew toy. 4.Easy to use. 5.Great gift for dogs and cats. Specifications: Name: No Chew Spray for Dogs Volume: 1.7 fl oz (50 Shelf Life: 3 years. Weight: Approx. 2.5 oz (72 Storage: Store in a cool dry place Product function: Prevent pets from chewing and chewing",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 52877,
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/01/CS-PET-ANTI-CHEW-STOP.png",
-      "alt": "Cs Pet Anti-Chew Bitterness Stop",
-      "name": "CS PET ANTI-CHEW STOP"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
+  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/cs-pet-anti-chew-bitterness-stop/?add-to-cart=52876",
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2025-01-18T11:06:05",
-  "dateModified": "2026-06-22T11:12:08",
-  "brand": "CS",
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/01/CS-PET-ANTI-CHEW-STOP.png"
+  "catalogVisibility": "visible"
 }

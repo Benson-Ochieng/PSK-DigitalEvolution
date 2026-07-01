@@ -2,6 +2,7 @@
   "id": 39053,
   "name": "Veko-Radicate Spot On Cats and Kittens 0.75ml- 6 Months supply",
   "slug": "radicate-spot-on-cats-and-kittens-0-75ml",
+  "sku": "PSK-39053",
   "onSale": false,
   "price": null,
   "regularPrice": null,
@@ -36,7 +37,12 @@
   "type": "simple",
   "description": "Radicate Spot On is a specialized topical treatment designed exclusively for cats, serving as a parasiticide for the elimination of ecto-parasites. This innovative solution not only helps in preventing and managing tick and flea infestations but also addresses issues related to biting lice, mange, and even the risk of Heartworm disease. Compared to Frontline. Selamectin, the active ingredient in Radicate Spot On, belongs to the broad-spectrum avermectin endectocide class. It is a safe option for cats as young as six weeks old, including those afflicted with heartworm, as well as cats capable of reproduction. When administered topically to the skin at the recommended monthly dosage, it ensures a minimum delivery of 6mg per kilogram of body weight. 0.75 ml x 6 Pipettes in one Box. (6 Month Supply for Cats)",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

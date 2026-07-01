@@ -2,6 +2,7 @@
   "id": 24536,
   "name": "Lint Remover Roller(3Pcs)",
   "slug": "lint-remover-roller3pcs",
+  "sku": "PSK-24536",
   "onSale": false,
   "price": null,
   "regularPrice": null,
@@ -46,7 +47,12 @@
   "type": "simple",
   "description": "Removes pet fur, hair and lint from clothes and furniture. Directions: Peel off the cover Rub against the area with lint/dirt/hair on your garment. If you need to use a new layer, peel off the top used adhesive from the perforated area and you get a new layer. With up to 25 layers of adhesive per refill",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

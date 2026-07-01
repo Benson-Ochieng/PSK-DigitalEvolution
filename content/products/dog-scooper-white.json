@@ -2,6 +2,7 @@
   "id": 18053,
   "name": "Dog Scooper- White",
   "slug": "dog-scooper-white",
+  "sku": "PSK-18053",
   "onSale": false,
   "price": null,
   "regularPrice": null,
@@ -31,7 +32,12 @@
   "type": "simple",
   "description": "Premium Large Dog pooper scoop - White",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

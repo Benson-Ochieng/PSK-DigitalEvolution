@@ -2,6 +2,7 @@
   "id": 20009,
   "name": "Pet Grooming Glove - Red Right Hand",
   "slug": "pet-grooming-glove-red-right-hand",
+  "sku": "PSK-20009",
   "onSale": false,
   "price": null,
   "regularPrice": null,
@@ -41,7 +42,12 @@
   "type": "simple",
   "description": "Pet Grooming Glove. Ideal for removing hair, makes it easier to peel and disguard hair. Quick, Gentle and Effective.",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

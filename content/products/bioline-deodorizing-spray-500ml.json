@@ -2,6 +2,7 @@
   "id": 37958,
   "name": "Bioline Deodorizing Spray 500ml",
   "slug": "bioline-deodorizing-spray-500ml",
+  "sku": "PSK-37958",
   "onSale": false,
   "price": null,
   "regularPrice": null,
@@ -36,7 +37,12 @@
   "type": "simple",
   "description": "Bioline adsorption deodorizing spray is the ideal and environment friendly product for cat toilets, bathrooms, living rooms etc. Thanks to its active agents the deodorizing spray eliminate all unpleasant smells. Instructions: Shake well before use. All surfaces should be cleaned of urine. Spray at a distance of approx. 30 cm until it is slightly wet. In case of heavily soiled surfaces and during warm weather use the spray several times a day. Test material compatibility in an unobtrusive area. Ingredients: Water, polyhexamethyleneguanidine hydrochloride, fragrance Usage: Spray on pets, indoor pet cages and beds, pet hospitals and other places. Storage: Store in cool/dry area Notes: Don't spray directly into pet eyes. If contact is made with eyes, wash immediately with water. Seal after use, Keep out of reach of children. It may also cause allergic reactions.",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

@@ -2,6 +2,7 @@
   "id": 27305,
   "name": "Mpets Black Coat Dog Shampoo 250Ml",
   "slug": "mpets-black-coat-dog-shampoo-250ml",
+  "sku": "PSK-27305",
   "onSale": false,
   "price": null,
   "regularPrice": null,
@@ -36,7 +37,12 @@
   "type": "simple",
   "description": "This shampoo strengthens the natural color of a dog?s black or dark-colored coat. In addition, it also replenishes lipids. capacity: 250 ml Feature: Paraben-Free; The Very Best Ingredients In a Shampoo For Dogs BATH OF LIFE: The Black Coat Shampoo will provide a deep cleansing while enhancing the shine on your dog?s dark coat. Plant-derived cleansers make up the base of our all-natural ingredients, which are sustainably sourced MAKE YOUR PET?S COAT EXTRA SOFT: Hydrating natural oils can go deep under the fur for skin hydration that will make your pet moisturized from the inside out.",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

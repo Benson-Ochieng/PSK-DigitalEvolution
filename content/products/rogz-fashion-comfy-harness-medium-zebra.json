@@ -2,14 +2,13 @@
   "id": 52827,
   "name": "Rogz Fashion Comfy Harness Medium Zebra",
   "slug": "rogz-fashion-comfy-harness-medium-zebra",
-  "sku": "SJW255-ZB@F",
-  "onSale": true,
-  "price": 2340,
-  "regularPrice": 2600,
-  "salePrice": 2340,
+  "sku": "PSK-52827",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/Rogz-Fashion-Comfy-Harness_M_Zebra.jpg",
   "categories": [
     {
       "id": 2332,
@@ -17,41 +16,18 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2318,
-      "name": "Harnesses",
-      "slug": "harness"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=52827",
-  "shortDescription": "",
   "description": "",
-  "images": [
-    {
-      "id": 47711,
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/06/Rogz-Fashion-Comfy-Harness_M_Zebra.jpg",
-      "alt": "Rogz Fashion Comfy Harness Medium Zebra (SjW255-Zb)",
-      "name": "Rogz Fashion-Comfy-Harness_M_Zebra"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-fashion-comfy-harness-medium-zebra/?add-to-cart=52827",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2025-01-16T17:05:22",
-  "dateModified": "2026-05-06T17:11:02",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/Rogz-Fashion-Comfy-Harness_M_Zebra.jpg"
+  "catalogVisibility": "visible"
 }

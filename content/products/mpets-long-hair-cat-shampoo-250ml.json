@@ -2,6 +2,7 @@
   "id": 27405,
   "name": "Mpets Long Hair Cat Shampoo 250Ml",
   "slug": "mpets-long-hair-cat-shampoo-250ml",
+  "sku": "PSK-27405",
   "onSale": false,
   "price": null,
   "regularPrice": null,
@@ -36,7 +37,12 @@
   "type": "simple",
   "description": "Description: 250 ml This shampoo makes combing easier and prevents tangles. Composition: Anionic surfactants, Non-ionic Surfactants, Preservatives, Fragrance and Colourants",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

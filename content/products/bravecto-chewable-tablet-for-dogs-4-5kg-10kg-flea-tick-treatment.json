@@ -2,14 +2,13 @@
   "id": 2198,
   "name": "Bravecto Chewable Tablet for Dogs - 4.5 to 10kg, 1 Treatment",
   "slug": "bravecto-chewable-tablet-for-dogs-4-5kg-10kg-flea-tick-treatment",
-  "sku": "713305",
+  "sku": "PSK-2198",
   "onSale": false,
-  "price": 3850,
-  "regularPrice": 3850,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/06/Bravecto-Dog-4.5-10kg-Chewable-Tablet-250mg-min.png",
   "categories": [
     {
       "id": 1190,
@@ -32,62 +31,23 @@
       "slug": "dog-flea-tick"
     }
   ],
-  "brands": [
-    {
-      "id": 2429,
-      "name": "Bravecto",
-      "slug": "bravecto"
-    }
-  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Bravecto [Fluralaner] is a soft chewable tablet given to your dog every 3 months (12 weeks) to terminate adult fleas, help and prevent flea infestations and help manage and control tick infestations. Unlike spot-on applications, administering the chew is easier, more convenient and cleaner. Each chew is flavored, so your dog will look forward to taking his medication for a change. Suitable for dogs from 8 weeks of age. Compared to Frontline, Nexgard and Veko (Quicfip). Possible Side Effects: Incidences of vomiting decreased appetite, diarrhea, lethargy, polydipsia and flatulence have been reported. Precautions: Use with caution in dogs with a history of seizures or allergic to fluralaner. Bravecto has not been shown to be effective for 12 weeks duration in puppies less than 6 months of age. Active Ingredient: 250 mg Fluralaner. Fluralaner works on the nervous system of fleas and ticks, causing hyperexcitation and death. Recommended Dosage: Bravecto should be administered orally with food as a single dose every 12 weeks to provide a minimum dose of 25 mg per kg body weight. Dogs greater than 56kg should be administered the appropriate combination of chews. Storage: Do not store above 25'C. Store in original package in order to protect from moisture. Open the pouch only immediately prior to use.",
+  "images": [],
   "tags": [
     {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 1149,
-      "name": "flea & tick",
-      "slug": "flea-tick"
-    },
-    {
-      "id": 2288,
-      "name": "Medicine",
-      "slug": "medicine"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
+      "name": "Pet Care",
       "slug": "pet-care"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/bravecto-chewable-tablet-for-dogs-4-5kg-10kg-flea-tick-treatment/",
-  "shortDescription": "Bravecto ® (Fluralaner) 1 dose chew (4.5-10kg dog), 12-week Flea & tick protection for dogs – kill adult fleas, prevent fleas, manage & control ticks.",
-  "description": "Bravecto [Fluralaner] is a soft chewable tablet given to your dog every 3 months (12 weeks) to terminate adult fleas, help and prevent flea infestations and help manage and control tick infestations. Unlike spot-on applications, administering the chew is easier, more convenient and cleaner. Each chew is flavored, so your dog will look forward to taking his medication for a change. Suitable for dogs from 8 weeks of age. Compared to Frontline, Nexgard and Veko (Quicfip). Possible Side Effects: Incidences of vomiting decreased appetite, diarrhea, lethargy, polydipsia and flatulence have been reported. Precautions: Use with caution in dogs with a history of seizures or allergic to fluralaner. Bravecto has not been shown to be effective for 12 weeks duration in puppies less than 6 months of age. Active Ingredient: 250 mg Fluralaner. Fluralaner works on the nervous system of fleas and ticks, causing hyperexcitation and death. Recommended Dosage: Bravecto should be administered orally with food as a single dose every 12 weeks to provide a minimum dose of 25 mg per kg body weight. Dogs greater than 56kg should be administered the appropriate combination of chews. Storage: Do not store above 25'C. Store in original package in order to protect from moisture. Open the pouch only immediately prior to use.",
-  "images": [
-    {
-      "id": 14002,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/06/Bravecto-Dog-4.5-10kg-Chewable-Tablet-250mg-min.png",
-      "alt": "Bravecto Chewable Tablet for Dogs – 4.5 to 10kg, 1 Treatment",
-      "name": "Bravecto Dog 4.5-10kg Chewable Tablet 250mg-min"
-    }
-  ],
+  "brands": [],
   "stockStatus": "instock",
-  "lowStockRemaining": 10,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/bravecto-chewable-tablet-for-dogs-4-5kg-10kg-flea-tick-treatment/?add-to-cart=2198",
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2019-06-11T13:04:34",
-  "dateModified": "2026-06-19T11:12:07",
-  "brand": "Bravecto",
-  "weight_kg": 0.1,
-  "animal_type": "dog",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/06/Bravecto-Dog-4.5-10kg-Chewable-Tablet-250mg-min.png"
+  "catalogVisibility": "visible"
 }

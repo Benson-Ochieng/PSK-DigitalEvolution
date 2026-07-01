@@ -2,6 +2,7 @@
   "id": 37960,
   "name": "Bioline Perfume - Love Letter Scent 207ml",
   "slug": "bioline-perfume-love-letter-scent-207ml",
+  "sku": "PSK-37960",
   "onSale": false,
   "price": null,
   "regularPrice": null,
@@ -36,7 +37,12 @@
   "type": "simple",
   "description": "Love letter deodorant freshening spray Aiming at the bad smells caused by the pet body and environment, adopt German technology, specifically add microbial deodorant, eliminate the bad smells in three seconds leave a pleasant smell. I ngredients: Water, solubilizer, soybean unsaturated fatty acid, Frangrance, mixture of 5-chloro-2-methyl-isothiazol-3(2H)-one and 2-methylisothiazol-3(2H)-one with magnesium chloride and magnesium nitrate, CI 18050 Usage: Spray directly at pet body and surrounding environment. Avoid spraying directly at face, ears and genital organ. Warning: Avoid spraying in the eyes, mouth, ears, nose and genital organs for external use only, Keep out of the reach of children. Storage: Avoid direct sunlight.",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

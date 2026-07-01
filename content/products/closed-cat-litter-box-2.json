@@ -2,6 +2,7 @@
   "id": 38180,
   "name": "Closed Cat Litter Box",
   "slug": "closed-cat-litter-box-2",
+  "sku": "PSK-38180",
   "onSale": false,
   "price": null,
   "regularPrice": null,
@@ -46,7 +47,12 @@
   "type": "simple",
   "description": "This Cat Litter Box combines beauty and functionality with; Spacious hood provides privacy for kitty. Hinged door to help contains odor and “doorstep” grate helps remove excess litter from kitty’s paws. Includes matching litter scoop for easy cleaning. size: 56x38x62cm",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

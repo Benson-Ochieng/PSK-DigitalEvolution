@@ -2,14 +2,13 @@
   "id": 42679,
   "name": "Cat Litter Mat Rectangular 40 x 29cm",
   "slug": "cat-litter-mat-rectangular-40-by-29cm-2",
-  "sku": "PA4011",
+  "sku": "PSK-42679",
   "onSale": false,
-  "price": 900,
-  "regularPrice": 900,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/12/CAT-LITTER-MAT-RECTANGULAR-40-BY-29CM.png",
   "categories": [
     {
       "id": 1204,
@@ -42,61 +41,23 @@
       "slug": "cat-litter-boxes"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "These cat litter box mats help keep litter from being tracked or scattered across your floors by trapping it in our dual-layer design. It holds tiny pieces of litters fallen between the layers, automatically catching debris as cats exit their litter box. The main goal of a cat litter mat is to get your cat to walk across it after exiting the box in order to collect litter; the material used for a mat is often designed to get your cats to spread their toes or wipe their feet to release errant granules of cat litter. Key Features: High-Quality Material : Made from durable, non-toxic materials that are safe for your feline friend. Effortless Cleaning : The mat’s textured surface helps trap litter while being easy to shake off or vacuum clean. Water-Resistant : Protects your floors from accidental spills, ensuring a dry and hygienic environment. Non-Slip Design : Stays securely in place, providing stability for your cat as they exit the litter box. Stylish and Discreet : Available in neutral colors that blend effortlessly with your home decor. Upgrade your litter box setup with our Cat Litter Mat, where functionality meets style! Keep your space tidy while giving your pet the comfort they deserve.",
+  "images": [],
   "tags": [
     {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 819,
-      "name": "cat litter",
-      "slug": "cat-litter"
-    },
-    {
-      "id": 2119,
-      "name": "cat litter box",
-      "slug": "cat-litter-box"
-    },
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
+      "name": "Pet Care",
       "slug": "pet-care"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/cat-litter-mat-rectangular-40-by-29cm-2/",
-  "shortDescription": "Keep your home clean and your kitty happy with our Cat Litter Mat! Designed to fit seamlessly into any space, this 40 x 29 cm mat effectively captures litter and debris, preventing messes from spreading beyond the litter box. Available in Beige, Blue, Brown, Pink, and Tarquoise We cannot guarantee the colour you will receive when you order online.",
-  "description": "These cat litter box mats help keep litter from being tracked or scattered across your floors by trapping it in our dual-layer design. It holds tiny pieces of litters fallen between the layers, automatically catching debris as cats exit their litter box. The main goal of a cat litter mat is to get your cat to walk across it after exiting the box in order to collect litter; the material used for a mat is often designed to get your cats to spread their toes or wipe their feet to release errant granules of cat litter. Key Features: High-Quality Material : Made from durable, non-toxic materials that are safe for your feline friend. Effortless Cleaning : The mat’s textured surface helps trap litter while being easy to shake off or vacuum clean. Water-Resistant : Protects your floors from accidental spills, ensuring a dry and hygienic environment. Non-Slip Design : Stays securely in place, providing stability for your cat as they exit the litter box. Stylish and Discreet : Available in neutral colors that blend effortlessly with your home decor. Upgrade your litter box setup with our Cat Litter Mat, where functionality meets style! Keep your space tidy while giving your pet the comfort they deserve.",
-  "images": [
-    {
-      "id": 50293,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/12/CAT-LITTER-MAT-RECTANGULAR-40-BY-29CM.png",
-      "alt": "Cat Litter Mat Rectangular 40 x 29cm",
-      "name": "CAT LITTER MAT- RECTANGULAR 40 BY 29CM"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/cat-litter-mat-rectangular-40-by-29cm-2/?add-to-cart=42679",
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-12-27T11:22:26",
-  "dateModified": "2026-06-18T17:12:22",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/CAT-LITTER-MAT-RECTANGULAR-40-BY-29CM.png"
+  "catalogVisibility": "visible"
 }

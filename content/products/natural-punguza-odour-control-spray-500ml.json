@@ -2,14 +2,13 @@
   "id": 38816,
   "name": "Natural Punguza Odour Control Spray 500Ml",
   "slug": "natural-punguza-odour-control-spray-500ml",
-  "sku": "NPOCS1",
+  "sku": "PSK-38816",
   "onSale": false,
-  "price": 650,
-  "regularPrice": 650,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/08/Untitled-design-1.png",
   "categories": [
     {
       "id": 2325,
@@ -37,56 +36,23 @@
       "slug": "dog-hygiene-potty-solutions"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Natural Punguza odour control spray: No toxicity, No Chemical, No Bacteria, No Enzymes, No Masking agents, Biodegradable, naturally derived, environmentally preferred spray. Eliminates foul smell from: 1. Washrooms, toilets, dustbins, carpet, fabric, nappies, litter boxes, pets. 2. Rubbish collection bins, rubbish chutes, transfer stations, tipping floors, rubbish lorries, dumpsites. 3. Food waste, compost, animals, animal waste 4. Portable toilets, compost, animals, animal waste 5. Portable toilets, bathroom drains, Kitchen drains, grease traps. 6. Grey water, stagnant water, sewage, sludge. 7. Any other organic material with foul smell. Usage instructions: 1. Shake well and spray generously. 2. Spray daily or as required. Ingredients: Purified water, natural plat extracts, lavender Caution: 1. Do not ingest. 2. Eye Contact: Flush immediately with water for 5 minutes 3. Ingestion: No adverse effects anticipated",
+  "images": [],
   "tags": [
     {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
+      "name": "Pet Care",
       "slug": "pet-care"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/natural-punguza-odour-control-spray-500ml/",
-  "shortDescription": "Natural Punguza odour control spray: No toxicity, No Chemical, No Bacteria, No enzymes, No Masking agents, Biodegradable, naturally derived, environmentally preferred spray.",
-  "description": "Natural Punguza odour control spray: No toxicity, No Chemical, No Bacteria, No Enzymes, No Masking agents, Biodegradable, naturally derived, environmentally preferred spray. Eliminates foul smell from: 1. Washrooms, toilets, dustbins, carpet, fabric, nappies, litter boxes, pets. 2. Rubbish collection bins, rubbish chutes, transfer stations, tipping floors, rubbish lorries, dumpsites. 3. Food waste, compost, animals, animal waste 4. Portable toilets, compost, animals, animal waste 5. Portable toilets, bathroom drains, Kitchen drains, grease traps. 6. Grey water, stagnant water, sewage, sludge. 7. Any other organic material with foul smell. Usage instructions: 1. Shake well and spray generously. 2. Spray daily or as required. Ingredients: Purified water, natural plat extracts, lavender Caution: 1. Do not ingest. 2. Eye Contact: Flush immediately with water for 5 minutes 3. Ingestion: No adverse effects anticipated",
-  "images": [
-    {
-      "id": 38818,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/08/Untitled-design-1.png",
-      "alt": "Natural Punguza Odour Control Spray 500Ml",
-      "name": "Untitled design (1)"
-    }
-  ],
+  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/natural-punguza-odour-control-spray-500ml/?add-to-cart=38816",
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2023-08-04T14:17:59",
-  "dateModified": "2026-06-17T04:14:18",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/08/Untitled-design-1.png"
+  "catalogVisibility": "visible"
 }

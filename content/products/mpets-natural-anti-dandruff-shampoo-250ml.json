@@ -2,6 +2,7 @@
   "id": 27412,
   "name": "Mpets Natural Anti@Dandruff Shampoo 250Ml",
   "slug": "mpets-natural-anti-dandruff-shampoo-250ml",
+  "sku": "PSK-27412",
   "onSale": false,
   "price": null,
   "regularPrice": null,
@@ -36,7 +37,12 @@
   "type": "simple",
   "description": "Mpets Natural Anti-Dandruff Shampoo 250Ml",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

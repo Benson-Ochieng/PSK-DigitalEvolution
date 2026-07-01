@@ -2,14 +2,13 @@
   "id": 42962,
   "name": "Petd Deworm 2 Tablets Dog And Cat",
   "slug": "petd-deworm-2-tablets-dog-and-cat",
-  "sku": "PetD Deworm2",
+  "sku": "PSK-42962",
   "onSale": false,
-  "price": 200,
-  "regularPrice": 200,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/01/PetD-2tablets.jpg",
   "categories": [
     {
       "id": 2325,
@@ -47,67 +46,23 @@
       "slug": "petd"
     }
   ],
-  "brands": [
-    {
-      "id": 2458,
-      "name": "PetD",
-      "slug": "petd"
-    }
-  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Keep your pets healthy, active, and protected with PetD Worm Tablets - a convenient, broad-spectrum deworming solution designed for both cats and dogs. Why deworming matters Internal parasites like roundworms, hookworms, and tapeworms can affect your pet’s digestion, energy levels, and overall wellbeing often without obvious signs. Routine deworming is essential to prevent infestations, support nutrient absorption, and maintain a strong, healthy pet. Powerful, targeted protection PetD combines three proven active ingredients; mebendazole, piperazine citrate, and praziquantel to effectively eliminate and control: Roundworms Hookworms Tapeworms This triple-action formula works quickly to clear existing worms and help restore your pet’s health. Easy to administer Giving PetD is simple and stress-free: Administer the tablet directly by placing it at the back of your pet’s mouth Or crush and mix with a small amount of food, milk, or soup Dosing guidance For best results, repeat the dose 3–4 weeks after the first treatment to fully break the parasite lifecycle and prevent reinfestation. Important notes Suitable for both cats and dogs Not recommended for unweaned puppies and kittens, as they are unlikely to carry tapeworm infections at that stage Support your pet’s health, simply and effectively With PetD Worm Tablets, you’re not just treating parasites you’re investing in your pet’s long-term health, comfort, and vitality. &nbsp;",
+  "images": [],
   "tags": [
     {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2021,
-      "name": "Dewormers",
-      "slug": "deworm"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2288,
-      "name": "Medicine",
-      "slug": "medicine"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
+      "name": "Pet Care",
       "slug": "pet-care"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/petd-deworm-2-tablets-dog-and-cat/",
-  "shortDescription": "Pet D worm tablets dewormer for dogs and cats is highly effective in the removal of roundworms and hookworms. Pack of 2 tablets.",
-  "description": "Keep your pets healthy, active, and protected with PetD Worm Tablets - a convenient, broad-spectrum deworming solution designed for both cats and dogs. Why deworming matters Internal parasites like roundworms, hookworms, and tapeworms can affect your pet’s digestion, energy levels, and overall wellbeing often without obvious signs. Routine deworming is essential to prevent infestations, support nutrient absorption, and maintain a strong, healthy pet. Powerful, targeted protection PetD combines three proven active ingredients; mebendazole, piperazine citrate, and praziquantel to effectively eliminate and control: Roundworms Hookworms Tapeworms This triple-action formula works quickly to clear existing worms and help restore your pet’s health. Easy to administer Giving PetD is simple and stress-free: Administer the tablet directly by placing it at the back of your pet’s mouth Or crush and mix with a small amount of food, milk, or soup Dosing guidance For best results, repeat the dose 3–4 weeks after the first treatment to fully break the parasite lifecycle and prevent reinfestation. Important notes Suitable for both cats and dogs Not recommended for unweaned puppies and kittens, as they are unlikely to carry tapeworm infections at that stage Support your pet’s health, simply and effectively With PetD Worm Tablets, you’re not just treating parasites you’re investing in your pet’s long-term health, comfort, and vitality. &nbsp;",
-  "images": [
-    {
-      "id": 43227,
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/01/PetD-2tablets.jpg",
-      "alt": "Petd Deworm 2 Tablets Dog And Cat",
-      "name": "PetD- 2tablets"
-    }
-  ],
+  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/petd-deworm-2-tablets-dog-and-cat/?add-to-cart=42962",
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2024-01-05T16:53:47",
-  "dateModified": "2026-06-22T13:12:07",
-  "brand": "PetD",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/01/PetD-2tablets.jpg"
+  "catalogVisibility": "visible"
 }

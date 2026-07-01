@@ -2,6 +2,7 @@
   "id": 36962,
   "name": "Generic Tooth Paste And Brush Set",
   "slug": "generic-tooth-paste-and-brush-set",
+  "sku": "PSK-36962",
   "onSale": false,
   "price": null,
   "regularPrice": null,
@@ -36,7 +37,12 @@
   "type": "simple",
   "description": "EASY TO USE — For first time brushers, put a small amount of toothpaste on your finger and invite the dog to lick it off. Slowly progress to rubbing your finger along the gum line and teeth. For best results, brush 2-3 times per week MADE WITH NATURAL INGREDIENTS — Natural ingredients ensure optimal dental health for your dog with a tasty beef flavor he or she will love PROMOTES HEALTHY GUMS — Dog dental kit is gentle yet effective in reducing tartar buildup, eliminating dog’s bad breath, and whitening and brightening your dog’s teeth 2 DUAL END GENTLE SILICON TOOTHBRUSHES FOR SMALL AND LARGE TEETH – are you looking for a more universal toothbrush so you can clean your dog’s or cat’s teeth regardless their breed or size? The dental cleaning kit for dogs is designed just for that. It comes with dual-ended bristles (small and large) so you can easily remove food debris from all tooth surfaces. Simply choose a bristle size that best conforms to your pet’s mouth. LONG CURVED HANDLE FOR EASIER REACH OF ALL MOUTH PARTS – are you looking for a dog toothbrush that can easily reach all areas in your pet’s mouth? It may be just what you need. This dog toothbrush comes with a long-curved handle to make it super easy to clean your dog’s teeth. The 0.75” finger opening is perfect for people with smaller fingers but is designed to expand and accommodate any size. Make it easier cleaning your dog’s teeth with the dog toothbrush.",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

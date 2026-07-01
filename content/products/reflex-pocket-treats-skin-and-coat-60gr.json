@@ -2,14 +2,13 @@
   "id": 52804,
   "name": "Reflex Pocket Treats Skin And Coat 60g",
   "slug": "reflex-pocket-treats-skin-and-coat-60gr",
-  "sku": "RCT018@F",
-  "onSale": true,
-  "price": 228,
-  "regularPrice": 350,
-  "salePrice": 228,
+  "sku": "PSK-52804",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CAT-POCKET-TREAT-SKIN-COAT.png",
   "categories": [
     {
       "id": 2332,
@@ -17,41 +16,18 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2223,
-      "name": "flash",
-      "slug": "flash"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=52804",
-  "shortDescription": "",
   "description": "",
-  "images": [
-    {
-      "id": 51536,
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CAT-POCKET-TREAT-SKIN-COAT.png",
-      "alt": "Reflex Cat Pocket Treat Skin & Coat 60g",
-      "name": "REFLEX CAT POCKET TREAT SKIN &amp; COAT"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-pocket-treats-skin-and-coat-60gr/?add-to-cart=52804",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2025-01-16T17:05:08",
-  "dateModified": "2026-05-06T17:11:01",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CAT-POCKET-TREAT-SKIN-COAT.png"
+  "catalogVisibility": "visible"
 }

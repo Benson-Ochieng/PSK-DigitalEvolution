@@ -2,14 +2,13 @@
   "id": 51535,
   "name": "Reflex Cat Pocket Treat Skin & Coat 60g",
   "slug": "reflex-cat-pocket-treat-skin-coat-60gr",
-  "sku": "RCT018",
+  "sku": "PSK-51535",
   "onSale": false,
-  "price": 350,
-  "regularPrice": 350,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CAT-POCKET-TREAT-SKIN-COAT.png",
   "categories": [
     {
       "id": 2325,
@@ -32,52 +31,18 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
-    {
-      "id": 2462,
-      "name": "Reflex",
-      "slug": "reflex"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 1156,
-      "name": "treats",
-      "slug": "treats"
-    }
-  ],
-  "inStock": true,
-  "averageRating": 5,
+  "inStock": false,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/reflex-cat-pocket-treat-skin-coat-60gr/",
-  "shortDescription": "Reflex Cat Pocket Treats – Delicious, Healthy Snacks for Your Feline Friend Treat your cat to the irresistible taste of Reflex Cat Pocket Treats, a tasty and nutritious reward for your furry companion. Made with high-quality ingredients and crafted for cats of all ages, these treats offer a burst of flavor with every bite.",
   "description": "It contributes to coat and skin health with its miraculous krill, biotin, and vitamins. Thanks to its taurine content, it supports the immune system, heart health, and visual functions. Composition: Derivatives of vegetable origin, meat and animal derivatives, cereals, oils and fats, vegetable protein extracts, yeasts (1% brewer’s yeasts), molluscs and crustaceans (0.3% dried krill source of fatty acids omega3), minerals. Nutrient Components Crude Protein %29 Fat Content %20 Crude Fibre %1,7 Crude Ash %6 Nutritional Supplements Vitamins: Vitamin A 6000 IU, Vitamin D3 400 IU, Vitamin E 100 mg, Taurine 1000 mg, Biotin 300 μg. Trace Elements: Zn 100 mg. Antioxidants. Colourants.",
-  "images": [
-    {
-      "id": 51536,
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CAT-POCKET-TREAT-SKIN-COAT.png",
-      "alt": "Reflex Cat Pocket Treat Skin & Coat 60g",
-      "name": "REFLEX CAT POCKET TREAT SKIN &amp; COAT"
-    }
-  ],
+  "images": [],
+  "tags": [],
+  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-cat-pocket-treat-skin-coat-60gr/?add-to-cart=51535",
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2024-11-20T16:16:04",
-  "dateModified": "2026-06-24T16:12:24",
-  "brand": "Reflex",
-  "weight_kg": 0.06,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CAT-POCKET-TREAT-SKIN-COAT.png"
+  "catalogVisibility": "visible"
 }

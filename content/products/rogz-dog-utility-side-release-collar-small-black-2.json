@@ -2,14 +2,13 @@
   "id": 52817,
   "name": "Rogz Dog Utility Side Release Collar Small Black",
   "slug": "rogz-dog-utility-side-release-collar-small-black-2",
-  "sku": "HB14-A@F",
-  "onSale": true,
-  "price": 712.5,
-  "regularPrice": 950,
-  "salePrice": 712.5,
+  "sku": "PSK-52817",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/HB14-A-Nitelife-Black.jpg",
   "categories": [
     {
       "id": 2332,
@@ -17,35 +16,18 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=52817",
-  "shortDescription": "",
   "description": "",
-  "images": [
-    {
-      "id": 17519,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/HB14-A-Nitelife-Black.jpg",
-      "alt": "Rogz Dog Utility Side Release Collar Small - Black",
-      "name": "HB14-A Nitelife Black"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-side-release-collar-small-black-2/?add-to-cart=52817",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2025-01-16T17:05:16",
-  "dateModified": "2026-05-06T17:11:02",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/HB14-A-Nitelife-Black.jpg"
+  "catalogVisibility": "visible"
 }

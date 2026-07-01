@@ -2,14 +2,13 @@
   "id": 45010,
   "name": "Dog Poop Bag Holder Bone Shape Red",
   "slug": "dog-poop-bag-holder-bone-shape-red",
-  "sku": "DPBHBRD@F",
-  "onSale": true,
-  "price": 273,
-  "regularPrice": 342,
-  "salePrice": 273,
+  "sku": "PSK-45010",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Poop-Bag-Holder-Bone-Shape-Red-DPBHBRD.jpg",
   "categories": [
     {
       "id": 2325,
@@ -37,71 +36,23 @@
       "slug": "generic"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 1205,
-      "name": "accessories",
-      "slug": "accessories"
-    },
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 34,
-      "name": "kitten",
-      "slug": "kitten"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
-      "slug": "pet-care"
-    },
-    {
-      "id": 36,
-      "name": "puppy",
-      "slug": "puppy"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=45010",
-  "shortDescription": "Dog Poop Bag Holder with Leash Clip. Comes with disposable waste bags, each bag is perforate for easy separation",
   "description": "Dog Poop Bag Holder with Leash Clip. Comes with disposable waste bags, each bag is perforate for easy separation",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 19967,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Poop-Bag-Holder-Bone-Shape-Red-DPBHBRD.jpg",
-      "alt": "Dog Poop Bag Holder Bone Shape Red",
-      "name": "Dog Poop Bag Holder &#8211; Bone Shape Red DPBHBRD"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/dog-poop-bag-holder-bone-shape-red/?add-to-cart=45010",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2024-03-06T17:10:52",
-  "dateModified": "2026-05-06T17:09:38",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Poop-Bag-Holder-Bone-Shape-Red-DPBHBRD.jpg"
+  "catalogVisibility": "visible"
 }

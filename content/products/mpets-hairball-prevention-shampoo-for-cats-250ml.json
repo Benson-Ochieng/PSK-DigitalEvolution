@@ -2,6 +2,7 @@
   "id": 27396,
   "name": "Mpets Hairball Prevention Shampoo For Cats 250Ml",
   "slug": "mpets-hairball-prevention-shampoo-for-cats-250ml",
+  "sku": "PSK-27396",
   "onSale": false,
   "price": null,
   "regularPrice": null,
@@ -36,7 +37,12 @@
   "type": "simple",
   "description": "Mpets Hairball Prevention Shampoo For Cats",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

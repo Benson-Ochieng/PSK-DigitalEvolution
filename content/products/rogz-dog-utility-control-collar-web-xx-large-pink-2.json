@@ -2,14 +2,13 @@
   "id": 52815,
   "name": "Rogz Dog Utility Control Collar Web XX-Large Pink",
   "slug": "rogz-dog-utility-control-collar-web-xx-large-pink-2",
-  "sku": "HCW19-K@F",
-  "onSale": true,
-  "price": 1950,
-  "regularPrice": 2600,
-  "salePrice": 1950,
+  "sku": "PSK-52815",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/HCW19-K_Control-Collar-Web.jpg",
   "categories": [
     {
       "id": 2332,
@@ -17,35 +16,18 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=52815",
-  "shortDescription": "",
   "description": "",
-  "images": [
-    {
-      "id": 17577,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/HCW19-K_Control-Collar-Web.jpg",
-      "alt": "Rogz Dog Utility Control Collar Web XX-Large - Pink",
-      "name": "HCW19 &#8211; K_Control Collar Web"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-control-collar-web-xx-large-pink-2/?add-to-cart=52815",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2025-01-16T17:05:15",
-  "dateModified": "2026-05-06T17:11:02",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/HCW19-K_Control-Collar-Web.jpg"
+  "catalogVisibility": "visible"
 }

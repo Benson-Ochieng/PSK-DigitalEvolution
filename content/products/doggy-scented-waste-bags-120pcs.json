@@ -2,14 +2,13 @@
   "id": 46785,
   "name": "Doggy Scented Waste Bags 120pcs",
   "slug": "doggy-scented-waste-bags-120pcs",
-  "sku": "PA0185",
+  "sku": "PSK-46785",
   "onSale": false,
-  "price": 500,
-  "regularPrice": 500,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/05/DOGGY-SCENTED-WASTE-BAGS-120Pcs.png",
   "categories": [
     {
       "id": 2325,
@@ -37,46 +36,23 @@
       "slug": "dog-hygiene-potty-solutions"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Introducing our Doggy Scented Waste Bags (120 pcs) – the perfect solution for clean and pleasant walks with your furry friend. Each bag is infused with a gentle, fresh scent that helps mask odors, ensuring you don’t have to worry about unpleasant smells. Made from durable, leak-proof material, these bags provide reliable protection while you clean up after your pet. Their extra-large size makes them easy to handle and tie securely, while the convenient dispenser rolls make them easy to carry on your walks. With 120 bags in each pack, you'll be well-equipped for countless outings with your beloved pooch. Make waste cleanup a breeze and enjoy the stroll! Clean up after your dog with these scented waste bags. Perfect size to pick up and dispose of pet waste. Neutralises Oduor convenient handle design fits most standard dispensers.",
+  "images": [],
   "tags": [
     {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
+      "name": "Pet Care",
       "slug": "pet-care"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/doggy-scented-waste-bags-120pcs/",
-  "shortDescription": "Introducing our Doggy Scented Waste Bags (120 pcs) – the perfect solution for clean and pleasant walks with your furry friend. With 120 bags in each pack, you'll be well-equipped for countless outings with your beloved pooch. Make waste cleanup a breeze and enjoy the stroll!",
-  "description": "Introducing our Doggy Scented Waste Bags (120 pcs) – the perfect solution for clean and pleasant walks with your furry friend. Each bag is infused with a gentle, fresh scent that helps mask odors, ensuring you don’t have to worry about unpleasant smells. Made from durable, leak-proof material, these bags provide reliable protection while you clean up after your pet. Their extra-large size makes them easy to handle and tie securely, while the convenient dispenser rolls make them easy to carry on your walks. With 120 bags in each pack, you'll be well-equipped for countless outings with your beloved pooch. Make waste cleanup a breeze and enjoy the stroll! Clean up after your dog with these scented waste bags. Perfect size to pick up and dispose of pet waste. Neutralises Oduor convenient handle design fits most standard dispensers.",
-  "images": [
-    {
-      "id": 50302,
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/05/DOGGY-SCENTED-WASTE-BAGS-120Pcs.png",
-      "alt": "Doggy Scented Waste Bags 120pcs",
-      "name": "DOGGY SCENTED WASTE BAGS (120Pcs)"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/doggy-scented-waste-bags-120pcs/?add-to-cart=46785",
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2024-05-07T15:44:37",
-  "dateModified": "2026-06-17T04:18:42",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/05/DOGGY-SCENTED-WASTE-BAGS-120Pcs.png"
+  "catalogVisibility": "visible"
 }

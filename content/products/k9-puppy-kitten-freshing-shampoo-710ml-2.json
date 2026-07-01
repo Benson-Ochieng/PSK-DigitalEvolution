@@ -2,14 +2,13 @@
   "id": 46452,
   "name": "K9 Puppy Kitten Freshing Shampoo 710ml",
   "slug": "k9-puppy-kitten-freshing-shampoo-710ml-2",
-  "sku": "K9PKFS710",
+  "sku": "PSK-46452",
   "onSale": false,
-  "price": 1300,
-  "regularPrice": 1300,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/09/WHITE-COAT-FRESHING_710ML.jpg",
   "categories": [
     {
       "id": 2345,
@@ -32,56 +31,23 @@
       "slug": "puppy-food"
     }
   ],
-  "brands": [],
-  "tags": [
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 2025,
-      "name": "shampoo",
-      "slug": "shampoo"
-    },
-    {
-      "id": 2109,
-      "name": "Small breeds",
-      "slug": "small-breeds"
-    }
-  ],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=46452",
-  "shortDescription": "For Kittens and Puppies.",
   "description": "To solve the white fur dog pet contaminated with urine stains, grease and other difficult to remove stains and restore the hair, the bright white of the fresh and natural state. Benefits No Bleaching and Whitens and brightens the coat. Antibacterial deodorant Superior ability to get rid of stains. Usage wet pet hair with warm water, gently scrub the proper amount to a bubble, a little massage, until the foam disappears rinse with warm water, cover note when washing pet ears and eyes. Ingredients Polyquaternium – 10, Tea Saponin, Coconut oil derivatives, D-panthenol",
-  "images": [
+  "images": [],
+  "tags": [
     {
-      "id": 43471,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/09/WHITE-COAT-FRESHING_710ML.jpg",
-      "alt": "K9 Puppy Kitten Freshing Shampoo 710ml",
-      "name": "WHITE-COAT-FRESHING_710ML"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/k9-puppy-kitten-freshing-shampoo-710ml-2/?add-to-cart=46452",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2024-04-26T16:15:53",
-  "dateModified": "2026-05-06T17:09:51",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/09/WHITE-COAT-FRESHING_710ML.jpg"
+  "catalogVisibility": "visible"
 }

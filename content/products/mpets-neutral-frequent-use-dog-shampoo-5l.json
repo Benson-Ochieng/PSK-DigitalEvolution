@@ -2,6 +2,7 @@
   "id": 27470,
   "name": "Mpets Neutral Frequent Use Dog Shampoo 5L",
   "slug": "mpets-neutral-frequent-use-dog-shampoo-5l",
+  "sku": "PSK-27470",
   "onSale": false,
   "price": null,
   "regularPrice": null,
@@ -36,7 +37,12 @@
   "type": "simple",
   "description": "Description: 5L This shampoo provides particularly mild care and is free of fragrances and colorants",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

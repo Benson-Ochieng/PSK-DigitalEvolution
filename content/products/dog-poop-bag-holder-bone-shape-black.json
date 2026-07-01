@@ -2,6 +2,7 @@
   "id": 20011,
   "name": "Dog Poop Bag Holder - Bone Shape Black",
   "slug": "dog-poop-bag-holder-bone-shape-black",
+  "sku": "PSK-20011",
   "onSale": false,
   "price": null,
   "regularPrice": null,
@@ -41,7 +42,12 @@
   "type": "simple",
   "description": "Dog Poop Bag Holder with Leash Clip. Comes with 15 disposable waste bags, each bag is perforate for easy separation",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

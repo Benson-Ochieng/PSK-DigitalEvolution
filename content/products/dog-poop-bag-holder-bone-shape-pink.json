@@ -2,6 +2,7 @@
   "id": 20014,
   "name": "Dog Poop Bag Holder - Bone Shape Pink",
   "slug": "dog-poop-bag-holder-bone-shape-pink",
+  "sku": "PSK-20014",
   "onSale": false,
   "price": null,
   "regularPrice": null,
@@ -41,7 +42,12 @@
   "type": "simple",
   "description": "Dog Poop Bag Holder with Leash Clip. Comes with disposable waste bags, each bag is perforate for easy seperation",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

@@ -2,14 +2,13 @@
   "id": 52802,
   "name": "Reflex Pocket Treats Hairball Control 60g",
   "slug": "reflex-pocket-treats-hairball-controll-60gr",
-  "sku": "RCT019@F",
-  "onSale": true,
-  "price": 280,
-  "regularPrice": 350,
-  "salePrice": 280,
+  "sku": "PSK-52802",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CAT-POCKET-TREAT-HAIRBALL-CONTROL-60GR.png",
   "categories": [
     {
       "id": 2332,
@@ -17,35 +16,18 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=52802",
-  "shortDescription": "",
   "description": "",
-  "images": [
-    {
-      "id": 51542,
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CAT-POCKET-TREAT-HAIRBALL-CONTROL-60GR.png",
-      "alt": "Reflex Cat Pocket Treat Hairball Control 60g",
-      "name": "REFLEX CAT POCKET TREAT HAIRBALL CONTROL 60GR"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-pocket-treats-hairball-controll-60gr/?add-to-cart=52802",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2025-01-16T17:05:07",
-  "dateModified": "2026-05-06T17:11:00",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CAT-POCKET-TREAT-HAIRBALL-CONTROL-60GR.png"
+  "catalogVisibility": "visible"
 }

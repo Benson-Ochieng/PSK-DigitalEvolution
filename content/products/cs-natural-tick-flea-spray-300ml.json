@@ -2,14 +2,13 @@
   "id": 52888,
   "name": "Cs Natural Tick & Flea Spray 300ml",
   "slug": "cs-natural-tick-flea-spray-300ml",
-  "sku": "NTFSPRAY",
+  "sku": "PSK-52888",
   "onSale": false,
-  "price": 557,
-  "regularPrice": 557,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/01/Natural-Tick-Flea-spray.png",
   "categories": [
     {
       "id": 2325,
@@ -37,62 +36,23 @@
       "slug": "dog-grooming-cleaning-supplies"
     }
   ],
-  "brands": [
-    {
-      "id": 2434,
-      "name": "CS",
-      "slug": "cs"
-    }
-  ],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "description": "Protect your pet from pesky ticks, fleas, and other unwanted pests with our Natural Tick & Flea Spray. This 300ml bottle contains a powerful, all-natural formula that effectively repels and eliminates ticks and fleas, providing your pet with the protection they need without the use of harsh chemicals. Safe for cats and dogs, this spray is perfect for regular use, ensuring your pet stays comfortable and pest-free. Key Features : Natural Ingredients : Made with plant-based oils like neem and eucalyptus, our formula is gentle yet effective, offering a chemical-free solution to pest protection. Effective Protection : Quickly repels and kills ticks, fleas, and other common pests, helping to prevent infestations and irritation. Safe for Pets : Non-toxic and safe for both cats and dogs, ensuring your pet’s health and well-being. Easy to Use : Simply spray onto your pet’s coat, avoiding their eyes and face, for quick and easy pest control. Gentle on Skin : Gentle enough for regular use, leaving your pet’s skin and fur soft without causing irritation. Directions : Shake well before use. Spray evenly over your pet’s coat, avoiding the face and eyes. Reapply as necessary, especially after bathing or outdoor activities. For best results, use regularly as part of your pet’s pest prevention routine. Ingredients: Deionized water (EDI Water), Citronella, lemontea oil, diluted eucalytus oil. Caution : Avoid spraying directly into your pet’s eyes. If contact occurs, rinse thoroughly with water. For external use only. Keep your pet protected with our Natural Tick & Flea Spray—your go-to solution for safe, chemical-free pest control!",
+  "images": [],
   "tags": [
     {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 2213,
-      "name": "dog",
-      "slug": "dog"
-    },
-    {
-      "id": 2098,
-      "name": "Grooming & Tools",
-      "slug": "grooming-tools"
-    },
-    {
-      "id": 1148,
-      "name": "pet care",
+      "name": "Pet Care",
       "slug": "pet-care"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/cs-natural-tick-flea-spray-300ml/",
-  "shortDescription": "This 300ml bottle contains a powerful, all-natural formula that effectively repels and eliminates ticks and fleas, providing your pet with the protection they need without the use of harsh chemicals. Safe for cats and dogs, this spray is perfect for regular use, ensuring your pet stays comfortable and pest-free.",
-  "description": "Protect your pet from pesky ticks, fleas, and other unwanted pests with our Natural Tick & Flea Spray. This 300ml bottle contains a powerful, all-natural formula that effectively repels and eliminates ticks and fleas, providing your pet with the protection they need without the use of harsh chemicals. Safe for cats and dogs, this spray is perfect for regular use, ensuring your pet stays comfortable and pest-free. Key Features : Natural Ingredients : Made with plant-based oils like neem and eucalyptus, our formula is gentle yet effective, offering a chemical-free solution to pest protection. Effective Protection : Quickly repels and kills ticks, fleas, and other common pests, helping to prevent infestations and irritation. Safe for Pets : Non-toxic and safe for both cats and dogs, ensuring your pet’s health and well-being. Easy to Use : Simply spray onto your pet’s coat, avoiding their eyes and face, for quick and easy pest control. Gentle on Skin : Gentle enough for regular use, leaving your pet’s skin and fur soft without causing irritation. Directions : Shake well before use. Spray evenly over your pet’s coat, avoiding the face and eyes. Reapply as necessary, especially after bathing or outdoor activities. For best results, use regularly as part of your pet’s pest prevention routine. Ingredients: Deionized water (EDI Water), Citronella, lemontea oil, diluted eucalytus oil. Caution : Avoid spraying directly into your pet’s eyes. If contact occurs, rinse thoroughly with water. For external use only. Keep your pet protected with our Natural Tick & Flea Spray—your go-to solution for safe, chemical-free pest control!",
-  "images": [
-    {
-      "id": 52889,
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/01/Natural-Tick-Flea-spray.png",
-      "alt": "Cs Natural Tick & Flea Spray 300ml",
-      "name": "Natural Tick &amp; Flea spray"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/cs-natural-tick-flea-spray-300ml/?add-to-cart=52888",
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2025-01-18T12:35:47",
-  "dateModified": "2026-06-17T04:28:57",
-  "brand": "CS",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/01/Natural-Tick-Flea-spray.png"
+  "catalogVisibility": "visible"
 }

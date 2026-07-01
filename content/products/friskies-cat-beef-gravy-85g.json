@@ -2,14 +2,13 @@
   "id": 57787,
   "name": "Friskies Cat Beef Gravy 85g",
   "slug": "friskies-cat-beef-gravy-85g",
-  "sku": "FCW008",
+  "sku": "PSK-57787",
   "onSale": false,
-  "price": 176,
-  "regularPrice": 176,
+  "price": null,
+  "regularPrice": null,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-10.png",
   "categories": [
     {
       "id": 2325,
@@ -32,57 +31,18 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
-    {
-      "id": 2439,
-      "name": "Friskies",
-      "slug": "friskies"
-    }
-  ],
-  "tags": [
-    {
-      "id": 820,
-      "name": "cat",
-      "slug": "cat"
-    },
-    {
-      "id": 33,
-      "name": "Cat Food",
-      "slug": "catfood"
-    },
-    {
-      "id": 621,
-      "name": "wet food",
-      "slug": "wet-food"
-    }
-  ],
-  "inStock": true,
-  "averageRating": 5,
+  "inStock": false,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/product/friskies-cat-beef-gravy-85g/",
-  "shortDescription": "FRISKIES Beef in Gravy 85G , a premium wet food designed to provide 100% complete nutrition . With juicy beef pieces in a succulent gravy , this meal supports healthy digestion, immune strength, and vitality , keeping your cat satisfied and thriving every day.",
   "description": "From the first bite to the last lick of gravy, Friskies® excites your cat’s senses and fuels their natural curiosity. This complete and balanced recipe provides all the essential nutrients adult cats need to thrive - keeping them healthy, happy, and playful every day. Why Your Cat Will Love It • Tender chunks in irresistible gravy for a flavour - packed meal. • 100% complete and balanced nutrition for adult cats. • Supports vitality, playfulness, and overall well-being. • A mealtime adventure that satisfies taste, texture, and aroma cravings. Perfect For Everyday feeding for adult cats who love variety and rich gravy-based meals",
-  "images": [
-    {
-      "id": 57788,
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-10.png",
-      "alt": "Friskies Cat Beef Gravy 85g",
-      "name": "Untitled design (10)"
-    }
-  ],
+  "images": [],
+  "tags": [],
+  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/friskies-cat-beef-gravy-85g/?add-to-cart=57787",
   "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2025-08-08T12:54:25",
-  "dateModified": "2026-06-17T04:30:24",
-  "brand": "Friskies",
-  "weight_kg": 0.085,
-  "animal_type": "cat",
-  "food_type": "wet",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2025/08/Untitled-design-10.png"
+  "catalogVisibility": "visible"
 }

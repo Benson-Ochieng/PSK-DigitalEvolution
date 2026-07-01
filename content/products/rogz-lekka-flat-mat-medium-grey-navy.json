@@ -2,14 +2,13 @@
   "id": 52829,
   "name": "Rogz Lekka Flat Mat Mediumgey/Navy",
   "slug": "rogz-lekka-flat-mat-medium-grey-navy",
-  "sku": "XPMM-G@F",
-  "onSale": true,
-  "price": 3780,
-  "regularPrice": 4200,
-  "salePrice": 3780,
+  "sku": "PSK-52829",
+  "onSale": false,
+  "price": null,
+  "regularPrice": null,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-LEKKA-FLAT-MAT-EDIUM-GREYNAVY.png",
   "categories": [
     {
       "id": 2332,
@@ -17,35 +16,18 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=52829",
-  "shortDescription": "",
   "description": "",
-  "images": [
-    {
-      "id": 50112,
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-LEKKA-FLAT-MAT-EDIUM-GREYNAVY.png",
-      "alt": "Rogz Lekka Flat Mat Mediumgey/Navy",
-      "name": "ROGZ LEKKA FLAT MAT- EDIUM GREYNAVY"
-    }
-  ],
-  "stockStatus": "outofstock",
+  "images": [],
+  "tags": [],
+  "brands": [],
+  "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-lekka-flat-mat-medium-grey-navy/?add-to-cart=52829",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "visible",
-  "dateCreated": "2025-01-16T17:05:23",
-  "dateModified": "2026-05-06T17:11:02",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-LEKKA-FLAT-MAT-EDIUM-GREYNAVY.png"
+  "catalogVisibility": "visible"
 }

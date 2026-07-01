@@ -2,6 +2,7 @@
   "id": 27310,
   "name": "Mpets Cat Shampoo 250Ml",
   "slug": "mpets-cat-shampoo-250ml",
+  "sku": "PSK-27310",
   "onSale": false,
   "price": null,
   "regularPrice": null,
@@ -36,7 +37,12 @@
   "type": "simple",
   "description": "Description: This shampoo provides particularly mild care thanks to the chamomile extracts and helps to revitalize the coat. Composition: Anionic Surfactants, Non-ionic Surfactants, Chamomile Extract, Preservatives, Fragrance and Colourants.",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

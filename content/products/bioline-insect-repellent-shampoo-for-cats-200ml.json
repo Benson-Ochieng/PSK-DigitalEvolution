@@ -2,6 +2,7 @@
   "id": 36722,
   "name": "Bioline Insect Repellent Shampoo For Cats 200ml",
   "slug": "bioline-insect-repellent-shampoo-for-cats-200ml",
+  "sku": "PSK-36722",
   "onSale": false,
   "price": null,
   "regularPrice": null,
@@ -26,7 +27,12 @@
   "type": "simple",
   "description": "Protects against damage caused by biting insects, using a mild formula of Margosa extract, which deprives fleas and ticks of their ability to feed, thus removing them while cleaning. Effectively alleviate the irritation to your cat, making their coat healthy and shiny. KEY BENEFITS: Contains mild formula of Margosa extract, which deprives fleas and ticks of their ability to feed Removes fleas and ticks while cleaning Effectively alleviate irritation USAGE GUIDE: Wet cat thoroughly with normal or warm water. Use appropriate quantity of shampoo, rub into coat until a luxurious lather is built up. Rinse thoroughly till the lather is washed completely. Dry the coat with towel.",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

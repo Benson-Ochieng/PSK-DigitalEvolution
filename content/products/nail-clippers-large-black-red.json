@@ -2,6 +2,7 @@
   "id": 20322,
   "name": "Pet Nail Clippers - Large - Black and Red",
   "slug": "nail-clippers-large-black-red",
+  "sku": "PSK-20322",
   "onSale": false,
   "price": null,
   "regularPrice": null,
@@ -66,7 +67,12 @@
   "type": "simple",
   "description": "Large size pet nail clippers with file. Colour: black and red. 16cm Length, 120g weight",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

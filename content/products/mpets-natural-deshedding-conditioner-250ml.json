@@ -2,6 +2,7 @@
   "id": 27467,
   "name": "Mpets Natural Deshedding Conditioner 250Ml",
   "slug": "mpets-natural-deshedding-conditioner-250ml",
+  "sku": "PSK-27467",
   "onSale": false,
   "price": null,
   "regularPrice": null,
@@ -36,7 +37,12 @@
   "type": "simple",
   "description": "Mpets Natural Deshedding Conditioner 250Ml",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,

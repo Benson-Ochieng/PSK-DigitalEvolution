@@ -2,6 +2,7 @@
   "id": 18048,
   "name": "Dog Scooper- Pink",
   "slug": "dog-scooper-pink",
+  "sku": "PSK-18048",
   "onSale": false,
   "price": null,
   "regularPrice": null,
@@ -31,7 +32,12 @@
   "type": "simple",
   "description": "Premium Large Dog pooper scoop - Pink",
   "images": [],
-  "tags": [],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    }
+  ],
   "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
