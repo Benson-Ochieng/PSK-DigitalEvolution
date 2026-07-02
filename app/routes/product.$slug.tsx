@@ -269,6 +269,7 @@ export default function ProductDetail() {
 
             {/* CTAs & Competitors */}
             <div style={{ display: "flex", flexDirection: "column", gap: "1rem", marginTop: "1rem" }}>
+              {/*
               <a
                 href={`https://wa.me/254795350292?text=${waMsg}`}
                 target="_blank"
@@ -290,6 +291,7 @@ export default function ProductDetail() {
               >
                 📱 Order via WhatsApp
               </a>
+              */}
 
 
             </div>
