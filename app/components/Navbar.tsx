@@ -437,7 +437,7 @@ export default function Navbar() {
               </span>
               <ul className="dropdown-menu pet-dropdown">
                 <li>
-                  <Link to="/product-category/cat-food/" className="dropdown-item">
+                  <Link to="/product-category/cat-supplies-store/" className="dropdown-item">
                     <span className="dropdown-item-icon">
                       <img src="/images/icons/adultcat-icon-1.png.webp" alt="Cat Icon" className="pet-icon-img" />
                     </span>
@@ -453,7 +453,7 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/product-category/dog-food/" className="dropdown-item">
+                  <Link to="/product-category/dog-supplies-store/" className="dropdown-item">
                     <span className="dropdown-item-icon">
                       <img src="/images/icons/dog-icon.png.webp" alt="Dog Icon" className="pet-icon-img" />
                     </span>
@@ -469,7 +469,7 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/product-category/bird-food/" className="dropdown-item">
+                  <Link to="/product-category/bird-supplies-store/" className="dropdown-item">
                     <span className="dropdown-item-icon">
                       <img src="/images/icons/bird-icon-1.png.webp" alt="Bird Icon" className="pet-icon-img" />
                     </span>
@@ -477,7 +477,7 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/product-category/rabbit-food/" className="dropdown-item">
+                  <Link to="/product-category/rabbit-supplies-store/" className="dropdown-item">
                     <span className="dropdown-item-icon">
                       <img src="/images/icons/rabbit-icon.png.webp" alt="Rabbit Icon" className="pet-icon-img" />
                     </span>
