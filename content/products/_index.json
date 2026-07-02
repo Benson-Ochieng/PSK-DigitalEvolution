@@ -381,93 +381,10 @@
     "status": "publish"
   },
   {
-    "id": 52822,
-    "name": "Rogz Dog Utility Step In Harness Large Pink",
-    "slug": "rogz-dog-utility-step-in-harness-large-pink-2",
-    "sku": "PSK-52822",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2351,
-        "name": "Collars, Leashes & Harnesses",
-        "slug": "dog-collars-leashes-and-harnesses"
-      },
-      {
-        "id": 2345,
-        "name": "Dog",
-        "slug": "dog-supplies-store"
-      },
-      {
-        "id": 2352,
-        "name": "Dog Harnesses",
-        "slug": "dog-harnesses"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 52823,
-    "name": "Rogz Dog Utility Step In Harness Small Black",
-    "slug": "rogz-dog-utility-step-in-harness-small-black-2",
-    "sku": "PSK-52823",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2351,
-        "name": "Collars, Leashes & Harnesses",
-        "slug": "dog-collars-leashes-and-harnesses"
-      },
-      {
-        "id": 2345,
-        "name": "Dog",
-        "slug": "dog-supplies-store"
-      },
-      {
-        "id": 2352,
-        "name": "Dog Harnesses",
-        "slug": "dog-harnesses"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
     "id": 52824,
     "name": "Rogz Dog Yumz Treat Toy Bone 15cm",
     "slug": "rogz-dog-yumz-treat-toy-bone-15cm",
     "sku": "PSK-52824",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 52825,
-    "name": "Rogz Fashion Classic Collar Medium Zebra",
-    "slug": "rogz-fashion-classic-collar-medium-zebra",
-    "sku": "PSK-52825",
     "regularPrice": null,
     "salePrice": null,
     "price": null,
@@ -590,6 +507,182 @@
     "status": "publish"
   },
   {
+    "id": 45002,
+    "name": "Bioline Dental Hygiene set for cats",
+    "slug": "bioline-dental-hygiene-set-for-cats",
+    "sku": "PSK-45002",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 1204,
+        "name": "Accessories",
+        "slug": "accessories"
+      },
+      {
+        "id": 2325,
+        "name": "Cat",
+        "slug": "cat-supplies-store"
+      },
+      {
+        "id": 2343,
+        "name": "Cat Grooming",
+        "slug": "cat-grooming"
+      },
+      {
+        "id": 2145,
+        "name": "kitten",
+        "slug": "kitten"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "name": "Pet Care",
+        "slug": "pet-care"
+      }
+    ],
+    "status": "publish"
+  },
+  {
+    "id": 52790,
+    "name": "Proline Canned Cat Food Liver InGravy 415g",
+    "slug": "proline-canned-cat-food-liver-in-gravy-415gr",
+    "sku": "PSK-52790",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52816,
+    "name": "Rogz Dog Utility Control Harness Medium Red",
+    "slug": "rogz-dog-utility-control-harness-medium-red-2",
+    "sku": "PSK-52816",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2351,
+        "name": "Collars, Leashes & Harnesses",
+        "slug": "dog-collars-leashes-and-harnesses"
+      },
+      {
+        "id": 2345,
+        "name": "Dog",
+        "slug": "dog-supplies-store"
+      },
+      {
+        "id": 2352,
+        "name": "Dog Harnesses",
+        "slug": "dog-harnesses"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52822,
+    "name": "Rogz Dog Utility Step In Harness Large Pink",
+    "slug": "rogz-dog-utility-step-in-harness-large-pink-2",
+    "sku": "PSK-52822",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2351,
+        "name": "Collars, Leashes & Harnesses",
+        "slug": "dog-collars-leashes-and-harnesses"
+      },
+      {
+        "id": 2345,
+        "name": "Dog",
+        "slug": "dog-supplies-store"
+      },
+      {
+        "id": 2352,
+        "name": "Dog Harnesses",
+        "slug": "dog-harnesses"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52823,
+    "name": "Rogz Dog Utility Step In Harness Small Black",
+    "slug": "rogz-dog-utility-step-in-harness-small-black-2",
+    "sku": "PSK-52823",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2351,
+        "name": "Collars, Leashes & Harnesses",
+        "slug": "dog-collars-leashes-and-harnesses"
+      },
+      {
+        "id": 2345,
+        "name": "Dog",
+        "slug": "dog-supplies-store"
+      },
+      {
+        "id": 2352,
+        "name": "Dog Harnesses",
+        "slug": "dog-harnesses"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52825,
+    "name": "Rogz Fashion Classic Collar Medium Zebra",
+    "slug": "rogz-fashion-classic-collar-medium-zebra",
+    "sku": "PSK-52825",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
     "id": 8436,
     "name": "SUPER Saver January Cat Bundle: 25 Assorted 100g Bonnie Pouches + ONE 5L Cat Litter",
     "slug": "super-saver-january-cat-bundle",
@@ -649,6 +742,47 @@
     ],
     "brands": [],
     "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 20021,
+    "name": "Dog Toothbrush Stick Paw - Large Turquoise",
+    "slug": "dog-toothbrush-stick-paw-large-turquoise",
+    "sku": "PSK-20021",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2399,
+        "name": "Dental Care",
+        "slug": "dental-care"
+      },
+      {
+        "id": 2345,
+        "name": "Dog",
+        "slug": "dog-supplies-store"
+      },
+      {
+        "id": 2360,
+        "name": "Dog Grooming & Cleaning",
+        "slug": "dog-grooming-cleaning-supplies"
+      },
+      {
+        "id": 2096,
+        "name": "Generic",
+        "slug": "generic"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "name": "Pet Care",
+        "slug": "pet-care"
+      }
+    ],
     "status": "publish"
   },
   {
@@ -733,47 +867,6 @@
     ],
     "brands": [],
     "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 45002,
-    "name": "Bioline Dental Hygiene set for cats",
-    "slug": "bioline-dental-hygiene-set-for-cats",
-    "sku": "PSK-45002",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 1204,
-        "name": "Accessories",
-        "slug": "accessories"
-      },
-      {
-        "id": 2325,
-        "name": "Cat",
-        "slug": "cat-supplies-store"
-      },
-      {
-        "id": 2343,
-        "name": "Cat Grooming",
-        "slug": "cat-grooming"
-      },
-      {
-        "id": 2145,
-        "name": "kitten",
-        "slug": "kitten"
-      }
-    ],
-    "brands": [],
-    "tags": [
-      {
-        "name": "Pet Care",
-        "slug": "pet-care"
-      }
-    ],
     "status": "publish"
   },
   {
@@ -1091,120 +1184,6 @@
     "status": "publish"
   },
   {
-    "id": 52788,
-    "name": "Proline Bentonite Clumping Cat Litter Odourless 5l",
-    "slug": "proline-bentonite-clumping-cat-litter-odourless-5l",
-    "sku": "PSK-52788",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 52790,
-    "name": "Proline Canned Cat Food Liver InGravy 415g",
-    "slug": "proline-canned-cat-food-liver-in-gravy-415gr",
-    "sku": "PSK-52790",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 52816,
-    "name": "Rogz Dog Utility Control Harness Medium Red",
-    "slug": "rogz-dog-utility-control-harness-medium-red-2",
-    "sku": "PSK-52816",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2351,
-        "name": "Collars, Leashes & Harnesses",
-        "slug": "dog-collars-leashes-and-harnesses"
-      },
-      {
-        "id": 2345,
-        "name": "Dog",
-        "slug": "dog-supplies-store"
-      },
-      {
-        "id": 2352,
-        "name": "Dog Harnesses",
-        "slug": "dog-harnesses"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 20021,
-    "name": "Dog Toothbrush Stick Paw - Large Turquoise",
-    "slug": "dog-toothbrush-stick-paw-large-turquoise",
-    "sku": "PSK-20021",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2399,
-        "name": "Dental Care",
-        "slug": "dental-care"
-      },
-      {
-        "id": 2345,
-        "name": "Dog",
-        "slug": "dog-supplies-store"
-      },
-      {
-        "id": 2360,
-        "name": "Dog Grooming & Cleaning",
-        "slug": "dog-grooming-cleaning-supplies"
-      },
-      {
-        "id": 2096,
-        "name": "Generic",
-        "slug": "generic"
-      }
-    ],
-    "brands": [],
-    "tags": [
-      {
-        "name": "Pet Care",
-        "slug": "pet-care"
-      }
-    ],
-    "status": "publish"
-  },
-  {
     "id": 51535,
     "name": "Reflex Cat Pocket Treat Skin & Coat 60g",
     "slug": "reflex-cat-pocket-treat-skin-coat-60gr",
@@ -1234,6 +1213,27 @@
         "id": 179,
         "name": "Reflex",
         "slug": "reflex"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52788,
+    "name": "Proline Bentonite Clumping Cat Litter Odourless 5l",
+    "slug": "proline-bentonite-clumping-cat-litter-odourless-5l",
+    "sku": "PSK-52788",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
       }
     ],
     "brands": [],
@@ -35110,27 +35110,6 @@
     "status": "publish"
   },
   {
-    "id": 52785,
-    "name": "Proline Bentonite Clumping Cat Litter Lavender 10l",
-    "slug": "proline-bentonite-clumping-cat-litter-lavender-10l-3",
-    "sku": "PSK-52785",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
     "id": 39004,
     "name": "SHORT EXPIRY-CLEARANCE: Proline Puppy Food - Chicken 15kg",
     "slug": "short-expiry-clearance-proline-puppy-food-chicken-15kg",
@@ -35309,6 +35288,27 @@
         "id": 180,
         "name": "Spectrum",
         "slug": "spectrum"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52785,
+    "name": "Proline Bentonite Clumping Cat Litter Lavender 10l",
+    "slug": "proline-bentonite-clumping-cat-litter-lavender-10l-3",
+    "sku": "PSK-52785",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
       }
     ],
     "brands": [],

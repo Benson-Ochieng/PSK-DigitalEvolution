@@ -269,6 +269,7 @@ export default function ProductDetail() {
 
             {/* CTAs & Competitors */}
             <div style={{ display: "flex", flexDirection: "column", gap: "1rem", marginTop: "1rem" }}>
+              {/*
               <a
                 href={`https://wa.me/254795350292?text=${waMsg}`}
                 target="_blank"
@@ -290,66 +291,9 @@ export default function ProductDetail() {
               >
                 📱 Order via WhatsApp
               </a>
+              */}
 
-              {saving > 0 && (
-                <div style={{
-                  background: "#f0fdf4",
-                  border: "1px solid #bbf7d0",
-                  padding: "0.85rem 1rem",
-                  borderRadius: "4px",
-                  fontFamily: "var(--font-sans)",
-                  fontSize: "0.85rem",
-                  color: "#16a34a",
-                  fontWeight: 600
-                }}>
-                  ▼ You save KSh {saving.toLocaleString()} compared to {cheapestComp?.store}!
-                </div>
-              )}
 
-              {competitors.length > 0 && (
-                <div style={{
-                  border: "1px solid #e2e8f0",
-                  borderRadius: "6px",
-                  padding: "1rem",
-                  background: "#f8fafc",
-                  marginTop: "0.5rem"
-                }}>
-                  <div style={{
-                    fontFamily: "var(--font-sans)",
-                    fontSize: "0.75rem",
-                    fontWeight: 700,
-                    color: "#64748b",
-                    textTransform: "uppercase",
-                    letterSpacing: "0.05em",
-                    marginBottom: "0.75rem"
-                  }}>
-                    Supermarket Price Comparison
-                  </div>
-                  {competitors.map((c: any) => {
-                    const diff = ourPrice ? Math.round(c.price - ourPrice.price) : 0;
-                    return (
-                      <div key={c.store} style={{
-                        display: "flex",
-                        justifyContent: "space-between",
-                        alignItems: "center",
-                        paddingBottom: "0.5rem",
-                        marginBottom: "0.5rem",
-                        borderBottom: "1px dashed #cbd5e1"
-                      }}>
-                        <span style={{ fontSize: "0.85rem", fontWeight: 600, color: "#475569" }}>{c.store}</span>
-                        <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
-                          <span style={{ fontSize: "0.9rem", fontWeight: 700, color: "#1e293b" }}>{Number(c.price).toLocaleString()}KSh</span>
-                          {diff > 0 && (
-                            <span style={{ fontSize: "0.7rem", fontWeight: 700, color: "#16a34a" }}>
-                              (+{diff}KSh)
-                            </span>
-                          )}
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
-              )}
             </div>
           </div>
         </div>
