@@ -56,16 +56,12 @@ export default function CartPage() {
   return (
     <>
       <Navbar />
-      
+
       <div className="page" style={{ paddingTop: "2.5rem", paddingBottom: "4rem" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 1.5rem" }}>
-          
+
           {/* Header Banner */}
           <PageHeader title="Cart" />
-
-          <div style={{ marginBottom: "1.5rem" }}>
-            <span style={{ fontSize: "0.85rem", color: "#3b82f6", cursor: "pointer" }}>Edit This</span>
-          </div>
 
           {items.length === 0 ? (
             /* Empty Cart View */
@@ -99,8 +95,8 @@ export default function CartPage() {
                 Your basket is currently empty.
               </div>
 
-              <Link 
-                to="/shop" 
+              <Link
+                to="/shop"
                 style={{
                   background: "#ece9e2",
                   color: "#1a1a1a",
@@ -120,12 +116,12 @@ export default function CartPage() {
           ) : (
             /* Populated Cart View */
             <div style={{ marginBottom: "3rem" }}>
-              
+
               {/* Top Checkout Header Row */}
               <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "1.5rem" }}>
                 <div style={{ flex: 1 }} />
                 <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
-                  <Link 
+                  <Link
                     to="/checkout"
                     style={{
                       background: "#1a5ca3",
@@ -152,7 +148,7 @@ export default function CartPage() {
 
               {/* Cart Table Container */}
               <div style={{ border: "1px solid #dcdcdc", borderRadius: "4px", overflow: "hidden", marginBottom: "1.5rem" }}>
-                
+
                 {/* Table Header */}
                 <div style={{
                   background: "#1a5ca3",
@@ -182,7 +178,7 @@ export default function CartPage() {
                   }}>
                     {/* Product cell: Delete, Image, Name */}
                     <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
-                      <button 
+                      <button
                         onClick={() => removeItem(item.id)}
                         style={{
                           background: "none",
@@ -234,7 +230,7 @@ export default function CartPage() {
                     {/* Quantity cell */}
                     <div style={{ display: "flex", justifyContent: "flex-end" }}>
                       <div style={{ display: "inline-flex", border: "1px solid #777777", borderRadius: "0px", overflow: "hidden" }}>
-                        <button 
+                        <button
                           onClick={() => updateQty(item.id, item.quantity - 1)}
                           style={{
                             padding: "0.25rem 0.6rem",
@@ -247,10 +243,19 @@ export default function CartPage() {
                         >
                           -
                         </button>
-                        <input 
-                          type="text" 
-                          readOnly 
-                          value={item.quantity} 
+                        <input
+                          type="text"
+                          value={item.quantity}
+                          onChange={e => {
+                            const cleanVal = e.target.value.replace(/[^0-9]/g, "");
+                            const val = cleanVal === "" ? 0 : parseInt(cleanVal, 10);
+                            updateQty(item.id, val);
+                          }}
+                          onBlur={() => {
+                            if (item.quantity <= 0) {
+                              updateQty(item.id, 1);
+                            }
+                          }}
                           style={{
                             width: "30px",
                             borderTop: "none",
@@ -264,7 +269,7 @@ export default function CartPage() {
                             background: "#ffffff",
                           }}
                         />
-                        <button 
+                        <button
                           onClick={() => updateQty(item.id, item.quantity + 1)}
                           style={{
                             padding: "0.25rem 0.6rem",
@@ -287,7 +292,7 @@ export default function CartPage() {
               <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginTop: "1rem" }}>
                 <div style={{ flex: 1 }} />
                 <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
-                  <Link 
+                  <Link
                     to="/checkout"
                     style={{
                       background: "#1a5ca3",
@@ -341,8 +346,8 @@ export default function CartPage() {
                 const salePrice = Number(p.our_price);
 
                 return (
-                  <div 
-                    key={p.id} 
+                  <div
+                    key={p.id}
                     style={{
                       background: "#ffffff",
                       border: "1px solid #eaeaea",
@@ -379,7 +384,7 @@ export default function CartPage() {
                     )}
 
                     {/* Image */}
-                     <Link to={p.slug ? `/product/${p.slug}/` : `/shop/${p.id}`} style={{ textDecoration: "none" }}>
+                    <Link to={p.slug ? `/product/${p.slug}/` : `/shop/${p.id}`} style={{ textDecoration: "none" }}>
                       <div style={{
                         height: "150px",
                         display: "flex",
@@ -427,7 +432,7 @@ export default function CartPage() {
                     </div>
 
                     {/* Add to Cart button */}
-                    <button 
+                    <button
                       onClick={() => handleAddToCart(p)}
                       style={{
                         background: "#1a5ca3",

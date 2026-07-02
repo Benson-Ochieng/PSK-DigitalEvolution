@@ -1031,7 +1031,7 @@ export default function VpBackendOrders() {
                 checked={showChannelColumn}
                 onChange={(e) => setShowChannelColumn(e.target.checked)}
               />
-              Channel
+              Payment Method
             </label>
             <label className="checkbox-label">
               <input
@@ -1285,7 +1285,7 @@ export default function VpBackendOrders() {
             value={tempChannel}
             onChange={(e) => setTempChannel(e.target.value)}
           >
-            <option value="">All sales channels</option>
+            <option value="">All payment methods</option>
             {uniqueChannels.map((c) => (
               <option key={c} value={c}>
                 {c}
@@ -1405,7 +1405,7 @@ export default function VpBackendOrders() {
                     Order {renderSortIndicator("id")}
                   </th>
                 )}
-                {showChannelColumn && <th>Channel</th>}
+                {showChannelColumn && <th>Payment Method</th>}
                 {showDateColumn && (
                   <th onClick={() => handleSort("date")} style={{ cursor: "pointer", userSelect: "none" }}>
                     Date {renderSortIndicator("date")}
@@ -1709,6 +1709,24 @@ export default function VpBackendOrders() {
                 <p style={{ color: "#2ed573", fontWeight: "600" }}>Shipping: {formatKsh(selectedOrder.shipping)}</p>
               </div>
             </div>
+            
+            {selectedOrder.notes && (
+              <div style={{
+                background: "rgba(255, 255, 255, 0.02)",
+                border: "1px solid rgba(255, 255, 255, 0.04)",
+                borderRadius: "8px",
+                padding: "16px",
+                marginBottom: "20px",
+                fontSize: "13px"
+              }}>
+                <span style={{ display: "block", fontSize: "11px", color: "rgba(255, 255, 255, 0.4)", textTransform: "uppercase", marginBottom: "8px", fontWeight: "bold" }}>
+                  📋 Additional Delivery Information / Notes
+                </span>
+                <p style={{ color: "#fff", whiteSpace: "pre-line", margin: 0, lineHeight: "1.5" }}>
+                  {selectedOrder.notes}
+                </p>
+              </div>
+            )}
 
             <div className="modal-items-list">
               <h4 style={{ fontSize: "12px", color: "rgba(255,255,255,0.4)", textTransform: "uppercase", marginBottom: "12px" }}>Ordered Items</h4>
