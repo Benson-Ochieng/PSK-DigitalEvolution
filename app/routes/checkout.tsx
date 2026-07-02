@@ -1602,7 +1602,7 @@ export default function CheckoutPage() {
                         style={{ marginTop: "0.2rem", cursor: "pointer" }}
                       />
                       <label htmlFor="terms" style={{ fontSize: "0.85rem", color: "#333", cursor: "pointer", userSelect: "none" }}>
-                        I have read and agree to the website <span style={{ color: "#ef4444", textDecoration: "underline", cursor: "pointer" }}>terms and conditions</span> *
+                        I have read and agree to the website <Link to="/terms-and-conditions" target="_blank" style={{ color: "#1e5da7", textDecoration: "underline", cursor: "pointer" }}>terms and conditions</Link> *
                       </label>
                     </div>
 
@@ -1635,33 +1635,32 @@ export default function CheckoutPage() {
                       {submitting ? "Placing Order..." : "Place Order"}
                     </button>
 
-                    {/* Complete Order via WhatsApp */}
-                    <button
-                      type="button"
-                      onClick={handleWhatsAppCheckout}
-                      style={{
-                        background: "#4caf50",
-                        color: "#ffffff",
-                        border: "none",
-                        borderRadius: "20px",
-                        padding: "0.7rem",
-                        width: "100%",
-                        fontWeight: "bold",
-                        fontSize: "0.95rem",
-                        cursor: "pointer",
-                        marginTop: "1rem",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        gap: "0.5rem",
-                        boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
-                        outline: "none"
-                      }}
-                    >
-                      <i className="fa fa-whatsapp" style={{ fontSize: "18px" }}></i> Complete Order via WhatsApp
-                    </button>
-
                   </div>
+
+                  {/* Complete Order via WhatsApp */}
+                  <button
+                    type="button"
+                    onClick={handleWhatsAppCheckout}
+                    style={{
+                      background: "#4caf50",
+                      color: "#ffffff",
+                      border: "none",
+                      borderRadius: "20px",
+                      padding: "0.75rem",
+                      width: "100%",
+                      fontWeight: "bold",
+                      fontSize: "0.95rem",
+                      cursor: "pointer",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      gap: "0.5rem",
+                      boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
+                      outline: "none"
+                    }}
+                  >
+                    <i className="fa fa-whatsapp" style={{ fontSize: "18px" }}></i> Complete Order via WhatsApp
+                  </button>
 
                 </div>
 
