@@ -31,7 +31,7 @@
   --border-dark: #1E5DA7;
 
   /* Typography */
-  --font-sans: 'Roboto', system-ui, -apple-system, sans-serif;
+  --font-sans: 'Montserrat', system-ui, -apple-system, sans-serif;
   --font-serif: 'Roboto Slab', Georgia, serif;
   --font-mono: 'JetBrains Mono', monospace;
 
@@ -1048,6 +1048,10 @@ body {
   text-decoration: none;
   color: inherit;
   flex: 1;
+}
+
+.product-card-link:hover {
+  text-decoration: none;
 }
 
 .product-card-img {
