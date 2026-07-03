@@ -255,27 +255,6 @@
     "status": "publish"
   },
   {
-    "id": 52803,
-    "name": "Reflex Pocket Treats Sensitive 60g",
-    "slug": "reflex-pocket-treats-sensitive-60gr",
-    "sku": "PSK-52803",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
     "id": 52804,
     "name": "Reflex Pocket Treats Skin And Coat 60g",
     "slug": "reflex-pocket-treats-skin-and-coat-60gr",
@@ -486,27 +465,6 @@
     "status": "publish"
   },
   {
-    "id": 52830,
-    "name": "Rogz Reflectocat Safety Collar Small Blue Fish",
-    "slug": "rogz-reflectocat-safety-collar-small-blue-fish",
-    "sku": "PSK-52830",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
     "id": 45002,
     "name": "Bioline Dental Hygiene set for cats",
     "slug": "bioline-dental-hygiene-set-for-cats",
@@ -600,6 +558,251 @@
     "status": "publish"
   },
   {
+    "id": 20021,
+    "name": "Dog Toothbrush Stick Paw - Large Turquoise",
+    "slug": "dog-toothbrush-stick-paw-large-turquoise",
+    "sku": "PSK-20021",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2399,
+        "name": "Dental Care",
+        "slug": "dental-care"
+      },
+      {
+        "id": 2345,
+        "name": "Dog",
+        "slug": "dog-supplies-store"
+      },
+      {
+        "id": 2360,
+        "name": "Dog Grooming & Cleaning",
+        "slug": "dog-grooming-cleaning-supplies"
+      },
+      {
+        "id": 2096,
+        "name": "Generic",
+        "slug": "generic"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "name": "Pet Care",
+        "slug": "pet-care"
+      }
+    ],
+    "status": "publish"
+  },
+  {
+    "id": 51535,
+    "name": "Reflex Cat Pocket Treat Skin & Coat 60g",
+    "slug": "reflex-cat-pocket-treat-skin-coat-60gr",
+    "sku": "PSK-51535",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2325,
+        "name": "Cat",
+        "slug": "cat-supplies-store"
+      },
+      {
+        "id": 2326,
+        "name": "Cat Food & Treats",
+        "slug": "cat-food-and-treats"
+      },
+      {
+        "id": 2330,
+        "name": "Cat Treats",
+        "slug": "cat-treats"
+      },
+      {
+        "id": 179,
+        "name": "Reflex",
+        "slug": "reflex"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52777,
+    "name": "Pet Ball Rubber For Dog Treat",
+    "slug": "pet-ball-rubber-for-dog-treat",
+    "sku": "PSK-52777",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52778,
+    "name": "Pet Ball Spiky Asst Col",
+    "slug": "pet-ball-spiky-asst-col",
+    "sku": "PSK-52778",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52779,
+    "name": "Pet Tennis Ball Paw/Jungle 3pc",
+    "slug": "pet-tennis-ball-paw-jungle-3pc-2",
+    "sku": "PSK-52779",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52780,
+    "name": "Pet Tyre Ball Play Toy 9.5cm",
+    "slug": "pet-tyre-ball-play-toy-9-5cm-3",
+    "sku": "PSK-52780",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52788,
+    "name": "Proline Bentonite Clumping Cat Litter Odourless 5l",
+    "slug": "proline-bentonite-clumping-cat-litter-odourless-5l",
+    "sku": "PSK-52788",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52803,
+    "name": "Reflex Pocket Treats Sensitive 60g",
+    "slug": "reflex-pocket-treats-sensitive-60gr",
+    "sku": "PSK-52803",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52825,
+    "name": "Rogz Fashion Classic Collar Medium Zebra",
+    "slug": "rogz-fashion-classic-collar-medium-zebra",
+    "sku": "PSK-52825",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52830,
+    "name": "Rogz Reflectocat Safety Collar Small Blue Fish",
+    "slug": "rogz-reflectocat-safety-collar-small-blue-fish",
+    "sku": "PSK-52830",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
     "id": 52822,
     "name": "Rogz Dog Utility Step In Harness Large Pink",
     "slug": "rogz-dog-utility-step-in-harness-large-pink-2",
@@ -655,27 +858,6 @@
         "id": 2352,
         "name": "Dog Harnesses",
         "slug": "dog-harnesses"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 52825,
-    "name": "Rogz Fashion Classic Collar Medium Zebra",
-    "slug": "rogz-fashion-classic-collar-medium-zebra",
-    "sku": "PSK-52825",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
       }
     ],
     "brands": [],
@@ -745,10 +927,10 @@
     "status": "publish"
   },
   {
-    "id": 20021,
-    "name": "Dog Toothbrush Stick Paw - Large Turquoise",
-    "slug": "dog-toothbrush-stick-paw-large-turquoise",
-    "sku": "PSK-20021",
+    "id": 69434,
+    "name": "Montego Bags O' Wags Fruities Orange & Yoghurt - 500g",
+    "slug": "montego-bags-o-wags-fruities-orange-yoghurt-500g",
+    "sku": "PSK-69434",
     "regularPrice": null,
     "salePrice": null,
     "price": null,
@@ -756,9 +938,9 @@
     "inStock": false,
     "categories": [
       {
-        "id": 2399,
-        "name": "Dental Care",
-        "slug": "dental-care"
+        "id": 2380,
+        "name": "Bags-o-wags",
+        "slug": "bags-o-wags"
       },
       {
         "id": 2345,
@@ -766,23 +948,23 @@
         "slug": "dog-supplies-store"
       },
       {
-        "id": 2360,
-        "name": "Dog Grooming & Cleaning",
-        "slug": "dog-grooming-cleaning-supplies"
+        "id": 2346,
+        "name": "Dog Food & Treats",
+        "slug": "dog-food-treats"
       },
       {
-        "id": 2096,
-        "name": "Generic",
-        "slug": "generic"
+        "id": 2347,
+        "name": "Dog Treats",
+        "slug": "dog-treats"
+      },
+      {
+        "id": 2298,
+        "name": "Montego",
+        "slug": "montego"
       }
     ],
     "brands": [],
-    "tags": [
-      {
-        "name": "Pet Care",
-        "slug": "pet-care"
-      }
-    ],
+    "tags": [],
     "status": "publish"
   },
   {
@@ -1093,188 +1275,6 @@
         "id": 2332,
         "name": "Cat Litter",
         "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 52777,
-    "name": "Pet Ball Rubber For Dog Treat",
-    "slug": "pet-ball-rubber-for-dog-treat",
-    "sku": "PSK-52777",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 52778,
-    "name": "Pet Ball Spiky Asst Col",
-    "slug": "pet-ball-spiky-asst-col",
-    "sku": "PSK-52778",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 52779,
-    "name": "Pet Tennis Ball Paw/Jungle 3pc",
-    "slug": "pet-tennis-ball-paw-jungle-3pc-2",
-    "sku": "PSK-52779",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 52780,
-    "name": "Pet Tyre Ball Play Toy 9.5cm",
-    "slug": "pet-tyre-ball-play-toy-9-5cm-3",
-    "sku": "PSK-52780",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 51535,
-    "name": "Reflex Cat Pocket Treat Skin & Coat 60g",
-    "slug": "reflex-cat-pocket-treat-skin-coat-60gr",
-    "sku": "PSK-51535",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2325,
-        "name": "Cat",
-        "slug": "cat-supplies-store"
-      },
-      {
-        "id": 2326,
-        "name": "Cat Food & Treats",
-        "slug": "cat-food-and-treats"
-      },
-      {
-        "id": 2330,
-        "name": "Cat Treats",
-        "slug": "cat-treats"
-      },
-      {
-        "id": 179,
-        "name": "Reflex",
-        "slug": "reflex"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 52788,
-    "name": "Proline Bentonite Clumping Cat Litter Odourless 5l",
-    "slug": "proline-bentonite-clumping-cat-litter-odourless-5l",
-    "sku": "PSK-52788",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 69434,
-    "name": "Montego Bags O' Wags Fruities Orange & Yoghurt - 500g",
-    "slug": "montego-bags-o-wags-fruities-orange-yoghurt-500g",
-    "sku": "PSK-69434",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2380,
-        "name": "Bags-o-wags",
-        "slug": "bags-o-wags"
-      },
-      {
-        "id": 2345,
-        "name": "Dog",
-        "slug": "dog-supplies-store"
-      },
-      {
-        "id": 2346,
-        "name": "Dog Food & Treats",
-        "slug": "dog-food-treats"
-      },
-      {
-        "id": 2347,
-        "name": "Dog Treats",
-        "slug": "dog-treats"
-      },
-      {
-        "id": 2298,
-        "name": "Montego",
-        "slug": "montego"
       }
     ],
     "brands": [],
