@@ -306,7 +306,7 @@ export default function PurchaseNotificationPopup() {
           text-align: left;
         }
 
-        .buyer-info {
+        .purchase-notification-container .buyer-info {
           font-size: 0.78rem;
           color: rgba(255, 255, 255, 0.95);
           font-weight: 500;
@@ -315,11 +315,11 @@ export default function PurchaseNotificationPopup() {
           z-index: 2;
         }
 
-        .buyer-name {
+        .purchase-notification-container .buyer-name {
           font-weight: 700;
         }
 
-        .product-name {
+        .purchase-notification-container .product-name {
           font-size: 0.82rem;
           font-weight: 700;
           color: #ffffff;
@@ -333,7 +333,7 @@ export default function PurchaseNotificationPopup() {
           z-index: 2;
         }
 
-        .time-ago {
+        .purchase-notification-container .time-ago {
           font-size: 0.68rem;
           color: rgba(255, 255, 255, 0.85);
           font-weight: 500;
@@ -341,7 +341,7 @@ export default function PurchaseNotificationPopup() {
         }
 
         /* Wave decoration at the bottom-right */
-        .wave-decor {
+        .purchase-notification-container .wave-decor {
           position: absolute;
           bottom: 0;
           right: 0;

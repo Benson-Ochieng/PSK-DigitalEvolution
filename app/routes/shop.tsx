@@ -84,11 +84,11 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   const hideFilter = url.searchParams.get("hideFilter") === "true" || isTagPage;
 
   let animal = url.searchParams.get("animal") || "";
-  let type   = url.searchParams.get("type")   || "";
+  let type = url.searchParams.get("type") || "";
   const urlSearch = url.searchParams.get("q") || "";
-  let brand  = url.searchParams.get("brand")   || "";
-  const limit  = Number(url.searchParams.get("limit")) || 24;
-  const sort   = url.searchParams.get("sort") || "availability";
+  let brand = url.searchParams.get("brand") || "";
+  const limit = Number(url.searchParams.get("limit")) || 24;
+  const sort = url.searchParams.get("sort") || "availability";
 
   let search = urlSearch;
   let categorySlug = "";
@@ -127,7 +127,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     const sidebarSlugs = new Set(
       Object.values(ANIMAL_CATEGORIES).flatMap(arr => arr.map(c => c.slug))
     );
-    
+
     let current = categories.find(c => c.slug === slugStr);
     while (current) {
       if (sidebarSlugs.has(current.slug)) {
@@ -195,6 +195,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     else if (animal === "cat") pageTitle = "Cat";
     else if (type === "treat") pageTitle = "Treats";
     else if (type === "wet") pageTitle = "Wet Food";
+    else if (type === "on-sale") pageTitle = "On Sale Now";
   }
 
   const conditions: string[] = [];
@@ -203,21 +204,21 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   const explicitAnimal = url.searchParams.get("animal") || "";
   const queryAnimal = categorySlug ? explicitAnimal : animal;
 
-  if (queryAnimal) { 
-    sqlParams.push(queryAnimal); 
-    conditions.push(`p.animal_type = $${sqlParams.length}`); 
+  if (queryAnimal) {
+    sqlParams.push(queryAnimal);
+    conditions.push(`p.animal_type = $${sqlParams.length}`);
   }
-  if (type) { 
-    sqlParams.push(type);   
-    conditions.push(`p.food_type = $${sqlParams.length}`); 
+  if (type && type !== "on-sale") {
+    sqlParams.push(type);
+    conditions.push(`p.food_type = $${sqlParams.length}`);
   }
-  if (search) { 
-    sqlParams.push(`%${search.toLowerCase()}%`); 
-    conditions.push(`LOWER(p.name) LIKE $${sqlParams.length}`); 
+  if (search) {
+    sqlParams.push(`%${search.toLowerCase()}%`);
+    conditions.push(`LOWER(p.name) LIKE $${sqlParams.length}`);
   }
-  if (brand) { 
-    sqlParams.push(brand);  
-    conditions.push(`LOWER(p.brand) = LOWER($${sqlParams.length})`); 
+  if (brand) {
+    sqlParams.push(brand);
+    conditions.push(`LOWER(p.brand) = LOWER($${sqlParams.length})`);
   }
 
   if (isTagPage && tagSlug) {
@@ -246,6 +247,11 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     orderBy = "bbp.price DESC, p.name";
   }
 
+  let havingClause = "";
+  if (type === "on-sale") {
+    havingClause = "HAVING MIN(comp.price) > bbp.price";
+  }
+
   const res = await query(`
     SELECT
       p.id, p.name, p.brand, p.weight_kg, p.animal_type, p.food_type, p.image_url, p.slug,
@@ -257,6 +263,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     ${where}
     -- category_slug: ${categorySlug}
     GROUP BY p.id, p.name, p.brand, p.weight_kg, p.animal_type, p.food_type, p.image_url, p.slug, bbp.price
+    ${havingClause}
     ORDER BY ${orderBy}
   `, sqlParams);
 
@@ -268,18 +275,18 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   const startIndex = (currentPage - 1) * limit;
   const productsToShow = allProducts.slice(startIndex, startIndex + limit);
 
-  return { 
-    products: productsToShow, 
-    totalResults, 
+  return {
+    products: productsToShow,
+    totalResults,
     totalPages,
     currentPage,
-    animal, 
-    type, 
-    urlSearch, 
-    pageTitle, 
-    slug, 
-    brand, 
-    limit, 
+    animal,
+    type,
+    urlSearch,
+    pageTitle,
+    slug,
+    brand,
+    limit,
     sort,
     hideFilter,
     isTag: isTagPage,
@@ -288,11 +295,11 @@ export async function loader({ request, params }: Route.LoaderArgs) {
 }
 
 const FILTERS = [
-  { label: "All",       iconType: "all",    animal: "",    type: "" },
-  { label: "Dogs",      iconType: "dog",    animal: "dog", type: "" },
-  { label: "Cats",      iconType: "cat",    animal: "cat", type: "" },
-  { label: "Treats",    iconType: "treat",  animal: "",    type: "treat" },
-  { label: "Wet",       iconType: "wet",    animal: "",    type: "wet" },
+  { label: "All", iconType: "all", animal: "", type: "" },
+  { label: "Dogs", iconType: "dog", animal: "dog", type: "" },
+  { label: "Cats", iconType: "cat", animal: "cat", type: "" },
+  { label: "Treats", iconType: "treat", animal: "", type: "treat" },
+  { label: "Wet", iconType: "wet", animal: "", type: "wet" },
 ];
 
 function getBreadcrumbs(slug: string, animal: string, brand?: string, isTag?: boolean) {
@@ -440,18 +447,18 @@ function ProductCard({ p, animal }: { p: any; animal: string }) {
 }
 
 export default function Shop() {
-  const { 
-    products, 
-    totalResults, 
+  const {
+    products,
+    totalResults,
     totalPages,
     currentPage,
-    animal, 
-    type, 
-    urlSearch, 
-    pageTitle, 
-    slug, 
-    brand, 
-    limit, 
+    animal,
+    type,
+    urlSearch,
+    pageTitle,
+    slug,
+    brand,
+    limit,
     sort,
     hideFilter,
     isTag,
@@ -507,12 +514,12 @@ export default function Shop() {
     if (sort) p.set("sort", sort);
     if (searchVal.trim()) p.set("q", searchVal.trim());
     if (hideFilter) p.set("hideFilter", "true");
-    
+
     if (slug) {
       navigate(isTag ? `/product-tag/${slug}/${p.toString() ? "?" + p.toString() : ""}` : `/product-category/${slug}/${p.toString() ? "?" + p.toString() : ""}`);
     } else {
       if (animal) p.set("animal", animal);
-      if (type)   p.set("type", type);
+      if (type) p.set("type", type);
       navigate(`/shop${p.toString() ? "?" + p.toString() : ""}`);
     }
   }
@@ -528,7 +535,7 @@ export default function Shop() {
       navigate(isTag ? `/product-tag/${slug}/${p.toString() ? "?" + p.toString() : ""}` : `/product-category/${slug}/${p.toString() ? "?" + p.toString() : ""}`);
     } else {
       if (animal) p.set("animal", animal);
-      if (type)   p.set("type", type);
+      if (type) p.set("type", type);
       navigate(`/shop${p.toString() ? "?" + p.toString() : ""}`);
     }
   }
@@ -540,7 +547,8 @@ export default function Shop() {
     <>
       <Navbar />
       {hideFilter && (
-        <style dangerouslySetInnerHTML={{ __html: `
+        <style dangerouslySetInnerHTML={{
+          __html: `
           @media (min-width: 1025px) {
             .shop-layout .product-grid {
               grid-template-columns: repeat(5, 1fr) !important;
@@ -554,10 +562,10 @@ export default function Shop() {
         `}} />
       )}
       <div className="page" style={{ paddingTop: "2.5rem" }}>
-        
+
         {/* Main Grid Layout with sidebar */}
         <div className="shop-layout">
-          
+
           {/* Sidebar */}
           {!hideFilter && (
             <aside className="shop-sidebar">
@@ -570,8 +578,8 @@ export default function Shop() {
                       const isActive = normSlug === c.slug || activeSidebarSlug === c.slug;
                       return (
                         <li key={c.slug}>
-                          <Link 
-                            to={`/product-category/${c.slug}/`} 
+                          <Link
+                            to={`/product-category/${c.slug}/`}
                             className={isActive ? "active-brand" : ""}
                           >
                             {c.label}
@@ -607,7 +615,7 @@ export default function Shop() {
 
           {/* Main Content Area */}
           <main className="shop-main">
-            
+
             {/* Page Title */}
             <h1 className="shop-page-title">{pageTitle}</h1>
 
@@ -625,16 +633,23 @@ export default function Shop() {
               ))}
             </div>
 
+            {/* Sale Description */}
+            {/* {type === "on-sale" && (
+              <div className="sale-description-notice" style={{ margin: "0.5rem 0 1.5rem 0", color: "#d91b1b", fontStyle: "italic", fontSize: "0.95rem", fontWeight: 600 }}>
+                Looking to SAVE MORE? Visit our <Link to="/shop?type=clearance" style={{ color: "#d91b1b", textDecoration: "underline", fontWeight: 700 }}>CLEARANCE page</Link> for deeper discounts.
+              </div>
+            )} */}
+
             {/* Shop Toolbar */}
             <div className="shop-toolbar">
               <div className="toolbar-left">
                 <span className="results-count">Showing all {totalResults} results</span>
-                
+
                 {/* Products per page select */}
                 <div className="paging-control">
                   <span>Products per page:</span>
-                  <select 
-                    value={limit || 24} 
+                  <select
+                    value={limit || 24}
                     onChange={e => {
                       const val = Number(e.target.value) || 24;
                       navigate(buildCategoryHref(brand, val, sort));
@@ -692,7 +707,7 @@ export default function Shop() {
                           </span>
                         );
                       }
-                      
+
                       const isCurrent = p === currentPage;
                       return (
                         <Link

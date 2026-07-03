@@ -821,6 +821,7 @@ body {
 
 .pet-category-card:hover {
   transform: translateY(-4px);
+  text-decoration: none !important;
 }
 
 .pet-category-circle {
@@ -884,6 +885,7 @@ body {
 
 .popular-category-card:hover {
   transform: translateY(-3px);
+  text-decoration: none !important;
 }
 
 .popular-category-img {
@@ -1088,7 +1090,7 @@ body {
 .product-name {
   font-family: var(--font-sans);
   font-weight: 700;
-  font-size: 0.78rem;
+  font-size: 10px;
   line-height: 1.35;
   color: #000000;
   margin-bottom: 6px;
