@@ -14,6 +14,7 @@ import { CartProvider } from "./context/cart";
 import { CartDrawer, CheckoutModal } from "./components/CheckoutModal";
 import CommunicationBooth from "./components/CommunicationBooth";
 import GoogleReviewsPopup from "./components/GoogleReviewsPopup";
+import PurchaseNotificationPopup from "./components/PurchaseNotificationPopup";
 
 export const links: Route.LinksFunction = () => [
   {
@@ -63,6 +64,7 @@ export default function App() {
       <CheckoutModal />
       <CommunicationBooth />
       <GoogleReviewsPopup />
+      <PurchaseNotificationPopup />
     </CartProvider>
   );
 }
