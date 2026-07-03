@@ -569,7 +569,7 @@ export default function Shop() {
                       const normSlug = slug ? slug.toLowerCase().replace(/\/$/, "") : "";
                       const isActive = normSlug === c.slug || activeSidebarSlug === c.slug;
                       return (
-                        <li key={c.slug} style={{ margin: "6px 0" }}>
+                        <li key={c.slug}>
                           <Link 
                             to={`/product-category/${c.slug}/`} 
                             className={isActive ? "active-brand" : ""}

@@ -2011,7 +2011,7 @@ body {
 }
 
 .sidebar-brands-list li {
-  margin-bottom: 0.8rem;
+  margin-bottom: 1.15rem; /* Increased spacing to prevent cluttering */
 }
 
 .sidebar-brands-list a {
@@ -2020,12 +2020,15 @@ body {
   color: #64748b;
   text-decoration: none;
   transition: color 0.15s ease;
+  display: inline-block;
+  line-height: 1.45; /* Clean height for wrapped items */
 }
 
 .sidebar-brands-list a:hover,
 .sidebar-brands-list a.active-brand {
   color: #1053a0;
   font-weight: 700;
+  text-decoration: none !important; /* Prevent hover underline */
 }
 
 .shop-main {
