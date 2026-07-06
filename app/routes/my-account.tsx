@@ -601,13 +601,13 @@ export default function MyAccount() {
             </aside>
 
             {/* Right Dashboard Content */}
-            <main style={{ fontFamily: "var(--font-sans)", color: "#1e293b", fontSize: "0.95rem", lineHeight: 1.6 }}>
+            <main style={{ fontFamily: "var(--font-sans)", color: "#000000", fontSize: "0.95rem", lineHeight: 1.6 }}>
               {activeTab === "dashboard" && (
                 <div>
                   <div style={{ marginBottom: "1.5rem" }}>
                     Hello <strong style={{ color: "#000000" }}>{customerName}</strong> (not <strong style={{ color: "#000000" }}>{customerName}</strong>? <Link to="/my-account?action=logout" style={{ color: "#3b82f6", textDecoration: "none" }}>Log out</Link>)
                   </div>
-                  <p style={{ color: "#475569" }}>
+                  <p style={{ color: "#000000" }}>
                     From your account dashboard you can view your <span style={{ color: "#3b82f6", cursor: "pointer" }} onClick={() => setActiveTab("orders")}>recent orders</span>, manage your <span style={{ color: "#3b82f6", cursor: "pointer" }} onClick={() => setActiveTab("addresses")}>shipping and billing addresses</span>, and <span style={{ color: "#3b82f6", cursor: "pointer" }} onClick={() => setActiveTab("details")}>edit your password and account details</span>.
                   </p>
                 </div>
