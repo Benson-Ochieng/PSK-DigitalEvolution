@@ -56,7 +56,7 @@ const BRANDS_LIST = [
   { name: "Bonnie", query: "Bonnie", image: "/images/brands/Bonnie_Logo-300x102.png.webp" },
   { name: "KING", query: "KING", image: "/images/brands/King-Logo-1080x1080.png.webp" },
   { name: "UNIQUE", query: "UNIQUE", image: "/images/brands/Unique-Logo.png.webp" },
-  { name: "MORANDO", query: "MORANDO", image: "/images/brands/logo-morando.png.webp" },
+  { name: "Miglior", query: "Miglior", image: "/images/brands/Migliorcane_logo.png" },
   { name: "ROYAL CANIN", query: "Royal Canin", image: "/images/brands/Royal-Canin-Logo.svg_.png.webp" },
   { name: "Montego", query: "Montego", image: "/images/brands/Montego_White_Logo.png.webp" },
   { name: "Thunder", query: "Thunder", image: "/images/brands/thunder_logo.png.webp" }
@@ -213,7 +213,7 @@ const DRAWER_MENU_ITEMS = [
       { name: "Bonnie", path: "/shop?brand=Bonnie" },
       { name: "King", path: "/shop?brand=KING" },
       { name: "Unique", path: "/shop?brand=UNIQUE" },
-      { name: "Morando", path: "/shop?brand=MORANDO" },
+      { name: "Miglior", path: "/shop?brand=Miglior" },
       { name: "Montego", path: "/shop?brand=Montego" },
       { name: "Thunder", path: "/shop?brand=Thunder" }
     ]
@@ -494,7 +494,14 @@ export default function Navbar() {
               <div className="mega-dropdown-menu brand-mega-menu">
                 <div className="brand-grid">
                   {BRANDS_LIST.map((brand) => {
-                    const isScaledLogo = brand.name === "Montego" || brand.name === "Thunder";
+                    let customStyle: React.CSSProperties | undefined;
+                    if (brand.name === "Montego") {
+                      customStyle = { transform: "scale(2.2)" };
+                    } else if (brand.name === "Thunder") {
+                      customStyle = { transform: "scale(1.6)" };
+                    } else if (brand.name === "SPECTRUM") {
+                      customStyle = { transform: "scale(1.4)" };
+                    }
                     return (
                       <Link
                         key={brand.name}
@@ -505,7 +512,7 @@ export default function Navbar() {
                           src={brand.image}
                           alt={`${brand.name} Logo`}
                           className="brand-card-img"
-                          style={isScaledLogo ? { transform: "scale(1.5)" } : undefined}
+                          style={customStyle}
                         />
                       </Link>
                     );
