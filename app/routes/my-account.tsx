@@ -1,5 +1,7 @@
 import { data, redirect, Form, useLoaderData, useActionData, useNavigate, Link } from "react-router";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import fs from "fs";
+import path from "path";
 import type { Route } from "./+types/my-account";
 import { query } from "../db.server";
 import Navbar from "../components/Navbar";
@@ -46,12 +48,54 @@ export async function loader({ request }: Route.LoaderArgs) {
     orders = res.rows;
   }
 
-  return { customerName, customerEmail, orders };
+  const settingsPath = path.join(process.cwd(), "content", "general-settings.json");
+  let recaptchaSiteKey = "";
+  if (fs.existsSync(settingsPath)) {
+    try {
+      const parsed = JSON.parse(fs.readFileSync(settingsPath, "utf-8"));
+      recaptchaSiteKey = parsed.recaptchaSiteKey || "";
+    } catch (e) {}
+  }
+
+  return { customerName, customerEmail, orders, recaptchaSiteKey };
 }
 
 export async function action({ request }: Route.ActionArgs) {
   const formData = await request.formData();
   const formType = formData.get("form_type")?.toString();
+
+  if (formType === "login" || formType === "register") {
+    const settingsPath = path.join(process.cwd(), "content", "general-settings.json");
+    let recaptchaSecret = "";
+    if (fs.existsSync(settingsPath)) {
+      try {
+        const parsed = JSON.parse(fs.readFileSync(settingsPath, "utf-8"));
+        recaptchaSecret = parsed.recaptchaSecretKey || "";
+      } catch (e) {}
+    }
+
+    if (recaptchaSecret) {
+      const recaptchaResponse = formData.get("g-recaptcha-response")?.toString();
+      if (!recaptchaResponse) {
+        return data({ error: "Please complete the reCAPTCHA verification." }, { status: 400 });
+      }
+
+      try {
+        const verifyRes = await fetch("https://www.google.com/recaptcha/api/siteverify", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: `secret=${encodeURIComponent(recaptchaSecret)}&response=${encodeURIComponent(recaptchaResponse)}`,
+        });
+        const verifyData = await verifyRes.json();
+        if (!verifyData.success) {
+          return data({ error: "reCAPTCHA verification failed. Please try again." }, { status: 400 });
+        }
+      } catch (e) {
+        console.error("reCAPTCHA verification error:", e);
+        return data({ error: "Failed to verify reCAPTCHA. Please try again." }, { status: 500 });
+      }
+    }
+  }
 
   if (formType === "login") {
     const email = formData.get("email")?.toString().trim();
@@ -133,13 +177,98 @@ export async function action({ request }: Route.ActionArgs) {
 }
 
 export default function MyAccount() {
-  const { customerName, customerEmail, orders } = useLoaderData<typeof loader>();
+  const { customerName, customerEmail, orders, recaptchaSiteKey } = useLoaderData<typeof loader>();
   const actionData = useActionData<any>();
   const navigate = useNavigate();
 
   const [activeTab, setActiveTab] = useState("dashboard");
   const [showLoginPassword, setShowLoginPassword] = useState(false);
   const [showRegisterPassword, setShowRegisterPassword] = useState(false);
+
+  // Load and render Google reCAPTCHA v2 script and widgets
+  useEffect(() => {
+    if (typeof window === "undefined" || !recaptchaSiteKey) return;
+
+    // Load reCAPTCHA script dynamically
+    const scriptId = "recaptcha-script";
+    if (!document.getElementById(scriptId)) {
+      const script = document.createElement("script");
+      script.id = scriptId;
+      script.src = "https://www.google.com/recaptcha/api.js?render=explicit";
+      script.async = true;
+      script.defer = true;
+      document.body.appendChild(script);
+    }
+
+    const initRecaptchas = () => {
+      if ((window as any).grecaptcha && (window as any).grecaptcha.render) {
+        const loginEl = document.getElementById("recaptcha-login");
+        const registerEl = document.getElementById("recaptcha-register");
+
+        if (loginEl && !loginEl.innerHTML) {
+          try {
+            (window as any).grecaptcha.render("recaptcha-login", {
+              sitekey: recaptchaSiteKey,
+            });
+          } catch (e) {
+            console.error("Error rendering login recaptcha:", e);
+          }
+        }
+        if (registerEl && !registerEl.innerHTML) {
+          try {
+            (window as any).grecaptcha.render("recaptcha-register", {
+              sitekey: recaptchaSiteKey,
+            });
+          } catch (e) {
+            console.error("Error rendering register recaptcha:", e);
+          }
+        }
+      }
+    };
+
+    if ((window as any).grecaptcha && (window as any).grecaptcha.render) {
+      initRecaptchas();
+    } else {
+      const interval = setInterval(() => {
+        if ((window as any).grecaptcha && (window as any).grecaptcha.render) {
+          initRecaptchas();
+          clearInterval(interval);
+        }
+      }, 500);
+      return () => clearInterval(interval);
+    }
+  }, [recaptchaSiteKey]);
+
+  // Fallback mock reCAPTCHA if no site key is configured
+  const renderMockRecaptcha = () => (
+    <div style={{
+      width: "302px",
+      height: "76px",
+      background: "#f9f9f9",
+      border: "1px solid #d3d3d3",
+      borderRadius: "3px",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "space-between",
+      padding: "0 12px",
+      boxSizing: "border-box",
+      marginTop: "0.5rem"
+    }}>
+      <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+        <input type="checkbox" required style={{ width: "24px", height: "24px", cursor: "pointer" }} />
+        <span style={{ fontSize: "14px", color: "#2d2d2d", fontFamily: "Roboto, helvetica, arial, sans-serif" }}>I'm not a robot</span>
+      </div>
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "2px" }}>
+        <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="reCAPTCHA logo" style={{ width: "32px", height: "32px" }} />
+        <span style={{ fontSize: "8px", color: "#555555", fontFamily: "Roboto, helvetica, arial, sans-serif" }}>reCAPTCHA</span>
+        <div style={{ display: "flex", gap: "4px", fontSize: "8px", fontFamily: "Roboto, helvetica, arial, sans-serif" }}>
+          <a href="https://www.google.com/intl/en/policies/privacy/" target="_blank" rel="noopener noreferrer" style={{ color: "#555555", textDecoration: "none" }}>Privacy</a>
+          <span style={{ color: "#555555" }}>-</span>
+          <a href="https://www.google.com/intl/en/policies/terms/" target="_blank" rel="noopener noreferrer" style={{ color: "#555555", textDecoration: "none" }}>Terms</a>
+        </div>
+      </div>
+    </div>
+  );
 
   // Address Mock state
   const [address, setAddress] = useState({
@@ -226,6 +355,12 @@ export default function MyAccount() {
                       </span>
                     </div>
                   </div>
+
+                  {recaptchaSiteKey ? (
+                    <div id="recaptcha-login" style={{ marginTop: "0.5rem" }}></div>
+                  ) : (
+                    renderMockRecaptcha()
+                  )}
 
                   {actionData?.error && (
                     <div style={{ color: "#ef4444", fontSize: "0.85rem" }}>{actionData.error}</div>
@@ -401,6 +536,12 @@ export default function MyAccount() {
                       </span>
                     </div>
                   </div>
+
+                  {recaptchaSiteKey ? (
+                    <div id="recaptcha-register" style={{ marginTop: "0.5rem" }}></div>
+                  ) : (
+                    renderMockRecaptcha()
+                  )}
 
                   <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", marginTop: "0.2rem" }}>
                     <input
@@ -601,13 +742,13 @@ export default function MyAccount() {
             </aside>
 
             {/* Right Dashboard Content */}
-            <main style={{ fontFamily: "var(--font-sans)", color: "#1e293b", fontSize: "0.95rem", lineHeight: 1.6 }}>
+            <main style={{ fontFamily: "var(--font-sans)", color: "#000000", fontSize: "0.95rem", lineHeight: 1.6 }}>
               {activeTab === "dashboard" && (
                 <div>
                   <div style={{ marginBottom: "1.5rem" }}>
                     Hello <strong style={{ color: "#000000" }}>{customerName}</strong> (not <strong style={{ color: "#000000" }}>{customerName}</strong>? <Link to="/my-account?action=logout" style={{ color: "#3b82f6", textDecoration: "none" }}>Log out</Link>)
                   </div>
-                  <p style={{ color: "#475569" }}>
+                  <p style={{ color: "#000000" }}>
                     From your account dashboard you can view your <span style={{ color: "#3b82f6", cursor: "pointer" }} onClick={() => setActiveTab("orders")}>recent orders</span>, manage your <span style={{ color: "#3b82f6", cursor: "pointer" }} onClick={() => setActiveTab("addresses")}>shipping and billing addresses</span>, and <span style={{ color: "#3b82f6", cursor: "pointer" }} onClick={() => setActiveTab("details")}>edit your password and account details</span>.
                   </p>
                 </div>

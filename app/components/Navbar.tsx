@@ -56,7 +56,7 @@ const BRANDS_LIST = [
   { name: "Bonnie", query: "Bonnie", image: "/images/brands/Bonnie_Logo-300x102.png.webp" },
   { name: "KING", query: "KING", image: "/images/brands/King-Logo-1080x1080.png.webp" },
   { name: "UNIQUE", query: "UNIQUE", image: "/images/brands/Unique-Logo.png.webp" },
-  { name: "MORANDO", query: "MORANDO", image: "/images/brands/logo-morando.png.webp" },
+  { name: "Miglior", query: "Miglior", image: "/images/brands/Migliorcane_logo.png" },
   { name: "ROYAL CANIN", query: "Royal Canin", image: "/images/brands/Royal-Canin-Logo.svg_.png.webp" },
   { name: "Montego", query: "Montego", image: "/images/brands/Montego_White_Logo.png.webp" },
   { name: "Thunder", query: "Thunder", image: "/images/brands/thunder_logo.png.webp" }
@@ -66,154 +66,149 @@ const DRAWER_MENU_ITEMS = [
   { name: "New Arrivals", path: "/product-tag/new-arrivals" },
   {
     name: "Cat",
-    path: "/product-category/cat-food/",
+    path: "/product-category/cat-supplies-store/",
     subItems: [
       {
         name: "Cat Food & Treats",
         path: "/product-category/cat-food-and-treats/",
         subItems: [
-          { name: "Dry Cat Food", path: "/product-category/dry-cat-food/" },
           { name: "Wet Cat Food", path: "/product-category/wet-cat-food/" },
-          { name: "Cat Treats & Catnip", path: "/product-category/cat-treats/" },
-          { name: "Milk Replacers", path: "/product-category/cat-milk-replacers/" },
-          { name: "Kitten Food", path: "/product-category/kitten-food/" }
+          { name: "Dry Cat Food", path: "/product-category/dry-cat-food/" },
+          { name: "Kitten Food", path: "/product-category/kitten-food/" },
+          { name: "Cat Treats", path: "/product-category/cat-treats/" },
+          { name: "Kitten Treats", path: "/product-category/kitten-treats/" }
         ]
       },
       {
-        name: "Cat Litter & Litter Boxes",
+        name: "Litter and Litter Box & Accessories",
         path: "/product-category/cat-litter-and-accessories/",
         subItems: [
           { name: "Cat Litter", path: "/product-category/cat-litter/" },
-          { name: "Litter Boxes & Scoops", path: "/product-category/cat-litter-boxes/" }
+          { name: "Litter Boxes", path: "/product-category/cat-litter-boxes/" }
         ]
       },
       {
-        name: "Flea, Tick & Worm Treatment",
-        path: "/product-category/cat-flea-tick/",
-        subItems: [
-          { name: "Dewormers", path: "/product-category/cat-dewormers/" },
-          { name: "Flea & Tick Sprays, Collars", path: "/product-category/cat-flea-tick/" }
-        ]
-      },
-      {
-        name: "Health & Grooming",
-        path: "/product-category/cat-grooming/",
-        subItems: [
-          { name: "Grooming Tools", path: "/product-category/cat-grooming/" },
-          { name: "Shampoo & Deodorizers", path: "/product-category/cat-grooming/" },
-          { name: "Supplements & Vitamins", path: "/product-category/cat-healthcare/" }
-        ]
-      },
-      {
-        name: "Cat Accessories & Bowls",
+        name: "Cat Collars, Leashes, Harnesses",
         path: "/product-category/cat-collars-leashes-harnesses/",
         subItems: [
-          { name: "Collars, Leashes & Harnesses", path: "/product-category/cat-collars-leashes-harnesses/" },
-          { name: "Cat Toys", path: "/product-category/cat-toys/" },
-          { name: "Cat Bowls & Feeders", path: "/product-category/cat-bowls-and-feeders/" },
-          {
-            name: "Cat Beds, Scratchers & Carriers",
-            path: "/product-category/cat-beds-houses/",
-            subItems: [
-              { name: "Beds", path: "/product-category/cat-beds-houses/" },
-              { name: "Carriers", path: "/product-category/cat-carriers-travels/" }
-            ]
-          }
+          { name: "Cat Collars", path: "/product-category/cat-collars/" },
+          { name: "Cat Harnesses", path: "/product-category/cat-harnesses/" }
         ]
       },
-      { name: "Cat Scratchers & Trees", path: "/product-category/cat-beds-houses/" }
+      {
+        name: "Cat Healthcare Supplies",
+        path: "/product-category/cat-healthcare/",
+        subItems: [
+          { name: "Flea & Tick", path: "/product-category/cat-flea-tick/" },
+          { name: "Cat Dewormers", path: "/product-category/cat-dewormers/" },
+          { name: "Supplements", path: "/product-category/cat-supplements/" }
+        ]
+      },
+      { name: "Cat Carriers, Bags & Travel", path: "/product-category/cat-carriers-travels/" },
+      { name: "Cat Beds & Houses", path: "/product-category/cat-beds-houses/" },
+      { name: "Cat Toys", path: "/product-category/cat-toys/" },
+      {
+        name: "Cat Grooming",
+        path: "/product-category/cat-grooming/",
+        subItems: [
+          { name: "Brushes & Fur Removal Tools", path: "/product-category/brushes-fur-removal-tools/" },
+          { name: "Shampoo", path: "/product-category/cat-shampoo/" }
+        ]
+      },
+      { name: "Cat Bowls & Feeders", path: "/product-category/cat-bowls-and-feeders/" }
     ]
   },
   {
     name: "Dog",
-    path: "/product-category/dog-food/",
+    path: "/product-category/dog-supplies-store/",
     subItems: [
       {
         name: "Dog Food & Treats",
         path: "/product-category/dog-food-treats/",
         subItems: [
+          { name: "Dog Treats", path: "/product-category/dog-treats/" },
           { name: "Dry Dog Food", path: "/product-category/dry-dog-food/" },
           { name: "Wet Dog Food", path: "/product-category/wet-dog-food/" },
-          { name: "Dog Treats & Bones", path: "/product-category/dog-treats/" },
-          { name: "Puppy Food", path: "/product-category/puppy-food/" }
+          { name: "Puppy Food", path: "/product-category/puppy-food/" },
+          { name: "Puppy Treats", path: "/product-category/puppy-treats/" }
         ]
       },
       {
-        name: "Flea, Tick & Worm Treatment",
-        path: "/product-category/dog-flea-tick/",
-        subItems: [
-          { name: "Dewormers", path: "/product-category/dog-dewormers/" },
-          { name: "Flea & Tick Spray", path: "/product-category/dog-flea-tick/" },
-          { name: "Flea & Tick Collars", path: "/product-category/dog-flea-tick/" },
-          { name: "Flea & Tick Spot On", path: "/product-category/dog-flea-tick/" }
-        ]
-      },
-      {
-        name: "Health & Grooming",
-        path: "/product-category/dog-grooming-cleaning-supplies/",
-        subItems: [
-          { name: "Grooming Tools", path: "/product-category/dog-grooming-cleaning-supplies/" },
-          { name: "Shampoos & Conditioners", path: "/product-category/dog-grooming-cleaning-supplies/" },
-          { name: "Supplements & Vitamins", path: "/product-category/dog-healthcare-supplies/" }
-        ]
-      },
-      {
-        name: "Dog Accessories & Collars",
+        name: "Collars, Leashes & Harnesses",
         path: "/product-category/dog-collars-leashes-and-harnesses/",
         subItems: [
-          { name: "Collars, Leashes & Harnesses", path: "/product-category/dog-collars-leashes-and-harnesses/" },
-          { name: "Dog Toys", path: "/product-category/dog-toys/" },
-          { name: "Dog Bowls & Feeders", path: "/product-category/dog-bowls-feeders/" },
-          { name: "Dog Cages, Carriers & Crates", path: "/product-category/dog-carriers-travel-accessories/" }
+          { name: "Dog Harnesses", path: "/product-category/dog-harnesses/" },
+          { name: "Dog Leashes", path: "/product-category/dog-leashes/" },
+          { name: "Dog Collars", path: "/product-category/dog-collars/" },
+          { name: "Dog Muzzles", path: "/product-category/dog-muzzles/" }
         ]
       },
-      { name: "Dog Beds", path: "/product-category/dog-beds-furniture/" },
       {
-        name: "Dog Training Accessories",
-        path: "/product-category/dog-training-accessories/",
+        name: "Dog Toys",
+        path: "/product-category/dog-toys/",
         subItems: [
-          { name: "Pee Pads & Diapers", path: "/product-category/dog-hygiene-potty-solutions/" },
-          { name: "Training Leashes & Collars", path: "/product-category/dog-training-accessories/" },
-          { name: "Training Treats", path: "/product-category/dog-treats/" }
+          { name: "Dog Fetch Toys", path: "/product-category/dog-fetch-toys/" },
+          { name: "Chew Toys", path: "/product-category/dog-chew-toys/" },
+          { name: "Rope & Tug Toys", path: "/product-category/dog-rope-tug-toys/" }
         ]
       },
-      { name: "Dog Feeders & Bowls", path: "/product-category/dog-bowls-feeders/" },
       {
-        name: "Dental Care",
-        path: "/product-category/dental-care/",
+        name: "Dog Grooming & Cleaning",
+        path: "/product-category/dog-grooming-cleaning-supplies/",
         subItems: [
-          { name: "Dental Gels, Sprays & Toothpastes", path: "/product-category/dental-care/" }
+          { name: "Brushes, Combs & Fur Removal Tools", path: "/product-category/brushes-combs-fur-removal-tools/" },
+          { name: "Shampoo", path: "/product-category/dog-shampoo/" },
+          { name: "Dental Care", path: "/product-category/dental-care/" },
+          { name: "Dog Hygiene & Potty Solutions", path: "/product-category/dog-hygiene-potty-solutions/" }
+        ]
+      },
+      {
+        name: "Dog Healthcare Supplies",
+        path: "/product-category/dog-healthcare-supplies/",
+        subItems: [
+          { name: "Flea & Tick Control", path: "/product-category/dog-flea-tick/" },
+          { name: "Dog Dewormers", path: "/product-category/dog-dewormers/" },
+          { name: "Supplements", path: "/product-category/dog-supplements/" }
+        ]
+      },
+      { name: "Dog Beds & Furniture", path: "/product-category/dog-beds-furniture/" },
+      {
+        name: "Dog Bowls & Feeders",
+        path: "/product-category/dog-bowls-feeders/",
+        subItems: [
+          { name: "Airtight Pet Food Storage Container", path: "/product-category/airtight-pet-food-storage-container/" }
         ]
       }
     ]
   },
   {
     name: "Bird",
-    path: "/product-category/bird-food/",
+    path: "/product-category/bird-supplies-store/",
     subItems: [
-      { name: "Bird Food & Feeds", path: "/shop?animal=bird&type=food" }
+      { name: "Bird Food & Treats", path: "/product-category/bird-food-treats/" }
     ]
   },
   {
     name: "Fish",
-    path: "/shop?animal=fish",
+    path: "/product-category/fish/",
     subItems: [
-      { name: "Fish Food & Feeds", path: "/shop?animal=fish&type=food" }
+      { name: "Fish Food & Treats", path: "/product-category/fish-food-treats/" }
     ]
   },
   {
     name: "Our Brands",
     path: "/shop",
     subItems: [
-      { name: "Royal Canin", path: "/shop?brand=Royal+Canin" },
-      { name: "Reflex", path: "/shop?brand=Reflex" },
-      { name: "Josera", path: "/shop?brand=Josera" },
       { name: "Spectrum", path: "/shop?brand=SPECTRUM" },
-      { name: "Trendline", path: "/shop?brand=TRENDLINE" },
+      { name: "Reflex", path: "/shop?brand=Reflex" },
       { name: "Bonnie", path: "/shop?brand=Bonnie" },
       { name: "King", path: "/shop?brand=KING" },
+      { name: "Proline", path: "/shop?brand=Proline" },
       { name: "Unique", path: "/shop?brand=UNIQUE" },
-      { name: "Morando", path: "/shop?brand=MORANDO" },
+      { name: "Miglior", path: "/shop?brand=Miglior" },
+      { name: "Royal Canin", path: "/shop?brand=Royal+Canin" },
+      { name: "Josera", path: "/shop?brand=Josera" },
+      { name: "Trendline", path: "/shop?brand=TRENDLINE" },
       { name: "Montego", path: "/shop?brand=Montego" },
       { name: "Thunder", path: "/shop?brand=Thunder" }
     ]
@@ -222,47 +217,54 @@ const DRAWER_MENU_ITEMS = [
     name: "Offers",
     path: "/shop?type=offer",
     subItems: [
-      { name: "Flash Sale", path: "/flash-sale" },
       { name: "On Sale Now", path: "/shop?type=on-sale" },
-      { name: "Bundles", path: "/shop?type=bundles" },
+      { name: "Flash Sale", path: "/flash-sale" },
       { name: "Clearance", path: "/shop?type=clearance" },
       { name: "Bulk Items", path: "/shop?type=bulk" }
     ]
   },
-  { name: "Human", path: "/shop?type=human" },
+  { name: "Human", path: "/product-category/human/" },
   { name: "Donate", path: "/shop?type=donate" },
-  { name: "Gift Vouchers", path: "/shop?type=gift" },
-  { name: "Food Comparison", path: "/shop?type=comparison" },
+  { name: "Gift Vouchers", path: "/product-tag/gift-cards/" },
+  { name: "Food Comparison", path: "/tag/compare/" },
   {
     name: "Pet Avenue",
     path: "/pet-avenue",
     subItems: [
-      { name: "Avenue Group", path: "/shop?type=avenue&sub=group" },
-      { name: "Avenue Shops", path: "/shop?type=avenue&sub=shops" },
-      { name: "Avenue Cart", path: "/shop?type=avenue&sub=cart" },
-      { name: "Avenue Checkout", path: "/shop?type=avenue&sub=checkout" }
+      { name: "Boarding Facilities", path: "/pet-avenue/boarding-facilities" },
+      { name: "Pet Adoption", path: "/pet-avenue/pet-adoption" },
+      { name: "Restaurants", path: "/pet-avenue/restaurants" },
+      { name: "Veterinary Care", path: "/pet-avenue/veterinary-care" }
     ]
   },
-  { name: "Blogs", path: "/blogs" },
+  { name: "Blogs", path: "/blog" },
   { name: "Brochures", path: "/brochures" },
   { name: "Reviews", path: "/reviews" },
-  { name: "FAQs", path: "/faqs" },
+  { name: "FAQs", path: "/faq" },
   { name: "Shipping Rates", path: "/shipping-rates" },
   {
     name: "Locations",
     path: "/locations",
     subItems: [
-      { name: "Store Locations", path: "/locations" }
+      { name: "Retail Locations", path: "/retail-locations-nairobi-nanyuki-naivasha-nakuru-mombasa" }
     ]
   },
-  { name: "My Account", path: "/admin/login" },
-  { name: "Checkout", path: "/shop?type=checkout" }
+  { name: "My Account", path: "/my-account" },
+  { name: "Contact Us", path: "/contact-us" }
 ];
 
 export default function Navbar() {
   const { count, setIsCartOpen } = useCart();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(() => {
+    if (typeof document !== "undefined") {
+      return document.cookie.split(";").some(row => {
+        const [name, val] = row.split("=");
+        return name.trim() === "customer_name" && !!val;
+      });
+    }
+    return false;
+  });
   const [searchVal, setSearchVal] = useState("");
   const [searchResults, setSearchResults] = useState<{
     suggestions: string[];
@@ -280,10 +282,13 @@ export default function Navbar() {
 
   useEffect(() => {
     if (typeof document !== "undefined") {
-      const isLogged = document.cookie.split("; ").some(row => row.trim().startsWith("customer_name="));
+      const isLogged = document.cookie.split(";").some(row => {
+        const [name, val] = row.split("=");
+        return name.trim() === "customer_name" && !!val;
+      });
       setIsLoggedIn(isLogged);
     }
-  }, [location.pathname]);
+  }, [location]);
 
   const renderDrawerMenuItem = (item: any, depth = 0) => {
     const isExpandable = !!item.subItems && item.subItems.length > 0;
@@ -494,7 +499,14 @@ export default function Navbar() {
               <div className="mega-dropdown-menu brand-mega-menu">
                 <div className="brand-grid">
                   {BRANDS_LIST.map((brand) => {
-                    const isScaledLogo = brand.name === "Montego" || brand.name === "Thunder";
+                    let customStyle: React.CSSProperties | undefined;
+                    if (brand.name === "Montego") {
+                      customStyle = { transform: "scale(2.2)" };
+                    } else if (brand.name === "Thunder") {
+                      customStyle = { transform: "scale(1.6)" };
+                    } else if (brand.name === "SPECTRUM") {
+                      customStyle = { transform: "scale(1.4)" };
+                    }
                     return (
                       <Link
                         key={brand.name}
@@ -505,7 +517,7 @@ export default function Navbar() {
                           src={brand.image}
                           alt={`${brand.name} Logo`}
                           className="brand-card-img"
-                          style={isScaledLogo ? { transform: "scale(1.5)" } : undefined}
+                          style={customStyle}
                         />
                       </Link>
                     );
@@ -718,8 +730,8 @@ export default function Navbar() {
               {isLoggedIn && (
                 <span className="green-dot" style={{
                   position: "absolute",
-                  bottom: "-2px",
-                  right: "-2px",
+                  bottom: "1px",
+                  right: "1px",
                   width: "12px",
                   height: "12px",
                   backgroundColor: "#22c55e",
