@@ -239,11 +239,6 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     sqlParams.push(type);
     conditions.push(`p.food_type = $${sqlParams.length}`);
   }
-<<<<<<< HEAD
-  if (search) {
-    sqlParams.push(`%${search.toLowerCase()}%`);
-    conditions.push(`LOWER(p.name) LIKE $${sqlParams.length}`);
-=======
   if (isBulkFilter) {
     conditions.push(`(p.weight_kg >= 10 OR LOWER(p.name) LIKE '%bundle%' OR LOWER(p.name) LIKE '%pack%')`);
   } else if (isOffersFilter) {
@@ -255,10 +250,9 @@ export async function loader({ request, params }: Route.LoaderArgs) {
       )
     )`);
   }
-  if (search) { 
-    sqlParams.push(`%${search.toLowerCase()}%`); 
-    conditions.push(`LOWER(p.name) LIKE $${sqlParams.length}`); 
->>>>>>> 592d2023785c8fe3f09ee5b0c18e961c4f66c0d9
+  if (search) {
+    sqlParams.push(`%${search.toLowerCase()}%`);
+    conditions.push(`LOWER(p.name) LIKE $${sqlParams.length}`);
   }
   if (brand) {
     sqlParams.push(brand);
@@ -324,23 +318,13 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     totalResults,
     totalPages,
     currentPage,
-<<<<<<< HEAD
     animal,
-    type,
+    type: originalType,
     urlSearch,
     pageTitle,
     slug,
     brand,
     limit,
-=======
-    animal, 
-    type: originalType, 
-    urlSearch, 
-    pageTitle, 
-    slug, 
-    brand, 
-    limit, 
->>>>>>> 592d2023785c8fe3f09ee5b0c18e961c4f66c0d9
     sort,
     hideFilter,
     isTag: isTagPage,
