@@ -205,7 +205,7 @@ export default function PurchaseNotificationPopup() {
             <div className="buyer-info">
               <span className="buyer-name">{currentEvent.name}</span> purchased a
             </div>
-            <div className="product-name">
+            <div className="purchaseNotificationPopup-product-name">
               {currentEvent.product.productName}
             </div>
             <div className="time-ago">
@@ -319,10 +319,10 @@ export default function PurchaseNotificationPopup() {
           font-weight: 700;
         }
 
-        .product-name {
+        .purchaseNotificationPopup-product-name {
           font-size: 0.82rem;
           font-weight: 700;
-          color: #000;
+          color: #fff;
           line-height: 1.3;
           display: -webkit-box;
           -webkit-line-clamp: 1;

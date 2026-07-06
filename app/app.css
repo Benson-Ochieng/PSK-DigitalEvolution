@@ -3284,3 +3284,10 @@ a:hover {
   color: #0d4585;
   text-decoration: underline;
 }
+
+.account-nav-btn,
+.account-nav-btn:hover,
+.cart-nav-btn,
+.cart-nav-btn:hover {
+  text-decoration: none !important;
+}

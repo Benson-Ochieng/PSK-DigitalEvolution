@@ -262,7 +262,15 @@ const DRAWER_MENU_ITEMS = [
 export default function Navbar() {
   const { count, setIsCartOpen } = useCart();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(() => {
+    if (typeof document !== "undefined") {
+      return document.cookie.split(";").some(row => {
+        const [name, val] = row.split("=");
+        return name.trim() === "customer_name" && !!val;
+      });
+    }
+    return false;
+  });
   const [searchVal, setSearchVal] = useState("");
   const [searchResults, setSearchResults] = useState<{
     suggestions: string[];
@@ -280,10 +288,13 @@ export default function Navbar() {
 
   useEffect(() => {
     if (typeof document !== "undefined") {
-      const isLogged = document.cookie.split("; ").some(row => row.trim().startsWith("customer_name="));
+      const isLogged = document.cookie.split(";").some(row => {
+        const [name, val] = row.split("=");
+        return name.trim() === "customer_name" && !!val;
+      });
       setIsLoggedIn(isLogged);
     }
-  }, [location.pathname]);
+  }, [location]);
 
   const renderDrawerMenuItem = (item: any, depth = 0) => {
     const isExpandable = !!item.subItems && item.subItems.length > 0;
@@ -725,8 +736,8 @@ export default function Navbar() {
               {isLoggedIn && (
                 <span className="green-dot" style={{
                   position: "absolute",
-                  bottom: "-2px",
-                  right: "-2px",
+                  bottom: "1px",
+                  right: "1px",
                   width: "12px",
                   height: "12px",
                   backgroundColor: "#22c55e",
