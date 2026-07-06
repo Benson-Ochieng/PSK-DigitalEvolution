@@ -319,11 +319,7 @@ export default function PurchaseNotificationPopup() {
           font-weight: 700;
         }
 
-<<<<<<< HEAD
-        .purchase-notification-container .product-name {
-=======
         .purchaseNotificationPopup-product-name {
->>>>>>> acf0340d2a47160bd84c4a0c4f493e3ac516fb18
           font-size: 0.82rem;
           font-weight: 700;
           color: #fff;
