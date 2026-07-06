@@ -234,27 +234,6 @@
     "status": "publish"
   },
   {
-    "id": 52802,
-    "name": "Reflex Pocket Treats Hairball Control 60g",
-    "slug": "reflex-pocket-treats-hairball-controll-60gr",
-    "sku": "PSK-52802",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
     "id": 52804,
     "name": "Reflex Pocket Treats Skin And Coat 60g",
     "slug": "reflex-pocket-treats-skin-and-coat-60gr",
@@ -301,69 +280,6 @@
     "name": "Rogz Doggumz Treat Ball 7.8cm Pink Large",
     "slug": "rogz-dog-gumz-treat-ball-7-8cm-pink-large-2",
     "sku": "PSK-52808",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 52809,
-    "name": "Rogz Dog Gumz Treats Ball 4.9cm",
-    "slug": "rogz-dog-gumz-treats-ball-4-9cm",
-    "sku": "PSK-52809",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 52810,
-    "name": "Rogz Dog Rfo Flying Floating Frisbee Red Large",
-    "slug": "rogz-dog-rfo-flying-floating-frisbee-red-large",
-    "sku": "PSK-52810",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 52824,
-    "name": "Rogz Dog Yumz Treat Toy Bone 15cm",
-    "slug": "rogz-dog-yumz-treat-toy-bone-15cm",
-    "sku": "PSK-52824",
     "regularPrice": null,
     "salePrice": null,
     "price": null,
@@ -719,27 +635,6 @@
     "status": "publish"
   },
   {
-    "id": 52788,
-    "name": "Proline Bentonite Clumping Cat Litter Odourless 5l",
-    "slug": "proline-bentonite-clumping-cat-litter-odourless-5l",
-    "sku": "PSK-52788",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
     "id": 52803,
     "name": "Reflex Pocket Treats Sensitive 60g",
     "slug": "reflex-pocket-treats-sensitive-60gr",
@@ -775,6 +670,47 @@
         "id": 2332,
         "name": "Cat Litter",
         "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 69434,
+    "name": "Montego Bags O' Wags Fruities Orange & Yoghurt - 500g",
+    "slug": "montego-bags-o-wags-fruities-orange-yoghurt-500g",
+    "sku": "PSK-69434",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2380,
+        "name": "Bags-o-wags",
+        "slug": "bags-o-wags"
+      },
+      {
+        "id": 2345,
+        "name": "Dog",
+        "slug": "dog-supplies-store"
+      },
+      {
+        "id": 2346,
+        "name": "Dog Food & Treats",
+        "slug": "dog-food-treats"
+      },
+      {
+        "id": 2347,
+        "name": "Dog Treats",
+        "slug": "dog-treats"
+      },
+      {
+        "id": 2298,
+        "name": "Montego",
+        "slug": "montego"
       }
     ],
     "brands": [],
@@ -865,6 +801,152 @@
     "status": "publish"
   },
   {
+    "id": 12067,
+    "name": "Dog Lover Loyal Customer Bundle 1",
+    "slug": "dog-lover-loyal-customer-bundle-1",
+    "sku": "PSK-12067",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 1304,
+        "name": "Clearance",
+        "slug": "clearance"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52879,
+    "name": "Cs Cat Deterrent Spray",
+    "slug": "cs-cat-deterrent-spary",
+    "sku": "PSK-52879",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2325,
+        "name": "Cat",
+        "slug": "cat-supplies-store"
+      },
+      {
+        "id": 2343,
+        "name": "Cat Grooming",
+        "slug": "cat-grooming"
+      },
+      {
+        "id": 2279,
+        "name": "CS",
+        "slug": "cs"
+      },
+      {
+        "id": 2398,
+        "name": "Shampoo",
+        "slug": "cat-shampoo"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "name": "Pet Care",
+        "slug": "pet-care"
+      }
+    ],
+    "status": "publish"
+  },
+  {
+    "id": 52809,
+    "name": "Rogz Dog Gumz Treats Ball 4.9cm",
+    "slug": "rogz-dog-gumz-treats-ball-4-9cm",
+    "sku": "PSK-52809",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52810,
+    "name": "Rogz Dog Rfo Flying Floating Frisbee Red Large",
+    "slug": "rogz-dog-rfo-flying-floating-frisbee-red-large",
+    "sku": "PSK-52810",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52824,
+    "name": "Rogz Dog Yumz Treat Toy Bone 15cm",
+    "slug": "rogz-dog-yumz-treat-toy-bone-15cm",
+    "sku": "PSK-52824",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52788,
+    "name": "Proline Bentonite Clumping Cat Litter Odourless 5l",
+    "slug": "proline-bentonite-clumping-cat-litter-odourless-5l",
+    "sku": "PSK-52788",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
     "id": 8436,
     "name": "SUPER Saver January Cat Bundle: 25 Assorted 100g Bonnie Pouches + ONE 5L Cat Litter",
     "slug": "super-saver-january-cat-bundle",
@@ -927,47 +1009,6 @@
     "status": "publish"
   },
   {
-    "id": 69434,
-    "name": "Montego Bags O' Wags Fruities Orange & Yoghurt - 500g",
-    "slug": "montego-bags-o-wags-fruities-orange-yoghurt-500g",
-    "sku": "PSK-69434",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2380,
-        "name": "Bags-o-wags",
-        "slug": "bags-o-wags"
-      },
-      {
-        "id": 2345,
-        "name": "Dog",
-        "slug": "dog-supplies-store"
-      },
-      {
-        "id": 2346,
-        "name": "Dog Food & Treats",
-        "slug": "dog-food-treats"
-      },
-      {
-        "id": 2347,
-        "name": "Dog Treats",
-        "slug": "dog-treats"
-      },
-      {
-        "id": 2298,
-        "name": "Montego",
-        "slug": "montego"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
     "id": 11341,
     "name": "March Madness Cat Bundle: ONE 1.5kg Reflex Adult Cat Multicolour Chicken + 4 Assorted Reflex Cat Treats",
     "slug": "march-madness-cat-bundle-one-1-5kg-reflex-adult-cat-multicolour-chicken-four-assorted-reflex-cat-treats",
@@ -989,10 +1030,10 @@
     "status": "publish"
   },
   {
-    "id": 12067,
-    "name": "Dog Lover Loyal Customer Bundle 1",
-    "slug": "dog-lover-loyal-customer-bundle-1",
-    "sku": "PSK-12067",
+    "id": 12069,
+    "name": "Dog Lover Loyal Customer Bundle 2",
+    "slug": "dog-lover-loyal-customer-bundle-2",
+    "sku": "PSK-12069",
     "regularPrice": null,
     "salePrice": null,
     "price": null,
@@ -1010,10 +1051,10 @@
     "status": "publish"
   },
   {
-    "id": 12069,
-    "name": "Dog Lover Loyal Customer Bundle 2",
-    "slug": "dog-lover-loyal-customer-bundle-2",
-    "sku": "PSK-12069",
+    "id": 52776,
+    "name": "Pet Ball For Dog Treat 7.5cm",
+    "slug": "pet-ball-for-dog-treat-7-5cm",
+    "sku": "PSK-52776",
     "regularPrice": null,
     "salePrice": null,
     "price": null,
@@ -1021,9 +1062,122 @@
     "inStock": false,
     "categories": [
       {
-        "id": 1304,
-        "name": "Clearance",
-        "slug": "clearance"
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 20013,
+    "name": "Dog Poop Bag Holder - Bone Shape Purple",
+    "slug": "dog-poop-bag-holder-bone-shape-purple",
+    "sku": "PSK-20013",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2325,
+        "name": "Cat",
+        "slug": "cat-supplies-store"
+      },
+      {
+        "id": 2343,
+        "name": "Cat Grooming",
+        "slug": "cat-grooming"
+      },
+      {
+        "id": 2345,
+        "name": "Dog",
+        "slug": "dog-supplies-store"
+      },
+      {
+        "id": 2360,
+        "name": "Dog Grooming & Cleaning",
+        "slug": "dog-grooming-cleaning-supplies"
+      },
+      {
+        "id": 2096,
+        "name": "Generic",
+        "slug": "generic"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "name": "Pet Care",
+        "slug": "pet-care"
+      }
+    ],
+    "status": "publish"
+  },
+  {
+    "id": 20007,
+    "name": "Pet Grooming Glove - Blue Right Hand",
+    "slug": "pet-grooming-glove-blue-right-hand",
+    "sku": "PSK-20007",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2325,
+        "name": "Cat",
+        "slug": "cat-supplies-store"
+      },
+      {
+        "id": 2343,
+        "name": "Cat Grooming",
+        "slug": "cat-grooming"
+      },
+      {
+        "id": 2345,
+        "name": "Dog",
+        "slug": "dog-supplies-store"
+      },
+      {
+        "id": 2360,
+        "name": "Dog Grooming & Cleaning",
+        "slug": "dog-grooming-cleaning-supplies"
+      },
+      {
+        "id": 2096,
+        "name": "Generic",
+        "slug": "generic"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "name": "Pet Care",
+        "slug": "pet-care"
+      }
+    ],
+    "status": "publish"
+  },
+  {
+    "id": 52802,
+    "name": "Reflex Pocket Treats Hairball Control 60g",
+    "slug": "reflex-pocket-treats-hairball-controll-60gr",
+    "sku": "PSK-52802",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
       }
     ],
     "brands": [],
@@ -1258,160 +1412,6 @@
     ],
     "brands": [],
     "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 52776,
-    "name": "Pet Ball For Dog Treat 7.5cm",
-    "slug": "pet-ball-for-dog-treat-7-5cm",
-    "sku": "PSK-52776",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 52879,
-    "name": "Cs Cat Deterrent Spray",
-    "slug": "cs-cat-deterrent-spary",
-    "sku": "PSK-52879",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2325,
-        "name": "Cat",
-        "slug": "cat-supplies-store"
-      },
-      {
-        "id": 2343,
-        "name": "Cat Grooming",
-        "slug": "cat-grooming"
-      },
-      {
-        "id": 2279,
-        "name": "CS",
-        "slug": "cs"
-      },
-      {
-        "id": 2398,
-        "name": "Shampoo",
-        "slug": "cat-shampoo"
-      }
-    ],
-    "brands": [],
-    "tags": [
-      {
-        "name": "Pet Care",
-        "slug": "pet-care"
-      }
-    ],
-    "status": "publish"
-  },
-  {
-    "id": 20013,
-    "name": "Dog Poop Bag Holder - Bone Shape Purple",
-    "slug": "dog-poop-bag-holder-bone-shape-purple",
-    "sku": "PSK-20013",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2325,
-        "name": "Cat",
-        "slug": "cat-supplies-store"
-      },
-      {
-        "id": 2343,
-        "name": "Cat Grooming",
-        "slug": "cat-grooming"
-      },
-      {
-        "id": 2345,
-        "name": "Dog",
-        "slug": "dog-supplies-store"
-      },
-      {
-        "id": 2360,
-        "name": "Dog Grooming & Cleaning",
-        "slug": "dog-grooming-cleaning-supplies"
-      },
-      {
-        "id": 2096,
-        "name": "Generic",
-        "slug": "generic"
-      }
-    ],
-    "brands": [],
-    "tags": [
-      {
-        "name": "Pet Care",
-        "slug": "pet-care"
-      }
-    ],
-    "status": "publish"
-  },
-  {
-    "id": 20007,
-    "name": "Pet Grooming Glove - Blue Right Hand",
-    "slug": "pet-grooming-glove-blue-right-hand",
-    "sku": "PSK-20007",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2325,
-        "name": "Cat",
-        "slug": "cat-supplies-store"
-      },
-      {
-        "id": 2343,
-        "name": "Cat Grooming",
-        "slug": "cat-grooming"
-      },
-      {
-        "id": 2345,
-        "name": "Dog",
-        "slug": "dog-supplies-store"
-      },
-      {
-        "id": 2360,
-        "name": "Dog Grooming & Cleaning",
-        "slug": "dog-grooming-cleaning-supplies"
-      },
-      {
-        "id": 2096,
-        "name": "Generic",
-        "slug": "generic"
-      }
-    ],
-    "brands": [],
-    "tags": [
-      {
-        "name": "Pet Care",
-        "slug": "pet-care"
-      }
-    ],
     "status": "publish"
   },
   {
@@ -35110,6 +35110,27 @@
     "status": "publish"
   },
   {
+    "id": 52785,
+    "name": "Proline Bentonite Clumping Cat Litter Lavender 10l",
+    "slug": "proline-bentonite-clumping-cat-litter-lavender-10l-3",
+    "sku": "PSK-52785",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
     "id": 39004,
     "name": "SHORT EXPIRY-CLEARANCE: Proline Puppy Food - Chicken 15kg",
     "slug": "short-expiry-clearance-proline-puppy-food-chicken-15kg",
@@ -35288,27 +35309,6 @@
         "id": 180,
         "name": "Spectrum",
         "slug": "spectrum"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 52785,
-    "name": "Proline Bentonite Clumping Cat Litter Lavender 10l",
-    "slug": "proline-bentonite-clumping-cat-litter-lavender-10l-3",
-    "sku": "PSK-52785",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
       }
     ],
     "brands": [],
