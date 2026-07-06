@@ -182,13 +182,13 @@ export default function Home() {
           </div>
           {visibleCount < featured.length && (
             <div style={{ marginTop: "2.5rem", textAlign: "center" }}>
-              <button
-                onClick={() => setVisibleCount((prev) => prev + 10)}
+              <Link
+                to="/product-tag/new-arrivals"
                 className="btn-blue"
-                style={{ padding: "0.6rem 2.5rem", textTransform: "uppercase", fontSize: "0.8rem" }}
+                style={{ display: "inline-block", padding: "0.6rem 2.5rem", textTransform: "uppercase", fontSize: "0.8rem", textDecoration: "none" }}
               >
                 Load More
-              </button>
+              </Link>
             </div>
           )}
         </section>
