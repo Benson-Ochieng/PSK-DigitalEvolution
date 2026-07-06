@@ -158,11 +158,11 @@ export default function NewArrivals() {
           <div style={{ marginBottom: "1.5rem" }}>
             <h1 style={{
               fontFamily: "var(--font-sans)",
-              fontSize: "1.8rem",
-              fontWeight: 700,
+              fontSize: "1.35rem",
+              fontWeight: 500,
               color: "#1053a0",
               margin: 0,
-              paddingBottom: "0.5rem",
+              paddingBottom: "0.25rem",
               borderBottom: "2px solid #1053a0",
               display: "inline-block"
             }}>

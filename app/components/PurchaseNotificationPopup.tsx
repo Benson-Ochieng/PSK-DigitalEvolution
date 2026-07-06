@@ -71,20 +71,20 @@ const PURCHASE_PRODUCTS: PurchaseEvent[] = [
 ];
 
 const KENYAN_NAMES = [
-  "Njoki", "Mwangi", "Kamau", "Ochieng", "Amina", 
-  "Wanjiku", "Otieno", "Mutua", "Chepngetich", "Njoroge", 
-  "Fatuma", "Kiprono", "Anyango", "Karanja", "Atieno", 
+  "Njoki", "Mwangi", "Kamau", "Ochieng", "Amina",
+  "Wanjiku", "Otieno", "Mutua", "Chepngetich", "Njoroge",
+  "Fatuma", "Kiprono", "Anyango", "Karanja", "Atieno",
   "Zawadi", "Baraka", "Waweru", "Juma", "Moraa"
 ];
 
 const KENYAN_LOCATIONS = [
-  "Nairobi", "Mombasa", "Kisumu", "Nakuru", "Eldoret", 
-  "Karen", "Westlands", "Kilimani", "Ngong", "Runda", 
+  "Nairobi", "Mombasa", "Kisumu", "Nakuru", "Eldoret",
+  "Karen", "Westlands", "Kilimani", "Ngong", "Runda",
   "Thika", "Kitengela", "Ruiru", "Lavington", "Gigiri"
 ];
 
 const TIME_OFFSETS = [
-  "About 5 minutes ago", "About 12 minutes ago", "About 24 minutes ago", 
+  "About 5 minutes ago", "About 12 minutes ago", "About 24 minutes ago",
   "About 45 minutes ago", "About 1 hour ago", "About 2 hours ago", "About 8 hours ago"
 ];
 
@@ -217,7 +217,7 @@ export default function PurchaseNotificationPopup() {
         {/* Close Button */}
         <button className="purchase-notification-close-btn" onClick={handleClose} aria-label="Dismiss notification">
           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" fill="currentColor"/>
+            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" fill="currentColor" />
           </svg>
         </button>
       </div>
@@ -322,7 +322,7 @@ export default function PurchaseNotificationPopup() {
         .product-name {
           font-size: 0.82rem;
           font-weight: 700;
-          color: #ffffff;
+          color: #000;
           line-height: 1.3;
           display: -webkit-box;
           -webkit-line-clamp: 1;
