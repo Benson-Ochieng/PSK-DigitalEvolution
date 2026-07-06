@@ -1,4 +1,4 @@
-import { data, redirect, Form, useLoaderData, useActionData, useNavigate, Link } from "react-router";
+import { data, redirect, Form, useLoaderData, useActionData, useNavigate, Link, useLocation } from "react-router";
 import { useState, useEffect } from "react";
 import fs from "fs";
 import path from "path";
@@ -220,8 +220,19 @@ export default function MyAccount() {
   const { customerName, customerEmail, orders, recaptchaSiteKey } = useLoaderData<typeof loader>();
   const actionData = useActionData<any>();
   const navigate = useNavigate();
+  const location = useLocation();
 
-  const [activeTab, setActiveTab] = useState("dashboard");
+  const pathname = location.pathname.replace(/\/$/, "");
+  let activeTab = "dashboard";
+  if (pathname.endsWith("/loyalty-points")) {
+    activeTab = "loyalty";
+  } else if (pathname.endsWith("/orders")) {
+    activeTab = "orders";
+  } else if (pathname.endsWith("/saved-addresses")) {
+    activeTab = "addresses";
+  } else if (pathname.endsWith("/edit-account")) {
+    activeTab = "details";
+  }
   const [showLoginPassword, setShowLoginPassword] = useState(false);
   const [showRegisterPassword, setShowRegisterPassword] = useState(false);
   const [registerPassword, setRegisterPassword] = useState("");
@@ -700,7 +711,7 @@ export default function MyAccount() {
             {/* Left WooCommerce Sidebar Menu */}
             <aside style={{ display: "flex", flexDirection: "column", width: "240px" }}>
               <button
-                onClick={() => setActiveTab("dashboard")}
+                onClick={() => navigate("/my-account")}
                 style={{
                   textAlign: "left",
                   background: "#1053a0",
@@ -721,7 +732,7 @@ export default function MyAccount() {
               </button>
 
               <button
-                onClick={() => setActiveTab("loyalty")}
+                onClick={() => navigate("/my-account/loyalty-points")}
                 style={{
                   textAlign: "left",
                   background: "#1053a0",
@@ -742,7 +753,7 @@ export default function MyAccount() {
               </button>
 
               <button
-                onClick={() => setActiveTab("orders")}
+                onClick={() => navigate("/my-account/orders")}
                 style={{
                   textAlign: "left",
                   background: "#1053a0",
@@ -763,7 +774,7 @@ export default function MyAccount() {
               </button>
 
               <button
-                onClick={() => setActiveTab("addresses")}
+                onClick={() => navigate("/my-account/saved-addresses")}
                 style={{
                   textAlign: "left",
                   background: "#1053a0",
@@ -784,7 +795,7 @@ export default function MyAccount() {
               </button>
 
               <button
-                onClick={() => setActiveTab("details")}
+                onClick={() => navigate("/my-account/edit-account")}
                 style={{
                   textAlign: "left",
                   background: "#1053a0",
@@ -833,7 +844,7 @@ export default function MyAccount() {
                     Hello <strong style={{ color: "#000000" }}>{customerName}</strong> (not <strong style={{ color: "#000000" }}>{customerName}</strong>? <Link to="/my-account?action=logout" style={{ color: "#3b82f6", textDecoration: "none" }}>Log out</Link>)
                   </div>
                   <p style={{ color: "#000000" }}>
-                    From your account dashboard you can view your <span style={{ color: "#3b82f6", cursor: "pointer" }} onClick={() => setActiveTab("orders")}>recent orders</span>, manage your <span style={{ color: "#3b82f6", cursor: "pointer" }} onClick={() => setActiveTab("addresses")}>shipping and billing addresses</span>, and <span style={{ color: "#3b82f6", cursor: "pointer" }} onClick={() => setActiveTab("details")}>edit your password and account details</span>.
+                    From your account dashboard you can view your <span style={{ color: "#3b82f6", cursor: "pointer" }} onClick={() => navigate("/my-account/orders")}>recent orders</span>, manage your <span style={{ color: "#3b82f6", cursor: "pointer" }} onClick={() => navigate("/my-account/saved-addresses")}>shipping and billing addresses</span>, and <span style={{ color: "#3b82f6", cursor: "pointer" }} onClick={() => navigate("/my-account/edit-account")}>edit your password and account details</span>.
                   </p>
                 </div>
               )}
