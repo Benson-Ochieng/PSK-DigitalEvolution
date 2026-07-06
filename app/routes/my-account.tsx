@@ -176,6 +176,46 @@ export async function action({ request }: Route.ActionArgs) {
   return {};
 }
 
+function getPasswordStrength(password: string) {
+  if (!password) return { score: 0, label: "Very Weak", color: "#fca5a5" };
+  
+  let score = 0;
+  
+  // Length check
+  if (password.length >= 8) {
+    score += 2;
+  } else if (password.length >= 6) {
+    score += 1;
+  }
+  
+  // Character type checks
+  const hasLower = /[a-z]/.test(password);
+  const hasUpper = /[A-Z]/.test(password);
+  const hasDigit = /[0-9]/.test(password);
+  const hasSpecial = /[^A-Za-z0-9]/.test(password);
+  
+  if (hasLower) score += 1;
+  if (hasUpper) score += 1;
+  if (hasDigit) score += 1;
+  if (hasSpecial) score += 1;
+  
+  // Map score to levels
+  if (password.length < 6) {
+    return { score: 1, label: "Very Weak", color: "#fca5a5" }; // Light Red
+  }
+  if (password.length < 8) {
+    return { score: 2, label: "Weak", color: "#fbc4a3" }; // Peach
+  }
+  
+  if (score <= 3) {
+    return { score: 2, label: "Weak", color: "#fbc4a3" };
+  } else if (score <= 5) {
+    return { score: 3, label: "Medium", color: "#ffe87c" }; // Yellow
+  } else {
+    return { score: 4, label: "Strong", color: "#c2f0c2" }; // Green
+  }
+}
+
 export default function MyAccount() {
   const { customerName, customerEmail, orders, recaptchaSiteKey } = useLoaderData<typeof loader>();
   const actionData = useActionData<any>();
@@ -184,6 +224,7 @@ export default function MyAccount() {
   const [activeTab, setActiveTab] = useState("dashboard");
   const [showLoginPassword, setShowLoginPassword] = useState(false);
   const [showRegisterPassword, setShowRegisterPassword] = useState(false);
+  const [registerPassword, setRegisterPassword] = useState("");
 
   // Load and render Google reCAPTCHA v2 script and widgets
   useEffect(() => {
@@ -502,6 +543,7 @@ export default function MyAccount() {
                     />
                   </div>
 
+
                   <div>
                     <label style={{ display: "block", fontSize: "0.85rem", color: "#1a1a1a", marginBottom: "0.4rem" }}>
                       Password <span style={{ color: "#e2401c" }}>*</span>
@@ -510,6 +552,8 @@ export default function MyAccount() {
                       <input
                         type={showRegisterPassword ? "text" : "password"}
                         name="password"
+                        value={registerPassword}
+                        onChange={e => setRegisterPassword(e.target.value)}
                         required
                         style={{
                           width: "100%",
@@ -535,6 +579,34 @@ export default function MyAccount() {
                         <i className={showRegisterPassword ? "fa fa-eye-slash" : "fa fa-eye"} style={{ fontSize: "16px" }}></i>
                       </span>
                     </div>
+                    {registerPassword && (
+                      <>
+                        <div style={{
+                          backgroundColor: getPasswordStrength(registerPassword).color,
+                          color: "#000000",
+                          padding: "8px 12px",
+                          textAlign: "center",
+                          fontWeight: "700",
+                          fontSize: "0.85rem",
+                          marginTop: "0.5rem",
+                          borderRadius: "4px",
+                          border: "1px solid rgba(0,0,0,0.06)",
+                          boxSizing: "border-box",
+                          width: "100%"
+                        }}>
+                          Password Strength: {getPasswordStrength(registerPassword).label}
+                        </div>
+                        <p style={{
+                          fontSize: "0.78rem",
+                          color: "#666666",
+                          lineHeight: "1.4",
+                          marginTop: "0.5rem",
+                          marginBottom: "0.5rem"
+                        }}>
+                          Hint: The password should be at least 8 characters long. To make it stronger, use upper and lower case letters, numbers, and symbols like ! " ? $ % ^ & ).
+                        </p>
+                      </>
+                    )}
                   </div>
 
                   {recaptchaSiteKey ? (
@@ -623,103 +695,113 @@ export default function MyAccount() {
           <PageHeader title="My Account" />
 
           {/* Account Dashboard Layout Grid */}
-          <div style={{ display: "grid", gridTemplateColumns: "300px 1fr", gap: "2.5rem", alignItems: "start" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "240px 1fr", gap: "2.5rem", alignItems: "start" }}>
 
             {/* Left WooCommerce Sidebar Menu */}
-            <aside style={{ display: "flex", flexDirection: "column" }}>
+            <aside style={{ display: "flex", flexDirection: "column", width: "240px" }}>
               <button
                 onClick={() => setActiveTab("dashboard")}
                 style={{
                   textAlign: "left",
-                  background: activeTab === "dashboard" ? "#1a5ca3" : "#1053a0",
+                  background: "#1053a0",
                   color: "#ffffff",
                   border: "none",
-                  borderBottom: "1px solid #0f4a8f",
+                  borderBottom: "1px solid #ffffff",
                   padding: "0.85rem 1.25rem",
                   fontSize: "0.85rem",
                   fontWeight: 700,
                   textTransform: "uppercase",
                   cursor: "pointer",
-                  letterSpacing: "0.05em"
+                  letterSpacing: "0.05em",
+                  display: "flex",
+                  alignItems: "center"
                 }}
               >
-                <i className="fa fa-tachometer" style={{ marginRight: "10px" }}></i> Dashboard
+                <i className="fa fa-tachometer" style={{ marginRight: "12px", width: "16px", textAlign: "center" }}></i> Dashboard
               </button>
 
               <button
                 onClick={() => setActiveTab("loyalty")}
                 style={{
                   textAlign: "left",
-                  background: activeTab === "loyalty" ? "#1a5ca3" : "#1053a0",
+                  background: "#1053a0",
                   color: "#ffffff",
                   border: "none",
-                  borderBottom: "1px solid #0f4a8f",
+                  borderBottom: "1px solid #ffffff",
                   padding: "0.85rem 1.25rem",
                   fontSize: "0.85rem",
                   fontWeight: 700,
                   textTransform: "uppercase",
                   cursor: "pointer",
-                  letterSpacing: "0.05em"
+                  letterSpacing: "0.05em",
+                  display: "flex",
+                  alignItems: "center"
                 }}
               >
-                <i className="fa fa-gift" style={{ marginRight: "10px" }}></i> Loyalty Points
+                <span style={{ marginRight: "12px", width: "16px", textAlign: "center", display: "inline-block" }}>🎁</span> Loyalty Points
               </button>
 
               <button
                 onClick={() => setActiveTab("orders")}
                 style={{
                   textAlign: "left",
-                  background: activeTab === "orders" ? "#1a5ca3" : "#1053a0",
+                  background: "#1053a0",
                   color: "#ffffff",
                   border: "none",
-                  borderBottom: "1px solid #0f4a8f",
+                  borderBottom: "1px solid #ffffff",
                   padding: "0.85rem 1.25rem",
                   fontSize: "0.85rem",
                   fontWeight: 700,
                   textTransform: "uppercase",
                   cursor: "pointer",
-                  letterSpacing: "0.05em"
+                  letterSpacing: "0.05em",
+                  display: "flex",
+                  alignItems: "center"
                 }}
               >
-                <i className="fa fa-shopping-basket" style={{ marginRight: "10px" }}></i> Orders
+                <span style={{ marginRight: "12px", width: "16px", textAlign: "center", display: "inline-block" }}>🧺</span> Orders
               </button>
 
               <button
                 onClick={() => setActiveTab("addresses")}
                 style={{
                   textAlign: "left",
-                  background: activeTab === "addresses" ? "#1a5ca3" : "#1053a0",
+                  background: "#1053a0",
                   color: "#ffffff",
                   border: "none",
-                  borderBottom: "1px solid #0f4a8f",
+                  borderBottom: "1px solid #ffffff",
                   padding: "0.85rem 1.25rem",
                   fontSize: "0.85rem",
                   fontWeight: 700,
                   textTransform: "uppercase",
                   cursor: "pointer",
-                  letterSpacing: "0.05em"
+                  letterSpacing: "0.05em",
+                  display: "flex",
+                  alignItems: "center"
                 }}
               >
-                <i className="fa fa-home" style={{ marginRight: "10px" }}></i> Addresses
+                <i className="fa fa-home" style={{ marginRight: "12px", width: "16px", textAlign: "center" }}></i> Addresses
               </button>
 
               <button
                 onClick={() => setActiveTab("details")}
                 style={{
                   textAlign: "left",
-                  background: activeTab === "details" ? "#1a5ca3" : "#1053a0",
+                  background: "#1053a0",
                   color: "#ffffff",
                   border: "none",
-                  borderBottom: "1px solid #0f4a8f",
+                  borderBottom: "1px solid #ffffff",
                   padding: "0.85rem 1.25rem",
                   fontSize: "0.85rem",
                   fontWeight: 700,
                   textTransform: "uppercase",
                   cursor: "pointer",
-                  letterSpacing: "0.05em"
+                  letterSpacing: "0.05em",
+                  display: "flex",
+                  alignItems: "center"
                 }}
               >
-                <i className="fa fa-user" style={{ marginRight: "10px" }}></i> Account Details
+                <i className="fa fa-user" style={{ marginRight: "12px", width: "16px", textAlign: "center" }}></i> Account Details
               </button>
 
               <button
@@ -734,10 +816,12 @@ export default function MyAccount() {
                   fontWeight: 700,
                   textTransform: "uppercase",
                   cursor: "pointer",
-                  letterSpacing: "0.05em"
+                  letterSpacing: "0.05em",
+                  display: "flex",
+                  alignItems: "center"
                 }}
               >
-                <i className="fa fa-sign-out" style={{ marginRight: "10px" }}></i> Log Out
+                <i className="fa fa-sign-out" style={{ marginRight: "12px", width: "16px", textAlign: "center" }}></i> Log Out
               </button>
             </aside>
 

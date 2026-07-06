@@ -3300,3 +3300,11 @@ a:hover {
 .cart-nav-btn:hover {
   text-decoration: none !important;
 }
+
+/* Page spacing overrides to remove top padding below navbar */
+.page {
+  padding-top: 0 !important;
+}
+.page-container {
+  padding-top: 0 !important;
+}

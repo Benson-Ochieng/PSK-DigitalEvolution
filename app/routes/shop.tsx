@@ -198,6 +198,33 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     else if (type === "on-sale") pageTitle = "On Sale Now";
   }
 
+  // Handle special promo/offer types
+  const originalType = type;
+  let isBulkFilter = false;
+  let isOffersFilter = false;
+
+  if (type === "on-sale") {
+    categorySlug = "sale";
+    type = "";
+    pageTitle = "On Sale Now";
+  } else if (type === "clearance") {
+    categorySlug = "clearance";
+    type = "";
+    pageTitle = "Clearance";
+  } else if (type === "bundles") {
+    categorySlug = "bundles";
+    type = "";
+    pageTitle = "Bundles";
+  } else if (type === "bulk") {
+    isBulkFilter = true;
+    type = "";
+    pageTitle = "Bulk Items";
+  } else if (type === "offer" || type === "offers") {
+    isOffersFilter = true;
+    type = "";
+    pageTitle = "Offers";
+  }
+
   const conditions: string[] = [];
   const sqlParams: any[] = [];
 
@@ -212,9 +239,26 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     sqlParams.push(type);
     conditions.push(`p.food_type = $${sqlParams.length}`);
   }
+<<<<<<< HEAD
   if (search) {
     sqlParams.push(`%${search.toLowerCase()}%`);
     conditions.push(`LOWER(p.name) LIKE $${sqlParams.length}`);
+=======
+  if (isBulkFilter) {
+    conditions.push(`(p.weight_kg >= 10 OR LOWER(p.name) LIKE '%bundle%' OR LOWER(p.name) LIKE '%pack%')`);
+  } else if (isOffersFilter) {
+    conditions.push(`(
+      EXISTS (
+        SELECT 1 
+        FROM jsonb_to_recordset(p.categories) AS x(slug text)
+        WHERE x.slug IN ('sale', 'clearance', 'bundles')
+      )
+    )`);
+  }
+  if (search) { 
+    sqlParams.push(`%${search.toLowerCase()}%`); 
+    conditions.push(`LOWER(p.name) LIKE $${sqlParams.length}`); 
+>>>>>>> 592d2023785c8fe3f09ee5b0c18e961c4f66c0d9
   }
   if (brand) {
     sqlParams.push(brand);
@@ -280,6 +324,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     totalResults,
     totalPages,
     currentPage,
+<<<<<<< HEAD
     animal,
     type,
     urlSearch,
@@ -287,6 +332,15 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     slug,
     brand,
     limit,
+=======
+    animal, 
+    type: originalType, 
+    urlSearch, 
+    pageTitle, 
+    slug, 
+    brand, 
+    limit, 
+>>>>>>> 592d2023785c8fe3f09ee5b0c18e961c4f66c0d9
     sort,
     hideFilter,
     isTag: isTagPage,
