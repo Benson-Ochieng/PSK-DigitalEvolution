@@ -695,103 +695,113 @@ export default function MyAccount() {
           <PageHeader title="My Account" />
 
           {/* Account Dashboard Layout Grid */}
-          <div style={{ display: "grid", gridTemplateColumns: "300px 1fr", gap: "2.5rem", alignItems: "start" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "240px 1fr", gap: "2.5rem", alignItems: "start" }}>
 
             {/* Left WooCommerce Sidebar Menu */}
-            <aside style={{ display: "flex", flexDirection: "column" }}>
+            <aside style={{ display: "flex", flexDirection: "column", width: "240px" }}>
               <button
                 onClick={() => setActiveTab("dashboard")}
                 style={{
                   textAlign: "left",
-                  background: activeTab === "dashboard" ? "#1a5ca3" : "#1053a0",
+                  background: "#1053a0",
                   color: "#ffffff",
                   border: "none",
-                  borderBottom: "1px solid #0f4a8f",
+                  borderBottom: "1px solid #ffffff",
                   padding: "0.85rem 1.25rem",
                   fontSize: "0.85rem",
                   fontWeight: 700,
                   textTransform: "uppercase",
                   cursor: "pointer",
-                  letterSpacing: "0.05em"
+                  letterSpacing: "0.05em",
+                  display: "flex",
+                  alignItems: "center"
                 }}
               >
-                <i className="fa fa-tachometer" style={{ marginRight: "10px" }}></i> Dashboard
+                <i className="fa fa-tachometer" style={{ marginRight: "12px", width: "16px", textAlign: "center" }}></i> Dashboard
               </button>
 
               <button
                 onClick={() => setActiveTab("loyalty")}
                 style={{
                   textAlign: "left",
-                  background: activeTab === "loyalty" ? "#1a5ca3" : "#1053a0",
+                  background: "#1053a0",
                   color: "#ffffff",
                   border: "none",
-                  borderBottom: "1px solid #0f4a8f",
+                  borderBottom: "1px solid #ffffff",
                   padding: "0.85rem 1.25rem",
                   fontSize: "0.85rem",
                   fontWeight: 700,
                   textTransform: "uppercase",
                   cursor: "pointer",
-                  letterSpacing: "0.05em"
+                  letterSpacing: "0.05em",
+                  display: "flex",
+                  alignItems: "center"
                 }}
               >
-                <i className="fa fa-gift" style={{ marginRight: "10px" }}></i> Loyalty Points
+                <span style={{ marginRight: "12px", width: "16px", textAlign: "center", display: "inline-block" }}>🎁</span> Loyalty Points
               </button>
 
               <button
                 onClick={() => setActiveTab("orders")}
                 style={{
                   textAlign: "left",
-                  background: activeTab === "orders" ? "#1a5ca3" : "#1053a0",
+                  background: "#1053a0",
                   color: "#ffffff",
                   border: "none",
-                  borderBottom: "1px solid #0f4a8f",
+                  borderBottom: "1px solid #ffffff",
                   padding: "0.85rem 1.25rem",
                   fontSize: "0.85rem",
                   fontWeight: 700,
                   textTransform: "uppercase",
                   cursor: "pointer",
-                  letterSpacing: "0.05em"
+                  letterSpacing: "0.05em",
+                  display: "flex",
+                  alignItems: "center"
                 }}
               >
-                <i className="fa fa-shopping-basket" style={{ marginRight: "10px" }}></i> Orders
+                <span style={{ marginRight: "12px", width: "16px", textAlign: "center", display: "inline-block" }}>🧺</span> Orders
               </button>
 
               <button
                 onClick={() => setActiveTab("addresses")}
                 style={{
                   textAlign: "left",
-                  background: activeTab === "addresses" ? "#1a5ca3" : "#1053a0",
+                  background: "#1053a0",
                   color: "#ffffff",
                   border: "none",
-                  borderBottom: "1px solid #0f4a8f",
+                  borderBottom: "1px solid #ffffff",
                   padding: "0.85rem 1.25rem",
                   fontSize: "0.85rem",
                   fontWeight: 700,
                   textTransform: "uppercase",
                   cursor: "pointer",
-                  letterSpacing: "0.05em"
+                  letterSpacing: "0.05em",
+                  display: "flex",
+                  alignItems: "center"
                 }}
               >
-                <i className="fa fa-home" style={{ marginRight: "10px" }}></i> Addresses
+                <i className="fa fa-home" style={{ marginRight: "12px", width: "16px", textAlign: "center" }}></i> Addresses
               </button>
 
               <button
                 onClick={() => setActiveTab("details")}
                 style={{
                   textAlign: "left",
-                  background: activeTab === "details" ? "#1a5ca3" : "#1053a0",
+                  background: "#1053a0",
                   color: "#ffffff",
                   border: "none",
-                  borderBottom: "1px solid #0f4a8f",
+                  borderBottom: "1px solid #ffffff",
                   padding: "0.85rem 1.25rem",
                   fontSize: "0.85rem",
                   fontWeight: 700,
                   textTransform: "uppercase",
                   cursor: "pointer",
-                  letterSpacing: "0.05em"
+                  letterSpacing: "0.05em",
+                  display: "flex",
+                  alignItems: "center"
                 }}
               >
-                <i className="fa fa-user" style={{ marginRight: "10px" }}></i> Account Details
+                <i className="fa fa-user" style={{ marginRight: "12px", width: "16px", textAlign: "center" }}></i> Account Details
               </button>
 
               <button
@@ -806,10 +816,12 @@ export default function MyAccount() {
                   fontWeight: 700,
                   textTransform: "uppercase",
                   cursor: "pointer",
-                  letterSpacing: "0.05em"
+                  letterSpacing: "0.05em",
+                  display: "flex",
+                  alignItems: "center"
                 }}
               >
-                <i className="fa fa-sign-out" style={{ marginRight: "10px" }}></i> Log Out
+                <i className="fa fa-sign-out" style={{ marginRight: "12px", width: "16px", textAlign: "center" }}></i> Log Out
               </button>
             </aside>
 
