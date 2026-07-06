@@ -37,7 +37,7 @@ const routes = [
   route("product/:slug", "routes/product.$slug.tsx"),
   route("flash-sale", "routes/flash-sale.tsx"),
   route("product-tag/new-arrivals", "routes/new-arrivals.tsx"),
-  route("my-account", "routes/my-account.tsx"),
+  route("my-account/:subpath?", "routes/my-account.tsx"),
   route("cart", "routes/cart.tsx"),
   route("checkout", "routes/checkout.tsx"),
   route("trust", "routes/trust.tsx"),
