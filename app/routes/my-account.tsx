@@ -77,7 +77,7 @@ export async function action({ request }: Route.ActionArgs) {
     if (recaptchaSecret) {
       const recaptchaResponse = formData.get("g-recaptcha-response")?.toString();
       if (!recaptchaResponse) {
-        return data({ error: "Please complete the reCAPTCHA verification." }, { status: 400 });
+        return data({ error: "Please complete the reCAPTCHA to verify that you are not a robot." }, { status: 400 });
       }
 
       try {
@@ -237,6 +237,61 @@ export default function MyAccount() {
   const [showRegisterPassword, setShowRegisterPassword] = useState(false);
   const [registerPassword, setRegisterPassword] = useState("");
 
+  const [loginWidgetId, setLoginWidgetId] = useState<number | null>(null);
+  const [registerWidgetId, setRegisterWidgetId] = useState<number | null>(null);
+  const [showRecaptchaError, setShowRecaptchaError] = useState(false);
+  const [clientError, setClientError] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (actionData?.error) {
+      setShowRecaptchaError(true);
+    }
+  }, [actionData]);
+
+  function handleLoginSubmit(e: React.FormEvent<HTMLFormElement>) {
+    if (recaptchaSiteKey) {
+      const response = (window as any).grecaptcha?.getResponse(loginWidgetId ?? undefined);
+      if (!response) {
+        e.preventDefault();
+        setClientError("Please complete the reCAPTCHA to verify that you are not a robot.");
+        setShowRecaptchaError(true);
+        return;
+      }
+    } else {
+      const formData = new FormData(e.currentTarget);
+      const isChecked = formData.get("mock_recaptcha") === "on";
+      if (!isChecked) {
+        e.preventDefault();
+        setClientError("Please complete the reCAPTCHA to verify that you are not a robot.");
+        setShowRecaptchaError(true);
+        return;
+      }
+    }
+  }
+
+  function handleRegisterSubmit(e: React.FormEvent<HTMLFormElement>) {
+    if (recaptchaSiteKey) {
+      const response = (window as any).grecaptcha?.getResponse(registerWidgetId ?? undefined);
+      if (!response) {
+        e.preventDefault();
+        setClientError("Please complete the reCAPTCHA to verify that you are not a robot.");
+        setShowRecaptchaError(true);
+        return;
+      }
+    } else {
+      const formData = new FormData(e.currentTarget);
+      const isChecked = formData.get("mock_recaptcha") === "on";
+      if (!isChecked) {
+        e.preventDefault();
+        setClientError("Please complete the reCAPTCHA to verify that you are not a robot.");
+        setShowRecaptchaError(true);
+        return;
+      }
+    }
+  }
+
+  const errorMessage = clientError || actionData?.error;
+
   // Load and render Google reCAPTCHA v2 script and widgets
   useEffect(() => {
     if (typeof window === "undefined" || !recaptchaSiteKey) return;
@@ -259,18 +314,20 @@ export default function MyAccount() {
 
         if (loginEl && !loginEl.innerHTML) {
           try {
-            (window as any).grecaptcha.render("recaptcha-login", {
+            const id = (window as any).grecaptcha.render("recaptcha-login", {
               sitekey: recaptchaSiteKey,
             });
+            setLoginWidgetId(id);
           } catch (e) {
             console.error("Error rendering login recaptcha:", e);
           }
         }
         if (registerEl && !registerEl.innerHTML) {
           try {
-            (window as any).grecaptcha.render("recaptcha-register", {
+            const id = (window as any).grecaptcha.render("recaptcha-register", {
               sitekey: recaptchaSiteKey,
             });
+            setRegisterWidgetId(id);
           } catch (e) {
             console.error("Error rendering register recaptcha:", e);
           }
@@ -307,7 +364,7 @@ export default function MyAccount() {
       marginTop: "0.5rem"
     }}>
       <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-        <input type="checkbox" required style={{ width: "24px", height: "24px", cursor: "pointer" }} />
+        <input type="checkbox" name="mock_recaptcha" style={{ width: "24px", height: "24px", cursor: "pointer" }} />
         <span style={{ fontSize: "14px", color: "#2d2d2d", fontFamily: "Roboto, helvetica, arial, sans-serif" }}>I'm not a robot</span>
       </div>
       <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "2px" }}>
@@ -351,7 +408,7 @@ export default function MyAccount() {
                 flexDirection: "column"
               }}>
                 <h2 style={{ fontSize: "1.75rem", fontWeight: 500, color: "#1a1a1a", marginBottom: "1.5rem", fontFamily: "var(--font-sans)" }}>Login</h2>
-                <Form method="post" style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
+                <Form method="post" onSubmit={handleLoginSubmit} style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
                   <input type="hidden" name="form_type" value="login" />
 
                   <div>
@@ -412,10 +469,6 @@ export default function MyAccount() {
                     <div id="recaptcha-login" style={{ marginTop: "0.5rem" }}></div>
                   ) : (
                     renderMockRecaptcha()
-                  )}
-
-                  {actionData?.error && (
-                    <div style={{ color: "#ef4444", fontSize: "0.85rem" }}>{actionData.error}</div>
                   )}
 
                   <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", marginTop: "0.2rem" }}>
@@ -493,7 +546,7 @@ export default function MyAccount() {
                 flexDirection: "column"
               }}>
                 <h2 style={{ fontSize: "1.75rem", fontWeight: 500, color: "#1a1a1a", marginBottom: "1.5rem", fontFamily: "var(--font-sans)" }}>Register</h2>
-                <Form method="post" style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
+                <Form method="post" onSubmit={handleRegisterSubmit} style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
                   <input type="hidden" name="form_type" value="register" />
 
                   <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem" }}>
@@ -692,6 +745,95 @@ export default function MyAccount() {
 
           </div>
         </div>
+        {/* reCAPTCHA Error Modal Overlay */}
+        {showRecaptchaError && errorMessage && (
+          <div 
+            onClick={() => { setShowRecaptchaError(false); setClientError(null); }}
+            style={{
+              position: "fixed",
+              top: 0,
+              left: 0,
+              right: 0,
+              bottom: 0,
+              backgroundColor: "rgba(0, 0, 0, 0.4)",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              zIndex: 9999,
+              fontFamily: "var(--font-sans)",
+            }}
+          >
+            <div 
+              onClick={(e) => e.stopPropagation()}
+              style={{
+                background: "#ffffff",
+                border: "2px solid #ef4444",
+                borderRadius: "12px",
+                padding: "2rem 3rem 2rem 2.5rem",
+                boxShadow: "0 10px 30px rgba(0, 0, 0, 0.2)",
+                position: "relative",
+                maxWidth: "650px",
+                width: "90%",
+                display: "flex",
+                alignItems: "center",
+                gap: "1.25rem",
+              }}
+            >
+              {/* Warning Icon */}
+              <div style={{
+                width: "32px",
+                height: "32px",
+                borderRadius: "50%",
+                backgroundColor: "#ef4444",
+                color: "#ffffff",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                fontWeight: "bold",
+                fontSize: "1.2rem",
+                flexShrink: 0
+              }}>
+                !
+              </div>
+
+              {/* Error Message */}
+              <div style={{
+                color: "#1e293b",
+                fontSize: "1.05rem",
+                fontWeight: "500",
+                lineHeight: "1.5"
+              }}>
+                {errorMessage}
+              </div>
+
+              {/* Close Button overlapping top-right edge */}
+              <button
+                onClick={() => { setShowRecaptchaError(false); setClientError(null); }}
+                style={{
+                  position: "absolute",
+                  top: "-14px",
+                  right: "-14px",
+                  width: "28px",
+                  height: "28px",
+                  borderRadius: "50%",
+                  backgroundColor: "#ef4444",
+                  color: "#ffffff",
+                  border: "none",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  fontWeight: "bold",
+                  fontSize: "0.85rem",
+                  cursor: "pointer",
+                  boxShadow: "0 2px 8px rgba(0,0,0,0.25)",
+                  outline: "none"
+                }}
+              >
+                X
+              </button>
+            </div>
+          </div>
+        )}
         <Footer />
       </>
     );
