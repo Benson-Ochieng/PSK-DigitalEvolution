@@ -208,6 +208,26 @@ export const migrations: Migration[] = [
       ALTER TABLE products ADD COLUMN IF NOT EXISTS sku TEXT;
       ALTER TABLE products ADD COLUMN IF NOT EXISTS short_description TEXT;
     `
+  },
+  {
+    id: 7,
+    name: 'create_customer_addresses',
+    up: `
+      CREATE TABLE IF NOT EXISTS customer_addresses (
+        id SERIAL PRIMARY KEY,
+        customer_email TEXT NOT NULL,
+        first_name TEXT NOT NULL,
+        last_name TEXT NOT NULL,
+        city TEXT NOT NULL,
+        neighbourhood TEXT NOT NULL,
+        street_address TEXT NOT NULL,
+        apartment_info TEXT,
+        phone TEXT NOT NULL,
+        is_default BOOLEAN DEFAULT false,
+        created_at TIMESTAMPTZ DEFAULT NOW()
+      );
+      CREATE INDEX IF NOT EXISTS idx_customer_addresses_email ON customer_addresses(customer_email);
+    `
   }
 ];
 
