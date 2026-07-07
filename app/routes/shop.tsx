@@ -505,6 +505,9 @@ export default function Shop() {
   } = useLoaderData<typeof loader>();
   const navigate = useNavigate();
   const [searchVal, setSearchVal] = useState(urlSearch);
+  const [notified, setNotified] = useState(false);
+
+  const isClearancePage = pageTitle.toLowerCase() === "clearance" || slug.toLowerCase() === "clearance";
 
   function buildPageHref(pageNumber: number) {
     const p = new URLSearchParams();
@@ -670,6 +673,89 @@ export default function Shop() {
                 </span>
               ))}
             </div>
+
+            {/* Clearance Disclaimer & Sign up Form */}
+            {isClearancePage && (
+              <div className="clearance-container" style={{ marginBottom: "2rem" }}>
+                {/* Red Bold Disclaimer */}
+                <div style={{
+                  color: "#ef4444",
+                  fontWeight: "bold",
+                  fontSize: "0.95rem",
+                  lineHeight: "1.5",
+                  marginBottom: "1rem"
+                }}>
+                  CLEARANCE OFFERS ARE EXCLUSIVE TO OUR ONLINE STORE. NO COUPONS OR ADDITIONAL DISCOUNTS MAY BE APPLIED. NO EXCHANGES. WHILE SUPPLIES LAST.
+                </div>
+                
+                {/* Description */}
+                <div style={{
+                  color: "#334155",
+                  fontSize: "0.9rem",
+                  lineHeight: "1.6",
+                  marginBottom: "1.5rem"
+                }}>
+                  <strong>DEFECT / DAMAGED PACKAGE:</strong> [CAT LITTER ONLY] product intact with slight defect on packaging (e.g. slightly ripped bag) that does not affect the quality of the enclosed product. <strong>SHORT EXPIRY:</strong> expiration of product is within THREE months.
+                </div>
+
+                {/* Newsletter / Sign up Card */}
+                <div style={{
+                  border: "1px solid #e2e8f0",
+                  borderRadius: "8px",
+                  padding: "1.5rem",
+                  background: "#f8fafc",
+                  marginBottom: "1.5rem"
+                }}>
+                  <h3 style={{
+                    color: "#1053a0",
+                    fontSize: "1.2rem",
+                    fontWeight: "600",
+                    margin: "0 0 1rem 0"
+                  }}>
+                    Sign up to receive our weekly clearance products
+                  </h3>
+                  {notified ? (
+                    <div style={{ color: "#16a34a", fontWeight: "600", fontSize: "0.95rem" }}>
+                      ✓ Thank you! You will be notified of weekly clearance products.
+                    </div>
+                  ) : (
+                    <form style={{ display: "flex", gap: "0.75rem" }} onSubmit={e => { e.preventDefault(); setNotified(true); }}>
+                      <input 
+                        type="email" 
+                        placeholder="Enter your email" 
+                        required
+                        style={{
+                          flex: 1,
+                          padding: "0.75rem 1rem",
+                          borderRadius: "6px",
+                          border: "1px solid #cbd5e1",
+                          fontSize: "0.95rem",
+                          outline: "none"
+                        }}
+                      />
+                      <button 
+                        type="submit" 
+                        style={{
+                          background: "#1053a0",
+                          color: "#ffffff",
+                          padding: "0.75rem 1.5rem",
+                          borderRadius: "6px",
+                          border: "none",
+                          fontWeight: "600",
+                          fontSize: "0.95rem",
+                          cursor: "pointer",
+                          transition: "background 0.2s"
+                        }}
+                        onMouseOver={e => e.currentTarget.style.background = "#0c3f7a"}
+                        onMouseOut={e => e.currentTarget.style.background = "#1053a0"}
+                      >
+                        Notify Me
+                      </button>
+                    </form>
+                  )}
+                </div>
+              </div>
+            )}
 
             {/* Shop Toolbar */}
             <div className="shop-toolbar">
