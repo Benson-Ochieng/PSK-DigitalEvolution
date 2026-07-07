@@ -11,7 +11,7 @@ export function meta() {
 }
 
 export default function TermsAndConditions() {
-  const sections = [
+  const sections: Array<{ title: string; content: React.ReactNode }> = [
     {
       title: "Overview",
       content: "This website is operated by Loki Ventures, Ltd.. Throughout the site, the terms “we”, “us” and “our” refer to Loki Ventures, Ltd.. Loki Ventures, Ltd. offers this website, including all information, tools and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies and notices stated here.\n\nBy visiting our site and / or purchasing something from us, you engage in our “Service” and agree to be bound by the following terms and conditions (“Terms of Service”, “Terms”), including those additional terms and conditions and policies referenced herein and / or available by hyperlink. These Terms of Service apply to all users of the site, including without limitation users who are browsers, vendors, customers, merchants, and / or contributors of content.\n\nPlease read these Terms of Service carefully before accessing or using our website. By accessing or using any part of the site, you agree to be bound by these Terms of Service. If you do not agree to all the terms and conditions of this agreement, then you may not access the website or use any services. If these Terms of Service are considered an offer, acceptance is expressly limited to these Terms of Service.\n\nAny new features or tools which are added to the current store shall also be subject to the Terms of Service. You can review the most current version of the Terms of Service at any time on this page. We reserve the right to update, change or replace any part of these Terms of Service by posting updates and / or changes to our website. It is your responsibility to check this page periodically for changes. Your continued use of or access to the website following the posting of any changes constitutes acceptance of those changes."
@@ -38,7 +38,17 @@ export default function TermsAndConditions() {
     },
     {
       title: "Products or Services",
-      content: "Certain products or services may be available exclusively online through the website. These products or services may have limited quantities and are subject to return or exchange only according to our Return Policy.\n\nWe have made every effort to display as accurately as possible the colors and images of our products that appear at the store. We cannot guarantee that your computer monitor’s display of any color will be accurate.\n\nWe reserve the right, but are not obligated, to limit the sales of our products or Services to any person, geographic region or jurisdiction. We may exercise this right on a case-by-case basis. We reserve the right to limit the quantities of any products or services that we offer. All descriptions of products or product pricing are subject to change at any time without notice, at the sole discretion of us. We reserve the right to discontinue any product at any time. Any offer for any product or service made on this site is void where prohibited.\n\nWe do not warrant that the quality of any products, services, information, or other material purchased or obtained by you will meet your expectations, or that any errors in the Service will be corrected."
+      content: (
+        <>
+          Certain products or services may be available exclusively online through the website. These products or services may have limited quantities and are subject to return or exchange only according to our <a href="#return-policy" style={{ color: "#1e5da7", textDecoration: "underline", fontWeight: 600 }}>Return Policy</a>.
+          <br /><br />
+          We have made every effort to display as accurately as possible the colors and images of our products that appear at the store. We cannot guarantee that your computer monitor’s display of any color will be accurate.
+          <br /><br />
+          We reserve the right, but are not obligated, to limit the sales of our products or Services to any person, geographic region or jurisdiction. We may exercise this right on a case-by-case basis. We reserve the right to limit the quantities of any products or services that we offer. All descriptions of products or product pricing are subject to change at any time without notice, at the sole discretion of us. We reserve the right to discontinue any product at any time. Any offer for any product or service made on this site is void where prohibited.
+          <br /><br />
+          We do not warrant that the quality of any products, services, information, or other material purchased or obtained by you will meet your expectations, or that any errors in the Service will be corrected.
+        </>
+      )
     },
     {
       title: "Return Policy",
@@ -46,15 +56,39 @@ export default function TermsAndConditions() {
     },
     {
       title: "Accuracy of Billing and Account Information",
-      content: "We reserve the right to refuse any order you place with us. We may, in our sole discretion, limit or cancel quantities purchased per person, per household or per order. These restrictions may include orders placed by or under the same customer account, the same credit card, and/or orders that use the same billing and/or shipping address. In the event that we make a change to or cancel an order, we may attempt to notify you by contacting the e-mail and/or billing address/phone number provided at the time the order was made. We reserve the right to limit or prohibit orders that, in our sole judgment, appear to be placed by dealers, resellers or distributors.\n\nYou agree to provide current, complete and accurate purchase and account information for all purchases made at our store. You agree to promptly update your account and other information, including your email address and credit card numbers and expiration dates, so that we can complete your transactions and contact you as needed.\n\nFor more detail, please review our Return Policy."
+      content: (
+        <>
+          We reserve the right to refuse any order you place with us. We may, in our sole discretion, limit or cancel quantities purchased per person, per household or per order. These restrictions may include orders placed by or under the same customer account, the same credit card, and/or orders that use the same billing and/or shipping address. In the event that we make a change to or cancel an order, we may attempt to notify you by contacting the e-mail and/or billing address/phone number provided at the time the order was made. We reserve the right to limit or prohibit orders that, in our sole judgment, appear to be placed by dealers, resellers or distributors.
+          <br /><br />
+          You agree to provide current, complete and accurate purchase and account information for all purchases made at our store. You agree to promptly update your account and other information, including your email address and credit card numbers and expiration dates, so that we can complete your transactions and contact you as needed.
+          <br /><br />
+          For more detail, please review our <a href="#return-policy" style={{ color: "#1e5da7", textDecoration: "underline", fontWeight: 600 }}>Return Policy</a>.
+        </>
+      )
     },
     {
       title: "Customer Care",
-      content: "You may contact us at shop@petstore.co.ke."
+      content: (
+        <>
+          You may contact us at <a href="mailto:shop@petstore.co.ke" style={{ color: "#1e5da7", textDecoration: "underline", fontWeight: 600 }}>shop@petstore.co.ke</a>.
+        </>
+      )
     },
     {
       title: "Optional Tools",
-      content: "We may provide you with access to third-party tools over which we neither monitor nor have any control nor input.\n\nYou acknowledge and agree that we provide access to such tools ”as is” and “as available” without any warranties, representations or conditions of any kind and without any endorsement. We shall have no liability whatsoever arising from or relating to your use of optional third-party tools.\n\nAny use by you of optional tools offered through the site is entirely at your own risk and discretion and you should ensure that you are familiar with and approve of the terms on which tools are provided by the relevant third-party provider(s).\n\nWe may also, in the future, offer new services and / or features through the website (including, the release of new tools and resources). Such new features and / or services shall also be subject to these Terms of Service.\n\nFor more detail, please review our Privacy Policy."
+      content: (
+        <>
+          We may provide you with access to third-party tools over which we neither monitor nor have any control nor input.
+          <br /><br />
+          You acknowledge and agree that we provide access to such tools ”as is” and “as available” without any warranties, representations or conditions of any kind and without any endorsement. We shall have no liability whatsoever arising from or relating to your use of optional third-party tools.
+          <br /><br />
+          Any use by you of optional tools offered through the site is entirely at your own risk and discretion and you should ensure that you are familiar with and approve of the terms on which tools are provided by the relevant third-party provider(s).
+          <br /><br />
+          We may also, in the future, offer new services and / or features through the website (including, the release of new tools and resources). Such new features and / or services shall also be subject to these Terms of Service.
+          <br /><br />
+          For more detail, please review our <Link to="/privacy-policy" style={{ color: "#1e5da7", textDecoration: "underline", fontWeight: 600 }}>Privacy Policy</Link>.
+        </>
+      )
     },
     {
       title: "User Comments, Feedback and Other Submissions",
@@ -62,7 +96,11 @@ export default function TermsAndConditions() {
     },
     {
       title: "Personal Information",
-      content: "Your submission of personal information through the store is governed by our Privacy Policy."
+      content: (
+        <>
+          Your submission of personal information through the store is governed by our <Link to="/privacy-policy" style={{ color: "#1e5da7", textDecoration: "underline", fontWeight: 600 }}>Privacy Policy</Link>.
+        </>
+      )
     },
     {
       title: "Errors, Inaccuracies and Omissions",
@@ -102,7 +140,11 @@ export default function TermsAndConditions() {
     },
     {
       title: "Contact Information",
-      content: "Questions about the Terms of Service should be sent to us at shop@petstore.co.ke."
+      content: (
+        <>
+          Questions about the Terms of Service should be sent to us at <a href="mailto:shop@petstore.co.ke" style={{ color: "#1e5da7", textDecoration: "underline", fontWeight: 600 }}>shop@petstore.co.ke</a>.
+        </>
+      )
     }
   ];
 
@@ -147,23 +189,26 @@ export default function TermsAndConditions() {
           </h2>
 
           <div style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
-            {sections.map((s, idx) => (
-              <div key={idx}>
-                <h3 
-                  style={{ 
-                    fontSize: "1.15rem", 
-                    fontWeight: 700, 
-                    color: "#1E5DA7", 
-                    marginBottom: "0.6rem" 
-                  }}
-                >
-                  {s.title}
-                </h3>
-                <div style={{ margin: 0, color: "#4A5568", whiteSpace: "pre-line" }}>
-                  {s.content}
+            {sections.map((s, idx) => {
+              const slug = s.title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+              return (
+                <div key={idx} id={slug} style={{ scrollMarginTop: "2rem" }}>
+                  <h3 
+                    style={{ 
+                      fontSize: "1.15rem", 
+                      fontWeight: 700, 
+                      color: "#1E5DA7", 
+                      marginBottom: "0.6rem" 
+                    }}
+                  >
+                    {s.title}
+                  </h3>
+                  <div style={{ margin: 0, color: "#4A5568", whiteSpace: typeof s.content === "string" ? "pre-line" : "normal" }}>
+                    {s.content}
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
 
         </div>
