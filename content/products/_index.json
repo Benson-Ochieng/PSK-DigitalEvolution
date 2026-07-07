@@ -213,6 +213,7 @@
     "status": "publish"
   },
   {
+<<<<<<< HEAD
     "id": 52801,
     "name": "Reflex Pocket Treats Dental Care 60g",
     "slug": "reflex-pocket-treats-dental-care-60gr",
@@ -234,6 +235,8 @@
     "status": "publish"
   },
   {
+=======
+>>>>>>> 8590b753d09e98bc7447f6daa0cd77883b88b08d
     "id": 52804,
     "name": "Reflex Pocket Treats Skin And Coat 60g",
     "slug": "reflex-pocket-treats-skin-and-coat-60gr",
@@ -978,10 +981,10 @@
     "status": "publish"
   },
   {
-    "id": 8445,
-    "name": "MEGA Saver January Cat Bundle: 50 Assorted 100g Bonnie Pouches + ONE 5L Cat Litter",
-    "slug": "mega-saver-january-cat-bundle",
-    "sku": "PSK-8445",
+    "id": 12069,
+    "name": "Dog Lover Loyal Customer Bundle 2",
+    "slug": "dog-lover-loyal-customer-bundle-2",
+    "sku": "PSK-12069",
     "regularPrice": null,
     "salePrice": null,
     "price": null,
@@ -989,19 +992,9 @@
     "inStock": false,
     "categories": [
       {
-        "id": 177,
-        "name": "Bonnie",
-        "slug": "bonnie"
-      },
-      {
-        "id": 796,
-        "name": "Proline",
-        "slug": "proline"
-      },
-      {
-        "id": 927,
-        "name": "Sale",
-        "slug": "sale"
+        "id": 1304,
+        "name": "Clearance",
+        "slug": "clearance"
       }
     ],
     "brands": [],
@@ -1009,10 +1002,17 @@
     "status": "publish"
   },
   {
+<<<<<<< HEAD
     "id": 11341,
     "name": "March Madness Cat Bundle: ONE 1.5kg Reflex Adult Cat Multicolour Chicken + 4 Assorted Reflex Cat Treats",
     "slug": "march-madness-cat-bundle-one-1-5kg-reflex-adult-cat-multicolour-chicken-four-assorted-reflex-cat-treats",
     "sku": "PSK-11341",
+=======
+    "id": 20013,
+    "name": "Dog Poop Bag Holder - Bone Shape Purple",
+    "slug": "dog-poop-bag-holder-bone-shape-purple",
+    "sku": "PSK-20013",
+>>>>>>> 8590b753d09e98bc7447f6daa0cd77883b88b08d
     "regularPrice": null,
     "salePrice": null,
     "price": null,
@@ -1020,6 +1020,7 @@
     "inStock": false,
     "categories": [
       {
+<<<<<<< HEAD
         "id": 927,
         "name": "Sale",
         "slug": "sale"
@@ -1083,6 +1084,8 @@
     "inStock": false,
     "categories": [
       {
+=======
+>>>>>>> 8590b753d09e98bc7447f6daa0cd77883b88b08d
         "id": 2325,
         "name": "Cat",
         "slug": "cat-supplies-store"
@@ -1231,69 +1234,6 @@
     "name": "Spectrum Adult Dog Food Derm26 3kg",
     "slug": "spectrum-adult-dog-food-derm26-3kg",
     "sku": "PSK-52838",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 52839,
-    "name": "Spectrum Lowgain Salmon & Anchovy For Medium And Large Breed Adult Dogs 2.5kg",
-    "slug": "spectrum-low-grain-salmon-anchovy-for-medium-and-large-breed-adult-dogs-2-5kg-3",
-    "sku": "PSK-52839",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 52840,
-    "name": "Unique Cat Obesity Chicken & Turkey 2kg",
-    "slug": "unique-cat-obesity-chicken-turkey-2kg",
-    "sku": "PSK-52840",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 52841,
-    "name": "Unique Dog Gastro Int Chicken & Rice 3kg",
-    "slug": "unique-dog-gastro-int-chicken-rice-3kg",
-    "sku": "PSK-52841",
     "regularPrice": null,
     "salePrice": null,
     "price": null,
@@ -1461,6 +1401,142 @@
     "status": "publish"
   },
   {
+    "id": 8445,
+    "name": "MEGA Saver January Cat Bundle: 50 Assorted 100g Bonnie Pouches + ONE 5L Cat Litter",
+    "slug": "mega-saver-january-cat-bundle",
+    "sku": "PSK-8445",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 177,
+        "name": "Bonnie",
+        "slug": "bonnie"
+      },
+      {
+        "id": 796,
+        "name": "Proline",
+        "slug": "proline"
+      },
+      {
+        "id": 927,
+        "name": "Sale",
+        "slug": "sale"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 11341,
+    "name": "March Madness Cat Bundle: ONE 1.5kg Reflex Adult Cat Multicolour Chicken + 4 Assorted Reflex Cat Treats",
+    "slug": "march-madness-cat-bundle-one-1-5kg-reflex-adult-cat-multicolour-chicken-four-assorted-reflex-cat-treats",
+    "sku": "PSK-11341",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 927,
+        "name": "Sale",
+        "slug": "sale"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52776,
+    "name": "Pet Ball For Dog Treat 7.5cm",
+    "slug": "pet-ball-for-dog-treat-7-5cm",
+    "sku": "PSK-52776",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52839,
+    "name": "Spectrum Lowgain Salmon & Anchovy For Medium And Large Breed Adult Dogs 2.5kg",
+    "slug": "spectrum-low-grain-salmon-anchovy-for-medium-and-large-breed-adult-dogs-2-5kg-3",
+    "sku": "PSK-52839",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52840,
+    "name": "Unique Cat Obesity Chicken & Turkey 2kg",
+    "slug": "unique-cat-obesity-chicken-turkey-2kg",
+    "sku": "PSK-52840",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52841,
+    "name": "Unique Dog Gastro Int Chicken & Rice 3kg",
+    "slug": "unique-dog-gastro-int-chicken-rice-3kg",
+    "sku": "PSK-52841",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
     "id": 69453,
     "name": "Wanpy Dog Treats - Chicken Jerky 100g",
     "slug": "wanpy-dog-chicken-jerky-100g",
@@ -1490,6 +1566,27 @@
         "id": 2379,
         "name": "Wanpy",
         "slug": "wanpy"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52801,
+    "name": "Reflex Pocket Treats Dental Care 60g",
+    "slug": "reflex-pocket-treats-dental-care-60gr",
+    "sku": "PSK-52801",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
       }
     ],
     "brands": [],

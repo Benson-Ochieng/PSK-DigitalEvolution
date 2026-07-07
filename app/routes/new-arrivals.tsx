@@ -15,7 +15,8 @@ export function meta() {
 
 export async function loader({ request }: Route.LoaderArgs) {
   const url = new URL(request.url);
-  const limit  = Number(url.searchParams.get("limit")) || 0;
+  const urlLimit = url.searchParams.get("limit") || "";
+  const limit  = urlLimit ? Number(urlLimit) : 72;
   const sort   = url.searchParams.get("sort") || "availability";
 
   let orderBy = "(COALESCE(MIN(comp.price), 0) - bbp.price) DESC, p.name";
@@ -39,12 +40,20 @@ export async function loader({ request }: Route.LoaderArgs) {
 
   const allProducts = res.rows;
   const totalResults = allProducts.length;
-  const productsToShow = limit > 0 ? allProducts.slice(0, limit) : allProducts;
+  const page = Number(url.searchParams.get("page")) || 1;
+  const totalPages = Math.ceil(totalResults / limit);
+  const currentPage = Math.max(1, Math.min(page, totalPages || 1));
+  const startIndex = (currentPage - 1) * limit;
+  const productsToShow = allProducts.slice(startIndex, startIndex + limit);
 
   return { 
     products: productsToShow, 
     totalResults,
+    totalPages,
+    currentPage,
+    startIndex,
     limit, 
+    urlLimit,
     sort 
   };
 }
@@ -78,16 +87,16 @@ function ProductCard({ p }: { p: any }) {
           position: "absolute",
           top: "0.5rem",
           right: "0.5rem",
-          background: "#84cc16",
+          background: "#958e09",
           color: "#ffffff",
           borderRadius: "50%",
-          width: "38px",
-          height: "38px",
+          width: "40px",
+          height: "40px",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          fontSize: "0.7rem",
-          fontWeight: 700,
+          fontSize: "0.85rem",
+          fontWeight: "600",
           boxShadow: "0 2px 5px rgba(0,0,0,0.15)",
           zIndex: 2
         }}>
@@ -110,7 +119,7 @@ function ProductCard({ p }: { p: any }) {
           <div className="product-price">
             {isOnSale ? (
               <>
-                <span style={{ textDecoration: "line-through", color: "#94a3b8", fontSize: "0.85rem", marginRight: "0.5rem", fontWeight: "normal" }}>
+                <span style={{ textDecoration: "line-through", textDecorationColor: "#ef4444", color: "#475569", fontSize: "0.85rem", marginRight: "0.5rem", fontWeight: "bold" }}>
                   {Number(p.competitor_min).toLocaleString()}KSh
                 </span>
                 <span style={{ color: "#ef4444" }}>
@@ -133,15 +142,33 @@ function ProductCard({ p }: { p: any }) {
 }
 
 export default function NewArrivals() {
-  const { products, totalResults, limit, sort } = useLoaderData<typeof loader>();
+  const { 
+    products, 
+    totalResults, 
+    totalPages,
+    currentPage,
+    startIndex,
+    limit, 
+    urlLimit,
+    sort 
+  } = useLoaderData<typeof loader>();
   const navigate = useNavigate();
 
-  function buildHref(newLimit?: number, newSort?: string) {
+  function buildPageHref(pageNumber: number) {
     const p = new URLSearchParams();
-    const activeLimit = newLimit !== undefined ? newLimit : limit;
+    if (urlLimit) p.set("limit", urlLimit);
+    if (sort) p.set("sort", sort);
+    if (pageNumber > 1) p.set("page", String(pageNumber));
+    const queryStr = p.toString() ? "?" + p.toString() : "";
+    return `/product-tag/new-arrivals/${queryStr}`;
+  }
+
+  function buildHref(newLimit?: string, newSort?: string) {
+    const p = new URLSearchParams();
+    const activeLimit = newLimit !== undefined ? newLimit : urlLimit;
     const activeSort = newSort !== undefined ? newSort : sort;
 
-    if (activeLimit) p.set("limit", String(activeLimit));
+    if (activeLimit) p.set("limit", activeLimit);
     if (activeSort) p.set("sort", activeSort);
 
     const queryStr = p.toString() ? "?" + p.toString() : "";
@@ -173,15 +200,21 @@ export default function NewArrivals() {
           {/* Shop Toolbar */}
           <div className="shop-toolbar" style={{ borderBottom: "1px solid #e2e8f0", paddingBottom: "1rem" }}>
             <div className="toolbar-left">
-              <span className="results-count">Showing 1-{products.length} of {totalResults} results</span>
+              <span className="results-count">
+                {totalResults > limit ? (
+                  `Showing ${startIndex + 1}–${Math.min(startIndex + limit, totalResults)} of ${totalResults} results`
+                ) : (
+                  `Showing all ${totalResults} results`
+                )}
+              </span>
               
               {/* Products per page select */}
               <div className="paging-control">
                 <span>Products per page:</span>
                 <select 
-                  value={limit || ""} 
+                  value={urlLimit} 
                   onChange={e => {
-                    const val = Number(e.target.value) || 0;
+                    const val = e.target.value;
                     navigate(buildHref(val, sort));
                   }}
                   className="paging-select"
@@ -198,7 +231,7 @@ export default function NewArrivals() {
             {/* Sorting dropdown */}
             <select
               value={sort}
-              onChange={e => navigate(buildHref(limit, e.target.value))}
+              onChange={e => navigate(buildHref(urlLimit, e.target.value))}
               className="sorting-select"
             >
               <option value="availability">AVAILABILITY</option>
@@ -212,9 +245,71 @@ export default function NewArrivals() {
             {products.map((p: any) => <ProductCard key={p.id} p={p} />)}
           </div>
 
+          {/* Pagination Controls */}
+          {totalPages > 1 && (
+            <div className="pagination-container" style={{ marginTop: "2.5rem" }}>
+              {currentPage > 1 && (
+                <Link to={buildPageHref(currentPage - 1)} className="pagination-btn">
+                  ←
+                </Link>
+              )}
+
+              {getVisiblePages(currentPage, totalPages).map((p, idx) => {
+                if (p === "...") {
+                  return (
+                    <span key={`dots-${idx}`} style={{ padding: "0.5rem 0.75rem", color: "#94a3b8" }}>
+                      ...
+                    </span>
+                  );
+                }
+                
+                const isCurrent = p === currentPage;
+                return (
+                  <Link
+                    key={`page-${p}`}
+                    to={buildPageHref(Number(p))}
+                    className={`pagination-btn ${isCurrent ? "active" : ""}`}
+                  >
+                    {p}
+                  </Link>
+                );
+              })}
+
+              {currentPage < totalPages && (
+                <Link to={buildPageHref(currentPage + 1)} className="pagination-btn">
+                  →
+                </Link>
+              )}
+            </div>
+          )}
+
         </div>
       </div>
       <Footer />
     </>
   );
+}
+
+function getVisiblePages(current: number, total: number) {
+  const pages: (number | string)[] = [];
+  if (total <= 7) {
+    for (let i = 1; i <= total; i++) pages.push(i);
+  } else {
+    if (current <= 4) {
+      for (let i = 1; i <= 5; i++) pages.push(i);
+      pages.push("...");
+      pages.push(total);
+    } else if (current >= total - 3) {
+      pages.push(1);
+      pages.push("...");
+      for (let i = total - 4; i <= total; i++) pages.push(i);
+    } else {
+      pages.push(1);
+      pages.push("...");
+      for (let i = current - 1; i <= current + 1; i++) pages.push(i);
+      pages.push("...");
+      pages.push(total);
+    }
+  }
+  return pages;
 }

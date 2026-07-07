@@ -57,16 +57,16 @@ function ProductCard({ p }: { p: any }) {
           position: "absolute",
           top: "0.5rem",
           right: "0.5rem",
-          background: "#84cc16",
+          background: "#958e09",
           color: "#ffffff",
           borderRadius: "50%",
-          width: "38px",
-          height: "38px",
+          width: "40px",
+          height: "40px",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          fontSize: "0.7rem",
-          fontWeight: 700,
+          fontSize: "0.85rem",
+          fontWeight: "600",
           boxShadow: "0 2px 5px rgba(0,0,0,0.15)",
           zIndex: 2
         }}>
@@ -89,7 +89,7 @@ function ProductCard({ p }: { p: any }) {
           <div className="product-price">
             {isOnSale ? (
               <>
-                <span style={{ textDecoration: "line-through", color: "#94a3b8", fontSize: "0.85rem", marginRight: "0.5rem", fontWeight: "normal" }}>
+                <span style={{ textDecoration: "line-through", textDecorationColor: "#ef4444", color: "#475569", fontSize: "0.85rem", marginRight: "0.5rem", fontWeight: "bold" }}>
                   {Number(p.competitor_min).toLocaleString()}KSh
                 </span>
                 <span style={{ color: "#ef4444" }}>

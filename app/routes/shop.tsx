@@ -76,6 +76,8 @@ export const ANIMAL_CATEGORIES: Record<string, { label: string; slug: string }[]
   fish: FISH_CATEGORIES
 };
 
+let cachedCategories: any[] | null = null;
+
 export async function loader({ request, params }: Route.LoaderArgs) {
   const url = new URL(request.url);
   const routeParams = params as any;
@@ -86,26 +88,34 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   let animal = url.searchParams.get("animal") || "";
   let type = url.searchParams.get("type") || "";
   const urlSearch = url.searchParams.get("q") || "";
+<<<<<<< HEAD
   let brand = url.searchParams.get("brand") || "";
   const limit = Number(url.searchParams.get("limit")) || 24;
   const sort = url.searchParams.get("sort") || "availability";
+=======
+  let brand  = url.searchParams.get("brand")   || "";
+  const urlLimit = url.searchParams.get("limit") || "";
+  const limit  = urlLimit ? Number(urlLimit) : 72;
+  const sort   = url.searchParams.get("sort") || "availability";
+>>>>>>> 8590b753d09e98bc7447f6daa0cd77883b88b08d
 
   let search = urlSearch;
   let categorySlug = "";
   let tagSlug = "";
 
-  const fs = await import("fs");
-  const path = await import("path");
-
-  const categoriesPath = path.join(process.cwd(), "content", "categories", "_index.json");
-  let categories: any[] = [];
-  if (fs.existsSync(categoriesPath)) {
-    try {
-      categories = JSON.parse(fs.readFileSync(categoriesPath, "utf-8"));
-    } catch (e) {
-      console.error("Error reading categories index", e);
+  if (!cachedCategories) {
+    const fs = await import("fs");
+    const path = await import("path");
+    const categoriesPath = path.join(process.cwd(), "content", "categories", "_index.json");
+    if (fs.existsSync(categoriesPath)) {
+      try {
+        cachedCategories = JSON.parse(fs.readFileSync(categoriesPath, "utf-8"));
+      } catch (e) {
+        console.error("Error reading categories index", e);
+      }
     }
   }
+  const categories = cachedCategories || [];
 
   const getDescendants = (slugStr: string): string[] => {
     const target = categories.find(c => c.slug === slugStr);
@@ -318,6 +328,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     totalResults,
     totalPages,
     currentPage,
+<<<<<<< HEAD
     animal,
     type: originalType,
     urlSearch,
@@ -325,6 +336,17 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     slug,
     brand,
     limit,
+=======
+    startIndex,
+    animal, 
+    type: originalType, 
+    urlSearch, 
+    pageTitle, 
+    slug, 
+    brand, 
+    limit, 
+    urlLimit,
+>>>>>>> 8590b753d09e98bc7447f6daa0cd77883b88b08d
     sort,
     hideFilter,
     isTag: isTagPage,
@@ -429,16 +451,16 @@ function ProductCard({ p, animal }: { p: any; animal: string }) {
           position: "absolute",
           top: "0.5rem",
           right: "0.5rem",
-          background: "#84cc16",
+          background: "#958e09",
           color: "#ffffff",
           borderRadius: "50%",
-          width: "38px",
-          height: "38px",
+          width: "40px",
+          height: "40px",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          fontSize: "0.7rem",
-          fontWeight: 700,
+          fontSize: "0.85rem",
+          fontWeight: "600",
           boxShadow: "0 2px 5px rgba(0,0,0,0.15)",
           zIndex: 2
         }}>
@@ -462,7 +484,7 @@ function ProductCard({ p, animal }: { p: any; animal: string }) {
           <div className="product-price">
             {isOnSale ? (
               <>
-                <span style={{ textDecoration: "line-through", color: "#94a3b8", fontSize: "0.85rem", marginRight: "0.5rem", fontWeight: "normal" }}>
+                <span style={{ textDecoration: "line-through", textDecorationColor: "#ef4444", color: "#475569", fontSize: "0.85rem", marginRight: "0.5rem", fontWeight: "bold" }}>
                   {Number(p.competitor_min).toLocaleString()}KSh
                 </span>
                 <span style={{ color: "#ef4444" }}>
@@ -490,6 +512,7 @@ export default function Shop() {
     totalResults,
     totalPages,
     currentPage,
+<<<<<<< HEAD
     animal,
     type,
     urlSearch,
@@ -497,6 +520,17 @@ export default function Shop() {
     slug,
     brand,
     limit,
+=======
+    startIndex,
+    animal, 
+    type, 
+    urlSearch, 
+    pageTitle, 
+    slug, 
+    brand, 
+    limit, 
+    urlLimit,
+>>>>>>> 8590b753d09e98bc7447f6daa0cd77883b88b08d
     sort,
     hideFilter,
     isTag,
@@ -504,11 +538,14 @@ export default function Shop() {
   } = useLoaderData<typeof loader>();
   const navigate = useNavigate();
   const [searchVal, setSearchVal] = useState(urlSearch);
+  const [notified, setNotified] = useState(false);
+
+  const isClearancePage = pageTitle.toLowerCase() === "clearance" || slug.toLowerCase() === "clearance";
 
   function buildPageHref(pageNumber: number) {
     const p = new URLSearchParams();
     if (brand) p.set("brand", brand);
-    if (limit) p.set("limit", String(limit));
+    if (urlLimit) p.set("limit", urlLimit);
     if (sort) p.set("sort", sort);
     if (urlSearch) p.set("q", urlSearch);
     if (hideFilter) p.set("hideFilter", "true");
@@ -523,14 +560,14 @@ export default function Shop() {
     return `/shop${p.toString() ? "?" + p.toString() : ""}`;
   }
 
-  function buildCategoryHref(newBrand: string, newLimit?: number, newSort?: string) {
+  function buildCategoryHref(newBrand: string, newLimit?: string, newSort?: string) {
     const p = new URLSearchParams();
     const activeBrand = newBrand !== undefined ? newBrand : brand;
-    const activeLimit = newLimit !== undefined ? newLimit : limit;
+    const activeLimit = newLimit !== undefined ? newLimit : urlLimit;
     const activeSort = newSort !== undefined ? newSort : sort;
 
     if (activeBrand) p.set("brand", activeBrand);
-    if (activeLimit) p.set("limit", String(activeLimit));
+    if (activeLimit) p.set("limit", activeLimit);
     if (activeSort) p.set("sort", activeSort);
     if (urlSearch) p.set("q", urlSearch);
     if (hideFilter) p.set("hideFilter", "true");
@@ -548,7 +585,7 @@ export default function Shop() {
     e.preventDefault();
     const p = new URLSearchParams();
     if (brand) p.set("brand", brand);
-    if (limit) p.set("limit", String(limit));
+    if (urlLimit) p.set("limit", urlLimit);
     if (sort) p.set("sort", sort);
     if (searchVal.trim()) p.set("q", searchVal.trim());
     if (hideFilter) p.set("hideFilter", "true");
@@ -566,7 +603,7 @@ export default function Shop() {
     setSearchVal("");
     const p = new URLSearchParams();
     if (brand) p.set("brand", brand);
-    if (limit) p.set("limit", String(limit));
+    if (urlLimit) p.set("limit", urlLimit);
     if (sort) p.set("sort", sort);
     if (hideFilter) p.set("hideFilter", "true");
     if (slug) {
@@ -671,16 +708,102 @@ export default function Shop() {
               ))}
             </div>
 
+<<<<<<< HEAD
             {/* Sale Description */}
             {/* {type === "on-sale" && (
               <div className="sale-description-notice" style={{ margin: "0.5rem 0 1.5rem 0", color: "#d91b1b", fontStyle: "italic", fontSize: "0.95rem", fontWeight: 600 }}>
                 Looking to SAVE MORE? Visit our <Link to="/shop?type=clearance" style={{ color: "#d91b1b", textDecoration: "underline", fontWeight: 700 }}>CLEARANCE page</Link> for deeper discounts.
               </div>
             )} */}
+=======
+            {/* Clearance Disclaimer & Sign up Form */}
+            {isClearancePage && (
+              <div className="clearance-container" style={{ marginBottom: "2rem" }}>
+                {/* Red Bold Disclaimer */}
+                <div style={{
+                  color: "#ef4444",
+                  fontWeight: "bold",
+                  fontSize: "0.95rem",
+                  lineHeight: "1.5",
+                  marginBottom: "1rem"
+                }}>
+                  CLEARANCE OFFERS ARE EXCLUSIVE TO OUR ONLINE STORE. NO COUPONS OR ADDITIONAL DISCOUNTS MAY BE APPLIED. NO EXCHANGES. WHILE SUPPLIES LAST.
+                </div>
+                
+                {/* Description */}
+                <div style={{
+                  color: "#334155",
+                  fontSize: "0.9rem",
+                  lineHeight: "1.6",
+                  marginBottom: "1.5rem"
+                }}>
+                  <strong>DEFECT / DAMAGED PACKAGE:</strong> [CAT LITTER ONLY] product intact with slight defect on packaging (e.g. slightly ripped bag) that does not affect the quality of the enclosed product. <strong>SHORT EXPIRY:</strong> expiration of product is within THREE months.
+                </div>
+
+                {/* Newsletter / Sign up Card */}
+                <div style={{
+                  border: "1px solid #e2e8f0",
+                  borderRadius: "8px",
+                  padding: "1.5rem",
+                  background: "#f8fafc",
+                  marginBottom: "1.5rem"
+                }}>
+                  <h3 style={{
+                    color: "#1053a0",
+                    fontSize: "1.2rem",
+                    fontWeight: "600",
+                    margin: "0 0 1rem 0"
+                  }}>
+                    Sign up to receive our weekly clearance products
+                  </h3>
+                  {notified ? (
+                    <div style={{ color: "#16a34a", fontWeight: "600", fontSize: "0.95rem" }}>
+                      ✓ Thank you! You will be notified of weekly clearance products.
+                    </div>
+                  ) : (
+                    <form style={{ display: "flex", gap: "0.75rem" }} onSubmit={e => { e.preventDefault(); setNotified(true); }}>
+                      <input 
+                        type="email" 
+                        placeholder="Enter your email" 
+                        required
+                        style={{
+                          flex: 1,
+                          padding: "0.75rem 1rem",
+                          borderRadius: "6px",
+                          border: "1px solid #cbd5e1",
+                          fontSize: "0.95rem",
+                          outline: "none"
+                        }}
+                      />
+                      <button 
+                        type="submit" 
+                        style={{
+                          background: "#1053a0",
+                          color: "#ffffff",
+                          padding: "0.75rem 1.5rem",
+                          borderRadius: "6px",
+                          border: "none",
+                          fontWeight: "600",
+                          fontSize: "0.95rem",
+                          cursor: "pointer",
+                          transition: "background 0.2s"
+                        }}
+                        onMouseOver={e => e.currentTarget.style.background = "#0c3f7a"}
+                        onMouseOut={e => e.currentTarget.style.background = "#1053a0"}
+                      >
+                        Notify Me
+                      </button>
+                    </form>
+                  )}
+                </div>
+              </div>
+            )}
+>>>>>>> 8590b753d09e98bc7447f6daa0cd77883b88b08d
 
             {/* Shop Toolbar */}
             <div className="shop-toolbar">
               <div className="toolbar-left">
+<<<<<<< HEAD
                 <span className="results-count">Showing all {totalResults} results</span>
 
                 {/* Products per page select */}
@@ -688,12 +811,28 @@ export default function Shop() {
                   <span>Products per page:</span>
                   <select
                     value={limit || 24}
+=======
+                <span className="results-count">
+                  {totalResults > limit ? (
+                    `Showing ${startIndex + 1}–${Math.min(startIndex + limit, totalResults)} of ${totalResults} results`
+                  ) : (
+                    `Showing all ${totalResults} results`
+                  )}
+                </span>
+                
+                {/* Products per page select */}
+                <div className="paging-control">
+                  <span>Products per page:</span>
+                  <select 
+                    value={urlLimit} 
+>>>>>>> 8590b753d09e98bc7447f6daa0cd77883b88b08d
                     onChange={e => {
-                      const val = Number(e.target.value) || 24;
+                      const val = e.target.value;
                       navigate(buildCategoryHref(brand, val, sort));
                     }}
                     className="paging-select"
                   >
+                    <option value="">-- Select --</option>
                     <option value="12">12</option>
                     <option value="24">24</option>
                     <option value="48">48</option>
@@ -705,7 +844,7 @@ export default function Shop() {
               {/* Sorting dropdown */}
               <select
                 value={sort}
-                onChange={e => navigate(buildCategoryHref(brand, limit, e.target.value))}
+                onChange={e => navigate(buildCategoryHref(brand, urlLimit, e.target.value))}
                 className="sorting-select"
               >
                 <option value="availability">AVAILABILITY</option>
