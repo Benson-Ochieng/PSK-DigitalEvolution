@@ -88,16 +88,10 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   let animal = url.searchParams.get("animal") || "";
   let type = url.searchParams.get("type") || "";
   const urlSearch = url.searchParams.get("q") || "";
-<<<<<<< HEAD
   let brand = url.searchParams.get("brand") || "";
-  const limit = Number(url.searchParams.get("limit")) || 24;
-  const sort = url.searchParams.get("sort") || "availability";
-=======
-  let brand  = url.searchParams.get("brand")   || "";
   const urlLimit = url.searchParams.get("limit") || "";
-  const limit  = urlLimit ? Number(urlLimit) : 72;
-  const sort   = url.searchParams.get("sort") || "availability";
->>>>>>> 8590b753d09e98bc7447f6daa0cd77883b88b08d
+  const limit = urlLimit ? Number(urlLimit) : 72;
+  const sort = url.searchParams.get("sort") || "availability";
 
   let search = urlSearch;
   let categorySlug = "";
@@ -328,7 +322,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     totalResults,
     totalPages,
     currentPage,
-<<<<<<< HEAD
+    startIndex,
     animal,
     type: originalType,
     urlSearch,
@@ -336,17 +330,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     slug,
     brand,
     limit,
-=======
-    startIndex,
-    animal, 
-    type: originalType, 
-    urlSearch, 
-    pageTitle, 
-    slug, 
-    brand, 
-    limit, 
     urlLimit,
->>>>>>> 8590b753d09e98bc7447f6daa0cd77883b88b08d
     sort,
     hideFilter,
     isTag: isTagPage,
@@ -512,7 +496,7 @@ export default function Shop() {
     totalResults,
     totalPages,
     currentPage,
-<<<<<<< HEAD
+    startIndex,
     animal,
     type,
     urlSearch,
@@ -520,17 +504,7 @@ export default function Shop() {
     slug,
     brand,
     limit,
-=======
-    startIndex,
-    animal, 
-    type, 
-    urlSearch, 
-    pageTitle, 
-    slug, 
-    brand, 
-    limit, 
     urlLimit,
->>>>>>> 8590b753d09e98bc7447f6daa0cd77883b88b08d
     sort,
     hideFilter,
     isTag,
@@ -708,14 +682,6 @@ export default function Shop() {
               ))}
             </div>
 
-<<<<<<< HEAD
-            {/* Sale Description */}
-            {/* {type === "on-sale" && (
-              <div className="sale-description-notice" style={{ margin: "0.5rem 0 1.5rem 0", color: "#d91b1b", fontStyle: "italic", fontSize: "0.95rem", fontWeight: 600 }}>
-                Looking to SAVE MORE? Visit our <Link to="/shop?type=clearance" style={{ color: "#d91b1b", textDecoration: "underline", fontWeight: 700 }}>CLEARANCE page</Link> for deeper discounts.
-              </div>
-            )} */}
-=======
             {/* Clearance Disclaimer & Sign up Form */}
             {isClearancePage && (
               <div className="clearance-container" style={{ marginBottom: "2rem" }}>
@@ -729,7 +695,7 @@ export default function Shop() {
                 }}>
                   CLEARANCE OFFERS ARE EXCLUSIVE TO OUR ONLINE STORE. NO COUPONS OR ADDITIONAL DISCOUNTS MAY BE APPLIED. NO EXCHANGES. WHILE SUPPLIES LAST.
                 </div>
-                
+
                 {/* Description */}
                 <div style={{
                   color: "#334155",
@@ -762,9 +728,9 @@ export default function Shop() {
                     </div>
                   ) : (
                     <form style={{ display: "flex", gap: "0.75rem" }} onSubmit={e => { e.preventDefault(); setNotified(true); }}>
-                      <input 
-                        type="email" 
-                        placeholder="Enter your email" 
+                      <input
+                        type="email"
+                        placeholder="Enter your email"
                         required
                         style={{
                           flex: 1,
@@ -775,8 +741,8 @@ export default function Shop() {
                           outline: "none"
                         }}
                       />
-                      <button 
-                        type="submit" 
+                      <button
+                        type="submit"
                         style={{
                           background: "#1053a0",
                           color: "#ffffff",
@@ -798,20 +764,10 @@ export default function Shop() {
                 </div>
               </div>
             )}
->>>>>>> 8590b753d09e98bc7447f6daa0cd77883b88b08d
 
             {/* Shop Toolbar */}
             <div className="shop-toolbar">
               <div className="toolbar-left">
-<<<<<<< HEAD
-                <span className="results-count">Showing all {totalResults} results</span>
-
-                {/* Products per page select */}
-                <div className="paging-control">
-                  <span>Products per page:</span>
-                  <select
-                    value={limit || 24}
-=======
                 <span className="results-count">
                   {totalResults > limit ? (
                     `Showing ${startIndex + 1}–${Math.min(startIndex + limit, totalResults)} of ${totalResults} results`
@@ -819,13 +775,12 @@ export default function Shop() {
                     `Showing all ${totalResults} results`
                   )}
                 </span>
-                
+
                 {/* Products per page select */}
                 <div className="paging-control">
                   <span>Products per page:</span>
-                  <select 
-                    value={urlLimit} 
->>>>>>> 8590b753d09e98bc7447f6daa0cd77883b88b08d
+                  <select
+                    value={urlLimit}
                     onChange={e => {
                       const val = e.target.value;
                       navigate(buildCategoryHref(brand, val, sort));
