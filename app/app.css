@@ -59,6 +59,8 @@
 
 html {
   scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -67,6 +69,8 @@ body {
   color: var(--ink);
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 /* ── Top Promotion GIF Banner ── */
@@ -1668,11 +1672,210 @@ body {
   border-bottom: 1px dashed var(--border-light);
 }
 
-.cart-drawer-footer {
-  padding: 1.1rem 1.5rem;
-  border-top: 1px solid var(--border-light);
-  background: var(--bg-light);
+/* ── Add to Cart Confirmation Popup Styles ── */
+.add-to-cart-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
 }
+
+.add-to-cart-popup-modal {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 1.5rem 2rem;
+  width: 95%;
+  max-width: 680px;
+  position: relative;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.add-to-cart-popup-close {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.15);
+  border-radius: 50%;
+}
+
+.add-to-cart-popup-banner {
+  background: #e6f4ea;
+  color: #137333;
+  padding: 0.85rem 1rem;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+}
+
+.add-to-cart-popup-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.add-to-cart-popup-delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+}
+
+.add-to-cart-popup-image-container {
+  width: 110px;
+  height: 110px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  background: transparent;
+}
+
+.add-to-cart-popup-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.add-to-cart-popup-image-placeholder {
+  font-size: 2.5rem;
+}
+
+.add-to-cart-popup-name {
+  flex: 1;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #1a1a1a;
+  line-height: 1.3;
+}
+
+.add-to-cart-popup-price {
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #1a1a1a;
+  min-width: 80px;
+  text-align: right;
+}
+
+.add-to-cart-popup-qty {
+  display: inline-flex;
+  border: 1px solid #777777;
+  border-radius: 0px;
+  overflow: hidden;
+}
+
+.add-to-cart-popup-qty-btn {
+  padding: 0.2rem 0.55rem;
+  background: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.add-to-cart-popup-qty-input {
+  width: 28px;
+  border-top: none;
+  border-bottom: none;
+  border-left: 1px solid #777777;
+  border-right: 1px solid #777777;
+  text-align: center;
+  font-size: 0.85rem;
+  padding: 0;
+  outline: none;
+  background: #ffffff;
+}
+
+.add-to-cart-popup-divider {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem 0 0.75rem 0;
+}
+
+.add-to-cart-popup-divider-inner {
+  width: 180px;
+  border-top: 1px solid #eaeaea;
+}
+
+.add-to-cart-popup-total {
+  text-align: right;
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #1a1a1a;
+  margin-bottom: 1.5rem;
+}
+
+.add-to-cart-popup-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.add-to-cart-popup-btn {
+  flex: 1;
+  background: #1a5ca3;
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  padding: 0.7rem 0;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  outline: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .add-to-cart-popup-modal {
+    padding: 1rem 1.25rem;
+  }
+  
+  .add-to-cart-popup-image-container {
+    display: none !important;
+  }
+  
+  .add-to-cart-popup-buttons {
+    flex-direction: column !important;
+    gap: 0.75rem !important;
+  }
+  
+  .add-to-cart-popup-btn {
+    width: 100%;
+  }
+
+  .add-to-cart-popup-close {
+    top: -10px;
+    right: -10px;
+  }
+}
+
+/* ── Checkout Modal Styles ── */
 
 /* ── Checkout Modal Styles ── */
 .checkout-overlay {

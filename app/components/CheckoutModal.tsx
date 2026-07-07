@@ -519,79 +519,28 @@ export function CartDrawer() {
 
   return (
     <div 
-      style={{
-        position: "fixed",
-        top: 0,
-        left: 0,
-        width: "100vw",
-        height: "100vh",
-        background: "rgba(0, 0, 0, 0.55)",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        zIndex: 10000,
-      }}
+      className="add-to-cart-popup-overlay"
       onClick={(e) => {
         if (e.target === e.currentTarget) setIsCartOpen(false);
       }}
     >
-      <div 
-        style={{
-          background: "#ffffff",
-          borderRadius: "15px",
-          padding: "2rem",
-          width: "90%",
-          maxWidth: "600px",
-          position: "relative",
-          boxShadow: "0px 10px 40px rgba(0, 0, 0, 0.2)",
-          display: "flex",
-          flexDirection: "column",
-        }}
-      >
+      <div className="add-to-cart-popup-modal">
         {/* Close Button on Top Right */}
-        <button 
-          onClick={() => setIsCartOpen(false)}
-          style={{
-            position: "absolute",
-            top: "-15px",
-            right: "-15px",
-            background: "#000000",
-            color: "#ffffff",
-            border: "none",
-            borderRadius: "50%",
-            width: "32px",
-            height: "32px",
-            fontSize: "16px",
-            fontWeight: "bold",
-            cursor: "pointer",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            boxShadow: "0px 2px 8px rgba(0,0,0,0.3)",
-            outline: "none",
-          }}
-        >
-          ✕
+        <button onClick={() => setIsCartOpen(false)} className="add-to-cart-popup-close">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#000000" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+            <circle cx="12" cy="12" r="10" fill="#ffffff" />
+            <line x1="15" y1="9" x2="9" y2="15" />
+            <line x1="9" y1="9" x2="15" y2="15" />
+          </svg>
         </button>
 
         {/* Green Notification Banner */}
-        <div 
-          style={{
-            background: "#e6f4ea",
-            color: "#137333",
-            padding: "0.85rem 1rem",
-            borderRadius: "6px",
-            textAlign: "center",
-            fontSize: "0.95rem",
-            fontWeight: 500,
-            marginBottom: "2rem",
-          }}
-        >
+        <div className="add-to-cart-popup-banner">
           Product successfully added to your cart
         </div>
 
         {/* Product Details Row */}
-        <div style={{ display: "flex", alignItems: "center", gap: "1rem", marginBottom: "1rem" }}>
+        <div className="add-to-cart-popup-row">
           
           {/* Delete Icon */}
           <button 
@@ -599,66 +548,39 @@ export function CartDrawer() {
               removeItem(activeItem.id);
               setIsCartOpen(false);
             }}
-            style={{
-              background: "none",
-              border: "none",
-              cursor: "pointer",
-              padding: 0,
-              display: "flex",
-              alignItems: "center",
-            }}
+            className="add-to-cart-popup-delete-btn"
           >
-            <i className="fa fa-times-circle" style={{ color: "#ef4444", fontSize: "24px" }} />
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ef4444" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+              <circle cx="12" cy="12" r="10" fill="#ffffff" />
+              <line x1="15" y1="9" x2="9" y2="15" />
+              <line x1="9" y1="9" x2="15" y2="15" />
+            </svg>
           </button>
 
           {/* Product Image */}
-          <div 
-            style={{
-              width: "70px",
-              height: "70px",
-              border: "1px solid #eaeaea",
-              borderRadius: "4px",
-              overflow: "hidden",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              flexShrink: 0,
-              background: "#ffffff",
-            }}
-          >
+          <div className="add-to-cart-popup-image-container">
             {activeItem.image_url ? (
-              <img 
-                src={activeItem.image_url} 
-                alt={activeItem.name} 
-                style={{ width: "100%", height: "100%", objectFit: "contain", padding: "4px" }} 
-              />
+              <img src={activeItem.image_url} alt={activeItem.name} />
             ) : (
-              <span style={{ fontSize: "1.5rem" }}>🐾</span>
+              <span className="add-to-cart-popup-image-placeholder">🐾</span>
             )}
           </div>
 
           {/* Product Name */}
-          <div style={{ flex: 1, fontSize: "0.95rem", fontWeight: 500, color: "#1a1a1a", lineHeight: 1.3 }}>
+          <div className="add-to-cart-popup-name">
             {activeItem.name}
           </div>
 
           {/* Price */}
-          <div style={{ fontSize: "1rem", fontWeight: 500, color: "#1a1a1a", minWidth: "70px", textAlign: "right" }}>
+          <div className="add-to-cart-popup-price">
             {activeItem.price}KSh
           </div>
 
           {/* Quantity Selector */}
-          <div style={{ display: "inline-flex", border: "1px solid #777777", borderRadius: "0px", overflow: "hidden" }}>
+          <div className="add-to-cart-popup-qty">
             <button 
               onClick={() => updateQty(activeItem.id, activeItem.quantity - 1)}
-              style={{
-                padding: "0.2rem 0.55rem",
-                background: "#ffffff",
-                border: "none",
-                cursor: "pointer",
-                fontSize: "0.85rem",
-                fontWeight: "bold",
-              }}
+              className="add-to-cart-popup-qty-btn"
             >
               -
             </button>
@@ -675,29 +597,11 @@ export function CartDrawer() {
                   updateQty(activeItem.id, 1);
                 }
               }}
-              style={{
-                width: "28px",
-                borderTop: "none",
-                borderBottom: "none",
-                borderLeft: "1px solid #777777",
-                borderRight: "1px solid #777777",
-                textAlign: "center",
-                fontSize: "0.85rem",
-                padding: 0,
-                outline: "none",
-                background: "#ffffff",
-              }}
+              className="add-to-cart-popup-qty-input"
             />
             <button 
               onClick={() => updateQty(activeItem.id, activeItem.quantity + 1)}
-              style={{
-                padding: "0.2rem 0.55rem",
-                background: "#ffffff",
-                border: "none",
-                cursor: "pointer",
-                fontSize: "0.85rem",
-                fontWeight: "bold",
-              }}
+              className="add-to-cart-popup-qty-btn"
             >
               +
             </button>
@@ -706,68 +610,30 @@ export function CartDrawer() {
         </div>
 
         {/* Divider */}
-        <hr style={{ border: "none", borderTop: "1px solid #eaeaea", margin: "1.5rem 0 1rem 0" }} />
+        <div className="add-to-cart-popup-divider">
+          <div className="add-to-cart-popup-divider-inner" />
+        </div>
 
         {/* Total */}
-        <div style={{ textAlign: "right", fontSize: "1.15rem", fontWeight: "bold", color: "#1a1a1a", marginBottom: "2rem" }}>
+        <div className="add-to-cart-popup-total">
           Total : {(activeItem.price * activeItem.quantity)}KSh
         </div>
 
         {/* Modal Action Buttons */}
-        <div style={{ display: "flex", gap: "1rem", justifyContent: "space-between" }}>
-          <a 
-            href="/cart"
-            style={{
-              flex: 1,
-              background: "#1a5ca3",
-              color: "#ffffff",
-              border: "none",
-              borderRadius: "25px",
-              padding: "0.7rem 0",
-              fontWeight: "600",
-              fontSize: "0.85rem",
-              cursor: "pointer",
-              textAlign: "center",
-              textDecoration: "none",
-              display: "block",
-            }}
-          >
+        <div className="add-to-cart-popup-buttons">
+          <a href="/cart" className="add-to-cart-popup-btn">
             VIEW CART
           </a>
           <Link 
             to="/checkout"
             onClick={() => setIsCartOpen(false)}
-            style={{
-              flex: 1,
-              background: "#1a5ca3",
-              color: "#ffffff",
-              border: "none",
-              borderRadius: "25px",
-              padding: "0.7rem 0",
-              fontWeight: "600",
-              fontSize: "0.85rem",
-              cursor: "pointer",
-              textAlign: "center",
-              textDecoration: "none",
-              display: "block",
-            }}
+            className="add-to-cart-popup-btn"
           >
             CHECKOUT
           </Link>
           <button 
             onClick={() => setIsCartOpen(false)}
-            style={{
-              flex: 1,
-              background: "#1a5ca3",
-              color: "#ffffff",
-              border: "none",
-              borderRadius: "25px",
-              padding: "0.7rem 0",
-              fontWeight: "600",
-              fontSize: "0.85rem",
-              cursor: "pointer",
-              outline: "none",
-            }}
+            className="add-to-cart-popup-btn"
           >
             CONTINUE SHOPPING
           </button>
