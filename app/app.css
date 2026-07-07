@@ -1101,13 +1101,8 @@ body {
 
 .product-name {
   font-family: var(--font-sans);
-<<<<<<< HEAD
-  font-weight: 700;
-  font-size: 10px;
-=======
   font-weight: 600;
   font-size: 14px;
->>>>>>> f28a1e7a24bb61fed1ac51675a4ab9b07358762a
   line-height: 1.35;
   color: #000000;
   margin-bottom: 6px;
