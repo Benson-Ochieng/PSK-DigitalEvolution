@@ -76,6 +76,8 @@ export const ANIMAL_CATEGORIES: Record<string, { label: string; slug: string }[]
   fish: FISH_CATEGORIES
 };
 
+let cachedCategories: any[] | null = null;
+
 export async function loader({ request, params }: Route.LoaderArgs) {
   const url = new URL(request.url);
   const routeParams = params as any;
@@ -87,25 +89,27 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   let type   = url.searchParams.get("type")   || "";
   const urlSearch = url.searchParams.get("q") || "";
   let brand  = url.searchParams.get("brand")   || "";
-  const limit  = Number(url.searchParams.get("limit")) || 24;
+  const urlLimit = url.searchParams.get("limit") || "";
+  const limit  = urlLimit ? Number(urlLimit) : 72;
   const sort   = url.searchParams.get("sort") || "availability";
 
   let search = urlSearch;
   let categorySlug = "";
   let tagSlug = "";
 
-  const fs = await import("fs");
-  const path = await import("path");
-
-  const categoriesPath = path.join(process.cwd(), "content", "categories", "_index.json");
-  let categories: any[] = [];
-  if (fs.existsSync(categoriesPath)) {
-    try {
-      categories = JSON.parse(fs.readFileSync(categoriesPath, "utf-8"));
-    } catch (e) {
-      console.error("Error reading categories index", e);
+  if (!cachedCategories) {
+    const fs = await import("fs");
+    const path = await import("path");
+    const categoriesPath = path.join(process.cwd(), "content", "categories", "_index.json");
+    if (fs.existsSync(categoriesPath)) {
+      try {
+        cachedCategories = JSON.parse(fs.readFileSync(categoriesPath, "utf-8"));
+      } catch (e) {
+        console.error("Error reading categories index", e);
+      }
     }
   }
+  const categories = cachedCategories || [];
 
   const getDescendants = (slugStr: string): string[] => {
     const target = categories.find(c => c.slug === slugStr);
@@ -311,6 +315,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     totalResults, 
     totalPages,
     currentPage,
+    startIndex,
     animal, 
     type: originalType, 
     urlSearch, 
@@ -318,6 +323,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     slug, 
     brand, 
     limit, 
+    urlLimit,
     sort,
     hideFilter,
     isTag: isTagPage,
@@ -483,6 +489,7 @@ export default function Shop() {
     totalResults, 
     totalPages,
     currentPage,
+    startIndex,
     animal, 
     type, 
     urlSearch, 
@@ -490,6 +497,7 @@ export default function Shop() {
     slug, 
     brand, 
     limit, 
+    urlLimit,
     sort,
     hideFilter,
     isTag,
@@ -501,7 +509,7 @@ export default function Shop() {
   function buildPageHref(pageNumber: number) {
     const p = new URLSearchParams();
     if (brand) p.set("brand", brand);
-    if (limit) p.set("limit", String(limit));
+    if (urlLimit) p.set("limit", urlLimit);
     if (sort) p.set("sort", sort);
     if (urlSearch) p.set("q", urlSearch);
     if (hideFilter) p.set("hideFilter", "true");
@@ -516,14 +524,14 @@ export default function Shop() {
     return `/shop${p.toString() ? "?" + p.toString() : ""}`;
   }
 
-  function buildCategoryHref(newBrand: string, newLimit?: number, newSort?: string) {
+  function buildCategoryHref(newBrand: string, newLimit?: string, newSort?: string) {
     const p = new URLSearchParams();
     const activeBrand = newBrand !== undefined ? newBrand : brand;
-    const activeLimit = newLimit !== undefined ? newLimit : limit;
+    const activeLimit = newLimit !== undefined ? newLimit : urlLimit;
     const activeSort = newSort !== undefined ? newSort : sort;
 
     if (activeBrand) p.set("brand", activeBrand);
-    if (activeLimit) p.set("limit", String(activeLimit));
+    if (activeLimit) p.set("limit", activeLimit);
     if (activeSort) p.set("sort", activeSort);
     if (urlSearch) p.set("q", urlSearch);
     if (hideFilter) p.set("hideFilter", "true");
@@ -541,7 +549,7 @@ export default function Shop() {
     e.preventDefault();
     const p = new URLSearchParams();
     if (brand) p.set("brand", brand);
-    if (limit) p.set("limit", String(limit));
+    if (urlLimit) p.set("limit", urlLimit);
     if (sort) p.set("sort", sort);
     if (searchVal.trim()) p.set("q", searchVal.trim());
     if (hideFilter) p.set("hideFilter", "true");
@@ -559,7 +567,7 @@ export default function Shop() {
     setSearchVal("");
     const p = new URLSearchParams();
     if (brand) p.set("brand", brand);
-    if (limit) p.set("limit", String(limit));
+    if (urlLimit) p.set("limit", urlLimit);
     if (sort) p.set("sort", sort);
     if (hideFilter) p.set("hideFilter", "true");
     if (slug) {
@@ -666,19 +674,26 @@ export default function Shop() {
             {/* Shop Toolbar */}
             <div className="shop-toolbar">
               <div className="toolbar-left">
-                <span className="results-count">Showing all {totalResults} results</span>
+                <span className="results-count">
+                  {totalResults > limit ? (
+                    `Showing ${startIndex + 1}–${Math.min(startIndex + limit, totalResults)} of ${totalResults} results`
+                  ) : (
+                    `Showing all ${totalResults} results`
+                  )}
+                </span>
                 
                 {/* Products per page select */}
                 <div className="paging-control">
                   <span>Products per page:</span>
                   <select 
-                    value={limit || 24} 
+                    value={urlLimit} 
                     onChange={e => {
-                      const val = Number(e.target.value) || 24;
+                      const val = e.target.value;
                       navigate(buildCategoryHref(brand, val, sort));
                     }}
                     className="paging-select"
                   >
+                    <option value="">-- Select --</option>
                     <option value="12">12</option>
                     <option value="24">24</option>
                     <option value="48">48</option>
@@ -690,7 +705,7 @@ export default function Shop() {
               {/* Sorting dropdown */}
               <select
                 value={sort}
-                onChange={e => navigate(buildCategoryHref(brand, limit, e.target.value))}
+                onChange={e => navigate(buildCategoryHref(brand, urlLimit, e.target.value))}
                 className="sorting-select"
               >
                 <option value="availability">AVAILABILITY</option>
