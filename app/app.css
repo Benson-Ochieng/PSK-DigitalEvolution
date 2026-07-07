@@ -1060,14 +1060,9 @@ body {
   flex: 1;
 }
 
-<<<<<<< HEAD
-.product-card-link:hover {
-  text-decoration: none;
-=======
 .product-card-link:hover,
 .product-card:hover .product-card-link {
   text-decoration: none !important;
->>>>>>> 8590b753d09e98bc7447f6daa0cd77883b88b08d
 }
 
 .product-card-img {
