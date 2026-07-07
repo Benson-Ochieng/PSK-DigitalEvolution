@@ -59,8 +59,32 @@ function ProductCard({ p }: { p: any }) {
     setTimeout(() => setAdded(false), 1500);
   }
 
+  const isOnSale = p.competitor_min && Number(p.competitor_min) > Number(p.our_price);
+
   return (
     <div className="product-card">
+      {isOnSale && (
+        <span className="sale-badge" style={{
+          position: "absolute",
+          top: "0.5rem",
+          right: "0.5rem",
+          background: "#84cc16",
+          color: "#ffffff",
+          borderRadius: "50%",
+          width: "38px",
+          height: "38px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          fontSize: "0.7rem",
+          fontWeight: 700,
+          boxShadow: "0 2px 5px rgba(0,0,0,0.15)",
+          zIndex: 2
+        }}>
+          Sale!
+        </span>
+      )}
+
       <Link to={`/product/${p.slug}/`} className="product-card-link">
         <div className="product-card-img">
           {p.image_url ? (
@@ -71,7 +95,22 @@ function ProductCard({ p }: { p: any }) {
         </div>
         <div className="product-card-body">
           <div className="product-name" title={p.name}>{p.name}</div>
-          <div className="product-price">{Number(p.our_price).toLocaleString()}KSh</div>
+          <div className="product-price">
+            {isOnSale ? (
+              <>
+                <span style={{ textDecoration: "line-through", textDecorationColor: "#ef4444", color: "#475569", fontSize: "0.85rem", marginRight: "0.5rem", fontWeight: "bold" }}>
+                  {Number(p.competitor_min).toLocaleString()}KSh
+                </span>
+                <span style={{ color: "#ef4444" }}>
+                  {Number(p.our_price).toLocaleString()}KSh
+                </span>
+              </>
+            ) : (
+              <span style={{ color: "#ef4444" }}>
+                {Number(p.our_price).toLocaleString()}KSh
+              </span>
+            )}
+          </div>
         </div>
       </Link>
       <button className={`add-to-cart-btn ${added ? "added" : ""}`} onClick={handleAdd}>

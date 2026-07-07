@@ -384,7 +384,7 @@ export default function CartPage() {
                     )}
 
                     {/* Image */}
-                    <Link to={p.slug ? `/product/${p.slug}/` : `/shop/${p.id}`} style={{ textDecoration: "none" }}>
+                    <Link to={p.slug ? `/product/${p.slug}/` : `/shop/${p.id}`} className="product-card-link" style={{ textDecoration: "none" }}>
                       <div style={{
                         height: "150px",
                         display: "flex",
@@ -422,7 +422,7 @@ export default function CartPage() {
                     {/* Price display */}
                     <div style={{ marginBottom: "1rem" }}>
                       {originalPrice && (
-                        <span style={{ textDecoration: "line-through", color: "#888888", marginRight: "0.5rem", fontSize: "0.9rem" }}>
+                        <span style={{ textDecoration: "line-through", textDecorationColor: "#ef4444", color: "#475569", marginRight: "0.5rem", fontSize: "0.9rem", fontWeight: "bold" }}>
                           {originalPrice.toLocaleString()}KSh
                         </span>
                       )}
