@@ -1112,48 +1112,6 @@
     "status": "publish"
   },
   {
-    "id": 52837,
-    "name": "Royal Blue Kids Hoodies with Embroidery Paw - (9-11 Years)",
-    "slug": "royal-blue-kids-hoodies-with-embroidery-paw-9-11-years-2",
-    "sku": "PSK-52837",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 52838,
-    "name": "Spectrum Adult Dog Food Derm26 3kg",
-    "slug": "spectrum-adult-dog-food-derm26-3kg",
-    "sku": "PSK-52838",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
     "id": 43483,
     "name": "Generic Dog Collar - 4cm",
     "slug": "generic-dog-collar-4cm",
@@ -1356,90 +1314,6 @@
     "status": "publish"
   },
   {
-    "id": 52776,
-    "name": "Pet Ball For Dog Treat 7.5cm",
-    "slug": "pet-ball-for-dog-treat-7-5cm",
-    "sku": "PSK-52776",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 52839,
-    "name": "Spectrum Lowgain Salmon & Anchovy For Medium And Large Breed Adult Dogs 2.5kg",
-    "slug": "spectrum-low-grain-salmon-anchovy-for-medium-and-large-breed-adult-dogs-2-5kg-3",
-    "sku": "PSK-52839",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 52840,
-    "name": "Unique Cat Obesity Chicken & Turkey 2kg",
-    "slug": "unique-cat-obesity-chicken-turkey-2kg",
-    "sku": "PSK-52840",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 52841,
-    "name": "Unique Dog Gastro Int Chicken & Rice 3kg",
-    "slug": "unique-dog-gastro-int-chicken-rice-3kg",
-    "sku": "PSK-52841",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
     "id": 69453,
     "name": "Wanpy Dog Treats - Chicken Jerky 100g",
     "slug": "wanpy-dog-chicken-jerky-100g",
@@ -1476,10 +1350,31 @@
     "status": "publish"
   },
   {
-    "id": 52801,
-    "name": "Reflex Pocket Treats Dental Care 60g",
-    "slug": "reflex-pocket-treats-dental-care-60gr",
-    "sku": "PSK-52801",
+    "id": 52840,
+    "name": "Unique Cat Obesity Chicken & Turkey 2kg",
+    "slug": "unique-cat-obesity-chicken-turkey-2kg",
+    "sku": "PSK-52840",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52841,
+    "name": "Unique Dog Gastro Int Chicken & Rice 3kg",
+    "slug": "unique-dog-gastro-int-chicken-rice-3kg",
+    "sku": "PSK-52841",
     "regularPrice": null,
     "salePrice": null,
     "price": null,
@@ -1553,6 +1448,27 @@
     "status": "publish"
   },
   {
+    "id": 52801,
+    "name": "Reflex Pocket Treats Dental Care 60g",
+    "slug": "reflex-pocket-treats-dental-care-60gr",
+    "sku": "PSK-52801",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
     "id": 29407,
     "name": "Vita Health Omega 3 Cod Liver Oil - 200ml",
     "slug": "vitahealth-omega-3-cod-liver-oil-200ml",
@@ -1591,6 +1507,90 @@
         "slug": "pet-care"
       }
     ],
+    "status": "publish"
+  },
+  {
+    "id": 52837,
+    "name": "Royal Blue Kids Hoodies with Embroidery Paw - (9-11 Years)",
+    "slug": "royal-blue-kids-hoodies-with-embroidery-paw-9-11-years-2",
+    "sku": "PSK-52837",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52838,
+    "name": "Spectrum Adult Dog Food Derm26 3kg",
+    "slug": "spectrum-adult-dog-food-derm26-3kg",
+    "sku": "PSK-52838",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52776,
+    "name": "Pet Ball For Dog Treat 7.5cm",
+    "slug": "pet-ball-for-dog-treat-7-5cm",
+    "sku": "PSK-52776",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
+    "id": 52839,
+    "name": "Spectrum Lowgain Salmon & Anchovy For Medium And Large Breed Adult Dogs 2.5kg",
+    "slug": "spectrum-low-grain-salmon-anchovy-for-medium-and-large-breed-adult-dogs-2-5kg-3",
+    "sku": "PSK-52839",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
     "status": "publish"
   },
   {
