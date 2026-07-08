@@ -315,6 +315,26 @@ body {
   transition: var(--transition);
 }
 
+/* Nav Actions Icon Swing Animation on Hover */
+.account-nav-btn img,
+.cart-nav-btn svg {
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}
+
+.account-nav-btn:hover img,
+.cart-nav-btn:hover svg {
+  animation: nav-icon-swing 1.8s ease-in-out infinite;
+}
+
+@keyframes nav-icon-swing {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(-8deg); }
+  50% { transform: rotate(8deg); }
+  75% { transform: rotate(-8deg); }
+  100% { transform: rotate(0deg); }
+}
+
 
 /* ── Custom Storefront Navigation Overhaul ── */
 
