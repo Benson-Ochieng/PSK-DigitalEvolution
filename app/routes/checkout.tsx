@@ -1021,9 +1021,9 @@ export default function CheckoutPage() {
               gap: "0.5rem",
               marginBottom: "2rem"
             }}>
-              <i className="fa fa-info-circle" style={{ color: "#1053a0" }} />
+              <i className="fa fa-info-circle" style={{ color: "#1E5DA7" }} />
               <span>
-                Returning customer? <Link to="/my-account" style={{ color: "#1053a0", textDecoration: "none", fontWeight: 500 }}>Click here to login</Link>
+                Returning customer? <Link to="/my-account" style={{ color: "#1E5DA7", textDecoration: "none", fontWeight: 500 }}>Click here to login</Link>
               </span>
             </div>
           )}
@@ -1039,14 +1039,14 @@ export default function CheckoutPage() {
               marginBottom: "3rem"
             }}>
               <span style={{ fontSize: "4rem" }}>🎉</span>
-              <h2 style={{ fontSize: "2rem", color: "#1053a0", margin: "1rem 0", fontFamily: '"Patrick Hand", cursive' }}>
+              <h2 style={{ fontSize: "2rem", color: "#1E5DA7", margin: "1rem 0", fontFamily: '"Patrick Hand", cursive' }}>
                 Thank you! Your order has been placed.
               </h2>
               <p style={{ color: "#515151", fontSize: "1.1rem", marginBottom: "2rem" }}>
                 Your Order ID is <strong>#{successOrderNumber}</strong>. We are processing it and will contact you shortly.
               </p>
               <Link to="/shop" className="btn-primary" style={{
-                background: "#1053a0",
+                background: "#1E5DA7",
                 color: "#ffffff",
                 padding: "0.6rem 2rem",
                 borderRadius: "20px",
@@ -1067,10 +1067,10 @@ export default function CheckoutPage() {
               marginBottom: "3rem"
             }}>
               <span style={{ fontSize: "4rem" }}>🛒</span>
-              <h2 style={{ fontSize: "1.8rem", color: "#1053a0", margin: "1rem 0" }}>Your cart is empty</h2>
+              <h2 style={{ fontSize: "1.8rem", color: "#1E5DA7", margin: "1rem 0" }}>Your cart is empty</h2>
               <p style={{ color: "#777777", marginBottom: "2rem" }}>Please add some products to your cart before checking out.</p>
               <Link to="/shop" style={{
-                background: "#1053a0",
+                background: "#1E5DA7",
                 color: "#ffffff",
                 padding: "0.6rem 2rem",
                 borderRadius: "20px",
@@ -1159,7 +1159,7 @@ export default function CheckoutPage() {
                     <h3 style={{
                       fontFamily: '"Patrick Hand", cursive',
                       fontSize: "1.6rem",
-                      color: "#1a5ca3",
+                      color: "#1E5DA7",
                       textAlign: "center",
                       margin: "0 0 1.5rem 0",
                       fontWeight: "bold",
@@ -1193,7 +1193,7 @@ export default function CheckoutPage() {
                               style={{
                                 background: "none",
                                 border: "none",
-                                color: "#1a5ca3",
+                                color: "#1E5DA7",
                                 fontWeight: "bold",
                                 fontSize: "0.85rem",
                                 cursor: "pointer",
@@ -1213,7 +1213,7 @@ export default function CheckoutPage() {
                               justifyContent: "space-between",
                               alignItems: "center",
                               padding: "0.75rem 1rem",
-                              border: "1px solid #1a5ca3",
+                              border: "1px solid #1E5DA7",
                               borderRadius: "4px",
                               background: "#ffffff",
                               cursor: "pointer",
@@ -1230,7 +1230,7 @@ export default function CheckoutPage() {
                                 "Select a saved address..."
                               )}
                             </span>
-                            <span style={{ fontSize: "0.7rem", color: "#1a5ca3" }}>{showDropdown ? "▲" : "▼"}</span>
+                            <span style={{ fontSize: "0.7rem", color: "#1E5DA7" }}>{showDropdown ? "▲" : "▼"}</span>
                           </div>
 
                           {showDropdown && (
@@ -1321,7 +1321,7 @@ export default function CheckoutPage() {
                                             border: "none",
                                             cursor: "pointer",
                                             padding: "2px",
-                                            color: "#1a5ca3",
+                                            color: "#1E5DA7",
                                             fontSize: "0.95rem"
                                           }}
                                           title="Edit Address"
@@ -1585,10 +1585,10 @@ export default function CheckoutPage() {
                         userSelect: "none"
                       }}
                     >
-                      <span style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontWeight: "bold", color: "#1a5ca3" }}>
+                      <span style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontWeight: "bold", color: "#1E5DA7" }}>
                         📋 ADDITIONAL DELIVERY INFORMATION (OPTIONAL)
                       </span>
-                      <span style={{ color: "#1a5ca3" }}>{showAdditionalInfo ? "▲" : "▼"}</span>
+                      <span style={{ color: "#1E5DA7" }}>{showAdditionalInfo ? "▲" : "▼"}</span>
                     </div>
 
                     {/* Accordion Body */}
@@ -1690,14 +1690,14 @@ export default function CheckoutPage() {
 
                   {/* Order Summary Box */}
                   <div style={{
-                    border: "1px solid #1a5ca3",
+                    border: "1px solid #1E5DA7",
                     borderRadius: "4px",
                     overflow: "hidden",
                     background: "#ffffff"
                   }}>
                     {/* Header Row */}
                     <div style={{
-                      background: "#1a5ca3",
+                      background: "#1E5DA7",
                       color: "#ffffff",
                       padding: "0.75rem 1rem",
                       display: "flex",
@@ -1872,7 +1872,7 @@ export default function CheckoutPage() {
                       onClick={() => navigate("/my-account")}
                       style={{
                         background: "#ffffff",
-                        color: "#1a5ca3",
+                        color: "#1E5DA7",
                         border: "1px solid #bbd2e8",
                         borderRadius: "4px",
                         padding: "0.5rem 1rem",
@@ -1926,7 +1926,7 @@ export default function CheckoutPage() {
                             fontSize: "0.8rem",
                             lineHeight: 1.4,
                             marginLeft: "1.5rem",
-                            borderLeft: "4px solid #1a5ca3"
+                            borderLeft: "4px solid #1E5DA7"
                           }}>
                             Place order and pay using (M-PESA, Airtel Money, Kenswitch, VISA, MasterCard) Powered by www.ipayafrica.com
                           </div>
@@ -2089,7 +2089,7 @@ export default function CheckoutPage() {
                 margin: 0,
                 fontFamily: '"Patrick Hand", cursive',
                 fontSize: "1.5rem",
-                color: "#1a5ca3",
+                color: "#1E5DA7",
                 fontWeight: "bold"
               }}>
                 {editingAddress ? "EDIT ADDRESS" : "ADD NEW ADDRESS"}

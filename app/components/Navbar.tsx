@@ -725,48 +725,61 @@ export default function Navbar() {
 
           {/* Right Action Icons: My Account & Cart */}
           <div className="navbar-actions">
-            <Link to="/my-account" className="account-nav-btn" title="My Account" style={{ position: "relative", display: "inline-flex", alignItems: "center", justifyContent: "center" }}>
-              <i className="fa fa-user" style={{ fontSize: "30px", color: "#ffffff" }}></i>
-              {isLoggedIn && (
-                <span className="green-dot" style={{
-                  position: "absolute",
-                  bottom: "1px",
-                  right: "1px",
-                  width: "12px",
-                  height: "12px",
-                  backgroundColor: "#22c55e",
-                  borderRadius: "50%",
-                  border: "2px solid #1053a0",
-                  zIndex: 10
-                }} />
-              )}
+            <Link to="/my-account" className="account-nav-btn" title="My Account" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", padding: "0.25rem" }}>
+              <div style={{ position: "relative", display: "inline-flex", alignItems: "center", justifyContent: "center" }}>
+                <img 
+                  src="/assets/signinuser.png" 
+                  alt="My Account" 
+                  style={{ width: "30px", height: "30px", objectFit: "contain" }} 
+                />
+                {isLoggedIn && (
+                  <span className="green-dot" style={{
+                    position: "absolute",
+                    bottom: "0px",
+                    right: "0px",
+                    width: "12px",
+                    height: "12px",
+                    backgroundColor: "#22c55e",
+                    borderRadius: "50%",
+                    border: "2px solid #1E5DA7",
+                    zIndex: 10
+                  }} />
+                )}
+              </div>
             </Link>
 
-            <Link className="cart-nav-btn" to="/cart" title="Shopping Cart" style={{ position: "relative", display: "inline-block", background: "none", border: "none" }}>
-              <i className="fa fa-shopping-cart" style={{ fontSize: "30px", color: "#ffffff" }}></i>
-              {count > 0 && (
-                <span
-                  style={{
-                    position: "absolute",
-                    top: "-5px",
-                    right: "-10px",
-                    background: "#ffffff",
-                    color: "#1053a0",
-                    fontSize: "14px",
-                    fontWeight: "bold",
-                    borderRadius: "50%",
-                    width: "22px",
-                    height: "22px",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    boxShadow: "0 2px 5px rgba(0,0,0,0.15)"
-                  }}
-                  suppressHydrationWarning
-                >
-                  {count}
-                </span>
-              )}
+            <Link className="cart-nav-btn" to="/cart" title="Shopping Cart" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", background: "none", border: "none", padding: "0.25rem" }}>
+              <div style={{ position: "relative", display: "inline-flex", alignItems: "center", justifyContent: "center" }}>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#ffffff" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" className="navbar-cart-svg">
+                  <circle cx="8" cy="21" r="1" fill="#ffffff" />
+                  <circle cx="19" cy="21" r="1" fill="#ffffff" />
+                  <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
+                </svg>
+                {count > 0 && (
+                  <span
+                    style={{
+                      position: "absolute",
+                      top: "-6px",
+                      right: "-10px",
+                      background: "#1053a0",
+                      color: "#ffffff",
+                      fontSize: "11px",
+                      fontWeight: "bold",
+                      borderRadius: "50%",
+                      border: "2.2px solid #ffffff",
+                      width: "22px",
+                      height: "22px",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      boxShadow: "0 2px 5px rgba(0,0,0,0.15)"
+                    }}
+                    suppressHydrationWarning
+                  >
+                    {count}
+                  </span>
+                )}
+              </div>
             </Link>
           </div>
 

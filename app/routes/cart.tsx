@@ -68,7 +68,7 @@ export default function CartPage() {
             <div style={{ marginBottom: "3rem" }}>
               <div style={{
                 background: "#f4f8fa",
-                borderTop: "3px solid #1053a0",
+                borderTop: "3px solid #1E5DA7",
                 padding: "1.2rem",
                 display: "flex",
                 alignItems: "center",
@@ -84,10 +84,10 @@ export default function CartPage() {
                   justifyContent: "center",
                   width: "18px",
                   height: "18px",
-                  border: "2px solid #1053a0",
+                  border: "2px solid #1E5DA7",
                   borderRadius: "2px",
                   fontSize: "11px",
-                  color: "#1053a0",
+                  color: "#1E5DA7",
                   fontWeight: "bold"
                 }}>
                   i
@@ -124,7 +124,7 @@ export default function CartPage() {
                   <Link
                     to="/checkout"
                     style={{
-                      background: "#1a5ca3",
+                      background: "#1E5DA7",
                       color: "#ffffff",
                       border: "none",
                       borderRadius: "20px",
@@ -141,7 +141,7 @@ export default function CartPage() {
                     Proceed to checkout
                   </Link>
                 </div>
-                <div style={{ flex: 1, textAlign: "right", fontSize: "1.05rem", fontWeight: "bold", color: "#1a5ca3" }}>
+                <div style={{ flex: 1, textAlign: "right", fontSize: "1.05rem", fontWeight: "bold", color: "#1E5DA7" }}>
                   SUBTOTAL: <span style={{ color: "#777777", fontWeight: "normal", marginLeft: "1rem" }}>{subtotal.toLocaleString()}KSh</span>
                 </div>
               </div>
@@ -151,7 +151,7 @@ export default function CartPage() {
 
                 {/* Table Header */}
                 <div style={{
-                  background: "#1a5ca3",
+                  background: "#1E5DA7",
                   color: "#ffffff",
                   padding: "0.75rem 1.5rem",
                   fontWeight: "bold",
@@ -213,7 +213,7 @@ export default function CartPage() {
                       </div>
                       <Link to={item.slug ? `/product/${item.slug}/` : `/shop/${item.id}`} style={{
                         textDecoration: "none",
-                        color: "#1a5ca3",
+                        color: "#1E5DA7",
                         fontWeight: 500,
                         fontSize: "0.95rem",
                         lineHeight: 1.3
@@ -295,7 +295,7 @@ export default function CartPage() {
                   <Link
                     to="/checkout"
                     style={{
-                      background: "#1a5ca3",
+                      background: "#1E5DA7",
                       color: "#ffffff",
                       border: "none",
                       borderRadius: "20px",
@@ -312,7 +312,7 @@ export default function CartPage() {
                     Proceed to checkout
                   </Link>
                 </div>
-                <div style={{ flex: 1, textAlign: "right", fontSize: "1.05rem", fontWeight: "bold", color: "#1a5ca3" }}>
+                <div style={{ flex: 1, textAlign: "right", fontSize: "1.05rem", fontWeight: "bold", color: "#1E5DA7" }}>
                   SUBTOTAL: <span style={{ color: "#777777", fontWeight: "normal", marginLeft: "1rem" }}>{subtotal.toLocaleString()}KSh</span>
                 </div>
               </div>
@@ -322,132 +322,93 @@ export default function CartPage() {
 
           {/* Upsells Section */}
           <div style={{ marginTop: "4rem" }}>
-            <h2 style={{
-              fontFamily: '"Patrick Hand", cursive',
-              fontSize: "1.8rem",
-              color: "#1a5ca3",
-              borderBottom: "1px solid #eaeaea",
-              paddingBottom: "0.5rem",
-              marginBottom: "2rem",
-              fontWeight: "bold",
-              letterSpacing: "0.02em"
-            }}>
-              YOU MAY BE INTERESTED IN...
-            </h2>
+            <div style={{ borderBottom: "2px solid #eaeaea", marginBottom: "2rem" }}>
+              <h2 style={{
+                fontFamily: "var(--font-sans)",
+                fontSize: "1.45rem",
+                fontWeight: 700,
+                color: "#1E5DA7",
+                paddingBottom: "0.5rem",
+                margin: 0,
+                marginBottom: "-2px",
+                display: "inline-block",
+                borderBottom: "2px solid #1E5DA7",
+                letterSpacing: "0.05em"
+              }}>
+                YOU MAY BE INTERESTED IN...
+              </h2>
+            </div>
 
             <div style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))",
-              gap: "2rem"
+              gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
+              gap: "1.5rem",
+              maxWidth: "560px",
+              marginTop: "1.5rem"
             }}>
               {recommended.map(p => {
                 const isSale = p.competitor_min && Number(p.competitor_min) > Number(p.our_price);
-                const originalPrice = isSale ? Number(p.competitor_min) : null;
-                const salePrice = Number(p.our_price);
+                const added = addedIds[p.id];
 
                 return (
-                  <div
-                    key={p.id}
-                    style={{
-                      background: "#ffffff",
-                      border: "1px solid #eaeaea",
-                      borderRadius: "8px",
-                      padding: "1rem",
-                      display: "flex",
-                      flexDirection: "column",
-                      justifyContent: "space-between",
-                      position: "relative",
-                      textAlign: "center",
-                      boxShadow: "0 2px 8px rgba(0,0,0,0.03)"
-                    }}
-                  >
-                    {/* Sale Badge */}
+                  <div key={p.id} className="product-card">
                     {isSale && (
-                      <span style={{
+                      <span className="sale-badge" style={{
                         position: "absolute",
-                        top: "10px",
-                        right: "10px",
-                        background: "#82a812",
+                        top: "0.5rem",
+                        right: "0.5rem",
+                        background: "#958e09",
                         color: "#ffffff",
                         borderRadius: "50%",
-                        fontSize: "0.75rem",
-                        fontWeight: "bold",
-                        width: "38px",
-                        height: "38px",
+                        width: "40px",
+                        height: "40px",
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "center",
+                        fontSize: "0.85rem",
+                        fontWeight: "600",
+                        boxShadow: "0 2px 5px rgba(0,0,0,0.15)",
                         zIndex: 2
                       }}>
                         Sale!
                       </span>
                     )}
 
-                    {/* Image */}
-                    <Link to={p.slug ? `/product/${p.slug}/` : `/shop/${p.id}`} className="product-card-link" style={{ textDecoration: "none" }}>
-                      <div style={{
-                        height: "150px",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        marginBottom: "1rem",
-                        background: "#ffffff"
-                      }}>
+                    <Link to={p.slug ? `/product/${p.slug}/` : `/shop/${p.id}`} className="product-card-link">
+                      <div className="product-card-img">
                         {p.image_url ? (
-                          <img src={p.image_url} alt={p.name} style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
+                          <img src={p.image_url} alt={p.name} loading="lazy" />
                         ) : (
-                          <span style={{ fontSize: "2.5rem" }}>🐾</span>
+                          <span className="placeholder-icon" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", height: "120px" }}>
+                            🐾
+                          </span>
                         )}
                       </div>
-
-                      {/* Name */}
-                      <h3 style={{
-                        fontSize: "0.85rem",
-                        fontWeight: 600,
-                        color: "#333",
-                        height: "40px",
-                        overflow: "hidden",
-                        textOverflow: "ellipsis",
-                        display: "-webkit-box",
-                        WebkitLineClamp: 2,
-                        WebkitBoxOrient: "vertical",
-                        lineHeight: "20px",
-                        margin: "0 0 0.5rem 0",
-                        textDecoration: "none"
-                      }}>
-                        {p.name}
-                      </h3>
+                      <div className="product-card-body">
+                        <div className="product-name" title={p.name}>{p.name}</div>
+                        <div className="product-price">
+                          {isSale ? (
+                            <>
+                              <span style={{ textDecoration: "line-through", textDecorationColor: "#807e7e", color: "#807e7e", fontSize: "0.85rem", marginRight: "0.5rem", fontWeight: "bold" }}>
+                                {Number(p.competitor_min).toLocaleString()}KSh
+                              </span>
+                              <span style={{ color: "#ef4444" }}>
+                                {Number(p.our_price).toLocaleString()}KSh
+                              </span>
+                            </>
+                          ) : (
+                            <span style={{ color: "#ef4444" }}>
+                              {Number(p.our_price).toLocaleString()}KSh
+                            </span>
+                          )}
+                        </div>
+                      </div>
                     </Link>
-
-                    {/* Price display */}
-                    <div style={{ marginBottom: "1rem" }}>
-                      {originalPrice && (
-                        <span style={{ textDecoration: "line-through", textDecorationColor: "#ef4444", color: "#475569", marginRight: "0.5rem", fontSize: "0.9rem", fontWeight: "bold" }}>
-                          {originalPrice.toLocaleString()}KSh
-                        </span>
-                      )}
-                      <span style={{ color: "#ef4444", fontWeight: "bold", fontSize: "0.95rem" }}>
-                        {salePrice.toLocaleString()}KSh
-                      </span>
-                    </div>
-
-                    {/* Add to Cart button */}
                     <button
+                      className={`add-to-cart-btn ${added ? "added" : ""}`}
                       onClick={() => handleAddToCart(p)}
-                      style={{
-                        background: "#1a5ca3",
-                        color: "#ffffff",
-                        border: "none",
-                        borderRadius: "20px",
-                        padding: "0.5rem 1rem",
-                        fontWeight: "600",
-                        fontSize: "0.8rem",
-                        cursor: "pointer",
-                        textTransform: "uppercase",
-                        transition: "background 0.2s"
-                      }}
                     >
-                      {addedIds[p.id] ? "✓ Added" : "Add To Cart"}
+                      {added ? "✓ Added" : "Add To Cart"}
                     </button>
                   </div>
                 );

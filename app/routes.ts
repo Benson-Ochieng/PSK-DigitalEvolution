@@ -52,6 +52,7 @@ const routes = [
   route("see-all-our-stores", "routes/see-all-our-stores.tsx"),
   route("retail-locations-nairobi-nanyuki-naivasha-nakuru-mombasa", "routes/retail-locations.tsx"),
   route("blog", "routes/blog.tsx"),
+  route("blog/:slug", "routes/blog.$slug.tsx"),
   route("pet-avenue", "routes/pet-avenue.tsx"),
   route("pet-avenue/veterinary-care", "routes/pet-avenue.vets.tsx"),
   route("pet-avenue/boarding-facilities", "routes/pet-avenue.boarding.tsx"),

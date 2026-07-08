@@ -98,7 +98,7 @@ function ProductCard({ p }: { p: any }) {
           <div className="product-price">
             {isOnSale ? (
               <>
-                <span style={{ textDecoration: "line-through", textDecorationColor: "#ef4444", color: "#475569", fontSize: "0.85rem", marginRight: "0.5rem", fontWeight: "bold" }}>
+                <span style={{ textDecoration: "line-through", textDecorationColor: "#807e7e", color: "#807e7e", fontSize: "0.85rem", marginRight: "0.5rem", fontWeight: "bold" }}>
                   {Number(p.competitor_min).toLocaleString()}KSh
                 </span>
                 <span style={{ color: "#ef4444" }}>
@@ -224,7 +224,7 @@ export default function Home() {
               <Link
                 to="/product-tag/new-arrivals"
                 className="btn-blue"
-                style={{ display: "inline-block", padding: "0.6rem 2.5rem", textTransform: "uppercase", fontSize: "0.8rem", textDecoration: "none" }}
+                style={{ display: "inline-block", padding: "0.6rem 2.5rem", textTransform: "capitalize", fontSize: "15px", textDecoration: "none" }}
               >
                 Load More
               </Link>

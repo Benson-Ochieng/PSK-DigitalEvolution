@@ -119,7 +119,7 @@ function ProductCard({ p }: { p: any }) {
           <div className="product-price">
             {isOnSale ? (
               <>
-                <span style={{ textDecoration: "line-through", textDecorationColor: "#ef4444", color: "#475569", fontSize: "0.85rem", marginRight: "0.5rem", fontWeight: "bold" }}>
+                <span style={{ textDecoration: "line-through", textDecorationColor: "#807e7e", color: "#807e7e", fontSize: "0.85rem", marginRight: "0.5rem", fontWeight: "bold" }}>
                   {Number(p.competitor_min).toLocaleString()}KSh
                 </span>
                 <span style={{ color: "#ef4444" }}>
@@ -187,10 +187,10 @@ export default function NewArrivals() {
               fontFamily: "var(--font-sans)",
               fontSize: "1.35rem",
               fontWeight: 500,
-              color: "#1053a0",
+              color: "#1E5DA7",
               margin: 0,
               paddingBottom: "0.25rem",
-              borderBottom: "2px solid #1053a0",
+              borderBottom: "2px solid #1E5DA7",
               display: "inline-block"
             }}>
               New Arrivals

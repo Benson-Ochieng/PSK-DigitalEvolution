@@ -12,7 +12,9 @@ export default function PageHeader({ title }: PageHeaderProps) {
         backgroundSize: "100% 100%",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-        height: "65px",
+        minHeight: "65px",
+        height: "auto",
+        padding: "0.6rem 2.5rem",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
@@ -48,7 +50,8 @@ export default function PageHeader({ title }: PageHeaderProps) {
           transform: "rotate(45deg)",
           fontSize: "18px",
           color: "#f7c276",
-          display: "inline-block"
+          display: "inline-block",
+          flexShrink: 0
         }}
       />
       <h1
@@ -59,7 +62,9 @@ export default function PageHeader({ title }: PageHeaderProps) {
           color: "#1e5da7",
           margin: 0,
           letterSpacing: "0.05em",
-          textTransform: "uppercase"
+          textTransform: "uppercase",
+          textAlign: "center",
+          lineHeight: "1.3"
         }}
       >
         {title}
@@ -70,7 +75,8 @@ export default function PageHeader({ title }: PageHeaderProps) {
           transform: "rotate(-45deg)",
           fontSize: "18px",
           color: "#f7c276",
-          display: "inline-block"
+          display: "inline-block",
+          flexShrink: 0
         }}
       />
     </div>
