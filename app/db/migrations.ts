@@ -228,6 +228,19 @@ export const migrations: Migration[] = [
       );
       CREATE INDEX IF NOT EXISTS idx_customer_addresses_email ON customer_addresses(customer_email);
     `
+  },
+  {
+    id: 8,
+    name: 'remove_fish_food_and_treats',
+    up: `
+      DELETE FROM order_items WHERE product_id IN (
+        SELECT id FROM products WHERE slug IN ('sera-koi-royal-nature-mini-3800ml-2', 'sera-vipagran-nature-100ml-2', 'sera-pond-mix-royal-nature-1000ml-2') OR categories @> '[{"slug": "fish-food-treats"}]'
+      );
+      DELETE FROM store_prices WHERE product_id IN (
+        SELECT id FROM products WHERE slug IN ('sera-koi-royal-nature-mini-3800ml-2', 'sera-vipagran-nature-100ml-2', 'sera-pond-mix-royal-nature-1000ml-2') OR categories @> '[{"slug": "fish-food-treats"}]'
+      );
+      DELETE FROM products WHERE slug IN ('sera-koi-royal-nature-mini-3800ml-2', 'sera-vipagran-nature-100ml-2', 'sera-pond-mix-royal-nature-1000ml-2') OR categories @> '[{"slug": "fish-food-treats"}]';
+    `
   }
 ];
 

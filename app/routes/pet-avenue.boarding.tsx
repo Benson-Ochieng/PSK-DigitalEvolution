@@ -4,7 +4,7 @@ import PageHeader from "../components/PageHeader";
 
 export function meta() {
   return [
-    { title: "Pet Boarding Facilities — PetStore Kenya" },
+    { title: "Pet Boarding Facilities - PetStore Kenya" },
     { name: "description", content: "Discover trusted and safe pet boarding options in Nairobi, Karen, Kiambu, and across Kenya to keep your pet safe while you are away." },
   ];
 }

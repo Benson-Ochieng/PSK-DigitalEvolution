@@ -34,7 +34,7 @@ export async function loader({ params }: Route.LoaderArgs) {
 export function meta({ data }: Route.MetaArgs) {
   const p = data?.product;
   return [
-    { title: `${p?.name ?? "Product"} — PetStore Kenya` },
+    { title: `${p?.name ?? "Product"} - PetStore Kenya` },
     { name: "description", content: `Buy ${p?.name} online. Always cheaper than Carrefour & Naivas. Fast Nairobi delivery.` },
   ];
 }

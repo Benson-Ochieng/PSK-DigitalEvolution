@@ -5,7 +5,7 @@ import PageHeader from "../components/PageHeader";
 
 export function meta() {
   return [
-    { title: "Cat Food Comparison — PetStore Kenya" },
+    { title: "Cat Food Comparison - PetStore Kenya" },
     { name: "description", content: "How does your cat food compare? Check out our comparison chart and detailed grading criteria." },
   ];
 }

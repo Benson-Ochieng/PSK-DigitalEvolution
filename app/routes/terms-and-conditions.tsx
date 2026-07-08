@@ -5,7 +5,7 @@ import PageHeader from "../components/PageHeader";
 
 export function meta() {
   return [
-    { title: "Terms and Conditions — PetStore Kenya" },
+    { title: "Terms and Conditions - PetStore Kenya" },
     { name: "description", content: "Review the official Terms and Conditions of PetStore Kenya (petstore.co.ke) website." },
   ];
 }

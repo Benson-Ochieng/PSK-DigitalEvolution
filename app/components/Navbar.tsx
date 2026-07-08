@@ -190,10 +190,7 @@ const DRAWER_MENU_ITEMS = [
   },
   {
     name: "Fish",
-    path: "/product-category/fish/",
-    subItems: [
-      { name: "Fish Food & Treats", path: "/product-category/fish-food-treats/" }
-    ]
+    path: "/product-category/fish/"
   },
   {
     name: "Our Brands",

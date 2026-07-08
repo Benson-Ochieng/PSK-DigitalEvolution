@@ -5,7 +5,7 @@ import PageHeader from "../components/PageHeader";
 
 export function meta() {
   return [
-    { title: "Why Choose Us — PetStore Kenya" },
+    { title: "Why Choose Us - PetStore Kenya" },
     { name: "description", content: "Discover the PetStore Kenya difference. Learn how we deliver fresher, cheaper, and locally sourced pet food in Nairobi." },
   ];
 }

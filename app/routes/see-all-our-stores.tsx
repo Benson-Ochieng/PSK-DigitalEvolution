@@ -5,7 +5,7 @@ import PageHeader from "../components/PageHeader";
 
 export function meta() {
   return [
-    { title: "Locations — PetStore Kenya" },
+    { title: "Locations - PetStore Kenya" },
     { name: "description", content: "Visit one of our convenient PetStore Kenya locations across Nairobi and Mombasa for premium dog food, cat food, and accessories." },
   ];
 }

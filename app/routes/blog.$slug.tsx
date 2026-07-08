@@ -6,10 +6,10 @@ import { query } from "../db.server";
 
 export function meta({ data }: { data: any }) {
   if (!data || !data.post) {
-    return [{ title: "Blog Post Not Found — PetStore Kenya" }];
+    return [{ title: "Blog Post Not Found - PetStore Kenya" }];
   }
   return [
-    { title: `${data.post.title} — PetStore Kenya` },
+    { title: `${data.post.title} - PetStore Kenya` },
     { name: "description", content: data.post.excerpt || `Read our care guide on ${data.post.title}` },
   ];
 }

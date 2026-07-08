@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 
 export function meta() {
   return [
-    { title: "New Arrivals — PetStore Kenya" },
+    { title: "New Arrivals - PetStore Kenya" },
     { name: "description", content: "Check out our newest pet food arrivals and treats at PetStore Kenya. Top brands and freshest stock!" }
   ];
 }

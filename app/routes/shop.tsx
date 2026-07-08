@@ -8,10 +8,10 @@ import Footer from "../components/Footer";
 import { DogIcon, CatIcon, BoneIcon, DropletIcon } from "../components/CategoryIcon";
 
 export function meta({ data }: Route.MetaArgs): Route.MetaDescriptors {
-  const title = data?.pageTitle ? `${data.pageTitle} — PetStore Kenya` : "Shop Pet Food — PetStore Kenya";
+  const title = data?.pageTitle ? `${data.pageTitle} - PetStore Kenya` : "Products - PetStore Kenya";
   return [
     { title },
-    { name: "description", content: `Browse all ${data?.pageTitle || "pet food"} products at PetStore Kenya — always cheaper than Naivas, Carrefour & Quickmart.` }
+    { name: "description", content: `Browse all ${data?.pageTitle || "pet food"} products at PetStore Kenya - always cheaper than Naivas, Carrefour & Quickmart.` }
   ];
 }
 
@@ -64,9 +64,7 @@ export const RABBIT_CATEGORIES = [
   { label: "Rabbit Food & Supplies", slug: "rabbit-supplies-store" }
 ];
 
-export const FISH_CATEGORIES = [
-  { label: "Fish Food & Treats", slug: "fish-food-treats" }
-];
+export const FISH_CATEGORIES: { label: string; slug: string }[] = [];
 
 export const ANIMAL_CATEGORIES: Record<string, { label: string; slug: string }[]> = {
   cat: CAT_CATEGORIES,

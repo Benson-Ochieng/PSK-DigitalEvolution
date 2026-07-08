@@ -4,7 +4,7 @@ import PageHeader from "../components/PageHeader";
 
 export function meta() {
   return [
-    { title: "Pet Adoption Centers — PetStore Kenya" },
+    { title: "Pet Adoption Centers - PetStore Kenya" },
     { name: "description", content: "Find trusted pet adoption centers in Nairobi, Mombasa, Nanyuki, Naivasha, and across Kenya. Adopt a pet and save a life today." },
   ];
 }

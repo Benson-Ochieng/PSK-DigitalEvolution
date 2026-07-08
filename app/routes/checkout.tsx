@@ -433,7 +433,7 @@ const EXPRESS_NEIGHBOURHOODS = [
 
 export function meta() {
   return [
-    { title: "Checkout — PetStore Kenya" },
+    { title: "Checkout - PetStore Kenya" },
     { name: "description", content: "Complete your order with secure payment options or via WhatsApp." },
   ];
 }
