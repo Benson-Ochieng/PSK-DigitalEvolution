@@ -8,7 +8,7 @@ import PageHeader from "../components/PageHeader";
 
 export function meta() {
   return [
-    { title: "Shopping Cart — PetStore Kenya" },
+    { title: "Cart - PetStore Kenya" },
     { name: "description", content: "Review your shopping cart, adjust item quantities, and proceed to checkout at PetStore Kenya." },
   ];
 }

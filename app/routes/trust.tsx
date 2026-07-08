@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 export function meta() {
   return [
-    { title: "Kenyan Sourced, Trusted Quality — PetStore Kenya" },
+    { title: "Kenyan Sourced, Trusted Quality - PetStore Kenya" },
     { name: "description", content: "Learn why buying local Kenyan pet food is fresher, cheaper, and healthier for your pets than imported brands." },
   ];
 }

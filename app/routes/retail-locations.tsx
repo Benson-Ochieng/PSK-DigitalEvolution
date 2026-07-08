@@ -4,7 +4,7 @@ import PageHeader from "../components/PageHeader";
 
 export function meta() {
   return [
-    { title: "Retail Locations — PetStore Kenya" },
+    { title: "Retail Locations - PetStore Kenya" },
     { name: "description", content: "Available at Leading Retailers Nationwide. Find Your Pet's Favourite Food – Anywhere in Kenya." },
   ];
 }

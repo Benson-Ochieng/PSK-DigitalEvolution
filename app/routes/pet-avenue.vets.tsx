@@ -4,7 +4,7 @@ import PageHeader from "../components/PageHeader";
 
 export function meta() {
   return [
-    { title: "Veterinary Care — PetStore Kenya" },
+    { title: "Veterinary Care - PetStore Kenya" },
     { name: "description", content: "View our comprehensive directory of verified veterinary clinics and animal hospitals in Nairobi, Mombasa, Kisumu, and across Kenya." },
   ];
 }

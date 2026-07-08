@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 export function meta() {
   return [
-    { title: "Sustainability & Green Logistics — PetStore Kenya" },
+    { title: "Sustainability & Green Logistics - PetStore Kenya" },
     { name: "description", content: "Learn about our e-bike delivery philosophy, green credentials of local sourcing, and our journey to ISO certification." },
   ];
 }

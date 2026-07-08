@@ -5,7 +5,7 @@ import PageHeader from "../components/PageHeader";
 
 export function meta() {
   return [
-    { title: "About Us — PetStore Kenya" },
+    { title: "About Us - PetStore Kenya" },
     { name: "description", content: "Learn about PetStore Kenya, our mission, values, and how we make pet food shopping convenient and affordable across Kenya." },
   ];
 }

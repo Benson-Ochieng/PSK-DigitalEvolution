@@ -5,7 +5,7 @@ import PageHeader from "../components/PageHeader";
 
 export function meta() {
   return [
-    { title: "Pet Avenue — PetStore Kenya" },
+    { title: "Pet Avenue - PetStore Kenya" },
     { name: "description", content: "Explore Pet Avenue at PetStore Kenya. Find trusted veterinary care, luxury pet boarding facilities, pet-friendly restaurants, and pet adoption services." },
   ];
 }

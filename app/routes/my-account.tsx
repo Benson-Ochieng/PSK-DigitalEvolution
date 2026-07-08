@@ -11,7 +11,7 @@ import { SHIPPING_ZONES, CITIES } from "./checkout";
 
 export function meta() {
   return [
-    { title: "My Account — PetStore Kenya" },
+    { title: "My Account - PetStore Kenya" },
     { name: "description", content: "Access your PetStore Kenya customer account dashboard, manage addresses, orders, and view loyalty points." }
   ];
 }

@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 export function meta() {
   return [
-    { title: "Flash Sale — PetStore Kenya" },
+    { title: "Flash Sale - PetStore Kenya" },
     { name: "description", content: "Don't miss our lightning-fast pet food flash sales at PetStore Kenya. Up to 50% off select brands!" }
   ];
 }

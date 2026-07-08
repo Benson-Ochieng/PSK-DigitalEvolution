@@ -6,7 +6,7 @@ import { query } from "../db.server";
 
 export function meta() {
   return [
-    { title: "Education & Blog — PetStore Kenya" },
+    { title: "Blog - PetStore Kenya" },
     { name: "description", content: "Read our essential dog and cat care guides and tips from PetStore Kenya." },
   ];
 }

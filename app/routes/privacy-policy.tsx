@@ -5,7 +5,7 @@ import PageHeader from "../components/PageHeader";
 
 export function meta() {
   return [
-    { title: "Privacy Policy — PetStore Kenya" },
+    { title: "Privacy Policy - PetStore Kenya" },
     { name: "description", content: "Review the official Privacy Policy of PetStore Kenya (petstore.co.ke) website." },
   ];
 }
