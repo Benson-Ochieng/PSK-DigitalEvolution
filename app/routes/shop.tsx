@@ -166,7 +166,9 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   }
 
   let pageTitle = "All Pet Food";
-  if (slug) {
+  if (urlSearch) {
+    pageTitle = `Search Results for "${urlSearch}"`;
+  } else if (slug) {
     if (isTagPage) {
       pageTitle = canonicalSlug.split("-").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
     } else {
@@ -325,6 +327,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     sort,
     hideFilter,
     isTag: isTagPage,
+    isSearch: !!urlSearch,
     activeSidebarSlug: categorySlug ? getActiveSidebarSlug(categorySlug) : ""
   };
 }
@@ -499,6 +502,7 @@ export default function Shop() {
     sort,
     hideFilter,
     isTag,
+    isSearch,
     activeSidebarSlug
   } = useLoaderData<typeof loader>();
   const navigate = useNavigate();
@@ -656,7 +660,7 @@ export default function Shop() {
           <main className="shop-main">
             
             {/* Page Title */}
-            <h1 className="shop-page-title">{pageTitle}</h1>
+            <h1 className={`shop-page-title ${isSearch ? "search-results-title" : ""}`}>{pageTitle}</h1>
 
             {/* Breadcrumbs */}
             <div className="breadcrumb-container" style={{ marginTop: "0.5rem", marginBottom: "1rem" }}>

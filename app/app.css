@@ -2314,6 +2314,17 @@ body {
   display: inline-block;
 }
 
+.shop-page-title.search-results-title {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #cbd5e1;
+  color: #334155;
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
 .shop-toolbar {
   display: flex;
   align-items: center;
