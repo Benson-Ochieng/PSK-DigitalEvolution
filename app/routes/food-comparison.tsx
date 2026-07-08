@@ -161,9 +161,11 @@ export default function FoodComparison() {
                       October 25th 2022:
                     </span>
                     <a 
-                      href="#" 
-                      onClick={(e) => e.preventDefault()}
-                      style={{ color: "#3182ce", textDecoration: "none", fontWeight: 500 }}
+                      href="/downloads/Cat-Food-Comparison-Chart-August-2020.pdf" 
+                      download="Cat-Food-Comparison-Chart-August-2020.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ color: "#3182ce", textDecoration: "underline", fontWeight: 500 }}
                     >
                       View/Download Cat Food Comparison Chart 2020
                     </a>
@@ -231,9 +233,11 @@ export default function FoodComparison() {
                     October 25th 2022:
                   </span>
                   <a 
-                    href="#" 
-                    onClick={(e) => e.preventDefault()}
-                    style={{ color: "#3182ce", textDecoration: "none", fontWeight: 500 }}
+                    href="/downloads/Cat-Food-Comparison-Chart-August-2020.pdf" 
+                    download="Cat-Food-Comparison-Chart-August-2020.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: "#3182ce", textDecoration: "underline", fontWeight: 500 }}
                   >
                     View/Download Cat Food Comparison Chart 2020
                   </a>
