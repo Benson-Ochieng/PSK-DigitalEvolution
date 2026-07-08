@@ -83,11 +83,29 @@ body {
   width: 100%;
   background-color: #1e5da7;
   /* Matching the GIF/Navbar brand blue */
-  display: block;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  overflow: hidden;
+}
+
+.promo-slide {
+  grid-column: 1;
+  grid-row: 1;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+  pointer-events: none;
+  width: 100%;
   text-align: center;
 }
 
-.top-promo-banner img {
+.promo-slide.active {
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 1;
+}
+
+.promo-slide img {
   max-width: 100%;
   height: auto;
   display: block;

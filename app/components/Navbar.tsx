@@ -250,6 +250,33 @@ const DRAWER_MENU_ITEMS = [
   { name: "Contact Us", path: "/contact-us" }
 ];
 
+const BANNER_SLIDES = [
+  {
+    desktopImage: "/images/petstore-banner.gif.webp",
+    mobileImage: "/images/petstore-whatsapp-banner-mobile.gif",
+    linkTo: "/shop",
+    alt: "PetStore Kenya - Click Here"
+  },
+  {
+    desktopImage: "/images/petstore-new-arrival-banner.gif",
+    mobileImage: "/images/petstore-whatsapp-banner-mobile.gif",
+    linkTo: "/product-tag/new-arrivals",
+    alt: "New Arrivals - Click Here"
+  },
+  {
+    desktopImage: "/images/petstore-sale-banner.gif",
+    mobileImage: "/images/petstore-whatsapp-banner-mobile.gif",
+    linkTo: "/shop?type=on-sale",
+    alt: "On Sale Now - Click Here"
+  },
+  {
+    desktopImage: "/images/petstore-clearance-banner.gif",
+    mobileImage: "/images/petstore-whatsapp-banner-mobile.gif",
+    linkTo: "/shop?type=clearance",
+    alt: "Clearance - Click Here"
+  }
+];
+
 export default function Navbar() {
   const { count, setIsCartOpen } = useCart();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -276,6 +303,15 @@ export default function Navbar() {
   const location = useLocation();
   const navigate = useNavigate();
   const searchRef = useRef<HTMLDivElement>(null);
+
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % BANNER_SLIDES.length);
+    }, 5000);
+    return () => clearInterval(timer);
+  }, []);
 
   useEffect(() => {
     if (typeof document !== "undefined") {
@@ -404,16 +440,23 @@ export default function Navbar() {
     <>
       {/* Top Announcement Banner */}
       <div className="top-promo-banner">
-        <Link to="/shop">
-          <picture>
-            <source media="(max-width: 768px)" srcSet="/images/petstore-whatsapp-banner-mobile.gif" />
-            <img
-              src="/images/petstore-new-arrival-banner.gif"
-              alt="Take me to the new page - Click Here"
-              loading="eager"
-            />
-          </picture>
-        </Link>
+        {BANNER_SLIDES.map((slide, idx) => (
+          <div
+            key={idx}
+            className={`promo-slide ${idx === currentSlide ? "active" : ""}`}
+          >
+            <Link to={slide.linkTo}>
+              <picture>
+                <source media="(max-width: 768px)" srcSet={slide.mobileImage} />
+                <img
+                  src={slide.desktopImage}
+                  alt={slide.alt}
+                  loading={idx === 0 ? "eager" : "lazy"}
+                />
+              </picture>
+            </Link>
+          </div>
+        ))}
       </div>
 
       {/* Main Navbar */}
