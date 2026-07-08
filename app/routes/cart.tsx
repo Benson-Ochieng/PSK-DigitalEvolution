@@ -68,7 +68,7 @@ export default function CartPage() {
             <div style={{ marginBottom: "3rem" }}>
               <div style={{
                 background: "#f4f8fa",
-                borderTop: "3px solid #1053a0",
+                borderTop: "3px solid #1E5DA7",
                 padding: "1.2rem",
                 display: "flex",
                 alignItems: "center",
@@ -84,10 +84,10 @@ export default function CartPage() {
                   justifyContent: "center",
                   width: "18px",
                   height: "18px",
-                  border: "2px solid #1053a0",
+                  border: "2px solid #1E5DA7",
                   borderRadius: "2px",
                   fontSize: "11px",
-                  color: "#1053a0",
+                  color: "#1E5DA7",
                   fontWeight: "bold"
                 }}>
                   i
@@ -124,7 +124,7 @@ export default function CartPage() {
                   <Link
                     to="/checkout"
                     style={{
-                      background: "#1a5ca3",
+                      background: "#1E5DA7",
                       color: "#ffffff",
                       border: "none",
                       borderRadius: "20px",
@@ -141,7 +141,7 @@ export default function CartPage() {
                     Proceed to checkout
                   </Link>
                 </div>
-                <div style={{ flex: 1, textAlign: "right", fontSize: "1.05rem", fontWeight: "bold", color: "#1a5ca3" }}>
+                <div style={{ flex: 1, textAlign: "right", fontSize: "1.05rem", fontWeight: "bold", color: "#1E5DA7" }}>
                   SUBTOTAL: <span style={{ color: "#777777", fontWeight: "normal", marginLeft: "1rem" }}>{subtotal.toLocaleString()}KSh</span>
                 </div>
               </div>
@@ -151,7 +151,7 @@ export default function CartPage() {
 
                 {/* Table Header */}
                 <div style={{
-                  background: "#1a5ca3",
+                  background: "#1E5DA7",
                   color: "#ffffff",
                   padding: "0.75rem 1.5rem",
                   fontWeight: "bold",
@@ -213,7 +213,7 @@ export default function CartPage() {
                       </div>
                       <Link to={item.slug ? `/product/${item.slug}/` : `/shop/${item.id}`} style={{
                         textDecoration: "none",
-                        color: "#1a5ca3",
+                        color: "#1E5DA7",
                         fontWeight: 500,
                         fontSize: "0.95rem",
                         lineHeight: 1.3
@@ -295,7 +295,7 @@ export default function CartPage() {
                   <Link
                     to="/checkout"
                     style={{
-                      background: "#1a5ca3",
+                      background: "#1E5DA7",
                       color: "#ffffff",
                       border: "none",
                       borderRadius: "20px",
@@ -312,7 +312,7 @@ export default function CartPage() {
                     Proceed to checkout
                   </Link>
                 </div>
-                <div style={{ flex: 1, textAlign: "right", fontSize: "1.05rem", fontWeight: "bold", color: "#1a5ca3" }}>
+                <div style={{ flex: 1, textAlign: "right", fontSize: "1.05rem", fontWeight: "bold", color: "#1E5DA7" }}>
                   SUBTOTAL: <span style={{ color: "#777777", fontWeight: "normal", marginLeft: "1rem" }}>{subtotal.toLocaleString()}KSh</span>
                 </div>
               </div>
@@ -325,7 +325,7 @@ export default function CartPage() {
             <h2 style={{
               fontFamily: '"Patrick Hand", cursive',
               fontSize: "1.8rem",
-              color: "#1a5ca3",
+              color: "#1E5DA7",
               borderBottom: "1px solid #eaeaea",
               paddingBottom: "0.5rem",
               marginBottom: "2rem",
@@ -422,7 +422,7 @@ export default function CartPage() {
                     {/* Price display */}
                     <div style={{ marginBottom: "1rem" }}>
                       {originalPrice && (
-                        <span style={{ textDecoration: "line-through", textDecorationColor: "#ef4444", color: "#475569", marginRight: "0.5rem", fontSize: "0.9rem", fontWeight: "bold" }}>
+                        <span style={{ textDecoration: "line-through", textDecorationColor: "#807e7e", color: "#807e7e", marginRight: "0.5rem", fontSize: "0.9rem", fontWeight: "bold" }}>
                           {originalPrice.toLocaleString()}KSh
                         </span>
                       )}
@@ -435,7 +435,7 @@ export default function CartPage() {
                     <button
                       onClick={() => handleAddToCart(p)}
                       style={{
-                        background: "#1a5ca3",
+                        background: "#1E5DA7",
                         color: "#ffffff",
                         border: "none",
                         borderRadius: "20px",

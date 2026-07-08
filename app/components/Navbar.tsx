@@ -741,7 +741,7 @@ export default function Navbar() {
                     height: "12px",
                     backgroundColor: "#22c55e",
                     borderRadius: "50%",
-                    border: "2px solid #1053a0",
+                    border: "2px solid #1E5DA7",
                     zIndex: 10
                   }} />
                 )}
