@@ -348,7 +348,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: var(--transition);
+  transition: none;
+}
+
+.navbar-hamburger-btn:hover {
+  background: none !important;
+  color: #ffffff !important;
+  opacity: 1 !important;
 }
 
 
@@ -2162,8 +2168,9 @@ body {
 }
 
 .drawer-menu-link:hover {
-  color: var(--primary);
-  background: rgba(30, 93, 167, 0.05);
+  color: #1e293b !important;
+  background: none !important;
+  text-decoration: none !important;
 }
 
 .drawer-menu-arrow-btn {
@@ -2205,8 +2212,9 @@ body {
 }
 
 .drawer-submenu-link:hover {
-  color: var(--primary);
-  background: rgba(30, 93, 167, 0.03);
+  color: #475569 !important;
+  background: none !important;
+  text-decoration: none !important;
 }
 
 /* ── Shop Sidebar & Category UI ── */
