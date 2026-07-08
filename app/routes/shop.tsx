@@ -64,9 +64,7 @@ export const RABBIT_CATEGORIES = [
   { label: "Rabbit Food & Supplies", slug: "rabbit-supplies-store" }
 ];
 
-export const FISH_CATEGORIES = [
-  { label: "Fish Food & Treats", slug: "fish-food-treats" }
-];
+export const FISH_CATEGORIES: { label: string; slug: string }[] = [];
 
 export const ANIMAL_CATEGORIES: Record<string, { label: string; slug: string }[]> = {
   cat: CAT_CATEGORIES,
