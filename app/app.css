@@ -2050,8 +2050,8 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 380px;
-  max-width: 85vw;
+  width: 500px;
+  max-width: 95vw;
   height: 100vh;
   background-color: #f4f4f4;
   border-right: 1px solid var(--border-light);
@@ -2156,7 +2156,7 @@ body {
 .drawer-menu-item-row {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
   border-bottom: 1px solid #e2e8f0;
   background: #f8fafc;
 }
@@ -2179,7 +2179,6 @@ body {
 
 .drawer-menu-arrow-btn {
   width: 44px;
-  height: 44px;
   background: var(--primary);
   border: none;
   color: #ffffff;
@@ -2190,6 +2189,7 @@ body {
   font-size: 0.85rem;
   transition: var(--transition);
   flex-shrink: 0;
+  margin: 0;
 }
 
 .drawer-menu-arrow-btn:hover {
