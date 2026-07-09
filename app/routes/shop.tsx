@@ -86,22 +86,15 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   let animal = url.searchParams.get("animal") || "";
   let type = url.searchParams.get("type") || "";
   const urlSearch = url.searchParams.get("q") || "";
-<<<<<<< HEAD
   let brand = url.searchParams.get("brand") || "";
-  const urlLimit = url.searchParams.get("limit") || "";
-  const limit = urlLimit ? Number(urlLimit) : 72;
-  const sort = url.searchParams.get("sort") || "availability";
-=======
-  let brand  = url.searchParams.get("brand")   || "";
   const fromCat = url.searchParams.get("from_cat") || "";
   const fromBrand = url.searchParams.get("from_brand") || "";
   const crossSlug = fromCat || fromBrand;
   const lifeStage = url.searchParams.get("life_stage") || "";
   const offerSort = url.searchParams.get("offer_sort") || "";
   const urlLimit = url.searchParams.get("limit") || "";
-  const limit  = urlLimit ? Number(urlLimit) : 72;
-  const sort   = url.searchParams.get("sort") || offerSort || "availability";
->>>>>>> 688906fe546ac5e20732bfe6d7a7b91f9979d423
+  const limit = urlLimit ? Number(urlLimit) : 72;
+  const sort = url.searchParams.get("sort") || offerSort || "availability";
 
   let search = urlSearch;
   let categorySlug = "";
@@ -295,7 +288,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     sqlParams.push(brand);
     conditions.push(`LOWER(p.brand) = LOWER($${sqlParams.length})`);
   }
-  
+
   if (lifeStage) {
     const paramIdx = sqlParams.push(JSON.stringify([{ slug: lifeStage }]));
     conditions.push(`p.tags @> $${paramIdx}::jsonb`);
@@ -644,15 +637,11 @@ export default function Shop() {
     if (sort) p.set("sort", sort);
     if (searchVal.trim()) p.set("q", searchVal.trim());
     if (hideFilter) p.set("hideFilter", "true");
-<<<<<<< HEAD
-
-=======
     if (fromCat) p.set("from_cat", fromCat);
     if (fromBrand) p.set("from_brand", fromBrand);
     if (lifeStage) p.set("life_stage", lifeStage);
     if (offerSort) p.set("offer_sort", offerSort);
-    
->>>>>>> 688906fe546ac5e20732bfe6d7a7b91f9979d423
+
     if (slug) {
       navigate(isTag ? `/product-tag/${slug}/${p.toString() ? "?" + p.toString() : ""}` : `/product-category/${slug}/${p.toString() ? "?" + p.toString() : ""}`);
     } else {
