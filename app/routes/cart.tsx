@@ -8,7 +8,7 @@ import PageHeader from "../components/PageHeader";
 
 export function meta() {
   return [
-    { title: "Shopping Cart — PetStore Kenya" },
+    { title: "Cart - PetStore Kenya" },
     { name: "description", content: "Review your shopping cart, adjust item quantities, and proceed to checkout at PetStore Kenya." },
   ];
 }
@@ -36,6 +36,7 @@ export default function CartPage() {
   const { recommended } = useLoaderData<typeof loader>();
   const { items, subtotal, removeItem, updateQty, setIsCheckoutOpen, addItem } = useCart();
   const [addedIds, setAddedIds] = useState<Record<number, boolean>>({});
+  const [loadingRemoveId, setLoadingRemoveId] = useState<number | null>(null);
 
   const handleAddToCart = (p: any) => {
     addItem({
@@ -56,6 +57,11 @@ export default function CartPage() {
   return (
     <>
       <Navbar />
+      <style>{`
+        @keyframes spin {
+          to { transform: rotate(360deg); }
+        }
+      `}</style>
 
       <div className="page" style={{ paddingTop: "2.5rem", paddingBottom: "4rem" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 1.5rem" }}>
@@ -68,7 +74,7 @@ export default function CartPage() {
             <div style={{ marginBottom: "3rem" }}>
               <div style={{
                 background: "#f4f8fa",
-                borderTop: "3px solid #1053a0",
+                borderTop: "3px solid #1E5DA7",
                 padding: "1.2rem",
                 display: "flex",
                 alignItems: "center",
@@ -84,10 +90,10 @@ export default function CartPage() {
                   justifyContent: "center",
                   width: "18px",
                   height: "18px",
-                  border: "2px solid #1053a0",
+                  border: "2px solid #1E5DA7",
                   borderRadius: "2px",
                   fontSize: "11px",
-                  color: "#1053a0",
+                  color: "#1E5DA7",
                   fontWeight: "bold"
                 }}>
                   i
@@ -124,34 +130,35 @@ export default function CartPage() {
                   <Link
                     to="/checkout"
                     style={{
-                      background: "#1a5ca3",
+                      background: "#1E5DA7",
                       color: "#ffffff",
                       border: "none",
-                      borderRadius: "20px",
-                      padding: "0.65rem 2.5rem",
-                      fontWeight: "bold",
-                      fontSize: "0.95rem",
+                      borderRadius: "30px",
+                      padding: "0.9rem 4.5rem",
+                      fontWeight: "700",
+                      fontSize: "1.05rem",
                       cursor: "pointer",
                       textTransform: "uppercase",
-                      boxShadow: "0 2px 5px rgba(0,0,0,0.1)",
+                      boxShadow: "0 3px 8px rgba(30, 93, 167, 0.2)",
                       textDecoration: "none",
-                      display: "inline-block"
+                      display: "inline-block",
+                      textAlign: "center"
                     }}
                   >
                     Proceed to checkout
                   </Link>
                 </div>
-                <div style={{ flex: 1, textAlign: "right", fontSize: "1.05rem", fontWeight: "bold", color: "#1a5ca3" }}>
-                  SUBTOTAL: <span style={{ color: "#777777", fontWeight: "normal", marginLeft: "1rem" }}>{subtotal.toLocaleString()}KSh</span>
+                <div style={{ flex: 1, textAlign: "right", fontSize: "1.2rem", fontWeight: "bold", color: "#1E5DA7" }}>
+                  SUBTOTAL: <span style={{ marginLeft: "0.75rem" }}>{subtotal.toLocaleString()}KSh</span>
                 </div>
               </div>
 
               {/* Cart Table Container */}
-              <div style={{ border: "1px solid #dcdcdc", borderRadius: "4px", overflow: "hidden", marginBottom: "1.5rem" }}>
+              <div style={{ border: "1px solid #1E5DA7", borderRadius: "4px", overflow: "hidden", marginBottom: "1.5rem" }}>
 
                 {/* Table Header */}
                 <div style={{
-                  background: "#1a5ca3",
+                  background: "#1E5DA7",
                   color: "#ffffff",
                   padding: "0.75rem 1.5rem",
                   fontWeight: "bold",
@@ -172,50 +179,69 @@ export default function CartPage() {
                     display: "grid",
                     gridTemplateColumns: "1fr 150px 150px",
                     alignItems: "center",
-                    padding: "1rem 1.5rem",
-                    borderBottom: "1px solid #eaeaea",
+                    padding: "0.35rem 1.5rem",
+                    borderBottom: "1px solid #1E5DA7",
                     background: "#ffffff"
                   }}>
                     {/* Product cell: Delete, Image, Name */}
                     <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
-                      <button
-                        onClick={() => removeItem(item.id)}
-                        style={{
-                          background: "none",
-                          border: "none",
-                          color: "#ef4444",
-                          fontSize: "1.1rem",
-                          fontWeight: "bold",
-                          cursor: "pointer",
-                          padding: 0
-                        }}
-                        title="Remove product"
-                      >
-                        ✕
-                      </button>
+                      <div style={{ width: "24px", display: "flex", justifyContent: "center", alignItems: "center" }}>
+                        {loadingRemoveId === item.id ? (
+                          <div className="cart-item-loader" style={{
+                            width: "14px",
+                            height: "14px",
+                            border: "2px solid #ef4444",
+                            borderTopColor: "transparent",
+                            borderRadius: "50%",
+                            animation: "spin 0.6s linear infinite"
+                          }} />
+                        ) : (
+                          <button
+                            onClick={() => {
+                              setLoadingRemoveId(item.id);
+                              setTimeout(() => {
+                                removeItem(item.id);
+                                setLoadingRemoveId(null);
+                              }, 600);
+                            }}
+                            style={{
+                              background: "none",
+                              border: "none",
+                              color: "#c02424",
+                              fontSize: "0.8rem",
+                              fontWeight: "900",
+                              cursor: "pointer",
+                              padding: "4px",
+                              display: "inline-flex",
+                              alignItems: "center",
+                              justifyContent: "center",
+                              lineHeight: 1
+                            }}
+                            title="Remove product"
+                          >
+                            ✖
+                          </button>
+                        )}
+                      </div>
                       <div style={{
-                        width: "50px",
-                        height: "50px",
-                        border: "1px solid #eaeaea",
-                        borderRadius: "4px",
-                        overflow: "hidden",
+                        width: "40px",
+                        height: "40px",
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "center",
-                        background: "#ffffff",
                         flexShrink: 0
                       }}>
                         {item.image_url ? (
-                          <img src={item.image_url} alt={item.name} style={{ width: "100%", height: "100%", objectFit: "contain", padding: "2px" }} />
+                          <img src={item.image_url} alt={item.name} style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
                         ) : (
                           <span style={{ fontSize: "1.2rem" }}>🐾</span>
                         )}
                       </div>
                       <Link to={item.slug ? `/product/${item.slug}/` : `/shop/${item.id}`} style={{
                         textDecoration: "none",
-                        color: "#1a5ca3",
-                        fontWeight: 500,
-                        fontSize: "0.95rem",
+                        color: "#1E5DA7",
+                        fontWeight: 400,
+                        fontSize: "1.05rem",
                         lineHeight: 1.3
                       }}>
                         {item.name}
@@ -223,22 +249,28 @@ export default function CartPage() {
                     </div>
 
                     {/* Price cell */}
-                    <div style={{ textAlign: "right", fontSize: "0.95rem", fontWeight: 500, color: "#515151" }}>
+                    <div style={{ textAlign: "right", fontSize: "0.95rem", fontWeight: 400, color: "#1E5DA7" }}>
                       {item.price.toLocaleString()}KSh
                     </div>
 
                     {/* Quantity cell */}
                     <div style={{ display: "flex", justifyContent: "flex-end" }}>
-                      <div style={{ display: "inline-flex", border: "1px solid #777777", borderRadius: "0px", overflow: "hidden" }}>
+                      <div style={{ display: "inline-flex", border: "1px solid #cbd5e1", borderRadius: "4px", overflow: "hidden", height: "32px" }}>
                         <button
                           onClick={() => updateQty(item.id, item.quantity - 1)}
                           style={{
-                            padding: "0.25rem 0.6rem",
-                            background: "#ffffff",
+                            width: "32px",
+                            height: "100%",
+                            background: "#1E5DA7",
+                            color: "#ffffff",
                             border: "none",
                             cursor: "pointer",
-                            fontSize: "0.9rem",
+                            fontSize: "1rem",
                             fontWeight: "bold",
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            padding: 0
                           }}
                         >
                           -
@@ -257,27 +289,32 @@ export default function CartPage() {
                             }
                           }}
                           style={{
-                            width: "30px",
-                            borderTop: "none",
-                            borderBottom: "none",
-                            borderLeft: "1px solid #777777",
-                            borderRight: "1px solid #777777",
+                            width: "40px",
+                            height: "100%",
+                            border: "none",
                             textAlign: "center",
                             fontSize: "0.9rem",
                             padding: 0,
                             outline: "none",
                             background: "#ffffff",
+                            color: "#000000"
                           }}
                         />
                         <button
                           onClick={() => updateQty(item.id, item.quantity + 1)}
                           style={{
-                            padding: "0.25rem 0.6rem",
-                            background: "#ffffff",
+                            width: "32px",
+                            height: "100%",
+                            background: "#1E5DA7",
+                            color: "#ffffff",
                             border: "none",
                             cursor: "pointer",
-                            fontSize: "0.9rem",
+                            fontSize: "1rem",
                             fontWeight: "bold",
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            padding: 0
                           }}
                         >
                           +
@@ -295,25 +332,26 @@ export default function CartPage() {
                   <Link
                     to="/checkout"
                     style={{
-                      background: "#1a5ca3",
+                      background: "#1E5DA7",
                       color: "#ffffff",
                       border: "none",
-                      borderRadius: "20px",
-                      padding: "0.65rem 2.5rem",
-                      fontWeight: "bold",
-                      fontSize: "0.95rem",
+                      borderRadius: "30px",
+                      padding: "0.9rem 4.5rem",
+                      fontWeight: "700",
+                      fontSize: "1.05rem",
                       cursor: "pointer",
                       textTransform: "uppercase",
-                      boxShadow: "0 2px 5px rgba(0,0,0,0.1)",
+                      boxShadow: "0 3px 8px rgba(30, 93, 167, 0.2)",
                       textDecoration: "none",
-                      display: "inline-block"
+                      display: "inline-block",
+                      textAlign: "center"
                     }}
                   >
                     Proceed to checkout
                   </Link>
                 </div>
-                <div style={{ flex: 1, textAlign: "right", fontSize: "1.05rem", fontWeight: "bold", color: "#1a5ca3" }}>
-                  SUBTOTAL: <span style={{ color: "#777777", fontWeight: "normal", marginLeft: "1rem" }}>{subtotal.toLocaleString()}KSh</span>
+                <div style={{ flex: 1, textAlign: "right", fontSize: "1.2rem", fontWeight: "bold", color: "#1E5DA7" }}>
+                  SUBTOTAL: <span style={{ marginLeft: "0.75rem" }}>{subtotal.toLocaleString()}KSh</span>
                 </div>
               </div>
 
@@ -322,132 +360,93 @@ export default function CartPage() {
 
           {/* Upsells Section */}
           <div style={{ marginTop: "4rem" }}>
-            <h2 style={{
-              fontFamily: '"Patrick Hand", cursive',
-              fontSize: "1.8rem",
-              color: "#1a5ca3",
-              borderBottom: "1px solid #eaeaea",
-              paddingBottom: "0.5rem",
-              marginBottom: "2rem",
-              fontWeight: "bold",
-              letterSpacing: "0.02em"
-            }}>
-              YOU MAY BE INTERESTED IN...
-            </h2>
+            <div style={{ borderBottom: "2px solid #eaeaea", marginBottom: "2rem" }}>
+              <h2 style={{
+                fontFamily: "var(--font-sans)",
+                fontSize: "1.45rem",
+                fontWeight: 700,
+                color: "#1E5DA7",
+                paddingBottom: "0.5rem",
+                margin: 0,
+                marginBottom: "-2px",
+                display: "inline-block",
+                borderBottom: "2px solid #1E5DA7",
+                letterSpacing: "0.05em"
+              }}>
+                YOU MAY BE INTERESTED IN...
+              </h2>
+            </div>
 
             <div style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))",
-              gap: "2rem"
+              gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
+              gap: "1.5rem",
+              maxWidth: "560px",
+              marginTop: "1.5rem"
             }}>
               {recommended.map(p => {
                 const isSale = p.competitor_min && Number(p.competitor_min) > Number(p.our_price);
-                const originalPrice = isSale ? Number(p.competitor_min) : null;
-                const salePrice = Number(p.our_price);
+                const added = addedIds[p.id];
 
                 return (
-                  <div
-                    key={p.id}
-                    style={{
-                      background: "#ffffff",
-                      border: "1px solid #eaeaea",
-                      borderRadius: "8px",
-                      padding: "1rem",
-                      display: "flex",
-                      flexDirection: "column",
-                      justifyContent: "space-between",
-                      position: "relative",
-                      textAlign: "center",
-                      boxShadow: "0 2px 8px rgba(0,0,0,0.03)"
-                    }}
-                  >
-                    {/* Sale Badge */}
+                  <div key={p.id} className="product-card">
                     {isSale && (
-                      <span style={{
+                      <span className="sale-badge" style={{
                         position: "absolute",
-                        top: "10px",
-                        right: "10px",
-                        background: "#82a812",
+                        top: "0.5rem",
+                        right: "0.5rem",
+                        background: "#958e09",
                         color: "#ffffff",
                         borderRadius: "50%",
-                        fontSize: "0.75rem",
-                        fontWeight: "bold",
-                        width: "38px",
-                        height: "38px",
+                        width: "40px",
+                        height: "40px",
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "center",
+                        fontSize: "0.85rem",
+                        fontWeight: "600",
+                        boxShadow: "0 2px 5px rgba(0,0,0,0.15)",
                         zIndex: 2
                       }}>
                         Sale!
                       </span>
                     )}
 
-                    {/* Image */}
-                    <Link to={p.slug ? `/product/${p.slug}/` : `/shop/${p.id}`} style={{ textDecoration: "none" }}>
-                      <div style={{
-                        height: "150px",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        marginBottom: "1rem",
-                        background: "#ffffff"
-                      }}>
+                    <Link to={p.slug ? `/product/${p.slug}/` : `/shop/${p.id}`} className="product-card-link">
+                      <div className="product-card-img">
                         {p.image_url ? (
-                          <img src={p.image_url} alt={p.name} style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
+                          <img src={p.image_url} alt={p.name} loading="lazy" />
                         ) : (
-                          <span style={{ fontSize: "2.5rem" }}>🐾</span>
+                          <span className="placeholder-icon" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", height: "120px" }}>
+                            🐾
+                          </span>
                         )}
                       </div>
-
-                      {/* Name */}
-                      <h3 style={{
-                        fontSize: "0.85rem",
-                        fontWeight: 600,
-                        color: "#333",
-                        height: "40px",
-                        overflow: "hidden",
-                        textOverflow: "ellipsis",
-                        display: "-webkit-box",
-                        WebkitLineClamp: 2,
-                        WebkitBoxOrient: "vertical",
-                        lineHeight: "20px",
-                        margin: "0 0 0.5rem 0",
-                        textDecoration: "none"
-                      }}>
-                        {p.name}
-                      </h3>
+                      <div className="product-card-body">
+                        <div className="product-name" title={p.name}>{p.name}</div>
+                        <div className="product-price">
+                          {isSale ? (
+                            <>
+                              <span style={{ textDecoration: "line-through", textDecorationColor: "#807e7e", color: "#807e7e", fontSize: "0.85rem", marginRight: "0.5rem", fontWeight: "bold" }}>
+                                {Number(p.competitor_min).toLocaleString()}KSh
+                              </span>
+                              <span style={{ color: "#ef4444" }}>
+                                {Number(p.our_price).toLocaleString()}KSh
+                              </span>
+                            </>
+                          ) : (
+                            <span style={{ color: "#ef4444" }}>
+                              {Number(p.our_price).toLocaleString()}KSh
+                            </span>
+                          )}
+                        </div>
+                      </div>
                     </Link>
-
-                    {/* Price display */}
-                    <div style={{ marginBottom: "1rem" }}>
-                      {originalPrice && (
-                        <span style={{ textDecoration: "line-through", color: "#888888", marginRight: "0.5rem", fontSize: "0.9rem" }}>
-                          {originalPrice.toLocaleString()}KSh
-                        </span>
-                      )}
-                      <span style={{ color: "#ef4444", fontWeight: "bold", fontSize: "0.95rem" }}>
-                        {salePrice.toLocaleString()}KSh
-                      </span>
-                    </div>
-
-                    {/* Add to Cart button */}
                     <button
+                      className={`add-to-cart-btn ${added ? "added" : ""}`}
                       onClick={() => handleAddToCart(p)}
-                      style={{
-                        background: "#1a5ca3",
-                        color: "#ffffff",
-                        border: "none",
-                        borderRadius: "20px",
-                        padding: "0.5rem 1rem",
-                        fontWeight: "600",
-                        fontSize: "0.8rem",
-                        cursor: "pointer",
-                        textTransform: "uppercase",
-                        transition: "background 0.2s"
-                      }}
                     >
-                      {addedIds[p.id] ? "✓ Added" : "Add To Cart"}
+                      {added ? "✓ Added" : "Add To Cart"}
                     </button>
                   </div>
                 );

@@ -8,10 +8,10 @@ import Footer from "../components/Footer";
 import { DogIcon, CatIcon, BoneIcon, DropletIcon } from "../components/CategoryIcon";
 
 export function meta({ data }: Route.MetaArgs): Route.MetaDescriptors {
-  const title = data?.pageTitle ? `${data.pageTitle} — PetStore Kenya` : "Shop Pet Food — PetStore Kenya";
+  const title = data?.pageTitle ? `${data.pageTitle} - PetStore Kenya` : "Products - PetStore Kenya";
   return [
     { title },
-    { name: "description", content: `Browse all ${data?.pageTitle || "pet food"} products at PetStore Kenya — always cheaper than Naivas, Carrefour & Quickmart.` }
+    { name: "description", content: `Browse all ${data?.pageTitle || "pet food"} products at PetStore Kenya - always cheaper than Naivas, Carrefour & Quickmart.` }
   ];
 }
 
@@ -64,9 +64,7 @@ export const RABBIT_CATEGORIES = [
   { label: "Rabbit Food & Supplies", slug: "rabbit-supplies-store" }
 ];
 
-export const FISH_CATEGORIES = [
-  { label: "Fish Food & Treats", slug: "fish-food-treats" }
-];
+export const FISH_CATEGORIES: { label: string; slug: string }[] = [];
 
 export const ANIMAL_CATEGORIES: Record<string, { label: string; slug: string }[]> = {
   cat: CAT_CATEGORIES,
@@ -76,6 +74,8 @@ export const ANIMAL_CATEGORIES: Record<string, { label: string; slug: string }[]
   fish: FISH_CATEGORIES
 };
 
+let cachedCategories: any[] | null = null;
+
 export async function loader({ request, params }: Route.LoaderArgs) {
   const url = new URL(request.url);
   const routeParams = params as any;
@@ -84,28 +84,35 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   const hideFilter = url.searchParams.get("hideFilter") === "true" || isTagPage;
 
   let animal = url.searchParams.get("animal") || "";
-  let type   = url.searchParams.get("type")   || "";
+  let type = url.searchParams.get("type") || "";
   const urlSearch = url.searchParams.get("q") || "";
-  let brand  = url.searchParams.get("brand")   || "";
-  const limit  = Number(url.searchParams.get("limit")) || 24;
-  const sort   = url.searchParams.get("sort") || "availability";
+  let brand = url.searchParams.get("brand") || "";
+  const fromCat = url.searchParams.get("from_cat") || "";
+  const fromBrand = url.searchParams.get("from_brand") || "";
+  const crossSlug = fromCat || fromBrand;
+  const lifeStage = url.searchParams.get("life_stage") || "";
+  const offerSort = url.searchParams.get("offer_sort") || "";
+  const urlLimit = url.searchParams.get("limit") || "";
+  const limit = urlLimit ? Number(urlLimit) : 72;
+  const sort = url.searchParams.get("sort") || offerSort || "availability";
 
   let search = urlSearch;
   let categorySlug = "";
   let tagSlug = "";
 
-  const fs = await import("fs");
-  const path = await import("path");
-
-  const categoriesPath = path.join(process.cwd(), "content", "categories", "_index.json");
-  let categories: any[] = [];
-  if (fs.existsSync(categoriesPath)) {
-    try {
-      categories = JSON.parse(fs.readFileSync(categoriesPath, "utf-8"));
-    } catch (e) {
-      console.error("Error reading categories index", e);
+  if (!cachedCategories) {
+    const fs = await import("fs");
+    const path = await import("path");
+    const categoriesPath = path.join(process.cwd(), "content", "categories", "_index.json");
+    if (fs.existsSync(categoriesPath)) {
+      try {
+        cachedCategories = JSON.parse(fs.readFileSync(categoriesPath, "utf-8"));
+      } catch (e) {
+        console.error("Error reading categories index", e);
+      }
     }
   }
+  const categories = cachedCategories || [];
 
   const getDescendants = (slugStr: string): string[] => {
     const target = categories.find(c => c.slug === slugStr);
@@ -127,7 +134,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     const sidebarSlugs = new Set(
       Object.values(ANIMAL_CATEGORIES).flatMap(arr => arr.map(c => c.slug))
     );
-    
+
     let current = categories.find(c => c.slug === slugStr);
     while (current) {
       if (sidebarSlugs.has(current.slug)) {
@@ -164,7 +171,9 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   }
 
   let pageTitle = "All Pet Food";
-  if (slug) {
+  if (urlSearch) {
+    pageTitle = `Search Results for "${urlSearch}"`;
+  } else if (slug) {
     if (isTagPage) {
       pageTitle = canonicalSlug.split("-").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
     } else {
@@ -195,29 +204,94 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     else if (animal === "cat") pageTitle = "Cat";
     else if (type === "treat") pageTitle = "Treats";
     else if (type === "wet") pageTitle = "Wet Food";
+    else if (type === "on-sale") pageTitle = "On Sale Now";
+  }
+
+  if (crossSlug) {
+    let crossTitle = "";
+    const matchedCross = CAT_CATEGORIES.find(c => c.slug === crossSlug) || DOG_CATEGORIES.find(c => c.slug === crossSlug);
+    const dbCross = categories.find(c => c.slug === crossSlug);
+    if (matchedCross) {
+      crossTitle = matchedCross.label;
+    } else if (dbCross) {
+      crossTitle = dbCross.name;
+    } else {
+      crossTitle = crossSlug.split("-").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+    }
+    if (crossTitle) {
+      pageTitle = `${pageTitle} & ${crossTitle}`;
+    }
+  }
+
+  // Handle special promo/offer types
+  const originalType = type;
+  let isBulkFilter = false;
+  let isOffersFilter = false;
+
+  if (type === "on-sale") {
+    categorySlug = "sale";
+    type = "";
+    pageTitle = "On Sale Now";
+  } else if (type === "clearance") {
+    categorySlug = "clearance";
+    type = "";
+    pageTitle = "Clearance";
+  } else if (type === "bundles") {
+    categorySlug = "bundles";
+    type = "";
+    pageTitle = "Bundles";
+  } else if (type === "bulk") {
+    isBulkFilter = true;
+    type = "";
+    pageTitle = "Bulk Items";
+  } else if (type === "offer" || type === "offers") {
+    isOffersFilter = true;
+    type = "";
+    pageTitle = "Offers";
   }
 
   const conditions: string[] = [];
   const sqlParams: any[] = [];
 
   const explicitAnimal = url.searchParams.get("animal") || "";
-  const queryAnimal = categorySlug ? explicitAnimal : animal;
+  let queryAnimal = categorySlug ? explicitAnimal : animal;
+  if (sort === "psk_pet_dog") {
+    queryAnimal = "dog";
+  } else if (sort === "psk_pet_cat") {
+    queryAnimal = "cat";
+  }
 
-  if (queryAnimal) { 
-    sqlParams.push(queryAnimal); 
-    conditions.push(`p.animal_type = $${sqlParams.length}`); 
+  if (queryAnimal) {
+    sqlParams.push(queryAnimal);
+    conditions.push(`p.animal_type = $${sqlParams.length}`);
   }
-  if (type) { 
-    sqlParams.push(type);   
-    conditions.push(`p.food_type = $${sqlParams.length}`); 
+  if (type && type !== "on-sale") {
+    sqlParams.push(type);
+    conditions.push(`p.food_type = $${sqlParams.length}`);
   }
-  if (search) { 
-    sqlParams.push(`%${search.toLowerCase()}%`); 
-    conditions.push(`LOWER(p.name) LIKE $${sqlParams.length}`); 
+  if (isBulkFilter) {
+    conditions.push(`(p.weight_kg >= 10 OR LOWER(p.name) LIKE '%bundle%' OR LOWER(p.name) LIKE '%pack%')`);
+  } else if (isOffersFilter) {
+    conditions.push(`(
+      EXISTS (
+        SELECT 1 
+        FROM jsonb_to_recordset(p.categories) AS x(slug text)
+        WHERE x.slug IN ('sale', 'clearance', 'bundles')
+      )
+    )`);
   }
-  if (brand) { 
-    sqlParams.push(brand);  
-    conditions.push(`LOWER(p.brand) = LOWER($${sqlParams.length})`); 
+  if (search) {
+    sqlParams.push(`%${search.toLowerCase()}%`);
+    conditions.push(`LOWER(p.name) LIKE $${sqlParams.length}`);
+  }
+  if (brand) {
+    sqlParams.push(brand);
+    conditions.push(`LOWER(p.brand) = LOWER($${sqlParams.length})`);
+  }
+
+  if (lifeStage) {
+    const paramIdx = sqlParams.push(JSON.stringify([{ slug: lifeStage }]));
+    conditions.push(`p.tags @> $${paramIdx}::jsonb`);
   }
 
   if (isTagPage && tagSlug) {
@@ -235,15 +309,44 @@ export async function loader({ request, params }: Route.LoaderArgs) {
         WHERE x.slug = ANY($${sqlParams.length}::text[])
       )
     `);
+
+    if (crossSlug) {
+      const crossDescendantSlugs = getDescendants(crossSlug);
+      const paramIdx1 = sqlParams.push(crossDescendantSlugs);
+      const paramIdx2 = sqlParams.push(crossSlug);
+      conditions.push(`
+        (
+          (
+            p.categories IS NOT NULL 
+            AND jsonb_typeof(p.categories) = 'array' 
+            AND EXISTS (
+              SELECT 1 
+              FROM jsonb_to_recordset(p.categories) AS x(slug text)
+              WHERE x.slug = ANY($${paramIdx1}::text[])
+            )
+          )
+          OR LOWER(p.brand) = LOWER($${paramIdx2})
+        )
+      `);
+    }
   }
 
   const where = conditions.length ? `WHERE ${conditions.join(" AND ")}` : "";
 
   let orderBy = "(COALESCE(MIN(comp.price), 0) - bbp.price) DESC, p.name";
-  if (sort === "price-asc") {
+  if (sort === "price-asc" || sort === "price_asc") {
     orderBy = "bbp.price ASC, p.name";
-  } else if (sort === "price-desc") {
+  } else if (sort === "price-desc" || sort === "price_desc") {
     orderBy = "bbp.price DESC, p.name";
+  } else if (sort === "expiry-desc" || sort === "expiry_desc") {
+    orderBy = "p.created_at DESC, p.name";
+  } else if (sort === "expiry-asc" || sort === "expiry_asc") {
+    orderBy = "p.created_at ASC, p.name";
+  }
+
+  let havingClause = "";
+  if (type === "on-sale") {
+    havingClause = "HAVING MIN(comp.price) > bbp.price";
   }
 
   const res = await query(`
@@ -257,6 +360,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     ${where}
     -- category_slug: ${categorySlug}
     GROUP BY p.id, p.name, p.brand, p.weight_kg, p.animal_type, p.food_type, p.image_url, p.slug, bbp.price
+    ${havingClause}
     ORDER BY ${orderBy}
   `, sqlParams);
 
@@ -268,31 +372,38 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   const startIndex = (currentPage - 1) * limit;
   const productsToShow = allProducts.slice(startIndex, startIndex + limit);
 
-  return { 
-    products: productsToShow, 
-    totalResults, 
+  return {
+    products: productsToShow,
+    totalResults,
     totalPages,
     currentPage,
-    animal, 
-    type, 
-    urlSearch, 
-    pageTitle, 
-    slug, 
-    brand, 
-    limit, 
+    startIndex,
+    animal,
+    type: originalType,
+    urlSearch,
+    pageTitle,
+    slug,
+    brand,
+    limit,
+    urlLimit,
     sort,
     hideFilter,
     isTag: isTagPage,
-    activeSidebarSlug: categorySlug ? getActiveSidebarSlug(categorySlug) : ""
+    isSearch: !!urlSearch,
+    activeSidebarSlug: categorySlug ? getActiveSidebarSlug(categorySlug) : "",
+    fromCat,
+    fromBrand,
+    lifeStage,
+    offerSort
   };
 }
 
 const FILTERS = [
-  { label: "All",       iconType: "all",    animal: "",    type: "" },
-  { label: "Dogs",      iconType: "dog",    animal: "dog", type: "" },
-  { label: "Cats",      iconType: "cat",    animal: "cat", type: "" },
-  { label: "Treats",    iconType: "treat",  animal: "",    type: "treat" },
-  { label: "Wet",       iconType: "wet",    animal: "",    type: "wet" },
+  { label: "All", iconType: "all", animal: "", type: "" },
+  { label: "Dogs", iconType: "dog", animal: "dog", type: "" },
+  { label: "Cats", iconType: "cat", animal: "cat", type: "" },
+  { label: "Treats", iconType: "treat", animal: "", type: "treat" },
+  { label: "Wet", iconType: "wet", animal: "", type: "wet" },
 ];
 
 function getBreadcrumbs(slug: string, animal: string, brand?: string, isTag?: boolean) {
@@ -384,16 +495,16 @@ function ProductCard({ p, animal }: { p: any; animal: string }) {
           position: "absolute",
           top: "0.5rem",
           right: "0.5rem",
-          background: "#84cc16",
+          background: "#958e09",
           color: "#ffffff",
           borderRadius: "50%",
-          width: "38px",
-          height: "38px",
+          width: "40px",
+          height: "40px",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          fontSize: "0.7rem",
-          fontWeight: 700,
+          fontSize: "0.85rem",
+          fontWeight: "600",
           boxShadow: "0 2px 5px rgba(0,0,0,0.15)",
           zIndex: 2
         }}>
@@ -417,7 +528,7 @@ function ProductCard({ p, animal }: { p: any; animal: string }) {
           <div className="product-price">
             {isOnSale ? (
               <>
-                <span style={{ textDecoration: "line-through", color: "#94a3b8", fontSize: "0.85rem", marginRight: "0.5rem", fontWeight: "normal" }}>
+                <span style={{ textDecoration: "line-through", textDecorationColor: "#807e7e", color: "#807e7e", fontSize: "0.85rem", marginRight: "0.5rem", fontWeight: "bold" }}>
                   {Number(p.competitor_min).toLocaleString()}KSh
                 </span>
                 <span style={{ color: "#ef4444" }}>
@@ -440,33 +551,48 @@ function ProductCard({ p, animal }: { p: any; animal: string }) {
 }
 
 export default function Shop() {
-  const { 
-    products, 
-    totalResults, 
+  const {
+    products,
+    totalResults,
     totalPages,
     currentPage,
-    animal, 
-    type, 
-    urlSearch, 
-    pageTitle, 
-    slug, 
-    brand, 
-    limit, 
+    startIndex,
+    animal,
+    type,
+    urlSearch,
+    pageTitle,
+    slug,
+    brand,
+    limit,
+    urlLimit,
     sort,
     hideFilter,
     isTag,
-    activeSidebarSlug
+    isSearch,
+    activeSidebarSlug,
+    fromCat,
+    fromBrand,
+    lifeStage,
+    offerSort
   } = useLoaderData<typeof loader>();
   const navigate = useNavigate();
   const [searchVal, setSearchVal] = useState(urlSearch);
+  const [notified, setNotified] = useState(false);
+
+  const isClearancePage = pageTitle.toLowerCase() === "clearance" || slug.toLowerCase() === "clearance";
+  const isOfferPage = isClearancePage || slug === "sale" || slug === "bundles" || type === "offer" || type === "offers" || slug === "flash-sale";
 
   function buildPageHref(pageNumber: number) {
     const p = new URLSearchParams();
     if (brand) p.set("brand", brand);
-    if (limit) p.set("limit", String(limit));
+    if (urlLimit) p.set("limit", urlLimit);
     if (sort) p.set("sort", sort);
     if (urlSearch) p.set("q", urlSearch);
     if (hideFilter) p.set("hideFilter", "true");
+    if (fromCat) p.set("from_cat", fromCat);
+    if (fromBrand) p.set("from_brand", fromBrand);
+    if (lifeStage) p.set("life_stage", lifeStage);
+    if (offerSort) p.set("offer_sort", offerSort);
     if (pageNumber > 1) p.set("page", String(pageNumber));
 
     const queryStr = p.toString() ? "?" + p.toString() : "";
@@ -478,17 +604,21 @@ export default function Shop() {
     return `/shop${p.toString() ? "?" + p.toString() : ""}`;
   }
 
-  function buildCategoryHref(newBrand: string, newLimit?: number, newSort?: string) {
+  function buildCategoryHref(newBrand: string, newLimit?: string, newSort?: string) {
     const p = new URLSearchParams();
     const activeBrand = newBrand !== undefined ? newBrand : brand;
-    const activeLimit = newLimit !== undefined ? newLimit : limit;
+    const activeLimit = newLimit !== undefined ? newLimit : urlLimit;
     const activeSort = newSort !== undefined ? newSort : sort;
 
     if (activeBrand) p.set("brand", activeBrand);
-    if (activeLimit) p.set("limit", String(activeLimit));
+    if (activeLimit) p.set("limit", activeLimit);
     if (activeSort) p.set("sort", activeSort);
     if (urlSearch) p.set("q", urlSearch);
     if (hideFilter) p.set("hideFilter", "true");
+    if (fromCat) p.set("from_cat", fromCat);
+    if (fromBrand) p.set("from_brand", fromBrand);
+    if (lifeStage) p.set("life_stage", lifeStage);
+    if (offerSort) p.set("offer_sort", offerSort);
 
     const queryStr = p.toString() ? "?" + p.toString() : "";
     if (slug) {
@@ -503,16 +633,20 @@ export default function Shop() {
     e.preventDefault();
     const p = new URLSearchParams();
     if (brand) p.set("brand", brand);
-    if (limit) p.set("limit", String(limit));
+    if (urlLimit) p.set("limit", urlLimit);
     if (sort) p.set("sort", sort);
     if (searchVal.trim()) p.set("q", searchVal.trim());
     if (hideFilter) p.set("hideFilter", "true");
-    
+    if (fromCat) p.set("from_cat", fromCat);
+    if (fromBrand) p.set("from_brand", fromBrand);
+    if (lifeStage) p.set("life_stage", lifeStage);
+    if (offerSort) p.set("offer_sort", offerSort);
+
     if (slug) {
       navigate(isTag ? `/product-tag/${slug}/${p.toString() ? "?" + p.toString() : ""}` : `/product-category/${slug}/${p.toString() ? "?" + p.toString() : ""}`);
     } else {
       if (animal) p.set("animal", animal);
-      if (type)   p.set("type", type);
+      if (type) p.set("type", type);
       navigate(`/shop${p.toString() ? "?" + p.toString() : ""}`);
     }
   }
@@ -521,14 +655,18 @@ export default function Shop() {
     setSearchVal("");
     const p = new URLSearchParams();
     if (brand) p.set("brand", brand);
-    if (limit) p.set("limit", String(limit));
+    if (urlLimit) p.set("limit", urlLimit);
     if (sort) p.set("sort", sort);
     if (hideFilter) p.set("hideFilter", "true");
+    if (fromCat) p.set("from_cat", fromCat);
+    if (fromBrand) p.set("from_brand", fromBrand);
+    if (lifeStage) p.set("life_stage", lifeStage);
+    if (offerSort) p.set("offer_sort", offerSort);
     if (slug) {
       navigate(isTag ? `/product-tag/${slug}/${p.toString() ? "?" + p.toString() : ""}` : `/product-category/${slug}/${p.toString() ? "?" + p.toString() : ""}`);
     } else {
       if (animal) p.set("animal", animal);
-      if (type)   p.set("type", type);
+      if (type) p.set("type", type);
       navigate(`/shop${p.toString() ? "?" + p.toString() : ""}`);
     }
   }
@@ -540,7 +678,8 @@ export default function Shop() {
     <>
       <Navbar />
       {hideFilter && (
-        <style dangerouslySetInnerHTML={{ __html: `
+        <style dangerouslySetInnerHTML={{
+          __html: `
           @media (min-width: 1025px) {
             .shop-layout .product-grid {
               grid-template-columns: repeat(5, 1fr) !important;
@@ -554,10 +693,10 @@ export default function Shop() {
         `}} />
       )}
       <div className="page" style={{ paddingTop: "2.5rem" }}>
-        
+
         {/* Main Grid Layout with sidebar */}
         <div className="shop-layout">
-          
+
           {/* Sidebar */}
           {!hideFilter && (
             <aside className="shop-sidebar">
@@ -569,9 +708,9 @@ export default function Shop() {
                       const normSlug = slug ? slug.toLowerCase().replace(/\/$/, "") : "";
                       const isActive = normSlug === c.slug || activeSidebarSlug === c.slug;
                       return (
-                        <li key={c.slug} style={{ margin: "6px 0" }}>
-                          <Link 
-                            to={`/product-category/${c.slug}/`} 
+                        <li key={c.slug}>
+                          <Link
+                            to={`/product-category/${c.slug}/`}
                             className={isActive ? "active-brand" : ""}
                           >
                             {c.label}
@@ -607,9 +746,9 @@ export default function Shop() {
 
           {/* Main Content Area */}
           <main className="shop-main">
-            
+
             {/* Page Title */}
-            <h1 className="shop-page-title">{pageTitle}</h1>
+            <h1 className={`shop-page-title ${isSearch ? "search-results-title" : ""}`}>{pageTitle}</h1>
 
             {/* Breadcrumbs */}
             <div className="breadcrumb-container" style={{ marginTop: "0.5rem", marginBottom: "1rem" }}>
@@ -625,22 +764,112 @@ export default function Shop() {
               ))}
             </div>
 
+            {/* Clearance Disclaimer & Sign up Form */}
+            {isClearancePage && (
+              <div className="clearance-container" style={{ marginBottom: "2rem" }}>
+                {/* Red Bold Disclaimer */}
+                <div style={{
+                  color: "#ef4444",
+                  fontWeight: "bold",
+                  fontSize: "0.95rem",
+                  lineHeight: "1.5",
+                  marginBottom: "1rem"
+                }}>
+                  CLEARANCE OFFERS ARE EXCLUSIVE TO OUR ONLINE STORE. NO COUPONS OR ADDITIONAL DISCOUNTS MAY BE APPLIED. NO EXCHANGES. WHILE SUPPLIES LAST.
+                </div>
+
+                {/* Description */}
+                <div style={{
+                  color: "#334155",
+                  fontSize: "0.9rem",
+                  lineHeight: "1.6",
+                  marginBottom: "1.5rem"
+                }}>
+                  <strong>DEFECT / DAMAGED PACKAGE:</strong> [CAT LITTER ONLY] product intact with slight defect on packaging (e.g. slightly ripped bag) that does not affect the quality of the enclosed product. <strong>SHORT EXPIRY:</strong> expiration of product is within THREE months.
+                </div>
+
+                {/* Newsletter / Sign up Card */}
+                <div style={{
+                  border: "1px solid #e2e8f0",
+                  borderRadius: "8px",
+                  padding: "1.5rem",
+                  background: "#f8fafc",
+                  marginBottom: "1.5rem"
+                }}>
+                  <h3 style={{
+                    color: "#1053a0",
+                    fontSize: "1.2rem",
+                    fontWeight: "600",
+                    margin: "0 0 1rem 0"
+                  }}>
+                    Sign up to receive our weekly clearance products
+                  </h3>
+                  {notified ? (
+                    <div style={{ color: "#16a34a", fontWeight: "600", fontSize: "0.95rem" }}>
+                      ✓ Thank you! You will be notified of weekly clearance products.
+                    </div>
+                  ) : (
+                    <form style={{ display: "flex", gap: "0.75rem" }} onSubmit={e => { e.preventDefault(); setNotified(true); }}>
+                      <input
+                        type="email"
+                        placeholder="Enter your email"
+                        required
+                        style={{
+                          flex: 1,
+                          padding: "0.75rem 1rem",
+                          borderRadius: "6px",
+                          border: "1px solid #cbd5e1",
+                          fontSize: "0.95rem",
+                          outline: "none"
+                        }}
+                      />
+                      <button
+                        type="submit"
+                        style={{
+                          background: "#1053a0",
+                          color: "#ffffff",
+                          padding: "0.75rem 1.5rem",
+                          borderRadius: "6px",
+                          border: "none",
+                          fontWeight: "600",
+                          fontSize: "0.95rem",
+                          cursor: "pointer",
+                          transition: "background 0.2s"
+                        }}
+                        onMouseOver={e => e.currentTarget.style.background = "#0c3f7a"}
+                        onMouseOut={e => e.currentTarget.style.background = "#1053a0"}
+                      >
+                        Notify Me
+                      </button>
+                    </form>
+                  )}
+                </div>
+              </div>
+            )}
+
             {/* Shop Toolbar */}
             <div className="shop-toolbar">
               <div className="toolbar-left">
-                <span className="results-count">Showing all {totalResults} results</span>
-                
+                <span className="results-count">
+                  {totalResults > limit ? (
+                    `Showing ${startIndex + 1}–${Math.min(startIndex + limit, totalResults)} of ${totalResults} results`
+                  ) : (
+                    `Showing all ${totalResults} results`
+                  )}
+                </span>
+
                 {/* Products per page select */}
                 <div className="paging-control">
                   <span>Products per page:</span>
-                  <select 
-                    value={limit || 24} 
+                  <select
+                    value={urlLimit}
                     onChange={e => {
-                      const val = Number(e.target.value) || 24;
+                      const val = e.target.value;
                       navigate(buildCategoryHref(brand, val, sort));
                     }}
                     className="paging-select"
                   >
+                    <option value="">-- Select --</option>
                     <option value="12">12</option>
                     <option value="24">24</option>
                     <option value="48">48</option>
@@ -652,12 +881,24 @@ export default function Shop() {
               {/* Sorting dropdown */}
               <select
                 value={sort}
-                onChange={e => navigate(buildCategoryHref(brand, limit, e.target.value))}
+                onChange={e => navigate(buildCategoryHref(brand, urlLimit, e.target.value))}
                 className="sorting-select"
               >
                 <option value="availability">AVAILABILITY</option>
                 <option value="price-asc">SORT BY PRICE: LOW TO HIGH</option>
                 <option value="price-desc">SORT BY PRICE: HIGH TO LOW</option>
+                {isOfferPage && (
+                  <>
+                    <option value="expiry-asc">SORT BY EXPIRY: OLD TO NEW</option>
+                    <option value="expiry-desc">SORT BY EXPIRY: NEW TO OLD</option>
+                  </>
+                )}
+                {(!animal || isSearch) && (
+                  <>
+                    <option value="psk_pet_dog">FILTER BY PET: DOG</option>
+                    <option value="psk_pet_cat">FILTER BY PET: CAT</option>
+                  </>
+                )}
               </select>
             </div>
 
@@ -692,7 +933,7 @@ export default function Shop() {
                           </span>
                         );
                       }
-                      
+
                       const isCurrent = p === currentPage;
                       return (
                         <Link

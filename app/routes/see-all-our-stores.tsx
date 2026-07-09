@@ -5,7 +5,7 @@ import PageHeader from "../components/PageHeader";
 
 export function meta() {
   return [
-    { title: "Locations — PetStore Kenya" },
+    { title: "Locations - PetStore Kenya" },
     { name: "description", content: "Visit one of our convenient PetStore Kenya locations across Nairobi and Mombasa for premium dog food, cat food, and accessories." },
   ];
 }
@@ -65,7 +65,6 @@ export default function SeeAllOurStores() {
         
         .map-wrapper {
           width: 100%;
-          border-radius: 12px;
           overflow: hidden;
           box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
           border: 1px solid rgba(0, 0, 0, 0.08);
@@ -75,9 +74,10 @@ export default function SeeAllOurStores() {
 
         .map-iframe {
           width: 100%;
-          height: 480px;
+          height: 540px;
           border: 0;
           display: block;
+          margin-top: -60px;
         }
 
         .stores-grid {
@@ -103,7 +103,7 @@ export default function SeeAllOurStores() {
             grid-template-columns: 1fr;
           }
           .map-iframe {
-            height: 350px;
+            height: 410px;
           }
         }
 

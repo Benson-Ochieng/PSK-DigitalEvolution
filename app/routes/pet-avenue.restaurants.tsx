@@ -4,7 +4,7 @@ import PageHeader from "../components/PageHeader";
 
 export function meta() {
   return [
-    { title: "Pet-Friendly Places & Restaurants — PetStore Kenya" },
+    { title: "Pet-Friendly Places & Restaurants - PetStore Kenya" },
     { name: "description", content: "Explore a list of pet-friendly places in Kenya, including hotels, campgrounds, outdoor stays, parks, and dining options where pets are welcome." },
   ];
 }

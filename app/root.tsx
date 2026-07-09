@@ -13,6 +13,8 @@ import "./app.css";
 import { CartProvider } from "./context/cart";
 import { CartDrawer, CheckoutModal } from "./components/CheckoutModal";
 import CommunicationBooth from "./components/CommunicationBooth";
+import GoogleReviewsPopup from "./components/GoogleReviewsPopup";
+import PurchaseNotificationPopup from "./components/PurchaseNotificationPopup";
 
 export const links: Route.LinksFunction = () => [
   {
@@ -24,7 +26,7 @@ export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
   {
     rel: "stylesheet",
-    href: "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Patrick+Hand&display=swap",
+    href: "https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&family=Patrick+Hand&display=swap",
   },
   {
     rel: "stylesheet",
@@ -50,9 +52,29 @@ export function Layout({ children }: { children: React.ReactNode }) {
   );
 }
 
+import { useEffect } from "react";
+
 export default function App() {
   const navigation = useNavigation();
   const isLoading = navigation.state === "loading";
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const faviconLink = document.querySelector("link[rel='icon']") as HTMLLinkElement;
+    if (!faviconLink) return;
+
+    if (isLoading) {
+      const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32"><circle cx="16" cy="16" r="12" fill="rgba(0,0,0,0.2)"/><g fill="#ffffff"><circle cx="16" cy="8" r="2.8"/><circle cx="21.66" cy="10.34" r="2.4" opacity="0.8"/><circle cx="24" cy="16" r="2.0" opacity="0.5"/><circle cx="21.66" cy="21.66" r="1.6" opacity="0.2"/><animateTransform attributeName="transform" type="rotate" from="0 16 16" to="360 16 16" dur="0.8s" repeatCount="indefinite"/></g></svg>`;
+      const base64Svg = btoa(svgContent);
+      faviconLink.href = `data:image/svg+xml;base64,${base64Svg}`;
+    } else {
+      faviconLink.href = "/images/cropped-petstore-kenya-favicon-512x512-blue-background-192x192.png";
+    }
+
+    return () => {
+      faviconLink.href = "/images/cropped-petstore-kenya-favicon-512x512-blue-background-192x192.png";
+    };
+  }, [isLoading]);
 
   return (
     <CartProvider>
@@ -61,6 +83,8 @@ export default function App() {
       <CartDrawer />
       <CheckoutModal />
       <CommunicationBooth />
+      <GoogleReviewsPopup />
+      <PurchaseNotificationPopup />
     </CartProvider>
   );
 }

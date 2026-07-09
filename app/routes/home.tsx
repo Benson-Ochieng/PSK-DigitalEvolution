@@ -59,8 +59,32 @@ function ProductCard({ p }: { p: any }) {
     setTimeout(() => setAdded(false), 1500);
   }
 
+  const isOnSale = p.competitor_min && Number(p.competitor_min) > Number(p.our_price);
+
   return (
     <div className="product-card">
+      {isOnSale && (
+        <span className="sale-badge" style={{
+          position: "absolute",
+          top: "0.5rem",
+          right: "0.5rem",
+          background: "#958e09",
+          color: "#ffffff",
+          borderRadius: "50%",
+          width: "40px",
+          height: "40px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          fontSize: "0.85rem",
+          fontWeight: "600",
+          boxShadow: "0 2px 5px rgba(0,0,0,0.15)",
+          zIndex: 2
+        }}>
+          Sale!
+        </span>
+      )}
+
       <Link to={`/product/${p.slug}/`} className="product-card-link">
         <div className="product-card-img">
           {p.image_url ? (
@@ -71,7 +95,22 @@ function ProductCard({ p }: { p: any }) {
         </div>
         <div className="product-card-body">
           <div className="product-name" title={p.name}>{p.name}</div>
-          <div className="product-price">{Number(p.our_price).toLocaleString()}KSh</div>
+          <div className="product-price">
+            {isOnSale ? (
+              <>
+                <span style={{ textDecoration: "line-through", textDecorationColor: "#807e7e", color: "#807e7e", fontSize: "0.85rem", marginRight: "0.5rem", fontWeight: "bold" }}>
+                  {Number(p.competitor_min).toLocaleString()}KSh
+                </span>
+                <span style={{ color: "#ef4444" }}>
+                  {Number(p.our_price).toLocaleString()}KSh
+                </span>
+              </>
+            ) : (
+              <span style={{ color: "#ef4444" }}>
+                {Number(p.our_price).toLocaleString()}KSh
+              </span>
+            )}
+          </div>
         </div>
       </Link>
       <button className={`add-to-cart-btn ${added ? "added" : ""}`} onClick={handleAdd}>
@@ -182,13 +221,13 @@ export default function Home() {
           </div>
           {visibleCount < featured.length && (
             <div style={{ marginTop: "2.5rem", textAlign: "center" }}>
-              <button
-                onClick={() => setVisibleCount((prev) => prev + 10)}
+              <Link
+                to="/product-tag/new-arrivals"
                 className="btn-blue"
-                style={{ padding: "0.6rem 2.5rem", textTransform: "uppercase", fontSize: "0.8rem" }}
+                style={{ display: "inline-block", padding: "0.6rem 2.5rem", textTransform: "capitalize", fontSize: "15px", textDecoration: "none" }}
               >
                 Load More
-              </button>
+              </Link>
             </div>
           )}
         </section>

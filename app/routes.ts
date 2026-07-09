@@ -37,7 +37,7 @@ const routes = [
   route("product/:slug", "routes/product.$slug.tsx"),
   route("flash-sale", "routes/flash-sale.tsx"),
   route("product-tag/new-arrivals", "routes/new-arrivals.tsx"),
-  route("my-account", "routes/my-account.tsx"),
+  route("my-account/:subpath?", "routes/my-account.tsx"),
   route("cart", "routes/cart.tsx"),
   route("checkout", "routes/checkout.tsx"),
   route("trust", "routes/trust.tsx"),
@@ -52,6 +52,7 @@ const routes = [
   route("see-all-our-stores", "routes/see-all-our-stores.tsx"),
   route("retail-locations-nairobi-nanyuki-naivasha-nakuru-mombasa", "routes/retail-locations.tsx"),
   route("blog", "routes/blog.tsx"),
+  route("blog/:slug", "routes/blog.$slug.tsx"),
   route("pet-avenue", "routes/pet-avenue.tsx"),
   route("pet-avenue/veterinary-care", "routes/pet-avenue.vets.tsx"),
   route("pet-avenue/boarding-facilities", "routes/pet-avenue.boarding.tsx"),
@@ -61,6 +62,7 @@ const routes = [
   // API
   route("api/order", "routes/api.order.ts"),
   route("api/search", "routes/api.search.ts"),
+  route("api/google-reviews", "routes/api.google-reviews.ts"),
 
   // Catch-all category page route
   route(":slug", "routes/catch-all-category.tsx"),

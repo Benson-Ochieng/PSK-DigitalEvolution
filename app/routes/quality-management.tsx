@@ -5,7 +5,7 @@ import PageHeader from "../components/PageHeader";
 
 export function meta() {
   return [
-    { title: "Quality Management — PetStore Kenya" },
+    { title: "Quality Management - PetStore Kenya" },
     { name: "description", content: "Learn about Lider quality standards and testing procedures for pet food supplied by PetStore Kenya." },
   ];
 }

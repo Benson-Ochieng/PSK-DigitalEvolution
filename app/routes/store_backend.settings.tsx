@@ -62,7 +62,9 @@ export async function loader({ request }: { request: Request }) {
     timeFormat: "g:i a",
     timeFormatCustom: "",
     weekStartsOn: "Monday",
-    lastSyncTime: ""
+    lastSyncTime: "",
+    recaptchaSiteKey: "",
+    recaptchaSecretKey: ""
   };
 
   if (fs.existsSync(settingsPath)) {
@@ -103,6 +105,8 @@ export async function action({ request }: { request: Request }) {
     const timeFormat = formData.get("timeFormat")?.toString() || "g:i a";
     const timeFormatCustom = formData.get("timeFormatCustom")?.toString() || "";
     const weekStartsOn = formData.get("weekStartsOn")?.toString() || "Monday";
+    const recaptchaSiteKey = formData.get("recaptchaSiteKey")?.toString() || "";
+    const recaptchaSecretKey = formData.get("recaptchaSecretKey")?.toString() || "";
 
     const updated = {
       siteTitle,
@@ -119,7 +123,9 @@ export async function action({ request }: { request: Request }) {
       dateFormatCustom,
       timeFormat,
       timeFormatCustom,
-      weekStartsOn
+      weekStartsOn,
+      recaptchaSiteKey,
+      recaptchaSecretKey
     };
 
     const CONTENT_DIR = path.join(process.cwd(), "content");
@@ -780,6 +786,41 @@ export default function VpBackendSettings() {
                     <span>Anyone can register</span>
                   </label>
                   <input type="hidden" name="anyoneCanRegister" value={anyoneCanRegister ? "true" : "false"} />
+                </td>
+              </tr>
+
+              {/* Google reCAPTCHA Site Key */}
+              <tr>
+                <td className="settings-label-cell">
+                  <label htmlFor="recaptchaSiteKey">reCAPTCHA Site Key</label>
+                </td>
+                <td className="settings-input-cell">
+                  <input
+                    type="text"
+                    id="recaptchaSiteKey"
+                    name="recaptchaSiteKey"
+                    defaultValue={settings.recaptchaSiteKey}
+                    placeholder="Enter Google reCAPTCHA v2 Site Key"
+                  />
+                </td>
+              </tr>
+
+              {/* Google reCAPTCHA Secret Key */}
+              <tr>
+                <td className="settings-label-cell">
+                  <label htmlFor="recaptchaSecretKey">reCAPTCHA Secret Key</label>
+                </td>
+                <td className="settings-input-cell">
+                  <input
+                    type="text"
+                    id="recaptchaSecretKey"
+                    name="recaptchaSecretKey"
+                    defaultValue={settings.recaptchaSecretKey}
+                    placeholder="Enter Google reCAPTCHA v2 Secret Key"
+                  />
+                  <div className="input-description">
+                    Used to prevent spam and verify authentication requests on register and login pages. Get keys from the <a href="https://www.google.com/recaptcha/admin" target="_blank" rel="noopener noreferrer" style={{ color: "#00ccff" }}>Google reCAPTCHA Console</a>.
+                  </div>
                 </td>
               </tr>
 

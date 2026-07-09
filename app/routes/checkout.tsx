@@ -6,7 +6,7 @@ import { query } from "../db.server";
 import { useCart } from "../context/cart";
 import PageHeader from "../components/PageHeader";
 
-const SHIPPING_ZONES: Record<string, Record<string, number>> = {
+export const SHIPPING_ZONES: Record<string, Record<string, number>> = {
   "Select a City": {
     "Select your Neighbourhood": 0
   },
@@ -360,7 +360,7 @@ const SHIPPING_ZONES: Record<string, Record<string, number>> = {
   }
 };
 
-const CITIES = Object.keys(SHIPPING_ZONES).filter(c => c !== "Select a City");
+export const CITIES = Object.keys(SHIPPING_ZONES).filter(c => c !== "Select a City");
 
 const STANDARD_NEIGHBOURHOODS = [
   'A.S.K. Showgrounds/Wanye',
@@ -433,7 +433,7 @@ const EXPRESS_NEIGHBOURHOODS = [
 
 export function meta() {
   return [
-    { title: "Checkout — PetStore Kenya" },
+    { title: "Checkout - PetStore Kenya" },
     { name: "description", content: "Complete your order with secure payment options or via WhatsApp." },
   ];
 }
@@ -483,6 +483,194 @@ export default function CheckoutPage() {
   const [apartmentInfo, setApartmentInfo] = useState("");
   const [recipientEmail, setRecipientEmail] = useState(customerEmail || "");
   const [recipientPhone, setRecipientPhone] = useState(customerPhone || "");
+
+  // Address Picker state and logic
+  interface CustomerAddress {
+    id: number;
+    customer_email: string;
+    first_name: string;
+    last_name: string;
+    city: string;
+    neighbourhood: string;
+    street_address: string;
+    apartment_info?: string;
+    phone: string;
+    is_default: boolean;
+  }
+
+  const [savedAddresses, setSavedAddresses] = useState<CustomerAddress[]>([]);
+  const [selectedAddressId, setSelectedAddressId] = useState<number | null>(null);
+  const [showDropdown, setShowDropdown] = useState(false);
+
+  // Address Modal states
+  const [showAddressModal, setShowAddressModal] = useState(false);
+  const [editingAddress, setEditingAddress] = useState<CustomerAddress | null>(null);
+
+  // Modal form fields
+  const [modalFirstName, setModalFirstName] = useState("");
+  const [modalLastName, setModalLastName] = useState("");
+  const [modalCity, setModalCity] = useState("Select a City");
+  const [modalZone, setModalZone] = useState("Select your Neighbourhood");
+  const [modalStreetAddress, setModalStreetAddress] = useState("");
+  const [modalApartmentInfo, setModalApartmentInfo] = useState("");
+  const [modalPhone, setModalPhone] = useState("");
+  const [modalIsDefault, setModalIsDefault] = useState(false);
+
+  const applyAddressToForm = (addr: CustomerAddress) => {
+    setFirstName(addr.first_name);
+    setLastName(addr.last_name);
+    setSelectedCity(addr.city);
+    setSelectedZone(addr.neighbourhood);
+    setStreetAddress(addr.street_address);
+    setApartmentInfo(addr.apartment_info || "");
+    setRecipientPhone(addr.phone);
+  };
+
+  const reloadAddresses = async (selectIdAfterReload?: number) => {
+    if (!customerEmail) return;
+    try {
+      const res = await fetch(`/api/addresses?email=${encodeURIComponent(customerEmail)}`);
+      const data = await res.json();
+      if (Array.isArray(data)) {
+        setSavedAddresses(data);
+        let nextSelected = selectIdAfterReload;
+        if (!nextSelected) {
+          if (selectedAddressId && data.some(a => a.id === selectedAddressId)) {
+            nextSelected = selectedAddressId;
+          } else {
+            const def = data.find(a => a.is_default);
+            nextSelected = def ? def.id : (data.length > 0 ? data[0].id : undefined);
+          }
+        }
+        if (nextSelected) {
+          setSelectedAddressId(nextSelected);
+          const match = data.find(a => a.id === nextSelected);
+          if (match) applyAddressToForm(match);
+        }
+      }
+    } catch (err) {
+      console.error("Error reloading addresses:", err);
+    }
+  };
+
+  useEffect(() => {
+    if (customerEmail) {
+      reloadAddresses();
+    }
+  }, [customerEmail]);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      const target = event.target as HTMLElement;
+      if (!target.closest(".address-dropdown-container")) {
+        setShowDropdown(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
+  const handleSetDefaultAddress = async (id: number) => {
+    if (!customerEmail) return;
+    try {
+      const res = await fetch("/api/addresses", {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id, email: customerEmail })
+      });
+      const data = await res.json();
+      if (data.success) {
+        reloadAddresses();
+      }
+    } catch (err) {
+      console.error("Error setting default address:", err);
+    }
+  };
+
+  const handleDeleteAddress = async (id: number) => {
+    if (!customerEmail) return;
+    if (!confirm("Are you sure you want to delete this address?")) return;
+    try {
+      const res = await fetch("/api/addresses", {
+        method: "DELETE",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id, email: customerEmail })
+      });
+      const data = await res.json();
+      if (data.success) {
+        if (selectedAddressId === id) {
+          setSelectedAddressId(null);
+        }
+        reloadAddresses();
+      }
+    } catch (err) {
+      console.error("Error deleting address:", err);
+    }
+  };
+
+  const handleOpenEditAddress = (addr: CustomerAddress) => {
+    setEditingAddress(addr);
+    setModalFirstName(addr.first_name);
+    setModalLastName(addr.last_name);
+    setModalCity(addr.city);
+    setModalZone(addr.neighbourhood);
+    setModalStreetAddress(addr.street_address);
+    setModalApartmentInfo(addr.apartment_info || "");
+    setModalPhone(addr.phone);
+    setModalIsDefault(addr.is_default);
+    setShowAddressModal(true);
+    setShowDropdown(false);
+  };
+
+  const handleSaveAddress = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!customerEmail) return;
+
+    if (!modalFirstName.trim() || !modalLastName.trim() || !modalStreetAddress.trim() || !modalPhone.trim()) {
+      alert("Please fill in all required fields.");
+      return;
+    }
+    if (modalCity === "Select a City") {
+      alert("Please select a city.");
+      return;
+    }
+    if (modalZone === "Select your Neighbourhood") {
+      alert("Please select a neighbourhood.");
+      return;
+    }
+
+    const payload = {
+      id: editingAddress?.id,
+      email: customerEmail,
+      firstName: modalFirstName.trim(),
+      lastName: modalLastName.trim(),
+      city: modalCity,
+      neighbourhood: modalZone,
+      streetAddress: modalStreetAddress.trim(),
+      apartmentInfo: modalApartmentInfo.trim(),
+      phone: modalPhone.trim(),
+      isDefault: modalIsDefault
+    };
+
+    try {
+      const isEdit = !!editingAddress;
+      const res = await fetch("/api/addresses", {
+        method: isEdit ? "PUT" : "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      });
+      const data = await res.json();
+      if (data.success && data.address) {
+        setShowAddressModal(false);
+        reloadAddresses(data.address.id);
+      } else {
+        alert(data.error || "Failed to save address.");
+      }
+    } catch (err) {
+      console.error("Error saving address:", err);
+      alert("Failed to save address due to network error.");
+    }
+  };
 
   // Shipping Method selection (standard vs express)
   const [shippingMethod, setShippingMethod] = useState<"standard" | "express">("standard");
@@ -833,9 +1021,9 @@ export default function CheckoutPage() {
               gap: "0.5rem",
               marginBottom: "2rem"
             }}>
-              <i className="fa fa-info-circle" style={{ color: "#1053a0" }} />
+              <i className="fa fa-info-circle" style={{ color: "#1E5DA7" }} />
               <span>
-                Returning customer? <Link to="/my-account" style={{ color: "#1053a0", textDecoration: "none", fontWeight: 500 }}>Click here to login</Link>
+                Returning customer? <Link to="/my-account" style={{ color: "#1E5DA7", textDecoration: "none", fontWeight: 500 }}>Click here to login</Link>
               </span>
             </div>
           )}
@@ -851,14 +1039,14 @@ export default function CheckoutPage() {
               marginBottom: "3rem"
             }}>
               <span style={{ fontSize: "4rem" }}>🎉</span>
-              <h2 style={{ fontSize: "2rem", color: "#1053a0", margin: "1rem 0", fontFamily: '"Patrick Hand", cursive' }}>
+              <h2 style={{ fontSize: "2rem", color: "#1E5DA7", margin: "1rem 0", fontFamily: '"Patrick Hand", cursive' }}>
                 Thank you! Your order has been placed.
               </h2>
               <p style={{ color: "#515151", fontSize: "1.1rem", marginBottom: "2rem" }}>
                 Your Order ID is <strong>#{successOrderNumber}</strong>. We are processing it and will contact you shortly.
               </p>
               <Link to="/shop" className="btn-primary" style={{
-                background: "#1053a0",
+                background: "#1E5DA7",
                 color: "#ffffff",
                 padding: "0.6rem 2rem",
                 borderRadius: "20px",
@@ -879,10 +1067,10 @@ export default function CheckoutPage() {
               marginBottom: "3rem"
             }}>
               <span style={{ fontSize: "4rem" }}>🛒</span>
-              <h2 style={{ fontSize: "1.8rem", color: "#1053a0", margin: "1rem 0" }}>Your cart is empty</h2>
+              <h2 style={{ fontSize: "1.8rem", color: "#1E5DA7", margin: "1rem 0" }}>Your cart is empty</h2>
               <p style={{ color: "#777777", marginBottom: "2rem" }}>Please add some products to your cart before checking out.</p>
               <Link to="/shop" style={{
-                background: "#1053a0",
+                background: "#1E5DA7",
                 color: "#ffffff",
                 padding: "0.6rem 2rem",
                 borderRadius: "20px",
@@ -971,7 +1159,7 @@ export default function CheckoutPage() {
                     <h3 style={{
                       fontFamily: '"Patrick Hand", cursive',
                       fontSize: "1.6rem",
-                      color: "#1a5ca3",
+                      color: "#1E5DA7",
                       textAlign: "center",
                       margin: "0 0 1.5rem 0",
                       fontWeight: "bold",
@@ -982,6 +1170,189 @@ export default function CheckoutPage() {
                     </h3>
 
                     <div style={{ display: "flex", flexDirection: "column", gap: "1.2rem" }}>
+
+                      {/* Saved Addresses Dropdown (for logged-in users) */}
+                      {customerEmail && (
+                        <div className="address-dropdown-container" style={{ position: "relative", marginBottom: "0.5rem" }}>
+                          <label style={{ ...labelStyle, fontWeight: "bold", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                            <span>Saved Addresses</span>
+                            <button
+                              type="button"
+                              onClick={() => {
+                                setEditingAddress(null);
+                                setModalFirstName("");
+                                setModalLastName("");
+                                setModalCity("Select a City");
+                                setModalZone("Select your Neighbourhood");
+                                setModalStreetAddress("");
+                                setModalApartmentInfo("");
+                                setModalPhone("");
+                                setModalIsDefault(savedAddresses.length === 0);
+                                setShowAddressModal(true);
+                              }}
+                              style={{
+                                background: "none",
+                                border: "none",
+                                color: "#1E5DA7",
+                                fontWeight: "bold",
+                                fontSize: "0.85rem",
+                                cursor: "pointer",
+                                display: "flex",
+                                alignItems: "center",
+                                gap: "4px"
+                              }}
+                            >
+                              <span style={{ fontSize: "1.1rem" }}>+</span> Add Address
+                            </button>
+                          </label>
+
+                          <div
+                            onClick={() => setShowDropdown(!showDropdown)}
+                            style={{
+                              display: "flex",
+                              justifyContent: "space-between",
+                              alignItems: "center",
+                              padding: "0.75rem 1rem",
+                              border: "1px solid #1E5DA7",
+                              borderRadius: "4px",
+                              background: "#ffffff",
+                              cursor: "pointer",
+                              boxShadow: "0 1px 3px rgba(0,0,0,0.05)"
+                            }}
+                          >
+                            <span style={{ fontSize: "0.9rem", color: "#333" }}>
+                              {selectedAddressId && savedAddresses.find(a => a.id === selectedAddressId) ? (
+                                (() => {
+                                  const active = savedAddresses.find(a => a.id === selectedAddressId)!;
+                                  return `${active.first_name} ${active.last_name} — ${active.street_address}, ${active.neighbourhood}, ${active.city}`;
+                                })()
+                              ) : (
+                                "Select a saved address..."
+                              )}
+                            </span>
+                            <span style={{ fontSize: "0.7rem", color: "#1E5DA7" }}>{showDropdown ? "▲" : "▼"}</span>
+                          </div>
+
+                          {showDropdown && (
+                            <div style={{
+                              position: "absolute",
+                              top: "100%",
+                              left: 0,
+                              right: 0,
+                              background: "#ffffff",
+                              border: "1px solid #bbd2e8",
+                              borderRadius: "4px",
+                              marginTop: "4px",
+                              boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
+                              zIndex: 1000,
+                              maxHeight: "280px",
+                              overflowY: "auto"
+                            }}>
+                              {savedAddresses.length === 0 ? (
+                                <div style={{ padding: "1rem", fontStyle: "italic", color: "#666", fontSize: "0.85rem", textAlign: "center" }}>
+                                  No saved addresses found. Click "Add Address" to create one.
+                                </div>
+                              ) : (
+                                savedAddresses.map(addr => {
+                                  const isSelected = addr.id === selectedAddressId;
+                                  return (
+                                    <div
+                                      key={addr.id}
+                                      onClick={() => {
+                                        setSelectedAddressId(addr.id);
+                                        applyAddressToForm(addr);
+                                        setShowDropdown(false);
+                                      }}
+                                      style={{
+                                        display: "flex",
+                                        justifyContent: "space-between",
+                                        alignItems: "center",
+                                        padding: "0.65rem 1rem",
+                                        borderBottom: "1px solid #f0f0f0",
+                                        cursor: "pointer",
+                                        background: isSelected ? "#f4f8fa" : "#ffffff"
+                                      }}
+                                    >
+                                      <div style={{ display: "flex", flexDirection: "column", gap: "0.15rem", flex: 1, marginRight: "0.5rem" }}>
+                                        <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+                                          <span style={{ fontWeight: "bold", fontSize: "0.85rem", color: "#333" }}>
+                                            {addr.first_name} {addr.last_name}
+                                          </span>
+                                          {addr.is_default && (
+                                            <span style={{
+                                              color: "#eab308",
+                                              fontSize: "0.75rem",
+                                              fontWeight: "bold"
+                                            }}>
+                                              ★
+                                            </span>
+                                          )}
+                                        </div>
+                                        <span style={{ fontSize: "0.8rem", color: "#666" }}>
+                                          {addr.street_address}{addr.apartment_info ? `, ${addr.apartment_info}` : ""}, {addr.neighbourhood}, {addr.city}
+                                        </span>
+                                        <span style={{ fontSize: "0.75rem", color: "#888" }}>
+                                          Phone: {addr.phone}
+                                        </span>
+                                      </div>
+                                      <div style={{ display: "flex", alignItems: "center", gap: "8px" }} onClick={e => e.stopPropagation()}>
+                                        {/* Star default trigger */}
+                                        <button
+                                          type="button"
+                                          onClick={() => handleSetDefaultAddress(addr.id)}
+                                          style={{
+                                            background: "none",
+                                            border: "none",
+                                            cursor: "pointer",
+                                            padding: "2px",
+                                            color: addr.is_default ? "#eab308" : "#ccc",
+                                            fontSize: "1.1rem"
+                                          }}
+                                          title={addr.is_default ? "Default Address" : "Set as Default"}
+                                        >
+                                          ★
+                                        </button>
+                                        {/* Edit icon */}
+                                        <button
+                                          type="button"
+                                          onClick={() => handleOpenEditAddress(addr)}
+                                          style={{
+                                            background: "none",
+                                            border: "none",
+                                            cursor: "pointer",
+                                            padding: "2px",
+                                            color: "#1E5DA7",
+                                            fontSize: "0.95rem"
+                                          }}
+                                          title="Edit Address"
+                                        >
+                                          ✎
+                                        </button>
+                                        {/* Delete icon */}
+                                        <button
+                                          type="button"
+                                          onClick={() => handleDeleteAddress(addr.id)}
+                                          style={{
+                                            background: "none",
+                                            border: "none",
+                                            cursor: "pointer",
+                                            padding: "2px",
+                                            color: "#ef4444",
+                                            fontSize: "0.95rem"
+                                          }}
+                                          title="Delete Address"
+                                        >
+                                          🗑
+                                        </button>
+                                      </div>
+                                    </div>
+                                  );
+                                })
+                              )}
+                            </div>
+                          )}
+                        </div>
+                      )}
 
                       {/* First & Last name rows */}
                       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1.5rem" }}>
@@ -1214,10 +1585,10 @@ export default function CheckoutPage() {
                         userSelect: "none"
                       }}
                     >
-                      <span style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontWeight: "bold", color: "#1a5ca3" }}>
+                      <span style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontWeight: "bold", color: "#1E5DA7" }}>
                         📋 ADDITIONAL DELIVERY INFORMATION (OPTIONAL)
                       </span>
-                      <span style={{ color: "#1a5ca3" }}>{showAdditionalInfo ? "▲" : "▼"}</span>
+                      <span style={{ color: "#1E5DA7" }}>{showAdditionalInfo ? "▲" : "▼"}</span>
                     </div>
 
                     {/* Accordion Body */}
@@ -1319,14 +1690,14 @@ export default function CheckoutPage() {
 
                   {/* Order Summary Box */}
                   <div style={{
-                    border: "1px solid #1a5ca3",
+                    border: "1px solid #1E5DA7",
                     borderRadius: "4px",
                     overflow: "hidden",
                     background: "#ffffff"
                   }}>
                     {/* Header Row */}
                     <div style={{
-                      background: "#1a5ca3",
+                      background: "#1E5DA7",
                       color: "#ffffff",
                       padding: "0.75rem 1rem",
                       display: "flex",
@@ -1501,7 +1872,7 @@ export default function CheckoutPage() {
                       onClick={() => navigate("/my-account")}
                       style={{
                         background: "#ffffff",
-                        color: "#1a5ca3",
+                        color: "#1E5DA7",
                         border: "1px solid #bbd2e8",
                         borderRadius: "4px",
                         padding: "0.5rem 1rem",
@@ -1555,7 +1926,7 @@ export default function CheckoutPage() {
                             fontSize: "0.8rem",
                             lineHeight: 1.4,
                             marginLeft: "1.5rem",
-                            borderLeft: "4px solid #1a5ca3"
+                            borderLeft: "4px solid #1E5DA7"
                           }}>
                             Place order and pay using (M-PESA, Airtel Money, Kenswitch, VISA, MasterCard) Powered by www.ipayafrica.com
                           </div>
@@ -1670,6 +2041,232 @@ export default function CheckoutPage() {
 
         </div>
       </div>
+
+      {showAddressModal && (
+        <div
+          className="address-modal-overlay"
+          onClick={() => setShowAddressModal(false)}
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            background: "rgba(0, 0, 0, 0.5)",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            zIndex: 99999,
+            backdropFilter: "blur(4px)"
+          }}
+        >
+          <div
+            onClick={e => e.stopPropagation()}
+            style={{
+              background: "#ffffff",
+              borderRadius: "12px",
+              width: "90%",
+              maxWidth: "650px",
+              maxHeight: "90vh",
+              overflowY: "auto",
+              boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
+              display: "flex",
+              flexDirection: "column"
+            }}
+          >
+            {/* Modal Header */}
+            <div style={{
+              padding: "1.25rem 1.5rem",
+              borderBottom: "1px solid #e5e7eb",
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "center",
+              background: "#f8fafc",
+              borderTopLeftRadius: "12px",
+              borderTopRightRadius: "12px"
+            }}>
+              <h3 style={{
+                margin: 0,
+                fontFamily: '"Patrick Hand", cursive',
+                fontSize: "1.5rem",
+                color: "#1E5DA7",
+                fontWeight: "bold"
+              }}>
+                {editingAddress ? "EDIT ADDRESS" : "ADD NEW ADDRESS"}
+              </h3>
+              <button
+                type="button"
+                onClick={() => setShowAddressModal(false)}
+                style={{
+                  background: "none",
+                  border: "none",
+                  fontSize: "1.5rem",
+                  color: "#6b7280",
+                  cursor: "pointer",
+                  lineHeight: 1
+                }}
+              >
+                &times;
+              </button>
+            </div>
+
+            {/* Modal Form */}
+            <form onSubmit={handleSaveAddress} style={{ padding: "1.5rem", display: "flex", flexDirection: "column", gap: "1.2rem" }}>
+              {/* Form fields: First / Last Name */}
+              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1.2rem" }}>
+                <div>
+                  <label style={labelStyle}>First Name <span style={{ color: "#ef4444" }}>*</span></label>
+                  <input
+                    type="text"
+                    required
+                    value={modalFirstName}
+                    onChange={e => setModalFirstName(e.target.value)}
+                    style={inputStyle}
+                  />
+                </div>
+                <div>
+                  <label style={labelStyle}>Last Name <span style={{ color: "#ef4444" }}>*</span></label>
+                  <input
+                    type="text"
+                    required
+                    value={modalLastName}
+                    onChange={e => setModalLastName(e.target.value)}
+                    style={inputStyle}
+                  />
+                </div>
+              </div>
+
+              {/* City and Neighbourhood */}
+              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1.2rem" }}>
+                <div>
+                  <label style={labelStyle}>City/County <span style={{ color: "#ef4444" }}>*</span></label>
+                  <select
+                    required
+                    value={modalCity}
+                    onChange={e => {
+                      setModalCity(e.target.value);
+                      setModalZone("Select your Neighbourhood");
+                    }}
+                    style={inputStyle}
+                  >
+                    <option value="Select a City">Select a City</option>
+                    {CITIES.map(city => (
+                      <option key={city} value={city}>{city}</option>
+                    ))}
+                  </select>
+                </div>
+                <div>
+                  <label style={labelStyle}>Neighbourhood <span style={{ color: "#ef4444" }}>*</span></label>
+                  <select
+                    required
+                    value={modalZone}
+                    onChange={e => setModalZone(e.target.value)}
+                    style={inputStyle}
+                  >
+                    {modalCity && SHIPPING_ZONES[modalCity] ? (
+                      Object.keys(SHIPPING_ZONES[modalCity]).map(zone => {
+                        const fee = SHIPPING_ZONES[modalCity][zone];
+                        return (
+                          <option key={zone} value={zone}>
+                            {zone === "Select your Neighbourhood" ? zone : `${zone} (Fee: ${fee} KSh)`}
+                          </option>
+                        );
+                      })
+                    ) : (
+                      <option value="Select your Neighbourhood">Select your Neighbourhood</option>
+                    )}
+                  </select>
+                </div>
+              </div>
+
+              {/* Street Address */}
+              <div>
+                <label style={labelStyle}>Street Address <span style={{ color: "#ef4444" }}>*</span></label>
+                <input
+                  type="text"
+                  required
+                  placeholder="House number & street name"
+                  value={modalStreetAddress}
+                  onChange={e => setModalStreetAddress(e.target.value)}
+                  style={inputStyle}
+                />
+              </div>
+
+              {/* Apartment Details */}
+              <div>
+                <label style={{ ...labelStyle, fontWeight: "normal" }}>Apartment, suite, unit etc. <span style={{ color: "#888", fontSize: "0.8rem" }}>(optional)</span></label>
+                <input
+                  type="text"
+                  placeholder="Apartment, suite, unit etc."
+                  value={modalApartmentInfo}
+                  onChange={e => setModalApartmentInfo(e.target.value)}
+                  style={inputStyle}
+                />
+              </div>
+
+              {/* Phone */}
+              <div>
+                <label style={labelStyle}>Phone <span style={{ color: "#ef4444" }}>*</span></label>
+                <input
+                  type="tel"
+                  required
+                  placeholder="+254 000 000 000"
+                  value={modalPhone}
+                  onChange={e => setModalPhone(e.target.value)}
+                  style={inputStyle}
+                />
+              </div>
+
+              {/* Default checkbox */}
+              <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
+                <input
+                  type="checkbox"
+                  id="modal_default"
+                  checked={modalIsDefault}
+                  onChange={e => setModalIsDefault(e.target.checked)}
+                  style={{ cursor: "pointer" }}
+                />
+                <label htmlFor="modal_default" style={{ fontSize: "0.85rem", color: "#333", cursor: "pointer", userSelect: "none" }}>
+                  Set as default address
+                </label>
+              </div>
+
+              {/* Action Buttons */}
+              <div style={{ display: "flex", justifyContent: "flex-end", gap: "1rem", marginTop: "1rem" }}>
+                <button
+                  type="button"
+                  onClick={() => setShowAddressModal(false)}
+                  style={{
+                    padding: "0.6rem 1.5rem",
+                    borderRadius: "4px",
+                    border: "1px solid #d1d5db",
+                    background: "#ffffff",
+                    cursor: "pointer",
+                    fontWeight: "bold",
+                    color: "#374151"
+                  }}
+                >
+                  Cancel
+                </button>
+                <button
+                  type="submit"
+                  style={{
+                    padding: "0.6rem 2rem",
+                    borderRadius: "4px",
+                    border: "none",
+                    background: "#00c853",
+                    color: "#ffffff",
+                    cursor: "pointer",
+                    fontWeight: "bold"
+                  }}
+                >
+                  Save Address
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
 
       <Footer />
     </>

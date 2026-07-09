@@ -4,7 +4,7 @@ import PageHeader from "../components/PageHeader";
 
 export function meta() {
   return [
-    { title: "Brochures — PetStore Kenya" },
+    { title: "Brochures - PetStore Kenya" },
     { name: "description", content: "Download our product brochures and leaflets at PetStore Kenya." },
   ];
 }
