@@ -10998,5 +10998,16 @@
     "createdAt": "2026-03-09",
     "status": "active",
     "passwordHash": "customer"
+  },
+  {
+    "name": "Lippy",
+    "email": "lippy@granularit.com",
+    "username": "Lippy",
+    "role": "administrator",
+    "status": "active",
+    "passwordHash": "123Hello!",
+    "id": "u-jdzoflyuq",
+    "ordersCount": 0,
+    "createdAt": "2026-07-09"
   }
 ]
