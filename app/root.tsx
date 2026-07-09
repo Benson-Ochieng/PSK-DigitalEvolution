@@ -6,6 +6,7 @@ import {
   Scripts,
   ScrollRestoration,
   useNavigation,
+  useLocation,
 } from "react-router";
 
 import type { Route } from "./+types/root";
@@ -56,7 +57,9 @@ import { useEffect } from "react";
 
 export default function App() {
   const navigation = useNavigation();
+  const location = useLocation();
   const isLoading = navigation.state === "loading";
+  const isAdminPath = location.pathname.startsWith("/store_backend");
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -82,9 +85,9 @@ export default function App() {
       <Outlet />
       <CartDrawer />
       <CheckoutModal />
-      <CommunicationBooth />
-      <GoogleReviewsPopup />
-      <PurchaseNotificationPopup />
+      {!isAdminPath && <CommunicationBooth />}
+      {!isAdminPath && <GoogleReviewsPopup />}
+      {!isAdminPath && <PurchaseNotificationPopup />}
     </CartProvider>
   );
 }
