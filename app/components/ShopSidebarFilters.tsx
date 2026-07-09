@@ -11,6 +11,9 @@ interface ShopSidebarFiltersProps {
   isSearch: boolean;
   activeSidebarSlug: string;
   sidebarCategories?: { label: string; slug: string }[];
+  isBrandPage?: boolean;
+  brandCategories?: { name: string; slug: string; count: number }[];
+  fromCat?: string;
   buildCategoryHref: (newBrand: string, newLimit?: string, newSort?: string) => string;
   navigate: (path: string) => void;
 }
@@ -27,6 +30,9 @@ export default function ShopSidebarFilters({
   isSearch,
   activeSidebarSlug,
   sidebarCategories,
+  isBrandPage,
+  brandCategories,
+  fromCat,
   buildCategoryHref,
   navigate,
 }: ShopSidebarFiltersProps) {
@@ -67,16 +73,93 @@ export default function ShopSidebarFilters({
     return `${window.location.pathname}${p.toString() ? "?" + p.toString() : ""}`;
   };
 
+  // URL Helper to toggle brand page category filter
+  const getBrandCategoryHref = (categorySlug: string) => {
+    const p = new URLSearchParams(window.location.search);
+    if (fromCat === categorySlug) {
+      p.delete("from_cat");
+    } else {
+      p.set("from_cat", categorySlug);
+    }
+    p.delete("page");
+    return `/product-category/${slug}/${p.toString() ? "?" + p.toString() : ""}`;
+  };
+
   // URL Helper to reset all filters
   const getClearAllHref = () => {
+    if (isBrandPage) {
+      return `/product-category/${slug}/`;
+    }
     return `/product-category/${slug || "dog-supplies-store"}/`;
   };
 
-  const hasActiveFilters = brand || lifeStage || isSearch;
+  const hasActiveFilters = brand || lifeStage || isSearch || fromCat;
 
   // Use dynamically loaded and sorted categories when available, otherwise fall back to static
   const displayCategories = sidebarCategories || (animal ? ANIMAL_CATEGORIES[animal] : []);
 
+  // 1. BRAND PAGE LAYOUT: Show only "FILTER BY CATEGORY" with counts
+  if (isBrandPage && brandCategories && brandCategories.length > 0) {
+    return (
+      <div className="sidebar-filters-wrapper" style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
+        <div className="filter-section">
+          <h3 className="sidebar-title" style={{ marginBottom: "0.85rem", fontSize: "16px", letterSpacing: "0.05em", color: "var(--ink-dark)" }}>
+            FILTER BY CATEGORY
+          </h3>
+          <ul className="sidebar-brands-list" style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+            {brandCategories.map(c => {
+              const isActive = fromCat === c.slug;
+              return (
+                <li key={c.slug}>
+                  <Link
+                    to={getBrandCategoryHref(c.slug)}
+                    className={isActive ? "active-brand" : ""}
+                    style={{
+                      fontSize: "15px",
+                      textDecoration: "none",
+                      color: isActive ? "var(--brand-primary, #1053a0)" : "var(--ink-medium, #475569)",
+                      fontWeight: isActive ? "600" : "400",
+                      display: "block",
+                      padding: "2px 0"
+                    }}
+                  >
+                    {c.name} ({c.count})
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+
+        {/* Clear All Filters reset option */}
+        {hasActiveFilters && (
+          <div className="filter-section" style={{ borderTop: "1px solid #e2e8f0", paddingTop: "1rem", marginTop: "0.5rem" }}>
+            <button
+              onClick={() => navigate(getClearAllHref())}
+              style={{
+                width: "100%",
+                padding: "0.5rem 0.75rem",
+                background: "#f1f5f9",
+                border: "1px solid #cbd5e1",
+                borderRadius: "4px",
+                fontSize: "0.85rem",
+                fontWeight: "600",
+                color: "#334155",
+                cursor: "pointer",
+                transition: "background 0.2s"
+              }}
+              onMouseOver={e => e.currentTarget.style.background = "#e2e8f0"}
+              onMouseOut={e => e.currentTarget.style.background = "#f1f5f9"}
+            >
+              Clear All Filters
+            </button>
+          </div>
+        )}
+      </div>
+    );
+  }
+
+  // 2. STANDARD STOREFRONT LAYOUT (Pet Categories, Search, Tag, General)
   return (
     <div className="sidebar-filters-wrapper" style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
       
