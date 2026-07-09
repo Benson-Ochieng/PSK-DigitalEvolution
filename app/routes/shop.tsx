@@ -152,6 +152,20 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     canonicalSlug = SLUG_ALIASES[canonicalSlug];
   }
 
+  let isBrandPage = false;
+  if (canonicalSlug) {
+    const brandCheck = await query(
+      `SELECT EXISTS (SELECT 1 FROM products WHERE REPLACE(LOWER(brand), ' ', '-') = LOWER($1))`,
+      [canonicalSlug]
+    );
+    isBrandPage = brandCheck.rows[0]?.exists || false;
+  }
+
+  if (!isBrandPage && brand) {
+    isBrandPage = true;
+    canonicalSlug = brand.toLowerCase();
+  }
+
   if (canonicalSlug) {
     if (isTagPage) {
       tagSlug = canonicalSlug;
@@ -296,9 +310,9 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     sqlParams.push(`%${search.toLowerCase()}%`); 
     conditions.push(`LOWER(p.name) LIKE $${sqlParams.length}`); 
   }
-  if (brand) { 
+  if (brand && !isBrandPage) { 
     sqlParams.push(brand);  
-    conditions.push(`LOWER(p.brand) = LOWER($${sqlParams.length})`); 
+    conditions.push(`REPLACE(LOWER(p.brand), ' ', '-') = LOWER($${sqlParams.length})`); 
   }
   
   if (lifeStage) {
@@ -309,6 +323,23 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   if (isTagPage && tagSlug) {
     sqlParams.push(JSON.stringify([{ slug: tagSlug }]));
     conditions.push(`p.tags @> $${sqlParams.length}::jsonb`);
+  } else if (isBrandPage) {
+    sqlParams.push(canonicalSlug);
+    conditions.push(`REPLACE(LOWER(p.brand), ' ', '-') = LOWER($${sqlParams.length})`);
+
+    if (crossSlug) {
+      const crossDescendantSlugs = getDescendants(crossSlug);
+      sqlParams.push(crossDescendantSlugs);
+      conditions.push(`
+        p.categories IS NOT NULL 
+        AND jsonb_typeof(p.categories) = 'array' 
+        AND EXISTS (
+          SELECT 1 
+          FROM jsonb_to_recordset(p.categories) AS x(slug text)
+          WHERE x.slug = ANY($${sqlParams.length}::text[])
+        )
+      `);
+    }
   } else if (categorySlug) {
     const descendantSlugs = getDescendants(categorySlug);
     sqlParams.push(descendantSlugs);
@@ -337,7 +368,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
               WHERE x.slug = ANY($${paramIdx1}::text[])
             )
           )
-          OR LOWER(p.brand) = LOWER($${paramIdx2})
+          OR REPLACE(LOWER(p.brand), ' ', '-') = LOWER($${paramIdx2})
         )
       `);
     }
@@ -396,17 +427,8 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     }
   }
 
-  // Detect and dynamically query categories + counts for brand pages
-  let isBrandPage = false;
+  // Query brand subcategory details if this is a brand page
   let brandCategories: { name: string; slug: string; count: number }[] = [];
-  if (canonicalSlug) {
-    const brandCheck = await query(
-      `SELECT EXISTS (SELECT 1 FROM products WHERE LOWER(brand) = LOWER($1))`,
-      [canonicalSlug]
-    );
-    isBrandPage = brandCheck.rows[0]?.exists || false;
-  }
-
   if (isBrandPage) {
     // Set pageTitle to dynamic brand name
     const dbCat = categories.find(c => c.slug === canonicalSlug);
@@ -420,8 +442,9 @@ export async function loader({ request, params }: Route.LoaderArgs) {
       FROM products p
       JOIN store_prices bbp ON bbp.product_id = p.id AND bbp.store_name = 'PetStore Kenya',
       LATERAL jsonb_to_recordset(p.categories) AS c(id int, name text, slug text)
-      WHERE LOWER(p.brand) = LOWER($1)
+      WHERE REPLACE(LOWER(p.brand), ' ', '-') = LOWER($1)
       AND c.slug != LOWER($1)
+      AND REPLACE(LOWER(c.slug), ' ', '-') != LOWER($1)
       AND c.slug NOT IN ('dog-supplies-store', 'cat-supplies-store', 'dog', 'cat', 'dog-food', 'cat-food', 'dog-food-treats', 'cat-food-and-treats', 'sale', 'clearance', 'bundles')
       GROUP BY c.slug, c.name
       ORDER BY c.name ASC

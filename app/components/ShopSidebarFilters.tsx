@@ -82,13 +82,21 @@ export default function ShopSidebarFilters({
       p.set("from_cat", categorySlug);
     }
     p.delete("page");
-    return `/product-category/${slug}/${p.toString() ? "?" + p.toString() : ""}`;
+    return `${window.location.pathname}${p.toString() ? "?" + p.toString() : ""}`;
   };
 
   // URL Helper to reset all filters
   const getClearAllHref = () => {
     if (isBrandPage) {
-      return `/product-category/${slug}/`;
+      if (slug) {
+        return `/product-category/${slug}/`;
+      } else {
+        const p = new URLSearchParams(window.location.search);
+        p.delete("from_cat");
+        p.delete("life_stage");
+        p.delete("page");
+        return `${window.location.pathname}${p.toString() ? "?" + p.toString() : ""}`;
+      }
     }
     return `/product-category/${slug || "dog-supplies-store"}/`;
   };
@@ -99,7 +107,7 @@ export default function ShopSidebarFilters({
   const displayCategories = sidebarCategories || (animal ? ANIMAL_CATEGORIES[animal] : []);
 
   // 1. BRAND PAGE LAYOUT: Show only "FILTER BY CATEGORY" with counts
-  if (isBrandPage && brandCategories && brandCategories.length > 0) {
+  if (isBrandPage) {
     return (
       <div className="sidebar-filters-wrapper" style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
         <div className="filter-section">
@@ -107,7 +115,7 @@ export default function ShopSidebarFilters({
             FILTER BY CATEGORY
           </h3>
           <ul className="sidebar-brands-list" style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-            {brandCategories.map(c => {
+            {brandCategories && brandCategories.map(c => {
               const isActive = fromCat === c.slug;
               return (
                 <li key={c.slug}>
