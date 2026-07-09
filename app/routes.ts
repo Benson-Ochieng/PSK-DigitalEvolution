@@ -63,6 +63,8 @@ const routes = [
   route("api/order", "routes/api.order.ts"),
   route("api/search", "routes/api.search.ts"),
   route("api/google-reviews", "routes/api.google-reviews.ts"),
+  route("api/addresses", "routes/api.addresses.ts"),
+  route("api/products-shipping", "routes/api.products-shipping.ts"),
 
   // Catch-all category page route
   route(":slug", "routes/catch-all-category.tsx"),

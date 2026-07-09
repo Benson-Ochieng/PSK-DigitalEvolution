@@ -2566,7 +2566,7 @@ body {
 
 .product-image-panel img {
   width: 100%;
-  max-width: 500px;
+  max-width: 350px;
   height: auto;
   object-fit: contain;
 }
@@ -3584,6 +3584,7 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
 input[type=number] {
   -moz-appearance: textfield;
 }
