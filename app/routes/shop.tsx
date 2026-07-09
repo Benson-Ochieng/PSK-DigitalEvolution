@@ -602,8 +602,8 @@ function ProductCard({ p, animal }: { p: any; animal: string }) {
       {isOnSale && (
         <span className="sale-badge" style={{
           position: "absolute",
-          top: "0.5rem",
-          right: "0.5rem",
+          top: "-10px",
+          right: "-10px",
           background: "#958e09",
           color: "#ffffff",
           borderRadius: "50%",

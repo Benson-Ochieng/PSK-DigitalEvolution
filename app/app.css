@@ -1098,7 +1098,7 @@ body {
   text-decoration: none;
   color: var(--ink);
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   padding: 1rem 0.75rem;
   align-items: center;
   text-align: center;
