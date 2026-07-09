@@ -165,8 +165,8 @@ body {
 }
 
 .nav-link {
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 13px;
   color: #ffffff;
   text-decoration: none;
   padding: 0.5rem 0.5rem;
@@ -178,7 +178,12 @@ body {
 }
 
 .nav-link:hover {
-  background: rgba(255, 255, 255, 0.12);
+  background: #113d60;
+  text-decoration: none !important;
+}
+
+.navbar-links a:hover {
+  text-decoration: none !important;
 }
 
 /* Search Bar in Navbar */

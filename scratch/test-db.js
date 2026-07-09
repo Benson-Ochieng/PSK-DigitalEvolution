@@ -1,31 +1,33 @@
-const pg = require('pg');
-require('dotenv').config();
+import pg from 'pg';
+const { Client } = pg;
 
-const pool = new pg.Pool({
-  connectionString: process.env.DATABASE_URL,
-  ssl: { rejectUnauthorized: false }
-});
+async function test() {
+  const client = new Client({
+    connectionString: "postgresql://postgres.rsmmkitwgkdekhumlcro:UCbzLfJyIu8qOmkR@aws-0-eu-west-1.pooler.supabase.com:6543/postgres",
+    ssl: { rejectUnauthorized: false }
+  });
+  await client.connect();
 
-async function main() {
-  try {
-    const res = await pool.query("SELECT column_name, data_type FROM information_schema.columns WHERE table_name = 'products'");
-    console.log("Columns in 'products' table:");
-    console.log(res.rows);
-    
-    const countRes = await pool.query("SELECT COUNT(*) FROM products");
-    console.log("Total products in DB:", countRes.rows[0].count);
+  console.log("Searching for date patterns in descriptions...");
+  const res = await client.query(`
+    SELECT id, name, description 
+    FROM products 
+    WHERE description ~ '\\b\\d{1,2}[/-]\\d{1,2}[/-]\\d{2,4}\\b' -- DD/MM/YYYY or MM/DD/YYYY
+       OR description ~ '\\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*[ ,:-]+\\d{4}\\b' -- Month Year
+    LIMIT 10
+  `);
+  
+  console.log("Found products with dates in description:", res.rows.length);
+  res.rows.forEach(row => {
+    console.log("ID:", row.id, "Name:", row.name);
+    // Find matching date substring
+    const match1 = row.description.match(/\b\d{1,2}[/-]\d{1,2}[/-]\d{2,4}\b/);
+    const match2 = row.description.match(/\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*[ ,:-]+\\d{4}\b/i);
+    console.log("Matched dates:", { match1: match1?.[0], match2: match2?.[0] });
+    console.log("-----------------------------------------");
+  });
 
-    if (countRes.rows[0].count > 0) {
-      const firstRow = await pool.query("SELECT * FROM products LIMIT 1");
-      console.log("First product sample categories / tags:");
-      console.log("Categories:", firstRow.rows[0].categories);
-      console.log("Tags:", firstRow.rows[0].tags);
-    }
-  } catch (err) {
-    console.error("Database query failed:", err);
-  } finally {
-    await pool.end();
-  }
+  await client.end();
 }
 
-main();
+test().catch(console.error);

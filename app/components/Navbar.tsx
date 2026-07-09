@@ -790,29 +790,26 @@ export default function Navbar() {
 
             <Link className="cart-nav-btn" to="/cart" title="Shopping Cart" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", background: "none", border: "none", padding: "0.25rem" }}>
               <div style={{ position: "relative", display: "inline-flex", alignItems: "center", justifyContent: "center" }}>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#ffffff" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" className="navbar-cart-svg">
-                  <circle cx="8" cy="21" r="1" fill="#ffffff" />
-                  <circle cx="19" cy="21" r="1" fill="#ffffff" />
-                  <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill="#ffffff" width="32" height="32" className="navbar-cart-svg" style={{ transform: "translateY(1.5px)" }}>
+                  <path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
                 </svg>
                 {count > 0 && (
                   <span
                     style={{
                       position: "absolute",
                       top: "-6px",
-                      right: "-10px",
-                      background: "#1053a0",
-                      color: "#ffffff",
+                      right: "-8px",
+                      background: "#ffffff",
+                      color: "#1E5DA7",
                       fontSize: "11px",
-                      fontWeight: "bold",
+                      fontWeight: "700",
                       borderRadius: "50%",
-                      border: "2.2px solid #ffffff",
-                      width: "22px",
-                      height: "22px",
+                      width: "18px",
+                      height: "18px",
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
-                      boxShadow: "0 2px 5px rgba(0,0,0,0.15)"
+                      boxShadow: "0 1px 3px rgba(0,0,0,0.15)"
                     }}
                     suppressHydrationWarning
                   >

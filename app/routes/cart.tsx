@@ -36,6 +36,7 @@ export default function CartPage() {
   const { recommended } = useLoaderData<typeof loader>();
   const { items, subtotal, removeItem, updateQty, setIsCheckoutOpen, addItem } = useCart();
   const [addedIds, setAddedIds] = useState<Record<number, boolean>>({});
+  const [loadingRemoveId, setLoadingRemoveId] = useState<number | null>(null);
 
   const handleAddToCart = (p: any) => {
     addItem({
@@ -56,6 +57,11 @@ export default function CartPage() {
   return (
     <>
       <Navbar />
+      <style>{`
+        @keyframes spin {
+          to { transform: rotate(360deg); }
+        }
+      `}</style>
 
       <div className="page" style={{ paddingTop: "2.5rem", paddingBottom: "4rem" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 1.5rem" }}>
@@ -127,27 +133,28 @@ export default function CartPage() {
                       background: "#1E5DA7",
                       color: "#ffffff",
                       border: "none",
-                      borderRadius: "20px",
-                      padding: "0.65rem 2.5rem",
-                      fontWeight: "bold",
-                      fontSize: "0.95rem",
+                      borderRadius: "30px",
+                      padding: "0.9rem 4.5rem",
+                      fontWeight: "700",
+                      fontSize: "1.05rem",
                       cursor: "pointer",
                       textTransform: "uppercase",
-                      boxShadow: "0 2px 5px rgba(0,0,0,0.1)",
+                      boxShadow: "0 3px 8px rgba(30, 93, 167, 0.2)",
                       textDecoration: "none",
-                      display: "inline-block"
+                      display: "inline-block",
+                      textAlign: "center"
                     }}
                   >
                     Proceed to checkout
                   </Link>
                 </div>
-                <div style={{ flex: 1, textAlign: "right", fontSize: "1.05rem", fontWeight: "bold", color: "#1E5DA7" }}>
-                  SUBTOTAL: <span style={{ color: "#777777", fontWeight: "normal", marginLeft: "1rem" }}>{subtotal.toLocaleString()}KSh</span>
+                <div style={{ flex: 1, textAlign: "right", fontSize: "1.2rem", fontWeight: "bold", color: "#1E5DA7" }}>
+                  SUBTOTAL: <span style={{ marginLeft: "0.75rem" }}>{subtotal.toLocaleString()}KSh</span>
                 </div>
               </div>
 
               {/* Cart Table Container */}
-              <div style={{ border: "1px solid #dcdcdc", borderRadius: "4px", overflow: "hidden", marginBottom: "1.5rem" }}>
+              <div style={{ border: "1px solid #1E5DA7", borderRadius: "4px", overflow: "hidden", marginBottom: "1.5rem" }}>
 
                 {/* Table Header */}
                 <div style={{
@@ -172,41 +179,60 @@ export default function CartPage() {
                     display: "grid",
                     gridTemplateColumns: "1fr 150px 150px",
                     alignItems: "center",
-                    padding: "1rem 1.5rem",
-                    borderBottom: "1px solid #eaeaea",
+                    padding: "0.35rem 1.5rem",
+                    borderBottom: "1px solid #1E5DA7",
                     background: "#ffffff"
                   }}>
                     {/* Product cell: Delete, Image, Name */}
                     <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
-                      <button
-                        onClick={() => removeItem(item.id)}
-                        style={{
-                          background: "none",
-                          border: "none",
-                          color: "#ef4444",
-                          fontSize: "1.1rem",
-                          fontWeight: "bold",
-                          cursor: "pointer",
-                          padding: 0
-                        }}
-                        title="Remove product"
-                      >
-                        ✕
-                      </button>
+                      <div style={{ width: "24px", display: "flex", justifyContent: "center", alignItems: "center" }}>
+                        {loadingRemoveId === item.id ? (
+                          <div className="cart-item-loader" style={{
+                            width: "14px",
+                            height: "14px",
+                            border: "2px solid #ef4444",
+                            borderTopColor: "transparent",
+                            borderRadius: "50%",
+                            animation: "spin 0.6s linear infinite"
+                          }} />
+                        ) : (
+                          <button
+                            onClick={() => {
+                              setLoadingRemoveId(item.id);
+                              setTimeout(() => {
+                                removeItem(item.id);
+                                setLoadingRemoveId(null);
+                              }, 600);
+                            }}
+                            style={{
+                              background: "none",
+                              border: "none",
+                              color: "#c02424",
+                              fontSize: "0.8rem",
+                              fontWeight: "900",
+                              cursor: "pointer",
+                              padding: "4px",
+                              display: "inline-flex",
+                              alignItems: "center",
+                              justifyContent: "center",
+                              lineHeight: 1
+                            }}
+                            title="Remove product"
+                          >
+                            ✖
+                          </button>
+                        )}
+                      </div>
                       <div style={{
-                        width: "50px",
-                        height: "50px",
-                        border: "1px solid #eaeaea",
-                        borderRadius: "4px",
-                        overflow: "hidden",
+                        width: "40px",
+                        height: "40px",
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "center",
-                        background: "#ffffff",
                         flexShrink: 0
                       }}>
                         {item.image_url ? (
-                          <img src={item.image_url} alt={item.name} style={{ width: "100%", height: "100%", objectFit: "contain", padding: "2px" }} />
+                          <img src={item.image_url} alt={item.name} style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} />
                         ) : (
                           <span style={{ fontSize: "1.2rem" }}>🐾</span>
                         )}
@@ -214,8 +240,8 @@ export default function CartPage() {
                       <Link to={item.slug ? `/product/${item.slug}/` : `/shop/${item.id}`} style={{
                         textDecoration: "none",
                         color: "#1E5DA7",
-                        fontWeight: 500,
-                        fontSize: "0.95rem",
+                        fontWeight: 400,
+                        fontSize: "1.05rem",
                         lineHeight: 1.3
                       }}>
                         {item.name}
@@ -223,22 +249,28 @@ export default function CartPage() {
                     </div>
 
                     {/* Price cell */}
-                    <div style={{ textAlign: "right", fontSize: "0.95rem", fontWeight: 500, color: "#515151" }}>
+                    <div style={{ textAlign: "right", fontSize: "0.95rem", fontWeight: 400, color: "#1E5DA7" }}>
                       {item.price.toLocaleString()}KSh
                     </div>
 
                     {/* Quantity cell */}
                     <div style={{ display: "flex", justifyContent: "flex-end" }}>
-                      <div style={{ display: "inline-flex", border: "1px solid #777777", borderRadius: "0px", overflow: "hidden" }}>
+                      <div style={{ display: "inline-flex", border: "1px solid #cbd5e1", borderRadius: "4px", overflow: "hidden", height: "32px" }}>
                         <button
                           onClick={() => updateQty(item.id, item.quantity - 1)}
                           style={{
-                            padding: "0.25rem 0.6rem",
-                            background: "#ffffff",
+                            width: "32px",
+                            height: "100%",
+                            background: "#1E5DA7",
+                            color: "#ffffff",
                             border: "none",
                             cursor: "pointer",
-                            fontSize: "0.9rem",
+                            fontSize: "1rem",
                             fontWeight: "bold",
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            padding: 0
                           }}
                         >
                           -
@@ -257,27 +289,32 @@ export default function CartPage() {
                             }
                           }}
                           style={{
-                            width: "30px",
-                            borderTop: "none",
-                            borderBottom: "none",
-                            borderLeft: "1px solid #777777",
-                            borderRight: "1px solid #777777",
+                            width: "40px",
+                            height: "100%",
+                            border: "none",
                             textAlign: "center",
                             fontSize: "0.9rem",
                             padding: 0,
                             outline: "none",
                             background: "#ffffff",
+                            color: "#000000"
                           }}
                         />
                         <button
                           onClick={() => updateQty(item.id, item.quantity + 1)}
                           style={{
-                            padding: "0.25rem 0.6rem",
-                            background: "#ffffff",
+                            width: "32px",
+                            height: "100%",
+                            background: "#1E5DA7",
+                            color: "#ffffff",
                             border: "none",
                             cursor: "pointer",
-                            fontSize: "0.9rem",
+                            fontSize: "1rem",
                             fontWeight: "bold",
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            padding: 0
                           }}
                         >
                           +
@@ -298,22 +335,23 @@ export default function CartPage() {
                       background: "#1E5DA7",
                       color: "#ffffff",
                       border: "none",
-                      borderRadius: "20px",
-                      padding: "0.65rem 2.5rem",
-                      fontWeight: "bold",
-                      fontSize: "0.95rem",
+                      borderRadius: "30px",
+                      padding: "0.9rem 4.5rem",
+                      fontWeight: "700",
+                      fontSize: "1.05rem",
                       cursor: "pointer",
                       textTransform: "uppercase",
-                      boxShadow: "0 2px 5px rgba(0,0,0,0.1)",
+                      boxShadow: "0 3px 8px rgba(30, 93, 167, 0.2)",
                       textDecoration: "none",
-                      display: "inline-block"
+                      display: "inline-block",
+                      textAlign: "center"
                     }}
                   >
                     Proceed to checkout
                   </Link>
                 </div>
-                <div style={{ flex: 1, textAlign: "right", fontSize: "1.05rem", fontWeight: "bold", color: "#1E5DA7" }}>
-                  SUBTOTAL: <span style={{ color: "#777777", fontWeight: "normal", marginLeft: "1rem" }}>{subtotal.toLocaleString()}KSh</span>
+                <div style={{ flex: 1, textAlign: "right", fontSize: "1.2rem", fontWeight: "bold", color: "#1E5DA7" }}>
+                  SUBTOTAL: <span style={{ marginLeft: "0.75rem" }}>{subtotal.toLocaleString()}KSh</span>
                 </div>
               </div>
 

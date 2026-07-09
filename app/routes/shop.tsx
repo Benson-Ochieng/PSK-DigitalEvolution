@@ -86,10 +86,22 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   let animal = url.searchParams.get("animal") || "";
   let type = url.searchParams.get("type") || "";
   const urlSearch = url.searchParams.get("q") || "";
+<<<<<<< HEAD
   let brand = url.searchParams.get("brand") || "";
   const urlLimit = url.searchParams.get("limit") || "";
   const limit = urlLimit ? Number(urlLimit) : 72;
   const sort = url.searchParams.get("sort") || "availability";
+=======
+  let brand  = url.searchParams.get("brand")   || "";
+  const fromCat = url.searchParams.get("from_cat") || "";
+  const fromBrand = url.searchParams.get("from_brand") || "";
+  const crossSlug = fromCat || fromBrand;
+  const lifeStage = url.searchParams.get("life_stage") || "";
+  const offerSort = url.searchParams.get("offer_sort") || "";
+  const urlLimit = url.searchParams.get("limit") || "";
+  const limit  = urlLimit ? Number(urlLimit) : 72;
+  const sort   = url.searchParams.get("sort") || offerSort || "availability";
+>>>>>>> 688906fe546ac5e20732bfe6d7a7b91f9979d423
 
   let search = urlSearch;
   let categorySlug = "";
@@ -202,6 +214,22 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     else if (type === "on-sale") pageTitle = "On Sale Now";
   }
 
+  if (crossSlug) {
+    let crossTitle = "";
+    const matchedCross = CAT_CATEGORIES.find(c => c.slug === crossSlug) || DOG_CATEGORIES.find(c => c.slug === crossSlug);
+    const dbCross = categories.find(c => c.slug === crossSlug);
+    if (matchedCross) {
+      crossTitle = matchedCross.label;
+    } else if (dbCross) {
+      crossTitle = dbCross.name;
+    } else {
+      crossTitle = crossSlug.split("-").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+    }
+    if (crossTitle) {
+      pageTitle = `${pageTitle} & ${crossTitle}`;
+    }
+  }
+
   // Handle special promo/offer types
   const originalType = type;
   let isBulkFilter = false;
@@ -233,7 +261,12 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   const sqlParams: any[] = [];
 
   const explicitAnimal = url.searchParams.get("animal") || "";
-  const queryAnimal = categorySlug ? explicitAnimal : animal;
+  let queryAnimal = categorySlug ? explicitAnimal : animal;
+  if (sort === "psk_pet_dog") {
+    queryAnimal = "dog";
+  } else if (sort === "psk_pet_cat") {
+    queryAnimal = "cat";
+  }
 
   if (queryAnimal) {
     sqlParams.push(queryAnimal);
@@ -262,6 +295,11 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     sqlParams.push(brand);
     conditions.push(`LOWER(p.brand) = LOWER($${sqlParams.length})`);
   }
+  
+  if (lifeStage) {
+    const paramIdx = sqlParams.push(JSON.stringify([{ slug: lifeStage }]));
+    conditions.push(`p.tags @> $${paramIdx}::jsonb`);
+  }
 
   if (isTagPage && tagSlug) {
     sqlParams.push(JSON.stringify([{ slug: tagSlug }]));
@@ -278,15 +316,39 @@ export async function loader({ request, params }: Route.LoaderArgs) {
         WHERE x.slug = ANY($${sqlParams.length}::text[])
       )
     `);
+
+    if (crossSlug) {
+      const crossDescendantSlugs = getDescendants(crossSlug);
+      const paramIdx1 = sqlParams.push(crossDescendantSlugs);
+      const paramIdx2 = sqlParams.push(crossSlug);
+      conditions.push(`
+        (
+          (
+            p.categories IS NOT NULL 
+            AND jsonb_typeof(p.categories) = 'array' 
+            AND EXISTS (
+              SELECT 1 
+              FROM jsonb_to_recordset(p.categories) AS x(slug text)
+              WHERE x.slug = ANY($${paramIdx1}::text[])
+            )
+          )
+          OR LOWER(p.brand) = LOWER($${paramIdx2})
+        )
+      `);
+    }
   }
 
   const where = conditions.length ? `WHERE ${conditions.join(" AND ")}` : "";
 
   let orderBy = "(COALESCE(MIN(comp.price), 0) - bbp.price) DESC, p.name";
-  if (sort === "price-asc") {
+  if (sort === "price-asc" || sort === "price_asc") {
     orderBy = "bbp.price ASC, p.name";
-  } else if (sort === "price-desc") {
+  } else if (sort === "price-desc" || sort === "price_desc") {
     orderBy = "bbp.price DESC, p.name";
+  } else if (sort === "expiry-desc" || sort === "expiry_desc") {
+    orderBy = "p.created_at DESC, p.name";
+  } else if (sort === "expiry-asc" || sort === "expiry_asc") {
+    orderBy = "p.created_at ASC, p.name";
   }
 
   let havingClause = "";
@@ -335,7 +397,11 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     hideFilter,
     isTag: isTagPage,
     isSearch: !!urlSearch,
-    activeSidebarSlug: categorySlug ? getActiveSidebarSlug(categorySlug) : ""
+    activeSidebarSlug: categorySlug ? getActiveSidebarSlug(categorySlug) : "",
+    fromCat,
+    fromBrand,
+    lifeStage,
+    offerSort
   };
 }
 
@@ -510,13 +576,18 @@ export default function Shop() {
     hideFilter,
     isTag,
     isSearch,
-    activeSidebarSlug
+    activeSidebarSlug,
+    fromCat,
+    fromBrand,
+    lifeStage,
+    offerSort
   } = useLoaderData<typeof loader>();
   const navigate = useNavigate();
   const [searchVal, setSearchVal] = useState(urlSearch);
   const [notified, setNotified] = useState(false);
 
   const isClearancePage = pageTitle.toLowerCase() === "clearance" || slug.toLowerCase() === "clearance";
+  const isOfferPage = isClearancePage || slug === "sale" || slug === "bundles" || type === "offer" || type === "offers" || slug === "flash-sale";
 
   function buildPageHref(pageNumber: number) {
     const p = new URLSearchParams();
@@ -525,6 +596,10 @@ export default function Shop() {
     if (sort) p.set("sort", sort);
     if (urlSearch) p.set("q", urlSearch);
     if (hideFilter) p.set("hideFilter", "true");
+    if (fromCat) p.set("from_cat", fromCat);
+    if (fromBrand) p.set("from_brand", fromBrand);
+    if (lifeStage) p.set("life_stage", lifeStage);
+    if (offerSort) p.set("offer_sort", offerSort);
     if (pageNumber > 1) p.set("page", String(pageNumber));
 
     const queryStr = p.toString() ? "?" + p.toString() : "";
@@ -547,6 +622,10 @@ export default function Shop() {
     if (activeSort) p.set("sort", activeSort);
     if (urlSearch) p.set("q", urlSearch);
     if (hideFilter) p.set("hideFilter", "true");
+    if (fromCat) p.set("from_cat", fromCat);
+    if (fromBrand) p.set("from_brand", fromBrand);
+    if (lifeStage) p.set("life_stage", lifeStage);
+    if (offerSort) p.set("offer_sort", offerSort);
 
     const queryStr = p.toString() ? "?" + p.toString() : "";
     if (slug) {
@@ -565,7 +644,15 @@ export default function Shop() {
     if (sort) p.set("sort", sort);
     if (searchVal.trim()) p.set("q", searchVal.trim());
     if (hideFilter) p.set("hideFilter", "true");
+<<<<<<< HEAD
 
+=======
+    if (fromCat) p.set("from_cat", fromCat);
+    if (fromBrand) p.set("from_brand", fromBrand);
+    if (lifeStage) p.set("life_stage", lifeStage);
+    if (offerSort) p.set("offer_sort", offerSort);
+    
+>>>>>>> 688906fe546ac5e20732bfe6d7a7b91f9979d423
     if (slug) {
       navigate(isTag ? `/product-tag/${slug}/${p.toString() ? "?" + p.toString() : ""}` : `/product-category/${slug}/${p.toString() ? "?" + p.toString() : ""}`);
     } else {
@@ -582,6 +669,10 @@ export default function Shop() {
     if (urlLimit) p.set("limit", urlLimit);
     if (sort) p.set("sort", sort);
     if (hideFilter) p.set("hideFilter", "true");
+    if (fromCat) p.set("from_cat", fromCat);
+    if (fromBrand) p.set("from_brand", fromBrand);
+    if (lifeStage) p.set("life_stage", lifeStage);
+    if (offerSort) p.set("offer_sort", offerSort);
     if (slug) {
       navigate(isTag ? `/product-tag/${slug}/${p.toString() ? "?" + p.toString() : ""}` : `/product-category/${slug}/${p.toString() ? "?" + p.toString() : ""}`);
     } else {
@@ -807,6 +898,18 @@ export default function Shop() {
                 <option value="availability">AVAILABILITY</option>
                 <option value="price-asc">SORT BY PRICE: LOW TO HIGH</option>
                 <option value="price-desc">SORT BY PRICE: HIGH TO LOW</option>
+                {isOfferPage && (
+                  <>
+                    <option value="expiry-asc">SORT BY EXPIRY: OLD TO NEW</option>
+                    <option value="expiry-desc">SORT BY EXPIRY: NEW TO OLD</option>
+                  </>
+                )}
+                {(!animal || isSearch) && (
+                  <>
+                    <option value="psk_pet_dog">FILTER BY PET: DOG</option>
+                    <option value="psk_pet_cat">FILTER BY PET: CAT</option>
+                  </>
+                )}
               </select>
             </div>
 
