@@ -14,6 +14,8 @@ interface ShopSidebarFiltersProps {
   isBrandPage?: boolean;
   brandCategories?: { name: string; slug: string; count: number }[];
   fromCat?: string;
+  isOfferPage?: boolean;
+  sort?: string;
   buildCategoryHref: (newBrand: string, newLimit?: string, newSort?: string) => string;
   navigate: (path: string) => void;
 }
@@ -33,6 +35,8 @@ export default function ShopSidebarFilters({
   isBrandPage,
   brandCategories,
   fromCat,
+  isOfferPage,
+  sort,
   buildCategoryHref,
   navigate,
 }: ShopSidebarFiltersProps) {
@@ -101,10 +105,64 @@ export default function ShopSidebarFilters({
     return `/product-category/${slug || "dog-supplies-store"}/`;
   };
 
+  // URL Helper to toggle offers sort filter
+  const getSortOffersHref = (sortVal: string) => {
+    const p = new URLSearchParams(window.location.search);
+    p.set("sort", sortVal);
+    p.delete("page");
+    return `${window.location.pathname}${p.toString() ? "?" + p.toString() : ""}`;
+  };
+
   const hasActiveFilters = brand || lifeStage || isSearch || fromCat;
 
   // Use dynamically loaded and sorted categories when available, otherwise fall back to static
   const displayCategories = sidebarCategories || (animal ? ANIMAL_CATEGORIES[animal] : []);
+
+  // 0. OFFERS PAGE LAYOUT: Show only "SORT OFFERS"
+  if (isOfferPage) {
+    const currentSort = sort || "availability";
+    return (
+      <div className="sidebar-filters-wrapper" style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
+        <div className="filter-section">
+          <h3 className="sidebar-title" style={{ marginBottom: "0.85rem", fontSize: "16px", letterSpacing: "0.05em", color: "var(--ink-dark)" }}>
+            SORT OFFERS
+          </h3>
+          <ul className="sidebar-brands-list" style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+            <li>
+              <Link
+                to={getSortOffersHref("expiry-desc")}
+                style={{
+                  fontSize: "15px",
+                  textDecoration: "none",
+                  color: currentSort === "expiry-desc" || currentSort === "expiry_desc" ? "var(--brand-primary, #1053a0)" : "var(--ink-medium, #475569)",
+                  fontWeight: currentSort === "expiry-desc" || currentSort === "expiry_desc" ? "600" : "400",
+                  display: "block",
+                  padding: "2px 0"
+                }}
+              >
+                Expiry: New to Old
+              </Link>
+            </li>
+            <li>
+              <Link
+                to={getSortOffersHref("expiry-asc")}
+                style={{
+                  fontSize: "15px",
+                  textDecoration: "none",
+                  color: currentSort === "expiry-asc" || currentSort === "expiry_asc" ? "var(--brand-primary, #1053a0)" : "var(--ink-medium, #475569)",
+                  fontWeight: currentSort === "expiry-asc" || currentSort === "expiry_asc" ? "600" : "400",
+                  display: "block",
+                  padding: "2px 0"
+                }}
+              >
+                Expiry: Old to New
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+    );
+  }
 
   // 1. BRAND PAGE LAYOUT: Show only "FILTER BY CATEGORY" with counts
   if (isBrandPage) {

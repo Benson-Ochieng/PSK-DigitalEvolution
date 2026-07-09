@@ -202,7 +202,11 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     pageTitle = `Search Results for "${urlSearch}"`;
   } else if (slug) {
     if (isTagPage) {
-      pageTitle = canonicalSlug.split("-").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+      if (canonicalSlug === "sale") {
+        pageTitle = "On Sale Now";
+      } else {
+        pageTitle = canonicalSlug.split("-").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+      }
     } else {
       const matchedCat = CAT_CATEGORIES.find(c => c.slug === canonicalSlug) || DOG_CATEGORIES.find(c => c.slug === canonicalSlug);
       const dbCat = categories.find(c => c.slug === canonicalSlug);
@@ -457,6 +461,20 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     }));
   }
 
+  const isClearancePage = 
+    canonicalSlug === "clearance" || 
+    originalType === "clearance";
+
+  const isOfferPage = 
+    isClearancePage || 
+    canonicalSlug === "sale" || 
+    canonicalSlug === "bundles" || 
+    originalType === "on-sale" || 
+    originalType === "bundles" || 
+    originalType === "offer" || 
+    originalType === "offers" || 
+    canonicalSlug === "flash-sale";
+
   return { 
     products: productsToShow, 
     totalResults, 
@@ -482,7 +500,10 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     fromCat,
     fromBrand,
     lifeStage,
-    offerSort
+    offerSort,
+    canonicalSlug,
+    isClearancePage,
+    isOfferPage
   };
 }
 
@@ -664,14 +685,14 @@ export default function Shop() {
     fromCat,
     fromBrand,
     lifeStage,
-    offerSort
+    offerSort,
+    canonicalSlug,
+    isClearancePage,
+    isOfferPage
   } = useLoaderData<typeof loader>();
   const navigate = useNavigate();
   const [searchVal, setSearchVal] = useState(urlSearch);
   const [notified, setNotified] = useState(false);
-
-  const isClearancePage = pageTitle.toLowerCase() === "clearance" || slug.toLowerCase() === "clearance";
-  const isOfferPage = isClearancePage || slug === "sale" || slug === "bundles" || type === "offer" || type === "offers" || slug === "flash-sale";
 
   function buildPageHref(pageNumber: number) {
     const p = new URLSearchParams();
@@ -803,6 +824,8 @@ export default function Shop() {
                 isBrandPage={isBrandPage}
                 brandCategories={brandCategories}
                 fromCat={fromCat}
+                isOfferPage={isOfferPage}
+                sort={sort}
                 buildCategoryHref={buildCategoryHref}
                 navigate={navigate}
               />
@@ -828,6 +851,77 @@ export default function Shop() {
                 </span>
               ))}
             </div>
+
+            {/* Sale Disclaimer & Sign up Form */}
+            {pageTitle === "On Sale Now" && (
+              <div className="sale-container" style={{ marginBottom: "2rem" }}>
+                <div style={{
+                  color: "#ef4444",
+                  fontStyle: "italic",
+                  fontWeight: "600",
+                  fontSize: "0.95rem",
+                  marginBottom: "1.5rem"
+                }}>
+                  Looking to SAVE MORE? Visit our <Link to="/product-category/clearance/" style={{ textDecoration: "underline", fontWeight: "bold" }}>CLEARANCE</Link> page for deeper discounts.
+                </div>
+
+                <div style={{
+                  border: "1px solid #e2e8f0",
+                  borderRadius: "8px",
+                  padding: "1.5rem",
+                  background: "#f8fafc",
+                  marginBottom: "1.5rem"
+                }}>
+                  <h3 style={{
+                    color: "#1053a0",
+                    fontSize: "1.2rem",
+                    fontWeight: "600",
+                    margin: "0 0 1rem 0"
+                  }}>
+                    Sign up to receive our weekly sales products
+                  </h3>
+                  {notified ? (
+                    <div style={{ color: "#16a34a", fontWeight: "600", fontSize: "0.95rem" }}>
+                      ✓ Thank you! You will be notified of weekly sales products.
+                    </div>
+                  ) : (
+                    <form style={{ display: "flex", gap: "0.75rem" }} onSubmit={e => { e.preventDefault(); setNotified(true); }}>
+                      <input 
+                        type="email" 
+                        placeholder="Enter your email" 
+                        required
+                        style={{
+                          flex: 1,
+                          padding: "0.75rem 1rem",
+                          borderRadius: "6px",
+                          border: "1px solid #cbd5e1",
+                          fontSize: "0.95rem",
+                          outline: "none"
+                        }}
+                      />
+                      <button 
+                        type="submit" 
+                        style={{
+                          background: "#1053a0",
+                          color: "#ffffff",
+                          padding: "0.75rem 1.5rem",
+                          borderRadius: "6px",
+                          border: "none",
+                          fontWeight: "600",
+                          fontSize: "0.95rem",
+                          cursor: "pointer",
+                          transition: "background 0.2s"
+                        }}
+                        onMouseOver={e => e.currentTarget.style.background = "#0c3f7a"}
+                        onMouseOut={e => e.currentTarget.style.background = "#1053a0"}
+                      >
+                        Notify Me
+                      </button>
+                    </form>
+                  )}
+                </div>
+              </div>
+            )}
 
             {/* Clearance Disclaimer & Sign up Form */}
             {isClearancePage && (

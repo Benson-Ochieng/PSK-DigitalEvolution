@@ -214,7 +214,7 @@ const DRAWER_MENU_ITEMS = [
     name: "Offers",
     path: "/shop?type=offer",
     subItems: [
-      { name: "On Sale Now", path: "/shop?type=on-sale" },
+      { name: "On Sale Now", path: "/product-tag/sale/" },
       { name: "Flash Sale", path: "/flash-sale" },
       { name: "Clearance", path: "/shop?type=clearance" },
       { name: "Bulk Items", path: "/shop?type=bulk" }
@@ -266,7 +266,7 @@ const BANNER_SLIDES = [
   {
     desktopImage: "/images/petstore-sale-banner.gif",
     mobileImage: "/images/petstore-whatsapp-banner-mobile.gif",
-    linkTo: "/shop?type=on-sale",
+    linkTo: "/product-tag/sale/",
     alt: "On Sale Now - Click Here"
   },
   {
@@ -577,7 +577,7 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li style={{ borderBottom: "1px solid #eaeaea" }}>
-                  <Link to="/shop?type=on-sale" className="dropdown-item" style={{ padding: "0.75rem 1rem", fontSize: "0.85rem", fontWeight: 500 }}>
+                  <Link to="/product-tag/sale/" className="dropdown-item" style={{ padding: "0.75rem 1rem", fontSize: "0.85rem", fontWeight: 500 }}>
                     On Sale Now
                   </Link>
                 </li>
