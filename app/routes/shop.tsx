@@ -6,6 +6,7 @@ import { useCart } from "../context/cart";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { DogIcon, CatIcon, BoneIcon, DropletIcon } from "../components/CategoryIcon";
+import ShopSidebarFilters from "../components/ShopSidebarFilters";
 
 export function meta({ data }: Route.MetaArgs): Route.MetaDescriptors {
   const title = data?.pageTitle ? `${data.pageTitle} - PetStore Kenya` : "Products - PetStore Kenya";
@@ -158,7 +159,19 @@ export async function loader({ request, params }: Route.LoaderArgs) {
       animal = ANIMAL_STORE_SLUGS[canonicalSlug];
     } else {
       categorySlug = canonicalSlug;
-      if (canonicalSlug.includes("cat") || canonicalSlug.includes("kitten") || canonicalSlug === "litter-and-accessories" || canonicalSlug === "cat-litter-and-accessories") {
+      
+      const activeSidebar = getActiveSidebarSlug(canonicalSlug);
+      let resolvedAnimal = "";
+      for (const [key, list] of Object.entries(ANIMAL_CATEGORIES)) {
+        if (list.some(c => c.slug === activeSidebar)) {
+          resolvedAnimal = key;
+          break;
+        }
+      }
+      
+      if (resolvedAnimal) {
+        animal = resolvedAnimal;
+      } else if (canonicalSlug.includes("cat") || canonicalSlug.includes("kitten") || canonicalSlug === "litter-and-accessories" || canonicalSlug === "cat-litter-and-accessories") {
         animal = "cat";
       } else if (canonicalSlug.includes("dog") || canonicalSlug.includes("puppy")) {
         animal = "dog";
@@ -365,6 +378,24 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   const startIndex = (currentPage - 1) * limit;
   const productsToShow = allProducts.slice(startIndex, startIndex + limit);
 
+  // Dynamically resolve sidebar categories for the active animal
+  let sidebarCategories: { label: string; slug: string }[] = [];
+  if (animal) {
+    const animalRootSlug = animal === "cat" ? "cat-supplies-store" : (animal === "dog" ? "dog-supplies-store" : `${animal}-supplies-store`);
+    const animalParentCat = categories.find(c => c.slug === animalRootSlug);
+    if (animalParentCat) {
+      const childCats = categories.filter(c => c.parent === animalParentCat.id);
+      // Case-insensitive sorting by name
+      childCats.sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
+      sidebarCategories = childCats.map(c => ({
+        label: c.name,
+        slug: c.slug
+      }));
+    } else {
+      sidebarCategories = ANIMAL_CATEGORIES[animal] || [];
+    }
+  }
+
   return { 
     products: productsToShow, 
     totalResults, 
@@ -384,6 +415,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     isTag: isTagPage,
     isSearch: !!urlSearch,
     activeSidebarSlug: categorySlug ? getActiveSidebarSlug(categorySlug) : "",
+    sidebarCategories,
     fromCat,
     fromBrand,
     lifeStage,
@@ -563,6 +595,7 @@ export default function Shop() {
     isTag,
     isSearch,
     activeSidebarSlug,
+    sidebarCategories,
     fromCat,
     fromBrand,
     lifeStage,
@@ -692,47 +725,19 @@ export default function Shop() {
           {/* Sidebar */}
           {!hideFilter && (
             <aside className="shop-sidebar">
-              {animal && ANIMAL_CATEGORIES[animal] && (
-                <>
-                  <h3 className="sidebar-title" style={{ marginBottom: "1rem" }}>CATEGORIES</h3>
-                  <ul className="sidebar-brands-list" style={{ listStyle: "none", padding: 0, margin: 0 }}>
-                    {ANIMAL_CATEGORIES[animal].map(c => {
-                      const normSlug = slug ? slug.toLowerCase().replace(/\/$/, "") : "";
-                      const isActive = normSlug === c.slug || activeSidebarSlug === c.slug;
-                      return (
-                        <li key={c.slug} style={{ margin: "6px 0" }}>
-                          <Link 
-                            to={`/product-category/${c.slug}/`} 
-                            className={isActive ? "active-brand" : ""}
-                          >
-                            {c.label}
-                          </Link>
-                        </li>
-                      );
-                    })}
-                  </ul>
-                </>
-              )}
-
-              {!animal && (
-                <>
-                  <h3 className="sidebar-title">FILTER BY BRAND</h3>
-                  <ul className="sidebar-brands-list">
-                    <li>
-                      <Link to={buildCategoryHref("")} className={!brand ? "active-brand" : ""}>
-                        All Brands
-                      </Link>
-                    </li>
-                    {SIDEBAR_BRANDS.map(b => (
-                      <li key={b}>
-                        <Link to={buildCategoryHref(b)} className={brand.toLowerCase() === b.toLowerCase() ? "active-brand" : ""}>
-                          {b}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </>
-              )}
+              <ShopSidebarFilters
+                slug={slug}
+                animal={animal}
+                brand={brand}
+                lifeStage={lifeStage}
+                type={type}
+                isTag={isTag}
+                isSearch={isSearch}
+                activeSidebarSlug={activeSidebarSlug}
+                sidebarCategories={sidebarCategories}
+                buildCategoryHref={buildCategoryHref}
+                navigate={navigate}
+              />
             </aside>
           )}
 
