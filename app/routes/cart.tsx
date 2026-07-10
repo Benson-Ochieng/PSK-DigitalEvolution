@@ -126,7 +126,7 @@ export default function CartPage() {
               {/* Top Checkout Header Row */}
               <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "1.5rem" }}>
                 <div style={{ flex: 1 }} />
-                <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
+                <div style={{ display: "flex", justifyContent: "center" }}>
                   <Link
                     to="/checkout"
                     style={{
@@ -142,7 +142,8 @@ export default function CartPage() {
                       boxShadow: "0 3px 8px rgba(30, 93, 167, 0.2)",
                       textDecoration: "none",
                       display: "inline-block",
-                      textAlign: "center"
+                      textAlign: "center",
+                      whiteSpace: "nowrap"
                     }}
                   >
                     Proceed to checkout
@@ -328,7 +329,7 @@ export default function CartPage() {
               {/* Bottom Checkout Footer Row */}
               <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginTop: "1rem" }}>
                 <div style={{ flex: 1 }} />
-                <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
+                <div style={{ display: "flex", justifyContent: "center" }}>
                   <Link
                     to="/checkout"
                     style={{
@@ -344,7 +345,8 @@ export default function CartPage() {
                       boxShadow: "0 3px 8px rgba(30, 93, 167, 0.2)",
                       textDecoration: "none",
                       display: "inline-block",
-                      textAlign: "center"
+                      textAlign: "center",
+                      whiteSpace: "nowrap"
                     }}
                   >
                     Proceed to checkout
