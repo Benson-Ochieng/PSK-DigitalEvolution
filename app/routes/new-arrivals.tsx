@@ -13,6 +13,10 @@ export function meta() {
   ];
 }
 
+// Server-side cache for New Arrivals (5-minute TTL, keyed by sort type)
+let newArrivalsCache: Record<string, { data: any[]; timestamp: number }> = {};
+const CACHE_TTL = 5 * 60 * 1000;
+
 export async function loader({ request }: Route.LoaderArgs) {
   const url = new URL(request.url);
   const urlLimit = url.searchParams.get("limit") || "";
@@ -26,19 +30,27 @@ export async function loader({ request }: Route.LoaderArgs) {
     orderBy = "bbp.price DESC, p.name";
   }
 
-  const res = await query(`
-    SELECT
-      p.id, p.name, p.brand, p.weight_kg, p.animal_type, p.food_type, p.image_url, p.slug,
-      bbp.price AS our_price,
-      MIN(comp.price) AS competitor_min
-    FROM products p
-    JOIN store_prices bbp  ON bbp.product_id = p.id AND bbp.store_name = 'PetStore Kenya'
-    LEFT JOIN store_prices comp ON comp.product_id = p.id AND comp.store_name != 'PetStore Kenya'
-    GROUP BY p.id, p.name, p.brand, p.weight_kg, p.animal_type, p.food_type, p.image_url, p.slug, bbp.price
-    ORDER BY p.id DESC, ${orderBy}
-  `);
+  const now = Date.now();
+  const cacheKey = sort;
+  let allProducts: any[] = [];
 
-  const allProducts = res.rows;
+  if (newArrivalsCache[cacheKey] && (now - newArrivalsCache[cacheKey].timestamp) < CACHE_TTL) {
+    allProducts = newArrivalsCache[cacheKey].data;
+  } else {
+    const res = await query(`
+      SELECT
+        p.id, p.name, p.brand, p.weight_kg, p.animal_type, p.food_type, p.image_url, p.slug,
+        bbp.price AS our_price,
+        MIN(comp.price) AS competitor_min
+      FROM products p
+      JOIN store_prices bbp  ON bbp.product_id = p.id AND bbp.store_name = 'PetStore Kenya'
+      LEFT JOIN store_prices comp ON comp.product_id = p.id AND comp.store_name != 'PetStore Kenya'
+      GROUP BY p.id, p.name, p.brand, p.weight_kg, p.animal_type, p.food_type, p.image_url, p.slug, bbp.price
+      ORDER BY p.id DESC, ${orderBy}
+    `);
+    allProducts = res.rows;
+    newArrivalsCache[cacheKey] = { data: allProducts, timestamp: now };
+  }
   const totalResults = allProducts.length;
   const page = Number(url.searchParams.get("page")) || 1;
   const totalPages = Math.ceil(totalResults / limit);

@@ -241,6 +241,27 @@ export const migrations: Migration[] = [
       );
       DELETE FROM products WHERE slug IN ('sera-koi-royal-nature-mini-3800ml-2', 'sera-vipagran-nature-100ml-2', 'sera-pond-mix-royal-nature-1000ml-2') OR categories @> '[{"slug": "fish-food-treats"}]';
     `
+  },
+  {
+    id: 9,
+    name: 'add_performance_indices',
+    up: `
+      -- Index for products brand, animal_type, food_type
+      CREATE INDEX IF NOT EXISTS idx_products_brand ON products(brand);
+      CREATE INDEX IF NOT EXISTS idx_products_animal_type ON products(animal_type);
+      CREATE INDEX IF NOT EXISTS idx_products_food_type ON products(food_type);
+
+      -- GIN Index for JSONB categories and tags
+      CREATE INDEX IF NOT EXISTS idx_products_categories_gin ON products USING gin(categories);
+      CREATE INDEX IF NOT EXISTS idx_products_tags_gin ON products USING gin(tags);
+
+      -- Index for store_prices queries (e.g. JOINs and filtering on PetStore Kenya)
+      CREATE INDEX IF NOT EXISTS idx_store_prices_covering ON store_prices(product_id, store_name, price);
+
+      -- Special partial indices for fast lookup of our store prices and competitor prices
+      CREATE INDEX IF NOT EXISTS idx_store_prices_petstore_kenya ON store_prices(product_id, price) WHERE store_name = 'PetStore Kenya';
+      CREATE INDEX IF NOT EXISTS idx_store_prices_competitors ON store_prices(product_id, price) WHERE store_name != 'PetStore Kenya';
+    `
   }
 ];
 

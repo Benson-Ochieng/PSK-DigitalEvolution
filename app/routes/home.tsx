@@ -15,7 +15,20 @@ export function meta(): Route.MetaDescriptors {
   ];
 }
 
+// Server-side cache for Home page loader data (5-minute TTL)
+let homeCache: {
+  data: { stats: any; featured: any };
+  timestamp: number;
+} | null = null;
+
+const CACHE_TTL = 5 * 60 * 1000;
+
 export async function loader() {
+  const now = Date.now();
+  if (homeCache && (now - homeCache.timestamp) < CACHE_TTL) {
+    return homeCache.data;
+  }
+
   const statsRes = await query(`
     SELECT
       (SELECT COUNT(*) FROM products) AS product_count,
@@ -36,7 +49,13 @@ export async function loader() {
     LIMIT 20
   `);
 
-  return { stats: statsRes.rows[0], featured: featuredRes.rows };
+  const result = { stats: statsRes.rows[0], featured: featuredRes.rows };
+  homeCache = {
+    data: result,
+    timestamp: now
+  };
+
+  return result;
 }
 
 // ── Product Card matching PetStore Kenya ───────────────────────

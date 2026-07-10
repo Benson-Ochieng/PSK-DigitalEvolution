@@ -53,28 +53,100 @@ export function Layout({ children }: { children: React.ReactNode }) {
   );
 }
 
-import { useEffect } from "react";
+import { useEffect, useState, useRef } from "react";
 
 export default function App() {
   const navigation = useNavigation();
   const location = useLocation();
-  const isLoading = navigation.state === "loading";
+  const isLoadingState = navigation.state === "loading";
+  const [isLoading, setIsLoading] = useState(false);
+  const loadingStartRef = useRef<number>(0);
   const isAdminPath = location.pathname.startsWith("/store_backend");
+
+  useEffect(() => {
+    let timeoutId: any;
+    const MIN_LOAD_TIME = 600; // minimum duration in ms to ensure loading state is visible
+
+    if (isLoadingState) {
+      setIsLoading(true);
+      loadingStartRef.current = Date.now();
+    } else {
+      const elapsed = Date.now() - loadingStartRef.current;
+      const remaining = MIN_LOAD_TIME - elapsed;
+      if (remaining > 0) {
+        timeoutId = setTimeout(() => {
+          setIsLoading(false);
+        }, remaining);
+      } else {
+        setIsLoading(false);
+      }
+    }
+
+    return () => {
+      if (timeoutId) clearTimeout(timeoutId);
+    };
+  }, [isLoadingState]);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
     const faviconLink = document.querySelector("link[rel='icon']") as HTMLLinkElement;
     if (!faviconLink) return;
 
-    if (isLoading) {
-      const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32"><circle cx="16" cy="16" r="12" fill="rgba(0,0,0,0.2)"/><g fill="#ffffff"><circle cx="16" cy="8" r="2.8"/><circle cx="21.66" cy="10.34" r="2.4" opacity="0.8"/><circle cx="24" cy="16" r="2.0" opacity="0.5"/><circle cx="21.66" cy="21.66" r="1.6" opacity="0.2"/><animateTransform attributeName="transform" type="rotate" from="0 16 16" to="360 16 16" dur="0.8s" repeatCount="indefinite"/></g></svg>`;
-      const base64Svg = btoa(svgContent);
-      faviconLink.href = `data:image/svg+xml;base64,${base64Svg}`;
-    } else {
+    if (!isLoading) {
       faviconLink.href = "/images/cropped-petstore-kenya-favicon-512x512-blue-background-192x192.png";
+      return;
     }
 
+    // Animation canvas setup
+    const canvas = document.createElement("canvas");
+    canvas.width = 32;
+    canvas.height = 32;
+    const ctx = canvas.getContext("2d");
+    if (!ctx) return;
+
+    let animationFrameId: number;
+    let rotation = 0;
+
+    const draw = () => {
+      ctx.clearRect(0, 0, 32, 32);
+
+      // Draw the premium blue circle background matching PetStore Kenya branding
+      ctx.fillStyle = "#1E5DA7";
+      ctx.beginPath();
+      ctx.arc(16, 16, 16, 0, Math.PI * 2);
+      ctx.fill();
+
+      // Rotate around the center
+      ctx.save();
+      ctx.translate(16, 16);
+      ctx.rotate(rotation);
+
+      // Draw 6 rotating dots with trailing opacity matching the screenshot
+      const dotCount = 6;
+      for (let i = 0; i < dotCount; i++) {
+        const angle = (i / dotCount) * Math.PI * 2;
+        const x = Math.cos(angle) * 8.5;
+        const y = Math.sin(angle) * 8.5;
+        // Fade the dots sequentially
+        const opacity = 0.2 + 0.8 * (i / (dotCount - 1));
+        ctx.fillStyle = `rgba(255, 255, 255, ${opacity})`;
+        ctx.beginPath();
+        ctx.arc(x, y, 2.5, 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+      ctx.restore();
+
+      faviconLink.href = canvas.toDataURL("image/png");
+      rotation += 0.12; // animation speed
+
+      animationFrameId = requestAnimationFrame(draw);
+    };
+
+    draw();
+
     return () => {
+      cancelAnimationFrame(animationFrameId);
       faviconLink.href = "/images/cropped-petstore-kenya-favicon-512x512-blue-background-192x192.png";
     };
   }, [isLoading]);
