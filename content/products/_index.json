@@ -1670,27 +1670,6 @@
     "status": "publish"
   },
   {
-    "id": 52839,
-    "name": "Spectrum Lowgain Salmon & Anchovy For Medium And Large Breed Adult Dogs 2.5kg",
-    "slug": "spectrum-low-grain-salmon-anchovy-for-medium-and-large-breed-adult-dogs-2-5kg-3",
-    "sku": "PSK-52839",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
     "id": 42962,
     "name": "Petd Deworm 2 Tablets Dog And Cat",
     "slug": "petd-deworm-2-tablets-dog-and-cat",
@@ -1744,6 +1723,27 @@
         "slug": "pet-care"
       }
     ],
+    "status": "publish"
+  },
+  {
+    "id": 52839,
+    "name": "Spectrum Lowgain Salmon & Anchovy For Medium And Large Breed Adult Dogs 2.5kg",
+    "slug": "spectrum-low-grain-salmon-anchovy-for-medium-and-large-breed-adult-dogs-2-5kg-3",
+    "sku": "PSK-52839",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
     "status": "publish"
   },
   {
@@ -35207,6 +35207,27 @@
     "status": "publish"
   },
   {
+    "id": 52785,
+    "name": "Proline Bentonite Clumping Cat Litter Lavender 10l",
+    "slug": "proline-bentonite-clumping-cat-litter-lavender-10l-3",
+    "sku": "PSK-52785",
+    "regularPrice": null,
+    "salePrice": null,
+    "price": null,
+    "onSale": false,
+    "inStock": false,
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "status": "publish"
+  },
+  {
     "id": 39004,
     "name": "SHORT EXPIRY-CLEARANCE: Proline Puppy Food - Chicken 15kg",
     "slug": "short-expiry-clearance-proline-puppy-food-chicken-15kg",
@@ -35385,27 +35406,6 @@
         "id": 180,
         "name": "Spectrum",
         "slug": "spectrum"
-      }
-    ],
-    "brands": [],
-    "tags": [],
-    "status": "publish"
-  },
-  {
-    "id": 52785,
-    "name": "Proline Bentonite Clumping Cat Litter Lavender 10l",
-    "slug": "proline-bentonite-clumping-cat-litter-lavender-10l-3",
-    "sku": "PSK-52785",
-    "regularPrice": null,
-    "salePrice": null,
-    "price": null,
-    "onSale": false,
-    "inStock": false,
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
       }
     ],
     "brands": [],

@@ -1100,7 +1100,7 @@ body {
   text-decoration: none;
   color: var(--ink);
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   padding: 1rem 0.75rem;
   align-items: center;
   text-align: center;
@@ -2555,7 +2555,7 @@ body {
 
 .product-detail-layout {
   display: grid;
-  grid-template-columns: 0.8fr 1.2fr;
+  grid-template-columns: 1fr 1fr;
   gap: 3.5rem;
   align-items: start;
 }
@@ -2571,7 +2571,7 @@ body {
 
 .product-image-panel img {
   width: 100%;
-  max-width: 320px;
+  max-width: 350px;
   height: auto;
   object-fit: contain;
 }
@@ -3581,4 +3581,15 @@ a:hover {
 
 .page-container {
   padding-top: 0 !important;
+}
+
+/* Hide HTML5 Up/Down arrows (Spinners) */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
 }

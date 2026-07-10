@@ -39,22 +39,6 @@ export function meta({ data }: Route.MetaArgs) {
   ];
 }
 
-// ── Nutrition bar ─────────────────────────────────────────────
-function NutritionBar({ label, value, max, color }: { label: string; value: number; max: number; color: string }) {
-  const pct = Math.min((value / max) * 100, 100);
-  return (
-    <div style={{ marginBottom: "0.75rem" }}>
-      <div style={{ display: "flex", justifyContent: "space-between", fontFamily: "var(--font-mono)", fontSize: "0.68rem", fontWeight: 700, marginBottom: "0.3rem" }}>
-        <span style={{ textTransform: "uppercase", letterSpacing: "0.08em", color: "var(--ink-light)" }}>{label}</span>
-        <span style={{ color }}>{value}%</span>
-      </div>
-      <div style={{ height: 6, background: "#eee", borderRadius: 0 }}>
-        <div style={{ height: "100%", width: `${pct}%`, background: color, transition: "width 0.6s ease" }} />
-      </div>
-    </div>
-  );
-}
-
 export default function ProductDetail() {
   const { product: p } = useLoaderData<typeof loader>();
   const { addItem, setIsCartOpen } = useCart();
@@ -89,44 +73,15 @@ export default function ProductDetail() {
     }, 1000);
   }
 
-  const hasNutrition = p.nutrition_protein || p.nutrition_fat || p.nutrition_fibre || p.nutrition_moisture;
-
-  let backCategoryLink = "/shop";
-  let backCategoryName = "products";
-  if (Array.isArray(p.categories) && p.categories.length > 0) {
-    backCategoryLink = `/product-category/${p.categories[0].slug}/`;
-    backCategoryName = p.categories[0].name;
-  } else if (p.animal_type) {
-    backCategoryLink = `/product-category/${p.animal_type}-food/`;
-    backCategoryName = `${p.animal_type} food`;
-  }
-
   return (
     <>
       <Navbar />
 
       <div className="product-detail-container">
-        {/* Breadcrumb */}
-        <div style={{ fontFamily: "var(--font-sans)", fontSize: "0.8rem", color: "#64748b", marginBottom: "2rem" }}>
-          <Link to="/" style={{ color: "inherit", textDecoration: "none" }}>HOME</Link>
-          <span style={{ margin: "0 0.5rem", color: "#cbd5e1" }}>/</span>
-          <Link to="/shop" style={{ color: "inherit", textDecoration: "none" }}>SHOP</Link>
-          {Array.isArray(p.categories) && p.categories.length > 0 && (
-            <>
-              <span style={{ margin: "0 0.5rem", color: "#cbd5e1" }}>/</span>
-              <Link to={`/product-category/${p.categories[0].slug}/`} style={{ color: "inherit", textDecoration: "none", textTransform: "uppercase" }}>
-                {p.categories[0].name}
-              </Link>
-            </>
-          )}
-          <span style={{ margin: "0 0.5rem", color: "#cbd5e1" }}>/</span>
-          <span style={{ color: "#1e293b", fontWeight: 600 }}>{p.name.toUpperCase()}</span>
-        </div>
-
         {/* Main layout grid */}
         <div className="product-detail-layout">
           {/* Left Column: Image */}
-          <div className="product-image-panel" style={{ border: "1px solid #e2e8f0", borderRadius: "8px" }}>
+          <div className="product-image-panel">
             {p.image_url ? (
               <img src={p.image_url} alt={p.name} />
             ) : (
@@ -138,41 +93,55 @@ export default function ProductDetail() {
 
           {/* Right Column: Details */}
           <div>
-            {p.brand && (
-              <div style={{
+            <div style={{ position: "relative", marginBottom: "1.25rem", paddingBottom: "0.75rem" }}>
+              <h1 style={{
                 fontFamily: "var(--font-sans)",
-                fontSize: "0.75rem",
-                fontWeight: 700,
-                color: "#64748b",
-                textTransform: "uppercase",
-                letterSpacing: "0.05em",
-                marginBottom: "0.25rem"
+                fontSize: "1.5rem",
+                fontWeight: 500,
+                color: "#1e5da7",
+                lineHeight: 1.3,
+                margin: 0,
+                padding: 0
               }}>
-                {p.brand}
+                {p.name}
+              </h1>
+              {/* Decorative two-toned underline */}
+              <div style={{
+                position: "absolute",
+                bottom: 0,
+                left: 0,
+                right: 0,
+                height: "2px",
+                background: "#e2e8f0"
+              }}>
+                <div style={{
+                  width: "60px",
+                  height: "100%",
+                  background: "#1e5da7"
+                }} />
               </div>
-            )}
-
-            <h1 style={{
-              fontFamily: "var(--font-sans)",
-              fontSize: "1.9rem",
-              fontWeight: 700,
-              color: "#1e5da7",
-              lineHeight: 1.25,
-              marginBottom: "0.5rem",
-              marginTop: 0
-            }}>
-              {p.name}
-            </h1>
+            </div>
 
             {ourPrice && (
               <div style={{
                 fontFamily: "var(--font-sans)",
-                fontSize: "1.6rem",
-                fontWeight: 700,
-                color: "#e11d48",
+                fontSize: "1.45rem",
                 marginBottom: "1.25rem"
               }}>
-                {Number(ourPrice.price).toLocaleString()}KSh
+                {cheapestComp && Number(cheapestComp.price) > Number(ourPrice.price) ? (
+                  <>
+                    <span style={{ textDecoration: "line-through", textDecorationColor: "#807e7e", color: "#807e7e", fontSize: "1.1rem", marginRight: "0.75rem", fontWeight: "normal" }}>
+                      {Number(cheapestComp.price).toLocaleString()}KSh
+                    </span>
+                    <span style={{ color: "#ef4444", fontWeight: 700 }}>
+                      {Number(ourPrice.price).toLocaleString()}KSh
+                    </span>
+                  </>
+                ) : (
+                  <span style={{ color: "#ef4444", fontWeight: 700 }}>
+                    {Number(ourPrice.price).toLocaleString()}KSh
+                  </span>
+                )}
               </div>
             )}
 
@@ -253,7 +222,7 @@ export default function ProductDetail() {
                     border: "none",
                     padding: "0 2rem",
                     height: "38px",
-                    borderRadius: "4px",
+                    borderRadius: "25px",
                     fontWeight: "bold",
                     fontSize: "0.85rem",
                     cursor: "pointer",
@@ -301,23 +270,28 @@ export default function ProductDetail() {
         {/* Tabbed Info View */}
         <div style={{
           display: "flex",
-          borderBottom: "2px solid #e2e8f0",
+          borderBottom: "4px solid #1053a0",
           marginTop: "4.5rem",
           marginBottom: "2rem",
-          gap: "1.5rem"
+          gap: "4px"
         }}>
           <button
             onClick={() => setActiveTab("description")}
             style={{
-              padding: "0.75rem 1rem",
-              background: "none",
-              border: "none",
-              borderBottom: activeTab === "description" ? "3px solid #1e5da7" : "3px solid transparent",
-              color: activeTab === "description" ? "#1e5da7" : "#64748b",
+              padding: "0.75rem 1.5rem",
+              background: activeTab === "description" ? "#ffffff" : "#1053a0",
+              color: activeTab === "description" ? "#1053a0" : "#ffffff",
+              border: "1px solid #1053a0",
+              borderBottom: activeTab === "description" ? "4px solid #ffffff" : "none",
+              borderTopLeftRadius: "6px",
+              borderTopRightRadius: "6px",
               fontWeight: 700,
               fontSize: "0.95rem",
               cursor: "pointer",
-              transition: "all 0.2s ease"
+              position: "relative",
+              bottom: "-4px",
+              zIndex: activeTab === "description" ? 2 : 1,
+              transition: "all 0.15s ease"
             }}
           >
             Description
@@ -325,15 +299,20 @@ export default function ProductDetail() {
           <button
             onClick={() => setActiveTab("info")}
             style={{
-              padding: "0.75rem 1rem",
-              background: "none",
-              border: "none",
-              borderBottom: activeTab === "info" ? "3px solid #1e5da7" : "3px solid transparent",
-              color: activeTab === "info" ? "#1e5da7" : "#64748b",
+              padding: "0.75rem 1.5rem",
+              background: activeTab === "info" ? "#ffffff" : "#1053a0",
+              color: activeTab === "info" ? "#1053a0" : "#ffffff",
+              border: "1px solid #1053a0",
+              borderBottom: activeTab === "info" ? "4px solid #ffffff" : "none",
+              borderTopLeftRadius: "6px",
+              borderTopRightRadius: "6px",
               fontWeight: 700,
               fontSize: "0.95rem",
               cursor: "pointer",
-              transition: "all 0.2s ease"
+              position: "relative",
+              bottom: "-4px",
+              zIndex: activeTab === "info" ? 2 : 1,
+              transition: "all 0.15s ease"
             }}
           >
             Additional information
@@ -341,15 +320,20 @@ export default function ProductDetail() {
           <button
             onClick={() => setActiveTab("reviews")}
             style={{
-              padding: "0.75rem 1rem",
-              background: "none",
-              border: "none",
-              borderBottom: activeTab === "reviews" ? "3px solid #1e5da7" : "3px solid transparent",
-              color: activeTab === "reviews" ? "#1e5da7" : "#64748b",
+              padding: "0.75rem 1.5rem",
+              background: activeTab === "reviews" ? "#ffffff" : "#1053a0",
+              color: activeTab === "reviews" ? "#1053a0" : "#ffffff",
+              border: "1px solid #1053a0",
+              borderBottom: activeTab === "reviews" ? "4px solid #ffffff" : "none",
+              borderTopLeftRadius: "6px",
+              borderTopRightRadius: "6px",
               fontWeight: 700,
               fontSize: "0.95rem",
               cursor: "pointer",
-              transition: "all 0.2s ease"
+              position: "relative",
+              bottom: "-4px",
+              zIndex: activeTab === "reviews" ? 2 : 1,
+              transition: "all 0.15s ease"
             }}
           >
             Reviews (0)
@@ -359,88 +343,10 @@ export default function ProductDetail() {
         {/* Tab Content */}
         <div style={{ minHeight: "220px", marginBottom: "3rem" }}>
           {activeTab === "description" && (
-            <div style={{ fontFamily: "var(--font-sans)", fontSize: "0.9rem", color: "#334155", lineHeight: "1.7" }}>
+            <div style={{ fontFamily: "var(--font-sans)", fontSize: "0.95rem", color: "#334155", lineHeight: "1.75" }}>
               {p.description && (
-                <div style={{ marginBottom: "2rem", whiteSpace: "pre-line" }}>
+                <div style={{ whiteSpace: "pre-line" }}>
                   {p.description}
-                </div>
-              )}
-
-              {/* Bulleted Attributes list */}
-              <ul style={{ paddingLeft: "1.25rem", marginBottom: "2rem", display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-                {p.brand && <li><strong>Brand:</strong> {p.brand}</li>}
-                {p.weight_kg && <li><strong>Weight:</strong> {p.weight_kg}kg</li>}
-                {p.animal_type && <li><strong>Animal Type:</strong> <span style={{ textTransform: "capitalize" }}>{p.animal_type}</span></li>}
-                {p.food_type && <li><strong>Food Type:</strong> <span style={{ textTransform: "capitalize" }}>{p.food_type}</span></li>}
-              </ul>
-
-              {/* Guaranteed Analysis */}
-              {hasNutrition && (
-                <div style={{ marginTop: "2rem", maxWidth: "500px" }}>
-                  <p style={{ fontWeight: 700, textTransform: "uppercase", fontSize: "0.85rem", letterSpacing: "0.05em", color: "#1e293b", marginBottom: "1rem" }}>
-                    Guaranteed Analysis
-                  </p>
-                  {p.nutrition_protein && <NutritionBar label="Crude Protein" value={Number(p.nutrition_protein)} max={50} color="#1e5da7" />}
-                  {p.nutrition_fat && <NutritionBar label="Crude Fat" value={Number(p.nutrition_fat)} max={25} color="#10b981" />}
-                  {p.nutrition_fibre && <NutritionBar label="Crude Fibre" value={Number(p.nutrition_fibre)} max={10} color="#f59e0b" />}
-                  {p.nutrition_moisture && <NutritionBar label="Moisture Max" value={Number(p.nutrition_moisture)} max={100} color="#3b82f6" />}
-                </div>
-              )}
-
-              {/* Key Ingredients */}
-              {p.key_ingredients && (
-                <div style={{ marginTop: "2rem" }}>
-                  <p style={{ fontWeight: 700, textTransform: "uppercase", fontSize: "0.85rem", letterSpacing: "0.05em", color: "#1e293b", marginBottom: "0.5rem" }}>
-                    Ingredients
-                  </p>
-                  <p style={{ color: "#475569" }}>{p.key_ingredients}</p>
-                </div>
-              )}
-
-              {/* Feeding Guide */}
-              {p.feeding_guide && (
-                <div style={{ marginTop: "2rem" }}>
-                  <p style={{ fontWeight: 700, textTransform: "uppercase", fontSize: "0.85rem", letterSpacing: "0.05em", color: "#1e293b", marginBottom: "0.5rem" }}>
-                    Feeding Guide
-                  </p>
-                  <p style={{ color: "#475569", marginBottom: "1.5rem" }}>{p.feeding_guide}</p>
-                </div>
-              )}
-
-              {/* Daily Feeding Guide row */}
-              {p.animal_type === "cat" && (
-                <div style={{
-                  marginTop: "2rem",
-                  border: "1px solid #fed7aa",
-                  borderRadius: "6px",
-                  overflow: "hidden",
-                  maxWidth: "600px"
-                }}>
-                  <div style={{ background: "#f97316", color: "#fff", padding: "0.5rem", textAlign: "center", fontWeight: "bold", fontSize: "0.85rem", textTransform: "uppercase", letterSpacing: "0.05em" }}>
-                    Günlük Besleme Rehberi / Daily Feeding Guide
-                  </div>
-                  <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", background: "#ffedd5", padding: "1rem", gap: "0.5rem", textAlign: "center" }}>
-                    <div>
-                      <div style={{ fontSize: "1.5rem" }}>🐱</div>
-                      <div style={{ fontSize: "0.75rem", color: "#7c2d12", fontWeight: "bold", marginTop: "0.25rem" }}>1-2 kg</div>
-                      <div style={{ fontSize: "0.8rem", color: "#ea580c", fontWeight: "bold" }}>30-45 gr</div>
-                    </div>
-                    <div>
-                      <div style={{ fontSize: "1.7rem" }}>🐱</div>
-                      <div style={{ fontSize: "0.75rem", color: "#7c2d12", fontWeight: "bold", marginTop: "0.25rem" }}>3-4 kg</div>
-                      <div style={{ fontSize: "0.8rem", color: "#ea580c", fontWeight: "bold" }}>60-80 gr</div>
-                    </div>
-                    <div>
-                      <div style={{ fontSize: "1.9rem" }}>🐱</div>
-                      <div style={{ fontSize: "0.75rem", color: "#7c2d12", fontWeight: "bold", marginTop: "0.25rem" }}>5-6 kg</div>
-                      <div style={{ fontSize: "0.8rem", color: "#ea580c", fontWeight: "bold" }}>100-120 gr</div>
-                    </div>
-                    <div>
-                      <div style={{ fontSize: "2.1rem" }}>🐱</div>
-                      <div style={{ fontSize: "0.75rem", color: "#7c2d12", fontWeight: "bold", marginTop: "0.25rem" }}>7-8 kg</div>
-                      <div style={{ fontSize: "0.8rem", color: "#ea580c", fontWeight: "bold" }}>140-160 gr</div>
-                    </div>
-                  </div>
                 </div>
               )}
             </div>
@@ -489,13 +395,6 @@ export default function ProductDetail() {
             <p style={{ fontSize: "0.9rem", lineHeight: 1.6, color: "#1f2937", margin: 0 }}>{p.replaces_reason}</p>
           </div>
         )}
-
-        {/* Back Link CTA */}
-        <div style={{ marginTop: "3rem", paddingBottom: "2rem", textAlign: "center" }}>
-          <Link to={backCategoryLink} className="btn-primary" style={{ display: "inline-block", textDecoration: "none" }}>
-            See more {backCategoryName} →
-          </Link>
-        </div>
       </div>
 
       <Footer />

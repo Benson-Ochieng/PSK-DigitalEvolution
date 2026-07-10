@@ -6,6 +6,7 @@ import { useCart } from "../context/cart";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { DogIcon, CatIcon, BoneIcon, DropletIcon } from "../components/CategoryIcon";
+import ShopSidebarFilters from "../components/ShopSidebarFilters";
 
 export function meta({ data }: Route.MetaArgs): Route.MetaDescriptors {
   const title = data?.pageTitle ? `${data.pageTitle} - PetStore Kenya` : "Products - PetStore Kenya";
@@ -151,6 +152,20 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     canonicalSlug = SLUG_ALIASES[canonicalSlug];
   }
 
+  let isBrandPage = false;
+  if (canonicalSlug) {
+    const brandCheck = await query(
+      `SELECT EXISTS (SELECT 1 FROM products WHERE REPLACE(LOWER(brand), ' ', '-') = LOWER($1))`,
+      [canonicalSlug]
+    );
+    isBrandPage = brandCheck.rows[0]?.exists || false;
+  }
+
+  if (!isBrandPage && brand) {
+    isBrandPage = true;
+    canonicalSlug = brand.toLowerCase();
+  }
+
   if (canonicalSlug) {
     if (isTagPage) {
       tagSlug = canonicalSlug;
@@ -158,7 +173,19 @@ export async function loader({ request, params }: Route.LoaderArgs) {
       animal = ANIMAL_STORE_SLUGS[canonicalSlug];
     } else {
       categorySlug = canonicalSlug;
-      if (canonicalSlug.includes("cat") || canonicalSlug.includes("kitten") || canonicalSlug === "litter-and-accessories" || canonicalSlug === "cat-litter-and-accessories") {
+      
+      const activeSidebar = getActiveSidebarSlug(canonicalSlug);
+      let resolvedAnimal = "";
+      for (const [key, list] of Object.entries(ANIMAL_CATEGORIES)) {
+        if (list.some(c => c.slug === activeSidebar)) {
+          resolvedAnimal = key;
+          break;
+        }
+      }
+      
+      if (resolvedAnimal) {
+        animal = resolvedAnimal;
+      } else if (canonicalSlug.includes("cat") || canonicalSlug.includes("kitten") || canonicalSlug === "litter-and-accessories" || canonicalSlug === "cat-litter-and-accessories") {
         animal = "cat";
       } else if (canonicalSlug.includes("dog") || canonicalSlug.includes("puppy")) {
         animal = "dog";
@@ -175,7 +202,11 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     pageTitle = `Search Results for "${urlSearch}"`;
   } else if (slug) {
     if (isTagPage) {
-      pageTitle = canonicalSlug.split("-").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+      if (canonicalSlug === "sale") {
+        pageTitle = "On Sale Now";
+      } else {
+        pageTitle = canonicalSlug.split("-").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+      }
     } else {
       const matchedCat = CAT_CATEGORIES.find(c => c.slug === canonicalSlug) || DOG_CATEGORIES.find(c => c.slug === canonicalSlug);
       const dbCat = categories.find(c => c.slug === canonicalSlug);
@@ -284,9 +315,15 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     sqlParams.push(`%${search.toLowerCase()}%`);
     conditions.push(`LOWER(p.name) LIKE $${sqlParams.length}`);
   }
+<<<<<<< HEAD
   if (brand) {
     sqlParams.push(brand);
     conditions.push(`LOWER(p.brand) = LOWER($${sqlParams.length})`);
+=======
+  if (brand && !isBrandPage) { 
+    sqlParams.push(brand);  
+    conditions.push(`REPLACE(LOWER(p.brand), ' ', '-') = LOWER($${sqlParams.length})`); 
+>>>>>>> 145bf58465a22291e2f5cf4f6e89e6af7e995532
   }
 
   if (lifeStage) {
@@ -297,6 +334,23 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   if (isTagPage && tagSlug) {
     sqlParams.push(JSON.stringify([{ slug: tagSlug }]));
     conditions.push(`p.tags @> $${sqlParams.length}::jsonb`);
+  } else if (isBrandPage) {
+    sqlParams.push(canonicalSlug);
+    conditions.push(`REPLACE(LOWER(p.brand), ' ', '-') = LOWER($${sqlParams.length})`);
+
+    if (crossSlug) {
+      const crossDescendantSlugs = getDescendants(crossSlug);
+      sqlParams.push(crossDescendantSlugs);
+      conditions.push(`
+        p.categories IS NOT NULL 
+        AND jsonb_typeof(p.categories) = 'array' 
+        AND EXISTS (
+          SELECT 1 
+          FROM jsonb_to_recordset(p.categories) AS x(slug text)
+          WHERE x.slug = ANY($${sqlParams.length}::text[])
+        )
+      `);
+    }
   } else if (categorySlug) {
     const descendantSlugs = getDescendants(categorySlug);
     sqlParams.push(descendantSlugs);
@@ -325,7 +379,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
               WHERE x.slug = ANY($${paramIdx1}::text[])
             )
           )
-          OR LOWER(p.brand) = LOWER($${paramIdx2})
+          OR REPLACE(LOWER(p.brand), ' ', '-') = LOWER($${paramIdx2})
         )
       `);
     }
@@ -372,9 +426,77 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   const startIndex = (currentPage - 1) * limit;
   const productsToShow = allProducts.slice(startIndex, startIndex + limit);
 
+<<<<<<< HEAD
   return {
     products: productsToShow,
     totalResults,
+=======
+  // Dynamically resolve sidebar categories for the active animal
+  let sidebarCategories: { label: string; slug: string }[] = [];
+  if (animal) {
+    const animalRootSlug = animal === "cat" ? "cat-supplies-store" : (animal === "dog" ? "dog-supplies-store" : `${animal}-supplies-store`);
+    const animalParentCat = categories.find(c => c.slug === animalRootSlug);
+    if (animalParentCat) {
+      const childCats = categories.filter(c => c.parent === animalParentCat.id);
+      // Case-insensitive sorting by name
+      childCats.sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
+      sidebarCategories = childCats.map(c => ({
+        label: c.name,
+        slug: c.slug
+      }));
+    } else {
+      sidebarCategories = ANIMAL_CATEGORIES[animal] || [];
+    }
+  }
+
+  // Query brand subcategory details if this is a brand page
+  let brandCategories: { name: string; slug: string; count: number }[] = [];
+  if (isBrandPage) {
+    // Set pageTitle to dynamic brand name
+    const dbCat = categories.find(c => c.slug === canonicalSlug);
+    pageTitle = dbCat ? dbCat.name : canonicalSlug.split("-").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+
+    const brandRes = await query(`
+      SELECT 
+        c.slug, 
+        c.name,
+        COUNT(p.id) as count
+      FROM products p
+      JOIN store_prices bbp ON bbp.product_id = p.id AND bbp.store_name = 'PetStore Kenya',
+      LATERAL jsonb_to_recordset(p.categories) AS c(id int, name text, slug text)
+      WHERE REPLACE(LOWER(p.brand), ' ', '-') = LOWER($1)
+      AND c.slug != LOWER($1)
+      AND REPLACE(LOWER(c.slug), ' ', '-') != LOWER($1)
+      AND c.slug NOT IN ('dog-supplies-store', 'cat-supplies-store', 'dog', 'cat', 'dog-food', 'cat-food', 'dog-food-treats', 'cat-food-and-treats', 'sale', 'clearance', 'bundles')
+      GROUP BY c.slug, c.name
+      ORDER BY c.name ASC
+    `, [canonicalSlug]);
+
+    brandCategories = brandRes.rows.map((row: any) => ({
+      name: row.name,
+      slug: row.slug,
+      count: Number(row.count)
+    }));
+  }
+
+  const isClearancePage = 
+    canonicalSlug === "clearance" || 
+    originalType === "clearance";
+
+  const isOfferPage = 
+    isClearancePage || 
+    canonicalSlug === "sale" || 
+    canonicalSlug === "bundles" || 
+    originalType === "on-sale" || 
+    originalType === "bundles" || 
+    originalType === "offer" || 
+    originalType === "offers" || 
+    canonicalSlug === "flash-sale";
+
+  return { 
+    products: productsToShow, 
+    totalResults, 
+>>>>>>> 145bf58465a22291e2f5cf4f6e89e6af7e995532
     totalPages,
     currentPage,
     startIndex,
@@ -391,10 +513,16 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     isTag: isTagPage,
     isSearch: !!urlSearch,
     activeSidebarSlug: categorySlug ? getActiveSidebarSlug(categorySlug) : "",
+    sidebarCategories,
+    isBrandPage,
+    brandCategories,
     fromCat,
     fromBrand,
     lifeStage,
-    offerSort
+    offerSort,
+    canonicalSlug,
+    isClearancePage,
+    isOfferPage
   };
 }
 
@@ -493,8 +621,8 @@ function ProductCard({ p, animal }: { p: any; animal: string }) {
       {isOnSale && (
         <span className="sale-badge" style={{
           position: "absolute",
-          top: "0.5rem",
-          right: "0.5rem",
+          top: "-10px",
+          right: "-10px",
           background: "#958e09",
           color: "#ffffff",
           borderRadius: "50%",
@@ -528,7 +656,7 @@ function ProductCard({ p, animal }: { p: any; animal: string }) {
           <div className="product-price">
             {isOnSale ? (
               <>
-                <span style={{ textDecoration: "line-through", textDecorationColor: "#807e7e", color: "#807e7e", fontSize: "0.85rem", marginRight: "0.5rem", fontWeight: "bold" }}>
+                <span style={{ textDecoration: "line-through", textDecorationColor: "#ef4444", color: "#a6a6a6", fontSize: "0.85rem", marginRight: "0.5rem", fontWeight: "bold" }}>
                   {Number(p.competitor_min).toLocaleString()}KSh
                 </span>
                 <span style={{ color: "#ef4444" }}>
@@ -570,17 +698,20 @@ export default function Shop() {
     isTag,
     isSearch,
     activeSidebarSlug,
+    sidebarCategories,
+    isBrandPage,
+    brandCategories,
     fromCat,
     fromBrand,
     lifeStage,
-    offerSort
+    offerSort,
+    canonicalSlug,
+    isClearancePage,
+    isOfferPage
   } = useLoaderData<typeof loader>();
   const navigate = useNavigate();
   const [searchVal, setSearchVal] = useState(urlSearch);
   const [notified, setNotified] = useState(false);
-
-  const isClearancePage = pageTitle.toLowerCase() === "clearance" || slug.toLowerCase() === "clearance";
-  const isOfferPage = isClearancePage || slug === "sale" || slug === "bundles" || type === "offer" || type === "offers" || slug === "flash-sale";
 
   function buildPageHref(pageNumber: number) {
     const p = new URLSearchParams();
@@ -700,6 +831,7 @@ export default function Shop() {
           {/* Sidebar */}
           {!hideFilter && (
             <aside className="shop-sidebar">
+<<<<<<< HEAD
               {animal && ANIMAL_CATEGORIES[animal] && (
                 <>
                   <h3 className="sidebar-title" style={{ marginBottom: "1rem" }}>CATEGORIES</h3>
@@ -741,6 +873,26 @@ export default function Shop() {
                   </ul>
                 </>
               )}
+=======
+              <ShopSidebarFilters
+                slug={slug}
+                animal={animal}
+                brand={brand}
+                lifeStage={lifeStage}
+                type={type}
+                isTag={isTag}
+                isSearch={isSearch}
+                activeSidebarSlug={activeSidebarSlug}
+                sidebarCategories={sidebarCategories}
+                isBrandPage={isBrandPage}
+                brandCategories={brandCategories}
+                fromCat={fromCat}
+                isOfferPage={isOfferPage}
+                sort={sort}
+                buildCategoryHref={buildCategoryHref}
+                navigate={navigate}
+              />
+>>>>>>> 145bf58465a22291e2f5cf4f6e89e6af7e995532
             </aside>
           )}
 
@@ -763,6 +915,77 @@ export default function Shop() {
                 </span>
               ))}
             </div>
+
+            {/* Sale Disclaimer & Sign up Form */}
+            {pageTitle === "On Sale Now" && (
+              <div className="sale-container" style={{ marginBottom: "2rem" }}>
+                <div style={{
+                  color: "#ef4444",
+                  fontStyle: "italic",
+                  fontWeight: "600",
+                  fontSize: "0.95rem",
+                  marginBottom: "1.5rem"
+                }}>
+                  Looking to SAVE MORE? Visit our <Link to="/product-category/clearance/" style={{ textDecoration: "underline", fontWeight: "bold" }}>CLEARANCE</Link> page for deeper discounts.
+                </div>
+
+                <div style={{
+                  border: "1px solid #e2e8f0",
+                  borderRadius: "8px",
+                  padding: "1.5rem",
+                  background: "#f8fafc",
+                  marginBottom: "1.5rem"
+                }}>
+                  <h3 style={{
+                    color: "#1053a0",
+                    fontSize: "1.2rem",
+                    fontWeight: "600",
+                    margin: "0 0 1rem 0"
+                  }}>
+                    Sign up to receive our weekly sales products
+                  </h3>
+                  {notified ? (
+                    <div style={{ color: "#16a34a", fontWeight: "600", fontSize: "0.95rem" }}>
+                      ✓ Thank you! You will be notified of weekly sales products.
+                    </div>
+                  ) : (
+                    <form style={{ display: "flex", gap: "0.75rem" }} onSubmit={e => { e.preventDefault(); setNotified(true); }}>
+                      <input 
+                        type="email" 
+                        placeholder="Enter your email" 
+                        required
+                        style={{
+                          flex: 1,
+                          padding: "0.75rem 1rem",
+                          borderRadius: "6px",
+                          border: "1px solid #cbd5e1",
+                          fontSize: "0.95rem",
+                          outline: "none"
+                        }}
+                      />
+                      <button 
+                        type="submit" 
+                        style={{
+                          background: "#1053a0",
+                          color: "#ffffff",
+                          padding: "0.75rem 1.5rem",
+                          borderRadius: "6px",
+                          border: "none",
+                          fontWeight: "600",
+                          fontSize: "0.95rem",
+                          cursor: "pointer",
+                          transition: "background 0.2s"
+                        }}
+                        onMouseOver={e => e.currentTarget.style.background = "#0c3f7a"}
+                        onMouseOut={e => e.currentTarget.style.background = "#1053a0"}
+                      >
+                        Notify Me
+                      </button>
+                    </form>
+                  )}
+                </div>
+              </div>
+            )}
 
             {/* Clearance Disclaimer & Sign up Form */}
             {isClearancePage && (
