@@ -1,15 +1,26 @@
+import { useLoaderData } from "react-router";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import PageHeader from "../components/PageHeader";
+import { getPage } from "../lib/content.server";
 
-export function meta() {
+export function loader() {
+  const page = getPage("brochures");
+  return { page };
+}
+
+export function meta({ data }: { data: any }) {
+  const title = data?.page?.seo?.title || "Brochures - PetStore Kenya";
+  const description = data?.page?.seo?.description || "Download our product brochures and leaflets at PetStore Kenya.";
   return [
-    { title: "Brochures - PetStore Kenya" },
-    { name: "description", content: "Download our product brochures and leaflets at PetStore Kenya." },
+    { title },
+    { name: "description", content: description },
   ];
 }
 
 export default function Brochures() {
+  const { page } = useLoaderData() as any;
+
   return (
     <>
       <Navbar />
@@ -25,7 +36,7 @@ export default function Brochures() {
       >
         
         {/* Title Banner */}
-        <PageHeader title="Brochures" />
+        <PageHeader title={page?.title || "Brochures"} />
 
         {/* Content Section */}
         <div 
@@ -35,31 +46,10 @@ export default function Brochures() {
             padding: "1rem",
             color: "#333333"
           }}
-        >
-          
-          <div style={{ marginTop: "1rem" }}>
-            <a 
-              href="/downloads/Spectrum-Brochure_-Final-19.05.2021.pdf" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                color: "#3182ce",
-                textDecoration: "none",
-                fontSize: "1.05rem",
-                fontWeight: 500,
-                gap: "0.5rem"
-              }}
-              onMouseOver={(e) => e.currentTarget.style.textDecoration = "underline"}
-              onMouseOut={(e) => e.currentTarget.style.textDecoration = "none"}
-            >
-              <i className="fa fa-cloud-download" style={{ fontSize: "1.2rem" }} />
-              Brochure: Spectrum Functional Line & Spectrum Low Grain
-            </a>
-          </div>
-
-        </div>
+          dangerouslySetInnerHTML={{ 
+            __html: page?.content || "" 
+          }}
+        />
 
       </div>
       <Footer />

@@ -21,7 +21,7 @@ export async function loader({ request }: { request: Request }) {
     const pageFilePath = path.join(CONTENT_DIR, "pages", `${p.slug}.json`);
     let status = "publish";
     let date = "2026-06-04T10:00:00";
-    let author = "Paul Kibet";
+    let author = "Administrator";
     let seoScore = "good";
     let readabilityScore = "good";
     let outgoingLinks = Math.floor(Math.random() * 6);
@@ -35,8 +35,7 @@ export async function loader({ request }: { request: Request }) {
         if (details.author) {
           author = details.author;
         } else {
-          // Keep it authentic to the mockup
-          author = p.id % 2 === 0 ? "Paul Kibet" : "Administrator";
+          author = "Administrator";
         }
 
         // Simple heuristic for SEO / Readability score matching Yoast
@@ -141,6 +140,7 @@ export async function action({ request }: { request: Request }) {
     pageDetails.status = status;
     pageDetails.parent = parent;
     pageDetails.link = link;
+    pageDetails.author = currentUser.name || "Administrator";
     if (dateInput) {
       pageDetails.date = dateInput;
     }
@@ -230,6 +230,7 @@ export async function action({ request }: { request: Request }) {
     pageDetails.status = status;
     pageDetails.parent = parent;
     pageDetails.link = link;
+    pageDetails.author = currentUser.name || "Administrator";
     pageDetails.content = content;
     pageDetails.excerpt = excerpt;
     pageDetails.modified = new Date().toISOString().split('.')[0];
@@ -511,7 +512,7 @@ export default function VpBackendPages() {
   const tabFilteredPages = allPages.filter((p: any) => {
     if (activeTab === "published") return p.status === "publish";
     if (activeTab === "drafts") return p.status === "draft" || p.status === "pending";
-    if (activeTab === "mine") return p.author === "Paul Kibet";
+    if (activeTab === "mine") return p.author === "Administrator";
     return true;
   });
 
@@ -949,7 +950,7 @@ export default function VpBackendPages() {
               onClick={() => { setActiveTab("mine"); setCurrentPage(1); }}
               style={{ background: "none", border: "none", color: activeTab === "mine" ? "#00ccff" : "rgba(255,255,255,0.6)", fontWeight: activeTab === "mine" ? "600" : "400", cursor: "pointer", padding: 0, outline: "none" }}
             >
-              Mine ({allPages.filter((p: any) => p.author === "Paul Kibet").length})
+              Mine ({allPages.filter((p: any) => p.author === "Administrator").length})
             </button>
             <span style={{ color: "rgba(255,255,255,0.15)" }}>|</span>
             <button

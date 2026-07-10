@@ -7,7 +7,7 @@
   "link": "https://petstore.co.ke/brochures/",
   "date": "2026-06-23T13:54:00",
   "modified": "2026-06-23T13:54:00",
-  "content": "<h2>Brochures</h2><p>Download our official pet food and product brochures.</p>",
+  "content": "<div style=\"padding-top: 1rem; padding-bottom: 2rem;\">\n  <div style=\"margin-top: 1rem;\">\n    <a href=\"/downloads/Spectrum-Brochure_-Final-19.05.2021.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display: inline-flex; align-items: center; color: #3182ce; text-decoration: none; font-size: 1.05rem; font-weight: 500; gap: 0.5rem;\">\n      <i class=\"fa fa-cloud-download\" style=\"font-size: 1.2rem;\"></i>\n      Brochure: Spectrum Functional Line & Spectrum Low Grain\n    </a>\n  </div>\n</div>",
   "excerpt": "Download our official pet food and product brochures.",
   "featuredImage": null,
   "seo": {
@@ -15,5 +15,6 @@
     "description": "Download our official pet food and product brochures.",
     "canonical": "https://petstore.co.ke/brochures/",
     "ogImage": null
-  }
+  },
+  "author": "Administrator"
 }

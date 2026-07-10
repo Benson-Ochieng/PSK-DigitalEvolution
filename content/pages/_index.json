@@ -61,5 +61,61 @@
     "slug": "sustainability",
     "link": "https://petstore.co.ke/sustainability/",
     "parent": 0
+  },
+  {
+    "id": 10,
+    "title": "About Us",
+    "slug": "about-us",
+    "link": "https://petstore.co.ke/about-us/",
+    "parent": 0
+  },
+  {
+    "id": 11,
+    "title": "Blog",
+    "slug": "blog",
+    "link": "https://petstore.co.ke/blog/",
+    "parent": 0
+  },
+  {
+    "id": 12,
+    "title": "Brochures",
+    "slug": "brochures",
+    "link": "https://petstore.co.ke/brochures/",
+    "parent": 0
+  },
+  {
+    "id": 13,
+    "title": "Food Comparison",
+    "slug": "food-comparison",
+    "link": "https://petstore.co.ke/food-comparison/",
+    "parent": 0
+  },
+  {
+    "id": 14,
+    "title": "Privacy Policy",
+    "slug": "privacy-policy",
+    "link": "https://petstore.co.ke/privacy-policy/",
+    "parent": 0
+  },
+  {
+    "id": 15,
+    "title": "Quality Management",
+    "slug": "quality-management",
+    "link": "https://petstore.co.ke/quality-management/",
+    "parent": 0
+  },
+  {
+    "id": 16,
+    "title": "Retail Locations",
+    "slug": "retail-locations",
+    "link": "https://petstore.co.ke/retail-locations/",
+    "parent": 0
+  },
+  {
+    "id": 17,
+    "title": "Terms & Conditions",
+    "slug": "terms-and-conditions",
+    "link": "https://petstore.co.ke/terms-and-conditions/",
+    "parent": 0
   }
 ]
