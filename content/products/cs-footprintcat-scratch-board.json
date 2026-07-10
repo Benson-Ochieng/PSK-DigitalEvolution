@@ -1,0 +1,72 @@
+{
+  "id": 91114,
+  "name": "CS Footprintcat Scratch Board",
+  "slug": "cs-footprintcat-scratch-board",
+  "sku": "CSFSB",
+  "onSale": false,
+  "price": 775,
+  "regularPrice": 775,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/cat-scratch-toy-1.png",
+  "categories": [
+    {
+      "id": 2397,
+      "name": "Brushes & Fur Removal Tools",
+      "slug": "brushes-fur-removal-tools"
+    },
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2343,
+      "name": "Cat Grooming",
+      "slug": "cat-grooming"
+    },
+    {
+      "id": 2342,
+      "name": "Cat Toys",
+      "slug": "cat-toys"
+    }
+  ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/cs-footprintcat-scratch-board/",
+  "shortDescription": "The CS Cat Footprint Scratch Board is a fun and engaging interactive scratching toy designed to satisfy your cat's natural scratching instincts while promoting healthy exercise and mental stimulation. Featuring a cute paw-shaped scratch pad with a built-in spring teaser toy, this scratch board keeps cats entertained for hours while helping protect your furniture from unwanted scratching.",
+  "description": "Made from durable, cat-safe materials, the textured scratching surface encourages claw maintenance and healthy nail conditioning. The flexible spring wand with colourful feathers and a bell stimulates your cat's hunting instincts, providing endless interactive play for kittens and adult cats alike. Perfect for indoor cats, the CS Footprint Scratch Board combines scratching, chasing, batting, and pouncing into one compact toy, helping reduce boredom, anxiety, and destructive behaviour. Key Features Interactive spring-mounted feather teaser with bell Paw-shaped scratch board design Durable textured scratching surface Encourages natural scratching behaviour Helps maintain healthy claws and nails Provides mental stimulation and daily exercise Reduces boredom and destructive scratching Suitable for kittens and adult cats Lightweight and easy to place anywhere indoors Made from pet-safe, durable materials Benefits Satisfies natural scratching instincts Promotes healthy physical activity Supports claw maintenance Keeps indoor cats mentally stimulated Encourages independent play Helps protect furniture, carpets, and curtains from scratching Why Cats Love It The combination of a scratching surface and an interactive feather toy taps into your cat's natural instincts to scratch, stalk, chase, and pounce. The bouncing spring creates unpredictable movement that keeps cats engaged, making it an excellent enrichment toy for active indoor cats. &nbsp;",
+  "images": [
+    {
+      "id": 91116,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/cat-scratch-toy-1.png",
+      "alt": "CS Footprintcat Scratch Board",
+      "name": "cat scratch toy (1)"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/cs-footprintcat-scratch-board/?add-to-cart=91114",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-07-03T11:17:49",
+  "dateModified": "2026-07-08T15:19:34",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "supplement",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/cat-scratch-toy-1.png"
+}

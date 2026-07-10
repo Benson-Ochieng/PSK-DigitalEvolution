@@ -50,12 +50,19 @@ export default function ShopSidebarFilters({
   // Display general category lists on main pet pages but hide them on grandchild food/treat pages
   const showCategoriesList = animal && !isFoodOrSpecificFilter;
 
-  // Life-stage options based on animal context (show Puppy, Junior, Adult, Senior for Dog food pages)
+  // Life-stage options based on animal context (Puppy/Junior/Adult/Senior for Dog, Kitten/Adult/Senior for Cat)
   const getLifeStageOptions = () => {
     if (animal === "dog") {
       return [
         { label: "Puppy", slug: "puppy" },
         { label: "Junior", slug: "junior" },
+        { label: "Adult", slug: "adult" },
+        { label: "Senior", slug: "senior" }
+      ];
+    }
+    if (animal === "cat") {
+      return [
+        { label: "Kitten", slug: "kitten" },
         { label: "Adult", slug: "adult" },
         { label: "Senior", slug: "senior" }
       ];

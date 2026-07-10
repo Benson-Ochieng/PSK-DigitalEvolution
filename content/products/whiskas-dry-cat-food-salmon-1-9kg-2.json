@@ -1,0 +1,83 @@
+{
+  "id": 91147,
+  "name": "Whiskas Dry Cat Food - Salmon 1.9kg",
+  "slug": "whiskas-dry-cat-food-salmon-1-9kg-2",
+  "sku": "WCD007",
+  "onSale": false,
+  "price": 2975,
+  "regularPrice": 2975,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/07/Whiskas-Dry-Cat-Food-Salmon-1.9kg.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 2382,
+      "name": "Whiskas",
+      "slug": "whiskas"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2480,
+      "name": "Whiskas",
+      "slug": "whiskas"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/whiskas-dry-cat-food-salmon-1-9kg-2/",
+  "shortDescription": "Whiskas 1+ Dry Cat Food – Salmon is a complete and balanced dry cat food specially formulated for adult cats aged 1 year and above. Made with high-quality salmon protein and carefully selected ingredients, this delicious recipe provides the essential nutrients your cat needs to stay healthy, active, and full of vitality every day.",
+  "description": "Featuring crunchy multi-coloured kibbles with a soft, tasty centre, Whiskas delivers a texture cats love while supporting healthy muscles, skin, coat, vision, and urinary tract health. Enriched with taurine, essential vitamins, and minerals, this nutritionally balanced formula helps promote overall wellbeing and keeps your feline companion happy and satisfied at every meal. Key Features Complete and balanced nutrition for adult cats aged 1 year and above Made with high-quality salmon protein to support lean muscle maintenance Crunchy kibble with a soft, delicious centre for enhanced taste and texture Supports healthy urinary tract function with balanced minerals Enriched with taurine to support heart health and healthy vision Contains essential vitamins and minerals for immune support and overall wellbeing Includes peas and carrots for added nutrition and flavour Supports healthy skin and a shiny coat Free from artificial colours and preservatives Nutritional Analysis Crude Protein: 30% Crude Fat: 11.5% Crude Fibre: 2.2% Key Nutrients Fortified with Taurine, Vitamin D3, Vitamin E, Zinc, Calcium, Selenium, Iodine, and other essential vitamins and minerals to support your cat's overall health and vitality. Ingredients Cereals, meat and animal derivatives, vegetable protein extracts, fish and fish derivatives (including 4% salmon), oils and fats, vegetables (including peas and carrots), minerals, and derivatives of vegetable origin. Feeding Guide Feed according to your cat's weight, age, and activity level. 3kg cat: 45–50g per day 4kg cat: 55–65g per day 5kg cat: 65–75g per day When changing foods, introduce Whiskas gradually over 7–8 days by mixing increasing amounts with your cat's current food. Always provide fresh, clean drinking water. Storage Instructions Store in a cool, dry place and keep the bag tightly sealed after opening to maintain freshness. Why Choose Whiskas 1+ Dry Cat Food – Salmon? Whiskas 1+ Dry Cat Food – Salmon combines premium salmon protein with essential vitamins, minerals, and taurine to provide complete daily nutrition for adult cats. Its delicious crunchy kibbles with a soft centre support healthy muscles, skin and coat, urinary health, digestion, and overall vitality, making it an ideal everyday meal for happy, healthy cats. &nbsp;",
+  "images": [
+    {
+      "id": 91149,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/07/Whiskas-Dry-Cat-Food-Salmon-1.9kg.png",
+      "alt": "Whiskas Dry Cat Food - Salmon 1.9kg",
+      "name": "Whiskas Dry Cat Food Salmon 1.9kg"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/whiskas-dry-cat-food-salmon-1-9kg-2/?add-to-cart=91147",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-07-03T10:27:16",
+  "dateModified": "2026-07-03T10:32:19",
+  "brand": "Whiskas",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/07/Whiskas-Dry-Cat-Food-Salmon-1.9kg.png"
+}

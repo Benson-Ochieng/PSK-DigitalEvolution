@@ -2,12 +2,14 @@
   "id": 52773,
   "name": "Bonnie Adult Cat Food Chicken 500g",
   "slug": "bonnie-adult-cat-food-chicken-500gr",
-  "onSale": false,
+  "sku": "BCD001@F",
+  "onSale": true,
   "price": 407,
-  "regularPrice": 407,
-  "salePrice": null,
+  "regularPrice": 690,
+  "salePrice": 407,
   "currency": "KES",
   "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/09/Bonnie-Adult-Cat-Chicken-500g-min.png",
   "categories": [
     {
       "id": 2332,
@@ -15,51 +17,41 @@
       "slug": "cat-litter"
     }
   ],
+  "brands": [],
+  "tags": [
+    {
+      "id": 2223,
+      "name": "flash",
+      "slug": "flash"
+    }
+  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=52773",
+  "shortDescription": "",
   "description": "",
   "images": [
     {
-      "id": 52773,
+      "id": 3403,
       "src": "https://petstore.co.ke/wp-content/uploads/2019/09/Bonnie-Adult-Cat-Chicken-500g-min.png",
-      "alt": "Bonnie Adult Cat Food Chicken 500g",
-      "name": "thumbnail"
-    }
-  ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
+      "alt": "Bonnie Adult Cat Chicken 500g min",
+      "name": "Bonnie Adult Cat Chicken 500g min"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
-  "isPurchasable": true,
-  "status": "publish",
+  "isPurchasable": false,
+  "addToCartUrl": "https://petstore.co.ke/product/bonnie-adult-cat-food-chicken-500gr/?add-to-cart=52773",
+  "status": "draft",
   "featured": false,
   "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=52773",
-  "addToCartUrl": "https://petstore.co.ke/product/bonnie-adult-cat-food-chicken-500gr/?add-to-cart=52773",
-  "shortDescription": "",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/09/Bonnie-Adult-Cat-Chicken-500g-min.png",
-  "sku": "PSK-52773",
-  "brand": "PetStore Kenya",
+  "dateCreated": "2025-01-16T17:04:44",
+  "dateModified": "2026-05-06T17:10:54",
+  "brand": null,
   "weight_kg": null,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/09/Bonnie-Adult-Cat-Chicken-500g-min.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2019/09/Bonnie-Adult-Cat-Chicken-500g-min.png"
 }

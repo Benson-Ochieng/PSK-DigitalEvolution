@@ -1,0 +1,56 @@
+{
+  "id": 91107,
+  "name": "CS Retractable Dog Leash",
+  "slug": "cs-retractable-dog-leash",
+  "sku": "CSRDL",
+  "onSale": false,
+  "price": 2586.2,
+  "regularPrice": 2586.2,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/CS-Nail-clipper-Small-Grey-2.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2353,
+      "name": "Dog Leashes",
+      "slug": "dog-leashes"
+    }
+  ],
+  "brands": [],
+  "tags": [],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/cs-retractable-dog-leash/",
+  "shortDescription": "Give your dog the freedom to explore while maintaining complete control with the CS Dog Retractable Leash . Designed for comfortable daily walks, this durable leash features a smooth retractable mechanism that allows your dog to roam naturally while giving you the ability to adjust the leash length instantly with a simple lock and brake system.",
+  "description": "The ergonomic anti-slip handle provides a comfortable grip, reducing hand fatigue during long walks. Built with a strong, reliable retractable tape or cord, this leash is ideal for everyday use, offering the perfect balance of freedom, safety, and control for both you and your pet. Whether you're walking through the neighbourhood, visiting the park, or training your dog, the CS Retractable Dog Leash delivers a secure and enjoyable walking experience. Key Benefits Adjustable retractable leash provides greater freedom of movement One-button lock and brake system for instant control Comfortable ergonomic handle for a secure grip Smooth retraction mechanism helps prevent tangles Durable construction for everyday use Ideal for walking, training, and outdoor adventures Gives dogs room to explore while keeping them safely under control Suitable for small, medium, and large dogs (depending on size selected) Product Features Retractable design with adjustable leash length Strong and durable housing Comfortable non-slip handle Quick lock and release mechanism Lightweight and easy to carry Designed for daily walking and exercise How to Use Allow the leash to extend naturally as your dog walks. Press the lock button to hold the leash at your preferred length and release it when additional freedom is needed. Always keep the leash locked when walking in busy or high-traffic areas. Care Instructions Wipe clean with a damp cloth. Avoid immersing the handle in water. Inspect the leash regularly for signs of wear or damage. Allow the leash to retract slowly to prevent unnecessary strain on the mechanism. Safety Advice Retractable leashes are best suited for dogs that respond well to basic commands. For maximum safety, use the lock function in crowded areas, near roads, or when approaching other people or animals. &nbsp; &nbsp;",
+  "images": [
+    {
+      "id": 91108,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/CS-Nail-clipper-Small-Grey-2.png",
+      "alt": "CS Retractable Dog Leash",
+      "name": "CS Nail clipper Small- Grey (2)"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/cs-retractable-dog-leash/?add-to-cart=91107",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-07-03T11:15:13",
+  "dateModified": "2026-07-03T14:12:11",
+  "brand": null,
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "dry",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/CS-Nail-clipper-Small-Grey-2.png"
+}

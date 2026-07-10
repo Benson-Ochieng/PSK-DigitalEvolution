@@ -2,12 +2,14 @@
   "id": 43644,
   "name": "Proline Bentonite Clumping Cat Litter - Vanilla Scented 5L",
   "slug": "proline-bentonite-clumping-cat-litter-vanilla-scented-5l-2",
-  "onSale": false,
+  "sku": "PCL013@F",
+  "onSale": true,
   "price": 793,
-  "regularPrice": 793,
-  "salePrice": null,
+  "regularPrice": 1102,
+  "salePrice": 793,
   "currency": "KES",
   "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/10/Proline-cat-litter-vanilla-5L.png",
   "categories": [
     {
       "id": 796,
@@ -15,51 +17,57 @@
       "slug": "proline"
     }
   ],
+  "brands": [
+    {
+      "id": 2491,
+      "name": "Proline",
+      "slug": "proline"
+    }
+  ],
+  "tags": [
+    {
+      "id": 831,
+      "name": "bentonite",
+      "slug": "bentonite"
+    },
+    {
+      "id": 823,
+      "name": "clumping",
+      "slug": "clumping"
+    },
+    {
+      "id": 2315,
+      "name": "scented",
+      "slug": "scented"
+    }
+  ],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=43644",
+  "shortDescription": "Proline cat litter is a premium brand with great value for money. 100% natural bentonite clumping cat litter for happy and clean cats. Instantly lumps , thereby preventing bacteria and Oduor from taking over your cat's litter box.",
   "description": "Proline Bentonite Clumping Vanilla Scented Cat Litter , 100% natural bentonite cat litter instantly clumps. Excellent pelletising, instantly lumps Neutralises odour with fresh vanilla scent. Non-toxic and 100% natural Thin grain shape Prevents bacterial growth. Upon first use, we recommend adding new cat litter to the surface of the old cat litter for a few days.",
   "images": [
     {
-      "id": 43644,
+      "id": 40392,
       "src": "https://petstore.co.ke/wp-content/uploads/2023/10/Proline-cat-litter-vanilla-5L.png",
       "alt": "Proline Bentonite Clumping Cat Litter - Vanilla Scented 5L",
-      "name": "thumbnail"
-    }
-  ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Proline",
-      "slug": "proline"
+      "name": "Proline cat litter vanilla 5L"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "status": "publish",
+  "addToCartUrl": "https://petstore.co.ke/product/proline-bentonite-clumping-cat-litter-vanilla-scented-5l-2/?add-to-cart=43644",
+  "status": "draft",
   "featured": false,
   "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=43644",
-  "addToCartUrl": "https://petstore.co.ke/product/proline-bentonite-clumping-cat-litter-vanilla-scented-5l-2/?add-to-cart=43644",
-  "shortDescription": "Proline Bentonite Clumping Vanilla Scented Cat Litter , 100% natural bentonite cat litter instantly clumps. Excellent pelletising, instantly lumps Neu",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2023/10/Proline-cat-litter-vanilla-5L.png",
-  "sku": "PSK-43644",
+  "dateCreated": "2024-01-30T10:49:18",
+  "dateModified": "2026-05-06T17:09:26",
   "brand": "Proline",
   "weight_kg": 6,
   "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/10/Proline-cat-litter-vanilla-5L.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2023/10/Proline-cat-litter-vanilla-5L.png"
 }

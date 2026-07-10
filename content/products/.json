@@ -1,65 +1,51 @@
 {
-  "id": 90836,
-  "name": "Pet Cone Recovery Collar - XXL (40CM)",
+  "id": 91158,
+  "name": "Lara Cat Dry Food – Beef 1.9kg",
   "slug": "",
+  "sku": "LLDC012",
   "onSale": false,
-  "price": 1300,
-  "regularPrice": 1300,
+  "price": 0,
+  "regularPrice": 0,
   "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/07/Lara-Adult-Beef-Cat-Food-1.9kg.png",
   "categories": [
     {
-      "id": 2354,
-      "name": "Dog Collars",
-      "slug": "dog-collars"
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
     }
   ],
+  "brands": [],
+  "tags": [],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
-  "description": "Made from durable, easy-to-clean material, the collar offers excellent visibility while allowing your pet to move, rest, and eat with minimal disruption. The adjustable fastening system ensures a secure fit, while the lightweight design provides added comfort during recovery. Key Benefits: Prevents licking, biting, and scratching of wounds Ideal for post-surgery recovery and injury protection Adjustable and secure fit Clear design for improved visibility Durable, lightweight, and easy to clean Suitable for giant and extra-large breed dogs Recommended For: Rottweilers Alaskan Malamutes Bernese Mountain Dogs Other giant and extra-large breed dogs Size: XX-Large (40cm)",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=91158",
+  "shortDescription": "Lara Adult Dry Cat Food Beef is a complete and balanced dry cat food specially formulated to meet the daily nutritional needs of adult cats. Made with delicious beef flavour and high-quality protein, this nutritious recipe helps maintain strong muscles, healthy energy levels, and overall wellbeing while providing a taste cats love.",
+  "description": "Enriched with taurine, essential vitamins, and minerals, Lara Adult Dry Cat Food supports heart health, healthy vision, digestion, immune function, and a healthy skin and coat. Its crunchy kibble texture also helps promote good oral hygiene, making it an ideal everyday meal for adult cats. Key Features Complete and balanced nutrition for adult cats Delicious beef flavour for excellent palatability High-quality protein to support lean muscle maintenance Enriched with taurine for heart and eye health Fortified with essential vitamins and minerals Supports healthy digestion and nutrient absorption Promotes healthy skin and a shiny coat Crunchy kibble helps support dental health Suitable for everyday feeding Benefits Helps maintain strong muscles and healthy body condition Supports sustained energy for active adult cats Promotes healthy heart and vision with taurine Supports a healthy immune system Encourages healthy digestion Helps maintain healthy skin and a glossy coat Delicious recipe enjoyed by even selective eaters Feeding Guide Feed according to your cat's weight, age, and activity level. Small cats: 40–60g per day Medium cats: 60–90g per day Large cats: 90g or more per day Always provide fresh, clean drinking water alongside every meal. Storage Instructions Store in a cool, dry place and keep the bag tightly sealed after opening to maintain freshness and flavour. Why Choose Lara Adult Dry Cat Food Beef? Lara Adult Dry Cat Food – Beef provides complete daily nutrition with high-quality protein, taurine, essential vitamins, and minerals to support healthy muscles, heart function, digestion, skin and coat health, and overall vitality. With its delicious beef flavour and crunchy kibble, it's a nutritious and satisfying choice for keeping your adult cat healthy, active, and happy every day. &nbsp;",
   "images": [
     {
-      "id": 90836,
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/Pet-Cone-Recovery-Collar-XXL40CM.png",
-      "alt": "Pet Cone Recovery Collar - XXL (40CM)",
-      "name": "thumbnail"
-    }
-  ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
+      "id": 91160,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/07/Lara-Adult-Beef-Cat-Food-1.9kg.png",
+      "alt": "Lara Cat Dry Food – Beef 1.9kg",
+      "name": "Lara Adult Beef Cat Food 1.9kg"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
-  "isPurchasable": true,
-  "status": "publish",
+  "isPurchasable": false,
+  "addToCartUrl": "https://petstore.co.ke/product//?add-to-cart=91158",
+  "status": "draft",
   "featured": false,
   "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=90836",
-  "addToCartUrl": "https://petstore.co.ke/product//?add-to-cart=90836",
-  "shortDescription": "Made from durable, easy-to-clean material, the collar offers excellent visibility while allowing your pet to move, rest, and eat with minimal disrupti",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/06/Pet-Cone-Recovery-Collar-XXL40CM.png",
-  "sku": "PSK-90836",
-  "brand": "PetStore Kenya",
+  "dateCreated": null,
+  "dateModified": "2026-07-03T10:10:38",
+  "brand": null,
   "weight_kg": null,
-  "animal_type": "dog",
+  "animal_type": "cat",
   "food_type": "dry",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/Pet-Cone-Recovery-Collar-XXL40CM.png",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/07/Lara-Adult-Beef-Cat-Food-1.9kg.png"
 }

@@ -2,12 +2,14 @@
   "id": 32652,
   "name": "SHORT EXPIRY-CLEARANCE: Proline Adult Cat Food Chicken 0.5kg",
   "slug": "proline-adult-cat-food-chicken-0-5kg-2",
-  "onSale": false,
+  "sku": "PCD001",
+  "onSale": true,
   "price": 367,
-  "regularPrice": 367,
-  "salePrice": null,
+  "regularPrice": 735,
+  "salePrice": 367,
   "currency": "KES",
   "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/PACFC0.5.jpg",
   "categories": [
     {
       "id": 2325,
@@ -30,51 +32,67 @@
       "slug": "proline"
     }
   ],
+  "brands": [
+    {
+      "id": 2266,
+      "name": "Proline",
+      "slug": "proline"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 33,
+      "name": "Cat Food",
+      "slug": "catfood"
+    },
+    {
+      "id": 1303,
+      "name": "Clearance",
+      "slug": "clearance"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    },
+    {
+      "id": 637,
+      "name": "kibble",
+      "slug": "kibble"
+    }
+  ],
   "inStock": true,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=32652",
+  "shortDescription": "Fully balanced all-natural cat food with chicken protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult cats.",
   "description": "Fully balanced all natural cat food with chicken protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all adult cats.",
   "images": [
     {
-      "id": 32652,
+      "id": 19826,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/04/PACFC0.5.jpg",
       "alt": "SHORT EXPIRY-CLEARANCE: Proline Adult Cat Food Chicken 0.5kg",
-      "name": "thumbnail"
-    }
-  ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Proline",
-      "slug": "proline"
+      "name": "PACFC0.5"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "status": "publish",
+  "addToCartUrl": "https://petstore.co.ke/product/proline-adult-cat-food-chicken-0-5kg-2/?add-to-cart=32652",
+  "status": "draft",
   "featured": false,
   "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=32652",
-  "addToCartUrl": "https://petstore.co.ke/product/proline-adult-cat-food-chicken-0-5kg-2/?add-to-cart=32652",
-  "shortDescription": "Fully balanced all natural cat food with chicken protein. Carefully formulated by cat / dog nutritionists to meet the nutritional requirements of all ",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/04/PACFC0.5.jpg",
-  "sku": "PSK-32652",
+  "dateCreated": "2022-11-15T12:54:28",
+  "dateModified": "2026-05-06T17:08:24",
   "brand": "Proline",
   "weight_kg": 0.5,
   "animal_type": "cat",
   "food_type": "treat",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/PACFC0.5.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/PACFC0.5.jpg"
 }

@@ -1,0 +1,83 @@
+{
+  "id": 91150,
+  "name": "Whiskas Dry Cat Food - Tuna 1.9kg",
+  "slug": "whiskas-dry-cat-food-tuna-1-9kg",
+  "sku": "WCD008",
+  "onSale": false,
+  "price": 2975,
+  "regularPrice": 2975,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/07/Whiskas-Dry-Cat-Food-Tuna-Salmon-1.9kg-1.png",
+  "categories": [
+    {
+      "id": 2325,
+      "name": "Cat",
+      "slug": "cat-supplies-store"
+    },
+    {
+      "id": 2326,
+      "name": "Cat Food & Treats",
+      "slug": "cat-food-and-treats"
+    },
+    {
+      "id": 2328,
+      "name": "Dry Cat Food",
+      "slug": "dry-cat-food"
+    },
+    {
+      "id": 2382,
+      "name": "Whiskas",
+      "slug": "whiskas"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2480,
+      "name": "Whiskas",
+      "slug": "whiskas"
+    }
+  ],
+  "tags": [
+    {
+      "id": 820,
+      "name": "cat",
+      "slug": "cat"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    }
+  ],
+  "inStock": false,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/whiskas-dry-cat-food-tuna-1-9kg/",
+  "shortDescription": "Whiskas 1+ Dry Cat Food Tuna is a complete and balanced dry cat food specially formulated for adult cats aged 1 year and above. Made with delicious tuna and high-quality protein, this nutritious recipe provides everything your cat needs to stay healthy, active, and satisfied every day.",
+  "description": "Each bowl contains Whiskas' signature pocket kibbles, featuring a crunchy outer layer with a soft, delicious centre that cats love. Enriched with Vitamin E, taurine, balanced minerals, and zinc, this wholesome formula supports a healthy immune system, healthy digestion, urinary tract health, strong vision, and a shiny coat. With tasty peas and carrots included, every meal delivers both exceptional flavour and complete nutrition. Key Features Complete and balanced nutrition for adult cats aged 1 year and above Made with delicious tuna and high-quality protein Signature pocket kibbles with a crunchy outside and soft centre Supports healthy muscles and everyday vitality Enriched with Vitamin E and taurine for immune system and heart support Balanced minerals help maintain a healthy urinary tract Contains zinc to promote healthy skin and a shiny coat Natural fibres support healthy digestion Includes tasty peas and carrots for added nutrition No added artificial colours or preservatives Nutritional Analysis Crude Protein: 30% Crude Fat: 11.5% Crude Fibre: 2% Inorganic Matter (Ash): 8.8% Calcium: 1.4% Phosphorus: 0.99% Key Vitamins & Minerals Fortified with essential nutrients including: Vitamin D₃ Vitamin E Taurine Zinc Iron Copper Manganese Selenium Iodine Benefits Supports lean muscle maintenance with quality protein Promotes healthy digestion with natural fibres Helps maintain urinary tract health with balanced minerals Supports healthy skin and a glossy coat Contributes to healthy vision and heart function with taurine Provides complete daily nutrition for adult cats Feeding & Storage Feed according to your cat's weight, age, and activity level, and always provide fresh drinking water. Store in a cool, dry place and reseal the bag after opening to preserve freshness. Why Choose Whiskas 1+ Dry Cat Food – Tuna? Whiskas 1+ Dry Cat Food – Tuna delivers complete daily nutrition in a delicious recipe that cats love. Combining high-quality tuna protein, crunchy pocket kibbles with soft centres, essential vitamins, taurine, balanced minerals, and natural fibres, it supports healthy muscles, digestion, urinary health, skin and coat condition, and overall wellbeing making it an excellent everyday choice for adult cats. &nbsp;",
+  "images": [
+    {
+      "id": 91151,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/07/Whiskas-Dry-Cat-Food-Tuna-Salmon-1.9kg-1.png",
+      "alt": "Whiskas Dry Cat Food - Tuna 1.9kg",
+      "name": "Whiskas Dry Cat Food Tuna Salmon 1.9kg (1)"
+    }
+  ],
+  "stockStatus": "outofstock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/whiskas-dry-cat-food-tuna-1-9kg/?add-to-cart=91150",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-07-03T10:32:10",
+  "dateModified": "2026-07-08T11:12:33",
+  "brand": "Whiskas",
+  "weight_kg": null,
+  "animal_type": "cat",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/07/Whiskas-Dry-Cat-Food-Tuna-Salmon-1.9kg-1.png"
+}

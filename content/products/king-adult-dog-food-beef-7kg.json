@@ -1,0 +1,83 @@
+{
+  "id": 91132,
+  "name": "King Adult Dog Food – Beef 7kg",
+  "slug": "king-adult-dog-food-beef-7kg",
+  "sku": "KDD010",
+  "onSale": false,
+  "price": 2850,
+  "regularPrice": 2850,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/07/King-Beef-7kg-.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 178,
+      "name": "King",
+      "slug": "king"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2446,
+      "name": "King",
+      "slug": "king"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/king-adult-dog-food-beef-7kg/",
+  "shortDescription": "King Plus Adult Dog Food – Beef is a premium, complete, and balanced dry dog food specially formulated to support the daily nutritional needs of adult dogs. Made with quality beef protein and enriched with brewer's yeast, this wholesome recipe helps maintain strong muscles, supports a healthy immune system, and promotes overall vitality.",
+  "description": "Developed by pet nutrition experts, King Plus provides a balanced blend of protein, essential vitamins, minerals, and healthy fats to keep your dog active, healthy, and full of energy. Its carefully selected ingredients also support healthy digestion, strong bones, healthy skin, and a shiny coat, making it an ideal choice for everyday feeding. Key Features Complete and balanced nutrition for adult dogs Made with quality beef protein to support lean muscle maintenance Enriched with brewer's yeast for natural immune system support Contains flaxseed to help promote healthy skin and a glossy coat Fortified with essential vitamins and minerals for overall wellbeing Supports healthy digestion and sustained daily energy Suitable for everyday feeding of adult dogs Nutritional Analysis Crude Protein: 18% Crude Fat: 7% Crude Fibre: 4% Ingredients Wheat, corn, processed animal protein, wheat middlings, boncalit, animal fat, dried sugar beet, liver flavour, flaxseed, salt, and dried brewer's yeast. Enriched With Essential Minerals Calcium, phosphorus, sodium, iodine, zinc, copper, potassium chloride, iron, and selenium. Fortified Vitamins Vitamin A, Vitamin D, Vitamin E, Vitamin C, Vitamin K, Vitamin B1, Vitamin B2, Vitamin B3 (Niacin), Vitamin B6, Vitamin B7 (Biotin), Vitamin B9 (Folic Acid), Vitamin B12, Choline, and Calcium Pantothenate. Why Choose King Plus Adult Dog Food? King Plus Adult Dog Food – Beef delivers complete daily nutrition in every meal. With high-quality protein, immune-supporting brewer's yeast, essential fatty acids, vitamins, and minerals, it helps adult dogs maintain healthy muscles, strong bones, optimal digestion, and lasting vitality making it a dependable choice for keeping your dog healthy and happy every day. &nbsp;",
+  "images": [
+    {
+      "id": 91133,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/07/King-Beef-7kg-.png",
+      "alt": "King Adult Dog Food – Beef 7kg",
+      "name": "King Beef 7kg"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/king-adult-dog-food-beef-7kg/?add-to-cart=91132",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-07-03T10:12:28",
+  "dateModified": "2026-07-10T11:12:10",
+  "brand": "King",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/07/King-Beef-7kg-.png"
+}
