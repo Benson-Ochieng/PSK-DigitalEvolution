@@ -51,14 +51,18 @@ export async function loader({ request }: Route.LoaderArgs) {
 
   const settingsPath = path.join(process.cwd(), "content", "general-settings.json");
   let recaptchaSiteKey = "";
+  let googleClientId = process.env.GOOGLE_CLIENT_ID || "YOUR_GOOGLE_CLIENT_ID_PLACEHOLDER";
   if (fs.existsSync(settingsPath)) {
     try {
       const parsed = JSON.parse(fs.readFileSync(settingsPath, "utf-8"));
       recaptchaSiteKey = parsed.recaptchaSiteKey || "";
+      if (parsed.googleClientId) {
+        googleClientId = parsed.googleClientId;
+      }
     } catch (e) {}
   }
 
-  return { customerName, customerEmail, orders, recaptchaSiteKey };
+  return { customerName, customerEmail, orders, recaptchaSiteKey, googleClientId };
 }
 
 export async function action({ request }: Route.ActionArgs) {
@@ -96,6 +100,36 @@ export async function action({ request }: Route.ActionArgs) {
         return data({ error: "Failed to verify reCAPTCHA. Please try again." }, { status: 500 });
       }
     }
+  }
+
+  if (formType === "google_login") {
+    const email = formData.get("email")?.toString().trim();
+    const name = formData.get("name")?.toString().trim();
+
+    if (!email || !name) {
+      return data({ error: "Google authentication failed: Email and Name are required" }, { status: 400 });
+    }
+
+    // Lookup customer or create
+    const res = await query("SELECT * FROM customers WHERE email = $1", [email]);
+    if (res.rows.length === 0) {
+      await query("INSERT INTO customers (name, email) VALUES ($1, $2)", [name, email]);
+    } else {
+      // Keep customer name updated
+      await query("UPDATE customers SET name = $1 WHERE email = $2", [name, email]);
+    }
+
+    const headers = new Headers();
+    headers.append(
+      "Set-Cookie",
+      `customer_name=${encodeURIComponent(name)}; Path=/; SameSite=Lax; Max-Age=86400`
+    );
+    headers.append(
+      "Set-Cookie",
+      `customer_email=${encodeURIComponent(email)}; Path=/; SameSite=Lax; Max-Age=86400`
+    );
+
+    return redirect("/my-account", { headers });
   }
 
   if (formType === "login") {
@@ -283,7 +317,7 @@ function MockRecaptcha() {
 }
 
 export default function MyAccount() {
-  const { customerName, customerEmail, orders, recaptchaSiteKey } = useLoaderData<typeof loader>();
+  const { customerName, customerEmail, orders, recaptchaSiteKey, googleClientId } = useLoaderData<typeof loader>();
   const actionData = useActionData<any>();
   const navigate = useNavigate();
   const location = useLocation();
@@ -313,6 +347,85 @@ export default function MyAccount() {
       setShowRecaptchaError(true);
     }
   }, [actionData]);
+
+  // Load Google Identity Services script
+  useEffect(() => {
+    if (typeof window === "undefined" || !googleClientId) return;
+
+    const scriptId = "google-gsi-client";
+    if (!document.getElementById(scriptId)) {
+      const script = document.createElement("script");
+      script.id = scriptId;
+      script.src = "https://accounts.google.com/gsi/client";
+      script.async = true;
+      script.defer = true;
+      document.body.appendChild(script);
+    }
+  }, [googleClientId]);
+
+  const handleGoogleLogin = () => {
+    if (!googleClientId || googleClientId === "YOUR_GOOGLE_CLIENT_ID_PLACEHOLDER") {
+      alert("Google Client ID is not configured. Please supply a valid Client ID.");
+      return;
+    }
+    if (!(window as any).google || !(window as any).google.accounts) {
+      alert("Google Sign-In is loading, please try again in a moment.");
+      return;
+    }
+
+    try {
+      const client = (window as any).google.accounts.oauth2.initTokenClient({
+        client_id: googleClientId,
+        scope: "email profile openid",
+        prompt: "select_account",
+        callback: async (tokenResponse: any) => {
+          if (tokenResponse.error) {
+            console.error("Google OAuth response error:", tokenResponse);
+            return;
+          }
+          try {
+            const res = await fetch(`https://www.googleapis.com/oauth2/v3/userinfo?access_token=${tokenResponse.access_token}`);
+            const profile = await res.json();
+            
+            if (profile.email) {
+              const form = document.createElement("form");
+              form.method = "post";
+              
+              const typeInput = document.createElement("input");
+              typeInput.type = "hidden";
+              typeInput.name = "form_type";
+              typeInput.value = "google_login";
+              form.appendChild(typeInput);
+              
+              const emailInput = document.createElement("input");
+              emailInput.type = "hidden";
+              emailInput.name = "email";
+              emailInput.value = profile.email;
+              form.appendChild(emailInput);
+              
+              const nameInput = document.createElement("input");
+              nameInput.type = "hidden";
+              nameInput.name = "name";
+              nameInput.value = profile.name || `${profile.given_name || ""} ${profile.family_name || ""}`.trim();
+              form.appendChild(nameInput);
+              
+              document.body.appendChild(form);
+              form.submit();
+            } else {
+              alert("Could not retrieve email address from your Google Account.");
+            }
+          } catch (e) {
+            console.error("Error fetching Google profile info:", e);
+            alert("Error authenticating with Google.");
+          }
+        },
+      });
+      client.requestAccessToken();
+    } catch (err) {
+      console.error("Google authentication error:", err);
+      alert("Failed to initialize Google Sign-in.");
+    }
+  };
 
   function handleLoginSubmit(e: React.FormEvent<HTMLFormElement>) {
     if (recaptchaSiteKey) {
@@ -686,6 +799,7 @@ export default function MyAccount() {
 
                     <button
                       type="button"
+                      onClick={handleGoogleLogin}
                       style={{
                         background: "#000000",
                         color: "#ffffff",
@@ -893,6 +1007,7 @@ export default function MyAccount() {
 
                     <button
                       type="button"
+                      onClick={handleGoogleLogin}
                       style={{
                         background: "#000000",
                         color: "#ffffff",
