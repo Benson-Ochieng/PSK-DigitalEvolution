@@ -898,7 +898,7 @@ body {
   height: 140px;
   border-radius: 50%;
   overflow: hidden;
-  border: 2px solid var(--border-light);
+  border: none;
   background: #ffffff;
   display: flex;
   align-items: center;
