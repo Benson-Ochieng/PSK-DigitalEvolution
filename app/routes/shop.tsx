@@ -173,7 +173,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
       animal = ANIMAL_STORE_SLUGS[canonicalSlug];
     } else {
       categorySlug = canonicalSlug;
-      
+
       const activeSidebar = getActiveSidebarSlug(canonicalSlug);
       let resolvedAnimal = "";
       for (const [key, list] of Object.entries(ANIMAL_CATEGORIES)) {
@@ -182,7 +182,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
           break;
         }
       }
-      
+
       if (resolvedAnimal) {
         animal = resolvedAnimal;
       } else if (canonicalSlug.includes("cat") || canonicalSlug.includes("kitten") || canonicalSlug === "litter-and-accessories" || canonicalSlug === "cat-litter-and-accessories") {
@@ -315,15 +315,9 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     sqlParams.push(`%${search.toLowerCase()}%`);
     conditions.push(`LOWER(p.name) LIKE $${sqlParams.length}`);
   }
-<<<<<<< HEAD
-  if (brand) {
+  if (brand && !isBrandPage) {
     sqlParams.push(brand);
-    conditions.push(`LOWER(p.brand) = LOWER($${sqlParams.length})`);
-=======
-  if (brand && !isBrandPage) { 
-    sqlParams.push(brand);  
-    conditions.push(`REPLACE(LOWER(p.brand), ' ', '-') = LOWER($${sqlParams.length})`); 
->>>>>>> 145bf58465a22291e2f5cf4f6e89e6af7e995532
+    conditions.push(`REPLACE(LOWER(p.brand), ' ', '-') = LOWER($${sqlParams.length})`);
   }
 
   if (lifeStage) {
@@ -426,11 +420,6 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   const startIndex = (currentPage - 1) * limit;
   const productsToShow = allProducts.slice(startIndex, startIndex + limit);
 
-<<<<<<< HEAD
-  return {
-    products: productsToShow,
-    totalResults,
-=======
   // Dynamically resolve sidebar categories for the active animal
   let sidebarCategories: { label: string; slug: string }[] = [];
   if (animal) {
@@ -479,24 +468,23 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     }));
   }
 
-  const isClearancePage = 
-    canonicalSlug === "clearance" || 
+  const isClearancePage =
+    canonicalSlug === "clearance" ||
     originalType === "clearance";
 
-  const isOfferPage = 
-    isClearancePage || 
-    canonicalSlug === "sale" || 
-    canonicalSlug === "bundles" || 
-    originalType === "on-sale" || 
-    originalType === "bundles" || 
-    originalType === "offer" || 
-    originalType === "offers" || 
+  const isOfferPage =
+    isClearancePage ||
+    canonicalSlug === "sale" ||
+    canonicalSlug === "bundles" ||
+    originalType === "on-sale" ||
+    originalType === "bundles" ||
+    originalType === "offer" ||
+    originalType === "offers" ||
     canonicalSlug === "flash-sale";
 
-  return { 
-    products: productsToShow, 
-    totalResults, 
->>>>>>> 145bf58465a22291e2f5cf4f6e89e6af7e995532
+  return {
+    products: productsToShow,
+    totalResults,
     totalPages,
     currentPage,
     startIndex,
@@ -831,49 +819,6 @@ export default function Shop() {
           {/* Sidebar */}
           {!hideFilter && (
             <aside className="shop-sidebar">
-<<<<<<< HEAD
-              {animal && ANIMAL_CATEGORIES[animal] && (
-                <>
-                  <h3 className="sidebar-title" style={{ marginBottom: "1rem" }}>CATEGORIES</h3>
-                  <ul className="sidebar-brands-list" style={{ listStyle: "none", padding: 0, margin: 0 }}>
-                    {ANIMAL_CATEGORIES[animal].map(c => {
-                      const normSlug = slug ? slug.toLowerCase().replace(/\/$/, "") : "";
-                      const isActive = normSlug === c.slug || activeSidebarSlug === c.slug;
-                      return (
-                        <li key={c.slug}>
-                          <Link
-                            to={`/product-category/${c.slug}/`}
-                            className={isActive ? "active-brand" : ""}
-                          >
-                            {c.label}
-                          </Link>
-                        </li>
-                      );
-                    })}
-                  </ul>
-                </>
-              )}
-
-              {!animal && (
-                <>
-                  <h3 className="sidebar-title">FILTER BY BRAND</h3>
-                  <ul className="sidebar-brands-list">
-                    <li>
-                      <Link to={buildCategoryHref("")} className={!brand ? "active-brand" : ""}>
-                        All Brands
-                      </Link>
-                    </li>
-                    {SIDEBAR_BRANDS.map(b => (
-                      <li key={b}>
-                        <Link to={buildCategoryHref(b)} className={brand.toLowerCase() === b.toLowerCase() ? "active-brand" : ""}>
-                          {b}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </>
-              )}
-=======
               <ShopSidebarFilters
                 slug={slug}
                 animal={animal}
@@ -892,7 +837,6 @@ export default function Shop() {
                 buildCategoryHref={buildCategoryHref}
                 navigate={navigate}
               />
->>>>>>> 145bf58465a22291e2f5cf4f6e89e6af7e995532
             </aside>
           )}
 
@@ -950,9 +894,9 @@ export default function Shop() {
                     </div>
                   ) : (
                     <form style={{ display: "flex", gap: "0.75rem" }} onSubmit={e => { e.preventDefault(); setNotified(true); }}>
-                      <input 
-                        type="email" 
-                        placeholder="Enter your email" 
+                      <input
+                        type="email"
+                        placeholder="Enter your email"
                         required
                         style={{
                           flex: 1,
@@ -963,8 +907,8 @@ export default function Shop() {
                           outline: "none"
                         }}
                       />
-                      <button 
-                        type="submit" 
+                      <button
+                        type="submit"
                         style={{
                           background: "#1053a0",
                           color: "#ffffff",
