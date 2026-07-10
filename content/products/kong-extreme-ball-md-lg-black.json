@@ -2,12 +2,14 @@
   "id": 43645,
   "name": "KONG Extreme Ball Md/Lg- Black",
   "slug": "kong-extreme-ball-md-lg-black",
-  "onSale": false,
+  "sku": "UB1@F",
+  "onSale": true,
   "price": 1440,
-  "regularPrice": 1440,
-  "salePrice": null,
+  "regularPrice": 1600,
+  "salePrice": 1440,
   "currency": "KES",
   "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/12/UB2_Extreme_Ball.jpg",
   "categories": [
     {
       "id": 2345,
@@ -30,51 +32,35 @@
       "slug": "kong-accessories"
     }
   ],
+  "brands": [],
+  "tags": [],
   "inStock": false,
   "averageRating": 5,
   "reviewCount": 0,
   "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=43645",
+  "shortDescription": "KONG Extreme Ball – Med/Large",
   "description": "The KONGExtreme Ball wins the fetching game for your dog! Durable, bouncy, natural KONGExtreme rubber gives it a bounce for fun games of fetch, delivering tons of healthy and interactive play. KONGExtreme Black Rubber ball for durable fetching fun Puncture resistant for continued safe play Made in the USA. Globally Sourced Materials",
   "images": [
     {
-      "id": 43645,
+      "id": 24985,
       "src": "https://petstore.co.ke/wp-content/uploads/2020/12/UB2_Extreme_Ball.jpg",
       "alt": "KONG Extreme Ball Md/Lg- Black",
-      "name": "thumbnail"
-    }
-  ],
-  "tags": [],
-  "brands": [
-    {
-      "id": 1,
-      "name": "PetStore Kenya",
-      "slug": "petstore-kenya"
+      "name": "UB2_Extreme_Ball"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "status": "publish",
+  "addToCartUrl": "https://petstore.co.ke/product/kong-extreme-ball-md-lg-black/?add-to-cart=43645",
+  "status": "draft",
   "featured": false,
   "catalogVisibility": "visible",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=43645",
-  "addToCartUrl": "https://petstore.co.ke/product/kong-extreme-ball-md-lg-black/?add-to-cart=43645",
-  "shortDescription": "The KONGExtreme Ball wins the fetching game for your dog! Durable, bouncy, natural KONGExtreme rubber gives it a bounce for fun games of fetch, delive",
-  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/12/UB2_Extreme_Ball.jpg",
-  "sku": "PSK-43645",
-  "brand": "PetStore Kenya",
+  "dateCreated": "2024-01-30T10:53:25",
+  "dateModified": "2026-05-06T17:09:26",
+  "brand": null,
   "weight_kg": 0.4,
   "animal_type": "dog",
   "food_type": "supplement",
-  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/12/UB2_Extreme_Ball.jpg",
-  "nutrition_protein": null,
-  "nutrition_fat": null,
-  "nutrition_fibre": null,
-  "nutrition_moisture": null,
-  "key_ingredients": null,
-  "feeding_guide": null,
-  "replaces_brand": null,
-  "replaces_reason": null,
-  "dateCreated": "2026-06-24T14:22:45.823Z",
-  "dateModified": "2026-06-24T14:22:45.823Z"
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2020/12/UB2_Extreme_Ball.jpg"
 }

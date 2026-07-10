@@ -1,0 +1,83 @@
+{
+  "id": 91136,
+  "name": "King Dog Dry Food – Chicken 7kg",
+  "slug": "king-dog-dry-food-chicken-7kg",
+  "sku": "KDD011",
+  "onSale": false,
+  "price": 2850,
+  "regularPrice": 2850,
+  "salePrice": null,
+  "currency": "KES",
+  "currencySymbol": "KSh",
+  "thumbnail": "https://petstore.co.ke/wp-content/uploads/2026/07/King-Chicken-7kg-ORIGINAL.png",
+  "categories": [
+    {
+      "id": 2345,
+      "name": "Dog",
+      "slug": "dog-supplies-store"
+    },
+    {
+      "id": 2346,
+      "name": "Dog Food & Treats",
+      "slug": "dog-food-treats"
+    },
+    {
+      "id": 2348,
+      "name": "Dry Dog Food",
+      "slug": "dry-dog-food"
+    },
+    {
+      "id": 178,
+      "name": "King",
+      "slug": "king"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2446,
+      "name": "King",
+      "slug": "king"
+    }
+  ],
+  "tags": [
+    {
+      "id": 2213,
+      "name": "dog",
+      "slug": "dog"
+    },
+    {
+      "id": 636,
+      "name": "dry food",
+      "slug": "dry-food"
+    }
+  ],
+  "inStock": true,
+  "averageRating": 5,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/king-dog-dry-food-chicken-7kg/",
+  "shortDescription": "King Adult Dog Food – Chicken is a complete and balanced dry dog food specially formulated to meet the daily nutritional needs of adult dogs. Made with quality chicken protein, this nutritious recipe helps maintain lean muscles, supports healthy digestion, and provides the energy your dog needs for an active lifestyle.",
+  "description": "Crafted with carefully selected ingredients, including flaxseed and brewer's yeast, King Adult Dog Food promotes healthy skin, a shiny coat, and a strong immune system. Enriched with essential vitamins and minerals, it delivers complete everyday nutrition to help keep your dog healthy, happy, and thriving. Key Features Complete and balanced nutrition for adult dogs Made with quality chicken protein to support lean muscle maintenance Supports healthy digestion and nutrient absorption Enriched with brewer's yeast for natural immune support Contains flaxseed to promote healthy skin and a shiny coat Fortified with essential vitamins for overall health and vitality Suitable for everyday feeding Nutritional Analysis Crude Protein: 19% Crude Fat: 8% Crude Ash: 4% Crude Fibre: 8% Ingredients Wheat, corn, processed animal protein, animal fat, wheat middlings, corn gluten, dried sugar beet, liver aroma, salt, flaxseed, and dried brewer's yeast. Nutritional Additives Vitamin A: 15,000 IU/kg Vitamin D3: 1,000 IU/kg Vitamin E: 100 mg/kg Vitamin C: 100 mg/kg Why Choose King Adult Dog Food – Chicken? King Adult Dog Food – Chicken provides wholesome daily nutrition with high-quality protein, essential vitamins, and carefully selected ingredients to support strong muscles, healthy digestion, immune function, and overall wellbeing. It's an excellent everyday diet for maintaining the health, energy, and vitality of adult dogs. &nbsp; &nbsp;",
+  "images": [
+    {
+      "id": 91137,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/07/King-Chicken-7kg-ORIGINAL.png",
+      "alt": "King Dog Dry Food – Chicken 7kg",
+      "name": "King Chicken 7kg ORIGINAL"
+    }
+  ],
+  "stockStatus": "instock",
+  "lowStockRemaining": null,
+  "isPurchasable": true,
+  "addToCartUrl": "https://petstore.co.ke/product/king-dog-dry-food-chicken-7kg/?add-to-cart=91136",
+  "status": "publish",
+  "featured": false,
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-07-03T10:26:11",
+  "dateModified": "2026-07-10T11:12:10",
+  "brand": "King",
+  "weight_kg": null,
+  "animal_type": "dog",
+  "food_type": "treat",
+  "image_url": "https://petstore.co.ke/wp-content/uploads/2026/07/King-Chicken-7kg-ORIGINAL.png"
+}
