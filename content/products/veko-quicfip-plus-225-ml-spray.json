@@ -32,7 +32,20 @@
       "slug": "veko"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=45029",
+  "description": "QuicFIP Plus is a once-a-month topical solution designed to prevent fleas and ticks in dogs, Compared to Frontline, Nexgard and Bravecto. This potent formula eliminates 100% of adult fleas on your pet within 12 hours and completely eradicates all ticks and chewing lice within 48 hours. QuicFIP Plus includes an insect growth regulator called S-Methoprene, which effectively eliminates fleas and ticks at every life stage, including their eggs and larvae. It provides comprehensive protection against various tick species, including the brown dog tick, American dog tick, lone star tick, and deer tick.",
+  "images": [
+    {
+      "id": 45029,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/08/Untitled-design-2.png",
+      "alt": "Veko QuicFip Plus Spray 225ml",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 2213,
@@ -53,35 +66,20 @@
       "id": 1148,
       "name": "pet care",
       "slug": "pet-care"
-    }
-  ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=45029",
-  "shortDescription": "QuicFIP Plus is a once-a-month topical solution designed to prevent fleas and ticks in dogs. This potent formula eliminates 100% of adult fleas on your pet within 12 hours and completely eradicates all ticks and chewing lice within 48 hours.",
-  "description": "QuicFIP Plus is a once-a-month topical solution designed to prevent fleas and ticks in dogs, Compared to Frontline, Nexgard and Bravecto. This potent formula eliminates 100% of adult fleas on your pet within 12 hours and completely eradicates all ticks and chewing lice within 48 hours. QuicFIP Plus includes an insect growth regulator called S-Methoprene, which effectively eliminates fleas and ticks at every life stage, including their eggs and larvae. It provides comprehensive protection against various tick species, including the brown dog tick, American dog tick, lone star tick, and deer tick.",
-  "images": [
+    },
     {
-      "id": 39326,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/08/Untitled-design-2.png",
-      "alt": "Veko QuicFip Plus Spray 225ml",
-      "name": "Untitled design (2)"
+      "name": "adult",
+      "slug": "adult"
     }
   ],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/veko-quicfip-plus-225-ml-spray/?add-to-cart=45029",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-03-07T09:45:23",
-  "dateModified": "2026-05-06T17:09:39",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "dry",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2023/08/Untitled-design-2.png"
 }

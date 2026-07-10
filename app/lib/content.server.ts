@@ -129,7 +129,36 @@ export function getProduct(slug: string): Product | null {
 
 export function getAllCategories(showAll = false): Category[] {
   const data = readJson<Category[]>(path.join(CONTENT_DIR, "categories", "_index.json"));
-  const categories = (data || []).map((c) => ({ ...c, name: decode(c.name) }));
+  let categories = (data || []).map((c) => ({ ...c, name: decode(c.name) }));
+
+  // Filter out non-storefront categories (brands, accessories) by tracing the tree from valid roots
+  const rootSlugs = [
+    "cat-supplies-store",
+    "dog-supplies-store",
+    "bird-supplies-store",
+    "rabbit-supplies-store",
+    "fish",
+    "hamster",
+    "clearance",
+    "bundles",
+    "donate",
+    "gift-cards",
+    "sale",
+    "toys"
+  ];
+  const rootCats = categories.filter((c) => rootSlugs.includes(c.slug));
+  const validIds = new Set<number>();
+  const trace = (id: number) => {
+    if (validIds.has(id)) return;
+    validIds.add(id);
+    categories.forEach((c) => {
+      if (c.parent === id) {
+        trace(c.id);
+      }
+    });
+  };
+  rootCats.forEach((c) => trace(c.id));
+  categories = categories.filter((c) => validIds.has(c.id));
 
   // Dynamically count products in each category from the index
   let products = getAllProducts(showAll);
@@ -189,10 +218,15 @@ export function getAllBrands(showAll = false): { name: string; slug: string; cou
     }
   }
 
+  const primaryBrandSlugs = new Set([
+    "proline", "reflex", "spectrum", "trendline", "josera", "bonnie",
+    "king", "unique", "miglior", "royal-canin", "montego", "thunder"
+  ]);
+
   return brands.map(b => ({
     ...b,
     count: brandCountMap.get(b.slug) || 0
-  }));
+  })).filter(b => b.count > 0 || primaryBrandSlugs.has(b.slug));
 }
 
 export function saveAllBrands(brands: any[]) {

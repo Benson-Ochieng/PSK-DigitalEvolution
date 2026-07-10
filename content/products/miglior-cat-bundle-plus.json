@@ -37,7 +37,20 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=37133",
+  "description": "1PC MIGLIOR CAT CROQUETTES BEEF AND LIVER 2KG 4PC MIGLIOR CAT ALUTRAY SALMON 100GR 4PC MIGLIOR CAT CAN CHUNKS TUNA AND SALMON 40GR 1PC ANKUR REGULAR NON SKID BOWL WITH COLOR AND PRINTING 235ML",
+  "images": [
+    {
+      "id": 37133,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/05/Miglior-cat-Plus-Bundle.png",
+      "alt": "Migliorgatto Bundle Plus",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 2122,
@@ -53,35 +66,20 @@
       "id": 621,
       "name": "wet food",
       "slug": "wet-food"
-    }
-  ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=37133",
-  "shortDescription": "This Bundle contains: 1PC MIGLIOR CAT CROQUETTES BEEF AND LIVER 2KG 4PC MIGLIOR CAT ALUTRAY SALMON 100GR 4PC MIGLIOR CAT CAN CHUNKS TUNA AND SALMON 40GR 1PC ANKUR REGULAR NON SKID BOWL WITH COLOR AND PRINTING 235ML",
-  "description": "1PC MIGLIOR CAT CROQUETTES BEEF AND LIVER 2KG 4PC MIGLIOR CAT ALUTRAY SALMON 100GR 4PC MIGLIOR CAT CAN CHUNKS TUNA AND SALMON 40GR 1PC ANKUR REGULAR NON SKID BOWL WITH COLOR AND PRINTING 235ML",
-  "images": [
+    },
     {
-      "id": 37135,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/05/Miglior-cat-Plus-Bundle.png",
-      "alt": "Migliorgatto Bundle Plus",
-      "name": "Miglior cat Plus Bundle"
+      "name": "adult",
+      "slug": "adult"
     }
   ],
+  "brands": [],
   "stockStatus": "outofstock",
-  "lowStockRemaining": 1,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/miglior-cat-bundle-plus/?add-to-cart=37133",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2023-05-18T12:25:25",
-  "dateModified": "2026-05-06T17:08:40",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "wet",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2023/05/Miglior-cat-Plus-Bundle.png"
 }

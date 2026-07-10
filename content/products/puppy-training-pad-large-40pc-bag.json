@@ -22,7 +22,20 @@
       "slug": "generic"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=24378",
+  "description": "Puppy training pad training is great for puppy-owners without easy access to outdoors for their pets and those living in tall buildings. Make clean-up easy and are convenient for potty training. ? Super-absorbent core. ? Leak-proof with plastic lining to prevent damage to floors ? Quick-dry surface with built-in attractant ? They?re comfortable for dogs ? They make clean-up easy ? They?re good options for dogs who can?t go outside for health reasons",
+  "images": [
+    {
+      "id": 24378,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/PTML.jpg",
+      "alt": "Puppy Training Pad-Large 40pc/Bag",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 1205,
@@ -55,33 +68,14 @@
       "slug": "small-breeds"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=24378",
-  "shortDescription": "Puppy Training Pad Large (60cm*60cm) – 40 pc per Bag",
-  "description": "Puppy training pad training is great for puppy-owners without easy access to outdoors for their pets and those living in tall buildings. Make clean-up easy and are convenient for potty training. ? Super-absorbent core. ? Leak-proof with plastic lining to prevent damage to floors ? Quick-dry surface with built-in attractant ? They?re comfortable for dogs ? They make clean-up easy ? They?re good options for dogs who can?t go outside for health reasons",
-  "images": [
-    {
-      "id": 24339,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/PTML.jpg",
-      "alt": "Puppy Training Pad-Large 40pc/Bag",
-      "name": "PTML"
-    }
-  ],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/puppy-training-pad-large-40pc-bag/?add-to-cart=24378",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2022-01-10T20:37:46",
-  "dateModified": "2026-05-06T17:07:49",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "dry",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/PTML.jpg"
 }

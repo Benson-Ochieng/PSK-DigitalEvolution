@@ -809,6 +809,7 @@ export default function VpBackendLayout() {
           padding: 3px 8px;
           border-radius: 4px;
           text-transform: uppercase;
+          white-space: nowrap;
         }
 
         .status-badge.processing {

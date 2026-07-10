@@ -17,11 +17,18 @@
       "slug": "nexgard"
     }
   ],
-  "brands": [
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=48166",
+  "description": "NexGard for dogs is a monthly soft, beef-flavoured chewable tablet that kills fleas and ticks. Merial NexGard is indicated for the treatment and control of flea (Ctenocephalides felis) infestations and the treatment and control of adult Dermacentor variabilis (American Dog Ticks), adult Ixodes scapularis (Blacklegged Ticks) and adult Amblyomma americanum (Lone Star Ticks) in dogs and puppies 8 weeks of age or older. This product kills both fleas and ticks. Why Choose Merial NexGard Flea and Tick Treatment for Dogs NexGard?for Dogs kills adult fleas before they lay eggs to help prevent infestations. Plus,?NexGard?also kills the Lone Star tick, Black-legged tick, American Dog tick and Brown dog tick. The fast-acting formula is safe and effective for an entire month. From the maker of FRONTLINE Flea & Tick Products a brand you can trust. NexGard soft chew is FDA-approved, and proven safe and effective for use in dogs and puppies 8 weeks of age or older, weighing 4 pounds or more. It contains an ingredient, afoxolaner, that kills both fleas and ticks quickly and keeps killing for a whole month. So, it helps provide protection you can feel good about.",
+  "images": [
     {
-      "id": 2455,
-      "name": "NexGard",
-      "slug": "nexgard"
+      "id": 48166,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/NGTSD.jpg",
+      "alt": "NexGard 28.3mg Tabs 3 Month Supply Small Dog 4-10kg",
+      "name": "thumbnail"
     }
   ],
   "tags": [
@@ -39,35 +46,25 @@
       "id": 1148,
       "name": "pet care",
       "slug": "pet-care"
+    },
+    {
+      "name": "adult",
+      "slug": "adult"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=48166",
-  "shortDescription": "NexGard for dogs kills adult fleas before they lay eggs and kills ticks, too. All in a delicious, soft chew that dogs love. NexGard contains an ingredient, afoxolaner that helps treat and control fleas and ticks and keeps killing for a full 30 days per chewable tablet.",
-  "description": "NexGard for dogs is a monthly soft, beef-flavoured chewable tablet that kills fleas and ticks. Merial NexGard is indicated for the treatment and control of flea (Ctenocephalides felis) infestations and the treatment and control of adult Dermacentor variabilis (American Dog Ticks), adult Ixodes scapularis (Blacklegged Ticks) and adult Amblyomma americanum (Lone Star Ticks) in dogs and puppies 8 weeks of age or older. This product kills both fleas and ticks. Why Choose Merial NexGard Flea and Tick Treatment for Dogs NexGard?for Dogs kills adult fleas before they lay eggs to help prevent infestations. Plus,?NexGard?also kills the Lone Star tick, Black-legged tick, American Dog tick and Brown dog tick. The fast-acting formula is safe and effective for an entire month. From the maker of FRONTLINE Flea & Tick Products a brand you can trust. NexGard soft chew is FDA-approved, and proven safe and effective for use in dogs and puppies 8 weeks of age or older, weighing 4 pounds or more. It contains an ingredient, afoxolaner, that kills both fleas and ticks quickly and keeps killing for a whole month. So, it helps provide protection you can feel good about.",
-  "images": [
+  "brands": [
     {
-      "id": 24684,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/01/NGTSD.jpg",
-      "alt": "NexGard 28.3mg Tabs – 3 month supply – Small Dog (4-10kg)",
-      "name": "NGTSD"
+      "name": "NexGard",
+      "slug": "nexgard"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/nexgard-28-3mg-tabs-3-month-supply-small-dog-4-10kg/?add-to-cart=48166",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-07-01T14:41:53",
-  "dateModified": "2026-06-17T04:34:32",
-  "brand": "NexGard",
-  "weight_kg": 10,
-  "animal_type": "dog",
-  "food_type": "dry",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2022/01/NGTSD.jpg"
 }

@@ -3,10 +3,10 @@
   "name": "Unique Cat Obesity Chicken & Turkey 2kg",
   "slug": "unique-cat-obesity-chicken-turkey-2kg",
   "sku": "UCD007@F",
-  "onSale": true,
+  "onSale": false,
   "price": 3197,
-  "regularPrice": 4568,
-  "salePrice": 3197,
+  "regularPrice": 3197,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/03/UCD007.jpg",
@@ -17,7 +17,20 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=52840",
+  "description": "",
+  "images": [
+    {
+      "id": 52840,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/03/UCD007.jpg",
+      "alt": "Unique Cat Obesity Chicken & Turkey 2kg",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 636,
@@ -28,35 +41,20 @@
       "id": 2319,
       "name": "Veterinary Range",
       "slug": "veterinary-range"
-    }
-  ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=52840",
-  "shortDescription": "",
-  "description": "",
-  "images": [
+    },
     {
-      "id": 25871,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/03/UCD007.jpg",
-      "alt": "SHORT EXPIRY-CLEARANCE: Unique Veterinary Prescription Diet Adult Cat Obesity Chicken & Turkey 2kg",
-      "name": "UCD007"
+      "name": "adult",
+      "slug": "adult"
     }
   ],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/unique-cat-obesity-chicken-turkey-2kg/?add-to-cart=52840",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-01-16T17:05:31",
-  "dateModified": "2026-05-06T17:11:03",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2022/03/UCD007.jpg"
 }

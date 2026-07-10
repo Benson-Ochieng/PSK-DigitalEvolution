@@ -170,7 +170,7 @@ export async function syncLocalToSupabase() {
             dateCreated: p.dateCreated || p.createdAt || null,
             dateModified: p.dateModified || null,
             brand: p.brand || (Array.isArray(p.brands) && p.brands[0] ? p.brands[0].name : null),
-            weight_kg: p.weight_kg !== undefined && p.weight_kg !== null ? Number(p.weight_kg) : null,
+            weight_kg: p.weight_kg !== undefined && p.weight_kg !== null ? Number(p.weight_kg) : (p.weight !== undefined && p.weight !== null ? Number(p.weight) : null),
             animal_type: p.animal_type || null,
             food_type: p.food_type || null,
             image_url: p.image_url || p.thumbnail || null,
@@ -277,61 +277,82 @@ export async function pullFromSupabase() {
       const productsDir = path.join(CONTENT_DIR, "products");
       fs.mkdirSync(productsDir, { recursive: true });
 
+      // Fetch prices and stock from store_prices PostgreSQL table
+      const priceMap = new Map();
+      try {
+        const { query: dbQuery } = await import("../db.server");
+        const pricesRes = await dbQuery("SELECT product_id, price, in_stock, product_url FROM store_prices WHERE store_name = 'PetStore Kenya'", []);
+        for (const row of pricesRes.rows) {
+          priceMap.set(Number(row.product_id), {
+            price: Number(row.price),
+            inStock: !!row.in_stock,
+            productUrl: row.product_url
+          });
+        }
+      } catch (err) {
+        console.error("Failed to query store_prices during pull:", err);
+      }
+
       const indexProducts = products.map((p: any) => {
+        const storeData = priceMap.get(Number(p.id)) || { price: null, inStock: false, productUrl: null };
+        const finalPrice = storeData.price;
         return {
           id: Number(p.id),
           name: p.name,
           slug: p.slug,
           sku: p.sku,
-          regularPrice: Number(p.regularPrice),
-          salePrice: p.salePrice !== null ? Number(p.salePrice) : null,
-          price: Number(p.price),
-          onSale: !!p.onSale,
-          inStock: !!p.inStock,
-          thumbnail: p.thumbnail,
+          regularPrice: finalPrice,
+          salePrice: null,
+          price: finalPrice,
+          onSale: false,
+          inStock: storeData.inStock,
+          thumbnail: p.image_url || p.thumbnail,
           categories: p.categories || [],
-          brands: p.brands || [],
+          brands: (p.brands && p.brands.length > 0) ? p.brands : (p.brand ? [{ name: p.brand, slug: p.brand.toLowerCase().replace(/[^a-z0-9]+/g, "-") }] : []),
           tags: p.tags || [],
           status: p.status || "publish",
-          dateCreated: p.dateCreated,
-          dateModified: p.dateModified
+          dateCreated: p.dateCreated || p.created_at,
+          dateModified: p.dateModified || p.created_at
         };
       });
       fs.writeFileSync(path.join(productsDir, "_index.json"), JSON.stringify(indexProducts, null, 2), "utf-8");
 
       for (const p of products) {
+        const storeData = priceMap.get(Number(p.id)) || { price: null, inStock: false, productUrl: null };
+        const finalPrice = storeData.price;
         const detail = {
           id: Number(p.id),
           name: p.name,
           slug: p.slug,
           sku: p.sku,
-          onSale: !!p.onSale,
-          price: Number(p.price),
-          regularPrice: Number(p.regularPrice),
-          salePrice: p.salePrice !== null ? Number(p.salePrice) : null,
+          onSale: false,
+          price: finalPrice,
+          regularPrice: finalPrice,
+          salePrice: null,
           currency: p.currency || "KES",
           currencySymbol: p.currencySymbol || "KSh",
-          thumbnail: p.thumbnail,
+          thumbnail: p.image_url || p.thumbnail,
           categories: p.categories || [],
-          inStock: !!p.inStock,
+          inStock: storeData.inStock,
           averageRating: Number(p.averageRating || 0),
           reviewCount: Number(p.reviewCount || 0),
           type: p.type || "simple",
-          permalink: p.permalink,
+          permalink: p.permalink || storeData.productUrl,
           shortDescription: p.shortDescription,
           description: p.description,
-          images: p.images || [],
+          images: p.images && p.images.length > 0 ? p.images : (p.image_url ? [{ id: p.id, src: p.image_url, alt: p.name, name: "thumbnail" }] : []),
           tags: p.tags || [],
-          brands: p.brands || [],
-          stockStatus: p.stockStatus || "instock",
+          brands: (p.brands && p.brands.length > 0) ? p.brands : (p.brand ? [{ name: p.brand, slug: p.brand.toLowerCase().replace(/[^a-z0-9]+/g, "-") }] : []),
+          stockStatus: storeData.inStock ? "instock" : "outofstock",
           lowStockRemaining: p.lowStockRemaining !== null ? Number(p.lowStockRemaining) : null,
           isPurchasable: p.isPurchasable !== undefined ? !!p.isPurchasable : true,
           addToCartUrl: p.addToCartUrl,
           status: p.status || "publish",
           featured: !!p.featured,
           catalogVisibility: p.catalogVisibility || "visible",
-          dateCreated: p.dateCreated,
-          dateModified: p.dateModified
+          dateCreated: p.dateCreated || p.created_at,
+          dateModified: p.dateModified || p.created_at,
+          image_url: p.image_url || p.thumbnail
         };
         fs.writeFileSync(path.join(productsDir, `${p.slug}.json`), JSON.stringify(detail, null, 2), "utf-8");
       }
@@ -410,7 +431,7 @@ export async function upsertProductToSupabase(p: any) {
       dateCreated: p.dateCreated || p.createdAt || null,
       dateModified: p.dateModified || new Date().toISOString(),
       brand: p.brand || (Array.isArray(p.brands) && p.brands[0] ? p.brands[0].name : null),
-      weight_kg: p.weight_kg !== undefined && p.weight_kg !== null ? Number(p.weight_kg) : null,
+      weight_kg: p.weight_kg !== undefined && p.weight_kg !== null ? Number(p.weight_kg) : (p.weight !== undefined && p.weight !== null ? Number(p.weight) : null),
       animal_type: p.animal_type || null,
       food_type: p.food_type || null,
       image_url: p.image_url || p.thumbnail || null,

@@ -27,7 +27,20 @@
       "slug": "cat-litter-and-accessories"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=33772",
+  "description": "1PC Proline Cat Litter Lavender 5L 1PC Proline Adult Cat Food Chicken 500Gr",
+  "images": [
+    {
+      "id": 33772,
+      "src": "/images/psk_logo.png",
+      "alt": "Proline Bundle - 2Pc",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 2122,
@@ -43,28 +56,20 @@
       "id": 819,
       "name": "cat litter",
       "slug": "cat-litter"
+    },
+    {
+      "name": "adult",
+      "slug": "adult"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=33772",
-  "shortDescription": "1PC Proline Cat Litter Lavender 5L 1PC Proline Adult Cat Food Chicken 500Gr",
-  "description": "1PC Proline Cat Litter Lavender 5L 1PC Proline Adult Cat Food Chicken 500Gr",
-  "images": [],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/proline-bundle-2pc/?add-to-cart=33772",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2022-12-21T18:14:50",
-  "dateModified": "2026-05-06T17:08:27",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "/images/psk_logo.png"
 }

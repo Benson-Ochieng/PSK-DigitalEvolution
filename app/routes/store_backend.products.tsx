@@ -5,6 +5,21 @@ import path from "path";
 import { getAllProducts, getAllCategories, getAllReviews, getAllBrands, getAllTags, getAllAttributes, saveAllBrands, saveAllTags, saveAllAttributes, saveAllCategories } from "~/lib/content.server";
 import { upsertProductToSupabase, deleteProductFromSupabase } from "~/lib/supabase.server";
 
+const BRAND_IMAGES: Record<string, string> = {
+  "proline": "/images/brands/Proline_Logo-300x105.png.webp",
+  "reflex": "/images/brands/Reflex_logo_plain-300x180.png.webp",
+  "spectrum": "/images/brands/Spectrum_Logo.png.webp",
+  "trendline": "/images/brands/Trendline-logo-300x75.jpg.webp",
+  "josera": "/images/brands/Josera_logo1.png.webp",
+  "bonnie": "/images/brands/Bonnie_Logo-300x102.png.webp",
+  "king": "/images/brands/King-Logo-1080x1080.png.webp",
+  "unique": "/images/brands/Unique-Logo.png.webp",
+  "miglior": "/images/brands/Migliorcane_logo.png",
+  "royal-canin": "/images/brands/Royal-Canin-Logo.svg_.png.webp",
+  "montego": "/images/brands/Montego_White_Logo.png.webp",
+  "thunder": "/images/brands/thunder_logo.png.webp"
+};
+
 export async function loader({ request }: { request: Request }) {
   const url = new URL(request.url);
   const view = url.searchParams.get("view");
@@ -1643,6 +1658,7 @@ export default function VpBackendProducts() {
           font-size: 11px;
           cursor: pointer;
           transition: all 0.3s ease;
+          white-space: nowrap;
         }
 
         .edit-badge-btn:hover {
@@ -3603,22 +3619,47 @@ export default function VpBackendProducts() {
                       <tr key={brand.slug}>
                         <td><input type="checkbox" /></td>
                         <td>
-                          <div style={{
-                            width: "36px",
-                            height: "36px",
-                            borderRadius: "6px",
-                            background: "linear-gradient(135deg, rgba(0, 204, 255, 0.2), rgba(0, 100, 255, 0.2))",
-                            border: "1px solid rgba(0, 204, 255, 0.3)",
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "center",
-                            fontWeight: "bold",
-                            color: "#00ccff",
-                            fontSize: "12px",
-                            textTransform: "uppercase"
-                          }}>
-                            {brand.name.substring(0, 2)}
-                          </div>
+                          {BRAND_IMAGES[brand.slug] ? (
+                            <div style={{
+                              width: "36px",
+                              height: "36px",
+                              borderRadius: "6px",
+                              background: "#ffffff",
+                              border: "1px solid rgba(255, 255, 255, 0.15)",
+                              display: "flex",
+                              alignItems: "center",
+                              justifyContent: "center",
+                              overflow: "hidden",
+                              padding: "2px"
+                            }}>
+                              <img
+                                src={BRAND_IMAGES[brand.slug]}
+                                alt={brand.name}
+                                style={{
+                                  width: "100%",
+                                  height: "100%",
+                                  objectFit: "contain"
+                                }}
+                              />
+                            </div>
+                          ) : (
+                            <div style={{
+                              width: "36px",
+                              height: "36px",
+                              borderRadius: "6px",
+                              background: "linear-gradient(135deg, rgba(0, 204, 255, 0.2), rgba(0, 100, 255, 0.2))",
+                              border: "1px solid rgba(0, 204, 255, 0.3)",
+                              display: "flex",
+                              alignItems: "center",
+                              justifyContent: "center",
+                              fontWeight: "bold",
+                              color: "#00ccff",
+                              fontSize: "12px",
+                              textTransform: "uppercase"
+                            }}>
+                              {brand.name.substring(0, 2)}
+                            </div>
+                          )}
                         </td>
                         <td>
                           <div style={{ fontWeight: "600", color: "#fff", fontSize: "14px" }}>{brand.name}</div>

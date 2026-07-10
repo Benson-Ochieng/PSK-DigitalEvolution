@@ -32,11 +32,18 @@
       "slug": "whiskas"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/whiskas-dry-senior-food-chicken-1-9kg-2/",
+  "description": "Each delicious meal features Whiskas' signature pocket kibbles with a crunchy exterior and soft centre that cats love, along with tasty peas and carrots for added nutrition. Enriched with Vitamin E, taurine, balanced minerals, and essential vitamins and minerals, this recipe supports a healthy immune system, heart function, urinary tract health, healthy skin, and a shiny coat while providing complete daily nutrition. Key Features Complete and balanced nutrition for senior cats aged 7 years and above Made with high-quality chicken protein to support lean muscle maintenance Formulated to meet the changing nutritional needs of ageing cats Signature pocket kibbles with a crunchy outside and soft, delicious centre Enriched with Vitamin E to support a healthy immune system Contains taurine to support heart health and healthy vision Balanced minerals help maintain a healthy urinary tract Zinc supports healthy skin and a glossy coat Includes tasty peas and carrots for added nutrition No added artificial colours or preservatives Nutritional Analysis Crude Protein: 30% Crude Fat: 11.5% Crude Fibre: 2.2% Inorganic Matter (Ash): 9% Calcium: 1.4% Phosphorus: 0.97% Key Vitamins & Minerals Fortified with essential nutrients including: Vitamin B1 Vitamin B2 Vitamin B6 Vitamin D₃ Vitamin E Taurine Zinc Iron Copper Iodine Manganese Selenium Ingredients Cereals, meat and animal derivatives (including 4% chicken), derivatives of vegetable origin, oils and fats, vegetable protein extracts, minerals, yeast, dried carrots, dried peas, and other carefully selected ingredients to support senior cat health. Benefits Supports healthy ageing and overall wellbeing Helps maintain strong muscles with quality protein Supports a healthy immune system with Vitamin E Promotes heart and vision health with taurine Helps maintain urinary tract health with balanced minerals Supports healthy skin and a shiny coat with zinc Provides highly palatable nutrition with crunchy pocket kibbles and soft centres Feeding & Storage Introduce the food gradually over 7–8 days by mixing increasing amounts with your cat's current food to help avoid digestive upset. Always provide fresh, clean drinking water. Store in a cool, dry place and reseal the bag after opening to maintain freshness. Why Choose Whiskas 7+ Dry Cat Food – Chicken? Whiskas 7+ Dry Cat Food – Chicken is expertly formulated to meet the unique nutritional needs of senior cats. With high-quality chicken protein, taurine, Vitamin E, balanced minerals, and essential vitamins, it supports healthy ageing, heart function, immunity, urinary tract health, skin and coat condition, and overall vitality. Its delicious pocket kibbles make every meal enjoyable while delivering the complete daily nutrition your senior cat deserves. &nbsp;",
+  "images": [
     {
-      "id": 2480,
-      "name": "Whiskas",
-      "slug": "whiskas"
+      "id": 91154,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/07/Whiskas-Dry-Senior-Food-Chicken-1.9kg.png",
+      "alt": "Whiskas Dry Senior Food - Chicken 1.9kg",
+      "name": "thumbnail"
     }
   ],
   "tags": [
@@ -49,35 +56,25 @@
       "id": 636,
       "name": "dry food",
       "slug": "dry-food"
+    },
+    {
+      "name": "senior",
+      "slug": "senior"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/whiskas-dry-senior-food-chicken-1-9kg-2/",
-  "shortDescription": "Whiskas 7+ Dry Cat Food – Chicken is a complete and balanced dry cat food specially formulated for senior cats aged 7 years and older. Made with high-quality chicken protein and carefully selected ingredients, this nutritious recipe is tailored to meet the changing nutritional needs of ageing cats, helping them stay healthy, active, and happy throughout their senior years.",
-  "description": "Each delicious meal features Whiskas' signature pocket kibbles with a crunchy exterior and soft centre that cats love, along with tasty peas and carrots for added nutrition. Enriched with Vitamin E, taurine, balanced minerals, and essential vitamins and minerals, this recipe supports a healthy immune system, heart function, urinary tract health, healthy skin, and a shiny coat while providing complete daily nutrition. Key Features Complete and balanced nutrition for senior cats aged 7 years and above Made with high-quality chicken protein to support lean muscle maintenance Formulated to meet the changing nutritional needs of ageing cats Signature pocket kibbles with a crunchy outside and soft, delicious centre Enriched with Vitamin E to support a healthy immune system Contains taurine to support heart health and healthy vision Balanced minerals help maintain a healthy urinary tract Zinc supports healthy skin and a glossy coat Includes tasty peas and carrots for added nutrition No added artificial colours or preservatives Nutritional Analysis Crude Protein: 30% Crude Fat: 11.5% Crude Fibre: 2.2% Inorganic Matter (Ash): 9% Calcium: 1.4% Phosphorus: 0.97% Key Vitamins & Minerals Fortified with essential nutrients including: Vitamin B1 Vitamin B2 Vitamin B6 Vitamin D₃ Vitamin E Taurine Zinc Iron Copper Iodine Manganese Selenium Ingredients Cereals, meat and animal derivatives (including 4% chicken), derivatives of vegetable origin, oils and fats, vegetable protein extracts, minerals, yeast, dried carrots, dried peas, and other carefully selected ingredients to support senior cat health. Benefits Supports healthy ageing and overall wellbeing Helps maintain strong muscles with quality protein Supports a healthy immune system with Vitamin E Promotes heart and vision health with taurine Helps maintain urinary tract health with balanced minerals Supports healthy skin and a shiny coat with zinc Provides highly palatable nutrition with crunchy pocket kibbles and soft centres Feeding & Storage Introduce the food gradually over 7–8 days by mixing increasing amounts with your cat's current food to help avoid digestive upset. Always provide fresh, clean drinking water. Store in a cool, dry place and reseal the bag after opening to maintain freshness. Why Choose Whiskas 7+ Dry Cat Food – Chicken? Whiskas 7+ Dry Cat Food – Chicken is expertly formulated to meet the unique nutritional needs of senior cats. With high-quality chicken protein, taurine, Vitamin E, balanced minerals, and essential vitamins, it supports healthy ageing, heart function, immunity, urinary tract health, skin and coat condition, and overall vitality. Its delicious pocket kibbles make every meal enjoyable while delivering the complete daily nutrition your senior cat deserves. &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 91155,
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/07/Whiskas-Dry-Senior-Food-Chicken-1.9kg.png",
-      "alt": "Whiskas Dry Senior Food - Chicken 1.9kg",
-      "name": "Whiskas Dry Senior Food Chicken 1.9kg"
+      "name": "Whiskas",
+      "slug": "whiskas"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/whiskas-dry-senior-food-chicken-1-9kg-2/?add-to-cart=91154",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-07-03T10:41:07",
-  "dateModified": "2026-07-08T11:12:33",
-  "brand": "Whiskas",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "treat",
+  "dateCreated": "2026-07-10T08:24:32.815708+00:00",
+  "dateModified": "2026-07-10T08:24:32.815708+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2026/07/Whiskas-Dry-Senior-Food-Chicken-1.9kg.png"
 }

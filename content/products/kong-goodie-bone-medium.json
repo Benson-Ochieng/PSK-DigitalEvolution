@@ -37,7 +37,20 @@
       "slug": "kong-accessories"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=16415",
+  "description": "The KONGGoodie Bone toy engages dogs that delight in chew sessions. Made from the KONGClassic unique natural red rubber formula, this bone features the patented Goodie Grippers that turn this entertaining toy into a fun treat-dispensing challenge that can be stuffed with your dog's favourite kibble. Want to extend the chew session? Stuff with KONGSnacks and entice with a bit of KONGEasy Treat.",
+  "images": [
+    {
+      "id": 16415,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/11/KONG®-Goodie-Bone-Md.jpg",
+      "alt": "KONG goodie Bone Md",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 1205,
@@ -75,33 +88,14 @@
       "slug": "toys"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=16415",
-  "shortDescription": "KONG Goodie Bone Chew Toy – Medium",
-  "description": "The KONGGoodie Bone toy engages dogs that delight in chew sessions. Made from the KONGClassic unique natural red rubber formula, this bone features the patented Goodie Grippers that turn this entertaining toy into a fun treat-dispensing challenge that can be stuffed with your dog's favourite kibble. Want to extend the chew session? Stuff with KONGSnacks and entice with a bit of KONGEasy Treat.",
-  "images": [
-    {
-      "id": 24958,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/11/KONG®-Goodie-Bone-Md.jpg",
-      "alt": "KONG goodie Bone Md",
-      "name": "KONG®-Goodie-Bone-Md"
-    }
-  ],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/kong-goodie-bone-medium/?add-to-cart=16415",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2020-11-27T10:37:45",
-  "dateModified": "2026-05-06T17:06:39",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "cat",
-  "food_type": "treat",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2020/11/KONG®-Goodie-Bone-Md.jpg"
 }

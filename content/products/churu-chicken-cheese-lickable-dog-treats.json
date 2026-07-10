@@ -37,11 +37,18 @@
       "slug": "puppy-treats"
     }
   ],
-  "brands": [
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/churu-chicken-cheese-lickable-dog-treats/",
+  "description": "Treat your furry companion to something truly special with Churu Chicken Recipe with Salmon Treats for Dogs . Crafted with real farm-raised chicken and flavorful salmon , these creamy, lickable treats deliver an irresistible taste that dogs love while supporting their overall health and hydration. Each pack includes 4 convenient tubes , perfectly portioned for easy feeding at home or on the go. With a high moisture content , Churu treats help keep your dog hydrated, making them especially beneficial for dogs that don’t drink enough water. They are also low in calories , allowing you to reward your dog guilt-free. Why Dogs Love Churu: Made with real chicken and salmon for a rich, savory flavor Soft, creamy texture that’s easy to lick and digest High moisture content to support daily hydration Versatile feeding options : hand-feed directly from the tube, serve in a bowl, or use as a tasty food topper Ideal for training rewards or hiding medication Free from grains, artificial colors, preservatives, and carrageenan, Inaba Churu treats are a wholesome and safe choice for dogs of all breeds and life stages. Turn treat time into a fun bonding moment while giving your dog a snack you can trust.",
+  "images": [
     {
-      "id": 2433,
-      "name": "Churu",
-      "slug": "churu"
+      "id": 66431,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/DOG-Salmon-recipe.png",
+      "alt": "Churu Dog Treat - Chicken with Salmon Recipe 4 Tubes",
+      "name": "thumbnail"
     }
   ],
   "tags": [
@@ -54,35 +61,25 @@
       "id": 1156,
       "name": "treats",
       "slug": "treats"
+    },
+    {
+      "name": "adult",
+      "slug": "adult"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/churu-chicken-cheese-lickable-dog-treats/",
-  "shortDescription": "Treat your furry companion to something special with Churu Chicken Recipe with Salmon Treat for Dogs. These delicious treats are made with real chicken and salmon and come in convenient 4-tube packs. Satisfy your dog's cravings and provide them with essential nutrients in every bite.",
-  "description": "Treat your furry companion to something truly special with Churu Chicken Recipe with Salmon Treats for Dogs . Crafted with real farm-raised chicken and flavorful salmon , these creamy, lickable treats deliver an irresistible taste that dogs love while supporting their overall health and hydration. Each pack includes 4 convenient tubes , perfectly portioned for easy feeding at home or on the go. With a high moisture content , Churu treats help keep your dog hydrated, making them especially beneficial for dogs that don’t drink enough water. They are also low in calories , allowing you to reward your dog guilt-free. Why Dogs Love Churu: Made with real chicken and salmon for a rich, savory flavor Soft, creamy texture that’s easy to lick and digest High moisture content to support daily hydration Versatile feeding options : hand-feed directly from the tube, serve in a bowl, or use as a tasty food topper Ideal for training rewards or hiding medication Free from grains, artificial colors, preservatives, and carrageenan, Inaba Churu treats are a wholesome and safe choice for dogs of all breeds and life stages. Turn treat time into a fun bonding moment while giving your dog a snack you can trust.",
-  "images": [
+  "brands": [
     {
-      "id": 66434,
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/01/DOG-Salmon-recipe.png",
-      "alt": "Churu Dog Treat – Chicken with Salmon Recipe 4 Tubes",
-      "name": "DOG Salmon recipe"
+      "name": "Churu",
+      "slug": "churu"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/churu-chicken-cheese-lickable-dog-treats/?add-to-cart=66431",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-01-09T14:54:13",
-  "dateModified": "2026-07-08T12:12:10",
-  "brand": "Churu",
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "treat",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/DOG-Salmon-recipe.png"
 }

@@ -42,7 +42,20 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=33789",
+  "description": "1 Pc Spectrum Low Grain Adult Cat Food Chicken, Turkey and Cranberry 500Gr 1 Pc Spectrum Low Grain Adul Cat Food Salmon, Anchovy and Cranberry 500Gr 1 Pc Reflex Cat litter - Clinic Fresh 6L 4 Pcs Migliorgatto Cat Pouch Beef and Carrots 100Gr",
+  "images": [
+    {
+      "id": 33789,
+      "src": "/images/psk_logo.png",
+      "alt": "Premium Cat Bundle",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 2122,
@@ -63,28 +76,20 @@
       "id": 621,
       "name": "wet food",
       "slug": "wet-food"
+    },
+    {
+      "name": "adult",
+      "slug": "adult"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=33789",
-  "shortDescription": "1 Pc Spectrum Low Grain Adult Cat Food Chicken, Turkey and Cranberry 500Gr 1 Pc Spectrum Low Grain Adul Cat Food Salmon, Anchovy and Cranberry 500Gr 1 Pc Reflex Cat litter – Clinic Fresh 6L 4 Pcs Migliorgatto Cat Pouch Beef and Carrots 100Gr",
-  "description": "1 Pc Spectrum Low Grain Adult Cat Food Chicken, Turkey and Cranberry 500Gr 1 Pc Spectrum Low Grain Adul Cat Food Salmon, Anchovy and Cranberry 500Gr 1 Pc Reflex Cat litter - Clinic Fresh 6L 4 Pcs Migliorgatto Cat Pouch Beef and Carrots 100Gr",
-  "images": [],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/premium-cat-bundle/?add-to-cart=33789",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2022-12-22T09:51:59",
-  "dateModified": "2026-05-06T17:08:27",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "wet",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "/images/psk_logo.png"
 }

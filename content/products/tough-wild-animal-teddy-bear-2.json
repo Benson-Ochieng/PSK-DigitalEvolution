@@ -42,7 +42,20 @@
       "slug": "dog-rope-tug-toys"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/tough-wild-animal-teddy-bear-2/",
+  "description": "TOUGH - WILD ANIMAL - TEDDY BEAR is soft and with a cuddly exterior, durable and strong skeleton that can withstand toughest playtime, which is good for chewing and tugging. Medium size perfect for dogs of all breeds and sizes.",
+  "images": [
+    {
+      "id": 42752,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/12/TOUGH-WILD-ANIMAL-TEDDY-BEAR.webp",
+      "alt": "Tough Wild Animal Teddy Bear",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 1205,
@@ -70,33 +83,14 @@
       "slug": "toys"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/tough-wild-animal-teddy-bear-2/",
-  "shortDescription": "Medium size perfect for dogs of all breeds and sizes.",
-  "description": "TOUGH - WILD ANIMAL - TEDDY BEAR is soft and with a cuddly exterior, durable and strong skeleton that can withstand toughest playtime, which is good for chewing and tugging. Medium size perfect for dogs of all breeds and sizes.",
-  "images": [
-    {
-      "id": 42753,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/12/TOUGH-WILD-ANIMAL-TEDDY-BEAR.webp",
-      "alt": "Tough Wild Animal Teddy Bear",
-      "name": "TOUGH &#8211; WILD ANIMAL &#8211; TEDDY BEAR"
-    }
-  ],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/tough-wild-animal-teddy-bear-2/?add-to-cart=42752",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2023-12-29T10:25:33",
-  "dateModified": "2026-06-17T04:18:40",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "supplement",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2023/12/TOUGH-WILD-ANIMAL-TEDDY-BEAR.webp"
 }

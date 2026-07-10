@@ -37,11 +37,18 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=14855",
+  "description": "Reflex Dog Treats - 100% Natural Sandwich Strips with Duck & Cod , from real duck & cod meat. Reflex natural super premium dog treats can easily be digested due to its high meat content. It will not cause weight gain as it has low calorie. The fatty acids in it support skin and coat health. It is also very effective for training with its high palatability INGREDIENTS: Duck, Code Fish, Vegetable Glycerin, Soy Protein, Starch, Salt. NUTRIENT COMPONENTS Crude Protein (%) - 30 Crude Fat (%) - 1 Crude Fiber (%) - 4 Moisture Content (%) - 20 FEEDING RECOMMENDATIONS: Recommended for all dogs. Feed as a snack or treat between meals. This product does not replace full-dog food daily. Once open, keep the package tightly closed. Store in a cool, dry place.",
+  "images": [
     {
-      "id": 2717,
-      "name": "Reflex",
-      "slug": "reflex"
+      "id": 14855,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Dog-Treats-Sandwich-Strips-with-Duck-Cod-80g-min.png",
+      "alt": "SHORT EXPIRY - CLEARANCE: Reflex Dog Treats - 100% Natural Sandwich Strips with Duck & Cod 80g",
+      "name": "thumbnail"
     }
   ],
   "tags": [
@@ -61,33 +68,19 @@
       "slug": "treats"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=14855",
-  "shortDescription": "Reflex Dog Treats. 100% Natural Sandwich Strips with Duck and Cod, from real duck and cod meat. A great source of lean protein. No artificial colours, flavours or preservatives added.",
-  "description": "Reflex Dog Treats - 100% Natural Sandwich Strips with Duck & Cod , from real duck & cod meat. Reflex natural super premium dog treats can easily be digested due to its high meat content. It will not cause weight gain as it has low calorie. The fatty acids in it support skin and coat health. It is also very effective for training with its high palatability INGREDIENTS: Duck, Code Fish, Vegetable Glycerin, Soy Protein, Starch, Salt. NUTRIENT COMPONENTS Crude Protein (%) - 30 Crude Fat (%) - 1 Crude Fiber (%) - 4 Moisture Content (%) - 20 FEEDING RECOMMENDATIONS: Recommended for all dogs. Feed as a snack or treat between meals. This product does not replace full-dog food daily. Once open, keep the package tightly closed. Store in a cool, dry place.",
-  "images": [
+  "brands": [
     {
-      "id": 12711,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Dog-Treats-Sandwich-Strips-with-Duck-Cod-80g-min.png",
-      "alt": "SHORT EXPIRY - CLEARANCE: Reflex Dog Treats - 100% Natural Sandwich Strips with Duck & Cod 80g",
-      "name": "Reflex Dog Treats Sandwich Strips with Duck &#038; Cod 80g-min"
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "outofstock",
-  "lowStockRemaining": 10,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/short-expiry-clearance-reflex-dog-treats-100-natural-sandwich-strips-with-duck-cod-80g/?add-to-cart=14855",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2020-08-20T15:48:23",
-  "dateModified": "2026-05-06T17:06:37",
-  "brand": "Reflex",
-  "weight_kg": 0.08,
-  "animal_type": "dog",
-  "food_type": "treat",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Dog-Treats-Sandwich-Strips-with-Duck-Cod-80g-min.png"
 }

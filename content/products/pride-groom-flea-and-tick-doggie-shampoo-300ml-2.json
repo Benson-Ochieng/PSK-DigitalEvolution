@@ -32,11 +32,18 @@
       "slug": "dog-shampoo"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/pride-groom-flea-and-tick-doggie-shampoo-300ml-2/",
+  "description": "Pride & Groom flea and tick shampoo is specifically formulated to be mild and gentle whilst clearing the coat thoroughly to improve the texture and appearance leaving it soft and glossy. This shampoo contains a combination of natural essential oils which have known flea and tick repelling properties, so will help remove any infestation. Use of this shampoo is smart way of conditioning your pet's fur and a preventative measure against flea and tick infestations. Directions for use: Wet pet's body with water. Pour a moderate amount into hand or wash cloth and gently wash pet's hair and skin. Rinse thoroughly. Precautions: Keep outreach of children. Avoid contact with eyes. In case of contact with eyes rinse immediately with plenty of water and seek medical advice. If swallowed, seek medical advice. Keep in a cool place away from direct sunlight. Ingredients: Aqua, Sodium Lauryl Sulphate, Glycerine, Sodium Chloride, Butylene Glycol, Dimethylol Dimethyl, Hydantoin, Peppermint Oil, Hydroxy Ethyl Cellulose, Tetrasodium EDTA, Citric Acid Cedar Wood Oil.",
+  "images": [
     {
-      "id": 2460,
-      "name": "Pride & Groom",
-      "slug": "pride-groom"
+      "id": 49241,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/08/PRIDE-amp-GROOM-FLEA-AND-TICK-DOGGIE-SHAMPOO-300ML.jpg",
+      "alt": "Pride & Groom Flea & Tick Doggie Shampoo - 300ml",
+      "name": "thumbnail"
     }
   ],
   "tags": [
@@ -64,35 +71,25 @@
       "id": 2109,
       "name": "Small breeds",
       "slug": "small-breeds"
+    },
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/pride-groom-flea-and-tick-doggie-shampoo-300ml-2/",
-  "shortDescription": "Pride & Groom flea and tick shampoo is specifically formulated to be mild and gentle whilst clearing the coat thoroughly to improve the texture and appearance leaving it soft and glossy.",
-  "description": "Pride & Groom flea and tick shampoo is specifically formulated to be mild and gentle whilst clearing the coat thoroughly to improve the texture and appearance leaving it soft and glossy. This shampoo contains a combination of natural essential oils which have known flea and tick repelling properties, so will help remove any infestation. Use of this shampoo is smart way of conditioning your pet's fur and a preventative measure against flea and tick infestations. Directions for use: Wet pet's body with water. Pour a moderate amount into hand or wash cloth and gently wash pet's hair and skin. Rinse thoroughly. Precautions: Keep outreach of children. Avoid contact with eyes. In case of contact with eyes rinse immediately with plenty of water and seek medical advice. If swallowed, seek medical advice. Keep in a cool place away from direct sunlight. Ingredients: Aqua, Sodium Lauryl Sulphate, Glycerine, Sodium Chloride, Butylene Glycol, Dimethylol Dimethyl, Hydantoin, Peppermint Oil, Hydroxy Ethyl Cellulose, Tetrasodium EDTA, Citric Acid Cedar Wood Oil.",
-  "images": [
+  "brands": [
     {
-      "id": 49243,
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/08/PRIDE-amp-GROOM-FLEA-AND-TICK-DOGGIE-SHAMPOO-300ML.jpg",
-      "alt": "Pride & Groom Flea & Tick Doggie Shampoo – 300ml",
-      "name": "PRIDE &amp; GROOM FLEA AND TICK DOGGIE SHAMPOO- 300ML"
+      "name": "Pride & Groom",
+      "slug": "pride-groom"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/pride-groom-flea-and-tick-doggie-shampoo-300ml-2/?add-to-cart=49241",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-08-07T10:17:41",
-  "dateModified": "2026-07-01T18:13:24",
-  "brand": "Pride & Groom",
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "supplement",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2024/08/PRIDE-amp-GROOM-FLEA-AND-TICK-DOGGIE-SHAMPOO-300ML.jpg"
 }

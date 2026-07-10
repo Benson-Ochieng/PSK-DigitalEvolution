@@ -37,35 +37,38 @@
       "slug": "nail-care"
     }
   ],
-  "brands": [],
-  "tags": [],
   "inStock": true,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "permalink": "https://petstore.co.ke/product/cs-nail-clipper-small-grey/",
-  "shortDescription": "Crafted for precision, this pet nail clipper features sharp stainless steel blades that deliver clean, smooth cuts while reducing the risk of nail",
   "description": "Crafted for precision, this pet nail clipper features sharp stainless steel blades that deliver clean, smooth cuts while reducing the risk of nail splitting or crushing. Selected models include a built-in LED light and magnifier to improve visibility of the nail quick, helping you trim with greater confidence and accuracy. An integrated nail file smooths rough edges after clipping, while the nail debris collector helps keep your grooming area clean. Regular nail trimming promotes healthy paws, improves comfort, and helps prevent overgrown nails that can cause pain or injury. Lightweight, durable, and easy to use, the CS Nail Pet Clipper Small is an essential grooming tool for every pet owner. Key Benefits Designed for cats, kittens, puppies, rabbits, and other small pets Sharp stainless steel blades for precise, clean nail trimming Ergonomic non-slip handle for a secure and comfortable grip Helps prevent overgrown nails and supports healthy paw care Built-in nail file for smoothing rough nail edges Nail debris collector for cleaner grooming sessions Selected models feature an LED light and magnifier for improved visibility and safer trimming Durable, lightweight, and easy to use for regular grooming Maintain your pet's nail health with the CS Nail Pet Clipper Small – Grey —a reliable grooming tool that combines precision, comfort, and safety for professional-quality nail care at home. &nbsp;",
   "images": [
     {
-      "id": 91105,
+      "id": 91104,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/06/CS-Nail-clipper-Small-Grey-1.png",
       "alt": "CS Nail clipper Small- Grey",
-      "name": "CS Nail clipper Small- Grey (1)"
+      "name": "thumbnail"
     }
   ],
+  "tags": [
+    {
+      "name": "Pet Care",
+      "slug": "pet-care"
+    },
+    {
+      "name": "adult",
+      "slug": "adult"
+    }
+  ],
+  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/cs-nail-clipper-small-grey/?add-to-cart=91104",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-07-03T11:14:20",
-  "dateModified": "2026-07-08T15:18:22",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
+  "dateCreated": "2026-07-10T08:23:50.906122+00:00",
+  "dateModified": "2026-07-10T08:23:50.906122+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/CS-Nail-clipper-Small-Grey-1.png"
 }

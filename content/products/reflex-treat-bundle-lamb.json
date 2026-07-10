@@ -27,7 +27,20 @@
       "slug": "dog-treats"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=33781",
+  "description": "1PC Reflex Dog Treat Duck Jerky 80 Gr 1PC Reflex Dog Treat Chicken Jerky 80 Gr 1PC Reflex Dog Treat Duck Sausage 80 Gr 1PC Reflex Dog Treat Chicken Wrapped Sticks 80 Gr 1PC Reflex Dog Treat Duck Wrapped Sticks 80 Gr 1PC Reflex Dog Treat Lamb Cubes 80 Gr 1PC Reflex Dog Treat Lamb Slices 80 Gr 1PC Reflex Dog Treat Chicken Drumstick 80 Gr",
+  "images": [
+    {
+      "id": 33781,
+      "src": "/images/psk_logo.png",
+      "alt": "Reflex Treat Bundle - Lamb",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 2122,
@@ -43,28 +56,20 @@
       "id": 1156,
       "name": "treats",
       "slug": "treats"
+    },
+    {
+      "name": "adult",
+      "slug": "adult"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=33781",
-  "shortDescription": "1PC Reflex Dog Treat Duck Jerky 80 Gr 1PC Reflex Dog Treat Chicken Jerky 80 Gr 1PC Reflex Dog Treat Duck Sausage 80 Gr 1PC Reflex Dog Treat Chicken Wrapped Sticks 80 Gr 1PC Reflex Dog Treat Duck Wrapped Sticks 80 Gr 1PC Reflex Dog Treat Lamb Cubes 80 Gr 1PC Reflex Dog Treat Lamb Slices 80 Gr 1PC Reflex Dog Treat Chicken Drumstick 80 Gr",
-  "description": "1PC Reflex Dog Treat Duck Jerky 80 Gr 1PC Reflex Dog Treat Chicken Jerky 80 Gr 1PC Reflex Dog Treat Duck Sausage 80 Gr 1PC Reflex Dog Treat Chicken Wrapped Sticks 80 Gr 1PC Reflex Dog Treat Duck Wrapped Sticks 80 Gr 1PC Reflex Dog Treat Lamb Cubes 80 Gr 1PC Reflex Dog Treat Lamb Slices 80 Gr 1PC Reflex Dog Treat Chicken Drumstick 80 Gr",
-  "images": [],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-treat-bundle-lamb/?add-to-cart=33781",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2022-12-22T09:17:19",
-  "dateModified": "2026-05-06T17:08:27",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "treat",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "/images/psk_logo.png"
 }

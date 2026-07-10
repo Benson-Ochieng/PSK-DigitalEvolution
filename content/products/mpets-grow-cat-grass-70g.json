@@ -17,7 +17,20 @@
       "slug": "mpets"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27394",
+  "description": "Mpets Grow Cat Grass 70G",
+  "images": [
+    {
+      "id": 27394,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPGCG.jpg",
+      "alt": "Mpetsgow Catgass  70G",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 820,
@@ -30,33 +43,14 @@
       "slug": "kitten"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=27394",
-  "shortDescription": "Mpets Grow Cat Grass 70G",
-  "description": "Mpets Grow Cat Grass 70G",
-  "images": [
-    {
-      "id": 27363,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPGCG.jpg",
-      "alt": "Mpetsgow Catgass  70G",
-      "name": "MPGCG"
-    }
-  ],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/mpets-grow-cat-grass-70g/?add-to-cart=27394",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2022-04-20T16:20:37",
-  "dateModified": "2026-05-06T17:08:07",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPGCG.jpg"
 }

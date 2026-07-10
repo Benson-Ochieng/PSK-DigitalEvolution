@@ -17,35 +17,34 @@
       "slug": "cat-supplies-store"
     }
   ],
-  "brands": [],
-  "tags": [],
   "inStock": true,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "permalink": "https://petstore.co.ke/?post_type=product&p=91158",
-  "shortDescription": "Lara Adult Dry Cat Food Beef is a complete and balanced dry cat food specially formulated to meet the daily nutritional needs of adult cats. Made with delicious beef flavour and high-quality protein, this nutritious recipe helps maintain strong muscles, healthy energy levels, and overall wellbeing while providing a taste cats love.",
   "description": "Enriched with taurine, essential vitamins, and minerals, Lara Adult Dry Cat Food supports heart health, healthy vision, digestion, immune function, and a healthy skin and coat. Its crunchy kibble texture also helps promote good oral hygiene, making it an ideal everyday meal for adult cats. Key Features Complete and balanced nutrition for adult cats Delicious beef flavour for excellent palatability High-quality protein to support lean muscle maintenance Enriched with taurine for heart and eye health Fortified with essential vitamins and minerals Supports healthy digestion and nutrient absorption Promotes healthy skin and a shiny coat Crunchy kibble helps support dental health Suitable for everyday feeding Benefits Helps maintain strong muscles and healthy body condition Supports sustained energy for active adult cats Promotes healthy heart and vision with taurine Supports a healthy immune system Encourages healthy digestion Helps maintain healthy skin and a glossy coat Delicious recipe enjoyed by even selective eaters Feeding Guide Feed according to your cat's weight, age, and activity level. Small cats: 40–60g per day Medium cats: 60–90g per day Large cats: 90g or more per day Always provide fresh, clean drinking water alongside every meal. Storage Instructions Store in a cool, dry place and keep the bag tightly sealed after opening to maintain freshness and flavour. Why Choose Lara Adult Dry Cat Food Beef? Lara Adult Dry Cat Food – Beef provides complete daily nutrition with high-quality protein, taurine, essential vitamins, and minerals to support healthy muscles, heart function, digestion, skin and coat health, and overall vitality. With its delicious beef flavour and crunchy kibble, it's a nutritious and satisfying choice for keeping your adult cat healthy, active, and happy every day. &nbsp;",
   "images": [
     {
-      "id": 91160,
+      "id": 91158,
       "src": "https://petstore.co.ke/wp-content/uploads/2026/07/Lara-Adult-Beef-Cat-Food-1.9kg.png",
       "alt": "Lara Cat Dry Food – Beef 1.9kg",
-      "name": "Lara Adult Beef Cat Food 1.9kg"
+      "name": "thumbnail"
     }
   ],
+  "tags": [
+    {
+      "name": "adult",
+      "slug": "adult"
+    }
+  ],
+  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
-  "isPurchasable": false,
-  "addToCartUrl": "https://petstore.co.ke/product//?add-to-cart=91158",
-  "status": "draft",
+  "isPurchasable": true,
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": null,
-  "dateModified": "2026-07-03T10:10:38",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
+  "dateCreated": "2026-07-10T08:20:59.125885+00:00",
+  "dateModified": "2026-07-10T08:20:59.125885+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2026/07/Lara-Adult-Beef-Cat-Food-1.9kg.png"
 }

@@ -22,7 +22,20 @@
       "slug": "cat-grooming"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=33117",
+  "description": "The ideal and environment-friendly product for cat toilets, bathrooms, living rooms, etc. Thanks to its active agents the deodorizing spray eliminate all unpleasant smells. Instructions: Shake well before use. All surfaces should be cleaned of urine. Spray at a distance of approx. 30 cm until it is slightly wet. In case of heavily soiled surfaces and during warm weather use the spray several times a day. Test material compatibility in an unobtrusive area. Warning: Use only in accordance with the instructions. Harmful to aquatic organisms, and may cause long-term adverse effects on the environment Keep out of reach of children. Contains citronella and geraniol May cause allergic reactions. The only completely emptied package may be recycled.",
+  "images": [
+    {
+      "id": 33117,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/12/BLDS175-Bioline-cats-deodorisizing-spray.jpg",
+      "alt": "Bioline deodorizing spray for cats -175ML",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 820,
@@ -38,35 +51,20 @@
       "id": 34,
       "name": "kitten",
       "slug": "kitten"
-    }
-  ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=33117",
-  "shortDescription": "All natural deodorizing spray for cats",
-  "description": "The ideal and environment-friendly product for cat toilets, bathrooms, living rooms, etc. Thanks to its active agents the deodorizing spray eliminate all unpleasant smells. Instructions: Shake well before use. All surfaces should be cleaned of urine. Spray at a distance of approx. 30 cm until it is slightly wet. In case of heavily soiled surfaces and during warm weather use the spray several times a day. Test material compatibility in an unobtrusive area. Warning: Use only in accordance with the instructions. Harmful to aquatic organisms, and may cause long-term adverse effects on the environment Keep out of reach of children. Contains citronella and geraniol May cause allergic reactions. The only completely emptied package may be recycled.",
-  "images": [
+    },
     {
-      "id": 33358,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/12/BLDS175-Bioline-cats-deodorisizing-spray.jpg",
-      "alt": "BLDS175 - Bioline cats deodorisizing spray",
-      "name": "BLDS175 &#8211; Bioline cats deodorisizing spray"
+      "name": "Pet Care",
+      "slug": "pet-care"
     }
   ],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/bioline-deodorizing-spray-for-cats-175ml/?add-to-cart=33117",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2022-12-04T10:34:16",
-  "dateModified": "2026-05-06T17:08:25",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2022/12/BLDS175-Bioline-cats-deodorisizing-spray.jpg"
 }

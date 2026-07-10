@@ -3,10 +3,10 @@
   "name": "Rogz Dog Utility Side Release Collar X-Large Black",
   "slug": "rogz-dog-utility-side-release-collar-x-large-black-2",
   "sku": "HB05-A@F",
-  "onSale": true,
+  "onSale": false,
   "price": 1275,
-  "regularPrice": 1700,
-  "salePrice": 1275,
+  "regularPrice": 1275,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/HB05-A-Lumberjack-Black.jpg",
@@ -17,35 +17,34 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
-  "tags": [],
   "inStock": false,
-  "averageRating": 5,
+  "averageRating": 0,
   "reviewCount": 0,
   "type": "simple",
   "permalink": "https://petstore.co.ke/?post_type=product&p=52818",
-  "shortDescription": "",
   "description": "",
   "images": [
     {
-      "id": 17461,
+      "id": 52818,
       "src": "https://petstore.co.ke/wp-content/uploads/2021/01/HB05-A-Lumberjack-Black.jpg",
-      "alt": "Rogz Dog Utility Side Release Collar X-Large - Black",
-      "name": "HB05-A Lumberjack Black"
+      "alt": "Rogz Dog Utility Side Release Collar X-Large Black",
+      "name": "thumbnail"
     }
   ],
+  "tags": [
+    {
+      "name": "adult",
+      "slug": "adult"
+    }
+  ],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-side-release-collar-x-large-black-2/?add-to-cart=52818",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-01-16T17:05:17",
-  "dateModified": "2026-05-06T17:11:02",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/HB05-A-Lumberjack-Black.jpg"
 }

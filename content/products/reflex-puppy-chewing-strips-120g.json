@@ -37,11 +37,18 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=16964",
+  "description": "Reflex Puppy Chewing Strips with Beef , Reward good behaviour with these fun and delicious treats made with the highest quality ingredients and bursting with flavour. INGREDIENTS: Meat and animal derivatives (20% beef meat), cereals, derivatives of vegetable origin (0,4% Inulin), oils and fats, minerals. NUTRIENT COMPONENTS Crude Protein (%) - 30 Oil Content (%) - 8 Crude Ash (%) - 8 Crude Fiber (%) - 2 Moisture Content (%) - 22.5 Vitamin A - 5,000 IE Vitamin D3 - 500 IU Vitamin E - 30 mg Zinc (as Zinc sulphate, Monohydrate) - 50 mg Copper (Copper II Sulphate, Pentahydrate) - 12 mg FEEDING RECOMMENDATIONS: Feed as a snack or treat between meals. This product does not replace full-dog food daily. Once open, keep package tightly closed. Store in a cool, dry place.",
+  "images": [
     {
-      "id": 2095,
-      "name": "Reflex",
-      "slug": "reflex"
+      "id": 16964,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/12/Reflex-Puppy-Beef-Strips-Treat-min.png",
+      "alt": "Reflex Puppy- Chewing Strips - 120g",
+      "name": "thumbnail"
     }
   ],
   "tags": [
@@ -61,33 +68,19 @@
       "slug": "treats"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=16964",
-  "shortDescription": "Reflex Puppy Chewing Strips with Beef , Reward good behaviour with these fun and delicious treats made with the highest quality ingredients and bursting with flavour.",
-  "description": "Reflex Puppy Chewing Strips with Beef , Reward good behaviour with these fun and delicious treats made with the highest quality ingredients and bursting with flavour. INGREDIENTS: Meat and animal derivatives (20% beef meat), cereals, derivatives of vegetable origin (0,4% Inulin), oils and fats, minerals. NUTRIENT COMPONENTS Crude Protein (%) - 30 Oil Content (%) - 8 Crude Ash (%) - 8 Crude Fiber (%) - 2 Moisture Content (%) - 22.5 Vitamin A - 5,000 IE Vitamin D3 - 500 IU Vitamin E - 30 mg Zinc (as Zinc sulphate, Monohydrate) - 50 mg Copper (Copper II Sulphate, Pentahydrate) - 12 mg FEEDING RECOMMENDATIONS: Feed as a snack or treat between meals. This product does not replace full-dog food daily. Once open, keep package tightly closed. Store in a cool, dry place.",
-  "images": [
+  "brands": [
     {
-      "id": 16965,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/12/Reflex-Puppy-Beef-Strips-Treat-min.png",
-      "alt": "Reflex Puppy Beef Strips Treat",
-      "name": "Reflex Puppy Beef Strips Treat-min"
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "outofstock",
-  "lowStockRemaining": 10,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-puppy-chewing-strips-120g/?add-to-cart=16964",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2020-12-23T13:57:52",
-  "dateModified": "2026-05-06T17:06:45",
-  "brand": "Reflex",
-  "weight_kg": 0.2,
-  "animal_type": "dog",
-  "food_type": "treat",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2020/12/Reflex-Puppy-Beef-Strips-Treat-min.png"
 }

@@ -32,7 +32,20 @@
       "slug": "mpets"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27399",
+  "description": "Description 16.3 x 9.2 x 3.9 cm Leash Length up to 3M Auto leash, Strong Traction Tape Non tangle movement Soft Grip Handle One touch lock & release Dog Weight",
+  "images": [
+    {
+      "id": 27399,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPLDRL-B3.jpg",
+      "alt": "Mpets Liberty Dog Retractable Leash Blue 3M (Sm)",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 1205,
@@ -65,33 +78,14 @@
       "slug": "small-breeds"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=27399",
-  "shortDescription": "Liberty Dog Retractable Leash Blue 3M (Sm)",
-  "description": "Description 16.3 x 9.2 x 3.9 cm Leash Length up to 3M Auto leash, Strong Traction Tape Non tangle movement Soft Grip Handle One touch lock & release Dog Weight",
-  "images": [
-    {
-      "id": 27368,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPLDRL-B3.jpg",
-      "alt": "Mpets Liberty Dog Retractable Leash Blue 3M (Sm)",
-      "name": "MPLDRL-B3"
-    }
-  ],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/mpets-liberty-dog-retractable-leash-blue-3m-sm/?add-to-cart=27399",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2022-04-20T16:20:35",
-  "dateModified": "2026-05-06T17:08:07",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "supplement",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPLDRL-B3.jpg"
 }

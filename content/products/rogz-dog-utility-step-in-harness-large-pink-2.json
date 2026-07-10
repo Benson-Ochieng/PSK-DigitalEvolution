@@ -3,10 +3,10 @@
   "name": "Rogz Dog Utility Step In Harness Large Pink",
   "slug": "rogz-dog-utility-step-in-harness-large-pink-2",
   "sku": "SSJ06-K@F",
-  "onSale": true,
+  "onSale": false,
   "price": 910,
-  "regularPrice": 2600,
-  "salePrice": 910,
+  "regularPrice": 910,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/SSJ06-K-Fanbelt-Pink.jpg",
@@ -27,7 +27,20 @@
       "slug": "dog-harnesses"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=52822",
+  "description": "",
+  "images": [
+    {
+      "id": 52822,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/SSJ06-K-Fanbelt-Pink.jpg",
+      "alt": "Rogz Dog Utility Step In Harness Large Pink",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 2318,
@@ -35,33 +48,14 @@
       "slug": "harness"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=52822",
-  "shortDescription": "",
-  "description": "",
-  "images": [
-    {
-      "id": 17944,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/SSJ06-K-Fanbelt-Pink.jpg",
-      "alt": "Rogz Dog Utility Step In Harness Large – Pink",
-      "name": "SSJ06-K Fanbelt Pink"
-    }
-  ],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/rogz-dog-utility-step-in-harness-large-pink-2/?add-to-cart=52822",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-01-16T17:05:19",
-  "dateModified": "2026-05-06T17:11:02",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "supplement",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/SSJ06-K-Fanbelt-Pink.jpg"
 }

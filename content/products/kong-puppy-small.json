@@ -47,7 +47,20 @@
       "slug": "puppy-food"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=16536",
+  "description": "The Puppy KONG dog toy is customized for a growing puppy's baby teeth, the unique, natural rubber formula is the most gentle within the KONG rubber toy line. Designed to meet the needs of a puppy's 28-baby teeth, it helps teach appropriate chewing behaviour while offering enrichment and satisfying a younger pup's instinctual needs while the erratic bounce makes it ideal for those pups that just want to play. A stuffed Puppy KONG occupies busy little ones while allowing pet parents the freedom to attend to their unique needs. Want to make crate training easier or extend playtime Be sure to stuff with puppy kibble and a dash of peanut butter. Add to the fun by including KONG Puppy Snacks and top with KONG Puppy Easy Treat. Teaches appropriate chewing behaviour while offering mental enrichment Soft puppy KONGrubber formula is customized for puppy teeth and gums Unpredictable bounce for games of fetch Great for stuffing with KONGPuppy Easy Treat; Snacks or Ziggies Recommended by veterinarians and trainers worldwide Natural rubber Made in the USA. Globally Sourced Materials",
+  "images": [
+    {
+      "id": 16536,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/11/KP4_Puppy.jpg",
+      "alt": "KONG Puppy Small",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 1205,
@@ -75,33 +88,14 @@
       "slug": "toys"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=16536",
-  "shortDescription": "KONG Puppy – Small",
-  "description": "The Puppy KONG dog toy is customized for a growing puppy's baby teeth, the unique, natural rubber formula is the most gentle within the KONG rubber toy line. Designed to meet the needs of a puppy's 28-baby teeth, it helps teach appropriate chewing behaviour while offering enrichment and satisfying a younger pup's instinctual needs while the erratic bounce makes it ideal for those pups that just want to play. A stuffed Puppy KONG occupies busy little ones while allowing pet parents the freedom to attend to their unique needs. Want to make crate training easier or extend playtime Be sure to stuff with puppy kibble and a dash of peanut butter. Add to the fun by including KONG Puppy Snacks and top with KONG Puppy Easy Treat. Teaches appropriate chewing behaviour while offering mental enrichment Soft puppy KONGrubber formula is customized for puppy teeth and gums Unpredictable bounce for games of fetch Great for stuffing with KONGPuppy Easy Treat; Snacks or Ziggies Recommended by veterinarians and trainers worldwide Natural rubber Made in the USA. Globally Sourced Materials",
-  "images": [
-    {
-      "id": 24971,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/11/KP4_Puppy.jpg",
-      "alt": "KONG Puppy Small",
-      "name": "KP4"
-    }
-  ],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/kong-puppy-small/?add-to-cart=16536",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2020-12-06T13:36:39",
-  "dateModified": "2026-05-06T17:06:41",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "treat",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2020/11/KP4_Puppy.jpg"
 }

@@ -17,41 +17,39 @@
       "slug": "cat-litter"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=41511",
+  "description": "The KSPCA 2024 Calendars are on sale at 1000kshs only. If you purchase a wall calendar from us, we will send an equivalent amount of food for animals at the KSPCA shelter. Simply acquire your wall calendar, and the money will be utilized to feed animals at KSPCA.",
+  "images": [
+    {
+      "id": 41511,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/11/kspca-calender-1.jpg",
+      "alt": "KSPCA 2024 Calendars",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 1791,
       "name": "Donate",
       "slug": "donate"
-    }
-  ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=41511",
-  "shortDescription": "If you purchase a wall calendar from us, we will contribute an equivalent amount to provide food for animals at the KSPCA shelter. Simply acquire your wall calendar, and the money will be utilized to feed animals at KSPCA.",
-  "description": "The KSPCA 2024 Calendars are on sale at 1000kshs only. If you purchase a wall calendar from us, we will send an equivalent amount of food for animals at the KSPCA shelter. Simply acquire your wall calendar, and the money will be utilized to feed animals at KSPCA.",
-  "images": [
+    },
     {
-      "id": 41513,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/11/kspca-calender-1.jpg",
-      "alt": "KSPCA 2024 Calendars",
-      "name": "kspca calender"
+      "name": "adult",
+      "slug": "adult"
     }
   ],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/kspca-2024-calendars/?add-to-cart=41511",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2023-11-24T09:03:37",
-  "dateModified": "2026-05-06T17:09:10",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2023/11/kspca-calender-1.jpg"
 }

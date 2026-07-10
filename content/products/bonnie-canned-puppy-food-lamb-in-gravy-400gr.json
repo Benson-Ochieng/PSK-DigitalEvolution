@@ -3,10 +3,10 @@
   "name": "Bonnie Canned Puppy Food Lamb In Gravy 400g",
   "slug": "bonnie-canned-puppy-food-lamb-in-gravy-400gr",
   "sku": "BDW004",
-  "onSale": true,
+  "onSale": false,
   "price": 231,
-  "regularPrice": 289,
-  "salePrice": 231,
+  "regularPrice": 231,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2025/12/bonnie-lamb-puppy.png",
@@ -32,11 +32,18 @@
       "slug": "puppy-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/bonnie-canned-puppy-food-lamb-in-gravy-400gr/",
+  "description": "Give your growing pup the perfect nutritional start with BONNIE Canned Puppy Food Lamb in Gravy 400GR —a complete and balanced wet food crafted to support healthy growth and steady development. Made with tender lamb pieces gently cooked in a rich, savory gravy, this formula delivers an irresistible taste while providing the essential nutrients puppies need in their early life stages. Expertly formulated by pet nutritionists, this recipe combines high-quality lamb protein , energy-rich cereals, and vital vitamins and minerals to fuel rapid muscle formation, bone development, and immune strength. Its moisture-dense texture makes every bite easy to chew and digest, ensuring young pups stay hydrated and nourished throughout the day. Whether your puppy is a small breed or a large breed, Bonnie’s lamb formula provides the right balance of proteins, fats, and micronutrients to support controlled, healthy growth and vibrant overall well-being. Key Benefits High-quality lamb protein promotes strong muscle growth and sustained energy. Moisture-rich gravy supports hydration and digestive comfort. Balanced vitamins and minerals (including Vitamin D3 & E) help strengthen bones, immunity, and skin health. Puppy-appropriate texture makes it easy to eat, ideal for weaning and developing appetites. Formulated to meet the nutritional needs of puppies of all breeds . Feeding Guidelines Serve at room temperature for maximum flavour and digestibility. Provide clean, fresh water at all times. Adjust portion sizes according to age, breed size, and activity level. Refrigerate any unused portion and use within 1–2 days . Not suitable for human consumption. &nbsp; &nbsp;",
+  "images": [
     {
-      "id": 2428,
-      "name": "Bonnie",
-      "slug": "bonnie"
+      "id": 63389,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/12/bonnie-lamb-puppy.png",
+      "alt": "Bonnie Canned Puppy Food Lamb In Gravy 400g",
+      "name": "thumbnail"
     }
   ],
   "tags": [
@@ -59,35 +66,25 @@
       "id": 621,
       "name": "wet food",
       "slug": "wet-food"
+    },
+    {
+      "name": "puppy",
+      "slug": "puppy"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/bonnie-canned-puppy-food-lamb-in-gravy-400gr/",
-  "shortDescription": "BONNIE Canned Puppy Food Lamb in Gravy 400GR provides tender lamb chunks in a nutrient-rich gravy, supporting healthy growth, muscle development, and hydration for puppies of all breeds. A complete, balanced wet food for daily nourishment.",
-  "description": "Give your growing pup the perfect nutritional start with BONNIE Canned Puppy Food Lamb in Gravy 400GR —a complete and balanced wet food crafted to support healthy growth and steady development. Made with tender lamb pieces gently cooked in a rich, savory gravy, this formula delivers an irresistible taste while providing the essential nutrients puppies need in their early life stages. Expertly formulated by pet nutritionists, this recipe combines high-quality lamb protein , energy-rich cereals, and vital vitamins and minerals to fuel rapid muscle formation, bone development, and immune strength. Its moisture-dense texture makes every bite easy to chew and digest, ensuring young pups stay hydrated and nourished throughout the day. Whether your puppy is a small breed or a large breed, Bonnie’s lamb formula provides the right balance of proteins, fats, and micronutrients to support controlled, healthy growth and vibrant overall well-being. Key Benefits High-quality lamb protein promotes strong muscle growth and sustained energy. Moisture-rich gravy supports hydration and digestive comfort. Balanced vitamins and minerals (including Vitamin D3 & E) help strengthen bones, immunity, and skin health. Puppy-appropriate texture makes it easy to eat, ideal for weaning and developing appetites. Formulated to meet the nutritional needs of puppies of all breeds . Feeding Guidelines Serve at room temperature for maximum flavour and digestibility. Provide clean, fresh water at all times. Adjust portion sizes according to age, breed size, and activity level. Refrigerate any unused portion and use within 1–2 days . Not suitable for human consumption. &nbsp; &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 63393,
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/12/bonnie-lamb-puppy.png",
-      "alt": "Bonnie Canned Puppy Food Lamb In Gravy 400g",
-      "name": "bonnie lamb puppy"
+      "name": "Bonnie",
+      "slug": "bonnie"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/bonnie-canned-puppy-food-lamb-in-gravy-400gr/?add-to-cart=63389",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-12-04T11:59:04",
-  "dateModified": "2026-07-10T11:12:05",
-  "brand": "Bonnie",
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "wet",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2025/12/bonnie-lamb-puppy.png"
 }

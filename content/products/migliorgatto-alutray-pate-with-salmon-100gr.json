@@ -32,11 +32,18 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/migliorgatto-alutray-pate-with-salmon-100gr/",
+  "description": "COMPOSITION: Meat and animal derivatives 50%, fish and fish derivatives (salmon 5%), minerals. ANALYTICAL CONSTITUENTS: Moisture 80%, Crude protein 11%, Crude fibres 0.5%, Crude fat 4%, Crude ash 1.8%. Nutritional additives / kg: Vitamin E 23.7 mg, Zinc (Zinc sulphate monohydrate) 2.1 mg, Copper (Copper sulphate pentahydrate) 2.0 mg, Manganese (Manganous sulphate monohydrate) 2.1 mg, Iodine (Potassium iodide) 0.4 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place.",
+  "images": [
     {
-      "id": 2451,
-      "name": "Miglior",
-      "slug": "miglior"
+      "id": 28271,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW009.jpg",
+      "alt": "Miglior Cat Food Salmon Alutray 100g",
+      "name": "thumbnail"
     }
   ],
   "tags": [
@@ -54,35 +61,25 @@
       "id": 621,
       "name": "wet food",
       "slug": "wet-food"
+    },
+    {
+      "name": "adult",
+      "slug": "adult"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/migliorgatto-alutray-pate-with-salmon-100gr/",
-  "shortDescription": "(4 pieces minimum order) Formula designed to guarantee the key nutrients required for the well-being of your cat. Vitamin E with antioxidant action and a recipe rich in meat to help keep muscle mass toned.",
-  "description": "COMPOSITION: Meat and animal derivatives 50%, fish and fish derivatives (salmon 5%), minerals. ANALYTICAL CONSTITUENTS: Moisture 80%, Crude protein 11%, Crude fibres 0.5%, Crude fat 4%, Crude ash 1.8%. Nutritional additives / kg: Vitamin E 23.7 mg, Zinc (Zinc sulphate monohydrate) 2.1 mg, Copper (Copper sulphate pentahydrate) 2.0 mg, Manganese (Manganous sulphate monohydrate) 2.1 mg, Iodine (Potassium iodide) 0.4 mg. HOW TO USE: The product is ready to use. STORAGE INSTRUCTION: Store the product in a cool and dry place.",
-  "images": [
+  "brands": [
     {
-      "id": 28245,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW009.jpg",
-      "alt": "Migliorgatto Alutray PATÉ WITH SALMON 100Gr",
-      "name": "MCW009"
+      "name": "Miglior",
+      "slug": "miglior"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/migliorgatto-alutray-pate-with-salmon-100gr/?add-to-cart=28271",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2022-07-15T11:21:16",
-  "dateModified": "2026-07-07T10:12:13",
-  "brand": "Miglior",
-  "weight_kg": 0.1,
-  "animal_type": "cat",
-  "food_type": "wet",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MCW009.jpg"
 }

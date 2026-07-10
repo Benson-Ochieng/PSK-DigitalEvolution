@@ -32,7 +32,20 @@
       "slug": "dog-grooming-cleaning-supplies"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=37958",
+  "description": "Bioline adsorption deodorizing spray is the ideal and environment friendly product for cat toilets, bathrooms, living rooms etc. Thanks to its active agents the deodorizing spray eliminate all unpleasant smells. Instructions: Shake well before use. All surfaces should be cleaned of urine. Spray at a distance of approx. 30 cm until it is slightly wet. In case of heavily soiled surfaces and during warm weather use the spray several times a day. Test material compatibility in an unobtrusive area. Ingredients: Water, polyhexamethyleneguanidine hydrochloride, fragrance Usage: Spray on pets, indoor pet cages and beds, pet hospitals and other places. Storage: Store in cool/dry area Notes: Don't spray directly into pet eyes. If contact is made with eyes, wash immediately with water. Seal after use, Keep out of reach of children. It may also cause allergic reactions.",
+  "images": [
+    {
+      "id": 37958,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/06/DEODORIZING-SPRAY.png",
+      "alt": "Bioline Deodorizing Spray 500ml",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 820,
@@ -53,35 +66,20 @@
       "id": 1148,
       "name": "pet care",
       "slug": "pet-care"
-    }
-  ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=37958",
-  "shortDescription": "The ideal and environment friendly product for cat toilets, bathrooms, living rooms etc. Thanks to its active agents the deodorizing spray eliminate all unpleasant smells.",
-  "description": "Bioline adsorption deodorizing spray is the ideal and environment friendly product for cat toilets, bathrooms, living rooms etc. Thanks to its active agents the deodorizing spray eliminate all unpleasant smells. Instructions: Shake well before use. All surfaces should be cleaned of urine. Spray at a distance of approx. 30 cm until it is slightly wet. In case of heavily soiled surfaces and during warm weather use the spray several times a day. Test material compatibility in an unobtrusive area. Ingredients: Water, polyhexamethyleneguanidine hydrochloride, fragrance Usage: Spray on pets, indoor pet cages and beds, pet hospitals and other places. Storage: Store in cool/dry area Notes: Don't spray directly into pet eyes. If contact is made with eyes, wash immediately with water. Seal after use, Keep out of reach of children. It may also cause allergic reactions.",
-  "images": [
+    },
     {
-      "id": 37959,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/06/DEODORIZING-SPRAY.png",
-      "alt": "Bioline Deodorizing Spray 500ml",
-      "name": "DEODORIZING SPRAY"
+      "name": "adult",
+      "slug": "adult"
     }
   ],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/bioline-deodorizing-spray-500ml/?add-to-cart=37958",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2023-06-24T10:17:43",
-  "dateModified": "2026-05-06T17:08:44",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2023/06/DEODORIZING-SPRAY.png"
 }

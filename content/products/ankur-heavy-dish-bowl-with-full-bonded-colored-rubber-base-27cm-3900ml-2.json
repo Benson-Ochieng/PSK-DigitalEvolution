@@ -37,7 +37,20 @@
       "slug": "dog-bowls-feeders"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=48191",
+  "description": "ANKUR HEAVY DISH WITH FULL BONDED COLORED RUBBER BASE",
+  "images": [
+    {
+      "id": 48191,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-Heavy-Bondend-Bowl.png",
+      "alt": "Ankur Heavy Dish Bowl With Full Bonded Colored Rubber Base 27cm (3900ml)",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 2072,
@@ -55,33 +68,14 @@
       "slug": "dog"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=48191",
-  "shortDescription": "ANKUR HEAVY DISH BOWL WITH FULL BONDED COLORED RUBBER BASE",
-  "description": "ANKUR HEAVY DISH WITH FULL BONDED COLORED RUBBER BASE",
-  "images": [
-    {
-      "id": 29412,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-Heavy-Bondend-Bowl.png",
-      "alt": "Ankur Heavy Dish Bowl With Full Bonded Colored Rubber Base 27cm (3900ml)",
-      "name": "Ankur Heavy Bondend Bowl"
-    }
-  ],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/ankur-heavy-dish-bowl-with-full-bonded-colored-rubber-base-27cm-3900ml-2/?add-to-cart=48191",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-07-02T09:39:30",
-  "dateModified": "2026-05-06T17:10:17",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "supplement",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2022/06/Ankur-Heavy-Bondend-Bowl.png"
 }

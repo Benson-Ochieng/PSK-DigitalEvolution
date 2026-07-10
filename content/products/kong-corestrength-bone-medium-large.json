@@ -37,7 +37,20 @@
       "slug": "kong-accessories"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=16401",
+  "description": "KONGCoreStrength is built to last and is sure to bring excitement while providing extended play sessions along the way. The durable KONGcrafted multilayered core stands-up to long-lasting chew sessions while meeting a dog?s natural chewing instincts. The reinforced layers within the core add extra toughness making it great for chewers. The exterior textured words add to the fun and have the added benefit of cleaning teeth and gums. Ideal for independent play and interactive toss and retrieve, KONGCoreStrength is sure to delight the most playful of dogs. KONGcrafted & multilayered for long-lasting chew sessions Textured body great for cleaning teeth Designed to extend play sessions for on-going fun",
+  "images": [
+    {
+      "id": 16401,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/11/PFC31.jpg",
+      "alt": "Kong CoreStrength Bone Medium / Large",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 1205,
@@ -75,33 +88,14 @@
       "slug": "toys"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=16401",
-  "shortDescription": "KONG Chew toy",
-  "description": "KONGCoreStrength is built to last and is sure to bring excitement while providing extended play sessions along the way. The durable KONGcrafted multilayered core stands-up to long-lasting chew sessions while meeting a dog?s natural chewing instincts. The reinforced layers within the core add extra toughness making it great for chewers. The exterior textured words add to the fun and have the added benefit of cleaning teeth and gums. Ideal for independent play and interactive toss and retrieve, KONGCoreStrength is sure to delight the most playful of dogs. KONGcrafted & multilayered for long-lasting chew sessions Textured body great for cleaning teeth Designed to extend play sessions for on-going fun",
-  "images": [
-    {
-      "id": 24977,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/11/PFC31.jpg",
-      "alt": "Kong CoreStrength Bone Medium / Large",
-      "name": "PFC31"
-    }
-  ],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/kong-corestrength-bone-medium-large/?add-to-cart=16401",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2020-11-26T15:38:35",
-  "dateModified": "2026-05-06T17:06:39",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "cat",
-  "food_type": "treat",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2020/11/PFC31.jpg"
 }

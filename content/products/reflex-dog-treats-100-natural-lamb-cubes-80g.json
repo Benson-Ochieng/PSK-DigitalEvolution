@@ -32,11 +32,18 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=3493",
+  "description": "Reflex Dog Treats 100% Natural Lamb Cubes are super-premium dog treats that are easily digested due to its high meat content. Includes fatty acids that support healthy skin and coat health. Very effective to training due to its high palatability. INGREDIENTS: Lamb, Vegetable Glycerin, Soy Protein, Starch, Salt. NUTRIENT COMPONENTS Crude Protein (%) - 40 Crude Fat (%) - 1 Crude Fiber (%) - 4 Moisture Content (%) 18 FEEDING RECOMMENDATIONS: Treats may be given as an additional snack. This product does not replace your dog's daily food.",
+  "images": [
     {
-      "id": 2511,
-      "name": "Reflex",
-      "slug": "reflex"
+      "id": 3493,
+      "src": "https://petstore.co.ke/wp-content/uploads/2019/09/Reflex-lamb-cube.png",
+      "alt": "Reflex Dog Treats - 100% Natural Lamb Cubes 80g",
+      "name": "thumbnail"
     }
   ],
   "tags": [
@@ -56,33 +63,19 @@
       "slug": "treats"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=3493",
-  "shortDescription": "Reflex Dog Treats 100% Natural Lamb Cubes are super-premium dog treats that are easily digested due to its high meat content. Includes fatty acids that support healthy skin and coat health. Very effective to training due to its high palatability.",
-  "description": "Reflex Dog Treats 100% Natural Lamb Cubes are super-premium dog treats that are easily digested due to its high meat content. Includes fatty acids that support healthy skin and coat health. Very effective to training due to its high palatability. INGREDIENTS: Lamb, Vegetable Glycerin, Soy Protein, Starch, Salt. NUTRIENT COMPONENTS Crude Protein (%) - 40 Crude Fat (%) - 1 Crude Fiber (%) - 4 Moisture Content (%) 18 FEEDING RECOMMENDATIONS: Treats may be given as an additional snack. This product does not replace your dog's daily food.",
-  "images": [
+  "brands": [
     {
-      "id": 42243,
-      "src": "https://petstore.co.ke/wp-content/uploads/2019/09/Reflex-lamb-cube.png",
-      "alt": "Reflex Dog Treats - 100% Natural Lamb Cubes 80g",
-      "name": "Reflex lamb cube"
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "outofstock",
-  "lowStockRemaining": 10,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-dog-treats-100-natural-lamb-cubes-80g/?add-to-cart=3493",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2019-09-26T19:20:07",
-  "dateModified": "2026-05-06T17:06:19",
-  "brand": "Reflex",
-  "weight_kg": 0.08,
-  "animal_type": "dog",
-  "food_type": "treat",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2019/09/Reflex-lamb-cube.png"
 }

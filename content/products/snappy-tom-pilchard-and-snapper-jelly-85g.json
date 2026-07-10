@@ -27,7 +27,20 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/snappy-tom-pilchard-and-snapper-jelly-85g/",
+  "description": "The amount fed can be adjusted accordingly to your cat activity level. Feed your cat by divided all daily meals into 2 or more servings and ensure fresh clean water is available at all times. Feeding Guide Cat’s Weight Feeding Amount 0.5kg – 1.0kg 110g – 190g 1.0kg – 3.0kg 190g – 440g 3.0kg – 4.0kg 440g – 540g > 4.0kg >540g Ingredient List Pilchards Gelling Agents Snapper Vitamins & Minerals Taurine Permitted Food Colour Guaranteed Analysis Crude Protein (Min) 8% Crude Fat (Min) 1.5% Crude Fibre (Max) 1% Moisture (Max) 87% &nbsp; &nbsp;",
+  "images": [
+    {
+      "id": 55898,
+      "src": "https://petstore.co.ke/wp-content/uploads/2025/06/SNAPPY-TOM-PILCHARDSNAPPER-IN-JELLY.png",
+      "alt": "Snappy Tom Pilchard And Snapper Jelly 85g",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 820,
@@ -43,35 +56,20 @@
       "id": 621,
       "name": "wet food",
       "slug": "wet-food"
-    }
-  ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/snappy-tom-pilchard-and-snapper-jelly-85g/",
-  "shortDescription": "The amount fed should be adjusted accordingly to your cat activity level. Feed your cat by divided all daily meals into 2 or more servings and ensure fresh clean water is available at all times.",
-  "description": "The amount fed can be adjusted accordingly to your cat activity level. Feed your cat by divided all daily meals into 2 or more servings and ensure fresh clean water is available at all times. Feeding Guide Cat’s Weight Feeding Amount 0.5kg – 1.0kg 110g – 190g 1.0kg – 3.0kg 190g – 440g 3.0kg – 4.0kg 440g – 540g > 4.0kg >540g Ingredient List Pilchards Gelling Agents Snapper Vitamins & Minerals Taurine Permitted Food Colour Guaranteed Analysis Crude Protein (Min) 8% Crude Fat (Min) 1.5% Crude Fibre (Max) 1% Moisture (Max) 87% &nbsp; &nbsp;",
-  "images": [
+    },
     {
-      "id": 55899,
-      "src": "https://petstore.co.ke/wp-content/uploads/2025/06/SNAPPY-TOM-PILCHARDSNAPPER-IN-JELLY.png",
-      "alt": "Snappy Tom Pilchard And Snapper Jelly 85g",
-      "name": "SNAPPY TOM PILCHARD&amp;SNAPPER IN JELLY"
+      "name": "adult",
+      "slug": "adult"
     }
   ],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/snappy-tom-pilchard-and-snapper-jelly-85g/?add-to-cart=55898",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2025-06-17T12:38:02",
-  "dateModified": "2026-06-17T04:18:45",
-  "brand": null,
-  "weight_kg": 0.085,
-  "animal_type": "cat",
-  "food_type": "wet",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2025/06/SNAPPY-TOM-PILCHARDSNAPPER-IN-JELLY.png"
 }

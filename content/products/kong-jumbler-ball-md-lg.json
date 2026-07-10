@@ -37,7 +37,20 @@
       "slug": "kong-accessories"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=16567",
+  "description": "The KONGJumbler is a two-in-one ball toy for twice the interactive fun. The interior tennis ball and loud squeak entice play, while the handles make pickup and shaking easy. The Jumbler stands up to tough play, making it ideal for games of fetch. Available in two shapes and sizes, the KONGJumbler will ensure an exciting, active play session for you and your dog. Squeaker and tumbling interior ball entice play Ideal for interactive fun Handles make pick up and shaking easy",
+  "images": [
+    {
+      "id": 16567,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/12/TMB1.jpg",
+      "alt": "KONG Jumbler Ball Md/Lg- Blue",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 1205,
@@ -65,33 +78,14 @@
       "slug": "toys"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=16567",
-  "shortDescription": "KONG Jumbler",
-  "description": "The KONGJumbler is a two-in-one ball toy for twice the interactive fun. The interior tennis ball and loud squeak entice play, while the handles make pickup and shaking easy. The Jumbler stands up to tough play, making it ideal for games of fetch. Available in two shapes and sizes, the KONGJumbler will ensure an exciting, active play session for you and your dog. Squeaker and tumbling interior ball entice play Ideal for interactive fun Handles make pick up and shaking easy",
-  "images": [
-    {
-      "id": 24984,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/12/TMB1.jpg",
-      "alt": "KONG Jumbler Ball Md/Lg- Blue",
-      "name": "TMB1"
-    }
-  ],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/kong-jumbler-ball-md-lg/?add-to-cart=16567",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2020-12-06T15:40:30",
-  "dateModified": "2026-05-06T17:06:42",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "supplement",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2020/12/TMB1.jpg"
 }

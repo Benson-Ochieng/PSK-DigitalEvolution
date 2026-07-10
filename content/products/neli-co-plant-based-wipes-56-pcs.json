@@ -22,11 +22,18 @@
       "slug": "human"
     }
   ],
-  "brands": [
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=45747",
+  "description": "Neli &Co plant-based wipes are designed to be as healthy, effective, gentle, and environmentally friendly as possible. The wipes are 100% plant-based and are therefore 100% biodegradable/compostable. They are multi-purpose and can be used on your baby’s and pet's gentle skin, cars, handbags, and houses. They're fresh, 99% water, 100% biodegradable. Recommended for human use.",
+  "images": [
     {
-      "id": 2441,
-      "name": "Grounded",
-      "slug": "grounded"
+      "id": 45747,
+      "src": "https://petstore.co.ke/wp-content/uploads/2024/04/Neli-Co-Website-Photos.jpg",
+      "alt": "Neli & Co Plant Based Wipes 56 Pcs",
+      "name": "thumbnail"
     }
   ],
   "tags": [
@@ -61,33 +68,19 @@
       "slug": "puppy"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=45747",
-  "shortDescription": "They are multi-purpose and can be used on your baby’s and pet's gentle skin, cars, handbags, and houses. They're fresh, 99% water, 100% biodegradable.",
-  "description": "Neli &Co plant-based wipes are designed to be as healthy, effective, gentle, and environmentally friendly as possible. The wipes are 100% plant-based and are therefore 100% biodegradable/compostable. They are multi-purpose and can be used on your baby’s and pet's gentle skin, cars, handbags, and houses. They're fresh, 99% water, 100% biodegradable. Recommended for human use.",
-  "images": [
+  "brands": [
     {
-      "id": 45748,
-      "src": "https://petstore.co.ke/wp-content/uploads/2024/04/Neli-Co-Website-Photos.jpg",
-      "alt": "Neli & Co Plant Based Wipes 56 Pcs",
-      "name": "Neli-Co-Website-Photos"
+      "name": "Grounded",
+      "slug": "grounded"
     }
   ],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/neli-co-plant-based-wipes-56-pcs/?add-to-cart=45747",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
-  "catalogVisibility": "hidden",
-  "dateCreated": "2024-04-02T12:18:42",
-  "dateModified": "2026-06-17T04:33:12",
-  "brand": "Grounded",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
+  "catalogVisibility": "visible",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2024/04/Neli-Co-Website-Photos.jpg"
 }

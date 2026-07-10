@@ -37,7 +37,20 @@
       "slug": "generic"
     }
   ],
-  "brands": [],
+  "inStock": true,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=20013",
+  "description": "Dog Poop Bag Holder with Leash Clip. Comes with disposable waste bags, each bag is perforate for easy seperation",
+  "images": [
+    {
+      "id": 20013,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Poop-Bag-Holder-Bone-Shape-Purple-DPBHBPR.jpg",
+      "alt": "Dog Poop Bag Holder - Bone Shape Purple",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 1205,
@@ -73,35 +86,20 @@
       "id": 36,
       "name": "puppy",
       "slug": "puppy"
-    }
-  ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=20013",
-  "shortDescription": "Dog Poop Bag Holder with Leash Clip. Comes with disposable waste bags, each bag is perforate for easy seperation",
-  "description": "Dog Poop Bag Holder with Leash Clip. Comes with disposable waste bags, each bag is perforate for easy seperation",
-  "images": [
+    },
     {
-      "id": 19966,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Poop-Bag-Holder-Bone-Shape-Purple-DPBHBPR.jpg",
-      "alt": "Dog Poop Bag Holder - Bone Shape Purple",
-      "name": "Dog Poop Bag Holder &#8211; Bone Shape Purple DPBHBPR"
+      "name": "senior",
+      "slug": "senior"
     }
   ],
+  "brands": [],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/dog-poop-bag-holder-bone-shape-purple/?add-to-cart=20013",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2021-04-14T21:39:26",
-  "dateModified": "2026-07-01T18:12:15",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "cat",
-  "food_type": "treat",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2021/04/Dog-Poop-Bag-Holder-Bone-Shape-Purple-DPBHBPR.jpg"
 }

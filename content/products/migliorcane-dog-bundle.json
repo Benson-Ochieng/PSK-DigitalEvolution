@@ -37,7 +37,20 @@
       "slug": "wet-dog-food"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=33793",
+  "description": "1Pc Migliorcane Adult Dog Food Active 4Kg 2Pcs Reflex Dog Treats Duck Sausages 80Gr 2Pcs Reflex Dog Treats Chicken Drumsticks 80Gr 4Pcs Migliorcane Canned Dog Food Game 405Gr",
+  "images": [
+    {
+      "id": 33793,
+      "src": "/images/psk_logo.png",
+      "alt": "Migliorcane Dog Bundle",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 2122,
@@ -58,28 +71,20 @@
       "id": 621,
       "name": "wet food",
       "slug": "wet-food"
+    },
+    {
+      "name": "adult",
+      "slug": "adult"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=33793",
-  "shortDescription": "1Pc Migliorcane Adult Dog Food Active 4Kg 2Pcs Reflex Dog Treats Duck Sausages 80Gr 2Pcs Reflex Dog Treats Chicken Drumsticks 80Gr 4Pcs Migliorcane Canned Dog Food Game 405Gr",
-  "description": "1Pc Migliorcane Adult Dog Food Active 4Kg 2Pcs Reflex Dog Treats Duck Sausages 80Gr 2Pcs Reflex Dog Treats Chicken Drumsticks 80Gr 4Pcs Migliorcane Canned Dog Food Game 405Gr",
-  "images": [],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/migliorcane-dog-bundle/?add-to-cart=33793",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2022-12-22T10:10:14",
-  "dateModified": "2026-05-06T17:08:27",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "wet",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "/images/psk_logo.png"
 }

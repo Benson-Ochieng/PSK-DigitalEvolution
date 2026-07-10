@@ -27,7 +27,20 @@
       "slug": "cat-grooming"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=18046",
+  "description": "Small Plastic cat litter scooper",
+  "images": [
+    {
+      "id": 18046,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/CLSS01.jpg",
+      "alt": "Small Cat Litter Scoop Black",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 1205,
@@ -55,33 +68,14 @@
       "slug": "pet-care"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=18046",
-  "shortDescription": "Small Plastic cat litter scooper",
-  "description": "Small Plastic cat litter scooper",
-  "images": [
-    {
-      "id": 18003,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/CLSS01.jpg",
-      "alt": "Small Cat Litter Scoop Black",
-      "name": "CLSS01"
-    }
-  ],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/small-cat-litter-scoop-black/?add-to-cart=18046",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2021-01-13T22:10:24",
-  "dateModified": "2026-05-06T17:07:07",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "cat",
-  "food_type": "dry",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/CLSS01.jpg"
 }

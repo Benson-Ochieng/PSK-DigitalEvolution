@@ -42,7 +42,20 @@
       "slug": "kong-accessories"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=16430",
+  "description": "KONGAirDog? Squeaker Dumbbell combines two classic dog toys -the tennis ball and the squeaker - to create the perfect fetch toy. The non-abrasive, high-quality material will not wear down dogs? teeth. Find your dog?s favourite AirDog? shape and let the games begin. Fetch toy for healthy; active play Non-abrasive KONGTennis material; softer on teeth Squeaker entices play",
+  "images": [
+    {
+      "id": 16430,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/11/ASDB1.jpg",
+      "alt": "KONG AirDog Dumbbell Large",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 1205,
@@ -80,33 +93,14 @@
       "slug": "toys"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=16430",
-  "shortDescription": "KONG AirDog Squeaker Dumbell Fetch Toy – Large",
-  "description": "KONGAirDog? Squeaker Dumbbell combines two classic dog toys -the tennis ball and the squeaker - to create the perfect fetch toy. The non-abrasive, high-quality material will not wear down dogs? teeth. Find your dog?s favourite AirDog? shape and let the games begin. Fetch toy for healthy; active play Non-abrasive KONGTennis material; softer on teeth Squeaker entices play",
-  "images": [
-    {
-      "id": 24962,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/11/ASDB1.jpg",
-      "alt": "KONG AirDog Dumbbell Large",
-      "name": "ASDB1"
-    }
-  ],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/kong-airdog-dumbbell-large/?add-to-cart=16430",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2020-11-27T10:39:39",
-  "dateModified": "2026-05-06T17:06:40",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "cat",
-  "food_type": "supplement",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2020/11/ASDB1.jpg"
 }

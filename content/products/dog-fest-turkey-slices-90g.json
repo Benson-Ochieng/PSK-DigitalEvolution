@@ -27,7 +27,20 @@
       "slug": "dog-treats"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27274",
+  "description": "All natural treats & chews We range our treats based on the size and age of the dog. This helps to find a treat, which is just perfect just for your pet. You will still have to spend some time choosing a favorite flavor. Turkey Slices Reward him as a hero with something tasty! Turkey will alsobe your best choice if your dog has a sensitive stomach. Ingredients: turkey, vegetable by-products, minerals. Guaranteed analysis: crude protein 32%, crude fat 8.5%, crude fiber 0.2%, crude ash 4%, moisture 21%.",
+  "images": [
+    {
+      "id": 27274,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/DF026.jpg",
+      "alt": "Dog Fest Turkey Slices (90G)",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 2213,
@@ -48,35 +61,20 @@
       "id": 1156,
       "name": "treats",
       "slug": "treats"
-    }
-  ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=27274",
-  "shortDescription": "Dog Fest Turkey Slices for Adult dogs (90G)",
-  "description": "All natural treats & chews We range our treats based on the size and age of the dog. This helps to find a treat, which is just perfect just for your pet. You will still have to spend some time choosing a favorite flavor. Turkey Slices Reward him as a hero with something tasty! Turkey will alsobe your best choice if your dog has a sensitive stomach. Ingredients: turkey, vegetable by-products, minerals. Guaranteed analysis: crude protein 32%, crude fat 8.5%, crude fiber 0.2%, crude ash 4%, moisture 21%.",
-  "images": [
+    },
     {
-      "id": 27248,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/DF026.jpg",
-      "alt": "Dog Fest Turkey Slices (90G)",
-      "name": "DF026"
+      "name": "adult",
+      "slug": "adult"
     }
   ],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/dog-fest-turkey-slices-90g/?add-to-cart=27274",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2022-04-20T16:20:45",
-  "dateModified": "2026-05-06T17:08:05",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "treat",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/DF026.jpg"
 }

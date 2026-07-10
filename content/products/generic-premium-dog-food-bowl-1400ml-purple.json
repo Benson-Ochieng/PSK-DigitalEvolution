@@ -3,10 +3,10 @@
   "name": "Generic Premium Dog Food Bowl 1400ml-Purple",
   "slug": "generic-premium-dog-food-bowl-1400ml-purple",
   "sku": "DFB1400PU@F",
-  "onSale": true,
+  "onSale": false,
   "price": 297,
-  "regularPrice": 850,
-  "salePrice": 297,
+  "regularPrice": 297,
+  "salePrice": null,
   "currency": "KES",
   "currencySymbol": "KSh",
   "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/DFB1400P.jpg",
@@ -32,7 +32,20 @@
       "slug": "generic"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=43662",
+  "description": "Premium Curved Dog Food Bowl 1400ml - Purple",
+  "images": [
+    {
+      "id": 43662,
+      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/DFB1400P.jpg",
+      "alt": "Generic Premium Dog Food Bowl 1400ml-Purple",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 1205,
@@ -60,33 +73,14 @@
       "slug": "puppy"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=43662",
-  "shortDescription": "Premium Curved Dog Food Bowl 1400ml – Purple",
-  "description": "Premium Curved Dog Food Bowl 1400ml - Purple",
-  "images": [
-    {
-      "id": 18010,
-      "src": "https://petstore.co.ke/wp-content/uploads/2021/01/DFB1400P.jpg",
-      "alt": "Generic Premium Dog Food Bowl 1400ml-Purple",
-      "name": "DFB1400P"
-    }
-  ],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/generic-premium-dog-food-bowl-1400ml-purple/?add-to-cart=43662",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2024-01-30T11:28:21",
-  "dateModified": "2026-05-06T17:09:27",
-  "brand": null,
-  "weight_kg": 0.4,
-  "animal_type": "dog",
-  "food_type": "supplement",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2021/01/DFB1400P.jpg"
 }

@@ -17,7 +17,20 @@
       "slug": "accessories"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=33118",
+  "description": "This cat litter scooper is portable, lightweight, and durable. ? Flat, thin, & sharp leading edge sits flush against your cat litter box floor to scoop underneath cat litter, rather than into clumped litter. ? Faster sifting. ? High walls on this litter scoop prevent scatter. ? Comfortable, ergonomic & longer type handle.",
+  "images": [
+    {
+      "id": 33118,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/11/CLSBM-Cat-Litter-Scooper-Blue-Medium.jpg",
+      "alt": "Cat Litter Scooper Blue Medium",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 1205,
@@ -33,35 +46,20 @@
       "id": 2098,
       "name": "Grooming & Tools",
       "slug": "grooming-tools"
-    }
-  ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=33118",
-  "shortDescription": "Lightweight Cat Litter Scoop",
-  "description": "This cat litter scooper is portable, lightweight, and durable. ? Flat, thin, & sharp leading edge sits flush against your cat litter box floor to scoop underneath cat litter, rather than into clumped litter. ? Faster sifting. ? High walls on this litter scoop prevent scatter. ? Comfortable, ergonomic & longer type handle.",
-  "images": [
+    },
     {
-      "id": 33095,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/11/CLSBM-Cat-Litter-Scooper-Blue-Medium.jpg",
-      "alt": "Cat Litter Scooper Blue Medium",
-      "name": "CLSBM &#8211; Cat Litter Scooper Blue Medium"
+      "name": "adult",
+      "slug": "adult"
     }
   ],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/cat-litter-scooper-blue-medium/?add-to-cart=33118",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2022-12-04T10:57:49",
-  "dateModified": "2026-05-06T17:08:25",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2022/11/CLSBM-Cat-Litter-Scooper-Blue-Medium.jpg"
 }

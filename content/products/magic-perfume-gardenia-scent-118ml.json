@@ -32,7 +32,20 @@
       "slug": "dog-grooming-cleaning-supplies"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/magic-perfume-gardenia-scent-118ml/",
+  "description": "MAGIC PERFUME-GARDENIA SCENT: This product selects Gardenia essence, which is fresh elegant, brings an extraordinary sense of smell to pets and adds FORESTALL Soybean extracts to eliminate odour effectively. It is a good choice for home care. Instructions for Use: Shake well before use. Warning: Do not spray at your pet's mouth, nose, eyes or ears.",
+  "images": [
+    {
+      "id": 39899,
+      "src": "https://petstore.co.ke/wp-content/uploads/2023/09/Magic-PERFUME-FOR-PETS-GARDENIA.jpg",
+      "alt": "Magic Perfume -gardenia Scent 118ml",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 820,
@@ -65,33 +78,14 @@
       "slug": "puppy"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/magic-perfume-gardenia-scent-118ml/",
-  "shortDescription": "This product selects Gardenia essence, which is fresh elegant, brings an extraordinary sense of smell to pets and adds FORESTALL Soybean extracts to eliminate odour effectively. It is a good choice for home care.",
-  "description": "MAGIC PERFUME-GARDENIA SCENT: This product selects Gardenia essence, which is fresh elegant, brings an extraordinary sense of smell to pets and adds FORESTALL Soybean extracts to eliminate odour effectively. It is a good choice for home care. Instructions for Use: Shake well before use. Warning: Do not spray at your pet's mouth, nose, eyes or ears.",
-  "images": [
-    {
-      "id": 39900,
-      "src": "https://petstore.co.ke/wp-content/uploads/2023/09/Magic-PERFUME-FOR-PETS-GARDENIA.jpg",
-      "alt": "Magic Perfume -gardenia Scent 118ml",
-      "name": "Magic PERFUME-FOR-PETS-GARDENIA"
-    }
-  ],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/magic-perfume-gardenia-scent-118ml/?add-to-cart=39899",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2023-09-28T12:56:36",
-  "dateModified": "2026-06-17T04:18:40",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "dry",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2023/09/Magic-PERFUME-FOR-PETS-GARDENIA.jpg"
 }

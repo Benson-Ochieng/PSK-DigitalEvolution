@@ -17,7 +17,20 @@
       "slug": "mpets"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27275",
+  "description": "Aloe vera shampoo retains moisture in the skin, it has a mildly antibacterial and anti-inflammatory effect. This shampoo is particularly suitable for dogs with sensitive skin.",
+  "images": [
+    {
+      "id": 27275,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPA.jpg",
+      "alt": "Mpets Aloe Vera Dog Shampoo 250Ml",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 2213,
@@ -45,33 +58,14 @@
       "slug": "small-breeds"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=27275",
-  "shortDescription": "Mpets Aloe Vera Dog Shampoo",
-  "description": "Aloe vera shampoo retains moisture in the skin, it has a mildly antibacterial and anti-inflammatory effect. This shampoo is particularly suitable for dogs with sensitive skin.",
-  "images": [
-    {
-      "id": 27284,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPA.jpg",
-      "alt": "Mpets Aloe Vera Dog Shampoo 250Ml",
-      "name": "MPA"
-    }
-  ],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/mpets-aloe-vera-dog-shampoo-250ml/?add-to-cart=27275",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2022-04-20T16:20:45",
-  "dateModified": "2026-05-06T17:08:05",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "supplement",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPA.jpg"
 }

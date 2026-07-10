@@ -32,11 +32,18 @@
       "slug": "reflex"
     }
   ],
-  "brands": [
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=13833",
+  "description": "Reflex Dog Treats - Mini Bones Biscuits are the perfect size dog biscuits for training and for rewarding good behaviour. Made with the highest quality ingredients and bursting with flavour. INGREDIENTS: Cereals, Meat & Animal By-Products, Glucose 6.2% Vegetable Oils & Fats, Minerals. NUTRIENT COMPONENTS Crude Protein (%) - 10.2 Oil Content (%) - 5.5 Crude Ash (%) - 3.6 Crude Fiber (%) - 2.6 Sodium (%) - 0.5 FEEDING RECOMMENDATIONS: Treats may be given as an additional snack. This product does not replace full-dog food daily. Recommended quantity: max. 10 pieces per day. Individual daily requirement depends on other factors, e.g. age, breed and activity. Keep in a dry, cool place.",
+  "images": [
     {
-      "id": 2743,
-      "name": "Reflex",
-      "slug": "reflex"
+      "id": 13833,
+      "src": "https://petstore.co.ke/wp-content/uploads/2020/06/Reflex-Dog-Treats-Mini-Bones-Biscuits-350g-min.png",
+      "alt": "Reflex Dog Treats - Mini Bones Biscuits 350g",
+      "name": "thumbnail"
     }
   ],
   "tags": [
@@ -61,33 +68,19 @@
       "slug": "treats"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=13833",
-  "shortDescription": "Reflex Dog Treats – Mini Bones Biscuits are the perfect size dog biscuits for training and for rewarding good behaviour. Made with the highest quality ingredients and bursting with flavour.",
-  "description": "Reflex Dog Treats - Mini Bones Biscuits are the perfect size dog biscuits for training and for rewarding good behaviour. Made with the highest quality ingredients and bursting with flavour. INGREDIENTS: Cereals, Meat & Animal By-Products, Glucose 6.2% Vegetable Oils & Fats, Minerals. NUTRIENT COMPONENTS Crude Protein (%) - 10.2 Oil Content (%) - 5.5 Crude Ash (%) - 3.6 Crude Fiber (%) - 2.6 Sodium (%) - 0.5 FEEDING RECOMMENDATIONS: Treats may be given as an additional snack. This product does not replace full-dog food daily. Recommended quantity: max. 10 pieces per day. Individual daily requirement depends on other factors, e.g. age, breed and activity. Keep in a dry, cool place.",
-  "images": [
+  "brands": [
     {
-      "id": 13835,
-      "src": "https://petstore.co.ke/wp-content/uploads/2020/06/Reflex-Dog-Treats-Mini-Bones-Biscuits-350g-min.png",
-      "alt": "Reflex Dog Treats - Mini Bones Biscuits 350g",
-      "name": "Reflex Dog Treats &#8211; Mini Bones Biscuits 350g -min"
+      "name": "Reflex",
+      "slug": "reflex"
     }
   ],
   "stockStatus": "outofstock",
-  "lowStockRemaining": 10,
+  "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/reflex-dog-treats-mini-bones-biscuits-350g/?add-to-cart=13833",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2020-06-18T19:57:26",
-  "dateModified": "2026-05-06T17:06:35",
-  "brand": "Reflex",
-  "weight_kg": 0.35,
-  "animal_type": "dog",
-  "food_type": "treat",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2020/06/Reflex-Dog-Treats-Mini-Bones-Biscuits-350g-min.png"
 }

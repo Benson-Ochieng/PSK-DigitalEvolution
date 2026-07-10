@@ -17,7 +17,20 @@
       "slug": "mpets"
     }
   ],
-  "brands": [],
+  "inStock": false,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/?post_type=product&p=27295",
+  "description": "Baby powder conditioner with pleasant and fresh smell, especially adding glycerin to moisturize the pet hair and skin",
+  "images": [
+    {
+      "id": 27295,
+      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPBPC1.jpg",
+      "alt": "Mpets Baby Powder Conditioner 250Ml",
+      "name": "thumbnail"
+    }
+  ],
   "tags": [
     {
       "id": 2213,
@@ -45,33 +58,14 @@
       "slug": "small-breeds"
     }
   ],
-  "inStock": false,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/?post_type=product&p=27295",
-  "shortDescription": "Mpets Baby Powder Conditioner",
-  "description": "Baby powder conditioner with pleasant and fresh smell, especially adding glycerin to moisturize the pet hair and skin",
-  "images": [
-    {
-      "id": 27280,
-      "src": "https://petstore.co.ke/wp-content/uploads/2022/04/MPBPC1.jpg",
-      "alt": "Mpets Baby Powder Conditioner 250Ml",
-      "name": "MPBPC1"
-    }
-  ],
+  "brands": [],
   "stockStatus": "outofstock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/mpets-baby-powder-conditioner-250ml/?add-to-cart=27295",
-  "status": "draft",
+  "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2022-04-20T16:20:44",
-  "dateModified": "2026-05-06T17:08:05",
-  "brand": null,
-  "weight_kg": null,
-  "animal_type": "dog",
-  "food_type": "supplement",
+  "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+  "dateModified": "2026-06-24T14:22:45.823651+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2022/04/MPBPC1.jpg"
 }

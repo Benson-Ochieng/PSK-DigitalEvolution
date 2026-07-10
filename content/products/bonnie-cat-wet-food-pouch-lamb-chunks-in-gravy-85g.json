@@ -32,11 +32,18 @@
       "slug": "wet-cat-food"
     }
   ],
-  "brands": [
+  "inStock": true,
+  "averageRating": 0,
+  "reviewCount": 0,
+  "type": "simple",
+  "permalink": "https://petstore.co.ke/product/bonnie-cat-wet-food-pouch-lamb-chunks-in-gravy-85g/",
+  "description": "Enriched with essential vitamins, minerals, taurine, and biotin, it helps maintain healthy vision, heart function, skin, and a shiny coat. The rich gravy enhances flavour and moisture intake, making every meal both enjoyable and hydrating. Key Benefits Complete and balanced nutrition for adult cats Made with real lamb and liver for excellent taste High-quality protein supports lean muscle maintenance Enriched with taurine for healthy heart and vision Contains vitamins and minerals to support overall health Highly palatable gravy encourages healthy appetite Helps maintain healthy skin and a shiny coat Suitable for all adult cat breeds Composition Meat and animal derivatives (Lamb 5%, Liver 5%), minerals, inulin (0.1%). Analytical Constituents Crude Protein: 8.5% Crude Fat: 4.5% Crude Fibre: 0.3% Crude Ash: 2.5% Moisture: 83% Nutritional Additives Vitamin D3: 250 IU/kg Vitamin E: 15 mg/kg Taurine: 445 mg/kg Zinc: 15 mg/kg Copper: 1 mg/kg Manganese: 1 mg/kg Biotin: 20 µg/kg Feeding Guide An average adult cat weighing approximately 4 kg requires 3 pouches per day , ideally divided into 3 meals . Feeding requirements may vary depending on your cat's age, breed, activity level, and lifestyle. Serve at room temperature and ensure fresh drinking water is always available. Weight: 85g &nbsp;",
+  "images": [
     {
-      "id": 2428,
-      "name": "Bonnie",
-      "slug": "bonnie"
+      "id": 91089,
+      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/BONNIE-CAT-POUCH-LAMB-CHUNKS-IN-GRAVY-85GR.png",
+      "alt": "Bonnie Cat Wet Food Pouch – Lamb Chunks in Gravy 85g",
+      "name": "thumbnail"
     }
   ],
   "tags": [
@@ -49,35 +56,25 @@
       "id": 621,
       "name": "wet food",
       "slug": "wet-food"
+    },
+    {
+      "name": "adult",
+      "slug": "adult"
     }
   ],
-  "inStock": true,
-  "averageRating": 5,
-  "reviewCount": 0,
-  "type": "simple",
-  "permalink": "https://petstore.co.ke/product/bonnie-cat-wet-food-pouch-lamb-chunks-in-gravy-85g/",
-  "shortDescription": "Give your cat a delicious and nutritious meal with Bonnie Lamb & Liver in Gravy , a complete and balanced wet cat food specially formulated for adult cats of all breeds. Made with quality lamb and liver, this tasty recipe provides high-quality protein to support strong muscles, healthy growth, and overall wellbeing.",
-  "description": "Enriched with essential vitamins, minerals, taurine, and biotin, it helps maintain healthy vision, heart function, skin, and a shiny coat. The rich gravy enhances flavour and moisture intake, making every meal both enjoyable and hydrating. Key Benefits Complete and balanced nutrition for adult cats Made with real lamb and liver for excellent taste High-quality protein supports lean muscle maintenance Enriched with taurine for healthy heart and vision Contains vitamins and minerals to support overall health Highly palatable gravy encourages healthy appetite Helps maintain healthy skin and a shiny coat Suitable for all adult cat breeds Composition Meat and animal derivatives (Lamb 5%, Liver 5%), minerals, inulin (0.1%). Analytical Constituents Crude Protein: 8.5% Crude Fat: 4.5% Crude Fibre: 0.3% Crude Ash: 2.5% Moisture: 83% Nutritional Additives Vitamin D3: 250 IU/kg Vitamin E: 15 mg/kg Taurine: 445 mg/kg Zinc: 15 mg/kg Copper: 1 mg/kg Manganese: 1 mg/kg Biotin: 20 µg/kg Feeding Guide An average adult cat weighing approximately 4 kg requires 3 pouches per day , ideally divided into 3 meals . Feeding requirements may vary depending on your cat's age, breed, activity level, and lifestyle. Serve at room temperature and ensure fresh drinking water is always available. Weight: 85g &nbsp;",
-  "images": [
+  "brands": [
     {
-      "id": 91091,
-      "src": "https://petstore.co.ke/wp-content/uploads/2026/06/BONNIE-CAT-POUCH-LAMB-CHUNKS-IN-GRAVY-85GR.png",
-      "alt": "Bonnie Cat Wet Food Pouch – Lamb Chunks in Gravy 85g",
-      "name": "BONNIE CAT POUCH LAMB CHUNKS IN GRAVY 85GR"
+      "name": "Bonnie",
+      "slug": "bonnie"
     }
   ],
   "stockStatus": "instock",
   "lowStockRemaining": null,
   "isPurchasable": true,
-  "addToCartUrl": "https://petstore.co.ke/product/bonnie-cat-wet-food-pouch-lamb-chunks-in-gravy-85g/?add-to-cart=91089",
   "status": "publish",
   "featured": false,
   "catalogVisibility": "visible",
-  "dateCreated": "2026-07-03T10:57:32",
-  "dateModified": "2026-07-03T11:12:03",
-  "brand": "Bonnie",
-  "weight_kg": null,
-  "animal_type": "cat",
-  "food_type": "wet",
+  "dateCreated": "2026-07-10T08:23:47.424113+00:00",
+  "dateModified": "2026-07-10T08:23:47.424113+00:00",
   "image_url": "https://petstore.co.ke/wp-content/uploads/2026/06/BONNIE-CAT-POUCH-LAMB-CHUNKS-IN-GRAVY-85GR.png"
 }
