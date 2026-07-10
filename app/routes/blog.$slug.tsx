@@ -16,7 +16,7 @@ export function meta({ data }: { data: any }) {
 
 export async function loader({ params }: { params: { slug: string } }) {
   const { slug } = params;
-  const { rows } = await query("SELECT * FROM blog_posts WHERE slug = $1", [slug]);
+  const { rows } = await query("SELECT * FROM blog_posts WHERE slug = $1 AND status = 'publish'", [slug]);
   if (rows.length === 0) {
     throw new Response("Not Found", { status: 404 });
   }

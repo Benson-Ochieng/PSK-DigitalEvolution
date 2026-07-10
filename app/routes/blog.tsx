@@ -12,7 +12,7 @@ export function meta() {
 }
 
 export async function loader() {
-  const { rows } = await query("SELECT * FROM blog_posts ORDER BY published_at DESC");
+  const { rows } = await query("SELECT * FROM blog_posts WHERE status = 'publish' ORDER BY published_at DESC");
   return { posts: rows };
 }
 

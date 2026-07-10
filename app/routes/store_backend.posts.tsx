@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Form, useLoaderData, useSearchParams, redirect, Link } from "react-router";
 import VisualCodeEditor from "~/components/VisualCodeEditor";
-import { db } from "~/lib/db.server";
 import {
   getBlogCategories,
   saveBlogCategories,
@@ -47,7 +46,34 @@ export async function loader({ request }: { request: Request }) {
   const { requireAdminUser } = await import("~/lib/sessions.server");
   const currentUser = await requireAdminUser(request);
 
-  const posts = await db.post.findMany();
+  // Auto-migrate if needed to add missing columns to blog_posts
+  const { query } = await import("~/db.server");
+  try {
+    await query("ALTER TABLE blog_posts ADD COLUMN IF NOT EXISTS status TEXT DEFAULT 'publish'");
+    await query("ALTER TABLE blog_posts ADD COLUMN IF NOT EXISTS tag TEXT DEFAULT 'Pet Care'");
+    await query("ALTER TABLE blog_posts ADD COLUMN IF NOT EXISTS author TEXT DEFAULT 'System Admin'");
+    // Backfill any nulls
+    await query("UPDATE blog_posts SET status = 'publish' WHERE status IS NULL");
+    await query("UPDATE blog_posts SET tag = 'Pet Care' WHERE tag IS NULL");
+    await query("UPDATE blog_posts SET author = 'System Admin' WHERE author IS NULL");
+  } catch (e) {
+    console.error("Auto-migration failed:", e);
+  }
+
+  const { rows } = await query("SELECT * FROM blog_posts ORDER BY published_at DESC");
+  const posts = rows.map((r: any) => ({
+    id: String(r.id),
+    title: r.title || "",
+    slug: r.slug || "",
+    content: r.content || "",
+    excerpt: r.excerpt || "",
+    image: r.image_url || "",
+    tag: r.tag || "Pet Care",
+    status: r.status || "publish",
+    date: r.published_at ? new Date(r.published_at).toISOString() : new Date().toISOString(),
+    author: r.author || "System Admin",
+  }));
+
   const categories = getBlogCategories();
   const tags = getBlogTags();
 
@@ -67,39 +93,38 @@ export async function action({ request }: { request: Request }) {
 
   const formData = await request.formData();
   const intent = formData.get("intent")?.toString();
-
-  const posts = await db.post.findMany();
+  const { query } = await import("~/db.server");
 
   if (intent === "add_post" || intent === "save_post_details") {
-    const id = formData.get("id")?.toString() || "post-" + Date.now();
+    const id = formData.get("id")?.toString() || "";
     const title = formData.get("title")?.toString() || "";
     const image = formData.get("image")?.toString() || "";
-    const link = formData.get("link")?.toString() || "";
     const tag = formData.get("tag")?.toString() || "Pet Care";
     const status = formData.get("status")?.toString() || "publish";
     const date = formData.get("date")?.toString() || new Date().toISOString();
     const content = formData.get("content")?.toString() || "";
     const slug = formData.get("slug")?.toString() || title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
-
-    const newPost: BlogPost = {
-      id,
-      title,
-      image,
-      link,
-      tag,
-      status,
-      date,
-      author: currentUser.name,
-      content,
-      slug
-    };
+    const author = currentUser.name || "System Admin";
+    const excerpt = content ? content.replace(/<[^>]*>/g, '').slice(0, 160) + '...' : '';
 
     if (intent === "add_post") {
-      await db.post.create(newPost);
+      await query(
+        `INSERT INTO blog_posts (title, slug, content, excerpt, image_url, published_at, tag, status, author)
+         VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)`,
+        [title, slug, content, excerpt, image, date, tag, status, author]
+      );
       logHistoryEvent(currentUser.name, "Post Created", `Created blog post "${title}"`, "📝");
     } else {
-      await db.post.update({ where: { id }, data: newPost });
-      logHistoryEvent(currentUser.name, "Post Updated", `Updated blog post details for "${title}"`, "📝");
+      const numericId = parseInt(id, 10);
+      if (!isNaN(numericId)) {
+        await query(
+          `UPDATE blog_posts SET
+             title = $1, slug = $2, content = $3, excerpt = $4, image_url = $5, published_at = $6, tag = $7, status = $8, author = $9
+           WHERE id = $10`,
+          [title, slug, content, excerpt, image, date, tag, status, author, numericId]
+        );
+        logHistoryEvent(currentUser.name, "Post Updated", `Updated blog post details for "${title}"`, "📝");
+      }
     }
     return redirect("/store_backend/posts?view=all");
   }
@@ -108,45 +133,100 @@ export async function action({ request }: { request: Request }) {
     const id = formData.get("id")?.toString() || "";
     const status = formData.get("status")?.toString() || "publish";
     const tag = formData.get("tag")?.toString() || "Pet Care";
-    const link = formData.get("link")?.toString() || "";
     const date = formData.get("date")?.toString() || "";
     const slug = formData.get("slug")?.toString() || "";
 
-    const idx = posts.findIndex(p => p.id === id);
-    if (idx !== -1) {
-      const updateData: Partial<BlogPost> = { status, tag, link };
-      if (date) updateData.date = date;
-      if (slug) updateData.slug = slug;
-      await db.post.update({ where: { id }, data: updateData });
-      logHistoryEvent(currentUser.name, "Post Quick-Edited", `Quick-edited status/link/slug for "${posts[idx].title}"`, "📝");
+    const numericId = parseInt(id, 10);
+    if (!isNaN(numericId)) {
+      if (date && slug) {
+        await query(
+          "UPDATE blog_posts SET status = $1, tag = $2, published_at = $3, slug = $4 WHERE id = $5",
+          [status, tag, date, slug, numericId]
+        );
+      } else if (date) {
+        await query(
+          "UPDATE blog_posts SET status = $1, tag = $2, published_at = $3 WHERE id = $4",
+          [status, tag, date, numericId]
+        );
+      } else if (slug) {
+        await query(
+          "UPDATE blog_posts SET status = $1, tag = $2, slug = $3 WHERE id = $4",
+          [status, tag, slug, numericId]
+        );
+      } else {
+        await query(
+          "UPDATE blog_posts SET status = $1, tag = $2 WHERE id = $3",
+          [status, tag, numericId]
+        );
+      }
+      logHistoryEvent(currentUser.name, "Post Quick-Edited", `Quick-edited status/slug for post ID ${id}`, "📝");
     }
     return { success: true };
   }
 
   if (intent === "duplicate_post") {
     const id = formData.get("id")?.toString() || "";
-    const original = posts.find(p => p.id === id);
-    if (original) {
-      const clone: BlogPost = {
-        ...original,
-        id: "post-" + Date.now(),
-        title: `Copy of ${original.title}`,
-        date: new Date().toISOString(),
-        author: currentUser.name,
-        slug: original.slug ? `${original.slug}-copy` : undefined
-      };
-      await db.post.create(clone);
-      logHistoryEvent(currentUser.name, "Post Duplicated", `Cloned blog post "${original.title}"`, "📝");
+    const numericId = parseInt(id, 10);
+    if (!isNaN(numericId)) {
+      const { rows } = await query("SELECT * FROM blog_posts WHERE id = $1", [numericId]);
+      if (rows.length > 0) {
+        const original = rows[0];
+        const title = `Copy of ${original.title}`;
+        const slug = `${original.slug}-copy-${Date.now()}`;
+        const content = original.content;
+        const excerpt = original.excerpt;
+        const image = original.image_url;
+        const tag = original.tag || "Pet Care";
+        const status = "draft";
+        const date = new Date().toISOString();
+        const author = currentUser.name || "System Admin";
+
+        await query(
+          `INSERT INTO blog_posts (title, slug, content, excerpt, image_url, published_at, tag, status, author)
+           VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)`,
+          [title, slug, content, excerpt, image, date, tag, status, author]
+        );
+        logHistoryEvent(currentUser.name, "Post Duplicated", `Cloned blog post "${original.title}"`, "📝");
+      }
     }
     return { success: true };
   }
 
   if (intent === "trash_post") {
     const id = formData.get("id")?.toString() || "";
-    const original = posts.find(p => p.id === id);
-    if (original) {
-      await db.post.delete({ where: { id } });
-      logHistoryEvent(currentUser.name, "Post Deleted", `Permanently deleted blog post "${original.title}"`, "🗑️");
+    const numericId = parseInt(id, 10);
+    if (!isNaN(numericId)) {
+      const { rows } = await query("SELECT * FROM blog_posts WHERE id = $1", [numericId]);
+      if (rows.length > 0) {
+        await query("UPDATE blog_posts SET status = 'trash' WHERE id = $1", [numericId]);
+        logHistoryEvent(currentUser.name, "Post Trashed", `Placed blog post "${rows[0].title}" on trash`, "🗑️");
+      }
+    }
+    return { success: true };
+  }
+
+  if (intent === "restore_post") {
+    const id = formData.get("id")?.toString() || "";
+    const numericId = parseInt(id, 10);
+    if (!isNaN(numericId)) {
+      const { rows } = await query("SELECT * FROM blog_posts WHERE id = $1", [numericId]);
+      if (rows.length > 0) {
+        await query("UPDATE blog_posts SET status = 'draft' WHERE id = $1", [numericId]);
+        logHistoryEvent(currentUser.name, "Post Restored", `Restored blog post "${rows[0].title}" as Draft`, "📝");
+      }
+    }
+    return { success: true };
+  }
+
+  if (intent === "delete_post_permanently") {
+    const id = formData.get("id")?.toString() || "";
+    const numericId = parseInt(id, 10);
+    if (!isNaN(numericId)) {
+      const { rows } = await query("SELECT * FROM blog_posts WHERE id = $1", [numericId]);
+      if (rows.length > 0) {
+        await query("DELETE FROM blog_posts WHERE id = $1", [numericId]);
+        logHistoryEvent(currentUser.name, "Post Deleted", `Permanently deleted blog post "${rows[0].title}"`, "🗑️");
+      }
     }
     return { success: true };
   }
@@ -237,7 +317,7 @@ export default function VpBackendPosts() {
   }, [editPost]);
 
   // Dynamic posts status counts
-  const countAll = posts.length;
+  const countAll = posts.filter((p: any) => p.status !== "trash").length;
   const countPublished = posts.filter((p: any) => p.status === "publish").length;
   const countDrafts = posts.filter((p: any) => p.status === "draft").length;
   const countTrash = posts.filter((p: any) => p.status === "trash").length;
@@ -328,10 +408,10 @@ export default function VpBackendPosts() {
     const matchesSearch =
       !searchQuery ||
       p.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      p.author.toLowerCase().includes(searchQuery.toLowerCase());
+      (p.author && p.author.toLowerCase().includes(searchQuery.toLowerCase()));
 
     const matchesCategory = categoryFilter === "all" || p.tag === categoryFilter;
-    const matchesStatus = statusFilter === "all" || p.status === statusFilter;
+    const matchesStatus = statusFilter === "all" ? (p.status !== "trash") : p.status === statusFilter;
 
     return matchesSearch && matchesCategory && matchesStatus;
   });
@@ -393,12 +473,29 @@ export default function VpBackendPosts() {
   };
 
   const handleTrash = async (id: string) => {
-    if (!confirm("Are you sure you want to permanently delete this blog post?")) return;
+    if (!confirm("Are you sure you want to move this blog post to trash?")) return;
     const body = new FormData();
     body.append("intent", "trash_post");
     body.append("id", id);
     await fetch(window.location.href, { method: "POST", body });
-    window.location.href = "/store_backend/posts?view=all";
+    window.location.reload();
+  };
+
+  const handleRestore = async (id: string) => {
+    const body = new FormData();
+    body.append("intent", "restore_post");
+    body.append("id", id);
+    await fetch(window.location.href, { method: "POST", body });
+    window.location.reload();
+  };
+
+  const handleDeletePermanently = async (id: string) => {
+    if (!confirm("Are you sure you want to permanently delete this blog post? This action cannot be undone.")) return;
+    const body = new FormData();
+    body.append("intent", "delete_post_permanently");
+    body.append("id", id);
+    await fetch(window.location.href, { method: "POST", body });
+    window.location.reload();
   };
 
   const handleQuickEditSave = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -1110,31 +1207,53 @@ export default function VpBackendPosts() {
                           </div>
                         )}
                         <div className="row-actions">
-                          <a href={`/store_backend/posts?view=edit&id=${p.id}`} className="action-link">Edit</a>
-                          <span>|</span>
-                          <button
-                            type="button"
-                            onClick={() => setQuickEditPost(p)}
-                            className="action-link"
-                          >
-                            Quick Edit
-                          </button>
-                          <span>|</span>
-                          <button
-                            type="button"
-                            onClick={() => handleDuplicate(p.id)}
-                            className="action-link"
-                          >
-                            Duplicate
-                          </button>
-                          <span>|</span>
-                          <button
-                            type="button"
-                            onClick={() => handleTrash(p.id)}
-                            className="action-link trash-action"
-                          >
-                            Trash
-                          </button>
+                          {p.status === "trash" ? (
+                            <>
+                              <button
+                                type="button"
+                                onClick={() => handleRestore(p.id)}
+                                className="action-link"
+                              >
+                                Restore
+                              </button>
+                              <span>|</span>
+                              <button
+                                type="button"
+                                onClick={() => handleDeletePermanently(p.id)}
+                                className="action-link trash-action"
+                              >
+                                Delete Permanently
+                              </button>
+                            </>
+                          ) : (
+                            <>
+                              <a href={`/store_backend/posts?view=edit&id=${p.id}`} className="action-link">Edit</a>
+                              <span>|</span>
+                              <button
+                                type="button"
+                                onClick={() => setQuickEditPost(p)}
+                                className="action-link"
+                              >
+                                Quick Edit
+                              </button>
+                              <span>|</span>
+                              <button
+                                type="button"
+                                onClick={() => handleDuplicate(p.id)}
+                                className="action-link"
+                              >
+                                Duplicate
+                              </button>
+                              <span>|</span>
+                              <button
+                                type="button"
+                                onClick={() => handleTrash(p.id)}
+                                className="action-link trash-action"
+                              >
+                                Trash
+                              </button>
+                            </>
+                          )}
                         </div>
                       </td>
                       {showAuthor && <td>{p.author || "System Admin"}</td>}
@@ -1152,7 +1271,7 @@ export default function VpBackendPosts() {
                         </span>
                       </td>
                       <td>
-                        <a href={`/discover/${p.slug || getSlugFromLink(p.link)}`} target="_blank" rel="noopener noreferrer" className="action-link" style={{ textDecoration: "underline" }}>
+                        <a href={`/blog/${p.slug}`} target="_blank" rel="noopener noreferrer" className="action-link" style={{ textDecoration: "underline" }}>
                           View Link
                         </a>
                       </td>
