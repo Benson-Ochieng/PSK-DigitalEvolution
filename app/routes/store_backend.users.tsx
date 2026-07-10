@@ -476,9 +476,9 @@ export default function VpBackendUsers() {
         }
 
         .role-pill.administrator {
-          background: rgba(71, 47, 143, 0.1);
+          background: rgba(30, 93, 167, 0.1);
           color: #ff4d62;
-          border: 1px solid rgba(71, 47, 143, 0.25);
+          border: 1px solid rgba(30, 93, 167, 0.25);
         }
 
         .role-pill.shop_manager {

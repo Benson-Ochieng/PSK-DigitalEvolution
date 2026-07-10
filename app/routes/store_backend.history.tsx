@@ -559,7 +559,7 @@ export default function VpBackendHistory() {
         }
 
         .btn-primary:hover {
-          background: #472f8f;
+          background: #1E5DA7;
           box-shadow: 0 4px 20px rgba(255, 77, 98, 0.4);
         }
 

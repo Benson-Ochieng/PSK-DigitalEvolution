@@ -97,7 +97,7 @@ interface ChartDataPoint {
 
 function AnalyticsChart({
   data,
-  lineColor = "#472f8f",
+  lineColor = "#1E5DA7",
   valuePrefix = "",
   valueSuffix = ""
 }: {
@@ -922,7 +922,7 @@ export default function VpBackendAnalytics() {
         }
 
         .toolbar-select:focus {
-          border-color: #472f8f;
+          border-color: #1E5DA7;
         }
 
         /* Performance Tiles */
@@ -969,7 +969,7 @@ export default function VpBackendAnalytics() {
         }
 
         .tile-badge.negative {
-          background: rgba(71, 47, 143, 0.1);
+          background: rgba(30, 93, 167, 0.1);
           color: #ff4d62;
         }
 
@@ -1093,7 +1093,7 @@ export default function VpBackendAnalytics() {
         }
 
         .status-badge.out-of-stock {
-          background: rgba(71, 47, 143, 0.1);
+          background: rgba(30, 93, 167, 0.1);
           color: #ff4d62;
         }
 
@@ -1151,11 +1151,11 @@ export default function VpBackendAnalytics() {
         .checkbox-group input {
           width: 16px;
           height: 16px;
-          accent-color: #472f8f;
+          accent-color: #1E5DA7;
         }
 
         .btn-settings {
-          background: #472f8f;
+          background: #1E5DA7;
           color: #ffffff;
           border: none;
           padding: 10px 20px;
@@ -1715,7 +1715,7 @@ export default function VpBackendAnalytics() {
                     <div style={{ display: "flex", flexDirection: "column", gap: "20px", marginTop: "10px" }}>
                       {Object.entries(paymentStats).map(([method, data]) => {
                         const pctOrders = Math.round((data.count / totalPaymentOrders) * 100);
-                        const color = method === "MPESA Express" ? "#00ccff" : method === "iPay" ? "#472f8f" : "#2ed573";
+                        const color = method === "MPESA Express" ? "#00ccff" : method === "iPay" ? "#1E5DA7" : "#2ed573";
                         return (
                           <div key={method} style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
                             <div style={{ display: "flex", justifyContent: "space-between", fontSize: "13px" }}>
@@ -1780,7 +1780,7 @@ export default function VpBackendAnalytics() {
                           <td>
                             <span style={{
                               fontWeight: "600",
-                              color: ord.paymentMethod === "MPESA Express" ? "#00ccff" : ord.paymentMethod === "iPay" ? "#472f8f" : "#2ed573"
+                              color: ord.paymentMethod === "MPESA Express" ? "#00ccff" : ord.paymentMethod === "iPay" ? "#1E5DA7" : "#2ed573"
                             }}>
                               {ord.paymentMethod}
                             </span>
@@ -2037,7 +2037,7 @@ export default function VpBackendAnalytics() {
                     { label: "Jun 3", value: 2 },
                     { label: "Jun 4", value: (dbOrders || []).filter((o: any) => o.paymentGatewayData?.couponApplied).length }
                   ]}
-                  lineColor="#472f8f"
+                  lineColor="#1E5DA7"
                 />
               ) : (
                 <div className="chart-empty">No data for the selected date range</div>

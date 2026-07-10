@@ -76,7 +76,7 @@ export default function VpBackendLogin() {
           position: absolute;
           width: 300px;
           height: 300px;
-          background: rgba(71, 47, 143, 0.12); /* Red glow */
+          background: rgba(30, 93, 167, 0.12); /* Red glow */
           border-radius: 50%;
           filter: blur(100px);
           top: 15%;
@@ -129,7 +129,7 @@ export default function VpBackendLogin() {
         .logo-badge {
           display: inline-block;
           font-size: 10px;
-          background: #472f8f;
+          background: #1E5DA7;
           color: #fff;
           font-weight: 700;
           padding: 2px 8px;
@@ -198,7 +198,7 @@ export default function VpBackendLogin() {
 
         .btn-submit {
           width: 100%;
-          background: linear-gradient(135deg, #472f8f 0%, #a50011 100%);
+          background: linear-gradient(135deg, #1E5DA7 0%, #a50011 100%);
           border: none;
           border-radius: 8px;
           padding: 14px;
@@ -207,13 +207,13 @@ export default function VpBackendLogin() {
           font-size: 16px;
           cursor: pointer;
           transition: all 0.3s ease;
-          box-shadow: 0 4px 15px rgba(71, 47, 143, 0.3);
+          box-shadow: 0 4px 15px rgba(30, 93, 167, 0.3);
           margin-top: 10px;
         }
 
         .btn-submit:hover:not(:disabled) {
           background: linear-gradient(135deg, #ff1a37 0%, #bd0015 100%);
-          box-shadow: 0 6px 20px rgba(71, 47, 143, 0.5), 0 0 10px rgba(0, 204, 255, 0.2);
+          box-shadow: 0 6px 20px rgba(30, 93, 167, 0.5), 0 0 10px rgba(0, 204, 255, 0.2);
           transform: translateY(-2px);
         }
 
@@ -228,15 +228,15 @@ export default function VpBackendLogin() {
         }
 
         .error-banner {
-          background: rgba(71, 47, 143, 0.15);
-          border: 1px solid rgba(71, 47, 143, 0.4);
+          background: rgba(30, 93, 167, 0.15);
+          border: 1px solid rgba(30, 93, 167, 0.4);
           color: #ff4d62;
           padding: 12px;
           border-radius: 8px;
           font-size: 13px;
           margin-bottom: 24px;
           text-align: center;
-          box-shadow: 0 0 15px rgba(71, 47, 143, 0.1);
+          box-shadow: 0 0 15px rgba(30, 93, 167, 0.1);
         }
 
         .back-link {

@@ -426,7 +426,7 @@ export default function MediaRoute() {
 
         .checkbox-label input {
           cursor: pointer;
-          accent-color: #472f8f;
+          accent-color: #1E5DA7;
         }
 
         /* Top Header Action Bar */
@@ -456,7 +456,7 @@ export default function MediaRoute() {
           display: flex;
           align-items: center;
           gap: 8px;
-          background: #472f8f;
+          background: #1E5DA7;
           border: none;
           color: #fff;
           padding: 10px 20px;
@@ -558,8 +558,8 @@ export default function MediaRoute() {
           color: #fff;
         }
         .folder-item.active {
-          background: rgba(71, 47, 143, 0.1);
-          border-left: 3px solid #472f8f;
+          background: rgba(30, 93, 167, 0.1);
+          border-left: 3px solid #1E5DA7;
           color: #fff;
           font-weight: 600;
           padding-left: 9px;
@@ -575,7 +575,7 @@ export default function MediaRoute() {
         }
 
         .folder-item.active .folder-badge {
-          background: #472f8f;
+          background: #1E5DA7;
           color: #fff;
         }
 
@@ -675,8 +675,8 @@ export default function MediaRoute() {
           transform: translateY(-2px);
         }
         .media-card.selected {
-          border-color: #472f8f !important;
-          box-shadow: 0 0 15px rgba(71, 47, 143, 0.3) !important;
+          border-color: #1E5DA7 !important;
+          box-shadow: 0 0 15px rgba(30, 93, 167, 0.3) !important;
         }
         .media-card-checkbox {
           position: absolute;
@@ -684,7 +684,7 @@ export default function MediaRoute() {
           left: 10px;
           z-index: 10;
           cursor: pointer;
-          accent-color: #472f8f;
+          accent-color: #1E5DA7;
           width: 18px;
           height: 18px;
         }
@@ -783,14 +783,14 @@ export default function MediaRoute() {
           background: rgba(255, 255, 255, 0.1);
         }
         .overlay-action-btn.copy:hover {
-          background: #472f8f;
+          background: #1E5DA7;
         }
         .overlay-action-btn.delete {
-          background: rgba(71, 47, 143, 0.2);
+          background: rgba(30, 93, 167, 0.2);
           color: #ff4d62;
         }
         .overlay-action-btn.delete:hover {
-          background: #472f8f;
+          background: #1E5DA7;
           color: #fff;
         }
 
@@ -897,8 +897,8 @@ export default function MediaRoute() {
           transition: all 0.3s ease;
         }
         .upload-dragzone:hover {
-          border-color: #472f8f;
-          background: rgba(71, 47, 143, 0.02);
+          border-color: #1E5DA7;
+          background: rgba(30, 93, 167, 0.02);
         }
         .upload-dragzone-icon {
           font-size: 40px;
@@ -925,7 +925,7 @@ export default function MediaRoute() {
 
         .btn-submit-upload {
           width: 100%;
-          background: #472f8f;
+          background: #1E5DA7;
           border: none;
           color: #fff;
           padding: 12px;
@@ -1010,12 +1010,12 @@ export default function MediaRoute() {
           background: rgba(255, 255, 255, 0.15);
         }
         .btn-detail-action.delete {
-          background: rgba(71, 47, 143, 0.15);
+          background: rgba(30, 93, 167, 0.15);
           color: #ff4d62;
-          border: 1px solid rgba(71, 47, 143, 0.3);
+          border: 1px solid rgba(30, 93, 167, 0.3);
         }
         .btn-detail-action.delete:hover {
-          background: #472f8f;
+          background: #1E5DA7;
           color: #fff;
         }
 
@@ -1157,8 +1157,8 @@ export default function MediaRoute() {
             }
 
             .drag-drop-area:hover {
-              border-color: #472f8f;
-              background: rgba(71, 47, 143, 0.02);
+              border-color: #1E5DA7;
+              background: rgba(30, 93, 167, 0.02);
             }
 
             .drag-drop-title {
@@ -1419,7 +1419,7 @@ export default function MediaRoute() {
                     setShowOptions(false);
                   }}
                   style={{
-                    background: "#472f8f",
+                    background: "#1E5DA7",
                     border: "none",
                     color: "#fff",
                     padding: "5px 12px",
@@ -1438,8 +1438,8 @@ export default function MediaRoute() {
                 <button
                   type="button"
                   style={{
-                    background: viewMode === "grid" ? "rgba(71, 47, 143, 0.15)" : "rgba(255, 255, 255, 0.05)",
-                    border: viewMode === "grid" ? "1px solid #472f8f" : "1px solid rgba(255,255,255,0.1)",
+                    background: viewMode === "grid" ? "rgba(30, 93, 167, 0.15)" : "rgba(255, 255, 255, 0.05)",
+                    border: viewMode === "grid" ? "1px solid #1E5DA7" : "1px solid rgba(255,255,255,0.1)",
                     color: "#fff",
                     padding: "6px 16px",
                     borderRadius: "4px",
@@ -1457,8 +1457,8 @@ export default function MediaRoute() {
                 <button
                   type="button"
                   style={{
-                    background: viewMode === "list" ? "rgba(71, 47, 143, 0.15)" : "rgba(255, 255, 255, 0.05)",
-                    border: viewMode === "list" ? "1px solid #472f8f" : "1px solid rgba(255,255,255,0.1)",
+                    background: viewMode === "list" ? "rgba(30, 93, 167, 0.15)" : "rgba(255, 255, 255, 0.05)",
+                    border: viewMode === "list" ? "1px solid #1E5DA7" : "1px solid rgba(255,255,255,0.1)",
                     color: "#fff",
                     padding: "6px 16px",
                     borderRadius: "4px",
@@ -1595,8 +1595,8 @@ export default function MediaRoute() {
                     }}
                     className="layout-toggle-btn"
                     style={{
-                      borderColor: isBulkSelectMode ? "#472f8f" : "rgba(255,255,255,0.08)",
-                      background: isBulkSelectMode ? "rgba(71,47,143,0.15)" : "rgba(255,255,255,0.05)",
+                      borderColor: isBulkSelectMode ? "#1E5DA7" : "rgba(255,255,255,0.08)",
+                      background: isBulkSelectMode ? "rgba(30, 93, 167,0.15)" : "rgba(255,255,255,0.05)",
                       color: isBulkSelectMode ? "#fff" : "rgba(255,255,255,0.6)"
                     }}
                   >
@@ -1612,8 +1612,8 @@ export default function MediaRoute() {
                           type="submit"
                           className="layout-toggle-btn"
                           style={{
-                            background: "#472f8f",
-                            borderColor: "#472f8f",
+                            background: "#1E5DA7",
+                            borderColor: "#1E5DA7",
                             color: "#fff",
                             fontWeight: 600
                           }}
@@ -1790,7 +1790,7 @@ export default function MediaRoute() {
                                   setSelectedItemPaths(selectedItemPaths.filter((p) => !filteredPaths.includes(p)));
                                 }
                               }}
-                              style={{ accentColor: "#472f8f", cursor: "pointer", width: "16px", height: "16px" }}
+                              style={{ accentColor: "#1E5DA7", cursor: "pointer", width: "16px", height: "16px" }}
                             />
                           </th>
                         )}
@@ -1834,7 +1834,7 @@ export default function MediaRoute() {
                             }}
                             style={{
                               cursor: isBulkSelectMode ? "pointer" : "default",
-                              background: isSelected ? "rgba(71, 47, 143, 0.05)" : "transparent",
+                              background: isSelected ? "rgba(30, 93, 167, 0.05)" : "transparent",
                             }}
                           >
                             {isBulkSelectMode && (
@@ -1843,7 +1843,7 @@ export default function MediaRoute() {
                                   type="checkbox"
                                   checked={isSelected}
                                   onChange={() => { }}
-                                  style={{ accentColor: "#472f8f", cursor: "pointer", width: "16px", height: "16px" }}
+                                  style={{ accentColor: "#1E5DA7", cursor: "pointer", width: "16px", height: "16px" }}
                                   onClick={(e) => e.stopPropagation()}
                                 />
                               </td>
@@ -1902,7 +1902,7 @@ export default function MediaRoute() {
                                         }
                                       }}
                                       className="btn-icon-addfolder"
-                                      style={{ background: "rgba(71, 47, 143, 0.15)", color: "#ff4d62", borderColor: "rgba(71, 47, 143, 0.3)" }}
+                                      style={{ background: "rgba(30, 93, 167, 0.15)", color: "#ff4d62", borderColor: "rgba(30, 93, 167, 0.3)" }}
                                       title="Delete"
                                     >
                                       🗑️

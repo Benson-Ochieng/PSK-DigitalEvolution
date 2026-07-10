@@ -707,7 +707,7 @@ export default function VpBackendPosts() {
         }
 
         .btn-primary:hover {
-          background: #472f8f;
+          background: #1E5DA7;
         }
 
         .btn-secondary {

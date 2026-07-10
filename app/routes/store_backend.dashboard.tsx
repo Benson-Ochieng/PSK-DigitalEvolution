@@ -198,39 +198,39 @@ export default function VpBackendDashboard() {
       path: "M 100,160 Q 200,100 300,130 T 500,50 T 700,90",
       area: "M 100,160 Q 200,100 300,130 T 500,50 T 700,90 L 700,170 L 100,170 Z",
       dots: [
-        { cx: 100, cy: 160, fill: "#472f8f" },
-        { cx: 300, cy: 130, fill: "#472f8f" },
+        { cx: 100, cy: 160, fill: "#1E5DA7" },
+        { cx: 300, cy: 130, fill: "#1E5DA7" },
         { cx: 500, cy: 50, fill: "#00ccff" },
-        { cx: 700, cy: 90, fill: "#472f8f" },
+        { cx: 700, cy: 90, fill: "#1E5DA7" },
       ]
     },
     "May 2026": {
       path: "M 100,120 Q 200,150 300,80 T 500,140 T 700,60",
       area: "M 100,120 Q 200,150 300,80 T 500,140 T 700,60 L 700,170 L 100,170 Z",
       dots: [
-        { cx: 100, cy: 120, fill: "#472f8f" },
+        { cx: 100, cy: 120, fill: "#1E5DA7" },
         { cx: 300, cy: 80, fill: "#00ccff" },
-        { cx: 500, cy: 140, fill: "#472f8f" },
-        { cx: 700, cy: 60, fill: "#472f8f" },
+        { cx: 500, cy: 140, fill: "#1E5DA7" },
+        { cx: 700, cy: 60, fill: "#1E5DA7" },
       ]
     },
     "April 2026": {
       path: "M 100,90 Q 200,70 300,120 T 500,60 T 700,150",
       area: "M 100,90 Q 200,70 300,120 T 500,60 T 700,150 L 700,170 L 100,170 Z",
       dots: [
-        { cx: 100, cy: 90, fill: "#472f8f" },
-        { cx: 300, cy: 120, fill: "#472f8f" },
+        { cx: 100, cy: 90, fill: "#1E5DA7" },
+        { cx: 300, cy: 120, fill: "#1E5DA7" },
         { cx: 500, cy: 60, fill: "#00ccff" },
-        { cx: 700, cy: 150, fill: "#472f8f" },
+        { cx: 700, cy: 150, fill: "#1E5DA7" },
       ]
     },
     "March 2026": {
       path: "M 100,140 Q 200,90 300,140 T 500,80 T 700,110",
       area: "M 100,140 Q 200,90 300,140 T 500,80 T 700,110 L 700,170 L 100,170 Z",
       dots: [
-        { cx: 100, cy: 140, fill: "#472f8f" },
-        { cx: 300, cy: 140, fill: "#472f8f" },
-        { cx: 500, cy: 80, fill: "#472f8f" },
+        { cx: 100, cy: 140, fill: "#1E5DA7" },
+        { cx: 300, cy: 140, fill: "#1E5DA7" },
+        { cx: 500, cy: 80, fill: "#1E5DA7" },
         { cx: 700, cy: 110, fill: "#00ccff" },
       ]
     },
@@ -239,19 +239,19 @@ export default function VpBackendDashboard() {
       area: "M 100,70 Q 200,130 300,90 T 500,120 T 700,40 L 700,170 L 100,170 Z",
       dots: [
         { cx: 100, cy: 70, fill: "#00ccff" },
-        { cx: 300, cy: 90, fill: "#472f8f" },
-        { cx: 500, cy: 120, fill: "#472f8f" },
-        { cx: 700, cy: 40, fill: "#472f8f" },
+        { cx: 300, cy: 90, fill: "#1E5DA7" },
+        { cx: 500, cy: 120, fill: "#1E5DA7" },
+        { cx: 700, cy: 40, fill: "#1E5DA7" },
       ]
     },
     "January 2026": {
       path: "M 100,150 Q 200,110 300,60 T 500,90 T 700,80",
       area: "M 100,150 Q 200,110 300,60 T 500,90 T 700,80 L 700,170 L 100,170 Z",
       dots: [
-        { cx: 100, cy: 150, fill: "#472f8f" },
-        { cx: 300, cy: 60, fill: "#472f8f" },
+        { cx: 100, cy: 150, fill: "#1E5DA7" },
+        { cx: 300, cy: 60, fill: "#1E5DA7" },
         { cx: 500, cy: 90, fill: "#00ccff" },
-        { cx: 700, cy: 80, fill: "#472f8f" },
+        { cx: 700, cy: 80, fill: "#1E5DA7" },
       ]
     }
   };
@@ -303,7 +303,7 @@ export default function VpBackendDashboard() {
           pointer-events: none;
         }
 
-        .stat-card.revenue::after { background: #472f8f; }
+        .stat-card.revenue::after { background: #1E5DA7; }
         .stat-card.orders::after { background: #00ccff; }
         .stat-card.stock::after { background: #ff9f43; }
         .stat-card.coupons::after { background: #9b5de5; }
@@ -577,12 +577,12 @@ export default function VpBackendDashboard() {
 
             <defs>
               <linearGradient id="line-glow" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stopColor="#472f8f" />
+                <stop offset="0%" stopColor="#1E5DA7" />
                 <stop offset="50%" stopColor="#ff7b8b" />
                 <stop offset="100%" stopColor="#00ccff" />
               </linearGradient>
               <linearGradient id="area-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                <stop offset="0%" stopColor="#472f8f" />
+                <stop offset="0%" stopColor="#1E5DA7" />
                 <stop offset="100%" stopColor="transparent" />
               </linearGradient>
             </defs>

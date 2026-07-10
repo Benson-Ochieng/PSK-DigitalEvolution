@@ -247,7 +247,7 @@ export default function VpBackendLayout() {
         }
 
         .brand-badge {
-          background: #472f8f;
+          background: #1E5DA7;
           color: #fff;
           font-size: 8px;
           font-weight: 700;
@@ -292,9 +292,9 @@ export default function VpBackendLayout() {
         }
 
         .profile-role-badge.administrator {
-          background: rgba(71, 47, 143, 0.15);
+          background: rgba(30, 93, 167, 0.15);
           color: #ff4d62;
-          border: 1.5px solid rgba(71, 47, 143, 0.35);
+          border: 1.5px solid rgba(30, 93, 167, 0.35);
         }
 
         .profile-role-badge.shop_manager {
@@ -333,7 +333,7 @@ export default function VpBackendLayout() {
           width: 24px;
           height: 24px;
           border-radius: 50%;
-          background: linear-gradient(135deg, #ff4d62 0%, #472f8f 100%);
+          background: linear-gradient(135deg, #ff4d62 0%, #1E5DA7 100%);
           color: #fff;
           display: flex;
           align-items: center;
@@ -381,14 +381,14 @@ export default function VpBackendLayout() {
           width: 64px;
           height: 64px;
           border-radius: 8px;
-          background: linear-gradient(135deg, #ff4d62 0%, #472f8f 100%);
+          background: linear-gradient(135deg, #ff4d62 0%, #1E5DA7 100%);
           color: #fff;
           display: flex;
           align-items: center;
           justify-content: center;
           font-weight: 800;
           font-size: 28px;
-          box-shadow: 0 4px 12px rgba(71, 47, 143, 0.2);
+          box-shadow: 0 4px 12px rgba(30, 93, 167, 0.2);
         }
 
         .dropdown-text-info {
@@ -441,8 +441,8 @@ export default function VpBackendLayout() {
           align-items: center;
           justify-content: center;
           gap: 10px;
-          background: rgba(71, 47, 143, 0.1);
-          border: 1px solid rgba(71, 47, 143, 0.3);
+          background: rgba(30, 93, 167, 0.1);
+          border: 1px solid rgba(30, 93, 167, 0.3);
           color: #ff4d62;
           padding: 8px;
           border-radius: 8px;
@@ -453,8 +453,8 @@ export default function VpBackendLayout() {
         }
 
         .btn-logout-header:hover {
-          background: #472f8f;
-          border-color: #472f8f;
+          background: #1E5DA7;
+          border-color: #1E5DA7;
           color: #fff;
         }
 
@@ -486,8 +486,8 @@ export default function VpBackendLayout() {
 
         .nav-item.active {
           color: #fff;
-          background: linear-gradient(135deg, rgba(71, 47, 143, 0.15) 0%, rgba(7, 7, 10, 0) 100%);
-          border-left: 3px solid #472f8f;
+          background: linear-gradient(135deg, rgba(30, 93, 167, 0.15) 0%, rgba(7, 7, 10, 0) 100%);
+          border-left: 3px solid #1E5DA7;
           padding-left: 13px; /* subtract 3px for alignment */
         }
 
@@ -505,7 +505,7 @@ export default function VpBackendLayout() {
           justify-content: center;
           gap: 10px;
           background: transparent;
-          border: 1px solid rgba(71, 47, 143, 0.3);
+          border: 1px solid rgba(30, 93, 167, 0.3);
           color: #ff4d62;
           padding: 10px;
           border-radius: 8px;
@@ -516,8 +516,8 @@ export default function VpBackendLayout() {
         }
 
         .btn-logout:hover {
-          background: rgba(71, 47, 143, 0.1);
-          border-color: #472f8f;
+          background: rgba(30, 93, 167, 0.1);
+          border-color: #1E5DA7;
           color: #fff;
         }
 
@@ -769,7 +769,7 @@ export default function VpBackendLayout() {
         }
 
         .btn-action-primary {
-          background: linear-gradient(135deg, #472f8f 0%, #a50011 100%);
+          background: linear-gradient(135deg, #1E5DA7 0%, #a50011 100%);
           border: none;
           color: #fff;
           font-weight: 600;
@@ -782,7 +782,7 @@ export default function VpBackendLayout() {
 
         .btn-action-primary:hover {
           transform: translateY(-1px);
-          box-shadow: 0 4px 12px rgba(71, 47, 143, 0.4);
+          box-shadow: 0 4px 12px rgba(30, 93, 167, 0.4);
         }
 
         .btn-action-secondary {
