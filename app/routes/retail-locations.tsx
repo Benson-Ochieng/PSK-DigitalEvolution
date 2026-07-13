@@ -24,30 +24,30 @@ export default function RetailLocations() {
   return (
     <>
       <Navbar />
-      <div 
-        className="page-container" 
-        style={{ 
-          maxWidth: "1200px", 
-          margin: "0 auto", 
+      <div
+        className="page-container"
+        style={{
+          maxWidth: "1200px",
+          margin: "0 auto",
           padding: "3rem var(--page-pad) 5rem",
           fontFamily: "var(--font-sans)",
           backgroundColor: "#ffffff"
         }}
       >
-        
+
         {/* Title Banner */}
         <PageHeader title={page?.title || "Retail Locations"} />
 
         {/* Content Section */}
-        <div 
-          style={{ 
-            maxWidth: "960px", 
-            margin: "0 auto", 
+        <div
+          style={{
+            maxWidth: "960px",
+            margin: "0 auto",
             padding: "1rem",
             color: "#333333"
           }}
-          dangerouslySetInnerHTML={{ 
-            __html: page?.content || "" 
+          dangerouslySetInnerHTML={{
+            __html: page?.content || ""
           }}
         />
 
