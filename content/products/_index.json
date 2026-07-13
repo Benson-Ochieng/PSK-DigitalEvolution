@@ -3920,35 +3920,6 @@
     "dateModified": "2026-06-24T14:22:45.823651+00:00"
   },
   {
-    "id": 52790,
-    "name": "Proline Canned Cat Food Liver InGravy 415g",
-    "slug": "proline-canned-cat-food-liver-in-gravy-415gr",
-    "sku": "PCW004@F",
-    "regularPrice": 167.05,
-    "salePrice": null,
-    "price": 167.05,
-    "onSale": false,
-    "inStock": false,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/11/Proline-Adult-Cat-Can-Liver-Chunks-in-Jelly-400g-1080x1080-min.png",
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [
-      {
-        "name": "adult",
-        "slug": "adult"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
-    "dateModified": "2026-06-24T14:22:45.823651+00:00"
-  },
-  {
     "id": 24050,
     "name": "Bio PetActive Puppy Shampoo - 250Ml",
     "slug": "bio-petactive-puppy-shampoo-250ml",
@@ -4022,6 +3993,35 @@
         "id": 36,
         "name": "puppy",
         "slug": "puppy"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+    "dateModified": "2026-06-24T14:22:45.823651+00:00"
+  },
+  {
+    "id": 52790,
+    "name": "Proline Canned Cat Food Liver InGravy 415g",
+    "slug": "proline-canned-cat-food-liver-in-gravy-415gr",
+    "sku": "PCW004@F",
+    "regularPrice": 167.05,
+    "salePrice": null,
+    "price": 167.05,
+    "onSale": false,
+    "inStock": false,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/11/Proline-Adult-Cat-Can-Liver-Chunks-in-Jelly-400g-1080x1080-min.png",
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "name": "adult",
+        "slug": "adult"
       }
     ],
     "status": "publish",
@@ -4359,6 +4359,35 @@
     "dateModified": "2026-06-24T14:22:45.823651+00:00"
   },
   {
+    "id": 52777,
+    "name": "Pet Ball Rubber For Dog Treat",
+    "slug": "pet-ball-rubber-for-dog-treat",
+    "sku": "PA3373@F",
+    "regularPrice": 1260,
+    "salePrice": null,
+    "price": 1260,
+    "onSale": false,
+    "inStock": false,
+    "thumbnail": "/images/psk_logo.png",
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "name": "adult",
+        "slug": "adult"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+    "dateModified": "2026-06-24T14:22:45.823651+00:00"
+  },
+  {
     "id": 39893,
     "name": "Bioline Chicken Sausage 15g X 30pcs",
     "slug": "bioline-chicken-sausage-15g-x30pcs",
@@ -4467,16 +4496,16 @@
     "dateModified": "2026-06-24T14:22:45.823651+00:00"
   },
   {
-    "id": 52777,
-    "name": "Pet Ball Rubber For Dog Treat",
-    "slug": "pet-ball-rubber-for-dog-treat",
-    "sku": "PA3373@F",
-    "regularPrice": 1260,
+    "id": 52803,
+    "name": "Reflex Pocket Treats Sensitive 60g",
+    "slug": "reflex-pocket-treats-sensitive-60gr",
+    "sku": "RCT020@F",
+    "regularPrice": 228,
     "salePrice": null,
-    "price": 1260,
+    "price": 228,
     "onSale": false,
     "inStock": false,
-    "thumbnail": "/images/psk_logo.png",
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CAT-POCKET-TREAT-SENSITIVE-60GR.png",
     "categories": [
       {
         "id": 2332,
@@ -4486,6 +4515,11 @@
     ],
     "brands": [],
     "tags": [
+      {
+        "id": 2223,
+        "name": "flash",
+        "slug": "flash"
+      },
       {
         "name": "adult",
         "slug": "adult"
@@ -4553,40 +4587,6 @@
     "status": "publish",
     "dateCreated": "2026-07-10T08:24:32.815708+00:00",
     "dateModified": "2026-07-10T08:24:32.815708+00:00"
-  },
-  {
-    "id": 52803,
-    "name": "Reflex Pocket Treats Sensitive 60g",
-    "slug": "reflex-pocket-treats-sensitive-60gr",
-    "sku": "RCT020@F",
-    "regularPrice": 228,
-    "salePrice": null,
-    "price": 228,
-    "onSale": false,
-    "inStock": false,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CAT-POCKET-TREAT-SENSITIVE-60GR.png",
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [
-      {
-        "id": 2223,
-        "name": "flash",
-        "slug": "flash"
-      },
-      {
-        "name": "adult",
-        "slug": "adult"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
-    "dateModified": "2026-06-24T14:22:45.823651+00:00"
   },
   {
     "id": 89801,
@@ -4758,6 +4758,40 @@
     "dateModified": "2026-07-10T08:24:32.815708+00:00"
   },
   {
+    "id": 52800,
+    "name": "Reflex Plus Light And Sterilised Dog Food Lamb And Rice 15kg",
+    "slug": "reflex-plus-light-and-sterilised-dog-food-lamb-and-rice-15-kg-2",
+    "sku": "RPDD008@F",
+    "regularPrice": 7840,
+    "salePrice": null,
+    "price": 7840,
+    "onSale": false,
+    "inStock": false,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Reflex-plus-light-and-sterilsed-01.jpg",
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "id": 2223,
+        "name": "flash",
+        "slug": "flash"
+      },
+      {
+        "name": "adult",
+        "slug": "adult"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+    "dateModified": "2026-06-24T14:22:45.823651+00:00"
+  },
+  {
     "id": 61863,
     "name": "Whiskas Kitten Pouches Poultry M/Pak 12x85g",
     "slug": "whiskas-kitten-poultry-feasts-in-jelly",
@@ -4820,40 +4854,6 @@
       {
         "name": "kitten",
         "slug": "kitten"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
-    "dateModified": "2026-06-24T14:22:45.823651+00:00"
-  },
-  {
-    "id": 52800,
-    "name": "Reflex Plus Light And Sterilised Dog Food Lamb And Rice 15kg",
-    "slug": "reflex-plus-light-and-sterilised-dog-food-lamb-and-rice-15-kg-2",
-    "sku": "RPDD008@F",
-    "regularPrice": 7840,
-    "salePrice": null,
-    "price": 7840,
-    "onSale": false,
-    "inStock": false,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Reflex-plus-light-and-sterilsed-01.jpg",
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [
-      {
-        "id": 2223,
-        "name": "flash",
-        "slug": "flash"
-      },
-      {
-        "name": "adult",
-        "slug": "adult"
       }
     ],
     "status": "publish",
@@ -5000,6 +5000,35 @@
     "dateModified": "2026-06-24T14:22:45.823651+00:00"
   },
   {
+    "id": 12067,
+    "name": "Dog Lover Loyal Customer Bundle 1",
+    "slug": "dog-lover-loyal-customer-bundle-1",
+    "sku": "DLLCB1",
+    "regularPrice": 0,
+    "salePrice": null,
+    "price": 0,
+    "onSale": false,
+    "inStock": false,
+    "thumbnail": "/images/psk_logo.png",
+    "categories": [
+      {
+        "id": 1304,
+        "name": "Clearance",
+        "slug": "clearance"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "name": "adult",
+        "slug": "adult"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+    "dateModified": "2026-06-24T14:22:45.823651+00:00"
+  },
+  {
     "id": 20021,
     "name": "Dog Toothbrush Stick Paw - Large Turquoise",
     "slug": "dog-toothbrush-stick-paw-large-turquoise",
@@ -5129,35 +5158,6 @@
       {
         "name": "Pet Care",
         "slug": "pet-care"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
-    "dateModified": "2026-06-24T14:22:45.823651+00:00"
-  },
-  {
-    "id": 12067,
-    "name": "Dog Lover Loyal Customer Bundle 1",
-    "slug": "dog-lover-loyal-customer-bundle-1",
-    "sku": "DLLCB1",
-    "regularPrice": 0,
-    "salePrice": null,
-    "price": 0,
-    "onSale": false,
-    "inStock": false,
-    "thumbnail": "/images/psk_logo.png",
-    "categories": [
-      {
-        "id": 1304,
-        "name": "Clearance",
-        "slug": "clearance"
-      }
-    ],
-    "brands": [],
-    "tags": [
-      {
-        "name": "adult",
-        "slug": "adult"
       }
     ],
     "status": "publish",
@@ -6436,6 +6436,40 @@
     "dateModified": "2026-06-24T14:22:45.823651+00:00"
   },
   {
+    "id": 11341,
+    "name": "March Madness Cat Bundle: ONE 1.5kg Reflex Adult Cat Multicolour Chicken + 4 Assorted Reflex Cat Treats",
+    "slug": "march-madness-cat-bundle-one-1-5kg-reflex-adult-cat-multicolour-chicken-four-assorted-reflex-cat-treats",
+    "sku": "CLBFEB20",
+    "regularPrice": 1799,
+    "salePrice": null,
+    "price": 1799,
+    "onSale": false,
+    "inStock": false,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/02/PetStore-Kenya-Valentine-Bundle-Cat-min.png",
+    "categories": [
+      {
+        "id": 927,
+        "name": "Sale",
+        "slug": "sale"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "id": 636,
+        "name": "dry food",
+        "slug": "dry-food"
+      },
+      {
+        "name": "adult",
+        "slug": "adult"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+    "dateModified": "2026-06-24T14:22:45.823651+00:00"
+  },
+  {
     "id": 20015,
     "name": "Dog Poop Bag Holder - Bone Shape Orange",
     "slug": "dog-poop-bag-holder-bone-shape-orange",
@@ -6617,40 +6651,6 @@
       }
     ],
     "tags": [
-      {
-        "name": "adult",
-        "slug": "adult"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
-    "dateModified": "2026-06-24T14:22:45.823651+00:00"
-  },
-  {
-    "id": 11341,
-    "name": "March Madness Cat Bundle: ONE 1.5kg Reflex Adult Cat Multicolour Chicken + 4 Assorted Reflex Cat Treats",
-    "slug": "march-madness-cat-bundle-one-1-5kg-reflex-adult-cat-multicolour-chicken-four-assorted-reflex-cat-treats",
-    "sku": "CLBFEB20",
-    "regularPrice": 1799,
-    "salePrice": null,
-    "price": 1799,
-    "onSale": false,
-    "inStock": false,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/02/PetStore-Kenya-Valentine-Bundle-Cat-min.png",
-    "categories": [
-      {
-        "id": 927,
-        "name": "Sale",
-        "slug": "sale"
-      }
-    ],
-    "brands": [],
-    "tags": [
-      {
-        "id": 636,
-        "name": "dry food",
-        "slug": "dry-food"
-      },
       {
         "name": "adult",
         "slug": "adult"
@@ -6949,69 +6949,6 @@
     "dateModified": "2026-06-24T14:22:45.823651+00:00"
   },
   {
-    "id": 24618,
-    "name": "Frontline Plus Dog Spot-On (Fipronil) for X-Large Dogs 40–60 kg - 1 Pipette",
-    "slug": "frontline-plus-dog-xl-1-pip",
-    "sku": "FPDXL",
-    "regularPrice": 2300,
-    "salePrice": null,
-    "price": 2300,
-    "onSale": false,
-    "inStock": false,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/FPDXL1.jpg",
-    "categories": [
-      {
-        "id": 2345,
-        "name": "Dog",
-        "slug": "dog-supplies-store"
-      },
-      {
-        "id": 2362,
-        "name": "Dog Healthcare Supplies",
-        "slug": "dog-healthcare-supplies"
-      },
-      {
-        "id": 2363,
-        "name": "Flea & Tick Control",
-        "slug": "dog-flea-tick"
-      },
-      {
-        "id": 2124,
-        "name": "Frontline",
-        "slug": "frontline"
-      }
-    ],
-    "brands": [
-      {
-        "name": "Frontline",
-        "slug": "frontline"
-      }
-    ],
-    "tags": [
-      {
-        "id": 2213,
-        "name": "dog",
-        "slug": "dog"
-      },
-      {
-        "id": 1149,
-        "name": "flea & tick",
-        "slug": "flea-tick"
-      },
-      {
-        "name": "Pet Care",
-        "slug": "pet-care"
-      },
-      {
-        "name": "adult",
-        "slug": "adult"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
-    "dateModified": "2026-06-24T14:22:45.823651+00:00"
-  },
-  {
     "id": 52838,
     "name": "Spectrum Adult Dog Food Derm26 3kg",
     "slug": "spectrum-adult-dog-food-derm26-3kg",
@@ -7065,6 +7002,69 @@
     ],
     "brands": [],
     "tags": [
+      {
+        "name": "adult",
+        "slug": "adult"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+    "dateModified": "2026-06-24T14:22:45.823651+00:00"
+  },
+  {
+    "id": 24618,
+    "name": "Frontline Plus Dog Spot-On (Fipronil) for X-Large Dogs 40–60 kg - 1 Pipette",
+    "slug": "frontline-plus-dog-xl-1-pip",
+    "sku": "FPDXL",
+    "regularPrice": 2300,
+    "salePrice": null,
+    "price": 2300,
+    "onSale": false,
+    "inStock": false,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2022/01/FPDXL1.jpg",
+    "categories": [
+      {
+        "id": 2345,
+        "name": "Dog",
+        "slug": "dog-supplies-store"
+      },
+      {
+        "id": 2362,
+        "name": "Dog Healthcare Supplies",
+        "slug": "dog-healthcare-supplies"
+      },
+      {
+        "id": 2363,
+        "name": "Flea & Tick Control",
+        "slug": "dog-flea-tick"
+      },
+      {
+        "id": 2124,
+        "name": "Frontline",
+        "slug": "frontline"
+      }
+    ],
+    "brands": [
+      {
+        "name": "Frontline",
+        "slug": "frontline"
+      }
+    ],
+    "tags": [
+      {
+        "id": 2213,
+        "name": "dog",
+        "slug": "dog"
+      },
+      {
+        "id": 1149,
+        "name": "flea & tick",
+        "slug": "flea-tick"
+      },
+      {
+        "name": "Pet Care",
+        "slug": "pet-care"
+      },
       {
         "name": "adult",
         "slug": "adult"
@@ -7132,6 +7132,40 @@
       {
         "name": "Pet Care",
         "slug": "pet-care"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+    "dateModified": "2026-06-24T14:22:45.823651+00:00"
+  },
+  {
+    "id": 52839,
+    "name": "Spectrum Lowgain Salmon & Anchovy For Medium And Large Breed Adult Dogs 2.5kg",
+    "slug": "spectrum-low-grain-salmon-anchovy-for-medium-and-large-breed-adult-dogs-2-5kg-3",
+    "sku": "SLGDD005@F",
+    "regularPrice": 3560,
+    "salePrice": null,
+    "price": 3560,
+    "onSale": false,
+    "inStock": false,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/SLGLBSA2.5-min.png",
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "id": 636,
+        "name": "dry food",
+        "slug": "dry-food"
+      },
+      {
+        "name": "adult",
+        "slug": "adult"
       }
     ],
     "status": "publish",
@@ -7217,40 +7251,6 @@
         "id": 1148,
         "name": "pet care",
         "slug": "pet-care"
-      },
-      {
-        "name": "adult",
-        "slug": "adult"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
-    "dateModified": "2026-06-24T14:22:45.823651+00:00"
-  },
-  {
-    "id": 52839,
-    "name": "Spectrum Lowgain Salmon & Anchovy For Medium And Large Breed Adult Dogs 2.5kg",
-    "slug": "spectrum-low-grain-salmon-anchovy-for-medium-and-large-breed-adult-dogs-2-5kg-3",
-    "sku": "SLGDD005@F",
-    "regularPrice": 3560,
-    "salePrice": null,
-    "price": 3560,
-    "onSale": false,
-    "inStock": false,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/SLGLBSA2.5-min.png",
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [
-      {
-        "id": 636,
-        "name": "dry food",
-        "slug": "dry-food"
       },
       {
         "name": "adult",
@@ -8866,6 +8866,64 @@
     "dateModified": "2026-06-24T14:22:45.823651+00:00"
   },
   {
+    "id": 52829,
+    "name": "Rogz Lekka Flat Mat Mediumgey/Navy",
+    "slug": "rogz-lekka-flat-mat-medium-grey-navy",
+    "sku": "XPMM-G@F",
+    "regularPrice": 3780,
+    "salePrice": null,
+    "price": 3780,
+    "onSale": false,
+    "inStock": false,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-LEKKA-FLAT-MAT-EDIUM-GREYNAVY.png",
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "name": "adult",
+        "slug": "adult"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+    "dateModified": "2026-06-24T14:22:45.823651+00:00"
+  },
+  {
+    "id": 52814,
+    "name": "Rogz Dog Utility Control Collar Web X-Large Pink",
+    "slug": "rogz-dog-utility-control-collar-web-x-large-pink-2",
+    "sku": "HCW05-K@F",
+    "regularPrice": 1650,
+    "salePrice": null,
+    "price": 1650,
+    "onSale": false,
+    "inStock": false,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/HCW05-K_Control-Collar-Web.jpg",
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "name": "adult",
+        "slug": "adult"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+    "dateModified": "2026-06-24T14:22:45.823651+00:00"
+  },
+  {
     "id": 69549,
     "name": "Astonish Morning Dew Disinfectant Spray 550ml",
     "slug": "astonish-morning-dew-disinfectant-spray-550ml",
@@ -8920,64 +8978,6 @@
         "name": "pet care",
         "slug": "pet-care"
       },
-      {
-        "name": "adult",
-        "slug": "adult"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
-    "dateModified": "2026-06-24T14:22:45.823651+00:00"
-  },
-  {
-    "id": 52829,
-    "name": "Rogz Lekka Flat Mat Mediumgey/Navy",
-    "slug": "rogz-lekka-flat-mat-medium-grey-navy",
-    "sku": "XPMM-G@F",
-    "regularPrice": 3780,
-    "salePrice": null,
-    "price": 3780,
-    "onSale": false,
-    "inStock": false,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-LEKKA-FLAT-MAT-EDIUM-GREYNAVY.png",
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [
-      {
-        "name": "adult",
-        "slug": "adult"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
-    "dateModified": "2026-06-24T14:22:45.823651+00:00"
-  },
-  {
-    "id": 52814,
-    "name": "Rogz Dog Utility Control Collar Web X-Large Pink",
-    "slug": "rogz-dog-utility-control-collar-web-x-large-pink-2",
-    "sku": "HCW05-K@F",
-    "regularPrice": 1650,
-    "salePrice": null,
-    "price": 1650,
-    "onSale": false,
-    "inStock": false,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/HCW05-K_Control-Collar-Web.jpg",
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [
       {
         "name": "adult",
         "slug": "adult"
@@ -49592,6 +49592,35 @@
     "dateModified": "2026-06-24T14:22:45.823651+00:00"
   },
   {
+    "id": 52806,
+    "name": "Rogz Dog Grinz Treat Ball 6.4cm",
+    "slug": "rogz-dog-grinz-treat-ball-6-4cm",
+    "sku": "GR02-C4@F",
+    "regularPrice": 920,
+    "salePrice": null,
+    "price": 920,
+    "onSale": false,
+    "inStock": false,
+    "thumbnail": "/images/psk_logo.png",
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "name": "adult",
+        "slug": "adult"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+    "dateModified": "2026-06-24T14:22:45.823651+00:00"
+  },
+  {
     "id": 15210,
     "name": "Caniglo Essential Fatty Acids Supplement for Dogs - 200mL",
     "slug": "caniglo-essential-fatty-acids-dog-supplement-200ml",
@@ -49626,35 +49655,6 @@
         "name": "Supplements",
         "slug": "supplements"
       },
-      {
-        "name": "adult",
-        "slug": "adult"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
-    "dateModified": "2026-06-24T14:22:45.823651+00:00"
-  },
-  {
-    "id": 52806,
-    "name": "Rogz Dog Grinz Treat Ball 6.4cm",
-    "slug": "rogz-dog-grinz-treat-ball-6-4cm",
-    "sku": "GR02-C4@F",
-    "regularPrice": 920,
-    "salePrice": null,
-    "price": 920,
-    "onSale": false,
-    "inStock": false,
-    "thumbnail": "/images/psk_logo.png",
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [
       {
         "name": "adult",
         "slug": "adult"
