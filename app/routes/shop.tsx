@@ -86,13 +86,13 @@ const CACHE_TTL = 5 * 60 * 1000; // 5 minutes cache
 
 export async function loader({ request, params }: Route.LoaderArgs) {
   const url = new URL(request.url);
-  const cacheKey = `${params.slug || ""}:${url.search}`;
+  const routeParams = params as any;
+  const slug = routeParams.slug || "";
+  const cacheKey = `${slug}:${url.search}`;
   const now = Date.now();
   if (shopCache[cacheKey] && (now - shopCache[cacheKey].timestamp) < CACHE_TTL) {
     return shopCache[cacheKey].data;
   }
-  const routeParams = params as any;
-  const slug = routeParams.slug || "";
   const isTagPage = url.pathname.includes("/product-tag/");
   const hideFilter = url.searchParams.get("hideFilter") === "true" || isTagPage;
 
