@@ -25,7 +25,7 @@ export default function Footer() {
               <h3>Need Help ?</h3>
               <ul>
                 <li>
-                  <Link to="/see-all-our-stores">
+                  <Link to="/locations">
                     <i className="fa fa-home footer-inline-icon"></i> See All Our Stores
                   </Link>
                 </li>

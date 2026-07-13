@@ -48,7 +48,7 @@ const locations = [
   }
 ];
 
-export default function SeeAllOurStores() {
+export default function Locations() {
   return (
     <>
       <Navbar />

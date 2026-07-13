@@ -49,7 +49,7 @@ const routes = [
   route("privacy-policy", "routes/privacy-policy.tsx"),
   route("food-comparison", "routes/food-comparison.tsx"),
   route("brochures", "routes/brochures.tsx"),
-  route("see-all-our-stores", "routes/see-all-our-stores.tsx"),
+  route("locations", "routes/locations.tsx"),
   route("retail-locations-nairobi-nanyuki-naivasha-nakuru-mombasa", "routes/retail-locations.tsx"),
   route("blog", "routes/blog.tsx"),
   route("blog/:slug", "routes/blog.$slug.tsx"),
