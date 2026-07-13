@@ -23,7 +23,18 @@ export async function loader() {
     FROM products p
     JOIN store_prices bbp ON bbp.product_id = p.id AND bbp.store_name = 'PetStore Kenya'
     LEFT JOIN store_prices comp ON comp.product_id = p.id AND comp.store_name != 'PetStore Kenya'
-    WHERE bbp.price IS NOT NULL
+    WHERE bbp.price IS NOT NULL 
+      AND p.status = 'publish'
+      AND NOT (
+        (p.categories IS NOT NULL AND jsonb_typeof(p.categories) = 'array' AND EXISTS (
+          SELECT 1 FROM jsonb_to_recordset(p.categories) AS c(slug text) WHERE c.slug = 'clearance'
+        ))
+        OR (p.tags IS NOT NULL AND jsonb_typeof(p.tags) = 'array' AND EXISTS (
+          SELECT 1 FROM jsonb_to_recordset(p.tags) AS t(slug text) WHERE t.slug = 'clearance'
+        ))
+        OR p.sku ILIKE '%clearance%'
+        OR p.name ILIKE '%clearance%'
+      )
     GROUP BY p.id, p.name, p.brand, p.weight_kg, p.animal_type, p.food_type, p.image_url, p.slug, bbp.price
     ORDER BY p.id DESC
     LIMIT 4

@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link, useLocation } from "react-router";
 import { ANIMAL_CATEGORIES } from "../routes/shop";
 
 interface ShopSidebarFiltersProps {
@@ -40,6 +40,7 @@ export default function ShopSidebarFilters({
   buildCategoryHref,
   navigate,
 }: ShopSidebarFiltersProps) {
+  const location = useLocation();
 
   const isFoodOrSpecificFilter = 
     slug.includes("food") || 
@@ -74,26 +75,26 @@ export default function ShopSidebarFilters({
 
   // URL Helper to toggle life stage tag parameter
   const getLifeStageHref = (stageSlug: string) => {
-    const p = new URLSearchParams(window.location.search);
+    const p = new URLSearchParams(location.search);
     if (lifeStage === stageSlug) {
       p.delete("life_stage");
     } else {
       p.set("life_stage", stageSlug);
     }
     p.delete("page");
-    return `${window.location.pathname}${p.toString() ? "?" + p.toString() : ""}`;
+    return `${location.pathname}${p.toString() ? "?" + p.toString() : ""}`;
   };
 
   // URL Helper to toggle brand page category filter
   const getBrandCategoryHref = (categorySlug: string) => {
-    const p = new URLSearchParams(window.location.search);
+    const p = new URLSearchParams(location.search);
     if (fromCat === categorySlug) {
       p.delete("from_cat");
     } else {
       p.set("from_cat", categorySlug);
     }
     p.delete("page");
-    return `${window.location.pathname}${p.toString() ? "?" + p.toString() : ""}`;
+    return `${location.pathname}${p.toString() ? "?" + p.toString() : ""}`;
   };
 
   // URL Helper to reset all filters
@@ -102,11 +103,11 @@ export default function ShopSidebarFilters({
       if (slug) {
         return `/product-category/${slug}/`;
       } else {
-        const p = new URLSearchParams(window.location.search);
+        const p = new URLSearchParams(location.search);
         p.delete("from_cat");
         p.delete("life_stage");
         p.delete("page");
-        return `${window.location.pathname}${p.toString() ? "?" + p.toString() : ""}`;
+        return `${location.pathname}${p.toString() ? "?" + p.toString() : ""}`;
       }
     }
     return `/product-category/${slug || "dog-supplies-store"}/`;
@@ -114,10 +115,10 @@ export default function ShopSidebarFilters({
 
   // URL Helper to toggle offers sort filter
   const getSortOffersHref = (sortVal: string) => {
-    const p = new URLSearchParams(window.location.search);
+    const p = new URLSearchParams(location.search);
     p.set("sort", sortVal);
     p.delete("page");
-    return `${window.location.pathname}${p.toString() ? "?" + p.toString() : ""}`;
+    return `${location.pathname}${p.toString() ? "?" + p.toString() : ""}`;
   };
 
   const hasActiveFilters = brand || lifeStage || isSearch || fromCat;

@@ -31,7 +31,21 @@ async function getDictionary(): Promise<Set<string>> {
   }
   const dict = new Set<string>();
   try {
-    const res = await query(`SELECT name, brand, categories, tags FROM products WHERE status = 'publish'`);
+    const res = await query(`
+      SELECT p.name, p.brand, p.categories, p.tags 
+      FROM products p 
+      WHERE p.status = 'publish'
+        AND NOT (
+          (p.categories IS NOT NULL AND jsonb_typeof(p.categories) = 'array' AND EXISTS (
+            SELECT 1 FROM jsonb_to_recordset(p.categories) AS c(slug text) WHERE c.slug = 'clearance'
+          ))
+          OR (p.tags IS NOT NULL AND jsonb_typeof(p.tags) = 'array' AND EXISTS (
+            SELECT 1 FROM jsonb_to_recordset(p.tags) AS t(slug text) WHERE t.slug = 'clearance'
+          ))
+          OR p.sku ILIKE '%clearance%'
+          OR p.name ILIKE '%clearance%'
+        )
+    `);
     for (const row of res.rows) {
       if (row.name) addWords(row.name, dict);
       if (row.brand) addWords(row.brand, dict);
@@ -140,6 +154,16 @@ async function searchProductsExact(searchTerm: string) {
   }
   
   conditions.push("p.status = 'publish'");
+  conditions.push(`NOT (
+    (p.categories IS NOT NULL AND jsonb_typeof(p.categories) = 'array' AND EXISTS (
+      SELECT 1 FROM jsonb_to_recordset(p.categories) AS c(slug text) WHERE c.slug = 'clearance'
+    ))
+    OR (p.tags IS NOT NULL AND jsonb_typeof(p.tags) = 'array' AND EXISTS (
+      SELECT 1 FROM jsonb_to_recordset(p.tags) AS t(slug text) WHERE t.slug = 'clearance'
+    ))
+    OR p.sku ILIKE '%clearance%'
+    OR p.name ILIKE '%clearance%'
+  )`);
   const whereClause = conditions.join(" AND ");
   const queryStr = `
     SELECT 
@@ -185,6 +209,16 @@ async function searchProductsPartial(searchTerm: string) {
   }
   
   conditions.push("p.status = 'publish'");
+  conditions.push(`NOT (
+    (p.categories IS NOT NULL AND jsonb_typeof(p.categories) = 'array' AND EXISTS (
+      SELECT 1 FROM jsonb_to_recordset(p.categories) AS c(slug text) WHERE c.slug = 'clearance'
+    ))
+    OR (p.tags IS NOT NULL AND jsonb_typeof(p.tags) = 'array' AND EXISTS (
+      SELECT 1 FROM jsonb_to_recordset(p.tags) AS t(slug text) WHERE t.slug = 'clearance'
+    ))
+    OR p.sku ILIKE '%clearance%'
+    OR p.name ILIKE '%clearance%'
+  )`);
   const whereClause = conditions.join(" AND ");
   const queryStr = `
     SELECT 

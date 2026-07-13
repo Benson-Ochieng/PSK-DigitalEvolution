@@ -21,6 +21,10 @@ export const SLUG_ALIASES: Record<string, string> = {
   "dog-food": "dog-food-treats",
   "bird-food": "bird-food-treats",
   "bird-food-treats": "bird-food-treats",
+  "cat": "cat-supplies-store",
+  "dog": "dog-supplies-store",
+  "bird": "bird-supplies-store",
+  "rabbit": "rabbit-supplies-store",
 };
 
 export const ANIMAL_STORE_SLUGS: Record<string, string> = {
@@ -169,30 +173,31 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   if (canonicalSlug) {
     if (isTagPage) {
       tagSlug = canonicalSlug;
-    } else if (ANIMAL_STORE_SLUGS[canonicalSlug]) {
-      animal = ANIMAL_STORE_SLUGS[canonicalSlug];
     } else {
       categorySlug = canonicalSlug;
-
-      const activeSidebar = getActiveSidebarSlug(canonicalSlug);
-      let resolvedAnimal = "";
-      for (const [key, list] of Object.entries(ANIMAL_CATEGORIES)) {
-        if (list.some(c => c.slug === activeSidebar)) {
-          resolvedAnimal = key;
-          break;
+      if (ANIMAL_STORE_SLUGS[canonicalSlug]) {
+        animal = ANIMAL_STORE_SLUGS[canonicalSlug];
+      } else {
+        const activeSidebar = getActiveSidebarSlug(canonicalSlug);
+        let resolvedAnimal = "";
+        for (const [key, list] of Object.entries(ANIMAL_CATEGORIES)) {
+          if (list.some(c => c.slug === activeSidebar)) {
+            resolvedAnimal = key;
+            break;
+          }
         }
-      }
 
-      if (resolvedAnimal) {
-        animal = resolvedAnimal;
-      } else if (canonicalSlug.includes("cat") || canonicalSlug.includes("kitten") || canonicalSlug === "litter-and-accessories" || canonicalSlug === "cat-litter-and-accessories") {
-        animal = "cat";
-      } else if (canonicalSlug.includes("dog") || canonicalSlug.includes("puppy")) {
-        animal = "dog";
-      } else if (canonicalSlug.includes("bird")) {
-        animal = "bird";
-      } else if (canonicalSlug.includes("rabbit")) {
-        animal = "rabbit";
+        if (resolvedAnimal) {
+          animal = resolvedAnimal;
+        } else if (canonicalSlug.includes("cat") || canonicalSlug.includes("kitten") || canonicalSlug === "litter-and-accessories" || canonicalSlug === "cat-litter-and-accessories") {
+          animal = "cat";
+        } else if (canonicalSlug.includes("dog") || canonicalSlug.includes("puppy")) {
+          animal = "dog";
+        } else if (canonicalSlug.includes("bird")) {
+          animal = "bird";
+        } else if (canonicalSlug.includes("rabbit")) {
+          animal = "rabbit";
+        }
       }
     }
   }
@@ -281,7 +286,38 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     pageTitle = "Offers";
   }
 
+  const isClearancePage =
+    canonicalSlug === "clearance" ||
+    originalType === "clearance";
+
   const conditions: string[] = ["p.status = 'publish'"];
+  if (isClearancePage) {
+    conditions.push(`
+      (
+        (p.categories IS NOT NULL AND jsonb_typeof(p.categories) = 'array' AND EXISTS (
+          SELECT 1 FROM jsonb_to_recordset(p.categories) AS c(slug text) WHERE c.slug = 'clearance'
+        ))
+        OR (p.tags IS NOT NULL AND jsonb_typeof(p.tags) = 'array' AND EXISTS (
+          SELECT 1 FROM jsonb_to_recordset(p.tags) AS t(slug text) WHERE t.slug = 'clearance'
+        ))
+        OR p.sku ILIKE '%clearance%'
+        OR p.name ILIKE '%clearance%'
+      )
+    `);
+  } else {
+    conditions.push(`
+      NOT (
+        (p.categories IS NOT NULL AND jsonb_typeof(p.categories) = 'array' AND EXISTS (
+          SELECT 1 FROM jsonb_to_recordset(p.categories) AS c(slug text) WHERE c.slug = 'clearance'
+        ))
+        OR (p.tags IS NOT NULL AND jsonb_typeof(p.tags) = 'array' AND EXISTS (
+          SELECT 1 FROM jsonb_to_recordset(p.tags) AS t(slug text) WHERE t.slug = 'clearance'
+        ))
+        OR p.sku ILIKE '%clearance%'
+        OR p.name ILIKE '%clearance%'
+      )
+    `);
+  }
   const sqlParams: any[] = [];
 
   const explicitAnimal = url.searchParams.get("animal") || "";
@@ -325,27 +361,25 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     conditions.push(`p.tags @> $${paramIdx}::jsonb`);
   }
 
+  // NOTE: these three used to be an if / else-if chain, which made tag,
+  // brand, and category filters mutually exclusive - selecting more than
+  // one at once silently dropped all but the first match. Changed to
+  // independent ifs so they stack (AND together) via `conditions`.
+  // Guarded categorySlug/isBrandPage so a page that is *both* (e.g. a
+  // category page that also matched brandCheck) doesn't push the same
+  // crossSlug condition twice.
+
   if (isTagPage && tagSlug) {
     sqlParams.push(JSON.stringify([{ slug: tagSlug }]));
     conditions.push(`p.tags @> $${sqlParams.length}::jsonb`);
-  } else if (isBrandPage) {
+  }
+
+  if (isBrandPage) {
     sqlParams.push(canonicalSlug);
     conditions.push(`REPLACE(LOWER(p.brand), ' ', '-') = LOWER($${sqlParams.length})`);
+  }
 
-    if (crossSlug) {
-      const crossDescendantSlugs = getDescendants(crossSlug);
-      sqlParams.push(crossDescendantSlugs);
-      conditions.push(`
-        p.categories IS NOT NULL 
-        AND jsonb_typeof(p.categories) = 'array' 
-        AND EXISTS (
-          SELECT 1 
-          FROM jsonb_to_recordset(p.categories) AS x(slug text)
-          WHERE x.slug = ANY($${sqlParams.length}::text[])
-        )
-      `);
-    }
-  } else if (categorySlug) {
+  if (categorySlug && categorySlug !== "clearance") {
     const descendantSlugs = getDescendants(categorySlug);
     sqlParams.push(descendantSlugs);
     conditions.push(`
@@ -357,26 +391,28 @@ export async function loader({ request, params }: Route.LoaderArgs) {
         WHERE x.slug = ANY($${sqlParams.length}::text[])
       )
     `);
+  }
 
-    if (crossSlug) {
-      const crossDescendantSlugs = getDescendants(crossSlug);
-      const paramIdx1 = sqlParams.push(crossDescendantSlugs);
-      const paramIdx2 = sqlParams.push(crossSlug);
-      conditions.push(`
+  // crossSlug (from_cat / from_brand) applies once, regardless of which
+  // combination of tag/brand/category page it's layered on top of.
+  if (crossSlug) {
+    const crossDescendantSlugs = getDescendants(crossSlug);
+    const paramIdx1 = sqlParams.push(crossDescendantSlugs);
+    const paramIdx2 = sqlParams.push(crossSlug);
+    conditions.push(`
+      (
         (
-          (
-            p.categories IS NOT NULL 
-            AND jsonb_typeof(p.categories) = 'array' 
-            AND EXISTS (
-              SELECT 1 
-              FROM jsonb_to_recordset(p.categories) AS x(slug text)
-              WHERE x.slug = ANY($${paramIdx1}::text[])
-            )
+          p.categories IS NOT NULL 
+          AND jsonb_typeof(p.categories) = 'array' 
+          AND EXISTS (
+            SELECT 1 
+            FROM jsonb_to_recordset(p.categories) AS x(slug text)
+            WHERE x.slug = ANY($${paramIdx1}::text[])
           )
-          OR REPLACE(LOWER(p.brand), ' ', '-') = LOWER($${paramIdx2})
         )
-      `);
-    }
+        OR REPLACE(LOWER(p.brand), ' ', '-') = LOWER($${paramIdx2})
+      )
+    `);
   }
 
   const where = conditions.length ? `WHERE ${conditions.join(" AND ")}` : "";
@@ -469,9 +505,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     }));
   }
 
-  const isClearancePage =
-    canonicalSlug === "clearance" ||
-    originalType === "clearance";
+
 
   const isOfferPage =
     isClearancePage ||
@@ -1155,4 +1189,3 @@ function getVisiblePages(current: number, total: number) {
   }
   return pages;
 }
-

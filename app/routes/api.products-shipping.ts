@@ -12,7 +12,7 @@ export async function loader({ request }: { request: Request }) {
   }
   try {
     const res = await query(
-      `SELECT id, name, tags FROM products WHERE id = ANY($1)`,
+      `SELECT id, name, tags FROM products WHERE id = ANY($1) AND status = 'publish'`,
       [ids]
     );
     return Response.json(res.rows);
