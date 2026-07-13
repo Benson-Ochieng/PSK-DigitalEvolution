@@ -81,8 +81,16 @@ export const ANIMAL_CATEGORIES: Record<string, { label: string; slug: string }[]
 
 let cachedCategories: any[] | null = null;
 
+const shopCache: Record<string, { data: any; timestamp: number }> = {};
+const CACHE_TTL = 5 * 60 * 1000; // 5 minutes cache
+
 export async function loader({ request, params }: Route.LoaderArgs) {
   const url = new URL(request.url);
+  const cacheKey = `${params.slug || ""}:${url.search}`;
+  const now = Date.now();
+  if (shopCache[cacheKey] && (now - shopCache[cacheKey].timestamp) < CACHE_TTL) {
+    return shopCache[cacheKey].data;
+  }
   const routeParams = params as any;
   const slug = routeParams.slug || "";
   const isTagPage = url.pathname.includes("/product-tag/");
@@ -517,7 +525,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     originalType === "offers" ||
     canonicalSlug === "flash-sale";
 
-  return {
+  const result = {
     products: productsToShow,
     totalResults,
     totalPages,
@@ -547,6 +555,13 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     isClearancePage,
     isOfferPage
   };
+
+  shopCache[cacheKey] = {
+    data: result,
+    timestamp: now,
+  };
+
+  return result;
 }
 
 const FILTERS = [

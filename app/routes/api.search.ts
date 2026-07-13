@@ -233,6 +233,9 @@ async function searchProductsPartial(searchTerm: string) {
   return res.rows;
 }
 
+const searchCache: Record<string, { data: any; timestamp: number }> = {};
+const SEARCH_CACHE_TTL = 5 * 60 * 1000; // 5 minutes cache
+
 export async function loader({ request }: { request: Request }) {
   const url = new URL(request.url);
   const q = url.searchParams.get("q") || "";
@@ -240,6 +243,12 @@ export async function loader({ request }: { request: Request }) {
 
   if (!trimmed) {
     return Response.json({ suggestions: [], groups: [], products: [] });
+  }
+
+  const cacheKey = trimmed.toLowerCase();
+  const now = Date.now();
+  if (searchCache[cacheKey] && (now - searchCache[cacheKey].timestamp) < SEARCH_CACHE_TTL) {
+    return Response.json(searchCache[cacheKey].data);
   }
 
   let dbProducts: any[] = [];
@@ -334,10 +343,17 @@ export async function loader({ request }: { request: Request }) {
     ...Object.entries(foodTypeCounts).map(([name, count]) => `${name} (${count})`)
   ].slice(0, 3);
 
-  return Response.json({
+  const responseData = {
     suggestions,
     groups,
     products: results.slice(0, 15), // Show up to 15 products with scrollbar
     correctedQuery: isAutocorrected ? finalSearchTerm : null
-  });
+  };
+
+  searchCache[cacheKey] = {
+    data: responseData,
+    timestamp: now
+  };
+
+  return Response.json(responseData);
 }

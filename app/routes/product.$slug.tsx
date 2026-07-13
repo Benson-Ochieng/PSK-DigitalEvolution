@@ -7,7 +7,16 @@ import { DogIcon, CatIcon } from "../components/CategoryIcon";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
+const productCache: Record<string, { data: any; timestamp: number }> = {};
+const CACHE_TTL = 5 * 60 * 1000; // 5 minutes cache
+
 export async function loader({ params }: Route.LoaderArgs) {
+  const cacheKey = params.slug;
+  const now = Date.now();
+  if (productCache[cacheKey] && (now - productCache[cacheKey].timestamp) < CACHE_TTL) {
+    return productCache[cacheKey].data;
+  }
+
   // Query by p.slug instead of p.id
   const { rows } = await query(`
     SELECT
@@ -28,7 +37,10 @@ export async function loader({ params }: Route.LoaderArgs) {
   `, [params.slug]);
 
   if (!rows[0]) throw new Response("Not Found", { status: 404 });
-  return { product: rows[0] };
+  
+  const result = { product: rows[0] };
+  productCache[cacheKey] = { data: result, timestamp: now };
+  return result;
 }
 
 export function meta({ data }: Route.MetaArgs) {
