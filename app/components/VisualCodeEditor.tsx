@@ -6,6 +6,7 @@ interface VisualCodeEditorProps {
   onChange: (val: string) => void;
   placeholder?: string;
   rows?: number;
+  form?: string;
 }
 
 const EXISTING_CONTENT = [
@@ -33,6 +34,7 @@ export default function VisualCodeEditor({
   onChange,
   placeholder,
   rows = 12,
+  form,
 }: VisualCodeEditorProps) {
   const [mode, setMode] = useState<"visual" | "code">("visual");
   const [isFullscreen, setIsFullscreen] = useState(false);
@@ -967,6 +969,7 @@ export default function VisualCodeEditor({
             onChange={(e) => triggerChange(e.target.value)}
             onKeyDown={handleKeyDown}
             placeholder={placeholder}
+            form={form}
             style={{
               width: "100%",
               height: "100%",
@@ -986,7 +989,7 @@ export default function VisualCodeEditor({
         ) : (
           <>
             {/* Native fallback form field to hold the value */}
-            <input type="hidden" name={name} value={value} />
+            <input type="hidden" name={name} value={value} form={form} />
             <div
               ref={editorRef}
               contentEditable
@@ -1117,11 +1120,10 @@ export default function VisualCodeEditor({
       {/* 1. Insert/edit link Modal */}
       {showLinkModal && (
         <div className="vp-editor-modal-overlay" onClick={() => setShowLinkModal(false)}>
-          <form 
+          <div 
             className="vp-editor-modal" 
             style={{ maxWidth: "500px", width: "90%" }} 
             onClick={(e) => e.stopPropagation()} 
-            onSubmit={submitLink}
           >
             <h4 className="vp-modal-title">🔗 Insert/edit link</h4>
             
@@ -1134,6 +1136,12 @@ export default function VisualCodeEditor({
                 onChange={(e) => setLinkUrl(e.target.value)} 
                 required 
                 autoFocus
+                onKeyDown={(e) => {
+                  if (e.key === "Enter") {
+                    e.preventDefault();
+                    submitLink(e);
+                  }
+                }}
               />
             </div>
             
@@ -1144,6 +1152,12 @@ export default function VisualCodeEditor({
                 placeholder="ABOUT US" 
                 value={linkText} 
                 onChange={(e) => setLinkText(e.target.value)} 
+                onKeyDown={(e) => {
+                  if (e.key === "Enter") {
+                    e.preventDefault();
+                    submitLink(e);
+                  }
+                }}
               />
             </div>
 
@@ -1168,6 +1182,12 @@ export default function VisualCodeEditor({
                   value={searchQuery} 
                   onChange={(e) => setSearchQuery(e.target.value)}
                   style={{ fontSize: "12px", padding: "6px 10px" }}
+                  onKeyDown={(e) => {
+                    if (e.key === "Enter") {
+                      e.preventDefault();
+                      submitLink(e);
+                    }
+                  }}
                 />
               </div>
 
@@ -1215,16 +1235,16 @@ export default function VisualCodeEditor({
 
             <div className="vp-modal-actions" style={{ borderTop: "1px solid rgba(255,255,255,0.06)", paddingTop: "14px", marginTop: "16px" }}>
               <button type="button" className="vp-editor-btn" onClick={() => setShowLinkModal(false)}>Cancel</button>
-              <button type="submit" className="vp-editor-btn" style={{ background: "#ff4d62", color: "#fff", borderColor: "#ff4d62" }}>Add Link</button>
+              <button type="button" className="vp-editor-btn" onClick={(e) => submitLink(e)} style={{ background: "#ff4d62", color: "#fff", borderColor: "#ff4d62" }}>Add Link</button>
             </div>
-          </form>
+          </div>
         </div>
       )}
 
       {/* 2. Media Modal */}
       {showMediaModal && (
         <div className="vp-editor-modal-overlay" onClick={() => setShowMediaModal(false)}>
-          <form className="vp-editor-modal" onClick={(e) => e.stopPropagation()} onSubmit={submitMedia}>
+          <div className="vp-editor-modal" onClick={(e) => e.stopPropagation()}>
             <h4 className="vp-modal-title">🖼️ Insert Image Media</h4>
             <div className="vp-modal-field">
               <label>Image URL</label>
@@ -1235,6 +1255,12 @@ export default function VisualCodeEditor({
                 onChange={(e) => setMediaUrl(e.target.value)} 
                 required 
                 autoFocus
+                onKeyDown={(e) => {
+                  if (e.key === "Enter") {
+                    e.preventDefault();
+                    submitMedia(e);
+                  }
+                }}
               />
             </div>
             <div className="vp-modal-field">
@@ -1244,13 +1270,19 @@ export default function VisualCodeEditor({
                 placeholder="e.g. Bonnie Adult Dog Food - Beef 15kg" 
                 value={mediaAlt} 
                 onChange={(e) => setMediaAlt(e.target.value)} 
+                onKeyDown={(e) => {
+                  if (e.key === "Enter") {
+                    e.preventDefault();
+                    submitMedia(e);
+                  }
+                }}
               />
             </div>
             <div className="vp-modal-actions">
               <button type="button" className="vp-editor-btn" onClick={() => setShowMediaModal(false)}>Cancel</button>
-              <button type="submit" className="vp-editor-btn" style={{ background: "#38bdf8", color: "#fff", borderColor: "#38bdf8" }}>Insert Media</button>
+              <button type="button" className="vp-editor-btn" onClick={(e) => submitMedia(e)} style={{ background: "#38bdf8", color: "#fff", borderColor: "#38bdf8" }}>Insert Media</button>
             </div>
-          </form>
+          </div>
         </div>
       )}
     </div>

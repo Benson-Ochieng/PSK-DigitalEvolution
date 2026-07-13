@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Form, useLoaderData, useNavigation, useSearchParams, Link, redirect } from "react-router";
+import { Form, useLoaderData, useNavigation, useSearchParams, Link, redirect, useSubmit } from "react-router";
 import VisualCodeEditor from "~/components/VisualCodeEditor";
 import fs from "fs";
 import path from "path";
@@ -80,7 +80,18 @@ export async function loader({ request }: { request: Request }) {
     }
   }
 
-  return { allPages: enrichedPages, editingPageDetails, currentUser };
+  let faqs: any[] = [];
+  if (view === "edit" && editingPageDetails?.slug === "faq") {
+    try {
+      const { query } = await import("~/db.server");
+      const { rows } = await query("SELECT id, question, answer, sort_order FROM faqs ORDER BY sort_order ASC, id ASC");
+      faqs = rows;
+    } catch (e) {
+      console.error("Failed to load faqs:", e);
+    }
+  }
+
+  return { allPages: enrichedPages, editingPageDetails, currentUser, faqs };
 }
 
 export async function action({ request }: { request: Request }) {
@@ -89,6 +100,62 @@ export async function action({ request }: { request: Request }) {
 
   const formData = await request.formData();
   const intent = formData.get("intent")?.toString();
+
+  if (intent === "add_faq" || intent === "save_faq_details_db") {
+    const id = formData.get("id")?.toString() || "";
+    const question = formData.get("question")?.toString() || "";
+    const answer = formData.get("answer")?.toString() || "";
+    const sortOrderVal = formData.get("sort_order")?.toString() || "0";
+    const sortOrder = parseInt(sortOrderVal, 10) || 0;
+
+    if (!question || !answer) {
+      return { error: "Question and Answer are required." };
+    }
+
+    const { query } = await import("~/db.server");
+    if (intent === "add_faq") {
+      await query(
+        "INSERT INTO faqs (question, answer, sort_order) VALUES ($1, $2, $3)",
+        [question, answer, sortOrder]
+      );
+      try {
+        const { logHistoryEvent } = await import("~/lib/content.server");
+        logHistoryEvent(currentUser.name, "FAQ Created", `Created FAQ accordion: "${question}"`, "❓");
+      } catch (e) { }
+    } else {
+      const faqId = parseInt(id, 10);
+      if (!isNaN(faqId)) {
+        await query(
+          "UPDATE faqs SET question = $1, answer = $2, sort_order = $3 WHERE id = $4",
+          [question, answer, sortOrder, faqId]
+        );
+        try {
+          const { logHistoryEvent } = await import("~/lib/content.server");
+          logHistoryEvent(currentUser.name, "FAQ Updated", `Updated FAQ accordion: "${question}"`, "❓");
+        } catch (e) { }
+      }
+    }
+    const pageId = formData.get("page_id")?.toString() || "18";
+    return redirect(`/store_backend/pages?view=edit&id=${pageId}`);
+  }
+
+  if (intent === "delete_faq") {
+    const id = formData.get("id")?.toString() || "";
+    const faqId = parseInt(id, 10);
+    if (!isNaN(faqId)) {
+      const { query } = await import("~/db.server");
+      const { rows } = await query("SELECT question FROM faqs WHERE id = $1", [faqId]);
+      if (rows.length > 0) {
+        await query("DELETE FROM faqs WHERE id = $1", [faqId]);
+        try {
+          const { logHistoryEvent } = await import("~/lib/content.server");
+          logHistoryEvent(currentUser.name, "FAQ Deleted", `Deleted FAQ accordion: "${rows[0].question}"`, "🗑️");
+        } catch (e) { }
+      }
+    }
+    const pageId = formData.get("page_id")?.toString() || "18";
+    return redirect(`/store_backend/pages?view=edit&id=${pageId}`);
+  }
 
   const CONTENT_DIR = path.join(process.cwd(), "content");
   const indexFilePath = path.join(CONTENT_DIR, "pages", "_index.json");
@@ -387,15 +454,21 @@ export async function action({ request }: { request: Request }) {
 }
 
 export default function VpBackendPages() {
-  const { allPages, editingPageDetails, currentUser } = useLoaderData() as any;
+  const { allPages, editingPageDetails, currentUser, faqs } = useLoaderData() as any;
   const navigation = useNavigation();
   const isUpdating = navigation.state === "submitting";
   const [searchParams] = useSearchParams();
   const currentView = searchParams.get("view") || "all";
+  const submit = useSubmit();
 
   // Search & Filter State
   const [searchQuery, setSearchQuery] = useState("");
   const [activeTab, setActiveTab] = useState("all");
+
+  // FAQs Accordion states
+  const [faqEditItem, setFaqEditItem] = useState<any | null>(null);
+  const [showFaqForm, setShowFaqForm] = useState<boolean>(false);
+  const [faqAnswerVal, setFaqAnswerVal] = useState("");
 
   // Modal quick edit state
   const [quickEditingPage, setQuickEditingPage] = useState<any | null>(null);
@@ -1258,6 +1331,252 @@ export default function VpBackendPages() {
                 </div>
               </div>
 
+              {/* FAQ ACCORDIONS DATABASE MANAGER (Moved above SEO block) */}
+              {currentView === "edit" && slugVal === "faq" && (
+                <div style={{ marginTop: "24px", marginBottom: "32px" }}>
+                  <style dangerouslySetInnerHTML={{ __html: `
+                    .faq-mgr-card {
+                      background: rgba(255, 255, 255, 0.02);
+                      border: 1px solid rgba(255, 255, 255, 0.05);
+                      border-radius: 12px;
+                      padding: 24px;
+                      margin-bottom: 24px;
+                    }
+                    .faq-mgr-header {
+                      display: flex;
+                      justify-content: space-between;
+                      align-items: center;
+                      margin-bottom: 20px;
+                    }
+                    .faq-mgr-title {
+                      font-size: 16px;
+                      font-weight: 600;
+                      color: #fff;
+                      margin: 0;
+                    }
+                    .faq-mgr-table {
+                      width: 100%;
+                      border-collapse: collapse;
+                      margin-top: 12px;
+                    }
+                    .faq-mgr-table th {
+                      background: rgba(255, 255, 255, 0.02);
+                      color: rgba(255, 255, 255, 0.4);
+                      font-size: 11px;
+                      text-transform: uppercase;
+                      letter-spacing: 0.5px;
+                      padding: 12px 16px;
+                      text-align: left;
+                      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+                    }
+                    .faq-mgr-table td {
+                      padding: 14px 16px;
+                      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+                      font-size: 13px;
+                      vertical-align: middle;
+                    }
+                    .faq-item-question {
+                      font-weight: 600;
+                      color: #fff;
+                    }
+                    .faq-item-actions {
+                      display: flex;
+                      gap: 12px;
+                      margin-top: 4px;
+                      font-size: 11px;
+                    }
+                    .faq-action-btn {
+                      background: none;
+                      border: none;
+                      color: rgba(255, 255, 255, 0.5);
+                      cursor: pointer;
+                      padding: 0;
+                    }
+                    .faq-action-btn:hover {
+                      color: #00ccff;
+                    }
+                    .faq-action-btn.delete:hover {
+                      color: #ff4d62;
+                    }
+                    .faq-editor-form {
+                      background: rgba(255, 255, 255, 0.01);
+                      border: 1px dashed rgba(255, 255, 255, 0.1);
+                      border-radius: 8px;
+                      padding: 20px;
+                      margin-bottom: 20px;
+                    }
+                  ` }} />
+
+                  <div className="faq-mgr-card">
+                    <div className="faq-mgr-header">
+                      <h3 className="faq-mgr-title">❓ FAQ Accordion Database Items</h3>
+                      {!showFaqForm && (
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setFaqEditItem(null);
+                            setFaqAnswerVal("");
+                            setShowFaqForm(true);
+                          }}
+                          className="btn-action-primary"
+                          style={{ padding: "6px 12px", fontSize: "12px" }}
+                        >
+                          + Add Accordion Item
+                        </button>
+                      )}
+                    </div>
+
+                    {showFaqForm && (
+                      <div className="faq-editor-form">
+                        <h4 style={{ fontSize: "14px", fontWeight: "600", color: "#fff", marginBottom: "16px" }}>
+                          {faqEditItem ? `Edit Accordion: "${faqEditItem.question}"` : "Add New Accordion Item"}
+                        </h4>
+                        
+                        <input type="hidden" name="intent" value={faqEditItem ? "save_faq_details_db" : "add_faq"} form="faq-add-edit-form" />
+                        <input type="hidden" name="page_id" value={editingPageDetails?.id} form="faq-add-edit-form" />
+                        {faqEditItem && <input type="hidden" name="id" value={faqEditItem.id} form="faq-add-edit-form" />}
+
+                        <div className="form-group-admin" style={{ marginBottom: "16px" }}>
+                          <label className="admin-label">Question</label>
+                          <input
+                            type="text"
+                            name="question"
+                            required
+                            defaultValue={faqEditItem ? faqEditItem.question : ""}
+                            className="admin-input"
+                            placeholder="e.g. What are your opening hours?"
+                            form="faq-add-edit-form"
+                          />
+                        </div>
+
+                        <div className="form-group-admin" style={{ marginBottom: "16px" }}>
+                          <label className="admin-label" style={{ marginBottom: "8px", display: "block" }}>Answer (HTML/Rich-Text Supported)</label>
+                          <VisualCodeEditor
+                            name="answer"
+                            value={faqAnswerVal}
+                            onChange={setFaqAnswerVal}
+                            placeholder="Enter answer details. HTML & rich styling is fully supported."
+                            rows={8}
+                            form="faq-add-edit-form"
+                          />
+                        </div>
+
+                        <div className="form-group-admin" style={{ marginBottom: "20px", width: "160px" }}>
+                          <label className="admin-label">Sort Order (Ascending)</label>
+                          <input
+                            type="number"
+                            name="sort_order"
+                            required
+                            defaultValue={faqEditItem ? faqEditItem.sort_order : 0}
+                            className="admin-input"
+                            form="faq-add-edit-form"
+                          />
+                        </div>
+
+                        <div style={{ display: "flex", gap: "10px" }}>
+                          <button type="submit" className="btn-action-primary" style={{ padding: "8px 16px", fontSize: "12px" }} form="faq-add-edit-form">
+                            {faqEditItem ? "Save Changes" : "Create Item"}
+                          </button>
+                          <button
+                            type="button"
+                            onClick={() => {
+                              setShowFaqForm(false);
+                              setFaqEditItem(null);
+                              setFaqAnswerVal("");
+                            }}
+                            className="btn-action-secondary"
+                            style={{ padding: "8px 16px", fontSize: "12px" }}
+                          >
+                            Cancel
+                          </button>
+                        </div>
+                      </div>
+                    )}
+
+                    <table className="faq-mgr-table">
+                      <thead>
+                        <tr>
+                          <th style={{ width: "80px" }}>Order</th>
+                          <th>Accordion Question</th>
+                          <th>Answer Excerpt</th>
+                          <th style={{ width: "100px", textAlign: "right" }}>Actions</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {faqs && faqs.map((faq: any) => (
+                          <tr key={faq.id}>
+                            <td>
+                              <span style={{ fontWeight: "600", color: "#00ccff" }}>
+                                {faq.sort_order}
+                              </span>
+                            </td>
+                            <td>
+                              <div className="faq-item-question">{faq.question}</div>
+                              <div className="faq-item-actions">
+                                <button
+                                  type="button"
+                                  onClick={() => {
+                                    setFaqEditItem(faq);
+                                    setFaqAnswerVal(faq.answer || "");
+                                    setShowFaqForm(true);
+                                  }}
+                                  className="faq-action-btn"
+                                >
+                                  Edit
+                                </button>
+                                <span style={{ color: "rgba(255,255,255,0.1)" }}>|</span>
+                                <button 
+                                  type="button"
+                                  onClick={() => {
+                                    if (confirm(`Are you sure you want to delete the accordion: "${faq.question}"?`)) {
+                                      submit(
+                                        { intent: "delete_faq", id: faq.id.toString(), page_id: editingPageDetails?.id.toString() },
+                                        { method: "post" }
+                                      );
+                                    }
+                                  }}
+                                  className="faq-action-btn delete"
+                                >
+                                  Delete
+                                </button>
+                              </div>
+                            </td>
+                            <td style={{ color: "rgba(255,255,255,0.5)", fontSize: "12px" }}>
+                              <div 
+                                style={{ maxHeight: "36px", overflow: "hidden", textOverflow: "ellipsis", display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical" }}
+                                dangerouslySetInnerHTML={{ __html: faq.answer }}
+                              />
+                            </td>
+                            <td style={{ textAlign: "right" }}>
+                              <button
+                                  type="button"
+                                  onClick={() => {
+                                    setFaqEditItem(faq);
+                                    setFaqAnswerVal(faq.answer || "");
+                                    setShowFaqForm(true);
+                                  }}
+                                  className="btn-action-secondary"
+                                  style={{ padding: "4px 8px", fontSize: "11px" }}
+                                >
+                                  Edit
+                                </button>
+                            </td>
+                          </tr>
+                        ))}
+
+                        {(!faqs || faqs.length === 0) && (
+                          <tr>
+                            <td colSpan={4} style={{ textAlign: "center", padding: "30px", color: "rgba(255,255,255,0.3)" }}>
+                              No accordion items found. Click "+ Add Accordion Item" above to create one.
+                            </td>
+                          </tr>
+                        )}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              )}
+
               {/* SEO Configurations */}
               <div className="editor-main-card">
                 <h3 className="editor-sec-title">Search Engine Optimization (Yoast Style)</h3>
@@ -1391,6 +1710,9 @@ export default function VpBackendPages() {
           </div>
         </Form>
       )}
+
+      {/* Dynamic forms for FAQ accordion actions, placed outside the main page form to prevent nesting */}
+      <Form method="post" id="faq-add-edit-form" replace style={{ display: "none" }} />
 
       {/* QUICK EDIT MODAL */}
       {quickEditingPage && (

@@ -13,4 +13,5 @@ export default defineConfig({
   resolve: {
     tsconfigPaths: true,
   },
+// Touch config to restart dev server
 });

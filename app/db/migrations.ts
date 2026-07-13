@@ -270,6 +270,30 @@ export const migrations: Migration[] = [
       ALTER TABLE products ADD COLUMN IF NOT EXISTS status TEXT DEFAULT 'publish';
       UPDATE products SET status = 'publish' WHERE status IS NULL;
     `
+  },
+  {
+    id: 11,
+    name: 'create_faqs_table',
+    up: `
+      CREATE TABLE IF NOT EXISTS faqs (
+        id SERIAL PRIMARY KEY,
+        question TEXT NOT NULL UNIQUE,
+        answer TEXT NOT NULL,
+        sort_order INTEGER DEFAULT 0,
+        created_at TIMESTAMPTZ DEFAULT NOW()
+      );
+
+      INSERT INTO faqs (question, answer, sort_order) VALUES
+      ('How much is the delivery fee and when should I expect to receive my order?', '<p>We offer standard delivery for KSh 200 within Nairobi. Same day delivery is available for orders placed before 2 PM. Delivery is free for orders above KSh 5,000.</p>', 10),
+      ('What is your Express Shipping Policy?', '<p>Express shipping is available for urgent orders within Nairobi at a flat rate of KSh 500. Orders will be delivered within 3 hours.</p>', 20),
+      ('Is payment safe & secure? Which payment methods do you accept?', '<p>Yes, all payments are safe and secure. We accept M-Pesa, Credit/Debit Cards, and Cash on Delivery.</p>', 30),
+      ('May I cash on delivery?', '<p>We accept Cash on Delivery within Nairobi and its environs. You can pay via cash or M-Pesa on arrival.</p>', 40),
+      ('What are the operating hours of your WhatsApp Customer Service line?', '<p>Our WhatsApp customer service (+254 795 350 292) is active from 8:00 AM to 8:00 PM daily.</p>', 50),
+      ('What if my cat / dog doesn''t like the new food? 7-Day Food Transition Protocol', '<p>We highly recommend transitioning over 7 days by gradually mixing increasing amounts of new food into their current food. If your pet has a persistent issue, please reach out to us.</p>', 60),
+      ('Which brands do you supply?', '<p>We supply premium brands such as Reflex, Reflex Plus, Bonnie, Trendline, and more.</p>', 70),
+      ('Where are you located?', '<p>We are a fully online store, delivering pet supplies directly to your doorstep. We also have partner retail locations across the country.</p>', 80)
+      ON CONFLICT (question) DO NOTHING;
+    `
   }
 ];
 

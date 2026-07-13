@@ -1,0 +1,20 @@
+{
+  "id": 18,
+  "title": "FAQs",
+  "slug": "faq",
+  "status": "publish",
+  "parent": 0,
+  "link": "https://petstore.co.ke/faq/",
+  "date": "2026-07-13T12:00:00",
+  "modified": "2026-07-13T13:05:41",
+  "content": "",
+  "excerpt": "Frequently Asked Questions about delivery, payment methods, express shipping, operations, and product choices at PetStore Kenya.",
+  "featuredImage": null,
+  "seo": {
+    "title": "FAQS - PetStore Kenya",
+    "description": "Frequently Asked Questions about delivery, payment methods, express shipping, operations, and product choices at PetStore Kenya.",
+    "canonical": "https://petstore.co.ke/faq/",
+    "ogImage": null
+  },
+  "author": "System Admin"
+}

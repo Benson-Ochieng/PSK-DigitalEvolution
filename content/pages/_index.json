@@ -117,5 +117,12 @@
     "slug": "terms-and-conditions",
     "link": "https://petstore.co.ke/terms-and-conditions/",
     "parent": 0
+  },
+  {
+    "id": 18,
+    "title": "FAQs",
+    "slug": "faq",
+    "link": "https://petstore.co.ke/faq/",
+    "parent": 0
   }
 ]

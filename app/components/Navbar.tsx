@@ -194,7 +194,7 @@ const DRAWER_MENU_ITEMS = [
   },
   {
     name: "Our Brands",
-    path: "/shop",
+    path: "/our-brands",
     subItems: [
       { name: "Spectrum", path: "/shop?brand=SPECTRUM" },
       { name: "Reflex", path: "/shop?brand=Reflex" },
@@ -533,9 +533,9 @@ export default function Navbar() {
             </li>
 
             <li className="nav-item-dropdown mega-dropdown-container">
-              <span className="nav-link dropdown-toggle">
+              <Link to="/our-brands" className="nav-link dropdown-toggle">
                 Shop By Brands <i className="fa fa-caret-down toggle-arrow"></i>
-              </span>
+              </Link>
               <div className="mega-dropdown-menu brand-mega-menu">
                 <div className="brand-grid">
                   {BRANDS_LIST.map((brand) => {

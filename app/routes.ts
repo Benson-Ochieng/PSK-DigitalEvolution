@@ -51,6 +51,9 @@ const routes = [
   route("brochures", "routes/brochures.tsx"),
   route("locations", "routes/locations.tsx"),
   route("retail-locations-nairobi-nanyuki-naivasha-nakuru-mombasa", "routes/retail-locations.tsx"),
+  // Dedicated FAQ Page
+  route("faq", "routes/faq.tsx"),
+  route("our-brands", "routes/our-brands.tsx"),
   route("blog", "routes/blog.tsx"),
   route("blog/:slug", "routes/blog.$slug.tsx"),
   route("pet-avenue", "routes/pet-avenue.tsx"),
@@ -93,6 +96,7 @@ if (enableDashboard) {
       route("customers", "routes/store_backend.customers.tsx"),
       route("coupons", "routes/store_backend.coupons.tsx"),
       route("pages", "routes/store_backend.pages.tsx"),
+      route("faqs", "routes/store_backend.faqs.tsx"),
       route("comments", "routes/store_backend.comments.tsx"),
       route("history", "routes/store_backend.history.tsx"),
       route("posts", "routes/store_backend.posts.tsx"),
