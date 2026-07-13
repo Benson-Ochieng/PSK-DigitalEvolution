@@ -47,6 +47,7 @@ export async function action({ request }: Route.ActionArgs) {
   const nutrition_fibre = formData.get("nutrition_fibre") ? Number(formData.get("nutrition_fibre")) : null;
   const nutrition_moisture = formData.get("nutrition_moisture") ? Number(formData.get("nutrition_moisture")) : null;
   const price = formData.get("price") ? Number(formData.get("price")) : null;
+  const status = formData.get("status")?.toString() || "publish";
 
   if (!name) {
     return { error: "Product Name is required" };
@@ -60,12 +61,12 @@ export async function action({ request }: Route.ActionArgs) {
           `INSERT INTO products 
             (name, brand, weight_kg, animal_type, food_type, image_url, description, 
              key_ingredients, feeding_guide, replaces_brand, replaces_reason, 
-             nutrition_protein, nutrition_fat, nutrition_fibre, nutrition_moisture)
-           VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15)
+             nutrition_protein, nutrition_fat, nutrition_fibre, nutrition_moisture, status)
+           VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16)
            RETURNING id`,
           [name, brand, weight_kg, animal_type, food_type, image_url, description,
            key_ingredients, feeding_guide, replaces_brand, replaces_reason,
-           nutrition_protein, nutrition_fat, nutrition_fibre, nutrition_moisture]
+           nutrition_protein, nutrition_fat, nutrition_fibre, nutrition_moisture, status]
         );
         const productId = res.rows[0].id;
 
@@ -92,11 +93,12 @@ export async function action({ request }: Route.ActionArgs) {
             name = $1, brand = $2, weight_kg = $3, animal_type = $4, food_type = $5,
             image_url = $6, description = $7, key_ingredients = $8, feeding_guide = $9,
             replaces_brand = $10, replaces_reason = $11, nutrition_protein = $12,
-            nutrition_fat = $13, nutrition_fibre = $14, nutrition_moisture = $15
-           WHERE id = $16`,
+            nutrition_fat = $13, nutrition_fibre = $14, nutrition_moisture = $15,
+            status = $16
+           WHERE id = $17`,
           [name, brand, weight_kg, animal_type, food_type, image_url, description,
            key_ingredients, feeding_guide, replaces_brand, replaces_reason,
-           nutrition_protein, nutrition_fat, nutrition_fibre, nutrition_moisture, id]
+           nutrition_protein, nutrition_fat, nutrition_fibre, nutrition_moisture, status, id]
         );
 
         // 2. Update price in store_prices (Upsert format)
@@ -239,9 +241,18 @@ export default function AdminProducts() {
                     </select>
                   </div>
                 </div>
-                <div className="form-group">
-                  <label htmlFor="image_url">Image URL</label>
-                  <input type="text" id="image_url" name="image_url" defaultValue={editingProduct?.image_url || ""} className="form-control" placeholder="https://..." />
+                <div className="form-group" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0.75rem" }}>
+                  <div>
+                    <label htmlFor="image_url">Image URL</label>
+                    <input type="text" id="image_url" name="image_url" defaultValue={editingProduct?.image_url || ""} className="form-control" placeholder="https://..." />
+                  </div>
+                  <div>
+                    <label htmlFor="status">Status</label>
+                    <select id="status" name="status" defaultValue={editingProduct?.status || "publish"} className="form-control">
+                      <option value="publish">🟢 Publish</option>
+                      <option value="draft">🟡 Draft</option>
+                    </select>
+                  </div>
                 </div>
               </div>
 
@@ -314,6 +325,7 @@ export default function AdminProducts() {
               <th>Category</th>
               <th>Weight</th>
               <th>Price</th>
+              <th>Status</th>
               <th style={{ textAlign: "right" }}>Actions</th>
             </tr>
           </thead>
@@ -337,6 +349,20 @@ export default function AdminProducts() {
                 <td>{p.weight_kg ? `${p.weight_kg} kg` : <span style={{ color: "var(--admin-text-muted)" }}>—</span>}</td>
                 <td style={{ fontWeight: 700, color: "var(--admin-accent)" }}>
                   {p.our_price ? `KES ${Number(p.our_price).toLocaleString()}` : <span style={{ color: "var(--admin-text-muted)" }}>—</span>}
+                </td>
+                <td>
+                  <span style={{
+                    padding: "0.2rem 0.5rem",
+                    fontSize: "0.7rem",
+                    borderRadius: "4px",
+                    fontWeight: 600,
+                    textTransform: "uppercase",
+                    background: p.status === "draft" ? "rgba(234, 179, 8, 0.15)" : "rgba(16, 185, 129, 0.15)",
+                    color: p.status === "draft" ? "#facc15" : "#34d399",
+                    border: p.status === "draft" ? "1px solid rgba(234, 179, 8, 0.3)" : "1px solid rgba(16, 185, 129, 0.3)"
+                  }}>
+                    {p.status || "publish"}
+                  </span>
                 </td>
                 <td style={{ textAlign: "right" }}>
                   <div style={{ display: "inline-flex", gap: "0.5rem" }}>

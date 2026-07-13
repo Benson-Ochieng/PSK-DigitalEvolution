@@ -1091,7 +1091,7 @@ body {
 .product-card {
   background: #ffffff;
   border-style: solid;
-  border-width: 1px 1px 1px 1px;
+  border-width: 1px;
   border-color: #eee;
   border-radius: .5rem;
   box-shadow: rgb(149 157 165 / 20%) 0 0 18px;
@@ -1101,7 +1101,7 @@ body {
   color: var(--ink);
   position: relative;
   overflow: visible;
-  padding: 1rem 0.75rem;
+  padding: 0px 0px 10px 1px;
   align-items: center;
   text-align: center;
 }
@@ -1122,8 +1122,7 @@ body {
 
 .product-card-img {
   width: 100%;
-  height: 120px;
-  /* Reduced from 160px */
+  height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1148,19 +1147,19 @@ body {
 
 .product-name {
   font-family: var(--font-sans);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 10px;
-  color: #000000;
+  color: #000000 !important;
   text-align: center;
-  line-height: 2.5ex;
-  min-height: 55px;
-  height: 8ex;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
-  text-overflow: ellipsis;
+  line-height: 1.4;
+  margin-bottom: 8px;
+  height: 28px;
   display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
   overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 0.5rem;
 }
 
 .product-price {
@@ -1168,12 +1167,10 @@ body {
   font-size: 14px;
   font-weight: 700;
   color: #ef4444;
-  /* Bright pinkish-red */
   text-align: center;
-  margin-bottom: auto;
-  /* Pushes the button to the bottom dynamically */
-  padding-bottom: 10px;
-  /* Ensures minimum spacing above the button */
+  margin-top: 4px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .add-to-cart-btn {
@@ -2279,7 +2276,8 @@ body {
 }
 
 .sidebar-brands-list li {
-  margin-bottom: 1.15rem; /* Increased spacing to prevent cluttering */
+  margin-bottom: 1.15rem;
+  /* Increased spacing to prevent cluttering */
 }
 
 .sidebar-brands-list a {
@@ -2289,14 +2287,16 @@ body {
   text-decoration: none;
   transition: color 0.15s ease;
   display: inline-block;
-  line-height: 1.45; /* Clean height for wrapped items */
+  line-height: 1.45;
+  /* Clean height for wrapped items */
 }
 
 .sidebar-brands-list a:hover,
 .sidebar-brands-list a.active-brand {
   color: #1E5DA7;
   font-weight: 700;
-  text-decoration: none !important; /* Prevent hover underline */
+  text-decoration: none !important;
+  /* Prevent hover underline */
 }
 
 .shop-main {
@@ -3587,9 +3587,23 @@ a:hover {
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
+  appearance: none;
   margin: 0;
 }
 
 input[type=number] {
   -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+/* Desktop overrides for product grid item width */
+@media (min-width: 1025px) {
+  .product-grid,
+  .shop-layout .product-grid,
+  .new-arrivals-grid {
+    grid-template-columns: repeat(4, 22.05%) !important;
+    justify-content: space-between !important;
+    column-gap: 22px !important;
+    row-gap: 2.992em !important;
+  }
 }

@@ -12,7 +12,7 @@ export async function loader(args: any) {
     return { type: "page", page };
   }
   const shopData = await shopLoader(args);
-  return { type: "shop", ...shopData };
+  return { ...shopData, type: "shop" };
 }
 
 export function meta(args: any) {

@@ -262,6 +262,14 @@ export const migrations: Migration[] = [
       CREATE INDEX IF NOT EXISTS idx_store_prices_petstore_kenya ON store_prices(product_id, price) WHERE store_name = 'PetStore Kenya';
       CREATE INDEX IF NOT EXISTS idx_store_prices_competitors ON store_prices(product_id, price) WHERE store_name != 'PetStore Kenya';
     `
+  },
+  {
+    id: 10,
+    name: 'add_status_to_products',
+    up: `
+      ALTER TABLE products ADD COLUMN IF NOT EXISTS status TEXT DEFAULT 'publish';
+      UPDATE products SET status = 'publish' WHERE status IS NULL;
+    `
   }
 ];
 

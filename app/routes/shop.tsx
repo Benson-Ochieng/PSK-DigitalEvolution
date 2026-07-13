@@ -155,7 +155,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   let isBrandPage = false;
   if (canonicalSlug) {
     const brandCheck = await query(
-      `SELECT EXISTS (SELECT 1 FROM products WHERE REPLACE(LOWER(brand), ' ', '-') = LOWER($1))`,
+      `SELECT EXISTS (SELECT 1 FROM products WHERE REPLACE(LOWER(brand), ' ', '-') = LOWER($1) AND status = 'publish')`,
       [canonicalSlug]
     );
     isBrandPage = brandCheck.rows[0]?.exists || false;
@@ -281,7 +281,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     pageTitle = "Offers";
   }
 
-  const conditions: string[] = [];
+  const conditions: string[] = ["p.status = 'publish'"];
   const sqlParams: any[] = [];
 
   const explicitAnimal = url.searchParams.get("animal") || "";
@@ -454,6 +454,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
       JOIN store_prices bbp ON bbp.product_id = p.id AND bbp.store_name = 'PetStore Kenya',
       LATERAL jsonb_to_recordset(p.categories) AS c(id int, name text, slug text)
       WHERE REPLACE(LOWER(p.brand), ' ', '-') = LOWER($1)
+      AND p.status = 'publish'
       AND c.slug != LOWER($1)
       AND REPLACE(LOWER(c.slug), ' ', '-') != LOWER($1)
       AND c.slug NOT IN ('dog-supplies-store', 'cat-supplies-store', 'dog', 'cat', 'dog-food', 'cat-food', 'dog-food-treats', 'cat-food-and-treats', 'sale', 'clearance', 'bundles')

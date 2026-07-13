@@ -31,7 +31,7 @@ async function getDictionary(): Promise<Set<string>> {
   }
   const dict = new Set<string>();
   try {
-    const res = await query(`SELECT name, brand, categories, tags FROM products`);
+    const res = await query(`SELECT name, brand, categories, tags FROM products WHERE status = 'publish'`);
     for (const row of res.rows) {
       if (row.name) addWords(row.name, dict);
       if (row.brand) addWords(row.brand, dict);
@@ -139,6 +139,7 @@ async function searchProductsExact(searchTerm: string) {
     `);
   }
   
+  conditions.push("p.status = 'publish'");
   const whereClause = conditions.join(" AND ");
   const queryStr = `
     SELECT 
@@ -183,6 +184,7 @@ async function searchProductsPartial(searchTerm: string) {
     `);
   }
   
+  conditions.push("p.status = 'publish'");
   const whereClause = conditions.join(" AND ");
   const queryStr = `
     SELECT 

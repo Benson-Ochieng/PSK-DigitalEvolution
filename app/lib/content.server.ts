@@ -85,7 +85,7 @@ export function getAllProducts(includeTrash = false): ProductSummary[] {
   const data = readJson<ProductSummary[]>(path.join(CONTENT_DIR, "products", "_index.json"));
   let products = (data || []).map((p) => ({ ...p, name: decode(p.name) }));
   if (!includeTrash) {
-    products = products.filter((p) => p.status !== "trash");
+    products = products.filter((p) => p.status === "publish" || !p.status);
   }
   return products.sort((a, b) => {
     const timeA = new Date(a.dateModified || a.dateCreated || 0).getTime();

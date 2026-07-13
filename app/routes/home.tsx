@@ -31,7 +31,7 @@ export async function loader() {
 
   const statsRes = await query(`
     SELECT
-      (SELECT COUNT(*) FROM products) AS product_count,
+      (SELECT COUNT(*) FROM products WHERE status = 'publish') AS product_count,
       (SELECT MAX(last_updated) FROM store_prices) AS last_updated
   `);
 
@@ -43,7 +43,7 @@ export async function loader() {
     FROM products p
     JOIN store_prices bbp ON bbp.product_id = p.id AND bbp.store_name = 'PetStore Kenya'
     LEFT JOIN store_prices comp ON comp.product_id = p.id AND comp.store_name != 'PetStore Kenya'
-    WHERE bbp.price IS NOT NULL
+    WHERE bbp.price IS NOT NULL AND p.status = 'publish'
     GROUP BY p.id, p.name, p.brand, p.weight_kg, p.animal_type, p.food_type, p.image_url, p.slug, bbp.price
     ORDER BY (COALESCE(MIN(comp.price), 0) - bbp.price) DESC, p.name
     LIMIT 20

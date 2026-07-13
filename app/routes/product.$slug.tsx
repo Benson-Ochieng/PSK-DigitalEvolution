@@ -23,7 +23,7 @@ export async function loader({ params }: Route.LoaderArgs) {
       ) AS prices
     FROM products p
     JOIN store_prices sp ON sp.product_id = p.id
-    WHERE p.slug = $1
+    WHERE p.slug = $1 AND p.status = 'publish'
     GROUP BY p.id
   `, [params.slug]);
 
