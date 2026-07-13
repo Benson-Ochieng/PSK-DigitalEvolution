@@ -45,7 +45,7 @@ export async function loader({ request }: Route.LoaderArgs) {
       FROM products p
       JOIN store_prices bbp  ON bbp.product_id = p.id AND bbp.store_name = 'PetStore Kenya'
       LEFT JOIN store_prices comp ON comp.product_id = p.id AND comp.store_name != 'PetStore Kenya'
-      WHERE p.status = 'publish'
+      WHERE p.status = 'publish' AND p.tags @> '[{"slug": "new-arrivals"}]'::jsonb
       GROUP BY p.id, p.name, p.brand, p.weight_kg, p.animal_type, p.food_type, p.image_url, p.slug, bbp.price
       ORDER BY p.id DESC, ${orderBy}
     `);
