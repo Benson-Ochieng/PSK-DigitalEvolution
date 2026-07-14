@@ -2091,13 +2091,17 @@ export default function CheckoutPage() {
                         </label>
 
                         {/* Merchant Logos */}
-                        <div style={{ display: "flex", gap: "0.4rem", margin: "0.4rem 0 0.4rem 1.5rem", flexWrap: "wrap" }}>
-                          <span style={{ background: "#f0f0f0", padding: "0.2rem 0.5rem", borderRadius: "3px", fontSize: "0.75rem", fontWeight: "bold" }}>M-Pesa</span>
-                          <span style={{ background: "#f0f0f0", padding: "0.2rem 0.5rem", borderRadius: "3px", fontSize: "0.75rem", fontWeight: "bold" }}>Airtel</span>
-                          <span style={{ background: "#f0f0f0", padding: "0.2rem 0.5rem", borderRadius: "3px", fontSize: "0.75rem", fontWeight: "bold" }}>Kenswitch</span>
-                          <span style={{ background: "#f0f0f0", padding: "0.2rem 0.5rem", borderRadius: "3px", fontSize: "0.75rem", fontWeight: "bold" }}>Visa</span>
-                          <span style={{ background: "#f0f0f0", padding: "0.2rem 0.5rem", borderRadius: "3px", fontSize: "0.75rem", fontWeight: "bold" }}>MasterCard</span>
-                        </div>
+                        <img
+                          src="/assets/payment_channels.png"
+                          alt="iPay Payment Channels"
+                          style={{
+                            height: "80px",
+                            marginLeft: "1.5rem",
+                            marginTop: "0.25rem",
+                            marginBottom: "0.5rem",
+                            display: "block"
+                          }}
+                        />
 
                         {paymentMethod === "ipay" && (
                           <div style={{
