@@ -19,7 +19,7 @@ function maskPhone(phone: string): string {
 
 export async function loader({ request }: { request: Request }) {
   checkAdminBranch();
-  
+
   const user = await getAdminUser(request);
   if (user) {
     return redirect("/store_backend");
@@ -48,7 +48,7 @@ export async function action({ request }: { request: Request }) {
         id: "u-admin",
         name: "System Admin",
         email: "admin@petstore.co.ke",
-        phone: "0745060999",
+        phone: "254745060999",
         username: "admin",
         role: "administrator",
         ordersCount: 0,
@@ -82,7 +82,7 @@ export async function action({ request }: { request: Request }) {
     const matchedUsers = users.filter(u => {
       const emailMatch = u.email.toLowerCase() === loginInput.toLowerCase();
       const usernameMatch = u.username.toLowerCase() === loginInput.toLowerCase();
-      const phoneMatch = u.phone && 
+      const phoneMatch = u.phone &&
         u.phone.replace(/[\s-+]/g, "") === loginInput.replace(/[\s-+]/g, "");
       return emailMatch || usernameMatch || phoneMatch;
     });
@@ -130,7 +130,7 @@ export async function action({ request }: { request: Request }) {
 
     // Save OtpSession (5-minute expiry)
     const expiresAt = new Date(Date.now() + 5 * 60 * 1000).toISOString();
-    
+
     let targetLabel = "";
     if (sendToEmail && sendToPhone) {
       targetLabel = `${emailTarget} & ${phoneTarget}`;
@@ -198,7 +198,7 @@ export async function action({ request }: { request: Request }) {
     if (otpSession.codeHash !== incomingHash) {
       const newAttempts = otpSession.attempts + 1;
       await db.otpSession.update({ where: { id: sessionId }, data: { attempts: newAttempts } });
-      
+
       if (newAttempts >= 5) {
         await db.otpSession.update({ where: { id: sessionId }, data: { invalidated: true } });
         return { error: "Too many failed attempts. This code has been locked. Please request a new code." };
@@ -330,7 +330,7 @@ export default function VpBackendLogin() {
 
   useEffect(() => {
     if (!storedSessionId) return;
-    
+
     setTimeLeft(300);
     setResendCooldown(30);
 
@@ -375,7 +375,8 @@ export default function VpBackendLogin() {
 
   return (
     <div className="login-page">
-      <style dangerouslySetInnerHTML={{ __html: `
+      <style dangerouslySetInnerHTML={{
+        __html: `
         .login-page {
           min-height: 100vh;
           background: radial-gradient(circle at 50% 50%, #151522 0%, #0a0a0f 100%);

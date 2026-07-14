@@ -44,6 +44,8 @@ The visual system is designed to look premium, modern, and highly interactive, i
 | **State & Session** | Cookies & Context | React context API handles UI state; secure HTTP-only cookie sessions (`__vp_session`) handle admin access. |
 | **Containerization** | Docker | Binds port `3001` via a `Dockerfile` and `docker-compose.yml` configuration. |
 | **Build Engine** | Vite (`v8.0.3`) | Compiles bundles and provides Hot Module Replacement (HMR). |
+| **Email Gateway** | Resend API | For secure and high-deliverability production OTP email notifications. |
+| **SMS Gateway** | Africa's Talking API | For production Kenyan local mobile network OTP delivery using custom Sender ID. |
 
 ---
 
@@ -53,7 +55,11 @@ The system synchronizes and maintains a relational database on Supabase containi
 
 ### `users`
 Represents administrative, management, and authenticated client accounts.
-- Fields: `id` (Primary Key), `name`, `email`, `username`, `role` (`administrator`, `shop_manager`, `customer`), `ordersCount`, `status` (`active`, `suspended`), `passwordHash`, `createdAt`.
+- Fields: `id` (Primary Key), `name`, `email`, `username`, `role` (`administrator`, `shop_manager`, `customer`), `ordersCount`, `status` (`active`, `suspended`), `passwordHash`, `phone`, `createdAt`.
+
+### `otp_sessions`
+Stores transient OTP security verification codes and metadata for passwordless administrative login.
+- Fields: `id` (Primary Key), `userId` (References `users`), `target` (Masked recipient email/phone), `codeHash` (SHA-256 hash of the 6-digit OTP code), `expiresAt` (ISO Timestamp), `attempts` (Counter, max 5), `invalidated` (Boolean single-use flag), `createdAt` (ISO Timestamp).
 
 ### `coupons`
 Stores promotional codes and discount thresholds.
@@ -166,3 +172,10 @@ The database synchronization is fully operational and verified:
 - **Blog Posts:** 27 blog posts synchronized with correct tag, author, and description mappings.
 - **Coupons:** Pre-configured with live active codes (`WELCOME500`, `PET8`) and syncing mechanism to keep local caching aligned.
 - **Users:** Administrative provisioning and role-based session cookie gates (`__vp_session`) are fully operational.
+
+## 8. Dashboard Setup & Authentication
+
+The details, architecture, security policies, and production deployment checklists for the administrative dashboard and its passwordless 2FA login system are documented in:
+* **[dashboard.md](file:///c:/_Workspace/Projects/PSK-DigitalEvolution/dashboard.md)**
+
+Please refer to that file for information on setting up Resend (Email), Africa's Talking (SMS), and required environment variables for production.

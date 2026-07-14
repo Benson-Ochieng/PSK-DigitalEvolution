@@ -31,10 +31,10 @@ export async function action({ request }: { request: Request }) {
     const email = formData.get("email")?.toString().trim();
     const username = formData.get("username")?.toString().trim();
     const role = formData.get("role")?.toString() as any;
-    const password = formData.get("password")?.toString();
+    const phone = formData.get("phone")?.toString().trim() || "";
 
-    if (!name || !email || !username || !role || !password) {
-      return { error: "All fields are required to create a user." };
+    if (!name || !email || !username || !role) {
+      return { error: "Name, email, username, and role are required." };
     }
 
     // Check if user already exists
@@ -50,7 +50,8 @@ export async function action({ request }: { request: Request }) {
       username,
       role,
       status: "active",
-      passwordHash: password,
+      phone,
+      passwordHash: "",
     });
 
     return redirect("/store_backend/users?success=true");
@@ -62,11 +63,11 @@ export async function action({ request }: { request: Request }) {
     const email = formData.get("email")?.toString().trim();
     const username = formData.get("username")?.toString().trim();
     const role = formData.get("role")?.toString() as any;
-    const password = formData.get("password")?.toString();
+    const phone = formData.get("phone")?.toString().trim() || "";
     const status = formData.get("status")?.toString() as any;
 
     if (!id || !name || !email || !username || !role || !status) {
-      return { error: "All fields except password are required." };
+      return { error: "All fields are required." };
     }
 
     if (id === "u-admin" && role !== "administrator") {
@@ -86,10 +87,7 @@ export async function action({ request }: { request: Request }) {
       return { error: "Another user with this username or email already exists." };
     }
 
-    const data: any = { name, email, username, role, status };
-    if (password && password.trim() !== "") {
-      data.passwordHash = password;
-    }
+    const data: any = { name, email, username, role, status, phone };
 
     await db.user.update({ where: { id }, data });
     return redirect("/store_backend/users?success=true");
@@ -111,28 +109,20 @@ export async function action({ request }: { request: Request }) {
   }
 
   if (intent === "reset_password") {
-    const id = formData.get("id")?.toString();
-    const newPassword = formData.get("newPassword")?.toString();
-    if (!id || !newPassword) return null;
-
-    await db.user.update({ where: { id }, data: { passwordHash: newPassword } });
-    return { success: true };
+    return { error: "Resetting passwords is not supported under the passwordless OTP login architecture." };
   }
 
   if (intent === "update_profile") {
     const id = formData.get("id")?.toString();
     const name = formData.get("name")?.toString().trim();
     const email = formData.get("email")?.toString().trim();
-    const password = formData.get("password")?.toString();
+    const phone = formData.get("phone")?.toString().trim() || "";
 
     if (!id || !name || !email) {
       return { error: "Name and email are required." };
     }
 
-    const data: any = { name, email };
-    if (password) {
-      data.passwordHash = password;
-    }
+    const data: any = { name, email, phone };
 
     await db.user.update({ where: { id }, data });
     return { success: true, profileUpdated: true };
@@ -347,14 +337,6 @@ export default function VpBackendUsers() {
     setSelectedUserIds([]);
     setTimeout(() => setNotification(null), 4000);
   };
-
-  // Modal State
-  const [resettingPasswordUser, setResettingPasswordUser] = useState<any | null>(null);
-
-  // Password visibility states
-  const [showNewUserPassword, setShowNewUserPassword] = useState(false);
-  const [showProfilePassword, setShowProfilePassword] = useState(false);
-  const [showResetPassword, setShowResetPassword] = useState(false);
 
   return (
     <div className="users-view">
@@ -1080,6 +1062,7 @@ export default function VpBackendUsers() {
                         Email
                       </th>
                     )}
+                    <th>Phone (2FA SMS)</th>
                     {showRole && (
                       <th onClick={() => handleSort("role")} style={{ cursor: "pointer", userSelect: "none" }}>
                         Access Role {renderSortIndicator("role")}
@@ -1132,6 +1115,11 @@ export default function VpBackendUsers() {
                           </div>
                         </td>
                       )}
+                      <td>
+                        <div style={{ fontSize: "13px", color: "rgba(255,255,255,0.7)", fontFamily: "monospace" }}>
+                          {user.phone || <span style={{ opacity: 0.35 }}>—</span>}
+                        </div>
+                      </td>
                       {showRole && (
                         <td>
                           <span className={`role-pill ${user.role}`}>
@@ -1165,15 +1153,6 @@ export default function VpBackendUsers() {
                           >
                             Edit
                           </Link>
-
-                          <button
-                            className="btn-mini-action"
-                            onClick={() => {
-                              setResettingPasswordUser(user);
-                            }}
-                          >
-                            Reset PW
-                          </button>
 
                           {user.id !== "u-admin" && (
                             <Form method="post" onSubmit={(e) => {
@@ -1278,34 +1257,12 @@ export default function VpBackendUsers() {
                   </select>
                 </div>
                 <div className="form-group-admin">
-                  <label>Temporary Password</label>
-                  <div style={{ position: "relative", display: "flex", alignItems: "center" }}>
-                    <input
-                      type={showNewUserPassword ? "text" : "password"}
-                      name="password"
-                      placeholder="Set temporary password"
-                      required
-                      style={{ width: "100%", paddingRight: "40px" }}
-                    />
-                    <button
-                      type="button"
-                      className="password-toggle-eye"
-                      onClick={() => setShowNewUserPassword(prev => !prev)}
-                      title={showNewUserPassword ? "Hide password" : "Show password"}
-                    >
-                      {showNewUserPassword ? (
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                          <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
-                          <circle cx="12" cy="12" r="3" />
-                        </svg>
-                      ) : (
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                          <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24" />
-                          <line x1="1" y1="1" x2="23" y2="23" />
-                        </svg>
-                      )}
-                    </button>
-                  </div>
+                  <label>Phone Number (for 2FA SMS)</label>
+                  <input
+                    type="tel"
+                    name="phone"
+                    placeholder="e.g. +254712345678"
+                  />
                 </div>
               </div>
 
@@ -1386,33 +1343,13 @@ export default function VpBackendUsers() {
               </div>
 
               <div className="form-group-admin" style={{ marginTop: "8px" }}>
-                <label>Update Password (leave blank to keep current)</label>
-                <div style={{ position: "relative", display: "flex", alignItems: "center" }}>
-                  <input
-                    type={showNewUserPassword ? "text" : "password"}
-                    name="password"
-                    placeholder="Enter new password to change"
-                    style={{ width: "100%", paddingRight: "40px" }}
-                  />
-                  <button
-                    type="button"
-                    className="password-toggle-eye"
-                    onClick={() => setShowNewUserPassword(prev => !prev)}
-                    title={showNewUserPassword ? "Hide password" : "Show password"}
-                  >
-                    {showNewUserPassword ? (
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
-                        <circle cx="12" cy="12" r="3" />
-                      </svg>
-                    ) : (
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24" />
-                        <line x1="1" y1="1" x2="23" y2="23" />
-                      </svg>
-                    )}
-                  </button>
-                </div>
+                <label>Phone Number (for 2FA SMS)</label>
+                <input
+                  type="tel"
+                  name="phone"
+                  defaultValue={editUser.phone}
+                  placeholder="e.g. +254712345678"
+                />
               </div>
 
               <button type="submit" className="btn-action-primary" style={{ width: "100%", marginTop: "24px", height: "44px" }} disabled={isSubmitting}>
@@ -1480,139 +1417,18 @@ export default function VpBackendUsers() {
               </div>
 
               <div className="form-group-admin" style={{ marginTop: "8px" }}>
-                <label>Change Password (leave blank to keep current)</label>
-                <div style={{ position: "relative", display: "flex", alignItems: "center" }}>
-                  <input
-                    type={showProfilePassword ? "text" : "password"}
-                    name="password"
-                    placeholder="New password"
-                    style={{ width: "100%", paddingRight: "40px" }}
-                  />
-                  <button
-                    type="button"
-                    className="password-toggle-eye"
-                    onClick={() => setShowProfilePassword(prev => !prev)}
-                    title={showProfilePassword ? "Hide password" : "Show password"}
-                  >
-                    {showProfilePassword ? (
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
-                        <circle cx="12" cy="12" r="3" />
-                      </svg>
-                    ) : (
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24" />
-                        <line x1="1" y1="1" x2="23" y2="23" />
-                      </svg>
-                    )}
-                  </button>
-                </div>
+                <label>Phone Number (for 2FA SMS)</label>
+                <input
+                  type="tel"
+                  name="phone"
+                  defaultValue={currentUser.phone}
+                  placeholder="e.g. +254712345678"
+                />
               </div>
 
               <button type="submit" className="btn-action-primary" style={{ width: "100%", marginTop: "24px", height: "44px" }} disabled={isSubmitting}>
                 {isSubmitting ? "Saving..." : "Update Profile"}
               </button>
-            </Form>
-          </div>
-        </div>
-      )}
-
-      {/* Reset Password Modal (Only for view === 'all') */}
-      {resettingPasswordUser && currentView === "all" && (
-        <div
-          className="modal-overlay"
-          onClick={() => setResettingPasswordUser(null)}
-        >
-          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            <div className="modal-header">
-              <h3 style={{ fontSize: "16px", fontWeight: "600", color: "#fff" }}>
-                Reset User Password
-              </h3>
-              <button
-                className="modal-close-btn"
-                onClick={() => setResettingPasswordUser(null)}
-              >
-                ×
-              </button>
-            </div>
-
-            <Form
-              method="post"
-              onSubmit={() => {
-                setTimeout(() => setResettingPasswordUser(null), 300);
-              }}
-            >
-              <input type="hidden" name="intent" value="reset_password" />
-              <input type="hidden" name="id" value={resettingPasswordUser.id} />
-
-              <div style={{ marginBottom: "20px" }}>
-                <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.6)", lineHeight: "1.5" }}>
-                  Provide a new password for account{" "}
-                  <strong>{resettingPasswordUser.name}</strong> (
-                  {resettingPasswordUser.username}). They will need this password to log in.
-                </p>
-              </div>
-
-              <div style={{ marginBottom: "24px" }}>
-                <label className="admin-label" htmlFor="newPassword">
-                  New Password
-                </label>
-                <div style={{ position: "relative", display: "flex", alignItems: "center" }}>
-                  <input
-                    className="admin-input"
-                    type={showResetPassword ? "text" : "password"}
-                    id="newPassword"
-                    name="newPassword"
-                    placeholder="Enter new secure password"
-                    required
-                    style={{ width: "100%", paddingRight: "40px" }}
-                  />
-                  <button
-                    type="button"
-                    className="password-toggle-eye"
-                    onClick={() => setShowResetPassword(prev => !prev)}
-                    title={showResetPassword ? "Hide password" : "Show password"}
-                  >
-                    {showResetPassword ? (
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
-                        <circle cx="12" cy="12" r="3" />
-                      </svg>
-                    ) : (
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24" />
-                        <line x1="1" y1="1" x2="23" y2="23" />
-                      </svg>
-                    )}
-                  </button>
-                </div>
-              </div>
-
-              <div
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "flex-end",
-                  gap: "12px",
-                  borderTop: "1px solid rgba(255,255,255,0.05)",
-                  paddingTop: "20px",
-                }}
-              >
-                <button
-                  type="button"
-                  className="btn-action-secondary"
-                  onClick={() => setResettingPasswordUser(null)}
-                >
-                  Cancel
-                </button>
-                <button
-                  type="submit"
-                  className="btn-action-primary"
-                  disabled={isSubmitting}
-                >
-                  {isSubmitting ? "Updating..." : "Update Password"}
-                </button>
-              </div>
             </Form>
           </div>
         </div>
