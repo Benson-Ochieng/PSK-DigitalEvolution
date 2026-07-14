@@ -1709,34 +1709,34 @@ export default function CheckoutPage() {
                             />
                           </div>
 
-                          {/* Email and Phone side by side */}
-                          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1.5rem" }}>
-                            <div>
-                              <label style={labelStyle}>
-                                Email <span style={{ color: "#ef4444" }}>*</span>
-                              </label>
-                              <input
-                                type="email"
-                                required
-                                placeholder="me@mail.com"
-                                value={recipientEmail}
-                                onChange={e => setRecipientEmail(e.target.value)}
-                                style={inputStyle}
-                              />
-                            </div>
-                            <div>
-                              <label style={labelStyle}>
-                                Phone <span style={{ color: "#ef4444" }}>*</span>
-                              </label>
-                              <input
-                                type="tel"
-                                required
-                                placeholder="+254 000 000 000"
-                                value={recipientPhone}
-                                onChange={e => setRecipientPhone(e.target.value)}
-                                style={inputStyle}
-                              />
-                            </div>
+                          {/* Email Field */}
+                          <div>
+                            <label style={labelStyle}>
+                              Email <span style={{ color: "#ef4444" }}>*</span>
+                            </label>
+                            <input
+                              type="email"
+                              required
+                              placeholder="me@mail.com"
+                              value={recipientEmail}
+                              onChange={e => setRecipientEmail(e.target.value)}
+                              style={inputStyle}
+                            />
+                          </div>
+
+                          {/* Phone Field */}
+                          <div>
+                            <label style={labelStyle}>
+                              Phone <span style={{ color: "#ef4444" }}>*</span>
+                            </label>
+                            <input
+                              type="tel"
+                              required
+                              placeholder="+254 000 000 000"
+                              value={recipientPhone}
+                              onChange={e => setRecipientPhone(e.target.value)}
+                              style={inputStyle}
+                            />
                           </div>
                         </>
                       )}
