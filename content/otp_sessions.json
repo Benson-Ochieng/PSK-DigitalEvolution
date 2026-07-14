@@ -1,0 +1,52 @@
+[
+  {
+    "userId": "u-jdzoflyuq",
+    "target": "0745060999",
+    "codeHash": "87f1dba2e1c1a82d802192e7fe5356eb319d94d16ebecaddbd7a6c9d8e1942b4",
+    "expiresAt": "2026-07-14T09:51:26.062Z",
+    "attempts": 0,
+    "invalidated": true,
+    "id": "otp-f0j5l9p5q",
+    "createdAt": "2026-07-14T09:46:26.062Z"
+  },
+  {
+    "userId": "u-jdzoflyuq",
+    "target": "0745060999",
+    "codeHash": "eff151d875f9542234a376580b4d38267ae495c5861cee12e362b721b02f769f",
+    "expiresAt": "2026-07-14T09:51:58.666Z",
+    "attempts": 0,
+    "invalidated": false,
+    "id": "otp-wdp31n82m",
+    "createdAt": "2026-07-14T09:46:58.666Z"
+  },
+  {
+    "userId": "u-jdzoflyuq",
+    "target": "0745060999",
+    "codeHash": "407a89b5f016c5fefaa26b05e9a9a2d97dcbbe7c5040ad7d575afb8c3531f038",
+    "expiresAt": "2026-07-14T10:31:05.873Z",
+    "attempts": 0,
+    "invalidated": true,
+    "id": "otp-ba44wd10h",
+    "createdAt": "2026-07-14T10:26:05.873Z"
+  },
+  {
+    "userId": "u-admin",
+    "target": "0745060999",
+    "codeHash": "148933df9817393e9b17c47899cddb7af5a93bdb908dbcd31f6aff098e661c10",
+    "expiresAt": "2026-07-14T10:37:38.685Z",
+    "attempts": 2,
+    "invalidated": true,
+    "id": "otp-yq4s3wren",
+    "createdAt": "2026-07-14T10:32:38.685Z"
+  },
+  {
+    "userId": "u-admin",
+    "target": "0745060999",
+    "codeHash": "7bafb9e32562177b5f22ebbb0db5888c01f2990e8f3ed4b8b75b97a623893bfe",
+    "expiresAt": "2026-07-14T10:38:21.315Z",
+    "attempts": 0,
+    "invalidated": true,
+    "id": "otp-x4qvek6bp",
+    "createdAt": "2026-07-14T10:33:21.315Z"
+  }
+]
