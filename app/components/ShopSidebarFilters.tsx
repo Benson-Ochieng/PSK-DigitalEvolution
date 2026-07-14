@@ -205,30 +205,7 @@ export default function ShopSidebarFilters({
           </ul>
         </div>
 
-        {/* Clear All Filters reset option */}
-        {hasActiveFilters && (
-          <div className="filter-section" style={{ borderTop: "1px solid #e2e8f0", paddingTop: "1rem", marginTop: "0.5rem" }}>
-            <button
-              onClick={() => navigate(getClearAllHref())}
-              style={{
-                width: "100%",
-                padding: "0.5rem 0.75rem",
-                background: "#f1f5f9",
-                border: "1px solid #cbd5e1",
-                borderRadius: "4px",
-                fontSize: "0.85rem",
-                fontWeight: "600",
-                color: "#334155",
-                cursor: "pointer",
-                transition: "background 0.2s"
-              }}
-              onMouseOver={e => e.currentTarget.style.background = "#e2e8f0"}
-              onMouseOut={e => e.currentTarget.style.background = "#f1f5f9"}
-            >
-              Clear All Filters
-            </button>
-          </div>
-        )}
+
       </div>
     );
   }
@@ -348,30 +325,7 @@ export default function ShopSidebarFilters({
         </div>
       )}
 
-      {/* 4. Active filters summary and Reset option */}
-      {hasActiveFilters && (
-        <div className="filter-section" style={{ borderTop: "1px solid #e2e8f0", paddingTop: "1rem", marginTop: "0.5rem" }}>
-          <button
-            onClick={() => navigate(getClearAllHref())}
-            style={{
-              width: "100%",
-              padding: "0.5rem 0.75rem",
-              background: "#f1f5f9",
-              border: "1px solid #cbd5e1",
-              borderRadius: "4px",
-              fontSize: "0.85rem",
-              fontWeight: "600",
-              color: "#334155",
-              cursor: "pointer",
-              transition: "background 0.2s"
-            }}
-            onMouseOver={e => e.currentTarget.style.background = "#e2e8f0"}
-            onMouseOut={e => e.currentTarget.style.background = "#f1f5f9"}
-          >
-            Clear All Filters
-          </button>
-        </div>
-      )}
+
     </div>
   );
 }
