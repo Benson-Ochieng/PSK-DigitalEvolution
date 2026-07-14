@@ -5,3 +5,10 @@
 # React Router
 /.react-router/
 /build/
+
+# Supabase Auto-synced files
+content/products/
+content/posts/
+content/orders.json
+content/coupons.json
+content/users.json
