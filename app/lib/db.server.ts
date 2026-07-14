@@ -593,19 +593,23 @@ export const db = {
   user: {
     async findUnique({ where }: { where: { id?: string; email?: string; username?: string } }): Promise<User | null> {
       if (supabase) {
-        let query = supabase.from("users").select();
-        if (where.id) {
-          query = query.eq("id", where.id);
-        } else if (where.email) {
-          query = query.ilike("email", where.email);
-        } else if (where.username) {
-          query = query.ilike("username", where.username);
-        } else {
-          return null;
+        try {
+          let query = supabase.from("users").select();
+          if (where.id) {
+            query = query.eq("id", where.id);
+          } else if (where.email) {
+            query = query.ilike("email", where.email);
+          } else if (where.username) {
+            query = query.ilike("username", where.username);
+          } else {
+            return null;
+          }
+          const { data, error } = await query.maybeSingle();
+          if (error) throw error;
+          if (data) return data as User;
+        } catch (err) {
+          console.error("Supabase user findUnique failed, falling back to local storage:", err);
         }
-        const { data, error } = await query.maybeSingle();
-        if (error) throw error;
-        return data as User | null;
       }
 
       const usersList = readData<User[]>(USERS_FILE, initialUsers);
@@ -619,11 +623,19 @@ export const db = {
 
     async findMany(options?: { where?: (user: User) => boolean }): Promise<User[]> {
       let usersList: User[] = [];
+      let success = false;
       if (supabase) {
-        const { data, error } = await supabase.from("users").select().order("createdAt", { ascending: false });
-        if (error) throw error;
-        usersList = data as User[];
-      } else {
+        try {
+          const { data, error } = await supabase.from("users").select().order("createdAt", { ascending: false });
+          if (error) throw error;
+          usersList = data as User[];
+          success = true;
+        } catch (err) {
+          console.error("Supabase user findMany failed, falling back to local storage:", err);
+        }
+      }
+
+      if (!success || usersList.length === 0) {
         usersList = readData<User[]>(USERS_FILE, initialUsers);
       }
 
@@ -644,8 +656,12 @@ export const db = {
         createdAt: new Date().toISOString().split('T')[0]
       };
       if (supabase) {
-        const { error } = await supabase.from("users").insert(user);
-        if (error) throw error;
+        try {
+          const { error } = await supabase.from("users").insert(user);
+          if (error) throw error;
+        } catch (err) {
+          console.error("Supabase user create failed, falling back to local storage:", err);
+        }
       }
 
       const usersList = readData<User[]>(USERS_FILE, initialUsers);
@@ -655,37 +671,34 @@ export const db = {
     },
 
     async update({ where, data }: { where: { id: string }, data: Partial<User> }): Promise<User> {
+      let updatedUser: User | null = null;
       if (supabase) {
-        const { data: updated, error } = await supabase.from("users").update(data).eq("id", where.id).select().single();
-        if (error) throw error;
-        // Also update local JSON
-        const usersList = readData<User[]>(USERS_FILE, initialUsers);
-        const idx = usersList.findIndex(u => u.id === where.id);
-        if (idx !== -1) {
-          usersList[idx] = updated as User;
-          writeData(USERS_FILE, usersList);
+        try {
+          const { data: updated, error } = await supabase.from("users").update(data).eq("id", where.id).select().single();
+          if (error) throw error;
+          updatedUser = updated as User;
+        } catch (err) {
+          console.error("Supabase user update failed, falling back to local storage:", err);
         }
-        return updated as User;
       }
 
       const usersList = readData<User[]>(USERS_FILE, initialUsers);
       const idx = usersList.findIndex(u => u.id === where.id);
       if (idx === -1) throw new Error("User not found");
-      const updated = { ...usersList[idx], ...data };
-      usersList[idx] = updated;
+      const localUpdated = { ...usersList[idx], ...data };
+      usersList[idx] = localUpdated;
       writeData(USERS_FILE, usersList);
-      return updated;
+      return updatedUser || localUpdated;
     },
 
     async delete({ where }: { where: { id: string } }): Promise<boolean> {
       if (supabase) {
-        const { error } = await supabase.from("users").delete().eq("id", where.id);
-        if (error) throw error;
-        // Also update local JSON
-        const usersList = readData<User[]>(USERS_FILE, initialUsers);
-        const filtered = usersList.filter(u => u.id !== where.id);
-        writeData(USERS_FILE, filtered);
-        return true;
+        try {
+          const { error } = await supabase.from("users").delete().eq("id", where.id);
+          if (error) throw error;
+        } catch (err) {
+          console.error("Supabase user delete failed, falling back to local storage:", err);
+        }
       }
 
       const usersList = readData<User[]>(USERS_FILE, initialUsers);
