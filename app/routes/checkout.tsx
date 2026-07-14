@@ -762,11 +762,9 @@ export default function CheckoutPage() {
 
   const hasCoupon = appliedDiscount > 0;
 
-  if (hasFreeShippingProduct) {
-    deliveryFee = 0;
-    deliveryFeeLabel = "Free shipping is available for this order.";
-    isNeighbourhoodProvided = true;
-  } else if (hasDonateProduct) {
+  const isAllDonation = items.length > 0 && items.every(item => item.name.toLowerCase().includes("donate"));
+
+  if (isAllDonation) {
     deliveryFee = 0;
     deliveryFeeLabel = "Note: Donation products total shipping is free.";
     isNeighbourhoodProvided = true;
@@ -784,47 +782,22 @@ export default function CheckoutPage() {
       finalShippingMethod = "standard";
     }
 
-    if (hasCoupon && finalShippingMethod === "standard") {
-      deliveryFee = 0;
-      deliveryFeeLabel = "Delivery Fee waived with coupon";
-    } else if (selectedCity === "Nairobi") {
-      const currentMonth = nairobiDate.getMonth() + 1;
-      const currentYear = nairobiDate.getFullYear();
-      const isCampaignActive = (currentYear === 2026 && (currentMonth === 4 || currentMonth === 5));
-
-      if (isCampaignActive && subtotal >= 1500) {
-        if (finalShippingMethod === "standard") {
-          deliveryFee = 0;
-          deliveryFeeLabel = "🚚 Free Delivery on orders above KES 1,500!";
-        } else {
-          deliveryFee = 200 + 300;
-          deliveryFeeLabel = "Express Delivery Fee (2hr) - Campaign";
-        }
-      } else if (subtotal < 1500) {
+    if (selectedCity === "Nairobi") {
+      if (subtotal < 5000) {
         if (finalShippingMethod === "standard") {
           deliveryFee = zoneBaseFee;
-          deliveryFeeLabel = `Delivery Fee (Standard) - Nairobi < 1500/-`;
+          deliveryFeeLabel = `Delivery Fee (Standard) - ${selectedZone}`;
         } else {
           deliveryFee = zoneBaseFee + 200;
-          deliveryFeeLabel = `Express Delivery Fee (2hr) - Nairobi < 1500/-`;
+          deliveryFeeLabel = `Express Delivery Fee (2hr) - ${selectedZone}`;
         }
       } else {
-        if (subtotal < 5000) {
-          if (finalShippingMethod === "standard") {
-            deliveryFee = zoneBaseFee;
-            deliveryFeeLabel = `Delivery Fee (Standard) - ${selectedZone}`;
-          } else {
-            deliveryFee = zoneBaseFee + 200;
-            deliveryFeeLabel = `Express Delivery Fee (2hr) - ${selectedZone}`;
-          }
+        if (finalShippingMethod === "standard") {
+          deliveryFee = 0;
+          deliveryFeeLabel = "Free Shipping for orders above 5000";
         } else {
-          if (finalShippingMethod === "standard") {
-            deliveryFee = 0;
-            deliveryFeeLabel = "Free Shipping for orders above 5000";
-          } else {
-            deliveryFee = 500;
-            deliveryFeeLabel = "Express Delivery Fee(2hr) on Free Shipping for orders above 5000";
-          }
+          deliveryFee = 500;
+          deliveryFeeLabel = "Express Delivery Fee(2hr) on Free Shipping for orders above 5000";
         }
       }
     } else {
