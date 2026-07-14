@@ -1,4 +1,4 @@
-import { Link, useLoaderData } from "react-router";
+import { Link, useLoaderData, redirect } from "react-router";
 import { useState } from "react";
 import type { Route } from "./+types/product.$slug";
 import { query } from "../db.server";
@@ -11,6 +11,9 @@ const productCache: Record<string, { data: any; timestamp: number }> = {};
 const CACHE_TTL = 5 * 60 * 1000; // 5 minutes cache
 
 export async function loader({ params }: Route.LoaderArgs) {
+  if (params.slug && params.slug.toLowerCase().includes("donate")) {
+    throw redirect("https://psk-donation.vercel.app/");
+  }
   const cacheKey = params.slug;
   const now = Date.now();
   if (productCache[cacheKey] && (now - productCache[cacheKey].timestamp) < CACHE_TTL) {

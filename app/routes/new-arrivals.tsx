@@ -5,6 +5,7 @@ import { query } from "../db.server";
 import { useCart } from "../context/cart";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { DoublePawIcon } from "../components/CategoryIcon";
 
 export function meta() {
   return [
@@ -88,6 +89,10 @@ function ProductCard({ p }: { p: any }) {
 
   function handleAdd(e: React.MouseEvent) {
     e.preventDefault();
+    if (isDonation) {
+      window.location.href = "https://psk-donation.vercel.app/";
+      return;
+    }
     addItem({
       id: p.id,
       name: p.name,
@@ -128,38 +133,65 @@ function ProductCard({ p }: { p: any }) {
         </span>
       )}
 
-      <Link to={`/product/${p.slug}/`} className="product-card-link">
-        <div className="product-card-img">
-          {p.image_url ? (
-            <img src={p.image_url} alt={p.name} loading="lazy" />
-          ) : (
-            <span className="placeholder-icon" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", height: "150px" }}>
-              🐾
-            </span>
-          )}
-        </div>
-        <div className="product-card-body">
-          <div className="product-name" title={p.name}>{p.name}</div>
-          <div className="product-price">
-            {isOnSale ? (
-              <>
-                <span style={{ textDecoration: "line-through", textDecorationColor: "#ef4444", color: "#a6a6a6", fontSize: "0.85rem", marginRight: "0.5rem", fontWeight: "bold" }}>
-                  {Number(p.competitor_min).toLocaleString()}KSh
-                </span>
-                <span style={{ color: "#ef4444" }}>
-                  {Number(p.our_price).toLocaleString()}KSh
-                </span>
-              </>
+      {isDonation ? (
+        <a href="https://psk-donation.vercel.app/" className="product-card-link">
+          <div className="product-card-img">
+            {p.image_url ? (
+              <img src={p.image_url} alt={p.name} loading="lazy" />
             ) : (
-              <span style={{ color: "#ef4444" }}>
-                {Number(p.our_price).toLocaleString()}KSh
+              <span className="placeholder-icon" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", height: "150px" }}>
+                🐾
               </span>
             )}
           </div>
-        </div>
-      </Link>
+          <div className="product-card-body">
+            <div className="product-name" title={p.name}>{p.name}</div>
+            <div className="product-price">
+              <span style={{ color: "#ef4444" }}>
+                {Number(p.our_price).toLocaleString()}KSh
+              </span>
+            </div>
+          </div>
+        </a>
+      ) : (
+        <Link to={`/product/${p.slug}/`} className="product-card-link">
+          <div className="product-card-img">
+            {p.image_url ? (
+              <img src={p.image_url} alt={p.name} loading="lazy" />
+            ) : (
+              <span className="placeholder-icon" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", height: "150px" }}>
+                🐾
+              </span>
+            )}
+          </div>
+          <div className="product-card-body">
+            <div className="product-name" title={p.name}>{p.name}</div>
+            <div className="product-price">
+              {isOnSale ? (
+                <>
+                  <span style={{ textDecoration: "line-through", textDecorationColor: "#ef4444", color: "#a6a6a6", fontSize: "0.85rem", marginRight: "0.5rem", fontWeight: "bold" }}>
+                    {Number(p.competitor_min).toLocaleString()}KSh
+                  </span>
+                  <span style={{ color: "#ef4444" }}>
+                    {Number(p.our_price).toLocaleString()}KSh
+                  </span>
+                </>
+              ) : (
+                <span style={{ color: "#ef4444" }}>
+                  {Number(p.our_price).toLocaleString()}KSh
+                </span>
+              )}
+            </div>
+          </div>
+        </Link>
+      )}
       <button className={`add-to-cart-btn ${added ? "added" : ""}`} onClick={handleAdd}>
-        {added ? "✓ Added" : (isDonation ? "🐾 Donate" : "Add To Cart")}
+        {added ? "✓ Added" : (isDonation ? (
+          <>
+            <DoublePawIcon size={20} fill="currentColor" style={{ marginRight: "6px", display: "inline-block", verticalAlign: "middle" }} />
+            Donate
+          </>
+        ) : "Add To Cart")}
       </button>
     </div>
   );

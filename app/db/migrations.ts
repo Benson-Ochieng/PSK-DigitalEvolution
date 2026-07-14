@@ -294,6 +294,16 @@ export const migrations: Migration[] = [
       ('Where are you located?', '<p>We are a fully online store, delivering pet supplies directly to your doorstep. We also have partner retail locations across the country.</p>', 80)
       ON CONFLICT (question) DO NOTHING;
     `
+  },
+  {
+    id: 12,
+    name: 'hide_extra_donate_products',
+    up: `
+      UPDATE products
+      SET status = 'draft'
+      WHERE (name ILIKE '%donate%' OR slug ILIKE '%donate%')
+        AND id NOT IN (90033, 38507, 38506, 38505, 15291);
+    `
   }
 ];
 

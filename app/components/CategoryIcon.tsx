@@ -111,3 +111,33 @@ export function PawIcon({ size = 24, strokeWidth = 2, ...props }: IconProps) {
     </svg>
   );
 }
+
+export function DoublePawIcon({ size = 24, ...props }: IconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      {...props}
+    >
+      {/* Top Left Paw */}
+      <g transform="translate(1, 1) scale(0.55) rotate(-15 12 11)">
+        <circle cx="12" cy="14" r="4" />
+        <circle cx="6.5" cy="9.5" r="2" />
+        <circle cx="10" cy="5.5" r="2" />
+        <circle cx="14" cy="5.5" r="2" />
+        <circle cx="17.5" cy="9.5" r="2" />
+      </g>
+      {/* Bottom Right Paw */}
+      <g transform="translate(10, 8) scale(0.5) rotate(15 12 11)">
+        <circle cx="12" cy="14" r="4" />
+        <circle cx="6.5" cy="9.5" r="2" />
+        <circle cx="10" cy="5.5" r="2" />
+        <circle cx="14" cy="5.5" r="2" />
+        <circle cx="17.5" cy="9.5" r="2" />
+      </g>
+    </svg>
+  );
+}

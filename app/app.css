@@ -1213,6 +1213,19 @@ body {
   /* Green for added state */
 }
 
+.add-to-cart-btn.donation-btn {
+  background: #ffffff;
+  color: #1E5DA7;
+  border: 2px solid #1E5DA7;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s ease;
+}
+
+.add-to-cart-btn.donation-btn:hover {
+  background: #1E5DA7;
+  color: #ffffff;
+}
+
+
 /* ── Filter Tabs ── */
 .filter-bar {
   display: flex;

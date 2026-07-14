@@ -221,7 +221,7 @@ const DRAWER_MENU_ITEMS = [
     ]
   },
   { name: "Human", path: "/product-category/human/" },
-  { name: "Donate", path: "/shop?type=donate" },
+  { name: "Donate", path: "https://psk-donation.vercel.app/" },
   { name: "Gift Vouchers", path: "/product-tag/gift-cards/" },
   { name: "Food Comparison", path: "/tag/compare/" },
   {
@@ -336,19 +336,35 @@ export default function Navbar() {
             background: depth > 0 ? "#ffffff" : "#f8fafc"
           }}
         >
-          <Link
-            to={item.path}
-            className="drawer-menu-link"
-            style={{
-              fontWeight: depth === 0 ? "700" : "500",
-              fontSize: depth === 0 ? "0.95rem" : "0.85rem",
-              color: depth === 0 ? "#1e293b" : "#475569",
-              paddingLeft: `${1.25 + depth * 0.75}rem`
-            }}
-            onClick={() => setIsMenuOpen(false)}
-          >
-            {item.name}
-          </Link>
+          {item.path.startsWith("http") ? (
+            <a
+              href={item.path}
+              className="drawer-menu-link"
+              style={{
+                fontWeight: depth === 0 ? "700" : "500",
+                fontSize: depth === 0 ? "0.95rem" : "0.85rem",
+                color: depth === 0 ? "#1e293b" : "#475569",
+                paddingLeft: `${1.25 + depth * 0.75}rem`
+              }}
+              onClick={() => setIsMenuOpen(false)}
+            >
+              {item.name}
+            </a>
+          ) : (
+            <Link
+              to={item.path}
+              className="drawer-menu-link"
+              style={{
+                fontWeight: depth === 0 ? "700" : "500",
+                fontSize: depth === 0 ? "0.95rem" : "0.85rem",
+                color: depth === 0 ? "#1e293b" : "#475569",
+                paddingLeft: `${1.25 + depth * 0.75}rem`
+              }}
+              onClick={() => setIsMenuOpen(false)}
+            >
+              {item.name}
+            </Link>
+          )}
           {isExpandable && (
             <button
               type="button"
@@ -710,7 +726,36 @@ export default function Navbar() {
                         .filter(Boolean)
                         .filter((val, idx, self) => self.indexOf(val) === idx)
                         .join(", ");
-                      return (
+                      const isDonation = p.name.toLowerCase().includes("donate");
+                      return isDonation ? (
+                        <a
+                          key={p.id}
+                          href="https://psk-donation.vercel.app/"
+                          className="search-product-row-item"
+                          onClick={() => {
+                            setIsSearchFocused(false);
+                            setSearchVal("");
+                          }}
+                        >
+                          <img src={p.image_url} alt={p.name} className="search-product-row-img" />
+                          <div className="search-product-row-info">
+                            <div className="search-product-row-name">
+                              {highlightText(p.name, searchVal)}
+                            </div>
+                            <div className="search-product-row-price">
+                              {p.price.toLocaleString()}KSh
+                            </div>
+                            {p.short_description && (
+                              <div className="search-product-row-desc">
+                                {highlightText(p.short_description, searchVal)}
+                              </div>
+                            )}
+                            <div className="search-product-row-breadcrumb">
+                              {displayBreadcrumb}
+                            </div>
+                          </div>
+                        </a>
+                      ) : (
                         <Link
                           key={p.id}
                           to={p.slug ? `/product/${p.slug}/` : `/shop/${p.id}`}

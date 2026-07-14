@@ -5,7 +5,7 @@ import { query } from "../db.server";
 import { useCart } from "../context/cart";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import { DogIcon, CatIcon, BoneIcon, DropletIcon } from "../components/CategoryIcon";
+import { DogIcon, CatIcon, BoneIcon, DropletIcon, DoublePawIcon } from "../components/CategoryIcon";
 import ShopSidebarFilters from "../components/ShopSidebarFilters";
 
 export function meta({ data }: Route.MetaArgs): Route.MetaDescriptors {
@@ -94,11 +94,12 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     return shopCache[cacheKey].data;
   }
   const isTagPage = url.pathname.includes("/product-tag/");
-  const hideFilter = url.searchParams.get("hideFilter") === "true" || isTagPage;
+  const urlSearch = url.searchParams.get("q") || "";
+  const isDonationSearch = urlSearch.toLowerCase().includes("donate");
+  const hideFilter = url.searchParams.get("hideFilter") === "true" || isTagPage || isDonationSearch;
 
   let animal = url.searchParams.get("animal") || "";
   let type = url.searchParams.get("type") || "";
-  const urlSearch = url.searchParams.get("q") || "";
   let brand = url.searchParams.get("brand") || "";
   const fromCat = url.searchParams.get("from_cat") || "";
   const fromBrand = url.searchParams.get("from_brand") || "";
@@ -638,6 +639,10 @@ function ProductCard({ p, animal }: { p: any; animal: string }) {
 
   function handleAdd(e: React.MouseEvent) {
     e.preventDefault();
+    if (isDonation) {
+      window.location.href = "https://psk-donation.vercel.app/";
+      return;
+    }
     addItem({
       id: p.id,
       name: p.name,
@@ -678,39 +683,67 @@ function ProductCard({ p, animal }: { p: any; animal: string }) {
         </span>
       )}
 
-      <Link to={`/product/${p.slug}/`} className="product-card-link">
-        <div className="product-card-img">
-          {p.image_url
-            ? <img src={p.image_url} alt={p.name} loading="lazy" />
-            : (
-              <span className="placeholder-icon" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center" }}>
-                {p.animal_type === "cat" ? <CatIcon size={64} strokeWidth={1.5} /> : <DogIcon size={64} strokeWidth={1.5} />}
-              </span>
-            )
-          }
-        </div>
-        <div className="product-card-body">
-          <div className="product-name" title={p.name}>{p.name}</div>
-          <div className="product-price">
-            {isOnSale ? (
-              <>
-                <span style={{ textDecoration: "line-through", textDecorationColor: "#ef4444", color: "#a6a6a6", fontSize: "0.85rem", marginRight: "0.5rem", fontWeight: "bold" }}>
-                  {Number(p.competitor_min).toLocaleString()}KSh
+      {isDonation ? (
+        <a href="https://psk-donation.vercel.app/" className="product-card-link">
+          <div className="product-card-img">
+            {p.image_url
+              ? <img src={p.image_url} alt={p.name} loading="lazy" />
+              : (
+                <span className="placeholder-icon" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center" }}>
+                  {p.animal_type === "cat" ? <CatIcon size={64} strokeWidth={1.5} /> : <DogIcon size={64} strokeWidth={1.5} />}
                 </span>
-                <span style={{ color: "#ef4444" }}>
-                  {Number(p.our_price).toLocaleString()}KSh
-                </span>
-              </>
-            ) : (
+              )
+            }
+          </div>
+          <div className="product-card-body">
+            <div className="product-name" title={p.name}>{p.name}</div>
+            <div className="product-price">
               <span style={{ color: "#ef4444" }}>
                 {Number(p.our_price).toLocaleString()}KSh
               </span>
-            )}
+            </div>
           </div>
-        </div>
-      </Link>
+        </a>
+      ) : (
+        <Link to={`/product/${p.slug}/`} className="product-card-link">
+          <div className="product-card-img">
+            {p.image_url
+              ? <img src={p.image_url} alt={p.name} loading="lazy" />
+              : (
+                <span className="placeholder-icon" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center" }}>
+                  {p.animal_type === "cat" ? <CatIcon size={64} strokeWidth={1.5} /> : <DogIcon size={64} strokeWidth={1.5} />}
+                </span>
+              )
+            }
+          </div>
+          <div className="product-card-body">
+            <div className="product-name" title={p.name}>{p.name}</div>
+            <div className="product-price">
+              {isOnSale ? (
+                <>
+                  <span style={{ textDecoration: "line-through", textDecorationColor: "#ef4444", color: "#a6a6a6", fontSize: "0.85rem", marginRight: "0.5rem", fontWeight: "bold" }}>
+                    {Number(p.competitor_min).toLocaleString()}KSh
+                  </span>
+                  <span style={{ color: "#ef4444" }}>
+                    {Number(p.our_price).toLocaleString()}KSh
+                  </span>
+                </>
+              ) : (
+                <span style={{ color: "#ef4444" }}>
+                  {Number(p.our_price).toLocaleString()}KSh
+                </span>
+              )}
+            </div>
+          </div>
+        </Link>
+      )}
       <button className={`add-to-cart-btn ${added ? "added" : ""}`} onClick={handleAdd}>
-        {added ? "✓ Added" : (isDonation ? "🐾 Donate" : "Add To Cart")}
+        {added ? "✓ Added" : (isDonation ? (
+          <>
+            <DoublePawIcon size={20} fill="currentColor" style={{ marginRight: "6px", display: "inline-block", verticalAlign: "middle" }} />
+            Donate
+          </>
+        ) : "Add To Cart")}
       </button>
     </div>
   );
