@@ -19,7 +19,15 @@ export async function loader({ request }: { request: Request }) {
         u.username.toLowerCase().includes(search.toLowerCase())
     );
   }
-  return { users, search, currentUser };
+
+  let posts = [];
+  try {
+    posts = await db.post.findMany();
+  } catch (err) {
+    console.error("Failed to fetch posts in users loader:", err);
+  }
+
+  return { users, search, currentUser, posts };
 }
 
 export async function action({ request }: { request: Request }) {
@@ -151,7 +159,7 @@ export async function action({ request }: { request: Request }) {
 }
 
 export default function VpBackendUsers() {
-  const { users, search, currentUser } = useLoaderData() as any;
+  const { users, search, currentUser, posts = [] } = useLoaderData() as any;
   const actionData = useActionData() as { error?: string; success?: boolean; profileUpdated?: boolean } | undefined;
   const [searchParams, setSearchParams] = useSearchParams();
   const currentView = searchParams.get("view") || "all";
@@ -209,17 +217,30 @@ export default function VpBackendUsers() {
   const allUsers = useMemo(() => {
     return (users || []).map((u: any) => {
       const is2FA = ["admin", "manager", "Ben", "Jeff"].includes(u.username);
+      
+      // Calculate active user posts dynamically from DB posts list
+      const userPostCount = (posts || []).filter((post: any) => {
+        if (!post) return false;
+        const author = (post.author || "").toLowerCase().trim();
+        return (
+          author === u.name.toLowerCase().trim() ||
+          author === u.username.toLowerCase().trim() ||
+          author === u.email.toLowerCase().trim() ||
+          author === u.id.toLowerCase().trim()
+        );
+      }).length;
+
       return {
         ...u,
         twoFactor: u.twoFactor || (is2FA ? "Active" : "Inactive"),
-        posts: u.posts !== undefined ? u.posts : (u.role === "administrator" ? 14 : (u.role === "shop_manager" ? 4 : 0)),
+        posts: userPostCount,
         lastLogin: u.lastLogin || (u.username === "admin" ? "2026-06-10 15:15" : "2026-06-10 12:30"),
         zohoTags: u.zohoTags || (u.role === "administrator" ? "admin-team, lead" : "synced"),
         metorik: u.metorik || "Synced",
         wordpress: u.wordpress || (u.username + "@wordpress.com"),
       };
     });
-  }, [users]);
+  }, [users, posts]);
 
   // Filters logic
   const filteredUsers = useMemo(() => {

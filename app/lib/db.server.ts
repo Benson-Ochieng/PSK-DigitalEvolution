@@ -592,6 +592,7 @@ export const db = {
 
   user: {
     async findUnique({ where }: { where: { id?: string; email?: string; username?: string } }): Promise<User | null> {
+      let user: User | null = null;
       if (supabase) {
         try {
           let query = supabase.from("users").select();
@@ -606,37 +607,47 @@ export const db = {
           }
           const { data, error } = await query.maybeSingle();
           if (error) throw error;
-          if (data) return data as User;
+          if (data) user = data as User;
         } catch (err) {
           console.error("Supabase user findUnique failed, falling back to local storage:", err);
         }
       }
 
-      const usersList = readData<User[]>(USERS_FILE, initialUsers);
-      return usersList.find(u => {
-        if (where.id && u.id === where.id) return true;
-        if (where.email && u.email.toLowerCase() === where.email.toLowerCase()) return true;
-        if (where.username && u.username.toLowerCase() === where.username.toLowerCase()) return true;
-        return false;
-      }) || null;
+      if (!user) {
+        const usersList = readData<User[]>(USERS_FILE, initialUsers);
+        user = usersList.find(u => {
+          if (where.id && u.id === where.id) return true;
+          if (where.email && u.email.toLowerCase() === where.email.toLowerCase()) return true;
+          if (where.username && u.username.toLowerCase() === where.username.toLowerCase()) return true;
+          return false;
+        }) || null;
+      }
+
+      return user;
     },
 
     async findMany(options?: { where?: (user: User) => boolean }): Promise<User[]> {
-      let usersList: User[] = [];
-      let success = false;
+      const localUsers = readData<User[]>(USERS_FILE, initialUsers);
+      let usersList = [...localUsers];
+
       if (supabase) {
         try {
           const { data, error } = await supabase.from("users").select().order("createdAt", { ascending: false });
           if (error) throw error;
-          usersList = data as User[];
-          success = true;
+          if (data) {
+            const supabaseUsers = data as User[];
+            const mergedMap = new Map<string, User>();
+            
+            // Populate map with local users first
+            localUsers.forEach(u => mergedMap.set(u.id, u));
+            // Overwrite/add with Supabase users
+            supabaseUsers.forEach(u => mergedMap.set(u.id, u));
+            
+            usersList = Array.from(mergedMap.values());
+          }
         } catch (err) {
           console.error("Supabase user findMany failed, falling back to local storage:", err);
         }
-      }
-
-      if (!success || usersList.length === 0) {
-        usersList = readData<User[]>(USERS_FILE, initialUsers);
       }
 
       usersList.sort((a, b) => new Date(b.createdAt || 0).getTime() - new Date(a.createdAt || 0).getTime());
