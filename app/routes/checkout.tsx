@@ -992,13 +992,15 @@ export default function CheckoutPage() {
     borderRadius: "4px",
     outline: "none",
     boxSizing: "border-box",
-    fontSize: "0.95rem",
+    fontSize: "14px",
+    fontFamily: "var(--font-sans)",
     color: "#444"
   };
 
   const labelStyle: React.CSSProperties = {
     display: "block",
-    fontSize: "0.9rem",
+    fontSize: "14px",
+    fontFamily: "var(--font-sans)",
     fontWeight: 500,
     color: "#333",
     marginBottom: "0.4rem"
@@ -1045,7 +1047,7 @@ export default function CheckoutPage() {
               marginBottom: "3rem"
             }}>
               <span style={{ fontSize: "4rem" }}>🎉</span>
-              <h2 style={{ fontSize: "2rem", color: "#1E5DA7", margin: "1rem 0", fontFamily: '"Patrick Hand", cursive' }}>
+              <h2 style={{ fontSize: "1.8rem", color: "#1E5DA7", margin: "1rem 0", fontFamily: "var(--font-sans)", fontWeight: "bold" }}>
                 Thank you! Your order has been placed.
               </h2>
               <p style={{ color: "#515151", fontSize: "1.1rem", marginBottom: "2rem" }}>
@@ -1163,8 +1165,8 @@ export default function CheckoutPage() {
 
                   <div>
                     <h3 style={{
-                      fontFamily: '"Patrick Hand", cursive',
-                      fontSize: "1.6rem",
+                      fontFamily: "var(--font-sans)",
+                      fontSize: "1.4rem",
                       color: "#1E5DA7",
                       textAlign: "center",
                       margin: "0 0 1.5rem 0",
@@ -1215,7 +1217,8 @@ export default function CheckoutPage() {
                                 border: "none",
                                 color: "#1E5DA7",
                                 fontWeight: "bold",
-                                fontSize: "0.85rem",
+                                fontSize: "14px",
+                                fontFamily: "var(--font-sans)",
                                 cursor: "pointer"
                               }}
                             >
@@ -1237,10 +1240,10 @@ export default function CheckoutPage() {
                               }}
                             >
                               <div style={{ display: "flex", flexDirection: "column", gap: "0.35rem", alignItems: "flex-start" }}>
-                                <span style={{ fontWeight: "bold", fontSize: "1.1rem", color: "#333" }}>
+                                <span style={{ fontWeight: "bold", fontSize: "15px", fontFamily: "var(--font-sans)", color: "#333" }}>
                                   Shipping Address
                                 </span>
-                                <span style={{ fontSize: "0.95rem", color: "#555" }}>
+                                <span style={{ fontSize: "14px", fontFamily: "var(--font-sans)", color: "#555" }}>
                                   {(() => {
                                     const active = savedAddresses.find(a => a.id === selectedAddressId)!;
                                     return `${active.first_name} ${active.last_name}, ${active.neighbourhood}, ${active.city}`;
@@ -1305,17 +1308,17 @@ export default function CheckoutPage() {
                                     >
                                       <div style={{ display: "flex", flexDirection: "column", gap: "0.15rem", flex: 1, marginRight: "0.5rem" }}>
                                         <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
-                                          <span style={{ fontWeight: "bold", fontSize: "0.85rem", color: "#333" }}>
+                                          <span style={{ fontWeight: "bold", fontSize: "14px", fontFamily: "var(--font-sans)", color: "#333" }}>
                                             {addr.first_name} {addr.last_name}
                                           </span>
                                           {addr.is_default && (
-                                            <span style={{ color: "#eab308", fontSize: "0.75rem", fontWeight: "bold" }}>★</span>
+                                            <span style={{ color: "#eab308", fontSize: "12px", fontWeight: "bold" }}>★</span>
                                           )}
                                         </div>
-                                        <span style={{ fontSize: "0.8rem", color: "#666" }}>
+                                        <span style={{ fontSize: "13px", fontFamily: "var(--font-sans)", color: "#666" }}>
                                           {addr.street_address}{addr.apartment_info ? `, ${addr.apartment_info}` : ""}, {addr.neighbourhood}, {addr.city}
                                         </span>
-                                        <span style={{ fontSize: "0.75rem", color: "#888" }}>
+                                        <span style={{ fontSize: "12px", fontFamily: "var(--font-sans)", color: "#888" }}>
                                           Phone: {addr.phone}
                                         </span>
                                       </div>
@@ -1369,7 +1372,8 @@ export default function CheckoutPage() {
                                         border: "none",
                                         color: "#1E5DA7",
                                         fontWeight: "bold",
-                                        fontSize: "0.85rem",
+                                        fontSize: "14px",
+                                        fontFamily: "var(--font-sans)",
                                         cursor: "pointer",
                                         padding: 0,
                                         textDecoration: "underline"
@@ -1398,7 +1402,8 @@ export default function CheckoutPage() {
                                     border: "none",
                                     color: "#1E5DA7",
                                     fontWeight: "bold",
-                                    fontSize: "0.85rem",
+                                    fontSize: "14px",
+                                    fontFamily: "var(--font-sans)",
                                     cursor: "pointer",
                                     display: "flex",
                                     alignItems: "center",
@@ -1420,10 +1425,11 @@ export default function CheckoutPage() {
                                   borderRadius: "4px",
                                   background: "#ffffff",
                                   cursor: "pointer",
+                                  fontFamily: "var(--font-sans)",
                                   boxShadow: "0 1px 3px rgba(0,0,0,0.05)"
                                 }}
                               >
-                                <span style={{ fontSize: "0.9rem", color: "#333" }}>
+                                <span style={{ fontSize: "14px", fontFamily: "var(--font-sans)", color: "#333" }}>
                                   {selectedAddressId && savedAddresses.find(a => a.id === selectedAddressId) ? (
                                     (() => {
                                       const active = savedAddresses.find(a => a.id === selectedAddressId)!;
@@ -1452,7 +1458,7 @@ export default function CheckoutPage() {
                                   overflowY: "auto"
                                 }}>
                                   {savedAddresses.length === 0 ? (
-                                    <div style={{ padding: "1rem", fontStyle: "italic", color: "#666", fontSize: "0.85rem", textAlign: "center" }}>
+                                    <div style={{ padding: "1rem", fontStyle: "italic", color: "#666", fontSize: "14px", fontFamily: "var(--font-sans)", textAlign: "center" }}>
                                       No saved addresses found. Click "Add Address" to create one.
                                     </div>
                                   ) : (
@@ -1479,17 +1485,17 @@ export default function CheckoutPage() {
                                         >
                                           <div style={{ display: "flex", flexDirection: "column", gap: "0.15rem", flex: 1, marginRight: "0.5rem" }}>
                                             <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
-                                              <span style={{ fontWeight: "bold", fontSize: "0.85rem", color: "#333" }}>
+                                              <span style={{ fontWeight: "bold", fontSize: "14px", fontFamily: "var(--font-sans)", color: "#333" }}>
                                                 {addr.first_name} {addr.last_name}
                                               </span>
                                               {addr.is_default && (
                                                 <span style={{ color: "#eab308", fontSize: "0.75rem", fontWeight: "bold" }}>★</span>
                                               )}
                                             </div>
-                                            <span style={{ fontSize: "0.8rem", color: "#666" }}>
+                                            <span style={{ fontSize: "13px", fontFamily: "var(--font-sans)", color: "#666" }}>
                                               {addr.street_address}{addr.apartment_info ? `, ${addr.apartment_info}` : ""}, {addr.neighbourhood}, {addr.city}
                                             </span>
-                                            <span style={{ fontSize: "0.75rem", color: "#888" }}>
+                                            <span style={{ fontSize: "12px", fontFamily: "var(--font-sans)", color: "#888" }}>
                                               Phone: {addr.phone}
                                             </span>
                                           </div>
@@ -1505,7 +1511,7 @@ export default function CheckoutPage() {
                                             <button
                                               type="button"
                                               onClick={() => handleOpenEditAddress(addr)}
-                                              style={{ background: "none", border: "none", cursor: "pointer", padding: "2px", color: "#1E5DA7", fontSize: "0.95rem" }}
+                                              style={{ background: "none", border: "none", cursor: "pointer", padding: "2px", color: "#1E5DA7", fontSize: "14px" }}
                                               title="Edit Address"
                                             >
                                               ✎
@@ -1513,7 +1519,7 @@ export default function CheckoutPage() {
                                             <button
                                               type="button"
                                               onClick={() => handleDeleteAddress(addr.id)}
-                                              style={{ background: "none", border: "none", cursor: "pointer", padding: "2px", color: "#ef4444", fontSize: "0.95rem" }}
+                                              style={{ background: "none", border: "none", cursor: "pointer", padding: "2px", color: "#ef4444", fontSize: "14px" }}
                                               title="Delete Address"
                                             >
                                               🗑
@@ -1561,7 +1567,7 @@ export default function CheckoutPage() {
                             <label style={labelStyle}>
                               Country <span style={{ color: "#ef4444" }}>*</span>
                             </label>
-                            <div style={{ fontSize: "1.05rem", fontWeight: "bold", color: "#333", padding: "0.2rem 0" }}>
+                            <div style={{ fontSize: "14px", fontFamily: "var(--font-sans)", fontWeight: "bold", color: "#333", padding: "0.2rem 0" }}>
                               Kenya
                             </div>
                           </div>
@@ -1645,7 +1651,7 @@ export default function CheckoutPage() {
                               </label>
                               {isExpressTimeAvailable ? (
                                 <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem", marginTop: "0.5rem" }}>
-                                  <label style={{ display: "flex", alignItems: "center", cursor: "pointer", fontSize: "0.95rem" }}>
+                                  <label style={{ display: "flex", alignItems: "center", cursor: "pointer", fontSize: "14px", fontFamily: "var(--font-sans)" }}>
                                     <input
                                       type="radio"
                                       name="radio_delivery"
@@ -1656,7 +1662,7 @@ export default function CheckoutPage() {
                                     />
                                     Standard Shipping
                                   </label>
-                                  <label style={{ display: "flex", alignItems: "center", cursor: "pointer", fontSize: "0.95rem" }}>
+                                  <label style={{ display: "flex", alignItems: "center", cursor: "pointer", fontSize: "14px", fontFamily: "var(--font-sans)" }}>
                                     <input
                                       type="radio"
                                       name="radio_delivery"
@@ -1669,7 +1675,7 @@ export default function CheckoutPage() {
                                   </label>
                                 </div>
                               ) : (
-                                <p style={{ margin: "0.5rem 0 0 0", fontSize: "0.85rem", color: "#666", lineHeight: 1.4 }}>
+                                <p style={{ margin: "0.5rem 0 0 0", fontSize: "13px", fontFamily: "var(--font-sans)", color: "#666", lineHeight: 1.4 }}>
                                   Express shipping is only available between 8AM - 3PM, and on Saturdays until 11AM, excluding Sundays, and Public Holidays. Turnaround time is 2 hours.
                                 </p>
                               )}
@@ -1770,8 +1776,8 @@ export default function CheckoutPage() {
                     {showAdditionalInfo && (
                       <div style={{ padding: "1.5rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
                         <div>
-                          <label style={{ display: "block", fontSize: "0.85rem", color: "#666", marginBottom: "0.4rem" }}>
-                            Additional Address Information <span style={{ fontSize: "0.8rem", color: "#999" }}>(optional)</span>
+                          <label style={{ display: "block", fontSize: "14px", fontFamily: "var(--font-sans)", color: "#666", marginBottom: "0.4rem" }}>
+                            Additional Address Information <span style={{ fontSize: "12px", color: "#999" }}>(optional)</span>
                           </label>
                           <input
                             type="text"
@@ -1784,8 +1790,8 @@ export default function CheckoutPage() {
 
                         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem" }}>
                           <div>
-                            <label style={{ display: "block", fontSize: "0.85rem", color: "#666", marginBottom: "0.4rem" }}>
-                              Recipient Contact <span style={{ fontSize: "0.8rem", color: "#999" }}>(optional)</span>
+                            <label style={{ display: "block", fontSize: "14px", fontFamily: "var(--font-sans)", color: "#666", marginBottom: "0.4rem" }}>
+                              Recipient Contact <span style={{ fontSize: "12px", color: "#999" }}>(optional)</span>
                             </label>
                             <input
                               type="text"
@@ -1796,8 +1802,8 @@ export default function CheckoutPage() {
                             />
                           </div>
                           <div>
-                            <label style={{ display: "block", fontSize: "0.85rem", color: "#666", marginBottom: "0.4rem" }}>
-                              Recipient Phone <span style={{ fontSize: "0.8rem", color: "#999" }}>(optional)</span>
+                            <label style={{ display: "block", fontSize: "14px", fontFamily: "var(--font-sans)", color: "#666", marginBottom: "0.4rem" }}>
+                              Recipient Phone <span style={{ fontSize: "12px", color: "#999" }}>(optional)</span>
                             </label>
                             <input
                               type="tel"
@@ -1810,7 +1816,7 @@ export default function CheckoutPage() {
                         </div>
 
                         <div>
-                          <label style={{ display: "block", fontSize: "0.85rem", color: "#666", marginBottom: "0.4rem" }}>
+                          <label style={{ display: "block", fontSize: "14px", fontFamily: "var(--font-sans)", color: "#666", marginBottom: "0.4rem" }}>
                             Delivery Instructions <span style={{ fontSize: "0.8rem", color: "#999" }}>(optional)</span>
                           </label>
                           <textarea
@@ -1830,7 +1836,7 @@ export default function CheckoutPage() {
 
                   {/* General Order Notes */}
                   <div>
-                    <label style={{ display: "block", fontSize: "0.85rem", color: "#333", fontWeight: "bold", marginBottom: "0.5rem" }}>
+                    <label style={{ display: "block", fontSize: "14px", fontFamily: "var(--font-sans)", color: "#333", fontWeight: "bold", marginBottom: "0.5rem" }}>
                       Order notes (optional)
                     </label>
                     <textarea
@@ -1851,8 +1857,8 @@ export default function CheckoutPage() {
                 <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }}>
 
                   <h3 style={{
-                    fontFamily: '"Patrick Hand", cursive',
-                    fontSize: "1.6rem",
+                    fontFamily: "var(--font-sans)",
+                    fontSize: "1.4rem",
                     color: "#1a5ca3",
                     textAlign: "center",
                     margin: 0,
@@ -1905,7 +1911,10 @@ export default function CheckoutPage() {
                           fontSize: "0.85rem",
                           borderBottom: "1px solid #f9f9f9"
                         }}>
-                          <span style={{ color: "#515151" }}>{item.name} <strong>× {item.quantity}</strong></span>
+                          <span style={{ color: "#515151" }}>
+                            <span style={{ fontSize: "15px", fontWeight: 500 }}>{item.name}</span>{" "}
+                            <strong style={{ fontSize: "13px" }}>× {item.quantity}</strong>
+                          </span>
                           <span style={{ color: "#333", fontWeight: 500 }}>{(item.price * item.quantity).toLocaleString()}KSh</span>
                         </div>
                       ))}
@@ -1976,7 +1985,7 @@ export default function CheckoutPage() {
                       justifyContent: "space-between",
                       padding: "0.75rem 1rem",
                       borderBottom: "1px solid #eaeaea",
-                      fontSize: "0.8rem",
+                      fontSize: "14px",
                       color: "#515151",
                       alignItems: "center"
                     }}>
@@ -2262,8 +2271,8 @@ export default function CheckoutPage() {
             }}>
               <h3 style={{
                 margin: 0,
-                fontFamily: '"Patrick Hand", cursive',
-                fontSize: "1.5rem",
+                fontFamily: "var(--font-sans)",
+                fontSize: "1.25rem",
                 color: "#1E5DA7",
                 fontWeight: "bold"
               }}>
