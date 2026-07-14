@@ -1605,6 +1605,64 @@
     "dateModified": "2026-06-24T14:22:45.823651+00:00"
   },
   {
+    "id": 52815,
+    "name": "Rogz Dog Utility Control Collar Web XX-Large Pink",
+    "slug": "rogz-dog-utility-control-collar-web-xx-large-pink-2",
+    "sku": "HCW19-K@F",
+    "regularPrice": 1950,
+    "salePrice": null,
+    "price": 1950,
+    "onSale": false,
+    "inStock": false,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/HCW19-K_Control-Collar-Web.jpg",
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "name": "adult",
+        "slug": "adult"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+    "dateModified": "2026-06-24T14:22:45.823651+00:00"
+  },
+  {
+    "id": 52807,
+    "name": "Rogz Dog Gumz Treat Ball 6.4cm",
+    "slug": "rogz-dog-gumz-treat-ball-6-4cm",
+    "sku": "GU02-C4@F",
+    "regularPrice": 868,
+    "salePrice": null,
+    "price": 868,
+    "onSale": false,
+    "inStock": false,
+    "thumbnail": "/images/psk_logo.png",
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "name": "adult",
+        "slug": "adult"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+    "dateModified": "2026-06-24T14:22:45.823651+00:00"
+  },
+  {
     "id": 50795,
     "name": "Trendline Adult Cat Food - Chicken 1kg",
     "slug": "trendline-adult-cat-food-chicken-1kg-2",
@@ -1742,64 +1800,6 @@
         "name": "dry food",
         "slug": "dry-food"
       },
-      {
-        "name": "adult",
-        "slug": "adult"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
-    "dateModified": "2026-06-24T14:22:45.823651+00:00"
-  },
-  {
-    "id": 52815,
-    "name": "Rogz Dog Utility Control Collar Web XX-Large Pink",
-    "slug": "rogz-dog-utility-control-collar-web-xx-large-pink-2",
-    "sku": "HCW19-K@F",
-    "regularPrice": 1950,
-    "salePrice": null,
-    "price": 1950,
-    "onSale": false,
-    "inStock": false,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/HCW19-K_Control-Collar-Web.jpg",
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [
-      {
-        "name": "adult",
-        "slug": "adult"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
-    "dateModified": "2026-06-24T14:22:45.823651+00:00"
-  },
-  {
-    "id": 52807,
-    "name": "Rogz Dog Gumz Treat Ball 6.4cm",
-    "slug": "rogz-dog-gumz-treat-ball-6-4cm",
-    "sku": "GU02-C4@F",
-    "regularPrice": 868,
-    "salePrice": null,
-    "price": 868,
-    "onSale": false,
-    "inStock": false,
-    "thumbnail": "/images/psk_logo.png",
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [
       {
         "name": "adult",
         "slug": "adult"
@@ -2232,35 +2232,6 @@
     "dateModified": "2026-06-24T14:22:45.823651+00:00"
   },
   {
-    "id": 52817,
-    "name": "Rogz Dog Utility Side Release Collar Small Black",
-    "slug": "rogz-dog-utility-side-release-collar-small-black-2",
-    "sku": "HB14-A@F",
-    "regularPrice": 712.5,
-    "salePrice": null,
-    "price": 712.5,
-    "onSale": false,
-    "inStock": false,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/HB14-A-Nitelife-Black.jpg",
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [
-      {
-        "name": "adult",
-        "slug": "adult"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
-    "dateModified": "2026-06-24T14:22:45.823651+00:00"
-  },
-  {
     "id": 45012,
     "name": "Ankur Regular Non Skid Bowl With Color And Print 950ml",
     "slug": "ankur-regular-non-skid-bowl-with-color-and-print-950ml",
@@ -2360,16 +2331,16 @@
     "dateModified": "2026-06-24T14:22:45.823651+00:00"
   },
   {
-    "id": 52830,
-    "name": "Rogz Reflectocat Safety Collar Small Blue Fish",
-    "slug": "rogz-reflectocat-safety-collar-small-blue-fish",
-    "sku": "CB40-B@F",
-    "regularPrice": 665,
+    "id": 52817,
+    "name": "Rogz Dog Utility Side Release Collar Small Black",
+    "slug": "rogz-dog-utility-side-release-collar-small-black-2",
+    "sku": "HB14-A@F",
+    "regularPrice": 712.5,
     "salePrice": null,
-    "price": 665,
+    "price": 712.5,
     "onSale": false,
     "inStock": false,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-REFLECTOCAT-SAFETY-COLLAR-SMALL-BLUE-CB40-B.jpg",
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/HB14-A-Nitelife-Black.jpg",
     "categories": [
       {
         "id": 2332,
@@ -2492,6 +2463,35 @@
         "name": "treats",
         "slug": "treats"
       },
+      {
+        "name": "adult",
+        "slug": "adult"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+    "dateModified": "2026-06-24T14:22:45.823651+00:00"
+  },
+  {
+    "id": 52830,
+    "name": "Rogz Reflectocat Safety Collar Small Blue Fish",
+    "slug": "rogz-reflectocat-safety-collar-small-blue-fish",
+    "sku": "CB40-B@F",
+    "regularPrice": 665,
+    "salePrice": null,
+    "price": 665,
+    "onSale": false,
+    "inStock": false,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/06/ROGZ-REFLECTOCAT-SAFETY-COLLAR-SMALL-BLUE-CB40-B.jpg",
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [
       {
         "name": "adult",
         "slug": "adult"
@@ -2837,69 +2837,6 @@
     "dateModified": "2026-06-24T14:22:45.823651+00:00"
   },
   {
-    "id": 52808,
-    "name": "Rogz Doggumz Treat Ball 7.8cm Pink Large",
-    "slug": "rogz-dog-gumz-treat-ball-7-8cm-pink-large-2",
-    "sku": "GU04-K@F",
-    "regularPrice": 1256,
-    "salePrice": null,
-    "price": 1256,
-    "onSale": false,
-    "inStock": false,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/GU04-K-Gumz-Ball-Pink.jpg",
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [
-      {
-        "name": "adult",
-        "slug": "adult"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
-    "dateModified": "2026-06-24T14:22:45.823651+00:00"
-  },
-  {
-    "id": 52804,
-    "name": "Reflex Pocket Treats Skin And Coat 60g",
-    "slug": "reflex-pocket-treats-skin-and-coat-60gr",
-    "sku": "RCT018@F",
-    "regularPrice": 228,
-    "salePrice": null,
-    "price": 228,
-    "onSale": false,
-    "inStock": false,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CAT-POCKET-TREAT-SKIN-COAT.png",
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [
-      {
-        "id": 2223,
-        "name": "flash",
-        "slug": "flash"
-      },
-      {
-        "name": "adult",
-        "slug": "adult"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
-    "dateModified": "2026-06-24T14:22:45.823651+00:00"
-  },
-  {
     "id": 90026,
     "name": "Belcando Dog Dry Food Oldie & Light - 12.5KG",
     "slug": "belcando-dog-dry-food-oldie-light-12-5kg",
@@ -2949,6 +2886,35 @@
         "name": "New Arrivals",
         "slug": "new-arrivals"
       },
+      {
+        "name": "adult",
+        "slug": "adult"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+    "dateModified": "2026-06-24T14:22:45.823651+00:00"
+  },
+  {
+    "id": 52808,
+    "name": "Rogz Doggumz Treat Ball 7.8cm Pink Large",
+    "slug": "rogz-dog-gumz-treat-ball-7-8cm-pink-large-2",
+    "sku": "GU04-K@F",
+    "regularPrice": 1256,
+    "salePrice": null,
+    "price": 1256,
+    "onSale": false,
+    "inStock": false,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/GU04-K-Gumz-Ball-Pink.jpg",
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [
       {
         "name": "adult",
         "slug": "adult"
@@ -3219,6 +3185,40 @@
         "id": 2319,
         "name": "Veterinary Range",
         "slug": "veterinary-range"
+      },
+      {
+        "name": "adult",
+        "slug": "adult"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+    "dateModified": "2026-06-24T14:22:45.823651+00:00"
+  },
+  {
+    "id": 52804,
+    "name": "Reflex Pocket Treats Skin And Coat 60g",
+    "slug": "reflex-pocket-treats-skin-and-coat-60gr",
+    "sku": "RCT018@F",
+    "regularPrice": 228,
+    "salePrice": null,
+    "price": 228,
+    "onSale": false,
+    "inStock": false,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CAT-POCKET-TREAT-SKIN-COAT.png",
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "id": 2223,
+        "name": "flash",
+        "slug": "flash"
       },
       {
         "name": "adult",
@@ -3920,6 +3920,35 @@
     "dateModified": "2026-06-24T14:22:45.823651+00:00"
   },
   {
+    "id": 52790,
+    "name": "Proline Canned Cat Food Liver InGravy 415g",
+    "slug": "proline-canned-cat-food-liver-in-gravy-415gr",
+    "sku": "PCW004@F",
+    "regularPrice": 167.05,
+    "salePrice": null,
+    "price": 167.05,
+    "onSale": false,
+    "inStock": false,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/11/Proline-Adult-Cat-Can-Liver-Chunks-in-Jelly-400g-1080x1080-min.png",
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "name": "adult",
+        "slug": "adult"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+    "dateModified": "2026-06-24T14:22:45.823651+00:00"
+  },
+  {
     "id": 24050,
     "name": "Bio PetActive Puppy Shampoo - 250Ml",
     "slug": "bio-petactive-puppy-shampoo-250ml",
@@ -4133,35 +4162,6 @@
     "dateModified": "2026-06-24T14:22:45.823651+00:00"
   },
   {
-    "id": 52790,
-    "name": "Proline Canned Cat Food Liver InGravy 415g",
-    "slug": "proline-canned-cat-food-liver-in-gravy-415gr",
-    "sku": "PCW004@F",
-    "regularPrice": 167.05,
-    "salePrice": null,
-    "price": 167.05,
-    "onSale": false,
-    "inStock": false,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2019/11/Proline-Adult-Cat-Can-Liver-Chunks-in-Jelly-400g-1080x1080-min.png",
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [
-      {
-        "name": "adult",
-        "slug": "adult"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
-    "dateModified": "2026-06-24T14:22:45.823651+00:00"
-  },
-  {
     "id": 89876,
     "name": "Wanpy Dog Treats – Soft Chicken Jerky Strips 100g",
     "slug": "wanpy-dog-treats-soft-chicken-jerky-strips-100g",
@@ -4359,35 +4359,6 @@
     "dateModified": "2026-06-24T14:22:45.823651+00:00"
   },
   {
-    "id": 52777,
-    "name": "Pet Ball Rubber For Dog Treat",
-    "slug": "pet-ball-rubber-for-dog-treat",
-    "sku": "PA3373@F",
-    "regularPrice": 1260,
-    "salePrice": null,
-    "price": 1260,
-    "onSale": false,
-    "inStock": false,
-    "thumbnail": "/images/psk_logo.png",
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [
-      {
-        "name": "adult",
-        "slug": "adult"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
-    "dateModified": "2026-06-24T14:22:45.823651+00:00"
-  },
-  {
     "id": 39893,
     "name": "Bioline Chicken Sausage 15g X 30pcs",
     "slug": "bioline-chicken-sausage-15g-x30pcs",
@@ -4496,6 +4467,69 @@
     "dateModified": "2026-06-24T14:22:45.823651+00:00"
   },
   {
+    "id": 52777,
+    "name": "Pet Ball Rubber For Dog Treat",
+    "slug": "pet-ball-rubber-for-dog-treat",
+    "sku": "PA3373@F",
+    "regularPrice": 1260,
+    "salePrice": null,
+    "price": 1260,
+    "onSale": false,
+    "inStock": false,
+    "thumbnail": "/images/psk_logo.png",
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "name": "adult",
+        "slug": "adult"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+    "dateModified": "2026-06-24T14:22:45.823651+00:00"
+  },
+  {
+    "id": 52803,
+    "name": "Reflex Pocket Treats Sensitive 60g",
+    "slug": "reflex-pocket-treats-sensitive-60gr",
+    "sku": "RCT020@F",
+    "regularPrice": 228,
+    "salePrice": null,
+    "price": 228,
+    "onSale": false,
+    "inStock": false,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CAT-POCKET-TREAT-SENSITIVE-60GR.png",
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "id": 2223,
+        "name": "flash",
+        "slug": "flash"
+      },
+      {
+        "name": "adult",
+        "slug": "adult"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+    "dateModified": "2026-06-24T14:22:45.823651+00:00"
+  },
+  {
     "id": 91147,
     "name": "Whiskas Dry Cat Food - Salmon 1.9kg",
     "slug": "whiskas-dry-cat-food-salmon-1-9kg-2",
@@ -4553,40 +4587,6 @@
     "status": "publish",
     "dateCreated": "2026-07-10T08:24:32.815708+00:00",
     "dateModified": "2026-07-10T08:24:32.815708+00:00"
-  },
-  {
-    "id": 52803,
-    "name": "Reflex Pocket Treats Sensitive 60g",
-    "slug": "reflex-pocket-treats-sensitive-60gr",
-    "sku": "RCT020@F",
-    "regularPrice": 228,
-    "salePrice": null,
-    "price": 228,
-    "onSale": false,
-    "inStock": false,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2024/11/REFLEX-CAT-POCKET-TREAT-SENSITIVE-60GR.png",
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [
-      {
-        "id": 2223,
-        "name": "flash",
-        "slug": "flash"
-      },
-      {
-        "name": "adult",
-        "slug": "adult"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
-    "dateModified": "2026-06-24T14:22:45.823651+00:00"
   },
   {
     "id": 89801,
@@ -4758,6 +4758,40 @@
     "dateModified": "2026-07-10T08:24:32.815708+00:00"
   },
   {
+    "id": 52800,
+    "name": "Reflex Plus Light And Sterilised Dog Food Lamb And Rice 15kg",
+    "slug": "reflex-plus-light-and-sterilised-dog-food-lamb-and-rice-15-kg-2",
+    "sku": "RPDD008@F",
+    "regularPrice": 7840,
+    "salePrice": null,
+    "price": 7840,
+    "onSale": false,
+    "inStock": false,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Reflex-plus-light-and-sterilsed-01.jpg",
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "id": 2223,
+        "name": "flash",
+        "slug": "flash"
+      },
+      {
+        "name": "adult",
+        "slug": "adult"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+    "dateModified": "2026-06-24T14:22:45.823651+00:00"
+  },
+  {
     "id": 61863,
     "name": "Whiskas Kitten Pouches Poultry M/Pak 12x85g",
     "slug": "whiskas-kitten-poultry-feasts-in-jelly",
@@ -4820,40 +4854,6 @@
       {
         "name": "kitten",
         "slug": "kitten"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
-    "dateModified": "2026-06-24T14:22:45.823651+00:00"
-  },
-  {
-    "id": 52800,
-    "name": "Reflex Plus Light And Sterilised Dog Food Lamb And Rice 15kg",
-    "slug": "reflex-plus-light-and-sterilised-dog-food-lamb-and-rice-15-kg-2",
-    "sku": "RPDD008@F",
-    "regularPrice": 7840,
-    "salePrice": null,
-    "price": 7840,
-    "onSale": false,
-    "inStock": false,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/12/Reflex-plus-light-and-sterilsed-01.jpg",
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [
-      {
-        "id": 2223,
-        "name": "flash",
-        "slug": "flash"
-      },
-      {
-        "name": "adult",
-        "slug": "adult"
       }
     ],
     "status": "publish",
@@ -5548,40 +5548,6 @@
     "dateModified": "2026-06-24T14:22:45.823651+00:00"
   },
   {
-    "id": 52788,
-    "name": "Proline Bentonite Clumping Cat Litter Odourless 5l",
-    "slug": "proline-bentonite-clumping-cat-litter-odourless-5l",
-    "sku": "PCL001@F",
-    "regularPrice": 771,
-    "salePrice": null,
-    "price": 771,
-    "onSale": false,
-    "inStock": false,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/01/ProLine-Bentonit-Cat-Litter-Unscented-5L-1080x1080-min.png",
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [
-      {
-        "id": 2223,
-        "name": "flash",
-        "slug": "flash"
-      },
-      {
-        "name": "adult",
-        "slug": "adult"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
-    "dateModified": "2026-06-24T14:22:45.823651+00:00"
-  },
-  {
     "id": 8436,
     "name": "SUPER Saver January Cat Bundle: 25 Assorted 100g Bonnie Pouches + ONE 5L Cat Litter",
     "slug": "super-saver-january-cat-bundle",
@@ -5615,35 +5581,6 @@
         "slug": "bonnie"
       }
     ],
-    "tags": [
-      {
-        "name": "adult",
-        "slug": "adult"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
-    "dateModified": "2026-06-24T14:22:45.823651+00:00"
-  },
-  {
-    "id": 12069,
-    "name": "Dog Lover Loyal Customer Bundle 2",
-    "slug": "dog-lover-loyal-customer-bundle-2",
-    "sku": "DLLCB2",
-    "regularPrice": 0,
-    "salePrice": null,
-    "price": 0,
-    "onSale": false,
-    "inStock": false,
-    "thumbnail": "/images/psk_logo.png",
-    "categories": [
-      {
-        "id": 1304,
-        "name": "Clearance",
-        "slug": "clearance"
-      }
-    ],
-    "brands": [],
     "tags": [
       {
         "name": "adult",
@@ -5788,6 +5725,40 @@
     "dateModified": "2026-06-24T14:22:45.823651+00:00"
   },
   {
+    "id": 52788,
+    "name": "Proline Bentonite Clumping Cat Litter Odourless 5l",
+    "slug": "proline-bentonite-clumping-cat-litter-odourless-5l",
+    "sku": "PCL001@F",
+    "regularPrice": 771,
+    "salePrice": null,
+    "price": 771,
+    "onSale": false,
+    "inStock": false,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/01/ProLine-Bentonit-Cat-Litter-Unscented-5L-1080x1080-min.png",
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "id": 2223,
+        "name": "flash",
+        "slug": "flash"
+      },
+      {
+        "name": "adult",
+        "slug": "adult"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+    "dateModified": "2026-06-24T14:22:45.823651+00:00"
+  },
+  {
     "id": 59528,
     "name": "CS Oral Spray for Cats & Dogs - 60ml",
     "slug": "cs-oral-spray-for-cats-dogs-60ml",
@@ -5845,6 +5816,35 @@
       {
         "name": "Pet Care",
         "slug": "pet-care"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+    "dateModified": "2026-06-24T14:22:45.823651+00:00"
+  },
+  {
+    "id": 12069,
+    "name": "Dog Lover Loyal Customer Bundle 2",
+    "slug": "dog-lover-loyal-customer-bundle-2",
+    "sku": "DLLCB2",
+    "regularPrice": 0,
+    "salePrice": null,
+    "price": 0,
+    "onSale": false,
+    "inStock": false,
+    "thumbnail": "/images/psk_logo.png",
+    "categories": [
+      {
+        "id": 1304,
+        "name": "Clearance",
+        "slug": "clearance"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "name": "adult",
+        "slug": "adult"
       }
     ],
     "status": "publish",
@@ -6436,6 +6436,40 @@
     "dateModified": "2026-06-24T14:22:45.823651+00:00"
   },
   {
+    "id": 11341,
+    "name": "March Madness Cat Bundle: ONE 1.5kg Reflex Adult Cat Multicolour Chicken + 4 Assorted Reflex Cat Treats",
+    "slug": "march-madness-cat-bundle-one-1-5kg-reflex-adult-cat-multicolour-chicken-four-assorted-reflex-cat-treats",
+    "sku": "CLBFEB20",
+    "regularPrice": 1799,
+    "salePrice": null,
+    "price": 1799,
+    "onSale": false,
+    "inStock": false,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/02/PetStore-Kenya-Valentine-Bundle-Cat-min.png",
+    "categories": [
+      {
+        "id": 927,
+        "name": "Sale",
+        "slug": "sale"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "id": 636,
+        "name": "dry food",
+        "slug": "dry-food"
+      },
+      {
+        "name": "adult",
+        "slug": "adult"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+    "dateModified": "2026-06-24T14:22:45.823651+00:00"
+  },
+  {
     "id": 20015,
     "name": "Dog Poop Bag Holder - Bone Shape Orange",
     "slug": "dog-poop-bag-holder-bone-shape-orange",
@@ -6617,40 +6651,6 @@
       }
     ],
     "tags": [
-      {
-        "name": "adult",
-        "slug": "adult"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
-    "dateModified": "2026-06-24T14:22:45.823651+00:00"
-  },
-  {
-    "id": 11341,
-    "name": "March Madness Cat Bundle: ONE 1.5kg Reflex Adult Cat Multicolour Chicken + 4 Assorted Reflex Cat Treats",
-    "slug": "march-madness-cat-bundle-one-1-5kg-reflex-adult-cat-multicolour-chicken-four-assorted-reflex-cat-treats",
-    "sku": "CLBFEB20",
-    "regularPrice": 1799,
-    "salePrice": null,
-    "price": 1799,
-    "onSale": false,
-    "inStock": false,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2020/02/PetStore-Kenya-Valentine-Bundle-Cat-min.png",
-    "categories": [
-      {
-        "id": 927,
-        "name": "Sale",
-        "slug": "sale"
-      }
-    ],
-    "brands": [],
-    "tags": [
-      {
-        "id": 636,
-        "name": "dry food",
-        "slug": "dry-food"
-      },
       {
         "name": "adult",
         "slug": "adult"
@@ -7139,6 +7139,40 @@
     "dateModified": "2026-06-24T14:22:45.823651+00:00"
   },
   {
+    "id": 52839,
+    "name": "Spectrum Lowgain Salmon & Anchovy For Medium And Large Breed Adult Dogs 2.5kg",
+    "slug": "spectrum-low-grain-salmon-anchovy-for-medium-and-large-breed-adult-dogs-2-5kg-3",
+    "sku": "SLGDD005@F",
+    "regularPrice": 3560,
+    "salePrice": null,
+    "price": 3560,
+    "onSale": false,
+    "inStock": false,
+    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/SLGLBSA2.5-min.png",
+    "categories": [
+      {
+        "id": 2332,
+        "name": "Cat Litter",
+        "slug": "cat-litter"
+      }
+    ],
+    "brands": [],
+    "tags": [
+      {
+        "id": 636,
+        "name": "dry food",
+        "slug": "dry-food"
+      },
+      {
+        "name": "adult",
+        "slug": "adult"
+      }
+    ],
+    "status": "publish",
+    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
+    "dateModified": "2026-06-24T14:22:45.823651+00:00"
+  },
+  {
     "id": 42962,
     "name": "Petd Deworm 2 Tablets Dog And Cat",
     "slug": "petd-deworm-2-tablets-dog-and-cat",
@@ -7217,40 +7251,6 @@
         "id": 1148,
         "name": "pet care",
         "slug": "pet-care"
-      },
-      {
-        "name": "adult",
-        "slug": "adult"
-      }
-    ],
-    "status": "publish",
-    "dateCreated": "2026-06-24T14:22:45.823651+00:00",
-    "dateModified": "2026-06-24T14:22:45.823651+00:00"
-  },
-  {
-    "id": 52839,
-    "name": "Spectrum Lowgain Salmon & Anchovy For Medium And Large Breed Adult Dogs 2.5kg",
-    "slug": "spectrum-low-grain-salmon-anchovy-for-medium-and-large-breed-adult-dogs-2-5kg-3",
-    "sku": "SLGDD005@F",
-    "regularPrice": 3560,
-    "salePrice": null,
-    "price": 3560,
-    "onSale": false,
-    "inStock": false,
-    "thumbnail": "https://petstore.co.ke/wp-content/uploads/2021/01/SLGLBSA2.5-min.png",
-    "categories": [
-      {
-        "id": 2332,
-        "name": "Cat Litter",
-        "slug": "cat-litter"
-      }
-    ],
-    "brands": [],
-    "tags": [
-      {
-        "id": 636,
-        "name": "dry food",
-        "slug": "dry-food"
       },
       {
         "name": "adult",
