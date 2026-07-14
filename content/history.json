@@ -1,5 +1,13 @@
 [
   {
+    "id": "evt-ff1ndfoz5",
+    "timestamp": "2026-07-14T13:37:59.310Z",
+    "user": "Ben Ochieng",
+    "action": "User Logged In (OTP)",
+    "details": "Successfully signed in via passwordless OTP verification",
+    "icon": "🔑"
+  },
+  {
     "id": "evt-od2zumeq4",
     "timestamp": "2026-07-14T12:58:45.317Z",
     "user": "Ben Ochieng",

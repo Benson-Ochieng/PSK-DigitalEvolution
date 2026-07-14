@@ -58,5 +58,15 @@
     "invalidated": true,
     "id": "otp-5imr3uugj",
     "createdAt": "2026-07-14T12:57:32.631Z"
+  },
+  {
+    "userId": "u-tflg0qre7",
+    "target": "ben@granularit.com",
+    "codeHash": "51151b48a60748abf1ef93807b6b276e2ff3fd38ef8d32478aa578459ef28105",
+    "expiresAt": "2026-07-14T13:42:09.613Z",
+    "attempts": 0,
+    "invalidated": true,
+    "id": "otp-f2hpfk7a2",
+    "createdAt": "2026-07-14T13:37:09.613Z"
   }
 ]
