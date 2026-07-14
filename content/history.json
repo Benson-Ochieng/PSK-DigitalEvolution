@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt-6gnexxauw",
+    "timestamp": "2026-07-14T10:33:29.735Z",
+    "user": "System Admin",
+    "action": "User Logged In (OTP)",
+    "details": "Successfully signed in via passwordless OTP verification",
+    "icon": "🔑"
+  },
+  {
+    "id": "evt-drzl3sbcc",
+    "timestamp": "2026-07-14T10:29:17.705Z",
+    "user": "Lippy",
+    "action": "User Logged In (OTP)",
+    "details": "Successfully signed in via passwordless OTP verification",
+    "icon": "🔑"
+  },
+  {
     "id": "evt-q3c3llcsp",
     "timestamp": "2026-07-13T13:05:41.715Z",
     "user": "System Admin",

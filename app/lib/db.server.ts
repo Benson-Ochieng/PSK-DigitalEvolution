@@ -28,12 +28,24 @@ export interface User {
   id: string;
   name: string;
   email: string;
+  phone?: string;
   username: string;
   role: 'administrator' | 'editor' | 'author' | 'contributor' | 'subscriber' | 'customer' | 'shop_manager';
   ordersCount: number;
   createdAt: string;
   status: 'active' | 'suspended';
   passwordHash: string; // Plain password for mock purposes
+}
+
+export interface OtpSession {
+  id: string;
+  userId: string;
+  target: string;
+  codeHash: string;
+  expiresAt: string;
+  attempts: number;
+  invalidated: boolean;
+  createdAt: string;
 }
 
 export interface Coupon {
@@ -67,6 +79,7 @@ const USERS_FILE = path.join(CONTENT_DIR, "users.json");
 const ORDERS_FILE = path.join(CONTENT_DIR, "orders.json");
 const COUPONS_FILE = path.join(CONTENT_DIR, "coupons.json");
 const POSTS_FILE = path.join(CONTENT_DIR, "posts", "_index.json");
+const OTP_SESSIONS_FILE = path.join(CONTENT_DIR, "otp_sessions.json");
 
 // Seed data
 const initialUsers: User[] = [
@@ -74,6 +87,7 @@ const initialUsers: User[] = [
     id: "u-admin",
     name: "System Admin",
     email: "admin@petstore.co.ke",
+    phone: "+254712345678",
     username: "admin",
     role: "administrator",
     ordersCount: 0,
@@ -85,6 +99,7 @@ const initialUsers: User[] = [
     id: "u-manager",
     name: "Shop Manager",
     email: "manager@petstore.co.ke",
+    phone: "+254787654321",
     username: "manager",
     role: "shop_manager",
     ordersCount: 0,
@@ -1007,6 +1022,41 @@ export const db = {
         }
       } catch { }
       return false;
+    }
+  },
+
+  otpSession: {
+    async findUnique({ where }: { where: { id: string } }): Promise<OtpSession | null> {
+      const list = readData<OtpSession[]>(OTP_SESSIONS_FILE, []);
+      return list.find(s => s.id === where.id) || null;
+    },
+    async create(data: Omit<OtpSession, 'id' | 'createdAt'>): Promise<OtpSession> {
+      const id = "otp-" + Math.random().toString(36).substr(2, 9);
+      const session: OtpSession = {
+        ...data,
+        id,
+        createdAt: new Date().toISOString()
+      };
+      const list = readData<OtpSession[]>(OTP_SESSIONS_FILE, []);
+      list.push(session);
+      writeData(OTP_SESSIONS_FILE, list);
+      return session;
+    },
+    async update({ where, data }: { where: { id: string }, data: Partial<OtpSession> }): Promise<OtpSession> {
+      const list = readData<OtpSession[]>(OTP_SESSIONS_FILE, []);
+      const idx = list.findIndex(s => s.id === where.id);
+      if (idx === -1) throw new Error("OTP Session not found");
+      const updated = { ...list[idx], ...data };
+      list[idx] = updated;
+      writeData(OTP_SESSIONS_FILE, list);
+      return updated;
+    },
+    async delete({ where }: { where: { id: string } }): Promise<boolean> {
+      const list = readData<OtpSession[]>(OTP_SESSIONS_FILE, []);
+      const filtered = list.filter(s => s.id !== where.id);
+      if (filtered.length === list.length) return false;
+      writeData(OTP_SESSIONS_FILE, filtered);
+      return true;
     }
   }
 };
