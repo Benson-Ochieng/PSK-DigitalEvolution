@@ -1619,21 +1619,7 @@ export default function CheckoutPage() {
                             </select>
                           </div>
 
-                          {/* Free shipping product message */}
-                          {hasFreeShippingProduct && (
-                            <div style={{
-                              padding: "0.85rem 1rem",
-                              background: "#e6f4ea",
-                              color: "#137333",
-                              border: "1px solid #c2e7cc",
-                              borderRadius: "4px",
-                              fontSize: "0.9rem",
-                              fontWeight: 500,
-                              marginTop: "0.5rem"
-                            }}>
-                              Free shipping is available for this order.
-                            </div>
-                          )}
+
 
                           {/* Nairobi Express vs Standard Delivery Option Selector */}
                           {!hasFreeShippingProduct && selectedCity === "Nairobi" && EXPRESS_NEIGHBOURHOODS.includes(selectedZone) && (
