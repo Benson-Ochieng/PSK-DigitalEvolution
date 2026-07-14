@@ -1651,7 +1651,7 @@ export default function MyAccount() {
                         const fee = SHIPPING_ZONES[modalCity][zone];
                         return (
                           <option key={zone} value={zone}>
-                            {zone === "Select your Neighbourhood" ? zone : `${zone} (Fee: ${fee} KSh)`}
+                            {zone}
                           </option>
                         );
                       })
