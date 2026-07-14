@@ -36,7 +36,7 @@ function ProductCard({ p }: { p: any }) {
   function handleAdd(e: React.MouseEvent) {
     e.preventDefault();
     if (isDonation) {
-      window.location.href = "https://psk-donation.vercel.app/";
+      window.open("https://psk-donation.vercel.app/", "_blank");
       return;
     }
     addItem({
@@ -80,7 +80,7 @@ function ProductCard({ p }: { p: any }) {
       )}
 
       {isDonation ? (
-        <a href="https://psk-donation.vercel.app/" className="product-card-link">
+        <a href="https://psk-donation.vercel.app/" className="product-card-link" target="_blank" rel="noopener noreferrer">
           <div className="product-card-img">
             {p.image_url ? (
               <img src={p.image_url} alt={p.name} loading="lazy" />

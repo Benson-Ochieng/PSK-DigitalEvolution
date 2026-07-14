@@ -340,6 +340,8 @@ export default function Navbar() {
             <a
               href={item.path}
               className="drawer-menu-link"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{
                 fontWeight: depth === 0 ? "700" : "500",
                 fontSize: depth === 0 ? "0.95rem" : "0.85rem",
@@ -732,6 +734,8 @@ export default function Navbar() {
                           key={p.id}
                           href="https://psk-donation.vercel.app/"
                           className="search-product-row-item"
+                          target="_blank"
+                          rel="noopener noreferrer"
                           onClick={() => {
                             setIsSearchFocused(false);
                             setSearchVal("");
