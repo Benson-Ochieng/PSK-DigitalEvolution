@@ -255,7 +255,8 @@ function MockRecaptcha() {
   const [checked, setChecked] = useState(false);
   return (
     <div style={{
-      width: "302px",
+      width: "100%",
+      maxWidth: "302px",
       height: "76px",
       background: "#f9f9f9",
       border: "1px solid #d3d3d3",
@@ -699,20 +700,12 @@ export default function MyAccount() {
 
             <PageHeader title="My Account" />
 
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "4rem" }}>
+            <div className="auth-forms-grid">
 
               {/* Login Form */}
               <div>
                 <h2 style={{ fontSize: "2rem", fontWeight: 700, color: "#1a1a1a", marginBottom: "1.5rem", fontFamily: "var(--font-sans)" }}>Login</h2>
-                <div style={{
-                  background: "#ffffff",
-                  padding: "2.5rem 3rem",
-                  border: "1px solid #eee",
-                  borderRadius: ".5rem",
-                  boxShadow: "rgb(149 157 165 / 20%) 0 0 18px",
-                  display: "flex",
-                  flexDirection: "column"
-                }}>
+                <div className="auth-form-card">
                   <Form method="post" onSubmit={handleLoginSubmit} style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
                     <input type="hidden" name="form_type" value="login" />
 
@@ -846,19 +839,11 @@ export default function MyAccount() {
               {/* Register Form */}
               <div>
                 <h2 style={{ fontSize: "2rem", fontWeight: 700, color: "#1a1a1a", marginBottom: "1.5rem", fontFamily: "var(--font-sans)" }}>Register</h2>
-                <div style={{
-                  background: "#ffffff",
-                  padding: "2.5rem 3rem",
-                  border: "1px solid #eee",
-                  borderRadius: ".5rem",
-                  boxShadow: "rgb(149 157 165 / 20%) 0 0 18px",
-                  display: "flex",
-                  flexDirection: "column"
-                }}>
+                <div className="auth-form-card">
                   <Form method="post" onSubmit={handleRegisterSubmit} style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
                     <input type="hidden" name="form_type" value="register" />
 
-                    <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem" }}>
+                    <div className="register-names-grid">
                       <div>
                         <label style={{ display: "block", fontSize: "0.85rem", color: "#1a1a1a", marginBottom: "0.4rem" }}>
                           First Name <span style={{ color: "#e2401c" }}>*</span>

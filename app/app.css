@@ -3762,3 +3762,44 @@ input[type=number] {
     gap: 2rem;
   }
 }
+
+/* ── My Account Auth Forms Responsive Layout ── */
+.auth-forms-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.auth-form-card {
+  background: #ffffff;
+  padding: 2.5rem 3rem;
+  border: 1px solid #eee;
+  border-radius: .5rem;
+  box-shadow: rgb(149 157 165 / 20%) 0 0 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.register-names-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+@media (max-width: 968px) {
+  .auth-forms-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .auth-form-card {
+    padding: 1.5rem;
+  }
+
+  .register-names-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}
