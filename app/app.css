@@ -3649,3 +3649,18 @@ input[type=number] {
     row-gap: 2.992em !important;
   }
 }
+
+/* ── Checkout Form Responsive Layout ── */
+.checkout-form {
+  display: grid;
+  grid-template-columns: 1fr 450px;
+  gap: 3.5rem;
+  align-items: start;
+}
+
+@media (max-width: 968px) {
+  .checkout-form {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}

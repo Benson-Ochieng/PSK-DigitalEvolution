@@ -1143,7 +1143,7 @@ export default function CheckoutPage() {
                 );
               })()}
 
-              <form onSubmit={handlePlaceOrder} style={{ display: "grid", gridTemplateColumns: "1fr 450px", gap: "3.5rem", alignItems: "start" }}>
+              <form className="checkout-form" onSubmit={handlePlaceOrder}>
 
                 {/* Left Column: Delivery Address Form */}
                 <div style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
