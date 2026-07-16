@@ -201,7 +201,7 @@ body {
   background: #ffffff;
   border-radius: 10px;
   /* Highly rounded pill shape */
-  border: 1px solid var(--border-light);
+  /* border: 1px solid var(--border-light); */
   overflow: hidden;
   position: relative;
   align-items: center;
@@ -3611,6 +3611,7 @@ input[type=number] {
 
 /* Desktop overrides for product grid item width */
 @media (min-width: 1025px) {
+
   .product-grid,
   .shop-layout .product-grid,
   .new-arrivals-grid {
