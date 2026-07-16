@@ -213,7 +213,7 @@ export default function FlashSale() {
             </div>
           ) : (
             /* Product List UI State */
-            <div className="product-grid" style={{ gridTemplateColumns: "repeat(4, 1fr)" }}>
+            <div className="product-grid flash-sale-grid">
               {products.map((p: any) => <ProductCard key={p.id} p={p} />)}
             </div>
           )}
