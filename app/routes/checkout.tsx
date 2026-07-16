@@ -484,6 +484,12 @@ export default function CheckoutPage() {
   const [recipientEmail, setRecipientEmail] = useState(customerEmail || "");
   const [recipientPhone, setRecipientPhone] = useState(customerPhone || "");
 
+  // Custom Neighbourhood dropdown states
+  const [showZoneDropdown, setShowZoneDropdown] = useState(false);
+  const [zoneSearch, setZoneSearch] = useState("");
+  const [showModalZoneDropdown, setShowModalZoneDropdown] = useState(false);
+  const [modalZoneSearch, setModalZoneSearch] = useState("");
+
   // Address Picker state and logic
   interface CustomerAddress {
     id: number;
@@ -570,6 +576,12 @@ export default function CheckoutPage() {
       const target = event.target as HTMLElement;
       if (!target.closest(".address-dropdown-container")) {
         setShowDropdown(false);
+      }
+      if (!target.closest(".zone-dropdown-container")) {
+        setShowZoneDropdown(false);
+      }
+      if (!target.closest(".modal-zone-dropdown-container")) {
+        setShowModalZoneDropdown(false);
       }
     };
     document.addEventListener("mousedown", handleClickOutside);
@@ -1556,6 +1568,7 @@ export default function CheckoutPage() {
                               onChange={e => {
                                 setSelectedCity(e.target.value);
                                 setSelectedZone("Select your Neighbourhood");
+                                setZoneSearch("");
                               }}
                               style={inputStyle}
                             >
@@ -1571,25 +1584,118 @@ export default function CheckoutPage() {
                             <label style={labelStyle}>
                               Neighbourhood <span style={{ color: "#ef4444" }}>*</span>
                             </label>
-                            <select
-                              required
-                              value={selectedZone}
-                              onChange={e => setSelectedZone(e.target.value)}
-                              style={inputStyle}
-                            >
-                              {selectedCity && SHIPPING_ZONES[selectedCity] ? (
-                                Object.keys(SHIPPING_ZONES[selectedCity]).map(zone => {
-                                  const fee = SHIPPING_ZONES[selectedCity][zone];
-                                  return (
-                                    <option key={zone} value={zone}>
-                                      {zone}
-                                    </option>
-                                  );
-                                })
-                              ) : (
-                                <option value="Select your Neighbourhood">Select your Neighbourhood</option>
+                            <div className="zone-dropdown-container" style={{ position: "relative" }}>
+                              <div
+                                onClick={() => setShowZoneDropdown(!showZoneDropdown)}
+                                style={{
+                                  ...inputStyle,
+                                  display: "flex",
+                                  justifyContent: "space-between",
+                                  alignItems: "center",
+                                  cursor: "pointer",
+                                  background: "#ffffff",
+                                  userSelect: "none"
+                                }}
+                              >
+                                <span>{selectedZone}</span>
+                                <span style={{ fontSize: "0.7rem", color: "#1E5DA7" }}>{showZoneDropdown ? "▲" : "▼"}</span>
+                              </div>
+
+                              {showZoneDropdown && (
+                                <div
+                                  style={{
+                                    position: "absolute",
+                                    top: "100%",
+                                    left: 0,
+                                    right: 0,
+                                    background: "#ffffff",
+                                    border: "1px solid #bbd2e8",
+                                    borderRadius: "4px",
+                                    marginTop: "4px",
+                                    boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
+                                    zIndex: 1000,
+                                    maxHeight: "280px",
+                                    display: "flex",
+                                    flexDirection: "column"
+                                  }}
+                                >
+                                  {/* Search Input */}
+                                  {selectedCity && SHIPPING_ZONES[selectedCity] && Object.keys(SHIPPING_ZONES[selectedCity]).length > 5 && (
+                                    <div style={{ padding: "6px", borderBottom: "1px solid #f0f0f0" }}>
+                                      <input
+                                        type="text"
+                                        placeholder="Search neighborhood..."
+                                        value={zoneSearch}
+                                        onChange={(e) => setZoneSearch(e.target.value)}
+                                        onClick={(e) => e.stopPropagation()}
+                                        style={{
+                                          width: "100%",
+                                          padding: "6px 10px",
+                                          border: "1px solid #dcdcdc",
+                                          borderRadius: "4px",
+                                          fontSize: "13px",
+                                          outline: "none",
+                                          boxSizing: "border-box"
+                                        }}
+                                      />
+                                    </div>
+                                  )}
+
+                                  {/* Options List */}
+                                  <div style={{ overflowY: "auto", flex: 1 }}>
+                                    {(() => {
+                                      const zones = selectedCity && SHIPPING_ZONES[selectedCity]
+                                        ? Object.keys(SHIPPING_ZONES[selectedCity])
+                                        : ["Select your Neighbourhood"];
+
+                                      const filtered = zones.filter(zone =>
+                                        zone.toLowerCase().includes(zoneSearch.toLowerCase())
+                                      );
+
+                                      if (filtered.length === 0) {
+                                        return (
+                                          <div style={{ padding: "10px", fontSize: "13px", color: "#888", textAlign: "center" }}>
+                                            No match found
+                                          </div>
+                                        );
+                                      }
+
+                                      return filtered.map(zone => {
+                                        const isSelected = zone === selectedZone;
+                                        return (
+                                          <div
+                                            key={zone}
+                                            onClick={() => {
+                                              setSelectedZone(zone);
+                                              setShowZoneDropdown(false);
+                                              setZoneSearch("");
+                                            }}
+                                            style={{
+                                              padding: "0.65rem 1rem",
+                                              fontSize: "14px",
+                                              fontFamily: "var(--font-sans)",
+                                              cursor: "pointer",
+                                              background: isSelected ? "#f4f8fa" : "#ffffff",
+                                              color: isSelected ? "#1E5DA7" : "#444",
+                                              fontWeight: isSelected ? "bold" : "normal",
+                                              transition: "background 0.2s"
+                                            }}
+                                            onMouseEnter={(e) => {
+                                              if (zone !== selectedZone) e.currentTarget.style.background = "#f7fafc";
+                                            }}
+                                            onMouseLeave={(e) => {
+                                              if (zone !== selectedZone) e.currentTarget.style.background = "#ffffff";
+                                            }}
+                                          >
+                                            {zone}
+                                          </div>
+                                        );
+                                      });
+                                    })()}
+                                  </div>
+                                </div>
                               )}
-                            </select>
+                            </div>
                           </div>
 
 
@@ -2291,6 +2397,7 @@ export default function CheckoutPage() {
                     onChange={e => {
                       setModalCity(e.target.value);
                       setModalZone("Select your Neighbourhood");
+                      setModalZoneSearch("");
                     }}
                     style={inputStyle}
                   >
@@ -2302,25 +2409,118 @@ export default function CheckoutPage() {
                 </div>
                 <div>
                   <label style={labelStyle}>Neighbourhood <span style={{ color: "#ef4444" }}>*</span></label>
-                  <select
-                    required
-                    value={modalZone}
-                    onChange={e => setModalZone(e.target.value)}
-                    style={inputStyle}
-                  >
-                    {modalCity && SHIPPING_ZONES[modalCity] ? (
-                      Object.keys(SHIPPING_ZONES[modalCity]).map(zone => {
-                        const fee = SHIPPING_ZONES[modalCity][zone];
-                        return (
-                          <option key={zone} value={zone}>
-                            {zone}
-                          </option>
-                        );
-                      })
-                    ) : (
-                      <option value="Select your Neighbourhood">Select your Neighbourhood</option>
+                  <div className="modal-zone-dropdown-container" style={{ position: "relative" }}>
+                    <div
+                      onClick={() => setShowModalZoneDropdown(!showModalZoneDropdown)}
+                      style={{
+                        ...inputStyle,
+                        display: "flex",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                        cursor: "pointer",
+                        background: "#ffffff",
+                        userSelect: "none"
+                      }}
+                    >
+                      <span>{modalZone}</span>
+                      <span style={{ fontSize: "0.7rem", color: "#1E5DA7" }}>{showModalZoneDropdown ? "▲" : "▼"}</span>
+                    </div>
+
+                    {showModalZoneDropdown && (
+                      <div
+                        style={{
+                          position: "absolute",
+                          top: "100%",
+                          left: 0,
+                          right: 0,
+                          background: "#ffffff",
+                          border: "1px solid #bbd2e8",
+                          borderRadius: "4px",
+                          marginTop: "4px",
+                          boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
+                          zIndex: 1000,
+                          maxHeight: "200px",
+                          display: "flex",
+                          flexDirection: "column"
+                        }}
+                      >
+                        {/* Search Input */}
+                        {modalCity && SHIPPING_ZONES[modalCity] && Object.keys(SHIPPING_ZONES[modalCity]).length > 5 && (
+                          <div style={{ padding: "6px", borderBottom: "1px solid #f0f0f0" }}>
+                            <input
+                              type="text"
+                              placeholder="Search neighborhood..."
+                              value={modalZoneSearch}
+                              onChange={(e) => setModalZoneSearch(e.target.value)}
+                              onClick={(e) => e.stopPropagation()}
+                              style={{
+                                width: "100%",
+                                padding: "6px 10px",
+                                border: "1px solid #dcdcdc",
+                                borderRadius: "4px",
+                                fontSize: "13px",
+                                outline: "none",
+                                boxSizing: "border-box"
+                              }}
+                            />
+                          </div>
+                        )}
+
+                        {/* Options List */}
+                        <div style={{ overflowY: "auto", flex: 1 }}>
+                          {(() => {
+                            const zones = modalCity && SHIPPING_ZONES[modalCity]
+                              ? Object.keys(SHIPPING_ZONES[modalCity])
+                              : ["Select your Neighbourhood"];
+
+                            const filtered = zones.filter(zone =>
+                              zone.toLowerCase().includes(modalZoneSearch.toLowerCase())
+                            );
+
+                            if (filtered.length === 0) {
+                              return (
+                                <div style={{ padding: "10px", fontSize: "13px", color: "#888", textAlign: "center" }}>
+                                  No match found
+                                </div>
+                              );
+                            }
+
+                            return filtered.map(zone => {
+                              const isSelected = zone === modalZone;
+                              return (
+                                <div
+                                  key={zone}
+                                  onClick={() => {
+                                    setModalZone(zone);
+                                    setShowModalZoneDropdown(false);
+                                    setModalZoneSearch("");
+                                  }}
+                                  style={{
+                                    padding: "0.65rem 1rem",
+                                    fontSize: "14px",
+                                    fontFamily: "var(--font-sans)",
+                                    cursor: "pointer",
+                                    background: isSelected ? "#f4f8fa" : "#ffffff",
+                                    color: isSelected ? "#1E5DA7" : "#444",
+                                    fontWeight: isSelected ? "bold" : "normal",
+                                    transition: "background 0.2s"
+                                  }}
+                                  onMouseEnter={(e) => {
+                                    if (zone !== modalZone) e.currentTarget.style.background = "#f7fafc";
+                                  }}
+                                  onMouseLeave={(e) => {
+                                    if (zone !== modalZone) e.currentTarget.style.background = "#ffffff";
+                                  }}
+                                >
+                                  {zone}
+                                </div>
+                              );
+                            });
+                          })()}
+                        </div>
+                      </div>
                     )}
-                  </select>
+                  </div>
                 </div>
               </div>
 
