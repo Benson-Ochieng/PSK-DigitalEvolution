@@ -1,5 +1,5 @@
 import { Link, useLoaderData, useNavigate } from "react-router";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import type { Route } from "./+types/shop";
 import { query } from "../db.server";
 import { useCart } from "../context/cart";
@@ -783,6 +783,11 @@ export default function Shop() {
   const navigate = useNavigate();
   const [searchVal, setSearchVal] = useState(urlSearch);
   const [notified, setNotified] = useState(false);
+  const [showMobileFilters, setShowMobileFilters] = useState(false);
+
+  useEffect(() => {
+    setShowMobileFilters(false);
+  }, [slug, animal, brand, lifeStage, type, sort]);
 
   function buildPageHref(pageNumber: number) {
     const p = new URLSearchParams();
@@ -894,6 +899,12 @@ export default function Shop() {
           }
         `}} />
       )}
+      {showMobileFilters && !hideFilter && (
+        <div
+          className="mobile-filter-overlay"
+          onClick={() => setShowMobileFilters(false)}
+        />
+      )}
       <div className="page" style={{ paddingTop: "2.5rem" }}>
 
         {/* Main Grid Layout with sidebar */}
@@ -901,7 +912,17 @@ export default function Shop() {
 
           {/* Sidebar */}
           {!hideFilter && (
-            <aside className="shop-sidebar">
+            <aside className={`shop-sidebar ${showMobileFilters ? "show-mobile" : ""}`}>
+              <div className="sidebar-mobile-header">
+                <span className="sidebar-mobile-title">Filter Categories</span>
+                <button
+                  type="button"
+                  className="sidebar-close-btn"
+                  onClick={() => setShowMobileFilters(false)}
+                >
+                  ✕
+                </button>
+              </div>
               <ShopSidebarFilters
                 slug={slug}
                 animal={animal}
@@ -928,6 +949,19 @@ export default function Shop() {
 
             {/* Page Title */}
             <h1 className={`shop-page-title ${isSearch ? "search-results-title" : ""}`}>{pageTitle}</h1>
+
+            {/* Mobile Filter Button */}
+            {!hideFilter && (
+              <div style={{ display: "block", width: "100%" }}>
+                <button
+                  type="button"
+                  className="mobile-filter-btn"
+                  onClick={() => setShowMobileFilters(true)}
+                >
+                  <span className="filter-icon">☰</span> Filter
+                </button>
+              </div>
+            )}
 
             {/* Breadcrumbs */}
             <div className="breadcrumb-container" style={{ marginTop: "0.5rem", marginBottom: "1rem" }}>
