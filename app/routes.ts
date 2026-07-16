@@ -47,6 +47,7 @@ const routes = [
   route("quality-management", "routes/quality-management.tsx"),
   route("terms-and-conditions", "routes/terms-and-conditions.tsx"),
   route("privacy-policy", "routes/privacy-policy.tsx"),
+  route("account-deletion", "routes/account-deletion.tsx"),
   route("food-comparison", "routes/food-comparison.tsx"),
   route("brochures", "routes/brochures.tsx"),
   route("locations", "routes/locations.tsx"),

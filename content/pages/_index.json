@@ -124,5 +124,12 @@
     "slug": "faq",
     "link": "https://petstore.co.ke/faq/",
     "parent": 0
+  },
+  {
+    "id": 19,
+    "title": "Account Deletion",
+    "slug": "account-deletion",
+    "link": "https://petstore.co.ke/account-deletion/",
+    "parent": 0
   }
 ]
