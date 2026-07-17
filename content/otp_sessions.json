@@ -88,5 +88,15 @@
     "invalidated": false,
     "id": "otp-jxr2gide2",
     "createdAt": "2026-07-17T09:15:04.440Z"
+  },
+  {
+    "userId": "u-admin",
+    "target": "admin@petstore.co.ke",
+    "codeHash": "ac40700fc3897838cd3bb0a997f3a744083f27908710f0f63a6409579e60a097",
+    "expiresAt": "2026-07-17T12:18:19.932Z",
+    "attempts": 0,
+    "invalidated": true,
+    "id": "otp-r0q35hanp",
+    "createdAt": "2026-07-17T12:13:19.932Z"
   }
 ]

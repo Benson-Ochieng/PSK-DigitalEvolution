@@ -219,6 +219,7 @@ function writeData<T>(filePath: string, data: T) {
 }
 
 import { supabase, pullFromSupabase } from "./supabase.server";
+import { query as pgQuery } from "../db.server";
 
 function serializeCouponForSupabase(coupon: any) {
   const { code, discountValue, discountType, active, createdAt, ...extraData } = coupon;
@@ -623,6 +624,53 @@ export const db = {
         }) || null;
       }
 
+      // If still not found, check the PostgreSQL customers table
+      if (!user) {
+        try {
+          let res: any = null;
+          if (where.id && where.id.startsWith("cust-")) {
+            const numericId = parseInt(where.id.replace("cust-", ""), 10);
+            if (!isNaN(numericId)) {
+              res = await pgQuery("SELECT * FROM customers WHERE id = $1", [numericId]);
+            }
+          } else if (where.email) {
+            res = await pgQuery("SELECT * FROM customers WHERE email = $1", [where.email]);
+          } else if (where.username) {
+            res = await pgQuery("SELECT * FROM customers WHERE email ILIKE $1 || '@%'", [where.username]);
+          }
+
+          if (res && res.rows && res.rows.length > 0) {
+            const row = res.rows[0];
+            const username = row.email ? row.email.split("@")[0] : `customer-${row.id}`;
+            const createdAtStr = row.created_at ? new Date(row.created_at).toISOString().split('T')[0] : new Date().toISOString().split('T')[0];
+            
+            // Get ordersCount
+            let ordersCount = 0;
+            try {
+              const countRes = await pgQuery("SELECT COUNT(*) as cnt FROM orders WHERE customer_email = $1", [row.email]);
+              if (countRes.rows.length > 0) {
+                ordersCount = parseInt(countRes.rows[0].cnt, 10);
+              }
+            } catch (e) {}
+
+            user = {
+              id: `cust-${row.id}`,
+              name: row.name || "",
+              email: row.email || "",
+              phone: row.phone || "",
+              username: username,
+              role: "customer" as const,
+              ordersCount: ordersCount,
+              createdAt: createdAtStr,
+              status: "active" as const,
+              passwordHash: ""
+            };
+          }
+        } catch (err) {
+          console.error("Failed to query pg customer in db.user.findUnique:", err);
+        }
+      }
+
       return user;
     },
 
@@ -650,6 +698,78 @@ export const db = {
         }
       }
 
+      // Query customers from PostgreSQL customers table
+      let pgCustomers: User[] = [];
+      try {
+        const res = await pgQuery("SELECT * FROM customers");
+        if (res && res.rows) {
+          pgCustomers = res.rows.map((row: any) => {
+            const username = row.email ? row.email.split("@")[0] : `customer-${row.id}`;
+            const createdAtStr = row.created_at ? new Date(row.created_at).toISOString().split('T')[0] : new Date().toISOString().split('T')[0];
+            return {
+              id: `cust-${row.id}`,
+              name: row.name || "",
+              email: row.email || "",
+              phone: row.phone || "",
+              username: username,
+              role: "customer" as const,
+              ordersCount: 0,
+              createdAt: createdAtStr,
+              status: "active" as const,
+              passwordHash: ""
+            };
+          });
+        }
+      } catch (err) {
+        console.error("Failed to query pg customers table in db.user.findMany:", err);
+      }
+
+      // Get order counts for customers
+      try {
+        const orderCountsRes = await pgQuery(
+          "SELECT customer_email, COUNT(*) as cnt FROM orders WHERE customer_email IS NOT NULL GROUP BY customer_email"
+        );
+        const orderCountsMap = new Map<string, number>();
+        orderCountsRes.rows.forEach((row: any) => {
+          orderCountsMap.set(row.customer_email.toLowerCase(), parseInt(row.cnt, 10));
+        });
+        pgCustomers.forEach(cust => {
+          if (cust.email) {
+            cust.ordersCount = orderCountsMap.get(cust.email.toLowerCase()) || 0;
+          }
+        });
+      } catch (e) {
+        console.error("Failed to query order counts for customers:", e);
+      }
+
+      // Merge administrative users and storefront customers
+      const mergedMap = new Map<string, User>();
+      usersList.forEach(u => {
+        if (u.email) {
+          mergedMap.set(u.email.toLowerCase(), u);
+        } else {
+          mergedMap.set(u.id, u);
+        }
+      });
+
+      pgCustomers.forEach(c => {
+        if (c.email) {
+          const emailLower = c.email.toLowerCase();
+          if (mergedMap.has(emailLower)) {
+            const existing = mergedMap.get(emailLower)!;
+            // Only update/merge if existing user is also a customer
+            if (existing.role === "customer") {
+              mergedMap.set(emailLower, { ...existing, ...c });
+            }
+          } else {
+            mergedMap.set(emailLower, c);
+          }
+        } else {
+          mergedMap.set(c.id, c);
+        }
+      });
+      usersList = Array.from(mergedMap.values());
+
       usersList.sort((a, b) => new Date(b.createdAt || 0).getTime() - new Date(a.createdAt || 0).getTime());
 
       if (options?.where) {
@@ -659,6 +779,29 @@ export const db = {
     },
 
     async create(data: Omit<User, 'id' | 'createdAt' | 'ordersCount'>): Promise<User> {
+      if (data.role === "customer") {
+        try {
+          const res = await pgQuery(
+            "INSERT INTO customers (name, email, phone) VALUES ($1, $2, $3) RETURNING id, created_at",
+            [data.name, data.email, data.phone || null]
+          );
+          const row = res.rows[0];
+          const username = data.email ? data.email.split("@")[0] : `customer-${row.id}`;
+          const createdAtStr = row.created_at ? new Date(row.created_at).toISOString().split('T')[0] : new Date().toISOString().split('T')[0];
+          return {
+            ...data,
+            id: `cust-${row.id}`,
+            username,
+            ordersCount: 0,
+            createdAt: createdAtStr,
+            status: "active"
+          };
+        } catch (err: any) {
+          console.error("Failed to insert customer into pg in db.user.create:", err);
+          throw new Error(err.message || "Failed to create customer record");
+        }
+      }
+
       const id = "u-" + Math.random().toString(36).substr(2, 9);
       const user: User = {
         ...data,
@@ -682,6 +825,40 @@ export const db = {
     },
 
     async update({ where, data }: { where: { id: string }, data: Partial<User> }): Promise<User> {
+      if (where.id.startsWith("cust-")) {
+        const numericId = parseInt(where.id.replace("cust-", ""), 10);
+        if (!isNaN(numericId)) {
+          const updateFields: string[] = [];
+          const updateValues: any[] = [];
+          let placeholderIdx = 1;
+
+          if (data.name !== undefined) {
+            updateFields.push(`name = $${placeholderIdx++}`);
+            updateValues.push(data.name);
+          }
+          if (data.email !== undefined) {
+            updateFields.push(`email = $${placeholderIdx++}`);
+            updateValues.push(data.email);
+          }
+          if (data.phone !== undefined) {
+            updateFields.push(`phone = $${placeholderIdx++}`);
+            updateValues.push(data.phone || null);
+          }
+
+          if (updateFields.length > 0) {
+            updateValues.push(numericId);
+            await pgQuery(
+              `UPDATE customers SET ${updateFields.join(", ")} WHERE id = $${placeholderIdx}`,
+              updateValues
+            );
+          }
+
+          const updated = await this.findUnique({ where: { id: where.id } });
+          if (!updated) throw new Error("Customer not found after update");
+          return updated;
+        }
+      }
+
       let updatedUser: User | null = null;
       if (supabase) {
         try {
@@ -703,6 +880,20 @@ export const db = {
     },
 
     async delete({ where }: { where: { id: string } }): Promise<boolean> {
+      if (where.id.startsWith("cust-")) {
+        const numericId = parseInt(where.id.replace("cust-", ""), 10);
+        if (!isNaN(numericId)) {
+          try {
+            await pgQuery("DELETE FROM customers WHERE id = $1", [numericId]);
+            return true;
+          } catch (err) {
+            console.error("Failed to delete customer from pg:", err);
+            return false;
+          }
+        }
+        return false;
+      }
+
       if (supabase) {
         try {
           const { error } = await supabase.from("users").delete().eq("id", where.id);

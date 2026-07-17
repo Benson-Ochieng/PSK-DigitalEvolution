@@ -1,5 +1,13 @@
 [
   {
+    "id": "evt-gvasdo66s",
+    "timestamp": "2026-07-17T12:13:41.396Z",
+    "user": "System Admin",
+    "action": "User Logged In (OTP)",
+    "details": "Successfully signed in via passwordless OTP verification",
+    "icon": "🔑"
+  },
+  {
     "id": "evt-ff1ndfoz5",
     "timestamp": "2026-07-14T13:37:59.310Z",
     "user": "Ben Ochieng",

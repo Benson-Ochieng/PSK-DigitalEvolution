@@ -40,6 +40,7 @@ export default function VpBackendLayout() {
   const [mediaHovered, setMediaHovered] = useState(false);
   const [analyticsHovered, setAnalyticsHovered] = useState(false);
   const [commerceHovered, setCommerceHovered] = useState(false);
+  const [customersHovered, setCustomersHovered] = useState(false);
 
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
   const [settingsHovered, setSettingsHovered] = useState(false);
@@ -1061,22 +1062,22 @@ export default function VpBackendLayout() {
             >
               <Link
                 to="/store_backend/orders"
-                className={`nav-item menu-parent ${location.pathname.startsWith("/store_backend/orders") || location.pathname.startsWith("/store_backend/coupons") || location.pathname.startsWith("/store_backend/customers") ? "active" : ""}`}
+                className={`nav-item menu-parent ${location.pathname.startsWith("/store_backend/orders") || location.pathname.startsWith("/store_backend/coupons") ? "active" : ""}`}
                 style={{ textDecoration: "none" }}
               >
                 <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
                   <span style={{ fontSize: "16px" }}>🛍️</span>
                   <span className="nav-label">PSK Commerce</span>
                 </div>
-                <span className={`chevron-icon ${commerceHovered || location.pathname.startsWith("/store_backend/orders") || location.pathname.startsWith("/store_backend/coupons") || location.pathname.startsWith("/store_backend/customers") ? "rotated" : ""}`}>▶</span>
+                <span className={`chevron-icon ${commerceHovered || location.pathname.startsWith("/store_backend/orders") || location.pathname.startsWith("/store_backend/coupons") ? "rotated" : ""}`}>▶</span>
               </Link>
 
               <div
                 className="submenu-container"
                 style={{
-                  maxHeight: (commerceHovered || location.pathname.startsWith("/store_backend/orders") || location.pathname.startsWith("/store_backend/coupons") || location.pathname.startsWith("/store_backend/customers")) ? "380px" : "0px",
-                  opacity: (commerceHovered || location.pathname.startsWith("/store_backend/orders") || location.pathname.startsWith("/store_backend/coupons") || location.pathname.startsWith("/store_backend/customers")) ? 1 : 0,
-                  marginTop: (commerceHovered || location.pathname.startsWith("/store_backend/orders") || location.pathname.startsWith("/store_backend/coupons") || location.pathname.startsWith("/store_backend/customers")) ? "4px" : "0px",
+                  maxHeight: (commerceHovered || location.pathname.startsWith("/store_backend/orders") || location.pathname.startsWith("/store_backend/coupons")) ? "300px" : "0px",
+                  opacity: (commerceHovered || location.pathname.startsWith("/store_backend/orders") || location.pathname.startsWith("/store_backend/coupons")) ? 1 : 0,
+                  marginTop: (commerceHovered || location.pathname.startsWith("/store_backend/orders") || location.pathname.startsWith("/store_backend/coupons")) ? "4px" : "0px",
                 }}
               >
                 <Link
@@ -1092,12 +1093,6 @@ export default function VpBackendLayout() {
                 >
                   <span>Orders</span>
                   {ordersCount > 0 && <span className="submenu-badge">{ordersCount}</span>}
-                </Link>
-                <Link
-                  to="/store_backend/customers"
-                  className={`submenu-item ${location.pathname.startsWith("/store_backend/customers") ? "active" : ""}`}
-                >
-                  Customers
                 </Link>
                 <Link
                   to="/store_backend/coupons"
@@ -1434,6 +1429,40 @@ export default function VpBackendLayout() {
             </Link>
 
 
+
+            {/* Collapsible Customers Menu */}
+            <div
+              onMouseEnter={() => handleHoverStart("customers", setCustomersHovered)}
+              onMouseLeave={() => handleHoverEnd("customers", setCustomersHovered)}
+            >
+              <Link
+                to="/store_backend/customers"
+                className={`nav-item menu-parent ${location.pathname.startsWith("/store_backend/customers") ? "active" : ""}`}
+                style={{ textDecoration: "none" }}
+              >
+                <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+                  <span style={{ fontSize: "16px" }}>👤</span>
+                  <span className="nav-label">Customers</span>
+                </div>
+                <span className={`chevron-icon ${customersHovered || location.pathname.startsWith("/store_backend/customers") ? "rotated" : ""}`}>▶</span>
+              </Link>
+
+              <div
+                className="submenu-container"
+                style={{
+                  maxHeight: (customersHovered || location.pathname.startsWith("/store_backend/customers")) ? "120px" : "0px",
+                  opacity: (customersHovered || location.pathname.startsWith("/store_backend/customers")) ? 1 : 0,
+                  marginTop: (customersHovered || location.pathname.startsWith("/store_backend/customers")) ? "4px" : "0px",
+                }}
+              >
+                <Link
+                  to="/store_backend/customers"
+                  className={`submenu-item ${(location.pathname === "/store_backend/customers" && !location.search.includes("view=")) ? "active" : ""}`}
+                >
+                  All Customers
+                </Link>
+              </div>
+            </div>
 
             {/* Collapsible Users Menu */}
             <div
