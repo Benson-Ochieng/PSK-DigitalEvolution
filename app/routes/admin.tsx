@@ -6,28 +6,13 @@ import "../admin.css";
 export async function loader({ request }: Route.LoaderArgs) {
   checkAdminBranch();
   
-  const cookieHeader = request.headers.get("Cookie") || "";
-  const pinCookie = cookieHeader.split("; ").find(row => row.startsWith("admin_pin="));
-  const pin = pinCookie ? decodeURIComponent(pinCookie.split("=")[1]) : "";
-
-  if (pin !== process.env.ADMIN_PIN) {
-    return redirect("/admin/login");
-  }
-  return { pin };
+  const url = new URL(request.url);
+  const subpath = url.pathname.replace(/^\/admin/, "");
+  return redirect(`/store_backend${subpath}`);
 }
 
 export async function action({ request }: Route.ActionArgs) {
-  const formData = await request.formData();
-  if (formData.get("intent") === "logout") {
-    const headers = new Headers();
-    // Clear the cookie by setting it with a past expiration date
-    headers.append(
-      "Set-Cookie",
-      "admin_pin=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; SameSite=Lax"
-    );
-    return redirect("/admin/login", { headers });
-  }
-  return {};
+  return redirect("/store_backend");
 }
 
 export default function AdminLayout() {

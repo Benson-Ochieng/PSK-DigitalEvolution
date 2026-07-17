@@ -1364,20 +1364,23 @@ export default function CheckoutPage() {
             <>
               <div style={{
                 border: "1px solid #dcdcdc",
-                padding: "0.85rem 1rem",
-                background: "#fdfdfd",
+                borderTop: "3px solid #1E5DA7",
+                padding: "1rem 1.25rem",
+                background: "#f7f7f7",
                 fontSize: "0.9rem",
                 color: "#515151",
                 display: "flex",
                 alignItems: "center",
-                gap: "0.5rem",
-                marginBottom: showCheckoutLogin ? "0.5rem" : "2rem"
+                marginBottom: showCheckoutLogin ? "0.5rem" : "2rem",
+                fontFamily: "var(--font-sans)"
               }}>
-                <i className="fa fa-info-circle" style={{ color: "#1E5DA7" }} />
+                <i className="fa fa-file-text-o" style={{ color: "#1E5DA7", fontSize: "14px", marginRight: "10px" }} />
                 <span>
                   Returning customer? <span 
                     onClick={() => setShowCheckoutLogin(!showCheckoutLogin)} 
-                    style={{ color: "#1E5DA7", textDecoration: "none", fontWeight: 500, cursor: "pointer", borderBottom: "1px dashed #1E5DA7" }}
+                    style={{ color: "#1E5DA7", textDecoration: "none", fontWeight: 500, cursor: "pointer", transition: "color 0.2s" }}
+                    onMouseEnter={(e) => e.currentTarget.style.color = "#154275"}
+                    onMouseLeave={(e) => e.currentTarget.style.color = "#1E5DA7"}
                   >
                     Click here to login
                   </span>
@@ -1391,12 +1394,12 @@ export default function CheckoutPage() {
                   style={{
                     border: "1px solid #dcdcdc",
                     borderRadius: "4px",
-                    padding: "2rem",
+                    padding: "2.5rem 2rem",
                     background: "#ffffff",
                     marginBottom: "2rem"
                   }}
                 >
-                  <p style={{ fontSize: "14px", color: "#333333", lineHeight: 1.5, marginBottom: "1.5rem", fontFamily: "var(--font-sans)" }}>
+                  <p style={{ fontSize: "14px", color: "#515151", lineHeight: 1.6, marginBottom: "1.5rem", fontFamily: "var(--font-sans)" }}>
                     If you have shopped with us before, please enter your details below. If you are a new customer, please proceed to the Billing section.
                   </p>
 
@@ -1417,14 +1420,18 @@ export default function CheckoutPage() {
                             style={{
                               width: "100%",
                               padding: "0.75rem 0.85rem",
-                              border: "1px solid #7ea4d3",
+                              border: "1px solid #cccccc",
                               borderRadius: "4px",
-                              background: "#e8f0fe",
+                              background: "#ffffff",
                               outline: "none",
                               fontSize: "14px",
                               boxSizing: "border-box",
-                              fontFamily: "var(--font-sans)"
+                              fontFamily: "var(--font-sans)",
+                              color: "#333333",
+                              transition: "border-color 0.2s"
                             }}
+                            onFocus={(e) => e.target.style.borderColor = "#7ea4d3"}
+                            onBlur={(e) => e.target.style.borderColor = "#cccccc"}
                           />
                         </div>
 
@@ -1451,14 +1458,18 @@ export default function CheckoutPage() {
                               width: "100%",
                               padding: "0.75rem 0.85rem",
                               paddingRight: "2.5rem",
-                              border: "1px solid #7ea4d3",
+                              border: "1px solid #cccccc",
                               borderRadius: "4px",
-                              background: "#e8f0fe",
+                              background: "#ffffff",
                               outline: "none",
                               fontSize: "14px",
                               boxSizing: "border-box",
-                              fontFamily: "var(--font-sans)"
+                              fontFamily: "var(--font-sans)",
+                              color: "#333333",
+                              transition: "border-color 0.2s"
                             }}
+                            onFocus={(e) => e.target.style.borderColor = "#7ea4d3"}
+                            onBlur={(e) => e.target.style.borderColor = "#cccccc"}
                           />
                           <span
                             onClick={() => setShowLoginPassword(!showLoginPassword)}
@@ -1510,16 +1521,19 @@ export default function CheckoutPage() {
                       <button
                         type="submit"
                         style={{
-                          background: "#e2e0e6",
-                          color: "#333333",
+                          background: "#eae9ec",
+                          color: "#515151",
                           border: "1px solid #dcdcdc",
                           borderRadius: "4px",
-                          padding: "0.55rem 1.75rem",
+                          padding: "0.75rem 2rem",
                           fontWeight: "600",
                           fontSize: "0.9rem",
                           cursor: "pointer",
-                          outline: "none"
+                          outline: "none",
+                          transition: "background-color 0.2s"
                         }}
+                        onMouseEnter={(e) => e.currentTarget.style.backgroundColor = "#dfdedf"}
+                        onMouseLeave={(e) => e.currentTarget.style.backgroundColor = "#eae9ec"}
                       >
                         Login
                       </button>
@@ -1542,18 +1556,22 @@ export default function CheckoutPage() {
                           color: "#ffffff",
                           border: "none",
                           borderRadius: "4px",
-                          padding: "0.65rem 1.25rem",
+                          padding: "0.75rem 1.5rem",
                           fontWeight: "600",
-                          fontSize: "0.85rem",
+                          fontSize: "0.9rem",
                           cursor: "pointer",
                           display: "flex",
                           alignItems: "center",
                           justifyContent: "center",
+                          gap: "10px",
                           width: "fit-content",
-                          fontFamily: "var(--font-sans)"
+                          fontFamily: "var(--font-sans)",
+                          transition: "background-color 0.2s"
                         }}
+                        onMouseEnter={(e) => e.currentTarget.style.backgroundColor = "#222222"}
+                        onMouseLeave={(e) => e.currentTarget.style.backgroundColor = "#000000"}
                       >
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" style={{ marginRight: "10px" }}>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
                           <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
                           <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
                           <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" />
