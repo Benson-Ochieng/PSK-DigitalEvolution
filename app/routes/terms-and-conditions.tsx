@@ -39,7 +39,20 @@ export default function TermsAndConditions() {
         <PageHeader title={page?.title || "Terms & Conditions"} />
 
         {/* Content Section */}
+        <style dangerouslySetInnerHTML={{ __html: `
+          .terms-content a {
+            color: #1E5DA7;
+            text-decoration: underline;
+            font-weight: 500;
+            transition: color 0.15s ease-in-out;
+          }
+          .terms-content a:hover {
+            color: #154275;
+            text-decoration: underline;
+          }
+        `}} />
         <div 
+          className="terms-content"
           style={{ 
             maxWidth: "960px", 
             margin: "0 auto", 
