@@ -21,8 +21,8 @@ export function hashOtp(code: string): string {
  */
 export async function sendEmailOtp(email: string, code: string): Promise<boolean> {
   try {
-    const user = process.env.ETHEREAL_EMAIL;
-    const pass = process.env.ETHEREAL_PASSWORD;
+    const user = process.env.ETHEREAL_EMAIL || "urban6@ethereal.email";
+    const pass = process.env.ETHEREAL_PASSWORD || "mywYgw9vSaeNBG4kHY";
 
     let transporter;
     let accountInfoForLog = "";
