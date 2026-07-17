@@ -157,13 +157,19 @@ export async function action({ request }: { request: Request }) {
       await sendSmsOtp(phoneTarget, code);
     }
 
+    const isTestOtpAllowed = process.env.NODE_ENV !== "production" || 
+      !!process.env.ETHEREAL_EMAIL || 
+      process.env.ALLOW_TEST_OTP === "true" ||
+      (!process.env.SMTP_HOST || process.env.SMTP_HOST.includes("ethereal"));
+
     return {
       success: true,
       otpSent: true,
       sessionId: otpSession.id,
       targetEmail: sendToEmail ? maskEmail(emailTarget) : null,
       targetPhone: sendToPhone && phoneTarget ? maskPhone(phoneTarget) : null,
-      originalInput: loginInput
+      originalInput: loginInput,
+      testOtp: isTestOtpAllowed ? code : null
     };
   }
 
@@ -290,12 +296,18 @@ export async function action({ request }: { request: Request }) {
       await sendSmsOtp(phoneTarget, code);
     }
 
+    const isTestOtpAllowed = process.env.NODE_ENV !== "production" || 
+      !!process.env.ETHEREAL_EMAIL || 
+      process.env.ALLOW_TEST_OTP === "true" ||
+      (!process.env.SMTP_HOST || process.env.SMTP_HOST.includes("ethereal"));
+
     return {
       success: true,
       otpSent: true,
       sessionId: newSession.id,
       targetEmail: sendToEmail ? maskEmail(emailTarget) : null,
-      targetPhone: sendToPhone && phoneTarget ? maskPhone(phoneTarget) : null
+      targetPhone: sendToPhone && phoneTarget ? maskPhone(phoneTarget) : null,
+      testOtp: isTestOtpAllowed ? code : null
     };
   }
 
@@ -303,12 +315,13 @@ export async function action({ request }: { request: Request }) {
 }
 
 export default function VpBackendLogin() {
-  const actionData = useActionData() as { error?: string; otpSent?: boolean; sessionId?: string; targetEmail?: string | null; targetPhone?: string | null } | undefined;
+  const actionData = useActionData() as { error?: string; otpSent?: boolean; sessionId?: string; targetEmail?: string | null; targetPhone?: string | null; testOtp?: string | null } | undefined;
   const navigation = useNavigation();
   const isSubmitting = navigation.state === "submitting";
   const [storedSessionId, setStoredSessionId] = useState<string | null>(null);
 
   const fetcher = useFetcher();
+  const displayTestOtp = actionData?.testOtp || (fetcher.data as any)?.testOtp;
 
   // Watch for successful OTP generation from normal submission or resend fetcher
   useEffect(() => {
@@ -605,6 +618,26 @@ export default function VpBackendLogin() {
                 <p style={{ fontWeight: "bold", color: "#00ccff", fontSize: "15px", marginTop: "2px" }}>
                   {actionData?.targetPhone || (fetcher.data as any)?.targetPhone}
                 </p>
+              )}
+
+              {displayTestOtp && (
+                <div style={{
+                  marginTop: "16px",
+                  padding: "14px",
+                  background: "rgba(0, 204, 255, 0.08)",
+                  border: "1px dashed rgba(0, 204, 255, 0.3)",
+                  borderRadius: "8px",
+                  fontSize: "13px",
+                  color: "#00ccff"
+                }}>
+                  <p style={{ margin: 0, fontWeight: "600" }}>Test Environment OTP</p>
+                  <p style={{ margin: "4px 0 0 0", fontSize: "20px", fontWeight: "bold", letterSpacing: "4px" }}>
+                    {displayTestOtp}
+                  </p>
+                  <p style={{ margin: "4px 0 0 0", fontSize: "11px", opacity: 0.8 }}>
+                    (SMTP port 587 is blocked on Render free tier. Use this code to log in.)
+                  </p>
+                </div>
               )}
             </div>
 

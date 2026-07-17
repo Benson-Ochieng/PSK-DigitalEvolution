@@ -68,5 +68,25 @@
     "invalidated": true,
     "id": "otp-f2hpfk7a2",
     "createdAt": "2026-07-14T13:37:09.613Z"
+  },
+  {
+    "userId": "u-admin",
+    "target": "admin@petstore.co.ke",
+    "codeHash": "48e30d872097380c36cf48ad1089facf39b250c4e5493399e1a62bba75b96324",
+    "expiresAt": "2026-07-17T09:12:40.900Z",
+    "attempts": 0,
+    "invalidated": true,
+    "id": "otp-nfbpsvamw",
+    "createdAt": "2026-07-17T09:07:40.900Z"
+  },
+  {
+    "userId": "u-admin",
+    "target": "admin@petstore.co.ke",
+    "codeHash": "fd307033bed6fe2f5f4ecae42b1cdd63744e8be0615473c1153540f9915dd8a8",
+    "expiresAt": "2026-07-17T09:20:04.440Z",
+    "attempts": 0,
+    "invalidated": false,
+    "id": "otp-jxr2gide2",
+    "createdAt": "2026-07-17T09:15:04.440Z"
   }
 ]
