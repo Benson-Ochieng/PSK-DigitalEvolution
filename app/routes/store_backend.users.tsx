@@ -47,9 +47,12 @@ export async function action({ request }: { request: Request }) {
 
     // Check if user already exists
     const existingEmail = await db.user.findUnique({ where: { email } });
+    if (existingEmail) {
+      return { error: `User with email "${email}" already exists with the role "${existingEmail.role}".` };
+    }
     const existingUser = await db.user.findUnique({ where: { username } });
-    if (existingEmail || existingUser) {
-      return { error: "User with this username or email already exists." };
+    if (existingUser) {
+      return { error: `User with username "${username}" already exists with the role "${existingUser.role}".` };
     }
 
     await db.user.create({
@@ -88,11 +91,17 @@ export async function action({ request }: { request: Request }) {
 
     // Check duplicate email or username
     const existingUsers = await db.user.findMany();
-    const duplicate = existingUsers.find(
-      (u) => (u.email.toLowerCase() === email.toLowerCase() || u.username.toLowerCase() === username.toLowerCase()) && u.id !== id
+    const duplicateEmail = existingUsers.find(
+      (u) => u.email.toLowerCase() === email.toLowerCase() && u.id !== id
     );
-    if (duplicate) {
-      return { error: "Another user with this username or email already exists." };
+    if (duplicateEmail) {
+      return { error: `Another user with email "${email}" already exists with the role "${duplicateEmail.role}".` };
+    }
+    const duplicateUsername = existingUsers.find(
+      (u) => u.username.toLowerCase() === username.toLowerCase() && u.id !== id
+    );
+    if (duplicateUsername) {
+      return { error: `Another user with username "${username}" already exists with the role "${duplicateUsername.role}".` };
     }
 
     const data: any = { name, email, username, role, status, phone };

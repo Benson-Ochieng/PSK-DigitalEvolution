@@ -3,18 +3,11 @@ import type { Route } from "./+types/admin";
 
 export async function loader({ request }: Route.LoaderArgs) {
   const url = new URL(request.url);
-  const pathname = url.pathname;
+  const subpath = url.pathname.replace(/^\/admin/, "");
+  return redirect(`/store_backend${subpath}`);
+}
 
-  if (pathname === "/admin/orders") {
-    return redirect("/store_backend/orders");
-  }
-  if (pathname === "/admin/products") {
-    return redirect("/store_backend/products");
-  }
-  if (pathname === "/admin/blogs") {
-    return redirect("/store_backend/posts");
-  }
-
+export async function action({ request }: Route.ActionArgs) {
   return redirect("/store_backend");
 }
 

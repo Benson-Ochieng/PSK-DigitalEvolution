@@ -1,5 +1,5 @@
-import { Link, useLoaderData, useNavigate } from "react-router";
-import { useState, useEffect } from "react";
+import { Link, useLoaderData, useNavigate, data, redirect, Form, useActionData } from "react-router";
+import { useState, useEffect, useRef } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { query } from "../db.server";
@@ -461,11 +461,142 @@ export async function loader({ request }: { request: Request }) {
     }
   }
 
-  return { customerName, customerEmail, customerPhone };
+  const settingsPath = await import("path").then(p => p.default.join(process.cwd(), "content", "general-settings.json"));
+  const fs = await import("fs").then(f => f.default);
+  let recaptchaSiteKey = "";
+  let googleClientId = process.env.GOOGLE_CLIENT_ID || "YOUR_GOOGLE_CLIENT_ID_PLACEHOLDER";
+  if (fs.existsSync(settingsPath)) {
+    try {
+      const parsed = JSON.parse(fs.readFileSync(settingsPath, "utf-8"));
+      recaptchaSiteKey = parsed.recaptchaSiteKey || "";
+      if (parsed.googleClientId) {
+        googleClientId = parsed.googleClientId;
+      }
+    } catch (e) {}
+  }
+
+  return { customerName, customerEmail, customerPhone, recaptchaSiteKey, googleClientId };
+}
+
+export async function action({ request }: { request: Request }) {
+  const formData = await request.formData();
+  const formType = formData.get("form_type")?.toString();
+
+  if (formType === "checkout_login" || formType === "checkout_google_login") {
+    const settingsPath = await import("path").then(p => p.default.join(process.cwd(), "content", "general-settings.json"));
+    const fs = await import("fs").then(f => f.default);
+    let recaptchaSecret = "";
+    if (fs.existsSync(settingsPath)) {
+      try {
+        const parsed = JSON.parse(fs.readFileSync(settingsPath, "utf-8"));
+        recaptchaSecret = parsed.recaptchaSecretKey || "";
+      } catch (e) {}
+    }
+
+    if (recaptchaSecret && formType === "checkout_login") {
+      const recaptchaResponse = formData.get("g-recaptcha-response")?.toString();
+      if (!recaptchaResponse) {
+        return data({ error: "Please complete the reCAPTCHA to verify that you are not a robot." }, { status: 400 });
+      }
+
+      try {
+        const verifyRes = await fetch("https://www.google.com/recaptcha/api/siteverify", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: `secret=${encodeURIComponent(recaptchaSecret)}&response=${encodeURIComponent(recaptchaResponse)}`,
+        });
+        const verifyData = await verifyRes.json();
+        if (!verifyData.success) {
+          return data({ error: "reCAPTCHA verification failed. Please try again." }, { status: 400 });
+        }
+      } catch (e) {
+        console.error("reCAPTCHA verification error:", e);
+        return data({ error: "Failed to verify reCAPTCHA. Please try again." }, { status: 500 });
+      }
+    }
+  }
+
+  if (formType === "checkout_google_login") {
+    const email = formData.get("email")?.toString().trim();
+    const name = formData.get("name")?.toString().trim();
+
+    if (!email || !name) {
+      return data({ error: "Google authentication failed: Email and Name are required" }, { status: 400 });
+    }
+
+    const { query } = await import("../db.server");
+    const res = await query("SELECT * FROM customers WHERE email = $1", [email]);
+    if (res.rows.length === 0) {
+      await query("INSERT INTO customers (name, email) VALUES ($1, $2)", [name, email]);
+    } else {
+      await query("UPDATE customers SET name = $1 WHERE email = $2", [name, email]);
+    }
+
+    const headers = new Headers();
+    headers.append(
+      "Set-Cookie",
+      `customer_name=${encodeURIComponent(name)}; Path=/; SameSite=Lax; Max-Age=86400`
+    );
+    headers.append(
+      "Set-Cookie",
+      `customer_email=${encodeURIComponent(email)}; Path=/; SameSite=Lax; Max-Age=86400`
+    );
+
+    return redirect("/checkout", { headers });
+  }
+
+  if (formType === "checkout_login") {
+    const email = formData.get("email")?.toString().trim();
+
+    if (!email) {
+      return data({ error: "Email is required" }, { status: 400 });
+    }
+
+    const { query } = await import("../db.server");
+    const res = await query("SELECT * FROM customers WHERE email = $1", [email]);
+    let name = "";
+    if (res.rows.length > 0) {
+      name = res.rows[0].name;
+      if (name === "Ben Ochieng") {
+        const userRes = await query("SELECT * FROM users WHERE email = $1", [email]);
+        if (userRes.rows.length > 0 && userRes.rows[0].name) {
+          name = userRes.rows[0].name;
+          await query("UPDATE customers SET name = $1 WHERE email = $2", [name, email]);
+        }
+      }
+    } else {
+      const userRes = await query("SELECT * FROM users WHERE email = $1", [email]);
+      if (userRes.rows.length > 0 && userRes.rows[0].name) {
+        name = userRes.rows[0].name;
+      } else {
+        const prefix = email.split("@")[0];
+        name = prefix
+          .split(/[\._\-+]/)
+          .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+          .join(" ");
+      }
+      await query("INSERT INTO customers (name, email) VALUES ($1, $2)", [name, email]);
+    }
+
+    const headers = new Headers();
+    headers.append(
+      "Set-Cookie",
+      `customer_name=${encodeURIComponent(name)}; Path=/; SameSite=Lax; Max-Age=86400`
+    );
+    headers.append(
+      "Set-Cookie",
+      `customer_email=${encodeURIComponent(email)}; Path=/; SameSite=Lax; Max-Age=86400`
+    );
+
+    return redirect("/checkout", { headers });
+  }
+
+  return {};
 }
 
 export default function CheckoutPage() {
-  const { customerName, customerEmail, customerPhone } = useLoaderData<typeof loader>();
+  const { customerName, customerEmail, customerPhone, recaptchaSiteKey, googleClientId } = useLoaderData<typeof loader>();
+  const actionData = useActionData<any>();
   const { items, subtotal, clearCart } = useCart();
   const navigate = useNavigate();
 
@@ -483,6 +614,233 @@ export default function CheckoutPage() {
   const [apartmentInfo, setApartmentInfo] = useState("");
   const [recipientEmail, setRecipientEmail] = useState(customerEmail || "");
   const [recipientPhone, setRecipientPhone] = useState(customerPhone || "");
+
+  // Checkout Login states & handlers
+  const [showCheckoutLogin, setShowCheckoutLogin] = useState(false);
+  const [showLoginPassword, setShowLoginPassword] = useState(false);
+  const [loginWidgetId, setLoginWidgetId] = useState<number | null>(null);
+  const [showRecaptchaError, setShowRecaptchaError] = useState(false);
+  const [clientError, setClientError] = useState<string | null>(null);
+  const loginFormRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (actionData?.error) {
+      setShowRecaptchaError(true);
+    }
+  }, [actionData]);
+
+  // Load Google Identity Services script
+  useEffect(() => {
+    if (typeof window === "undefined" || !googleClientId) return;
+
+    const scriptId = "google-gsi-client";
+    if (!document.getElementById(scriptId)) {
+      const script = document.createElement("script");
+      script.id = scriptId;
+      script.src = "https://accounts.google.com/gsi/client";
+      script.async = true;
+      script.defer = true;
+      document.body.appendChild(script);
+    }
+  }, [googleClientId]);
+
+  const handleGoogleLogin = () => {
+    if (!googleClientId || googleClientId === "YOUR_GOOGLE_CLIENT_ID_PLACEHOLDER") {
+      alert("Google Client ID is not configured. Please supply a valid Client ID.");
+      return;
+    }
+    if (!(window as any).google || !(window as any).google.accounts) {
+      alert("Google Sign-In is loading, please try again in a moment.");
+      return;
+    }
+
+    try {
+      const client = (window as any).google.accounts.oauth2.initTokenClient({
+        client_id: googleClientId,
+        scope: "email profile openid",
+        prompt: "select_account",
+        callback: async (tokenResponse: any) => {
+          if (tokenResponse.error) {
+            console.error("Google OAuth response error:", tokenResponse);
+            return;
+          }
+          try {
+            const res = await fetch(`https://www.googleapis.com/oauth2/v3/userinfo?access_token=${tokenResponse.access_token}`);
+            const profile = await res.json();
+            
+            if (profile.email) {
+              const form = document.createElement("form");
+              form.method = "post";
+              
+              const typeInput = document.createElement("input");
+              typeInput.type = "hidden";
+              typeInput.name = "form_type";
+              typeInput.value = "checkout_google_login";
+              form.appendChild(typeInput);
+              
+              const emailInput = document.createElement("input");
+              emailInput.type = "hidden";
+              emailInput.name = "email";
+              emailInput.value = profile.email;
+              form.appendChild(emailInput);
+              
+              const nameInput = document.createElement("input");
+              nameInput.type = "hidden";
+              nameInput.name = "name";
+              nameInput.value = profile.name || `${profile.given_name || ""} ${profile.family_name || ""}`.trim();
+              form.appendChild(nameInput);
+              
+              document.body.appendChild(form);
+              form.submit();
+            } else {
+              alert("Could not retrieve email address from your Google Account.");
+            }
+          } catch (e) {
+            console.error("Error fetching Google profile info:", e);
+            alert("Error authenticating with Google.");
+          }
+        },
+      });
+      client.requestAccessToken();
+    } catch (err) {
+      console.error("Google authentication error:", err);
+      alert("Failed to initialize Google Sign-in.");
+    }
+  };
+
+  function handleLoginSubmit(e: React.FormEvent<HTMLFormElement>) {
+    setClientError(null);
+    if (recaptchaSiteKey) {
+      const response = (window as any).grecaptcha?.getResponse(loginWidgetId ?? undefined);
+      if (!response) {
+        e.preventDefault();
+        setClientError("Please complete the reCAPTCHA to verify that you are not a robot.");
+        setShowRecaptchaError(true);
+        return;
+      }
+    } else {
+      const formData = new FormData(e.currentTarget);
+      const isChecked = formData.get("mock_recaptcha") === "on";
+      if (!isChecked) {
+        e.preventDefault();
+        setClientError("Please complete the reCAPTCHA to verify that you are not a robot.");
+        setShowRecaptchaError(true);
+        return;
+      }
+    }
+  }
+
+  // Load and render Google reCAPTCHA v2 script and widgets
+  useEffect(() => {
+    if (typeof window === "undefined" || !recaptchaSiteKey || !showCheckoutLogin) return;
+
+    // Load reCAPTCHA script dynamically
+    const scriptId = "recaptcha-script";
+    if (!document.getElementById(scriptId)) {
+      const script = document.createElement("script");
+      script.id = scriptId;
+      script.src = "https://www.google.com/recaptcha/api.js?render=explicit";
+      script.async = true;
+      script.defer = true;
+      document.body.appendChild(script);
+    }
+
+    const initRecaptchas = () => {
+      if ((window as any).grecaptcha && (window as any).grecaptcha.render) {
+        const loginEl = document.getElementById("recaptcha-checkout-login");
+
+        if (loginEl && !loginEl.innerHTML) {
+          try {
+            const id = (window as any).grecaptcha.render("recaptcha-checkout-login", {
+              sitekey: recaptchaSiteKey,
+            });
+            setLoginWidgetId(id);
+          } catch (e) {
+            console.error("Error rendering login recaptcha:", e);
+          }
+        }
+      }
+    };
+
+    if ((window as any).grecaptcha && (window as any).grecaptcha.render) {
+      initRecaptchas();
+    } else {
+      const interval = setInterval(() => {
+        if ((window as any).grecaptcha && (window as any).grecaptcha.render) {
+          initRecaptchas();
+          clearInterval(interval);
+        }
+      }, 500);
+      return () => clearInterval(interval);
+    }
+  }, [recaptchaSiteKey, showCheckoutLogin]);
+
+  // Mock reCAPTCHA helper
+  function MockRecaptcha() {
+    const [checked, setChecked] = useState(false);
+    return (
+      <div style={{
+        width: "100%",
+        maxWidth: "302px",
+        height: "76px",
+        background: "#f9f9f9",
+        border: "1px solid #d3d3d3",
+        borderRadius: "3px",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "space-between",
+        padding: "0 12px",
+        boxSizing: "border-box",
+        marginTop: "0.5rem"
+      }}>
+        <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+          <label style={{ display: "inline-flex", alignItems: "center", cursor: "pointer", position: "relative" }}>
+            <input 
+              type="checkbox" 
+              name="mock_recaptcha" 
+              checked={checked}
+              onChange={(e) => setChecked(e.target.checked)}
+              style={{ display: "none" }} 
+            />
+            <div style={{
+              width: "24px",
+              height: "24px",
+              border: "3px solid #2d2d2d",
+              borderRadius: "2px",
+              backgroundColor: "#ffffff",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              boxSizing: "border-box"
+            }}>
+              {checked && (
+                <svg viewBox="0 0 24 24" style={{ width: "16px", height: "16px" }}>
+                  <path 
+                    fill="none" 
+                    stroke="#009933" 
+                    strokeWidth="3.5" 
+                    strokeLinecap="round" 
+                    strokeLinejoin="round" 
+                    d="M4 12l5 5L20 6" 
+                  />
+                </svg>
+              )}
+            </div>
+            <span style={{ fontSize: "14px", color: "#2d2d2d", fontFamily: "Roboto, helvetica, arial, sans-serif", marginLeft: "10px", userSelect: "none" }}>I'm not a robot</span>
+          </label>
+        </div>
+        <div style={{ display: "flex", gap: "2px", flexDirection: "column", alignItems: "center" }}>
+          <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="reCAPTCHA logo" style={{ width: "32px", height: "32px" }} />
+          <span style={{ fontSize: "8px", color: "#555555", fontFamily: "Roboto, helvetica, arial, sans-serif" }}>reCAPTCHA</span>
+          <div style={{ display: "flex", gap: "4px", fontSize: "8px", fontFamily: "Roboto, helvetica, arial, sans-serif" }}>
+            <a href="https://www.google.com/intl/en/policies/privacy/" target="_blank" rel="noopener noreferrer" style={{ color: "#555555", textDecoration: "none" }}>Privacy</a>
+            <span style={{ color: "#555555" }}>-</span>
+            <a href="https://www.google.com/intl/en/policies/terms/" target="_blank" rel="noopener noreferrer" style={{ color: "#555555", textDecoration: "none" }}>Terms</a>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   // Custom Neighbourhood dropdown states
   const [showZoneDropdown, setShowZoneDropdown] = useState(false);
@@ -1003,22 +1361,229 @@ export default function CheckoutPage() {
 
           {/* Returning Customer Alert Banner */}
           {!customerEmail && (
-            <div style={{
-              border: "1px solid #dcdcdc",
-              padding: "0.85rem 1rem",
-              background: "#fdfdfd",
-              fontSize: "0.9rem",
-              color: "#515151",
-              display: "flex",
-              alignItems: "center",
-              gap: "0.5rem",
-              marginBottom: "2rem"
-            }}>
-              <i className="fa fa-info-circle" style={{ color: "#1E5DA7" }} />
-              <span>
-                Returning customer? <Link to="/my-account" style={{ color: "#1E5DA7", textDecoration: "none", fontWeight: 500 }}>Click here to login</Link>
-              </span>
-            </div>
+            <>
+              <div style={{
+                border: "1px solid #dcdcdc",
+                borderTop: "3px solid #1E5DA7",
+                padding: "1rem 1.25rem",
+                background: "#f7f7f7",
+                fontSize: "0.9rem",
+                color: "#515151",
+                display: "flex",
+                alignItems: "center",
+                marginBottom: showCheckoutLogin ? "0.5rem" : "2rem",
+                fontFamily: "var(--font-sans)"
+              }}>
+                <i className="fa fa-file-text-o" style={{ color: "#1E5DA7", fontSize: "14px", marginRight: "10px" }} />
+                <span>
+                  Returning customer? <span 
+                    onClick={() => setShowCheckoutLogin(!showCheckoutLogin)} 
+                    style={{ color: "#1E5DA7", textDecoration: "none", fontWeight: 500, cursor: "pointer", transition: "color 0.2s" }}
+                    onMouseEnter={(e) => e.currentTarget.style.color = "#154275"}
+                    onMouseLeave={(e) => e.currentTarget.style.color = "#1E5DA7"}
+                  >
+                    Click here to login
+                  </span>
+                </span>
+              </div>
+
+              {/* Checkout Login Form Card */}
+              {showCheckoutLogin && (
+                <div
+                  ref={loginFormRef}
+                  style={{
+                    border: "1px solid #dcdcdc",
+                    borderRadius: "4px",
+                    padding: "2.5rem 2rem",
+                    background: "#ffffff",
+                    marginBottom: "2rem"
+                  }}
+                >
+                  <p style={{ fontSize: "14px", color: "#515151", lineHeight: 1.6, marginBottom: "1.5rem", fontFamily: "var(--font-sans)" }}>
+                    If you have shopped with us before, please enter your details below. If you are a new customer, please proceed to the Billing section.
+                  </p>
+
+                  <Form method="post" onSubmit={handleLoginSubmit} style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
+                    <input type="hidden" name="form_type" value="checkout_login" />
+
+                    <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "2.5rem", marginBottom: "0.5rem" }}>
+                      {/* Left Column: Username & Recaptcha */}
+                      <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+                        <div>
+                          <label style={{ display: "block", fontSize: "0.9rem", color: "#333333", fontWeight: 500, marginBottom: "0.5rem", fontFamily: "var(--font-sans)" }}>
+                            Username or email <span style={{ color: "#ef4444" }}>*</span>
+                          </label>
+                          <input
+                            type="email"
+                            name="email"
+                            required
+                            style={{
+                              width: "100%",
+                              padding: "0.75rem 0.85rem",
+                              border: "1px solid #cccccc",
+                              borderRadius: "4px",
+                              background: "#ffffff",
+                              outline: "none",
+                              fontSize: "14px",
+                              boxSizing: "border-box",
+                              fontFamily: "var(--font-sans)",
+                              color: "#333333",
+                              transition: "border-color 0.2s"
+                            }}
+                            onFocus={(e) => e.target.style.borderColor = "#7ea4d3"}
+                            onBlur={(e) => e.target.style.borderColor = "#cccccc"}
+                          />
+                        </div>
+
+                        {recaptchaSiteKey ? (
+                          <div id="recaptcha-checkout-login" style={{ marginTop: "0.25rem" }}></div>
+                        ) : (
+                          <div style={{ marginTop: "0.25rem" }}>
+                            <MockRecaptcha />
+                          </div>
+                        )}
+                      </div>
+
+                      {/* Right Column: Password */}
+                      <div>
+                        <label style={{ display: "block", fontSize: "0.9rem", color: "#333333", fontWeight: 500, marginBottom: "0.5rem", fontFamily: "var(--font-sans)" }}>
+                          Password <span style={{ color: "#ef4444" }}>*</span>
+                        </label>
+                        <div style={{ position: "relative" }}>
+                          <input
+                            type={showLoginPassword ? "text" : "password"}
+                            name="password"
+                            required
+                            style={{
+                              width: "100%",
+                              padding: "0.75rem 0.85rem",
+                              paddingRight: "2.5rem",
+                              border: "1px solid #cccccc",
+                              borderRadius: "4px",
+                              background: "#ffffff",
+                              outline: "none",
+                              fontSize: "14px",
+                              boxSizing: "border-box",
+                              fontFamily: "var(--font-sans)",
+                              color: "#333333",
+                              transition: "border-color 0.2s"
+                            }}
+                            onFocus={(e) => e.target.style.borderColor = "#7ea4d3"}
+                            onBlur={(e) => e.target.style.borderColor = "#cccccc"}
+                          />
+                          <span
+                            onClick={() => setShowLoginPassword(!showLoginPassword)}
+                            style={{
+                              position: "absolute",
+                              right: "12px",
+                              top: "50%",
+                              transform: "translateY(-50%)",
+                              cursor: "pointer",
+                              color: "#777777"
+                            }}
+                          >
+                            <i className={showLoginPassword ? "fa fa-eye-slash" : "fa fa-eye"} style={{ fontSize: "15px" }}></i>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Remember me checkbox */}
+                    <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", marginTop: "0.5rem" }}>
+                      <input
+                        type="checkbox"
+                        id="checkout-rememberme"
+                        name="rememberme"
+                        style={{ width: "16px", height: "16px", cursor: "pointer" }}
+                      />
+                      <label htmlFor="checkout-rememberme" style={{ fontSize: "0.9rem", color: "#333333", cursor: "pointer", userSelect: "none", fontFamily: "var(--font-sans)" }}>
+                        Remember me
+                      </label>
+                    </div>
+
+                    {(clientError || actionData?.error) && (
+                      <div style={{
+                        background: "rgba(239, 68, 68, 0.05)",
+                        border: "1px solid #ef4444",
+                        color: "#ef4444",
+                        fontSize: "0.85rem",
+                        padding: "0.75rem",
+                        borderRadius: "4px",
+                        marginTop: "0.5rem",
+                        marginBottom: "0.5rem"
+                      }}>
+                        ⚠️ {clientError || actionData?.error}
+                      </div>
+                    )}
+
+                    {/* Login Button */}
+                    <div style={{ marginTop: "0.5rem" }}>
+                      <button
+                        type="submit"
+                        style={{
+                          background: "#eae9ec",
+                          color: "#515151",
+                          border: "1px solid #dcdcdc",
+                          borderRadius: "4px",
+                          padding: "0.75rem 2rem",
+                          fontWeight: "600",
+                          fontSize: "0.9rem",
+                          cursor: "pointer",
+                          outline: "none",
+                          transition: "background-color 0.2s"
+                        }}
+                        onMouseEnter={(e) => e.currentTarget.style.backgroundColor = "#dfdedf"}
+                        onMouseLeave={(e) => e.currentTarget.style.backgroundColor = "#eae9ec"}
+                      >
+                        Login
+                      </button>
+                    </div>
+
+                    {/* Lost Password Link */}
+                    <div>
+                      <Link to="/my-account" style={{ color: "#3b82f6", fontSize: "0.9rem", textDecoration: "none", fontWeight: 500, fontFamily: "var(--font-sans)" }}>
+                        Lost your password?
+                      </Link>
+                    </div>
+
+                    {/* Continue with Google Button */}
+                    <div style={{ marginTop: "1.5rem" }}>
+                      <button
+                        type="button"
+                        onClick={handleGoogleLogin}
+                        style={{
+                          background: "#000000",
+                          color: "#ffffff",
+                          border: "none",
+                          borderRadius: "4px",
+                          padding: "0.75rem 1.5rem",
+                          fontWeight: "600",
+                          fontSize: "0.9rem",
+                          cursor: "pointer",
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          gap: "10px",
+                          width: "fit-content",
+                          fontFamily: "var(--font-sans)",
+                          transition: "background-color 0.2s"
+                        }}
+                        onMouseEnter={(e) => e.currentTarget.style.backgroundColor = "#222222"}
+                        onMouseLeave={(e) => e.currentTarget.style.backgroundColor = "#000000"}
+                      >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                          <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
+                          <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
+                          <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" />
+                          <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" />
+                        </svg>
+                        Continue with Google
+                      </button>
+                    </div>
+                  </Form>
+                </div>
+              )}
+            </>
           )}
 
           {successOrderNumber ? (
@@ -2116,7 +2681,16 @@ export default function CheckoutPage() {
                     </div>
                     <button
                       type="button"
-                      onClick={() => navigate("/my-account")}
+                      onClick={() => {
+                        if (!customerEmail) {
+                          setShowCheckoutLogin(true);
+                          setTimeout(() => {
+                            loginFormRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });
+                          }, 100);
+                        } else {
+                          navigate("/my-account");
+                        }
+                      }}
                       style={{
                         background: "#ffffff",
                         color: "#1E5DA7",
