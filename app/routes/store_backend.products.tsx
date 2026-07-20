@@ -101,6 +101,8 @@ export async function action({ request }: { request: Request }) {
   const formData = await request.formData();
   const intent = formData.get("intent")?.toString();
 
+  try {
+
   if (intent === "bulk_trash") {
     const idsString = formData.get("ids")?.toString() || "[]";
     const idsToTrash = JSON.parse(idsString).map(Number);
@@ -1248,6 +1250,12 @@ export async function action({ request }: { request: Request }) {
   }
 
   return null;
+  } finally {
+    try {
+      const { clearAllCaches } = await import("~/lib/cache.server");
+      await clearAllCaches();
+    } catch (e) {}
+  }
 }
 
 import VisualCodeEditor from "~/components/VisualCodeEditor";

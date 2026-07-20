@@ -18,119 +18,126 @@ export async function loader() {
 }
 
 export async function action({ request }: Route.ActionArgs) {
-  const formData = await request.formData();
-  const intent = formData.get("intent")?.toString();
-
-  if (intent === "delete") {
-    const id = formData.get("id");
-    if (!id) return { error: "ID is required for deletion" };
-    
-    await query("DELETE FROM products WHERE id = $1", [id]);
-    return { success: true };
-  }
-
-  // Common properties
-  const name = formData.get("name")?.toString();
-  const brand = formData.get("brand")?.toString() || null;
-  const weight_kg = formData.get("weight_kg") ? Number(formData.get("weight_kg")) : null;
-  const animal_type = formData.get("animal_type")?.toString() || "dog";
-  const food_type = formData.get("food_type")?.toString() || "dry";
-  const image_url = formData.get("image_url")?.toString() || null;
-  const description = formData.get("description")?.toString() || null;
-  const key_ingredients = formData.get("key_ingredients")?.toString() || null;
-  const feeding_guide = formData.get("feeding_guide")?.toString() || null;
-  const replaces_brand = formData.get("replaces_brand")?.toString() || null;
-  const replaces_reason = formData.get("replaces_reason")?.toString() || null;
-  
-  const nutrition_protein = formData.get("nutrition_protein") ? Number(formData.get("nutrition_protein")) : null;
-  const nutrition_fat = formData.get("nutrition_fat") ? Number(formData.get("nutrition_fat")) : null;
-  const nutrition_fibre = formData.get("nutrition_fibre") ? Number(formData.get("nutrition_fibre")) : null;
-  const nutrition_moisture = formData.get("nutrition_moisture") ? Number(formData.get("nutrition_moisture")) : null;
-  const price = formData.get("price") ? Number(formData.get("price")) : null;
-  const status = formData.get("status")?.toString() || "publish";
-
-  if (!name) {
-    return { error: "Product Name is required" };
-  }
-
   try {
-    if (intent === "create") {
-      await withTransaction(async (client) => {
-        // 1. Insert product
-        const res = await client.query(
-          `INSERT INTO products 
-            (name, brand, weight_kg, animal_type, food_type, image_url, description, 
-             key_ingredients, feeding_guide, replaces_brand, replaces_reason, 
-             nutrition_protein, nutrition_fat, nutrition_fibre, nutrition_moisture, status)
-           VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16)
-           RETURNING id`,
-          [name, brand, weight_kg, animal_type, food_type, image_url, description,
-           key_ingredients, feeding_guide, replaces_brand, replaces_reason,
-           nutrition_protein, nutrition_fat, nutrition_fibre, nutrition_moisture, status]
-        );
-        const productId = res.rows[0].id;
+    const formData = await request.formData();
+    const intent = formData.get("intent")?.toString();
 
-        // 2. Set default store price for PetStore Kenya
-        if (price !== null) {
-          await client.query(
-            `INSERT INTO store_prices (product_id, store_name, price, product_url, in_stock)
-             VALUES ($1, 'PetStore Kenya', $2, $3, true)`,
-            [productId, price, `https://petstore.co.ke/shop/${productId}`]
-          );
-        }
-      });
+    if (intent === "delete") {
+      const id = formData.get("id");
+      if (!id) return { error: "ID is required for deletion" };
+      
+      await query("DELETE FROM products WHERE id = $1", [id]);
       return { success: true };
     }
 
-    if (intent === "update") {
-      const id = formData.get("id");
-      if (!id) return { error: "ID is required for updating" };
+    // Common properties
+    const name = formData.get("name")?.toString();
+    const brand = formData.get("brand")?.toString() || null;
+    const weight_kg = formData.get("weight_kg") ? Number(formData.get("weight_kg")) : null;
+    const animal_type = formData.get("animal_type")?.toString() || "dog";
+    const food_type = formData.get("food_type")?.toString() || "dry";
+    const image_url = formData.get("image_url")?.toString() || null;
+    const description = formData.get("description")?.toString() || null;
+    const key_ingredients = formData.get("key_ingredients")?.toString() || null;
+    const feeding_guide = formData.get("feeding_guide")?.toString() || null;
+    const replaces_brand = formData.get("replaces_brand")?.toString() || null;
+    const replaces_reason = formData.get("replaces_reason")?.toString() || null;
+    
+    const nutrition_protein = formData.get("nutrition_protein") ? Number(formData.get("nutrition_protein")) : null;
+    const nutrition_fat = formData.get("nutrition_fat") ? Number(formData.get("nutrition_fat")) : null;
+    const nutrition_fibre = formData.get("nutrition_fibre") ? Number(formData.get("nutrition_fibre")) : null;
+    const nutrition_moisture = formData.get("nutrition_moisture") ? Number(formData.get("nutrition_moisture")) : null;
+    const price = formData.get("price") ? Number(formData.get("price")) : null;
+    const status = formData.get("status")?.toString() || "publish";
 
-      await withTransaction(async (client) => {
-        // 1. Update product
-        await client.query(
-          `UPDATE products SET
-            name = $1, brand = $2, weight_kg = $3, animal_type = $4, food_type = $5,
-            image_url = $6, description = $7, key_ingredients = $8, feeding_guide = $9,
-            replaces_brand = $10, replaces_reason = $11, nutrition_protein = $12,
-            nutrition_fat = $13, nutrition_fibre = $14, nutrition_moisture = $15,
-            status = $16
-           WHERE id = $17`,
-          [name, brand, weight_kg, animal_type, food_type, image_url, description,
-           key_ingredients, feeding_guide, replaces_brand, replaces_reason,
-           nutrition_protein, nutrition_fat, nutrition_fibre, nutrition_moisture, status, id]
-        );
+    if (!name) {
+      return { error: "Product Name is required" };
+    }
 
-        // 2. Update price in store_prices (Upsert format)
-        if (price !== null) {
-          const checkPrice = await client.query(
-            `SELECT id FROM store_prices WHERE product_id = $1 AND store_name = 'PetStore Kenya'`,
-            [id]
+    try {
+      if (intent === "create") {
+        await withTransaction(async (client) => {
+          // 1. Insert product
+          const res = await client.query(
+            `INSERT INTO products 
+              (name, brand, weight_kg, animal_type, food_type, image_url, description, 
+               key_ingredients, feeding_guide, replaces_brand, replaces_reason, 
+               nutrition_protein, nutrition_fat, nutrition_fibre, nutrition_moisture, status)
+             VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16)
+             RETURNING id`,
+            [name, brand, weight_kg, animal_type, food_type, image_url, description,
+             key_ingredients, feeding_guide, replaces_brand, replaces_reason,
+             nutrition_protein, nutrition_fat, nutrition_fibre, nutrition_moisture, status]
           );
+          const productId = res.rows[0].id;
 
-          if (checkPrice.rows.length > 0) {
-            await client.query(
-              `UPDATE store_prices SET price = $1, last_updated = NOW()
-               WHERE product_id = $2 AND store_name = 'PetStore Kenya'`,
-              [price, id]
-            );
-          } else {
+          // 2. Set default store price for PetStore Kenya
+          if (price !== null) {
             await client.query(
               `INSERT INTO store_prices (product_id, store_name, price, product_url, in_stock)
                VALUES ($1, 'PetStore Kenya', $2, $3, true)`,
-              [id, price, `https://petstore.co.ke/shop/${id}`]
+              [productId, price, `https://petstore.co.ke/shop/${productId}`]
             );
           }
-        }
-      });
-      return { success: true };
-    }
-  } catch (err: any) {
-    console.error("Product action error:", err);
-    return { error: err.message || "Operation failed" };
-  }
+        });
+        return { success: true };
+      }
 
-  return {};
+      if (intent === "update") {
+        const id = formData.get("id");
+        if (!id) return { error: "ID is required for updating" };
+
+        await withTransaction(async (client) => {
+          // 1. Update product
+          await client.query(
+            `UPDATE products SET
+              name = $1, brand = $2, weight_kg = $3, animal_type = $4, food_type = $5,
+              image_url = $6, description = $7, key_ingredients = $8, feeding_guide = $9,
+              replaces_brand = $10, replaces_reason = $11, nutrition_protein = $12,
+              nutrition_fat = $13, nutrition_fibre = $14, nutrition_moisture = $15,
+              status = $16
+             WHERE id = $17`,
+            [name, brand, weight_kg, animal_type, food_type, image_url, description,
+             key_ingredients, feeding_guide, replaces_brand, replaces_reason,
+             nutrition_protein, nutrition_fat, nutrition_fibre, nutrition_moisture, status, id]
+          );
+
+          // 2. Update price in store_prices (Upsert format)
+          if (price !== null) {
+            const checkPrice = await client.query(
+              `SELECT id FROM store_prices WHERE product_id = $1 AND store_name = 'PetStore Kenya'`,
+              [id]
+            );
+
+            if (checkPrice.rows.length > 0) {
+              await client.query(
+                `UPDATE store_prices SET price = $1, last_updated = NOW()
+                 WHERE product_id = $2 AND store_name = 'PetStore Kenya'`,
+                [price, id]
+              );
+            } else {
+              await client.query(
+                `INSERT INTO store_prices (product_id, store_name, price, product_url, in_stock)
+                 VALUES ($1, 'PetStore Kenya', $2, $3, true)`,
+                [id, price, `https://petstore.co.ke/shop/${id}`]
+              );
+            }
+          }
+        });
+        return { success: true };
+      }
+    } catch (err: any) {
+      console.error("Product action error:", err);
+      return { error: err.message || "Operation failed" };
+    }
+
+    return {};
+  } finally {
+    try {
+      const { clearAllCaches } = await import("~/lib/cache.server");
+      await clearAllCaches();
+    } catch (e) {}
+  }
 }
 
 export default function AdminProducts() {

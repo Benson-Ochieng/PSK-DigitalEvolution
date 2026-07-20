@@ -15,8 +15,14 @@ export function meta() {
 }
 
 // Server-side cache for New Arrivals (5-minute TTL, keyed by sort type)
-let newArrivalsCache: Record<string, { data: any[]; timestamp: number }> = {};
+let newArrivalsCache: Record<string, { data: any[]; timestamp: number }> = {}; // hot reloaded
 const CACHE_TTL = 5 * 60 * 1000;
+
+export function clearNewArrivalsCache() {
+  for (const k of Object.keys(newArrivalsCache)) {
+    delete newArrivalsCache[k];
+  }
+}
 
 export async function loader({ request }: Route.LoaderArgs) {
   const url = new URL(request.url);
@@ -47,6 +53,7 @@ export async function loader({ request }: Route.LoaderArgs) {
       JOIN store_prices bbp  ON bbp.product_id = p.id AND bbp.store_name = 'PetStore Kenya'
       LEFT JOIN store_prices comp ON comp.product_id = p.id AND comp.store_name != 'PetStore Kenya'
       WHERE p.status = 'publish' 
+        AND bbp.in_stock = true
         AND p.tags @> '[{"slug": "new-arrivals"}]'::jsonb
         AND NOT (
           (p.categories IS NOT NULL AND jsonb_typeof(p.categories) = 'array' AND EXISTS (

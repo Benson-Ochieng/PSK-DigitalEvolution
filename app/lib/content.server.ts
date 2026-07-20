@@ -685,6 +685,10 @@ export function decrementProductStock(productIdentifier: string | number, qtyToD
     }
 
     fs.writeFileSync(indexFilePath, JSON.stringify(indexProducts, null, 2), "utf-8");
+    try {
+      const { clearAllCaches } = require("./cache.server");
+      clearAllCaches().catch(() => {});
+    } catch (e) {}
     return true;
   } catch (err) {
     console.error("Error in decrementProductStock:", err);
