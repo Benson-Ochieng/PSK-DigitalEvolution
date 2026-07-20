@@ -24,7 +24,7 @@ function levenshteinDistance(a: string, b: string): number {
   return tmp[a.length][b.length];
 }
 
-async function getDictionary(): Promise<Set<string>> {
+export async function getDictionary(): Promise<Set<string>> {
   const now = Date.now();
   if (dictionaryCache && (now - lastDictionaryBuild < 5 * 60 * 1000)) {
     return dictionaryCache;
@@ -34,7 +34,9 @@ async function getDictionary(): Promise<Set<string>> {
     const res = await query(`
       SELECT p.name, p.brand, p.categories, p.tags 
       FROM products p 
+      JOIN store_prices bbp ON bbp.product_id = p.id AND bbp.store_name = 'PetStore Kenya'
       WHERE p.status = 'publish'
+        AND bbp.in_stock = true
         AND NOT (
           (p.categories IS NOT NULL AND jsonb_typeof(p.categories) = 'array' AND EXISTS (
             SELECT 1 FROM jsonb_to_recordset(p.categories) AS c(slug text) WHERE c.slug = 'clearance'
@@ -73,7 +75,7 @@ function addWords(text: string, dict: Set<string>) {
   }
 }
 
-function correctQuery(q: string, dict: Set<string>): string {
+export function correctQuery(q: string, dict: Set<string>): string {
   const words = q.split(/\s+/).filter(Boolean);
   const corrected = words.map(w => {
     const cleanWord = w.toLowerCase().replace(/[^a-z0-9]/g, "");
@@ -123,7 +125,7 @@ function getProductImage(p: any) {
   return "/images/psk_logo.png";
 }
 
-async function searchProductsExact(searchTerm: string) {
+export async function searchProductsExact(searchTerm: string) {
   const words = searchTerm.trim().toLowerCase().split(/\s+/).filter(Boolean);
   if (words.length === 0) return [];
   
@@ -154,6 +156,7 @@ async function searchProductsExact(searchTerm: string) {
   }
   
   conditions.push("p.status = 'publish'");
+  conditions.push("bbp.in_stock = true");
   conditions.push(`NOT (
     (p.categories IS NOT NULL AND jsonb_typeof(p.categories) = 'array' AND EXISTS (
       SELECT 1 FROM jsonb_to_recordset(p.categories) AS c(slug text) WHERE c.slug = 'clearance'
@@ -178,7 +181,7 @@ async function searchProductsExact(searchTerm: string) {
   return res.rows;
 }
 
-async function searchProductsPartial(searchTerm: string) {
+export async function searchProductsPartial(searchTerm: string) {
   const words = searchTerm.trim().toLowerCase().split(/\s+/).filter(Boolean);
   if (words.length === 0) return [];
   
@@ -209,6 +212,7 @@ async function searchProductsPartial(searchTerm: string) {
   }
   
   conditions.push("p.status = 'publish'");
+  conditions.push("bbp.in_stock = true");
   conditions.push(`NOT (
     (p.categories IS NOT NULL AND jsonb_typeof(p.categories) = 'array' AND EXISTS (
       SELECT 1 FROM jsonb_to_recordset(p.categories) AS c(slug text) WHERE c.slug = 'clearance'
@@ -235,6 +239,14 @@ async function searchProductsPartial(searchTerm: string) {
 
 const searchCache: Record<string, { data: any; timestamp: number }> = {};
 const SEARCH_CACHE_TTL = 5 * 60 * 1000; // 5 minutes cache
+
+export function clearSearchCache() {
+  dictionaryCache = null;
+  lastDictionaryBuild = 0;
+  for (const k of Object.keys(searchCache)) {
+    delete searchCache[k];
+  }
+}
 
 export async function loader({ request }: { request: Request }) {
   const url = new URL(request.url);

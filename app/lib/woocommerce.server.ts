@@ -682,6 +682,13 @@ export async function syncWooCommerceData(): Promise<{ success: boolean; stats: 
       console.warn("Postgres transaction sync for customers/orders bypassed or failed:", pgError);
     }
 
+    try {
+      const { clearAllCaches } = await import("./cache.server");
+      await clearAllCaches();
+    } catch (cacheErr) {
+      console.warn("Failed to clear frontend caches:", cacheErr);
+    }
+
     console.log("🎉 WooCommerce synchronization completed successfully!");
     return { success: true, stats };
   } catch (err) {

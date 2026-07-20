@@ -8,6 +8,12 @@ import Footer from "../components/Footer";
 import { DogIcon, CatIcon, BoneIcon, DropletIcon, DoublePawIcon } from "../components/CategoryIcon";
 import ShopSidebarFilters from "../components/ShopSidebarFilters";
 import { BlurImage } from "../components/BlurImage";
+import {
+  searchProductsExact,
+  searchProductsPartial,
+  getDictionary,
+  correctQuery
+} from "./api.search";
 
 export function meta({ data }: Route.MetaArgs): Route.MetaDescriptors {
   const title = data?.pageTitle ? `${data.pageTitle} - PetStore Kenya` : "Products - PetStore Kenya";
@@ -85,6 +91,13 @@ let cachedCategories: any[] | null = null;
 const shopCache: Record<string, { data: any; timestamp: number }> = {};
 const CACHE_TTL = 5 * 60 * 1000; // 5 minutes cache
 
+export function clearShopCache() {
+  cachedCategories = null;
+  for (const k of Object.keys(shopCache)) {
+    delete shopCache[k];
+  }
+}
+
 export async function loader({ request, params }: Route.LoaderArgs) {
   const url = new URL(request.url);
   const routeParams = params as any;
@@ -97,6 +110,40 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   const isTagPage = url.pathname.includes("/product-tag/");
   const urlSearch = url.searchParams.get("q") || "";
   const isDonationSearch = urlSearch.toLowerCase().includes("donate");
+
+  let searchedProductIds: number[] | null = null;
+  let correctedSearchQuery: string | null = null;
+
+  if (urlSearch) {
+    let dbProducts: any[] = [];
+    let finalSearchTerm = urlSearch;
+    let isAutocorrected = false;
+
+    try {
+      dbProducts = await searchProductsExact(urlSearch);
+      if (dbProducts.length === 0) {
+        const dict = await getDictionary();
+        const corrected = correctQuery(urlSearch, dict);
+        if (corrected.toLowerCase() !== urlSearch.toLowerCase()) {
+          dbProducts = await searchProductsExact(corrected);
+          if (dbProducts.length > 0) {
+            finalSearchTerm = corrected;
+            isAutocorrected = true;
+          }
+        }
+      }
+      if (dbProducts.length === 0) {
+        dbProducts = await searchProductsPartial(urlSearch);
+      }
+    } catch (e) {
+      console.error("Search matching failed in shop loader:", e);
+    }
+
+    searchedProductIds = dbProducts.map(p => Number(p.id));
+    if (isAutocorrected) {
+      correctedSearchQuery = finalSearchTerm;
+    }
+  }
   const hideFilter = url.searchParams.get("hideFilter") === "true" || isTagPage || isDonationSearch;
 
   let animal = url.searchParams.get("animal") || "";
@@ -214,7 +261,11 @@ export async function loader({ request, params }: Route.LoaderArgs) {
 
   let pageTitle = "All Pet Food";
   if (urlSearch) {
-    pageTitle = `Search Results for "${urlSearch}"`;
+    if (correctedSearchQuery) {
+      pageTitle = `Search Results for "${correctedSearchQuery}" (corrected from "${urlSearch}")`;
+    } else {
+      pageTitle = `Search Results for "${urlSearch}"`;
+    }
   } else if (slug) {
     if (isTagPage) {
       if (canonicalSlug === "sale") {
@@ -300,7 +351,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     canonicalSlug === "clearance" ||
     originalType === "clearance";
 
-  const conditions: string[] = ["p.status = 'publish'"];
+  const conditions: string[] = ["p.status = 'publish'", "bbp.in_stock = true"];
   if (isClearancePage) {
     conditions.push(`
       (
@@ -357,9 +408,13 @@ export async function loader({ request, params }: Route.LoaderArgs) {
       )
     )`);
   }
-  if (search) {
-    sqlParams.push(`%${search.toLowerCase()}%`);
-    conditions.push(`LOWER(p.name) LIKE $${sqlParams.length}`);
+  if (searchedProductIds !== null) {
+    if (searchedProductIds.length === 0) {
+      conditions.push("1 = 0");
+    } else {
+      sqlParams.push(searchedProductIds);
+      conditions.push(`p.id = ANY($${sqlParams.length}::int[])`);
+    }
   }
   if (brand && !isBrandPage) {
     sqlParams.push(brand);
@@ -443,6 +498,31 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     havingClause = "HAVING MIN(comp.price) > bbp.price";
   }
 
+  const countQueryStr = `
+    SELECT COUNT(*)::int AS count FROM (
+      SELECT p.id
+      FROM products p
+      JOIN store_prices bbp  ON bbp.product_id = p.id AND bbp.store_name = 'PetStore Kenya'
+      LEFT JOIN store_prices comp ON comp.product_id = p.id AND comp.store_name != 'PetStore Kenya'
+      ${where}
+      GROUP BY p.id, bbp.price
+      ${havingClause}
+    ) AS sub
+  `;
+  const countRes = await query(countQueryStr, sqlParams);
+  const totalResults = countRes.rows[0]?.count || 0;
+
+  const page = Number(url.searchParams.get("page")) || 1;
+  const totalPages = Math.ceil(totalResults / limit);
+  const currentPage = Math.max(1, Math.min(page, totalPages || 1));
+  const startIndex = (currentPage - 1) * limit;
+
+  const paginatedParams = [...sqlParams];
+  paginatedParams.push(limit);
+  const limitPlaceholder = `$${paginatedParams.length}`;
+  paginatedParams.push(startIndex);
+  const offsetPlaceholder = `$${paginatedParams.length}`;
+
   const res = await query(`
     SELECT
       p.id, p.name, p.brand, p.weight_kg, p.animal_type, p.food_type, p.image_url, p.slug,
@@ -452,19 +532,13 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     JOIN store_prices bbp  ON bbp.product_id = p.id AND bbp.store_name = 'PetStore Kenya'
     LEFT JOIN store_prices comp ON comp.product_id = p.id AND comp.store_name != 'PetStore Kenya'
     ${where}
-    -- category_slug: ${categorySlug}
     GROUP BY p.id, p.name, p.brand, p.weight_kg, p.animal_type, p.food_type, p.image_url, p.slug, bbp.price
     ${havingClause}
     ORDER BY ${orderBy}
-  `, sqlParams);
+    LIMIT ${limitPlaceholder} OFFSET ${offsetPlaceholder}
+  `, paginatedParams);
 
-  const allProducts = res.rows;
-  const totalResults = allProducts.length;
-  const page = Number(url.searchParams.get("page")) || 1;
-  const totalPages = Math.ceil(totalResults / limit);
-  const currentPage = Math.max(1, Math.min(page, totalPages || 1));
-  const startIndex = (currentPage - 1) * limit;
-  const productsToShow = allProducts.slice(startIndex, startIndex + limit);
+  const productsToShow = res.rows;
 
   // Dynamically resolve sidebar categories for the active animal
   let sidebarCategories: { label: string; slug: string }[] = [];
@@ -501,6 +575,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
       LATERAL jsonb_to_recordset(p.categories) AS c(id int, name text, slug text)
       WHERE REPLACE(LOWER(p.brand), ' ', '-') = LOWER($1)
       AND p.status = 'publish'
+      AND bbp.in_stock = true
       AND c.slug != LOWER($1)
       AND REPLACE(LOWER(c.slug), ' ', '-') != LOWER($1)
       AND c.slug NOT IN ('dog-supplies-store', 'cat-supplies-store', 'dog', 'cat', 'dog-food', 'cat-food', 'dog-food-treats', 'cat-food-and-treats', 'sale', 'clearance', 'bundles')
@@ -555,7 +630,8 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     offerSort,
     canonicalSlug,
     isClearancePage,
-    isOfferPage
+    isOfferPage,
+    correctedSearchQuery
   };
 
   shopCache[cacheKey] = {
