@@ -446,14 +446,65 @@ export async function upsertProductToSupabase(p: any) {
     };
     const { error } = await supabase.from("products").upsert(cleaned);
     if (error) console.error("Error upserting product to Supabase:", error);
-
-    // Synchronize price and stock changes back to store_prices PostgreSQL table in real-time
+    // Synchronize product changes back to PostgreSQL tables in real-time
     try {
       const { query: dbQuery } = await import("../db.server");
       const priceVal = Number(p.price || 0);
       const inStockVal = !!p.inStock;
       const productUrlVal = p.permalink || `https://petstore.co.ke/product/${p.slug}/`;
 
+      // 1. Update/Insert PostgreSQL products table
+      const checkProduct = await dbQuery(
+        `SELECT id FROM products WHERE id = $1`,
+        [p.id]
+      );
+
+      const brandVal = p.brand || (Array.isArray(p.brands) && p.brands[0] ? p.brands[0].name : null);
+      const weightVal = p.weight_kg !== undefined && p.weight_kg !== null ? Number(p.weight_kg) : (p.weight !== undefined && p.weight !== null ? Number(p.weight) : null);
+      const categoriesJson = JSON.stringify(Array.isArray(p.categories) ? p.categories : []);
+      const tagsJson = JSON.stringify(Array.isArray(p.tags) ? p.tags : []);
+
+      if (checkProduct.rows.length > 0) {
+        await dbQuery(
+          `UPDATE products 
+           SET name = $1, brand = $2, weight_kg = $3, animal_type = $4, food_type = $5, 
+               image_url = $6, description = $7, key_ingredients = $8, feeding_guide = $9, 
+               replaces_brand = $10, replaces_reason = $11, nutrition_protein = $12, 
+               nutrition_fat = $13, nutrition_fibre = $14, nutrition_moisture = $15, 
+               categories = $16, slug = $17, tags = $18, sku = $19, short_description = $20, 
+               status = $21
+           WHERE id = $22`,
+          [
+            p.name, brandVal, weightVal, p.animal_type || null, p.food_type || null,
+            p.image_url || p.thumbnail || null, p.description || null, p.key_ingredients || null, p.feeding_guide || null,
+            p.replaces_brand || null, p.replaces_reason || null, p.nutrition_protein !== undefined && p.nutrition_protein !== null ? Number(p.nutrition_protein) : null,
+            p.nutrition_fat !== undefined && p.nutrition_fat !== null ? Number(p.nutrition_fat) : null, p.nutrition_fibre !== undefined && p.nutrition_fibre !== null ? Number(p.nutrition_fibre) : null, p.nutrition_moisture !== undefined && p.nutrition_moisture !== null ? Number(p.nutrition_moisture) : null,
+            categoriesJson, p.slug, tagsJson, p.sku || null, p.short_description || null,
+            p.status || "publish", p.id
+          ]
+        );
+      } else {
+        await dbQuery(
+          `INSERT INTO products (
+             id, name, brand, weight_kg, animal_type, food_type, image_url, description, 
+             key_ingredients, feeding_guide, replaces_brand, replaces_reason, 
+             nutrition_protein, nutrition_fat, nutrition_fibre, nutrition_moisture, 
+             categories, slug, tags, sku, short_description, status
+           ) VALUES (
+             $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22
+           )`,
+          [
+            p.id, p.name, brandVal, weightVal, p.animal_type || null, p.food_type || null,
+            p.image_url || p.thumbnail || null, p.description || null, p.key_ingredients || null, p.feeding_guide || null,
+            p.replaces_brand || null, p.replaces_reason || null, p.nutrition_protein !== undefined && p.nutrition_protein !== null ? Number(p.nutrition_protein) : null,
+            p.nutrition_fat !== undefined && p.nutrition_fat !== null ? Number(p.nutrition_fat) : null, p.nutrition_fibre !== undefined && p.nutrition_fibre !== null ? Number(p.nutrition_fibre) : null, p.nutrition_moisture !== undefined && p.nutrition_moisture !== null ? Number(p.nutrition_moisture) : null,
+            categoriesJson, p.slug, tagsJson, p.sku || null, p.short_description || null,
+            p.status || "publish"
+          ]
+        );
+      }
+
+      // 2. Update/Insert PostgreSQL store_prices table
       const checkPrice = await dbQuery(
         `SELECT id FROM store_prices WHERE product_id = $1 AND store_name = 'PetStore Kenya'`,
         [p.id]
@@ -487,12 +538,13 @@ export async function deleteProductFromSupabase(id: number) {
     const { error } = await supabase.from("products").delete().eq("id", id);
     if (error) console.error("Error deleting product from Supabase:", error);
 
-    // Also remove from store_prices in PostgreSQL
+    // Also remove from products and store_prices in PostgreSQL
     try {
       const { query: dbQuery } = await import("../db.server");
       await dbQuery("DELETE FROM store_prices WHERE product_id = $1", [id]);
+      await dbQuery("DELETE FROM products WHERE id = $1", [id]);
     } catch (dbErr) {
-      console.error("Failed to delete from store_prices database table:", dbErr);
+      console.error("Failed to delete from database:", dbErr);
     }
   } catch (err) {
     console.error("Failed to delete product:", err);
