@@ -7,6 +7,7 @@ import {
   ScrollRestoration,
   useNavigation,
   useLocation,
+  useNavigate,
 } from "react-router";
 
 import type { Route } from "./+types/root";
@@ -16,6 +17,8 @@ import { CartDrawer, CheckoutModal } from "./components/CheckoutModal";
 import CommunicationBooth from "./components/CommunicationBooth";
 import GoogleReviewsPopup from "./components/GoogleReviewsPopup";
 import PurchaseNotificationPopup from "./components/PurchaseNotificationPopup";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 export const links: Route.LinksFunction = () => [
   {
@@ -164,7 +167,126 @@ export default function App() {
   );
 }
 
+function NotFoundPage() {
+  const [searchVal, setSearchVal] = useState("");
+  const navigate = useNavigate();
+
+  const handleSearchSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (searchVal.trim()) {
+      navigate(`/shop?q=${encodeURIComponent(searchVal.trim())}`);
+    }
+  };
+
+  return (
+    <div className="not-found-page-container" style={{
+      maxWidth: "1200px",
+      margin: "0 auto",
+      padding: "4rem var(--page-pad) 2rem",
+      fontFamily: "var(--font-sans)",
+      minHeight: "450px",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center"
+    }}>
+      <div style={{
+        width: "100%",
+        maxWidth: "1170px",
+        backgroundColor: "#ffffff",
+        borderRadius: "8px",
+        padding: "3.5rem 3rem",
+        boxShadow: "0 1px 3px rgba(0,0,0,0.05), 0 1px 2px rgba(0,0,0,0.1)",
+        border: "1px solid #f1f5f9"
+      }}>
+        <h1 style={{
+          fontSize: "2.8rem",
+          fontWeight: 700,
+          color: "#1e293b",
+          marginBottom: "1rem",
+          marginTop: 0,
+          fontFamily: "'Montserrat', sans-serif"
+        }}>
+          Not Found
+        </h1>
+        
+        <p style={{
+          fontSize: "1.05rem",
+          color: "#475569",
+          marginBottom: "2.5rem",
+          fontWeight: 500
+        }}>
+          Nothing found for the requested page. Try a search instead?
+        </p>
+
+        <form onSubmit={handleSearchSubmit} style={{
+          display: "flex",
+          maxWidth: "100%",
+          width: "100%",
+          position: "relative"
+        }}>
+          <input
+            type="text"
+            placeholder="Search"
+            value={searchVal}
+            onChange={(e) => setSearchVal(e.target.value)}
+            style={{
+              width: "100%",
+              padding: "1rem 3.5rem 1rem 1.25rem",
+              fontSize: "1rem",
+              border: "1px solid #cbd5e1",
+              borderRadius: "4px",
+              outline: "none",
+              fontFamily: "inherit",
+              color: "#334155",
+              boxShadow: "inset 0 1px 2px rgba(0,0,0,0.02)"
+            }}
+          />
+          <button
+            type="submit"
+            style={{
+              position: "absolute",
+              right: 0,
+              top: 0,
+              bottom: 0,
+              width: "3.5rem",
+              background: "#000000",
+              border: "none",
+              borderTopRightRadius: "4px",
+              borderBottomRightRadius: "4px",
+              color: "#ffffff",
+              cursor: "pointer",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              transition: "background-color 0.2s ease"
+            }}
+            onMouseOver={(e) => (e.currentTarget.style.backgroundColor = "#333333")}
+            onMouseOut={(e) => (e.currentTarget.style.backgroundColor = "#000000")}
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+              <circle cx="11" cy="11" r="8" />
+              <path d="m21 21-4.3-4.3" />
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  );
+}
+
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
+  if (isRouteErrorResponse(error) && error.status === 404) {
+    return (
+      <CartProvider>
+        <Navbar />
+        <NotFoundPage />
+        <Footer />
+        <CartDrawer />
+        <CheckoutModal />
+      </CartProvider>
+    );
+  }
+
   let message = "Oops!";
   let details = "An unexpected error occurred.";
   let stack: string | undefined;
