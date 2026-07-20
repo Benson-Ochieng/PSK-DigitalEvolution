@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt-2flv9cdwl",
+    "timestamp": "2026-07-20T13:50:12.440Z",
+    "user": "System Admin",
+    "action": "Product Trashed",
+    "details": "Moved product \"Reflex Treat Bundle - Lamb\" to Trash",
+    "icon": "🗑️"
+  },
+  {
+    "id": "evt-5sjsqwhmm",
+    "timestamp": "2026-07-20T13:49:48.665Z",
+    "user": "System Admin",
+    "action": "User Logged In (OTP)",
+    "details": "Successfully signed in via passwordless OTP verification",
+    "icon": "🔑"
+  },
+  {
     "id": "evt-gvasdo66s",
     "timestamp": "2026-07-17T12:13:41.396Z",
     "user": "System Admin",
