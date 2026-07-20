@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import { query } from "../db.server";
 import { useCart } from "../context/cart";
 import PageHeader from "../components/PageHeader";
+import { BlurImage } from "../components/BlurImage";
 
 export function meta() {
   return [
@@ -428,7 +429,7 @@ export default function CartPage() {
                     <Link to={p.slug ? `/product/${p.slug}/` : `/shop/${p.id}`} className="product-card-link">
                       <div className="product-card-img">
                         {p.image_url ? (
-                          <img src={p.image_url} alt={p.name} loading="lazy" />
+                          <BlurImage src={p.image_url} alt={p.name} loading="lazy" />
                         ) : (
                           <span className="placeholder-icon" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", height: "120px" }}>
                             🐾

@@ -5,6 +5,7 @@ import { query } from "../db.server";
 import { useCart } from "../context/cart";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { BlurImage } from "../components/BlurImage";
 
 export const links: Route.LinksFunction = () => [];
 
@@ -118,7 +119,7 @@ function ProductCard({ p }: { p: any }) {
       <Link to={`/product/${p.slug}/`} className="product-card-link">
         <div className="product-card-img">
           {p.image_url ? (
-            <img src={p.image_url} alt={p.name} loading="lazy" />
+            <BlurImage src={p.image_url} alt={p.name} loading="lazy" />
           ) : (
             <span style={{ fontSize: "3rem" }}>🐾</span>
           )}

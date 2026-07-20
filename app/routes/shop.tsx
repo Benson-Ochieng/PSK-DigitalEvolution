@@ -7,6 +7,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { DogIcon, CatIcon, BoneIcon, DropletIcon, DoublePawIcon } from "../components/CategoryIcon";
 import ShopSidebarFilters from "../components/ShopSidebarFilters";
+import { BlurImage } from "../components/BlurImage";
 
 export function meta({ data }: Route.MetaArgs): Route.MetaDescriptors {
   const title = data?.pageTitle ? `${data.pageTitle} - PetStore Kenya` : "Products - PetStore Kenya";
@@ -687,7 +688,7 @@ function ProductCard({ p, animal }: { p: any; animal: string }) {
         <a href="https://psk-donation.vercel.app/" className="product-card-link" target="_blank" rel="noopener noreferrer">
           <div className="product-card-img">
             {p.image_url
-              ? <img src={p.image_url} alt={p.name} loading="lazy" />
+              ? <BlurImage src={p.image_url} alt={p.name} loading="lazy" />
               : (
                 <span className="placeholder-icon" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center" }}>
                   {p.animal_type === "cat" ? <CatIcon size={64} strokeWidth={1.5} /> : <DogIcon size={64} strokeWidth={1.5} />}
@@ -708,7 +709,7 @@ function ProductCard({ p, animal }: { p: any; animal: string }) {
         <Link to={`/product/${p.slug}/`} className="product-card-link">
           <div className="product-card-img">
             {p.image_url
-              ? <img src={p.image_url} alt={p.name} loading="lazy" />
+              ? <BlurImage src={p.image_url} alt={p.name} loading="lazy" />
               : (
                 <span className="placeholder-icon" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center" }}>
                   {p.animal_type === "cat" ? <CatIcon size={64} strokeWidth={1.5} /> : <DogIcon size={64} strokeWidth={1.5} />}

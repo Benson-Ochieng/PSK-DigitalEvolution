@@ -6,6 +6,7 @@ import { useCart } from "../context/cart";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { DoublePawIcon } from "../components/CategoryIcon";
+import { BlurImage } from "../components/BlurImage";
 
 export function meta() {
   return [
@@ -137,7 +138,7 @@ function ProductCard({ p }: { p: any }) {
         <a href="https://psk-donation.vercel.app/" className="product-card-link" target="_blank" rel="noopener noreferrer">
           <div className="product-card-img">
             {p.image_url ? (
-              <img src={p.image_url} alt={p.name} loading="lazy" />
+              <BlurImage src={p.image_url} alt={p.name} loading="lazy" />
             ) : (
               <span className="placeholder-icon" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", height: "150px" }}>
                 🐾
@@ -157,7 +158,7 @@ function ProductCard({ p }: { p: any }) {
         <Link to={`/product/${p.slug}/`} className="product-card-link">
           <div className="product-card-img">
             {p.image_url ? (
-              <img src={p.image_url} alt={p.name} loading="lazy" />
+              <BlurImage src={p.image_url} alt={p.name} loading="lazy" />
             ) : (
               <span className="placeholder-icon" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", height: "150px" }}>
                 🐾
