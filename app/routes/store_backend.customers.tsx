@@ -36,15 +36,20 @@ export default function VpBackendCustomers() {
   const { orders, users, search: loaderSearch } = useLoaderData<typeof loader>();
   const [searchParams, setSearchParams] = useSearchParams();
   const search = searchParams.get("search") || "";
-  
+
   // Alert banner state
   const [showAlert, setShowAlert] = useState(true);
-  
+
   // Show Filter Dropdown
   const [showFilter, setShowFilter] = useState("all");
 
-  // Columns visibility state (controlled by screen options / options button)
+  // Screen Options state (WordPress style)
   const [showOptions, setShowOptions] = useState(false);
+  const [itemsPerPage, setItemsPerPage] = useState(20);
+  const [tempItemsPerPage, setTempItemsPerPage] = useState(20);
+  const [currentPage, setCurrentPage] = useState(1);
+
+  // Columns visibility state
   const [visibleColumns, setVisibleColumns] = useState({
     name: true,
     username: true,
@@ -305,11 +310,11 @@ export default function VpBackendCustomers() {
           customer.ordersCount += 1;
           customer.totalSpend += o.total;
           customer.aov = customer.ordersCount > 0 ? customer.totalSpend / customer.ordersCount : 0;
-          
+
           // Robust date parsing and comparison
           const orderDateParsed = o.date ? new Date(o.date) : null;
           const orderTime = orderDateParsed && !isNaN(orderDateParsed.getTime()) ? orderDateParsed.getTime() : 0;
-          
+
           let lastActiveTime = 0;
           if (customer.lastActive) {
             const parsed = new Date(customer.lastActive);
@@ -317,11 +322,11 @@ export default function VpBackendCustomers() {
               lastActiveTime = parsed.getTime();
             }
           }
-          
+
           if (orderTime > lastActiveTime && o.date) {
             customer.lastActive = o.date;
           }
-          
+
           if (o.billing.city && !customer.city) {
             customer.city = o.billing.city.toUpperCase();
           }
@@ -392,7 +397,16 @@ export default function VpBackendCustomers() {
     });
   }, [filteredCustomers, sortKey, sortDirection]);
 
+  // Pagination slicing
+  const totalPages = useMemo(() => Math.max(1, Math.ceil(sortedCustomers.length / itemsPerPage)), [sortedCustomers.length, itemsPerPage]);
+
+  const paginatedCustomers = useMemo(() => {
+    const start = (currentPage - 1) * itemsPerPage;
+    return sortedCustomers.slice(start, start + itemsPerPage);
+  }, [sortedCustomers, currentPage, itemsPerPage]);
+
   const handleSort = (key: keyof CustomerItem) => {
+    setCurrentPage(1);
     if (sortKey === key) {
       setSortDirection(prev => prev === "asc" ? "desc" : "asc");
     } else {
@@ -453,6 +467,7 @@ export default function VpBackendCustomers() {
   };
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setCurrentPage(1);
     const val = e.target.value;
     const newParams = new URLSearchParams(searchParams);
     if (val) {
@@ -464,8 +479,9 @@ export default function VpBackendCustomers() {
   };
 
   return (
-    <div className="customers-view">
-      <style dangerouslySetInnerHTML={{ __html: `
+    <div className="customers-view" style={{ position: "relative" }}>
+      <style dangerouslySetInnerHTML={{
+        __html: `
         .customers-header-row {
           display: flex;
           align-items: center;
@@ -497,6 +513,80 @@ export default function VpBackendCustomers() {
 
         .customers-activity-link:hover {
           color: #00ccff;
+        }
+
+        /* Screen Options styling (WordPress standard) */
+        .screen-options-container {
+          position: relative;
+          margin-top: -40px;
+          margin-left: -40px;
+          margin-right: -40px;
+          margin-bottom: 24px;
+          z-index: 105;
+        }
+
+        .screen-options-wrapper {
+          position: absolute;
+          top: 0;
+          right: 40px;
+          z-index: 110;
+          display: flex;
+          gap: 2px;
+        }
+
+        .screen-options-toggle-btn {
+          background: #111117;
+          border: 1px solid rgba(255, 255, 255, 0.06);
+          border-top: none;
+          color: rgba(255, 255, 255, 0.6);
+          font-size: 11px;
+          font-weight: 500;
+          padding: 6px 14px;
+          border-radius: 0 0 4px 4px;
+          cursor: pointer;
+          transition: all 0.2s ease;
+        }
+
+        .screen-options-toggle-btn:hover {
+          color: #fff;
+          background: rgba(255, 255, 255, 0.03);
+          border-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .screen-options-drawer {
+          background: #111117;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+          padding: 0px 40px;
+          max-height: 0px;
+          overflow: hidden;
+          transition: max-height 0.35s ease, padding 0.35s ease;
+        }
+
+        .screen-options-drawer.open {
+          max-height: 300px;
+          padding: 24px 40px;
+        }
+
+        .screen-options-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+          gap: 16px;
+          margin-bottom: 20px;
+        }
+
+        .checkbox-label-admin {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          font-size: 12px;
+          color: rgba(255,255,255,0.7);
+          cursor: pointer;
+        }
+
+        .checkbox-label-admin input {
+          width: 14px;
+          height: 14px;
+          cursor: pointer;
         }
 
         /* Banner alert styles */
@@ -622,131 +712,6 @@ export default function VpBackendCustomers() {
           border-color: rgba(255, 255, 255, 0.15);
         }
 
-        /* Three dots vertical menu and popover dropdown */
-        .three-dots-container {
-          position: relative;
-          display: inline-block;
-        }
-
-        .three-dots-btn {
-          background: rgba(255, 255, 255, 0.04);
-          border: 1px solid rgba(255, 255, 255, 0.08);
-          color: #00ccff;
-          width: 36px;
-          height: 36px;
-          border-radius: 6px;
-          cursor: pointer;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          transition: all 0.2s ease;
-        }
-
-        .three-dots-btn:hover {
-          background: rgba(0, 204, 255, 0.1);
-          border-color: #00ccff;
-        }
-
-        .dropdown-overlay-backdrop {
-          position: fixed;
-          inset: 0;
-          z-index: 99;
-          background: transparent;
-        }
-
-        .columns-dropdown-menu {
-          position: absolute;
-          right: 0;
-          top: 100%;
-          margin-top: 8px;
-          width: 260px;
-          background: #111119;
-          border: 1px solid rgba(255, 255, 255, 0.08);
-          border-radius: 8px;
-          box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
-          padding: 16px;
-          z-index: 100;
-          display: flex;
-          flex-direction: column;
-          gap: 12px;
-          animation: slideIn 0.15s cubic-bezier(0, 0, 0.2, 1);
-        }
-
-        .dropdown-header {
-          font-size: 11px;
-          font-weight: 700;
-          color: rgba(255, 255, 255, 0.4);
-          text-transform: uppercase;
-          letter-spacing: 0.8px;
-        }
-
-        .dropdown-divider {
-          height: 1px;
-          background: rgba(255, 255, 255, 0.06);
-          margin: -4px 0;
-        }
-
-        .toggle-menu-item {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          padding: 2px 0;
-        }
-
-        .toggle-menu-label {
-          font-size: 13px;
-          color: rgba(255, 255, 255, 0.85);
-          user-select: none;
-        }
-
-        /* Toggle switches */
-        .toggle-switch-wrapper {
-          position: relative;
-          display: inline-block;
-          width: 38px;
-          height: 20px;
-        }
-
-        .toggle-switch-wrapper input {
-          opacity: 0;
-          width: 0;
-          height: 0;
-        }
-
-        .toggle-slider {
-          position: absolute;
-          cursor: pointer;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          background-color: rgba(255, 255, 255, 0.1);
-          border: 1px solid rgba(255, 255, 255, 0.1);
-          transition: .2s ease;
-          border-radius: 34px;
-        }
-
-        .toggle-slider:before {
-          position: absolute;
-          content: "";
-          height: 12px;
-          width: 12px;
-          left: 3px;
-          bottom: 3px;
-          background-color: #fff;
-          transition: .2s ease;
-          border-radius: 50%;
-        }
-
-        input:checked + .toggle-slider {
-          background-color: #2f68e0;
-          border-color: #3b82f6;
-        }
-
-        input:checked + .toggle-slider:before {
-          transform: translateX(18px);
-        }
-
         /* Table Card Container */
         .customers-table-card {
           background: rgba(255, 255, 255, 0.02);
@@ -771,6 +736,148 @@ export default function VpBackendCustomers() {
           to { opacity: 1; transform: translateY(0); }
         }
       ` }} />
+
+      {/* Screen Options Drawer */}
+      <div className="screen-options-container">
+        <div className="screen-options-wrapper">
+          <button
+            type="button"
+            onClick={() => setShowOptions(!showOptions)}
+            className="screen-options-toggle-btn"
+          >
+            Screen Options {showOptions ? "▲" : "▼"}
+          </button>
+        </div>
+
+        <div className={`screen-options-drawer ${showOptions ? "open" : ""}`}>
+          <h4 style={{ fontSize: "13px", fontWeight: "600", color: "#fff", marginBottom: "12px" }}>
+            Columns Visibility
+          </h4>
+          <div className="screen-options-grid">
+            <label className="checkbox-label-admin">
+              <input
+                type="checkbox"
+                checked={visibleColumns.name}
+                onChange={(e) => setVisibleColumns((prev) => ({ ...prev, name: e.target.checked }))}
+              />
+              Name
+            </label>
+            <label className="checkbox-label-admin">
+              <input
+                type="checkbox"
+                checked={visibleColumns.username}
+                onChange={(e) => setVisibleColumns((prev) => ({ ...prev, username: e.target.checked }))}
+              />
+              Username
+            </label>
+            <label className="checkbox-label-admin">
+              <input
+                type="checkbox"
+                checked={visibleColumns.lastActive}
+                onChange={(e) => setVisibleColumns((prev) => ({ ...prev, lastActive: e.target.checked }))}
+              />
+              Last Active
+            </label>
+            <label className="checkbox-label-admin">
+              <input
+                type="checkbox"
+                checked={visibleColumns.dateRegistered}
+                onChange={(e) => setVisibleColumns((prev) => ({ ...prev, dateRegistered: e.target.checked }))}
+              />
+              Date Registered
+            </label>
+            <label className="checkbox-label-admin">
+              <input
+                type="checkbox"
+                checked={visibleColumns.email}
+                onChange={(e) => setVisibleColumns((prev) => ({ ...prev, email: e.target.checked }))}
+              />
+              Email
+            </label>
+            <label className="checkbox-label-admin">
+              <input
+                type="checkbox"
+                checked={visibleColumns.orders}
+                onChange={(e) => setVisibleColumns((prev) => ({ ...prev, orders: e.target.checked }))}
+              />
+              Orders
+            </label>
+            <label className="checkbox-label-admin">
+              <input
+                type="checkbox"
+                checked={visibleColumns.totalSpend}
+                onChange={(e) => setVisibleColumns((prev) => ({ ...prev, totalSpend: e.target.checked }))}
+              />
+              Total Spend
+            </label>
+            <label className="checkbox-label-admin">
+              <input
+                type="checkbox"
+                checked={visibleColumns.aov}
+                onChange={(e) => setVisibleColumns((prev) => ({ ...prev, aov: e.target.checked }))}
+              />
+              AOV
+            </label>
+            <label className="checkbox-label-admin">
+              <input
+                type="checkbox"
+                checked={visibleColumns.country}
+                onChange={(e) => setVisibleColumns((prev) => ({ ...prev, country: e.target.checked }))}
+              />
+              Country / Region
+            </label>
+            <label className="checkbox-label-admin">
+              <input
+                type="checkbox"
+                checked={visibleColumns.city}
+                onChange={(e) => setVisibleColumns((prev) => ({ ...prev, city: e.target.checked }))}
+              />
+              City
+            </label>
+            <label className="checkbox-label-admin">
+              <input
+                type="checkbox"
+                checked={visibleColumns.region}
+                onChange={(e) => setVisibleColumns((prev) => ({ ...prev, region: e.target.checked }))}
+              />
+              Region
+            </label>
+            <label className="checkbox-label-admin">
+              <input
+                type="checkbox"
+                checked={visibleColumns.postalCode}
+                onChange={(e) => setVisibleColumns((prev) => ({ ...prev, postalCode: e.target.checked }))}
+              />
+              Postal Code
+            </label>
+          </div>
+
+          <div style={{ borderTop: "1px solid rgba(255,255,255,0.06)", paddingTop: "12px", display: "flex", alignItems: "center", gap: "12px" }}>
+            <span style={{ fontSize: "12px", color: "rgba(255,255,255,0.6)" }}>Pagination Limit:</span>
+            <input
+              type="number"
+              min="1"
+              max="500"
+              value={tempItemsPerPage}
+              onChange={(e) => setTempItemsPerPage(Number(e.target.value))}
+              style={{ width: "70px", background: "#000", border: "1px solid rgba(255,255,255,0.1)", borderRadius: "4px", padding: "4px 8px", color: "#fff", fontSize: "12px" }}
+            />
+            <button
+              type="button"
+              onClick={() => {
+                const val = Math.max(1, tempItemsPerPage);
+                setItemsPerPage(val);
+                setCurrentPage(1);
+                setShowOptions(false);
+              }}
+              className="customers-action-btn"
+              style={{ padding: "4px 12px", fontSize: "12px", background: "#7c3aed", borderColor: "#7c3aed" }}
+            >
+              Apply
+            </button>
+          </div>
+        </div>
+      </div>
 
       <div className="customers-header-row">
         <h1 className="customers-title">
@@ -804,7 +911,10 @@ export default function VpBackendCustomers() {
             className="admin-select"
             style={{ width: "auto", minWidth: "220px", background: "rgba(0,0,0,0.3)", height: "36px" }}
             value={showFilter}
-            onChange={(e) => setShowFilter(e.target.value)}
+            onChange={(e) => {
+              setShowFilter(e.target.value);
+              setCurrentPage(1);
+            }}
           >
             <option value="all">All Customers</option>
             <option value="active">Active Customers (with orders)</option>
@@ -827,9 +937,9 @@ export default function VpBackendCustomers() {
           </div>
 
           <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-            <button 
-              className="customers-action-btn" 
-              onClick={handleDownloadCSV} 
+            <button
+              className="customers-action-btn"
+              onClick={handleDownloadCSV}
               title="Export list to CSV"
               style={{ display: "flex", alignItems: "center", gap: "6px" }}
             >
@@ -840,65 +950,6 @@ export default function VpBackendCustomers() {
               </svg>
               Download
             </button>
-            
-            <div className="three-dots-container">
-              <button
-                type="button"
-                className="three-dots-btn"
-                onClick={() => setShowOptions(prev => !prev)}
-                title="Filter Columns"
-              >
-                <svg width="4" height="16" viewBox="0 0 4 16" fill="currentColor">
-                  <circle cx="2" cy="2" r="2" />
-                  <circle cx="2" cy="8" r="2" />
-                  <circle cx="2" cy="14" r="2" />
-                </svg>
-              </button>
-
-              {showOptions && (
-                <>
-                  <div className="dropdown-overlay-backdrop" onClick={() => setShowOptions(false)} />
-                  <div className="columns-dropdown-menu">
-                    <div className="dropdown-header">Columns:</div>
-                    <div className="dropdown-divider"></div>
-                    
-                    {Object.keys(visibleColumns).map((colKey) => {
-                      const key = colKey as keyof typeof visibleColumns;
-                      // Format labels
-                      let label = key
-                        .replace(/([A-Z])/g, " $1")
-                        .replace(/^./, (str) => str.toUpperCase());
-                      
-                      // Match exactly with the labels in the user's screenshot
-                      if (key === "lastActive") label = "Last active";
-                      if (key === "dateRegistered") label = "Date registered";
-                      if (key === "totalSpend") label = "Total spend";
-                      if (key === "country") label = "Country / Region";
-                      if (key === "postalCode") label = "Postal code";
-
-                      // In screenshot, Name column is the primary identifier, always shown and not toggled.
-                      if (key === "name") return null;
-
-                      return (
-                        <div key={key} className="toggle-menu-item">
-                          <span className="toggle-menu-label">{label}</span>
-                          <label className="toggle-switch-wrapper">
-                            <input
-                              type="checkbox"
-                              checked={visibleColumns[key]}
-                              onChange={(e) =>
-                                setVisibleColumns((prev) => ({ ...prev, [key]: e.target.checked }))
-                              }
-                            />
-                            <span className="toggle-slider"></span>
-                          </label>
-                        </div>
-                      );
-                    })}
-                  </div>
-                </>
-              )}
-            </div>
           </div>
         </div>
       </div>
@@ -907,8 +958,27 @@ export default function VpBackendCustomers() {
       <div className="customers-table-card">
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "16px" }}>
           <span style={{ fontSize: "14px", fontWeight: "600", color: "rgba(255,255,255,0.7)" }}>
-            Showing {sortedCustomers.length} customer{sortedCustomers.length === 1 ? "" : "s"}
+            Showing {sortedCustomers.length > 0 ? (currentPage - 1) * itemsPerPage + 1 : 0} - {Math.min(currentPage * itemsPerPage, sortedCustomers.length)} of {sortedCustomers.length} customer{sortedCustomers.length === 1 ? "" : "s"}
           </span>
+
+          <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+            <span style={{ fontSize: "12px", color: "rgba(255,255,255,0.4)" }}>Items per page:</span>
+            <select
+              value={itemsPerPage}
+              onChange={(e) => {
+                const val = Number(e.target.value);
+                setItemsPerPage(val);
+                setTempItemsPerPage(val);
+                setCurrentPage(1);
+              }}
+              style={{ background: "#000", border: "1px solid rgba(255,255,255,0.1)", borderRadius: "4px", padding: "4px 8px", color: "#fff", fontSize: "12px" }}
+            >
+              <option value={10}>10</option>
+              <option value={20}>20</option>
+              <option value={50}>50</option>
+              <option value={100}>100</option>
+            </select>
+          </div>
         </div>
 
         <div className="admin-table-wrapper">
@@ -987,7 +1057,7 @@ export default function VpBackendCustomers() {
               </tr>
             </thead>
             <tbody>
-              {sortedCustomers.length === 0 ? (
+              {paginatedCustomers.length === 0 ? (
                 <tr>
                   <td
                     colSpan={Object.values(visibleColumns).filter(Boolean).length}
@@ -997,7 +1067,7 @@ export default function VpBackendCustomers() {
                   </td>
                 </tr>
               ) : (
-                sortedCustomers.map((customer) => (
+                paginatedCustomers.map((customer) => (
                   <tr key={customer.id} style={{ borderBottom: "1px solid rgba(255, 255, 255, 0.04)" }}>
                     {visibleColumns.name && (
                       <td style={{ fontWeight: "600", color: "#fff", textTransform: "capitalize" }}>
@@ -1079,6 +1149,56 @@ export default function VpBackendCustomers() {
             </tbody>
           </table>
         </div>
+
+        {/* Pagination Bar Footer */}
+        {totalPages > 1 && (
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginTop: "24px", borderTop: "1px solid rgba(255,255,255,0.06)", paddingTop: "16px", flexWrap: "wrap", gap: "16px" }}>
+            <span style={{ fontSize: "12px", color: "rgba(255,255,255,0.5)" }}>
+              Page {currentPage} of {totalPages} ({sortedCustomers.length} total customers)
+            </span>
+            <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+              <button
+                disabled={currentPage === 1}
+                onClick={() => setCurrentPage(1)}
+                className="customers-action-btn"
+                style={{ padding: "4px 8px", fontSize: "12px", opacity: currentPage === 1 ? 0.4 : 1, cursor: currentPage === 1 ? "not-allowed" : "pointer" }}
+                title="First Page"
+              >
+                «
+              </button>
+              <button
+                disabled={currentPage === 1}
+                onClick={() => setCurrentPage(prev => Math.max(1, prev - 1))}
+                className="customers-action-btn"
+                style={{ padding: "4px 10px", fontSize: "12px", opacity: currentPage === 1 ? 0.4 : 1, cursor: currentPage === 1 ? "not-allowed" : "pointer" }}
+              >
+                ◀ Prev
+              </button>
+
+              <span style={{ fontSize: "12px", color: "rgba(255,255,255,0.7)", padding: "0 8px" }}>
+                Page <strong>{currentPage}</strong> of <strong>{totalPages}</strong>
+              </span>
+
+              <button
+                disabled={currentPage === totalPages}
+                onClick={() => setCurrentPage(prev => Math.min(totalPages, prev + 1))}
+                className="customers-action-btn"
+                style={{ padding: "4px 10px", fontSize: "12px", opacity: currentPage === totalPages ? 0.4 : 1, cursor: currentPage === totalPages ? "not-allowed" : "pointer" }}
+              >
+                Next ▶
+              </button>
+              <button
+                disabled={currentPage === totalPages}
+                onClick={() => setCurrentPage(totalPages)}
+                className="customers-action-btn"
+                style={{ padding: "4px 8px", fontSize: "12px", opacity: currentPage === totalPages ? 0.4 : 1, cursor: currentPage === totalPages ? "not-allowed" : "pointer" }}
+                title="Last Page"
+              >
+                »
+              </button>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

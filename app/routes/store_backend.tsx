@@ -98,6 +98,7 @@ export default function VpBackendLayout() {
     { label: "Analytics", path: "/store_backend/analytics", icon: "📈" },
     { label: "Pages", path: "/store_backend/pages", icon: "📄" },
     { label: "Comments", path: "/store_backend/comments", icon: "💬" },
+    { label: "Customers", path: "/store_backend/customers", icon: "👥" },
     { label: "User Directory", path: "/store_backend/users", icon: "👥" },
     { label: "Live Orders", path: "/store_backend/orders", icon: "🛒" },
     { label: "Coupon Console", path: "/store_backend/coupons", icon: "🎫" },
