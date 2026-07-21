@@ -185,7 +185,7 @@ export async function loader() {
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
     .slice(0, 5);
 
-  const couponsCount = (await db.coupon.findMany()).length;
+  const couponsCount = await db.coupon.count();
 
   return {
     totalRevenue,

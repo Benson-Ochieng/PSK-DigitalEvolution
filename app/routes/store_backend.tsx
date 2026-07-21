@@ -2,6 +2,13 @@ import { useState, useEffect, useRef } from "react";
 import { Form, Link, Outlet, redirect, useLoaderData, useLocation, useNavigation } from "react-router";
 import type { User } from "~/lib/db.server";
 
+export function shouldRevalidate({ currentUrl, nextUrl, defaultShouldRevalidate }: any) {
+  if (currentUrl.pathname.startsWith("/store_backend") && nextUrl.pathname.startsWith("/store_backend")) {
+    return false;
+  }
+  return defaultShouldRevalidate;
+}
+
 export async function loader({ request }: { request: Request }) {
   const { requireAdminUser, checkAdminBranch } = await import("~/lib/sessions.server");
   checkAdminBranch();

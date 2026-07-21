@@ -20,7 +20,7 @@ export async function loader({ request }: { request: Request }) {
     );
   }
 
-  let posts = [];
+  let posts: any[] = [];
   try {
     posts = await db.post.findMany();
   } catch (err) {

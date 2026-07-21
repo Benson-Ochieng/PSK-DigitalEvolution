@@ -1035,6 +1035,19 @@ export const db = {
       if (filtered.length === couponsList.length) return false;
       writeData(COUPONS_FILE, filtered);
       return true;
+    },
+
+    async count(options?: { where?: (coupon: Coupon) => boolean }): Promise<number> {
+      if (supabase && !options?.where) {
+        try {
+          const { count, error } = await supabase.from("coupons").select("*", { count: "exact", head: true });
+          if (!error && count !== null) return count;
+        } catch (err) {
+          console.error("Supabase coupon count failed:", err);
+        }
+      }
+      const list = await this.findMany(options);
+      return list.length;
     }
   },
 
