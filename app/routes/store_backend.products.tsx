@@ -21,6 +21,17 @@ const BRAND_IMAGES: Record<string, string> = {
 };
 
 export async function loader({ request }: { request: Request }) {
+  const CONTENT_DIR = path.join(process.cwd(), "content");
+  const productsIndexFile = path.join(CONTENT_DIR, "products", "_index.json");
+  if (!fs.existsSync(productsIndexFile) || getAllProducts(true).length === 0) {
+    try {
+      const { pullFromSupabase } = await import("~/lib/supabase.server");
+      await pullFromSupabase();
+    } catch (e) {
+      console.error("Failed to auto-pull products in products loader:", e);
+    }
+  }
+
   const url = new URL(request.url);
   const view = url.searchParams.get("view");
   const id = Number(url.searchParams.get("id"));

@@ -1,3 +1,5 @@
+import fs from "fs";
+import path from "path";
 import { useState } from "react";
 import { useLoaderData, Link } from "react-router";
 import { getAllProducts } from "~/lib/content.server";
@@ -6,6 +8,17 @@ import type { Order } from "~/lib/db.server";
 import { query } from "~/db.server";
 
 export async function loader() {
+  const CONTENT_DIR = path.join(process.cwd(), "content");
+  const productsIndexFile = path.join(CONTENT_DIR, "products", "_index.json");
+  if (!fs.existsSync(productsIndexFile) || getAllProducts(true).length === 0) {
+    try {
+      const { pullFromSupabase } = await import("~/lib/supabase.server");
+      await pullFromSupabase();
+    } catch (e) {
+      console.error("Failed to auto-pull products in dashboard loader:", e);
+    }
+  }
+
   const orders = await db.order.findMany();
   const products = getAllProducts();
 
