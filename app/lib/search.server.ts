@@ -81,7 +81,7 @@ export function correctQuery(q: string, dict: Set<string>): string {
     const cleanWord = w.toLowerCase().replace(/[^a-z0-9]/g, "");
     if (cleanWord.length < 3) return w;
     if (dict.has(cleanWord)) return w; // exact match
-    
+
     let bestWord = w;
     let minDistance = 3; // Threshold of 2 edits
     for (const dictWord of dict) {
@@ -97,46 +97,46 @@ export function correctQuery(q: string, dict: Set<string>): string {
   return corrected.join(" ");
 }
 
-export function getProductImage(p: any) {
+function getProductImage(p: any) {
   if (p.image_url && p.image_url !== "/images/psk_logo.png" && p.image_url !== "") {
     return p.image_url;
   }
-  
+
   let galleryImages: any[] = [];
   if (typeof p.images === "string") {
     try {
       galleryImages = JSON.parse(p.images);
-    } catch (e) {}
+    } catch (e) { }
   } else if (Array.isArray(p.images)) {
     galleryImages = p.images;
   } else if (p.images && typeof p.images === "object") {
     galleryImages = [p.images];
   }
-  
+
   if (galleryImages.length > 0 && galleryImages[0]?.src) {
     return galleryImages[0].src;
   }
-  
+
   if (p.description) {
     const match = p.description.match(/<img[^>]+src=["']([^"']+)["']/i);
     if (match) return match[1];
   }
-  
+
   return "/images/psk_logo.png";
 }
 
 export async function searchProductsExact(searchTerm: string) {
   const words = searchTerm.trim().toLowerCase().split(/\s+/).filter(Boolean);
   if (words.length === 0) return [];
-  
+
   const conditions = [];
   const params = [];
-  
+
   for (let i = 0; i < words.length; i++) {
     const word = words[i];
     const escaped = word.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
     params.push(`\\y${escaped}\\y`);
-    
+
     conditions.push(`
       (
         p.name ~* $${i + 1} OR
@@ -154,7 +154,7 @@ export async function searchProductsExact(searchTerm: string) {
       )
     `);
   }
-  
+
   conditions.push("p.status = 'publish'");
   conditions.push("bbp.in_stock = true");
   conditions.push(`NOT (
@@ -176,7 +176,7 @@ export async function searchProductsExact(searchTerm: string) {
     JOIN store_prices bbp ON bbp.product_id = p.id AND bbp.store_name = 'PetStore Kenya'
     WHERE ${whereClause}
   `;
-  
+
   const res = await query(queryStr, params);
   return res.rows;
 }
@@ -184,15 +184,15 @@ export async function searchProductsExact(searchTerm: string) {
 export async function searchProductsPartial(searchTerm: string) {
   const words = searchTerm.trim().toLowerCase().split(/\s+/).filter(Boolean);
   if (words.length === 0) return [];
-  
+
   const conditions = [];
   const params = [];
-  
+
   for (let i = 0; i < words.length; i++) {
     const word = words[i];
     const escaped = word.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
     params.push(escaped);
-    
+
     conditions.push(`
       (
         p.name ~* $${i + 1} OR
@@ -210,7 +210,7 @@ export async function searchProductsPartial(searchTerm: string) {
       )
     `);
   }
-  
+
   conditions.push("p.status = 'publish'");
   conditions.push("bbp.in_stock = true");
   conditions.push(`NOT (
@@ -232,7 +232,7 @@ export async function searchProductsPartial(searchTerm: string) {
     JOIN store_prices bbp ON bbp.product_id = p.id AND bbp.store_name = 'PetStore Kenya'
     WHERE ${whereClause}
   `;
-  
+
   const res = await query(queryStr, params);
   return res.rows;
 }
@@ -240,25 +240,132 @@ export async function searchProductsPartial(searchTerm: string) {
 const searchCache: Record<string, { data: any; timestamp: number }> = {};
 const SEARCH_CACHE_TTL = 5 * 60 * 1000; // 5 minutes cache
 
-export function getSearchCache(cacheKey: string) {
-  const now = Date.now();
-  if (searchCache[cacheKey] && (now - searchCache[cacheKey].timestamp) < SEARCH_CACHE_TTL) {
-    return searchCache[cacheKey].data;
-  }
-  return null;
-}
-
-export function setSearchCache(cacheKey: string, data: any) {
-  searchCache[cacheKey] = {
-    data,
-    timestamp: Date.now()
-  };
-}
-
 export function clearSearchCache() {
   dictionaryCache = null;
   lastDictionaryBuild = 0;
   for (const k of Object.keys(searchCache)) {
     delete searchCache[k];
   }
+}
+
+export async function handleSearch(request: Request) {
+  const url = new URL(request.url);
+  const q = url.searchParams.get("q") || "";
+  const trimmed = q.trim();
+
+  if (!trimmed) {
+    return Response.json({ suggestions: [], groups: [], products: [] });
+  }
+
+  const cacheKey = trimmed.toLowerCase();
+  const now = Date.now();
+  if (searchCache[cacheKey] && (now - searchCache[cacheKey].timestamp) < SEARCH_CACHE_TTL) {
+    return Response.json(searchCache[cacheKey].data);
+  }
+
+  let dbProducts: any[] = [];
+  let finalSearchTerm = trimmed;
+  let isAutocorrected = false;
+
+  try {
+    // Try 1: Exact match with whole word boundary
+    dbProducts = await searchProductsExact(trimmed);
+
+    // Try 2: If no results, attempt typo correction
+    if (dbProducts.length === 0) {
+      const dict = await getDictionary();
+      const corrected = correctQuery(trimmed, dict);
+      if (corrected.toLowerCase() !== trimmed.toLowerCase()) {
+        dbProducts = await searchProductsExact(corrected);
+        if (dbProducts.length > 0) {
+          finalSearchTerm = corrected;
+          isAutocorrected = true;
+        }
+      }
+    }
+
+    // Try 3: If still no results, fallback to partial matching
+    if (dbProducts.length === 0) {
+      dbProducts = await searchProductsPartial(trimmed);
+    }
+  } catch (err) {
+    console.error("Search query error:", err);
+    dbProducts = [];
+  }
+
+  const results = dbProducts.map(p => ({
+    id: p.id,
+    name: p.name || "",
+    brand: p.brand || "",
+    weight_kg: p.weight_kg,
+    animal_type: p.animal_type || "",
+    food_type: p.food_type || "",
+    image_url: getProductImage(p),
+    description: p.description || "",
+    short_description: p.short_description || "",
+    slug: p.slug || "",
+    price: Number(p.our_price || 0),
+    categories: p.categories || [],
+    tags: p.tags || []
+  }));
+
+  // 1. Generate search suggestions based on the final search term used
+  const lowerFinal = finalSearchTerm.toLowerCase();
+  const brands = [...new Set(results.map(p => p.brand).filter(Boolean))].slice(0, 4);
+  const foodTypes = [...new Set(results.map(p => p.food_type).filter(Boolean))].slice(0, 2);
+
+  const suggestionsSet = new Set<string>();
+
+  brands.forEach(b => {
+    suggestionsSet.add(`${b.toLowerCase()} ${lowerFinal}`);
+  });
+
+  foodTypes.forEach(t => {
+    suggestionsSet.add(`${lowerFinal} ${t === 'dry' || t === 'wet' ? 'food' : t}`);
+  });
+
+  if (suggestionsSet.size === 0) {
+    results.slice(0, 3).forEach(p => {
+      const parts = p.name.split(" ");
+      if (parts.length > 2) {
+        suggestionsSet.add(`${parts[0].toLowerCase()} ${parts[1].toLowerCase()}`);
+      }
+    });
+  }
+
+  const suggestions = Array.from(suggestionsSet).slice(0, 6);
+
+  // 2. Generate search groups/counts
+  const animalCounts: { [key: string]: number } = {};
+  const foodTypeCounts: { [key: string]: number } = {};
+
+  results.forEach(p => {
+    if (p.animal_type) {
+      const a = p.animal_type.charAt(0).toUpperCase() + p.animal_type.slice(1);
+      animalCounts[a] = (animalCounts[a] || 0) + 1;
+    }
+    if (p.food_type) {
+      const f = p.food_type.charAt(0).toUpperCase() + p.food_type.slice(1);
+      foodTypeCounts[f] = (foodTypeCounts[f] || 0) + 1;
+    }
+  });
+
+  const groups = [
+    ...Object.entries(animalCounts).map(([name, count]) => `${name} (${count})`),
+    ...Object.entries(foodTypeCounts).map(([name, count]) => `${name} (${count})`)
+  ].slice(0, 3);
+
+  const responseData = {
+    suggestions,
+    groups,
+    products: results.slice(0, 15),
+    correctedQuery: isAutocorrected ? finalSearchTerm : null
+  };
+
+  searchCache[cacheKey] = {
+    data: responseData,
+    timestamp: now
+  };
+
+  return Response.json(responseData);
 }

@@ -13,7 +13,7 @@ import {
   searchProductsPartial,
   getDictionary,
   correctQuery
-} from "../lib/search.server";
+} from "~/lib/search.server";
 
 export function meta({ data }: Route.MetaArgs): Route.MetaDescriptors {
   const title = data?.pageTitle ? `${data.pageTitle} - PetStore Kenya` : "Products - PetStore Kenya";

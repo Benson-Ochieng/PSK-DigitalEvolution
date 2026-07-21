@@ -1280,11 +1280,9 @@ declare global {
   var __petstore_boot_pulled__: boolean | undefined;
 }
 
-const isProduction = process.env.NODE_ENV === "production";
-
-if (!isProduction && !global.__petstore_boot_pulled__) {
+if (!global.__petstore_boot_pulled__) {
   global.__petstore_boot_pulled__ = true;
-  // Asynchronously pull latest data from Supabase in background on boot
+  // Asynchronously pull latest data from Supabase / Postgres in background on boot
   pullFromSupabase().catch(err => {
     console.error("Failed to run boot sync from Supabase:", err);
   });
