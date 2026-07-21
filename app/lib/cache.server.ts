@@ -12,7 +12,7 @@ export async function clearAllCaches() {
     console.error("Failed to clear new-arrivals cache:", e);
   }
   try {
-    const { clearSearchCache } = await import("../routes/api.search");
+    const { clearSearchCache } = await import("./search.server");
     clearSearchCache();
   } catch (e) {
     console.error("Failed to clear search cache:", e);

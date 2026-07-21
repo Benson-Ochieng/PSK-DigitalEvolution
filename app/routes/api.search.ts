@@ -1,252 +1,12 @@
-import { query } from "../db.server";
-
-let dictionaryCache: Set<string> | null = null;
-let lastDictionaryBuild = 0;
-
-function levenshteinDistance(a: string, b: string): number {
-  const tmp: number[][] = [];
-  let i, j;
-  for (i = 0; i <= a.length; i++) {
-    tmp[i] = [i];
-  }
-  for (j = 0; j <= b.length; j++) {
-    tmp[0][j] = j;
-  }
-  for (i = 1; i <= a.length; i++) {
-    for (j = 1; j <= b.length; j++) {
-      tmp[i][j] = Math.min(
-        tmp[i - 1][j] + 1,
-        tmp[i][j - 1] + 1,
-        tmp[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1)
-      );
-    }
-  }
-  return tmp[a.length][b.length];
-}
-
-export async function getDictionary(): Promise<Set<string>> {
-  const now = Date.now();
-  if (dictionaryCache && (now - lastDictionaryBuild < 5 * 60 * 1000)) {
-    return dictionaryCache;
-  }
-  const dict = new Set<string>();
-  try {
-    const res = await query(`
-      SELECT p.name, p.brand, p.categories, p.tags 
-      FROM products p 
-      JOIN store_prices bbp ON bbp.product_id = p.id AND bbp.store_name = 'PetStore Kenya'
-      WHERE p.status = 'publish'
-        AND bbp.in_stock = true
-        AND NOT (
-          (p.categories IS NOT NULL AND jsonb_typeof(p.categories) = 'array' AND EXISTS (
-            SELECT 1 FROM jsonb_to_recordset(p.categories) AS c(slug text) WHERE c.slug = 'clearance'
-          ))
-          OR (p.tags IS NOT NULL AND jsonb_typeof(p.tags) = 'array' AND EXISTS (
-            SELECT 1 FROM jsonb_to_recordset(p.tags) AS t(slug text) WHERE t.slug = 'clearance'
-          ))
-          OR p.sku ILIKE '%clearance%'
-          OR p.name ILIKE '%clearance%'
-        )
-    `);
-    for (const row of res.rows) {
-      if (row.name) addWords(row.name, dict);
-      if (row.brand) addWords(row.brand, dict);
-      if (row.categories && Array.isArray(row.categories)) {
-        row.categories.forEach((c: any) => c.name && addWords(c.name, dict));
-      }
-      if (row.tags && Array.isArray(row.tags)) {
-        row.tags.forEach((t: any) => t.name && addWords(t.name, dict));
-      }
-    }
-    dictionaryCache = dict;
-    lastDictionaryBuild = now;
-  } catch (err) {
-    console.error("Failed to build spelling dictionary:", err);
-  }
-  return dictionaryCache || new Set<string>();
-}
-
-function addWords(text: string, dict: Set<string>) {
-  const words = text.toLowerCase().split(/[^a-z0-9]+/i);
-  for (const w of words) {
-    if (w.length >= 3) {
-      dict.add(w);
-    }
-  }
-}
-
-export function correctQuery(q: string, dict: Set<string>): string {
-  const words = q.split(/\s+/).filter(Boolean);
-  const corrected = words.map(w => {
-    const cleanWord = w.toLowerCase().replace(/[^a-z0-9]/g, "");
-    if (cleanWord.length < 3) return w;
-    if (dict.has(cleanWord)) return w; // exact match
-    
-    let bestWord = w;
-    let minDistance = 3; // Threshold of 2 edits
-    for (const dictWord of dict) {
-      if (Math.abs(dictWord.length - cleanWord.length) >= minDistance) continue;
-      const dist = levenshteinDistance(cleanWord, dictWord);
-      if (dist < minDistance) {
-        minDistance = dist;
-        bestWord = dictWord;
-      }
-    }
-    return bestWord;
-  });
-  return corrected.join(" ");
-}
-
-function getProductImage(p: any) {
-  if (p.image_url && p.image_url !== "/images/psk_logo.png" && p.image_url !== "") {
-    return p.image_url;
-  }
-  
-  let galleryImages: any[] = [];
-  if (typeof p.images === "string") {
-    try {
-      galleryImages = JSON.parse(p.images);
-    } catch (e) {}
-  } else if (Array.isArray(p.images)) {
-    galleryImages = p.images;
-  } else if (p.images && typeof p.images === "object") {
-    galleryImages = [p.images];
-  }
-  
-  if (galleryImages.length > 0 && galleryImages[0]?.src) {
-    return galleryImages[0].src;
-  }
-  
-  if (p.description) {
-    const match = p.description.match(/<img[^>]+src=["']([^"']+)["']/i);
-    if (match) return match[1];
-  }
-  
-  return "/images/psk_logo.png";
-}
-
-export async function searchProductsExact(searchTerm: string) {
-  const words = searchTerm.trim().toLowerCase().split(/\s+/).filter(Boolean);
-  if (words.length === 0) return [];
-  
-  const conditions = [];
-  const params = [];
-  
-  for (let i = 0; i < words.length; i++) {
-    const word = words[i];
-    const escaped = word.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
-    params.push(`\\y${escaped}\\y`);
-    
-    conditions.push(`
-      (
-        p.name ~* $${i + 1} OR
-        COALESCE(p.sku, '') ~* $${i + 1} OR
-        COALESCE(p.short_description, '') ~* $${i + 1} OR
-        p.id::text ~* $${i + 1} OR
-        EXISTS (
-          SELECT 1 FROM jsonb_to_recordset(CASE WHEN jsonb_typeof(p.categories) = 'array' THEN p.categories ELSE '[]'::jsonb END) AS cat(name text)
-          WHERE cat.name ~* $${i + 1}
-        ) OR
-        EXISTS (
-          SELECT 1 FROM jsonb_to_recordset(CASE WHEN jsonb_typeof(p.tags) = 'array' THEN p.tags ELSE '[]'::jsonb END) AS t(name text)
-          WHERE t.name ~* $${i + 1}
-        )
-      )
-    `);
-  }
-  
-  conditions.push("p.status = 'publish'");
-  conditions.push("bbp.in_stock = true");
-  conditions.push(`NOT (
-    (p.categories IS NOT NULL AND jsonb_typeof(p.categories) = 'array' AND EXISTS (
-      SELECT 1 FROM jsonb_to_recordset(p.categories) AS c(slug text) WHERE c.slug = 'clearance'
-    ))
-    OR (p.tags IS NOT NULL AND jsonb_typeof(p.tags) = 'array' AND EXISTS (
-      SELECT 1 FROM jsonb_to_recordset(p.tags) AS t(slug text) WHERE t.slug = 'clearance'
-    ))
-    OR p.sku ILIKE '%clearance%'
-    OR p.name ILIKE '%clearance%'
-  )`);
-  const whereClause = conditions.join(" AND ");
-  const queryStr = `
-    SELECT 
-      p.id, p.name, p.brand, p.weight_kg, p.animal_type, p.food_type, p.image_url, p.description, p.slug, p.sku, p.short_description, p.categories, p.tags,
-      bbp.price AS our_price
-    FROM products p
-    JOIN store_prices bbp ON bbp.product_id = p.id AND bbp.store_name = 'PetStore Kenya'
-    WHERE ${whereClause}
-  `;
-  
-  const res = await query(queryStr, params);
-  return res.rows;
-}
-
-export async function searchProductsPartial(searchTerm: string) {
-  const words = searchTerm.trim().toLowerCase().split(/\s+/).filter(Boolean);
-  if (words.length === 0) return [];
-  
-  const conditions = [];
-  const params = [];
-  
-  for (let i = 0; i < words.length; i++) {
-    const word = words[i];
-    const escaped = word.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
-    params.push(escaped);
-    
-    conditions.push(`
-      (
-        p.name ~* $${i + 1} OR
-        COALESCE(p.sku, '') ~* $${i + 1} OR
-        COALESCE(p.short_description, '') ~* $${i + 1} OR
-        p.id::text ~* $${i + 1} OR
-        EXISTS (
-          SELECT 1 FROM jsonb_to_recordset(CASE WHEN jsonb_typeof(p.categories) = 'array' THEN p.categories ELSE '[]'::jsonb END) AS cat(name text)
-          WHERE cat.name ~* $${i + 1}
-        ) OR
-        EXISTS (
-          SELECT 1 FROM jsonb_to_recordset(CASE WHEN jsonb_typeof(p.tags) = 'array' THEN p.tags ELSE '[]'::jsonb END) AS t(name text)
-          WHERE t.name ~* $${i + 1}
-        )
-      )
-    `);
-  }
-  
-  conditions.push("p.status = 'publish'");
-  conditions.push("bbp.in_stock = true");
-  conditions.push(`NOT (
-    (p.categories IS NOT NULL AND jsonb_typeof(p.categories) = 'array' AND EXISTS (
-      SELECT 1 FROM jsonb_to_recordset(p.categories) AS c(slug text) WHERE c.slug = 'clearance'
-    ))
-    OR (p.tags IS NOT NULL AND jsonb_typeof(p.tags) = 'array' AND EXISTS (
-      SELECT 1 FROM jsonb_to_recordset(p.tags) AS t(slug text) WHERE t.slug = 'clearance'
-    ))
-    OR p.sku ILIKE '%clearance%'
-    OR p.name ILIKE '%clearance%'
-  )`);
-  const whereClause = conditions.join(" AND ");
-  const queryStr = `
-    SELECT 
-      p.id, p.name, p.brand, p.weight_kg, p.animal_type, p.food_type, p.image_url, p.description, p.slug, p.sku, p.short_description, p.categories, p.tags,
-      bbp.price AS our_price
-    FROM products p
-    JOIN store_prices bbp ON bbp.product_id = p.id AND bbp.store_name = 'PetStore Kenya'
-    WHERE ${whereClause}
-  `;
-  
-  const res = await query(queryStr, params);
-  return res.rows;
-}
-
-const searchCache: Record<string, { data: any; timestamp: number }> = {};
-const SEARCH_CACHE_TTL = 5 * 60 * 1000; // 5 minutes cache
-
-export function clearSearchCache() {
-  dictionaryCache = null;
-  lastDictionaryBuild = 0;
-  for (const k of Object.keys(searchCache)) {
-    delete searchCache[k];
-  }
-}
+import {
+  getDictionary,
+  correctQuery,
+  getProductImage,
+  searchProductsExact,
+  searchProductsPartial,
+  getSearchCache,
+  setSearchCache
+} from "../lib/search.server";
 
 export async function loader({ request }: { request: Request }) {
   const url = new URL(request.url);
@@ -258,9 +18,9 @@ export async function loader({ request }: { request: Request }) {
   }
 
   const cacheKey = trimmed.toLowerCase();
-  const now = Date.now();
-  if (searchCache[cacheKey] && (now - searchCache[cacheKey].timestamp) < SEARCH_CACHE_TTL) {
-    return Response.json(searchCache[cacheKey].data);
+  const cached = getSearchCache(cacheKey);
+  if (cached) {
+    return Response.json(cached);
   }
 
   let dbProducts: any[] = [];
@@ -362,10 +122,7 @@ export async function loader({ request }: { request: Request }) {
     correctedQuery: isAutocorrected ? finalSearchTerm : null
   };
 
-  searchCache[cacheKey] = {
-    data: responseData,
-    timestamp: now
-  };
+  setSearchCache(cacheKey, responseData);
 
   return Response.json(responseData);
 }
