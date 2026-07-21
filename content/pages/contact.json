@@ -1,0 +1,20 @@
+{
+  "id": 9,
+  "title": "Contact Us",
+  "slug": "contact",
+  "status": "publish",
+  "parent": 0,
+  "link": "https://petstore.co.ke/contact/",
+  "date": "2026-06-23T12:00:00",
+  "modified": "2026-06-23T12:00:00",
+  "content": "",
+  "excerpt": "Get in touch with PetStore Kenya. Send us your order inquiries, delivery questions, or wholesale requests.",
+  "featuredImage": null,
+  "seo": {
+    "title": "Contact Us — PetStore Kenya",
+    "description": "Get in touch with PetStore Kenya. Send us your order inquiries, delivery questions, or wholesale requests.",
+    "canonical": "https://petstore.co.ke/contact/",
+    "ogImage": null
+  },
+  "author": "Administrator"
+}

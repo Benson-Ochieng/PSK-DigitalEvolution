@@ -131,5 +131,12 @@
     "slug": "account-deletion",
     "link": "https://petstore.co.ke/account-deletion/",
     "parent": 0
+  },
+  {
+    "id": 20,
+    "title": "Contact Us",
+    "slug": "contact",
+    "link": "https://petstore.co.ke/contact/",
+    "parent": 0
   }
 ]

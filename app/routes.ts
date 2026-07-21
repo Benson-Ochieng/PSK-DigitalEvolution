@@ -51,7 +51,8 @@ const routes = [
   route("food-comparison", "routes/food-comparison.tsx"),
   route("brochures", "routes/brochures.tsx"),
   route("locations", "routes/locations.tsx"),
-  route("retail-locations-nairobi-nanyuki-naivasha-nakuru-mombasa", "routes/retail-locations.tsx"),
+  route("contact", "routes/contact.tsx"),
+  route("contact-us", "routes/contact-us.tsx"),
   // Dedicated FAQ Page
   route("faq", "routes/faq.tsx"),
   route("our-brands", "routes/our-brands.tsx"),
