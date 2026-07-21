@@ -138,5 +138,12 @@
     "slug": "contact",
     "link": "https://petstore.co.ke/contact/",
     "parent": 0
+  },
+  {
+    "id": 21,
+    "title": "Reviews",
+    "slug": "reviews",
+    "link": "https://petstore.co.ke/reviews/",
+    "parent": 0
   }
 ]

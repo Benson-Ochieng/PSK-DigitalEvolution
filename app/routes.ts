@@ -53,6 +53,7 @@ const routes = [
   route("locations", "routes/locations.tsx"),
   route("contact", "routes/contact.tsx"),
   route("contact-us", "routes/contact-us.tsx"),
+  route("reviews", "routes/reviews.tsx"),
   // Dedicated FAQ Page
   route("faq", "routes/faq.tsx"),
   route("our-brands", "routes/our-brands.tsx"),
