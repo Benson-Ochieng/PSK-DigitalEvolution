@@ -40,6 +40,47 @@ export default function TermsAndConditions() {
 
         {/* Content Section */}
         <style dangerouslySetInnerHTML={{ __html: `
+          .terms-content {
+            color: #333333;
+            line-height: 1.8;
+            font-size: 1.05rem;
+          }
+          .terms-content h2 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: #1a202c;
+            margin-top: 2.5rem;
+            margin-bottom: 1.25rem;
+            padding-bottom: 0.6rem;
+            border-bottom: 2px solid #edf2f7;
+          }
+          .terms-content h2:first-child {
+            margin-top: 0.5rem;
+          }
+          .terms-content h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1E5DA7;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            padding-top: 0.5rem;
+          }
+          .terms-content p {
+            margin-top: 0;
+            margin-bottom: 1.25rem;
+            color: #4a5568;
+            line-height: 1.8;
+          }
+          .terms-content ul, .terms-content ol {
+            margin-top: 0.5rem;
+            margin-bottom: 1.5rem;
+            padding-left: 1.5rem;
+          }
+          .terms-content li {
+            margin-bottom: 0.5rem;
+            line-height: 1.7;
+            color: #4a5568;
+          }
           .terms-content a {
             color: #1E5DA7;
             text-decoration: underline;
@@ -56,10 +97,7 @@ export default function TermsAndConditions() {
           style={{ 
             maxWidth: "960px", 
             margin: "0 auto", 
-            padding: "1rem",
-            color: "#333333",
-            lineHeight: "1.8",
-            fontSize: "1.05rem"
+            padding: "1rem"
           }}
           dangerouslySetInnerHTML={{ 
             __html: page?.content || "" 

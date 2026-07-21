@@ -223,7 +223,7 @@ const DRAWER_MENU_ITEMS = [
   { name: "Human", path: "/product-category/human/" },
   { name: "Donate", path: "https://psk-donation.vercel.app/" },
   { name: "Gift Vouchers", path: "/product-tag/gift-cards/" },
-  { name: "Food Comparison", path: "/tag/compare/" },
+  { name: "Food Comparison", path: "/food-comparison" },
   {
     name: "Pet Avenue",
     path: "/pet-avenue",
