@@ -145,5 +145,12 @@
     "slug": "reviews",
     "link": "https://petstore.co.ke/reviews/",
     "parent": 0
+  },
+  {
+    "id": 22,
+    "title": "Shipping Rates",
+    "slug": "shipping-rates",
+    "link": "https://petstore.co.ke/shipping-rates/",
+    "parent": 0
   }
 ]
