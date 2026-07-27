@@ -476,7 +476,15 @@ export default function VpBackendCoupons() {
     } else if (sortKey === "date") {
       result = new Date(a.createdAt || 0).getTime() - new Date(b.createdAt || 0).getTime();
     } else if (sortKey === "status") {
-      result = (a.active ? 1 : 0) - (b.active ? 1 : 0);
+      const today = new Date().toISOString().split('T')[0];
+      const getStatusRank = (c: Coupon) => {
+        if (c.status === "draft") return 0;
+        const isExp = c.expiryDate ? today > c.expiryDate : false;
+        if (isExp) return 1;
+        if (!c.active) return 2;
+        return 3;
+      };
+      result = getStatusRank(a) - getStatusRank(b);
     } else if (sortKey === "expiry") {
       result = (a.expiryDate || "").localeCompare(b.expiryDate || "");
     }
@@ -1215,6 +1223,20 @@ export default function VpBackendCoupons() {
                   const today = new Date().toISOString().split('T')[0];
                   const isExpired = coupon.expiryDate ? today > coupon.expiryDate : false;
 
+                  let displayStatus = "Active";
+                  let statusClass = "completed";
+
+                  if (coupon.status === "draft") {
+                    displayStatus = "Draft";
+                    statusClass = "draft";
+                  } else if (isExpired) {
+                    displayStatus = "Expired";
+                    statusClass = "failed";
+                  } else if (!coupon.active) {
+                    displayStatus = "Inactive";
+                    statusClass = "failed";
+                  }
+
                   return (
                     <tr key={coupon.code}>
                       <td>
@@ -1248,8 +1270,8 @@ export default function VpBackendCoupons() {
                         )}
                       </td>
                       <td>
-                        <span className={`status-badge ${coupon.status === "draft" ? "draft" : (coupon.active ? "completed" : "failed")}`}>
-                          {coupon.status === "draft" ? "Draft" : (coupon.active ? "Active" : "Inactive")}
+                        <span className={`status-badge ${statusClass}`}>
+                          {displayStatus}
                         </span>
                       </td>
                       <td>
