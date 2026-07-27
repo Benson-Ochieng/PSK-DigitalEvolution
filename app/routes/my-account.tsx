@@ -739,6 +739,8 @@ export default function MyAccount() {
                       <input
                         type="email"
                         name="email"
+                        id="username"
+                        autoComplete="username"
                         required
                         style={{
                           width: "100%",
@@ -759,6 +761,8 @@ export default function MyAccount() {
                         <input
                           type={showLoginPassword ? "text" : "password"}
                           name="password"
+                          id="password"
+                          autoComplete="current-password"
                           required
                           style={{
                             width: "100%",
@@ -874,6 +878,8 @@ export default function MyAccount() {
                         <input
                           type="text"
                           name="firstName"
+                          id="reg_firstName"
+                          autoComplete="given-name"
                           required
                           style={{
                             width: "100%",
@@ -892,6 +898,8 @@ export default function MyAccount() {
                         <input
                           type="text"
                           name="lastName"
+                          id="reg_lastName"
+                          autoComplete="family-name"
                           required
                           style={{
                             width: "100%",
@@ -912,6 +920,8 @@ export default function MyAccount() {
                       <input
                         type="email"
                         name="email"
+                        id="reg_email"
+                        autoComplete="off"
                         required
                         style={{
                           width: "100%",
@@ -932,6 +942,8 @@ export default function MyAccount() {
                         <input
                           type={showRegisterPassword ? "text" : "password"}
                           name="password"
+                          id="reg_password"
+                          autoComplete="new-password"
                           value={registerPassword}
                           onChange={e => setRegisterPassword(e.target.value)}
                           required
