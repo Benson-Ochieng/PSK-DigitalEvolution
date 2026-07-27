@@ -334,6 +334,13 @@ export const migrations: Migration[] = [
     up: `
       ALTER TABLE customers ADD COLUMN IF NOT EXISTS kra_pin TEXT;
     `
+  },
+  {
+    id: 16,
+    name: 'add_status_to_customers',
+    up: `
+      ALTER TABLE customers ADD COLUMN IF NOT EXISTS status TEXT DEFAULT 'active';
+    `
   }
 ];
 

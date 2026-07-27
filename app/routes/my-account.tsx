@@ -44,6 +44,17 @@ export async function loader({ request }: Route.LoaderArgs) {
   let orders: any[] = [];
   let kraPin = "";
   if (customerEmail) {
+    try {
+      const { db } = await import("../lib/db.server");
+      const appUser = await db.user.findUnique({ where: { email: customerEmail } });
+      if (appUser && appUser.status === "suspended") {
+        const headers = new Headers();
+        headers.append("Set-Cookie", "customer_name=; Path=/; Max-Age=0");
+        headers.append("Set-Cookie", "customer_email=; Path=/; Max-Age=0");
+        return redirect("/my-account", { headers });
+      }
+    } catch (e) {}
+
     const res = await query(
       `SELECT * FROM orders WHERE customer_email = $1 ORDER BY id DESC`,
       [customerEmail]
@@ -212,6 +223,15 @@ export async function action({ request }: Route.ActionArgs) {
       return data({ error: "Google authentication failed: Email and Name are required" }, { status: 400 });
     }
 
+    const { db } = await import("../lib/db.server");
+    const appUser = await db.user.findUnique({ where: { email } });
+    if (appUser && appUser.status === "suspended") {
+      return data(
+        { error: "Your account has been suspended. Please contact customer support for assistance." },
+        { status: 403 }
+      );
+    }
+
     // Lookup customer or create
     const res = await query("SELECT * FROM customers WHERE email = $1", [email]);
     if (res.rows.length === 0) {
@@ -241,11 +261,18 @@ export async function action({ request }: Route.ActionArgs) {
       return data({ error: "Email is required" }, { status: 400 });
     }
 
+    const { db } = await import("../lib/db.server");
+    const appUser = await db.user.findUnique({ where: { email } });
+    if (appUser && appUser.status === "suspended") {
+      return data(
+        { error: "Your account has been suspended. Please contact customer support for assistance." },
+        { status: 403 }
+      );
+    }
+
     // Lookup customer or create
     const res = await query("SELECT * FROM customers WHERE email = $1", [email]);
     let name = "";
-    const { db } = await import("../lib/db.server");
-    const appUser = await db.user.findUnique({ where: { email } });
 
     if (res.rows.length > 0) {
       name = res.rows[0].name;

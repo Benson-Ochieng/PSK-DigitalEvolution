@@ -274,7 +274,9 @@ export default function VpBackendUsers() {
 
       // 2. Status / Tabs Filter
       if (statusFilter !== "all") {
-        if (statusFilter === "2fa_active") {
+        if (statusFilter === "suspended") {
+          if (u.status !== "suspended") return false;
+        } else if (statusFilter === "2fa_active") {
           if (u.twoFactor !== "Active") return false;
         } else if (statusFilter === "2fa_inactive") {
           if (u.twoFactor !== "Inactive") return false;
@@ -842,6 +844,7 @@ export default function VpBackendUsers() {
             <div style={{ display: "flex", gap: "8px", alignItems: "center", fontSize: "12px", color: "rgba(255,255,255,0.3)", flexWrap: "wrap" }}>
               {[
                 { id: "all", label: `All` },
+                { id: "suspended", label: `Suspended` },
                 { id: "administrator", label: `Administrator` },
                 { id: "editor", label: `Editor` },
                 { id: "author", label: `Author` },
@@ -1106,6 +1109,9 @@ export default function VpBackendUsers() {
                         Access Role {renderSortIndicator("role")}
                       </th>
                     )}
+                    <th onClick={() => handleSort("status")} style={{ cursor: "pointer", userSelect: "none", textAlign: "center" }}>
+                      Status {renderSortIndicator("status")}
+                    </th>
                     {showPosts && (
                       <th onClick={() => handleSort("posts")} style={{ cursor: "pointer", userSelect: "none", textAlign: "center" }}>
                         Posts {renderSortIndicator("posts")}
@@ -1165,6 +1171,23 @@ export default function VpBackendUsers() {
                           </span>
                         </td>
                       )}
+                      <td style={{ textAlign: "center" }}>
+                        <span
+                          style={{
+                            display: "inline-block",
+                            fontSize: "10px",
+                            fontWeight: "700",
+                            padding: "3px 8px",
+                            borderRadius: "4px",
+                            textTransform: "uppercase",
+                            background: user.status === "suspended" ? "rgba(255, 77, 98, 0.15)" : "rgba(46, 213, 115, 0.15)",
+                            color: user.status === "suspended" ? "#ff4d62" : "#2ed573",
+                            border: user.status === "suspended" ? "1px solid rgba(255, 77, 98, 0.3)" : "1px solid rgba(46, 213, 115, 0.3)"
+                          }}
+                        >
+                          {user.status || "active"}
+                        </span>
+                      </td>
                       {showPosts && (
                         <td style={{ fontWeight: "600", textAlign: "center", color: "#00ccff" }}>
                           {user.posts}

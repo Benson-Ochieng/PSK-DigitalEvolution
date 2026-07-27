@@ -662,7 +662,7 @@ export const db = {
               role: "customer" as const,
               ordersCount: ordersCount,
               createdAt: createdAtStr,
-              status: "active" as const,
+              status: (row.status || "active") as any,
               passwordHash: ""
             };
           }
@@ -715,7 +715,7 @@ export const db = {
               role: "customer" as const,
               ordersCount: 0,
               createdAt: createdAtStr,
-              status: "active" as const,
+              status: (row.status || "active") as any,
               passwordHash: ""
             };
           });
@@ -844,6 +844,13 @@ export const db = {
             updateFields.push(`phone = $${placeholderIdx++}`);
             updateValues.push(data.phone || null);
           }
+          if (data.status !== undefined) {
+            try {
+              await pgQuery("ALTER TABLE customers ADD COLUMN IF NOT EXISTS status TEXT DEFAULT 'active'");
+            } catch (e) {}
+            updateFields.push(`status = $${placeholderIdx++}`);
+            updateValues.push(data.status);
+          }
 
           if (updateFields.length > 0) {
             updateValues.push(numericId);
@@ -852,6 +859,21 @@ export const db = {
               updateValues
             );
           }
+
+          try {
+            const usersList = readData<User[]>(USERS_FILE, initialUsers);
+            const targetEmail = data.email;
+            const existingCust = await this.findUnique({ where: { id: where.id } });
+            const emailToMatch = (targetEmail || existingCust?.email || "").toLowerCase();
+            const idx = usersList.findIndex(u => u.id === where.id || (u.email && u.email.toLowerCase() === emailToMatch));
+            if (idx !== -1) {
+              usersList[idx] = { ...usersList[idx], ...data };
+              writeData(USERS_FILE, usersList);
+            } else if (existingCust) {
+              usersList.push({ ...existingCust, ...data });
+              writeData(USERS_FILE, usersList);
+            }
+          } catch (e) {}
 
           const updated = await this.findUnique({ where: { id: where.id } });
           if (!updated) throw new Error("Customer not found after update");
