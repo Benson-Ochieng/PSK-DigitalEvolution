@@ -907,32 +907,47 @@ export const db = {
     },
 
     async delete({ where }: { where: { id: string } }): Promise<boolean> {
+      const user = await this.findUnique({ where });
+      const email = user?.email?.toLowerCase();
+
+      if (email) {
+        try {
+          await pgQuery(`
+            CREATE TABLE IF NOT EXISTS deleted_customers (
+              email TEXT PRIMARY KEY,
+              deleted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            );
+          `);
+          await pgQuery(
+            "INSERT INTO deleted_customers (email) VALUES ($1) ON CONFLICT DO NOTHING",
+            [email]
+          );
+        } catch (e) {
+          console.error("Failed to record deleted customer email:", e);
+        }
+
+        try {
+          await pgQuery("DELETE FROM customers WHERE LOWER(email) = $1", [email]);
+        } catch (e) {}
+      }
+
       if (where.id.startsWith("cust-")) {
         const numericId = parseInt(where.id.replace("cust-", ""), 10);
         if (!isNaN(numericId)) {
           try {
             await pgQuery("DELETE FROM customers WHERE id = $1", [numericId]);
-            return true;
-          } catch (err) {
-            console.error("Failed to delete customer from pg:", err);
-            return false;
-          }
+          } catch (err) {}
         }
-        return false;
       }
 
       if (supabase) {
         try {
-          const { error } = await supabase.from("users").delete().eq("id", where.id);
-          if (error) throw error;
-        } catch (err) {
-          console.error("Supabase user delete failed, falling back to local storage:", err);
-        }
+          await supabase.from("users").delete().eq("id", where.id);
+        } catch (err) {}
       }
 
       const usersList = readData<User[]>(USERS_FILE, initialUsers);
-      const filtered = usersList.filter(u => u.id !== where.id);
-      if (filtered.length === usersList.length) return false;
+      const filtered = usersList.filter(u => u.id !== where.id && (!email || !u.email || u.email.toLowerCase() !== email));
       writeData(USERS_FILE, filtered);
       return true;
     }

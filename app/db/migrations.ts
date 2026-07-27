@@ -348,6 +348,16 @@ export const migrations: Migration[] = [
     up: `
       ALTER TABLE customers ADD COLUMN IF NOT EXISTS role TEXT DEFAULT 'customer';
     `
+  },
+  {
+    id: 18,
+    name: 'create_deleted_customers_table',
+    up: `
+      CREATE TABLE IF NOT EXISTS deleted_customers (
+        email TEXT PRIMARY KEY,
+        deleted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+      );
+    `
   }
 ];
 

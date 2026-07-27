@@ -126,6 +126,12 @@ export async function action({ request }: Route.ActionArgs) {
   const targetEmail = formData.get("email")?.toString().trim().toLowerCase();
   if (targetEmail && formType !== "update_account") {
     try {
+      await query(`
+        CREATE TABLE IF NOT EXISTS deleted_customers (
+          email TEXT PRIMARY KEY,
+          deleted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        );
+      `);
       const deletedCheck = await query("SELECT 1 FROM deleted_customers WHERE LOWER(email) = $1", [targetEmail]);
       if (deletedCheck.rows.length > 0) {
         return data(
@@ -133,9 +139,7 @@ export async function action({ request }: Route.ActionArgs) {
           { status: 400 }
         );
       }
-    } catch (e) {
-      // Table might not exist yet if no accounts deleted
-    }
+    } catch (e) {}
   }
 
   if (formType === "update_account") {
