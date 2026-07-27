@@ -222,11 +222,6 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     isBrandPage = brandCheck.rows[0]?.exists || false;
   }
 
-  if (!isBrandPage && brand) {
-    isBrandPage = true;
-    canonicalSlug = brand.toLowerCase();
-  }
-
   if (canonicalSlug) {
     if (isTagPage) {
       tagSlug = canonicalSlug;
