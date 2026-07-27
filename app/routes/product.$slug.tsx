@@ -160,7 +160,7 @@ export default function ProductDetail() {
               </div>
             )}
 
-            {p.description && (
+            {(p.short_description || p.description) && (
               <p style={{
                 fontFamily: "var(--font-sans)",
                 fontSize: "0.9rem",
@@ -168,7 +168,7 @@ export default function ProductDetail() {
                 color: "#475569",
                 marginBottom: "2rem"
               }}>
-                {p.description.length > 250 ? p.description.slice(0, 250) + "..." : p.description}
+                {p.short_description ? p.short_description : (p.description.length > 250 ? p.description.slice(0, 250) + "..." : p.description)}
               </p>
             )}
 
@@ -359,10 +359,16 @@ export default function ProductDetail() {
         <div style={{ minHeight: "220px", marginBottom: "3rem" }}>
           {activeTab === "description" && (
             <div style={{ fontFamily: "var(--font-sans)", fontSize: "0.95rem", color: "#334155", lineHeight: "1.75" }}>
-              {p.description && (
-                <div style={{ whiteSpace: "pre-line" }}>
-                  {p.description}
-                </div>
+              {p.description ? (
+                /<[a-z][\s\S]*>/i.test(p.description) ? (
+                  <div dangerouslySetInnerHTML={{ __html: p.description }} />
+                ) : (
+                  <div style={{ whiteSpace: "pre-line" }}>
+                    {p.description}
+                  </div>
+                )
+              ) : (
+                <p>No description available.</p>
               )}
             </div>
           )}
