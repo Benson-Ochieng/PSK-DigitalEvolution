@@ -1078,8 +1078,15 @@ export default function CheckoutPage() {
   // UI toggles and selections
   const [showAdditionalInfo, setShowAdditionalInfo] = useState(true);
   const [couponCode, setCouponCode] = useState("");
-  const [appliedDiscount, setAppliedDiscount] = useState(0);
+  const [appliedCoupon, setAppliedCoupon] = useState<{
+    code: string;
+    discountType: "percentage" | "fixed";
+    discountValue: number;
+    discountAmount: number;
+    allowFreeShipping: boolean;
+  } | null>(null);
   const [couponMessage, setCouponMessage] = useState("");
+  const [couponSuccess, setCouponSuccess] = useState(false);
   const [paymentMethod, setPaymentMethod] = useState<"ipay" | "peach" | "lipampesa">("ipay");
   const [agreedToTerms, setAgreedToTerms] = useState(false);
 
@@ -1130,8 +1137,6 @@ export default function CheckoutPage() {
   let deliveryFeeLabel = "Delivery Fee - Shipping will be calculated once a Neighbourhood is provided";
   let isNeighbourhoodProvided = false;
 
-  const hasCoupon = appliedDiscount > 0;
-
   const isAllDonation = items.length > 0 && items.every(item => item.name.toLowerCase().includes("donate"));
 
   if (isAllDonation) {
@@ -1181,17 +1186,60 @@ export default function CheckoutPage() {
     }
   }
 
-  const discountAmount = Math.round(subtotal * appliedDiscount);
+  // Override delivery fee if coupon grants free shipping
+  if (appliedCoupon?.allowFreeShipping && isNeighbourhoodProvided) {
+    deliveryFee = 0;
+    deliveryFeeLabel = `Free Shipping (${appliedCoupon.code} Coupon)`;
+  }
+
+  // Compute discount amount dynamically
+  let discountAmount = 0;
+  if (appliedCoupon) {
+    if (appliedCoupon.discountType === "percentage") {
+      discountAmount = Math.round((subtotal * appliedCoupon.discountValue) / 100);
+    } else {
+      discountAmount = Math.min(subtotal, appliedCoupon.discountValue);
+    }
+  }
+
   const totalAmount = Math.max(0, subtotal + deliveryFee - discountAmount);
 
-  // Apply a sample coupon code
-  const handleApplyCoupon = () => {
-    if (couponCode.trim().toUpperCase() === "PETSTORE10") {
-      setAppliedDiscount(0.1);
-      setCouponMessage("10% discount applied successfully!");
-    } else if (couponCode.trim()) {
-      setCouponMessage("Invalid coupon code.");
-      setAppliedDiscount(0);
+  // Dynamically validate coupon code against database & API
+  const handleApplyCoupon = async () => {
+    const code = couponCode.trim();
+    if (!code) {
+      setCouponMessage("Please enter a coupon code.");
+      setCouponSuccess(false);
+      setAppliedCoupon(null);
+      return;
+    }
+
+    try {
+      const res = await fetch("/api/validate-coupon", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ code, subtotal, email: recipientEmail })
+      });
+      const data = await res.json();
+      if (data.valid) {
+        setAppliedCoupon({
+          code: data.code,
+          discountType: data.discountType,
+          discountValue: data.discountValue,
+          discountAmount: data.discountAmount,
+          allowFreeShipping: data.allowFreeShipping || false
+        });
+        setCouponMessage(data.message);
+        setCouponSuccess(true);
+      } else {
+        setAppliedCoupon(null);
+        setCouponMessage(data.message || "Invalid coupon code.");
+        setCouponSuccess(false);
+      }
+    } catch (e) {
+      setAppliedCoupon(null);
+      setCouponMessage("Failed to validate coupon code.");
+      setCouponSuccess(false);
     }
   };
 
@@ -2561,6 +2609,23 @@ export default function CheckoutPage() {
                       <span>{subtotal.toLocaleString()}KSh</span>
                     </div>
 
+                    {/* Discount Row (If Coupon Applied) */}
+                    {appliedCoupon && discountAmount > 0 && (
+                      <div style={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                        padding: "0.75rem 1rem",
+                        fontWeight: "bold",
+                        fontSize: "0.9rem",
+                        color: "#16a34a",
+                        background: "#f0fdf4",
+                        borderBottom: "1px solid #dcfce7"
+                      }}>
+                        <span>Discount ({appliedCoupon.code})</span>
+                        <span>-{discountAmount.toLocaleString()}KSh</span>
+                      </div>
+                    )}
+
                     {/* Coupon Box */}
                     <div style={{
                       padding: "0.75rem 1rem",
@@ -2601,7 +2666,7 @@ export default function CheckoutPage() {
                         </button>
                       </div>
                       {couponMessage && (
-                        <div style={{ fontSize: "0.8rem", color: appliedDiscount > 0 ? "green" : "red", marginTop: "0.4rem" }}>
+                        <div style={{ fontSize: "0.8rem", color: couponSuccess ? "#16a34a" : "#ef4444", marginTop: "0.4rem", fontWeight: 500 }}>
                           {couponMessage}
                         </div>
                       )}
@@ -2630,21 +2695,7 @@ export default function CheckoutPage() {
                       </span>
                     </div>
 
-                    {/* Applied Discount Row */}
-                    {appliedDiscount > 0 && (
-                      <div style={{
-                        display: "flex",
-                        justifyContent: "space-between",
-                        padding: "0.75rem 1rem",
-                        borderBottom: "1px solid #eaeaea",
-                        fontSize: "0.9rem",
-                        color: "green",
-                        fontWeight: 500
-                      }}>
-                        <span>Discount (10%)</span>
-                        <span>-{discountAmount.toLocaleString()}KSh</span>
-                      </div>
-                    )}
+
 
                     {/* Total Row */}
                     <div style={{

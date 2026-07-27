@@ -72,6 +72,7 @@ const routes = [
   route("api/google-reviews", "routes/api.google-reviews.ts"),
   route("api/addresses", "routes/api.addresses.ts"),
   route("api/products-shipping", "routes/api.products-shipping.ts"),
+  route("api/validate-coupon", "routes/api.validate-coupon.ts"),
 
   // Catch-all category page route
   route(":slug", "routes/catch-all-category.tsx"),
