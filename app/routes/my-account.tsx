@@ -105,7 +105,7 @@ export async function action({ request }: Route.ActionArgs) {
 
   // Check if account has been deleted
   const targetEmail = formData.get("email")?.toString().trim().toLowerCase();
-  if (targetEmail) {
+  if (targetEmail && formType !== "update_account") {
     try {
       const deletedCheck = await query("SELECT 1 FROM deleted_customers WHERE LOWER(email) = $1", [targetEmail]);
       if (deletedCheck.rows.length > 0) {
@@ -116,6 +116,61 @@ export async function action({ request }: Route.ActionArgs) {
       }
     } catch (e) {
       // Table might not exist yet if no accounts deleted
+    }
+  }
+
+  if (formType === "update_account") {
+    const firstName = formData.get("firstName")?.toString().trim();
+    const lastName = formData.get("lastName")?.toString().trim();
+    const displayName = formData.get("displayName")?.toString().trim();
+    const email = formData.get("email")?.toString().trim();
+    const currentEmail = formData.get("currentEmail")?.toString().trim();
+
+    if (!displayName || !email) {
+      return data({ error: "Display Name and Email Address are required." }, { status: 400 });
+    }
+
+    const nameToSave = displayName || `${firstName || ""} ${lastName || ""}`.trim();
+
+    try {
+      if (currentEmail) {
+        await query(
+          "UPDATE customers SET name = $1, email = $2 WHERE email = $3",
+          [nameToSave, email, currentEmail]
+        );
+      } else {
+        await query(
+          "INSERT INTO customers (name, email) VALUES ($1, $2) ON CONFLICT (email) DO UPDATE SET name = EXCLUDED.name",
+          [nameToSave, email]
+        );
+      }
+
+      // Update db.user if present
+      try {
+        const { db } = await import("../lib/db.server");
+        const user = await db.user.findUnique({ where: { email: currentEmail || email } });
+        if (user) {
+          await db.user.update({
+            where: { id: user.id },
+            data: { name: nameToSave, email: email }
+          });
+        }
+      } catch (e) {}
+
+      const headers = new Headers();
+      headers.append(
+        "Set-Cookie",
+        `customer_name=${encodeURIComponent(nameToSave)}; Path=/; SameSite=Lax; Max-Age=86400`
+      );
+      headers.append(
+        "Set-Cookie",
+        `customer_email=${encodeURIComponent(email)}; Path=/; SameSite=Lax; Max-Age=86400`
+      );
+
+      return data({ success: true, message: "Account details saved successfully!" }, { headers });
+    } catch (err) {
+      console.error("Error updating account details:", err);
+      return data({ error: "Failed to save account details. Please try again." }, { status: 500 });
     }
   }
 
@@ -1527,21 +1582,36 @@ export default function MyAccount() {
               {activeTab === "details" && (
                 <div>
                   <h3 style={{ fontSize: "1.25rem", fontWeight: 700, color: "#1053a0", marginBottom: "1.5rem" }}>Account Details</h3>
-                  <form style={{ display: "flex", flexDirection: "column", gap: "1.25rem", maxWidth: "600px" }} onSubmit={e => e.preventDefault()}>
+
+                  {actionData?.message && (
+                    <div style={{ padding: "0.75rem 1rem", background: "#dcfce7", color: "#166534", borderRadius: "6px", marginBottom: "1.25rem", fontSize: "0.9rem", fontWeight: 500 }}>
+                      {actionData.message}
+                    </div>
+                  )}
+                  {actionData?.error && (
+                    <div style={{ padding: "0.75rem 1rem", background: "#fee2e2", color: "#991b1b", borderRadius: "6px", marginBottom: "1.25rem", fontSize: "0.9rem", fontWeight: 500 }}>
+                      {actionData.error}
+                    </div>
+                  )}
+
+                  <Form method="post" style={{ display: "flex", flexDirection: "column", gap: "1.25rem", maxWidth: "600px" }}>
+                    <input type="hidden" name="form_type" value="update_account" />
+                    <input type="hidden" name="currentEmail" value={customerEmail} />
+
                     <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1.25rem" }}>
                       <div>
                         <label style={{ display: "block", fontSize: "0.75rem", fontWeight: 600, color: "#64748b", marginBottom: "0.5rem" }}>FIRST NAME *</label>
-                        <input type="text" defaultValue={customerName.split(" ")[0] || "Ben"} style={{ width: "100%", padding: "0.75rem", border: "1px solid #cbd5e1", borderRadius: "4px" }} />
+                        <input type="text" name="firstName" defaultValue={customerName.split(" ")[0] || ""} required style={{ width: "100%", padding: "0.75rem", border: "1px solid #cbd5e1", borderRadius: "4px" }} />
                       </div>
                       <div>
                         <label style={{ display: "block", fontSize: "0.75rem", fontWeight: 600, color: "#64748b", marginBottom: "0.5rem" }}>LAST NAME *</label>
-                        <input type="text" defaultValue={customerName.split(" ")[1] || "Ochieng"} style={{ width: "100%", padding: "0.75rem", border: "1px solid #cbd5e1", borderRadius: "4px" }} />
+                        <input type="text" name="lastName" defaultValue={customerName.split(" ").slice(1).join(" ") || ""} required style={{ width: "100%", padding: "0.75rem", border: "1px solid #cbd5e1", borderRadius: "4px" }} />
                       </div>
                     </div>
 
                     <div>
                       <label style={{ display: "block", fontSize: "0.75rem", fontWeight: 600, color: "#64748b", marginBottom: "0.5rem" }}>DISPLAY NAME *</label>
-                      <input type="text" defaultValue={customerName} style={{ width: "100%", padding: "0.75rem", border: "1px solid #cbd5e1", borderRadius: "4px" }} />
+                      <input type="text" name="displayName" defaultValue={customerName} required style={{ width: "100%", padding: "0.75rem", border: "1px solid #cbd5e1", borderRadius: "4px" }} />
                       <span style={{ fontSize: "0.75rem", color: "#64748b", display: "block", marginTop: "0.25rem" }}>
                         This will be how your name will be displayed in the account section and in reviews.
                       </span>
@@ -1549,13 +1619,13 @@ export default function MyAccount() {
 
                     <div>
                       <label style={{ display: "block", fontSize: "0.75rem", fontWeight: 600, color: "#64748b", marginBottom: "0.5rem" }}>EMAIL ADDRESS *</label>
-                      <input type="email" defaultValue={customerEmail} style={{ width: "100%", padding: "0.75rem", border: "1px solid #cbd5e1", borderRadius: "4px" }} />
+                      <input type="email" name="email" defaultValue={customerEmail} required style={{ width: "100%", padding: "0.75rem", border: "1px solid #cbd5e1", borderRadius: "4px" }} />
                     </div>
 
-                    <button type="submit" className="btn-primary" style={{ padding: "0.75rem 1.5rem", alignSelf: "flex-start", fontWeight: 700 }}>
+                    <button type="submit" className="btn-primary" style={{ padding: "0.75rem 1.5rem", alignSelf: "flex-start", fontWeight: 700, cursor: "pointer" }}>
                       SAVE CHANGES
                     </button>
-                  </form>
+                  </Form>
                 </div>
               )}
             </main>
