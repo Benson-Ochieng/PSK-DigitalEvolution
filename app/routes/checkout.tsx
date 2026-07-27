@@ -553,21 +553,21 @@ export async function action({ request }: { request: Request }) {
     }
 
     const { query } = await import("../db.server");
+    const { db } = await import("../lib/db.server");
+
     const res = await query("SELECT * FROM customers WHERE email = $1", [email]);
     let name = "";
+    const appUser = await db.user.findUnique({ where: { email } });
+
     if (res.rows.length > 0) {
       name = res.rows[0].name;
-      if (name === "Ben Ochieng") {
-        const userRes = await query("SELECT * FROM users WHERE email = $1", [email]);
-        if (userRes.rows.length > 0 && userRes.rows[0].name) {
-          name = userRes.rows[0].name;
-          await query("UPDATE customers SET name = $1 WHERE email = $2", [name, email]);
-        }
+      if (name === "Ben Ochieng" && appUser && appUser.name) {
+        name = appUser.name;
+        await query("UPDATE customers SET name = $1 WHERE email = $2", [name, email]);
       }
     } else {
-      const userRes = await query("SELECT * FROM users WHERE email = $1", [email]);
-      if (userRes.rows.length > 0 && userRes.rows[0].name) {
-        name = userRes.rows[0].name;
+      if (appUser && appUser.name) {
+        name = appUser.name;
       } else {
         const prefix = email.split("@")[0];
         name = prefix
@@ -575,7 +575,15 @@ export async function action({ request }: { request: Request }) {
           .map(part => part.charAt(0).toUpperCase() + part.slice(1))
           .join(" ");
       }
-      await query("INSERT INTO customers (name, email) VALUES ($1, $2)", [name, email]);
+
+      try {
+        await query("SELECT setval(pg_get_serial_sequence('customers', 'id'), COALESCE((SELECT MAX(id) FROM customers), 1))");
+      } catch (e) {}
+
+      await query(
+        "INSERT INTO customers (name, email) VALUES ($1, $2) ON CONFLICT (email) DO UPDATE SET name = EXCLUDED.name",
+        [name, email]
+      );
     }
 
     const headers = new Headers();
