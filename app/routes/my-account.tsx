@@ -42,12 +42,20 @@ export async function loader({ request }: Route.LoaderArgs) {
   const customerEmail = emailCookie ? decodeURIComponent(emailCookie.split("=")[1]) : "";
 
   let orders: any[] = [];
+  let kraPin = "";
   if (customerEmail) {
     const res = await query(
       `SELECT * FROM orders WHERE customer_email = $1 ORDER BY id DESC`,
       [customerEmail]
     );
     orders = res.rows;
+
+    try {
+      const custRes = await query(`SELECT kra_pin FROM customers WHERE email = $1 LIMIT 1`, [customerEmail]);
+      if (custRes.rows.length > 0) {
+        kraPin = custRes.rows[0].kra_pin || "";
+      }
+    } catch (e) {}
   }
 
   const settingsPath = path.join(process.cwd(), "content", "general-settings.json");
@@ -63,7 +71,7 @@ export async function loader({ request }: Route.LoaderArgs) {
     } catch (e) {}
   }
 
-  return { customerName, customerEmail, orders, recaptchaSiteKey, googleClientId };
+  return { customerName, customerEmail, orders, recaptchaSiteKey, googleClientId, kraPin };
 }
 
 export async function action({ request }: Route.ActionArgs) {
@@ -125,23 +133,41 @@ export async function action({ request }: Route.ActionArgs) {
     const displayName = formData.get("displayName")?.toString().trim();
     const email = formData.get("email")?.toString().trim();
     const currentEmail = formData.get("currentEmail")?.toString().trim();
+    const kraPin = formData.get("kraPin")?.toString().trim();
+
+    const currentPassword = formData.get("currentPassword")?.toString();
+    const newPassword = formData.get("newPassword")?.toString();
+    const confirmPassword = formData.get("confirmPassword")?.toString();
 
     if (!displayName || !email) {
       return data({ error: "Display Name and Email Address are required." }, { status: 400 });
     }
 
+    if (newPassword || confirmPassword) {
+      if (newPassword !== confirmPassword) {
+        return data({ error: "New password and Confirm new password do not match." }, { status: 400 });
+      }
+      if (newPassword && newPassword.length < 6) {
+        return data({ error: "New password must be at least 6 characters long." }, { status: 400 });
+      }
+    }
+
     const nameToSave = displayName || `${firstName || ""} ${lastName || ""}`.trim();
 
     try {
+      try {
+        await query("ALTER TABLE customers ADD COLUMN IF NOT EXISTS kra_pin TEXT");
+      } catch (e) {}
+
       if (currentEmail) {
         await query(
-          "UPDATE customers SET name = $1, email = $2 WHERE email = $3",
-          [nameToSave, email, currentEmail]
+          "UPDATE customers SET name = $1, email = $2, kra_pin = $3 WHERE email = $4",
+          [nameToSave, email, kraPin || null, currentEmail]
         );
       } else {
         await query(
-          "INSERT INTO customers (name, email) VALUES ($1, $2) ON CONFLICT (email) DO UPDATE SET name = EXCLUDED.name",
-          [nameToSave, email]
+          "INSERT INTO customers (name, email, kra_pin) VALUES ($1, $2, $3) ON CONFLICT (email) DO UPDATE SET name = EXCLUDED.name, kra_pin = EXCLUDED.kra_pin",
+          [nameToSave, email, kraPin || null]
         );
       }
 
@@ -150,9 +176,13 @@ export async function action({ request }: Route.ActionArgs) {
         const { db } = await import("../lib/db.server");
         const user = await db.user.findUnique({ where: { email: currentEmail || email } });
         if (user) {
+          const updateData: any = { name: nameToSave, email: email };
+          if (newPassword) {
+            updateData.password = newPassword;
+          }
           await db.user.update({
             where: { id: user.id },
-            data: { name: nameToSave, email: email }
+            data: updateData
           });
         }
       } catch (e) {}
@@ -397,7 +427,7 @@ function MockRecaptcha() {
 }
 
 export default function MyAccount() {
-  const { customerName, customerEmail, orders, recaptchaSiteKey, googleClientId } = useLoaderData<typeof loader>();
+  const { customerName, customerEmail, orders, recaptchaSiteKey, googleClientId, kraPin } = useLoaderData<typeof loader>();
   const actionData = useActionData<any>();
   const navigate = useNavigate();
   const location = useLocation();
@@ -415,6 +445,9 @@ export default function MyAccount() {
   }
   const [showLoginPassword, setShowLoginPassword] = useState(false);
   const [showRegisterPassword, setShowRegisterPassword] = useState(false);
+  const [showCurrentPassword, setShowCurrentPassword] = useState(false);
+  const [showNewPassword, setShowNewPassword] = useState(false);
+  const [showConfirmPassword, setShowConfirmPassword] = useState(false);
   const [registerPassword, setRegisterPassword] = useState("");
 
   const [loginWidgetId, setLoginWidgetId] = useState<number | null>(null);
@@ -1580,8 +1613,41 @@ export default function MyAccount() {
               )}
 
               {activeTab === "details" && (
-                <div>
-                  <h3 style={{ fontSize: "1.25rem", fontWeight: 700, color: "#1053a0", marginBottom: "1.5rem" }}>Account Details</h3>
+                <div style={{ maxWidth: "700px" }}>
+                  {/* Social accounts Section */}
+                  <h2 style={{ fontSize: "1.75rem", fontWeight: 700, color: "#1a1a1a", marginBottom: "1rem", fontFamily: "var(--font-sans)" }}>
+                    Social accounts
+                  </h2>
+
+                  <div style={{ marginBottom: "2rem" }}>
+                    <button
+                      type="button"
+                      onClick={handleGoogleLogin}
+                      style={{
+                        background: "#000000",
+                        color: "#ffffff",
+                        border: "none",
+                        borderRadius: "4px",
+                        padding: "0.65rem 1.25rem",
+                        fontWeight: "600",
+                        fontSize: "0.85rem",
+                        cursor: "pointer",
+                        display: "inline-flex",
+                        alignItems: "center",
+                        gap: "10px"
+                      }}
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                        <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
+                        <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
+                        <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" />
+                        <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" />
+                      </svg>
+                      Unlink account from <strong>Google</strong>
+                    </button>
+                  </div>
+
+                  <hr style={{ border: "none", borderTop: "1px solid #e2e8f0", marginBottom: "2rem" }} />
 
                   {actionData?.message && (
                     <div style={{ padding: "0.75rem 1rem", background: "#dcfce7", color: "#166534", borderRadius: "6px", marginBottom: "1.25rem", fontSize: "0.9rem", fontWeight: 500 }}>
@@ -1594,35 +1660,238 @@ export default function MyAccount() {
                     </div>
                   )}
 
-                  <Form method="post" style={{ display: "flex", flexDirection: "column", gap: "1.25rem", maxWidth: "600px" }}>
+                  <Form method="post" style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }}>
                     <input type="hidden" name="form_type" value="update_account" />
                     <input type="hidden" name="currentEmail" value={customerEmail} />
 
                     <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1.25rem" }}>
                       <div>
-                        <label style={{ display: "block", fontSize: "0.75rem", fontWeight: 600, color: "#64748b", marginBottom: "0.5rem" }}>FIRST NAME *</label>
-                        <input type="text" name="firstName" defaultValue={customerName.split(" ")[0] || ""} required style={{ width: "100%", padding: "0.75rem", border: "1px solid #cbd5e1", borderRadius: "4px" }} />
+                        <label style={{ display: "block", fontSize: "0.85rem", color: "#1a1a1a", marginBottom: "0.4rem" }}>
+                          First name <span style={{ color: "#e2401c" }}>*</span>
+                        </label>
+                        <input
+                          type="text"
+                          name="firstName"
+                          defaultValue={customerName.split(" ")[0] || ""}
+                          required
+                          style={{
+                            width: "100%",
+                            padding: "0.55rem 0.75rem",
+                            border: "1px solid #7e9bbd",
+                            borderRadius: "4px",
+                            outline: "none",
+                            fontSize: "0.95rem"
+                          }}
+                        />
                       </div>
                       <div>
-                        <label style={{ display: "block", fontSize: "0.75rem", fontWeight: 600, color: "#64748b", marginBottom: "0.5rem" }}>LAST NAME *</label>
-                        <input type="text" name="lastName" defaultValue={customerName.split(" ").slice(1).join(" ") || ""} required style={{ width: "100%", padding: "0.75rem", border: "1px solid #cbd5e1", borderRadius: "4px" }} />
+                        <label style={{ display: "block", fontSize: "0.85rem", color: "#1a1a1a", marginBottom: "0.4rem" }}>
+                          Last name <span style={{ color: "#e2401c" }}>*</span>
+                        </label>
+                        <input
+                          type="text"
+                          name="lastName"
+                          defaultValue={customerName.split(" ").slice(1).join(" ") || ""}
+                          required
+                          style={{
+                            width: "100%",
+                            padding: "0.55rem 0.75rem",
+                            border: "1px solid #7e9bbd",
+                            borderRadius: "4px",
+                            outline: "none",
+                            fontSize: "0.95rem"
+                          }}
+                        />
                       </div>
                     </div>
 
                     <div>
-                      <label style={{ display: "block", fontSize: "0.75rem", fontWeight: 600, color: "#64748b", marginBottom: "0.5rem" }}>DISPLAY NAME *</label>
-                      <input type="text" name="displayName" defaultValue={customerName} required style={{ width: "100%", padding: "0.75rem", border: "1px solid #cbd5e1", borderRadius: "4px" }} />
-                      <span style={{ fontSize: "0.75rem", color: "#64748b", display: "block", marginTop: "0.25rem" }}>
-                        This will be how your name will be displayed in the account section and in reviews.
+                      <label style={{ display: "block", fontSize: "0.85rem", color: "#1a1a1a", marginBottom: "0.4rem" }}>
+                        Display name <span style={{ color: "#e2401c" }}>*</span>
+                      </label>
+                      <input
+                        type="text"
+                        name="displayName"
+                        defaultValue={customerName}
+                        required
+                        style={{
+                          width: "100%",
+                          padding: "0.55rem 0.75rem",
+                          border: "1px solid #7e9bbd",
+                          borderRadius: "4px",
+                          outline: "none",
+                          fontSize: "0.95rem"
+                        }}
+                      />
+                      <span style={{ fontSize: "0.8rem", color: "#555555", fontStyle: "italic", display: "block", marginTop: "0.35rem" }}>
+                        This will be how your name will be displayed in the account section and in reviews
                       </span>
                     </div>
 
                     <div>
-                      <label style={{ display: "block", fontSize: "0.75rem", fontWeight: 600, color: "#64748b", marginBottom: "0.5rem" }}>EMAIL ADDRESS *</label>
-                      <input type="email" name="email" defaultValue={customerEmail} required style={{ width: "100%", padding: "0.75rem", border: "1px solid #cbd5e1", borderRadius: "4px" }} />
+                      <label style={{ display: "block", fontSize: "0.85rem", color: "#1a1a1a", marginBottom: "0.4rem" }}>
+                        Email address <span style={{ color: "#e2401c" }}>*</span>
+                      </label>
+                      <div style={{ fontSize: "0.95rem", color: "#1a1a1a", padding: "0.25rem 0", fontWeight: 500 }}>
+                        {customerEmail}
+                      </div>
+                      <input type="hidden" name="email" value={customerEmail} />
+                      <span style={{ fontSize: "0.8rem", color: "#555555", fontStyle: "italic", display: "block", marginTop: "0.25rem" }}>
+                        Due to security concerns, email address changes have to be handled directly by our{" "}
+                        <a href="/contact" style={{ color: "#3b82f6", textDecoration: "underline" }}>support team</a>
+                      </span>
                     </div>
 
-                    <button type="submit" className="btn-primary" style={{ padding: "0.75rem 1.5rem", alignSelf: "flex-start", fontWeight: 700, cursor: "pointer" }}>
+                    {/* Password change Section */}
+                    <div style={{ marginTop: "1rem" }}>
+                      <h3 style={{ fontSize: "1.5rem", fontWeight: 700, color: "#1a1a1a", marginBottom: "1rem", fontFamily: "var(--font-sans)" }}>
+                        Password change
+                      </h3>
+
+                      <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
+                        <div>
+                          <label style={{ display: "block", fontSize: "0.85rem", color: "#1a1a1a", marginBottom: "0.4rem" }}>
+                            Current password (leave blank to leave unchanged)
+                          </label>
+                          <div style={{ position: "relative", width: "100%" }}>
+                            <input
+                              type={showCurrentPassword ? "text" : "password"}
+                              name="currentPassword"
+                              style={{
+                                width: "100%",
+                                padding: "0.55rem 0.75rem",
+                                paddingRight: "2.5rem",
+                                border: "1px solid #7e9bbd",
+                                borderRadius: "4px",
+                                outline: "none",
+                                fontSize: "0.95rem"
+                              }}
+                            />
+                            <span
+                              onClick={() => setShowCurrentPassword(!showCurrentPassword)}
+                              style={{
+                                position: "absolute",
+                                right: "12px",
+                                top: "50%",
+                                transform: "translateY(-50%)",
+                                cursor: "pointer",
+                                color: "#777777"
+                              }}
+                            >
+                              <i className={showCurrentPassword ? "fa fa-eye-slash" : "fa fa-eye"} style={{ fontSize: "16px" }}></i>
+                            </span>
+                          </div>
+                        </div>
+
+                        <div>
+                          <label style={{ display: "block", fontSize: "0.85rem", color: "#1a1a1a", marginBottom: "0.4rem" }}>
+                            New password (leave blank to leave unchanged)
+                          </label>
+                          <div style={{ position: "relative", width: "100%" }}>
+                            <input
+                              type={showNewPassword ? "text" : "password"}
+                              name="newPassword"
+                              style={{
+                                width: "100%",
+                                padding: "0.55rem 0.75rem",
+                                paddingRight: "2.5rem",
+                                border: "1px solid #7e9bbd",
+                                borderRadius: "4px",
+                                outline: "none",
+                                fontSize: "0.95rem"
+                              }}
+                            />
+                            <span
+                              onClick={() => setShowNewPassword(!showNewPassword)}
+                              style={{
+                                position: "absolute",
+                                right: "12px",
+                                top: "50%",
+                                transform: "translateY(-50%)",
+                                cursor: "pointer",
+                                color: "#777777"
+                              }}
+                            >
+                              <i className={showNewPassword ? "fa fa-eye-slash" : "fa fa-eye"} style={{ fontSize: "16px" }}></i>
+                            </span>
+                          </div>
+                        </div>
+
+                        <div>
+                          <label style={{ display: "block", fontSize: "0.85rem", color: "#1a1a1a", marginBottom: "0.4rem" }}>
+                            Confirm new password
+                          </label>
+                          <div style={{ position: "relative", width: "100%" }}>
+                            <input
+                              type={showConfirmPassword ? "text" : "password"}
+                              name="confirmPassword"
+                              style={{
+                                width: "100%",
+                                padding: "0.55rem 0.75rem",
+                                paddingRight: "2.5rem",
+                                border: "1px solid #7e9bbd",
+                                borderRadius: "4px",
+                                outline: "none",
+                                fontSize: "0.95rem"
+                              }}
+                            />
+                            <span
+                              onClick={() => setShowConfirmPassword(!showConfirmPassword)}
+                              style={{
+                                position: "absolute",
+                                right: "12px",
+                                top: "50%",
+                                transform: "translateY(-50%)",
+                                cursor: "pointer",
+                                color: "#777777"
+                              }}
+                            >
+                              <i className={showConfirmPassword ? "fa fa-eye-slash" : "fa fa-eye"} style={{ fontSize: "16px" }}></i>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* KRA PIN Section */}
+                    <div style={{ marginTop: "1rem" }}>
+                      <label style={{ display: "block", fontSize: "0.85rem", color: "#1a1a1a", marginBottom: "0.4rem", fontWeight: 700 }}>
+                        KRA PIN
+                      </label>
+                      <input
+                        type="text"
+                        name="kraPin"
+                        defaultValue={kraPin}
+                        placeholder="E.G. A123456789B"
+                        style={{
+                          width: "100%",
+                          padding: "0.55rem 0.75rem",
+                          border: "1px solid #7e9bbd",
+                          borderRadius: "4px",
+                          outline: "none",
+                          fontSize: "0.95rem"
+                        }}
+                      />
+                      <span style={{ fontSize: "0.8rem", color: "#555555", fontStyle: "italic", display: "block", marginTop: "0.35rem" }}>
+                        Optional. Save this for business expense records.
+                      </span>
+                    </div>
+
+                    <button
+                      type="submit"
+                      style={{
+                        background: "#ece9e2",
+                        color: "#1a1a1a",
+                        border: "1px solid #dcdcdc",
+                        borderRadius: "4px",
+                        padding: "0.6rem 1.25rem",
+                        fontWeight: "700",
+                        fontSize: "0.9rem",
+                        cursor: "pointer",
+                        alignSelf: "flex-start",
+                        marginTop: "1rem"
+                      }}
+                    >
                       SAVE CHANGES
                     </button>
                   </Form>

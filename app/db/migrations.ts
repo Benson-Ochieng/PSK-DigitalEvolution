@@ -327,6 +327,13 @@ export const migrations: Migration[] = [
       SELECT setval(pg_get_serial_sequence('products', 'id'), COALESCE((SELECT MAX(id) FROM products), 1));
       SELECT setval(pg_get_serial_sequence('order_items', 'id'), COALESCE((SELECT MAX(id) FROM order_items), 1));
     `
+  },
+  {
+    id: 15,
+    name: 'add_kra_pin_to_customers',
+    up: `
+      ALTER TABLE customers ADD COLUMN IF NOT EXISTS kra_pin TEXT;
+    `
   }
 ];
 
