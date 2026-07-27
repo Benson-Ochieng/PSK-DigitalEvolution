@@ -95,8 +95,12 @@ export async function action({ request }: { request: Request }) {
 
     // Check duplicate email or username
     const existingUsers = await db.user.findMany();
+    const currentEditingUser = await db.user.findUnique({ where: { id } });
+    const currentEmail = currentEditingUser?.email?.toLowerCase() || "";
+    const currentUsername = currentEditingUser?.username?.toLowerCase() || "";
+
     const duplicateEmail = existingUsers.find(
-      (u) => u.email.toLowerCase() === email.toLowerCase() && u.id !== id
+      (u) => u.email.toLowerCase() === email.toLowerCase() && u.id !== id && u.email.toLowerCase() !== currentEmail
     );
     if (duplicateEmail) {
       if (duplicateEmail.role !== "customer" || role === "customer") {
@@ -104,7 +108,7 @@ export async function action({ request }: { request: Request }) {
       }
     }
     const duplicateUsername = existingUsers.find(
-      (u) => u.username.toLowerCase() === username.toLowerCase() && u.id !== id
+      (u) => u.username.toLowerCase() === username.toLowerCase() && u.id !== id && u.username.toLowerCase() !== currentUsername
     );
     if (duplicateUsername) {
       if (duplicateUsername.role !== "customer" || role === "customer") {

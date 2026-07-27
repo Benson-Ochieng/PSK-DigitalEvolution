@@ -897,13 +897,54 @@ export const db = {
         }
       }
 
+      const existingUser = await this.findUnique({ where });
+      const targetEmail = (existingUser?.email || data.email || "").toLowerCase();
+
+      if (targetEmail) {
+        try {
+          const updateFields: string[] = [];
+          const updateValues: any[] = [];
+          let placeholderIdx = 1;
+          if (data.name !== undefined) { updateFields.push(`name = $${placeholderIdx++}`); updateValues.push(data.name); }
+          if (data.email !== undefined) { updateFields.push(`email = $${placeholderIdx++}`); updateValues.push(data.email); }
+          if (data.phone !== undefined) { updateFields.push(`phone = $${placeholderIdx++}`); updateValues.push(data.phone || null); }
+          if (data.status !== undefined) { updateFields.push(`status = $${placeholderIdx++}`); updateValues.push(data.status); }
+          if (data.role !== undefined) { updateFields.push(`role = $${placeholderIdx++}`); updateValues.push(data.role); }
+          if (updateFields.length > 0) {
+            updateValues.push(targetEmail);
+            await pgQuery(`UPDATE customers SET ${updateFields.join(", ")} WHERE LOWER(email) = $${placeholderIdx}`, updateValues);
+          }
+        } catch (e) {}
+      }
+
       const usersList = readData<User[]>(USERS_FILE, initialUsers);
-      const idx = usersList.findIndex(u => u.id === where.id);
-      if (idx === -1) throw new Error("User not found");
-      const localUpdated = { ...usersList[idx], ...data };
-      usersList[idx] = localUpdated;
+      let idx = usersList.findIndex(u => u.id === where.id || (targetEmail && u.email && u.email.toLowerCase() === targetEmail));
+      if (idx !== -1) {
+        usersList[idx] = { ...usersList[idx], ...data };
+        writeData(USERS_FILE, usersList);
+        return updatedUser || usersList[idx];
+      } else if (existingUser) {
+        const mergedUser = { ...existingUser, ...data, id: where.id };
+        usersList.push(mergedUser);
+        writeData(USERS_FILE, usersList);
+        return updatedUser || mergedUser;
+      }
+
+      const fallbackUser: User = {
+        id: where.id,
+        name: data.name || "",
+        email: data.email || "",
+        phone: data.phone || "",
+        username: data.username || (data.email ? data.email.split("@")[0] : where.id),
+        role: (data.role || "customer") as any,
+        ordersCount: 0,
+        createdAt: new Date().toISOString().split("T")[0],
+        status: (data.status || "active") as any,
+        passwordHash: ""
+      };
+      usersList.push(fallbackUser);
       writeData(USERS_FILE, usersList);
-      return updatedUser || localUpdated;
+      return updatedUser || fallbackUser;
     },
 
     async delete({ where }: { where: { id: string } }): Promise<boolean> {
