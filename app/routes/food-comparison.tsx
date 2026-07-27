@@ -24,7 +24,7 @@ export default function FoodComparison() {
     "Lara: Adult Beef",
     "Snappy Tom: Adult Ocean fish with vegetables",
     "Josi Cat: Adult Poultry",
-    "Kari Cat: Adult Poultry"
+    "Bewi Cat: Adult Poultry"
   ];
 
   const criteria = [
