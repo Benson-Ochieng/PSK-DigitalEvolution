@@ -653,13 +653,14 @@ export const db = {
               }
             } catch (e) {}
 
+            const userRole = (row.role || "customer") as any;
             user = {
               id: `cust-${row.id}`,
               name: row.name || "",
               email: row.email || "",
               phone: row.phone || "",
               username: username,
-              role: "customer" as const,
+              role: userRole,
               ordersCount: ordersCount,
               createdAt: createdAtStr,
               status: (row.status || "active") as any,
@@ -712,7 +713,7 @@ export const db = {
               email: row.email || "",
               phone: row.phone || "",
               username: username,
-              role: "customer" as const,
+              role: (row.role || "customer") as any,
               ordersCount: 0,
               createdAt: createdAtStr,
               status: (row.status || "active") as any,
@@ -757,10 +758,7 @@ export const db = {
           const emailLower = c.email.toLowerCase();
           if (mergedMap.has(emailLower)) {
             const existing = mergedMap.get(emailLower)!;
-            // Only update/merge if existing user is also a customer
-            if (existing.role === "customer") {
-              mergedMap.set(emailLower, { ...existing, ...c });
-            }
+            mergedMap.set(emailLower, { ...c, ...existing, role: existing.role || c.role, status: existing.status || c.status });
           } else {
             mergedMap.set(emailLower, c);
           }
@@ -850,6 +848,13 @@ export const db = {
             } catch (e) {}
             updateFields.push(`status = $${placeholderIdx++}`);
             updateValues.push(data.status);
+          }
+          if (data.role !== undefined) {
+            try {
+              await pgQuery("ALTER TABLE customers ADD COLUMN IF NOT EXISTS role TEXT DEFAULT 'customer'");
+            } catch (e) {}
+            updateFields.push(`role = $${placeholderIdx++}`);
+            updateValues.push(data.role);
           }
 
           if (updateFields.length > 0) {

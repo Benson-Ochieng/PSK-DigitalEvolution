@@ -1,5 +1,5 @@
 import { useState, useMemo } from "react";
-import { Form, useActionData, useLoaderData, useNavigation, useSearchParams, Link, redirect } from "react-router";
+import { Form, useActionData, useLoaderData, useNavigation, useSearchParams, Link, redirect, useSubmit } from "react-router";
 import { db } from "~/lib/db.server";
 import type { User } from "~/lib/db.server";
 
@@ -169,6 +169,38 @@ export async function action({ request }: { request: Request }) {
     }
 
     await db.user.delete({ where: { id } });
+    return { success: true };
+  }
+
+  if (intent === "bulk_action") {
+    const actionType = formData.get("bulk_action")?.toString();
+    const userIdsStr = formData.get("user_ids")?.toString() || "";
+    const userIds = userIdsStr.split(",").filter(Boolean);
+    if (!actionType || userIds.length === 0) return { error: "No action or users selected." };
+
+    for (const id of userIds) {
+      if (id === "u-admin" || id === "admin") continue;
+      if (actionType === "suspend") {
+        await db.user.update({ where: { id }, data: { status: "suspended" } });
+      } else if (actionType === "activate") {
+        await db.user.update({ where: { id }, data: { status: "active" } });
+      } else if (actionType === "delete") {
+        await db.user.delete({ where: { id } });
+      }
+    }
+    return { success: true };
+  }
+
+  if (intent === "change_role") {
+    const role = formData.get("target_role")?.toString() as any;
+    const userIdsStr = formData.get("user_ids")?.toString() || "";
+    const userIds = userIdsStr.split(",").filter(Boolean);
+    if (!role || userIds.length === 0) return { error: "No role or users selected." };
+
+    for (const id of userIds) {
+      if (id === "u-admin" || id === "admin") continue;
+      await db.user.update({ where: { id }, data: { role } });
+    }
     return { success: true };
   }
 
@@ -350,6 +382,8 @@ export default function VpBackendUsers() {
     setSelectedUserIds([]);
   };
 
+  const submit = useSubmit();
+
   const handleApplyBulkAction = () => {
     if (selectedUserIds.length === 0) {
       alert("Please select at least one user first.");
@@ -359,6 +393,11 @@ export default function VpBackendUsers() {
       alert("Please select a bulk action.");
       return;
     }
+    const formData = new FormData();
+    formData.append("intent", "bulk_action");
+    formData.append("bulk_action", bulkAction);
+    formData.append("user_ids", selectedUserIds.join(","));
+    submit(formData, { method: "post" });
     setNotification(`Successfully executed bulk action "${bulkAction}" on ${selectedUserIds.length} users!`);
     setSelectedUserIds([]);
     setTimeout(() => setNotification(null), 4000);
@@ -373,6 +412,11 @@ export default function VpBackendUsers() {
       alert("Please select a target role.");
       return;
     }
+    const formData = new FormData();
+    formData.append("intent", "change_role");
+    formData.append("target_role", changeRoleTo);
+    formData.append("user_ids", selectedUserIds.join(","));
+    submit(formData, { method: "post" });
     setNotification(`Successfully changed role to "${changeRoleTo.replace('_', ' ')}" for ${selectedUserIds.length} users!`);
     setSelectedUserIds([]);
     setTimeout(() => setNotification(null), 4000);

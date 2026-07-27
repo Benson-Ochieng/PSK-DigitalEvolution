@@ -341,6 +341,13 @@ export const migrations: Migration[] = [
     up: `
       ALTER TABLE customers ADD COLUMN IF NOT EXISTS status TEXT DEFAULT 'active';
     `
+  },
+  {
+    id: 17,
+    name: 'add_role_to_customers',
+    up: `
+      ALTER TABLE customers ADD COLUMN IF NOT EXISTS role TEXT DEFAULT 'customer';
+    `
   }
 ];
 
