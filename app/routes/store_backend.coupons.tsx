@@ -498,6 +498,16 @@ export default function VpBackendCoupons() {
     return `KSh ${c.discountValue.toLocaleString("en-KE")} Off`;
   };
 
+  const formatExpiryDate = (dateStr: string) => {
+    if (!dateStr) return "";
+    const parts = dateStr.split("-");
+    if (parts.length === 3) {
+      const [year, month, day] = parts;
+      return `${day}/${month}/${year}`;
+    }
+    return dateStr;
+  };
+
   return (
     <div className="coupons-view">
       <style dangerouslySetInnerHTML={{ __html: `
@@ -1258,7 +1268,7 @@ export default function VpBackendCoupons() {
                       <td style={{ fontSize: "12px", color: isExpired ? "#ff4d62" : "rgba(255,255,255,0.7)" }}>
                         {coupon.expiryDate ? (
                           <span>
-                            {coupon.expiryDate}
+                            {formatExpiryDate(coupon.expiryDate)}
                             {isExpired && (
                               <span style={{ marginLeft: "6px", fontSize: "9px", background: "rgba(255, 77, 98, 0.15)", color: "#ff4d62", padding: "1px 3px", borderRadius: "3px", fontWeight: "bold" }}>
                                 Expired
