@@ -348,36 +348,7 @@ export async function loader({ request }: { request: Request }) {
     return sortDir === "asc" ? strA.localeCompare(strB) : strB.localeCompare(strA);
   });
 
-  // Handle CSV Download directly from server
-  if (isDownload) {
-    const headers = ["Name", "Username", "Last Active", "Date Registered", "Email", "Orders", "Total Spend", "AOV", "Country/Region", "City", "Region", "Postal Code"];
-    const rows = allCustomers.map(c => [
-      c.name,
-      c.username,
-      c.lastActive,
-      c.dateRegistered || "—",
-      c.email,
-      c.ordersCount,
-      c.totalSpend,
-      c.aov,
-      c.country || "—",
-      c.city || "—",
-      c.region || "—",
-      c.postalCode || "—"
-    ]);
 
-    const csvContent = [
-      headers.join(","),
-      ...rows.map(row => row.map(val => `"${String(val).replace(/"/g, '""')}"`).join(","))
-    ].join("\n");
-
-    return new Response(csvContent, {
-      headers: {
-        "Content-Type": "text/csv; charset=utf-8",
-        "Content-Disposition": `attachment; filename="customers_export_${new Date().toISOString().split("T")[0]}.csv"`
-      }
-    });
-  }
 
   const totalCustomersCount = allCustomers.length;
   const totalPages = Math.max(1, Math.ceil(totalCustomersCount / perPage));
@@ -474,8 +445,13 @@ export default function VpBackendCustomers() {
 
   const handleDownloadCSV = () => {
     const currentUrl = new URL(window.location.href);
-    currentUrl.searchParams.set("download", "csv");
-    window.location.href = currentUrl.toString();
+    const exportUrl = new URL("/api/export-customers", window.location.origin);
+    currentUrl.searchParams.forEach((val, key) => {
+      if (key !== "page" && key !== "perPage") {
+        exportUrl.searchParams.set(key, val);
+      }
+    });
+    window.location.href = exportUrl.toString();
   };
 
   return (
