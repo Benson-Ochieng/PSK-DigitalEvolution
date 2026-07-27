@@ -44,6 +44,7 @@ const routes = [
   route("why-us", "routes/why-us.tsx"),
   route("sustainability", "routes/sustainability.tsx"),
   route("about-us", "routes/about-us.tsx"),
+  route("about-petstore-kenya", "routes/about-us.tsx"),
   route("quality-management", "routes/quality-management.tsx"),
   route("terms-and-conditions", "routes/terms-and-conditions.tsx"),
   route("privacy-policy", "routes/privacy-policy.tsx"),

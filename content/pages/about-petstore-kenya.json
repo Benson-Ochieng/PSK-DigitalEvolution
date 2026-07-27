@@ -1,10 +1,10 @@
 {
   "id": 9,
   "title": "About Us",
-  "slug": "about-us",
+  "slug": "about-petstore-kenya",
   "status": "publish",
   "parent": 0,
-  "link": "https://petstore.co.ke/about-us/",
+  "link": "https://petstore.co.ke/about-petstore-kenya/",
   "date": "2026-06-23T13:00:00",
   "modified": "2026-07-27T12:00:00",
   "content": "<p style=\"margin-bottom: 1.5rem;\"><strong style=\"color: #1053a0;\">PetStore Kenya</strong> was born as a solution to a common problem to pet-friendly households in Kenya. We love our cats and dogs, but buying cat food and dog food can be an arduous chore. And too often your cat's or dog's favourite brand is out-of-stock at your local market or veterinarian.</p><p style=\"margin-bottom: 1.5rem;\"><strong style=\"color: #1053a0;\">Our Solution:</strong> premium quality pet food available through CONVENIENT <strong style=\"color: #1053a0;\">online shopping</strong> with <strong style=\"color: #1053a0;\">delivery to your door.</strong></p><p style=\"margin-bottom: 1.5rem;\">Our goal is to provide both a superior customer experience and tremendous value for our customers. Nothing less.</p><p style=\"margin-bottom: 1.5rem;\"><strong style=\"color: #1053a0;\">We I<span style="color: #e2401c;\">♥</span>ve our customers and their pets.</strong> We welcome your feedback and suggestions. Use our <a href=\"/contact-us\" style=\"color: #3b82f6; text-decoration: none;\">Contact Us</a> page to tell us what we're doing right or what we can improve on.</p><p style=\"margin-bottom: 1.5rem; color: #4a5568;\">‘Until one has loved an animal, a part of one's soul remains unawakened.’ ~Anatole France</p>",
@@ -13,7 +13,7 @@
   "seo": {
     "title": "About Us — PetStore Kenya",
     "description": "Learn about PetStore Kenya, our mission, values, and how we make pet food shopping convenient and affordable across Kenya.",
-    "canonical": "https://petstore.co.ke/about-us/",
+    "canonical": "https://petstore.co.ke/about-petstore-kenya/",
     "ogImage": null
   },
   "author": "Administrator"
