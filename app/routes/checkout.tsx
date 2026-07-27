@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import { query } from "../db.server";
 import { useCart } from "../context/cart";
 import PageHeader from "../components/PageHeader";
+import { InteractiveRecaptcha } from "../components/InteractiveRecaptcha";
 
 export const SHIPPING_ZONES: Record<string, Record<string, number>> = {
   "Select a City": {
@@ -463,12 +464,12 @@ export async function loader({ request }: { request: Request }) {
 
   const settingsPath = await import("path").then(p => p.default.join(process.cwd(), "content", "general-settings.json"));
   const fs = await import("fs").then(f => f.default);
-  let recaptchaSiteKey = "";
+  let recaptchaSiteKey = process.env.RECAPTCHA_SITE_KEY || "";
   let googleClientId = process.env.GOOGLE_CLIENT_ID || "YOUR_GOOGLE_CLIENT_ID_PLACEHOLDER";
   if (fs.existsSync(settingsPath)) {
     try {
       const parsed = JSON.parse(fs.readFileSync(settingsPath, "utf-8"));
-      recaptchaSiteKey = parsed.recaptchaSiteKey || "";
+      recaptchaSiteKey = parsed.recaptchaSiteKey || recaptchaSiteKey;
       if (parsed.googleClientId) {
         googleClientId = parsed.googleClientId;
       }
@@ -1502,7 +1503,7 @@ export default function CheckoutPage() {
                           <div id="recaptcha-checkout-login" style={{ marginTop: "0.25rem" }}></div>
                         ) : (
                           <div style={{ marginTop: "0.25rem" }}>
-                            <MockRecaptcha />
+                            <InteractiveRecaptcha name="mock_recaptcha" />
                           </div>
                         )}
                       </div>

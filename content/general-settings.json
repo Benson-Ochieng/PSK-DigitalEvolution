@@ -14,5 +14,7 @@
   "timeFormat": "g:i a",
   "timeFormatCustom": "",
   "weekStartsOn": "Monday",
-  "lastSyncTime": "2026-06-24T14:02:47.007Z"
+  "lastSyncTime": "2026-06-24T14:02:47.007Z",
+  "recaptchaSiteKey": "",
+  "recaptchaSecretKey": ""
 }

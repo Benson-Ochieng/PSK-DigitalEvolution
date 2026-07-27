@@ -7,6 +7,7 @@ import { query } from "../db.server";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import PageHeader from "../components/PageHeader";
+import { InteractiveRecaptcha } from "../components/InteractiveRecaptcha";
 import { SHIPPING_ZONES, CITIES } from "./checkout";
 
 export function meta() {
@@ -50,12 +51,12 @@ export async function loader({ request }: Route.LoaderArgs) {
   }
 
   const settingsPath = path.join(process.cwd(), "content", "general-settings.json");
-  let recaptchaSiteKey = "";
+  let recaptchaSiteKey = process.env.RECAPTCHA_SITE_KEY || "";
   let googleClientId = process.env.GOOGLE_CLIENT_ID || "YOUR_GOOGLE_CLIENT_ID_PLACEHOLDER";
   if (fs.existsSync(settingsPath)) {
     try {
       const parsed = JSON.parse(fs.readFileSync(settingsPath, "utf-8"));
-      recaptchaSiteKey = parsed.recaptchaSiteKey || "";
+      recaptchaSiteKey = parsed.recaptchaSiteKey || recaptchaSiteKey;
       if (parsed.googleClientId) {
         googleClientId = parsed.googleClientId;
       }
@@ -551,8 +552,8 @@ export default function MyAccount() {
     }
   }, [recaptchaSiteKey]);
 
-  // Fallback mock reCAPTCHA if no site key is configured
-  const renderMockRecaptcha = () => <MockRecaptcha />;
+  // Fallback interactive reCAPTCHA with visual challenge modal
+  const renderMockRecaptcha = () => <InteractiveRecaptcha />;
 
   // Address Picker state and logic
   interface CustomerAddress {
