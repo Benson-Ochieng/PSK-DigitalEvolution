@@ -316,6 +316,17 @@ export const migrations: Migration[] = [
       );
       CREATE INDEX IF NOT EXISTS idx_deleted_customers_email ON deleted_customers(email);
     `
+  },
+  {
+    id: 14,
+    name: 'sync_table_id_sequences',
+    up: `
+      SELECT setval(pg_get_serial_sequence('customers', 'id'), COALESCE((SELECT MAX(id) FROM customers), 1));
+      SELECT setval(pg_get_serial_sequence('orders', 'id'), COALESCE((SELECT MAX(id) FROM orders), 1));
+      SELECT setval(pg_get_serial_sequence('customer_addresses', 'id'), COALESCE((SELECT MAX(id) FROM customer_addresses), 1));
+      SELECT setval(pg_get_serial_sequence('products', 'id'), COALESCE((SELECT MAX(id) FROM products), 1));
+      SELECT setval(pg_get_serial_sequence('order_items', 'id'), COALESCE((SELECT MAX(id) FROM order_items), 1));
+    `
   }
 ];
 

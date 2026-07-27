@@ -69,21 +69,63 @@ export async function action({ request }: { request: Request }) {
 
     // --- DATABASE TRANSACTION ---
     const orderId = await withTransaction(async (client) => {
-      // 1. Upsert customer record (using phone as identifier)
-      if (customer_phone) {
-        await client.query(
-          `INSERT INTO customers (phone, email, name)
-           VALUES ($1, $2, $3)
-           ON CONFLICT (phone) 
-           DO UPDATE SET 
-             email = COALESCE(EXCLUDED.email, customers.email),
-             name = COALESCE(EXCLUDED.name, customers.name),
-             created_at = NOW()`,
-          [customer_phone.trim(), customer_email?.trim() || null, customer_name?.trim() || null]
-        );
+      // 1. Sync customers sequence and upsert customer record safely
+      if (customer_phone || customer_email) {
+        try {
+          await client.query(
+            "SELECT setval(pg_get_serial_sequence('customers', 'id'), COALESCE((SELECT MAX(id) FROM customers), 1))"
+          );
+        } catch (e) {}
+
+        const cleanPhone = customer_phone ? customer_phone.trim() : null;
+        const cleanEmail = customer_email ? customer_email.trim().toLowerCase() : null;
+        const cleanName = customer_name ? customer_name.trim() : null;
+
+        // Check if customer exists by phone or email
+        let existingRes = null;
+        if (cleanEmail && cleanPhone) {
+          existingRes = await client.query(
+            "SELECT id FROM customers WHERE LOWER(email) = $1 OR phone = $2 LIMIT 1",
+            [cleanEmail, cleanPhone]
+          );
+        } else if (cleanEmail) {
+          existingRes = await client.query(
+            "SELECT id FROM customers WHERE LOWER(email) = $1 LIMIT 1",
+            [cleanEmail]
+          );
+        } else if (cleanPhone) {
+          existingRes = await client.query(
+            "SELECT id FROM customers WHERE phone = $1 LIMIT 1",
+            [cleanPhone]
+          );
+        }
+
+        if (existingRes && existingRes.rows.length > 0) {
+          // Update existing customer profile
+          await client.query(
+            `UPDATE customers 
+             SET name = COALESCE($1, name),
+                 phone = COALESCE($2, phone),
+                 email = COALESCE($3, email)
+             WHERE id = $4`,
+            [cleanName, cleanPhone, cleanEmail, existingRes.rows[0].id]
+          );
+        } else {
+          // Insert new customer record
+          await client.query(
+            `INSERT INTO customers (phone, email, name) VALUES ($1, $2, $3)`,
+            [cleanPhone, cleanEmail, cleanName]
+          );
+        }
       }
 
-      // 2. Insert order
+      // 2. Sync orders sequence and insert order
+      try {
+        await client.query(
+          "SELECT setval(pg_get_serial_sequence('orders', 'id'), COALESCE((SELECT MAX(id) FROM orders), 1))"
+        );
+      } catch (e) {}
+
       const orderRes = await client.query(
         `INSERT INTO orders
           (customer_name, customer_phone, customer_email, delivery_area,

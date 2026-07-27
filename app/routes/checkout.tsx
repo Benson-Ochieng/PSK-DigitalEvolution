@@ -1325,7 +1325,14 @@ export default function CheckoutPage() {
         setSuccessOrderNumber(data.orderId);
         clearCart();
       } else {
-        setErrorMessage(data.error || "Failed to place order.");
+        let rawErr = (data.error || "").toString();
+        let userFriendlyError = rawErr || "Failed to place order. Please try again.";
+        if (rawErr.includes("violates unique constraint") || rawErr.includes("duplicate key") || rawErr.includes("customers_pkey")) {
+          userFriendlyError = "An account with these contact details already exists. Please check your information or try placing your order again.";
+        } else if (rawErr.includes("postgres") || rawErr.includes("database") || rawErr.includes("syntax error")) {
+          userFriendlyError = "An error occurred while processing your order. Please try again or contact customer support.";
+        }
+        setErrorMessage(userFriendlyError);
       }
     } catch (err) {
       setErrorMessage("Network error occurred. Please try again.");
