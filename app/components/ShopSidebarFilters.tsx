@@ -211,6 +211,12 @@ export default function ShopSidebarFilters({
   }
 
   // 2. STANDARD STOREFRONT LAYOUT (Pet Categories, Search, Tag, General)
+  const isHumanPage =
+    slug?.toLowerCase() === "human" ||
+    slug?.toLowerCase() === "humans" ||
+    activeSidebarSlug?.toLowerCase() === "human" ||
+    activeSidebarSlug?.toLowerCase() === "humans";
+
   return (
     <div className="sidebar-filters-wrapper" style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
       
@@ -248,10 +254,11 @@ export default function ShopSidebarFilters({
       )}
 
       {/* 2. Brand Filters */}
-      <div className="filter-section">
-        <h3 className="sidebar-title" style={{ marginBottom: "0.85rem", fontSize: "16px", letterSpacing: "0.05em", color: "var(--ink-dark)" }}>
-          FILTER BY BRAND
-        </h3>
+      {!isHumanPage && (
+        <div className="filter-section">
+          <h3 className="sidebar-title" style={{ marginBottom: "0.85rem", fontSize: "16px", letterSpacing: "0.05em", color: "var(--ink-dark)" }}>
+            FILTER BY BRAND
+          </h3>
         <ul className="sidebar-brands-list" style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.5rem" }}>
           <li>
             <Link 
@@ -292,6 +299,7 @@ export default function ShopSidebarFilters({
           })}
         </ul>
       </div>
+      )}
 
       {/* 3. Life-Stage Filters */}
       {lifeStages.length > 0 && (
