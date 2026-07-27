@@ -23,10 +23,35 @@ export async function action({ request }: { request: Request }) {
   const customerEmail = emailCookie ? decodeURIComponent(emailCookie.split("=")[1]) : "";
 
   if (customerEmail) {
+    const emailLower = customerEmail.trim().toLowerCase();
+
+    // Ensure deleted_customers table exists
+    await query(`
+      CREATE TABLE IF NOT EXISTS deleted_customers (
+        id SERIAL PRIMARY KEY,
+        email TEXT UNIQUE NOT NULL,
+        deleted_at TIMESTAMPTZ DEFAULT NOW()
+      )
+    `);
+
+    // Insert into deleted_customers
+    await query("INSERT INTO deleted_customers (email) VALUES ($1) ON CONFLICT (email) DO NOTHING", [emailLower]);
+
     // Delete addresses
-    await query("DELETE FROM customer_addresses WHERE customer_email = $1", [customerEmail]);
+    await query("DELETE FROM customer_addresses WHERE LOWER(customer_email) = $1", [emailLower]);
     // Delete customer
-    await query("DELETE FROM customers WHERE email = $1", [customerEmail]);
+    await query("DELETE FROM customers WHERE LOWER(email) = $1", [emailLower]);
+
+    // Delete user from db.user if present
+    try {
+      const { db } = await import("../lib/db.server");
+      const existingUser = await db.user.findUnique({ where: { email: emailLower } });
+      if (existingUser) {
+        await db.user.delete({ where: { id: existingUser.id } });
+      }
+    } catch (e) {
+      console.error("Failed to delete user from db.user:", e);
+    }
   }
 
   const headers = new Headers();

@@ -102,6 +102,22 @@ export async function action({ request }: Route.ActionArgs) {
     }
   }
 
+  // Check if account has been deleted
+  const targetEmail = formData.get("email")?.toString().trim().toLowerCase();
+  if (targetEmail) {
+    try {
+      const deletedCheck = await query("SELECT 1 FROM deleted_customers WHERE LOWER(email) = $1", [targetEmail]);
+      if (deletedCheck.rows.length > 0) {
+        return data(
+          { error: "This account has been deleted. If you believe this is an error or wish to restore your account, please contact customer support." },
+          { status: 400 }
+        );
+      }
+    } catch (e) {
+      // Table might not exist yet if no accounts deleted
+    }
+  }
+
   if (formType === "google_login") {
     const email = formData.get("email")?.toString().trim();
     const name = formData.get("name")?.toString().trim();

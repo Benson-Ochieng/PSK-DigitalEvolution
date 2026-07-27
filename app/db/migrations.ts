@@ -304,6 +304,18 @@ export const migrations: Migration[] = [
       WHERE (name ILIKE '%donate%' OR slug ILIKE '%donate%')
         AND id NOT IN (90033, 38507, 38506, 38505, 15291);
     `
+  },
+  {
+    id: 13,
+    name: 'create_deleted_customers_table',
+    up: `
+      CREATE TABLE IF NOT EXISTS deleted_customers (
+        id SERIAL PRIMARY KEY,
+        email TEXT UNIQUE NOT NULL,
+        deleted_at TIMESTAMPTZ DEFAULT NOW()
+      );
+      CREATE INDEX IF NOT EXISTS idx_deleted_customers_email ON deleted_customers(email);
+    `
   }
 ];
 
