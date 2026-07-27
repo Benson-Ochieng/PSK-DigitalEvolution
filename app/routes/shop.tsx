@@ -393,7 +393,17 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     conditions.push(`p.food_type = $${sqlParams.length}`);
   }
   if (isBulkFilter) {
-    conditions.push(`(p.weight_kg >= 10 OR LOWER(p.name) LIKE '%bundle%' OR LOWER(p.name) LIKE '%pack%')`);
+    conditions.push(`(
+      p.name ILIKE 'Pack Of%'
+      OR p.name ILIKE '%(Pack of%'
+      OR p.name ILIKE '%-Pack of%'
+      OR (p.tags IS NOT NULL AND jsonb_typeof(p.tags) = 'array' AND EXISTS (
+        SELECT 1 FROM jsonb_to_recordset(p.tags) AS t(slug text) WHERE t.slug = 'bulk'
+      ))
+      OR (p.categories IS NOT NULL AND jsonb_typeof(p.categories) = 'array' AND EXISTS (
+        SELECT 1 FROM jsonb_to_recordset(p.categories) AS c(slug text) WHERE c.slug = 'bulk'
+      ))
+    )`);
   } else if (isOffersFilter) {
     conditions.push(`(
       EXISTS (
