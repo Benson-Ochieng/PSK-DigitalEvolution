@@ -1,16 +1,23 @@
-import { useLoaderData } from "react-router";
+import { useLoaderData, redirect } from "react-router";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import PageHeader from "../components/PageHeader";
 import { getPage } from "../lib/content.server";
 
-export function loader() {
-  const page = getPage("retail-locations");
+export function loader({ request }: { request: Request }) {
+  const url = new URL(request.url);
+  const pathname = url.pathname.replace(/\/$/, "");
+
+  if (pathname === "/retail-locations") {
+    return redirect("/retail-locations-nairobi-nanyuki-naivasha-nakuru-mombasa/");
+  }
+
+  const page = getPage("retail-locations-nairobi-nanyuki-naivasha-nakuru-mombasa") || getPage("retail-locations");
   return { page };
 }
 
 export function meta({ data }: { data: any }) {
-  const title = data?.page?.seo?.title || "Retail Locations - PetStore Kenya";
+  const title = data?.page?.seo?.title || "Retail Locations – Nairobi, Nanyuki, Naivasha, Nakuru, Mombasa — PetStore Kenya";
   const description = data?.page?.seo?.description || "Available at Leading Retailers Nationwide. Find Your Pet's Favourite Food – Anywhere in Kenya.";
   return [
     { title },
@@ -36,7 +43,7 @@ export default function RetailLocations() {
       >
 
         {/* Title Banner */}
-        <PageHeader title={page?.title || "Retail Locations"} />
+        <PageHeader title={page?.title || "Retail Locations – Nairobi, Nanyuki, Naivasha, Nakuru, Mombasa"} />
 
         {/* Content Section */}
         <div

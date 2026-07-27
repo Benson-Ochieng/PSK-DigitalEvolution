@@ -243,7 +243,7 @@ const DRAWER_MENU_ITEMS = [
     name: "Locations",
     path: "/locations",
     subItems: [
-      { name: "Retail Locations", path: "/retail-locations-nairobi-nanyuki-naivasha-nakuru-mombasa" }
+      { name: "Retail Locations", path: "/retail-locations-nairobi-nanyuki-naivasha-nakuru-mombasa/" }
     ]
   },
   { name: "My Account", path: "/my-account" },
