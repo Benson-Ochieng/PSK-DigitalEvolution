@@ -86,6 +86,7 @@ export async function loader({ request }: Route.LoaderArgs) {
 }
 
 export async function action({ request }: Route.ActionArgs) {
+  const { db } = await import("../lib/db.server");
   const formData = await request.formData();
   const formType = formData.get("form_type")?.toString();
 
@@ -132,12 +133,35 @@ export async function action({ request }: Route.ActionArgs) {
           deleted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         );
       `);
-      const deletedCheck = await query("SELECT 1 FROM deleted_customers WHERE LOWER(email) = $1", [targetEmail]);
-      if (deletedCheck.rows.length > 0) {
-        return data(
-          { error: "This account has been deleted. If you believe this is an error or wish to restore your account, please contact customer support." },
-          { status: 400 }
-        );
+
+      // Verify if account exists in customers / db.user (e.g. recreated by admin)
+      let isAccountRecreated = false;
+      const activeCustomerCheck = await query(
+        "SELECT 1 FROM customers WHERE LOWER(email) = $1 AND (status IS NULL OR status != 'deleted')",
+        [targetEmail]
+      );
+      if (activeCustomerCheck.rows.length > 0) {
+        isAccountRecreated = true;
+      } else {
+        try {
+          const userObj = await db.user.findUnique({ where: { email: targetEmail } });
+          if (userObj && (userObj.status as string) !== "deleted" && userObj.status !== "suspended") {
+            isAccountRecreated = true;
+          }
+        } catch (e) {}
+      }
+
+      if (isAccountRecreated) {
+        // Clear stale deleted_customers entry if account has been recreated/restored
+        await query("DELETE FROM deleted_customers WHERE LOWER(email) = $1", [targetEmail]);
+      } else {
+        const deletedCheck = await query("SELECT 1 FROM deleted_customers WHERE LOWER(email) = $1", [targetEmail]);
+        if (deletedCheck.rows.length > 0) {
+          return data(
+            { error: "This account has been deleted. If you believe this is an error or wish to restore your account, please contact customer support." },
+            { status: 400 }
+          );
+        }
       }
     } catch (e) {}
   }

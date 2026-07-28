@@ -777,6 +777,12 @@ export const db = {
     },
 
     async create(data: Omit<User, 'id' | 'createdAt' | 'ordersCount'>): Promise<User> {
+      if (data.email) {
+        try {
+          await pgQuery("DELETE FROM deleted_customers WHERE LOWER(email) = $1", [data.email.toLowerCase()]);
+        } catch (e) {}
+      }
+
       if (data.role === "customer") {
         try {
           const res = await pgQuery(
