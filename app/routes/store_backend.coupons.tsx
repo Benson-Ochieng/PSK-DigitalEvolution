@@ -130,20 +130,51 @@ export async function action({ request }: { request: Request }) {
     return { success: true };
   }
 
+  if (intent === "reactivate_coupon") {
+    const code = formData.get("code")?.toString();
+    const expiryDate = formData.get("expiryDate")?.toString() || "";
+    if (!code) return null;
+
+    await db.coupon.update({
+      where: { code },
+      data: {
+        active: true,
+        status: "active",
+        expiryDate,
+      },
+    });
+
+    return { success: true };
+  }
+
   if (intent === "toggle_active") {
     const code = formData.get("code")?.toString();
     if (!code) return null;
     const coupon = await db.coupon.findUnique({ where: { code } });
     if (!coupon) return null;
 
-    const newActive = !coupon.active;
+    const today = new Date().toISOString().split('T')[0];
+    const isExpired = coupon.expiryDate ? today > coupon.expiryDate : false;
+
+    let newActive = !coupon.active;
+    if (isExpired) {
+      newActive = true;
+    }
     const newStatus = newActive ? "active" : "inactive";
+
+    let newExpiryDate = coupon.expiryDate;
+    if (isExpired && newActive) {
+      const nextMonth = new Date();
+      nextMonth.setDate(nextMonth.getDate() + 30);
+      newExpiryDate = nextMonth.toISOString().split('T')[0];
+    }
 
     await db.coupon.update({
       where: { code },
       data: {
         active: newActive,
-        status: newStatus
+        status: newStatus,
+        expiryDate: newExpiryDate
       },
     });
 
@@ -383,6 +414,10 @@ export default function VpBackendCoupons() {
   const [selectedProductBrands, setSelectedProductBrands] = useState<string[]>([]);
   const [selectedExcludeBrands, setSelectedExcludeBrands] = useState<string[]>([]);
 
+  // Reactivate expired coupon modal state
+  const [reactivateCoupon, setReactivateCoupon] = useState<Coupon | null>(null);
+  const [reactivateDate, setReactivateDate] = useState<string>("");
+
   // Handle successful save/edit (reset form state)
   useEffect(() => {
     if (actionData?.success) {
@@ -392,6 +427,7 @@ export default function VpBackendCoupons() {
 
   const resetForm = () => {
     setEditingCoupon(null);
+    setReactivateCoupon(null);
     setCode("");
     setDescription("");
     setDiscountType("percentage");
@@ -1301,16 +1337,31 @@ export default function VpBackendCoupons() {
                             Edit
                           </button>
 
-                          <Form method="post">
-                            <input type="hidden" name="intent" value="toggle_active" />
-                            <input type="hidden" name="code" value={coupon.code} />
+                          {isExpired ? (
                             <button
-                              type="submit"
-                              className={`btn-toggle-coupon ${coupon.active ? "deactivate" : "activate"}`}
+                              type="button"
+                              onClick={() => {
+                                setReactivateCoupon(coupon);
+                                const d = new Date();
+                                d.setDate(d.getDate() + 30);
+                                setReactivateDate(d.toISOString().split("T")[0]);
+                              }}
+                              className="btn-toggle-coupon activate"
                             >
-                              {coupon.active ? "Deactivate" : "Activate"}
+                              Reactivate
                             </button>
-                          </Form>
+                          ) : (
+                            <Form method="post">
+                              <input type="hidden" name="intent" value="toggle_active" />
+                              <input type="hidden" name="code" value={coupon.code} />
+                              <button
+                                type="submit"
+                                className={`btn-toggle-coupon ${coupon.active ? "deactivate" : "activate"}`}
+                              >
+                                {coupon.active ? "Deactivate" : "Activate"}
+                              </button>
+                            </Form>
+                          )}
 
                           <Form
                             method="post"
@@ -1336,6 +1387,165 @@ export default function VpBackendCoupons() {
           </div>
         </div>
       </div>
+
+      {/* Reactivate Coupon Expiry Date Selector Modal */}
+      {reactivateCoupon && (
+        <div
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            background: "rgba(0, 0, 0, 0.75)",
+            backdropFilter: "blur(6px)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            zIndex: 9999,
+            padding: "20px"
+          }}
+        >
+          <div
+            style={{
+              background: "#161b22",
+              border: "1px solid rgba(0, 204, 255, 0.3)",
+              borderRadius: "12px",
+              padding: "28px",
+              maxWidth: "480px",
+              width: "100%",
+              boxShadow: "0 10px 40px rgba(0,0,0,0.5)"
+            }}
+          >
+            <h3 style={{ margin: "0 0 8px 0", color: "#fff", fontSize: "18px", fontWeight: "600" }}>
+              Reactivate Coupon: <span style={{ color: "#00ccff" }}>{reactivateCoupon.code}</span>
+            </h3>
+            <p style={{ margin: "0 0 20px 0", color: "rgba(255,255,255,0.6)", fontSize: "13px" }}>
+              Select the validity period or pick a custom expiry date to reactivate this promotion.
+            </p>
+
+            {/* Extend by custom number of days */}
+            <div style={{ marginBottom: "16px" }}>
+              <label style={{ display: "block", fontSize: "12px", color: "rgba(255,255,255,0.7)", marginBottom: "6px", fontWeight: "600" }}>
+                Extend by Days (e.g. 1 day, 2 days, 10 days...):
+              </label>
+              <input
+                className="admin-input"
+                type="number"
+                min="1"
+                placeholder="Type number of days (e.g. 1, 2, 10...)"
+                style={{ width: "100%", padding: "8px 12px", borderRadius: "6px" }}
+                onChange={(e) => {
+                  const val = Number(e.target.value);
+                  if (val > 0) {
+                    const d = new Date();
+                    d.setDate(d.getDate() + val);
+                    setReactivateDate(d.toISOString().split("T")[0]);
+                  }
+                }}
+              />
+            </div>
+
+            {/* Quick Duration Presets */}
+            <div style={{ marginBottom: "20px" }}>
+              <label style={{ display: "block", fontSize: "12px", color: "rgba(255,255,255,0.7)", marginBottom: "8px", fontWeight: "600" }}>
+                Quick Presets:
+              </label>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
+                {[
+                  { label: "+1 Day", days: 1 },
+                  { label: "+2 Days", days: 2 },
+                  { label: "+7 Days", days: 7 },
+                  { label: "+14 Days", days: 14 },
+                  { label: "+30 Days", days: 30 },
+                  { label: "No Expiry", days: 0 }
+                ].map((preset) => (
+                  <button
+                    key={preset.label}
+                    type="button"
+                    onClick={() => {
+                      if (preset.days === 0) {
+                        setReactivateDate("");
+                      } else {
+                        const d = new Date();
+                        d.setDate(d.getDate() + preset.days);
+                        setReactivateDate(d.toISOString().split("T")[0]);
+                      }
+                    }}
+                    style={{
+                      background: "rgba(255,255,255,0.06)",
+                      border: "1px solid rgba(255,255,255,0.15)",
+                      color: "#fff",
+                      padding: "6px 12px",
+                      borderRadius: "6px",
+                      fontSize: "12px",
+                      cursor: "pointer"
+                    }}
+                  >
+                    {preset.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Custom Expiry Date Input */}
+            <Form method="post" onSubmit={() => setReactivateCoupon(null)}>
+              <input type="hidden" name="intent" value="reactivate_coupon" />
+              <input type="hidden" name="code" value={reactivateCoupon.code} />
+
+              <div style={{ marginBottom: "24px" }}>
+                <label style={{ display: "block", fontSize: "12px", color: "rgba(255,255,255,0.7)", marginBottom: "8px", fontWeight: "600" }}>
+                  New Expiry Date (or select on calendar):
+                </label>
+                <input
+                  className="admin-input"
+                  type="date"
+                  name="expiryDate"
+                  style={{ colorScheme: "dark", width: "100%", padding: "10px", borderRadius: "6px" }}
+                  value={reactivateDate}
+                  onChange={(e) => setReactivateDate(e.target.value)}
+                />
+                <div style={{ fontSize: "11px", color: "rgba(255,255,255,0.4)", marginTop: "4px" }}>
+                  {reactivateDate ? `Coupon will be active until ${reactivateDate}` : "Coupon will have no expiration date (unlimited use)"}
+                </div>
+              </div>
+
+              <div style={{ display: "flex", gap: "12px", justifyContent: "flex-end" }}>
+                <button
+                  type="button"
+                  onClick={() => setReactivateCoupon(null)}
+                  style={{
+                    background: "rgba(255,255,255,0.05)",
+                    border: "1px solid rgba(255,255,255,0.1)",
+                    color: "#ccc",
+                    padding: "8px 16px",
+                    borderRadius: "6px",
+                    cursor: "pointer",
+                    fontSize: "13px"
+                  }}
+                >
+                  Cancel
+                </button>
+                <button
+                  type="submit"
+                  style={{
+                    background: "#2ed573",
+                    border: "none",
+                    color: "#000",
+                    fontWeight: "600",
+                    padding: "8px 20px",
+                    borderRadius: "6px",
+                    cursor: "pointer",
+                    fontSize: "13px"
+                  }}
+                >
+                  Reactivate Coupon
+                </button>
+              </div>
+            </Form>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
