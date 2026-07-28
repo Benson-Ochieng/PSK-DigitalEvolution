@@ -2,9 +2,11 @@ import React from "react";
 
 interface PageHeaderProps {
   title: string;
+  marginBottom?: string | number;
+  style?: React.CSSProperties;
 }
 
-export default function PageHeader({ title }: PageHeaderProps) {
+export default function PageHeader({ title, marginBottom = "2.5rem", style }: PageHeaderProps) {
   return (
     <div
       style={{
@@ -19,11 +21,12 @@ export default function PageHeader({ title }: PageHeaderProps) {
         alignItems: "center",
         justifyContent: "center",
         gap: "1.2rem",
-        marginBottom: "2.5rem",
+        marginBottom: marginBottom,
         borderBottom: "3px solid #f7c276",
         width: "100%",
         position: "relative",
-        overflow: "hidden"
+        overflow: "hidden",
+        ...style
       }}
     >
       {/* Torn paper top edge overlay */}

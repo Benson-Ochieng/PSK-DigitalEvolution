@@ -4,6 +4,7 @@ import { query } from "../db.server";
 import { useCart } from "../context/cart";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import PageHeader from "../components/PageHeader";
 import { DoublePawIcon } from "../components/CategoryIcon";
 import { BlurImage } from "../components/BlurImage";
 
@@ -150,36 +151,11 @@ export default function FlashSale() {
   return (
     <>
       <Navbar />
-      <div className="page" style={{ paddingTop: "2.5rem" }}>
-        <div className="shop-layout" style={{ flexDirection: "column" }}>
+      <div className="page" style={{ paddingTop: "1.5rem", minHeight: "calc(100vh - 450px)" }}>
+        <div className="shop-layout" style={{ flexDirection: "column", maxWidth: "1140px", margin: "0 auto", width: "100%" }}>
           
           {/* Header Banner */}
-          <div style={{
-            background: "#fdf8e2",
-            borderTop: "1px solid #fbeed5",
-            borderBottom: "1px solid #fbeed5",
-            padding: "1rem",
-            textAlign: "center",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            gap: "0.6rem",
-            borderRadius: "4px",
-            marginBottom: "2rem"
-          }}>
-            <span style={{ color: "#f59e0b", fontSize: "1.2rem" }}>🐾</span>
-            <h1 style={{
-              fontFamily: "var(--font-sans)",
-              fontSize: "1.5rem",
-              fontWeight: 800,
-              color: "#1E5DA7",
-              margin: 0,
-              letterSpacing: "0.05em"
-            }}>
-              FLASH SALE
-            </h1>
-            <span style={{ color: "#f59e0b", fontSize: "1.2rem" }}>🐾</span>
-          </div>
+          <PageHeader title="FLASH SALE" marginBottom="1rem" />
 
           {products.length === 0 ? (
             /* Empty UI State matching screenshot */
@@ -188,25 +164,28 @@ export default function FlashSale() {
               flexDirection: "column",
               alignItems: "center",
               textAlign: "center",
-              padding: "4rem 1rem",
+              padding: "0.5rem 1rem 2rem 1rem",
               fontFamily: "var(--font-sans)"
             }}>
               <div style={{
-                fontSize: "1.8rem",
+                fontSize: "1.85rem",
                 fontWeight: 700,
-                color: "#1a1a1a",
-                marginBottom: "1rem",
+                color: "#000000",
+                marginBottom: "0.75rem",
                 display: "flex",
                 alignItems: "center",
-                gap: "0.5rem"
+                justifyContent: "center",
+                gap: "0.4rem"
               }}>
-                <span style={{ color: "#ea580c" }}>⚡</span> No flash sale at the moment
+                <span style={{ fontSize: "1.75rem", lineHeight: 1 }}>⚡</span>
+                <span>No flash sale at the moment</span>
               </div>
               <p style={{
-                fontSize: "0.95rem",
-                color: "#64748b",
-                maxWidth: "750px",
-                lineHeight: 1.6,
+                fontSize: "1.05rem",
+                fontWeight: 600,
+                color: "#1a1a1a",
+                maxWidth: "850px",
+                lineHeight: 1.5,
                 margin: 0
               }}>
                 There's no flash sale on right now, but when it returns, you won't want to miss it! Our flash sales offer up to a 50% discount and they go fast.
