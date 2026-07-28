@@ -5,84 +5,148 @@ interface InteractiveRecaptchaProps {
   onVerify?: (token: string) => void;
 }
 
-const CHALLENGES = [
+interface Challenge {
+  target: string;
+  instruction: string;
+  images: { url: string; isMatch: boolean }[];
+}
+
+const CHALLENGE_POOL: Challenge[] = [
   {
     target: "motorcycles",
     instruction: "Select all squares with motorcycles",
     images: [
-      "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1558980664-769d59546b3d?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1558980664-769d59546b3d?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1558980664-769d59546b3d?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=150&q=80"
+      { url: "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=150&q=80", isMatch: true },
+      { url: "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=150&q=80", isMatch: true },
+      { url: "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=150&q=80", isMatch: true },
+      { url: "https://images.unsplash.com/photo-1558980664-769d59546b3d?auto=format&fit=crop&w=150&q=80", isMatch: true },
+      { url: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=150&q=80", isMatch: false },
+      { url: "https://images.unsplash.com/photo-1508873696983-2df515122519?auto=format&fit=crop&w=150&q=80", isMatch: false },
+      { url: "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=150&q=80", isMatch: false },
+      { url: "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=150&q=80", isMatch: false },
+      { url: "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=150&q=80", isMatch: true },
+      { url: "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=150&q=80", isMatch: false },
+      { url: "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=150&q=80", isMatch: true },
+      { url: "https://images.unsplash.com/photo-1471478331149-c72f17e33c73?auto=format&fit=crop&w=150&q=80", isMatch: false },
+      { url: "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=150&q=80", isMatch: true },
+      { url: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=150&q=80", isMatch: false },
+      { url: "https://images.unsplash.com/photo-1558980664-769d59546b3d?auto=format&fit=crop&w=150&q=80", isMatch: true },
+      { url: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=150&q=80", isMatch: false }
     ]
   },
   {
     target: "traffic lights",
     instruction: "Select all squares with traffic lights",
     images: [
-      "https://images.unsplash.com/photo-1508873696983-2df515122519?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1508873696983-2df515122519?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1508873696983-2df515122519?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1508873696983-2df515122519?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1508873696983-2df515122519?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1508873696983-2df515122519?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1508873696983-2df515122519?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1508873696983-2df515122519?auto=format&fit=crop&w=150&q=80",
-      "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=150&q=80"
+      { url: "https://images.unsplash.com/photo-1508873696983-2df515122519?auto=format&fit=crop&w=150&q=80", isMatch: true },
+      { url: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=150&q=80", isMatch: false },
+      { url: "https://images.unsplash.com/photo-1508873696983-2df515122519?auto=format&fit=crop&w=150&q=80", isMatch: true },
+      { url: "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=150&q=80", isMatch: false },
+      { url: "https://images.unsplash.com/photo-1508873696983-2df515122519?auto=format&fit=crop&w=150&q=80", isMatch: true },
+      { url: "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=150&q=80", isMatch: false },
+      { url: "https://images.unsplash.com/photo-1508873696983-2df515122519?auto=format&fit=crop&w=150&q=80", isMatch: true },
+      { url: "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=150&q=80", isMatch: false },
+      { url: "https://images.unsplash.com/photo-1508873696983-2df515122519?auto=format&fit=crop&w=150&q=80", isMatch: true },
+      { url: "https://images.unsplash.com/photo-1471478331149-c72f17e33c73?auto=format&fit=crop&w=150&q=80", isMatch: false },
+      { url: "https://images.unsplash.com/photo-1508873696983-2df515122519?auto=format&fit=crop&w=150&q=80", isMatch: true },
+      { url: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=150&q=80", isMatch: false },
+      { url: "https://images.unsplash.com/photo-1508873696983-2df515122519?auto=format&fit=crop&w=150&q=80", isMatch: true },
+      { url: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=150&q=80", isMatch: false },
+      { url: "https://images.unsplash.com/photo-1508873696983-2df515122519?auto=format&fit=crop&w=150&q=80", isMatch: true },
+      { url: "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=150&q=80", isMatch: false }
+    ]
+  },
+  {
+    target: "bicycles",
+    instruction: "Select all squares with bicycles",
+    images: [
+      { url: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=150&q=80", isMatch: true },
+      { url: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=150&q=80", isMatch: false },
+      { url: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=150&q=80", isMatch: true },
+      { url: "https://images.unsplash.com/photo-1508873696983-2df515122519?auto=format&fit=crop&w=150&q=80", isMatch: false },
+      { url: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=150&q=80", isMatch: true },
+      { url: "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=150&q=80", isMatch: false },
+      { url: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=150&q=80", isMatch: true },
+      { url: "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=150&q=80", isMatch: false },
+      { url: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=150&q=80", isMatch: true },
+      { url: "https://images.unsplash.com/photo-1471478331149-c72f17e33c73?auto=format&fit=crop&w=150&q=80", isMatch: false },
+      { url: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=150&q=80", isMatch: true },
+      { url: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=150&q=80", isMatch: false },
+      { url: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=150&q=80", isMatch: true },
+      { url: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=150&q=80", isMatch: false },
+      { url: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=150&q=80", isMatch: true },
+      { url: "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=150&q=80", isMatch: false }
     ]
   }
 ];
+
+function getRandomChallenge(): { challenge: Challenge; shuffledTiles: { url: string; isMatch: boolean; origIdx: number }[] } {
+  const cIdx = Math.floor(Math.random() * CHALLENGE_POOL.length);
+  const challenge = CHALLENGE_POOL[cIdx];
+  const shuffledTiles = challenge.images.map((tile, origIdx) => ({ ...tile, origIdx }));
+  // Deterministic-looking shuffle based on Math.random
+  for (let i = shuffledTiles.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffledTiles[i], shuffledTiles[j]] = [shuffledTiles[j], shuffledTiles[i]];
+  }
+  return { challenge, shuffledTiles };
+}
 
 export function InteractiveRecaptcha({ name = "mock_recaptcha", onVerify }: InteractiveRecaptchaProps) {
   const [verified, setVerified] = useState(false);
   const [loading, setLoading] = useState(false);
   const [showModal, setShowModal] = useState(false);
-  const [challengeIdx, setChallengeIdx] = useState(0);
+  const [{ challenge, shuffledTiles }, setChallengeState] = useState(getRandomChallenge);
   const [selectedSquares, setSelectedSquares] = useState<Record<number, boolean>>({});
-
-  const challenge = CHALLENGES[challengeIdx];
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
   const handleCheckboxClick = () => {
     if (verified) return;
     setLoading(true);
+    setErrorMessage(null);
     setTimeout(() => {
       setLoading(false);
       setShowModal(true);
     }, 400);
   };
 
-  const toggleSquare = (idx: number) => {
-    setSelectedSquares(prev => ({ ...prev, [idx]: !prev[idx] }));
+  const toggleSquare = (tileIdx: number) => {
+    setErrorMessage(null);
+    setSelectedSquares(prev => ({ ...prev, [tileIdx]: !prev[tileIdx] }));
   };
 
   const handleVerify = () => {
-    setShowModal(false);
-    setVerified(true);
-    if (onVerify) onVerify("verified_token");
+    // Validate exact tile matches
+    const requiredMatchIndices = shuffledTiles
+      .map((tile, idx) => (tile.isMatch ? idx : -1))
+      .filter(idx => idx !== -1);
+
+    const userSelectedIndices = Object.entries(selectedSquares)
+      .filter(([_, isSelected]) => isSelected)
+      .map(([idxStr]) => parseInt(idxStr, 10));
+
+    const allMatchesSelected = requiredMatchIndices.every(idx => userSelectedIndices.includes(idx));
+    const noExtraSelected = userSelectedIndices.every(idx => requiredMatchIndices.includes(idx));
+
+    if (allMatchesSelected && noExtraSelected && userSelectedIndices.length > 0) {
+      setShowModal(false);
+      setVerified(true);
+      setErrorMessage(null);
+      if (onVerify) onVerify("verified_token");
+    } else {
+      setErrorMessage("Please try again: Select ALL matching tiles accurately.");
+      // Auto refresh to a new randomized challenge upon failure
+      setTimeout(() => {
+        setChallengeState(getRandomChallenge());
+        setSelectedSquares({});
+      }, 1000);
+    }
   };
 
   const handleRefresh = () => {
-    setChallengeIdx(prev => (prev + 1) % CHALLENGES.length);
+    setChallengeState(getRandomChallenge());
     setSelectedSquares({});
+    setErrorMessage(null);
   };
 
   const selectedCount = Object.values(selectedSquares).filter(Boolean).length;
@@ -198,6 +262,19 @@ export function InteractiveRecaptcha({ name = "mock_recaptcha", onVerify }: Inte
             </div>
           </div>
 
+          {errorMessage && (
+            <div style={{
+              background: "#d93025",
+              color: "#ffffff",
+              fontSize: "12px",
+              padding: "6px 12px",
+              textAlign: "center",
+              fontWeight: 500
+            }}>
+              {errorMessage}
+            </div>
+          )}
+
           {/* 4x4 Grid of Tiles */}
           <div style={{
             display: "grid",
@@ -206,7 +283,7 @@ export function InteractiveRecaptcha({ name = "mock_recaptcha", onVerify }: Inte
             padding: "8px",
             background: "#ffffff"
           }}>
-            {challenge.images.map((imgUrl, idx) => {
+            {shuffledTiles.map((tile, idx) => {
               const isSelected = !!selectedSquares[idx];
               return (
                 <div
@@ -222,7 +299,7 @@ export function InteractiveRecaptcha({ name = "mock_recaptcha", onVerify }: Inte
                   }}
                 >
                   <img
-                    src={imgUrl}
+                    src={tile.url}
                     alt="challenge tile"
                     style={{
                       width: "100%",
