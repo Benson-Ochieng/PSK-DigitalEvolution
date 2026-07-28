@@ -641,7 +641,7 @@ export const db = {
 
           if (res && res.rows && res.rows.length > 0) {
             const row = res.rows[0];
-            const username = row.email ? row.email.split("@")[0] : `customer-${row.id}`;
+            const username = row.username || (row.email ? row.email.split("@")[0] : `customer-${row.id}`);
             const createdAtStr = row.created_at ? new Date(row.created_at).toISOString().split('T')[0] : new Date().toISOString().split('T')[0];
             
             // Get ordersCount
@@ -705,7 +705,7 @@ export const db = {
         const res = await pgQuery("SELECT * FROM customers");
         if (res && res.rows) {
           pgCustomers = res.rows.map((row: any) => {
-            const username = row.email ? row.email.split("@")[0] : `customer-${row.id}`;
+            const username = row.username || (row.email ? row.email.split("@")[0] : `customer-${row.id}`);
             const createdAtStr = row.created_at ? new Date(row.created_at).toISOString().split('T')[0] : new Date().toISOString().split('T')[0];
             return {
               id: `cust-${row.id}`,
@@ -785,12 +785,15 @@ export const db = {
 
       if (data.role === "customer") {
         try {
+          try {
+            await pgQuery("ALTER TABLE customers ADD COLUMN IF NOT EXISTS username TEXT");
+          } catch (e) {}
+          const username = data.username || (data.email ? data.email.split("@")[0] : "");
           const res = await pgQuery(
-            "INSERT INTO customers (name, email, phone) VALUES ($1, $2, $3) RETURNING id, created_at",
-            [data.name, data.email, data.phone || null]
+            "INSERT INTO customers (name, email, phone, username) VALUES ($1, $2, $3, $4) RETURNING id, created_at",
+            [data.name, data.email, data.phone || null, username]
           );
           const row = res.rows[0];
-          const username = data.email ? data.email.split("@")[0] : `customer-${row.id}`;
           const createdAtStr = row.created_at ? new Date(row.created_at).toISOString().split('T')[0] : new Date().toISOString().split('T')[0];
           return {
             ...data,
@@ -829,102 +832,64 @@ export const db = {
     },
 
     async update({ where, data }: { where: { id: string }, data: Partial<User> }): Promise<User> {
+      const existingUser = await this.findUnique({ where });
+      const oldEmail = existingUser?.email?.toLowerCase() || "";
+      const newEmail = (data.email || existingUser?.email || "").toLowerCase();
+
+      try {
+        await pgQuery("ALTER TABLE customers ADD COLUMN IF NOT EXISTS username TEXT");
+        await pgQuery("ALTER TABLE customers ADD COLUMN IF NOT EXISTS status TEXT DEFAULT 'active'");
+        await pgQuery("ALTER TABLE customers ADD COLUMN IF NOT EXISTS role TEXT DEFAULT 'customer'");
+      } catch (e) {}
+
+      const pgFields: string[] = [];
+      const pgValues: any[] = [];
+      let pIdx = 1;
+
+      if (data.name !== undefined) { pgFields.push(`name = $${pIdx++}`); pgValues.push(data.name); }
+      if (data.email !== undefined) { pgFields.push(`email = $${pIdx++}`); pgValues.push(data.email); }
+      if (data.username !== undefined) { pgFields.push(`username = $${pIdx++}`); pgValues.push(data.username); }
+      if (data.phone !== undefined) { pgFields.push(`phone = $${pIdx++}`); pgValues.push(data.phone || null); }
+      if (data.status !== undefined) { pgFields.push(`status = $${pIdx++}`); pgValues.push(data.status); }
+      if (data.role !== undefined) { pgFields.push(`role = $${pIdx++}`); pgValues.push(data.role); }
+
       if (where.id.startsWith("cust-")) {
         const numericId = parseInt(where.id.replace("cust-", ""), 10);
-        if (!isNaN(numericId)) {
-          const updateFields: string[] = [];
-          const updateValues: any[] = [];
-          let placeholderIdx = 1;
-
-          if (data.name !== undefined) {
-            updateFields.push(`name = $${placeholderIdx++}`);
-            updateValues.push(data.name);
-          }
-          if (data.email !== undefined) {
-            updateFields.push(`email = $${placeholderIdx++}`);
-            updateValues.push(data.email);
-          }
-          if (data.phone !== undefined) {
-            updateFields.push(`phone = $${placeholderIdx++}`);
-            updateValues.push(data.phone || null);
-          }
-          if (data.status !== undefined) {
-            try {
-              await pgQuery("ALTER TABLE customers ADD COLUMN IF NOT EXISTS status TEXT DEFAULT 'active'");
-            } catch (e) {}
-            updateFields.push(`status = $${placeholderIdx++}`);
-            updateValues.push(data.status);
-          }
-          if (data.role !== undefined) {
-            try {
-              await pgQuery("ALTER TABLE customers ADD COLUMN IF NOT EXISTS role TEXT DEFAULT 'customer'");
-            } catch (e) {}
-            updateFields.push(`role = $${placeholderIdx++}`);
-            updateValues.push(data.role);
-          }
-
-          if (updateFields.length > 0) {
-            updateValues.push(numericId);
-            await pgQuery(
-              `UPDATE customers SET ${updateFields.join(", ")} WHERE id = $${placeholderIdx}`,
-              updateValues
-            );
-          }
-
-          try {
-            const usersList = readData<User[]>(USERS_FILE, initialUsers);
-            const targetEmail = data.email;
-            const existingCust = await this.findUnique({ where: { id: where.id } });
-            const emailToMatch = (targetEmail || existingCust?.email || "").toLowerCase();
-            const idx = usersList.findIndex(u => u.id === where.id || (u.email && u.email.toLowerCase() === emailToMatch));
-            if (idx !== -1) {
-              usersList[idx] = { ...usersList[idx], ...data };
-              writeData(USERS_FILE, usersList);
-            } else if (existingCust) {
-              usersList.push({ ...existingCust, ...data });
-              writeData(USERS_FILE, usersList);
-            }
-          } catch (e) {}
-
-          const updated = await this.findUnique({ where: { id: where.id } });
-          if (!updated) throw new Error("Customer not found after update");
-          return updated;
+        if (!isNaN(numericId) && pgFields.length > 0) {
+          const valuesWithId = [...pgValues, numericId];
+          await pgQuery(`UPDATE customers SET ${pgFields.join(", ")} WHERE id = $${pIdx}`, valuesWithId);
+        }
+      } else if (oldEmail || newEmail) {
+        if (pgFields.length > 0) {
+          const matchEmail = oldEmail || newEmail;
+          const valuesWithEmail = [...pgValues, matchEmail];
+          await pgQuery(`UPDATE customers SET ${pgFields.join(", ")} WHERE LOWER(email) = $${pIdx}`, valuesWithEmail);
         }
       }
 
+      if (oldEmail && newEmail && oldEmail !== newEmail) {
+        try {
+          await pgQuery("UPDATE orders SET customer_email = $1 WHERE LOWER(customer_email) = $2", [newEmail, oldEmail]);
+        } catch (e) {}
+      }
+
       let updatedUser: User | null = null;
-      if (supabase) {
+      if (supabase && !where.id.startsWith("cust-")) {
         try {
           const { data: updated, error } = await supabase.from("users").update(data).eq("id", where.id).select().single();
-          if (error) throw error;
-          updatedUser = updated as User;
+          if (!error && updated) updatedUser = updated as User;
         } catch (err) {
           console.error("Supabase user update failed, falling back to local storage:", err);
         }
       }
 
-      const existingUser = await this.findUnique({ where });
-      const targetEmail = (existingUser?.email || data.email || "").toLowerCase();
-
-      if (targetEmail) {
-        try {
-          const updateFields: string[] = [];
-          const updateValues: any[] = [];
-          let placeholderIdx = 1;
-          if (data.name !== undefined) { updateFields.push(`name = $${placeholderIdx++}`); updateValues.push(data.name); }
-          if (data.email !== undefined) { updateFields.push(`email = $${placeholderIdx++}`); updateValues.push(data.email); }
-          if (data.phone !== undefined) { updateFields.push(`phone = $${placeholderIdx++}`); updateValues.push(data.phone || null); }
-          if (data.status !== undefined) { updateFields.push(`status = $${placeholderIdx++}`); updateValues.push(data.status); }
-          if (data.role !== undefined) { updateFields.push(`role = $${placeholderIdx++}`); updateValues.push(data.role); }
-          if (updateFields.length > 0) {
-            updateValues.push(targetEmail);
-            await pgQuery(`UPDATE customers SET ${updateFields.join(", ")} WHERE LOWER(email) = $${placeholderIdx}`, updateValues);
-          }
-        } catch (e) {}
-      }
-
       const usersList = readData<User[]>(USERS_FILE, initialUsers);
-      let idx = usersList.findIndex(u => u.id === where.id || (targetEmail && u.email && u.email.toLowerCase() === targetEmail));
+      const idx = usersList.findIndex(u =>
+        u.id === where.id ||
+        (oldEmail && u.email && u.email.toLowerCase() === oldEmail) ||
+        (newEmail && u.email && u.email.toLowerCase() === newEmail)
+      );
+
       if (idx !== -1) {
         usersList[idx] = { ...usersList[idx], ...data };
         writeData(USERS_FILE, usersList);

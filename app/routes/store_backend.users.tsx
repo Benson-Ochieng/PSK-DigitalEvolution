@@ -100,7 +100,12 @@ export async function action({ request }: { request: Request }) {
     const currentUsername = currentEditingUser?.username?.toLowerCase() || "";
 
     const duplicateEmail = existingUsers.find(
-      (u) => u.email.toLowerCase() === email.toLowerCase() && u.id !== id && u.email.toLowerCase() !== currentEmail
+      (u) =>
+        u.email.toLowerCase() === email.toLowerCase() &&
+        u.id !== id &&
+        u.email.toLowerCase() !== currentEmail &&
+        u.id.replace("cust-", "") !== id.replace("u-", "") &&
+        u.id.replace("u-", "") !== id.replace("cust-", "")
     );
     if (duplicateEmail) {
       if (duplicateEmail.role !== "customer" || role === "customer") {
@@ -108,7 +113,12 @@ export async function action({ request }: { request: Request }) {
       }
     }
     const duplicateUsername = existingUsers.find(
-      (u) => u.username.toLowerCase() === username.toLowerCase() && u.id !== id && u.username.toLowerCase() !== currentUsername
+      (u) =>
+        u.username.toLowerCase() === username.toLowerCase() &&
+        u.id !== id &&
+        u.username.toLowerCase() !== currentUsername &&
+        u.id.replace("cust-", "") !== id.replace("u-", "") &&
+        u.id.replace("u-", "") !== id.replace("cust-", "")
     );
     if (duplicateUsername) {
       if (duplicateUsername.role !== "customer" || role === "customer") {
