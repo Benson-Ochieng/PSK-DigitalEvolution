@@ -1156,7 +1156,6 @@ export default function MyAccount() {
                         type="checkbox"
                         id="newsletter"
                         name="newsletter"
-                        defaultChecked
                         style={{ width: "16px", height: "16px", cursor: "pointer" }}
                       />
                       <label htmlFor="newsletter" style={{ fontSize: "0.85rem", color: "#1a1a1a", cursor: "pointer", userSelect: "none" }}>
