@@ -123,9 +123,9 @@ export async function action({ request }: Route.ActionArgs) {
     }
   }
 
-  // Check if account has been deleted
+  // Check if account has been deleted (only block login, allow re-registration)
   const targetEmail = formData.get("email")?.toString().trim().toLowerCase();
-  if (targetEmail && formType !== "update_account") {
+  if (targetEmail && formType === "login") {
     try {
       await query(`
         CREATE TABLE IF NOT EXISTS deleted_customers (
@@ -354,8 +354,12 @@ export async function action({ request }: Route.ActionArgs) {
 
     const name = `${firstName} ${lastName}`;
 
+    try {
+      await query("DELETE FROM deleted_customers WHERE LOWER(email) = $1", [email.toLowerCase()]);
+    } catch (e) {}
+
     await query(
-      "INSERT INTO customers (name, email) VALUES ($1, $2) ON CONFLICT (email) DO UPDATE SET name = EXCLUDED.name",
+      "INSERT INTO customers (name, email, status) VALUES ($1, $2, 'active') ON CONFLICT (email) DO UPDATE SET name = EXCLUDED.name, status = 'active'",
       [name, email]
     );
 
