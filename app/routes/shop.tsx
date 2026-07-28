@@ -627,6 +627,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     isSearch: !!urlSearch,
     activeSidebarSlug: categorySlug ? getActiveSidebarSlug(categorySlug) : "",
     sidebarCategories,
+    categories,
     isBrandPage,
     brandCategories,
     fromCat,
@@ -852,6 +853,7 @@ export default function Shop() {
     isSearch,
     activeSidebarSlug,
     sidebarCategories,
+    categories,
     isBrandPage,
     brandCategories,
     fromCat,
@@ -1015,6 +1017,7 @@ export default function Shop() {
                 isSearch={isSearch}
                 activeSidebarSlug={activeSidebarSlug}
                 sidebarCategories={sidebarCategories}
+                categories={categories}
                 isBrandPage={isBrandPage}
                 brandCategories={brandCategories}
                 fromCat={fromCat}

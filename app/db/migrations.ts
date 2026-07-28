@@ -358,6 +358,30 @@ export const migrations: Migration[] = [
         deleted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
       );
     `
+  },
+  {
+    id: 19,
+    name: 'create_categories_and_product_categories_tables',
+    up: `
+      CREATE TABLE IF NOT EXISTS categories (
+        id          SERIAL PRIMARY KEY,
+        parent_id   INTEGER REFERENCES categories(id) ON DELETE CASCADE,
+        name        TEXT NOT NULL,
+        slug        TEXT NOT NULL UNIQUE,
+        sort_order  INTEGER NOT NULL DEFAULT 0,
+        created_at  TIMESTAMPTZ NOT NULL DEFAULT now()
+      );
+
+      CREATE INDEX IF NOT EXISTS idx_categories_parent_id ON categories(parent_id);
+
+      CREATE TABLE IF NOT EXISTS product_categories (
+        product_id  INTEGER NOT NULL REFERENCES products(id) ON DELETE CASCADE,
+        category_id INTEGER NOT NULL REFERENCES categories(id) ON DELETE CASCADE,
+        PRIMARY KEY (product_id, category_id)
+      );
+
+      CREATE INDEX IF NOT EXISTS idx_product_categories_category_id ON product_categories(category_id);
+    `
   }
 ];
 

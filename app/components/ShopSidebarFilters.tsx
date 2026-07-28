@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router";
 import { ANIMAL_CATEGORIES } from "../routes/shop";
+import { type CategoryRow } from "../lib/categories";
 
 interface ShopSidebarFiltersProps {
   slug: string;
@@ -11,6 +12,7 @@ interface ShopSidebarFiltersProps {
   isSearch: boolean;
   activeSidebarSlug: string;
   sidebarCategories?: { label: string; slug: string }[];
+  categories?: CategoryRow[];
   isBrandPage?: boolean;
   brandCategories?: { name: string; slug: string; count: number }[];
   fromCat?: string;
@@ -32,6 +34,7 @@ export default function ShopSidebarFilters({
   isSearch,
   activeSidebarSlug,
   sidebarCategories,
+  categories,
   isBrandPage,
   brandCategories,
   fromCat,
@@ -42,30 +45,13 @@ export default function ShopSidebarFilters({
 }: ShopSidebarFiltersProps) {
   const location = useLocation();
 
-  const isFoodOrSpecificFilter = 
-    slug.includes("food") || 
-    slug.includes("treat") || 
-    slug === "dog-food" || 
-    slug === "cat-food";
-
-  // Display general category lists on main pet pages but hide them on grandchild food/treat pages
-  const showCategoriesList = animal && !isFoodOrSpecificFilter;
-
-  // Life-stage options based on animal context (Puppy/Junior/Adult/Senior for Dog, Kitten/Adult/Senior for Cat)
   const getLifeStageOptions = () => {
     if (animal === "dog") {
       return [
         { label: "Puppy", slug: "puppy" },
         { label: "Junior", slug: "junior" },
         { label: "Adult", slug: "adult" },
-        { label: "Senior", slug: "senior" }
-      ];
-    }
-    if (animal === "cat") {
-      return [
-        { label: "Kitten", slug: "kitten" },
-        { label: "Adult", slug: "adult" },
-        { label: "Senior", slug: "senior" }
+        { label: "Senior", slug: "senior" },
       ];
     }
     return [];
@@ -73,7 +59,6 @@ export default function ShopSidebarFilters({
 
   const lifeStages = getLifeStageOptions();
 
-  // URL Helper to toggle life stage tag parameter
   const getLifeStageHref = (stageSlug: string) => {
     const p = new URLSearchParams(location.search);
     if (lifeStage === stageSlug) {
@@ -85,7 +70,6 @@ export default function ShopSidebarFilters({
     return `${location.pathname}${p.toString() ? "?" + p.toString() : ""}`;
   };
 
-  // URL Helper to toggle brand page category filter
   const getBrandCategoryHref = (categorySlug: string) => {
     const p = new URLSearchParams(location.search);
     if (fromCat === categorySlug) {
@@ -97,23 +81,6 @@ export default function ShopSidebarFilters({
     return `${location.pathname}${p.toString() ? "?" + p.toString() : ""}`;
   };
 
-  // URL Helper to reset all filters
-  const getClearAllHref = () => {
-    if (isBrandPage) {
-      if (slug) {
-        return `/product-category/${slug}/`;
-      } else {
-        const p = new URLSearchParams(location.search);
-        p.delete("from_cat");
-        p.delete("life_stage");
-        p.delete("page");
-        return `${location.pathname}${p.toString() ? "?" + p.toString() : ""}`;
-      }
-    }
-    return `/product-category/${slug || "dog-supplies-store"}/`;
-  };
-
-  // URL Helper to toggle offers sort filter
   const getSortOffersHref = (sortVal: string) => {
     const p = new URLSearchParams(location.search);
     p.set("sort", sortVal);
@@ -121,31 +88,94 @@ export default function ShopSidebarFilters({
     return `${location.pathname}${p.toString() ? "?" + p.toString() : ""}`;
   };
 
-  const hasActiveFilters = brand || lifeStage || isSearch || fromCat;
+  const normSlug = slug ? slug.toLowerCase().replace(/\/$/, "") : "";
+  const activeSlug = normSlug || activeSidebarSlug;
 
-  // Use dynamically loaded and sorted categories when available, otherwise fall back to static
-  const displayCategories = sidebarCategories || (animal ? ANIMAL_CATEGORIES[animal] : []);
+  // Resolve matching category filter list for the current page category
+  let filterCategoriesList: { label: string; slug: string }[] = [];
 
-  // 0. OFFERS PAGE LAYOUT: Show only "SORT OFFERS"
+  if (categories && categories.length > 0) {
+    const normActiveSlug = activeSlug.toLowerCase().replace(/\/$/, "");
+    const currentCatNode = categories.find(
+      (c) => c.slug.toLowerCase() === normActiveSlug
+    );
+
+    if (currentCatNode) {
+      // 1. If current category has child subcategories, render direct children
+      const childRows = categories.filter((c) => c.parent === currentCatNode.id);
+      if (childRows.length > 0) {
+        childRows.sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
+        filterCategoriesList = childRows.map((c) => ({ label: c.name, slug: c.slug }));
+      } else if (currentCatNode.parent && currentCatNode.parent !== 0) {
+        // 2. If current category is a leaf node, render its sibling subcategories under parent
+        const siblingRows = categories.filter((c) => c.parent === currentCatNode.parent);
+        siblingRows.sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
+        filterCategoriesList = siblingRows.map((c) => ({ label: c.name, slug: c.slug }));
+      }
+    }
+
+    // 3. Fallback to animal level-1 categories if top-level animal page
+    if (filterCategoriesList.length === 0 && animal) {
+      const animalRootSlug =
+        animal === "cat"
+          ? "cat-supplies-store"
+          : animal === "dog"
+          ? "dog-supplies-store"
+          : `${animal}-supplies-store`;
+      const animalParent = categories.find((c) => c.slug === animalRootSlug);
+      if (animalParent) {
+        const topChildren = categories.filter((c) => c.parent === animalParent.id);
+        topChildren.sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
+        filterCategoriesList = topChildren.map((c) => ({ label: c.name, slug: c.slug }));
+      }
+    }
+  }
+
+  if (filterCategoriesList.length === 0) {
+    filterCategoriesList = sidebarCategories || (animal ? ANIMAL_CATEGORIES[animal] : []);
+  }
+
+  // Life stage filter appears ONLY under Dog > Dog Food & Treats category
+  const isDogFoodCategory =
+    animal === "dog" &&
+    (activeSlug.includes("dog-food") ||
+      activeSlug.includes("dog-treat") ||
+      activeSlug.includes("puppy") ||
+      activeSlug === "dog-food-treats" ||
+      activeSidebarSlug.includes("dog-food") ||
+      activeSidebarSlug.includes("dog-treat"));
+
+  const showLifeStageFilter = isDogFoodCategory && lifeStages.length > 0;
+
+  // 0. OFFERS PAGE LAYOUT
   if (isOfferPage) {
     const currentSort = sort || "availability";
     return (
       <div className="sidebar-filters-wrapper" style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
         <div className="filter-section">
-          <h3 className="sidebar-title" style={{ marginBottom: "0.85rem", fontSize: "16px", letterSpacing: "0.05em", color: "var(--ink-dark)" }}>
+          <h3
+            className="sidebar-title"
+            style={{ marginBottom: "0.85rem", fontSize: "16px", letterSpacing: "0.05em", color: "var(--ink-dark)" }}
+          >
             SORT OFFERS
           </h3>
-          <ul className="sidebar-brands-list" style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+          <ul
+            className="sidebar-brands-list"
+            style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.5rem" }}
+          >
             <li>
               <Link
                 to={getSortOffersHref("expiry-desc")}
                 style={{
                   fontSize: "15px",
                   textDecoration: "none",
-                  color: currentSort === "expiry-desc" || currentSort === "expiry_desc" ? "var(--brand-primary, #1053a0)" : "var(--ink-medium, #475569)",
+                  color:
+                    currentSort === "expiry-desc" || currentSort === "expiry_desc"
+                      ? "var(--brand-primary, #1053a0)"
+                      : "var(--ink-medium, #475569)",
                   fontWeight: currentSort === "expiry-desc" || currentSort === "expiry_desc" ? "600" : "400",
                   display: "block",
-                  padding: "2px 0"
+                  padding: "2px 0",
                 }}
               >
                 Expiry: New to Old
@@ -157,10 +187,13 @@ export default function ShopSidebarFilters({
                 style={{
                   fontSize: "15px",
                   textDecoration: "none",
-                  color: currentSort === "expiry-asc" || currentSort === "expiry_asc" ? "var(--brand-primary, #1053a0)" : "var(--ink-medium, #475569)",
+                  color:
+                    currentSort === "expiry-asc" || currentSort === "expiry_asc"
+                      ? "var(--brand-primary, #1053a0)"
+                      : "var(--ink-medium, #475569)",
                   fontWeight: currentSort === "expiry-asc" || currentSort === "expiry_asc" ? "600" : "400",
                   display: "block",
-                  padding: "2px 0"
+                  padding: "2px 0",
                 }}
               >
                 Expiry: Old to New
@@ -172,45 +205,50 @@ export default function ShopSidebarFilters({
     );
   }
 
-  // 1. BRAND PAGE LAYOUT: Show only "FILTER BY CATEGORY" with counts
+  // 1. BRAND PAGE LAYOUT
   if (isBrandPage) {
     return (
       <div className="sidebar-filters-wrapper" style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
         <div className="filter-section">
-          <h3 className="sidebar-title" style={{ marginBottom: "0.85rem", fontSize: "16px", letterSpacing: "0.05em", color: "var(--ink-dark)" }}>
+          <h3
+            className="sidebar-title"
+            style={{ marginBottom: "0.85rem", fontSize: "16px", letterSpacing: "0.05em", color: "var(--ink-dark)" }}
+          >
             FILTER BY CATEGORY
           </h3>
-          <ul className="sidebar-brands-list" style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-            {brandCategories && brandCategories.map(c => {
-              const isActive = fromCat === c.slug;
-              return (
-                <li key={c.slug}>
-                  <Link
-                    to={getBrandCategoryHref(c.slug)}
-                    className={isActive ? "active-brand" : ""}
-                    style={{
-                      fontSize: "15px",
-                      textDecoration: "none",
-                      color: isActive ? "var(--brand-primary, #1053a0)" : "var(--ink-medium, #475569)",
-                      fontWeight: isActive ? "600" : "400",
-                      display: "block",
-                      padding: "2px 0"
-                    }}
-                  >
-                    {c.name} ({c.count})
-                  </Link>
-                </li>
-              );
-            })}
+          <ul
+            className="sidebar-brands-list"
+            style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.5rem" }}
+          >
+            {brandCategories &&
+              brandCategories.map((c) => {
+                const isActive = fromCat === c.slug;
+                return (
+                  <li key={c.slug}>
+                    <Link
+                      to={getBrandCategoryHref(c.slug)}
+                      className={isActive ? "active-brand" : ""}
+                      style={{
+                        fontSize: "15px",
+                        textDecoration: "none",
+                        color: isActive ? "var(--brand-primary, #1053a0)" : "var(--ink-medium, #475569)",
+                        fontWeight: isActive ? "600" : "400",
+                        display: "block",
+                        padding: "2px 0",
+                      }}
+                    >
+                      {c.name} ({c.count})
+                    </Link>
+                  </li>
+                );
+              })}
           </ul>
         </div>
-
-
       </div>
     );
   }
 
-  // 2. STANDARD STOREFRONT LAYOUT (Pet Categories, Search, Tag, General)
+  // 2. STANDARD STOREFRONT LAYOUT
   const isHumanPage =
     slug?.toLowerCase() === "human" ||
     slug?.toLowerCase() === "humans" ||
@@ -219,16 +257,27 @@ export default function ShopSidebarFilters({
 
   return (
     <div className="sidebar-filters-wrapper" style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
-      
-      {/* 1. Category Tree / Pet Category list */}
-      {showCategoriesList && displayCategories.length > 0 && (
+      {/* 1. Categories Section */}
+      {filterCategoriesList.length > 0 && (
         <div className="filter-section">
-          <h3 className="sidebar-title" style={{ marginBottom: "0.85rem", fontSize: "16px", letterSpacing: "0.05em", color: "var(--ink-dark)" }}>
+          <h3
+            className="sidebar-title"
+            style={{
+              marginBottom: "1.2rem",
+              fontSize: "14px",
+              fontWeight: "600",
+              letterSpacing: "0.08em",
+              color: "#475569",
+              textTransform: "uppercase",
+            }}
+          >
             CATEGORIES
           </h3>
-          <ul className="sidebar-brands-list" style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-            {displayCategories.map(c => {
-              const normSlug = slug ? slug.toLowerCase().replace(/\/$/, "") : "";
+          <ul
+            className="sidebar-brands-list"
+            style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.85rem" }}
+          >
+            {filterCategoriesList.map((c) => {
               const isActive = normSlug === c.slug || activeSidebarSlug === c.slug;
               return (
                 <li key={c.slug}>
@@ -238,10 +287,11 @@ export default function ShopSidebarFilters({
                     style={{
                       fontSize: "15px",
                       textDecoration: "none",
-                      color: isActive ? "var(--brand-primary, #1053a0)" : "var(--ink-medium, #475569)",
+                      color: isActive ? "var(--brand-primary, #1053a0)" : "#64748b",
                       fontWeight: isActive ? "600" : "400",
                       display: "block",
-                      padding: "2px 0"
+                      padding: "1px 0",
+                      transition: "color 0.15s ease",
                     }}
                   >
                     {c.label}
@@ -253,66 +303,24 @@ export default function ShopSidebarFilters({
         </div>
       )}
 
-      {/* 2. Brand Filters */}
-      {!isHumanPage && (
+      {/* 2. Life-Stage Filter (ONLY under Dog > Dog Food & Treats) */}
+      {showLifeStageFilter && (
         <div className="filter-section">
-          <h3 className="sidebar-title" style={{ marginBottom: "0.85rem", fontSize: "16px", letterSpacing: "0.05em", color: "var(--ink-dark)" }}>
-            FILTER BY BRAND
-          </h3>
-        <ul className="sidebar-brands-list" style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-          <li>
-            <Link 
-              to={buildCategoryHref("")} 
-              className={!brand ? "active-brand" : ""}
-              style={{
-                fontSize: "15px",
-                textDecoration: "none",
-                color: !brand ? "var(--brand-primary, #1053a0)" : "var(--ink-medium, #475569)",
-                fontWeight: !brand ? "600" : "400",
-                display: "block",
-                padding: "2px 0"
-              }}
-            >
-              All Brands
-            </Link>
-          </li>
-          {SIDEBAR_BRANDS.map(b => {
-            const isActive = brand.toLowerCase() === b.toLowerCase();
-            return (
-              <li key={b}>
-                <Link 
-                  to={buildCategoryHref(b)} 
-                  className={isActive ? "active-brand" : ""}
-                  style={{
-                    fontSize: "15px",
-                    textDecoration: "none",
-                    color: isActive ? "var(--brand-primary, #1053a0)" : "var(--ink-medium, #475569)",
-                    fontWeight: isActive ? "600" : "400",
-                    display: "block",
-                    padding: "2px 0"
-                  }}
-                >
-                  {b}
-                </Link>
-              </li>
-            );
-          })}
-        </ul>
-      </div>
-      )}
-
-      {/* 3. Life-Stage Filters */}
-      {lifeStages.length > 0 && (
-        <div className="filter-section">
-          <h3 className="sidebar-title" style={{ marginBottom: "0.85rem", fontSize: "16px", letterSpacing: "0.05em", color: "var(--ink-dark)" }}>
+          <h3
+            className="sidebar-title"
+            style={{ marginBottom: "0.85rem", fontSize: "16px", letterSpacing: "0.05em", color: "var(--ink-dark)" }}
+          >
             LIFE STAGE
           </h3>
-          <ul className="sidebar-brands-list" style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-            {lifeStages.map(stage => {
+          <ul
+            className="sidebar-brands-list"
+            style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.5rem" }}
+          >
+            {lifeStages.map((stage) => {
               const isActive = lifeStage === stage.slug;
               return (
                 <li key={stage.slug}>
-                  <Link 
+                  <Link
                     to={getLifeStageHref(stage.slug)}
                     className={isActive ? "active-brand" : ""}
                     style={{
@@ -321,7 +329,7 @@ export default function ShopSidebarFilters({
                       color: isActive ? "var(--brand-primary, #1053a0)" : "var(--ink-medium, #475569)",
                       fontWeight: isActive ? "600" : "400",
                       display: "block",
-                      padding: "2px 0"
+                      padding: "2px 0",
                     }}
                   >
                     {stage.label}
@@ -333,7 +341,59 @@ export default function ShopSidebarFilters({
         </div>
       )}
 
-
+      {/* 3. Filter By Brand (LAST step in the filter nest) */}
+      {!isHumanPage && (
+        <div className="filter-section">
+          <h3
+            className="sidebar-title"
+            style={{ marginBottom: "0.85rem", fontSize: "16px", letterSpacing: "0.05em", color: "var(--ink-dark)" }}
+          >
+            FILTER BY BRAND
+          </h3>
+          <ul
+            className="sidebar-brands-list"
+            style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.5rem" }}
+          >
+            <li>
+              <Link
+                to={buildCategoryHref("")}
+                className={!brand ? "active-brand" : ""}
+                style={{
+                  fontSize: "15px",
+                  textDecoration: "none",
+                  color: !brand ? "var(--brand-primary, #1053a0)" : "var(--ink-medium, #475569)",
+                  fontWeight: !brand ? "600" : "400",
+                  display: "block",
+                  padding: "2px 0",
+                }}
+              >
+                All Brands
+              </Link>
+            </li>
+            {SIDEBAR_BRANDS.map((b) => {
+              const isActive = brand.toLowerCase() === b.toLowerCase();
+              return (
+                <li key={b}>
+                  <Link
+                    to={buildCategoryHref(b)}
+                    className={isActive ? "active-brand" : ""}
+                    style={{
+                      fontSize: "15px",
+                      textDecoration: "none",
+                      color: isActive ? "var(--brand-primary, #1053a0)" : "var(--ink-medium, #475569)",
+                      fontWeight: isActive ? "600" : "400",
+                      display: "block",
+                      padding: "2px 0",
+                    }}
+                  >
+                    {b}
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      )}
     </div>
   );
 }
