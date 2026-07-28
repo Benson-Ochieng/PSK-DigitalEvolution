@@ -38,7 +38,7 @@ export async function loader({ request }: Route.LoaderArgs) {
   const nameCookie = cookieHeader.split("; ").find(row => row.startsWith("customer_name="));
   const emailCookie = cookieHeader.split("; ").find(row => row.startsWith("customer_email="));
 
-  const customerName = nameCookie ? decodeURIComponent(nameCookie.split("=")[1]) : "";
+  let customerName = nameCookie ? decodeURIComponent(nameCookie.split("=")[1]) : "";
   const customerEmail = emailCookie ? decodeURIComponent(emailCookie.split("=")[1]) : "";
 
   let orders: any[] = [];
@@ -62,8 +62,11 @@ export async function loader({ request }: Route.LoaderArgs) {
     orders = res.rows;
 
     try {
-      const custRes = await query(`SELECT kra_pin FROM customers WHERE email = $1 LIMIT 1`, [customerEmail]);
+      const custRes = await query(`SELECT name, kra_pin FROM customers WHERE LOWER(email) = $1 LIMIT 1`, [customerEmail.toLowerCase()]);
       if (custRes.rows.length > 0) {
+        if (custRes.rows[0].name) {
+          customerName = custRes.rows[0].name;
+        }
         kraPin = custRes.rows[0].kra_pin || "";
       }
     } catch (e) {}
@@ -196,26 +199,22 @@ export async function action({ request }: Route.ActionArgs) {
     try {
       try {
         await query("ALTER TABLE customers ADD COLUMN IF NOT EXISTS kra_pin TEXT");
+        await query("ALTER TABLE customers ADD COLUMN IF NOT EXISTS username TEXT");
       } catch (e) {}
 
-      if (currentEmail) {
-        await query(
-          "UPDATE customers SET name = $1, email = $2, kra_pin = $3 WHERE email = $4",
-          [nameToSave, email, kraPin || null, currentEmail]
-        );
-      } else {
-        await query(
-          "INSERT INTO customers (name, email, kra_pin) VALUES ($1, $2, $3) ON CONFLICT (email) DO UPDATE SET name = EXCLUDED.name, kra_pin = EXCLUDED.kra_pin",
-          [nameToSave, email, kraPin || null]
-        );
-      }
+      const targetLookupEmail = (currentEmail || email).toLowerCase();
+
+      await query(
+        "UPDATE customers SET name = $1, username = $2, email = $3, kra_pin = $4 WHERE LOWER(email) = $5",
+        [nameToSave, displayName, email, kraPin || null, targetLookupEmail]
+      );
 
       // Update db.user if present
       try {
         const { db } = await import("../lib/db.server");
-        const user = await db.user.findUnique({ where: { email: currentEmail || email } });
+        const user = await db.user.findUnique({ where: { email: targetLookupEmail } });
         if (user) {
-          const updateData: any = { name: nameToSave, email: email };
+          const updateData: any = { name: nameToSave, username: displayName, email: email };
           if (newPassword) {
             updateData.password = newPassword;
           }
