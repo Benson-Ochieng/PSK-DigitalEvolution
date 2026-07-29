@@ -382,8 +382,46 @@ export const migrations: Migration[] = [
 
       CREATE INDEX IF NOT EXISTS idx_product_categories_category_id ON product_categories(category_id);
     `
+  },
+  {
+    id: 20,
+    name: 'create_brands_table_and_brand_id',
+    up: `
+      CREATE TABLE IF NOT EXISTS brands (
+        id          SERIAL PRIMARY KEY,
+        name        TEXT NOT NULL,
+        slug        TEXT NOT NULL UNIQUE,
+        created_at  TIMESTAMPTZ NOT NULL DEFAULT now()
+      );
+
+      CREATE INDEX IF NOT EXISTS idx_brands_slug ON brands(slug);
+
+      ALTER TABLE products ADD COLUMN IF NOT EXISTS brand_id INTEGER REFERENCES brands(id) ON DELETE SET NULL;
+      CREATE INDEX IF NOT EXISTS idx_products_brand_id ON products(brand_id);
+
+      -- Populate brands from existing distinct product brand string values
+      INSERT INTO brands (name, slug)
+      SELECT DISTINCT
+        TRIM(brand) AS name,
+        LOWER(REGEXP_REPLACE(REGEXP_REPLACE(TRIM(brand), '[^a-zA-Z0-9\\s-]', '', 'g'), '\\s+', '-', 'g')) AS slug
+      FROM products
+      WHERE brand IS NOT NULL AND TRIM(brand) != ''
+      ON CONFLICT (slug) DO NOTHING;
+
+      -- Link products.brand_id to brands.id
+      UPDATE products p
+      SET brand_id = b.id
+      FROM brands b
+      WHERE p.brand IS NOT NULL
+        AND p.brand_id IS NULL
+        AND (
+          LOWER(TRIM(p.brand)) = LOWER(b.name)
+          OR LOWER(REGEXP_REPLACE(REGEXP_REPLACE(TRIM(p.brand), '[^a-zA-Z0-9\\s-]', '', 'g'), '\\s+', '-', 'g')) = b.slug
+        );
+    `
   }
 ];
+
 
 
 

@@ -11,6 +11,11 @@ interface ShopSidebarFiltersProps {
   isTag: boolean;
   isSearch: boolean;
   activeSidebarSlug: string;
+  sidebarData?: {
+    mode: "categories" | "brands";
+    heading: string;
+    items: { name: string; slug: string }[];
+  };
   sidebarCategories?: { label: string; slug: string }[];
   categories?: CategoryRow[];
   isBrandPage?: boolean;
@@ -24,6 +29,7 @@ interface ShopSidebarFiltersProps {
 
 const SIDEBAR_BRANDS = ["Bonnie", "King", "Montego", "Proline", "Reflex", "Royal Canin", "Spectrum", "Trendline"];
 
+
 export default function ShopSidebarFilters({
   slug,
   animal,
@@ -33,6 +39,7 @@ export default function ShopSidebarFilters({
   isTag,
   isSearch,
   activeSidebarSlug,
+  sidebarData,
   sidebarCategories,
   categories,
   isBrandPage,
@@ -257,8 +264,8 @@ export default function ShopSidebarFilters({
 
   return (
     <div className="sidebar-filters-wrapper" style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
-      {/* 1. Categories Section */}
-      {filterCategoriesList.length > 0 && (
+      {/* Dynamic Server-driven Sidebar Widget (CATEGORIES or FILTER BY BRAND) */}
+      {sidebarData && sidebarData.items && sidebarData.items.length > 0 ? (
         <div className="filter-section">
           <h3
             className="sidebar-title"
@@ -271,36 +278,88 @@ export default function ShopSidebarFilters({
               textTransform: "uppercase",
             }}
           >
-            CATEGORIES
+            {sidebarData.heading}
           </h3>
           <ul
             className="sidebar-brands-list"
             style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.85rem" }}
           >
-            {filterCategoriesList.map((c) => {
-              const isActive = normSlug === c.slug || activeSidebarSlug === c.slug;
+            {sidebarData.items.map((item) => {
+              const itemSlug = item.slug.toLowerCase().replace(/\/$/, "");
+              const isItemActive = normSlug === itemSlug || activeSidebarSlug === itemSlug;
+              const linkHref =
+                sidebarData.mode === "brands"
+                  ? `/product-category/${item.slug}/?from_cat=${normSlug || activeSidebarSlug}`
+                  : `/product-category/${item.slug}/`;
+
               return (
-                <li key={c.slug}>
+                <li key={item.slug}>
                   <Link
-                    to={`/product-category/${c.slug}/`}
-                    className={isActive ? "active-brand" : ""}
+                    to={linkHref}
+                    className={isItemActive ? "active-brand" : ""}
                     style={{
                       fontSize: "15px",
                       textDecoration: "none",
-                      color: isActive ? "var(--brand-primary, #1053a0)" : "#64748b",
-                      fontWeight: isActive ? "600" : "400",
+                      color: isItemActive ? "var(--brand-primary, #1053a0)" : "#64748b",
+                      fontWeight: isItemActive ? "600" : "400",
                       display: "block",
                       padding: "1px 0",
                       transition: "color 0.15s ease",
                     }}
                   >
-                    {c.label}
+                    {item.name}
                   </Link>
                 </li>
               );
             })}
           </ul>
         </div>
+      ) : (
+        /* Legacy / Fallback Categories Section */
+        filterCategoriesList.length > 0 && (
+          <div className="filter-section">
+            <h3
+              className="sidebar-title"
+              style={{
+                marginBottom: "1.2rem",
+                fontSize: "14px",
+                fontWeight: "600",
+                letterSpacing: "0.08em",
+                color: "#475569",
+                textTransform: "uppercase",
+              }}
+            >
+              CATEGORIES
+            </h3>
+            <ul
+              className="sidebar-brands-list"
+              style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.85rem" }}
+            >
+              {filterCategoriesList.map((c) => {
+                const isActive = normSlug === c.slug || activeSidebarSlug === c.slug;
+                return (
+                  <li key={c.slug}>
+                    <Link
+                      to={`/product-category/${c.slug}/`}
+                      className={isActive ? "active-brand" : ""}
+                      style={{
+                        fontSize: "15px",
+                        textDecoration: "none",
+                        color: isActive ? "var(--brand-primary, #1053a0)" : "#64748b",
+                        fontWeight: isActive ? "600" : "400",
+                        display: "block",
+                        padding: "1px 0",
+                        transition: "color 0.15s ease",
+                      }}
+                    >
+                      {c.label}
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        )
       )}
 
       {/* 2. Life-Stage Filter (ONLY under Dog > Dog Food & Treats) */}
@@ -341,8 +400,8 @@ export default function ShopSidebarFilters({
         </div>
       )}
 
-      {/* 3. Filter By Brand (LAST step in the filter nest) */}
-      {!isHumanPage && (
+      {/* 3. Filter By Brand Fallback (only rendered if sidebarData is not provided) */}
+      {!sidebarData && !isHumanPage && (
         <div className="filter-section">
           <h3
             className="sidebar-title"

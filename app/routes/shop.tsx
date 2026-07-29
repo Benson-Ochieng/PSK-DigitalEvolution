@@ -14,6 +14,13 @@ import {
   getDictionary,
   correctQuery
 } from "~/lib/search.server";
+import {
+  getSidebarDataForCategory,
+  getCategoryBreadcrumb,
+  getCategoryDescendantIds,
+  type SidebarData
+} from "~/lib/category-filters.server";
+
 
 export function meta({ data }: Route.MetaArgs): Route.MetaDescriptors {
   const title = data?.pageTitle ? `${data.pageTitle} - PetStore Kenya` : "Products - PetStore Kenya";
@@ -450,15 +457,29 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   }
 
   if (categorySlug && categorySlug !== "clearance") {
-    const descendantSlugs = getDescendants(categorySlug);
-    sqlParams.push(descendantSlugs);
+    const descendantInfo = await getCategoryDescendantIds(categorySlug);
+    const descendantSlugs = descendantInfo.slugs.length > 0 ? descendantInfo.slugs : getDescendants(categorySlug);
+    const descendantIds = descendantInfo.ids;
+
+    const paramIdxSlugs = sqlParams.push(descendantSlugs);
+    let idCondition = "";
+    if (descendantIds.length > 0) {
+      const paramIdxIds = sqlParams.push(descendantIds);
+      idCondition = `OR EXISTS (SELECT 1 FROM product_categories pc WHERE pc.product_id = p.id AND pc.category_id = ANY($${paramIdxIds}::int[]))`;
+    }
+
     conditions.push(`
-      p.categories IS NOT NULL 
-      AND jsonb_typeof(p.categories) = 'array' 
-      AND EXISTS (
-        SELECT 1 
-        FROM jsonb_to_recordset(p.categories) AS x(slug text)
-        WHERE x.slug = ANY($${sqlParams.length}::text[])
+      (
+        (
+          p.categories IS NOT NULL 
+          AND jsonb_typeof(p.categories) = 'array' 
+          AND EXISTS (
+            SELECT 1 
+            FROM jsonb_to_recordset(p.categories) AS x(slug text)
+            WHERE x.slug = ANY($${paramIdxSlugs}::text[])
+          )
+        )
+        ${idCondition}
       )
     `);
   }
@@ -466,9 +487,18 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   // crossSlug (from_cat / from_brand) applies once, regardless of which
   // combination of tag/brand/category page it's layered on top of.
   if (crossSlug) {
-    const crossDescendantSlugs = getDescendants(crossSlug);
+    const crossDescendantInfo = await getCategoryDescendantIds(crossSlug);
+    const crossDescendantSlugs = crossDescendantInfo.slugs.length > 0 ? crossDescendantInfo.slugs : getDescendants(crossSlug);
+    const crossDescendantIds = crossDescendantInfo.ids;
+
     const paramIdx1 = sqlParams.push(crossDescendantSlugs);
     const paramIdx2 = sqlParams.push(crossSlug);
+    let crossIdCondition = "";
+    if (crossDescendantIds.length > 0) {
+      const paramIdxIds = sqlParams.push(crossDescendantIds);
+      crossIdCondition = `OR EXISTS (SELECT 1 FROM product_categories pc WHERE pc.product_id = p.id AND pc.category_id = ANY($${paramIdxIds}::int[]))`;
+    }
+
     conditions.push(`
       (
         (
@@ -480,6 +510,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
             WHERE x.slug = ANY($${paramIdx1}::text[])
           )
         )
+        ${crossIdCondition}
         OR REPLACE(LOWER(p.brand), ' ', '-') = LOWER($${paramIdx2})
       )
     `);
@@ -607,6 +638,20 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     originalType === "offers" ||
     canonicalSlug === "flash-sale";
 
+  // Dynamically compute server-side sidebar widget data (CATEGORIES vs FILTER BY BRAND)
+  let sidebarData: SidebarData | undefined = undefined;
+  let breadcrumbItems: { name: string; slug: string }[] = [];
+
+  const activeCategorySlug = categorySlug || (canonicalSlug && !isBrandPage && !isTagPage ? canonicalSlug : "");
+  if (activeCategorySlug && activeCategorySlug !== "clearance" && activeCategorySlug !== "sale" && activeCategorySlug !== "bundles") {
+    try {
+      sidebarData = await getSidebarDataForCategory(activeCategorySlug);
+      breadcrumbItems = await getCategoryBreadcrumb(activeCategorySlug);
+    } catch (err) {
+      console.error("Error fetching sidebar/breadcrumb data:", err);
+    }
+  }
+
   const result = {
     products: productsToShow,
     totalResults,
@@ -627,6 +672,8 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     isSearch: !!urlSearch,
     activeSidebarSlug: categorySlug ? getActiveSidebarSlug(categorySlug) : "",
     sidebarCategories,
+    sidebarData,
+    breadcrumbItems,
     categories,
     isBrandPage,
     brandCategories,
@@ -853,6 +900,8 @@ export default function Shop() {
     isSearch,
     activeSidebarSlug,
     sidebarCategories,
+    sidebarData,
+    breadcrumbItems,
     categories,
     isBrandPage,
     brandCategories,
@@ -962,7 +1011,16 @@ export default function Shop() {
     }
   }
 
-  const breadcrumbs = getBreadcrumbs(slug, animal, brand, isTag);
+  const breadcrumbs = (breadcrumbItems && breadcrumbItems.length > 0)
+    ? [
+        { label: "Home", path: "/" },
+        ...breadcrumbItems.map((b: { name: string; slug: string }, i: number) => ({
+          label: b.name,
+          path: i < breadcrumbItems.length - 1 ? `/product-category/${b.slug}/` : undefined
+        }))
+      ]
+    : getBreadcrumbs(slug, animal, brand, isTag);
+
   const SIDEBAR_BRANDS = ["Bonnie", "King", "Montego", "Proline", "Reflex", "Royal Canin", "Spectrum", "Trendline"];
 
   return (
@@ -1016,6 +1074,7 @@ export default function Shop() {
                 isTag={isTag}
                 isSearch={isSearch}
                 activeSidebarSlug={activeSidebarSlug}
+                sidebarData={sidebarData}
                 sidebarCategories={sidebarCategories}
                 categories={categories}
                 isBrandPage={isBrandPage}

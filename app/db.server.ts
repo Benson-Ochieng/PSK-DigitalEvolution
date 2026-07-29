@@ -1,6 +1,7 @@
 import pg from 'pg';
 import dotenv from 'dotenv';
 import { runMigrations } from './db/migrate.server';
+import { seedCategoriesAndBrands } from './lib/category-filters.server';
 
 dotenv.config({ override: true });
 
@@ -126,6 +127,7 @@ async function startDatabase() {
     console.log('Database migrations completed successfully.');
     await seedProductSkuAndDescription(pool);
     await seedProductTags(pool);
+    await seedCategoriesAndBrands(pool);
     _dbReadyResolve();
   } catch (err: any) {
     // Check if the connection failed because the server does not support SSL
@@ -150,7 +152,9 @@ async function startDatabase() {
         console.log('Database migrations completed successfully (without SSL).');
         await seedProductSkuAndDescription(pool);
         await seedProductTags(pool);
+        await seedCategoriesAndBrands(pool);
         _dbReadyResolve();
+
       } catch (retryErr) {
         console.error('Auto migrations failed on retry (non-fatal):', retryErr);
         // Resolve anyway so loaders are not blocked indefinitely
