@@ -275,66 +275,31 @@ export function isPetStoreOrder(order: Order): boolean {
     return false;
   }
 
-  if (!Array.isArray(order.items) || order.items.length === 0) return false;
+  // Check items for test products or non-standard prices if items exist
+  if (Array.isArray(order.items) && order.items.length > 0) {
+    const hasTestItems = order.items.some((item: any) => {
+      if (!item) return false;
+      const nameLower = String(item.name || '').toLowerCase();
+      const skuLower = String(item.sku || '').toLowerCase();
 
-  // Check items for test products or non-standard prices
-  const hasTestItems = order.items.some((item: any) => {
-    if (!item) return true;
-    const nameLower = String(item.name || '').toLowerCase();
-    const skuLower = String(item.sku || '').toLowerCase();
-
-    if (nameLower.includes("test product") || nameLower.includes("dummy product") || nameLower.includes("a washing machine")) {
-      return true;
-    }
-    if (skuLower.includes("test") || skuLower.includes("dummy")) {
-      return true;
-    }
-    if (item.price !== undefined && Number(item.price) <= 10) {
-      return true;
-    }
-    return false;
-  });
-
-  if (hasTestItems) {
-    return false;
-  }
-
-  if (!petStoreProductNames) {
-    petStoreProductNames = new Set<string>();
-    try {
-      const productsIndexFile = path.join(process.cwd(), "content", "products", "_index.json");
-      if (fs.existsSync(productsIndexFile)) {
-        const products = JSON.parse(fs.readFileSync(productsIndexFile, "utf-8"));
-        if (Array.isArray(products)) {
-          products.forEach((p: any) => {
-            if (p.name) petStoreProductNames!.add(p.name.toLowerCase().trim());
-          });
-        }
+      if (nameLower.includes("test product") || nameLower.includes("dummy product") || nameLower.includes("a washing machine")) {
+        return true;
       }
-    } catch (e) {
-      console.error("Failed to load products index for order filtering:", e);
+      if (skuLower.includes("test") || skuLower.includes("dummy")) {
+        return true;
+      }
+      if (item.price !== undefined && Number(item.price) <= 10) {
+        return true;
+      }
+      return false;
+    });
+
+    if (hasTestItems) {
+      return false;
     }
   }
 
-  const petKeywords = [
-    "dog", "cat", "pet", "puppy", "kitten", "food", "kibble", "trixie", "bonnie",
-    "reflex", "scratching", "litter", "collar", "leash", "bird", "fish", "hamster"
-  ];
-
-
-
-  return order.items.some((item: any) => {
-    if (!item || !item.name) return false;
-    const nameLower = item.name.toLowerCase();
-
-    if (petStoreProductNames!.has(nameLower.trim())) {
-      return true;
-    }
-
-    const matchesPet = petKeywords.some(kw => nameLower.includes(kw));
-
-    return matchesPet
-  });
+  return true;
 }
 
 export function ensureOrderFormat(o: any, dbItems: any[] = []): Order {
@@ -362,19 +327,19 @@ export function ensureOrderFormat(o: any, dbItems: any[] = []): Order {
   }
 
   return {
-    id: String(o.id),
-    date: o.created_at || new Date().toISOString(),
-    paymentMethod: o.payment_method || "MPESA Express",
+    id: String(o.id).startsWith("PSK-") ? String(o.id) : `PSK-${o.id}`,
+    date: o.created_at || o.date || new Date().toISOString(),
+    paymentMethod: o.payment_method || o.paymentMethod || "M-Pesa",
     items: orderItems,
-    total: Number(o.total_kes || 0),
-    shipping: Number(o.delivery_fee_kes || 0),
+    total: Number(o.total_kes || o.total || 0),
+    shipping: Number(o.delivery_fee_kes || o.shipping || 0),
     currency: "KES",
     billing: {
-      name: o.customer_name || "",
-      email: o.customer_email || "",
-      phone: o.customer_phone || ""
+      name: o.customer_name || o.billing?.name || "Guest Customer",
+      email: o.customer_email || o.billing?.email || "",
+      phone: o.customer_phone || o.billing?.phone || ""
     },
-    status: status,
+    status: status as OrderStatus,
     paymentGatewayData: o.paymentGatewayData || (o.payment_gateway_data ? (typeof o.payment_gateway_data === 'string' ? JSON.parse(o.payment_gateway_data) : o.payment_gateway_data) : undefined),
     notes: o.notes || ""
   };
@@ -387,6 +352,41 @@ export const db = {
         ...data,
         status: data.status || 'PENDING_PAYMENT'
       };
+
+      const numericId = parseInt(order.id.replace(/\D/g, ""), 10);
+
+      // Save to PostgreSQL if connected
+      try {
+        if (!isNaN(numericId)) {
+          await pgQuery(`
+            INSERT INTO orders (
+              id, customer_name, customer_phone, customer_email, delivery_area,
+              subtotal_kes, delivery_fee_kes, total_kes, payment_method, status, notes, created_at
+            ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)
+            ON CONFLICT (id) DO UPDATE SET
+              customer_name = EXCLUDED.customer_name,
+              customer_phone = EXCLUDED.customer_phone,
+              customer_email = EXCLUDED.customer_email,
+              total_kes = EXCLUDED.total_kes,
+              status = EXCLUDED.status
+          `, [
+            numericId, order.billing.name, order.billing.phone, order.billing.email, "N/A",
+            order.total - order.shipping, order.shipping, order.total, order.paymentMethod, order.status.toLowerCase(), order.notes || null, order.date || new Date().toISOString()
+          ]);
+
+          if (order.items && order.items.length > 0) {
+            for (const item of order.items) {
+              await pgQuery(`
+                INSERT INTO order_items (order_id, product_id, product_name, qty, unit_price, total_price)
+                VALUES ($1, $2, $3, $4, $5, $6)
+              `, [numericId, item.id || null, item.name, item.quantity || 1, item.price || 0, (item.price || 0) * (item.quantity || 1)]);
+            }
+          }
+        }
+      } catch (pgErr) {
+        console.error("PostgreSQL order insert failed:", pgErr);
+      }
+
       if (supabase) {
         try {
           const dbOrder = {
@@ -415,6 +415,7 @@ export const db = {
             }));
             await supabase.from("order_items").insert(dbItems);
           }
+          await supabase.from("dashboard_orders").upsert(order);
         } catch (err) {
           console.error("Failed to insert order in Supabase:", err);
         }
@@ -427,72 +428,101 @@ export const db = {
     },
 
     async findUnique({ where }: { where: { id: string } }): Promise<Order | null> {
-      let order: Order | null = null;
-      if (supabase) {
-        try {
-          const numericId = parseInt(where.id, 10);
-          let query = supabase.from("orders").select();
-          if (!isNaN(numericId)) {
-            query = query.eq("id", numericId);
-          } else {
-            query = query.eq("id", where.id);
-          }
-          const { data, error } = await query.maybeSingle();
-          if (error) throw error;
-          if (data) {
-            const { data: orderItems } = await supabase.from("order_items").select().eq("order_id", data.id);
-            order = ensureOrderFormat(data, orderItems || []);
-          }
-        } catch (err) {
-          console.error("Supabase order findUnique failed:", err);
-        }
-      }
-      
-      if (!order) {
-        const ordersList = readData<Order[]>(ORDERS_FILE, getInitialOrders());
-        order = ordersList.find(o => o.id === where.id) || null;
-      }
-
-      if (order && isPetStoreOrder(order)) {
-        return order;
-      }
-      return null;
+      const allOrders = await this.findMany();
+      const rawId = where.id.replace(/\D/g, "");
+      const matched = allOrders.find(o => o.id === where.id || o.id.replace(/\D/g, "") === rawId);
+      return matched || null;
     },
 
     async findFirst({ where }: { where: (order: Order) => boolean }): Promise<Order | null> {
-      let ordersList: Order[] = [];
-      if (supabase) {
-        try {
-          const { data, error } = await supabase.from("orders").select().order("created_at", { ascending: false });
-          if (error) throw error;
-          const { data: orderItems } = await supabase.from("order_items").select();
-          ordersList = (data || []).map(o => ensureOrderFormat(o, orderItems || []));
-        } catch (err) {
-          console.error("Supabase order findFirst failed:", err);
-        }
-      }
-      
-      if (ordersList.length === 0) {
-        ordersList = readData<Order[]>(ORDERS_FILE, getInitialOrders());
-      }
-
-      const filtered = ordersList.filter(isPetStoreOrder);
-      return filtered.find(where) || null;
+      const ordersList = await this.findMany();
+      return ordersList.find(where) || null;
     },
 
     async findMany(options?: { where?: (order: Order) => boolean }): Promise<Order[]> {
       let ordersList: Order[] = [];
-      if (supabase) {
+
+      // 1. Try fetching from PostgreSQL database first
+      try {
+        const ordersRes = await pgQuery(`
+          SELECT id, customer_name, customer_phone, customer_email, delivery_area,
+                 subtotal_kes, delivery_fee_kes, total_kes, payment_method, status, notes, created_at
+          FROM orders
+          ORDER BY created_at DESC
+        `);
+
+        if (ordersRes && ordersRes.rows && ordersRes.rows.length > 0) {
+          const orderIds = ordersRes.rows.map(r => r.id);
+          
+          const itemsMap = new Map<number, any[]>();
+          try {
+            const itemsRes = await pgQuery(`
+              SELECT order_id, product_id, product_name, qty, unit_price, total_price
+              FROM order_items
+              WHERE order_id = ANY($1)
+            `, [orderIds]);
+
+            for (const item of itemsRes.rows) {
+              const oId = Number(item.order_id);
+              if (!itemsMap.has(oId)) itemsMap.set(oId, []);
+              itemsMap.get(oId)!.push({
+                id: item.product_id,
+                name: item.product_name,
+                price: Number(item.unit_price || 0),
+                quantity: Number(item.qty || 1),
+                thumbnail: '/images/psk_logo.png'
+              });
+            }
+          } catch (e) {}
+
+          ordersList = ordersRes.rows.map((row: any) => {
+            const idStr = String(row.id);
+            const formattedId = idStr.startsWith("PSK-") ? idStr : `PSK-${idStr}`;
+            const itemsArr = itemsMap.get(Number(row.id)) || [];
+            let status = (row.status || "PENDING").toUpperCase();
+            if (status === "PENDING") status = "PENDING_PAYMENT";
+
+            return {
+              id: formattedId,
+              date: row.created_at ? new Date(row.created_at).toISOString() : new Date().toISOString(),
+              paymentMethod: row.payment_method || "M-Pesa",
+              items: itemsArr,
+              total: Number(row.total_kes || 0),
+              shipping: Number(row.delivery_fee_kes || 0),
+              currency: "KES",
+              billing: {
+                name: row.customer_name || "Guest Customer",
+                email: row.customer_email || "",
+                phone: row.customer_phone || ""
+              },
+              status: status as OrderStatus,
+              notes: row.notes || ""
+            };
+          });
+        }
+      } catch (pgError) {
+        console.warn("PostgreSQL order findMany query bypassed or failed:", pgError);
+      }
+
+      // 2. Fall back to Supabase if PostgreSQL returned no orders
+      if (ordersList.length === 0 && supabase) {
         try {
-          const { data, error } = await supabase.from("orders").select().order("created_at", { ascending: false });
-          if (error) throw error;
-          const { data: orderItems } = await supabase.from("order_items").select();
-          ordersList = (data || []).map(o => ensureOrderFormat(o, orderItems || []));
+          const { data: dashboardOrders, error: dashErr } = await supabase.from("dashboard_orders").select().order("date", { ascending: false });
+          if (!dashErr && dashboardOrders && dashboardOrders.length > 0) {
+            ordersList = dashboardOrders as Order[];
+          } else {
+            const { data: rawOrders, error: ordersErr } = await supabase.from("orders").select().order("created_at", { ascending: false });
+            if (!ordersErr && rawOrders) {
+              const { data: orderItems } = await supabase.from("order_items").select();
+              ordersList = rawOrders.map(o => ensureOrderFormat(o, orderItems || []));
+            }
+          }
         } catch (err) {
           console.error("Supabase order findMany failed:", err);
         }
       }
-      
+
+      // 3. Fall back to local JSON content file
       if (ordersList.length === 0) {
         ordersList = readData<Order[]>(ORDERS_FILE, getInitialOrders());
       }
@@ -506,6 +536,32 @@ export const db = {
     },
 
     async update({ where, data }: { where: { id: string }, data: Partial<Order> }): Promise<Order> {
+      const numericId = parseInt(where.id.replace(/\D/g, ""), 10);
+
+      // Update in PostgreSQL database
+      if (!isNaN(numericId)) {
+        try {
+          const fields: string[] = [];
+          const values: any[] = [];
+          let idx = 1;
+
+          if (data.status) { fields.push(`status = $${idx++}`); values.push(data.status.toLowerCase()); }
+          if (data.paymentMethod) { fields.push(`payment_method = $${idx++}`); values.push(data.paymentMethod); }
+          if (data.total !== undefined) { fields.push(`total_kes = $${idx++}`); values.push(data.total); }
+          if (data.shipping !== undefined) { fields.push(`delivery_fee_kes = $${idx++}`); values.push(data.shipping); }
+          if (data.billing?.name) { fields.push(`customer_name = $${idx++}`); values.push(data.billing.name); }
+          if (data.billing?.phone) { fields.push(`customer_phone = $${idx++}`); values.push(data.billing.phone); }
+          if (data.billing?.email) { fields.push(`customer_email = $${idx++}`); values.push(data.billing.email); }
+
+          if (fields.length > 0) {
+            values.push(numericId);
+            await pgQuery(`UPDATE orders SET ${fields.join(", ")} WHERE id = $${idx}`, values);
+          }
+        } catch (pgErr) {
+          console.error("PostgreSQL order update failed:", pgErr);
+        }
+      }
+
       if (supabase) {
         try {
           const dbData: any = {};
@@ -519,73 +575,59 @@ export const db = {
             if (data.billing.email) dbData.customer_email = data.billing.email;
           }
 
-          const numericId = parseInt(where.id, 10);
-          const { data: updated, error } = await supabase.from("orders")
-            .update(dbData)
-            .eq("id", isNaN(numericId) ? where.id : numericId)
-            .select()
-            .single();
-          if (error) throw error;
-
-          const { data: orderItems } = await supabase.from("order_items").select().eq("order_id", updated.id);
-          const mappedUpdated = ensureOrderFormat(updated, orderItems || []);
-
-          // Also update local JSON file
-          const ordersList = readData<Order[]>(ORDERS_FILE, getInitialOrders());
-          const idx = ordersList.findIndex(o => o.id === where.id);
-          if (idx !== -1) {
-            ordersList[idx] = mappedUpdated;
-            writeData(ORDERS_FILE, ordersList);
+          if (!isNaN(numericId)) {
+            await supabase.from("orders").update(dbData).eq("id", numericId);
           }
-          return mappedUpdated;
         } catch (err) {
           console.error("Supabase order update failed:", err);
         }
       }
 
       const ordersList = readData<Order[]>(ORDERS_FILE, getInitialOrders());
-      const idx = ordersList.findIndex(o => o.id === where.id);
-      if (idx === -1) throw new Error("Order not found");
+      const rawId = where.id.replace(/\D/g, "");
+      const idx = ordersList.findIndex(o => o.id === where.id || o.id.replace(/\D/g, "") === rawId);
+      if (idx !== -1) {
+        ordersList[idx] = { ...ordersList[idx], ...data };
+        writeData(ORDERS_FILE, ordersList);
+        return ordersList[idx];
+      }
 
-      const updated = { ...ordersList[idx], ...data };
-      ordersList[idx] = updated;
-      writeData(ORDERS_FILE, ordersList);
+      const updated = { id: where.id, ...data } as Order;
       return updated;
     },
 
     async delete({ where }: { where: { id: string } }): Promise<boolean> {
+      const numericId = parseInt(where.id.replace(/\D/g, ""), 10);
+
+      if (!isNaN(numericId)) {
+        try {
+          await pgQuery("DELETE FROM order_items WHERE order_id = $1", [numericId]);
+          await pgQuery("DELETE FROM orders WHERE id = $1", [numericId]);
+        } catch (pgErr) {
+          console.error("PostgreSQL order delete failed:", pgErr);
+        }
+      }
+
       if (supabase) {
         try {
-          const numericId = parseInt(where.id, 10);
-          const { error } = await supabase.from("orders").delete().eq("id", isNaN(numericId) ? where.id : numericId);
-          if (error) throw error;
-          
-          // Also update local JSON
-          const ordersList = readData<Order[]>(ORDERS_FILE, getInitialOrders());
-          const filtered = ordersList.filter(o => o.id !== where.id);
-          writeData(ORDERS_FILE, filtered);
-          return true;
+          if (!isNaN(numericId)) {
+            await supabase.from("order_items").delete().eq("order_id", numericId);
+            await supabase.from("orders").delete().eq("id", numericId);
+            await supabase.from("dashboard_orders").delete().eq("id", where.id);
+          }
         } catch (err) {
           console.error("Supabase order delete failed:", err);
         }
       }
 
       const ordersList = readData<Order[]>(ORDERS_FILE, getInitialOrders());
-      const filtered = ordersList.filter(o => o.id !== where.id);
-      if (filtered.length === ordersList.length) return false;
+      const rawId = where.id.replace(/\D/g, "");
+      const filtered = ordersList.filter(o => o.id !== where.id && o.id.replace(/\D/g, "") !== rawId);
       writeData(ORDERS_FILE, filtered);
       return true;
     },
 
     async count(options?: { where?: (order: Order) => boolean }): Promise<number> {
-      if (supabase && !options?.where) {
-        try {
-          const { count, error } = await supabase.from("orders").select("*", { count: "exact", head: true });
-          if (!error && count !== null) return count;
-        } catch (err) {
-          console.error("Supabase order count failed:", err);
-        }
-      }
       const list = await this.findMany(options);
       return list.length;
     }

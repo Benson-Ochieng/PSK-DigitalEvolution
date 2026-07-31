@@ -108,8 +108,56 @@ export async function syncLocalToSupabase() {
       const orders = JSON.parse(fs.readFileSync(ordersFile, "utf-8"));
       if (Array.isArray(orders) && orders.length > 0) {
         const { error } = await supabase.from("dashboard_orders").upsert(orders);
-        if (error) console.error("Error syncing orders to Supabase:", error);
-        else console.log(`Synced ${orders.length} orders to Supabase.`);
+        if (error) console.error("Error syncing orders to Supabase dashboard_orders:", error);
+        else console.log(`Synced ${orders.length} orders to dashboard_orders in Supabase.`);
+
+        // Sync orders & order_items relational tables in Supabase
+        const sbOrdersRows: any[] = [];
+        const sbItemsRows: any[] = [];
+        for (const o of orders) {
+          const numericId = parseInt(String(o.id).replace(/\D/g, ""), 10);
+          if (isNaN(numericId)) continue;
+
+          sbOrdersRows.push({
+            id: numericId,
+            customer_name: o.billing?.name || "Guest Customer",
+            customer_phone: o.billing?.phone || "N/A",
+            customer_email: o.billing?.email || null,
+            delivery_area: o.billing?.address_1 || o.billing?.city || "N/A",
+            subtotal_kes: (Number(o.total) || 0) - (Number(o.shipping) || 0),
+            delivery_fee_kes: Number(o.shipping) || 0,
+            total_kes: Number(o.total) || 0,
+            payment_method: o.paymentMethod || "M-Pesa",
+            status: String(o.status || "pending").toLowerCase(),
+            notes: o.notes || null,
+            created_at: o.date ? new Date(o.date).toISOString() : new Date().toISOString()
+          });
+
+          if (Array.isArray(o.items)) {
+            for (const item of o.items) {
+              const productId = parseInt(String(item.id), 10);
+              sbItemsRows.push({
+                order_id: numericId,
+                product_id: isNaN(productId) ? null : productId,
+                product_name: item.name,
+                qty: Number(item.quantity || 1),
+                unit_price: Number(item.price || 0),
+                total_price: (Number(item.price || 0)) * (Number(item.quantity || 1))
+              });
+            }
+          }
+        }
+
+        if (sbOrdersRows.length > 0) {
+          for (let i = 0; i < sbOrdersRows.length; i += 500) {
+            await supabase.from("orders").upsert(sbOrdersRows.slice(i, i + 500));
+          }
+        }
+        if (sbItemsRows.length > 0) {
+          for (let i = 0; i < sbItemsRows.length; i += 500) {
+            await supabase.from("order_items").upsert(sbItemsRows.slice(i, i + 500));
+          }
+        }
       }
     }
 
@@ -138,42 +186,20 @@ export async function syncLocalToSupabase() {
 
         const cleanedProducts = fullProducts.map(p => {
           return {
-            id: p.id,
+            id: Number(p.id),
             name: p.name,
             slug: p.slug,
             sku: p.sku || null,
-            onSale: !!p.onSale,
-            price: Number(p.price || 0),
-            regularPrice: Number(p.regularPrice || 0),
-            salePrice: p.salePrice !== undefined && p.salePrice !== null ? Number(p.salePrice) : null,
-            currency: p.currency || "KES",
-            currencySymbol: p.currencySymbol || "KSh",
-            thumbnail: p.thumbnail || null,
-            categories: Array.isArray(p.categories) ? p.categories : [],
-            inStock: !!p.inStock,
-            averageRating: Number(p.averageRating || 0),
-            reviewCount: Number(p.reviewCount || 0),
-            type: p.type || "simple",
-            permalink: p.permalink || null,
-            shortDescription: p.shortDescription || null,
+            image_url: p.image_url || p.thumbnail || null,
             description: p.description || null,
-            images: Array.isArray(p.images) ? p.images : [],
+            short_description: p.shortDescription || p.short_description || null,
+            categories: Array.isArray(p.categories) ? p.categories : [],
             tags: Array.isArray(p.tags) ? p.tags : [],
-            brands: Array.isArray(p.brands) ? p.brands : [],
-            stockStatus: p.stockStatus || "instock",
-            lowStockRemaining: p.lowStockRemaining !== undefined && p.lowStockRemaining !== null ? Number(p.lowStockRemaining) : null,
-            isPurchasable: p.isPurchasable !== undefined ? !!p.isPurchasable : true,
-            addToCartUrl: p.addToCartUrl || null,
             status: p.status || "publish",
-            featured: !!p.featured,
-            catalogVisibility: p.catalogVisibility || "visible",
-            dateCreated: p.dateCreated || p.createdAt || null,
-            dateModified: p.dateModified || null,
             brand: p.brand || (Array.isArray(p.brands) && p.brands[0] ? p.brands[0].name : null),
             weight_kg: p.weight_kg !== undefined && p.weight_kg !== null ? Number(p.weight_kg) : (p.weight !== undefined && p.weight !== null ? Number(p.weight) : null),
             animal_type: p.animal_type || null,
             food_type: p.food_type || null,
-            image_url: p.image_url || p.thumbnail || null,
             key_ingredients: p.key_ingredients || null,
             feeding_guide: p.feeding_guide || null,
             replaces_brand: p.replaces_brand || null,
@@ -403,38 +429,16 @@ export async function upsertProductToSupabase(p: any) {
       name: p.name,
       slug: p.slug,
       sku: p.sku || null,
-      onSale: !!p.onSale,
-      price: Number(p.price || 0),
-      regularPrice: Number(p.regularPrice || 0),
-      salePrice: p.salePrice !== undefined && p.salePrice !== null ? Number(p.salePrice) : null,
-      currency: p.currency || "KES",
-      currencySymbol: p.currencySymbol || "KSh",
-      thumbnail: p.thumbnail || null,
-      categories: Array.isArray(p.categories) ? p.categories : [],
-      inStock: !!p.inStock,
-      averageRating: Number(p.averageRating || 0),
-      reviewCount: Number(p.reviewCount || 0),
-      type: p.type || "simple",
-      permalink: p.permalink || null,
-      shortDescription: p.shortDescription || null,
+      image_url: p.image_url || p.thumbnail || null,
       description: p.description || null,
-      images: Array.isArray(p.images) ? p.images : [],
+      short_description: p.shortDescription || p.short_description || null,
+      categories: Array.isArray(p.categories) ? p.categories : [],
       tags: Array.isArray(p.tags) ? p.tags : [],
-      brands: Array.isArray(p.brands) ? p.brands : [],
-      stockStatus: p.stockStatus || "instock",
-      lowStockRemaining: p.lowStockRemaining !== undefined && p.lowStockRemaining !== null ? Number(p.lowStockRemaining) : null,
-      isPurchasable: p.isPurchasable !== undefined ? !!p.isPurchasable : true,
-      addToCartUrl: p.addToCartUrl || null,
       status: p.status || "publish",
-      featured: !!p.featured,
-      catalogVisibility: p.catalogVisibility || "visible",
-      dateCreated: p.dateCreated || p.createdAt || null,
-      dateModified: p.dateModified || new Date().toISOString(),
       brand: p.brand || (Array.isArray(p.brands) && p.brands[0] ? p.brands[0].name : null),
       weight_kg: p.weight_kg !== undefined && p.weight_kg !== null ? Number(p.weight_kg) : (p.weight !== undefined && p.weight !== null ? Number(p.weight) : null),
       animal_type: p.animal_type || null,
       food_type: p.food_type || null,
-      image_url: p.image_url || p.thumbnail || null,
       key_ingredients: p.key_ingredients || null,
       feeding_guide: p.feeding_guide || null,
       replaces_brand: p.replaces_brand || null,
