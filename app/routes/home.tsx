@@ -158,34 +158,34 @@ export default function Home() {
 
   // Shop By Pet categories
   const petCategories = [
-    { label: "Cat", img: "/images/cat-150x150.webp", href: "/product-category/cat-food/" },
+    { label: "Cat", img: "/images/cat-150x150.webp", href: "/product-category/cat-supplies-store/" },
     { label: "Kitten", img: "/images/Kitten-150x150.webp", href: "/product-category/kitten-food/" },
-    { label: "Dog", img: "/images/dog-150x150.webp", href: "/product-category/dog-food/" },
+    { label: "Dog", img: "/images/dog-150x150.webp", href: "/product-category/dog-supplies-store/" },
     { label: "Puppy", img: "/images/puppy-150x150.webp", href: "/product-category/puppy-food/" },
-    { label: "Bird", img: "/images/bird-150x150.webp", href: "/product-category/bird-food/" },
-    { label: "Rabbit", img: "/images/rabbit-150x150.webp", href: "/product-category/rabbit-food/" },
+    { label: "Bird", img: "/images/bird-150x150.webp", href: "/product-category/bird-supplies-store/" },
+    { label: "Rabbit", img: "/images/rabbit-150x150.webp", href: "/product-category/rabbit-supplies-store/" },
   ];
 
   // Popular categories list (18 items)
   const popularCategories = [
-    { label: "Cat Flea & Tick", img: "/images/fleas-ticks-and-worms-150x150.webp", href: "/shop?animal=cat" },
-    { label: "Cat Litter", img: "/images/Cat-litter-150x150.webp", href: "/shop?animal=cat" },
-    { label: "Dog Food", img: "/images/dog-food-150x150.webp", href: "/product-category/dog-food/" },
+    { label: "Cat Flea & Tick", img: "/images/fleas-ticks-and-worms-150x150.webp", href: "/product-category/cat-flea-tick/" },
+    { label: "Cat Litter", img: "/images/Cat-litter-150x150.webp", href: "/product-category/cat-litter-and-accessories/" },
+    { label: "Dog Food", img: "/images/dog-food-150x150.webp", href: "/product-category/dog-food-treats/" },
     { label: "Puppy Food", img: "/images/PUPPY-FOOD-150x150.webp", href: "/product-category/puppy-food/" },
-    { label: "Cat Food & Treats", img: "/images/cat-food-150x150.webp", href: "/product-category/cat-food/" },
+    { label: "Cat Food & Treats", img: "/images/cat-food-150x150.webp", href: "/product-category/cat-food-and-treats/" },
     { label: "Kitten Food", img: "/images/kITTEN-FOOD-150x150.webp", href: "/product-category/kitten-food/" },
-    { label: "Dog Food & Treats", img: "/images/TREATS-150x150.webp", href: "/product-category/dog-food/" },
-    { label: "Dog Beds", img: "/images/BEDS-150x150.webp", href: "/shop?animal=dog" },
-    { label: "Dog Healthcare", img: "/images/dental-care.webp", href: "/shop?animal=dog" },
-    { label: "Leashes", img: "/images/leashes-150x150.webp", href: "/shop?animal=dog" },
-    { label: "Collars", img: "/images/collars-150x150.webp", href: "/shop?animal=dog" },
-    { label: "Harnesses", img: "/images/Harness-150x150.webp", href: "/shop?animal=dog" },
+    { label: "Dog Food & Treats", img: "/images/TREATS-150x150.webp", href: "/product-category/dog-food-treats/" },
+    { label: "Dog Beds", img: "/images/BEDS-150x150.webp", href: "/product-category/dog-beds-furniture/" },
+    { label: "Dog Healthcare", img: "/images/dental-care.webp", href: "/product-category/dog-healthcare-supplies/" },
+    { label: "Leashes", img: "/images/leashes-150x150.webp", href: "/product-category/dog-collars-leashes-and-harnesses/" },
+    { label: "Collars", img: "/images/collars-150x150.webp", href: "/product-category/dog-collars-leashes-and-harnesses/" },
+    { label: "Harnesses", img: "/images/Harness-150x150.webp", href: "/product-category/dog-collars-leashes-and-harnesses/" },
     { label: "Toys", img: "/images/TOYS-150x150.webp", href: "/shop" },
     { label: "Bowls", img: "/images/BOWL-150x150.webp", href: "/shop" },
-    { label: "Dog Grooming", img: "/images/grooming-tools.webp", href: "/shop?animal=dog" },
-    { label: "Cat Grooming", img: "/images/cat-150x150.webp", href: "/product-category/cat-food/" },
+    { label: "Dog Grooming", img: "/images/grooming-tools.webp", href: "/product-category/dog-grooming-cleaning-supplies/" },
+    { label: "Cat Grooming", img: "/images/cat-150x150.webp", href: "/product-category/cat-grooming/" },
     { label: "Supplements", img: "/images/supplements-150x150.webp", href: "/shop" },
-    { label: "Dog Flea & Tick", img: "/images/fleas-ticks-and-worms-150x150.webp", href: "/shop?animal=dog" },
+    { label: "Dog Flea & Tick", img: "/images/fleas-ticks-and-worms-150x150.webp", href: "/product-category/dog-healthcare-supplies/" },
   ];
 
   const visibleProducts = featured.slice(0, visibleCount);
