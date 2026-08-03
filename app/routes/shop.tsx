@@ -307,7 +307,9 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   }
 
   let pageTitle = "All Pet Food";
-  if (urlSearch) {
+  if (isBrandPage && activeBrandSlug) {
+    pageTitle = BRAND_DISPLAY_NAMES[activeBrandSlug] || activeBrandSlug.split("-").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+  } else if (urlSearch) {
     if (correctedSearchQuery) {
       pageTitle = `Search Results for "${correctedSearchQuery}" (corrected from "${urlSearch}")`;
     } else {
@@ -703,6 +705,10 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     } catch (err) {
       console.error("Error fetching sidebar/breadcrumb data:", err);
     }
+  }
+
+  if (isBrandPage && activeBrandSlug) {
+    breadcrumbItems = [{ name: pageTitle, slug: activeBrandSlug }];
   }
 
   const result = {
