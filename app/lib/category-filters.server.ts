@@ -215,13 +215,35 @@ const RECOGNIZED_SHOP_BRANDS = new Set([
   "bonnie",
   "josera",
   "king",
+  "miglior",
+  "miglior-cane",
+  "migliorcane",
   "montego",
   "proline",
   "reflex",
   "royal-canin",
   "spectrum",
-  "trendline"
+  "thunder",
+  "trendline",
+  "unique"
 ]);
+
+const BRAND_DISPLAY_NAMES: Record<string, string> = {
+  "bonnie": "Bonnie",
+  "josera": "Josera",
+  "king": "King",
+  "miglior": "Miglior Cane",
+  "miglior-cane": "Miglior Cane",
+  "migliorcane": "Miglior Cane",
+  "montego": "Montego",
+  "proline": "Proline",
+  "reflex": "Reflex",
+  "royal-canin": "Royal Canin",
+  "spectrum": "Spectrum",
+  "thunder": "Thunder",
+  "trendline": "Trendline",
+  "unique": "Unique"
+};
 
 /**
  * Returns distinct brands with >=1 product in the specified leaf category, ordered A-Z by name.
@@ -231,6 +253,12 @@ export async function getCategoryLeafBrands(categoryId: number, categorySlug?: s
   if (normSlug && NO_BRAND_FILTER_CATEGORIES.has(normSlug)) {
     return [];
   }
+
+  const formatBrandRow = (r: any) => {
+    const slugNorm = r.slug ? r.slug.toLowerCase().trim() : "";
+    const name = BRAND_DISPLAY_NAMES[slugNorm] || r.name;
+    return { name, slug: slugNorm };
+  };
 
   try {
     const res = await query(
@@ -250,8 +278,8 @@ export async function getCategoryLeafBrands(categoryId: number, categorySlug?: s
       [categoryId, categorySlug || null]
     );
     const validBrands = res.rows
-      .filter(r => r.name && r.slug && RECOGNIZED_SHOP_BRANDS.has(r.slug.toLowerCase().trim()))
-      .map(r => ({ name: r.name, slug: r.slug }));
+      .filter(r => r.slug && RECOGNIZED_SHOP_BRANDS.has(r.slug.toLowerCase().trim()))
+      .map(formatBrandRow);
     if (validBrands.length > 0) {
       return validBrands;
     }
@@ -279,8 +307,8 @@ export async function getCategoryLeafBrands(categoryId: number, categorySlug?: s
       [categoryId, categorySlug || null]
     );
     return res.rows
-      .filter(r => r.name && r.slug && RECOGNIZED_SHOP_BRANDS.has(r.slug.toLowerCase().trim()))
-      .map(r => ({ name: r.name, slug: r.slug }));
+      .filter(r => r.slug && RECOGNIZED_SHOP_BRANDS.has(r.slug.toLowerCase().trim()))
+      .map(formatBrandRow);
   } catch (err) {
     console.error("Fallback leaf brands query failed:", err);
     return [];

@@ -43,9 +43,22 @@ else:
 All other categories (accessories, supplies, beds, bowls, carriers, toys, etc.) render no brand filter sidebar.
 
 **Brand Filtering Rule**:
-- `FILTER BY BRAND` dynamically lists **only** official recognized shop brands (Bonnie, Josera, King, Montego, Proline, Reflex, Royal Canin, Spectrum, Trendline) that have **≥1 products in the currently selected category**.
-- Brands with 0 products in the selected category are omitted (e.g. `Cat Treats` displays Montego, Proline, Reflex, Spectrum, but omits Bonnie, Josera, King, Royal Canin, Trendline).
-- Unrecognized brand descriptors (e.g. "Churu", "Dashi", "Inaba", "CS", "Maasai Shukas") are excluded.
+- `FILTER BY BRAND` dynamically lists **only** official recognized PetStore Kenya shop brands:
+  1. **Bonnie** (`bonnie`)
+  2. **Josera** (`josera`)
+  3. **King** (`king`)
+  4. **Miglior Cane** (`miglior`, `miglior-cane`)
+  5. **Montego** (`montego`)
+  6. **Proline** (`proline`)
+  7. **Reflex** (`reflex`)
+  8. **Royal Canin** (`royal-canin`)
+  9. **Spectrum** (`spectrum`)
+  10. **Thunder** (`thunder`)
+  11. **Trendline** (`trendline`)
+  12. **Unique** (`unique`)
+- A brand is **only** included if it has **≥1 products in the currently selected category**.
+- Recognized brands with 0 products in the selected category are omitted (e.g. `Wet Cat Food` displays Bonnie, Josera, King, Montego, Proline, Reflex, Royal Canin, but omits Spectrum, Trendline, etc.).
+- Unrecognized brand descriptors, variant strings, or extra brands (e.g. "Chuck", "Dashi", "Felix", "Friskies", "Inaba", "Leonardo", "Mio", "Simba", "Soup Time", "Truly", "Wanpy", "Whiskas", "CS", "Maasai Shukas") are strictly excluded.
 
 No nesting, no expand/collapse, no chevrons, no parent or sibling entries, no ancestor context inside the widget itself. It's recomputed fresh, server-side, for whichever category page is being viewed — the browser never toggles it, it just gets a new flat list on navigation.
 
