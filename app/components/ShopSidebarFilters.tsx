@@ -78,14 +78,8 @@ export default function ShopSidebarFilters({
   };
 
   const getBrandCategoryHref = (categorySlug: string) => {
-    const p = new URLSearchParams(location.search);
-    if (fromCat === categorySlug) {
-      p.delete("from_cat");
-    } else {
-      p.set("from_cat", categorySlug);
-    }
-    p.delete("page");
-    return `${location.pathname}${p.toString() ? "?" + p.toString() : ""}`;
+    const brandSlug = brand ? brand.toLowerCase().trim().replace(/\s+/g, "-") : activeSlug;
+    return `/product-category/${categorySlug}/?from_brand=${brandSlug}`;
   };
 
   const getSortOffersHref = (sortVal: string) => {

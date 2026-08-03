@@ -220,19 +220,64 @@ export async function loader({ request, params }: Route.LoaderArgs) {
     canonicalSlug = SLUG_ALIASES[canonicalSlug];
   }
 
+  const RECOGNIZED_SHOP_BRANDS = new Set([
+    "bonnie",
+    "josera",
+    "king",
+    "miglior",
+    "miglior-cane",
+    "migliorcane",
+    "montego",
+    "proline",
+    "reflex",
+    "royal-canin",
+    "spectrum",
+    "thunder",
+    "trendline",
+    "unique"
+  ]);
+
+  const BRAND_DISPLAY_NAMES: Record<string, string> = {
+    "bonnie": "Bonnie",
+    "josera": "Josera",
+    "king": "King",
+    "miglior": "Miglior Cane",
+    "miglior-cane": "Miglior Cane",
+    "migliorcane": "Miglior Cane",
+    "montego": "Montego",
+    "proline": "Proline",
+    "reflex": "Reflex",
+    "royal-canin": "Royal Canin",
+    "spectrum": "Spectrum",
+    "thunder": "Thunder",
+    "trendline": "Trendline",
+    "unique": "Unique"
+  };
+
+  let activeBrandSlug = brand ? brand.toLowerCase().trim().replace(/\s+/g, "-") : canonicalSlug;
   let isBrandPage = false;
-  if (canonicalSlug) {
-    const brandCheck = await query(
-      `SELECT EXISTS (SELECT 1 FROM products WHERE REPLACE(LOWER(brand), ' ', '-') = LOWER($1) AND status = 'publish')`,
-      [canonicalSlug]
-    );
-    isBrandPage = brandCheck.rows[0]?.exists || false;
+
+  if (activeBrandSlug) {
+    const normBrandSlug = activeBrandSlug.toLowerCase().trim().replace(/\/$/, "");
+    if (RECOGNIZED_SHOP_BRANDS.has(normBrandSlug)) {
+      isBrandPage = true;
+      activeBrandSlug = normBrandSlug;
+    } else {
+      const brandCheck = await query(
+        `SELECT EXISTS (SELECT 1 FROM products WHERE (LOWER(REGEXP_REPLACE(REGEXP_REPLACE(TRIM(brand), '[^a-zA-Z0-9\\s-]', '', 'g'), '\\s+', '-', 'g')) = $1 OR EXISTS (SELECT 1 FROM brands b WHERE b.id = brand_id AND LOWER(b.slug) = $1)) AND (status IS NULL OR status = 'publish'))`,
+        [normBrandSlug]
+      );
+      if (brandCheck.rows[0]?.exists) {
+        isBrandPage = true;
+        activeBrandSlug = normBrandSlug;
+      }
+    }
   }
 
   if (canonicalSlug) {
     if (isTagPage) {
       tagSlug = canonicalSlug;
-    } else {
+    } else if (!isBrandPage) {
       categorySlug = canonicalSlug;
       if (ANIMAL_STORE_SLUGS[canonicalSlug]) {
         animal = ANIMAL_STORE_SLUGS[canonicalSlug];
@@ -452,8 +497,15 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   }
 
   if (isBrandPage) {
-    sqlParams.push(canonicalSlug);
-    conditions.push(`REPLACE(LOWER(p.brand), ' ', '-') = LOWER($${sqlParams.length})`);
+    const targetBrand = activeBrandSlug || canonicalSlug || brand;
+    const normBrand = targetBrand.toLowerCase().trim().replace(/\s+/g, "-");
+    sqlParams.push(normBrand);
+    conditions.push(`
+      (
+        LOWER(REGEXP_REPLACE(REGEXP_REPLACE(TRIM(p.brand), '[^a-zA-Z0-9\\s-]', '', 'g'), '\\s+', '-', 'g')) = LOWER($${sqlParams.length})
+        OR EXISTS (SELECT 1 FROM brands b WHERE b.id = p.brand_id AND LOWER(b.slug) = LOWER($${sqlParams.length}))
+      )
+    `);
   }
 
   if (categorySlug && categorySlug !== "clearance") {
@@ -597,27 +649,28 @@ export async function loader({ request, params }: Route.LoaderArgs) {
   // Query brand subcategory details if this is a brand page
   let brandCategories: { name: string; slug: string; count: number }[] = [];
   if (isBrandPage) {
-    // Set pageTitle to dynamic brand name
-    const dbCat = categories.find(c => c.slug === canonicalSlug);
-    pageTitle = dbCat ? dbCat.name : canonicalSlug.split("-").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+    const targetBrand = activeBrandSlug || canonicalSlug || brand;
+    const normBrandSlug = targetBrand.toLowerCase().trim().replace(/\s+/g, "-");
+    pageTitle = BRAND_DISPLAY_NAMES[normBrandSlug] || normBrandSlug.split("-").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
 
     const brandRes = await query(`
       SELECT 
         c.slug, 
         c.name,
-        COUNT(p.id) as count
+        COUNT(DISTINCT p.id) as count
       FROM products p
-      JOIN store_prices bbp ON bbp.product_id = p.id AND bbp.store_name = 'PetStore Kenya',
-      LATERAL jsonb_to_recordset(p.categories) AS c(id int, name text, slug text)
-      WHERE REPLACE(LOWER(p.brand), ' ', '-') = LOWER($1)
-      AND p.status = 'publish'
-      AND bbp.in_stock = true
-      AND c.slug != LOWER($1)
-      AND REPLACE(LOWER(c.slug), ' ', '-') != LOWER($1)
-      AND c.slug NOT IN ('dog-supplies-store', 'cat-supplies-store', 'dog', 'cat', 'dog-food', 'cat-food', 'dog-food-treats', 'cat-food-and-treats', 'sale', 'clearance', 'bundles')
+      CROSS JOIN LATERAL jsonb_to_recordset(p.categories) AS c(id int, name text, slug text)
+      WHERE (p.status IS NULL OR p.status = 'publish')
+        AND (
+          LOWER(REGEXP_REPLACE(REGEXP_REPLACE(TRIM(p.brand), '[^a-zA-Z0-9\\s-]', '', 'g'), '\\s+', '-', 'g')) = $1
+          OR EXISTS (SELECT 1 FROM brands b WHERE b.id = p.brand_id AND LOWER(b.slug) = $1)
+        )
+        AND c.slug != $1
+        AND REPLACE(LOWER(c.slug), ' ', '-') != $1
+        AND c.slug NOT IN ('dog-supplies-store', 'cat-supplies-store', 'dog', 'cat', 'dog-food', 'cat-food', 'dog-food-treats', 'cat-food-and-treats', 'sale', 'clearance', 'bundles')
       GROUP BY c.slug, c.name
       ORDER BY c.name ASC
-    `, [canonicalSlug]);
+    `, [normBrandSlug]);
 
     brandCategories = brandRes.rows.map((row: any) => ({
       name: row.name,

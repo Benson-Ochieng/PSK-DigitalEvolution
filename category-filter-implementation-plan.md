@@ -1,13 +1,14 @@
-# Category filter sidebar — implementation plan (v2, corrected against live site)
+# Sidebar Filter Implementation Plan (Categories & Brand Pages)
 
-## 0. Correction from v1 — read this first
+This document contains the unified implementation plan for both **Category Page Sidebar Filters** (Part 1) and **Brand Page Sidebar Filters** (Part 2), matching the live reference site (`petstore.co.ke`).
 
-The first version of this plan conflated two different pieces of UI on the reference site:
+---
 
-1. **The hamburger / mobile nav menu** — a fully nested accordion tree of every category, 3 levels deep. You already have this built. **Out of scope for this doc.**
-2. **The actual sidebar filter widget** that appears on category archive pages — this is what actually needed matching, and it is **not** the nested tree. It's a small, page-specific, flat (non-nested) widget whose content and heading change depending on which category you're viewing.
+# Part 1: Category Page Sidebar Filters
 
-Everything below replaces the frontend/component sections of v1. The product-listing query (recursive descendant matching, for the "297 results" type counts) was correct in v1 and is carried over unchanged.
+## 0. Overview & Scope
+
+The sidebar filter widget that appears on category archive pages is a page-specific, flat (non-nested) widget whose content and heading change depending on which category you're viewing.
 
 ---
 
@@ -66,7 +67,7 @@ No nesting, no expand/collapse, no chevrons, no parent or sibling entries, no an
 
 ## 2. Data model
 
-Carried over from v1, plus a `brands` table (cleaner than the reference site's own approach, which reuses the category taxonomy for brands too — no need to copy that quirk):
+Carried over from v1, plus a `brands` table:
 
 ```sql
 CREATE TABLE categories (
@@ -107,8 +108,6 @@ WHERE parent_id = $1
 ORDER BY name ASC;
 ```
 
-If this returns zero rows, fall through to (b).
-
 **b) Brands stocked in a leaf category** (used for "Filter by brand" mode):
 
 ```sql
@@ -120,7 +119,7 @@ WHERE pc.category_id = $1
 ORDER BY b.name ASC;
 ```
 
-**c) Breadcrumb ancestors** (for "Home / Cat / Cat Food & Treats / Wet Cat Food"):
+**c) Breadcrumb ancestors**:
 
 ```sql
 WITH RECURSIVE ancestors AS (
@@ -132,7 +131,7 @@ WITH RECURSIVE ancestors AS (
 SELECT name, slug FROM ancestors ORDER BY depth DESC;
 ```
 
-**d) Product listing with descendant aggregation** — unchanged from v1, already verified correct: "Cat Food & Treats" shows 297 results (itself + all its descendants combined: Wet Cat Food alone is 129 of those), matching the pattern from "Cat" showing 393 (itself + every descendant across all its branches).
+**d) Product listing with descendant aggregation**:
 
 ```sql
 WITH RECURSIVE descendants AS (
@@ -151,9 +150,7 @@ LIMIT $2 OFFSET $3;
 
 ---
 
-## 4. API endpoint
-
-One endpoint drives the whole category page — breadcrumb, sidebar, and product list — so the frontend never has to decide sidebar mode itself:
+## 4. API Endpoint (Categories)
 
 ```
 GET /api/categories/:slug?page=1&perPage=72
@@ -176,13 +173,9 @@ GET /api/categories/:slug?page=1&perPage=72
 }
 ```
 
-The server decides `mode` by running query (a) first and falling back to (b) — the frontend just renders whatever `sidebar` contains.
-
 ---
 
-## 5. Frontend: sidebar component
-
-Much simpler than the accordion from v1 — no tree, no expand state, no recursion:
+## 5. Frontend: Category Sidebar Component
 
 ```tsx
 type SidebarData = {
@@ -213,44 +206,161 @@ function CategorySidebar({ sidebar, currentSlug }: { sidebar: SidebarData; curre
 }
 ```
 
-The whole widget just re-renders with new props on every category navigation — the server already scoped `items` and `mode` to whichever category is current.
+---
+
+
+<!-- ===================================================================== -->
+<!-- BRAND PAGE SIDEBAR FILTERS (FILTER BY CATEGORY)                       -->
+<!-- The section below covers sidebar filters on Brand Pages                -->
+<!-- ===================================================================== -->
 
 ---
 
-## 6. The `from_cat` cross-filter (worth a deliberate scope decision)
+# Part 2: Brand Page Sidebar Filters (Filter by Category)
 
-Clicking a brand from a leaf category's "Filter by brand" list carries the originating category along as a query param (`?from_cat=wet-cat-food`). On the brand's own category page, that's presumably used to intersect brand + originating category, rather than showing everything that brand makes. Two honest options:
+## 0. Overview & Scope
 
-- **Build the intersection now** — brand page checks for `from_cat` and adds it as an extra `WHERE category_id = X` alongside the brand filter.
-- **Land unfiltered for now** — accept the param, ignore it, treat true intersection as a fast-follow.
+This section covers the mirror-image case of category page filtering: what the sidebar widget does on a **Brand Page** (e.g. `/product-category/reflex/` or `?brand=Reflex`).
 
-Either is reasonable — flagging it so it's a decision you make on purpose rather than a gap you find later.
-
----
-
-## 7. Interaction spec
-
-| Situation | Sidebar shows |
-|---|---|
-| Viewing a category with subcategories (Cat, Cat Food & Treats, etc.) | "Categories" — flat list of its direct children only, nothing deeper, no siblings, no parent |
-| Viewing a leaf category with no subcategories (Wet Cat Food, Cat Treats, etc.) | "Filter by brand" — flat list of brands stocked in that specific category |
-| Clicking any sidebar item | Full navigation to that category's page — the sidebar is replaced by whatever the new page's API response returns. Nothing toggles client-side. |
+The 12 official PetStore Kenya brands are:
+```
+proline, reflex, spectrum, trendline, josera, bonnie,
+king, unique, miglior-cane, royal-canin, montego, thunder
+```
 
 ---
 
-## 8. Carried over from v1, unchanged
+## 1. What Sidebar Shows on Brand Pages
 
-- Recursive descendant product-count query (section 3d above)
-- URL convention: `/product-category/:slug/`
-- Breadcrumb display logic
-- The hamburger nav menu tree you already built — separate component, always fully nested, not touched by any of this
+On a brand page (such as `/product-category/reflex/` or `/product-category/proline/`), the sidebar is titled **"FILTER BY CATEGORY"** and lists every *category* that has products from that specific brand, along with a direct-assignment product count:
+
+```
+Reflex →  Brushes & Fur Removal Tools (1)
+          Brushes, Combs & Fur Removal Tools (1)
+          Bundles (3)
+          Cat Litter (1)
+          Cat Treats (25)
+          Clearance (3)
+          Dog (1)
+          Dog Hygiene & Potty Solutions (5)
+          Dog Treats (17)
+          Dry Cat Food (24)
+          Dry Dog Food (47)
+          Kitten Food (6)
+          Kitten Treats (2)
+          Puppy Food (9)
+          Puppy Treats (6)
+          Shampoo (3)
+          Wet Cat Food (17)
+
+Proline → Bundles (2)
+          Cat Litter (18)
+          Cat Treats (1)
+          Dry Cat Food (13)
+          Dry Dog Food (5)
+          Kitten Food (2)
+          Puppy Food (2)
+          Wet Cat Food (15)
+          Wet Dog Food (3)
+```
+
+On a brand page, brand switching does not belong in the sidebar. Brand switching is handled via the "Shop By Brands" navigation grid. The sidebar's job on brand pages is category faceting.
 
 ---
 
-## 9. Build order
+## 2. The Brand Page Sidebar Rule
 
-1. Add `brands` table + `brand_id` on `products`; backfill brand assignments for existing products.
-2. Build `GET /api/categories/:slug` — category, breadcrumb, mode-detected sidebar, paginated products via the recursive descendant query.
-3. Build the sidebar component — flat list, heading + link target driven entirely by `sidebar.mode`. No client-side state.
-4. Decide and implement the `from_cat` handling (section 6).
-5. QA against the reference site: check a category with children (flat children list), one a couple levels deep, and a true leaf (brand list) — confirm your output has the same *shape*, not necessarily the same counts or brands.
+```
+On a Brand Page:
+  sidebar.heading = "FILTER BY CATEGORY"
+  sidebar.items   = every category with ≥1 product from this brand,
+                     each showing product count, sorted A→Z
+  each item links to /product-category/{category-slug}/?from_brand={brand-slug}
+```
+
+*Note*: This uses **direct-assignment counts** (categories explicitly tagged to products of that brand).
+
+---
+
+## 3. Brand Page Query
+
+```sql
+SELECT c.id, c.name, c.slug, COUNT(DISTINCT p.id) AS product_count
+FROM categories c
+JOIN product_categories pc ON pc.category_id = c.id
+JOIN products p ON p.id = pc.product_id
+WHERE p.brand_id = $1 OR LOWER(p.brand) = LOWER($2)
+GROUP BY c.id, c.name, c.slug
+ORDER BY c.name ASC;
+```
+
+---
+
+## 4. API Endpoint (Brand Pages)
+
+```
+GET /api/brands/:slug?page=1&perPage=72
+```
+
+```json
+{
+  "brand": { "name": "Proline", "slug": "proline" },
+  "sidebar": {
+    "heading": "FILTER BY CATEGORY",
+    "items": [
+      { "name": "Cat Litter", "slug": "cat-litter", "count": 18 },
+      { "name": "Wet Cat Food", "slug": "wet-cat-food", "count": 15 }
+    ]
+  },
+  "productCount": 38,
+  "products": []
+}
+```
+
+---
+
+## 5. Frontend: Brand Page Sidebar Component
+
+```tsx
+type BrandSidebarItem = { name: string; slug: string; count: number };
+
+function BrandCategorySidebar({ items, brandSlug }: { items: BrandSidebarItem[]; brandSlug: string }) {
+  return (
+    <div className="filter-sidebar">
+      <h3>FILTER BY CATEGORY</h3>
+      <ul>
+        {items.map(item => (
+          <li key={item.slug}>
+            <a href={`/product-category/${item.slug}/?from_brand=${brandSlug}`}>
+              {item.name} ({item.count})
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+```
+
+---
+
+## 6. Cross-Filtering (`from_cat` and `from_brand`)
+
+The two sidebar modes form a symmetric cross-filter:
+- From a leaf category page, clicking a brand → `/product-category/{brand}/?from_cat={category}`
+- From a brand page, clicking a category → `/product-category/{category}/?from_brand={brand}`
+
+When receiving the param, the destination page intersects brand + category to display the narrowed product subset.
+
+---
+
+## 7. Unified Build Order
+
+1. **Category Pages (Part 1)**:
+   - Server-side `getSidebarDataForCategory` determines `CATEGORIES` vs `FILTER BY BRAND` vs `none`.
+   - Restrict `FILTER BY BRAND` to allowlist categories and recognized 12 brands with ≥1 products in selected category.
+2. **Brand Pages (Part 2)**:
+   - Compute `FILTER BY CATEGORY` sidebar items for brand pages showing categories with ≥1 products from that brand.
+   - Render `FILTER BY CATEGORY` with product counts on brand pages.
+3. **Cross-Filtering**:
+   - Handle `from_cat` and `from_brand` URL query parameters consistently.
