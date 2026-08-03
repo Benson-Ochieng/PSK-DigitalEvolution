@@ -72,12 +72,11 @@ export async function loader({ request }: Route.LoaderArgs) {
   }
 
   const settingsPath = path.join(process.cwd(), "content", "general-settings.json");
-  let recaptchaSiteKey = process.env.RECAPTCHA_SITE_KEY || "";
+  const recaptchaSiteKey = ""; // Temporarily disabled until console access
   let googleClientId = process.env.GOOGLE_CLIENT_ID || "YOUR_GOOGLE_CLIENT_ID_PLACEHOLDER";
   if (fs.existsSync(settingsPath)) {
     try {
       const parsed = JSON.parse(fs.readFileSync(settingsPath, "utf-8"));
-      recaptchaSiteKey = parsed.recaptchaSiteKey || recaptchaSiteKey;
       if (parsed.googleClientId) {
         googleClientId = parsed.googleClientId;
       }
@@ -92,38 +91,12 @@ export async function action({ request }: Route.ActionArgs) {
   const formData = await request.formData();
   const formType = formData.get("form_type")?.toString();
 
+  // reCAPTCHA server verification temporarily disabled until console access
+  /*
   if (formType === "login" || formType === "register") {
-    const settingsPath = path.join(process.cwd(), "content", "general-settings.json");
-    let recaptchaSecret = "";
-    if (fs.existsSync(settingsPath)) {
-      try {
-        const parsed = JSON.parse(fs.readFileSync(settingsPath, "utf-8"));
-        recaptchaSecret = parsed.recaptchaSecretKey || "";
-      } catch (e) {}
-    }
-
-    if (recaptchaSecret) {
-      const recaptchaResponse = formData.get("g-recaptcha-response")?.toString();
-      if (!recaptchaResponse) {
-        return data({ error: "Please complete the reCAPTCHA to verify that you are not a robot." }, { status: 400 });
-      }
-
-      try {
-        const verifyRes = await fetch("https://www.google.com/recaptcha/api/siteverify", {
-          method: "POST",
-          headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          body: `secret=${encodeURIComponent(recaptchaSecret)}&response=${encodeURIComponent(recaptchaResponse)}`,
-        });
-        const verifyData = await verifyRes.json();
-        if (!verifyData.success) {
-          return data({ error: "reCAPTCHA verification failed. Please try again." }, { status: 400 });
-        }
-      } catch (e) {
-        console.error("reCAPTCHA verification error:", e);
-        return data({ error: "Failed to verify reCAPTCHA. Please try again." }, { status: 500 });
-      }
-    }
+    // Disabled reCAPTCHA check
   }
+  */
 
   // Check if account has been deleted (only block login, allow re-registration)
   const targetEmail = formData.get("email")?.toString().trim().toLowerCase();
@@ -534,27 +507,11 @@ export default function MyAccount() {
   };
 
   function handleLoginSubmit(e: React.FormEvent<HTMLFormElement>) {
-    if (recaptchaSiteKey) {
-      const response = (window as any).grecaptcha?.getResponse(loginWidgetId ?? undefined);
-      if (!response) {
-        e.preventDefault();
-        setClientError("Please complete the reCAPTCHA to verify that you are not a robot.");
-        setShowRecaptchaError(true);
-        return;
-      }
-    }
+    // reCAPTCHA temporarily disabled until console access
   }
 
   function handleRegisterSubmit(e: React.FormEvent<HTMLFormElement>) {
-    if (recaptchaSiteKey) {
-      const response = (window as any).grecaptcha?.getResponse(registerWidgetId ?? undefined);
-      if (!response) {
-        e.preventDefault();
-        setClientError("Please complete the reCAPTCHA to verify that you are not a robot.");
-        setShowRecaptchaError(true);
-        return;
-      }
-    }
+    // reCAPTCHA temporarily disabled until console access
   }
 
   const errorMessage = clientError || actionData?.error;
@@ -853,7 +810,7 @@ export default function MyAccount() {
                       </div>
                     </div>
 
-                    <div id="recaptcha-login" style={{ marginTop: "0.5rem" }}></div>
+                    {/* reCAPTCHA Temporarily Disabled: <div id="recaptcha-login" style={{ marginTop: "0.5rem" }}></div> */}
 
                     <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", marginTop: "0.2rem" }}>
                       <input
@@ -1060,7 +1017,7 @@ export default function MyAccount() {
                       )}
                     </div>
 
-                    <div id="recaptcha-register" style={{ marginTop: "0.5rem" }}></div>
+                    {/* reCAPTCHA Temporarily Disabled: <div id="recaptcha-register" style={{ marginTop: "0.5rem" }}></div> */}
 
                     <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", marginTop: "0.2rem" }}>
                       <input

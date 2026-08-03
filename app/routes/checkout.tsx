@@ -464,12 +464,11 @@ export async function loader({ request }: { request: Request }) {
 
   const settingsPath = await import("path").then(p => p.default.join(process.cwd(), "content", "general-settings.json"));
   const fs = await import("fs").then(f => f.default);
-  let recaptchaSiteKey = process.env.RECAPTCHA_SITE_KEY || "";
+  const recaptchaSiteKey = ""; // Temporarily disabled until console access
   let googleClientId = process.env.GOOGLE_CLIENT_ID || "YOUR_GOOGLE_CLIENT_ID_PLACEHOLDER";
   if (fs.existsSync(settingsPath)) {
     try {
       const parsed = JSON.parse(fs.readFileSync(settingsPath, "utf-8"));
-      recaptchaSiteKey = parsed.recaptchaSiteKey || recaptchaSiteKey;
       if (parsed.googleClientId) {
         googleClientId = parsed.googleClientId;
       }
@@ -483,39 +482,12 @@ export async function action({ request }: { request: Request }) {
   const formData = await request.formData();
   const formType = formData.get("form_type")?.toString();
 
+  // reCAPTCHA verification temporarily disabled until console access
+  /*
   if (formType === "checkout_login" || formType === "checkout_google_login") {
-    const settingsPath = await import("path").then(p => p.default.join(process.cwd(), "content", "general-settings.json"));
-    const fs = await import("fs").then(f => f.default);
-    let recaptchaSecret = "";
-    if (fs.existsSync(settingsPath)) {
-      try {
-        const parsed = JSON.parse(fs.readFileSync(settingsPath, "utf-8"));
-        recaptchaSecret = parsed.recaptchaSecretKey || "";
-      } catch (e) {}
-    }
-
-    if (recaptchaSecret && formType === "checkout_login") {
-      const recaptchaResponse = formData.get("g-recaptcha-response")?.toString();
-      if (!recaptchaResponse) {
-        return data({ error: "Please complete the reCAPTCHA to verify that you are not a robot." }, { status: 400 });
-      }
-
-      try {
-        const verifyRes = await fetch("https://www.google.com/recaptcha/api/siteverify", {
-          method: "POST",
-          headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          body: `secret=${encodeURIComponent(recaptchaSecret)}&response=${encodeURIComponent(recaptchaResponse)}`,
-        });
-        const verifyData = await verifyRes.json();
-        if (!verifyData.success) {
-          return data({ error: "reCAPTCHA verification failed. Please try again." }, { status: 400 });
-        }
-      } catch (e) {
-        console.error("reCAPTCHA verification error:", e);
-        return data({ error: "Failed to verify reCAPTCHA. Please try again." }, { status: 500 });
-      }
-    }
+    // Disabled reCAPTCHA check
   }
+  */
 
   if (formType === "checkout_google_login") {
     const email = formData.get("email")?.toString().trim();
@@ -719,15 +691,7 @@ export default function CheckoutPage() {
 
   function handleLoginSubmit(e: React.FormEvent<HTMLFormElement>) {
     setClientError(null);
-    if (recaptchaSiteKey) {
-      const response = (window as any).grecaptcha?.getResponse(loginWidgetId ?? undefined);
-      if (!response) {
-        e.preventDefault();
-        setClientError("Please complete the reCAPTCHA to verify that you are not a robot.");
-        setShowRecaptchaError(true);
-        return;
-      }
-    }
+    // reCAPTCHA temporarily disabled until console access
   }
 
   // Load and render Google reCAPTCHA v2 script and widgets
@@ -1425,7 +1389,7 @@ export default function CheckoutPage() {
                           />
                         </div>
 
-                        <div id="recaptcha-checkout-login" style={{ marginTop: "0.25rem" }}></div>
+                        {/* reCAPTCHA Temporarily Disabled: <div id="recaptcha-checkout-login" style={{ marginTop: "0.25rem" }}></div> */}
                       </div>
 
                       {/* Right Column: Password */}
@@ -2669,14 +2633,14 @@ export default function CheckoutPage() {
                     <button
                       type="button"
                       onClick={() => {
-                        if (!customerEmail) {
-                          setShowCheckoutLogin(true);
-                          setTimeout(() => {
-                            loginFormRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });
-                          }, 100);
-                        } else {
-                          navigate("/my-account");
-                        }
+                        setShowCheckoutLogin(true);
+                        setTimeout(() => {
+                          loginFormRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });
+                          const emailInput = loginFormRef.current?.querySelector<HTMLInputElement>("input[name='email']");
+                          if (emailInput) {
+                            emailInput.focus();
+                          }
+                        }, 100);
                       }}
                       style={{
                         background: "#ffffff",
