@@ -196,10 +196,30 @@ const NON_BRAND_SLUGS = new Set([
   "n-a"
 ]);
 
+const NO_BRAND_FILTER_CATEGORIES = new Set([
+  "cat-beds-houses",
+  "cat-bowls-and-feeders",
+  "cat-carriers-travels",
+  "cat-collars-leashes-harnesses",
+  "cat-toys",
+  "litter-box-accessories",
+  "dog-beds-furniture",
+  "dog-bowls-feeders",
+  "dog-carriers-travel-accessories",
+  "dog-collars-leashes-harnesses",
+  "dog-toys",
+  "dog-apparel-accessories"
+]);
+
 /**
  * Returns distinct brands with >=1 product in the specified leaf category, ordered A-Z by name.
  */
 export async function getCategoryLeafBrands(categoryId: number, categorySlug?: string): Promise<SidebarItem[]> {
+  const normSlug = categorySlug ? categorySlug.toLowerCase().trim().replace(/\/$/, "") : "";
+  if (normSlug && NO_BRAND_FILTER_CATEGORIES.has(normSlug)) {
+    return [];
+  }
+
   try {
     const res = await query(
       `SELECT DISTINCT b.name, b.slug
