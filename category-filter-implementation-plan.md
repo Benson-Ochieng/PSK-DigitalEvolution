@@ -32,15 +32,20 @@ else:
     sidebar = { heading: "", items: [] } // No sidebar widget rendered
 ```
 
-### Brand Filter Allowlist
+### Brand Filter Allowlist & Product Category Scoping
 `FILTER BY BRAND` **only** applies to leaf pages under the following categories:
 1. `bird-food-treats`
 2. `puppy` (and all subcategories/leafs containing Puppy, e.g., `puppy-food`, `puppy-treats`)
 3. All categories under **Dog Food & Treats** (inner pages / leaf categories)
 4. `kitten` (and all subcategories/leafs containing Kitten, e.g., `kitten-food`, `kitten-treats`)
-5. All categories under **Cat Food & Treats** (inner pages / leaf categories)
+5. All categories under **Cat Food & Treats** (inner pages / leaf categories, e.g., `cat-treats`, `wet-cat-food`, `dry-cat-food`)
 
 All other categories (accessories, supplies, beds, bowls, carriers, toys, etc.) render no brand filter sidebar.
+
+**Brand Filtering Rule**:
+- `FILTER BY BRAND` dynamically lists **only** official recognized shop brands (Bonnie, Josera, King, Montego, Proline, Reflex, Royal Canin, Spectrum, Trendline) that have **≥1 products in the currently selected category**.
+- Brands with 0 products in the selected category are omitted (e.g. `Cat Treats` displays Montego, Proline, Reflex, Spectrum, but omits Bonnie, Josera, King, Royal Canin, Trendline).
+- Unrecognized brand descriptors (e.g. "Churu", "Dashi", "Inaba", "CS", "Maasai Shukas") are excluded.
 
 No nesting, no expand/collapse, no chevrons, no parent or sibling entries, no ancestor context inside the widget itself. It's recomputed fresh, server-side, for whichever category page is being viewed — the browser never toggles it, it just gets a new flat list on navigation.
 

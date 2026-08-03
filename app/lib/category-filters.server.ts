@@ -211,6 +211,18 @@ const NO_BRAND_FILTER_CATEGORIES = new Set([
   "dog-apparel-accessories"
 ]);
 
+const RECOGNIZED_SHOP_BRANDS = new Set([
+  "bonnie",
+  "josera",
+  "king",
+  "montego",
+  "proline",
+  "reflex",
+  "royal-canin",
+  "spectrum",
+  "trendline"
+]);
+
 /**
  * Returns distinct brands with >=1 product in the specified leaf category, ordered A-Z by name.
  */
@@ -238,7 +250,7 @@ export async function getCategoryLeafBrands(categoryId: number, categorySlug?: s
       [categoryId, categorySlug || null]
     );
     const validBrands = res.rows
-      .filter(r => r.name && r.slug && !NON_BRAND_SLUGS.has(r.slug.toLowerCase().trim()))
+      .filter(r => r.name && r.slug && RECOGNIZED_SHOP_BRANDS.has(r.slug.toLowerCase().trim()))
       .map(r => ({ name: r.name, slug: r.slug }));
     if (validBrands.length > 0) {
       return validBrands;
@@ -267,7 +279,7 @@ export async function getCategoryLeafBrands(categoryId: number, categorySlug?: s
       [categoryId, categorySlug || null]
     );
     return res.rows
-      .filter(r => r.name && r.slug && !NON_BRAND_SLUGS.has(r.slug.toLowerCase().trim()))
+      .filter(r => r.name && r.slug && RECOGNIZED_SHOP_BRANDS.has(r.slug.toLowerCase().trim()))
       .map(r => ({ name: r.name, slug: r.slug }));
   } catch (err) {
     console.error("Fallback leaf brands query failed:", err);
