@@ -7,7 +7,6 @@ import { query } from "../db.server";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import PageHeader from "../components/PageHeader";
-import { InteractiveRecaptcha } from "../components/InteractiveRecaptcha";
 import { SHIPPING_ZONES, CITIES } from "./checkout";
 
 export function meta() {
@@ -418,71 +417,7 @@ function getPasswordStrength(password: string) {
   }
 }
 
-function MockRecaptcha() {
-  const [checked, setChecked] = useState(false);
-  return (
-    <div style={{
-      width: "100%",
-      maxWidth: "302px",
-      height: "76px",
-      background: "#f9f9f9",
-      border: "1px solid #d3d3d3",
-      borderRadius: "3px",
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "space-between",
-      padding: "0 12px",
-      boxSizing: "border-box",
-      marginTop: "0.5rem"
-    }}>
-      <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-        <label style={{ display: "inline-flex", alignItems: "center", cursor: "pointer", position: "relative" }}>
-          <input 
-            type="checkbox" 
-            name="mock_recaptcha" 
-            checked={checked}
-            onChange={(e) => setChecked(e.target.checked)}
-            style={{ display: "none" }} 
-          />
-          <div style={{
-            width: "24px",
-            height: "24px",
-            border: "3px solid #2d2d2d", // Bold checkbox outline
-            borderRadius: "2px",
-            backgroundColor: "#ffffff",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            boxSizing: "border-box"
-          }}>
-            {checked && (
-              <svg viewBox="0 0 24 24" style={{ width: "16px", height: "16px" }}>
-                <path 
-                  fill="none" 
-                  stroke="#009933" 
-                  strokeWidth="3.5" 
-                  strokeLinecap="round" 
-                  strokeLinejoin="round" 
-                  d="M4 12l5 5L20 6" 
-                />
-              </svg>
-            )}
-          </div>
-          <span style={{ fontSize: "14px", color: "#2d2d2d", fontFamily: "Roboto, helvetica, arial, sans-serif", marginLeft: "10px", userSelect: "none" }}>I'm not a robot</span>
-        </label>
-      </div>
-      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "2px" }}>
-        <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="reCAPTCHA logo" style={{ width: "32px", height: "32px" }} />
-        <span style={{ fontSize: "8px", color: "#555555", fontFamily: "Roboto, helvetica, arial, sans-serif" }}>reCAPTCHA</span>
-        <div style={{ display: "flex", gap: "4px", fontSize: "8px", fontFamily: "Roboto, helvetica, arial, sans-serif" }}>
-          <a href="https://www.google.com/intl/en/policies/privacy/" target="_blank" rel="noopener noreferrer" style={{ color: "#555555", textDecoration: "none" }}>Privacy</a>
-          <span style={{ color: "#555555" }}>-</span>
-          <a href="https://www.google.com/intl/en/policies/terms/" target="_blank" rel="noopener noreferrer" style={{ color: "#555555", textDecoration: "none" }}>Terms</a>
-        </div>
-      </div>
-    </div>
-  );
-}
+
 
 export default function MyAccount() {
   const { customerName, customerEmail, orders, recaptchaSiteKey, googleClientId, kraPin } = useLoaderData<typeof loader>();
@@ -607,15 +542,6 @@ export default function MyAccount() {
         setShowRecaptchaError(true);
         return;
       }
-    } else {
-      const formData = new FormData(e.currentTarget);
-      const isChecked = formData.get("mock_recaptcha") === "on";
-      if (!isChecked) {
-        e.preventDefault();
-        setClientError("Please complete the reCAPTCHA to verify that you are not a robot.");
-        setShowRecaptchaError(true);
-        return;
-      }
     }
   }
 
@@ -623,15 +549,6 @@ export default function MyAccount() {
     if (recaptchaSiteKey) {
       const response = (window as any).grecaptcha?.getResponse(registerWidgetId ?? undefined);
       if (!response) {
-        e.preventDefault();
-        setClientError("Please complete the reCAPTCHA to verify that you are not a robot.");
-        setShowRecaptchaError(true);
-        return;
-      }
-    } else {
-      const formData = new FormData(e.currentTarget);
-      const isChecked = formData.get("mock_recaptcha") === "on";
-      if (!isChecked) {
         e.preventDefault();
         setClientError("Please complete the reCAPTCHA to verify that you are not a robot.");
         setShowRecaptchaError(true);
@@ -698,8 +615,7 @@ export default function MyAccount() {
     }
   }, [recaptchaSiteKey]);
 
-  // Fallback interactive reCAPTCHA with visual challenge modal
-  const renderMockRecaptcha = () => <InteractiveRecaptcha />;
+
 
   // Address Picker state and logic
   interface CustomerAddress {
@@ -937,11 +853,7 @@ export default function MyAccount() {
                       </div>
                     </div>
 
-                    {recaptchaSiteKey ? (
-                      <div id="recaptcha-login" style={{ marginTop: "0.5rem" }}></div>
-                    ) : (
-                      renderMockRecaptcha()
-                    )}
+                    <div id="recaptcha-login" style={{ marginTop: "0.5rem" }}></div>
 
                     <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", marginTop: "0.2rem" }}>
                       <input
@@ -1148,11 +1060,7 @@ export default function MyAccount() {
                       )}
                     </div>
 
-                    {recaptchaSiteKey ? (
-                      <div id="recaptcha-register" style={{ marginTop: "0.5rem" }}></div>
-                    ) : (
-                      renderMockRecaptcha()
-                    )}
+                    <div id="recaptcha-register" style={{ marginTop: "0.5rem" }}></div>
 
                     <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", marginTop: "0.2rem" }}>
                       <input
