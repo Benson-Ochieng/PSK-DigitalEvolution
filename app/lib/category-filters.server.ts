@@ -185,6 +185,17 @@ export async function getCategoryDirectChildren(categoryId: number): Promise<Sid
   return children.map((c: any) => ({ name: c.name, slug: c.slug }));
 }
 
+const NON_BRAND_SLUGS = new Set([
+  "cs",
+  "maasai-shukas",
+  "maasai-shuka",
+  "generic",
+  "uncategorized",
+  "none",
+  "na",
+  "n-a"
+]);
+
 /**
  * Returns distinct brands with >=1 product in the specified leaf category, ordered A-Z by name.
  */
@@ -206,8 +217,11 @@ export async function getCategoryLeafBrands(categoryId: number, categorySlug?: s
        ORDER BY b.name ASC`,
       [categoryId, categorySlug || null]
     );
-    if (res.rows.length > 0) {
-      return res.rows.map(r => ({ name: r.name, slug: r.slug }));
+    const validBrands = res.rows
+      .filter(r => r.name && r.slug && !NON_BRAND_SLUGS.has(r.slug.toLowerCase().trim()))
+      .map(r => ({ name: r.name, slug: r.slug }));
+    if (validBrands.length > 0) {
+      return validBrands;
     }
   } catch (e) {
     console.warn("DB query for leaf brands failed, running fallback query:", e);
@@ -232,7 +246,9 @@ export async function getCategoryLeafBrands(categoryId: number, categorySlug?: s
        ORDER BY name ASC`,
       [categoryId, categorySlug || null]
     );
-    return res.rows.map(r => ({ name: r.name, slug: r.slug }));
+    return res.rows
+      .filter(r => r.name && r.slug && !NON_BRAND_SLUGS.has(r.slug.toLowerCase().trim()))
+      .map(r => ({ name: r.name, slug: r.slug }));
   } catch (err) {
     console.error("Fallback leaf brands query failed:", err);
     return [];

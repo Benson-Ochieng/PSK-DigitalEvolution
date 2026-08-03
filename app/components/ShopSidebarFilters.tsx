@@ -314,7 +314,7 @@ export default function ShopSidebarFilters({
             })}
           </ul>
         </div>
-      ) : (
+      ) : sidebarData ? null : (
         /* Legacy / Fallback Categories Section */
         filterCategoriesList.length > 0 && (
           <div className="filter-section">

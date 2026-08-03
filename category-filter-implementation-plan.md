@@ -17,16 +17,21 @@ Everything below replaces the frontend/component sections of v1. The product-lis
 |---|---|---|
 | `/product-category/cat-supplies-store/` (Cat — has children) | CATEGORIES | Its 9 direct children, flat, A→Z: Cat Beds & Houses, Cat Bowls & Feeders, Cat Carries Bags & Travel, Cat Collars Leashes Harnesses, Cat Food & Treats, Cat Grooming, Cat Healthcare Supplies, Cat Toys, Litter and Litter Box & Accessories |
 | `/product-category/cat-food-and-treats/` (has children) | CATEGORIES | Its 5 direct children, flat, A→Z: Cat Treats, Dry Cat Food, Kitten Food, Kitten Treats, Wet Cat Food |
-| `/product-category/wet-cat-food/` (a leaf — no children) | FILTER BY BRAND | Brands that actually have products in *this* category, flat, A→Z: Bonnie, Josera, King, Montego, Proline, Reflex, Royal Canin — each linking to `/product-category/{brand}/?from_cat=wet-cat-food` |
+| `/product-category/wet-cat-food/` (a leaf with recognized brands) | FILTER BY BRAND | Brands that actually have products in *this* category, flat, A→Z: Bonnie, Josera, King, Montego, Proline, Reflex, Royal Canin — each linking to `/product-category/{brand}/?from_cat=wet-cat-food` |
+| `/product-category/cat-beds-houses/` (a leaf without brand filters) | (none) | No sidebar widget rendered at all (clean full-width grid / empty sidebar space matching live site). Non-brand strings such as "CS", "Maasai Shukas", or materials/codes are excluded. |
 
 The rule:
 
 ```
 if currentCategory has direct children:
-    sidebar = { heading: "Categories", items: currentCategory's direct children, sorted A→Z }
+    sidebar = { heading: "CATEGORIES", items: currentCategory's direct children, sorted A→Z }
+else if currentCategory has valid recognized brands (items.length > 0):
+    sidebar = { heading: "FILTER BY BRAND", items: recognized brands in currentCategory, sorted A→Z }
 else:
-    sidebar = { heading: "Filter by brand", items: brands with ≥1 product in currentCategory, sorted A→Z }
+    sidebar = { heading: "", items: [] } // No sidebar widget rendered
 ```
+
+*Note*: Non-brand descriptors (e.g. "CS", "Maasai Shukas", "Generic") are strictly excluded from brand filters. When `items` is empty, no sidebar filter widget is rendered.
 
 No nesting, no expand/collapse, no chevrons, no parent or sibling entries, no ancestor context inside the widget itself. It's recomputed fresh, server-side, for whichever category page is being viewed — the browser never toggles it, it just gets a new flat list on navigation.
 
