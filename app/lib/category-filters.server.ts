@@ -311,6 +311,50 @@ export async function getCategoryBreadcrumb(slug: string): Promise<BreadcrumbIte
 }
 
 /**
+ * Checks if Filter by Brand is allowed for a given category.
+ * Filter by Brand ONLY applies to:
+ * - bird-food-treats
+ * - Puppy categories (puppy, puppy-food, puppy-treats)
+ * - All categories under Dog Food & Treats
+ * - Kitten categories (kitten, kitten-food, kitten-treats)
+ * - All categories under Cat Food & Treats
+ */
+export function isBrandFilterAllowedForCategory(slug: string, breadcrumb: BreadcrumbItem[]): boolean {
+  const normSlug = slug.toLowerCase().trim().replace(/\/$/, "");
+  const ancestorSlugs = breadcrumb.map(b => b.slug.toLowerCase().trim().replace(/\/$/, ""));
+
+  if (normSlug === "bird-food-treats" || normSlug.includes("bird-food") || normSlug.includes("bird-treat")) {
+    return true;
+  }
+  if (normSlug.includes("puppy")) {
+    return true;
+  }
+  if (normSlug.includes("kitten")) {
+    return true;
+  }
+  if (
+    ancestorSlugs.includes("dog-food-and-treats") ||
+    ancestorSlugs.includes("cat-food-and-treats") ||
+    ancestorSlugs.includes("dog-food-treats") ||
+    ancestorSlugs.includes("cat-food-treats")
+  ) {
+    return true;
+  }
+  if (
+    normSlug === "dog-treats" ||
+    normSlug === "dry-dog-food" ||
+    normSlug === "wet-dog-food" ||
+    normSlug === "cat-treats" ||
+    normSlug === "dry-cat-food" ||
+    normSlug === "wet-cat-food"
+  ) {
+    return true;
+  }
+
+  return false;
+}
+
+/**
  * Primary helper to compute sidebar data (Categories vs Filter By Brand) for any category slug.
  */
 export async function getSidebarDataForCategory(categorySlug: string): Promise<SidebarData> {
@@ -333,7 +377,17 @@ export async function getSidebarDataForCategory(categorySlug: string): Promise<S
     };
   }
 
-  // Leaf category: fetch brands with products in this category
+  // Leaf category: check if Brand Filter is allowed for this category
+  const breadcrumb = await getCategoryBreadcrumb(category.slug);
+  if (!isBrandFilterAllowedForCategory(category.slug, breadcrumb)) {
+    return {
+      mode: "brands",
+      heading: "",
+      items: []
+    };
+  }
+
+  // Allowed leaf category: fetch brands with products in this category
   const leafBrands = await getCategoryLeafBrands(category.id, category.slug);
   return {
     mode: "brands",

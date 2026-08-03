@@ -17,22 +17,30 @@ Everything below replaces the frontend/component sections of v1. The product-lis
 |---|---|---|
 | `/product-category/cat-supplies-store/` (Cat — has children) | CATEGORIES | Its 9 direct children, flat, A→Z: Cat Beds & Houses, Cat Bowls & Feeders, Cat Carries Bags & Travel, Cat Collars Leashes Harnesses, Cat Food & Treats, Cat Grooming, Cat Healthcare Supplies, Cat Toys, Litter and Litter Box & Accessories |
 | `/product-category/cat-food-and-treats/` (has children) | CATEGORIES | Its 5 direct children, flat, A→Z: Cat Treats, Dry Cat Food, Kitten Food, Kitten Treats, Wet Cat Food |
-| `/product-category/wet-cat-food/` (a leaf with recognized brands) | FILTER BY BRAND | Brands that actually have products in *this* category, flat, A→Z: Bonnie, Josera, King, Montego, Proline, Reflex, Royal Canin — each linking to `/product-category/{brand}/?from_cat=wet-cat-food` |
-| `/product-category/cat-beds-houses/` (a leaf without brand filters) | (none) | No sidebar widget rendered at all (clean full-width grid / empty sidebar space matching live site). Non-brand strings such as "CS", "Maasai Shukas", or materials/codes are excluded. |
-| `/product-category/cat-bowls-and-feeders/` (a leaf without brand filters) | (none) | No sidebar widget rendered at all (clean full-width grid / empty sidebar space matching live site). Accessories/bowls do not render brand filters. |
+| `/product-category/wet-cat-food/` (leaf under Cat Food & Treats) | FILTER BY BRAND | Brands that actually have products in *this* category, flat, A→Z: Bonnie, Josera, King, Montego, Proline, Reflex, Royal Canin — each linking to `/product-category/{brand}/?from_cat=wet-cat-food` |
+| `/product-category/cat-beds-houses/` (non-food leaf) | (none) | No sidebar widget rendered at all. |
+| `/product-category/cat-bowls-and-feeders/` (non-food leaf) | (none) | No sidebar widget rendered at all. |
 
 The rule:
 
 ```
 if currentCategory has direct children:
     sidebar = { heading: "CATEGORIES", items: currentCategory's direct children, sorted A→Z }
-else if currentCategory is not an accessories/supplies leaf AND has valid recognized brands (items.length > 0):
+else if currentCategory is in Brand Filter Allowlist AND has valid recognized brands:
     sidebar = { heading: "FILTER BY BRAND", items: recognized brands in currentCategory, sorted A→Z }
 else:
     sidebar = { heading: "", items: [] } // No sidebar widget rendered
 ```
 
-*Note*: Accessories/equipment categories (Beds & Houses, Bowls & Feeders, Carriers & Travel, Collars & Leashes, Toys) and non-brand descriptors (e.g. "CS", "Maasai Shukas", "Generic") do not display brand filters. When `items` is empty, no sidebar filter widget is rendered.
+### Brand Filter Allowlist
+`FILTER BY BRAND` **only** applies to leaf pages under the following categories:
+1. `bird-food-treats`
+2. `puppy` (and all subcategories/leafs containing Puppy, e.g., `puppy-food`, `puppy-treats`)
+3. All categories under **Dog Food & Treats** (inner pages / leaf categories)
+4. `kitten` (and all subcategories/leafs containing Kitten, e.g., `kitten-food`, `kitten-treats`)
+5. All categories under **Cat Food & Treats** (inner pages / leaf categories)
+
+All other categories (accessories, supplies, beds, bowls, carriers, toys, etc.) render no brand filter sidebar.
 
 No nesting, no expand/collapse, no chevrons, no parent or sibling entries, no ancestor context inside the widget itself. It's recomputed fresh, server-side, for whichever category page is being viewed — the browser never toggles it, it just gets a new flat list on navigation.
 
