@@ -414,7 +414,7 @@ export async function loader({ request, params }: Route.LoaderArgs) {
         OR p.name ILIKE '%clearance%'
       )
     `);
-  } else {
+  } else if (!isBrandPage && !categorySlug && !isTagPage && !urlSearch) {
     conditions.push(`
       NOT (
         (p.categories IS NOT NULL AND jsonb_typeof(p.categories) = 'array' AND EXISTS (
@@ -506,6 +506,20 @@ export async function loader({ request, params }: Route.LoaderArgs) {
       (
         LOWER(REGEXP_REPLACE(REGEXP_REPLACE(TRIM(p.brand), '[^a-zA-Z0-9\\s-]', '', 'g'), '\\s+', '-', 'g')) = LOWER($${sqlParams.length})
         OR EXISTS (SELECT 1 FROM brands b WHERE b.id = p.brand_id AND LOWER(b.slug) = LOWER($${sqlParams.length}))
+        OR (
+          p.categories IS NOT NULL 
+          AND jsonb_typeof(p.categories) = 'array' 
+          AND EXISTS (
+            SELECT 1 
+            FROM jsonb_to_recordset(p.categories) AS x(slug text)
+            WHERE LOWER(x.slug) = LOWER($${sqlParams.length})
+          )
+        )
+        OR EXISTS (
+          SELECT 1 FROM product_categories pc 
+          JOIN categories c ON c.id = pc.category_id 
+          WHERE pc.product_id = p.id AND LOWER(c.slug) = LOWER($${sqlParams.length})
+        )
       )
     `);
   }
