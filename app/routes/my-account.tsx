@@ -398,6 +398,15 @@ export default function MyAccount() {
   const navigate = useNavigate();
   const location = useLocation();
 
+  const loyaltyPoints = (orders || []).reduce((acc: number, o: any) => {
+    const status = String(o.status || "").toLowerCase();
+    if (["completed", "processing", "paid", "shipped", "confirmed"].includes(status)) {
+      const orderAmt = Number(o.total_kes || o.total || 0);
+      return acc + Math.floor(orderAmt / 100);
+    }
+    return acc;
+  }, 0);
+
   const pathname = location.pathname.replace(/\/$/, "");
   let activeTab = "dashboard";
   if (pathname.endsWith("/loyalty-points")) {
@@ -1338,10 +1347,14 @@ export default function MyAccount() {
                   <h3 style={{ fontSize: "1.25rem", fontWeight: 700, color: "#1053a0", marginBottom: "1rem" }}>Your Loyalty Points</h3>
                   <div style={{ background: "#f8fafc", border: "1px solid #e2e8f0", padding: "1.5rem", borderRadius: "6px" }}>
                     <div style={{ fontSize: "1.1rem", marginBottom: "0.5rem" }}>
-                      Active Balance: <strong style={{ color: "#d97706", fontSize: "1.3rem" }}>150 Points</strong>
+                      Active Balance: <strong style={{ color: "#d97706", fontSize: "1.3rem" }}>{loyaltyPoints} Points</strong>
                     </div>
                     <p style={{ color: "#64748b", margin: 0, fontSize: "0.85rem" }}>
-                      150 points translates to KES 150 discount available on your next checkout. Collect more points with every food order you complete!
+                      {loyaltyPoints > 0 ? (
+                        `${loyaltyPoints} points translates to KES ${loyaltyPoints} discount available on your next checkout. Collect more points with every food order you complete!`
+                      ) : (
+                        "You currently have 0 loyalty points. Earn 1 point for every KES 100 spent on completed orders to redeem discounts on future checkouts!"
+                      )}
                     </p>
                   </div>
                 </div>
