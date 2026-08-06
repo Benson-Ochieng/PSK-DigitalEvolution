@@ -4,6 +4,7 @@ import fs from "fs";
 import path from "path";
 import type { Route } from "./+types/my-account";
 import { query } from "../db.server";
+import { getLoyaltyPoints, registerLoyaltyCustomer } from "../lib/loyalty.server";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import PageHeader from "../components/PageHeader";
@@ -42,6 +43,8 @@ export async function loader({ request }: Route.LoaderArgs) {
 
   let orders: any[] = [];
   let kraPin = "";
+  let customerPhone = "";
+  let loyalty = { configured: false, registered: false, balance: 0, total: 0, used: 0, conversionRate: 1.2 };
   if (customerEmail) {
     try {
       const { db } = await import("../lib/db.server");
@@ -61,11 +64,12 @@ export async function loader({ request }: Route.LoaderArgs) {
     orders = res.rows;
 
     try {
-      const custRes = await query(`SELECT name, kra_pin FROM customers WHERE LOWER(email) = $1 LIMIT 1`, [customerEmail.toLowerCase()]);
+      const custRes = await query(`SELECT name, phone, kra_pin FROM customers WHERE LOWER(email) = $1 LIMIT 1`, [customerEmail.toLowerCase()]);
       if (custRes.rows.length > 0) {
         if (custRes.rows[0].name) {
           customerName = custRes.rows[0].name;
         }
+        customerPhone = custRes.rows[0].phone || "";
         kraPin = custRes.rows[0].kra_pin || "";
       }
     } catch (e) {}
@@ -83,7 +87,15 @@ export async function loader({ request }: Route.LoaderArgs) {
     } catch (e) {}
   }
 
-  return { customerName, customerEmail, orders, recaptchaSiteKey, googleClientId, kraPin };
+  if (customerEmail || customerPhone) {
+    try {
+      loyalty = await getLoyaltyPoints({ email: customerEmail, phone: customerPhone, fullname: customerName });
+    } catch (err) {
+      console.error("Error fetching loyalty points:", err);
+    }
+  }
+
+  return { customerName, customerEmail, customerPhone, orders, loyalty, recaptchaSiteKey, googleClientId, kraPin };
 }
 
 export async function action({ request }: Route.ActionArgs) {
@@ -139,6 +151,24 @@ export async function action({ request }: Route.ActionArgs) {
         }
       }
     } catch (e) {}
+  }
+
+  if (formType === "register_loyalty") {
+    const email = formData.get("email")?.toString().trim();
+    const phone = formData.get("phone")?.toString().trim();
+    const fullname = formData.get("fullname")?.toString().trim();
+
+    if (!email && !phone) {
+      return data({ error: "Email or phone number is required to join the loyalty program." }, { status: 400 });
+    }
+
+    try {
+      await registerLoyaltyCustomer({ email, phone, fullname });
+      return data({ success: true, message: "Loyalty account activated successfully." });
+    } catch (err: any) {
+      console.error("Error registering loyalty account:", err);
+      return data({ error: err.message || "Could not activate loyalty account." }, { status: 500 });
+    }
   }
 
   if (formType === "update_account") {
@@ -393,19 +423,13 @@ function getPasswordStrength(password: string) {
 
 
 export default function MyAccount() {
-  const { customerName, customerEmail, orders, recaptchaSiteKey, googleClientId, kraPin } = useLoaderData<typeof loader>();
+  const { customerName, customerEmail, customerPhone, orders, loyalty, recaptchaSiteKey, googleClientId, kraPin } = useLoaderData<typeof loader>();
   const actionData = useActionData<any>();
   const navigate = useNavigate();
   const location = useLocation();
 
-  const loyaltyPoints = (orders || []).reduce((acc: number, o: any) => {
-    const status = String(o.status || "").toLowerCase();
-    if (["completed", "processing", "paid", "shipped", "confirmed"].includes(status)) {
-      const orderAmt = Number(o.total_kes || o.total || 0);
-      return acc + Math.floor(orderAmt / 100);
-    }
-    return acc;
-  }, 0);
+  const loyaltyPoints = Number(loyalty?.balance || 0);
+  const loyaltyValue = Math.round(loyaltyPoints * Number(loyalty?.conversionRate || 1.2));
 
   const pathname = location.pathname.replace(/\/$/, "");
   let activeTab = "dashboard";
@@ -1351,9 +1375,9 @@ export default function MyAccount() {
                     </div>
                     <p style={{ color: "#64748b", margin: 0, fontSize: "0.85rem" }}>
                       {loyaltyPoints > 0 ? (
-                        `${loyaltyPoints} points translates to KES ${loyaltyPoints} discount available on your next checkout. Collect more points with every food order you complete!`
+                        `${loyaltyPoints} points translates to about KES ${loyaltyValue} available on your next checkout. Collect more points with every completed order!`
                       ) : (
-                        "You currently have 0 loyalty points. Earn 1 point for every KES 100 spent on completed orders to redeem discounts on future checkouts!"
+                        loyalty?.registered ? "You currently have 0 loyalty points. Earn points with every completed order and redeem them as PSK Cash at checkout." : "You are not enrolled yet. Join the loyalty program to start earning and redeeming PSK Cash."
                       )}
                     </p>
                   </div>

@@ -1,4 +1,5 @@
-import { withTransaction } from '../db.server';
+import { query, withTransaction } from '../db.server';
+import { creditLoyaltyForOrder, debitLoyaltyForOrder } from '../lib/loyalty.server';
 
 interface OrderItem {
   product_id: number;
@@ -18,6 +19,8 @@ interface OrderRequestBody {
   total_kes: number;
   payment_method?: string;
   notes?: string;
+  loyalty_points_used?: number;
+  loyalty_discount_kes?: number;
   items: OrderItem[];
 }
 
@@ -38,6 +41,8 @@ export async function action({ request }: { request: Request }) {
       total_kes,
       payment_method,
       notes,
+      loyalty_points_used,
+      loyalty_discount_kes,
       items,
     } = body;
 
@@ -60,11 +65,27 @@ export async function action({ request }: { request: Request }) {
       return Response.json({ error: 'Invalid order totals' }, { status: 400 });
     }
 
+    const loyaltyPointsUsed = Math.max(0, Math.floor(Number(loyalty_points_used || 0)));
+    const loyaltyDiscountKes = Math.max(0, Math.floor(Number(loyalty_discount_kes || 0)));
+
+    if (loyaltyDiscountKes > subtotal_kes) {
+      return Response.json({ error: 'Invalid loyalty discount amount' }, { status: 400 });
+    }
+
     // Validate item details
     for (const item of items) {
       if (!item.product_id || !item.product_name || typeof item.qty !== 'number' || item.qty <= 0) {
         return Response.json({ error: 'Invalid item data in order details' }, { status: 400 });
       }
+    }
+
+    try {
+      await query("ALTER TABLE orders ADD COLUMN IF NOT EXISTS loyalty_points_used INTEGER DEFAULT 0");
+      await query("ALTER TABLE orders ADD COLUMN IF NOT EXISTS loyalty_discount_kes NUMERIC DEFAULT 0");
+      await query("ALTER TABLE orders ADD COLUMN IF NOT EXISTS loyalty_status TEXT");
+      await query("ALTER TABLE orders ADD COLUMN IF NOT EXISTS loyalty_error TEXT");
+    } catch (schemaErr) {
+      console.warn('Could not ensure loyalty order columns:', schemaErr);
     }
 
     // --- DATABASE TRANSACTION ---
@@ -129,8 +150,9 @@ export async function action({ request }: { request: Request }) {
       const orderRes = await client.query(
         `INSERT INTO orders
           (customer_name, customer_phone, customer_email, delivery_area,
-           subtotal_kes, delivery_fee_kes, total_kes, payment_method, notes, status)
-         VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, 'pending')
+           subtotal_kes, delivery_fee_kes, total_kes, payment_method, notes, status,
+           loyalty_points_used, loyalty_discount_kes, loyalty_status)
+         VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, 'pending', $10, $11, $12)
          RETURNING id`,
         [
           customer_name?.trim() || null,
@@ -142,6 +164,9 @@ export async function action({ request }: { request: Request }) {
           total_kes,
           payment_method?.trim() || 'cash_on_delivery',
           notes?.trim() || null,
+          loyaltyPointsUsed,
+          loyaltyDiscountKes,
+          loyaltyPointsUsed > 0 ? 'pending_redeem' : 'pending_credit'
         ]
       );
       const newOrderId = orderRes.rows[0].id;
@@ -164,6 +189,43 @@ export async function action({ request }: { request: Request }) {
 
       return newOrderId;
     });
+
+    if (loyaltyPointsUsed > 0) {
+      try {
+        await debitLoyaltyForOrder({
+          email: customer_email,
+          phone: customer_phone,
+          fullname: customer_name,
+          orderId,
+          pointsUsed: loyaltyPointsUsed
+        });
+      } catch (loyaltyErr: any) {
+        await query("UPDATE orders SET loyalty_status = $1, loyalty_error = $2 WHERE id = $3", [
+          'redeem_failed',
+          loyaltyErr?.message || 'Loyalty redemption failed',
+          orderId
+        ]).catch(() => {});
+        return Response.json({ error: loyaltyErr?.message || 'Could not redeem loyalty points.' }, { status: 400 });
+      }
+    }
+
+    try {
+      await creditLoyaltyForOrder({
+        email: customer_email,
+        phone: customer_phone,
+        fullname: customer_name,
+        orderId,
+        eligibleTotal: subtotal_kes,
+      });
+      await query("UPDATE orders SET loyalty_status = $1, loyalty_error = NULL WHERE id = $2", ['credited', orderId]);
+    } catch (loyaltyErr: any) {
+      await query("UPDATE orders SET loyalty_status = $1, loyalty_error = $2 WHERE id = $3", [
+        loyaltyPointsUsed > 0 ? 'redeemed_credit_pending' : 'credit_pending',
+        loyaltyErr?.message || 'Loyalty credit pending',
+        orderId
+      ]).catch(() => {});
+      console.warn('Order placed but loyalty credit did not complete:', loyaltyErr);
+    }
 
     return Response.json({ orderId, success: true });
   } catch (err: any) {

@@ -3,6 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { query } from "../db.server";
+import { getLoyaltyPoints } from "../lib/loyalty.server";
 import { useCart } from "../context/cart";
 import PageHeader from "../components/PageHeader";
 
@@ -448,6 +449,7 @@ export async function loader({ request }: { request: Request }) {
   const customerEmail = emailCookie ? decodeURIComponent(emailCookie.split("=")[1]) : "";
 
   let customerPhone = "";
+  let loyalty = { configured: false, registered: false, balance: 0, total: 0, used: 0, conversionRate: 1.2 };
   if (customerEmail) {
     try {
       const res = await query(
@@ -475,7 +477,15 @@ export async function loader({ request }: { request: Request }) {
     } catch (e) {}
   }
 
-  return { customerName, customerEmail, customerPhone, recaptchaSiteKey, googleClientId };
+  if (customerEmail || customerPhone) {
+    try {
+      loyalty = await getLoyaltyPoints({ email: customerEmail, phone: customerPhone, fullname: customerName });
+    } catch (err) {
+      console.error("Error prefetching loyalty balance:", err);
+    }
+  }
+
+  return { customerName, customerEmail, customerPhone, loyalty, recaptchaSiteKey, googleClientId };
 }
 
 export async function action({ request }: { request: Request }) {
@@ -576,7 +586,7 @@ export async function action({ request }: { request: Request }) {
 }
 
 export default function CheckoutPage() {
-  const { customerName, customerEmail, customerPhone, recaptchaSiteKey, googleClientId } = useLoaderData<typeof loader>();
+  const { customerName, customerEmail, customerPhone, loyalty, recaptchaSiteKey, googleClientId } = useLoaderData<typeof loader>();
   const actionData = useActionData<any>();
   const { items, subtotal, clearCart } = useCart();
   const navigate = useNavigate();
@@ -988,6 +998,11 @@ export default function CheckoutPage() {
   const [couponSuccess, setCouponSuccess] = useState(false);
   const [paymentMethod, setPaymentMethod] = useState<"ipay" | "peach" | "lipampesa">("ipay");
   const [agreedToTerms, setAgreedToTerms] = useState(false);
+  const [loyaltyState, setLoyaltyState] = useState(loyalty);
+  const [loyaltyInput, setLoyaltyInput] = useState("");
+  const [appliedLoyaltyPoints, setAppliedLoyaltyPoints] = useState(0);
+  const [loyaltyMessage, setLoyaltyMessage] = useState("");
+  const [joiningLoyalty, setJoiningLoyalty] = useState(false);
 
   // Order submission states
   const [submitting, setSubmitting] = useState(false);
@@ -1101,7 +1116,58 @@ export default function CheckoutPage() {
     }
   }
 
-  const totalAmount = Math.max(0, subtotal + deliveryFee - discountAmount);
+  const loyaltyConversionRate = Number(loyaltyState?.conversionRate || 1.2);
+  const loyaltyDiscountAmount = Math.min(subtotal - discountAmount, Math.round(appliedLoyaltyPoints * loyaltyConversionRate));
+  const totalAmount = Math.max(0, subtotal + deliveryFee - discountAmount - loyaltyDiscountAmount);
+
+  const handleApplyLoyaltyPoints = () => {
+    const requested = Math.max(0, Math.floor(Number(loyaltyInput || 0)));
+    const available = Math.max(0, Math.floor(Number(loyaltyState?.balance || 0)));
+    const maxByCart = Math.floor(Math.max(0, subtotal - discountAmount) / loyaltyConversionRate);
+    const usable = Math.min(requested, available, maxByCart);
+
+    if (!loyaltyState?.registered) {
+      setLoyaltyMessage("Join the loyalty program first to use PSK Cash.");
+      return;
+    }
+    if (usable <= 0) {
+      setAppliedLoyaltyPoints(0);
+      setLoyaltyMessage("Enter loyalty points available in your balance.");
+      return;
+    }
+    setAppliedLoyaltyPoints(usable);
+    setLoyaltyInput(String(usable));
+    setLoyaltyMessage(`Applied ${usable} points (-KES ${Math.round(usable * loyaltyConversionRate).toLocaleString()})`);
+  };
+
+  const handleJoinLoyalty = async () => {
+    if (!recipientEmail.trim() && !recipientPhone.trim()) {
+      setLoyaltyMessage("Please enter your email or phone number first.");
+      return;
+    }
+    setJoiningLoyalty(true);
+    setLoyaltyMessage("");
+    try {
+      const res = await fetch("/api/loyalty", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          intent: "register",
+          email: recipientEmail,
+          phone: recipientPhone,
+          fullname: `${firstName} ${lastName}`.trim()
+        })
+      });
+      const data = await res.json();
+      if (!res.ok || !data.success) throw new Error(data.error || "Could not join loyalty program.");
+      setLoyaltyState(data.loyalty || { ...loyaltyState, registered: true });
+      setLoyaltyMessage("Loyalty account activated. You can now earn and redeem PSK Cash.");
+    } catch (error: any) {
+      setLoyaltyMessage(error.message || "Could not join loyalty program.");
+    } finally {
+      setJoiningLoyalty(false);
+    }
+  };
 
   // Dynamically validate coupon code against database & API
   const handleApplyCoupon = async () => {
@@ -1274,7 +1340,7 @@ export default function CheckoutPage() {
 
     const lines = items.map(i => `• ${i.name} x${i.quantity} — KES ${(i.price * i.quantity).toLocaleString()}`).join("\n");
     const msg = encodeURIComponent(
-      `Hi PetStore Kenya! I'd like to place an order via WhatsApp:\n\n${lines}\n\nSubtotal: KES ${subtotal.toLocaleString()}\nDelivery Fee (${deliveryFeeLabel}): KES ${deliveryFee.toLocaleString()}\nDiscount: KES ${discountAmount.toLocaleString()}\nTOTAL: KES ${totalAmount.toLocaleString()}\n\nName: ${firstName} ${lastName}\nPhone: ${recipientPhone}\nNeighbourhood: ${selectedZone} (${shippingMethod === "express" ? "Express Shipping" : "Standard Shipping"})\nAddress: ${streetAddress}, ${apartmentInfo || ""}\nNotes: ${orderNotes || "None"}`
+      `Hi PetStore Kenya! I'd like to place an order via WhatsApp:\n\n${lines}\n\nSubtotal: KES ${subtotal.toLocaleString()}\nDelivery Fee (${deliveryFeeLabel}): KES ${deliveryFee.toLocaleString()}\nDiscount: KES ${(discountAmount + loyaltyDiscountAmount).toLocaleString()}\nTOTAL: KES ${totalAmount.toLocaleString()}\n\nName: ${firstName} ${lastName}\nPhone: ${recipientPhone}\nNeighbourhood: ${selectedZone} (${shippingMethod === "express" ? "Express Shipping" : "Standard Shipping"})\nAddress: ${streetAddress}, ${apartmentInfo || ""}\nNotes: ${orderNotes || "None"}`
     );
     window.open(`https://wa.me/254795350292?text=${msg}`, "_blank");
     clearCart();
@@ -2526,6 +2592,23 @@ export default function CheckoutPage() {
                       </div>
                     )}
 
+                    {appliedLoyaltyPoints > 0 && loyaltyDiscountAmount > 0 && (
+                      <div style={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                        padding: "0.75rem 1rem",
+                        fontWeight: "bold",
+                        fontSize: "0.9rem",
+                        color: "#16a34a",
+                        background: "#f0fdf4",
+                        borderBottom: "1px solid #dcfce7"
+                      }}>
+                        <span>PSK Cash</span>
+                        <span>-{loyaltyDiscountAmount.toLocaleString()}KSh</span>
+                      </div>
+                    )}
+
+                    {/* PSK Cash Row */}
                     {/* Coupon Box */}
                     <div style={{
                       padding: "0.75rem 1rem",
@@ -2621,41 +2704,52 @@ export default function CheckoutPage() {
                     <div style={{ fontWeight: "bold", fontSize: "0.9rem", color: "#333", display: "flex", alignItems: "center", gap: "0.3rem" }}>
                       🎁 Loyalty Points & PSK Cash
                     </div>
-                    <div style={{
-                      color: "#515151",
-                      fontSize: "0.8rem",
-                      lineHeight: 1.4,
-                      marginTop: "0.6rem",
-                      marginBottom: "1rem"
-                    }}>
-                      Earn points with every purchase and redeem them for discounts. Login to your PetStore Kenya account to view and use your loyalty points.
-                    </div>
-                    <button
-                      type="button"
-                      onClick={() => {
-                        setShowCheckoutLogin(true);
-                        setTimeout(() => {
-                          loginFormRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });
-                          const emailInput = loginFormRef.current?.querySelector<HTMLInputElement>("input[name='email']");
-                          if (emailInput) {
-                            emailInput.focus();
-                          }
-                        }, 100);
-                      }}
-                      style={{
-                        background: "#ffffff",
-                        color: "#1E5DA7",
-                        border: "1px solid #bbd2e8",
-                        borderRadius: "4px",
-                        padding: "0.5rem 1rem",
-                        fontWeight: "bold",
-                        fontSize: "0.85rem",
-                        cursor: "pointer",
-                        width: "100%"
-                      }}
-                    >
-                      Login to view your points
-                    </button>
+                    {customerEmail || recipientEmail ? (
+                      loyaltyState?.registered ? (
+                        <>
+                          <div style={{ color: "#515151", fontSize: "0.8rem", lineHeight: 1.4, marginTop: "0.6rem", marginBottom: "0.75rem" }}>
+                            Balance: <strong>{Number(loyaltyState.balance || 0).toLocaleString()} points</strong> ≈ KES {Math.round(Number(loyaltyState.balance || 0) * loyaltyConversionRate).toLocaleString()}.
+                          </div>
+                          {appliedLoyaltyPoints > 0 && (
+                            <div style={{ background: "#f0fdf4", color: "#166534", padding: "0.5rem", borderRadius: "4px", fontSize: "0.8rem", marginBottom: "0.65rem", display: "flex", justifyContent: "space-between", gap: "0.5rem" }}>
+                              <span>Applied: {appliedLoyaltyPoints} points (-KES {loyaltyDiscountAmount.toLocaleString()})</span>
+                              <button type="button" onClick={() => { setAppliedLoyaltyPoints(0); setLoyaltyInput(""); setLoyaltyMessage(""); }} style={{ border: 0, background: "transparent", color: "#b91c1c", fontWeight: "bold", cursor: "pointer" }}>Reset</button>
+                            </div>
+                          )}
+                          <div style={{ display: "flex", gap: "0.5rem" }}>
+                            <input
+                              type="number"
+                              min="0"
+                              max={Number(loyaltyState.balance || 0)}
+                              placeholder="Add points"
+                              value={loyaltyInput}
+                              onChange={e => setLoyaltyInput(e.target.value)}
+                              style={{ flex: 1, padding: "0.5rem", border: "1px solid #c2c2c2", borderRadius: "4px", fontSize: "0.85rem" }}
+                            />
+                            <button type="button" onClick={handleApplyLoyaltyPoints} style={{ background: "#1053a0", color: "#fff", border: 0, borderRadius: "4px", padding: "0.5rem 1rem", fontWeight: "bold", cursor: "pointer" }}>Apply</button>
+                          </div>
+                        </>
+                      ) : (
+                        <>
+                          <div style={{ color: "#515151", fontSize: "0.8rem", lineHeight: 1.4, marginTop: "0.6rem", marginBottom: "1rem" }}>
+                            Create your free loyalty account to earn points on this order and redeem PSK Cash later.
+                          </div>
+                          <button type="button" disabled={joiningLoyalty} onClick={handleJoinLoyalty} style={{ background: "#1053a0", color: "#ffffff", border: "none", borderRadius: "4px", padding: "0.55rem 1rem", fontWeight: "bold", fontSize: "0.85rem", cursor: joiningLoyalty ? "not-allowed" : "pointer", width: "100%" }}>
+                            {joiningLoyalty ? "Joining..." : "Join Now"}
+                          </button>
+                        </>
+                      )
+                    ) : (
+                      <>
+                        <div style={{ color: "#515151", fontSize: "0.8rem", lineHeight: 1.4, marginTop: "0.6rem", marginBottom: "1rem" }}>
+                          Earn points with every purchase and redeem them for discounts. Login to view and use your loyalty points.
+                        </div>
+                        <button type="button" onClick={() => { setShowCheckoutLogin(true); setTimeout(() => loginFormRef.current?.scrollIntoView({ behavior: "smooth", block: "center" }), 100); }} style={{ background: "#ffffff", color: "#1E5DA7", border: "1px solid #bbd2e8", borderRadius: "4px", padding: "0.5rem 1rem", fontWeight: "bold", fontSize: "0.85rem", cursor: "pointer", width: "100%" }}>
+                          Login to view your points
+                        </button>
+                      </>
+                    )}
+                    {loyaltyMessage && <div style={{ marginTop: "0.55rem", fontSize: "0.8rem", color: loyaltyMessage.includes("Applied") || loyaltyMessage.includes("activated") ? "#16a34a" : "#b45309", fontWeight: 500 }}>{loyaltyMessage}</div>}
                   </div>
 
                   {/* Payment Option radios */}

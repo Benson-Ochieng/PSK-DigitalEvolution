@@ -1,4 +1,5 @@
 import { query } from "../db.server";
+import { searchRagProducts } from "./rag-search.server";
 
 let dictionaryCache: Set<string> | null = null;
 let lastDictionaryBuild = 0;
@@ -266,6 +267,58 @@ export async function handleSearch(request: Request) {
   let dbProducts: any[] = [];
   let finalSearchTerm = trimmed;
   let isAutocorrected = false;
+  let searchMode = "local";
+
+  try {
+    const rag = await searchRagProducts({ query: trimmed, perPage: 24, inStock: true });
+    if (rag?.products?.length) {
+      const results = rag.products;
+      const lowerFinal = finalSearchTerm.toLowerCase();
+      const brands = [...new Set(results.map((p: any) => p.brand).filter(Boolean))].slice(0, 4);
+      const foodTypes = [...new Set(results.map((p: any) => p.food_type).filter(Boolean))].slice(0, 2);
+      const suggestionsSet = new Set<string>();
+
+      brands.forEach((b: any) => suggestionsSet.add(`${String(b).toLowerCase()} ${lowerFinal}`));
+      foodTypes.forEach((t: any) => suggestionsSet.add(`${lowerFinal} ${t === "dry" || t === "wet" ? "food" : t}`));
+
+      if (suggestionsSet.size === 0) {
+        results.slice(0, 3).forEach((p: any) => {
+          const parts = String(p.name || "").split(" ");
+          if (parts.length > 2) suggestionsSet.add(`${parts[0].toLowerCase()} ${parts[1].toLowerCase()}`);
+        });
+      }
+
+      const animalCounts: { [key: string]: number } = {};
+      const foodTypeCounts: { [key: string]: number } = {};
+      results.forEach((p: any) => {
+        if (p.animal_type) {
+          const a = p.animal_type.charAt(0).toUpperCase() + p.animal_type.slice(1);
+          animalCounts[a] = (animalCounts[a] || 0) + 1;
+        }
+        if (p.food_type) {
+          const f = p.food_type.charAt(0).toUpperCase() + p.food_type.slice(1);
+          foodTypeCounts[f] = (foodTypeCounts[f] || 0) + 1;
+        }
+      });
+
+      const responseData = {
+        suggestions: Array.from(suggestionsSet).slice(0, 6),
+        groups: [
+          ...Object.entries(animalCounts).map(([name, count]) => `${name} (${count})`),
+          ...Object.entries(foodTypeCounts).map(([name, count]) => `${name} (${count})`)
+        ].slice(0, 3),
+        products: results.slice(0, 15),
+        correctedQuery: null,
+        searchMode: rag.mode || "rag",
+        total: rag.total || results.length
+      };
+
+      searchCache[cacheKey] = { data: responseData, timestamp: now };
+      return Response.json(responseData);
+    }
+  } catch (err) {
+    console.warn("RAG search unavailable, using local search:", err);
+  }
 
   try {
     // Try 1: Exact match with whole word boundary
@@ -359,7 +412,9 @@ export async function handleSearch(request: Request) {
     suggestions,
     groups,
     products: results.slice(0, 15),
-    correctedQuery: isAutocorrected ? finalSearchTerm : null
+    correctedQuery: isAutocorrected ? finalSearchTerm : null,
+    searchMode,
+    total: results.length
   };
 
   searchCache[cacheKey] = {
