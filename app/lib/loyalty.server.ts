@@ -221,3 +221,29 @@ export async function debitLoyaltyForOrder(input: LoyaltyOrderInput) {
     source: process.env.LOYALTY_SOURCE || "psk-digital-evolution"
   });
 }
+
+export async function resetLoyaltyCustomer(identity: LoyaltyIdentity) {
+  if (!isLoyaltyConfigured()) return null;
+  const payload = identityPayload(identity);
+  if (!payload.email && !payload.phone) return null;
+
+  try {
+    return await loyaltyRequest("/api/loyalty/reset", payload);
+  } catch (e) {
+    try {
+      const pointsInfo = await getLoyaltyPoints(identity);
+      if (pointsInfo.balance > 0) {
+        await loyaltyRequest("/api/loyalty/points/debit", {
+          ...payload,
+          points_used: pointsInfo.balance,
+          description: "Loyalty points reset due to account deletion",
+          reference_id: `RESET-DELETED-${Date.now()}`,
+          source: process.env.LOYALTY_SOURCE || "psk-digital-evolution"
+        });
+      }
+    } catch (err) {
+      console.error("Failed to reset loyalty points for deleted user:", err);
+    }
+    return null;
+  }
+}

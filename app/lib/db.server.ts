@@ -345,6 +345,88 @@ export function ensureOrderFormat(o: any, dbItems: any[] = []): Order {
   };
 }
 
+export async function anonymizeDeletedCustomerData(email: string): Promise<void> {
+  if (!email) return;
+  const emailLower = email.trim().toLowerCase();
+
+  // 1. Record in deleted_customers
+  try {
+    await pgQuery(`
+      CREATE TABLE IF NOT EXISTS deleted_customers (
+        email TEXT PRIMARY KEY,
+        deleted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+      );
+    `);
+    await pgQuery(
+      "INSERT INTO deleted_customers (email) VALUES ($1) ON CONFLICT DO NOTHING",
+      [emailLower]
+    );
+  } catch (e) {
+    console.error("Failed to record deleted customer email:", e);
+  }
+
+  // 2. Anonymize PostgreSQL orders
+  try {
+    await pgQuery(
+      `UPDATE orders
+       SET customer_email = 'deleted_' || id || '@deleted.invalid',
+           customer_name = 'Deleted Account User',
+           customer_phone = 'N/A'
+       WHERE LOWER(customer_email) = $1`,
+      [emailLower]
+    );
+  } catch (e) {
+    console.error("Failed to anonymize orders in pg:", e);
+  }
+
+  // 3. Delete addresses from customer_addresses
+  try {
+    await pgQuery("DELETE FROM customer_addresses WHERE LOWER(customer_email) = $1", [emailLower]);
+  } catch (e) {}
+
+  // 4. Delete customer from PostgreSQL customers table
+  try {
+    await pgQuery("DELETE FROM customers WHERE LOWER(email) = $1", [emailLower]);
+  } catch (e) {}
+
+  // 5. Anonymize local JSON orders
+  try {
+    const ordersList = readData<Order[]>(ORDERS_FILE, getInitialOrders());
+    let updated = false;
+    ordersList.forEach((o) => {
+      if (o.billing?.email && o.billing.email.toLowerCase() === emailLower) {
+        o.billing.email = `deleted_${o.id}@deleted.invalid`;
+        o.billing.name = "Deleted Account User";
+        o.billing.phone = "N/A";
+        updated = true;
+      }
+    });
+    if (updated) {
+      writeData(ORDERS_FILE, ordersList);
+    }
+  } catch (e) {}
+
+  // 6. Anonymize Supabase orders if configured
+  if (supabase) {
+    try {
+      await supabase
+        .from("orders")
+        .update({
+          customer_email: "deleted@deleted.invalid",
+          customer_name: "Deleted Account User",
+          customer_phone: "N/A"
+        })
+        .ilike("customer_email", emailLower);
+    } catch (e) {}
+  }
+
+  // 7. Reset loyalty points for deleted customer
+  try {
+    const { resetLoyaltyCustomer } = await import("./loyalty.server");
+    await resetLoyaltyCustomer({ email: emailLower });
+  } catch (e) {}
+}
+
 export const db = {
   order: {
     async create(data: Omit<Order, 'status'> & { status?: OrderStatus }): Promise<Order> {
@@ -992,24 +1074,7 @@ export const db = {
       const email = user?.email?.toLowerCase();
 
       if (email) {
-        try {
-          await pgQuery(`
-            CREATE TABLE IF NOT EXISTS deleted_customers (
-              email TEXT PRIMARY KEY,
-              deleted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-            );
-          `);
-          await pgQuery(
-            "INSERT INTO deleted_customers (email) VALUES ($1) ON CONFLICT DO NOTHING",
-            [email]
-          );
-        } catch (e) {
-          console.error("Failed to record deleted customer email:", e);
-        }
-
-        try {
-          await pgQuery("DELETE FROM customers WHERE LOWER(email) = $1", [email]);
-        } catch (e) {}
+        await anonymizeDeletedCustomerData(email);
       }
 
       if (where.id.startsWith("cust-")) {
