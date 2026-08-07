@@ -291,24 +291,34 @@ export async function action({ request }: Route.ActionArgs) {
       return data({ error: "Email and password are required" }, { status: 400 });
     }
 
-    let wpCustomer;
+    let customerName = "";
+    let customerEmail = "";
+
     try {
       const { authenticateWordPressCustomer, syncWordPressCustomer } = await import("../lib/wordpress-auth.server");
-      wpCustomer = await authenticateWordPressCustomer(email, password);
+      const wpCustomer = await authenticateWordPressCustomer(email, password);
       await syncWordPressCustomer(wpCustomer);
+      customerName = wpCustomer.name;
+      customerEmail = wpCustomer.email;
     } catch (err: any) {
-      console.error("WordPress customer login failed:", err);
-      return data({ error: err.message || "Invalid email or password." }, { status: 401 });
+      try {
+        const { authenticateLocalCustomer } = await import("../lib/db.server");
+        const localUser = await authenticateLocalCustomer(email, password);
+        customerName = localUser.name;
+        customerEmail = localUser.email;
+      } catch (localErr: any) {
+        return data({ error: localErr.message || "Invalid email or password." }, { status: 401 });
+      }
     }
 
     const headers = new Headers();
     headers.append(
       "Set-Cookie",
-      `customer_name=${encodeURIComponent(wpCustomer.name)}; Path=/; SameSite=Lax; Max-Age=86400`
+      `customer_name=${encodeURIComponent(customerName)}; Path=/; SameSite=Lax; Max-Age=86400`
     );
     headers.append(
       "Set-Cookie",
-      `customer_email=${encodeURIComponent(wpCustomer.email)}; Path=/; SameSite=Lax; Max-Age=86400`
+      `customer_email=${encodeURIComponent(customerEmail)}; Path=/; SameSite=Lax; Max-Age=86400`
     );
 
     return redirect("/my-account", { headers });
@@ -316,21 +326,40 @@ export async function action({ request }: Route.ActionArgs) {
     const firstName = formData.get("firstName")?.toString().trim();
     const lastName = formData.get("lastName")?.toString().trim();
     const email = formData.get("email")?.toString().trim();
+    const password = formData.get("password")?.toString();
 
-    if (!firstName || !lastName || !email) {
-      return data({ error: "First Name, Last Name and email are required" }, { status: 400 });
+    if (!firstName || !lastName || !email || !password) {
+      return data({ error: "First Name, Last Name, Email, and Password are required." }, { status: 400 });
+    }
+
+    if (password.length < 6) {
+      return data({ error: "Password must be at least 6 characters long." }, { status: 400 });
     }
 
     const name = `${firstName} ${lastName}`;
+    const { hashPassword, db } = await import("../lib/db.server");
+    const passwordHash = hashPassword(password);
 
     try {
       await query("DELETE FROM deleted_customers WHERE LOWER(email) = $1", [email.toLowerCase()]);
     } catch (e) {}
 
+    await query("ALTER TABLE customers ADD COLUMN IF NOT EXISTS password_hash TEXT");
     await query(
-      "INSERT INTO customers (name, email, status) VALUES ($1, $2, 'active') ON CONFLICT (email) DO UPDATE SET name = EXCLUDED.name, status = 'active'",
-      [name, email]
+      "INSERT INTO customers (name, email, status, password_hash) VALUES ($1, $2, 'active', $3) ON CONFLICT (email) DO UPDATE SET name = EXCLUDED.name, status = 'active', password_hash = EXCLUDED.password_hash",
+      [name, email, passwordHash]
     );
+
+    try {
+      await db.user.create({
+        name,
+        email,
+        username: email.split("@")[0],
+        role: "customer",
+        status: "active",
+        passwordHash
+      });
+    } catch (e) {}
 
     const headers = new Headers();
     headers.append(

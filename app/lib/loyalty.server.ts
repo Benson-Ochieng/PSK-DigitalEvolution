@@ -198,6 +198,17 @@ export async function creditLoyaltyForOrder(input: LoyaltyOrderInput) {
   const payload = identityPayload(input);
   if (!payload.email && !payload.phone) return null;
 
+  // Check if customer is registered/enrolled in loyalty program
+  try {
+    const loyaltyStatus = await getLoyaltyPoints({ email: payload.email, phone: payload.phone, fullname: payload.fullname });
+    if (!loyaltyStatus.registered) {
+      console.log(`[Loyalty] Skipping points credit for order #${input.orderId}: ${payload.email || payload.phone} is not enrolled in the loyalty program.`);
+      return null;
+    }
+  } catch (e) {
+    console.warn("[Loyalty] Pre-credit enrollment check failed:", e);
+  }
+
   return loyaltyRequest("/api/loyalty/points/credit", {
     ...payload,
     eligible_total: Number(input.eligibleTotal || 0),

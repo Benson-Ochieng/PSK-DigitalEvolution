@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import crypto from "crypto";
 
 // In a real application, this would be a Prisma client or similar database connection
 // For now, we use persistent JSON files in the content directory to prevent data resetting on server restart.
@@ -425,6 +426,82 @@ export async function anonymizeDeletedCustomerData(email: string): Promise<void>
     const { resetLoyaltyCustomer } = await import("./loyalty.server");
     await resetLoyaltyCustomer({ email: emailLower });
   } catch (e) {}
+}
+
+export function hashPassword(password: string): string {
+  if (!password) return "";
+  return crypto.createHash("sha256").update(password).digest("hex");
+}
+
+export function verifyPassword(password: string, storedHash: string): boolean {
+  if (!password || !storedHash) return false;
+  const hash = crypto.createHash("sha256").update(password).digest("hex");
+  if (storedHash === hash) return true;
+  if (storedHash === password) return true;
+  return false;
+}
+
+export async function authenticateLocalCustomer(email: string, password: string): Promise<User> {
+  const emailLower = email.trim().toLowerCase();
+
+  try {
+    await pgQuery("ALTER TABLE customers ADD COLUMN IF NOT EXISTS password_hash TEXT");
+  } catch (e) {}
+
+  let customerRow: any = null;
+  try {
+    const res = await pgQuery("SELECT * FROM customers WHERE LOWER(email) = $1 LIMIT 1", [emailLower]);
+    if (res && res.rows && res.rows.length > 0) {
+      customerRow = res.rows[0];
+    }
+  } catch (e) {}
+
+  const appUser = await db.user.findUnique({ where: { email: emailLower } });
+
+  if (!customerRow && !appUser) {
+    throw new Error("Invalid email or password.");
+  }
+
+  const status = customerRow?.status || appUser?.status || "active";
+  if (status === "suspended") {
+    throw new Error("Your account has been suspended. Please contact customer support.");
+  }
+
+  const storedHash = customerRow?.password_hash || appUser?.passwordHash || "";
+  const name = customerRow?.name || appUser?.name || emailLower.split("@")[0];
+  const phone = customerRow?.phone || appUser?.phone || "";
+  const username = customerRow?.username || appUser?.username || emailLower.split("@")[0];
+  const role = customerRow?.role || appUser?.role || "customer";
+  const id = customerRow ? `cust-${customerRow.id}` : (appUser?.id || `u-${Math.random().toString(36).substr(2, 9)}`);
+
+  if (storedHash) {
+    const isValid = verifyPassword(password, storedHash);
+    if (!isValid) {
+      throw new Error("Invalid email or password.");
+    }
+  } else {
+    if (password && password.length >= 6) {
+      const hashed = hashPassword(password);
+      try {
+        await pgQuery("UPDATE customers SET password_hash = $1 WHERE LOWER(email) = $2", [hashed, emailLower]);
+      } catch (e) {}
+    } else {
+      throw new Error("Invalid email or password.");
+    }
+  }
+
+  return {
+    id,
+    name,
+    email: emailLower,
+    phone,
+    username,
+    role: role as any,
+    ordersCount: appUser?.ordersCount || 0,
+    createdAt: customerRow?.created_at || appUser?.createdAt || new Date().toISOString().split("T")[0],
+    status: status as any,
+    passwordHash: storedHash || hashPassword(password)
+  };
 }
 
 export const db = {
@@ -912,27 +989,30 @@ export const db = {
       const role = data.role || "administrator";
       const status = data.status || "active";
       const username = data.username || (data.email ? data.email.split("@")[0] : "");
+      const passwordHash = data.passwordHash ? (data.passwordHash.length === 64 ? data.passwordHash : hashPassword(data.passwordHash)) : "";
 
       try {
         await pgQuery("ALTER TABLE customers ADD COLUMN IF NOT EXISTS username TEXT");
         await pgQuery("ALTER TABLE customers ADD COLUMN IF NOT EXISTS role TEXT DEFAULT 'customer'");
         await pgQuery("ALTER TABLE customers ADD COLUMN IF NOT EXISTS status TEXT DEFAULT 'active'");
+        await pgQuery("ALTER TABLE customers ADD COLUMN IF NOT EXISTS password_hash TEXT");
       } catch (e) {}
 
       let createdUser: User | null = null;
 
       try {
         const res = await pgQuery(
-          `INSERT INTO customers (name, email, phone, username, role, status)
-           VALUES ($1, $2, $3, $4, $5, $6)
+          `INSERT INTO customers (name, email, phone, username, role, status, password_hash)
+           VALUES ($1, $2, $3, $4, $5, $6, $7)
            ON CONFLICT (email) DO UPDATE SET
              name = EXCLUDED.name,
              phone = EXCLUDED.phone,
              username = EXCLUDED.username,
              role = EXCLUDED.role,
-             status = EXCLUDED.status
+             status = EXCLUDED.status,
+             password_hash = COALESCE(EXCLUDED.password_hash, customers.password_hash)
            RETURNING id, created_at`,
-          [data.name, data.email, data.phone || null, username, role, status]
+          [data.name, data.email, data.phone || null, username, role, status, passwordHash || null]
         );
         if (res && res.rows && res.rows.length > 0) {
           const row = res.rows[0];
@@ -945,7 +1025,7 @@ export const db = {
             status,
             ordersCount: 0,
             createdAt: createdAtStr,
-            passwordHash: data.passwordHash || ""
+            passwordHash: passwordHash || ""
           };
         }
       } catch (err: any) {

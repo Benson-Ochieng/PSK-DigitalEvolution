@@ -536,24 +536,34 @@ export async function action({ request }: { request: Request }) {
       return data({ error: "Email and password are required" }, { status: 400 });
     }
 
-    let wpCustomer;
+    let customerName = "";
+    let customerEmail = "";
+
     try {
       const { authenticateWordPressCustomer, syncWordPressCustomer } = await import("../lib/wordpress-auth.server");
-      wpCustomer = await authenticateWordPressCustomer(email, password);
+      const wpCustomer = await authenticateWordPressCustomer(email, password);
       await syncWordPressCustomer(wpCustomer);
+      customerName = wpCustomer.name;
+      customerEmail = wpCustomer.email;
     } catch (err: any) {
-      console.error("WordPress checkout login failed:", err);
-      return data({ error: err.message || "Invalid email or password." }, { status: 401 });
+      try {
+        const { authenticateLocalCustomer } = await import("../lib/db.server");
+        const localUser = await authenticateLocalCustomer(email, password);
+        customerName = localUser.name;
+        customerEmail = localUser.email;
+      } catch (localErr: any) {
+        return data({ error: localErr.message || "Invalid email or password." }, { status: 401 });
+      }
     }
 
     const headers = new Headers();
     headers.append(
       "Set-Cookie",
-      `customer_name=${encodeURIComponent(wpCustomer.name)}; Path=/; SameSite=Lax; Max-Age=86400`
+      `customer_name=${encodeURIComponent(customerName)}; Path=/; SameSite=Lax; Max-Age=86400`
     );
     headers.append(
       "Set-Cookie",
-      `customer_email=${encodeURIComponent(wpCustomer.email)}; Path=/; SameSite=Lax; Max-Age=86400`
+      `customer_email=${encodeURIComponent(customerEmail)}; Path=/; SameSite=Lax; Max-Age=86400`
     );
 
     return redirect("/checkout", { headers });
