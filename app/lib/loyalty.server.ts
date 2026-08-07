@@ -69,6 +69,87 @@ function identityPayload(identity: LoyaltyIdentity) {
   return { email, phone, fullname: identity.fullname?.trim() || undefined };
 }
 
+function numberFrom(values: any[], fallback = 0) {
+  for (const value of values) {
+    if (value === null || value === undefined || value === "") continue;
+    const parsed = Number(value);
+    if (Number.isFinite(parsed)) return parsed;
+  }
+
+  return fallback;
+}
+
+function boolFrom(values: any[]) {
+  for (const value of values) {
+    if (value === true || value === "true" || value === 1 || value === "1") return true;
+    if (value === false || value === "false" || value === 0 || value === "0") return false;
+  }
+
+  return null;
+}
+
+function loyaltyCandidates(data: any) {
+  return [
+    data?.points,
+    data?.data?.points,
+    data?.loyalty?.points,
+    data?.data?.loyalty,
+    data?.loyalty,
+    data?.customer,
+    data?.user,
+    data?.data,
+    data
+  ]
+    .filter(Boolean)
+    .map((item) => (typeof item === "number" ? { balance: item, total: item } : item));
+}
+
+function parseLoyaltyPoints(data: any) {
+  const candidates = loyaltyCandidates(data);
+  const values = (keys: string[]) => candidates.flatMap((item) => keys.map((key) => item?.[key]));
+
+  const balance = numberFrom(
+    values(["balance", "available_points", "availablePoints", "current_balance", "points_balance", "points"]),
+    0
+  );
+  const total = numberFrom(
+    values(["total", "total_points", "totalPoints", "earned", "earned_points", "points_earned"]),
+    balance
+  );
+  const used = numberFrom(values(["used", "used_points", "usedPoints", "redeemed", "redeemed_points", "points_used"]), 0);
+  const conversionRate = numberFrom(values(["conversion_rate", "conversionRate", "redemption_rate", "redemptionRate"]), 1.2);
+  const explicitRegistered = boolFrom(
+    values(["registered", "is_registered", "isRegistered", "lp_registered", "enrolled", "is_enrolled", "isEnrolled"])
+  );
+
+  return {
+    configured: true,
+    registered: explicitRegistered ?? (balance > 0 || total > 0 || Boolean(data?.success)),
+    balance,
+    total,
+    used,
+    conversionRate
+  };
+}
+
+function isMissingLoyaltyAccount(error: any) {
+  const message = String(error?.message || "").toLowerCase();
+  return message.includes("not found") || message.includes("not registered") || message.includes("invalid");
+}
+
+function lookupAttempts(payload: ReturnType<typeof identityPayload>) {
+  const attempts = [
+    payload,
+    payload.phone ? { phone: payload.phone, fullname: payload.fullname } : null,
+    payload.email ? { email: payload.email, fullname: payload.fullname } : null
+  ].filter(Boolean) as Record<string, any>[];
+
+  return attempts.filter((attempt, index) => {
+    const key = JSON.stringify(attempt);
+    return attempts.findIndex((candidate) => JSON.stringify(candidate) === key) === index;
+  });
+}
+
 export async function getLoyaltyPoints(identity: LoyaltyIdentity) {
   if (!isLoyaltyConfigured()) {
     return { configured: false, registered: false, balance: 0, total: 0, used: 0, conversionRate: 1.2 };
@@ -79,25 +160,29 @@ export async function getLoyaltyPoints(identity: LoyaltyIdentity) {
     return { configured: true, registered: false, balance: 0, total: 0, used: 0, conversionRate: 1.2 };
   }
 
-  try {
-    const data = await loyaltyRequest("/api/loyalty/points", payload);
-    const points = data?.points || {};
-    const balance = Number(points.balance || points.total || 0);
-    return {
-      configured: true,
-      registered: true,
-      balance,
-      total: Number(points.total || balance),
-      used: Number(points.used || 0),
-      conversionRate: Number(points.conversion_rate || 1.2)
-    };
-  } catch (error: any) {
-    const message = String(error?.message || "").toLowerCase();
-    if (message.includes("not found") || message.includes("not registered") || message.includes("invalid")) {
-      return { configured: true, registered: false, balance: 0, total: 0, used: 0, conversionRate: 1.2 };
+  let fallback = { configured: true, registered: false, balance: 0, total: 0, used: 0, conversionRate: 1.2 };
+
+  for (const attempt of lookupAttempts(payload)) {
+    try {
+      const data = await loyaltyRequest("/api/loyalty/points", attempt);
+      const parsed = parseLoyaltyPoints(data);
+
+      if (parsed.registered && parsed.balance > 0) {
+        return parsed;
+      }
+
+      if (parsed.registered || !fallback.registered) {
+        fallback = parsed;
+      }
+    } catch (error: any) {
+      if (isMissingLoyaltyAccount(error)) {
+        continue;
+      }
+      throw error;
     }
-    throw error;
   }
+
+  return fallback;
 }
 
 export async function registerLoyaltyCustomer(identity: LoyaltyIdentity) {
