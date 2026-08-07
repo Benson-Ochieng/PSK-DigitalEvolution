@@ -800,7 +800,9 @@ export const db = {
           const emailLower = c.email.toLowerCase();
           if (mergedMap.has(emailLower)) {
             const existing = mergedMap.get(emailLower)!;
-            mergedMap.set(emailLower, { ...c, ...existing, role: existing.role || c.role, status: existing.status || c.status });
+            const effectiveRole = (c.role && c.role !== 'customer') ? c.role : (existing.role || c.role);
+            const effectiveStatus = (c.status && c.status !== 'active') ? c.status : (existing.status || c.status);
+            mergedMap.set(emailLower, { ...existing, ...c, role: effectiveRole, status: effectiveStatus });
           } else {
             mergedMap.set(emailLower, c);
           }
@@ -825,42 +827,62 @@ export const db = {
         } catch (e) {}
       }
 
-      if (data.role === "customer") {
-        try {
-          try {
-            await pgQuery("ALTER TABLE customers ADD COLUMN IF NOT EXISTS username TEXT");
-          } catch (e) {}
-          const username = data.username || (data.email ? data.email.split("@")[0] : "");
-          const res = await pgQuery(
-            "INSERT INTO customers (name, email, phone, username) VALUES ($1, $2, $3, $4) RETURNING id, created_at",
-            [data.name, data.email, data.phone || null, username]
-          );
+      const role = data.role || "administrator";
+      const status = data.status || "active";
+      const username = data.username || (data.email ? data.email.split("@")[0] : "");
+
+      try {
+        await pgQuery("ALTER TABLE customers ADD COLUMN IF NOT EXISTS username TEXT");
+        await pgQuery("ALTER TABLE customers ADD COLUMN IF NOT EXISTS role TEXT DEFAULT 'customer'");
+        await pgQuery("ALTER TABLE customers ADD COLUMN IF NOT EXISTS status TEXT DEFAULT 'active'");
+      } catch (e) {}
+
+      let createdUser: User | null = null;
+
+      try {
+        const res = await pgQuery(
+          `INSERT INTO customers (name, email, phone, username, role, status)
+           VALUES ($1, $2, $3, $4, $5, $6)
+           ON CONFLICT (email) DO UPDATE SET
+             name = EXCLUDED.name,
+             phone = EXCLUDED.phone,
+             username = EXCLUDED.username,
+             role = EXCLUDED.role,
+             status = EXCLUDED.status
+           RETURNING id, created_at`,
+          [data.name, data.email, data.phone || null, username, role, status]
+        );
+        if (res && res.rows && res.rows.length > 0) {
           const row = res.rows[0];
           const createdAtStr = row.created_at ? new Date(row.created_at).toISOString().split('T')[0] : new Date().toISOString().split('T')[0];
-          return {
+          createdUser = {
             ...data,
             id: `cust-${row.id}`,
             username,
+            role,
+            status,
             ordersCount: 0,
             createdAt: createdAtStr,
-            status: "active"
+            passwordHash: data.passwordHash || ""
           };
-        } catch (err: any) {
-          console.error("Failed to insert customer into pg in db.user.create:", err);
-          throw new Error(err.message || "Failed to create customer record");
         }
+      } catch (err: any) {
+        console.error("Failed to insert user into pg in db.user.create:", err);
       }
 
-      const id = "u-" + Math.random().toString(36).substr(2, 9);
-      const user: User = {
-        ...data,
-        id,
-        ordersCount: 0,
-        createdAt: new Date().toISOString().split('T')[0]
-      };
+      if (!createdUser) {
+        const id = "u-" + Math.random().toString(36).substr(2, 9);
+        createdUser = {
+          ...data,
+          id,
+          ordersCount: 0,
+          createdAt: new Date().toISOString().split('T')[0]
+        };
+      }
+
       if (supabase) {
         try {
-          const { error } = await supabase.from("users").insert(user);
+          const { error } = await supabase.from("users").insert(createdUser);
           if (error) throw error;
         } catch (err) {
           console.error("Supabase user create failed, falling back to local storage:", err);
@@ -868,9 +890,14 @@ export const db = {
       }
 
       const usersList = readData<User[]>(USERS_FILE, initialUsers);
-      usersList.push(user);
+      const existingIdx = usersList.findIndex(u => u.email.toLowerCase() === data.email.toLowerCase());
+      if (existingIdx !== -1) {
+        usersList[existingIdx] = { ...usersList[existingIdx], ...createdUser };
+      } else {
+        usersList.push(createdUser);
+      }
       writeData(USERS_FILE, usersList);
-      return user;
+      return createdUser;
     },
 
     async update({ where, data }: { where: { id: string }, data: Partial<User> }): Promise<User> {
