@@ -285,62 +285,30 @@ export async function action({ request }: Route.ActionArgs) {
 
   if (formType === "login") {
     const email = formData.get("email")?.toString().trim();
+    const password = formData.get("password")?.toString();
 
-    if (!email) {
-      return data({ error: "Email is required" }, { status: 400 });
+    if (!email || !password) {
+      return data({ error: "Email and password are required" }, { status: 400 });
     }
 
-    const { db } = await import("../lib/db.server");
-    const appUser = await db.user.findUnique({ where: { email } });
-    if (appUser && appUser.status === "suspended") {
-      return data(
-        { error: "Your account has been suspended. Please contact customer support for assistance." },
-        { status: 403 }
-      );
-    }
-
-    // Lookup customer or create
-    const res = await query("SELECT * FROM customers WHERE email = $1", [email]);
-    let name = "";
-
-    if (res.rows.length > 0) {
-      name = res.rows[0].name;
-      // If the customer name was defaulted to "Ben Ochieng", but they exist in db.user, update it
-      if (name === "Ben Ochieng" && appUser && appUser.name) {
-        name = appUser.name;
-        await query("UPDATE customers SET name = $1 WHERE email = $2", [name, email]);
-      }
-    } else {
-      // Check if user exists in db.user
-      if (appUser && appUser.name) {
-        name = appUser.name;
-      } else {
-        // Derive name from email prefix
-        const prefix = email.split("@")[0];
-        name = prefix
-          .split(/[\._\-+]/)
-          .map(part => part.charAt(0).toUpperCase() + part.slice(1))
-          .join(" ");
-      }
-
-      try {
-        await query("SELECT setval(pg_get_serial_sequence('customers', 'id'), COALESCE((SELECT MAX(id) FROM customers), 1))");
-      } catch (e) {}
-
-      await query(
-        "INSERT INTO customers (name, email) VALUES ($1, $2) ON CONFLICT (email) DO UPDATE SET name = EXCLUDED.name",
-        [name, email]
-      );
+    let wpCustomer;
+    try {
+      const { authenticateWordPressCustomer, syncWordPressCustomer } = await import("../lib/wordpress-auth.server");
+      wpCustomer = await authenticateWordPressCustomer(email, password);
+      await syncWordPressCustomer(wpCustomer);
+    } catch (err: any) {
+      console.error("WordPress customer login failed:", err);
+      return data({ error: err.message || "Invalid email or password." }, { status: 401 });
     }
 
     const headers = new Headers();
     headers.append(
       "Set-Cookie",
-      `customer_name=${encodeURIComponent(name)}; Path=/; SameSite=Lax; Max-Age=86400`
+      `customer_name=${encodeURIComponent(wpCustomer.name)}; Path=/; SameSite=Lax; Max-Age=86400`
     );
     headers.append(
       "Set-Cookie",
-      `customer_email=${encodeURIComponent(email)}; Path=/; SameSite=Lax; Max-Age=86400`
+      `customer_email=${encodeURIComponent(wpCustomer.email)}; Path=/; SameSite=Lax; Max-Age=86400`
     );
 
     return redirect("/my-account", { headers });
