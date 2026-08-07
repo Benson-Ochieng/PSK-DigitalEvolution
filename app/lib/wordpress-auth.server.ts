@@ -66,14 +66,57 @@ export async function syncWordPressCustomer(customer: WordPressCustomer) {
   await query("ALTER TABLE customers ADD COLUMN IF NOT EXISTS wordpress_user_id INTEGER");
   await query("ALTER TABLE customers ADD COLUMN IF NOT EXISTS status TEXT DEFAULT 'active'");
 
+  const phone = (customer.phone || "").trim();
+
+  const existingByEmail = await query(
+    "SELECT id FROM customers WHERE LOWER(email) = $1 LIMIT 1",
+    [customer.email.toLowerCase()]
+  );
+
+  if (existingByEmail.rows.length > 0) {
+    await query(
+      `UPDATE customers
+       SET
+         name = $1,
+         phone = CASE
+           WHEN NULLIF($2, '') IS NULL THEN phone
+           WHEN NOT EXISTS (
+             SELECT 1 FROM customers other
+             WHERE other.phone = $2 AND other.id <> customers.id
+           ) THEN $2
+           ELSE phone
+         END,
+         status = 'active',
+         wordpress_user_id = $3
+       WHERE id = $4`,
+      [customer.name, phone, customer.id, existingByEmail.rows[0].id]
+    );
+    return;
+  }
+
+  if (phone) {
+    const existingByPhone = await query(
+      "SELECT id FROM customers WHERE phone = $1 LIMIT 1",
+      [phone]
+    );
+
+    if (existingByPhone.rows.length > 0) {
+      await query(
+        `UPDATE customers
+         SET name = $1,
+             email = $2,
+             status = 'active',
+             wordpress_user_id = $3
+         WHERE id = $4`,
+        [customer.name, customer.email, customer.id, existingByPhone.rows[0].id]
+      );
+      return;
+    }
+  }
+
   await query(
     `INSERT INTO customers (name, email, phone, status, wordpress_user_id)
-     VALUES ($1, $2, NULLIF($3, ''), 'active', $4)
-     ON CONFLICT (email) DO UPDATE SET
-       name = EXCLUDED.name,
-       phone = COALESCE(EXCLUDED.phone, customers.phone),
-       status = 'active',
-       wordpress_user_id = EXCLUDED.wordpress_user_id`,
-    [customer.name, customer.email, customer.phone || "", customer.id]
+     VALUES ($1, $2, NULLIF($3, ''), 'active', $4)`,
+    [customer.name, customer.email, phone, customer.id]
   );
 }
