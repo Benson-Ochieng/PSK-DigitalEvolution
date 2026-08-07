@@ -1,5 +1,5 @@
 import crypto from "crypto";
-import nodemailer from "nodemailer";
+import { Resend } from "resend";
 
 /**
  * Generates a cryptographically secure 6-digit OTP code.
@@ -17,47 +17,30 @@ export function hashOtp(code: string): string {
 }
 
 /**
- * Sends an OTP via Email using Ethereal SMTP for testing.
+ * Sends an OTP via Email using Resend API.
  */
 export async function sendEmailOtp(email: string, code: string): Promise<boolean> {
+  const apiKey = process.env.RESEND_API_KEY;
+  const from = process.env.RESEND_FROM_EMAIL || "PetStore Kenya Admin <onboarding@resend.dev>";
+
+  if (!apiKey) {
+    console.warn("⚠️ RESEND_API_KEY is not configured. Falling back to console OTP logging.");
+    console.log(`
+==================================================
+⚠️ EMAIL 2FA OTP DISPATCH (LOCAL FALLBACK LOG)
+==================================================
+To:      ${email}
+Code:    ${code}
+==================================================
+`);
+    return false;
+  }
+
   try {
-    const user = process.env.ETHEREAL_EMAIL || "urban6@ethereal.email";
-    const pass = process.env.ETHEREAL_PASSWORD || "mywYgw9vSaeNBG4kHY";
-
-    let transporter;
-    let accountInfoForLog = "";
-
-    if (user && pass) {
-      transporter = nodemailer.createTransport({
-        host: "smtp.ethereal.email",
-        port: 587,
-        secure: false,
-        auth: { user, pass }
-      });
-      accountInfoForLog = `Configured Account: ${user}`;
-    } else {
-      const g = global as any;
-      if (!g.__etherealTransporter) {
-        console.log("Generating dynamic Ethereal test account...");
-        const account = await nodemailer.createTestAccount();
-        g.__etherealTransporter = nodemailer.createTransport({
-          host: account.smtp.host,
-          port: account.smtp.port,
-          secure: account.smtp.secure,
-          auth: {
-            user: account.user,
-            pass: account.pass
-          }
-        });
-        g.__etherealAccount = account;
-      }
-      transporter = g.__etherealTransporter;
-      accountInfoForLog = `Dynamic Account: ${g.__etherealAccount.user} (Password: ${g.__etherealAccount.pass})`;
-    }
-
-    const mailOptions = {
-      from: '"PetStore Kenya Admin 2FA" <admin@petstore.co.ke>',
-      to: email,
+    const resend = new Resend(apiKey);
+    const { data, error } = await resend.emails.send({
+      from,
+      to: [email],
       subject: "Your PetStore Kenya Portal Verification Code",
       text: `Your PetStore Kenya administrator portal verification code is ${code}. Please do not share this code.`,
       html: `
@@ -77,28 +60,35 @@ export async function sendEmailOtp(email: string, code: string): Promise<boolean
           <p style="font-size: 12px; color: #a0aec0; text-align: center; margin: 0;">&copy; 2026 PetStore Kenya. All rights reserved.</p>
         </div>
       `
-    };
+    });
 
-    const info = await transporter.sendMail(mailOptions);
-    const previewUrl = nodemailer.getTestMessageUrl(info);
+    if (error) {
+      console.error("Failed to send OTP email via Resend:", error);
+      console.log(`
+==================================================
+⚠️ EMAIL 2FA OTP DISPATCH (FALLBACK LOG)
+==================================================
+To:      ${email}
+Code:    ${code}
+==================================================
+`);
+      return false;
+    }
 
     console.log(`
 ==================================================
-📧 EMAIL 2FA OTP DISPATCH (ETHEREAL TEST)
+📧 EMAIL 2FA OTP DISPATCH (RESEND)
 ==================================================
 To:          ${email}
 Code:        ${code}
 Expires:     5 minutes
-Account:     ${accountInfoForLog}
-Message ID:  ${info.messageId}
-Preview URL: ${previewUrl || "N/A"}
+Resend ID:   ${data?.id}
 ==================================================
 `);
 
     return true;
   } catch (error) {
-    console.error("Failed to send OTP email via Ethereal SMTP:", error);
-    // Fallback: log the code so they can still log in if Ethereal API is down
+    console.error("Unexpected error sending OTP email via Resend:", error);
     console.log(`
 ==================================================
 ⚠️ EMAIL 2FA OTP DISPATCH (FALLBACK LOG)
