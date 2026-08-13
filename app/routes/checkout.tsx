@@ -2749,9 +2749,26 @@ export default function CheckoutPage() {
                         <div style={{ color: "#515151", fontSize: "0.8rem", lineHeight: 1.4, marginTop: "0.6rem", marginBottom: "1rem" }}>
                           Earn points automatically on every purchase! Enter your contact details above or log in to view and redeem your balance.
                         </div>
-                        <button type="button" onClick={() => { setShowCheckoutLogin(true); setTimeout(() => loginFormRef.current?.scrollIntoView({ behavior: "smooth", block: "center" }), 100); }} style={{ background: "#ffffff", color: "#1E5DA7", border: "1px solid #bbd2e8", borderRadius: "4px", padding: "0.5rem 1rem", fontWeight: "bold", fontSize: "0.85rem", cursor: "pointer", width: "100%" }}>
+                        <Link
+                          to="/my-account/loyalty-points"
+                          style={{
+                            display: "block",
+                            textAlign: "center",
+                            background: "#ffffff",
+                            color: "#1E5DA7",
+                            border: "1px solid #bbd2e8",
+                            borderRadius: "4px",
+                            padding: "0.5rem 1rem",
+                            fontWeight: "bold",
+                            fontSize: "0.85rem",
+                            cursor: "pointer",
+                            width: "100%",
+                            textDecoration: "none",
+                            boxSizing: "border-box"
+                          }}
+                        >
                           Login to view your points
-                        </button>
+                        </Link>
                       </>
                     )}
                     {loyaltyMessage && <div style={{ marginTop: "0.55rem", fontSize: "0.8rem", color: loyaltyMessage.includes("Applied") || loyaltyMessage.includes("activated") ? "#16a34a" : "#b45309", fontWeight: 500 }}>{loyaltyMessage}</div>}

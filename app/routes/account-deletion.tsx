@@ -3,7 +3,6 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import PageHeader from "../components/PageHeader";
 import { getPage } from "../lib/content.server";
-import { query } from "../db.server";
 
 export async function loader({ request }: { request: Request }) {
   const url = new URL(request.url);

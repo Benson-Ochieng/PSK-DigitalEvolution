@@ -120,6 +120,8 @@ export async function loader({ request }: Route.LoaderArgs) {
 }
 
 export async function action({ request }: Route.ActionArgs) {
+  const reqUrl = new URL(request.url);
+  const redirectTarget = reqUrl.pathname.startsWith("/my-account") ? reqUrl.pathname : "/my-account";
   const { db } = await import("../lib/db.server");
   const formData = await request.formData();
   const formType = formData.get("form_type")?.toString();
@@ -304,7 +306,7 @@ export async function action({ request }: Route.ActionArgs) {
       `customer_email=${encodeURIComponent(email)}; Path=/; SameSite=Lax; Max-Age=86400`
     );
 
-    return redirect("/my-account", { headers });
+    return redirect(redirectTarget, { headers });
   }
 
   if (formType === "login") {
@@ -345,7 +347,7 @@ export async function action({ request }: Route.ActionArgs) {
       `customer_email=${encodeURIComponent(customerEmail)}; Path=/; SameSite=Lax; Max-Age=86400`
     );
 
-    return redirect("/my-account", { headers });
+    return redirect(redirectTarget, { headers });
   } else if (formType === "register") {
     const firstName = formData.get("firstName")?.toString().trim();
     const lastName = formData.get("lastName")?.toString().trim();
@@ -395,7 +397,7 @@ export async function action({ request }: Route.ActionArgs) {
       `customer_email=${encodeURIComponent(email)}; Path=/; SameSite=Lax; Max-Age=86400`
     );
 
-    return redirect("/my-account", { headers });
+    return redirect(redirectTarget, { headers });
   }
 
   return {};
