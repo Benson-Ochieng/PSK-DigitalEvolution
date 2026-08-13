@@ -198,24 +198,29 @@ export async function creditLoyaltyForOrder(input: LoyaltyOrderInput) {
   const payload = identityPayload(input);
   if (!payload.email && !payload.phone) return null;
 
-  // Check if customer is registered/enrolled in loyalty program
-  try {
-    const loyaltyStatus = await getLoyaltyPoints({ email: payload.email, phone: payload.phone, fullname: payload.fullname });
-    if (!loyaltyStatus.registered) {
-      console.log(`[Loyalty] Skipping points credit for order #${input.orderId}: ${payload.email || payload.phone} is not enrolled in the loyalty program.`);
-      return null;
-    }
-  } catch (e) {
-    console.warn("[Loyalty] Pre-credit enrollment check failed:", e);
-  }
-
-  return loyaltyRequest("/api/loyalty/points/credit", {
+  const creditPayload = {
     ...payload,
     eligible_total: Number(input.eligibleTotal || 0),
     description: input.description || `Purchase on PSK Digital Evolution order #${input.orderId}`,
     reference_id: `EARN-PSKDE-${input.orderId}`,
     source: process.env.LOYALTY_SOURCE || "psk-digital-evolution"
-  });
+  };
+
+  try {
+    return await loyaltyRequest("/api/loyalty/points/credit", creditPayload);
+  } catch (err: any) {
+    if (isMissingLoyaltyAccount(err)) {
+      try {
+        console.log(`[Loyalty] Customer ${payload.email || payload.phone} not registered yet. Auto-registering for order #${input.orderId}...`);
+        await registerLoyaltyCustomer(payload);
+        return await loyaltyRequest("/api/loyalty/points/credit", creditPayload);
+      } catch (regErr: any) {
+        console.error("[Loyalty] Auto-registration or credit retry failed:", regErr);
+        throw regErr;
+      }
+    }
+    throw err;
+  }
 }
 
 export async function debitLoyaltyForOrder(input: LoyaltyOrderInput) {

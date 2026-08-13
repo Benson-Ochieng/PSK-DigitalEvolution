@@ -1374,7 +1374,7 @@ export default function MyAccount() {
                       {loyaltyPoints > 0 ? (
                         `${loyaltyPoints} points translates to about KES ${loyaltyValue} available on your next checkout. Collect more points with every completed order!`
                       ) : (
-                        loyalty?.registered ? "You currently have 0 loyalty points. Earn points with every completed order and redeem them as PSK Cash at checkout." : "You are not enrolled yet. Join the loyalty program to start earning and redeeming PSK Cash."
+                        "You currently have 0 loyalty points. You earn loyalty points automatically on every completed order—start shopping to accumulate PSK Cash!"
                       )}
                     </p>
                   </div>
