@@ -18,46 +18,25 @@ export function hashOtp(code: string): string {
 }
 
 /**
- * Sends an OTP via Email using Ethereal SMTP (Active Transport).
+ * Sends an OTP via Email using Google SMTP (Active Transport).
  */
 export async function sendEmailOtp(email: string, code: string): Promise<boolean> {
   try {
-    const user = process.env.ETHEREAL_EMAIL || "urban6@ethereal.email";
-    const pass = process.env.ETHEREAL_PASSWORD || "mywYgw9vSaeNBG4kHY";
+    const host = process.env.SMTP_HOST || "smtp.gmail.com";
+    const port = Number(process.env.SMTP_PORT) || 465;
+    const user = process.env.SMTP_USER || "ben@granularit.com";
+    const pass = process.env.SMTP_PASS || "fklwxavfqbxtysrv";
+    const from = process.env.SMTP_FROM || '"PetStore Kenya Admin 2FA" <ben@granularit.com>';
 
-    let transporter;
-    let accountInfoForLog = "";
-
-    if (user && pass) {
-      transporter = nodemailer.createTransport({
-        host: "smtp.ethereal.email",
-        port: 587,
-        secure: false,
-        auth: { user, pass }
-      });
-      accountInfoForLog = `Configured Account: ${user}`;
-    } else {
-      const g = global as any;
-      if (!g.__etherealTransporter) {
-        console.log("Generating dynamic Ethereal test account...");
-        const account = await nodemailer.createTestAccount();
-        g.__etherealTransporter = nodemailer.createTransport({
-          host: account.smtp.host,
-          port: account.smtp.port,
-          secure: account.smtp.secure,
-          auth: {
-            user: account.user,
-            pass: account.pass
-          }
-        });
-        g.__etherealAccount = account;
-      }
-      transporter = g.__etherealTransporter;
-      accountInfoForLog = `Dynamic Account: ${g.__etherealAccount.user} (Password: ${g.__etherealAccount.pass})`;
-    }
+    const transporter = nodemailer.createTransport({
+      host,
+      port,
+      secure: port === 465,
+      auth: { user, pass }
+    });
 
     const mailOptions = {
-      from: '"PetStore Kenya Admin 2FA" <admin@petstore.co.ke>',
+      from,
       to: email,
       subject: "Your PetStore Kenya Portal Verification Code",
       text: `Your PetStore Kenya administrator portal verification code is ${code}. Please do not share this code.`,
@@ -81,24 +60,23 @@ export async function sendEmailOtp(email: string, code: string): Promise<boolean
     };
 
     const info = await transporter.sendMail(mailOptions);
-    const previewUrl = nodemailer.getTestMessageUrl(info);
 
     console.log(`
 ==================================================
-📧 EMAIL 2FA OTP DISPATCH (ETHEREAL SMTP)
+📧 EMAIL 2FA OTP DISPATCH (GOOGLE SMTP)
 ==================================================
 To:          ${email}
+From:        ${from}
 Code:        ${code}
 Expires:     5 minutes
-Account:     ${accountInfoForLog}
+Account:     ${user}
 Message ID:  ${info.messageId}
-Preview URL: ${previewUrl || "N/A"}
 ==================================================
 `);
 
     return true;
   } catch (error) {
-    console.error("Failed to send OTP email via Ethereal SMTP:", error);
+    console.error("Failed to send OTP email via Google SMTP:", error);
     // Fallback: log the code so login is never blocked
     console.log(`
 ==================================================
@@ -116,7 +94,7 @@ Code:    ${code}
 ===================================================================
   RESEND IMPLEMENTATION (Commented Out for Future Use)
   To switch back to Resend once your domain DNS is verified:
-  1. Uncomment the Resend implementation below & comment out Ethereal above.
+  1. Uncomment the Resend implementation below & comment out Google SMTP above.
   2. Set RESEND_API_KEY & RESEND_FROM_EMAIL in .env.
 ===================================================================
 
