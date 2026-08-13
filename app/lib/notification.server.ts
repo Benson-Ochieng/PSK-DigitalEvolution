@@ -26,7 +26,7 @@ export async function sendEmailOtp(email: string, code: string): Promise<boolean
     const port = Number(process.env.SMTP_PORT) || 465;
     const user = process.env.SMTP_USER || "ben@granularit.com";
     const pass = process.env.SMTP_PASS || "fklwxavfqbxtysrv";
-    const from = process.env.SMTP_FROM || '"PetStore Kenya Admin 2FA" <ben@granularit.com>';
+    const from = process.env.SMTP_FROM || '"PSK - Digital Evolution Admin 2FA" <ben@granularit.com>';
 
     const transporter = nodemailer.createTransport({
       host,
@@ -38,13 +38,13 @@ export async function sendEmailOtp(email: string, code: string): Promise<boolean
     const mailOptions = {
       from,
       to: email,
-      subject: "Your PetStore Kenya Portal Verification Code",
-      text: `Your PetStore Kenya administrator portal verification code is ${code}. Please do not share this code.`,
+      subject: "Your PSK - Digital Evolution Portal Verification Code",
+      text: `Your PSK - Digital Evolution administrator portal verification code is ${code}. Please do not share this code.`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px; background-color: #ffffff;">
-          <h2 style="color: #1e5da7; text-align: center; margin-bottom: 24px;">PetStore Kenya Admin Verification</h2>
+          <h2 style="color: #1e5da7; text-align: center; margin-bottom: 24px;">PSK - Digital Evolution Admin Verification</h2>
           <p style="font-size: 16px; color: #4a5568; line-height: 1.5;">Hello,</p>
-          <p style="font-size: 16px; color: #4a5568; line-height: 1.5;">You are attempting to log in to the PetStore Kenya Enterprise Administration Hub. Use the security code below to complete your authentication:</p>
+          <p style="font-size: 16px; color: #4a5568; line-height: 1.5;">You are attempting to log in to the PSK - Digital Evolution Enterprise Administration Hub. Use the security code below to complete your authentication:</p>
           
           <div style="text-align: center; margin: 32px 0;">
             <span style="display: inline-block; font-size: 32px; font-weight: bold; color: #a50011; letter-spacing: 6px; padding: 12px 24px; border: 2px dashed #00ccff; border-radius: 6px; background-color: #f7fafc;">
@@ -54,7 +54,7 @@ export async function sendEmailOtp(email: string, code: string): Promise<boolean
           
           <p style="font-size: 14px; color: #718096; line-height: 1.5; text-align: center;">This code will expire in <strong>5 minutes</strong>. If you did not request this login attempt, please secure your account credentials immediately.</p>
           <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 24px 0;" />
-          <p style="font-size: 12px; color: #a0aec0; text-align: center; margin: 0;">&copy; 2026 PetStore Kenya. All rights reserved.</p>
+          <p style="font-size: 12px; color: #a0aec0; text-align: center; margin: 0;">&copy; 2026 PSK - Digital Evolution. All rights reserved.</p>
         </div>
       `
     };
@@ -100,7 +100,7 @@ Code:    ${code}
 
 export async function sendEmailOtpViaResend(email: string, code: string): Promise<boolean> {
   const apiKey = process.env.RESEND_API_KEY;
-  const from = process.env.RESEND_FROM_EMAIL || "PetStore Kenya Admin <onboarding@resend.dev>";
+  const from = process.env.RESEND_FROM_EMAIL || "PSK - Digital Evolution Admin <onboarding@resend.dev>";
 
   if (!apiKey) {
     console.warn("⚠️ RESEND_API_KEY is not configured. Falling back to console OTP logging.");
@@ -120,8 +120,8 @@ Code:    ${code}
     const { data, error } = await resend.emails.send({
       from,
       to: [email],
-      subject: "Your PetStore Kenya Portal Verification Code",
-      text: `Your PetStore Kenya administrator portal verification code is ${code}. Please do not share this code.`,
+      subject: "Your PSK - Digital Evolution Portal Verification Code",
+      text: `Your PSK - Digital Evolution administrator portal verification code is ${code}. Please do not share this code.`,
       html: `...`
     });
 
