@@ -45,6 +45,10 @@ export async function loader({ request }: Route.LoaderArgs) {
   let kraPin = "";
   let customerPhone = "";
   let loyalty = { configured: false, registered: false, balance: 0, total: 0, used: 0, conversionRate: 1.2 };
+  let customerFirstName = "";
+  let customerLastName = "";
+  let customerDisplayName = "";
+
   if (customerEmail) {
     try {
       const { db } = await import("../lib/db.server");
@@ -64,15 +68,32 @@ export async function loader({ request }: Route.LoaderArgs) {
     orders = res.rows;
 
     try {
-      const custRes = await query(`SELECT name, phone, kra_pin FROM customers WHERE LOWER(email) = $1 LIMIT 1`, [customerEmail.toLowerCase()]);
+      await query("ALTER TABLE customers ADD COLUMN IF NOT EXISTS first_name TEXT");
+      await query("ALTER TABLE customers ADD COLUMN IF NOT EXISTS last_name TEXT");
+      await query("ALTER TABLE customers ADD COLUMN IF NOT EXISTS username TEXT");
+      await query("ALTER TABLE customers ADD COLUMN IF NOT EXISTS kra_pin TEXT");
+
+      const custRes = await query(`SELECT name, first_name, last_name, username, phone, kra_pin FROM customers WHERE LOWER(email) = $1 LIMIT 1`, [customerEmail.toLowerCase()]);
       if (custRes.rows.length > 0) {
         if (custRes.rows[0].name) {
           customerName = custRes.rows[0].name;
         }
         customerPhone = custRes.rows[0].phone || "";
         kraPin = custRes.rows[0].kra_pin || "";
+        customerFirstName = custRes.rows[0].first_name || "";
+        customerLastName = custRes.rows[0].last_name || "";
+        customerDisplayName = custRes.rows[0].username || "";
       }
     } catch (e) {}
+  }
+
+  if (!customerFirstName && customerName) {
+    const parts = customerName.trim().split(" ");
+    customerFirstName = parts[0] || "";
+    customerLastName = parts.slice(1).join(" ") || "";
+  }
+  if (!customerDisplayName) {
+    customerDisplayName = customerName;
   }
 
   const settingsPath = path.join(process.cwd(), "content", "general-settings.json");
@@ -95,7 +116,7 @@ export async function loader({ request }: Route.LoaderArgs) {
     }
   }
 
-  return { customerName, customerEmail, customerPhone, orders, loyalty, recaptchaSiteKey, googleClientId, kraPin };
+  return { customerName, customerEmail, customerPhone, customerFirstName, customerLastName, customerDisplayName, orders, loyalty, recaptchaSiteKey, googleClientId, kraPin };
 }
 
 export async function action({ request }: Route.ActionArgs) {
@@ -172,9 +193,9 @@ export async function action({ request }: Route.ActionArgs) {
   }
 
   if (formType === "update_account") {
-    const firstName = formData.get("firstName")?.toString().trim();
-    const lastName = formData.get("lastName")?.toString().trim();
-    const displayName = formData.get("displayName")?.toString().trim();
+    const firstName = formData.get("firstName")?.toString().trim() || "";
+    const lastName = formData.get("lastName")?.toString().trim() || "";
+    const displayName = formData.get("displayName")?.toString().trim() || "";
     const email = formData.get("email")?.toString().trim();
     const currentEmail = formData.get("currentEmail")?.toString().trim();
     const kraPin = formData.get("kraPin")?.toString().trim();
@@ -183,8 +204,8 @@ export async function action({ request }: Route.ActionArgs) {
     const newPassword = formData.get("newPassword")?.toString();
     const confirmPassword = formData.get("confirmPassword")?.toString();
 
-    if (!displayName || !email) {
-      return data({ error: "Display Name and Email Address are required." }, { status: 400 });
+    if ((!firstName && !displayName) || !email) {
+      return data({ error: "First Name, Display Name, and Email Address are required." }, { status: 400 });
     }
 
     if (newPassword || confirmPassword) {
@@ -196,19 +217,22 @@ export async function action({ request }: Route.ActionArgs) {
       }
     }
 
-    const nameToSave = displayName || `${firstName || ""} ${lastName || ""}`.trim();
+    const fullName = `${firstName} ${lastName}`.trim();
+    const nameToSave = fullName || displayName;
 
     try {
       try {
         await query("ALTER TABLE customers ADD COLUMN IF NOT EXISTS kra_pin TEXT");
         await query("ALTER TABLE customers ADD COLUMN IF NOT EXISTS username TEXT");
+        await query("ALTER TABLE customers ADD COLUMN IF NOT EXISTS first_name TEXT");
+        await query("ALTER TABLE customers ADD COLUMN IF NOT EXISTS last_name TEXT");
       } catch (e) {}
 
       const targetLookupEmail = (currentEmail || email).toLowerCase();
 
       await query(
-        "UPDATE customers SET name = $1, username = $2, email = $3, kra_pin = $4 WHERE LOWER(email) = $5",
-        [nameToSave, displayName, email, kraPin || null, targetLookupEmail]
+        "UPDATE customers SET name = $1, username = $2, first_name = $3, last_name = $4, email = $5, kra_pin = $6 WHERE LOWER(email) = $7",
+        [nameToSave, displayName, firstName, lastName, email, kraPin || null, targetLookupEmail]
       );
 
       // Update db.user if present
@@ -420,7 +444,7 @@ function getPasswordStrength(password: string) {
 
 
 export default function MyAccount() {
-  const { customerName, customerEmail, customerPhone, orders, loyalty, recaptchaSiteKey, googleClientId, kraPin } = useLoaderData<typeof loader>();
+  const { customerName, customerEmail, customerPhone, customerFirstName, customerLastName, customerDisplayName, orders, loyalty, recaptchaSiteKey, googleClientId, kraPin } = useLoaderData<typeof loader>();
   const actionData = useActionData<any>();
   const navigate = useNavigate();
   const location = useLocation();
@@ -1628,7 +1652,7 @@ export default function MyAccount() {
                         <input
                           type="text"
                           name="firstName"
-                          defaultValue={customerName.split(" ")[0] || ""}
+                          defaultValue={customerFirstName}
                           required
                           style={{
                             width: "100%",
@@ -1647,7 +1671,7 @@ export default function MyAccount() {
                         <input
                           type="text"
                           name="lastName"
-                          defaultValue={customerName.split(" ").slice(1).join(" ") || ""}
+                          defaultValue={customerLastName}
                           required
                           style={{
                             width: "100%",
@@ -1668,7 +1692,7 @@ export default function MyAccount() {
                       <input
                         type="text"
                         name="displayName"
-                        defaultValue={customerName}
+                        defaultValue={customerDisplayName || customerName}
                         required
                         style={{
                           width: "100%",
