@@ -1460,6 +1460,8 @@ export default function CheckoutPage() {
           total_kes: totalAmount,
           payment_method: paymentMethod,
           notes: addressNotes,
+          loyalty_points_used: appliedLoyaltyPoints,
+          loyalty_discount_kes: loyaltyDiscountAmount,
           items: orderItems
         })
       });

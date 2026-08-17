@@ -419,6 +419,18 @@ export const migrations: Migration[] = [
           OR LOWER(REGEXP_REPLACE(REGEXP_REPLACE(TRIM(p.brand), '[^a-zA-Z0-9\\s-]', '', 'g'), '\\s+', '-', 'g')) = b.slug
         );
     `
+  },
+  {
+    id: 21,
+    name: 'add_loyalty_and_kra_columns_to_orders_and_customers',
+    up: `
+      ALTER TABLE orders ADD COLUMN IF NOT EXISTS kra_pin TEXT;
+      ALTER TABLE customers ADD COLUMN IF NOT EXISTS kra_pin TEXT;
+      ALTER TABLE orders ADD COLUMN IF NOT EXISTS loyalty_points_used INTEGER DEFAULT 0;
+      ALTER TABLE orders ADD COLUMN IF NOT EXISTS loyalty_discount_kes NUMERIC DEFAULT 0;
+      ALTER TABLE orders ADD COLUMN IF NOT EXISTS loyalty_status TEXT;
+      ALTER TABLE orders ADD COLUMN IF NOT EXISTS loyalty_error TEXT;
+    `
   }
 ];
 

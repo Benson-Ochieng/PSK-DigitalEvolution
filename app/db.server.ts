@@ -224,6 +224,7 @@ export async function query<T extends pg.QueryResultRow = any>(text: string, par
 
 // Transaction helper for executing multiple queries in a single transaction
 export async function withTransaction<T>(callback: (client: pg.PoolClient) => Promise<T>): Promise<T> {
+  await dbReadyPromise;
   let client: pg.PoolClient;
   try {
     client = await pool.connect();

@@ -1,4 +1,4 @@
-import { query, withTransaction } from '../db.server';
+import { query, withTransaction, ensureDbReady } from '../db.server';
 import { creditLoyaltyForOrder, debitLoyaltyForOrder } from '../lib/loyalty.server';
 
 interface OrderItem {
@@ -31,6 +31,7 @@ export async function action({ request }: { request: Request }) {
   }
 
   try {
+    await ensureDbReady();
     const body: OrderRequestBody = await request.json();
     const {
       customer_name,
@@ -62,7 +63,7 @@ export async function action({ request }: { request: Request }) {
       typeof subtotal_kes !== 'number' ||
       subtotal_kes <= 0 ||
       typeof total_kes !== 'number' ||
-      total_kes <= 0
+      total_kes < 0
     ) {
       return Response.json({ error: 'Invalid order totals' }, { status: 400 });
     }
@@ -82,17 +83,6 @@ export async function action({ request }: { request: Request }) {
     }
 
     const cleanKraPin = kra_pin ? kra_pin.trim().toUpperCase() : null;
-
-    try {
-      await query("ALTER TABLE orders ADD COLUMN IF NOT EXISTS kra_pin TEXT");
-      await query("ALTER TABLE customers ADD COLUMN IF NOT EXISTS kra_pin TEXT");
-      await query("ALTER TABLE orders ADD COLUMN IF NOT EXISTS loyalty_points_used INTEGER DEFAULT 0");
-      await query("ALTER TABLE orders ADD COLUMN IF NOT EXISTS loyalty_discount_kes NUMERIC DEFAULT 0");
-      await query("ALTER TABLE orders ADD COLUMN IF NOT EXISTS loyalty_status TEXT");
-      await query("ALTER TABLE orders ADD COLUMN IF NOT EXISTS loyalty_error TEXT");
-    } catch (schemaErr) {
-      console.warn('Could not ensure loyalty / kra_pin order columns:', schemaErr);
-    }
 
     // --- DATABASE TRANSACTION ---
     const orderId = await withTransaction(async (client) => {
@@ -195,36 +185,10 @@ export async function action({ request }: { request: Request }) {
         );
       }
 
-      // 4. Sync order to db.server if available
-      try {
-        const { db } = await import('../lib/db.server');
-        await db.order.create({
-          id: String(newOrderId),
-          date: new Date().toISOString(),
-          paymentMethod: payment_method || 'cash_on_delivery',
-          items: items.map(i => ({
-            name: i.product_name,
-            quantity: i.qty,
-            price: i.unit_price,
-          })),
-          total: total_kes,
-          shipping: delivery_fee_kes || 0,
-          currency: 'KES',
-          billing: {
-            name: customer_name || '',
-            email: customer_email || '',
-            phone: customer_phone || '',
-            kra_pin: cleanKraPin || undefined,
-          },
-          kra_pin: cleanKraPin || undefined,
-          status: 'PROCESSING',
-          notes: notes || undefined,
-        });
-      } catch (e) {}
-
       return newOrderId;
     });
 
+    // Handle loyalty deductions/credits safely without breaking the order if offline
     if (loyaltyPointsUsed > 0) {
       try {
         await debitLoyaltyForOrder({
@@ -240,7 +204,7 @@ export async function action({ request }: { request: Request }) {
           loyaltyErr?.message || 'Loyalty redemption failed',
           orderId
         ]).catch(() => {});
-        return Response.json({ error: loyaltyErr?.message || 'Could not redeem loyalty points.' }, { status: 400 });
+        console.warn('Loyalty points debit failed:', loyaltyErr);
       }
     }
 
@@ -262,9 +226,41 @@ export async function action({ request }: { request: Request }) {
       console.warn('Order placed but loyalty credit did not complete:', loyaltyErr);
     }
 
+    // Optional Supabase background sync
+    try {
+      const { supabase } = await import('../lib/supabase.server');
+      if (supabase) {
+        const dbOrder = {
+          customer_name: customer_name?.trim() || '',
+          customer_phone: customer_phone.trim(),
+          customer_email: customer_email?.trim() || '',
+          total_kes: total_kes,
+          delivery_fee_kes: delivery_fee_kes || 0,
+          payment_method: payment_method || 'cash_on_delivery',
+          status: 'pending',
+          created_at: new Date().toISOString(),
+          notes: notes || null
+        };
+        const { data: inserted } = await supabase.from("orders").insert(dbOrder).select().single();
+        if (inserted && items && items.length > 0) {
+          const dbItems = items.map(item => ({
+            order_id: inserted.id,
+            product_id: item.product_id,
+            product_name: item.product_name,
+            qty: item.qty,
+            unit_price: item.unit_price,
+            total_price: item.total_price
+          }));
+          await supabase.from("order_items").insert(dbItems);
+        }
+      }
+    } catch (supaErr) {
+      console.warn("Supabase sync non-fatal warning:", supaErr);
+    }
+
     return Response.json({ orderId, success: true });
   } catch (err: any) {
-    console.error('Order creation transaction failed:', err);
+    console.error('Order creation failed:', err);
     return Response.json({ error: err.message || 'Failed to create order' }, { status: 500 });
   }
 }
