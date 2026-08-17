@@ -678,54 +678,10 @@ export default function CheckoutPage() {
     return primary || availablePool[0];
   }, [upsellPool, upsellEnabled, rotationMode, items]);
 
-  // Checkout Upsell Modal state & handlers
+  // Checkout Upsell Modal state
   const [showUpsellModal, setShowUpsellModal] = useState(false);
   const [hasPromptedUpsell, setHasPromptedUpsell] = useState(false);
-
-  useEffect(() => {
-    if (typeof window === "undefined" || !upsellProduct) return;
-    if (items.length === 0) return;
-    // Don't show if upsell item is already in cart
-    if (items.some(i => i.id === upsellProduct.id)) return;
-    if (hasPromptedUpsell) return;
-
-    const timer = setTimeout(() => {
-      setShowUpsellModal(true);
-      setHasPromptedUpsell(true);
-      try {
-        const fd = new FormData();
-        fd.append("intent", "track_impression");
-        fd.append("productId", String(upsellProduct.id));
-        fetch("/store_backend/upsells", { method: "POST", body: fd }).catch(() => {});
-      } catch {}
-    }, 400);
-
-    return () => clearTimeout(timer);
-  }, [items, upsellProduct, hasPromptedUpsell]);
-
-  const handleUpsellClose = () => {
-    setShowUpsellModal(false);
-    setHasPromptedUpsell(true);
-  };
-
-  const handleUpsellAddToCart = (product: UpsellProduct) => {
-    addItem({
-      id: product.id,
-      name: product.name,
-      brand: product.brand,
-      price: product.sale_price,
-      image_url: product.image_url,
-      weight_kg: product.weight_kg,
-      slug: product.slug,
-    });
-    try {
-      const fd = new FormData();
-      fd.append("intent", "track_purchase");
-      fd.append("productId", String(product.id));
-      fetch("/store_backend/upsells", { method: "POST", body: fd }).catch(() => {});
-    } catch {}
-    handleUpsellClose();
-  };
+  const [isWhatsAppIntercept, setIsWhatsAppIntercept] = useState(false);
 
   // Split name for prefilling First/Last Name
   const nameParts = customerName ? customerName.split(" ") : ["", ""];
@@ -1371,6 +1327,238 @@ export default function CheckoutPage() {
     }
   };
 
+  // Core order placement execution function
+  const executeOrderSubmission = async (
+    targetItems: Array<{ id: number; name: string; price: number; quantity: number }>,
+    targetSubtotal: number,
+    targetDeliveryFee: number,
+    targetTotal: number,
+    targetLoyaltyDiscount: number
+  ) => {
+    setSubmitting(true);
+    setErrorMessage("");
+
+    try {
+      const orderItems = targetItems.map(item => {
+        const cleanPrice = typeof item.price === "string" ? parseFloat((item.price as string).replace(/[^0-9.]/g, "")) || 0 : Number(item.price) || 0;
+        const cleanQty = Math.max(1, Number(item.quantity) || 1);
+        return {
+          product_id: Number(item.id),
+          product_name: String(item.name),
+          qty: cleanQty,
+          unit_price: cleanPrice,
+          total_price: cleanPrice * cleanQty
+        };
+      });
+
+      const calculatedSubtotal = orderItems.reduce((sum, it) => sum + it.total_price, 0);
+      const cleanSubtotal = Number(targetSubtotal) > 0 ? Number(targetSubtotal) : calculatedSubtotal;
+      const cleanDeliveryFee = Math.max(0, Number(targetDeliveryFee) || 0);
+      const cleanLoyaltyDiscount = Math.max(0, Number(targetLoyaltyDiscount) || 0);
+      const cleanTotal = Number(targetTotal) >= 0 ? Number(targetTotal) : Math.max(0, cleanSubtotal + cleanDeliveryFee - cleanLoyaltyDiscount);
+
+      const fullCustomerName = `${firstName.trim()} ${lastName.trim()}`;
+      const cleanKraPin = kraPin.trim().toUpperCase();
+      const addressNotes = `Street: ${streetAddress}, Apt/Suite: ${apartmentInfo || "N/A"}. Additional: ${additionalAddress || "N/A"}. Contact: ${contactPerson || "N/A"} (${contactPersonPhone || "N/A"}). Instructions: ${deliveryInstructions || "N/A"}. General: ${orderNotes || "N/A"}${cleanKraPin ? `. KRA PIN: ${cleanKraPin}` : ""}`;
+
+      const res = await fetch("/api/order", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          customer_name: fullCustomerName,
+          customer_phone: recipientPhone,
+          customer_email: recipientEmail,
+          kra_pin: cleanKraPin || undefined,
+          delivery_area: `${selectedCity} - ${selectedZone} (${shippingMethod === "express" ? "Express" : "Standard"})`,
+          subtotal_kes: cleanSubtotal,
+          delivery_fee_kes: cleanDeliveryFee,
+          total_kes: cleanTotal,
+          payment_method: paymentMethod,
+          notes: addressNotes,
+          loyalty_points_used: appliedLoyaltyPoints,
+          loyalty_discount_kes: cleanLoyaltyDiscount,
+          items: orderItems
+        })
+      });
+
+      const data = await res.json();
+      if (data.success && data.orderId) {
+        setSuccessOrderNumber(data.orderId);
+        clearCart();
+      } else {
+        let rawErr = (data.error || "").toString();
+        let userFriendlyError = rawErr || "Failed to place order. Please try again.";
+        if (rawErr.includes("violates unique constraint") || rawErr.includes("duplicate key") || rawErr.includes("customers_pkey")) {
+          userFriendlyError = "An account with these contact details already exists. Please check your information or try placing your order again.";
+        } else if (rawErr.includes("postgres") || rawErr.includes("database") || rawErr.includes("syntax error")) {
+          userFriendlyError = "An error occurred while processing your order. Please try again or contact customer support.";
+        }
+        setErrorMessage(userFriendlyError);
+      }
+    } catch (err) {
+      setErrorMessage("Network error occurred. Please try again.");
+    } finally {
+      setSubmitting(false);
+    }
+  };
+
+  const executeWhatsAppSubmission = (
+    targetItems: Array<{ id: number; name: string; price: number; quantity: number }>,
+    targetSubtotal: number,
+    targetDeliveryFee: number,
+    targetDeliveryFeeLabel: string,
+    targetTotal: number,
+    targetDiscountAmount: number,
+    targetLoyaltyDiscount: number
+  ) => {
+    const cleanPin = kraPin.trim().toUpperCase();
+    const lines = targetItems.map(i => `• ${i.name} x${i.quantity} — KES ${(i.price * i.quantity).toLocaleString()}`).join("\n");
+    const msg = encodeURIComponent(
+      `Hi PetStore Kenya! I'd like to place an order via WhatsApp:\n\n${lines}\n\nSubtotal: KES ${targetSubtotal.toLocaleString()}\nDelivery Fee (${targetDeliveryFeeLabel}): KES ${targetDeliveryFee.toLocaleString()}\nDiscount: KES ${(targetDiscountAmount + targetLoyaltyDiscount).toLocaleString()}\nTOTAL: KES ${targetTotal.toLocaleString()}\n\nName: ${firstName} ${lastName}\nPhone: ${recipientPhone}\nNeighbourhood: ${selectedZone} (${shippingMethod === "express" ? "Express Shipping" : "Standard Shipping"})\nAddress: ${streetAddress}, ${apartmentInfo || ""}\nNotes: ${orderNotes || "None"}${cleanPin ? `\nKRA PIN: ${cleanPin}` : ""}`
+    );
+    window.open(`https://wa.me/254795350292?text=${msg}`, "_blank");
+    clearCart();
+    navigate("/");
+  };
+
+  const handleUpsellClose = () => {
+    setShowUpsellModal(false);
+    setHasPromptedUpsell(true);
+    if (isWhatsAppIntercept) {
+      executeWhatsAppSubmission(
+        items,
+        subtotal,
+        deliveryFee,
+        deliveryFeeLabel,
+        totalAmount,
+        discountAmount,
+        loyaltyDiscountAmount
+      );
+    } else {
+      executeOrderSubmission(
+        items,
+        subtotal,
+        deliveryFee,
+        totalAmount,
+        loyaltyDiscountAmount
+      );
+    }
+  };
+
+  const handleUpsellAddToCart = (product: UpsellProduct) => {
+    setShowUpsellModal(false);
+    setHasPromptedUpsell(true);
+
+    addItem({
+      id: product.id,
+      name: product.name,
+      brand: product.brand,
+      price: product.sale_price,
+      image_url: product.image_url,
+      weight_kg: product.weight_kg,
+      slug: product.slug,
+    });
+
+    try {
+      const fd = new FormData();
+      fd.append("intent", "track_purchase");
+      fd.append("productId", String(product.id));
+      fetch("/store_backend/upsells", { method: "POST", body: fd }).catch(() => {});
+    } catch {}
+
+    const updatedItems = [
+      ...items,
+      {
+        id: product.id,
+        name: product.name,
+        brand: product.brand,
+        price: product.sale_price,
+        quantity: 1,
+        image_url: product.image_url,
+        weight_kg: product.weight_kg,
+        slug: product.slug,
+      }
+    ];
+
+    const updatedSubtotal = subtotal + product.sale_price;
+
+    let updatedDeliveryFee = deliveryFee;
+    let updatedDeliveryFeeLabel = deliveryFeeLabel;
+    if (!isAllDonation && isNeighbourhoodProvided) {
+      const cityZones = SHIPPING_ZONES[selectedCity];
+      const zoneBaseFee = cityZones ? cityZones[selectedZone] ?? 0 : 0;
+      let finalShippingMethod = shippingMethod;
+      if (selectedCity !== "Nairobi" || !EXPRESS_NEIGHBOURHOODS.includes(selectedZone) || !isExpressTimeAvailable) {
+        finalShippingMethod = "standard";
+      }
+      if (selectedCity === "Nairobi") {
+        if (updatedSubtotal < 5000) {
+          if (finalShippingMethod === "standard") {
+            updatedDeliveryFee = zoneBaseFee;
+            updatedDeliveryFeeLabel = `Delivery Fee (Standard) - ${selectedZone}`;
+          } else {
+            updatedDeliveryFee = zoneBaseFee + 200;
+            updatedDeliveryFeeLabel = `Express Delivery Fee (2hr) - ${selectedZone}`;
+          }
+        } else {
+          if (finalShippingMethod === "standard") {
+            updatedDeliveryFee = 0;
+            updatedDeliveryFeeLabel = "Free Shipping for orders above 5000";
+          } else {
+            updatedDeliveryFee = 500;
+            updatedDeliveryFeeLabel = "Express Delivery Fee(2hr) on Free Shipping for orders above 5000";
+          }
+        }
+      } else {
+        if (cityZones && cityZones[selectedZone] !== undefined) {
+          updatedDeliveryFee = zoneBaseFee;
+          updatedDeliveryFeeLabel = `Flat Rate - ${selectedCity}`;
+        }
+      }
+    }
+    if (appliedCoupon?.allowFreeShipping && isNeighbourhoodProvided) {
+      updatedDeliveryFee = 0;
+      updatedDeliveryFeeLabel = `Free Shipping (${appliedCoupon.code} Coupon)`;
+    }
+
+    let updatedDiscountAmount = 0;
+    if (appliedCoupon) {
+      if (appliedCoupon.discountType === "percentage") {
+        updatedDiscountAmount = Math.round((updatedSubtotal * appliedCoupon.discountValue) / 100);
+      } else {
+        updatedDiscountAmount = Math.min(updatedSubtotal, appliedCoupon.discountValue);
+      }
+    }
+    const updatedLoyaltyDiscount = Math.min(
+      updatedSubtotal - updatedDiscountAmount,
+      Math.round(appliedLoyaltyPoints * loyaltyConversionRate)
+    );
+    const updatedTotal = Math.max(
+      0,
+      updatedSubtotal + updatedDeliveryFee - updatedDiscountAmount - updatedLoyaltyDiscount
+    );
+
+    if (isWhatsAppIntercept) {
+      executeWhatsAppSubmission(
+        updatedItems,
+        updatedSubtotal,
+        updatedDeliveryFee,
+        updatedDeliveryFeeLabel,
+        updatedTotal,
+        updatedDiscountAmount,
+        updatedLoyaltyDiscount
+      );
+    } else {
+      executeOrderSubmission(
+        updatedItems,
+        updatedSubtotal,
+        updatedDeliveryFee,
+        updatedTotal,
+        updatedLoyaltyDiscount
+      );
+    }
+  };
+
   // Submit Order via API
   const handlePlaceOrder = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -1425,66 +1613,25 @@ export default function CheckoutPage() {
     }
 
     if (!hasPromptedUpsell && upsellProduct && !items.some(i => i.id === upsellProduct.id)) {
+      setIsWhatsAppIntercept(false);
       setShowUpsellModal(true);
       setHasPromptedUpsell(true);
+      try {
+        const fd = new FormData();
+        fd.append("intent", "track_impression");
+        fd.append("productId", String(upsellProduct.id));
+        fetch("/store_backend/upsells", { method: "POST", body: fd }).catch(() => {});
+      } catch {}
       return;
     }
 
-    setSubmitting(true);
-    setErrorMessage("");
-
-    try {
-      const orderItems = items.map(item => ({
-        product_id: item.id,
-        product_name: item.name,
-        qty: item.quantity,
-        unit_price: item.price,
-        total_price: item.price * item.quantity
-      }));
-
-      const fullCustomerName = `${firstName.trim()} ${lastName.trim()}`;
-      const cleanKraPin = kraPin.trim().toUpperCase();
-      const addressNotes = `Street: ${streetAddress}, Apt/Suite: ${apartmentInfo || "N/A"}. Additional: ${additionalAddress || "N/A"}. Contact: ${contactPerson || "N/A"} (${contactPersonPhone || "N/A"}). Instructions: ${deliveryInstructions || "N/A"}. General: ${orderNotes || "N/A"}${cleanKraPin ? `. KRA PIN: ${cleanKraPin}` : ""}`;
-
-      const res = await fetch("/api/order", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          customer_name: fullCustomerName,
-          customer_phone: recipientPhone,
-          customer_email: recipientEmail,
-          kra_pin: cleanKraPin || undefined,
-          delivery_area: `${selectedCity} - ${selectedZone} (${shippingMethod === "express" ? "Express" : "Standard"})`,
-          subtotal_kes: subtotal,
-          delivery_fee_kes: deliveryFee,
-          total_kes: totalAmount,
-          payment_method: paymentMethod,
-          notes: addressNotes,
-          loyalty_points_used: appliedLoyaltyPoints,
-          loyalty_discount_kes: loyaltyDiscountAmount,
-          items: orderItems
-        })
-      });
-
-      const data = await res.json();
-      if (data.success && data.orderId) {
-        setSuccessOrderNumber(data.orderId);
-        clearCart();
-      } else {
-        let rawErr = (data.error || "").toString();
-        let userFriendlyError = rawErr || "Failed to place order. Please try again.";
-        if (rawErr.includes("violates unique constraint") || rawErr.includes("duplicate key") || rawErr.includes("customers_pkey")) {
-          userFriendlyError = "An account with these contact details already exists. Please check your information or try placing your order again.";
-        } else if (rawErr.includes("postgres") || rawErr.includes("database") || rawErr.includes("syntax error")) {
-          userFriendlyError = "An error occurred while processing your order. Please try again or contact customer support.";
-        }
-        setErrorMessage(userFriendlyError);
-      }
-    } catch (err) {
-      setErrorMessage("Network error occurred. Please try again.");
-    } finally {
-      setSubmitting(false);
-    }
+    executeOrderSubmission(
+      items,
+      subtotal,
+      deliveryFee,
+      totalAmount,
+      loyaltyDiscountAmount
+    );
   };
 
   // Submit/Complete via WhatsApp
@@ -1528,19 +1675,27 @@ export default function CheckoutPage() {
     }
 
     if (!hasPromptedUpsell && upsellProduct && !items.some(i => i.id === upsellProduct.id)) {
+      setIsWhatsAppIntercept(true);
       setShowUpsellModal(true);
       setHasPromptedUpsell(true);
+      try {
+        const fd = new FormData();
+        fd.append("intent", "track_impression");
+        fd.append("productId", String(upsellProduct.id));
+        fetch("/store_backend/upsells", { method: "POST", body: fd }).catch(() => {});
+      } catch {}
       return;
     }
 
-    const cleanPin = kraPin.trim().toUpperCase();
-    const lines = items.map(i => `• ${i.name} x${i.quantity} — KES ${(i.price * i.quantity).toLocaleString()}`).join("\n");
-    const msg = encodeURIComponent(
-      `Hi PetStore Kenya! I'd like to place an order via WhatsApp:\n\n${lines}\n\nSubtotal: KES ${subtotal.toLocaleString()}\nDelivery Fee (${deliveryFeeLabel}): KES ${deliveryFee.toLocaleString()}\nDiscount: KES ${(discountAmount + loyaltyDiscountAmount).toLocaleString()}\nTOTAL: KES ${totalAmount.toLocaleString()}\n\nName: ${firstName} ${lastName}\nPhone: ${recipientPhone}\nNeighbourhood: ${selectedZone} (${shippingMethod === "express" ? "Express Shipping" : "Standard Shipping"})\nAddress: ${streetAddress}, ${apartmentInfo || ""}\nNotes: ${orderNotes || "None"}${cleanPin ? `\nKRA PIN: ${cleanPin}` : ""}`
+    executeWhatsAppSubmission(
+      items,
+      subtotal,
+      deliveryFee,
+      deliveryFeeLabel,
+      totalAmount,
+      discountAmount,
+      loyaltyDiscountAmount
     );
-    window.open(`https://wa.me/254795350292?text=${msg}`, "_blank");
-    clearCart();
-    navigate("/");
   };
 
   // Input styling

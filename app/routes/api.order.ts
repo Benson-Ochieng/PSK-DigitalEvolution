@@ -49,7 +49,7 @@ export async function action({ request }: { request: Request }) {
       items,
     } = body;
 
-    // --- INPUT VALIDATION ---
+    // --- INPUT VALIDATION & NUMERIC SANITIZATION ---
     if (!customer_phone || typeof customer_phone !== 'string' || customer_phone.trim() === '') {
       return Response.json({ error: 'Customer phone number is required' }, { status: 400 });
     }
@@ -58,28 +58,42 @@ export async function action({ request }: { request: Request }) {
       return Response.json({ error: 'Order must contain at least one item' }, { status: 400 });
     }
 
+    const cleanSubtotal = Number(subtotal_kes);
+    const cleanTotal = Number(total_kes);
+    const cleanDeliveryFee = Number(delivery_fee_kes || 0);
+
     // Validate positive numeric values
-    if (
-      typeof subtotal_kes !== 'number' ||
-      subtotal_kes <= 0 ||
-      typeof total_kes !== 'number' ||
-      total_kes < 0
-    ) {
+    if (isNaN(cleanSubtotal) || cleanSubtotal <= 0 || isNaN(cleanTotal) || cleanTotal < 0) {
       return Response.json({ error: 'Invalid order totals' }, { status: 400 });
     }
 
     const loyaltyPointsUsed = Math.max(0, Math.floor(Number(loyalty_points_used || 0)));
     const loyaltyDiscountKes = Math.max(0, Math.floor(Number(loyalty_discount_kes || 0)));
 
-    if (loyaltyDiscountKes > subtotal_kes) {
+    if (loyaltyDiscountKes > cleanSubtotal) {
       return Response.json({ error: 'Invalid loyalty discount amount' }, { status: 400 });
     }
 
-    // Validate item details
+    // Validate and sanitize item details
+    const sanitizedItems: OrderItem[] = [];
     for (const item of items) {
-      if (!item.product_id || !item.product_name || typeof item.qty !== 'number' || item.qty <= 0) {
+      const pId = Number(item.product_id);
+      const pName = String(item.product_name || '').trim();
+      const pQty = Number(item.qty);
+      const pPrice = Number(item.unit_price);
+      const pTotal = Number(item.total_price) || (pPrice * pQty);
+
+      if (!pId || !pName || isNaN(pQty) || pQty <= 0 || isNaN(pPrice) || pPrice < 0) {
         return Response.json({ error: 'Invalid item data in order details' }, { status: 400 });
       }
+
+      sanitizedItems.push({
+        product_id: pId,
+        product_name: pName,
+        qty: pQty,
+        unit_price: pPrice,
+        total_price: pTotal
+      });
     }
 
     const cleanKraPin = kra_pin ? kra_pin.trim().toUpperCase() : null;
@@ -157,9 +171,9 @@ export async function action({ request }: { request: Request }) {
           customer_email?.trim() || null,
           cleanKraPin,
           delivery_area?.trim() || null,
-          subtotal_kes,
-          delivery_fee_kes || 0,
-          total_kes,
+          cleanSubtotal,
+          cleanDeliveryFee,
+          cleanTotal,
           payment_method?.trim() || 'cash_on_delivery',
           notes?.trim() || null,
           loyaltyPointsUsed,
@@ -170,7 +184,7 @@ export async function action({ request }: { request: Request }) {
       const newOrderId = orderRes.rows[0].id;
 
       // 3. Insert order items
-      for (const item of items) {
+      for (const item of sanitizedItems) {
         await client.query(
           `INSERT INTO order_items (order_id, product_id, product_name, qty, unit_price, total_price)
            VALUES ($1, $2, $3, $4, $5, $6)`,
@@ -214,7 +228,7 @@ export async function action({ request }: { request: Request }) {
         phone: customer_phone,
         fullname: customer_name,
         orderId,
-        eligibleTotal: subtotal_kes,
+        eligibleTotal: cleanSubtotal,
       });
       await query("UPDATE orders SET loyalty_status = $1, loyalty_error = NULL WHERE id = $2", ['credited', orderId]);
     } catch (loyaltyErr: any) {
@@ -234,16 +248,16 @@ export async function action({ request }: { request: Request }) {
           customer_name: customer_name?.trim() || '',
           customer_phone: customer_phone.trim(),
           customer_email: customer_email?.trim() || '',
-          total_kes: total_kes,
-          delivery_fee_kes: delivery_fee_kes || 0,
+          total_kes: cleanTotal,
+          delivery_fee_kes: cleanDeliveryFee,
           payment_method: payment_method || 'cash_on_delivery',
           status: 'pending',
           created_at: new Date().toISOString(),
           notes: notes || null
         };
         const { data: inserted } = await supabase.from("orders").insert(dbOrder).select().single();
-        if (inserted && items && items.length > 0) {
-          const dbItems = items.map(item => ({
+        if (inserted && sanitizedItems && sanitizedItems.length > 0) {
+          const dbItems = sanitizedItems.map(item => ({
             order_id: inserted.id,
             product_id: item.product_id,
             product_name: item.product_name,

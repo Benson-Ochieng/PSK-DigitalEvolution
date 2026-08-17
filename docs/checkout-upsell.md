@@ -13,36 +13,44 @@ dismiss and continue.
 
 | Element | Detail |
 |---|---|
-| Trigger | Fires on the checkout page over the existing form when specific conditions are met (see Trigger Architecture below) |
-| Countdown | Numeric badge top-center, counting down from 30 seconds and auto-dismissing on 0 |
+| Trigger | Fires ONLY once the customer fills in all required checkout fields and clicks "Place Order" (or WhatsApp checkout) |
+| Dismissal | Cannot click outside the modal or use ESC; only closes via the 2 action buttons or timer expiry |
+| Countdown | Numeric badge top-center, counting down from 30 seconds and auto-dismissing on 0 (proceeding with original order) |
 | Heading | "Limited Time Offer!" in bold brand blue |
-| Product card | Image, product name, regular price struck through (195KSh), sale price in bold red (137KSh) |
-| Primary action | Green button — "Add to Cart & Checkout" (adds item at promo price, updates totals in place, closes modal) |
-| Secondary action | Grey button — "Do Not Add to Cart & Checkout" (closes modal without mutating cart) |
+| Product card | Image, product name, regular price struck through (e.g. 195KSh), sale price in bold red (e.g. 137KSh) |
+| Primary action | Green button — "Add to Cart & Checkout" (adds item at promo price, integrates calculations into total, and proceeds to payment/order completion) |
+| Secondary action | Grey button — "Do Not Add to Cart & Checkout" (dismisses modal and proceeds to payment/order completion with original cart) |
 
 ## Trigger Architecture & Mechanics
 
 ### What Exactly Triggers the Popup Modal:
 
-The modal is triggered when a shopper arrives on `/checkout` under the following conditions:
+The modal is triggered **strictly upon form submission**, not on page load:
 
-1. **Active Cart**: The cart must contain at least 1 item (`items.length > 0`). Empty checkouts do not trigger the modal.
-2. **Product Exclusion**: The upsell product (e.g. *Reflex Happy Hour Cat Treat Healthy Bones 60g*, ID: `48957`) is not already present in the user's cart.
-3. **Session Frequency Capping**: The shopper has not already actioned or dismissed the upsell in their current session. Tracked via `sessionStorage.getItem("psk_checkout_upsell_dismissed")`.
-4. **Store Configuration**: `checkoutUpsellEnabled` must be `true` in `general-settings.json`.
-5. **Entry Delay**: A short `400ms` delay after page mount allows the checkout layout to render before smoothly fading in the dimmed backdrop and modal.
+1. **Form Validation Passed**: The customer must have filled all required checkout fields (Name, Phone, Email, City, Neighbourhood, Street Address, and Terms checkbox).
+2. **"Place Order" Click Intercept**: When the customer clicks the **"Place Order"** or **"Complete Order via WhatsApp"** button, the system intercepts the action if the upsell has not yet been prompted.
+3. **Active Cart**: The cart must contain at least 1 item (`items.length > 0`).
+4. **Product Exclusion**: The upsell product is not already present in the user's cart.
+5. **Session Frequency Capping**: Has not already been prompted during this checkout attempt (`hasPromptedUpsell`).
+6. **Store Configuration**: `enabled` is `true` in `content/upsells.json`.
 
-### Pre-Purchase Intercept Alternative:
-In addition to page mount, the trigger can intercept the **"Place Order"** or **"Complete Order via WhatsApp"** button click if the customer has not yet been presented with the offer during their checkout flow.
+### Dismissal Constraints:
+
+- **No Outside Click**: Clicking the darkened backdrop outside the modal is disabled.
+- **No ESC Key Dismissal**: Pressing the Escape key will not close the modal.
+- **Authorized Dismissals Only**:
+  1. **"Add to Cart & Checkout" Button**: Adds the upsell item, integrates calculations into the order total, and takes the shopper directly to the order placement / payment page.
+  2. **"Do Not Add to Cart & Checkout" Button**: Closes the modal and proceeds with placing the order with the original cart.
+  3. **30-Second Countdown Expiration (0s)**: Automatically closes the modal when the timer reaches 0 and proceeds to place the order with the original cart.
 
 ---
 
 ## Resolved Specifications & Behaviors
 
-- **Countdown at 0**: The timer auto-dismisses the modal when it reaches 0 (treated as "Do Not Add & Checkout") to maintain authentic urgency.
-- **Product Linking**: Dynamic lookup from database (`products` and `store_prices` tables) with configurable fallback in `content/general-settings.json` (`checkoutUpsellProductId: 48957`, `checkoutUpsellSalePrice: 137`, `checkoutUpsellRegularPrice: 195`).
-- **In-Place Update**: "Add to Cart & Checkout" updates cart state via React Context (`useCart().addItem(...)`), instantly recalculating subtotal, delivery fees, loyalty points, and total amount in place without a page reload.
-- **Session Capping**: Capped to once per shopping session (`sessionStorage`). Closing or accepting records the session dismissal flag.
+- **Post-Validation Intercept**: Modal only triggers after complete form validation when the user clicks "Place Order".
+- **Integrated Calculations**: Clicking "Add to Cart & Checkout" recalculates item list, subtotal, shipping fee tier (e.g. free shipping above 5,000 KES in Nairobi), coupon discounts, loyalty discounts, and final total, then immediately submits to `/api/order` and loads the order confirmation/payment screen.
+- **Auto-Proceed on Decline / Expiry**: If the customer clicks "Do Not Add to Cart & Checkout" or the timer reaches 0, the order continues processing with the initial cart without requiring a second click.
+- **Strict Closure Guard**: Outside backdrop click and ESC key are disabled so the customer makes a clear decision or lets the timer run down.
 
 ## Proposed implementation (WooCommerce)
 

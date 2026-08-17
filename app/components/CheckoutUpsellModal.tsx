@@ -36,7 +36,7 @@ export function CheckoutUpsellModal({
     onCloseRef.current = onClose;
   }, [onClose]);
 
-  // Reset and start countdown when opened, auto-close when countdown ends (0s)
+  // Auto-close when countdown ends (0s) or via action buttons (no outside click or ESC)
   useEffect(() => {
     if (isOpen) {
       const initialSeconds = timerSeconds && timerSeconds > 0 ? timerSeconds : 30;
@@ -69,18 +69,6 @@ export function CheckoutUpsellModal({
     };
   }, [isOpen, timerSeconds]);
 
-  // Handle ESC key
-  useEffect(() => {
-    if (!isOpen) return;
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === "Escape") {
-        onClose();
-      }
-    };
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [isOpen, onClose]);
-
   if (!isOpen || !product) return null;
 
   return (
@@ -102,7 +90,6 @@ export function CheckoutUpsellModal({
         padding: "1rem",
         animation: "fadeIn 0.25s ease-out",
       }}
-      onClick={onClose}
     >
       <div
         className="upsell-modal-container"
@@ -119,7 +106,6 @@ export function CheckoutUpsellModal({
           position: "relative",
           animation: "scaleIn 0.25s ease-out",
         }}
-        onClick={(e) => e.stopPropagation()}
       >
         {/* Countdown Badge */}
         <div
