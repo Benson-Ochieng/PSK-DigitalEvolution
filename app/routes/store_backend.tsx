@@ -109,6 +109,7 @@ export default function VpBackendLayout() {
     { label: "User Directory", path: "/store_backend/users", icon: "👥" },
     { label: "Live Orders", path: "/store_backend/orders", icon: "🛒" },
     { label: "Coupon Console", path: "/store_backend/coupons", icon: "🎫" },
+    { label: "Checkout Upsell", path: "/store_backend/upsells", icon: "🛍️" },
     { label: "Settings", path: "/store_backend/settings", icon: "⚙️" },
   ];
 
@@ -1070,22 +1071,22 @@ export default function VpBackendLayout() {
             >
               <Link
                 to="/store_backend/orders"
-                className={`nav-item menu-parent ${location.pathname.startsWith("/store_backend/orders") || location.pathname.startsWith("/store_backend/coupons") ? "active" : ""}`}
+                className={`nav-item menu-parent ${location.pathname.startsWith("/store_backend/orders") || location.pathname.startsWith("/store_backend/coupons") || location.pathname.startsWith("/store_backend/upsells") ? "active" : ""}`}
                 style={{ textDecoration: "none" }}
               >
                 <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
                   <span style={{ fontSize: "16px" }}>🛍️</span>
                   <span className="nav-label">PSK Commerce</span>
                 </div>
-                <span className={`chevron-icon ${commerceHovered || location.pathname.startsWith("/store_backend/orders") || location.pathname.startsWith("/store_backend/coupons") ? "rotated" : ""}`}>▶</span>
+                <span className={`chevron-icon ${commerceHovered || location.pathname.startsWith("/store_backend/orders") || location.pathname.startsWith("/store_backend/coupons") || location.pathname.startsWith("/store_backend/upsells") ? "rotated" : ""}`}>▶</span>
               </Link>
 
               <div
                 className="submenu-container"
                 style={{
-                  maxHeight: (commerceHovered || location.pathname.startsWith("/store_backend/orders") || location.pathname.startsWith("/store_backend/coupons")) ? "300px" : "0px",
-                  opacity: (commerceHovered || location.pathname.startsWith("/store_backend/orders") || location.pathname.startsWith("/store_backend/coupons")) ? 1 : 0,
-                  marginTop: (commerceHovered || location.pathname.startsWith("/store_backend/orders") || location.pathname.startsWith("/store_backend/coupons")) ? "4px" : "0px",
+                  maxHeight: (commerceHovered || location.pathname.startsWith("/store_backend/orders") || location.pathname.startsWith("/store_backend/coupons") || location.pathname.startsWith("/store_backend/upsells")) ? "340px" : "0px",
+                  opacity: (commerceHovered || location.pathname.startsWith("/store_backend/orders") || location.pathname.startsWith("/store_backend/coupons") || location.pathname.startsWith("/store_backend/upsells")) ? 1 : 0,
+                  marginTop: (commerceHovered || location.pathname.startsWith("/store_backend/orders") || location.pathname.startsWith("/store_backend/coupons") || location.pathname.startsWith("/store_backend/upsells")) ? "4px" : "0px",
                 }}
               >
                 <Link
@@ -1107,6 +1108,12 @@ export default function VpBackendLayout() {
                   className={`submenu-item ${location.pathname.startsWith("/store_backend/coupons") ? "active" : ""}`}
                 >
                   Coupons
+                </Link>
+                <Link
+                  to="/store_backend/upsells"
+                  className={`submenu-item ${location.pathname.startsWith("/store_backend/upsells") ? "active" : ""}`}
+                >
+                  Checkout Upsells
                 </Link>
                 <Link
                   to="/store_backend/analytics?view=overview"

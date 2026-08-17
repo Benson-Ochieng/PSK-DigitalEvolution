@@ -9,6 +9,8 @@ export interface UpsellProduct {
   sale_price: number;
   weight_kg: number | null;
   slug?: string;
+  category?: string;
+  isPrimary?: boolean;
 }
 
 interface CheckoutUpsellModalProps {

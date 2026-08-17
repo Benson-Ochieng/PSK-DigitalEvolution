@@ -1,0 +1,98 @@
+{
+  "enabled": true,
+  "activeProductId": 48957,
+  "rotationMode": "category_affinity",
+  "timerSeconds": 30,
+  "items": [
+    {
+      "id": 28218,
+      "name": "Migliorcane Unico ADULT MINI DELICATE TURKEY PATE 100Gr",
+      "brand": "Miglior",
+      "image_url": "https://petstore.co.ke/wp-content/uploads/2022/05/MDW008.jpg",
+      "regularPrice": 204,
+      "salePrice": 179,
+      "minQuantity": 1,
+      "category": "Dog, Dog Food & Treats, MORANDO",
+      "slug": "migliorcane-unico-adult-mini-delicate-turkey-pate-100gr-2"
+    },
+    {
+      "id": 48944,
+      "name": "Reflex Happy Hour Cat Treat Calmness Lamb & Cranberry Calming Support 60g",
+      "brand": "Reflex",
+      "image_url": "https://petstore.co.ke/wp-content/uploads/2024/07/REFLEX-HAPPY-HOUR-CAT-TREAT-CALMNESS-LAMB-CRANBERRY-CLAMING-SUPPORT-60GR-1.png",
+      "regularPrice": 195,
+      "salePrice": 137,
+      "minQuantity": 1,
+      "category": "Cat, Cat Food & Treats, Cat Treats, Reflex",
+      "slug": "reflex-happy-hour-cat-treat-calmness-lamb-cranberry-claming-support-60gr-2"
+    },
+    {
+      "id": 48959,
+      "name": "Reflex Happy Hour Cat Treat Cocktail All Supportive Benefits Together 60g",
+      "brand": "Reflex",
+      "image_url": "https://petstore.co.ke/wp-content/uploads/2024/07/REFLEX-HAPPY-HOUR-CAT-TREAT-COCKTAIL-ALL-SUPPORTIVE-BENEFITS-TOGETHER-60GR.png",
+      "regularPrice": 195,
+      "salePrice": 137,
+      "minQuantity": 1,
+      "category": "Cat, Cat Food & Treats, Cat Treats, Kitten Treats, Reflex",
+      "slug": "reflex-happy-hour-cat-treat-cocktail-all-supportive-benefits-together-60gr"
+    },
+    {
+      "id": 48957,
+      "name": "Reflex Happy Hour Cat Treat Healthy Bones 60g",
+      "brand": "Reflex",
+      "image_url": "https://petstore.co.ke/wp-content/uploads/2024/07/REFLEX-HAPPY-HOUR-CAT-TREAT-HEALTHY-BONES-60GR-1.png",
+      "regularPrice": 195,
+      "salePrice": 137,
+      "minQuantity": 1,
+      "category": "Cat, Cat Food & Treats, Cat Treats, Reflex",
+      "isPrimary": true,
+      "slug": "reflex-happy-hour-cat-treat-healthy-bones-60gr-2"
+    },
+    {
+      "id": 52689,
+      "name": "Reflex Happy Hour Dog Treat Dental Care Lamb & Mint 60g",
+      "brand": "Reflex",
+      "image_url": "https://petstore.co.ke/wp-content/uploads/2025/01/Happy-Hour-Dog-TREATS-Dental-Care-60G.png",
+      "regularPrice": 195,
+      "salePrice": 117,
+      "minQuantity": 1,
+      "category": "Dog, Dog Food & Treats, Dog Treats, Puppy Treats, Reflex",
+      "slug": "reflex-happy-hour-dog-treat-dental-care-lamb-mint-60gr"
+    },
+    {
+      "id": 69330,
+      "name": "Spectrum Gusto Lick Snack For Dog With Beef And Sweet Potato 4x15g",
+      "brand": "Spectrum",
+      "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/SPECTRUM-BEEF-SNACK-.png",
+      "regularPrice": 550,
+      "salePrice": 385,
+      "minQuantity": 1,
+      "category": "Dog, Dog Food & Treats, Dog Treats, Puppy Treats, Spectrum",
+      "slug": "spectrum-gusto-lick-snack-beef-sweet-potato"
+    },
+    {
+      "id": 69326,
+      "name": "Spectrum Gusto Lick Snack For Dog With Lamb And Carrot 4x15g",
+      "brand": "Spectrum",
+      "image_url": "https://petstore.co.ke/wp-content/uploads/2026/01/spectrum-lick-snack-Lamb-and-carrot.png",
+      "regularPrice": 550,
+      "salePrice": 385,
+      "minQuantity": 1,
+      "category": "Dog, Dog Food & Treats, Dog Treats, Puppy Treats, Spectrum",
+      "slug": "spectrum-gusto-lick-snack-lamb-carrot"
+    },
+    {
+      "id": 12630,
+      "name": "Reflex Plus Adult Dog Food Canned - Lamb Chunks in Gravy 400g",
+      "brand": "Reflex",
+      "image_url": "https://petstore.co.ke/wp-content/uploads/2020/04/Reflex-Plus-Lamb-chunks-in-jelly.png",
+      "regularPrice": 305,
+      "salePrice": 153,
+      "minQuantity": 1,
+      "category": "Dog, Dog Food & Treats, Reflex, Wet Dog Food",
+      "slug": "reflex-plus-adult-dog-food-canned-lamb-chunks-in-gravy-0-4kg"
+    }
+  ],
+  "events": []
+}

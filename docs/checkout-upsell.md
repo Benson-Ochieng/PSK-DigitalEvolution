@@ -157,18 +157,64 @@ The struck-through + red price pattern matches WooCommerce's default
 coupon needed, just a sale price on the upsell product itself is the
 simplest way to reproduce it.
 
-## Open questions for the actual build
+## Dashboard Management (PSK Commerce)
 
-- Single fixed product vs. a rotating/random pool
-- Frequency capping (every checkout vs. once per session/day)
-- Mobile layout — screenshot is desktop only
-- Whether this needs to coexist with the existing Mpesa-on-Delivery
-  gateway toggle logic already on this checkout page
+Store administrators can manage and analyze checkout upsells directly from the Admin Dashboard:
 
-## Next step
+- **Location**: Navigate to Admin Dashboard → **PSK Commerce** → **Checkout Upsells** (`/store_backend/upsells`).
 
-Once you share the live WooCommerce URL for the target store, I can
-pull the actual checkout page to check for existing upsell/cross-sell
-plugins, theme hooks already in use, and anything that might conflict
-with the Mpesa-on-Delivery gateway customization already in place —
-then turn this into ready-to-use `functions.php` code.
+### Page Structure & Features (in Order):
+
+1. **Add New Upsell Product** (Top Section)
+   - Clean product selector dropdown with instant catalog product lookup.
+   - **`Add Upsell Product`** primary button to add the selected item to the active upsell pool.
+   - Descriptive guidance text: *"Select a product to add as an upsell. It will be added to the table below."*
+
+2. **Overview with the Filter** (Middle Section)
+   - **3 Top Metric Cards**:
+     - 🛒 **Total Upsell Products**: Active count of configured upsell items.
+     - 👁 **Total Times Shown**: Aggregate count of popup modal impressions.
+     - ✓ **Total Purchases**: Aggregate count of accepted upsell conversions.
+   - **Search & Filter Bar**: Instant search input with a dedicated **`Filter`** button.
+   - **Upsell Products Table**:
+     - Columns: `ID`, `Name`, `Regular Price`, `Upsell Price` (with inline numerical input and individual **`Update`** button), `Min Quantity` (default 1), `Category`, and `Actions` (**`Remove`** button).
+
+3. **Upsell Conversion Metrics** (Bottom Section)
+   - **Filter Controls**:
+     - Time Range dropdown (`Last 7 Days`, `Last 30 Days`, `Last 90 Days`, `All Time`).
+     - Product dropdown (`All Products` or individual items).
+     - **`Apply Filters`** button.
+   - **Dual Analytics Charts**:
+     - **Product Performance Bar Chart**: Visual comparison of *Times Shown* (cyan bars) vs. *Times Purchased* (pink bars) per product with pagination controls (`[Previous] Page 1 of 3 [Next]`).
+     - **Revenue Over Time Line Chart**: Graphical representation of generated revenue over selected periods.
+   - **Detailed Product Performance Table**:
+     - Columns: `Product`, `Times Shown`, `Times Purchased`, `Conversion Rate (%)`, `Revenue`, and `Recent Impressions (Last 30 Days)`.
+   - **Detailed Conversion Reports Export**:
+     - **`Download PDF Report`** and **`Download CSV Report`** buttons for offline analytics and reporting.
+
+### Real-Time Dynamic Event Tracking
+
+- All metric counters, conversion rates, and chart data start at a **clean zero baseline (`0`)**.
+- As customers encounter the checkout upsell popup modal on `/checkout`, an impression event is automatically recorded in real time.
+- When customers click **"Add to Cart & Checkout"**, a purchase conversion event is logged, dynamically calculating conversion rates and revenue across time ranges.
+
+### Dynamic Upsell Interchange & Category Affinity
+
+When multiple products exist in the active upsell pool, the system selects which item to present on the checkout modal dynamically:
+
+1. **Smart Category Context Matching (Dog vs. Cat)**:
+   - **Cat in Cart**: If the customer's cart contains cat food, treats, or feline accessories, the system automatically presents a Cat upsell treat (e.g., *Reflex Happy Hour Cat Treat Healthy Bones* or *Reflex Calmness Cat Treat*).
+   - **Dog in Cart**: If the customer's cart contains dog food, puppy treats, or canine supplies, the system presents a Dog upsell treat (e.g., *Reflex Dog Dental Care Treat* or *Spectrum Gusto Dog Snack*).
+   - **Mixed / General**: Falls back to the primary featured offer or highest-converting pool product.
+
+2. **Cart Exclusion & Fallback**:
+   - The selector automatically checks the customer's cart and **excludes any product already in the cart**.
+   - If the primary offer is already in the cart, the system seamlessly promotes the next best available product from the pool.
+
+3. **Admin Rotation Strategies**:
+   - Store managers can select between 4 strategies directly from the dashboard:
+     - 🎯 **Smart Category Match** *(Dog/Cat cart context affinity)*
+     - ⭐ **Highest Conversion Rate First** *(Auto-optimized ROI)*
+     - 🔄 **Round-Robin Rotation** *(Even split across all items)*
+     - 📌 **Fixed Featured Product Only** *(Manual choice)*
+

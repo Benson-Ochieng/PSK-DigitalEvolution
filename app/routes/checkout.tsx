@@ -1,5 +1,5 @@
 import { Link, useLoaderData, useNavigate, data, redirect, Form, useActionData } from "react-router";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useMemo } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { query } from "../db.server";
@@ -479,53 +479,69 @@ export async function loader({ request }: { request: Request }) {
     } catch (e) {}
   }
 
-  // Fetch checkout upsell product if enabled
-  let upsellProduct: UpsellProduct | null = null;
-  const upsellEnabled = parsedSettings.checkoutUpsellEnabled !== false;
-  const upsellProductId = parsedSettings.checkoutUpsellProductId ? Number(parsedSettings.checkoutUpsellProductId) : 48957;
-
-  if (upsellEnabled) {
+  const upsellsJsonPath = await import("path").then(p => p.default.join(process.cwd(), "content", "upsells.json"));
+  let upsellsConfig: any = null;
+  if (fs.existsSync(upsellsJsonPath)) {
     try {
-      const upsellRes = await query(`
-        SELECT p.id, p.name, p.brand, p.image_url, p.slug, p.weight_kg, sp.price as petstore_price
+      upsellsConfig = JSON.parse(fs.readFileSync(upsellsJsonPath, "utf-8"));
+    } catch (e) {}
+  }
+
+  const upsellEnabled = upsellsConfig ? upsellsConfig.enabled !== false : parsedSettings.checkoutUpsellEnabled !== false;
+  const rotationMode = upsellsConfig?.rotationMode || "category_affinity";
+  const timerSeconds = upsellsConfig?.timerSeconds || 30;
+
+  let upsellPool: UpsellProduct[] = [];
+  if (upsellEnabled && upsellsConfig?.items && upsellsConfig.items.length > 0) {
+    const poolIds = upsellsConfig.items.map((i: any) => i.id);
+    try {
+      const poolRes = await query(`
+        SELECT p.id, p.name, p.brand, p.image_url, p.slug, p.weight_kg, p.categories, sp.price as petstore_price
         FROM products p
         LEFT JOIN store_prices sp ON sp.product_id = p.id AND sp.store_name = 'PetStore Kenya'
-        WHERE p.id = $1
-        LIMIT 1
-      `, [upsellProductId]);
+        WHERE p.id = ANY($1::int[])
+      `, [poolIds]);
 
-      if (upsellRes.rows.length > 0) {
-        const row = upsellRes.rows[0];
-        const regPrice = Number(parsedSettings.checkoutUpsellRegularPrice || row.petstore_price || 195);
-        const salePrice = Number(parsedSettings.checkoutUpsellSalePrice || (regPrice * 0.7) || 137);
-        upsellProduct = {
-          id: row.id,
-          name: row.name,
-          brand: row.brand || "Reflex",
-          image_url: row.image_url,
+      const dbMap = new Map(poolRes.rows.map(r => [r.id, r]));
+
+      upsellPool = upsellsConfig.items.map((item: any) => {
+        const dbRow = dbMap.get(item.id);
+        const regPrice = Number(item.regularPrice || (dbRow ? dbRow.petstore_price : 195));
+        const salePrice = Number(item.salePrice || Math.round(regPrice * 0.7));
+        return {
+          id: item.id,
+          name: item.name || (dbRow ? dbRow.name : "Special Pet Treat"),
+          brand: item.brand || (dbRow ? dbRow.brand : "Reflex"),
+          image_url: item.image_url || (dbRow ? dbRow.image_url : null),
           regular_price: regPrice,
           sale_price: salePrice,
-          weight_kg: row.weight_kg ? Number(row.weight_kg) : null,
-          slug: row.slug,
+          weight_kg: dbRow?.weight_kg ? Number(dbRow.weight_kg) : 0.06,
+          slug: item.slug || (dbRow ? dbRow.slug : ""),
+          category: item.category || (dbRow ? dbRow.brand : ""),
+          isPrimary: item.id === upsellsConfig.activeProductId || item.isPrimary,
         };
-      }
+      });
     } catch (err) {
-      console.error("Error prefetching checkout upsell product:", err);
+      console.error("Error fetching upsell pool products:", err);
     }
+  }
 
-    // Fallback if product not found in DB
-    if (!upsellProduct) {
-      upsellProduct = {
+  // Fallback if pool empty but enabled
+  if (upsellEnabled && upsellPool.length === 0) {
+    upsellPool = [
+      {
         id: 48957,
         name: "Reflex Happy Hour Cat Treat Healthy Bones 60g",
         brand: "Reflex",
         image_url: "https://petstore.co.ke/wp-content/uploads/2024/07/REFLEX-HAPPY-HOUR-CAT-TREAT-HEALTHY-BONES-60GR-1.png",
-        regular_price: Number(parsedSettings.checkoutUpsellRegularPrice || 195),
-        sale_price: Number(parsedSettings.checkoutUpsellSalePrice || 137),
+        regular_price: 195,
+        sale_price: 137,
         weight_kg: 0.06,
         slug: "reflex-happy-hour-cat-treat-healthy-bones-60gr-2",
-      };
-    }
+        category: "Cat, Cat Food & Treats, Cat Treats, Reflex",
+        isPrimary: true,
+      },
+    ];
   }
 
   if (customerEmail || customerPhone) {
@@ -536,7 +552,7 @@ export async function loader({ request }: { request: Request }) {
     }
   }
 
-  return { customerName, customerEmail, customerPhone, loyalty, recaptchaSiteKey, googleClientId, upsellProduct };
+  return { customerName, customerEmail, customerPhone, loyalty, recaptchaSiteKey, googleClientId, upsellPool, upsellEnabled, rotationMode, timerSeconds };
 }
 
 export async function action({ request }: { request: Request }) {
@@ -624,10 +640,40 @@ export async function action({ request }: { request: Request }) {
 }
 
 export default function CheckoutPage() {
-  const { customerName, customerEmail, customerPhone, loyalty, recaptchaSiteKey, googleClientId, upsellProduct } = useLoaderData<typeof loader>();
+  const { customerName, customerEmail, customerPhone, loyalty, recaptchaSiteKey, googleClientId, upsellPool, upsellEnabled, rotationMode, timerSeconds } = useLoaderData<typeof loader>();
   const actionData = useActionData<any>();
   const { items, subtotal, clearCart, addItem } = useCart();
   const navigate = useNavigate();
+
+  // Dynamically resolve the best upsell product matching the shopper's cart
+  const upsellProduct = useMemo(() => {
+    if (!upsellEnabled || !upsellPool || upsellPool.length === 0) return null;
+    if (items.length === 0) return null;
+
+    // Cart Exclusion: Filter out any product already in the cart
+    const cartIds = new Set(items.map((i) => i.id));
+    const availablePool = upsellPool.filter((p) => !cartIds.has(p.id));
+    if (availablePool.length === 0) return null;
+
+    // Cart Pet Category Context Detection (Dog vs. Cat)
+    const cartContextText = items.map((i) => `${i.name} ${i.brand || ""}`).join(" ").toLowerCase();
+    const hasDog = /dog|puppy|canine|k9/i.test(cartContextText);
+    const hasCat = /cat|kitten|feline/i.test(cartContextText);
+
+    if (rotationMode === "category_affinity") {
+      if (hasCat && !hasDog) {
+        const catMatch = availablePool.find((p) => /cat|kitten|feline/i.test(`${p.name} ${p.category || ""}`));
+        if (catMatch) return catMatch;
+      } else if (hasDog && !hasCat) {
+        const dogMatch = availablePool.find((p) => /dog|puppy|canine/i.test(`${p.name} ${p.category || ""}`));
+        if (dogMatch) return dogMatch;
+      }
+    }
+
+    // Default: Primary featured item if available in remaining pool, otherwise first available
+    const primary = availablePool.find((p) => p.isPrimary);
+    return primary || availablePool[0];
+  }, [upsellPool, upsellEnabled, rotationMode, items]);
 
   // Checkout Upsell Modal state & handlers
   const [showUpsellModal, setShowUpsellModal] = useState(false);
@@ -643,6 +689,12 @@ export default function CheckoutPage() {
     const timer = setTimeout(() => {
       setShowUpsellModal(true);
       setHasPromptedUpsell(true);
+      try {
+        const fd = new FormData();
+        fd.append("intent", "track_impression");
+        fd.append("productId", String(upsellProduct.id));
+        fetch("/store_backend/upsells", { method: "POST", body: fd }).catch(() => {});
+      } catch {}
     }, 400);
 
     return () => clearTimeout(timer);
@@ -663,6 +715,12 @@ export default function CheckoutPage() {
       weight_kg: product.weight_kg,
       slug: product.slug,
     });
+    try {
+      const fd = new FormData();
+      fd.append("intent", "track_purchase");
+      fd.append("productId", String(product.id));
+      fetch("/store_backend/upsells", { method: "POST", body: fd }).catch(() => {});
+    } catch {}
     handleUpsellClose();
   };
 

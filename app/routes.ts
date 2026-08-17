@@ -105,6 +105,7 @@ if (enableDashboard) {
       route("orders", "routes/store_backend.orders.tsx"),
       route("customers", "routes/store_backend.customers.tsx"),
       route("coupons", "routes/store_backend.coupons.tsx"),
+      route("upsells", "routes/store_backend.upsells.tsx"),
       route("pages", "routes/store_backend.pages.tsx"),
       route("faqs", "routes/store_backend.faqs.tsx"),
       route("comments", "routes/store_backend.comments.tsx"),
