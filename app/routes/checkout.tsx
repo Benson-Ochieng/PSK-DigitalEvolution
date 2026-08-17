@@ -3465,6 +3465,7 @@ export default function CheckoutPage() {
           onClose={handleUpsellClose}
           onAddToCart={handleUpsellAddToCart}
           product={upsellProduct}
+          timerSeconds={timerSeconds}
         />
       )}
 

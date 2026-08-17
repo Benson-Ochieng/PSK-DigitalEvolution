@@ -94,5 +94,21 @@
       "slug": "reflex-plus-adult-dog-food-canned-lamb-chunks-in-gravy-0-4kg"
     }
   ],
-  "events": []
+  "events": [
+    {
+      "type": "impression",
+      "productId": 48957,
+      "timestamp": "2026-08-17T12:01:23.450Z"
+    },
+    {
+      "type": "impression",
+      "productId": 48957,
+      "timestamp": "2026-08-17T12:01:30.542Z"
+    },
+    {
+      "type": "impression",
+      "productId": 48957,
+      "timestamp": "2026-08-17T12:04:36.679Z"
+    }
+  ]
 }

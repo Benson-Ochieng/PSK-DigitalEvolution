@@ -18,6 +18,7 @@ interface CheckoutUpsellModalProps {
   onClose: () => void;
   onAddToCart: (product: UpsellProduct) => void;
   product: UpsellProduct;
+  timerSeconds?: number;
 }
 
 export function CheckoutUpsellModal({
@@ -25,18 +26,29 @@ export function CheckoutUpsellModal({
   onClose,
   onAddToCart,
   product,
+  timerSeconds = 30,
 }: CheckoutUpsellModalProps) {
-  const [countdown, setCountdown] = useState(30);
+  const [countdown, setCountdown] = useState(timerSeconds || 30);
   const timerRef = useRef<NodeJS.Timeout | null>(null);
+  const onCloseRef = useRef(onClose);
 
-  // Reset and start 30s countdown when opened
+  useEffect(() => {
+    onCloseRef.current = onClose;
+  }, [onClose]);
+
+  // Reset and start countdown when opened, auto-close when countdown ends (0s)
   useEffect(() => {
     if (isOpen) {
-      setCountdown(30);
+      const initialSeconds = timerSeconds && timerSeconds > 0 ? timerSeconds : 30;
+      setCountdown(initialSeconds);
       timerRef.current = setInterval(() => {
         setCountdown((prev) => {
           if (prev <= 1) {
-            if (timerRef.current) clearInterval(timerRef.current);
+            if (timerRef.current) {
+              clearInterval(timerRef.current);
+              timerRef.current = null;
+            }
+            onCloseRef.current();
             return 0;
           }
           return prev - 1;
@@ -55,7 +67,7 @@ export function CheckoutUpsellModal({
         timerRef.current = null;
       }
     };
-  }, [isOpen]);
+  }, [isOpen, timerSeconds]);
 
   // Handle ESC key
   useEffect(() => {
