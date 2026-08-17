@@ -6,6 +6,7 @@ import { query } from "../db.server";
 import { getLoyaltyPoints } from "../lib/loyalty.server";
 import { useCart } from "../context/cart";
 import PageHeader from "../components/PageHeader";
+import { CheckoutUpsellModal, type UpsellProduct } from "../components/CheckoutUpsellModal";
 
 
 export const SHIPPING_ZONES: Record<string, Record<string, number>> = {
@@ -468,13 +469,63 @@ export async function loader({ request }: { request: Request }) {
   const fs = await import("fs").then(f => f.default);
   const recaptchaSiteKey = ""; // Temporarily disabled until console access
   let googleClientId = process.env.GOOGLE_CLIENT_ID || "YOUR_GOOGLE_CLIENT_ID_PLACEHOLDER";
+  let parsedSettings: any = {};
   if (fs.existsSync(settingsPath)) {
     try {
-      const parsed = JSON.parse(fs.readFileSync(settingsPath, "utf-8"));
-      if (parsed.googleClientId) {
-        googleClientId = parsed.googleClientId;
+      parsedSettings = JSON.parse(fs.readFileSync(settingsPath, "utf-8"));
+      if (parsedSettings.googleClientId) {
+        googleClientId = parsedSettings.googleClientId;
       }
     } catch (e) {}
+  }
+
+  // Fetch checkout upsell product if enabled
+  let upsellProduct: UpsellProduct | null = null;
+  const upsellEnabled = parsedSettings.checkoutUpsellEnabled !== false;
+  const upsellProductId = parsedSettings.checkoutUpsellProductId ? Number(parsedSettings.checkoutUpsellProductId) : 48957;
+
+  if (upsellEnabled) {
+    try {
+      const upsellRes = await query(`
+        SELECT p.id, p.name, p.brand, p.image_url, p.slug, p.weight_kg, sp.price as petstore_price
+        FROM products p
+        LEFT JOIN store_prices sp ON sp.product_id = p.id AND sp.store_name = 'PetStore Kenya'
+        WHERE p.id = $1
+        LIMIT 1
+      `, [upsellProductId]);
+
+      if (upsellRes.rows.length > 0) {
+        const row = upsellRes.rows[0];
+        const regPrice = Number(parsedSettings.checkoutUpsellRegularPrice || row.petstore_price || 195);
+        const salePrice = Number(parsedSettings.checkoutUpsellSalePrice || (regPrice * 0.7) || 137);
+        upsellProduct = {
+          id: row.id,
+          name: row.name,
+          brand: row.brand || "Reflex",
+          image_url: row.image_url,
+          regular_price: regPrice,
+          sale_price: salePrice,
+          weight_kg: row.weight_kg ? Number(row.weight_kg) : null,
+          slug: row.slug,
+        };
+      }
+    } catch (err) {
+      console.error("Error prefetching checkout upsell product:", err);
+    }
+
+    // Fallback if product not found in DB
+    if (!upsellProduct) {
+      upsellProduct = {
+        id: 48957,
+        name: "Reflex Happy Hour Cat Treat Healthy Bones 60g",
+        brand: "Reflex",
+        image_url: "https://petstore.co.ke/wp-content/uploads/2024/07/REFLEX-HAPPY-HOUR-CAT-TREAT-HEALTHY-BONES-60GR-1.png",
+        regular_price: Number(parsedSettings.checkoutUpsellRegularPrice || 195),
+        sale_price: Number(parsedSettings.checkoutUpsellSalePrice || 137),
+        weight_kg: 0.06,
+        slug: "reflex-happy-hour-cat-treat-healthy-bones-60gr-2",
+      };
+    }
   }
 
   if (customerEmail || customerPhone) {
@@ -485,7 +536,7 @@ export async function loader({ request }: { request: Request }) {
     }
   }
 
-  return { customerName, customerEmail, customerPhone, loyalty, recaptchaSiteKey, googleClientId };
+  return { customerName, customerEmail, customerPhone, loyalty, recaptchaSiteKey, googleClientId, upsellProduct };
 }
 
 export async function action({ request }: { request: Request }) {
@@ -573,10 +624,47 @@ export async function action({ request }: { request: Request }) {
 }
 
 export default function CheckoutPage() {
-  const { customerName, customerEmail, customerPhone, loyalty, recaptchaSiteKey, googleClientId } = useLoaderData<typeof loader>();
+  const { customerName, customerEmail, customerPhone, loyalty, recaptchaSiteKey, googleClientId, upsellProduct } = useLoaderData<typeof loader>();
   const actionData = useActionData<any>();
-  const { items, subtotal, clearCart } = useCart();
+  const { items, subtotal, clearCart, addItem } = useCart();
   const navigate = useNavigate();
+
+  // Checkout Upsell Modal state & handlers
+  const [showUpsellModal, setShowUpsellModal] = useState(false);
+  const [hasPromptedUpsell, setHasPromptedUpsell] = useState(false);
+
+  useEffect(() => {
+    if (typeof window === "undefined" || !upsellProduct) return;
+    if (items.length === 0) return;
+    // Don't show if upsell item is already in cart
+    if (items.some(i => i.id === upsellProduct.id)) return;
+    if (hasPromptedUpsell) return;
+
+    const timer = setTimeout(() => {
+      setShowUpsellModal(true);
+      setHasPromptedUpsell(true);
+    }, 400);
+
+    return () => clearTimeout(timer);
+  }, [items, upsellProduct, hasPromptedUpsell]);
+
+  const handleUpsellClose = () => {
+    setShowUpsellModal(false);
+    setHasPromptedUpsell(true);
+  };
+
+  const handleUpsellAddToCart = (product: UpsellProduct) => {
+    addItem({
+      id: product.id,
+      name: product.name,
+      brand: product.brand,
+      price: product.sale_price,
+      image_url: product.image_url,
+      weight_kg: product.weight_kg,
+      slug: product.slug,
+    });
+    handleUpsellClose();
+  };
 
   // Split name for prefilling First/Last Name
   const nameParts = customerName ? customerName.split(" ") : ["", ""];
@@ -1260,6 +1348,12 @@ export default function CheckoutPage() {
       return;
     }
 
+    if (!hasPromptedUpsell && upsellProduct && !items.some(i => i.id === upsellProduct.id)) {
+      setShowUpsellModal(true);
+      setHasPromptedUpsell(true);
+      return;
+    }
+
     setSubmitting(true);
     setErrorMessage("");
 
@@ -1343,6 +1437,12 @@ export default function CheckoutPage() {
         setErrorMessage("Please enter a valid recipient phone number.");
         return;
       }
+    }
+
+    if (!hasPromptedUpsell && upsellProduct && !items.some(i => i.id === upsellProduct.id)) {
+      setShowUpsellModal(true);
+      setHasPromptedUpsell(true);
+      return;
     }
 
     const lines = items.map(i => `• ${i.name} x${i.quantity} — KES ${(i.price * i.quantity).toLocaleString()}`).join("\n");
@@ -3252,6 +3352,15 @@ export default function CheckoutPage() {
             </form>
           </div>
         </div>
+      )}
+
+      {upsellProduct && (
+        <CheckoutUpsellModal
+          isOpen={showUpsellModal}
+          onClose={handleUpsellClose}
+          onAddToCart={handleUpsellAddToCart}
+          product={upsellProduct}
+        />
       )}
 
       <Footer />

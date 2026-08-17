@@ -1,0 +1,174 @@
+# Checkout Upsell Popup — Feature Spec
+
+Reference: `petstore.co.ke/checkout/` (screenshot capture)
+
+## What it does
+
+A modal pops up over the checkout page offering one discounted add-on
+product before the customer can place the order. It creates urgency
+with a countdown, then lets the shopper either add the item or
+dismiss and continue.
+
+## Observed UI elements
+
+| Element | Detail |
+|---|---|
+| Trigger | Fires on the checkout page over the existing form when specific conditions are met (see Trigger Architecture below) |
+| Countdown | Numeric badge top-center, counting down from 30 seconds and auto-dismissing on 0 |
+| Heading | "Limited Time Offer!" in bold brand blue |
+| Product card | Image, product name, regular price struck through (195KSh), sale price in bold red (137KSh) |
+| Primary action | Green button — "Add to Cart & Checkout" (adds item at promo price, updates totals in place, closes modal) |
+| Secondary action | Grey button — "Do Not Add to Cart & Checkout" (closes modal without mutating cart) |
+
+## Trigger Architecture & Mechanics
+
+### What Exactly Triggers the Popup Modal:
+
+The modal is triggered when a shopper arrives on `/checkout` under the following conditions:
+
+1. **Active Cart**: The cart must contain at least 1 item (`items.length > 0`). Empty checkouts do not trigger the modal.
+2. **Product Exclusion**: The upsell product (e.g. *Reflex Happy Hour Cat Treat Healthy Bones 60g*, ID: `48957`) is not already present in the user's cart.
+3. **Session Frequency Capping**: The shopper has not already actioned or dismissed the upsell in their current session. Tracked via `sessionStorage.getItem("psk_checkout_upsell_dismissed")`.
+4. **Store Configuration**: `checkoutUpsellEnabled` must be `true` in `general-settings.json`.
+5. **Entry Delay**: A short `400ms` delay after page mount allows the checkout layout to render before smoothly fading in the dimmed backdrop and modal.
+
+### Pre-Purchase Intercept Alternative:
+In addition to page mount, the trigger can intercept the **"Place Order"** or **"Complete Order via WhatsApp"** button click if the customer has not yet been presented with the offer during their checkout flow.
+
+---
+
+## Resolved Specifications & Behaviors
+
+- **Countdown at 0**: The timer auto-dismisses the modal when it reaches 0 (treated as "Do Not Add & Checkout") to maintain authentic urgency.
+- **Product Linking**: Dynamic lookup from database (`products` and `store_prices` tables) with configurable fallback in `content/general-settings.json` (`checkoutUpsellProductId: 48957`, `checkoutUpsellSalePrice: 137`, `checkoutUpsellRegularPrice: 195`).
+- **In-Place Update**: "Add to Cart & Checkout" updates cart state via React Context (`useCart().addItem(...)`), instantly recalculating subtotal, delivery fees, loyalty points, and total amount in place without a page reload.
+- **Session Capping**: Capped to once per shopping session (`sessionStorage`). Closing or accepting records the session dismissal flag.
+
+## Proposed implementation (WooCommerce)
+
+**1. Product selection — how the linking actually works**
+
+There are two legitimate ways to decide *which* product shows in the
+popup. Pick based on what the reference site seems to be doing (a
+cat treat shown regardless of what's in the cart suggests option B,
+a fixed/global pick — but confirm once you send the live URL).
+
+**Option A — Cart-based cross-sell (WooCommerce native, no custom field needed)**
+WooCommerce already has a "Linked Products" tab on every product
+edit screen with **Cross-sells** and **Upsells** fields — this is
+core functionality, not something you build. You just populate it
+per product. Then at checkout, pull whatever cross-sells apply to
+what's already in the cart:
+
+```php
+function get_checkout_upsell_product() {
+    $cross_sell_ids = WC()->cart->get_cross_sells(); // auto-aggregated
+                                                       // from every item in cart,
+                                                       // already excludes items
+                                                       // already in the cart
+    if ( empty( $cross_sell_ids ) ) {
+        return null;
+    }
+    return wc_get_product( $cross_sell_ids[0] ); // or apply your own
+                                                  // priority/in-stock logic
+}
+```
+
+**Option B — Fixed/global promo product**
+If it's the same promo item for everyone regardless of cart contents,
+store one setting (a single option) instead:
+
+```php
+function get_checkout_upsell_product() {
+    $product_id = get_option( 'checkout_upsell_product_id' );
+    return $product_id ? wc_get_product( $product_id ) : null;
+}
+```
+
+Either way, the popup never hardcodes a name/price/image — it always
+calls `wc_get_product( $id )` and reads live data off the product
+object, so it can't drift out of sync with what's in wp-admin.
+
+**AJAX endpoint that feeds the modal:**
+```php
+add_action( 'wp_ajax_get_checkout_upsell', 'ajax_get_checkout_upsell' );
+add_action( 'wp_ajax_nopriv_get_checkout_upsell', 'ajax_get_checkout_upsell' );
+
+function ajax_get_checkout_upsell() {
+    $product = get_checkout_upsell_product();
+    if ( ! $product ) {
+        wp_send_json_error();
+    }
+    wp_send_json_success([
+        'id'            => $product->get_id(),
+        'name'          => $product->get_name(),
+        'image'         => wp_get_attachment_image_url( $product->get_image_id(), 'medium' ),
+        'regular_price' => $product->get_regular_price(),
+        'sale_price'    => $product->get_sale_price(),
+        'permalink'     => $product->get_permalink(),
+    ]);
+}
+```
+
+**Add-to-cart handler for the green button:**
+```php
+add_action( 'wp_ajax_upsell_add_to_cart', 'ajax_upsell_add_to_cart' );
+add_action( 'wp_ajax_nopriv_upsell_add_to_cart', 'ajax_upsell_add_to_cart' );
+
+function ajax_upsell_add_to_cart() {
+    $product_id = absint( $_POST['product_id'] );
+    WC()->cart->add_to_cart( $product_id, 1 );
+    wp_send_json_success();
+}
+```
+
+```js
+// on "Add to Cart & Checkout" click
+jQuery.post(wc_checkout_params.ajax_url, {
+    action: 'upsell_add_to_cart',
+    product_id: upsellProductId
+}, function () {
+    jQuery(document.body).trigger('update_checkout'); // refreshes totals in place
+    closeModal();
+});
+```
+
+**2. Trigger & markup**
+Hook into `woocommerce_before_checkout_form` (or gate a footer script
+with `is_checkout()`) so the modal assets only load on checkout. Fetch
+the product data through a small AJAX endpoint
+(`wp_ajax_` / `wp_ajax_nopriv_`) returning JSON:
+`{ id, name, image, regular_price, sale_price, permalink }`.
+
+**3. Countdown**
+Plain JS `setInterval` from 30. Confirm against the reference site
+whether 0 triggers auto-dismiss before wiring that behavior in.
+
+**4. Add-to-cart action**
+"Add to Cart & Checkout" → AJAX call to WooCommerce's add-to-cart
+endpoint with the product ID and qty 1, then fire WooCommerce's
+`update_checkout` event so totals/order review refresh without a
+full page reload.
+"Do Not Add & Checkout" → just closes the modal, no cart mutation.
+
+**5. Discount display**
+The struck-through + red price pattern matches WooCommerce's default
+`get_price_html()` output for a product with a Sale Price set — no
+coupon needed, just a sale price on the upsell product itself is the
+simplest way to reproduce it.
+
+## Open questions for the actual build
+
+- Single fixed product vs. a rotating/random pool
+- Frequency capping (every checkout vs. once per session/day)
+- Mobile layout — screenshot is desktop only
+- Whether this needs to coexist with the existing Mpesa-on-Delivery
+  gateway toggle logic already on this checkout page
+
+## Next step
+
+Once you share the live WooCommerce URL for the target store, I can
+pull the actual checkout page to check for existing upsell/cross-sell
+plugins, theme hooks already in use, and anything that might conflict
+with the Mpesa-on-Delivery gateway customization already in place —
+then turn this into ready-to-use `functions.php` code.

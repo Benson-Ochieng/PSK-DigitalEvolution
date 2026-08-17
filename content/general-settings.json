@@ -16,5 +16,9 @@
   "weekStartsOn": "Monday",
   "lastSyncTime": "2026-06-24T14:02:47.007Z",
   "recaptchaSiteKey": "",
-  "recaptchaSecretKey": ""
+  "recaptchaSecretKey": "",
+  "checkoutUpsellEnabled": true,
+  "checkoutUpsellProductId": 48957,
+  "checkoutUpsellSalePrice": 137,
+  "checkoutUpsellRegularPrice": 195
 }
