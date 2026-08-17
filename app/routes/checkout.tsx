@@ -450,18 +450,21 @@ export async function loader({ request }: { request: Request }) {
   const customerEmail = emailCookie ? decodeURIComponent(emailCookie.split("=")[1]) : "";
 
   let customerPhone = "";
+  let savedKraPin = "";
   let loyalty = { configured: false, registered: false, balance: 0, total: 0, used: 0, conversionRate: 1.2 };
   if (customerEmail) {
     try {
+      await query("ALTER TABLE customers ADD COLUMN IF NOT EXISTS kra_pin TEXT");
       const res = await query(
-        `SELECT phone FROM customers WHERE email = $1 LIMIT 1`,
-        [customerEmail]
+        `SELECT phone, kra_pin FROM customers WHERE LOWER(email) = $1 LIMIT 1`,
+        [customerEmail.toLowerCase()]
       );
       if (res.rows.length > 0) {
         customerPhone = res.rows[0].phone || "";
+        savedKraPin = res.rows[0].kra_pin || "";
       }
     } catch (err) {
-      console.error("Error prefetching customer phone:", err);
+      console.error("Error prefetching customer details:", err);
     }
   }
 
@@ -552,7 +555,7 @@ export async function loader({ request }: { request: Request }) {
     }
   }
 
-  return { customerName, customerEmail, customerPhone, loyalty, recaptchaSiteKey, googleClientId, upsellPool, upsellEnabled, rotationMode, timerSeconds };
+  return { customerName, customerEmail, customerPhone, savedKraPin, loyalty, recaptchaSiteKey, googleClientId, upsellPool, upsellEnabled, rotationMode, timerSeconds };
 }
 
 export async function action({ request }: { request: Request }) {
@@ -640,7 +643,7 @@ export async function action({ request }: { request: Request }) {
 }
 
 export default function CheckoutPage() {
-  const { customerName, customerEmail, customerPhone, loyalty, recaptchaSiteKey, googleClientId, upsellPool, upsellEnabled, rotationMode, timerSeconds } = useLoaderData<typeof loader>();
+  const { customerName, customerEmail, customerPhone, savedKraPin, loyalty, recaptchaSiteKey, googleClientId, upsellPool, upsellEnabled, rotationMode, timerSeconds } = useLoaderData<typeof loader>();
   const actionData = useActionData<any>();
   const { items, subtotal, clearCart, addItem } = useCart();
   const navigate = useNavigate();
@@ -1116,6 +1119,13 @@ export default function CheckoutPage() {
   const [contactPersonPhone, setContactPersonPhone] = useState("");
   const [deliveryInstructions, setDeliveryInstructions] = useState("");
   const [orderNotes, setOrderNotes] = useState("");
+  const [kraPin, setKraPin] = useState(savedKraPin || "");
+
+  useEffect(() => {
+    if (savedKraPin && !kraPin) {
+      setKraPin(savedKraPin);
+    }
+  }, [savedKraPin]);
 
   // UI toggles and selections
   const [showAdditionalInfo, setShowAdditionalInfo] = useState(true);
@@ -1401,6 +1411,14 @@ export default function CheckoutPage() {
         return;
       }
     }
+    if (kraPin.trim()) {
+      const cleanPin = kraPin.trim().toUpperCase();
+      const kraRegex = /^[A-Z]\d{9}[A-Z]$/;
+      if (!kraRegex.test(cleanPin)) {
+        setErrorMessage("Please enter a valid KRA PIN (11 characters, e.g. A123456789B), or leave the field blank.");
+        return;
+      }
+    }
     if (!agreedToTerms) {
       setErrorMessage("You must agree to the terms and conditions to proceed.");
       return;
@@ -1425,7 +1443,8 @@ export default function CheckoutPage() {
       }));
 
       const fullCustomerName = `${firstName.trim()} ${lastName.trim()}`;
-      const addressNotes = `Street: ${streetAddress}, Apt/Suite: ${apartmentInfo || "N/A"}. Additional: ${additionalAddress || "N/A"}. Contact: ${contactPerson || "N/A"} (${contactPersonPhone || "N/A"}). Instructions: ${deliveryInstructions || "N/A"}. General: ${orderNotes || "N/A"}`;
+      const cleanKraPin = kraPin.trim().toUpperCase();
+      const addressNotes = `Street: ${streetAddress}, Apt/Suite: ${apartmentInfo || "N/A"}. Additional: ${additionalAddress || "N/A"}. Contact: ${contactPerson || "N/A"} (${contactPersonPhone || "N/A"}). Instructions: ${deliveryInstructions || "N/A"}. General: ${orderNotes || "N/A"}${cleanKraPin ? `. KRA PIN: ${cleanKraPin}` : ""}`;
 
       const res = await fetch("/api/order", {
         method: "POST",
@@ -1434,6 +1453,7 @@ export default function CheckoutPage() {
           customer_name: fullCustomerName,
           customer_phone: recipientPhone,
           customer_email: recipientEmail,
+          kra_pin: cleanKraPin || undefined,
           delivery_area: `${selectedCity} - ${selectedZone} (${shippingMethod === "express" ? "Express" : "Standard"})`,
           subtotal_kes: subtotal,
           delivery_fee_kes: deliveryFee,
@@ -1496,6 +1516,14 @@ export default function CheckoutPage() {
         return;
       }
     }
+    if (kraPin.trim()) {
+      const cleanPin = kraPin.trim().toUpperCase();
+      const kraRegex = /^[A-Z]\d{9}[A-Z]$/;
+      if (!kraRegex.test(cleanPin)) {
+        setErrorMessage("Please enter a valid KRA PIN (11 characters, e.g. A123456789B), or leave the field blank.");
+        return;
+      }
+    }
 
     if (!hasPromptedUpsell && upsellProduct && !items.some(i => i.id === upsellProduct.id)) {
       setShowUpsellModal(true);
@@ -1503,9 +1531,10 @@ export default function CheckoutPage() {
       return;
     }
 
+    const cleanPin = kraPin.trim().toUpperCase();
     const lines = items.map(i => `• ${i.name} x${i.quantity} — KES ${(i.price * i.quantity).toLocaleString()}`).join("\n");
     const msg = encodeURIComponent(
-      `Hi PetStore Kenya! I'd like to place an order via WhatsApp:\n\n${lines}\n\nSubtotal: KES ${subtotal.toLocaleString()}\nDelivery Fee (${deliveryFeeLabel}): KES ${deliveryFee.toLocaleString()}\nDiscount: KES ${(discountAmount + loyaltyDiscountAmount).toLocaleString()}\nTOTAL: KES ${totalAmount.toLocaleString()}\n\nName: ${firstName} ${lastName}\nPhone: ${recipientPhone}\nNeighbourhood: ${selectedZone} (${shippingMethod === "express" ? "Express Shipping" : "Standard Shipping"})\nAddress: ${streetAddress}, ${apartmentInfo || ""}\nNotes: ${orderNotes || "None"}`
+      `Hi PetStore Kenya! I'd like to place an order via WhatsApp:\n\n${lines}\n\nSubtotal: KES ${subtotal.toLocaleString()}\nDelivery Fee (${deliveryFeeLabel}): KES ${deliveryFee.toLocaleString()}\nDiscount: KES ${(discountAmount + loyaltyDiscountAmount).toLocaleString()}\nTOTAL: KES ${totalAmount.toLocaleString()}\n\nName: ${firstName} ${lastName}\nPhone: ${recipientPhone}\nNeighbourhood: ${selectedZone} (${shippingMethod === "express" ? "Express Shipping" : "Standard Shipping"})\nAddress: ${streetAddress}, ${apartmentInfo || ""}\nNotes: ${orderNotes || "None"}${cleanPin ? `\nKRA PIN: ${cleanPin}` : ""}`
     );
     window.open(`https://wa.me/254795350292?text=${msg}`, "_blank");
     clearCart();
@@ -2656,6 +2685,24 @@ export default function CheckoutPage() {
                         resize: "vertical"
                       }}
                     />
+                  </div>
+
+                  {/* KRA PIN (optional) */}
+                  <div id="kra_pin_field" style={{ marginTop: "1rem" }}>
+                    <label style={{ display: "block", fontSize: "14px", fontFamily: "var(--font-sans)", color: "#333", fontWeight: "bold", marginBottom: "0.5rem" }}>
+                      KRA PIN (optional)
+                    </label>
+                    <input
+                      type="text"
+                      placeholder="E.G. A123456789B"
+                      maxLength={11}
+                      value={kraPin}
+                      onChange={e => setKraPin(e.target.value.toUpperCase())}
+                      style={inputStyle}
+                    />
+                    <p style={{ margin: "0.35rem 0 0 0", fontSize: "12px", fontFamily: "var(--font-sans)", color: "#666" }}>
+                      Optional. Use 11 characters, for example A123456789B.
+                    </p>
                   </div>
 
                 </div>

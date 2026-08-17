@@ -334,9 +334,9 @@ export default function VpBackendOrders() {
     if (actionType === "export") {
       const selectedOrders = finalOrders.filter((o: any) => selectedIds.includes(o.id));
       let csvContent = "data:text/csv;charset=utf-8,";
-      csvContent += "Order ID,Date,Billing Name,Billing Phone,Billing Email,Payment Method,Total,Shipping,Status\n";
+      csvContent += "Order ID,Date,Billing Name,Billing Phone,Billing Email,KRA PIN,Payment Method,Total,Shipping,Status\n";
       selectedOrders.forEach((o: any) => {
-        csvContent += `"${o.id}","${o.date}","${o.billing.name}","${o.billing.phone}","${o.billing.email}","${o.paymentMethod}",${o.total},${o.shipping},"${o.status}"\n`;
+        csvContent += `"${o.id}","${o.date}","${o.billing.name}","${o.billing.phone}","${o.billing.email}","${o.billing?.kra_pin || o.kra_pin || ""}","${o.paymentMethod}",${o.total},${o.shipping},"${o.status}"\n`;
       });
       const encodedUri = encodeURI(csvContent);
       const link = document.createElement("a");
@@ -387,6 +387,7 @@ export default function VpBackendOrders() {
                       <p><strong>${o.billing.name}</strong></p>
                       <p>Phone: ${o.billing.phone}</p>
                       <p>Email: ${o.billing.email}</p>
+                      ${(o.billing?.kra_pin || o.kra_pin) ? `<p><strong>KRA PIN:</strong> ${o.billing?.kra_pin || o.kra_pin}</p>` : ""}
                     </div>
                     <div>
                       <h3>Payment Details:</h3>
@@ -448,24 +449,25 @@ export default function VpBackendOrders() {
                 .slip { border: 1px dashed #333; padding: 20px; margin-bottom: 40px; page-break-after: always; }
                 .header { border-bottom: 2px dashed #333; padding-bottom: 10px; margin-bottom: 20px; }
                 .details { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
-                table { width: 100%; border-collapse: collapse; }
-                th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
-                th { background-color: #f9f9f9; }
+                table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
               </style>
             </head>
             <body>
               ${selectedOrders.map((o: any) => `
                 <div class="slip">
                   <div class="header">
-                    <h2>PACKING SLIP (DELIVERY NOTE)</h2>
+                    <h2>PETSTORE KENYA — PACKING SLIP</h2>
                     <p>Order ID: <strong>#${o.id}</strong> | Date: ${new Date(o.date).toLocaleDateString()}</p>
                   </div>
                   <div class="details">
                     <div>
-                      <h3>Deliver To:</h3>
-                      <p><strong>${o.billing.name}</strong></p>
-                      <p>Phone: ${o.billing.phone}</p>
-                      <p>Email: ${o.billing.email}</p>
+                      <strong>Ship To:</strong>
+                      <p>${o.billing.name}</p>
+                      <p>${o.billing.phone}</p>
+                      <p>${o.billing.email}</p>
+                      ${(o.billing?.kra_pin || o.kra_pin) ? `<p><strong>KRA PIN:</strong> ${o.billing?.kra_pin || o.kra_pin}</p>` : ""}
                     </div>
                     <div>
                       <h3>Shipping Method:</h3>
@@ -1479,6 +1481,11 @@ export default function VpBackendOrders() {
                       <div style={{ fontSize: "11px", color: "rgba(255,255,255,0.4)" }}>
                         {order.billing.phone} | {order.billing.email}
                       </div>
+                      {(order.billing?.kra_pin || order.kra_pin) && (
+                        <div style={{ fontSize: "11px", color: "#00ccff", fontWeight: "600" }}>
+                          KRA PIN: {order.billing?.kra_pin || order.kra_pin}
+                        </div>
+                      )}
                       <div style={{ fontSize: "11px", color: "rgba(255,255,255,0.3)" }}>
                         via {order.paymentMethod}
                       </div>

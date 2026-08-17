@@ -13,6 +13,7 @@ interface OrderRequestBody {
   customer_name?: string;
   customer_phone: string;
   customer_email?: string;
+  kra_pin?: string;
   delivery_area?: string;
   subtotal_kes: number;
   delivery_fee_kes: number;
@@ -35,6 +36,7 @@ export async function action({ request }: { request: Request }) {
       customer_name,
       customer_phone,
       customer_email,
+      kra_pin,
       delivery_area,
       subtotal_kes,
       delivery_fee_kes,
@@ -79,13 +81,17 @@ export async function action({ request }: { request: Request }) {
       }
     }
 
+    const cleanKraPin = kra_pin ? kra_pin.trim().toUpperCase() : null;
+
     try {
+      await query("ALTER TABLE orders ADD COLUMN IF NOT EXISTS kra_pin TEXT");
+      await query("ALTER TABLE customers ADD COLUMN IF NOT EXISTS kra_pin TEXT");
       await query("ALTER TABLE orders ADD COLUMN IF NOT EXISTS loyalty_points_used INTEGER DEFAULT 0");
       await query("ALTER TABLE orders ADD COLUMN IF NOT EXISTS loyalty_discount_kes NUMERIC DEFAULT 0");
       await query("ALTER TABLE orders ADD COLUMN IF NOT EXISTS loyalty_status TEXT");
       await query("ALTER TABLE orders ADD COLUMN IF NOT EXISTS loyalty_error TEXT");
     } catch (schemaErr) {
-      console.warn('Could not ensure loyalty order columns:', schemaErr);
+      console.warn('Could not ensure loyalty / kra_pin order columns:', schemaErr);
     }
 
     // --- DATABASE TRANSACTION ---
@@ -127,15 +133,16 @@ export async function action({ request }: { request: Request }) {
             `UPDATE customers 
              SET name = COALESCE($1, name),
                  phone = COALESCE($2, phone),
-                 email = COALESCE($3, email)
-             WHERE id = $4`,
-            [cleanName, cleanPhone, cleanEmail, existingRes.rows[0].id]
+                 email = COALESCE($3, email),
+                 kra_pin = COALESCE($4, kra_pin)
+             WHERE id = $5`,
+            [cleanName, cleanPhone, cleanEmail, cleanKraPin, existingRes.rows[0].id]
           );
         } else {
           // Insert new customer record
           await client.query(
-            `INSERT INTO customers (phone, email, name) VALUES ($1, $2, $3)`,
-            [cleanPhone, cleanEmail, cleanName]
+            `INSERT INTO customers (phone, email, name, kra_pin) VALUES ($1, $2, $3, $4)`,
+            [cleanPhone, cleanEmail, cleanName, cleanKraPin]
           );
         }
       }
@@ -149,15 +156,16 @@ export async function action({ request }: { request: Request }) {
 
       const orderRes = await client.query(
         `INSERT INTO orders
-          (customer_name, customer_phone, customer_email, delivery_area,
+          (customer_name, customer_phone, customer_email, kra_pin, delivery_area,
            subtotal_kes, delivery_fee_kes, total_kes, payment_method, notes, status,
            loyalty_points_used, loyalty_discount_kes, loyalty_status)
-         VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, 'pending', $10, $11, $12)
+         VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, 'pending', $11, $12, $13)
          RETURNING id`,
         [
           customer_name?.trim() || null,
           customer_phone.trim(),
           customer_email?.trim() || null,
+          cleanKraPin,
           delivery_area?.trim() || null,
           subtotal_kes,
           delivery_fee_kes || 0,
@@ -186,6 +194,33 @@ export async function action({ request }: { request: Request }) {
           ]
         );
       }
+
+      // 4. Sync order to db.server if available
+      try {
+        const { db } = await import('../lib/db.server');
+        await db.order.create({
+          id: String(newOrderId),
+          date: new Date().toISOString(),
+          paymentMethod: payment_method || 'cash_on_delivery',
+          items: items.map(i => ({
+            name: i.product_name,
+            quantity: i.qty,
+            price: i.unit_price,
+          })),
+          total: total_kes,
+          shipping: delivery_fee_kes || 0,
+          currency: 'KES',
+          billing: {
+            name: customer_name || '',
+            email: customer_email || '',
+            phone: customer_phone || '',
+            kra_pin: cleanKraPin || undefined,
+          },
+          kra_pin: cleanKraPin || undefined,
+          status: 'PROCESSING',
+          notes: notes || undefined,
+        });
+      } catch (e) {}
 
       return newOrderId;
     });

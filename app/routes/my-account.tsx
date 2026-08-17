@@ -219,6 +219,18 @@ export async function action({ request }: Route.ActionArgs) {
       }
     }
 
+    let cleanKraPin = "";
+    if (kraPin) {
+      cleanKraPin = kraPin.toUpperCase().trim();
+      const kraRegex = /^[A-Z]\d{9}[A-Z]$/;
+      if (!kraRegex.test(cleanKraPin)) {
+        return data(
+          { error: "Please enter a valid KRA PIN (11 characters, e.g. A123456789B), or leave the field blank." },
+          { status: 400 }
+        );
+      }
+    }
+
     const fullName = `${firstName} ${lastName}`.trim();
     const nameToSave = fullName || displayName;
 
@@ -234,7 +246,7 @@ export async function action({ request }: Route.ActionArgs) {
 
       await query(
         "UPDATE customers SET name = $1, username = $2, first_name = $3, last_name = $4, email = $5, kra_pin = $6 WHERE LOWER(email) = $7",
-        [nameToSave, displayName, firstName, lastName, email, kraPin || null, targetLookupEmail]
+        [nameToSave, displayName, firstName, lastName, email, cleanKraPin || null, targetLookupEmail]
       );
 
       // Update db.user if present
@@ -1836,7 +1848,7 @@ export default function MyAccount() {
                     </div>
 
                     {/* KRA PIN Section */}
-                    <div style={{ marginTop: "1rem" }}>
+                    <div style={{ marginTop: "1.25rem" }}>
                       <label style={{ display: "block", fontSize: "0.85rem", color: "#1a1a1a", marginBottom: "0.4rem", fontWeight: 700 }}>
                         KRA PIN
                       </label>
@@ -1844,6 +1856,7 @@ export default function MyAccount() {
                         type="text"
                         name="kraPin"
                         defaultValue={kraPin}
+                        maxLength={11}
                         placeholder="E.G. A123456789B"
                         style={{
                           width: "100%",
@@ -1859,6 +1872,22 @@ export default function MyAccount() {
                       </span>
                     </div>
 
+                    {/* Newsletter and updates options */}
+                    <div style={{ marginTop: "1rem", display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+                      <label style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontSize: "0.85rem", color: "#333", cursor: "pointer" }}>
+                        <input type="radio" name="newsletter_pref" defaultChecked value="subscribe" />
+                        Subscribe to our newsletter
+                      </label>
+                      <label style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontSize: "0.85rem", color: "#333", cursor: "pointer" }}>
+                        <input type="radio" name="newsletter_pref" value="unsubscribe" />
+                        Unsubscribe from our newsletter
+                      </label>
+                      <label style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontSize: "0.85rem", color: "#333", cursor: "pointer" }}>
+                        <input type="checkbox" name="order_updates" defaultChecked />
+                        Receive Order Updates
+                      </label>
+                    </div>
+
                     <button
                       type="submit"
                       style={{
@@ -1871,10 +1900,10 @@ export default function MyAccount() {
                         fontSize: "0.9rem",
                         cursor: "pointer",
                         alignSelf: "flex-start",
-                        marginTop: "1rem"
+                        marginTop: "1.25rem"
                       }}
                     >
-                      SAVE CHANGES
+                      Save changes
                     </button>
                   </Form>
                 </div>

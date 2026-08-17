@@ -12,7 +12,7 @@ export async function loader({ request }: Route.LoaderArgs) {
   
   let q = `
     SELECT 
-      o.id, o.customer_name, o.customer_phone, o.customer_email, o.delivery_area,
+      o.id, o.customer_name, o.customer_phone, o.customer_email, o.kra_pin, o.delivery_area,
       o.subtotal_kes, o.delivery_fee_kes, o.total_kes, o.payment_method, o.status,
       o.notes, o.created_at,
       json_agg(
@@ -228,6 +228,12 @@ export default function AdminOrders() {
                               <td style={{ padding: "0.3rem 0", color: "var(--admin-text-muted)" }}>Email:</td>
                               <td style={{ padding: "0.3rem 0", color: "#fff" }}>{order.customer_email || "—"}</td>
                             </tr>
+                            {order.kra_pin && (
+                              <tr>
+                                <td style={{ padding: "0.3rem 0", color: "#00ccff", fontWeight: "bold" }}>KRA PIN:</td>
+                                <td style={{ padding: "0.3rem 0", color: "#00ccff", fontWeight: "bold" }}>{order.kra_pin}</td>
+                              </tr>
+                            )}
                             <tr>
                               <td style={{ padding: "0.3rem 0", color: "var(--admin-text-muted)" }}>Payment Method:</td>
                               <td style={{ padding: "0.3rem 0", color: "#fff", textTransform: "uppercase" }}>{order.payment_method?.replace("_", " ") || "—"}</td>

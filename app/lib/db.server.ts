@@ -19,7 +19,9 @@ export interface Order {
     name: string;
     email: string;
     phone: string;
+    kra_pin?: string;
   };
+  kra_pin?: string;
   status: OrderStatus;
   paymentGatewayData?: any; // To store transaction IDs, etc.
   notes?: string;
