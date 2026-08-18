@@ -414,17 +414,33 @@ const STANDARD_NEIGHBOURHOODS = [
   'Umoja/ Tena Estate/ Nasra'
 ];
 
-const EXPRESS_NEIGHBOURHOODS = [
+export const EXPRESS_ELIGIBLE_KEYWORDS = [
+  "cbd",
+  "gigiri",
+  "runda",
+  "lower kabete",
+  "kangemi",
+  "mountain view",
+  "upperhill",
+  "westlands",
+  "karen",
+  "kileleshwa",
+  "kilimani",
+  "spring valley",
+  "kyuna"
+];
+
+export const EXPRESS_NEIGHBOURHOODS = [
   "CBD - GPO / City Market/ Nation Center",
   "CBD - Luthuli/ Afya Center/ R. Ngara",
   "CBD - UoN/ Globe/ Koja",
   "Gigiri/ Runda",
-  'Kangemi - Loresho/ Kangemi',
+  "Kangemi - Loresho/ Kangemi",
   "Karen",
   "Kileleshwa/Kilimani",
   "Loresho",
   "Lower Kabete/ Kangemi/ Mountain View",
-  'Mountain view/ Kangemi',
+  "Mountain view/ Kangemi",
   "Spring valley/ Kyuna",
   "Upperhill - Community/ KNH",
   "Upperhill - Elgon Road/ Lower Hill",
@@ -433,6 +449,17 @@ const EXPRESS_NEIGHBOURHOODS = [
   "Westlands - Central",
   "Westlands - Parklands/ Highridge"
 ];
+
+export function isNeighbourhoodExpressEligible(city: string, neighbourhood: string): boolean {
+  if (city !== "Nairobi" || !neighbourhood || neighbourhood === "Select your Neighbourhood") {
+    return false;
+  }
+  if (EXPRESS_NEIGHBOURHOODS.includes(neighbourhood)) {
+    return true;
+  }
+  const norm = neighbourhood.toLowerCase();
+  return EXPRESS_ELIGIBLE_KEYWORDS.some(k => norm.includes(k));
+}
 
 export function getExpressShippingStatus(date: Date = new Date()): {
   isAvailable: boolean;
@@ -460,17 +487,12 @@ export function getExpressShippingStatus(date: Date = new Date()): {
     (month === 12 && dayOfMonth === 26)    // Boxing Day
   );
 
-  if (isPublicHoliday) {
-    return {
-      isAvailable: false,
-      statusText: "Express shipping is closed today for the Public Holiday."
-    };
-  }
+  const fallbackNotice = "Express shipping is only available between 8AM - 3PM, and on Saturdays until 11AM, excluding Sundays, and Public Holidays. Turnaround time is 2 hours.";
 
-  if (day === 0) {
+  if (isPublicHoliday || day === 0) {
     return {
       isAvailable: false,
-      statusText: "Express shipping is closed on Sundays."
+      statusText: fallbackNotice
     };
   }
 
@@ -484,7 +506,7 @@ export function getExpressShippingStatus(date: Date = new Date()): {
     }
     return {
       isAvailable: false,
-      statusText: "Express shipping on Saturdays is only available between 8:00 AM – 11:00 AM."
+      statusText: fallbackNotice
     };
   }
 
@@ -498,7 +520,7 @@ export function getExpressShippingStatus(date: Date = new Date()): {
 
   return {
     isAvailable: false,
-    statusText: "Express shipping is available Mon–Fri (8:00 AM – 3:00 PM) and Sat (8:00 AM – 11:00 AM)."
+    statusText: fallbackNotice
   };
 }
 
@@ -1173,7 +1195,7 @@ export default function CheckoutPage() {
   // Delivery calculations & Express shipping availability
   const expressStatus = useMemo(() => getExpressShippingStatus(), []);
   const isExpressTimeAvailable = expressStatus.isAvailable;
-  const isNeighbourhoodExpressAllowed = selectedCity === "Nairobi" && EXPRESS_NEIGHBOURHOODS.includes(selectedZone);
+  const isNeighbourhoodExpressAllowed = isNeighbourhoodExpressEligible(selectedCity, selectedZone);
 
   const hasFreeShippingProduct = items.some(item => {
     const nameLower = item.name.toLowerCase();
@@ -1225,26 +1247,25 @@ export default function CheckoutPage() {
     const zoneBaseFee = cityZones ? cityZones[selectedZone] ?? 0 : 0;
 
     let finalShippingMethod = shippingMethod;
-    if (selectedCity !== "Nairobi" || !EXPRESS_NEIGHBOURHOODS.includes(selectedZone) || !isExpressTimeAvailable) {
+    if (selectedCity !== "Nairobi" || !isNeighbourhoodExpressAllowed || !isExpressTimeAvailable) {
       finalShippingMethod = "standard";
     }
 
     if (selectedCity === "Nairobi") {
-      if (subtotal < 5000) {
-        if (finalShippingMethod === "standard") {
-          deliveryFee = zoneBaseFee;
-          deliveryFeeLabel = `Delivery Fee (Standard) - ${selectedZone}`;
+      if (finalShippingMethod === "express") {
+        deliveryFee = 500;
+        if (subtotal < 1500) {
+          deliveryFeeLabel = "Express Delivery Fee (2hr) for Nairobi, less than 1500/-";
         } else {
-          deliveryFee = zoneBaseFee + 200;
-          deliveryFeeLabel = `Express Delivery Fee (2hr) - ${selectedZone}`;
+          deliveryFeeLabel = "Express Delivery Fee (2hr) for Nairobi, above 1500/-";
         }
       } else {
-        if (finalShippingMethod === "standard") {
+        if (subtotal >= 1500) {
           deliveryFee = 0;
-          deliveryFeeLabel = "Free Shipping for orders above 5000";
+          deliveryFeeLabel = `Free Shipping for orders above 1500/- (${selectedZone})`;
         } else {
-          deliveryFee = 500;
-          deliveryFeeLabel = "Express Delivery Fee(2hr) on Free Shipping for orders above 5000";
+          deliveryFee = zoneBaseFee || 300;
+          deliveryFeeLabel = `Delivery Fee (Standard) - ${selectedZone}`;
         }
       }
     } else {
@@ -1555,25 +1576,24 @@ export default function CheckoutPage() {
       const cityZones = SHIPPING_ZONES[selectedCity];
       const zoneBaseFee = cityZones ? cityZones[selectedZone] ?? 0 : 0;
       let finalShippingMethod = shippingMethod;
-      if (selectedCity !== "Nairobi" || !EXPRESS_NEIGHBOURHOODS.includes(selectedZone) || !isExpressTimeAvailable) {
+      if (selectedCity !== "Nairobi" || !isNeighbourhoodExpressAllowed || !isExpressTimeAvailable) {
         finalShippingMethod = "standard";
       }
       if (selectedCity === "Nairobi") {
-        if (updatedSubtotal < 5000) {
-          if (finalShippingMethod === "standard") {
-            updatedDeliveryFee = zoneBaseFee;
-            updatedDeliveryFeeLabel = `Delivery Fee (Standard) - ${selectedZone}`;
+        if (finalShippingMethod === "express") {
+          updatedDeliveryFee = 500;
+          if (updatedSubtotal < 1500) {
+            updatedDeliveryFeeLabel = "Express Delivery Fee (2hr) for Nairobi, less than 1500/-";
           } else {
-            updatedDeliveryFee = zoneBaseFee + 200;
-            updatedDeliveryFeeLabel = `Express Delivery Fee (2hr) - ${selectedZone}`;
+            updatedDeliveryFeeLabel = "Express Delivery Fee (2hr) for Nairobi, above 1500/-";
           }
         } else {
-          if (finalShippingMethod === "standard") {
+          if (updatedSubtotal >= 1500) {
             updatedDeliveryFee = 0;
-            updatedDeliveryFeeLabel = "Free Shipping for orders above 5000";
+            updatedDeliveryFeeLabel = `Free Shipping for orders above 1500/- (${selectedZone})`;
           } else {
-            updatedDeliveryFee = 500;
-            updatedDeliveryFeeLabel = "Express Delivery Fee(2hr) on Free Shipping for orders above 5000";
+            updatedDeliveryFee = zoneBaseFee || 300;
+            updatedDeliveryFeeLabel = `Delivery Fee (Standard) - ${selectedZone}`;
           }
         }
       } else {
@@ -3049,75 +3069,97 @@ export default function CheckoutPage() {
                       )}
                     </div>
 
-                    {/* Express Shipping (2hr) Option Checkbox */}
-                    <div style={{
-                      padding: "0.75rem 1rem",
-                      borderBottom: "1px solid #eaeaea",
-                      background: shippingMethod === "express" ? "#f0f7ff" : "#ffffff",
-                      transition: "background 0.2s"
-                    }}>
-                      <div style={{ display: "flex", alignItems: "flex-start", gap: "0.65rem" }}>
-                        <input
-                          type="checkbox"
-                          id="express_shipping_checkbox"
-                          disabled={!isExpressEligible}
-                          checked={shippingMethod === "express"}
-                          onChange={(e) => setShippingMethod(e.target.checked ? "express" : "standard")}
-                          style={{
-                            marginTop: "0.2rem",
-                            cursor: isExpressEligible ? "pointer" : "not-allowed",
-                            width: "16px",
-                            height: "16px",
-                            accentColor: "#1E5DA7"
-                          }}
-                        />
-                        <div style={{ flex: 1 }}>
-                          <label
-                            htmlFor="express_shipping_checkbox"
+                    {/* Delivery Options / Express Shipping Row */}
+                    {selectedCity === "Nairobi" && (!selectedZone || selectedZone === "Select your Neighbourhood") ? (
+                      /* Image 1: User selected Nairobi, but has not selected neighbourhood yet */
+                      <div style={{
+                        padding: "0.75rem 1rem",
+                        borderBottom: "1px solid #eaeaea",
+                        background: "#ffffff"
+                      }}>
+                        <div style={{ display: "flex", alignItems: "flex-start", gap: "0.65rem" }}>
+                          <input
+                            type="checkbox"
+                            disabled
                             style={{
-                              display: "flex",
-                              justifyContent: "space-between",
-                              alignItems: "center",
-                              fontWeight: "bold",
-                              fontSize: "0.88rem",
-                              color: isExpressEligible ? "#1E5DA7" : "#777777",
-                              cursor: isExpressEligible ? "pointer" : "not-allowed",
-                              userSelect: "none",
-                              margin: 0
+                              marginTop: "0.2rem",
+                              width: "16px",
+                              height: "16px",
+                              cursor: "not-allowed"
                             }}
-                          >
-                            <span>⚡ Express Shipping (2hr Turnaround)</span>
-                            {isExpressEligible && (
-                              <span style={{ fontSize: "0.85rem", color: "#1E5DA7", fontWeight: "bold" }}>
-                                {subtotal >= 5000 ? "500KSh" : "+200KSh"}
-                              </span>
-                            )}
-                          </label>
-
-                          <div style={{ fontSize: "0.78rem", color: isExpressEligible ? "#555555" : "#888888", marginTop: "0.25rem", lineHeight: 1.35 }}>
-                            {isExpressEligible ? (
-                              <span>
-                                Turnaround time is <strong>2 hours</strong>. Available between 8:00 AM – 3:00 PM (Saturdays until 11:00 AM).
-                              </span>
-                            ) : (
-                              <span>
-                                {!isNeighbourhoodProvided ? (
-                                  "Select a Neighbourhood to check Express Shipping (2hr) availability."
-                                ) : selectedCity !== "Nairobi" ? (
-                                  "Express shipping is only available for select Nairobi neighbourhoods."
-                                ) : !isNeighbourhoodExpressAllowed ? (
-                                  `Express shipping is not available for ${selectedZone}.`
-                                ) : !isExpressTimeAvailable ? (
-                                  expressStatus.statusText
-                                ) : (
-                                  "Express shipping is currently unavailable."
-                                )}
-                              </span>
-                            )}
+                          />
+                          <div>
+                            <div style={{ fontWeight: "bold", fontSize: "0.88rem", color: "#475569" }}>
+                              <span style={{ color: "#f97316", marginRight: "4px" }}>⚡</span> Express Shipping (2hr Turnaround)
+                            </div>
+                            <div style={{ fontSize: "0.8rem", color: "#64748b", marginTop: "0.2rem" }}>
+                              Select a Neighbourhood to check Express Shipping (2hr) availability.
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
+                    ) : selectedCity === "Nairobi" && selectedZone && selectedZone !== "Select your Neighbourhood" && isNeighbourhoodExpressAllowed ? (
+                      isExpressTimeAvailable ? (
+                        /* Image 3: Nairobi + respective neighbourhood selected AND active during 8am - 3pm */
+                        <div style={{
+                          display: "flex",
+                          justifyContent: "space-between",
+                          alignItems: "flex-start",
+                          padding: "0.85rem 1rem",
+                          borderBottom: "1px solid #eaeaea",
+                          background: "#ffffff"
+                        }}>
+                          <span style={{ fontWeight: "bold", fontSize: "0.9rem", color: "#000" }}>
+                            Delivery Options
+                          </span>
+                          <div style={{ display: "flex", flexDirection: "column", gap: "0.65rem", alignItems: "flex-start" }}>
+                            <label style={{ display: "flex", alignItems: "center", gap: "8px", cursor: "pointer", fontSize: "0.88rem", fontWeight: "bold", color: "#000", margin: 0 }}>
+                              <input
+                                type="radio"
+                                name="delivery_option"
+                                value="standard"
+                                checked={shippingMethod === "standard"}
+                                onChange={() => setShippingMethod("standard")}
+                                style={{ width: "16px", height: "16px", accentColor: "#1E5DA7", cursor: "pointer" }}
+                              />
+                              <span>Standard Shipping</span>
+                            </label>
+
+                            <label style={{ display: "flex", alignItems: "flex-start", gap: "8px", cursor: "pointer", fontSize: "0.88rem", fontWeight: "bold", color: "#000", margin: 0 }}>
+                              <input
+                                type="radio"
+                                name="delivery_option"
+                                value="express"
+                                checked={shippingMethod === "express"}
+                                onChange={() => setShippingMethod("express")}
+                                style={{ width: "16px", height: "16px", accentColor: "#1E5DA7", cursor: "pointer", marginTop: "2px" }}
+                              />
+                              <div style={{ display: "flex", flexDirection: "column" }}>
+                                <span>Express Shipping(3hr)</span>
+                                <span style={{ fontSize: "0.78rem", fontWeight: "normal", color: "#64748b" }}>8am -3pm</span>
+                              </div>
+                            </label>
+                          </div>
+                        </div>
+                      ) : (
+                        /* Image 2: Nairobi + neighbourhood selected, but time has elapsed / outside hours */
+                        <div style={{
+                          display: "flex",
+                          justifyContent: "space-between",
+                          alignItems: "flex-start",
+                          padding: "0.85rem 1rem",
+                          borderBottom: "1px solid #eaeaea",
+                          background: "#ffffff"
+                        }}>
+                          <span style={{ fontWeight: "bold", fontSize: "0.9rem", color: "#000", minWidth: "120px" }}>
+                            Delivery Options
+                          </span>
+                          <div style={{ fontSize: "0.85rem", fontWeight: "bold", color: "#000", lineHeight: "1.45", textAlign: "left", maxWidth: "420px" }}>
+                            Express shipping is only available between 8AM - 3PM, and on Saturdays until 11AM, excluding Sundays, and Public Holidays. Turnaround time is 2 hours.
+                          </div>
+                        </div>
+                      )
+                    ) : null}
 
                     {/* Delivery Fee Notice Row */}
                     <div style={{
