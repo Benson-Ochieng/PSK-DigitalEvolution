@@ -375,10 +375,22 @@ export default function VpBackendAnalytics() {
     return analyticsSettings.excludedStatuses.includes(norm);
   };
 
+  const normalizeStr = (s: any) =>
+    (s || "")
+      .toString()
+      .toLowerCase()
+      .replace(/[\u2013\u2014–—]/g, "-")
+      .replace(/\s+/g, " ")
+      .trim();
+
   const productsData = products.map((p: any) => {
     let itemsSold = 0;
     let netSales = 0;
     let ordersCount = 0;
+
+    const pClean = normalizeStr(p.name);
+    const pSku = normalizeStr(p.sku);
+    const pSlug = normalizeStr(p.slug);
 
     mergedOrdersData.forEach((o: any) => {
       if (isOrderExcluded(o.status)) return;
@@ -386,13 +398,18 @@ export default function VpBackendAnalytics() {
       let hasProduct = false;
       const orderItems = Array.isArray(o.rawItems) ? o.rawItems : [];
       orderItems.forEach((item: any) => {
-        const nameMatch = item.name && (
-          item.name.toLowerCase().includes(p.name.toLowerCase()) || 
-          p.name.toLowerCase().includes(item.name.toLowerCase())
+        const itemClean = normalizeStr(item.name);
+        const itemSku = normalizeStr(item.sku);
+        const itemSlug = normalizeStr(item.slug);
+
+        const nameMatch = itemClean && pClean && (
+          itemClean === pClean ||
+          itemClean.includes(pClean) || 
+          pClean.includes(itemClean)
         );
-        const skuMatch = p.sku && item.sku && String(p.sku).toLowerCase() === String(item.sku).toLowerCase();
+        const skuMatch = pSku && itemSku && pSku === itemSku;
         const idMatch = item.id && String(item.id) === String(p.id);
-        const slugMatch = item.slug && String(item.slug) === String(p.slug);
+        const slugMatch = pSlug && itemSlug && pSlug === itemSlug;
 
         if (idMatch || slugMatch || skuMatch || nameMatch) {
           itemsSold += Number(item.quantity) || 0;
@@ -428,8 +445,15 @@ export default function VpBackendAnalytics() {
     let netSales = 0;
     let ordersCount = 0;
 
+    const cClean = normalizeStr(c.name);
+    const cSlug = normalizeStr(c.slug);
+
     const categoryProducts = products.filter((p: any) =>
-      p.categories?.some((cat: any) => cat.slug === c.slug || cat.id === c.id)
+      p.categories?.some((cat: any) =>
+        (cat.slug && cSlug && normalizeStr(cat.slug) === cSlug) ||
+        (cat.id && String(cat.id) === String(c.id)) ||
+        (cat.name && cClean && normalizeStr(cat.name) === cClean)
+      )
     );
     const productsCount = categoryProducts.length;
 
@@ -439,14 +463,23 @@ export default function VpBackendAnalytics() {
       let hasCategoryProduct = false;
       const orderItems = Array.isArray(o.rawItems) ? o.rawItems : [];
       orderItems.forEach((item: any) => {
+        const itemClean = normalizeStr(item.name);
+        const itemSku = normalizeStr(item.sku);
+        const itemSlug = normalizeStr(item.slug);
+
         const matchesProduct = categoryProducts.some((p: any) => {
-          const nameMatch = item.name && (
-            item.name.toLowerCase().includes(p.name.toLowerCase()) || 
-            p.name.toLowerCase().includes(item.name.toLowerCase())
+          const pClean = normalizeStr(p.name);
+          const pSku = normalizeStr(p.sku);
+          const pSlug = normalizeStr(p.slug);
+
+          const nameMatch = itemClean && pClean && (
+            itemClean === pClean ||
+            itemClean.includes(pClean) || 
+            pClean.includes(itemClean)
           );
-          const skuMatch = p.sku && item.sku && String(p.sku).toLowerCase() === String(item.sku).toLowerCase();
+          const skuMatch = pSku && itemSku && pSku === itemSku;
           const idMatch = item.id && String(item.id) === String(p.id);
-          const slugMatch = item.slug && String(item.slug) === String(p.slug);
+          const slugMatch = pSlug && itemSlug && pSlug === itemSlug;
           return idMatch || slugMatch || skuMatch || nameMatch;
         });
 
@@ -469,6 +502,14 @@ export default function VpBackendAnalytics() {
       productsCount,
       ordersCount
     };
+  });
+
+  const topCategories = [...categoriesData].sort((a: any, b: any) => {
+    return (b.itemsSold - a.itemsSold) || (b.netSales - a.netSales) || a.name.localeCompare(b.name);
+  });
+
+  const topProducts = [...productsData].sort((a: any, b: any) => {
+    return (b.itemsSold - a.itemsSold) || (b.netSales - a.netSales) || a.title.localeCompare(b.title);
   });
 
   const paymentStats = {
@@ -642,10 +683,10 @@ export default function VpBackendAnalytics() {
         ["Variations Sold", 1],
         [],
         ["Top Categories - Category", "Items Sold", "Net Sales"],
-        ...categoriesData.slice(0, 5).map((cat: any) => [cat.name, cat.itemsSold, cat.netSales]),
+        ...topCategories.slice(0, 5).map((cat: any) => [cat.name, cat.itemsSold, cat.netSales]),
         [],
         ["Top Products - Product", "Items Sold", "Net Sales"],
-        ...productsData.slice(0, 5).map((p: any) => [p.title, p.itemsSold, p.netSales])
+        ...topProducts.slice(0, 5).map((p: any) => [p.title, p.itemsSold, p.netSales])
       ];
     } else if (view === "products") {
       const sorted = [...productsData].sort((a: any, b: any) => {
@@ -1341,10 +1382,12 @@ export default function VpBackendAnalytics() {
                   </tr>
                 </thead>
                 <tbody>
-                  {categoriesData.slice(0, 5).map((cat: any, i: number) => (
+                  {topCategories.slice(0, 5).map((cat: any, i: number) => (
                     <tr key={i}>
                       <td>{cat.name}</td>
-                      <td className="text-right">{cat.itemsSold}</td>
+                      <td className="text-right" style={{ fontWeight: cat.itemsSold > 0 ? "600" : "normal", color: cat.itemsSold > 0 ? "#00ccff" : "inherit" }}>
+                        {cat.itemsSold}
+                      </td>
                       <td className="text-right">{formatKsh(cat.netSales)}</td>
                     </tr>
                   ))}
@@ -1363,10 +1406,12 @@ export default function VpBackendAnalytics() {
                   </tr>
                 </thead>
                 <tbody>
-                  {productsData.slice(0, 5).map((p: any, i: number) => (
+                  {topProducts.slice(0, 5).map((p: any, i: number) => (
                     <tr key={i}>
                       <td>{p.title}</td>
-                      <td className="text-right">{p.itemsSold}</td>
+                      <td className="text-right" style={{ fontWeight: p.itemsSold > 0 ? "600" : "normal", color: p.itemsSold > 0 ? "#00ccff" : "inherit" }}>
+                        {p.itemsSold}
+                      </td>
                       <td className="text-right">{formatKsh(p.netSales)}</td>
                     </tr>
                   ))}
