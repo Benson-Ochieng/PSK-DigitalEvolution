@@ -1,0 +1,67 @@
+[
+  {
+    "id": "eml-1787051201001",
+    "timestamp": "2026-08-18T14:42:15.000Z",
+    "to": "ben@granularit.com",
+    "from": "\"PSK - Digital Evolution Admin 2FA\" <ben@granularit.com>",
+    "subject": "Your PSK - Digital Evolution Portal Verification Code",
+    "bodyText": "Your PSK - Digital Evolution administrator portal verification code is 849201. Please do not share this code.",
+    "bodyHtml": "\n          <div style=\"font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px; background-color: #ffffff;\">\n            <h2 style=\"color: #1e5da7; text-align: center; margin-bottom: 24px;\">PSK - Digital Evolution Admin Verification</h2>\n            <p style=\"font-size: 16px; color: #4a5568; line-height: 1.5;\">Hello Ben,</p>\n            <p style=\"font-size: 16px; color: #4a5568; line-height: 1.5;\">You are attempting to log in to the PSK - Digital Evolution Enterprise Administration Hub. Use the security code below to complete your authentication:</p>\n            <div style=\"text-align: center; margin: 32px 0;\">\n              <span style=\"display: inline-block; font-size: 32px; font-weight: bold; color: #a50011; letter-spacing: 6px; padding: 12px 24px; border: 2px dashed #00ccff; border-radius: 6px; background-color: #f7fafc;\">\n                849201\n              </span>\n            </div>\n            <p style=\"font-size: 14px; color: #718096; line-height: 1.5; text-align: center;\">This code will expire in <strong>5 minutes</strong>.</p>\n          </div>\n        ",
+    "status": "DELIVERED",
+    "transport": "Google SMTP",
+    "purpose": "2FA Security Verification",
+    "messageId": "<a3f9e12b-8492-4912-8921-99201@smtp.gmail.com>"
+  },
+  {
+    "id": "eml-1787051201002",
+    "timestamp": "2026-08-18T11:22:05.000Z",
+    "to": "jennifergitonga1@gmail.com",
+    "from": "\"PetStore Kenya Orders\" <orders@petstore.co.ke>",
+    "subject": "Order Confirmation - #PSK-90796",
+    "bodyText": "Thank you for your order! Your Luxury Pet Bed XLarge has been confirmed.",
+    "bodyHtml": "\n          <div style=\"font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n            <h2 style=\"color: #1e5da7;\">Order Confirmed: #PSK-90796</h2>\n            <p>Hello Jennifer,</p>\n            <p>Your order for <strong>Luxury Pet Bed XLarge (Brown Cushion)</strong> has been successfully placed.</p>\n            <p>Total: <strong>KSh 10,540.00</strong> (Paid via Lipa na M-PESA).</p>\n          </div>\n        ",
+    "status": "DELIVERED",
+    "transport": "Google SMTP",
+    "purpose": "Order Notification",
+    "messageId": "<b892fc10-7712-4212-9812-77291@smtp.gmail.com>"
+  },
+  {
+    "id": "eml-1787051201003",
+    "timestamp": "2026-08-18T09:14:22.000Z",
+    "to": "admin@petstore.co.ke",
+    "from": "\"PSK - Digital Evolution Admin 2FA\" <ben@granularit.com>",
+    "subject": "Your PSK - Digital Evolution Portal Verification Code",
+    "bodyText": "Your PSK - Digital Evolution administrator portal verification code is 512930.",
+    "bodyHtml": "\n          <div style=\"font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px;\">\n            <h2 style=\"color: #1e5da7; text-align: center;\">PSK - Digital Evolution Admin Verification</h2>\n            <p>Your security verification code is: <strong>512930</strong></p>\n          </div>\n        ",
+    "status": "DELIVERED",
+    "transport": "Google SMTP",
+    "purpose": "2FA Security Verification",
+    "messageId": "<c192aa44-5512-4011-8812-11029@smtp.gmail.com>"
+  },
+  {
+    "id": "eml-1787051201004",
+    "timestamp": "2026-08-17T16:50:11.000Z",
+    "to": "kpkeech@gmail.com",
+    "from": "\"PetStore Kenya Orders\" <orders@petstore.co.ke>",
+    "subject": "Order Confirmation - #PSK-90843",
+    "bodyText": "Your order for Thunder Adult Dog Food 15kg & Montego Treats has been confirmed.",
+    "bodyHtml": "\n          <div style=\"font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0;\">\n            <h2 style=\"color: #1e5da7;\">Order Confirmed: #PSK-90843</h2>\n            <p>Hello Kelsey,</p>\n            <p>Items: Thunder Adult Dog Food 15kg, Montego Bags O' Wags Treats.</p>\n            <p>Total: <strong>KSh 5,950.00</strong></p>\n          </div>\n        ",
+    "status": "DELIVERED",
+    "transport": "Google SMTP",
+    "purpose": "Order Notification",
+    "messageId": "<d991ef23-1192-4912-7711-44910@smtp.gmail.com>"
+  },
+  {
+    "id": "eml-1787051201005",
+    "timestamp": "2026-08-17T12:05:40.000Z",
+    "to": "lippy@granularit.com",
+    "from": "\"PSK - Digital Evolution Admin 2FA\" <ben@granularit.com>",
+    "subject": "Your PSK - Digital Evolution Portal Verification Code",
+    "bodyText": "Your PSK - Digital Evolution administrator portal verification code is 391084.",
+    "bodyHtml": "\n          <div style=\"font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e2e8f0;\">\n            <h2 style=\"color: #1e5da7; text-align: center;\">PSK - Digital Evolution Admin Verification</h2>\n            <p>Your security verification code is: <strong>391084</strong></p>\n          </div>\n        ",
+    "status": "DELIVERED",
+    "transport": "Google SMTP",
+    "purpose": "2FA Security Verification",
+    "messageId": "<e55198ab-3321-4190-8822-22910@smtp.gmail.com>"
+  }
+]

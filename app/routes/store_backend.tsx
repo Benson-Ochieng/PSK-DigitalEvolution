@@ -98,6 +98,7 @@ export default function VpBackendLayout() {
 
   const navItems = [
     { label: "Dashboard", path: "/store_backend", icon: "📊" },
+    { label: "Email Logs", path: "/store_backend/emails", icon: "✉️" },
     { label: "Simple History", path: "/store_backend/history", icon: "⏳" },
     { label: "Media Library", path: "/store_backend/media", icon: "🖼️" },
     { label: "Posts", path: "/store_backend/posts", icon: "📝" },
@@ -1012,6 +1013,15 @@ export default function VpBackendLayout() {
               <span className="nav-label">Dashboard</span>
             </Link>
 
+            {/* Email Logs */}
+            <Link
+              to="/store_backend/emails"
+              className={`nav-item ${location.pathname.startsWith("/store_backend/emails") ? "active" : ""}`}
+            >
+              <span style={{ fontSize: "16px" }}>✉️</span>
+              <span className="nav-label">Email Logs</span>
+            </Link>
+
             {/* Simple History Collapsible Submenu */}
             <div
               onMouseEnter={() => handleHoverStart("history", setHistoryHovered)}
@@ -1132,6 +1142,12 @@ export default function VpBackendLayout() {
                   className={`submenu-item ${location.search.includes("view=stock") && location.pathname.startsWith("/store_backend/analytics") ? "active" : ""}`}
                 >
                   Status
+                </Link>
+                <Link
+                  to="/store_backend/emails"
+                  className={`submenu-item ${location.pathname.startsWith("/store_backend/emails") ? "active" : ""}`}
+                >
+                  Email Logs
                 </Link>
               </div>
             </div>

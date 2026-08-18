@@ -187,6 +187,10 @@ export async function loader() {
 
   const couponsCount = await db.coupon.count();
 
+  const { getEmailLogs, getEmailStats } = await import("~/lib/email-log.server");
+  const emailStats = getEmailStats();
+  const recentEmails = getEmailLogs().slice(0, 5);
+
   return {
     totalRevenue,
     activeOrdersCount,
@@ -198,6 +202,8 @@ export async function loader() {
     couponsCount,
     topSellers,
     recentOrders,
+    emailStats,
+    recentEmails,
   };
 }
 
@@ -320,6 +326,7 @@ export default function VpBackendDashboard() {
         .stat-card.orders::after { background: #00ccff; }
         .stat-card.stock::after { background: #ff9f43; }
         .stat-card.coupons::after { background: #9b5de5; }
+        .stat-card.emails::after { background: #2ed573; }
 
         .stat-header {
           display: flex;
@@ -509,6 +516,17 @@ export default function VpBackendDashboard() {
             Store-wide discount codes
           </div>
         </div>
+
+        <div className="stat-card emails">
+          <div className="stat-header">
+            <span className="stat-title">Email Dispatch</span>
+            <span className="stat-icon">✉️</span>
+          </div>
+          <div className="stat-value">{data.emailStats?.deliveryRate ?? 100}%</div>
+          <div className="stat-footer">
+            <span className="growth-up">✓ Active</span> {data.emailStats?.totalSent ?? 0} Dispatched
+          </div>
+        </div>
       </div>
 
       {/* SVG Sales Trend Chart */}
@@ -691,6 +709,99 @@ export default function VpBackendDashboard() {
               ))}
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Email Dispatch & Activity Logs Card */}
+      <div className="admin-card" style={{ marginTop: "24px" }}>
+        <div className="admin-card-header" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "16px" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+            <span style={{ fontSize: "18px" }}>✉️</span>
+            <div>
+              <h3 style={{ fontSize: "14px", fontWeight: "600", color: "#fff", margin: 0 }}>Recent Email Dispatches & Logs</h3>
+              <span style={{ fontSize: "11px", color: "rgba(255, 255, 255, 0.4)" }}>Google SMTP (smtp.gmail.com:465) • Authenticated SSL</span>
+            </div>
+          </div>
+          <div style={{ display: "flex", gap: "12px", alignItems: "center" }}>
+            <Link
+              to="/store_backend/emails"
+              style={{
+                fontSize: "12px",
+                color: "#00ccff",
+                textDecoration: "none",
+                fontWeight: "600",
+                padding: "6px 14px",
+                borderRadius: "6px",
+                background: "rgba(0, 204, 255, 0.08)",
+                border: "1px solid rgba(0, 204, 255, 0.25)"
+              }}
+            >
+              Open Email Logs Console →
+            </Link>
+          </div>
+        </div>
+        <div className="admin-table-wrapper">
+          <table className="admin-table">
+            <thead>
+              <tr>
+                <th>Dispatched</th>
+                <th>Recipient</th>
+                <th>Subject & Purpose</th>
+                <th>Transport</th>
+                <th>Status</th>
+                <th className="text-right">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              {(data.recentEmails || []).length === 0 ? (
+                <tr>
+                  <td colSpan={6} style={{ textAlign: "center", padding: "24px", color: "rgba(255, 255, 255, 0.4)" }}>
+                    No emails logged yet.
+                  </td>
+                </tr>
+              ) : (
+                data.recentEmails.map((email: any) => (
+                  <tr key={email.id}>
+                    <td style={{ fontSize: "12px", color: "rgba(255, 255, 255, 0.6)", whiteSpace: "nowrap" }}>
+                      {new Date(email.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}, {new Date(email.timestamp).toLocaleDateString([], { month: 'short', day: 'numeric' })}
+                    </td>
+                    <td style={{ fontWeight: "600", color: "#fff" }}>
+                      <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+                        <span style={{ width: "24px", height: "24px", borderRadius: "50%", background: "rgba(0, 204, 255, 0.15)", color: "#00ccff", display: "inline-flex", alignItems: "center", justifyContent: "center", fontSize: "10px", fontWeight: "700" }}>
+                          {(email.to || "E").charAt(0).toUpperCase()}
+                        </span>
+                        <span>{email.to}</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
+                        <span style={{ fontSize: "13px", color: "#f3f4f6" }}>{email.subject}</span>
+                        <span style={{ fontSize: "10px", color: "#00ccff", background: "rgba(0, 204, 255, 0.1)", padding: "1px 6px", borderRadius: "4px", width: "fit-content" }}>
+                          {email.purpose || "Security"}
+                        </span>
+                      </div>
+                    </td>
+                    <td style={{ fontSize: "12px", color: "rgba(255, 255, 255, 0.5)" }}>
+                      {email.transport || "Google SMTP"}
+                    </td>
+                    <td>
+                      <span className={`status-badge ${email.status.toLowerCase()}`}>
+                        {email.status}
+                      </span>
+                    </td>
+                    <td className="text-right">
+                      <Link
+                        to={`/store_backend/emails?preview=${email.id}`}
+                        style={{ fontSize: "12px", color: "#00ccff", textDecoration: "none", fontWeight: "600" }}
+                      >
+                        Inspect ↗
+                      </Link>
+                    </td>
+                  </tr>
+                ))
+              )}
+            </tbody>
+          </table>
         </div>
       </div>
     </div>

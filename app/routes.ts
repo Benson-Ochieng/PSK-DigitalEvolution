@@ -114,6 +114,8 @@ if (enableDashboard) {
       route("media", "routes/store_backend.media.tsx"),
       route("downloads", "routes/store_backend.downloads.tsx"),
       route("analytics", "routes/store_backend.analytics.tsx"),
+      route("emails", "routes/store_backend.emails.tsx"),
+      route("email-logs", "routes/store_backend.emails.tsx", { id: "store-backend-email-logs-alias" }),
       route("settings", "routes/store_backend.settings.tsx"),
     ]),
     route("/store_backend/login", "routes/store_backend.login.tsx")
