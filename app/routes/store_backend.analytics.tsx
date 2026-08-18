@@ -288,19 +288,22 @@ export default function VpBackendAnalytics() {
   const [updatesType, setUpdatesType] = useState(analyticsSettings.updatesType);
 
   // Date range and show states
-  const [dateRange, setDateRange] = useState("june-2026");
+  const [dateRange, setDateRange] = useState("all-time");
   const [showFilter, setShowFilter] = useState("all");
+  const [productSearch, setProductSearch] = useState("");
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 25;
 
   // Sorting states for orders table
   const [orderSortKey, setOrderSortKey] = useState<"date" | "status" | "itemsSold">("date");
   const [orderSortDirection, setOrderSortDirection] = useState<"asc" | "desc">("desc");
 
-  // Sorting states for other analytical tabs
-  const [apSortKey, setApSortKey] = useState<"title" | "items" | "sales" | "stock">("title");
-  const [apSortDir, setApSortDir] = useState<"asc" | "desc">("asc");
+  // Sorting states for other analytical tabs - default to items DESCENDING for products so best sellers appear first
+  const [apSortKey, setApSortKey] = useState<"title" | "items" | "sales" | "stock">("items");
+  const [apSortDir, setApSortDir] = useState<"asc" | "desc">("desc");
 
-  const [acSortKey, setAcSortKey] = useState<"name" | "items" | "sales">("name");
-  const [acSortDir, setAcSortDir] = useState<"asc" | "desc">("asc");
+  const [acSortKey, setAcSortKey] = useState<"name" | "items" | "sales">("items");
+  const [acSortDir, setAcSortDir] = useState<"asc" | "desc">("desc");
 
   const [arSortKey, setArSortKey] = useState<"date" | "orders" | "gross" | "net" | "total">("date");
   const [arSortDir, setArSortDir] = useState<"asc" | "desc">("desc");
@@ -616,6 +619,57 @@ export default function VpBackendAnalytics() {
   const variationsData = [
     { title: "Reflex Plus Cat Food - Salmon 1.5kg", sku: "RPCS15", itemsSold: 1, netSales: 1200, ordersCount: 1, status: "In stock", stock: 15 }
   ];
+
+  // Dynamic summary metrics
+  const totalGrossSalesSum = Array.from(revenueMap.values()).reduce((sum, r) => sum + r.grossSales, 0);
+  const totalNetSalesSum = Array.from(revenueMap.values()).reduce((sum, r) => sum + r.netSales, 0);
+  const totalOrdersCount = mergedOrdersData.filter((o: any) => !isOrderExcluded(o.status)).length;
+  const totalProductsSoldSum = productsData.reduce((sum: number, p: any) => sum + (p.itemsSold || 0), 0);
+  const totalProductsNetSalesSum = productsData.reduce((sum: number, p: any) => sum + (p.netSales || 0), 0);
+  const totalCouponsDiscountSum = Array.from(revenueMap.values()).reduce((sum, r) => sum + r.coupons, 0);
+  const totalShippingSum = Array.from(revenueMap.values()).reduce((sum, r) => sum + r.shipping, 0);
+
+  // Group items sold by date for dynamic chart
+  const itemsSoldByDateMap = new Map<string, number>();
+  mergedOrdersData.forEach((o: any) => {
+    if (isOrderExcluded(o.status)) return;
+    let label = "Recent";
+    if (o.date) {
+      try {
+        const d = new Date(o.date);
+        label = d.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+      } catch (e) {
+        label = String(o.date).slice(0, 10);
+      }
+    }
+    const current = itemsSoldByDateMap.get(label) || 0;
+    itemsSoldByDateMap.set(label, current + (Number(o.itemsSold) || 1));
+  });
+
+  const itemsSoldChartData: ChartDataPoint[] = Array.from(itemsSoldByDateMap.entries())
+    .slice(-10)
+    .map(([label, value]) => ({ label, value }));
+
+  const netSalesChartData: ChartDataPoint[] = Array.from(revenueMap.entries())
+    .slice(-10)
+    .map(([date, val]) => {
+      const shortLabel = date.split(",")[0] || date;
+      return { label: shortLabel, value: val.netSales };
+    });
+
+  const grossSalesChartData: ChartDataPoint[] = Array.from(revenueMap.entries())
+    .slice(-10)
+    .map(([date, val]) => {
+      const shortLabel = date.split(",")[0] || date;
+      return { label: shortLabel, value: val.grossSales };
+    });
+
+  const ordersChartData: ChartDataPoint[] = Array.from(revenueMap.entries())
+    .slice(-10)
+    .map(([date, val]) => {
+      const shortLabel = date.split(",")[0] || date;
+      return { label: shortLabel, value: val.orders };
+    });
 
   // Dynamic coupons calculated from database and mock order history
   const couponsDataList = (dbCoupons || []).map((coupon: any) => {
@@ -1260,7 +1314,7 @@ export default function VpBackendAnalytics() {
 
       {/* Toolbar Filter */}
       <div className="analytics-toolbar">
-        <div style={{ display: "flex", gap: "20px", alignItems: "center", flexWrap: "wrap" }}>
+        <div style={{ display: "flex", gap: "16px", alignItems: "center", flexWrap: "wrap" }}>
           <div className="toolbar-group">
             <label>Date range</label>
             <select
@@ -1268,6 +1322,7 @@ export default function VpBackendAnalytics() {
               value={dateRange}
               onChange={(e) => setDateRange(e.target.value)}
             >
+              <option value="all-time">All time</option>
               <option value="june-2026">Month to date (Jun 1 - 4, 2026)</option>
               <option value="last-year">Previous year (Jun 1 - 4, 2025)</option>
             </select>
@@ -1278,12 +1333,29 @@ export default function VpBackendAnalytics() {
             <select
               className="toolbar-select"
               value={showFilter}
-              onChange={(e) => setShowFilter(e.target.value)}
+              onChange={(e) => { setShowFilter(e.target.value); setCurrentPage(1); }}
             >
               <option value="all">All {view}</option>
-              <option value="top">Top 10 Only</option>
+              <option value="sold">Products With Sales Only</option>
+              <option value="top">Top 25 Best Sellers</option>
+              <option value="instock">In Stock Only</option>
+              <option value="outstock">Out of Stock Only</option>
             </select>
           </div>
+
+          {view === "products" && (
+            <div className="toolbar-group">
+              <label>Search Products</label>
+              <input
+                type="text"
+                className="toolbar-select"
+                style={{ minWidth: "220px", background: "rgba(255,255,255,0.05)", color: "#fff" }}
+                placeholder="Search by title, SKU or category..."
+                value={productSearch}
+                onChange={(e) => { setProductSearch(e.target.value); setCurrentPage(1); }}
+              />
+            </div>
+          )}
         </div>
 
         {view !== "settings" && (
@@ -1306,23 +1378,23 @@ export default function VpBackendAnalytics() {
           <div className="analytics-tiles-grid">
             <div className="performance-tile">
               <div className="tile-label">Total sales</div>
-              <div className="tile-value">{formatKsh(304730)}</div>
-              <span className="tile-badge negative">-99%</span>
+              <div className="tile-value">{formatKsh(totalGrossSalesSum)}</div>
+              <span className="tile-badge positive">Live Data</span>
             </div>
             <div className="performance-tile">
               <div className="tile-label">Net sales</div>
-              <div className="tile-value">{formatKsh(303830)}</div>
-              <span className="tile-badge negative">-100%</span>
+              <div className="tile-value">{formatKsh(totalNetSalesSum)}</div>
+              <span className="tile-badge positive">Live Data</span>
             </div>
             <div className="performance-tile">
               <div className="tile-label">Orders</div>
-              <div className="tile-value">17</div>
-              <span className="tile-badge negative">-83%</span>
+              <div className="tile-value">{totalOrdersCount.toLocaleString()}</div>
+              <span className="tile-badge positive">Live Data</span>
             </div>
             <div className="performance-tile">
               <div className="tile-label">Products sold</div>
-              <div className="tile-value">16</div>
-              <span className="tile-badge positive">80%</span>
+              <div className="tile-value">{totalProductsSoldSum.toLocaleString()}</div>
+              <span className="tile-badge positive">Live Data</span>
             </div>
             <div className="performance-tile">
               <div className="tile-label">Variations sold</div>
@@ -1339,12 +1411,7 @@ export default function VpBackendAnalytics() {
               </div>
               <div className="chart-body">
                 <AnalyticsChart
-                  data={[
-                    { label: "Jun 1", value: 10500 },
-                    { label: "Jun 2", value: 34990 },
-                    { label: "Jun 3", value: 198900 },
-                    { label: "Jun 4", value: 60340 }
-                  ]}
+                  data={netSalesChartData.length > 0 ? netSalesChartData : [{ label: "Today", value: totalNetSalesSum }]}
                   lineColor="#2ed573"
                   valuePrefix="KSh "
                 />
@@ -1357,12 +1424,7 @@ export default function VpBackendAnalytics() {
               </div>
               <div className="chart-body">
                 <AnalyticsChart
-                  data={[
-                    { label: "Jun 1", value: 1 },
-                    { label: "Jun 2", value: 2 },
-                    { label: "Jun 3", value: 11 },
-                    { label: "Jun 4", value: 3 }
-                  ]}
+                  data={ordersChartData.length > 0 ? ordersChartData : [{ label: "Today", value: totalOrdersCount }]}
                   lineColor="#00ccff"
                 />
               </div>
@@ -1427,33 +1489,28 @@ export default function VpBackendAnalytics() {
           <div className="analytics-tiles-grid">
             <div className="performance-tile">
               <div className="tile-label">Items sold</div>
-              <div className="tile-value">16</div>
-              <span className="tile-badge positive">60%</span>
+              <div className="tile-value">{totalProductsSoldSum.toLocaleString()}</div>
+              <span className="tile-badge positive">Live Data</span>
             </div>
             <div className="performance-tile">
               <div className="tile-label">Net sales</div>
-              <div className="tile-value">{formatKsh(303830)}</div>
-              <span className="tile-badge positive">39%</span>
+              <div className="tile-value">{formatKsh(totalProductsNetSalesSum)}</div>
+              <span className="tile-badge positive">Live Data</span>
             </div>
             <div className="performance-tile">
               <div className="tile-label">Orders</div>
-              <div className="tile-value">16</div>
-              <span className="tile-badge positive">60%</span>
+              <div className="tile-value">{totalOrdersCount.toLocaleString()}</div>
+              <span className="tile-badge positive">Live Data</span>
             </div>
           </div>
 
           <div className="chart-card">
             <div className="chart-header">
-              <span className="chart-title">Items sold</span>
+              <span className="chart-title">Items sold over time</span>
             </div>
             <div className="chart-body">
               <AnalyticsChart
-                data={[
-                  { label: "Jun 1", value: 1 },
-                  { label: "Jun 2", value: 2 },
-                  { label: "Jun 3", value: 9 },
-                  { label: "Jun 4", value: 4 }
-                ]}
+                data={itemsSoldChartData.length > 0 ? itemsSoldChartData : [{ label: "Today", value: totalProductsSoldSum }]}
                 lineColor="#2ed573"
               />
             </div>
@@ -1465,8 +1522,9 @@ export default function VpBackendAnalytics() {
                 setApSortDir(prev => prev === "asc" ? "desc" : "asc");
               } else {
                 setApSortKey(key);
-                setApSortDir("asc");
+                setApSortDir("desc");
               }
+              setCurrentPage(1);
             };
 
             const renderApSortIndicator = (key: "title" | "items" | "sales" | "stock") => {
@@ -1474,7 +1532,28 @@ export default function VpBackendAnalytics() {
               return <span style={{ marginLeft: "4px", color: "#00ccff" }}>{apSortDir === "asc" ? "▲" : "▼"}</span>;
             };
 
-            const sortedProductsData = [...productsData].sort((a, b) => {
+            const filteredProductsData = productsData.filter((p: any) => {
+              if (productSearch.trim()) {
+                const q = normalizeStr(productSearch);
+                const matchTitle = normalizeStr(p.title).includes(q);
+                const matchSku = normalizeStr(p.sku).includes(q);
+                const matchCat = normalizeStr(p.category).includes(q);
+                if (!matchTitle && !matchSku && !matchCat) return false;
+              }
+
+              if (showFilter === "sold" || showFilter === "top") {
+                return (p.itemsSold || 0) > 0;
+              }
+              if (showFilter === "instock") {
+                return p.status === "In stock";
+              }
+              if (showFilter === "outstock") {
+                return p.status === "Out of stock";
+              }
+              return true;
+            });
+
+            const sortedProductsData = [...filteredProductsData].sort((a, b) => {
               let result = 0;
               if (apSortKey === "title") {
                 result = (a.title || "").localeCompare(b.title || "");
@@ -1487,6 +1566,10 @@ export default function VpBackendAnalytics() {
               }
               return apSortDir === "asc" ? result : -result;
             });
+
+            const totalPages = Math.ceil(sortedProductsData.length / itemsPerPage) || 1;
+            const validPage = Math.min(currentPage, totalPages);
+            const paginatedProducts = sortedProductsData.slice((validPage - 1) * itemsPerPage, validPage * itemsPerPage);
 
             return (
               <div className="analytics-table-card">
@@ -1513,25 +1596,68 @@ export default function VpBackendAnalytics() {
                     </tr>
                   </thead>
                   <tbody>
-                    {sortedProductsData.map((p, i) => (
-                      <tr key={i}>
-                        <td>{p.title}</td>
-                        <td>{p.sku}</td>
-                        <td className="text-right">{p.itemsSold}</td>
-                        <td className="text-right">{formatKsh(p.netSales)}</td>
-                        <td className="text-right">{p.ordersCount}</td>
-                        <td>{p.category}</td>
-                        <td className="text-right">{p.variations}</td>
-                        <td>
-                          <span className={`status-badge ${p.status.toLowerCase().replace(" ", "-")}`}>
-                            {p.status}
-                          </span>
+                    {paginatedProducts.length === 0 ? (
+                      <tr>
+                        <td colSpan={9} style={{ textAlign: "center", padding: "32px", color: "rgba(255,255,255,0.4)" }}>
+                          No products found matching your filter or search query.
                         </td>
-                        <td className="text-right">{p.stock}</td>
                       </tr>
-                    ))}
+                    ) : (
+                      paginatedProducts.map((p, i) => (
+                        <tr key={i}>
+                          <td style={{ fontWeight: p.itemsSold > 0 ? "600" : "normal", color: p.itemsSold > 0 ? "#fff" : "rgba(255,255,255,0.7)" }}>{p.title}</td>
+                          <td style={{ fontFamily: "monospace", fontSize: "12px" }}>{p.sku}</td>
+                          <td className="text-right" style={{ fontWeight: p.itemsSold > 0 ? "700" : "normal", color: p.itemsSold > 0 ? "#00ccff" : "inherit" }}>
+                            {p.itemsSold}
+                          </td>
+                          <td className="text-right" style={{ fontWeight: p.netSales > 0 ? "600" : "normal", color: p.netSales > 0 ? "#2ed573" : "inherit" }}>
+                            {formatKsh(p.netSales)}
+                          </td>
+                          <td className="text-right">{p.ordersCount}</td>
+                          <td style={{ fontSize: "12px", color: "rgba(255,255,255,0.6)" }}>{p.category}</td>
+                          <td className="text-right">{p.variations}</td>
+                          <td>
+                            <span className={`status-badge ${p.status.toLowerCase().replace(" ", "-")}`}>
+                              {p.status}
+                            </span>
+                          </td>
+                          <td className="text-right">{p.stock}</td>
+                        </tr>
+                      ))
+                    )}
                   </tbody>
                 </table>
+
+                {totalPages > 1 && (
+                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "14px 20px", borderTop: "1px solid rgba(255,255,255,0.06)", fontSize: "13px", color: "rgba(255,255,255,0.6)" }}>
+                    <div>
+                      Showing {((validPage - 1) * itemsPerPage) + 1}–{Math.min(validPage * itemsPerPage, sortedProductsData.length)} of {sortedProductsData.length} products
+                    </div>
+                    <div style={{ display: "flex", gap: "8px", alignItems: "center" }}>
+                      <button
+                        type="button"
+                        disabled={validPage <= 1}
+                        onClick={() => setCurrentPage(prev => Math.max(1, prev - 1))}
+                        className="edit-badge-btn"
+                        style={{ opacity: validPage <= 1 ? 0.35 : 1, cursor: validPage <= 1 ? "not-allowed" : "pointer" }}
+                      >
+                        Previous
+                      </button>
+                      <span style={{ padding: "0 6px", color: "#fff", fontSize: "12px" }}>
+                        Page {validPage} of {totalPages}
+                      </span>
+                      <button
+                        type="button"
+                        disabled={validPage >= totalPages}
+                        onClick={() => setCurrentPage(prev => Math.min(totalPages, prev + 1))}
+                        className="edit-badge-btn"
+                        style={{ opacity: validPage >= totalPages ? 0.35 : 1, cursor: validPage >= totalPages ? "not-allowed" : "pointer" }}
+                      >
+                        Next
+                      </button>
+                    </div>
+                  </div>
+                )}
               </div>
             );
           })()}
@@ -1543,8 +1669,8 @@ export default function VpBackendAnalytics() {
           <div className="analytics-tiles-grid">
             <div className="performance-tile">
               <div className="tile-label">Gross sales</div>
-              <div className="tile-value">{formatKsh(304730)}</div>
-              <span className="tile-badge negative">-100%</span>
+              <div className="tile-value">{formatKsh(totalGrossSalesSum)}</div>
+              <span className="tile-badge positive">Live Data</span>
             </div>
             <div className="performance-tile">
               <div className="tile-label">Returns</div>
@@ -1553,33 +1679,28 @@ export default function VpBackendAnalytics() {
             </div>
             <div className="performance-tile">
               <div className="tile-label">Coupons</div>
-              <div className="tile-value">KSh 2,500.00</div>
-              <span className="tile-badge neutral">0%</span>
+              <div className="tile-value">{formatKsh(totalCouponsDiscountSum)}</div>
+              <span className="tile-badge positive">Live Data</span>
             </div>
             <div className="performance-tile">
               <div className="tile-label">Net sales</div>
-              <div className="tile-value">{formatKsh(303830)}</div>
-              <span className="tile-badge negative">-100%</span>
+              <div className="tile-value">{formatKsh(totalNetSalesSum)}</div>
+              <span className="tile-badge positive">Live Data</span>
             </div>
             <div className="performance-tile">
               <div className="tile-label">Shipping</div>
-              <div className="tile-value">KSh 1,400.00</div>
-              <span className="tile-badge negative">-100%</span>
+              <div className="tile-value">{formatKsh(totalShippingSum)}</div>
+              <span className="tile-badge positive">Live Data</span>
             </div>
           </div>
 
           <div className="chart-card">
             <div className="chart-header">
-              <span className="chart-title">Gross sales</span>
+              <span className="chart-title">Gross sales over time</span>
             </div>
             <div className="chart-body">
               <AnalyticsChart
-                data={[
-                  { label: "Jun 1", value: 10500 },
-                  { label: "Jun 2", value: 34990 },
-                  { label: "Jun 3", value: 198900 },
-                  { label: "Jun 4", value: 59440 }
-                ]}
+                data={grossSalesChartData.length > 0 ? grossSalesChartData : [{ label: "Today", value: totalGrossSalesSum }]}
                 lineColor="#2ed573"
                 valuePrefix="KSh "
               />
@@ -1959,33 +2080,28 @@ export default function VpBackendAnalytics() {
           <div className="analytics-tiles-grid">
             <div className="performance-tile">
               <div className="tile-label">Items sold</div>
-              <div className="tile-value">16</div>
-              <span className="tile-badge positive">60%</span>
+              <div className="tile-value">{totalProductsSoldSum.toLocaleString()}</div>
+              <span className="tile-badge positive">Live Data</span>
             </div>
             <div className="performance-tile">
               <div className="tile-label">Net sales</div>
-              <div className="tile-value">{formatKsh(303830)}</div>
-              <span className="tile-badge positive">39%</span>
+              <div className="tile-value">{formatKsh(totalProductsNetSalesSum)}</div>
+              <span className="tile-badge positive">Live Data</span>
             </div>
             <div className="performance-tile">
               <div className="tile-label">Orders</div>
-              <div className="tile-value">16</div>
-              <span className="tile-badge positive">60%</span>
+              <div className="tile-value">{totalOrdersCount.toLocaleString()}</div>
+              <span className="tile-badge positive">Live Data</span>
             </div>
           </div>
 
           <div className="chart-card">
             <div className="chart-header">
-              <span className="chart-title">Items sold</span>
+              <span className="chart-title">Category items sold</span>
             </div>
             <div className="chart-body">
               <AnalyticsChart
-                data={[
-                  { label: "Jun 1", value: 1 },
-                  { label: "Jun 2", value: 2 },
-                  { label: "Jun 3", value: 9 },
-                  { label: "Jun 4", value: 4 }
-                ]}
+                data={itemsSoldChartData.length > 0 ? itemsSoldChartData : [{ label: "Today", value: totalProductsSoldSum }]}
                 lineColor="#2ed573"
               />
             </div>
