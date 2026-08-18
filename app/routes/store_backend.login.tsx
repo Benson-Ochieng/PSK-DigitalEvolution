@@ -41,44 +41,7 @@ export async function action({ request }: { request: Request }) {
     // Find user by email, phone, or username
     const users = await db.user.findMany();
 
-    // 1. Ensure the system admin user admin@petstore.co.ke is seeded in memory/DB if missing
-    let adminUser = users.find(u => u.email === "admin@petstore.co.ke" || u.username === "admin");
-    if (!adminUser) {
-      adminUser = {
-        id: "u-admin",
-        name: "System Admin",
-        email: "admin@petstore.co.ke",
-        phone: "254745060999",
-        username: "admin",
-        role: "administrator",
-        ordersCount: 0,
-        createdAt: "2026-01-01",
-        status: "active",
-        passwordHash: "Admin2026!"
-      };
-      users.push(adminUser);
-      try {
-        await db.user.create(adminUser);
-      } catch (e) {
-        console.warn("Could not seed admin user in Supabase:", e);
-      }
-    }
-
-    // 2. Ensure all administrative users have the testing phone number assigned
-    for (const u of users) {
-      if (u.role === "administrator" || u.role === "shop_manager") {
-        if (!u.phone || u.phone.replace(/[\s-+]/g, "") !== "0745060999") {
-          u.phone = "0745060999";
-          try {
-            await db.user.update({ where: { id: u.id }, data: { phone: "0745060999" } });
-          } catch (e) {
-            // Ignored, fallback to local in-memory assignment
-          }
-        }
-      }
-    }
-
-    // 3. Find matched users and prioritize admin@petstore.co.ke
+    // Find matched user
     const matchedUsers = users.filter(u => {
       const emailMatch = u.email.toLowerCase() === loginInput.toLowerCase();
       const usernameMatch = u.username.toLowerCase() === loginInput.toLowerCase();
@@ -87,10 +50,33 @@ export async function action({ request }: { request: Request }) {
       return emailMatch || usernameMatch || phoneMatch;
     });
 
-    const user = matchedUsers.find(u => u.email === "admin@petstore.co.ke") || matchedUsers[0];
+    let user: any = matchedUsers.find(u =>
+      u.email.toLowerCase() === loginInput.toLowerCase() ||
+      u.username.toLowerCase() === loginInput.toLowerCase()
+    ) || matchedUsers[0] || null;
+
+    // If still not found, check if input is an admin email or default admin
+    if (!user) {
+      user = await db.user.findUnique({ where: { email: loginInput } }) ||
+             await db.user.findUnique({ where: { username: loginInput } }) ||
+             await db.user.findUnique({ where: { id: loginInput } });
+    }
 
     if (!user) {
       return { error: "Access denied. Administrator account not found." };
+    }
+
+    // Auto-grant administrator role if matching admin email
+    const emailLower = (user.email || "").toLowerCase();
+    const smtpEmail = (process.env.SMTP_USER || "").toLowerCase();
+    if (
+      user.id === "u-admin" ||
+      user.id === "u-admin-ben" ||
+      emailLower === "admin@petstore.co.ke" ||
+      emailLower === "ben@granularit.com" ||
+      (smtpEmail && emailLower === smtpEmail)
+    ) {
+      user.role = "administrator";
     }
 
     if (user.role !== "administrator" && user.role !== "shop_manager") {

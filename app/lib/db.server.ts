@@ -84,14 +84,26 @@ const COUPONS_FILE = path.join(CONTENT_DIR, "coupons.json");
 const POSTS_FILE = path.join(CONTENT_DIR, "posts", "_index.json");
 const OTP_SESSIONS_FILE = path.join(CONTENT_DIR, "otp_sessions.json");
 
-// Seed data
-const initialUsers: User[] = [
+// Default system administrator accounts guaranteed to exist and have full access
+export const DEFAULT_ADMIN_USERS: User[] = [
   {
     id: "u-admin",
     name: "System Admin",
     email: "admin@petstore.co.ke",
-    phone: "+254712345678",
+    phone: "0745060999",
     username: "admin",
+    role: "administrator",
+    ordersCount: 0,
+    createdAt: "2026-01-01",
+    status: "active",
+    passwordHash: "Admin2026!"
+  },
+  {
+    id: "u-admin-ben",
+    name: "Ben (Granular IT)",
+    email: "ben@granularit.com",
+    phone: "0745060999",
+    username: "ben",
     role: "administrator",
     ordersCount: 0,
     createdAt: "2026-01-01",
@@ -102,14 +114,19 @@ const initialUsers: User[] = [
     id: "u-manager",
     name: "Shop Manager",
     email: "manager@petstore.co.ke",
-    phone: "+254787654321",
+    phone: "0745060999",
     username: "manager",
     role: "shop_manager",
     ordersCount: 0,
     createdAt: "2026-02-15",
     status: "active",
     passwordHash: "Manager2026!"
-  },
+  }
+];
+
+// Seed data
+const initialUsers: User[] = [
+  ...DEFAULT_ADMIN_USERS,
   {
     id: "u-cust1",
     name: "John Doe",
@@ -796,6 +813,17 @@ export const db = {
 
   user: {
     async findUnique({ where }: { where: { id?: string; email?: string; username?: string } }): Promise<User | null> {
+      // 1. First check hardcoded system administrators
+      const matchedAdmin = DEFAULT_ADMIN_USERS.find(u => {
+        if (where.id && u.id === where.id) return true;
+        if (where.email && u.email.toLowerCase() === where.email.toLowerCase()) return true;
+        if (where.username && u.username.toLowerCase() === where.username.toLowerCase()) return true;
+        return false;
+      });
+      if (matchedAdmin) {
+        return matchedAdmin;
+      }
+
       let user: User | null = null;
       if (supabase) {
         try {
@@ -875,12 +903,21 @@ export const db = {
         }
       }
 
+      // Ensure administrator role for designated admin emails
+      if (user && user.email) {
+        const emailLower = user.email.toLowerCase();
+        const smtpEmail = (process.env.SMTP_USER || "").toLowerCase();
+        if (emailLower === "admin@petstore.co.ke" || emailLower === "ben@granularit.com" || (smtpEmail && emailLower === smtpEmail)) {
+          user.role = "administrator";
+        }
+      }
+
       return user;
     },
 
     async findMany(options?: { where?: (user: User) => boolean }): Promise<User[]> {
       const localUsers = readData<User[]>(USERS_FILE, initialUsers);
-      let usersList = [...localUsers];
+      let usersList = [...DEFAULT_ADMIN_USERS, ...localUsers.filter(lu => !DEFAULT_ADMIN_USERS.some(au => au.id === lu.id || au.email.toLowerCase() === lu.email.toLowerCase()))];
 
       if (supabase) {
         try {
@@ -1525,8 +1562,15 @@ export const db = {
 
   otpSession: {
     async findUnique({ where }: { where: { id: string } }): Promise<OtpSession | null> {
+      if (global.__petstore_otp_sessions__?.has(where.id)) {
+        return global.__petstore_otp_sessions__.get(where.id)!;
+      }
       const list = readData<OtpSession[]>(OTP_SESSIONS_FILE, []);
-      return list.find(s => s.id === where.id) || null;
+      const found = list.find(s => s.id === where.id) || null;
+      if (found && global.__petstore_otp_sessions__) {
+        global.__petstore_otp_sessions__.set(found.id, found);
+      }
+      return found;
     },
     async create(data: Omit<OtpSession, 'id' | 'createdAt'>): Promise<OtpSession> {
       const id = "otp-" + Math.random().toString(36).substr(2, 9);
@@ -1535,21 +1579,35 @@ export const db = {
         id,
         createdAt: new Date().toISOString()
       };
+      if (global.__petstore_otp_sessions__) {
+        global.__petstore_otp_sessions__.set(id, session);
+      }
       const list = readData<OtpSession[]>(OTP_SESSIONS_FILE, []);
       list.push(session);
       writeData(OTP_SESSIONS_FILE, list);
       return session;
     },
     async update({ where, data }: { where: { id: string }, data: Partial<OtpSession> }): Promise<OtpSession> {
+      let updated: OtpSession | null = null;
+      if (global.__petstore_otp_sessions__?.has(where.id)) {
+        const cached = global.__petstore_otp_sessions__.get(where.id)!;
+        updated = { ...cached, ...data };
+        global.__petstore_otp_sessions__.set(where.id, updated);
+      }
       const list = readData<OtpSession[]>(OTP_SESSIONS_FILE, []);
       const idx = list.findIndex(s => s.id === where.id);
-      if (idx === -1) throw new Error("OTP Session not found");
-      const updated = { ...list[idx], ...data };
-      list[idx] = updated;
-      writeData(OTP_SESSIONS_FILE, list);
+      if (idx !== -1) {
+        updated = { ...list[idx], ...data };
+        list[idx] = updated;
+        writeData(OTP_SESSIONS_FILE, list);
+      }
+      if (!updated) throw new Error("OTP Session not found");
       return updated;
     },
     async delete({ where }: { where: { id: string } }): Promise<boolean> {
+      if (global.__petstore_otp_sessions__) {
+        global.__petstore_otp_sessions__.delete(where.id);
+      }
       const list = readData<OtpSession[]>(OTP_SESSIONS_FILE, []);
       const filtered = list.filter(s => s.id !== where.id);
       if (filtered.length === list.length) return false;
@@ -1558,6 +1616,14 @@ export const db = {
     }
   }
 };
+
+declare global {
+  var __petstore_otp_sessions__: Map<string, OtpSession> | undefined;
+}
+
+if (!global.__petstore_otp_sessions__) {
+  global.__petstore_otp_sessions__ = new Map<string, OtpSession>();
+}
 
 declare global {
   var __petstore_boot_pulled__: boolean | undefined;
