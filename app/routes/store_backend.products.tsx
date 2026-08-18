@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { Form, useLoaderData, useNavigation, useSearchParams, Link, redirect } from "react-router";
 import fs from "fs";
 import path from "path";
-import { getAllProducts, getAllCategories, getAllReviews, getAllBrands, getAllTags, getAllAttributes, saveAllBrands, saveAllTags, saveAllAttributes, saveAllCategories } from "~/lib/content.server";
+import { getAllProducts, getAllCategories, getAllReviews, saveAllReviews, getAllBrands, getAllTags, getAllAttributes, saveAllBrands, saveAllTags, saveAllAttributes, saveAllCategories } from "~/lib/content.server";
 import { upsertProductToSupabase, deleteProductFromSupabase } from "~/lib/supabase.server";
 
 const BRAND_IMAGES: Record<string, string> = {
@@ -1260,6 +1260,34 @@ export async function action({ request }: { request: Request }) {
     return { syncSuccess: true };
   }
 
+  // REVIEW ACTIONS
+  if (intent === "approve_review") {
+    const reviewId = Number(formData.get("id"));
+    const allReviews = getAllReviews();
+    const updated = allReviews.map((r: any) => (r.id === reviewId ? { ...r, approved: true } : r));
+    saveAllReviews(updated);
+    const { logHistoryEvent } = await import("~/lib/content.server");
+    logHistoryEvent(user.name, "Approved Review", `Approved customer review #${reviewId}`, "⭐");
+    return redirect("/store_backend/products?view=reviews");
+  }
+
+  if (intent === "delete_review") {
+    const reviewId = Number(formData.get("id"));
+    const allReviews = getAllReviews();
+    const updated = allReviews.filter((r: any) => r.id !== reviewId);
+    saveAllReviews(updated);
+    const { logHistoryEvent } = await import("~/lib/content.server");
+    logHistoryEvent(user.name, "Deleted Review", `Deleted customer review #${reviewId}`, "🗑️");
+    return redirect("/store_backend/products?view=reviews");
+  }
+
+  if (intent === "clear_all_reviews") {
+    saveAllReviews([]);
+    const { logHistoryEvent } = await import("~/lib/content.server");
+    logHistoryEvent(user.name, "Cleared All Reviews", "Removed all customer reviews", "🧹");
+    return redirect("/store_backend/products?view=reviews");
+  }
+
   return null;
   } finally {
     try {
@@ -1406,6 +1434,10 @@ export default function VpBackendProducts() {
   // Local list states for review edits
   const [reviewsList, setReviewsList] = useState(allReviews || []);
 
+  useEffect(() => {
+    setReviewsList(allReviews || []);
+  }, [allReviews]);
+
   // Form input states
   const [newBrandName, setNewBrandName] = useState("");
   const [newBrandDesc, setNewBrandDesc] = useState("");
@@ -1422,14 +1454,6 @@ export default function VpBackendProducts() {
   const [newAttrName, setNewAttrName] = useState("");
   const [newAttrSlug, setNewAttrSlug] = useState("");
   const [newAttrTerms, setNewAttrTerms] = useState("");
-
-  const handleApproveReview = (id: number) => {
-    setReviewsList(reviewsList.map((r: any) => r.id === id ? { ...r, approved: true } : r));
-  };
-
-  const handleDeleteReview = (id: number) => {
-    setReviewsList(reviewsList.filter((r: any) => r.id !== id));
-  };
 
   // Dynamic product status counts (calculated from allProducts before filters are applied)
   const countAll = allProducts.filter((p: any) => p.status !== "trash").length;
@@ -4014,63 +4038,95 @@ export default function VpBackendProducts() {
       {/* VIEW: REVIEWS */}
       {currentView === "reviews" && (
         <div>
-          <div style={{ marginBottom: "24px" }}>
-            <h2 style={{ fontSize: "20px", fontWeight: "600", color: "#fff" }}>Customer Reviews</h2>
-            <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.4)", marginTop: "4px" }}>Read and manage client review scores and comments.</p>
+          <div style={{ marginBottom: "24px", display: "flex", justifyContent: "space-between", alignItems: "flex-end" }}>
+            <div>
+              <h2 style={{ fontSize: "20px", fontWeight: "600", color: "#fff" }}>Customer Reviews</h2>
+              <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.4)", marginTop: "4px" }}>Read and manage client review scores and comments.</p>
+            </div>
+            {reviewsList.length > 0 && (
+              <Form method="post" onSubmit={(e) => { if (!confirm("Are you sure you want to remove all customer reviews?")) e.preventDefault(); }}>
+                <input type="hidden" name="intent" value="clear_all_reviews" />
+                <button type="submit" className="edit-badge-btn" style={{ background: "rgba(255, 77, 98, 0.1)", color: "#ff4d62", borderColor: "rgba(255, 77, 98, 0.3)", padding: "6px 14px", height: "auto" }}>
+                  Clear All Reviews
+                </button>
+              </Form>
+            )}
           </div>
 
           <div className="directory-table-card" style={{ width: "100%" }}>
-            <div className="admin-table-wrapper">
-              <table className="admin-table">
-                <thead>
-                  <tr>
-                    <th>Author</th>
-                    <th>Rating</th>
-                    <th>Comment</th>
-                    <th>Product</th>
-                    <th>Submitted On</th>
-                    <th style={{ textAlign: "right" }}>Status / Actions</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {reviewsList.map((rev: any) => (
-                    <tr key={rev.id}>
-                      <td>
-                        <div style={{ fontWeight: "600", color: "#fff" }}>{rev.author}</div>
-                      </td>
-                      <td style={{ color: "#ffa801" }}>
-                        {"★".repeat(rev.rating)}
-                        {"☆".repeat(5 - rev.rating)}
-                      </td>
-                      <td style={{ fontSize: "13px", color: "rgba(255,255,255,0.8)", maxWidth: "300px", whiteSpace: "normal" }}>
-                        {rev.content}
-                      </td>
-                      <td style={{ fontSize: "13px", color: "#00ccff" }}>{rev.product}</td>
-                      <td style={{ fontSize: "12px", color: "rgba(255,255,255,0.4)" }}>{rev.date}</td>
-                      <td style={{ textAlign: "right" }}>
-                        {rev.approved ? (
-                          <div style={{ display: "flex", gap: "8px", justifyContent: "flex-end" }}>
-                            <span className="status-badge completed" style={{ fontSize: "11px", padding: "2px 8px" }}>Approved</span>
-                            <button type="button" className="edit-badge-btn" onClick={() => handleDeleteReview(rev.id)} style={{ background: "rgba(255, 77, 98, 0.1)", color: "#ff4d62", borderColor: "rgba(255, 77, 98, 0.3)" }}>
-                              Delete
-                            </button>
-                          </div>
-                        ) : (
-                          <div style={{ display: "flex", gap: "8px", justifyContent: "flex-end" }}>
-                            <button type="button" className="edit-badge-btn" onClick={() => handleApproveReview(rev.id)}>
-                              Approve
-                            </button>
-                            <button type="button" className="edit-badge-btn" onClick={() => handleDeleteReview(rev.id)} style={{ background: "rgba(255, 77, 98, 0.1)", color: "#ff4d62", borderColor: "rgba(255, 77, 98, 0.3)" }}>
-                              Delete
-                            </button>
-                          </div>
-                        )}
-                      </td>
+            {reviewsList.length === 0 ? (
+              <div style={{ padding: "64px 24px", textAlign: "center", color: "rgba(255, 255, 255, 0.4)" }}>
+                <div style={{ fontSize: "42px", marginBottom: "14px" }}>⭐</div>
+                <div style={{ fontSize: "16px", fontWeight: "600", color: "#fff", marginBottom: "6px" }}>No Customer Reviews Found</div>
+                <p style={{ fontSize: "13px", maxWidth: "440px", margin: "0 auto", lineHeight: "1.6", color: "rgba(255, 255, 255, 0.5)" }}>
+                  All irrelevant mock reviews have been removed. Any new reviews submitted by verified customers for your pet products will appear here.
+                </p>
+              </div>
+            ) : (
+              <div className="admin-table-wrapper">
+                <table className="admin-table">
+                  <thead>
+                    <tr>
+                      <th>Author</th>
+                      <th>Rating</th>
+                      <th>Comment</th>
+                      <th>Product</th>
+                      <th>Submitted On</th>
+                      <th style={{ textAlign: "right" }}>Status / Actions</th>
                     </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
+                  </thead>
+                  <tbody>
+                    {reviewsList.map((rev: any) => (
+                      <tr key={rev.id}>
+                        <td>
+                          <div style={{ fontWeight: "600", color: "#fff" }}>{rev.author}</div>
+                        </td>
+                        <td style={{ color: "#ffa801" }}>
+                          {"★".repeat(rev.rating)}
+                          {"☆".repeat(5 - rev.rating)}
+                        </td>
+                        <td style={{ fontSize: "13px", color: "rgba(255,255,255,0.8)", maxWidth: "300px", whiteSpace: "normal" }}>
+                          {rev.content}
+                        </td>
+                        <td style={{ fontSize: "13px", color: "#00ccff" }}>{rev.product}</td>
+                        <td style={{ fontSize: "12px", color: "rgba(255,255,255,0.4)" }}>{rev.date}</td>
+                        <td style={{ textAlign: "right" }}>
+                          {rev.approved ? (
+                            <div style={{ display: "flex", gap: "8px", justifyContent: "flex-end" }}>
+                              <span className="status-badge completed" style={{ fontSize: "11px", padding: "2px 8px" }}>Approved</span>
+                              <Form method="post" style={{ display: "inline" }}>
+                                <input type="hidden" name="intent" value="delete_review" />
+                                <input type="hidden" name="id" value={rev.id} />
+                                <button type="submit" className="edit-badge-btn" style={{ background: "rgba(255, 77, 98, 0.1)", color: "#ff4d62", borderColor: "rgba(255, 77, 98, 0.3)" }}>
+                                  Delete
+                                </button>
+                              </Form>
+                            </div>
+                          ) : (
+                            <div style={{ display: "flex", gap: "8px", justifyContent: "flex-end" }}>
+                              <Form method="post" style={{ display: "inline" }}>
+                                <input type="hidden" name="intent" value="approve_review" />
+                                <input type="hidden" name="id" value={rev.id} />
+                                <button type="submit" className="edit-badge-btn">
+                                  Approve
+                                </button>
+                              </Form>
+                              <Form method="post" style={{ display: "inline" }}>
+                                <input type="hidden" name="intent" value="delete_review" />
+                                <input type="hidden" name="id" value={rev.id} />
+                                <button type="submit" className="edit-badge-btn" style={{ background: "rgba(255, 77, 98, 0.1)", color: "#ff4d62", borderColor: "rgba(255, 77, 98, 0.3)" }}>
+                                  Delete
+                                </button>
+                              </Form>
+                            </div>
+                          )}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
           </div>
         </div>
       )}
