@@ -1254,19 +1254,10 @@ export default function CheckoutPage() {
     if (selectedCity === "Nairobi") {
       if (finalShippingMethod === "express") {
         deliveryFee = 500;
-        if (subtotal < 1500) {
-          deliveryFeeLabel = "Express Delivery Fee (2hr) for Nairobi, less than 1500/-";
-        } else {
-          deliveryFeeLabel = "Express Delivery Fee (2hr) for Nairobi, above 1500/-";
-        }
+        deliveryFeeLabel = "Express Shipping(3hr)";
       } else {
-        if (subtotal >= 1500) {
-          deliveryFee = 0;
-          deliveryFeeLabel = `Free Shipping for orders above 1500/- (${selectedZone})`;
-        } else {
-          deliveryFee = zoneBaseFee || 300;
-          deliveryFeeLabel = `Delivery Fee (Standard) - ${selectedZone}`;
-        }
+        deliveryFee = 0;
+        deliveryFeeLabel = "Free Shipping for orders above 5000";
       }
     } else {
       if (cityZones && cityZones[selectedZone] !== undefined) {
@@ -1582,19 +1573,10 @@ export default function CheckoutPage() {
       if (selectedCity === "Nairobi") {
         if (finalShippingMethod === "express") {
           updatedDeliveryFee = 500;
-          if (updatedSubtotal < 1500) {
-            updatedDeliveryFeeLabel = "Express Delivery Fee (2hr) for Nairobi, less than 1500/-";
-          } else {
-            updatedDeliveryFeeLabel = "Express Delivery Fee (2hr) for Nairobi, above 1500/-";
-          }
+          updatedDeliveryFeeLabel = "Express Shipping(3hr)";
         } else {
-          if (updatedSubtotal >= 1500) {
-            updatedDeliveryFee = 0;
-            updatedDeliveryFeeLabel = `Free Shipping for orders above 1500/- (${selectedZone})`;
-          } else {
-            updatedDeliveryFee = zoneBaseFee || 300;
-            updatedDeliveryFeeLabel = `Delivery Fee (Standard) - ${selectedZone}`;
-          }
+          updatedDeliveryFee = 0;
+          updatedDeliveryFeeLabel = "Free Shipping for orders above 5000";
         }
       } else {
         if (cityZones && cityZones[selectedZone] !== undefined) {
@@ -3070,37 +3052,9 @@ export default function CheckoutPage() {
                     </div>
 
                     {/* Delivery Options / Express Shipping Row */}
-                    {selectedCity === "Nairobi" && (!selectedZone || selectedZone === "Select your Neighbourhood") ? (
-                      /* Image 1: User selected Nairobi, but has not selected neighbourhood yet */
-                      <div style={{
-                        padding: "0.75rem 1rem",
-                        borderBottom: "1px solid #eaeaea",
-                        background: "#ffffff"
-                      }}>
-                        <div style={{ display: "flex", alignItems: "flex-start", gap: "0.65rem" }}>
-                          <input
-                            type="checkbox"
-                            disabled
-                            style={{
-                              marginTop: "0.2rem",
-                              width: "16px",
-                              height: "16px",
-                              cursor: "not-allowed"
-                            }}
-                          />
-                          <div>
-                            <div style={{ fontWeight: "bold", fontSize: "0.88rem", color: "#475569" }}>
-                              <span style={{ color: "#f97316", marginRight: "4px" }}>⚡</span> Express Shipping (2hr Turnaround)
-                            </div>
-                            <div style={{ fontSize: "0.8rem", color: "#64748b", marginTop: "0.2rem" }}>
-                              Select a Neighbourhood to check Express Shipping (2hr) availability.
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    ) : selectedCity === "Nairobi" && selectedZone && selectedZone !== "Select your Neighbourhood" && isNeighbourhoodExpressAllowed ? (
+                    {selectedCity === "Nairobi" && selectedZone && selectedZone !== "Select your Neighbourhood" && isNeighbourhoodExpressAllowed ? (
                       isExpressTimeAvailable ? (
-                        /* Image 3: Nairobi + respective neighbourhood selected AND active during 8am - 3pm */
+                        /* Image 3: Nairobi + eligible neighbourhood selected AND active during 8am - 3pm */
                         <div style={{
                           display: "flex",
                           justifyContent: "space-between",
@@ -3109,11 +3063,11 @@ export default function CheckoutPage() {
                           borderBottom: "1px solid #eaeaea",
                           background: "#ffffff"
                         }}>
-                          <span style={{ fontWeight: "bold", fontSize: "0.9rem", color: "#000" }}>
+                          <span style={{ fontWeight: "bold", fontSize: "0.9rem", color: "#000000" }}>
                             Delivery Options
                           </span>
                           <div style={{ display: "flex", flexDirection: "column", gap: "0.65rem", alignItems: "flex-start" }}>
-                            <label style={{ display: "flex", alignItems: "center", gap: "8px", cursor: "pointer", fontSize: "0.88rem", fontWeight: "bold", color: "#000", margin: 0 }}>
+                            <label style={{ display: "flex", alignItems: "center", gap: "8px", cursor: "pointer", fontSize: "0.88rem", fontWeight: "bold", color: "#000000", margin: 0 }}>
                               <input
                                 type="radio"
                                 name="delivery_option"
@@ -3125,7 +3079,7 @@ export default function CheckoutPage() {
                               <span>Standard Shipping</span>
                             </label>
 
-                            <label style={{ display: "flex", alignItems: "flex-start", gap: "8px", cursor: "pointer", fontSize: "0.88rem", fontWeight: "bold", color: "#000", margin: 0 }}>
+                            <label style={{ display: "flex", alignItems: "flex-start", gap: "8px", cursor: "pointer", fontSize: "0.88rem", fontWeight: "bold", color: "#000000", margin: 0 }}>
                               <input
                                 type="radio"
                                 name="delivery_option"
@@ -3136,13 +3090,13 @@ export default function CheckoutPage() {
                               />
                               <div style={{ display: "flex", flexDirection: "column" }}>
                                 <span>Express Shipping(3hr)</span>
-                                <span style={{ fontSize: "0.78rem", fontWeight: "normal", color: "#64748b" }}>8am -3pm</span>
+                                <span style={{ fontSize: "0.78rem", fontWeight: "bold", color: "#000000" }}>8am -3pm</span>
                               </div>
                             </label>
                           </div>
                         </div>
                       ) : (
-                        /* Image 2: Nairobi + neighbourhood selected, but time has elapsed / outside hours */
+                        /* Nairobi + eligible neighbourhood selected, but time has elapsed / outside hours */
                         <div style={{
                           display: "flex",
                           justifyContent: "space-between",
@@ -3151,10 +3105,10 @@ export default function CheckoutPage() {
                           borderBottom: "1px solid #eaeaea",
                           background: "#ffffff"
                         }}>
-                          <span style={{ fontWeight: "bold", fontSize: "0.9rem", color: "#000", minWidth: "120px" }}>
+                          <span style={{ fontWeight: "bold", fontSize: "0.9rem", color: "#000000", minWidth: "120px" }}>
                             Delivery Options
                           </span>
-                          <div style={{ fontSize: "0.85rem", fontWeight: "bold", color: "#000", lineHeight: "1.45", textAlign: "left", maxWidth: "420px" }}>
+                          <div style={{ fontSize: "0.85rem", fontWeight: "bold", color: "#000000", lineHeight: "1.45", textAlign: "left", maxWidth: "420px" }}>
                             Express shipping is only available between 8AM - 3PM, and on Saturdays until 11AM, excluding Sundays, and Public Holidays. Turnaround time is 2 hours.
                           </div>
                         </div>
@@ -3168,18 +3122,18 @@ export default function CheckoutPage() {
                       padding: "0.75rem 1rem",
                       borderBottom: "1px solid #eaeaea",
                       fontSize: "14px",
-                      color: "#515151",
+                      color: "#000000",
                       alignItems: "center"
                     }}>
                       <span style={{
                         maxWidth: "80%",
                         lineHeight: 1.3,
-                        fontWeight: !isNeighbourhoodProvided ? "bold" : "normal",
-                        color: !isNeighbourhoodProvided ? "#000000" : "#515151"
+                        fontWeight: "bold",
+                        color: "#000000"
                       }}>
                         {deliveryFeeLabel}
                       </span>
-                      <span style={{ fontWeight: "bold" }}>
+                      <span style={{ fontWeight: "bold", color: "#000000" }}>
                         {isNeighbourhoodProvided ? `${deliveryFee.toLocaleString()}KSh` : "0KSh"}
                       </span>
                     </div>
