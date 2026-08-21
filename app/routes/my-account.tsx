@@ -1395,9 +1395,6 @@ export default function MyAccount() {
                   <p style={{ color: "#000000" }}>
                     From your account dashboard you can view your <span style={{ color: "#3b82f6", cursor: "pointer" }} onClick={() => navigate("/my-account/orders")}>recent orders</span>, manage your <span style={{ color: "#3b82f6", cursor: "pointer" }} onClick={() => navigate("/my-account/saved-addresses")}>shipping and billing addresses</span>, and <span style={{ color: "#3b82f6", cursor: "pointer" }} onClick={() => navigate("/my-account/edit-account")}>edit your password and account details</span>.
                   </p>
-                  <p style={{ color: "#000000", marginTop: "1rem" }}>
-                    Should you wish to close your account, you can request <Link to="/account-deletion" style={{ color: "#ef4444", textDecoration: "none", fontWeight: "bold" }}>account deletion</Link>.
-                  </p>
                 </div>
               )}
 
