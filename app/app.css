@@ -1420,7 +1420,7 @@ body {
 
 .footer-col:not(.footer-col-need-help) li {
   position: relative;
-  padding-left: 24px;
+  padding-left: 28px;
   margin-bottom: 0;
   height: 40px;
   display: flex;
@@ -1435,7 +1435,9 @@ body {
   transform: translateY(-50%);
   font-family: "FontAwesome";
   color: #1e5da7;
-  font-size: 16px;
+  font-size: 18px;
+  width: 20px;
+  text-align: center;
 }
 
 .footer-col-need-help li {
@@ -1447,13 +1449,18 @@ body {
   align-items: center;
 }
 
-.footer-inline-icon {
+.footer-inline-icon,
+.footer-col a .footer-inline-icon {
   color: #1e5da7;
-  font-size: 22px;
-  margin-right: 12px;
-  width: 22px;
+  font-size: 18px !important;
+  line-height: 1;
+  margin-right: 8px;
+  width: 20px;
   text-align: center;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
 .footer-col a {
@@ -1461,7 +1468,8 @@ body {
   text-decoration: none;
   font-size: 13px;
   line-height: 40px;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   transition: var(--transition);
 }
 
